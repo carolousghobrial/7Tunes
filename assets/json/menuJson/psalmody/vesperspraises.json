@@ -1,0 +1,36 @@
+{
+    "books" : [
+        {
+        "EnglishTitle" : "Standard Vesper's Praises",
+        "ArabicTitle" : "تسبحة عشية السنوي",    
+       "PurchaseKeyDroid" : "annualpsalmodyid" , 
+        "PurchaseKeyIos" : "annualpsalmodyidsku", 
+        "hasSubBooks" : true,
+        "BookPath" : 15, 
+        "ImageURL" : "david",
+        "Enabled" : true
+
+        },
+        {
+        "EnglishTitle" : "Kiahk Vesper's Praises",
+        "ArabicTitle" : "تسبحة عشية الكيهكي",    
+       "PurchaseKeyDroid" : "annualpsalmodyid" , 
+        "PurchaseKeyIos" : "annualpsalmodyidsku", 
+        "hasSubBooks" : true,
+        "BookPath" : 4, 
+        "ImageURL" : "annuciation",
+        "Enabled" : true
+        },
+             {
+        "EnglishTitle" : "Lenten Vesper's Praises",
+        "ArabicTitle" : "تسبحة عشية الصيامي",    
+       "PurchaseKeyDroid" : "holypaschaid" , 
+        "PurchaseKeyIos" : "holypaschasku", 
+        "hasSubBooks" : false,
+        "BookPath" : 3, 
+        "ImageURL" : "lent",
+        "Enabled" : true
+        }
+
+    ]
+}

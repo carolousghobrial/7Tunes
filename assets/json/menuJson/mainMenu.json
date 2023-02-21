@@ -1,0 +1,56 @@
+{
+    "books" : [
+        {
+        "EnglishTitle" : "Holy Psalmody",
+        "ArabicTitle" : "الابصلمودية المقدسة",    
+       "PurchaseKeyDroid" : "annualpsalmodyid" , 
+        "PurchaseKeyIos" : "annualpsalmodyidsku", 
+        "hasSubBooks" : true,
+        "BookPath" : "psalmody", 
+        "ImageURL" : "psalmody",
+        "Enabled" : true
+
+        },
+        {
+        "EnglishTitle" : "Holy Liturgy",
+        "ArabicTitle" : "القداس الإلهي",    
+       "PurchaseKeyDroid" : "annualpsalmodyid" , 
+        "PurchaseKeyIos" : "annualpsalmodyidsku", 
+        "hasSubBooks" : true,
+        "BookPath" : "liturgy", 
+        "ImageURL" : "liturgy",
+        "Enabled" : true
+        },
+             {
+        "EnglishTitle" : "The Holy Pascha",
+        "ArabicTitle" : "البصخة المقدسة",   
+       "PurchaseKeyDroid" : "holypaschaid" , 
+        "PurchaseKeyIos" : "holypaschasku", 
+        "hasSubBooks" : true,
+        "BookPath" : "pascha", 
+        "ImageURL" : "pascha",
+        "Enabled" : true
+        },
+        {
+        "EnglishTitle" : "The Veneration",
+        "ArabicTitle" : "التمجيد",   
+       "PurchaseKeyDroid" : "" , 
+        "PurchaseKeyIos" : "", 
+        "hasSubBooks" : false,
+        "BookPath" : 2, 
+        "ImageURL" : "veneration",
+        "Enabled" : true
+        },
+        {
+        "EnglishTitle" : "Index Libray",
+        "ArabicTitle" : "فهرس",   
+       "PurchaseKeyDroid" : "" , 
+        "PurchaseKeyIos" : "", 
+        "hasSubBooks" : true,
+        "BookPath" : 1, 
+        "ImageURL" : "index",
+        "Enabled" : true
+        }
+
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "books" : [
+        {
+        "EnglishTitle" : "Ninth Hour",
+        "ArabicTitle" : "الساعة التاسعة",    
+       "PurchaseKeyDroid" : "" , 
+        "PurchaseKeyIos" : "", 
+        "hasSubBooks" : false,
+        "BookPath" : "sundayNinth", 
+        "ImageURL" : "ninth",
+        "Enabled" : true
+
+        },
+        {
+        "EnglishTitle" : "Eleventh Hour",
+        "ArabicTitle" : "الساعة الحادية عشر",     
+       "PurchaseKeyDroid" : "" , 
+        "PurchaseKeyIos" : "", 
+        "hasSubBooks" : false,
+        "BookPath" : "sundayEleventh", 
+        "ImageURL" : "eleventh",
+        "Enabled" : true
+        }
+
+    ]
+}

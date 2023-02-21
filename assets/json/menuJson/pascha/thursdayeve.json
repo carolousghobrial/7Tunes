@@ -1,0 +1,58 @@
+{
+    "books" : [
+          {
+        "EnglishTitle" : "First Hour",
+        "ArabicTitle" : "الساعة الأولى",    
+       "PurchaseKeyDroid" : "" , 
+        "PurchaseKeyIos" : "", 
+        "hasSubBooks" : false,
+        "BookPath" : "thursdayeveFirst", 
+        "ImageURL" : "first",
+        "Enabled" : true
+
+        },
+         {
+        "EnglishTitle" : "Third Hour",
+        "ArabicTitle" : "الساعة الثالثة",    
+       "PurchaseKeyDroid" : "" , 
+        "PurchaseKeyIos" : "", 
+        "hasSubBooks" : false,
+        "BookPath" : "thursdayeveThird", 
+        "ImageURL" : "third",
+        "Enabled" : true
+
+        },
+        {
+        "EnglishTitle" : "Sixth Hour",
+        "ArabicTitle" : "الساعة السادسة ",     
+       "PurchaseKeyDroid" : "" , 
+        "PurchaseKeyIos" : "", 
+        "hasSubBooks" : false,
+        "BookPath" : "thursdayeveSixth", 
+        "ImageURL" : "sixth",
+        "Enabled" : true
+        },
+        {
+        "EnglishTitle" : "Ninth Hour",
+        "ArabicTitle" : "الساعة التاسعة",    
+       "PurchaseKeyDroid" : "" , 
+        "PurchaseKeyIos" : "", 
+        "hasSubBooks" : false,
+        "BookPath" : "thursdayeveNinth", 
+        "ImageURL" : "ninth",
+        "Enabled" : true
+
+        },
+        {
+        "EnglishTitle" : "Eleventh Hour",
+        "ArabicTitle" : "الساعة الحادية عشر",     
+       "PurchaseKeyDroid" : "" , 
+        "PurchaseKeyIos" : "", 
+        "hasSubBooks" : false,
+        "BookPath" : "thursdayeveEleventh", 
+        "ImageURL" : "eleventh",
+        "Enabled" : true
+        }
+
+    ]
+}
