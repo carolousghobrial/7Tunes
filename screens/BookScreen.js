@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import {
   StyleSheet,
-  Dimensions,
+  useWindowDimensions,
   Text,
   LayoutAnimation,
   View,
@@ -12,18 +12,21 @@ import {
 import BookView from "../components/homepage/bookView";
 import TopBoxView from "../components/homepage/topBoxView";
 import bookPaths from "../helpers/bookPathsHelpers";
+import { useDispatch, useSelector } from "react-redux";
 
 const _spacing = 10;
 function BookScreen({ navigation, route }) {
+  const fontSize = useSelector((state) => state.settings.textFontSize);
+
   const data = bookPaths.morningDoxology["adam"];
   const [index, setIndex] = useState(0);
   const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
-  const [scrollDirection, setScrollDirection] = useState(null);
-  const previousOffset = useRef(null);
-  const [currentIndex, setCurrentIndex] = useState(null);
-  const [offset, SetOffset] = React.useState(0);
+  // const [scrollDirection, setScrollDirection] = useState(null);
+  const [topIndex, setTopIndex] = useState(0);
+  const [bottomIndex, setBottomIndex] = useState(0);
   const flatListRef = useRef();
-  //
+  const { height, width } = useWindowDimensions();
+
   const onViewableItemsChanged = React.useCallback((viewableItems) => {
     sehowMcuhToScroll(viewableItems.viewableItems.length - 1);
     // Use viewable items in state or as intended
@@ -32,36 +35,52 @@ function BookScreen({ navigation, route }) {
   let Arabic = data.arabic.split("\n");
   let Coptic = data.coptic.split("\n");
   let English = data.english.split("\n");
+
   let ArabicCoptic = data.arabiccoptic.split("\n");
   let EnglishCoptic = data.englishcoptic.split("\n");
-  const [clickedSide, setClickedSide] = useState("");
 
   const handlePress = (event) => {
     const { locationX } = event.nativeEvent;
-
-    if (locationX < screenWidth / 2) {
-      setClickedSide("Left");
+    console.log(locationX);
+    if (locationX < width / 2) {
+      scrollUp();
     } else {
-      setClickedSide("Right");
+      scrollDown();
     }
 
     LayoutAnimation.configureNext(LayoutAnimation.Presets.spring);
   };
-  function renderMealItem(itemData) {
-    return <Text style={styles.textStyle}>{itemData.item}</Text>;
+  function renderItems(itemData) {
+    const characters = itemData.item.split("");
+
+    return (
+      <View style={{ flexDirection: "row", flexWrap: "wrap" }}>
+        {characters.map((char, index) => (
+          <View>
+            <Text style={[styles.textStyle, { fontSize }]}>{char}</Text>
+            <Text style={[styles.floatingText, { fontSize: fontSize / 2 }]}>
+              {char}
+            </Text>
+          </View>
+        ))}
+      </View>
+      // <Text style={[styles.textStyle, { fontSize }]}>{itemData.item}</Text>
+    );
   }
 
   function scrollDown() {
-    if (index === Coptic.length - 1) {
+    var newIndex = index + howMcuhToScroll;
+    if (newIndex >= Coptic.length - 1) {
       return;
     }
-    setIndex(index + howMcuhToScroll);
+    setIndex(newIndex);
   }
   function scrollUp() {
-    if (index === 0) {
+    var newIndex = index - howMcuhToScroll;
+    if (newIndex <= 0) {
       return;
     }
-    setIndex(index - howMcuhToScroll);
+    setIndex(newIndex);
   }
 
   useEffect(() => {
@@ -77,9 +96,9 @@ function BookScreen({ navigation, route }) {
           data={Coptic}
           contentContainerStyle={{ paddingLeft: _spacing }}
           showsVerticalScrollIndicator={false}
-          renderItem={renderMealItem}
+          renderItem={renderItems}
           keyExtractor={(item, index) => {
-            return index;
+            return item.charAt(2);
           }}
         />
       </TouchableOpacity>
@@ -97,15 +116,19 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
   },
   textStyle: {
-    margin: 5,
-    padding: 5,
-    color: "white",
-    justifyContent: "space-around",
-    textAlign: "justify",
     fontFamily: "coptic-font",
-    fontSize: 35,
+    color: "white",
+    justifyContent: "flex-start",
   },
   box: {
     flex: 1,
+  },
+  floatingText: {
+    position: "absolute",
+    top: -12, // adjust the top position to make it float over the base letter
+    fontSize: 25,
+    backgroundColor: "transparent",
+    color: "red", // set the color of the floating letter
+    zIndex: 1, // set the zIndex to bring the floating letter to the top
   },
 });

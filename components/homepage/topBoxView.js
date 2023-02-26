@@ -19,6 +19,7 @@ function TopBoxView() {
             new Date().getDate()
           )}
         </Text>
+        <Text style={styles.text}>{moment().format("dddd, MMMM Do YYYY")}</Text>
       </View>
 
       {/* <Text>{getCopticFastsFeasts()}</Text> */}
@@ -36,7 +37,7 @@ const styles = StyleSheet.create({
   image: {
     flex: 1,
     width: "100%",
-    height: 100,
+    height: 90,
     borderRadius: 100 / 2,
     overflow: "hidden",
   },
@@ -48,7 +49,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "black",
-    fontSize: 25,
+    fontSize: 15,
     fontFamily: "english-font",
     fontWeight: "bold",
     textAlign: "center",
