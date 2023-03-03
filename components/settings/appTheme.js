@@ -1,26 +1,39 @@
-import { View, Switch, StyleSheet, Text, Image, Pressable } from "react-native";
+import {
+  View,
+  Switch,
+  StyleSheet,
+  Text,
+  Image,
+  Pressable,
+  useWindowDimensions,
+} from "react-native";
+import {
+  getLanguageValue,
+  getFontSize,
+  getColor,
+} from "../../helpers/SettingsHelpers";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors.js";
+import Languages from "../../constants/languages.js";
 import { changeDarkMode } from "../../stores/redux/settings.js";
 
 function AppTheme() {
-  const fontSize = useSelector((state) => state.settings.textFontSize);
-
+  const { height, width } = useWindowDimensions();
   const darkMode = useSelector((state) => state.settings.darkMode);
 
   const dispatch = useDispatch();
   const toggleSwitch = () => dispatch(changeDarkMode());
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container]}>
       <View style={styles.switchView}>
         <View style={styles.titleView}>
-          <Text style={[styles.title, { fontSize }]}>Dark Mode</Text>
-          <Text style={[styles.title, { fontSize: fontSize / 1.7 }]}>
-            Today's Prayer options allows the application to automatically load
-            the prayers/hymns said today rather than loading all the possible
-            options
+          <Text style={[styles.title, { fontSize: getFontSize() }]}>
+            {getLanguageValue("backgroundselector")}
+          </Text>
+          <Text style={[styles.title, { fontSize: getFontSize() / 1.7 }]}>
+            Set the Theme of the application
           </Text>
         </View>
         <View style={styles.switch}>
@@ -28,17 +41,22 @@ function AppTheme() {
             <Text
               style={
                 darkMode
-                  ? [styles.textOn, { fontSize }]
-                  : [styles.textOff, { fontSize }]
+                  ? [styles.textOn, { fontSize: getFontSize() }]
+                  : [styles.textOff, { fontSize: getFontSize() }]
               }
             >
-              {darkMode ? "Dark" : "Light"}
+              {darkMode ? getLanguageValue("dark") : getLanguageValue("light")}
             </Text>
           </View>
           <Switch
-            trackColor={darkMode ? "black" : Colors.pageBackgroundColor}
+            trackColor={{
+              false: getColor("NavigationBarColor"),
+              true: getColor("SecondaryColor"),
+            }}
             ios_backgroundColor={
-              darkMode ? "black" : Colors.pageBackgroundColor
+              darkMode
+                ? getColor("SecondaryColor")
+                : getColor("NavigationBarColor")
             }
             value={darkMode}
             onValueChange={toggleSwitch}
@@ -66,10 +84,8 @@ const styles = StyleSheet.create({
     fontFamily: "english-font",
   },
   description: {
-    fontSize: 15,
     fontFamily: "english-font",
     textAlign: "justify",
-    color: "gray",
   },
   switchView: {
     flexDirection: "row",

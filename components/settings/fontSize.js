@@ -2,14 +2,18 @@ import { View, Switch, StyleSheet, Text, Image, Pressable } from "react-native";
 import React, { useState } from "react";
 import moment from "moment";
 import Colors from "../../constants/colors.js";
+import {
+  getLanguageValue,
+  getFontSize,
+  getColor,
+} from "../../helpers/SettingsHelpers";
 import { useDispatch, useSelector } from "react-redux";
 import { changeFontSize } from "../../stores/redux/settings.js";
 function FontSize() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const dispatch = useDispatch();
   //const [fontSize, setFontSize] = useState(24);
-  const minFont = 10;
-  const maxFont = 40;
+
   function fontSizePlus() {
     dispatch(changeFontSize({ direction: "plus" }));
   }
@@ -20,7 +24,7 @@ function FontSize() {
     <View style={styles.container}>
       <View style={styles.switchView}>
         <View style={styles.titleView}>
-          <Text style={styles.title}>Select Font Size</Text>
+          <Text style={styles.title}>{getLanguageValue("fontsizelabel")}</Text>
 
           <Text style={styles.fontsizestyle}>{fontSize}</Text>
         </View>

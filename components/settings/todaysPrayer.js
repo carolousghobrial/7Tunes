@@ -2,6 +2,11 @@ import { View, Switch, StyleSheet, Text, Image, Pressable } from "react-native";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors.js";
+import {
+  getLanguageValue,
+  getFontSize,
+  getColor,
+} from "../../helpers/SettingsHelpers";
 import { changeTodayPrayer } from "../../stores/redux/settings.js";
 
 function TodaysPrayer() {
@@ -10,12 +15,13 @@ function TodaysPrayer() {
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   const dispatch = useDispatch();
   const toggleSwitch = () => dispatch(changeTodayPrayer());
-
   return (
     <View style={styles.container}>
       <View style={styles.switchView}>
         <View style={styles.titleView}>
-          <Text style={[styles.title, { fontSize }]}>Today's Prayer</Text>
+          <Text style={[styles.title, { fontSize }]}>
+            {getLanguageValue("todayprayer")}
+          </Text>
           <Text style={[styles.description, { fontSize: fontSize / 1.7 }]}>
             Today's Prayer options allows the application to automatically load
             the prayers/hymns said today rather than loading all the possible

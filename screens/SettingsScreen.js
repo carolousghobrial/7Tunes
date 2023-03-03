@@ -16,11 +16,11 @@ import TodaysPrayer from "../components/settings/todaysPrayer";
 function SettingsScreen({ navigation, route }) {
   return (
     <ScrollView style={styles.container}>
-      <TodaysPrayer></TodaysPrayer>
-      <ApplicationLanguage></ApplicationLanguage>
-      <FontSize></FontSize>
-      <AppTheme></AppTheme>
-      <Test></Test>
+      <AppTheme key="0"></AppTheme>
+      <TodaysPrayer key="2"></TodaysPrayer>
+      <ApplicationLanguage key="3"></ApplicationLanguage>
+      <FontSize key="4"></FontSize>
+      <Test key="5"></Test>
     </ScrollView>
   );
 }

@@ -18,17 +18,15 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import SettingsScreen from "./screens/SettingsScreen";
 import CustomDrawerScreen from "./screens/CustomDrawerScreen";
 import { Provider } from "react-redux";
-import { store } from "./stores/redux/store";
+import { store, persistor } from "./stores/redux/store";
+import NavigationContainerView from "./components/homepage/NavigationContainerView";
+import { useDispatch, useSelector } from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
 
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
-const Stack = createNativeStackNavigator();
-
-const Drawer = createDrawerNavigator();
 
 export default function App() {
-  const { height, width } = useWindowDimensions();
-
   const [appIsReady, setAppIsReady] = useState(false);
 
   useEffect(() => {
@@ -62,52 +60,6 @@ export default function App() {
     return null;
   }
 
-  function Root() {
-    return (
-      <Drawer.Navigator
-        drawerContent={(props) => <CustomDrawerScreen {...props} />}
-        screenOptions={{
-          headerStyle: { backgroundColor: Colors.NavigationBarColor },
-          headerTintColor: "black",
-          sceneContainerStyle: {
-            backgroundColor: "transparent",
-          },
-          drawerContentStyle: { backgroundColor: Colors.NavigationBarColor },
-          drawerActiveBackgroundColor: "white",
-          drawerActiveTintColor: "black",
-          swipeEdgeWidth: width,
-        }}
-      >
-        <Drawer.Screen
-          name="myHome"
-          component={HomepageScreen}
-          initialParams={{
-            bookPath: "myHome",
-            englishTitle: "7 Tunes",
-          }}
-          options={({ route, navigation }) => {
-            const englishTitle = route.params.englishTitle;
-            return {
-              title: englishTitle,
-              drawerIcon: ({ color, size }) => (
-                <Ionicons name="home" color={color} size={size} />
-              ),
-            };
-          }}
-        />
-        <Drawer.Screen
-          component={SettingsScreen}
-          name="SettingsScreen"
-          options={{
-            title: "Settings",
-            drawerIcon: ({ color, size }) => (
-              <Ionicons name="settings" color={color} size={size} />
-            ),
-          }}
-        />
-      </Drawer.Navigator>
-    );
-  }
   return (
     <SafeAreaView style={styles.container} onLayout={onLayoutRootView}>
       <ImageBackground
@@ -116,37 +68,9 @@ export default function App() {
         style={[styles.backgroundimage]}
       >
         <Provider store={store}>
-          <NavigationContainer>
-            <Stack.Navigator
-              screenOptions={{
-                animation: "none",
-                headerStyle: { backgroundColor: Colors.NavigationBarColor },
-                headerTintColor: "black",
-                contentStyle: { backgroundColor: "transparent" },
-              }}
-            >
-              <Stack.Screen
-                name="Root"
-                component={Root}
-                options={{ headerShown: false }}
-              />
-
-              <Stack.Screen
-                name="HomepageScreen"
-                component={HomepageScreen}
-                initialParams={{
-                  bookPath: "myHome",
-                }}
-                options={({ route, navigation }) => {
-                  const englishTitle = route.params.englishTitle;
-                  return {
-                    title: englishTitle,
-                  };
-                }}
-              />
-              <Stack.Screen name="BookScreen" component={BookScreen} />
-            </Stack.Navigator>
-          </NavigationContainer>
+          <PersistGate loading={null} persistor={persistor}>
+            <NavigationContainerView />
+          </PersistGate>
         </Provider>
       </ImageBackground>
     </SafeAreaView>
@@ -165,8 +89,5 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
     justifyContent: "center",
     alignItems: "center",
-  },
-  header: {
-    fontSize: 20,
   },
 });

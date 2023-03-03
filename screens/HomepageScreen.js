@@ -18,6 +18,8 @@ function HomepageScreen({ navigation, route }) {
       if (item.hasSubBooks) {
         navigation.push("HomepageScreen", {
           bookPath: item.BookPath,
+          englishTitle: item.EnglishTitle,
+          arabicTitle: item.ArabicTitle,
         });
       } else {
         navigation.push("BookScreen");

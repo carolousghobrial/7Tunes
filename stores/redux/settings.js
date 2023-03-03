@@ -1,4 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
+import getData from "../../helpers/asyncStorage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import Languages from "../../constants/languages";
+
+// const curTheme = ;
 
 const settingsSlice = createSlice({
   name: "settings",
@@ -15,6 +20,7 @@ const settingsSlice = createSlice({
       return {
         ...state,
         appLanguage: key,
+        activeLang: Languages[key],
       };
     },
     changeDarkMode: (state, action) => {
