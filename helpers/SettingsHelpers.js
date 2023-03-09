@@ -15,5 +15,5 @@ export function getColor(key) {
   const darkMode = useSelector((state) => state.settings.darkMode);
   var activeColors = darkMode === false ? Colors["light"] : Colors["dark"];
 
-  return activeColors.key;
+  return activeColors[key];
 }

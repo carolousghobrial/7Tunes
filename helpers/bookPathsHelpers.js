@@ -1,8 +1,8 @@
-const homescreenPaths = {
+const bookPaths = {
   morningDoxology: {
-    adam: require("../assets/json/books/booksContent/AdamMorningDoxology.json"),
+    adam: require("../assets/json/books/booksContent/json1.json"),
     saints: require("../assets/json/books/booksContent/MorningDoxologySainsts.json"),
   },
 };
 
-export default homescreenPaths;
+export default bookPaths;

@@ -17,10 +17,16 @@ import Colors from "../../constants/colors";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import SettingsScreen from "../../screens/SettingsScreen";
 import CustomDrawerScreen from "../../screens/CustomDrawerScreen";
+import FullFeastsScreen from "../../screens/FullFeastsScreen";
 import { Provider } from "react-redux";
 import { store } from "../../stores/redux/store";
 import { useDispatch, useSelector } from "react-redux";
-
+import {
+  getLanguageValue,
+  getFontSize,
+  getColor,
+} from "../../helpers/SettingsHelpers";
+import { FontAwesome5 } from "@expo/vector-icons";
 const Stack = createNativeStackNavigator();
 
 const Drawer = createDrawerNavigator();
@@ -73,10 +79,21 @@ function NavigationContainerView() {
           component={SettingsScreen}
           name="SettingsScreen"
           options={{
-            title: "Settings",
+            title: getLanguageValue("settings"),
 
             drawerIcon: ({ color, size }) => (
               <Ionicons name="settings" color={color} size={size} />
+            ),
+          }}
+        />
+        <Drawer.Screen
+          component={FullFeastsScreen}
+          name="FullFeastsScreen"
+          options={{
+            title: "Full Feasts",
+
+            drawerIcon: ({ color, size }) => (
+              <FontAwesome5 name="cross" size={24} color="black" />
             ),
           }}
         />

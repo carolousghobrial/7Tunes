@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import getData from "../../helpers/asyncStorage";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Languages from "../../constants/languages";
-
+import { CurrentSeason } from "../../models/currentSeason";
 // const curTheme = ;
 
 const settingsSlice = createSlice({
@@ -12,6 +12,18 @@ const settingsSlice = createSlice({
     darkMode: false,
     textFontSize: 24,
     todayPrayer: true,
+    english: true,
+    coptic: true,
+    arabic: true,
+    copticenglish: false,
+    copticarabic: false,
+    currentSeason: {
+      key: null,
+      week: null,
+      dayOfWeek: null,
+      isWatos: null,
+      isFast: null,
+    },
   },
   reducers: {
     changeLanguage: (state, action) => {
@@ -65,10 +77,47 @@ const settingsSlice = createSlice({
         todayPrayer: !state.todayPrayer,
       };
     },
+    changeTextLanguage: (state, action) => {
+      const lang = action.payload.lang;
+      const value = action.payload.value;
+
+      switch (lang) {
+        case "english":
+          return {
+            ...state,
+            english: !state.english,
+          };
+        case "coptic":
+          return {
+            ...state,
+            coptic: !state.coptic,
+          };
+        case "arabic":
+          return {
+            ...state,
+            arabic: !state.arabic,
+          };
+        case "copticenglish":
+          return {
+            ...state,
+            copticenglish: !state.copticenglish,
+          };
+        case "copticarabic":
+          console.log("jj");
+          return {
+            ...state,
+            copticarabic: !state.copticarabic,
+          };
+        default:
+          return state;
+      }
+    },
   },
 });
 export const changeLanguage = settingsSlice.actions.changeLanguage;
 export const changeDarkMode = settingsSlice.actions.changeDarkMode;
 export const changeFontSize = settingsSlice.actions.changeFontSize;
 export const changeTodayPrayer = settingsSlice.actions.changeTodayPrayer;
+export const changeTextLanguage = settingsSlice.actions.changeTextLanguage;
+
 export default settingsSlice.reducer;

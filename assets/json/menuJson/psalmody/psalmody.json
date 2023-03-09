@@ -27,7 +27,7 @@
        "PurchaseKeyDroid" : "holypaschaid" , 
         "PurchaseKeyIos" : "holypaschasku", 
         "hasSubBooks" : false,
-        "BookPath" : 3, 
+        "BookPath" : "morningDoxology", 
         "ImageURL" : "pascha",
         "Enabled" : true
         }

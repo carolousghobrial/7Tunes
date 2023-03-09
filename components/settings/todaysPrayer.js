@@ -2,16 +2,13 @@ import { View, Switch, StyleSheet, Text, Image, Pressable } from "react-native";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors.js";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers";
+import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import { changeTodayPrayer } from "../../stores/redux/settings.js";
 
 function TodaysPrayer() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
-
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  console.log("CUR " + currentSeason);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   const dispatch = useDispatch();
   const toggleSwitch = () => dispatch(changeTodayPrayer());
@@ -19,24 +16,14 @@ function TodaysPrayer() {
     <View style={styles.container}>
       <View style={styles.switchView}>
         <View style={styles.titleView}>
-          <Text style={[styles.title, { fontSize }]}>
-            {getLanguageValue("todayprayer")}
-          </Text>
-          <Text style={[styles.description, { fontSize: fontSize / 1.7 }]}>
-            Today's Prayer options allows the application to automatically load
-            the prayers/hymns said today rather than loading all the possible
-            options
+          <Text style={[styles.title]}>{getLanguageValue("todayprayer")}</Text>
+          <Text style={[styles.description]}>
+            {getLanguageValue("todayprayerdescription")}
           </Text>
         </View>
         <View style={styles.switch}>
           <View style={styles.textContainer}>
-            <Text
-              style={
-                todayPrayer
-                  ? [styles.textOn, { fontSize }]
-                  : [styles.textOff, { fontSize }]
-              }
-            >
+            <Text style={todayPrayer ? [styles.textOn] : [styles.textOff]}>
               {todayPrayer ? "YES" : "NO"}
             </Text>
           </View>

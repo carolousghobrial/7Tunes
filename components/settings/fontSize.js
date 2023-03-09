@@ -18,6 +18,7 @@ function FontSize() {
     dispatch(changeFontSize({ direction: "plus" }));
   }
   function fontSizeMinus() {
+    console.log("ASD");
     dispatch(changeFontSize({ direction: "minus" }));
   }
   return (

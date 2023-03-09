@@ -1,0 +1,39 @@
+{
+    "main": [
+        {
+            "type": "Title",
+            "rule": -1,
+            "visible": true,
+            "side": "Title",
+            "arabic": "بدء تسبحة عشية",
+            "coptic": "Nieqnoc throu",
+            "english": "The Introduction of the Vespers Praise"
+          },
+          
+      {
+        "type": "Main",
+        "path" : "adam", 
+        "rule": -1,
+        "visible": true
+      },
+      {
+        "type": "Ritual",
+        "rule": -1,
+        "visible": true,
+        "side": "North",
+        "arabic": " المجد لإلهنا ياكل الأمم سبحوا الرب ولتباركه كل الشعوب لأن رحمته قد قويت علينا وحق الرب يدوم إلى الأبد الليلويا,",
+        "english": " Glory be to God, O praise the Lord all you nations : Praise Him, all you people : For His merciful kindness is great towards us : and the truth of the Lord endures forever, Alleluia.,"
+  
+      },
+      {
+        "type": "Button",
+        "rule": 0,
+        "visible": true,
+        "arabic": "اه",
+        "english": "Hi"
+      }
+  
+    ]
+    
+  }
+  

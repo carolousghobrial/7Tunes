@@ -6,6 +6,7 @@ import {
   Text,
   useWindowDimensions,
 } from "react-native";
+import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import { useDispatch, useSelector } from "react-redux";
 import { changeLanguage } from "../../stores/redux/settings.js";
 
@@ -25,8 +26,8 @@ function ApplicationLanguage() {
     flexDirection: flexDirection,
   };
   const languages = [
-    { key: "ara", text: "Arabic" },
-    { key: "eng", text: "English" },
+    { key: "ara", text: getLanguageValue("arabic") },
+    { key: "eng", text: getLanguageValue("english") },
   ];
   function changeLang(key) {
     if (mylanguage != key) {
@@ -36,9 +37,9 @@ function ApplicationLanguage() {
   return (
     <View style={styles.container}>
       <View style={styles.titleView}>
-        <Text style={styles.title}>Set App Language</Text>
+        <Text style={styles.title}>{getLanguageValue("applanguage")}</Text>
         <Text style={[styles.description, { fontSize: fontSize / 1.7 }]}>
-          Set the language of the application to fit your preference.
+          {getLanguageValue("applanguagedescription")}
         </Text>
       </View>
       <View style={[styles.wrapper, wrapperStyle]}>
@@ -49,7 +50,7 @@ function ApplicationLanguage() {
                 {mylanguage === lang.key && <View style={styles.inner} />}
               </View>
 
-              <Text style={[styles.lang, { fontSize }]}>{lang.text}</Text>
+              <Text style={[styles.lang]}>{lang.text}</Text>
             </Pressable>
           </View>
         ))}
@@ -73,7 +74,7 @@ const styles = StyleSheet.create({
   },
   description: {
     fontFamily: "english-font",
-    color: "gray",
+    color: "black",
     fontStyle: "italic",
   },
   fontsizestyle: {

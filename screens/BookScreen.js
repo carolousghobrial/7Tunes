@@ -3,105 +3,128 @@ import {
   StyleSheet,
   useWindowDimensions,
   Text,
-  LayoutAnimation,
   View,
-  TouchableOpacity,
   FlatList,
+  Animated,
   Pressable,
+  StatusBar,
 } from "react-native";
+
 import BookView from "../components/homepage/bookView";
 import TopBoxView from "../components/homepage/topBoxView";
+import homescreenPaths from "../helpers/homescreenPaths";
 import bookPaths from "../helpers/bookPathsHelpers";
 import { useDispatch, useSelector } from "react-redux";
-
+import BaseView from "../components/ViewTypes/BaseView";
+import MelodyView from "../components/ViewTypes/MelodyView";
+import TitleView from "../components/ViewTypes/TitleView";
+import RitualView from "../components/ViewTypes/RitualView";
+import ButtonView from "../components/ViewTypes/ButtonView";
+import ExpanderView from "../components/ViewTypes/ExpanderView";
+import BottomBar from "../components/BottomBar/BottomBar";
+import {
+  getLanguageValue,
+  getFontSize,
+  getColor,
+} from "../helpers/SettingsHelpers.js";
+import { getFullViewModel } from "../viewModel/getFullViewModel";
 const _spacing = 10;
 function BookScreen({ navigation, route }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
+  const [NavbarVisibility, setNavbarVisibility] = useState(true);
+  const fadeAnim = new Animated.Value(1);
 
-  const data = bookPaths.morningDoxology["adam"];
-  const [index, setIndex] = useState(0);
-  const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
-  // const [scrollDirection, setScrollDirection] = useState(null);
-  const [topIndex, setTopIndex] = useState(0);
-  const [bottomIndex, setBottomIndex] = useState(0);
-  const flatListRef = useRef();
-  const { height, width } = useWindowDimensions();
+  var pageBackgroundColor = getColor("pageBackgroundColor");
 
-  const onViewableItemsChanged = React.useCallback((viewableItems) => {
-    sehowMcuhToScroll(viewableItems.viewableItems.length - 1);
-    // Use viewable items in state or as intended
-  }, []); // any dependencies that require the function to be "redeclared"
+  const motherSource = route.params.bookPath;
+  const data = getFullViewModel(homescreenPaths[motherSource], motherSource);
 
-  let Arabic = data.arabic.split("\n");
-  let Coptic = data.coptic.split("\n");
-  let English = data.english.split("\n");
+  //
 
-  let ArabicCoptic = data.arabiccoptic.split("\n");
-  let EnglishCoptic = data.englishcoptic.split("\n");
+  function hideHeader() {
+    // Function to change navigation options
+    StatusBar.setHidden(NavbarVisibility);
 
-  const handlePress = (event) => {
-    const { locationX } = event.nativeEvent;
-    console.log(locationX);
-    if (locationX < width / 2) {
-      scrollUp();
-    } else {
-      scrollDown();
-    }
+    navigation.setOptions({
+      headerShown: !NavbarVisibility,
+    });
 
-    LayoutAnimation.configureNext(LayoutAnimation.Presets.spring);
-  };
+    setNavbarVisibility(!NavbarVisibility);
+  }
+
   function renderItems(itemData) {
-    const characters = itemData.item.split("");
+    let content = {};
+    // setNavbarTitle(itemData.item.CopticTitle);
+    switch (itemData.item.part.type) {
+      case "Base":
+        //MainView
+        //check Rule
+        //check Visible
+        //Get View
 
-    return (
-      <View style={{ flexDirection: "row", flexWrap: "wrap" }}>
-        {characters.map((char, index) => (
-          <View>
-            <Text style={[styles.textStyle, { fontSize }]}>{char}</Text>
-            <Text style={[styles.floatingText, { fontSize: fontSize / 2 }]}>
-              {char}
-            </Text>
-          </View>
-        ))}
-      </View>
-      // <Text style={[styles.textStyle, { fontSize }]}>{itemData.item}</Text>
-    );
-  }
+        content = <BaseView item={itemData.item.part}></BaseView>;
+        //content = <Text>Main</Text>;
 
-  function scrollDown() {
-    var newIndex = index + howMcuhToScroll;
-    if (newIndex >= Coptic.length - 1) {
-      return;
+        // viewArray.push(
+        //
+        // );
+        break;
+      case "Melody":
+        //Title
+        //check Rule
+        //check Visible
+        //Get View
+        content = <MelodyView item={itemData.item.part}></MelodyView>;
+        // content = <Text>Main</Text>;
+
+        break;
+      case "Title":
+        //Title
+        //check Rule
+        //check Visible
+        //Get View
+        content = <TitleView item={itemData.item.part}></TitleView>;
+        //content = <Text>Main</Text>;
+
+        break;
+      case "Ritual":
+        //Ritual
+        //check Rule
+        //check Visible
+        //Get View
+        content = <RitualView item={itemData.item.part}></RitualView>;
+        //content = <Text>Main</Text>;
+
+        break;
+      case "Button":
+        //Button
+        //check Rule
+        //check Visible
+        //Get View
+        content = <ButtonView item={itemData.item.part}></ButtonView>;
+        break;
+
+      default:
+        return <Text>Default</Text>;
+        break;
     }
-    setIndex(newIndex);
+    return <Pressable onPress={hideHeader}>{content}</Pressable>;
   }
-  function scrollUp() {
-    var newIndex = index - howMcuhToScroll;
-    if (newIndex <= 0) {
-      return;
-    }
-    setIndex(newIndex);
-  }
-
-  useEffect(() => {
-    flatListRef.current.scrollToIndex({ index, animated: true });
-  }, [index]);
-
   return (
-    <View style={styles.container}>
-      <TouchableOpacity style={styles.box} onPress={handlePress}>
-        <FlatList
-          ref={flatListRef}
-          onViewableItemsChanged={onViewableItemsChanged}
-          data={Coptic}
-          contentContainerStyle={{ paddingLeft: _spacing }}
-          showsVerticalScrollIndicator={false}
-          renderItem={renderItems}
-          keyExtractor={(item, index) => {
-            return item.charAt(2);
-          }}
-        />
-      </TouchableOpacity>
+    <View style={[styles.container, { backgroundColor: pageBackgroundColor }]}>
+      <FlatList
+        data={data}
+        pagingEnabled={true}
+        renderItem={renderItems}
+        keyExtractor={(item, index) => {
+          return index;
+        }}
+      />
+      {NavbarVisibility && <BottomBar navigation={navigation} />}
+      {/* {NavbarVisibility ? <BottomBar navigation={navigation} /> : null} */}
+      {/* <Animated.View style={{ opacity: fadeAnim }}>
+        
+      </Animated.View> */}
     </View>
   );
 }
@@ -110,10 +133,8 @@ export default BookScreen;
 
 const styles = StyleSheet.create({
   container: {
-    justifyContent: "center",
-    alignItems: "center",
     flex: 1,
-    backgroundColor: "black",
+    width: "100%",
   },
   textStyle: {
     fontFamily: "coptic-font",

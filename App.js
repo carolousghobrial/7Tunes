@@ -14,6 +14,7 @@ import useFonts from "./helpers/useFonts";
 import HomepageScreen from "./screens/HomepageScreen";
 import BookScreen from "./screens/BookScreen";
 import Colors from "./constants/colors";
+import { getCurrentSeason } from "./helpers/copticMonthsHelper";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import SettingsScreen from "./screens/SettingsScreen";
 import CustomDrawerScreen from "./screens/CustomDrawerScreen";
@@ -34,6 +35,7 @@ export default function App() {
       try {
         // Pre-load fonts, make any API calls you need to do here
         await useFonts();
+        console.log(getCurrentSeason()[0]);
       } catch (e) {
         console.warn(e);
       } finally {
@@ -68,9 +70,7 @@ export default function App() {
         style={[styles.backgroundimage]}
       >
         <Provider store={store}>
-          <PersistGate loading={null} persistor={persistor}>
-            <NavigationContainerView />
-          </PersistGate>
+          <NavigationContainerView />
         </Provider>
       </ImageBackground>
     </SafeAreaView>

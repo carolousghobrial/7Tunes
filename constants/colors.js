@@ -8,7 +8,7 @@ const Colors = {
     LabelColor: "#000000",
     RefrainColor: "#ca900e",
     NorthColor: "#000000",
-    SouthColor: "Red",
+    SouthColor: "#FF0000",
     PriestColor: "#FF0F0F",
     DeaconColor: "#FFA500",
     PeopleColor: "#72D63B",

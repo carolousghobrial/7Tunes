@@ -29,22 +29,16 @@ function AppTheme() {
     <View style={[styles.container]}>
       <View style={styles.switchView}>
         <View style={styles.titleView}>
-          <Text style={[styles.title, { fontSize: getFontSize() }]}>
+          <Text style={[styles.title]}>
             {getLanguageValue("backgroundselector")}
           </Text>
-          <Text style={[styles.title, { fontSize: getFontSize() / 1.7 }]}>
-            Set the Theme of the application
+          <Text style={[styles.title]}>
+            {getLanguageValue("backgroundselectordescription")}
           </Text>
         </View>
         <View style={styles.switch}>
           <View style={styles.textContainer}>
-            <Text
-              style={
-                darkMode
-                  ? [styles.textOn, { fontSize: getFontSize() }]
-                  : [styles.textOff, { fontSize: getFontSize() }]
-              }
-            >
+            <Text style={darkMode ? [styles.textOn] : [styles.textOff]}>
               {darkMode ? getLanguageValue("dark") : getLanguageValue("light")}
             </Text>
           </View>

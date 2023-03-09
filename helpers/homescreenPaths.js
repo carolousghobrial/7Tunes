@@ -19,6 +19,8 @@ const homescreenPaths = {
   paschafridayeve: require("../assets/json/menuJson/pascha/fridayeve.json"),
   paschafriday: require("../assets/json/menuJson/pascha/friday.json"),
   // brightSaturday: require("../assets/json/menuJson/pascha/saturday.json"),
+  //Table Of Contents
+  morningDoxology: require("../assets/json/books/booksTable/morningDoxology"),
 };
 
 export default homescreenPaths;

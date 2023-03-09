@@ -22,7 +22,11 @@ function HomepageScreen({ navigation, route }) {
           arabicTitle: item.ArabicTitle,
         });
       } else {
-        navigation.push("BookScreen");
+        navigation.push("BookScreen", {
+          bookPath: item.BookPath,
+          englishTitle: item.EnglishTitle,
+          arabicTitle: item.ArabicTitle,
+        });
       }
     }
   }
