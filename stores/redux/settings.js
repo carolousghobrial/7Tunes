@@ -103,7 +103,6 @@ const settingsSlice = createSlice({
             copticenglish: !state.copticenglish,
           };
         case "copticarabic":
-          console.log("jj");
           return {
             ...state,
             copticarabic: !state.copticarabic,

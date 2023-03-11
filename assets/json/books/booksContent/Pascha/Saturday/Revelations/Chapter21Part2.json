@@ -1,0 +1,29 @@
+{
+"hymn":"",
+"exposition": [
+{
+"arabic": " (P)\nأنا نظرت إلي بناء المدينة المصفحة بالذهب، والحجارة الكريمة، والجواهر الحسنة.\n(C)\nمخلصنا في وسطها يعطي إكليلاً وكرامة للذين يحبونه.\n",
+"arabiccoptic": " (P)\nانوك اى ناف ای ایکوت إن اوبوليس اس اوشج ان هی اونی اممی بي ماغاريتيس ايثنيسوس\n(C)\nأيرى بينسوتير خين تيسميتي, إفتي إكلوم هي تايو إنني إثمىي إمموف\n",
+"coptic": " (P)\n`Anok ainau `e`pkwt `noupolic ecw]j `nnoub \\i `wni `mmhi pimargarithc eqnecwc.\n(C)\n`Ere penCwthr =en tecmh; ef;`xlom \\i tai`o `nnheqmei `mmof.\n",
+"english": " (P)\nI looked at the city building armored gold, and the precious stones, and the good pearls.\n(C)\nAnd Our Savior in its midst : crowning with honor those who love Him.\n",
+"englishcoptic": " (P)\nAnok ainav e-epkot en-oo polees : es-oshg ennob hi oni emmi : pi-marghare-tis ethnesos\n(C)\nEre Pensoteer khen tes-meeti, evti eklom hi-taio enni-ethmei emmof.\n",
+},
+  {
+    "arabic": " (R),\nالأَسَاسُ الأَوَّلُ يَشْبٌ. الأساس الثَّانِي يَاقُوتٌ أَزْرَقُ. الأساس الثَّالِثُ عَقِيقٌ أَبْيَضُ.,\n",
+    "english": " (R),\nThe first foundation [was] jasper, the second sapphire, the third chalcedony,\n"
+  },
+  {
+
+    "arabic": " (C)\nالأَسَاسُ الأَوَّلُ يَشْبٌ.\nالأساس الثَّانِي يَاقُوتٌ أَزْرَقُ.\nالأساس الثَّالِثُ عَقِيقٌ أَبْيَضُ.\nو مخلصنا في وسطها يعطي إكليلاً وكرامة للذين يحبونه.\n",
+
+    "arabiccoptic": " (C)\nتيسينتي إنهويتي نى أوياسبيستى\nتيماه إسنوتي أو سابفيروس تى\nتيماه شومت أو كارديذون تى\nأيرى بينسوتير خين تيسميتي, إفتي إكلوم هي تايو إنني إثمىي إمموف\n",
+
+    "coptic": " (C)\n:cen; `n\\ou`i; ne ouiacpic te>\n:ma\\`cnou; ou capviroc te>\n:ma\\]om; ou xarkhdwn te.\n`Ere penCwthr =en tecmh; ef;`xlom \\i tai`o `nnheqmei `mmof.\n",
+
+    "english": " (C)\nThe first foundation was Jasper.\nThe second was sapphire.\nThe third was a chalcedony.\nAnd Our Savior in its midst : crowning with honor those who love Him.\n",
+    "englishcoptic": " (C)\nTi-senti enhoweeti ne o-yas-pes te\nTi-mah esnoti oo sap-viros te.\nTi-mah shomt oo karee-don te\nEre Pensoteer khen tes-meeti, evti eklom hi-taio enni-ethmei emmof.\n",
+  }
+
+
+]
+}

@@ -35,7 +35,6 @@ export default function App() {
       try {
         // Pre-load fonts, make any API calls you need to do here
         await useFonts();
-        console.log(getCurrentSeason()[0]);
       } catch (e) {
         console.warn(e);
       } finally {

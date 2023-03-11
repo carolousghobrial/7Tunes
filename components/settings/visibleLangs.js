@@ -65,12 +65,12 @@ function VisibleLangs() {
     );
   }
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
       <View style={styles.titleView}>
-        <Text style={[styles.title]}>
+        <Text style={[styles.title, { color: getColor("PrimaryColor") }]}>
           {getLanguageValue("languageselctor")}
         </Text>
-        <Text style={[styles.description]}>
+        <Text style={[styles.description, { color: getColor("PrimaryColor") }]}>
           {getLanguageValue("todayprayerdescription")}
         </Text>
       </View>

@@ -1,41 +1,89 @@
 import React, { useState, useRef, useEffect } from "react";
 import bookPaths from "../helpers/bookPathsHelpers";
+import VisibleRules from "../helpers/visibleRules";
 
-export function getFullViewModel(data, motherSource) {
+export function getFullViewModel(data) {
+  let arabicttl = "";
+  let copticttl = "";
+  let englishttl = "";
+
   var ViewArray = [];
+  var MenuArray = [];
+  var key = 0;
   data.main.map((item) => {
-    switch (item.type) {
-      case "Main":
-        //MainView
-        //check Rule
-        //check Visible
-        //Get View
-        var arabicttl = bookPaths[motherSource][item.path].arabictitle;
-        var copticttl = bookPaths[motherSource][item.path].englishtitle;
-        var englishttl = bookPaths[motherSource][item.path].coptictitle;
-        var hymn = bookPaths[motherSource][item.path].hymn;
+    if (item.type === "Title") {
+      arabicttl = item.arabic;
+      copticttl = item.coptic;
+      englishttl = item.english;
+    } else {
+      if (VisibleRules.find((data) => data.rule === item.visible).visible) {
+        switch (item.type) {
+          case "Main":
+            //Get View
+            let book = bookPaths[item.path];
+            arabicttl = book.arabictitle;
+            copticttl = book.coptictitle;
+            englishttl = book.englishtitle;
+            MenuArray.push({
+              EnglishTitle: englishttl,
+              CopticTitle: copticttl,
+              ArabicTitle: arabicttl,
+              key: key,
+            });
+            ViewArray.push({
+              EnglishTitle: englishttl,
+              CopticTitle: copticttl,
+              ArabicTitle: arabicttl,
+              part: {
+                type: "Title",
+                rule: -1,
+                visible: 0,
+                side: "Title",
+                arabic: arabicttl,
+                coptic: copticttl,
+                english: englishttl,
+              },
+              key: key,
+            });
 
-        hymn.map((part) => {
-          ViewArray.push({
-            part: part,
-            ArabicTitle: arabicttl,
-            CopticTitle: copticttl,
-            EnglishTitle: englishttl,
-          });
-        });
-        // content = <Text>Main</Text>;
+            key++;
+            var hymn = book.hymn;
 
-        // viewArray.push(
-        //
-        // );
-        break;
-      default:
-        ViewArray.push({
-          part: item,
-        });
-        break;
+            hymn.map((part) => {
+              ViewArray.push({
+                part: part,
+                key: key,
+                EnglishTitle: englishttl,
+                CopticTitle: copticttl,
+                ArabicTitle: arabicttl,
+              });
+
+              key++;
+            });
+
+            break;
+          default:
+            //Get View
+            MenuArray.push({
+              EnglishTitle: item.english,
+              CopticTitle: "",
+              ArabicTitle: item.arabic,
+              key: key,
+            });
+            ViewArray.push({
+              part: item,
+              key: key,
+              EnglishTitle: englishttl,
+              CopticTitle: copticttl,
+              ArabicTitle: arabicttl,
+            });
+            key++;
+
+            break;
+        }
+      }
     }
   });
-  //console.log(ViewArray);
-  return ViewArray;
+
+  return [ViewArray, MenuArray];
 }

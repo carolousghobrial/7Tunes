@@ -60,36 +60,61 @@ function BaseView({ item }) {
     <View style={styles.bookView}>
       {englishVisible ? (
         <View style={styles.textView}>
-          <Text style={[styles.english, { fontSize, color: textColor }]}>
+          <Text
+            style={[
+              styles.english,
+              { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
+            ]}
+          >
             {item.english}
           </Text>
         </View>
       ) : null}
       {copticVisible ? (
         <View style={styles.textView}>
-          <Text style={[styles.coptic, { fontSize, color: textColor }]}>
+          <Text
+            style={[
+              styles.coptic,
+              { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
+            ]}
+          >
             {item.coptic}
           </Text>
         </View>
       ) : null}
       {arabicVisible ? (
         <View style={styles.textView}>
-          <Text style={[styles.arabic, { fontSize, color: textColor }]}>
+          <Text
+            style={[
+              styles.arabic,
+              { fontSize, color: textColor, lineHeight: fontSize * 1.35 },
+            ]}
+          >
             {item.arabic}
           </Text>
         </View>
       ) : null}
       {copticenglishVisible ? (
         <View style={styles.textView}>
-          <Text style={[styles.english, { fontSize, color: textColor }]}>
+          <Text
+            style={[
+              styles.english,
+              { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
+            ]}
+          >
             {item.englishcoptic}
           </Text>
         </View>
       ) : null}
       {copticarabicVisible ? (
         <View style={styles.textView}>
-          <Text style={[styles.arabic, { fontSize, color: textColor }]}>
-            {item.englisharabic}
+          <Text
+            style={[
+              styles.arabic,
+              { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
+            ]}
+          >
+            {item.arabiccoptic}
           </Text>
         </View>
       ) : null}
@@ -113,19 +138,15 @@ const styles = StyleSheet.create({
   },
   coptic: {
     fontFamily: "coptic-font",
-    textAlign: "justify",
     justifyContent: "flex-start",
-    lineHeight: 30,
   },
   arabic: {
     fontFamily: "arabic-font",
     textAlign: "justify",
     writingDirection: "rtl",
-    lineHeight: 45,
   },
   english: {
     fontFamily: "english-font",
-    lineHeight: 30,
   },
 });
 

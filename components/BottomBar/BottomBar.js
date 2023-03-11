@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, memo } from "react";
 import { View, Pressable, StyleSheet, Alert, Text } from "react-native";
 import Icon from "react-native-vector-icons/Ionicons";
 import {
@@ -9,23 +9,35 @@ import {
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Foundation } from "@expo/vector-icons";
 import SettingsModal from "./SettingsModal";
-function BottomBar({ navigation }) {
+import ContentsModal from "./ContentsModal";
+function BottomBar({ navigation, dataArray, scrollToKey }) {
   const [settingsModalVisible, setsettingsModalVisible] = useState(false);
+  const [contentsModalVisible, setcontentsModalVisible] = useState(false);
   let labelColor = getColor("LabelColor");
   let NavigationBarColor = getColor("NavigationBarColor");
   function closeModal() {
     setsettingsModalVisible(false);
   }
+  function closeContentsModal() {
+    setcontentsModalVisible(false);
+  }
   return (
     <View>
       <SettingsModal visible={settingsModalVisible} closeModal={closeModal} />
+      <ContentsModal
+        visible={contentsModalVisible}
+        closeModal={closeContentsModal}
+        dataArray={dataArray}
+        scrollToKey={scrollToKey}
+      />
+
       <View style={[styles.container, { backgroundColor: NavigationBarColor }]}>
         <Pressable style={styles.button} onPress={() => Alert.alert("HELLO")}>
           <Foundation name="clipboard-notes" size={24} color={labelColor} />
         </Pressable>
         <Pressable
           style={styles.button}
-          onPress={() => navigation.navigate("Profile")}
+          onPress={() => setcontentsModalVisible(true)}
         >
           <MaterialCommunityIcons
             name="table-of-contents"
@@ -58,4 +70,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default BottomBar;
+export default memo(BottomBar);

@@ -11,21 +11,22 @@ import { changeTextLanguage } from "../../stores/redux/settings.js";
 function LangListItem(props) {
   const dispatch = useDispatch();
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
       <View style={styles.textview}>
-        <Text style={styles.text}>
+        <Text style={[styles.text, { color: getColor("PrimaryColor") }]}>
           {getLanguageValue(props.incomingItem.titleKey)}
         </Text>
-        <Text style={styles.text}>
+        <Text style={[styles.text, { color: getColor("PrimaryColor") }]}>
           {getLanguageValue(props.incomingItem.descriptionKey)}
         </Text>
       </View>
       <View style={styles.switch}>
         <View style={styles.textContainer}>
           <Text
-            style={
-              props.incomingItem.isEnabled ? [styles.textOn] : [styles.textOff]
-            }
+            style={[
+              props.incomingItem.isEnabled ? [styles.textOn] : [styles.textOff],
+              { color: getColor("PrimaryColor") },
+            ]}
           >
             {props.incomingItem.isEnabled ? "YES" : "NO"}
           </Text>

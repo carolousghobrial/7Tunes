@@ -1,0 +1,28 @@
+{
+  "hymn": "",
+  "exposition": [
+    {
+      "arabic": " (C)\nمِنْ سِبْطِ يَهُوذَا اثْنَا عَشَرَ أَلْفَ\n.مِنْ سِبْطِ رَأُوبِينَ اثْنَا عَشَرَ أَلْفَ\n.مِنْ سِبْطِ جَادَ اثْنَا عَشَرَ أَلْفَ .\n",
+      "arabiccoptic": " (C)\nإيفول خين إيتفيلي إن يوداس ميت إسناف إنشو,\nإيفول خين إيتفيلي إن روبيين ميت إسناف إنشو,\nإيفول خين إيتفيلي إن جاد ميت إسناف إنشو\n",
+      "coptic": " (C)\nEbol=en `tvulh ``nIoudac =ib `n]o.\n`Ebol=en `tvulh ``nRoubhn =ib `n]o.\n`Ebol=en `tvulh ``nGad =ib `n]o.\n",
+      "english": " (C)\nOf the tribe of Judah twelve thousand\nOf the tribe of Reuben twelve thousand\nOf the tribe of Gad twelve thousand\n",
+      "englishcoptic": " (C)\nEvol khen etfili en Yodas, meet esnav ensho.\nEvol khen etfili en Robeen, meet esnav ensho.\nEvol khen etfili en Gad, meet esnav ensho.\n"
+    },
+    {
+      "arabic": " (R),\n6 مِنْ سِبْطِ أَشِيرَ اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ. مِنْ سِبْطِ نَفْتَالِي اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ. مِنْ سِبْطِ مَنَسَّى اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ.,\n",
+      "english": " (R),\n6 of the tribe of Asher twelve thousand [were] sealed; of the tribe of Naphtali twelve thousand [were] sealed; of the tribe of Manasseh twelve thousand [were] sealed,\n"
+    },
+    {
+
+      "arabic": " (C)\nمِنْ سِبْطِ أَشِيرَ اثْنَا عَشَرَ أَلْفَ\nمِنْ سِبْطِ نَفْتَالِي اثْنَا عَشَرَ أَلْفَ\nمِنْ سِبْطِ مَنَسَّى اثْنَا عَشَرَ أَلْفَ\n",
+
+      "arabiccoptic": " (C)\nإيفول خين إيتفيلي إن اسيرميت إسناف إنشو\n, إيفول خين إيتفيلي إن إفتاليم ميت إسناف إنشو,\nإيفول خين إيتفيلي إن ماناسا ميت إسناف إنشو\n",
+
+      "coptic": " (C)\n`Ebol=en `tvulh ``nAcchr =ib `n]o.\n`Ebol=en `tvulh ``nEvqal`im =ib `n]o.\n`Ebol=en `tvulh ``nManach =ib `n]o.\n",
+
+      "english": " (C)\nOf the tribe of Asher twelve thousand\nOf the tribe of Naphtali twelve thousand\nOf the tribe of Manasseh twelve thousand\n",
+      "englishcoptic": " (C)\nEvol khen etfili en Aseer, meet esnav ensho.\nEvol khen etfili en Eftaleem, meet esnav ensho.\nEvol khen etfili en Manasee, meet esnav ensho.\n"
+    }
+
+  ]
+}

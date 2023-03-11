@@ -20,7 +20,7 @@ function FullFeastsScreen() {
   const flatListRef = useRef();
 
   function feastClick(item) {
-    console.log(item);
+    item;
   }
   const data = getCopticFastsFeasts().sort(
     (a, b) =>

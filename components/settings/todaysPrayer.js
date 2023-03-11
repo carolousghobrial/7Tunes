@@ -8,7 +8,6 @@ import { changeTodayPrayer } from "../../stores/redux/settings.js";
 function TodaysPrayer() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  console.log("CUR " + currentSeason);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   const dispatch = useDispatch();
   const toggleSwitch = () => dispatch(changeTodayPrayer());

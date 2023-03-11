@@ -91,17 +91,14 @@ const styles = StyleSheet.create({
     fontFamily: "coptic-font",
     textAlign: "justify",
     justifyContent: "flex-start",
-    lineHeight: 30,
   },
   arabic: {
     fontFamily: "arabic-font",
     textAlign: "justify",
     writingDirection: "rtl",
-    lineHeight: 45,
   },
   english: {
     fontFamily: "english-font",
-    lineHeight: 30,
   },
 });
 

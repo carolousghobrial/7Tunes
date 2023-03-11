@@ -13,10 +13,14 @@ import FontSize from "../components/settings/fontSize";
 import VisibleLangs from "../components/settings/visibleLangs";
 import TodaysPrayer from "../components/settings/todaysPrayer";
 import Test from "../components/settings/test";
-
+import {
+  getLanguageValue,
+  getFontSize,
+  getColor,
+} from "../helpers/SettingsHelpers.js";
 function SettingsScreen({ navigation, route }) {
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView style={{ backgroundColor: getColor("pageBackgroundColor") }}>
       <AppTheme></AppTheme>
       <TodaysPrayer></TodaysPrayer>
       <ApplicationLanguage></ApplicationLanguage>
@@ -30,8 +34,6 @@ export default SettingsScreen;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    margin: 8,
-    padding: 8,
+    backgroundColor: "black",
   },
 });

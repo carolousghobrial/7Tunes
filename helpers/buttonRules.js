@@ -9,6 +9,6 @@ import {
 const hello = () => {
   Alert.alert("HELLO");
 };
-const ButtonRules = [{ title: "hello", onPress: hello }];
+const ButtonRules = [{ title: "firstButton", onPress: hello }];
 
 export default ButtonRules;

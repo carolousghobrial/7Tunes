@@ -29,7 +29,7 @@ function ButtonView({ item }) {
   }
   return (
     <Pressable
-      onPress={ButtonRules.find((data) => data.title === "hello").onPress}
+      onPress={ButtonRules.find((data) => data.title === item.rule).onPress}
     >
       <View style={[styles.bookView, { flexDirection: flex }]}>
         <Text style={[styles.english, { fontSize }]}> {item.english}</Text>

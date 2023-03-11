@@ -18,16 +18,21 @@ function FontSize() {
     dispatch(changeFontSize({ direction: "plus" }));
   }
   function fontSizeMinus() {
-    console.log("ASD");
     dispatch(changeFontSize({ direction: "minus" }));
   }
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
       <View style={styles.switchView}>
         <View style={styles.titleView}>
-          <Text style={styles.title}>{getLanguageValue("fontsizelabel")}</Text>
+          <Text style={[styles.title, { color: getColor("PrimaryColor") }]}>
+            {getLanguageValue("fontsizelabel")}
+          </Text>
 
-          <Text style={styles.fontsizestyle}>{fontSize}</Text>
+          <Text
+            style={[styles.fontsizestyle, { color: getColor("PrimaryColor") }]}
+          >
+            {fontSize}
+          </Text>
         </View>
         <View style={styles.buttonsContainer}>
           <Pressable style={styles.buttonBox} onPress={fontSizePlus}>

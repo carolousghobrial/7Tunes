@@ -26,19 +26,24 @@ function AppTheme() {
   const toggleSwitch = () => dispatch(changeDarkMode());
 
   return (
-    <View style={[styles.container]}>
+    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
       <View style={styles.switchView}>
         <View style={styles.titleView}>
-          <Text style={[styles.title]}>
+          <Text style={[styles.title, { color: getColor("PrimaryColor") }]}>
             {getLanguageValue("backgroundselector")}
           </Text>
-          <Text style={[styles.title]}>
+          <Text style={[styles.title, { color: getColor("PrimaryColor") }]}>
             {getLanguageValue("backgroundselectordescription")}
           </Text>
         </View>
         <View style={styles.switch}>
           <View style={styles.textContainer}>
-            <Text style={darkMode ? [styles.textOn] : [styles.textOff]}>
+            <Text
+              style={[
+                darkMode ? [styles.textOn] : [styles.textOff],
+                { color: getColor("PrimaryColor") },
+              ]}
+            >
               {darkMode ? getLanguageValue("dark") : getLanguageValue("light")}
             </Text>
           </View>
@@ -96,14 +101,12 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
   },
   textOn: {
-    color: "black",
     fontFamily: "english-font",
     justifyContent: "center",
     textAlign: "center",
     fontWeight: "bold",
   },
   textOff: {
-    color: "black",
     fontFamily: "english-font",
     justifyContent: "center",
     textAlign: "center",

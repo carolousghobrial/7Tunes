@@ -598,7 +598,6 @@ var getCopticMonthDate = function (CopticMonthObject, year) {
 };
 
 export function getCopticDate(year, monthIndex, day) {
-  console.log(year + " " + monthIndex + " " + day);
   var copticMonth;
   var copticMonthIndex = 0;
   var copticDay = day;
