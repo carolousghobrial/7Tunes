@@ -1,7 +1,38 @@
 {
-"arabic": " (C),\nلأنها مكرمة جداً، علامة صليب، يسوع المسيح الملك، إلهنا الحقيقي.,\nلأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.,\n",
-"arabiccoptic": " (C)\nإفتايوت غار إيماشو : إنﭽيه بيميني إنتيه بي إستاﭬروس : إنتيه إيسوس بيخريستوس إب أورو : بين نوتي إن اليثينوس  .\nجى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.\n",
-"coptic": " (C)\n`Ftai`hout gar `ema]w> `nje pimhini `nte Pi`ctauroc> `nte Ihcouc Pi`xrictoc `Pouro> Pennou; `n`alhqinoc.\nJe `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.\n",
-"english": " (C),\nFor greatly honored, is the sign of the Cross, of Jesus Christ the King, our true God.,\nBlessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.,\n",
-"englishcoptic": " (C)\nEfta-yoot ghar emasho: enje pi-meeini ente Pi-estavros: ente Isos Piekhristos Ep-ooro: Pennooti en-aleethinos.\nJe ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas.\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنها مكرمة جداً، علامة صليب، يسوع المسيح الملك، إلهنا الحقيقي.",
+      "Coptic": "`Ftai`hout gar `ema]w> `nje pimhini `nte Pi`ctauroc> `nte Ihcouc Pi`xrictoc `Pouro> Pennou; `n`alhqinoc.",
+      "English": "For greatly honored, is the sign of the Cross, of Jesus Christ the King, our true God.",
+      "Arabiccoptic": "إفتايوت غار إيماشو : إنﭽيه بيميني إنتيه بي إستاﭬروس : إنتيه إيسوس بيخريستوس إب أورو : بين نوتي إن اليثينوس  .",
+      "Englishcoptic": "Efta-yoot ghar emasho: enje pi-meeini ente Pi-estavros: ente Isos Piekhristos Ep-ooro: Pennooti en-aleethinos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.",
+      "Coptic": "Je `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.",
+      "English": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
+      "Arabiccoptic": "جى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.",
+      "Englishcoptic": "Je ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas."
+    }
+  ]
 }

@@ -1,7 +1,38 @@
 {
-"arabic": " (C),\nأعطني يا رب توبة، لكي أتوب، قبل أن يغلق الموت فمي، في أبواب الجحيم.,\nلأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.,\n",
-"arabiccoptic": " (C)\nموى نى ابشويس ان او ميطانيا : إيه إبجين طا ايرميتانين : إمباتيه إفمو ما إشتام إنروى : خين نى بيلى انتيه أمينتى  .\nجى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.\n",
-"coptic": " (C)\nMoi nhi `Poc? `noumetanoia> `e`pjintaermetanoin> `mpate `vmou ma`]qam `nrwi> =en nipulh `nte `Amen;.\nJe `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.\n",
-"english": " (C),\nGrant me O Lord repentance, that I may repent, before death closes my mouth, in the gates of Hades.,\nBlessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.,\n",
-"englishcoptic": " (C)\nMoi ni Epchois en-o-metania : e-epjin ta-er metanin : empat-e evmo-oo ma-eshtam enroi : khen ni-pili ente Amenti.\nJe ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas.\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعطني يا رب توبة، لكي أتوب، قبل أن يغلق الموت فمي، في أبواب الجحيم.",
+      "Coptic": "Moi nhi `Poc? `noumetanoia> `e`pjintaermetanoin> `mpate `vmou ma`]qam `nrwi> =en nipulh `nte `Amen;.",
+      "English": "Grant me O Lord repentance, that I may repent, before death closes my mouth, in the gates of Hades.",
+      "Arabiccoptic": "موى نى ابشويس ان او ميطانيا : إيه إبجين طا ايرميتانين : إمباتيه إفمو ما إشتام إنروى : خين نى بيلى انتيه أمينتى  .",
+      "Englishcoptic": "Moi ni Epchois en-o-metania : e-epjin ta-er metanin : empat-e evmo-oo ma-eshtam enroi : khen ni-pili ente Amenti."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.",
+      "Coptic": "Je `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.",
+      "English": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
+      "Arabiccoptic": "جى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.",
+      "Englishcoptic": "Je ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas."
+    }
+  ]
 }

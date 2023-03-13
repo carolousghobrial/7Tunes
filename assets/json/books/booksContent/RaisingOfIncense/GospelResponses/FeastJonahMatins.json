@@ -1,7 +1,38 @@
 {
-"arabic": " (C),\nطهرنا يا رب من المكر، الذي لخمير الصدوقيين، لأننا فهمنا عجائبك، وأمنا بربوبيتك.,\nلأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.,\n",
-"arabiccoptic": " (C)\nما توفون إبشويس ايفول خين بى إكروف : إنتى بى آتشيمير إننى سادوكيؤس : جيه آنكاتى اىه نيك إشفيرى : اووه آن ناهتى ايه تيك ميت تشويس  .\nجى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.\n",
-"coptic": " (C)\nMatoubon `Poc? `ebol=en pi`xrof> `nte piat]emhr `nnicadokeoc> je anka; `enek`]vhri> ouo\\ `anna\\; `etekmetoc?.\nJe `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.\n",
-"english": " (C),\nPurify us O Lord from the deception, of the leaven of the Sadducees, for we understand Your wonders, and we believe in Your lordship.,\nBlessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.,\n",
-"englishcoptic": " (C)\nMato-von Epchois evol khen pi-ekrof : ente pi-at eshmeer en-ni sado-ke-os : je an-kati enek-eshveri : owoh an-nahti etek metchois.\nJe ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas.\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طهرنا يا رب من المكر، الذي لخمير الصدوقيين، لأننا فهمنا عجائبك، وأمنا بربوبيتك.",
+      "Coptic": "Matoubon `Poc? `ebol=en pi`xrof> `nte piat]emhr `nnicadokeoc> je anka; `enek`]vhri> ouo\\ `anna\\; `etekmetoc?.",
+      "English": "Purify us O Lord from the deception, of the leaven of the Sadducees, for we understand Your wonders, and we believe in Your lordship.",
+      "Arabiccoptic": "ما توفون إبشويس ايفول خين بى إكروف : إنتى بى آتشيمير إننى سادوكيؤس : جيه آنكاتى اىه نيك إشفيرى : اووه آن ناهتى ايه تيك ميت تشويس  .",
+      "Englishcoptic": "Mato-von Epchois evol khen pi-ekrof : ente pi-at eshmeer en-ni sado-ke-os : je an-kati enek-eshveri : owoh an-nahti etek metchois."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.",
+      "Coptic": "Je `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.",
+      "English": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
+      "Arabiccoptic": "جى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.",
+      "Englishcoptic": "Je ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas."
+    }
+  ]
 }

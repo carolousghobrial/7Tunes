@@ -1,7 +1,51 @@
 {
-"arabic": " (P),\nمحبة الله الآب، ونعمة الإبن الوحيد، ربنا وإلهنا وملكنا ومخلصنا يسوع المسيح، وشركة وموهبة الروح القدس تكون مع جميعكم. إمضوا بسلام، سلام الرب مع جميعكم.,\n(C),\nمع روحك أيضاً.,\n",
-"arabiccoptic": " (P)\nإى آغابي تو ثيؤو كيه باتروس : كيه إي خاريستوو مونوجينوس : إيوو كيريوو ذيه كيه ثيؤو كيه سوتيروس إيمون إيسو خريستوو : كيه إي كينونيا كيه إي ذوريآ تو أجيو إبنيفما طوس إى إي ميطا باندون إيمون. ماشينوتين خين او هيريني إت هيريني امبشويس نيموتين تيرو .\n(C)\nكيتو إبنيفماتي سو\n",
-"coptic": " (P)\n`H  `agaph tou Qeou ke Patroc> ke `h xarictou monogenouc Uiou Kuriou de ke Qeou ke Cwthroc `hmwn> Ihcou `Xrictou> ke `h koinwnia ke `h dwre`a tou `Agiou `Pneumatoc> `i`h meta pantwn `umwn. Ma]enwten +en ouhirhnh> `t\\irhnh `m`Psoic nemwten throu.\n(C)\nKe tw `pneumati cou.\n",
-"english": " (P),\nThe love of God the Father; the grace of the only-begotten Son, our Lord, God, and Savior Jesus Christ; and the communion and gift of the Holy Spirit be with you all. Go in peace. The peace of the Lord be with you all.,\n(C),\nAnd with your spirit.,\n",
-"englishcoptic": " (P)\nEe  aghapee too The-oo ke Patros: ke ee kharistoo mono-genos Eioo Kirioo ze ke Theoo ke Soteeros eemon: Iso Ekhristo: ke ee kononia ke ee zo-re-a too Agioo Epnevmatos: E-ee meta panton imon. Masheno-ten Khen oo-eeriny et-hireenee emePchois nemoten teeroo.\n(C)\nKe to epnevmati soo.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "البركة القصيرة",
+  "EnglishTitle": "The Short Blessing ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "محبة الله الآب، ونعمة الإبن الوحيد، ربنا وإلهنا وملكنا ومخلصنا يسوع المسيح، وشركة وموهبة الروح القدس تكون مع جميعكم. إمضوا بسلام، سلام الرب مع جميعكم.",
+      "Coptic": "`H  `agaph tou Qeou ke Patroc> ke `h xarictou monogenouc Uiou Kuriou de ke Qeou ke Cwthroc `hmwn> Ihcou `Xrictou> ke `h koinwnia ke `h dwre`a tou `Agiou `Pneumatoc> `i`h meta pantwn `umwn. Ma]enwten +en ouhirhnh> `t\\irhnh `m`Psoic nemwten throu.",
+      "English": "The love of God the Father; the grace of the only-begotten Son, our Lord, God, and Savior Jesus Christ; and the communion and gift of the Holy Spirit be with you all. Go in peace. The peace of the Lord be with you all.",
+      "Arabiccoptic": "إى آغابي تو ثيؤو كيه باتروس : كيه إي خاريستوو مونوجينوس : إيوو كيريوو ذيه كيه ثيؤو كيه سوتيروس إيمون إيسو خريستوو : كيه إي كينونيا كيه إي ذوريآ تو أجيو إبنيفما طوس إى إي ميطا باندون إيمون. ماشينوتين خين او هيريني إت هيريني امبشويس نيموتين تيرو .",
+      "Englishcoptic": "Ee  aghapee too The-oo ke Patros: ke ee kharistoo mono-genos Eioo Kirioo ze ke Theoo ke Soteeros eemon: Iso Ekhristo: ke ee kononia ke ee zo-re-a too Agioo Epnevmatos: E-ee meta panton imon. Masheno-ten Khen oo-eeriny et-hireenee emePchois nemoten teeroo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مع روحك أيضاً.",
+      "Coptic": "Ke tw `pneumati cou.",
+      "English": "And with your spirit.",
+      "Arabiccoptic": "كيتو إبنيفماتي سو",
+      "Englishcoptic": "Ke to epnevmati soo."
+    }
+  ]
 }

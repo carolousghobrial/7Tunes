@@ -1,7 +1,60 @@
 {
-"arabic": " (C),\nلأن غير المتجسد تجسد . والكلمة تجسمت . وغير المبتدىء إبتدأ . وغير الزمنى صار زمنيا.,\nالليلويا الليلويا، الليلويا الليلويا، يسوع المسيح ابن الله، ولد في بيت لحم.,\nهذا الذى ينبغى له المجد، مع أبيه الصالح، والروح القدس، من الآن وإلى الأبد,\nلأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.,\n",
-"arabiccoptic": " (C)\nجيه بى ات صاركس : اف اتشى صاركس :اووه بى لوغوس اف اخثاى : بى أت ارشى اف ايرهيتس : بى أت سيو افشوبى خا أو اخرونوس  .\nالليلويا الليلويا، الليلويا الليلويا، إيسوس بخريستوس إبشيرى إمفنو تى، في إيطاف ماسف خين ڤيثليئيم.\nفاى إيرى بى أو أوو إريب ريبى ناف، نيم بيف يوت إنا غاثوس، نيم بى إبنڤما إثؤاب، يسچين تينو نيم شا إنيه\nجى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.\n",
-"coptic": " (C)\nJe piatcar[ afsicar[ > ouo\\ pilogoc af`=qai > pi-atarxh afer\\htc >  piatchou af]wpi =a  ou`xronoc .\nAl/ Al/ > Al/ Al/ > Ih/c/ Px/c/ ` P]hri `mV; > Vhetaumacf =en bhqleem .\nVai `ere pi`wou er`prepi naf > nem Pefiwt `nagaqoc > nem Pip/n/a/ e/q/u/ > icjen ;nou nem ]a `ene\\ .\nJe `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.\n",
-"english": " (C),\nFor the Incorporeal was incarnate, and the Word became flesh, the One without beginning began, the Eternal came under time.,\nAlleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, was born in Bethlehem.,\nThis is He to whom is due glory, with His good Father, and the Holy Spirit, both now and forever.,\nBlessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.,\n",
-"englishcoptic": " (C)\nJe pi-at-sarex afichee sarex, owoh pi-Loghos af-ekhsai, pi-at-arshee af-er-hets, pi-atseio af-shopi kha o-ekronos.\nAlleloia, alleloia, alleloia, alleloia, Esos Pikhrestos Ep-shiri Emif-noti, fe-etaf-masf khen Veth-leem.\nFay ere pi oo erep reby naf, nem pek yot enaghathos, nem pi epnevma ethowab, Yes gen tee no nem sha eneh.\nJe ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas.\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن غير المتجسد تجسد . والكلمة تجسمت . وغير المبتدىء إبتدأ . وغير الزمنى صار زمنيا.",
+      "Coptic": "Je piatcar[ afsicar[ > ouo\\ pilogoc af`=qai > pi\batarxh afer\\htc >  piatchou af]wpi =a  ou`xronoc .",
+      "English": "For the Incorporeal was incarnate, and the Word became flesh, the One without beginning began, the Eternal came under time.",
+      "Arabiccoptic": "جيه بى ات صاركس : اف اتشى صاركس :اووه بى لوغوس اف اخثاى : بى أت ارشى اف ايرهيتس : بى أت سيو افشوبى خا أو اخرونوس  .",
+      "Englishcoptic": "Je pi-at-sarex afichee sarex, owoh pi-Loghos af-ekhsai, pi-at-arshee af-er-hets, pi-atseio af-shopi kha o-ekronos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الليلويا الليلويا، الليلويا الليلويا، يسوع المسيح ابن الله، ولد في بيت لحم.",
+      "Coptic": "Al/ Al/ > Al/ Al/ > Ih/c/ Px/c/ ` P]hri `mV; > Vhetaumacf =en bhqleem .",
+      "English": "Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, was born in Bethlehem.",
+      "Arabiccoptic": "الليلويا الليلويا، الليلويا الليلويا، إيسوس بخريستوس إبشيرى إمفنو تى، في إيطاف ماسف خين ڤيثليئيم.",
+      "Englishcoptic": "Alleloia, alleloia, alleloia, alleloia, Esos Pikhrestos Ep-shiri Emif-noti, fe-etaf-masf khen Veth-leem."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذا الذى ينبغى له المجد، مع أبيه الصالح، والروح القدس، من الآن وإلى الأبد",
+      "Coptic": "Vai `ere pi`wou er`prepi naf > nem Pefiwt `nagaqoc > nem Pip/n/a/ e/q/u/ > icjen ;nou nem ]a `ene\\ .",
+      "English": "This is He to whom is due glory, with His good Father, and the Holy Spirit, both now and forever.",
+      "Arabiccoptic": "فاى إيرى بى أو أوو إريب ريبى ناف، نيم بيف يوت إنا غاثوس، نيم بى إبنڤما إثؤاب، يسچين تينو نيم شا إنيه",
+      "Englishcoptic": "Fay ere pi oo erep reby naf, nem pek yot enaghathos, nem pi epnevma ethowab, Yes gen tee no nem sha eneh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.",
+      "Coptic": "Je `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.",
+      "English": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
+      "Arabiccoptic": "جى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.",
+      "Englishcoptic": "Je ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas."
+    }
+  ]
 }

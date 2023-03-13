@@ -1,7 +1,29 @@
 {
-"arabic": " يا رب ارحم,\nلكي نسبحَكَ، مع ابيكَ الصالح، والروح القدس ،  لأنك (أتيتَ) وخلصتنا.,\n",
-"arabiccoptic": " كيريي ليسون\nإثرين هوس إروك : نيم بيكيوت إن إغاثوس : نيم بي بنيفما إثؤواب : جيه أك إي أك سوتي إمون ناي نان  .\n",
-"coptic": " Kurie `ele`hcon\nEqren\\wc `erok > nem Pekiwt `n`agaqoc > nem Pi`pneuma eqouab > je (ak`i) akcw; `mmon nai nan.\n",
-"english": " Lord Have Mercy,\nThat we may praise You, with Your good Father and the Holy Spirit, for you (have come) and saved us.,\n",
-"englishcoptic": " Kerie leysoun\nEthren Hos Erok, Nem Pekiwt En Aghathos, Nem Pi Epnevma Ethoab, Ge Ak-ee Aksoty Emmon nai nan.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": " ايام الصوم الكبير",
+  "EnglishTitle": "Great Lent Weekdays  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب ارحم",
+      "Coptic": "Kurie `ele`hcon",
+      "English": "Lord Have Mercy",
+      "Arabiccoptic": "كيريي ليسون",
+      "Englishcoptic": "Kerie leysoun"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لكي نسبحَكَ، مع ابيكَ الصالح، والروح القدس ،  لأنك (أتيتَ) وخلصتنا.",
+      "Coptic": "Eqren\\wc `erok > nem Pekiwt `n`agaqoc > nem Pi`pneuma eqouab > je (ak`i) akcw; `mmon nai nan.",
+      "English": "That we may praise You, with Your good Father and the Holy Spirit, for you (have come) and saved us.",
+      "Arabiccoptic": "إثرين هوس إروك : نيم بيكيوت إن إغاثوس : نيم بي بنيفما إثؤواب : جيه أك إي أك سوتي إمون ناي نان  .",
+      "Englishcoptic": "Ethren Hos Erok, Nem Pekiwt En Aghathos, Nem Pi Epnevma Ethoab, Ge Ak-ee Aksoty Emmon nai nan."
+    }
+  ]
 }

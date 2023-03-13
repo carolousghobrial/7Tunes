@@ -1,7 +1,27 @@
 {
-"arabic": " (C),\nهلليلويا هلليلويا. يسوع المسيح ملك المجد، قام من بين الأموات في اليوم الثالث. هلليلويا هلليلويا.,\n",
-"arabiccoptic": " (C)\nالليلويا الليلويا ايسوس بي خريستــوس أبؤرو انتيه ابؤؤ افتونف ايفول خين ني ايث موؤت خين بي ايهوؤ امماه شومت الليلويا الليلويا .\n",
-"coptic": " (C)\nAllelouia A?l?. Ihcouc Pi`xrictoc `Pouro `nte `p`wou> aftwnf `ebol =en nheqmwout =en pi`e\\oou `mma\\]omt. A?l? A?l?.\n",
-"english": " (C),\nAlleluia, alleluia. Jesus Christ the King of glory, has risen from the dead on the third day. Alleluia, alleluia.,\n",
-"englishcoptic": " (C)\nAlleloia alleloia, Esos Pikhrestos ep-oro ente ep-o-oo, aftonf evol khennieth-mo-oot khenpi-eho-oo emmah-shomt, alleloia alleloia.\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا. يسوع المسيح ملك المجد، قام من بين الأموات في اليوم الثالث. هلليلويا هلليلويا.",
+      "Coptic": "Allelouia A?l?. Ihcouc Pi`xrictoc `Pouro `nte `p`wou> aftwnf `ebol =en nheqmwout =en pi`e\\oou `mma\\]omt. A?l? A?l?.",
+      "English": "Alleluia, alleluia. Jesus Christ the King of glory, has risen from the dead on the third day. Alleluia, alleluia.",
+      "Arabiccoptic": "الليلويا الليلويا ايسوس بي خريستــوس أبؤرو انتيه ابؤؤ افتونف ايفول خين ني ايث موؤت خين بي ايهوؤ امماه شومت الليلويا الليلويا .",
+      "Englishcoptic": "Alleloia alleloia, Esos Pikhrestos ep-oro ente ep-o-oo, aftonf evol khennieth-mo-oot khenpi-eho-oo emmah-shomt, alleloia alleloia."
+    }
+  ]
 }

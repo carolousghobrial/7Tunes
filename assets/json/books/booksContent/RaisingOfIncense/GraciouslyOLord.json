@@ -1,4 +1,55 @@
 {
-    "arabic": " تفضّل يارب ان تحفظنا فى هذه الليلة بغير خطية, مبارك انت أيها الرب إله أبائنا ومتزايد بركة، وإسمك القدوس مملوء مجداً إلى الأبد آمين.,\nفلتكن رحمتُكَ علينا ياربُّ كمثلِ إتكالنا عليك، لأن أعيُن الكل تترجاك، لأنك انت الذى تعطيهم طعامهم فى حينه، إسمعنا يا الله مخلصنا يا رجاء أقطار الأرض كلها. وانت يارب تحفظنا وتُنجّينا من هذا الجيل وإلى الأبد آمين.,\nمبارك انت يارب علمنى عدلك, مبارك انت يارب فهمنى حقوقك, مبارك انت يارب أنر لى برّك, يارب رحمتك دائمة إلى الأبد. أعمال يديك يارب لا ترفضها، لأنك صرت لنا ملجأ من جيل إلى جيل.,\nانا قلت يا رب إرحمنى وخلص نفسى فإنى أخطأت إليك, يارب إلتجأت إليك فخلصنى، وعلمنى ان أصنع مشيئتك، لأنك انت هو إلهى، وعندك ينبوع الحياه، وبنورك يارب نُعاين النور, فلتأت رحمتك للذين يعرفونك وبرّك للمُستقيمى القلوب.,\nلك تجب البركة, لك يحق التسبيح, لك ينبغى التمجيد أيها الآب والإبن والروح القدس. الكائن منذ البدء والآن وإلى الأبد آمين.,\nجيّد هو الإعتراف للرب والترتيل لإسمك أيها العلي, أن يُخبّر برحمتك فى الغدوات وحقك فى كل ليلة.,\n()",
-    "english": " Graciously accord, O Lord, to keep us this night without sin. Blessed are You, O Lord, God of our fathers, and exceedingly blessed and glorified be Your name forever. Amen.,\nLet Your mercy, O Lord, be upon us, according to our hope in You, for the eyes of everyone wait upon You, for You give them their food in due season. Hear us, O God our Savior, the hope of all the regions of the earth. And You, O Lord, keep us safe from this generation and forever. Amen.,\nBlessed are You, O Lord; teach me Your statutes. Blessed are You, O Lord: make me to understand Your commandments. Blessed are You, O Lord; enlighten me with Your righteousness. Your mercy, O Lord, endures forever. Despise not, O Lord, the works of Your hands. You have been my refuge from generation to generation.,\nI asked the Lord and said, \"Have mercy on me; heal my soul, for I have sinned against You.\" Lord, I have fled unto You, save me, and teach me to do Your will, for You are my God, and with You is the fountain of life. In Your light, shall we see light. Let Your mercy come unto those who know You and Your righteousness unto the upright in heart.,\nTo You belongs blessing. To You belongs praise. To You belongs glory, O Father, Son and Holy Spirit, existing from the beginning, now, and forever and ever. Amen.,\nIt is good to give thanks to the Lord, and to sing praises unto Your name, O Most High; to show forth Your mercy every morning, and Your righteousness every night.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "تفضل يا رب (عشية)",
+  "EnglishTitle": "Graciously O Lord  (Vespers) ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تفضّل يارب ان تحفظنا فى هذه الليلة بغير خطية, مبارك انت أيها الرب إله أبائنا ومتزايد بركة، وإسمك القدوس مملوء مجداً إلى الأبد آمين.",
+      "English": "Graciously accord, O Lord, to keep us this night without sin. Blessed are You, O Lord, God of our fathers, and exceedingly blessed and glorified be Your name forever. Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلتكن رحمتُكَ علينا ياربُّ كمثلِ إتكالنا عليك، لأن أعيُن الكل تترجاك، لأنك انت الذى تعطيهم طعامهم فى حينه، إسمعنا يا الله مخلصنا يا رجاء أقطار الأرض كلها. وانت يارب تحفظنا وتُنجّينا من هذا الجيل وإلى الأبد آمين.",
+      "English": "Let Your mercy, O Lord, be upon us, according to our hope in You, for the eyes of everyone wait upon You, for You give them their food in due season. Hear us, O God our Savior, the hope of all the regions of the earth. And You, O Lord, keep us safe from this generation and forever. Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مبارك انت يارب علمنى عدلك, مبارك انت يارب فهمنى حقوقك, مبارك انت يارب أنر لى برّك, يارب رحمتك دائمة إلى الأبد. أعمال يديك يارب لا ترفضها، لأنك صرت لنا ملجأ من جيل إلى جيل.",
+      "English": "Blessed are You, O Lord; teach me Your statutes. Blessed are You, O Lord: make me to understand Your commandments. Blessed are You, O Lord; enlighten me with Your righteousness. Your mercy, O Lord, endures forever. Despise not, O Lord, the works of Your hands. You have been my refuge from generation to generation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "انا قلت يا رب إرحمنى وخلص نفسى فإنى أخطأت إليك, يارب إلتجأت إليك فخلصنى، وعلمنى ان أصنع مشيئتك، لأنك انت هو إلهى، وعندك ينبوع الحياه، وبنورك يارب نُعاين النور, فلتأت رحمتك للذين يعرفونك وبرّك للمُستقيمى القلوب.",
+      "English": "I asked the Lord and said, \"Have mercy on me; heal my soul, for I have sinned against You.\" Lord, I have fled unto You, save me, and teach me to do Your will, for You are my God, and with You is the fountain of life. In Your light, shall we see light. Let Your mercy come unto those who know You and Your righteousness unto the upright in heart."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لك تجب البركة, لك يحق التسبيح, لك ينبغى التمجيد أيها الآب والإبن والروح القدس. الكائن منذ البدء والآن وإلى الأبد آمين.",
+      "English": "To You belongs blessing. To You belongs praise. To You belongs glory, O Father, Son and Holy Spirit, existing from the beginning, now, and forever and ever. Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جيّد هو الإعتراف للرب والترتيل لإسمك أيها العلي, أن يُخبّر برحمتك فى الغدوات وحقك فى كل ليلة.",
+      "English": "It is good to give thanks to the Lord, and to sing praises unto Your name, O Most High; to show forth Your mercy every morning, and Your righteousness every night."
+    }
+  ]
 }

@@ -1,23 +1,267 @@
 {
-  "hymn": "",
-  "exposition": [
+  "RefrainAfter": 0,
+  "ArabicTitle": "الثلاثة تحاليل",
+  "EnglishTitle": "The Three Absolutions ",
+  "Hymn": [
     {
-      "arabic": "(C)\nبالمسيح يسوع ربنا,\n(D),\nاحنوا رؤوسَكم للربِّ.,\n(C),\nأمامك يارب\n(D)\nانصتوا بخوفِ الله.,\n(P),\nالسلامُ للكلِّ.,\n(C),\nولروحِكَ [أيضاً.,\n",
-      "arabiccoptic": "(C)\nخين بخرستوس إيسوس بنشويس\n(D)\nطاس كى فالاس ايمون طوكيريو اكليناتى\n(C)\nاينو بيون ثو كيريى\n(D)\nابروس خومين ثيئو ميطافوفو أمين\n(P)\nايرينى باسى\n(C)\nكيطوبنفماتى سو\n",
-      "coptic": "(C)\n+en Pi`xrictoc Ihcouc Pen_.\n(D)\nTac kevalac `umwn tw Kuriw `klinate.\n(C)\n`Enwpion cou Kurie.\n(D)\n`Procxwmen Qeou meta vobou. `Amhn.\n(P)\n`Irhnh paci.\n(C)\nKe tw `pneumati cou.\n",
-      "english": "(C)\nIn Christ Jesus Our Lord,\n(D),\nBow your heads to the Lord.,\n(C),\nBefore You, O Lord.,\n(D)\nLet us attend in the fear of God.,\n(P),\nPeace be with all.,\n(C),\nAnd with your spirit.,\n",
-      "englishcoptic": " (C)\nKhen Pikhristos Isos Penchois\n(D)\nTaski valas eimon to kirio eklinati\n(C)\nEno pion tho kirie.\n(D)\nEpros khomen theo metavovo Amen.\n(P)\nIriny Paci\n(C)\nKeto epnevmati so.\n"
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": ":بيلاؤس",
+      "Englishcoptic": "Pi-Laos:"
     },
     {
-      "arabic": " (P),\nأيها السيدُ الربُّ يسوعُ المسيحُ، الإبنُ الوحيدُ وكلمةُ اللهِ الآبِ، الذي قَطَّعَ كلَّ رباطاتِ خطايانا من قِبَلِ آلامِه المخَلِّصةِ المحييةِ.,\nالذي نَفَخَ في وجه تلاميذِه القديسينَ ورسلِه الأطهارِ وقالَ لهم:,\n”اقبَلوا الروحَ القدس، مَنْ غفرتُم لهم خطاياهم، غُفِرَت لهم، ومَنْ أمسكتُموها عليهم أُمسِكَت.“,\nأنتَ الآن أيضاً يا سيِّدَنا مِنْ قِبَلِ رسلِكَ الأطهارِ، أنعمتَ للذين يعملون في الكهنوتِ كلَّ زمانٍ في كنيستِكَ المقدسةِ أن يغفروا الخطايا على الأرضِ، ويربطوا ويحلُّوا كلَّ رباطاتِ الظلمِ.,\nالآن أيضاً نسألُ ونطلبُ من صلاحِكَ يا محبَّ البشرِ، عن عبيدِكَ,\nآبائي وإخوتي.,\nوضعفي. هؤلاء المنحنين برؤوسِهِم أمام مجدِكَ المقدس.,\nارزقْنا رحمتَكَ، واقطع كلَّ رباطاتِ خطايانا.,\nوإن كُنَّا قد أخطأنا إليكَ في شيءٍ بعلمٍ، أو بغيرِ علمٍ، أو بجزعِ القلبِ، سواءً كان بالفعلِ، أو بالقولِ، أو بِصِغَرِ القلبِ، أنتَ أيها السيدُ العارفُ بضعفِ البشرِ، كصالحٍ ومحبِّ البشرِ، اللهم انعمْ لنا بغفرانِ خطايانا.,\nبارِكْنا.,\nطهِّرْنا، حالِلْنا.,\nوحالِلْ سائرَ شعبِك.,\nاملأنا من خوفِكَ، وقوِّمنا إلى إرادتِكَ المقدسةِ الصالحةِ.,\nلأنك أنتَ هو إلهُنا والمجدُ والكرامةُ والعزُّ والسجودُ تليقُ بِكَ مع أبيكَ الصالحِ والروحِ القدسِ المحيِي المساوِي لكَ.,\nالآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين.,\n",
-      "english": "(P),\nO Master, Lord Jesus Christ, the only-begotten Son and Logos of God the Father, who has broken every bond of our sins through His saving, life-giving sufferings;,\nWho breathed into the face of His holy disciples and saintly apostles, and said to them,,\n“Receive the Holy Spirit. If you forgive the sins of any, they are forgiven; if you retain the sins of any, they are retained.”,\nNow also, O our Master, You have given grace through Your holy apostles to those who for a time labor in the priesthood in Your holy Church to forgive sin upon the earth and to bind and to loose every bond of iniquity.,\nNow also we ask and entreat Your goodness, O Lover of Mankind, for Your servants,,\nMy fathers and my brethren,,\nAnd my weakness, those who bow their heads before Your holy glory.,\nDispense to us Your mercy and loose every bond of our sins,,\nAnd, if we have committed any sin against You knowingly or unknowingly, or through anguish of heart, whether in deed or word, or from faint-heartedness,  O Master, who knows the weakness of men as a Good One and Lover of Mankind, O God, grant us the forgiveness of our sins,,\nBless us,,\nPurify us, absolve us,,\nAnd all Your people.,\nFill us with Your fear and straighten us for Your holy good will,,\nFor You are our God, and the glory, the honor, the dominion, and the worship are due unto You, with Your good Father and the Holy Spirit, the Giver of Life, who is of one essence with You,,\nNow and at all times and unto the age of all ages. Amen.,\n"
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بالمسيح يسوع ربنا",
+      "Coptic": "+en Pi`xrictoc Ihcouc Pen_.",
+      "English": "In Christ Jesus Our Lord",
+      "Arabiccoptic": "خين بخرستوس إيسوس بنشويس",
+      "Englishcoptic": "Khen Pikhristos Isos Penchois"
     },
     {
-      "arabic": "",
-      "arabiccoptic": "",
-      "coptic": "",
-      "english": "",
-      "englishcoptic": ""
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": ":بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "احنوا رؤوسَكم للربِّ.",
+      "Coptic": "Tac kevalac `umwn tw Kuriw `klinate.",
+      "English": "Bow your heads to the Lord.",
+      "Arabiccoptic": "طاس كى فالاس ايمون طوكيريو اكليناتى",
+      "Englishcoptic": "Taski valas eimon to kirio eklinati"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": ":بيلاؤس",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمامك يارب",
+      "Coptic": "`Enwpion cou Kurie.",
+      "English": "Before You, O Lord.",
+      "Arabiccoptic": "اينو بيون ثو كيريى",
+      "Englishcoptic": "Eno pion tho kirie."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": ":بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "انصتوا بخوفِ الله.",
+      "Coptic": "`Procxwmen Qeou meta vobou. `Amhn.",
+      "English": "Let us attend in the fear of God.",
+      "Arabiccoptic": "ابروس خومين ثيئو ميطافوفو أمين",
+      "Englishcoptic": "Epros khomen theo metavovo Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": ":بي أويب:",
+      "Englishcoptic": "Pi-oweeb;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلامُ للكلِّ.",
+      "Coptic": "`Irhnh paci.",
+      "English": "Peace be with all.",
+      "Arabiccoptic": "ايرينى باسى",
+      "Englishcoptic": "Iriny Paci"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": ":بيلاؤس",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولروحِكَ [أيضاً.",
+      "Coptic": "Ke tw `pneumati cou.",
+      "English": "And with your spirit.",
+      "Arabiccoptic": "كيطوبنفماتى سو",
+      "Englishcoptic": "Keto epnevmati so."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها السيدُ الربُّ يسوعُ المسيحُ، الإبنُ الوحيدُ وكلمةُ اللهِ الآبِ، الذي قَطَّعَ كلَّ رباطاتِ خطايانا من قِبَلِ آلامِه المخَلِّصةِ المحييةِ.",
+      "English": "O Master, Lord Jesus Christ, the only-begotten Son and Logos of God the Father, who has broken every bond of our sins through His saving, life-giving sufferings;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي نَفَخَ في وجه تلاميذِه القديسينَ ورسلِه الأطهارِ وقالَ لهم:",
+      "English": "Who breathed into the face of His holy disciples and saintly apostles, and said to them"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "”اقبَلوا الروحَ القدس، مَنْ غفرتُم لهم خطاياهم، غُفِرَت لهم، ومَنْ أمسكتُموها عليهم أُمسِكَت.“",
+      "English": "“Receive the Holy Spirit. If you forgive the sins of any, they are forgiven; if you retain the sins of any, they are retained.”"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنتَ الآن أيضاً يا سيِّدَنا مِنْ قِبَلِ رسلِكَ الأطهارِ، أنعمتَ للذين يعملون في الكهنوتِ كلَّ زمانٍ في كنيستِكَ المقدسةِ أن يغفروا الخطايا على الأرضِ، ويربطوا ويحلُّوا كلَّ رباطاتِ الظلمِ.",
+      "English": "Now also, O our Master, You have given grace through Your holy apostles to those who for a time labor in the priesthood in Your holy Church to forgive sin upon the earth and to bind and to loose every bond of iniquity."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآن أيضاً نسألُ ونطلبُ من صلاحِكَ يا محبَّ البشرِ، عن عبيدِكَ",
+      "English": "Now also we ask and entreat Your goodness, O Lover of Mankind, for Your servants"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آبائي وإخوتي.",
+      "English": "My fathers and my brethren"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وضعفي. هؤلاء المنحنين برؤوسِهِم أمام مجدِكَ المقدس.",
+      "English": "And my weakness, those who bow their heads before Your holy glory."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارزقْنا رحمتَكَ، واقطع كلَّ رباطاتِ خطايانا.",
+      "English": "Dispense to us Your mercy and loose every bond of our sins"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وإن كُنَّا قد أخطأنا إليكَ في شيءٍ بعلمٍ، أو بغيرِ علمٍ، أو بجزعِ القلبِ، سواءً كان بالفعلِ، أو بالقولِ، أو بِصِغَرِ القلبِ، أنتَ أيها السيدُ العارفُ بضعفِ البشرِ، كصالحٍ ومحبِّ البشرِ، اللهم انعمْ لنا بغفرانِ خطايانا.",
+      "English": "And, if we have committed any sin against You knowingly or unknowingly, or through anguish of heart, whether in deed or word, or from faint-heartedness,  O Master, who knows the weakness of men as a Good One and Lover of Mankind, O God, grant us the forgiveness of our sins"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بارِكْنا.",
+      "English": "Bless us"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طهِّرْنا، حالِلْنا.",
+      "English": "Purify us, absolve us"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وحالِلْ سائرَ شعبِك.",
+      "English": "And all Your people."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "املأنا من خوفِكَ، وقوِّمنا إلى إرادتِكَ المقدسةِ الصالحةِ.",
+      "English": "Fill us with Your fear and straighten us for Your holy good will"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنك أنتَ هو إلهُنا والمجدُ والكرامةُ والعزُّ والسجودُ تليقُ بِكَ مع أبيكَ الصالحِ والروحِ القدسِ المحيِي المساوِي لكَ.",
+      "English": "For You are our God, and the glory, the honor, the dominion, and the worship are due unto You, with Your good Father and the Holy Spirit, the Giver of Life, who is of one essence with You"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين.",
+      "English": "Now and at all times and unto the age of all ages. Amen."
     }
   ]
 }

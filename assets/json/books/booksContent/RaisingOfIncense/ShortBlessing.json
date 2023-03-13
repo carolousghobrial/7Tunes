@@ -1,7 +1,73 @@
 {
-"arabic": " (P),\nالمسيح الهنا,\n(C),\nأمين يكون,\n(P),\nيا ملك السلام، أعطينا سلامك. قرر لنا سلامك وإغفر لنا خطايانا. لأن لك القوة والمجد والبركة والعزة إلى الأبد. آمين.,\n",
-"arabiccoptic": " (P)\nبخريستوس بين نوتى\n(C)\nامين اس اشوبى\n(P)\nإبؤرو إنتى تى هيرينى . موى نان إنتيك هيرينى . سيم نى نان إنتيك هيرينى . كانين نوفى نان إيفول جي ثوك تى تى جوم نيم بى أوأو نيم بى إسمو نيم بى أماهى شا إينيه أمين\n",
-"coptic": " (P)\nPi`xrictoc Pennou;\n(C)\nAmhn  ec`e]wpi.\n(P)\n`Pouro `nte ;\\irhnh> moi nan `ntek\\irhnh> cemni nan `ntek\\irhnh> xa nennobi nan `ebol. Je qwk te ;jom nem pi`wou nem pi`cmou nem pi`ama\\i ]a `ene\\. `Amhn.\n",
-"english": " (P),\nO Christ our God,\n(C),\nAmen. So be it.,\n(P),\nO King of peace, grant us Your peace, establish for us Your peace, and forgive us our sins. For Yours is the power, the glory, the blessing, and the might, forever. Amen.,\n",
-"englishcoptic": " (P)\nPikhristos Pennouty\n(C)\nAmen Es E shopi\n(P)\nEporo Ente ti Hirini, Moinan Entek Hirini, Semninan Entek Hirini, Kanen Novi Nan Evol. Je Thok te tigom , nem pi-o-oo nem pi-esmo nem pi-amahee sha eneh. Amen.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "البركة القصيرة",
+  "EnglishTitle": "The Short Blessing ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المسيح الهنا",
+      "Coptic": "Pi`xrictoc Pennou;",
+      "English": "O Christ our God",
+      "Arabiccoptic": "بخريستوس بين نوتى",
+      "Englishcoptic": "Pikhristos Pennouty"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين يكون",
+      "Coptic": "Amhn  ec`e]wpi.",
+      "English": "Amen. So be it.",
+      "Arabiccoptic": "امين اس اشوبى",
+      "Englishcoptic": "Amen Es E shopi"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ملك السلام، أعطينا سلامك. قرر لنا سلامك وإغفر لنا خطايانا. لأن لك القوة والمجد والبركة والعزة إلى الأبد. آمين.",
+      "Coptic": "`Pouro `nte ;\\irhnh> moi nan `ntek\\irhnh> cemni nan `ntek\\irhnh> xa nennobi nan `ebol. Je qwk te ;jom nem pi`wou nem pi`cmou nem pi`ama\\i ]a `ene\\. `Amhn.",
+      "English": "O King of peace, grant us Your peace, establish for us Your peace, and forgive us our sins. For Yours is the power, the glory, the blessing, and the might, forever. Amen.",
+      "Arabiccoptic": "إبؤرو إنتى تى هيرينى . موى نان إنتيك هيرينى . سيم نى نان إنتيك هيرينى . كانين نوفى نان إيفول جي ثوك تى تى جوم نيم بى أوأو نيم بى إسمو نيم بى أماهى شا إينيه أمين",
+      "Englishcoptic": "Eporo Ente ti Hirini, Moinan Entek Hirini, Semninan Entek Hirini, Kanen Novi Nan Evol. Je Thok te tigom , nem pi-o-oo nem pi-esmo nem pi-amahee sha eneh. Amen."
+    }
+  ]
 }

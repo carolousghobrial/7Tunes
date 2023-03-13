@@ -1,30 +1,74 @@
 {
-  "hymn": "",
-  "exposition": [
+  "RefrainAfter": 0,
+  "ArabicTitle": "أمام أيقونة الرسل",
+  "EnglishTitle": "Before the Icon of the Apostles ",
+  "Hymn": [
     {
-      "arabic": " ",
-      "arabiccoptic": " ",
-      "coptic": " ",
-      "english": " ",
-      "englishcoptic": " "
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
     },
     {
-      "arabic": " (R),\nمن تراتيل مزامير أبينا داود النبى والملك بركاته علينا أمين,\nالذين لم يُسْمَع لهم صوتٌ . خَرَجَت أصواتهم على الأَرْضِ كُلِّهَا . وبلغ كلامهم إلى أقطار الْمَسْكُونَةِ . الليلويا,\nالإنجيل فصل من بشارة معلمنا مار متى البشير بركاته علينا أمين,\nثُمَّ دَعَا تَلاَمِيذَهُ الاِثْنَيْ عَشَرَ وَأَعْطَاهُمْ سُلْطَاناً عَلَى أَرْوَاحٍ نَجِسَةٍ حَتَّى يُخْرِجُوهَا وَيَشْفُوا كُلَّ مَرَضٍ وَكُلَّ ضُعْفٍ. وَأَمَّا أَسْمَاءُ الاِثْنَيْ عَشَرَ رَسُولاً فَهِيَ هَذِهِ: الأَََوَّلُ سِمْعَانُ الَّذِي يُقَالُ لَهُ بُطْرُسُ وَأَنْدَرَاوُسُ أَخُوهُ. يَعْقُوبُ بْنُ زَبْدِي وَيُوحَنَّا أَخُوهُ. فِيلُبُّسُ وَبَرْثُولَمَاوُسُ. تُومَا وَمَتَّى الْعَشَّارُ. يَعْقُوبُ بْنُ حَلْفَى وَلَبَّاوُسُ الْمُلَقَّبُ تَدَّاوُسَ. سِمْعَانُ الْقَانَوِيُّ وَيَهُوذَا الإِسْخَرْيُوطِيُّ الَّذِي أَسْلَمَهُ. هَؤُلاَءِ الاِثْنَا عَشَرَ أَرْسَلَهُمْ يَسُوعُ وَأَوْصَاهُمْ قَائِلاً: «إِلَى طَرِيقِ أُمَمٍ لاَ تَمْضُوا وَإِلَى مَدِينَةٍ لِلسَّامِرِيِّينَ لاَ تَدْخُلُوا. بَلِ اذْهَبُوا بِالْحَرِيِّ إِلَى خِرَافِ بَيْتِ إِسْرَائِيلَ الضَّالَّةِ. وَفِيمَا أَنْتُمْ ذَاهِبُونَ اكْرِزُوا قَائِلِينَ: إِنَّهُ قَدِ اقْتَرَبَ مَلَكُوتُ السَّمَاوَاتِ. ﭐِشْفُوا مَرْضَى. طَهِّرُوا بُرْصاً. أَقِيمُوا مَوْتَى. أَخْرِجُوا شَيَاطِينَ. مَجَّاناً أَخَذْتُمْ مَجَّاناً أَعْطُوا,\n(C),\nوالمجد لله دائماً,\n",
-      "english": " (R),\nFrom the psalms of our father David the prophet and king, may his blessings be with us all Amen.,\nThere is no speech nor language where their voice is not heard. Their line has gone out through all the earth, and their words to the end of the world. Alleluia.,\nFrom the Gospel of our teacher St Matthew may his blessings be with us all Amen.,\nAnd when He had called His twelve disciples to [Him,] He gave them power [over] unclean spirits, to cast them out, and to heal all kinds of sickness and all kinds of disease. 2 Now the names of the twelve apostles are these: first, Simon, who is called Peter, and Andrew his brother; James the [son] of Zebedee, and John his brother; 3 Philip and Bartholomew; Thomas and Matthew the tax collector; James the [son] of Alphaeus, and Lebbaeus, whose surname was Thaddaeus; 4 Simon the Canaanite, and Judas Iscariot, who also betrayed Him. 5 These twelve Jesus sent out and commanded them, saying: \"Do not go into the way of the Gentiles, and do not enter a city of the Samaritans. 6 \"But go rather to the lost sheep of the house of Israel. 7 \"And as you go, preach, saying, 'The kingdom of heaven is at hand.' 8 \"Heal the sick, cleanse the lepers, raise the dead, cast out demons. Freely you have received, freely give.,\n(C),\nGlory be to God forever Amen.,\n"
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من تراتيل مزامير أبينا داود النبى والملك بركاته علينا أمين",
+      "English": "From the psalms of our father David the prophet and king, may his blessings be with us all Amen."
     },
     {
-
-      "englishcoptic": " Isos Pikhristos af-o-orp emmoten : opi-meet esnav en-Apostolos : ereten:hi-oish khen ni-ethnos : ereten aito ene-Khristianos.\n",
-
-      "arabic": " يسوع المسيح أرسلكم أيها الإثنى عشر رسولاً  لتكرزوا فى الأمم وتصيروهم مسيحيين.\n",
-
-      "arabiccoptic": " إيسوس بخريستوس أف أوأورب إمموتين. أوبى ميت إسناف إن أبوسطولوس. إتى تين هيؤيش خين نى إثنوس. إيرى تين أيتو إن إخريستيانوس\n",
-
-      "coptic": " Ih/c/ Px/c/ afouwrp `mmwten > `wpi i/b/ `n`apoctoloc > `eteten \\iwi] =en nieqnoc > `ereten aitou `n`xrhctianoc.\n",
-
-      "english": " Jesus Christ sent you : O twelve Apostles : to preach the nations : and make them Christians.\n"
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذين لم يُسْمَع لهم صوتٌ . خَرَجَت أصواتهم على الأَرْضِ كُلِّهَا . وبلغ كلامهم إلى أقطار الْمَسْكُونَةِ . الليلويا",
+      "English": "There is no speech nor language where their voice is not heard. Their line has gone out through all the earth, and their words to the end of the world. Alleluia."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الإنجيل فصل من بشارة معلمنا مار متى البشير بركاته علينا أمين",
+      "English": "From the Gospel of our teacher St Matthew may his blessings be with us all Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ دَعَا تَلاَمِيذَهُ الاِثْنَيْ عَشَرَ وَأَعْطَاهُمْ سُلْطَاناً عَلَى أَرْوَاحٍ نَجِسَةٍ حَتَّى يُخْرِجُوهَا وَيَشْفُوا كُلَّ مَرَضٍ وَكُلَّ ضُعْفٍ. وَأَمَّا أَسْمَاءُ الاِثْنَيْ عَشَرَ رَسُولاً فَهِيَ هَذِهِ: الأَََوَّلُ سِمْعَانُ الَّذِي يُقَالُ لَهُ بُطْرُسُ وَأَنْدَرَاوُسُ أَخُوهُ. يَعْقُوبُ بْنُ زَبْدِي وَيُوحَنَّا أَخُوهُ. فِيلُبُّسُ وَبَرْثُولَمَاوُسُ. تُومَا وَمَتَّى الْعَشَّارُ. يَعْقُوبُ بْنُ حَلْفَى وَلَبَّاوُسُ الْمُلَقَّبُ تَدَّاوُسَ. سِمْعَانُ الْقَانَوِيُّ وَيَهُوذَا الإِسْخَرْيُوطِيُّ الَّذِي أَسْلَمَهُ. هَؤُلاَءِ الاِثْنَا عَشَرَ أَرْسَلَهُمْ يَسُوعُ وَأَوْصَاهُمْ قَائِلاً: «إِلَى طَرِيقِ أُمَمٍ لاَ تَمْضُوا وَإِلَى مَدِينَةٍ لِلسَّامِرِيِّينَ لاَ تَدْخُلُوا. بَلِ اذْهَبُوا بِالْحَرِيِّ إِلَى خِرَافِ بَيْتِ إِسْرَائِيلَ الضَّالَّةِ. وَفِيمَا أَنْتُمْ ذَاهِبُونَ اكْرِزُوا قَائِلِينَ: إِنَّهُ قَدِ اقْتَرَبَ مَلَكُوتُ السَّمَاوَاتِ. ﭐِشْفُوا مَرْضَى. طَهِّرُوا بُرْصاً. أَقِيمُوا مَوْتَى. أَخْرِجُوا شَيَاطِينَ. مَجَّاناً أَخَذْتُمْ مَجَّاناً أَعْطُوا",
+      "English": "And when He had called His twelve disciples to [Him,] He gave them power [over] unclean spirits, to cast them out, and to heal all kinds of sickness and all kinds of disease. 2 Now the names of the twelve apostles are these: first, Simon, who is called Peter, and Andrew his brother; James the [son] of Zebedee, and John his brother; 3 Philip and Bartholomew; Thomas and Matthew the tax collector; James the [son] of Alphaeus, and Lebbaeus, whose surname was Thaddaeus; 4 Simon the Canaanite, and Judas Iscariot, who also betrayed Him. 5 These twelve Jesus sent out and commanded them, saying: \"Do not go into the way of the Gentiles, and do not enter a city of the Samaritans. 6 \"But go rather to the lost sheep of the house of Israel. 7 \"And as you go, preach, saying, 'The kingdom of heaven is at hand.' 8 \"Heal the sick, cleanse the lepers, raise the dead, cast out demons. Freely you have received, freely give."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والمجد لله دائماً",
+      "English": "Glory be to God forever Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يسوع المسيح أرسلكم أيها الإثنى عشر رسولاً  لتكرزوا فى الأمم وتصيروهم مسيحيين.",
+      "Coptic": "Ih/c/ Px/c/ afouwrp `mmwten > `wpi i/b/ `n`apoctoloc > `eteten \\iwi] =en nieqnoc > `ereten aitou `n`xrhctianoc.",
+      "English": "Jesus Christ sent you : O twelve Apostles : to preach the nations : and make them Christians.",
+      "Arabiccoptic": "إيسوس بخريستوس أف أوأورب إمموتين. أوبى ميت إسناف إن أبوسطولوس. إتى تين هيؤيش خين نى إثنوس. إيرى تين أيتو إن إخريستيانوس",
+      "Englishcoptic": "Isos Pikhristos af-o-orp emmoten : opi-meet esnav en-Apostolos : ereten:hi-oish khen ni-ethnos : ereten aito ene-Khristianos."
     }
-
-
   ]
 }

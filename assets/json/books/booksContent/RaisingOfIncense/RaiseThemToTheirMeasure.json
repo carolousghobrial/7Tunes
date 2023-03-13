@@ -1,7 +1,95 @@
 {
-"arabic": " (P),\nاصعِدْها كمقدارِها كنعمَتِكَ، فَرِّحْ وجهَ الأرضِ، ليُرْوَ حرثُها ولتكثرَ أثمارُها.,\nأعِدَّها للزرعِ والحصادِ، ودبِّر حياتَنا كما يليق.,\nبَارِكْ إكليلَ السنةِ بصلاحِكَ، من أجلِ فقراءِ شعبِكَ، من أجلِ الأرملةِ واليتيمِ والغريبِ والضيفِ، ومن أجلِنا كُلِّنا نحنُ الذين نرجوكَ ونطلبُ اسمَكَ القدوس.,\nلأن أعينَ الكلِّ تترجاكَ، لأنَّكَ أنتَ الذي تُعطِيهم طعامَهم في حينٍ حسنٍ.,\nاصنع معنا حَسَبَ صلاحِكَ، يا مُعطِياً طعاماً لكلِّ جسدٍ. املأ قلوبَنا فرحاً ونعيماً، لكي نحنُ أيضاً إذ تكونَ لنا الكفايةُ في كلِّ شيءٍ، كلَّ حينٍِ، نزدادَ في كلِّ عملٍ صالحٍ.,\n(C),\nياربُّ ارحَم.,\n",
-"arabiccoptic": " (P)\nأنيتوى إى إبشوى كاطا نوشى كاطا في إيتى فوك إنئهموت ما إبؤونوف إم إبهو إم إبكاهى مارو ثيخى إنجى نيف إثلوم مارو آشاى إنجى نيف أوطاه.\nسيف طوطف إى أو إجروج نيم أو أوسخ أووه أريئكو نومين إم بين جين أونخ كاطابيتر نوفرى.\nإزمو إى بى إكلوم إنتى تى رومبى هيتين تيك ميت إخرستوس إثفى نى هيكى إنتى بيك لاؤس إثفى تى شيرا نيم بى أورفانوس نيم بى شيممو نيم بى ريم إنجويلى نيم إثفيتين تيرين خانيئيت إير هيلبيس إيروك أووه إتطفه إم بيكران إثؤواب.\nجى نين فال إن أؤون نيفين سى إير هيليبس إيروك جى إنثوك إت تى إنطو إخرى نوؤوخين أوسيو إينانيف.\nإريئوى نيمان كاطاتيك ميت أغاثوس. فيئيت تى إخرى إن ساركس نيفين. موه إن نينهيت إن راشى نيم أوأو نوف هينا آنون هون إرى إفروشى إنتوتين خين هوب نيفين إنسيو نيفين إنتين إيرو هوؤو هين هوب نيفين إن أغاثون.\n(C)\nكيريى إليسون\n",
-"coptic": " (P)\nAnitou `e`p]wi kata nou]i kata vh`ete vwk `n`\\mot> ma `pounof `m`p\\o `m`pka\\i> marouqi=i `nje nef`qlwm> marou`a]ai `nje nefouta\\.\nCebtwtf `eou`jroj nem ouwc=> ouo\\ arioikonomin `mpenjinwn= kata peternofri.\nCmou `epi`xlom `nte ;rompi \\iten tekmet`xrhctoc> eqbe ni\\hki `nte peklaoc> eqbe ;xhra nem piorvanoc nem pi]emmo nem pirem`njwili> nem eqbhten thren =a nhter\\elpic `erok> ouo\\ ettwb\\ `mpekran `eqouab.\nJe nenbal `nouon niben ceer\\elpic `erok> je `nqok et; `ntou`=re nwou =en ouchou `enanef.\nArioui neman tekmet`agaqoc> vhet; `=re `ncar[ niben mo\\ `nnen\\ht `nra]i nem ouounof> \\ina `anon \\wn niben `nchou niben> `ntener\\ou`o =en \\wn niben `n`agaqon.\n(C)\nKuri`e `ele`hcon.\n",
-"english": " (P),\nRaise them to their measure according to Your grace. Give joy to the face of the earth. May its furrows be abundantly watered and its fruits be plentiful.,\nPrepare it for sowing and harvesting, Manage our life as deemed fit.,\nBless the crown of the year with Your goodness for the sake of the poor of Your people, the widow, the orphan, the traveler, the stranger, and for the sake of all of us who entreat You and seek Your holy name,,\nFor the eyes of everyone wait upon You, for You give them their food in due season.,\nDeal with us according to Your goodness, O You who give food to all flesh. Fill our hearts with joy and gladness, that we, too, having sufficiency in everything always, may abound in every good deed.,\n(C),\nLord have mercy.,\n",
-"englishcoptic": " (P)\nAnito e epshoi kata noshi, kata vi ete vok en ehmot ma ep-onof em epho em epkahy, marothikhy enje nef nef ethlom, maro ashai enje nef otah.\nCevtotf e o egrog nem o-oskh, owoh ari eikonomeen empen jin onkh kata peter nofri.\nEsmo epi eklom ente ti rompi hiten tek met ekhristos, ethve ni hiky ente peklaos, ethve ti shera nem pi Orfanos nem pi shemmo nem pi rem engoly, nem ethviten tiren kha ni eter helpees erok, owoh et-tobh empekran Ethowab.\nJe naval en-o-on niven se er helpees erok, je enthok et ti ento ekhre no-o khen o seio enanef.\nAri-owi neman kata tekmet aghathos, vi et ty ekhri ensarex niven, moh ennen heet enrashi nem o-onof, hina anon hon ere efrashi entiten khen hob biven enseio niven, enten er ho-o khen hob niven en aghathon.\n(C)\nKirialison\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "أوشية الموضع",
+  "EnglishTitle": "//The Litany of the Place ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اصعِدْها كمقدارِها كنعمَتِكَ، فَرِّحْ وجهَ الأرضِ، ليُرْوَ حرثُها ولتكثرَ أثمارُها.",
+      "Coptic": "Anitou `e`p]wi kata nou]i kata vh`ete vwk `n`\\mot> ma `pounof `m`p\\o `m`pka\\i> marouqi=i `nje nef`qlwm> marou`a]ai `nje nefouta\\.",
+      "English": "Raise them to their measure according to Your grace. Give joy to the face of the earth. May its furrows be abundantly watered and its fruits be plentiful.",
+      "Arabiccoptic": "أنيتوى إى إبشوى كاطا نوشى كاطا في إيتى فوك إنئهموت ما إبؤونوف إم إبهو إم إبكاهى مارو ثيخى إنجى نيف إثلوم مارو آشاى إنجى نيف أوطاه.",
+      "Englishcoptic": "Anito e epshoi kata noshi, kata vi ete vok en ehmot ma ep-onof em epho em epkahy, marothikhy enje nef nef ethlom, maro ashai enje nef otah."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعِدَّها للزرعِ والحصادِ، ودبِّر حياتَنا كما يليق.",
+      "Coptic": "Cebtwtf `eou`jroj nem ouwc=> ouo\\ arioikonomin `mpenjinwn= kata peternofri.",
+      "English": "Prepare it for sowing and harvesting, Manage our life as deemed fit.",
+      "Arabiccoptic": "سيف طوطف إى أو إجروج نيم أو أوسخ أووه أريئكو نومين إم بين جين أونخ كاطابيتر نوفرى.",
+      "Englishcoptic": "Cevtotf e o egrog nem o-oskh, owoh ari eikonomeen empen jin onkh kata peter nofri."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بَارِكْ إكليلَ السنةِ بصلاحِكَ، من أجلِ فقراءِ شعبِكَ، من أجلِ الأرملةِ واليتيمِ والغريبِ والضيفِ، ومن أجلِنا كُلِّنا نحنُ الذين نرجوكَ ونطلبُ اسمَكَ القدوس.",
+      "Coptic": "Cmou `epi`xlom `nte ;rompi \\iten tekmet`xrhctoc> eqbe ni\\hki `nte peklaoc> eqbe ;xhra nem piorvanoc nem pi]emmo nem pirem`njwili> nem eqbhten thren =a nhter\\elpic `erok> ouo\\ ettwb\\ `mpekran `eqouab.",
+      "English": "Bless the crown of the year with Your goodness for the sake of the poor of Your people, the widow, the orphan, the traveler, the stranger, and for the sake of all of us who entreat You and seek Your holy name",
+      "Arabiccoptic": "إزمو إى بى إكلوم إنتى تى رومبى هيتين تيك ميت إخرستوس إثفى نى هيكى إنتى بيك لاؤس إثفى تى شيرا نيم بى أورفانوس نيم بى شيممو نيم بى ريم إنجويلى نيم إثفيتين تيرين خانيئيت إير هيلبيس إيروك أووه إتطفه إم بيكران إثؤواب.",
+      "Englishcoptic": "Esmo epi eklom ente ti rompi hiten tek met ekhristos, ethve ni hiky ente peklaos, ethve ti shera nem pi Orfanos nem pi shemmo nem pi rem engoly, nem ethviten tiren kha ni eter helpees erok, owoh et-tobh empekran Ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن أعينَ الكلِّ تترجاكَ، لأنَّكَ أنتَ الذي تُعطِيهم طعامَهم في حينٍ حسنٍ.",
+      "Coptic": "Je nenbal `nouon niben ceer\\elpic `erok> je `nqok et; `ntou`=re nwou =en ouchou `enanef.",
+      "English": "For the eyes of everyone wait upon You, for You give them their food in due season.",
+      "Arabiccoptic": "جى نين فال إن أؤون نيفين سى إير هيليبس إيروك جى إنثوك إت تى إنطو إخرى نوؤوخين أوسيو إينانيف.",
+      "Englishcoptic": "Je naval en-o-on niven se er helpees erok, je enthok et ti ento ekhre no-o khen o seio enanef."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اصنع معنا حَسَبَ صلاحِكَ، يا مُعطِياً طعاماً لكلِّ جسدٍ. املأ قلوبَنا فرحاً ونعيماً، لكي نحنُ أيضاً إذ تكونَ لنا الكفايةُ في كلِّ شيءٍ، كلَّ حينٍِ، نزدادَ في كلِّ عملٍ صالحٍ.",
+      "Coptic": "Arioui neman tekmet`agaqoc> vhet; `=re `ncar[ niben mo\\ `nnen\\ht `nra]i nem ouounof> \\ina `anon \\wn niben `nchou niben> `ntener\\ou`o =en \\wn niben `n`agaqon.",
+      "English": "Deal with us according to Your goodness, O You who give food to all flesh. Fill our hearts with joy and gladness, that we, too, having sufficiency in everything always, may abound in every good deed.",
+      "Arabiccoptic": "إريئوى نيمان كاطاتيك ميت أغاثوس. فيئيت تى إخرى إن ساركس نيفين. موه إن نينهيت إن راشى نيم أوأو نوف هينا آنون هون إرى إفروشى إنتوتين خين هوب نيفين إنسيو نيفين إنتين إيرو هوؤو هين هوب نيفين إن أغاثون.",
+      "Englishcoptic": "Ari-owi neman kata tekmet aghathos, vi et ty ekhri ensarex niven, moh ennen heet enrashi nem o-onof, hina anon hon ere efrashi entiten khen hob biven enseio niven, enten er ho-o khen hob niven en aghathon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ياربُّ ارحَم.",
+      "Coptic": "Kuri`e `ele`hcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Kirialison"
+    }
+  ]
 }

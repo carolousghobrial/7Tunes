@@ -1,26 +1,74 @@
 {
-  "hymn": "",
-  "exposition": [
+  "RefrainAfter": 0,
+  "ArabicTitle": "أمام أيقونة الانبا انطونيوس ) أو أى قديس آخر(",
+  "EnglishTitle": "Before the Icon of St.Anthony (or any saint) ",
+  "Hymn": [
     {
-      "arabic": " ",
-      "arabiccoptic": " ",
-      "coptic": " ",
-      "english": " ",
-      "englishcoptic": " "
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
     },
     {
-      "arabic": " (R),\nمن تراتيل مزامير أبينا داود النبى والملك بركاته علينا أمين,\nعجيب هو الله فى قديسيه . إِلَهُ إِسْرَائِيلَ هُوَ يعطى قوةً وعزاءاً لشعبه . والصديقون يفرحون ويتهللون أمام الله . ويتنعمون بسرورٍ .  الليلويا.,\nالإنجيل فصل من بشارة معلمنا مار متى البشير بركاته علينا أمين,\nحِينَئِذٍ قَالَ يَسُوعُ لِتَلاَمِيذِهِ: «إِنْ أَرَادَ أَحَدٌ أَنْ يَأْتِيَ وَرَائِي فَلْيُنْكِرْ نَفْسَهُ وَيَحْمِلْ صَلِيبَهُ وَيَتْبَعْنِي فَإِنَّ مَنْ أَرَادَ أَنْ يُخَلِّصَ نَفْسَهُ يُهْلِكُهَا وَمَنْ يُهْلِكُ نَفْسَهُ مِنْ أَجْلِي يَجِدُهَا. لأَنَّهُ مَاذَا يَنْتَفِعُ الإِنْسَانُ لَوْ رَبِحَ الْعَالَمَ كُلَّهُ وَخَسِرَ نَفْسَهُ؟ أَوْ مَاذَا يُعْطِي الإِنْسَانُ فِدَاءً عَنْ نَفْسِهِ؟ فَإِنَّ ابْنَ الإِنْسَانِ سَوْفَ يَأْتِي فِي مَجْدِ أَبِيهِ مَعَ مَلاَئِكَتِهِ وَحِينَئِذٍ يُجَازِي كُلَّ وَاحِدٍ حَسَبَ عَمَلِهِ. اَلْحَقَّ أَقُولُ لَكُمْ إِنَّ مِنَ الْقِيَامِ هَهُنَا قَوْماً لاَ يَذُوقُونَ الْمَوْتَ حَتَّى يَرَوُا ابْنَ الإِنْسَانِ آتِياً فِي مَلَكُوتِهِ»,\n(C),\nوالمجد لله دائماً,\n",
-      "english": " (R),\nFrom the psalms of our father David the prophet and king, may his blessings be with us all Amen.,\nAscribe strength to God, His excellence is over Israel. The God of Israel is He who gives strength and power to His people. But let the righteous be glad, let them rejoice before God, Yes, let them rejoice exceedingly. Alleluia.,\nFrom the Gospel of our teacher St Matthew may his blessings be with us all Amen.,\nThen Jesus said to His disciples, \"If anyone desires to come after Me, let him deny himself, and take up his Cross, and follow Me. 25 \"For whoever desires to save his life will lose it, but whoever loses his life for My sake will find it. 26 \"For what profit is it to a man if he gains the whole world, and loses his own soul? Or what will a man give in exchange for his soul? 27 \"For the Son of Man will come in the glory of His Father with His angels, and then He will reward each according to his works. 28 \"Assuredly, I say to you, there are some standing here who shall not taste death till they see the Son of Man coming in His kingdom.\",\n(C),\nGlory be to God forever Amen.,\n"
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من تراتيل مزامير أبينا داود النبى والملك بركاته علينا أمين",
+      "English": "From the psalms of our father David the prophet and king, may his blessings be with us all Amen."
     },
     {
-      "englishcoptic": " Vol evol khen ne ten heet, en ni mokmek ente ti kakia, nem ni mevi etshep shop, et iri empenos en kaki.\n",
-
-      "arabic": " إنزعوا من قلوبكم أفكار الشر والظنون الخداعة التى تظلم العقل.\n",
-
-      "arabiccoptic": " فول إيفول خين نى تين هيت . إن نى مو ميك إنتى تى كاكيا . نيم نى ميفئ إتشيب شوب . إتئيرى إمبينوس إنكاكى.\n",
-      "coptic": " Bwl `ebol =en neten\\ht > `nnimokmek `nte ;kaki`a > nem nimeu`i et]eb]wb > et`iri `mpinouc `nxaki.\n ",
-      "english": " Take out from your hearts : the thoughts of evil : and the pretentious images : that darken the mind.\n"
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عجيب هو الله فى قديسيه . إِلَهُ إِسْرَائِيلَ هُوَ يعطى قوةً وعزاءاً لشعبه . والصديقون يفرحون ويتهللون أمام الله . ويتنعمون بسرورٍ .  الليلويا.",
+      "English": "Ascribe strength to God, His excellence is over Israel. The God of Israel is He who gives strength and power to His people. But let the righteous be glad, let them rejoice before God, Yes, let them rejoice exceedingly. Alleluia."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الإنجيل فصل من بشارة معلمنا مار متى البشير بركاته علينا أمين",
+      "English": "From the Gospel of our teacher St Matthew may his blessings be with us all Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حِينَئِذٍ قَالَ يَسُوعُ لِتَلاَمِيذِهِ: «إِنْ أَرَادَ أَحَدٌ أَنْ يَأْتِيَ وَرَائِي فَلْيُنْكِرْ نَفْسَهُ وَيَحْمِلْ صَلِيبَهُ وَيَتْبَعْنِي فَإِنَّ مَنْ أَرَادَ أَنْ يُخَلِّصَ نَفْسَهُ يُهْلِكُهَا وَمَنْ يُهْلِكُ نَفْسَهُ مِنْ أَجْلِي يَجِدُهَا. لأَنَّهُ مَاذَا يَنْتَفِعُ الإِنْسَانُ لَوْ رَبِحَ الْعَالَمَ كُلَّهُ وَخَسِرَ نَفْسَهُ؟ أَوْ مَاذَا يُعْطِي الإِنْسَانُ فِدَاءً عَنْ نَفْسِهِ؟ فَإِنَّ ابْنَ الإِنْسَانِ سَوْفَ يَأْتِي فِي مَجْدِ أَبِيهِ مَعَ مَلاَئِكَتِهِ وَحِينَئِذٍ يُجَازِي كُلَّ وَاحِدٍ حَسَبَ عَمَلِهِ. اَلْحَقَّ أَقُولُ لَكُمْ إِنَّ مِنَ الْقِيَامِ هَهُنَا قَوْماً لاَ يَذُوقُونَ الْمَوْتَ حَتَّى يَرَوُا ابْنَ الإِنْسَانِ آتِياً فِي مَلَكُوتِهِ»",
+      "English": "Then Jesus said to His disciples, \"If anyone desires to come after Me, let him deny himself, and take up his Cross, and follow Me. 25 \"For whoever desires to save his life will lose it, but whoever loses his life for My sake will find it. 26 \"For what profit is it to a man if he gains the whole world, and loses his own soul? Or what will a man give in exchange for his soul? 27 \"For the Son of Man will come in the glory of His Father with His angels, and then He will reward each according to his works. 28 \"Assuredly, I say to you, there are some standing here who shall not taste death till they see the Son of Man coming in His kingdom.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والمجد لله دائماً",
+      "English": "Glory be to God forever Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إنزعوا من قلوبكم أفكار الشر والظنون الخداعة التى تظلم العقل.",
+      "Coptic": "Bwl `ebol =en neten\\ht > `nnimokmek `nte ;kaki`a > nem nimeu`i et]eb]wb > et`iri `mpinouc `nxaki.",
+      "English": "Take out from your hearts : the thoughts of evil : and the pretentious images : that darken the mind.",
+      "Arabiccoptic": "فول إيفول خين نى تين هيت . إن نى مو ميك إنتى تى كاكيا . نيم نى ميفئ إتشيب شوب . إتئيرى إمبينوس إنكاكى.",
+      "Englishcoptic": "Vol evol khen ne ten heet, en ni mokmek ente ti kakia, nem ni mevi etshep shop, et iri empenos en kaki."
     }
-
-]
+  ]
 }

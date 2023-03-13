@@ -1,28 +1,74 @@
 {
-  "hymn": "",
-  "exposition": [
+  "RefrainAfter": 0,
+  "ArabicTitle": "أمام باب الكنيسة القبلى",
+  "EnglishTitle": "Before the Southern Door ",
+  "Hymn": [
     {
-      "arabic": " ",
-      "arabiccoptic": " ",
-      "coptic": " ",
-      "english": " ",
-      "englishcoptic": " "
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
     },
     {
-      "arabic": " (R),\nمن تراتيل مزامير أبينا داود النبى والملك بركاته علينا أمين,\nإفتحوا لى أبواب العدل لكى ما أدخل فيها وأعترف للرب. هذا هو باب الرب والصديقون يدخلون فيه. الليلويا.,\nالإنجيل فصل من بشارة معلمنا مارمتى البشير بركاته علينا أمين,\nوَلَمَّا قَرُبُوا مِنْ أُورُشَلِيمَ وَجَاءُوا إِلَى بَيْتِ فَاجِي عِنْدَ جَبَلِ الزَّيْتُونِ حِينَئِذٍ أَرْسَلَ يَسُوعُ تِلْمِيذَيْنِ قَائِلاً لَهُمَا: «ﭐِذْهَبَا إِلَى الْقَرْيَةِ الَّتِي أَمَامَكُمَا فَلِلْوَقْتِ تَجِدَانِ أَتَاناً مَرْبُوطَةً وَجَحْشاً مَعَهَا فَحُلَّاهُمَا وَأْتِيَانِي بِهِمَا. وَإِنْ قَالَ لَكُمَا أَحَدٌ شَيْئاً فَقُولاَ: الرَّبُّ مُحْتَاجٌ إِلَيْهِمَا. فَلِلْوَقْتِ يُرْسِلُهُمَا». فَكَانَ هَذَا كُلُّهُ لِكَيْ يَتِمَّ مَا قِيلَ بِالنَّبِيِّ: «قُولُوا لاِبْنَةِ صِهْيَوْنَ: هُوَذَا مَلِكُكِ يَأْتِيكِ وَدِيعاً رَاكِباً عَلَى أَتَانٍ وَجَحْشٍ ابْنِ أَتَانٍ». فَذَهَبَ التِّلْمِيذَانِ وَفَعَلاَ كَمَا أَمَرَهُمَا يَسُوعُ وَأَتَيَا بِالأَتَانِ وَالْجَحْشِ وَوَضَعَا عَلَيْهِمَا ثِيَابَهُمَا فَجَلَسَ عَلَيْهِمَا. وَﭐلْجَمْعُ الأَكْثَرُ فَرَشُوا ثِيَابَهُمْ فِي الطَّرِيقِ. وَآخَرُونَ قَطَعُوا أَغْصَاناً مِنَ الشَّجَرِ وَفَرَشُوهَا فِي الطَّرِيقِ. وَﭐلْجُمُوعُ الَّذِينَ تَقَدَّمُوا وَالَّذِينَ تَبِعُوا كَانُوا يَصْرَخُونَ: «أُوصَنَّا لاِبْنِ دَاوُدَ! مُبَارَكٌ الآتِي بِاسْمِ الرَّبِّ! أُوصَنَّا فِي الأَعَالِي!». وَلَمَّا دَخَلَ أُورُشَلِيمَ ارْتَجَّتِ الْمَدِينَةُ كُلُّهَا قَائِلَةً: «مَنْ هَذَا؟» فَقَالَتِ الْجُمُوعُ: «هَذَا يَسُوعُ النَّبِيُّ الَّذِي مِنْ نَاصِرَةِ  الْجَلِيلِ».,\n(C),\nوالمجد لله دائماً,\n",
-      "english": " (R),\nFrom the psalms of our father David the prophet and king, may his blessings be with us all Amen.,\nOpen to me the gates of righteousness; I will go through them, and I will praise the Lord. This is the gate of the Lord, through which the righteous shall enter. Alleluia.,\nFrom the Gospel of our teacher St Matthew may his blessings be with us all Amen.,\nNow when they drew near Jerusalem, and came to Bethphage, at the Mount of Olives, then Jesus sent two disciples, 2 saying to them, \"Go into the village opposite you, and immediately you will find a donkey tied, and a colt with her. Loose [them] and bring [them] to Me. 3 \"And if anyone says anything to you, you shall say, 'The Lord has need of them,' and immediately he will send them.\" 4 All this was done that it might be fulfilled which was spoken by the prophet, saying: 5 \"Tell the daughter of Zion, 'Behold, your King is coming to you, Lowly, and sitting on a donkey, A colt, the foal of a donkey.' \" 6 So the disciples went and did as Jesus commanded them. 7 They brought the donkey and the colt, laid their clothes on them, and set [Him] on them. 8 And a very great multitude spread their clothes on the road; others cut down branches from the trees and spread [them] on the road. 9 Then the multitudes who went before and those who followed cried out, saying: \"Hosanna to the Son of David! 'Blessed [is] He who comes in the name of the LORD!' Hosanna in the highest!\" 10 And when He had come into Jerusalem, all the city was moved, saying, \"Who is this?\" 11 So the multitudes said, \"This is Jesus, the prophet from Nazareth of Galilee.\",\n(C),\nGlory be to God forever Amen.,\n"
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من تراتيل مزامير أبينا داود النبى والملك بركاته علينا أمين",
+      "English": "From the psalms of our father David the prophet and king, may his blessings be with us all Amen."
     },
     {
-
-
-      "englishcoptic": " Vi-et hemsi hijen ni-Sherobim : hijen pi-ethronos ente-pef-o-oo : afshe ekhon eYerosalim : ope pai-nishty en-thevio.\n",
-
-      "arabic": " + الجالس فوق الشاروبيم على كرسى مجده دخل إلى أورشليم . ماهو هذا التواضع العظيم.\n",
-      "arabiccoptic": " فى إيت هيمسى هيجين نى شيروبيم . هيجين بيف إثرونوس ‘نتى بيف أوأو . أفشى إيخون إيروساليم. أوبى باى نيشتى إن ثيفيو.\n",
-      "coptic": " Vhet\\emci \\ijen Nixeroubim > \\ijen pi`qronoc `nte pef`wou > af]e `e=oun `eIl/h/m/ > oupe paini]; `nqebi`o.\n",
-
-      "english": " He who sits upon the Cherubim : on the throne of His glory : entered into Jerusalem : what is this great humility\n",
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إفتحوا لى أبواب العدل لكى ما أدخل فيها وأعترف للرب. هذا هو باب الرب والصديقون يدخلون فيه. الليلويا.",
+      "English": "Open to me the gates of righteousness; I will go through them, and I will praise the Lord. This is the gate of the Lord, through which the righteous shall enter. Alleluia."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الإنجيل فصل من بشارة معلمنا مارمتى البشير بركاته علينا أمين",
+      "English": "From the Gospel of our teacher St Matthew may his blessings be with us all Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَمَّا قَرُبُوا مِنْ أُورُشَلِيمَ وَجَاءُوا إِلَى بَيْتِ فَاجِي عِنْدَ جَبَلِ الزَّيْتُونِ حِينَئِذٍ أَرْسَلَ يَسُوعُ تِلْمِيذَيْنِ قَائِلاً لَهُمَا: «ﭐِذْهَبَا إِلَى الْقَرْيَةِ الَّتِي أَمَامَكُمَا فَلِلْوَقْتِ تَجِدَانِ أَتَاناً مَرْبُوطَةً وَجَحْشاً مَعَهَا فَحُلَّاهُمَا وَأْتِيَانِي بِهِمَا. وَإِنْ قَالَ لَكُمَا أَحَدٌ شَيْئاً فَقُولاَ: الرَّبُّ مُحْتَاجٌ إِلَيْهِمَا. فَلِلْوَقْتِ يُرْسِلُهُمَا». فَكَانَ هَذَا كُلُّهُ لِكَيْ يَتِمَّ مَا قِيلَ بِالنَّبِيِّ: «قُولُوا لاِبْنَةِ صِهْيَوْنَ: هُوَذَا مَلِكُكِ يَأْتِيكِ وَدِيعاً رَاكِباً عَلَى أَتَانٍ وَجَحْشٍ ابْنِ أَتَانٍ». فَذَهَبَ التِّلْمِيذَانِ وَفَعَلاَ كَمَا أَمَرَهُمَا يَسُوعُ وَأَتَيَا بِالأَتَانِ وَالْجَحْشِ وَوَضَعَا عَلَيْهِمَا ثِيَابَهُمَا فَجَلَسَ عَلَيْهِمَا. وَﭐلْجَمْعُ الأَكْثَرُ فَرَشُوا ثِيَابَهُمْ فِي الطَّرِيقِ. وَآخَرُونَ قَطَعُوا أَغْصَاناً مِنَ الشَّجَرِ وَفَرَشُوهَا فِي الطَّرِيقِ. وَﭐلْجُمُوعُ الَّذِينَ تَقَدَّمُوا وَالَّذِينَ تَبِعُوا كَانُوا يَصْرَخُونَ: «أُوصَنَّا لاِبْنِ دَاوُدَ! مُبَارَكٌ الآتِي بِاسْمِ الرَّبِّ! أُوصَنَّا فِي الأَعَالِي!». وَلَمَّا دَخَلَ أُورُشَلِيمَ ارْتَجَّتِ الْمَدِينَةُ كُلُّهَا قَائِلَةً: «مَنْ هَذَا؟» فَقَالَتِ الْجُمُوعُ: «هَذَا يَسُوعُ النَّبِيُّ الَّذِي مِنْ نَاصِرَةِ  الْجَلِيلِ».",
+      "English": "Now when they drew near Jerusalem, and came to Bethphage, at the Mount of Olives, then Jesus sent two disciples, 2 saying to them, \"Go into the village opposite you, and immediately you will find a donkey tied, and a colt with her. Loose [them] and bring [them] to Me. 3 \"And if anyone says anything to you, you shall say, 'The Lord has need of them,' and immediately he will send them.\" 4 All this was done that it might be fulfilled which was spoken by the prophet, saying: 5 \"Tell the daughter of Zion, 'Behold, your King is coming to you, Lowly, and sitting on a donkey, A colt, the foal of a donkey.' \" 6 So the disciples went and did as Jesus commanded them. 7 They brought the donkey and the colt, laid their clothes on them, and set [Him] on them. 8 And a very great multitude spread their clothes on the road; others cut down branches from the trees and spread [them] on the road. 9 Then the multitudes who went before and those who followed cried out, saying: \"Hosanna to the Son of David! 'Blessed [is] He who comes in the name of the LORD!' Hosanna in the highest!\" 10 And when He had come into Jerusalem, all the city was moved, saying, \"Who is this?\" 11 So the multitudes said, \"This is Jesus, the prophet from Nazareth of Galilee.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والمجد لله دائماً",
+      "English": "Glory be to God forever Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b الجالس فوق الشاروبيم على كرسى مجده دخل إلى أورشليم . ماهو هذا التواضع العظيم.",
+      "Coptic": "Vhet\\emci \\ijen Nixeroubim > \\ijen pi`qronoc `nte pef`wou > af]e `e=oun `eIl/h/m/ > oupe paini]; `nqebi`o.",
+      "English": "He who sits upon the Cherubim : on the throne of His glory : entered into Jerusalem : what is this great humility",
+      "Arabiccoptic": "فى إيت هيمسى هيجين نى شيروبيم . هيجين بيف إثرونوس ‘نتى بيف أوأو . أفشى إيخون إيروساليم. أوبى باى نيشتى إن ثيفيو.",
+      "Englishcoptic": "Vi-et hemsi hijen ni-Sherobim : hijen pi-ethronos ente-pef-o-oo : afshe ekhon eYerosalim : ope pai-nishty en-thevio."
     }
-
-]
+  ]
 }

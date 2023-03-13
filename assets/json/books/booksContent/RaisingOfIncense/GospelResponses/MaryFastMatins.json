@@ -1,7 +1,49 @@
 {
-"arabic": " (C),\nكل ملوك الارض يسيرون في نورك والأمم في ضيائك يا مريم أم الله.,\nأشفعي فينا يا سيدتنا كلنا، السيدة والدة الإله مريم أم مخلصنا، ليغفر لنا خطايانا.,\nلأنه مبارك الآب و الابن و الروح القدس، الثالوث الكامل، نسجد له و نمجده.,\n",
-"arabiccoptic": " (C)\nنى أووروأوو تيرو إنتى إبكاهى : سيموشى خين بى أووأوينى : أووه نى إثنوس خين بى ايرفيرى : أو ماريا إثماﭫ إم إفنوتى  .\nأريبرزفيفين إإهرى إيجون . أوتين شويس إن نيب تيرين تى ثيؤطوكوس. ماريا إثماف إمبين سوتير . إنتيف كانين نوفى نان إيفول .\nجى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.\n",
-"coptic": " (C)\nNiourwou throu `nte `pka\\i> cemo]i =en peouwini> ouo\\ ni`eqnoc =en peviri> `wMari`a `qmau `mV;?.\nAri`precbeuin `e`\\rhi `ejwn> `w tensoic `nnhb thren ;qe`otokoc> Mari`a `qmau `mpencwthr> `ntefxa nennobi nan `ebol.\nJe `f`cmarouwt `nje `Viwt nem `P]hri> nem Pi`pneuma `eqouab ;`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.\n",
-"english": " (C),\nAll the kings of the earth, wake into your light, and the Gentiles in your light rays, O Mary the Mother of God.,\nIntercede on our behalf, O Lady of us all, the Theotokos, Mary, the mother of our Savoir, that He may forgive us our sins.,\nBlessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.,\n",
-"englishcoptic": " (C)\nNi-ooro-oo teeroo ente ep-kahi: semoshi khen pi-o-oini: owoh ni-ethnos khen peviri: O Maria ethmav em-Evnoti.\nArep-resvevin e-ehri egon, o ten-chois ennib ti-renti Theotokos, Maria ethmav empen-Sotir, entef ka nen-novi nan evol.\nJe ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas.\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كل ملوك الارض يسيرون في نورك والأمم في ضيائك يا مريم أم الله.",
+      "Coptic": "Niourwou throu `nte `pka\\i> cemo]i =en peouwini> ouo\\ ni`eqnoc =en peviri> `wMari`a `qmau `mV;?.",
+      "English": "All the kings of the earth, wake into your light, and the Gentiles in your light rays, O Mary the Mother of God.",
+      "Arabiccoptic": "نى أووروأوو تيرو إنتى إبكاهى : سيموشى خين بى أووأوينى : أووه نى إثنوس خين بى ايرفيرى : أو ماريا إثماﭫ إم إفنوتى  .",
+      "Englishcoptic": "Ni-ooro-oo teeroo ente ep-kahi: semoshi khen pi-o-oini: owoh ni-ethnos khen peviri: O Maria ethmav em-Evnoti."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أشفعي فينا يا سيدتنا كلنا، السيدة والدة الإله مريم أم مخلصنا، ليغفر لنا خطايانا.",
+      "Coptic": "Ari`precbeuin `e`\\rhi `ejwn> `w tensoic `nnhb thren ;qe`otokoc> Mari`a `qmau `mpencwthr> `ntefxa nennobi nan `ebol.",
+      "English": "Intercede on our behalf, O Lady of us all, the Theotokos, Mary, the mother of our Savoir, that He may forgive us our sins.",
+      "Arabiccoptic": "أريبرزفيفين إإهرى إيجون . أوتين شويس إن نيب تيرين تى ثيؤطوكوس. ماريا إثماف إمبين سوتير . إنتيف كانين نوفى نان إيفول .",
+      "Englishcoptic": "Arep-resvevin e-ehri egon, o ten-chois ennib ti-renti Theotokos, Maria ethmav empen-Sotir, entef ka nen-novi nan evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه مبارك الآب و الابن و الروح القدس، الثالوث الكامل، نسجد له و نمجده.",
+      "Coptic": "Je `f`cmarouwt `nje `Viwt nem `P]hri> nem Pi`pneuma `eqouab ;`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.",
+      "English": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
+      "Arabiccoptic": "جى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.",
+      "Englishcoptic": "Je ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas."
+    }
+  ]
 }

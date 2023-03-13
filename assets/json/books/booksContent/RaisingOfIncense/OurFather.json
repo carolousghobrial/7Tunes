@@ -1,7 +1,62 @@
 {
-  "arabic": " اجعلنا مستحقين أن نقول بشكر:,\n(C),\nأبانا الذي في السموات، ليتقدس إسمك. ليأت ملكوتك. لتكن مشيئتك، كما في السماء كذلك على الأرض.,\nخبزنا كفافنا أعطنا اليوم. وأغفر لنا ذنوبنا، كما نغفر نحن أيضاً للمذنبين إلينا.,\nولا تدخلنا في تجربة، لكن نجنا من الشرير. بالمسيح يسوع ربنا، لأن لك الملك والقوة والمجد إلى الأبد. آمين.,\n",
-  "arabiccoptic": "اريتين إن إميبشا إنجوس خين او شيب إيهموت \n (C)\nجى بينيوت إتخين نيفيؤوي : ماريف طوفو إنجيه بيكران :ماريسئي إنجيه تيك ميت أورو : بيتهناك ماريف شوبي  .  إمفريتي خين إتفى : نيم هيجين بيكاهي :\nبين أويك إنتى راستي :ميف نان إمفوؤو . أووه كاني إيتيرون نان إيفول : إمفريتي هون إنتين كو إيفول :إنني إيتيه أوأون إنتان إيروؤ :\nأووه إمبير إنتين إيخون إبي رازموس أللا ناهمين إيفول هابي بيتهوؤو : خين بي خريستوس إيسوس بينشويس : جى ثوك تى تي ميت أورو نيم تي جوم :نيم بي أوأو شا إينيه أمين\n",
-  "coptic": "`Ariten `nem`p]a `njoc =en ou]ep\\mot>\n (C)\nJe Peniwt et =en nivhou`i> mareftoubo `nje pekran. Marec`i `nje tekmetouro. Pete\\ nak maref]wpi> `m`vrh; =en `tve nem \\ijen pika\\i.\nPenwik `nte rac; mhif nan `mvoou. Ouo\\ xa nhet`eron nan `ebol> `m`vrh; \\wn `ntenxw `ebol `nnh`ete ouon `ntan `erwou.\nOuo\\ `mperenten `e=oun `epiracmoc> alla na\\men `ebol \\a pipet\\wou. +en Pi`xrictoc Ihcouc Pensoic> je qwk te ;metouro nem ;jom nem pi`wou ]a `ene\\. `Amhn.\n",
-  "english": "Make us worthy to pray thankfully:\n  (C),\nOur Father who art in heaven, hallowed be Thy name. Thy kingdom come. Thy will be done, on earth as it is in heaven.,\nGive us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us;,\nAnd lead us not into temptation, but deliver us from the evil one. In Christ Jesus our Lord, for Thine is the kingdom and the power and the glory forever. Amen.,\n",
-  "englishcoptic": "Ariten en-emepsha engos khen o-shep ehmot:\n(C)\nJe Peniot et khen ni-feeowi: maref-toovo enje pekran. Mares-ee enje tek-met-ooro. Peteh nak marefshopi: emevreeti khen etve nem hijen pikahi.\nPenoik ente rasti meeif nan emfo-oo. Owoh ka nee et-eron nan evol: emevreeti hon enten-ko evol ennee ete oo-on entan ero-oo.\nOwoh emper-enten ekhoon epi-rasmos: alla nahmen evol ha pi-pet-ho-oo. Khen Pekhristos Isos Penchois: je thok te ti-metooro nem tigom nem pi-o-oo sha eneh. Ameen.\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "أبانا الذي في السموات",
+  "EnglishTitle": "Our Father Who Art in Heaven ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اجعلنا مستحقين أن نقول بشكر:",
+      "Coptic": "`Ariten `nem`p]a `njoc =en ou]ep\\mot>",
+      "English": "Make us worthy to pray thankfully:",
+      "Arabiccoptic": "اريتين إن إميبشا إنجوس خين او شيب إيهموت",
+      "Englishcoptic": "Ariten en-emepsha engos khen o-shep ehmot:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أبانا الذي في السموات، ليتقدس إسمك. ليأت ملكوتك. لتكن مشيئتك، كما في السماء كذلك على الأرض.",
+      "Coptic": "Je Peniwt et =en nivhou`i> mareftoubo `nje pekran. Marec`i `nje tekmetouro. Pete\\ nak maref]wpi> `m`vrh; =en `tve nem \\ijen pika\\i.",
+      "English": "Our Father who art in heaven, hallowed be Thy name. Thy kingdom come. Thy will be done, on earth as it is in heaven.",
+      "Arabiccoptic": "جى بينيوت إتخين نيفيؤوي : ماريف طوفو إنجيه بيكران :ماريسئي إنجيه تيك ميت أورو : بيتهناك ماريف شوبي  .  إمفريتي خين إتفى : نيم هيجين بيكاهي :",
+      "Englishcoptic": "Je Peniot et khen ni-feeowi: maref-toovo enje pekran. Mares-ee enje tek-met-ooro. Peteh nak marefshopi: emevreeti khen etve nem hijen pikahi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خبزنا كفافنا أعطنا اليوم. وأغفر لنا ذنوبنا، كما نغفر نحن أيضاً للمذنبين إلينا.",
+      "Coptic": "Penwik `nte rac; mhif nan `mvoou. Ouo\\ xa nhet`eron nan `ebol> `m`vrh; \\wn `ntenxw `ebol `nnh`ete ouon `ntan `erwou.",
+      "English": "Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us;",
+      "Arabiccoptic": "بين أويك إنتى راستي :ميف نان إمفوؤو . أووه كاني إيتيرون نان إيفول : إمفريتي هون إنتين كو إيفول :إنني إيتيه أوأون إنتان إيروؤ :",
+      "Englishcoptic": "Penoik ente rasti meeif nan emfo-oo. Owoh ka nee et-eron nan evol: emevreeti hon enten-ko evol ennee ete oo-on entan ero-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولا تدخلنا في تجربة، لكن نجنا من الشرير. بالمسيح يسوع ربنا، لأن لك الملك والقوة والمجد إلى الأبد. آمين.",
+      "Coptic": "Ouo\\ `mperenten `e=oun `epiracmoc> alla na\\men `ebol \\a pipet\\wou. +en Pi`xrictoc Ihcouc Pensoic> je qwk te ;metouro nem ;jom nem pi`wou ]a `ene\\. `Amhn.",
+      "English": "And lead us not into temptation, but deliver us from the evil one. In Christ Jesus our Lord, for Thine is the kingdom and the power and the glory forever. Amen.",
+      "Arabiccoptic": "أووه إمبير إنتين إيخون إبي رازموس أللا ناهمين إيفول هابي بيتهوؤو : خين بي خريستوس إيسوس بينشويس : جى ثوك تى تي ميت أورو نيم تي جوم :نيم بي أوأو شا إينيه أمين",
+      "Englishcoptic": "Owoh emper-enten ekhoon epi-rasmos: alla nahmen evol ha pi-pet-ho-oo. Khen Pekhristos Isos Penchois: je thok te ti-metooro nem tigom nem pi-o-oo sha eneh. Ameen."
+    }
+  ]
 }

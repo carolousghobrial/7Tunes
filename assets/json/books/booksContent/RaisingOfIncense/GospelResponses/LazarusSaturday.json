@@ -1,7 +1,49 @@
 {
-"arabic": " (C),\nكثيرة الأعاجيب، التي صنعها، أؤمن بجبروته، لأنه هو الملك المجد.,\nأطلب من الرب عنا، أيها الراعي الذي للمسيح، لعازر الأسقف، ليغفر لنا خطايانا.,\nلأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.,\n",
-"arabiccoptic": " (C)\nزى أوش إنتى هان إشفيري : ني إيتاف أيري أيمو أوو : تيناهتي إيتاف ميتجوري : جى إنثوف بى إبؤرو إنتى أب أوؤ\nطوبه إم إبتشويس إ إهري إجون: أوبى مان إى سوؤ انتى بخرستوس: لا زاروس بى إبيسكوبوس:  إنتيف كا نين نوفي نان إيفول  .\nجى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.\n",
-"coptic": " (C)\nZew]  `nte \\an`]vhri >  nh`etau`iri `mmwou >  ;na\\; `etafmetjwri >  je `nqof pe ` Pouro `nte `p`wou.\nTwb\\ `m`Psoic `e`\\rhi `ejwn> `w piman`ecwou `nte Pi`xrictoc> Lazaroc pi`epickopoc> `ntefxa nennobi nan `ebol.\nJe `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.\n",
-"english": " (C),\nMany are the wonders, which were performed, I believe in His might, for He is the King of glory.,\nPray to the Lord on our behalf, O shepherd of Christ, Lazarus the bishop, that He may forgive us our sins.,\nBlessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.,\n",
-"englishcoptic": " (C)\nZe-osh ente han-eshveri : ni-etav-eeri em-mo-oo : ti-nahti etaf-met-gori : je enthof pe ep-oro ente ep-o-oo.\nTob hem-Epchois e-ehrei egon : opi-man eso-oo ente Pikhristos : Lazaros pi-episko-pos : entef-ka nen novi nan evol.\nJe ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas.\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كثيرة الأعاجيب، التي صنعها، أؤمن بجبروته، لأنه هو الملك المجد.",
+      "Coptic": "Zew]  `nte \\an`]vhri >  nh`etau`iri `mmwou >  ;na\\; `etafmetjwri >  je `nqof pe ` Pouro `nte `p`wou.",
+      "English": "Many are the wonders, which were performed, I believe in His might, for He is the King of glory.",
+      "Arabiccoptic": "زى أوش إنتى هان إشفيري : ني إيتاف أيري أيمو أوو : تيناهتي إيتاف ميتجوري : جى إنثوف بى إبؤرو إنتى أب أوؤ",
+      "Englishcoptic": "Ze-osh ente han-eshveri : ni-etav-eeri em-mo-oo : ti-nahti etaf-met-gori : je enthof pe ep-oro ente ep-o-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أطلب من الرب عنا، أيها الراعي الذي للمسيح، لعازر الأسقف، ليغفر لنا خطايانا.",
+      "Coptic": "Twb\\ `m`Psoic `e`\\rhi `ejwn> `w piman`ecwou `nte Pi`xrictoc> Lazaroc pi`epickopoc> `ntefxa nennobi nan `ebol.",
+      "English": "Pray to the Lord on our behalf, O shepherd of Christ, Lazarus the bishop, that He may forgive us our sins.",
+      "Arabiccoptic": "طوبه إم إبتشويس إ إهري إجون: أوبى مان إى سوؤ انتى بخرستوس: لا زاروس بى إبيسكوبوس:  إنتيف كا نين نوفي نان إيفول  .",
+      "Englishcoptic": "Tob hem-Epchois e-ehrei egon : opi-man eso-oo ente Pikhristos : Lazaros pi-episko-pos : entef-ka nen novi nan evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.",
+      "Coptic": "Je `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.",
+      "English": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
+      "Arabiccoptic": "جى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.",
+      "Englishcoptic": "Je ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas."
+    }
+  ]
 }

@@ -1,4 +1,71 @@
 {
-  "arabic": " إشتهت الملكة هيلانة أن تنظر خشبة الصليب المقدس التي صُلب السيد عليها.,\nفلم تمل البتة بل كانت تطلبه بإشتياق وإجتهاد حتى وجدته من أجل أمانتها.,\nكان فرح اليوم في السماء وعلى الأرض من أجل ظهور الصليب المحيي.,\nنسجد للصليب، الخشبة الغير المائتة التي صُلب السيد عليها حتى خلصنا من خطايانا.,\nقامت هيلانة الملكة، وأخذت معها ثلاثة آلاف جندي، ومضت إلى أورشليم لتطلب الصليب.,\nفتشاور اليهود مع بعضهم قائلين: \"لو وصل الأمر إلى أن نموت كلنا، لا نظهر الصليب.\" فصلى يهوذا قائلاً: \"أيها الرب الإله الضابط الكل، رب الصباؤوت، الجالس على الشاروبيم، إظهر لنا. يا من قاس السماء بشبره والأرض بقبضته، إظهر صليبك لكي يتمجد إسمك القدوس.\",\nوفي تلك الساعة إفترقت الأرض إلى ثلاثة طُرق. وأعمق طيب رفيع عظيم الكرامة. ولما حفروا، وجدوا ثلاثة صلبان معاً ولم يعلموا أيها هو صليب مخلصنا. وفي تلك الساعة جازوا بميت. فأمر يهوذا أن يضعوا نعش الميت على الأرض.,\nولما وضعوا عليه الصليب الأول والثاني ولم يقم. وضعوا الصليب الثالث فجلس الميِّت. فخرت الملكة هيلانة وسجدت له وجميع الشعب معاً وهم صارخين قائلين، \"مبارك الرب يسوع وصليبه المحيي الذي صُلب عليه حتى خلَّص شعبه.,\n()\n",
-  "english": " Queen Helen desired to see the wood of the holy Cross, on which the Master was crucified upon.,\nShe longed for it diligently. She did not rest, and by her honesty, she found it.,\nThis day is a day of rejoicing in heaven and on earth for the appearance of the life-giving Cross.,\nWe bow down to the Cross, the immortal wood on which Christ was crucified upon to save us from our sins.,\nQueen Helen went with three thousand soldiers to Jerusalem to ask for the Cross.,\nThe Jews consulted together saying, \"We will not show the cross even if we have to die.\" So, Judas prayed saying: \"O Lord the Pantocrator, the Lord of hosts, who is sitting on the Cherubim, show us. O who measured the heavens by the span of His hands and the earth with His fist, show Your cross for the glory of Your holy name.\",\nAt that time, the earth split into three roads. A sweet glorious smell spread. When they dug, they found three crosses and they could not identify which one belonged to our Savior. At this hour, some people passed while carrying a coffin. Judas ordered them to lay it down.,\nOn the coffin, they put the first cross and then the second cross and the dead person did not rise. When they put the third cross, the dead person sat up. Queen Helen kneeled in worship and the people all together were proclaiming saying, \"Blessed is the Lord Jesus and His life-giving cross upon which He was crucified to save His people.\n()\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "طرح عيد الصليب",
+  "EnglishTitle": "Feast of the Cross Exposition (1) ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إشتهت الملكة هيلانة أن تنظر خشبة الصليب المقدس التي صُلب السيد عليها.",
+      "English": "Queen Helen desired to see the wood of the holy Cross, on which the Master was crucified upon."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلم تمل البتة بل كانت تطلبه بإشتياق وإجتهاد حتى وجدته من أجل أمانتها.",
+      "English": "She longed for it diligently. She did not rest, and by her honesty, she found it."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كان فرح اليوم في السماء وعلى الأرض من أجل ظهور الصليب المحيي.",
+      "English": "This day is a day of rejoicing in heaven and on earth for the appearance of the life-giving Cross."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نسجد للصليب، الخشبة الغير المائتة التي صُلب السيد عليها حتى خلصنا من خطايانا.",
+      "English": "We bow down to the Cross, the immortal wood on which Christ was crucified upon to save us from our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قامت هيلانة الملكة، وأخذت معها ثلاثة آلاف جندي، ومضت إلى أورشليم لتطلب الصليب.",
+      "English": "Queen Helen went with three thousand soldiers to Jerusalem to ask for the Cross."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فتشاور اليهود مع بعضهم قائلين: \"لو وصل الأمر إلى أن نموت كلنا، لا نظهر الصليب.\" فصلى يهوذا قائلاً: \"أيها الرب الإله الضابط الكل، رب الصباؤوت، الجالس على الشاروبيم، إظهر لنا. يا من قاس السماء بشبره والأرض بقبضته، إظهر صليبك لكي يتمجد إسمك القدوس.\"",
+      "English": "The Jews consulted together saying, \"We will not show the cross even if we have to die.\" So, Judas prayed saying: \"O Lord the Pantocrator, the Lord of hosts, who is sitting on the Cherubim, show us. O who measured the heavens by the span of His hands and the earth with His fist, show Your cross for the glory of Your holy name.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفي تلك الساعة إفترقت الأرض إلى ثلاثة طُرق. وأعمق طيب رفيع عظيم الكرامة. ولما حفروا، وجدوا ثلاثة صلبان معاً ولم يعلموا أيها هو صليب مخلصنا. وفي تلك الساعة جازوا بميت. فأمر يهوذا أن يضعوا نعش الميت على الأرض.",
+      "English": "At that time, the earth split into three roads. A sweet glorious smell spread. When they dug, they found three crosses and they could not identify which one belonged to our Savior. At this hour, some people passed while carrying a coffin. Judas ordered them to lay it down."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولما وضعوا عليه الصليب الأول والثاني ولم يقم. وضعوا الصليب الثالث فجلس الميِّت. فخرت الملكة هيلانة وسجدت له وجميع الشعب معاً وهم صارخين قائلين، \"مبارك الرب يسوع وصليبه المحيي الذي صُلب عليه حتى خلَّص شعبه.",
+      "English": "On the coffin, they put the first cross and then the second cross and the dead person did not rise. When they put the third cross, the dead person sat up. Queen Helen kneeled in worship and the people all together were proclaiming saying, \"Blessed is the Lord Jesus and His life-giving cross upon which He was crucified to save His people."
+    }
+  ]
 }

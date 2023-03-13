@@ -1,4 +1,55 @@
 {
-  "arabic": " السلام للصليب، علامة الظفر الذي أُعطى للمسيحيين ليتقووا من قِبَله. السلام للصليب، الشجرة التي في الفردوس التي أغصانها العطرية تحيي كل أحد. السلام للصليب، علامة الخلاص الذي رآه قسطنطين يضئ في وسط السماء.,\nالسلام لك أيها الصليب الذي طلبته الملكة هيلانة بإجتهاد حتى وجدته مع المسامير. السلام للصليب الذي جعل في المياه المرة فصارت حلوة وشرب منها المؤمنون. السلام للصليب الذي إستحق أن يؤمن به إسحق السامري وكل الذين معه.,\nالسلام للصليب، فخر المسيحية الذي صُلب عليه الرب حتى خلص شعبه. السلام للصليب، المنارة الذهب المصفى التي أوقد عليها المصباح، الذي هو عمانوئيل. السلام للصليب، قضيب خشبة اللوز الذي قطر عليه دم الحمل.,\nالسلام للصليب، الرشم الذي لا يحل الذي في يدي العالي مثل تاج مزخرف. السلام للصليب الذي صلب الرب عليه فبسط يديه وجذب كل أحد اليه.,\nمن قِبَل شجرة واحدة، نفيَّ آدم إلى خارج الفردوس، ومن قِبَل الصليب عود الصليب المبارك رد إلى رتبته مرة أخرى. فنسأل الرب المتحنن أن ينعم لنا بغفران خطايانا.,\nوالمجد لله دائماً. آمين.,\n()\n",
-  "english": " Hail to the Cross, the sign of victory that was given to the Christians for strengthening. Hail to the Cross, the tree that is in Paradise, whose sweet-smelling branches give life to everyone. Hail to the Cross, the sign of salvation that Constantine saw shining in the midst of the heaven.,\nHail to you O Cross that was diligently sought by queen Helen until she found it along with the nails. Hail to the Cross that was put into bitter water and it was rendered sweet to quench the thirst of the faithful. Hail to the Cross that deserved to be believed in by Isaac the Samaritan and all who were with him.,\nHail to the Cross, the pride of Christians on which the Lord was crucified upon to save His people. Hail to the Cross, the lampstand made of pure gold on which the Lamp, Emmanuel, was lit. Hail to the Cross, the wood scepter on which the blood of the Lamb was shed.,\nHail to the Cross, the indispensable sign in the hands of the Highest like a decorated crown. Hail to the Cross on which the Lord was crucified and He stretched His hands and attracted everyone to Him.,\nBecause of a tree, Adam was exiled out of the Paradise, and because of the blessed Cross, He returned to his rank once more. We ask the kind Lord to grant us the forgiveness of our sins.,\nGlory be to God forever. Amen.,\n()\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "طرح عيد الصليب",
+  "EnglishTitle": "Feast of the Cross Exposition (2) ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام للصليب، علامة الظفر الذي أُعطى للمسيحيين ليتقووا من قِبَله. السلام للصليب، الشجرة التي في الفردوس التي أغصانها العطرية تحيي كل أحد. السلام للصليب، علامة الخلاص الذي رآه قسطنطين يضئ في وسط السماء.",
+      "English": "Hail to the Cross, the sign of victory that was given to the Christians for strengthening. Hail to the Cross, the tree that is in Paradise, whose sweet-smelling branches give life to everyone. Hail to the Cross, the sign of salvation that Constantine saw shining in the midst of the heaven."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لك أيها الصليب الذي طلبته الملكة هيلانة بإجتهاد حتى وجدته مع المسامير. السلام للصليب الذي جعل في المياه المرة فصارت حلوة وشرب منها المؤمنون. السلام للصليب الذي إستحق أن يؤمن به إسحق السامري وكل الذين معه.",
+      "English": "Hail to you O Cross that was diligently sought by queen Helen until she found it along with the nails. Hail to the Cross that was put into bitter water and it was rendered sweet to quench the thirst of the faithful. Hail to the Cross that deserved to be believed in by Isaac the Samaritan and all who were with him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام للصليب، فخر المسيحية الذي صُلب عليه الرب حتى خلص شعبه. السلام للصليب، المنارة الذهب المصفى التي أوقد عليها المصباح، الذي هو عمانوئيل. السلام للصليب، قضيب خشبة اللوز الذي قطر عليه دم الحمل.",
+      "English": "Hail to the Cross, the pride of Christians on which the Lord was crucified upon to save His people. Hail to the Cross, the lampstand made of pure gold on which the Lamp, Emmanuel, was lit. Hail to the Cross, the wood scepter on which the blood of the Lamb was shed."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام للصليب، الرشم الذي لا يحل الذي في يدي العالي مثل تاج مزخرف. السلام للصليب الذي صلب الرب عليه فبسط يديه وجذب كل أحد اليه.",
+      "English": "Hail to the Cross, the indispensable sign in the hands of the Highest like a decorated crown. Hail to the Cross on which the Lord was crucified and He stretched His hands and attracted everyone to Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من قِبَل شجرة واحدة، نفيَّ آدم إلى خارج الفردوس، ومن قِبَل الصليب عود الصليب المبارك رد إلى رتبته مرة أخرى. فنسأل الرب المتحنن أن ينعم لنا بغفران خطايانا.",
+      "English": "Because of a tree, Adam was exiled out of the Paradise, and because of the blessed Cross, He returned to his rank once more. We ask the kind Lord to grant us the forgiveness of our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والمجد لله دائماً. آمين.",
+      "English": "Glory be to God forever. Amen."
+    }
+  ]
 }

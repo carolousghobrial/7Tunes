@@ -1,7 +1,73 @@
 {
-    "arabic": " (P),\nتفضل ياربُّ مياهَ النهرِ في هذه السنةِ، بارِكْها.,\n(D),\nاطلبوا عن صعودِ مياه الأنهارِ في هذه السنةِ، لكي يباركَها المسيحُ إلهُنا، ويُصْعِدَها كمقدارِها، ويُفَرِّحَ وجهَ الأرضِ، ويعولَنا نحنُ بني البشرِ، ويُعطِي النجاةَ للبهائمِ، ويغفرَ لنا خطايانا.,\n(C),\nياربُّ ارحَم. ياربُّ ارحَم. ياربُّ ارحَم.,\n",
-    "arabiccoptic": " (P)\nأرى كاطاكسين إبشويس نيسيتى نيم نى سيم نيم نى روت إنتى إتكوىإيت خين طاى رومبى ثاى إزمو إيروؤو.\n(D)\nطفه إيجين نى ستين نيم سيم نيم نى روت إنتى إتكوى خين تاى رومبى ثاى هينا إنتى بى إخرستوس بننوتى إزمو إيرؤو إنتو آى آى.. أووه إنتو آشاى شا إنتو جوك إيفول خين او نشتى إن كربوس أووه إنتيف شينهيت خابيف إبلازما إيتانيف جيج ثاميوف إنتيف كانين نوفى نان إيفول.\n(C)\nكيريى إليسون كيريى إليسون كيريى إليسون\n",
-    "coptic": " (P)\nArikata[ioin ~P_ nimwou `nte niiarwou et=en tairompi qai> `cmou `erwou.\n(D)\nTwb\\ `ejen `pjinmo]i `e`p]wi `nte niiarwou `mmwou =en tairompi qai > \\ina `nte Pixrictoc Pennou; `cmou `erwou> `ntefenou `e`p]wi kata nou]i `ntef; `m`pounof `m`p\\o `m`pka\\i `ntef]anou]ten =a ni]hri `nte nirwmi > `ntef; `m`vno\\em `nnitebnwoui > `ntefxa nennobi nan `ebol.\n(C)\nKuri`e `ele`hcon> Kuri`e `ele`hcon> Kuri`e `ele`hcon.\n",
-    "english": " (P),\nGraciously accord, O Lord, to bless the waters of the river this year.,\n(D),\nPray for the rising of the waters of the rivers this year, that Christ our God may bless them and raise them according to their measure, that He may give joy to the face of the earth, sustain us, the sons of men, save the cattle, and forgive us our sins.,\n(C),\nLord have mercy. Lord have mercy. Lord have mercy.,\n",
-    "englishcoptic": " (P)\nAri kataksin Epshois nimo-o ente Efiaro, etkhen tai rompy thai esmo ero-o\n(D)\nTobh ejen epjin moshy e epshoi ente ni-iaro-o emmo-o khen tai rompi thai, hina ente Pikhristos Pennouty esmo ero-o, entef eno e epshoi kata noshi, entefti em ep-onof em epho em epkahy entef shanosh tain kha nishiry ente ni romy, entefty em efnohem enni tev no-owi, entef kanen novi nan evol.\n(C)\nKirialison Kirialison Kirialison\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "اوشية المياه",
+  "EnglishTitle": "Litany of the Waters ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تفضل ياربُّ مياهَ النهرِ في هذه السنةِ، بارِكْها.",
+      "Coptic": "Arikata[ioin ~P_ nimwou `nte niiarwou et=en tairompi qai> `cmou `erwou.",
+      "English": "Graciously accord, O Lord, to bless the waters of the river this year.",
+      "Arabiccoptic": "أرى كاطاكسين إبشويس نيسيتى نيم نى سيم نيم نى روت إنتى إتكوىإيت خين طاى رومبى ثاى إزمو إيروؤو.",
+      "Englishcoptic": "Ari kataksin Epshois nimo-o ente Efiaro, etkhen tai rompy thai esmo ero-o"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اطلبوا عن صعودِ مياه الأنهارِ في هذه السنةِ، لكي يباركَها المسيحُ إلهُنا، ويُصْعِدَها كمقدارِها، ويُفَرِّحَ وجهَ الأرضِ، ويعولَنا نحنُ بني البشرِ، ويُعطِي النجاةَ للبهائمِ، ويغفرَ لنا خطايانا.",
+      "Coptic": "Twb\\ `ejen `pjinmo]i `e`p]wi `nte niiarwou `mmwou =en tairompi qai > \\ina `nte Pixrictoc Pennou; `cmou `erwou> `ntefenou `e`p]wi kata nou]i `ntef; `m`pounof `m`p\\o `m`pka\\i `ntef]anou]ten =a ni]hri `nte nirwmi > `ntef; `m`vno\\em `nnitebnwoui > `ntefxa nennobi nan `ebol.",
+      "English": "Pray for the rising of the waters of the rivers this year, that Christ our God may bless them and raise them according to their measure, that He may give joy to the face of the earth, sustain us, the sons of men, save the cattle, and forgive us our sins.",
+      "Arabiccoptic": "طفه إيجين نى ستين نيم سيم نيم نى روت إنتى إتكوى خين تاى رومبى ثاى هينا إنتى بى إخرستوس بننوتى إزمو إيرؤو إنتو آى آى.. أووه إنتو آشاى شا إنتو جوك إيفول خين او نشتى إن كربوس أووه إنتيف شينهيت خابيف إبلازما إيتانيف جيج ثاميوف إنتيف كانين نوفى نان إيفول.",
+      "Englishcoptic": "Tobh ejen epjin moshy e epshoi ente ni-iaro-o emmo-o khen tai rompi thai, hina ente Pikhristos Pennouty esmo ero-o, entef eno e epshoi kata noshi, entefti em ep-onof em epho em epkahy entef shanosh tain kha nishiry ente ni romy, entefty em efnohem enni tev no-owi, entef kanen novi nan evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ياربُّ ارحَم. ياربُّ ارحَم. ياربُّ ارحَم.",
+      "Coptic": "Kuri`e `ele`hcon> Kuri`e `ele`hcon> Kuri`e `ele`hcon.",
+      "English": "Lord have mercy. Lord have mercy. Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون كيريى إليسون كيريى إليسون",
+      "Englishcoptic": "Kirialison Kirialison Kirialison"
+    }
+  ]
 }

@@ -1,29 +1,82 @@
 {
-  "hymn": "",
-  "exposition": [
+  "RefrainAfter": 0,
+  "ArabicTitle": "أمام أيقونة الملاك غبريال",
+  "EnglishTitle": "Before the Icon of Archangel Gabriel ",
+  "Hymn": [
     {
-      "arabic": " ",
-      "arabiccoptic": " ",
-      "coptic": " ",
-      "english": " ",
-      "englishcoptic": " "
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
     },
     {
-      "arabic": " (R),\nمن تراتيل مزامير أبينا داود النبى والملك بركاته علينا أمين,\nمَلاَكُ الرَّبِّ يحيط بكل خَائِفِيهِ وَيُنَجِّيهِمْ. ذُوقُوا وَانْظُرُوا مَا أَطْيَبَ الرَّبَّ! طُوبَى لِلرَّجُلِ الْمُتَوَكِّلِ عَلَيْهِ. الليلويا,\nالإنجيل فصل من بشارة معلمنا مارلوقا  البشير بركاته علينا أمين,\nوَفِي الشَّهْرِ السَّادِسِ أُرْسِلَ جِبْرَائِيلُ الْمَلاَكُ مِنَ اللهِ إِلَى مَدِينَةٍ مِنَ الْجَلِيلِ اسْمُهَا نَاصِرَةُ إِلَى عَذْرَاءَ مَخْطُوبَةٍ لِرَجُلٍ مِنْ بَيْتِ دَاوُدَ اسْمُهُ يُوسُفُ. وَاسْمُ الْعَذْرَاءِ مَرْيَمُ. فَدَخَلَ إِلَيْهَا الْمَلاَكُ وَقَالَ: «سَلاَمٌ لَكِ أَيَّتُهَا الْمُنْعَمُ عَلَيْهَا! اَلرَّبُّ مَعَكِ. مُبَارَكَةٌ أَنْتِ فِي النِّسَاءِ». فَلَمَّا رَأَتْهُ اضْطَرَبَتْ مِنْ كَلاَمِهِ وَفَكَّرَتْ مَا عَسَى أَنْ تَكُونَ هَذِهِ التَّحِيَّةُ! فَقَالَ لَهَا الْمَلاَكُ: «لاَ تَخَافِي يَا مَرْيَمُ لأَنَّكِ قَدْ وَجَدْتِ نِعْمَةً عِنْدَ اللهِ. وَهَا أَنْتِ سَتَحْبَلِينَ وَتَلِدِينَ ابْناً وَتُسَمِّينَهُ يَسُوعَ. هَذَا يَكُونُ عَظِيماً وَابْنَ الْعَلِيِّ يُدْعَى وَيُعْطِيهِ الرَّبُّ الإِلَهُ كُرْسِيَّ دَاوُدَ أَبِيهِ وَيَمْلِكُ عَلَى بَيْتِ يَعْقُوبَ إِلَى الأَبَدِ وَلاَ يَكُونُ لِمُلْكِهِ نِهَايَةٌ».,\nفَقَالَتْ مَرْيَمُ لِلْمَلاَكِ: «كَيْفَ يَكُونُ هَذَا وَأَنَا لَسْتُ أَعْرِفُ رَجُلاً؟» فَأَجَابَ الْمَلاَكُ: «اَلرُّوحُ الْقُدُسُ يَحِلُّ عَلَيْكِ وَقُوَّةُ الْعَلِيِّ تُظَلِّلُكِ فَلِذَلِكَ أَيْضاً الْقُدُّوسُ الْمَوْلُودُ مِنْكِ يُدْعَى ابْنَ اللهِ. وَهُوَذَا أَلِيصَابَاتُ نَسِيبَتُكِ هِيَ أَيْضاً حُبْلَى بِابْنٍ فِي شَيْخُوخَتِهَا وَهَذَا هُوَ الشَّهْرُ السَّادِسُ لِتِلْكَ الْمَدْعُوَّةِ عَاقِراً لأَنَّهُ لَيْسَ شَيْءٌ غَيْرَ مُمْكِنٍ لَدَى اللهِ». فَقَالَتْ مَرْيَمُ: «هُوَذَا أَنَا أَمَةُ الرَّبِّ. لِيَكُنْ لِي كَقَوْلِكَ». فَمَضَى مِنْ عِنْدِهَا الْمَلاَكُ.,\n(C),\nوالمجد لله دائماً,\n",
-      "english": " (R),\nFrom the psalms of our father David the prophet and king, may his blessings be with us all Amen.,\nThe angel of the Lord encamps all around those who fear Him. And delivers them. Oh taste and see that the Lord is good, blessed is the man who trusts in Him! Alleluia.,\nFrom the Gospel of our teacher St Luke, may his blessings be with us all Amen.,\nNow Mary arose in those days and went into the hill country with haste, to a city of Judah, 40 and entered the house of Zacharias and greeted Elizabeth. 41 And it happened, when Elizabeth heard the greeting of Mary, that the babe leaped in her womb; and Elizabeth was filled with the Holy Spirit. 42 Then she spoke out with a loud voice and said, \"Blessed [are] you among women, and blessed [is] the fruit of your womb! 43 \"But why [is] this [granted] to me, that the mother of my Lord should come to me? 44 \"For indeed, as soon as the voice of your greeting sounded in my ears, the babe leaped in my womb for joy. 45 \"Blessed [is] she who believed, for there will be a fulfillment of those things which were told her from the Lord.\" 46 And Mary said: \"My soul magnifies the Lord, 47 And my spirit has rejoiced in God my Savior. 48 For He has regarded the lowly state of His maidservant;,\nFor behold, henceforth all generations will call me blessed. 49 For He who is mighty has done great things for me, And holy [is] His name. 50 And His mercy [is] on those who fear Him From generation to generation. 51 He has shown strength with His arm; He has scattered [the] proud in the imagination of their hearts. 52 He has put down the mighty from [their] thrones, And exalted [the] lowly. 53 He has filled [the] hungry with good things, And [the] rich He has sent away empty. 54 He has helped His servant Israel, In remembrance of [His] mercy, 55 As He spoke to our fathers, To Abraham and to his seed forever.\" 56 And Mary remained with her about three months, and returned to her house.,\n(C),\nGlory be to God forever Amen.,\n"
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من تراتيل مزامير أبينا داود النبى والملك بركاته علينا أمين",
+      "English": "From the psalms of our father David the prophet and king, may his blessings be with us all Amen."
     },
     {
-
-      "englishcoptic": " Ghabriel pi angelos, avnav erof enje Daniel, ef ohi eratf hijen nef vat, hijen nen esvoto em efiaro.\n",
-      "arabic": " غبريال الملاك رآه دانيال واقفاً   على قدميه . على شاطئ  النهر.\n",
-
-      "arabiccoptic": " غابرييل بى أنجيلوس . أفناف إيروف إنجى دانييل . إف أوهى إيراطف هيجين نيف فات. هيجين نين إسفوطو إم إفيارو.\n",
-
-      "coptic": " Gabrihl piaggeloc > afnau `erof `nje Danihl > ef`o\\i `eratf \\ijen nefvat > \\ijen nen`cvotou `m`viaro.\n",
-
-      "english": " Gabriel the Archangel, was seen by Daniel, as he stood upon his feet, by the shore of the river.\n",
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَلاَكُ الرَّبِّ يحيط بكل خَائِفِيهِ وَيُنَجِّيهِمْ. ذُوقُوا وَانْظُرُوا مَا أَطْيَبَ الرَّبَّ! طُوبَى لِلرَّجُلِ الْمُتَوَكِّلِ عَلَيْهِ. الليلويا",
+      "English": "The angel of the Lord encamps all around those who fear Him. And delivers them. Oh taste and see that the Lord is good, blessed is the man who trusts in Him! Alleluia."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الإنجيل فصل من بشارة معلمنا مارلوقا  البشير بركاته علينا أمين",
+      "English": "From the Gospel of our teacher St Luke, may his blessings be with us all Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَفِي الشَّهْرِ السَّادِسِ أُرْسِلَ جِبْرَائِيلُ الْمَلاَكُ مِنَ اللهِ إِلَى مَدِينَةٍ مِنَ الْجَلِيلِ اسْمُهَا نَاصِرَةُ إِلَى عَذْرَاءَ مَخْطُوبَةٍ لِرَجُلٍ مِنْ بَيْتِ دَاوُدَ اسْمُهُ يُوسُفُ. وَاسْمُ الْعَذْرَاءِ مَرْيَمُ. فَدَخَلَ إِلَيْهَا الْمَلاَكُ وَقَالَ: «سَلاَمٌ لَكِ أَيَّتُهَا الْمُنْعَمُ عَلَيْهَا! اَلرَّبُّ مَعَكِ. مُبَارَكَةٌ أَنْتِ فِي النِّسَاءِ». فَلَمَّا رَأَتْهُ اضْطَرَبَتْ مِنْ كَلاَمِهِ وَفَكَّرَتْ مَا عَسَى أَنْ تَكُونَ هَذِهِ التَّحِيَّةُ! فَقَالَ لَهَا الْمَلاَكُ: «لاَ تَخَافِي يَا مَرْيَمُ لأَنَّكِ قَدْ وَجَدْتِ نِعْمَةً عِنْدَ اللهِ. وَهَا أَنْتِ سَتَحْبَلِينَ وَتَلِدِينَ ابْناً وَتُسَمِّينَهُ يَسُوعَ. هَذَا يَكُونُ عَظِيماً وَابْنَ الْعَلِيِّ يُدْعَى وَيُعْطِيهِ الرَّبُّ الإِلَهُ كُرْسِيَّ دَاوُدَ أَبِيهِ وَيَمْلِكُ عَلَى بَيْتِ يَعْقُوبَ إِلَى الأَبَدِ وَلاَ يَكُونُ لِمُلْكِهِ نِهَايَةٌ».",
+      "English": "Now Mary arose in those days and went into the hill country with haste, to a city of Judah, 40 and entered the house of Zacharias and greeted Elizabeth. 41 And it happened, when Elizabeth heard the greeting of Mary, that the babe leaped in her womb; and Elizabeth was filled with the Holy Spirit. 42 Then she spoke out with a loud voice and said, \"Blessed [are] you among women, and blessed [is] the fruit of your womb! 43 \"But why [is] this [granted] to me, that the mother of my Lord should come to me? 44 \"For indeed, as soon as the voice of your greeting sounded in my ears, the babe leaped in my womb for joy. 45 \"Blessed [is] she who believed, for there will be a fulfillment of those things which were told her from the Lord.\" 46 And Mary said: \"My soul magnifies the Lord, 47 And my spirit has rejoiced in God my Savior. 48 For He has regarded the lowly state of His maidservant;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَتْ مَرْيَمُ لِلْمَلاَكِ: «كَيْفَ يَكُونُ هَذَا وَأَنَا لَسْتُ أَعْرِفُ رَجُلاً؟» فَأَجَابَ الْمَلاَكُ: «اَلرُّوحُ الْقُدُسُ يَحِلُّ عَلَيْكِ وَقُوَّةُ الْعَلِيِّ تُظَلِّلُكِ فَلِذَلِكَ أَيْضاً الْقُدُّوسُ الْمَوْلُودُ مِنْكِ يُدْعَى ابْنَ اللهِ. وَهُوَذَا أَلِيصَابَاتُ نَسِيبَتُكِ هِيَ أَيْضاً حُبْلَى بِابْنٍ فِي شَيْخُوخَتِهَا وَهَذَا هُوَ الشَّهْرُ السَّادِسُ لِتِلْكَ الْمَدْعُوَّةِ عَاقِراً لأَنَّهُ لَيْسَ شَيْءٌ غَيْرَ مُمْكِنٍ لَدَى اللهِ». فَقَالَتْ مَرْيَمُ: «هُوَذَا أَنَا أَمَةُ الرَّبِّ. لِيَكُنْ لِي كَقَوْلِكَ». فَمَضَى مِنْ عِنْدِهَا الْمَلاَكُ.",
+      "English": "For behold, henceforth all generations will call me blessed. 49 For He who is mighty has done great things for me, And holy [is] His name. 50 And His mercy [is] on those who fear Him From generation to generation. 51 He has shown strength with His arm; He has scattered [the] proud in the imagination of their hearts. 52 He has put down the mighty from [their] thrones, And exalted [the] lowly. 53 He has filled [the] hungry with good things, And [the] rich He has sent away empty. 54 He has helped His servant Israel, In remembrance of [His] mercy, 55 As He spoke to our fathers, To Abraham and to his seed forever.\" 56 And Mary remained with her about three months, and returned to her house."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والمجد لله دائماً",
+      "English": "Glory be to God forever Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "غبريال الملاك رآه دانيال واقفاً   على قدميه . على شاطئ  النهر.",
+      "Coptic": "Gabrihl piaggeloc > afnau `erof `nje Danihl > ef`o\\i `eratf \\ijen nefvat > \\ijen nen`cvotou `m`viaro.",
+      "English": "Gabriel the Archangel, was seen by Daniel, as he stood upon his feet, by the shore of the river.",
+      "Arabiccoptic": "غابرييل بى أنجيلوس . أفناف إيروف إنجى دانييل . إف أوهى إيراطف هيجين نيف فات. هيجين نين إسفوطو إم إفيارو.",
+      "Englishcoptic": "Ghabriel pi angelos, avnav erof enje Daniel, ef ohi eratf hijen nef vat, hijen nen esvoto em efiaro."
     }
-
-
-]
+  ]
 }

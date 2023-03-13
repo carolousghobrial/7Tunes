@@ -1,9 +1,27 @@
-
 {
-"arabic": " (C)\nهلليلويا هلليلويا. المسيح قام ثم صعد، وأرسل لنا البارقليط، روح الحق. هلليلويا هلليلويا.\n",
-"arabiccoptic": " (C)\nالليلويا (2) : بي خريستوس آفطونف اووه آفشيناف : آف أووأورب نان إمبي باراكليتون : بي بنيﭭما إنتي تي ميثمي : الليلويا (2)  .\n",
-"coptic": " (C)\nAllhlouia A?l?. Pi`xrictoc aftwnf ouo\\ af]enaf> afouwrp nan `mPiparaklhton> Pi`pneuma `nte ;meqmhi. A?l? A?l?.\n",
-"english": " (C)\nAlleluia, alleluia. Christ has risen and ascended, and sent us the Paraclete, the Spirit of Truth. Alleluia, alleluia.\n",
-"englishcoptic": " (C)\nAlleloia Alleloia, Pikhrestos aftonf owoh af-she-naf, af-oo-orb nan empi-parak-liton, pi-epnevma ente-ti-meth-me. Alleloia, Alleloia.\n",
-
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا. المسيح قام ثم صعد، وأرسل لنا البارقليط، روح الحق. هلليلويا هلليلويا.",
+      "Coptic": "Allhlouia A?l?. Pi`xrictoc aftwnf ouo\\ af]enaf> afouwrp nan `mPiparaklhton> Pi`pneuma `nte ;meqmhi. A?l? A?l?.",
+      "English": "Alleluia, alleluia. Christ has risen and ascended, and sent us the Paraclete, the Spirit of Truth. Alleluia, alleluia.",
+      "Arabiccoptic": "الليلويا (2) : بي خريستوس آفطونف اووه آفشيناف : آف أووأورب نان إمبي باراكليتون : بي بنيﭭما إنتي تي ميثمي : الليلويا (2)  .",
+      "Englishcoptic": "Alleloia Alleloia, Pikhrestos aftonf owoh af-she-naf, af-oo-orb nan empi-parak-liton, pi-epnevma ente-ti-meth-me. Alleloia, Alleloia."
+    }
+  ]
 }

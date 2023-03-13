@@ -1,4 +1,71 @@
 {
-"arabic": " قُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الَّذي وُلِدَ مِنَ العَذْراءِ، إرْحَمْنا.,\nقُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الَّذي صُلِبَ عنَّا، إرْحَمْنا.,\nقُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الذي قامَ مِنَ الأمْواتِ وصَعِدَ إلَى السَّمواتِ، إرْحَمْنا.,\nالمجْدُ للآبِ والإبنِ والرُّوحِ القُدُسِ، الآنَ وكلُّ أَوان وإلَى دَهْرِ الدُّهورِ. آمين.,\nأيُّها الثَّالوثُ القُدُّوسُ إرْحَمْنا. أيُّها الثَّالوثُ القُدُّوسُ إرْحَمْنا. أيُّها الثَّالوثُ القُدُّوسُ إرْحَمْنا.,\nيا رَبُّ إغْفِرْ لَنا خَطايانا. يا رَبُّ إغْفِرْ لَنا آثامَنا. يا رَبُّ إغْفِرْ لَنا زَلاَّتَنا.,\nيا رَبُّ إغْفِرْ لَنا خَطايانا. يا رَبُّ إغْفِرْ لَنا آثامَنا. يا رَبُّ إغْفِرْ لَنا زَلاَّتَنا. يا رَبُّ إفْتَقدْ مَرْضَى شَعْبكَ، إشْفِهمْ مِنْ أجْل إسْمكَ القُدُّوسِ. آباؤُنا وإخْوَتنا الَّذينَ رَقدوا، يا رَبُّ نَيِّحْ نُفوسَهُم.,\nيا مَنْ هُوَ بِلا خَطيَّة، يا ربُّ إرحَمنا. يا مَنْ بِلا خَطيَّةِ، يا رَبُّ أَعِنَّا، وإقْبَلْ طَلباتِنا إلَيْكَ. لأنَّ لَكَ المجْدَ والعِزَّةَ والتَّقْديسَ المثلَّثَ. يا ربُّ إرحَم. يا ربُّ إرحَم. يا رَبُّ بارِكْ. آمين.,\n()\n",
-"english": " Holy God, Holy Mighty, Holy Immortal, who was born of the Virgin, have mercy upon us.,\nHoly God, Holy Mighty, Holy Immortal, who was crucified for us, have mercy upon us.,\nHoly God, Holy Mighty, Holy Immortal, who rose from the dead and ascended into the heavens, have mercy upon us.,\nGlory to the Father and the Son, and the Holy Spirit, now and ever and unto the ages of the ages. Amen.,\nO Holy Trinity, have mercy on us. O Holy Trinity, have mercy on us. O Holy Trinity, have mercy on us.,\nO Lord, forgive us our sins. O Lord, forgive us our iniquities. O Lord, forgive us our trespasses.,\nO Lord, visit the sick of Your people, heal them for the sake of Your holy name. Our fathers and brethren who have fallen asleep. O Lord, repose their souls.,\nO You who are without sin, have mercy on us.  O You who are without sin, Lord, help us and , receive our supplications. For Yours is the glory, the dominion, and triple holiness. Lord have mercy, Lord have mercy. Lord bless us. Amen.,\n()\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الثلاث تقديسات",
+  "EnglishTitle": "The Trisagion ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الَّذي وُلِدَ مِنَ العَذْراءِ، إرْحَمْنا.",
+      "English": "Holy God, Holy Mighty, Holy Immortal, who was born of the Virgin, have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الَّذي صُلِبَ عنَّا، إرْحَمْنا.",
+      "English": "Holy God, Holy Mighty, Holy Immortal, who was crucified for us, have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الذي قامَ مِنَ الأمْواتِ وصَعِدَ إلَى السَّمواتِ، إرْحَمْنا.",
+      "English": "Holy God, Holy Mighty, Holy Immortal, who rose from the dead and ascended into the heavens, have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجْدُ للآبِ والإبنِ والرُّوحِ القُدُسِ، الآنَ وكلُّ أَوان وإلَى دَهْرِ الدُّهورِ. آمين.",
+      "English": "Glory to the Father and the Son, and the Holy Spirit, now and ever and unto the ages of the ages. Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيُّها الثَّالوثُ القُدُّوسُ إرْحَمْنا. أيُّها الثَّالوثُ القُدُّوسُ إرْحَمْنا. أيُّها الثَّالوثُ القُدُّوسُ إرْحَمْنا.",
+      "English": "O Holy Trinity, have mercy on us. O Holy Trinity, have mercy on us. O Holy Trinity, have mercy on us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رَبُّ إغْفِرْ لَنا خَطايانا. يا رَبُّ إغْفِرْ لَنا آثامَنا. يا رَبُّ إغْفِرْ لَنا زَلاَّتَنا.",
+      "English": "O Lord, forgive us our sins. O Lord, forgive us our iniquities. O Lord, forgive us our trespasses."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رَبُّ إغْفِرْ لَنا خَطايانا. يا رَبُّ إغْفِرْ لَنا آثامَنا. يا رَبُّ إغْفِرْ لَنا زَلاَّتَنا. يا رَبُّ إفْتَقدْ مَرْضَى شَعْبكَ، إشْفِهمْ مِنْ أجْل إسْمكَ القُدُّوسِ. آباؤُنا وإخْوَتنا الَّذينَ رَقدوا، يا رَبُّ نَيِّحْ نُفوسَهُم.",
+      "English": "O Lord, visit the sick of Your people, heal them for the sake of Your holy name. Our fathers and brethren who have fallen asleep. O Lord, repose their souls."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا مَنْ هُوَ بِلا خَطيَّة، يا ربُّ إرحَمنا. يا مَنْ بِلا خَطيَّةِ، يا رَبُّ أَعِنَّا، وإقْبَلْ طَلباتِنا إلَيْكَ. لأنَّ لَكَ المجْدَ والعِزَّةَ والتَّقْديسَ المثلَّثَ. يا ربُّ إرحَم. يا ربُّ إرحَم. يا رَبُّ بارِكْ. آمين.",
+      "English": "O You who are without sin, have mercy on us.  O You who are without sin, Lord, help us and , receive our supplications. For Yours is the glory, the dominion, and triple holiness. Lord have mercy, Lord have mercy. Lord bless us. Amen."
+    }
+  ]
 }

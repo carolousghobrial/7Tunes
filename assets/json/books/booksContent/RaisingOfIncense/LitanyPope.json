@@ -1,7 +1,128 @@
 {
-    "arabic": " (P),\nاذكر ياربُّ بطريركَنا الأب المكرم رئيسَ الكهنةِ البابا أنبا ___ وأخويه الروحيين مار إغناطيوس ___ بطريرك أنطاكيه وأبونا ___ بطريرك إريتريا،,\nوشريكَهُ في الخدمةِ [الرسولية] أبانا الأسقف (المطران) المكرم أنبا ___.,\n(D),\nصلُّوا من أجل رئيسِ كهنتِنا البابا أنبا ___ بابا وبطريرك ورئيس أساقفة المدينة العظمى الإسكندرية وأخويه الروحيين مار إغناطيوس ___ بطريرك أنطاكيه وأبونا ___ بطريرك إريتريا.,\nوشريكِهِ في الخدمة [الرسولية] أبينا الأسقف (المطران) المكرم أنبا ___,\nو[سائرِ] أساقفتنا الأرثوذكسيين.,\n(C),\nياربُّ ارحَم.,\n(P),\nحفظاً احفظهم لنا سنينَ كثيرة وأزمنةً سلامية.,\n",
-    "arabiccoptic": " (P)\nأرى أفميفئى إبشويس إم بين بطريارشيس إنيوت إتطايوت إن أرشى إيرفس بابا آفا  ... نيم نيف إنسيو ام إبنفماتيكون بي باطريارشيس إن إت أنطوكيا مار اغناطيوس... نيم بي باطريارشيس ان اريتريا ابونا ... تو باطريارخو تيس اريتريا\nنيم بيف أشفير انليتورغوس بينيوت إن إبيسكوبوس افا...\n(D)\nإبروس إف إكساستى إيبيرتو أرشى إيريئوس إيمون بابا آفا (…..) بابا كى باتريارخو كى أرشى إبيسكبو تيس ميغالو بوليئوسكى الكساندرياس  كى طون اذيلفون افطون ان تى ابوسطوليكى ليتورجيا مار اغناطيوس ____ تو باتريارخو تيس انتيوكياس  , كى ابونا _____ تو باتريارخو تيس اريترياس.\nكى طو سين كينونو انتى ليتورجيا طو باتروس ايمون تو ابيسكوبو افا ______\nكىتون أرثوذكسون إيمون إبيسكوبون.\n(C)\nكيريى إليسون\n(P)\nخين أو آريه إيروف نان إن هان ميش إنرومبى نيم هانسيو إنهرينى كون.\n",
-    "coptic": " (P)\nAri`vmeu`i ~P_ `mpenpatriarxhc> `niwt ettaihout `narxh`ereuc abba (...) nem nef`cnhou `m`pneumatikon > pipatriarxhc `n`tAnti`oxi`a Mar Ignatioc (…) > nem pipatriarxhc `nEritrea Apouna (…) >\nNem pefke`]vhr `nlitourgoc peniwt `n`epickopoc abba (…)\n(D)\nProceu[acqe `uper tou arxi`erewc `hmwn papa abba (...)> papa ke patriarxou ke arxh`epickopou> tic megalo polewc Ale[an`driac> ke twn adelvwn autou e nth `apoctolikh litourgia Mar Ignaqiou (…) tou patriarxou thc Antioxiac > ke Apouna (…) tou patriarxou thc Eritreac>\nKe tou cunkoinwnou en th litourgia tou patroc `hmwn tou `epickopou abba (…)\nKe twn orqodo[wn `hmwn `epickopwn.\n(C)\nKuri`e `ele`hcon.\n(P)\n+en ou`are\\ `erof nan> `n\\anmh] `nrompi nem \\anchou `n\\irhnikon.\n",
-    "english": " (P),\nRemember, O Lord, our honored patriarch and father, the archpriest, Pope Abba (.), and his spiritual brethren: the Patriarch of Antioch Mar Ignatius (...), and the Patriarch of Eritrea Abouna (...),,\nAnd his partner in the [apostolic] liturgy, our father the bishop (metropolitan), Abba (...).,\n(D),\nPray for our archpriest, Pope Abba (.), Pope and Patriarch and archbishop of the great city of Alexandria; And his spiritual brethren in the apostolic liturgy, the Patriarch of Antioch. Mar Ignatius (...), and the Patriarch of Eritrea, Abouna (...),\nAnd his partner in the apostolic] liturgy, our father the bishop (metropolitan), Abba (.).,\nAnd for our orthodox bishops.,\n(C),\nLord have mercy.,\n(P),\nKeep them secure for us for many years and peaceful times,,\n",
-    "englishcoptic": " (P)\nAri efemv-e Epshois empen patriarchees eniot ettaiot en arshi erevs Papa Ava…., nem nef esneo em epnevmatikon pi patriarchees en et antiokia Mar Ighnatios….., nem pi patriarchees en Eretria Abouna…..,\nNem pef ke eshveer enlitorghos peniot en episkopos ava…..\n(D)\nEpros ev exaste eper to arshi ere-os eimon Papa Ava…., Papa ke patriarkho ke arshi episkopo tees meghalo pole-os Alexandrias, ke ton azelfon avto enti apostoliky liturgia, Mar Ighnatios….., to patriarkho tees antiokia, ke Abouna….. to patriarkho tees Eretria,\nKe to synkinono enti liturgia to patros eimon to episkopo ava…..\nKe ton orthozoxon eimon episkopon.\n(C)\nKirialison\n(P)\nKhen o are hero-o nan enhan meesh enrompi nem han seyio en hirinykon\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "أوشية الاباء",
+  "EnglishTitle": "The Litany of the Fathers ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اذكر ياربُّ بطريركَنا الأب المكرم رئيسَ الكهنةِ البابا أنبا ___ وأخويه الروحيين مار إغناطيوس ___ بطريرك أنطاكيه وأبونا ___ بطريرك إريتريا،",
+      "Coptic": "Ari`vmeu`i ~P_ `mpenpatriarxhc> `niwt ettaihout `narxh`ereuc abba (...) nem nef`cnhou `m`pneumatikon > pipatriarxhc `n`tAnti`oxi`a Mar Ignatioc (…) > nem pipatriarxhc `nEritrea Apouna (…) >",
+      "English": "Remember, O Lord, our honored patriarch and father, the archpriest, Pope Abba (.), and his spiritual brethren: the Patriarch of Antioch Mar Ignatius (...), and the Patriarch of Eritrea Abouna (...)",
+      "Arabiccoptic": "أرى أفميفئى إبشويس إم بين بطريارشيس إنيوت إتطايوت إن أرشى إيرفس بابا آفا  ... نيم نيف إنسيو ام إبنفماتيكون بي باطريارشيس إن إت أنطوكيا مار اغناطيوس... نيم بي باطريارشيس ان اريتريا ابونا ... تو باطريارخو تيس اريتريا",
+      "Englishcoptic": "Ari efemv-e Epshois empen patriarchees eniot ettaiot en arshi erevs Papa Ava…., nem nef esneo em epnevmatikon pi patriarchees en et antiokia Mar Ighnatios….., nem pi patriarchees en Eretria Abouna…..,"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وشريكَهُ في الخدمةِ [الرسولية] أبانا الأسقف (المطران) المكرم أنبا ___.",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`epickopoc abba (…)",
+      "English": "And his partner in the [apostolic] liturgy, our father the bishop (metropolitan), Abba (...).",
+      "Arabiccoptic": "نيم بيف أشفير انليتورغوس بينيوت إن إبيسكوبوس افا...",
+      "Englishcoptic": "Nem pef ke eshveer enlitorghos peniot en episkopos ava….."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلُّوا من أجل رئيسِ كهنتِنا البابا أنبا ___ بابا وبطريرك ورئيس أساقفة المدينة العظمى الإسكندرية وأخويه الروحيين مار إغناطيوس ___ بطريرك أنطاكيه وأبونا ___ بطريرك إريتريا.",
+      "Coptic": "Proceu[acqe `uper tou arxi`erewc `hmwn papa abba (...)> papa ke patriarxou ke arxh`epickopou> tic megalo polewc Ale[an`driac> ke twn adelvwn autou e nth `apoctolikh litourgia Mar Ignaqiou (…) tou patriarxou thc Antioxiac > ke Apouna (…) tou patriarxou thc Eritreac>",
+      "English": "Pray for our archpriest, Pope Abba (.), Pope and Patriarch and archbishop of the great city of Alexandria; And his spiritual brethren in the apostolic liturgy, the Patriarch of Antioch. Mar Ignatius (...), and the Patriarch of Eritrea, Abouna (...)",
+      "Arabiccoptic": "إبروس إف إكساستى إيبيرتو أرشى إيريئوس إيمون بابا آفا (…..) بابا كى باتريارخو كى أرشى إبيسكبو تيس ميغالو بوليئوسكى الكساندرياس  كى طون اذيلفون افطون ان تى ابوسطوليكى ليتورجيا مار اغناطيوس ____ تو باتريارخو تيس انتيوكياس  , كى ابونا _____ تو باتريارخو تيس اريترياس.",
+      "Englishcoptic": "Epros ev exaste eper to arshi ere-os eimon Papa Ava…., Papa ke patriarkho ke arshi episkopo tees meghalo pole-os Alexandrias, ke ton azelfon avto enti apostoliky liturgia, Mar Ighnatios….., to patriarkho tees antiokia, ke Abouna….. to patriarkho tees Eretria,"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وشريكِهِ في الخدمة [الرسولية] أبينا الأسقف (المطران) المكرم أنبا ___",
+      "Coptic": "Ke tou cunkoinwnou en th litourgia tou patroc `hmwn tou `epickopou abba (…)",
+      "English": "And his partner in the apostolic] liturgy, our father the bishop (metropolitan), Abba (.).",
+      "Arabiccoptic": "كى طو سين كينونو انتى ليتورجيا طو باتروس ايمون تو ابيسكوبو افا ______",
+      "Englishcoptic": "Ke to synkinono enti liturgia to patros eimon to episkopo ava….."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "و[سائرِ] أساقفتنا الأرثوذكسيين.",
+      "Coptic": "Ke twn orqodo[wn `hmwn `epickopwn.",
+      "English": "And for our orthodox bishops.",
+      "Arabiccoptic": "كىتون أرثوذكسون إيمون إبيسكوبون.",
+      "Englishcoptic": "Ke ton orthozoxon eimon episkopon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ياربُّ ارحَم.",
+      "Coptic": "Kuri`e `ele`hcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Kirialison"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حفظاً احفظهم لنا سنينَ كثيرة وأزمنةً سلامية.",
+      "Coptic": "+en ou`are\\ `erof nan> `n\\anmh] `nrompi nem \\anchou `n\\irhnikon.",
+      "English": "Keep them secure for us for many years and peaceful times",
+      "Arabiccoptic": "خين أو آريه إيروف نان إن هان ميش إنرومبى نيم هانسيو إنهرينى كون.",
+      "Englishcoptic": "Khen o are hero-o nan enhan meesh enrompi nem han seyio en hirinykon"
+    }
+  ]
 }
