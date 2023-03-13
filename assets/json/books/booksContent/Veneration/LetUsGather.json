@@ -1,7 +1,62 @@
 {
-"arabic": " فلنجتمع نحن الشعب المحب للإله يسوع المسيح لنكرم مريم العذراء,\nو الملاك الجليل(...),\nو الشهيد العظيم (...),\nوالقديس العظيم (...),\nحبيب المسيح.,\n",
-"arabiccoptic": " مارين ثوؤتى أونى لاؤس إم ماى نوتى إيسوس بخريستوس. إنتين طايو ماريا تيبارثينوس\nنيم بي انجيلوس إفطايوت (...)\nنيم بي اثلوفوروس إم مارتيروس (...)\nنيم بي نيشتي إثؤواب (...)\nبى مينريت إنتى بخريستوس.\n",
-"coptic": " Marenqwou; `wni- laoc `mmainou; > Ihc? Pxc? > `ntentai`o Maria ;parqenoc\nNem Piaggeloc eutaihout (…)  @\nNem Piaqlovoroc  `mmarteroc (…) @\nNem Pini];  eqouab (…) @\nPimenrit `nte Pxc\n",
-"english": " Let us gather, we, the people, the lovers of God, Jesus Christ, to honor Virgin Mary,\nAnd the honorable angel (...),\nAnd the great martyr (…),\nAnd the great saint (...),\nThe beloved of Christ.,\n",
-"englishcoptic": " Maren tho-oty oni laos emmai nouty Isos Pikhristos enten taio Maria ti parthenos.\nNem pi angelos evtaiout ...\nNem pi athloforos em martiros ....\nNem pi nishty ethowab ....\nPi menreet ente pi Ekhristos.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "فلنجتمع",
+  "EnglishTitle": "Let Us Gather ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنجتمع نحن الشعب المحب للإله يسوع المسيح لنكرم مريم العذراء",
+      "Coptic": "Marenqwou; `wni\b laoc `mmainou; > Ihc? Pxc? > `ntentai`o Maria ;parqenoc",
+      "English": "Let us gather, we, the people, the lovers of God, Jesus Christ, to honor Virgin Mary",
+      "Arabiccoptic": "مارين ثوؤتى أونى لاؤس إم ماى نوتى إيسوس بخريستوس. إنتين طايو ماريا تيبارثينوس",
+      "Englishcoptic": "Maren tho-oty oni laos emmai nouty Isos Pikhristos enten taio Maria ti parthenos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "و الملاك الجليل(...)",
+      "Coptic": "Nem Piaggeloc eutaihout (…)  @",
+      "English": "And the honorable angel (...)",
+      "Arabiccoptic": "نيم بي انجيلوس إفطايوت (...)",
+      "Englishcoptic": "Nem pi angelos evtaiout ..."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "و الشهيد العظيم (...)",
+      "Coptic": "Nem Piaqlovoroc  `mmarteroc (…) @",
+      "English": "And the great martyr (…)",
+      "Arabiccoptic": "نيم بي اثلوفوروس إم مارتيروس (...)",
+      "Englishcoptic": "Nem pi athloforos em martiros ...."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "والقديس العظيم (...)",
+      "Coptic": "Nem Pini];  eqouab (…) @",
+      "English": "And the great saint (...)",
+      "Arabiccoptic": "نيم بي نيشتي إثؤواب (...)",
+      "Englishcoptic": "Nem pi nishty ethowab ...."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حبيب المسيح.",
+      "Coptic": "Pimenrit `nte Pxc",
+      "English": "The beloved of Christ.",
+      "Arabiccoptic": "بى مينريت إنتى بخريستوس.",
+      "Englishcoptic": "Pi menreet ente pi Ekhristos."
+    }
+  ]
 }

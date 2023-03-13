@@ -1,4 +1,167 @@
 {
-"arabic": " السلام للقديسة,\nالشهيدة مارينا,\nالسلام للمختارة,\nالقديسة الأمينة,\n()رائحة الطيب تفوح,\nيشتمها الأبرار,\nيا بكرة يا عروس,\nيا زهرة الأزهار,\n()كاسيوس هو أبوك,\nمن كهنة الأصنام,\nمتمسك بعبادته,\nفي شدة و اهتمام,\n()كم آنت جريئة,\nلم تنكري المسيح,\nعلمينا بصلاتك,\nالأيمان الصحيح,\n()حققت آمالك,\nو استوجبت العذاب,\nوأصبحت شهيدة,\nفي كنيسة الله الأب,\n()احتملت بصبرك,\nالكثير من العذابات,\nوأخضعت جسدك,\nبشكر مع ثبات,\n()لقد أعلمتيهم,\nانك مسيحية,\nبأمانة أخبرتيهم,\nعلي مبادئك الروحية,\n()قوية في جهادك,\nمنتصرة بإلهك,\nلا الوالي و لا العذاب,\nقد هزوا أيمانك,\n()بمعونة المسيح,\nتشددت يا عروس,\nوصرت قدوة لنا,\nو لصغار النفوس,\n()ذهبت يا نقية,\nلعريسك الحبيب,\nفي يوم 23,\nمن شهر أبيب,\n()عجايبك عظيمة,\nلم ترفض السؤال,\nمعينة لكل الناس,\nفي كافة الأحوال,\n()تركت الأرضيات,\nو كل الأمور الفانية,\nوتطلعت للسمائيات,\nو اشتهيت الحياة الأبدية,\n()أحببت الطهارة,\nأيتها القديسة,\nوصرت كمنارة,\nلأولاد الكنيسة,\n()تحليت بالكمال,\nكالطقوس النورانية,\nلما تبعت المعبود,\nيا بكر و نقية,\n()أنجدينا يا حنونة,\nيا قديسة مارينا,\nفي حروبنا ضد إبليس,\nدايما لا تنسينا,\n()السلام لك يا طاهرة,\nيا عون المسيحيين,\nأنت افتخارنا,\nفي جهاد القديسين,\n()السلام لك يا عفيفة,\nمارينا المختارة,\nالجنود العنيفة,\nصارت منك محتارة,\n()طوباك يا مسمية,\nمارينا القديسة,\nعذاباتك قوية,\nوأكاليلك نفيسة,\n()طوباك يا مارينا,\nيا من قد انتصرت,\nاقبلينا في حماك,\nلأنك ظفرت,\n()تفسير أسمك في أفواه,\nكل المؤمنين,\nالكل يقولون يا اله,\nالقديسة مارينا أعنا أجمعين,\n()",
-"english": " Hail to the Saint,\nThe Martyr Marina,\nHail to the chosen one,\nThe honest Saint,\n()The aroma that's delivered,\nSmelled by the righteous,\nO the virgin bride,\nThe blossom of flowers,\n()Casius is your Father,\nHe is a pagan priest,\nHolding to his religion,\nBy strength and interest,\n()How you are strong,\nNever denying Christ,\nTeach us through your Prayer,\nThe true faith,\n()You have reached your hope,\nAnd accepted the sufferings,\nAnd became a martyr,\nIn the church of God the Father,\n()You endured with patience,\nMany sufferings,\nAnd submitted your body,\nWith thanksgiving and willingness,\n()You have told them,\nThat you are Christian,\nWith honesty you have said,\nYour spiritual principles,\n()You are strong in struggle,\nVictorious in the Lord,\nNeither the Emperor nor tortures,\nHas shaken your faith,\n()With the help of Christ,\nYou were strengthened O Bride,\nAnd became our example,\nAnd for the weakness of the soul,\n()You went O pure one,\nTo your beloved Groom,\nOn the twenty third day,\nOf the month Abib,\n()Your miracles are wondrous,\nYou never refuse requests,\nHelper to all people,\nIn every condition,\n()You have left the earthly,\nAnd all trivial things,\nAnd you looked for the heavenly,\nAnd wished for eternal life,\n()You loved purity,\nO you the Saint,\nAnd became a lampstand,\nFor the church's children,\n()You followed perfection,\nAccording to the shining ranks,\nWhen you followed the Worshipped,\nO celibate and pure,\n()Save us O compassionate one,\nO Saint Marina,\nIn our fights against evil,\nAlways do not forget us,\n()Hail to you O pure one,\nO helper of the Christians,\nYou are our bride,\nIn the saints' struggling,\n()Hail to you O Virgin,\nMarina the chosen one,\nThe rough soldiers,\nWere amazed by you,\n()Blessed is your name,\nMarina the holy,\nYour sufferings were strong,\nAnd your crowns are precious,\n()Blessed are you Marina,\nO who has won,\nAccept us in your protection,\nFor you are victorious,\n()The mention of your name,\nIs in the believers' mouths,\nAll say \"O God of St. Marina,,\nHelp us all!\",\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "مديحة الشهيدة مارينا",
+  "EnglishTitle": "St.Marina Melody ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام للقديسة,\nالشهيدة مارينا,\nالسلام للمختارة,\nالقديسة الأمينة",
+      "English": "Hail to the Saint,\nThe Martyr Marina,\nHail to the chosen one,\nThe honest Saint"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رائحة الطيب تفوح,\nيشتمها الأبرار,\nيا بكرة يا عروس,\nيا زهرة الأزهار",
+      "English": "The aroma that's delivered,\nSmelled by the righteous,\nO the virgin bride,\nThe blossom of flowers"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "كاسيوس هو أبوك,\nمن كهنة الأصنام,\nمتمسك بعبادته,\nفي شدة و اهتمام",
+      "English": "Casius is your Father,\nHe is a pagan priest,\nHolding to his religion,\nBy strength and interest"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "كم آنت جريئة,\nلم تنكري المسيح,\nعلمينا بصلاتك,\nالأيمان الصحيح",
+      "English": "How you are strong,\nNever denying Christ,\nTeach us through your Prayer,\nThe true faith"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حققت آمالك,\nو استوجبت العذاب,\nوأصبحت شهيدة,\nفي كنيسة الله الأب",
+      "English": "You have reached your hope,\nAnd accepted the sufferings,\nAnd became a martyr,\nIn the church of God the Father"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "احتملت بصبرك,\nالكثير من العذابات,\nوأخضعت جسدك,\nبشكر مع ثبات",
+      "English": "You endured with patience,\nMany sufferings,\nAnd submitted your body,\nWith thanksgiving and willingness"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لقد أعلمتيهم,\nانك مسيحية,\nبأمانة أخبرتيهم,\nعلي مبادئك الروحية",
+      "English": "You have told them,\nThat you are Christian,\nWith honesty you have said,\nYour spiritual principles"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "قوية في جهادك,\nمنتصرة بإلهك,\nلا الوالي و لا العذاب,\nقد هزوا أيمانك",
+      "English": "You are strong in struggle,\nVictorious in the Lord,\nNeither the Emperor nor tortures,\nHas shaken your faith"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بمعونة المسيح,\nتشددت يا عروس,\nوصرت قدوة لنا,\nو لصغار النفوس",
+      "English": "With the help of Christ,\nYou were strengthened O Bride,\nAnd became our example,\nAnd for the weakness of the soul"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ذهبت يا نقية,\nلعريسك الحبيب,\nفي يوم 23,\nمن شهر أبيب",
+      "English": "You went O pure one,\nTo your beloved Groom,\nOn the twenty third day,\nOf the month Abib"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "عجايبك عظيمة,\nلم ترفض السؤال,\nمعينة لكل الناس,\nفي كافة الأحوال",
+      "English": "Your miracles are wondrous,\nYou never refuse requests,\nHelper to all people,\nIn every condition"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "تركت الأرضيات,\nو كل الأمور الفانية,\nوتطلعت للسمائيات,\nو اشتهيت الحياة الأبدية",
+      "English": "You have left the earthly,\nAnd all trivial things,\nAnd you looked for the heavenly,\nAnd wished for eternal life"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أحببت الطهارة,\nأيتها القديسة,\nوصرت كمنارة,\nلأولاد الكنيسة",
+      "English": "You loved purity,\nO you the Saint,\nAnd became a lampstand,\nFor the church's children"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تحليت بالكمال,\nكالطقوس النورانية,\nلما تبعت المعبود,\nيا بكر و نقية",
+      "English": "You followed perfection,\nAccording to the shining ranks,\nWhen you followed the Worshipped,\nO celibate and pure"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أنجدينا يا حنونة,\nيا قديسة مارينا,\nفي حروبنا ضد إبليس,\nدايما لا تنسينا",
+      "English": "Save us O compassionate one,\nO Saint Marina,\nIn our fights against evil,\nAlways do not forget us"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك يا طاهرة,\nيا عون المسيحيين,\nأنت افتخارنا,\nفي جهاد القديسين",
+      "English": "Hail to you O pure one,\nO helper of the Christians,\nYou are our bride,\nIn the saints' struggling"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لك يا عفيفة,\nمارينا المختارة,\nالجنود العنيفة,\nصارت منك محتارة",
+      "English": "Hail to you O Virgin,\nMarina the chosen one,\nThe rough soldiers,\nWere amazed by you"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوباك يا مسمية,\nمارينا القديسة,\nعذاباتك قوية,\nوأكاليلك نفيسة",
+      "English": "Blessed is your name,\nMarina the holy,\nYour sufferings were strong,\nAnd your crowns are precious"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "طوباك يا مارينا,\nيا من قد انتصرت,\nاقبلينا في حماك,\nلأنك ظفرت",
+      "English": "Blessed are you Marina,\nO who has won,\nAccept us in your protection,\nFor you are victorious"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "تفسير أسمك في أفواه,\nكل المؤمنين,\nالكل يقولون يا اله,\nالقديسة مارينا أعنا أجمعين",
+      "English": "The mention of your name,\nIs in the believers' mouths,\nAll say \"O God of St. Marina,,\nHelp us all!\""
+    }
+  ]
 }

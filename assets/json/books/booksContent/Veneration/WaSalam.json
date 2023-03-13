@@ -1,4 +1,31 @@
 {
-"arabic": " وسلام الله يكون معكم ياشعب المسيح بأجمعكم وبصوته الفرح يسمعكم القائل أدخلوا إلى فرح الفردوس بصلاة مريم العذراء (..).,\nأكسيا...,\nأكسيوس...,\n()",
-"english": " May the peace of God be with you all, O all you people of Christ together, and with His joyful voice, He will say to you, “Enter into the joy of the Paradise”, through the prayers of the Virgin Mary and (...),\nWorthy (Axia) …,\nWorthy (Axios) …,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "وسلام الله",
+  "EnglishTitle": "May the peace ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وسلام الله يكون معكم ياشعب المسيح بأجمعكم وبصوته الفرح يسمعكم القائل أدخلوا إلى فرح الفردوس بصلاة مريم العذراء (..).",
+      "English": "May the peace of God be with you all, O all you people of Christ together, and with His joyful voice, He will say to you, “Enter into the joy of the Paradise”, through the prayers of the Virgin Mary and (...)"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أكسيا...",
+      "English": "Worthy (Axia) …"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أكسيوس...",
+      "English": "Worthy (Axios) …"
+    }
+  ]
 }

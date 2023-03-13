@@ -1,4 +1,63 @@
 {
-"arabic": " إذكرني يا رب في ملكوتَك،,\nكما ذكرت يوسف ونيقوديموس،,\nواللص اليمين سمع صوتَك،,\nالقائل \"إمضي إلى الفردوس.\",\n()يا مَنْ أحييتنا بصلبوتَك،,\nإخزي عنا بي ذياڤلوس،,\nوإحفظنا بقوة لاهوتَك،,\nبصلاة مريم تي بارثينوس.,\n()شعب المسيح يكون في سلام،,\nمشمول بالنعمة الإلهية،,\nيا طبيب المرضى والأسقام،,\nطهرنا من كل خطية.,\n()يا مَنْ قَبَل عنا الآلام،,\nوصُلب بين لصين حرامية،,\nاُذكرنا في يوم الزِحام،,\nوهِبنا ملكوتك الأبدية.,\n()البابا بطركنا عمود الدين،,\nوالأساقفة والكهنة أجمعين،,\nوالبنين والأخوة والوالدين،,\nومرضى البيعة إشفيهم.,\n()ونسأل من ربنا يسوع،,\nأن يجعل دُعاءنا مسموع،,\nونتضرع إليه بكل خشوع،,\nلنفوز بنعيمِه السرمدية.,\n()*REFRAIN*طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم()",
-"english": " Remember me, O Lord, in Your kingdom,\nAs You remembered Joseph and Nicodemus,\nAs the right-hand thief heard Your voice,\nSaying, \"Today you will be with Me in Paradise,\n()O who gave us life through Your Crucifixion,\nPut to shame the devil,\nKeep us by the power of Your divinity,\nThrough the prayers of Mary the Virgin,\n()May Christ's congregation be in peace,\nFilled with divine grace,\nPhysician of the sick and weak,\nPurify us from all sins,\n()O who accepted suffering for us,\nAnd was crucified between two thieves,\nRemember us on Judgment Day,\nGrant us Your heavenly kingdom.,\n()Our father the patriarch, the pillar of faith,\nThe bishops and all the priests,\nThe children, brethren, and parents,\nAnd heal the sick of the church .,\n()We ask of our Lord Jesus,\nTo hear our requests,\nWe supplicate Him with all awe,\nTo gain His eternal delight,\n()*REFRAIN* Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day()"
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة التاسعة",
+  "EnglishTitle": "The Ninth Part ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إذكرني يا رب في ملكوتَك،,\nكما ذكرت يوسف ونيقوديموس،,\nواللص اليمين سمع صوتَك،,\nالقائل \"إمضي إلى الفردوس.\",",
+      "English": "Remember me, O Lord, in Your kingdom,\nAs You remembered Joseph and Nicodemus,\nAs the right-hand thief heard Your voice,\nSaying, \"Today you will be with Me in Paradise,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا مَنْ أحييتنا بصلبوتَك،,\nإخزي عنا بي ذياڤلوس،,\nوإحفظنا بقوة لاهوتَك،,\nبصلاة مريم تي بارثينوس.,",
+      "English": "O who gave us life through Your Crucifixion,\nPut to shame the devil,\nKeep us by the power of Your divinity,\nThrough the prayers of Mary the Virgin,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "شعب المسيح يكون في سلام،,\nمشمول بالنعمة الإلهية،,\nيا طبيب المرضى والأسقام،,\nطهرنا من كل خطية.,",
+      "English": "May Christ's congregation be in peace,\nFilled with divine grace,\nPhysician of the sick and weak,\nPurify us from all sins,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا مَنْ قَبَل عنا الآلام،,\nوصُلب بين لصين حرامية،,\nاُذكرنا في يوم الزِحام،,\nوهِبنا ملكوتك الأبدية.,",
+      "English": "O who accepted suffering for us,\nAnd was crucified between two thieves,\nRemember us on Judgment Day,\nGrant us Your heavenly kingdom.,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "البابا بطركنا عمود الدين،,\nوالأساقفة والكهنة أجمعين،,\nوالبنين والأخوة والوالدين،,\nومرضى البيعة إشفيهم.,",
+      "English": "Our father the patriarch, the pillar of faith,\nThe bishops and all the priests,\nThe children, brethren, and parents,\nAnd heal the sick of the church .,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ونسأل من ربنا يسوع،,\nأن يجعل دُعاءنا مسموع،,\nونتضرع إليه بكل خشوع،,\nلنفوز بنعيمِه السرمدية.,",
+      "English": "We ask of our Lord Jesus,\nTo hear our requests,\nWe supplicate Him with all awe,\nTo gain His eternal delight,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    }
+  ]
 }

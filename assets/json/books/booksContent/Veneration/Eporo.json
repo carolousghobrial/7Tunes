@@ -1,7 +1,62 @@
 {
-"arabic": " + ياملك السلام. أعطنا سلامك. قرر لنا سلامك. وإغفر لنا خطايانا.,\n+ فرق أعداءالكنيسة وحصنها فلا تتزعزع إلى الأبد,\n+ عمانوئيل إلهنا. فى وسطنا الأن. بمجد أبيه. والروح القدس.,\n+ ليباركنا كلنا ويطهر قلوبنا. ويشفى أمراض. نفوسنا وأجسادنا.,\n+ نسجد لك أيها المسيح مع أبيك الصالح والروح القدس لأنك %%%% وخلصتنا.,\n",
-"arabiccoptic": " + إبؤرو إنتى تى هيرينى . موى نان إنتيك هيرينى . سيم نى نان إنتيك هيرينى . كانين نوفى نان إيفول .\n+ جور إيفول إننى جاجى . إنتى تى إككليسيا . أرى سوفت إيروس . إن نيسكيم شا إينيه .\n+ إممانوئيل بينوتى . خين تين ميتى تينو . خين إب أوأو إنتى بيف يوت . نيم بى إبنفما إثؤواب .\n+ إنتيف إسمو إيرون تيرين . إنتيف طوفو إننين هيت . إنتيف طالتشو إن نى شونى . إنتى نين إبسيشى نيم نين سوما .\n+ تين أوأو شت إمموك أوبخرستوس . نيم بيك يوت إن أغاثوس . نيم بى إبنفما إثؤواب . جى %%%% أكسوتى إممون .\n",
-"coptic": " `Pouro ` nte ;\\irhnh> moi nan `ntek\\irhnh> cemni nan `ntek\\irhnh> xa nen-nobi nan `ebol.\nJwr `ebol `nnijaji> `nte ;ek`klhci`a> `aricobt `eroc > `nneckim ]a `ene\\.\nEmmanouhl Penn- ou;> =en tenmh; ;nou> =en `p`wou `nte Pefiwt> nem Pip/n/a/ e/q/u/.\n` Ntef`cmou `eron thren> `nteftoubo `nnen\\ht> `nteftalso `nni]wni> `nte nen- yuxh nem nencwma.\nTenouw]t `mmok `w Pxc?> nem Pekiwt `n`agaqoc> nem Pip/n/a/ e/q/u/> je %%%% akcw; `mmon.\n",
-"english": "O King of peace: grant us Your peace: render unto us Your peace: and forgive us our sins.,\nDisperse the enemies: of the Church: and fortify her: that she may not be shaken forever.,\nEmmanuel our God: is now in our midst: with the glory of His Father: and the Holy Spirit.,\nMay He bless us all: and purify our hearts: and heal the sicknesses: of our souls and bodies.,\n+ We worship You, O Christ, with Your Good Father, and the Holy Spirit, for You have %%%% and saved us.,\n",
-"englishcoptic": " Eporo Ente ti Hirini, Moinan Entek Hirini, Semninan Entek Hirini, Kanen Novi Nan Evol.\nGor Evol Enni Gaji, Ente ti Eklisia, Ari Sobt Eros, Enneskim Sha Eneh.\nEmmanuel Pennoti, Khen Ten Miti Tino, Khen Epo O Ente Pefiot, Nem Pi Epnevma Ethoab.\nEntef Esom Eron Teren, Entef Tovo Ennen Hit, Entef Taletsho Enni Shoni, Enten nenepsiki Nem Nen Soma.\nTen Oosht Emmoko Pikhristos, Nem Pek Iot Enaghathos, nem Pi Epnevma Ethoab, Je %%%% aksoti Emmon.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "يا ملك السلام",
+  "EnglishTitle": "O King of Peace (Ep-oro) ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b ياملك السلام. أعطنا سلامك. قرر لنا سلامك. وإغفر لنا خطايانا.",
+      "Coptic": "`Pouro ` nte ;\\irhnh> moi nan `ntek\\irhnh> cemni nan `ntek\\irhnh> xa nen\bnobi nan `ebol.",
+      "English": "O King of peace: grant us Your peace: render unto us Your peace: and forgive us our sins.",
+      "Arabiccoptic": "\b إبؤرو إنتى تى هيرينى . موى نان إنتيك هيرينى . سيم نى نان إنتيك هيرينى . كانين نوفى نان إيفول .",
+      "Englishcoptic": "Eporo Ente ti Hirini, Moinan Entek Hirini, Semninan Entek Hirini, Kanen Novi Nan Evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b فرق أعداءالكنيسة وحصنها فلا تتزعزع إلى الأبد",
+      "Coptic": "Jwr `ebol `nnijaji> `nte ;ek`klhci`a> `aricobt `eroc > `nneckim ]a `ene\\.",
+      "English": "Disperse the enemies: of the Church: and fortify her: that she may not be shaken forever.",
+      "Arabiccoptic": "\b جور إيفول إننى جاجى . إنتى تى إككليسيا . أرى سوفت إيروس . إن نيسكيم شا إينيه .",
+      "Englishcoptic": "Gor Evol Enni Gaji, Ente ti Eklisia, Ari Sobt Eros, Enneskim Sha Eneh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b عمانوئيل إلهنا. فى وسطنا الأن. بمجد أبيه. والروح القدس.",
+      "Coptic": "Emmanouhl Penn\b ou;> =en tenmh; ;nou> =en `p`wou `nte Pefiwt> nem Pip/n/a/ e/q/u/.",
+      "English": "Emmanuel our God: is now in our midst: with the glory of His Father: and the Holy Spirit.",
+      "Arabiccoptic": "\b إممانوئيل بينوتى . خين تين ميتى تينو . خين إب أوأو إنتى بيف يوت . نيم بى إبنفما إثؤواب .",
+      "Englishcoptic": "Emmanuel Pennoti, Khen Ten Miti Tino, Khen Epo O Ente Pefiot, Nem Pi Epnevma Ethoab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b ليباركنا كلنا ويطهر قلوبنا. ويشفى أمراض. نفوسنا وأجسادنا.",
+      "Coptic": "` Ntef`cmou `eron thren> `nteftoubo `nnen\\ht> `nteftalso `nni]wni> `nte nen\b yuxh nem nencwma.",
+      "English": "May He bless us all: and purify our hearts: and heal the sicknesses: of our souls and bodies.",
+      "Arabiccoptic": "\b إنتيف إسمو إيرون تيرين . إنتيف طوفو إننين هيت . إنتيف طالتشو إن نى شونى . إنتى نين إبسيشى نيم نين سوما .",
+      "Englishcoptic": "Entef Esom Eron Teren, Entef Tovo Ennen Hit, Entef Taletsho Enni Shoni, Enten nenepsiki Nem Nen Soma."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b نسجد لك أيها المسيح مع أبيك الصالح والروح القدس لأنك %%%% وخلصتنا.",
+      "Coptic": "Tenouw]t `mmok `w Pxc?> nem Pekiwt `n`agaqoc> nem Pip/n/a/ e/q/u/> je %%%% akcw; `mmon.",
+      "English": "\b We worship You, O Christ, with Your Good Father, and the Holy Spirit, for You have %%%% and saved us.",
+      "Arabiccoptic": "\b تين أوأو شت إمموك أوبخرستوس . نيم بيك يوت إن أغاثوس . نيم بى إبنفما إثؤواب . جى %%%% أكسوتى إممون .",
+      "Englishcoptic": "Ten Oosht Emmoko Pikhristos, Nem Pek Iot Enaghathos, nem Pi Epnevma Ethoab, Je %%%% aksoti Emmon."
+    }
+  ]
 }

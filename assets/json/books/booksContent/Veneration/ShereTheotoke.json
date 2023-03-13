@@ -1,7 +1,63 @@
 {
-"arabic": " إفرحي يا والدة الإله العذراء يا شفيعة في العالم عند المخلص إلهنا، نقدم له كل تسبيحنا، ونعظمِك.,\nإفرحي يا والدة الإله العذراء، والدة عمانوئيل يا غير مجربة بزواج.,\nإفرحي يا طقس الملائكة، إفرحي يا شفيعتنا عند الآب إلهنا، نعظمِك.,\nإفرحي يا والدة الإله العذراء، أنت يا الله يجب لك التسبيح فى صهيون، وتوفى لك النذور فى أورشليم، نعظمِك.,\nإفرحي يا ممتلئة نعمة يا مريم الرب معكِ، نعظمِك.,\n",
-"arabiccoptic": " شيرى ثيؤطوكى بارثينى أو إبريس ﭭيـﭭو سيبيرتو كوزمو تون سوتيريا كى طون ثيؤن إيمون بروسفيرين باندا طون إيكنون إيمون:سى ميغالينومين\nشيرى ثيؤطوكى بارثينى:ميتيرتو إمانوئيل تيس بينا بى روغامى:\nشيرى ثى إت أكسيس إن أنجيلون:شيرى ثى بروستاتيا إيمون تو باترى: كى طون ثيؤن إيمون: سيم إغالينومين .\nشيرى ثيؤتوكى بارثينى:إنثوك إفنوتى إف إر شاﭫ ناك:إنـﭼـى بى جو خين سيون:إﭫ اى تى  ناك إنهان إﭭشى خين يروساليم:سيم إغالينومين .\nشيرى كا خاريتو مينى ماريا أوكيريوس مى طاسو سي مى غالينومين  .\n",
-"coptic": " Xere Qe`otoke Parqene `o `precbebou ce `upertou kocmou ton cwthria ke ton Qeon `hmwn> `procverin pan taton umnon `hmwn> cemegalinomen.\nXere Qe`otoke Parqene> Mhter tou Emmanouhl thc pina pirogamh.\nXere qh`eta[ic `naggelon> xere qh`proctacia `hmwn tou Patri ke ton Qeon `hmwn> cemegalinomen.\nXere Qe`otoke Parqene> `nqok `Vnou; `fer]au nak> `nje pijw =en Ciwn> eu`e; nak `n\\aneuxh =en Ieroucalhm> cemegalinomen.\nXere ke xaritwmenh Maria `o Kurioc metacou> cemegalinomen.\n",
-"english": " Rejoice O Theotokos, the Virgin, the intercessor of the world to the Savior our God; we present praise to Him, and we exalt you.,\nRejoice O Theotokos, the Virgin, the Mother of Emmanuel, who is not provoked with marriage.,\nRejoice O you who is of the rank of the angels; Rejoice O our intercessor before our God the Father; We exalt you.,\nRejoice O Theotokos, the Virgin, to You O God is due praise in Zion, and the vows will be fulfilled to You in Jerusalem; We exalt you.,\nRejoice O you full of grace, Mary, the Lord is with you; We exalt you.,\n",
-"englishcoptic": " Shere Theotoke parthene o epres-vevoo ce ee-pertoo kosmoo ton sotiria ke ton Theon e-moun, pros-ferin pan taton em-non e-moun, semegha-linomen.\nShere Theotoke parthene, Meeter too Emmanueel tees pina pirogami.\nShere thea-e-taksis en-angelon, shere thea-eprostasia e-moun too Patri ke ton Theon e-moun, semegha-linomen.\nShere Theo-toke parthene: enthok evnoti efer-shav nak: enje pigo khen Sion: ev-a-tee nak enhan-evki khen Yero-saleem: seme-gha linomen.\nShere ke kari-tomenee Maria O Kirios metacou semegha-linomen.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(إفرحي يا والدة الإله )لحن شيرى ثيئوطوكى",
+  "EnglishTitle": "Rejoice O Mother of God(Shere Theotoke)",
+  "CopticTitle": "Xere Qe`otoke",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إفرحي يا والدة الإله العذراء يا شفيعة في العالم عند المخلص إلهنا، نقدم له كل تسبيحنا، ونعظمِك.",
+      "Coptic": "Xere Qe`otoke Parqene `o `precbebou ce `upertou kocmou ton cwthria ke ton Qeon `hmwn> `procverin pan taton umnon `hmwn> cemegalinomen.",
+      "English": "Rejoice O Theotokos, the Virgin, the intercessor of the world to the Savior our God; we present praise to Him, and we exalt you.",
+      "Arabiccoptic": "شيرى ثيؤطوكى بارثينى أو إبريس ﭭيـﭭو سيبيرتو كوزمو تون سوتيريا كى طون ثيؤن إيمون بروسفيرين باندا طون إيكنون إيمون:سى ميغالينومين",
+      "Englishcoptic": "Shere Theotoke parthene o epres-vevoo ce ee-pertoo kosmoo ton sotiria ke ton Theon e-moun, pros-ferin pan taton em-non e-moun, semegha-linomen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "إفرحي يا والدة الإله العذراء، والدة عمانوئيل يا غير مجربة بزواج.",
+      "Coptic": "Xere Qe`otoke Parqene> Mhter tou Emmanouhl thc pina pirogamh.",
+      "English": "Rejoice O Theotokos, the Virgin, the Mother of Emmanuel, who is not provoked with marriage.",
+      "Arabiccoptic": "شيرى ثيؤطوكى بارثينى:ميتيرتو إمانوئيل تيس بينا بى روغامى:",
+      "Englishcoptic": "Shere Theotoke parthene, Meeter too Emmanueel tees pina pirogami."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إفرحي يا طقس الملائكة، إفرحي يا شفيعتنا عند الآب إلهنا، نعظمِك.",
+      "Coptic": "Xere qh`eta[ic `naggelon> xere qh`proctacia `hmwn tou Patri ke ton Qeon `hmwn> cemegalinomen.",
+      "English": "Rejoice O you who is of the rank of the angels; Rejoice O our intercessor before our God the Father; We exalt you.",
+      "Arabiccoptic": "شيرى ثى إت أكسيس إن أنجيلون:شيرى ثى بروستاتيا إيمون تو باترى: كى طون ثيؤن إيمون: سيم إغالينومين .",
+      "Englishcoptic": "Shere thea-e-taksis en-angelon, shere thea-eprostasia e-moun too Patri ke ton Theon e-moun, semegha-linomen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "إفرحي يا والدة الإله العذراء، أنت يا الله يجب لك التسبيح فى صهيون، وتوفى لك النذور فى أورشليم، نعظمِك.",
+      "Coptic": "Xere Qe`otoke Parqene> `nqok `Vnou; `fer]au nak> `nje pijw =en Ciwn> eu`e; nak `n\\aneuxh =en Ieroucalhm> cemegalinomen.",
+      "English": "Rejoice O Theotokos, the Virgin, to You O God is due praise in Zion, and the vows will be fulfilled to You in Jerusalem; We exalt you.",
+      "Arabiccoptic": "شيرى ثيؤتوكى بارثينى:إنثوك إفنوتى إف إر شاﭫ ناك:إنـﭼـى بى جو خين سيون:إﭫ اى تى  ناك إنهان إﭭشى خين يروساليم:سيم إغالينومين .",
+      "Englishcoptic": "Shere Theo-toke parthene: enthok evnoti efer-shav nak: enje pigo khen Sion: ev-a-tee nak enhan-evki khen Yero-saleem: seme-gha linomen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إفرحي يا ممتلئة نعمة يا مريم الرب معكِ، نعظمِك.",
+      "Coptic": "Xere ke xaritwmenh Maria `o Kurioc metacou> cemegalinomen.",
+      "English": "Rejoice O you full of grace, Mary, the Lord is with you; We exalt you.",
+      "Arabiccoptic": "شيرى كا خاريتو مينى ماريا أوكيريوس مى طاسو سي مى غالينومين  .",
+      "Englishcoptic": "Shere ke kari-tomenee Maria O Kirios metacou semegha-linomen."
+    }
+  ]
 }

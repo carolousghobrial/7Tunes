@@ -1,4 +1,151 @@
 {
-"arabic": " السلام لك يا جاورجيوس,\nيا ذو الاسم العظيم,\nأختارك الرب ايسوس,\nشاع ذكرك في الاقاليم,\n()تقدمت آيها المختار,\nالي دقلديانوس,\nو أخزيت كل الكفار,\nبعلامة بي استافروس,\n()رآك دقلديانوس,\nوعلي وجهك النعمة,\nجميلا في شخصك,\nتضيء مثل النجمة,\n()فقال لك يا مختار,\nأنت من أي مكان,\nأنا لي ثلاثة أعوام,\nما رأيت مثلك إنسان,\n()فما حاجتك عندي,\nحتى أتيت الآن,\nتعالي واخبرني,\nأنت من أي مكان,\n()بحق يسوع ربك,\nتخبرني يا إنسان,\nعن أبيك و جدك,\nكان وزيراً أو سلطان,\n()فقال له جورجيوس,\nأنا ابن انسطاسيوس,\nو أنا عبد لربي,\nايسوس بى إخريستوس,\n()كبادوكيا بلدتنا,\nنسبتنا في فلسطين,\nفيها مربانا,\nو بها مقيمين,\n()فقال له دقلديانوس,\nتعال أعبد الأوثان,\nو بَخَّر يا محروس,\nو أنا اكتب لك فَرَمَان,\n()فقال له جورجيوس,\nأنا نسل الكرام,\nكيف تأمرني يا منجوس,\nأن أعبد الأوثان,\n()فأمر دقلديانوس,\nبعذاب القديس,\nو جنوده قد عَرُّوه,\nو ضربوه بالدبابيس,\n()سبع سنوات عدة,\nيقاسي في الأتعاب,\nو احتمل كل شدة,\nفي محبة رب الأرباب,\n()ثلاثة ميتات قد مات,\nعلي إسمه القدوس,\nحباً في رب القوات,\nالمحيي كل نفوس,\n()و في رابع موته,\nمضي بالتهليل,\nوأخذ الشهادة,\nونال سبعة أكاليل,\n()ظفر بالنعمة,\nمن عند الرب القدوس,\nونال إكليل الشهادة,\nباشويس ابؤرو جيؤرجيوس,\n()السلام لك يا بطل,\nيا قائد كل الفرسان,\nيا مَنْ مِن  أجلك,\nخزي عباد الأوثان,\n()السلام لك يا قديس,\nيا إبن انسطاسيوس,\nيا حبراً  نفيس,\nيا عبد إيسوس بخريستوس,\n()تفسير أسمك في أفواه,\nكل المؤمنين,\nالكل يقولون ياإله,\nمارجرجس أعنا أجمعين,\n()",
-"english": " Hail to you George,\nWhose name is great,\nYou were chosen by the Lord Jesus,\nYour fame is in every place,\n()You went, O chosen one,\nBefore Emperor Diocletian,\nYou put to shame the unbelievers,\nBy the sign of the cross,\n()Diocletian saw you,\nWith grace in your face,\nBeautiful in person,\nA star shining with grace,\n()He said to you, O chosen one,,\n\"From where are you?,\nIn the past three years,\nI have not seen a man like you,\n()\"What is your request,\nThat today you have come,\nApproach and inform me,\nWhere are you from?,\n()\"By the truth of Jesus your Lord,\nYou must tell me,\nAbout your father,\nA governor must he be?\",\n()George answered him,,\n\"My father is Anastasious,\nAnd I am a servant,\nOf my Lord Jesus Christ,\n()\"Cappadocia is our land,\nIn Palestine is our kin,\nWe were raised there,\nWe dwell therein\",\n()Diocletian said to him,,\n\"Come, worship the idols with me,\nOffer incense to them,\nI shall write you a decree!\",\n()George answered him,,\n\"I am the seed of the honorable,\nHow can you command me, O defiled,\nTo worship the idols,\n()Diocletian commanded,\nTo torture the righteous one,\nThe soldiers stripped him,\nWith nails they attacked him,\n()For seven long years,\nHe suffered many tortures,\nHe endured all pain,\nFor his love of the Lord of lords.,\n()Three deaths, he died,\nFor His holy name,\nFor the love of the Lord of hosts,\nLife-giver to every spirit,\n()After the fourth death,\nHe went up with joy,\nHe received martyrdom,\nAnd seven crowns of gold.,\n()He attained grace,\nFrom the holy Lord of Hosts,\nAnd received the crown of martyrdom,\nMy lord King George,\n()Hail to you, O hero!,\nLeader of all knights,\nThrough whose courageous deeds,\nThe idolaters were ashamed,\n()Hail to you, O saint!,\nSon of Anastasius,\nO precious and honorable,\nServant of Jesus Christ,\n()The mention of your name,\nIs in all the believers’ mouth,\nThey all say “O God of St.George,,\nHelp all of us!”,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "مديحة الشهيد مارجرجس",
+  "EnglishTitle": "St.George Melody ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لك يا جاورجيوس,\nيا ذو الاسم العظيم,\nأختارك الرب ايسوس,\nشاع ذكرك في الاقاليم",
+      "English": "Hail to you George,\nWhose name is great,\nYou were chosen by the Lord Jesus,\nYour fame is in every place"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تقدمت آيها المختار,\nالي دقلديانوس,\nو أخزيت كل الكفار,\nبعلامة بي استافروس",
+      "English": "You went, O chosen one,\nBefore Emperor Diocletian,\nYou put to shame the unbelievers,\nBy the sign of the cross"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "رآك دقلديانوس,\nوعلي وجهك النعمة,\nجميلا في شخصك,\nتضيء مثل النجمة",
+      "English": "Diocletian saw you,\nWith grace in your face,\nBeautiful in person,\nA star shining with grace"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "فقال لك يا مختار,\nأنت من أي مكان,\nأنا لي ثلاثة أعوام,\nما رأيت مثلك إنسان",
+      "English": "He said to you, O chosen one,,\n\"From where are you?,\nIn the past three years,\nI have not seen a man like you"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فما حاجتك عندي,\nحتى أتيت الآن,\nتعالي واخبرني,\nأنت من أي مكان",
+      "English": "\"What is your request,\nThat today you have come,\nApproach and inform me,\nWhere are you from?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بحق يسوع ربك,\nتخبرني يا إنسان,\nعن أبيك و جدك,\nكان وزيراً أو سلطان",
+      "English": "\"By the truth of Jesus your Lord,\nYou must tell me,\nAbout your father,\nA governor must he be?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "فقال له جورجيوس,\nأنا ابن انسطاسيوس,\nو أنا عبد لربي,\nايسوس بى إخريستوس",
+      "English": "George answered him,,\n\"My father is Anastasious,\nAnd I am a servant,\nOf my Lord Jesus Christ"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "كبادوكيا بلدتنا,\nنسبتنا في فلسطين,\nفيها مربانا,\nو بها مقيمين",
+      "English": "\"Cappadocia is our land,\nIn Palestine is our kin,\nWe were raised there,\nWe dwell therein\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فقال له دقلديانوس,\nتعال أعبد الأوثان,\nو بَخَّر يا محروس,\nو أنا اكتب لك فَرَمَان",
+      "English": "Diocletian said to him,,\n\"Come, worship the idols with me,\nOffer incense to them,\nI shall write you a decree!\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فقال له جورجيوس,\nأنا نسل الكرام,\nكيف تأمرني يا منجوس,\nأن أعبد الأوثان",
+      "English": "George answered him,,\n\"I am the seed of the honorable,\nHow can you command me, O defiled,\nTo worship the idols"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "فأمر دقلديانوس,\nبعذاب القديس,\nو جنوده قد عَرُّوه,\nو ضربوه بالدبابيس",
+      "English": "Diocletian commanded,\nTo torture the righteous one,\nThe soldiers stripped him,\nWith nails they attacked him"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "سبع سنوات عدة,\nيقاسي في الأتعاب,\nو احتمل كل شدة,\nفي محبة رب الأرباب",
+      "English": "For seven long years,\nHe suffered many tortures,\nHe endured all pain,\nFor his love of the Lord of lords."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثلاثة ميتات قد مات,\nعلي إسمه القدوس,\nحباً في رب القوات,\nالمحيي كل نفوس",
+      "English": "Three deaths, he died,\nFor His holy name,\nFor the love of the Lord of hosts,\nLife-giver to every spirit"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "و في رابع موته,\nمضي بالتهليل,\nوأخذ الشهادة,\nونال سبعة أكاليل",
+      "English": "After the fourth death,\nHe went up with joy,\nHe received martyrdom,\nAnd seven crowns of gold."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ظفر بالنعمة,\nمن عند الرب القدوس,\nونال إكليل الشهادة,\nباشويس ابؤرو جيؤرجيوس",
+      "English": "He attained grace,\nFrom the holy Lord of Hosts,\nAnd received the crown of martyrdom,\nMy lord King George"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك يا بطل,\nيا قائد كل الفرسان,\nيا مَنْ مِن  أجلك,\nخزي عباد الأوثان",
+      "English": "Hail to you, O hero!,\nLeader of all knights,\nThrough whose courageous deeds,\nThe idolaters were ashamed"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لك يا قديس,\nيا إبن انسطاسيوس,\nيا حبراً  نفيس,\nيا عبد إيسوس بخريستوس",
+      "English": "Hail to you, O saint!,\nSon of Anastasius,\nO precious and honorable,\nServant of Jesus Christ"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تفسير أسمك في أفواه,\nكل المؤمنين,\nالكل يقولون ياإله,\nمارجرجس أعنا أجمعين",
+      "English": "The mention of your name,\nIs in all the believers’ mouth,\nThey all say “O God of St.George,,\nHelp all of us!”"
+    }
+  ]
 }

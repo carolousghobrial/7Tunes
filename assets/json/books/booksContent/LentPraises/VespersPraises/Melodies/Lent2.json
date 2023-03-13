@@ -1,4 +1,55 @@
 {
-"arabic": " + دواء يبرىء كل الجراحات,\nالصوم والرأفة بالمساكين,\nمن بعد العماد سيدنا صام,\nأربعين يوما في الجبل كاملين,\n()فجاع في الآخر جوعا بألام,\nفجسر المجرب وناداه بيقين,\nقال له قل للحجارة أنت بكلام,\nتصير خبزة يحيى الجائعين,\n()+ فرشقه سيدنا من فاه,\nقال ليس بالخبز يحيا الإنسان,\nبل بکل كلام الله,\nاهرب من خلفي يا شيطان,\n()+ فلما سمع ذا القول دهاه,\nوصار ذاهب مثل الدخان,\nفخاب أمله وانقطع رجاه,\nوصار مخزى مطرود مهان,\n()+ لأنه لصا سارق مسكين,\nوالسهارى لا يسطو عليهم,\nبل يجيء للمتغافلين,\nفي وسط أشراكه يرميهم,\n()*REFRAIN*طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم()",
-"english": " A medicine for all wounds,\nIs fasting with mercy for the needy,\nOur Master fasted after His baptism,\nForty complete days on the mountain,\n()Finally, He felt hunger,\nThe tempter dared to call to Him,\nSaying, \"Say to the stones,\nTo become bread to feed the hungry,\n()Our Master defeated him with His words,\n\"Man shall not live by bread alone,\nBut by all the words of God,\nAway with you, O Satan!\",\n()When he heard these sayings,\nHe fled and vanished like smoke,\nHis desires and hopes were crushed,\nHe was shamed, expelled and humiliated,\n()He is a wretched thief,\nWho cannot attack the vigilant,\nHe comes to those who are asleep,\nAnd throws them in the midst of his companions.,\n()*REFRAIN* Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day()"
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة الثانية",
+  "EnglishTitle": "The Second Part ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b دواء يبرىء كل الجراحات,\nالصوم والرأفة بالمساكين,\nمن بعد العماد سيدنا صام,\nأربعين يوما في الجبل كاملين,",
+      "English": "A medicine for all wounds,\nIs fasting with mercy for the needy,\nOur Master fasted after His baptism,\nForty complete days on the mountain,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فجاع في الآخر جوعا بألام,\nفجسر المجرب وناداه بيقين,\nقال له قل للحجارة أنت بكلام,\nتصير خبزة يحيى الجائعين,",
+      "English": "Finally, He felt hunger,\nThe tempter dared to call to Him,\nSaying, \"Say to the stones,\nTo become bread to feed the hungry,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b فرشقه سيدنا من فاه,\nقال ليس بالخبز يحيا الإنسان,\nبل بکل كلام الله,\nاهرب من خلفي يا شيطان,",
+      "English": "Our Master defeated him with His words,\n\"Man shall not live by bread alone,\nBut by all the words of God,\nAway with you, O Satan!\","
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b فلما سمع ذا القول دهاه,\nوصار ذاهب مثل الدخان,\nفخاب أمله وانقطع رجاه,\nوصار مخزى مطرود مهان,",
+      "English": "When he heard these sayings,\nHe fled and vanished like smoke,\nHis desires and hopes were crushed,\nHe was shamed, expelled and humiliated,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b لأنه لصا سارق مسكين,\nوالسهارى لا يسطو عليهم,\nبل يجيء للمتغافلين,\nفي وسط أشراكه يرميهم,",
+      "English": "He is a wretched thief,\nWho cannot attack the vigilant,\nHe comes to those who are asleep,\nAnd throws them in the midst of his companions.,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    }
+  ]
 }
