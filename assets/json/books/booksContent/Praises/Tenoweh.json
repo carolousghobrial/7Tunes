@@ -1,7 +1,74 @@
 {
-"arabic": " نتبعك بكل قلوبنا ونخافك ونطلب وجهك يا الله لا تخزنا.,\nبل إصنع معنا بحسب دعتك وكثرة رحمتك يارب أعنا .,\nفلتصعد صلاتنا أمامك يا سيدنا مثل محرقات كباش وعجول سمان .,\nلاتنس العهد الذى قطعته مع أبائنا إبراهيم وإسحق ويعقوب إسرائيل قديسك .,\nباركوا الرب ياجميع الشعوب والقبائل ولغات الألسن سبحوه ومجدوه وزيدوه علواً إلى الأبد.,\nأطلبوا من الرب عنا أيها الثلاثة فتية القديسين سدراك وميساك وأبدناغو ليغفر لنا خطايانا.,\n",
-"arabiccoptic": " تين أويه إنثوك خين بين هيت تيرف. تين إرهوتى خا تيك هى. أووه تين كوتى إنسا بيك هو. إفنوتى إمبير تى شيبى نان.\n اللا أرى أوى نيمان. كاطا تيك ميت إيبيكيس. نيم كاطا إب أشاى إنتى بيك ناى. إبشويس أرى فويثين إيرون .\nمارى تين إبروس إفشى بين نيب .إى إإبشوى إمبيك إمثو . إمفريتى إنهان إتشليل إنتى هان أويلى . نيم هان ماسى إفكينى أوأوت .\n إمبير إير إبؤبش إنتى ذياثيكى. ثى إيطاك سبمنيتس نيم نين يوتى. أبرآم إيسآك ياكوب. بيسرائيل بى إثؤواب إنتاك.\nإسمو إبشويس نى لاؤس تيرو. نيفيلى نى أسبى إنلاس. هوس إيوف ما أوأوناف. أرى هوؤ تشاسف شانى إينيه.\n طوبه إم إبشويس إإهرى إيجون. أوبى شمت إن ألو إن أجيوس. سدراك ميساك أبديناغو. إنتيف كانين نوفى نان ايفول.\n",
-"coptic": " Tenoue\\ `ncwk =en pen\\ht thrf > tener\\o; =atek\\h > ouo\\ tenkw; `nca pek\\o > V; `mper;]ipi nan.\nAlla `ariou`i neman > kata tekmet `epikhc > nem kata `p`a]ai `nte peknai > P_ `aribo`hqin `eron .\nMare ten`proc euxh pennhb > `i `e`p]wi `mpek`mqo > `m`vrh; `n\\anslil `nte \\anwili > nem \\anmaci eukeni`wout .\n`Mperer`pwb] `n;di`aqhkh > qh`etakcemnhtc nem nenio; > Abraam `Icaak Iakwb > Pic/l/ pee/q/u/ `ntak.\n`Cmou `eP_ nilaoc throu > nivulh niacpi `nlac > \\wc `erof ma`wou naf > `ari\\ou`o sacf ]a ni`ene\\ .\nTwb\\ `mP_ `e`\\rhi `ejwn > `wpi g/ `nalou `n`agioc > Cedrak Micak Abdenagw > ``ntefxa nen nobi nan `ebol .\n",
-"english": " We follow You with all our hearts, and we fear You, and we seek Your face, O God do not forsake us.,\nBut rather deal with us, according to Your meekness, and according to Your great mercy, O Lord help us.,\nMay our prayers ascend unto You, O our Master, like burnt offerings of lambs, and fatted calves.,\nDo not forget the covenant, which You have made with our fathers, Abraham Isaac and Jacob, Israel Your holy one.,\nBless the Lord all you nations, the tribes and all kinds of tongues, praise Him and glorify Him, above all forever.,\nPray to the Lord on our behalf, O three saintly children, Shadrach Meshach and Abed-Nego, that He may forgive us our sins.,\n",
-"englishcoptic": " Ten-oweh ensok khen penheet tirf, ten-erhoti kha-tek-hi, owoh ten-koti ensa pekho, Efnouti emper-ti-shipi nan.\nAlla ari-owi neman, kata tek-met e-pi-kis, nem kata ep-ashai ente pek nai Epshoise ari-voythin eiron.\nMare ten-epros-evki pennip, e-epshoi em-pek-emtho, emif-riti enhan etchlil ente han-oyli, nem hanmasi evkeni oo-ot.\nEmperer ep-ovsh enti zia-thiki, thi-etak-sem-nits nem nenyoti, Abraam Isaak Yakoub, pis-rael pethowab entak..\nEsmo Epshoise ni-laos tiro, niphili ni-asp-en-las, hos erof ma-o-ou naf, Ari-ho-oo chasf sha ni eneh.\nTovh Emip-shois e-ehri egon, o pi-shomt en-alo en-agios, Sedrak Misak Abde-nagho, , entef ka nen-novi nan evol.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "مديح واطس للثلاثة فتية القديسين (تين اويه انثوك(",
+  "EnglishTitle": "Watos Hymn for the Three Saintly Children (Ten-oweh ensok)",
+  "CopticTitle": "Tenoue\\\\",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نتبعك بكل قلوبنا ونخافك ونطلب وجهك يا الله لا تخزنا.",
+      "Coptic": "Tenoue\\ `ncwk =en pen\\ht thrf > tener\\o; =atek\\h > ouo\\ tenkw; `nca pek\\o > V; `mper;]ipi nan.",
+      "English": "We follow You with all our hearts, and we fear You, and we seek Your face, O God do not forsake us.",
+      "Arabiccoptic": "تين أويه إنثوك خين بين هيت تيرف. تين إرهوتى خا تيك هى. أووه تين كوتى إنسا بيك هو. إفنوتى إمبير تى شيبى نان.",
+      "Englishcoptic": "Ten-oweh ensok khen penheet tirf, ten-erhoti kha-tek-hi, owoh ten-koti ensa pekho, Efnouti emper-ti-shipi nan."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "بل إصنع معنا بحسب دعتك وكثرة رحمتك يارب أعنا .",
+      "Coptic": "Alla `ariou`i neman > kata tekmet `epikhc > nem kata `p`a]ai `nte peknai > P_ `aribo`hqin `eron .",
+      "English": "But rather deal with us, according to Your meekness, and according to Your great mercy, O Lord help us.",
+      "Arabiccoptic": "اللا أرى أوى نيمان. كاطا تيك ميت إيبيكيس. نيم كاطا إب أشاى إنتى بيك ناى. إبشويس أرى فويثين إيرون .",
+      "Englishcoptic": "Alla ari-owi neman, kata tek-met e-pi-kis, nem kata ep-ashai ente pek nai Epshoise ari-voythin eiron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلتصعد صلاتنا أمامك يا سيدنا مثل محرقات كباش وعجول سمان .",
+      "Coptic": "Mare ten`proc euxh pennhb > `i `e`p]wi `mpek`mqo > `m`vrh; `n\\anslil `nte \\anwili > nem \\anmaci eukeni`wout .",
+      "English": "May our prayers ascend unto You, O our Master, like burnt offerings of lambs, and fatted calves.",
+      "Arabiccoptic": "مارى تين إبروس إفشى بين نيب .إى إإبشوى إمبيك إمثو . إمفريتى إنهان إتشليل إنتى هان أويلى . نيم هان ماسى إفكينى أوأوت .",
+      "Englishcoptic": "Mare ten-epros-evki pennip, e-epshoi em-pek-emtho, emif-riti enhan etchlil ente han-oyli, nem hanmasi evkeni oo-ot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لاتنس العهد الذى قطعته مع أبائنا إبراهيم وإسحق ويعقوب إسرائيل قديسك .",
+      "Coptic": "`Mperer`pwb] `n;di`aqhkh > qh`etakcemnhtc nem nenio; > Abraam `Icaak Iakwb > Pic/l/ pee/q/u/ `ntak.",
+      "English": "Do not forget the covenant, which You have made with our fathers, Abraham Isaac and Jacob, Israel Your holy one.",
+      "Arabiccoptic": "إمبير إير إبؤبش إنتى ذياثيكى. ثى إيطاك سبمنيتس نيم نين يوتى. أبرآم إيسآك ياكوب. بيسرائيل بى إثؤواب إنتاك.",
+      "Englishcoptic": "Emperer ep-ovsh enti zia-thiki, thi-etak-sem-nits nem nenyoti, Abraam Isaak Yakoub, pis-rael pethowab entak.."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "باركوا الرب ياجميع الشعوب والقبائل ولغات الألسن سبحوه ومجدوه وزيدوه علواً إلى الأبد.",
+      "Coptic": "`Cmou `eP_ nilaoc throu > nivulh niacpi `nlac > \\wc `erof ma`wou naf > `ari\\ou`o sacf ]a ni`ene\\ .",
+      "English": "Bless the Lord all you nations, the tribes and all kinds of tongues, praise Him and glorify Him, above all forever.",
+      "Arabiccoptic": "إسمو إبشويس نى لاؤس تيرو. نيفيلى نى أسبى إنلاس. هوس إيوف ما أوأوناف. أرى هوؤ تشاسف شانى إينيه.",
+      "Englishcoptic": "Esmo Epshoise ni-laos tiro, niphili ni-asp-en-las, hos erof ma-o-ou naf, Ari-ho-oo chasf sha ni eneh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أطلبوا من الرب عنا أيها الثلاثة فتية القديسين سدراك وميساك وأبدناغو ليغفر لنا خطايانا.",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > `wpi g/ `nalou `n`agioc > Cedrak Micak Abdenagw > ``ntefxa nen nobi nan `ebol .",
+      "English": "Pray to the Lord on our behalf, O three saintly children, Shadrach Meshach and Abed-Nego, that He may forgive us our sins.",
+      "Arabiccoptic": "طوبه إم إبشويس إإهرى إيجون. أوبى شمت إن ألو إن أجيوس. سدراك ميساك أبديناغو. إنتيف كانين نوفى نان ايفول.",
+      "Englishcoptic": "Tovh Emip-shois e-ehri egon, o pi-shomt en-alo en-agios, Sedrak Misak Abde-nagho, , entef ka nen-novi nan evol."
+    }
+  ]
 }

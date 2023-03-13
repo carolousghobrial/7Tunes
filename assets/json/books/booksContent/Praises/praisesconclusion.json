@@ -1,7 +1,184 @@
-﻿{
-  "arabic": " (آمين, كيريي ليسون (3,\nيا الله إرحمنا.,\nيا الله إسمعنا.,\nيا الله أنظر إلينا.,\nيا الله إطلع علينا,\nياالله تراءف علينا,\nنحن شعبك.,\nنحن جبلتك.,\nنجنا من أعدائنا.,\nنجنا من الغلاء.,\nنحن عبيدك.,\nأنت إبن الله.,\nآمنا بك.,\nلأنك %%%% وخلصتنا.,\nتعهدنا بخلاصك.,\nوأغفر لنا خطايانا,\n",
-  "arabiccoptic": " (آمين, كيريي ليسون (3\nإفنوتى ناى نان.\nإفنوتى سوتيم إيرون.\nإفنوتى سومس إيرون.\nإفنوتى جوشت إيرون.\nإفنوتى شينهيت خارون.\nأنون خا بيك لاؤس.\nأنون خا بيك إبلازما.\nناهمين إيفول خين نين جاجى.\nناهمين إيفول ها أو إهفون.\nأنون خا نيك إفي أيك.\nإيوس ثيؤس إنثوك.\nأن ناهتى إيروك.\nجى %%%% أكسوتى إممون.\nجيم بين شينى خين بيك أوجاى.\nأووه كانين نوفي نان أفول\n",
-  "coptic": " Amhn. Kurie `ele`hcon (3).\nV; nai nan.\nV; cwtem `eron.\nV; comc `eron.\nV; jou]t `eron.\nV; ]en\\ht =aron.\nAnon =a peklaoc.\nAnon =a pek`placma.\nNa\\men `ebol =en nenjaji.\nNa\\men `ebol \\a ou`\\bwn.\nAnon =a nek`ebiaik.\n` Uioc qeoc `nqok.\nAnna\\; `erok.\nJe %%%% akcw; `mmon.\nJempen]ini =en pekoujai.\nOuo\\ xa nennobi nan ebol\n",
-  "english": " Amen. Kerie leysoun (3).,\nO God have mercy on us,\nO God hear us.,\nO God look at us.,\nO God behold us.,\nO God have compassion on us.,\nWe are Your people.,\nWe are Your creation.,\nDeliver us from our enemies.,\nDeliver us from   inflation.,\nWe are Your servants.,\nYou are the Son of God.,\nWe believe in You.,\nFor You have %%%% and saved us.,\nVisit us with Your salvation.,\nAnd forgive us our sins.,\n",
-  "englishcoptic": " Amen. Kerie leysoun (3).\nEfnoti nai nan.\nEfnoti sotem eron.\nEfnoti soms eron.\nEfnoti goosht eron.\nEfnoti shenheet kharon.\nAnon kha peklaos.\nAnon kha pek-eplasma.\nNahmen evol khen nen-gaji.\nNahmen evol ha oo-ehvon.\nAnon kha nek-evi-aik.\nEios theos enthok.\nAnnahti erok.\nJe %%%% aksoti emmon.\nJempen-shini khen pek-oogai.\nOwoh ka nen novi nan evol\n"
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "طلبة الختام",
+  "EnglishTitle": "The Concluding Litany",
+  "CopticTitle": "Amhn. Kurie `ele`hcon",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "(آمين, كيريي ليسون (3",
+      "Coptic": "Amhn. Kurie `ele`hcon (3).",
+      "English": "Amen. Kerie leysoun (3).",
+      "Arabiccoptic": "(آمين, كيريي ليسون (3",
+      "Englishcoptic": "Amen. Kerie leysoun (3)."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا الله إرحمنا.",
+      "Coptic": "V; nai nan.",
+      "English": "O God have mercy on us",
+      "Arabiccoptic": "إفنوتى ناى نان.",
+      "Englishcoptic": "Efnoti nai nan."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يا الله إسمعنا.",
+      "Coptic": "V; cwtem `eron.",
+      "English": "O God hear us.",
+      "Arabiccoptic": "إفنوتى سوتيم إيرون.",
+      "Englishcoptic": "Efnoti sotem eron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا الله أنظر إلينا.",
+      "Coptic": "V; comc `eron.",
+      "English": "O God look at us.",
+      "Arabiccoptic": "إفنوتى سومس إيرون.",
+      "Englishcoptic": "Efnoti soms eron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يا الله إطلع علينا",
+      "Coptic": "V; jou]t `eron.",
+      "English": "O God behold us.",
+      "Arabiccoptic": "إفنوتى جوشت إيرون.",
+      "Englishcoptic": "Efnoti goosht eron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ياالله تراءف علينا",
+      "Coptic": "V; ]en\\ht =aron.",
+      "English": "O God have compassion on us.",
+      "Arabiccoptic": "إفنوتى شينهيت خارون.",
+      "Englishcoptic": "Efnoti shenheet kharon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نحن شعبك.",
+      "Coptic": "Anon =a peklaoc.",
+      "English": "We are Your people.",
+      "Arabiccoptic": "أنون خا بيك لاؤس.",
+      "Englishcoptic": "Anon kha peklaos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نحن جبلتك.",
+      "Coptic": "Anon =a pek`placma.",
+      "English": "We are Your creation.",
+      "Arabiccoptic": "أنون خا بيك إبلازما.",
+      "Englishcoptic": "Anon kha pek-eplasma."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نجنا من أعدائنا.",
+      "Coptic": "Na\\men `ebol =en nenjaji.",
+      "English": "Deliver us from our enemies.",
+      "Arabiccoptic": "ناهمين إيفول خين نين جاجى.",
+      "Englishcoptic": "Nahmen evol khen nen-gaji."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نجنا من الغلاء.",
+      "Coptic": "Na\\men `ebol \\a ou`\\bwn.",
+      "English": "Deliver us from   inflation.",
+      "Arabiccoptic": "ناهمين إيفول ها أو إهفون.",
+      "Englishcoptic": "Nahmen evol ha oo-ehvon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نحن عبيدك.",
+      "Coptic": "Anon =a nek`ebiaik.",
+      "English": "We are Your servants.",
+      "Arabiccoptic": "أنون خا نيك إفي أيك.",
+      "Englishcoptic": "Anon kha nek-evi-aik."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت إبن الله.",
+      "Coptic": "` Uioc qeoc `nqok.",
+      "English": "You are the Son of God.",
+      "Arabiccoptic": "إيوس ثيؤس إنثوك.",
+      "Englishcoptic": "Eios theos enthok."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "آمنا بك.",
+      "Coptic": "Anna\\; `erok.",
+      "English": "We believe in You.",
+      "Arabiccoptic": "أن ناهتى إيروك.",
+      "Englishcoptic": "Annahti erok."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنك %%%% وخلصتنا.",
+      "Coptic": "Je %%%% akcw; `mmon.",
+      "English": "For You have %%%% and saved us.",
+      "Arabiccoptic": "جى %%%% أكسوتى إممون.",
+      "Englishcoptic": "Je %%%% aksoti emmon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "تعهدنا بخلاصك.",
+      "Coptic": "Jempen]ini =en pekoujai.",
+      "English": "Visit us with Your salvation.",
+      "Arabiccoptic": "جيم بين شينى خين بيك أوجاى.",
+      "Englishcoptic": "Jempen-shini khen pek-oogai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأغفر لنا خطايانا",
+      "Coptic": "Ouo\\ xa nennobi nan ebol",
+      "English": "And forgive us our sins.",
+      "Arabiccoptic": "أووه كانين نوفي نان أفول",
+      "Englishcoptic": "Owoh ka nen novi nan evol"
+    }
+  ]
 }

@@ -11,13 +11,13 @@ import {
 } from "../../helpers/SettingsHelpers.js";
 import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 
 function BaseView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let textColor = "";
 
-  switch (item.side) {
+  switch (item.Side) {
     case "North":
       textColor = getColor("NorthColor");
       break;
@@ -66,7 +66,7 @@ function BaseView({ item }) {
               { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
             ]}
           >
-            {item.english}
+            {item.English}
           </Text>
         </View>
       ) : null}
@@ -78,7 +78,7 @@ function BaseView({ item }) {
               { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
             ]}
           >
-            {item.coptic}
+            {item.Coptic}
           </Text>
         </View>
       ) : null}
@@ -90,7 +90,7 @@ function BaseView({ item }) {
               { fontSize, color: textColor, lineHeight: fontSize * 1.35 },
             ]}
           >
-            {item.arabic}
+            {item.Arabic}
           </Text>
         </View>
       ) : null}
@@ -102,7 +102,7 @@ function BaseView({ item }) {
               { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
             ]}
           >
-            {item.englishcoptic}
+            {item.Englishcoptic}
           </Text>
         </View>
       ) : null}
@@ -114,7 +114,7 @@ function BaseView({ item }) {
               { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
             ]}
           >
-            {item.arabiccoptic}
+            {item.Arabiccoptic}
           </Text>
         </View>
       ) : null}
@@ -150,4 +150,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default BaseView;
+export default memo(BaseView);

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Modal,
   View,
@@ -22,8 +22,15 @@ import GestureRecognizer, {
   swipeDirections,
 } from "react-native-swipe-gestures";
 import MenuItem from "./MenuItem";
-function ContentsModal({ visible, closeModal, dataArray, scrollToKey }) {
+function ContentsModal({
+  visible,
+  closeModal,
+  dataArray,
+  initialKey,
+  scrollToKey,
+}) {
   const { width, height } = useWindowDimensions();
+  const [initialIndex, setInitialIndex] = useState(0);
   let flexDirection = "column";
   let viewheight = "50%";
   let viewwidth = "100%";
@@ -36,6 +43,19 @@ function ContentsModal({ visible, closeModal, dataArray, scrollToKey }) {
   const wrapperStyle = {
     flexDirection: flexDirection,
   };
+  useEffect(() => {
+    console.log("KEY" + initialKey);
+
+    const closest = dataArray.reduce((a, b) => {
+      return Math.abs(b.key - initialKey) < Math.abs(a.key - initialKey)
+        ? b
+        : a;
+    });
+    console.log(dataArray[11]);
+    var ind = dataArray.findIndex((item) => item.key === closest.key);
+    console.log(ind);
+    setInitialIndex(ind);
+  });
   return (
     <Modal
       animationType="slide"
@@ -63,6 +83,7 @@ function ContentsModal({ visible, closeModal, dataArray, scrollToKey }) {
         >
           <FlatList
             data={dataArray}
+            initialScrollIndex={initialIndex}
             renderItem={({ item }) => (
               <MenuItem
                 item={item}

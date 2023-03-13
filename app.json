@@ -27,8 +27,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-       "requireFullScreen": true
-
+      "requireFullScreen": true
     },
     "android": {
       "adaptiveIcon": {

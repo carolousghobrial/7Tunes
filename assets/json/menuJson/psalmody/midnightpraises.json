@@ -1,36 +1,34 @@
 {
-    "books" : [
+    "books": [
         {
-        "EnglishTitle" : "Standard Midnight's Praises",
-        "ArabicTitle" : "تسبحة نصف الليل السنوي",    
-       "PurchaseKeyDroid" : "annualpsalmodyid" , 
-        "PurchaseKeyIos" : "annualpsalmodyidsku", 
-        "hasSubBooks" : true,
-        "BookPath" : 15, 
-        "ImageURL" : "david",
-        "Enabled" : true
-
+            "EnglishTitle": "Standard Midnight's Praises",
+            "ArabicTitle": "تسبحة نصف الليل السنوي",
+            "PurchaseKeyDroid": "annualpsalmodyid",
+            "PurchaseKeyIos": "annualpsalmodyidsku",
+            "hasSubBooks": false,
+            "BookPath": "standardPsalmody",
+            "ImageURL": "david",
+            "Enabled": true
         },
         {
-        "EnglishTitle" : "Kiahk Midnight's Praises",
-        "ArabicTitle" : "تسبحة نصف الليل الكيهكي",    
-       "PurchaseKeyDroid" : "annualpsalmodyid" , 
-        "PurchaseKeyIos" : "annualpsalmodyidsku", 
-        "hasSubBooks" : true,
-        "BookPath" : 4, 
-        "ImageURL" : "annuciation",
-        "Enabled" : true
+            "EnglishTitle": "Kiahk Midnight's Praises",
+            "ArabicTitle": "تسبحة نصف الليل الكيهكي",
+            "PurchaseKeyDroid": "annualpsalmodyid",
+            "PurchaseKeyIos": "annualpsalmodyidsku",
+            "hasSubBooks": true,
+            "BookPath": 4,
+            "ImageURL": "annuciation",
+            "Enabled": true
         },
-             {
-        "EnglishTitle" : "Lenten Midnight's Praises",
-        "ArabicTitle" : "تسبحة نصف الليل الصيامي",    
-       "PurchaseKeyDroid" : "holypaschaid" , 
-        "PurchaseKeyIos" : "holypaschasku", 
-        "hasSubBooks" : false,
-        "BookPath" : 3, 
-        "ImageURL" : "lent",
-        "Enabled" : true
+        {
+            "EnglishTitle": "Lenten Midnight's Praises",
+            "ArabicTitle": "تسبحة نصف الليل الصيامي",
+            "PurchaseKeyDroid": "holypaschaid",
+            "PurchaseKeyIos": "holypaschasku",
+            "hasSubBooks": false,
+            "BookPath": 3,
+            "ImageURL": "lent",
+            "Enabled": true
         }
-
     ]
 }

@@ -21,9 +21,9 @@ export function getFullViewModel(data) {
           case "Main":
             //Get View
             let book = bookPaths[item.path];
-            arabicttl = book.arabictitle;
-            copticttl = book.coptictitle;
-            englishttl = book.englishtitle;
+            arabicttl = book.ArabicTitle;
+            copticttl = book.CopticTitle;
+            englishttl = book.EnglishTitle;
             MenuArray.push({
               EnglishTitle: englishttl,
               CopticTitle: copticttl,
@@ -35,10 +35,10 @@ export function getFullViewModel(data) {
               CopticTitle: copticttl,
               ArabicTitle: arabicttl,
               part: {
-                type: "Title",
+                Type: "Title",
                 rule: -1,
                 visible: 0,
-                side: "Title",
+                Side: "Title",
                 arabic: arabicttl,
                 coptic: copticttl,
                 english: englishttl,
@@ -47,7 +47,7 @@ export function getFullViewModel(data) {
             });
 
             key++;
-            var hymn = book.hymn;
+            var hymn = book.Hymn;
 
             hymn.map((part) => {
               ViewArray.push({

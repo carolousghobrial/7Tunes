@@ -1,58 +1,54 @@
 {
-    "books" : [
-          {
-        "EnglishTitle" : "First Hour",
-        "ArabicTitle" : "الساعة الأولى",    
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "thursdayFirst", 
-        "ImageURL" : "first",
-        "Enabled" : true
-
-        },
-         {
-        "EnglishTitle" : "Third Hour",
-        "ArabicTitle" : "الساعة الثالثة",    
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "thursdayThird", 
-        "ImageURL" : "third",
-        "Enabled" : true
-
+    "books": [
+        {
+            "EnglishTitle": "First Hour",
+            "ArabicTitle": "الساعة الأولى",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "thursdayFirst",
+            "ImageURL": "first",
+            "Enabled": true
         },
         {
-        "EnglishTitle" : "Sixth Hour",
-        "ArabicTitle" : "الساعة السادسة ",     
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "thursdaySixth", 
-        "ImageURL" : "sixth",
-        "Enabled" : true
+            "EnglishTitle": "Third Hour",
+            "ArabicTitle": "الساعة الثالثة",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "thursdayThird",
+            "ImageURL": "third",
+            "Enabled": true
         },
         {
-        "EnglishTitle" : "Ninth Hour",
-        "ArabicTitle" : "الساعة التاسعة",    
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "thursdayNinth", 
-        "ImageURL" : "ninth",
-        "Enabled" : true
-
+            "EnglishTitle": "Sixth Hour",
+            "ArabicTitle": "الساعة السادسة ",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "thursdaySixth",
+            "ImageURL": "sixth",
+            "Enabled": true
         },
         {
-        "EnglishTitle" : "Eleventh Hour",
-        "ArabicTitle" : "الساعة الحادية عشر",     
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "thursdayEleventh", 
-        "ImageURL" : "eleventh",
-        "Enabled" : true
+            "EnglishTitle": "Ninth Hour",
+            "ArabicTitle": "الساعة التاسعة",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "thursdayNinth",
+            "ImageURL": "ninth",
+            "Enabled": true
+        },
+        {
+            "EnglishTitle": "Eleventh Hour",
+            "ArabicTitle": "الساعة الحادية عشر",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "thursdayEleventh",
+            "ImageURL": "eleventh",
+            "Enabled": true
         }
-
     ]
 }

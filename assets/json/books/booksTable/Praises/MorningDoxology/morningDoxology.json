@@ -1,0 +1,157 @@
+{
+  "main": [
+    {
+      "Type": "Title",
+      "rule": 0,
+      "visible": 0,
+      "Side": "Title",
+      "arabic": "بدء تسبحة عشية",
+      "coptic": "Nieqnoc throu",
+      "english": "The Introduction of the Vespers Praise"
+    },
+    {
+      "type": "Main",
+      "path": "AdamMorningDoxology",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyOurLord",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyMary",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyHeavenlies",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyApostles",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyMartyrs",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologySainsts",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyFathers",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "AdamMorningDoxology",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyOurLord",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyMary",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyHeavenlies",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyApostles",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyMartyrs",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologySainsts",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyFathers",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "AdamMorningDoxology",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyOurLord",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyMary",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyHeavenlies",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyApostles",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyMartyrs",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologySainsts",
+      "rule": 0,
+      "visible": "firstVisible"
+    },
+    {
+      "type": "Main",
+      "path": "MorningDoxologyFathers",
+      "rule": 0,
+      "visible": "firstVisible"
+    }
+  ]
+}

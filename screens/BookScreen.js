@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, memo } from "react";
 import {
   StyleSheet,
   useWindowDimensions,
@@ -34,6 +34,9 @@ import { getFullViewModel } from "../viewModel/getFullViewModel";
 const _spacing = 10;
 function BookScreen({ navigation, route }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
+  const flatListRef = useRef();
+  var pageBackgroundColor = getColor("pageBackgroundColor");
+
   const [NavbarVisibility, setNavbarVisibility] = useState(true);
   const [index, setIndex] = useState(0);
   const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
@@ -41,6 +44,10 @@ function BookScreen({ navigation, route }) {
   const [englishTitle, setenglishTitle] = useState("");
   const [copticTitle, setcopticTitle] = useState("");
   const [arabicTitle, setarabicTitle] = useState("");
+  const motherSource = route.params.bookPath;
+
+  const [data, menuData] = getFullViewModel(homescreenPaths[motherSource]);
+
   const { width, height } = useWindowDimensions();
 
   if (width > height) {
@@ -48,12 +55,6 @@ function BookScreen({ navigation, route }) {
   } else {
     // Portrait mode
   }
-  const flatListRef = useRef();
-
-  var pageBackgroundColor = getColor("pageBackgroundColor");
-
-  const motherSource = route.params.bookPath;
-  const [data, menuData] = getFullViewModel(homescreenPaths[motherSource]);
 
   // const handleScroll = (event) => {
   //   const position = event.nativeEvent;
@@ -125,8 +126,7 @@ function BookScreen({ navigation, route }) {
 
   function renderItems(itemData) {
     let content = {};
-    // setNavbarTitle(itemData.item.CopticTitle);
-    switch (itemData.item.part.type) {
+    switch (itemData.item.part.Type) {
       case "Base":
         //MainView
         //check Rule
@@ -191,9 +191,6 @@ function BookScreen({ navigation, route }) {
       <FlatList
         ref={flatListRef}
         onViewableItemsChanged={onViewableItemsChanged}
-        viewabilityConfig={{
-          itemVisiblePercentThreshold: 50, // change as needed
-        }}
         showsVerticalScrollIndicator={false}
         data={data}
         onScrollToIndexFailed={(error) => {
@@ -208,9 +205,9 @@ function BookScreen({ navigation, route }) {
                 animated: false,
               });
             }
-          }, 100);
+          }, 500);
         }}
-        initialNumToRender={200}
+        initialNumToRender={data.length}
         renderItem={renderItems}
         keyExtractor={(item) => {
           return item.key;
@@ -220,6 +217,7 @@ function BookScreen({ navigation, route }) {
         <BottomBar
           navigation={navigation}
           dataArray={menuData}
+          initialKey={newIndex}
           scrollToKey={scrollToKey}
         />
       )}

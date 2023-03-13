@@ -1,7 +1,53 @@
 {
-"arabic": " ألوف ألوف وربوات ربوات رؤساء الملائكة وملائكة مقدسين.,\nوقوف أمام كرسى ضابط الكل صارخين قائلين.,\nقدوس قدوس قدوس بالحقيقة المجد والكرامة يليقان بالثالوث.,\nبشفاعات كل صفوف الملائكة يارب أنعم لنا بمغفرة خطايانا.,\n",
-"arabiccoptic": " هان انشو انشو : نيم هان اثفا ان اثفا : ان ارشي انجيلوس : نيم انجيلوس اثؤواب .\nإفؤهي ايراتو : امبيه امثو امبي اثرونوس : انتيه بي باندوكراطور : اف أوش ايفول افجو امموس .\nجيه اكؤواب اكؤواب : اكؤواب خين أوميثمي : بي أو أوو نيم بي طايو : اير إبريبي انتيه إترياس .\nهيتين ني إبرسفيا : انتيه ابخوروس تيرف انتيه ني انجيلوس : إبتشويس اري اهموت نان امبيكو ايفول انتى نين نوفي .\n",
-"coptic": " |anan]o `n]o > nem \\an`qba `n`qba > `narxhaggeloc > nem aggeloc euouab.\nEu`o\\i `eratou > `mpe`mqo `mpi`qronoc > `nte piPantokratwr > euw] `ebol eujw `mmoc.\nJe `xouab `xouab > `xouab =en oumeqmhi > pi`wou nem pitai`o > er`prepi `n:`triac.\n|iten ni`precbi`a > `nte `pxoroc thrf `nte niaggeloc > P_ `ari`\\mot nan > `mpixw `ebol `nte nen nobi .\n",
-"english": " Thousands of thousands, and myriads of myriads, of archangels, and holy angels.,\nThey stand before, the throne, of the Pantocrator, proclaiming and saying.,\nHoly Holy, Holy in truth, the glory and the honor, befit the Trinity.,\nThrough the intercessions, of the whole choir of the angels, O Lord grant us, the forgiveness of our sins.,\n",
-"englishcoptic": " ﻿Han ansho ansho, nem han ethva en ethva, en arshi angelos, nem angelos Ethowab.\nEvohi erato, Empe emtho empe ethronos, Ente pi Pantokrator, Evosh evol evgo emmos.\nJe Ekouab Ekouab, Ekouab khen o methmei, pi o-o nem pi taio, ere eprebi enti etrias.\nHiten ni epresvia, ente epkhoros tirf ente ni angelos, epchoice aree-ehmot nan em-pee-ko e-vol ente nennovee.\n",
+    "Refrain": null,
+    "RefrainAfter": 0,
+    "ArabicTitle": "ذكصولوجية باكر لأجل الملائكة",
+    "EnglishTitle": "Morning Doxology (Heavenlies)",
+    "CopticTitle": "|anan]o `n]o",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "ألوف ألوف وربوات ربوات رؤساء الملائكة وملائكة مقدسين.",
+            "Coptic": "|anan]o `n]o > nem \\an`qba `n`qba > `narxhaggeloc > nem aggeloc euouab.",
+            "English": "Thousands of thousands, and myriads of myriads, of archangels, and holy angels.",
+            "Arabiccoptic": "هان انشو انشو : نيم هان اثفا ان اثفا : ان ارشي انجيلوس : نيم انجيلوس اثؤواب .",
+            "Englishcoptic": "﻿Han ansho ansho, nem han ethva en ethva, en arshi angelos, nem angelos Ethowab."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "وقوف أمام كرسى ضابط الكل صارخين قائلين.",
+            "Coptic": "Eu`o\\i `eratou > `mpe`mqo `mpi`qronoc > `nte piPantokratwr > euw] `ebol eujw `mmoc.",
+            "English": "They stand before, the throne, of the Pantocrator, proclaiming and saying.",
+            "Arabiccoptic": "إفؤهي ايراتو : امبيه امثو امبي اثرونوس : انتيه بي باندوكراطور : اف أوش ايفول افجو امموس .",
+            "Englishcoptic": "Evohi erato, Empe emtho empe ethronos, Ente pi Pantokrator, Evosh evol evgo emmos."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "قدوس قدوس قدوس بالحقيقة المجد والكرامة يليقان بالثالوث.",
+            "Coptic": "Je `xouab `xouab > `xouab =en oumeqmhi > pi`wou nem pitai`o > er`prepi `n:`triac.",
+            "English": "Holy Holy, Holy in truth, the glory and the honor, befit the Trinity.",
+            "Arabiccoptic": "جيه اكؤواب اكؤواب : اكؤواب خين أوميثمي : بي أو أوو نيم بي طايو : اير إبريبي انتيه إترياس .",
+            "Englishcoptic": "Je Ekouab Ekouab, Ekouab khen o methmei, pi o-o nem pi taio, ere eprebi enti etrias."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "بشفاعات كل صفوف الملائكة يارب أنعم لنا بمغفرة خطايانا.",
+            "Coptic": "|iten ni`precbi`a > `nte `pxoroc thrf `nte niaggeloc > P_ `ari`\\mot nan > `mpixw `ebol `nte nen nobi .",
+            "English": "Through the intercessions, of the whole choir of the angels, O Lord grant us, the forgiveness of our sins.",
+            "Arabiccoptic": "هيتين ني إبرسفيا : انتيه ابخوروس تيرف انتيه ني انجيلوس : إبتشويس اري اهموت نان امبيكو ايفول انتى نين نوفي .",
+            "Englishcoptic": "Hiten ni epresvia, ente epkhoros tirf ente ni angelos, epchoice aree-ehmot nan em-pee-ko e-vol ente nennovee."
+        }
+    ]
 }

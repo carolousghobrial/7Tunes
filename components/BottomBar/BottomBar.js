@@ -10,7 +10,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Foundation } from "@expo/vector-icons";
 import SettingsModal from "./SettingsModal";
 import ContentsModal from "./ContentsModal";
-function BottomBar({ navigation, dataArray, scrollToKey }) {
+function BottomBar({ navigation, dataArray, initialKey, scrollToKey }) {
   const [settingsModalVisible, setsettingsModalVisible] = useState(false);
   const [contentsModalVisible, setcontentsModalVisible] = useState(false);
   let labelColor = getColor("LabelColor");
@@ -28,6 +28,7 @@ function BottomBar({ navigation, dataArray, scrollToKey }) {
         visible={contentsModalVisible}
         closeModal={closeContentsModal}
         dataArray={dataArray}
+        initialKey={initialKey}
         scrollToKey={scrollToKey}
       />
 

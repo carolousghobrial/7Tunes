@@ -43,7 +43,7 @@ function TitleView({ item }) {
         <Text
           style={[
             styles.english,
-            { fontSize: fontSize * 1.4, color: getColor("LabelColor") },
+            { fontSize: fontSize * 1.2, color: getColor("LabelColor") },
           ]}
         >
           {item.english}
@@ -53,7 +53,7 @@ function TitleView({ item }) {
         <Text
           style={[
             styles.coptic,
-            { fontSize: fontSize * 1.5, color: getColor("LabelColor") },
+            { fontSize: fontSize * 1.2, color: getColor("LabelColor") },
           ]}
         >
           {item.coptic}
@@ -63,7 +63,7 @@ function TitleView({ item }) {
         <Text
           style={[
             styles.arabic,
-            { fontSize: fontSize * 1.5, color: getColor("LabelColor") },
+            { fontSize: fontSize * 1.2, color: getColor("LabelColor") },
           ]}
         >
           {item.arabic}

@@ -13,6 +13,7 @@ import * as SplashScreen from "expo-splash-screen";
 import useFonts from "../../helpers/useFonts";
 import HomepageScreen from "../../screens/HomepageScreen";
 import BookScreen from "../../screens/BookScreen";
+import LoadingScreen from "../../screens/LoadingScreen";
 import Colors from "../../constants/colors";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import SettingsScreen from "../../screens/SettingsScreen";
@@ -32,11 +33,18 @@ const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 function NavigationContainerView() {
   const { height, width } = useWindowDimensions();
+  const [isLoading, setIsLoading] = useState(true);
+
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const darkMode = useSelector((state) => state.settings.darkMode);
 
   let activeColors = darkMode === false ? Colors["light"] : Colors["dark"];
-
+  useEffect(() => {
+    // Simulate app loading time
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
   function Root() {
     return (
       <Drawer.Navigator

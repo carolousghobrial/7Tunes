@@ -1,35 +1,34 @@
 {
-    "books" : [
+    "books": [
         {
-        "EnglishTitle" : "Vespers",
-        "ArabicTitle" : "عشية",    
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : 15, 
-        "ImageURL" : "censer",
-        "Enabled" : true
+            "EnglishTitle": "Vespers",
+            "ArabicTitle": "عشية",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": 15,
+            "ImageURL": "censer",
+            "Enabled": true
         },
         {
-        "EnglishTitle" : "Matins",
-        "ArabicTitle" : " باكر",    
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : 4, 
-        "ImageURL" : "censer",
-        "Enabled" : true
+            "EnglishTitle": "Matins",
+            "ArabicTitle": " باكر",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": 4,
+            "ImageURL": "censer",
+            "Enabled": true
         },
-             {
-        "EnglishTitle" : "Holy Liturgy",
-        "ArabicTitle" : "القداس الألهي",   
-       "PurchaseKeyDroid" : "holypaschaid" , 
-        "PurchaseKeyIos" : "holypaschasku", 
-        "hasSubBooks" : true,
-        "BookPath" : 3, 
-        "ImageURL" : "pascha",
-        "Enabled" : false
+        {
+            "EnglishTitle": "Holy Liturgy",
+            "ArabicTitle": "القداس الألهي",
+            "PurchaseKeyDroid": "holypaschaid",
+            "PurchaseKeyIos": "holypaschasku",
+            "hasSubBooks": true,
+            "BookPath": 3,
+            "ImageURL": "pascha",
+            "Enabled": false
         }
-
     ]
 }

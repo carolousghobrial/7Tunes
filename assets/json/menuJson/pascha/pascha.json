@@ -1,136 +1,134 @@
 {
-    "books" : [
-        {
-        "EnglishTitle" : "General Funeral",
-        "ArabicTitle" : "الجناز العام",    
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : true,
-        "BookPath" : "generalFuneral", 
-        "ImageURL" : "generalFuneral",
-        "Enabled" : true
-
-        },
-        {
-        "EnglishTitle" : "Sunday Day",
-        "ArabicTitle" : "يوم الأحد",    
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : true,
-        "BookPath" : "paschaSunday", 
-        "ImageURL" : "paschaSunday",
-        "Enabled" : true
-        },
-             {
-        "EnglishTitle" : "Monday Eve",
-        "ArabicTitle" : "ليلة الأثنين",   
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "paschamondayeve", 
-        "ImageURL" : "paschamondayeve",
-        "Enabled" : true
-        },
-        {
-        "EnglishTitle" : "Monday",
-        "ArabicTitle" : "يوم الأثنين",   
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "paschamonday", 
-        "ImageURL" : "paschamonday",
-        "Enabled" : true
-        },
-           {
-        "EnglishTitle" : "Tuesday Eve",
-        "ArabicTitle" : "ليلة الثلاثاء",   
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "paschatuesdayeve", 
-        "ImageURL" : "paschatuesdayeve",
-        "Enabled" : true
-        },
-        {
-        "EnglishTitle" : "Tuesday",
-        "ArabicTitle" : "يوم الثلاثاء",   
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "paschatuesday", 
-        "ImageURL" : "paschatuesday",
-        "Enabled" : true
-        },
-           {
-        "EnglishTitle" : "Wednesday Eve",
-        "ArabicTitle" : "ليلة الأريعاء",   
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "paschawednesdayeve", 
-        "ImageURL" : "paschawednesdayeve",
-        "Enabled" : true
-        },
-        {
-        "EnglishTitle" : "Wednesday",
-        "ArabicTitle" : "يوم الأريعاء",   
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "paschawednesday", 
-        "ImageURL" : "paschawednesday",
-        "Enabled" : true
-        },
-           {
-        "EnglishTitle" : "Covenant Thursday Eve",
-        "ArabicTitle" : "ليلة خميس العهد",   
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "paschathursdayeve", 
-        "ImageURL" : "paschathursdayeve",
-        "Enabled" : true
-        },
-        {
-        "EnglishTitle" : "Covenant Thursday",
-        "ArabicTitle" : "يوم خميس العهد",   
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "paschathursday", 
-        "ImageURL" : "paschathursday",
-        "Enabled" : true
-        },
-           {
-        "EnglishTitle" : "Good Friday Eve",
-        "ArabicTitle" : "ليلة الجمعة العظيمة",   
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "paschafridayeve", 
-        "ImageURL" : "paschafridayeve",
-        "Enabled" : true
-        },
-        {
-        "EnglishTitle" : "Good Friday",
-        "ArabicTitle" : "يوم الجمعة العظيمة",   
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "paschafriday", 
-        "ImageURL" : "paschafriday",
-        "Enabled" : true
-        },
-           {
-        "EnglishTitle" : "Bright Saturday",
-        "ArabicTitle" : "سبت النور",   
-       "PurchaseKeyDroid" : "" , 
-        "PurchaseKeyIos" : "", 
-        "hasSubBooks" : false,
-        "BookPath" : "brightsaturday", 
-        "ImageURL" : "brightsaturday",
-        "Enabled" : true
-        }
-
-    ]
+   "books": [
+      {
+         "EnglishTitle": "General Funeral",
+         "ArabicTitle": "الجناز العام",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": true,
+         "BookPath": "generalFuneral",
+         "ImageURL": "generalFuneral",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Sunday Day",
+         "ArabicTitle": "يوم الأحد",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": true,
+         "BookPath": "paschaSunday",
+         "ImageURL": "paschaSunday",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Monday Eve",
+         "ArabicTitle": "ليلة الأثنين",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "BookPath": "paschamondayeve",
+         "ImageURL": "paschamondayeve",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Monday",
+         "ArabicTitle": "يوم الأثنين",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "BookPath": "paschamonday",
+         "ImageURL": "paschamonday",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Tuesday Eve",
+         "ArabicTitle": "ليلة الثلاثاء",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "BookPath": "paschatuesdayeve",
+         "ImageURL": "paschatuesdayeve",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Tuesday",
+         "ArabicTitle": "يوم الثلاثاء",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "BookPath": "paschatuesday",
+         "ImageURL": "paschatuesday",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Wednesday Eve",
+         "ArabicTitle": "ليلة الأريعاء",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "BookPath": "paschawednesdayeve",
+         "ImageURL": "paschawednesdayeve",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Wednesday",
+         "ArabicTitle": "يوم الأريعاء",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "BookPath": "paschawednesday",
+         "ImageURL": "paschawednesday",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Covenant Thursday Eve",
+         "ArabicTitle": "ليلة خميس العهد",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "BookPath": "paschathursdayeve",
+         "ImageURL": "paschathursdayeve",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Covenant Thursday",
+         "ArabicTitle": "يوم خميس العهد",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "BookPath": "paschathursday",
+         "ImageURL": "paschathursday",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Good Friday Eve",
+         "ArabicTitle": "ليلة الجمعة العظيمة",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "BookPath": "paschafridayeve",
+         "ImageURL": "paschafridayeve",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Good Friday",
+         "ArabicTitle": "يوم الجمعة العظيمة",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "BookPath": "paschafriday",
+         "ImageURL": "paschafriday",
+         "Enabled": true
+      },
+      {
+         "EnglishTitle": "Bright Saturday",
+         "ArabicTitle": "سبت النور",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "BookPath": "brightsaturday",
+         "ImageURL": "brightsaturday",
+         "Enabled": true
+      }
+   ]
 }
