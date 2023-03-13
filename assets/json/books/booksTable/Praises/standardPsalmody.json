@@ -17,6 +17,12 @@
         },
         {
             "type": "Main",
+            "path": "DoxologiesHeavenlies",
+            "rule": 0,
+            "visible": "firstVisible"
+        },
+        {
+            "type": "Main",
             "path": "Tennav",
             "rule": 0,
             "visible": "firstVisible"

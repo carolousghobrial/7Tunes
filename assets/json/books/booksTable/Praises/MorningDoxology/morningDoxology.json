@@ -11,145 +11,55 @@
     },
     {
       "type": "Main",
-      "path": "AdamMorningDoxology",
+      "path": "PraisesMorningDoxologyAdamMorningDoxology",
       "rule": 0,
       "visible": "firstVisible"
     },
     {
       "type": "Main",
-      "path": "MorningDoxologyOurLord",
+      "path": "PraisesMorningDoxologyMorningDoxologyOurLord",
       "rule": 0,
       "visible": "firstVisible"
     },
     {
       "type": "Main",
-      "path": "MorningDoxologyMary",
+      "path": "PraisesMorningDoxologyMorningDoxologyMary",
       "rule": 0,
       "visible": "firstVisible"
     },
     {
       "type": "Main",
-      "path": "MorningDoxologyHeavenlies",
+      "path": "PraisesMorningDoxologyMorningDoxologyHeavenlies",
       "rule": 0,
       "visible": "firstVisible"
     },
     {
       "type": "Main",
-      "path": "MorningDoxologyApostles",
+      "path": "PraisesMorningDoxologyMorningDoxologyApostles",
       "rule": 0,
       "visible": "firstVisible"
     },
     {
       "type": "Main",
-      "path": "MorningDoxologyMartyrs",
+      "path": "PraisesMorningDoxologyMorningDoxologyMartyrs",
       "rule": 0,
       "visible": "firstVisible"
     },
     {
       "type": "Main",
-      "path": "MorningDoxologySainsts",
+      "path": "PraisesMorningDoxologyMorningDoxologySainsts",
       "rule": 0,
       "visible": "firstVisible"
     },
     {
       "type": "Main",
-      "path": "MorningDoxologyFathers",
+      "path": "PraisesMorningDoxologyMorningDoxologyFathers",
       "rule": 0,
       "visible": "firstVisible"
     },
     {
       "type": "Main",
-      "path": "AdamMorningDoxology",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyOurLord",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyMary",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyHeavenlies",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyApostles",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyMartyrs",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologySainsts",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyFathers",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "AdamMorningDoxology",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyOurLord",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyMary",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyHeavenlies",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyApostles",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyMartyrs",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologySainsts",
-      "rule": 0,
-      "visible": "firstVisible"
-    },
-    {
-      "type": "Main",
-      "path": "MorningDoxologyFathers",
+      "path": "TheotokiasSundayAdamConclusion",
       "rule": 0,
       "visible": "firstVisible"
     }
