@@ -1,4 +1,63 @@
 {
-  "arabic": " *REFRAIN*المجدُ لينبوعِ الحكمة*REFRAIN*الكلىُّ العظمة والتمجيد*REFRAIN*المجدُ لمن بَسَطَ النعمة*REFRAIN*وأظهر لاهوته فى التعميد()المجدُ لَكَ ياربَ الصباؤوت,\nيامتعالياً عن الأبصار,\nيامَن أشرَقتَ بالناسوت,\nوأظهَرتَ لنا سامى الأسرار,\n()ومنحتنا خيرات الملكوت,\nوَوَشّحتَ نفوسنا بالأنوار,\nوأرشَدَّتنا لسرِ اللاهوت,\nبِظِهُورِكَ الذى أنار الأبصار,\n()قد كنَّا فى الظلمةِ حائرين,\nمتقلبين فى الأثام,\nولرجسِ الأوثان خاضعين,\nلاعهدَ لنا ولانظام,\n()ولا مخافة تجعلنا خاشعين,\nولا ناموس و لا أحكام,\nوفى ظلِ الموتِ مُقيمين,\nمُتعبِدين لهَوَى الأجسام,\n()فظهر إبنُ العلىِّ الكلمة,\nوأوضح لنا السبيل الرشيد,\nورفع عنا حُجُبَ الظلمة,\nوأعاد نفوسِنَا بالتجديد,\n()*REFRAIN*المجدُ لينبوعِ الحكمة*REFRAIN*الكلىُّ العظمة والتمجيد*REFRAIN*المجدُ لمن بَسَطَ النعمة*REFRAIN*وأظهر لاهوته فى التعميد()",
-  "english": " *REFRAIN* Glory be to the Spring of wisdom*REFRAIN* Complete in His greatness and Glory*REFRAIN* Glory be to the One who spread His blessings*REFRAIN* By His Baptism, He revealed His divinity()Glory to the Lord of hosts,\nHigh beyond our eyes' reach,\nWho dawned upon us in the flesh,\nRevealing the greatest of mysteries,\n()Bestowed upon us the kingdom's blessings,\nAnd made us awash in light,\nGuided us to the mysteries of His divinity,\nBy His appearance, enlightening our sights,\n()We were lost in darkness,\nTossed about in transgressions,\nHeading the abominable idols,\nWithout canons or covenants,\n()With no fear nor reverence,\nWith no law, nor rules,\nIn the shadow of death residing,\nOnly to pursue our bodily pleasures,\n()Then the Word of God appeared,\nShowing us the right path,\nHe lifted the darkness,\nAnd renewed our souls,\n()*REFRAIN* Glory be to the Spring of wisdom*REFRAIN* Complete in His greatness and Glory*REFRAIN* Glory be to the One who spread His blessings*REFRAIN* By His Baptism, He revealed His divinity()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "مديح لعيدالغطاس",
+  "EnglishTitle": "Theophany Feast Melody ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "المجدُ لينبوعِ الحكمة\n الكلىُّ العظمة والتمجيد\nالمجدُ لمن بَسَطَ النعمة\n وأظهر لاهوته فى التعميد",
+      "English": "Glory be to the Spring of wisdom \nComplete in His greatness and Glory \n Glory be to the One who spread His blessings \n By His Baptism, He revealed His divinity"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجدُ لَكَ ياربَ الصباؤوت,\nيامتعالياً عن الأبصار,\nيامَن أشرَقتَ بالناسوت,\nوأظهَرتَ لنا سامى الأسرار,",
+      "English": "Glory to the Lord of hosts,\nHigh beyond our eyes' reach,\nWho dawned upon us in the flesh,\nRevealing the greatest of mysteries,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ومنحتنا خيرات الملكوت,\nوَوَشّحتَ نفوسنا بالأنوار,\nوأرشَدَّتنا لسرِ اللاهوت,\nبِظِهُورِكَ الذى أنار الأبصار,",
+      "English": "Bestowed upon us the kingdom's blessings,\nAnd made us awash in light,\nGuided us to the mysteries of His divinity,\nBy His appearance, enlightening our sights,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قد كنَّا فى الظلمةِ حائرين,\nمتقلبين فى الأثام,\nولرجسِ الأوثان خاضعين,\nلاعهدَ لنا ولانظام,",
+      "English": "We were lost in darkness,\nTossed about in transgressions,\nHeading the abominable idols,\nWithout canons or covenants,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولا مخافة تجعلنا خاشعين,\nولا ناموس و لا أحكام,\nوفى ظلِ الموتِ مُقيمين,\nمُتعبِدين لهَوَى الأجسام,",
+      "English": "With no fear nor reverence,\nWith no law, nor rules,\nIn the shadow of death residing,\nOnly to pursue our bodily pleasures,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فظهر إبنُ العلىِّ الكلمة,\nوأوضح لنا السبيل الرشيد,\nورفع عنا حُجُبَ الظلمة,\nوأعاد نفوسِنَا بالتجديد,",
+      "English": "Then the Word of God appeared,\nShowing us the right path,\nHe lifted the darkness,\nAnd renewed our souls,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "المجدُ لينبوعِ الحكمةالكلىُّ العظمة والتمجيدالمجدُ لمن بَسَطَ النعمةوأظهر لاهوته فى التعميد",
+      "English": "Glory be to the Spring of wisdom Complete in His greatness and Glory Glory be to the One who spread His blessings By His Baptism, He revealed His divinity"
+    }
+  ]
 }

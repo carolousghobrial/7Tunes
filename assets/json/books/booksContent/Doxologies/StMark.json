@@ -1,7 +1,74 @@
 {
-    "arabic": " يامرقس الرسول والإنجيلى الشاهد لألام الإله الوحيد.,\nأتيت وأنرت لنا بإنجيلك وعلمتنا الآب والإبن والروح القدس.,\nوأخرجتنا من الظلمة إلى النور الحقيقى وأطعمتنا خبز الحياة الذى نزل من السماء.,\nتباركت بك كل قبائل الأرض وأقوالك بلغت إلى أقطار المسكونة.,\nالسلام لك أيها الشهيد السلام للإنجيلى السلام للرسول مرقس ناظر الإله .,\nأطلب من الرب عنا يا ناظر الإله الإنجيلى مرقص الرسول ليغفر لنا خطايانا,\n",
-    "arabiccoptic": " ماركوس بى أبوسطولوس . أووه بى إف أنجيليستيس . بى ميثرى خا نى إمكافه . إنتى بى مونوجينيس إن نوتى .\nأكئ أكئير أوأوينى إيرون . هيتين بيك إف أنجيليون . أك إتسافون إم إفيوت نيم إبشيرى . نيم بى إبنفما إثؤواب.\nأكينتين إيفول خين إبكاكى . إيخون إبى أوأوينى إممى . أكتيمون إمبى أويك إنتى إبؤنخ . إيطاف إى إيبيسيت إيفول خين إتفى.\nأفتشى إسمو إن إخرى إنخيتك . إنجى نى فيلى تيرو إنتى إبكاهى . أووه نوساجى أف فوه . شا أفريجس إنتى إيكومينى.\nشيرى ناك أو بى مارتيروس . شيرى بى إف أنجيليستيس . شيرى بى أبوسطولوس . ماركوس بى ثيؤريموس.\nطوبه ام ابشويس ااهرى ايجون أو بى ثيؤريموس إن إف أنجيليستيس . ماركوس بى أبوسطولوس . إنتيف كانين نوفى نان ايفول\n",
-    "coptic": " Markoc pi`apoctoloc > ouo\\ pieuaggelicthc > pimeqre =a ni`mkau\\ > `nte pimonogenhc `nnou;.\n`Aki akerouwini `eron > \\iten pekeuaggelion > ak`tcabon `m` Viwt nem ` P]hri > nem Pip/n/a/ e/q/u/.\nAkenten `ebol =en `pxaki > `e=oun `epiouwini `mmhi > aktemmon `mpiwik `nte `pwn= > `etaf`i `epecht `ebol =en `tve.\nAusi`cmou `n`=rhi `n=htk > `nje nivulh throu `nte `pka\\i > ouo\\ nekcaji auvo\\ > ]a aurhjc `n;oikoumenh.\nXere nak `w pimarturoc > xere pieuaggelicthc > xere piapoctoloc > Markoc piqe`wrimoc.\nTwb\\ `mP_ `e`\\rei `ejw > `w piqe`wrimoc `neuaggelicthc > Markoc pi`apoctoloc > ``ntef xa nennobi nan `ebol.\n",
-    "english": " O Mark the Apostle : and the Evangelist : the witness to the passion : of the Only-Begotten God.,\nYou have come and enlightened us : through your Gospel : and taught us the Father and the Son : and the Holy Spirit.,\nYou brought us out of the darkness : into the True light : and nourished us with the Bread of life : that came down from heaven.,\nAll the tribes of the earth : were blessed by you : and your sayings have reached : the ends of the world.,\nHail to you O martyr : Hail to the Evangelist : Hail to the Apostle : Mark the Beholder of God.,\nPray to the Lord on our behalf : O Beholder of God the Evangelist : Mark the Apostle : that He may forgive us our sins.,\n",
-    "englishcoptic": " Markos pi-apostolos, owoh pi-ev angelis teees, pi methre khani em kavh, ente pi Mono genees en-noti\nAk-ee ak er o-owiny eron, hiten pek ev angelion, ak et savon em efiot nem epsheery, nem pi-ebnevma ethowab.\nAk enten evol khen epkaky, ekhon epy o-owiney em mee, aktemon empi-oik ente ep-onkh, etav e epeseet evol khen etve.\nAf etchee esmo en ekhry enkhitk, enge ni fily tiro ente ep kahy, owoh nek sagi af-voh, sha avregs enty eiko meni.\nShere nak opee marteros/ shere pee ev angelestis, shere pee Apostolos, Markos pee theo-remos\nTovh em epshois e ehry egon, pee theo-re mos en ev angelistees, Markos pi-apostolos, entef kan nen novi nan evol.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية مارمرقس",
+  "EnglishTitle": "St.Mark Doxology",
+  "CopticTitle": "Markoc pi`apoctoloc ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يامرقس الرسول والإنجيلى الشاهد لألام الإله الوحيد.",
+      "Coptic": "Markoc pi`apoctoloc > ouo\\ pieuaggelicthc > pimeqre =a ni`mkau\\ > `nte pimonogenhc `nnou;.",
+      "English": "O Mark the Apostle : and the Evangelist : the witness to the passion : of the Only-Begotten God.",
+      "Arabiccoptic": "ماركوس بى أبوسطولوس . أووه بى إف أنجيليستيس . بى ميثرى خا نى إمكافه . إنتى بى مونوجينيس إن نوتى .",
+      "Englishcoptic": "Markos pi-apostolos, owoh pi-ev angelis teees, pi methre khani em kavh, ente pi Mono genees en-noti"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أتيت وأنرت لنا بإنجيلك وعلمتنا الآب والإبن والروح القدس.",
+      "Coptic": "`Aki akerouwini `eron > \\iten pekeuaggelion > ak`tcabon `m` Viwt nem ` P]hri > nem Pip/n/a/ e/q/u/.",
+      "English": "You have come and enlightened us : through your Gospel : and taught us the Father and the Son : and the Holy Spirit.",
+      "Arabiccoptic": "أكئ أكئير أوأوينى إيرون . هيتين بيك إف أنجيليون . أك إتسافون إم إفيوت نيم إبشيرى . نيم بى إبنفما إثؤواب.",
+      "Englishcoptic": "Ak-ee ak er o-owiny eron, hiten pek ev angelion, ak et savon em efiot nem epsheery, nem pi-ebnevma ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأخرجتنا من الظلمة إلى النور الحقيقى وأطعمتنا خبز الحياة الذى نزل من السماء.",
+      "Coptic": "Akenten `ebol =en `pxaki > `e=oun `epiouwini `mmhi > aktemmon `mpiwik `nte `pwn= > `etaf`i `epecht `ebol =en `tve.",
+      "English": "You brought us out of the darkness : into the True light : and nourished us with the Bread of life : that came down from heaven.",
+      "Arabiccoptic": "أكينتين إيفول خين إبكاكى . إيخون إبى أوأوينى إممى . أكتيمون إمبى أويك إنتى إبؤنخ . إيطاف إى إيبيسيت إيفول خين إتفى.",
+      "Englishcoptic": "Ak enten evol khen epkaky, ekhon epy o-owiney em mee, aktemon empi-oik ente ep-onkh, etav e epeseet evol khen etve."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "تباركت بك كل قبائل الأرض وأقوالك بلغت إلى أقطار المسكونة.",
+      "Coptic": "Ausi`cmou `n`=rhi `n=htk > `nje nivulh throu `nte `pka\\i > ouo\\ nekcaji auvo\\ > ]a aurhjc `n;oikoumenh.",
+      "English": "All the tribes of the earth : were blessed by you : and your sayings have reached : the ends of the world.",
+      "Arabiccoptic": "أفتشى إسمو إن إخرى إنخيتك . إنجى نى فيلى تيرو إنتى إبكاهى . أووه نوساجى أف فوه . شا أفريجس إنتى إيكومينى.",
+      "Englishcoptic": "Af etchee esmo en ekhry enkhitk, enge ni fily tiro ente ep kahy, owoh nek sagi af-voh, sha avregs enty eiko meni."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لك أيها الشهيد السلام للإنجيلى السلام للرسول مرقس ناظر الإله .",
+      "Coptic": "Xere nak `w pimarturoc > xere pieuaggelicthc > xere piapoctoloc > Markoc piqe`wrimoc.",
+      "English": "Hail to you O martyr : Hail to the Evangelist : Hail to the Apostle : Mark the Beholder of God.",
+      "Arabiccoptic": "شيرى ناك أو بى مارتيروس . شيرى بى إف أنجيليستيس . شيرى بى أبوسطولوس . ماركوس بى ثيؤريموس.",
+      "Englishcoptic": "Shere nak opee marteros/ shere pee ev angelestis, shere pee Apostolos, Markos pee theo-remos"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أطلب من الرب عنا يا ناظر الإله الإنجيلى مرقص الرسول ليغفر لنا خطايانا",
+      "Coptic": "Twb\\ `mP_ `e`\\rei `ejw > `w piqe`wrimoc `neuaggelicthc > Markoc pi`apoctoloc > ``ntef xa nennobi nan `ebol.",
+      "English": "Pray to the Lord on our behalf : O Beholder of God the Evangelist : Mark the Apostle : that He may forgive us our sins.",
+      "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون أو بى ثيؤريموس إن إف أنجيليستيس . ماركوس بى أبوسطولوس . إنتيف كانين نوفى نان ايفول",
+      "Englishcoptic": "Tovh em epshois e ehry egon, pee theo-re mos en ev angelistees, Markos pi-apostolos, entef kan nen novi nan evol."
+    }
+  ]
 }

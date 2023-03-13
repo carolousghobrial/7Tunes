@@ -1,4 +1,63 @@
 {
-  "arabic": " *REFRAIN*المجد لك يارب الصباؤوت*REFRAIN*الساكن فى النور الأعظم*REFRAIN*يامن آتانا بالناسوت*REFRAIN*وولد من العذراء مريم()الله الحى المتعالى,\nأراد بجودة أن يحيينا,\nوينهض نوعنا البالى,\nوالى الملكوت يرقينا,\n()أرسل ملاكة المتلالى,\nحاملا البشارة لوادينا,\nالى مريم بالنطق العالى,\nافرحى يا مختارة من بارينا,\n()وهبت نعمه مع تكريم,\nوفضلت على الأبرار,\nاذ اختارك الة ابراهيم,\nوظللك بقوة و وقار,\n()ليتجسد منك بسر عظيم,\nويولد الابن ذو الاقتدار,\nويمنح عبيدة كل نعيم,\nويشرق عليهم بالأنوار,\n()ومنذ اقتبلت التبشير,\nو أذعنت للسر الأعظم,\nحل الكلمة كالتدبير,\nوأخذ جسدا منك يا مريم,\n()*REFRAIN*المجد لك يارب الصباؤوت*REFRAIN*الساكن فى النور الأعظم*REFRAIN*يامن آتانا بالناسوت*REFRAIN*وولد من العذراء مريم()",
-  "english": "*REFRAIN* Glory to You, O Lord of Hosts*REFRAIN* Who abides in the great light*REFRAIN* Who came to us clothed in humanity*REFRAIN* And was born of Virgin Mary()The great living God,\nBy His goodness wished to grant us life,\nTo raise up our dire straits,\nAnd elevate us to the kingdom,\n()He sent His shining angel,\nCarrying the message of love,\nTo Mary, he uttered saying,,\n\"Rejoice, O highly favored one\",\n()You have found grace,\nAnd were exalted above the righteous,\nThe God of Abraham has chosen you,\nOvershadowing you with power and grace,\n()To incarnate of you mysteriously,\nThe Almighty Son will be born,\nTo grant His servants all grace,\nAnd shine upon them with His light,\n()When you received the message,\nAnd submitted to the great mystery,\nThe Word came according to the plan,\nAnd took flesh from you, O Mary,\n()*REFRAIN* Glory to You, O Lord of Hosts*REFRAIN* Who abides in the great light*REFRAIN* Who came to us clothed in humanity*REFRAIN* And was born of Virgin Mary()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "مديح لعيدالميلاد",
+  "EnglishTitle": "Nativity Feast Melody ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "المجد لك يارب الصباؤوت \n الساكن فى النور الأعظم\n يامن آتانا بالناسوت\n وولد من العذراء مريم",
+      "English": "Glory to You, O Lord of Hosts\n Who abides in the great light \n Who came to us clothed in humanity \n And was born of Virgin Mary"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الله الحى المتعالى,\nأراد بجودة أن يحيينا,\nوينهض نوعنا البالى,\nوالى الملكوت يرقينا,",
+      "English": "The great living God,\nBy His goodness wished to grant us life,\nTo raise up our dire straits,\nAnd elevate us to the kingdom,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أرسل ملاكة المتلالى,\nحاملا البشارة لوادينا,\nالى مريم بالنطق العالى,\nافرحى يا مختارة من بارينا,",
+      "English": "He sent His shining angel,\nCarrying the message of love,\nTo Mary, he uttered saying,,\n\"Rejoice, O highly favored one\","
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وهبت نعمه مع تكريم,\nوفضلت على الأبرار,\nاذ اختارك الة ابراهيم,\nوظللك بقوة و وقار,",
+      "English": "You have found grace,\nAnd were exalted above the righteous,\nThe God of Abraham has chosen you,\nOvershadowing you with power and grace,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ليتجسد منك بسر عظيم,\nويولد الابن ذو الاقتدار,\nويمنح عبيدة كل نعيم,\nويشرق عليهم بالأنوار,",
+      "English": "To incarnate of you mysteriously,\nThe Almighty Son will be born,\nTo grant His servants all grace,\nAnd shine upon them with His light,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ومنذ اقتبلت التبشير,\nو أذعنت للسر الأعظم,\nحل الكلمة كالتدبير,\nوأخذ جسدا منك يا مريم,",
+      "English": "When you received the message,\nAnd submitted to the great mystery,\nThe Word came according to the plan,\nAnd took flesh from you, O Mary,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "المجد لك يارب الصباؤوتالساكن فى النور الأعظميامن آتانا بالناسوتوولد من العذراء مريم",
+      "English": "Glory to You, O Lord of Hosts Who abides in the great light Who came to us clothed in humanity And was born of Virgin Mary"
+    }
+  ]
 }

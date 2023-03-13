@@ -1,7 +1,52 @@
 {
-    "arabic": " لم يقم فى مواليد النساء من يشبهك. أنت عظيم فى جميع القديسين يا يوحنا المعمدان.,\nأنت أفضل من نبى. تعاليت فى البر. أنت هو صديق الختن حمل الله.,\nشهدت للنور الحقيقى الذى أتى الى العالم. والذين يؤمنون باسمه صاروا أبناء النور.,\nاشفع فينا أمام الرب أيها السابق الصابغ يوحنا المعمدان ليغفر خطايانا.,\n",
-    "arabiccoptic": " إمبيه أووأون طونف خين ني جين ميسي : إنتيه ني هيومي إف أوني إمموك : إنثوك أوو ني شتي خين ني إثؤواب تيروو : يوأنيس بي ريف تي أومس  .\nإنثوك أوو هوؤو إمبروفيتيس : أكتشيسي خين تي ميثمي : إنثوك بيه إب إشفير إمبي بات شيليت بي هييب إنتيه إفنوتي  .\nأك إر ميثريه خا بي أووأويني : إنطا إفمي إطاف إي إ بي كوزموس : ني إثناهتي إ بيف ران : أف شوبي إنشيري إنتيه بي أووأويني  .\nأري بريسفيفين إ إهري إجون : أو بي بروذروموس إمفا بتيس تيس يوأنيس بي ريف تي أومس : إتيف كا نين نوفي نان إفول  .\n",
-    "coptic": " Mpe ouon twnf =en nijinmici> `nte ni\\iomi efoni `mmok> `nqok ouni]; =en nheq?u? throu> Iwannhc piref;wmc.\n`Nqok ou\\ou`o `m`provhthc> aksici =en ;meqmhi> `nqok pe `p`]vhr `mpipat]elet> pi\\ihb `nte V;.\nAkermeqre =a piouwini> `nta`vmhi etaf`i `epikocmoc> nh`eqna\\; `epefran> au]wpi `n]hri `nte piouwini.\nAri`precbeuin `e`\\rhi ejwn> `w pi`prodromoc `mbapticthc> Iwannhc piref;wmc> `ntefxa nennobi nan ebol.\n",
-    "english": " Among those born of women, no one is like you, you are great among all the saints, O John the Baptist.,\nYou are much more than a prophet, exalted in righteousness, you are the partner of the Bridegroom, the Lamb of God.,\nYou have borne witness to the True Light, who came into the world, those who believed in His name, became children of the Light.,\nIntercede on our behalf, O forerunner and baptizer, John the Baptist, that He may forgive us our sins.,\n",
-    "englishcoptic": " Empe ontonf khen ni-jen-misi : ente ni-hiomi ef-oni emmok : enthok onishty khen ni-ethowab tiro : Youannes pirefti-oms\nI-naf epi epnevma ethowab, etav e epicit evol khen etve, ai sotem e-et esmy ente Efiot, es-osh evol esgo emos\nJe fai pe pashiry pa menrit, eta ta epsee shee tee maty enkhitf, af er pa-o-osh sotem ensof, je ensof pe pi ref tankho\nAri ep-resvevin e ehri egon, o pi eprodro mos em vabtis tees, Yoannes pi reftee oms, entef ka nen novi nan evol.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية يوحنا المعمدان",
+  "EnglishTitle": "St.John the Baptist Doxology ",
+  "CopticTitle": "Mpe ouon twnf =en nijinmici",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لم يقم فى مواليد النساء من يشبهك. أنت عظيم فى جميع القديسين يا يوحنا المعمدان.",
+      "Coptic": "Mpe ouon twnf =en nijinmici> `nte ni\\iomi efoni `mmok> `nqok ouni]; =en nheq?u? throu> Iwannhc piref;wmc.",
+      "English": "Among those born of women, no one is like you, you are great among all the saints, O John the Baptist.",
+      "Arabiccoptic": "إمبيه أووأون طونف خين ني جين ميسي : إنتيه ني هيومي إف أوني إمموك : إنثوك أوو ني شتي خين ني إثؤواب تيروو : يوأنيس بي ريف تي أومس  .",
+      "Englishcoptic": "Empe ontonf khen ni-jen-misi : ente ni-hiomi ef-oni emmok : enthok onishty khen ni-ethowab tiro : Youannes pirefti-oms"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أنت أفضل من نبى. تعاليت فى البر. أنت هو صديق الختن حمل الله.",
+      "Coptic": "`Nqok ou\\ou`o `m`provhthc> aksici =en ;meqmhi> `nqok pe `p`]vhr `mpipat]elet> pi\\ihb `nte V;.",
+      "English": "You are much more than a prophet, exalted in righteousness, you are the partner of the Bridegroom, the Lamb of God.",
+      "Arabiccoptic": "إنثوك أوو هوؤو إمبروفيتيس : أكتشيسي خين تي ميثمي : إنثوك بيه إب إشفير إمبي بات شيليت بي هييب إنتيه إفنوتي  .",
+      "Englishcoptic": "I-naf epi epnevma ethowab, etav e epicit evol khen etve, ai sotem e-et esmy ente Efiot, es-osh evol esgo emos"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "شهدت للنور الحقيقى الذى أتى الى العالم. والذين يؤمنون باسمه صاروا أبناء النور.",
+      "Coptic": "Akermeqre =a piouwini> `nta`vmhi etaf`i `epikocmoc> nh`eqna\\; `epefran> au]wpi `n]hri `nte piouwini.",
+      "English": "You have borne witness to the True Light, who came into the world, those who believed in His name, became children of the Light.",
+      "Arabiccoptic": "أك إر ميثريه خا بي أووأويني : إنطا إفمي إطاف إي إ بي كوزموس : ني إثناهتي إ بيف ران : أف شوبي إنشيري إنتيه بي أووأويني  .",
+      "Englishcoptic": "Je fai pe pashiry pa menrit, eta ta epsee shee tee maty enkhitf, af er pa-o-osh sotem ensof, je ensof pe pi ref tankho"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "اشفع فينا أمام الرب أيها السابق الصابغ يوحنا المعمدان ليغفر خطايانا.",
+      "Coptic": "Ari`precbeuin `e`\\rhi ejwn> `w pi`prodromoc `mbapticthc> Iwannhc piref;wmc> `ntefxa nennobi nan ebol.",
+      "English": "Intercede on our behalf, O forerunner and baptizer, John the Baptist, that He may forgive us our sins.",
+      "Arabiccoptic": "أري بريسفيفين إ إهري إجون : أو بي بروذروموس إمفا بتيس تيس يوأنيس بي ريف تي أومس : إتيف كا نين نوفي نان إفول  .",
+      "Englishcoptic": "Ari ep-resvevin e ehri egon, o pi eprodro mos em vabtis tees, Yoannes pi reftee oms, entef ka nen novi nan evol."
+    }
+  ]
 }

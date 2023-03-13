@@ -1,7 +1,39 @@
 {
-  "arabic": " المرضى إشفيهم. الذين رقدوا يارب نيحهم. وإخوتنا الذين في كل شدة .يارب أعنا وإياهم .,\nليباركنا الله . ولنبارك إسمه القدوس . فى كل حين تسبحته . دائمة فى أفواهنا .,\nمبارك الآب والإبن . والروح القدس . الثالوث الكامل . نسجد له ونمجده,\n",
-  "arabiccoptic": " نى إتشونى ماطالتشو أو . نى إيطاف إنكوت إبشويس ماإمطون نوأو . نين إثنيو إتكى خين هوجهيج نيفين . باشويس أريفويثين إيرون نيموأو .\nإف إ إسمو إيرون إنجى إفنوتى . تين نا إسمو إبيفران إثؤواب . إنسيو نيفين إيرى بيف إسمو . ناشوبى إفمين إيفول خين رون .\nجى إفزمارؤوت إنجى إفيوت نيم إبشيرى . نيم بى إبنفما إثؤواب . تى إترياس إتجيك إيفول . تين أوأوشت إمموس تين تى أوأوناس .\n",
-  "coptic": " Nhet]wni matal swou > nh`etauenkot P_ ma`mton nwou > nen`cnhou etxh =en \\oj\\ej niben > Pa_ aribo`hqin `eron nemwou\nEf`e`cmou `eron `nje V; > tenna`cmou epefran e/q/u/ > `nchou niben `ere pef`cmou > na]wpi efmhn `ebol =en rwn .\nJe `f`cmarwout `nje `Viwt nem ` P]hri > nem Pip/n/a/ e/q/u/ > ;`triac etjhk `ebol > tenouw]t `mmoc ten; `wounac .\n",
-  "english": " The sick heal them : those who have slept O Lord repose them : and all of our brothers in distress : help us my Lord and all of them.,\nMay God bless us : and let us bless His holy name and may His praise : be always on our lips.,\nFor blessed is the Father and the Son : and the Holy Spirit : the perfect trinity : we worship and glorify Him.,\n",
-  "englishcoptic": " Ni etshony matatsho-o, ni etav enkot epshois ma emton no-o, nen esneo etki khen hogheg niven, epshois ari vo-i-thin eron ni-mo-oo.\nEf e esmo eron enje evnouty, tenna esmo epef ran ethowab, ensio niven ari pef esmo, nashwpi efmeen evol khen ron.\nJe ef ezmaro-owt enje efiwt nem epsheeri, nem pi epnevma ethowab, ti etrias etjeek evol, ten o osht em mos tenty o-o nas.\n"
+  "RefrainAfter": 0,
+  "CopticTitle": "Nhet]wni matal swou ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المرضى إشفيهم. الذين رقدوا يارب نيحهم. وإخوتنا الذين في كل شدة .يارب أعنا وإياهم .",
+      "Coptic": "Nhet]wni matal swou > nh`etauenkot P_ ma`mton nwou > nen`cnhou etxh =en \\oj\\ej niben > Pa_ aribo`hqin `eron nemwou",
+      "English": "The sick heal them : those who have slept O Lord repose them : and all of our brothers in distress : help us my Lord and all of them.",
+      "Arabiccoptic": "نى إتشونى ماطالتشو أو . نى إيطاف إنكوت إبشويس ماإمطون نوأو . نين إثنيو إتكى خين هوجهيج نيفين . باشويس أريفويثين إيرون نيموأو .",
+      "Englishcoptic": "Ni etshony matatsho-o, ni etav enkot epshois ma emton no-o, nen esneo etki khen hogheg niven, epshois ari vo-i-thin eron ni-mo-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ليباركنا الله . ولنبارك إسمه القدوس . فى كل حين تسبحته . دائمة فى أفواهنا .",
+      "Coptic": "Ef`e`cmou `eron `nje V; > tenna`cmou epefran e/q/u/ > `nchou niben `ere pef`cmou > na]wpi efmhn `ebol =en rwn .",
+      "English": "May God bless us : and let us bless His holy name and may His praise : be always on our lips.",
+      "Arabiccoptic": "إف إ إسمو إيرون إنجى إفنوتى . تين نا إسمو إبيفران إثؤواب . إنسيو نيفين إيرى بيف إسمو . ناشوبى إفمين إيفول خين رون .",
+      "Englishcoptic": "Ef e esmo eron enje evnouty, tenna esmo epef ran ethowab, ensio niven ari pef esmo, nashwpi efmeen evol khen ron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مبارك الآب والإبن . والروح القدس . الثالوث الكامل . نسجد له ونمجده",
+      "Coptic": "Je `f`cmarwout `nje `Viwt nem ` P]hri > nem Pip/n/a/ e/q/u/ > ;`triac etjhk `ebol > tenouw]t `mmoc ten; `wounac .",
+      "English": "For blessed is the Father and the Son : and the Holy Spirit : the perfect trinity : we worship and glorify Him.",
+      "Arabiccoptic": "جى إفزمارؤوت إنجى إفيوت نيم إبشيرى . نيم بى إبنفما إثؤواب . تى إترياس إتجيك إيفول . تين أوأوشت إمموس تين تى أوأوناس .",
+      "Englishcoptic": "Je ef ezmaro-owt enje efiwt nem epsheeri, nem pi epnevma ethowab, ti etrias etjeek evol, ten o osht em mos tenty o-o nas."
+    }
+  ]
 }

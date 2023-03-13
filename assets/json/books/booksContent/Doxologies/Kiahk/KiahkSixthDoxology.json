@@ -1,7 +1,74 @@
 {
-"arabic": " + أنت عظيم حقاً أيها المبشر الحسن فى الطقوس الملائكية والطغمات السمائية .,\nيا غبريال المبشر العظيم فى الملائكة والطغمات المقدسة العلوية حاملى السيف الملتهب ناراً .,\n+ قد نظر كرامتك. دانيال النبى. وأعلمته سر. الثالوث المحيى .,\nوزكريا الكاهن. أنت بشرته. بميلاد السابق. يوحنا المعمدان .,\n+ وبشرت أيضاً العذراء. قائلاً السلام لك ياممتلئة نعمة. الرب معك ستلدين. مخلص العالم كله.,\nإشفع فينا يارئيس الملائكة الطاهر غبريال المبشر ليغفر لنا خطايانا.,\n",
-"arabiccoptic": " + إنثوك أونيشتى أليثوس. أوبى فاى شين نوفى إنكالوس. خين نى تاكسيس إن أنجيليكون. نيم نى طغما إن إيبورانيون.\nغابرييل بى فاى شين نوفى . بينيشتى خين نى أنجيلوس. نيم نى طغما إثؤواب إتتشوسى. إيتفاى خا إتسيفى إنشاه إن إكروم.\n+ أفناف غار إبيك طايو. إنجى دانييل بى إبروفيتيس. أووه أكتاموف إبى ميستيريون. إن تى إترياس إنريف تانخو.\nأووه زاخارياس بى أويب. إنثوك أكهيشين نوفى ناف . خين إبجين ميسى إمبى إبرودروموس. يوأنس بى ريفتى أومس.\n+ أكهيشين نوفى أون إنتى بارثينوس. جى شيرى ثى إثميه إنهموت. إبشويس نيمى تيراميسى إم إبسوتير إمبى كوزموس تيرف.\nأريبريزفيفين ااهرى ايجون. أوبى أرشى أنجيلوس إثؤواب. غابرييل بى فاى شين نوفى. إنتيف كانين نوفى نان ايفول.\n",
-"coptic": " `Nqok ouni]; `alhqoc > `wpifai]ennoufi `nkaloc > =en nita[ic `naggelikon > nem nitagma `n`epouranion .\nGabrihl pifai]ennoufi > pini]; =en niaggeloc > nem nitagma eq?u? etsoci > etfai =a `tchfi `n]a\\ `n`xrwm .\nAfnau gar `epektai`o > `nje Danihl pi`provhthc > ouo\\ aktamof `epimucthrion > `n:`triac `nreftan=o .\nOuo\\ Zaxariac piouhb > `nqok ak\\i]ennoufi naf > =en `pjinmici `mpi`prodromoc > Iwannhc piref;`wmc .\nAk\\i]ennoufi on `n;parqenoc > je xere qheqme\\ `n`\\mot > P_ neme teramici > `m`Pcwthr `mpikocmoc thrf .\nAri`precbeuin `e`\\rhi `ejwn > `w piarxh aggeloc eq?u? > Gabrihl pifai]ennoufi > ` ntefxa nen nobi nan `ebol .\n",
-"english": " You are truly great, O good announcer, among the angelic ranks, and the heavenly orders.,\nGabriel the announcer, the great among the angels, and the exalted holy orders, who carry fiery flaming swords.,\nFor Daniel the prophet, beheld your honor, and you revealed to him the mystery, of the life-giving Trinity.,\nTo Zacharias the priest, you have announced, the birth of the forerunner, John the Baptist.,\nLikewise you announced to the Virgin, saying \"Hail to you O full of grace, the Lord is with you, you shall bring forth the Savior of the whole world.\",\nIntercede on our behalf, O holy archangel, Gabriel the announcer, that He may forgive us our sins.,\n",
-"englishcoptic": " Enthok o nishty alithos, opi fai shennoufi enkalos, khen ni taxis en angelikon, nem ni taghma en eporanion.\nGhabriel pi fai shennoufi, pi nishty khen ni angelos, nem ni taghma Ethowab etechosi, etfai kha etsifi en shah en ekrom.\nAfnav ghar epek taio, enje Daniel pi eprofitees, owoh aktamof epi mysterion, en titrias enref tankho.\nowoh Zakharias pi ou-oib, enthok akhi shennoufi naf, khen epjin misy empi eprodromos, Youannes pi refty oms.\nAkhi shennoufi on enti Parthenos, je shere thi ethmeh en ehmot, Epshois neme tiramisi, em epsoteer empi kosmos tirf.\nAri epresvevin e ehri egon, opi arshi angelos Ethowab, Ghabriel pifay shennoufi, entef kanen novi nan evol.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية سادسة لشهر كيهك",
+  "EnglishTitle": "Sixth Kiahk Doxology",
+  "CopticTitle": "`Nqok ouni]; `alhqoc ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b أنت عظيم حقاً أيها المبشر الحسن فى الطقوس الملائكية والطغمات السمائية .",
+      "Coptic": "`Nqok ouni]; `alhqoc > `wpifai]ennoufi `nkaloc > =en nita[ic `naggelikon > nem nitagma `n`epouranion .",
+      "English": "You are truly great, O good announcer, among the angelic ranks, and the heavenly orders.",
+      "Arabiccoptic": "\b إنثوك أونيشتى أليثوس. أوبى فاى شين نوفى إنكالوس. خين نى تاكسيس إن أنجيليكون. نيم نى طغما إن إيبورانيون.",
+      "Englishcoptic": "Enthok o nishty alithos, opi fai shennoufi enkalos, khen ni taxis en angelikon, nem ni taghma en eporanion."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يا غبريال المبشر العظيم فى الملائكة والطغمات المقدسة العلوية حاملى السيف الملتهب ناراً .",
+      "Coptic": "Gabrihl pifai]ennoufi > pini]; =en niaggeloc > nem nitagma eq?u? etsoci > etfai =a `tchfi `n]a\\ `n`xrwm .",
+      "English": "Gabriel the announcer, the great among the angels, and the exalted holy orders, who carry fiery flaming swords.",
+      "Arabiccoptic": "غابرييل بى فاى شين نوفى . بينيشتى خين نى أنجيلوس. نيم نى طغما إثؤواب إتتشوسى. إيتفاى خا إتسيفى إنشاه إن إكروم.",
+      "Englishcoptic": "Ghabriel pi fai shennoufi, pi nishty khen ni angelos, nem ni taghma Ethowab etechosi, etfai kha etsifi en shah en ekrom."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b قد نظر كرامتك. دانيال النبى. وأعلمته سر. الثالوث المحيى .",
+      "Coptic": "Afnau gar `epektai`o > `nje Danihl pi`provhthc > ouo\\ aktamof `epimucthrion > `n:`triac `nreftan=o .",
+      "English": "For Daniel the prophet, beheld your honor, and you revealed to him the mystery, of the life-giving Trinity.",
+      "Arabiccoptic": "\b أفناف غار إبيك طايو. إنجى دانييل بى إبروفيتيس. أووه أكتاموف إبى ميستيريون. إن تى إترياس إنريف تانخو.",
+      "Englishcoptic": "Afnav ghar epek taio, enje Daniel pi eprofitees, owoh aktamof epi mysterion, en titrias enref tankho."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وزكريا الكاهن. أنت بشرته. بميلاد السابق. يوحنا المعمدان .",
+      "Coptic": "Ouo\\ Zaxariac piouhb > `nqok ak\\i]ennoufi naf > =en `pjinmici `mpi`prodromoc > Iwannhc piref;`wmc .",
+      "English": "To Zacharias the priest, you have announced, the birth of the forerunner, John the Baptist.",
+      "Arabiccoptic": "أووه زاخارياس بى أويب. إنثوك أكهيشين نوفى ناف . خين إبجين ميسى إمبى إبرودروموس. يوأنس بى ريفتى أومس.",
+      "Englishcoptic": "owoh Zakharias pi ou-oib, enthok akhi shennoufi naf, khen epjin misy empi eprodromos, Youannes pi refty oms."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b وبشرت أيضاً العذراء. قائلاً السلام لك ياممتلئة نعمة. الرب معك ستلدين. مخلص العالم كله.",
+      "Coptic": "Ak\\i]ennoufi on `n;parqenoc > je xere qheqme\\ `n`\\mot > P_ neme teramici > `m`Pcwthr `mpikocmoc thrf .",
+      "English": "Likewise you announced to the Virgin, saying \"Hail to you O full of grace, the Lord is with you, you shall bring forth the Savior of the whole world.\"",
+      "Arabiccoptic": "\b أكهيشين نوفى أون إنتى بارثينوس. جى شيرى ثى إثميه إنهموت. إبشويس نيمى تيراميسى إم إبسوتير إمبى كوزموس تيرف.",
+      "Englishcoptic": "Akhi shennoufi on enti Parthenos, je shere thi ethmeh en ehmot, Epshois neme tiramisi, em epsoteer empi kosmos tirf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "إشفع فينا يارئيس الملائكة الطاهر غبريال المبشر ليغفر لنا خطايانا.",
+      "Coptic": "Ari`precbeuin `e`\\rhi `ejwn > `w piarxh aggeloc eq?u? > Gabrihl pifai]ennoufi > ` ntefxa nen nobi nan `ebol .",
+      "English": "Intercede on our behalf, O holy archangel, Gabriel the announcer, that He may forgive us our sins.",
+      "Arabiccoptic": "أريبريزفيفين ااهرى ايجون. أوبى أرشى أنجيلوس إثؤواب. غابرييل بى فاى شين نوفى. إنتيف كانين نوفى نان ايفول.",
+      "Englishcoptic": "Ari epresvevin e ehri egon, opi arshi angelos Ethowab, Ghabriel pifay shennoufi, entef kanen novi nan evol."
+    }
+  ]
 }

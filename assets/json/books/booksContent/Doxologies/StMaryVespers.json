@@ -1,7 +1,74 @@
 {
-  "arabic": " + زينة مريم فى السموات العلوية عن يمين حبيبها تطلب منه عنا.,\n+ كما قال داود فى المزمور قامت الملكة عن يمينك أيها الملك.,\n+ سليمان دعاها فى نشيد الأنشاد وقال أختى صديقتى مدينتى الحقيقية أورشليم.,\n+ لأنه أعطى علامة عنها بأسماء كثيرة عالية قائلاً أخرجى من بستانك أيتها العنبر المختار.,\n+ السلام لك أيتها العذراء الملكة الحقيقية الحقانية, السلام لفخر جنسنا ولدت لنا عمانوئيل,\n+ نسألك ان تذكرينا ايتها الشفيعة المؤتمنة امام ربنا يسوع المسيح ليغفر لنا خطايانا.,\n",
-  "arabiccoptic": " + إيرى إبسولسيل إم ماريام . خين نيفيؤوى إتسا إبشوى . سا أوى نام إم بيسمينريت . إسطوبه إمموف إإهرى إيجون.\n+ كاطا إفريتى إيطاف جوس . إنجى دافيد خين بى إبسالموس . جى أسؤهى إيراتس إنجى تى أورو . سا أوى نام إمموك إبؤرو.\n+ سولومون موتى إيروس. خين بى جو إنتى نى جو . جى تاسونى أووه تا إشفيرى . تابوليس إممى يروساليم.\n+ أفتى مينى غار إيروس . خين هان ميش إنران إفتشوسى . جى أمى إيفول خين بيك إيبوس . أو ثى إتسوتب إن أروماطا.\n+ شيرى نى اوتى بارثينوس تى اورو اممى ان أليثينى, شيرى ابشوشو انتى بين جينوس, ارى اجفو نان ان اممانوئيل\n+ تين تيهو ارى بين ميفئ, اوتى ابروس تاتيس اتين هوت ناهرين بين شويس ايسوس بخريستوس, انتيف كانين نوفى نان ايفول\n",
-  "coptic": " Ere `pcolcel `mMariam > =en nivhou`i etca`p]wi > caou`inam `mpecmenrit > ectwb\\ `mmof `e`\\rhi `ejwn.\nKata `vrh; `eta-fjoc > `nje Dauid =en pi`yalmoc > je ac`o\\i `eratc `nje ;ourw > caou`inam `mmok `pouro.\nColomwn mou; `eroc > =en pijw `nte nijw > je tacwni ouo\\ ta`]veri > tapolic `mmhi Il/h/m/.\nAf;mhini gar `eroc > =en \\anmh] `nran eu`soci > je `amh `ebol =en pek`hpoc > `w qhetcwtp `n`arwmata.\nXere ne w;parqenoc> ;ourw `mmei `n`alhqinh> xere `p]ou]ou `nte pengenoc > `ari`jvo nan `nEmmanouel.\n:en;\\o `aripen-meu`i> `w;`proctathc eten\\ot> na\\ren Pen_ Ih/c// Px/c/> `ntefxa nennobi nan `ebol.\n",
-  "english": " The Adornment of Mary : in the highest heaven : at the right hand of her beloved : entreating Him on our behalf.,\nAs David has said : in the Book of Psalms, : \"The Queen stood at : Your right hand,\" O King.,\nSolomon has called her : in the Song of Songs, : \"My sister and my spouse : my true city Jerusalem.\",\nFor he has given a symbol of her : in many high names, saying : \"Come out of your garden, : O choicest aroma.\",\nHail to you, O Virgin, : the right and true Queen. : Hail to the pride of our race : who bore to us Immanuel.,\nWe ask you to remember us, :O our faithful advocate, : before our Lord Jesus Christ : that He may forgive us our sins.,\n",
-  "englishcoptic": " Erepsolsel em-mariam, khen ni feowey etsa epshoy, sa owy nam empes-menrit, estovh emmof e ehry egon.\nKata verity etav gos, enje David khen pi epsalmos, je as ohi erats enje ti oro, ca owi nam emmok ep oro.\nSolomon motee eros/ khen pigo ente ni-go/ je tasonee owoh ta-eshviree/ tapolis em mee Yerosalim\nAftee meeny gar eros/ khen hanmeesh enran evetshosi/ je amee evol khen pek e bos/ o si etsotb en-aromata\nShere ne otee Parthenos/ tee oro em mee en alee thee nee/ shere ep shosho ente pengenos/ ari egvo nan en emano-eel\nTentee hoo aree penmevi/ otee ebros tatees etenhot/ nahren pen shois Isos pekhristos/ entev kanen novi nan evol.\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "للعذراء مريم - عشية",
+  "EnglishTitle": "St. Mary Doxology (Vespers)",
+  "CopticTitle": "Ere `pcolcel `mMariam ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b زينة مريم فى السموات العلوية عن يمين حبيبها تطلب منه عنا.",
+      "Coptic": "Ere `pcolcel `mMariam > =en nivhou`i etca`p]wi > caou`inam `mpecmenrit > ectwb\\ `mmof `e`\\rhi `ejwn.",
+      "English": "The Adornment of Mary : in the highest heaven : at the right hand of her beloved : entreating Him on our behalf.",
+      "Arabiccoptic": "\b إيرى إبسولسيل إم ماريام . خين نيفيؤوى إتسا إبشوى . سا أوى نام إم بيسمينريت . إسطوبه إمموف إإهرى إيجون.",
+      "Englishcoptic": "Erepsolsel em-mariam, khen ni feowey etsa epshoy, sa owy nam empes-menrit, estovh emmof e ehry egon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b كما قال داود فى المزمور قامت الملكة عن يمينك أيها الملك.",
+      "Coptic": "Kata `vrh; `eta\bfjoc > `nje Dauid =en pi`yalmoc > je ac`o\\i `eratc `nje ;ourw > caou`inam `mmok `pouro.",
+      "English": "As David has said : in the Book of Psalms, : \"The Queen stood at : Your right hand,\" O King.",
+      "Arabiccoptic": "\b كاطا إفريتى إيطاف جوس . إنجى دافيد خين بى إبسالموس . جى أسؤهى إيراتس إنجى تى أورو . سا أوى نام إمموك إبؤرو.",
+      "Englishcoptic": "Kata verity etav gos, enje David khen pi epsalmos, je as ohi erats enje ti oro, ca owi nam emmok ep oro."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b سليمان دعاها فى نشيد الأنشاد وقال أختى صديقتى مدينتى الحقيقية أورشليم.",
+      "Coptic": "Colomwn mou; `eroc > =en pijw `nte nijw > je tacwni ouo\\ ta`]veri > tapolic `mmhi Il/h/m/.",
+      "English": "Solomon has called her : in the Song of Songs, : \"My sister and my spouse : my true city Jerusalem.\"",
+      "Arabiccoptic": "\b سولومون موتى إيروس. خين بى جو إنتى نى جو . جى تاسونى أووه تا إشفيرى . تابوليس إممى يروساليم.",
+      "Englishcoptic": "Solomon motee eros/ khen pigo ente ni-go/ je tasonee owoh ta-eshviree/ tapolis em mee Yerosalim"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b لأنه أعطى علامة عنها بأسماء كثيرة عالية قائلاً أخرجى من بستانك أيتها العنبر المختار.",
+      "Coptic": "Af;mhini gar `eroc > =en \\anmh] `nran eu`soci > je `amh `ebol =en pek`hpoc > `w qhetcwtp `n`arwmata.",
+      "English": "For he has given a symbol of her : in many high names, saying : \"Come out of your garden, : O choicest aroma.\"",
+      "Arabiccoptic": "\b أفتى مينى غار إيروس . خين هان ميش إنران إفتشوسى . جى أمى إيفول خين بيك إيبوس . أو ثى إتسوتب إن أروماطا.",
+      "Englishcoptic": "Aftee meeny gar eros/ khen hanmeesh enran evetshosi/ je amee evol khen pek e bos/ o si etsotb en-aromata"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b السلام لك أيتها العذراء الملكة الحقيقية الحقانية, السلام لفخر جنسنا ولدت لنا عمانوئيل",
+      "Coptic": "Xere ne w;parqenoc> ;ourw `mmei `n`alhqinh> xere `p]ou]ou `nte pengenoc > `ari`jvo nan `nEmmanouel.",
+      "English": "Hail to you, O Virgin, : the right and true Queen. : Hail to the pride of our race : who bore to us Immanuel.",
+      "Arabiccoptic": "\b شيرى نى اوتى بارثينوس تى اورو اممى ان أليثينى, شيرى ابشوشو انتى بين جينوس, ارى اجفو نان ان اممانوئيل",
+      "Englishcoptic": "Shere ne otee Parthenos/ tee oro em mee en alee thee nee/ shere ep shosho ente pengenos/ ari egvo nan en emano-eel"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b نسألك ان تذكرينا ايتها الشفيعة المؤتمنة امام ربنا يسوع المسيح ليغفر لنا خطايانا.",
+      "Coptic": ":en;\\o `aripen\bmeu`i> `w;`proctathc eten\\ot> na\\ren Pen_ Ih/c// Px/c/> `ntefxa nennobi nan `ebol.",
+      "English": "We ask you to remember us, :O our faithful advocate, : before our Lord Jesus Christ : that He may forgive us our sins.",
+      "Arabiccoptic": "\b تين تيهو ارى بين ميفئ, اوتى ابروس تاتيس اتين هوت ناهرين بين شويس ايسوس بخريستوس, انتيف كانين نوفى نان ايفول",
+      "Englishcoptic": "Tentee hoo aree penmevi/ otee ebros tatees etenhot/ nahren pen shois Isos pekhristos/ entev kanen novi nan evol."
+    }
+  ]
 }

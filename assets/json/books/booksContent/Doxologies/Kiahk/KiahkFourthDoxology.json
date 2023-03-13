@@ -1,7 +1,74 @@
 {
-"arabic": " +فى الشهر السادس. أرسل جبرائيل. وبشر مريم. كما فى الإنجيل المقدس.,\nأرسل جبرائيل. خدم الخلاص. أرسل العبد غير الجسدانى. إلى العذراء غير الدنسة.,\n+ أرسل جبرائيل. وأقامنا بالدعوة الجديدة. أرسل الْحُرّ. إلى الفتاة الوديعة.,\nأرسل جبرائيل. ليهيئ الخدر الحقيقى. أرسل غبريال. إلى البلاط العلوى.,\n+ سرٌ عجيبٌ. ومعجزٌ مرتفعٌ. لآن كلمة الآب. صار مع البشر.,\nنسجد له ونمجده. مع أبيه غير المدرك. والروح المعزى. لأنه آتى وخلصنا.,\n",
-"arabiccoptic": " +خين بى أفوت إمماه سو. أفؤورب إن غابرييل. خين بى إف أنجيليون إثؤواب. أفهى شين نوفى إم ماريا.\nأفؤورب إن غابرييل. أفئير ذياكونين إمبى أوجاى. أفؤورب إمبى فوك إن أسوماتوس. شاتى بارثينوس إن أت ثوليب.\n+ أفؤورب إن غابرييل. أفتونوس تين خين بى ثوهيم إمفيرى. أفؤورب إمبى إليفثيروس. شاتى ألو إن سيمنى.\nأفؤورب إن غابرييل. إس إفتى بينيم فيوس إممى. أفؤورب إن غابرييل. شابالاطيؤن إم إبتشيسى كون.\n+أوميستيريون إن إشفيرى . أووه إمباراذوكسون إتتشوسى. جى بيلوغوس إنتى إفيوت . أفشوبى نيم نى رومى.\nتين أوأوشت إمموف تين تى أوأو ناف . نيم بيف يوت إن أت إشتاهوف. نيم بى إبنفما إمباراكليتون. جى أفئ أفسوتى إممون.\n",
-"coptic": " +en pi`abot `mma\\ ,/ > auouwrp `nGabrihl > =en pieuaggelion eq?u? > af\\i]ennoufi `mMari`a .\nAuouwrp `nGabrihl > aferdi`akonin `mpioujai > auouwrp `mpibwk `n`acwmatoc > ]a ;parqenoc `natqwleb .\nAuouwrp `nGabrihl > aftounocten =en piqw\\em `mberi > auouwrp `mpi`eleuqeroc > ]a ;`alou `ncemne .\nAuouwrp `nGabrihl > `ecebte pinumvioc `mmhi > auouwrp `nGabrihl > ]a palate`on `m`psici`ikon .\nOumucthrion `n`]vhri > ouo\\ `mparado[on etsoci > je pilogoc `nte ` Viwt > af]wpi nem nirwmi .\nTenouw]t `mmof ten;`wou naf > nem Pefiwt `nat`]ta\\of > nem Pipn?a? `mparaklhton > je af`i afcw; `mmon.\n",
-"english": " On the sixth month, Gabriel was sent, according to the Holy Gospel, and announced to Mary.,\nGabriel was sent, the servant of salvation, the incorporeal servant was sent, to the undefiled Virgin.,\nGabriel was sent, he raised us with the new calling, the free one was sent, to the chaste girl.,\nGabriel was sent, to prepare for the true Bridegroom, Gabriel was sent, to the high palace.,\nA wonderful mystery, and an exalted wonder, for the Word of the Father, dwelt among men.,\nWe worship Him and glorify Him, with His incomprehensible Father, and the Spirit of comfort, for He have come and saved us,\n",
-"englishcoptic": " Khen pi avot emmah soo, av-o-orp en Ghabriel, khen pi evangelion Ethowab, avhi shennofi em Maria.\nAv-o-orp en Ghabriel, aver ziakoneen empi ogai, av-o-orp empi vok en asomatos, shati Parthenos en at tholeb.\nAv-o-orp en Ghabriel, avtonos ten khen pi sohem em veri, av-o-orp empi elevtheros, shati aloe n semni.\nAv-o-orp en Ghabriel, es efti binem vios emmei, Av-o-orp en Ghabriel, sha palati-on em epetchisi kon.\nO mysterion en eshviri, owoh emparazoxon etechosi, je piloghos ente Efiot, afshopi nem ni romy.\nTen o-osht emmof tenti o-o naf, nem pefiot en at eshtahof, nem pi Ebnevma emparakliton, je av-e avsoti emmon.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية رابعة لشهر كيهك",
+  "EnglishTitle": "Fourth Kiahk Doxology",
+  "CopticTitle": "+en pi`abot `mma\\ ,/ ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\bفى الشهر السادس. أرسل جبرائيل. وبشر مريم. كما فى الإنجيل المقدس.",
+      "Coptic": "+en pi`abot `mma\\ ,/ > auouwrp `nGabrihl > =en pieuaggelion eq?u? > af\\i]ennoufi `mMari`a .",
+      "English": "On the sixth month, Gabriel was sent, according to the Holy Gospel, and announced to Mary.",
+      "Arabiccoptic": "\bخين بى أفوت إمماه سو. أفؤورب إن غابرييل. خين بى إف أنجيليون إثؤواب. أفهى شين نوفى إم ماريا.",
+      "Englishcoptic": "Khen pi avot emmah soo, av-o-orp en Ghabriel, khen pi evangelion Ethowab, avhi shennofi em Maria."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أرسل جبرائيل. خدم الخلاص. أرسل العبد غير الجسدانى. إلى العذراء غير الدنسة.",
+      "Coptic": "Auouwrp `nGabrihl > aferdi`akonin `mpioujai > auouwrp `mpibwk `n`acwmatoc > ]a ;parqenoc `natqwleb .",
+      "English": "Gabriel was sent, the servant of salvation, the incorporeal servant was sent, to the undefiled Virgin.",
+      "Arabiccoptic": "أفؤورب إن غابرييل. أفئير ذياكونين إمبى أوجاى. أفؤورب إمبى فوك إن أسوماتوس. شاتى بارثينوس إن أت ثوليب.",
+      "Englishcoptic": "Av-o-orp en Ghabriel, aver ziakoneen empi ogai, av-o-orp empi vok en asomatos, shati Parthenos en at tholeb."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b أرسل جبرائيل. وأقامنا بالدعوة الجديدة. أرسل الْحُرّ. إلى الفتاة الوديعة.",
+      "Coptic": "Auouwrp `nGabrihl > aftounocten =en piqw\\em `mberi > auouwrp `mpi`eleuqeroc > ]a ;`alou `ncemne .",
+      "English": "Gabriel was sent, he raised us with the new calling, the free one was sent, to the chaste girl.",
+      "Arabiccoptic": "\b أفؤورب إن غابرييل. أفتونوس تين خين بى ثوهيم إمفيرى. أفؤورب إمبى إليفثيروس. شاتى ألو إن سيمنى.",
+      "Englishcoptic": "Av-o-orp en Ghabriel, avtonos ten khen pi sohem em veri, av-o-orp empi elevtheros, shati aloe n semni."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أرسل جبرائيل. ليهيئ الخدر الحقيقى. أرسل غبريال. إلى البلاط العلوى.",
+      "Coptic": "Auouwrp `nGabrihl > `ecebte pinumvioc `mmhi > auouwrp `nGabrihl > ]a palate`on `m`psici`ikon .",
+      "English": "Gabriel was sent, to prepare for the true Bridegroom, Gabriel was sent, to the high palace.",
+      "Arabiccoptic": "أفؤورب إن غابرييل. إس إفتى بينيم فيوس إممى. أفؤورب إن غابرييل. شابالاطيؤن إم إبتشيسى كون.",
+      "Englishcoptic": "Av-o-orp en Ghabriel, es efti binem vios emmei, Av-o-orp en Ghabriel, sha palati-on em epetchisi kon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b سرٌ عجيبٌ. ومعجزٌ مرتفعٌ. لآن كلمة الآب. صار مع البشر.",
+      "Coptic": "Oumucthrion `n`]vhri > ouo\\ `mparado[on etsoci > je pilogoc `nte ` Viwt > af]wpi nem nirwmi .",
+      "English": "A wonderful mystery, and an exalted wonder, for the Word of the Father, dwelt among men.",
+      "Arabiccoptic": "\bأوميستيريون إن إشفيرى . أووه إمباراذوكسون إتتشوسى. جى بيلوغوس إنتى إفيوت . أفشوبى نيم نى رومى.",
+      "Englishcoptic": "O mysterion en eshviri, owoh emparazoxon etechosi, je piloghos ente Efiot, afshopi nem ni romy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نسجد له ونمجده. مع أبيه غير المدرك. والروح المعزى. لأنه آتى وخلصنا.",
+      "Coptic": "Tenouw]t `mmof ten;`wou naf > nem Pefiwt `nat`]ta\\of > nem Pipn?a? `mparaklhton > je af`i afcw; `mmon.",
+      "English": "We worship Him and glorify Him, with His incomprehensible Father, and the Spirit of comfort, for He have come and saved us",
+      "Arabiccoptic": "تين أوأوشت إمموف تين تى أوأو ناف . نيم بيف يوت إن أت إشتاهوف. نيم بى إبنفما إمباراكليتون. جى أفئ أفسوتى إممون.",
+      "Englishcoptic": "Ten o-osht emmof tenti o-o naf, nem pefiot en at eshtahof, nem pi Ebnevma emparakliton, je av-e avsoti emmon."
+    }
+  ]
 }

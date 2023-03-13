@@ -1,7 +1,74 @@
 {
-"arabic": " لعازر الأسقف، حبيب المسيح، الذي أقامه من الأموات، بعد أربعة أيام.,\n+ وعاش أربعين سنة، وصار أسقفاً، علي كرسي قبرص، ورعى قطيع للمسيح.,\nطوباك يا أبانا القديس، لعازر الأسقف، لأنك إستحققت صوت يسوع، إله الأحياء والأموات.,\n+ إفرح يا لعازر الحبيب، لأنك إستحققت الأسقفية، ورعيت الخراف، أيها الراعي العظيم.,\nنطلب إليك يا أبانا، لكي تشفع فينا، أمام المسيح الذي أحبك، وأقامك من الأموات.,\n+ أطلب من الرب عنا، أيها الراعي الذي للمسيح، لعازر الأسقف، ليغفر لنا خطايانا.,\n",
-"arabiccoptic": " لازاروس بى ابيسكوبوس: بى ميزيت انتى بخرستوس: فى إطاف تونوسف خين نى إثموؤت: مينينسا بى إفتو إن إيهوؤ.\nأووه أفؤنخ إن إهمى إنرومبى: أووه أفشوبى إنؤ إبيسكوبوس: هيجين بى إثرونوس إنتى كيبروس: آف آمونى نى أوهى إنتى بخرستوس.\nأوؤ نياتك بين يوت إثؤاب: لازاروس بى إبيسكوبوس: جى أكئير إب إم إبشا إن إت إسمى انتى إيسوس: افنوتى إن نى اتؤنخ نيم نى ريفموؤت.\nراشى لازاروس بى ميزيت: جى أك إم إبشا إنتيميت إى بيسكوبوس: أكآمونى إن نى إيسوؤ: أو بى نيشتى إمما إيسوؤ.\nتين طوفه إمموك أو باتير إيمون: إنتيك ارابريسفيفين ايجون: ناهرين بخرستوس في ايطاف ميزيتك: أووه أفتو نوسك خين نى إثموؤت.\nطوبه إم إبتشويس إ إهري إجون: أوبى مان إى سوؤ انتى بخرستوس: لا زاروس بى إبيسكوبوس:  إنتيف كا نين نوفي نان إيفول  .\n",
-"coptic": " Lazaroc pi`epickopoc> pimenrit `nte Pi`xrictoc> vh`etaftounocf =en nheqmwout> menenca `ftoou `n`e\\oou.\nOuo\\ afwn= `n`\\me `nrompi> ouo\\ af]wpi `nou`epickopoc> \\ijen pi`qronoc `nte Kaf`amoni > ni`o\\i `nte Pi`xrictoc.\n`Wouniatk peniwt eqouab> Lazaroc pi`epickopoc> je aker`pem`p]a `n`t`cmh `nte Ihcouc> `Vnou; `nnheton= nem nirefmwout.\nRa]i Lazaroc pimenrit> je akem`p]a `n;met`epickopoc> ak`amoni `nni`ecwou> `w pini]; `mman`ecwou.\nTentwb\\ `mmok `w pathr `umwn> `nteker`precbeuin `ejwn> na\\ren Pi`xrictoc vh`etafmenritk> ouo\\ aftounock =en nheqmwout.\nTwb\\ `m`Psoic `e`\\rhi `ejwn> `w piman`ecwou `nte Pi`xrictoc> Lazaroc pi`epickopoc> `ntefxa nennobi nan `ebol.\n",
-"english": " Lazarus the bishop, the beloved of Christ, who was risen from the dead, after four days.,\nAnd he lived for forty years, and became a bishop, on the throne of Cyprus, and shepherded the flock of Christ,\nBlessed are you O our holy father, Lazarus the bishop, for you were worthy to hear the voice of Jesus, the God of the living and the dead.,\nRejoice O Lazarus the beloved, for you were worthy of the episcopate, you tended the sheep, O great shepherd.,\nWe entreat you O our father, to intercede on our behalf, before Christ who has loved you, and raised you from the dead.,\nPray to the Lord on our behalf, O shepherd of Christ, Lazarus the bishop, that He may forgive us our sins.,\n",
-"englishcoptic": " Lazaros pi-episkopos : pi menreet ente pikhristos : vi-etaf-tonosf khen ni-ethmo-oot : men-ensa eftoo en-eho-oo.\nOwoh af-onkh en-ehme enrompi : owoh afshopi en-oo episkopos : hijen pi-ethronos : ente Kaf-amoni : ni-ohi ente Pikhristos .\nO-oniatk peniot ethowab : Lazaros pi-episkopos : je ak-er ep-empsha en-et-esmi ente Isos : Evnoti en-ni et-onkh nem ni-ref mo-oot.\nRashi Lazaros pi-menrit : je ak-emepsha enti-met-episkopos : ak-amoni en-ni eso-oo : o-pinishti em-man eso-oo.\nTen-tobh emmok o-patir emon : entek erep-res-vevin egon : nahren Pikhristos vi-etaf menritk : owoh aftoo-nosk khen ni-ethmo-oot.\nTobhem-Epchois e-ehrei egon : opi-man eso-oo ente Pikhristos : Lazaros pi-episko-pos : entef-ka nen novi nan evol.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية سبت لعازر",
+  "EnglishTitle": "Lazarus Saturday Doxology ",
+  "CopticTitle": "Lazaroc pi`epickopoc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لعازر الأسقف، حبيب المسيح، الذي أقامه من الأموات، بعد أربعة أيام.",
+      "Coptic": "Lazaroc pi`epickopoc> pimenrit `nte Pi`xrictoc> vh`etaftounocf =en nheqmwout> menenca `ftoou `n`e\\oou.",
+      "English": "Lazarus the bishop, the beloved of Christ, who was risen from the dead, after four days.",
+      "Arabiccoptic": "لازاروس بى ابيسكوبوس: بى ميزيت انتى بخرستوس: فى إطاف تونوسف خين نى إثموؤت: مينينسا بى إفتو إن إيهوؤ.",
+      "Englishcoptic": "Lazaros pi-episkopos : pi menreet ente pikhristos : vi-etaf-tonosf khen ni-ethmo-oot : men-ensa eftoo en-eho-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b وعاش أربعين سنة، وصار أسقفاً، علي كرسي قبرص، ورعى قطيع للمسيح.",
+      "Coptic": "Ouo\\ afwn= `n`\\me `nrompi> ouo\\ af]wpi `nou`epickopoc> \\ijen pi`qronoc `nte Kaf`amoni > ni`o\\i `nte Pi`xrictoc.",
+      "English": "And he lived for forty years, and became a bishop, on the throne of Cyprus, and shepherded the flock of Christ",
+      "Arabiccoptic": "أووه أفؤنخ إن إهمى إنرومبى: أووه أفشوبى إنؤ إبيسكوبوس: هيجين بى إثرونوس إنتى كيبروس: آف آمونى نى أوهى إنتى بخرستوس.",
+      "Englishcoptic": "Owoh af-onkh en-ehme enrompi : owoh afshopi en-oo episkopos : hijen pi-ethronos : ente Kaf-amoni : ni-ohi ente Pikhristos ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوباك يا أبانا القديس، لعازر الأسقف، لأنك إستحققت صوت يسوع، إله الأحياء والأموات.",
+      "Coptic": "`Wouniatk peniwt eqouab> Lazaroc pi`epickopoc> je aker`pem`p]a `n`t`cmh `nte Ihcouc> `Vnou; `nnheton= nem nirefmwout.",
+      "English": "Blessed are you O our holy father, Lazarus the bishop, for you were worthy to hear the voice of Jesus, the God of the living and the dead.",
+      "Arabiccoptic": "أوؤ نياتك بين يوت إثؤاب: لازاروس بى إبيسكوبوس: جى أكئير إب إم إبشا إن إت إسمى انتى إيسوس: افنوتى إن نى اتؤنخ نيم نى ريفموؤت.",
+      "Englishcoptic": "O-oniatk peniot ethowab : Lazaros pi-episkopos : je ak-er ep-empsha en-et-esmi ente Isos : Evnoti en-ni et-onkh nem ni-ref mo-oot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b إفرح يا لعازر الحبيب، لأنك إستحققت الأسقفية، ورعيت الخراف، أيها الراعي العظيم.",
+      "Coptic": "Ra]i Lazaroc pimenrit> je akem`p]a `n;met`epickopoc> ak`amoni `nni`ecwou> `w pini]; `mman`ecwou.",
+      "English": "Rejoice O Lazarus the beloved, for you were worthy of the episcopate, you tended the sheep, O great shepherd.",
+      "Arabiccoptic": "راشى لازاروس بى ميزيت: جى أك إم إبشا إنتيميت إى بيسكوبوس: أكآمونى إن نى إيسوؤ: أو بى نيشتى إمما إيسوؤ.",
+      "Englishcoptic": "Rashi Lazaros pi-menrit : je ak-emepsha enti-met-episkopos : ak-amoni en-ni eso-oo : o-pinishti em-man eso-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نطلب إليك يا أبانا، لكي تشفع فينا، أمام المسيح الذي أحبك، وأقامك من الأموات.",
+      "Coptic": "Tentwb\\ `mmok `w pathr `umwn> `nteker`precbeuin `ejwn> na\\ren Pi`xrictoc vh`etafmenritk> ouo\\ aftounock =en nheqmwout.",
+      "English": "We entreat you O our father, to intercede on our behalf, before Christ who has loved you, and raised you from the dead.",
+      "Arabiccoptic": "تين طوفه إمموك أو باتير إيمون: إنتيك ارابريسفيفين ايجون: ناهرين بخرستوس في ايطاف ميزيتك: أووه أفتو نوسك خين نى إثموؤت.",
+      "Englishcoptic": "Ten-tobh emmok o-patir emon : entek erep-res-vevin egon : nahren Pikhristos vi-etaf menritk : owoh aftoo-nosk khen ni-ethmo-oot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b أطلب من الرب عنا، أيها الراعي الذي للمسيح، لعازر الأسقف، ليغفر لنا خطايانا.",
+      "Coptic": "Twb\\ `m`Psoic `e`\\rhi `ejwn> `w piman`ecwou `nte Pi`xrictoc> Lazaroc pi`epickopoc> `ntefxa nennobi nan `ebol.",
+      "English": "Pray to the Lord on our behalf, O shepherd of Christ, Lazarus the bishop, that He may forgive us our sins.",
+      "Arabiccoptic": "طوبه إم إبتشويس إ إهري إجون: أوبى مان إى سوؤ انتى بخرستوس: لا زاروس بى إبيسكوبوس:  إنتيف كا نين نوفي نان إيفول  .",
+      "Englishcoptic": "Tobhem-Epchois e-ehrei egon : opi-man eso-oo ente Pikhristos : Lazaros pi-episko-pos : entef-ka nen novi nan evol."
+    }
+  ]
 }

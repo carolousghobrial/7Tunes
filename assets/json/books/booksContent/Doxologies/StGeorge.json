@@ -1,7 +1,74 @@
 {
-  "arabic": " سبع سنين أكملها القديس جيؤرجيوس وال70 ملكا منافقين يحكمون عليه كل يوم.,\nولم يقدروا أن يميلوا أفكاره ولا إيمانه المستقيم ولا عظم محبته فى الملك المسيح.,\nوكان يرتل مع داود قائلا أحاط بى جميع الأمم لكن بإسم يسوع إلهى إنتقمت منهم.,\nعظيمة هى كرامتك ياسيدى الملك جيؤرجيوس المسيح يفرح معك فى أورشليم السمائية.,\nالسلام لك أيها الشهيد السلام للشجاع المجاهد السلام للابس الجهاد سيدى الملك جيؤرجيوس.,\nأطلب من الرب عنا أيها الشهيد المجاهد سيدى الملك جيؤرجيوس ليغفر لنا خطايانا,\n",
-  "arabiccoptic": " شاشف إن رومبى أفجوكو إيفول. إنجى فى إثؤواب جيؤرحيوس. إيرى بى إشفى إن أورو إن أنوموس. إفتى هاب إيروف إممينى.\nإمبو إشفونه إمبيف لوجيسموس. أوذى بيف ناهتى إتسوطون. أوذى تيف نيشتى إن أغابى. إيخون إإبؤرو بخريستوس.\nناف إيربسالين نيم دافيد. جى أفكوتى إيروى إنجى نى إثنوس تيرو. اللا خين إفران إن إيسوس بانوتى. أيتشى إمباتشى إم إبشيش نيموأو.\nأونيشتى غار بى بيك طايو. أو باشويس إبؤرو جيؤرجيوس. إيرى بخريستوس راشى نيماك. خين يروساليم إنتى إتفى.\nشيرى ناك أو بى مارتيروس. شيرى بى شويج إن جينيؤس. شيرى بى أثلوفوروس. باشويس إبؤرو جيؤرجيوس .\nطوبه ام ابشويس ااهرى ايجون بى أثلوفوروس إم مارتيروس. باشويس إبؤرو جيؤرجيوس. إنتيف كانين نوفى نان ايفول\n",
-  "coptic": " }a]f  `nrompi afjokou `ebol > `nje vhe/q/u/ Gewrgioc > `ere pi`]be `nouro `n`anomoc > eu;\\ap `erof `mmhni.\n`Mpou`]vwn\\ `mpeflogicmoc > oude pefna\\; etcoutwn > oude tefni]; `n`agapi > `e=oun `e`pouro Px/c/.\nNaferyalin nem Dauid > je aukw; `eroi `nje nieqnoc throu > alla =en `vran `nIh/c/ Panou; > aisi `mpasi `m`p]i] nemwou.\nOuni]; gar pe pektai`o > `w pa_ `pouro Gewrgioc > `ere Px/c/ ra]i nemak > =en Il/h/m/ `nte `tve.\nXere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > pa_ `pouro Gewrgioc.\nTwb\\ `mP_ `e`\\rei `ejwn / > `w piaqlovoroc `mmarturoc > pa_ `pouro Gewrgioc > ntef xa nennobi nan `ebol.\n",
-  "english": " Saint George completed: seven whole years: being judged daily: by seventy lawless kings.,\nThey could not change his mind: nor his upright faith: nor his great love: for Christ the King.,\nHe was singing with David saying: \"All the nations surrounded me: but in the name of Jesus my Lord: I took revenge upon them.\",\nFor great is your honor: O my lord Prince George: for Christ rejoices in you: in the heavenly Jerusalem.,\nHail to you, O martyr: Hail to the courageous hero: Hail to the struggle-mantled: my lord Prince George.,\nPray to the Lord on our behalf :O struggle mantled martyr : my lord Prince George : that He may forgive us our sins.,\n",
-  "englishcoptic": " Shashf en rompi avgoko evol, enje-vi ethowab Georgios, ere peshvy en oro en-ano mos, eftee hab erof em mini.\nEmbo eshvonh empef logismos, oze pef nahty etso ton, oze tef neshty en aghaby, ekhon eporo pi-Ekhristos.\nNaf er epsalin nem David, je af koty eroi enge ni ethnos tiro, alla khen efran en Isos panoty, ai etshy embatchy em eb sheesh nemo-oo.\nOnishty ghar pe-pek taio, o pashois ep oro Georgios, ere Pikhristos rashy nemak, khen Ierosaleem ente etfe .\nShere nak opee marteros, shere pee shoig en gen- neos, shere pee athloforos, pashois  ep oro Georgios\nTovh em epshois e ehry egon, pee athloforos em-marteros, pashois eporo Georgios, entef ka nen-novi nan evol.\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية مارجرجس",
+  "EnglishTitle": "St.George Doxology",
+  "CopticTitle": "}a]f  `nrompi afjokou `ebol ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سبع سنين أكملها القديس جيؤرجيوس وال70 ملكا منافقين يحكمون عليه كل يوم.",
+      "Coptic": "}a]f  `nrompi afjokou `ebol > `nje vhe/q/u/ Gewrgioc > `ere pi`]be `nouro `n`anomoc > eu;\\ap `erof `mmhni.",
+      "English": "Saint George completed: seven whole years: being judged daily: by seventy lawless kings.",
+      "Arabiccoptic": "شاشف إن رومبى أفجوكو إيفول. إنجى فى إثؤواب جيؤرحيوس. إيرى بى إشفى إن أورو إن أنوموس. إفتى هاب إيروف إممينى.",
+      "Englishcoptic": "Shashf en rompi avgoko evol, enje-vi ethowab Georgios, ere peshvy en oro en-ano mos, eftee hab erof em mini."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ولم يقدروا أن يميلوا أفكاره ولا إيمانه المستقيم ولا عظم محبته فى الملك المسيح.",
+      "Coptic": "`Mpou`]vwn\\ `mpeflogicmoc > oude pefna\\; etcoutwn > oude tefni]; `n`agapi > `e=oun `e`pouro Px/c/.",
+      "English": "They could not change his mind: nor his upright faith: nor his great love: for Christ the King.",
+      "Arabiccoptic": "إمبو إشفونه إمبيف لوجيسموس. أوذى بيف ناهتى إتسوطون. أوذى تيف نيشتى إن أغابى. إيخون إإبؤرو بخريستوس.",
+      "Englishcoptic": "Embo eshvonh empef logismos, oze pef nahty etso ton, oze tef neshty en aghaby, ekhon eporo pi-Ekhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكان يرتل مع داود قائلا أحاط بى جميع الأمم لكن بإسم يسوع إلهى إنتقمت منهم.",
+      "Coptic": "Naferyalin nem Dauid > je aukw; `eroi `nje nieqnoc throu > alla =en `vran `nIh/c/ Panou; > aisi `mpasi `m`p]i] nemwou.",
+      "English": "He was singing with David saying: \"All the nations surrounded me: but in the name of Jesus my Lord: I took revenge upon them.\"",
+      "Arabiccoptic": "ناف إيربسالين نيم دافيد. جى أفكوتى إيروى إنجى نى إثنوس تيرو. اللا خين إفران إن إيسوس بانوتى. أيتشى إمباتشى إم إبشيش نيموأو.",
+      "Englishcoptic": "Naf er epsalin nem David, je af koty eroi enge ni ethnos tiro, alla khen efran en Isos panoty, ai etshy embatchy em eb sheesh nemo-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "عظيمة هى كرامتك ياسيدى الملك جيؤرجيوس المسيح يفرح معك فى أورشليم السمائية.",
+      "Coptic": "Ouni]; gar pe pektai`o > `w pa_ `pouro Gewrgioc > `ere Px/c/ ra]i nemak > =en Il/h/m/ `nte `tve.",
+      "English": "For great is your honor: O my lord Prince George: for Christ rejoices in you: in the heavenly Jerusalem.",
+      "Arabiccoptic": "أونيشتى غار بى بيك طايو. أو باشويس إبؤرو جيؤرجيوس. إيرى بخريستوس راشى نيماك. خين يروساليم إنتى إتفى.",
+      "Englishcoptic": "Onishty ghar pe-pek taio, o pashois ep oro Georgios, ere Pikhristos rashy nemak, khen Ierosaleem ente etfe ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لك أيها الشهيد السلام للشجاع المجاهد السلام للابس الجهاد سيدى الملك جيؤرجيوس.",
+      "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > pa_ `pouro Gewrgioc.",
+      "English": "Hail to you, O martyr: Hail to the courageous hero: Hail to the struggle-mantled: my lord Prince George.",
+      "Arabiccoptic": "شيرى ناك أو بى مارتيروس. شيرى بى شويج إن جينيؤس. شيرى بى أثلوفوروس. باشويس إبؤرو جيؤرجيوس .",
+      "Englishcoptic": "Shere nak opee marteros, shere pee shoig en gen- neos, shere pee athloforos, pashois  ep oro Georgios"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أطلب من الرب عنا أيها الشهيد المجاهد سيدى الملك جيؤرجيوس ليغفر لنا خطايانا",
+      "Coptic": "Twb\\ `mP_ `e`\\rei `ejwn / > `w piaqlovoroc `mmarturoc > pa_ `pouro Gewrgioc > ntef xa nennobi nan `ebol.",
+      "English": "Pray to the Lord on our behalf :O struggle mantled martyr : my lord Prince George : that He may forgive us our sins.",
+      "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون بى أثلوفوروس إم مارتيروس. باشويس إبؤرو جيؤرجيوس. إنتيف كانين نوفى نان ايفول",
+      "Englishcoptic": "Tovh em epshois e ehry egon, pee athloforos em-marteros, pashois eporo Georgios, entef ka nen-novi nan evol."
+    }
+  ]
 }
