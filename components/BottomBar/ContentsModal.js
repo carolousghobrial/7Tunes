@@ -44,16 +44,12 @@ function ContentsModal({
     flexDirection: flexDirection,
   };
   useEffect(() => {
-    console.log("KEY" + initialKey);
-
     const closest = dataArray.reduce((a, b) => {
       return Math.abs(b.key - initialKey) < Math.abs(a.key - initialKey)
         ? b
         : a;
     });
-    console.log(dataArray[11]);
     var ind = dataArray.findIndex((item) => item.key === closest.key);
-    console.log(ind);
     setInitialIndex(ind);
   });
   return (

@@ -1,7 +1,41 @@
 {
-"arabic": " أيتها الغير الدنسة العفيفة . القديسة فى كل شيىء. التى قدمت لنا الله. محمولا على ذراعيها.,\nتفرح معك كل الخليقة . صارخة قائلة .السلام لك يا ممتلئة نعمة . الرب معك .,\nالسلام لك يا ممتلئة نعمة السلام لك يامن وجدت نعمة . السلام لك يامن ولدت المسيح . الرب معك .,\n",
-"arabiccoptic": " تى أت ثوليب إن سيمنى. أووه إثؤواب خين هوب نيفين . ثى إيطاس إينى نان إمفنوتى . إفطاليوت إيجين نيس إجفوى  .\nإس راشى نيمى إنجى تى إكتيسيس تيرس . إسؤش إيفول إسجو إمموس . جى شيرى ثى إثميه إنهموت . أووه إبشويس شوب نيمى .\nشيرى ثى إثميه إنهموت . شيرى ثى إيطاس جيم إهموت . شيرى ثى إيطاس ميس بخريستوس . أووه إبشويس شوب نيمى .\n",
-"coptic": " :atqwleb `ncemne > ouo\\ e/q/u/ =en \\wb niben > qh`etac`ini nan `mV; > eftalhout `ejen nec`jvoi .\n`Cra]i neme `nje ;`kthcic thrc > ecw] `ebol ecjw `mmoc > je xere qheqme\\ `n`\\mot > ouo\\ P_ ]wp neme.\nXere qheqme\\ `n`\\mot > xere qhetacjem `\\mot> xere qhetacmec Px/c/ > ouo\\ P_ ]wp neme .\n",
-"english": " O Virgin Mary, the undefiled virtuous, and holy in everything, who carried God to us.,\nThe whole creation, rejoices with you saying : Hail to you O full of grace : the Lord is with you.,\nHail to you O full of grace : Hail to you who has found grace : Hail to you who has given birth to Christ : the Lord is with you.,\n",
-"englishcoptic": " Ti at tholib en semni, owoh ethoab khen hob niven, thee etas ini nan em evnouty, evtaliout ejen nes egvoi.\nEsrashi niven enje ti ektisis tiers, esosh evol esgo emmos, je shere thee ethmeh en ehmot, owoh Epshois shop neme.\nShere thee ethmeh en ehmot, shere thee atas gim ehot, shere thee atas mes Pikhristos, owoh Epshois shop neme.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(1) ثيؤطوكية السبت",
+  "EnglishTitle": "Saturday Theotokia (1)",
+  "CopticTitle": ":atqwleb `ncemne ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيتها الغير الدنسة العفيفة . القديسة فى كل شيىء. التى قدمت لنا الله. محمولا على ذراعيها.",
+      "Coptic": ":atqwleb `ncemne > ouo\\ e/q/u/ =en \\wb niben > qh`etac`ini nan `mV; > eftalhout `ejen nec`jvoi .",
+      "English": "O Virgin Mary, the undefiled virtuous, and holy in everything, who carried God to us.",
+      "Arabiccoptic": "تى أت ثوليب إن سيمنى. أووه إثؤواب خين هوب نيفين . ثى إيطاس إينى نان إمفنوتى . إفطاليوت إيجين نيس إجفوى  .",
+      "Englishcoptic": "Ti at tholib en semni, owoh ethoab khen hob niven, thee etas ini nan em evnouty, evtaliout ejen nes egvoi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "تفرح معك كل الخليقة . صارخة قائلة .السلام لك يا ممتلئة نعمة . الرب معك .",
+      "Coptic": "`Cra]i neme `nje ;`kthcic thrc > ecw] `ebol ecjw `mmoc > je xere qheqme\\ `n`\\mot > ouo\\ P_ ]wp neme.",
+      "English": "The whole creation, rejoices with you saying : Hail to you O full of grace : the Lord is with you.",
+      "Arabiccoptic": "إس راشى نيمى إنجى تى إكتيسيس تيرس . إسؤش إيفول إسجو إمموس . جى شيرى ثى إثميه إنهموت . أووه إبشويس شوب نيمى .",
+      "Englishcoptic": "Esrashi niven enje ti ektisis tiers, esosh evol esgo emmos, je shere thee ethmeh en ehmot, owoh Epshois shop neme."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لك يا ممتلئة نعمة السلام لك يامن وجدت نعمة . السلام لك يامن ولدت المسيح . الرب معك .",
+      "Coptic": "Xere qheqme\\ `n`\\mot > xere qhetacjem `\\mot> xere qhetacmec Px/c/ > ouo\\ P_ ]wp neme .",
+      "English": "Hail to you O full of grace : Hail to you who has found grace : Hail to you who has given birth to Christ : the Lord is with you.",
+      "Arabiccoptic": "شيرى ثى إثميه إنهموت . شيرى ثى إيطاس جيم إهموت . شيرى ثى إيطاس ميس بخريستوس . أووه إبشويس شوب نيمى .",
+      "Englishcoptic": "Shere thee ethmeh en ehmot, shere thee atas gim ehot, shere thee atas mes Pikhristos, owoh Epshois shop neme."
+    }
+  ]
 }

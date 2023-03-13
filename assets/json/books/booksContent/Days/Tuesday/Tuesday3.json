@@ -1,7 +1,74 @@
 {
-"arabic": " السلام لوالدة الإله، تهليل الملائكة، السلام للعفيفة، كرازة الأنبياء.,\n+ السلام للتي وجدت نعمة، الربُّ مَعَكِ، السلام للتي قَبَلت من الملاك، فرح العالم.,\nالسلام للتي وَلَدت، خالق الكل، السلام للتي إستحقت، أن تُدعى أُم المسيح.,\n+ السلام للتي أعطت، الخلاص لآدم وحواء، السلام للتي أرضعت، عائل كل أحد.,\nالسلام للقديسة، أُم جميع الأحياء، نطلب إليكِ، أن تشفعي فينا.,\n+ لأنه بإرادته، ومسرة أبيه، والرُّوح القُدُس، أتى وخلصنا.,\n",
-"arabiccoptic": " شيرى تى ماسنووتى: إبثيليل انتى نى أنجيلوس: شيرى تى سيمنيه: إبهي أويش إنتى نى بروفيتيس .\nشيرى ثى إيطاس جيم إهموت: أبتشويس شوب نيمى : شيرى ثى إيطاس تشى إنتى بى أنجيلوس: إم افراشى إمبى كوزموس .\nشيرى ثى إيطاس ميسى: إم إفريف ثاميو إمبى إى إبتيرف: شيرى ثى ايطاس إمبشا أمموتى إيروس: جى اثماف امبي خرستوس .\nشيرى ثى ايطاستى: إم إبصوتى إن آدام نيم إيفا: شيرى ثى ايطاستي تشى: إم إفريف شانش إن أووأون نيفين .\nشيرى ثى إثؤواب: اثماف إننى أتؤنخ تيرو: إنثو بى إيتين طوبه إممو: آرى إبريس فيفين إيجون .\nجى إنثوف خين بيف أوو أوش: نيم إبتى ماتى إمبيف يوت: نيم بى ابنفما إثؤواب: أفئى أفصوتى إممون .\n",
-"coptic": " Xere :macnou;> `pqelhl `nte niaggeloc> xere ;cemne> `p\\iwi] `nte ni`provhthc.\nXere qh`etacjem `\\mot> `Psoic ]op neme> xere qh`etacsi `nten piaggeloc> `m`vra]i `mpikocmoc.\nXere qh`etacmici> `m`Vrefqamio `mpi`e`pthrf> xere qh`etac`m`p]a `mmou; `eroc> je `Qmau `mPi`xrictoc.\nXere qh`etac;> `m`pcw; `n`Adam nem `Eua> xere qh`etac;si> `m`Vref]an] `nouon niben.\nXere qheqouab> `Qmau `nnheton= throu> `nqo pe `etentwb\\ `mmo> `ari`precbeuin `ejwn.\nJe `nqof =en pefouw]> nem `p;ma; `mPefiwt> nem Pi`pneuma Eqouab> af`i afcw; `mmon.\n",
-"english": " Hail to the Mother of God, the rejoicing of angels, hail to the chaste one, the preaching of the prophets.,\nHail to you who has found grace, the Lord is with you, hail to you who accepted, the joy of the world.,\nHail to her who gave birth, to the Creator of all, hail to her who is worthy, to be called the Mother of Christ.,\nHail to you who brought, salvation to Adam and Eve, hail to her who nursed, the Provider of everyone.,\nHail to the Saint, the mother of all the living, you are the one we entreat to, intercede for us.,\nFor of His own will, and the pleasure of His Father, and the Holy Spirit, He came and saved us.,\n",
-"englishcoptic": " Shere Ti-mas-nooti: ep-theleel ente ni-angelos: shere ti-semne: ep-hi-oish ente ni-eprofeetees.\nShere thee-etasjem ehmot: Epchois shop neme: shere thee-etas-echi enten pi-angelos: em Evrashi empi-kosmos.\nShere thee-etas-misi: emev-ref-thamio empi-epteerf: shere thee-etas-emepsha emooti eros: je ethmav emPi-ekhristos.\nShere thee-etasti: emepsoti en Adam nem Eeva: shere thee-etas-tichi: em-evref-shansh en-oo-on niven.\nShere thee-ethowab: Ethmav en-nee-et-onkh teeroo: entho pe eten-tobh emmo: ari-epres-vevin egon.\nJe enthof khen pef-oo-osh: nem epti-mati emPefiot: nem Pi-epnevma Ethooab: af-ee af-soti emmon.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(3) ثيؤطوكية الثلاثاء",
+  "EnglishTitle": "Tuesday Theotokia (3)",
+  "CopticTitle": "Xere :macnou;",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لوالدة الإله، تهليل الملائكة، السلام للعفيفة، كرازة الأنبياء.",
+      "Coptic": "Xere :macnou;> `pqelhl `nte niaggeloc> xere ;cemne> `p\\iwi] `nte ni`provhthc.",
+      "English": "Hail to the Mother of God, the rejoicing of angels, hail to the chaste one, the preaching of the prophets.",
+      "Arabiccoptic": "شيرى تى ماسنووتى: إبثيليل انتى نى أنجيلوس: شيرى تى سيمنيه: إبهي أويش إنتى نى بروفيتيس .",
+      "Englishcoptic": "Shere Ti-mas-nooti: ep-theleel ente ni-angelos: shere ti-semne: ep-hi-oish ente ni-eprofeetees."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b السلام للتي وجدت نعمة، الربُّ مَعَكِ، السلام للتي قَبَلت من الملاك، فرح العالم.",
+      "Coptic": "Xere qh`etacjem `\\mot> `Psoic ]op neme> xere qh`etacsi `nten piaggeloc> `m`vra]i `mpikocmoc.",
+      "English": "Hail to you who has found grace, the Lord is with you, hail to you who accepted, the joy of the world.",
+      "Arabiccoptic": "شيرى ثى إيطاس جيم إهموت: أبتشويس شوب نيمى : شيرى ثى إيطاس تشى إنتى بى أنجيلوس: إم افراشى إمبى كوزموس .",
+      "Englishcoptic": "Shere thee-etasjem ehmot: Epchois shop neme: shere thee-etas-echi enten pi-angelos: em Evrashi empi-kosmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام للتي وَلَدت، خالق الكل، السلام للتي إستحقت، أن تُدعى أُم المسيح.",
+      "Coptic": "Xere qh`etacmici> `m`Vrefqamio `mpi`e`pthrf> xere qh`etac`m`p]a `mmou; `eroc> je `Qmau `mPi`xrictoc.",
+      "English": "Hail to her who gave birth, to the Creator of all, hail to her who is worthy, to be called the Mother of Christ.",
+      "Arabiccoptic": "شيرى ثى إيطاس ميسى: إم إفريف ثاميو إمبى إى إبتيرف: شيرى ثى ايطاس إمبشا أمموتى إيروس: جى اثماف امبي خرستوس .",
+      "Englishcoptic": "Shere thee-etas-misi: emev-ref-thamio empi-epteerf: shere thee-etas-emepsha emooti eros: je ethmav emPi-ekhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b السلام للتي أعطت، الخلاص لآدم وحواء، السلام للتي أرضعت، عائل كل أحد.",
+      "Coptic": "Xere qh`etac;> `m`pcw; `n`Adam nem `Eua> xere qh`etac;si> `m`Vref]an] `nouon niben.",
+      "English": "Hail to you who brought, salvation to Adam and Eve, hail to her who nursed, the Provider of everyone.",
+      "Arabiccoptic": "شيرى ثى ايطاستى: إم إبصوتى إن آدام نيم إيفا: شيرى ثى ايطاستي تشى: إم إفريف شانش إن أووأون نيفين .",
+      "Englishcoptic": "Shere thee-etasti: emepsoti en Adam nem Eeva: shere thee-etas-tichi: em-evref-shansh en-oo-on niven."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام للقديسة، أُم جميع الأحياء، نطلب إليكِ، أن تشفعي فينا.",
+      "Coptic": "Xere qheqouab> `Qmau `nnheton= throu> `nqo pe `etentwb\\ `mmo> `ari`precbeuin `ejwn.",
+      "English": "Hail to the Saint, the mother of all the living, you are the one we entreat to, intercede for us.",
+      "Arabiccoptic": "شيرى ثى إثؤواب: اثماف إننى أتؤنخ تيرو: إنثو بى إيتين طوبه إممو: آرى إبريس فيفين إيجون .",
+      "Englishcoptic": "Shere thee-ethowab: Ethmav en-nee-et-onkh teeroo: entho pe eten-tobh emmo: ari-epres-vevin egon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b لأنه بإرادته، ومسرة أبيه، والرُّوح القُدُس، أتى وخلصنا.",
+      "Coptic": "Je `nqof =en pefouw]> nem `p;ma; `mPefiwt> nem Pi`pneuma Eqouab> af`i afcw; `mmon.",
+      "English": "For of His own will, and the pleasure of His Father, and the Holy Spirit, He came and saved us.",
+      "Arabiccoptic": "جى إنثوف خين بيف أوو أوش: نيم إبتى ماتى إمبيف يوت: نيم بى ابنفما إثؤواب: أفئى أفصوتى إممون .",
+      "Englishcoptic": "Je enthof khen pef-oo-osh: nem epti-mati emPefiot: nem Pi-epnevma Ethooab: af-ee af-soti emmon."
+    }
+  ]
 }

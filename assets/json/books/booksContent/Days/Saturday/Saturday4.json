@@ -1,7 +1,41 @@
 {
-"arabic": " أنت هى جنس . وأصل داود . ولدتِ لنا جسدياً . مخلصنا يسوع المسيح .,\nالوحيد من الآب قبل كل الدهور . أخلى ذاته وأخذ شكل عبد منكِ . لأجل خلاصنا .,\nالسلام لك يا ممتلئة نعمة السلام لك يامن وجدت نعمة . السلام لك يامن ولدت المسيح . الرب معك .,\n",
-"arabiccoptic": " إنثو غار بى بيجينوس . نيم تى نونى إنتى دافيد . أريميسى نان كاطا ساركس . إمبين سوتير إيسوس بى إخريستوس.\nبى مونوجينيس إيفول خين إفيوت . خاجوأو إن نى إأون تيرو . أفشوأوف إيفول إممين إمموف . أفتشى إن أو مورفى إمفوك إنخيتى . إثفى بين أوجاى .\nشيرى ثى إثميه إنهموت . شيرى ثى إيطاس جيم إهموت . شيرى ثى إيطاس ميس بخريستوس . أووه إبشويس شوب نيمى .\n",
-"coptic": " `Nqo gar pe pigenoc > nem ;nouni `nte Dauid > `aremici nan kata car[ > `mPencwthr Ih/c/ Px/c/ .\nPimonogenhc `ebol =en `Viwt > =ajwou `nni`ewn throu > af]ouwf `ebol `mmin `mmof > afsi `noumorvh `mbwk `n=h; > eqbe penoujai .\nXere qheqme\\ `n`\\mot > xere qhetacjem `\\mot> xere qhetacmec Px/c/ > ouo\\ P_ ]wp neme .\n",
-"english": " You are the race /and descendant of David. / You borne to us / our Savior Jesus Christ.,\nThe only-begotten of the Father / before all ages, / He emptied Himself and He took flesh from you as a servant/for our salvation.,\nHail to you O full of grace. Hail to you who has found grace. / Hail to you who has given birth to Christ. / The Lord is with you,\n",
-"englishcoptic": " Entho ghar pe pigenos, nem tinouny ente David, aremisi nan kata sarex, empensoteer Isos Pikhristos.\nPimonogenees evol khen Efiot, khago-o enni e on tiro, afsho ouf evol emmin emmof, afechi en o morfi emfok enkhity, ethve pen ogai.\nShere thee ethmeh en ehmot, shere thee atas gim ehot, shere thee atas mes Pikhristos, owoh Epshois shop neme.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(4) ثيؤطوكية السبت",
+  "EnglishTitle": "Saturday Theotokia (4)",
+  "CopticTitle": "`Nqo gar pe pigenoc ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أنت هى جنس . وأصل داود . ولدتِ لنا جسدياً . مخلصنا يسوع المسيح .",
+      "Coptic": "`Nqo gar pe pigenoc > nem ;nouni `nte Dauid > `aremici nan kata car[ > `mPencwthr Ih/c/ Px/c/ .",
+      "English": "You are the race /and descendant of David. / You borne to us / our Savior Jesus Christ.",
+      "Arabiccoptic": "إنثو غار بى بيجينوس . نيم تى نونى إنتى دافيد . أريميسى نان كاطا ساركس . إمبين سوتير إيسوس بى إخريستوس.",
+      "Englishcoptic": "Entho ghar pe pigenos, nem tinouny ente David, aremisi nan kata sarex, empensoteer Isos Pikhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الوحيد من الآب قبل كل الدهور . أخلى ذاته وأخذ شكل عبد منكِ . لأجل خلاصنا .",
+      "Coptic": "Pimonogenhc `ebol =en `Viwt > =ajwou `nni`ewn throu > af]ouwf `ebol `mmin `mmof > afsi `noumorvh `mbwk `n=h; > eqbe penoujai .",
+      "English": "The only-begotten of the Father / before all ages, / He emptied Himself and He took flesh from you as a servant/for our salvation.",
+      "Arabiccoptic": "بى مونوجينيس إيفول خين إفيوت . خاجوأو إن نى إأون تيرو . أفشوأوف إيفول إممين إمموف . أفتشى إن أو مورفى إمفوك إنخيتى . إثفى بين أوجاى .",
+      "Englishcoptic": "Pimonogenees evol khen Efiot, khago-o enni e on tiro, afsho ouf evol emmin emmof, afechi en o morfi emfok enkhity, ethve pen ogai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك يا ممتلئة نعمة السلام لك يامن وجدت نعمة . السلام لك يامن ولدت المسيح . الرب معك .",
+      "Coptic": "Xere qheqme\\ `n`\\mot > xere qhetacjem `\\mot> xere qhetacmec Px/c/ > ouo\\ P_ ]wp neme .",
+      "English": "Hail to you O full of grace. Hail to you who has found grace. / Hail to you who has given birth to Christ. / The Lord is with you",
+      "Arabiccoptic": "شيرى ثى إثميه إنهموت . شيرى ثى إيطاس جيم إهموت . شيرى ثى إيطاس ميس بخريستوس . أووه إبشويس شوب نيمى .",
+      "Englishcoptic": "Shere thee ethmeh en ehmot, shere thee atas gim ehot, shere thee atas mes Pikhristos, owoh Epshois shop neme."
+    }
+  ]
 }

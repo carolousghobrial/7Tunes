@@ -1,7 +1,74 @@
 {
-"arabic": " فخر جميع العذارى، هي مريم والدة الإله، من أجلها أيضاً، نُقضت اللعنة الأولى.,\nالتي جاءت على جنسنا، من قِبَل المخالفة، التي وقعت فيها المرأة، لما أكلت من ثمرة الشجرة.,\nمن أجل حواء، أُغلق باب الفردوس، ومن قِبَل مريم العذراء، فتح لنا مرة أخرى.,\nإستحققنا شجرة الحياة، لنأكل منها، أي جسد الله، ودمه الحقيقيين.,\nفلنسجد لمُخلِّصنا، محب البشر الصالح، لأنه ترأف علينا، أتى وخلَّصنا.,\nلم يزل إلهاً، أتى وصار إبن بشر، لكنه هو الإله الحقيقي، أتى وخلَّصنا.,\n",
-"arabiccoptic": " ابشووشوو إن نى بارثينوس تيروو: بيه ماريا تى ما سنووتى: إثفيتس أون أف فول ايفول: إنجيه بى صاهووي إن أرشيؤس .\nفي ايطافئى هيجين بين جينوس: هيتين تى بارافاسيس: إيطا تى إسهيمى شوبى إنخيتس: أسؤ أوم إيفول خين إبؤطاه إمبى إششين .\nإثفى ايفا أفماشتام: إم إفرو امبى باراذيوس: هيتن ماريا تى بارثينوس: أفؤ أون إمموف نان إنكيسوب .\nأن إر إب إبشا إمبى إش شين انتى ابؤنخ: إثرينوؤم ايفول انخيتف: ايتى فاى بي إبسوما إم إفنوتى: نيم بيف إسنوف إن آليثينون  .\nمارين أوؤشت إمبين سوتير: بى ماى رومى إت آغاثوس: جى إنثوف أفشين هيت خاروخ: أفئى أووه افسوتى إممون .\nإيطاف كين آن إف أوي إن نوتي: أفئي أفشوبي إنشيري إنرومي:آل إنثوف بي إفنوتي إممي: أفئأووه أفسوتي إممون .\n",
-"coptic": " `  P]ou]ou `nniparqenoc throu> pe Maria :macnou;> eqbhtc on afbwl `ebol> `nje pica\\o`i `narxeoc.\nVh`etaf`i \\ijen pengenoc> \\iten ;parabacic> `eta ;`c\\imi ]wpi `n=htc> acouwm `ebol =en `pouta\\ `mpi`]]hn\nEqbe `Eua auma]qam> `m`vro `mPiparadicoc> \\iten Maria :parqenoc> auouwn `mmof nan `nkecop.\nAner`pem`p]a `mpi`]]hn `nte `pwn=> eqrenouwm `ebol `n=htf> `ete vai pe `Pcwma `m`Vnou;> nem Pef`cnof `n`alhqinon.\nMarenouw]t `mPencwthr> Pimairwmi `n`agaqoc> je `nqof af]en\\ht =aron> af`i ouo\\ afcw; `mmon.\n`Etafkhn an efoi `nnou;> af`i af]wpi `n}hri `nrwmi> alla `nqof pe `Vnou; `mmhi> af`i ouo\\ afcw; `mmon.\n",
-"english": " The pride of all virgins, is Mary the Mother of God, for her sake He has revoked, the first curse.,\nWhich was pronounced upon our race, through the violation, incurred by the first woman, when she ate from the fruit of the tree.,\nBecause of Eve, the door of Paradise was closed, and through the Virgin Mary, it was opened to us once more.,\nWe have become worthy to have, the Tree of Life to eat from, which is the Body of God, and His true Blood.,\nLet us worship our Savior, the Good Lover of Mankind, for He had compassion upon us, He came and saved us.,\nHe did not cease to be divine. He came and became the Son of Man, for He is the true God, who came and saved us,\n",
-"englishcoptic": " Epshosho enni parthenos tiro : pe Maria ti-masnoti : ethvets on afvol evol : enje pi-sahoie en-arshe-os.\nVi-etaf-ee hijen pen-genos : hiten ti-parabasis : eta ti-eshimi shopi enkhits : as-o-om evol khen ep-otah empi-esheen.\nEthve Eva av-mashtam : emevro empi-paradisos : hiten Maria ti-parthenos : av-o-on emof nan enkesop.\nAn-er emepsha empi-eshin ente ep-onkh : ethren-o-om evol enkhitf : ete fai pe epsoma emevnoti : nem pef-esnof en-alithenos.\nMaren o-osht empen soteer, pi mai romy en aghathos, je enthof af shenheet kharon, af-e owoh afsoty emmon.\nEtaf-kin an ef-oi en-noti : af-ee afshopi enshiry enromi : alla enthof pe efnoti emmi : af-ee owoh afsoti emon.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(2) ثيؤطوكية الخميس",
+  "EnglishTitle": "Thursday Theotokia (2)",
+  "CopticTitle": "`  P]ou]ou `nniparqenoc throu",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فخر جميع العذارى، هي مريم والدة الإله، من أجلها أيضاً، نُقضت اللعنة الأولى.",
+      "Coptic": "`  P]ou]ou `nniparqenoc throu> pe Maria :macnou;> eqbhtc on afbwl `ebol> `nje pica\\o`i `narxeoc.",
+      "English": "The pride of all virgins, is Mary the Mother of God, for her sake He has revoked, the first curse.",
+      "Arabiccoptic": "ابشووشوو إن نى بارثينوس تيروو: بيه ماريا تى ما سنووتى: إثفيتس أون أف فول ايفول: إنجيه بى صاهووي إن أرشيؤس .",
+      "Englishcoptic": "Epshosho enni parthenos tiro : pe Maria ti-masnoti : ethvets on afvol evol : enje pi-sahoie en-arshe-os."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "التي جاءت على جنسنا، من قِبَل المخالفة، التي وقعت فيها المرأة، لما أكلت من ثمرة الشجرة.",
+      "Coptic": "Vh`etaf`i \\ijen pengenoc> \\iten ;parabacic> `eta ;`c\\imi ]wpi `n=htc> acouwm `ebol =en `pouta\\ `mpi`]]hn",
+      "English": "Which was pronounced upon our race, through the violation, incurred by the first woman, when she ate from the fruit of the tree.",
+      "Arabiccoptic": "في ايطافئى هيجين بين جينوس: هيتين تى بارافاسيس: إيطا تى إسهيمى شوبى إنخيتس: أسؤ أوم إيفول خين إبؤطاه إمبى إششين .",
+      "Englishcoptic": "Vi-etaf-ee hijen pen-genos : hiten ti-parabasis : eta ti-eshimi shopi enkhits : as-o-om evol khen ep-otah empi-esheen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من أجل حواء، أُغلق باب الفردوس، ومن قِبَل مريم العذراء، فتح لنا مرة أخرى.",
+      "Coptic": "Eqbe `Eua auma]qam> `m`vro `mPiparadicoc> \\iten Maria :parqenoc> auouwn `mmof nan `nkecop.",
+      "English": "Because of Eve, the door of Paradise was closed, and through the Virgin Mary, it was opened to us once more.",
+      "Arabiccoptic": "إثفى ايفا أفماشتام: إم إفرو امبى باراذيوس: هيتن ماريا تى بارثينوس: أفؤ أون إمموف نان إنكيسوب .",
+      "Englishcoptic": "Ethve Eva av-mashtam : emevro empi-paradisos : hiten Maria ti-parthenos : av-o-on emof nan enkesop."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "إستحققنا شجرة الحياة، لنأكل منها، أي جسد الله، ودمه الحقيقيين.",
+      "Coptic": "Aner`pem`p]a `mpi`]]hn `nte `pwn=> eqrenouwm `ebol `n=htf> `ete vai pe `Pcwma `m`Vnou;> nem Pef`cnof `n`alhqinon.",
+      "English": "We have become worthy to have, the Tree of Life to eat from, which is the Body of God, and His true Blood.",
+      "Arabiccoptic": "أن إر إب إبشا إمبى إش شين انتى ابؤنخ: إثرينوؤم ايفول انخيتف: ايتى فاى بي إبسوما إم إفنوتى: نيم بيف إسنوف إن آليثينون  .",
+      "Englishcoptic": "An-er emepsha empi-eshin ente ep-onkh : ethren-o-om evol enkhitf : ete fai pe epsoma emevnoti : nem pef-esnof en-alithenos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنسجد لمُخلِّصنا، محب البشر الصالح، لأنه ترأف علينا، أتى وخلَّصنا.",
+      "Coptic": "Marenouw]t `mPencwthr> Pimairwmi `n`agaqoc> je `nqof af]en\\ht =aron> af`i ouo\\ afcw; `mmon.",
+      "English": "Let us worship our Savior, the Good Lover of Mankind, for He had compassion upon us, He came and saved us.",
+      "Arabiccoptic": "مارين أوؤشت إمبين سوتير: بى ماى رومى إت آغاثوس: جى إنثوف أفشين هيت خاروخ: أفئى أووه افسوتى إممون .",
+      "Englishcoptic": "Maren o-osht empen soteer, pi mai romy en aghathos, je enthof af shenheet kharon, af-e owoh afsoty emmon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لم يزل إلهاً، أتى وصار إبن بشر، لكنه هو الإله الحقيقي، أتى وخلَّصنا.",
+      "Coptic": "`Etafkhn an efoi `nnou;> af`i af]wpi `n}hri `nrwmi> alla `nqof pe `Vnou; `mmhi> af`i ouo\\ afcw; `mmon.",
+      "English": "He did not cease to be divine. He came and became the Son of Man, for He is the true God, who came and saved us",
+      "Arabiccoptic": "إيطاف كين آن إف أوي إن نوتي: أفئي أفشوبي إنشيري إنرومي:آل إنثوف بي إفنوتي إممي: أفئأووه أفسوتي إممون .",
+      "Englishcoptic": "Etaf-kin an ef-oi en-noti : af-ee afshopi enshiry enromi : alla enthof pe efnoti emmi : af-ee owoh afsoti emon."
+    }
+  ]
 }

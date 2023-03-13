@@ -1,7 +1,52 @@
 {
-"arabic": " أنتِ هي السحابة الخفيفة، التي دلتنا على، مطر إستعلان، الإله الوحيد.,\nالآب صنعِك، والرُّوح القُدُس حلَّ عليكِ، وقوة العلي، ظللتِك يا مريم.,\n+ لأنكِ ولدِت، الكلمة الحقيقي، إبن الآب الدائم إلى الأبد، أتى وأنقذنا من خطايانا.,\nتطَّلع الآب من السماء، فلم يجد مَنْ يُشبهكِ، أرسل وحيده، أتى وتجسد منكِ.,\n",
-"arabiccoptic": " إنثوتيه تي تشيبى أيط اسى أواوو: ثى إيطاس إيرسيم مينين نان: إمبى موون هواووانتيه تى بارووسيا: انتيه بى مونوجينيس إن نووتى .\n+ آه إفيوت إيرتيخني تيس إيرو: آبي بنيفما اثؤواب إى إيجو: أووجوم إنتيه في إت تشوسى: إثنا إيرخيفى إيرو ماريا .\n+ جيه آريه إجفو إمبى آليثينوس: إن لوغوس إن شيرى انتيه إفيوت: إثمين ايفول شا إينيه: أفئى أفصوتين خين نين نوفى .\n+ آه إفيوت جووشت إيفول خين إتفى: امبيف جيم في إتؤنى إممو: أفؤواورب إمبيف مونو جينيس: إى آفتشى صاركس إيفول .\n",
-"coptic": " `Nqo te ;shpi et`aciwou> qh`etacercummenin nan> `mpimoun\\wou `nte ;paroucia> `nte pimonogenhc `nNou;.\n`A `Viwt ertexnithc `ero> `a Pi`pneuma Eqouab `i `ejw> oujom `nte Vhetsoci> eqnaer=hibi `ero Maria.\nJe `are`jvo `mPi`alhqinoc> `nLogoc `n}hri `nte `Viwt> eqmhn `ebol ]a `ene\\> af`i afcotten =en nennobi.\n`A `Viwt jou]t `ebol =en `tve> `mpefjem vhet`oni `mmo> afouwrp `mpefmonogenhc> `i afsicar[ `ebol `n=h;.\n",
-"english": " You are the light cloud, that has lead us to, the rain of the coming, of the only-begotten God.,\nThe Father created you, and the Holy Spirit came upon you, and the power of the Most High, overshadowed you O Mary.,\n+ For you have given birth, to the true Word, the Son of the ever-existing Father, who came and redeemed us from our sins.,\nThe Father looked from heaven, and found no one like you, He sent His only-begotten, who came and took flesh from you.,\n",
-"englishcoptic": " Entho te ti-echeepi etas-io-oo: thee-etas ersim-menin nan: empi-moon-ho-oo ente ti-paroo-seia: ente pi-mono-genees En-nooti.\nA Eviot ertek-ni-tees ero: a Pi-epnevma Ethowab ee-ego: oogom ente Vee-etchosi: ethna-erkheevi ero Maria.\nJe aregvo emPi-aleethinos: en-Loghos en-Sheeri ente Eviot: ethmeen evol sha eneh: af-ee af-sot-ten khen nen-novi.\nA Eviot goosht evol khen etve: empef jem vee et-oni emmo: af oo-orp empef-mono-genees: ee-afchi-sarex evol enkheeti.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(3) ثيؤطوكية الأربعاء",
+  "EnglishTitle": "Wednesday Theotokia (3)",
+  "CopticTitle": "`Nqo te ;shpi et`aciwou",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أنتِ هي السحابة الخفيفة، التي دلتنا على، مطر إستعلان، الإله الوحيد.",
+      "Coptic": "`Nqo te ;shpi et`aciwou> qh`etacercummenin nan> `mpimoun\\wou `nte ;paroucia> `nte pimonogenhc `nNou;.",
+      "English": "You are the light cloud, that has lead us to, the rain of the coming, of the only-begotten God.",
+      "Arabiccoptic": "إنثوتيه تي تشيبى أيط اسى أواوو: ثى إيطاس إيرسيم مينين نان: إمبى موون هواووانتيه تى بارووسيا: انتيه بى مونوجينيس إن نووتى .",
+      "Englishcoptic": "Entho te ti-echeepi etas-io-oo: thee-etas ersim-menin nan: empi-moon-ho-oo ente ti-paroo-seia: ente pi-mono-genees En-nooti."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآب صنعِك، والرُّوح القُدُس حلَّ عليكِ، وقوة العلي، ظللتِك يا مريم.",
+      "Coptic": "`A `Viwt ertexnithc `ero> `a Pi`pneuma Eqouab `i `ejw> oujom `nte Vhetsoci> eqnaer=hibi `ero Maria.",
+      "English": "The Father created you, and the Holy Spirit came upon you, and the power of the Most High, overshadowed you O Mary.",
+      "Arabiccoptic": "\b آه إفيوت إيرتيخني تيس إيرو: آبي بنيفما اثؤواب إى إيجو: أووجوم إنتيه في إت تشوسى: إثنا إيرخيفى إيرو ماريا .",
+      "Englishcoptic": "A Eviot ertek-ni-tees ero: a Pi-epnevma Ethowab ee-ego: oogom ente Vee-etchosi: ethna-erkheevi ero Maria."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b لأنكِ ولدِت، الكلمة الحقيقي، إبن الآب الدائم إلى الأبد، أتى وأنقذنا من خطايانا.",
+      "Coptic": "Je `are`jvo `mPi`alhqinoc> `nLogoc `n}hri `nte `Viwt> eqmhn `ebol ]a `ene\\> af`i afcotten =en nennobi.",
+      "English": "\b For you have given birth, to the true Word, the Son of the ever-existing Father, who came and redeemed us from our sins.",
+      "Arabiccoptic": "\b جيه آريه إجفو إمبى آليثينوس: إن لوغوس إن شيرى انتيه إفيوت: إثمين ايفول شا إينيه: أفئى أفصوتين خين نين نوفى .",
+      "Englishcoptic": "Je aregvo emPi-aleethinos: en-Loghos en-Sheeri ente Eviot: ethmeen evol sha eneh: af-ee af-sot-ten khen nen-novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تطَّلع الآب من السماء، فلم يجد مَنْ يُشبهكِ، أرسل وحيده، أتى وتجسد منكِ.",
+      "Coptic": "`A `Viwt jou]t `ebol =en `tve> `mpefjem vhet`oni `mmo> afouwrp `mpefmonogenhc> `i afsicar[ `ebol `n=h;.",
+      "English": "The Father looked from heaven, and found no one like you, He sent His only-begotten, who came and took flesh from you.",
+      "Arabiccoptic": "\b آه إفيوت جووشت إيفول خين إتفى: امبيف جيم في إتؤنى إممو: أفؤواورب إمبيف مونو جينيس: إى آفتشى صاركس إيفول .",
+      "Englishcoptic": "A Eviot goosht evol khen etve: empef jem vee et-oni emmo: af oo-orp empef-mono-genees: ee-afchi-sarex evol enkheeti."
+    }
+  ]
 }

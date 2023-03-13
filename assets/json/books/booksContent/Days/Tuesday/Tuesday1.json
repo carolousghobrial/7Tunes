@@ -1,7 +1,63 @@
 {
-"arabic": " إكليل فخرنا، ورأس خلاصنا، وثبات طُهرنا، هي مريم العذراء.,\n+ التي ولدت لنا، الله الكلمة، الذي صار إنساناً، لإجل خلاصنا.,\nوبعد أن صار إنساناً، هو الإله أيضاً، فلهذا ولدته، وهي عذراء.,\n+ عالية هي الأُعجوبة، التي لحبلها، وولادتها أيضاً، لا يُنطق به.,\nلأنه بإرادته، ومسرة أبيه، والرُّوح القُدُس، أتى وخلصنا.,\n",
-"arabiccoptic": " بى إكلوم إنتى بين شووشوو: إت آبارشى إمبين صوتى: إبتاجرو إمبين تووفو: بيه ماريا تى بارثينوس .\nثى إيطاس ميسى نان: إم افنووتى بى لوغوس: في إيطاف شوبى إنرومى: اثفى بين أووجاى .\nمينينصا إثريف إير رومى: إنثوف أون بيه إفنووتى: اثفى فاى أسماسف: إسؤى إمبارثينوس .\nاستشوسى إنجى تى إشفيرى: انتى بيس جين إرفوكى: بيس جين ميسى أون : أوو أتصاجى إمموف بيه .\nجى إنثوف خين بيف أوو أوش: نيم إبتى ماتى إمبيف يوت: نيم بى ابنفما إثؤواب: أفئى أفصوتى إممون .\n",
-"coptic": " Pi`xlom `nte pen]ou]ou> `t`aparxh `mpencw;> `ptajro `mpentoubo> pe Maria :parqenoc.\nQh`etacmici nan> `m`Vnou; Pilogoc> vh`etaf]wpi `nrwmi> eqbe penoujai.\nMenenca `qreferrwmi> `nqof on pe `Vnou;> eqbe vai acmacf> ecoi `mparqenoc.\n`Csoci `nje ;`]vhri> `nte pecjinerboki> pecjinmici on> ouatcaji `mmof pe.\nJe `nqof =en pefouw]> nem `p;ma; `mPefiwt> nem Pi`pneuma Eqouab> af`i afcw; `mmon.\n",
-"english": " The crown of our pride, the head of our salvation, the confirmation of our purity, is the Virgin Mary.,\nWho for us gave birth, to God the Word, who became man, for our salvation.,\nAnd after He became man, He remained God, wherefore she gave birth to Him, while a virgin.,\nExalted is the wonder, of her pregnancy, and her delivery, is unutterable.,\nFor of His own will, and the pleasure of His Father, and the Holy Spirit, He came and saved us.,\n",
-"englishcoptic": " Pi-eklom ente pen shooshoo: eta-parshee empen-soti: ep-tagro empen-toovo: pe Maria Ti-parthenos.\nThee-etas-misi nan: em-Evnooti Pi-loghos: vee-etaf-shopi enromi: ethve pen-oogai.\nMen-ensa ethref-er-romi: enthof on pe Evnoti: ethve fai asmasf: es-oi em-parthenos.\nEs-echosi enje ti-eshveeri: ente pes-jin-ervoki: pes-jinmisi on: oo-atsaji emmof pe.\nJe enthof khen pef-oo-osh: nem epti-mati emPefiot: nem Pi-epnevma Ethooab: af-ee af-soti emmon.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(1) ثيؤطوكية الثلاثاء",
+  "EnglishTitle": "Tuesday Theotokia (1)",
+  "CopticTitle": "Pi`xlom `nte pen]ou]ou",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إكليل فخرنا، ورأس خلاصنا، وثبات طُهرنا، هي مريم العذراء.",
+      "Coptic": "Pi`xlom `nte pen]ou]ou> `t`aparxh `mpencw;> `ptajro `mpentoubo> pe Maria :parqenoc.",
+      "English": "The crown of our pride, the head of our salvation, the confirmation of our purity, is the Virgin Mary.",
+      "Arabiccoptic": "بى إكلوم إنتى بين شووشوو: إت آبارشى إمبين صوتى: إبتاجرو إمبين تووفو: بيه ماريا تى بارثينوس .",
+      "Englishcoptic": "Pi-eklom ente pen shooshoo: eta-parshee empen-soti: ep-tagro empen-toovo: pe Maria Ti-parthenos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b التي ولدت لنا، الله الكلمة، الذي صار إنساناً، لإجل خلاصنا.",
+      "Coptic": "Qh`etacmici nan> `m`Vnou; Pilogoc> vh`etaf]wpi `nrwmi> eqbe penoujai.",
+      "English": "Who for us gave birth, to God the Word, who became man, for our salvation.",
+      "Arabiccoptic": "ثى إيطاس ميسى نان: إم افنووتى بى لوغوس: في إيطاف شوبى إنرومى: اثفى بين أووجاى .",
+      "Englishcoptic": "Thee-etas-misi nan: em-Evnooti Pi-loghos: vee-etaf-shopi enromi: ethve pen-oogai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبعد أن صار إنساناً، هو الإله أيضاً، فلهذا ولدته، وهي عذراء.",
+      "Coptic": "Menenca `qreferrwmi> `nqof on pe `Vnou;> eqbe vai acmacf> ecoi `mparqenoc.",
+      "English": "And after He became man, He remained God, wherefore she gave birth to Him, while a virgin.",
+      "Arabiccoptic": "مينينصا إثريف إير رومى: إنثوف أون بيه إفنووتى: اثفى فاى أسماسف: إسؤى إمبارثينوس .",
+      "Englishcoptic": "Men-ensa ethref-er-romi: enthof on pe Evnoti: ethve fai asmasf: es-oi em-parthenos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b عالية هي الأُعجوبة، التي لحبلها، وولادتها أيضاً، لا يُنطق به.",
+      "Coptic": "`Csoci `nje ;`]vhri> `nte pecjinerboki> pecjinmici on> ouatcaji `mmof pe.",
+      "English": "Exalted is the wonder, of her pregnancy, and her delivery, is unutterable.",
+      "Arabiccoptic": "استشوسى إنجى تى إشفيرى: انتى بيس جين إرفوكى: بيس جين ميسى أون : أوو أتصاجى إمموف بيه .",
+      "Englishcoptic": "Es-echosi enje ti-eshveeri: ente pes-jin-ervoki: pes-jinmisi on: oo-atsaji emmof pe."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه بإرادته، ومسرة أبيه، والرُّوح القُدُس، أتى وخلصنا.",
+      "Coptic": "Je `nqof =en pefouw]> nem `p;ma; `mPefiwt> nem Pi`pneuma Eqouab> af`i afcw; `mmon.",
+      "English": "For of His own will, and the pleasure of His Father, and the Holy Spirit, He came and saved us.",
+      "Arabiccoptic": "جى إنثوف خين بيف أوو أوش: نيم إبتى ماتى إمبيف يوت: نيم بى ابنفما إثؤواب: أفئى أفصوتى إممون .",
+      "Englishcoptic": "Je enthof khen pef-oo-osh: nem epti-mati emPefiot: nem Pi-epnevma Ethooab: af-ee af-soti emmon."
+    }
+  ]
 }

@@ -1,7 +1,52 @@
 {
-"arabic": " كل الأسماء العالية, التى لغير المتجسدين, الوف الملائكة, ورؤساء الملائكة.,\nلم يبلغوا, عظمة طوباويتك, أيتها المشتملة, بمجد رب الجنود.,\nأنت مضيئة, أكثر من الشمس, و أنتِ لامعة, أكثر من الشاروبيم.,\nوالسيرافيم, ذوى الستة الأجنحة, يرفرفون عيك, بكل تهليل.,\n",
-"arabiccoptic": " ران نيفين إتتشوسى. إنتى نى أسوماتوس. نى أنانشو إن أنجيلوس. نيم أرشى أنجيلوس.\nإمبو إشفوه إإبتشيسى. إنتى نى ماكاريزموس. أو ثى إتجوله إمبى أوأو. إنتى إبشويس صاباؤوت.\nتيهى أكتين إيفول. إيهوتى إفرى. تيؤى إنلام إبروس. إيهوتى ني شيروبيم.\nنيم نى سيرافيم. نابى سو إنتينه. سى إيرريبيزين خاجو. خين أو إشليلوى.\n",
-"coptic": " Ran niben etsoci > `nte niacwmatoc > ni`anaan]o `naggeloc > nem arxh aggeloc.\n`Mpou`]vo\\ `e`psici > `nte nimakaricmoc > `w qhetjol\\ `mpi`wou > `nte P_ cabawq .\nTe\\iaktin `ebol > `e\\ote `vrh > teoi `nlam`proc >`e\\ote Nixeroubim.\nNem Nicravim > na pi,/ nten\\ > ceerripizin =ajw > =en ou`e`]lhlou`i.\n",
-"english": " All the high names of the incorporeal: thousands of angels: and archangels.,\nThey did not attain: your high blessedness. O who is clothed in the glory of the Lord of Hosts.,\nYou are brighter: than the sun and more sparkling: than the cherubim.,\nAnd the seraphim: with the six wings: which are joyfully: hovering over you.,\n",
-"englishcoptic": " Ran niven etit-shosi, ente-ni-asomatos, ni-ananshon-angelos, nem arshi-angelos.\nEmpo eshfo epet-chisi, ente ne-makaris-mos, o-thiet-gloh empi-o-o, ente Epshois sava-ot.\nTi-heiak-ten evol, e-hote efri, teoi enlam-epros, e-hote ni-Sherobim.\nNem ni-Seraphim, na pi-so-oo entenh, se-er-ripi-zin khago, khen o-eshli-lowe.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(11) ثيؤطوكية الأحد",
+  "EnglishTitle": "Sunday Theotokia (11)",
+  "CopticTitle": "Ran niben etsoci ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كل الأسماء العالية, التى لغير المتجسدين, الوف الملائكة, ورؤساء الملائكة.",
+      "Coptic": "Ran niben etsoci > `nte niacwmatoc > ni`anaan]o `naggeloc > nem arxh aggeloc.",
+      "English": "All the high names of the incorporeal: thousands of angels: and archangels.",
+      "Arabiccoptic": "ران نيفين إتتشوسى. إنتى نى أسوماتوس. نى أنانشو إن أنجيلوس. نيم أرشى أنجيلوس.",
+      "Englishcoptic": "Ran niven etit-shosi, ente-ni-asomatos, ni-ananshon-angelos, nem arshi-angelos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لم يبلغوا, عظمة طوباويتك, أيتها المشتملة, بمجد رب الجنود.",
+      "Coptic": "`Mpou`]vo\\ `e`psici > `nte nimakaricmoc > `w qhetjol\\ `mpi`wou > `nte P_ cabawq .",
+      "English": "They did not attain: your high blessedness. O who is clothed in the glory of the Lord of Hosts.",
+      "Arabiccoptic": "إمبو إشفوه إإبتشيسى. إنتى نى ماكاريزموس. أو ثى إتجوله إمبى أوأو. إنتى إبشويس صاباؤوت.",
+      "Englishcoptic": "Empo eshfo epet-chisi, ente ne-makaris-mos, o-thiet-gloh empi-o-o, ente Epshois sava-ot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت مضيئة, أكثر من الشمس, و أنتِ لامعة, أكثر من الشاروبيم.",
+      "Coptic": "Te\\iaktin `ebol > `e\\ote `vrh > teoi `nlam`proc >`e\\ote Nixeroubim.",
+      "English": "You are brighter: than the sun and more sparkling: than the cherubim.",
+      "Arabiccoptic": "تيهى أكتين إيفول. إيهوتى إفرى. تيؤى إنلام إبروس. إيهوتى ني شيروبيم.",
+      "Englishcoptic": "Ti-heiak-ten evol, e-hote efri, teoi enlam-epros, e-hote ni-Sherobim."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "والسيرافيم, ذوى الستة الأجنحة, يرفرفون عيك, بكل تهليل.",
+      "Coptic": "Nem Nicravim > na pi,/ nten\\ > ceerripizin =ajw > =en ou`e`]lhlou`i.",
+      "English": "And the seraphim: with the six wings: which are joyfully: hovering over you.",
+      "Arabiccoptic": "نيم نى سيرافيم. نابى سو إنتينه. سى إيرريبيزين خاجو. خين أو إشليلوى.",
+      "Englishcoptic": "Nem ni-Seraphim, na pi-so-oo entenh, se-er-ripi-zin khago, khen o-eshli-lowe."
+    }
+  ]
 }

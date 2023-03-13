@@ -41,6 +41,7 @@ function BookScreen({ navigation, route }) {
   const [index, setIndex] = useState(0);
   const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
   const [newIndex, setnewIndex] = useState(0);
+  const [scrollToIndex, setscrollToIndex] = useState(0);
   const [englishTitle, setenglishTitle] = useState("");
   const [copticTitle, setcopticTitle] = useState("");
   const [arabicTitle, setarabicTitle] = useState("");
@@ -62,7 +63,11 @@ function BookScreen({ navigation, route }) {
   // };
   const onViewableItemsChanged = React.useCallback(({ viewableItems }) => {
     try {
-      console.log(viewableItems[0].key);
+      if (viewableItems[0].item.EnglishTitle != englishTitle) {
+        setenglishTitle(viewableItems[0].item.EnglishTitle);
+        setcopticTitle(viewableItems[0].item.CopticTitle);
+        setarabicTitle(viewableItems[0].item.ArabicTitle);
+      }
       setnewIndex(viewableItems[0].key);
 
       sehowMcuhToScroll(viewableItems.length - 1);
@@ -86,24 +91,17 @@ function BookScreen({ navigation, route }) {
     setIndex(scrollnewIndex);
   }
   function scrollToKey(key) {
-    flatListRef.current.scrollToIndex({ index: key, animated: false });
-    // setscrollToIndex(key);
+    setenglishTitle(data[key].EnglishTitle);
+    setcopticTitle(data[key].CopticTitle);
+    setarabicTitle(data[key].ArabicTitle);
+    setscrollToIndex(key);
   }
 
   useEffect(() => {
     StatusBar.setHidden(NavbarVisibility);
-    if (index != newIndex) {
-      setIndex(newIndex);
-      var item = data.find((item) => item.key === index);
-      setenglishTitle(item.EnglishTitle);
-      setcopticTitle(item.CopticTitle);
-      setarabicTitle(item.ArabicTitle);
-    }
+
     navigation.setOptions({
-      title: englishTitle,
-      headerTitleStyle: {
-        fontSize: 10,
-      },
+      headerShown: NavbarVisibility,
       header: () => (
         <CustomHeader
           navigation={navigation}
@@ -113,14 +111,12 @@ function BookScreen({ navigation, route }) {
         />
       ),
     });
-  }, [newIndex]);
-  function hideHeader() {
-    // Function to change navigation options
-
-    navigation.setOptions({
-      headerShown: !NavbarVisibility,
+    flatListRef.current.scrollToIndex({
+      index: scrollToIndex,
+      animated: false,
     });
-
+  }, [NavbarVisibility, scrollToIndex]);
+  function hideHeader() {
     setNavbarVisibility(!NavbarVisibility);
   }
 
@@ -128,50 +124,22 @@ function BookScreen({ navigation, route }) {
     let content = {};
     switch (itemData.item.part.Type) {
       case "Base":
-        //MainView
-        //check Rule
-        //check Visible
-        //Get View
-
         content = <BaseView item={itemData.item.part}></BaseView>;
-        //content = <Text>Main</Text>;
 
-        // viewArray.push(
-        //
-        // );
         break;
       case "Melody":
-        //Title
-        //check Rule
-        //check Visible
-        //Get View
         content = <MelodyView item={itemData.item.part}></MelodyView>;
-        // content = <Text>Main</Text>;
 
         break;
       case "Title":
-        //Title
-        //check Rule
-        //check Visible
-        //Get View
         content = <TitleView item={itemData.item.part}></TitleView>;
-        //content = <Text>Main</Text>;
 
         break;
       case "Ritual":
-        //Ritual
-        //check Rule
-        //check Visible
-        //Get View
         content = <RitualView item={itemData.item.part}></RitualView>;
-        //content = <Text>Main</Text>;
 
         break;
       case "Button":
-        //Button
-        //check Rule
-        //check Visible
-        //Get View
         content = <ButtonView item={itemData.item.part}></ButtonView>;
         break;
 
@@ -193,7 +161,10 @@ function BookScreen({ navigation, route }) {
         onViewableItemsChanged={onViewableItemsChanged}
         showsVerticalScrollIndicator={false}
         data={data}
+        initialNumToRender={data.length / 5}
+        removeClippedSubviews={true}
         onScrollToIndexFailed={(error) => {
+          console.log(error);
           flatListRef.current.scrollToOffset({
             offset: error.averageItemLength * error.index,
             animated: false,
@@ -205,9 +176,9 @@ function BookScreen({ navigation, route }) {
                 animated: false,
               });
             }
-          }, 500);
+          }, 10);
         }}
-        initialNumToRender={data.length}
+        initialScrollIndex={scrollToIndex}
         renderItem={renderItems}
         keyExtractor={(item) => {
           return item.key;

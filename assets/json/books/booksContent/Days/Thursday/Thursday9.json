@@ -1,7 +1,85 @@
 {
-"arabic": " رأيت آية ظهرت في السماء، إذ بإمرأة متسربلة، بالشمس والقمر أيضاً، تحت رجليها.,\nوإثنا عشر كوكباً، تكلل رأسها، وهي حُبلى تتمخض، صارخة لتلد.,\nهي مريم، السماء الجديدة التي على الأرض، المشرقة لنا منها، شمس البر.,\nلأن الشمس المتسربلة بها، هي ربنا يسوع المسيح، والقمر الذي تحت رجليها، هو يوحنا المعمدان.,\nوالإثنا عشر كوكباً، المكللة رأسها، هي الإثنا عشر رسولاً، يحيطون بها ويكرمونها.,\nفلهذا يا جميع الشعوب، نمجد العذراء، لأنها ولدت لنا الله، وبتوليتها مختومة.,\nلم يزل إلهاً، أتى وصار إبن بشر، لكنه هو الإله الحقيقي، أتى وخلَّصنا.,\n",
-"arabiccoptic": " أيناف إى إومينى: أفؤ أونهف خين إتفى: يسى أو إسهيمى اسجوله إم إفرى: انثوس أون إرى بيوه: سابيسيت إن نيس تشالافج  .\nإيريه أوؤن ميت اسناف إنسيو: إوى اكلوم هيجين تيس آفى: إس إمفوكى اس تى ناكهى: إسؤش ايفول ساناميسى .\nإيتيه ثاى تى ماريا: تى في إمفيرى إتهيجين بى كاهى: إيطا بيرى إنتى تى ميثمى: شاى نان ايفول إنخيتس  .\nبي رى غار إى تيس جوله إمموف: بى بينشويس إيسوس بخرستوس: أووه بيوه إت خانيس تشالافج: بى يؤانس بى ريفتى أومس .\nبي ميت إسناف غار إنسيو: إتؤي إن إكلوم إي جين تيس آفي: بي بي ميت إسناف إن أبوستولوس: إفكوتي إيروس إفتي تايو ناس .\nإثفيه فاي ني لاؤس تيرو: مارين تي أو أو إن تي بارثينوس: جي أسميسي نان إمفنوتي: إستوب إنجي تيس بارثينيا .\nإيطاف كين آن إف أوي إن نوتي: أفئي أفشوبي إنشيري إنرومي:آل إنثوف بي إفنوتي إممي: أفئأووه أفسوتي إممون .\n",
-"coptic": " Ainau `eoumhini afouon\\f =en `tve> ic ou`c\\imi ecjol\\ `m`vrh> `nqoc on `ere piio\\> capecht `nnecsalauj.\n`Ere ouon mht`cnau `nciou> oi `xlom `ejen tec`ave> ec`mboki ec;nak\\i> ecw] `ebol ecnamici.\n`Ete qai te Maria> ;ve `mberi et\\ijen pika\\i> `eta Pirh `nte ;meqmhi> ]ai nan `ebol `n=htc.\nPirh gar `etecjol\\ `mmof> pe Pensoic Ihcouc Pi`xrictoc> ouo\\ piio\\ et=a necsalauj> pe Iwannhc piref;wmc.\nPimht`cnau gar `nciou> etoi `n`xlom `ejen tec`ave> pe pimht`cnau `n`apoctoloc> eukw; `eroc eu;taio nac.\nEqbe vai nilaoc throu> maren;`wou `n:parqenoc> je acmici nan `m`Vnou;> ectob `nje tecparqenia.\n`Etafkhn an efoi `nnou;> af`i af]wpi `n}hri `nrwmi> alla `nqof pe `Vnou; `mmhi> af`i ouo\\ afcw; `mmon.\n",
-"english": " I saw a miracle that appeared in heaven, a woman is clothed with the sun, and the moon also, was under her feet.,\nUpon her head was a crown of twelve stars, she being with child, cried out in labor, and travail to give birth.,\nThis is Mary, the new heaven on earth, the Sun of Righteousness, shines upon us from her.,\nFor the Sun that is clothing her, is our Lord Jesus Christ, and the moon under her feet, is John the Baptist.,\nFor the crown of twelve stars, upon her head, are the twelve apostles, who surround her and honor her.,\nWherefore all you nations, let us glorify the Virgin, for she gave birth to God, and her virginity remained sealed.,\nHe did not case to be divine, He came and became the Son of Man, for He is the true God, who came and saved us.,\n",
-"englishcoptic": " Ainav e-omenini af-o-onhf khen etfe : yes o-es-himi esgolh emevri :\nEre o-on meet-esnav en-sio : oi eneklom ejen tes-ave : es emvoki esti-nakhi : es-osh evol esna-misi.\nEte thai te Maria : tive emveri et-hijen pi-kahi : eta piri ente ti-methmi : shai nan evol enkhits.\nPiri ghar etes-golh emof : pe penchois Isos Pikhristos : owoh peyoh etkha nese-chalavg : pe Youannis pirefti-oms\nPi-meet esnav ghar ensio : et-oi eneklom ejen tes-ave : pe pi-meet esnav en-Apostlos : ev-koti eros evti-taio nas.\nEthve vai ni-laos tiro : marenti-o-oo enti-Parthenos : je asmisi nan emevnoti : estob enje tes-Parthenia.\nEtaf-kin an ef-oi en-noti : af-ee afshopi enshiry enromi : alla enthof pe efnoti emmi : af-ee owoh afsoti emon.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(9) ثيؤطوكية الخميس",
+  "EnglishTitle": "Thursday Theotokia (9)",
+  "CopticTitle": "Ainau `eoumhini afouon\\f =en `tve",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رأيت آية ظهرت في السماء، إذ بإمرأة متسربلة، بالشمس والقمر أيضاً، تحت رجليها.",
+      "Coptic": "Ainau `eoumhini afouon\\f =en `tve> ic ou`c\\imi ecjol\\ `m`vrh> `nqoc on `ere piio\\> capecht `nnecsalauj.",
+      "English": "I saw a miracle that appeared in heaven, a woman is clothed with the sun, and the moon also, was under her feet.",
+      "Arabiccoptic": "أيناف إى إومينى: أفؤ أونهف خين إتفى: يسى أو إسهيمى اسجوله إم إفرى: انثوس أون إرى بيوه: سابيسيت إن نيس تشالافج  .",
+      "Englishcoptic": "Ainav e-omenini af-o-onhf khen etfe : yes o-es-himi esgolh emevri :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وإثنا عشر كوكباً، تكلل رأسها، وهي حُبلى تتمخض، صارخة لتلد.",
+      "Coptic": "`Ere ouon mht`cnau `nciou> oi `xlom `ejen tec`ave> ec`mboki ec;nak\\i> ecw] `ebol ecnamici.",
+      "English": "Upon her head was a crown of twelve stars, she being with child, cried out in labor, and travail to give birth.",
+      "Arabiccoptic": "إيريه أوؤن ميت اسناف إنسيو: إوى اكلوم هيجين تيس آفى: إس إمفوكى اس تى ناكهى: إسؤش ايفول ساناميسى .",
+      "Englishcoptic": "Ere o-on meet-esnav en-sio : oi eneklom ejen tes-ave : es emvoki esti-nakhi : es-osh evol esna-misi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هي مريم، السماء الجديدة التي على الأرض، المشرقة لنا منها، شمس البر.",
+      "Coptic": "`Ete qai te Maria> ;ve `mberi et\\ijen pika\\i> `eta Pirh `nte ;meqmhi> ]ai nan `ebol `n=htc.",
+      "English": "This is Mary, the new heaven on earth, the Sun of Righteousness, shines upon us from her.",
+      "Arabiccoptic": "إيتيه ثاى تى ماريا: تى في إمفيرى إتهيجين بى كاهى: إيطا بيرى إنتى تى ميثمى: شاى نان ايفول إنخيتس  .",
+      "Englishcoptic": "Ete thai te Maria : tive emveri et-hijen pi-kahi : eta piri ente ti-methmi : shai nan evol enkhits."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأن الشمس المتسربلة بها، هي ربنا يسوع المسيح، والقمر الذي تحت رجليها، هو يوحنا المعمدان.",
+      "Coptic": "Pirh gar `etecjol\\ `mmof> pe Pensoic Ihcouc Pi`xrictoc> ouo\\ piio\\ et=a necsalauj> pe Iwannhc piref;wmc.",
+      "English": "For the Sun that is clothing her, is our Lord Jesus Christ, and the moon under her feet, is John the Baptist.",
+      "Arabiccoptic": "بي رى غار إى تيس جوله إمموف: بى بينشويس إيسوس بخرستوس: أووه بيوه إت خانيس تشالافج: بى يؤانس بى ريفتى أومس .",
+      "Englishcoptic": "Piri ghar etes-golh emof : pe penchois Isos Pikhristos : owoh peyoh etkha nese-chalavg : pe Youannis pirefti-oms"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والإثنا عشر كوكباً، المكللة رأسها، هي الإثنا عشر رسولاً، يحيطون بها ويكرمونها.",
+      "Coptic": "Pimht`cnau gar `nciou> etoi `n`xlom `ejen tec`ave> pe pimht`cnau `n`apoctoloc> eukw; `eroc eu;taio nac.",
+      "English": "For the crown of twelve stars, upon her head, are the twelve apostles, who surround her and honor her.",
+      "Arabiccoptic": "بي ميت إسناف غار إنسيو: إتؤي إن إكلوم إي جين تيس آفي: بي بي ميت إسناف إن أبوستولوس: إفكوتي إيروس إفتي تايو ناس .",
+      "Englishcoptic": "Pi-meet esnav ghar ensio : et-oi eneklom ejen tes-ave : pe pi-meet esnav en-Apostlos : ev-koti eros evti-taio nas."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "فلهذا يا جميع الشعوب، نمجد العذراء، لأنها ولدت لنا الله، وبتوليتها مختومة.",
+      "Coptic": "Eqbe vai nilaoc throu> maren;`wou `n:parqenoc> je acmici nan `m`Vnou;> ectob `nje tecparqenia.",
+      "English": "Wherefore all you nations, let us glorify the Virgin, for she gave birth to God, and her virginity remained sealed.",
+      "Arabiccoptic": "إثفيه فاي ني لاؤس تيرو: مارين تي أو أو إن تي بارثينوس: جي أسميسي نان إمفنوتي: إستوب إنجي تيس بارثينيا .",
+      "Englishcoptic": "Ethve vai ni-laos tiro : marenti-o-oo enti-Parthenos : je asmisi nan emevnoti : estob enje tes-Parthenia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لم يزل إلهاً، أتى وصار إبن بشر، لكنه هو الإله الحقيقي، أتى وخلَّصنا.",
+      "Coptic": "`Etafkhn an efoi `nnou;> af`i af]wpi `n}hri `nrwmi> alla `nqof pe `Vnou; `mmhi> af`i ouo\\ afcw; `mmon.",
+      "English": "He did not case to be divine, He came and became the Son of Man, for He is the true God, who came and saved us.",
+      "Arabiccoptic": "إيطاف كين آن إف أوي إن نوتي: أفئي أفشوبي إنشيري إنرومي:آل إنثوف بي إفنوتي إممي: أفئأووه أفسوتي إممون .",
+      "Englishcoptic": "Etaf-kin an ef-oi en-noti : af-ee afshopi enshiry enromi : alla enthof pe efnoti emmi : af-ee owoh afsoti emon."
+    }
+  ]
 }

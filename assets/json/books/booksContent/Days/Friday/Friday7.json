@@ -1,7 +1,41 @@
 {
-"arabic": " العذراء مريم، تصرخ في الهيكل، قائلة \"سلامي أنا، يَعلمه الله.,\nلأني لا أعرف شيئاً، سوى صوت الملاك، يبشرني بفرح، آتٍ إليَّ من السماء.\",\nهو أخذ الذي لنا، وأعطانا الذي له، نسبحه ونمجده، ونزيده علواً,\n",
-"arabiccoptic": " تى بارثينوس ماريام: أوش إيفول خين بى إرفى: جيه با أسبازموس آنوك: افنووتى بيت ايمى إيروف .\nتى صواوون غار إن إهلى آن: إيفيل إيه إت إسمى إنتيه بي أنجيلوس: أفهي شينووفى نى إن أوراشى: إفنيوو نى إيفول خين اتفيه .\nانثوف أفتشى إننى إيتيه نوون: افتى نان اننى إيتيه نووف: تين هوس إيروف تين تى أو أوو ناف: تين اير هوؤو تشيسى إمموف .\n",
-"coptic": " :par;enoc Mariam> w] `ebol =en piervei> je paacpacmoc `anok> `Vnou; pet`emi `erof.\n:cwoun gar `n`\\li an> `ebhl `e`t`cmh `nte piaggeloc> ef\\i]ennoufi nhi `noura]i> efnhou nhi `ebol =en `tve.\n` Nqof afsi `nnh`ete noun> af; nan `nnh`ete nouf> ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof.\n",
-"english": " The Virgin Mary has proclaimed, in the altar, saying “My peace, God does know.,\nFor I know nothing, other than the voice of the angel, announcing the joy, coming to me from heaven.”,\nHe took what is ours, and gave us what is His, we praise and glorify Him, and exalt Him.,\n",
-"englishcoptic": " Ti-parthenos Mariam : Osh evol khen pi-erfei : je pa-aspasmos anok : evnoti pet-emi erof.\nTiso-on ghar en-ehli an : evil etesmi ente pi-angelos : efhi-shenofi nee no-rashi : efneio nee evol khen etfe.\nEnthof avchi eni-ete non : afti nan eni-ete nof : tenhos erof tenti-oo naf : ten-erho-oo chisi emof.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(7) ثيؤطوكية الجمعة",
+  "EnglishTitle": "Friday Theotokia (7)",
+  "CopticTitle": ":par;enoc Mariam",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "العذراء مريم، تصرخ في الهيكل، قائلة \"سلامي أنا، يَعلمه الله.",
+      "Coptic": ":par;enoc Mariam> w] `ebol =en piervei> je paacpacmoc `anok> `Vnou; pet`emi `erof.",
+      "English": "The Virgin Mary has proclaimed, in the altar, saying “My peace, God does know.",
+      "Arabiccoptic": "تى بارثينوس ماريام: أوش إيفول خين بى إرفى: جيه با أسبازموس آنوك: افنووتى بيت ايمى إيروف .",
+      "Englishcoptic": "Ti-parthenos Mariam : Osh evol khen pi-erfei : je pa-aspasmos anok : evnoti pet-emi erof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأني لا أعرف شيئاً، سوى صوت الملاك، يبشرني بفرح، آتٍ إليَّ من السماء.\"",
+      "Coptic": ":cwoun gar `n`\\li an> `ebhl `e`t`cmh `nte piaggeloc> ef\\i]ennoufi nhi `noura]i> efnhou nhi `ebol =en `tve.",
+      "English": "For I know nothing, other than the voice of the angel, announcing the joy, coming to me from heaven.”",
+      "Arabiccoptic": "تى صواوون غار إن إهلى آن: إيفيل إيه إت إسمى إنتيه بي أنجيلوس: أفهي شينووفى نى إن أوراشى: إفنيوو نى إيفول خين اتفيه .",
+      "Englishcoptic": "Tiso-on ghar en-ehli an : evil etesmi ente pi-angelos : efhi-shenofi nee no-rashi : efneio nee evol khen etfe."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هو أخذ الذي لنا، وأعطانا الذي له، نسبحه ونمجده، ونزيده علواً",
+      "Coptic": "` Nqof afsi `nnh`ete noun> af; nan `nnh`ete nouf> ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof.",
+      "English": "He took what is ours, and gave us what is His, we praise and glorify Him, and exalt Him.",
+      "Arabiccoptic": "انثوف أفتشى إننى إيتيه نوون: افتى نان اننى إيتيه نووف: تين هوس إيروف تين تى أو أوو ناف: تين اير هوؤو تشيسى إمموف .",
+      "Englishcoptic": "Enthof avchi eni-ete non : afti nan eni-ete nof : tenhos erof tenti-oo naf : ten-erho-oo chisi emof."
+    }
+  ]
 }

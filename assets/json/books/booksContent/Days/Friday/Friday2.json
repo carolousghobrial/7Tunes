@@ -1,7 +1,52 @@
 {
-"arabic": " مباركة أنتِ أفضل من السماء، ومكرمة أفضل من الأرض، أنت فُقتِ كل فكر، مَنْ يقدر أن يصف كرامتك.,\nليس من يُشبهِك، يا مريم العذراء، الملائكة تكرمِك، والسِّرافيم تُمجدِك.,\nلأن الذي على الشاروبيم، أتى وتجسد منكِ، حتى إتحدنا به، من قِبَل صلاحه.,\nهو أخذ الذي لنا، وأعطانا الذي له، نسبحه ونمجده، ونزيده علواً.,\n",
-"arabiccoptic": " تيه إسماروؤوت إيهوتيه إتفيه: تيه طايووت إيهوتيه إبكاهى: تيه صا إبشوى إم ميفئى نيفين: نيم بيثنا إش صاجى إيه بيه طايو .\nإممون في إت تين ثونت إيرو: أو ماريا تى بارثينوس: نى أنجيلوس سيه طايو إممو: نى سيرافيم سيه تى أو أوونيه .\nجيه أفى إت هيجين نى شيروبيم: إى آفتشى صاركس إيفول إنخيتى: شا إنتيف هوتبين إيروف: هيتين تيف ميت أغاثوس .\nانثوف أفتشى إننى إيتيه نوون: افتى نان اننى إيتيه نووف: تين هوس إيروف تين تى أو أوو ناف: تين اير هوؤو تشيسى إمموف .\n",
-"coptic": " Te`cmarwout `e\\ote `tve> tetaihout `e\\ote `pka\\i> teca`p]wi `mmeui niben> nim peqna`]caji `epetaio.\n`Mmon vhettenqwnt `ero> `w Maria :parqenoc> niaggeloc cetaio `mmo> Niceravim ce;`wou ne.\nJe `a vhet\\ijen Nixeroubim> `i afsicarx `ebol `n=h;> ]a `ntef\\otpen `erof> \\iten tefmet`agaqoc.\n` Nqof afsi `nnh`ete noun> af; nan `nnh`ete nouf> ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof.\n",
-"english": " You are blessed more favored than heaven, and more honored than earth, you exceed every thought, who can speak of your honor.,\nNo one is like you, O Mary the Virgin, the angels honor you, and the Seraphim glorify you.,\nFor He who sits upon the Cherubim, came and was incarnate of you, and He united us with Him, through His goodness.,\nHe took what is ours, and gave us what is His, we praise and glorify Him, and exalt Him.,\n",
-"englishcoptic": " Tes-maro-ot ehote etfe : tetaiot ehote epkahi : tes-a epshoi em-mevi niven : nem pethna-esh-saji epe-taio.\nEmon vi et ten thont ero : O Maria ti-parthenos : ni angelos setaio emo : ni-seraphim seti-o-oo ne .\nJe avi et-hijen ni sherobim : Ee avchi-sarex evol en-khity : sha entef-hotpen erof : hiten tefmet-aghathos.\nEnthof avchi eni-ete non : afti nan eni-ete nof : tenhos erof tenti-oo naf : ten-erho-oo chisi emof.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(2) ثيؤطوكية الجمعة",
+  "EnglishTitle": "Friday Theotokia (2)",
+  "CopticTitle": "Te`cmarwout `e\\ote `tve",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "مباركة أنتِ أفضل من السماء، ومكرمة أفضل من الأرض، أنت فُقتِ كل فكر، مَنْ يقدر أن يصف كرامتك.",
+      "Coptic": "Te`cmarwout `e\\ote `tve> tetaihout `e\\ote `pka\\i> teca`p]wi `mmeui niben> nim peqna`]caji `epetaio.",
+      "English": "You are blessed more favored than heaven, and more honored than earth, you exceed every thought, who can speak of your honor.",
+      "Arabiccoptic": "تيه إسماروؤوت إيهوتيه إتفيه: تيه طايووت إيهوتيه إبكاهى: تيه صا إبشوى إم ميفئى نيفين: نيم بيثنا إش صاجى إيه بيه طايو .",
+      "Englishcoptic": "Tes-maro-ot ehote etfe : tetaiot ehote epkahi : tes-a epshoi em-mevi niven : nem pethna-esh-saji epe-taio."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ليس من يُشبهِك، يا مريم العذراء، الملائكة تكرمِك، والسِّرافيم تُمجدِك.",
+      "Coptic": "`Mmon vhettenqwnt `ero> `w Maria :parqenoc> niaggeloc cetaio `mmo> Niceravim ce;`wou ne.",
+      "English": "No one is like you, O Mary the Virgin, the angels honor you, and the Seraphim glorify you.",
+      "Arabiccoptic": "إممون في إت تين ثونت إيرو: أو ماريا تى بارثينوس: نى أنجيلوس سيه طايو إممو: نى سيرافيم سيه تى أو أوونيه .",
+      "Englishcoptic": "Emon vi et ten thont ero : O Maria ti-parthenos : ni angelos setaio emo : ni-seraphim seti-o-oo ne ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأن الذي على الشاروبيم، أتى وتجسد منكِ، حتى إتحدنا به، من قِبَل صلاحه.",
+      "Coptic": "Je `a vhet\\ijen Nixeroubim> `i afsicarx `ebol `n=h;> ]a `ntef\\otpen `erof> \\iten tefmet`agaqoc.",
+      "English": "For He who sits upon the Cherubim, came and was incarnate of you, and He united us with Him, through His goodness.",
+      "Arabiccoptic": "جيه أفى إت هيجين نى شيروبيم: إى آفتشى صاركس إيفول إنخيتى: شا إنتيف هوتبين إيروف: هيتين تيف ميت أغاثوس .",
+      "Englishcoptic": "Je avi et-hijen ni sherobim : Ee avchi-sarex evol en-khity : sha entef-hotpen erof : hiten tefmet-aghathos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هو أخذ الذي لنا، وأعطانا الذي له، نسبحه ونمجده، ونزيده علواً.",
+      "Coptic": "` Nqof afsi `nnh`ete noun> af; nan `nnh`ete nouf> ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof.",
+      "English": "He took what is ours, and gave us what is His, we praise and glorify Him, and exalt Him.",
+      "Arabiccoptic": "انثوف أفتشى إننى إيتيه نوون: افتى نان اننى إيتيه نووف: تين هوس إيروف تين تى أو أوو ناف: تين اير هوؤو تشيسى إمموف .",
+      "Englishcoptic": "Enthof avchi eni-ete non : afti nan eni-ete nof : tenhos erof tenti-oo naf : ten-erho-oo chisi emof."
+    }
+  ]
 }

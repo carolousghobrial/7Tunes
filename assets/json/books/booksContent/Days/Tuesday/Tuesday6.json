@@ -1,7 +1,52 @@
 {
-"arabic": " + صرتِ غصنا، للطهارة، وإناء، للإيمان.,\nالأرثوذكسي، الذي لآبائنا القديسين، أيتها العفيفة والدة الإله، المكرمة العذراء.,\n+ لأنك ولدتِ لنا، الله الكلمة، مُخلِّصنا يسوع، أتى وخلصنا.,\nلأنه بإرادته، ومسرة أبيه، والرُّوح القُدُس، أتى وخلصنا.,\n",
-"arabiccoptic": " آريه شوبى إن أوو إكلاذوس: انتى بى طووفو : أووه إنكيميليون: إنتى بى ناهتى .\nإن أورثوذوكصوس: إنتى نين يوتى إثؤواب: أو تى سيمنى أم ماسنووتى: إيطايووت إمبارثينوس .\nجى آرى ميسى نان: إمفنووتى بى لوغوس: بين سوتير إيسووس: أفئى أفصوتى إممون .\nجى إنثوف خين بيف أوو أوش: نيم إبتى ماتى إمبيف يوت: نيم بى ابنفما إثؤواب: أفئى أفصوتى إممون .\n",
-"coptic": " `Are]wpi `nou`kladoc> `nte pitoubo> ouo\\ `nkumillion> `nte pina\\;.\n`Norqodo[oc> `nte nenio; eqouab> `w ;cemne `mMacnou;> ettaihout `mParqenoc.\nJe `aremici nan> `m`Vnou; Pilogoc> Pencwthr Ihcouc> af`i afcw; `mmon.\nJe `nqof =en pefouw]> nem `p;ma; `mPefiwt> nem Pi`pneuma Eqouab> af`i afcw; `mmon.\n",
-"english": " You became a branch, of purity, and a vessel, of the faith.,\nOf the Orthodox, our holy fathers, O chaste Mother of God, the honored Virgin.,\nFor us you gave birth to, God the Word, our Savior Jesus, He came and saved us.,\nFor of His own will, and the pleasure of His Father, and the Holy Spirit, He came and saved us.,\n",
-"englishcoptic": " Are-shopi en-oo-eklazos: ente pi-toovo: owoh enki-mel-leion: ente pi-nahti.\nEn-Ortho-zoxos : ente nen-yoti ethowab: o ti-semne emMasnooti: ettaieeoot emParthenos.\nJe aremisi nan: em-Evnooti Pi-loghos: Pen-soteer Isos: af-ee afsoti emmon.\nJe enthof khen pef-oo-osh: nem epti-mati emPefiot: nem Pi-epnevma Ethooab: af-ee af-soti emmon.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(6) ثيؤطوكية الثلاثاء",
+  "EnglishTitle": "Tuesday Theotokia (6)",
+  "CopticTitle": "`Are]wpi `nou`kladoc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b صرتِ غصنا، للطهارة، وإناء، للإيمان.",
+      "Coptic": "`Are]wpi `nou`kladoc> `nte pitoubo> ouo\\ `nkumillion> `nte pina\\;.",
+      "English": "You became a branch, of purity, and a vessel, of the faith.",
+      "Arabiccoptic": "آريه شوبى إن أوو إكلاذوس: انتى بى طووفو : أووه إنكيميليون: إنتى بى ناهتى .",
+      "Englishcoptic": "Are-shopi en-oo-eklazos: ente pi-toovo: owoh enki-mel-leion: ente pi-nahti."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الأرثوذكسي، الذي لآبائنا القديسين، أيتها العفيفة والدة الإله، المكرمة العذراء.",
+      "Coptic": "`Norqodo[oc> `nte nenio; eqouab> `w ;cemne `mMacnou;> ettaihout `mParqenoc.",
+      "English": "Of the Orthodox, our holy fathers, O chaste Mother of God, the honored Virgin.",
+      "Arabiccoptic": "إن أورثوذوكصوس: إنتى نين يوتى إثؤواب: أو تى سيمنى أم ماسنووتى: إيطايووت إمبارثينوس .",
+      "Englishcoptic": "En-Ortho-zoxos : ente nen-yoti ethowab: o ti-semne emMasnooti: ettaieeoot emParthenos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b لأنك ولدتِ لنا، الله الكلمة، مُخلِّصنا يسوع، أتى وخلصنا.",
+      "Coptic": "Je `aremici nan> `m`Vnou; Pilogoc> Pencwthr Ihcouc> af`i afcw; `mmon.",
+      "English": "For us you gave birth to, God the Word, our Savior Jesus, He came and saved us.",
+      "Arabiccoptic": "جى آرى ميسى نان: إمفنووتى بى لوغوس: بين سوتير إيسووس: أفئى أفصوتى إممون .",
+      "Englishcoptic": "Je aremisi nan: em-Evnooti Pi-loghos: Pen-soteer Isos: af-ee afsoti emmon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه بإرادته، ومسرة أبيه، والرُّوح القُدُس، أتى وخلصنا.",
+      "Coptic": "Je `nqof =en pefouw]> nem `p;ma; `mPefiwt> nem Pi`pneuma Eqouab> af`i afcw; `mmon.",
+      "English": "For of His own will, and the pleasure of His Father, and the Holy Spirit, He came and saved us.",
+      "Arabiccoptic": "جى إنثوف خين بيف أوو أوش: نيم إبتى ماتى إمبيف يوت: نيم بى ابنفما إثؤواب: أفئى أفصوتى إممون .",
+      "Englishcoptic": "Je enthof khen pef-oo-osh: nem epti-mati emPefiot: nem Pi-epnevma Ethooab: af-ee af-soti emmon."
+    }
+  ]
 }

@@ -1,7 +1,52 @@
 {
-"arabic": " أيتها العذراء مريم، والدة الإله الحكيمة، بُستان العطر، ينبوع ماء الحياة المقدس.,\nثمرة بطنِك، أتى وخلَّص المسكونة، ونقض العداوة عنا، وقرر لنا سلامه.,\nمن قِبَل صليبه، وقيامته المقدسة، رد الإنسان مرة أُخرى، إلى الفردوس.,\nهو أخذ الذي لنا، وأعطانا الذي له، نسبحه ونمجده، ونزيده علواً.,\n",
-"arabiccoptic": " تى بارثينوس ماريام: تى ماسنووتى إنصافى: بى كيبوس إنتيه بى اسطوى نووفي: تى موومى إثؤواب أنتيه بى موأوو إنؤنخ .\nآبى كاربوس إنتيه تيه نيجى: أفئى أفصوتى إن تى إيكوومينى: أف فيل تى ميت جاجى إيفول هارون: أفسيمنى نان إنتيف هيرينى .\nايفول هيتين بيف اسطافروس: نيم تيف آناسطاسيس إثؤواب: افطاسطو إمبى رومى إن كيسوب: ايخوون ايه بي باراذيصوس .\nانثوف أفتشى إننى إيتيه نوون: افتى نان اننى إيتيه نووف: تين هوس إيروف تين تى أو أوو ناف: تين اير هوؤو تشيسى إمموف .\n",
-"coptic": " :parqenoc Mariam> :macnou; `ncabh> pikupoc `nte pi`cqoinoufi> ;moumi eqouab `nte pimwou `nwn=.\n`A Pikarpoc `nte teneji> af`i afcw; `n;oikoumenh> afbel ;metjaji `ebol \\aron> afcemni nan `ntef\\irhnh.\n`Ebol \\iten Pef`ctauroc> nem Tef`anactacic eqouab> aftacqo `mpirwmi `nkecop> `e=oun `ePiparadicoc.\n` Nqof afsi `nnh`ete noun> af; nan `nnh`ete nouf> ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof.\n",
-"english": " O Virgin Mary, the wise Mother of God, the garden of fragrance, the holy fountain of the living water.,\nThe Fruit of your womb, came and saved the world, and He abolished all enmity, and established for us His peace.,\nThrough His Cross, and His holy Resurrection, He restored man once again, to the Paradise.,\nHe took what is ours, and gave us what is His, we praise and glorify Him, and exalt Him.,\n",
-"englishcoptic": " Ti-parthenos Mariam : ti-mah esnoti ensave : pi-kipos ente pistoi novi : ti-momi ethowab ente pimo-oo en-onkh.\nApi-karpos ente teneji : av-ee afsoti enti-ekomeni: af-vel timet-gaji evol haron : afsemni nan entef-herini.\nEvol Hiten pefestavros : nem tef-anastasis ethowab : aftasto empi-romi enkesop : ekhon epi-paradisos.\nEnthof avchi eni-ete non : afti nan eni-ete nof : tenhos erof tenti-oo naf : ten-erho-oo chisi emof.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(5) ثيؤطوكية الجمعة",
+  "EnglishTitle": "Friday Theotokia (5)",
+  "CopticTitle": ":parqenoc Mariam",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أيتها العذراء مريم، والدة الإله الحكيمة، بُستان العطر، ينبوع ماء الحياة المقدس.",
+      "Coptic": ":parqenoc Mariam> :macnou; `ncabh> pikupoc `nte pi`cqoinoufi> ;moumi eqouab `nte pimwou `nwn=.",
+      "English": "O Virgin Mary, the wise Mother of God, the garden of fragrance, the holy fountain of the living water.",
+      "Arabiccoptic": "تى بارثينوس ماريام: تى ماسنووتى إنصافى: بى كيبوس إنتيه بى اسطوى نووفي: تى موومى إثؤواب أنتيه بى موأوو إنؤنخ .",
+      "Englishcoptic": "Ti-parthenos Mariam : ti-mah esnoti ensave : pi-kipos ente pistoi novi : ti-momi ethowab ente pimo-oo en-onkh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثمرة بطنِك، أتى وخلَّص المسكونة، ونقض العداوة عنا، وقرر لنا سلامه.",
+      "Coptic": "`A Pikarpoc `nte teneji> af`i afcw; `n;oikoumenh> afbel ;metjaji `ebol \\aron> afcemni nan `ntef\\irhnh.",
+      "English": "The Fruit of your womb, came and saved the world, and He abolished all enmity, and established for us His peace.",
+      "Arabiccoptic": "آبى كاربوس إنتيه تيه نيجى: أفئى أفصوتى إن تى إيكوومينى: أف فيل تى ميت جاجى إيفول هارون: أفسيمنى نان إنتيف هيرينى .",
+      "Englishcoptic": "Api-karpos ente teneji : av-ee afsoti enti-ekomeni: af-vel timet-gaji evol haron : afsemni nan entef-herini."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "من قِبَل صليبه، وقيامته المقدسة، رد الإنسان مرة أُخرى، إلى الفردوس.",
+      "Coptic": "`Ebol \\iten Pef`ctauroc> nem Tef`anactacic eqouab> aftacqo `mpirwmi `nkecop> `e=oun `ePiparadicoc.",
+      "English": "Through His Cross, and His holy Resurrection, He restored man once again, to the Paradise.",
+      "Arabiccoptic": "ايفول هيتين بيف اسطافروس: نيم تيف آناسطاسيس إثؤواب: افطاسطو إمبى رومى إن كيسوب: ايخوون ايه بي باراذيصوس .",
+      "Englishcoptic": "Evol Hiten pefestavros : nem tef-anastasis ethowab : aftasto empi-romi enkesop : ekhon epi-paradisos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هو أخذ الذي لنا، وأعطانا الذي له، نسبحه ونمجده، ونزيده علواً.",
+      "Coptic": "` Nqof afsi `nnh`ete noun> af; nan `nnh`ete nouf> ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof.",
+      "English": "He took what is ours, and gave us what is His, we praise and glorify Him, and exalt Him.",
+      "Arabiccoptic": "انثوف أفتشى إننى إيتيه نوون: افتى نان اننى إيتيه نووف: تين هوس إيروف تين تى أو أوو ناف: تين اير هوؤو تشيسى إمموف .",
+      "Englishcoptic": "Enthof avchi eni-ete non : afti nan eni-ete nof : tenhos erof tenti-oo naf : ten-erho-oo chisi emof."
+    }
+  ]
 }

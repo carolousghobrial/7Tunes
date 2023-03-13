@@ -1,7 +1,63 @@
 {
-"arabic": " مجدك يامريم, أرفع من السماء, وأنت أكرم, من الأرض وسكانها.,\nلأنك بالحقيقة, الطريق الحقيقى, المؤدى, إلى السموات.,\nلبست الفرح, وأيضا التهليل, وتمنطقت بالقوة, يا إبنة صهيون.,\nيامن لبست, لباس السمائيين, حتى سترت آدم, بلباس النعمة.,\nورددته مرة أخرى, إلى الفردوس, موضع الفرح, ومسكن الصديقين.,\n",
-"arabiccoptic": " بى أوأو ماريا. تشوسى إيهوتى إتفى. تىطايوت إإبكاهى. نيم نى إتشوب إنخيتف.\nإنثو غار أيثوس. تى تى إستراتا إممى. إتؤى إم ما إمموشى. إإبشوى إ نيفيؤوى.\nأريتى هيوتى. إمفراشى نيم إبثيليل. أرى مورتى إن أوجوم. أو إتشيرى إنسيون.\nأوثى إيطاس تى هيوتس. إن إتهيبسو إن نا نيفيؤوى. شا إنتيس هوبس إن آدام. إن إتهيبسو إمبى إهموت.\nأرى طاستوف إنكيسوب. إبى باراديسوس. إبتوبوس إم إبؤنوف. إفما إنشوبى إن نى ذيكيؤس.\n",
-"coptic": " Pe`wou Mari`a > soci `e\\ote `tve > tetaihout `e`pka\\i > nem nhet]op `n=htf.\n` Nqo gar `alhqwc > te ;`ctrata `mmhi > etoi `mma`mmo]i > `e`p]wi `enivhou`i.\n` Are;\\iw; > `m`vra]i nem `pqelhl > `aremor; `noujom > `w `t]eri `nCiwn.\n` W qh`etac;\\iwtc > `n`t\\ebcw `nnanivhou`i > ]a `ntec\\wbc `n`Adam > `n`t\\ebcw `mpi`\\mot.\n`Aretacqof `nkecop > `epipardicoc > `ptopoc `m`pounof > `vma`n]wpi `nnidikeoc.\n",
-"english": " Your glory O Mary: is higher than heaven: you are more honored than the earth: and its inhabitants.,\nFor you are truly: the real path: leading up: to the heavens.,\nYou are clothed: with joy and gladness: and girdled with power. O daughter of Zion,\nO who was clothed: with the garments of the heavenly: so that you covered Adam: with the garments of grace:,\nAnd restored him: to Paradise: the place of joy: and the dwelling of the righteous.,\n",
-"englishcoptic": " Pe-o-o Maria, chosi e-hote etfe, te-tayot epkahi, nem ni-etshop en-khitf.\nEntho ghar alithos, te ti-setrata emmi, etoi emmam-moshi, e-epshoi enni-fe-owe.\nAreti heyoti, emif-rashi nem ep-thelil, ari-morti en-ogom, o etsheri en-Sion.\nO thi-e-tas ti-heyots, ente-hebso enna ni-fe-owe, sha-entes-hobs en-Adam, en-et-hebso empi-ehmot.\nAri-tastof en-kesop, e-pi parazisos, epto-pos emip-onof, efma en-shopi en nizikeos.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(12) ثيؤطوكية الأحد",
+  "EnglishTitle": "Sunday Theotokia (12)",
+  "CopticTitle": "Pe`wou Mari`a ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مجدك يامريم, أرفع من السماء, وأنت أكرم, من الأرض وسكانها.",
+      "Coptic": "Pe`wou Mari`a > soci `e\\ote `tve > tetaihout `e`pka\\i > nem nhet]op `n=htf.",
+      "English": "Your glory O Mary: is higher than heaven: you are more honored than the earth: and its inhabitants.",
+      "Arabiccoptic": "بى أوأو ماريا. تشوسى إيهوتى إتفى. تىطايوت إإبكاهى. نيم نى إتشوب إنخيتف.",
+      "Englishcoptic": "Pe-o-o Maria, chosi e-hote etfe, te-tayot epkahi, nem ni-etshop en-khitf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأنك بالحقيقة, الطريق الحقيقى, المؤدى, إلى السموات.",
+      "Coptic": "` Nqo gar `alhqwc > te ;`ctrata `mmhi > etoi `mma`mmo]i > `e`p]wi `enivhou`i.",
+      "English": "For you are truly: the real path: leading up: to the heavens.",
+      "Arabiccoptic": "إنثو غار أيثوس. تى تى إستراتا إممى. إتؤى إم ما إمموشى. إإبشوى إ نيفيؤوى.",
+      "Englishcoptic": "Entho ghar alithos, te ti-setrata emmi, etoi emmam-moshi, e-epshoi enni-fe-owe."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لبست الفرح, وأيضا التهليل, وتمنطقت بالقوة, يا إبنة صهيون.",
+      "Coptic": "` Are;\\iw; > `m`vra]i nem `pqelhl > `aremor; `noujom > `w `t]eri `nCiwn.",
+      "English": "You are clothed: with joy and gladness: and girdled with power. O daughter of Zion",
+      "Arabiccoptic": "أريتى هيوتى. إمفراشى نيم إبثيليل. أرى مورتى إن أوجوم. أو إتشيرى إنسيون.",
+      "Englishcoptic": "Areti heyoti, emif-rashi nem ep-thelil, ari-morti en-ogom, o etsheri en-Sion."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يامن لبست, لباس السمائيين, حتى سترت آدم, بلباس النعمة.",
+      "Coptic": "` W qh`etac;\\iwtc > `n`t\\ebcw `nnanivhou`i > ]a `ntec\\wbc `n`Adam > `n`t\\ebcw `mpi`\\mot.",
+      "English": "O who was clothed: with the garments of the heavenly: so that you covered Adam: with the garments of grace:",
+      "Arabiccoptic": "أوثى إيطاس تى هيوتس. إن إتهيبسو إن نا نيفيؤوى. شا إنتيس هوبس إن آدام. إن إتهيبسو إمبى إهموت.",
+      "Englishcoptic": "O thi-e-tas ti-heyots, ente-hebso enna ni-fe-owe, sha-entes-hobs en-Adam, en-et-hebso empi-ehmot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ورددته مرة أخرى, إلى الفردوس, موضع الفرح, ومسكن الصديقين.",
+      "Coptic": "`Aretacqof `nkecop > `epipardicoc > `ptopoc `m`pounof > `vma`n]wpi `nnidikeoc.",
+      "English": "And restored him: to Paradise: the place of joy: and the dwelling of the righteous.",
+      "Arabiccoptic": "أرى طاستوف إنكيسوب. إبى باراديسوس. إبتوبوس إم إبؤنوف. إفما إنشوبى إن نى ذيكيؤس.",
+      "Englishcoptic": "Ari-tastof en-kesop, e-pi parazisos, epto-pos emip-onof, efma en-shopi en nizikeos."
+    }
+  ]
 }

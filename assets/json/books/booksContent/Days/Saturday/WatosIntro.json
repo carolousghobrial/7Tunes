@@ -1,7 +1,30 @@
 {
-"arabic": " إذا ما رتلنا. فلنقل بلذة . ياربنا يسوع المسيح . إصنع رحمة مع نفوسنا .,\nالمجد للآب والإبن والروح القدس الآن وكل آوان وإلى دهر الدهور آمين .,\n",
-"arabiccoptic": " إيشوب أنشان إيربسالين. مارين جوس خين أو إهلوج . جى بين شويس إيسوس بخريستوس . أرى أوناى نيم نين إبسيشى .\nذوكسابترى كى إيو كى أجيو بنفماتى كى نين كى اإى كى إستوس إى أوناس طون إى أونون آمين .\n",
-"coptic": " `E]wp an]an eryalin >marenjoc =en ou`\\loj > je Pen_ Ih/c/ Px/c/ > `ariounai nem nen yuxh.\nDo[a Patri ke `Ui`w ke `agi`w Pneumati > ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn `amhn .\n",
-"english": " Whenever we sing : let us say tenderly : Our Lord Jesus Christ : have mercy upon our souls.,\nGlory be to the Father, the Son and the Holy Spirit. Now and forever and unto the ages of ages, Amen,\n",
-"englishcoptic": " Eshop anshan Er epsalin, maren gos khen o ehlog, je pen shois Isos Pikhristos, Ari O nai nem nen epsishy.\nZoxapatri ke eio, ke agio ebnevmati, ke nin ke a ei ke estos e onas ton e onon amen\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "مقدمة الثيؤطوكيات الواطس",
+  "EnglishTitle": "Introduction of Watos Theotokia",
+  "CopticTitle": "`E]wp an]an eryalin ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إذا ما رتلنا. فلنقل بلذة . ياربنا يسوع المسيح . إصنع رحمة مع نفوسنا .",
+      "Coptic": "`E]wp an]an eryalin >marenjoc =en ou`\\loj > je Pen_ Ih/c/ Px/c/ > `ariounai nem nen yuxh.",
+      "English": "Whenever we sing : let us say tenderly : Our Lord Jesus Christ : have mercy upon our souls.",
+      "Arabiccoptic": "إيشوب أنشان إيربسالين. مارين جوس خين أو إهلوج . جى بين شويس إيسوس بخريستوس . أرى أوناى نيم نين إبسيشى .",
+      "Englishcoptic": "Eshop anshan Er epsalin, maren gos khen o ehlog, je pen shois Isos Pikhristos, Ari O nai nem nen epsishy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "المجد للآب والإبن والروح القدس الآن وكل آوان وإلى دهر الدهور آمين .",
+      "Coptic": "Do[a Patri ke `Ui`w ke `agi`w Pneumati > ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn `amhn .",
+      "English": "Glory be to the Father, the Son and the Holy Spirit. Now and forever and unto the ages of ages, Amen",
+      "Arabiccoptic": "ذوكسابترى كى إيو كى أجيو بنفماتى كى نين كى اإى كى إستوس إى أوناس طون إى أونون آمين .",
+      "Englishcoptic": "Zoxapatri ke eio, ke agio ebnevmati, ke nin ke a ei ke estos e onas ton e onon amen"
+    }
+  ]
 }

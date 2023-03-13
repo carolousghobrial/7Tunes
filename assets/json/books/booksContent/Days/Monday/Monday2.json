@@ -1,7 +1,52 @@
 {
-"arabic": " حواء التي، أغرتها الحية، حُكم عليها، من قِبَل الرب.,\n\"إن بالكثرة، أُكثِر، أحزانِك، وتنهداتِك.\",\nتحنَّن الرب، من قِبَل محبته للبشر، وسُرَّ مرة أخرى، بعتقها.,\nأشرق جسدياً، من العذراء، بغير زرع بشرٍ، حتى خلصنا.,\n",
-"arabiccoptic": " ايفا ثى إيطاف إرهال إمموس: انجى بى هوف: أستشى أبو فاسيس: إيفول هيتين ابتشويس .\nجيه خين أووا شاى: تينا إثروو آشاى: إنجى نى إمكاه إنهيت: نيم نيفي آهوم .\nآف شينهيت إنجى ابتشويس: هيتين تيف ميت ماى رومى: إفتى ماتى إنكيسوب: إى أيس نريمهى .\nافشاى سوماتيكوس: ايفول خين تى بارثينوس: أتشنيه إسبيرما إنرومى: شا إنتيف صوتى إممون .\n",
-"coptic": " `Eua qh`etafer\\al `mmoc> `nje pi\\of> acsi `apovacic> `ebol \\iten `Psoic.\nJe =en ou`a]ai> ;na`qrou`a]ai> `nje ne`mka\\`n\\ht> nem nefia\\om.\nAf]en\\ht `nje `Psoic> \\iten tefmetmairwmi> af;ma; `nkecop> `eaic `nrem\\e.\nAf]ai cwmatikwc> `ebol =en :parqenoc> asne `cperma `nrwmi> ]a `ntefcw; `mmon.\n",
-"english": " Eve who was tempted, by the serpent, was condemned, by the Lord.,\nFor in abundance, I will greatly multiply, your sorrows, and your sighs.,\nYet God felt compassion, through His love for man, and was pleased, to free her once again.,\nHe shone in the flesh, taken from the Virgin, without the seed of man, in order to save us.,\n",
-"englishcoptic": " Eva thee-etaf-erhal emmos: enje pi-hof: aschi apo-vasis: evol hiten Epchois.\nJe khen oo-ashai: tina-ethroo-ashai: enje ne-emkah-enheet: nem nefi-ahom.\nAfshen-heet enje Epchois : hiten tef-met-mairomi: afti-mati en-kesop: e-ais enremhe.\nAfshai soma-tikos: evol khen Ti-parthenos: achne esperma enromi: sha entef-soti emmon.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(2) ثيؤطوكية الإثنين",
+  "EnglishTitle": "Monday Theotokia (2)",
+  "CopticTitle": "`Eua qh`etafer\\al `mmoc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حواء التي، أغرتها الحية، حُكم عليها، من قِبَل الرب.",
+      "Coptic": "`Eua qh`etafer\\al `mmoc> `nje pi\\of> acsi `apovacic> `ebol \\iten `Psoic.",
+      "English": "Eve who was tempted, by the serpent, was condemned, by the Lord.",
+      "Arabiccoptic": "ايفا ثى إيطاف إرهال إمموس: انجى بى هوف: أستشى أبو فاسيس: إيفول هيتين ابتشويس .",
+      "Englishcoptic": "Eva thee-etaf-erhal emmos: enje pi-hof: aschi apo-vasis: evol hiten Epchois."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\"إن بالكثرة، أُكثِر، أحزانِك، وتنهداتِك.\"",
+      "Coptic": "Je =en ou`a]ai> ;na`qrou`a]ai> `nje ne`mka\\`n\\ht> nem nefia\\om.",
+      "English": "For in abundance, I will greatly multiply, your sorrows, and your sighs.",
+      "Arabiccoptic": "جيه خين أووا شاى: تينا إثروو آشاى: إنجى نى إمكاه إنهيت: نيم نيفي آهوم .",
+      "Englishcoptic": "Je khen oo-ashai: tina-ethroo-ashai: enje ne-emkah-enheet: nem nefi-ahom."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تحنَّن الرب، من قِبَل محبته للبشر، وسُرَّ مرة أخرى، بعتقها.",
+      "Coptic": "Af]en\\ht `nje `Psoic> \\iten tefmetmairwmi> af;ma; `nkecop> `eaic `nrem\\e.",
+      "English": "Yet God felt compassion, through His love for man, and was pleased, to free her once again.",
+      "Arabiccoptic": "آف شينهيت إنجى ابتشويس: هيتين تيف ميت ماى رومى: إفتى ماتى إنكيسوب: إى أيس نريمهى .",
+      "Englishcoptic": "Afshen-heet enje Epchois : hiten tef-met-mairomi: afti-mati en-kesop: e-ais enremhe."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أشرق جسدياً، من العذراء، بغير زرع بشرٍ، حتى خلصنا.",
+      "Coptic": "Af]ai cwmatikwc> `ebol =en :parqenoc> asne `cperma `nrwmi> ]a `ntefcw; `mmon.",
+      "English": "He shone in the flesh, taken from the Virgin, without the seed of man, in order to save us.",
+      "Arabiccoptic": "افشاى سوماتيكوس: ايفول خين تى بارثينوس: أتشنيه إسبيرما إنرومى: شا إنتيف صوتى إممون .",
+      "Englishcoptic": "Afshai soma-tikos: evol khen Ti-parthenos: achne esperma enromi: sha entef-soti emmon."
+    }
+  ]
 }

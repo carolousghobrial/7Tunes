@@ -1,7 +1,41 @@
 {
-"arabic": " كخدر بغير فساد . الروح القدس حل عليكِ . وقوة العلىّ . ظللتكِ يا مريم .,\nلأنكِ ولدتِ الكلمة الحقيقىّ . إبن الآب الدائم. إلى الأبد . آتى وخلصنا من خطايانا .,\nالسلام لك يا ممتلئة نعمة السلام لك يامن وجدت نعمة . السلام لك يامن ولدت المسيح . الرب معك .,\n",
-"arabiccoptic": " هوس ما إنشيليت إن أت تاكو . أبى إبنفما إثوؤاب إى إيجو . أوجوم إنتى فى إتتشوسى . إثنا إيرخيفى إيرو ماريا .\nجى أرى إجفو إمبى أليثينوس . إن لوغوس إن شيرى إنتى إفيوت . إثمين إيفول شا إينيه . أفىء أف سوت تين خين نين نوفى .\nشيرى ثى إثميه إنهموت . شيرى ثى إيطاس جيم إهموت . شيرى ثى إيطاس ميس بخريستوس . أووه إبشويس شوب نيمى .\n",
-"coptic": " |wc ma`n]elet `nattako > `a Pi p/n/a/ e/q/u/ `i `ejw > oujom `nte vhetsoci > eqnaer=hibi `ero Mari`a .\nJe are`jvo mpi`alhqinoc > `nlogoc `n}hri `nte `Viwt > eqmhn `ebol ]a `ene\\ > af`i afcotten =en nennobi .\nXere qheqme\\ `n`\\mot > xere qhetacjem `\\mot> xere qhetacmec Px/c/ > ouo\\ P_ ]wp neme .\n",
-"english": " As an undefiled chamber. / the Holy Spirit came upon you, and the power of the Most High / illuminated you, O Mary.,\nYou borne the True Word, the Son of the eternal Father, / who came and saved us from our sins.,\nHail to you O full of grace. / Hail to you who has found grace. / Hail to you who has given birth to Christ. / The Lord is with you.,\n",
-"englishcoptic": " Hos ma enshelit en attako, api Ebnevma Ethowab e Ego, ogom ente vi etchosi, ethna erkhivi ero Maria.\nJe are egvo empi alithenos, enloghos Enshiri ente Efiot, ethmeen evol sha eneh, af-e afsotten khen nen novi.\nShere thee ethmeh en ehmot, shere thee atas gim ehot, shere thee atas mes Pikhristos, owoh Epshois shop neme.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(3) ثيؤطوكية السبت",
+  "EnglishTitle": "Saturday Theotokia (3)",
+  "CopticTitle": "|wc ma`n]elet `nattako ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كخدر بغير فساد . الروح القدس حل عليكِ . وقوة العلىّ . ظللتكِ يا مريم .",
+      "Coptic": "|wc ma`n]elet `nattako > `a Pi p/n/a/ e/q/u/ `i `ejw > oujom `nte vhetsoci > eqnaer=hibi `ero Mari`a .",
+      "English": "As an undefiled chamber. / the Holy Spirit came upon you, and the power of the Most High / illuminated you, O Mary.",
+      "Arabiccoptic": "هوس ما إنشيليت إن أت تاكو . أبى إبنفما إثوؤاب إى إيجو . أوجوم إنتى فى إتتشوسى . إثنا إيرخيفى إيرو ماريا .",
+      "Englishcoptic": "Hos ma enshelit en attako, api Ebnevma Ethowab e Ego, ogom ente vi etchosi, ethna erkhivi ero Maria."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأنكِ ولدتِ الكلمة الحقيقىّ . إبن الآب الدائم. إلى الأبد . آتى وخلصنا من خطايانا .",
+      "Coptic": "Je are`jvo mpi`alhqinoc > `nlogoc `n}hri `nte `Viwt > eqmhn `ebol ]a `ene\\ > af`i afcotten =en nennobi .",
+      "English": "You borne the True Word, the Son of the eternal Father, / who came and saved us from our sins.",
+      "Arabiccoptic": "جى أرى إجفو إمبى أليثينوس . إن لوغوس إن شيرى إنتى إفيوت . إثمين إيفول شا إينيه . أفىء أف سوت تين خين نين نوفى .",
+      "Englishcoptic": "Je are egvo empi alithenos, enloghos Enshiri ente Efiot, ethmeen evol sha eneh, af-e afsotten khen nen novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لك يا ممتلئة نعمة السلام لك يامن وجدت نعمة . السلام لك يامن ولدت المسيح . الرب معك .",
+      "Coptic": "Xere qheqme\\ `n`\\mot > xere qhetacjem `\\mot> xere qhetacmec Px/c/ > ouo\\ P_ ]wp neme .",
+      "English": "Hail to you O full of grace. / Hail to you who has found grace. / Hail to you who has given birth to Christ. / The Lord is with you.",
+      "Arabiccoptic": "شيرى ثى إثميه إنهموت . شيرى ثى إيطاس جيم إهموت . شيرى ثى إيطاس ميس بخريستوس . أووه إبشويس شوب نيمى .",
+      "Englishcoptic": "Shere thee ethmeh en ehmot, shere thee atas gim ehot, shere thee atas mes Pikhristos, owoh Epshois shop neme."
+    }
+  ]
 }

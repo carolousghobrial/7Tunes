@@ -1,7 +1,74 @@
 {
-"arabic": " نساء كثيرات نلنَّ كرامات، تعاليت أنتِ أكثر من جميعهنَ، لأنكِ أنتِ فخر العذارى، يا مريم والدة الإله.,\nالمدينة النفسية، التي سكن فيها العلي، الجالس على، مركبة الشاروبيم.,\nوالسِّرافيم يمجدونه، حَملتِه على ذراعيكِ، المعطي طعاماً لكل ذي جسد، من قِبَل تحننه.,\nمسكَ ثدييكِ، وأرضعتيه اللبن، لأنه هو إلهنا، ومخلص كل أحد.,\nهو يرعانا، إلى أبد الأبد، نسبحه ونمجده، ونزيده علواً.,\nهو أخذ الذي لنا، وأعطانا الذي له، نسبحه ونمجده، ونزيده علواً.,\n",
-"arabiccoptic": " آ أووميش إن إسهيمى تشي طايو: آريه تشيسى إنثو ايهوتيه ايرواوو تيروو: جيه انثو بيه إبشووشوو إننى بارثينوس: تى ثيؤطوكوس ماريا .\nتى بوليس إمبسيخون: ايطا في إتتشوسى شوبى انخيتس: فى اتهيمسي إى إهرى هيجين: إبهارما إننى شيرووبيم .\nنى سيرافيم سيه تى أو أوو ناف: آريه طالوف إيجين نيه إجفوى: في تيه تى إخريه إن صاركس نيفين: هيتين تيف ميت شان إهثيف .\nآف أمونى إننيه إمنوتى: أريه تى إيروتى إيخوون إيروف: كيه غار إنثوف بيه بين نووتى: أووه إبصوتير إنتيه أووؤن نيفين .\nإنثوف بيثنا آمونى إممون: شا اينيه إنتيه بى اينيه: تين هوس إيروف تين تى أو أوو ناف: تين اير هوؤو تشيسى إمموف .\nانثوف أفتشى إننى إيتيه نوون: افتى نان اننى إيتيه نووف: تين هوس إيروف تين تى أو أوو ناف: تين اير هوؤو تشيسى إمموف .\n",
-"coptic": " Aoumh] `n`c\\imi sitaio> `aresici `nqo `n\\oterwou throu> je `nqo pe `p]ou]ou `nniparqenoc> :qe`otokoc Maria.\n:polic `myuxon> `eta Vhetsoci ]wpi `n=htc> vhet\\emci `e`\\rhi \\ijen> `p\\arma `nNixeroubim.\nNiceravim ce;`wou naf> `aretalof `ejen ne`jvoi> vhet;`=re `ncarx niben> \\iten tefmet]ana`\\qhf.\nAf`amoni `nne`mno;> `are;`erw; `e=oun `erof> ke gar `n;qof pe Pennou;> ouo\\ `Pcwthr `nte ouon niben.\n`Nqof peqna`amoni `mmon> ]a `ene\\ `nte pi`ene\\> ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof.\n` Nqof afsi `nnh`ete noun> af; nan `nnh`ete nouf> ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof.\n",
-"english": " Many women received honor, yet you exceeded them all, for you are the pride of virgins, O Mary the Theotokos.,\nYou are the soul's city, where the Most High lived, who sits upon the throne, of the Cherubim.,\nThe Seraphim glorify Him, and you held Him in your arms, He who gives food to all flesh, through His great kindness.,\nHe held to your breasts, and you fed Him, for He is our God, and the Savior of everyone.,\nHe shepherds all of us, forever and ever, we praise and glorify Him, and exalt Him.,\nHe took what is ours, and gave us what is His, we praise and glorify Him, and exalt Him.,\n",
-"englishcoptic": " A-omeesh enes-himi echeetaio : arechisi entho en-hote ro-oo tiro : je entho pe-epshosho enni-parthenos : ti-theotokos Maria.\nTi-polis emepsi-khon : eta vi-etchosi shop enkhets : vi-et-hemsi e-ehri hijen : ep-harma eni-sherobim.\nNi-seraphim seti-o-oo naf : aretalof ejen negvoi : Vi-etti ekhre ensarex niven : hiten tef-met shana-eh-thif.\nAf-amoni en-nemnoti : areti eroti ekhon erof : ke ghar enthof pe pennoti : owoh epsotir ente o-on niven.\nEnthof pethna-amoni emon : sha eneh ente pi-eneh : tenhos erof tenti-oo naf : ten-erho-oo chisi emof.\nEnthof avchi eni-ete non : afti nan eni-ete nof : tenhos erof tenti-oo naf : ten-erho-oo chisi emof.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(4) ثيؤطوكية الجمعة",
+  "EnglishTitle": "Friday Theotokia (4)",
+  "CopticTitle": "Aoumh] `n`c\\imi sitaio",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نساء كثيرات نلنَّ كرامات، تعاليت أنتِ أكثر من جميعهنَ، لأنكِ أنتِ فخر العذارى، يا مريم والدة الإله.",
+      "Coptic": "Aoumh] `n`c\\imi sitaio> `aresici `nqo `n\\oterwou throu> je `nqo pe `p]ou]ou `nniparqenoc> :qe`otokoc Maria.",
+      "English": "Many women received honor, yet you exceeded them all, for you are the pride of virgins, O Mary the Theotokos.",
+      "Arabiccoptic": "آ أووميش إن إسهيمى تشي طايو: آريه تشيسى إنثو ايهوتيه ايرواوو تيروو: جيه انثو بيه إبشووشوو إننى بارثينوس: تى ثيؤطوكوس ماريا .",
+      "Englishcoptic": "A-omeesh enes-himi echeetaio : arechisi entho en-hote ro-oo tiro : je entho pe-epshosho enni-parthenos : ti-theotokos Maria."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المدينة النفسية، التي سكن فيها العلي، الجالس على، مركبة الشاروبيم.",
+      "Coptic": ":polic `myuxon> `eta Vhetsoci ]wpi `n=htc> vhet\\emci `e`\\rhi \\ijen> `p\\arma `nNixeroubim.",
+      "English": "You are the soul's city, where the Most High lived, who sits upon the throne, of the Cherubim.",
+      "Arabiccoptic": "تى بوليس إمبسيخون: ايطا في إتتشوسى شوبى انخيتس: فى اتهيمسي إى إهرى هيجين: إبهارما إننى شيرووبيم .",
+      "Englishcoptic": "Ti-polis emepsi-khon : eta vi-etchosi shop enkhets : vi-et-hemsi e-ehri hijen : ep-harma eni-sherobim."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "والسِّرافيم يمجدونه، حَملتِه على ذراعيكِ، المعطي طعاماً لكل ذي جسد، من قِبَل تحننه.",
+      "Coptic": "Niceravim ce;`wou naf> `aretalof `ejen ne`jvoi> vhet;`=re `ncarx niben> \\iten tefmet]ana`\\qhf.",
+      "English": "The Seraphim glorify Him, and you held Him in your arms, He who gives food to all flesh, through His great kindness.",
+      "Arabiccoptic": "نى سيرافيم سيه تى أو أوو ناف: آريه طالوف إيجين نيه إجفوى: في تيه تى إخريه إن صاركس نيفين: هيتين تيف ميت شان إهثيف .",
+      "Englishcoptic": "Ni-seraphim seti-o-oo naf : aretalof ejen negvoi : Vi-etti ekhre ensarex niven : hiten tef-met shana-eh-thif."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مسكَ ثدييكِ، وأرضعتيه اللبن، لأنه هو إلهنا، ومخلص كل أحد.",
+      "Coptic": "Af`amoni `nne`mno;> `are;`erw; `e=oun `erof> ke gar `n;qof pe Pennou;> ouo\\ `Pcwthr `nte ouon niben.",
+      "English": "He held to your breasts, and you fed Him, for He is our God, and the Savior of everyone.",
+      "Arabiccoptic": "آف أمونى إننيه إمنوتى: أريه تى إيروتى إيخوون إيروف: كيه غار إنثوف بيه بين نووتى: أووه إبصوتير إنتيه أووؤن نيفين .",
+      "Englishcoptic": "Af-amoni en-nemnoti : areti eroti ekhon erof : ke ghar enthof pe pennoti : owoh epsotir ente o-on niven."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "هو يرعانا، إلى أبد الأبد، نسبحه ونمجده، ونزيده علواً.",
+      "Coptic": "`Nqof peqna`amoni `mmon> ]a `ene\\ `nte pi`ene\\> ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof.",
+      "English": "He shepherds all of us, forever and ever, we praise and glorify Him, and exalt Him.",
+      "Arabiccoptic": "إنثوف بيثنا آمونى إممون: شا اينيه إنتيه بى اينيه: تين هوس إيروف تين تى أو أوو ناف: تين اير هوؤو تشيسى إمموف .",
+      "Englishcoptic": "Enthof pethna-amoni emon : sha eneh ente pi-eneh : tenhos erof tenti-oo naf : ten-erho-oo chisi emof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هو أخذ الذي لنا، وأعطانا الذي له، نسبحه ونمجده، ونزيده علواً.",
+      "Coptic": "` Nqof afsi `nnh`ete noun> af; nan `nnh`ete nouf> ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof.",
+      "English": "He took what is ours, and gave us what is His, we praise and glorify Him, and exalt Him.",
+      "Arabiccoptic": "انثوف أفتشى إننى إيتيه نوون: افتى نان اننى إيتيه نووف: تين هوس إيروف تين تى أو أوو ناف: تين اير هوؤو تشيسى إمموف .",
+      "Englishcoptic": "Enthof avchi eni-ete non : afti nan eni-ete nof : tenhos erof tenti-oo naf : ten-erho-oo chisi emof."
+    }
+  ]
 }

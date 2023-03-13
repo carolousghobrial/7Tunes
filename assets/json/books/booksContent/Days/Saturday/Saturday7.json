@@ -1,7 +1,41 @@
 {
-"arabic": " دُعيتِ أم الله . الملك الحقيقى . وبعد ما ولدتِهِ . بقيت عذراء بأمرٍ عجيبٍ .,\nعمانوئيل الذى ولدتِه . هو حفظك . بغير فساد . وبتوليتكِ مختومة .,\nالسلام لك يا ممتلئة نعمة السلام لك يامن وجدت نعمة . السلام لك يامن ولدت المسيح . الرب معك .,\n",
-"arabiccoptic": " أفموتى إيرو جى إثماف إم إفنوتى . بى اورو إممى ميننسا إثريماسف . أرى أوهى إيرى أوى إمبارثينوس . خين أوهوب إمباراذوكسون .\nإممانوئيل فى إيطارى إجفوف . إثفى فاى أف أريه إيرو . إيرى أوى إن أت طاكو . إستوب إنجى تى بارثينيا .\nشيرى ثى إثميه إنهموت . شيرى ثى إيطاس جيم إهموت . شيرى ثى إيطاس ميس بخريستوس . أووه إبشويس شوب نيمى .\n",
-"coptic": " Aumou; `ero je `qmau `mV; > piouro `mmhi menenca `qremacf > `are`o\\i `ereoi `mparqenoc > =en ou\\wb `mparado[on .\nEmmanouhl vh`e tare`jvof > eqbe vai af`are\\ `ero > `ereoi `nattako > ectob `nje teparqeni`a .\nXere qheqme\\ `n`\\mot > xere qhetacjem `\\mot> xere qhetacmec Px/c/ > ouo\\ P_ ]wp neme .\n",
-"english": " You are called the Mother of God. / the true King, / and after you delivered Him/ you mysteriously remained a virgin.,\nImmanuel, whom you gave birth to / He reserved you / from defilement /and sealed your virginity.,\nHail to you O full of grace./ Hail to you who has found grace / Hail to you who has given birth to Christ. / The Lord is with von,\n",
-"englishcoptic": " Avmouty ero je ethmav em Evnouty, pi oro emmei menensa Ethre masf, are ohi eroi emparthenos, khen o hob emparazoxon.\nEmmanoueel vi etare egfof, ethve fai af areh ero, ere oi en attako, estobh enje te parthenia.\nShere thee ethmeh en ehmot, shere thee atas gim ehot, shere thee atas mes Pikhristos, owoh Epshois shop neme.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(7) ثيؤطوكية السبت",
+  "EnglishTitle": "Saturday Theotokia (7)",
+  "CopticTitle": "Aumou; `ero je `qmau `mV; ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "دُعيتِ أم الله . الملك الحقيقى . وبعد ما ولدتِهِ . بقيت عذراء بأمرٍ عجيبٍ .",
+      "Coptic": "Aumou; `ero je `qmau `mV; > piouro `mmhi menenca `qremacf > `are`o\\i `ereoi `mparqenoc > =en ou\\wb `mparado[on .",
+      "English": "You are called the Mother of God. / the true King, / and after you delivered Him/ you mysteriously remained a virgin.",
+      "Arabiccoptic": "أفموتى إيرو جى إثماف إم إفنوتى . بى اورو إممى ميننسا إثريماسف . أرى أوهى إيرى أوى إمبارثينوس . خين أوهوب إمباراذوكسون .",
+      "Englishcoptic": "Avmouty ero je ethmav em Evnouty, pi oro emmei menensa Ethre masf, are ohi eroi emparthenos, khen o hob emparazoxon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عمانوئيل الذى ولدتِه . هو حفظك . بغير فساد . وبتوليتكِ مختومة .",
+      "Coptic": "Emmanouhl vh`e tare`jvof > eqbe vai af`are\\ `ero > `ereoi `nattako > ectob `nje teparqeni`a .",
+      "English": "Immanuel, whom you gave birth to / He reserved you / from defilement /and sealed your virginity.",
+      "Arabiccoptic": "إممانوئيل فى إيطارى إجفوف . إثفى فاى أف أريه إيرو . إيرى أوى إن أت طاكو . إستوب إنجى تى بارثينيا .",
+      "Englishcoptic": "Emmanoueel vi etare egfof, ethve fai af areh ero, ere oi en attako, estobh enje te parthenia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك يا ممتلئة نعمة السلام لك يامن وجدت نعمة . السلام لك يامن ولدت المسيح . الرب معك .",
+      "Coptic": "Xere qheqme\\ `n`\\mot > xere qhetacjem `\\mot> xere qhetacmec Px/c/ > ouo\\ P_ ]wp neme .",
+      "English": "Hail to you O full of grace./ Hail to you who has found grace / Hail to you who has given birth to Christ. / The Lord is with von",
+      "Arabiccoptic": "شيرى ثى إثميه إنهموت . شيرى ثى إيطاس جيم إهموت . شيرى ثى إيطاس ميس بخريستوس . أووه إبشويس شوب نيمى .",
+      "Englishcoptic": "Shere thee ethmeh en ehmot, shere thee atas gim ehot, shere thee atas mes Pikhristos, owoh Epshois shop neme."
+    }
+  ]
 }

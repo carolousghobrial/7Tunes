@@ -1,7 +1,52 @@
 {
-"arabic": " تكلموا بكرامات من أجلِك، يا مدينة الله، لأنك أنتِ مسكن، جميع الفرحين.,\nكل ملوك الأرض، يسيرون في نورك، والأمم في ضيائكِ، يا مريم أم الله.,\n+ تطوِّبِك جميع الأجيال، ونحن نسجد، للذي ولدتِه، ونزيده علواً.,\nتطَّلع الآب من السماء، فلم يجد مَنْ يُشبهكِ، أرسل وحيده، أتى وتجسد منكِ.,\n",
-"arabiccoptic": " + أفصاجى أن هان طايو إثفيتى: اوتى فاكى إنتيه إفنووتى: جيه إنثو بيه تيريه إفما إنشوبى: إننى إيه توونوف تيروو إنخيتى .\n+ نى أووروؤو أوو تيروو إنتيه إبكاهى سيه موشى خين بيه أووأوينى :أووه نى إثنوس خين بيه فيرى: أو ماريا إثماف إم افنووتى .\n+ سيه إير ماكاريزين إممو: إنجيه نى جينيه آه تيروو: تين أووأوشت إمفي ات آريه إجفوف: تين ارهووؤ تشيسى إمموف .\n+ آه إفيوت جووشت إيفول خين إتفى: امبيف جيم في إتؤنى إممو: أفؤواورب إمبيف مونو جينيس: إى آفتشى صاركس إيفول إنخيتى .\n",
-"coptic": " Aucaji `n\\antaio eqbh;> `w ;baki `nte `Vnou;> je `nqo petere `vma `n]wpi> `nnh`etounof throu `n=h;.\nNiourwou throu `nte `pka\\i> cemo]i =en peouwini> ouo\\ nieqnoc =en peviri> `w Maria `Qmau `m`Vnou;.\nCeermakarizin `mmo> `nje nigene`a throu> tenouw]t `mvh`etare`jvof> tener\\ou`o sici `mmof.\n`A `Viwt jou]t `ebol =en `tve> `mpefjem vhet`oni `mmo> afouwrp `mpefmonogenhc> `i afsicar[ `ebol `n=h;.\n",
-"english": " They spoke of you with honor, O City of God, for you are the dwelling place, of all the joyful.,\nAll the kings of the earth, walk in your light, and the nations in your brightness, O Mary the Mother of God.,\nEvery generation calls you blessed, and we also worship Him, to whom you gave birth, and we exalt Him.,\nThe Father looked from heaven, and found no one like you, He sent His only-begotten, who came and took flesh from you.,\n",
-"englishcoptic": " Avsaji enhan-taio eth-veeti: o ti-vaki ente Evnoti: je entho pet-ere evma en-shopi: ennee-etoo-nof tero en-kheeti.\nNi-ooro-oo tero ente ep-kahi: se-moshi khen pi-o-oini: owoh ni-ethnos khen pe-viri: o Maria Ethmav em-Evnoti.\nSe-erma-kari-zin emmo: enje ni-genee-a tero: ten-oo-osht emvee-et-are-egvof: ten-erho-oo echisi emmof.\nA Eviot goosht evol khen etve: empef jem vee et-oni emmo: af oo-orp empef-mono-genees: ee-afchi-sarex evol enkheeti.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(2) ثيؤطوكية الأربعاء",
+  "EnglishTitle": "Wednesday Theotokia (2)",
+  "CopticTitle": "Aucaji `n\\antaio eqbh;",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "تكلموا بكرامات من أجلِك، يا مدينة الله، لأنك أنتِ مسكن، جميع الفرحين.",
+      "Coptic": "Aucaji `n\\antaio eqbh;> `w ;baki `nte `Vnou;> je `nqo petere `vma `n]wpi> `nnh`etounof throu `n=h;.",
+      "English": "They spoke of you with honor, O City of God, for you are the dwelling place, of all the joyful.",
+      "Arabiccoptic": "\b أفصاجى أن هان طايو إثفيتى: اوتى فاكى إنتيه إفنووتى: جيه إنثو بيه تيريه إفما إنشوبى: إننى إيه توونوف تيروو إنخيتى .",
+      "Englishcoptic": "Avsaji enhan-taio eth-veeti: o ti-vaki ente Evnoti: je entho pet-ere evma en-shopi: ennee-etoo-nof tero en-kheeti."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كل ملوك الأرض، يسيرون في نورك، والأمم في ضيائكِ، يا مريم أم الله.",
+      "Coptic": "Niourwou throu `nte `pka\\i> cemo]i =en peouwini> ouo\\ nieqnoc =en peviri> `w Maria `Qmau `m`Vnou;.",
+      "English": "All the kings of the earth, walk in your light, and the nations in your brightness, O Mary the Mother of God.",
+      "Arabiccoptic": "\b نى أووروؤو أوو تيروو إنتيه إبكاهى سيه موشى خين بيه أووأوينى :أووه نى إثنوس خين بيه فيرى: أو ماريا إثماف إم افنووتى .",
+      "Englishcoptic": "Ni-ooro-oo tero ente ep-kahi: se-moshi khen pi-o-oini: owoh ni-ethnos khen pe-viri: o Maria Ethmav em-Evnoti."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b تطوِّبِك جميع الأجيال، ونحن نسجد، للذي ولدتِه، ونزيده علواً.",
+      "Coptic": "Ceermakarizin `mmo> `nje nigene`a throu> tenouw]t `mvh`etare`jvof> tener\\ou`o sici `mmof.",
+      "English": "Every generation calls you blessed, and we also worship Him, to whom you gave birth, and we exalt Him.",
+      "Arabiccoptic": "\b سيه إير ماكاريزين إممو: إنجيه نى جينيه آه تيروو: تين أووأوشت إمفي ات آريه إجفوف: تين ارهووؤ تشيسى إمموف .",
+      "Englishcoptic": "Se-erma-kari-zin emmo: enje ni-genee-a tero: ten-oo-osht emvee-et-are-egvof: ten-erho-oo echisi emmof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تطَّلع الآب من السماء، فلم يجد مَنْ يُشبهكِ، أرسل وحيده، أتى وتجسد منكِ.",
+      "Coptic": "`A `Viwt jou]t `ebol =en `tve> `mpefjem vhet`oni `mmo> afouwrp `mpefmonogenhc> `i afsicar[ `ebol `n=h;.",
+      "English": "The Father looked from heaven, and found no one like you, He sent His only-begotten, who came and took flesh from you.",
+      "Arabiccoptic": "\b آه إفيوت جووشت إيفول خين إتفى: امبيف جيم في إتؤنى إممو: أفؤواورب إمبيف مونو جينيس: إى آفتشى صاركس إيفول إنخيتى .",
+      "Englishcoptic": "A Eviot goosht evol khen etve: empef jem vee et-oni emmo: af oo-orp empef-mono-genees: ee-afchi-sarex evol enkheeti."
+    }
+  ]
 }

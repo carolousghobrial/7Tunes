@@ -1,7 +1,63 @@
 {
-"arabic": " دعيت يا مريم العذراء الزهرة المقدسة التى للبخور.,\nالتى طلعت وأزهرت من أصل رؤساء الأباء والأنبياء.,\nمثل عصا هرون الكاهن أزهرت وأوسقت ثمراً.,\nلأنك ولدت الكلمة بغير زرع بشر وبتوليتك بغير فساد.,\nفلهذا نمجدك كوالدة الإلة إسألى إبنك ليغفر لنا.,\n",
-"arabiccoptic": " أفموتى إيرو. ماريا تي بارثينوس. جى تى إهريرى إثؤواب. إنتى بى إسطوينوفى\nثي إيطاس تى أوأو إإبشوى. أسفيرى إيفول. خين إثنونى إن نى باطريارشيس. نيم نى إبروفيتيس.\nإمفريتى إمبى إشفوت. إنتى أأرون بى أويب. إيطاف فيرى إيفول. أفؤبت إنكاربوس.\nجى أرى إجفو إمبى لوغوس. أتشنى إسبيرما إنرومى. إسؤى إن أت طاكو. إنجى تى بارثينيا.\nإثفـى فـاىتين تى أوأونى. هوس ثيؤطوكوس. ماتىهو إمبي شيرى. إثريف كو نان إيفول.\n",
-"coptic": " Aumou; `ero > Mari`a ;parqenoc > je ;`\\reri e/q/u/ `nte pi`cqoinoufi .\nQh`etac;ou`w `e`p]wi > acviri `ebol > =en `qnouni `nnipatriarxhc > nem ni`provhthc .\n` M`vrh; `mpi `]bwt > `nte A`arwn piouhb > `etafviri `ebol > afopt `nkarpoc.\nJe `are`jvo `mpilogoc > asne `cperma `nrwmi > ecoi `nattako > `nje teparqeni`a\nEqbe vai ten;`wou ne > \\wc qe`otokoc > ma;\\o `mpe]hri > eqrefxw nan `ebol.\n",
-"english": " You are called: O Virgin Mary: the holy flower: of incense,\nWhich came out: and blossomed: from the roots of the patriarchs: and the prophets.,\nLike the rod: of Aaron the priest : which blossomed : and brought forth fruit.,\nFor you gave birth to the Word: without the seed of man: and your virginity: was not corrupted.,\nWherefore we glorify you: as the Mother of God ask your Son: to forgive us.,\n",
-"englishcoptic": " Avmouti ero, Maria ti-Parthenos, je ti-ehriri ethowab, ente pi-estoi-noufi.\nThi-etas ti-ou-o e-epshoi, asfiri evol, khen ethnoni enni-patriar-shis, nem nip-rophitis.\nEmifriti empi-eshvot, ente A-aron pi-owib, etaf firi evol, afopt en-karpos.\nJe arig-fo empi-Logos, atchne esperma en-romi, esoi en-attako, enje ti-parthenia.\nEthve fai tenti-o-o ne, hos Theotokos, matiho em-peshiri, ethref-ko nan evol.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(9) ثيؤطوكية الأحد",
+  "EnglishTitle": "Sunday Theotokia (9)",
+  "CopticTitle": "Aumou; `ero ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "دعيت يا مريم العذراء الزهرة المقدسة التى للبخور.",
+      "Coptic": "Aumou; `ero > Mari`a ;parqenoc > je ;`\\reri e/q/u/ `nte pi`cqoinoufi .",
+      "English": "You are called: O Virgin Mary: the holy flower: of incense",
+      "Arabiccoptic": "أفموتى إيرو. ماريا تي بارثينوس. جى تى إهريرى إثؤواب. إنتى بى إسطوينوفى",
+      "Englishcoptic": "Avmouti ero, Maria ti-Parthenos, je ti-ehriri ethowab, ente pi-estoi-noufi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "التى طلعت وأزهرت من أصل رؤساء الأباء والأنبياء.",
+      "Coptic": "Qh`etac;ou`w `e`p]wi > acviri `ebol > =en `qnouni `nnipatriarxhc > nem ni`provhthc .",
+      "English": "Which came out: and blossomed: from the roots of the patriarchs: and the prophets.",
+      "Arabiccoptic": "ثي إيطاس تى أوأو إإبشوى. أسفيرى إيفول. خين إثنونى إن نى باطريارشيس. نيم نى إبروفيتيس.",
+      "Englishcoptic": "Thi-etas ti-ou-o e-epshoi, asfiri evol, khen ethnoni enni-patriar-shis, nem nip-rophitis."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "مثل عصا هرون الكاهن أزهرت وأوسقت ثمراً.",
+      "Coptic": "` M`vrh; `mpi `]bwt > `nte A`arwn piouhb > `etafviri `ebol > afopt `nkarpoc.",
+      "English": "Like the rod: of Aaron the priest : which blossomed : and brought forth fruit.",
+      "Arabiccoptic": "إمفريتى إمبى إشفوت. إنتى أأرون بى أويب. إيطاف فيرى إيفول. أفؤبت إنكاربوس.",
+      "Englishcoptic": "Emifriti empi-eshvot, ente A-aron pi-owib, etaf firi evol, afopt en-karpos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنك ولدت الكلمة بغير زرع بشر وبتوليتك بغير فساد.",
+      "Coptic": "Je `are`jvo `mpilogoc > asne `cperma `nrwmi > ecoi `nattako > `nje teparqeni`a",
+      "English": "For you gave birth to the Word: without the seed of man: and your virginity: was not corrupted.",
+      "Arabiccoptic": "جى أرى إجفو إمبى لوغوس. أتشنى إسبيرما إنرومى. إسؤى إن أت طاكو. إنجى تى بارثينيا.",
+      "Englishcoptic": "Je arig-fo empi-Logos, atchne esperma en-romi, esoi en-attako, enje ti-parthenia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "فلهذا نمجدك كوالدة الإلة إسألى إبنك ليغفر لنا.",
+      "Coptic": "Eqbe vai ten;`wou ne > \\wc qe`otokoc > ma;\\o `mpe]hri > eqrefxw nan `ebol.",
+      "English": "Wherefore we glorify you: as the Mother of God ask your Son: to forgive us.",
+      "Arabiccoptic": "إثفـى فـاىتين تى أوأونى. هوس ثيؤطوكوس. ماتىهو إمبي شيرى. إثريف كو نان إيفول.",
+      "Englishcoptic": "Ethve fai tenti-o-o ne, hos Theotokos, matiho em-peshiri, ethref-ko nan evol."
+    }
+  ]
 }

@@ -1,7 +1,52 @@
 {
-  "arabic": " وأيضا إذا.ما إجتمعنا للصلاة . فلنبارك . إسم ربى يسوع.,\nلأننا نباركك. ياربى يسوع. نجينا بإسمك . لأننا توكلنا عليك.,\nلكى نسبحك. مع أبيك الصالح. والروح القدس. لأنك %%%% وخلصتنا.,\nالمجد للآب و الابن و الروح القدس, الآن و كل أوان و الى دهر الدهور أمين,\n",
-  "arabiccoptic": " ليبون أنشان ثوؤتى. إتى إبروس إفشى . مارين إسمو إبيران . إنتى باشويس إيسوس.\nجى تين نا إسمو إيروك. أوباشويس إيسوس. ناهمين خين بيكران. جى أن إيرهيلبيس إيروك.\nإثرين هوس إيروك. نيم بيك يوت إن أغاثوس . نيم بى إبنفما إثؤواب. جى %%%% أكسوتى إممون.\nذوكسابترى كى ايو كى أجيو بنفماتى,  كى نين كى أ اى كى استوس ا اوناس طون ا اونون أمين\n",
-  "coptic": " Loipon an]anq wou; > `e;`proceuxh > maren`cmou `epiran > `nte Pa_ Ih/c/ .\nJe tenna`cmou `erok > `w Pa_ Ih/c/ > na\\men =en pekran > je aner\\elpic `erok.\nEqren\\wc `erok > nem Pekiwt `n`agaqoc > nem Pip/n/a/ e/q/u/ > je %%%% akcw; `mmon.\nDo[a Patri ke Uiw : ke `agiw Pneumati. Ke nun ke `a`i ke ic touc : `e`wnac twn `e`wnwn `amhn.\n",
-  "english": " And whenever we gather for prayer, let us bless the name of my Lord Jesus.,\nWe bless You, O my Lord Jesus, deliver us through Your name, for we have hope in You.,\nThat we may praise You: with Your good Father and the Holy Spirit: for You have %%%% and saved us.,\nGlory to the Father and the Son, and the Holy Spirit, now and ever and unto the ages of the ages. Amen.,\n",
-  "englishcoptic": " Leepon anshan tho o-ti, eti epros evshi, maren esmo e-piran, ente pashois Esos.\nJe tenna esmo e-rok, ow pashois Esos, nahmen khen pekran, je aner-helpis e-rok.\nEthrin hos e-rok, nem Pekiowt en-aghathos, nem pi-epnevma ethowab, je %%%% aksoti emmon.\nZoxa Patree ke Eio, ke Agio Epnevmati, Ke neen ke a-ee ke estos, e-onas ton e-onon amen.\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "مقدمة الثيؤطوكيات الأدام",
+  "EnglishTitle": "Adam Theotokia Introduction",
+  "CopticTitle": "Loipon an]anq wou; ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأيضا إذا.ما إجتمعنا للصلاة . فلنبارك . إسم ربى يسوع.",
+      "Coptic": "Loipon an]anq wou; > `e;`proceuxh > maren`cmou `epiran > `nte Pa_ Ih/c/ .",
+      "English": "And whenever we gather for prayer, let us bless the name of my Lord Jesus.",
+      "Arabiccoptic": "ليبون أنشان ثوؤتى. إتى إبروس إفشى . مارين إسمو إبيران . إنتى باشويس إيسوس.",
+      "Englishcoptic": "Leepon anshan tho o-ti, eti epros evshi, maren esmo e-piran, ente pashois Esos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأننا نباركك. ياربى يسوع. نجينا بإسمك . لأننا توكلنا عليك.",
+      "Coptic": "Je tenna`cmou `erok > `w Pa_ Ih/c/ > na\\men =en pekran > je aner\\elpic `erok.",
+      "English": "We bless You, O my Lord Jesus, deliver us through Your name, for we have hope in You.",
+      "Arabiccoptic": "جى تين نا إسمو إيروك. أوباشويس إيسوس. ناهمين خين بيكران. جى أن إيرهيلبيس إيروك.",
+      "Englishcoptic": "Je tenna esmo e-rok, ow pashois Esos, nahmen khen pekran, je aner-helpis e-rok."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكى نسبحك. مع أبيك الصالح. والروح القدس. لأنك %%%% وخلصتنا.",
+      "Coptic": "Eqren\\wc `erok > nem Pekiwt `n`agaqoc > nem Pip/n/a/ e/q/u/ > je %%%% akcw; `mmon.",
+      "English": "That we may praise You: with Your good Father and the Holy Spirit: for You have %%%% and saved us.",
+      "Arabiccoptic": "إثرين هوس إيروك. نيم بيك يوت إن أغاثوس . نيم بى إبنفما إثؤواب. جى %%%% أكسوتى إممون.",
+      "Englishcoptic": "Ethrin hos e-rok, nem Pekiowt en-aghathos, nem pi-epnevma ethowab, je %%%% aksoti emmon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "المجد للآب و الابن و الروح القدس, الآن و كل أوان و الى دهر الدهور أمين",
+      "Coptic": "Do[a Patri ke Uiw : ke `agiw Pneumati. Ke nun ke `a`i ke ic touc : `e`wnac twn `e`wnwn `amhn.",
+      "English": "Glory to the Father and the Son, and the Holy Spirit, now and ever and unto the ages of the ages. Amen.",
+      "Arabiccoptic": "ذوكسابترى كى ايو كى أجيو بنفماتى,  كى نين كى أ اى كى استوس ا اوناس طون ا اونون أمين",
+      "Englishcoptic": "Zoxa Patree ke Eio, ke Agio Epnevmati, Ke neen ke a-ee ke estos, e-onas ton e-onon amen."
+    }
+  ]
 }

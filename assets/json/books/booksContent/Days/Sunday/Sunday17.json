@@ -1,7 +1,52 @@
 {
-"arabic": " المسيح إلهنـا قـام مـن الأموات وهـو باكـورة الراقـدين .,\nظهر لمريم المجدلية وخاطبها هكذا قائلاً :,\nإعلمى إخوتى أن يذهبوا إلى الجليل هناك يروننى .,\nفجاءت مريم إلى التلاميذ وقالت أنها رأت الـرب وأنه قال لها هـذا .,\n",
-"arabiccoptic": " أبى إخريستوس بين نوتى : طونف إيفول خين نى إثموأوت : إنثوف بى إت أبارشى : إنتى نى إيطاف إنكوت .\nأف أو أونهف إى ماريا : تى مجدالينى : أف ساجى نيماس : إمباى ريتى إفجو إمموس .\nجى ما تامى نا إسنيو : هينا إنتو شينوأو : إتى جاليلي آ : سينا ناف إيروى إمماف .\nأسئى إنجى ماريا : شا نى ماثيتيس : بى جاس جى إى ناف إى إبشويس : أووه أنى بى طاف جوتو ناس .\n",
-"coptic": " ` A Px/c/ Pennou; > twnf `ebol =en nheqmwout > `nqof pe `t`aparxh > `nte nh`etauenkot .\nAfouon\\f `eMari`a >;magdalinh > afcaji nemac > `mpairh; efjw `mmoc .\nJe matame na `cnhou > \\ina `ntou]en wou > `e;galile`a > cenanau `eroi `mmau.\nAc`i `nje Mari`a > ]a nimaqhthc > pejac je ainau `e P_ > ouo\\ ani petafjotou nac.\n",
-"english": " Christ our God: is risen from the dead: and He is the first fruit: of those who have fallen asleep.,\nHe appeared to Mary: Magdalene: and spoke to her: and likewise said:,\nTell my brethren: to go to: Galilee: and there they will see Me.,\nSo Mary came forth: to the disciples: and told them she had seen the Lord: and that He told her so.,\n",
-"englishcoptic": " Apekhrestos pennouti, tonf evol khenni-ethmo-ot, enthof pe-et-aparshe, ente ny-etav-enkot.\nAf-o-onhfe e-Maria, ti-Magdaleni, afcaje nemas, empay-riti efgo emmos.\nJe-matame na esneio, hina ento-shenou-oo, e-ti-Gallele-a, se-nanav eroy emmav.\nAs-e enje Maria, sha ni-mathetis, pegas je ainav Epshois, owoh nai petaf-goto nas.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(17) ثيؤطوكية الأحد",
+  "EnglishTitle": "Sunday Theotokia (17)",
+  "CopticTitle": "` A Px/c/ Pennou; ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المسيح إلهنـا قـام مـن الأموات وهـو باكـورة الراقـدين .",
+      "Coptic": "` A Px/c/ Pennou; > twnf `ebol =en nheqmwout > `nqof pe `t`aparxh > `nte nh`etauenkot .",
+      "English": "Christ our God: is risen from the dead: and He is the first fruit: of those who have fallen asleep.",
+      "Arabiccoptic": "أبى إخريستوس بين نوتى : طونف إيفول خين نى إثموأوت : إنثوف بى إت أبارشى : إنتى نى إيطاف إنكوت .",
+      "Englishcoptic": "Apekhrestos pennouti, tonf evol khenni-ethmo-ot, enthof pe-et-aparshe, ente ny-etav-enkot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ظهر لمريم المجدلية وخاطبها هكذا قائلاً :",
+      "Coptic": "Afouon\\f `eMari`a >;magdalinh > afcaji nemac > `mpairh; efjw `mmoc .",
+      "English": "He appeared to Mary: Magdalene: and spoke to her: and likewise said:",
+      "Arabiccoptic": "أف أو أونهف إى ماريا : تى مجدالينى : أف ساجى نيماس : إمباى ريتى إفجو إمموس .",
+      "Englishcoptic": "Af-o-onhfe e-Maria, ti-Magdaleni, afcaje nemas, empay-riti efgo emmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إعلمى إخوتى أن يذهبوا إلى الجليل هناك يروننى .",
+      "Coptic": "Je matame na `cnhou > \\ina `ntou]en wou > `e;galile`a > cenanau `eroi `mmau.",
+      "English": "Tell my brethren: to go to: Galilee: and there they will see Me.",
+      "Arabiccoptic": "جى ما تامى نا إسنيو : هينا إنتو شينوأو : إتى جاليلي آ : سينا ناف إيروى إمماف .",
+      "Englishcoptic": "Je-matame na esneio, hina ento-shenou-oo, e-ti-Gallele-a, se-nanav eroy emmav."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "فجاءت مريم إلى التلاميذ وقالت أنها رأت الـرب وأنه قال لها هـذا .",
+      "Coptic": "Ac`i `nje Mari`a > ]a nimaqhthc > pejac je ainau `e P_ > ouo\\ ani petafjotou nac.",
+      "English": "So Mary came forth: to the disciples: and told them she had seen the Lord: and that He told her so.",
+      "Arabiccoptic": "أسئى إنجى ماريا : شا نى ماثيتيس : بى جاس جى إى ناف إى إبشويس : أووه أنى بى طاف جوتو ناس .",
+      "Englishcoptic": "As-e enje Maria, sha ni-mathetis, pegas je ainav Epshois, owoh nai petaf-goto nas."
+    }
+  ]
 }

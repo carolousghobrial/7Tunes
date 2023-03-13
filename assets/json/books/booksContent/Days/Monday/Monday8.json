@@ -1,7 +1,74 @@
 {
-"arabic": " كل الأنفس، تفرح وترتل، مع الملائكة، مُسبحين الملك المسيح.,\nوصارخين قائلين، \"المجد لله في الأعالي، وعلى الأرض السلام، وفي الناس المسرة.\",\nلأنه حلَّ، الحاجز، وقتل العداوة، بالكمال.,\nومزَّق كتاب، يد العبودية، التي لآدم وحواء، وحررهما.,\nالذي وُلِدَ لنا، في مدينة داود، مُخلِّصنا يسوع، كقول الملاك.,\nأشرق جسدياً، من العذراء، بغير زرع بشرٍ، حتى خلصنا.,\n",
-"arabiccoptic": " إبسيشى نيفين سى راشى: أووه سى إيرخوريفين: نيم نى أنجيلوس: إفهوس إى ابؤورو بى خرستوس .\nإفؤش إيفول إفجو إمموس: جيه أوو أوأووخين نى إتتشوسى امفنووتى: نيم أوو هيرينى هيجين بى كاهى: نيم أووتى ماتى خين نى رومى .\nجيه آف فول غار إيفول: إنتى جى ان اثميتى: أفخوتيب خين أووجوك: إنتى ميت جاجى .\nآف فوخ إمبى إسخى إنجيج: انتى تى ميت فوك: إنتى آدام نيم إيفا: أف أيتوو إن ريمهيه .\nإنجى في إيطاف ماسف نان: خين إثفاكى إن دافيد : كاطا إبصاجى امبى آنجيلوس: بين سوتير إيسووس .\nافشاى سوماتيكوس: ايفول خين تى بارثينوس: أتشينه إسبيرما إنرومى: شا إنتيف صوتى إممون .\n",
-"coptic": " Yuxh niben ra]i> ouo\\ ceerxwreuin> nem niaggeloc> eu\\wc `e`Pouro Pi`xrictoc.\nEuw] `ebol eujw `mmoc> je ou`wou =en nhetsoci `m`Vnou;> nem ou\\irhnh \\ijen pika\\i> nem ou;ma; =en nirwmi.\nJe afbwl gar `ebol> `mpijin`i `e`qmh;> af=wteb =en oujwk> `n;metjaji.\nAfvw= `mpi`c=i `njij> `nte ;metbwk> `nte `Adam nem `Eua> afaitou `nrem\\e.\n`Nje vh`etafmacf nan> =en `qbaki `nDauid> kata `pcaji `mpiaggeloc> Pencwthr Ihcouc.\nAf]ai cwmatikwc> `ebol =en :parqenoc> asne `cperma `nrwmi> ]a `ntefcw; `mmon.\n",
-"english": " All the souls, rejoice and sing, with the angels, and praise Christ the King.,\nProclaiming and saying, \"Glory to God in the highest, on earth peace, and goodwill toward men.,\nFor He has destroyed, the middle wall, and killed the enmity, with perfection.,\nHe has torn, the verdict of slavery, pronounced on Adam and Eve, and He freed them.,\nHe who was born for us, in the city of David, is our Savior Jesus, as the angel said.,\nHe shone in the flesh, taken from the Virgin, without the seed of man, in order to save us.,\n",
-"englishcoptic": " Epsishee niven rashi: owoh se-er-kore-vin: nem ni-angelos: evhos Eporo Pikhristos.\nEvosh evol evgo emmos: je oo-o-oo khen nee-etchosi em-Evnoti: nem oo-hireenee hijen pi-kahi: nem oo-timati khen niromi.\nJe af-vol ghar evol: empi-jini e-ethmeeti: af-khoteb khen oo-gok: enti-met-gaji.\nAf-vokh empi-eskhi enjig: ente ti-metvok: ente Adam nem Eva: af-ai-too enremhe.\nEnje vee-etaf-masf nan: khen eth-vaki en-David: kata ep-saji empi-angelos: Pensoteer Isos.\nAfshai soma-tikos: evol khen Ti-parthenos: achne esperma enromi: sha entef-soti emmon.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(8) ثيؤطوكية الإثنين",
+  "EnglishTitle": "Monday Theotokia (8)",
+  "CopticTitle": "Yuxh niben ra]i",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كل الأنفس، تفرح وترتل، مع الملائكة، مُسبحين الملك المسيح.",
+      "Coptic": "Yuxh niben ra]i> ouo\\ ceerxwreuin> nem niaggeloc> eu\\wc `e`Pouro Pi`xrictoc.",
+      "English": "All the souls, rejoice and sing, with the angels, and praise Christ the King.",
+      "Arabiccoptic": "إبسيشى نيفين سى راشى: أووه سى إيرخوريفين: نيم نى أنجيلوس: إفهوس إى ابؤورو بى خرستوس .",
+      "Englishcoptic": "Epsishee niven rashi: owoh se-er-kore-vin: nem ni-angelos: evhos Eporo Pikhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وصارخين قائلين، \"المجد لله في الأعالي، وعلى الأرض السلام، وفي الناس المسرة.\"",
+      "Coptic": "Euw] `ebol eujw `mmoc> je ou`wou =en nhetsoci `m`Vnou;> nem ou\\irhnh \\ijen pika\\i> nem ou;ma; =en nirwmi.",
+      "English": "Proclaiming and saying, \"Glory to God in the highest, on earth peace, and goodwill toward men.",
+      "Arabiccoptic": "إفؤش إيفول إفجو إمموس: جيه أوو أوأووخين نى إتتشوسى امفنووتى: نيم أوو هيرينى هيجين بى كاهى: نيم أووتى ماتى خين نى رومى .",
+      "Englishcoptic": "Evosh evol evgo emmos: je oo-o-oo khen nee-etchosi em-Evnoti: nem oo-hireenee hijen pi-kahi: nem oo-timati khen niromi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه حلَّ، الحاجز، وقتل العداوة، بالكمال.",
+      "Coptic": "Je afbwl gar `ebol> `mpijin`i `e`qmh;> af=wteb =en oujwk> `n;metjaji.",
+      "English": "For He has destroyed, the middle wall, and killed the enmity, with perfection.",
+      "Arabiccoptic": "جيه آف فول غار إيفول: إنتى جى ان اثميتى: أفخوتيب خين أووجوك: إنتى ميت جاجى .",
+      "Englishcoptic": "Je af-vol ghar evol: empi-jini e-ethmeeti: af-khoteb khen oo-gok: enti-met-gaji."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ومزَّق كتاب، يد العبودية، التي لآدم وحواء، وحررهما.",
+      "Coptic": "Afvw= `mpi`c=i `njij> `nte ;metbwk> `nte `Adam nem `Eua> afaitou `nrem\\e.",
+      "English": "He has torn, the verdict of slavery, pronounced on Adam and Eve, and He freed them.",
+      "Arabiccoptic": "آف فوخ إمبى إسخى إنجيج: انتى تى ميت فوك: إنتى آدام نيم إيفا: أف أيتوو إن ريمهيه .",
+      "Englishcoptic": "Af-vokh empi-eskhi enjig: ente ti-metvok: ente Adam nem Eva: af-ai-too enremhe."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي وُلِدَ لنا، في مدينة داود، مُخلِّصنا يسوع، كقول الملاك.",
+      "Coptic": "`Nje vh`etafmacf nan> =en `qbaki `nDauid> kata `pcaji `mpiaggeloc> Pencwthr Ihcouc.",
+      "English": "He who was born for us, in the city of David, is our Savior Jesus, as the angel said.",
+      "Arabiccoptic": "إنجى في إيطاف ماسف نان: خين إثفاكى إن دافيد : كاطا إبصاجى امبى آنجيلوس: بين سوتير إيسووس .",
+      "Englishcoptic": "Enje vee-etaf-masf nan: khen eth-vaki en-David: kata ep-saji empi-angelos: Pensoteer Isos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أشرق جسدياً، من العذراء، بغير زرع بشرٍ، حتى خلصنا.",
+      "Coptic": "Af]ai cwmatikwc> `ebol =en :parqenoc> asne `cperma `nrwmi> ]a `ntefcw; `mmon.",
+      "English": "He shone in the flesh, taken from the Virgin, without the seed of man, in order to save us.",
+      "Arabiccoptic": "افشاى سوماتيكوس: ايفول خين تى بارثينوس: أتشينه إسبيرما إنرومى: شا إنتيف صوتى إممون .",
+      "Englishcoptic": "Afshai soma-tikos: evol khen Ti-parthenos: achne esperma enromi: sha entef-soti emmon."
+    }
+  ]
 }

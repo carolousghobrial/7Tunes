@@ -1,7 +1,74 @@
 {
-"arabic": " أنت مستحقة أكثر من جميع القديسين أن تطلبى عنا أيتها الممتلئة نعمة.,\nأنت مرتفعة جداً, أكثر من رؤساء الأباء, ومكرمة, أفضل من الأنبياء.,\nولك سعى, بدالة, أكثر من الشاروبيم, والسيرافيم.,\nلأنك أنت, بالحقيقة, فخر جنسنا, وشفيعة نفوسنا.,\nإشفعى فينا, أمام مخلصنا, لكى يثبتنا, فى الإيمان المستقيم.,\nوينعم لنا, بمغفرة خطايانا, لنفوز برحمة, بشفاعاتك.,\n",
-"arabiccoptic": " تيؤى إنهيكانوس. إيهوتى نى إثؤواب تيرو. إثرى طوبه إيجون. إو ثى إثميه إنهموت\nتيتشوسى إيماشو. إيهوتى نى باطريارشيس. أووه تى طايوت. إيهوتى نى إبروفيتيس.\nأوؤن تي جين موشى. خين أو بارريسيا. إيهوتى ني شيروبيم. نيم نى سيرافيم.\nإنثو غار أليثوس. بى إبشوشو إمبين جينوس.أووه تى إبروستاتيس. إنتى نين إبسيشى.\nأرى إبريزفيفين إيجون. ناهرين بينسوتير. هوبوس إنتيف طاجرون. خين بيناهتى إتسوتون.\nإنتيف إير إهموت نان. إمبى كو إيفول إنتى نين نوفى. إنتين شاشنى إفناى. هيتين نى إبريسفيا.\n",
-"coptic": " Teoi `n\\ikanoc > `e\\ote nie/q/u/ throu > eqretwb\\ `ejwn > `w qheqme\\ `n`\\mot.\nTesoci `ema]w > `e\\ote nipatriarxhc > ouo\\ tetaiout > `e\\ote ni`provhthc .\nOuon te jinmo]i > =en ouparrhci`a > `e\\ote Nixeroubim > nem Niceravim.\n` Nqo gar alhqwc > pe `p]ou]ou `mpengenoc > ouo\\ ;`proctathc > `nte nenyuxh .\n`Ari`precbeuin `ejwn > na\\ren Pencwthr > \\opwc `nteftajron > =en pina\\; etcoutwn.\n`Ntefer\\mot nan > `mpixw `ebol `nte nennobi > `nten]a]ni eunai > \\iten ne`precbi`a.\n",
-"english": " You are more worthy: than all of the saints: to pray on our behalf: O full of grace.,\nYou are exalted: more than the patriarchs: and honored more than the prophets.,\nAnd you have a seeking: more special: than the cherubim: and the seraphim.,\nFor you are truly: the pride of our race: and the intercessor: of our souls.,\nIntercede for us: before our Savior: that He may keep us firm: in the upright faith.,\nThat He may grant us: the forgiveness of our sins: in order to win mercy: through your intercessions.,\n",
-"englishcoptic": " Teoi enhe-kanos, e-hote ni-ethowab tiro, ethre-tovh e-gon, o thie-ethmen-ehmot.\nTit-shosi e-mashow, e-hote ni-patriarshis, owoh te-tai-yoot, ehote ni-eprofitis.\nO-on to jin-moshi, khen ou-par-riseia, e-hote ni-Sherobim, nem ni-Seraphim.\nEntho ghar alithos, pep-sho-sho empen genos, owoh ti-epros-tatis, ente nen epsishi.\nArip-resvevin e-gon, nahren pen-sotir, hopos entef tagron, khen pi-nahti etsoton.\nEntef-er-ehmot nan, empi-ko evol ente nennovi, enten shashni evnai, hetinip-resveia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(10) ثيؤطوكية الأحد",
+  "EnglishTitle": "Sunday Theotokia (10)",
+  "CopticTitle": "Teoi `n\\ikanoc ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت مستحقة أكثر من جميع القديسين أن تطلبى عنا أيتها الممتلئة نعمة.",
+      "Coptic": "Teoi `n\\ikanoc > `e\\ote nie/q/u/ throu > eqretwb\\ `ejwn > `w qheqme\\ `n`\\mot.",
+      "English": "You are more worthy: than all of the saints: to pray on our behalf: O full of grace.",
+      "Arabiccoptic": "تيؤى إنهيكانوس. إيهوتى نى إثؤواب تيرو. إثرى طوبه إيجون. إو ثى إثميه إنهموت",
+      "Englishcoptic": "Teoi enhe-kanos, e-hote ni-ethowab tiro, ethre-tovh e-gon, o thie-ethmen-ehmot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أنت مرتفعة جداً, أكثر من رؤساء الأباء, ومكرمة, أفضل من الأنبياء.",
+      "Coptic": "Tesoci `ema]w > `e\\ote nipatriarxhc > ouo\\ tetaiout > `e\\ote ni`provhthc .",
+      "English": "You are exalted: more than the patriarchs: and honored more than the prophets.",
+      "Arabiccoptic": "تيتشوسى إيماشو. إيهوتى نى باطريارشيس. أووه تى طايوت. إيهوتى نى إبروفيتيس.",
+      "Englishcoptic": "Tit-shosi e-mashow, e-hote ni-patriarshis, owoh te-tai-yoot, ehote ni-eprofitis."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولك سعى, بدالة, أكثر من الشاروبيم, والسيرافيم.",
+      "Coptic": "Ouon te jinmo]i > =en ouparrhci`a > `e\\ote Nixeroubim > nem Niceravim.",
+      "English": "And you have a seeking: more special: than the cherubim: and the seraphim.",
+      "Arabiccoptic": "أوؤن تي جين موشى. خين أو بارريسيا. إيهوتى ني شيروبيم. نيم نى سيرافيم.",
+      "Englishcoptic": "O-on to jin-moshi, khen ou-par-riseia, e-hote ni-Sherobim, nem ni-Seraphim."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأنك أنت, بالحقيقة, فخر جنسنا, وشفيعة نفوسنا.",
+      "Coptic": "` Nqo gar alhqwc > pe `p]ou]ou `mpengenoc > ouo\\ ;`proctathc > `nte nenyuxh .",
+      "English": "For you are truly: the pride of our race: and the intercessor: of our souls.",
+      "Arabiccoptic": "إنثو غار أليثوس. بى إبشوشو إمبين جينوس.أووه تى إبروستاتيس. إنتى نين إبسيشى.",
+      "Englishcoptic": "Entho ghar alithos, pep-sho-sho empen genos, owoh ti-epros-tatis, ente nen epsishi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إشفعى فينا, أمام مخلصنا, لكى يثبتنا, فى الإيمان المستقيم.",
+      "Coptic": "`Ari`precbeuin `ejwn > na\\ren Pencwthr > \\opwc `nteftajron > =en pina\\; etcoutwn.",
+      "English": "Intercede for us: before our Savior: that He may keep us firm: in the upright faith.",
+      "Arabiccoptic": "أرى إبريزفيفين إيجون. ناهرين بينسوتير. هوبوس إنتيف طاجرون. خين بيناهتى إتسوتون.",
+      "Englishcoptic": "Arip-resvevin e-gon, nahren pen-sotir, hopos entef tagron, khen pi-nahti etsoton."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وينعم لنا, بمغفرة خطايانا, لنفوز برحمة, بشفاعاتك.",
+      "Coptic": "`Ntefer\\mot nan > `mpixw `ebol `nte nennobi > `nten]a]ni eunai > \\iten ne`precbi`a.",
+      "English": "That He may grant us: the forgiveness of our sins: in order to win mercy: through your intercessions.",
+      "Arabiccoptic": "إنتيف إير إهموت نان. إمبى كو إيفول إنتى نين نوفى. إنتين شاشنى إفناى. هيتين نى إبريسفيا.",
+      "Englishcoptic": "Entef-er-ehmot nan, empi-ko evol ente nennovi, enten shashni evnai, hetinip-resveia."
+    }
+  ]
 }

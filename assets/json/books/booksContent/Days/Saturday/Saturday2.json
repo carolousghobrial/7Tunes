@@ -1,7 +1,41 @@
 {
-"arabic": " نغبط عظمتك . أيتها العذراء الحكيمة . ونعطيك السلام . مع غبريال الملاك .,\nلأن من قبل ثمرتك . أدرك الخلاص جنسنا . وأصلحنا الله مرة أخرى . من قبل صلاحه.,\nالسلام لك يا ممتلئة نعمة السلام لك يامن وجدت نعمة . السلام لك يامن ولدت المسيح . الرب معك .,\n",
-"arabiccoptic": " تين إير ماكارى زين إنتى ميت نيشتى . أو تى بارثينوس إن سافى . تين تى ني إمبى شيرى تيسموس . نيم غابرييل بى أنجيلوس.\nجى إيفول هيتين بى كاربوس . أبى أوجاى تاهى بين جينوس . أ إفنوتى هوتبن إيروف إنكيسوب. هيتين تيف ميت أغاثوس .\nشيرى ثى إثميه إنهموت . شيرى ثى إيطاس جيم إهموت . شيرى ثى إيطاس ميس بخريستوس . أووه إبشويس شوب نيمى .\n",
-"coptic": " Tenermakarizin `ntemetni]; > `w ;parqenoc `ncabh > ten; ne `mpixereticmoc > nem Gabrihl piaggeloc.\nJe `ebol \\iten pe karpoc > ` A pioujai ta\\e pengenoc > `aV; \\otpen `erof `nkecop > \\iten tefmet`agaqoc.\nXere qheqme\\ `n`\\mot > xere qhetacjem `\\mot> xere qhetacmec Px/c/ > ouo\\ P_ ]wp neme .\n",
-"english": " We praise your greatness : O the wise Virgin : and we say Hail to you : with Gabriel the angel.,\nBecause your yield saved our race: and reconciled us: again with God: out of his goodness.,\nHail to you O full of grace : Hail to you who has found grace : Hail to you who has given birth to Christ : the Lord is with you.,\n",
-"englishcoptic": " Ten ermakarizin enty met nishty, w ti parthenos en save, tenti ne empi shere tismos, nem Ghabriel pi angelos.\nJe evol hiten pe karpos, api ogai tahe pengenos, a evnouty hotben erof en kesop, hiten tef met aghathos.\nShere thee ethmeh en ehmot, shere thee atas gim ehot, shere thee atas mes Pikhristos, owoh Epshois shop neme.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(2) ثيؤطوكية السبت",
+  "EnglishTitle": "Saturday Theotokia (2)",
+  "CopticTitle": "Tenermakarizin `ntemetni]; ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نغبط عظمتك . أيتها العذراء الحكيمة . ونعطيك السلام . مع غبريال الملاك .",
+      "Coptic": "Tenermakarizin `ntemetni]; > `w ;parqenoc `ncabh > ten; ne `mpixereticmoc > nem Gabrihl piaggeloc.",
+      "English": "We praise your greatness : O the wise Virgin : and we say Hail to you : with Gabriel the angel.",
+      "Arabiccoptic": "تين إير ماكارى زين إنتى ميت نيشتى . أو تى بارثينوس إن سافى . تين تى ني إمبى شيرى تيسموس . نيم غابرييل بى أنجيلوس.",
+      "Englishcoptic": "Ten ermakarizin enty met nishty, w ti parthenos en save, tenti ne empi shere tismos, nem Ghabriel pi angelos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن من قبل ثمرتك . أدرك الخلاص جنسنا . وأصلحنا الله مرة أخرى . من قبل صلاحه.",
+      "Coptic": "Je `ebol \\iten pe karpoc > ` A pioujai ta\\e pengenoc > `aV; \\otpen `erof `nkecop > \\iten tefmet`agaqoc.",
+      "English": "Because your yield saved our race: and reconciled us: again with God: out of his goodness.",
+      "Arabiccoptic": "جى إيفول هيتين بى كاربوس . أبى أوجاى تاهى بين جينوس . أ إفنوتى هوتبن إيروف إنكيسوب. هيتين تيف ميت أغاثوس .",
+      "Englishcoptic": "Je evol hiten pe karpos, api ogai tahe pengenos, a evnouty hotben erof en kesop, hiten tef met aghathos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك يا ممتلئة نعمة السلام لك يامن وجدت نعمة . السلام لك يامن ولدت المسيح . الرب معك .",
+      "Coptic": "Xere qheqme\\ `n`\\mot > xere qhetacjem `\\mot> xere qhetacmec Px/c/ > ouo\\ P_ ]wp neme .",
+      "English": "Hail to you O full of grace : Hail to you who has found grace : Hail to you who has given birth to Christ : the Lord is with you.",
+      "Arabiccoptic": "شيرى ثى إثميه إنهموت . شيرى ثى إيطاس جيم إهموت . شيرى ثى إيطاس ميس بخريستوس . أووه إبشويس شوب نيمى .",
+      "Englishcoptic": "Shere thee ethmeh en ehmot, shere thee atas gim ehot, shere thee atas mes Pikhristos, owoh Epshois shop neme."
+    }
+  ]
 }

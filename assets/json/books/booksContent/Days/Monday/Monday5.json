@@ -1,7 +1,52 @@
 {
-"arabic": " إفرحوا وتهللوا، يا جنس البشر، لأنه هكذا، أحب الله العالم.,\nحتى بذل، إبنه الحبيب، عن المؤمنين به، لكي يحيوا إلى الأبد.,\nلأنه غُلِب، من رأفته، وأرسل لنا، ذراعه العالية.,\nأشرق جسدياً، من العذراء، بغير زرع بشرٍ، حتى خلصنا.,\n",
-"arabiccoptic": " راشى أووه ثيليل: أو إبجينوس إن نى رومى: جى باى ريتى آ إفنووتى : مينرى بى كوزموس .\nهوستيه إن تيفتي : إمبيف شيري إممين ريت : خا ني إثناهتي إيروف :اثروو أونخ شا اينيه .\nاﭭتشرو غار إيروف : هيتين تيف ميت شينهيت : اووه افؤوأورب نان : إمبيف إجفوي إت تشوسي  .\nافشاى سوماتيكوس: ايفول خين تى بارثينوس: أتشينه إسبيرما إنرومى: شا إنتيف صوتى إممون .\n",
-"coptic": " Ra]i ouo\\ qelhl> `w `pgenoc `nnirwmi> je pairh; `a `Vnou;> menre pikocmoc.\n|wcte `ntef;> `mPef]hri `mmenrit> =a nheqna\\; `erof> eqrouwn= ]a `ene\\.\nAusro gar `erof> \\iten tefmet]en\\ht> ouo\\ afouwrp nan> `mpef`jvoi etsoci.\nAf]ai cwmatikwc> `ebol =en :parqenoc> asne `cperma `nrwmi> ]a `ntefcw; `mmon.\n",
-"english": " Rejoice and be happy, O human race, for God so revealed, His love to the world.,\nThat He gave, His beloved Son, for those who believe in Him, so that they may live forever.,\nFor it was overcome, by His compassion, and He sent unto us, His Almighty Arm.,\nHe shone in the flesh, taken from the Virgin, without the seed of man, in order to save us.,\n",
-"englishcoptic": " Rashi owoh theleel: o ep-genos en-niromi: je pai-reeti a Evnoti: menre pikosmos.\nHoste entef-ti: em-Pef-sheeri em-menrit: kha nee-ethnahti erof: ethroo-onkh sha eneh.\nAv-chro ghar erof: hi-ten tef-met-shenheet: owoh af-oo-orp nan: empef-egvoi etchosi.\nAfshai soma-tikos: evol khen Ti-parthenos: achne esperma enromi: sha entef-soti emmon.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "(5) ثيؤطوكية الإثنين",
+  "EnglishTitle": "Monday Theotokia (5)",
+  "CopticTitle": "Ra]i ouo\\ qelhl",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إفرحوا وتهللوا، يا جنس البشر، لأنه هكذا، أحب الله العالم.",
+      "Coptic": "Ra]i ouo\\ qelhl> `w `pgenoc `nnirwmi> je pairh; `a `Vnou;> menre pikocmoc.",
+      "English": "Rejoice and be happy, O human race, for God so revealed, His love to the world.",
+      "Arabiccoptic": "راشى أووه ثيليل: أو إبجينوس إن نى رومى: جى باى ريتى آ إفنووتى : مينرى بى كوزموس .",
+      "Englishcoptic": "Rashi owoh theleel: o ep-genos en-niromi: je pai-reeti a Evnoti: menre pikosmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "حتى بذل، إبنه الحبيب، عن المؤمنين به، لكي يحيوا إلى الأبد.",
+      "Coptic": "|wcte `ntef;> `mPef]hri `mmenrit> =a nheqna\\; `erof> eqrouwn= ]a `ene\\.",
+      "English": "That He gave, His beloved Son, for those who believe in Him, so that they may live forever.",
+      "Arabiccoptic": "هوستيه إن تيفتي : إمبيف شيري إممين ريت : خا ني إثناهتي إيروف :اثروو أونخ شا اينيه .",
+      "Englishcoptic": "Hoste entef-ti: em-Pef-sheeri em-menrit: kha nee-ethnahti erof: ethroo-onkh sha eneh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه غُلِب، من رأفته، وأرسل لنا، ذراعه العالية.",
+      "Coptic": "Ausro gar `erof> \\iten tefmet]en\\ht> ouo\\ afouwrp nan> `mpef`jvoi etsoci.",
+      "English": "For it was overcome, by His compassion, and He sent unto us, His Almighty Arm.",
+      "Arabiccoptic": "اﭭتشرو غار إيروف : هيتين تيف ميت شينهيت : اووه افؤوأورب نان : إمبيف إجفوي إت تشوسي  .",
+      "Englishcoptic": "Av-chro ghar erof: hi-ten tef-met-shenheet: owoh af-oo-orp nan: empef-egvoi etchosi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أشرق جسدياً، من العذراء، بغير زرع بشرٍ، حتى خلصنا.",
+      "Coptic": "Af]ai cwmatikwc> `ebol =en :parqenoc> asne `cperma `nrwmi> ]a `ntefcw; `mmon.",
+      "English": "He shone in the flesh, taken from the Virgin, without the seed of man, in order to save us.",
+      "Arabiccoptic": "افشاى سوماتيكوس: ايفول خين تى بارثينوس: أتشينه إسبيرما إنرومى: شا إنتيف صوتى إممون .",
+      "Englishcoptic": "Afshai soma-tikos: evol khen Ti-parthenos: achne esperma enromi: sha entef-soti emmon."
+    }
+  ]
 }
