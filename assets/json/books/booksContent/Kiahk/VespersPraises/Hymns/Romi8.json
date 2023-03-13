@@ -1,7 +1,85 @@
 {
-"arabic": " + حسناً رآكِ يعقوب أبونا. مثل سلم ذى نفس. مرتفعة إلى السماء والرب القدوس. جالس عليها أيتها اليمامة.,\nالكُلِّيَّة السبح العالمى . التى قبلت الغير المحوى . فى أحشاءها البتولى . وحِجرها الفاخر .,\n+ لأنه صنع أحشائك عرشاً . وأيضاً بطنكِ المختوم . جعله أوسع . من السموات .,\nفلنقل كلنا . يا إناءاً طاهراً مغبوطاً . تشبهت بالسلم . الذى رأه يعقوب .,\n+ السلام لكِ من قبلنا . لأن من كنزك المختوم . ولدتِ المستريح . فى قديسيه .,\nكونى لنا شفيعة عنده . لنكون بغير حزن . ويجمعنا جميعاً . فى ملكوته السمائى .,\nنمجدك أيتها المباركة . إلى النفس الأخير . لأنك وجدت نعمة . عند إلهنا إبن الله .,\n",
-"arabiccoptic": " + كالوس إيذين سى ياكوب بنيوت . إكليما كا إمبسيخون . إستشوسى إإتفى إيرى إبشويس فى إثؤواب . هيمسى هيجوس أوتى إتريغون .\nبانيم نيدوس إنكوزميكى . إيطاس شيب بى أخوريتوس . خين تيس ميترا إمبارثينيكى . نيم بيس امير بانا ريتوس .\n+ جى أفئيرى إن ني إس بلانخ نون إثرونون . كى بالين تين ثين غاستيرا . إفىلاط تومينى إكس أورانون . إبيرغاستو إبلاتى تيرا .\nمارين جوس تيرين أوبى موكى . أموليس ماطوس ماكاريوس . أريتين ثونتى . إتى موكى . ثى إيطا ياكوب ناف إيروس .\n+ شيرى نى إيفول هيتوتين إيك تون ثى سافرون سى غار إت توب . أريميسى إمفى إثموتين . إمموف خين نى إثؤاب .\nشوبى نان إن أو إبروس تاسيا . خاطوطف إثرين شوبى إن أتهيفى . أنتيف ثؤوتين ذيموسيا . خين تيف ميت أورو إتخين نيفيؤوى .\nتين تى أوأونى أوثى إيت إسمامات . شابى نيفى إنتى ليف تيؤس . جى أرى جيمى إن أو إهموت . خاتين بين نوتى إيوس ثيؤس .\n",
-"coptic": " Kalwc `iden ce Iakwb peniwt > `klimaka `myux`wn > ecsoci `e`tve `ere P_ vheq?u? > \\emci \\ijwc `w ;`trug`wn .\nPanumnidoc `nkocmik`h > `etac]ep pi`axwritoc > =en tecmhtra `mparqenik`h > nem pec`amhr pan`aretoc .\nJe af`iri `nne`cplagxnon `qronon > ke palin thn cun gacthra > `evulattomenh e[ ouranon > `epergacto `plat`itera .\nMarenjoc thren `w pimoki > `amolucmatoc makarioc > `aretenqwn; `e;mouki > qh`eta Iakwb nau `eroc .\nXere ne `ebol \\itoten > ek ton q`ucauron ce gar ettob > `aremici `mvheqmouten > `mmof =en nheq?u? .\n}wpi nan `nou`proctaci`a > =atotf eqren]wpi `nat\\hbi > `ntefqou`wten dhmouci`a > =en tefmetouro et=en nivhou`i .\nTen;`wou ne `w qhet`cmamat > ]a pinifi `nte leut`eoc > je `arejimi `nou`\\mot > =aten Pen- nou; Uc? Qc? .\n",
-"english": " Today we glorify, because of you O intercessor, when we remembered your name, praising you with accord.,\nO Pure one holier than all the creation, and all their kinds, and the truly young girl, for the Son of God us far above.,\nThe strong the merciful One, came to us incarnated, from the proud fountain, by a wondrous and strange mystery.,\nFor because of her we praise, with songs and great joy, and because of her we praise, and proclaim out and say.,\nBehold the Son the Word, who abides in the bosom of His Father, who is above all principalities, O undefiled you carried Him in your arms.,\nThe creation rejoices with you, and all those who dwell therein, saying \"Rejoice O full of grace, the Lord is with you O holy one.\",\nWe glorify you O blessed one, until the last breath saying, \"You have found favor before, your God the Son of God.\",\n",
-"englishcoptic": " Kalos Izen ce Yackoub peniot, eklima ka em epsikhon, es etshosi e etve ere Epshois vi ethowab, hemsi higos oti etrighon.\nPa nem ni dos enkosmiky, etas shep pi akhoritos, khen tes metra empartheniki, nem pes ameer pana retos.\nJe av iri ennes eplankhnon ethronon, ke palin teen thin ghastira, evilat to meni ex oranon, eperghasto eplati tera.\nMarengos tiren opi moky, A molis matos Makarios, areten thomty e ti moky, thi eta Yackoub nav eros.\nShere ne evol hitoten, ek ton thi savron se ghar et tob, aremisi emvi ethmoten, emmof khen ni Ethowab.\nShopi nan en o epros tasia, khatotf ethren shopi en at hivi, entef tho-oten zemosia, khen tefmet oro etkhen nifio-wi.\nTenti o-o ne othi et esmamat, shapi nifi ente levteos, je arejimi en o ehmot, khaten pen nouty Ious theos.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "التفسير الرومي الثامن",
+  "EnglishTitle": "The Eighth Greek Explanation ",
+  "CopticTitle": "Kalwc `iden ce Iakwb peniwt ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b حسناً رآكِ يعقوب أبونا. مثل سلم ذى نفس. مرتفعة إلى السماء والرب القدوس. جالس عليها أيتها اليمامة.",
+      "Coptic": "Kalwc `iden ce Iakwb peniwt > `klimaka `myux`wn > ecsoci `e`tve `ere P_ vheq?u? > \\emci \\ijwc `w ;`trug`wn .",
+      "English": "Today we glorify, because of you O intercessor, when we remembered your name, praising you with accord.",
+      "Arabiccoptic": "\b كالوس إيذين سى ياكوب بنيوت . إكليما كا إمبسيخون . إستشوسى إإتفى إيرى إبشويس فى إثؤواب . هيمسى هيجوس أوتى إتريغون .",
+      "Englishcoptic": "Kalos Izen ce Yackoub peniot, eklima ka em epsikhon, es etshosi e etve ere Epshois vi ethowab, hemsi higos oti etrighon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الكُلِّيَّة السبح العالمى . التى قبلت الغير المحوى . فى أحشاءها البتولى . وحِجرها الفاخر .",
+      "Coptic": "Panumnidoc `nkocmik`h > `etac]ep pi`axwritoc > =en tecmhtra `mparqenik`h > nem pec`amhr pan`aretoc .",
+      "English": "O Pure one holier than all the creation, and all their kinds, and the truly young girl, for the Son of God us far above.",
+      "Arabiccoptic": "بانيم نيدوس إنكوزميكى . إيطاس شيب بى أخوريتوس . خين تيس ميترا إمبارثينيكى . نيم بيس امير بانا ريتوس .",
+      "Englishcoptic": "Pa nem ni dos enkosmiky, etas shep pi akhoritos, khen tes metra empartheniki, nem pes ameer pana retos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b لأنه صنع أحشائك عرشاً . وأيضاً بطنكِ المختوم . جعله أوسع . من السموات .",
+      "Coptic": "Je af`iri `nne`cplagxnon `qronon > ke palin thn cun gacthra > `evulattomenh e[ ouranon > `epergacto `plat`itera .",
+      "English": "The strong the merciful One, came to us incarnated, from the proud fountain, by a wondrous and strange mystery.",
+      "Arabiccoptic": "\b جى أفئيرى إن ني إس بلانخ نون إثرونون . كى بالين تين ثين غاستيرا . إفىلاط تومينى إكس أورانون . إبيرغاستو إبلاتى تيرا .",
+      "Englishcoptic": "Je av iri ennes eplankhnon ethronon, ke palin teen thin ghastira, evilat to meni ex oranon, eperghasto eplati tera."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "فلنقل كلنا . يا إناءاً طاهراً مغبوطاً . تشبهت بالسلم . الذى رأه يعقوب .",
+      "Coptic": "Marenjoc thren `w pimoki > `amolucmatoc makarioc > `aretenqwn; `e;mouki > qh`eta Iakwb nau `eroc .",
+      "English": "For because of her we praise, with songs and great joy, and because of her we praise, and proclaim out and say.",
+      "Arabiccoptic": "مارين جوس تيرين أوبى موكى . أموليس ماطوس ماكاريوس . أريتين ثونتى . إتى موكى . ثى إيطا ياكوب ناف إيروس .",
+      "Englishcoptic": "Marengos tiren opi moky, A molis matos Makarios, areten thomty e ti moky, thi eta Yackoub nav eros."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b السلام لكِ من قبلنا . لأن من كنزك المختوم . ولدتِ المستريح . فى قديسيه .",
+      "Coptic": "Xere ne `ebol \\itoten > ek ton q`ucauron ce gar ettob > `aremici `mvheqmouten > `mmof =en nheq?u? .",
+      "English": "Behold the Son the Word, who abides in the bosom of His Father, who is above all principalities, O undefiled you carried Him in your arms.",
+      "Arabiccoptic": "\b شيرى نى إيفول هيتوتين إيك تون ثى سافرون سى غار إت توب . أريميسى إمفى إثموتين . إمموف خين نى إثؤاب .",
+      "Englishcoptic": "Shere ne evol hitoten, ek ton thi savron se ghar et tob, aremisi emvi ethmoten, emmof khen ni Ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "كونى لنا شفيعة عنده . لنكون بغير حزن . ويجمعنا جميعاً . فى ملكوته السمائى .",
+      "Coptic": "}wpi nan `nou`proctaci`a > =atotf eqren]wpi `nat\\hbi > `ntefqou`wten dhmouci`a > =en tefmetouro et=en nivhou`i .",
+      "English": "The creation rejoices with you, and all those who dwell therein, saying \"Rejoice O full of grace, the Lord is with you O holy one.\"",
+      "Arabiccoptic": "شوبى نان إن أو إبروس تاسيا . خاطوطف إثرين شوبى إن أتهيفى . أنتيف ثؤوتين ذيموسيا . خين تيف ميت أورو إتخين نيفيؤوى .",
+      "Englishcoptic": "Shopi nan en o epros tasia, khatotf ethren shopi en at hivi, entef tho-oten zemosia, khen tefmet oro etkhen nifio-wi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نمجدك أيتها المباركة . إلى النفس الأخير . لأنك وجدت نعمة . عند إلهنا إبن الله .",
+      "Coptic": "Ten;`wou ne `w qhet`cmamat > ]a pinifi `nte leut`eoc > je `arejimi `nou`\\mot > =aten Pen\b nou; Uc? Qc? .",
+      "English": "We glorify you O blessed one, until the last breath saying, \"You have found favor before, your God the Son of God.\"",
+      "Arabiccoptic": "تين تى أوأونى أوثى إيت إسمامات . شابى نيفى إنتى ليف تيؤس . جى أرى جيمى إن أو إهموت . خاتين بين نوتى إيوس ثيؤس .",
+      "Englishcoptic": "Tenti o-o ne othi et esmamat, shapi nifi ente levteos, je arejimi en o ehmot, khaten pen nouty Ious theos."
+    }
+  ]
 }

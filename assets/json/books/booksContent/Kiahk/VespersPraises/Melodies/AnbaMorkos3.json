@@ -1,4 +1,71 @@
 {
-"arabic": " صرتِ عروسة يا عذراء,\nلملك المجد الوحدانى,\nله كل السلطان والقدرة,\nأتانا بجسدٍ إنسانى,\n()آدم خالف وأكل الثمرة,\nفخرج مطروداً عريانِِ,\nمن الفردوس إلى برَّا,\nلأرض الشقاء صار تعبان,\n()حزيناً يبكى فى حسرة,\nمأسوراً فى رقِّ الشيطانِ,\nقد أخذه ورماه فى حفرة,\nفى قاع جحيم فيه نيران,\n()وعذاب أليم قاسى بكثرة,\nصار له ولجميع كل إنسانِ,\nونسله قد صاروا عبرة,\nمذلولين بالأحزانِ,\n()دبر تدبيره رب القدرة,\nليرده للفردوس ثانِ,\nفأرسل غبريال بالبشرى,\nلمريم فخر الأكوانِ,\n()وأعطاها سلاماً بمسرة,\nخاطبها بفمٍ ولسانِ,\nقال الرب معكِ ياعذراء,\nتقبلين حَبَلاً روحانى,\n()جاوبته مريم فى الحضرة,\nقالت ليس لى معرفةً بإنسانِ,\nغبريال أعطاها الخبرة,\nبحلول الإبن الوحدانى,\n()*REFRAIN*السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس()",
-"english": " You became a Bride O Virgin,\nTo the only King of glory,\nTo whom is the might and authority,\nHe came to us in a human flesh.,\n()Adam disobeyed and ate the fruit,\nSo he was thrown out naked,\nOntside from the Paradise,\nTo the land of misery.,\n()He was sad and he wept and sighed,\nHe was captured by the Devil,\nHe threw him in the bottom of Hades,\nThe fiery place of torment.,\n()And many sufferings and distress,\nFor him and every man thereafter,\nAnd his race became an example,\nHumiliated with sorrows.,\n()The Almighty Lord planned His Economy,\nTo restore him to Paradise again,\nHe sent Gabriel with the good news,\nTo Mary the pride of the world.,\n()He greeted her with happiness,\nHe spoke to her with his tongue saying,\n\"The Lord is with you O Virgin,\nYou will accept a spiritual pregnancy.\",\n()Mary answered him saying,\n\"I do not know a man,\nGabriel told her the news,\nOf the dwelling of the only Son.,\n()*REFRAIN* Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior.()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة الثالثة من نظم البطريرك الأب مرقس",
+  "EnglishTitle": "The Third Explanation of Pope Abba Markos ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صرتِ عروسة يا عذراء,\nلملك المجد الوحدانى,\nله كل السلطان والقدرة,\nأتانا بجسدٍ إنسانى",
+      "English": "You became a Bride O Virgin,\nTo the only King of glory,\nTo whom is the might and authority,\nHe came to us in a human flesh."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آدم خالف وأكل الثمرة,\nفخرج مطروداً عريانِِ,\nمن الفردوس إلى برَّا,\nلأرض الشقاء صار تعبان",
+      "English": "Adam disobeyed and ate the fruit,\nSo he was thrown out naked,\nOntside from the Paradise,\nTo the land of misery."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "حزيناً يبكى فى حسرة,\nمأسوراً فى رقِّ الشيطانِ,\nقد أخذه ورماه فى حفرة,\nفى قاع جحيم فيه نيران",
+      "English": "He was sad and he wept and sighed,\nHe was captured by the Devil,\nHe threw him in the bottom of Hades,\nThe fiery place of torment."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وعذاب أليم قاسى بكثرة,\nصار له ولجميع كل إنسانِ,\nونسله قد صاروا عبرة,\nمذلولين بالأحزانِ",
+      "English": "And many sufferings and distress,\nFor him and every man thereafter,\nAnd his race became an example,\nHumiliated with sorrows."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "دبر تدبيره رب القدرة,\nليرده للفردوس ثانِ,\nفأرسل غبريال بالبشرى,\nلمريم فخر الأكوانِ",
+      "English": "The Almighty Lord planned His Economy,\nTo restore him to Paradise again,\nHe sent Gabriel with the good news,\nTo Mary the pride of the world."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأعطاها سلاماً بمسرة,\nخاطبها بفمٍ ولسانِ,\nقال الرب معكِ ياعذراء,\nتقبلين حَبَلاً روحانى",
+      "English": "He greeted her with happiness,\nHe spoke to her with his tongue saying,\n\"The Lord is with you O Virgin,\nYou will accept a spiritual pregnancy.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "جاوبته مريم فى الحضرة,\nقالت ليس لى معرفةً بإنسانِ,\nغبريال أعطاها الخبرة,\nبحلول الإبن الوحدانى",
+      "English": "Mary answered him saying,\n\"I do not know a man,\nGabriel told her the news,\nOf the dwelling of the only Son."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس",
+      "English": "Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior."
+    }
+  ]
 }

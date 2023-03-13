@@ -1,4 +1,55 @@
 {
-"arabic": " سلم رأه الأب يعقوب,\nومن فوقه رب القوات,\nعلى الأرضِ إذ هو منصوب,\nومرتفعاً إلى السموات,\n()فتحير وبقى مرعوب,\nمن هيبة ذو الهيبات,\nوقال سيجىء الرب المرهوب,\nويتجسد فى عقب الأوقات,\n()أى حكيم العقل علم,\nشرف هذا السر وما يحويه,\nحقاً إن عقلى مظلم,\nوطول دهرى متحير فيه,\n()مريم أنتِ هى السلم,\nوإله الألهه قد شلتيه,\nكقول الأب المتكلم,\nفى الرؤيا يعقوب أبيه,\n()كُنَّا فى بحر الظلمة,\nوأما الشيطان حكم فينا,\nبحلول إبن الله الكلمة,\nفى جوف أحشاكِ عتقتينا,\n()*REFRAIN*السلام لكِ يا أم الرحمة,نحن عبيدك جيرينا,طوباكِ يامملؤة نعمة,عند أبنك الحبيب إشفعى فينا()",
-"english": " A ladder which Jacob saw,,\nAbove it the Lord of Powers,,\nErected upon the earth,,\nAnd reaching unto Heaven.,\n()He was afraid and confused,,\nOf the awe of this splendor,,\nSaying the awesome Lord will come,,\nIncarnate in the fullness of time.,\n()What wise man can realize,,\nThe honor of this mystery,,\nMy mind is truly mystified,,\nAll my life I am confused.,\n()Mary you are the ladder,,\nYou carried the Lord of lords,,\nAccording to the orator father,,\nJacob His father in the vision.,\n()We were in the sea of darkness,,\nSatan having authority over us,,\nBy the coming of the Logos the Son of God,,\nIn your womb we were freed.,\n()*REFRAIN* Hail to you O mother of mercy / we are your beloved pray acknowledge us / blessed are you O full of grace / before your Son intercede for us.()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة الثامنة من نظم المعلم أبو السعد الأبوتيجى",
+  "EnglishTitle": "The Eighth Explanation of Abou El-Saad of Aboutig ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سلم رأه الأب يعقوب,\nومن فوقه رب القوات,\nعلى الأرضِ إذ هو منصوب,\nومرتفعاً إلى السموات",
+      "English": "A ladder which Jacob saw,,\nAbove it the Lord of Powers,,\nErected upon the earth,,\nAnd reaching unto Heaven."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فتحير وبقى مرعوب,\nمن هيبة ذو الهيبات,\nوقال سيجىء الرب المرهوب,\nويتجسد فى عقب الأوقات",
+      "English": "He was afraid and confused,,\nOf the awe of this splendor,,\nSaying the awesome Lord will come,,\nIncarnate in the fullness of time."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أى حكيم العقل علم,\nشرف هذا السر وما يحويه,\nحقاً إن عقلى مظلم,\nوطول دهرى متحير فيه",
+      "English": "What wise man can realize,,\nThe honor of this mystery,,\nMy mind is truly mystified,,\nAll my life I am confused."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "مريم أنتِ هى السلم,\nوإله الألهه قد شلتيه,\nكقول الأب المتكلم,\nفى الرؤيا يعقوب أبيه",
+      "English": "Mary you are the ladder,,\nYou carried the Lord of lords,,\nAccording to the orator father,,\nJacob His father in the vision."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كُنَّا فى بحر الظلمة,\nوأما الشيطان حكم فينا,\nبحلول إبن الله الكلمة,\nفى جوف أحشاكِ عتقتينا",
+      "English": "We were in the sea of darkness,,\nSatan having authority over us,,\nBy the coming of the Logos the Son of God,,\nIn your womb we were freed."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لكِ يا أم الرحمة,نحن عبيدك جيرينا,طوباكِ يامملؤة نعمة,عند أبنك الحبيب إشفعى فينا",
+      "English": "Hail to you O mother of mercy / we are your beloved pray acknowledge us / blessed are you O full of grace / before your Son intercede for us."
+    }
+  ]
 }

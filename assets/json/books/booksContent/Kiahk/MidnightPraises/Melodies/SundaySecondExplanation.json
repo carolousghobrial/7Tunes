@@ -1,4 +1,127 @@
 {
-"arabic": " قال الرب لموسى,\nبصوت عالى يناديه,\nقوم إصنع لى تابوت,\nوبالذهب إطليه,\n()لأوضع فيه سرى,\nوأجعل عهدى فيه,\nومن خشب لايُسوِّس,\nبالحرير تكسون,\n()تشبهتِ يا مريم,\nبتابوت العهد المطلى,\nوفيه القسط ذهب,\nبالمن العقلى,\n()مديحك فى فمى,\nأحلى من العسل,\nنهديكِ كل سلام,\nيا إبنة صهيون,\n()يا نجمة تضوى,\nكمصباح النور,\nحملتِ إبن الله,\nالحى غير المنظور,\n()وخلصتِ آدم,\nبعد أن كان مأسور,\nوعاد هو وبنوه,\nإلى الفردوس فرحون,\n()نورتِ العالم,\nبعد أن كان ظلمة,\nوحملتِ فى أحشاكِ,\nإبن الله الكلمة,\n()أنتِ هى التابوت,\nأنتِ هى الحكمة,\nأنتِ هى قُوَّتنا,\nوفرح الصديقون,\n()لما أراد الله,\nوشاء وإختارك,\nوأرسل إليكِ الكلمة,\nوبروح قدسه زانك,\n()وحملتِ فى أحشاك,\nالرب إلهك,\nوولدته ورضع لبنك,\nكشبه البشريون,\n()حزقيال تنبأ,\nفى رؤياء وقال,\nرأيت باباً فى المشرق,\nمقفولاً بالأقفال,\n()دخل فيه وخرج,\nالملك المتعال,\nولم يمسُّه ضرر,\nوبحاله مختومون,\n()وكم شهدوا عنكِ,\nفى نبوات وأمثال,\nوسوف يظهر منكِ,\nالربُّ المتعال,\n()ويخلص شعبه,\nفى عقب الأجيال,\nبكِ نلنا الغفران,\nيا شورية هارون,\n()السلام لك يا مريم*REFRAIN*\nيا مملؤة نعمة\nيا مشتملة بالأنوار \nيا أم الرحمة\nإشفعى فينا \nفى يوم الزحمة \nبك نلنا كل خلاص\nيـا إبنة صهيون\n()",
-"english": " The Lord told Moses,\nWith His voice He cried,\nRise to build an ark,\nWith gold on all sides,\n()So therein may dwell,\nMy pure covenant,\nMade with acacia,\nWith gold all around,\n()Mary you are like,\nThe ark made of gold,\nTherein the vessel,\nManna to behold,\n()Your praise on my lips,\nSweeter than honey,\nDaughter of Zion,\nWe praise joyfully,\n()O you shining star,\nThe beautiful queen,\nYou held the Logos,\nThe Great and unseen,\n()He has freed Adam,\nFrom captivity,\nReturned to Paradise,\nHim and his family,\n()You brought light to us,\nWho were in darkness,\nBearing in your womb,\nThe Logos of God,\n()O Mary the ark,\nYou are the wisdom,\nYou are our strength,\nGate of the Kingdom,\n()At the fitting time,\nThe Lord God chose you,\nHe sent you the Word,\nThe Spirit dwelt in you,\n()You bore in your womb,\nYou blessed woman,\nYour God and Savior,\nDivine and human,\n()Ezekiel witnessed,\nAnd he testified,\nI saw an east door,\nShut tight at all times,\n()The high King entered,\nThrough the eastern door,\nIt did not alter,\nYet sealed as before,\n()Many spoke of you,\nAll in one accord,\nAbout the coming,\nOf the mighty Lord,\n()To save His people,\nPraise God you nations,\nYour Son has saved us,\nCenser of Aaron,\n()*REFRAIN* Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Dav\n  Your Son has saved us\n  Daughter of Zion()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة الثانية",
+  "EnglishTitle": "The Second Part",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قال الرب لموسى,\nبصوت عالى يناديه,\nقوم إصنع لى تابوت,\nوبالذهب إطليه",
+      "English": "The Lord told Moses,\nWith His voice He cried,\nRise to build an ark,\nWith gold on all sides"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأوضع فيه سرى,\nوأجعل عهدى فيه,\nومن خشب لايُسوِّس,\nبالحرير تكسون",
+      "English": "So therein may dwell,\nMy pure covenant,\nMade with acacia,\nWith gold all around"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "تشبهتِ يا مريم,\nبتابوت العهد المطلى,\nوفيه القسط ذهب,\nبالمن العقلى",
+      "English": "Mary you are like,\nThe ark made of gold,\nTherein the vessel,\nManna to behold"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "مديحك فى فمى,\nأحلى من العسل,\nنهديكِ كل سلام,\nيا إبنة صهيون",
+      "English": "Your praise on my lips,\nSweeter than honey,\nDaughter of Zion,\nWe praise joyfully"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا نجمة تضوى,\nكمصباح النور,\nحملتِ إبن الله,\nالحى غير المنظور",
+      "English": "O you shining star,\nThe beautiful queen,\nYou held the Logos,\nThe Great and unseen"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وخلصتِ آدم,\nبعد أن كان مأسور,\nوعاد هو وبنوه,\nإلى الفردوس فرحون",
+      "English": "He has freed Adam,\nFrom captivity,\nReturned to Paradise,\nHim and his family"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نورتِ العالم,\nبعد أن كان ظلمة,\nوحملتِ فى أحشاكِ,\nإبن الله الكلمة",
+      "English": "You brought light to us,\nWho were in darkness,\nBearing in your womb,\nThe Logos of God"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أنتِ هى التابوت,\nأنتِ هى الحكمة,\nأنتِ هى قُوَّتنا,\nوفرح الصديقون",
+      "English": "O Mary the ark,\nYou are the wisdom,\nYou are our strength,\nGate of the Kingdom"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لما أراد الله,\nوشاء وإختارك,\nوأرسل إليكِ الكلمة,\nوبروح قدسه زانك",
+      "English": "At the fitting time,\nThe Lord God chose you,\nHe sent you the Word,\nThe Spirit dwelt in you"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وحملتِ فى أحشاك,\nالرب إلهك,\nوولدته ورضع لبنك,\nكشبه البشريون",
+      "English": "You bore in your womb,\nYou blessed woman,\nYour God and Savior,\nDivine and human"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "حزقيال تنبأ,\nفى رؤياء وقال,\nرأيت باباً فى المشرق,\nمقفولاً بالأقفال",
+      "English": "Ezekiel witnessed,\nAnd he testified,\nI saw an east door,\nShut tight at all times"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "دخل فيه وخرج,\nالملك المتعال,\nولم يمسُّه ضرر,\nوبحاله مختومون",
+      "English": "The high King entered,\nThrough the eastern door,\nIt did not alter,\nYet sealed as before"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكم شهدوا عنكِ,\nفى نبوات وأمثال,\nوسوف يظهر منكِ,\nالربُّ المتعال",
+      "English": "Many spoke of you,\nAll in one accord,\nAbout the coming,\nOf the mighty Lord"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويخلص شعبه,\nفى عقب الأجيال,\nبكِ نلنا الغفران,\nيا شورية هارون",
+      "English": "To save His people,\nPraise God you nations,\nYour Son has saved us,\nCenser of Aaron"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك يا مريم\nيا مملؤة نعمة\nيا مشتملة بالأنوار \nيا أم الرحمة\nإشفعى فينا \nفى يوم الزحمة \nبك نلنا كل خلاص\nيـا إبنة صهيون",
+      "English": "Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Dav\n  Your Son has saved us\n  Daughter of Zion"
+    }
+  ]
 }

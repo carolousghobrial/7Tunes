@@ -1,4 +1,63 @@
 {
-"arabic": " تُعظِّمُكِ كل الطغمات,\nيامريم تى بارثينوس,\nقد نلتِ كل كرامات,\nفقتِ رتب نى أنجيلوس,\n()آدم أوصاه ربُّ القوات,\nعن شجرة كانت فى الفردوس,\nخالف ربه وصنع الزلات,\nبغواية شيطان منجوس,\n()سكن فى الحية بخداعات,\nكانت فى الخِلقة كالطاووس,\nفصارت تتكلم بكل لغات,\nوطغت حواء بحيل وعكوس,\n()قالت \" الإله رب السموات,\nأوصاكم من فمه القدوس,\nلاتأكلوا من شجرة ثمرات,\nوهذا كلام عنكم مدسوس\",\n()وأنا أقول لكِ حقاً بثبات,\nإمضوا وكلوا من تلك غروس,\nتصيرى أنتِ وآدم آلهة,\nشبيهه بالرب القدوس,\n()فرحت حواء بهذه الكلمات,\nمن فم الثعبان الملبوس,\nومضت إلى الشجرة وطغت,\nواكلوا من الثمرة بشهوات ونفوس,\n()*REFRAIN*السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس()",
-"english": " I start with the name of the holy God,\nCreator of every age and time,\nWhom all the orders praise,\nOur Savior the Judge and King.,\n()He created Adam and made Paradise,\nHigh above and raised without pillars,\nAll the souls live in it,\nWho please Him by works and faith.,\n()And He made in it every planted tree,\nBudding different fruits of all kinds,\nThis the holy Lord created,\nFor Adam His servant the human.,\n()And He created Eve for him,\nBy her Adam became joyful,\nShe was created from his own flesh,\nFrom the rib of Adam the human.,\n()And He commanded them from His holy mouth,\nAnd said \"Adam I order you O human,\nEat from the trees of Paradise,\nAnd this is the tree of the trials.,\n()Be far from it and its roots,\nDo not eat of it or you will become naked,\nAnd you will die in flesh and spirit,\nYou and Eve will become sad.,\n()*REFRAIN* Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior.()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة الأولى من نظم البطريرك الأب مرقس",
+  "EnglishTitle": "The First Explanation of Pope Abba Markos ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تُعظِّمُكِ كل الطغمات,\nيامريم تى بارثينوس,\nقد نلتِ كل كرامات,\nفقتِ رتب نى أنجيلوس",
+      "English": "I start with the name of the holy God,\nCreator of every age and time,\nWhom all the orders praise,\nOur Savior the Judge and King."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آدم أوصاه ربُّ القوات,\nعن شجرة كانت فى الفردوس,\nخالف ربه وصنع الزلات,\nبغواية شيطان منجوس",
+      "English": "He created Adam and made Paradise,\nHigh above and raised without pillars,\nAll the souls live in it,\nWho please Him by works and faith."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "سكن فى الحية بخداعات,\nكانت فى الخِلقة كالطاووس,\nفصارت تتكلم بكل لغات,\nوطغت حواء بحيل وعكوس",
+      "English": "And He made in it every planted tree,\nBudding different fruits of all kinds,\nThis the holy Lord created,\nFor Adam His servant the human."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "قالت \" الإله رب السموات,\nأوصاكم من فمه القدوس,\nلاتأكلوا من شجرة ثمرات,\nوهذا كلام عنكم مدسوس\"",
+      "English": "And He created Eve for him,\nBy her Adam became joyful,\nShe was created from his own flesh,\nFrom the rib of Adam the human."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأنا أقول لكِ حقاً بثبات,\nإمضوا وكلوا من تلك غروس,\nتصيرى أنتِ وآدم آلهة,\nشبيهه بالرب القدوس",
+      "English": "And He commanded them from His holy mouth,\nAnd said \"Adam I order you O human,\nEat from the trees of Paradise,\nAnd this is the tree of the trials."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فرحت حواء بهذه الكلمات,\nمن فم الثعبان الملبوس,\nومضت إلى الشجرة وطغت,\nواكلوا من الثمرة بشهوات ونفوس",
+      "English": "Be far from it and its roots,\nDo not eat of it or you will become naked,\nAnd you will die in flesh and spirit,\nYou and Eve will become sad."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس",
+      "English": "Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior."
+    }
+  ]
 }

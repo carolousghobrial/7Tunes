@@ -1,4 +1,71 @@
 {
-"arabic": " أنت هى الجنس المختار,\nمن بيت داود الطوبانى,\nبوجودك ياطهر الأطهار,\nآدم بك قد صار فرحانِ,\n()سكن فيكِ الأزلى الجبار,\nالإبن الكلمة الوحدانى,\nوحملتيه يا ست الأبكار,\nتسعة شهور من غير نقصانِِ,\n()وولدتيه فى بيت لحم إجهار,\nكطفلٍٍ صغيرٍٍ عريانِِ,\nووضعتيه فى مزود أبقار,\nملفوفاً بخرق كالإنسانِ,\n()وبحضور سالومة والنجار,\nالشيخ يوسف الطوبانى,\nو أتوا إليه بفرح ووقار,\nوسجدوا له الرعيانِ,\n()وظهر نجمه يشعل كالنار,\nفى المشرق زاهى نورانى,\nونظروه فى تلك الأقطار,\nمجوس وقصدوا إليه بالمعانى,\n()وجابوا هدايا بالقنطار,\nذهباً ومُرَّاً ولبانِ,\nوالنجم يسير ليلاً ونهار,\nمعهم يرشدهم أعيانِ,\n()إلى حيث كان عالِم الأسرار,\nالمولود خالق الأزمانِ,\nوسجدوا له بفرحٍ ووقار,\nونالوا منه الغفرانِ,\n()*REFRAIN*السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس()",
-"english": " You are the chosen descendant,,\nFrom the blessed house of David,,\nWith your presence O pure one,,\nAdam became happy.,\n()The Eternal and Mighty dwelt in you,,\nThe only Son and Logos,,\nYou carried Him O Lady of the first-born,,\nNine full months.,\n()You bore Him in Bethlehem,,\nAs a young naked Child,,\nAnd placed Him in a manger,,\nWrapped in clothes as a human.,\n()In the presence of Salome and the carpenter,,\nJoseph the blessed elder,,\nAnd others came to Him with joy,,\nThe shepherds worshiped Him.,\n()And His star shone like fire,,\nIn the east it was illuminating,,\nAnd they saw Him in those regions,,\nAnd the wise men came to Him.,\n()With expensive gifts,,\nGold silver and frankincense,,\nThe star was shining day and night,,\nTo lead them to the place.,\n()Where the Omniscient dwelt,,\nThe Begotten the Creator of the ages,,\nThey worship Him with joy and adoration,,\nAndbeheld the enlightened glory.,\n()*REFRAIN* Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior.()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة الرابعة من نظم البطريرك الأب مرقس",
+  "EnglishTitle": "The Fourth Explanation of Pope Abba Markos ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت هى الجنس المختار,\nمن بيت داود الطوبانى,\nبوجودك ياطهر الأطهار,\nآدم بك قد صار فرحانِ",
+      "English": "You are the chosen descendant,,\nFrom the blessed house of David,,\nWith your presence O pure one,,\nAdam became happy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سكن فيكِ الأزلى الجبار,\nالإبن الكلمة الوحدانى,\nوحملتيه يا ست الأبكار,\nتسعة شهور من غير نقصانِِ",
+      "English": "The Eternal and Mighty dwelt in you,,\nThe only Son and Logos,,\nYou carried Him O Lady of the first-born,,\nNine full months."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وولدتيه فى بيت لحم إجهار,\nكطفلٍٍ صغيرٍٍ عريانِِ,\nووضعتيه فى مزود أبقار,\nملفوفاً بخرق كالإنسانِ",
+      "English": "You bore Him in Bethlehem,,\nAs a young naked Child,,\nAnd placed Him in a manger,,\nWrapped in clothes as a human."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وبحضور سالومة والنجار,\nالشيخ يوسف الطوبانى,\nو أتوا إليه بفرح ووقار,\nوسجدوا له الرعيانِ",
+      "English": "In the presence of Salome and the carpenter,,\nJoseph the blessed elder,,\nAnd others came to Him with joy,,\nThe shepherds worshiped Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وظهر نجمه يشعل كالنار,\nفى المشرق زاهى نورانى,\nونظروه فى تلك الأقطار,\nمجوس وقصدوا إليه بالمعانى",
+      "English": "And His star shone like fire,,\nIn the east it was illuminating,,\nAnd they saw Him in those regions,,\nAnd the wise men came to Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وجابوا هدايا بالقنطار,\nذهباً ومُرَّاً ولبانِ,\nوالنجم يسير ليلاً ونهار,\nمعهم يرشدهم أعيانِ",
+      "English": "With expensive gifts,,\nGold silver and frankincense,,\nThe star was shining day and night,,\nTo lead them to the place."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "إلى حيث كان عالِم الأسرار,\nالمولود خالق الأزمانِ,\nوسجدوا له بفرحٍ ووقار,\nونالوا منه الغفرانِ",
+      "English": "Where the Omniscient dwelt,,\nThe Begotten the Creator of the ages,,\nThey worship Him with joy and adoration,,\nAndbeheld the enlightened glory."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس",
+      "English": "Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior."
+    }
+  ]
 }

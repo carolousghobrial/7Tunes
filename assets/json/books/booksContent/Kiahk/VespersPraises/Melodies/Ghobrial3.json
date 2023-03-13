@@ -1,4 +1,95 @@
 {
-"arabic": " مثل عروسة مختارة,\nوالعريس عاين عِظَم بهائها,\nوإليها أقبل بطهارة,\nوهو الذى قد أنشأها,\n()وهو الذى قد أنشأها,\nوفضَّلها عن كل إنسان,\nآتى وسكن فى أحشائها,\nوَوُلِد منها فى شكل إنسان,\n()وَوُلِد منها فى شكل إنسان,\nكما شهدوا عنها الأسفار,\nوتنبأوا من قدم الأزمان,\nوكَمُل ما قاله داود البار,\n()وكَمُل ما قاله داود البار,\nإذ قال أن الملك إشتهى حسنك,\nوتـم القول وكمل إجهار,\nإله الآلهة قد صار إبنك,\n()إله الآلهة قد صار إبنك,\nمن عال شعبه فى البرية,\nولدتيه ورضع لَبَنِك,\nمدبر كل البشرية,\n()مدبر كل البشرية,\nالمولود من بدء الأحقاب,\nحملتيه يابكر نقية,\nوهو كائن فى حضن الآب,\n()وهو كائن فى حضن الآب,\nأقنومٌ واحد من ثالوث,\nصار فى بطنك مستور بحجاب,\nوإتحد اللاهوت بالناسوت,\n()وإتحد اللاهوت بالناسوت,\nوصار مولود وسُمِّىَّ إيسوس,\nتفضل وأورثنا الملكوت,\nبعماده من بى إبرودروموس,\n()بعماده من بى إبرودروموس,\nقد جاد علينا بالأربون,\nصام وصلَّى وأكمل الناموس,\nوكسر عنا فخ الأركون,\n()وكسر عنا فخ الأركون,\nوصرنا محسوبين عليكِ,\nونقول مع كل المسيحيين,\nالسلام لكِ ثم السلام إليكِ,\n()*REFRAIN*السلام لك ثم السلام إليك,ونسألك ياأم المحبوب,أن تحظينا فى مظال أبائك,إبراهيم وإسحق ويعقوب()",
-"english": " Like a choicest bride,\nAnd the groom has beheld her great splendor,\nAnd has approached her with purity,\nAnd He is the One who formed her.,\n()And He is the One who formed her,\nAnd favored her above every human,\nHe came and dwelt inside her,\nAnd was born of her the Son of Man.,\n()And was born of her the Son of Man,\nAs the Scriptures have proclaimed,\nAnd prophesied from the carly ages,\nAnd has fulfilled what righteous David said.,\n()And has fulfilled what David the righteous said,\nThat the King has seen your beauty,\nThe words were completed and declared publicly,\nThe God of gods became your son.,\n()The God of gods became your Son,\nWho provided His people in the wilderness,\nYou delivered and suckled Him,\nThe provider of all humanity.,\n()The provider of all humanity,\nBorn in the beginning of ages,\nYou carried Him O pure virgin,\nHe who exists in the Father's bosom.,\n()He who exists in the Father's bosom,\nOne hypostasis of the Trinity,\nHas come in your womb and was veiled,\nUniting divinity with humanity.,\n()Uniting divinity to humanity,\nAnd was born and named Isos,\nWho came and bestowed us the kingdom,\nThrough His baptism from Pi-Eprod-romos,\n()Through His baptism from Pi-Eprod-romos,\nHad come upon us with the pledge,\nFasted, prayed and fulfilled the law,\nHe broke for us the trap of Satan.,\n()And broke for us the trap of Satan,\nAnd we became counted through you,\nAnd we say with all Christians,\nHail to you and hail unto you.,\n()*REFRAIN* Hail to you and hail unto you, we ask you O Mother of the Beloved, grant us to be in your fathers dwellings, Abraham Isaac and Jacob.()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة الثالثة من نظم المعلم غبريال القايى",
+  "EnglishTitle": "The Third Explanation of Cantor Ghobrial Qay ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مثل عروسة مختارة,\nوالعريس عاين عِظَم بهائها,\nوإليها أقبل بطهارة,\nوهو الذى قد أنشأها",
+      "English": "Like a choicest bride,\nAnd the groom has beheld her great splendor,\nAnd has approached her with purity,\nAnd He is the One who formed her."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وهو الذى قد أنشأها,\nوفضَّلها عن كل إنسان,\nآتى وسكن فى أحشائها,\nوَوُلِد منها فى شكل إنسان",
+      "English": "And He is the One who formed her,\nAnd favored her above every human,\nHe came and dwelt inside her,\nAnd was born of her the Son of Man."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وَوُلِد منها فى شكل إنسان,\nكما شهدوا عنها الأسفار,\nوتنبأوا من قدم الأزمان,\nوكَمُل ما قاله داود البار",
+      "English": "And was born of her the Son of Man,\nAs the Scriptures have proclaimed,\nAnd prophesied from the carly ages,\nAnd has fulfilled what righteous David said."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وكَمُل ما قاله داود البار,\nإذ قال أن الملك إشتهى حسنك,\nوتـم القول وكمل إجهار,\nإله الآلهة قد صار إبنك",
+      "English": "And has fulfilled what David the righteous said,\nThat the King has seen your beauty,\nThe words were completed and declared publicly,\nThe God of gods became your son."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إله الآلهة قد صار إبنك,\nمن عال شعبه فى البرية,\nولدتيه ورضع لَبَنِك,\nمدبر كل البشرية",
+      "English": "The God of gods became your Son,\nWho provided His people in the wilderness,\nYou delivered and suckled Him,\nThe provider of all humanity."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مدبر كل البشرية,\nالمولود من بدء الأحقاب,\nحملتيه يابكر نقية,\nوهو كائن فى حضن الآب",
+      "English": "The provider of all humanity,\nBorn in the beginning of ages,\nYou carried Him O pure virgin,\nHe who exists in the Father's bosom."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وهو كائن فى حضن الآب,\nأقنومٌ واحد من ثالوث,\nصار فى بطنك مستور بحجاب,\nوإتحد اللاهوت بالناسوت",
+      "English": "He who exists in the Father's bosom,\nOne hypostasis of the Trinity,\nHas come in your womb and was veiled,\nUniting divinity with humanity."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وإتحد اللاهوت بالناسوت,\nوصار مولود وسُمِّىَّ إيسوس,\nتفضل وأورثنا الملكوت,\nبعماده من بى إبرودروموس",
+      "English": "Uniting divinity to humanity,\nAnd was born and named Isos,\nWho came and bestowed us the kingdom,\nThrough His baptism from Pi-Eprod-romos"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بعماده من بى إبرودروموس,\nقد جاد علينا بالأربون,\nصام وصلَّى وأكمل الناموس,\nوكسر عنا فخ الأركون",
+      "English": "Through His baptism from Pi-Eprod-romos,\nHad come upon us with the pledge,\nFasted, prayed and fulfilled the law,\nHe broke for us the trap of Satan."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكسر عنا فخ الأركون,\nوصرنا محسوبين عليكِ,\nونقول مع كل المسيحيين,\nالسلام لكِ ثم السلام إليكِ",
+      "English": "And broke for us the trap of Satan,\nAnd we became counted through you,\nAnd we say with all Christians,\nHail to you and hail unto you."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك ثم السلام إليك,ونسألك ياأم المحبوب,أن تحظينا فى مظال أبائك,إبراهيم وإسحق ويعقوب",
+      "English": "Hail to you and hail unto you, we ask you O Mother of the Beloved, grant us to be in your fathers dwellings, Abraham Isaac and Jacob."
+    }
+  ]
 }

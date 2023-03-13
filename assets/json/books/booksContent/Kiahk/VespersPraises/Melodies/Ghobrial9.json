@@ -1,4 +1,111 @@
 {
-"arabic": " هوذا الرب شاء وأحب,\nوأراد يوفى وعده بكمال,\nوماوعد به الرب وهب,\nومحى عن شعبه كل ضلال,\n()ومحى عن شعبه كل ضلال,\nوعرفنا سر اللاهوت,\nوحملتيه وأكمل الأقوال,\nوعمَّدنا بإسم الثالوث,\n()وعمَّدنا بإسم الثالوث,\nوأشرق نوره من بعد ظلام,\nوجاد علينا بالملكوت,\nومحى عنَّا كل أثام,\n()ومحى عنَّا كل أثام,\nنسبح له ونمجد إياه,\nله المجد الدائم والإكرام,\nكصالح محب البشر مع أباه,\n()كصالح محب البشر مع أباه,\nوالروح القدس أزلى معبود,\nإله واحد لا رب سواه,\nدائم باقى حاضر موجود,\n()دائم باقى حاضر موجود,\nخالق رازق عاطى وَهَّاب,\nإختارك يا إبنة داود,\nوسكن فى أحشاكِ ربّ الأرباب,\n()وسكن فى أحشاكِ ربّ الأرباب,\nوولدتيه ورضع من ثدييكِ,\nوهو كائن فى مجد الآب,\nمن أجل خلاص أمك وأبيكِ,\n()من أجل خلاص أمك وأبيكِ,\nبعد أن كانوا فى ضيق وأحزان,\nيامن تاق الرب إليكِ,\nنجينا من شر الشيطان,\n()نجينا من شر الشيطان,\nلأننا محسوبين عليكِ,\nوالعبد الناظم ذى الأوزان,\nخاطىء وتقدمت إليكِ,\n()خاطىء وتقدمت إليكِ,\nمعترفاً لإبنك بخطاياى,\nومتعشم بمديحى فيكِ,\nيامريم أنت ملجأى,\n()يامريم أنت ملجأى,\nأترجاكِ فى اليوم المرهوب,\nأنا غبريال عبدك من قاى,\nمتوسل بكِ وعليكِ محسوب,\n()متوسل بكِ وعليكِ محسوب,\nفلا تفوتى من حسب عليكِ,\nعبدُكِ فى الرقّ المكتوب,\nبالجهد يقول السلام إليكِ,\n()*REFRAIN* بالجهد يقول السلام إليكِ,ونسألك ياأم المحبوب,أن تحظينا فى مظال أبائك,إبراهيم وإسحق ويعقوب()",
-"english": " Behold the Lord desired and loved,,\nWishing to fulfill the promise,,\nThe Lord granted what He promised,,\nHe erased all His people´s recklessness.,\n()He erased all His people´s recklessness,,\nAnd taught us His divine mystery,,\nYou bore Him and He fulfilled the word,,\nHe baptized us in the Trinity´s name.,\n()He baptized us in the Trinity´s name,,\nHe shone His light after darkness,,\nHe granted us His kingdom,,\nAnd erased all our sins.,\n()And erased all our sins,,\nWe praise and glorify Him,,\nHe is due eternal glory and honor,,\nAs a good lover of man with His Father.,\n()As a good Lover of man with His Father,,\nAnd the eternal Holy Spirit,,\nOnly God no Lord but Him,,\nEternal everlasting omnipresent.,\n()Eternal everlasting omnipresent,,\nCreator giver bestower,,\nHe chose you O daughter of David,,\nLord of lords dwelt in your womb.,\n()Lord of lords dwelt in your womb,,\nYou gave birth to Him and you suckled Him,,\nWhile being in His Father´s glory,,\nFor the sake of your parents.,\n()For the sake of your parents,,\nAfter they were in affliction and sadness,,\nO you whom the Lord desired,,\nSave us from Satan´s evil.,\n()Save us from Satan´s evil,,\nWe ask you O mother of the Beloved,,\nAnd the composer of this hymn,\nA sinner and coming to you,\n()A sinner and coming to you,\nConfessing my sins to your son,\nAnd I am longing for your praise,\nO Mary, my refuge,\n()O Mary, my refuge,\nI beg you on the dreaded day,\nI am Ghobrial your servant from Qay,\nI plead you to be counted,\n()I plead you to be counted,\nDo not forsake me O my mother,\nYour servant whose name is written,\nWith effort he says Hail to you,\n()*REFRAIN* Hail to you and hail unto you, we ask you O Mother of the Beloved, grant us to be in your fathers dwellings, Abraham Isaac and Jacob.()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة التاسعة من نظم المعلم غبريال القايى",
+  "EnglishTitle": "The Ninth Explanation of Cantor Ghobrial Qay ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هوذا الرب شاء وأحب,\nوأراد يوفى وعده بكمال,\nوماوعد به الرب وهب,\nومحى عن شعبه كل ضلال",
+      "English": "Behold the Lord desired and loved,,\nWishing to fulfill the promise,,\nThe Lord granted what He promised,,\nHe erased all His people´s recklessness."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ومحى عن شعبه كل ضلال,\nوعرفنا سر اللاهوت,\nوحملتيه وأكمل الأقوال,\nوعمَّدنا بإسم الثالوث",
+      "English": "He erased all His people´s recklessness,,\nAnd taught us His divine mystery,,\nYou bore Him and He fulfilled the word,,\nHe baptized us in the Trinity´s name."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وعمَّدنا بإسم الثالوث,\nوأشرق نوره من بعد ظلام,\nوجاد علينا بالملكوت,\nومحى عنَّا كل أثام",
+      "English": "He baptized us in the Trinity´s name,,\nHe shone His light after darkness,,\nHe granted us His kingdom,,\nAnd erased all our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ومحى عنَّا كل أثام,\nنسبح له ونمجد إياه,\nله المجد الدائم والإكرام,\nكصالح محب البشر مع أباه",
+      "English": "And erased all our sins,,\nWe praise and glorify Him,,\nHe is due eternal glory and honor,,\nAs a good lover of man with His Father."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كصالح محب البشر مع أباه,\nوالروح القدس أزلى معبود,\nإله واحد لا رب سواه,\nدائم باقى حاضر موجود",
+      "English": "As a good Lover of man with His Father,,\nAnd the eternal Holy Spirit,,\nOnly God no Lord but Him,,\nEternal everlasting omnipresent."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "دائم باقى حاضر موجود,\nخالق رازق عاطى وَهَّاب,\nإختارك يا إبنة داود,\nوسكن فى أحشاكِ ربّ الأرباب",
+      "English": "Eternal everlasting omnipresent,,\nCreator giver bestower,,\nHe chose you O daughter of David,,\nLord of lords dwelt in your womb."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وسكن فى أحشاكِ ربّ الأرباب,\nوولدتيه ورضع من ثدييكِ,\nوهو كائن فى مجد الآب,\nمن أجل خلاص أمك وأبيكِ",
+      "English": "Lord of lords dwelt in your womb,,\nYou gave birth to Him and you suckled Him,,\nWhile being in His Father´s glory,,\nFor the sake of your parents."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "من أجل خلاص أمك وأبيكِ,\nبعد أن كانوا فى ضيق وأحزان,\nيامن تاق الرب إليكِ,\nنجينا من شر الشيطان",
+      "English": "For the sake of your parents,,\nAfter they were in affliction and sadness,,\nO you whom the Lord desired,,\nSave us from Satan´s evil."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نجينا من شر الشيطان,\nلأننا محسوبين عليكِ,\nوالعبد الناظم ذى الأوزان,\nخاطىء وتقدمت إليكِ",
+      "English": "Save us from Satan´s evil,,\nWe ask you O mother of the Beloved,,\nAnd the composer of this hymn,\nA sinner and coming to you"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خاطىء وتقدمت إليكِ,\nمعترفاً لإبنك بخطاياى,\nومتعشم بمديحى فيكِ,\nيامريم أنت ملجأى",
+      "English": "A sinner and coming to you,\nConfessing my sins to your son,\nAnd I am longing for your praise,\nO Mary, my refuge"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يامريم أنت ملجأى,\nأترجاكِ فى اليوم المرهوب,\nأنا غبريال عبدك من قاى,\nمتوسل بكِ وعليكِ محسوب",
+      "English": "O Mary, my refuge,\nI beg you on the dreaded day,\nI am Ghobrial your servant from Qay,\nI plead you to be counted"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "متوسل بكِ وعليكِ محسوب,\nفلا تفوتى من حسب عليكِ,\nعبدُكِ فى الرقّ المكتوب,\nبالجهد يقول السلام إليكِ",
+      "English": "I plead you to be counted,\nDo not forsake me O my mother,\nYour servant whose name is written,\nWith effort he says Hail to you"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "بالجهد يقول السلام إليكِ,ونسألك ياأم المحبوب,أن تحظينا فى مظال أبائك,إبراهيم وإسحق ويعقوب",
+      "English": "Hail to you and hail unto you, we ask you O Mother of the Beloved, grant us to be in your fathers dwellings, Abraham Isaac and Jacob."
+    }
+  ]
 }

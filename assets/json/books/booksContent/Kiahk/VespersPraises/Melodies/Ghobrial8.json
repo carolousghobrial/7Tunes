@@ -1,4 +1,95 @@
 {
-"arabic": " بمن أشبِّهك وبمن أدعوكِ,\nوأنطق وأتكلم بأقوال,\nيا من كل الأباء يعطوكِ,\nالطوبى فى كلِّ الأجيال,\n()الطوبى فى كلِّ الأجيال,\nوكل الأزمان والأوقات,\nوكم ضربوا عنكِ أمثال,\nوكم نظروا الأباء رؤيات,\n()وكم نظروا الأباء رؤيات,\nسلم نورانى رأه يعقوب,\nمتصلاً بأعلى السموات,\nوعلى الأرض إذ هو منصوب,\n()وعلى الأرض إذ هو منصوب,\nوطقوس السماء نازلين عليه,\nوصاعدين للعرش المحجوب,\nوملائكته ساجدين حواليه,\n()وملائكته ساجدين حواليه,\nألوف ألوف مع ربوات,\nفتحير فى وصف معانيه,\nوقال سيجيء ذو الهيبات,\n()وقال سيجيء ذو الهيبات,\nويظهر بجسد إنسانى,\nويتجسد فى عقب الأوقات,\nويولد ميلاداً جسدانى,\n()ويولد ميلاداً جسدانى,\nسكن فى أحشاكِ وولدتيه,\nكقول الأب الطوبانى,\nفى الرؤيا يعقوب أبيه,\n()فى الرؤيا يعقوب أبيه,\nلأنك أنت هى السلم,\nوإله الألهة قد شلتيه,\nوجددنا من بعد عدم,\n()وجددنا من بعد عدم,\nوصيرنا له شعباً مبرور,\nوإختارك يا زين كلَّ الأمم,\nوحملت الحى غير المنظور,\n()وحملت الحى غير المنظور,\nونحن الكل نصيح إليكِ,\nونقول طوباكِ يا أم النور,\nالسلام لكِ ثم السلام إليكِ,\n()*REFRAIN*السلام لك ثم السلام إليك,ونسألك ياأم المحبوب,أن تحظينا فى مظال أبائك,إبراهيم وإسحق ويعقوب()",
-"english": " With whom shall I liken and call you,,\nI utter and speak words,,\nO whom all the fathers,,\nBlessed throughout the ages.,\n()Blessed throughout the ages,,\nAnd all times and periods,,\nHow they said parables,,\nAnd the visions of the fathers.,\n()And the visions of the fathers,,\nA ladder of light seen by Jacob,,\nReaching the heights of heaven,,\nErected upon the earth.,\n()Erected upon the earth,,\nThe heavenly ranks descending on it,,\nAnd ascending to the hidden throne,,\nAngels worshipping around it.,\n()Angels worshipping around it,,\nThousands of thousands and myriads,,\nPerplexed in explaining it,,\nSaying the awesome One will come.,\n()Saying the awesome One will come,,\nAppearing in human flesh,,\nIncarnate in the fullness of time,,\nBorn a human birth.,\n()Born a human birth,,\nDwelt in your womb and you bore Him,,\nAs the blessed father´s saying,,\nIn his vision, Jacob the father.,\n()In his vision Jacob the father,,\nFor you are the ladder,,\nYou bore the God of gods,,\nWho renewed us after death.,\n()Who renewed us after death,,\nHe made us a justified people to Him,,\nHe chose you O beauty of nations,,\nYou bore the invisible living One.,\n()You bore the invisible living One,,\nAnd we all bless you saying,,\n\"Blessed are you O Mother of Light,,\nHail to you and hail unto you.\",\n()*REFRAIN* Hail to you and hail unto you, we ask you O Mother of the Beloved, grant us to be in your fathers dwellings, Abraham Isaac and Jacob.()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة الثامنة من نظم المعلم غبريال القايى",
+  "EnglishTitle": "The Eighth Explanation of Cantor Ghobrial Qay ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بمن أشبِّهك وبمن أدعوكِ,\nوأنطق وأتكلم بأقوال,\nيا من كل الأباء يعطوكِ,\nالطوبى فى كلِّ الأجيال",
+      "English": "With whom shall I liken and call you,,\nI utter and speak words,,\nO whom all the fathers,,\nBlessed throughout the ages."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الطوبى فى كلِّ الأجيال,\nوكل الأزمان والأوقات,\nوكم ضربوا عنكِ أمثال,\nوكم نظروا الأباء رؤيات",
+      "English": "Blessed throughout the ages,,\nAnd all times and periods,,\nHow they said parables,,\nAnd the visions of the fathers."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وكم نظروا الأباء رؤيات,\nسلم نورانى رأه يعقوب,\nمتصلاً بأعلى السموات,\nوعلى الأرض إذ هو منصوب",
+      "English": "And the visions of the fathers,,\nA ladder of light seen by Jacob,,\nReaching the heights of heaven,,\nErected upon the earth."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وعلى الأرض إذ هو منصوب,\nوطقوس السماء نازلين عليه,\nوصاعدين للعرش المحجوب,\nوملائكته ساجدين حواليه",
+      "English": "Erected upon the earth,,\nThe heavenly ranks descending on it,,\nAnd ascending to the hidden throne,,\nAngels worshipping around it."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وملائكته ساجدين حواليه,\nألوف ألوف مع ربوات,\nفتحير فى وصف معانيه,\nوقال سيجيء ذو الهيبات",
+      "English": "Angels worshipping around it,,\nThousands of thousands and myriads,,\nPerplexed in explaining it,,\nSaying the awesome One will come."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وقال سيجيء ذو الهيبات,\nويظهر بجسد إنسانى,\nويتجسد فى عقب الأوقات,\nويولد ميلاداً جسدانى",
+      "English": "Saying the awesome One will come,,\nAppearing in human flesh,,\nIncarnate in the fullness of time,,\nBorn a human birth."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ويولد ميلاداً جسدانى,\nسكن فى أحشاكِ وولدتيه,\nكقول الأب الطوبانى,\nفى الرؤيا يعقوب أبيه",
+      "English": "Born a human birth,,\nDwelt in your womb and you bore Him,,\nAs the blessed father´s saying,,\nIn his vision, Jacob the father."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "فى الرؤيا يعقوب أبيه,\nلأنك أنت هى السلم,\nوإله الألهة قد شلتيه,\nوجددنا من بعد عدم",
+      "English": "In his vision Jacob the father,,\nFor you are the ladder,,\nYou bore the God of gods,,\nWho renewed us after death."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وجددنا من بعد عدم,\nوصيرنا له شعباً مبرور,\nوإختارك يا زين كلَّ الأمم,\nوحملت الحى غير المنظور",
+      "English": "Who renewed us after death,,\nHe made us a justified people to Him,,\nHe chose you O beauty of nations,,\nYou bore the invisible living One."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وحملت الحى غير المنظور,\nونحن الكل نصيح إليكِ,\nونقول طوباكِ يا أم النور,\nالسلام لكِ ثم السلام إليكِ",
+      "English": "You bore the invisible living One,,\nAnd we all bless you saying,,\n\"Blessed are you O Mother of Light,,\nHail to you and hail unto you.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك ثم السلام إليك,ونسألك ياأم المحبوب,أن تحظينا فى مظال أبائك,إبراهيم وإسحق ويعقوب",
+      "English": "Hail to you and hail unto you, we ask you O Mother of the Beloved, grant us to be in your fathers dwellings, Abraham Isaac and Jacob."
+    }
+  ]
 }

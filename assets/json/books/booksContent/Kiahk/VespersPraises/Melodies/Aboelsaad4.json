@@ -1,4 +1,55 @@
 {
-"arabic": " أنتِ هى الجنس المعروف,\nمن أصل قبيلة داود,\nوصار الصلح بكِ مكشوف,\nوبكِ تمَّ الوعد الموعود,\n()مثل مطر ينزل على الصوف,\nيعنى هو الإبن المولود,\nوخُدَّامه ربوات وأُلوف,\nتخر أمام وجهه بسجود,\n()وحيد الآب نزل وأخذ,\nجسداً حتى نجَّانا,\nوعد وأراد يتم الوعد,\nووُلِد من مريم وأتانا,\n()تواضع وأخذ شكل العبد,\nوتألم لأجل خطايانا,\nوسُمِّىَّ آدم الثانى وَردّ,\nآدم الأول أبانا,\n()بحقِّ قَسَم تلك القِسمة,\nوأنت قد إخترتينا,\nونحن الجموع الملتمة,\nنعظمكِ يا أم بارينا,\n()*REFRAIN*السلام لكِ يا أم الرحمة,نحن عبيدك جيرينا,طوباكِ يامملؤة نعمة,عند أبنك الحبيب إشفعى فينا()",
-"english": " You are the known race,\nOriginating from David's tribe,\nThrough you the reconciling is revealed,\nThrough you, the promised vow is fulfilled.,\n()Like rain falling on wool,\nI mean the born Son,\nHis servants thousands before Him in adoration,\nAnd myriads bow down,\n()The only begotten of the Father descended,\nAnd took flesh to save his,\nHe promised and wished to fulfill the vow,\nAnd was born of Mary and came to us.,\n()He humbly took a bondservants form,\nAnd suffered for our sins,\nAnd was called the second Adam,\nAnd restored the first Adam to us.,\n()Because of this oath,\nYou [Mary] had chosen us,\nAnd we the assembled multitudes,\nExalt you O Mother of our Lord.,\n()*REFRAIN* Hail to you O mother of mercy / we are your beloved pray acknowledge us / blessed are you O full of grace / before your Son intercede for us.()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة الرابعة من نظم المعلم أبو السعد الأبوتيجى",
+  "EnglishTitle": "The Fourth Explanation of Abou El-Saad of Aboutig ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنتِ هى الجنس المعروف,\nمن أصل قبيلة داود,\nوصار الصلح بكِ مكشوف,\nوبكِ تمَّ الوعد الموعود",
+      "English": "You are the known race,\nOriginating from David's tribe,\nThrough you the reconciling is revealed,\nThrough you, the promised vow is fulfilled."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مثل مطر ينزل على الصوف,\nيعنى هو الإبن المولود,\nوخُدَّامه ربوات وأُلوف,\nتخر أمام وجهه بسجود",
+      "English": "Like rain falling on wool,\nI mean the born Son,\nHis servants thousands before Him in adoration,\nAnd myriads bow down"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وحيد الآب نزل وأخذ,\nجسداً حتى نجَّانا,\nوعد وأراد يتم الوعد,\nووُلِد من مريم وأتانا",
+      "English": "The only begotten of the Father descended,\nAnd took flesh to save his,\nHe promised and wished to fulfill the vow,\nAnd was born of Mary and came to us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "تواضع وأخذ شكل العبد,\nوتألم لأجل خطايانا,\nوسُمِّىَّ آدم الثانى وَردّ,\nآدم الأول أبانا",
+      "English": "He humbly took a bondservants form,\nAnd suffered for our sins,\nAnd was called the second Adam,\nAnd restored the first Adam to us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بحقِّ قَسَم تلك القِسمة,\nوأنت قد إخترتينا,\nونحن الجموع الملتمة,\nنعظمكِ يا أم بارينا",
+      "English": "Because of this oath,\nYou [Mary] had chosen us,\nAnd we the assembled multitudes,\nExalt you O Mother of our Lord."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لكِ يا أم الرحمة,نحن عبيدك جيرينا,طوباكِ يامملؤة نعمة,عند أبنك الحبيب إشفعى فينا",
+      "English": "Hail to you O mother of mercy / we are your beloved pray acknowledge us / blessed are you O full of grace / before your Son intercede for us."
+    }
+  ]
 }

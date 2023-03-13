@@ -1,4 +1,47 @@
 {
-"arabic": " أيها المولود من الآب قبل كل الدهور نور من نور إله حق من إله حق مولود غير مخلوق مساو للآب فى الجوهر الذى به كان كل شيئ وبغيره لم يكن شيئ مما كان نشكرك ياربنا وإلهنا ومخلصنا يسوع المسيح ونتضرع إلى صلاحك يا محب البشر بشفاعة سيدتنا كلنا وفخر جنسنا العذراء مرتمريم الطاهرة البتول هذه التى إستحقت أن تصير لك  أمَّاً  فى  آخر الدهور بطلبات أبينا البكر الطاهر مارمرقس الإنجيلى الرسول وصلوات سائر مصاف الشهداء والقديسين إرحمنا ياالله كعظيم رحمتك وأغفر لنا خطايانا وأنقذنا من آثامنا الماضية والمستأنفة وإحفظنا وأسترنا لئلا نسقط فى تكاسلنا مرة أخرى ونعمة روح قدسك المعزى الباراقليط جدده فى أحشائنا وثبته فينا فى هذا الدهر وفى الآتى,\n()ذوكسابترى( ...),\n()فليدركنا عزاك سريعاً وأمنح عبيدك أيها المسيح إلهنا عندما تصغر أرواحنا لاتبعد عن عقولنا فى الشدائد ولا من نفوسنا لكن تحنن علينا أيها المسيح الكثير الرحمة وأدنوا منا أيها الحال فى كل مكان كما كنت حالاً فى وسط تلاميذك الأطهار ورسلك القيسين الأبرار تعزيهم وتريهم ذاتك المقدسة فى كل حين هكذا نحن عبيدك المشتاقين إليك إحفظنا وخلصنا لكى نسبحك بدوام,\n()كى نين (...),\n()تغبطك كل الأجيال ياوالدة الإله مرتمريم العذراء الطاهرة لأنه سُرَّ أن يحل فيكِ الغير المحوى المسيح إلهنا ومعيننا طوبى لنا نحن المسيحيين لأنكِ صرتِ وسيلة فى الليل والنهار تشفعى فينا وسلاح ملوكنا مستقيمة بطلباتك من أجل ذلك نعظمك مع غبريال رئيس الملائكة ونصرخ بصوت الفرح والتهليل هكذا قائلين السلام لك يا ممتلئة نعمة الرب معكِ آمين.,\n()",
-"english": " O begotten of the Father before all ages: Light of Light, true God of true God, begotten, not created; of one essence with the Father by whom things were made, and without Him nothing was made which was made: we thank you, our Lord, God and Savior Jesus Christ. We entreat Your goodness, O Lover of Mankind, through the intercessions of our lady, the Lady of us all, our pride, the pure virgin, the chaste, Saint Mary, who was worthy to be a mother to You in the fullness of time: and through the prayers of our pure chaste Saint Mark the evangelist and apostle; and through the prayers of all the choirs of the martyrs and saints, have mercy upon us according to Your great mercy. Forgive our sins, save us from our sins, those past and present: keep us and protect us lest we fall into our laziness once more. Renew within us the grace of your Holy Spirit, the Comforter. Confirm Him in us in this age and the age to come.,\n()Zoxa Patri...,\n()May Your comfort speedily reach us: grant it unto us, we Your servants, O Christ, when our spirits are faint. Be not far from our minds or souls, during tribulations. Be merciful to us, O Christ, who are exceedingly merciful. Draw near to us, who are Omnipresent, as You were present in the midst of Your pure disciples and righteous saintly apostles, comforting them and revealing Yourself to them at all times. Likewise, we, Your servants, who are longing for You, keep us and save us, so that we may praise You incessantly.,\n()Ke nin ...,\n()All generations magnify you, O Theotokos, Saint Mary, the pure virgin, for the un-containable, our Lord and helper, Christ, was pleased to dwell in you. Blessed are we the Christians, for you became a mediator, interceding for us night and day. Our rulers' judgments are upright through your prayers. Therefore, we magnify you, with Gabriel the archangel, and cry out with the voice of joy and delight saying: \"IIail to you. O full of grace, the Lord is with you. Amen.\",\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطلبة الختامية",
+  "EnglishTitle": "Concluding Litany",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها المولود من الآب قبل كل الدهور نور من نور إله حق من إله حق مولود غير مخلوق مساو للآب فى الجوهر الذى به كان كل شيئ وبغيره لم يكن شيئ مما كان نشكرك ياربنا وإلهنا ومخلصنا يسوع المسيح ونتضرع إلى صلاحك يا محب البشر بشفاعة سيدتنا كلنا وفخر جنسنا العذراء مرتمريم الطاهرة البتول هذه التى إستحقت أن تصير لك  أمَّاً  فى  آخر الدهور بطلبات أبينا البكر الطاهر مارمرقس الإنجيلى الرسول وصلوات سائر مصاف الشهداء والقديسين إرحمنا ياالله كعظيم رحمتك وأغفر لنا خطايانا وأنقذنا من آثامنا الماضية والمستأنفة وإحفظنا وأسترنا لئلا نسقط فى تكاسلنا مرة أخرى ونعمة روح قدسك المعزى الباراقليط جدده فى أحشائنا وثبته فينا فى هذا الدهر وفى الآتى",
+      "English": "O begotten of the Father before all ages: Light of Light, true God of true God, begotten, not created; of one essence with the Father by whom things were made, and without Him nothing was made which was made: we thank you, our Lord, God and Savior Jesus Christ. We entreat Your goodness, O Lover of Mankind, through the intercessions of our lady, the Lady of us all, our pride, the pure virgin, the chaste, Saint Mary, who was worthy to be a mother to You in the fullness of time: and through the prayers of our pure chaste Saint Mark the evangelist and apostle; and through the prayers of all the choirs of the martyrs and saints, have mercy upon us according to Your great mercy. Forgive our sins, save us from our sins, those past and present: keep us and protect us lest we fall into our laziness once more. Renew within us the grace of your Holy Spirit, the Comforter. Confirm Him in us in this age and the age to come."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ذوكسابترى( ...),",
+      "English": "Zoxa Patri...,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فليدركنا عزاك سريعاً وأمنح عبيدك أيها المسيح إلهنا عندما تصغر أرواحنا لاتبعد عن عقولنا فى الشدائد ولا من نفوسنا لكن تحنن علينا أيها المسيح الكثير الرحمة وأدنوا منا أيها الحال فى كل مكان كما كنت حالاً فى وسط تلاميذك الأطهار ورسلك القيسين الأبرار تعزيهم وتريهم ذاتك المقدسة فى كل حين هكذا نحن عبيدك المشتاقين إليك إحفظنا وخلصنا لكى نسبحك بدوام,",
+      "English": "May Your comfort speedily reach us: grant it unto us, we Your servants, O Christ, when our spirits are faint. Be not far from our minds or souls, during tribulations. Be merciful to us, O Christ, who are exceedingly merciful. Draw near to us, who are Omnipresent, as You were present in the midst of Your pure disciples and righteous saintly apostles, comforting them and revealing Yourself to them at all times. Likewise, we, Your servants, who are longing for You, keep us and save us, so that we may praise You incessantly.,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "كى نين (...),",
+      "English": "Ke nin ...,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تغبطك كل الأجيال ياوالدة الإله مرتمريم العذراء الطاهرة لأنه سُرَّ أن يحل فيكِ الغير المحوى المسيح إلهنا ومعيننا طوبى لنا نحن المسيحيين لأنكِ صرتِ وسيلة فى الليل والنهار تشفعى فينا وسلاح ملوكنا مستقيمة بطلباتك من أجل ذلك نعظمك مع غبريال رئيس الملائكة ونصرخ بصوت الفرح والتهليل هكذا قائلين السلام لك يا ممتلئة نعمة الرب معكِ آمين.,",
+      "English": "All generations magnify you, O Theotokos, Saint Mary, the pure virgin, for the un-containable, our Lord and helper, Christ, was pleased to dwell in you. Blessed are we the Christians, for you became a mediator, interceding for us night and day. Our rulers' judgments are upright through your prayers. Therefore, we magnify you, with Gabriel the archangel, and cry out with the voice of joy and delight saying: \"IIail to you. O full of grace, the Lord is with you. Amen.\","
+    }
+  ]
 }

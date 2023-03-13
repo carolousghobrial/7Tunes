@@ -1,4 +1,55 @@
 {
-"arabic": " القبة وأوانيها,\nموسى كمَّلها تطريز,\nوالتابوت موضوع فيها,\nمطلىٌّ بالذهبِ الإبريز,\n()والألواح وما فيها,\nالقسط وفيه المن عزيز,\nوعن تفسير معانيها,\nإحتاروا أهل التمييز,\n()القبة الحقيقية,\nأعنى هى العذراء مريم,\nفاقت طبع البشرية,\nوقد حوت السرَّ الأعظم,\n()والطغمات العلوية,\nتَكِلُّ ولم تقدر تفهم,\nجميع ألسنة البشرية,\nفهى تصمت لم تتكلم,\n()مريم هى فخر الأمة,\nوهى فى العالم تحمينا,\nسفينة وصارت مهتمة,\nبنا توصلنا إلى الميناء,\n()*REFRAIN*السلام لكِ يا أم الرحمة,نحن عبيدك جيرينا,طوباكِ يامملؤة نعمة,عند أبنك الحبيب إشفعى فينا()",
-"english": " The tabernacle and its vessels,,\nMoses completed their making,,\nThe ark was placed in it,,\nOverlaid with pure gold.,\n()The tables and their contents,,\nThe pot in it the precious manna,,\nAbout their explanations,,\nThe interpreters were perplexed.,\n()The true tabernacle,,\nThat is Mary the Virgin,,\nShe exalted above all humans,,\nAnd carried the great mystery.,\n()The exalted ranks,,\nCould not comprehend,,\nAll human tongues,,\nWere silent and could not speak.,\n()Mary is the pride of the nation,,\nShe protects us in the world,,\nAn ark she is diligent,,\nTo take us the Harbor.,\n()*REFRAIN* Hail to you O mother of mercy / we are your beloved pray acknowledge us / blessed are you O full of grace / before your Son intercede for us.()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة السادسة من نظم المعلم أبو السعد الأبوتيجى",
+  "EnglishTitle": "The Sixth Explanation of Abou El-Saad of Aboutig ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "القبة وأوانيها,\nموسى كمَّلها تطريز,\nوالتابوت موضوع فيها,\nمطلىٌّ بالذهبِ الإبريز",
+      "English": "The tabernacle and its vessels,,\nMoses completed their making,,\nThe ark was placed in it,,\nOverlaid with pure gold."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والألواح وما فيها,\nالقسط وفيه المن عزيز,\nوعن تفسير معانيها,\nإحتاروا أهل التمييز",
+      "English": "The tables and their contents,,\nThe pot in it the precious manna,,\nAbout their explanations,,\nThe interpreters were perplexed."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "القبة الحقيقية,\nأعنى هى العذراء مريم,\nفاقت طبع البشرية,\nوقد حوت السرَّ الأعظم",
+      "English": "The true tabernacle,,\nThat is Mary the Virgin,,\nShe exalted above all humans,,\nAnd carried the great mystery."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "والطغمات العلوية,\nتَكِلُّ ولم تقدر تفهم,\nجميع ألسنة البشرية,\nفهى تصمت لم تتكلم",
+      "English": "The exalted ranks,,\nCould not comprehend,,\nAll human tongues,,\nWere silent and could not speak."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مريم هى فخر الأمة,\nوهى فى العالم تحمينا,\nسفينة وصارت مهتمة,\nبنا توصلنا إلى الميناء",
+      "English": "Mary is the pride of the nation,,\nShe protects us in the world,,\nAn ark she is diligent,,\nTo take us the Harbor."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لكِ يا أم الرحمة,نحن عبيدك جيرينا,طوباكِ يامملؤة نعمة,عند أبنك الحبيب إشفعى فينا",
+      "English": "Hail to you O mother of mercy / we are your beloved pray acknowledge us / blessed are you O full of grace / before your Son intercede for us."
+    }
+  ]
 }

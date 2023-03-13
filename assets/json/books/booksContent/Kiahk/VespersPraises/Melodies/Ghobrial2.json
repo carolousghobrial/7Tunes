@@ -1,4 +1,95 @@
 {
-"arabic": " تُعظِّمُكِ كل الطغمات,\nوتطوبكِ كل الأجيال,\nوكل المراتب والقوات,\nيعطوكِ السلام مع غبريال,\n()يعطوكِ السلام مع غبريال,\nبى نيشتى إن أرشى أنجيلوس,\nحين تممَّ وعده بكمال,\nأف أوأورب إنجيه إفيوت بى أغاثوس,\n()أف أوأورب إنجيه إفيوت بى أغاثوس,\nإلى عذراء تدعى مريم,\nيبشرها بحلول إيسوس,\nوحلوله بالسرِّ الأعظم,\n()وحلوله بالسر الأعظم,\nأتاها قائلاً طوباكِ,\nرَبُّكِ أرسلنى لكِ بسلام,\nوإختارك من صِغَرِ صباكِ,\n()وإختارك من صِغَرِ صباكِ,\nشاء وأراد أن يسكن فيكِ,\nالذى قد خلقك وأنشأكِ,\nيصير محمولاً على ذراعيكِ,\n()يصير محمولاً على ذراعيكِ,\nالجالس فوق الحيوانات,\nومن تدعى بالنسب إليكِ,\nالعاقر أليصابات,\n()العاقر أليصابات,\nاليوم حبلى بغلام شهير,\nلها ستة أشهر بثبات,\nوليس عند الله أمرٌ عسير,\n()وليس عند الله أمرٌ عسير,\nومهما أراد الرب يكون,\nصدقى وإقبلى منى التبشير,\nفجاوبته مريم بفنون,\n()فجاوبته مريم بفنون,\nقائلة هأنذا عبدة الرب,\nكقولك لى يارسول يكون,\nلهذا أراد الرب وأحب,\n()لهذا أراد الرب وأحب,\nونحن الكل نصيح إليكِ,\nطوباكِ يازين كل رتب,\nالسلام لكِ ثم السلام إليكِ,\n()*REFRAIN*السلام لك ثم السلام إليك,ونسألك ياأم المحبوب,أن تحظينا فى مظال أبائك,إبراهيم وإسحق ويعقوب()",
-"english": " All the orders exalt you,\nAnd all generations venerate you,\nAnd the orders and the authorities,\nGreets you with Gabriel.,\n()Greet you peacefully with Gabriel,\nPi-nishti en-arshi Angelos,\nWhen the Lord fulfilled His promise perfectly,\nAf-o-orp enje efiot pi Aghathos.,\n()Af-o-orp enje efiot pi Aghathos,\nTo a virgin called Mary,\nAnnouncing the incarnation of Jesus,\nHis birth with the great mystery.,\n()His birth with the great mystery,\nHe came to her saying blessed are you,\nYour Lord sent me to you with peace,\nChoosing you since your infancy.,\n()Choosing you since your infancy,\nHe willed and determined to abide in you,\nHe who created and formed you,\nWill be carried in your arms.,\n()Will be carried in your arms,\nHe who sits upon the creatures:,\nAnd who is related to you and called,\nThe barren Elizabeth,,\n()The barren Elizabeth,\nToday is with child with a renowned boy,\nFor six whole months,\nFor there is no difficult matter for God.,\n()For there is no difficult matter for God,\nSince anything God wills is to become,\nBelieve and accept this news from me,\nSo Mary answered him harmoniously.,\n()Mary answered him harmoniously,\nSaying behold the handmaiden of the Lord,\nLet your message be,\nFor in so the Lord willed and was pleased.,\n()For in so the Lord willed and was pleased,\nAnd we all greet you,\nBlessed are you O splendor of all ranks,\nHail to you and hail unto you.,\n()*REFRAIN* Hail to you and hail unto you, we ask you O Mother of the Beloved, grant us to be in your fathers dwellings, Abraham Isaac and Jacob.()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة الثانية من نظم المعلم غبريال القايى",
+  "EnglishTitle": "The Second Explanation of Cantor Ghobrial Qay ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تُعظِّمُكِ كل الطغمات,\nوتطوبكِ كل الأجيال,\nوكل المراتب والقوات,\nيعطوكِ السلام مع غبريال",
+      "English": "All the orders exalt you,\nAnd all generations venerate you,\nAnd the orders and the authorities,\nGreets you with Gabriel."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يعطوكِ السلام مع غبريال,\nبى نيشتى إن أرشى أنجيلوس,\nحين تممَّ وعده بكمال,\nأف أوأورب إنجيه إفيوت بى أغاثوس",
+      "English": "Greet you peacefully with Gabriel,\nPi-nishti en-arshi Angelos,\nWhen the Lord fulfilled His promise perfectly,\nAf-o-orp enje efiot pi Aghathos."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أف أوأورب إنجيه إفيوت بى أغاثوس,\nإلى عذراء تدعى مريم,\nيبشرها بحلول إيسوس,\nوحلوله بالسرِّ الأعظم",
+      "English": "Af-o-orp enje efiot pi Aghathos,\nTo a virgin called Mary,\nAnnouncing the incarnation of Jesus,\nHis birth with the great mystery."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وحلوله بالسر الأعظم,\nأتاها قائلاً طوباكِ,\nرَبُّكِ أرسلنى لكِ بسلام,\nوإختارك من صِغَرِ صباكِ",
+      "English": "His birth with the great mystery,\nHe came to her saying blessed are you,\nYour Lord sent me to you with peace,\nChoosing you since your infancy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وإختارك من صِغَرِ صباكِ,\nشاء وأراد أن يسكن فيكِ,\nالذى قد خلقك وأنشأكِ,\nيصير محمولاً على ذراعيكِ",
+      "English": "Choosing you since your infancy,\nHe willed and determined to abide in you,\nHe who created and formed you,\nWill be carried in your arms."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يصير محمولاً على ذراعيكِ,\nالجالس فوق الحيوانات,\nومن تدعى بالنسب إليكِ,\nالعاقر أليصابات",
+      "English": "Will be carried in your arms,\nHe who sits upon the creatures:,\nAnd who is related to you and called,\nThe barren Elizabeth"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "العاقر أليصابات,\nاليوم حبلى بغلام شهير,\nلها ستة أشهر بثبات,\nوليس عند الله أمرٌ عسير",
+      "English": "The barren Elizabeth,\nToday is with child with a renowned boy,\nFor six whole months,\nFor there is no difficult matter for God."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وليس عند الله أمرٌ عسير,\nومهما أراد الرب يكون,\nصدقى وإقبلى منى التبشير,\nفجاوبته مريم بفنون",
+      "English": "For there is no difficult matter for God,\nSince anything God wills is to become,\nBelieve and accept this news from me,\nSo Mary answered him harmoniously."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فجاوبته مريم بفنون,\nقائلة هأنذا عبدة الرب,\nكقولك لى يارسول يكون,\nلهذا أراد الرب وأحب",
+      "English": "Mary answered him harmoniously,\nSaying behold the handmaiden of the Lord,\nLet your message be,\nFor in so the Lord willed and was pleased."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لهذا أراد الرب وأحب,\nونحن الكل نصيح إليكِ,\nطوباكِ يازين كل رتب,\nالسلام لكِ ثم السلام إليكِ",
+      "English": "For in so the Lord willed and was pleased,\nAnd we all greet you,\nBlessed are you O splendor of all ranks,\nHail to you and hail unto you."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك ثم السلام إليك,ونسألك ياأم المحبوب,أن تحظينا فى مظال أبائك,إبراهيم وإسحق ويعقوب",
+      "English": "Hail to you and hail unto you, we ask you O Mother of the Beloved, grant us to be in your fathers dwellings, Abraham Isaac and Jacob."
+    }
+  ]
 }

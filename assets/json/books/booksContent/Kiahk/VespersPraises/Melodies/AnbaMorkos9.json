@@ -1,4 +1,71 @@
 {
-"arabic": " هوذا الرب ظهر منكِ,\nيا مريم تى بارثينوس,\nوإختار حسن طهارتكِ,\nبين سوتير إن أغاثوس,\n()طوباكِ يا من قد صرتِ,\nأُمَّاً للإله القدوس,\nخلاص آدم قد كان بكِ,\nبحملِكِ فى باشويس إيسوس,\n()أخذ جسداً كاملاً منكِ,\nخلص به آدم الذى كان محبوس,\nفى قاع جحيم كان فيه يبكى,\nمسبياً مع بى ذيافولوس,\n()سفكه عنا دماً زكى,\nصار منه بريئاً بيلاطُس,\nفى أحشاكِ يا مريم شلتِ,\nخلاص إن نى إخريستيانوس,\n()السلام لكِ يا من أكلتِ,\nخبزاً من يد نى أنجيلوس,\nيا مريم بِكرَ وعروس,\nوفى بى إرفى جابوه لكِ,\n()أسأل وأطلب شفاعتكِ,\nأنا الخاطىء عبدك مرقص,\nوعن كل الشعب المشترك,\nأرواحاً وأجساداً ونفوس,\n()يكونوا محفوظين بكِ,\nفى الإيمان بالإبن القدوس,\nوالبيعة تكون فى طمأنينتكِ,\nوخدامها شمامسة وقسوس,\n()*REFRAIN*السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس()",
-"english": " Behold the Lord appeared from you,,\nO Mary the Virgin,,\nAnd our good Savior,,\nChose your beautiful purity.,\n()Blessed are you O who became,,\nA Mother to the holy God,,\nThe salvation of Adam appeared from you,,\nThrough your conception of my Lord Jesus.,\n()He took a perfect flesh from you,,\nWith it He saved Adam the prisoner,,\nIn the bottom of Hades he wept,,\nAs a captive of the Devil.,\n()He shed precious Blood for us,,\nFor the salvation of all the souls,,\nYou carried in your womb O Mary,,\nThe salvation of the,\n()Christians. Hail to you O who ate bread,,\nFrom the hands of the angels,,\nThey brought it to you in the temple,,\nO Mary the first-born Bride.,\n()I ask and entreat your intercessions,,\nI am the sinner your servant Markos,,\nAnd for all the people participating,,\nIn the faith of the holy Son.,\n()May the spirits bodies and souls,,\nBe preserved through you,,\nAnd the Church be at rest,,\nWith her servants deacons and priests.,\n()*REFRAIN* Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior.()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "القطعة التاسعة من نظم البطريرك الأب مرقس",
+  "EnglishTitle": "The Ninth Explanation of Pope Abba Markos ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هوذا الرب ظهر منكِ,\nيا مريم تى بارثينوس,\nوإختار حسن طهارتكِ,\nبين سوتير إن أغاثوس",
+      "English": "Behold the Lord appeared from you,,\nO Mary the Virgin,,\nAnd our good Savior,,\nChose your beautiful purity."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوباكِ يا من قد صرتِ,\nأُمَّاً للإله القدوس,\nخلاص آدم قد كان بكِ,\nبحملِكِ فى باشويس إيسوس",
+      "English": "Blessed are you O who became,,\nA Mother to the holy God,,\nThe salvation of Adam appeared from you,,\nThrough your conception of my Lord Jesus."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أخذ جسداً كاملاً منكِ,\nخلص به آدم الذى كان محبوس,\nفى قاع جحيم كان فيه يبكى,\nمسبياً مع بى ذيافولوس",
+      "English": "He took a perfect flesh from you,,\nWith it He saved Adam the prisoner,,\nIn the bottom of Hades he wept,,\nAs a captive of the Devil."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "سفكه عنا دماً زكى,\nصار منه بريئاً بيلاطُس,\nفى أحشاكِ يا مريم شلتِ,\nخلاص إن نى إخريستيانوس",
+      "English": "He shed precious Blood for us,,\nFor the salvation of all the souls,,\nYou carried in your womb O Mary,,\nThe salvation of the"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لكِ يا من أكلتِ,\nخبزاً من يد نى أنجيلوس,\nيا مريم بِكرَ وعروس,\nوفى بى إرفى جابوه لكِ",
+      "English": "Christians. Hail to you O who ate bread,,\nFrom the hands of the angels,,\nThey brought it to you in the temple,,\nO Mary the first-born Bride."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أسأل وأطلب شفاعتكِ,\nأنا الخاطىء عبدك مرقص,\nوعن كل الشعب المشترك,\nأرواحاً وأجساداً ونفوس",
+      "English": "I ask and entreat your intercessions,,\nI am the sinner your servant Markos,,\nAnd for all the people participating,,\nIn the faith of the holy Son."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يكونوا محفوظين بكِ,\nفى الإيمان بالإبن القدوس,\nوالبيعة تكون فى طمأنينتكِ,\nوخدامها شمامسة وقسوس",
+      "English": "May the spirits bodies and souls,,\nBe preserved through you,,\nAnd the Church be at rest,,\nWith her servants deacons and priests."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس",
+      "English": "Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior."
+    }
+  ]
 }
