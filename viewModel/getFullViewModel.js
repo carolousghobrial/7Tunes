@@ -6,7 +6,8 @@ export function getFullViewModel(data) {
   let arabicttl = "";
   let copticttl = "";
   let englishttl = "";
-
+  const visibleRules = VisibleRules();
+  console.log(visibleRules);
   var ViewArray = [];
   var MenuArray = [];
   var key = 0;
@@ -16,7 +17,7 @@ export function getFullViewModel(data) {
       copticttl = item.coptic;
       englishttl = item.english;
     } else {
-      if (VisibleRules.find((data) => data.rule === item.visible).visible) {
+      if (visibleRules.find((data) => data.rule === item.visible).visible) {
         switch (item.type) {
           case "Main":
             //Get View

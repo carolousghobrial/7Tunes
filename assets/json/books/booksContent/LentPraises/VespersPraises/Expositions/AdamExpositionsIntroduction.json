@@ -1,8 +1,27 @@
 {
-"hymn":"",
-"arabic": " تعالوا فلنسجد، للثالوث القدوس، الذي هو الآب والإبن، والروح القُدُس.,\nالسلام لكِ يا مريم، الحمامة الحسنة، التي ولدت لنا، الله الكلمة.,\n",
-"arabiccoptic": " امويني مارين اووشت : ان تيترياس اثؤواب : إيتي إفيوت نيم ابشيري: نيم بي ابنيفما اثؤواب\nشيري ني ماريا : تي اتشرومبي اثنيسوس : ثي ايطاس ميسي نان : امفنوتي بيلوغوس\n",
-"coptic": " `Amwini marenouw]t> `n:`triac eq?u?> `ete `Viwt nem `P]hri> nem Pi`pneuma eq?u?.\nXere ne Maria> ;srompi eqnecwc> qh`etacmici nan> `m`Vnou; Pilogoc.\n",
-"english": " O come let us worship, the Holy Trinity, the Father and the Son, and the Holy Spirit.,\nHail to you O Mary, the beautiful dove, who gave birth to, God the Word for us.,\n",
-"englishcoptic": " Amoi-nee maren-oo-osht, enti-etrias ethowab, ete efiot nem epshiri, nem pi-epnevma ethowab.\nShere ne Maria, ticherompi ethnesos, theetas misi nan, emifnouti pi-loghos.\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تعالوا فلنسجد، للثالوث القدوس، الذي هو الآب والإبن، والروح القُدُس.",
+      "Coptic": "`Amwini marenouw]t> `n:`triac eq?u?> `ete `Viwt nem `P]hri> nem Pi`pneuma eq?u?.",
+      "English": "O come let us worship, the Holy Trinity, the Father and the Son, and the Holy Spirit.",
+      "Arabiccoptic": "امويني مارين اووشت : ان تيترياس اثؤواب : إيتي إفيوت نيم ابشيري: نيم بي ابنيفما اثؤواب",
+      "Englishcoptic": "Amoi-nee maren-oo-osht, enti-etrias ethowab, ete efiot nem epshiri, nem pi-epnevma ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لكِ يا مريم، الحمامة الحسنة، التي ولدت لنا، الله الكلمة.",
+      "Coptic": "Xere ne Maria> ;srompi eqnecwc> qh`etacmici nan> `m`Vnou; Pilogoc.",
+      "English": "Hail to you O Mary, the beautiful dove, who gave birth to, God the Word for us.",
+      "Arabiccoptic": "شيري ني ماريا : تي اتشرومبي اثنيسوس : ثي ايطاس ميسي نان : امفنوتي بيلوغوس",
+      "Englishcoptic": "Shere ne Maria, ticherompi ethnesos, theetas misi nan, emifnouti pi-loghos."
+    }
+  ]
 }

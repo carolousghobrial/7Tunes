@@ -1,22 +1,37 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " فلنرتل مع المرتل داود النبى الحسن فى الترتيل.,\nونصرخ بصوت واحد قائلين أشكروا الرب فأنه صالح .,\n",
-"arabiccoptic": " مارين ايربسالين نيم بى هيمنودوس دافيد بى ابروفيتيس بى يروبسالتيس\nانتين اوش ايفول خين او اخرو او ان اواوت جى اواونه ايفول ام ابشويس جى او اغاثوس بى.\n",
-"coptic": " Mareneryalin > nem pi\\umnodoc > Dauid pi`provhthc > piieroyalthc .\n` Ntenw] `ebol > =en ou`=rwou `nouwt > je ouwn\\ `ebol `mP_ > je ou`agaqoc pe .\n",
-"english": " Let us sing, with the hymnist, David the prophet and the good psalmist.,\nLet us proclaim, in one voice saying, Give thanks to the Lord, for He is good.,\n",
-"englishcoptic": " Maren er epsalin nem pi himnodos David pi eprofitees pi iero epsaltees.\nEnten osh evol khen o ekhro-o en o-oot je o-onh evol em Epshois je o aghathos pe.\n",
-},
-{
-"arabic": " أشكروا الله ربّ الأرباب لأن رحمته دائمة إلى الأبد وإلى كل الدهور. لأنه صنع عجائب عجيبة وخلق السموات بفهمه الرفيع. النيرين العظيمين الشمس والقمر جعلهما ينيران فوق السموات. الشمس لسلطان النهار والقمر والنجوم لسلطان الليل. وضرب المصريين وكل أبكارهم وغرقهم فى البحر الأحمر. بيد عزيزة وذراع رفيع أخرج إسرائيل من وسطهم. فرعون الملك ومراكبه العظيمة غرقهم فى البحر الأحمر. وقتل أيضاً ملوكاً عظماء عجيبة فى الحروب. وهم شيحون ملك الأموريين وعوج ملك مدينة باشان. وأحب شعب إسرائيل وأعطاهم أرضهم ميراثاً. الذين نحن معشر المسيحيين ودعانا خواصه. وذَكَرَنَا فى تواضعنا وخلصنا من أيدى أعدائنا. فلذلك نصرخ ونقول مع المرتل داود النبى. أشكروا رَبَّ الأربابِ فإنه صالحٌ وإلى الأبد رحمته. بصلوات داود المرتل يارب أنعم لنا بغفران خطايانا .,\n",
-"english": " Give thanks to God, the Lord of Lords, for His mercy endures forever, and unto the end of the ages. For He has performed miraculous wonders, He created the heavens with His high understanding. The two great lights, the sun and the moon, He has made to enlighten, above the heavens. The sun to rule, by day, the moon and stars, to rule by night. He struck the Egyptians, and all their firstborn. And He drowned them in the Red Sea. With a strong hand and with an outstretched arm, he brought Israel out of their midst. He drowned, Pharaoh the king, and his great chariots, in the Red Sea. And He also killed great kings; they became a miracle for the warriors. And they are Sihon of the Amorites and Og the king of Bashan. He gave their lands as a heritage to the people of Israel whom He loved. We the Christians, are as they. He called us His beloved. And He remembered us in our lowly state. He saved us from the hands of our enemies. Therefore, we proclaim, and say, with the hymnist, David the prophet. Give thanks to the Lord of all lords, for He is good, and His mercy endures forever. Through the prayers of David the psalmist, O Lord grant us the forgiveness of our sins.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "طرح أدام على الهوس الثاني",
+  "EnglishTitle": "Adam Exposition on the Second Hoos",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنرتل مع المرتل داود النبى الحسن فى الترتيل.",
+      "Coptic": "Mareneryalin > nem pi\\umnodoc > Dauid pi`provhthc > piieroyalthc .",
+      "English": "Let us sing, with the hymnist, David the prophet and the good psalmist.",
+      "Arabiccoptic": "مارين ايربسالين نيم بى هيمنودوس دافيد بى ابروفيتيس بى يروبسالتيس",
+      "Englishcoptic": "Maren er epsalin nem pi himnodos David pi eprofitees pi iero epsaltees."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ونصرخ بصوت واحد قائلين أشكروا الرب فأنه صالح .",
+      "Coptic": "` Ntenw] `ebol > =en ou`=rwou `nouwt > je ouwn\\ `ebol `mP_ > je ou`agaqoc pe .",
+      "English": "Let us proclaim, in one voice saying, Give thanks to the Lord, for He is good.",
+      "Arabiccoptic": "انتين اوش ايفول خين او اخرو او ان اواوت جى اواونه ايفول ام ابشويس جى او اغاثوس بى.",
+      "Englishcoptic": "Enten osh evol khen o ekhro-o en o-oot je o-onh evol em Epshois je o aghathos pe."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أشكروا الله ربّ الأرباب لأن رحمته دائمة إلى الأبد وإلى كل الدهور. لأنه صنع عجائب عجيبة وخلق السموات بفهمه الرفيع. النيرين العظيمين الشمس والقمر جعلهما ينيران فوق السموات. الشمس لسلطان النهار والقمر والنجوم لسلطان الليل. وضرب المصريين وكل أبكارهم وغرقهم فى البحر الأحمر. بيد عزيزة وذراع رفيع أخرج إسرائيل من وسطهم. فرعون الملك ومراكبه العظيمة غرقهم فى البحر الأحمر. وقتل أيضاً ملوكاً عظماء عجيبة فى الحروب. وهم شيحون ملك الأموريين وعوج ملك مدينة باشان. وأحب شعب إسرائيل وأعطاهم أرضهم ميراثاً. الذين نحن معشر المسيحيين ودعانا خواصه. وذَكَرَنَا فى تواضعنا وخلصنا من أيدى أعدائنا. فلذلك نصرخ ونقول مع المرتل داود النبى. أشكروا رَبَّ الأربابِ فإنه صالحٌ وإلى الأبد رحمته. بصلوات داود المرتل يارب أنعم لنا بغفران خطايانا .",
+      "English": "Give thanks to God, the Lord of Lords, for His mercy endures forever, and unto the end of the ages. For He has performed miraculous wonders, He created the heavens with His high understanding. The two great lights, the sun and the moon, He has made to enlighten, above the heavens. The sun to rule, by day, the moon and stars, to rule by night. He struck the Egyptians, and all their firstborn. And He drowned them in the Red Sea. With a strong hand and with an outstretched arm, he brought Israel out of their midst. He drowned, Pharaoh the king, and his great chariots, in the Red Sea. And He also killed great kings; they became a miracle for the warriors. And they are Sihon of the Amorites and Og the king of Bashan. He gave their lands as a heritage to the people of Israel whom He loved. We the Christians, are as they. He called us His beloved. And He remembered us in our lowly state. He saved us from the hands of our enemies. Therefore, we proclaim, and say, with the hymnist, David the prophet. Give thanks to the Lord of all lords, for He is good, and His mercy endures forever. Through the prayers of David the psalmist, O Lord grant us the forgiveness of our sins."
+    }
+  ]
 }

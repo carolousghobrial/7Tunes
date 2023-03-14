@@ -1,8 +1,27 @@
 {
-  "arabic": " نسجد للآب الصالح.  وابنه يسوع المسيح. والروح المعزى. الثالوث القدوس المساوى فى الجوهر.,\nالسلام لك أيتها العذراء. الملكة الحقيقية الصادقة. السلام لفخر جنسنا . قد ولدت لنا عمانوئيل .,\n",
-  "arabiccoptic": " تين أوؤشت إم إفيوت إن اغاثوس : نيم بيف شيري إيسوس بي خريستوس : نيم بي بنيفما إمباراكليتون : تي إترياس إثؤواب إن اوموؤسيوس  .\nشيري نيه أوتي بارثينوس : تي اورو إممي إن آلثيني : شيري إبشوشو إنتيه بين جينوس : آري إجفو نان إن إممانوئيل  .\n",
-  "coptic": " Tenouw]t `m`Viwt `n`agaqoc > nem Pef]hri Ihc? Pxc? > nem Pipn?a? `mparaklhton > :`triac eq?u? `noumooucioc .\nXere ne `w ;parqenoc > ;ourw `mmhi `n`alhqinh > xere `p]ou]ou `nte pengenoc > `are`jvo nan `nEmmanouhl .\n",
-  "english": " We worship the good Father, and Jesus Christ the Son, and the Spirit the Paraclete, the holy and co-essential Trinity.,\nHail to you O Virgin, the very and true queen, hail to the pride of our race, who gave birth to Emmanuel.,\n",
-  "englishcoptic": " Ten-o-osht emefiot en aghathos, nem pi-epshery Isos Pikhristos, nem pi-epnevma emparak-liton, ti-etrias ethowab en-omo-osios\nShere ne oti parthenos, ti-oro emmi en alithini, shere epshosho ente pengenos, ari-egvo nan en-emmanoel.\n",
-  "hymn": ""
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نسجد للآب الصالح.  وابنه يسوع المسيح. والروح المعزى. الثالوث القدوس المساوى فى الجوهر.",
+      "Coptic": "Tenouw]t `m`Viwt `n`agaqoc > nem Pef]hri Ihc? Pxc? > nem Pipn?a? `mparaklhton > :`triac eq?u? `noumooucioc .",
+      "English": "We worship the good Father, and Jesus Christ the Son, and the Spirit the Paraclete, the holy and co-essential Trinity.",
+      "Arabiccoptic": "تين أوؤشت إم إفيوت إن اغاثوس : نيم بيف شيري إيسوس بي خريستوس : نيم بي بنيفما إمباراكليتون : تي إترياس إثؤواب إن اوموؤسيوس  .",
+      "Englishcoptic": "Ten-o-osht emefiot en aghathos, nem pi-epshery Isos Pikhristos, nem pi-epnevma emparak-liton, ti-etrias ethowab en-omo-osios"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السلام لك أيتها العذراء. الملكة الحقيقية الصادقة. السلام لفخر جنسنا . قد ولدت لنا عمانوئيل .",
+      "Coptic": "Xere ne `w ;parqenoc > ;ourw `mmhi `n`alhqinh > xere `p]ou]ou `nte pengenoc > `are`jvo nan `nEmmanouhl .",
+      "English": "Hail to you O Virgin, the very and true queen, hail to the pride of our race, who gave birth to Emmanuel.",
+      "Arabiccoptic": "شيري نيه أوتي بارثينوس : تي اورو إممي إن آلثيني : شيري إبشوشو إنتيه بين جينوس : آري إجفو نان إن إممانوئيل  .",
+      "Englishcoptic": "Shere ne oti parthenos, ti-oro emmi en alithini, shere epshosho ente pengenos, ari-egvo nan en-emmanoel."
+    }
+  ]
 }

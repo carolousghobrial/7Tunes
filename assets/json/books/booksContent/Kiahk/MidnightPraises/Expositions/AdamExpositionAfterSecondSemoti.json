@@ -1,22 +1,37 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " طوباكِ أنتِ يا مريم العذراء لأن الله الكلمة إختاركِ له مسكناً.,\nطوباكِ أنتِ يا مريم العذراء القبة الثانية التى لله الآب .,\n",
-"arabiccoptic": " اواونياتى انثة, ماريا تى بارثينوس, جى ا افنوتى بيلوغوس, سوتب اممون ناف اممانشوبى.\nاواو نياتى انثو, ماريا تيبارثينوس, تى اسكينى ام ماه اسنوتى, انتى افنوتى افيوت.\n",
-"coptic": " Wounia; `nqo > Mari`a ;parqenoc > je `a V; pilogoc > cwtp `mmon naf `mman]wpi.\n` Wounia; `nqo > Mari`a ;parqenoc > ;`ckunh `mma\\ b/; > `nte V; ` Viwt.\n",
-"english": " Blessed are You, O Mary the Virgin, because God the Word chose you as His dwelling.,\nBlessed are you, O Virgin Mary, the second dome for God the Father.,\n",
-"englishcoptic": " O-o niaty entho, Maria ti parthenos, je a Evnouty piloghos, sotp emmon naf emman shopi.\nO-o niaty entho, Maria ti parthenos, ti eskiny emmah esnouty, ente Evnouty Efiot.\n",
-},
-{
-"arabic": " أى مديح وأى تمجيد وأى تعظيم أقدمه إلى محلّ شَرَفك يا والدة الإله مرتمريم.لكنى أسأل تحنن إلهنا أن يُلهمنى حكمة سمائية لكى نقول يسيراً مما يليق بكرامتها. ونرتل بصوت الفرح والتهليل هكذا قائلين : إفرحى يا فخر المؤمنين الارثوذكسيين التى بها ورثوا الملكوت. إفرحى يا بهجة الصديقين التى من قبلها خلصوا من أسر العدو وَوصلوا إلى النعيم - إفرحى يا إبنة يواقيم والسيدة حنة التى تكلموا من أجلها الأنبياء والحكماء أن منها يتجسد المخلص ويولد ميلاداً بتولياً . إفرحى يا تاج الشهداء التى بها تقووا حتى فازوا بإرث ملكوت السموات. إفرحى يا رائحة بخور الفردوس التى بها صرنا نحن المسيحيين بنى الملكوت. إفرحى يا والدة الاله التى أزهرت الطيب الذكى الذى من أصل يسى . إفرحى يا عصاة هارون التى أزهرت وأورقت من غير سقى. إفرحى يا من حملت الذى لا يحويه مكان فى السماء وعلى الارض. إفرحى أيتها القبة الثانية التى للقديسين. إفرحى أيتها المشتملة بالطهارة داخلها وخارجها. إفرحى أيتها الممجده من جميع الطغمات السمائية. إفرحى يا من ضياؤها يلمع اكثر من ضوء الشمس. إفرحى أيتها الطريق التى توصلنا إلى أرض الحياة. إفرحى ايتها المتمنطقة بالفرح والتهليل . إفرحى يا إبنة صهيون نسل الملك داود. إفرحى أيتها القبة الحقيقية الداخلة قدس القدسِ. إفرحى أيتها المذبح السمائى قدس القديسين . إفرحى يا ممتلئة نعمة الرب معك . إشفعى فينا عند ابنك الحبيب ليغفر لنا خطايانا أمين.,\n",
-"english": " What melody, what glorification, or what exaltation can I offer to your sublime dignity, O Mother of God, St. Mary.Yet, I beg the compassion of our God to inspire me with heavenly wisdom, that we may but express a little of her merited dignity, and sing with a voice of joy and cheer saying, \"Rejoice, O pride of the Orthodox faithful, by whom they inherited the kingdom. Rejoice, O joy of the righteous, by whom they were saved from imprisonment by the enemy and reached bliss. Rejoice, O daughter of Joachim and Anna, of whom the prophets and sages spoke that through her the Savior will be incarnate, through a virginal birth.Rejoice, O crown of martyrs, through whom they were strengthened until they won the inheritance of the kingdom of heaven. Rejoice, O scent of the incense of Paradise, through whose Son, we, the Christians, became the children of the kingdom. Rejoice, O Theotokos, flowering a rich aroma from the root of Jesse. Rejoice, O rod of Aaron, which bloomed and sprouted without watering. Rejoice, O bearer of Him who cannot be carried by heaven or earth. Rejoice, O second dome for the saints. Rejoice, O you who are enveloped by purity within and without. Rejoice, O you who are exalted by all the heavenly orders. Rejoice, O you whose light shines brighter than the sun. Rejoice, O way that leads us to the land of the living. Rejoice, O you who are girdled by joy and elation. Rejoice, O daughter of Zion, the descendant of King David. Rejoice, O true dome within the Holy of Holies. Rejoice, O heavenly altar, the sanctity of the saints. Rejoice, O full of grace, the Lord is with you. Intercede for us before your beloved Son that He may forgive us our sins.\" Amen.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "طرح آدام على سيموتى الثانية",
+  "EnglishTitle": "Adam Exposition on Semoti (2nd Part)",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوباكِ أنتِ يا مريم العذراء لأن الله الكلمة إختاركِ له مسكناً.",
+      "Coptic": "Wounia; `nqo > Mari`a ;parqenoc > je `a V; pilogoc > cwtp `mmon naf `mman]wpi.",
+      "English": "Blessed are You, O Mary the Virgin, because God the Word chose you as His dwelling.",
+      "Arabiccoptic": "اواونياتى انثة, ماريا تى بارثينوس, جى ا افنوتى بيلوغوس, سوتب اممون ناف اممانشوبى.",
+      "Englishcoptic": "O-o niaty entho, Maria ti parthenos, je a Evnouty piloghos, sotp emmon naf emman shopi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوباكِ أنتِ يا مريم العذراء القبة الثانية التى لله الآب .",
+      "Coptic": "` Wounia; `nqo > Mari`a ;parqenoc > ;`ckunh `mma\\ b/; > `nte V; ` Viwt.",
+      "English": "Blessed are you, O Virgin Mary, the second dome for God the Father.",
+      "Arabiccoptic": "اواو نياتى انثو, ماريا تيبارثينوس, تى اسكينى ام ماه اسنوتى, انتى افنوتى افيوت.",
+      "Englishcoptic": "O-o niaty entho, Maria ti parthenos, ti eskiny emmah esnouty, ente Evnouty Efiot."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أى مديح وأى تمجيد وأى تعظيم أقدمه إلى محلّ شَرَفك يا والدة الإله مرتمريم.لكنى أسأل تحنن إلهنا أن يُلهمنى حكمة سمائية لكى نقول يسيراً مما يليق بكرامتها. ونرتل بصوت الفرح والتهليل هكذا قائلين : إفرحى يا فخر المؤمنين الارثوذكسيين التى بها ورثوا الملكوت. إفرحى يا بهجة الصديقين التى من قبلها خلصوا من أسر العدو وَوصلوا إلى النعيم - إفرحى يا إبنة يواقيم والسيدة حنة التى تكلموا من أجلها الأنبياء والحكماء أن منها يتجسد المخلص ويولد ميلاداً بتولياً . إفرحى يا تاج الشهداء التى بها تقووا حتى فازوا بإرث ملكوت السموات. إفرحى يا رائحة بخور الفردوس التى بها صرنا نحن المسيحيين بنى الملكوت. إفرحى يا والدة الاله التى أزهرت الطيب الذكى الذى من أصل يسى . إفرحى يا عصاة هارون التى أزهرت وأورقت من غير سقى. إفرحى يا من حملت الذى لا يحويه مكان فى السماء وعلى الارض. إفرحى أيتها القبة الثانية التى للقديسين. إفرحى أيتها المشتملة بالطهارة داخلها وخارجها. إفرحى أيتها الممجده من جميع الطغمات السمائية. إفرحى يا من ضياؤها يلمع اكثر من ضوء الشمس. إفرحى أيتها الطريق التى توصلنا إلى أرض الحياة. إفرحى ايتها المتمنطقة بالفرح والتهليل . إفرحى يا إبنة صهيون نسل الملك داود. إفرحى أيتها القبة الحقيقية الداخلة قدس القدسِ. إفرحى أيتها المذبح السمائى قدس القديسين . إفرحى يا ممتلئة نعمة الرب معك . إشفعى فينا عند ابنك الحبيب ليغفر لنا خطايانا أمين.",
+      "English": "What melody, what glorification, or what exaltation can I offer to your sublime dignity, O Mother of God, St. Mary.Yet, I beg the compassion of our God to inspire me with heavenly wisdom, that we may but express a little of her merited dignity, and sing with a voice of joy and cheer saying, \"Rejoice, O pride of the Orthodox faithful, by whom they inherited the kingdom. Rejoice, O joy of the righteous, by whom they were saved from imprisonment by the enemy and reached bliss. Rejoice, O daughter of Joachim and Anna, of whom the prophets and sages spoke that through her the Savior will be incarnate, through a virginal birth.Rejoice, O crown of martyrs, through whom they were strengthened until they won the inheritance of the kingdom of heaven. Rejoice, O scent of the incense of Paradise, through whose Son, we, the Christians, became the children of the kingdom. Rejoice, O Theotokos, flowering a rich aroma from the root of Jesse. Rejoice, O rod of Aaron, which bloomed and sprouted without watering. Rejoice, O bearer of Him who cannot be carried by heaven or earth. Rejoice, O second dome for the saints. Rejoice, O you who are enveloped by purity within and without. Rejoice, O you who are exalted by all the heavenly orders. Rejoice, O you whose light shines brighter than the sun. Rejoice, O way that leads us to the land of the living. Rejoice, O you who are girdled by joy and elation. Rejoice, O daughter of Zion, the descendant of King David. Rejoice, O true dome within the Holy of Holies. Rejoice, O heavenly altar, the sanctity of the saints. Rejoice, O full of grace, the Lord is with you. Intercede for us before your beloved Son that He may forgive us our sins.\" Amen."
+    }
+  ]
 }

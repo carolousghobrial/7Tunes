@@ -1,4 +1,12 @@
 const bookPaths = {
+  //AgpeyaPrayers
+  AgpeyaPrayersHolyHoly: require("../assets/json/books/booksContent/AgpeyaPrayers/HolyHoly.json"),
+  AgpeyaPrayersCreed: require("../assets/json/books/booksContent/AgpeyaPrayers/Creed.json"),
+  AgpeyaPrayersIntroToCreed: require("../assets/json/books/booksContent/AgpeyaPrayers/IntroToCreed.json"),
+  AgpeyaPrayersTrisagion: require("../assets/json/books/booksContent/AgpeyaPrayers/Trisagion.json"),
+  AgpeyaPrayersPraiseAngels: require("../assets/json/books/booksContent/AgpeyaPrayers/PraiseAngels.json"),
+  AgpeyaPrayersGraciouslyOLord: require("../assets/json/books/booksContent/AgpeyaPrayers/GraciouslyOLord.json"),
+  AgpeyaPrayersOurFather: require("../assets/json/books/booksContent/AgpeyaPrayers/OurFather.json"),
   //Doxologies
   DoxologiesArchangelGabriel: require("../assets/json/books/booksContent/Doxologies/ArchangelGabriel.json"),
   DoxologiesArchangelMichael: require("../assets/json/books/booksContent/Doxologies/ArchangelMichael.json"),
@@ -61,14 +69,9 @@ const bookPaths = {
   //Praises
   PraisesAripsalin: require("../assets/json/books/booksContent/Praises/Aripsalin.json"),
   PraisesCommemoration: require("../assets/json/books/booksContent/Praises/Commemoration.json"),
-  PraisesConclusion: require("../assets/json/books/booksContent/Praises/Conclusion.json"),
-  PraisesCreed: require("../assets/json/books/booksContent/Praises/Creed.json"),
   PraisesFirstHoos: require("../assets/json/books/booksContent/Praises/FirstHoos.json"),
   PraisesFirstHoosLobsh: require("../assets/json/books/booksContent/Praises/FirstHoosLobsh.json"),
   PraisesFourthHoos: require("../assets/json/books/booksContent/Praises/FourthHoos.json"),
-  PraisesHolyHoly: require("../assets/json/books/booksContent/Praises/HolyHoly.json"),
-  PraisesIntroToCreed: require("../assets/json/books/booksContent/Praises/IntroToCreed.json"),
-  PraisesMorningDoxology: require("../assets/json/books/booksContent/Praises/MorningDoxology.json"),
   PraisesNiEthnosTiro: require("../assets/json/books/booksContent/Praises/NiEthnosTiro.json"),
   PraisesPraisesConclusion: require("../assets/json/books/booksContent/Praises/PraisesConclusion.json"),
   PraisesSecondHoos: require("../assets/json/books/booksContent/Praises/SecondHoos.json"),
@@ -83,7 +86,6 @@ const bookPaths = {
   RaisingOfIncenseEfnotiNaiNan: require("../assets/json/books/booksContent/RaisingOfIncense/EfnotiNaiNan.json"),
   RaisingOfIncenseEleisonEmas: require("../assets/json/books/booksContent/RaisingOfIncense/EleisonEmas.json"),
   RaisingOfIncenseFiveShortLitanies: require("../assets/json/books/booksContent/RaisingOfIncense/FiveShortLitanies.json"),
-  RaisingOfIncenseGraciouslyOLord: require("../assets/json/books/booksContent/RaisingOfIncense/GraciouslyOLord.json"),
   RaisingOfIncenseLentLitanies: require("../assets/json/books/booksContent/RaisingOfIncense/LentLitanies.json"),
   RaisingOfIncenseLitanyAir: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyAir.json"),
   RaisingOfIncenseLitanyAssemblies: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyAssemblies.json"),
@@ -97,16 +99,13 @@ const bookPaths = {
   RaisingOfIncenseLitanySick: require("../assets/json/books/booksContent/RaisingOfIncense/LitanySick.json"),
   RaisingOfIncenseLitanyTravelers: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyTravelers.json"),
   RaisingOfIncenseLitanyWaters: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyWaters.json"),
-  RaisingOfIncenseOurFather: require("../assets/json/books/booksContent/RaisingOfIncense/OurFather.json"),
   RaisingOfIncensePalmSundayConcludingPrayer: require("../assets/json/books/booksContent/RaisingOfIncense/PalmSundayConcludingPrayer.json"),
-  RaisingOfIncensePraiseAngels: require("../assets/json/books/booksContent/RaisingOfIncense/PraiseAngels.json"),
   RaisingOfIncensePsalmAndGospel: require("../assets/json/books/booksContent/RaisingOfIncense/PsalmAndGospel.json"),
   RaisingOfIncenseRaiseThemToTheirMeasure: require("../assets/json/books/booksContent/RaisingOfIncense/RaiseThemToTheirMeasure.json"),
   RaisingOfIncenseRaisingofIncenseConclusion: require("../assets/json/books/booksContent/RaisingOfIncense/RaisingofIncenseConclusion.json"),
   RaisingOfIncenseShortBlessing: require("../assets/json/books/booksContent/RaisingOfIncense/ShortBlessing.json"),
   RaisingOfIncenseShortBlessing2: require("../assets/json/books/booksContent/RaisingOfIncense/ShortBlessing2.json"),
   RaisingOfIncenseThanksgivingPrayer: require("../assets/json/books/booksContent/RaisingOfIncense/ThanksgivingPrayer.json"),
-  RaisingOfIncenseTrisagion: require("../assets/json/books/booksContent/RaisingOfIncense/Trisagion.json"),
   //Veneration
   VenerationAgiosEstin: require("../assets/json/books/booksContent/Veneration/AgiosEstin.json"),
   VenerationAnokNim: require("../assets/json/books/booksContent/Veneration/AnokNim.json"),
@@ -298,8 +297,7 @@ const bookPaths = {
   TheotokiasSundayAdamIntro: require("../assets/json/books/booksContent/Theotokias/Sunday/AdamIntro.json"),
   TheotokiasSundayAikoty: require("../assets/json/books/booksContent/Theotokias/Sunday/Aikoty.json"),
   TheotokiasSundayAinahty: require("../assets/json/books/booksContent/Theotokias/Sunday/Ainahty.json"),
-  TheotokiasSundayGospel: require("../assets/json/books/booksContent/Theotokias/Sunday/Gospel.json"),
-  TheotokiasSundaySunday: require("../assets/json/books/booksContent/Theotokias/Sunday/Sunday.json"),
+  // TheotokiasSundayGospel: require("../assets/json/books/booksContent/Theotokias/Sunday/Gospel.json"),
   TheotokiasSundaySunday1: require("../assets/json/books/booksContent/Theotokias/Sunday/Sunday1.json"),
   TheotokiasSundaySunday10: require("../assets/json/books/booksContent/Theotokias/Sunday/Sunday10.json"),
   TheotokiasSundaySunday11: require("../assets/json/books/booksContent/Theotokias/Sunday/Sunday11.json"),
@@ -318,7 +316,7 @@ const bookPaths = {
   TheotokiasSundaySunday7: require("../assets/json/books/booksContent/Theotokias/Sunday/Sunday7.json"),
   TheotokiasSundaySunday8: require("../assets/json/books/booksContent/Theotokias/Sunday/Sunday8.json"),
   TheotokiasSundaySunday9: require("../assets/json/books/booksContent/Theotokias/Sunday/Sunday9.json"),
-  //Theotokias\Thursday
+  // //Theotokias\Thursday
   TheotokiasThursdayThursday1: require("../assets/json/books/booksContent/Theotokias/Thursday/Thursday1.json"),
   TheotokiasThursdayThursday2: require("../assets/json/books/booksContent/Theotokias/Thursday/Thursday2.json"),
   TheotokiasThursdayThursday3: require("../assets/json/books/booksContent/Theotokias/Thursday/Thursday3.json"),
@@ -330,7 +328,7 @@ const bookPaths = {
   TheotokiasThursdayThursday9: require("../assets/json/books/booksContent/Theotokias/Thursday/Thursday9.json"),
   TheotokiasThursdayThursdayLobsh: require("../assets/json/books/booksContent/Theotokias/Thursday/ThursdayLobsh.json"),
   TheotokiasThursdayThursdayPsaliOurLord: require("../assets/json/books/booksContent/Theotokias/Thursday/ThursdayPsaliOurLord.json"),
-  //Theotokias\Tuesday
+  // //Theotokias\Tuesday
   TheotokiasTuesdayTuesday1: require("../assets/json/books/booksContent/Theotokias/Tuesday/Tuesday1.json"),
   TheotokiasTuesdayTuesday2: require("../assets/json/books/booksContent/Theotokias/Tuesday/Tuesday2.json"),
   TheotokiasTuesdayTuesday3: require("../assets/json/books/booksContent/Theotokias/Tuesday/Tuesday3.json"),
@@ -340,7 +338,7 @@ const bookPaths = {
   TheotokiasTuesdayTuesday7: require("../assets/json/books/booksContent/Theotokias/Tuesday/Tuesday7.json"),
   TheotokiasTuesdayTuesdayLobsh: require("../assets/json/books/booksContent/Theotokias/Tuesday/TuesdayLobsh.json"),
   TheotokiasTuesdayTuesdayPsaliOurLord: require("../assets/json/books/booksContent/Theotokias/Tuesday/TuesdayPsaliOurLord.json"),
-  //Theotokias\Wednesday
+  // //Theotokias\Wednesday
   TheotokiasWednesdayWednesday1: require("../assets/json/books/booksContent/Theotokias/Wednesday/Wednesday1.json"),
   TheotokiasWednesdayWednesday2: require("../assets/json/books/booksContent/Theotokias/Wednesday/Wednesday2.json"),
   TheotokiasWednesdayWednesday3: require("../assets/json/books/booksContent/Theotokias/Wednesday/Wednesday3.json"),
@@ -350,7 +348,7 @@ const bookPaths = {
   TheotokiasWednesdayWednesday7: require("../assets/json/books/booksContent/Theotokias/Wednesday/Wednesday7.json"),
   TheotokiasWednesdayWednesdayLobsh: require("../assets/json/books/booksContent/Theotokias/Wednesday/WednesdayLobsh.json"),
   TheotokiasWednesdayWednesdayPsaliOurLord: require("../assets/json/books/booksContent/Theotokias/Wednesday/WednesdayPsaliOurLord.json"),
-  //Veneration\Melodies
+  // //Veneration\Melodies
   VenerationMelodiesArchangelMichael: require("../assets/json/books/booksContent/Veneration/Melodies/ArchangelMichael.json"),
   VenerationMelodiesPopeKirollos: require("../assets/json/books/booksContent/Veneration/Melodies/PopeKirollos.json"),
   VenerationMelodiesStAbanoub: require("../assets/json/books/booksContent/Veneration/Melodies/StAbanoub.json"),
@@ -370,7 +368,7 @@ const bookPaths = {
   KiahkMidnightPraisesExpositionsAdamExpositionFirstSemoti: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Expositions/AdamExpositionFirstSemoti.json"),
   KiahkMidnightPraisesExpositionsAdamExpositionFourthHoos: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Expositions/AdamExpositionFourthHoos.json"),
   KiahkMidnightPraisesExpositionsAdamExpositionSecondHoos: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Expositions/AdamExpositionSecondHoos.json"),
-  KiahkMidnightPraisesExpositionsAdamExpositionSundayTheotokia: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Expositions/AdamExpositionSundayTheotokia.json"),
+  // KiahkMidnightPraisesExpositionsAdamExpositionSundayTheotokia: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Expositions/AdamExpositionSundayTheotokia.json"),
   KiahkMidnightPraisesExpositionsAdamExpositionThirdHoos: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Expositions/AdamExpositionThirdHoos.json"),
   KiahkMidnightPraisesExpositionsExpositionAfterAvmoti: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Expositions/ExpositionAfterAvmoti.json"),
   KiahkMidnightPraisesExpositionsExpositionNeknai: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Expositions/ExpositionNeknai.json"),
@@ -384,7 +382,7 @@ const bookPaths = {
   KiahkMidnightPraisesHymnsAinahosKhenOgom: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Hymns/AinahosKhenOgom.json"),
   KiahkMidnightPraisesHymnsFourthHoosKiahk: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Hymns/FourthHoosKiahk.json"),
   KiahkMidnightPraisesHymnsKiahkOde: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Hymns/KiahkOde.json"),
-  //Kiahk\MidnightPraises\Melodies
+  // //Kiahk\MidnightPraises\Melodies
   KiahkMidnightPraisesMelodiesAgiosOTheos: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Melodies/AgiosOTheos.json"),
   KiahkMidnightPraisesMelodiesAikotiMelody: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Melodies/AikotiMelody.json"),
   KiahkMidnightPraisesMelodiesConclusion: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Melodies/Conclusion.json"),

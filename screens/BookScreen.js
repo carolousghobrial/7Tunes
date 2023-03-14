@@ -42,13 +42,25 @@ function BookScreen({ navigation, route }) {
   const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
   const [newIndex, setnewIndex] = useState(0);
   const [scrollToIndex, setscrollToIndex] = useState(0);
-  const [englishTitle, setenglishTitle] = useState("");
-  const [copticTitle, setcopticTitle] = useState("");
-  const [arabicTitle, setarabicTitle] = useState("");
+
   const motherSource = route.params.bookPath;
 
   const [data, menuData] = getFullViewModel(homescreenPaths[motherSource]);
-
+  console.log(data[0].part.english);
+  const [englishTitle, setenglishTitle] = useState(data[0].part.english);
+  const [copticTitle, setcopticTitle] = useState(data[0].part.coptic);
+  const [arabicTitle, setarabicTitle] = useState(data[0].part.arabic);
+  navigation.setOptions({
+    headerShown: NavbarVisibility,
+    header: () => (
+      <CustomHeader
+        navigation={navigation}
+        english={englishTitle}
+        coptic={copticTitle}
+        arabic={arabicTitle}
+      />
+    ),
+  });
   const { width, height } = useWindowDimensions();
 
   if (width > height) {
@@ -100,47 +112,36 @@ function BookScreen({ navigation, route }) {
   useEffect(() => {
     StatusBar.setHidden(NavbarVisibility);
 
-    navigation.setOptions({
-      headerShown: NavbarVisibility,
-      header: () => (
-        <CustomHeader
-          navigation={navigation}
-          english={englishTitle}
-          coptic={copticTitle}
-          arabic={arabicTitle}
-        />
-      ),
-    });
     flatListRef.current.scrollToIndex({
       index: scrollToIndex,
       animated: false,
     });
-  }, [NavbarVisibility, scrollToIndex]);
+  }, [scrollToIndex]);
   function hideHeader() {
     setNavbarVisibility(!NavbarVisibility);
   }
 
-  function renderItems(itemData) {
+  function renderItems({ item }) {
     let content = {};
-    switch (itemData.item.part.Type) {
+    switch (item.part.Type) {
       case "Base":
-        content = <BaseView item={itemData.item.part}></BaseView>;
+        content = <BaseView item={item.part}></BaseView>;
 
         break;
       case "Melody":
-        content = <MelodyView item={itemData.item.part}></MelodyView>;
+        content = <MelodyView item={item.part}></MelodyView>;
 
         break;
       case "Title":
-        content = <TitleView item={itemData.item.part}></TitleView>;
+        content = <TitleView item={item.part}></TitleView>;
 
         break;
       case "Ritual":
-        content = <RitualView item={itemData.item.part}></RitualView>;
+        content = <RitualView item={item.part}></RitualView>;
 
         break;
       case "Button":
-        content = <ButtonView item={itemData.item.part}></ButtonView>;
+        content = <ButtonView item={item.part}></ButtonView>;
         break;
 
       default:
@@ -161,8 +162,6 @@ function BookScreen({ navigation, route }) {
         onViewableItemsChanged={onViewableItemsChanged}
         showsVerticalScrollIndicator={false}
         data={data}
-        initialNumToRender={data.length / 5}
-        removeClippedSubviews={true}
         onScrollToIndexFailed={(error) => {
           console.log(error);
           flatListRef.current.scrollToOffset({
@@ -178,9 +177,8 @@ function BookScreen({ navigation, route }) {
             }
           }, 10);
         }}
-        initialScrollIndex={scrollToIndex}
         renderItem={renderItems}
-        keyExtractor={(item) => {
+        keyExtractor={(item, index) => {
           return item.key;
         }}
       />

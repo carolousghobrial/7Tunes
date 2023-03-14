@@ -6,6 +6,10 @@ export function getLanguageValue(key) {
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   return Languages[appLanguage][key];
 }
+export function getSeason() {
+  const season = useSelector((state) => state.settings.currentSeason);
+  return season;
+}
 export function getFontSize() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
 

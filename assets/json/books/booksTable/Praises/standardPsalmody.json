@@ -11,73 +11,67 @@
         },
         {
             "type": "Main",
-            "path": "TenThino",
+            "path": "PraisesTenThino",
             "rule": 0,
             "visible": "firstVisible"
         },
         {
             "type": "Main",
-            "path": "DoxologiesHeavenlies",
+            "path": "PraisesTennav",
+            "rule": 0,
+            "visible": "TennavRule"
+        },
+        {
+            "type": "Main",
+            "path": "PraisesFirstHoos",
             "rule": 0,
             "visible": "firstVisible"
         },
         {
             "type": "Main",
-            "path": "Tennav",
+            "path": "PraisesFirstHoosLobsh",
             "rule": 0,
             "visible": "firstVisible"
         },
         {
             "type": "Main",
-            "path": "FirstHoos",
+            "path": "PraisesSecondHoos",
             "rule": 0,
             "visible": "firstVisible"
         },
         {
             "type": "Main",
-            "path": "FirstHoosLobsh",
+            "path": "PraisesSecondHoosLobsh",
             "rule": 0,
             "visible": "firstVisible"
         },
         {
             "type": "Main",
-            "path": "SecondHoos",
+            "path": "PraisesThirdHoos",
             "rule": 0,
             "visible": "firstVisible"
         },
         {
             "type": "Main",
-            "path": "SecondHoosLobsh",
+            "path": "PraisesAripsalin",
             "rule": 0,
             "visible": "firstVisible"
         },
         {
             "type": "Main",
-            "path": "ThirdHoos",
+            "path": "PraisesTenoweh",
             "rule": 0,
             "visible": "firstVisible"
         },
         {
             "type": "Main",
-            "path": "Aripsalin",
+            "path": "PraisesCommemoration",
             "rule": 0,
             "visible": "firstVisible"
         },
         {
             "type": "Main",
-            "path": "Tenoweh",
-            "rule": 0,
-            "visible": "firstVisible"
-        },
-        {
-            "type": "Main",
-            "path": "Commemoration",
-            "rule": 0,
-            "visible": "firstVisible"
-        },
-        {
-            "type": "Main",
-            "path": "FourthHoos",
+            "path": "PraisesFourthHoos",
             "rule": 0,
             "visible": "firstVisible"
         }

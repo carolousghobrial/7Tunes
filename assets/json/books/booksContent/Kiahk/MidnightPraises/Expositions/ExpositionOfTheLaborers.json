@@ -1,25 +1,59 @@
 {
-  "hymn": "",
-  "exposition": [
+  "RefrainAfter": 0,
+  "ArabicTitle": "طرح آدام للفعلة",
+  "EnglishTitle": "Adam Exposition for the Laborers",
+  "Hymn": [
     {
-      "arabic": " دعا ربُّ الكرمِ وكيلَه وقال له أدعو الفَعَلَةَ.,\nوأعطهم الأجرة وإبدأ من الأخرين إلى الأولين ديناراً لكل واحد.,\n",
-      "arabiccoptic": " أفموتى انجى ابشويس, امبى ياه ألولى, امبيف ابى اذريبوس, افساجى نيماف.\nجى موتى انى ايرغاتيس, مابو فيكى نوأو, نى خا ايف انشورب, او ساثيرى ا اف أواى.\n",
-      "coptic": " Afmou; `nje P_ > `mpiia\\`aloli > `mpef`epi`dripoc > afcaji nmaf.\n Je mou; eniergathc > mapoubexe nwou > ni=aeu `n]wrp > oucaqeri `e`vouai.\n",
-      "english": " \"The Lord of the vineyard called His steward and told him,,\nCall the laborers and give them their wages, beginning with the last to the first, a denarius for each\" (Matt 20:8).,\n",
-      "englishcoptic": "Avmouty enje Epshois, Empi yah aloly, empef e pi ezripos, afsaji nemaf.\nJe mouty eni erghatees, mapo vike no-o, ni kha ev en shorp, o satheri e efouai.\n"
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "دعا ربُّ الكرمِ وكيلَه وقال له أدعو الفَعَلَةَ.",
+      "Coptic": "Afmou; `nje P_ > `mpiia\\`aloli > `mpef`epi`dripoc > afcaji nmaf.",
+      "English": "\"The Lord of the vineyard called His steward and told him",
+      "Arabiccoptic": "أفموتى انجى ابشويس, امبى ياه ألولى, امبيف ابى اذريبوس, افساجى نيماف.",
+      "Englishcoptic": "Avmouty enje Epshois, Empi yah aloly, empef e pi ezripos, afsaji nemaf."
     },
     {
-      "arabic": " من هم الفعلة إلا رؤساء الأباء إبراهيم وإسحق ويعقوب إسرائيل. من هم الفعلة إلا الأنبياء الذين تنبأوا من أجل مجيئ المسيح. من هم الفعلة إلا الأطفال الذين قتلهم هيرودس من أجل المسيح. من هم الفعلة إلا الرسل الذين بشروا بقيامة المسيح. من هم الفعلة إلا الشهداء الذين سفكوا دمهم من أجل إسم المسيح. من هم الفعلة إلا المعترفين ولبَّاس الصليب وسكان البرارى. من هم الفعلة إلا العذارى الحكيمات اللائى حفظن بتوليتهن. من هم الفعلة إلا رؤساء الأساقفة الذين يقطعون كلمة الحق بإستقامة. من هم الفعلة إلا الأساقفة الذين يقاتلون عن الأمانة الأرثوذوكسية. من هم الفعلة إلا القمامصة مدبرى البيعة. من هم الفعلة إلا القسوس الذين يُقَسِّمُون جسد المسيح. من هم الفعلة إلا رؤساء الشمامسة الذين يحملون كأس دم المسيح. من هم الفعلة إلا الرهبان سكان البرارى. من هم الفعلة إلا الإيبودياكونين الذين يعظون العلمانيين. من هم الفعلة إلا الأغنسطسيين الذين يقرأون الكتب مثل داود. من هم الفعلة إلا الأراخنة محبى الإله الذين يهتمون بحاجة الكنيسة. من هم الفعلة إلا الخطاة الذين يرجعون إلى الرب بقلب مستقيم. من هم الفعلة إلا الأخوة محبى الإله الذين تعبوا معنا فى طبع هذه الإبصلمودية.,\n",
-      "english": " Who are the laborers other than the patriarchs of Israel, Abraham, Isaac, and Jacob Israel. Who are the laborers other than the prophets who prophesied of Christ's coming. Who are the laborers other than the children who Herod killed for the sake of Christ. Who are the laborers other than the Apostles who preached the Resurrection of the Lord. Who are the laborers other than the martyrs who shed their blood for the sake of Christ's name. Who are the laborers other than the confessors, the cross-bearers, and those who live in the wilderness. Who are the laborers other than the wise virgins who kept the beauty of their celibacy. Who are the laborers other than the archbishops who rightly divide the word of truth. Who are the laborers other than the bishops who fight for the safety of Orthodoxy. Who are the laborers other than the hegumens who maintain the church. Who are the laborers other than the priests who break the Body of Christ. Who are the laborers other than the archdeacons who serve the Lord like Saint Stephen. Who are the laborers other than the deacons who carry the chalice of the Blood of Christ. Who are the laborers other than the subdeacons who preach to the catechumens. Who are the laborers other than the readers who read the books as David did. Who are the laborers other than the Archons, the beloved of God who tend to the need of the church. Who are the laborers other than the sinners who repented and returned to the Lord with an upright heart. Who are the laborers other than the brothers, the beloved of God, who labored with us in this Psalmody.,\n"
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأعطهم الأجرة وإبدأ من الأخرين إلى الأولين ديناراً لكل واحد.",
+      "Coptic": "Je mou; eniergathc > mapoubexe nwou > ni=aeu `n]wrp > oucaqeri `e`vouai.",
+      "English": "Call the laborers and give them their wages, beginning with the last to the first, a denarius for each\" (Matt 20:8).",
+      "Arabiccoptic": "جى موتى انى ايرغاتيس, مابو فيكى نوأو, نى خا ايف انشورب, او ساثيرى ا اف أواى.",
+      "Englishcoptic": "Je mouty eni erghatees, mapo vike no-o, ni kha ev en shorp, o satheri e efouai."
     },
     {
-      "arabic": " أيها المسيح مخلصنا أعطهم أجرتهم عوض أتعابهم فى ملكوت السموات.\nبصلوات الذين ذكرنا أسماءَهُم يارب أنعم لنا بغفران خطايانا.\n",
-      "arabiccoptic": " بخريستوس بينسوتير, مابو فيكى نوأو, ان اتشفيو ان نو خيسى, خين اثميت اورو ان نيفيؤوى.\nهيتين نو افكى, ان نى ايطان طا أو ان أوران, ابشويس ارى اهموت نان, امبى كو ايفول انتى نين نوفى.\n",
-      "coptic": " Pxc? Pencwthr > mapoubexe nwou > `n`t]ebi`w `nnou=ici > =en `qmetouro `nnivhou`i.\n|iten nieuxh > `nnh- `etantaou `enouran > P_ `ari`\\mot nan > `mpixw `ebol `nte nennobi.\n",
-      "english": " O Christ our Savior / grant them their rewards / for their labors / in the heavenly kingdom.\nThrough the prayers of those we have mentioned, O Lord grant us the forgiveness of our sins.\n",
-      "englishcoptic": "Pikhristos pensoteer, mapo veke no-o, en etshevio enno khici, khen ethmet oro en nifi-oui.\n Hiten ni evky, enni etan ta-o en oran, Epshois ari ehmot nan, empi ko evol ente nen novi.\n"
-
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من هم الفعلة إلا رؤساء الأباء إبراهيم وإسحق ويعقوب إسرائيل. من هم الفعلة إلا الأنبياء الذين تنبأوا من أجل مجيئ المسيح. من هم الفعلة إلا الأطفال الذين قتلهم هيرودس من أجل المسيح. من هم الفعلة إلا الرسل الذين بشروا بقيامة المسيح. من هم الفعلة إلا الشهداء الذين سفكوا دمهم من أجل إسم المسيح. من هم الفعلة إلا المعترفين ولبَّاس الصليب وسكان البرارى. من هم الفعلة إلا العذارى الحكيمات اللائى حفظن بتوليتهن. من هم الفعلة إلا رؤساء الأساقفة الذين يقطعون كلمة الحق بإستقامة. من هم الفعلة إلا الأساقفة الذين يقاتلون عن الأمانة الأرثوذوكسية. من هم الفعلة إلا القمامصة مدبرى البيعة. من هم الفعلة إلا القسوس الذين يُقَسِّمُون جسد المسيح. من هم الفعلة إلا رؤساء الشمامسة الذين يحملون كأس دم المسيح. من هم الفعلة إلا الرهبان سكان البرارى. من هم الفعلة إلا الإيبودياكونين الذين يعظون العلمانيين. من هم الفعلة إلا الأغنسطسيين الذين يقرأون الكتب مثل داود. من هم الفعلة إلا الأراخنة محبى الإله الذين يهتمون بحاجة الكنيسة. من هم الفعلة إلا الخطاة الذين يرجعون إلى الرب بقلب مستقيم. من هم الفعلة إلا الأخوة محبى الإله الذين تعبوا معنا فى طبع هذه الإبصلمودية.",
+      "English": "Who are the laborers other than the patriarchs of Israel, Abraham, Isaac, and Jacob Israel. Who are the laborers other than the prophets who prophesied of Christ's coming. Who are the laborers other than the children who Herod killed for the sake of Christ. Who are the laborers other than the Apostles who preached the Resurrection of the Lord. Who are the laborers other than the martyrs who shed their blood for the sake of Christ's name. Who are the laborers other than the confessors, the cross-bearers, and those who live in the wilderness. Who are the laborers other than the wise virgins who kept the beauty of their celibacy. Who are the laborers other than the archbishops who rightly divide the word of truth. Who are the laborers other than the bishops who fight for the safety of Orthodoxy. Who are the laborers other than the hegumens who maintain the church. Who are the laborers other than the priests who break the Body of Christ. Who are the laborers other than the archdeacons who serve the Lord like Saint Stephen. Who are the laborers other than the deacons who carry the chalice of the Blood of Christ. Who are the laborers other than the subdeacons who preach to the catechumens. Who are the laborers other than the readers who read the books as David did. Who are the laborers other than the Archons, the beloved of God who tend to the need of the church. Who are the laborers other than the sinners who repented and returned to the Lord with an upright heart. Who are the laborers other than the brothers, the beloved of God, who labored with us in this Psalmody."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها المسيح مخلصنا أعطهم أجرتهم عوض أتعابهم فى ملكوت السموات.",
+      "Coptic": "Pxc? Pencwthr > mapoubexe nwou > `n`t]ebi`w `nnou=ici > =en `qmetouro `nnivhou`i.",
+      "English": "O Christ our Savior / grant them their rewards / for their labors / in the heavenly kingdom.",
+      "Arabiccoptic": "بخريستوس بينسوتير, مابو فيكى نوأو, ان اتشفيو ان نو خيسى, خين اثميت اورو ان نيفيؤوى.",
+      "Englishcoptic": "Pikhristos pensoteer, mapo veke no-o, en etshevio enno khici, khen ethmet oro en nifi-oui."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بصلوات الذين ذكرنا أسماءَهُم يارب أنعم لنا بغفران خطايانا.",
+      "Coptic": "|iten nieuxh > `nnh\b `etantaou `enouran > P_ `ari`\\mot nan > `mpixw `ebol `nte nennobi.",
+      "English": "Through the prayers of those we have mentioned, O Lord grant us the forgiveness of our sins.",
+      "Arabiccoptic": "هيتين نو افكى, ان نى ايطان طا أو ان أوران, ابشويس ارى اهموت نان, امبى كو ايفول انتى نين نوفى.",
+      "Englishcoptic": "Hiten ni evky, enni etan ta-o en oran, Epshois ari ehmot nan, empi ko evol ente nen novi."
     }
-
   ]
 }

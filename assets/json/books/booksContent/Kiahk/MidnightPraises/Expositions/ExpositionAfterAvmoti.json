@@ -1,22 +1,37 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " لسانى البائس والخاطئ لا يستطيع أن ينطق بكرامة مريم.,\nلكننى أسأل تحنن إلهنا أن يمنحنى منطقاً وحكمة سمائية.,\n",
-"arabiccoptic": " بالاس غار اتجوجيب, اووه انريف ايرنوفى, نا اش جيم جوم ان ا ساجى, ا ابطايو ماريا.\nاللا تين تى هو, ا شينهيت ام بين نوتى, ا افتى نى ان او ساجى, نيم او صوفيا ان اورانون.\n",
-"coptic": " Palac gar etjwjeb > ouo\\ `nrefernobi > na`]jemjom an `ecaji > `e`ptai`o `mMari`a.\nAlla ten;\\o > `e]en\\ht `mPennou; > `eaf;nhi `noucaji > nem oucovi`a `nouranon.\n",
-"english": " My weak and sinful tongue cannot utter the honor of St. Mary.,\nYet, I beg the compassion of our God to grant me utterance and heavenly wisdom.,\n",
-"englishcoptic": " Palas ghar etgo jep, owoh en ref ernovi, na esh gemgom an e saji, e eptaio Maria.\nAlla tenti ho, e shen heet em pennouty, e afti nien o saji, nem o sophia en o-ranon.\n",
-},
-{
-"arabic": " لكى ابتدىء بجسارة وأقول جُزءًا يَسيرًا من مدائحها متيقناً منها أن تساعدنى فى القول. لكى أمدحها هكذا قائلاً \" إفرحى يا مريم فخر جنسنا وشفيعة المؤمنين. إفرحى يا من نشلت أبانا آدم من هفوة الخطية. إفرحى يامن تعلو على الملائكة من اجل طهارتها. افرحى يا من صارت مسكنًا لربِ القوات. إفرحى يا كوكب أشرق ضياها على كواكب السماء . إفرحى يا من صار من قِبَلِها كل الأفراح الإلهية . إفرحى يا عروس لاعريس لها. إفرحى يا من ولدت الذى ترتعد منه صفوف الملائكة. إفرحى يا من صارت محلاً لحكمة الحكماء وأنارت عقول المؤمنين . إفرحى يا من قبلت إليها البشارة الطاهرة الملائكة بحلول إبن الله فى أحشاها. الكلمة الأزلى الذى تجسد وَوُلِدَ من أجل خلاصنا . إفرحى يا من شفاعتها مقبولة عند الرب فى جنس البشر. افرحى أيتها الارض حاملة  الطيب معدن الرأفة . افرحى ايتها المائدة حاملة سرور الغفران. إفرحى يا من صار إلينا من قِبَلِها الوصول الى الملكوت\".  نسألك أذكرينا عند إبنك الحبيب ليغفر لنا خطايانا آمين الليلويا   كيرياليصون .,\n",
-"english": " So that I may begin, with daring, to say but a little of her praises, certain that she will help me verbalize her praises, saying, \"Rejoice, O Virgin, the pride of our race and the intercessor for the faithful. Rejoice, O you who snatched up our father Adam from the forgetfulness of sin. Rejoice, O you who saved Eve from the pangs of death. Rejoice, O you who is exalted above the angels because of your purity. Rejoice, O you who became a dwelling for the Lord of Hosts. Rejoice, O star whose light reflected onto the stars of heaven. Rejoice, O you through whom became all the divine joy. Rejoice, O bride without a groom. Rejoice, O you who bore Him before Whom tremble the ranks of angels. Rejoice, O you who became a dwelling for the wisdom of the wise and who illuminated the minds of the faithful. Rejoice, O you who accepted the pure angelic Annunciation of the incarnation of the Son of God in her womb, the eternal Word, who took flesh and was born for our salvation. Rejoice, O whose intercession is accepted before the Lord for the human race. Rejoice, O scent bearing earth, the iron-solid mercy. Rejoice, O table bearing the joy of forgiveness. Rejoice, O you through whom we have access to the kingdom. We ask you to remember us before your beloved Son that He may forgive us our sins. Amen.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "طرح يقال بعد أفموتى",
+  "EnglishTitle": "Exposition on the 9th part of the Sunday Theotokia",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لسانى البائس والخاطئ لا يستطيع أن ينطق بكرامة مريم.",
+      "Coptic": "Palac gar etjwjeb > ouo\\ `nrefernobi > na`]jemjom an `ecaji > `e`ptai`o `mMari`a.",
+      "English": "My weak and sinful tongue cannot utter the honor of St. Mary.",
+      "Arabiccoptic": "بالاس غار اتجوجيب, اووه انريف ايرنوفى, نا اش جيم جوم ان ا ساجى, ا ابطايو ماريا.",
+      "Englishcoptic": "Palas ghar etgo jep, owoh en ref ernovi, na esh gemgom an e saji, e eptaio Maria."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكننى أسأل تحنن إلهنا أن يمنحنى منطقاً وحكمة سمائية.",
+      "Coptic": "Alla ten;\\o > `e]en\\ht `mPennou; > `eaf;nhi `noucaji > nem oucovi`a `nouranon.",
+      "English": "Yet, I beg the compassion of our God to grant me utterance and heavenly wisdom.",
+      "Arabiccoptic": "اللا تين تى هو, ا شينهيت ام بين نوتى, ا افتى نى ان او ساجى, نيم او صوفيا ان اورانون.",
+      "Englishcoptic": "Alla tenti ho, e shen heet em pennouty, e afti nien o saji, nem o sophia en o-ranon."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكى ابتدىء بجسارة وأقول جُزءًا يَسيرًا من مدائحها متيقناً منها أن تساعدنى فى القول. لكى أمدحها هكذا قائلاً \" إفرحى يا مريم فخر جنسنا وشفيعة المؤمنين. إفرحى يا من نشلت أبانا آدم من هفوة الخطية. إفرحى يامن تعلو على الملائكة من اجل طهارتها. افرحى يا من صارت مسكنًا لربِ القوات. إفرحى يا كوكب أشرق ضياها على كواكب السماء . إفرحى يا من صار من قِبَلِها كل الأفراح الإلهية . إفرحى يا عروس لاعريس لها. إفرحى يا من ولدت الذى ترتعد منه صفوف الملائكة. إفرحى يا من صارت محلاً لحكمة الحكماء وأنارت عقول المؤمنين . إفرحى يا من قبلت إليها البشارة الطاهرة الملائكة بحلول إبن الله فى أحشاها. الكلمة الأزلى الذى تجسد وَوُلِدَ من أجل خلاصنا . إفرحى يا من شفاعتها مقبولة عند الرب فى جنس البشر. افرحى أيتها الارض حاملة  الطيب معدن الرأفة . افرحى ايتها المائدة حاملة سرور الغفران. إفرحى يا من صار إلينا من قِبَلِها الوصول الى الملكوت\".  نسألك أذكرينا عند إبنك الحبيب ليغفر لنا خطايانا آمين الليلويا   كيرياليصون .",
+      "English": "So that I may begin, with daring, to say but a little of her praises, certain that she will help me verbalize her praises, saying, \"Rejoice, O Virgin, the pride of our race and the intercessor for the faithful. Rejoice, O you who snatched up our father Adam from the forgetfulness of sin. Rejoice, O you who saved Eve from the pangs of death. Rejoice, O you who is exalted above the angels because of your purity. Rejoice, O you who became a dwelling for the Lord of Hosts. Rejoice, O star whose light reflected onto the stars of heaven. Rejoice, O you through whom became all the divine joy. Rejoice, O bride without a groom. Rejoice, O you who bore Him before Whom tremble the ranks of angels. Rejoice, O you who became a dwelling for the wisdom of the wise and who illuminated the minds of the faithful. Rejoice, O you who accepted the pure angelic Annunciation of the incarnation of the Son of God in her womb, the eternal Word, who took flesh and was born for our salvation. Rejoice, O whose intercession is accepted before the Lord for the human race. Rejoice, O scent bearing earth, the iron-solid mercy. Rejoice, O table bearing the joy of forgiveness. Rejoice, O you through whom we have access to the kingdom. We ask you to remember us before your beloved Son that He may forgive us our sins. Amen."
+    }
+  ]
 }
