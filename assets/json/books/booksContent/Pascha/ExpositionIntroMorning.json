@@ -1,7 +1,181 @@
 {
-    "arabic": " (P),\nبإسم الثالوث.,\n(C),\nالمساوى.,\n(P),\nالآب والإبن.,\n(C),\nوالروح القدس.,\n(P),\nأيها النور الحقيقي,\n(C),\nالذى يضئ.,\n(P),\nلكل إنسان.,\n(C),\nالآتى إلى العالم.,\n",
-    "arabiccoptic": " (P)\nخين إفران إنتى إترياس.\n(C)\nإن أومو أوسيوس.\n(P)\nإفيوت نيم إبشيرى.\n(C)\nنيم بى إبنفما إثؤواب.\n(P)\nبى أوأوينى إنطا إفمى.\n(C)\nفى إت إير أوأوينى.\n(P)\nإرومى نيفين.\n(C)\nإثنيو إ بى كوزموس.\n",
-    "coptic": " (P)\n+en `vran `n;`triac>\n(C)\n`noumooucioc>\n(P)\n~Viwt nem ~P]hri>\n(C)\nNem Pipneuma `eqouab.\n(P)\nPiouwini `nta`vmhi>\n(C)\nVheterouwini>\n(P)\nErwmi niben>\n(C)\nEqnhou `epikocmoc.\n",
-    "english": " (P),\nIn the name of the Trinity,,\n(C),\nOne in essence,,\n(P),\nThe Father and the Son,,\n(C),\nAnd the Holy Spirit,\n(P),\nO true light,,\n(C),\nWho enlightens,,\n(P),\nEvery man,,\n(C),\nWho comes into the world.,\n",
-    "englishcoptic": " (P)\nKhen efran entetrias\n(C)\nEn-Omosios\n(P)\nEfiot nem Epshery\n(C)\nNem pi-epnevma ethowab\n(P)\nPi-o-oini enta efmi\n(C)\nVi-et-er o-oini\n(P)\nEromi niven\n(C)\nEthneo epi kosmos\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بإسم الثالوث.",
+      "Coptic": "+en `vran `n;`triac>",
+      "English": "In the name of the Trinity",
+      "Arabiccoptic": "خين إفران إنتى إترياس.",
+      "Englishcoptic": "Khen efran entetrias"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المساوى.",
+      "Coptic": "`noumooucioc>",
+      "English": "One in essence",
+      "Arabiccoptic": "إن أومو أوسيوس.",
+      "Englishcoptic": "En-Omosios"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآب والإبن.",
+      "Coptic": "~Viwt nem ~P]hri>",
+      "English": "The Father and the Son",
+      "Arabiccoptic": "إفيوت نيم إبشيرى.",
+      "Englishcoptic": "Efiot nem Epshery"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والروح القدس.",
+      "Coptic": "Nem Pipneuma `eqouab.",
+      "English": "And the Holy Spirit",
+      "Arabiccoptic": "نيم بى إبنفما إثؤواب.",
+      "Englishcoptic": "Nem pi-epnevma ethowab"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها النور الحقيقي",
+      "Coptic": "Piouwini `nta`vmhi>",
+      "English": "O true light",
+      "Arabiccoptic": "بى أوأوينى إنطا إفمى.",
+      "Englishcoptic": "Pi-o-oini enta efmi"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذى يضئ.",
+      "Coptic": "Vheterouwini>",
+      "English": "Who enlightens",
+      "Arabiccoptic": "فى إت إير أوأوينى.",
+      "Englishcoptic": "Vi-et-er o-oini"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكل إنسان.",
+      "Coptic": "Erwmi niben>",
+      "English": "Every man",
+      "Arabiccoptic": "إرومى نيفين.",
+      "Englishcoptic": "Eromi niven"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآتى إلى العالم.",
+      "Coptic": "Eqnhou `epikocmoc.",
+      "English": "Who comes into the world.",
+      "Arabiccoptic": "إثنيو إ بى كوزموس.",
+      "Englishcoptic": "Ethneo epi kosmos"
+    }
+  ]
 }

@@ -1,16 +1,39 @@
-import { StyleSheet } from "react-native";
-import { View, Button, TextInput, Text, Image, Pressable } from "react-native";
-import { getCopticDateString } from "../../helpers/copticMonthsHelper";
-import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
-import moment from "moment";
-import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
-import "moment/locale/en-gb"; // import the locale for UK English
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  Animated,
+  StyleSheet,
+} from "react-native";
 
 function ExpanderView({ item }) {
+  console.log(item);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [animation, setAnimation] = useState(new Animated.Value(0));
+
+  const toggleExpansion = () => {
+    setIsExpanded(!isExpanded);
+    Animated.timing(animation, {
+      toValue: isExpanded ? 0 : 1,
+      duration: 300,
+      useNativeDriver: false,
+    }).start();
+  };
+
+  const heightInterpolate = animation.interpolate({
+    inputRange: [0, 1],
+    outputRange: [0, children.length * 20], // adjust this value to fit your content
+  });
+
   return (
-    <View style={styles.bookView}>
-      <Text> {item.coptic}</Text>
+    <View>
+      <TouchableOpacity onPress={toggleExpansion}>
+        <Text>{title}</Text>
+      </TouchableOpacity>
+      <Animated.View style={{ height: heightInterpolate }}>
+        {isExpanded && children}
+      </Animated.View>
     </View>
   );
 }

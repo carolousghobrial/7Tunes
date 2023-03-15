@@ -1,7 +1,49 @@
 {
-  "arabic": " فصل من إنجيل معلمنا (..) البشير، بركاته علينا. آمين.,\n(C),\nوالمجد لله دائماً,\n(R)\n",
-  "arabiccoptic": " أو أناغنوسيس إيفول خين بى إف أنجيليون إثؤواب. كاطا (..) أجيو.\n(C)\nذوكساسي كيريي\n(R)\n",
-  "coptic": " Ou`anagnwcic `ebol +en pieuaggelion `eqouab kata (..) agiou.\n(C)\nDo[a ci Kuri`e.\n(R)\n",
-  "english": " A reading according to Saint (..) the evangelist, May his blessings be with us. Amen.,\n(C),\nGlory be to God forever,\n(R)\n",
-  "englishcoptic": " O-anaghnosis evol khen pi-evangelion ethowab kata (..) agio\n(C)\nZoxa si Kerie\n(R)\n"
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فصل من إنجيل معلمنا (..) البشير، بركاته علينا. آمين.",
+      "Coptic": "Ou`anagnwcic `ebol +en pieuaggelion `eqouab kata (..) agiou.",
+      "English": "A reading according to Saint (..) the evangelist, May his blessings be with us. Amen.",
+      "Arabiccoptic": "أو أناغنوسيس إيفول خين بى إف أنجيليون إثؤواب. كاطا (..) أجيو.",
+      "Englishcoptic": "O-anaghnosis evol khen pi-evangelion ethowab kata (..) agio"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والمجد لله دائماً",
+      "Coptic": "Do[a ci Kuri`e.",
+      "English": "Glory be to God forever",
+      "Arabiccoptic": "ذوكساسي كيريي",
+      "Englishcoptic": "Zoxa si Kerie"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "القارئ:",
+      "Englishcoptic": "Reader:"
+    }
+  ]
 }

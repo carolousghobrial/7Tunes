@@ -1,23 +1,843 @@
 {
-    "hymn": "",
-    "exposition": [
-        {
-            "arabic": " (P)\nنحني ركبنا.\n(C)\nإرحمنا يا الله الآب ضابط الكل.\n(P)\nنقف ثم نحني ركبنا.\n(C)\nإرحمنا يا الله مخلصنا.\n(P)\nثم نقف ونحني ركبنا.\n(C)\nإرحمنا يا الله ثم إرحمنا.\n",
-            "arabiccoptic": " (P)\nإكلينومين طاغوناتا\n(C)\nناي نان افنوتي افيوت بي بانطوكراطور\n(P)\nاناسطومين إكلينومين طاغوناتا.\n(C)\nناي نان افنوتي بينسوتير\n(P)\nكي اناسطومين إكلينومين طاغوناتا\n(C)\nناي نان افنوتي اووه ناي نان\n",
-            "coptic": " (P)\n`Klinomen ta gonata.\n(C)\nNai nan `Vnou; `Viwt Pipantokratwr.\n(P)\n`Anactwmen `klinomen ta gonata.\n(C)\nNai nan `Vnou; Pencwthr.\n(P)\nKe `anactwmen `klinomen ta gonata.\n(C)\nNai nan `Vnou; ouo\\ nai nan.\n",
-            "english": " (P)\nLet us bow our knees.\n(C)\nHave mercy upon us, O God, the Father, the Pantocrator.\n(P)\nLet us stand. Let us bow our knees.\n(C)\nHave mercy upon us, O God, our Savior.\n(P)\nAgain, Let us stand. Let us bow our knees.\n(C)\nHave mercy upon us, O God, and have mercy upon us.\n",
-            "englishcoptic": " (P)\nEklinomen ta ghonata.\n(C)\nNai nan Evnoti Eviot Pipantokrator.\n(P)\nAnastomen Eklinomen ta ghonata.\n(C)\nNai nan Evnoti Pensotir.\n(P)\nKe anastomen Eklinomen ta ghonata.\n(C)\nNai nan Evnoti owoh nai nan.\n"
-        },
-        {
-            "arabic": " (P),\nأطلبوا لكى يرحمنا الله ويتراءف علينا ويسمعنا ويعيننا, ويقبل سؤالات وطلبات قديسيه منهم  بالصلاح عنا فى كل حين ويغفر لنا خطايانا.,\n(C),\nيا رب إرحم,\n(P),\nأطلبوا عن سلام الكنيسة الواحدة الوحيدة المقدسة الجامعة الرسولية, وخلاص الله فى الشعوب والطمأنينة بكل موضع ويغفر لنا خطايانا.,\n(C),\nيا رب إرحم,\n(P),\nأطلبوا عن أبائنا وإخوتنا المرضى بكل الأمراض فى هذا الموضع وفى كل مكان, لكى ينعم الرب إلهنا عليهم بالعافية والشفاء ويغفر لنا خطايانا.,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن أبائنا وإخوتنا المسافرين والذين أضمروا السفر فى كل مكان, ليسهل الرب طرقهم أجمعين إن كانوا فى البحار أو الأنهار أو الينابيع أو الطرق المسلوكة والذين جعلوا سفرهم بكل وسيلة, لكى يرشدهم الرب إلهنا ويردهم إلى مساكنهم بسلام ويغفر لنا...,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن أهوية السماء وثمرات الأرض والأشجار والكروم وكل شجرة مثمرة فى المسكونة كلها, لكى يباركها المسيح إلهنا ويكملها بسلام ويغفر لنا...,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا لكى يعطينا الله رحمة ورأفة أمام الرؤساء الأقوياء ويعطف قلوب المتولين علينا بالصلاح فى كل حين ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن أبائنا وإخوتنا الذين رقدوا وتنيحوا فى الإيمان بالمسيح منذ البدء, أبائنا البطاركة وأبائنا الأساقفة وأبائنا القمامصة وآبائنا القسوس وإخوتنا الشمامسة وآبائنا الرهبان وإخوتنا العلمانيين, وعن كل الذين رقدوا من المسيحيين لكى ينيح الرب إلهنا نفوسهم أجمعين, ويغفر لنا...,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن المهتمين بالصعائد والقرابين والخمر والزيت والبخور والستور وكتب القراءة وكل أوانى المذبح, لكى يعوضهم الرب إلهنا عن أتعابهم فى أورشليم السمائية ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن موعوظى شعبنا لكى يباركهم الرب إلهنا ويفتح عيون قلوبهم ويثبتهم فى الإيمان الأرثوذوكسى إلى النفس الأخير ويغفر لنا...,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن هذا المسكن وكل مساكن وديارات الشعوب الأرثوذوكسيين, والشيوخ السكان فيها. وعن طمأنينة كل العالم معاً , لكى يحفظهم الرب إلهنا وإياهم من كل سوء. ويغفر لنا...,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن حياة وقيام أبينا المكرم رئيس الأساقفة الأب البطريرك الأنبا (...) وشريكيه فى الخدمة الرسولية البطريرك الأنطاكى (...) والبطريرك الإرتيرى (...), لكى يحفظ الرب لنا حياتهم ويثبتهم على كراسيهم سنين عديدة وأزمنة هادئة سلمية مديدة ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن أبائنا المطارنة والأساقفة الأرثوذوكسيين فى كل مكان والقمامصة والقسوس وكل طغمات الكنيسة لكى يحفظهم المسيح إلهنا ويقويهم ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن إجتماعنا هذا وكل إجتماع الشعوب الأرثوذوكسية لكى يباركها الرب إلهنا ويكملها بسلام ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن مدبرى الكنيسة المقدسة وكل رتب الكهنوت لكى يباركها الرب إلهنا ويقويهم ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن كل نفس لها تعب فى الكنيسة المقدسة ومع الشعب الأرثوذوكسى لكى يصنع الرب إلهنا معهم رحمة ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن الرؤساء محبى المسيح الذين أوصونا أن نذكرهم بأسمائهم لكى يباركهم الرب إلهنا ويذكرهم بالرحمة ويعطيهم النعمة أمام الرؤساء الأقوياء ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن المساكين والفلاحين والضعفاء وكل نفس متضايقة بأى نوع لكى يتراءف الرب إلهنا عليهم وعلينا ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن المتضايقين الذين فى السجون والمطابق والذين فى النفى و السبى والمربوطين من جهة رباطات الشياطين لكى يعتقهم الرب إلهنا من متاعبهم ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن كل النفوس المجتمعة معنا اليوم فى هذا الموضع يطلبون الرحمة لنفوسهم لكى تدركنا مراحم الرب إلهنا وإياهم , ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن الذين أوصونا أن نذكرهم كل واحد بإسمه لكى يذكرهم الرب إلهنا بالصلاح فى كل حين , ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن صعود مياة الأنهار فى هذه السنة لكى يباركها المسيح إلهنا ويصعدها كمقدارها, ويفرح وجه الأرض بالنيل ويعولنا نحن البشر, ويعطى النجاة للإنسان والحيوان, ويرفع عن العالم الموت والغلاء والوباء والفناء وسيف الأعداء, ويجعل الهدوء والسلام والطمأنينة فى الكنيسة المقدسة ويرفع شأن المسيحيين فى كل مكان وفى كل المسكونة إلى النفس الأخير ويغفر لنا....,\n(C),\nيا رب إرحم,\n(P),\nصلوا وأطلبوا عن هذه البصخة المقدسة التى لمخلصنا الصالح لكى يكملها لنا بسلام ويرينا بهجة قيامته المقدسة ونحن جميعاً سالمين ويغفر لنا...,\n(C),\nيا رب إرحم,\n",
-            "english": " (P),\nLet us pray that God may have mercy and compassion on us, hear us, help us, and accept the supplications and prayers of His saints for that which is good on our behalf at all times, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray for the peace of the one, holy, catholic, and apostolic church, and for God's salvation and comfort to abide in all places, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray for our fathers and brethren who are sick with any sickness, whether in this place or in any place, that the Lord our God may grant us, with them health and healing, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for our fathers and brethren in all places who are traveling or planning to travel, that God may ease their ways, whether by seas, rivers, lakes, roads, (air) or other means, and may the Lord our God guide them, return them in safety, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for the air of heaven, the fruits of the earth, the trees and vineyards, and all fruit bearing trees everywhere, that Christ our God may bless them, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask that God may grant us mercy before leading authorities, incline their hearts with goodwill towards us always, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for our fathers and brethren who have fallen asleep and reposed in the faith of Christ since the beginning our holy fathers the patriarchs, metropolitans, bishops, hegumens, priests, our brethren the deacons, our fathers the monks and our brethren the laymen, and for the rest of all departed Christians, that the Lord our God may repose all their souls, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for those who care for the sacrifices, offerings, wine, oil, incense, coverings, reading books, and all the altar vessels, that the Lord our God may reward their labors in the heavenly Jerusalem, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for the catechumens of our people that our Lord may bless them, open the eyes of their hearts, and confirm them in the Orthodox faith until their last breath, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for this church and for all churches of the Orthodox people, for the desert monasteries and their elders, and for the peace of the whole world, that the Lord our God may protect both us and them from all evil, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for the life and standing of our honorable father, the Patriarch and Archbishop Pope Abba (.), and his partner in the apostolic liturgy, our father the bishop (metropolitan), Abba (...) that the Lord may preserve his life, and confirm him in his see for many years and peaceful times, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for our Orthodox fathers everywhere, the metropolitans, bishops, hegumens, priests, deacons, and all the orders of the Church, that Christ our God may preserve and strengthen them, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for this assembly of ours and for all assemblies of the Orthodox people, that the Lord our God may bless them and fulfill them in peace and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for the hierarchs of the holy Church, and for all the orders of the clergy, that the Lord our God may bless and strengthen them, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for those who toil in the holy Church and for the Orthodox people, that the Lord our God may have mercy on them, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for all Christ-loving rulers who asked us to pray for them by name, that the Lord our God may remember them in His mercy and grant them favor before powerful rulers, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for the poor, the weak, the farmers, and for every soul in any type of hardship, that the Lord our God may have compassion on them and on us, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for these in the distress of jails, prisons, captivity, or exile, and for those bound by devils, that the Lord our God may free them from their hardships, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for all those gathered with us today in this place, seeking mercy for their souls, that the Lord's mercy may encompass both us and them, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for each person by name who asked us to remember them in our prayers, that the Lord our God may always remember them in His goodness, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for the rising of the waters of the rivers this year, that Christ our God may bless them and raise them according to their measure, give joy to all the earth with the Nile, sustain us and deliver man and animal, and spare the world from death, scarcity, plagues, devastation, the sword of the enemies, and that lie may grant calm, peace, and security to the holy Church, and raise the state of Christians in every place on earth until the last breath, and forgive us our sins.,\n(C),\nLord have mercy,\n(P),\nLet us pray and ask for this holy Pascha of our good Savior, that He may complete it for us in peace and bring us the joy of His holy Resurrection in safety, and forgive us our sins.,\n(C),\nLord have mercy,\n"
-        },
-        {
-            "arabic": "",
-            "arabiccoptic": "",
-            "coptic": "",
-            "english": "",
-            "englishcoptic": ""
-        },
-    ]
+  "RefrainAfter": 0,
+  "ArabicTitle": "طلبة الصباح",
+  "EnglishTitle": "Morning Litanies ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": ":بي أويب:",
+      "Englishcoptic": "Pi-oweeb;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نحني ركبنا.",
+      "Coptic": "`Klinomen ta gonata.",
+      "English": "Let us bow our knees.",
+      "Arabiccoptic": "إكلينومين طاغوناتا",
+      "Englishcoptic": "Eklinomen ta ghonata."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": ":بيلاؤس",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إرحمنا يا الله الآب ضابط الكل.",
+      "Coptic": "Nai nan `Vnou; `Viwt Pipantokratwr.",
+      "English": "Have mercy upon us, O God, the Father, the Pantocrator.",
+      "Arabiccoptic": "ناي نان افنوتي افيوت بي بانطوكراطور",
+      "Englishcoptic": "Nai nan Evnoti Eviot Pipantokrator."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": ":بي أويب:",
+      "Englishcoptic": "Pi-oweeb;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نقف ثم نحني ركبنا.",
+      "Coptic": "`Anactwmen `klinomen ta gonata.",
+      "English": "Let us stand. Let us bow our knees.",
+      "Arabiccoptic": "اناسطومين إكلينومين طاغوناتا.",
+      "Englishcoptic": "Anastomen Eklinomen ta ghonata."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": ":بيلاؤس",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إرحمنا يا الله مخلصنا.",
+      "Coptic": "Nai nan `Vnou; Pencwthr.",
+      "English": "Have mercy upon us, O God, our Savior.",
+      "Arabiccoptic": "ناي نان افنوتي بينسوتير",
+      "Englishcoptic": "Nai nan Evnoti Pensotir."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": ":بي أويب:",
+      "Englishcoptic": "Pi-oweeb;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم نقف ونحني ركبنا.",
+      "Coptic": "Ke `anactwmen `klinomen ta gonata.",
+      "English": "Again, Let us stand. Let us bow our knees.",
+      "Arabiccoptic": "كي اناسطومين إكلينومين طاغوناتا",
+      "Englishcoptic": "Ke anastomen Eklinomen ta ghonata."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": ":بيلاؤس",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إرحمنا يا الله ثم إرحمنا.",
+      "Coptic": "Nai nan `Vnou; ouo\\ nai nan.",
+      "English": "Have mercy upon us, O God, and have mercy upon us.",
+      "Arabiccoptic": "ناي نان افنوتي اووه ناي نان",
+      "Englishcoptic": "Nai nan Evnoti owoh nai nan."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أطلبوا لكى يرحمنا الله ويتراءف علينا ويسمعنا ويعيننا, ويقبل سؤالات وطلبات قديسيه منهم  بالصلاح عنا فى كل حين ويغفر لنا خطايانا.",
+      "English": "Let us pray that God may have mercy and compassion on us, hear us, help us, and accept the supplications and prayers of His saints for that which is good on our behalf at all times, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أطلبوا عن سلام الكنيسة الواحدة الوحيدة المقدسة الجامعة الرسولية, وخلاص الله فى الشعوب والطمأنينة بكل موضع ويغفر لنا خطايانا.",
+      "English": "Let us pray for the peace of the one, holy, catholic, and apostolic church, and for God's salvation and comfort to abide in all places, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أطلبوا عن أبائنا وإخوتنا المرضى بكل الأمراض فى هذا الموضع وفى كل مكان, لكى ينعم الرب إلهنا عليهم بالعافية والشفاء ويغفر لنا خطايانا.",
+      "English": "Let us pray for our fathers and brethren who are sick with any sickness, whether in this place or in any place, that the Lord our God may grant us, with them health and healing, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن أبائنا وإخوتنا المسافرين والذين أضمروا السفر فى كل مكان, ليسهل الرب طرقهم أجمعين إن كانوا فى البحار أو الأنهار أو الينابيع أو الطرق المسلوكة والذين جعلوا سفرهم بكل وسيلة, لكى يرشدهم الرب إلهنا ويردهم إلى مساكنهم بسلام ويغفر لنا...",
+      "English": "Let us pray and ask for our fathers and brethren in all places who are traveling or planning to travel, that God may ease their ways, whether by seas, rivers, lakes, roads, (air) or other means, and may the Lord our God guide them, return them in safety, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن أهوية السماء وثمرات الأرض والأشجار والكروم وكل شجرة مثمرة فى المسكونة كلها, لكى يباركها المسيح إلهنا ويكملها بسلام ويغفر لنا...",
+      "English": "Let us pray and ask for the air of heaven, the fruits of the earth, the trees and vineyards, and all fruit bearing trees everywhere, that Christ our God may bless them, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا لكى يعطينا الله رحمة ورأفة أمام الرؤساء الأقوياء ويعطف قلوب المتولين علينا بالصلاح فى كل حين ويغفر لنا....",
+      "English": "Let us pray and ask that God may grant us mercy before leading authorities, incline their hearts with goodwill towards us always, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن أبائنا وإخوتنا الذين رقدوا وتنيحوا فى الإيمان بالمسيح منذ البدء, أبائنا البطاركة وأبائنا الأساقفة وأبائنا القمامصة وآبائنا القسوس وإخوتنا الشمامسة وآبائنا الرهبان وإخوتنا العلمانيين, وعن كل الذين رقدوا من المسيحيين لكى ينيح الرب إلهنا نفوسهم أجمعين, ويغفر لنا...",
+      "English": "Let us pray and ask for our fathers and brethren who have fallen asleep and reposed in the faith of Christ since the beginning our holy fathers the patriarchs, metropolitans, bishops, hegumens, priests, our brethren the deacons, our fathers the monks and our brethren the laymen, and for the rest of all departed Christians, that the Lord our God may repose all their souls, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن المهتمين بالصعائد والقرابين والخمر والزيت والبخور والستور وكتب القراءة وكل أوانى المذبح, لكى يعوضهم الرب إلهنا عن أتعابهم فى أورشليم السمائية ويغفر لنا....",
+      "English": "Let us pray and ask for those who care for the sacrifices, offerings, wine, oil, incense, coverings, reading books, and all the altar vessels, that the Lord our God may reward their labors in the heavenly Jerusalem, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن موعوظى شعبنا لكى يباركهم الرب إلهنا ويفتح عيون قلوبهم ويثبتهم فى الإيمان الأرثوذوكسى إلى النفس الأخير ويغفر لنا...",
+      "English": "Let us pray and ask for the catechumens of our people that our Lord may bless them, open the eyes of their hearts, and confirm them in the Orthodox faith until their last breath, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن هذا المسكن وكل مساكن وديارات الشعوب الأرثوذوكسيين, والشيوخ السكان فيها. وعن طمأنينة كل العالم معاً , لكى يحفظهم الرب إلهنا وإياهم من كل سوء. ويغفر لنا...",
+      "English": "Let us pray and ask for this church and for all churches of the Orthodox people, for the desert monasteries and their elders, and for the peace of the whole world, that the Lord our God may protect both us and them from all evil, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن حياة وقيام أبينا المكرم رئيس الأساقفة الأب البطريرك الأنبا (...) وشريكيه فى الخدمة الرسولية البطريرك الأنطاكى (...) والبطريرك الإرتيرى (...), لكى يحفظ الرب لنا حياتهم ويثبتهم على كراسيهم سنين عديدة وأزمنة هادئة سلمية مديدة ويغفر لنا....",
+      "English": "Let us pray and ask for the life and standing of our honorable father, the Patriarch and Archbishop Pope Abba (.), and his partner in the apostolic liturgy, our father the bishop (metropolitan), Abba (...) that the Lord may preserve his life, and confirm him in his see for many years and peaceful times, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن أبائنا المطارنة والأساقفة الأرثوذوكسيين فى كل مكان والقمامصة والقسوس وكل طغمات الكنيسة لكى يحفظهم المسيح إلهنا ويقويهم ويغفر لنا....",
+      "English": "Let us pray and ask for our Orthodox fathers everywhere, the metropolitans, bishops, hegumens, priests, deacons, and all the orders of the Church, that Christ our God may preserve and strengthen them, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن إجتماعنا هذا وكل إجتماع الشعوب الأرثوذوكسية لكى يباركها الرب إلهنا ويكملها بسلام ويغفر لنا....",
+      "English": "Let us pray and ask for this assembly of ours and for all assemblies of the Orthodox people, that the Lord our God may bless them and fulfill them in peace and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن مدبرى الكنيسة المقدسة وكل رتب الكهنوت لكى يباركها الرب إلهنا ويقويهم ويغفر لنا....",
+      "English": "Let us pray and ask for the hierarchs of the holy Church, and for all the orders of the clergy, that the Lord our God may bless and strengthen them, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن كل نفس لها تعب فى الكنيسة المقدسة ومع الشعب الأرثوذوكسى لكى يصنع الرب إلهنا معهم رحمة ويغفر لنا....",
+      "English": "Let us pray and ask for those who toil in the holy Church and for the Orthodox people, that the Lord our God may have mercy on them, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن الرؤساء محبى المسيح الذين أوصونا أن نذكرهم بأسمائهم لكى يباركهم الرب إلهنا ويذكرهم بالرحمة ويعطيهم النعمة أمام الرؤساء الأقوياء ويغفر لنا....",
+      "English": "Let us pray and ask for all Christ-loving rulers who asked us to pray for them by name, that the Lord our God may remember them in His mercy and grant them favor before powerful rulers, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن المساكين والفلاحين والضعفاء وكل نفس متضايقة بأى نوع لكى يتراءف الرب إلهنا عليهم وعلينا ويغفر لنا....",
+      "English": "Let us pray and ask for the poor, the weak, the farmers, and for every soul in any type of hardship, that the Lord our God may have compassion on them and on us, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن المتضايقين الذين فى السجون والمطابق والذين فى النفى و السبى والمربوطين من جهة رباطات الشياطين لكى يعتقهم الرب إلهنا من متاعبهم ويغفر لنا....",
+      "English": "Let us pray and ask for these in the distress of jails, prisons, captivity, or exile, and for those bound by devils, that the Lord our God may free them from their hardships, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن كل النفوس المجتمعة معنا اليوم فى هذا الموضع يطلبون الرحمة لنفوسهم لكى تدركنا مراحم الرب إلهنا وإياهم , ويغفر لنا....",
+      "English": "Let us pray and ask for all those gathered with us today in this place, seeking mercy for their souls, that the Lord's mercy may encompass both us and them, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن الذين أوصونا أن نذكرهم كل واحد بإسمه لكى يذكرهم الرب إلهنا بالصلاح فى كل حين , ويغفر لنا....",
+      "English": "Let us pray and ask for each person by name who asked us to remember them in our prayers, that the Lord our God may always remember them in His goodness, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن صعود مياة الأنهار فى هذه السنة لكى يباركها المسيح إلهنا ويصعدها كمقدارها, ويفرح وجه الأرض بالنيل ويعولنا نحن البشر, ويعطى النجاة للإنسان والحيوان, ويرفع عن العالم الموت والغلاء والوباء والفناء وسيف الأعداء, ويجعل الهدوء والسلام والطمأنينة فى الكنيسة المقدسة ويرفع شأن المسيحيين فى كل مكان وفى كل المسكونة إلى النفس الأخير ويغفر لنا....",
+      "English": "Let us pray and ask for the rising of the waters of the rivers this year, that Christ our God may bless them and raise them according to their measure, give joy to all the earth with the Nile, sustain us and deliver man and animal, and spare the world from death, scarcity, plagues, devastation, the sword of the enemies, and that lie may grant calm, peace, and security to the holy Church, and raise the state of Christians in every place on earth until the last breath, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا وأطلبوا عن هذه البصخة المقدسة التى لمخلصنا الصالح لكى يكملها لنا بسلام ويرينا بهجة قيامته المقدسة ونحن جميعاً سالمين ويغفر لنا...",
+      "English": "Let us pray and ask for this holy Pascha of our good Savior, that He may complete it for us in peace and bring us the joy of His holy Resurrection in safety, and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy"
+    }
+  ]
 }

@@ -1,7 +1,51 @@
 {
-"arabic": " يارب إرحم.,\n+مراحمك يا إلهى غير محصاة وكثيرة جداً هى   رأفاتك.,\n+ بشفاعات والدة  الإله القديسة مريم   يارب أنعم لنا بمغفرة خطايانا.,\nلكى نسبحك . مع أبيك الصالح  والروح القدس لأنك  صلبت وخلصتنا إرحمنا .,\n",
-"arabiccoptic": " كيرياليسون\n+ نيك ناى أوبانوتى. هان أتتشي إيبى إموؤ. سى أوش إيماشو. إنجى نيك           ميت شينهيت.\n+ هيتين نى إبريسفيا.إنتى تى ثيؤطوكوس إثؤواب ماريا.إبشويس أرى إهموت نان إمبى كو إيفول إنتى نين  نوفى .\nإثرين هوس إيروك . نيم بيك يوت إن أغاثوس. نيم بى إبنفما إثؤواب. جى أف أشك أكسوتى إممون ناى نان.\n",
-"coptic": " Kuri`e `ele`hcon\nNeknai `w Panou; > \\anatsi`hpi `mmwou > cew] `ema]w > `nje nekmet]en\\ht.\n|iten ni`precbi`a > ``nte ;qe`otokoc e/q/u/ Mari`a > P_ `ari`\\mot nan > `mpixw `ebol ``nte nennobi .\nEqren\\wc `erok > nem Pekiwt `nagaqoc > nem    Pip/n/a/   e/q/u/ > je  afa]k  akcw; `mmon nai    nan .\n",
-"english": " Lord Have Mercy,\nYour mercies O my God, are countless, and exceedingly plenteous, are Your compassion.,\nThrough the intercessions, of the Theotokos Saint Mary, O Lord grant us, the forgiveness of our sins.,\nThat we may praise You, with Your Good Father, and the Holy Spirit, You were crucified and saved us : have mercy on us.,\n",
-"englishcoptic": " Kyrie eleyson :\nNek nay o Panoty han etsheebee emo-oo : see osh em-mashoo enje nek met shen-heet.\nHiten nee-epresveya ente ti theo-tokos : ethowab Maria : Epchois aree ehmot nan empeeko evol ente nenovee.\nEthrenhos erok nem pekyot en agathos : nem pee Epnevma ethowab je av-ashk aksoty emmon nay nan.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "ارباع الناقوس",
+  "EnglishTitle": "Verses of Cymbals ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يارب إرحم.",
+      "Coptic": "Kuri`e `ele`hcon",
+      "English": "Lord Have Mercy",
+      "Arabiccoptic": "كيرياليسون",
+      "Englishcoptic": "Kyrie eleyson :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\bمراحمك يا إلهى غير محصاة وكثيرة جداً هى   رأفاتك.",
+      "Coptic": "Neknai `w Panou; > \\anatsi`hpi `mmwou > cew] `ema]w > `nje nekmet]en\\ht.",
+      "English": "Your mercies O my God, are countless, and exceedingly plenteous, are Your compassion.",
+      "Arabiccoptic": "\b نيك ناى أوبانوتى. هان أتتشي إيبى إموؤ. سى أوش إيماشو. إنجى نيك           ميت شينهيت.",
+      "Englishcoptic": "Nek nay o Panoty han etsheebee emo-oo : see osh em-mashoo enje nek met shen-heet."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "\b بشفاعات والدة  الإله القديسة مريم   يارب أنعم لنا بمغفرة خطايانا.",
+      "Coptic": "|iten ni`precbi`a > ``nte ;qe`otokoc e/q/u/ Mari`a > P_ `ari`\\mot nan > `mpixw `ebol ``nte nennobi .",
+      "English": "Through the intercessions, of the Theotokos Saint Mary, O Lord grant us, the forgiveness of our sins.",
+      "Arabiccoptic": "\b هيتين نى إبريسفيا.إنتى تى ثيؤطوكوس إثؤواب ماريا.إبشويس أرى إهموت نان إمبى كو إيفول إنتى نين  نوفى .",
+      "Englishcoptic": "Hiten nee-epresveya ente ti theo-tokos : ethowab Maria : Epchois aree ehmot nan empeeko evol ente nenovee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكى نسبحك . مع أبيك الصالح  والروح القدس لأنك  صلبت وخلصتنا إرحمنا .",
+      "Coptic": "Eqren\\wc `erok > nem Pekiwt `nagaqoc > nem    Pip/n/a/   e/q/u/ > je  afa]k  akcw; `mmon nai    nan .",
+      "English": "That we may praise You, with Your Good Father, and the Holy Spirit, You were crucified and saved us : have mercy on us.",
+      "Arabiccoptic": "إثرين هوس إيروك . نيم بيك يوت إن أغاثوس. نيم بى إبنفما إثؤواب. جى أف أشك أكسوتى إممون ناى نان.",
+      "Englishcoptic": "Ethrenhos erok nem pekyot en agathos : nem pee Epnevma ethowab je av-ashk aksoty emmon nay nan."
+    }
+  ]
 }

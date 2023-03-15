@@ -62,6 +62,8 @@ export function getFullViewModel(data) {
             });
 
             break;
+          case "Expander":
+            break;
           default:
             //Get View
             MenuArray.push({

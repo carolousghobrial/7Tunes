@@ -1,7 +1,38 @@
 {
-    "arabic": " اسجدوا للأنجيل المقدس حسب معلمنا مار [GOSPEL_AUTHOR] البشير,\n(C),\nوالمجد لله دائماً,\n",
-    "arabiccoptic": " اأووشت إمبيف انجيلييون إثؤواب كاطا [GOSPEL_AUTHOR] اجيو\n(C)\nذوكساسي كيريي\n",
-    "coptic": " Ouw]t mpieuaggelion eqouab kata [GOSPEL_AUTHOR] `agiou\n(C)\nDo[a ci Kuri`e.\n",
-    "english": " Bow down before the Holy Gospel according to Saint [GOSPEL_AUTHOR],\n(C),\nGlory be to God forever,\n",
-    "englishcoptic": " O-osht empef-angelion ethowab kata [GOSPEL_AUTHOR] ageio\n(C)\nZoxa si Kerie\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اسجدوا للأنجيل المقدس حسب معلمنا مار [GOSPEL_AUTHOR] البشير",
+      "Coptic": "Ouw]t mpieuaggelion eqouab kata [GOSPEL_AUTHOR] `agiou",
+      "English": "Bow down before the Holy Gospel according to Saint [GOSPEL_AUTHOR]",
+      "Arabiccoptic": "اأووشت إمبيف انجيلييون إثؤواب كاطا [GOSPEL_AUTHOR] اجيو",
+      "Englishcoptic": "O-osht empef-angelion ethowab kata [GOSPEL_AUTHOR] ageio"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والمجد لله دائماً",
+      "Coptic": "Do[a ci Kuri`e.",
+      "English": "Glory be to God forever",
+      "Arabiccoptic": "ذوكساسي كيريي",
+      "Englishcoptic": "Zoxa si Kerie"
+    }
+  ]
 }

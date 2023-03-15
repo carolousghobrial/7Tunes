@@ -1,7 +1,27 @@
 {
-  "arabic": "(C)\n ومن أجل أن  نكون مستحقين لسماع الإنجيل المقدس من ربنا وإلهنا نتوسل بحكمة, مستقيمين انصتوا للإنجيل المقدس.,\n",
-  "arabiccoptic": "(C)\n كى إيبرتو كاطا إكسيو ثينى إيماس. تيس أكرو أسيؤس تو أجيو إف أنجيليو. كيريون كيطون ثيؤن إيمون. إى كاتيف سومين صوفيا أورثى أكو سومين تو أجيو إف أنجيليون.\n",
-  "coptic": "(C)\n Ke `upertou kata[iwqhne `hmac > thc akro `acewc tou `agiou euaggeliou > kurion ke ton qeon `hmwn > `i keteucwmen covi`a orqi `akoucwmentou `agiou euaggeliou.\n",
-  "english": "(C)\n We beseech our Lord and God, that we may be worthy to hear the Holy Gospel. In wisdom, let us listen to the Holy Gospel.,\n",
-  "englishcoptic": "(C)\n Ke-eperto kata exeyo thin emas : tis akro as-e-os to agio evangelio : kirion ke ton theon emon : ikatevsomen sofia orthiakosomen to agio evangelio.\n"
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ومن أجل أن  نكون مستحقين لسماع الإنجيل المقدس من ربنا وإلهنا نتوسل بحكمة, مستقيمين انصتوا للإنجيل المقدس.",
+      "Coptic": "Ke `upertou kata[iwqhne `hmac > thc akro `acewc tou `agiou euaggeliou > kurion ke ton qeon `hmwn > `i keteucwmen covi`a orqi `akoucwmentou `agiou euaggeliou.",
+      "English": "We beseech our Lord and God, that we may be worthy to hear the Holy Gospel. In wisdom, let us listen to the Holy Gospel.",
+      "Arabiccoptic": "كى إيبرتو كاطا إكسيو ثينى إيماس. تيس أكرو أسيؤس تو أجيو إف أنجيليو. كيريون كيطون ثيؤن إيمون. إى كاتيف سومين صوفيا أورثى أكو سومين تو أجيو إف أنجيليون.",
+      "Englishcoptic": "Ke-eperto kata exeyo thin emas : tis akro as-e-os to agio evangelio : kirion ke ton theon emon : ikatevsomen sofia orthi\u0002akosomen to agio evangelio."
+    }
+  ]
 }

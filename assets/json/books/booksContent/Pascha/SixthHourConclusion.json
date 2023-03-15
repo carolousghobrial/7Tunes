@@ -1,7 +1,51 @@
 {
-  "arabic": "(P),\nاللهم إرحمنا. قرر لنا رحمة. إصنع معنا رحمة. فى ملكوتك.,\n (C),\nآمين. ياربُّ ارحَم. ياربُّ ارحَم. ياربُّ ارحَم.,\n",
-  "arabiccoptic": "(P)\nإفنوتى ناى نان. ثيش أوناى إيرون. أرى أوناى نيمان. خين تيك ميت أورو.\n(C)\nآمين. كيرياليسون كيرياليسون كيرياليسون\n",
-  "coptic": " (P)\nV;  nai nan > qe] ounai `eron > `ariounai neman > =en tekmetouro. \n(C)\nAmhn. Kuri`e `ele`hcon. Kuri`e `ele`hcon. Kuri`e `ele`hcon.\n",
-  "english": " (P),\nGod have mercy upon us : settle Your mercy upon us : show us mercy : in Your Kingdom.,\n(C),\nAmen. Lord have mercy Lord have mercy Lord have mercy,\n",
-  "englishcoptic": " (P)\nEfnoty nai nan se-sho nai eron : ari onai neman : khen tek-meto-roo.\n(C)\nAmen Kirialison Kirialison Kirialison\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "لحن امين كيرياليسون",
+  "EnglishTitle": "The Hymn of Amen Keryeleison ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اللهم إرحمنا. قرر لنا رحمة. إصنع معنا رحمة. فى ملكوتك.",
+      "Coptic": "V;  nai nan > qe] ounai `eron > `ariounai neman > =en tekmetouro.",
+      "English": "God have mercy upon us : settle Your mercy upon us : show us mercy : in Your Kingdom.",
+      "Arabiccoptic": "إفنوتى ناى نان. ثيش أوناى إيرون. أرى أوناى نيمان. خين تيك ميت أورو.",
+      "Englishcoptic": "Efnoty nai nan se-sho nai eron : ari onai neman : khen tek-meto-roo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين. ياربُّ ارحَم. ياربُّ ارحَم. ياربُّ ارحَم.",
+      "Coptic": "Amhn. Kuri`e `ele`hcon. Kuri`e `ele`hcon. Kuri`e `ele`hcon.",
+      "English": "Amen. Lord have mercy Lord have mercy Lord have mercy",
+      "Arabiccoptic": "آمين. كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Amen Kirialison Kirialison Kirialison"
+    }
+  ]
 }

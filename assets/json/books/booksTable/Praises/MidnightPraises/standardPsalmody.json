@@ -35,6 +35,12 @@
         },
         {
             "type": "Main",
+            "path": "TheotokiasSundayGospel",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
             "path": "TheotokiasSundaySunday7",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"

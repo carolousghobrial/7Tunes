@@ -35,11 +35,11 @@ function BookView(props) {
   };
   let content = (
     <>
-      <View style={[styles.bookView, bookviewStyle]}>
-        <Pressable
-          android_ripple={{ color: "red" }}
-          onPress={props.onClick.bind(this, props.item)}
-        >
+      <Pressable
+        android_ripple={{ color: "red" }}
+        onPress={props.onClick.bind(this, props.item)}
+      >
+        <View style={[styles.bookView, bookviewStyle]}>
           <View style={[styles.imageContainer, imageStyle]}>
             <Image style={styles.image} source={images[props.item.ImageURL]} />
           </View>
@@ -48,19 +48,18 @@ function BookView(props) {
             <Text style={styles.text}>{props.item.EnglishTitle}</Text>
             <Text style={styles.text}>{props.item.ArabicTitle}</Text>
           </View>
-        </Pressable>
-      </View>
+        </View>
+      </Pressable>
     </>
   );
   if (width > 500) {
     content = (
       <>
-        <View>
-          <Pressable
-            style={[styles.bookViewLandscape, bookviewStyle]}
-            android_ripple={{ color: "red" }}
-            onPress={props.onClick.bind(this, props.item)}
-          >
+        <Pressable
+          android_ripple={{ color: "red" }}
+          onPress={props.onClick.bind(this, props.item)}
+        >
+          <View style={[styles.bookViewLandscape, bookviewStyle]}>
             <View style={[styles.imageContainerLandscape, imageStyle]}>
               <Image
                 style={styles.image}
@@ -72,8 +71,8 @@ function BookView(props) {
               <Text style={styles.text}>{props.item.EnglishTitle}</Text>
               <Text style={styles.text}>{props.item.ArabicTitle}</Text>
             </View>
-          </Pressable>
-        </View>
+          </View>
+        </Pressable>
       </>
     );
   }

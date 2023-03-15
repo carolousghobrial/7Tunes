@@ -1,4 +1,29 @@
 {
-    "arabic": " (P),\n()\nطرح (..) من البصخة المقدسة بركاته علينا. آمين,\n()\n(R),\n()",
-    "english": " (P),\n()\nThe Exposition of the (..) of the Holy Pascha. May its blessings be us. Amen.,\n()\n(R),\n()",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طرح (..) من البصخة المقدسة بركاته علينا. آمين",
+      "English": "The Exposition of the (..) of the Holy Pascha. May its blessings be us. Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    }
+  ]
 }

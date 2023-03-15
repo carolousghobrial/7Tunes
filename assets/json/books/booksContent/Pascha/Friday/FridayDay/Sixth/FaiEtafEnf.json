@@ -1,7 +1,29 @@
 {
-"arabic": " هذا الذى أصعد ذاته. ذبيحة مقبولة. على الصليب. عن خلاص جنسنا.,\nفإشتمه. أبوه الصالح. وقت المساء. على الجلجلة.,\n",
-"arabiccoptic": " فاى إيطاف إنف إإبشوى. إن أوثيسيا إسشيب. هيجين بى إسطافروس. خا إبؤجاى إم بين جينوس.\nأف شوليم إيروف. إنجى بيف يوت إن أغاثوس. إم إفناف إنتى هان أروهى. هيجين تى غولغوثا.\n",
-"coptic": " Vai `etafenf `e`p]wi > `nouqucia ec]hp > \\ijen pi`ctauroc > =a `poujai `mpengenoc .\nAf]wlem `erof > `nje Pefiwt `n`agaqoc > `m`vnau `nte \\anarou\\i > \\ijen :golgoqa.\n",
-"english": " This is He who presented Himself on the cross; an acceptable sacrifice for the salvation of our race.,\nHis good Father inhaled His sweet aroma in the evening on Golgotha.,\n",
-"englishcoptic": " Fai etaf-enf epshoi, en-o-the-seia es-sheb, he-jen pis-tavros, kha ep-o-gai em-pen-genos.\nAf-sholem erof, enje pef-iot en-agha-thos, emef-nav ente han-arohi, he-jen ti-ghol-ghotha.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "لحن فاي إيتاف إنف",
+  "EnglishTitle": "Fai Etaf Enf Hymn ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذا الذى أصعد ذاته. ذبيحة مقبولة. على الصليب. عن خلاص جنسنا.",
+      "Coptic": "Vai `etafenf `e`p]wi > `nouqucia ec]hp > \\ijen pi`ctauroc > =a `poujai `mpengenoc .",
+      "English": "This is He who presented Himself on the cross; an acceptable sacrifice for the salvation of our race.",
+      "Arabiccoptic": "فاى إيطاف إنف إإبشوى. إن أوثيسيا إسشيب. هيجين بى إسطافروس. خا إبؤجاى إم بين جينوس.",
+      "Englishcoptic": "Fai etaf-enf epshoi, en-o-the-seia es-sheb, he-jen pis-tavros, kha ep-o-gai em-pen-genos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "فإشتمه. أبوه الصالح. وقت المساء. على الجلجلة.",
+      "Coptic": "Af]wlem `erof > `nje Pefiwt `n`agaqoc > `m`vnau `nte \\anarou\\i > \\ijen :golgoqa.",
+      "English": "His good Father inhaled His sweet aroma in the evening on Golgotha.",
+      "Arabiccoptic": "أف شوليم إيروف. إنجى بيف يوت إن أغاثوس. إم إفناف إنتى هان أروهى. هيجين تى غولغوثا.",
+      "Englishcoptic": "Af-sholem erof, enje pef-iot en-agha-thos, emef-nav ente han-arohi, he-jen ti-ghol-ghotha."
+    }
+  ]
 }

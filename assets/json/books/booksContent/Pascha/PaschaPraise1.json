@@ -1,7 +1,49 @@
 {
-  "arabic": "(C)\n + لك القوة والمجد والبركة والعزة إلى الأبد أمين عمانوئيل إلهنا وملكنا.,\n+ لك القوة والمجد والبركة والعزة إلى الأبد أمين ياربى يسوع المسيح.,\n+ لك القوة والمجد والبركة والعزة إلى الأبد أمين.,\n",
-  "arabiccoptic": "(C)\n ثوك تى تى جوم نيم بى أوأو نيم بى إسمو نيم بى أماهى شا إينيه أمين إممانوئيل بين نوتى بين أورو.\nثوك تى تى جوم نيم بى أوأو نيم بى إسمو نيم بى أماهى شا إينيه أمين باشويس إيسوس بخريستوس.\nثوك تى تى جوم نيم بى أوأو نيم بى إسمو نيم بى أماهى شا إينيه أمين.\n",
-  "coptic": "(C)\n Qwk te ;jom nem pi`wou nem pi`cmou nem pi`ama\\i ]a `ene\\ `amhn Emmanouhl Pennou; Penouro.\nQwk te ;jom nem pi`wou nem pi`cmou nem pi`ama\\i ]a `ene\\ `amhn Pa_ Ih/c/ Px/c/\nQwk te ;jom nem pi`wou nem pi`cmou nem pi`ama\\i ]a`ene\\ `amhn.\n",
-  "english": "(C)\n Thine is the Power, the Glory , the Blessings and the Majesty, forever Amen. Emmanuel our God and King,\nThine is the Power, the Glory , the Blessings and the Majesty, forever Amen. My Lord Jesus Christ,\nThine is the Power, the Glory , the Blessings and the Majesty, forever Amen.,\n",
-  "englishcoptic": "(C)\n Thok te tigom , nem pi-o-oo nem pi-esmo nem pi-amahee sha eneh. Amen. Emmanuel Pennoty Penoro.\nThok te tigom , nem pi-o-oo nem pi-esmo nem pi-amahee sha eneh. Amen. Pachois Isos Pikhristos\nThok te tigom , nem pi-o-oo nem pi-esmo nem pi-amahee sha eneh. Amen.\n"
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b لك القوة والمجد والبركة والعزة إلى الأبد أمين عمانوئيل إلهنا وملكنا.",
+      "Coptic": "Qwk te ;jom nem pi`wou nem pi`cmou nem pi`ama\\i ]a `ene\\ `amhn Emmanouhl Pennou; Penouro.",
+      "English": "Thine is the Power, the Glory , the Blessings and the Majesty, forever Amen. Emmanuel our God and King",
+      "Arabiccoptic": "ثوك تى تى جوم نيم بى أوأو نيم بى إسمو نيم بى أماهى شا إينيه أمين إممانوئيل بين نوتى بين أورو.",
+      "Englishcoptic": "Thok te tigom , nem pi-o-oo nem pi-esmo nem pi-amahee sha eneh. Amen. Emmanuel Pennoty Penoro."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b لك القوة والمجد والبركة والعزة إلى الأبد أمين ياربى يسوع المسيح.",
+      "Coptic": "Qwk te ;jom nem pi`wou nem pi`cmou nem pi`ama\\i ]a `ene\\ `amhn Pa_ Ih/c/ Px/c/",
+      "English": "Thine is the Power, the Glory , the Blessings and the Majesty, forever Amen. My Lord Jesus Christ",
+      "Arabiccoptic": "ثوك تى تى جوم نيم بى أوأو نيم بى إسمو نيم بى أماهى شا إينيه أمين باشويس إيسوس بخريستوس.",
+      "Englishcoptic": "Thok te tigom , nem pi-o-oo nem pi-esmo nem pi-amahee sha eneh. Amen. Pachois Isos Pikhristos"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\b لك القوة والمجد والبركة والعزة إلى الأبد أمين.",
+      "Coptic": "Qwk te ;jom nem pi`wou nem pi`cmou nem pi`ama\\i ]a`ene\\ `amhn.",
+      "English": "Thine is the Power, the Glory , the Blessings and the Majesty, forever Amen.",
+      "Arabiccoptic": "ثوك تى تى جوم نيم بى أوأو نيم بى إسمو نيم بى أماهى شا إينيه أمين.",
+      "Englishcoptic": "Thok te tigom , nem pi-o-oo nem pi-esmo nem pi-amahee sha eneh. Amen."
+    }
+  ]
 }

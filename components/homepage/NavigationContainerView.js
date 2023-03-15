@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import {
   ImageBackground,
   StyleSheet,
+  Button,
   SafeAreaView,
   useWindowDimensions,
 } from "react-native";
@@ -35,7 +36,7 @@ import {
 import moment from "moment";
 import Test from "../settings/test.js";
 import { setSeason } from "../../stores/redux/settings.js";
-
+import ContentsModal from "../BottomBar/ContentsModal.js";
 import { FontAwesome5 } from "@expo/vector-icons";
 const Stack = createNativeStackNavigator();
 
@@ -180,6 +181,7 @@ function NavigationContainerView() {
           }}
         />
         <Stack.Screen name="BookScreen" component={BookScreen} />
+        <Stack.Screen name="ContentsScreen" component={ContentsModal} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -7,6 +7,8 @@ const bookPaths = {
   AgpeyaPrayersPraiseAngels: require("../assets/json/books/booksContent/AgpeyaPrayers/PraiseAngels.json"),
   AgpeyaPrayersGraciouslyOLord: require("../assets/json/books/booksContent/AgpeyaPrayers/GraciouslyOLord.json"),
   AgpeyaPrayersOurFather: require("../assets/json/books/booksContent/AgpeyaPrayers/OurFather.json"),
+  AgpeyaPrayersPsalm50: require("../assets/json/books/booksContent/Pascha/Sunday/GeneralFuneral/Psalm50.json"),
+
   //Doxologies
   DoxologiesArchangelGabriel: require("../assets/json/books/booksContent/Doxologies/ArchangelGabriel.json"),
   DoxologiesArchangelMichael: require("../assets/json/books/booksContent/Doxologies/ArchangelMichael.json"),
@@ -297,7 +299,7 @@ const bookPaths = {
   TheotokiasSundayAdamIntro: require("../assets/json/books/booksContent/Theotokias/Sunday/AdamIntro.json"),
   TheotokiasSundayAikoty: require("../assets/json/books/booksContent/Theotokias/Sunday/Aikoty.json"),
   TheotokiasSundayAinahty: require("../assets/json/books/booksContent/Theotokias/Sunday/Ainahty.json"),
-  // TheotokiasSundayGospel: require("../assets/json/books/booksContent/Theotokias/Sunday/Gospel.json"),
+  TheotokiasSundayGospel: require("../assets/json/books/booksContent/Theotokias/Sunday/Gospel.json"),
   TheotokiasSundaySunday1: require("../assets/json/books/booksContent/Theotokias/Sunday/Sunday1.json"),
   TheotokiasSundaySunday10: require("../assets/json/books/booksContent/Theotokias/Sunday/Sunday10.json"),
   TheotokiasSundaySunday11: require("../assets/json/books/booksContent/Theotokias/Sunday/Sunday11.json"),
@@ -612,7 +614,6 @@ const bookPaths = {
   PaschaSundayGeneralFuneralPrePauline: require("../assets/json/books/booksContent/Pascha/Sunday/GeneralFuneral/PrePauline.json"),
   PaschaSundayGeneralFuneralProphecies1: require("../assets/json/books/booksContent/Pascha/Sunday/GeneralFuneral/Prophecies1.json"),
   PaschaSundayGeneralFuneralPsalm: require("../assets/json/books/booksContent/Pascha/Sunday/GeneralFuneral/Psalm.json"),
-  PaschaSundayGeneralFuneralPsalm50: require("../assets/json/books/booksContent/Pascha/Sunday/GeneralFuneral/Psalm50.json"),
   PaschaSundayGeneralFuneralThreeLongLitanies: require("../assets/json/books/booksContent/Pascha/Sunday/GeneralFuneral/ThreeLongLitanies.json"),
   PaschaSundayGeneralFuneralVersesOfCymbals: require("../assets/json/books/booksContent/Pascha/Sunday/GeneralFuneral/VersesOfCymbals.json"),
   //Pascha\Friday\FridayDay\Eleventh

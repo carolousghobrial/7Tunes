@@ -1,4 +1,21 @@
 {
-  "arabic": "(R)\n()\n اللهم تراءف علينا وإرحمنا وإجعلنا مستحقين لسماع إنجيلك المقدس.,\n()",
-  "english": "(R)\n()\n O God have mercy and compassion upon us and make us worthy to hear the Holy Gospel.,\n()"
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اللهم تراءف علينا وإرحمنا وإجعلنا مستحقين لسماع إنجيلك المقدس.",
+      "English": "O God have mercy and compassion upon us and make us worthy to hear the Holy Gospel."
+    }
+  ]
 }

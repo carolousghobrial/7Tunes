@@ -53,7 +53,25 @@
         },
         {
             "type": "Main",
+            "path": "KiahkMidnightPraisesExpositionsAdamExpositionFirstHoos",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "TheotokiasSundayGospel",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
             "path": "TheotokiasSundaySunday7",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
+            "path": "KiahkMidnightPraisesMelodiesSundaySeventhExplanation",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
@@ -65,7 +83,37 @@
         },
         {
             "type": "Main",
+            "path": "KiahkMidnightPraisesExpositionsExpositionShashfEnsob",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
+            "path": "KiahkMidnightPraisesMelodiesShereNeMariaMelody",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
+            "path": "KiahkMidnightPraisesMelodiesRashiOMariaMelody",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
+            "path": "KiahkMidnightPraisesMelodiesOMaryMelody",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
             "path": "TheotokiasSundaySunday9",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
+            "path": "KiahkMidnightPraisesExpositionsExpositionAfterAvmoti",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
@@ -90,6 +138,12 @@
         {
             "type": "Main",
             "path": "KiahkMidnightPraisesMelodiesSecondHoosMelody",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "KiahkMidnightPraisesExpositionsAdamExpositionSecondHoos",
             "rule": 0,
             "visible": 0
         },
@@ -143,6 +197,12 @@
         },
         {
             "type": "Main",
+            "path": "KiahkMidnightPraisesExpositionsAdamExpositionThirdHoos",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
             "path": "PraisesCommemoration",
             "rule": 0,
             "visible": 0
@@ -162,6 +222,12 @@
         {
             "type": "Main",
             "path": "KiahkMidnightPraisesMelodiesStSamuelMelody",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "KiahkMidnightPraisesExpositionsWatosExpositionCommemoration",
             "rule": 0,
             "visible": 0
         },

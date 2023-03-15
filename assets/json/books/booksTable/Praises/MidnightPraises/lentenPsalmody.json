@@ -17,6 +17,18 @@
         },
         {
             "type": "Main",
+            "path": "LentPraisesMidnightPraisesHymnsLentOde",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "LentPraisesMidnightPraisesHymnsAdamPsaliFirstHoos",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
             "path": "PraisesFirstHoos",
             "rule": 0,
             "visible": 0
@@ -26,6 +38,12 @@
             "path": "PraisesFirstHoosLobsh",
             "rule": 0,
             "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "TheotokiasSundayGospel",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
             "type": "Main",
@@ -41,9 +59,21 @@
         },
         {
             "type": "Main",
+            "path": "LentPraisesMidnightPraisesHymnsWatosPsali8thSunday",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
             "path": "TheotokiasSundaySunday9",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
+            "path": "LentPraisesMidnightPraisesHymnsAdamPsaliSecondHoos",
+            "rule": 0,
+            "visible": 0
         },
         {
             "type": "Main",
@@ -54,6 +84,12 @@
         {
             "type": "Main",
             "path": "PraisesSecondHoosLobsh",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "LentPraisesMidnightPraisesHymnsAdamPsaliThirdHoos",
             "rule": 0,
             "visible": 0
         },
