@@ -5,6 +5,14 @@
   "CopticTitle": "Ouwn\\ `ebol",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المزمور 135",
+      "English": "Psalms 135"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

@@ -434,12 +434,12 @@
       "Englishcoptic": "Epshois nohem empeklaos, esmo etek eklironomia, amoni emmo-o chaso sha eneh. Allelouia"
     },
     {
-      "type": "Ritual",
-      "rule": 0,
-      "visible": true,
-      "side": "North",
-      "arabic": "وتقال هذه القطعة الآتية بلحن الهوس المعروف ثم تفسر عربياً",
-      "english": "This part is said in its known tune then it is translated."
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وتقال هذه القطعة الآتية بلحن الهوس المعروف ثم تفسر عربياً",
+      "English": "This part is said in its known tune then it is translated."
     },
     {
       "Type": "Base",

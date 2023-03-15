@@ -13,55 +13,55 @@
       "type": "Main",
       "path": "PraisesMorningDoxologyAdamMorningDoxology",
       "rule": 0,
-      "visible": "firstVisible"
+      "visible": 0
     },
     {
       "type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyOurLord",
       "rule": 0,
-      "visible": "firstVisible"
+      "visible": 0
     },
     {
       "type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyMary",
       "rule": 0,
-      "visible": "firstVisible"
+      "visible": 0
     },
     {
       "type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyHeavenlies",
       "rule": 0,
-      "visible": "firstVisible"
+      "visible": 0
     },
     {
       "type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyApostles",
       "rule": 0,
-      "visible": "firstVisible"
+      "visible": 0
     },
     {
       "type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyMartyrs",
       "rule": 0,
-      "visible": "firstVisible"
+      "visible": 0
     },
     {
       "type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologySainsts",
       "rule": 0,
-      "visible": "firstVisible"
+      "visible": 0
     },
     {
       "type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyFathers",
       "rule": 0,
-      "visible": "firstVisible"
+      "visible": 0
     },
     {
       "type": "Main",
       "path": "TheotokiasSundayAdamConclusion",
       "rule": 0,
-      "visible": "firstVisible"
+      "visible": 0
     }
   ]
 }

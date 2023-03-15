@@ -3,7 +3,7 @@ import getData from "../../helpers/asyncStorage";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Languages from "../../constants/languages";
 import { CurrentSeason } from "../../models/currentSeason";
-// const curTheme = ;
+import moment from "moment";
 
 const settingsSlice = createSlice({
   name: "settings",
@@ -18,11 +18,14 @@ const settingsSlice = createSlice({
     copticenglish: false,
     copticarabic: false,
     currentSeason: {
-      key: null,
-      week: null,
-      dayOfWeek: null,
-      isWatos: null,
-      isFast: null,
+      key: "STANDARD",
+      week: moment().week(),
+      dayOfWeek: moment().day(),
+      isWatos: true,
+      isFast: false,
+      start: moment(),
+      end: moment(),
+      major: true,
     },
   },
   reducers: {
@@ -111,6 +114,12 @@ const settingsSlice = createSlice({
           return state;
       }
     },
+    setSeason: (state, action) => {
+      return {
+        ...state,
+        currentSeason: action.payload.currentSeason,
+      };
+    },
   },
 });
 export const changeLanguage = settingsSlice.actions.changeLanguage;
@@ -118,5 +127,6 @@ export const changeDarkMode = settingsSlice.actions.changeDarkMode;
 export const changeFontSize = settingsSlice.actions.changeFontSize;
 export const changeTodayPrayer = settingsSlice.actions.changeTodayPrayer;
 export const changeTextLanguage = settingsSlice.actions.changeTextLanguage;
+export const setSeason = settingsSlice.actions.setSeason;
 
 export default settingsSlice.reducer;

@@ -5,6 +5,14 @@
   "CopticTitle": "K`cmarwout P_ V;",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تسبحة الثلاثة فتية القديسين – تتمة دانيال",
+      "English": "The Praise of the Three Saintly Youth - Additions to Daniel "
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

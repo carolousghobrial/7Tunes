@@ -5,6 +5,14 @@
   "CopticTitle": "Cmou `eP_ `ebol",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المزمور 148,149,150",
+      "English": "Psalms 148,149,150"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

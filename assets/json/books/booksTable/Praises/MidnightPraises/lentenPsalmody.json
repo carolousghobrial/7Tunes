@@ -1,0 +1,139 @@
+{
+    "main": [
+        {
+            "Type": "Title",
+            "rule": 0,
+            "visible": 0,
+            "Side": "Title",
+            "arabic": "بدء تسبحة عشية",
+            "coptic": "Nieqnoc throu",
+            "english": "The Introduction of the Vespers Praise"
+        },
+        {
+            "type": "Main",
+            "path": "PraisesTenThino",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "PraisesFirstHoos",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "PraisesFirstHoosLobsh",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "TheotokiasSundaySunday7",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
+            "path": "TheotokiasSundaySunday8",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
+            "path": "TheotokiasSundaySunday9",
+            "rule": 0,
+            "visible": "SundayThetokiaWeekdaysPraisesRule"
+        },
+        {
+            "type": "Main",
+            "path": "PraisesSecondHoos",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "PraisesSecondHoosLobsh",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "PraisesThirdHoos",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "PraisesAripsalin",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "PraisesTenoweh",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "PraisesCommemoration",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "PraisesFourthHoos",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "AgpeyaPrayersIntroToCreed",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "AgpeyaPrayersCreed",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "PraisesPraisesConclusion",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "AgpeyaPrayersHolyHoly",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "RaisingOfIncenseRaisingofIncenseConclusion",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "RaisingOfIncenseShortBlessing",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "AgpeyaPrayersOurFather",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "RaisingOfIncenseShortBlessing2",
+            "rule": 0,
+            "visible": 0
+        }
+    ]
+}

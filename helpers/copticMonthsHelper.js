@@ -503,54 +503,65 @@ var getParamounDate = function (feastDate) {
  * @param  {Object} attributes - Attributes object defined in NavSubMenuStore
  * @returns {boolean}
  */
-// var isInFast = function (attributes) {
-//   var fastsfeasts = getCopticFastsFeasts(attributes);
-//   // ignore time and use date only
-//   var todayDate = moment([
-//     new Date().getFullYear(),
-//     attributes.monthIndex,
-//     attributes.day,
-//   ]);
+export function isInFast() {
+  var myfastfeasts = getCopticFastsFeasts();
+  // ignore time and use date only
+  var todayDate = moment([
+    new Date().getFullYear(),
+    today.month(),
+    today.date(),
+  ]);
 
-//   // if day is Saturday or Sunday and not in Great Lent return false
-//   var GreatLent = fastsfeasts[FastFeastNames.GREAT_LENT];
-//   if (
-//     (todayDate.day() == 6 || todayDate.day() == 0) &&
-//     !todayDate.isBetween(GreatLent.start, GreatLent.end, null, "[)")
-//   ) {
-//     return false;
-//   }
+  // if day is Saturday or Sunday and not in Great Lent return false
+  //array1.find(element => element > 10);
+  var GreatLent = myfastfeasts.find((element) => element.key === "GREAT_LENT");
+  if (
+    (todayDate.day() == 6 || todayDate.day() == 0) &&
+    !todayDate.isBetween(GreatLent.start, GreatLent.end, null, "[)")
+  ) {
+    return false;
+  }
 
-//   for (var x in fastsfeasts) {
-//     // beginning of date range is inclusive
-//     /*
-//     check if date falls in fast, in major feast period, or on major feast day
-//     */
-//     if (
-//       fastsfeasts[x].type == "fast" &&
-//       fastsfeasts[x].end !== null &&
-//       todayDate.isBetween(fastsfeasts[x].start, fastsfeasts[x].end, null, "[)")
-//     ) {
-//       return true;
-//     } else if (
-//       fastsfeasts[x].type == "feast" &&
-//       fastsfeasts[x].major &&
-//       fastsfeasts[x].start.isSame(todayDate)
-//     ) {
-//       return false;
-//     } else if (
-//       fastsfeasts[x].type == "feast" &&
-//       fastsfeasts[x].major &&
-//       fastsfeasts[x].end !== null &&
-//       todayDate.isBetween(fastsfeasts[x].start, fastsfeasts[x].end, null, "[)")
-//     ) {
-//       return false;
-//     }
-//   }
+  for (var x in myfastfeasts) {
+    // beginning of date range is inclusive
+    /*
+    check if date falls in fast, in major feast period, or on major feast day
+    */
+    if (
+      myfastfeasts[x].type == "fast" &&
+      myfastfeasts[x].end !== null &&
+      todayDate.isBetween(
+        myfastfeasts[x].start,
+        myfastfeasts[x].end,
+        null,
+        "[)"
+      )
+    ) {
+      return true;
+    } else if (
+      myfastfeasts[x].type == "feast" &&
+      myfastfeasts[x].major &&
+      myfastfeasts[x].start.isSame(todayDate)
+    ) {
+      return false;
+    } else if (
+      myfastfeasts[x].type == "feast" &&
+      myfastfeasts[x].major &&
+      myfastfeasts[x].end !== null &&
+      todayDate.isBetween(
+        myfastfeasts[x].start,
+        myfastfeasts[x].end,
+        null,
+        "[)"
+      )
+    ) {
+      return false;
+    }
+  }
 
-//   // finally if day is Wed or Fri return true
-//   return todayDate.day() == 3 || todayDate.day() == 5;
-// };
+  // finally if day is Wed or Fri return true
+  return todayDate.day() == 3 || todayDate.day() == 5;
+}
 
 /**
  * @param {Object} attributes - Attributes object defined in NavSubMenuStore
@@ -681,13 +692,12 @@ var getNumericDateString = function (year, monthIndex, day) {
   return strMonth + "/" + strDay + "/" + year;
 };
 
-var AdamOrWatos = function (year, monthIndex, day) {
-  var date = new Date(year, monthIndex, day);
-  if (date.getDay() < 3) {
-    return "adam";
+export function isWatos() {
+  if (moment().day() < 3) {
+    return false;
   }
-  return "watos";
-};
+  return true;
+}
 
 var CopticDateComparator = function (
   month1,
@@ -732,7 +742,6 @@ module.exports.getCopticDateString = getCopticDateString;
 module.exports.getResurrectionDate = getResurrectionDate;
 module.exports.getDateString = getDateString;
 module.exports.getNumericDateString = getNumericDateString;
-module.exports.AdamOrWatos = AdamOrWatos;
 module.exports.CopticDateComparator = CopticDateComparator;
 //module.exports.getCopticFastsFeasts = getCopticFastsFeasts;
 //module.exports.isInFast = isInFast;

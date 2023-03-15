@@ -1,44 +1,137 @@
-import { useDispatch, useSelector } from "react-redux";
-import { persistor } from "../../stores/redux/store";
-
-import React from "react";
-import { View, Button, StyleSheet } from "react-native";
+import React, { useState } from "react";
+import { FlatList, View, Text, Button } from "react-native";
 
 function Test() {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const dispatch = useDispatch();
+  const [initialIndex, setInitialIndex] = useState(0);
+  const [refresh, setRefresh] = useState(0);
+  var data = [
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+    "Pankaj",
+    "Rita",
+    "Mohan",
+    "Amit",
+    "Babulal",
+    "Sakshi",
+  ];
 
-  const handleReset = () => {
-    dispatch({ type: "RESET_STATE" });
-    persistor.purge();
+  const handleButtonClick = () => {
+    // Generate a random index between 0 and the length of the data array
+    const newIndex = Math.floor(Math.random() * data.length);
+    console.log(newIndex);
+    setInitialIndex(newIndex);
+    setRefresh(true);
   };
+
   return (
     <View>
-      <Button title="Reset" onPress={handleReset} />
+      <Button
+        title="Reload with new initialScrollIndex"
+        onPress={handleButtonClick}
+      />
+      <FlatList
+        data={data}
+        extraData={refresh}
+        keyExtractor={(item, index) => index.toString()}
+        renderItem={({ item }) => <Text style={{ fontSize: 30 }}>{item}</Text>}
+        initialScrollIndex={initialIndex}
+      />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    margin: 10,
-    flexDirection: "row",
-    flexWrap: "wrap",
-  },
-  text: {
-    fontSize: 50,
-    fontWeight: "bold",
-    fontFamily: "coptic-font",
-  },
-  floatingText: {
-    position: "absolute",
-    top: -12, // adjust the top position to make it float over the base letter
-    fontSize: 25,
-    backgroundColor: "transparent",
-    color: "red", // set the color of the floating letter
-    zIndex: 1, // set the zIndex to bring the floating letter to the top
-  },
-});
 
 export default Test;

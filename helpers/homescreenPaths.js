@@ -21,7 +21,9 @@ const homescreenPaths = {
   // brightSaturday: require("../assets/json/menuJson/pascha/saturday.json"),
   //Table Of Contents
   morningDoxology: require("../assets/json/books/booksTable/Praises/MorningDoxology/morningDoxology"),
-  standardPsalmody: require("../assets/json/books/booksTable/Praises/standardPsalmody.json"),
+  standardPsalmody: require("../assets/json/books/booksTable/Praises/MidnightPraises/standardPsalmody.json"),
+  kiahkPsalmody: require("../assets/json/books/booksTable/Praises/MidnightPraises/kiahkPsalmody.json"),
+  lentenPsalmody: require("../assets/json/books/booksTable/Praises/MidnightPraises/lentenPsalmody.json"),
 };
 
 export default homescreenPaths;

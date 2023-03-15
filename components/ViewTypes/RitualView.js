@@ -25,14 +25,14 @@ function RitualView({ item }) {
             { fontSize: fontSize * 0.7, color: RitualColor },
           ]}
         >
-          {item.english}
+          {item.English}
         </Text>
       </View>
       <View style={styles.textView}>
         <Text
           style={[styles.arabic, { fontSize: fontSize, color: RitualColor }]}
         >
-          {item.arabic}
+          {item.Arabic}
         </Text>
       </View>
     </View>

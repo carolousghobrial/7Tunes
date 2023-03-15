@@ -6,6 +6,7 @@ import {
   View,
   FlatList,
   Animated,
+  Button,
   Pressable,
   StatusBar,
 } from "react-native";
@@ -24,6 +25,7 @@ import RitualView from "../components/ViewTypes/RitualView";
 import ButtonView from "../components/ViewTypes/ButtonView";
 import ExpanderView from "../components/ViewTypes/ExpanderView";
 import CustomHeader from "../components/ViewTypes/CustomHeader";
+
 import BottomBar from "../components/BottomBar/BottomBar";
 import {
   getLanguageValue,
@@ -50,24 +52,14 @@ function BookScreen({ navigation, route }) {
   const [englishTitle, setenglishTitle] = useState(data[0].part.english);
   const [copticTitle, setcopticTitle] = useState(data[0].part.coptic);
   const [arabicTitle, setarabicTitle] = useState(data[0].part.arabic);
-  navigation.setOptions({
-    headerShown: NavbarVisibility,
-    header: () => (
-      <CustomHeader
-        navigation={navigation}
-        english={englishTitle}
-        coptic={copticTitle}
-        arabic={arabicTitle}
-      />
-    ),
-  });
-  const { width, height } = useWindowDimensions();
 
-  if (width > height) {
-    // Landscape mode
-  } else {
-    // Portrait mode
-  }
+  const { WIDTH, HEIGHT } = useWindowDimensions();
+
+  // if (width > height) {
+  //   // Landscape mode
+  // } else {
+  //   // Portrait mode
+  // }
 
   // const handleScroll = (event) => {
   //   const position = event.nativeEvent;
@@ -110,12 +102,23 @@ function BookScreen({ navigation, route }) {
   }
 
   useEffect(() => {
-    StatusBar.setHidden(NavbarVisibility);
-
+    // StatusBar.setHidden(NavbarVisibility);
+    // navigation.setOptions({
+    //   headerShown: NavbarVisibility,
+    //   header: () => (
+    //     <CustomHeader
+    //       navigation={navigation}
+    //       english={englishTitle}
+    //       coptic={copticTitle}
+    //       arabic={arabicTitle}
+    //     />
+    //   ),
+    // });
     flatListRef.current.scrollToIndex({
       index: scrollToIndex,
       animated: false,
     });
+    console.log("HERE");
   }, [scrollToIndex]);
   function hideHeader() {
     setNavbarVisibility(!NavbarVisibility);
@@ -150,6 +153,12 @@ function BookScreen({ navigation, route }) {
     }
     return <Pressable onPress={hideHeader}>{content}</Pressable>;
   }
+  const getItemLayout = (data, index) => ({
+    length: 50, // assuming each item has a height of 50
+    offset: 50 * index,
+    index,
+  });
+
   return (
     // <GestureRecognizer
     //   style={{ flex: 1 }}
@@ -165,7 +174,7 @@ function BookScreen({ navigation, route }) {
         onScrollToIndexFailed={(error) => {
           console.log(error);
           flatListRef.current.scrollToOffset({
-            offset: error.averageItemLength * error.index,
+            offset: error.averageItemLength * error.index * 6,
             animated: false,
           });
           setTimeout(() => {
@@ -177,11 +186,13 @@ function BookScreen({ navigation, route }) {
             }
           }, 10);
         }}
+        // initialNumToRender={data.length}
         renderItem={renderItems}
         keyExtractor={(item, index) => {
           return item.key;
         }}
       />
+
       {NavbarVisibility && (
         <BottomBar
           navigation={navigation}

@@ -27,24 +27,52 @@ import {
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers";
+import {
+  getCurrentSeason,
+  isInFast,
+  isWatos,
+} from "../../helpers/copticMonthsHelper";
+import moment from "moment";
+import Test from "../settings/test.js";
+import { setSeason } from "../../stores/redux/settings.js";
+
 import { FontAwesome5 } from "@expo/vector-icons";
 const Stack = createNativeStackNavigator();
 
 const Drawer = createDrawerNavigator();
 function NavigationContainerView() {
   const { height, width } = useWindowDimensions();
-  const [isLoading, setIsLoading] = useState(true);
+  const dispatch = useDispatch();
 
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const darkMode = useSelector((state) => state.settings.darkMode);
 
   let activeColors = darkMode === false ? Colors["light"] : Colors["dark"];
+  function getWeeksSinceStartDate(startDate) {
+    const now = new Date(); // Get the current date
+    const msPerWeek = 1000 * 60 * 60 * 24 * 7; // Number of milliseconds in a week
+    const diffInMs = now.getTime() - startDate.getTime(); // Difference in milliseconds between now and start date
+    const diffInWeeks = Math.ceil(diffInMs / msPerWeek); // Round down to get number of full weeks
+    return diffInWeeks;
+  }
+  function setCurrentSeason() {
+    const mySeason = getCurrentSeason()[0];
+    var mycurrentSeason = {
+      key: mySeason.key,
+      start: mySeason.start,
+      end: mySeason.start,
+      major: mySeason.major,
+      week: getWeeksSinceStartDate(new Date(mySeason.start)),
+      dayOfWeek: moment().day(),
+      isWatos: isWatos(),
+      isFast: isInFast(),
+    };
+    dispatch(setSeason({ currentSeason: mycurrentSeason }));
+  }
   useEffect(() => {
     // Simulate app loading time
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
-  }, []);
+    setCurrentSeason();
+  });
   function Root() {
     return (
       <Drawer.Navigator
@@ -99,6 +127,17 @@ function NavigationContainerView() {
           name="FullFeastsScreen"
           options={{
             title: "Full Feasts",
+
+            drawerIcon: ({ color, size }) => (
+              <FontAwesome5 name="cross" size={24} color="black" />
+            ),
+          }}
+        />
+        <Drawer.Screen
+          component={Test}
+          name="Test"
+          options={{
+            title: "Test",
 
             drawerIcon: ({ color, size }) => (
               <FontAwesome5 name="cross" size={24} color="black" />

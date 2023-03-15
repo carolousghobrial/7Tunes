@@ -15,18 +15,18 @@
             "ArabicTitle": "تسبحة نصف الليل الكيهكي",
             "PurchaseKeyDroid": "annualpsalmodyid",
             "PurchaseKeyIos": "annualpsalmodyidsku",
-            "hasSubBooks": true,
-            "BookPath": 4,
+            "hasSubBooks": false,
+            "BookPath": "kiahkPsalmody",
             "ImageURL": "annuciation",
             "Enabled": true
         },
         {
             "EnglishTitle": "Lenten Midnight's Praises",
             "ArabicTitle": "تسبحة نصف الليل الصيامي",
-            "PurchaseKeyDroid": "holypaschaid",
-            "PurchaseKeyIos": "holypaschasku",
+            "PurchaseKeyDroid": "annualpsalmodyid",
+            "PurchaseKeyIos": "annualpsalmodyidsku",
             "hasSubBooks": false,
-            "BookPath": 3,
+            "BookPath": "lentenPsalmody",
             "ImageURL": "lent",
             "Enabled": true
         }

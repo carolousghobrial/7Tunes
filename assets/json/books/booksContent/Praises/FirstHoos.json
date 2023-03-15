@@ -5,6 +5,14 @@
   "CopticTitle": "Tote af\\\\wc `nje Mw`uchc",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تسبحة موسى النبى – خر 15",
+      "English": "The Praises of Moses - Exodus 15"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

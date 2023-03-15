@@ -17,7 +17,7 @@ function MelodyView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let textColor = "";
 
-  switch (item.side) {
+  switch (item.Side) {
     case "North":
       textColor = getColor("NorthColor");
       break;
@@ -47,29 +47,26 @@ function MelodyView({ item }) {
       break;
   }
   const englishVisible = useSelector((state) => state.settings.english);
-  const copticVisible = useSelector((state) => state.settings.coptic);
   const arabicVisible = useSelector((state) => state.settings.arabic);
-  const copticenglishVisible = useSelector(
-    (state) => state.settings.copticenglish
-  );
-  const copticarabicVisible = useSelector(
-    (state) => state.settings.copticarabic
-  );
 
   return (
     <View style={styles.bookView}>
       {englishVisible ? (
         <View style={styles.textView}>
-          <Text style={[styles.english, { fontSize, color: textColor }]}>
-            {item.english}
+          <Text
+            style={[styles.english, { fontSize: fontSize, color: textColor }]}
+          >
+            {item.English}
           </Text>
         </View>
       ) : null}
 
       {arabicVisible ? (
         <View style={styles.textView}>
-          <Text style={[styles.arabic, { fontSize, color: textColor }]}>
-            {item.arabic}
+          <Text
+            style={[styles.arabic, { fontSize: fontSize, color: textColor }]}
+          >
+            {item.Arabic}
           </Text>
         </View>
       ) : null}
