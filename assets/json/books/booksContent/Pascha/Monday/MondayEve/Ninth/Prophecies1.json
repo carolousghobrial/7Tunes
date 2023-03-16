@@ -1,22 +1,98 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " ٣ مِن أجلِ ذَلِكَ هَكَذَا مَا يقَولُ الرَّبُّ: «هَأَنَذَا أَفْكِّرُ بِالشَرورِ عَلَى هَذِهِ الْقبيلةِ.\n",
-"arabiccoptic": " إثفي فاي ناي ني نى ني إتيف جو إموإو إنجي إبشويس جي هيبي انوك تينا موك ميك إهان بيتهوأو إيجين تايفيلي\n",
-"coptic": " Eqbe vai nai ne nh etef Jw `mmwou nje ` Po/c/ je \\hppe anok ;namokmek e\\an pet\\wou ejen tai vulh>\n",
-"english": " Therefore thus says the Lord: \"Behold, I am devising evils against this tribe\n",
-"englishcoptic": " Ethve fai nai ne ni-etef go emo-oo enje Epchois je hippe anok tina-mok-mek ehan pet-ho-oo ejen tai fili\n",
-},
-{
-"arabic": " وَمِنْ ثَمَّ لَا تَقْدِرُونَ أَنْ تَرْفَعُوا أَعْنَاقَكُمْ مِنهَا، وَلَا تَمْشُونَ مُتَشَامِخِينَ لِأَنَّهُ زَمَانٌ رَدِيءٌ.,\n٤ «فِي ذَلِكَ ٱلْيَوْمِ يُتَخَذُ عَلَيْكُمْ مَثَلٌ, وَيَنُوحُونَ نَوْحَاً بِتَسْبِيحٍ قَائِلِينَ \"لَقَدْ شَقِيَتْ شَقَاءَاً وَنَصِيبُ شَعْبِى قَاسُوه بِالحَبْلِ وَلَمْ يَكُنْ مَنْ يُحَوِّلُهُ لِيَرجِعَ. قَاسُوا حُقُولَكُم وَإِقْتَسَمُوا بِقَاعَكُمْ.«,\n٥ مِنْ أَجْلِ هَذَا لَا يَكُونُ لَكَ مَنْ يُلْقِي حَبْلًا فِي نَصِيبِ ميراثٍ.,\n٦ لاَ َتْبكُوا بِدِمُوعٍ فِى كَنِيسَةِ الرَّبِّ, وَلاَتَسْكُبُوا العَبَراتِ عَلَى هَذَا, لِأَنَّهُ لاَ يَترُكُ التَعْييرَ عَنْهُ.,\n٧ القَائِلُ إِنَّ بَيْتَ يَعْقُوبَ أَغْضَبَ رُوحَ ٱلرَّبِّ. «أَلَيْسَتْ هَذِهِ أَعْمَالُهُ الكَائِنَةُ مَعَهُ أَلَيْسَ كَلاَمُهُ صَالِحَاً نَحْوَ مَنْ يَسْلُكُ بِٱلِٱسْتِقَامَةِ؟,\n٨ وَقَامَ شَعْبِي فِى العَداوةِ قُبَالَةَ سَلاَمَتِهِ. سَلَخُوا جِلْدَهُ لِيُنزَعَ الرَجَاءُ مِنَ إِنْكِسَارِ الحَربِ.,\n٩ مِنْ أَجْلِ ذَلِكَ مُدَبِّرُوا شَعْبىِ يُطرَحُونَ خَارِجَاً مِنْ بَيْوتِ نَعِيمِهِمْ.,\nمِنْ أَجْلِ أَعْمَالِهِمْ الشِرِّيرَةِ طُرِدُوا,,\nإِقْتَرَبُوا إِلَى الجِبَالِ الدَهِرِّيَةِ.,\n١٠ قُمْ إِنْطَلِقْ لِأَنَّهُ لَيْسَتْ هَذِهِ هِىَ رَاحَتَكَ. فَقَدْ هَلَكْتُمْ هَلاَكَاً مِنْ أَجْلِ النَجَاسَةِ وَهَرِبتُم وَلَيسَ مَنْ يَطرُدُكُمْ.,\n",
-"english": " From which you shall not lift up your neck, nor will you suddenly walk upright, for this is a time of evil.,\n4 In that day a parable shall be taken up against you, and a dirge will be wailed, saying, In misery we have suffered hardship. The portion of my people has been measured out with a measuring line, and there was no one who was able to stop Him. Our fields have been divided among them.,\n5 Therefore there will be no one to put out a measuring line for a lot for you in the assembly of the Lord.,\n6 \"Do not shed tears, nor even weep over these things; for He will not dismiss the reproaches,\n7 who says, \"The house of Jacob has provoked the Spirit of the Lord: are these not His practices? Are not His words good with Him, and have they not proceeded as predicted?,\n8 And previously, for enmity my people resisted against His peace. They flayed his skin to remove hope in the ravages of war.,\n9 Therefore those leading my people will be cast out of their luxurious homes;,\nThey have been driven out because of their wicked practices.,\nDraw near to the everlasting mountains.,\n10 \"Arise and depart, for this is not a final resting place for you on account of uncleanness; you have been utterly destroyed by corruption. You were pursued by no one pursuing!,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "2:3-11 من ميخاالنبى",
+  "EnglishTitle": "Micah 2:3-11 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٣ مِن أجلِ ذَلِكَ هَكَذَا مَا يقَولُ الرَّبُّ: «هَأَنَذَا أَفْكِّرُ بِالشَرورِ عَلَى هَذِهِ الْقبيلةِ.",
+      "Coptic": "Eqbe vai nai ne nh etef Jw `mmwou nje ` Po/c/ je \\hppe anok ;namokmek e\\an pet\\wou ejen tai vulh>",
+      "English": "Therefore thus says the Lord: \"Behold, I am devising evils against this tribe",
+      "Arabiccoptic": "إثفي فاي ناي ني نى ني إتيف جو إموإو إنجي إبشويس جي هيبي انوك تينا موك ميك إهان بيتهوأو إيجين تايفيلي",
+      "Englishcoptic": "Ethve fai nai ne ni-etef go emo-oo enje Epchois je hippe anok tina-mok-mek ehan pet-ho-oo ejen tai fili"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمِنْ ثَمَّ لَا تَقْدِرُونَ أَنْ تَرْفَعُوا أَعْنَاقَكُمْ مِنهَا، وَلَا تَمْشُونَ مُتَشَامِخِينَ لِأَنَّهُ زَمَانٌ رَدِيءٌ.",
+      "English": "From which you shall not lift up your neck, nor will you suddenly walk upright, for this is a time of evil."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٤ «فِي ذَلِكَ ٱلْيَوْمِ يُتَخَذُ عَلَيْكُمْ مَثَلٌ, وَيَنُوحُونَ نَوْحَاً بِتَسْبِيحٍ قَائِلِينَ \"لَقَدْ شَقِيَتْ شَقَاءَاً وَنَصِيبُ شَعْبِى قَاسُوه بِالحَبْلِ وَلَمْ يَكُنْ مَنْ يُحَوِّلُهُ لِيَرجِعَ. قَاسُوا حُقُولَكُم وَإِقْتَسَمُوا بِقَاعَكُمْ.«",
+      "English": "4 In that day a parable shall be taken up against you, and a dirge will be wailed, saying, In misery we have suffered hardship. The portion of my people has been measured out with a measuring line, and there was no one who was able to stop Him. Our fields have been divided among them."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٥ مِنْ أَجْلِ هَذَا لَا يَكُونُ لَكَ مَنْ يُلْقِي حَبْلًا فِي نَصِيبِ ميراثٍ.",
+      "English": "5 Therefore there will be no one to put out a measuring line for a lot for you in the assembly of the Lord."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٦ لاَ َتْبكُوا بِدِمُوعٍ فِى كَنِيسَةِ الرَّبِّ, وَلاَتَسْكُبُوا العَبَراتِ عَلَى هَذَا, لِأَنَّهُ لاَ يَترُكُ التَعْييرَ عَنْهُ.",
+      "English": "6 \"Do not shed tears, nor even weep over these things; for He will not dismiss the reproaches"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٧ القَائِلُ إِنَّ بَيْتَ يَعْقُوبَ أَغْضَبَ رُوحَ ٱلرَّبِّ. «أَلَيْسَتْ هَذِهِ أَعْمَالُهُ الكَائِنَةُ مَعَهُ أَلَيْسَ كَلاَمُهُ صَالِحَاً نَحْوَ مَنْ يَسْلُكُ بِٱلِٱسْتِقَامَةِ؟",
+      "English": "7 who says, \"The house of Jacob has provoked the Spirit of the Lord: are these not His practices? Are not His words good with Him, and have they not proceeded as predicted?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨ وَقَامَ شَعْبِي فِى العَداوةِ قُبَالَةَ سَلاَمَتِهِ. سَلَخُوا جِلْدَهُ لِيُنزَعَ الرَجَاءُ مِنَ إِنْكِسَارِ الحَربِ.",
+      "English": "8 And previously, for enmity my people resisted against His peace. They flayed his skin to remove hope in the ravages of war."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٩ مِنْ أَجْلِ ذَلِكَ مُدَبِّرُوا شَعْبىِ يُطرَحُونَ خَارِجَاً مِنْ بَيْوتِ نَعِيمِهِمْ.",
+      "English": "9 Therefore those leading my people will be cast out of their luxurious homes;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مِنْ أَجْلِ أَعْمَالِهِمْ الشِرِّيرَةِ طُرِدُوا",
+      "English": "They have been driven out because of their wicked practices."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِقْتَرَبُوا إِلَى الجِبَالِ الدَهِرِّيَةِ.",
+      "English": "Draw near to the everlasting mountains."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "١٠ قُمْ إِنْطَلِقْ لِأَنَّهُ لَيْسَتْ هَذِهِ هِىَ رَاحَتَكَ. فَقَدْ هَلَكْتُمْ هَلاَكَاً مِنْ أَجْلِ النَجَاسَةِ وَهَرِبتُم وَلَيسَ مَنْ يَطرُدُكُمْ.",
+      "English": "10 \"Arise and depart, for this is not a final resting place for you on account of uncleanness; you have been utterly destroyed by corruption. You were pursued by no one pursuing!"
+    }
+  ]
 }

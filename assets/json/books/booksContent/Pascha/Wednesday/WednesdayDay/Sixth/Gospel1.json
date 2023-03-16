@@ -1,22 +1,66 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " و قَبْلَ الْفِصْحِ بِسِتَّةِ أَيَّامٍ أَتَى يَسُوعُ إِلَى بَيْتِ عَنْيَا، حَيْثُ كَانَ لِعَازَرُ الَّذِي مَاتَ وَأَقَامَهُ يَسُوعُ مِنَ بين الأَمْوَاتِ.\n",
-    "arabiccoptic": " إيسوس أون خاجين سوؤ إن إيهوؤ إنتى بى باصخا أفئ إ بيثانيا بيما إنارى لازاروس إمموف فيئطافمو فيئطا إيسوس طونوسف إيفول خين نى إثموأوت.\n",
-    "coptic": " Ihcouc oun > =ajen coou `n`e\\oou `nte pipacxa af`i `eBhqani`a pima `enare Lazaroc `mmof vh`etafmou vh`eta Ihc? tounocf `ebol=en nh`cqmwout>\n",
-    "english": " Then, six days before the Passover, Jesus came to Bethany, where Lazarus was who had been dead, whom He had raised from the dead.\n",
-    "englishcoptic": " Isos on khajen so-o en eho-o ente pi paskha af-e e Bethania pima e-nare Lazaroos emmof vi etavmo vi eta Isos tonosf evol khen ni ethmo-oot.\n"
-  },
-  {
-    "arabic": " فَصَنَعُوا لَهُ هُنَاكَ عَشَاءً. وَكَانَتْ مَرْثَا تَخْدِمُ،  وَكَانَ  لِعَازَرُ أَحَدَ الْمُتَّكِئِينَ مَعَهُ.,\nأَمَّا مَرْيَمُ فَأَخَذَتْ رَطْلَ طِيبِ نَارِدِينٍ زَكِىٍّ كَثِيرِ الثَّمَنِ، وَدَهَنَتْ بِهِ قَدَمَيْ يَسُوعَ، وَمَسَحَتْهُمَا بِشَعْرِ رَأسِهَا فَامْتَلأَ الْبَيْتُ مِنْ رَائِحَةِ الطِّيبِ.,\nفَقَالَ أَحَدُ تَلاَمِيذِهِ، الَّذِي هُوَ يَهُوذَا سِمْعَانُ الإِسْخَرْيُوطِيُّ، الَّذِي كَانَ مُزْمِعَاً أَنْ يُسَلِّمَهُ:,\n»لِمَاذَا لَمْ يُبَعْ هذَا الطِّيبُ بِثَلاَثَمِئَةِ دِينَارٍ وَيُدفَعْ لِلمَسَاكِينَ«؟,\nوَإِنَمَا قَالَ هذَا لَيْسَ عِنَايَةً مِنْهُ بِالمَسَاكِينَ، بَلْ لأَنَّهُ كَانَ سَارِقًا، وَكَانَ الصُّنْدُوقُ عِنْدَهُ، وَكَانَ يَحْمِلُ مَا يُلْقَى فِيهِ.,\nفَقَالَ يَسُوعُ: »دَعْهَا لِأنَّهَا حَفِظَتْهُ، لِيَوْمِ دَفْنِي فإِنَّ المَسَاكِينَ مَعَكُمْ فِي كُلِّ حِينٍ، وَأَمَّا أَنَا فَلَسْتُ مَعَكُمْ فِي كُلِّ حِينٍ«.,\n",
-    "english": " There they made Him a supper; and Martha served, but Lazarus was one of those who sat at the table with Him.,\nThen Mary took a pound of very costly oil of spikenard, anointed the feet of Jesus and wiped His feet with her hair. And the house was filled with the fragrance of the oil.,\nBut one of His disciples, Judas Iscariot, Simon's son, who would betray Him, said,,\n\"Why was this fragrant oil not sold for three hundred denarii and given to the poor?\",\nThis he said, not that he cared for the poor, but because he was a thief, and had the money box; and he used to take what was put in it.,\nBut Jesus said, \"Let her alone; she has kept this for the day of My burial. For the poor you have with you always, but Me you do not have always.\",\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "12:1-8  الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 12:1-8 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "و قَبْلَ الْفِصْحِ بِسِتَّةِ أَيَّامٍ أَتَى يَسُوعُ إِلَى بَيْتِ عَنْيَا، حَيْثُ كَانَ لِعَازَرُ الَّذِي مَاتَ وَأَقَامَهُ يَسُوعُ مِنَ بين الأَمْوَاتِ.",
+      "Coptic": "Ihcouc oun > =ajen coou `n`e\\oou `nte pipacxa af`i `eBhqani`a pima `enare Lazaroc `mmof vh`etafmou vh`eta Ihc? tounocf `ebol=en nh`cqmwout>",
+      "English": "Then, six days before the Passover, Jesus came to Bethany, where Lazarus was who had been dead, whom He had raised from the dead.",
+      "Arabiccoptic": "إيسوس أون خاجين سوؤ إن إيهوؤ إنتى بى باصخا أفئ إ بيثانيا بيما إنارى لازاروس إمموف فيئطافمو فيئطا إيسوس طونوسف إيفول خين نى إثموأوت.",
+      "Englishcoptic": "Isos on khajen so-o en eho-o ente pi paskha af-e e Bethania pima e-nare Lazaroos emmof vi etavmo vi eta Isos tonosf evol khen ni ethmo-oot."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَصَنَعُوا لَهُ هُنَاكَ عَشَاءً. وَكَانَتْ مَرْثَا تَخْدِمُ،  وَكَانَ  لِعَازَرُ أَحَدَ الْمُتَّكِئِينَ مَعَهُ.",
+      "English": "There they made Him a supper; and Martha served, but Lazarus was one of those who sat at the table with Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمَّا مَرْيَمُ فَأَخَذَتْ رَطْلَ طِيبِ نَارِدِينٍ زَكِىٍّ كَثِيرِ الثَّمَنِ، وَدَهَنَتْ بِهِ قَدَمَيْ يَسُوعَ، وَمَسَحَتْهُمَا بِشَعْرِ رَأسِهَا فَامْتَلأَ الْبَيْتُ مِنْ رَائِحَةِ الطِّيبِ.",
+      "English": "Then Mary took a pound of very costly oil of spikenard, anointed the feet of Jesus and wiped His feet with her hair. And the house was filled with the fragrance of the oil."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ أَحَدُ تَلاَمِيذِهِ، الَّذِي هُوَ يَهُوذَا سِمْعَانُ الإِسْخَرْيُوطِيُّ، الَّذِي كَانَ مُزْمِعَاً أَنْ يُسَلِّمَهُ:",
+      "English": "But one of His disciples, Judas Iscariot, Simon's son, who would betray Him, said"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "»لِمَاذَا لَمْ يُبَعْ هذَا الطِّيبُ بِثَلاَثَمِئَةِ دِينَارٍ وَيُدفَعْ لِلمَسَاكِينَ«؟",
+      "English": "\"Why was this fragrant oil not sold for three hundred denarii and given to the poor?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإِنَمَا قَالَ هذَا لَيْسَ عِنَايَةً مِنْهُ بِالمَسَاكِينَ، بَلْ لأَنَّهُ كَانَ سَارِقًا، وَكَانَ الصُّنْدُوقُ عِنْدَهُ، وَكَانَ يَحْمِلُ مَا يُلْقَى فِيهِ.",
+      "English": "This he said, not that he cared for the poor, but because he was a thief, and had the money box; and he used to take what was put in it."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ يَسُوعُ: »دَعْهَا لِأنَّهَا حَفِظَتْهُ، لِيَوْمِ دَفْنِي فإِنَّ المَسَاكِينَ مَعَكُمْ فِي كُلِّ حِينٍ، وَأَمَّا أَنَا فَلَسْتُ مَعَكُمْ فِي كُلِّ حِينٍ«.",
+      "English": "But Jesus said, \"Let her alone; she has kept this for the day of My burial. For the poor you have with you always, but Me you do not have always.\""
+    }
+  ]
 }

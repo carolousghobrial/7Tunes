@@ -1,22 +1,82 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وَبَيْنَمَا هُوَ يَتَكَلَّمُ إِذَا جَمْعٌ، وَالَّذِي يُدْعَى يَهُوذَا، أَحَدُ الاثْنَيْ عَشَرَ، يَتَقَدَّمُهُمْ، فَدَنَا مِنْ يَسُوعَ وَقَبَّلَ فَاهُ.\n",
-"arabiccoptic": " أووه إتى إف ساجى هييبى يس أوميش نيم فى إيطوتى إيروف جى يوداس اواى إيفول خين بى ميت إسناف نافموشى خاجوؤ بى. اووه أفخونت إى إيسوس أفتى إفكى إيروف\n",
-"coptic": " Ouo\\ `eti efcaji \\hppe ic oumh] nem vh`etou; `erof je Ioudac ouai `ebol=en pimht `cnau nafmo]i =ajwou pe> ouo\\ af=wnt `eIhc? Af;`vxi `erwf.\n",
-"english": " And while He was still speaking, behold, a multitude; and he who was called Judas, one of the twelve, went before them and drew near to Jesus to kiss Him.\n",
-"englishcoptic": " owoh eti ef saji heppe yes o meesh nem vi etoty erof je Youdas ouai evol khen pi meet esnav naf moshy khago-o pe. owoh af khont e Isos afty efky erof.\n",
-},
-{
-"arabic": " فَقَالَ لَهُ يَسُوعُ: «يَا يَهُوذَا، أَبِقُبْلَةٍ تُسَلِّمُ ابْنَ الإِنْسَانِ؟»,\nفَلَمَّا رَأَى الَّذِينَ حَوْلَهُ مَا كَانَ، قَالُوا: «يَا رَبُّ، أَنَضْرِبُ بِالسَّيْفِ؟»,\nوَضَرَبَ وَاحِدٌ مِنْهُمْ عَبْدَ رَئِيسِ الْكَهَنَةِ فَقَطَعَ أُذْنَهُ الْيُمْنَى.,\nفَأَجَابَ يَسُوعُ وقَالَ: «كَفَى إِلَى هُنَا!» وَلَمَسَ أُذْنَهُ وَأَبْرَأَهَا.,\nثُمَّ قَالَ يَسُوعُ لِلَّذِينَ جَاءُوا إِلَيْهِ مِنْ رُؤَسَاءِ الْكَهَنَةِ وَقُوَّادِ جُنْدِ الْهَيْكَلِ وَالشُّيُوخِ: «كَأَنَّهُ عَلَى لِصٍّ خَرَجْتُمْ بِسُيُوفٍ وَعِصِيٍّ!,\nوَقَدْ كُنْتُ مَعَكُمْ كُلَّ يَوْمٍ فِي الْهَيْكَلِ وَلَمْ تَمُدُّوا عَلَيَّ أَيْدِيَكُمْ. وَلكِنَّ هذِهِ سَاعَتُكُمْ وَسُلْطَانُ الظُّلْمَةِ».,\nفَلَمَّا أَمْسَكُوه سَاقُوهُ وَأَدْخَلُوهُ إِلَى بَيْتِ رَئِيسِ الْكَهَنَةِ. وَكانَ بُطْرُسُ فَتَبِعَهُ مِنْ بَعِيدٍ.,\nوَلَمَّا أَضْرَمُوا نَارًا فِي وَسْطِ الدَّارِ وَجَلَسُوا، فَكانَ بُطْرُسُ أيضاً جَالِسَاً فِيمَا بَيْنَهُمْ.,\n",
-"english": " But Jesus said to him, \"Judas, are you betraying the Son of Man with a kiss?\",\nWhen those around Him saw what was going to happen, they said to Him, \"Lord, shall we strike with the sword?\",\nAnd one of them struck the servant of the high priest and cut off his right ear.,\nBut Jesus answered and said, \"Permit even this.\" And He touched his ear and healed him.,\nThen Jesus said to the chief priests, captains of the temple, and the elders who had come to Him, \"Have you come out, as against a robber, with swords and clubs?,\nWhen I was with you daily in the temple, you did not try to seize Me. But this is your hour, and the power of darkness.\",\nHaving arrested Him, they led Him and brought Him into the high priest's house. But Peter followed at a distance.,\nNow when they had kindled a fire in the midst of the courtyard and sat down together, Peter sat among them.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "22:47-55 الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 22:47-55 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبَيْنَمَا هُوَ يَتَكَلَّمُ إِذَا جَمْعٌ، وَالَّذِي يُدْعَى يَهُوذَا، أَحَدُ الاثْنَيْ عَشَرَ، يَتَقَدَّمُهُمْ، فَدَنَا مِنْ يَسُوعَ وَقَبَّلَ فَاهُ.",
+      "Coptic": "Ouo\\ `eti efcaji \\hppe ic oumh] nem vh`etou; `erof je Ioudac ouai `ebol=en pimht `cnau nafmo]i =ajwou pe> ouo\\ af=wnt `eIhc? Af;`vxi `erwf.",
+      "English": "And while He was still speaking, behold, a multitude; and he who was called Judas, one of the twelve, went before them and drew near to Jesus to kiss Him.",
+      "Arabiccoptic": "أووه إتى إف ساجى هييبى يس أوميش نيم فى إيطوتى إيروف جى يوداس اواى إيفول خين بى ميت إسناف نافموشى خاجوؤ بى. اووه أفخونت إى إيسوس أفتى إفكى إيروف",
+      "Englishcoptic": "owoh eti ef saji heppe yes o meesh nem vi etoty erof je Youdas ouai evol khen pi meet esnav naf moshy khago-o pe. owoh af khont e Isos afty efky erof."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُ يَسُوعُ: «يَا يَهُوذَا، أَبِقُبْلَةٍ تُسَلِّمُ ابْنَ الإِنْسَانِ؟»",
+      "English": "But Jesus said to him, \"Judas, are you betraying the Son of Man with a kiss?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمَّا رَأَى الَّذِينَ حَوْلَهُ مَا كَانَ، قَالُوا: «يَا رَبُّ، أَنَضْرِبُ بِالسَّيْفِ؟»",
+      "English": "When those around Him saw what was going to happen, they said to Him, \"Lord, shall we strike with the sword?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَضَرَبَ وَاحِدٌ مِنْهُمْ عَبْدَ رَئِيسِ الْكَهَنَةِ فَقَطَعَ أُذْنَهُ الْيُمْنَى.",
+      "English": "And one of them struck the servant of the high priest and cut off his right ear."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَجَابَ يَسُوعُ وقَالَ: «كَفَى إِلَى هُنَا!» وَلَمَسَ أُذْنَهُ وَأَبْرَأَهَا.",
+      "English": "But Jesus answered and said, \"Permit even this.\" And He touched his ear and healed him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ قَالَ يَسُوعُ لِلَّذِينَ جَاءُوا إِلَيْهِ مِنْ رُؤَسَاءِ الْكَهَنَةِ وَقُوَّادِ جُنْدِ الْهَيْكَلِ وَالشُّيُوخِ: «كَأَنَّهُ عَلَى لِصٍّ خَرَجْتُمْ بِسُيُوفٍ وَعِصِيٍّ!",
+      "English": "Then Jesus said to the chief priests, captains of the temple, and the elders who had come to Him, \"Have you come out, as against a robber, with swords and clubs?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَدْ كُنْتُ مَعَكُمْ كُلَّ يَوْمٍ فِي الْهَيْكَلِ وَلَمْ تَمُدُّوا عَلَيَّ أَيْدِيَكُمْ. وَلكِنَّ هذِهِ سَاعَتُكُمْ وَسُلْطَانُ الظُّلْمَةِ».",
+      "English": "When I was with you daily in the temple, you did not try to seize Me. But this is your hour, and the power of darkness.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمَّا أَمْسَكُوه سَاقُوهُ وَأَدْخَلُوهُ إِلَى بَيْتِ رَئِيسِ الْكَهَنَةِ. وَكانَ بُطْرُسُ فَتَبِعَهُ مِنْ بَعِيدٍ.",
+      "English": "Having arrested Him, they led Him and brought Him into the high priest's house. But Peter followed at a distance."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَمَّا أَضْرَمُوا نَارًا فِي وَسْطِ الدَّارِ وَجَلَسُوا، فَكانَ بُطْرُسُ أيضاً جَالِسَاً فِيمَا بَيْنَهُمْ.",
+      "English": "Now when they had kindled a fire in the midst of the courtyard and sat down together, Peter sat among them."
+    }
+  ]
 }

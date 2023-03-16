@@ -1,22 +1,88 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " اَلرَّبُّ إِلَهٌ غَيُورٌ وَمُنْتَقِمٌ. يَنْتَقِمُ الرّبُّ بِغَضَبٍ مِنَ المُقاومينَ لَهُ.  وَهُوَ يُبِيدُ أَعْدَاءَهُ.\n",
-"arabiccoptic": " اونوتي إنريفهوه اووه إنريفتشي إمبيشيش بي إبشويس : خين اومفون إفماتشي إمبشوش أنجي إبشويس خين ني إتتي إوفيق أووه إنثوف إف إفوتي إنيفجاجي\n",
-"coptic": " Ounou; nref\\o\\ ouo\\ nsrefsi mp]i] pe Po/c/> =en oumbon fnasi mp]i] nje Po/c/ =en nhet;oubhf ouo\\ nqof efefw; nnefjaji\n",
-"english": " God is jealous, and the Lord is an avenger; the Lord is avenging with fury; the Lord takes vengeance on His adversaries and drives out His enemies.\n",
-"englishcoptic": " Onoti enref-hoh owoh enchref-chi empshish pe Epchois : Khen omvon efnachi empshish enje Epchois khen ni-et-ti-oveef owoh enthof ef-efoti ennef-gaji.\n",
-},
-{
-"arabic": " ٣ ٱلرَّبُّ هُوَ طَويلُ الرُوحِ وَعَظِيمَةٌ هِىَ قُوَّتُهُ، وَلَكِنَّهُ لَا يُبَرِّرُ ٱلْخَاطِئَ.,\nٱلرَّبُّ فِي ٱلزَّوْبَعَةِ، وَفِي ٱلْعَاصِفِ طَرِيقُهُ، وَ على ٱلسَّحَابُ إعتدالُ أَقدامِهِ.,\n٤ يَغْضَبُ عَلَى ٱلْبَحْرِ فَيُيَبِّسَهُ وَعَلَى جَمِيعَ ٱلْأَنْهَارِفَيُنَشِّفَهَا.,\nقَدْ ذَوَىَ بَيْسَانُ وَٱلْكَرْمَلُ، وَذْبُلَ زَهْرُ لُبْنَانَ.,\n٥  تَزَلْزَلَتْ مِنْهُ  الْجِبَالُ وَتَحَرَّكَتْ الآَكَامُ  وَذَابَتْ ٱلْأَرْضُ مَنْ َأمَامَ وَجْهِهِ، الدُنْيَا وَكُلُّ ٱلسَّاكِنِينَ فِيهِا.,\n٦ مَنْ يَقْدِرُ أَنْ يَقِفَ أَمَامَ سُخْطِ وَجهِهِ؟,\nوَمَنْ هُوَ الَّذِى يُقَاوِمُهُ عِنْدَ حُنقِ رِجزِهِ؟ لِأَنَّ غَضَبَهُ يُبِيدُ الأَرَاخِنَةَ وَمِنْهُ تَزَلْزَلَت ٱلصُخُورُ.,\n٧ صَالِحٌ هُوَ ٱلرَّبُّ لِمُنْتَظِرِيهِ. فِي يَوْمِ ضِيقِهِمْ، وَهُوَ يَعْرِفُ ٱلْمُتَوَكِّلِينَ عَلَيْهِ.,\n٨ وَبِطُوفَانٍ عَابِرٍ يَصْنَعُ هَلَاكًا تَامًّا بِالقَائِمِينَ عَلَيهِ، وَأَعْدَاؤُهُ يَطْرُدُهُمْ ظَلَامٌ.,\n",
-"english": " The Lord is patient and His power is great, but the Lord will not acquit the guilty,,\nHis way is in destruction and in a whirlwind; the clouds are the dust of His feet.,\nThe threatens the sea and makes it dry, and he dries up all the rivers.,\nBashan and Carmel have diminished, and the flowers of Lebanon have died out .,\nBy Him the mountains are shaken and the hills quake, and the earth heaves at His presence-the whole earth and all who dwell in it.,\nWho can stand before this wrath?,\nWho can withstand the fierceness of this anger? This fury melts away ruling powers, and He shatters the rocks into pieces.,\nThe Lord is merciful to those who wait on Him in the day of affliction, and He knows those who reverence Him:,\nFor with an overwhelming flood He shall make an end to those rising up and darkness will pursue His enemies.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اَلرَّبُّ إِلَهٌ غَيُورٌ وَمُنْتَقِمٌ. يَنْتَقِمُ الرّبُّ بِغَضَبٍ مِنَ المُقاومينَ لَهُ.  وَهُوَ يُبِيدُ أَعْدَاءَهُ.",
+      "Coptic": "Ounou; nref\\o\\ ouo\\ nsrefsi mp]i] pe Po/c/> =en oumbon fnasi mp]i] nje Po/c/ =en nhet;oubhf ouo\\ nqof efefw; nnefjaji",
+      "English": "God is jealous, and the Lord is an avenger; the Lord is avenging with fury; the Lord takes vengeance on His adversaries and drives out His enemies.",
+      "Arabiccoptic": "اونوتي إنريفهوه اووه إنريفتشي إمبيشيش بي إبشويس : خين اومفون إفماتشي إمبشوش أنجي إبشويس خين ني إتتي إوفيق أووه إنثوف إف إفوتي إنيفجاجي",
+      "Englishcoptic": "Onoti enref-hoh owoh enchref-chi empshish pe Epchois : Khen omvon efnachi empshish enje Epchois khen ni-et-ti-oveef owoh enthof ef-efoti ennef-gaji."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٣ ٱلرَّبُّ هُوَ طَويلُ الرُوحِ وَعَظِيمَةٌ هِىَ قُوَّتُهُ، وَلَكِنَّهُ لَا يُبَرِّرُ ٱلْخَاطِئَ.",
+      "English": "The Lord is patient and His power is great, but the Lord will not acquit the guilty"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ٱلرَّبُّ فِي ٱلزَّوْبَعَةِ، وَفِي ٱلْعَاصِفِ طَرِيقُهُ، وَ على ٱلسَّحَابُ إعتدالُ أَقدامِهِ.",
+      "English": "His way is in destruction and in a whirlwind; the clouds are the dust of His feet."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٤ يَغْضَبُ عَلَى ٱلْبَحْرِ فَيُيَبِّسَهُ وَعَلَى جَمِيعَ ٱلْأَنْهَارِفَيُنَشِّفَهَا.",
+      "English": "The threatens the sea and makes it dry, and he dries up all the rivers."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَدْ ذَوَىَ بَيْسَانُ وَٱلْكَرْمَلُ، وَذْبُلَ زَهْرُ لُبْنَانَ.",
+      "English": "Bashan and Carmel have diminished, and the flowers of Lebanon have died out ."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٥  تَزَلْزَلَتْ مِنْهُ  الْجِبَالُ وَتَحَرَّكَتْ الآَكَامُ  وَذَابَتْ ٱلْأَرْضُ مَنْ َأمَامَ وَجْهِهِ، الدُنْيَا وَكُلُّ ٱلسَّاكِنِينَ فِيهِا.",
+      "English": "By Him the mountains are shaken and the hills quake, and the earth heaves at His presence-the whole earth and all who dwell in it."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٦ مَنْ يَقْدِرُ أَنْ يَقِفَ أَمَامَ سُخْطِ وَجهِهِ؟",
+      "English": "Who can stand before this wrath?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَنْ هُوَ الَّذِى يُقَاوِمُهُ عِنْدَ حُنقِ رِجزِهِ؟ لِأَنَّ غَضَبَهُ يُبِيدُ الأَرَاخِنَةَ وَمِنْهُ تَزَلْزَلَت ٱلصُخُورُ.",
+      "English": "Who can withstand the fierceness of this anger? This fury melts away ruling powers, and He shatters the rocks into pieces."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٧ صَالِحٌ هُوَ ٱلرَّبُّ لِمُنْتَظِرِيهِ. فِي يَوْمِ ضِيقِهِمْ، وَهُوَ يَعْرِفُ ٱلْمُتَوَكِّلِينَ عَلَيْهِ.",
+      "English": "The Lord is merciful to those who wait on Him in the day of affliction, and He knows those who reverence Him:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨ وَبِطُوفَانٍ عَابِرٍ يَصْنَعُ هَلَاكًا تَامًّا بِالقَائِمِينَ عَلَيهِ، وَأَعْدَاؤُهُ يَطْرُدُهُمْ ظَلَامٌ.",
+      "English": "For with an overwhelming flood He shall make an end to those rising up and darkness will pursue His enemies."
+    }
+  ]
 }

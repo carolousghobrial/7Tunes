@@ -1,7 +1,29 @@
 {
-  "arabic": " إُحْكُمْ حُكْمِى وَنَجِّنِي مِنْ أَجْلِ كَلاَمِكَ فَلِأحْيَا.,\nبَعِيد الخَلَاصِ مِنْ الخُطاةِ لِأَنَّهُمْ لَمْ يَطْلُبُوا حُقُوقَكَ. الليلويا.,\n",
-  "arabiccoptic": " ما هاب إباهاب أووه صوتت. إثفيه بيك صاجى ماري أونخ .\nإف أوو إيوو صافول إننى ريف إيرنوفى إنجيه بى أووجاى : جيه نيك ميثمي إمبوو آاتى إنصوأوو . الليلويا .\n",
-  "coptic": " Ma\\ap `epa\\ap ouo\\ cott eqbe pekcaji mariwn=>\n Fou`hou cabol `nniref `ernobi `nje pioujai > je nekmeqmhi `mpoukw; `ncwou > al\n",
-  "english": " Plead my cause and redeem me; give me life because of Your word.,\nSalvation is far from sinners, for they have not searched Your ordinances. Alleluia.,\n",
-  "englishcoptic": " Mahap epahap owoh sott; ethve peksaji mari-onkh;\nEf-o-eyo savol enniref ernovi enje pi-ogai; je nek-methmi empo-koti enso-oo. Alleloia\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "119:154-155 مزمور",
+  "EnglishTitle": "Psalm 119:154-155 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إُحْكُمْ حُكْمِى وَنَجِّنِي مِنْ أَجْلِ كَلاَمِكَ فَلِأحْيَا.",
+      "Coptic": "Ma\\ap `epa\\ap ouo\\ cott eqbe pekcaji mariwn=>",
+      "English": "Plead my cause and redeem me; give me life because of Your word.",
+      "Arabiccoptic": "ما هاب إباهاب أووه صوتت. إثفيه بيك صاجى ماري أونخ .",
+      "Englishcoptic": "Mahap epahap owoh sott; ethve peksaji mari-onkh;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بَعِيد الخَلَاصِ مِنْ الخُطاةِ لِأَنَّهُمْ لَمْ يَطْلُبُوا حُقُوقَكَ. الليلويا.",
+      "Coptic": "Fou`hou cabol `nniref `ernobi `nje pioujai > je nekmeqmhi `mpoukw; `ncwou > al",
+      "English": "Salvation is far from sinners, for they have not searched Your ordinances. Alleluia.",
+      "Arabiccoptic": "إف أوو إيوو صافول إننى ريف إيرنوفى إنجيه بى أووجاى : جيه نيك ميثمي إمبوو آاتى إنصوأوو . الليلويا .",
+      "Englishcoptic": "Ef-o-eyo savol enniref ernovi enje pi-ogai; je nek-methmi empo-koti enso-oo. Alleloia"
+    }
+  ]
 }

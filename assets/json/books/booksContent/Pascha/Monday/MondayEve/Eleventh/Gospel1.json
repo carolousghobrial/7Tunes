@@ -1,22 +1,50 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " ١٩ حِينَئذٍ جَاءَ ٱلتَّلَامِيذُ إِلَى يَسُوعَ مُنفَرِدينَ وَحدَهُم وَقَالُوا لَهُ: «لِمَاذَا لِمَاذَا لَمْ نَقْدِرْ نَحْنُ أَنْ نُخْرِجَهُ؟».\n",
-"arabiccoptic": " توتي افيي إنجى نيماثيتيس ها إيسوس سا إبسا إمماف اطوو أووه بيجوأو ناف جي إثفيو انون إمبين أشجيمجوم إهيتف إيفول\n",
-"coptic": " Tote aui `nje nimaqhthc \\a Ih/c/ ca` pca` mmauatou ouo\\ pejwou naf je eqbeou anon `mpen`]jemjom `e\\itf `ebol>\n",
-"english": " Then the disciples came to Jesus privately and said, \"Why could we not cast it out?\"\n",
-"englishcoptic": " Tote av-ee enje ni-mathetis ha Isos sa epsa emmav-ato-oo owoh pego-oo naf je ethveo annon empen-esh-gem-gom ehitf evol\n",
-},
-{
-"arabic": " ٢٠ أَمَّا هُوَ فَقَالَ لَهُمْ : «لِأجلِ قِلَّةِ إِيمَانِكُمْ. الْحَقَّ أَقُولُ لَكُمْ: لَوْ كَانَ لَكُمْ إِيمَانٌ مِثْلُ حَبَّةِ خَرْدَلٍ لَكُنْتُمْ تَقُولُونَ لِهَذَا ٱلْجَبَلِ: ٱنْتَقِلْ مِنْ هُنَا إِلَى هُنَاكَ فَيَنْتَقِلُ، وَلَا يَكُونُ شَيْءٌ غَيْرَ مُمْكِنٍ لَدَيْكُمْ.,\n٢١ وَأَمَّا هَذَا ٱلْجِنْسُ فَلَا يَخْرُجُ إِلَّا بِٱلصَّلَاةِ وَٱلصَّوْمِ».,\n٢٢ وَبَينمَا هُمْ يَتَرَدَّدُونَ فِي ٱلْجَلِيلِ قَالَ لَهُمْ يَسُوعُ: «إنَّ ٱبْنَ ٱلْإِنْسَانِ سَيُسَلَّمُ إِلَى أَيْدِي ٱلنَّاسِ,\n٢٣ فَيَقْتُلُونَهُ، وَبَعد ثلاثةِ أيامٍ يَقُومُ». فَحَزِنَتْ قُلُوبُهُم جِدًّا.,\n",
-"english": " 20 So Jesus said to them, \"Because of your unbelief; for assuredly, I say to you, if you have faith as a mustard seed, you will say to this mountain, \"Move from here to there, and it will move; and nothing will be impossible for you.,\n21 However, this kind does not go out except by prayer and fasting.,\n22 Now while they were staying in Galilee, Jesus said to them, \"The Son of Man is about to be betrayed into the hands of men,,\n23 And they will kill Him, and the third day He will be raised up.\" And they were exceedingly sorrowful.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": " 17:19-23 الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 17:19-23 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "١٩ حِينَئذٍ جَاءَ ٱلتَّلَامِيذُ إِلَى يَسُوعَ مُنفَرِدينَ وَحدَهُم وَقَالُوا لَهُ: «لِمَاذَا لِمَاذَا لَمْ نَقْدِرْ نَحْنُ أَنْ نُخْرِجَهُ؟».",
+      "Coptic": "Tote aui `nje nimaqhthc \\a Ih/c/ ca` pca` mmauatou ouo\\ pejwou naf je eqbeou anon `mpen`]jemjom `e\\itf `ebol>",
+      "English": "Then the disciples came to Jesus privately and said, \"Why could we not cast it out?\"",
+      "Arabiccoptic": "توتي افيي إنجى نيماثيتيس ها إيسوس سا إبسا إمماف اطوو أووه بيجوأو ناف جي إثفيو انون إمبين أشجيمجوم إهيتف إيفول",
+      "Englishcoptic": "Tote av-ee enje ni-mathetis ha Isos sa epsa emmav-ato-oo owoh pego-oo naf je ethveo annon empen-esh-gem-gom ehitf evol"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢٠ أَمَّا هُوَ فَقَالَ لَهُمْ : «لِأجلِ قِلَّةِ إِيمَانِكُمْ. الْحَقَّ أَقُولُ لَكُمْ: لَوْ كَانَ لَكُمْ إِيمَانٌ مِثْلُ حَبَّةِ خَرْدَلٍ لَكُنْتُمْ تَقُولُونَ لِهَذَا ٱلْجَبَلِ: ٱنْتَقِلْ مِنْ هُنَا إِلَى هُنَاكَ فَيَنْتَقِلُ، وَلَا يَكُونُ شَيْءٌ غَيْرَ مُمْكِنٍ لَدَيْكُمْ.",
+      "English": "20 So Jesus said to them, \"Because of your unbelief; for assuredly, I say to you, if you have faith as a mustard seed, you will say to this mountain, \"Move from here to there, and it will move; and nothing will be impossible for you."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢١ وَأَمَّا هَذَا ٱلْجِنْسُ فَلَا يَخْرُجُ إِلَّا بِٱلصَّلَاةِ وَٱلصَّوْمِ».",
+      "English": "21 However, this kind does not go out except by prayer and fasting."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢٢ وَبَينمَا هُمْ يَتَرَدَّدُونَ فِي ٱلْجَلِيلِ قَالَ لَهُمْ يَسُوعُ: «إنَّ ٱبْنَ ٱلْإِنْسَانِ سَيُسَلَّمُ إِلَى أَيْدِي ٱلنَّاسِ",
+      "English": "22 Now while they were staying in Galilee, Jesus said to them, \"The Son of Man is about to be betrayed into the hands of men"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢٣ فَيَقْتُلُونَهُ، وَبَعد ثلاثةِ أيامٍ يَقُومُ». فَحَزِنَتْ قُلُوبُهُم جِدًّا.",
+      "English": "23 And they will kill Him, and the third day He will be raised up.\" And they were exceedingly sorrowful."
+    }
+  ]
 }

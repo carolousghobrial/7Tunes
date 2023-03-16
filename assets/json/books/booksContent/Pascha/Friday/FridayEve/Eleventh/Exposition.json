@@ -1,4 +1,63 @@
 {
-"arabic": " إسمعوا يا داود ملك أورشليم يبكت رجالها والسكان فيها قائلا: لماذا الأمم رفعوا أصواتهم والشعوب تكلموا بالأباطيل؟,\nقامت ملوك الأرض ورؤساؤهم واجتمعوا معاً، هؤلاء اجتمعوا على الرب وعلى مسيحه مخلص العالم. علم داود بالروح القدس ما سيكون بأورشليم التي هي صارت مجمع باطل في دار رئيس كهنتها،,\nفإنهم كانوا يطلبون شهادة زور على يسوع ليحكموا عليه بحكم الموت، فشهد عليه رجال كثيرون فلم تتفق شهاداتهم إلا رجلان جاءا أخيرا,\nوشهدا هكذا امام الجميع بإنه قال: انقضوا هذا الهيكل وانا أقيمه في ثلاثة أيام. قال رئيس الكهنة: لم لا تجيبني؟ إن كنت أنت إبن الله فقل الحق. أنت الذي قلت إني أنا إبن الله، فشق رئيس الكهنة ثيابه: لسنا نحتاج إلى شهادة، قد جدف، وتجديفه سمعنا!.,\nوفي هذا كله كان سمعان بطرس واقفا يصطلى، فقال له واحد: انت تلميذهذا الجليلي. فقال: لا.,\nوآخر قال: أنت أيضاً رجل جليلي. فقال: لست انا. وفي ثالث دفعة، قال له آخر: أنا رأيتك معه في البستان. فحرم نفسه وحده قائلا: إني لا أعرف معنى ما تقولون.,\nوعندما صاح الدين تيقظ بطرس وخرج إلى خارج وبكى بُكاءً مرا.,\n()",
-"english": " Listen to David the king of Jerusalem, rebuke her dwellers saying, \"Why do the nations rage, and the peoples meditate on vain things?,\nThe kings of the earth set themselves, and the rulers gather together against the Lord and against His anointed.\" David knew by inspiration of the Holy Spirit what would happen to Jerusalem, which become a corrupt forum in the house of the high priest.,\nThey sought a false testimony against Jesus so that they might condemn him to death. Many testified against Him but only the testimony of two of them concurred.,\nThese testified that He said, \"Destroy the temple and I will rebuild it in three days.\" The high priest asked him, \"Why don't you reply. If you are the son of God, tell the truth.\" \"You said it,\" replied Jesus. The high priest rent his robes and said, \"We don't need any testimony. He has uttered blasphemy and we heard it.\",\nDuring all this, Simon Peter was standing by the fire, warming himself up. A maid came up to him and said, \"You also were with Jesus the Galilean.\" He denied it.,\nThen another maid saw him and said to him, \"You are also a Galilean.\" Peter replied: \"Not I.\" Then the third time, another said to him, \"I saw you with him in the garden.\" Peter said: \"I don't know what you are talking about.\",\nWhen the rooster crowed, Peter became aware of what he did. He went outside and wept bitterly.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إسمعوا يا داود ملك أورشليم يبكت رجالها والسكان فيها قائلا: لماذا الأمم رفعوا أصواتهم والشعوب تكلموا بالأباطيل؟",
+      "English": "Listen to David the king of Jerusalem, rebuke her dwellers saying, \"Why do the nations rage, and the peoples meditate on vain things?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قامت ملوك الأرض ورؤساؤهم واجتمعوا معاً، هؤلاء اجتمعوا على الرب وعلى مسيحه مخلص العالم. علم داود بالروح القدس ما سيكون بأورشليم التي هي صارت مجمع باطل في دار رئيس كهنتها،",
+      "English": "The kings of the earth set themselves, and the rulers gather together against the Lord and against His anointed.\" David knew by inspiration of the Holy Spirit what would happen to Jerusalem, which become a corrupt forum in the house of the high priest."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فإنهم كانوا يطلبون شهادة زور على يسوع ليحكموا عليه بحكم الموت، فشهد عليه رجال كثيرون فلم تتفق شهاداتهم إلا رجلان جاءا أخيرا",
+      "English": "They sought a false testimony against Jesus so that they might condemn him to death. Many testified against Him but only the testimony of two of them concurred."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وشهدا هكذا امام الجميع بإنه قال: انقضوا هذا الهيكل وانا أقيمه في ثلاثة أيام. قال رئيس الكهنة: لم لا تجيبني؟ إن كنت أنت إبن الله فقل الحق. أنت الذي قلت إني أنا إبن الله، فشق رئيس الكهنة ثيابه: لسنا نحتاج إلى شهادة، قد جدف، وتجديفه سمعنا!.",
+      "English": "These testified that He said, \"Destroy the temple and I will rebuild it in three days.\" The high priest asked him, \"Why don't you reply. If you are the son of God, tell the truth.\" \"You said it,\" replied Jesus. The high priest rent his robes and said, \"We don't need any testimony. He has uttered blasphemy and we heard it.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفي هذا كله كان سمعان بطرس واقفا يصطلى، فقال له واحد: انت تلميذهذا الجليلي. فقال: لا.",
+      "English": "During all this, Simon Peter was standing by the fire, warming himself up. A maid came up to him and said, \"You also were with Jesus the Galilean.\" He denied it."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وآخر قال: أنت أيضاً رجل جليلي. فقال: لست انا. وفي ثالث دفعة، قال له آخر: أنا رأيتك معه في البستان. فحرم نفسه وحده قائلا: إني لا أعرف معنى ما تقولون.",
+      "English": "Then another maid saw him and said to him, \"You are also a Galilean.\" Peter replied: \"Not I.\" Then the third time, another said to him, \"I saw you with him in the garden.\" Peter said: \"I don't know what you are talking about.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وعندما صاح الدين تيقظ بطرس وخرج إلى خارج وبكى بُكاءً مرا.",
+      "English": "When the rooster crowed, Peter became aware of what he did. He went outside and wept bitterly."
+    }
+  ]
 }

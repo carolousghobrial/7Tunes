@@ -1,22 +1,82 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " إنَّ الحِكْمَةَ أَسْرَعُ حَرَكَةً مِنْ كُلِّ مُتَحَرِّكٍ فَهِي تَبْلُغُ وَتَرْتَفِعُ عَلَى الكُلِّ مِنْ أَجْلِ طَهَارَتِهَا،\n",
-    "arabiccoptic": " تيسوفيا غار إسكيم إيخون أني إتكيم تيرو : إسفوه اووه إسنيو إيفول هيتين إبتيرف إثفي بيستوفو : أووشاه غار تي إنتى إتجوم إمفنوتي\n",
-    "coptic": " :covi`a gar `ckim e=oun enh`etkim throu > `cvo\\ ouo\\ `cnhou ebol\\iten `pthrf eqbe pectoubo > ou]a\\ gar te `nte `tjom `mV;>\n",
-    "english": " For wisdom moves from one place to another more easily than motion itself, and because of her purity, she penetrates all things.\n",
-    "englishcoptic": " Tee-sofia ghar eskim ekhon enee-etkeem teero; es-kho owoh esneyo vol hiten pterf etheve pestovo; oshah ghar te ente etgom emefnoti.\n"
-  },
-  {
-    "arabic": " فَإِنَّهَا شُعَاعُ قُوَّةِ اللهِ. وَفَيْضٌ مِنْ بَهَاءِ المَجْدِ المُقَدَّسِ الَّذِي لِضَابِطِ الكُلِّ،,\nفَلِذَلِكَ لَا يَقْرُبُ مِنْهَا شَيئٌ دَنِسٌ لِأَنَّهَا ضِيَاءُ النُورِ الأَزَلِيِّ,,\nوَمِرْأَةُ أَعْمَالِ اللهِ النَقِيَّةِ وَصُورَةُ صَلَاحِهِ,\nتَقْدِرُ عَلَي كُلِّ شَيئٍ وَهِيَّ وَاحِدَةٌ وَتُجَدِّدُ كُلَّ شَيئٍ, وَهِيَّ ثَابِتَةٌ فِي ذَاتِهَا,\nوَفِي كُلِّ جِيِلٍ تَحِلُّ فِي النُفُوسِ الطَاهِرَةِ وَتَجْعَلُهُمْ شُرَكَاءَ اللهِ وَتُصَيِّرُهُمْ أَنْبِيَاءً,\nلِأَنَّ اللهَ لاَ يُحِبُّ أَحَدَاً إِلاَّ مَنْ يُسَاكِنُ الحِكْمَةَ.,\nلِأَنَّهَا أَبْهَي مِنَ الشَمْسِ، وَأَسْمَي مِنْ كُلِّ مَرْكَزٍ لِلنُجُومِ،,\nوَإِذَا قِيسَتْ بِالنُورِ تَقَدَّمَتْ عَلَيهِ، لِأَنَّ النُورَ يَعْقُبُهُ اللَيلُ، وَأَمَّا الحِكْمَةُ فَلاَ يَقْوَى عَلَيهَا الظَلَامُ.,\n",
-    "english": " So she is exaltation of the power of God and emanation of the pure glory of the Almighty;,\nTherefore nothing defiled enters her. For she is the radiance of eternal light,,\nA spotless mirror of the power of God and the image of His goodness.,\nThough she is one, she can do all things; so while remaining in herself, she renews all things;,\nAnd in every generation, she passes into holy souls and makes them friends of God and prophets.,\nThus God loves nothing as much as the one who lives with wisdom.,\nFor wisdom is more beautiful than the sun and more than every constellation of stars.,\nCompared with light she is found to be superior, for the light is followed by night, but evil cannot overcome wisdom.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": " 7:24-30 من حكمة سليمان",
+  "EnglishTitle": "Wisdom of Solomon 7:24-30 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إنَّ الحِكْمَةَ أَسْرَعُ حَرَكَةً مِنْ كُلِّ مُتَحَرِّكٍ فَهِي تَبْلُغُ وَتَرْتَفِعُ عَلَى الكُلِّ مِنْ أَجْلِ طَهَارَتِهَا،",
+      "Coptic": ":covi`a gar `ckim e=oun enh`etkim throu > `cvo\\ ouo\\ `cnhou ebol\\iten `pthrf eqbe pectoubo > ou]a\\ gar te `nte `tjom `mV;>",
+      "English": "For wisdom moves from one place to another more easily than motion itself, and because of her purity, she penetrates all things.",
+      "Arabiccoptic": "تيسوفيا غار إسكيم إيخون أني إتكيم تيرو : إسفوه اووه إسنيو إيفول هيتين إبتيرف إثفي بيستوفو : أووشاه غار تي إنتى إتجوم إمفنوتي",
+      "Englishcoptic": "Tee-sofia ghar eskim ekhon enee-etkeem teero; es-kho owoh esneyo vol hiten pterf etheve pestovo; oshah ghar te ente etgom emefnoti."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَإِنَّهَا شُعَاعُ قُوَّةِ اللهِ. وَفَيْضٌ مِنْ بَهَاءِ المَجْدِ المُقَدَّسِ الَّذِي لِضَابِطِ الكُلِّ،",
+      "English": "So she is exaltation of the power of God and emanation of the pure glory of the Almighty;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلِذَلِكَ لَا يَقْرُبُ مِنْهَا شَيئٌ دَنِسٌ لِأَنَّهَا ضِيَاءُ النُورِ الأَزَلِيِّ",
+      "English": "Therefore nothing defiled enters her. For she is the radiance of eternal light"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمِرْأَةُ أَعْمَالِ اللهِ النَقِيَّةِ وَصُورَةُ صَلَاحِهِ",
+      "English": "A spotless mirror of the power of God and the image of His goodness."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تَقْدِرُ عَلَي كُلِّ شَيئٍ وَهِيَّ وَاحِدَةٌ وَتُجَدِّدُ كُلَّ شَيئٍ, وَهِيَّ ثَابِتَةٌ فِي ذَاتِهَا",
+      "English": "Though she is one, she can do all things; so while remaining in herself, she renews all things;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَفِي كُلِّ جِيِلٍ تَحِلُّ فِي النُفُوسِ الطَاهِرَةِ وَتَجْعَلُهُمْ شُرَكَاءَ اللهِ وَتُصَيِّرُهُمْ أَنْبِيَاءً",
+      "English": "And in every generation, she passes into holy souls and makes them friends of God and prophets."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأَنَّ اللهَ لاَ يُحِبُّ أَحَدَاً إِلاَّ مَنْ يُسَاكِنُ الحِكْمَةَ.",
+      "English": "Thus God loves nothing as much as the one who lives with wisdom."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأَنَّهَا أَبْهَي مِنَ الشَمْسِ، وَأَسْمَي مِنْ كُلِّ مَرْكَزٍ لِلنُجُومِ،",
+      "English": "For wisdom is more beautiful than the sun and more than every constellation of stars."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإِذَا قِيسَتْ بِالنُورِ تَقَدَّمَتْ عَلَيهِ، لِأَنَّ النُورَ يَعْقُبُهُ اللَيلُ، وَأَمَّا الحِكْمَةُ فَلاَ يَقْوَى عَلَيهَا الظَلَامُ.",
+      "English": "Compared with light she is found to be superior, for the light is followed by night, but evil cannot overcome wisdom."
+    }
+  ]
 }

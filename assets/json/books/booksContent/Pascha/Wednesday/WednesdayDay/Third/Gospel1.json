@@ -1,22 +1,58 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " وَلَمَّا قَرُبَ عِيدُ الْفَطِيرِ، الَّذِي يُقَالُ لَهُ الْفِصْحُ.\n",
-    "arabiccoptic": " ناف خينت ذى بى إنجى إبشاى إنتى نى أت شيمير فى إيطوموتى إيروف جى بى باصخا.\n",
-    "coptic": " Naf=ent de pe `nje `p]ai `nte niat]emhr vh`etoumou; `erof je pipacxa >\n",
-    "english": " Now the Feast of Unleavened Bread drew near, which is called Passover.\n",
-    "englishcoptic": " Naf khent ze pe enje ep ashai ente ni at shemir vi eto moty erof je pi Pascka.\n"
-  },
-  {
-    "arabic": " وَكَانَ رُؤَسَاءُ الْكَهَنَةِ وَالْكَتَبَةُ يَطْلُبُونَ كَيْفَ يَقْتُلُونَهُ، وَلَكِنَّهُمْ كَانُوا يَخَافُونَ مِنَ الشَّعْبِ.,\nفَدَخَلَ الشَّيْطَانُ فِي قَلبِ يَهُوذَا الَّذِي يُدْعَى الإِسْخَرْيُوطِيَّ، وَهُوَ أَحَدُ الاثْنَيْ عَشَرَ.,\nفَمَضَى وَفَاوَضَ رُؤَسَاءَ الْكَهَنَةِ وَقُوَّادَ الْجُنْدِ كَيْفَ يُسَلِّمُهُ إِلَيْهِمْ.,\nفَفَرِحُوا وَعَاهَدُوهُ أَنْ يُعْطُوهُ فِضَّةً.,\nفَشَكَرَ وَكَانَ يَطْلُبُ فُرْصَةً لِيُسَلِّمَهُ إِلَيْهِمْ  بِمَعْزَلٍ عَنْ الجَمْعِ.,\n",
-    "english": " And the chief priests and the scribes sought how they might kill Him, for they feared the people.,\nThen Satan entered Judas, surnamed Iscariot, who was numbered among the twelve.,\nSo he went his way and conferred with the chief priests and captains, how he might betray Him to them.,\nAnd they were glad, and agreed to give him money.,\nSo he promised and sought opportunity to betray Him to them the multitude.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "22:1-6  الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 22:1-6 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَمَّا قَرُبَ عِيدُ الْفَطِيرِ، الَّذِي يُقَالُ لَهُ الْفِصْحُ.",
+      "Coptic": "Naf=ent de pe `nje `p]ai `nte niat]emhr vh`etoumou; `erof je pipacxa >",
+      "English": "Now the Feast of Unleavened Bread drew near, which is called Passover.",
+      "Arabiccoptic": "ناف خينت ذى بى إنجى إبشاى إنتى نى أت شيمير فى إيطوموتى إيروف جى بى باصخا.",
+      "Englishcoptic": "Naf khent ze pe enje ep ashai ente ni at shemir vi eto moty erof je pi Pascka."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ رُؤَسَاءُ الْكَهَنَةِ وَالْكَتَبَةُ يَطْلُبُونَ كَيْفَ يَقْتُلُونَهُ، وَلَكِنَّهُمْ كَانُوا يَخَافُونَ مِنَ الشَّعْبِ.",
+      "English": "And the chief priests and the scribes sought how they might kill Him, for they feared the people."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَدَخَلَ الشَّيْطَانُ فِي قَلبِ يَهُوذَا الَّذِي يُدْعَى الإِسْخَرْيُوطِيَّ، وَهُوَ أَحَدُ الاثْنَيْ عَشَرَ.",
+      "English": "Then Satan entered Judas, surnamed Iscariot, who was numbered among the twelve."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَمَضَى وَفَاوَضَ رُؤَسَاءَ الْكَهَنَةِ وَقُوَّادَ الْجُنْدِ كَيْفَ يُسَلِّمُهُ إِلَيْهِمْ.",
+      "English": "So he went his way and conferred with the chief priests and captains, how he might betray Him to them."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَفَرِحُوا وَعَاهَدُوهُ أَنْ يُعْطُوهُ فِضَّةً.",
+      "English": "And they were glad, and agreed to give him money."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَشَكَرَ وَكَانَ يَطْلُبُ فُرْصَةً لِيُسَلِّمَهُ إِلَيْهِمْ  بِمَعْزَلٍ عَنْ الجَمْعِ.",
+      "English": "So he promised and sought opportunity to betray Him to them the multitude."
+    }
+  ]
 }

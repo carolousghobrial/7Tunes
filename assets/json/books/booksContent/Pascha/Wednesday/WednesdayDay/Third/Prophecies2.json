@@ -1,22 +1,122 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " الَّذِي يُعَلِّمُ الَأحْمَقَ كَمَنْ يَضْرِبُ شَقْفَةً عَلَي شَقْفَةٍ وَكَمَنْ يُنَبِّهُ مُسْتَغْرِقَاً فِى نَوْمٍ ثَقِیلٍ.\n",
-    "arabiccoptic": " فى ات تى إسفو غار إن او سوج إفؤى إم إفريتى إمفى إت تيم فيلج إ فيلج. تيم إم إفريتى إم فيت طونوس فى إتين كوت خين أو هينيم إف هورش.\n",
-    "coptic": " Vhet ;`cbw gar`noucoj`foi `m`vrh; `mvhettem velj `evelj> nem `m`vrh; `mvettounoc vhetenkot =en ou\\unim ef\\or]>\n",
-    "english": " He who teaches a fool is like one who glues pottery together, or like trying to arouse one from a sound sleep.\n",
-    "englishcoptic": " Vi et ti esvo ghar en-o cog efoi em efreety emvi et tim felg e felg. nem em efreety emvit tonos vi etenkot khen o-hiriny ef horsh.\n"
-  },
-  {
-    "arabic": " مَنْ يُكَلِّمُ الأَحْمَقَ كَمَنْ يُكَلِّمُ مُتَنَاعِسَاً فَإِذَا اِنْتَهَى قَالَ مَاذَا؟,\nاِبْكِ عَلَى المَيِّتِ لِأَنَّهُ فَقَدَ النُورَ وَاِبْكِ عَلَى الأَحْمَقِ, لِأَنَّهُ تَرَكَ عَنْهُ الأَدَبَ وَ فَقَدَ العَقْلَ.,\nأَقْلِلْ مِنَ البُكَاءِ عَلَى المَيِّتِ فَأِنَّهُ اِسْتَرَاحَ. أَمَّا الأَحْمَقُ فَحَيَاتُهُ أَشْقَى مِنْ مَوْتِهِ.,\nالنُوحُ عَلَى المَيِّتِ سَبْعَةَ أَيَّامٍ وَالنُوْحُ عَلَى الأَحْمَقِ وَالمُنَافِقِ جَمِيعَ أَيَّامِ حَيَاتِهِ.,\nلاَتُكْثِرْ الكَلاَمَ مَعَ الأَحْمَقِ وَلاَ تُخَالِطْ الجَاهِلَ.,\nتَحَفَّظْ مِنْهُ. لِئَلَّا تَتْعَبَ وَتَتَدَنَّسَ بِدَنَسِهِ.,\nاِعْرِضْ عَنْهُ وَابْتَعِدْ فَتَجِدَ رَاحَةً وَلاَ تَحْزَنْ بِأَثَامِهِ.,\nأَىُّ شَيئٍ أَثْقَلُ مِنَ الرَصَاصِ وَمَاذَا يُسَمَّى إِلاَّ الأَحْمَقَ.,\nالرَمْلُ وَالمِلْحُ وَقُرْمَةُ حَدِيدٍ أَخَفُّ حَمْلاً مِنَ الرَجُلِ الجَاهِلِ.,\nكَعِرقِ الخَشَبِ المَرْبُوطِ فِي البِنَاءِ لاَ يَتَفَكَّكُ فِي الزَلْزَلَةِ. كَذَلِكَ القَلْبُ الثَابِتُ بِالمَشُورَةِ,\nوَالقَلْبُ الثَابِتُ بِفِكْرِ الفَهْمِ لاَ يَجْزَعُ اِلَى الأَبَدِ.,\nكَمَا أَنَّ زِينَةَ الأَجْدَارِ المُشَيَّدَةِ وَالأَقْصَابِ (الأوتاد) المَوْضُوعَةِ فِى مَكَانٍ مُرْتَفِعٍ لاَ تَهْدِى أَمَامَ كُلِّ رِيحٍ.,\nكَذَلِكَ القَلْبُ الجَبَانُ وَفِكْرُ الأَحْمَقِ لاَ يَهْدِىَ أَمَامَ كُلِّ هَوْلٍ.,\n",
-    "english": " He who tells something to a fool tells it to a drowsy man, and at the end he will say, \"What is it?\",\nWeep for a dead man, for he left the light behind; but weep over a fool, for he left intelligence behind.,\nWeep gladly for a dead man, because he is at rest; but the life of the fool is worse than death.,\nMourning for a dead man lasts seven days, but mourning for a fool or an ungodly man lasts all his life.,\nDo not hold a conversation with a fool, and do not visit with a senseless man.,\nBeware of him, so as to avoid trouble, and you will not be defiled when he shakes himself off.,\nStay away from him, and you will find rest and not be exhausted by his insanity.,\nWhat will be heavier than lead? And what will be his name but \"Fool\"?,\nSand, salt, and a piece of iron are easier to bear than a senseless man.,\nA wooden beam bound together in a building will not be broken loose in an earthquake; so a heart strengthened by reasonable counsel will not be afraid in a crisis.,\nA heart settled on intelligent thought is like a plaster decoration on a smooth wall.,\nAs fences set on a high place will not stand firm against the wind,,\nSo a cowardly heart in the thought of a fool cannot stand firm against any kind of fear.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "22:7-18 من يشوع بن سيراخ",
+  "EnglishTitle": "Joshua Son of Sirach 22:7-18 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الَّذِي يُعَلِّمُ الَأحْمَقَ كَمَنْ يَضْرِبُ شَقْفَةً عَلَي شَقْفَةٍ وَكَمَنْ يُنَبِّهُ مُسْتَغْرِقَاً فِى نَوْمٍ ثَقِیلٍ.",
+      "Coptic": "Vhet ;`cbw gar`noucoj`foi `m`vrh; `mvhettem velj `evelj> nem `m`vrh; `mvettounoc vhetenkot =en ou\\unim ef\\or]>",
+      "English": "He who teaches a fool is like one who glues pottery together, or like trying to arouse one from a sound sleep.",
+      "Arabiccoptic": "فى ات تى إسفو غار إن او سوج إفؤى إم إفريتى إمفى إت تيم فيلج إ فيلج. تيم إم إفريتى إم فيت طونوس فى إتين كوت خين أو هينيم إف هورش.",
+      "Englishcoptic": "Vi et ti esvo ghar en-o cog efoi em efreety emvi et tim felg e felg. nem em efreety emvit tonos vi etenkot khen o-hiriny ef horsh."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنْ يُكَلِّمُ الأَحْمَقَ كَمَنْ يُكَلِّمُ مُتَنَاعِسَاً فَإِذَا اِنْتَهَى قَالَ مَاذَا؟",
+      "English": "He who tells something to a fool tells it to a drowsy man, and at the end he will say, \"What is it?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اِبْكِ عَلَى المَيِّتِ لِأَنَّهُ فَقَدَ النُورَ وَاِبْكِ عَلَى الأَحْمَقِ, لِأَنَّهُ تَرَكَ عَنْهُ الأَدَبَ وَ فَقَدَ العَقْلَ.",
+      "English": "Weep for a dead man, for he left the light behind; but weep over a fool, for he left intelligence behind."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَقْلِلْ مِنَ البُكَاءِ عَلَى المَيِّتِ فَأِنَّهُ اِسْتَرَاحَ. أَمَّا الأَحْمَقُ فَحَيَاتُهُ أَشْقَى مِنْ مَوْتِهِ.",
+      "English": "Weep gladly for a dead man, because he is at rest; but the life of the fool is worse than death."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "النُوحُ عَلَى المَيِّتِ سَبْعَةَ أَيَّامٍ وَالنُوْحُ عَلَى الأَحْمَقِ وَالمُنَافِقِ جَمِيعَ أَيَّامِ حَيَاتِهِ.",
+      "English": "Mourning for a dead man lasts seven days, but mourning for a fool or an ungodly man lasts all his life."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لاَتُكْثِرْ الكَلاَمَ مَعَ الأَحْمَقِ وَلاَ تُخَالِطْ الجَاهِلَ.",
+      "English": "Do not hold a conversation with a fool, and do not visit with a senseless man."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تَحَفَّظْ مِنْهُ. لِئَلَّا تَتْعَبَ وَتَتَدَنَّسَ بِدَنَسِهِ.",
+      "English": "Beware of him, so as to avoid trouble, and you will not be defiled when he shakes himself off."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اِعْرِضْ عَنْهُ وَابْتَعِدْ فَتَجِدَ رَاحَةً وَلاَ تَحْزَنْ بِأَثَامِهِ.",
+      "English": "Stay away from him, and you will find rest and not be exhausted by his insanity."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَىُّ شَيئٍ أَثْقَلُ مِنَ الرَصَاصِ وَمَاذَا يُسَمَّى إِلاَّ الأَحْمَقَ.",
+      "English": "What will be heavier than lead? And what will be his name but \"Fool\"?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرَمْلُ وَالمِلْحُ وَقُرْمَةُ حَدِيدٍ أَخَفُّ حَمْلاً مِنَ الرَجُلِ الجَاهِلِ.",
+      "English": "Sand, salt, and a piece of iron are easier to bear than a senseless man."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كَعِرقِ الخَشَبِ المَرْبُوطِ فِي البِنَاءِ لاَ يَتَفَكَّكُ فِي الزَلْزَلَةِ. كَذَلِكَ القَلْبُ الثَابِتُ بِالمَشُورَةِ",
+      "English": "A wooden beam bound together in a building will not be broken loose in an earthquake; so a heart strengthened by reasonable counsel will not be afraid in a crisis."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَالقَلْبُ الثَابِتُ بِفِكْرِ الفَهْمِ لاَ يَجْزَعُ اِلَى الأَبَدِ.",
+      "English": "A heart settled on intelligent thought is like a plaster decoration on a smooth wall."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كَمَا أَنَّ زِينَةَ الأَجْدَارِ المُشَيَّدَةِ وَالأَقْصَابِ (الأوتاد) المَوْضُوعَةِ فِى مَكَانٍ مُرْتَفِعٍ لاَ تَهْدِى أَمَامَ كُلِّ رِيحٍ.",
+      "English": "As fences set on a high place will not stand firm against the wind"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كَذَلِكَ القَلْبُ الجَبَانُ وَفِكْرُ الأَحْمَقِ لاَ يَهْدِىَ أَمَامَ كُلِّ هَوْلٍ.",
+      "English": "So a cowardly heart in the thought of a fool cannot stand firm against any kind of fear."
+    }
+  ]
 }

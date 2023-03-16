@@ -1,22 +1,48 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وَإذ كَانَ يُصَلِّي مُنْفَرِدَاً وَحْدَهُ كَانَ تَلَامِيذُه مَعَهُ. فَسَأَلَهُمْ قَائِلًا: «مَنْ تَقُولُ ٱلْجُمُوعُ أَنِّي أَنَا؟»\n",
-"arabiccoptic": " أووه أس شوبي إفکی سا إبسا أمما فاطف إف أر إبروس إف شيستی ناف کی نيماف بی إنجي نيف ماثيتيس أووه أف شينو إفجو إمموس جی أرى نيميش جو إمموس جی آنوك نيم:\n",
-"coptic": " Ouo\\ ac]wpi efxh capca mmauatf eferproceuxecqe nauxi nemaf pe nje nefmaqhthc ouo\\ af]enou efjw mmoc je are nimh] jw mmoc je anok nim>\n",
-"english": " And it happened, as He was alone praying, that His disciples joined Him, and He asked them, saying. \"Who do the crowds say that I am?”\n",
-"englishcoptic": " Owoh as-shopi efki sapsa emma-vatf ef-er-eprosevkee-este navki nemaf pe enje nef-mathitis owoh afsheno-oo efgo emos : JE ar-e nimish go emmos je Anok Nim\n",
-},
-{
-"arabic": " ١٩أَمَّا هُمْ فَأَجَابُوا وَقَالوا: «يُوحَنَّا ٱلْمَعْمَدَانُ. وَآخَرُونَ: إِيلِيَّا. وَآخَرُونَ يَقُولُونَ إِنَّ نَبِيًّا مِنَ ٱلْأَولِينَ قَدْ قَامَ».,\n٢٠ فَقَالَ لَهُمْ: «وَأَنْتُمْ، مَنْ تَقُولُونَ أَنِّي أَنَا؟» فَأَجَابَ بُطْرُسُ وَقَالَ: « أَنْتَ مَسِيحُ ٱللهِ! ».,\n٢١ فَأَمَّا هُوَ فَٱنْتَهَرَهُمْ وَأَوْصَاهُمْ أَنْ لَا يَقُولُوا هذا لِأَحَدٍ،,\n٢٢ وقَالَ: «إِنَّهُ يَنْبَغِي لٱبْنَ ٱلْبشر أن يَتَأَلَّمُ كَثِيرًا، وَيُرذلَ مِنَ ٱلشُّيُوخِ وَرُؤَسَاءِ ٱلْكَهَنَةِ وَٱلْكَتَبَةِ، وَيُقْتَلُونه، وَفِي ٱلْيَوْمِ ٱلثَّالِثِ يَقُومُ».,\n",
-"english": " 19 So they answered and said, \"John the Baptist, but some say Elijah; And others say that one of the old prophets has risen again.\",\n20 He said to them, \"But who do you say that I am?\" Peter answered and said, The Christ of God.\",\n21 And He strictly warned and commanded them to tell this to no one,,\n22 Saying. \"The Son of Man must suffer many things, and be rejected by the elders and chief priests and scribes, and be killed, and be raised the third day.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإذ كَانَ يُصَلِّي مُنْفَرِدَاً وَحْدَهُ كَانَ تَلَامِيذُه مَعَهُ. فَسَأَلَهُمْ قَائِلًا: «مَنْ تَقُولُ ٱلْجُمُوعُ أَنِّي أَنَا؟»",
+      "Coptic": "Ouo\\ ac]wpi efxh capca mmauatf eferproceuxecqe nauxi nemaf pe nje nefmaqhthc ouo\\ af]enou efjw mmoc je are nimh] jw mmoc je anok nim>",
+      "English": "And it happened, as He was alone praying, that His disciples joined Him, and He asked them, saying. \"Who do the crowds say that I am?”",
+      "Arabiccoptic": "أووه أس شوبي إفکی سا إبسا أمما فاطف إف أر إبروس إف شيستی ناف کی نيماف بی إنجي نيف ماثيتيس أووه أف شينو إفجو إمموس جی أرى نيميش جو إمموس جی آنوك نيم:",
+      "Englishcoptic": "Owoh as-shopi efki sapsa emma-vatf ef-er-eprosevkee-este navki nemaf pe enje nef-mathitis owoh afsheno-oo efgo emos : JE ar-e nimish go emmos je Anok Nim"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "١٩أَمَّا هُمْ فَأَجَابُوا وَقَالوا: «يُوحَنَّا ٱلْمَعْمَدَانُ. وَآخَرُونَ: إِيلِيَّا. وَآخَرُونَ يَقُولُونَ إِنَّ نَبِيًّا مِنَ ٱلْأَولِينَ قَدْ قَامَ».",
+      "English": "19 So they answered and said, \"John the Baptist, but some say Elijah; And others say that one of the old prophets has risen again.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢٠ فَقَالَ لَهُمْ: «وَأَنْتُمْ، مَنْ تَقُولُونَ أَنِّي أَنَا؟» فَأَجَابَ بُطْرُسُ وَقَالَ: « أَنْتَ مَسِيحُ ٱللهِ! ».",
+      "English": "20 He said to them, \"But who do you say that I am?\" Peter answered and said, The Christ of God.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢١ فَأَمَّا هُوَ فَٱنْتَهَرَهُمْ وَأَوْصَاهُمْ أَنْ لَا يَقُولُوا هذا لِأَحَدٍ،",
+      "English": "21 And He strictly warned and commanded them to tell this to no one"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢٢ وقَالَ: «إِنَّهُ يَنْبَغِي لٱبْنَ ٱلْبشر أن يَتَأَلَّمُ كَثِيرًا، وَيُرذلَ مِنَ ٱلشُّيُوخِ وَرُؤَسَاءِ ٱلْكَهَنَةِ وَٱلْكَتَبَةِ، وَيُقْتَلُونه، وَفِي ٱلْيَوْمِ ٱلثَّالِثِ يَقُومُ».",
+      "English": "22 Saying. \"The Son of Man must suffer many things, and be rejected by the elders and chief priests and scribes, and be killed, and be raised the third day."
+    }
+  ]
 }

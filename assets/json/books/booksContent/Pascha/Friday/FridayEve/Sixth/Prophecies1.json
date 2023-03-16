@@ -1,22 +1,50 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وَصَارتْ إِلَيَّ كَلِمَةُ الرَّبِّ قَائِلًا:  «يَا ابْنَ الإنسانِ، قُلْ لَهَا: إنكِ أَنْتِ هى الأَرْضُ الَّتِي لَا تَقْبَلُ الماءَ، وَلَمْ يَأتِ عَلَيْكِ مَطَرٌ فِي يَوْمِ غَضَبِي.\n",
-"arabiccoptic": " أووه أ أو ساجى إنتى إبشويس شوبى هاروى إفجو إمموس. جى إبشيرى إن إفرومى  أجوس ناس. جى إنثو بى بيكاهى إيتى إمبيف إتشى موأو. أوذى إمبي مون هوأوى إيجو خين إب إيهوؤ إمباجونت.\n",
-"coptic": " Ouo\\ `aoucaji `nte Poc?  ]wpi \\aroi efjw`mmoc> je `p]hri `m`vrwmi `ajoc nac > je `nqo pe pika\\i `ete `mefsimwou> oude `mpemoun\\wou `i `ejw =en `p`e\\oou `mpajwnt.\n",
-"english": " Again the word of the Lord came to me, saying, Son of man, say to her, You are the land not rained on, neither has rain come upon you in the day of wrath.'\n",
-"englishcoptic": " owoh a-osajy ente Eshois shopi haroi efgo emmos. Je epshiry en efromy agos nas. je entho pe pikahy ete empef etchi mo-o. oze empi mon ho-oui ego khen ep eho-o empagont.\n",
-},
-{
-"arabic": " التى مدبريها فِي وَسْطِهَا كَالأُسُدِ المُفْتَرِسَةِ يَخْطُفُونَ إخْتِطَافاً. يأَكَلُون النُفُوسَ بقوةٍ. وَيقبلون الرُشَاءِ، وَقَدْ كَثُرَت أَرَامِلُكِ فِيكِ.,\nوَكَهَنَتُكِ تَعَدُّوا شَرِيعَتِي وَدَنَّسُوا أَقْدَاسِي. وَلَمْ يُمَيِّزُوا بَيْنَ الْبَارِ وَالْفَاجِرِ، وَبَيْنَ النَّجِسِ وَالطَّاهِرِ، وَحَجَبُوا عُيُونَهُمْ عَنْ سُبُوتِي وَرَذَلُونِى فِي وَسَطِكِ.,\nوَرُؤَسَاؤُهَا فِي وَسْطِهَا كَالذِئَابِ الخَاطِفَةِ للفَرِيسَةِ يسفكون الدِمَاءِ، لِيَأخُذُوا بالأفْضَلِ كثيراً.,\nوَأَنْبِيَاؤُهَا الَّذِينَ مَسَحُوهُمْ يَسْقُطُونَ لِأنَّهُم يَنْظُرُونَ البَاطِلَ وَيُنَمُّونَ الكَذِبَ.,\n",
-"english": " Who devour souls by domination and receive honors in wrongdoing; and your widows multiply in your midst.,\nHer priests reject My law and desecrate My holy things. They no longer distinguish between the holy and the profane, nor between the unclean and the clean. They have hidden their eyes from My Sabbaths, and I am desecrated in their midst.,\nHer rulers in her midst are like wolves seizing their prey, so as to shed blood and exploit others for greed.,\nHer prophets who anoint them will fall because they see worthless and false prophecies.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "22:23-28 من سفر حزقيال النبى",
+  "EnglishTitle": "Ezekiel 22:23-28 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَصَارتْ إِلَيَّ كَلِمَةُ الرَّبِّ قَائِلًا:  «يَا ابْنَ الإنسانِ، قُلْ لَهَا: إنكِ أَنْتِ هى الأَرْضُ الَّتِي لَا تَقْبَلُ الماءَ، وَلَمْ يَأتِ عَلَيْكِ مَطَرٌ فِي يَوْمِ غَضَبِي.",
+      "Coptic": "Ouo\\ `aoucaji `nte Poc?  ]wpi \\aroi efjw`mmoc> je `p]hri `m`vrwmi `ajoc nac > je `nqo pe pika\\i `ete `mefsimwou> oude `mpemoun\\wou `i `ejw =en `p`e\\oou `mpajwnt.",
+      "English": "Again the word of the Lord came to me, saying, Son of man, say to her, You are the land not rained on, neither has rain come upon you in the day of wrath.'",
+      "Arabiccoptic": "أووه أ أو ساجى إنتى إبشويس شوبى هاروى إفجو إمموس. جى إبشيرى إن إفرومى  أجوس ناس. جى إنثو بى بيكاهى إيتى إمبيف إتشى موأو. أوذى إمبي مون هوأوى إيجو خين إب إيهوؤ إمباجونت.",
+      "Englishcoptic": "owoh a-osajy ente Eshois shopi haroi efgo emmos. Je epshiry en efromy agos nas. je entho pe pikahy ete empef etchi mo-o. oze empi mon ho-oui ego khen ep eho-o empagont."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "التى مدبريها فِي وَسْطِهَا كَالأُسُدِ المُفْتَرِسَةِ يَخْطُفُونَ إخْتِطَافاً. يأَكَلُون النُفُوسَ بقوةٍ. وَيقبلون الرُشَاءِ، وَقَدْ كَثُرَت أَرَامِلُكِ فِيكِ.",
+      "English": "Who devour souls by domination and receive honors in wrongdoing; and your widows multiply in your midst."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَهَنَتُكِ تَعَدُّوا شَرِيعَتِي وَدَنَّسُوا أَقْدَاسِي. وَلَمْ يُمَيِّزُوا بَيْنَ الْبَارِ وَالْفَاجِرِ، وَبَيْنَ النَّجِسِ وَالطَّاهِرِ، وَحَجَبُوا عُيُونَهُمْ عَنْ سُبُوتِي وَرَذَلُونِى فِي وَسَطِكِ.",
+      "English": "Her priests reject My law and desecrate My holy things. They no longer distinguish between the holy and the profane, nor between the unclean and the clean. They have hidden their eyes from My Sabbaths, and I am desecrated in their midst."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَرُؤَسَاؤُهَا فِي وَسْطِهَا كَالذِئَابِ الخَاطِفَةِ للفَرِيسَةِ يسفكون الدِمَاءِ، لِيَأخُذُوا بالأفْضَلِ كثيراً.",
+      "English": "Her rulers in her midst are like wolves seizing their prey, so as to shed blood and exploit others for greed."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَنْبِيَاؤُهَا الَّذِينَ مَسَحُوهُمْ يَسْقُطُونَ لِأنَّهُم يَنْظُرُونَ البَاطِلَ وَيُنَمُّونَ الكَذِبَ.",
+      "English": "Her prophets who anoint them will fall because they see worthless and false prophecies."
+    }
+  ]
 }

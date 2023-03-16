@@ -1,4 +1,47 @@
 {
-"arabic": " تأملوا يا أهل المعرفة تدبير الله الكلمة الذى بيده سلطان الموت وحياة كل أحد من عنده،,\nلكن لأجل جسد البشرية الذى أخذه منا يظهر القلق والضعف.,\nقال المخلص : الأن نفسى مضطربة وماذا أقول، يا أبتاه نجنى من هذه الساعة، لكن لأجل هذه الساعة أتيت. نعم نفسى بالحقيقة أتى إلى العالم لكى يتألم من أجل خلاصنا،,\nويصعد من الجحيم الإنسان الأول الذى خلقه ويرده إلى وطنه الأول هو وبنيه كعظيم رحمته.,\nفلنصرخ نحوه بغير تكاسل ونطلب إليه بغير فتور لكى يجعلنا شركاء معه فى مجد ملكوته ويثبتنا إلى النفس الأخير علي الإيمان باسمه القدوس.,\n()",
-"english": " Let us contemplate the plans of God the Word who has the power over death and the life of every one of us is from Him.,\nHowever, because he was incarnated in our human form, he agonized over what had to be done and showed troubles and weakness.,\nThe Savior said: \"Now is my soul troubled, and what shall I say? Father, save me from this hour? No, for this purpose I have come to this hour.\" Yes truly he came to the world so that He may suffer for our salvation.,\nTo lift from Hades the first man that he created and to return the first man to his original home he and his descendants, according to his great mercies.,\nLet us plead with him earnestly and ask of him persistently to partake in the glory of his kingdom and to enforce our faith in this holy name till the last breath.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تأملوا يا أهل المعرفة تدبير الله الكلمة الذى بيده سلطان الموت وحياة كل أحد من عنده،",
+      "English": "Let us contemplate the plans of God the Word who has the power over death and the life of every one of us is from Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكن لأجل جسد البشرية الذى أخذه منا يظهر القلق والضعف.",
+      "English": "However, because he was incarnated in our human form, he agonized over what had to be done and showed troubles and weakness."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قال المخلص : الأن نفسى مضطربة وماذا أقول، يا أبتاه نجنى من هذه الساعة، لكن لأجل هذه الساعة أتيت. نعم نفسى بالحقيقة أتى إلى العالم لكى يتألم من أجل خلاصنا،",
+      "English": "The Savior said: \"Now is my soul troubled, and what shall I say? Father, save me from this hour? No, for this purpose I have come to this hour.\" Yes truly he came to the world so that He may suffer for our salvation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويصعد من الجحيم الإنسان الأول الذى خلقه ويرده إلى وطنه الأول هو وبنيه كعظيم رحمته.",
+      "English": "To lift from Hades the first man that he created and to return the first man to his original home he and his descendants, according to his great mercies."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنصرخ نحوه بغير تكاسل ونطلب إليه بغير فتور لكى يجعلنا شركاء معه فى مجد ملكوته ويثبتنا إلى النفس الأخير علي الإيمان باسمه القدوس.",
+      "English": "Let us plead with him earnestly and ask of him persistently to partake in the glory of his kingdom and to enforce our faith in this holy name till the last breath."
+    }
+  ]
 }

@@ -1,7 +1,18 @@
 {
-  "arabic": " مَلجَأِي وَإِلَهِى فَأتَّكِلُ عَلَيهِ. لأنَّهُ يُنَجِّينِي مِنْ فَخِّ الصَيَّادِ. وَمِنْ كَلِمَةٍ مُقْلِقَةٍ. هَلِّليلُويَا.,\n",
-  "arabiccoptic": " باما إمفوت بانووتى تينا إرهيلبيسس إروف : جيه أنثوف إفئناهميف إيفول ها : بى فاش إنتيــه بى ريف جورج : نيم إيفول ها أووصاجى إنريف إشطورتير . الليلويا .\n",
-  "coptic": " Pama `mvwt panou; ;naer\\elpic `erof> je `nqof ef`e na\\met `ebol\\a piva] `nte pirefjwrj> nem `ebol\\a oucaji `nref `]qorter> `allhloui`a\n",
-  "english": " You are my protector and my refuge; my God; I will hope in Him. For He shall free Me from the snare of the hunters, and from every troubling word. Alleluia,\n",
-  "englishcoptic": " Pama emfoti panoti Teena-erhelpis erof; je enthof efee-enahmet; Evol ha pifash ente piref-gorg; nem evol ha oosaji enref esh-thorter. Alleluia.\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "91:2-3 مزمور",
+  "EnglishTitle": "Psalm 91:2-3 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَلجَأِي وَإِلَهِى فَأتَّكِلُ عَلَيهِ. لأنَّهُ يُنَجِّينِي مِنْ فَخِّ الصَيَّادِ. وَمِنْ كَلِمَةٍ مُقْلِقَةٍ. هَلِّليلُويَا.",
+      "Coptic": "Pama `mvwt panou; ;naer\\elpic `erof> je `nqof ef`e na\\met `ebol\\a piva] `nte pirefjwrj> nem `ebol\\a oucaji `nref `]qorter> `allhloui`a",
+      "English": "You are my protector and my refuge; my God; I will hope in Him. For He shall free Me from the snare of the hunters, and from every troubling word. Alleluia",
+      "Arabiccoptic": "باما إمفوت بانووتى تينا إرهيلبيسس إروف : جيه أنثوف إفئناهميف إيفول ها : بى فاش إنتيــه بى ريف جورج : نيم إيفول ها أووصاجى إنريف إشطورتير . الليلويا .",
+      "Englishcoptic": "Pama emfoti panoti Teena-erhelpis erof; je enthof efee-enahmet; Evol ha pifash ente piref-gorg; nem evol ha oosaji enref esh-thorter. Alleluia."
+    }
+  ]
 }

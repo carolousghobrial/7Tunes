@@ -1,7 +1,18 @@
 {
-"arabic": " لأَنَهُ هُنَاكَ صَعِدَتْ القَبَائلُ قَبَائِلُ الربِّ شَهَادةً لإِسرَائيلَ يَعتَرِفُونَ لإسْمِ الرَّبِّ الليلويا.,\n",
-"arabiccoptic": " ايتاف شينوؤو غارإى ابشوى ايماف انجى نى فيلى نى فيلى انتى ابشويس إف ميت ميثرى أم بسرائيل ايف أؤنه ايفول إم افران إم ابشويس. الليلويا\n",
-"coptic": " Etau]enwou gar` e`p]wi> emau `nje nivulh> nivulh `nte ~Psoic eumetmeqre `mpIcrahl> euouwn\\ ebol `m`vran `m~Psoic> `allhloui`a.\n",
-"english": " There the tribes went up : the tribes of the Lord : a testimony to Israel : To give thanks to the Name of the Lord . Alleluia,\n",
-"englishcoptic": " Etav-sheno-oo ghar e-epshoy : emav enje neefeelee : neefeelee ente Epetchoyse evmet-methre em-ep-Israel : evo-onh evol em-efran em-Epetchoyse. Alleluia\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "121:4 مزمور",
+  "EnglishTitle": "Psalm 121:4 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنَهُ هُنَاكَ صَعِدَتْ القَبَائلُ قَبَائِلُ الربِّ شَهَادةً لإِسرَائيلَ يَعتَرِفُونَ لإسْمِ الرَّبِّ الليلويا.",
+      "Coptic": "Etau]enwou gar` e`p]wi> emau `nje nivulh> nivulh `nte ~Psoic eumetmeqre `mpIcrahl> euouwn\\ ebol `m`vran `m~Psoic> `allhloui`a.",
+      "English": "There the tribes went up : the tribes of the Lord : a testimony to Israel : To give thanks to the Name of the Lord . Alleluia",
+      "Arabiccoptic": "ايتاف شينوؤو غارإى ابشوى ايماف انجى نى فيلى نى فيلى انتى ابشويس إف ميت ميثرى أم بسرائيل ايف أؤنه ايفول إم افران إم ابشويس. الليلويا",
+      "Englishcoptic": "Etav-sheno-oo ghar e-epshoy : emav enje neefeelee : neefeelee ente Epetchoyse evmet-methre em-ep-Israel : evo-onh evol em-efran em-Epetchoyse. Alleluia"
+    }
+  ]
 }

@@ -1,4 +1,47 @@
 {
-"arabic": " ثم ترك مخلصنا يسوع جبل الزيتون وأتى إلى الجشيمانية مع الرسل، وهكذا قال لتلاميذه: اجلسوا ههنا حتى أمضى لأصلى. وأخذ معه بطرس مع الأخوين الطاهرين ابنى زيدى، وبدأ يقول في صلاته من أجل آلامه التي سينالها.,\nوهكذا قال لخواصه: اسهروا معي في الصلاة. وإبتعد قليلاً وخر على وجهه وصلى قائلاً بحزن قلب: يا إبتاه إن كان يمكن أن تعبر عني هذه الكأس، ولكن ليس إرادتي بل إرادتك.,\nثم عاد وجاء إلى تلاميذه فوجدهم نياماً بحزن عظيم، فأيقظ بطرس وقال:آلا يجب عليك أن تسهر معي ساعة واحدة؟! صلوا بلا فتور لكي لا تدخلوا في تجربة.,\nوالمرة الثانية صلى هكذا من أجل الكأس لكى تعبر عنه. والمرة الثالثة هكذا صلى بهذا الكلام الذي قاله:,\nقوموا إسهروا معي واتركوا النوم فقد اقترب الذي يسلمني. الويل لك يا يهوذا أكثر من جميع الناس فإن خطاياك تضاعفت وخطايا والديك، جحدت البركة وأحببت اللعنة فحلت عليك اللعنة إلى آخر الدهور.,\n()",
-"english": " Our Savior came down Mount Olive and went to Gethsemane with the disciples. Then he told his disciples to wait there and took Peter together with the two brothers the sons of Zebedee. Then He started to pray for his sufferings.,\nHe said to them My soul is exceedingly sorrowful, even to death. Stay here and watch with me. He went a little farther and fell on his face and prayed saying: \"O My Father, if it is possible let this cup pass from me; nevertheless, not as I will but as you will.\",\nThen he came back to his disciples and found them asleep in great sadness. He awoke Peter and said to his disciples; \"What could you not watch with me one hour?\" Watch and pray lest you enter into temptation.\",\nThe second time, he prayed again that if it is at all possible to let the cup pass from him. In the third time, he prayed again then he came to his disciples and said to them, \"Are you still sleeping and resting? Behold the hour is at hand and the Son of Man is being betrayed into the hands of sinners.,\nRise let us be going. See he who betrays me is at hand.\" Woe to you Judas more than anyone else because your sins have multiplied as well as your parents' sins. You have rejected the blessing and loved damnation. It will be with you unto the end of ages.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم ترك مخلصنا يسوع جبل الزيتون وأتى إلى الجشيمانية مع الرسل، وهكذا قال لتلاميذه: اجلسوا ههنا حتى أمضى لأصلى. وأخذ معه بطرس مع الأخوين الطاهرين ابنى زيدى، وبدأ يقول في صلاته من أجل آلامه التي سينالها.",
+      "English": "Our Savior came down Mount Olive and went to Gethsemane with the disciples. Then he told his disciples to wait there and took Peter together with the two brothers the sons of Zebedee. Then He started to pray for his sufferings."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وهكذا قال لخواصه: اسهروا معي في الصلاة. وإبتعد قليلاً وخر على وجهه وصلى قائلاً بحزن قلب: يا إبتاه إن كان يمكن أن تعبر عني هذه الكأس، ولكن ليس إرادتي بل إرادتك.",
+      "English": "He said to them My soul is exceedingly sorrowful, even to death. Stay here and watch with me. He went a little farther and fell on his face and prayed saying: \"O My Father, if it is possible let this cup pass from me; nevertheless, not as I will but as you will.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم عاد وجاء إلى تلاميذه فوجدهم نياماً بحزن عظيم، فأيقظ بطرس وقال:آلا يجب عليك أن تسهر معي ساعة واحدة؟! صلوا بلا فتور لكي لا تدخلوا في تجربة.",
+      "English": "Then he came back to his disciples and found them asleep in great sadness. He awoke Peter and said to his disciples; \"What could you not watch with me one hour?\" Watch and pray lest you enter into temptation.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والمرة الثانية صلى هكذا من أجل الكأس لكى تعبر عنه. والمرة الثالثة هكذا صلى بهذا الكلام الذي قاله:",
+      "English": "The second time, he prayed again that if it is at all possible to let the cup pass from him. In the third time, he prayed again then he came to his disciples and said to them, \"Are you still sleeping and resting? Behold the hour is at hand and the Son of Man is being betrayed into the hands of sinners."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قوموا إسهروا معي واتركوا النوم فقد اقترب الذي يسلمني. الويل لك يا يهوذا أكثر من جميع الناس فإن خطاياك تضاعفت وخطايا والديك، جحدت البركة وأحببت اللعنة فحلت عليك اللعنة إلى آخر الدهور.",
+      "English": "Rise let us be going. See he who betrays me is at hand.\" Woe to you Judas more than anyone else because your sins have multiplied as well as your parents' sins. You have rejected the blessing and loved damnation. It will be with you unto the end of ages."
+    }
+  ]
 }

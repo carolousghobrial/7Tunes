@@ -1,7 +1,18 @@
 {
-"arabic": " أُسَبِّحُ وَأُرَتِّلُ لِلْرَّبِّ. اِسْتَمِعْ يَارَبُّ صَوْتِي الَّذِي بِهِ دَعَوْتُكَ. اِرْحَمْنِي وَاسْتَجِبْ لِي فَإِنَّ لَكَ قَالَ قَلْبِي. الليلويا.,\n",
-"arabiccoptic": " إى آهوس آووه إى إير إبسالين إإبشويس. سوتيم إبشويس إى با إخروؤو إيتاى أوش إيفول إنخيتف ناى أووه سوتيم إيروى جى أنثوك بى إيتا باهيت جوس ناك. الليلوي\n",
-"coptic": " Eie\\wc ouo\\ eieeraline ePoc?> cwtem Po/c/ eetaiw] ebol n=htf> Nai nhi ouo\\ cwtem eroi> je nqok pe etapa\\ht joc nak> `allhloui`a\n",
-"english": " I will sing to the Lord, and praise Him with the harp. O Lord, hear my voice, wherein I cry. Have mercy on me and hear me; my heart speaks to You Alleluia.,\n",
-"englishcoptic": " E-ee-hos owoh ey-er-epsaleen e-Epetchoyse : sotem Epetchoyse epa-ekhro-oo etay-osh evol en-khetf : naynee owoh sotem eroy : je enthok pe eta-pa-heet gos-nak. Alleluia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "26:6-7 مزمور",
+  "EnglishTitle": "Psalm 26:6-7 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أُسَبِّحُ وَأُرَتِّلُ لِلْرَّبِّ. اِسْتَمِعْ يَارَبُّ صَوْتِي الَّذِي بِهِ دَعَوْتُكَ. اِرْحَمْنِي وَاسْتَجِبْ لِي فَإِنَّ لَكَ قَالَ قَلْبِي. الليلويا.",
+      "Coptic": "Eie\\wc ouo\\ eieeraline ePoc?> cwtem Po/c/ eetaiw] ebol n=htf> Nai nhi ouo\\ cwtem eroi> je nqok pe etapa\\ht joc nak> `allhloui`a",
+      "English": "I will sing to the Lord, and praise Him with the harp. O Lord, hear my voice, wherein I cry. Have mercy on me and hear me; my heart speaks to You Alleluia.",
+      "Arabiccoptic": "إى آهوس آووه إى إير إبسالين إإبشويس. سوتيم إبشويس إى با إخروؤو إيتاى أوش إيفول إنخيتف ناى أووه سوتيم إيروى جى أنثوك بى إيتا باهيت جوس ناك. الليلوي",
+      "Englishcoptic": "E-ee-hos owoh ey-er-epsaleen e-Epetchoyse : sotem Epetchoyse epa-ekhro-oo etay-osh evol en-khetf : naynee owoh sotem eroy : je enthok pe eta-pa-heet gos-nak. Alleluia."
+    }
+  ]
 }

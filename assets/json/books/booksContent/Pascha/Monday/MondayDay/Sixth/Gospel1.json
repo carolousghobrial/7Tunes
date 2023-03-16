@@ -1,22 +1,53 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وصَعِدَ يَسُوعُ إِلَى أُورُشَلِيمَ،. فَوَجَدَ فِي الْهَيْكَلِ بَاعَةَ البَقَرِ وَالغنَمَ وَ الحَمَامِ والصَيَارِفَةَ جُلُوسًا \n فَصَنَعَ مِخصَرَةً (سَوْطًا) مِنْ حِبَال وَطَرَدَ الْجَمِيعَ مِنَ الْهَيْكَلِ،\n",
-"arabiccoptic": " أووه إيطاف إى إنجيه إيسوس إإهرى إيروساليم أووه أفجيمي خين بي إرفيي إننى إتتى إيهى إيفول نيم إس أوأو نيم تشرومبی نیم نیف آی كيرما إفهيمسى \nأووه أفثاميو إنوو إفراجيليون   إيفول خين هان نوه أفهيطوو تيروو إيفول خين بي إرفيي\n",
-"coptic": " Ouo\\ etafi nje Ihcouc e\\rhi eIlh/m/> Ouo\\ afjimi =en piervei nniet ;e\\e ebol nem ecwou nem srompi nem nifaikerma eu\\emci \n Ouo\\ afqamio nouvragellion ebol =en \\anno\\ af\\itou throu ebol=en piervei\n",
-"english": " And Jesus went up to Jerusalem. And He found in the temple those who sold oxen and sheep and doves, and the money changers doing business. \n When He had made a whip of cords, He drove them all out of the temple,\n",
-"englishcoptic": " Owoh etaf-ee enje Isos e-ehry eYerosalim : owoh af-jimi khen pi-erfei en-ni-et tihe evol nem eso-oo nem chrompi nem nifai-kerma efhemsi . \n Owoh afthamio eno-oofragelion evol khen han-noh afhito tiro evol khen pi-erfei\n",
-},
-{
-"arabic": " اَلْغَنَمَ وَالْبَقَرَ، وَنَثَرَ دَرَاهِمَ الصَّيَارِفَ وَ قَلَبَ مَوَائدَهُمْ.,\nوَقَالَ لِبَاعَةِ الْحَمَامِ:«ارْفَعُوا هَذِهِ مِن هَهُنا وَلاَ تُصَيِّرُوا بَيْتَ أَبِي بَيْتَ تِجَارَةٍ!».,\nفَتَذَكَّرَ تَلاَمِيذُهُ أَنَّهُ مَكْتُوبٌ:«غَيْرَةُ بَيْتِكَ أَكَلَتْنِي».,\n",
-"english": " With the sheep and the oxen, and poured out the changers' money and overturned the tables.,\nAnd He said to those who sold doves, \"Take these things away! Do not make My Father's house a house of merchandise!\",\nThen His disciples remembered that was written, \"Zeal for Your house has eaten Me up.\",\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "2:13-17 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 2:13-17 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وصَعِدَ يَسُوعُ إِلَى أُورُشَلِيمَ،. فَوَجَدَ فِي الْهَيْكَلِ بَاعَةَ البَقَرِ وَالغنَمَ وَ الحَمَامِ والصَيَارِفَةَ جُلُوسًا",
+      "Coptic": "Ouo\\ etafi nje Ihcouc e\\rhi eIlh/m/> Ouo\\ afjimi =en piervei nniet ;e\\e ebol nem ecwou nem srompi nem nifaikerma eu\\emci",
+      "English": "And Jesus went up to Jerusalem. And He found in the temple those who sold oxen and sheep and doves, and the money changers doing business.",
+      "Arabiccoptic": "أووه إيطاف إى إنجيه إيسوس إإهرى إيروساليم أووه أفجيمي خين بي إرفيي إننى إتتى إيهى إيفول نيم إس أوأو نيم تشرومبی نیم نیف آی كيرما إفهيمسى",
+      "Englishcoptic": "Owoh etaf-ee enje Isos e-ehry eYerosalim : owoh af-jimi khen pi-erfei en-ni-et tihe evol nem eso-oo nem chrompi nem nifai-kerma efhemsi ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَصَنَعَ مِخصَرَةً (سَوْطًا) مِنْ حِبَال وَطَرَدَ الْجَمِيعَ مِنَ الْهَيْكَلِ،",
+      "Coptic": "Ouo\\ afqamio nouvragellion ebol =en \\anno\\ af\\itou throu ebol=en piervei",
+      "English": "When He had made a whip of cords, He drove them all out of the temple",
+      "Arabiccoptic": "أووه أفثاميو إنوو إفراجيليون   إيفول خين هان نوه أفهيطوو تيروو إيفول خين بي إرفيي",
+      "Englishcoptic": "Owoh afthamio eno-oofragelion evol khen han-noh afhito tiro evol khen pi-erfei"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اَلْغَنَمَ وَالْبَقَرَ، وَنَثَرَ دَرَاهِمَ الصَّيَارِفَ وَ قَلَبَ مَوَائدَهُمْ.",
+      "English": "With the sheep and the oxen, and poured out the changers' money and overturned the tables."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَالَ لِبَاعَةِ الْحَمَامِ:«ارْفَعُوا هَذِهِ مِن هَهُنا وَلاَ تُصَيِّرُوا بَيْتَ أَبِي بَيْتَ تِجَارَةٍ!».",
+      "English": "And He said to those who sold doves, \"Take these things away! Do not make My Father's house a house of merchandise!\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَتَذَكَّرَ تَلاَمِيذُهُ أَنَّهُ مَكْتُوبٌ:«غَيْرَةُ بَيْتِكَ أَكَلَتْنِي».",
+      "English": "Then His disciples remembered that was written, \"Zeal for Your house has eaten Me up.\""
+    }
+  ]
 }

@@ -1,22 +1,58 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " هَذَا مَا يَقُولُهُ رَبُّ القُوَّاتِ إِلهُ إِسْرَائِيلَ: هَأَنَذَا أُفْسِدُ كِبْرِيَاءَ يَهُوذَا، وَكِبْرِيَاءَ أُورُشَلِيمَ الْعَظِيمَةِ.\n",
-    "arabiccoptic": " ناي نى ني إيتيفجو إموؤو إنجى إبشويس إنتى نيجوم إفنوتي إنتى بيسرائيل : جى يس هيببى انوك تيناتاكو إيفول خين بايما إمبيمثو إننيتينفال إيفول\n",
-    "coptic": " Nai ne nh`etefjw `mmwou `nje ` Po/c/ `nte nijom `V; `nte pIc/l/ > je ic\\hppe anok ;natako ebol=en paima `mpe`mqo `nnetenbal ebol >\n",
-    "english": " \"Thus says the Lord: 'In this manner I will destroy the insolence of Judah and that of Jerusalem.\n",
-    "englishcoptic": " Nai ne nee-etefgo emmo-oo enje epshois ente nigom efnoti ente episrael. Je yes-hippe anok tina-tako evol khen paima empemtho ennetenval evol.\n"
-  },
-  {
-    "arabic": " مِنْ هَذَا الْمَوضِعِ أَمَامَ عُيُونِكُمْ وَفِي أَيَّامِكُمْ، لَا يَكُونُ صَوْتُ سُرُورٍ وَلَا صَوْتُ فَرَحٍ وَلَا صَوْتُ عَرِيسٍ وَلَا صَوْتُ عَرُوسٍ,\n« وَيَكُونُ إِذَا عَرَّفْتَ الشَّعْبَ بِجَمِيعِ هَذِهِ الْكَلِمَاتِ وَقَالُوا لَكَ: لِمَاذَا تُكَلَّمَ الرَّبَّ عَلَيْنَا بِكُلِّ هَذِهِ الشُرُورِ، وَمَا أِثْمُنَا أَوْ ظُلْمُنَا أَوْ خَطِيَّتُنَا الَّتِي صَنَعْنَاهَا أَمَامَ الرَّبِّ إِلهِنَا؟,\nفَتَقُولُ لَهُمْ: لِأَنَّ آبَاءَكُمْ تَرَكُونِي، عنهم يَقُولُ الرَّبُّ، وَأتَّبَعُوا آلِهَةً غَرِيبَةً وَعَبَدُوهَا وَسَجَدُوا لَهَا، وَأَنَا فَتَرَكُونِي عَنْهُمْ وَلَمْ يَحْفَظُوا نَامُوسِي,\nوَقَدْ عَمِلتُمْ أَنْتُمْ أيْضَاً الشَرَّ أَكْثَرَ مِنْ آبَائِكُمْ. فَهُوَّذَا أَنْتُمْ أَيْضَاً تَسْلُكُونَ وَاحِداً فَوَاحِداً وَرَاءَ شَهَوَاتِ قُلُوبِكُمْ الشِّرِّيرةِ غَيْرَ مُطِيعِينَ لِي.,\nفَسَأَطْرُدُكُمْ مِنْ هذِهِ الأَرْضِ إِلَى أَرْضٍ لا تَعْرِفُونهَا أَنْتُمْ وَلاَ آبَاؤُكُمْ، وَفِي ذَلِكَ المَوْضِعِ تَتَعَبَّدُونَ لِآلِهَةً أُخْرَى ، هَؤُلاَءِ الَّذِينَ لَا يَرْحَمُونَكُمْ.,\n",
-    "english": " Behold, before your eyes and in your days, I will bring to an end from this place the voice of joy and the voice of gladness, the voice of the bridegroom and the voice of the bride.,\n\"It shall come to pass that when you shall announce all these words to this people and they say to you, 'Why has the Lord pronounced all these evils against us? What is our wrongdoing, and what sin did we commit before the Lord our God?',\nThen you shall say to them, 'Because your fathers forsook Me,' says the Lord, for they went after foreign gods; and they served and worshipped them. They forsook Me, and did not keep My law.,\nBut you acted in ways more evil than your fathers; for behold you, each one of you, walk after the evil pleasures of your heart and do not obey Me.,\nTherefore I will cast you out of this land and into a land neither you nor your fathers know; and there you shall serve other gods, who will show you no mercy.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "13:9,16:9-13 من إرميا النبى",
+  "EnglishTitle": "Jeremiah 13:9,16:9-13 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هَذَا مَا يَقُولُهُ رَبُّ القُوَّاتِ إِلهُ إِسْرَائِيلَ: هَأَنَذَا أُفْسِدُ كِبْرِيَاءَ يَهُوذَا، وَكِبْرِيَاءَ أُورُشَلِيمَ الْعَظِيمَةِ.",
+      "Coptic": "Nai ne nh`etefjw `mmwou `nje ` Po/c/ `nte nijom `V; `nte pIc/l/ > je ic\\hppe anok ;natako ebol=en paima `mpe`mqo `nnetenbal ebol >",
+      "English": "\"Thus says the Lord: 'In this manner I will destroy the insolence of Judah and that of Jerusalem.",
+      "Arabiccoptic": "ناي نى ني إيتيفجو إموؤو إنجى إبشويس إنتى نيجوم إفنوتي إنتى بيسرائيل : جى يس هيببى انوك تيناتاكو إيفول خين بايما إمبيمثو إننيتينفال إيفول",
+      "Englishcoptic": "Nai ne nee-etefgo emmo-oo enje epshois ente nigom efnoti ente episrael. Je yes-hippe anok tina-tako evol khen paima empemtho ennetenval evol."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مِنْ هَذَا الْمَوضِعِ أَمَامَ عُيُونِكُمْ وَفِي أَيَّامِكُمْ، لَا يَكُونُ صَوْتُ سُرُورٍ وَلَا صَوْتُ فَرَحٍ وَلَا صَوْتُ عَرِيسٍ وَلَا صَوْتُ عَرُوسٍ",
+      "English": "Behold, before your eyes and in your days, I will bring to an end from this place the voice of joy and the voice of gladness, the voice of the bridegroom and the voice of the bride."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "« وَيَكُونُ إِذَا عَرَّفْتَ الشَّعْبَ بِجَمِيعِ هَذِهِ الْكَلِمَاتِ وَقَالُوا لَكَ: لِمَاذَا تُكَلَّمَ الرَّبَّ عَلَيْنَا بِكُلِّ هَذِهِ الشُرُورِ، وَمَا أِثْمُنَا أَوْ ظُلْمُنَا أَوْ خَطِيَّتُنَا الَّتِي صَنَعْنَاهَا أَمَامَ الرَّبِّ إِلهِنَا؟",
+      "English": "\"It shall come to pass that when you shall announce all these words to this people and they say to you, 'Why has the Lord pronounced all these evils against us? What is our wrongdoing, and what sin did we commit before the Lord our God?'"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَتَقُولُ لَهُمْ: لِأَنَّ آبَاءَكُمْ تَرَكُونِي، عنهم يَقُولُ الرَّبُّ، وَأتَّبَعُوا آلِهَةً غَرِيبَةً وَعَبَدُوهَا وَسَجَدُوا لَهَا، وَأَنَا فَتَرَكُونِي عَنْهُمْ وَلَمْ يَحْفَظُوا نَامُوسِي",
+      "English": "Then you shall say to them, 'Because your fathers forsook Me,' says the Lord, for they went after foreign gods; and they served and worshipped them. They forsook Me, and did not keep My law."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَدْ عَمِلتُمْ أَنْتُمْ أيْضَاً الشَرَّ أَكْثَرَ مِنْ آبَائِكُمْ. فَهُوَّذَا أَنْتُمْ أَيْضَاً تَسْلُكُونَ وَاحِداً فَوَاحِداً وَرَاءَ شَهَوَاتِ قُلُوبِكُمْ الشِّرِّيرةِ غَيْرَ مُطِيعِينَ لِي.",
+      "English": "But you acted in ways more evil than your fathers; for behold you, each one of you, walk after the evil pleasures of your heart and do not obey Me."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَسَأَطْرُدُكُمْ مِنْ هذِهِ الأَرْضِ إِلَى أَرْضٍ لا تَعْرِفُونهَا أَنْتُمْ وَلاَ آبَاؤُكُمْ، وَفِي ذَلِكَ المَوْضِعِ تَتَعَبَّدُونَ لِآلِهَةً أُخْرَى ، هَؤُلاَءِ الَّذِينَ لَا يَرْحَمُونَكُمْ.",
+      "English": "Therefore I will cast you out of this land and into a land neither you nor your fathers know; and there you shall serve other gods, who will show you no mercy."
+    }
+  ]
 }

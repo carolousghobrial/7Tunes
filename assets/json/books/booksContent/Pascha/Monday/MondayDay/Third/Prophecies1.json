@@ -1,22 +1,138 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " ويلٌ للقائلينَ للخيرِ شراً وللشرِ خيراً.\n",
-"arabiccoptic": " أو اوي إنني إتجو إمموس : جي نانى بيبيت هوأو اووه إفهوإو إنجى بي بيثتانانيف\n",
-"coptic": " Ouoi `nnhetjw `mmoc> Je nane pipet\\wou> ouo\\ `f\\wou `nje pipeqnanef>\n",
-"english": " Woe to those who call evil good and good evil,\n",
-"englishcoptic": " Oo-oi enni-etgo emmos: Je Nane pi-pet-ho-oo : owoh efho-oo enje pi-pethna-nef\n",
-},
-{
-"arabic": " الجاعِلِينَ الظَلاَمَ نُورَاً وَالنُورَ ظَلاَمَاً. القَائِلِينَ عَنْ الحُلْوِ مُرَّاً وَ المُرِّ حُلْوَاً.,\nوَيْلٌ لِلحُكَمَاءِ الَّذِينَ هُمْ فِي أَعْيُنِ أنفُسِهِمْ والفُهَمَاءِ عِندَ ذَوَاتِهِمْ.,\nوَيْلٌ لِلأقْوِيَاءِ الَّذِينَ يَشْرَبُونَ الخَمْرَ. وَلِلأبْطَالِ الَّذِينَ يَمْزِجُونَ المُسْكِرَ.,\nالَّذِينَ يُبَرِّرُونَ المُنَافِقَ لِأَجْلِ الرُشوَةِ، وَيَنْزَعُونَ حَقَّ البارِّ،,\nفَلذلكَ كَمَا يَحْتَرِقُ البروبي (القَشَّ) بِجَمرِ النَارِ. وَيَلتَهِبُ بِلَهِيبهِ المُشْتَعِلِ.,\nفَهَكَذا يَكُونُ أصلُهُمْ كالغُبَارِ وَزَهرُهُمْ كالهَشِيمِ لأنَّهُمْ رَذَلُوا شَرِيعَةَ اللهِ ربِّ الجُنُودِ. وَأغْضَبُوا واستَهانُوا بِكلمةِ قُدُّوسِ اسرائيلَ.,\nفَحَمِيَ غَضَبُ رَبِّ الصَبَاؤوتِ عَلى شَعْبِهِ، وَرَفَعَ يَدَهُ عَليهِمْ ليَضرِبَهُمْ.,\nوَسَخَطَ عَلى الجِبالِ وَصَارتْ جُثَثُ مَوْتَاهُم مِثلَ الثَرىَ فِي وَسَطِ الطريقِ.,\nوَمَعَ هَذَا كُلِّهِ لَمْ يَرتَدّْ غَضَبُهُ. بَلْ يَدُهُ لَمْ تَزَلّْ عَاليةً ممدُودَةً.,\nمِنْ أجلِ ذَلِكَ يَرفَعُ عَلامَةً للأُممِ مِنْ بَعِيدٍ وَيَجتَذِبُهُمْ مِنْ أَقَاصِى الأرضِ,\nفإذَا هُمْ يَأتُونَ سَريعاً بِخِفَّةٍ. لا يَجُوعُونَ ولا يَتعَبُونَ. ولا يَنْعَسُونَ  ولا يَنَامُونَ.,\nوَلا يَحِلُّونَ مَنَاطِقَهُم مِنْ أوسَاطِهِمْ، وَلا تَنْقَطِعُ سُيُورُ أَحذِيَتِهِمْ. هَؤلاءِ الذينَ  سِهَامُهُمْ مَرِيشَةٌ وَقِسيِّهِمْ مَشدُودَةٌ (مُوَتَّرَة),\nحَوَافِرُ خُيُولِهِمْ كَصَخْرةٍ صُلْبَةٍ. وَبَكَراتُ مَرَاكِبِهِمْ كَالعَاصِفِ.,\nلَهُمْ زَئِيرٌ كَالأسَدِ. وَيُمْسِكُ وَيَصيحُ كَوَحْشٍ ضَارٍ على الفَريسَةِ وَيَرْمِى وَلَيسَ مَنْ يُخَلِّصْ.,\nوَيَصْرخُ عَليهِمْ فِي ذَلِكَ اليَومِ كَصَوْتِ البَحرِ المُتَمَوِّجِ. وَيَنْظرُونَ إلى عُلُوِّ السَمَاءِ وإلى أسفلِ الأرضِ فَيَجِدُونَ ظَلامَاً شَدِيدَاً. وَظُلْمَةً مُدلهِمَةً.,\n",
-"english": " Who put darkness for light and light for darkness, Who put bitter for sweet and sweet for bitter!,\nWoe to those who are intelligent in their own eyes and expert in their own sight!,\nWoe to your strong ones who drink wine and the mighty ones who mix intoxicating drink,,\nWho justify the ungodly for a bribe and take away justice from the righteous man!,\nTherefore in the manner that stubble shall be burned by coals of fire and consumed by a violent flame,,\nTheir root shall be like chaff and their flower shall go up like dust, for they did not will to do the law of the Lord of hosts, but despised the word of the Holy One of Israel.,\nThus the wrath of the Lord of hosts is furious against His people. He laid His hand on them and struck them.,\nThe mountains were provoked, and their carcasses were as refuse in the midst of the road.,\nFor all this is anger was not turned away, but His hand is still uplifted.,\nConsequently He shall take up a banner to the nations from afar and will whistle to them from the ends of the earth.,\nBehold, they are coming swiftly and with speed. They shall not hunger or be weary. Neither shall they slumber nor sleep.,\nNor shall they loose the belts from their loins. Neither shall their sandal-straps be broken. Their arrows are sharp, and their bows are bent.,\nThe hooves of their horses seem like flint and their chariot wheels like a sudden blast of wind.,\nThey rush like lions, and stand like a young lion that seizes his prey and roars like a wild animal, then carries it away; and there shall be no one to deliver them.,\nIn that day, they will bellow against them like the sound of the roaring sea. They will look at the land and behold harsh darkness in their despair.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "5:20-30 من إشعياء النبي",
+  "EnglishTitle": "Isaiah 5:20-30 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويلٌ للقائلينَ للخيرِ شراً وللشرِ خيراً.",
+      "Coptic": "Ouoi `nnhetjw `mmoc> Je nane pipet\\wou> ouo\\ `f\\wou `nje pipeqnanef>",
+      "English": "Woe to those who call evil good and good evil",
+      "Arabiccoptic": "أو اوي إنني إتجو إمموس : جي نانى بيبيت هوأو اووه إفهوإو إنجى بي بيثتانانيف",
+      "Englishcoptic": "Oo-oi enni-etgo emmos: Je Nane pi-pet-ho-oo : owoh efho-oo enje pi-pethna-nef"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الجاعِلِينَ الظَلاَمَ نُورَاً وَالنُورَ ظَلاَمَاً. القَائِلِينَ عَنْ الحُلْوِ مُرَّاً وَ المُرِّ حُلْوَاً.",
+      "English": "Who put darkness for light and light for darkness, Who put bitter for sweet and sweet for bitter!"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيْلٌ لِلحُكَمَاءِ الَّذِينَ هُمْ فِي أَعْيُنِ أنفُسِهِمْ والفُهَمَاءِ عِندَ ذَوَاتِهِمْ.",
+      "English": "Woe to those who are intelligent in their own eyes and expert in their own sight!"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيْلٌ لِلأقْوِيَاءِ الَّذِينَ يَشْرَبُونَ الخَمْرَ. وَلِلأبْطَالِ الَّذِينَ يَمْزِجُونَ المُسْكِرَ.",
+      "English": "Woe to your strong ones who drink wine and the mighty ones who mix intoxicating drink"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الَّذِينَ يُبَرِّرُونَ المُنَافِقَ لِأَجْلِ الرُشوَةِ، وَيَنْزَعُونَ حَقَّ البارِّ،",
+      "English": "Who justify the ungodly for a bribe and take away justice from the righteous man!"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلذلكَ كَمَا يَحْتَرِقُ البروبي (القَشَّ) بِجَمرِ النَارِ. وَيَلتَهِبُ بِلَهِيبهِ المُشْتَعِلِ.",
+      "English": "Therefore in the manner that stubble shall be burned by coals of fire and consumed by a violent flame"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَهَكَذا يَكُونُ أصلُهُمْ كالغُبَارِ وَزَهرُهُمْ كالهَشِيمِ لأنَّهُمْ رَذَلُوا شَرِيعَةَ اللهِ ربِّ الجُنُودِ. وَأغْضَبُوا واستَهانُوا بِكلمةِ قُدُّوسِ اسرائيلَ.",
+      "English": "Their root shall be like chaff and their flower shall go up like dust, for they did not will to do the law of the Lord of hosts, but despised the word of the Holy One of Israel."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَحَمِيَ غَضَبُ رَبِّ الصَبَاؤوتِ عَلى شَعْبِهِ، وَرَفَعَ يَدَهُ عَليهِمْ ليَضرِبَهُمْ.",
+      "English": "Thus the wrath of the Lord of hosts is furious against His people. He laid His hand on them and struck them."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَسَخَطَ عَلى الجِبالِ وَصَارتْ جُثَثُ مَوْتَاهُم مِثلَ الثَرىَ فِي وَسَطِ الطريقِ.",
+      "English": "The mountains were provoked, and their carcasses were as refuse in the midst of the road."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَعَ هَذَا كُلِّهِ لَمْ يَرتَدّْ غَضَبُهُ. بَلْ يَدُهُ لَمْ تَزَلّْ عَاليةً ممدُودَةً.",
+      "English": "For all this is anger was not turned away, but His hand is still uplifted."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مِنْ أجلِ ذَلِكَ يَرفَعُ عَلامَةً للأُممِ مِنْ بَعِيدٍ وَيَجتَذِبُهُمْ مِنْ أَقَاصِى الأرضِ",
+      "English": "Consequently He shall take up a banner to the nations from afar and will whistle to them from the ends of the earth."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فإذَا هُمْ يَأتُونَ سَريعاً بِخِفَّةٍ. لا يَجُوعُونَ ولا يَتعَبُونَ. ولا يَنْعَسُونَ  ولا يَنَامُونَ.",
+      "English": "Behold, they are coming swiftly and with speed. They shall not hunger or be weary. Neither shall they slumber nor sleep."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلا يَحِلُّونَ مَنَاطِقَهُم مِنْ أوسَاطِهِمْ، وَلا تَنْقَطِعُ سُيُورُ أَحذِيَتِهِمْ. هَؤلاءِ الذينَ  سِهَامُهُمْ مَرِيشَةٌ وَقِسيِّهِمْ مَشدُودَةٌ (مُوَتَّرَة)",
+      "English": "Nor shall they loose the belts from their loins. Neither shall their sandal-straps be broken. Their arrows are sharp, and their bows are bent."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حَوَافِرُ خُيُولِهِمْ كَصَخْرةٍ صُلْبَةٍ. وَبَكَراتُ مَرَاكِبِهِمْ كَالعَاصِفِ.",
+      "English": "The hooves of their horses seem like flint and their chariot wheels like a sudden blast of wind."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَهُمْ زَئِيرٌ كَالأسَدِ. وَيُمْسِكُ وَيَصيحُ كَوَحْشٍ ضَارٍ على الفَريسَةِ وَيَرْمِى وَلَيسَ مَنْ يُخَلِّصْ.",
+      "English": "They rush like lions, and stand like a young lion that seizes his prey and roars like a wild animal, then carries it away; and there shall be no one to deliver them."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيَصْرخُ عَليهِمْ فِي ذَلِكَ اليَومِ كَصَوْتِ البَحرِ المُتَمَوِّجِ. وَيَنْظرُونَ إلى عُلُوِّ السَمَاءِ وإلى أسفلِ الأرضِ فَيَجِدُونَ ظَلامَاً شَدِيدَاً. وَظُلْمَةً مُدلهِمَةً.",
+      "English": "In that day, they will bellow against them like the sound of the roaring sea. They will look at the land and behold harsh darkness in their despair."
+    }
+  ]
 }

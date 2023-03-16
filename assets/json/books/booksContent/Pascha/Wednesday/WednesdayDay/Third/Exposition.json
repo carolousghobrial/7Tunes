@@ -1,4 +1,31 @@
 {
-"arabic": " ولما قرب عيد الفطير الذى هو فصح اليهود كان الكتبة ورؤساء الكهنة يطلبون كيف يهلكون يسوع ولم يعلموا ماذا يصنعون فانهم كانوا يخافون من الجمع,\nفوجد الشيطان لة مسكنا فى قلب رفيقة يهوذا الاسخريوطى وكان هذا محسوبا فى عد التلاميذ وكان شيطانا كقول الرب فمضى وخاطب رؤساء الكهنة والصدوقيين أن يسلمة اليهم,\nفتكلم النجس مع اصحابة ان يسلم اليهم مخلص العالم ففرح الانجاس الممتلئون غشا فرحا عظيما وقرروا معة ان يعطوة فضة حتى يسلمة اليهم خلوا من الجمع.,\n()",
-"english": " When the Feast of the unleavened bread, which is the Passover of the Jews, was near, the scribes and the chief priests sought a way to kill Jesus, but they did not know what to do because they feared the public.,\nBut Satan found himself a place in the heart of his accomplice, Judas Iscariot, who was counted among the disciples but was a Satan as the Lord described him. He went to the chief priests and the Sadducees to make a deal to deliver Jesus to them.,\nThe evil natured disciple discussed with his evil friends how to deliver to them the Savior of the World. They were more than pleased and paid him silver so that he may deliver him to them in absence of the people.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولما قرب عيد الفطير الذى هو فصح اليهود كان الكتبة ورؤساء الكهنة يطلبون كيف يهلكون يسوع ولم يعلموا ماذا يصنعون فانهم كانوا يخافون من الجمع",
+      "English": "When the Feast of the unleavened bread, which is the Passover of the Jews, was near, the scribes and the chief priests sought a way to kill Jesus, but they did not know what to do because they feared the public."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فوجد الشيطان لة مسكنا فى قلب رفيقة يهوذا الاسخريوطى وكان هذا محسوبا فى عد التلاميذ وكان شيطانا كقول الرب فمضى وخاطب رؤساء الكهنة والصدوقيين أن يسلمة اليهم",
+      "English": "But Satan found himself a place in the heart of his accomplice, Judas Iscariot, who was counted among the disciples but was a Satan as the Lord described him. He went to the chief priests and the Sadducees to make a deal to deliver Jesus to them."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فتكلم النجس مع اصحابة ان يسلم اليهم مخلص العالم ففرح الانجاس الممتلئون غشا فرحا عظيما وقرروا معة ان يعطوة فضة حتى يسلمة اليهم خلوا من الجمع.",
+      "English": "The evil natured disciple discussed with his evil friends how to deliver to them the Savior of the World. They were more than pleased and paid him silver so that he may deliver him to them in absence of the people."
+    }
+  ]
 }

@@ -1,4 +1,45 @@
 {
-"arabic": " في البدء خلق الله السماء والأرض وزينها هكذا بروح فيه. وغطى الظلمة وأخرج النور وفرق بينهما بأسماء جديدة. ودعا النور نهاراً ودعا الظلمة ليلاً. وفي ذلك اليوم خلق هذه جميعها بحكمة وفهم رفيع.,\nوفي اليوم الثاني خلق الله جلد السماء وفصل بين مياه ومياه. وبعد هذا ثبت الله الماء العلوي وأسماه سماء.,\nوفي اليوم الثالث جمع المياه وثبت الأرض فوق المياه. والشمس والقمر وكثرة النجوم خلقها الله في اليوم الرابع. والهوام والطير والحيتان الكبار وحيوانات الحقل في اليوم الخامس. وأجناس الشجر وزرع الحقل والعشب المزروع المثمر.,\nوفي اليوم السادس خلق الله الحيوان العظيم آدم أول البشر ومعينة له من جسده ذكراً وأنثى كالتدبير. هذان جعلهما رؤساء على جميع أعماله التي خلقها الخالق.,\nواستراح في اليوم السابع لأن فيه أكمل جميع أعماله. هذا تدبير الخالق ومؤسس كل الموجودات. فلنمجده ونرفع إسمه لأنه صنع معنا رحمة كعظيم رحمته.,\n()",
-"english": " In the beginning God created the heavens and the earth and adorned them with His spirit. He covered darkness and unveiled the light, and distinguished between them with new names. He called the light day and the darkness night. He created all these in the same day with wisdom and prudence.,\nOn the second day God created the firmament and separated between waters and waters. God established the waters above the firmament and called them Heaven.,\nOn the third day He gathered the waters and made the land appear over the waters, and on the fourth day God created the sun, the moon and the multitude of stars. On the fifth day God created the birds, the big whales, the farm animals and all kinds of grass, plants and fruit yielding trees.,\nOn the sixth day God created Adam the first man and a companion for him from his own flesh, male and female as designated; and gave them dominion over all the creatures He created.,\nGod rested on the seventh day from all the work which He had done. These are the designs of the Creator and the Initiator of all creation.,\n()",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "في البدء خلق الله السماء والأرض وزينها هكذا بروح فيه. وغطى الظلمة وأخرج النور وفرق بينهما بأسماء جديدة. ودعا النور نهاراً ودعا الظلمة ليلاً. وفي ذلك اليوم خلق هذه جميعها بحكمة وفهم رفيع.",
+      "English": "In the beginning God created the heavens and the earth and adorned them with His spirit. He covered darkness and unveiled the light, and distinguished between them with new names. He called the light day and the darkness night. He created all these in the same day with wisdom and prudence."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفي اليوم الثاني خلق الله جلد السماء وفصل بين مياه ومياه. وبعد هذا ثبت الله الماء العلوي وأسماه سماء.",
+      "English": "On the second day God created the firmament and separated between waters and waters. God established the waters above the firmament and called them Heaven."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفي اليوم الثالث جمع المياه وثبت الأرض فوق المياه. والشمس والقمر وكثرة النجوم خلقها الله في اليوم الرابع. والهوام والطير والحيتان الكبار وحيوانات الحقل في اليوم الخامس. وأجناس الشجر وزرع الحقل والعشب المزروع المثمر.",
+      "English": "On the third day He gathered the waters and made the land appear over the waters, and on the fourth day God created the sun, the moon and the multitude of stars. On the fifth day God created the birds, the big whales, the farm animals and all kinds of grass, plants and fruit yielding trees."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفي اليوم السادس خلق الله الحيوان العظيم آدم أول البشر ومعينة له من جسده ذكراً وأنثى كالتدبير. هذان جعلهما رؤساء على جميع أعماله التي خلقها الخالق.",
+      "English": "On the sixth day God created Adam the first man and a companion for him from his own flesh, male and female as designated; and gave them dominion over all the creatures He created."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "واستراح في اليوم السابع لأن فيه أكمل جميع أعماله. هذا تدبير الخالق ومؤسس كل الموجودات. فلنمجده ونرفع إسمه لأنه صنع معنا رحمة كعظيم رحمته.",
+      "English": "God rested on the seventh day from all the work which He had done. These are the designs of the Creator and the Initiator of all creation."
+    }
+  ]
 }

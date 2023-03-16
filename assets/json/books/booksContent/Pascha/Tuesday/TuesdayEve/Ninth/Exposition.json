@@ -1,4 +1,55 @@
 {
-"arabic": " أسمعوا الرؤوف الرحوم الكثير الرحمة المتأنى كيف يوصينا أن نكون أطهاراً ليس فى أجسادنا فقط بل وفى قلوبنا أيضاً.,\nلما تعجب منه ذلك الفريسى الذى سأله أن يأكل عنده. فلما رآه يأكل الخبز بغير طهر ولا غسل يديه.,\nتكلم معه المعلم العارف بكل الأشياء قبل كونها قائلاً,\nأنتم يا معشر الفريسيين تطهرون خارج الكأس والسكرجة فأما داخلكم فأنه مملوء دعارة وأختطافاً وظلماً.,\nأعطوا صدقة وحكماً عدلاً وكل شئ يتطهر لكم. فلنكن نحن رحومين على كل إنسان خلقه الله.,\nوعند ذلك نطهر نفوسنا وأجسادنا وأرواحنا من كل دنس الخطية.,\n()\n",
-"english": " Listen to the merciful, compassionate, the patient, who has great mercy when He catechizes us to be clean not only in our bodies, but also in our hearts.,\nThe Pharisee who invited Jesus to dinner was puzzled at Him when He ate the bread without washing His hands.,\nThe Omniscient teacher said to him:,\n\"You pharisees cleanse the outside of the cup but inside you are full of promiscuity, plunder, depredation, and injustices.,\nGive alms and just judgement and everything will be clean unto you.\" Let us be kind to God's creation.,\nThus we may purify ourselves, bodies, and souls of all the filth of sins.,\n()\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أسمعوا الرؤوف الرحوم الكثير الرحمة المتأنى كيف يوصينا أن نكون أطهاراً ليس فى أجسادنا فقط بل وفى قلوبنا أيضاً.",
+      "English": "Listen to the merciful, compassionate, the patient, who has great mercy when He catechizes us to be clean not only in our bodies, but also in our hearts."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لما تعجب منه ذلك الفريسى الذى سأله أن يأكل عنده. فلما رآه يأكل الخبز بغير طهر ولا غسل يديه.",
+      "English": "The Pharisee who invited Jesus to dinner was puzzled at Him when He ate the bread without washing His hands."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تكلم معه المعلم العارف بكل الأشياء قبل كونها قائلاً",
+      "English": "The Omniscient teacher said to him:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنتم يا معشر الفريسيين تطهرون خارج الكأس والسكرجة فأما داخلكم فأنه مملوء دعارة وأختطافاً وظلماً.",
+      "English": "\"You pharisees cleanse the outside of the cup but inside you are full of promiscuity, plunder, depredation, and injustices."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعطوا صدقة وحكماً عدلاً وكل شئ يتطهر لكم. فلنكن نحن رحومين على كل إنسان خلقه الله.",
+      "English": "Give alms and just judgement and everything will be clean unto you.\" Let us be kind to God's creation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وعند ذلك نطهر نفوسنا وأجسادنا وأرواحنا من كل دنس الخطية.",
+      "English": "Thus we may purify ourselves, bodies, and souls of all the filth of sins."
+    }
+  ]
 }

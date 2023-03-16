@@ -1,22 +1,77 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " وَكَانَت إِلَيَّ  كلمة الرَّبِّ قَائِلاً: »يَا ابْنَ الإنْسَانِ هُوَّذَا قَدْ صَارَ لدي بَيتُ اِسْرَائِيلَ جَمِيعُهُمْ يَخْلِطُونَ\nنُحَاسَاً وَقَصْدِيرَاً وَحَدِيدَاً وَرَصَاصَاً مَخْلُوطَاً مَعَ الفِضَّةِ\n",
-    "arabiccoptic": " اووه اوساجي إنتى إبشويس شوبي هاروي إفجو أمموس : جي إبشيري إميفرومي : هيبى افشوبي ني إنجى إب إيي إمبيسرائيل إفموجت تيرو\nإن إو هومت نيم أوثران نيم أوبينيبي نيم اوتاته إفموجت نيم اوهات\n",
-    "coptic": " Ouo\\ `aoucaji `nte P_/ ]wpi \\aroi efjw `mmoc> Je `p]hri `m`vrwmi> \\hppe au]wpi nhi `nje `phi `mpIc/l /\nEumoujt throu nou`\\omt nem ou`qran nem oubenipi nem outat\\ efmoujt nem ou\\at >\n",
-    "english": " Again the word of the Lord came to me saying, \"Son of man, hold the house of Israel is mixed before Me- they are altogether mixed-\nThe house is mixed together in the midst of the silver, with bronze, iron, tin, and lead.\n",
-    "englishcoptic": " Owoh a-osaji ente epshois shopi haroi efgo emmos; Je epshiri emefromi hippe avshopi ni enje epi empisrael evmojt teero\nEnohomt nem o-ethran nem ovenipi nem otat-h efmojt nem ohat.\n"
-  },
-  {
-    "arabic": " لِأَجْلِ ذلِكَ قُلْ هَذَا مَا يَقُولُهُ الرَّبُّ:,\nبِمَا إِنَّكُمْ جَمِيعَاً قَدْ صِرْتُمْ إِمْتِزَاجَاً وَاحِدَاً,\nفَلِاَجْلِ هَذَا هَا أَنَا أَقْبَلُكُمْ إلىَّ فِي أُورُشَلِيمَ، كَمَا تُقْبَلُ الفِضَّةُ وَالنُحَاسُ وَالحَدِيدُ وَالرَصَاصُ وَالقَصْدِيرُ فِي وَسْطِ الأَتُونِ,,\nلِنَفْخِ النَارِ عَلَيْهَا لِسَبْكِهَا،هَكَذَا أَقْبَلُكُمْ إِلىَّ بِرِجْزِي وَأَجْمَعُكُمْ وَأُذِيبُكُمْ وَأَنْفُخُ عَلَيْكُمْ بِنَارِ غَضَبِي,\nوَأَسْبِكُكُمْ فِي وَسَطِهَا، كَمَا تُسْبَكُ الْفِضَّةُ فِي وَسْطِ الأَتُونِ كَذلِكَ تُسْبَكُونَ فِي وَسَطِهِ،,\nفَتَعْلَمُونَ أَنِّي أَنَا هُوَ الرَّبُّ صَبَبْتُ غَضَبِي عَلَيْكُمْ.«,\n",
-    "english": " Therefore thus says the Lord:,\n'Because all of you are one mixture,,\nTherefore I will gather you into the midst of Jerusalem, as men gather silver, bronze, iron, tin, and lead into the midst of a furnace,,\nTo blow fire on it, to cast it like metal into a mold. Thus I shall gather you in My wrath, and bring you together and cast you.,\nI shall blow on you with the fire of My wrath and cast you in her midst. As silver is cast into a mold in the midst of a furnace, so shall you be cast in her midst.,\nThen you shall know that I, the Lord, have poured out My anger upon you.'\",\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": " 22:17-22 من سفر حزقيال النبى",
+  "EnglishTitle": "Ezekiel 22:17-22 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَت إِلَيَّ  كلمة الرَّبِّ قَائِلاً: »يَا ابْنَ الإنْسَانِ هُوَّذَا قَدْ صَارَ لدي بَيتُ اِسْرَائِيلَ جَمِيعُهُمْ يَخْلِطُونَ",
+      "Coptic": "Ouo\\ `aoucaji `nte P_/ ]wpi \\aroi efjw `mmoc> Je `p]hri `m`vrwmi> \\hppe au]wpi nhi `nje `phi `mpIc/l /",
+      "English": "Again the word of the Lord came to me saying, \"Son of man, hold the house of Israel is mixed before Me- they are altogether mixed-",
+      "Arabiccoptic": "اووه اوساجي إنتى إبشويس شوبي هاروي إفجو أمموس : جي إبشيري إميفرومي : هيبى افشوبي ني إنجى إب إيي إمبيسرائيل إفموجت تيرو",
+      "Englishcoptic": "Owoh a-osaji ente epshois shopi haroi efgo emmos; Je epshiri emefromi hippe avshopi ni enje epi empisrael evmojt teero"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نُحَاسَاً وَقَصْدِيرَاً وَحَدِيدَاً وَرَصَاصَاً مَخْلُوطَاً مَعَ الفِضَّةِ",
+      "Coptic": "Eumoujt throu nou`\\omt nem ou`qran nem oubenipi nem outat\\ efmoujt nem ou\\at >",
+      "English": "The house is mixed together in the midst of the silver, with bronze, iron, tin, and lead.",
+      "Arabiccoptic": "إن إو هومت نيم أوثران نيم أوبينيبي نيم اوتاته إفموجت نيم اوهات",
+      "Englishcoptic": "Enohomt nem o-ethran nem ovenipi nem otat-h efmojt nem ohat."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأَجْلِ ذلِكَ قُلْ هَذَا مَا يَقُولُهُ الرَّبُّ:",
+      "English": "Therefore thus says the Lord:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بِمَا إِنَّكُمْ جَمِيعَاً قَدْ صِرْتُمْ إِمْتِزَاجَاً وَاحِدَاً",
+      "English": "'Because all of you are one mixture"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلِاَجْلِ هَذَا هَا أَنَا أَقْبَلُكُمْ إلىَّ فِي أُورُشَلِيمَ، كَمَا تُقْبَلُ الفِضَّةُ وَالنُحَاسُ وَالحَدِيدُ وَالرَصَاصُ وَالقَصْدِيرُ فِي وَسْطِ الأَتُونِ",
+      "English": "Therefore I will gather you into the midst of Jerusalem, as men gather silver, bronze, iron, tin, and lead into the midst of a furnace"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِنَفْخِ النَارِ عَلَيْهَا لِسَبْكِهَا،هَكَذَا أَقْبَلُكُمْ إِلىَّ بِرِجْزِي وَأَجْمَعُكُمْ وَأُذِيبُكُمْ وَأَنْفُخُ عَلَيْكُمْ بِنَارِ غَضَبِي",
+      "English": "To blow fire on it, to cast it like metal into a mold. Thus I shall gather you in My wrath, and bring you together and cast you."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَسْبِكُكُمْ فِي وَسَطِهَا، كَمَا تُسْبَكُ الْفِضَّةُ فِي وَسْطِ الأَتُونِ كَذلِكَ تُسْبَكُونَ فِي وَسَطِهِ،",
+      "English": "I shall blow on you with the fire of My wrath and cast you in her midst. As silver is cast into a mold in the midst of a furnace, so shall you be cast in her midst."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَتَعْلَمُونَ أَنِّي أَنَا هُوَ الرَّبُّ صَبَبْتُ غَضَبِي عَلَيْكُمْ.«",
+      "English": "Then you shall know that I, the Lord, have poured out My anger upon you.'\""
+    }
+  ]
 }

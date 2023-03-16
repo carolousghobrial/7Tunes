@@ -1,22 +1,74 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " اِزْرَعُوا لأَنْفُسِكُمْ بِرَّأ لِتَجْنُوا ثَمَرَةَ الحَيَاةِ. إسْتَنِيرُوا بِنُورِ المَعْرِفَةِ وَأُطْلُبُوا الرَّبَّ فَيُؤتِيَكُمْ ثَمَرَ البرِّ.\n",
-    "arabiccoptic": " سيتي نوتين إنو إثمي : تشول إنو أووتاه إنتي إبؤنخ : اري أوؤويني نوتين إنأوؤويني إنتى إب إيمي : كوتي إنسا إبشويس شاتوأوي نوتين إنجى ني أوتاه إنتى تي ميثمي\n",
-    "coptic": " Ci; nwten noumeomhi> swl nououta\\ `nte `pwn=> ariouwini nwten nouwini nte pemi> kw; nca Po/c/] atoui nwten nje niouta\\ nte; meqmhi>\n",
-    "english": " Sow to yourselves in righteousness; gather in the fruit of life; light for yourselves the light of knowledge; seek the Lord till the fruits of righteousness come upon you.\n",
-    "englishcoptic": " Sitee noten eno-oo methmi; chool eno-ootah ente eponkh; ari-o-oini noten eno-oini ente epemi; koti ensa epshois shato-owi noten ense ni-otah ente tee-methmi\n"
-  },
-  {
-    "arabic": " لِمَاذَا تَغَافَلتُمْ عَنْ النِفاقِ الَّذِي فِيكُمْ فَحَصَدْتُمْ ظُلْمَكُمْ.,\nوَأَكَلْتُمْ ثَمَرَةَ الْكَذِبِ. لأَنَّكَ تَوَكَّلتَ عَلَى مَركَبَاتِكَ وَكَثْرَةِ جَبَابِرَتِكَ.,\nفَيَقُومُ هَلاكٌ فِي شَعْبِكَ وَتُخْرَبُ جَمِيعُ حُصُونِكَ الشَامِخَةِ,\nكَخرَابِ بيت يُوربَعَام مِنْ أرَاخِنَةِ سَلْمَانَ يَوْمَ الْحَرْبِ. إِذْ حُطِّمَتْ الأُمَهَاتُ عَلَى البَنِينَ.,\nهكَذَا أصْنَعُ بِكُمْ يابَيْتُ اِسْرَائِيلَ أَمَامَكُمْ مِنْ قُدَّامِ وَجْهِي. لأنَّ ظُلْمَكُمْ وَشُرورَكُم طَرَحَتْ مَلِكُ إِسْرَائِيلَ خَارِجَاً.,\nلأنَّ إِسْرَائِيلُ صَغِيرٌ وَأَنَا أَحْبَبْتُهُ وَدَعَوتُ ابْنِى وَإبنَهُ مِنْ مِصْرَ.,\nفَكَمَا دَعَوتُهُم. هَكَذَا ذَهَبُوا عَنْ وَجْهِي. فَذَبَحُوا لِبَاعِلَ وَبَخَّرُوا للتَمَاثِيلَ المَنْحُوتَةِ.,\n",
-    "english": " Why have you passed over ungodliness in silence and reaped its wrongdoings?,\nYou have eaten the fruit of deception, for you have hoped in your chariots, in the abundance of your power.,\nTherefore destruction shall rise up among your people, and all your walled places shall be gone,,\nAs Beth Arbel in the time of Prince Shalman. In the days of battle, they dashed the mother to the ground upon the children.,\nThus will I do to you, O house of Israel, because of your evil deeds. Early in the morning were they cast off; the king of Israel has been cast off.,\n\"For Israel is a child, and I have loved him and out of Egypt I have called his children [and my Son].,\nAs I called them, so they departed from My presence. They sacrificed to the Baals, and burned incense to graven images.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "10:12-11:2 من هوشع النبي",
+  "EnglishTitle": "Hosea 10:12-11:2 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اِزْرَعُوا لأَنْفُسِكُمْ بِرَّأ لِتَجْنُوا ثَمَرَةَ الحَيَاةِ. إسْتَنِيرُوا بِنُورِ المَعْرِفَةِ وَأُطْلُبُوا الرَّبَّ فَيُؤتِيَكُمْ ثَمَرَ البرِّ.",
+      "Coptic": "Ci; nwten noumeomhi> swl nououta\\ `nte `pwn=> ariouwini nwten nouwini nte pemi> kw; nca Po/c/] atoui nwten nje niouta\\ nte; meqmhi>",
+      "English": "Sow to yourselves in righteousness; gather in the fruit of life; light for yourselves the light of knowledge; seek the Lord till the fruits of righteousness come upon you.",
+      "Arabiccoptic": "سيتي نوتين إنو إثمي : تشول إنو أووتاه إنتي إبؤنخ : اري أوؤويني نوتين إنأوؤويني إنتى إب إيمي : كوتي إنسا إبشويس شاتوأوي نوتين إنجى ني أوتاه إنتى تي ميثمي",
+      "Englishcoptic": "Sitee noten eno-oo methmi; chool eno-ootah ente eponkh; ari-o-oini noten eno-oini ente epemi; koti ensa epshois shato-owi noten ense ni-otah ente tee-methmi"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِمَاذَا تَغَافَلتُمْ عَنْ النِفاقِ الَّذِي فِيكُمْ فَحَصَدْتُمْ ظُلْمَكُمْ.",
+      "English": "Why have you passed over ungodliness in silence and reaped its wrongdoings?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَكَلْتُمْ ثَمَرَةَ الْكَذِبِ. لأَنَّكَ تَوَكَّلتَ عَلَى مَركَبَاتِكَ وَكَثْرَةِ جَبَابِرَتِكَ.",
+      "English": "You have eaten the fruit of deception, for you have hoped in your chariots, in the abundance of your power."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَيَقُومُ هَلاكٌ فِي شَعْبِكَ وَتُخْرَبُ جَمِيعُ حُصُونِكَ الشَامِخَةِ",
+      "English": "Therefore destruction shall rise up among your people, and all your walled places shall be gone"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كَخرَابِ بيت يُوربَعَام مِنْ أرَاخِنَةِ سَلْمَانَ يَوْمَ الْحَرْبِ. إِذْ حُطِّمَتْ الأُمَهَاتُ عَلَى البَنِينَ.",
+      "English": "As Beth Arbel in the time of Prince Shalman. In the days of battle, they dashed the mother to the ground upon the children."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هكَذَا أصْنَعُ بِكُمْ يابَيْتُ اِسْرَائِيلَ أَمَامَكُمْ مِنْ قُدَّامِ وَجْهِي. لأنَّ ظُلْمَكُمْ وَشُرورَكُم طَرَحَتْ مَلِكُ إِسْرَائِيلَ خَارِجَاً.",
+      "English": "Thus will I do to you, O house of Israel, because of your evil deeds. Early in the morning were they cast off; the king of Israel has been cast off."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنَّ إِسْرَائِيلُ صَغِيرٌ وَأَنَا أَحْبَبْتُهُ وَدَعَوتُ ابْنِى وَإبنَهُ مِنْ مِصْرَ.",
+      "English": "\"For Israel is a child, and I have loved him and out of Egypt I have called his children [and my Son]."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَكَمَا دَعَوتُهُم. هَكَذَا ذَهَبُوا عَنْ وَجْهِي. فَذَبَحُوا لِبَاعِلَ وَبَخَّرُوا للتَمَاثِيلَ المَنْحُوتَةِ.",
+      "English": "As I called them, so they departed from My presence. They sacrificed to the Baals, and burned incense to graven images."
+    }
+  ]
 }

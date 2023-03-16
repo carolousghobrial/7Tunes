@@ -1,7 +1,29 @@
 {
-  "arabic": " مُنْقِذِي مِنْ أَعْدَائِي الرَاجِزِينَ وَمِنْ الَّذِينَ يَقُومُونَ عَلَىَّ يَرْفَعُنِي:,\nوَمِنْ الرَجُلِ الظَالِمِ تُنَجِّينِي، يُخَلِّصنِي مِنْ أَعْدَائِي الَأشِدَّاءَ وَمِنْ أَيْدِي الَّذِينَ يُبْغِضُونَنِي. الليلويا.,\n",
-  "arabiccoptic": " باريف ناهميت إيفول إنطوطوو إنناجاجى إنريف جونت : نيم إيفول إنطوطوو إننى إتطوؤون إمموؤو إإهري إيجوى إآئتشاسى .\nناهميت إيفول ها أوو رومى إنؤجى إفئناهميت إيفول إنطوطوو إنناجاجى إتجور : نيم إيفول إنطوطوو إننى إثموستى إمموى . الليلويا\n",
-  "coptic": " Paref na\\met ebol `ntotou `nnajaji `nrefjwnt> nem ebol `ntotou `nnhettwoun `mmwou `e`\\rhi ejwi ek`esact > (le[ic)\n Na\\met `ebol\\a ourwmi `noji ef`ena\\met `ebol `ntotou `nnajaji etjor> nem `ebol `ntotou `nnheqmoc; `mmoi> al\n",
-  "english": " My deliverer from the rage of my enemies; because of those who rise up against me, you will exalt me;,\nYou will deliver me from the unrighteous man. He will deliver me from my strong enemies, and from those who hate me. Alleluia,\n",
-  "englishcoptic": " Paref nahmet evol entoto ennagaji enrefgont; nem evol entoto enneet-to-oon Emmo-oo e-ehri egoi ekechosi ;\nNahmet Evol ha oromi enoji efenahmet evol entoto ennagaji etgor nem evol entoto enni-ethmosti emmoi. Alleloia\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "18:48,17 مزمور",
+  "EnglishTitle": "Psalm 18:48,17 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مُنْقِذِي مِنْ أَعْدَائِي الرَاجِزِينَ وَمِنْ الَّذِينَ يَقُومُونَ عَلَىَّ يَرْفَعُنِي:",
+      "Coptic": "Paref na\\met ebol `ntotou `nnajaji `nrefjwnt> nem ebol `ntotou `nnhettwoun `mmwou `e`\\rhi ejwi ek`esact > (le[ic)",
+      "English": "My deliverer from the rage of my enemies; because of those who rise up against me, you will exalt me;",
+      "Arabiccoptic": "باريف ناهميت إيفول إنطوطوو إنناجاجى إنريف جونت : نيم إيفول إنطوطوو إننى إتطوؤون إمموؤو إإهري إيجوى إآئتشاسى .",
+      "Englishcoptic": "Paref nahmet evol entoto ennagaji enrefgont; nem evol entoto enneet-to-oon Emmo-oo e-ehri egoi ekechosi ;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمِنْ الرَجُلِ الظَالِمِ تُنَجِّينِي، يُخَلِّصنِي مِنْ أَعْدَائِي الَأشِدَّاءَ وَمِنْ أَيْدِي الَّذِينَ يُبْغِضُونَنِي. الليلويا.",
+      "Coptic": "Na\\met `ebol\\a ourwmi `noji ef`ena\\met `ebol `ntotou `nnajaji etjor> nem `ebol `ntotou `nnheqmoc; `mmoi> al",
+      "English": "You will deliver me from the unrighteous man. He will deliver me from my strong enemies, and from those who hate me. Alleluia",
+      "Arabiccoptic": "ناهميت إيفول ها أوو رومى إنؤجى إفئناهميت إيفول إنطوطوو إنناجاجى إتجور : نيم إيفول إنطوطوو إننى إثموستى إمموى . الليلويا",
+      "Englishcoptic": "Nahmet Evol ha oromi enoji efenahmet evol entoto ennagaji etgor nem evol entoto enni-ethmosti emmoi. Alleloia"
+    }
+  ]
 }

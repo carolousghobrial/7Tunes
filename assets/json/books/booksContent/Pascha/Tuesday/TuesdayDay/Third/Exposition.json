@@ -1,4 +1,55 @@
 {
-"arabic": " كم من مرة قال الرب أردت أن أجمع بنيك يا أورشليم كمثل الطائر الذى يجمع فراخه تحت جناحيه فلم تريدوا.,\nأنا أترك لكم بيتكم خراباً قال الرب إلى الأنقضاء,\nفلما سمع التلاميذ نبوة النبي والمخلص أروه بناء الهيكل والحجارة المكرمة والمحرمات فأجابهم قائلاً :,\nأنه لا يترك ههنا حجر على حجر إلا وينقض. فبالحقيقة صار هذا من بعد أربعين سنة لصعود مخلصنا.,\nجاء الروم وهدموا المدينة وأخربوا الهيكل إلى اليوم.,\nمائة وعشرون ربوة رجال من اليهود قتلوا بحد السيف وحل عليهم غضب الله واللعنة غطت وجوههم.,\n()",
-"english": " Several times, the Lord said \"O Jerusalem, I wanted to gather your children as the hen gathers her chicks under her wings and you would not.,\nBehold I leave your house for you desolate forever.\",\nWhen the disciples heard the prophecy of the prophet and of the Savior, they showed him the temple, the venerated stones, and the sanctuaries. He responded to them saying:,\n\"There will not be two stones together.\" Truly this happened forty years after the ascension of our Lord.,\nThe Romans came, devastated the city, and demolished the temple which remains this to this day.,\nOne million, two hundred-thousand Jewish men were killed by the sword. They were rebuked by God's wrath and His damnation covered their faces.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كم من مرة قال الرب أردت أن أجمع بنيك يا أورشليم كمثل الطائر الذى يجمع فراخه تحت جناحيه فلم تريدوا.",
+      "English": "Several times, the Lord said \"O Jerusalem, I wanted to gather your children as the hen gathers her chicks under her wings and you would not."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنا أترك لكم بيتكم خراباً قال الرب إلى الأنقضاء",
+      "English": "Behold I leave your house for you desolate forever.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلما سمع التلاميذ نبوة النبي والمخلص أروه بناء الهيكل والحجارة المكرمة والمحرمات فأجابهم قائلاً :",
+      "English": "When the disciples heard the prophecy of the prophet and of the Savior, they showed him the temple, the venerated stones, and the sanctuaries. He responded to them saying:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنه لا يترك ههنا حجر على حجر إلا وينقض. فبالحقيقة صار هذا من بعد أربعين سنة لصعود مخلصنا.",
+      "English": "\"There will not be two stones together.\" Truly this happened forty years after the ascension of our Lord."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جاء الروم وهدموا المدينة وأخربوا الهيكل إلى اليوم.",
+      "English": "The Romans came, devastated the city, and demolished the temple which remains this to this day."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مائة وعشرون ربوة رجال من اليهود قتلوا بحد السيف وحل عليهم غضب الله واللعنة غطت وجوههم.",
+      "English": "One million, two hundred-thousand Jewish men were killed by the sword. They were rebuked by God's wrath and His damnation covered their faces."
+    }
+  ]
 }

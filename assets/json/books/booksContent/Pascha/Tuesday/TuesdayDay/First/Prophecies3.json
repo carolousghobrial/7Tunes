@@ -1,22 +1,85 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " اِسْمَعُوا كَلَامَ الرَّبِّ يَا بَنِي إِسْرَائِيلَ فإِنَّ لِلرَّبِّ مُحَاكَمَةً مَعَ سُكَّانِ الأَرْضِ،\nلأَنَّهُ لاَ حَقَّ ولاَ رَحْمَةَ وَلاَ مَعْرِفَةَ اللهِ عَلَي الأَرْضِ.\n",
-    "arabiccoptic": " سوتيم إبصاجي امبشويس نينشيري إمبيسرائيل : جي بيهاب امبشويس اوفى ني إتشوب هيجين إبكاهي :\nجي أوؤون إممون ميثمي : اوذى إممون سوجين نووتي هيجين إبكاهي\n",
-    "coptic": " Cwtem `e`pcaji `mP_ nen]hri `m`pIc/l /> je pi \\ap `mP_/ oube nhet] op \\ijen `pka\\i>\n Je ouhi `mmon meqmhi> oude `mmon nai> oude `mmon couen `nou; \\ijen `pka\\i \n",
-    "english": " Hear the word of the Lord, you children of Israel, for the Lord has a judgement for the inhabitants of the land:\n\"There is no truth or mercy or knowledge of God in the land.\n",
-    "englishcoptic": " Sotem e-epsaji emepshois nenshiri empisrael: je pihap emepshois ove nee-etshop hijen epkahi:\nJe oo-ee emmon methmi: oze emmon nai: oze emmon cojen nooti hijen epkahi.\n"
-  },
-  {
-    "arabic": " بَلْ اللَعْنَةُ وَالكَذِبُ وَالقَتْلُ وَالسِرْقَةُ وَالفِسْقُ.  قَدْ فَاضَتْ عَلَى الَأرْضِ وَدِمَاءٌ تلْحَقُ دِمَاءً.,\nلِذلِكَ تَنُوحُ الأَرْضُ وَكُلُّ مَنْ يَسْكُنُ فِيهَا. وَتَضمَحِلُ مَعَ وُحُوشِ الْبَرِّيَّةِ ودَبْابَاتِ الأَرْضِ وَطُيُورِ السَّمَاءِ، وَسْمَكُ الْبَحْرِ أَيْضًا يَفْنَى,\nحَتَّى لاَ يَكُونَ مَنْ يُحَاكِمْ وَلاَ مَنْ يُوَبِّخُ، لِأنَّ الشَعْبَ يُمَارِي فِي عِبَادَةِ الأَصْنَامِ، مِثْلَ الكَاهِنِ الذِي يُمَارِي فِي عِبَادَةِ الإِلَهِ.,\nفَيَتَعَثَّرُ بِالنَّهَارِ وَيَتَعَثَّرُ أَيْضًا النَّبِيُّ مَعَكَ. وَأُمَّكَ شَبَّهْتُهَا بِالليلِ.,\nوَقَدْ هَلَكَ شَعْبِي مِنْ عَدَمِ الْمَعْرِفَةِ. لِأَنَّكَ أَنْتَ رَفَضْتَ عنكَ الْمَعْرِفَةَ, أَنَا أَرْفُضُكَ فَلاَ تَكْهَنَ لِى، وَأَنْسَى أَنَا أَيْضًا نَامُوسَ إِسْرَائِيلَ وَأَنْسَى أعْمَالَهُمْ.,\nهَكَذَا أَخْطَأُوا إلىَّ فَأُبْدِلُ مَجْدَهُمْ هَوَاناً.,\nوَخَطَايَا شَعْبِى تَأكُلُهُمْ، وَبِظُلْمِهِمْ تُنْزَعُ نُفُوسُهُمُ .,\n",
-    "english": " Cursing and lying, murder and theft and adultery gushed forth in the land, and blood is mingled with blood.,\nTherefore the land shall mourn and be diminished with all the things that dwell in it: the wild beasts of the field, the reptiles of the earth, and the birds of the sky, and the fish of the sea shall come to an end;,\nThat neither may anyone judge, nor analyze another; but my people are as a priest who is spoken against.,\n\"Thus you shall by weak by day, and the prophet shall be weak with you; I have compared your mother to the night.,\nMy people are like as those who have no knowledge. Because you have rejected knowledge, I will also reject you from being a priest to Me; and because you have forgetting the law of your God, I also will forget your children.,\nAccording to their multitude, so they sinned against Me; I will turn their glory into dishonor.,\nThey will eat the sins of My people and take away their lives because of their wrongdoings.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "4:1-8 من هوشع النبي",
+  "EnglishTitle": "Hosea 4:1-8 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اِسْمَعُوا كَلَامَ الرَّبِّ يَا بَنِي إِسْرَائِيلَ فإِنَّ لِلرَّبِّ مُحَاكَمَةً مَعَ سُكَّانِ الأَرْضِ،",
+      "Coptic": "Cwtem `e`pcaji `mP_ nen]hri `m`pIc/l /> je pi \\ap `mP_/ oube nhet] op \\ijen `pka\\i>",
+      "English": "Hear the word of the Lord, you children of Israel, for the Lord has a judgement for the inhabitants of the land:",
+      "Arabiccoptic": "سوتيم إبصاجي امبشويس نينشيري إمبيسرائيل : جي بيهاب امبشويس اوفى ني إتشوب هيجين إبكاهي :",
+      "Englishcoptic": "Sotem e-epsaji emepshois nenshiri empisrael: je pihap emepshois ove nee-etshop hijen epkahi:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنَّهُ لاَ حَقَّ ولاَ رَحْمَةَ وَلاَ مَعْرِفَةَ اللهِ عَلَي الأَرْضِ.",
+      "Coptic": "Je ouhi `mmon meqmhi> oude `mmon nai> oude `mmon couen `nou; \\ijen `pka\\i",
+      "English": "\"There is no truth or mercy or knowledge of God in the land.",
+      "Arabiccoptic": "جي أوؤون إممون ميثمي : اوذى إممون سوجين نووتي هيجين إبكاهي",
+      "Englishcoptic": "Je oo-ee emmon methmi: oze emmon nai: oze emmon cojen nooti hijen epkahi."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بَلْ اللَعْنَةُ وَالكَذِبُ وَالقَتْلُ وَالسِرْقَةُ وَالفِسْقُ.  قَدْ فَاضَتْ عَلَى الَأرْضِ وَدِمَاءٌ تلْحَقُ دِمَاءً.",
+      "English": "Cursing and lying, murder and theft and adultery gushed forth in the land, and blood is mingled with blood."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِذلِكَ تَنُوحُ الأَرْضُ وَكُلُّ مَنْ يَسْكُنُ فِيهَا. وَتَضمَحِلُ مَعَ وُحُوشِ الْبَرِّيَّةِ ودَبْابَاتِ الأَرْضِ وَطُيُورِ السَّمَاءِ، وَسْمَكُ الْبَحْرِ أَيْضًا يَفْنَى",
+      "English": "Therefore the land shall mourn and be diminished with all the things that dwell in it: the wild beasts of the field, the reptiles of the earth, and the birds of the sky, and the fish of the sea shall come to an end;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حَتَّى لاَ يَكُونَ مَنْ يُحَاكِمْ وَلاَ مَنْ يُوَبِّخُ، لِأنَّ الشَعْبَ يُمَارِي فِي عِبَادَةِ الأَصْنَامِ، مِثْلَ الكَاهِنِ الذِي يُمَارِي فِي عِبَادَةِ الإِلَهِ.",
+      "English": "That neither may anyone judge, nor analyze another; but my people are as a priest who is spoken against."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَيَتَعَثَّرُ بِالنَّهَارِ وَيَتَعَثَّرُ أَيْضًا النَّبِيُّ مَعَكَ. وَأُمَّكَ شَبَّهْتُهَا بِالليلِ.",
+      "English": "\"Thus you shall by weak by day, and the prophet shall be weak with you; I have compared your mother to the night."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَدْ هَلَكَ شَعْبِي مِنْ عَدَمِ الْمَعْرِفَةِ. لِأَنَّكَ أَنْتَ رَفَضْتَ عنكَ الْمَعْرِفَةَ, أَنَا أَرْفُضُكَ فَلاَ تَكْهَنَ لِى، وَأَنْسَى أَنَا أَيْضًا نَامُوسَ إِسْرَائِيلَ وَأَنْسَى أعْمَالَهُمْ.",
+      "English": "My people are like as those who have no knowledge. Because you have rejected knowledge, I will also reject you from being a priest to Me; and because you have forgetting the law of your God, I also will forget your children."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هَكَذَا أَخْطَأُوا إلىَّ فَأُبْدِلُ مَجْدَهُمْ هَوَاناً.",
+      "English": "According to their multitude, so they sinned against Me; I will turn their glory into dishonor."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَخَطَايَا شَعْبِى تَأكُلُهُمْ، وَبِظُلْمِهِمْ تُنْزَعُ نُفُوسُهُمُ .",
+      "English": "They will eat the sins of My people and take away their lives because of their wrongdoings."
+    }
+  ]
 }

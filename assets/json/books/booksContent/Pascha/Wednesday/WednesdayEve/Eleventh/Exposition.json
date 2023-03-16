@@ -1,4 +1,39 @@
 {
-"arabic": " جرت العادة لسائر اليهود انة إذا اقترب عيد الفصح تصعد جموع كثيرة من الذكور الى أورشليم ليتطهروا,\nفلما صعدوا كالعادة لم ينظروا يسوع يصعد فقالوا لبعضهم وهم في الهيكل : العلة حقا لا يأتي الى العيد ؟,\nوكان المنافقون يفتكرون أفكارا مملوءة من الخبث والرياء لان رؤساء الكهنة والفريسيين والشيوخ كانوا قد أوصوا انه ان علم أحد أين هو فليدلهم علية ليمسكوه,\nيا لهذا الجهل وهذه البلادة وعدم المعرفة التى لهؤلاء الأنجاس فانهم وضعوا فخا لصاحب القوة الشديدة الكلى القدرة لانهم مخالفون فسيربطهم هو بسلاسل ويسوقهم الى الجحيم وموضع العذاب.,\n()",
-"english": " It was the tradition of the Jews, that as it became near the days of the passover, the multitudes go up to the mountain from the hamlets to Jerusalem to purge themselves.,\nWhen they ascended the mountains as usual they did not see Jesus go up. They said one to the other that maybe He will not come to the feast.,\nThe hypocrites were convincing their vicious plots because the high priests, the pharisees, and the elders had asked the people to lead them to His location, if it were known, in order to arrest Him.,\nO what foolishness and stupidity of these evil people who wanted to bait the Omnipotent, the source of all power. because of their opposition, He will chain them and assign them to Hell, the place of suffering.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جرت العادة لسائر اليهود انة إذا اقترب عيد الفصح تصعد جموع كثيرة من الذكور الى أورشليم ليتطهروا",
+      "English": "It was the tradition of the Jews, that as it became near the days of the passover, the multitudes go up to the mountain from the hamlets to Jerusalem to purge themselves."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلما صعدوا كالعادة لم ينظروا يسوع يصعد فقالوا لبعضهم وهم في الهيكل : العلة حقا لا يأتي الى العيد ؟",
+      "English": "When they ascended the mountains as usual they did not see Jesus go up. They said one to the other that maybe He will not come to the feast."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكان المنافقون يفتكرون أفكارا مملوءة من الخبث والرياء لان رؤساء الكهنة والفريسيين والشيوخ كانوا قد أوصوا انه ان علم أحد أين هو فليدلهم علية ليمسكوه",
+      "English": "The hypocrites were convincing their vicious plots because the high priests, the pharisees, and the elders had asked the people to lead them to His location, if it were known, in order to arrest Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا لهذا الجهل وهذه البلادة وعدم المعرفة التى لهؤلاء الأنجاس فانهم وضعوا فخا لصاحب القوة الشديدة الكلى القدرة لانهم مخالفون فسيربطهم هو بسلاسل ويسوقهم الى الجحيم وموضع العذاب.",
+      "English": "O what foolishness and stupidity of these evil people who wanted to bait the Omnipotent, the source of all power. because of their opposition, He will chain them and assign them to Hell, the place of suffering."
+    }
+  ]
 }

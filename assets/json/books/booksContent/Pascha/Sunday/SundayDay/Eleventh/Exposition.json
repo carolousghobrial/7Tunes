@@ -1,4 +1,45 @@
 {
-"arabic": " الأفكار التي كانت لليهود المخالفين بسبب مخلصنا وملكنا المسيح.,\nأنه مثل ملوك الأرض والجموع الكثيرة محيطة به. والجند والعساكر والمحاربون مثل الملوك. هكذا ظنت أم يوحنا ويعقوب أبنى زبدى,\nفكرت هكذا وآتت إلى مخلصنا أمام الجمع مع تلاميذه. وسجدت له مع أبنيها وسألته وطلبت منه هكذا قائلة: قل قولا أن يجلس أبناى الإثنان معك في ملكوتك واحد عن يمينك والآخر عن يسارك في عز مملكتك.,\nأسمعوا الرؤوف الكثير الرحمة الذي يريد حياة جميع العالم. قال: أتقدران أن تشربا الكأس التي أتيت بسببها لكي أشربها. والصبغة التي أصطبغها. فقالا نقدر أن نصنع هذا. فلعلكما حقًا تقدران.,\nفأما الجلوس فليس لى أن أعطيه لكما. لكنه لأنى المالى كل موضع وهو الذي يعطيه لاصفيائه. فلما سمع الأخوان هذا سكتا. ومضيا من أجل عظم مجده.,\n()\n",
-"english": " The thoughts which dwelt upon the minds of the Jews concerning our King and Saviour Jesus Christ,\nWere that He was like the kings of the earth, surrounded by a great multitude of people and soldiers like kings. Likewise thought the mother of John and James the sons of Zebedee.,\nWith these thoughts in mind, she approached Christ in front of His disciples, knelt down with her sons before Him and asked of Him saying: “Promise me that my two sons will sit with You upon Your Throne; one on Your right and the other at Your left in the glory of Your Kingdom.”,\nHear then what the merciful and most compassionate Lord, who desires salvation fo rthe whole world said: “Will you be baptised with baptism that I will be baptized with.” They said: “We can indeed do so.” So Jesus adamantly told them: “Indeed you shall do so,,\nBut as for a seat upon the Throne, this is not for Me to give, but rather my Father who owns every place and it is up to Him to give His chosen.” When the two brothers had heard this, they were silent, and left due to His majestic glory,\n()\n"
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الأفكار التي كانت لليهود المخالفين بسبب مخلصنا وملكنا المسيح.",
+      "English": "The thoughts which dwelt upon the minds of the Jews concerning our King and Saviour Jesus Christ"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنه مثل ملوك الأرض والجموع الكثيرة محيطة به. والجند والعساكر والمحاربون مثل الملوك. هكذا ظنت أم يوحنا ويعقوب أبنى زبدى",
+      "English": "Were that He was like the kings of the earth, surrounded by a great multitude of people and soldiers like kings. Likewise thought the mother of John and James the sons of Zebedee."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فكرت هكذا وآتت إلى مخلصنا أمام الجمع مع تلاميذه. وسجدت له مع أبنيها وسألته وطلبت منه هكذا قائلة: قل قولا أن يجلس أبناى الإثنان معك في ملكوتك واحد عن يمينك والآخر عن يسارك في عز مملكتك.",
+      "English": "With these thoughts in mind, she approached Christ in front of His disciples, knelt down with her sons before Him and asked of Him saying: “Promise me that my two sons will sit with You upon Your Throne; one on Your right and the other at Your left in the glory of Your Kingdom.”"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أسمعوا الرؤوف الكثير الرحمة الذي يريد حياة جميع العالم. قال: أتقدران أن تشربا الكأس التي أتيت بسببها لكي أشربها. والصبغة التي أصطبغها. فقالا نقدر أن نصنع هذا. فلعلكما حقًا تقدران.",
+      "English": "Hear then what the merciful and most compassionate Lord, who desires salvation fo rthe whole world said: “Will you be baptised with baptism that I will be baptized with.” They said: “We can indeed do so.” So Jesus adamantly told them: “Indeed you shall do so"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فأما الجلوس فليس لى أن أعطيه لكما. لكنه لأنى المالى كل موضع وهو الذي يعطيه لاصفيائه. فلما سمع الأخوان هذا سكتا. ومضيا من أجل عظم مجده.",
+      "English": "But as for a seat upon the Throne, this is not for Me to give, but rather my Father who owns every place and it is up to Him to give His chosen.” When the two brothers had heard this, they were silent, and left due to His majestic glory"
+    }
+  ]
 }

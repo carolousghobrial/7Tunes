@@ -1,7 +1,29 @@
 {
-  "arabic": " إليكَ يَا رَبُّ رَفَعتُ نَفْسِي: إِلَهِي عَلَيكَ تَوَكَّلتُ فَلَا تُخْزِنِي إِلَي الَأبَدِ:,\nوَلَا تُضْحِكْ بِی أَعْدَائِي. لِيُخْزَ الَّذِينَ يَصْنَعُونَ الإثْمَ بَاطِلاً. الليلويا.,\n",
-  "arabiccoptic": " آى فاى انتا ابسيكى إى هاروك ابشويس بانوتى آى كا إهثى إيروك اننيك إثرى تشى شيبى شا اينيه\nأوذى امبين اثروسوفى انسوى انجى ناجاجى ماروتشى شيبى انثوؤو انجى نيئت ايرى انتى أنوميا خين بت شوئيت الليلويا\n",
-  "coptic": " Aifai `ntauxh ep]wi \\arok Po/c/ panou; > aixa`\\qhi `erok `nnek `qrisi]ipi ]a `ene\\ (le[ic)>\n Oude `mpen`qroucwbi `ncwi `nje najaji > Marousi]ipi `nqwou `nje nhetiri `n;`anomia =en pet]ouit al? \n",
-  "english": " To You, O Lord, I lift up my soul, O my God. I trust in You; let me not be ashamed;,\nLet not my enemies laugh at me. Let those be ashamed who act lawlessly in vain. Alleluia,\n",
-  "englishcoptic": " Ai-fai enta-pseeshi e-epshoi harok epshois panoti; aika-ehthi erok ennek ethrichi-shipi sha eneh;\nOze epenethro-sovi ensoi enje nagaji; Maro-ochipi entho-oo enje nee-et-iri entee-anomia khen petshoit.  Alleluia.\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": " 24:1-3 مزمور",
+  "EnglishTitle": "Psalm 24:1-3 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إليكَ يَا رَبُّ رَفَعتُ نَفْسِي: إِلَهِي عَلَيكَ تَوَكَّلتُ فَلَا تُخْزِنِي إِلَي الَأبَدِ:",
+      "Coptic": "Aifai `ntauxh ep]wi \\arok Po/c/ panou; > aixa`\\qhi `erok `nnek `qrisi]ipi ]a `ene\\ (le[ic)>",
+      "English": "To You, O Lord, I lift up my soul, O my God. I trust in You; let me not be ashamed;",
+      "Arabiccoptic": "آى فاى انتا ابسيكى إى هاروك ابشويس بانوتى آى كا إهثى إيروك اننيك إثرى تشى شيبى شا اينيه",
+      "Englishcoptic": "Ai-fai enta-pseeshi e-epshoi harok epshois panoti; aika-ehthi erok ennek ethrichi-shipi sha eneh;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَا تُضْحِكْ بِی أَعْدَائِي. لِيُخْزَ الَّذِينَ يَصْنَعُونَ الإثْمَ بَاطِلاً. الليلويا.",
+      "Coptic": "Oude `mpen`qroucwbi `ncwi `nje najaji > Marousi]ipi `nqwou `nje nhetiri `n;`anomia =en pet]ouit al?",
+      "English": "Let not my enemies laugh at me. Let those be ashamed who act lawlessly in vain. Alleluia",
+      "Arabiccoptic": "أوذى امبين اثروسوفى انسوى انجى ناجاجى ماروتشى شيبى انثوؤو انجى نيئت ايرى انتى أنوميا خين بت شوئيت الليلويا",
+      "Englishcoptic": "Oze epenethro-sovi ensoi enje nagaji; Maro-ochipi entho-oo enje nee-et-iri entee-anomia khen petshoit.  Alleluia."
+    }
+  ]
 }

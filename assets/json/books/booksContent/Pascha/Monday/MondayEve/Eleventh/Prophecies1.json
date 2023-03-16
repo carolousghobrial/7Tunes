@@ -1,22 +1,42 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " ١ وَالربُّ يُرشِدُهُمْ وَيَقُولُ: «ٱسْمَعُوا هَذَا يَارُؤَسَاءَ بَيْتِ يَعْقُوبَ، وَمُخْتَارِىِ بَيْتِ إِسْرَائِيلَ. أَمَا يَنْبَغِى لَكُمْ أَنْ تَعْرِفُوا ٱلْحُكْمَ؟\n",
-"arabiccoptic": " أبشويس زي إف إتشيمويت نوأو أووه إف إبجوس جي سوتيم إناي ني أرخون تي إب إي أن ياكوب نيم نيسوتب إنتي إب إيي أمبيسرائيل إيمي فوتين ان بى أي أيمي إيبيهاب\n",
-"coptic": " Po/c/ de efesimwit nwou ouo\\ efejoc je cwtem enai ni arxwn te `phi nIakwb nem nicotp `nte `phi mpIcrahl mhvwten an pe `e`emi `epi\\ap>\n",
-"english": " 1 He will say, \"Hear these things, O heads of the house of Jacob, and you remnant of Israel. Is it not for you to know judgment.\n",
-"englishcoptic": " Epchois ze ef-echimoit no-oo owoh ef-egos je sotem enai ni-arkhon te ep-ee enYakob nem ni-sotp ente ep-ee empIsrael emi-voten an pe e-emi epi-hap.\n",
-},
-{
-"arabic": " ٢أَيُّهَا  ٱلْبْاغِضُونَ ٱلْخَيْرَاتِ وَٱلْمُبْتَغُونَ ٱلشَّرورَ، ٱلنَّازِعُونَ جُلُودَهُمْ عَنْهُمْ، وَلَحْومَهُمْ عَنْ عِظَامِهِمْ.,\n٣ وَكَمَا أْكُلُوا لُحُومَ شَعْبِي، وَكَشَطُوا جُلُودَهُمْ عَنْ عِظَامِهِمْ، وَكَسَرُوا عِظَامَهُمْ وَقَطَّعُوهَا، كَلُحُومِ المَرَاجِلِ وَكَٱللَّحْمِ فِي وَسَطِ المَرَاجِلِ ».,\n٤ حِينَئِذٍ يَصْرُخُونَ إِلَى ٱلرَّبِّ فَلَا يُجِيبُهُمْ، بَلْ يَصرِفُ وَجْهَهُ عَنْهُمْ فِي ذَلِكَ ٱلْوَقْتِ وَالشرِّ الَّذِى صَنَعُوه بإسَاءَتِهِمْ يَأتِى عَلَيْهِمْ.,\n",
-"english": " 2 You who hate good and love evil: you who seize their skins in order flay them and cut their flesh off their bones?,\n3 Who devoured the flesh of my people by removing their skin, breaking their bones, And dividing them as merely flesh for the cauldron and as meat for the pot?\",\n4 Thus they will cry out to the Lord, but He will not hear them. Instead, He will turn His face from them at that time because they have done wickedly in their deeds against themselves.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "  3:1-4 من سفر ميخاالنبى",
+  "EnglishTitle": "Micah 3:1-4 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "١ وَالربُّ يُرشِدُهُمْ وَيَقُولُ: «ٱسْمَعُوا هَذَا يَارُؤَسَاءَ بَيْتِ يَعْقُوبَ، وَمُخْتَارِىِ بَيْتِ إِسْرَائِيلَ. أَمَا يَنْبَغِى لَكُمْ أَنْ تَعْرِفُوا ٱلْحُكْمَ؟",
+      "Coptic": "Po/c/ de efesimwit nwou ouo\\ efejoc je cwtem enai ni arxwn te `phi nIakwb nem nicotp `nte `phi mpIcrahl mhvwten an pe `e`emi `epi\\ap>",
+      "English": "1 He will say, \"Hear these things, O heads of the house of Jacob, and you remnant of Israel. Is it not for you to know judgment.",
+      "Arabiccoptic": "أبشويس زي إف إتشيمويت نوأو أووه إف إبجوس جي سوتيم إناي ني أرخون تي إب إي أن ياكوب نيم نيسوتب إنتي إب إيي أمبيسرائيل إيمي فوتين ان بى أي أيمي إيبيهاب",
+      "Englishcoptic": "Epchois ze ef-echimoit no-oo owoh ef-egos je sotem enai ni-arkhon te ep-ee enYakob nem ni-sotp ente ep-ee empIsrael emi-voten an pe e-emi epi-hap."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢أَيُّهَا  ٱلْبْاغِضُونَ ٱلْخَيْرَاتِ وَٱلْمُبْتَغُونَ ٱلشَّرورَ، ٱلنَّازِعُونَ جُلُودَهُمْ عَنْهُمْ، وَلَحْومَهُمْ عَنْ عِظَامِهِمْ.",
+      "English": "2 You who hate good and love evil: you who seize their skins in order flay them and cut their flesh off their bones?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٣ وَكَمَا أْكُلُوا لُحُومَ شَعْبِي، وَكَشَطُوا جُلُودَهُمْ عَنْ عِظَامِهِمْ، وَكَسَرُوا عِظَامَهُمْ وَقَطَّعُوهَا، كَلُحُومِ المَرَاجِلِ وَكَٱللَّحْمِ فِي وَسَطِ المَرَاجِلِ ».",
+      "English": "3 Who devoured the flesh of my people by removing their skin, breaking their bones, And dividing them as merely flesh for the cauldron and as meat for the pot?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٤ حِينَئِذٍ يَصْرُخُونَ إِلَى ٱلرَّبِّ فَلَا يُجِيبُهُمْ، بَلْ يَصرِفُ وَجْهَهُ عَنْهُمْ فِي ذَلِكَ ٱلْوَقْتِ وَالشرِّ الَّذِى صَنَعُوه بإسَاءَتِهِمْ يَأتِى عَلَيْهِمْ.",
+      "English": "4 Thus they will cry out to the Lord, but He will not hear them. Instead, He will turn His face from them at that time because they have done wickedly in their deeds against themselves."
+    }
+  ]
 }

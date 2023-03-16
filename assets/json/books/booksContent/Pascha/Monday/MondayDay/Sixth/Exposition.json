@@ -1,4 +1,63 @@
 {
-"arabic": " يا لهذه الجسارة التي صنعتها يا شعب إسرائيل أول ميلاد الله وهذه البلادة التي من كهنتك,\nإذ بيت الصلاة وموضع الطلبة صيرتموه موضعاً الخطية ومسكناً للصوص ومجتمعاً للعجول والخراف ولباعة الحمام والصيارفة.,\nما هو هذا الربح المملوء من كل نجاسة وهذا الظلم الذي صنعتموه،,\nلما نظر ابن الله بيت أبيه وهذه كلها تصنع فيه، لأنهم صيروه مسكناً للصوص الخاطفين والظلمة وبيت التجارة، فأخرج البقر والغنم معها كراسي باعة الحمام وموائد الصيارفة قلبها وبدد دراهمهم،,\nفلما نظر تلاميذه إلى هذا علموا أنه هكذا هو مكتوب لأجله أن غيرة بيتك أكلتني،,\nفلهذا صنع هكذا بغير خوف. سلطانك دائم في السماء وعلى الأرض وخوفك يا رب زعزع الجبال.,\nأما إسرائيل فقد جهل، لذلك استترت عنه معونته.,\n()",
-"english": " O Israel God's first children what impudence did you commit and how insensitive are your priests.,\nThe place of forgiveness became a place to sin. The house of prayer and supplication became a den of thieves and a market place for cattle, sheep and pigeon merchants and for currency exchangers.,\nWhat profit is that unclean and corrupt, and what injustice have you done.,\nWhen the Son of God saw all this done in His Father's House - for they have turned it in to a den of thievery, bandits, the unjust and a house of trade - he toppled the seats of pigeon merchants and the tables of the currency exchangers and scattered their funds.,\nAs they watched him do that, His disciples knew that it was thus written about Him; the Zeal for thy house has consumed me.,\nThat is why He did that with impunity. Your reign is forever in heaven and on earth and your fear O Lord has shaken the mountains.,\nBut Israel has erred and thus was denied God's help.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا لهذه الجسارة التي صنعتها يا شعب إسرائيل أول ميلاد الله وهذه البلادة التي من كهنتك",
+      "English": "O Israel God's first children what impudence did you commit and how insensitive are your priests."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إذ بيت الصلاة وموضع الطلبة صيرتموه موضعاً الخطية ومسكناً للصوص ومجتمعاً للعجول والخراف ولباعة الحمام والصيارفة.",
+      "English": "The place of forgiveness became a place to sin. The house of prayer and supplication became a den of thieves and a market place for cattle, sheep and pigeon merchants and for currency exchangers."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ما هو هذا الربح المملوء من كل نجاسة وهذا الظلم الذي صنعتموه،",
+      "English": "What profit is that unclean and corrupt, and what injustice have you done."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لما نظر ابن الله بيت أبيه وهذه كلها تصنع فيه، لأنهم صيروه مسكناً للصوص الخاطفين والظلمة وبيت التجارة، فأخرج البقر والغنم معها كراسي باعة الحمام وموائد الصيارفة قلبها وبدد دراهمهم،",
+      "English": "When the Son of God saw all this done in His Father's House - for they have turned it in to a den of thievery, bandits, the unjust and a house of trade - he toppled the seats of pigeon merchants and the tables of the currency exchangers and scattered their funds."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلما نظر تلاميذه إلى هذا علموا أنه هكذا هو مكتوب لأجله أن غيرة بيتك أكلتني،",
+      "English": "As they watched him do that, His disciples knew that it was thus written about Him; the Zeal for thy house has consumed me."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلهذا صنع هكذا بغير خوف. سلطانك دائم في السماء وعلى الأرض وخوفك يا رب زعزع الجبال.",
+      "English": "That is why He did that with impunity. Your reign is forever in heaven and on earth and your fear O Lord has shaken the mountains."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أما إسرائيل فقد جهل، لذلك استترت عنه معونته.",
+      "English": "But Israel has erred and thus was denied God's help."
+    }
+  ]
 }

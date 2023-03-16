@@ -1,4 +1,15 @@
 {
-"arabic": " وفيما كان المسيح إلهنا وتلاميذه صاعدين إلى أورشليم، أتى إليه الاثنى عشر رسولاً تلاميذه القديسين، وأبتدأ يتكلم معهم بما سيكون له بسبب آلامه قائلاً: اعلموا أيها الأصفياء الأطهار، هوذا نحن صاعدون إلى أورشليم، وسوف يقوم رؤساء كهنة اليهود وشيوخهم وكتبتهم معاً على ابن الإنسان، ويحكمون عليه بحكم الموت ويسلمونه إلى الأمم، فيهزءون به ويبصقون فى وجهه، ويصلبونه على خشبة الصليب ويقوم فى اليوم الثالث. كيف تجاسرت يا إسرائيل المسكين وفعلت هذا الأمر بجهلك؟ وصلبت يسوع المسيح الذى أنقذك من العبودية! وجازيت الإحسان بالإساءة؟! من أجل ذلك خطيتك باقية إلى كمال الدهور,\n()",
-"english": " And while Christ our Lord and His disciples were on their way to Jerusalem, the twelve apostles came to Him and He started to tell them about the sufferings that will come upon Him. He said \"Behold you that are chosen and pure; we are going up to Jerusalem. The chief priests of the Jews, their elders and scribes, will rise together against the Son of man; and they shall condemn Him to death, and shall deliver Him to the Gentiles. And they shall mock Him, and shall scourge Him, and shall spit upon Him, and crucify Him on the cross; and on the third day He shall rise again.\" You poor Israel, how dare you do that in your ignorance and crucify Jesus Christ, who saved you from slavery. You rewarded charity with evil, that is why your sin will remain forever.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفيما كان المسيح إلهنا وتلاميذه صاعدين إلى أورشليم، أتى إليه الاثنى عشر رسولاً تلاميذه القديسين، وأبتدأ يتكلم معهم بما سيكون له بسبب آلامه قائلاً: اعلموا أيها الأصفياء الأطهار، هوذا نحن صاعدون إلى أورشليم، وسوف يقوم رؤساء كهنة اليهود وشيوخهم وكتبتهم معاً على ابن الإنسان، ويحكمون عليه بحكم الموت ويسلمونه إلى الأمم، فيهزءون به ويبصقون فى وجهه، ويصلبونه على خشبة الصليب ويقوم فى اليوم الثالث. كيف تجاسرت يا إسرائيل المسكين وفعلت هذا الأمر بجهلك؟ وصلبت يسوع المسيح الذى أنقذك من العبودية! وجازيت الإحسان بالإساءة؟! من أجل ذلك خطيتك باقية إلى كمال الدهور",
+      "English": "And while Christ our Lord and His disciples were on their way to Jerusalem, the twelve apostles came to Him and He started to tell them about the sufferings that will come upon Him. He said \"Behold you that are chosen and pure; we are going up to Jerusalem. The chief priests of the Jews, their elders and scribes, will rise together against the Son of man; and they shall condemn Him to death, and shall deliver Him to the Gentiles. And they shall mock Him, and shall scourge Him, and shall spit upon Him, and crucify Him on the cross; and on the third day He shall rise again.\" You poor Israel, how dare you do that in your ignorance and crucify Jesus Christ, who saved you from slavery. You rewarded charity with evil, that is why your sin will remain forever."
+    }
+  ]
 }

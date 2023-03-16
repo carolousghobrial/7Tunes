@@ -1,22 +1,77 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وَلَمَّا دخل إِلَى الْهَيْكَلِ تَقَدَّمَ إِلَيْهِ رُؤَسَاءُ الْكَهَنَةِ وَشُيُوخُ الشَّعْب وَهُوَ يُعَلِّمُ، قَائِلِينَ لَهُ.\n«بِأَيِّ سُلْطَانٍ تَفْعَلُ هذَا؟ وَمَنْ أَعْطَاكَ هذَا السُّلْطَانَ؟»\n",
-"arabiccoptic": " اووه إيتاف أي أيخون إبي إرفي, افئي هاروف إفتي إيسفو إنجى ني ارشي إيريفس نيم ني إبريسفيتيروس إنتى بيلاؤس إفجو إمموس.\nجى اكئيري إنناي خين اش ان إرشيشي , اووه نيم بيف تافتي إمباي إرشيشي\n",
-"coptic": " Ouo\\ etafi e=oun epiervei aui \\arof ef;cbw nje niarxhereuc nem niprecbuthroc nte pilaoc eujwmmoc >\nJe akiri nnai =en a] ner]i]i > ouo\\ nim petaf; mpai er]i]i nak\n",
-"english": " Now when he came into the temple, the chief priests and the elders of the people confronted Him as He was teaching and said,\n\"By what authority are You doing these things? And who gave you this authority?\"\n",
-"englishcoptic": " Owoh etaf-ee ekhon epi-erfei av-ee harof efti-esvo enje ni-arshi erevs nem ni-epres-veteros ente pi-laos evgo emmos:\nJe ak-eeri ennai khen ash en-ershishi : owoh nim pet-aftee empai ershishi nak.\n",
-},
-{
-"arabic": " فَأَجَابَ يَسُوعُ وَقَالَ لَهُمْ:«وَأَنَا أَيْضًا أَسْأَلُكُمْ كَلِمَةً ، فَإِنْ أَعلَمتُمُوِنىِ عَنهاَ أُعِلمُكُم أَناَ أيَضاً بِأَيِّ سُلْطَانٍ فَعَلتُ هذَا.,\nمَعْمُودِيَّةُ يُوحَنَّا: مِنْ أَيْنَ كَانَتْ؟ مِنَ السَّمَاءِ أَمْ مِنَ النَّاسِ؟»,\nأَماَ هُم فَكَانُوا يُفَكِرُونَ فِي أَنْفُسِهِمْ قَائِلِينَ:«إِنْ قُلْنَا: مِنَ السَّمَاءِ، يَقُولُ لَنَا: فَلِمَاذَا لَمْ تُؤْمِنُوا بِهِ؟,\nوَإِنْ قُلْنَا: مِنَ النَّاسِ، فَإِنا نَخَافُ مِنَ الجَمعِ لأَنَّ يُوحَنَّا كَانَ عِندَهُم مِثْلُ نَبِيٍّ».,\nفَأَجَابُوا وَقالوا ليَسُوعَ :«لاَ نَعْلَمُ».,\nفَقَالَ لَهُمْ هُوَ أَيْضًا:«وَلاَ أَنَا أُعِلُمكُم بِأَيِّ سُلْطَانٍ فَعَلتُ هَذَا.,\n",
-"english": " But Jesus answered and said to them, \"I also will ask you one thing, which if you tell Me, I likewise will tell you by what authority I do these things.,\nThe baptism of John- where was it from? From heaven or from men?\",\nAnd they reasoned among themselves saying, \"If we say from heaven, he will say to us, Why then did you not believe him?,\nBut if we say from men, we fear the multitude, for all count John as a prophet.\",\nSo they answered Jesus and said , \" We do not know.\",\nAnd He said to them, \"Neither will I tell you by what authority I do these things.\",\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "21:23-27  الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 21:23-27 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَمَّا دخل إِلَى الْهَيْكَلِ تَقَدَّمَ إِلَيْهِ رُؤَسَاءُ الْكَهَنَةِ وَشُيُوخُ الشَّعْب وَهُوَ يُعَلِّمُ، قَائِلِينَ لَهُ.",
+      "Coptic": "Ouo\\ etafi e=oun epiervei aui \\arof ef;cbw nje niarxhereuc nem niprecbuthroc nte pilaoc eujwmmoc >",
+      "English": "Now when he came into the temple, the chief priests and the elders of the people confronted Him as He was teaching and said",
+      "Arabiccoptic": "اووه إيتاف أي أيخون إبي إرفي, افئي هاروف إفتي إيسفو إنجى ني ارشي إيريفس نيم ني إبريسفيتيروس إنتى بيلاؤس إفجو إمموس.",
+      "Englishcoptic": "Owoh etaf-ee ekhon epi-erfei av-ee harof efti-esvo enje ni-arshi erevs nem ni-epres-veteros ente pi-laos evgo emmos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "«بِأَيِّ سُلْطَانٍ تَفْعَلُ هذَا؟ وَمَنْ أَعْطَاكَ هذَا السُّلْطَانَ؟»",
+      "Coptic": "Je akiri nnai =en a] ner]i]i > ouo\\ nim petaf; mpai er]i]i nak",
+      "English": "\"By what authority are You doing these things? And who gave you this authority?\"",
+      "Arabiccoptic": "جى اكئيري إنناي خين اش ان إرشيشي , اووه نيم بيف تافتي إمباي إرشيشي",
+      "Englishcoptic": "Je ak-eeri ennai khen ash en-ershishi : owoh nim pet-aftee empai ershishi nak."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَجَابَ يَسُوعُ وَقَالَ لَهُمْ:«وَأَنَا أَيْضًا أَسْأَلُكُمْ كَلِمَةً ، فَإِنْ أَعلَمتُمُوِنىِ عَنهاَ أُعِلمُكُم أَناَ أيَضاً بِأَيِّ سُلْطَانٍ فَعَلتُ هذَا.",
+      "English": "But Jesus answered and said to them, \"I also will ask you one thing, which if you tell Me, I likewise will tell you by what authority I do these things."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَعْمُودِيَّةُ يُوحَنَّا: مِنْ أَيْنَ كَانَتْ؟ مِنَ السَّمَاءِ أَمْ مِنَ النَّاسِ؟»",
+      "English": "The baptism of John- where was it from? From heaven or from men?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَماَ هُم فَكَانُوا يُفَكِرُونَ فِي أَنْفُسِهِمْ قَائِلِينَ:«إِنْ قُلْنَا: مِنَ السَّمَاءِ، يَقُولُ لَنَا: فَلِمَاذَا لَمْ تُؤْمِنُوا بِهِ؟",
+      "English": "And they reasoned among themselves saying, \"If we say from heaven, he will say to us, Why then did you not believe him?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإِنْ قُلْنَا: مِنَ النَّاسِ، فَإِنا نَخَافُ مِنَ الجَمعِ لأَنَّ يُوحَنَّا كَانَ عِندَهُم مِثْلُ نَبِيٍّ».",
+      "English": "But if we say from men, we fear the multitude, for all count John as a prophet.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَجَابُوا وَقالوا ليَسُوعَ :«لاَ نَعْلَمُ».",
+      "English": "So they answered Jesus and said , \" We do not know.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُمْ هُوَ أَيْضًا:«وَلاَ أَنَا أُعِلُمكُم بِأَيِّ سُلْطَانٍ فَعَلتُ هَذَا.",
+      "English": "And He said to them, \"Neither will I tell you by what authority I do these things.\""
+    }
+  ]
 }

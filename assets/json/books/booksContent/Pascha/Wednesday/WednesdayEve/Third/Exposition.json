@@ -1,4 +1,47 @@
 {
-"arabic": " تأملوا يا عابدي الإله إلي تحنن المسيح إلهنا، كيف يدعو أصفياءه الصانعين إرادته عبيداً حكماء وأمناء،,\nأعني الذين يحفظون وصاياه المتوقعين أجراً صالحاً، الساهرين المتيقظين لكي ينالوا المواعيد,\nكما قال في الإنجيل إن ذلك العبد مغبوطاً، أعني الذي يأتي سيده بغتة فيجده يفعل هكذا أقول لكم إنه يقيمه وكيلا على جميع ماله,\nفأما ذلك الذى يجده متغافلاً فيطرد يوماً بيوم، فيجئ سيده في ساعة لا يعرفها فيشقه من وسطه ويجعل نصيبه مع المرائين في الظلمة وموضع العذاب،,\nفلنتيقظ من غفلتنا وننتظر يوم الرب لنفرح معه في دياره ونفوز بمراحمه ورافاته.,\n()",
-"english": " Contemplate you who exalt the Lord, the kindness of Christ our God: observe how He calls His chosen who fulfill His will, prudent and honest servants.,\nI mean those who preserve his commandments, and look forward to their awards; those who remain awake and alert, that they may receive the promise rewards.,\nAs the Bible asserts that those servants- who's master makes a surprise visit and finds them awake- are blessed.  Assuredly I say: He will make His servant ruler over His property.,\nSo for He whom He finds derelict in his duties and neglecting them often, one day, his Master will make a surprise visit, repudiate him, and make his lot with the hypocrites, in the place of darkness and suffering.,\nLet us awake and be alert in anticipation of the day of the Lord so that we may rejoice with Him in Hid dwelling-place and receive His clemencies and mercies.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تأملوا يا عابدي الإله إلي تحنن المسيح إلهنا، كيف يدعو أصفياءه الصانعين إرادته عبيداً حكماء وأمناء،",
+      "English": "Contemplate you who exalt the Lord, the kindness of Christ our God: observe how He calls His chosen who fulfill His will, prudent and honest servants."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعني الذين يحفظون وصاياه المتوقعين أجراً صالحاً، الساهرين المتيقظين لكي ينالوا المواعيد",
+      "English": "I mean those who preserve his commandments, and look forward to their awards; those who remain awake and alert, that they may receive the promise rewards."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كما قال في الإنجيل إن ذلك العبد مغبوطاً، أعني الذي يأتي سيده بغتة فيجده يفعل هكذا أقول لكم إنه يقيمه وكيلا على جميع ماله",
+      "English": "As the Bible asserts that those servants- who's master makes a surprise visit and finds them awake- are blessed.  Assuredly I say: He will make His servant ruler over His property."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فأما ذلك الذى يجده متغافلاً فيطرد يوماً بيوم، فيجئ سيده في ساعة لا يعرفها فيشقه من وسطه ويجعل نصيبه مع المرائين في الظلمة وموضع العذاب،",
+      "English": "So for He whom He finds derelict in his duties and neglecting them often, one day, his Master will make a surprise visit, repudiate him, and make his lot with the hypocrites, in the place of darkness and suffering."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنتيقظ من غفلتنا وننتظر يوم الرب لنفرح معه في دياره ونفوز بمراحمه ورافاته.",
+      "English": "Let us awake and be alert in anticipation of the day of the Lord so that we may rejoice with Him in Hid dwelling-place and receive His clemencies and mercies."
+    }
+  ]
 }

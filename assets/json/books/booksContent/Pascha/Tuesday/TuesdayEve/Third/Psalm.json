@@ -1,7 +1,29 @@
 {
-  "arabic": " أُنْظُرْ وَإسْتَجِبْ لِي يَارَبِّى وَإِلَهِي أَنِرْ عَيْنَيَّ لِئَلاَّ أَنَامَ فِي المَوْتِ.,\nأَمَّا أَنَا فَعَلى رَحْمَتِكَ تَوَكَلّْتُ يَبتَهِجُ قَلبِي بِخَلاصِكَ. الليلويا.,\n",
-  "arabiccoptic": " صومس سوتيم إيروى  إبتشويس بانووتى ما إفووأوينى  إننافال مى بوس إنطاهورب  خين إفموو.\nأنوك ذيه إيئرهيلبيس إبيك  ناى : باهيت نا ثيليل إإهري  إيجين بيك نوهيم . الليلويا .\n",
-  "coptic": " Comc cwtem `eroi `psoic panou; ma `vouwini `nnabal mhpwc `nta\\wrp  =en `vmou .\nAnok de aier\\elpic `epeknai > pa\\ht naqlhl `e`\\rhi `ejen pekno\\em . al\n",
-  "english": " Look upon me, and hear   me, O Lord my God:  enlighten my eyes, lest I sleep  in death;,\nBut I hope  in Your mercy; my heart  shall greatly rejoice in Your  salvation. Alleluia,\n",
-  "englishcoptic": " Soms sotem eroi epshois panoti; ma-ef-o-oini enenval meepos entahorp khen efmo-oo;\nAnok ze ai-erhelpis epeknai; paheet na-theleel e-ehri ejen pek-nohem. Alleluia.\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "12:4,6 مزمور",
+  "EnglishTitle": "Psalm 12:4,6 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أُنْظُرْ وَإسْتَجِبْ لِي يَارَبِّى وَإِلَهِي أَنِرْ عَيْنَيَّ لِئَلاَّ أَنَامَ فِي المَوْتِ.",
+      "Coptic": "Comc cwtem `eroi `psoic panou; ma `vouwini `nnabal mhpwc `nta\\wrp  =en `vmou .",
+      "English": "Look upon me, and hear   me, O Lord my God:  enlighten my eyes, lest I sleep  in death;",
+      "Arabiccoptic": "صومس سوتيم إيروى  إبتشويس بانووتى ما إفووأوينى  إننافال مى بوس إنطاهورب  خين إفموو.",
+      "Englishcoptic": "Soms sotem eroi epshois panoti; ma-ef-o-oini enenval meepos entahorp khen efmo-oo;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمَّا أَنَا فَعَلى رَحْمَتِكَ تَوَكَلّْتُ يَبتَهِجُ قَلبِي بِخَلاصِكَ. الليلويا.",
+      "Coptic": "Anok de aier\\elpic `epeknai > pa\\ht naqlhl `e`\\rhi `ejen pekno\\em . al",
+      "English": "But I hope  in Your mercy; my heart  shall greatly rejoice in Your  salvation. Alleluia",
+      "Arabiccoptic": "أنوك ذيه إيئرهيلبيس إبيك  ناى : باهيت نا ثيليل إإهري  إيجين بيك نوهيم . الليلويا .",
+      "Englishcoptic": "Anok ze ai-erhelpis epeknai; paheet na-theleel e-ehri ejen pek-nohem. Alleluia."
+    }
+  ]
 }

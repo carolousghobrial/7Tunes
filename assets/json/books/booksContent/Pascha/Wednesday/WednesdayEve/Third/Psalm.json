@@ -1,7 +1,29 @@
 {
-  "arabic": " طُوبَى لِمَنْ أِخْتَرتَهُ وَقَبِلْتَهُ لِيَسْكُنَ فِي دِيَارِكَ إِلَى الَأبَدِ.,\nقُدُّوسٌ هُوَ هَيْكَلُكَ وَعَجِيبٌ بِالبِرِّ. الليلويا .,\n",
-  "arabiccoptic": " أوؤو نياتف إم فيئتاك سوتبف أووه أكشوبف إيروك. إف ايشوبى خين تيك افليوشا إينيه.\nافؤواف إنجى بيك إيرفيى. أووه افؤوى إن اشفيرى خين أو ميثمى. الليلويا\n",
-  "coptic": " Wouniatf `mvh`etakcotpf ouo\\ ak]opf erok > efe]wpi =en nek`aulhou ]a ene\\>\n`Fouab` nje pekervei> ouo\\ `foi `n`]vhri =en oumeqmhi al\n",
-  "english": " Blessed is he whom You choose and help; he shall dwell in your courts.,\nHoly is your temple, wondrous in righteousness, alleluia,\n",
-  "englishcoptic": " O-oniatf emfee-etakcotpf owoh akshopf erok; efeshopi khen nekavleyo sha-eneh.\nEfowab ense pekerfei; owoh foi eneshfiri khen omethmi. Alleolia\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "64:5 مزمور",
+  "EnglishTitle": "Psalm 64:5 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طُوبَى لِمَنْ أِخْتَرتَهُ وَقَبِلْتَهُ لِيَسْكُنَ فِي دِيَارِكَ إِلَى الَأبَدِ.",
+      "Coptic": "Wouniatf `mvh`etakcotpf ouo\\ ak]opf erok > efe]wpi =en nek`aulhou ]a ene\\>",
+      "English": "Blessed is he whom You choose and help; he shall dwell in your courts.",
+      "Arabiccoptic": "أوؤو نياتف إم فيئتاك سوتبف أووه أكشوبف إيروك. إف ايشوبى خين تيك افليوشا إينيه.",
+      "Englishcoptic": "O-oniatf emfee-etakcotpf owoh akshopf erok; efeshopi khen nekavleyo sha-eneh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قُدُّوسٌ هُوَ هَيْكَلُكَ وَعَجِيبٌ بِالبِرِّ. الليلويا .",
+      "Coptic": "`Fouab` nje pekervei> ouo\\ `foi `n`]vhri =en oumeqmhi al",
+      "English": "Holy is your temple, wondrous in righteousness, alleluia",
+      "Arabiccoptic": "افؤواف إنجى بيك إيرفيى. أووه افؤوى إن اشفيرى خين أو ميثمى. الليلويا",
+      "Englishcoptic": "Efowab ense pekerfei; owoh foi eneshfiri khen omethmi. Alleolia"
+    }
+  ]
 }

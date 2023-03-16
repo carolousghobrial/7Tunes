@@ -1,22 +1,80 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " ثُمَّ قَالَ لَهُمْ يَسُوعُ أَيْضًا:«أَنَا أَمْضِي وَسَتَطْلُبُونَنِي،  فلا تجدُونَنِي وَتَمُوتُونَ بِخَطَايَاكُم. وَحَيْثُ أَمْضِي أَنَا فَلاَ تَقْدِرُونَ أَنْتُمْ أَنْ تَأْتُوا إليِه.\n",
-    "arabiccoptic": " بالينون بيجي إيسوس نواوو جي آنوك تيناشيني أووه تيتين ناكوتي إنسوى      أووه تيتين ناجيمت      آن أووه تيتین ناموخين      وحيث أمضي أنا نيتين نوفی جی بيما  أن آنوك إتى ناشيني إيروف      إممون إشجوم إمموتين      إى إيروف.\n",
-    "coptic": " Palinon peje Ihcouc nwou je anok ;na]enhi ouo\\ tetennakw; `ncwi ouo\\ tetennajemt an ouo\\ tetennamou =en netennobi je pima anok e;na]enhi `erof `mmon] `]jom `mmwten `e`i `erof \n",
-    "english": " Then Jesus said to them again, \"I am going away, and you will seek Me, and will die in your sin. Where I go you cannot come.\"\n",
-    "englishcoptic": " Palinon peje Isos no-oo je e-anok tee-nashenee owoh teten-nakoty ensoi owoh teten-najemt an owoh teten-namoo khen netennovi je pima e-anok e-teenashenee erof emmon eshgom emmoten e-ee erof\n"
-  },
-  {
-    "arabic": " فَقَالَ الْيَهُودُ:«أَلَعَلَّهُ يَقْتُلُ نَفْسَهُ وَحْدَهُ، حَتَّى يَقُولُ: حَيْثُ أَمْضِي أَنَا لاَ تَقْدِرُونَ أَنْتُمْ أَنْ تَأْتُوا,\nفَقَالَ لَهُمْ:«أَنْتُمْ أَنْتُمْ مِنْ أَسْفَلُ، وَأَمَّا أَنَا أَنَا فَمِنْ فَوْقُ. أَنْتُمْ أَنْتُمْ  مِنْ هذَا الْعَالَمِ، وَأَمَّا أَنَا فَلَسْتُ مِنْ هذَا الْعَالَمِ.,\nقد قُلْتُ لَكُمْ: إِنَّكُمْ تَمُوتُونَ بِخَطَايَاكُمْ، لأَنَّكُمْ إِنْ لَمْ تُؤْمِنُوا أَنِّي أَنَا هُوَ تَمُوتُونَ بِخَطَايَاكُمْ.,\nفَقَالُوا لَهُ: «مَنْ أَنْتَ؟» فَقَالَ لَهُمْ يَسُوعُ:«أَنَا مِنَ الْبَدْءِ تَكَلَّمْتُ مَعْكَمْ,\nوَلِي أَشْيَاءَ كَثِيرَةً أقولها وَأَحْكُمُ بِهَا مِنْ نَحْوِكُمْ، وَلكِنَّ الَّذِي أَرْسَلَنِي هُوَ حَقٌّ. وَأَنَا مَا سَمِعْتُهُ مِنْهُ، فَهذَا أتكلم به فى الْعَالَمِ. »,\nفَلَمْ يَفْهَمُوا أَنَّهُ كَانَ يَقُولُ لَهُمْ عَنِ الآبِ.,\nفَقَالَ لَهُمْ يَسُوعُ:«مَتَى رَفَعْتُمُ ابْنَ الإِنْسَانِ، فَحِينَئِذٍ  تعلمون أَنِّي أَنَا هُوَ ، وَلَسْتُ أَفْعَلُ شَيْئًا مِنْ  ذَاتِي وَحْدِي. بَلْ أَتَكَلَّمُ بِهذَا كَمَا عَلَّمَنِي أَبِي.,\nوَالَّذِي أَرْسَلَنِي هُوَ مَعِي، وَلَمْ  يدعنى وَحْدِي، لأَنِّي فِي كُلِّ حِينٍ أَفْعَلُ مَا يُرْضِيهِ . »,\n",
-    "english": " So the Jews said, \"Will He kill Himself, because He says, 'Where I go you cannot come'?\",\nAnd He said to them, \"You are from beneath; I am from above. You are of this world; I am not of this world.,\nTherefore I said to you that you will die in your sins; for if you do not believe that I am He, you will die in your sins.\",\nThen they said to Him, \"Who are You?\" And Jesus said to them, \"Just what I have been saying to you from the beginning.,\nI have many things to say and to judge concerning you, but He who sent Me is true; and I speak to the world those things which I heard from Him.\",\nThey did not understand that He spoke to them of the Father.,\nThen Jesus said to them, \"When you lift up the Son of Man, then you will know that I am He, and that I do nothing of Myself; But as My Father taught Me, I speak these things.,\nAnd He who sent Me is with Me. The Father has not left Me alone, for I always do those things that please Him.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ قَالَ لَهُمْ يَسُوعُ أَيْضًا:«أَنَا أَمْضِي وَسَتَطْلُبُونَنِي،  فلا تجدُونَنِي وَتَمُوتُونَ بِخَطَايَاكُم. وَحَيْثُ أَمْضِي أَنَا فَلاَ تَقْدِرُونَ أَنْتُمْ أَنْ تَأْتُوا إليِه.",
+      "Coptic": "Palinon peje Ihcouc nwou je anok ;na]enhi ouo\\ tetennakw; `ncwi ouo\\ tetennajemt an ouo\\ tetennamou =en netennobi je pima anok e;na]enhi `erof `mmon] `]jom `mmwten `e`i `erof",
+      "English": "Then Jesus said to them again, \"I am going away, and you will seek Me, and will die in your sin. Where I go you cannot come.\"",
+      "Arabiccoptic": "بالينون بيجي إيسوس نواوو جي آنوك تيناشيني أووه تيتين ناكوتي إنسوى      أووه تيتين ناجيمت      آن أووه تيتین ناموخين      وحيث أمضي أنا نيتين نوفی جی بيما  أن آنوك إتى ناشيني إيروف      إممون إشجوم إمموتين      إى إيروف.",
+      "Englishcoptic": "Palinon peje Isos no-oo je e-anok tee-nashenee owoh teten-nakoty ensoi owoh teten-najemt an owoh teten-namoo khen netennovi je pima e-anok e-teenashenee erof emmon eshgom emmoten e-ee erof"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ الْيَهُودُ:«أَلَعَلَّهُ يَقْتُلُ نَفْسَهُ وَحْدَهُ، حَتَّى يَقُولُ: حَيْثُ أَمْضِي أَنَا لاَ تَقْدِرُونَ أَنْتُمْ أَنْ تَأْتُوا",
+      "English": "So the Jews said, \"Will He kill Himself, because He says, 'Where I go you cannot come'?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُمْ:«أَنْتُمْ أَنْتُمْ مِنْ أَسْفَلُ، وَأَمَّا أَنَا أَنَا فَمِنْ فَوْقُ. أَنْتُمْ أَنْتُمْ  مِنْ هذَا الْعَالَمِ، وَأَمَّا أَنَا فَلَسْتُ مِنْ هذَا الْعَالَمِ.",
+      "English": "And He said to them, \"You are from beneath; I am from above. You are of this world; I am not of this world."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قد قُلْتُ لَكُمْ: إِنَّكُمْ تَمُوتُونَ بِخَطَايَاكُمْ، لأَنَّكُمْ إِنْ لَمْ تُؤْمِنُوا أَنِّي أَنَا هُوَ تَمُوتُونَ بِخَطَايَاكُمْ.",
+      "English": "Therefore I said to you that you will die in your sins; for if you do not believe that I am He, you will die in your sins.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالُوا لَهُ: «مَنْ أَنْتَ؟» فَقَالَ لَهُمْ يَسُوعُ:«أَنَا مِنَ الْبَدْءِ تَكَلَّمْتُ مَعْكَمْ",
+      "English": "Then they said to Him, \"Who are You?\" And Jesus said to them, \"Just what I have been saying to you from the beginning."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلِي أَشْيَاءَ كَثِيرَةً أقولها وَأَحْكُمُ بِهَا مِنْ نَحْوِكُمْ، وَلكِنَّ الَّذِي أَرْسَلَنِي هُوَ حَقٌّ. وَأَنَا مَا سَمِعْتُهُ مِنْهُ، فَهذَا أتكلم به فى الْعَالَمِ. »",
+      "English": "I have many things to say and to judge concerning you, but He who sent Me is true; and I speak to the world those things which I heard from Him.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمْ يَفْهَمُوا أَنَّهُ كَانَ يَقُولُ لَهُمْ عَنِ الآبِ.",
+      "English": "They did not understand that He spoke to them of the Father."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُمْ يَسُوعُ:«مَتَى رَفَعْتُمُ ابْنَ الإِنْسَانِ، فَحِينَئِذٍ  تعلمون أَنِّي أَنَا هُوَ ، وَلَسْتُ أَفْعَلُ شَيْئًا مِنْ  ذَاتِي وَحْدِي. بَلْ أَتَكَلَّمُ بِهذَا كَمَا عَلَّمَنِي أَبِي.",
+      "English": "Then Jesus said to them, \"When you lift up the Son of Man, then you will know that I am He, and that I do nothing of Myself; But as My Father taught Me, I speak these things."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَالَّذِي أَرْسَلَنِي هُوَ مَعِي، وَلَمْ  يدعنى وَحْدِي، لأَنِّي فِي كُلِّ حِينٍ أَفْعَلُ مَا يُرْضِيهِ . »",
+      "English": "And He who sent Me is with Me. The Father has not left Me alone, for I always do those things that please Him."
+    }
+  ]
 }

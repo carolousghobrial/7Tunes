@@ -1,7 +1,29 @@
 {
-  "arabic": " الرَّبُّ يُشَتِتُ أَرَاءَ الأُمَمِ وَيَرْذِلُ أَفْكَارَ الشُعُوبِ وَيَرْفُضُ مُؤَامَرَةَ الرُؤساءِ,\nوَأمَّا رَأىُ الرَّبِّ فَهُوَ يَكُونُ إِلَى الأبَدِ وَأفْكَارُ قَلْبِهِ مِنْ جِيلٍ إِلَى جِيلٍ. الليلويا.,\n",
-  "arabiccoptic": " بتشويس ناجير نى صوتشنى إنتيه نى إثنوس إيفول : أووه إفناشوشف إننى موآميك إنتيه هان لاؤس :\nأووه إفناشوشف إمبى صوتشنى إنتيه نى أرخون إبصوتشنى ذيه إنثوف إبتشويس شوب شا إينيه : أووه نى موآميك إنتيه بف هيت إسجين جوأوو شا جوأوو . الليلويا .\n",
-  "coptic": " Psoic najer nicosni `nte nieqnoc `ebol> ouo\\ `fna]w]f `nnimokmek `nte \\anlaoc>\nOuo\\ `fna]w]f `mpicosni `nte niarxwn> `pcosni de `nqof `m~Psoic ]op ]a`ene\\> ouo\\ nimokmek `nte pef\\ht icjen jwou ]ajwou> `allhloui`a.\n",
-  "english": " The Lord scatters abroad the counsels of the nations; and He Sets aside the reasoning of peoples, and he rejects the counsels of rulers.,\nThe counsel of the Lord abides forever, the thoughts of His heart from generation to generation. Alleluia,\n",
-  "englishcoptic": " Epshois nager nisochni ente ni-ethnos evol; owoh efna-shooshf En ni mokmek ente han laos>\nOuwh efna shoshf empi-sochni ente ni-arkhon Epsochni ze enthof empeshois shop sha-eneh; owoh nimokmek ente pef-heet yes-jen go-oo shago-oo. Alleloia\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": " 32:10-11 مزمور",
+  "EnglishTitle": "Psalm 32:10-11 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرَّبُّ يُشَتِتُ أَرَاءَ الأُمَمِ وَيَرْذِلُ أَفْكَارَ الشُعُوبِ وَيَرْفُضُ مُؤَامَرَةَ الرُؤساءِ",
+      "Coptic": "Psoic najer nicosni `nte nieqnoc `ebol> ouo\\ `fna]w]f `nnimokmek `nte \\anlaoc>",
+      "English": "The Lord scatters abroad the counsels of the nations; and He Sets aside the reasoning of peoples, and he rejects the counsels of rulers.",
+      "Arabiccoptic": "بتشويس ناجير نى صوتشنى إنتيه نى إثنوس إيفول : أووه إفناشوشف إننى موآميك إنتيه هان لاؤس :",
+      "Englishcoptic": "Epshois nager nisochni ente ni-ethnos evol; owoh efna-shooshf En ni mokmek ente han laos>"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأمَّا رَأىُ الرَّبِّ فَهُوَ يَكُونُ إِلَى الأبَدِ وَأفْكَارُ قَلْبِهِ مِنْ جِيلٍ إِلَى جِيلٍ. الليلويا.",
+      "Coptic": "Ouo\\ `fna]w]f `mpicosni `nte niarxwn> `pcosni de `nqof `m~Psoic ]op ]a`ene\\> ouo\\ nimokmek `nte pef\\ht icjen jwou ]ajwou> `allhloui`a.",
+      "English": "The counsel of the Lord abides forever, the thoughts of His heart from generation to generation. Alleluia",
+      "Arabiccoptic": "أووه إفناشوشف إمبى صوتشنى إنتيه نى أرخون إبصوتشنى ذيه إنثوف إبتشويس شوب شا إينيه : أووه نى موآميك إنتيه بف هيت إسجين جوأوو شا جوأوو . الليلويا .",
+      "Englishcoptic": "Ouwh efna shoshf empi-sochni ente ni-arkhon Epsochni ze enthof empeshois shop sha-eneh; owoh nimokmek ente pef-heet yes-jen go-oo shago-oo. Alleloia"
+    }
+  ]
 }

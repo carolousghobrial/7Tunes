@@ -1,7 +1,18 @@
 {
-"arabic": " طُوبَى لِمَنْ اِخْتَرتَهُ  وَقَبِلْتَهُ لِيَسْكُنَ فِي دِيَارِكَ إِلَى الأَبَدِ. سَنَشْبَعُ مِنْ خَيْرَاتِ بَيْتِكَ. قُدُّوسٌ هُوَ هَيْكَلُكَ. وَعَجِيبٌ بِالْبِرِّ. الليلويا.,\n",
-"arabiccoptic": " أوأوني اتف فيئطاك سوتبف أووه أكشوبف إيروك. إف إ شوبى خين نيك أفليو شا إينيه. إن إسى إيفول خين نى أغاثون إنتى بيك إى. إفؤواب إنجى بيك إيرفى أووه إفؤى إن إشفيرى خين أو ميثمى الليلويا\n",
-"coptic": " Wouniatf `mvh`etakcotpf ouo\\ ak]opf `erok> Ef`e]wpi =en nekaulhou ]a `ene\\> En`eci `ebol =en ni`agaqon ``nte pekhi> `Fouab `nje pekervei ouo\\ `foi `n`]vhri =en oumeqmh.\n",
-"english": " Blessed is the man You choose, and cause to approach You, that he may dwell in Your courts. We shall be satisfied with the goodness of Your house. Holy is Your temple, wondrous in righteousness. Alleluia,\n",
-"englishcoptic": " O-onyatf emfee-etak sotpf owoh akshopf erok : ef-e-shopee khen nekavleyo sha eneh : ene-see evol khen nee-agathon ente pek-hee : efouab enje peker-fe-ee owoh efoy en-esh-feeree khen o-methmee. Alleluia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": " 64:5 مزمور",
+  "EnglishTitle": "Psalm  64:5",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طُوبَى لِمَنْ اِخْتَرتَهُ  وَقَبِلْتَهُ لِيَسْكُنَ فِي دِيَارِكَ إِلَى الأَبَدِ. سَنَشْبَعُ مِنْ خَيْرَاتِ بَيْتِكَ. قُدُّوسٌ هُوَ هَيْكَلُكَ. وَعَجِيبٌ بِالْبِرِّ. الليلويا.",
+      "Coptic": "Wouniatf `mvh`etakcotpf ouo\\ ak]opf `erok> Ef`e]wpi =en nekaulhou ]a `ene\\> En`eci `ebol =en ni`agaqon ``nte pekhi> `Fouab `nje pekervei ouo\\ `foi `n`]vhri =en oumeqmh.",
+      "English": "Blessed is the man You choose, and cause to approach You, that he may dwell in Your courts. We shall be satisfied with the goodness of Your house. Holy is Your temple, wondrous in righteousness. Alleluia",
+      "Arabiccoptic": "أوأوني اتف فيئطاك سوتبف أووه أكشوبف إيروك. إف إ شوبى خين نيك أفليو شا إينيه. إن إسى إيفول خين نى أغاثون إنتى بيك إى. إفؤواب إنجى بيك إيرفى أووه إفؤى إن إشفيرى خين أو ميثمى الليلويا",
+      "Englishcoptic": "O-onyatf emfee-etak sotpf owoh akshopf erok : ef-e-shopee khen nekavleyo sha eneh : ene-see evol khen nee-agathon ente pek-hee : efouab enje peker-fe-ee owoh efoy en-esh-feeree khen o-methmee. Alleluia."
+    }
+  ]
 }

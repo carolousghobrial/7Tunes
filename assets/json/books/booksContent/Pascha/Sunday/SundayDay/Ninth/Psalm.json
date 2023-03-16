@@ -1,7 +1,29 @@
 {
-"arabic": " مِنْ أَفْوَاهِ الأَطْفَالِ وَالرُضْعَانِ. هيَّأتَ  سبُحاً. مِن أجلِ أعدائِكَ لِتَهُدَّ عَدُواً وَمُنْتَقِمَاً.,\nلِأَنِّى أَرَى السَمَواتِ أَعْمَالَ أَصَابِعِكَ. القَمَرَ وَالنُجُومَ أَنْتَ أَسَسْتَهَا.,\n",
-"arabiccoptic": " إيفول خين روأو إنهانكوجي إن ألوأووي  نيم ني إث أوإمتشي اكسيبتب بي إسمو : إثفي نيك جاجي إبجين تي أوأو إنوجاجي نيم أوريفتشي إمبيشيش:\nجي تيناناف إنيفيؤوي ني إهفي أووي إنتين إكتيب : بيوه نيم نيسيو انثوك اكهيسينتي إموأو الليلويا\n",
-"coptic": " Ebol =en rwou `n\\ankouji `nalwoui nem nheqouemsi  akcebte pi`cmou > eqbe nekjaji `e`pjin;ouw `noujaji nem ourefsi `m`p]i].\nJe ;nanau `enivhoui ni`\\bhoui `nten ekthb > piio\\ nem niciou `nqok ak\\icen; `mmwou. al\n",
-"english": " From the mouths of babes and nursing infants You prepared praise : because of Your enemies that you may destroy the enemy and avenger.,\nFor I shall look at the heavens, the works of Your fingers : the moon and stars You established Alleluia,\n",
-"englishcoptic": " Evol khen ro-oo enhanko-oji enalo-owi nem ni-etho-em-echi aksevte pi-esmo : ethve nekgaji e-epjinto-oo eno-gaji nem oref-echi em-epshish.\nJe tinanav enifiowi ni-eh-vi-owi entenekteeb : pi-oh  nem nisio enthok akhisenty emo-oo. Alleluia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": " 8:3-4 مزمور",
+  "EnglishTitle": "Psalm 8:3-4 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مِنْ أَفْوَاهِ الأَطْفَالِ وَالرُضْعَانِ. هيَّأتَ  سبُحاً. مِن أجلِ أعدائِكَ لِتَهُدَّ عَدُواً وَمُنْتَقِمَاً.",
+      "Coptic": "Ebol =en rwou `n\\ankouji `nalwoui nem nheqouemsi  akcebte pi`cmou > eqbe nekjaji `e`pjin;ouw `noujaji nem ourefsi `m`p]i].",
+      "English": "From the mouths of babes and nursing infants You prepared praise : because of Your enemies that you may destroy the enemy and avenger.",
+      "Arabiccoptic": "إيفول خين روأو إنهانكوجي إن ألوأووي  نيم ني إث أوإمتشي اكسيبتب بي إسمو : إثفي نيك جاجي إبجين تي أوأو إنوجاجي نيم أوريفتشي إمبيشيش:",
+      "Englishcoptic": "Evol khen ro-oo enhanko-oji enalo-owi nem ni-etho-em-echi aksevte pi-esmo : ethve nekgaji e-epjinto-oo eno-gaji nem oref-echi em-epshish."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأَنِّى أَرَى السَمَواتِ أَعْمَالَ أَصَابِعِكَ. القَمَرَ وَالنُجُومَ أَنْتَ أَسَسْتَهَا.",
+      "Coptic": "Je ;nanau `enivhoui ni`\\bhoui `nten ekthb > piio\\ nem niciou `nqok ak\\icen; `mmwou. al",
+      "English": "For I shall look at the heavens, the works of Your fingers : the moon and stars You established Alleluia",
+      "Arabiccoptic": "جي تيناناف إنيفيؤوي ني إهفي أووي إنتين إكتيب : بيوه نيم نيسيو انثوك اكهيسينتي إموأو الليلويا",
+      "Englishcoptic": "Je tinanav enifiowi ni-eh-vi-owi entenekteeb : pi-oh  nem nisio enthok ak\u0002hisenty emo-oo. Alleluia."
+    }
+  ]
 }

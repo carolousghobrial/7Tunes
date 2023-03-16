@@ -1,4 +1,87 @@
 {
-"arabic": " أريد أن أذكركم أيها الإخوة بما قلته لكم مرات عديدة وقت تناولنا من الأسرار المقدسة التي للمسيح،,\nإذ رأيتكم في إنحلال عظيم وعدم مخافة تستوجب النوح فأبكي علي نفسي وأقوال في فكري :,\nهل تري هؤلاء عارفون لمن هم قائمون، أم تري هم عارفون ماهي قوة هذا السر.,\nوعند ذلك أغضب بغير إرادتي، حتي لو إستطعت الخروج لخرجت من بينكم من ضيق نفس،,\nوإذا ما وبخت أحداً منكم فلم يكترث بقولي، بل يتذمر علي كأنني قد ظلمته !,\nيالهذا العجب العظيم إن الذين يظلمونكم ويسلبون أمتعتكم لم تغضبوا عليهم كغضبكم علي الآن,\nأنا الذي أغار علي خلاصكم والخائف بوجل من أن يحل بكم عقاب الله بسبب تهاونكم بهذا السر العظيم.,\nأتري تعلمون من هذا الذي تريدون أن تتناولوا منه ؟ هو الجسد المقدس الذي لله الكلمة، ودمه الذي بذله عن خلاصنا.,\nهذا إذا تناول أحد منه بغير استحقاق يكون له عقوبة ومحقاً،,\nكما صار ليهوذا الذي أسلم الرب عندما تناول منه بغير استحقاق.,\n()",
-"english": " I want to remind you with what I repeatedly reiterated to you concerning our communion with the holy sacraments which is of Christ.,\nI see you in a state of extreme looseness, permissiveness, and an alarming audacity and lamentable recklessness. I weep over my condition and ask myself;,\nDo these people really know for whom do they stand? Or do these people realize the power of this sacrament?,\nAt this thought I become angry reluctantly. If I could go away, I would have left your community out of distraughtness.,\nIf I scold one of you, he disregards my words and resents the reprimand as if I were unfair to him.,\nI am amazed that you do not get angry at those who violate you and plunder your possessions as much as you are angry at me;,\nI who am keen over your salvation. I dread the thought that God's wrath may be inflicted upon you because of your disregard of this great sacrament.,\nDo you really know who is He you want to partake of? This is the Holy Body of God the Word, and His Blood that He offered for our salvation.,\nAnyone who partakes in it undeservingly will suffer abominable punishment;,\nAs was the case with Judas who betrayed God when he had communion with Him without being worthy.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "عظة للقديس يوحنا فم الذهب",
+  "EnglishTitle": "Homily of Abba John Chrysostom ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أريد أن أذكركم أيها الإخوة بما قلته لكم مرات عديدة وقت تناولنا من الأسرار المقدسة التي للمسيح،",
+      "English": "I want to remind you with what I repeatedly reiterated to you concerning our communion with the holy sacraments which is of Christ."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إذ رأيتكم في إنحلال عظيم وعدم مخافة تستوجب النوح فأبكي علي نفسي وأقوال في فكري :",
+      "English": "I see you in a state of extreme looseness, permissiveness, and an alarming audacity and lamentable recklessness. I weep over my condition and ask myself;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هل تري هؤلاء عارفون لمن هم قائمون، أم تري هم عارفون ماهي قوة هذا السر.",
+      "English": "Do these people really know for whom do they stand? Or do these people realize the power of this sacrament?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وعند ذلك أغضب بغير إرادتي، حتي لو إستطعت الخروج لخرجت من بينكم من ضيق نفس،",
+      "English": "At this thought I become angry reluctantly. If I could go away, I would have left your community out of distraughtness."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وإذا ما وبخت أحداً منكم فلم يكترث بقولي، بل يتذمر علي كأنني قد ظلمته !",
+      "English": "If I scold one of you, he disregards my words and resents the reprimand as if I were unfair to him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يالهذا العجب العظيم إن الذين يظلمونكم ويسلبون أمتعتكم لم تغضبوا عليهم كغضبكم علي الآن",
+      "English": "I am amazed that you do not get angry at those who violate you and plunder your possessions as much as you are angry at me;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنا الذي أغار علي خلاصكم والخائف بوجل من أن يحل بكم عقاب الله بسبب تهاونكم بهذا السر العظيم.",
+      "English": "I who am keen over your salvation. I dread the thought that God's wrath may be inflicted upon you because of your disregard of this great sacrament."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أتري تعلمون من هذا الذي تريدون أن تتناولوا منه ؟ هو الجسد المقدس الذي لله الكلمة، ودمه الذي بذله عن خلاصنا.",
+      "English": "Do you really know who is He you want to partake of? This is the Holy Body of God the Word, and His Blood that He offered for our salvation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذا إذا تناول أحد منه بغير استحقاق يكون له عقوبة ومحقاً،",
+      "English": "Anyone who partakes in it undeservingly will suffer abominable punishment;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كما صار ليهوذا الذي أسلم الرب عندما تناول منه بغير استحقاق.",
+      "English": "As was the case with Judas who betrayed God when he had communion with Him without being worthy."
+    }
+  ]
 }

@@ -1,22 +1,98 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " أَحِبُّوا العَدْلَ يَا قُضَاةَ الأَرضِ، أُذْكُرُوا الرَّبَ بِالصَلاحِ. أُطْلُبُوهُ بِقَلْبٍ سَلِيمٍ\n",
-"arabiccoptic": " مينرى تيمي أومي ني إت تيهاب إبكاهي اري إفميفئي إمبشويس خين أوميت أغاثوس: إري تينكوتي إنثوف خين تيميت ابولوس إنتي بيتينهيت\n",
-"coptic": " Menre ;meomhi `nhet ;\\ap `e`pka\\i> ari `vmeui `m` Po/c/ =en oumetagaqoc > eretenkw; `ncwf =en ;metaplouc nte peten\\ht>\n",
-"english": " Love righteousness, you who judge on the earth. Think about the Lord in goodness and seek Him with sincerity of heart;\n",
-"englishcoptic": " Menre ti-me-omi ni-et ti-hap ep-kahi : ari efmevee em-Epchois khen omet-aghathos : ere tenkoti ensof khen timet-aplos ente peten-heet\n",
-},
-{
-"arabic": " فَإنَّمَا يَجِدُهُ الذِينَ لاَ يُجَرِّبُونَهُ، وَيَتَجَلَّى لِلذِينَ لا يَكْفُرُونَ بِهِ,\nلِأنَّ الفِكْرَ الشِرِّيرَ يُقْصِى مِنَ اللهِ، وَقُوَّتُهُ الظَاهِرَةُ تُبَكِّتُ الجُهَّالَ.,\nلِأنَّ الحِكْمَةَ لا تَدْخُلُ فِي نَفْسٍ شِرِّيرَةٍ. وَلا تَحِلُّ فِي جِسْمٍ خَاطِئٍ.,\nلِأنَّ رُوحَ الحِكْمَةِ الطَاهِرَ يَهْرُبُ مِنْ كُلِّ غِشٍّ. وَيَبْتَعِدُ عَنْ أَفْكَارِ السُفَهَاءِ وَيُبَكِّتُ الظَالِمَ إذا أقبَلَ,\nلِأنَّ رُوحَ الحِكْمَةِ مُحِبٌّ للبَشَرِ. فَلاَ يُبَرِّئُ المُجَدِّفَ بِشَفَتَيْهِ.,\nلِأنَّ شَاهِدَ كِليَتَاهُ هُوَ اللهُ وَهُوَ الفَاحِصُ الحَقِيقِيُّ لِقَلْبِهِ وَالسَامِعْ لِلِسَانِهِ.,\nلِأنَّ رُوحَ الرَبِّ مِلء المَسْكُونَةِ وَبَقِيَّةِ الكُلِّ وَهُوَ يَعْرِفُ أَصْوَاتَ الكُلِّ,\nفَلِذَلِكَ لا يَخْفَى عَلَيهِ أَحَدٌ نَاطِقٌ بالظُلْمِ وَلاَيَنْجُو مِنَ الدَينُونَةِ الآتِيَةِ.,\nلِأنَّه يَفحَصُ مَشُورَةَ المُنَافِقِ.,\nوالرَبُّ لا يَسمَعُ لِكَلامِهِ حَتَّى يُظْهِرَ آثَامَهُ.,\n",
-"english": " Because He is found by those who do not tempt Him, and He is manifest to those who do not disbelieve Him.,\nFor dishonest reasoning separates people from God, and when His power examines someone, it convicts the undiscerning:,\nFor wisdom will not enter the soul that plots evil, nor will it dwell in a body involved in sin.,\nFor a holy spirit of discipline [wisdom] flees from deceit and sends away undiscerning reasoning: it will put wrongdoing to shame when it comes near.,\nFor wisdom is a spirit that loves mankind, but she will punish a blasphemer because of his words;,\nFor God is the witness of his thoughts, the true examiner of his heart, and the hearer of his tongue;,\nBecause the Spirit of the Lord fills the world, and He who holds all things together knows what is said.,\nTherefore no one who speaks unrighteous things will escape notice. Nor will justice, when it cross examines, pass him by.,\nFor there shall be a close examination into the deliberations of an ungodly man,,\nAnd a report of his words will come to the Lord as proof of his lawlessness,,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "1:1-9 من حكمة سليمان",
+  "EnglishTitle": "Wisdom of Solomon 1:1-9 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَحِبُّوا العَدْلَ يَا قُضَاةَ الأَرضِ، أُذْكُرُوا الرَّبَ بِالصَلاحِ. أُطْلُبُوهُ بِقَلْبٍ سَلِيمٍ",
+      "Coptic": "Menre ;meomhi `nhet ;\\ap `e`pka\\i> ari `vmeui `m` Po/c/ =en oumetagaqoc > eretenkw; `ncwf =en ;metaplouc nte peten\\ht>",
+      "English": "Love righteousness, you who judge on the earth. Think about the Lord in goodness and seek Him with sincerity of heart;",
+      "Arabiccoptic": "مينرى تيمي أومي ني إت تيهاب إبكاهي اري إفميفئي إمبشويس خين أوميت أغاثوس: إري تينكوتي إنثوف خين تيميت ابولوس إنتي بيتينهيت",
+      "Englishcoptic": "Menre ti-me-omi ni-et ti-hap ep-kahi : ari efmevee em-Epchois khen omet-aghathos : ere tenkoti ensof khen timet-aplos ente peten-heet"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَإنَّمَا يَجِدُهُ الذِينَ لاَ يُجَرِّبُونَهُ، وَيَتَجَلَّى لِلذِينَ لا يَكْفُرُونَ بِهِ",
+      "English": "Because He is found by those who do not tempt Him, and He is manifest to those who do not disbelieve Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأنَّ الفِكْرَ الشِرِّيرَ يُقْصِى مِنَ اللهِ، وَقُوَّتُهُ الظَاهِرَةُ تُبَكِّتُ الجُهَّالَ.",
+      "English": "For dishonest reasoning separates people from God, and when His power examines someone, it convicts the undiscerning:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأنَّ الحِكْمَةَ لا تَدْخُلُ فِي نَفْسٍ شِرِّيرَةٍ. وَلا تَحِلُّ فِي جِسْمٍ خَاطِئٍ.",
+      "English": "For wisdom will not enter the soul that plots evil, nor will it dwell in a body involved in sin."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأنَّ رُوحَ الحِكْمَةِ الطَاهِرَ يَهْرُبُ مِنْ كُلِّ غِشٍّ. وَيَبْتَعِدُ عَنْ أَفْكَارِ السُفَهَاءِ وَيُبَكِّتُ الظَالِمَ إذا أقبَلَ",
+      "English": "For a holy spirit of discipline [wisdom] flees from deceit and sends away undiscerning reasoning: it will put wrongdoing to shame when it comes near."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأنَّ رُوحَ الحِكْمَةِ مُحِبٌّ للبَشَرِ. فَلاَ يُبَرِّئُ المُجَدِّفَ بِشَفَتَيْهِ.",
+      "English": "For wisdom is a spirit that loves mankind, but she will punish a blasphemer because of his words;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأنَّ شَاهِدَ كِليَتَاهُ هُوَ اللهُ وَهُوَ الفَاحِصُ الحَقِيقِيُّ لِقَلْبِهِ وَالسَامِعْ لِلِسَانِهِ.",
+      "English": "For God is the witness of his thoughts, the true examiner of his heart, and the hearer of his tongue;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأنَّ رُوحَ الرَبِّ مِلء المَسْكُونَةِ وَبَقِيَّةِ الكُلِّ وَهُوَ يَعْرِفُ أَصْوَاتَ الكُلِّ",
+      "English": "Because the Spirit of the Lord fills the world, and He who holds all things together knows what is said."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلِذَلِكَ لا يَخْفَى عَلَيهِ أَحَدٌ نَاطِقٌ بالظُلْمِ وَلاَيَنْجُو مِنَ الدَينُونَةِ الآتِيَةِ.",
+      "English": "Therefore no one who speaks unrighteous things will escape notice. Nor will justice, when it cross examines, pass him by."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأنَّه يَفحَصُ مَشُورَةَ المُنَافِقِ.",
+      "English": "For there shall be a close examination into the deliberations of an ungodly man"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والرَبُّ لا يَسمَعُ لِكَلامِهِ حَتَّى يُظْهِرَ آثَامَهُ.",
+      "English": "And a report of his words will come to the Lord as proof of his lawlessness"
+    }
+  ]
 }

@@ -1,22 +1,106 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " أُمَجِّدُ الذِى أُحِّبُهُ بنَشِيدِ الحبيبِ لِهذا الكَرْمِ:\n",
-"arabiccoptic": " إي إتي أوأو إمفي إيتاف مينريتف خين أوجو إنتى بيمينريت إنتي باي ياهالهول\n",
-"coptic": " Eie;wou `mvhetau `menritf =en oujw nte pimenrit `nte pai ia\\aloli>\n",
-"english": " Now I will sing to My Beloved a song of My Beloved regarding My vineyard:\n",
-"englishcoptic": " Ei-eti-o-oo emvi-etav menritf khen o-go ente pi-menreet ente pai yahal holi\n",
-},
-{
-"arabic": " كَانَ لِلحَبِيبِ كَرْمٌ فِى رَابِيَة فِى مَوْضِعٍ خَصْبٍ،,\n٢ فَأحَطْتُ بِهِ سِيَاجَاً وَرَفَعتُهُ عَلَى القَصَبِ وَغَرَسَتُ كَرْمَاً فِى سَوْرَقَ،,\nوَبَنَيتُ فيه بُرْجًا فِي وَسَطِهِ، وَحَفَرَتُ فِيهِ مِعْصَرَةً، وَٱنْتَظَرَتُ أَنْ يُخْرِجَ عِنَبًا فَأخْرَجَ شَوكاً.,\n٣ »وَٱلْآنَ يَارِجَالَ يَهُوذَا وَسُكَّانَ أُورُشَلِيمَ ، ٱحْكُمُوا بَيْنِي وَبَيْنَ كَرْمِي.  لأنى َٱنْتَظَرَتُ أَنْ يَخرِجَ عِنَبًا فَأخرَجَ شَوكاً.,\n٤ أىُّ شيئٍ يُصْنَعُ لِكَرْمِي وَأَنَا لَمْ أَصْنَعْهُ بِهُ؟,\nلأنى رَجَوتُ أَنْ يُخْرِجَ عِنَبًا فَأخرَجَ شَوكاً.؟,\n٥ فَٱلْآنَ أُعْلِمَكُمْ مَاذَا أَفْعَلُ بِكَرْمِي: أَقْلَعُ سِيَاجَهُ فَيَصِيرُ لِلنَهْبِ. وَأَهْدِمُ جَوسَقَهُ (حِصْنَهُ) فَيَكونُ مَدُوْساً.,\n٦ وَأُهْمِلُ هَذَا الكَرْمَ لَا يُقَّضَبُ (يُهَّذَبُ) وَلَا يُفَلَّحُ، وَيَنْبُتُ فِيِهِ الشَوْكُ مِثْلُ السلا . وَأُوصِي ٱلْسحابَ أَنْ لَا تُمْطِرَ عَلَيْهِ مَطَرًا«.,\n٧لأِنَّ كَرْمَ رَبِّ ٱلْصَبَاؤوتِ هُوَ بَيْتُ إِسْرَائِيلَ، وَرِجَالُ يَهُوذَا الغَرْسُ الجَدِيدُ المَحْبُوبُ. رَجَوتُ أَنْ يَصْنَعَ إِنْصَافاً فَصَنَعَ إِثْمَاً، وَعَدْلًا فَإِذَا صُرَاخٌ.,\n٨ وَيْلٌ لِلَّذِينَ يَصِلُونَ بَيْتًا بِبَيْتٍ، وَيُقْرِنُونَ حَقْلًا بِحَقْلٍ، لِكَى يَسلُبُوا أصْحَابَهُمْ. إذاً  أَنْتُمْ تَسْكُنُونَ ٱلْأَرْضَ وَحْدَكُمْ.,\n٩ قد سُمِعَ هَذَا فِي مَسَامِعِ رَبِّ ٱلْصَبَاؤوتِ.,\n",
-"english": " There was a vineyard for My Beloved, a place in power and richness.,\nHe placed a wall around it and fortified it. He planted it with the choicest vine. \n He built a tower in its midst and also made a winepress in it. So I waited for it to bring forth grapes, but it produced thorn-plants.,\nAnd now, man of Judah and inhabitants of Jerusalem, judge between Me and My vineyard.,\nWhat shall I yet do for My vineyard that I have not done for it?,\nFor I waited for it to bring forth grapes, but it produced thorn-plants.,\nBut now I will tell you what I shall do to My vineyard: I shall remove its wall and it shall be for booty. I shall break down its wall and it shall be trampled underfoot.,\nI will forsake My vineyard. It shall not be pruned or cultivated, but thorns shall sprout forth as in a barren land. I will also command the clouds not to rain on it.\",\nFor the vineyard of the Lord of hosts is the house of Israel, and the man of Judah is His beloved plant. I waited for it to bring forth judgment, but it brought forth lawlessness, and not righteousness, but a cry.,\nWoe to those who join house to house, who add field to field, to take something from their neighbor. Surely you will not dwell alone in the land.,\nFor these things reached the ears of the Lord of hosts.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "51:1-9 من إشعياء النبي",
+  "EnglishTitle": "Isaiah 51:1-9 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أُمَجِّدُ الذِى أُحِّبُهُ بنَشِيدِ الحبيبِ لِهذا الكَرْمِ:",
+      "Coptic": "Eie;wou `mvhetau `menritf =en oujw nte pimenrit `nte pai ia\\aloli>",
+      "English": "Now I will sing to My Beloved a song of My Beloved regarding My vineyard:",
+      "Arabiccoptic": "إي إتي أوأو إمفي إيتاف مينريتف خين أوجو إنتى بيمينريت إنتي باي ياهالهول",
+      "Englishcoptic": "Ei-eti-o-oo emvi-etav menritf khen o-go ente pi-menreet ente pai yahal holi"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كَانَ لِلحَبِيبِ كَرْمٌ فِى رَابِيَة فِى مَوْضِعٍ خَصْبٍ،",
+      "English": "There was a vineyard for My Beloved, a place in power and richness."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢ فَأحَطْتُ بِهِ سِيَاجَاً وَرَفَعتُهُ عَلَى القَصَبِ وَغَرَسَتُ كَرْمَاً فِى سَوْرَقَ،",
+      "English": "He placed a wall around it and fortified it. He planted it with the choicest vine."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبَنَيتُ فيه بُرْجًا فِي وَسَطِهِ، وَحَفَرَتُ فِيهِ مِعْصَرَةً، وَٱنْتَظَرَتُ أَنْ يُخْرِجَ عِنَبًا فَأخْرَجَ شَوكاً.",
+      "English": "He built a tower in its midst and also made a winepress in it. So I waited for it to bring forth grapes, but it produced thorn-plants."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٣ »وَٱلْآنَ يَارِجَالَ يَهُوذَا وَسُكَّانَ أُورُشَلِيمَ ، ٱحْكُمُوا بَيْنِي وَبَيْنَ كَرْمِي.  لأنى َٱنْتَظَرَتُ أَنْ يَخرِجَ عِنَبًا فَأخرَجَ شَوكاً.",
+      "English": "And now, man of Judah and inhabitants of Jerusalem, judge between Me and My vineyard."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٤ أىُّ شيئٍ يُصْنَعُ لِكَرْمِي وَأَنَا لَمْ أَصْنَعْهُ بِهُ؟",
+      "English": "What shall I yet do for My vineyard that I have not done for it?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنى رَجَوتُ أَنْ يُخْرِجَ عِنَبًا فَأخرَجَ شَوكاً.؟",
+      "English": "For I waited for it to bring forth grapes, but it produced thorn-plants."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٥ فَٱلْآنَ أُعْلِمَكُمْ مَاذَا أَفْعَلُ بِكَرْمِي: أَقْلَعُ سِيَاجَهُ فَيَصِيرُ لِلنَهْبِ. وَأَهْدِمُ جَوسَقَهُ (حِصْنَهُ) فَيَكونُ مَدُوْساً.",
+      "English": "But now I will tell you what I shall do to My vineyard: I shall remove its wall and it shall be for booty. I shall break down its wall and it shall be trampled underfoot."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٦ وَأُهْمِلُ هَذَا الكَرْمَ لَا يُقَّضَبُ (يُهَّذَبُ) وَلَا يُفَلَّحُ، وَيَنْبُتُ فِيِهِ الشَوْكُ مِثْلُ السلا . وَأُوصِي ٱلْسحابَ أَنْ لَا تُمْطِرَ عَلَيْهِ مَطَرًا«.",
+      "English": "I will forsake My vineyard. It shall not be pruned or cultivated, but thorns shall sprout forth as in a barren land. I will also command the clouds not to rain on it.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٧لأِنَّ كَرْمَ رَبِّ ٱلْصَبَاؤوتِ هُوَ بَيْتُ إِسْرَائِيلَ، وَرِجَالُ يَهُوذَا الغَرْسُ الجَدِيدُ المَحْبُوبُ. رَجَوتُ أَنْ يَصْنَعَ إِنْصَافاً فَصَنَعَ إِثْمَاً، وَعَدْلًا فَإِذَا صُرَاخٌ.",
+      "English": "For the vineyard of the Lord of hosts is the house of Israel, and the man of Judah is His beloved plant. I waited for it to bring forth judgment, but it brought forth lawlessness, and not righteousness, but a cry."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨ وَيْلٌ لِلَّذِينَ يَصِلُونَ بَيْتًا بِبَيْتٍ، وَيُقْرِنُونَ حَقْلًا بِحَقْلٍ، لِكَى يَسلُبُوا أصْحَابَهُمْ. إذاً  أَنْتُمْ تَسْكُنُونَ ٱلْأَرْضَ وَحْدَكُمْ.",
+      "English": "Woe to those who join house to house, who add field to field, to take something from their neighbor. Surely you will not dwell alone in the land."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٩ قد سُمِعَ هَذَا فِي مَسَامِعِ رَبِّ ٱلْصَبَاؤوتِ.",
+      "English": "For these things reached the ears of the Lord of hosts."
+    }
+  ]
 }

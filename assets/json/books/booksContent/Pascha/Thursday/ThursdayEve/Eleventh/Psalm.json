@@ -1,7 +1,29 @@
 {
-"arabic": " خَلاَصِى وَمَجْدِى بِإِلَهِى، إِلَهُ مَعُونَتِی، رَجَائِي هُوَ بِاللهِ.,\nلِأَنَّهُ إِلَهِى وَمُخَلِّصِى. نَاصِرِى فَلاَ اَتَزَعْزَعُ أَبَدَاً: الليلويا.,\n",
-"arabiccoptic": " با أوجاى نيم با أؤو اف خين بانوتى افنوتى انتى تافوئيثيا. أو وهتا هيلبيس إسخين افنوتى.\nكى غارانثوف بى بانوتى باسوتير. باريف شو بت ايروف اننا أؤو تيف الليلويا\n",
-"coptic": " Paoujai nem pa`wou au=en panou; > `Vnou; `nte tabohqia ouo\\ ta\\elpic ac=en `V;/>\nKe gar `nqof pe panou; pacwthr> paref]opt erof `nnakim `n\\ouo> a/l/\n",
-"english": " In God is my salvation and my glory : He is the God of my help, and my hope is in God.,\nFor indeed He is my God and my Savior : My protector ,I shall be shaken no more Alleluia.,\n",
-"englishcoptic": " Pa-ogay nem pa-oo av khen Panoty : Efnoty ente tabotheya owoh tahelpees as khen Efnoty :\nKe ghar enthof pe Panoty Pasoteer : parefshopt erof en-nakeem enho-oo. Alleluia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "61:8,2  مزمور",
+  "EnglishTitle": "Psalm 61:8,2 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خَلاَصِى وَمَجْدِى بِإِلَهِى، إِلَهُ مَعُونَتِی، رَجَائِي هُوَ بِاللهِ.",
+      "Coptic": "Paoujai nem pa`wou au=en panou; > `Vnou; `nte tabohqia ouo\\ ta\\elpic ac=en `V;/>",
+      "English": "In God is my salvation and my glory : He is the God of my help, and my hope is in God.",
+      "Arabiccoptic": "با أوجاى نيم با أؤو اف خين بانوتى افنوتى انتى تافوئيثيا. أو وهتا هيلبيس إسخين افنوتى.",
+      "Englishcoptic": "Pa-ogay nem pa-oo av khen Panoty : Efnoty ente tabotheya owoh tahelpees as khen Efnoty :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأَنَّهُ إِلَهِى وَمُخَلِّصِى. نَاصِرِى فَلاَ اَتَزَعْزَعُ أَبَدَاً: الليلويا.",
+      "Coptic": "Ke gar `nqof pe panou; pacwthr> paref]opt erof `nnakim `n\\ouo> a/l/",
+      "English": "For indeed He is my God and my Savior : My protector ,I shall be shaken no more Alleluia.",
+      "Arabiccoptic": "كى غارانثوف بى بانوتى باسوتير. باريف شو بت ايروف اننا أؤو تيف الليلويا",
+      "Englishcoptic": "Ke ghar enthof pe Panoty Pasoteer : parefshopt erof en-nakeem enho-oo. Alleluia."
+    }
+  ]
 }

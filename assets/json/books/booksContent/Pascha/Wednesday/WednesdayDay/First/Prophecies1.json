@@ -1,22 +1,66 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " ثُمَّ ارْتَحَلَ كُلُّ جَمَاعَةِ بَنِي إِسْرَائِيلَ مِنْ بَرِّيَّةِ سِيناء بِحَسَبِ مَرَاحِلِهِمْ عَلَى مُوجِبِ قول الرَّبِّ،وَنَزَلُوا فِي رَفِيدِيمَ. وَلَمْ يَكُنْ مَاءٌ لِيَشْرَبَ الشَّعْبُ.\n",
-    "arabiccoptic": " أووه أستونس إنجى تى سيناجوجى تيرس إنتى نين شيرى إم إبسرائيل إيفول خين إبشافى إن سينا كاطا نو باريم فولى إيفول هيتين إبساجى إم إبشويس. أووه أفهى كوت خين رافازين. نى إممون موأو إمبى لاؤس إأثروسو.\n",
-    "coptic": " Ouo\\ actwnc `nje ;cunagwgh thrc `nte nen]hri `m`pIc/l/ `ebol=en `p]afe `nCina kata nouparembolh `ebol\\iten `pcaji `mP_ ouo\\ au\\ikot =en Ravazin> ne `mmon mwou `mpilaoc eqroucw.\n",
-    "english": " Now all the congregation of the children of Israel departed from the Wilderness of Sin, according to their encampments and by the word of the Lord, and camped in Rephidim; but there was no water for the people to drink.\n",
-    "englishcoptic": " Owoh astons enje ti sina gogy tirs ente nenshiry em ep Israeel evol khen epshave en Sina kata noparem voly evol hiten epsaji em Epshois.owoh av hikot khen Rafazin ne emmon mo-o ethro-so.\n"
-  },
-  {
-    "arabic": " فَخَاصَمَ الشَّعْبُ مُوسَى وَقَالُوا له: »أَعْطنَا مَاءً لِنَشْرَبَ.» فَقَالَ لَهُمْ مُوسَى: «لِمَاذَا تُخَاصِمُونَنِي؟ وَلِمَاذَا تُجَرِّبُونَ الرَّبَّ؟«,\nفَاشْتَدَّ عَطَشُ الشَّعْبُ وَتَذَمَّرُوا عَلَى مُوسَى قَائِلِينَ: »لِمَاذَا أَصْعَدْتَنَا مِنْ مِصْرَ لِتُمِيتَنَا وَأَوْلاَدَنَا وَمَوَاشِيَنَا بِالْعَطَشِ؟«,\nفَصَرَخَ مُوسَى إِلَى الرَّبِّ قَائِلاً: «مَاذَا أَفْعَلُ بِهذَا الشَّعْبِ؟ إِنَّهُمْ  بَعْدَ قَلِيلٍ يَرْجُمُونَنِي«.,\nفَقَالَ الرَّبُّ لِمُوسَى: «مُرَّ قُدَّامَ الشَّعْبِ، وَخُذْ مَعَكَ مِنْ شُيُوخِ إِسْرَائِيلَ. وَعَصَاكَ الَّتِي ضَرَبْتَ بِهَا البَحْرَ خُذْهَا فِي يَدِكَ وَاذْهَبْ أَمَامَهُمْ إِلَي صَخْرَةِ حُورِيبَ,,\nهَا أَنَا أَقِفُ هُنَاكَ قُدَّامَكَ عَلَى صَخْرَةِ حُورِيبَ، وَأضْرِبْ الصَّخْرَةَ فَيَخْرُجُ مِنْهَا مَاءٌ وَيَشْرَبَ الشَّعْبُ«. فَفَعَلَ مُوسَى هكَذَا عَلَي مَشْهَدِ بَنِي إِسْرَائِيلَ.,\nوَسَمَّي ذَلِكَ المَكَانَ التَجْرِبَةَ وَالمُخَاصَمَةَ لِأَنَّ بَنِي إِسْرَائِيلَ، تَذَمَّرُوا وَجَرَّبُوا الرَّبَّ قَائِلِينَ: «أَفِي وَسْطِنَا الرَّبُّ أَمْ لاَ؟«.,\n",
-    "english": " Therefore the people contended with Moses, saying, \"Give us water, that we may drink.\" Moses then said to them,' \"Why do you contend with me? Why do you tempt the Lord?\",\nThus the people thirsted there for water, and the people complained against Moses and said, \"Why is it you brought us up out of Egypt to kill us, our children, and our cattle with thirst?\",\nSo Moses cried out to the Lord, saying, \"What shall I do with this people? They are almost ready to stone me.\",\nThen the Lord said to Moses, \"Go before this people and take with you some of the elders of Israel. Also take in your hand the rod with which you struck the river and go.,\nBehold, I will stand before you there on the rock in Horeb; and you shall strike the rock, and water will come out of it so the people may drink.\" So Moses did so before the children of Israel.,\nThus he called the name of that place Temptation and Abuse, because of the abusive language of the children of Israel and because they tempted the Lord, saying, \"Is the Lord among us or not?\",\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "17:1-7 من سفر الخروج لموسى النبى",
+  "EnglishTitle": "Exodus 17:1-7 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ ارْتَحَلَ كُلُّ جَمَاعَةِ بَنِي إِسْرَائِيلَ مِنْ بَرِّيَّةِ سِيناء بِحَسَبِ مَرَاحِلِهِمْ عَلَى مُوجِبِ قول الرَّبِّ،وَنَزَلُوا فِي رَفِيدِيمَ. وَلَمْ يَكُنْ مَاءٌ لِيَشْرَبَ الشَّعْبُ.",
+      "Coptic": "Ouo\\ actwnc `nje ;cunagwgh thrc `nte nen]hri `m`pIc/l/ `ebol=en `p]afe `nCina kata nouparembolh `ebol\\iten `pcaji `mP_ ouo\\ au\\ikot =en Ravazin> ne `mmon mwou `mpilaoc eqroucw.",
+      "English": "Now all the congregation of the children of Israel departed from the Wilderness of Sin, according to their encampments and by the word of the Lord, and camped in Rephidim; but there was no water for the people to drink.",
+      "Arabiccoptic": "أووه أستونس إنجى تى سيناجوجى تيرس إنتى نين شيرى إم إبسرائيل إيفول خين إبشافى إن سينا كاطا نو باريم فولى إيفول هيتين إبساجى إم إبشويس. أووه أفهى كوت خين رافازين. نى إممون موأو إمبى لاؤس إأثروسو.",
+      "Englishcoptic": "Owoh astons enje ti sina gogy tirs ente nenshiry em ep Israeel evol khen epshave en Sina kata noparem voly evol hiten epsaji em Epshois.owoh av hikot khen Rafazin ne emmon mo-o ethro-so."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَخَاصَمَ الشَّعْبُ مُوسَى وَقَالُوا له: »أَعْطنَا مَاءً لِنَشْرَبَ.» فَقَالَ لَهُمْ مُوسَى: «لِمَاذَا تُخَاصِمُونَنِي؟ وَلِمَاذَا تُجَرِّبُونَ الرَّبَّ؟«",
+      "English": "Therefore the people contended with Moses, saying, \"Give us water, that we may drink.\" Moses then said to them,' \"Why do you contend with me? Why do you tempt the Lord?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَاشْتَدَّ عَطَشُ الشَّعْبُ وَتَذَمَّرُوا عَلَى مُوسَى قَائِلِينَ: »لِمَاذَا أَصْعَدْتَنَا مِنْ مِصْرَ لِتُمِيتَنَا وَأَوْلاَدَنَا وَمَوَاشِيَنَا بِالْعَطَشِ؟«",
+      "English": "Thus the people thirsted there for water, and the people complained against Moses and said, \"Why is it you brought us up out of Egypt to kill us, our children, and our cattle with thirst?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَصَرَخَ مُوسَى إِلَى الرَّبِّ قَائِلاً: «مَاذَا أَفْعَلُ بِهذَا الشَّعْبِ؟ إِنَّهُمْ  بَعْدَ قَلِيلٍ يَرْجُمُونَنِي«.",
+      "English": "So Moses cried out to the Lord, saying, \"What shall I do with this people? They are almost ready to stone me.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ الرَّبُّ لِمُوسَى: «مُرَّ قُدَّامَ الشَّعْبِ، وَخُذْ مَعَكَ مِنْ شُيُوخِ إِسْرَائِيلَ. وَعَصَاكَ الَّتِي ضَرَبْتَ بِهَا البَحْرَ خُذْهَا فِي يَدِكَ وَاذْهَبْ أَمَامَهُمْ إِلَي صَخْرَةِ حُورِيبَ",
+      "English": "Then the Lord said to Moses, \"Go before this people and take with you some of the elders of Israel. Also take in your hand the rod with which you struck the river and go."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هَا أَنَا أَقِفُ هُنَاكَ قُدَّامَكَ عَلَى صَخْرَةِ حُورِيبَ، وَأضْرِبْ الصَّخْرَةَ فَيَخْرُجُ مِنْهَا مَاءٌ وَيَشْرَبَ الشَّعْبُ«. فَفَعَلَ مُوسَى هكَذَا عَلَي مَشْهَدِ بَنِي إِسْرَائِيلَ.",
+      "English": "Behold, I will stand before you there on the rock in Horeb; and you shall strike the rock, and water will come out of it so the people may drink.\" So Moses did so before the children of Israel."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَسَمَّي ذَلِكَ المَكَانَ التَجْرِبَةَ وَالمُخَاصَمَةَ لِأَنَّ بَنِي إِسْرَائِيلَ، تَذَمَّرُوا وَجَرَّبُوا الرَّبَّ قَائِلِينَ: «أَفِي وَسْطِنَا الرَّبُّ أَمْ لاَ؟«.",
+      "English": "Thus he called the name of that place Temptation and Abuse, because of the abusive language of the children of Israel and because they tempted the Lord, saying, \"Is the Lord among us or not?\""
+    }
+  ]
 }

@@ -1,7 +1,16 @@
 {
-"arabic": " خَلِّصْ شَعْبَكَ بَارِكْ مِيرَاثَكَ. اِرْعَهُمْ وَاِرْفَعْهُمْ إِلَى الأَبَدِ، اِسْتَمِعْ يَارَبُّ صَوْتَ تَضَرُّعِى إِذْ أَبْتَهِلُ إِلَيكَ، هلليلويا.,\n",
-"arabiccoptic": " نوهيم امبيك لاؤس ازمو اتيك إكليرونوميا. أموتى امموؤو تشاسو شا اينيه. سوتيم إبشويس إى إب اخروؤو. انتى باتوفه أوفيك الليلويا\n",
-"coptic": " No\\em `mpeklaoc `cmou `etek`klhronomi`a> `amoni `mmwou sacou ]a`ene\\> Cwtem Psoic `e`p`=rwou ntepatwb\\> =en pjintatwb\\ oubhk> `allhloui`a\n",
-"english": " Save your people and bless your inheritance: and shepherd them, and raise them up for ever. Hear the voice of my supplication : when I pray to You Alleluia.,\n",
-"englishcoptic": " Nohem empekla-os esmo etek-ek-leeronomeya : amony emo-oo etchaso-oo sha eneh : sotem Epetchoice e-ep-ekhro-oo ente patovh : khen ep-jeen-ta-tovh o-oveek. Alleluia.\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خَلِّصْ شَعْبَكَ بَارِكْ مِيرَاثَكَ. اِرْعَهُمْ وَاِرْفَعْهُمْ إِلَى الأَبَدِ، اِسْتَمِعْ يَارَبُّ صَوْتَ تَضَرُّعِى إِذْ أَبْتَهِلُ إِلَيكَ، هلليلويا.",
+      "Coptic": "No\\em `mpeklaoc `cmou `etek`klhronomi`a> `amoni `mmwou sacou ]a`ene\\> Cwtem Psoic `e`p`=rwou ntepatwb\\> =en pjintatwb\\ oubhk> `allhloui`a",
+      "English": "Save your people and bless your inheritance: and shepherd them, and raise them up for ever. Hear the voice of my supplication : when I pray to You Alleluia.",
+      "Arabiccoptic": "نوهيم امبيك لاؤس ازمو اتيك إكليرونوميا. أموتى امموؤو تشاسو شا اينيه. سوتيم إبشويس إى إب اخروؤو. انتى باتوفه أوفيك الليلويا",
+      "Englishcoptic": "Nohem empekla-os esmo etek-ek-leeronomeya : amony emo-oo etchaso-oo sha eneh : sotem Epetchoice e-ep-ekhro-oo ente patovh : khen ep-jeen-ta-tovh o-oveek. Alleluia."
+    }
+  ]
 }

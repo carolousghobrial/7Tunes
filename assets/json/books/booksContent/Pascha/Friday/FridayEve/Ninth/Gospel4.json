@@ -1,22 +1,58 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وَكَانَ مَعَ سِمْعَانَ بُطْرُسَ سَيْفٌ، فَاسْتَلَّهُ وَضَرَبَ عَبْدَ رَئِيسِ الْكَهَنَةِ، فَقَطَعَ أُذْنَهُ الْيُمْنَى.\n",
-"arabiccoptic": " سيمون أون بيتروس نى اواون او سيفى إنطوطف. أفثوك ميس أف هيؤى إنسا أف فوك إمبى أرسى إيرفس. أووه أفجوجى إمبيف ماشج إن أوى نام إيفول.\n",
-"coptic": " Cimwn oun Petroc ne ouon ouchfi `ntotf> afqokmec af\\iou`i `nca `vbwk `mpiarxh`ereuc> ouo\\ afjwji `mpefma]j `nou`inam `ebol>\n",
-"english": " Then Simon Peter, having a sword, drew it and struck the high priest's servant, and cut off his right ear.\n",
-"englishcoptic": " Simon on Petros ne o-on o sify entotf. afthok mes af hi-oui ensa efvok empi arshi erevs. owoh afgogy empef mashg en ouinam evol.\n",
-},
-{
-"arabic": " وَكَانَ اسْمُ الْعَبْدِ مَلْخُسَ.,\nفَقَالَ يَسُوعُ لِبُطْرُسَ: «اِلْقِ السَيْفَ فِي غِمْدِهِ! الْكَأْسُ الَّتِي أَعْطَانِيهَا أَبِى أَلاَ أَشْرَبُهَا؟».,\nثُمَّ إِنَّ الْجَمْعَ وَالْقَائِدَ وَخُدَّامَ الْيَهُودِ قَبَضُوا عَلَى يَسُوعَ وَأَوْثَقُوهُ،,\nوَجَاءُوا بِهِ إِلَى حَنَّانَ، لأَنَّهُ كَانَ حَمَا قَيَافَا الَّذِي كَانَ رَئِيسًا لِلْكَهَنَةِ فِي تِلْكَ السَّنَةِ.,\nوَكَانَ قَيَافَا هُوَ الَّذِي أَشَارَ عَلَى الْيَهُودِ قَائِلاً أَنَّهُ خَيْرٌ أَنْ يَمُوتَ رَجُلٌ وَاحِدٌ عَنِ الشَّعْبِ.,\n",
-"english": " The servant's name was Malchus.,\nSo Jesus said to Peter, \"Put your sword into the sheath. Shall I not drink the cup which My Father has given Me?\",\nThen the detachment of troops and the captain and the officers of the Jews arrested Jesus and bound Him.,\nAnd they led Him away to Annas first, for he was the father-in-law of Caiaphas who was high priest that year.,\nNow it was Caiaphas who advised the Jews that it was expedient that one man should die for the people.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "18:10-14 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 18:10-14 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ مَعَ سِمْعَانَ بُطْرُسَ سَيْفٌ، فَاسْتَلَّهُ وَضَرَبَ عَبْدَ رَئِيسِ الْكَهَنَةِ، فَقَطَعَ أُذْنَهُ الْيُمْنَى.",
+      "Coptic": "Cimwn oun Petroc ne ouon ouchfi `ntotf> afqokmec af\\iou`i `nca `vbwk `mpiarxh`ereuc> ouo\\ afjwji `mpefma]j `nou`inam `ebol>",
+      "English": "Then Simon Peter, having a sword, drew it and struck the high priest's servant, and cut off his right ear.",
+      "Arabiccoptic": "سيمون أون بيتروس نى اواون او سيفى إنطوطف. أفثوك ميس أف هيؤى إنسا أف فوك إمبى أرسى إيرفس. أووه أفجوجى إمبيف ماشج إن أوى نام إيفول.",
+      "Englishcoptic": "Simon on Petros ne o-on o sify entotf. afthok mes af hi-oui ensa efvok empi arshi erevs. owoh afgogy empef mashg en ouinam evol."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ اسْمُ الْعَبْدِ مَلْخُسَ.",
+      "English": "The servant's name was Malchus."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ يَسُوعُ لِبُطْرُسَ: «اِلْقِ السَيْفَ فِي غِمْدِهِ! الْكَأْسُ الَّتِي أَعْطَانِيهَا أَبِى أَلاَ أَشْرَبُهَا؟».",
+      "English": "So Jesus said to Peter, \"Put your sword into the sheath. Shall I not drink the cup which My Father has given Me?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ إِنَّ الْجَمْعَ وَالْقَائِدَ وَخُدَّامَ الْيَهُودِ قَبَضُوا عَلَى يَسُوعَ وَأَوْثَقُوهُ،",
+      "English": "Then the detachment of troops and the captain and the officers of the Jews arrested Jesus and bound Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَجَاءُوا بِهِ إِلَى حَنَّانَ، لأَنَّهُ كَانَ حَمَا قَيَافَا الَّذِي كَانَ رَئِيسًا لِلْكَهَنَةِ فِي تِلْكَ السَّنَةِ.",
+      "English": "And they led Him away to Annas first, for he was the father-in-law of Caiaphas who was high priest that year."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ قَيَافَا هُوَ الَّذِي أَشَارَ عَلَى الْيَهُودِ قَائِلاً أَنَّهُ خَيْرٌ أَنْ يَمُوتَ رَجُلٌ وَاحِدٌ عَنِ الشَّعْبِ.",
+      "English": "Now it was Caiaphas who advised the Jews that it was expedient that one man should die for the people."
+    }
+  ]
 }

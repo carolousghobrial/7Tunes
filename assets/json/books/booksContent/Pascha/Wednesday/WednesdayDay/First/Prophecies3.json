@@ -1,22 +1,85 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " وَمَضَى أَفْرَايِمُ إِلَى أَشُّورَ، (الموصل) وَأَرْسَلَ شُفَعَاءَ إِلَى مَلِكِ يَارِيمَ,\nوَلكِنَّهُ لاَ يَسْتَطِيعُ أَنْ يَشْفِيَكُمْ وَلاَ أَنْ يُزِيلَ الحُزْنَ عَنْكُمْ,\n",
-    "arabiccoptic": " اووه أفشيناف إنجى غفريم نيم هان اس سيروس ها إبؤرو إن ياريم.\nاووه إنثوف إمبيف إشجيم جوم إنطو جى ثينو أووه إن نيف مونك إنجى بيمكاه إنهيت إيفول خين ثينو.\n",
-    "coptic": " Ouo\\ af]enaf `nje Evrem nem \\anaccuroc ouo\\ afouwrp `n\\an`precbuc \\a `pouro `nIarim>\nOuo\\ `nqof `mpef`]jemjom `ntouje qhnou ouo\\ `nnefmounk `nje pemka\\ `n\\ht `ebol=en qhnou>\n",
-    "english": " \"Then Ephraim went to the Assyrians and sent ambassadors to King Jareb.\nBut he could not heal you, and your pain shall in no way cease from you.\n",
-    "englishcoptic": " Owoh afshenaf enje Efrim nem han as siros owoh af o-orp enhan epresvis ha ep-oro en Yarim.\nOuwh enthof empef eshgemgom ento-je thino owoh ennef monk enje pemkah enheat evol khen thino.\n"
-  },
-  {
-    "arabic": " لأَنِّي أَنَا أَكُونُ كَالْلَيْثِ لأَفْرَايِمَ , وَكَالشِبْلِ لِبَيْتِ يَهُوذَا,\nفَأَتَلَقَّاكُمْ فِي بَيْتِ أَشُّورَ (الموصل) مِثْلُ الْلَبُوةِ الغَضِبَةِ الجَائِعَةِ,,\nفَأَخْتَطِفُ وَأَمْضِي وَأَفْتَرِسُ وَأَنْزَعُ وَلاَيَكُونُ لَكُمْ مُخَلِّصٌ,\nأَمْضِي وَلاَ أَرْجِعُ إِلَى مَوْضِعِى حَتَّي يَهْلَكُوا وَيَلْتَمِسُوا وَجْهِي فِي شِدَّتِهِمْ وَيُبَكِّرُونَ إِلَيَّ». قائلين,\nهَلُمَّ نَرْجعُ إِلَى الرَّبِّ إلَهُنَا, لِأَنَّهُ هُوَ افْتَرَسَ فَيَشْفِينَا، وَيَضْرِبُ وَيُدَاوِينَا أَيْضَاً.,\nوَيَشْفِينَا بَعْدَ يَوْمَيْنِ. وَفِي الْيَوْمِ الثَّالِثِ يُقِيمُنَا فَنَحْيَا أَمَامَهُ.,\nوَنَعْلَمُ وَنَهْتَدِى إِلَي مَعْرِفَةِ الرَّبِّ. فَنَجِدَهُ  كَالْفَجْرِ المُعَدِّ وَيَأْتِي إِلَيْنَا كَالْمَطَرِ المُبَكِّرِ وَالمُتَأَخِّرِ عَلَي الأَرْضِ.,\n",
-    "english": " Wherefore I am as a panther to Ephraim and as a lion to the house of Judah.,\n[I will receive the Assyrians like an angry and hungry lioness.],\nSo I will grasp and go away; and I will take, and there shall be none to rescue.,\nI will go and return to My place until they are destroyed, and then they shall seek My face. In their affliction they will seek Me early; saying:,\n\"let us go and return to the Lord our God; for He has grasped and will heal us; He will smite and plug the wound with lint.,\nAfter two days He will heal us. In the third day we shall rise and live before Him.,\nLet us know, let us pursue that we might know the Lord. We shall find Him ready as the daybreak, and He will come to us as the early and latter rain to the earth.',\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "5:13-6:3 من سفر هوشع النبى",
+  "EnglishTitle": "Hosea 5:13-6:3 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَضَى أَفْرَايِمُ إِلَى أَشُّورَ، (الموصل) وَأَرْسَلَ شُفَعَاءَ إِلَى مَلِكِ يَارِيمَ",
+      "Coptic": "Ouo\\ af]enaf `nje Evrem nem \\anaccuroc ouo\\ afouwrp `n\\an`precbuc \\a `pouro `nIarim>",
+      "English": "\"Then Ephraim went to the Assyrians and sent ambassadors to King Jareb.",
+      "Arabiccoptic": "اووه أفشيناف إنجى غفريم نيم هان اس سيروس ها إبؤرو إن ياريم.",
+      "Englishcoptic": "Owoh afshenaf enje Efrim nem han as siros owoh af o-orp enhan epresvis ha ep-oro en Yarim."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلكِنَّهُ لاَ يَسْتَطِيعُ أَنْ يَشْفِيَكُمْ وَلاَ أَنْ يُزِيلَ الحُزْنَ عَنْكُمْ",
+      "Coptic": "Ouo\\ `nqof `mpef`]jemjom `ntouje qhnou ouo\\ `nnefmounk `nje pemka\\ `n\\ht `ebol=en qhnou>",
+      "English": "But he could not heal you, and your pain shall in no way cease from you.",
+      "Arabiccoptic": "اووه إنثوف إمبيف إشجيم جوم إنطو جى ثينو أووه إن نيف مونك إنجى بيمكاه إنهيت إيفول خين ثينو.",
+      "Englishcoptic": "Ouwh enthof empef eshgemgom ento-je thino owoh ennef monk enje pemkah enheat evol khen thino."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنِّي أَنَا أَكُونُ كَالْلَيْثِ لأَفْرَايِمَ , وَكَالشِبْلِ لِبَيْتِ يَهُوذَا",
+      "English": "Wherefore I am as a panther to Ephraim and as a lion to the house of Judah."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَتَلَقَّاكُمْ فِي بَيْتِ أَشُّورَ (الموصل) مِثْلُ الْلَبُوةِ الغَضِبَةِ الجَائِعَةِ",
+      "English": "[I will receive the Assyrians like an angry and hungry lioness.]"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَخْتَطِفُ وَأَمْضِي وَأَفْتَرِسُ وَأَنْزَعُ وَلاَيَكُونُ لَكُمْ مُخَلِّصٌ",
+      "English": "So I will grasp and go away; and I will take, and there shall be none to rescue."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمْضِي وَلاَ أَرْجِعُ إِلَى مَوْضِعِى حَتَّي يَهْلَكُوا وَيَلْتَمِسُوا وَجْهِي فِي شِدَّتِهِمْ وَيُبَكِّرُونَ إِلَيَّ». قائلين",
+      "English": "I will go and return to My place until they are destroyed, and then they shall seek My face. In their affliction they will seek Me early; saying:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هَلُمَّ نَرْجعُ إِلَى الرَّبِّ إلَهُنَا, لِأَنَّهُ هُوَ افْتَرَسَ فَيَشْفِينَا، وَيَضْرِبُ وَيُدَاوِينَا أَيْضَاً.",
+      "English": "\"let us go and return to the Lord our God; for He has grasped and will heal us; He will smite and plug the wound with lint."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيَشْفِينَا بَعْدَ يَوْمَيْنِ. وَفِي الْيَوْمِ الثَّالِثِ يُقِيمُنَا فَنَحْيَا أَمَامَهُ.",
+      "English": "After two days He will heal us. In the third day we shall rise and live before Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَنَعْلَمُ وَنَهْتَدِى إِلَي مَعْرِفَةِ الرَّبِّ. فَنَجِدَهُ  كَالْفَجْرِ المُعَدِّ وَيَأْتِي إِلَيْنَا كَالْمَطَرِ المُبَكِّرِ وَالمُتَأَخِّرِ عَلَي الأَرْضِ.",
+      "English": "Let us know, let us pursue that we might know the Lord. We shall find Him ready as the daybreak, and He will come to us as the early and latter rain to the earth.'"
+    }
+  ]
 }

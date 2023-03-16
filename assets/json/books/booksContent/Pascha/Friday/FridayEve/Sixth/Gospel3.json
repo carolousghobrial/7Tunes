@@ -1,22 +1,69 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " فَلَمَّا جَاءَ إِلَى الْمَكَانِ قَالَ لَهُمْ: «صَلُّوا لِئَلاَّ لاَ تَدْخُلُوا فِي التَجَارِبِ ».\n وَانْفَرَدَ عَنْهُمْ نَحْوَ رَمْيَةِ حَجَرٍ وَجَثَا عَلَى رُكْبَتَيْهِ وَصَلَّى قَائِلًا:\n",
-"arabiccoptic": " إيطاف إى ذى إبيما بيجاف نوأو. جى طوبه جى إن نى تين شى إيخون إبى راسموس.\nإنثوف ذى أف أوأوتى إيفول إموأو ناف إف أوأوش إنهى أوى إن أو أونى إيفول. أووه إيطاف هيتف إيجين نيف كيلى أف طوبه إفجو إمموس.\n",
-"coptic": " Etaf`i de `epima pejaf nwou> je twb\\ je `nneten;e `e=oun `epiracmoc.\nNqof de afou`w; `ebol `mmwou nau `vouw] `n\\iou`i `nou`wni `ebol> ouo\\ `etaf\\itf `ejen nefkeli aftwb\\ efjw `mmoc.\n",
-"english": " When He came to the place, He said to them, \"Pray that you may not enter into temptation.\" \n And He was withdrawn from them about a stone's throw, and He knelt down and prayed, saying,\n",
-"englishcoptic": " Etav-ee ze epima pigaf no-o. Je tobh je enny tenshe ekhon epi rasmos.\nEnthof ze af o-oty evol emmo-o naf ef o-osh enhy oui en o-ony evol. owoh etaf hitf epjen nef kely af tobh efgo emmos.\n",
-},
-{
-"arabic": " «يَا أَبَتَاهُ، إِنْ شِئْتَ فَلْتَعْبُرْ عَنِّي هذِهِ الْكَأْسَ. لكِنْ لِتَكُنْ لاَ إِرَادَتِي بَلْ إِرَادَتُكَ أَنْتَ».,\nوَظَهَرَ لَهُ مَلاَكٌ مِنَ السَّمَاءِ لِيُقَوِّيَهُ.,\nوَكَانَ يُصَلِّي بِإشْتِياقٍ جَاثِياً عَلَى رُكْبَتَيْهِ، وَصَارَ عَرَقُهُ كَقَطَرَاتِ الدَمِ نَازِلَاً عَلَى الأَرْضِ.,\nوَقَامَ مِنَ الصَّلاَةِ وَجَاءَ إِلَى تَلاَمِيذِهِ، فَوَجَدَهُمْ نِيَامًا مِنَ الْحُزْنِ.,\nفَقَالَ لَهُمْ: «لِمَاذَا أَنْتُمْ نِيَامٌ؟ قُومُوا وَصَلُّوا لِئَلاَّ تَدْخُلُوا فِي التَجَارِبِ ».,\n",
-"english": " \"Father, if it is Your will, take this cup away from Me; nevertheless not My will, but Yours, be done.\",\nThen an angel appeared to Him from heaven, strengthening Him.,\nAnd being in agony, He prayed more earnestly. Then His sweat became like great drops of blood falling down to the ground.,\nWhen He rose up from prayer, and had come to His disciples, He found them sleeping from sorrow.,\nThen He said to them, \"Why do you sleep? Rise and pray, lest you enter into temptation.\",\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "22:40-46 الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 22:40-46 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمَّا جَاءَ إِلَى الْمَكَانِ قَالَ لَهُمْ: «صَلُّوا لِئَلاَّ لاَ تَدْخُلُوا فِي التَجَارِبِ ».",
+      "Coptic": "Etaf`i de `epima pejaf nwou> je twb\\ je `nneten;e `e=oun `epiracmoc.",
+      "English": "When He came to the place, He said to them, \"Pray that you may not enter into temptation.\"",
+      "Arabiccoptic": "إيطاف إى ذى إبيما بيجاف نوأو. جى طوبه جى إن نى تين شى إيخون إبى راسموس.",
+      "Englishcoptic": "Etav-ee ze epima pigaf no-o. Je tobh je enny tenshe ekhon epi rasmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَانْفَرَدَ عَنْهُمْ نَحْوَ رَمْيَةِ حَجَرٍ وَجَثَا عَلَى رُكْبَتَيْهِ وَصَلَّى قَائِلًا:",
+      "Coptic": "Nqof de afou`w; `ebol `mmwou nau `vouw] `n\\iou`i `nou`wni `ebol> ouo\\ `etaf\\itf `ejen nefkeli aftwb\\ efjw `mmoc.",
+      "English": "And He was withdrawn from them about a stone's throw, and He knelt down and prayed, saying",
+      "Arabiccoptic": "إنثوف ذى أف أوأوتى إيفول إموأو ناف إف أوأوش إنهى أوى إن أو أونى إيفول. أووه إيطاف هيتف إيجين نيف كيلى أف طوبه إفجو إمموس.",
+      "Englishcoptic": "Enthof ze af o-oty evol emmo-o naf ef o-osh enhy oui en o-ony evol. owoh etaf hitf epjen nef kely af tobh efgo emmos."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "«يَا أَبَتَاهُ، إِنْ شِئْتَ فَلْتَعْبُرْ عَنِّي هذِهِ الْكَأْسَ. لكِنْ لِتَكُنْ لاَ إِرَادَتِي بَلْ إِرَادَتُكَ أَنْتَ».",
+      "English": "\"Father, if it is Your will, take this cup away from Me; nevertheless not My will, but Yours, be done.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَظَهَرَ لَهُ مَلاَكٌ مِنَ السَّمَاءِ لِيُقَوِّيَهُ.",
+      "English": "Then an angel appeared to Him from heaven, strengthening Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ يُصَلِّي بِإشْتِياقٍ جَاثِياً عَلَى رُكْبَتَيْهِ، وَصَارَ عَرَقُهُ كَقَطَرَاتِ الدَمِ نَازِلَاً عَلَى الأَرْضِ.",
+      "English": "And being in agony, He prayed more earnestly. Then His sweat became like great drops of blood falling down to the ground."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَامَ مِنَ الصَّلاَةِ وَجَاءَ إِلَى تَلاَمِيذِهِ، فَوَجَدَهُمْ نِيَامًا مِنَ الْحُزْنِ.",
+      "English": "When He rose up from prayer, and had come to His disciples, He found them sleeping from sorrow."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُمْ: «لِمَاذَا أَنْتُمْ نِيَامٌ؟ قُومُوا وَصَلُّوا لِئَلاَّ تَدْخُلُوا فِي التَجَارِبِ ».",
+      "English": "Then He said to them, \"Why do you sleep? Rise and pray, lest you enter into temptation.\""
+    }
+  ]
 }

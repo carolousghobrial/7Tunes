@@ -1,4 +1,79 @@
 {
-"arabic": " الإنسان الملك الذي صنع العرس، ودعا المدعوين هو الله الآب، وابنه هو المسيح يسوع مخلصنا والعرس هو العالم الذي ظهر فيه،,\nالذي ولدته بالجسد والدة الإله وصار مع الناس كواحد منهم، والعبيد الذين أرسلهم هم الأنبياء الذين سبقوه، ودعوا الأمم قبل مجيئه قائلين إن الآتي سوف يأتي ولا يبطئ،,\nفتكاسلوا ولم يقبلوا أقوالهم، ثم مضوا متهاونين واحداً إلي حقله وآخر إلي تجارته والباقون أمسكوا عبيده وقتلوهم فغضب الملك وأرسل عسكره وضرب أولئك القتلة وأحرق مدينتهم.,\nمن هم الناس الذين دعوا إلي الوليمة الحقيقية التي لله الكلمة إلا اليهود المخالفون الذين محيت أسماؤهم من سفر الحياة ؟ !,\nفعاد أيضاً وأرسل آخرين وأوصاهم هكذا قائلاً : أخرجوا إلي مسالك الطرق وأدعوا كل الذين تجدونهم. فلما خرجوا دعوا كثيرين صالحين وطالحين,\nفامتلأ العرس من المتكئين، فلما دخل الملك لينظر المتكئين رأي هناك إنساناً لم يكن لابساً لباس العرس فقال له :,\nيا صاحب كيف دخلت هنا وليس عليك ثياب العرس ؟ فللوقت صمت وصار في فضيحة، ثم ألقاه الخدام إلي الظلمة الخارجية.,\nمن هو هذا الإنسان إلا يهوذا الذي تعري من الحلة السمائية ولبس اللعنة مثل الثوب، ودخلت إلي أمعاءه مثل الماء ؟,\nلأنه أنكر نعمة سيده وتجرأ أن يسلم معلمه، فذلك صار غريباً من مجده ورئاسة كهنوته.,\n()",
-"english": " The king who held the marriage feast and invited the guests to the banquet, is God the Father. His Son is Jesus Christ our Savior. The feast is the world to which He came,,\nAnd was incarnated from the Theotokos and was among the people as one of them. The servants He commissioned to carry His message are the prophets who preceded Him preaching to the nations His imminent coming.,\nThe (nations), however, neglected the matter and rejected their message; they went each one his own way: the one to his field, the other to his business, and the rest killed the messengers. The king became enraged, sent his troops, disciplined these killers, and burned their town.,\nWho were those who were invited to the real banquet which was for God the Word, but the contrary antipathetic Jews whose names were eliminated fro the Book of Life.,\nHe (God the Father) sent others and commanded them to go in the streets and to invite everyone they find. When they did that, they invited many who were good and many who were bad,,\nUntil they had a full house. The king came in to inspect the guests; he saw someone who was not appropriately attired for the occasion. He asked him:,\nFriend how did you get in without the proper dress. The man was speechless and embarrassed and the servants shoved him out to the outer darkness.,\nWho is this individual, but Judas, who lost his heavenly garment and became dressed with damnation which seeped as water into his stomach,\nBecause he denied His master's blessings and dared to betray Him. He was thus estranged from his (master's) glory and his priesthood was given to another.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الإنسان الملك الذي صنع العرس، ودعا المدعوين هو الله الآب، وابنه هو المسيح يسوع مخلصنا والعرس هو العالم الذي ظهر فيه،",
+      "English": "The king who held the marriage feast and invited the guests to the banquet, is God the Father. His Son is Jesus Christ our Savior. The feast is the world to which He came"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي ولدته بالجسد والدة الإله وصار مع الناس كواحد منهم، والعبيد الذين أرسلهم هم الأنبياء الذين سبقوه، ودعوا الأمم قبل مجيئه قائلين إن الآتي سوف يأتي ولا يبطئ،",
+      "English": "And was incarnated from the Theotokos and was among the people as one of them. The servants He commissioned to carry His message are the prophets who preceded Him preaching to the nations His imminent coming."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فتكاسلوا ولم يقبلوا أقوالهم، ثم مضوا متهاونين واحداً إلي حقله وآخر إلي تجارته والباقون أمسكوا عبيده وقتلوهم فغضب الملك وأرسل عسكره وضرب أولئك القتلة وأحرق مدينتهم.",
+      "English": "The (nations), however, neglected the matter and rejected their message; they went each one his own way: the one to his field, the other to his business, and the rest killed the messengers. The king became enraged, sent his troops, disciplined these killers, and burned their town."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من هم الناس الذين دعوا إلي الوليمة الحقيقية التي لله الكلمة إلا اليهود المخالفون الذين محيت أسماؤهم من سفر الحياة ؟ !",
+      "English": "Who were those who were invited to the real banquet which was for God the Word, but the contrary antipathetic Jews whose names were eliminated fro the Book of Life."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فعاد أيضاً وأرسل آخرين وأوصاهم هكذا قائلاً : أخرجوا إلي مسالك الطرق وأدعوا كل الذين تجدونهم. فلما خرجوا دعوا كثيرين صالحين وطالحين",
+      "English": "He (God the Father) sent others and commanded them to go in the streets and to invite everyone they find. When they did that, they invited many who were good and many who were bad"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فامتلأ العرس من المتكئين، فلما دخل الملك لينظر المتكئين رأي هناك إنساناً لم يكن لابساً لباس العرس فقال له :",
+      "English": "Until they had a full house. The king came in to inspect the guests; he saw someone who was not appropriately attired for the occasion. He asked him:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا صاحب كيف دخلت هنا وليس عليك ثياب العرس ؟ فللوقت صمت وصار في فضيحة، ثم ألقاه الخدام إلي الظلمة الخارجية.",
+      "English": "Friend how did you get in without the proper dress. The man was speechless and embarrassed and the servants shoved him out to the outer darkness."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من هو هذا الإنسان إلا يهوذا الذي تعري من الحلة السمائية ولبس اللعنة مثل الثوب، ودخلت إلي أمعاءه مثل الماء ؟",
+      "English": "Who is this individual, but Judas, who lost his heavenly garment and became dressed with damnation which seeped as water into his stomach"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه أنكر نعمة سيده وتجرأ أن يسلم معلمه، فذلك صار غريباً من مجده ورئاسة كهنوته.",
+      "English": "Because he denied His master's blessings and dared to betray Him. He was thus estranged from his (master's) glory and his priesthood was given to another."
+    }
+  ]
 }

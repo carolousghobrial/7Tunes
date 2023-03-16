@@ -1,22 +1,74 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " ثُمَّ كَلَّمَهُمْ أَيْضًا يَسُوعُ قَائِلاً:«أَنَا هُوَ نُورُ الْعَالَمِ. وَمَنْ يَتْبَعْنِي لاَ يَمْشِي فِي الظُّلْمَةِ بَلْ يَكُونُ لَهُ نُورُ الْحَيَاةِ».\n",
-    "arabiccoptic": " بالين اون افصاجي نيموؤو إنجى إيسوس إفجو إمموس : جي انوك بى إفؤوؤيني امبيكوسموس : في إثناموشي إنسوي إننيفموشي خين بيكاكي : اللا إفيتشي إميفؤويني إنتى إبؤنخ\n",
-    "coptic": " Palin on afcaji nemwou nje Ih/c/ efjw`mmoc> je `anok pe `vouwini `mpikocmoc> vheqnamo]i `ncwi `nnefmo]i =en pixaki > alla ef`esi `mvouwini `nte `pwn= >\n",
-    "english": " Then Jesus spoke to them again, saying, \"I am the light of the world. He who follows Me shall not walk in darkness, but have the light of life.\"\n",
-    "englishcoptic": " Palin on afsaji nemo-oo enje Isos efgo-emmos; je anok pe ef-o-oini empikosmos; fee-ethna moshi ensoi ennef moshi khen pikaki alla efe-echi emef-o-oini ente eponkh\n"
-  },
-  {
-    "arabic": " فَقَالَ لَهُ الْفَرِّيسِيُّونَ: «أَنْتَ وَحدَكَ تَشْهَدُ لِنَفْسِكَ. فَلَيْسَتْ شَهَادَتُكَ حَقًّا»,\nأَجَابَ يَسُوعُ وَقَالَ لَهُمْ:«إنِّى وَإِنْ كُنْتُ أَشْهَدُ لِنَفْسِي فَشَهَادَتِي حَقٌّ، لأَنِّي أَعْلَمُ مِنْ أَيْنَ جِئتُ وَإِلَى أَيْنَ أَذْهَبُ. وَأَمَّا أَنْتُمْ فَلاَ تَعْلَمُونَ مِنْ أَيْنَ آتِيتُ وَلاَ إِلَى أَيْنَ أَمضِى.,\nأَنْتُمْ إِنَّمَا تَدِينُونَ بِحَسَبَ الْجَسَدِ وَأَنَا لا أَدِينُ أَحَدًا.,\nوَإِنْ أنا دِنْتُ فَدَيْنُونَتِي حَقٌّ هِى، لأَنِّي لَسْتُ وَحْدِي، بَلْ أَنَا وَالآبُ الَّذِي أَرْسَلَنِي.,\nوَقَدْ كُتِبَ أَيضَاً فِي نَامُوسِكُمْ أن شَهَادَةَ رَجُلَيْنِ حَقٌّ هِيَ، أَنَا أَشْهَدُ لِنَفْسِي وَأَبِي الَّذِي أَرْسَلَنِي يَشْهَدُ لِى. »,\nقَالُوا لَهُ:«أَيْنَ هُوَ أَبُوكَ؟» قَالَ يَسُوعُ: «لَسْتُمْ تَعْرِفُونَنِي أَنَا وَلاَ أَبِي أَيضَاً. لَوْ كنتم تَعرِفُونَنِي لَعَرَفْتُمْ أَبِي أَيْضًا».,\nهذه الأقوال قَالَهَا فِي الْخِزَانَةِ وَهُوَ يُعَلِّمُ فِي الْهَيْكَلِ. وَلَمْ يُمْسِكْهُ أَحَدٌ، لأَنَّ سَاعَتَهُ لَمْ تَكُنْ قَدْ أتتْ بَعْدُ.,\n",
-    "english": " The Pharisees therefore said to Him, \"You bear witness of Yourself; Your witness is not true.\",\nJesus answered and said to them, \"Even if I bear witness of Myself, My witness is true, for I know where I came from and where I am going; but you do not know where I come from and where I am going.,\nYou judge according to the flesh; I judge no one.,\nAnd yet if I do judge, My judgement is true; for I am not alone, but I am with the Father who sent Me.,\nIt is also written in your law that the testimony of two men is true. I am One who bears witness of Myself, and the Father who sent Me bears witness of Me.\",\nThen they said to Him, \"Where is Your Father?\" Jesus answered, \"You know neither Me nor My Father. If you had known Me, you would have known My Father also.\",\nThese words Jesus spoke in the treasury, as He taught in the temple; and no one laid hands on Him, for His hour had not yet come.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "8:12-20 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 8:12-20 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ كَلَّمَهُمْ أَيْضًا يَسُوعُ قَائِلاً:«أَنَا هُوَ نُورُ الْعَالَمِ. وَمَنْ يَتْبَعْنِي لاَ يَمْشِي فِي الظُّلْمَةِ بَلْ يَكُونُ لَهُ نُورُ الْحَيَاةِ».",
+      "Coptic": "Palin on afcaji nemwou nje Ih/c/ efjw`mmoc> je `anok pe `vouwini `mpikocmoc> vheqnamo]i `ncwi `nnefmo]i =en pixaki > alla ef`esi `mvouwini `nte `pwn= >",
+      "English": "Then Jesus spoke to them again, saying, \"I am the light of the world. He who follows Me shall not walk in darkness, but have the light of life.\"",
+      "Arabiccoptic": "بالين اون افصاجي نيموؤو إنجى إيسوس إفجو إمموس : جي انوك بى إفؤوؤيني امبيكوسموس : في إثناموشي إنسوي إننيفموشي خين بيكاكي : اللا إفيتشي إميفؤويني إنتى إبؤنخ",
+      "Englishcoptic": "Palin on afsaji nemo-oo enje Isos efgo-emmos; je anok pe ef-o-oini empikosmos; fee-ethna moshi ensoi ennef moshi khen pikaki alla efe-echi emef-o-oini ente eponkh"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُ الْفَرِّيسِيُّونَ: «أَنْتَ وَحدَكَ تَشْهَدُ لِنَفْسِكَ. فَلَيْسَتْ شَهَادَتُكَ حَقًّا»",
+      "English": "The Pharisees therefore said to Him, \"You bear witness of Yourself; Your witness is not true.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَجَابَ يَسُوعُ وَقَالَ لَهُمْ:«إنِّى وَإِنْ كُنْتُ أَشْهَدُ لِنَفْسِي فَشَهَادَتِي حَقٌّ، لأَنِّي أَعْلَمُ مِنْ أَيْنَ جِئتُ وَإِلَى أَيْنَ أَذْهَبُ. وَأَمَّا أَنْتُمْ فَلاَ تَعْلَمُونَ مِنْ أَيْنَ آتِيتُ وَلاَ إِلَى أَيْنَ أَمضِى.",
+      "English": "Jesus answered and said to them, \"Even if I bear witness of Myself, My witness is true, for I know where I came from and where I am going; but you do not know where I come from and where I am going."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَنْتُمْ إِنَّمَا تَدِينُونَ بِحَسَبَ الْجَسَدِ وَأَنَا لا أَدِينُ أَحَدًا.",
+      "English": "You judge according to the flesh; I judge no one."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإِنْ أنا دِنْتُ فَدَيْنُونَتِي حَقٌّ هِى، لأَنِّي لَسْتُ وَحْدِي، بَلْ أَنَا وَالآبُ الَّذِي أَرْسَلَنِي.",
+      "English": "And yet if I do judge, My judgement is true; for I am not alone, but I am with the Father who sent Me."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَدْ كُتِبَ أَيضَاً فِي نَامُوسِكُمْ أن شَهَادَةَ رَجُلَيْنِ حَقٌّ هِيَ، أَنَا أَشْهَدُ لِنَفْسِي وَأَبِي الَّذِي أَرْسَلَنِي يَشْهَدُ لِى. »",
+      "English": "It is also written in your law that the testimony of two men is true. I am One who bears witness of Myself, and the Father who sent Me bears witness of Me.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَالُوا لَهُ:«أَيْنَ هُوَ أَبُوكَ؟» قَالَ يَسُوعُ: «لَسْتُمْ تَعْرِفُونَنِي أَنَا وَلاَ أَبِي أَيضَاً. لَوْ كنتم تَعرِفُونَنِي لَعَرَفْتُمْ أَبِي أَيْضًا».",
+      "English": "Then they said to Him, \"Where is Your Father?\" Jesus answered, \"You know neither Me nor My Father. If you had known Me, you would have known My Father also.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذه الأقوال قَالَهَا فِي الْخِزَانَةِ وَهُوَ يُعَلِّمُ فِي الْهَيْكَلِ. وَلَمْ يُمْسِكْهُ أَحَدٌ، لأَنَّ سَاعَتَهُ لَمْ تَكُنْ قَدْ أتتْ بَعْدُ.",
+      "English": "These words Jesus spoke in the treasury, as He taught in the temple; and no one laid hands on Him, for His hour had not yet come."
+    }
+  ]
 }

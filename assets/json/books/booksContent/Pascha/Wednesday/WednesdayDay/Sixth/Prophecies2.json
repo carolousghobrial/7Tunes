@@ -1,22 +1,98 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " دُونَكَ يَا إِبْنِي أَدَبَ الفَمِ, فَإِنَّ مَنْ يَحْفَظَهُ لاَ يَهْلَكْ, وَلاَ يُؤْخَذُ بِشَفَتَيْهِ,\n",
-    "arabiccoptic": " سوتيم باشيرى إىأو إسفو إنتيرأوى. أووه فى إت أريه إيروس إن نيف طاكو. أووه إف إجيمس خين نيف إسفوطو.\n",
-    "coptic": " Cwtem pa]hri `eou`cbw `nterwi> ouo\\ vhet`are\\ `eroc `nneftako> ouo\\ eu`ejemc =en nef`cvotou>\n",
-    "english": " My children, hear the teaching of my mouth, for he who keeps it will not be conquered.\n",
-    "englishcoptic": " Sotem pashiry e-o esvo enter -oi. owoh vi et areh eros ennef tako. owoh ev-e jems khen nef esvoto.\n"
-  },
-  {
-    "arabic": " إِنَّهُ بِهِمَا يُصْطَادُ الخَاطِئُ وَبِهِمَا يَعْثُرُ الشَتَّامَ وَالمُتَكَبِّرُ.,\nلاَ تُعَوِّدْ فَمَكَ الحِلْفَ, وَلاَ تَألَفْ تَسْمِيَةَ القُدُّوسِ,,\nفَإِنَّهُ كَمَا أَنَّ العَبْدَ الَّذِي لاَيَزَالُ يَفْحَصُ مِرَارَاً كَثِيرَةً لاَ يَفْلِتُ مِنَ العِقَابِ, كَذَلِكَ مَنْ لَمْ يَبْرَحْ يَحْلِفُ وَيَذْكُرُ الإسْمَ (القدوس) مَرَّاتٍ عَدِيدَةً فَلاَ يُمْكِنُ أَنْ يَتَبَرَّرَ مِنَ الخَطِيَّةِ,,\nالرَجُلُ الحَلَّافُ يَمْتَلِئُ إِثْمَاً وَلَا يَبْرَحُ السَوْطُ مِنْ بَيْتِهِ, وَهُوَ إِذَا نَدِمَ غُفِرَتْ خَطِيَّةُ قَلْبِهِ.,\nوَإِنْ إِسْتَخَفَّ أَو تَغَافَلَ, فَخَطِيَّتُهُ مُضَاعَفَةٌ.,\nوَإِنْ حَلِفَ بَاطِلاً لاَ يُبَرَّرُ وَبَيْتُهُ يُمْلَأُ نَوَائِبَ,,\nوَمِنْ الكَلَامِ كَلَامٌ آَخَرُ يُلَابِسُهُ المَوْتُ.,\nلاَ يُوجَدُ فِي مِيرَاثِكَ يَا يَعْقُوبُ إِنَّ هَذِهِ كُلُّهَا تَبْعُدُ عَنْ رِجَالِ اللهِ, فَلاَ يُوجَدُونَ فِي الخَطَايَا.,\nلاَ تُعَوِّدْ فَاكَ فُحْشَ الكَلاَمِ, فَإِنَّ ذَلِكَ لاَيَخْلُو مِنْ خَطِيئَةٍ.,\nتَذَكَّرْ أَبَاكَ وَأُمَّكَ, إِذَا اِجْتَمَعْتَ بِالعُظَمَاءِ وَ جَلَسْتَ فِى وَسَطِهِمْ لِئَلَّا تَنْسَاهُمَا أَمَامَهُمْ وَتَصِيرَ جَاهِلاً, فَتَوَّدُ لَوْ لَمْ تُولَدْ وَتَلْعَنُ يَوْمَ وِلَادَتِكَ.,\n",
-    "english": " A sinner will be overtaken by his lips, and a slanderer and arrogant man will be made to stumble,\nDo not accustom your mouth to vows, nor make a habit of using the name of the Holy One.,\nFor as a servant who is continually beaten will not lack bruises, So also he who makes a vow and continually names the Holy One will never be cleansed from sin.,\nA man who swears many oaths will be filled with lawlessness, and that plague will not depart from his house. If he offends, his sin will be on him,,\nAnd if he overlooks it, he has sinned doubly.,\nIf he swears in vain, he will not be declared righteous, for his house will be filled with trouble.,\nThere is a way of speaking comparable to death.,\nMay it not be found in the inheritance of Jacob; for all these things will be far from the godly, and they will not be involved in sins.,\nDo not accustom your mouth to lewd expressions, for this is sinful speech.,\nRemember your father and mother when you sit in council with great men, lest you forget yourself in their presence and by habit act foolishly. Then you will wish you had never been born, and you will curse the day of your birth.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "23:7-14 من يشوع بن سيراخ",
+  "EnglishTitle": "Joshua Son of Sirach 23:7-14 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "دُونَكَ يَا إِبْنِي أَدَبَ الفَمِ, فَإِنَّ مَنْ يَحْفَظَهُ لاَ يَهْلَكْ, وَلاَ يُؤْخَذُ بِشَفَتَيْهِ",
+      "Coptic": "Cwtem pa]hri `eou`cbw `nterwi> ouo\\ vhet`are\\ `eroc `nneftako> ouo\\ eu`ejemc =en nef`cvotou>",
+      "English": "My children, hear the teaching of my mouth, for he who keeps it will not be conquered.",
+      "Arabiccoptic": "سوتيم باشيرى إىأو إسفو إنتيرأوى. أووه فى إت أريه إيروس إن نيف طاكو. أووه إف إجيمس خين نيف إسفوطو.",
+      "Englishcoptic": "Sotem pashiry e-o esvo enter -oi. owoh vi et areh eros ennef tako. owoh ev-e jems khen nef esvoto."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِنَّهُ بِهِمَا يُصْطَادُ الخَاطِئُ وَبِهِمَا يَعْثُرُ الشَتَّامَ وَالمُتَكَبِّرُ.",
+      "English": "A sinner will be overtaken by his lips, and a slanderer and arrogant man will be made to stumble"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لاَ تُعَوِّدْ فَمَكَ الحِلْفَ, وَلاَ تَألَفْ تَسْمِيَةَ القُدُّوسِ",
+      "English": "Do not accustom your mouth to vows, nor make a habit of using the name of the Holy One."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَإِنَّهُ كَمَا أَنَّ العَبْدَ الَّذِي لاَيَزَالُ يَفْحَصُ مِرَارَاً كَثِيرَةً لاَ يَفْلِتُ مِنَ العِقَابِ, كَذَلِكَ مَنْ لَمْ يَبْرَحْ يَحْلِفُ وَيَذْكُرُ الإسْمَ (القدوس) مَرَّاتٍ عَدِيدَةً فَلاَ يُمْكِنُ أَنْ يَتَبَرَّرَ مِنَ الخَطِيَّةِ",
+      "English": "For as a servant who is continually beaten will not lack bruises, So also he who makes a vow and continually names the Holy One will never be cleansed from sin."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرَجُلُ الحَلَّافُ يَمْتَلِئُ إِثْمَاً وَلَا يَبْرَحُ السَوْطُ مِنْ بَيْتِهِ, وَهُوَ إِذَا نَدِمَ غُفِرَتْ خَطِيَّةُ قَلْبِهِ.",
+      "English": "A man who swears many oaths will be filled with lawlessness, and that plague will not depart from his house. If he offends, his sin will be on him"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإِنْ إِسْتَخَفَّ أَو تَغَافَلَ, فَخَطِيَّتُهُ مُضَاعَفَةٌ.",
+      "English": "And if he overlooks it, he has sinned doubly."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإِنْ حَلِفَ بَاطِلاً لاَ يُبَرَّرُ وَبَيْتُهُ يُمْلَأُ نَوَائِبَ",
+      "English": "If he swears in vain, he will not be declared righteous, for his house will be filled with trouble."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمِنْ الكَلَامِ كَلَامٌ آَخَرُ يُلَابِسُهُ المَوْتُ.",
+      "English": "There is a way of speaking comparable to death."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لاَ يُوجَدُ فِي مِيرَاثِكَ يَا يَعْقُوبُ إِنَّ هَذِهِ كُلُّهَا تَبْعُدُ عَنْ رِجَالِ اللهِ, فَلاَ يُوجَدُونَ فِي الخَطَايَا.",
+      "English": "May it not be found in the inheritance of Jacob; for all these things will be far from the godly, and they will not be involved in sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لاَ تُعَوِّدْ فَاكَ فُحْشَ الكَلاَمِ, فَإِنَّ ذَلِكَ لاَيَخْلُو مِنْ خَطِيئَةٍ.",
+      "English": "Do not accustom your mouth to lewd expressions, for this is sinful speech."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تَذَكَّرْ أَبَاكَ وَأُمَّكَ, إِذَا اِجْتَمَعْتَ بِالعُظَمَاءِ وَ جَلَسْتَ فِى وَسَطِهِمْ لِئَلَّا تَنْسَاهُمَا أَمَامَهُمْ وَتَصِيرَ جَاهِلاً, فَتَوَّدُ لَوْ لَمْ تُولَدْ وَتَلْعَنُ يَوْمَ وِلَادَتِكَ.",
+      "English": "Remember your father and mother when you sit in council with great men, lest you forget yourself in their presence and by habit act foolishly. Then you will wish you had never been born, and you will curse the day of your birth."
+    }
+  ]
 }

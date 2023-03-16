@@ -1,7 +1,29 @@
 {
-"arabic": " كَلاَمُهُ أَلْيَنُ مِنَ الدُهْنِ وَهُوَ نِصَالٌ.,\nأِنْصِتْ يَا اللهُ لِصَلاَتِي، وَلاَ تَغْفَلْ عَنْ طِلْبَتِى: الليلويا.,\n",
-"arabiccoptic": " آف إتشون إنجى نيف ساجى ايهوتى أو نيه أووه إنثوؤو هان سو ثنيف نى.\nتشى إزمى إفنوتى ايتا ابروسافكى أووه امبير هو ايهو إمبا توفه الليلويا\n",
-"coptic": " Ausnon `nje nefcaji `e\\ote oune\\> ouo\\ `nqwou \\ancoqnef ne>\n Si`cmh V; eta`proc euxh > ouo\\ `mper\\i `p\\o `mpatwb\\ > al\n",
-"english": " His words were softened above oil, And they are arrows.,\nGive ear to my prayer, O God, And do not despise my supplication. Alleluia,\n",
-"englishcoptic": " Av-etchnon enje nef-sajee ehote oneh : owoh entho-oo han soth-nef ne :\nEtchee-esmee Efnoty eta-epros-evkee : owoh emperhee ep-ho empatovh. Alleluia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "54:21,1 مزمور",
+  "EnglishTitle": "Psalm 54:21,1 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كَلاَمُهُ أَلْيَنُ مِنَ الدُهْنِ وَهُوَ نِصَالٌ.",
+      "Coptic": "Ausnon `nje nefcaji `e\\ote oune\\> ouo\\ `nqwou \\ancoqnef ne>",
+      "English": "His words were softened above oil, And they are arrows.",
+      "Arabiccoptic": "آف إتشون إنجى نيف ساجى ايهوتى أو نيه أووه إنثوؤو هان سو ثنيف نى.",
+      "Englishcoptic": "Av-etchnon enje nef-sajee ehote oneh : owoh entho-oo han soth-nef ne :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أِنْصِتْ يَا اللهُ لِصَلاَتِي، وَلاَ تَغْفَلْ عَنْ طِلْبَتِى: الليلويا.",
+      "Coptic": "Si`cmh V; eta`proc euxh > ouo\\ `mper\\i `p\\o `mpatwb\\ > al",
+      "English": "Give ear to my prayer, O God, And do not despise my supplication. Alleluia",
+      "Arabiccoptic": "تشى إزمى إفنوتى ايتا ابروسافكى أووه امبير هو ايهو إمبا توفه الليلويا",
+      "Englishcoptic": "Etchee-esmee Efnoty eta-epros-evkee : owoh emperhee ep-ho empatovh. Alleluia."
+    }
+  ]
 }

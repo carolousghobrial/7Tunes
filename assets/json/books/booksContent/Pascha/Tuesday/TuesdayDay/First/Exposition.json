@@ -1,4 +1,79 @@
 {
-"arabic": " وجاء إسرائيل إلى جبل رافازين من بعد ثلاثة أشهر وهو فى البرية. وخرج بنو إسرائيل من مصر وجبل سيناء إلى هذا المكان.,\nفجاء موسى ووقف قدام الله فناداه وتكلم معه قائلاً : هذا ما تقوله لبيت يعقوب وتخبر به بنى إسرائيل.,\nأنكم قد رأيتم أعمالى الكثيرة التى صنعتها أنا بالمصريين وكيف حملتكم أنا بقوتى العالية كأنكم على أجنحة النسور.,\nفأحفظوا ناموسى ووصاياى وأنصتوا لكلامى وأصنعوا إرادتى فإننى أخترتكم من بين جميع الأمم لأن لى الأرض كلها والبحر معاً.,\nلتصيروا لى مملكة وشعباً مختاراً وأمة مطهرة.,\nفجاء موسى وأخبر الشعب بجميع هذا الكلام الذى قاله الرب. فصرخ جميع الشعب بصوت واحد قائلين,\nما يأمر به الله نحن نحفظه. فقام موسى وخبر العارف أن الشعب سمع أوامرك.,\nفعاد إسرائيل ورجع يعقوب إلى خلف وحاد بنو إسرائيل. وصارت وصاياه كلاً شئ وأوامره عادت باطلة.,\nفلذلك أسلمهم إلى أعداء مبغضين وأسعبدوا للغرباء مرة أخرى. ونكس رؤوسهم أمام الأمم وصاروا فى فضيحة وخزى أبدى.,\n()\n",
-"english": " And Israel came to Mount Rafazin after three months in the wilderness. Then the Israelites came out of Egypt and Mount Sinai to this place.,\nMoses came and stood in the presence of god; He called and spoke to him saying: This is what you tell the house of Israel, and report to the sons of Israel.,\nYou have seen the many deeds I have inflicted on the Egyptians and how I carried you with my soaring power as if you were on the wings of eagles.,\nKeep my laws and commandments, pay heeds to my words and carry out my will, for I have chosen you from among the nations, for I have the earth and the sea as well.,\nYou will be my kingdom, a chosen people and a holy nation.,\nAnd Moses came back and told the people all what God has said. The public cheered in one voice saying:,\nWhatever God wills, we will observe. Moses then told the Omniscient that the people adhered to His orders.,\nBut Israel turned back, Jacob retreated, and the sons of Israel strayed away. The God’s commandments became as if they were not, and his instructions ignored.,\nThus God delivered them into the hands of hateful enemies, and subjugated them to strangers once again. He humiliated them before the nations and they lived in eternal shame and disgrace.,\n()\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وجاء إسرائيل إلى جبل رافازين من بعد ثلاثة أشهر وهو فى البرية. وخرج بنو إسرائيل من مصر وجبل سيناء إلى هذا المكان.",
+      "English": "And Israel came to Mount Rafazin after three months in the wilderness. Then the Israelites came out of Egypt and Mount Sinai to this place."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فجاء موسى ووقف قدام الله فناداه وتكلم معه قائلاً : هذا ما تقوله لبيت يعقوب وتخبر به بنى إسرائيل.",
+      "English": "Moses came and stood in the presence of god; He called and spoke to him saying: This is what you tell the house of Israel, and report to the sons of Israel."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنكم قد رأيتم أعمالى الكثيرة التى صنعتها أنا بالمصريين وكيف حملتكم أنا بقوتى العالية كأنكم على أجنحة النسور.",
+      "English": "You have seen the many deeds I have inflicted on the Egyptians and how I carried you with my soaring power as if you were on the wings of eagles."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فأحفظوا ناموسى ووصاياى وأنصتوا لكلامى وأصنعوا إرادتى فإننى أخترتكم من بين جميع الأمم لأن لى الأرض كلها والبحر معاً.",
+      "English": "Keep my laws and commandments, pay heeds to my words and carry out my will, for I have chosen you from among the nations, for I have the earth and the sea as well."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لتصيروا لى مملكة وشعباً مختاراً وأمة مطهرة.",
+      "English": "You will be my kingdom, a chosen people and a holy nation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فجاء موسى وأخبر الشعب بجميع هذا الكلام الذى قاله الرب. فصرخ جميع الشعب بصوت واحد قائلين",
+      "English": "And Moses came back and told the people all what God has said. The public cheered in one voice saying:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ما يأمر به الله نحن نحفظه. فقام موسى وخبر العارف أن الشعب سمع أوامرك.",
+      "English": "Whatever God wills, we will observe. Moses then told the Omniscient that the people adhered to His orders."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فعاد إسرائيل ورجع يعقوب إلى خلف وحاد بنو إسرائيل. وصارت وصاياه كلاً شئ وأوامره عادت باطلة.",
+      "English": "But Israel turned back, Jacob retreated, and the sons of Israel strayed away. The God’s commandments became as if they were not, and his instructions ignored."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلذلك أسلمهم إلى أعداء مبغضين وأسعبدوا للغرباء مرة أخرى. ونكس رؤوسهم أمام الأمم وصاروا فى فضيحة وخزى أبدى.",
+      "English": "Thus God delivered them into the hands of hateful enemies, and subjugated them to strangers once again. He humiliated them before the nations and they lived in eternal shame and disgrace."
+    }
+  ]
 }

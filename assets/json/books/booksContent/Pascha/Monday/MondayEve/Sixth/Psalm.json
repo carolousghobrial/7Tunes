@@ -1,7 +1,18 @@
 {
-"arabic": " قَدِّمُوا لِلرَبِّ يَا أَبْنَاءَ اللهِ. قَدِّمُوا لِلرَبِّ أَبْنَاءَ الكِبَاشِ. قَدِّمُوا لِلرَبِّ مَجْدَاً وَكَرَامَة. قَدِّمُوا لِلرَبِّ مَجْدَاً لاسْمِهِ. اُسْجُدُوا لِلرَبِّ فِي دَارِ قُدْسِهِ. الليلويا.,\n",
-  "arabiccoptic": " اني أووي إمبشويس انني شيري انتي إفنوتي اني اووي امبشويس إن إوإوأو نيم أوتايو . اني أووي إمبشويس إن أوؤو إمبيفران : اوؤوشت إمبشويس خين تيف فالي إثؤواب الليلويا :\n",
-  "coptic": " Anioui `mPo/c ni}hri nte v; anioui ` mPo/c/ n\\an]hri nwili> anioui `mPsoic nouwou nem outaio > Anioui `mPsoic nouwou `mpefran > ouw]t `mPsoic =en tefaulh eqouab> `allhloui`a\n",
-"english": " Bring to the Lord O you sons of God, Bring to the Lord the sons of Rams. Bring to the Lord glory and honor : Bring to the Lord glory due His name : worship the Lord in his Holy court Alleluia.,\n",
-"englishcoptic": " Aneeowee em Epetchoyse nee sheeree ente Efnoty aneeowee em Epetchoyse enhan shiri en-oylee : aneeowee em Epetchoyse eno-oo nem otayo : aneeowee em Epetchoyse eno-oo empefran : o-osht em Epetchoyse khen tef-avly ethouab. Alleluia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "29:1-2 مزمور",
+  "EnglishTitle": "Psalm 29:1-2 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَدِّمُوا لِلرَبِّ يَا أَبْنَاءَ اللهِ. قَدِّمُوا لِلرَبِّ أَبْنَاءَ الكِبَاشِ. قَدِّمُوا لِلرَبِّ مَجْدَاً وَكَرَامَة. قَدِّمُوا لِلرَبِّ مَجْدَاً لاسْمِهِ. اُسْجُدُوا لِلرَبِّ فِي دَارِ قُدْسِهِ. الليلويا.",
+      "Coptic": "Anioui `mPo/c ni}hri nte v; anioui ` mPo/c/ n\\an]hri nwili> anioui `mPsoic nouwou nem outaio > Anioui `mPsoic nouwou `mpefran > ouw]t `mPsoic =en tefaulh eqouab> `allhloui`a",
+      "English": "Bring to the Lord O you sons of God, Bring to the Lord the sons of Rams. Bring to the Lord glory and honor : Bring to the Lord glory due His name : worship the Lord in his Holy court Alleluia.",
+      "Arabiccoptic": "اني أووي إمبشويس انني شيري انتي إفنوتي اني اووي امبشويس إن إوإوأو نيم أوتايو . اني أووي إمبشويس إن أوؤو إمبيفران : اوؤوشت إمبشويس خين تيف فالي إثؤواب الليلويا :",
+      "Englishcoptic": "Aneeowee em Epetchoyse nee sheeree ente Efnoty aneeowee em Epetchoyse enhan shiri en-oylee : aneeowee em Epetchoyse eno-oo nem otayo : aneeowee em Epetchoyse eno-oo empefran : o-osht em Epetchoyse khen tef-avly ethouab. Alleluia."
+    }
+  ]
 }

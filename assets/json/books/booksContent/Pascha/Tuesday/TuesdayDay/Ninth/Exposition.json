@@ -1,4 +1,55 @@
 {
-"arabic": " يا جميع سكان أورشليم تعالوا لنمضي إلي جبل الزيتون لننظر يسوع الناصري إين دواد، كلمة الآب،,\nجالساً هناك وتلاميذه محيطون به يسألونه، فأعلموه أولاً ببناء الهيكل وحجارته العظيمة وكمال زينته،,\nفاجأب مخلصنا الكثير الرحمة، مرشد كل أحد يتوكل عليه، بهدوء ومعرفة يثبت قلوبهم علي ما سوف يكون :,\nأنظروا لا يضلكم أحدً في شئ إذا وقعتم بالتجارب فسوف تقوم أمة علي أمة ومملكة علي مملكة،,\nوتكون زلازل وموت في أماكن وتكون الشدائد والضيقات علي الأرض،,\nوإعلموا انهم سوف يقتلونكم والأمم يبغضونكم. هذا يفعلونه بكم من أجل إسمي فأصبروا أنتم لكي تخلصوا.,\n()",
-"english": " O come, all you people of Jerusalem, to see Jesus on the Mount of Olives, to see Jesus of Nazareth, the Son of David, and the Word of the Father,,\nSitting there surrounded by His inquiring disciples. They reminded Him of the size of the temple, the huge stone with which it was built, and how ornate it was.,\nOur very merciful Savior who directs those who trust Him and reassures their hearts about the future with His peace and knowledge, replied saying:,\n\"Do not let anyone mislead you about any matter when you face tribulations. For nation shall rise against nation, and kingdom against kingdom;,\nThere will be earthquakes and pestilence in diverse places; there will be great afflictions and calamities on earth.,\nKnow that they will kill you and the nations will hate you.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا جميع سكان أورشليم تعالوا لنمضي إلي جبل الزيتون لننظر يسوع الناصري إين دواد، كلمة الآب،",
+      "English": "O come, all you people of Jerusalem, to see Jesus on the Mount of Olives, to see Jesus of Nazareth, the Son of David, and the Word of the Father"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جالساً هناك وتلاميذه محيطون به يسألونه، فأعلموه أولاً ببناء الهيكل وحجارته العظيمة وكمال زينته،",
+      "English": "Sitting there surrounded by His inquiring disciples. They reminded Him of the size of the temple, the huge stone with which it was built, and how ornate it was."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فاجأب مخلصنا الكثير الرحمة، مرشد كل أحد يتوكل عليه، بهدوء ومعرفة يثبت قلوبهم علي ما سوف يكون :",
+      "English": "Our very merciful Savior who directs those who trust Him and reassures their hearts about the future with His peace and knowledge, replied saying:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنظروا لا يضلكم أحدً في شئ إذا وقعتم بالتجارب فسوف تقوم أمة علي أمة ومملكة علي مملكة،",
+      "English": "\"Do not let anyone mislead you about any matter when you face tribulations. For nation shall rise against nation, and kingdom against kingdom;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وتكون زلازل وموت في أماكن وتكون الشدائد والضيقات علي الأرض،",
+      "English": "There will be earthquakes and pestilence in diverse places; there will be great afflictions and calamities on earth."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وإعلموا انهم سوف يقتلونكم والأمم يبغضونكم. هذا يفعلونه بكم من أجل إسمي فأصبروا أنتم لكي تخلصوا.",
+      "English": "Know that they will kill you and the nations will hate you."
+    }
+  ]
 }

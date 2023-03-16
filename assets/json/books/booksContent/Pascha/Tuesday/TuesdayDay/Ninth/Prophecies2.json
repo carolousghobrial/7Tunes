@@ -1,22 +1,106 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " اَلْحِكْمَةُ بَنَتْ لَهَا بَيْتَاً وَنَصَبَتْ فِيهِ سَّبْعَةَ أعْمِدَةً. ذَبَحَتْ ذَبَائِحَهَا ومَزَجَتْ خَمْرَهَا فِي الأَوَانِي وَهَيَّأتْ مَائِدَتَهَا.\n",
-"arabiccoptic": " اتي سوفيا إن أويي : اووه استاجرو إنشاشف أن إستيللوس خاروف : اسخولخيل إننيسشوت : اسثوت إمبيس أيرب خين أوموكي : اووه اسسوبتي إنتىس إترابيزا\n",
-"coptic": " A; covia nouhi> ouo\\ actajro `n]a]f `n`ctulloc =arof> Ac=ol=el `nnec]wt> acqwt `mpechrp =enoumoki> ouo\\ accob; `ntec`trapeza\n",
-"english": " Wisdom built her house, and she supported it with seven pillars. She offered her sacrifices; she mixed her wine in a bowl and prepared her table.\n",
-"englishcoptic": " Ati-sophia enoo-ee owoh astagro enshashf enestellos kharof; as-khol-khel ennes-shot as-thoot empeseerp khen-omoki; owoh assovt entes-etrapeza\n",
-},
-{
-"arabic": " أَرْسَلَتْ عَبِيدَهَا لِيُنَادُوا بِصَوْتٍ عَالٍ عَلَي الزَوَايَا قَائِلِينَ:,\nمَنْ كَانَ فِيكُمْ جَاهِلاً فَلْيَأتِ إِليَّ، وَالنَّاقِصُ الْفَهْمِ أَقُولُ لَهُمْ,\nهَلُمُّوا كُلُوا مِنْ طَعَامِي، وَاشْرَبُوا مِنَ الْخَمْرِ الَّتِي مَزَجْتُهَا لَهُمْ.,\nاُتْرُكُوا عَنْكُمْ الْجَهَالاَتِ فَتَحْيَوْا، أُطْلُبُوا الحِكْمَةَ لِتُعَمِّرُوا وَقُوِّمُوا فَهْمَكُمْ بِمَعْرِفَةٍ.,\nمَنْ يُؤَدِّبْ الأشرارَ يُلحِقْ بنَفْسِهِ هَوَاناً وَمَنْ يُبَكِّتْ المُنَافِقَ يَكْسَبْ عَيْبًا لِذَاتِهِ.,\nلاَ تُوَبِّخْ الأشْرَارَ لِئَلاَّ يُبْغِضُوكَ. وَبِّخْ حَكِيمًا فَيُحِبَّكَ.,\nوَبِّخْ جَاهِلاً فيُبْغِضَكَ. أَعْطِ الحَكِيمَ سَبَباً فَيَزْدَادَ حِكْمَةً,\nوعَلِّمْ البَارَ فَيَزْدَادَ بِرَّاً,\nرَأسُ الْحِكْمَةِ مَخَافَةُ الرَّبِّ، وَمَشُورَةُ القِدِيسِينَ فَهْمٌ.,\nوَمَعْرِفَةُ النَامُوسِ هُوَ مِنْ صَلَاحِ العَقْلِ.,\nبِهَذَا المِثَالِ تَعِيشُ زَمَاناً طَوِيلاً وَتَزْدَادُ لَكَ سِنُو الحَيَاةِ.,\n",
-"english": " She sent her servants, inviting people to the bowl with a lofty proclamation, saying,,\n\"he who is without discernment, let him turn aside to me\"; and to those in need of discernment, she says,,\n\"come, eat my bread and drink the wine I mixed for you;,\nForsake lack of discernment, and you shall live; seek discernment so you may live, and keep straight your understanding with knowledge.\",\nHe who chastises evil men shall receive dishonor to himself, and he who reproves the ungodly man shall be blamed himself.,\nDo not reprove evil men, so they may not hate you; reprove a wise man, and he will love you.,\nGive the opportunity to a wise man, and he will be wiser;,\nInstruct a righteous man, and he shall continue to receive it.,\nThe fear of the Lord is the beginning of wisdom, and the counsel of saints is understanding;,\nFor to know the law is characteristic of a good mind.,\nFor in this manner you will live a long time and the years of your life shall be increased.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "9:1-11 من امثال سليمان الحكيم",
+  "EnglishTitle": "Proverbs 9:1-11 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اَلْحِكْمَةُ بَنَتْ لَهَا بَيْتَاً وَنَصَبَتْ فِيهِ سَّبْعَةَ أعْمِدَةً. ذَبَحَتْ ذَبَائِحَهَا ومَزَجَتْ خَمْرَهَا فِي الأَوَانِي وَهَيَّأتْ مَائِدَتَهَا.",
+      "Coptic": "A; covia nouhi> ouo\\ actajro `n]a]f `n`ctulloc =arof> Ac=ol=el `nnec]wt> acqwt `mpechrp =enoumoki> ouo\\ accob; `ntec`trapeza",
+      "English": "Wisdom built her house, and she supported it with seven pillars. She offered her sacrifices; she mixed her wine in a bowl and prepared her table.",
+      "Arabiccoptic": "اتي سوفيا إن أويي : اووه استاجرو إنشاشف أن إستيللوس خاروف : اسخولخيل إننيسشوت : اسثوت إمبيس أيرب خين أوموكي : اووه اسسوبتي إنتىس إترابيزا",
+      "Englishcoptic": "Ati-sophia enoo-ee owoh astagro enshashf enestellos kharof; as-khol-khel ennes-shot as-thoot empeseerp khen-omoki; owoh assovt entes-etrapeza"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَرْسَلَتْ عَبِيدَهَا لِيُنَادُوا بِصَوْتٍ عَالٍ عَلَي الزَوَايَا قَائِلِينَ:",
+      "English": "She sent her servants, inviting people to the bowl with a lofty proclamation, saying"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنْ كَانَ فِيكُمْ جَاهِلاً فَلْيَأتِ إِليَّ، وَالنَّاقِصُ الْفَهْمِ أَقُولُ لَهُمْ",
+      "English": "\"he who is without discernment, let him turn aside to me\"; and to those in need of discernment, she says"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هَلُمُّوا كُلُوا مِنْ طَعَامِي، وَاشْرَبُوا مِنَ الْخَمْرِ الَّتِي مَزَجْتُهَا لَهُمْ.",
+      "English": "\"come, eat my bread and drink the wine I mixed for you;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اُتْرُكُوا عَنْكُمْ الْجَهَالاَتِ فَتَحْيَوْا، أُطْلُبُوا الحِكْمَةَ لِتُعَمِّرُوا وَقُوِّمُوا فَهْمَكُمْ بِمَعْرِفَةٍ.",
+      "English": "Forsake lack of discernment, and you shall live; seek discernment so you may live, and keep straight your understanding with knowledge.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنْ يُؤَدِّبْ الأشرارَ يُلحِقْ بنَفْسِهِ هَوَاناً وَمَنْ يُبَكِّتْ المُنَافِقَ يَكْسَبْ عَيْبًا لِذَاتِهِ.",
+      "English": "He who chastises evil men shall receive dishonor to himself, and he who reproves the ungodly man shall be blamed himself."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لاَ تُوَبِّخْ الأشْرَارَ لِئَلاَّ يُبْغِضُوكَ. وَبِّخْ حَكِيمًا فَيُحِبَّكَ.",
+      "English": "Do not reprove evil men, so they may not hate you; reprove a wise man, and he will love you."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبِّخْ جَاهِلاً فيُبْغِضَكَ. أَعْطِ الحَكِيمَ سَبَباً فَيَزْدَادَ حِكْمَةً",
+      "English": "Give the opportunity to a wise man, and he will be wiser;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وعَلِّمْ البَارَ فَيَزْدَادَ بِرَّاً",
+      "English": "Instruct a righteous man, and he shall continue to receive it."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رَأسُ الْحِكْمَةِ مَخَافَةُ الرَّبِّ، وَمَشُورَةُ القِدِيسِينَ فَهْمٌ.",
+      "English": "The fear of the Lord is the beginning of wisdom, and the counsel of saints is understanding;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَعْرِفَةُ النَامُوسِ هُوَ مِنْ صَلَاحِ العَقْلِ.",
+      "English": "For to know the law is characteristic of a good mind."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بِهَذَا المِثَالِ تَعِيشُ زَمَاناً طَوِيلاً وَتَزْدَادُ لَكَ سِنُو الحَيَاةِ.",
+      "English": "For in this manner you will live a long time and the years of your life shall be increased."
+    }
+  ]
 }

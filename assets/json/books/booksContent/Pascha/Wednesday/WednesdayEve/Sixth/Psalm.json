@@ -1,7 +1,29 @@
 {
-  "arabic": " يَارَبُّ اِسْتَمِعْ صَلَاتِي وَلْيَصْعَدْ أَمَامَكَ صُرَاخِي,\nفِي اليَوْمِ الَّذِي أَدْعُوكَ فِيهِ أِسْتَجِبْ لِي سَرِيعَاً، الليلويا.,\n",
-  "arabiccoptic": " إبشويس سوتيم إيتا إبروس إفكى مارى با إخروؤو إى ابشوى امبيك امثو.\nخين بى إيهوؤو إى تى نا أوش إى ابشوى أوفيك إنخيتف. كوليم سوتيم إيروى. الليلويا\n",
-  "coptic": " Psoic cwtem eta `proceuh > mare pa`=rwou `i `e`p]wi `mpek`mqo (le[ic)\n +en pi`e\\oou `e;naw] `e`p]wi oubhk `n=htf> xwlem cwtem eroi a/l/\n",
-  "english": " Hear my prayer, O Lord, and let my cry come to You.,\nIn the day when I call upon You, hear me quickly.  Alleluia,\n",
-  "englishcoptic": " Epshois sotem eta epro-sevshi; mare pa-ekhro-oo ee e-epshoi empekemtho.\nKhen pi-eho-oo eteena-oosh e-epshoi oveek enkhetf kolem sotem eroi. Alleloia\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "102:1-2 مزمور",
+  "EnglishTitle": "Psalm 102:1-2 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَارَبُّ اِسْتَمِعْ صَلَاتِي وَلْيَصْعَدْ أَمَامَكَ صُرَاخِي",
+      "Coptic": "Psoic cwtem eta `proceuh > mare pa`=rwou `i `e`p]wi `mpek`mqo (le[ic)",
+      "English": "Hear my prayer, O Lord, and let my cry come to You.",
+      "Arabiccoptic": "إبشويس سوتيم إيتا إبروس إفكى مارى با إخروؤو إى ابشوى امبيك امثو.",
+      "Englishcoptic": "Epshois sotem eta epro-sevshi; mare pa-ekhro-oo ee e-epshoi empekemtho."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فِي اليَوْمِ الَّذِي أَدْعُوكَ فِيهِ أِسْتَجِبْ لِي سَرِيعَاً، الليلويا.",
+      "Coptic": "+en pi`e\\oou `e;naw] `e`p]wi oubhk `n=htf> xwlem cwtem eroi a/l/",
+      "English": "In the day when I call upon You, hear me quickly.  Alleluia",
+      "Arabiccoptic": "خين بى إيهوؤو إى تى نا أوش إى ابشوى أوفيك إنخيتف. كوليم سوتيم إيروى. الليلويا",
+      "Englishcoptic": "Khen pi-eho-oo eteena-oosh e-epshoi oveek enkhetf kolem sotem eroi. Alleloia"
+    }
+  ]
 }

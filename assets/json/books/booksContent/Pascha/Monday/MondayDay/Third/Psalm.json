@@ -1,7 +1,18 @@
 {
-"arabic": " فَرِحْتُ بِالْقَائِلِينَ لِي: «إِلَى بَيْتِ الرَّبِّ نَذْهَبُ». وَقَفَتْ أَرْجُلُنَا فِي دِياَرِ أُورُشَلِيمَ. هلليلويا,\n",
-"arabiccoptic": " أي أنوف ايجين نيئتاف جوس نى. جى تين ناشينان أى ابئى ام ابشويس. نين اتشالفج أفؤوهى ابراتوخين نى افليوانتى يروساليم. الليلويا\n",
-"coptic": " Aiounof `ejn nh`etaujoc nhi > jetenna]enan` e`phi `mPo/c >/ Nensalauj auo\\i eratou> =en niaulhou nte Ieroucalhm> `allhloui`a.\n",
-"english": " I was glad when they said to me: “Let us go into the house of the Lord.” Our feet stand : in your courts O Jerusalem! Alleluia.,\n",
-"englishcoptic": " Ay-onof egen nee etavgos nee : je tenashenan e-epee em Epetchoyse. Nen-echalavg avohy erato : khen nee-avleyo ente Yerosalem. Alleluia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "121:1-2 مزمور",
+  "EnglishTitle": "Psalm 121:1-2 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَرِحْتُ بِالْقَائِلِينَ لِي: «إِلَى بَيْتِ الرَّبِّ نَذْهَبُ». وَقَفَتْ أَرْجُلُنَا فِي دِياَرِ أُورُشَلِيمَ. هلليلويا",
+      "Coptic": "Aiounof `ejn nh`etaujoc nhi > jetenna]enan` e`phi `mPo/c >/ Nensalauj auo\\i eratou> =en niaulhou nte Ieroucalhm> `allhloui`a.",
+      "English": "I was glad when they said to me: “Let us go into the house of the Lord.” Our feet stand : in your courts O Jerusalem! Alleluia.",
+      "Arabiccoptic": "أي أنوف ايجين نيئتاف جوس نى. جى تين ناشينان أى ابئى ام ابشويس. نين اتشالفج أفؤوهى ابراتوخين نى افليوانتى يروساليم. الليلويا",
+      "Englishcoptic": "Ay-onof egen nee etavgos nee : je tenashenan e-epee em Epetchoyse. Nen-echalavg avohy erato : khen nee-avleyo ente Yerosalem. Alleluia."
+    }
+  ]
 }

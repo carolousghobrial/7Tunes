@@ -1,4 +1,39 @@
 {
-"arabic": " قال المخلص إبن الله الحى : أنا هو نور العالم بآسره، ومن يؤمن بى ويقبل كلامى لا يمكن أن يلبث فى الظلام،,\nوم يجحدنى ولم يرد أن يسمع لقولى ولم يطعه فأنا لا أدينه، لكن القول الذى قلته هو يدينه،,\nفأن القول الذى نطقت به ليس هو لى بل للآب الذى أرسلنى، وهو أعطانى الوصية بماذا أقول وأنطق.,\nنحن نؤمن أنك أنت بالحقيقة كلمة الله الآب الصالح، وأن لك القدرة على كل شىء وليس شىء يعسر عليك.,\n()",
-"english": " Our Savior the Son of the living God said: I am the light of the world. He who believes in me and accepts my words will not be in the darkness.,\nHe who denies me and does not want to listen to my words or to obey them, I will not judge him, but the words I said will judge him.,\nBecause what I say is from the Father who s ent Me. He gave me the commandment of what to say and what to tell.,\nWe believe in you that you are the omnipotent Word of God the benevolent Father.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قال المخلص إبن الله الحى : أنا هو نور العالم بآسره، ومن يؤمن بى ويقبل كلامى لا يمكن أن يلبث فى الظلام،",
+      "English": "Our Savior the Son of the living God said: I am the light of the world. He who believes in me and accepts my words will not be in the darkness."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وم يجحدنى ولم يرد أن يسمع لقولى ولم يطعه فأنا لا أدينه، لكن القول الذى قلته هو يدينه،",
+      "English": "He who denies me and does not want to listen to my words or to obey them, I will not judge him, but the words I said will judge him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فأن القول الذى نطقت به ليس هو لى بل للآب الذى أرسلنى، وهو أعطانى الوصية بماذا أقول وأنطق.",
+      "English": "Because what I say is from the Father who s ent Me. He gave me the commandment of what to say and what to tell."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نحن نؤمن أنك أنت بالحقيقة كلمة الله الآب الصالح، وأن لك القدرة على كل شىء وليس شىء يعسر عليك.",
+      "English": "We believe in you that you are the omnipotent Word of God the benevolent Father."
+    }
+  ]
 }

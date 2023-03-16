@@ -1,22 +1,74 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " فَأَمَّا ذلِكَ الْيَوْمُ وَتِلْكَ السَّاعَةُ فَلاَ يَعْلمْهُمَا أَحَدٌ، وَلاَ الْمَلاَئِكَةُ الَّذِينَ فِي السَّمَاءِ، وَلاَ الابْنُ، إِلاَّ الآبُ.\n",
-    "arabiccoptic": " إثفي بي إيهوؤ ذي إيتى  إمماف نيم تي أونو إممون  إهلى إيمى إى إيروؤو  أوذي ني آنجيلوس نی  إتخين إتفى: أوذى إبشيرى  إيفيل إى إفيوت\n",
-    "coptic": " Eqbe pi`e\\oou de `ete `mmau nem ;ounou `mmon `\\li `emi erwou oude niaggeloc nhet=en `tve > oude `p]hri `ebhl `eviwt \n",
-    "english": " \"But of that day and hour no one knows, not even the angels in heaven, nor the Son, but only the Father.\n",
-    "englishcoptic": " Ethve pi-eho-oo ze ete emmav nem tee-ono emmon ehli emi ero-oo oze ni-angelos nee-et khen etfe oze epshiri eveel efiot.\n"
-  },
-  {
-    "arabic": " اُنْظُرُوا! وَاِسْهَرُوا وَصَلُّوا، لأَنَّكُمْ لاَ تَعْلَمُونَ مَتَى يَكُونُ الزَمَانُ.,\nكَمِثْلِ إِنْسَانٍ مُسَافِرٍ فَتَرَكَ بَيْتَهُ، وَأَعْطَى عَبِيدَهُ السُّلْطَانَ، كُلِّ وَاحِدٍ في عَمَلَهُ وَأَوْصَى الْبَوَّابَ بالْسَّهَرِ,\nفَاسْهَرُوا إِذًا، لأَنَّكُمْ لاَ تَعْلَمُونَ مَتَى يَأْتِي رَبُّ الْبَيْتِ أَفِي المَسَاءِ. أَمْ في نِصْفَ اللَّيْلِ. أَمْ عند صِيَاحَ الدِّيكِ. أَمْ في الصَبَاحِ.,\nلِئَلاَّ يَأْتِيَ بَغْتَةً فَيَجِدَكُمْ نِيَامًا!.,\nوَمَا أَقُولُهُ لَكُمْ أَقُولُهُ لِلْجَمِيعِ: اسْهَرُوا,\nوَكَانَ الْفِصْحُ وَالْفَطِيرِ بَعْدَ يَوْمَيْنِ. وَكَانَ رُؤَسَاءُ الْكَهَنَةِ وَالْكَتَبَةُ يَطْلُبُونَ كَيْفَ يُمْسِكُونَهُ بِمَكْرٍ لِيَقْتُلُوُهُ،,\nوَلكِنَّهُمْ قَالُوا: لانَفعَلُ هَذَا فِي الْعِيدِ، لِئَلاَّ يَكُونَ شَغَبٌ فِي الشَّعْبِ.,\n",
-    "english": " Take heed, watch and pray; for you do not know when the time is.,\nIt is like a man going to a far country, who left his house and gave authority to his servants, and to each his work, and commanded the doorkeeper to watch.,\nWatch therefore, for you do not know when the master of the house is coming-in the evening, at midnight, at the crowing of the rooster, or in the morning-,\nLest, coming suddenly, he find you sleeping.,\nAnd what I say to you, I say to all: watch!,\nAfter two days it was passover and the feast of unleavened bread. And the chief priests and the scribes sought how they might take Him by trickery and put Him to death.,\nBut they said, \"Not during the feast, lest there be an uproar of the people.\",\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": " 13:32-14:2 الإنجيل من مرقس",
+  "EnglishTitle": "The Gospel according to St.Mark 13:32-14:2 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَمَّا ذلِكَ الْيَوْمُ وَتِلْكَ السَّاعَةُ فَلاَ يَعْلمْهُمَا أَحَدٌ، وَلاَ الْمَلاَئِكَةُ الَّذِينَ فِي السَّمَاءِ، وَلاَ الابْنُ، إِلاَّ الآبُ.",
+      "Coptic": "Eqbe pi`e\\oou de `ete `mmau nem ;ounou `mmon `\\li `emi erwou oude niaggeloc nhet=en `tve > oude `p]hri `ebhl `eviwt",
+      "English": "\"But of that day and hour no one knows, not even the angels in heaven, nor the Son, but only the Father.",
+      "Arabiccoptic": "إثفي بي إيهوؤ ذي إيتى  إمماف نيم تي أونو إممون  إهلى إيمى إى إيروؤو  أوذي ني آنجيلوس نی  إتخين إتفى: أوذى إبشيرى  إيفيل إى إفيوت",
+      "Englishcoptic": "Ethve pi-eho-oo ze ete emmav nem tee-ono emmon ehli emi ero-oo oze ni-angelos nee-et khen etfe oze epshiri eveel efiot."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اُنْظُرُوا! وَاِسْهَرُوا وَصَلُّوا، لأَنَّكُمْ لاَ تَعْلَمُونَ مَتَى يَكُونُ الزَمَانُ.",
+      "English": "Take heed, watch and pray; for you do not know when the time is."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كَمِثْلِ إِنْسَانٍ مُسَافِرٍ فَتَرَكَ بَيْتَهُ، وَأَعْطَى عَبِيدَهُ السُّلْطَانَ، كُلِّ وَاحِدٍ في عَمَلَهُ وَأَوْصَى الْبَوَّابَ بالْسَّهَرِ",
+      "English": "It is like a man going to a far country, who left his house and gave authority to his servants, and to each his work, and commanded the doorkeeper to watch."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَاسْهَرُوا إِذًا، لأَنَّكُمْ لاَ تَعْلَمُونَ مَتَى يَأْتِي رَبُّ الْبَيْتِ أَفِي المَسَاءِ. أَمْ في نِصْفَ اللَّيْلِ. أَمْ عند صِيَاحَ الدِّيكِ. أَمْ في الصَبَاحِ.",
+      "English": "Watch therefore, for you do not know when the master of the house is coming-in the evening, at midnight, at the crowing of the rooster, or in the morning-"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِئَلاَّ يَأْتِيَ بَغْتَةً فَيَجِدَكُمْ نِيَامًا!.",
+      "English": "Lest, coming suddenly, he find you sleeping."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَا أَقُولُهُ لَكُمْ أَقُولُهُ لِلْجَمِيعِ: اسْهَرُوا",
+      "English": "And what I say to you, I say to all: watch!"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ الْفِصْحُ وَالْفَطِيرِ بَعْدَ يَوْمَيْنِ. وَكَانَ رُؤَسَاءُ الْكَهَنَةِ وَالْكَتَبَةُ يَطْلُبُونَ كَيْفَ يُمْسِكُونَهُ بِمَكْرٍ لِيَقْتُلُوُهُ،",
+      "English": "After two days it was passover and the feast of unleavened bread. And the chief priests and the scribes sought how they might take Him by trickery and put Him to death."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلكِنَّهُمْ قَالُوا: لانَفعَلُ هَذَا فِي الْعِيدِ، لِئَلاَّ يَكُونَ شَغَبٌ فِي الشَّعْبِ.",
+      "English": "But they said, \"Not during the feast, lest there be an uproar of the people.\""
+    }
+  ]
 }

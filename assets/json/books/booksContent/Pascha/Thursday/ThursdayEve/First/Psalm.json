@@ -1,7 +1,18 @@
 {
-"arabic": " أَحْيِنِي يَا اللهُ فَإِنَّ المِيَاهَ قَدْ بَلَغَتْ إِلَى نَفْسِي، وَأنْظُرْ إِلَىَّ كَكَثْرَةِ رَأفَاتِكَ: الليلويا.,\n",
-"arabiccoptic": " ما تا نخوى إفنوتى جى أهان موؤو. شى إيخون شاتا ابسيكى كاتا إب أشاى انتى نيك ميت شينهيت جوشت إإخرى إجوى. الليلويا\n",
-"coptic": " Matan=oi `Vnou; je a\\anmwou> ]e `e=oun ]a ta`yuxh> kata `p`a]ai` nte nekmet]en\\ht > jou]t `e`=rhi `ejwi al? .\n",
-"english": " Save me, O God! For the waters flood my soul.According to Your abundant compassion, look upon me. Alleluia.,\n",
-"englishcoptic": " Matan-khoy Efnoty je a-hanmo-oo : she ekhoon sha ta-epseeshee : kata epashay ente nek metshenheet : gosht e-ekhree egoy. Alleluia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "68:1,16 مزمور",
+  "EnglishTitle": "Psalm 68:1,16 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَحْيِنِي يَا اللهُ فَإِنَّ المِيَاهَ قَدْ بَلَغَتْ إِلَى نَفْسِي، وَأنْظُرْ إِلَىَّ كَكَثْرَةِ رَأفَاتِكَ: الليلويا.",
+      "Coptic": "Matan=oi `Vnou; je a\\anmwou> ]e `e=oun ]a ta`yuxh> kata `p`a]ai` nte nekmet]en\\ht > jou]t `e`=rhi `ejwi al? .",
+      "English": "Save me, O God! For the waters flood my soul.According to Your abundant compassion, look upon me. Alleluia.",
+      "Arabiccoptic": "ما تا نخوى إفنوتى جى أهان موؤو. شى إيخون شاتا ابسيكى كاتا إب أشاى انتى نيك ميت شينهيت جوشت إإخرى إجوى. الليلويا",
+      "Englishcoptic": "Matan-khoy Efnoty je a-hanmo-oo : she ekhoon sha ta-epseeshee : kata epashay ente nek metshenheet : gosht e-ekhree egoy. Alleluia."
+    }
+  ]
 }

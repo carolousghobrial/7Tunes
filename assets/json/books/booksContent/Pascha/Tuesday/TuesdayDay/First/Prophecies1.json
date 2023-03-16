@@ -1,22 +1,82 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " وَفِي الشَهْرِ الثَالِثِ لِخُروجِ بَني اِسْرَائِيلَ مِنْ أَرْضِ مِصْرَ فِي ذَلِكَ اليَوْمِ جَاءُوا إِلَى بَرِّيةِ سِينَاء.\n",
-    "arabiccoptic": " إن إهري ذي خين بي افوت إمماه شومت إنتى إبجيني إيفول إنينشيري إمبيسرائيل ايفول خين إبكاهي إن كيمي خين بي إهوؤو إيتي إمماف افئي إإهري إإيشافى إن سينا\n",
-    "coptic": " ` N\\rhi de  =en piabot `mma\\]omt `nte `pjini ebol `nnen]hri `m`pIcrahl `ebol =en `pka\\i `nXhmi>  =en pi`e\\oou ete `mmau> au`i e\\rhi  `e`p]afe `nCina\n",
-    "english": " Now in the third month after the Israel departed from the land of Egypt, on the same day, they came into the Sinai Desert.\n",
-    "englishcoptic": " Enehri ze khen pi-avot emmah shomt ente epgini evol ennenshiri empisrael evol khen epkahi en-kimi khen pi-eho-oo ete-emmav avi e-ehri e-epshafe en-sina.\n"
-  },
-  {
-    "arabic": " وَرَحَلُوا مِنْ رَفِيدِيمَ وَوَصَلُوا إِلَى بَرِّيةِ سِينَاء وَنَزَلُوا هُنَاكَ تِلقَاءَ الجَبَلِ.,\nفَصَعِدَ مُوسَى إِلَى جَبلِ اللهِ, فَنَادَاهُ اللهُ مِنْ الجَبَلِ قَائِلاً: هَكَذَا تَقُولُ لِبَيتِ يَعْقُوبَ وَتُخْبِرُ بَنِی اِسْرَائِیلَ قَائِلاً لَهُمْ.,\nقَدْ رَأَيْتُمْ كُلَّ الأعْمَالِ التِي صَنَعتُهَا بِالمَصْرِيينَ وَكَيفَ حَمَلتُكُمْ كَأنَّكُمْ عَلَى أَجْنِحَةِ النُسُورِ وَأتيتُ بِكُمْ إِلَيَّ,\nوَالآنَ إِنْ كُنْتُمْ تَسمَعُونَ لِصَوتِى وَتَحْفَظُونَ عَهْدِي.,\nفَأنَّكُمْ تَكُونُونَ لِي شَعْباً خَاصَّاً إِلَى الأبَدِ مِنْ بَيْنِ جَمِيعِ الشُعُوبِ. لأنَ لِىَّ الأرضَ بِأسْرِهَا,\nوأنْتُمْ تَكُونُونَ لِي مَملَكَةً طَاهِرَةً وَأُمَّةً مُقَدَّسَةً. هَذَا هُوَ الكلامُ الذي تَقُولُهْ لِبَيتِ اسرائِيلَ.,\nفَجَاءَ مُوسَى وَدَعَا شُيُوخَ الشَعبِ وَقَصَّ عَلَيهِمْ كُلَّ هَذِهِ الكَلِمَاتِ التِي أوْصَاهُ الله بها.,\nفَأجَابَ جَميعُ الشعْبِ مَعَاً وَقَالُوا. كُلُّ مَا تَكَلَّمَ بِهِ اللهُ نَسْمَعُهُ وَنَعْمَلُ بِهِ. فَرَفَعَ مُوسَی کَلَامَ الشَعْبِ إِلَى اللهِ.,\n",
-    "english": " For they departed from Rephidim, came into the Sinai Desert, and camped in the desert. So Israel camped there before the mountain.,\nThen Moses went up to the mountain of God, and God called to him from the mountain, saying, \"Thus you shall say to the house of Jacob and tell the children of Israel:,\n'You have seen what I did to the Egyptians, and how I bore you on eagles' wings and brought you to Myself.,\nNow therefore, if you will indeed obey My voice and keep My covenant,,\nYou shall be a special people to Me above all nations; for all the earth is Mine.,\nYou shall be to Me a royal priesthood and a holy nation.' These are the words you shall speak to the children of Israel.\",\nSo Moses came and called for the people, and laid before them all these words the Lord commanded him.,\nThen all the people answered with one accord and said, \"Everything the Lord said we will do and hearken to.\" So Moses reported these words to God.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "19:1-8 من سفر الخروج لموسى النبى",
+  "EnglishTitle": "Exodus 19:1-8 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَفِي الشَهْرِ الثَالِثِ لِخُروجِ بَني اِسْرَائِيلَ مِنْ أَرْضِ مِصْرَ فِي ذَلِكَ اليَوْمِ جَاءُوا إِلَى بَرِّيةِ سِينَاء.",
+      "Coptic": "` N\\rhi de  =en piabot `mma\\]omt `nte `pjini ebol `nnen]hri `m`pIcrahl `ebol =en `pka\\i `nXhmi>  =en pi`e\\oou ete `mmau> au`i e\\rhi  `e`p]afe `nCina",
+      "English": "Now in the third month after the Israel departed from the land of Egypt, on the same day, they came into the Sinai Desert.",
+      "Arabiccoptic": "إن إهري ذي خين بي افوت إمماه شومت إنتى إبجيني إيفول إنينشيري إمبيسرائيل ايفول خين إبكاهي إن كيمي خين بي إهوؤو إيتي إمماف افئي إإهري إإيشافى إن سينا",
+      "Englishcoptic": "Enehri ze khen pi-avot emmah shomt ente epgini evol ennenshiri empisrael evol khen epkahi en-kimi khen pi-eho-oo ete-emmav avi e-ehri e-epshafe en-sina."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَرَحَلُوا مِنْ رَفِيدِيمَ وَوَصَلُوا إِلَى بَرِّيةِ سِينَاء وَنَزَلُوا هُنَاكَ تِلقَاءَ الجَبَلِ.",
+      "English": "For they departed from Rephidim, came into the Sinai Desert, and camped in the desert. So Israel camped there before the mountain."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَصَعِدَ مُوسَى إِلَى جَبلِ اللهِ, فَنَادَاهُ اللهُ مِنْ الجَبَلِ قَائِلاً: هَكَذَا تَقُولُ لِبَيتِ يَعْقُوبَ وَتُخْبِرُ بَنِی اِسْرَائِیلَ قَائِلاً لَهُمْ.",
+      "English": "Then Moses went up to the mountain of God, and God called to him from the mountain, saying, \"Thus you shall say to the house of Jacob and tell the children of Israel:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَدْ رَأَيْتُمْ كُلَّ الأعْمَالِ التِي صَنَعتُهَا بِالمَصْرِيينَ وَكَيفَ حَمَلتُكُمْ كَأنَّكُمْ عَلَى أَجْنِحَةِ النُسُورِ وَأتيتُ بِكُمْ إِلَيَّ",
+      "English": "'You have seen what I did to the Egyptians, and how I bore you on eagles' wings and brought you to Myself."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَالآنَ إِنْ كُنْتُمْ تَسمَعُونَ لِصَوتِى وَتَحْفَظُونَ عَهْدِي.",
+      "English": "Now therefore, if you will indeed obey My voice and keep My covenant"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأنَّكُمْ تَكُونُونَ لِي شَعْباً خَاصَّاً إِلَى الأبَدِ مِنْ بَيْنِ جَمِيعِ الشُعُوبِ. لأنَ لِىَّ الأرضَ بِأسْرِهَا",
+      "English": "You shall be a special people to Me above all nations; for all the earth is Mine."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأنْتُمْ تَكُونُونَ لِي مَملَكَةً طَاهِرَةً وَأُمَّةً مُقَدَّسَةً. هَذَا هُوَ الكلامُ الذي تَقُولُهْ لِبَيتِ اسرائِيلَ.",
+      "English": "You shall be to Me a royal priesthood and a holy nation.' These are the words you shall speak to the children of Israel.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَجَاءَ مُوسَى وَدَعَا شُيُوخَ الشَعبِ وَقَصَّ عَلَيهِمْ كُلَّ هَذِهِ الكَلِمَاتِ التِي أوْصَاهُ الله بها.",
+      "English": "So Moses came and called for the people, and laid before them all these words the Lord commanded him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأجَابَ جَميعُ الشعْبِ مَعَاً وَقَالُوا. كُلُّ مَا تَكَلَّمَ بِهِ اللهُ نَسْمَعُهُ وَنَعْمَلُ بِهِ. فَرَفَعَ مُوسَی کَلَامَ الشَعْبِ إِلَى اللهِ.",
+      "English": "Then all the people answered with one accord and said, \"Everything the Lord said we will do and hearken to.\" So Moses reported these words to God."
+    }
+  ]
 }

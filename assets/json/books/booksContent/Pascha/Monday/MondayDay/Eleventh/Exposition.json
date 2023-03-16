@@ -1,4 +1,53 @@
 {
-"arabic": " أيها النور الحقيقى الذى يضئ المالئ كل مكان فى المسكونة أعنى يسوع النور الحقيقى الذى يضئ لجميع الأمم ما خلا اليهود فأنهم لم يقتربوا من هذا النور ليتاملوه. وأظهر فيهم سره قائلاً أن من يؤمن به لن يموت إلى الأبد.,\nأسمعوا كيف أن الجهال ومخالفى الناموس قالوا أن معه شيطان يخرج الشياطين، إبراهيم مات والأنبياء أيضاً,\nفكيف لا يموت الذى يؤمن بك، إن أنا مجدت نفسى فليس مجدى شيئاً. لى من يمجدنى. ألعلك أعظم من أبينا إبراهيم ومن نسله الذين ذاقوه الموت.,\nلم يكن لك خمسون سنة من الزمان فهل رأيت إبراهيم من يصدقك ؟ قال المخلص الحق أنه كائن من قبل أن يكون إبراهيم.,\nفنحن أيضاً نؤمن معشر الشعوب الجديدة ونواظب على وصاياه فى أفواهنا ونعترف من عمق قلوبنا بالكلمة الحقيقى الذى لضابط الكل أن الصالح كائن منذ البدء مع الروح القدس المعزى.,\nلم يزل يخبر الجهال المملوئين أثماً المخالفين الأبناء المرذولين، فجحدوا ولم يقبلوه ورفضوه وصاروا بغير إله.,\n()",
-"english": " O shinning True Light that fills the earth, I mean Jesus the true light that shines for all nations - except the Jews for they stayed away from him and did not look at him. When he revealed himself to them and told them that those who believe in him shall live forever.	?,\nObserve how the ignorant and breakers of the law accuse Him saying: \"It is that with a Satan he exercises Satans. Abraham died and the prophets there replied.,\nIf I glorify myself then my glory is nil. There are those who glorifies me. You think you are greater than our Patriarch Abraham and his descendants who all died?,\nYou are not even fifty years old. Have you seen Abraham that would believe you?\" The Savior said: verily before Abraham was I am.,\nWe God's new nations believe in him and observe his commandments and confess by word and in the depth of our hearts the True Word the Omnipotent Righteous is Eternal with the Comforting Holy Spirit.,\nDespite all what he did to teach them, the contrary inequitable ignorants rejected this great blessings and the many miracles He demonstrated among them. You did not realize that he was their Savior of the prophecies. They renounced him, rejected him and strayed away from God.,\n()",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها النور الحقيقى الذى يضئ المالئ كل مكان فى المسكونة أعنى يسوع النور الحقيقى الذى يضئ لجميع الأمم ما خلا اليهود فأنهم لم يقتربوا من هذا النور ليتاملوه. وأظهر فيهم سره قائلاً أن من يؤمن به لن يموت إلى الأبد.",
+      "English": "O shinning True Light that fills the earth, I mean Jesus the true light that shines for all nations - except the Jews for they stayed away from him and did not look at him. When he revealed himself to them and told them that those who believe in him shall live forever.\t?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أسمعوا كيف أن الجهال ومخالفى الناموس قالوا أن معه شيطان يخرج الشياطين، إبراهيم مات والأنبياء أيضاً",
+      "English": "Observe how the ignorant and breakers of the law accuse Him saying: \"It is that with a Satan he exercises Satans. Abraham died and the prophets there replied."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فكيف لا يموت الذى يؤمن بك، إن أنا مجدت نفسى فليس مجدى شيئاً. لى من يمجدنى. ألعلك أعظم من أبينا إبراهيم ومن نسله الذين ذاقوه الموت.",
+      "English": "If I glorify myself then my glory is nil. There are those who glorifies me. You think you are greater than our Patriarch Abraham and his descendants who all died?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لم يكن لك خمسون سنة من الزمان فهل رأيت إبراهيم من يصدقك ؟ قال المخلص الحق أنه كائن من قبل أن يكون إبراهيم.",
+      "English": "You are not even fifty years old. Have you seen Abraham that would believe you?\" The Savior said: verily before Abraham was I am."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فنحن أيضاً نؤمن معشر الشعوب الجديدة ونواظب على وصاياه فى أفواهنا ونعترف من عمق قلوبنا بالكلمة الحقيقى الذى لضابط الكل أن الصالح كائن منذ البدء مع الروح القدس المعزى.",
+      "English": "We God's new nations believe in him and observe his commandments and confess by word and in the depth of our hearts the True Word the Omnipotent Righteous is Eternal with the Comforting Holy Spirit."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لم يزل يخبر الجهال المملوئين أثماً المخالفين الأبناء المرذولين، فجحدوا ولم يقبلوه ورفضوه وصاروا بغير إله.",
+      "English": "Despite all what he did to teach them, the contrary inequitable ignorants rejected this great blessings and the many miracles He demonstrated among them. You did not realize that he was their Savior of the prophecies. They renounced him, rejected him and strayed away from God."
+    }
+  ]
 }

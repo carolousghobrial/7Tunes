@@ -1,7 +1,29 @@
 {
-  "arabic": " اِرْحَمْنِي يَا اللهُ اِرْحَمْنِي فَاِنَّهُ عَلَيكَ تَوَكَّلتْ نَفْسِي,\nوَبِظِلِّ جَنَاحَيْكَ أَتَّكِلُ اِلَى اَنْ يَعْبُرَ الِإثْمُ. الليلويا.,\n",
-  "arabiccoptic": " ناى نى افنوتى أووه ناى نى. جى أسكا اهثيس ايروك انجى تا ابسيكى.\nتى نا اير هيلبيس خا انخيفى انتى نيك تينه شاتيس سيتى انجى تى انوميا. الليلويا\n",
-  "coptic": " Nai nhi `V; ouo\\ nainhi> Je acxa\\qhc `erok `nje ta`uxh\n :naer \\elpic  =a `t=hibi `ntenekten\\ > ]a tecc`ini` nje ;anomia al?\n",
-  "english": " Have mercy on me, O God, have mercy on me, for my soul trusts in You;,\nAnd in the shadow of Your wings I will hope, until lawlessness shall pass away. Alleluia,\n",
-  "englishcoptic": " Nai nee efnoti owoh nah-nee; je askah-thees erok enje ta-epseeshi;\nTeena-er helpees Kha etkhibi enten-ektenh; sha tesini enje tee-anomia. Alleluia\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "56:1-2  مزمور",
+  "EnglishTitle": "Psalm 56:1-2 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اِرْحَمْنِي يَا اللهُ اِرْحَمْنِي فَاِنَّهُ عَلَيكَ تَوَكَّلتْ نَفْسِي",
+      "Coptic": "Nai nhi `V; ouo\\ nainhi> Je acxa\\qhc `erok `nje ta`uxh",
+      "English": "Have mercy on me, O God, have mercy on me, for my soul trusts in You;",
+      "Arabiccoptic": "ناى نى افنوتى أووه ناى نى. جى أسكا اهثيس ايروك انجى تا ابسيكى.",
+      "Englishcoptic": "Nai nee efnoti owoh nah-nee; je askah-thees erok enje ta-epseeshi;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبِظِلِّ جَنَاحَيْكَ أَتَّكِلُ اِلَى اَنْ يَعْبُرَ الِإثْمُ. الليلويا.",
+      "Coptic": ":naer \\elpic  =a `t=hibi `ntenekten\\ > ]a tecc`ini` nje ;anomia al?",
+      "English": "And in the shadow of Your wings I will hope, until lawlessness shall pass away. Alleluia",
+      "Arabiccoptic": "تى نا اير هيلبيس خا انخيفى انتى نيك تينه شاتيس سيتى انجى تى انوميا. الليلويا",
+      "Englishcoptic": "Teena-er helpees Kha etkhibi enten-ektenh; sha tesini enje tee-anomia. Alleluia"
+    }
+  ]
 }

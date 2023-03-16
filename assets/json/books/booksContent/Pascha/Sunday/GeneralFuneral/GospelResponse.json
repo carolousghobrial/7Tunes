@@ -1,7 +1,16 @@
 {
-"arabic": " من أجل هذا نمجده، صارخين قائلين، \"مبارك أنت يا ربي يسوع، لأنك صُلبت وخلصتنا.\",\n",
-"arabiccoptic": " إثفى فـاى تين تى أوأوو ناف : إن أوش إيفـول إنجو إمموس : جى إكسماروؤت أوباشويس إيسوس : جى اف أشك أكسوتى إممون .\n",
-"coptic": " Eqbe vai ten;`wou naf> enw] `ebol enjw `mmoc> je `k`cmarwout `w Pasoic Ihcouc> je aua]k akcw; `mmon.\n",
-"english": " Therefore we glorify Him, proclaiming and saying, “Blessed are You O my Lord Jesus, for You were crucified and saved us.”,\n",
-"englishcoptic": " Ethve fai ten-ti-o-oo naf enosh evol engo emmos, je ekis-maro-oot o pashois Esos, je av-ashk aksoti emmon.\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من أجل هذا نمجده، صارخين قائلين، \"مبارك أنت يا ربي يسوع، لأنك صُلبت وخلصتنا.\"",
+      "Coptic": "Eqbe vai ten;`wou naf> enw] `ebol enjw `mmoc> je `k`cmarwout `w Pasoic Ihcouc> je aua]k akcw; `mmon.",
+      "English": "Therefore we glorify Him, proclaiming and saying, “Blessed are You O my Lord Jesus, for You were crucified and saved us.”",
+      "Arabiccoptic": "إثفى فـاى تين تى أوأوو ناف : إن أوش إيفـول إنجو إمموس : جى إكسماروؤت أوباشويس إيسوس : جى اف أشك أكسوتى إممون .",
+      "Englishcoptic": "Ethve fai ten-ti-o-oo naf enosh evol engo emmos, je ekis-maro-oot o pashois Esos, je av-ashk aksoti emmon."
+    }
+  ]
 }

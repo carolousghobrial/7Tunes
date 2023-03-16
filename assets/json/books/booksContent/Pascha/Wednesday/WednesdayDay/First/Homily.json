@@ -1,4 +1,55 @@
 {
-"arabic": " اقول هذا الكلام ولا أتركه، وهو هذا. لا تظنوا أنه بعد إعتزال التبن من الحنطة تتحصل الخطاة علي راحة، أقول لكم كشهادة الكتب،,\nأنه إن كان الملائكة أو رؤساء الملائكة والقديسون أيضاً يصمتون جميعهم,\nويكون لكلمة الله الحكم الكامل القاطع في اليوم الذي يفرز فيه الأشرار من بين الصديقين، وللوقت يلقون الخطاة في آتون النار المتوقدة.,\nهل تري الله كالبشر، يجعل له مشيراً أو جليساً ليسأله؟ ماهو الذي ينساه الله لكي يجيب به آخر؟,\nأو يسأله عن المعطي كل واحد كنحو أعماله،,\nليس لنا ان نذكرك بهذا لأنك أنت الذي من عندك كل الرافات.,\n()",
-"english": " I tell you this and confirm it. Do not imagine that after cutting the wheat from the chaff, that the sinners will have relief. I say to you that according to the testimony of the Books.,\nAs for the angels and archangels they will remain silent. So also will all the saints be.,\nAnd the judgment of God will be decisive and final in the day where they pick out the sinners from the righteous; the time when the sinners are thrown into the hearth of burning fire.,\nDoes God need a counselor or a companion to be advised like man? What may God forget that someone else may remember?,\nOr can you ask God about anything else other than these words. That it may be said in one voice: Your rules are just O Lord who rewards everyone according to his deeds.,\nIt is not us who would remind God of these things. It is rather He, the Father of all mercies, who remembers.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "عظة للقديس انبا شنودة رئيس المتوحدين",
+  "EnglishTitle": "Homily of Abba Shenouda the Archmandrite ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اقول هذا الكلام ولا أتركه، وهو هذا. لا تظنوا أنه بعد إعتزال التبن من الحنطة تتحصل الخطاة علي راحة، أقول لكم كشهادة الكتب،",
+      "English": "I tell you this and confirm it. Do not imagine that after cutting the wheat from the chaff, that the sinners will have relief. I say to you that according to the testimony of the Books."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنه إن كان الملائكة أو رؤساء الملائكة والقديسون أيضاً يصمتون جميعهم",
+      "English": "As for the angels and archangels they will remain silent. So also will all the saints be."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويكون لكلمة الله الحكم الكامل القاطع في اليوم الذي يفرز فيه الأشرار من بين الصديقين، وللوقت يلقون الخطاة في آتون النار المتوقدة.",
+      "English": "And the judgment of God will be decisive and final in the day where they pick out the sinners from the righteous; the time when the sinners are thrown into the hearth of burning fire."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هل تري الله كالبشر، يجعل له مشيراً أو جليساً ليسأله؟ ماهو الذي ينساه الله لكي يجيب به آخر؟",
+      "English": "Does God need a counselor or a companion to be advised like man? What may God forget that someone else may remember?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أو يسأله عن المعطي كل واحد كنحو أعماله،",
+      "English": "Or can you ask God about anything else other than these words. That it may be said in one voice: Your rules are just O Lord who rewards everyone according to his deeds."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ليس لنا ان نذكرك بهذا لأنك أنت الذي من عندك كل الرافات.",
+      "English": "It is not us who would remind God of these things. It is rather He, the Father of all mercies, who remembers."
+    }
+  ]
 }

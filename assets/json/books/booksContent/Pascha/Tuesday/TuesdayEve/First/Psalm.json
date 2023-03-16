@@ -1,7 +1,29 @@
 {
-  "arabic": " خَلَاصِی وَمَجْدِي هُمَا بِإلَهِي إِلهُ مَعُوَنَتِي وَرَجَائِي هُوَ بِاللهِ.,\nلِأَنَّهُ إِلَهِي وَمُخَلِّصِى نَاصِرِى فَلا أَتَزَعْزَعُ أَبَدَاً. الليلويا.,\n",
-  "arabiccoptic": " باأووجاى نيم باأوأوو أف خين بانووتى . إفنووتى إنتيه طافويثيـا أووه طاهيلبيس أس خين إفنووتى.\nكى غار إنثوف بيه بانووتى باسوتير : باريف شوبت إيروف إن نا كيم إن إيهوأو الليلويا .\n",
-  "coptic": " Paoujai nem pawou au=en panou; > V; `nte tabohqia ouo\\ ta\\elpic ac=en V;>\nKegar `nqof pe panou; pacwthr > paref]opt `erof `nnakim `n\\oou . al? .\n",
-  "english": " In God is my salvation and my glory; He is the God of my help, and my hope is in God.,\nFor [indeed] He is my God, and my savior; my protector, I shall never moved. Alleluia,\n",
-  "englishcoptic": " Pa-ogai nem pa-o-oo avkhen panoti; efnoti ente tavo-eethia owoh ta-helpis askhen efnoti:\nKeghar enthof pe panoti pasoteer paref shopt erop ennakim enho-oo. Allelioua\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "62:6-7 مزمور",
+  "EnglishTitle": "Psalm 62:6-7 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خَلَاصِی وَمَجْدِي هُمَا بِإلَهِي إِلهُ مَعُوَنَتِي وَرَجَائِي هُوَ بِاللهِ.",
+      "Coptic": "Paoujai nem pawou au=en panou; > V; `nte tabohqia ouo\\ ta\\elpic ac=en V;>",
+      "English": "In God is my salvation and my glory; He is the God of my help, and my hope is in God.",
+      "Arabiccoptic": "باأووجاى نيم باأوأوو أف خين بانووتى . إفنووتى إنتيه طافويثيـا أووه طاهيلبيس أس خين إفنووتى.",
+      "Englishcoptic": "Pa-ogai nem pa-o-oo avkhen panoti; efnoti ente tavo-eethia owoh ta-helpis askhen efnoti:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأَنَّهُ إِلَهِي وَمُخَلِّصِى نَاصِرِى فَلا أَتَزَعْزَعُ أَبَدَاً. الليلويا.",
+      "Coptic": "Kegar `nqof pe panou; pacwthr > paref]opt `erof `nnakim `n\\oou . al? .",
+      "English": "For [indeed] He is my God, and my savior; my protector, I shall never moved. Alleluia",
+      "Arabiccoptic": "كى غار إنثوف بيه بانووتى باسوتير : باريف شوبت إيروف إن نا كيم إن إيهوأو الليلويا .",
+      "Englishcoptic": "Keghar enthof pe panoti pasoteer paref shopt erop ennakim enho-oo. Allelioua"
+    }
+  ]
 }

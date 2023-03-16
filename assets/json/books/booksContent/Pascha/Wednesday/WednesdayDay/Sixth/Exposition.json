@@ -1,4 +1,71 @@
 {
-"arabic": " جاء المسيح إلهنا إلى بيت عنيا قبل الفصح بستة أيام، فصنعوا له وليمة فى بيت مريم ومرثا أختها، وكان هناك لعازر الذى أقامه من الأموات،,\nوكانت مرثا أخت الميت واقفه تخدمهم، وكان إحدى المتكئين مع السيد يسوع لعازر أخوها،,\nفآخذت مريم رطل طيب ناردين كثير الثمن ودهنت به رجلى يسوع ومسحتها بشعر رأسها.,\nفامتلاء يهوذا الأسخريوطى المخالف من الحسد الشيطانى وقال بمكر وقلب مملوء من كل مرارة وخبث ورياء، قال :,\nلماذا لم يبع هذا الطيب بثلثمائة دينار ويدفع للمساكين ؟,\nولم يقل هذا بفكر صالح ومحبة فى المساكين، ولكنه كان سارقاً وكان يسرق ما يلقى فى الصندوق،,\nفقال المخلص : لا تتعبوها لأنها قد حفظته ليوم دفنى، المساكين معكم كل حين وأما أنا فلست معكم كل حين,\nفلنقترب من الرب ولنبك أمامه ونبل قدميه بدموعنا ونساله أن ينعم علينا بالغفران كعظيم رحمته.,\n()",
-"english": " Christ our Lord came to Bethany six days before Passover. They regaled him at the residence of Mary and Martha her sister. Among those present was Lazarus whom he resurrected from the dead.,\nMartha his sister was serving them, and Lazarus her brother was sitting with him.,\nMary then brought one pound of an expensive nard and she anointed his feet and wiped them with her hair.,\nJudas Iscariot was filled with evil envy and asked cunningly; his heart full of bitterness, deceit and hypocrisy:,\n\"Would it not have been better if this oil would have been sold for 300 Denarii and given to the poor?\",\nIt was not his love and concern for the poor that prompted him to say this, but because he was a thief and as he had the money box he used to take what was put into it.,\nThe Savior responded saying: \"Do not trouble the woman for she has done that for my burial. The poor you always have with you, but you do not always have me.',\nLet us come close to the Lord, run our tears down his feet and ask him for his forgiveness according to his abundant mercy.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جاء المسيح إلهنا إلى بيت عنيا قبل الفصح بستة أيام، فصنعوا له وليمة فى بيت مريم ومرثا أختها، وكان هناك لعازر الذى أقامه من الأموات،",
+      "English": "Christ our Lord came to Bethany six days before Passover. They regaled him at the residence of Mary and Martha her sister. Among those present was Lazarus whom he resurrected from the dead."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكانت مرثا أخت الميت واقفه تخدمهم، وكان إحدى المتكئين مع السيد يسوع لعازر أخوها،",
+      "English": "Martha his sister was serving them, and Lazarus her brother was sitting with him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فآخذت مريم رطل طيب ناردين كثير الثمن ودهنت به رجلى يسوع ومسحتها بشعر رأسها.",
+      "English": "Mary then brought one pound of an expensive nard and she anointed his feet and wiped them with her hair."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فامتلاء يهوذا الأسخريوطى المخالف من الحسد الشيطانى وقال بمكر وقلب مملوء من كل مرارة وخبث ورياء، قال :",
+      "English": "Judas Iscariot was filled with evil envy and asked cunningly; his heart full of bitterness, deceit and hypocrisy:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لماذا لم يبع هذا الطيب بثلثمائة دينار ويدفع للمساكين ؟",
+      "English": "\"Would it not have been better if this oil would have been sold for 300 Denarii and given to the poor?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولم يقل هذا بفكر صالح ومحبة فى المساكين، ولكنه كان سارقاً وكان يسرق ما يلقى فى الصندوق،",
+      "English": "It was not his love and concern for the poor that prompted him to say this, but because he was a thief and as he had the money box he used to take what was put into it."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فقال المخلص : لا تتعبوها لأنها قد حفظته ليوم دفنى، المساكين معكم كل حين وأما أنا فلست معكم كل حين",
+      "English": "The Savior responded saying: \"Do not trouble the woman for she has done that for my burial. The poor you always have with you, but you do not always have me.'"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنقترب من الرب ولنبك أمامه ونبل قدميه بدموعنا ونساله أن ينعم علينا بالغفران كعظيم رحمته.",
+      "English": "Let us come close to the Lord, run our tears down his feet and ask him for his forgiveness according to his abundant mercy."
+    }
+  ]
 }

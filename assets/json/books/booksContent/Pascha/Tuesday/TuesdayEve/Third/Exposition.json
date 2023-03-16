@@ -1,4 +1,47 @@
 {
-"arabic": " فى ذلك اليوم وافاه قوم وأخبروه عن هيرودس الملك قائلين يا معلم أخرج من ههنا فإن هيرودس المارق يريد قتلك,\nفأجاب وقال للذى قال له أمض وقل لهذا الثعلب الشرير أنى أكمل شفاء كثيرين اليوم وغداً وفى اليوم الآتى,\nفقد كتب أنه لا يهلك نبي خارجاً عن أورشليم. يا أورشليم يا أورشليم يا قاتلة الأنبياء وراجمة المرسلين.,\nكم من مرة أردت أن أجمع بنيك فلم تريدى. هوذا أترك لكم بيتكم خراباً إلى كل الأجيال.,\nأقول لكم أيها الذين تسمعوننى أنكم لا تروننى منذ هذا اليوم حتى تقولوا كلكم من فم واحد مبارك الآتى بأسم الرب الإله.,\n()\n",
-"english": " On this day some people came and told him that king Herod wants to kill Him saying, \"Teacher get out of here and leave this area because this irreverent Herod wants to kill you.\",\nJesus said to them: \"Go and tell this wicked fox that I will heal many today and tomorrow and in the coming days.,\nIt is written that no prophet shall perish outside of Jerusalem. O Jerusalem, Jerusalem, the one who kills the prophets and stones those who are sent to you;,\nHow often I wanted to gather your children together and you were not willing. Behold your house will be desolate forever.,\nFor those who hear Me I say, from now on you shall not see Me until you all say in one voice, Blessed is He who comes in the name of the Lord God.\",\n()\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فى ذلك اليوم وافاه قوم وأخبروه عن هيرودس الملك قائلين يا معلم أخرج من ههنا فإن هيرودس المارق يريد قتلك",
+      "English": "On this day some people came and told him that king Herod wants to kill Him saying, \"Teacher get out of here and leave this area because this irreverent Herod wants to kill you.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فأجاب وقال للذى قال له أمض وقل لهذا الثعلب الشرير أنى أكمل شفاء كثيرين اليوم وغداً وفى اليوم الآتى",
+      "English": "Jesus said to them: \"Go and tell this wicked fox that I will heal many today and tomorrow and in the coming days."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فقد كتب أنه لا يهلك نبي خارجاً عن أورشليم. يا أورشليم يا أورشليم يا قاتلة الأنبياء وراجمة المرسلين.",
+      "English": "It is written that no prophet shall perish outside of Jerusalem. O Jerusalem, Jerusalem, the one who kills the prophets and stones those who are sent to you;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كم من مرة أردت أن أجمع بنيك فلم تريدى. هوذا أترك لكم بيتكم خراباً إلى كل الأجيال.",
+      "English": "How often I wanted to gather your children together and you were not willing. Behold your house will be desolate forever."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أقول لكم أيها الذين تسمعوننى أنكم لا تروننى منذ هذا اليوم حتى تقولوا كلكم من فم واحد مبارك الآتى بأسم الرب الإله.",
+      "English": "For those who hear Me I say, from now on you shall not see Me until you all say in one voice, Blessed is He who comes in the name of the Lord God.\""
+    }
+  ]
 }

@@ -1,4 +1,55 @@
 {
-"arabic": " أن مخلصنا جعل مسيره إلى أورشليم مع خواصه فقال له واحد من الجمع يارب قليلون هم الذين يخلصون.,\nفأجابه مخلصنا قائلاً أحرصوا على الدخول من الباب الضيق لئلا تاتوا وتقرعوا الباب وتقولون,\nيارب أفتح لنا.فيجيب هو من داخل قائلاً لكم أنى ما أعرفكم من أين أنتم,\nأذهبوا عنى خارجاً يا جميع فاعلى الأثم حيث يكون البكاء وصرير الأسنان معاً،,\nكثيرون من الأمم يأتون من المشرق والمغرب فيتكئون حضن إبراهيم وأسحق ويعقوب فى ملكوت السموات,\nوأما أنتم فسيطردونكم خارجاً وتتسلط عليكم أثامكم. فأرجعوا عن طرقكم الرديئة لكى تمحى عنكم هفواتكم.,\n()\n",
-"english": " On His way to Jerusalem with His disciples, some one asked our Savior, \"are there few who are saved?\",\nOur Savior replied saying, \"Strive to enter through the narrow gate, lest you should come and knock on the door and say,,\n'O Lord open (the door) unto us'; and He shall answer from inside and say to you, 'I do not know you, where you are from.,\nDepart away all you wrongful, peasants to the place of weeping and the gnashing of teeth.,\nMany of the Gentiles will come from the east and the west and will nestle into the bosom of Abraham, Isaac, and Jacob in the kingdom of heaven,,\nBut you will be neglected outside, dominated by your profanity. Repent and expiate, that your sins may be taken away.,\n()\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أن مخلصنا جعل مسيره إلى أورشليم مع خواصه فقال له واحد من الجمع يارب قليلون هم الذين يخلصون.",
+      "English": "On His way to Jerusalem with His disciples, some one asked our Savior, \"are there few who are saved?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فأجابه مخلصنا قائلاً أحرصوا على الدخول من الباب الضيق لئلا تاتوا وتقرعوا الباب وتقولون",
+      "English": "Our Savior replied saying, \"Strive to enter through the narrow gate, lest you should come and knock on the door and say"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب أفتح لنا.فيجيب هو من داخل قائلاً لكم أنى ما أعرفكم من أين أنتم",
+      "English": "'O Lord open (the door) unto us'; and He shall answer from inside and say to you, 'I do not know you, where you are from."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أذهبوا عنى خارجاً يا جميع فاعلى الأثم حيث يكون البكاء وصرير الأسنان معاً،",
+      "English": "Depart away all you wrongful, peasants to the place of weeping and the gnashing of teeth."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كثيرون من الأمم يأتون من المشرق والمغرب فيتكئون حضن إبراهيم وأسحق ويعقوب فى ملكوت السموات",
+      "English": "Many of the Gentiles will come from the east and the west and will nestle into the bosom of Abraham, Isaac, and Jacob in the kingdom of heaven"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأما أنتم فسيطردونكم خارجاً وتتسلط عليكم أثامكم. فأرجعوا عن طرقكم الرديئة لكى تمحى عنكم هفواتكم.",
+      "English": "But you will be neglected outside, dominated by your profanity. Repent and expiate, that your sins may be taken away."
+    }
+  ]
 }

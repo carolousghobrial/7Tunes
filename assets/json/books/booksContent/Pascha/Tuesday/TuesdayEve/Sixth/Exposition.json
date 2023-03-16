@@ -1,4 +1,71 @@
 {
-"arabic": " كمثل طبيب مداو كان المسيح إلهنا يداوى مجاناً قائلاً,\nإن زيادة الأكل تثقل القلوب وتقطع القوة من الجسد والأهتمام أيضاً الدنياوى يجلب على الإنسان شروراً كثيرة,\nويحيد بالإنسان عن مخافة الله فيختنقه الشرير ويبعده عن طريق الخلاص ومعرفة خلاص نفسه,\nويوقعه فى سلطان الموت مثل الفخ الذى يخطف الفريسة.,\nأسهروا أنتم أيضاً وأصنعوا ثمرة تليق بالبر والتوبة لكى تكونوا واقفين أمام الديان يسوع المخلص.,\nوكان يعلم الجموع فى الهيكل وفى الليل كان يستريح وكانت راحته فى جبل الزيتون,\nوفى النهار كان يأتى إلى أورشليم. وكان جميع الشعب يبكرون إليه ليسمعوا تعاليمه المفعمة صلاحاً،,\nوالذين سمعوا كانوا يسبقون إلى ينبوعه ويشربون منه الماء الحلو كما قال الكتاب الشاهد بمجيئه أنه الطعام لغير الفاسد المغذى لكل الذين يؤمنون به.,\n()\n",
-"english": " As an attending physician, Jesus was treating us free.,\nHe reminds us that excessive eating taxes the heart and saps the power of the body. In a parallel way, engrossment in world concerns could bring us vicious passions,,\nCause us to stray away from the fear of God, the wicked (satan) can overwhelm us, drive us away from the path of salvation, diminish the awareness of our soul's salvation,\nAnd subject us to the dominion of death just as the prey falls in the trap.,\nBe alert and present fruits worthy of righteousness and atonement so that you may stand in front of our Judge and Savior Jesus.,\nHe was teaching the public in the temple. By night, He rested on the Mount of Olives.,\nBy day, He went down to Jerusalem where people gathered early to listen to His teachings that are replete with righteousness.,\nThose who heard him, hurried to drink from the spring of His sweet water. As the Book that testifies to His coming says: \"He is the healthy nourishing food for those who believe in Him.\",\n()\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كمثل طبيب مداو كان المسيح إلهنا يداوى مجاناً قائلاً",
+      "English": "As an attending physician, Jesus was treating us free."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إن زيادة الأكل تثقل القلوب وتقطع القوة من الجسد والأهتمام أيضاً الدنياوى يجلب على الإنسان شروراً كثيرة",
+      "English": "He reminds us that excessive eating taxes the heart and saps the power of the body. In a parallel way, engrossment in world concerns could bring us vicious passions"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويحيد بالإنسان عن مخافة الله فيختنقه الشرير ويبعده عن طريق الخلاص ومعرفة خلاص نفسه",
+      "English": "Cause us to stray away from the fear of God, the wicked (satan) can overwhelm us, drive us away from the path of salvation, diminish the awareness of our soul's salvation"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويوقعه فى سلطان الموت مثل الفخ الذى يخطف الفريسة.",
+      "English": "And subject us to the dominion of death just as the prey falls in the trap."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أسهروا أنتم أيضاً وأصنعوا ثمرة تليق بالبر والتوبة لكى تكونوا واقفين أمام الديان يسوع المخلص.",
+      "English": "Be alert and present fruits worthy of righteousness and atonement so that you may stand in front of our Judge and Savior Jesus."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكان يعلم الجموع فى الهيكل وفى الليل كان يستريح وكانت راحته فى جبل الزيتون",
+      "English": "He was teaching the public in the temple. By night, He rested on the Mount of Olives."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفى النهار كان يأتى إلى أورشليم. وكان جميع الشعب يبكرون إليه ليسمعوا تعاليمه المفعمة صلاحاً،",
+      "English": "By day, He went down to Jerusalem where people gathered early to listen to His teachings that are replete with righteousness."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والذين سمعوا كانوا يسبقون إلى ينبوعه ويشربون منه الماء الحلو كما قال الكتاب الشاهد بمجيئه أنه الطعام لغير الفاسد المغذى لكل الذين يؤمنون به.",
+      "English": "Those who heard him, hurried to drink from the spring of His sweet water. As the Book that testifies to His coming says: \"He is the healthy nourishing food for those who believe in Him.\""
+    }
+  ]
 }

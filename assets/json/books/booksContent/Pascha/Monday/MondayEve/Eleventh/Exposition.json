@@ -1,4 +1,31 @@
 {
-"arabic": " اسمعوا الرؤوف الصانع الخيرات ذا الصلاح والتحنن، يمجد الصلاة ويكرم الصوم، لأنهما أساس سائر الفضائل.,\nفإن تلاميذه عندما سألوه قائلين: لماذا لم نقدر نحن أن نخرج الشيطان؟ قال لهم: لأجل عدم إيمانكم امتنع الشيطان أن يخرج. ثم قال الرب: أقول لكم: لو كان لكم إيمان لكنتم تقولون لهذا الجبل انتقل إلى هنا فلوقته سريعاً كان يسمع لكم، ولا يعسر عليكم شئ. فإن كل شئ مستطاع للمؤمن.,\nفلنقتن لنا رجاءً عظيماً وإيماناً حقيقياً بغير شك، ولننمو في المحبة التي تفوق كل شئ، فإن الذي يحب يصدق كل شئ، ولنواظب على الصلاة، ونحب الصوم لكي نفوز بمواعيده.,\n()",
-"english": " Listen to the Merciful and Beneficent who is all goodness and compassion. He glorifies prayer and honors fasting because they are the roots for all virtues.,\nWhen His disciples asked Him: \"why could we not cast the demon out.\" He said to them: \"Because of your little faith the demon would not come out. For truly I say to you, if you have faith, you will say to this mountain 'Move from here to there' and it will move; and nothing will be impossible for you;\" for everything is possible to the believer.,\nSo let us cherish a great hope and a true faith free of doubt, and let us be zealous in charity that surpasses everything; for He who loves accepts everything. Let us love fasting and pray consistently so that we may gain His promises.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اسمعوا الرؤوف الصانع الخيرات ذا الصلاح والتحنن، يمجد الصلاة ويكرم الصوم، لأنهما أساس سائر الفضائل.",
+      "English": "Listen to the Merciful and Beneficent who is all goodness and compassion. He glorifies prayer and honors fasting because they are the roots for all virtues."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فإن تلاميذه عندما سألوه قائلين: لماذا لم نقدر نحن أن نخرج الشيطان؟ قال لهم: لأجل عدم إيمانكم امتنع الشيطان أن يخرج. ثم قال الرب: أقول لكم: لو كان لكم إيمان لكنتم تقولون لهذا الجبل انتقل إلى هنا فلوقته سريعاً كان يسمع لكم، ولا يعسر عليكم شئ. فإن كل شئ مستطاع للمؤمن.",
+      "English": "When His disciples asked Him: \"why could we not cast the demon out.\" He said to them: \"Because of your little faith the demon would not come out. For truly I say to you, if you have faith, you will say to this mountain 'Move from here to there' and it will move; and nothing will be impossible for you;\" for everything is possible to the believer."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنقتن لنا رجاءً عظيماً وإيماناً حقيقياً بغير شك، ولننمو في المحبة التي تفوق كل شئ، فإن الذي يحب يصدق كل شئ، ولنواظب على الصلاة، ونحب الصوم لكي نفوز بمواعيده.",
+      "English": "So let us cherish a great hope and a true faith free of doubt, and let us be zealous in charity that surpasses everything; for He who loves accepts everything. Let us love fasting and pray consistently so that we may gain His promises."
+    }
+  ]
 }

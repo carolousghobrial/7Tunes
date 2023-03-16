@@ -1,22 +1,90 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " اُطْلُبُوا الرَّبَّ فَتَحْيَوْا، لِئَلاَّ يَتَّقِدَ بَيْتُ يُوسُفَ كَنَارٍ فَيَحْتَرِقَ ولا يَكُونُ مَنْ يُطفِئُ مِنْ بَيْتِ اِسْرَائِيلَ.\n",
-    "arabiccoptic": " كوتي إنسا إبشويس اووه إريتيني أونخ : هوبوس إنتيف إشتيم شوبي إميفريتي إنوؤو إكروم إنجى بي إن يوسيف اووه إف إي أومف : اووه إنجي في إثنا تشينوف إمبي إسرائيل\n",
-    "coptic": " Kw; `nca Po/c/ ouo\\ eretenewn=> \\opwc `ntef `]tem]wpi `m`vrh; `nou`xrwm `nje `phi `nIwchv ouo\\ ef`eouomf> ouo\\ `nnef]wpi `nje vheqnasenof `m`phi mp`Icrahl >\n",
-    "english": " Seek the Lord and live, lest He break out like fire in the house of Joseph and devour it, with no on eta extinguish the fire for the house of Israel.\n",
-    "englishcoptic": " Kotee ensa epshois owoh eretene-onkh; hopos entef shtem-shopi emefriti eno-oo ekrom enje pee enYousef owoh efe-o-omf; owoh enje fee-ethna-chenof empee empisrael.\n"
-  },
-  {
-    "arabic": " الرَّبُّ يَصنَعُ حُكْمَاً مِنَ العُلَى. وَيَجْعَلُ العَدْلَ عَلَى الأَرْضِ،,\nهُوَ اَلَّذِي خَلَقَ كُلَّ الأشيَاءِ وهَيَّأهَا وَيُغَيِّرهَا. الَّذِي يُحَوِّلُ الظِلَّ بِالصَباحِ ويَغْشِيَ النَّهَارَ بَاللَّيْلِ.,\nالَّذِي يَدْعُو مِيَاهَ الْبَحْرِ فيُفِيضُهَا عَلَى وَجْهِ الأَرْضِ كُلِّهَا, الرَّبُّ الإلهُ الضَابِطُ الكُلَّ اسْمُهُ.,\nالرَافِعُ المُتَوَاضِعَ عَلَى العَزِيزِ وَالضَعِيفَ عَلَى المُتَعَظِّمِ. وَيَأْتِى بِالدَمَارِ عَلَى المَوْضعِ الحَصِينِ،,\nلقد أبغَضُوا المُوَبِّخَ عَلَى الأبوَابِ وَمَقَتُوا الكَلَامَ الطَاهِرَ. مِنْ أَجْلِ ذلِكَ هَذَا مَا يَقُولُ الرَّبُّ.,\nبِمَا أَنَّكُمْ ضَرَبْتُمْ المَسَاكِينَ عَلَى رُؤوسِهِمْ. وَأخَذْتُمْ مِنْهُم هَدَايَا فَاخِرَةً. شَيَّدتُمْ بُيُوتَاً حَسَنَةً وَلاَ تَسْكُنُونَ فِيهَا، وَغَرَسْتُمْ كُرُومًا شَهِّيةً وَلاَ تَشْرَبُونَ مِنْ خَمْرَهَا. ،,\nفأَنِّى عَالِمٌ بِنِفَاقِكُمْ الكَثِيرِ وَخَطَايَاكُمْ العَظِيمَةِ. تَدُوسُونَ الْبَارَّ وَتَأخُذُونَ الرَّشْوَةَ وَتَصُدُّونَ الْبَائِسِينَ مِنَ الأبوابِ.,\nلِذلِكَ يَسْكُتُ الْعَاقِلُ فِي ذلِكَ الزَّمَانِ لأَنَّهُ زَمَانٌ رَدِيءٌ.،,\nفَاُطْلُبُوا الْخَيْرَ لاَ الشَّرَّ لتَحْيَوْا.,\n",
-    "english": " The Lord is He who brings about justice on high and righteousness on the earth!,\n\"He makes all things. He transforms the darkness into the morning and makes the day dark as night;,\nHe calls forth the waters of the sea and pours them out of the face of the earth. The Lord God Almighty is His name.,\nHe rains ruin upon the strong and brings to misery upon the fortress.,\n\"They hated him who reproved in the gates and abhorred the upright word.,\nThey tread upon the poor and take bribes from him. They built houses of hewn stone, yet they shall not dwell in them. They planted pleasant vineyards, but they shall not drink wine from them.,\nFor I know your many transgressions and the enormity of your sins, devouring the righteous and taking bribes, turning away the poor at the gate.,\nBecause of this, the prudent keep silent in this time, for it is an evil time.,\nSeek good and not evil so that you may live.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "  5:6-14 من سفر عاموس النبى",
+  "EnglishTitle": "Amos  5:6-14 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اُطْلُبُوا الرَّبَّ فَتَحْيَوْا، لِئَلاَّ يَتَّقِدَ بَيْتُ يُوسُفَ كَنَارٍ فَيَحْتَرِقَ ولا يَكُونُ مَنْ يُطفِئُ مِنْ بَيْتِ اِسْرَائِيلَ.",
+      "Coptic": "Kw; `nca Po/c/ ouo\\ eretenewn=> \\opwc `ntef `]tem]wpi `m`vrh; `nou`xrwm `nje `phi `nIwchv ouo\\ ef`eouomf> ouo\\ `nnef]wpi `nje vheqnasenof `m`phi mp`Icrahl >",
+      "English": "Seek the Lord and live, lest He break out like fire in the house of Joseph and devour it, with no on eta extinguish the fire for the house of Israel.",
+      "Arabiccoptic": "كوتي إنسا إبشويس اووه إريتيني أونخ : هوبوس إنتيف إشتيم شوبي إميفريتي إنوؤو إكروم إنجى بي إن يوسيف اووه إف إي أومف : اووه إنجي في إثنا تشينوف إمبي إسرائيل",
+      "Englishcoptic": "Kotee ensa epshois owoh eretene-onkh; hopos entef shtem-shopi emefriti eno-oo ekrom enje pee enYousef owoh efe-o-omf; owoh enje fee-ethna-chenof empee empisrael."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرَّبُّ يَصنَعُ حُكْمَاً مِنَ العُلَى. وَيَجْعَلُ العَدْلَ عَلَى الأَرْضِ،",
+      "English": "The Lord is He who brings about justice on high and righteousness on the earth!"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هُوَ اَلَّذِي خَلَقَ كُلَّ الأشيَاءِ وهَيَّأهَا وَيُغَيِّرهَا. الَّذِي يُحَوِّلُ الظِلَّ بِالصَباحِ ويَغْشِيَ النَّهَارَ بَاللَّيْلِ.",
+      "English": "\"He makes all things. He transforms the darkness into the morning and makes the day dark as night;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الَّذِي يَدْعُو مِيَاهَ الْبَحْرِ فيُفِيضُهَا عَلَى وَجْهِ الأَرْضِ كُلِّهَا, الرَّبُّ الإلهُ الضَابِطُ الكُلَّ اسْمُهُ.",
+      "English": "He calls forth the waters of the sea and pours them out of the face of the earth. The Lord God Almighty is His name."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرَافِعُ المُتَوَاضِعَ عَلَى العَزِيزِ وَالضَعِيفَ عَلَى المُتَعَظِّمِ. وَيَأْتِى بِالدَمَارِ عَلَى المَوْضعِ الحَصِينِ،",
+      "English": "He rains ruin upon the strong and brings to misery upon the fortress."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لقد أبغَضُوا المُوَبِّخَ عَلَى الأبوَابِ وَمَقَتُوا الكَلَامَ الطَاهِرَ. مِنْ أَجْلِ ذلِكَ هَذَا مَا يَقُولُ الرَّبُّ.",
+      "English": "\"They hated him who reproved in the gates and abhorred the upright word."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بِمَا أَنَّكُمْ ضَرَبْتُمْ المَسَاكِينَ عَلَى رُؤوسِهِمْ. وَأخَذْتُمْ مِنْهُم هَدَايَا فَاخِرَةً. شَيَّدتُمْ بُيُوتَاً حَسَنَةً وَلاَ تَسْكُنُونَ فِيهَا، وَغَرَسْتُمْ كُرُومًا شَهِّيةً وَلاَ تَشْرَبُونَ مِنْ خَمْرَهَا. ،",
+      "English": "They tread upon the poor and take bribes from him. They built houses of hewn stone, yet they shall not dwell in them. They planted pleasant vineyards, but they shall not drink wine from them."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فأَنِّى عَالِمٌ بِنِفَاقِكُمْ الكَثِيرِ وَخَطَايَاكُمْ العَظِيمَةِ. تَدُوسُونَ الْبَارَّ وَتَأخُذُونَ الرَّشْوَةَ وَتَصُدُّونَ الْبَائِسِينَ مِنَ الأبوابِ.",
+      "English": "For I know your many transgressions and the enormity of your sins, devouring the righteous and taking bribes, turning away the poor at the gate."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِذلِكَ يَسْكُتُ الْعَاقِلُ فِي ذلِكَ الزَّمَانِ لأَنَّهُ زَمَانٌ رَدِيءٌ.،",
+      "English": "Because of this, the prudent keep silent in this time, for it is an evil time."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَاُطْلُبُوا الْخَيْرَ لاَ الشَّرَّ لتَحْيَوْا.",
+      "English": "Seek good and not evil so that you may live."
+    }
+  ]
 }

@@ -1,22 +1,45 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " ٣٢ وَكَانُوا فِي ٱلطَرِيقِ صَاعِدِينَ إِلَى أُورُشَلِيمَ وَكَانَ يَسُوعُ يَسِيرُ قَدَّامَهُمْ ، وَكَانُوا يَتَحَيَّرُونَ.\nوَالذين كانوا يَتْبَعُونَه كَانُوا خَائفينَ. فَتَقَدَّمَ إِلَيْهِ أَيْضًا ٱلِٱثْنَيْ عَشَرَ وَٱبْتَدَأَ يَقُولُ لَهُمْ عَمَّا يَحْدُثُ لَهُ:\n",
-"arabiccoptic": " ناف هي إفمويت ذي بي إفنيو إإهري إي پیروساليم أووه ناف موشی خاجوؤ إنجی إيسوس أووه ناف إيرهوتي\nني ذي إيناف إرآكولوثين ناف إيرهوتي. أووه بالين أفنئینی إمبی میت إسناف إى طوطف أف إرهیتس إنجى ثنا شوبی إمموف نوؤ .\n",
-"coptic": " Nau\\i vmwit de peeunhou Ne\\rhi eIl/h/m/ ouo\\ nafmo]i =ajwou nje Ih/c/ ouo\\ nauer\\o;>\nNh de enauer akolouqin nauer\\o; ouo\\ palin afin mpimht cnau etotf afer\\htc nje nhe qna]wpi mmof nwou>\n",
-"english": " Now they were on the road, going up to Jerusalem, and Jesus was going before them; and they were amazed.\nAnd as they followed they were afraid. Then He took the twelve aside again and began to tell them the things that would happen to Him:\n",
-"englishcoptic": " Nav-hi evmoit ze pe-evnio Nehri eYersoalim owoh nafmoshi khago-oo enje ISos owoh nav-erhoti :\nNi ze enav-er akolo-thin nav-erhoti , owoh palin afin epi-meet esnav etotf af-erhits enje ni ethnashopi emmof no-oo\n",
-},
-{
-"arabic": " ٣٣» هَا نَحْنُ صَاعِدُونَ إِلَى أُورُشَلِيمَ، وَٱبْنُ ٱلْإِنْسَانِ سَيُسَلَّمُ إِلَى رُؤَسَاءِ ٱلْكَهَنَةِ وَٱلْكَتَبَةِ، فَيَحْكُمُونَ عَلَيْهِ بِٱلْمَوْتِ، وَيُسَلِّمُونَهُ إِلَى ٱلْأُمَمِ،,\n٣٤ فَيَهْزَأُونَ بِهِ وَيَتْفُلُونَ عَلَيْهِ وَيَجْلِدُونَهُ وَيَقْتُلُونَهُ، وَفِي ٱلْيَوْمِ ٱلثَّالِثِ يَقُومُ«.,\n",
-"english": " 33 \"Behold, we are going up to Jerusalem, and the Son of Man will be betrayed to the chief priests and to the scribes; and they will condemn Him to death and deliver Him to the Gentiles:,\n34 And they will mock Him, and scourge Him, and spit on Him, and kill Him. And the third day He will rise again.\",\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "10:32-34 الإنجيل من مرقس",
+  "EnglishTitle": "The Gospel according to St.Mark 10:32-34 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٣٢ وَكَانُوا فِي ٱلطَرِيقِ صَاعِدِينَ إِلَى أُورُشَلِيمَ وَكَانَ يَسُوعُ يَسِيرُ قَدَّامَهُمْ ، وَكَانُوا يَتَحَيَّرُونَ.",
+      "Coptic": "Nau\\i vmwit de peeunhou Ne\\rhi eIl/h/m/ ouo\\ nafmo]i =ajwou nje Ih/c/ ouo\\ nauer\\o;>",
+      "English": "Now they were on the road, going up to Jerusalem, and Jesus was going before them; and they were amazed.",
+      "Arabiccoptic": "ناف هي إفمويت ذي بي إفنيو إإهري إي پیروساليم أووه ناف موشی خاجوؤ إنجی إيسوس أووه ناف إيرهوتي",
+      "Englishcoptic": "Nav-hi evmoit ze pe-evnio Nehri eYersoalim owoh nafmoshi khago-oo enje ISos owoh nav-erhoti :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَالذين كانوا يَتْبَعُونَه كَانُوا خَائفينَ. فَتَقَدَّمَ إِلَيْهِ أَيْضًا ٱلِٱثْنَيْ عَشَرَ وَٱبْتَدَأَ يَقُولُ لَهُمْ عَمَّا يَحْدُثُ لَهُ:",
+      "Coptic": "Nh de enauer akolouqin nauer\\o; ouo\\ palin afin mpimht cnau etotf afer\\htc nje nhe qna]wpi mmof nwou>",
+      "English": "And as they followed they were afraid. Then He took the twelve aside again and began to tell them the things that would happen to Him:",
+      "Arabiccoptic": "ني ذي إيناف إرآكولوثين ناف إيرهوتي. أووه بالين أفنئینی إمبی میت إسناف إى طوطف أف إرهیتس إنجى ثنا شوبی إمموف نوؤ .",
+      "Englishcoptic": "Ni ze enav-er akolo-thin nav-erhoti , owoh palin afin epi-meet esnav etotf af-erhits enje ni ethnashopi emmof no-oo"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٣٣» هَا نَحْنُ صَاعِدُونَ إِلَى أُورُشَلِيمَ، وَٱبْنُ ٱلْإِنْسَانِ سَيُسَلَّمُ إِلَى رُؤَسَاءِ ٱلْكَهَنَةِ وَٱلْكَتَبَةِ، فَيَحْكُمُونَ عَلَيْهِ بِٱلْمَوْتِ، وَيُسَلِّمُونَهُ إِلَى ٱلْأُمَمِ،",
+      "English": "33 \"Behold, we are going up to Jerusalem, and the Son of Man will be betrayed to the chief priests and to the scribes; and they will condemn Him to death and deliver Him to the Gentiles:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٣٤ فَيَهْزَأُونَ بِهِ وَيَتْفُلُونَ عَلَيْهِ وَيَجْلِدُونَهُ وَيَقْتُلُونَهُ، وَفِي ٱلْيَوْمِ ٱلثَّالِثِ يَقُومُ«.",
+      "English": "34 And they will mock Him, and scourge Him, and spit on Him, and kill Him. And the third day He will rise again.\""
+    }
+  ]
 }

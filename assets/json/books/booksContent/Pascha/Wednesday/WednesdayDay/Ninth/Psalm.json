@@ -1,7 +1,29 @@
 {
-  "arabic": " أَعْدَائِي تَقَاوَلُوا عَلَىَّ شَرَّاً وَتَشَاوَرُوا عَلَىَّ بِالسُوءِ.,\nكَانَ يَدْخُلُ لِيَنْظُرَ فَكَانَ يَتَكَلَّمُ بَاطِلاً وَقَلْبُهُ جَمَعَ لَهُ إِثْمَاً. الليلويا.,\n",
-  "arabiccoptic": " نا جاجى أفجو إنها بيتهوأو نى. أف سوتشنى خاروى نى أن بيتهوأو.\nناف نيو إيخون بى إيناف ناف ساجى إن أوميت إ أفليو. أووه بيف هيت أف ثوؤتى ناف إن أو أنوميا. الليلويا\n",
-  "coptic": " Najaji aujw `n\\anpet\\wou nhi> aucosni =aroi `n\\anpet\\wou\nNafnhou e=oun pe `enau nafcaji `noumet `e`vlhou > ouo\\ pef\\ht afqwou; naf `nou`anomia > al?\n",
-  "english": " My enemies speak evil things against me. Against me they devise evils for me.,\nAnd if he comes to see us, he speaks in vain; his heart gathered lawlessness to itself. Alleluia.,\n",
-  "englishcoptic": " Na gagi afgo enhan petho-o ni. av sochni kharoy ni an petho-o.\nNaf neo ekhon pe enavnaf saji en o-met e eflio. owoh pef heet af tho-oty naf en-o anomia. Alleluia\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": " 40:6-8 مزمور",
+  "EnglishTitle": "Psalm 40:6-8 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَعْدَائِي تَقَاوَلُوا عَلَىَّ شَرَّاً وَتَشَاوَرُوا عَلَىَّ بِالسُوءِ.",
+      "Coptic": "Najaji aujw `n\\anpet\\wou nhi> aucosni =aroi `n\\anpet\\wou",
+      "English": "My enemies speak evil things against me. Against me they devise evils for me.",
+      "Arabiccoptic": "نا جاجى أفجو إنها بيتهوأو نى. أف سوتشنى خاروى نى أن بيتهوأو.",
+      "Englishcoptic": "Na gagi afgo enhan petho-o ni. av sochni kharoy ni an petho-o."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كَانَ يَدْخُلُ لِيَنْظُرَ فَكَانَ يَتَكَلَّمُ بَاطِلاً وَقَلْبُهُ جَمَعَ لَهُ إِثْمَاً. الليلويا.",
+      "Coptic": "Nafnhou e=oun pe `enau nafcaji `noumet `e`vlhou > ouo\\ pef\\ht afqwou; naf `nou`anomia > al?",
+      "English": "And if he comes to see us, he speaks in vain; his heart gathered lawlessness to itself. Alleluia.",
+      "Arabiccoptic": "ناف نيو إيخون بى إيناف ناف ساجى إن أوميت إ أفليو. أووه بيف هيت أف ثوؤتى ناف إن أو أنوميا. الليلويا",
+      "Englishcoptic": "Naf neo ekhon pe enavnaf saji en o-met e eflio. owoh pef heet af tho-oty naf en-o anomia. Alleluia"
+    }
+  ]
 }

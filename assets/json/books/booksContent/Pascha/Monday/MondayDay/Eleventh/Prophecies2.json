@@ -1,22 +1,99 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " أَصْلُ الْحِكْمَةِ هِي مَخَافَةُ الرَّبِّ . وأَغصَانُهاَ كَثرَةُ الأَيَّامِ\nغَضَبُ الَأثيمِ لَا يُمكِنُ أَن يَتَبَرَرَ. لِأن وَقرَ غَضَبِهِ يُسِقطُهُ.\n",
-"arabiccoptic": " إثنوني غار إنتي سوفيا بي بيرهوتي خاإتهي أمبشويس : أووه هانميش نيهوؤ ني نيس إكلادوس :\nإمون إشجوم نوريف جونت إثمايو : بيريكي غار إنتى بيف جونت بى بيفهي\n",
-"coptic": " Qnouni gar `n;covia pe per\\o; =a`t\\h ``m` P_> ouo\\ \\anmh] `n`e\\oou ne nec`kladoc>\n`  Mmon `]jom nourefjwnt eqmaio> piriki gar ``nte pefjwnt pe pef\\ei\n",
-"english": " The root of wisdom is to fear the Lord, and her branches are length of days.\nUnjust anger cannot be justified, for anger's decisive influence causes his fall.\n",
-"englishcoptic": " Ethno-oni ghar enti-sofia pe perhoti kha-et-hi em-Epchois : owoh han-meesh neho-oo ne nes-eklados :\nEmmon eshgom noo-ref-gont ethmaio: piri-ki ghar ente pef-gont pe pef-hei.\n",
-},
-{
-"arabic": " اَلطَّوِيلُ الرُوحِ يَصْبِرُ إِلَى حِينٍ، ثُمَّ يُعَاوِدُهُ السُّرُورُ.,\nاَلْعَاقِلُ يَكْتُمُ كَلاَمَهُ إِلَى حِينٍ، وَشِفَاهُ الكَثِيرِينَ تَنطِقُ بِحكمَتِةِ.,\nفِي كُنُوزِ الْحِكْمَةِ أَمْثَالُ الْمَعْرِفَةِ أَمَّا عِنْدَ الْخَاطِئِ فَعِبَادَةُ اللهِ رِجْسٌ.,\nإِنْ رَغِبْتَ الْحِكْمَةِ فَاحْفَظِ الْوَصَايَا، فَيَهَبَهَا الرَّبُّ.,\nفَإِن الْحِكْمَةَ و َالَأدَبَ هُمَا مَخَافَةُ الرَّبِّ، وَالَّذِي يُرْضِيهِ هُوَ: الإِيْمَانُ وَالْوَدَاعَةُ،,\nلَا تَكُن مُخالِفاً لمَخَافَةَ الرَّبِّ، وَلاَ تَتَقَدَّمْ إِلَيْهِ بِقَلبَينَ.,\nلاَ تَكُنْ مُرَائِيًا قُدَامَ النَاسِ وَكُن مُحتَرِسَا لِشَفَتَيكَ.,\nلاَ تَتَرَفَّعْ لِئَلاَّ تَسْقُطَ؛ فَتَجْلُبَ عَلَى نَفْسِكَ الْهَوَانَ،,\nوَيَكْشِفَ الرَّبُّ خَفَايَاكَ. وَيَصْرَعَكَ فِي وَسَط الجَمَاعَةِ، لأَنَّكَ لَمْ تَتَقَدَم إلى مَخَافَة الرَّبُّ. وَقَلَبُكَ مُمتَلئٌ غِشٌا.,\n",
-"english": " A patient man will hold fast until the proper time, then afterwards gladness shall burst forth for him.,\nHe shall conceal his words until the proper time, and the lips of many will tell of his understanding.,\nIn the treasures of wisdom are the parables of knowledge, But godliness is an abomination to a sinner.,\nIf you desire wisdom, keep the commandments, and the Lord will supply it to you.,\nFor the fear of the Lord is wisdom and instruction, and His good pleasure is faith and gentleness.,\nDo not disobey the fear of the Lord, and do not come to Him with a divided heart.,\nDo not be a hypocrite in the sight of men, and be careful with your lips.,\nDo not exalt yourself, lest you fall and bring dishonor to your soul.,\nThe Lord shall reveal your secrets, and in the midst of the assembly He will strike you down, because you did not come in the fear of the Lord And your heart was full of deceit.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَصْلُ الْحِكْمَةِ هِي مَخَافَةُ الرَّبِّ . وأَغصَانُهاَ كَثرَةُ الأَيَّامِ",
+      "Coptic": "Qnouni gar `n;covia pe per\\o; =a`t\\h ``m` P_> ouo\\ \\anmh] `n`e\\oou ne nec`kladoc>",
+      "English": "The root of wisdom is to fear the Lord, and her branches are length of days.",
+      "Arabiccoptic": "إثنوني غار إنتي سوفيا بي بيرهوتي خاإتهي أمبشويس : أووه هانميش نيهوؤ ني نيس إكلادوس :",
+      "Englishcoptic": "Ethno-oni ghar enti-sofia pe perhoti kha-et-hi em-Epchois : owoh han-meesh neho-oo ne nes-eklados :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "غَضَبُ الَأثيمِ لَا يُمكِنُ أَن يَتَبَرَرَ. لِأن وَقرَ غَضَبِهِ يُسِقطُهُ.",
+      "Coptic": "`  Mmon `]jom nourefjwnt eqmaio> piriki gar ``nte pefjwnt pe pef\\ei",
+      "English": "Unjust anger cannot be justified, for anger's decisive influence causes his fall.",
+      "Arabiccoptic": "إمون إشجوم نوريف جونت إثمايو : بيريكي غار إنتى بيف جونت بى بيفهي",
+      "Englishcoptic": "Emmon eshgom noo-ref-gont ethmaio: piri-ki ghar ente pef-gont pe pef-hei."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اَلطَّوِيلُ الرُوحِ يَصْبِرُ إِلَى حِينٍ، ثُمَّ يُعَاوِدُهُ السُّرُورُ.",
+      "English": "A patient man will hold fast until the proper time, then afterwards gladness shall burst forth for him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اَلْعَاقِلُ يَكْتُمُ كَلاَمَهُ إِلَى حِينٍ، وَشِفَاهُ الكَثِيرِينَ تَنطِقُ بِحكمَتِةِ.",
+      "English": "He shall conceal his words until the proper time, and the lips of many will tell of his understanding."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فِي كُنُوزِ الْحِكْمَةِ أَمْثَالُ الْمَعْرِفَةِ أَمَّا عِنْدَ الْخَاطِئِ فَعِبَادَةُ اللهِ رِجْسٌ.",
+      "English": "In the treasures of wisdom are the parables of knowledge, But godliness is an abomination to a sinner."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِنْ رَغِبْتَ الْحِكْمَةِ فَاحْفَظِ الْوَصَايَا، فَيَهَبَهَا الرَّبُّ.",
+      "English": "If you desire wisdom, keep the commandments, and the Lord will supply it to you."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَإِن الْحِكْمَةَ و َالَأدَبَ هُمَا مَخَافَةُ الرَّبِّ، وَالَّذِي يُرْضِيهِ هُوَ: الإِيْمَانُ وَالْوَدَاعَةُ،",
+      "English": "For the fear of the Lord is wisdom and instruction, and His good pleasure is faith and gentleness."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَكُن مُخالِفاً لمَخَافَةَ الرَّبِّ، وَلاَ تَتَقَدَّمْ إِلَيْهِ بِقَلبَينَ.",
+      "English": "Do not disobey the fear of the Lord, and do not come to Him with a divided heart."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لاَ تَكُنْ مُرَائِيًا قُدَامَ النَاسِ وَكُن مُحتَرِسَا لِشَفَتَيكَ.",
+      "English": "Do not be a hypocrite in the sight of men, and be careful with your lips."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لاَ تَتَرَفَّعْ لِئَلاَّ تَسْقُطَ؛ فَتَجْلُبَ عَلَى نَفْسِكَ الْهَوَانَ،",
+      "English": "Do not exalt yourself, lest you fall and bring dishonor to your soul."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيَكْشِفَ الرَّبُّ خَفَايَاكَ. وَيَصْرَعَكَ فِي وَسَط الجَمَاعَةِ، لأَنَّكَ لَمْ تَتَقَدَم إلى مَخَافَة الرَّبُّ. وَقَلَبُكَ مُمتَلئٌ غِشٌا.",
+      "English": "The Lord shall reveal your secrets, and in the midst of the assembly He will strike you down, because you did not come in the fear of the Lord And your heart was full of deceit."
+    }
+  ]
 }

@@ -1,22 +1,82 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " مَنْ هُوَ الإنسَانُ الحَكِيمُ فَليَفْهَمُ هَذَا. وَالذي عِندَهُ كَلَامُ فَمِ الرَّبِّ فَليُخْبِرُكُمْ.\n",
-"arabiccoptic": " نيم بي بيرومي إنسافى ماريف إمي إفاي : اووه في إيتي بيساجي إنتيروف إمبشويس كي ناهراف ماريف تامى ثينو\n",
-"coptic": " Nim pe pirwmi` ncabe mare`femi evai> ouo\\ vhete picaji `nterwf ` mP_  `xh na\\raf maref tame qhnou>\n",
-"english": " Who is a wise man? Let him understand this. Let him declare to you by the word of the Lord\n",
-"englishcoptic": " Nim pe piromi ensave maref-emi efai : owoh vi-ete pisaju enterof em-Epchois ki nahraf maref tame thino\n",
-},
-{
-"arabic": " . لِمَاذَا هَلَكَتْ الأرضُ  وَاحْتَرَقَتْ وَصَارَتْ كَبَرِّيةٍ بِلا عَابر,\nفَقَالَ ليَ الرَبُّ. لِأنَّهُمْ تَرَكُوا نَامُوسِيَ عَنهُمْ الَّذِي جَعَلتُهُ أَمَامَهُمْ. وَلمْ يَسمَعُوا لِصَوتِي.,\nبِلْ سَارُوا وَرَاءَ عِنَادِ قُلُوبِهِمْ الشرِّيرَةِ. وَسَلكُوا وَرَاءَ الأصْنَامِ التي عَلَّمَهُمْ ايَّاهَا أبَاؤهُمْ,\nلِذَلِكَ قَالَ الرَّبُّ إلهُ إسرَائيلَ. هأنَذَا أُطعِمُهُمْ خُبزَ الضِيقِ وَأسقِيهِمْ العَلقَمَ.,\nوأُشَتِّتَهُمْ في الأممِ التي لَم يَعرِفُوهَا هُمْ وَلا أبَاؤهُمْ. وأُرْسِلُ عَلَيْهِمْ سَيفاً حَتَّى أَفنِيهُمْ بِهِ.,\nهَذَا مَا يَقُولُهُ الرَّبُ. اُدْعُوا النِساءَ النَائِحَاتِ ليَأتِينَ وَأَرسِلُوا إلى الحَكِيمَاتِ ليَفْتَحْنَ أفوَاهَهُنَّ بِالكَلامِ,\nليَنْشُدْنَ عَلَيكُمْ نَوْحاً. وَلِتَسكُبْ عُيُونُكُمْ دُمُوعَاً. وَلْتَفِضْ أَجْفَانُكُمْ ماءً،,\nلِأَنَّهُ قَدْ سُمِعَ صَوْتُ النَوْحِ فِي صِهْيَونَ.,\n",
-"english": " To him why the land was ravaged by fire, and became like a desert no one could pass through.,\nThe Lord answered me, \"Because they forsook My law which I set before their face, and they did not hear My voice.,\nInstead, they walked after what pleased their evil heart, and after the idols their fathers taught them.\",\nTherefore, thus says the Lord God of Israel: \"Behold, I will feed them as a matter of necessity, and give them the water of bitterness to drink.,\nI will also scatter them among the Gentiles, amongst whom neither they nor their fathers are known. I shall send a sword after them until I consume them with it.\",\nThus says the Lord: \"Call for the mourning women and let them come. Send for the wise women and let them give utterance.,\nLet them take up a lamentation over you. Let your eyes run with tears, and your eyelids flow with water.,\nFor a voice of wailing is heard from Zion.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "9:12-19 من أرميا النبي",
+  "EnglishTitle": "Jeremiah 9:12-19 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنْ هُوَ الإنسَانُ الحَكِيمُ فَليَفْهَمُ هَذَا. وَالذي عِندَهُ كَلَامُ فَمِ الرَّبِّ فَليُخْبِرُكُمْ.",
+      "Coptic": "Nim pe pirwmi` ncabe mare`femi evai> ouo\\ vhete picaji `nterwf ` mP_  `xh na\\raf maref tame qhnou>",
+      "English": "Who is a wise man? Let him understand this. Let him declare to you by the word of the Lord",
+      "Arabiccoptic": "نيم بي بيرومي إنسافى ماريف إمي إفاي : اووه في إيتي بيساجي إنتيروف إمبشويس كي ناهراف ماريف تامى ثينو",
+      "Englishcoptic": "Nim pe piromi ensave maref-emi efai : owoh vi-ete pisaju enterof em-Epchois ki nahraf maref tame thino"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": ". لِمَاذَا هَلَكَتْ الأرضُ  وَاحْتَرَقَتْ وَصَارَتْ كَبَرِّيةٍ بِلا عَابر",
+      "English": "To him why the land was ravaged by fire, and became like a desert no one could pass through."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ ليَ الرَبُّ. لِأنَّهُمْ تَرَكُوا نَامُوسِيَ عَنهُمْ الَّذِي جَعَلتُهُ أَمَامَهُمْ. وَلمْ يَسمَعُوا لِصَوتِي.",
+      "English": "The Lord answered me, \"Because they forsook My law which I set before their face, and they did not hear My voice."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بِلْ سَارُوا وَرَاءَ عِنَادِ قُلُوبِهِمْ الشرِّيرَةِ. وَسَلكُوا وَرَاءَ الأصْنَامِ التي عَلَّمَهُمْ ايَّاهَا أبَاؤهُمْ",
+      "English": "Instead, they walked after what pleased their evil heart, and after the idols their fathers taught them.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِذَلِكَ قَالَ الرَّبُّ إلهُ إسرَائيلَ. هأنَذَا أُطعِمُهُمْ خُبزَ الضِيقِ وَأسقِيهِمْ العَلقَمَ.",
+      "English": "Therefore, thus says the Lord God of Israel: \"Behold, I will feed them as a matter of necessity, and give them the water of bitterness to drink."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأُشَتِّتَهُمْ في الأممِ التي لَم يَعرِفُوهَا هُمْ وَلا أبَاؤهُمْ. وأُرْسِلُ عَلَيْهِمْ سَيفاً حَتَّى أَفنِيهُمْ بِهِ.",
+      "English": "I will also scatter them among the Gentiles, amongst whom neither they nor their fathers are known. I shall send a sword after them until I consume them with it.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هَذَا مَا يَقُولُهُ الرَّبُ. اُدْعُوا النِساءَ النَائِحَاتِ ليَأتِينَ وَأَرسِلُوا إلى الحَكِيمَاتِ ليَفْتَحْنَ أفوَاهَهُنَّ بِالكَلامِ",
+      "English": "Thus says the Lord: \"Call for the mourning women and let them come. Send for the wise women and let them give utterance."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ليَنْشُدْنَ عَلَيكُمْ نَوْحاً. وَلِتَسكُبْ عُيُونُكُمْ دُمُوعَاً. وَلْتَفِضْ أَجْفَانُكُمْ ماءً،",
+      "English": "Let them take up a lamentation over you. Let your eyes run with tears, and your eyelids flow with water."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأَنَّهُ قَدْ سُمِعَ صَوْتُ النَوْحِ فِي صِهْيَونَ.",
+      "English": "For a voice of wailing is heard from Zion."
+    }
+  ]
 }

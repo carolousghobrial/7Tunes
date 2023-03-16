@@ -1,22 +1,50 @@
 {
-"hymn":"",
-"exposition": [
-  {
-    "arabic": " فَاحْتَرِزُوا لأَنْفُسِكُمْ لِئَلاَّ تَثْقُلَ قُلُوبُكُمْ مِنَ الشَبَعِ والسُكْرِ والهُمُومِ الدُنْيَاوِيَّةِ فَيُقبِلَ عَلَيكُمْ بَغْتَةً ذلِكَ الْيَوْمُ\n",
-    "arabiccoptic": " ماهثيتين ذي إيروتين  ميبوتي إنو إهروش إنجي  نيتين هيت خين أو  إتشيمى نيم أو ثيخي نيم  هان روؤش إمفيوتيكون  أووه إنؤهوتي خين أو  هوتي إنتيفئي إيجين ثينو  إنجي بي إيهوؤ إيتي  إمماف\n",
-    "coptic": " Ma\\qhten de `erwten mhpote ntou\\ ro] `nje neten\\ht  =en ousimh nem ouqi=i  nem  \\anrwou] `mbi`wtikon ouo\\ `nou \\ o; = en ou\\o; `ntefi `ejen qhnou `nje pi`e\\oou `ete`mmau\n",
-    "english": " \"But take heed to yourselves, lest your hearts be weighed down with carousing, drunkenness, and cares of this life, and that Day come on you unexpectedly.\n",
-    "englishcoptic": " Mah-theeten ze eroten meepote ento-ehrosh enje netenheet khen ochimi nem otheekhi nem hanro-oosh emvio-tikon owoh eno-hoti khen ohoti entefi ejen theeno enje pi-eho-oo ete-emmav\n"
-  },
-  {
-    "arabic": " لأَنَّهُ يَأْتِي كَالْفَخِّ عَلَى جَمِيعِ الْجَالِسِينَ عَلَى وَجْهِ الأَرْضِ كُلِّهَا.,\nاِسْهَرُوا إِذًا وَتَضَرَّعُوا فِي كُلِّ حِينٍ،  لِكَيْ تَقْوَوْا عَلَى الهَرَبِ مِنْ هَذِهِ الأمُورِ المُزْمِعَةِ أَنْ تَصِيرَ وَتَقِفُوا أَمَامَ ابْنِ الإِنْسَانِ.,\nوَكَانَ فِي النَّهَارِ يُعَلِّمُ فِي الْهَيْكَلِ، وَفِي اللَّيْلِ يَخْرُجُ وَيَبِيتُ فِي الْجَبَلِ الَّذِي يُدْعَى جَبَلَ الزَّيْتُونِ.,\nوَكَانَ جميع الشَّعْبِ يُبَكِّرُونَ إِلَيْهِ فِي الْهَيْكَلِ لِيَسْمَعُوا مِنْهُ.,\n",
-    "english": " For it will come as a snare on all those who dwell on the face of the whole earth.,\nWatch therefore, and pray always that you may be counted worthy to escape all these things that will come to pass, and to stand before the Son of Man.\",\nAnd in the daytime He was teaching in the temple, but at night He went out and stayed on the mountain called Olivet.,\nThen early in the morning all the people came to Him in the temple to hear Him.,\n"
-  },{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "21:34-38 الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 21:34-38 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَاحْتَرِزُوا لأَنْفُسِكُمْ لِئَلاَّ تَثْقُلَ قُلُوبُكُمْ مِنَ الشَبَعِ والسُكْرِ والهُمُومِ الدُنْيَاوِيَّةِ فَيُقبِلَ عَلَيكُمْ بَغْتَةً ذلِكَ الْيَوْمُ",
+      "Coptic": "Ma\\qhten de `erwten mhpote ntou\\ ro] `nje neten\\ht  =en ousimh nem ouqi=i  nem  \\anrwou] `mbi`wtikon ouo\\ `nou \\ o; = en ou\\o; `ntefi `ejen qhnou `nje pi`e\\oou `ete`mmau",
+      "English": "\"But take heed to yourselves, lest your hearts be weighed down with carousing, drunkenness, and cares of this life, and that Day come on you unexpectedly.",
+      "Arabiccoptic": "ماهثيتين ذي إيروتين  ميبوتي إنو إهروش إنجي  نيتين هيت خين أو  إتشيمى نيم أو ثيخي نيم  هان روؤش إمفيوتيكون  أووه إنؤهوتي خين أو  هوتي إنتيفئي إيجين ثينو  إنجي بي إيهوؤ إيتي  إمماف",
+      "Englishcoptic": "Mah-theeten ze eroten meepote ento-ehrosh enje netenheet khen ochimi nem otheekhi nem hanro-oosh emvio-tikon owoh eno-hoti khen ohoti entefi ejen theeno enje pi-eho-oo ete-emmav"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنَّهُ يَأْتِي كَالْفَخِّ عَلَى جَمِيعِ الْجَالِسِينَ عَلَى وَجْهِ الأَرْضِ كُلِّهَا.",
+      "English": "For it will come as a snare on all those who dwell on the face of the whole earth."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اِسْهَرُوا إِذًا وَتَضَرَّعُوا فِي كُلِّ حِينٍ،  لِكَيْ تَقْوَوْا عَلَى الهَرَبِ مِنْ هَذِهِ الأمُورِ المُزْمِعَةِ أَنْ تَصِيرَ وَتَقِفُوا أَمَامَ ابْنِ الإِنْسَانِ.",
+      "English": "Watch therefore, and pray always that you may be counted worthy to escape all these things that will come to pass, and to stand before the Son of Man.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ فِي النَّهَارِ يُعَلِّمُ فِي الْهَيْكَلِ، وَفِي اللَّيْلِ يَخْرُجُ وَيَبِيتُ فِي الْجَبَلِ الَّذِي يُدْعَى جَبَلَ الزَّيْتُونِ.",
+      "English": "And in the daytime He was teaching in the temple, but at night He went out and stayed on the mountain called Olivet."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ جميع الشَّعْبِ يُبَكِّرُونَ إِلَيْهِ فِي الْهَيْكَلِ لِيَسْمَعُوا مِنْهُ.",
+      "English": "Then early in the morning all the people came to Him in the temple to hear Him."
+    }
+  ]
 }

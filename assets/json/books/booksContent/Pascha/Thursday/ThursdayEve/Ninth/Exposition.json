@@ -1,4 +1,55 @@
 {
-"arabic": " أيها الناس الجهلة المعاندون، الشعب النجس، والمخالف، اسمعوا الرحوم بفمه الإلهى يمدح المؤمنين به قائلاً :,\nالذى أعطانى الآب هو أعظم من كل من على الأرض، وليس أحد يقدر أن يخطفهم ولا يسلبهم من يد أبى،,\nوأنا والآب واحد مع الروح القدس بغير إفتراق.,\nوللوقت تناول اليهود حجارة بحسد عظيم ليرجموه، فأجابهم المخلص بوداعة ليعلمهم :,\nأظهرت لكم أعمالاً حسنة مكرمة جداً من عند أبى، من أجل أى شئ ترجمونى وأنا أريد خلاصكم ؟!,\nإعملوا وتيقنوا أيها اليهود الجهال أننى فى أبى وأبى في.,\n()",
-"english": " O you foolish obstinate, corrupt and contrary people, listen to the Divine clement praise the faithful saying;,\nWhat the Father has given me is more precious than all the things on earth, and no one can take them away from my Father’s hand.,\nThe Father and I are one with the Holy Spirit without separation.,\nWhen the Jews in their envy picked the rocks to stone him, He responded to them in modesty saying:,\nI did among you good deeds from my Father. What do you stone me for when I seek your salvation.,\nKnow and be certain you foolish Jews that I am in My Father and My Father in Me.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الناس الجهلة المعاندون، الشعب النجس، والمخالف، اسمعوا الرحوم بفمه الإلهى يمدح المؤمنين به قائلاً :",
+      "English": "O you foolish obstinate, corrupt and contrary people, listen to the Divine clement praise the faithful saying;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذى أعطانى الآب هو أعظم من كل من على الأرض، وليس أحد يقدر أن يخطفهم ولا يسلبهم من يد أبى،",
+      "English": "What the Father has given me is more precious than all the things on earth, and no one can take them away from my Father’s hand."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأنا والآب واحد مع الروح القدس بغير إفتراق.",
+      "English": "The Father and I are one with the Holy Spirit without separation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وللوقت تناول اليهود حجارة بحسد عظيم ليرجموه، فأجابهم المخلص بوداعة ليعلمهم :",
+      "English": "When the Jews in their envy picked the rocks to stone him, He responded to them in modesty saying:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أظهرت لكم أعمالاً حسنة مكرمة جداً من عند أبى، من أجل أى شئ ترجمونى وأنا أريد خلاصكم ؟!",
+      "English": "I did among you good deeds from my Father. What do you stone me for when I seek your salvation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إعملوا وتيقنوا أيها اليهود الجهال أننى فى أبى وأبى في.",
+      "English": "Know and be certain you foolish Jews that I am in My Father and My Father in Me."
+    }
+  ]
 }
