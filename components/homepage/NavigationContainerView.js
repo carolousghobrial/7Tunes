@@ -32,6 +32,7 @@ import {
   getCurrentSeason,
   isInFast,
   isWatos,
+  plantsSeason,
 } from "../../helpers/copticMonthsHelper";
 import moment from "moment";
 import Test from "../settings/test.js";
@@ -67,6 +68,7 @@ function NavigationContainerView() {
       dayOfWeek: moment().day(),
       isWatos: isWatos(),
       isFast: isInFast(),
+      plantsSeason: plantsSeason(),
     };
     dispatch(setSeason({ currentSeason: mycurrentSeason }));
   }

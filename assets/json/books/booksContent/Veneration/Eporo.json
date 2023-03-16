@@ -1,6 +1,7 @@
 {
   "RefrainAfter": 0,
   "ArabicTitle": "يا ملك السلام",
+  "CopticTitle": "`Pouro ` nte ;\\irhnh",
   "EnglishTitle": "O King of Peace (Ep-oro) ",
   "Hymn": [
     {
@@ -52,11 +53,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b نسجد لك أيها المسيح مع أبيك الصالح والروح القدس لأنك %%%% وخلصتنا.",
-      "Coptic": "Tenouw]t `mmok `w Pxc?> nem Pekiwt `n`agaqoc> nem Pip/n/a/ e/q/u/> je %%%% akcw; `mmon.",
-      "English": "\b We worship You, O Christ, with Your Good Father, and the Holy Spirit, for You have %%%% and saved us.",
-      "Arabiccoptic": "\b تين أوأو شت إمموك أوبخرستوس . نيم بيك يوت إن أغاثوس . نيم بى إبنفما إثؤواب . جى %%%% أكسوتى إممون .",
-      "Englishcoptic": "Ten Oosht Emmoko Pikhristos, Nem Pek Iot Enaghathos, nem Pi Epnevma Ethoab, Je %%%% aksoti Emmon."
+      "Arabic": "\b نسجد لك أيها المسيح مع أبيك الصالح والروح القدس لأنك [*COME/RISEN*] وخلصتنا.",
+      "Coptic": "Tenouw]t `mmok `w Pxc?> nem Pekiwt `n`agaqoc> nem Pip/n/a/ e/q/u/> je [*COME/RISEN*] akcw; `mmon.",
+      "English": "\b We worship You, O Christ, with Your Good Father, and the Holy Spirit, for You have [*COME/RISEN*] and saved us.",
+      "Arabiccoptic": "\b تين أوأو شت إمموك أوبخرستوس . نيم بيك يوت إن أغاثوس . نيم بى إبنفما إثؤواب . جى [*COME/RISEN*] أكسوتى إممون .",
+      "Englishcoptic": "Ten Oosht Emmoko Pikhristos, Nem Pek Iot Enaghathos, nem Pi Epnevma Ethoab, Je [*COME/RISEN*] aksoti Emmon."
     }
   ]
 }

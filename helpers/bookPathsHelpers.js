@@ -1,5 +1,6 @@
 const bookPaths = {
   //AgpeyaPrayers
+  // AgpeyaComeLetUs: require("../assets/json/books/booksContent/AgpeyaPrayers/ComeLetUs.json"),
   AgpeyaPrayersHolyHoly: require("../assets/json/books/booksContent/AgpeyaPrayers/HolyHoly.json"),
   AgpeyaPrayersCreed: require("../assets/json/books/booksContent/AgpeyaPrayers/Creed.json"),
   AgpeyaPrayersIntroToCreed: require("../assets/json/books/booksContent/AgpeyaPrayers/IntroToCreed.json"),
@@ -7,7 +8,7 @@ const bookPaths = {
   AgpeyaPrayersPraiseAngels: require("../assets/json/books/booksContent/AgpeyaPrayers/PraiseAngels.json"),
   AgpeyaPrayersGraciouslyOLord: require("../assets/json/books/booksContent/AgpeyaPrayers/GraciouslyOLord.json"),
   AgpeyaPrayersOurFather: require("../assets/json/books/booksContent/AgpeyaPrayers/OurFather.json"),
-  AgpeyaPrayersPsalm50: require("../assets/json/books/booksContent/Pascha/Sunday/GeneralFuneral/Psalm50.json"),
+  AgpeyaPrayersPsalm50: require("../assets/json/books/booksContent/AgpeyaPrayers/Psalm50.json"),
 
   //Doxologies
   DoxologiesArchangelGabriel: require("../assets/json/books/booksContent/Doxologies/ArchangelGabriel.json"),
@@ -65,7 +66,6 @@ const bookPaths = {
   PaschaPaschaShortBlessing: require("../assets/json/books/booksContent/Pascha/PaschaShortBlessing.json"),
   PaschaPropheciesConclusion: require("../assets/json/books/booksContent/Pascha/PropheciesConclusion.json"),
   PaschaPropheciesIntroduction: require("../assets/json/books/booksContent/Pascha/PropheciesIntroduction.json"),
-  PaschaServiceConclusion: require("../assets/json/books/booksContent/Pascha/ServiceConclusion.json"),
   PaschaSixthHourConclusion: require("../assets/json/books/booksContent/Pascha/SixthHourConclusion.json"),
   PaschaTenosht: require("../assets/json/books/booksContent/Pascha/Tenosht.json"),
   //Praises
@@ -511,7 +511,7 @@ const bookPaths = {
   PaschaSaturdayCommunionPanotiPanoti: require("../assets/json/books/booksContent/Pascha/Saturday/Communion/PanotiPanoti.json"),
   PaschaSaturdayCommunionPsalm: require("../assets/json/books/booksContent/Pascha/Saturday/Communion/Psalm.json"),
   //Pascha\Saturday\First
-  PaschaSaturdayFirstComeLetUs: require("../assets/json/books/booksContent/Pascha/Saturday/First/ComeLetUs.json"),
+
   PaschaSaturdayFirstConclusion: require("../assets/json/books/booksContent/Pascha/Saturday/First/Conclusion.json"),
   PaschaSaturdayFirstCreed: require("../assets/json/books/booksContent/Pascha/Saturday/First/Creed.json"),
   PaschaSaturdayFirstExposition: require("../assets/json/books/booksContent/Pascha/Saturday/First/Exposition.json"),
@@ -798,17 +798,17 @@ const bookPaths = {
   PaschaThursdayThursdayDayEleventhProphecies1: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Eleventh/Prophecies1.json"),
   PaschaThursdayThursdayDayEleventhPsalm: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Eleventh/Psalm.json"),
   //Pascha\Thursday\ThursdayDay\First
-  PaschaThursdayThursdayDayFirstAgios: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/First/Agios.json"),
+
   PaschaThursdayThursdayDayFirstCreed: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/First/Creed.json"),
   PaschaThursdayThursdayDayFirstExposition: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/First/Exposition.json"),
   PaschaThursdayThursdayDayFirstGospel1: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/First/Gospel1.json"),
-  PaschaThursdayThursdayDayFirstJudas: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/First/Judas.json"),
+
   PaschaThursdayThursdayDayFirstPraxis: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/First/Praxis.json"),
   PaschaThursdayThursdayDayFirstPraxisConclusion: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/First/PraxisConclusion.json"),
   PaschaThursdayThursdayDayFirstPraxisIntro: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/First/PraxisIntro.json"),
   PaschaThursdayThursdayDayFirstProphecies1: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/First/Prophecies1.json"),
   PaschaThursdayThursdayDayFirstPsalm: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/First/Psalm.json"),
-  PaschaThursdayThursdayDayFirstVersesOfCymbals: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/First/VersesOfCymbals.json"),
+
   //Pascha\Thursday\ThursdayDay\Ninth
   PaschaThursdayThursdayDayNinthExposition: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Ninth/Exposition.json"),
   PaschaThursdayThursdayDayNinthGospel1: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Ninth/Gospel1.json"),

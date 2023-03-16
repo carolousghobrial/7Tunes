@@ -16,7 +16,10 @@ export function getFullViewModel(data) {
       copticttl = item.coptic;
       englishttl = item.english;
     } else {
-      if (VisibleRules().find((data) => data.rule === item.visible).visible) {
+      if (
+        item.visible === 0 ||
+        VisibleRules().find((data) => data.rule === item.visible).visible
+      ) {
         switch (item.type) {
           case "Main":
             //Get View

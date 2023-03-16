@@ -47,9 +47,7 @@ function BookScreen({ navigation, route }) {
 
   const motherSource = route.params.bookPath;
 
-  const [data, menuData] = getFullViewModel(
-    scrollToIndexhomescreenPaths[motherSource]
-  );
+  const [data, menuData] = getFullViewModel(homescreenPaths[motherSource]);
   console.log(data[0].part.english);
   const [englishTitle, setenglishTitle] = useState(data[0].part.english);
   const [copticTitle, setcopticTitle] = useState(data[0].part.coptic);

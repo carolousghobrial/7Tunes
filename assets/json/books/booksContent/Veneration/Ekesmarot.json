@@ -1,18 +1,27 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "public static string ArabicText = \"  فى مقدمة كل تمجيد تقال هذه القطعة.",
-  "EnglishTitle": "public static string EnglishText = \"The Veneration starts with the following hymn",
+  "ArabicTitle": " مبارك انت(إك إزماروؤت) ",
+  "CopticTitle": " `K`cmarwout",
+  "EnglishTitle": "Blessed are You (Ekesmaro-oot)",
   "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فى مقدمة كل تمجيد تقال هذه القطعة.",
+      "English": "The Veneration starts with the following hymn"
+    },
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "مبارك أنت بالحقيقة مع أبيك الصالح والروح القدس لأنك %%%% وخلصتنا.",
-      "Coptic": "`K`cmarwout `alhqwc> nem pekiwt `n`agaqoc> nem Pip/n/a/ e/q/u/> je  %%%% akcw; `mmon .",
-      "English": "Blessed are You indeed: with Your Good Father: and the Holy Spirit: for You  %%%% and saved us.",
-      "Arabiccoptic": "إك إزماروؤت آليثوس نيم بيك يوت إن آغاثوس نيم بى إبنيفما إثؤواب جى   %%%% آك سوتى إممون.",
-      "Englishcoptic": "Ekezmaro ot Alethos Nem bek yot en Aghathos nem bi Ebnevma Ethoab  %%%% ak soti emmon."
+      "Arabic": "مبارك أنت بالحقيقة مع أبيك الصالح والروح القدس لأنك [*COME/RISEN*] وخلصتنا.",
+      "Coptic": "`K`cmarwout `alhqwc> nem pekiwt `n`agaqoc> nem Pip/n/a/ e/q/u/> je  [*COME/RISEN*] akcw; `mmon .",
+      "English": "Blessed are You indeed: with Your Good Father: and the Holy Spirit: for You  [*COME/RISEN*] and saved us.",
+      "Arabiccoptic": "إك إزماروؤت آليثوس نيم بيك يوت إن آغاثوس نيم بى إبنيفما إثؤواب جى   [*COME/RISEN*] آك سوتى إممون.",
+      "Englishcoptic": "Ekezmaro ot Alethos Nem bek yot en Aghathos nem bi Ebnevma Ethoab  [*COME/RISEN*] ak soti emmon."
     }
   ]
 }

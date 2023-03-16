@@ -1,8 +1,17 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "public static string ArabicText = \" ثم تقال القطعة الآتية باللحن المعروف.",
-  "EnglishTitle": "public static string EnglishText = \"Then this Part is chanted with its known Hymn",
+  "ArabicTitle": "إشفعي فينا",
+  "CopticTitle": "Ari`precbeuin",
+  "EnglishTitle": "Intercede on our behalf ",
   "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم تقال القطعة الآتية باللحن المعروف.",
+      "English": "Then this Part is chanted with its known Hymn"
+    },
     {
       "Type": "Base",
       "Rule": 0,

@@ -5,6 +5,14 @@
   "CopticTitle": "Cena `t]o",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم تقال القطعة الرومى الرابعة.",
+      "English": "Then the Fourth Greek part is chanted"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

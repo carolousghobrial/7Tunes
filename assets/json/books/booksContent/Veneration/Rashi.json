@@ -5,6 +5,14 @@
   "CopticTitle": "Ra]i ne",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم تقال القطعة الرومى الثالثة.",
+      "English": "Then the Third Greek part is chanted"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

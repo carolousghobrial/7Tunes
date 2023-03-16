@@ -5,6 +5,14 @@
   "CopticTitle": "Deute penthc",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم تقال القطعة الرومى الثانية.",
+      "English": "Then the second Greek part is chanted"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

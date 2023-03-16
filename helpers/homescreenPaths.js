@@ -24,6 +24,7 @@ const homescreenPaths = {
   standardPsalmody: require("../assets/json/books/booksTable/Praises/MidnightPraises/standardPsalmody.json"),
   kiahkPsalmody: require("../assets/json/books/booksTable/Praises/MidnightPraises/kiahkPsalmody.json"),
   lentenPsalmody: require("../assets/json/books/booksTable/Praises/MidnightPraises/lentenPsalmody.json"),
+  venerations: require("../assets/json/books/booksTable/Venerations/venerations.json"),
 };
 
 export default homescreenPaths;

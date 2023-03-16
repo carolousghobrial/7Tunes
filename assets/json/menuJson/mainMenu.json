@@ -36,7 +36,7 @@
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
-            "BookPath": 2,
+            "BookPath": "venerations",
             "ImageURL": "veneration",
             "Enabled": true
         },

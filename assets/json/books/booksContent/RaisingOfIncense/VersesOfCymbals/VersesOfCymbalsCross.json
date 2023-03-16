@@ -85,11 +85,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "نسجد لك ايها المسيح مع ابيك الصالح والروح القدس لأنك %%%% وخلصتنا. (ارحمنا)",
-      "Coptic": "Ten`ou`w]t `mmok `w Pxc > nem Pekiwt `n`agaqoc> nem pi`Pneuma eq?u?.> je %%%% akcw; `mmon. (Nai nan)",
-      "English": "We worship You O Christ, with Your good Father, and the Holy Spirit, for You were %%%% and saved us. Have mercy upon us.",
-      "Arabiccoptic": "تين اؤؤشت امموك او بي خريستوس : نيم بيك يوت ان اغاثوس: نيم بي بنيفما اثوؤاب: جى %%%% أك سوتي اممون .",
-      "Englishcoptic": "Ten-o-osht emok o-pekhristos, nem pekiot en-aghathos, nem pi-ebnevma ethowab, je %%%% aksoti emon."
+      "Arabic": "نسجد لك ايها المسيح مع ابيك الصالح والروح القدس لأنك [*COME/RISEN*] وخلصتنا. (ارحمنا)",
+      "Coptic": "Ten`ou`w]t `mmok `w Pxc > nem Pekiwt `n`agaqoc> nem pi`Pneuma eq?u?.> je [*COME/RISEN*] akcw; `mmon. (Nai nan)",
+      "English": "We worship You O Christ, with Your good Father, and the Holy Spirit, for You were [*COME/RISEN*] and saved us. Have mercy upon us.",
+      "Arabiccoptic": "تين اؤؤشت امموك او بي خريستوس : نيم بيك يوت ان اغاثوس: نيم بي بنيفما اثوؤاب: جى [*COME/RISEN*] أك سوتي اممون .",
+      "Englishcoptic": "Ten-o-osht emok o-pekhristos, nem pekiot en-aghathos, nem pi-ebnevma ethowab, je [*COME/RISEN*] aksoti emon."
     }
   ]
 }

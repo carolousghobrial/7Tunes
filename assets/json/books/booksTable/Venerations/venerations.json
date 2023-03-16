@@ -1,0 +1,127 @@
+{
+    "main": [
+        {
+            "Type": "Title",
+            "rule": 0,
+            "visible": 0,
+            "Side": "Title",
+            "arabic": " التمجيد",
+            "coptic": ":do[ologia `nte }wrp",
+            "english": "Venerations"
+        },
+        {
+            "type": "Main",
+            "path": "VenerationEkesmarot",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationShereTheotoke",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationAgiosEstin",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "TheotokiasSundaySunday8",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "TheotokiasSundaySunday9",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationZeftePentis",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationAripresvevin",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationRashi",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationSenaEtsho",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationFaiPevlemin",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationAtaiParthenos",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationAnokNim",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationPiEhlog",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationApekran",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationEporo",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationKhenEfran",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationLetUsGather",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationCrownOfGold",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "type": "Main",
+            "path": "VenerationWaSalam",
+            "rule": 0,
+            "visible": 0
+        }
+    ]
+}

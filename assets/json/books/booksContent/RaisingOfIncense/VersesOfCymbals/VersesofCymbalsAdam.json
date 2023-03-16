@@ -173,11 +173,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "لكي نسبحَكَ، مع ابيكَ الصالح، والروح القدس ،  لأنك %%%% وخلصتنا.",
-      "Coptic": "Eqren\\wc `erok > nem Pekiwt `n`agaqoc > nem Pi`pneuma eqouab > je %%%% akcw; `mmon nai nan.",
-      "English": "That we may praise You, with Your good Father and the Holy Spirit, for you %%%% and saved us.",
-      "Arabiccoptic": "إثرين هوس إروك : نيم بيكيوت إن إغاثوس : نيم بي بنيفما إثؤواب : جيه %%%% أك سوتي إمون ناي نان  .",
-      "Englishcoptic": "Ethren Hos Erok, Nem Pekiwt En Aghathos, Nem Pi Epnevma Ethoab, Ge %%%% Aksoty Emmon nai nan."
+      "Arabic": "لكي نسبحَكَ، مع ابيكَ الصالح، والروح القدس ،  لأنك [*COME/RISEN*] وخلصتنا.",
+      "Coptic": "Eqren\\wc `erok > nem Pekiwt `n`agaqoc > nem Pi`pneuma eqouab > je [*COME/RISEN*] akcw; `mmon nai nan.",
+      "English": "That we may praise You, with Your good Father and the Holy Spirit, for you [*COME/RISEN*] and saved us.",
+      "Arabiccoptic": "إثرين هوس إروك : نيم بيكيوت إن إغاثوس : نيم بي بنيفما إثؤواب : جيه [*COME/RISEN*] أك سوتي إمون ناي نان  .",
+      "Englishcoptic": "Ethren Hos Erok, Nem Pekiwt En Aghathos, Nem Pi Epnevma Ethoab, Ge [*COME/RISEN*] Aksoty Emmon nai nan."
     }
   ]
 }

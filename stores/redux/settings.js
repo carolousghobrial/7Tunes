@@ -26,6 +26,7 @@ const settingsSlice = createSlice({
       start: moment(),
       end: moment(),
       major: true,
+      plantsSeason: "air",
     },
   },
   reducers: {

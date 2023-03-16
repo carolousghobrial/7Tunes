@@ -1,8 +1,17 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "public static string ArabicText = \" ثم تقال القطعة الرومى الخامسة.",
-  "EnglishTitle": "public static string EnglishText = \"Then the Fifth Greek part is chanted",
+  "ArabicTitle": "هذه هي صورة",
+  "EnglishTitle": "This is the image (Fai Pep-lemen)",
+  "CopticTitle": "Vai pe `plumen",
   "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم تقال القطعة الرومى الخامسة.",
+      "English": "Then the Fifth Greek part is chanted"
+    },
     {
       "Type": "Base",
       "Rule": 0,

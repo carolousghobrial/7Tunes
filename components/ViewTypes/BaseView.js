@@ -12,6 +12,7 @@ import {
 import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect, memo } from "react";
+import { ComeRisenRule, ROICONCLUSION } from "../../helpers/replacingRules";
 
 function BaseView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
@@ -55,7 +56,33 @@ function BaseView({ item }) {
   const copticarabicVisible = useSelector(
     (state) => state.settings.copticarabic
   );
-
+  if (item.English.includes("[*COME/RISEN*]")) {
+    var comeriserule = ComeRisenRule();
+    item.English = item.English.replace("[*COME/RISEN*]", comeriserule.english);
+    item.Coptic = item.Coptic.replace("[*COME/RISEN*]", comeriserule.coptic);
+    item.Arabic = item.Arabic.replace("[*COME/RISEN*]", comeriserule.arabic);
+    item.Englishcoptic = item.Englishcoptic.replace(
+      "[*COME/RISEN*]",
+      comeriserule.englishcoptic
+    );
+    item.Arabiccoptic = item.Arabiccoptic.replace(
+      "[*COME/RISEN*]",
+      comeriserule.arabiccoptic
+    );
+  } else if (item.English.includes("[*ROICONCLUSION*]")) {
+    var rule = ROICONCLUSION();
+    item.English = item.English.replace("[*ROICONCLUSION*]", rule.english);
+    item.Coptic = item.Coptic.replace("[*ROICONCLUSION*]", rule.coptic);
+    item.Arabic = item.Arabic.replace("[*ROICONCLUSION*]", rule.arabic);
+    item.Englishcoptic = item.Englishcoptic.replace(
+      "[*ROICONCLUSION*]",
+      rule.englishcoptic
+    );
+    item.Arabiccoptic = item.Arabiccoptic.replace(
+      "[*ROICONCLUSION*]",
+      rule.arabiccoptic
+    );
+  }
   return (
     <View style={styles.bookView}>
       {englishVisible ? (

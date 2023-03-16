@@ -151,6 +151,7 @@ export function getCopticFastsFeasts() {
   // fixed to Jan 7 until the year 2100
   var nativity = moment([today.year(), 0, 7]);
   var epiphany = moment([today.year(), 0, 19]);
+  var epiphany2ndDay = moment([today.year(), 0, 20]);
   var annunciation = moment([today.year(), 3, 7]);
   var resurrection = moment(getResurrectionDate(today.year()));
   var palmSunday = moment(resurrection).subtract(7, "days");
@@ -234,6 +235,13 @@ export function getCopticFastsFeasts() {
     end: null,
     major: true,
   });
+  fastFeasts.push({
+    key: "EPIPHANY_SECONDDAY",
+    type: "feast",
+    start: epiphany2ndDay,
+    end: null,
+    major: true,
+  });
 
   /*
   Anba Mettaous Rites books confirms this rite by saying, about the Annunciation:
@@ -271,6 +279,13 @@ export function getCopticFastsFeasts() {
     type: "feast",
     start: palmSunday,
     end: null,
+    major: true,
+  });
+  fastFeasts.push({
+    key: "HOLY_WEEK",
+    type: "fast",
+    start: palmSunday,
+    end: resurrection,
     major: true,
   });
 
@@ -561,6 +576,24 @@ export function isInFast() {
 
   // finally if day is Wed or Fri return true
   return todayDate.day() == 3 || todayDate.day() == 5;
+}
+export function plantsSeason() {
+  // ignore time and use date only
+  var todayDate = moment([
+    new Date().getFullYear(),
+    today.month(),
+    today.date(),
+  ]);
+  var airStart = moment([new Date().getFullYear(), 1, 19]);
+  var waterStart = moment([new Date().getFullYear(), 6, 19]);
+  var plantsStart = moment([new Date().getFullYear(), 10, 19]);
+  if (today.isBetween(airStart, waterStart)) {
+    return "air";
+  } else if (today.isBetween(waterStart, plantsStart)) {
+    return "waters";
+  } else {
+    return "plants";
+  }
 }
 
 /**

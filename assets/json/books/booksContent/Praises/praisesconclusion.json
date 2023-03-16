@@ -152,11 +152,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "لأنك %%%% وخلصتنا.",
-      "Coptic": "Je %%%% akcw; `mmon.",
-      "English": "For You have %%%% and saved us.",
-      "Arabiccoptic": "جى %%%% أكسوتى إممون.",
-      "Englishcoptic": "Je %%%% aksoti emmon."
+      "Arabic": "لأنك [*COME/RISEN*] وخلصتنا.",
+      "Coptic": "Je [*COME/RISEN*] akcw; `mmon.",
+      "English": "For You have [*COME/RISEN*] and saved us.",
+      "Arabiccoptic": "جى [*COME/RISEN*] أكسوتى إممون.",
+      "Englishcoptic": "Je [*COME/RISEN*] aksoti emmon."
     },
     {
       "Type": "Base",

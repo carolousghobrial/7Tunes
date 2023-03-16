@@ -1,8 +1,17 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "public static string ArabicText = \" لحن لسائر الشهداء.",
-  "EnglishTitle": "public static string EnglishText = \"Special Hymn For Any Martyr",
+  "ArabicTitle": "بي إهلوج",
+  "CopticTitle": "Pi`\\loj te ;ekklhcia",
+  "EnglishTitle": "Pi-Ehlog",
   "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لحن لسائر الشهداء.",
+      "English": "Special Hymn For Any Martyr"
+    },
     {
       "Type": "Base",
       "Rule": 0,
