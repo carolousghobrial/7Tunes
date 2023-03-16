@@ -1,22 +1,82 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وَأَتَى عَمَالِيقُ وَحَارَبَ إِسْرَائِيلَ فِي رَفِيدِيمَ. فَقَالَ مُوسَى لِيَشُوعَ: «اختَرْ لَكَ رِجَالاً وَاخْرُجْ حَارِبْ عَمَالِيقَ غَداً. وَهُوَّذَا أَنَا وَاقِفٌ عَلَى رَأْسِ الجَبَلِ وَعَصَا اللهِ فِي يَدِي».\n",
-"arabiccoptic": " أفئ ذى إنجى بى أماليك أووه أف فوتس إإب إسرائيل خين رافازين. بى جى مويسيس ذى إن إيسو. جى سوتب نا إنهان رومى ماشيناك تى نيم بى أماليك إنراستى. أووه أنوك هيب بى تى أوهى إيرات هيجين إت أفى إمبى توؤ. أووه بى إشفوت إنتى إفنوتى إفكى خين تا جيج.\n",
-"coptic": " Af`i de `nje pi`Amalhk ouo\\ afbwtc `e`pIcl? =en Ravazin > pe je Mw`uchc de `n`Hcou > je cwtp na `n\\anrwmi ma]enak; nem pi`Ama lhk `nrac;> ouo\\ `anok \\hppe ;`o\\i `erat \\ijen `t`ave `mpitwou > ouo\\ pi`]bwt `nte V;?  `fxh =en tajij\n",
-"english": " 8 Now Amalek came and fought with Israel in Rephidim. 9 So Moses said to Joshua, “Choose for yourself some mighty men and go out, and set the army in array against Amalek. Tomorrow I will stand on the top of the hill with the rod of God in my hand.”\n",
-"englishcoptic": " Af-e ze enje pi Amalik owoh af-vots e ePisraeel khen rafazin. bije Moisees ze en Eiso. je sotp na enhan romy mashinak te nem pi Amalik enrasty. owoh anok hieb pe ti ohi erat hijen et afe empi to-o. owoh pi eshvot ente Evnouty efki khen ta gig.\n",
-},
-{
-"arabic": " فَفَعَلَ يَشُوعُ كَمَا قَالَ لَهُ مُوسَى وَخَرَجَ لِمُحَارَبَةِ عَمَالِيقَ.,\nوَأَمَّا مُوسَى وَهَارُونُ وَحُورُ فَصَعِدُوا عَلَى رَأْسِ الجَبَلِ.,\nفَكَانَ إِذَا رَفَعَ مُوسَى يَدَهُ يَغْلِبُ بَنُو إِسْرَائِيلَ وَإِذَا حَطَّهَا تَغْلِبُ العَمَالِقَةُ.,\nفَلَمَّا كَلَّتْ يَدَا مُوسَى أَخَذَا حَجَراً وَجَعَلاهُ تَحْتَهُ فَجَلَسَ عَلَيْهِ.,\nوَأَسْنَدَ هَارُونُ وَحُورُ يَدَيْهِ أحَدُهُمَا مِنْ هُنَا وَالآخَرُ مِنْ هُنَاكَ. فَكَانَتْ يَدَاهُ ثَابِتَتَيْنِ إِلَى مَغرِبِ الشَّمْسِ.,\nفَقَتَلَ يَشُوعُ عَمَالِيقَ وَكُلَّ قَوْمَهُ بِحَدِّ السَّيْفِ.,\nفَقَالَ الرَّبُّ لِمُوسَى: «اكْتُبْ هَذَا ذِكراً فِي الْكِتَابِ وَاتْلِهِ عَلَى يَشُوعَ. فَإِنِّي سَأَمْحُو وَأَبِيدُ ذِكْرَ عَمَالِيقَ مِنْ تَحْتِ أَدِيمِ السَّمَاءِ».,\nفَبَنَى مُوسَى مَذْبَحاً وَدَعَا اسْمَهُ «الربَّ رَايَتِى». لأنَّهُ بِِيدٍ خَفِيَّةٍ انْتَقَمَ الرَّبُّ مِنْ عَمَالِيقَ مِنْ جِيلٍ إِلَى جِيلٍ».,\n",
-"english": " So Joshua did as Moses said to him and set the army in array against Amalek.,\nThen Moses, Aaron, and Hur went up to the top of the hill.,\nAnd so it was, when Moses held up his hands, that Israel prevailed; but when he let down his hands, Amalek prevailed.,\nNow Moses' hands became heavy; so they took a stone and put it under him, on it. and he sat,\nThen Aaron and Hur supported his hands, one on one side, and one on the other; and his hands were steady until the going down of the sun.,\nSo Joshua defeated, Amalek and his people with the edge of the sword.,\nThen the Lord said to Moses, \"Write this for a memorial in a book and recount it in the hearing of Joshua, that I will utterly blot out the remembrance of Amalek from under heaven.\",\nNow Moses built an altar and called its name The-Lord-My-Refuge; for with a secret hand the Lord wars with Amalek from generation to generation.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "1:1-2:3 من سفر الخروج لموسى النبى",
+  "EnglishTitle": "Exodus 1:1-2:3 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَتَى عَمَالِيقُ وَحَارَبَ إِسْرَائِيلَ فِي رَفِيدِيمَ. فَقَالَ مُوسَى لِيَشُوعَ: «اختَرْ لَكَ رِجَالاً وَاخْرُجْ حَارِبْ عَمَالِيقَ غَداً. وَهُوَّذَا أَنَا وَاقِفٌ عَلَى رَأْسِ الجَبَلِ وَعَصَا اللهِ فِي يَدِي».",
+      "Coptic": "Af`i de `nje pi`Amalhk ouo\\ afbwtc `e`pIcl? =en Ravazin > pe je Mw`uchc de `n`Hcou > je cwtp na `n\\anrwmi ma]enak; nem pi`Ama lhk `nrac;> ouo\\ `anok \\hppe ;`o\\i `erat \\ijen `t`ave `mpitwou > ouo\\ pi`]bwt `nte V;?  `fxh =en tajij",
+      "English": "8 Now Amalek came and fought with Israel in Rephidim. 9 So Moses said to Joshua, “Choose for yourself some mighty men and go out, and set the army in array against Amalek. Tomorrow I will stand on the top of the hill with the rod of God in my hand.”",
+      "Arabiccoptic": "أفئ ذى إنجى بى أماليك أووه أف فوتس إإب إسرائيل خين رافازين. بى جى مويسيس ذى إن إيسو. جى سوتب نا إنهان رومى ماشيناك تى نيم بى أماليك إنراستى. أووه أنوك هيب بى تى أوهى إيرات هيجين إت أفى إمبى توؤ. أووه بى إشفوت إنتى إفنوتى إفكى خين تا جيج.",
+      "Englishcoptic": "Af-e ze enje pi Amalik owoh af-vots e ePisraeel khen rafazin. bije Moisees ze en Eiso. je sotp na enhan romy mashinak te nem pi Amalik enrasty. owoh anok hieb pe ti ohi erat hijen et afe empi to-o. owoh pi eshvot ente Evnouty efki khen ta gig."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَفَعَلَ يَشُوعُ كَمَا قَالَ لَهُ مُوسَى وَخَرَجَ لِمُحَارَبَةِ عَمَالِيقَ.",
+      "English": "So Joshua did as Moses said to him and set the army in array against Amalek."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَمَّا مُوسَى وَهَارُونُ وَحُورُ فَصَعِدُوا عَلَى رَأْسِ الجَبَلِ.",
+      "English": "Then Moses, Aaron, and Hur went up to the top of the hill."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَكَانَ إِذَا رَفَعَ مُوسَى يَدَهُ يَغْلِبُ بَنُو إِسْرَائِيلَ وَإِذَا حَطَّهَا تَغْلِبُ العَمَالِقَةُ.",
+      "English": "And so it was, when Moses held up his hands, that Israel prevailed; but when he let down his hands, Amalek prevailed."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمَّا كَلَّتْ يَدَا مُوسَى أَخَذَا حَجَراً وَجَعَلاهُ تَحْتَهُ فَجَلَسَ عَلَيْهِ.",
+      "English": "Now Moses' hands became heavy; so they took a stone and put it under him, on it. and he sat"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَسْنَدَ هَارُونُ وَحُورُ يَدَيْهِ أحَدُهُمَا مِنْ هُنَا وَالآخَرُ مِنْ هُنَاكَ. فَكَانَتْ يَدَاهُ ثَابِتَتَيْنِ إِلَى مَغرِبِ الشَّمْسِ.",
+      "English": "Then Aaron and Hur supported his hands, one on one side, and one on the other; and his hands were steady until the going down of the sun."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَتَلَ يَشُوعُ عَمَالِيقَ وَكُلَّ قَوْمَهُ بِحَدِّ السَّيْفِ.",
+      "English": "So Joshua defeated, Amalek and his people with the edge of the sword."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ الرَّبُّ لِمُوسَى: «اكْتُبْ هَذَا ذِكراً فِي الْكِتَابِ وَاتْلِهِ عَلَى يَشُوعَ. فَإِنِّي سَأَمْحُو وَأَبِيدُ ذِكْرَ عَمَالِيقَ مِنْ تَحْتِ أَدِيمِ السَّمَاءِ».",
+      "English": "Then the Lord said to Moses, \"Write this for a memorial in a book and recount it in the hearing of Joshua, that I will utterly blot out the remembrance of Amalek from under heaven.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَبَنَى مُوسَى مَذْبَحاً وَدَعَا اسْمَهُ «الربَّ رَايَتِى». لأنَّهُ بِِيدٍ خَفِيَّةٍ انْتَقَمَ الرَّبُّ مِنْ عَمَالِيقَ مِنْ جِيلٍ إِلَى جِيلٍ».",
+      "English": "Now Moses built an altar and called its name The-Lord-My-Refuge; for with a secret hand the Lord wars with Amalek from generation to generation."
+    }
+  ]
 }

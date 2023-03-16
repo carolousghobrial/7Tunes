@@ -1,22 +1,62 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " قَدْ أَتَانِي السَّيِّدُ الرَّبُّ لِسَانَ الْعُلَمَاءِ لأَعْرِفَ أَنْ أُغِيثَ الْمُعْيِيَ بالِكَلِمَةِ. وَفِي الأَسحَارِ أيقَظَنِى وَزَادَنى أُذُناً لأَسْمَعَ تَعْلِيمَ الرَّبِّ.\nفَتَحَ لِي أُذُناً وَأَنَا لَمْ أُقَاوِمْ.\nبل بَذَلْتُ ظَهْرِي لِلضربِ وَخَدَّيَّ لِلَّطمِ.  وَلَمْ أَسْتُرْ وَجْهِي عَنِ خِزىِ الْبَصْاقِ.\n",
-"arabiccoptic": " إبشويس بيت تى نى إن أولاس إن إسفو. إثرى إيمى أرى شان إتهوتى إن أوساجى شوبى. أفكو نى إنهان أتوؤى أووه أفطوهو إيروى إن أو ماشج إثرى سوتيم إإت إسفو إمبشويس\nإثرو أوؤن إن نا ماشج. أنوك ذى تى ليجين أن\nأيتى إنطا تشيسى إهان ماستى جكس. أووه نا أوأوجى. إهان شين كور. باهو ذى إمبى طاستوف. إها إبشيبى إنتى هانثاف.\n",
-"coptic": " ` Po/c/ pet;nhi `noulac `n`cbw> eqriemi `arewan `t\\o; `noucaji ]wpi> afxw nhi `n\\anatoou`i ouo\\ aftou\\o `eroi `nouma]j eqricwtem `e`t`cbw `mPo/c/\nEqrououwn `nnama]j> `anok de ;legin an\nAi; `ntasici `e\\anmactig[> ouo\\ naou`oji `e\\an]enkour> pa\\o de mpitacqof `e\\ap]ipi nte \\anqaf\n",
-"english": " 4 “The Lord God has given Me The tongue of the learned, That I should know how to speak A word in season to him who is weary. He awakens Me morning by morning, He awakens My ear To hear as the learned.\n5 The Lord God has opened My ear; And I was not rebellious, Nor did I turn away.\n6 I gave My back to those who struck Me, And My cheeks to those who plucked out the beard; I did not hide My face from shame and spitting.\n",
-"englishcoptic": " Epshois pet tiny en o-las en esvo. ethre eimy are shan ethoty en o saji shopi. afko ni enhan ato-oui owoh aftoho eroi en-o mashg ethre sotem e-et esvo em Epshois\nEthro o-on enna mashg. anok ze ti legin an\nAity enta etchisyehan mastygex. owoh na o-o je. ehan shin kor. paho ze empe tastof. eha epshipy ente hanthav.\n",
-},
-{
-"arabic": " وَالسَّيِّدُ الرَّبُّ كَانَ لِىَّ عَونَاً لِذَلِكَ لَمْ أَخْجَلْ. لَكِنَّنى جَعَلْتُ وَجْهِي كَالصّخرةِ الصلبَةِ وَعَلِمْتُ أَنِّي لاَ أَخْزَى.,\nلأنَّ الَّذِي يُبَرِّرُنِي هُوَ قَرِيبٌ منِّى.,\nفَمَنْ يُحَاكِمُنِي؟ فَلِيَقتَرِبْ إِلَيّ! هَا الرَّبُّ يُعِينُنِي. فَمَنْ يُؤلِمُنِى؟ هَا أنتُمْ كُلُّكُمْ كَمِثلِ الثَّوْبِ تَبْلُونَ. وَيَأْكُلُكُمُ الْسوُسُ,\n",
-"english": " “For the Lord God will help Me; Therefore I will not be disgraced; Therefore I have set My face like a flint, And I know that I will not be ashamed.,\n8 He is near who justifies Me; Who will contend with Me? Let us stand together. Who is My adversary? Let him come near Me.,\n9 Surely the Lord God will help Me; Who is he who will condemn Me? Indeed they will all grow old like a garment; The moth will eat them up.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَدْ أَتَانِي السَّيِّدُ الرَّبُّ لِسَانَ الْعُلَمَاءِ لأَعْرِفَ أَنْ أُغِيثَ الْمُعْيِيَ بالِكَلِمَةِ. وَفِي الأَسحَارِ أيقَظَنِى وَزَادَنى أُذُناً لأَسْمَعَ تَعْلِيمَ الرَّبِّ.",
+      "Coptic": "` Po/c/ pet;nhi `noulac `n`cbw> eqriemi `arewan `t\\o; `noucaji ]wpi> afxw nhi `n\\anatoou`i ouo\\ aftou\\o `eroi `nouma]j eqricwtem `e`t`cbw `mPo/c/",
+      "English": "4 “The Lord God has given Me The tongue of the learned, That I should know how to speak A word in season to him who is weary. He awakens Me morning by morning, He awakens My ear To hear as the learned.",
+      "Arabiccoptic": "إبشويس بيت تى نى إن أولاس إن إسفو. إثرى إيمى أرى شان إتهوتى إن أوساجى شوبى. أفكو نى إنهان أتوؤى أووه أفطوهو إيروى إن أو ماشج إثرى سوتيم إإت إسفو إمبشويس",
+      "Englishcoptic": "Epshois pet tiny en o-las en esvo. ethre eimy are shan ethoty en o saji shopi. afko ni enhan ato-oui owoh aftoho eroi en-o mashg ethre sotem e-et esvo em Epshois"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَتَحَ لِي أُذُناً وَأَنَا لَمْ أُقَاوِمْ.",
+      "Coptic": "Eqrououwn `nnama]j> `anok de ;legin an",
+      "English": "5 The Lord God has opened My ear; And I was not rebellious, Nor did I turn away.",
+      "Arabiccoptic": "إثرو أوؤن إن نا ماشج. أنوك ذى تى ليجين أن",
+      "Englishcoptic": "Ethro o-on enna mashg. anok ze ti legin an"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بل بَذَلْتُ ظَهْرِي لِلضربِ وَخَدَّيَّ لِلَّطمِ.  وَلَمْ أَسْتُرْ وَجْهِي عَنِ خِزىِ الْبَصْاقِ.",
+      "Coptic": "Ai; `ntasici `e\\anmactig[> ouo\\ naou`oji `e\\an]enkour> pa\\o de mpitacqof `e\\ap]ipi nte \\anqaf",
+      "English": "6 I gave My back to those who struck Me, And My cheeks to those who plucked out the beard; I did not hide My face from shame and spitting.",
+      "Arabiccoptic": "أيتى إنطا تشيسى إهان ماستى جكس. أووه نا أوأوجى. إهان شين كور. باهو ذى إمبى طاستوف. إها إبشيبى إنتى هانثاف.",
+      "Englishcoptic": "Aity enta etchisyehan mastygex. owoh na o-o je. ehan shin kor. paho ze empe tastof. eha epshipy ente hanthav."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَالسَّيِّدُ الرَّبُّ كَانَ لِىَّ عَونَاً لِذَلِكَ لَمْ أَخْجَلْ. لَكِنَّنى جَعَلْتُ وَجْهِي كَالصّخرةِ الصلبَةِ وَعَلِمْتُ أَنِّي لاَ أَخْزَى.",
+      "English": "“For the Lord God will help Me; Therefore I will not be disgraced; Therefore I have set My face like a flint, And I know that I will not be ashamed."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنَّ الَّذِي يُبَرِّرُنِي هُوَ قَرِيبٌ منِّى.",
+      "English": "8 He is near who justifies Me; Who will contend with Me? Let us stand together. Who is My adversary? Let him come near Me."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَمَنْ يُحَاكِمُنِي؟ فَلِيَقتَرِبْ إِلَيّ! هَا الرَّبُّ يُعِينُنِي. فَمَنْ يُؤلِمُنِى؟ هَا أنتُمْ كُلُّكُمْ كَمِثلِ الثَّوْبِ تَبْلُونَ. وَيَأْكُلُكُمُ الْسوُسُ",
+      "English": "9 Surely the Lord God will help Me; Who is he who will condemn Me? Indeed they will all grow old like a garment; The moth will eat them up."
+    }
+  ]
 }

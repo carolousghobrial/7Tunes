@@ -1,7 +1,40 @@
 {
-"arabic": " (R),\nيَتَصَيَّدُونَ عَلَى نَفْسِ الْصِّدِّيقِ . وَيُلْقُونَ إِلَى الْحُكْمِ دَمَاً زَكِيَّاً. ( جملة ),\nوَسَيُكَافِئُهُمْ بِاثْمِهِمْ وَشَرِّهِمْ. وَيُبِيدُهُمْ الرَّبُّ إِلَهِى. هلليلويا,\n",
-"arabiccoptic": " (R)\nسينا جورج إيجين إت إبسيشى إن أو إثمى. أووه أو إسنوف إن أثنوفى سيناهيتف إإبهاب. ( ليكسيس ).\nأووه إف إطوب نوأو إنتو أنوميا نيم بو بيت هوأو. أووه إف إطاكوأو إنجى إبشويس بانوتى. الليلويا\n",
-"coptic": " (R)\nCenajwrj `ejen `tyuxh `nou`qmhi > ouo\\ ou`cnof `naqnobi cena\\itf `e`p\\ap > (le[ic)\nOuo\\ ef`etwbnwou `ntou`anomi`a nem poupet\\wou > ouo\\ ef`etakwou `nje Poc? panou; > A?l?\n",
-"english": " (R),\nThey shall hunt for the soul of a righteous man and shall condemn innocent blood.,\nHe will repay their lawlessness to them, and according to their wickedness, the Lord our God shall destroy them: Alleluia.,\n",
-"englishcoptic": " (R)\nSenagorg ejen etepseeshee eno-ethmy : owoh o-esnof enathnovy sena-hetf eephap.\nOwoh efetov no-oo ento-anomeya nem popet-ho : owoh efetako-oo enje Epshoise Panoty. Alleluia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "93:21,23 مزمور",
+  "EnglishTitle": "Psalm 93:21,23 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "القارئ:",
+      "Englishcoptic": "Reader:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَتَصَيَّدُونَ عَلَى نَفْسِ الْصِّدِّيقِ . وَيُلْقُونَ إِلَى الْحُكْمِ دَمَاً زَكِيَّاً. ( جملة )",
+      "Coptic": "Cenajwrj `ejen `tyuxh `nou`qmhi > ouo\\ ou`cnof `naqnobi cena\\itf `e`p\\ap > (le[ic)",
+      "English": "They shall hunt for the soul of a righteous man and shall condemn innocent blood.",
+      "Arabiccoptic": "سينا جورج إيجين إت إبسيشى إن أو إثمى. أووه أو إسنوف إن أثنوفى سيناهيتف إإبهاب. ( ليكسيس ).",
+      "Englishcoptic": "Senagorg ejen etepseeshee eno-ethmy : owoh o-esnof enathnovy sena-hetf eephap."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَسَيُكَافِئُهُمْ بِاثْمِهِمْ وَشَرِّهِمْ. وَيُبِيدُهُمْ الرَّبُّ إِلَهِى. هلليلويا",
+      "Coptic": "Ouo\\ ef`etwbnwou `ntou`anomi`a nem poupet\\wou > ouo\\ ef`etakwou `nje Poc? panou; > A?l?",
+      "English": "He will repay their lawlessness to them, and according to their wickedness, the Lord our God shall destroy them: Alleluia.",
+      "Arabiccoptic": "أووه إف إطوب نوأو إنتو أنوميا نيم بو بيت هوأو. أووه إف إطاكوأو إنجى إبشويس بانوتى. الليلويا",
+      "Englishcoptic": "Owoh efetov no-oo ento-anomeya nem popet-ho : owoh efetako-oo enje Epshoise Panoty. Alleluia."
+    }
+  ]
 }

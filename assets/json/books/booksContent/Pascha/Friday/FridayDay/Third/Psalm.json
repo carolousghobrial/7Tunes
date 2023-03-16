@@ -1,7 +1,27 @@
 {
-"arabic": " أَمَّا أَنَا فَمُسْتَعِدٌ لِلسِياطِ وَوَجَعِى مُقَابِلِى فِى كُلِّ حِينٍ ( جملة ),\nقَدْ أَحَاطَتْ بِى كِلاَبٌ كَثِيرَةٌ وَزُمْرَةٌ مِنَ الأَشْرَارِ أَحْدَقَتْ بِى هلليلويا,\n",
-"arabiccoptic": " أنوك ذى تى سيبطوت إهان ماستين غوس. أووه با إمكاه إمبا إمثو إيفول إنسيو نيفين.\nأفكوتى إيروى إنجى أوثو إن أوأوهور. أوسيناغوجى إنجاجفون بيطاس أمونى إمموى. الليلويا\n",
-"coptic": " Anok de ;cebtwt e\\anmactiggoc> ouo\\ pamka\\ mpamqo ebol nchou niben (le[ic)\nAukw; eroi `nje ouqo nouou\\or> oucunagwgh njajbwn petacamoni mmoi> al\n",
-"english": " For I am ready to fall, And my sorrow is continually before me.,\nFor dogs have surrounded Me; The congregation of the wicked has enclosed Me. Alleluia,\n",
-"englishcoptic": " Anok ze ti sebtot ehan mastin ghos. owoh pa emkah empa emtho evol ensio niven.\nAfkoty eroi enje otho en o-o hor. osina ghojy engagfon bitas amony emmoi. Alleluia\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمَّا أَنَا فَمُسْتَعِدٌ لِلسِياطِ وَوَجَعِى مُقَابِلِى فِى كُلِّ حِينٍ ( جملة )",
+      "Coptic": "Anok de ;cebtwt e\\anmactiggoc> ouo\\ pamka\\ mpamqo ebol nchou niben (le[ic)",
+      "English": "For I am ready to fall, And my sorrow is continually before me.",
+      "Arabiccoptic": "أنوك ذى تى سيبطوت إهان ماستين غوس. أووه با إمكاه إمبا إمثو إيفول إنسيو نيفين.",
+      "Englishcoptic": "Anok ze ti sebtot ehan mastin ghos. owoh pa emkah empa emtho evol ensio niven."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَدْ أَحَاطَتْ بِى كِلاَبٌ كَثِيرَةٌ وَزُمْرَةٌ مِنَ الأَشْرَارِ أَحْدَقَتْ بِى هلليلويا",
+      "Coptic": "Aukw; eroi `nje ouqo nouou\\or> oucunagwgh njajbwn petacamoni mmoi> al",
+      "English": "For dogs have surrounded Me; The congregation of the wicked has enclosed Me. Alleluia",
+      "Arabiccoptic": "أفكوتى إيروى إنجى أوثو إن أوأوهور. أوسيناغوجى إنجاجفون بيطاس أمونى إمموى. الليلويا",
+      "Englishcoptic": "Afkoty eroi enje otho en o-o hor. osina ghojy engagfon bitas amony emmoi. Alleluia"
+    }
+  ]
 }

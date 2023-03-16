@@ -1,22 +1,51 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وَفِي الْيَوْمِ الأَوَّلِ مِنَ الْفَطِيرِ. إِذْ كَانُوا يَذْبَحُونَ الْفِصْحَ قَالَ لَهُ تَلاَمِيذُهُ: «أَيْنَ تُرِيدُ أَنْ نَمْضِيَ وَنُعِدَّ لِتَأْكُلَ الْفِصْحَ؟»\nفَأَرْسَلَ اثْنَيْنِ مِنْ تَلاَمِيذِهِ وَقَالَ لَهُمَا: «ﭐذْهَبَا إِلَى الْمَدِينَةِ فَسَيَلْقَاكُمَا رَجُلٌ حَامِلٌ جَرَّةَ مَاءٍ. فَاتْبَعَاهُ.\n",
-"arabiccoptic": " أووه خين بى إيهؤو إنهو إيت إنتى نى أتشيمير. هوتى إفشوت إمبى باصخا. بيجوؤ ناف إنجى نيف ماثيتيس. جى أكؤوش إنتين شينان إثون إنتين سوبتى هينا إنتيك اوأوم إمبى باصخا .\nأووه أف أوأورب إن إسناف إنتى نيف ماثيتيس أووه بيجاف نوأو. جى ماشينوتين إتى فاكى أووه إفنا إير أبان طان إيروتين إنجى أورومى إف فاى إن أو شوشو إمموؤ . موشى إنسوف.\n",
-"coptic": " Ouo\\ =en pi`e\\oou `n\\ouit `nte niat]emhr > \\ote eu]wt `mpipacxa> pejwou naf `nje nefmaqhthc > je akouw] `nten]enan `eqwn `ntencob; \\ina `ntekouwm `mpipacxa\nOuo\\ afouwrp `n`cnau `nte nefmaqhthc ouo\\ pejaf nwou > je ma]enwten `e;baki ouo\\ `fnaer`apantan `erwten `nje ourwmi effai `nou]o]ou `mmwou> mo]i `ncwf...\n",
-"english": " 12 Now on the first day of Unleavened Bread, when they killed the Passover lamb, His disciples said to Him, “Where do You want us to go and prepare, that You may eat the Passover?”\n13 And He sent out two of His disciples and said to them, “Go into the city, and a man will meet you carrying a pitcher of water; follow him.\n",
-"englishcoptic": " Owoh khen pi eho-o enho-eat ente ni atchemeer. hoty efshot empi Bascha. pi go-o naf enje nef mathitees. je ak o-osh enten shinan ethon enten sobty hina entek o-om empi Bascha.\nOwoh af o-orp en esnav ente nef mathitees owoh pigaf no-o. je mashinoten eti vaky owoh efna er a pan tan eroten enje o-romy ef fay en o shosho emmo-o moshy ensof.\n",
-},
-{
-"arabic": " وَحَيْثُمَا يَدْخُلْ فَقُولاَ لِرَبِّ الْبَيْتِ: إِنَّ الْمُعَلِّمَ يَقُولُ: أَيْنَ مَوضِعُ الرَاحَةِ الَّذِي آكُلُ فِيهِ الْفِصْحَ مَعَ تَلاَمِيذِي؟,\nفَهُوَ يُرِيكُمَا عِلِّيَّةً كَبِيرَةً مَفْرُوشَةً مُعَدَّةً. فَهُنَاكَ أَعِدَّا لَنَا».,\nفَخَرَجَ التِلْمِيذَانِ وَأَتَيَا إِلَى الْمَدِينَةِ فَوَجَدَا كَمَا قَالَ لَهُمَا. وَأَعَدَّا الْفِصْحَ.,\n",
-"english": " 14 Wherever he goes in, say to the master of the house, ‘The Teacher says, “Where is the guest room in which I may eat the Passover with My disciples?” ’,\n15 Then he will show you a large upper room, furnished and prepared; there make ready for us.”,\n16 So His disciples went out, and came into the city, and found it just as He had said to them; and they prepared the Passover.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَفِي الْيَوْمِ الأَوَّلِ مِنَ الْفَطِيرِ. إِذْ كَانُوا يَذْبَحُونَ الْفِصْحَ قَالَ لَهُ تَلاَمِيذُهُ: «أَيْنَ تُرِيدُ أَنْ نَمْضِيَ وَنُعِدَّ لِتَأْكُلَ الْفِصْحَ؟»",
+      "Coptic": "Ouo\\ =en pi`e\\oou `n\\ouit `nte niat]emhr > \\ote eu]wt `mpipacxa> pejwou naf `nje nefmaqhthc > je akouw] `nten]enan `eqwn `ntencob; \\ina `ntekouwm `mpipacxa",
+      "English": "12 Now on the first day of Unleavened Bread, when they killed the Passover lamb, His disciples said to Him, “Where do You want us to go and prepare, that You may eat the Passover?”",
+      "Arabiccoptic": "أووه خين بى إيهؤو إنهو إيت إنتى نى أتشيمير. هوتى إفشوت إمبى باصخا. بيجوؤ ناف إنجى نيف ماثيتيس. جى أكؤوش إنتين شينان إثون إنتين سوبتى هينا إنتيك اوأوم إمبى باصخا .",
+      "Englishcoptic": "Owoh khen pi eho-o enho-eat ente ni atchemeer. hoty efshot empi Bascha. pi go-o naf enje nef mathitees. je ak o-osh enten shinan ethon enten sobty hina entek o-om empi Bascha."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَرْسَلَ اثْنَيْنِ مِنْ تَلاَمِيذِهِ وَقَالَ لَهُمَا: «ﭐذْهَبَا إِلَى الْمَدِينَةِ فَسَيَلْقَاكُمَا رَجُلٌ حَامِلٌ جَرَّةَ مَاءٍ. فَاتْبَعَاهُ.",
+      "Coptic": "Ouo\\ afouwrp `n`cnau `nte nefmaqhthc ouo\\ pejaf nwou > je ma]enwten `e;baki ouo\\ `fnaer`apantan `erwten `nje ourwmi effai `nou]o]ou `mmwou> mo]i `ncwf...",
+      "English": "13 And He sent out two of His disciples and said to them, “Go into the city, and a man will meet you carrying a pitcher of water; follow him.",
+      "Arabiccoptic": "أووه أف أوأورب إن إسناف إنتى نيف ماثيتيس أووه بيجاف نوأو. جى ماشينوتين إتى فاكى أووه إفنا إير أبان طان إيروتين إنجى أورومى إف فاى إن أو شوشو إمموؤ . موشى إنسوف.",
+      "Englishcoptic": "Owoh af o-orp en esnav ente nef mathitees owoh pigaf no-o. je mashinoten eti vaky owoh efna er a pan tan eroten enje o-romy ef fay en o shosho emmo-o moshy ensof."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَحَيْثُمَا يَدْخُلْ فَقُولاَ لِرَبِّ الْبَيْتِ: إِنَّ الْمُعَلِّمَ يَقُولُ: أَيْنَ مَوضِعُ الرَاحَةِ الَّذِي آكُلُ فِيهِ الْفِصْحَ مَعَ تَلاَمِيذِي؟",
+      "English": "14 Wherever he goes in, say to the master of the house, ‘The Teacher says, “Where is the guest room in which I may eat the Passover with My disciples?” ’"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَهُوَ يُرِيكُمَا عِلِّيَّةً كَبِيرَةً مَفْرُوشَةً مُعَدَّةً. فَهُنَاكَ أَعِدَّا لَنَا».",
+      "English": "15 Then he will show you a large upper room, furnished and prepared; there make ready for us.”"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَخَرَجَ التِلْمِيذَانِ وَأَتَيَا إِلَى الْمَدِينَةِ فَوَجَدَا كَمَا قَالَ لَهُمَا. وَأَعَدَّا الْفِصْحَ.",
+      "English": "16 So His disciples went out, and came into the city, and found it just as He had said to them; and they prepared the Passover."
+    }
+  ]
 }

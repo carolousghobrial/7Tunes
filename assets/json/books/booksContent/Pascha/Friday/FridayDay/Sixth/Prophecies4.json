@@ -1,22 +1,59 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وَيَكُونُ فِي ذَلِكَ الْيَوْمِ يَقُولُ السَّيِّدُ الرَّبُّ تَغيبُ الشَّمْسَ وَقتَ الظُّهيرةِ وَيظلَمُّ النُورُ عَلَى الأَرْضِ فِي النهار.\nوَأُحَوِّلُ أَعْيَادَكُمْ نَوْحاً وَجَمِيعَ تسابيحكُمْ رِثاء\n",
-"arabiccoptic": " أووه إس إشوبى خين بى إيهوؤ إيتى إم ماف بيجى إبشويس إفنوتى. إف إ هوتب إنجى إفرى إم إفناف إم ميرى أووه إف إ إركاكى هيجين إبكاهى. إنجى بى أوأوينى خين بى إيهوؤ. أووه تينا فونه إن نى تين شاى إ أوهيفى.\nأووه نى تين هوذى تيرو إفنيهبى.\n",
-"coptic": " Ouo\\ ec`e]pi =en pi`e\\oou` ete`mmau peje Po/c/ V;> ef`e\\wtp `nje `vrh `m`vnau `mmeri ouo\\ ef`eerxaki \\ijen `pka\\i `nje piouwini =en pi`e\\oou>\nOuo\\ ;navwn\\ `nneten]ai eou\\hbi ouo\\ neten\\wdh throu eune\\pi\n",
-"english": " \"And it will come to pass in that day,\" says the Lord God, \"the sun will set at noon, and the light of day will grow dark over the land.\nAnd I shall turn your feasts into mourning and all your songs into lamentation.\n",
-"englishcoptic": " Owoh es eshopy khen pi eho-o ete emmav pije Epshois Evnouty. ef e hotp enje efry em efnav emmery owoh ef e erkaky hijen epkahy. enje pi o-oiny khen pi eho-o. owoh tina vonh enni ten shay e o hevi.\nOwoh ni ten hoze tiro efnehpy.\n",
-},
-{
-"arabic": " وَأضَعُ عَلَى كُلِّ حَقوٍ مِسْحَاً وَعَلَى كُلِّ رَأْسٍ قُرَحَاً,\nوَأَجْعَلُه مثل الحَزين على فقد حبيبه والذين معه مثل يوم الحزن!,\n«هُوَذَا سَتَأْتِي أَيَّامٌ يَقُولُ السَّيِّدُ الرَّبُّ إنِّى أُرْسِلُ غَلاَءً على الأَرْضِ. ولَيس هُوَّ غَلاَءٌ إلى الْخُبْزِ أو العطش إلى الْمَاءِ. بَلْ هو غَلاَءٌ إلى اِسْتِمَاعِ كَلِمَةِ الرَّبِّ.,\nفَتَتَحَوَّلُ المياةُ إِلَى قَاعِ البَحْرِ وَيَطُوفُونَ مِنَ الْمَشْرِقِ إِلَى الْمَغْرِبِ فِى طَلَبِ كَلِمَةِ الرَّبِّ فَلاَ يَجِدُونَ.,\n",
-"english": " I shall place sackcloth on every waist and make every head bald.,\nThey shall be as one mourning a beloved one, and those with them as a day of grief.\",\n\"Behold, the days will come,\" says the Lord, \"that I shall send a famine across the land; not a famine of bread nor a thirst for water, but famine to hear the words of the Lord.,\nThe waters will be unsettled as far as the sea. And from the north to the east men will scurry about seeking to find the word of the Lord, but they will not find it.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيَكُونُ فِي ذَلِكَ الْيَوْمِ يَقُولُ السَّيِّدُ الرَّبُّ تَغيبُ الشَّمْسَ وَقتَ الظُّهيرةِ وَيظلَمُّ النُورُ عَلَى الأَرْضِ فِي النهار.",
+      "Coptic": "Ouo\\ ec`e]pi =en pi`e\\oou` ete`mmau peje Po/c/ V;> ef`e\\wtp `nje `vrh `m`vnau `mmeri ouo\\ ef`eerxaki \\ijen `pka\\i `nje piouwini =en pi`e\\oou>",
+      "English": "\"And it will come to pass in that day,\" says the Lord God, \"the sun will set at noon, and the light of day will grow dark over the land.",
+      "Arabiccoptic": "أووه إس إشوبى خين بى إيهوؤ إيتى إم ماف بيجى إبشويس إفنوتى. إف إ هوتب إنجى إفرى إم إفناف إم ميرى أووه إف إ إركاكى هيجين إبكاهى. إنجى بى أوأوينى خين بى إيهوؤ. أووه تينا فونه إن نى تين شاى إ أوهيفى.",
+      "Englishcoptic": "Owoh es eshopy khen pi eho-o ete emmav pije Epshois Evnouty. ef e hotp enje efry em efnav emmery owoh ef e erkaky hijen epkahy. enje pi o-oiny khen pi eho-o. owoh tina vonh enni ten shay e o hevi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأُحَوِّلُ أَعْيَادَكُمْ نَوْحاً وَجَمِيعَ تسابيحكُمْ رِثاء",
+      "Coptic": "Ouo\\ ;navwn\\ `nneten]ai eou\\hbi ouo\\ neten\\wdh throu eune\\pi",
+      "English": "And I shall turn your feasts into mourning and all your songs into lamentation.",
+      "Arabiccoptic": "أووه نى تين هوذى تيرو إفنيهبى.",
+      "Englishcoptic": "Owoh ni ten hoze tiro efnehpy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأضَعُ عَلَى كُلِّ حَقوٍ مِسْحَاً وَعَلَى كُلِّ رَأْسٍ قُرَحَاً",
+      "English": "I shall place sackcloth on every waist and make every head bald."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَجْعَلُه مثل الحَزين على فقد حبيبه والذين معه مثل يوم الحزن!",
+      "English": "They shall be as one mourning a beloved one, and those with them as a day of grief.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "«هُوَذَا سَتَأْتِي أَيَّامٌ يَقُولُ السَّيِّدُ الرَّبُّ إنِّى أُرْسِلُ غَلاَءً على الأَرْضِ. ولَيس هُوَّ غَلاَءٌ إلى الْخُبْزِ أو العطش إلى الْمَاءِ. بَلْ هو غَلاَءٌ إلى اِسْتِمَاعِ كَلِمَةِ الرَّبِّ.",
+      "English": "\"Behold, the days will come,\" says the Lord, \"that I shall send a famine across the land; not a famine of bread nor a thirst for water, but famine to hear the words of the Lord."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَتَتَحَوَّلُ المياةُ إِلَى قَاعِ البَحْرِ وَيَطُوفُونَ مِنَ الْمَشْرِقِ إِلَى الْمَغْرِبِ فِى طَلَبِ كَلِمَةِ الرَّبِّ فَلاَ يَجِدُونَ.",
+      "English": "The waters will be unsettled as far as the sea. And from the north to the east men will scurry about seeking to find the word of the Lord, but they will not find it."
+    }
+  ]
 }

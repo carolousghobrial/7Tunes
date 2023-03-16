@@ -1,4 +1,95 @@
 {
-"arabic": " (R),\n()1 فِي ذلِكَ الْيَوْمِ يُغَنَّى بِهذِهِ الأُغْنِيَّةِ فِي أَرْضِ يَهُوذَا: لَنَا مَدِينَةٌ قَوِيَّةٌ. يَجْعَلُ الْخَلاَصَ أَسْوَارًا وَمَتْرَسَةً.,\n2 اِفْتَحُوا الأَبْوَابَ لِتَدْخُلَ الأُمَّةُ الْبَارَّةُ الْحَافِظَةُ الأَمَانَةَ.,\n3 ذُو الرَّأْيِ الْمُمَكَّنِ تَحْفَظُهُ سَالِمًا سَالِمًا، لأَنَّهُ عَلَيْكَ مُتَوَكِّلٌ.,\n4 تَوَكَّلُوا عَلَى الرَّبِّ إِلَى الأَبَدِ، لأَنَّ فِي يَاهَ الرَّبِّ صَخْرَ الدُّهُورِ.,\n5 لأَنَّهُ يَخْفِضُ سُكَّانَ الْعَلاَءِ، يَضَعُ الْقَرْيَةَ الْمُرْتَفِعَةَ. يَضَعُهَا إِلَى الأَرْضِ. يُلْصِقُهَا بِالتُّرَابِ.,\n6 تَدُوسُهَا الرِّجْلُ، رِجْلاَ الْبَائِسِ، أَقْدَامُ الْمَسَاكِينِ.,\n7 طَرِيقُ الصِّدِّيقِ اسْتِقَامَةٌ. تُمَهِّدُ أَيُّهَا الْمُسْتَقِيمُ سَبِيلَ الصِّدِّيقِ.,\n8 فَفِي طَرِيقِ أَحْكَامِكَ يَا رَبُّ انْتَظَرْنَاكَ. إِلَى اسْمِكَ وَإِلَى ذِكْرِكَ شَهْوَةُ النَّفْسِ.,\n9 بِنَفْسِي اشْتَهَيْتُكَ فِي اللَّيْلِ. أَيْضًا بِرُوحِي فِي دَاخِلِي إِلَيْكَ أَبْتَكِرُ. لأَنَّهُ حِينَمَا تَكُونُ أَحْكَامُكَ فِي الأَرْضِ يَتَعَلَّمُ سُكَّانُ الْمَسْكُونَةِ الْعَدْلَ.,\nوالسبح لله دائماً.,\n()",
-"english": " (R),\n()In that day this song will be sung in the land of Judah: \"We have a strong city; [God] will appoint salvation [for] walls and bulwarks.,\n2 Open the gates, That the righteous nation which keeps the truth may enter in.,\n3 You will keep [him] in perfect peace, [Whose] mind [is] stayed [on You,] Because he trusts in You.,\n4 Trust in the LORD forever, For in YAH, the LORD, [is] everlasting strength.,\n5 For He brings down those who dwell on high, The lofty city; He lays it low, He lays it low to the ground, He brings it down to the dust.,\n6 The foot shall tread it down The feet of the poor [And] the steps of the needy.\",\n7 The way of the just [is] uprightness; O Most Upright, You weigh the path of the just.,\n8 Yes, in the way of Your judgments, O LORD, we have waited for You; The desire of [our] soul [is] for Your name And for the remembrance of You.,\n9 With my soul I have desired You in the night, Yes, by my spirit within me I will seek You early; For when Your judgments [are] in the earth, The inhabitants of the world will learn righteousness.,\nPraise be to God forever. Amen.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة اشعياء الثالث",
+  "EnglishTitle": "Third Prayer of Isaiah ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "1 فِي ذلِكَ الْيَوْمِ يُغَنَّى بِهذِهِ الأُغْنِيَّةِ فِي أَرْضِ يَهُوذَا: لَنَا مَدِينَةٌ قَوِيَّةٌ. يَجْعَلُ الْخَلاَصَ أَسْوَارًا وَمَتْرَسَةً.,",
+      "English": "In that day this song will be sung in the land of Judah: \"We have a strong city; [God] will appoint salvation [for] walls and bulwarks.,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "2 اِفْتَحُوا الأَبْوَابَ لِتَدْخُلَ الأُمَّةُ الْبَارَّةُ الْحَافِظَةُ الأَمَانَةَ.",
+      "English": "2 Open the gates, That the righteous nation which keeps the truth may enter in."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "3 ذُو الرَّأْيِ الْمُمَكَّنِ تَحْفَظُهُ سَالِمًا سَالِمًا، لأَنَّهُ عَلَيْكَ مُتَوَكِّلٌ.",
+      "English": "3 You will keep [him] in perfect peace, [Whose] mind [is] stayed [on You,] Because he trusts in You."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "4 تَوَكَّلُوا عَلَى الرَّبِّ إِلَى الأَبَدِ، لأَنَّ فِي يَاهَ الرَّبِّ صَخْرَ الدُّهُورِ.",
+      "English": "4 Trust in the LORD forever, For in YAH, the LORD, [is] everlasting strength."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "5 لأَنَّهُ يَخْفِضُ سُكَّانَ الْعَلاَءِ، يَضَعُ الْقَرْيَةَ الْمُرْتَفِعَةَ. يَضَعُهَا إِلَى الأَرْضِ. يُلْصِقُهَا بِالتُّرَابِ.",
+      "English": "5 For He brings down those who dwell on high, The lofty city; He lays it low, He lays it low to the ground, He brings it down to the dust."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "6 تَدُوسُهَا الرِّجْلُ، رِجْلاَ الْبَائِسِ، أَقْدَامُ الْمَسَاكِينِ.",
+      "English": "6 The foot shall tread it down The feet of the poor [And] the steps of the needy.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "7 طَرِيقُ الصِّدِّيقِ اسْتِقَامَةٌ. تُمَهِّدُ أَيُّهَا الْمُسْتَقِيمُ سَبِيلَ الصِّدِّيقِ.",
+      "English": "7 The way of the just [is] uprightness; O Most Upright, You weigh the path of the just."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "8 فَفِي طَرِيقِ أَحْكَامِكَ يَا رَبُّ انْتَظَرْنَاكَ. إِلَى اسْمِكَ وَإِلَى ذِكْرِكَ شَهْوَةُ النَّفْسِ.",
+      "English": "8 Yes, in the way of Your judgments, O LORD, we have waited for You; The desire of [our] soul [is] for Your name And for the remembrance of You."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "9 بِنَفْسِي اشْتَهَيْتُكَ فِي اللَّيْلِ. أَيْضًا بِرُوحِي فِي دَاخِلِي إِلَيْكَ أَبْتَكِرُ. لأَنَّهُ حِينَمَا تَكُونُ أَحْكَامُكَ فِي الأَرْضِ يَتَعَلَّمُ سُكَّانُ الْمَسْكُونَةِ الْعَدْلَ.",
+      "English": "9 With my soul I have desired You in the night, Yes, by my spirit within me I will seek You early; For when Your judgments [are] in the earth, The inhabitants of the world will learn righteousness."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والسبح لله دائماً.",
+      "English": "Praise be to God forever. Amen."
+    }
+  ]
 }

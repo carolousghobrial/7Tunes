@@ -1,4 +1,117 @@
 {
-"arabic": " (R),\n()٨: ١ و لما فتح الختم السابع حدث سكوت في السماء نحو نصف ساعة,\n٨: ٢ و رايت السبعة الملائكة الذين يقفون امام الله و قد اعطوا سبعة ابواق,\n٨: ٣ و جاء ملاك اخر و وقف عند المذبح و معه مبخرة من ذهب و اعطي بخورا كثيرا لكي يقدمه مع صلوات القديسين جميعهم على مذبح الذهب الذي امام العرش,\n٨: ٤ فصعد دخان البخور مع صلوات القديسين من يد الملاك امام الله,\n٨: ٥ ثم اخذ الملاك المبخرة و ملاها من نار المذبح و القاها الى الارض فحدثت اصوات و رعود و بروق و زلزلة,\n٨: ٦ ثم ان السبعة الملائكة الذين معهم السبعة الابواق تهياوا لكي يبوقوا,\n٨: ٧ فبوق الملاك الاول فحدث برد و نار مخلوطان بدم و القيا الى الارض فاحترق ثلث الاشجار و احترق كل عشب اخضر,\n٨: ٨ ثم بوق الملاك الثاني فكان جبلا عظيما متقدا بالنار القي الى البحر فصار ثلث البحر دما,\n٨: ٩ و مات ثلث الخلائق التي في البحر التي لها حياة و اهلك ثلث السفن,\n٨: ١٠ ثم بوق الملاك الثالث فسقط من السماء كوكب عظيم متقد كمصباح و وقع على ثلث الانهار و على ينابيع المياه,\n٨: ١١ و اسم الكوكب يدعى الافسنتين فصار ثلث المياه افسنتينا و مات كثيرون من الناس من المياه لانها صارت مرة,\n٨: ١٢ ثم بوق الملاك الرابع فضرب ثلث الشمس و ثلث القمر و ثلث النجوم حتى يظلم ثلثهن و النهار لا يضيء ثلثه و الليل كذلك,\n٨: ١٣ ثم نظرت و سمعت ملاكا طائرا في وسط السماء قائلا بصوت عظيم ويل ويل ويل للساكنين على الارض من اجل بقية اصوات ابواق الثلاثة الملائكة المزمعين ان يبوقوا,\n()",
-"english": " (R),\n()When He opened the seventh seal, there was silence in heaven for about half an hour.,\n2 And I saw the seven angels who stand before God, and to them were given seven trumpets.,\n3 Then another angel, having a golden censer, came and stood at the altar. He was given much incense, that he should offer [it] with the prayers of all the saints upon the golden altar which was before the throne.,\n4 And the smoke of the incense, with the prayers of the saints, ascended before God from the angel's hand.,\n5 Then the angel took the censer, filled it with fire from the altar, and threw [it] to the earth. And there were noises, thunderings, lightnings, and an earthquake.,\n6 So the seven angels who had the seven trumpets prepared themselves to sound.,\n7 The first angel sounded: And hail and fire followed, mingled with blood, and they were thrown to the earth. And a third of the trees were burned up, and all green grass was burned up.,\n8 Then the second angel sounded: And [something] like a great mountain burning with fire was thrown into the sea, and a third of the sea became blood.,\n9 And a third of the living creatures in the sea died, and a third of the ships were destroyed.,\n10 Then the third angel sounded: And a great star fell from heaven, burning like a torch, and it fell on a third of the rivers and on the springs of water.,\n11 The name of the star is Wormwood. A third of the waters became wormwood, and many men died from the water, because it was made bitter.,\n12 Then the fourth angel sounded: And a third of the sun was struck, a third of the moon, and a third of the stars, so that a third of them were darkened. A third of the day did not shine, and likewise the night.,\n13 And I looked, and I heard an angel flying through the midst of heaven, saying with a loud voice, \"Woe, woe, woe to the inhabitants of the earth, because of the remaining blasts of the trumpet of the three angels who are about to sound!\",\n()",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ١ و لما فتح الختم السابع حدث سكوت في السماء نحو نصف ساعة,",
+      "English": "When He opened the seventh seal, there was silence in heaven for about half an hour.,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ٢ و رايت السبعة الملائكة الذين يقفون امام الله و قد اعطوا سبعة ابواق",
+      "English": "2 And I saw the seven angels who stand before God, and to them were given seven trumpets."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ٣ و جاء ملاك اخر و وقف عند المذبح و معه مبخرة من ذهب و اعطي بخورا كثيرا لكي يقدمه مع صلوات القديسين جميعهم على مذبح الذهب الذي امام العرش",
+      "English": "3 Then another angel, having a golden censer, came and stood at the altar. He was given much incense, that he should offer [it] with the prayers of all the saints upon the golden altar which was before the throne."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ٤ فصعد دخان البخور مع صلوات القديسين من يد الملاك امام الله",
+      "English": "4 And the smoke of the incense, with the prayers of the saints, ascended before God from the angel's hand."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ٥ ثم اخذ الملاك المبخرة و ملاها من نار المذبح و القاها الى الارض فحدثت اصوات و رعود و بروق و زلزلة",
+      "English": "5 Then the angel took the censer, filled it with fire from the altar, and threw [it] to the earth. And there were noises, thunderings, lightnings, and an earthquake."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ٦ ثم ان السبعة الملائكة الذين معهم السبعة الابواق تهياوا لكي يبوقوا",
+      "English": "6 So the seven angels who had the seven trumpets prepared themselves to sound."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ٧ فبوق الملاك الاول فحدث برد و نار مخلوطان بدم و القيا الى الارض فاحترق ثلث الاشجار و احترق كل عشب اخضر",
+      "English": "7 The first angel sounded: And hail and fire followed, mingled with blood, and they were thrown to the earth. And a third of the trees were burned up, and all green grass was burned up."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ٨ ثم بوق الملاك الثاني فكان جبلا عظيما متقدا بالنار القي الى البحر فصار ثلث البحر دما",
+      "English": "8 Then the second angel sounded: And [something] like a great mountain burning with fire was thrown into the sea, and a third of the sea became blood."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ٩ و مات ثلث الخلائق التي في البحر التي لها حياة و اهلك ثلث السفن",
+      "English": "9 And a third of the living creatures in the sea died, and a third of the ships were destroyed."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ١٠ ثم بوق الملاك الثالث فسقط من السماء كوكب عظيم متقد كمصباح و وقع على ثلث الانهار و على ينابيع المياه",
+      "English": "10 Then the third angel sounded: And a great star fell from heaven, burning like a torch, and it fell on a third of the rivers and on the springs of water."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ١١ و اسم الكوكب يدعى الافسنتين فصار ثلث المياه افسنتينا و مات كثيرون من الناس من المياه لانها صارت مرة",
+      "English": "11 The name of the star is Wormwood. A third of the waters became wormwood, and many men died from the water, because it was made bitter."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ١٢ ثم بوق الملاك الرابع فضرب ثلث الشمس و ثلث القمر و ثلث النجوم حتى يظلم ثلثهن و النهار لا يضيء ثلثه و الليل كذلك",
+      "English": "12 Then the fourth angel sounded: And a third of the sun was struck, a third of the moon, and a third of the stars, so that a third of them were darkened. A third of the day did not shine, and likewise the night."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٨: ١٣ ثم نظرت و سمعت ملاكا طائرا في وسط السماء قائلا بصوت عظيم ويل ويل ويل للساكنين على الارض من اجل بقية اصوات ابواق الثلاثة الملائكة المزمعين ان يبوقوا",
+      "English": "13 And I looked, and I heard an angel flying through the midst of heaven, saying with a loud voice, \"Woe, woe, woe to the inhabitants of the earth, because of the remaining blasts of the trumpet of the three angels who are about to sound!\""
+    }
+  ]
 }

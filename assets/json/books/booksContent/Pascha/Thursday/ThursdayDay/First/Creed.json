@@ -1,26 +1,64 @@
 {
-  "hymn": "",
-  "exposition": [
+  "RefrainAfter": 0,
+  "Hymn": [
     {
-      "arabic": "",
-      "arabiccoptic": "",
-      "coptic": "",
-      "english": "",
-      "englishcoptic": ""
-    },
-
-    {
-      "arabic": "(C)\n بالحقيقة نؤمن بإله واحد، الله الآب، ضابط الكل، خالق السماء والأرض، ما يُرى وما لا يُرى.,\nنؤمن برب واحد يسوع المسيح، إبن الله الوحيد، المولود من الآب قبل كل الدهور.,\nنور من نور، إله حق من إله حق. مولود غير مخلوق، مساوي للآب في الجوهر، الذي به كان كل شيء. هذا الذي من أجلنا نحن البشر، ومن أجل خلاصنا، نزل من السماء، وتجسد من الروح القدس ومن مريم العذراء، وتأنس.,\nنعم نؤمن بالروح القدس، الرب المحيي المنبثق من الآب. نسجد له ونمجده مع الآب والإبن، الناطق في الأنبياء.,\nوبكنيسة واحدة مقدسة جامعة رسولية. ونعترف بمعمودية واحدة لمغفرة الخطايا.\n",
-      "english": "(C)\n We believe in one God, God the Father, the Pantocrator, who created heaven and earth, and all things, seen and unseen.,\nWe believe in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages.,\nLight out of Light, true God of true God; begotten not created, of one essence with the Father, by whom all things were made; who for us men and for our salvation, came down from heaven, and was incarnate of the Holy Spirit and of the Virgin Mary, and became man.,\n Yes, we believe in the Holy Spirit, the Lord, the Life-Giver, who proceeds from the Father, who, with the Father and the Son, is worshipped and glorified, who spoke by the prophets.,\nAnd in one holy, catholic and apostolic Church. We confess one baptism for the remission of sins.,\n"
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
     },
     {
-      "arabic": " وننتظر قيامة الأموات وحياة الدهر الآتي. آمين.,\n",
-      "arabiccoptic": "تين جوشت ايفول خا اتهي انتي آناسطاسيس انتي نيريف موؤوت . نيم بي اونخ انتي بي اؤون اثنيو آمين\n",
-      "coptic": "Tenjou]t `ebol =a `t\\h `n;`anactacic ``nte nirefmwout nem piwn= ``nte pi`ewn eqnhou. `Amhn.\n",
-      "english": "We look for the resurrection of the dead, and the life of the age to come. Amen.,\n",
-      "englishcoptic": "Ten gosht evol kha et-hi enti anastasis ente ni ref-mo-oot nem pi-onkh ente pi e-on thneo Amen.\n"
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بالحقيقة نؤمن بإله واحد، الله الآب، ضابط الكل، خالق السماء والأرض، ما يُرى وما لا يُرى.",
+      "English": "We believe in one God, God the Father, the Pantocrator, who created heaven and earth, and all things, seen and unseen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نؤمن برب واحد يسوع المسيح، إبن الله الوحيد، المولود من الآب قبل كل الدهور.",
+      "English": "We believe in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نور من نور، إله حق من إله حق. مولود غير مخلوق، مساوي للآب في الجوهر، الذي به كان كل شيء. هذا الذي من أجلنا نحن البشر، ومن أجل خلاصنا، نزل من السماء، وتجسد من الروح القدس ومن مريم العذراء، وتأنس.",
+      "English": "Light out of Light, true God of true God; begotten not created, of one essence with the Father, by whom all things were made; who for us men and for our salvation, came down from heaven, and was incarnate of the Holy Spirit and of the Virgin Mary, and became man."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نعم نؤمن بالروح القدس، الرب المحيي المنبثق من الآب. نسجد له ونمجده مع الآب والإبن، الناطق في الأنبياء.",
+      "English": "Yes, we believe in the Holy Spirit, the Lord, the Life-Giver, who proceeds from the Father, who, with the Father and the Son, is worshipped and glorified, who spoke by the prophets."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبكنيسة واحدة مقدسة جامعة رسولية. ونعترف بمعمودية واحدة لمغفرة الخطايا.",
+      "English": "And in one holy, catholic and apostolic Church. We confess one baptism for the remission of sins."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وننتظر قيامة الأموات وحياة الدهر الآتي. آمين.",
+      "Coptic": "Tenjou]t `ebol =a `t\\h `n;`anactacic ``nte nirefmwout nem piwn= ``nte pi`ewn eqnhou. `Amhn.",
+      "English": "We look for the resurrection of the dead, and the life of the age to come. Amen.",
+      "Arabiccoptic": "تين جوشت ايفول خا اتهي انتي آناسطاسيس انتي نيريف موؤوت . نيم بي اونخ انتي بي اؤون اثنيو آمين",
+      "Englishcoptic": "Ten gosht evol kha et-hi enti anastasis ente ni ref-mo-oot nem pi-onkh ente pi e-on thneo Amen."
     }
-
   ]
 }
-

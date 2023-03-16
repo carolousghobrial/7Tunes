@@ -1,4 +1,69 @@
 {
-"arabic": " اسمعوا وتأملوا ولا ترفعوالأن الرب قد تكلم،,\nمجدوا الرب إلهكم قبل أن يصير ظلاما وقبل أن تعثر أرجلكم على الجبال العتمة، فترقبون النور ويكون هناك ظل الموت، وتترك ظلاماً دامساً,\nفإن لم تسمعوا ذلك فستبكى نفوسكم في الخفاء من جهة خزيكم وتذرف أعينكم دموعا، لأنه قد سحق قطيع الرب.,\nقل للمك والأعزاء تواضعوا واجلسوا لأنه قد نزع تاج مجدكم عن روؤسكم.,\nقد أغلقت مدن التيمن وليس من فاتح لها. سبيت يهوذا باكملها سبيا عظيما عن أخرها بالتمام.,\nارفعى عينيك يا أورشليم وانظرى إلى المقبلين إليك من الشمال، أين القطيع الذي أعطى لك؟ أين غنم مجدك؟,\nمذا تقولين عندما يفتقدك؟ لأنك أنت قد علمتيهم تعاليماً بأن يقوموا عليك منذ البدء. أفلا تأخذك الأوجاع كالمرأة التي تلد,\nوإن قلت في قلبك: كيف أصابنى هذا؟ فهو من أجل كثرة ظلمك.,\n()",
-"english": " 15 Hear and give ear: Do not be proud, For the Lord has spoken.,\n16 Give glory to the Lord your God Before He causes darkness, And before your feet stumble On the dark mountains, And while you are looking for light, He turns it into the shadow of death And makes it dense darkness.,\n17 But if you will not hear it. My soul will weep in secret for your pride; My eyes will weep bitterly And run down with tears, Because the Lord's flock has been taken captive. 18 Say to the king and to the queen mother, \"Humble yourselves; Sit down, For your rule shall collapse, the crown of your glory.\",\n19 The cities of the South shall be shut up, And no one shall open them; Judah shall be carried away captive, all of it; It shall be wholly carried away captive.,\n20 Lift up your eyes and see Those who come from the north. Where is,\nThe flock that was given to you, Your beautiful sheep?,\n21 What will you say when He punishes you? For you have taught them To be chieftains, to be head over you. Will not pangs seize you, Like a woman in labor?,\n22 And if you say in your heart, \"Why have these things come upon me?\" For the greatness of your iniquity Your skirts have been uncovered, Your heels made bare.,\n()",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اسمعوا وتأملوا ولا ترفعوالأن الرب قد تكلم،",
+      "English": "15 Hear and give ear: Do not be proud, For the Lord has spoken."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مجدوا الرب إلهكم قبل أن يصير ظلاما وقبل أن تعثر أرجلكم على الجبال العتمة، فترقبون النور ويكون هناك ظل الموت، وتترك ظلاماً دامساً",
+      "English": "16 Give glory to the Lord your God Before He causes darkness, And before your feet stumble On the dark mountains, And while you are looking for light, He turns it into the shadow of death And makes it dense darkness."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فإن لم تسمعوا ذلك فستبكى نفوسكم في الخفاء من جهة خزيكم وتذرف أعينكم دموعا، لأنه قد سحق قطيع الرب.",
+      "English": "17 But if you will not hear it. My soul will weep in secret for your pride; My eyes will weep bitterly And run down with tears, Because the Lord's flock has been taken captive. 18 Say to the king and to the queen mother, \"Humble yourselves; Sit down, For your rule shall collapse, the crown of your glory.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قل للمك والأعزاء تواضعوا واجلسوا لأنه قد نزع تاج مجدكم عن روؤسكم.",
+      "English": "19 The cities of the South shall be shut up, And no one shall open them; Judah shall be carried away captive, all of it; It shall be wholly carried away captive."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قد أغلقت مدن التيمن وليس من فاتح لها. سبيت يهوذا باكملها سبيا عظيما عن أخرها بالتمام.",
+      "English": "20 Lift up your eyes and see Those who come from the north. Where is"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارفعى عينيك يا أورشليم وانظرى إلى المقبلين إليك من الشمال، أين القطيع الذي أعطى لك؟ أين غنم مجدك؟",
+      "English": "The flock that was given to you, Your beautiful sheep?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مذا تقولين عندما يفتقدك؟ لأنك أنت قد علمتيهم تعاليماً بأن يقوموا عليك منذ البدء. أفلا تأخذك الأوجاع كالمرأة التي تلد",
+      "English": "21 What will you say when He punishes you? For you have taught them To be chieftains, to be head over you. Will not pangs seize you, Like a woman in labor?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وإن قلت في قلبك: كيف أصابنى هذا؟ فهو من أجل كثرة ظلمك.",
+      "English": "22 And if you say in your heart, \"Why have these things come upon me?\" For the greatness of your iniquity Your skirts have been uncovered, Your heels made bare."
+    }
+  ]
 }

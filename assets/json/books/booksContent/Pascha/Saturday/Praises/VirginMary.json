@@ -1,4 +1,103 @@
 {
-"arabic": " (R),\n()46 فَقَالَتْ مَرْيَمُ:«تُعَظِّمُ نَفْسِي الرَّبَّ،,\n47 وَتَبْتَهِجُ رُوحِي بِاللهِ مُخَلِّصِي،,\n48 لأَنَّهُ نَظَرَ إِلَى اتِّضَاعِ أَمَتِهِ. فَهُوَذَا مُنْذُ الآنَ جَمِيعُ الأَجْيَالِ تُطَوِّبُنِي،,\n49 لأَنَّ الْقَدِيرَ صَنَعَ بِي عَظَائِمَ، وَاسْمُهُ قُدُّوسٌ،,\n50 وَرَحْمَتُهُ إِلَى جِيلِ الأَجْيَالِ لِلَّذِينَ يَتَّقُونَهُ.,\n51 صَنَعَ قُوَّةً بِذِرَاعِهِ. شَتَّتَ الْمُسْتَكْبِرِينَ بِفِكْرِ قُلُوبِهِمْ.,\n52 أَنْزَلَ الأَعِزَّاءَ عَنِ الْكَرَاسِيِّ وَرَفَعَ الْمُتَّضِعِينَ.,\n53 أَشْبَعَ الْجِيَاعَ خَيْرَاتٍ وَصَرَفَ الأَغْنِيَاءَ فَارِغِينَ.,\n54 عَضَدَ إِسْرَائِيلَ فَتَاهُ لِيَذْكُرَ رَحْمَةً،,\n55 كَمَا كَلَّمَ آبَاءَنَا. لإِبْراهِيمَ وَنَسْلِهِ إِلَى الأَبَدِ».,\nوالسبح لله دائماً. آمين.,\n()",
-"english": " (R),\n()46 And Mary said: \"My soul magnifies the Lord,,\n47 And my spirit has rejoiced in God my Savior.,\n48 For He has regarded the lowly state of His maidservant; For behold, henceforth all generations will call me blessed.,\n49 For He who is mighty has done great things for me, And holy [is] His name.,\n50 And His mercy [is] on those who fear Him From generation to generation.,\n51 He has shown strength with His arm; He has scattered [the] proud in the imagination of their hearts.,\n52 He has put down the mighty from [their] thrones, And exalted [the] lowly.,\n53 He has filled [the] hungry with good things, And [the] rich He has sent away empty.,\n54 He has helped His servant Israel, In remembrance of [His] mercy,,\n55 As He spoke to our fathers, To Abraham and to his seed forever.\",\nPraise be to God forever. Amen.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة العذراء مريم",
+  "EnglishTitle": "Prayer of St.Mary the Virgin ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "46 فَقَالَتْ مَرْيَمُ:«تُعَظِّمُ نَفْسِي الرَّبَّ،,",
+      "English": "46 And Mary said: \"My soul magnifies the Lord,,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "47 وَتَبْتَهِجُ رُوحِي بِاللهِ مُخَلِّصِي،",
+      "English": "47 And my spirit has rejoiced in God my Savior."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "48 لأَنَّهُ نَظَرَ إِلَى اتِّضَاعِ أَمَتِهِ. فَهُوَذَا مُنْذُ الآنَ جَمِيعُ الأَجْيَالِ تُطَوِّبُنِي،",
+      "English": "48 For He has regarded the lowly state of His maidservant; For behold, henceforth all generations will call me blessed."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "49 لأَنَّ الْقَدِيرَ صَنَعَ بِي عَظَائِمَ، وَاسْمُهُ قُدُّوسٌ،",
+      "English": "49 For He who is mighty has done great things for me, And holy [is] His name."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "50 وَرَحْمَتُهُ إِلَى جِيلِ الأَجْيَالِ لِلَّذِينَ يَتَّقُونَهُ.",
+      "English": "50 And His mercy [is] on those who fear Him From generation to generation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "51 صَنَعَ قُوَّةً بِذِرَاعِهِ. شَتَّتَ الْمُسْتَكْبِرِينَ بِفِكْرِ قُلُوبِهِمْ.",
+      "English": "51 He has shown strength with His arm; He has scattered [the] proud in the imagination of their hearts."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "52 أَنْزَلَ الأَعِزَّاءَ عَنِ الْكَرَاسِيِّ وَرَفَعَ الْمُتَّضِعِينَ.",
+      "English": "52 He has put down the mighty from [their] thrones, And exalted [the] lowly."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "53 أَشْبَعَ الْجِيَاعَ خَيْرَاتٍ وَصَرَفَ الأَغْنِيَاءَ فَارِغِينَ.",
+      "English": "53 He has filled [the] hungry with good things, And [the] rich He has sent away empty."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "54 عَضَدَ إِسْرَائِيلَ فَتَاهُ لِيَذْكُرَ رَحْمَةً،",
+      "English": "54 He has helped His servant Israel, In remembrance of [His] mercy"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "55 كَمَا كَلَّمَ آبَاءَنَا. لإِبْراهِيمَ وَنَسْلِهِ إِلَى الأَبَدِ».",
+      "English": "55 As He spoke to our fathers, To Abraham and to his seed forever.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والسبح لله دائماً. آمين.",
+      "English": "Praise be to God forever. Amen."
+    }
+  ]
 }

@@ -1,4 +1,103 @@
 {
-"arabic": " مكتوب فى الكتب هكذا, أن نفوسنا إذا كانت مرتبطة بناموس الله فلن تقوى علينا قوات الظلمة. وإذا إبتعدنا عن الله فهى تتسلط علينا.,\nفأنت أيها الإنسان الذى تريد أن تخلص علِّم ذاتك أن تَسْبَحَ فى لُجَّةِ غِنَى وحكمة الله.,\nإبسط يديك مثال الصليب لتعبر البحر العظيم. الذى هو هذا الدهر وتمضى إلى الله.,\nفأمَّا الشكوكُ المانعة من السباحة فهى للذين يسلكون خارجاً عن أوامر الكنيسة الجامعة أعنى عدم الإيمان , الزنا , النميمة , محبة الفضة التى هى أصل لكل الشرور.,\nأمَّا علامة الصليب فهى مبسوطة على كل الخليقة.,\nالشمس إذا لم ترسل شعاعها لاتستطيع أن تضئ والقمر إذا لم يبسط قرنيه لاينير.,\nوكذلك طيور السماء أيضاً إذا لم تبسط أجنحتها لاتستطيع الطيران. والسفن إذا لم تفرد قلوعها لايمكنها أن تقلع.,\nهوذا موسى رئيس الأنبياء لمَّا بسط يديه قهر عماليق.,\nودانيال نجا من جب الأسد. ويونان من بطن الحوت.,\nوتكلة عندما ألقوها للسباع تخلصت بمثال الصليب.,\nوسوسنة من يدى الشيخين ويهوديت من يد الوفرنيس والثلاثة فتية القديسون من أتون النار المتقدة. هؤلاء كلهم خلصوا بمثال الصليب.,\nوقيل أيضاً ليكن مستقرك فى موضع واحد الذى هو البيعة لتتغذى بكلام الكتب. ومِنَ الخبز السمائى. ومن دم المسيح وتتغذى كل حين من كلام الكتب.,\n()",
-"english": " It is so written in the scriptures; if our souls are following the law of God, the powers of darkness will not overpower us, but if we drift away from God they will prevail on us.,\nYou man, who want to be salvaged, teach yourself to float in the depth of God’s richness and wisdom.,\nSpread your arms in the likeness of the cross to cross the great sea, which is this life and reach to God.,\nThe hindering doubts are for those who live away from the commands of the Catholic Church. I mean disbelief, adultery, evil report and love of money that is the root of all evils.,\nBut the sign of the cross is spread over all the creation.,\nIf the sun does not emit its rays it cannot glow neither the moon would light too.,\nThe birds in the sky, if they do not spread their wings they cannot fly, neither the ships can leave part if they do not spread their sails.,\nBehold, Moses the arch prophet spread his arms and defeated Amalek,,\nDaniel was saved from the lion’s den, Jonah from the fish’s belly,\nAnd Takla when they threw her to the lions she was saved by the likeness of the cross;,\nAlso Susanna from the hands of the two old men, Judith from Holoferne and the three young men from the burning fire furnace. All those were saved by the likeness of the cross.,\nIt was also said, let your port be in one place, The Church; to be nourished by the words of the books, by the Divine Bread and the Blood of Christ.,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "عظة للقديس أثانسيوس الرسولى",
+  "EnglishTitle": "Homily of Athanasius the Apostolic ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مكتوب فى الكتب هكذا, أن نفوسنا إذا كانت مرتبطة بناموس الله فلن تقوى علينا قوات الظلمة. وإذا إبتعدنا عن الله فهى تتسلط علينا.",
+      "English": "It is so written in the scriptures; if our souls are following the law of God, the powers of darkness will not overpower us, but if we drift away from God they will prevail on us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فأنت أيها الإنسان الذى تريد أن تخلص علِّم ذاتك أن تَسْبَحَ فى لُجَّةِ غِنَى وحكمة الله.",
+      "English": "You man, who want to be salvaged, teach yourself to float in the depth of God’s richness and wisdom."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إبسط يديك مثال الصليب لتعبر البحر العظيم. الذى هو هذا الدهر وتمضى إلى الله.",
+      "English": "Spread your arms in the likeness of the cross to cross the great sea, which is this life and reach to God."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فأمَّا الشكوكُ المانعة من السباحة فهى للذين يسلكون خارجاً عن أوامر الكنيسة الجامعة أعنى عدم الإيمان , الزنا , النميمة , محبة الفضة التى هى أصل لكل الشرور.",
+      "English": "The hindering doubts are for those who live away from the commands of the Catholic Church. I mean disbelief, adultery, evil report and love of money that is the root of all evils."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمَّا علامة الصليب فهى مبسوطة على كل الخليقة.",
+      "English": "But the sign of the cross is spread over all the creation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الشمس إذا لم ترسل شعاعها لاتستطيع أن تضئ والقمر إذا لم يبسط قرنيه لاينير.",
+      "English": "If the sun does not emit its rays it cannot glow neither the moon would light too."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكذلك طيور السماء أيضاً إذا لم تبسط أجنحتها لاتستطيع الطيران. والسفن إذا لم تفرد قلوعها لايمكنها أن تقلع.",
+      "English": "The birds in the sky, if they do not spread their wings they cannot fly, neither the ships can leave part if they do not spread their sails."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هوذا موسى رئيس الأنبياء لمَّا بسط يديه قهر عماليق.",
+      "English": "Behold, Moses the arch prophet spread his arms and defeated Amalek"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ودانيال نجا من جب الأسد. ويونان من بطن الحوت.",
+      "English": "Daniel was saved from the lion’s den, Jonah from the fish’s belly"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وتكلة عندما ألقوها للسباع تخلصت بمثال الصليب.",
+      "English": "And Takla when they threw her to the lions she was saved by the likeness of the cross;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وسوسنة من يدى الشيخين ويهوديت من يد الوفرنيس والثلاثة فتية القديسون من أتون النار المتقدة. هؤلاء كلهم خلصوا بمثال الصليب.",
+      "English": "Also Susanna from the hands of the two old men, Judith from Holoferne and the three young men from the burning fire furnace. All those were saved by the likeness of the cross."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وقيل أيضاً ليكن مستقرك فى موضع واحد الذى هو البيعة لتتغذى بكلام الكتب. ومِنَ الخبز السمائى. ومن دم المسيح وتتغذى كل حين من كلام الكتب.",
+      "English": "It was also said, let your port be in one place, The Church; to be nourished by the words of the books, by the Divine Bread and the Blood of Christ."
+    }
+  ]
 }

@@ -1,7 +1,27 @@
 {
-"arabic": " لأنك لا تترك نفسى في الجحيم ولا تدع قدوسك يرى فساداً،,\nقد عرفتنى طرق الحياة، تملأنى فرحاً مع وجهك. الليلويا.,\n",
-"arabiccoptic": " جى ان نيك سوجب إنطافكى خين امينتى. أوذى إن نيكتى إم إب إثؤواب إنطاك إناف إ إبطاكو.\nنى مويت إنتى إبؤنخ أكتاموى إيروؤ. إك إ ماهت إن أونوف نيم بيكهو الليلويا.\n",
-"coptic": " Je `nnekcwjp `ntauxh =en `amen;> oude `nnek; `m`pe/q/u/ `ntak `enau `e`ptako\nNimwit ``nte `pwn= aktamoi `erwou ek`ema\\t `nounof nem pek\\o> a/l/.\n",
-"english": " Because You shall not leave my soul in Hades, neither shall You suffer Your holy One to see corruption.,\nYou have made known to me the ways of life; You will fill me with joy with Your face; delight is in Your right hand forever.,\n",
-"englishcoptic": " Je Ennek sogp entavki khen amenty. oze en nekty em ep Ethowab entak enav e eptako.\nNi moit ente ep onkh aktamoi ero-o. ek-e maht en onof nem pekho. Alleluia\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنك لا تترك نفسى في الجحيم ولا تدع قدوسك يرى فساداً،",
+      "Coptic": "Je `nnekcwjp `ntauxh =en `amen;> oude `nnek; `m`pe/q/u/ `ntak `enau `e`ptako",
+      "English": "Because You shall not leave my soul in Hades, neither shall You suffer Your holy One to see corruption.",
+      "Arabiccoptic": "جى ان نيك سوجب إنطافكى خين امينتى. أوذى إن نيكتى إم إب إثؤواب إنطاك إناف إ إبطاكو.",
+      "Englishcoptic": "Je Ennek sogp entavki khen amenty. oze en nekty em ep Ethowab entak enav e eptako."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قد عرفتنى طرق الحياة، تملأنى فرحاً مع وجهك. الليلويا.",
+      "Coptic": "Nimwit ``nte `pwn= aktamoi `erwou ek`ema\\t `nounof nem pek\\o> a/l/.",
+      "English": "You have made known to me the ways of life; You will fill me with joy with Your face; delight is in Your right hand forever.",
+      "Arabiccoptic": "نى مويت إنتى إبؤنخ أكتاموى إيروؤ. إك إ ماهت إن أونوف نيم بيكهو الليلويا.",
+      "Englishcoptic": "Ni moit ente ep onkh aktamoi ero-o. ek-e maht en onof nem pekho. Alleluia"
+    }
+  ]
 }

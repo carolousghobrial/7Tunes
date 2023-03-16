@@ -1,7 +1,29 @@
 {
-"arabic": " بَسَطْتُ يَدَىَّ إِلَيْكَ فَاسْتَجِبْ لِى يَارَّبُّ عَاجِلاً فَقَدْ فَنِيَتْ رُوحِى. لاَتَصْرِفْ وَجْهَكَ عَنِّى. فَأُشَابِه الهَابِطِينَ فِى الْجُبِّ. الليلويا,\nفِى يَدَيْكَ أَسْتَودِعُ رُوحِى وَلَقَدْ فَدَيْتَنِى أَيُّهَا الرَّبُّ إِلَهُ الحَقِّ. الليلويا.,\n",
-"arabiccoptic": " أى فورش إن ناجيج إ إبشوى هاروك. سوتيم إيروى إنكوليم إبشويس جى أفمونك إنجى با إبنفما. إمبير طاستو إمبيك هو سافول إمموى. أووه إنطا إير إم إفريتى إن نى إثنا إإخرى إإفلاك كوس الليلويا.\nإى إكو إمبا إبنفما خين نيك جيج. أكسوتّ إبشويس إفنوتى إنتى تى ميثمى. الليلويا\n",
-"coptic": " Aivwr] `nnajij `e`p]wi \\arok > cwtem `eroi `nxwlem P_ je afmounk `nje pa`pneuma > `mper- tacqo `mpek\\o cabol `mmoi > ouo\\ `ntaer `m`vrh; `nnheqna `e`=rhi `e`vlakkoc > al\nEi`exw `mpa `pneuma =en nekjij > akcott P_ V; ``nte ;meqmhi> al\n",
-"english": " I spread out my hands to You: my soul thirsts for You like a waterless land. Hear me speedily, O Lord: my spirit faints within me. Turn not Your face from me, lest I become like those who go down into the pit. Alleluia,\nInto Your hands I shall entrust my spirit: You redeemed me, O Lord god of truth. Alleluia,\n",
-"englishcoptic": " Aivorsh enna gig e epshoi harok. sotem eroi enkolem Epshois je afmonk enje pa ebnevma. emper tasto empek-ho savol emmoy. owoh enta er em evreety enni ethna e-ekhrei e eflakkos Alleluia.\nEi ko empa Ebnevma khen nekgig. aksot Epshois Evnouty ente ti methmei. Alleluia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "142:6-7 , 30:15 مزمور",
+  "EnglishTitle": "Psalm 142:6-7 , 30:15",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بَسَطْتُ يَدَىَّ إِلَيْكَ فَاسْتَجِبْ لِى يَارَّبُّ عَاجِلاً فَقَدْ فَنِيَتْ رُوحِى. لاَتَصْرِفْ وَجْهَكَ عَنِّى. فَأُشَابِه الهَابِطِينَ فِى الْجُبِّ. الليلويا",
+      "Coptic": "Aivwr] `nnajij `e`p]wi \\arok > cwtem `eroi `nxwlem P_ je afmounk `nje pa`pneuma > `mper\b tacqo `mpek\\o cabol `mmoi > ouo\\ `ntaer `m`vrh; `nnheqna `e`=rhi `e`vlakkoc > al",
+      "English": "I spread out my hands to You: my soul thirsts for You like a waterless land. Hear me speedily, O Lord: my spirit faints within me. Turn not Your face from me, lest I become like those who go down into the pit. Alleluia",
+      "Arabiccoptic": "أى فورش إن ناجيج إ إبشوى هاروك. سوتيم إيروى إنكوليم إبشويس جى أفمونك إنجى با إبنفما. إمبير طاستو إمبيك هو سافول إمموى. أووه إنطا إير إم إفريتى إن نى إثنا إإخرى إإفلاك كوس الليلويا.",
+      "Englishcoptic": "Aivorsh enna gig e epshoi harok. sotem eroi enkolem Epshois je afmonk enje pa ebnevma. emper tasto empek-ho savol emmoy. owoh enta er em evreety enni ethna e-ekhrei e eflakkos Alleluia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فِى يَدَيْكَ أَسْتَودِعُ رُوحِى وَلَقَدْ فَدَيْتَنِى أَيُّهَا الرَّبُّ إِلَهُ الحَقِّ. الليلويا.",
+      "Coptic": "Ei`exw `mpa `pneuma =en nekjij > akcott P_ V; ``nte ;meqmhi> al",
+      "English": "Into Your hands I shall entrust my spirit: You redeemed me, O Lord god of truth. Alleluia",
+      "Arabiccoptic": "إى إكو إمبا إبنفما خين نيك جيج. أكسوتّ إبشويس إفنوتى إنتى تى ميثمى. الليلويا",
+      "Englishcoptic": "Ei ko empa Ebnevma khen nekgig. aksot Epshois Evnouty ente ti methmei. Alleluia."
+    }
+  ]
 }

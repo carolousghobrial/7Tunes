@@ -1,22 +1,66 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " الوَيْلُ لِنفسى لأَنَّهُ قَدْ فَنِىَ التَّقِيُّ مِنَ الأَرْضِ وَلَيْسَ يُوجَدُ مُسْتَقِيمٌ بَيْنَ النَّاسِ. جَمِيعُهُمْ يَكْمُنُونَ لِلدِّمَاءِ.ِ كلُّ وَاحِدٍ يُضاَيق صَاحِبَهُ ظُلمَاً.\n",
-"arabiccoptic": " أوأوى إنطاإبسيشى جى أفمونك إنجى بيريف إيرهوتى إيفول هيجين إبكاهى. أووه فى إتسوطون خين نى رومى إف شوب أن. سيتشى هاب تيرو إهان إسنوف. أفؤواى إفؤواى إفهوجهيج إمبيف إشفير خين أو هوجهيج.\n",
-"coptic": " Ouoi ntauxh je afmounk `nje pirefer\\o; ebol \\ijen pka\\i> ouo\\ vhetcoutwn =en nirwmi `f]op an> cesi \\apthrou e\\ancnof>` vouai `vouai `f\\oj\\ej mpef]vr =en ou\\oj\\ej\n",
-"english": " Woe is me, O my soul! For the God-fearing man has perished from the earth, and there is no one upright among the men. They all lie in wait, even unto blood, and each one grievously oppresses his neighbor.\n",
-"englishcoptic": " O-oi enta epsishy je avmonk enje piref erhoty evol hijen epkahy. owoh vi etsoton khen ni romy efshop an. setchi hab tiro ehan esnof. ef ouay ef ouay ef hogheg empef eshveer khen o hogheg.\n",
-},
-{
-"arabic": " وَيُعِدُّونَ أَيدِيَهُم لِلشَّرِّ. الرَّئِيسُ يَسأَل وَالْقَاضِي يَتَكلَّم بِكَلاَمِ السَلاَمةِ. والقَوىُّ يَنْطِق بِهَوَى نَفْسِهِ.,\nفَسَأنزَع خيرَاتَهُم مثل السُوسِ الَّذِى يَأْكُلُ فِى يَوْمٍ مُظْلِمٍ. الوَيْلُ الوَيْلُ. قَدْ جَاءَ الإنتقامُ. فالآنَ يَكُونُ الْبُكَاءُ.,\nلاَتَأمَنُوا لأصْدِقَائِكُمْ. وَلاَ تَتَوَكَّلُوا على مُدَبِّرِيكُم. احْفَظْ أَبْوَابَ فَمِكَ عَنِ الْمُضْطَجِعَةِ فِي حِضْنِكَ.,\nلأَنَّ الاِبْنَ يَسْتَهِينُ بِأَبِيهِ  وَالإبنةَ تقومُ عَلَى أُمِّهَا وَالْكَنَّةَ عَلَى حَمَاتِهَا وَأَعْدَاءُ الإِنْسَانِ أَهْلُ بَيْتِهِ.,\nوَأمَّا أنا فأتَرَقَّبُ الرَّبَّ وَأَتَمَسَّكُ باللهِ مُخَلِّصِى. فَيَسْتَجِيبُ لِى إِلَهِي.,\nوَلاَيَفْرَحُ بِي أَعْدَائِى. فإنِّى إِذَا سَقَطْتُ سَأَقُومُ أيضاً. وَإنْ جَلَسْتُ فِي الظُّلْمَةِ يَكُونُ الرَّبُّ نُورَاً لِي,\n",
-"english": " They prepare their hands for evil; the prince demands a gift, and the judge speaks flattering words; it is the desire of their soul.,\n\"Thus I shall take away their good things as the moth who eats away, and as one proceeding by the rule in the day of the watch. Alas! alas! The time of your vengeance is come; now shall be their lamentation.,\nDo not trust in friends, nor put your hope in those who govern. Beware of your wife and do not tell her anything.,\nFor a son dishonors his father, a daughter will rise up against her mother, a daughter-in-law against her mother-in-law; a man's enemies are all the people of his own house.\",\nBut I will look to the Lord. I will wait for God my Savior, for my God will hear me.,\nDo not rejoice over me, O my enemy, for though I have fallen, yet will I arise, because even if I should sit in darkness, the Lord will be a light to me.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "7:1-8 من ميخا النبي",
+  "EnglishTitle": "Micah 7:1-8 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الوَيْلُ لِنفسى لأَنَّهُ قَدْ فَنِىَ التَّقِيُّ مِنَ الأَرْضِ وَلَيْسَ يُوجَدُ مُسْتَقِيمٌ بَيْنَ النَّاسِ. جَمِيعُهُمْ يَكْمُنُونَ لِلدِّمَاءِ.ِ كلُّ وَاحِدٍ يُضاَيق صَاحِبَهُ ظُلمَاً.",
+      "Coptic": "Ouoi ntauxh je afmounk `nje pirefer\\o; ebol \\ijen pka\\i> ouo\\ vhetcoutwn =en nirwmi `f]op an> cesi \\apthrou e\\ancnof>` vouai `vouai `f\\oj\\ej mpef]vr =en ou\\oj\\ej",
+      "English": "Woe is me, O my soul! For the God-fearing man has perished from the earth, and there is no one upright among the men. They all lie in wait, even unto blood, and each one grievously oppresses his neighbor.",
+      "Arabiccoptic": "أوأوى إنطاإبسيشى جى أفمونك إنجى بيريف إيرهوتى إيفول هيجين إبكاهى. أووه فى إتسوطون خين نى رومى إف شوب أن. سيتشى هاب تيرو إهان إسنوف. أفؤواى إفؤواى إفهوجهيج إمبيف إشفير خين أو هوجهيج.",
+      "Englishcoptic": "O-oi enta epsishy je avmonk enje piref erhoty evol hijen epkahy. owoh vi etsoton khen ni romy efshop an. setchi hab tiro ehan esnof. ef ouay ef ouay ef hogheg empef eshveer khen o hogheg."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيُعِدُّونَ أَيدِيَهُم لِلشَّرِّ. الرَّئِيسُ يَسأَل وَالْقَاضِي يَتَكلَّم بِكَلاَمِ السَلاَمةِ. والقَوىُّ يَنْطِق بِهَوَى نَفْسِهِ.",
+      "English": "They prepare their hands for evil; the prince demands a gift, and the judge speaks flattering words; it is the desire of their soul."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَسَأنزَع خيرَاتَهُم مثل السُوسِ الَّذِى يَأْكُلُ فِى يَوْمٍ مُظْلِمٍ. الوَيْلُ الوَيْلُ. قَدْ جَاءَ الإنتقامُ. فالآنَ يَكُونُ الْبُكَاءُ.",
+      "English": "\"Thus I shall take away their good things as the moth who eats away, and as one proceeding by the rule in the day of the watch. Alas! alas! The time of your vengeance is come; now shall be their lamentation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لاَتَأمَنُوا لأصْدِقَائِكُمْ. وَلاَ تَتَوَكَّلُوا على مُدَبِّرِيكُم. احْفَظْ أَبْوَابَ فَمِكَ عَنِ الْمُضْطَجِعَةِ فِي حِضْنِكَ.",
+      "English": "Do not trust in friends, nor put your hope in those who govern. Beware of your wife and do not tell her anything."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنَّ الاِبْنَ يَسْتَهِينُ بِأَبِيهِ  وَالإبنةَ تقومُ عَلَى أُمِّهَا وَالْكَنَّةَ عَلَى حَمَاتِهَا وَأَعْدَاءُ الإِنْسَانِ أَهْلُ بَيْتِهِ.",
+      "English": "For a son dishonors his father, a daughter will rise up against her mother, a daughter-in-law against her mother-in-law; a man's enemies are all the people of his own house.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأمَّا أنا فأتَرَقَّبُ الرَّبَّ وَأَتَمَسَّكُ باللهِ مُخَلِّصِى. فَيَسْتَجِيبُ لِى إِلَهِي.",
+      "English": "But I will look to the Lord. I will wait for God my Savior, for my God will hear me."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلاَيَفْرَحُ بِي أَعْدَائِى. فإنِّى إِذَا سَقَطْتُ سَأَقُومُ أيضاً. وَإنْ جَلَسْتُ فِي الظُّلْمَةِ يَكُونُ الرَّبُّ نُورَاً لِي",
+      "English": "Do not rejoice over me, O my enemy, for though I have fallen, yet will I arise, because even if I should sit in darkness, the Lord will be a light to me."
+    }
+  ]
 }

@@ -1,22 +1,50 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " ثُمَّ قَالَ إرْمِيَا لفَحْشُورَ. أنَّكُمْ كُنْتُمْ زَمَانَاً مَعَ آبَائِكُمْ مُقَاوِمِينَ للحَقِّ وَأَوْلاَدُكُمْ الَّذِينَ يَأتُونَ بَعْدَكُمْ هَؤُلاَءِ الَّذِينَ يَصْنَعُونَ خَطِيَّةً أَشَرَّ مِنْكُمْ.\n",
-"arabiccoptic": " بالين أفجوس إنجى يريمياس إن لافاخشور جى إيريتين إشوبى خين أوسيو نيم نى تين يوتى تى تينتى إإهرين تى ميثمى. نيم نى تين شيرى إثنا إى ميننسا ثينو. ناى إثنا إيرى إن أوأنوميا إس أوريب إيهوتى ثينو.\n",
-"coptic": " Palin afjoc nje Ieremiac nLafa=]our je ereten e]wpi =en ouchou nem netenio; teten; e\\ren ;meqmhi> nem neten]hri eqnai menenca qhnou>\n",
-"english": " And Jeremiah said to Pashhur, \"You were resisting the truth for sometime with your father and your children who did sin worse than you.\n",
-"englishcoptic": " Palin afgos enje Ieremias en Lavakhshore je eretin eshopi khen o sio nem ni tenioty te tenty e ehrei ti methmei. nem ni ten shiry ethna ei menensa thino. nai ethna eri en o anomia es orieb ehoty thino.\n",
-},
-{
-"arabic": " لأنَّهُمْ يُثَمِّنُون الَّذِي لَيْسَ لَهُ ثَمَنٌ. وَيُؤلِمُونَ الَّذِي يَشْفِي الأمرَاضَ وَيَغْفِرُ الذُنُوبَ.,\nوَيَأْخُذُونَ الثَّلاَثِينَ مِنَ الْفِضَّةِ الثَمَنَ الَّذِى شَارَطَ عَلَيْهِ بَنِى إِسْرَائِيلَ.,\nوَيَدَفَعُوْهَا فى حَقْلِ الْفَاخُورِيِّ كَمَا أَمَرَنِي الرَّبُّ. وَهَكَذَا أَقُولُ.,\nسَتأتِى عَلَيْهِم دَينُونَةُ الْهَلاَكِ إِلَى الأَبَدِ وَعَلَى أوْلاَدِهِمْ. لِأَنَّهُمْ أَلْقَوْا دَمَاً زَكِيَّاً فِي الحُكْمِ.,\n",
-"english": " For they set a price to him who has no price, and grieved him who heals sickness and forgives sins.,\nThey took the price upon which the sons of Israel agreed, thirty pieces of silver.,\nAnd gave it to the potter's house. As the Lord commanded me, so I say.,\nThe judgment of perdition will be upon them and their children forever, for they judged innocent blood.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": " من إرميا النبي",
+  "EnglishTitle": "Jeremiah  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ قَالَ إرْمِيَا لفَحْشُورَ. أنَّكُمْ كُنْتُمْ زَمَانَاً مَعَ آبَائِكُمْ مُقَاوِمِينَ للحَقِّ وَأَوْلاَدُكُمْ الَّذِينَ يَأتُونَ بَعْدَكُمْ هَؤُلاَءِ الَّذِينَ يَصْنَعُونَ خَطِيَّةً أَشَرَّ مِنْكُمْ.",
+      "Coptic": "Palin afjoc nje Ieremiac nLafa=]our je ereten e]wpi =en ouchou nem netenio; teten; e\\ren ;meqmhi> nem neten]hri eqnai menenca qhnou>",
+      "English": "And Jeremiah said to Pashhur, \"You were resisting the truth for sometime with your father and your children who did sin worse than you.",
+      "Arabiccoptic": "بالين أفجوس إنجى يريمياس إن لافاخشور جى إيريتين إشوبى خين أوسيو نيم نى تين يوتى تى تينتى إإهرين تى ميثمى. نيم نى تين شيرى إثنا إى ميننسا ثينو. ناى إثنا إيرى إن أوأنوميا إس أوريب إيهوتى ثينو.",
+      "Englishcoptic": "Palin afgos enje Ieremias en Lavakhshore je eretin eshopi khen o sio nem ni tenioty te tenty e ehrei ti methmei. nem ni ten shiry ethna ei menensa thino. nai ethna eri en o anomia es orieb ehoty thino."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنَّهُمْ يُثَمِّنُون الَّذِي لَيْسَ لَهُ ثَمَنٌ. وَيُؤلِمُونَ الَّذِي يَشْفِي الأمرَاضَ وَيَغْفِرُ الذُنُوبَ.",
+      "English": "For they set a price to him who has no price, and grieved him who heals sickness and forgives sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيَأْخُذُونَ الثَّلاَثِينَ مِنَ الْفِضَّةِ الثَمَنَ الَّذِى شَارَطَ عَلَيْهِ بَنِى إِسْرَائِيلَ.",
+      "English": "They took the price upon which the sons of Israel agreed, thirty pieces of silver."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيَدَفَعُوْهَا فى حَقْلِ الْفَاخُورِيِّ كَمَا أَمَرَنِي الرَّبُّ. وَهَكَذَا أَقُولُ.",
+      "English": "And gave it to the potter's house. As the Lord commanded me, so I say."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سَتأتِى عَلَيْهِم دَينُونَةُ الْهَلاَكِ إِلَى الأَبَدِ وَعَلَى أوْلاَدِهِمْ. لِأَنَّهُمْ أَلْقَوْا دَمَاً زَكِيَّاً فِي الحُكْمِ.",
+      "English": "The judgment of perdition will be upon them and their children forever, for they judged innocent blood."
+    }
+  ]
 }

@@ -1,4 +1,55 @@
 {
-"arabic": " (R),\n()والآن أيها الرب إله إسرائيل الذي أخرج شعبه من أرض مصر بيد قوية. بآيات وعجائب وقوة عظيمة وذراع رفيعة .,\nوجعلت لك أسماً كما في هذا اليوم. أخطأنا وعملنا نفاقاً وظلمنا. أيها الرب إلهنا علمنا جميع عدلك,\nفليرجع رجزك عنا لأننا بقينا قليلين في الأمم في المواضع الذي أقصيتنا إليه.,\nأسمع يا رب صلاتنا وتضرعنا ونجنا من أجلك وهب لنا نعمة أمام الذين سبونا. لكي تعلم الأرض كلها أنك أنت الرب إلهنا. لأن أسمك الذي دعى به على إسرائيل وعلى جنسه ،,\nوالسبح لله دائماً آمين.,\n()",
-"english": " (R),\n()And now, O Lord God of Israel, who did bring Your people out of the land of Egypt with a mighty hand and with signs and wonders and with great power and outstretched arms,,\nAnd has made You a name, as at this day, we have sinned, we have been ungodly, we have done wrong, O Lord our God, against all Your ordinances.,\nLet Your anger turn away from us, for we are left, few in number, among the nations where You have scattered us.,\nHear O Lord, our prayer and grant us favour in the sight of those who have carried us into exile; that all the earth may know that You are the Lord our God, for Israel and his descendants are called by Your name.,\nPraise be to God forever. Amen,\n()",
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة باروخ",
+  "EnglishTitle": "Prayer of the Prophet Baruch ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والآن أيها الرب إله إسرائيل الذي أخرج شعبه من أرض مصر بيد قوية. بآيات وعجائب وقوة عظيمة وذراع رفيعة .,",
+      "English": "And now, O Lord God of Israel, who did bring Your people out of the land of Egypt with a mighty hand and with signs and wonders and with great power and outstretched arms,,"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وجعلت لك أسماً كما في هذا اليوم. أخطأنا وعملنا نفاقاً وظلمنا. أيها الرب إلهنا علمنا جميع عدلك",
+      "English": "And has made You a name, as at this day, we have sinned, we have been ungodly, we have done wrong, O Lord our God, against all Your ordinances."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فليرجع رجزك عنا لأننا بقينا قليلين في الأمم في المواضع الذي أقصيتنا إليه.",
+      "English": "Let Your anger turn away from us, for we are left, few in number, among the nations where You have scattered us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أسمع يا رب صلاتنا وتضرعنا ونجنا من أجلك وهب لنا نعمة أمام الذين سبونا. لكي تعلم الأرض كلها أنك أنت الرب إلهنا. لأن أسمك الذي دعى به على إسرائيل وعلى جنسه ،",
+      "English": "Hear O Lord, our prayer and grant us favour in the sight of those who have carried us into exile; that all the earth may know that You are the Lord our God, for Israel and his descendants are called by Your name."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والسبح لله دائماً آمين.",
+      "English": "Praise be to God forever. Amen"
+    }
+  ]
 }

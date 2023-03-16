@@ -1,22 +1,65 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " (P)\nيا رب ارحم امين الليلويا\nبإسم الآب الإبن والروح القدس إله واحد. آمين\nالمجد للآب والابن والروح القدس، الآن وكل اوان وإلي دهر الدهور. آمين.\n",
-"arabiccoptic": " (P)\nابشويس ناي نان امين الليلويا\nخين افران ام افيوت نيم ابشيري نيم بي ابنيفما اثؤواب أوونوتي ان أووأوت : أمين\nذوكصابتري كيه إيو كي آجيو ابنيفماتي كي نين، كي آ إي، كي ايستوس إي أوناس تون إي أونون آمين\n",
-"coptic": " (P)\nPsoic nai nan> Amhn Allhlouia\n+en `vran `m~Viwt nem ~P]hri nem Pi`pneuma `eqouab ounou; `nouwt `amhn.\nDoxa Patri ke Uiw ke `agiw `Pneumati> ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn> `amhn allhlouia.\n",
-"english": " (P)\nLord Have Mercy upon us. Amen Alleluia.\nIn the name of the Father, and the Son, and the Holy Spirit, one God. Amen.\nGlory to the Father and to the Son and to the Holy Spirit, now and ever and unto the ages of the ages. Amen. Alleluia.\n",
-"englishcoptic": " (P)\nEpchois nai nan Amen Alleluia\nKhen efran nem Efiot nem Epshery nem pi-Epnevma Ethowab, onoti en-o-ot Amen.\nZoxa patri ke eio, ke agio epnevmati. Ke nin ke a-ee ke estos e-onas ton e-onon Amen\n",
-},
-{
-"arabic": " تسبحة الساعة التاسعة من النهار المبارك، أقدمها للمسيح ملكي وإلهي، وأرجوه أن يغفر لي خطاياي.,\nمن مزامير معلمنا داود النبي بركاته علينا امين,\n",
-"english": " The prayer of the ninth hour of the blessed day, we offer to Christ our King and our God, beseeching Him to forgive us our sins.,\nFrom the Psalms of our father David the prophet and the king, may his blessings be upon us all. Amen.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": ":بي أويب:",
+      "Englishcoptic": "Pi-oweeb;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب ارحم امين الليلويا",
+      "Coptic": "Psoic nai nan> Amhn Allhlouia",
+      "English": "Lord Have Mercy upon us. Amen Alleluia.",
+      "Arabiccoptic": "ابشويس ناي نان امين الليلويا",
+      "Englishcoptic": "Epchois nai nan Amen Alleluia"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بإسم الآب الإبن والروح القدس إله واحد. آمين",
+      "Coptic": "+en `vran `m~Viwt nem ~P]hri nem Pi`pneuma `eqouab ounou; `nouwt `amhn.",
+      "English": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+      "Arabiccoptic": "خين افران ام افيوت نيم ابشيري نيم بي ابنيفما اثؤواب أوونوتي ان أووأوت : أمين",
+      "Englishcoptic": "Khen efran nem Efiot nem Epshery nem pi-Epnevma Ethowab, onoti en-o-ot Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجد للآب والابن والروح القدس، الآن وكل اوان وإلي دهر الدهور. آمين.",
+      "Coptic": "Doxa Patri ke Uiw ke `agiw `Pneumati> ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn> `amhn allhlouia.",
+      "English": "Glory to the Father and to the Son and to the Holy Spirit, now and ever and unto the ages of the ages. Amen. Alleluia.",
+      "Arabiccoptic": "ذوكصابتري كيه إيو كي آجيو ابنيفماتي كي نين، كي آ إي، كي ايستوس إي أوناس تون إي أونون آمين",
+      "Englishcoptic": "Zoxa patri ke eio, ke agio epnevmati. Ke nin ke a-ee ke estos e-onas ton e-onon Amen"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تسبحة الساعة التاسعة من النهار المبارك، أقدمها للمسيح ملكي وإلهي، وأرجوه أن يغفر لي خطاياي.",
+      "English": "The prayer of the ninth hour of the blessed day, we offer to Christ our King and our God, beseeching Him to forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من مزامير معلمنا داود النبي بركاته علينا امين",
+      "English": "From the Psalms of our father David the prophet and the king, may his blessings be upon us all. Amen."
+    }
+  ]
 }

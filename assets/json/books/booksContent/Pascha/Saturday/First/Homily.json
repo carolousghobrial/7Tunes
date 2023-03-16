@@ -1,4 +1,85 @@
 {
-"arabic": " قد حان وقت العيد أيها الإخوة الأحباء، وهو وقتنا الحاضر هذا فإفرحوا فيه كل حين أيها الفرحون بالرب,\nكما هو مكتوب وهو الآن يشير إلى كل أحد بواسطة من أرسله ليكرز به قائلاً,\nيا يهوذا أصنع إعيادك وأوف نذورك، وقدم للرب ثمرة اعمالك كل سنة بنية طاهرة حسب ما أوصاك بها الرب.,\nفكما أنه بآلات الفلاح تصعد ثمرات السنة فلنصعد ثمرة أعمالنا في كل سنة للرب كما أوصانا,\nفلنثمر ثمراً مضاعفا إذ نشرب من يبنوع الحياة بثبوتنا في الرب كثبوت الأغصان في الكرمة,\nإذاً فلنسع إلى قدام ولا نخاف الذي قال احفظ الشهر الجديد لتصنع فيه فصح الرب إلهك، لأن فصح الرب ليس هو لإنسان بل للرب,\nومعنى ذلك أننا نترك عنا الأعمال القديمة ونتجدد بأعمال جديدة هذا الأمر الذي لما لم يتأمل فيه اليهود صاروا بلا عيد,\nمع أنه قد قيل تصنع الفصح للرب إلهك فيعبر عنك شر المهلك. هذا وقد تحققنا أن هذه الوصية ليست بوصية بسيطة.,\nبل هي مثال عمل كامل مختص بالله لأن العمل بالقول لا تزن ولا تسرق لا تشهد بالزور مع باقى الوصايا،,\nهو لنا حصن منيع تحتمى فيه النفس فتعتبر بالسيرة المستقيمة وهو إكليل الانتصار للدعوة السماوية.,\n()",
-"english": " My beloved brethren, this is the time for the feast, it is our present time. Rejoice in it always, O who are joyful in the Lord,,\nAs it is written. And it is now for everyone by the One who sent Him to preach saying:,\nO Judah, have your feasts and fulfill your vows. And offer unto God the fruits of your labors every year with pure intentions according to what the Lord commanded you.,\nAs by the tools the farmer raises the year's crop, Let our labor's fruits ascend to God every year according to His commands.,\nLet us yield double the harvest as we drink from the Spring of Life when we establish ourselves in the Lord as the branches to the vine.,\nSo let us go forward and disobey not Him who said: keep the new month so that you may celebrate in it the Passover of the Lord Your God. For the Lord's Passover is not for man but for the Lord.,\nIt means we should leave the old deeds and renew ourselves through new deeds. When the Jews did not consider this matter, they were left without a feast. Although, it was said: Make the Passover unto the Lord our God, so that the evil may pass over you.,\nAnd we are certain now that this commandment is not a simple one.,\nBut it is like a complete work concerning God. For fulfilling the commandments: Do not commit adultery, do not steal, do not bear false witness, with the rest of the commandments,,\nIs to us as an impenetrable fortress guarding the soul to keep up its righteous behavior. It is the crown of victory for the heavenly mission.,\n()",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قد حان وقت العيد أيها الإخوة الأحباء، وهو وقتنا الحاضر هذا فإفرحوا فيه كل حين أيها الفرحون بالرب",
+      "English": "My beloved brethren, this is the time for the feast, it is our present time. Rejoice in it always, O who are joyful in the Lord"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كما هو مكتوب وهو الآن يشير إلى كل أحد بواسطة من أرسله ليكرز به قائلاً",
+      "English": "As it is written. And it is now for everyone by the One who sent Him to preach saying:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا يهوذا أصنع إعيادك وأوف نذورك، وقدم للرب ثمرة اعمالك كل سنة بنية طاهرة حسب ما أوصاك بها الرب.",
+      "English": "O Judah, have your feasts and fulfill your vows. And offer unto God the fruits of your labors every year with pure intentions according to what the Lord commanded you."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فكما أنه بآلات الفلاح تصعد ثمرات السنة فلنصعد ثمرة أعمالنا في كل سنة للرب كما أوصانا",
+      "English": "As by the tools the farmer raises the year's crop, Let our labor's fruits ascend to God every year according to His commands."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنثمر ثمراً مضاعفا إذ نشرب من يبنوع الحياة بثبوتنا في الرب كثبوت الأغصان في الكرمة",
+      "English": "Let us yield double the harvest as we drink from the Spring of Life when we establish ourselves in the Lord as the branches to the vine."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إذاً فلنسع إلى قدام ولا نخاف الذي قال احفظ الشهر الجديد لتصنع فيه فصح الرب إلهك، لأن فصح الرب ليس هو لإنسان بل للرب",
+      "English": "So let us go forward and disobey not Him who said: keep the new month so that you may celebrate in it the Passover of the Lord Your God. For the Lord's Passover is not for man but for the Lord."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ومعنى ذلك أننا نترك عنا الأعمال القديمة ونتجدد بأعمال جديدة هذا الأمر الذي لما لم يتأمل فيه اليهود صاروا بلا عيد",
+      "English": "It means we should leave the old deeds and renew ourselves through new deeds. When the Jews did not consider this matter, they were left without a feast. Although, it was said: Make the Passover unto the Lord our God, so that the evil may pass over you."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مع أنه قد قيل تصنع الفصح للرب إلهك فيعبر عنك شر المهلك. هذا وقد تحققنا أن هذه الوصية ليست بوصية بسيطة.",
+      "English": "And we are certain now that this commandment is not a simple one."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بل هي مثال عمل كامل مختص بالله لأن العمل بالقول لا تزن ولا تسرق لا تشهد بالزور مع باقى الوصايا،",
+      "English": "But it is like a complete work concerning God. For fulfilling the commandments: Do not commit adultery, do not steal, do not bear false witness, with the rest of the commandments"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هو لنا حصن منيع تحتمى فيه النفس فتعتبر بالسيرة المستقيمة وهو إكليل الانتصار للدعوة السماوية.",
+      "English": "Is to us as an impenetrable fortress guarding the soul to keep up its righteous behavior. It is the crown of victory for the heavenly mission."
+    }
+  ]
 }

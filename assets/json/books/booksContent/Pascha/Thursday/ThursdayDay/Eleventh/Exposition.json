@@ -1,4 +1,71 @@
 {
-  "arabic": " شمس البر أضاء وشعاعه بلغ ضياؤه إلى أقطار الأرض , الذى هو يسوع المسيح النور الحقيقى الذى يضيئ لكل إنسان آتٍ إلى العالم. الخبز السمائى المعطى الحياة المغذى كل صنعة يديه ,,\nفى أول الزمان أعد مائدة فى البرية من المن , وأعال منها الجموع أربعين سنة فأكلوا وماتوا كقول الرب. ومائدة جديدة أعدها الإبن فى علية صهيون الأم.,\nلما كان عشية ذلك اليوم الذى أكلوا فيه فطير الفصح , اتكأ الرب يسوع المخلص فى الموضع المرتفع الذى هو علية صهيون , واتكأ مع تلاميذه وكانوا يأكلون الفصح الجديد , الذى هو جسده هو بذاته الذى أعطاه لهم بأمر سرى , والدم الكريم الحقيقى الذى هو أفضل من دم الحيوانات.,\nأخذ مخلصنا خبزاً وباركه , وهكذا قسمه وناوله لرسله المختارين قائلاً : خذوا كلوا منه كلكم لأن هذا هو جسدى , الذى أقسمه عنكم وعن كثيرين لمغفرة الخطايا.,\nبعد هذا أمسك كأس الخمر ومزجها بالماء , وناولهم قائلاً : خذوا اشربوا جميعكم من هذه الكأس فإن هذا هو دمى الذى للعهد الجديد , الذى يهرق عنكم وعن كثيرين لمغفرة خطاياهم . لأن كل مرة تأكلون من هذا الخبز وتشربون من هذه الكأس تبشرون بموتى وقيامتى وتذكروننى إلى أن أجئ.,\nهذا هو فصح خلاصنا , الحمل الحقيقى , المسيح مخلصنا. قال : إنى لاأشرب من عصير هذه الكرمة حتى أشربه معكم جديداً فى ملكوت أبى.,\nقال الرب : إن واحدا منكم سيسلمنى إلى أيدى المخالفين. فبدأوا يفكرون فيما بينهم قائلين : من الذى يجسر أن يفعل هذا ؟ فقال يهوذا أحد المتكئين : لعلى أنا هو. قال له : أنت قلت . فأشار إليه العارف قائلاً : هو الذى يضع يده معى فى الصحفة.,\nأضمرت الإثم أيها المخالف وتجرأت على أمر ردئ , لأن ابن الله أتى ليخلص الإنسان الأول من الفساد.,\n()\n",
-  "english": " The Sun of righteousness shined upon us and his rays reached all nations of the world; Jesus Christ the true light who shines to everyone coming to the world. The life giving bread came from heaven and nourished all creation.,\nFrom the beginning of times He prepared a table in the wilderness and nourished the people with manna for forty years; \"They ate and died,\" so says the Lord.,\nOn the eve of that day in which they ate the unleavend bread of Passover, our Lord and Savior Jesus Christ sat there in the upper chamber of Zion with His disciples to celebrate the New Passover which is His very Body that He gave them as a sacrament and the precious Blood, which is superior than the blood offerings.,\nOur Savior took the bread, blessed it, broke it, divided it, and gave it to His disciples saying: Take you eat from this you all. This is My Body that I divide for you and for many for the remission of sins.,\nAfter that He took the cup, mixed the wine with water and handed it to them saying: Drink from it all of you for this is My blood of the new covenant which is shed for many for the remission of sins. Every time you eat of this bread and drink of this cup you proclaim (preach) my death, confess my ressurection and remember me until I come.,\nHe is the Passover of our salvation. The real Lamb, Christ our Savior said: I say to you I will not drink of this fruit of the vine until that day when I drink it new with you in kingdom of my Father.,\nThe Lord said: I say to you, one of you will betray me, and will deliver me to the enemies. And they began to think-each one of them-saying who dares do that? He answered and said: He who dipped his hand in the dish with me will betray me. Then Judas; one of those present said: Is it I? He said to him: You have said it.,\nYou have intended evil in your contrariness and dared commit a grave transgression because the Son of God came to save the first man from corruption.,\n()\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "شمس البر أضاء وشعاعه بلغ ضياؤه إلى أقطار الأرض , الذى هو يسوع المسيح النور الحقيقى الذى يضيئ لكل إنسان آتٍ إلى العالم. الخبز السمائى المعطى الحياة المغذى كل صنعة يديه",
+      "English": "The Sun of righteousness shined upon us and his rays reached all nations of the world; Jesus Christ the true light who shines to everyone coming to the world. The life giving bread came from heaven and nourished all creation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فى أول الزمان أعد مائدة فى البرية من المن , وأعال منها الجموع أربعين سنة فأكلوا وماتوا كقول الرب. ومائدة جديدة أعدها الإبن فى علية صهيون الأم.",
+      "English": "From the beginning of times He prepared a table in the wilderness and nourished the people with manna for forty years; \"They ate and died,\" so says the Lord."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لما كان عشية ذلك اليوم الذى أكلوا فيه فطير الفصح , اتكأ الرب يسوع المخلص فى الموضع المرتفع الذى هو علية صهيون , واتكأ مع تلاميذه وكانوا يأكلون الفصح الجديد , الذى هو جسده هو بذاته الذى أعطاه لهم بأمر سرى , والدم الكريم الحقيقى الذى هو أفضل من دم الحيوانات.",
+      "English": "On the eve of that day in which they ate the unleavend bread of Passover, our Lord and Savior Jesus Christ sat there in the upper chamber of Zion with His disciples to celebrate the New Passover which is His very Body that He gave them as a sacrament and the precious Blood, which is superior than the blood offerings."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أخذ مخلصنا خبزاً وباركه , وهكذا قسمه وناوله لرسله المختارين قائلاً : خذوا كلوا منه كلكم لأن هذا هو جسدى , الذى أقسمه عنكم وعن كثيرين لمغفرة الخطايا.",
+      "English": "Our Savior took the bread, blessed it, broke it, divided it, and gave it to His disciples saying: Take you eat from this you all. This is My Body that I divide for you and for many for the remission of sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بعد هذا أمسك كأس الخمر ومزجها بالماء , وناولهم قائلاً : خذوا اشربوا جميعكم من هذه الكأس فإن هذا هو دمى الذى للعهد الجديد , الذى يهرق عنكم وعن كثيرين لمغفرة خطاياهم . لأن كل مرة تأكلون من هذا الخبز وتشربون من هذه الكأس تبشرون بموتى وقيامتى وتذكروننى إلى أن أجئ.",
+      "English": "After that He took the cup, mixed the wine with water and handed it to them saying: Drink from it all of you for this is My blood of the new covenant which is shed for many for the remission of sins. Every time you eat of this bread and drink of this cup you proclaim (preach) my death, confess my ressurection and remember me until I come."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذا هو فصح خلاصنا , الحمل الحقيقى , المسيح مخلصنا. قال : إنى لاأشرب من عصير هذه الكرمة حتى أشربه معكم جديداً فى ملكوت أبى.",
+      "English": "He is the Passover of our salvation. The real Lamb, Christ our Savior said: I say to you I will not drink of this fruit of the vine until that day when I drink it new with you in kingdom of my Father."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قال الرب : إن واحدا منكم سيسلمنى إلى أيدى المخالفين. فبدأوا يفكرون فيما بينهم قائلين : من الذى يجسر أن يفعل هذا ؟ فقال يهوذا أحد المتكئين : لعلى أنا هو. قال له : أنت قلت . فأشار إليه العارف قائلاً : هو الذى يضع يده معى فى الصحفة.",
+      "English": "The Lord said: I say to you, one of you will betray me, and will deliver me to the enemies. And they began to think-each one of them-saying who dares do that? He answered and said: He who dipped his hand in the dish with me will betray me. Then Judas; one of those present said: Is it I? He said to him: You have said it."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أضمرت الإثم أيها المخالف وتجرأت على أمر ردئ , لأن ابن الله أتى ليخلص الإنسان الأول من الفساد.",
+      "English": "You have intended evil in your contrariness and dared commit a grave transgression because the Son of God came to save the first man from corruption."
+    }
+  ]
 }

@@ -1,7 +1,40 @@
 {
-"arabic": " (R),\nكَلاَمُهُ أَلْيَنُ مِنَ الدُهْنِ وَهُوَ نِصَالٌ.,\nفَلَوْ كَانَ العَدُّوُ عَيَّرَنِى إِذَاً لاَحْتَمَلْتُ. وَلَوْ أَنَّ مُبْغِضِيِ عَظَّمَ عَلَىَّ الْكَلاَمَ لَاخْتَفَيْتُ مِنْهُ : الليلويا,\n",
-"arabiccoptic": " (R)\nأفتشنون إنجى نيف ساجى إيهوتى أونيه. إنثوؤ هان سوثنيف نى.\nجى إينى أوجاجى بيطاف تى شوش نى ناى نافاى إيروف بى. أووه إينى بيثموستى إمموى إفجو إنهان نيشتى إنساجى إإهرى إيجوى ناى ناكوبت إيفول هاروف . الليلويا\n",
-"coptic": " (R)\nAu`snon `nje nefcaji `e\\ote oune\\ > `nqwou \\ancoqnef ne >\nJe `ene oujaji petaf;]w] nhi nai nafai `erof pe > ouo\\ `ene peqmoc; `mmoi afjw `n\\anni]; `ncaji `e`\\rhi `ejwi nai naxopt `ebol \\arof > =a= l\n",
-"english": " (R),\nHis words were softened above oil, And they are arrows.,\nFor if an enemy reviled me, I would have endured it; And if one hating me boasted against me, I would have hidden from him: Alleluia.,\n",
-"englishcoptic": " (R)\nAvechnon enje nef saji ehote oneh. entho-o han sothnef ne.\nJe einy o gagi pitav te shosh ne nai nafai erof pe. owoh einy pithmosty emmoi efgo enhan nishty en sagi e ehri egoi nai nakopt evol harof Alleluia.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "54:21,12 مزمور",
+  "EnglishTitle": "Psalm 54:21,12 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "القارئ:",
+      "Englishcoptic": "Reader:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كَلاَمُهُ أَلْيَنُ مِنَ الدُهْنِ وَهُوَ نِصَالٌ.",
+      "Coptic": "Au`snon `nje nefcaji `e\\ote oune\\ > `nqwou \\ancoqnef ne >",
+      "English": "His words were softened above oil, And they are arrows.",
+      "Arabiccoptic": "أفتشنون إنجى نيف ساجى إيهوتى أونيه. إنثوؤ هان سوثنيف نى.",
+      "Englishcoptic": "Avechnon enje nef saji ehote oneh. entho-o han sothnef ne."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَوْ كَانَ العَدُّوُ عَيَّرَنِى إِذَاً لاَحْتَمَلْتُ. وَلَوْ أَنَّ مُبْغِضِيِ عَظَّمَ عَلَىَّ الْكَلاَمَ لَاخْتَفَيْتُ مِنْهُ : الليلويا",
+      "Coptic": "Je `ene oujaji petaf;]w] nhi nai nafai `erof pe > ouo\\ `ene peqmoc; `mmoi afjw `n\\anni]; `ncaji `e`\\rhi `ejwi nai naxopt `ebol \\arof > =a= l",
+      "English": "For if an enemy reviled me, I would have endured it; And if one hating me boasted against me, I would have hidden from him: Alleluia.",
+      "Arabiccoptic": "جى إينى أوجاجى بيطاف تى شوش نى ناى نافاى إيروف بى. أووه إينى بيثموستى إمموى إفجو إنهان نيشتى إنساجى إإهرى إيجوى ناى ناكوبت إيفول هاروف . الليلويا",
+      "Englishcoptic": "Je einy o gagi pitav te shosh ne nai nafai erof pe. owoh einy pithmosty emmoi efgo enhan nishty en sagi e ehri egoi nai nakopt evol harof Alleluia."
+    }
+  ]
 }

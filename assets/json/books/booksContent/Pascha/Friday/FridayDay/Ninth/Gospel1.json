@@ -1,22 +1,53 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " فَلَمَّا كَانتْ السَّاعَةُ التَّاسِعَةُ صَرَخَ يَسُوعُ بِصَوْتٍ عَظِيمٍ قَائِلاً: «إِيلِي إِيلِي لَمَا شَبَقْتَنِي» (أَيْ: إِلَهِي إِلَهِي لِمَاذَا تَرَكْتَنِي؟)\nفَقَوْمٌ مِنَ الْوَاقِفِينَ هُنَاكَ لَمَّا سَمِعُوا قَالُوا: «إِنَّهُ يُنَادِي إِيلِيَّا».\n",
-"arabiccoptic": " إيطا إفناف ذى إن أجب إبسيتى شوبى. أفؤش إيفول إنجى إيسوس خين أونيشتى إن إخروأو إفجو إمموس. جى إلوى إلوى إليما سافاكثانى. إيتى فاى بى بانوتى بانوتى إثفيؤ أك كات إنسوك.\nهان أوؤن ذى إيفول خين نى إتؤهى إيراطو إمماف. إيطاف سوتيم نافجو إمموس جى أفموتى أوفى إيلياس.\n",
-"coptic": " ` Eta `vnau de `najp yi; ]wpi> afw] `ebol `nje Ihc =en ouni]; `n`=rwou efjw `mmoc> je ` Elwi ` Elwi elema cabaxqani> ete vai pe ` Panou; ` Panou; eqbe ou akxat `ncwk\n|an ouon de `ebol=en nhet`o\\i `eratou `mmau> `etaucwtem naujw `mmoc je afmou; oube Hliac\n",
-"english": " And about the ninth hour Jesus cried out with a loud voice, saying, “Eli, Eli, lama sabachthani?” that is, “My God, My God, why have You forsaken Me?”\n47 Some of those who stood there, when they heard that, said, “This Man is calling for Elijah!”\n",
-"englishcoptic": " Eta efnav ze en agp epsity shopy. af-osh enje Isos khen o-nishty en ekhro-o efgo emmos. je Eloi Eloi elima savakthany. ete fai pe Panouty Panouty ethve-o ak kat ensok.\nHan o-oon ze evol khen ni et-ohy erato emmav. etav sotem nafgo emmos je afmooty o-fi Eilias.\n",
-},
-{
-"arabic": " وَلِلْوَقْتِ رَكَضَ وَاحِدٌ مِنْهُمْ وَأَخَذَ إِسْفِنْجَةً وَمَلَأَهَا خَلاًّ وَجَعَلَهَا عَلَى قَصَبَةٍ وَسَقَاهُ.,\nوَأَمَّا الْبَاقُونَ فَقَالُوا: «دَعُوهُ. لِنَنظر هَلْ يَأْتِي إِيلِيَّا لِيُنجِّيَهُ».,\nفَصَرَخَ يَسُوعُ أَيْضاً بِصَوْتٍ عَظِيمٍ وَأَسْلَمَ الرُّوحَ,\n",
-"english": " 48 Immediately one of them ran and took a sponge, filled it with sour wine and put it on a reed, and offered it to Him to drink.,\n49 The rest said, “Let Him alone; let us see if Elijah will come to save Him.”,\n50 And Jesus cried out again with a loud voice, and yielded up His spirit.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "27:46-50  الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 27:46-50 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمَّا كَانتْ السَّاعَةُ التَّاسِعَةُ صَرَخَ يَسُوعُ بِصَوْتٍ عَظِيمٍ قَائِلاً: «إِيلِي إِيلِي لَمَا شَبَقْتَنِي» (أَيْ: إِلَهِي إِلَهِي لِمَاذَا تَرَكْتَنِي؟)",
+      "Coptic": "` Eta `vnau de `najp yi; ]wpi> afw] `ebol `nje Ihc =en ouni]; `n`=rwou efjw `mmoc> je ` Elwi ` Elwi elema cabaxqani> ete vai pe ` Panou; ` Panou; eqbe ou akxat `ncwk",
+      "English": "And about the ninth hour Jesus cried out with a loud voice, saying, “Eli, Eli, lama sabachthani?” that is, “My God, My God, why have You forsaken Me?”",
+      "Arabiccoptic": "إيطا إفناف ذى إن أجب إبسيتى شوبى. أفؤش إيفول إنجى إيسوس خين أونيشتى إن إخروأو إفجو إمموس. جى إلوى إلوى إليما سافاكثانى. إيتى فاى بى بانوتى بانوتى إثفيؤ أك كات إنسوك.",
+      "Englishcoptic": "Eta efnav ze en agp epsity shopy. af-osh enje Isos khen o-nishty en ekhro-o efgo emmos. je Eloi Eloi elima savakthany. ete fai pe Panouty Panouty ethve-o ak kat ensok."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَوْمٌ مِنَ الْوَاقِفِينَ هُنَاكَ لَمَّا سَمِعُوا قَالُوا: «إِنَّهُ يُنَادِي إِيلِيَّا».",
+      "Coptic": "|an ouon de `ebol=en nhet`o\\i `eratou `mmau> `etaucwtem naujw `mmoc je afmou; oube Hliac",
+      "English": "47 Some of those who stood there, when they heard that, said, “This Man is calling for Elijah!”",
+      "Arabiccoptic": "هان أوؤن ذى إيفول خين نى إتؤهى إيراطو إمماف. إيطاف سوتيم نافجو إمموس جى أفموتى أوفى إيلياس.",
+      "Englishcoptic": "Han o-oon ze evol khen ni et-ohy erato emmav. etav sotem nafgo emmos je afmooty o-fi Eilias."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلِلْوَقْتِ رَكَضَ وَاحِدٌ مِنْهُمْ وَأَخَذَ إِسْفِنْجَةً وَمَلَأَهَا خَلاًّ وَجَعَلَهَا عَلَى قَصَبَةٍ وَسَقَاهُ.",
+      "English": "48 Immediately one of them ran and took a sponge, filled it with sour wine and put it on a reed, and offered it to Him to drink."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَمَّا الْبَاقُونَ فَقَالُوا: «دَعُوهُ. لِنَنظر هَلْ يَأْتِي إِيلِيَّا لِيُنجِّيَهُ».",
+      "English": "49 The rest said, “Let Him alone; let us see if Elijah will come to save Him.”"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَصَرَخَ يَسُوعُ أَيْضاً بِصَوْتٍ عَظِيمٍ وَأَسْلَمَ الرُّوحَ",
+      "English": "50 And Jesus cried out again with a loud voice, and yielded up His spirit."
+    }
+  ]
 }

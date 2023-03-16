@@ -1,7 +1,27 @@
 {
-"arabic": " من الاعماق صرخت اليك يارب. يارب استمع صوتى.,\nاَخرِج من الحبسِ نفسى لكى اشكر اسمُكَ يارب. الليلويا.,\n",
-"arabiccoptic": " إيفول خين نى إتشيك أى أوش أوفيك إبشويس, إبشويس سوتيم إيطا إسمى.\nأنى أوى إنطافكى إيفول خين أو إشتيكو إبنفما غى إبجين اوأونه إيفول إمبيكران. الليلويا\n",
-"coptic": " Ebol =en nh`et]hk ai`w] oubhk Po/c/ >Po/c/ cwtem `eta`cmh (le[ic)\nAnioui `ntauxh `ebol=en ou`]tekop/n/a/ `e`pjinouwn\\ `ebol `mpekran Po/c/>al\n",
-"english": " Out of the depths have I cried to thee, O Lord. O Lord, hearken to my voice;,\nBring my soul out of prison, that I may give thanks to thy name, O Lord. Alleluia.,\n",
-"englishcoptic": " Evol khen ni etsheek ay osh o-veek Epshois, Epshois cotem eta esmy.\nAni-oui entavki evol khen o eshteko Ebnevma, e epjin o-onh evol empekran Epshois. Alleluia\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من الاعماق صرخت اليك يارب. يارب استمع صوتى.",
+      "Coptic": "Ebol =en nh`et]hk ai`w] oubhk Po/c/ >Po/c/ cwtem `eta`cmh (le[ic)",
+      "English": "Out of the depths have I cried to thee, O Lord. O Lord, hearken to my voice;",
+      "Arabiccoptic": "إيفول خين نى إتشيك أى أوش أوفيك إبشويس, إبشويس سوتيم إيطا إسمى.",
+      "Englishcoptic": "Evol khen ni etsheek ay osh o-veek Epshois, Epshois cotem eta esmy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اَخرِج من الحبسِ نفسى لكى اشكر اسمُكَ يارب. الليلويا.",
+      "Coptic": "Anioui `ntauxh `ebol=en ou`]tekop/n/a/ `e`pjinouwn\\ `ebol `mpekran Po/c/>al",
+      "English": "Bring my soul out of prison, that I may give thanks to thy name, O Lord. Alleluia.",
+      "Arabiccoptic": "أنى أوى إنطافكى إيفول خين أو إشتيكو إبنفما غى إبجين اوأونه إيفول إمبيكران. الليلويا",
+      "Englishcoptic": "Ani-oui entavki evol khen o eshteko Ebnevma, e epjin o-onh evol empekran Epshois. Alleluia"
+    }
+  ]
 }

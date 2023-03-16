@@ -1,22 +1,80 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وَأَنْتُمْ يَا بَيْتَ إِسْرَائِيلَ اِسْمَعُوا قَوْلَ الرَّبِّ هَذَا مايَقُوله أدوناى الرَّبُّ لِيَرْجِعْ كُلُّ وَاحِدٍ وَاحِدٍ مِنْكُمْ عَنْ شُرُورِهِ وَمِنْ بَعْدِ ذَلِكَ تُطِيعُونِى\n",
-"arabiccoptic": " أووه إنثوتين إبئ إمبى إسرائيل. سوتيم إإبساجى إم إبشويس. ناى نى نى إيطاف جو إمموؤ إنجى أدوناى إبشويس. جى مارى إفؤواى إفؤواى إمموتين فوتى إن نيف بيتهوؤ إيفول. أووه ميننسا ناى إنثوتين إنتى تين سوتيم إنسوى.\n",
-"coptic": " ` Ouo\\ `nqwten `phi `mpi=c=l > cwtem `e`pcaji `mPoc? > nai ne nh`etef jw `mmwou `nje `adwnai Poc? > je mare `vouai `vouai `mmwten fw; `nnefpet- \\wou `ebol > ouo\\ menenca nai `nqwten `ntetencwtem `ncwi >\n",
-"english": " \"As for you, O house of Israel,\" thus says the Lord and Master: \"Each of you put away your practices, and after this, if you listen to Me,\n",
-"englishcoptic": " owoh enthoten ep-e empi Esraeel. sotem e epsaji em Epshois. nai ne ni etav go emmo-o enje adonay Epshois. je mare ef-ouai ef-ouai emmoten foty en nef petho-o evol. owoh menensa nai enthoten ente ten sotem ensoy.\n",
-},
-{
-"arabic": " وَلاَ تُنَجِّسُوا اسْمِي الْقُدُّوسَ وَبِأَصْنَامِكُمْ وَأعمالكم,\nلأنى أتيت على جَبَلِ قُدْسِي . على جَبَلِ إِسْرَائِيلَ الْعَالِي يَقُولُ الرَّبُّ . هُنَاكَ يَتَعَبَّدُ لِي كُلُّ بَيْتِ إِسْرَائِيلَ,,\nوَهُنَاكَ أقبلكم إليَّ. وَهُنَاكَ أَطْلُبُ قَرَابِينَكُمْ وَبَاكُورَاتِ مَرْفُوعَاتِكُمْ مَعَ جَمِيعِ مُقَدَّسَاتِكُمْ.,\nوَبِرَائِحَةِ البخور أقبلكم إليَّ. إِذْ أَخْرَجتُكُمْ مِنْ بَيْنِ الشُّعُوبِ وَقَبِلْتُكُمْ إليَّ مِنَ الكُوَرِ الَّتِي تَشتَّتُمْ فِيهَا,,\nوَأَتَقَدَّسُ فِيكُمْ أَمَامَ أعين الأُمَمِ,,\nفَتَعْلَمُونَ أَنِّي أَنَا هُوَ الرَّبُّ, حِينَمَا أَدْخَلْتُكُمْ إِلَى أَرْضِ إِسْرَائِيلَ, إِلَى الأَرْضِ الَّتِي مَدَدْتُ يَدِي عَلَيهَا لأُعْطِيهَا لِآبَائِكُمْ .,\nوَفِي ذَلِكَ الموضِعِ تَذْكُرُونَ طُرُقَكُمْ النجسة وَأَعْمَالِكُمُ الشِّرِّيرَةَ الَّتِي تَنَجَّسْتُمْ بِهَا, فَتَمْقُتُونَ أَنْفُسَكُمْ وتظهرون وجوهكم لِجَمِيعِ الشُّرُورِ الَّتِي صنعتموها.,\nوَتَعْلَمُونَ أَنِّي أَنَا هُوَ الرَّبُّ حِينَمَا أَصْنَعُ بِكُمْ هَكَذَا . لِكَي لاَ يَتَدَنَّسَ اسْمِي كَطُرُقِكُمُ الرديئة وَأَعْمَالِكُمُ الْفَاسِدَةِ, يَقُولُ أدوناي الرَّبُّ].,\n",
-"english": " You will no longer desecrate My holy name with your gifts and practices.,\nFor upon My holy mountain, the high mountain,\" Lord and Master, \"there all the house of Israel will serve Me to the end; says the,\nAnd there I shall receive you, and look upon the first fruits of your offerings, together with all your holy objects.,\nI shall receive you as a fragrant aroma when I lead you out from the peoples, and receive you from the countries where you were scattered;,\nAnd I shall be sanctified among you before the eyes of the peoples.,\nThen you will know that I am the Lord, when I lead you into the land of Brael, into the land I swore by an oath to give your fathers.,\nThere you will remember all your ways and practices which defiled you; and you shall bewail yourselvs for all your evil.,\nThen you will know that I am the Lord, when I deal with you in the way, that My name be not desecrated according to your evil ways and corrupt practices,\" says the Lord.\",\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَنْتُمْ يَا بَيْتَ إِسْرَائِيلَ اِسْمَعُوا قَوْلَ الرَّبِّ هَذَا مايَقُوله أدوناى الرَّبُّ لِيَرْجِعْ كُلُّ وَاحِدٍ وَاحِدٍ مِنْكُمْ عَنْ شُرُورِهِ وَمِنْ بَعْدِ ذَلِكَ تُطِيعُونِى",
+      "Coptic": "` Ouo\\ `nqwten `phi `mpi=c=l > cwtem `e`pcaji `mPoc? > nai ne nh`etef jw `mmwou `nje `adwnai Poc? > je mare `vouai `vouai `mmwten fw; `nnefpet\b \\wou `ebol > ouo\\ menenca nai `nqwten `ntetencwtem `ncwi >",
+      "English": "\"As for you, O house of Israel,\" thus says the Lord and Master: \"Each of you put away your practices, and after this, if you listen to Me",
+      "Arabiccoptic": "أووه إنثوتين إبئ إمبى إسرائيل. سوتيم إإبساجى إم إبشويس. ناى نى نى إيطاف جو إمموؤ إنجى أدوناى إبشويس. جى مارى إفؤواى إفؤواى إمموتين فوتى إن نيف بيتهوؤ إيفول. أووه ميننسا ناى إنثوتين إنتى تين سوتيم إنسوى.",
+      "Englishcoptic": "owoh enthoten ep-e empi Esraeel. sotem e epsaji em Epshois. nai ne ni etav go emmo-o enje adonay Epshois. je mare ef-ouai ef-ouai emmoten foty en nef petho-o evol. owoh menensa nai enthoten ente ten sotem ensoy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلاَ تُنَجِّسُوا اسْمِي الْقُدُّوسَ وَبِأَصْنَامِكُمْ وَأعمالكم",
+      "English": "You will no longer desecrate My holy name with your gifts and practices."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنى أتيت على جَبَلِ قُدْسِي . على جَبَلِ إِسْرَائِيلَ الْعَالِي يَقُولُ الرَّبُّ . هُنَاكَ يَتَعَبَّدُ لِي كُلُّ بَيْتِ إِسْرَائِيلَ",
+      "English": "For upon My holy mountain, the high mountain,\" Lord and Master, \"there all the house of Israel will serve Me to the end; says the"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَهُنَاكَ أقبلكم إليَّ. وَهُنَاكَ أَطْلُبُ قَرَابِينَكُمْ وَبَاكُورَاتِ مَرْفُوعَاتِكُمْ مَعَ جَمِيعِ مُقَدَّسَاتِكُمْ.",
+      "English": "And there I shall receive you, and look upon the first fruits of your offerings, together with all your holy objects."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبِرَائِحَةِ البخور أقبلكم إليَّ. إِذْ أَخْرَجتُكُمْ مِنْ بَيْنِ الشُّعُوبِ وَقَبِلْتُكُمْ إليَّ مِنَ الكُوَرِ الَّتِي تَشتَّتُمْ فِيهَا",
+      "English": "I shall receive you as a fragrant aroma when I lead you out from the peoples, and receive you from the countries where you were scattered;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَتَقَدَّسُ فِيكُمْ أَمَامَ أعين الأُمَمِ",
+      "English": "And I shall be sanctified among you before the eyes of the peoples."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَتَعْلَمُونَ أَنِّي أَنَا هُوَ الرَّبُّ, حِينَمَا أَدْخَلْتُكُمْ إِلَى أَرْضِ إِسْرَائِيلَ, إِلَى الأَرْضِ الَّتِي مَدَدْتُ يَدِي عَلَيهَا لأُعْطِيهَا لِآبَائِكُمْ .",
+      "English": "Then you will know that I am the Lord, when I lead you into the land of Brael, into the land I swore by an oath to give your fathers."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَفِي ذَلِكَ الموضِعِ تَذْكُرُونَ طُرُقَكُمْ النجسة وَأَعْمَالِكُمُ الشِّرِّيرَةَ الَّتِي تَنَجَّسْتُمْ بِهَا, فَتَمْقُتُونَ أَنْفُسَكُمْ وتظهرون وجوهكم لِجَمِيعِ الشُّرُورِ الَّتِي صنعتموها.",
+      "English": "There you will remember all your ways and practices which defiled you; and you shall bewail yourselvs for all your evil."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَتَعْلَمُونَ أَنِّي أَنَا هُوَ الرَّبُّ حِينَمَا أَصْنَعُ بِكُمْ هَكَذَا . لِكَي لاَ يَتَدَنَّسَ اسْمِي كَطُرُقِكُمُ الرديئة وَأَعْمَالِكُمُ الْفَاسِدَةِ, يَقُولُ أدوناي الرَّبُّ].",
+      "English": "Then you will know that I am the Lord, when I deal with you in the way, that My name be not desecrated according to your evil ways and corrupt practices,\" says the Lord.\""
+    }
+  ]
 }

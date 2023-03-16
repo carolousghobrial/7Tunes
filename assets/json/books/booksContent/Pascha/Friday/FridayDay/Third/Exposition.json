@@ -1,4 +1,39 @@
 {
-"arabic": " أنا متحير مع هذا النبى ذو الصوت العظيم , أشعياء النبى الذى سبق فنظر فى سرِّ آلام الخلاص التى لله الكلمة وقال : مَنْ هو الآتى من آدوم, وثيابه حمراء من بصرة, لابساً حلَّةً بهيةً هكذا, ولباسه من الدم الأحمر, كمَنْ يصعد من المعصرة ملطخاً بِدَمِ عنقودها.,\nحقاً بالحقيقة هو كلام هذا النبى الذى أظهر هذا من قَبْلِ هذه الأيام.,\nبالحقيقة إنه هو الإله الكلمة مخلصنا يسوع كالتدبير, لبس الجسد القديم الذى لأبينا آدم أول الخليقة, وصار اللاهوت العلوى متحداً بالبشرية بغير إستحالة (تحول ), بشكل لايُدرك. هى الحُلَّة التى لاتتغير المتحدة بالإله الكلمة.,\nوصب غضبه على العبرانيين, وداسهم فى معصرة غضبه. ورحمته وبرُّه أعطاهما للأمم الذين صنعهم له شعباً جديداً , أمَّا إسرائيل فإن البلادة قد إستولت عليه إلى الإنقضاء.,\n()\n",
-"english": " I am baffled with this great prophet Isaiah. He was seen by inspiration the passions of the Savior who is the Word of God. He said: Who is He who comes from Adam, his clothes are red, and He is dressed in a magnificent robe and His mantle is from red blood as one who comes.,\nTruly these are the words of this prophet who revealed this before these days.,\nVerily He is the Word of god, our Savior, and Jesus. He wore the old flesh of Adam, the first creation. The sublime Divinity united with humanity (without mixing nor change). An immutable mantle united with God the Word.,\nHe inflicted His wrath on the Hebrews and trampled over them in the press of His anger. He granted His mercy and grace to the Gentiles whom He made a new people. As for Israel, his foolishness will prevail on him forever.,\n()\n"
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنا متحير مع هذا النبى ذو الصوت العظيم , أشعياء النبى الذى سبق فنظر فى سرِّ آلام الخلاص التى لله الكلمة وقال : مَنْ هو الآتى من آدوم, وثيابه حمراء من بصرة, لابساً حلَّةً بهيةً هكذا, ولباسه من الدم الأحمر, كمَنْ يصعد من المعصرة ملطخاً بِدَمِ عنقودها.",
+      "English": "I am baffled with this great prophet Isaiah. He was seen by inspiration the passions of the Savior who is the Word of God. He said: Who is He who comes from Adam, his clothes are red, and He is dressed in a magnificent robe and His mantle is from red blood as one who comes."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حقاً بالحقيقة هو كلام هذا النبى الذى أظهر هذا من قَبْلِ هذه الأيام.",
+      "English": "Truly these are the words of this prophet who revealed this before these days."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بالحقيقة إنه هو الإله الكلمة مخلصنا يسوع كالتدبير, لبس الجسد القديم الذى لأبينا آدم أول الخليقة, وصار اللاهوت العلوى متحداً بالبشرية بغير إستحالة (تحول ), بشكل لايُدرك. هى الحُلَّة التى لاتتغير المتحدة بالإله الكلمة.",
+      "English": "Verily He is the Word of god, our Savior, and Jesus. He wore the old flesh of Adam, the first creation. The sublime Divinity united with humanity (without mixing nor change). An immutable mantle united with God the Word."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وصب غضبه على العبرانيين, وداسهم فى معصرة غضبه. ورحمته وبرُّه أعطاهما للأمم الذين صنعهم له شعباً جديداً , أمَّا إسرائيل فإن البلادة قد إستولت عليه إلى الإنقضاء.",
+      "English": "He inflicted His wrath on the Hebrews and trampled over them in the press of His anger. He granted His mercy and grace to the Gentiles whom He made a new people. As for Israel, his foolishness will prevail on him forever."
+    }
+  ]
 }

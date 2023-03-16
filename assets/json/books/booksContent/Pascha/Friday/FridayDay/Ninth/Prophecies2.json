@@ -1,23 +1,72 @@
 {
-"hymn":"",
-  "exposition": [
+  "RefrainAfter": 0,
+  "ArabicTitle": "14:5-11 من زكريا النبي",
+  "EnglishTitle": "Zechariah 14:5-11 ",
+  "Hymn": [
     {
-      "arabic": " وَسَيَأْتِي الرَّبُّ إِلَهِي وَجَمِيعُ مَلاَئِكَتِهِ مَعَهُ.\nوَفِي ذَلِكَ الْيَوْمِ أَنَّهُ لاَ يَكُونُ نُورٌ. بَلْ بَردٌ وَصَقِيعٌ َيَكُونُ\nفِي يَوْمٍ وَاحِدٍ وَهُوَ مَعْرُوفٌ لِلرَّبِّ. لاَ نَهَارَ وَلاَ لَيْلَ بَلْ يَحْدُثُ أَنَّهُ فِي وَقْتِ الْمَسَاءِ يَكُونُ نُورٌ.\n",
-      "arabiccoptic": " أووه إف إ إى إنجى إبشويس بانوتى. أووه نيف أنجيلوس تيرو نيماف.\nخين بى إيهوؤ إيتى إمماف إن نيف شوبى إنجى أوأوينى. أوجاف نيم أوأوجيب إف إشوبى خين أو إيهوؤ إن أوأوت.\nأووه بى إيهوؤ إيتى إمماف إف أوأونه إيفول إم إبشويس. أو إيهوؤ أوذى أو إيجوره أن. أووه إيرى إفؤوينى شوبى إم إفناف إن روهى.\n",
-      "coptic": " Ouo\\ ef`e`i `nje Po/c/ panou;> ouo\\ nefaggeloc throu nemaf>\n+en pi`e\\oou `ete`mmau `nnef]wpi `nje ououwini> oujaf nem ou`wjeb ef`e]wpi =en ou`e\\oou `nouwt >\nOuo\\ pi`e\\oou `ete`mmau `fouon\\ ebol` mP_> oue`\\oou an oude ou`ejwr\\ an > ouo\\` ere`vouwini ]wpi `m`vnau `nrou\\i\n",
-      "english": " 5 Thus the Lord my God will come, And all the saints with You.\n6 It shall come to pass in that day That there will be no light; The lights will diminish.\n7 It shall be one day Which is known to the Lord— Neither day nor night. But at evening time it shall happen That it will be light.\n",
-      "englishcoptic": " Owoh af e ei enje Epshois Panouty. owoh nef angelos tiro nemaf.\nKhen pi eho-o ete emmav en nef shopy enje o-oiny. ogaf nem o-ogeb ef e shopy khen o eho-o en o-oot.\nOwoh pi eho-o ete emmav ef o-onh evol em Epshois. o eho-o oze o egorh an. owoh ere ef o-oiny shopi em efnav en roohy.\n"
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَسَيَأْتِي الرَّبُّ إِلَهِي وَجَمِيعُ مَلاَئِكَتِهِ مَعَهُ.",
+      "Coptic": "Ouo\\ ef`e`i `nje Po/c/ panou;> ouo\\ nefaggeloc throu nemaf>",
+      "English": "5 Thus the Lord my God will come, And all the saints with You.",
+      "Arabiccoptic": "أووه إف إ إى إنجى إبشويس بانوتى. أووه نيف أنجيلوس تيرو نيماف.",
+      "Englishcoptic": "Owoh af e ei enje Epshois Panouty. owoh nef angelos tiro nemaf."
     },
     {
-      "arabic": " وَيَكُونُ فِي ذَلِكَ الْيَوْمِ أَنَّ مِياهَاً حَيَّةً تَخْرُجُ مِنْ أُورُشَلِيمَ نِصْفُهَا الأوَّلُ إِلَى الْبَحْرِ الشَّرْقِيِّ وَنِصْفُهَا الآخَرُ إِلَى الْبَحْرِ الْغَرْبِيِّ. وَيَكُونُ هَكَذَا فِي الصَّيْفِ وَفِي الْخَرِيفِ .,\nوَيَكُونُ الرَّبُّ مَلِكاً عَلَى الأَرْضِ كُلِّهَا. وَفِي ذَلِكَ الْيَوْمِ يَكُونُ الرَّبُّ وَاحِدَاً وَاسْمُهُ وَاحِدَاً.,\nوَيُحِيِطُ بِكَافَةِ الأَرْضُ وَالبرِّيةِ مِنْ جَبعَ إِلَى ارِمُّونَ بِجَانبِ أُورُشَلِيمَ الأيمَنْ. وَتُعْمَرُ وَتستَقِرُّ الرامة فِي مَكَانِهَا مِنْ بَابِ بِنْيَامِينَ الأَوَّلِ إِلَى بَابِ الزاويَةِ وَإِلَى بُرْجِ حَنَنْئِيلَ إِلَى مَعَاصِرِ الْمَلِكِ.,\nفَيَسْكُنُونَ فِيهَا وَلاَ يَكُونُ بَعْدُ لَعْنٌ وَتُسْكَنُ. وَتَكُونُ أُورُشَلِيمُ مُطْمَئِنَّة....,\n",
-      "english": " And in that day it shall be That living waters shall flow from Jerusalem, Half of them toward the eastern sea And half of them toward the western sea; In both summer and winter it shall occur.,\n9 And the Lord shall be King over all the earth. In that day it shall be— “The Lord is one,” And His name one.,\n10 All the land shall be turned into a plain from Geba to Rimmon south of Jerusalem. Jerusalem shall be raised up and inhabited in her place from Benjamin’s Gate to the place of the First Gate and the Corner Gate, and from the Tower of Hananel to the king’s winepresses.,\n11 The people shall dwell in it; And no longer shall there be utter destruction, But Jerusalem shall be safely inhabited.,\n"
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَفِي ذَلِكَ الْيَوْمِ أَنَّهُ لاَ يَكُونُ نُورٌ. بَلْ بَردٌ وَصَقِيعٌ َيَكُونُ",
+      "Coptic": "+en pi`e\\oou `ete`mmau `nnef]wpi `nje ououwini> oujaf nem ou`wjeb ef`e]wpi =en ou`e\\oou `nouwt >",
+      "English": "6 It shall come to pass in that day That there will be no light; The lights will diminish.",
+      "Arabiccoptic": "خين بى إيهوؤ إيتى إمماف إن نيف شوبى إنجى أوأوينى. أوجاف نيم أوأوجيب إف إشوبى خين أو إيهوؤ إن أوأوت.",
+      "Englishcoptic": "Khen pi eho-o ete emmav en nef shopy enje o-oiny. ogaf nem o-ogeb ef e shopy khen o eho-o en o-oot."
     },
     {
-      "arabic": "",
-      "arabiccoptic": "",
-      "coptic": "",
-      "english": "",
-      "englishcoptic": ""
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فِي يَوْمٍ وَاحِدٍ وَهُوَ مَعْرُوفٌ لِلرَّبِّ. لاَ نَهَارَ وَلاَ لَيْلَ بَلْ يَحْدُثُ أَنَّهُ فِي وَقْتِ الْمَسَاءِ يَكُونُ نُورٌ.",
+      "Coptic": "Ouo\\ pi`e\\oou `ete`mmau `fouon\\ ebol` mP_> oue`\\oou an oude ou`ejwr\\ an > ouo\\` ere`vouwini ]wpi `m`vnau `nrou\\i",
+      "English": "7 It shall be one day Which is known to the Lord— Neither day nor night. But at evening time it shall happen That it will be light.",
+      "Arabiccoptic": "أووه بى إيهوؤ إيتى إمماف إف أوأونه إيفول إم إبشويس. أو إيهوؤ أوذى أو إيجوره أن. أووه إيرى إفؤوينى شوبى إم إفناف إن روهى.",
+      "Englishcoptic": "Owoh pi eho-o ete emmav ef o-onh evol em Epshois. o eho-o oze o egorh an. owoh ere ef o-oiny shopi em efnav en roohy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيَكُونُ فِي ذَلِكَ الْيَوْمِ أَنَّ مِياهَاً حَيَّةً تَخْرُجُ مِنْ أُورُشَلِيمَ نِصْفُهَا الأوَّلُ إِلَى الْبَحْرِ الشَّرْقِيِّ وَنِصْفُهَا الآخَرُ إِلَى الْبَحْرِ الْغَرْبِيِّ. وَيَكُونُ هَكَذَا فِي الصَّيْفِ وَفِي الْخَرِيفِ .",
+      "English": "And in that day it shall be That living waters shall flow from Jerusalem, Half of them toward the eastern sea And half of them toward the western sea; In both summer and winter it shall occur."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيَكُونُ الرَّبُّ مَلِكاً عَلَى الأَرْضِ كُلِّهَا. وَفِي ذَلِكَ الْيَوْمِ يَكُونُ الرَّبُّ وَاحِدَاً وَاسْمُهُ وَاحِدَاً.",
+      "English": "9 And the Lord shall be King over all the earth. In that day it shall be— “The Lord is one,” And His name one."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيُحِيِطُ بِكَافَةِ الأَرْضُ وَالبرِّيةِ مِنْ جَبعَ إِلَى ارِمُّونَ بِجَانبِ أُورُشَلِيمَ الأيمَنْ. وَتُعْمَرُ وَتستَقِرُّ الرامة فِي مَكَانِهَا مِنْ بَابِ بِنْيَامِينَ الأَوَّلِ إِلَى بَابِ الزاويَةِ وَإِلَى بُرْجِ حَنَنْئِيلَ إِلَى مَعَاصِرِ الْمَلِكِ.",
+      "English": "10 All the land shall be turned into a plain from Geba to Rimmon south of Jerusalem. Jerusalem shall be raised up and inhabited in her place from Benjamin’s Gate to the place of the First Gate and the Corner Gate, and from the Tower of Hananel to the king’s winepresses."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَيَسْكُنُونَ فِيهَا وَلاَ يَكُونُ بَعْدُ لَعْنٌ وَتُسْكَنُ. وَتَكُونُ أُورُشَلِيمُ مُطْمَئِنَّة....",
+      "English": "11 The people shall dwell in it; And no longer shall there be utter destruction, But Jerusalem shall be safely inhabited."
     }
   ]
 }

@@ -1,4 +1,71 @@
 {
-"arabic": " ماذا نقول أيها الأخوة الأحباء عن جحود يهوذا الذى أسلم سيده. قيل أن واحداً من الإثنى عشر. الذى هو يهوذا الإسخريوطى.,\nمضى إلى رؤساء الكهنة وقال لهم : « ماذا تريدون أن تعطونى وأنا أسلِّمَهُ إليكم؟».,\nفساوموه على ثلاثين من الفضة. يالهذا الجهل العظيم.,\nوما أشر محبة المال. الذى هو أصل لكل الشرور. لأن هذا لَمَّا إشتهاه باع معلمه الصالح وسيده البار.,\nفطوح بنفسه فى هوة الهلاك. لأنه كم هو ردئ حب المال. فهو مجلبة لكل شرٍّ. وأردأ من حيل الشياطين.,\nفالنفوس التى يَتَسلَّط عليها يجعل أصحابها يجنون وَلَعَاً بها. فلايعرفون ذواتهم. بل ويتعامون عن معرفة الأخرين. ويرفضون ناموس الطبيعة. ويكون قلبهم فزعاً حائراً.,\nأنظروا كم من النعم نزعتها محبة الفضة من نفس يهوذا. لأن سيدنا يسوع المسيح كان يخاطبهم علانية عن هول الجحيم ونعيم ملكوت السموات.,\nوَ يُعَرِّفُ كل واحد مقدار عذاب الخطاة. وَيكرم كل المجاهدين لخلاص نفوسهم.,\n()\n",
-"english": " What shall be said concerning the iniquity of Judas who betrayed his Lord? He is one of the twelve. He is Judas Iscariot.,\nHe went to the chief priests and said to them: “What will you give me and I shall deliver Him to you.”,\nThey offered him thirty pieces of silver, O what great ignorance!,\nEvermore so what great love of silver which is the root of every evil. When he desired it, he sold his Good Teacher and righteous Lord.,\nHe eased Himself thus into the path of destruction. How determined is the love of money. It is the source of all evil and worse than the battles of Satan.,\nThe souls which are overcome by it are turned to breakdown. They thus do not know themselves and even reject knowing others. They reject the law of nature, and their heart always wonders in alarm.,\nLook at how many graces money has taken from Judas! For the Lord Jesus Christ spoke to them openly concerning Hades and the graces of the Kingdom of Heaven.,\nThus everyone knows the measure of torment of the sinners, and the glorification of those who struggle for the salvation of their souls.,\n()\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "عظة للقديس يوحنا فم الذهب",
+  "EnglishTitle": "Homily of St.John Chrysostom ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ماذا نقول أيها الأخوة الأحباء عن جحود يهوذا الذى أسلم سيده. قيل أن واحداً من الإثنى عشر. الذى هو يهوذا الإسخريوطى.",
+      "English": "What shall be said concerning the iniquity of Judas who betrayed his Lord? He is one of the twelve. He is Judas Iscariot."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مضى إلى رؤساء الكهنة وقال لهم : « ماذا تريدون أن تعطونى وأنا أسلِّمَهُ إليكم؟».",
+      "English": "He went to the chief priests and said to them: “What will you give me and I shall deliver Him to you.”"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فساوموه على ثلاثين من الفضة. يالهذا الجهل العظيم.",
+      "English": "They offered him thirty pieces of silver, O what great ignorance!"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وما أشر محبة المال. الذى هو أصل لكل الشرور. لأن هذا لَمَّا إشتهاه باع معلمه الصالح وسيده البار.",
+      "English": "Evermore so what great love of silver which is the root of every evil. When he desired it, he sold his Good Teacher and righteous Lord."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فطوح بنفسه فى هوة الهلاك. لأنه كم هو ردئ حب المال. فهو مجلبة لكل شرٍّ. وأردأ من حيل الشياطين.",
+      "English": "He eased Himself thus into the path of destruction. How determined is the love of money. It is the source of all evil and worse than the battles of Satan."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فالنفوس التى يَتَسلَّط عليها يجعل أصحابها يجنون وَلَعَاً بها. فلايعرفون ذواتهم. بل ويتعامون عن معرفة الأخرين. ويرفضون ناموس الطبيعة. ويكون قلبهم فزعاً حائراً.",
+      "English": "The souls which are overcome by it are turned to breakdown. They thus do not know themselves and even reject knowing others. They reject the law of nature, and their heart always wonders in alarm."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنظروا كم من النعم نزعتها محبة الفضة من نفس يهوذا. لأن سيدنا يسوع المسيح كان يخاطبهم علانية عن هول الجحيم ونعيم ملكوت السموات.",
+      "English": "Look at how many graces money has taken from Judas! For the Lord Jesus Christ spoke to them openly concerning Hades and the graces of the Kingdom of Heaven."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَ يُعَرِّفُ كل واحد مقدار عذاب الخطاة. وَيكرم كل المجاهدين لخلاص نفوسهم.",
+      "English": "Thus everyone knows the measure of torment of the sinners, and the glorification of those who struggle for the salvation of their souls."
+    }
+  ]
 }

@@ -1,22 +1,56 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " لأَنَّهُ كَمَا أَنَّ الآبَ يُقِيمُ الأَمْوَاتَ وَيُحْيِي، كَذلِكَ الابْنُ أَيْضًا يُحْيِي مَنْ يَشَاءُ.\n",
-"arabiccoptic": " إم إفريتى غار إ شارى إفيوت طونوس إن نى ريف موأوت أووه إفتانخ إمموأو. باى ريتى أون بيكى شيرى نى إيتيف أو أشو إفتانخو إمموأو.\n",
-"coptic": " M`vrh; gar `e]are Viwt tounoc `nnirefmwout ouo\\ eftan= `mmwou> pairh; on pike]hri nh`etefou a]ou `ftan=o `mmwou>\n",
-"english": " For as the Father raises the dead and gives life to them, even so the Son gives life to whom He will.\n",
-"englishcoptic": " Em evreety ghare share Efiot tonos enni ref mo-oot owoh ef tankh emo-o. paireety on pike sheery ni etev o asho eftankho emmo-o.\n",
-},
-{
-"arabic": " وَلَيْسَ الآبُ  يَدِينُ أَحَداً بَلْ قَدْ أَعْطَى الحُكْمَ كُلَّهُ لِلاِبْنِ  لِكَيْ يُكْرِمَ كُلُّ أَحَدٍ الاِبْنَ كَمَا يُكْرِمُونَ الآبَ. مَنْ لاَ يُكْرِمُ الاِبْنَ فَلَيْسَ يُكْرِمُ أيْضاً الآبَ الَّذِي أَرْسَلَهُ.,\n«اَلْحَقَّ الْحَقَّ أَقُولُ لَكُمْ: إِنَّ مَنْ يَسْمَعُ كلاَمِي وَيُؤْمِنُ بِالَّذِي أَرْسَلَنِي فَلَهُ الحَيَاةُ الدَائِمَةُ. وَلَيسَ يَحْضُرُ لِيُدَانَ بَلْ قَدِ انْتَقَلَ مِنَ الْمَوْتِ إِلَى الْحَيَاةِ.,\nاَلْحَقَّ الْحَقَّ أَقُولُ لَكُمْ: إِنَّهُ سَتَأْتِي سَاعَةٌ وَهِيَ الآنَ حِينَ يَسْمَعُ فِيهَا الأَمْوَاتُ صَوْتَ ابْنِ اللَّهِ وَالَّذِين يَسْمَعُونَ يَحْيَوْنَ.  لأَنَّهُ كَمَا أَنَّ لِلآبِ الحَيَاةَ فِي ذَاتِهِ كَذَلِكَ أَعْطَى الاِبْنَ أَنْ تَكُونَ لَهُ الحَيَاةُ فِي ذَاتِهِ  وَأَعْطَاهُ سُلْطَاناً أَنْ يَحْكُمَ لأَنَّهُ ابْنُ البشرِ.  لاَتَتَعَجَّبُوا مِنْ هَذَا,\nفَإِنَّهُ سَتَأْتِي سَاعَةٌ حِينَمَا يَسْمَعُ فِيهَا كُلُّ مَنْ فِي الْقُبُورِ صَوْتَهُ  فَيَخْرُجُ الَّذِينَ صَنَعُوا الحَسنَاتِ إِلَى قِيَامَةِ الْحَيَاةِ وَالَّذِينَ صَنَعُوا السَّيِّئَاتِ إِلَى قِيَامَةِ الدَّيْنُونَةِ,\nلاننى لست اقدر ان افعل شيئاً من ذاتى وحدى، وكما اسمع ادين ودينونتى هى عادلة، لاننى لست اطلب مشيئتى بل مشيئة الأب الذى ارسلنى,\n",
-"english": " For the Father judges no one, but has committed all judgment to the Son, that all should honor the Son just as they honor the Father. He who does not honor the Son does not honor the Father who sent Him.,\n“Most assuredly, I say to you, he who hears My word and believes in Him who sent Me has everlasting life, and shall not come into judgment, but has passed from death into life.,\nMost assuredly, I say to you, the hour is coming, and now is, when the dead will hear the voice of the Son of God; and those who hear will live. For as the Father has life in Himself, so He has granted the Son to have life in Himself, and has given Him authority to execute judgment also, because He is the Son of Man. Do not marvel at this;,\nFor the hour is coming in which all who are in the graves will hear His voice and come forth—those who have done good, to the resurrection of life, and those who have done evil, to the resurrection of condemnation.,\nI can of Myself do nothing. As I hear, I judge; and My judgment is righteous, because I do not seek My own will but the will of the Father who sent Me.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنَّهُ كَمَا أَنَّ الآبَ يُقِيمُ الأَمْوَاتَ وَيُحْيِي، كَذلِكَ الابْنُ أَيْضًا يُحْيِي مَنْ يَشَاءُ.",
+      "Coptic": "M`vrh; gar `e]are Viwt tounoc `nnirefmwout ouo\\ eftan= `mmwou> pairh; on pike]hri nh`etefou a]ou `ftan=o `mmwou>",
+      "English": "For as the Father raises the dead and gives life to them, even so the Son gives life to whom He will.",
+      "Arabiccoptic": "إم إفريتى غار إ شارى إفيوت طونوس إن نى ريف موأوت أووه إفتانخ إمموأو. باى ريتى أون بيكى شيرى نى إيتيف أو أشو إفتانخو إمموأو.",
+      "Englishcoptic": "Em evreety ghare share Efiot tonos enni ref mo-oot owoh ef tankh emo-o. paireety on pike sheery ni etev o asho eftankho emmo-o."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَيْسَ الآبُ  يَدِينُ أَحَداً بَلْ قَدْ أَعْطَى الحُكْمَ كُلَّهُ لِلاِبْنِ  لِكَيْ يُكْرِمَ كُلُّ أَحَدٍ الاِبْنَ كَمَا يُكْرِمُونَ الآبَ. مَنْ لاَ يُكْرِمُ الاِبْنَ فَلَيْسَ يُكْرِمُ أيْضاً الآبَ الَّذِي أَرْسَلَهُ.",
+      "English": "For the Father judges no one, but has committed all judgment to the Son, that all should honor the Son just as they honor the Father. He who does not honor the Son does not honor the Father who sent Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "«اَلْحَقَّ الْحَقَّ أَقُولُ لَكُمْ: إِنَّ مَنْ يَسْمَعُ كلاَمِي وَيُؤْمِنُ بِالَّذِي أَرْسَلَنِي فَلَهُ الحَيَاةُ الدَائِمَةُ. وَلَيسَ يَحْضُرُ لِيُدَانَ بَلْ قَدِ انْتَقَلَ مِنَ الْمَوْتِ إِلَى الْحَيَاةِ.",
+      "English": "“Most assuredly, I say to you, he who hears My word and believes in Him who sent Me has everlasting life, and shall not come into judgment, but has passed from death into life."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اَلْحَقَّ الْحَقَّ أَقُولُ لَكُمْ: إِنَّهُ سَتَأْتِي سَاعَةٌ وَهِيَ الآنَ حِينَ يَسْمَعُ فِيهَا الأَمْوَاتُ صَوْتَ ابْنِ اللَّهِ وَالَّذِين يَسْمَعُونَ يَحْيَوْنَ.  لأَنَّهُ كَمَا أَنَّ لِلآبِ الحَيَاةَ فِي ذَاتِهِ كَذَلِكَ أَعْطَى الاِبْنَ أَنْ تَكُونَ لَهُ الحَيَاةُ فِي ذَاتِهِ  وَأَعْطَاهُ سُلْطَاناً أَنْ يَحْكُمَ لأَنَّهُ ابْنُ البشرِ.  لاَتَتَعَجَّبُوا مِنْ هَذَا",
+      "English": "Most assuredly, I say to you, the hour is coming, and now is, when the dead will hear the voice of the Son of God; and those who hear will live. For as the Father has life in Himself, so He has granted the Son to have life in Himself, and has given Him authority to execute judgment also, because He is the Son of Man. Do not marvel at this;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَإِنَّهُ سَتَأْتِي سَاعَةٌ حِينَمَا يَسْمَعُ فِيهَا كُلُّ مَنْ فِي الْقُبُورِ صَوْتَهُ  فَيَخْرُجُ الَّذِينَ صَنَعُوا الحَسنَاتِ إِلَى قِيَامَةِ الْحَيَاةِ وَالَّذِينَ صَنَعُوا السَّيِّئَاتِ إِلَى قِيَامَةِ الدَّيْنُونَةِ",
+      "English": "For the hour is coming in which all who are in the graves will hear His voice and come forth—those who have done good, to the resurrection of life, and those who have done evil, to the resurrection of condemnation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لاننى لست اقدر ان افعل شيئاً من ذاتى وحدى، وكما اسمع ادين ودينونتى هى عادلة، لاننى لست اطلب مشيئتى بل مشيئة الأب الذى ارسلنى",
+      "English": "I can of Myself do nothing. As I hear, I judge; and My judgment is righteous, because I do not seek My own will but the will of the Father who sent Me."
+    }
+  ]
 }

@@ -1,22 +1,86 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وَكَانَ عُنْوَانُ عِلَّتِهِ مَكْتُوباً «مَلِكُ الْيَهُودِ».\nوَصَلَبُوا مَعَهُ لِصَّيْنِ وَاحِداً عَنْ يَمِينِهِ وَالآخَرَ عَنْ يَسَارِهِ.\nفَتَمَّت الْكِتَابةُ الْقَائِلةُ: «وَأُحْصِيَ مَعَ الأَثَمَةِ».\nوَكَانَ الْمُجْتَازُونَ بِهِ يُجَدِّفُونَ عَلَيْهِ وَ يُحرِّكُونَ رُؤُوسَهُمْ قَائِلِينَ: «يَا نَاقِضَ الْهَيْكَلِ وَبَانِيَهُ فِي ثَلاَثَةِ أَيَّامٍ!\nخَلِّصْ نَفْسَكَ وَانْزِلْ عَنِ الصَّلِيبِ!»\n",
-"arabiccoptic": " أووه تى إبى إغرافى إنتى تيف إتى أ ناس إسخيوت بى جى إبؤرو إنتى نى يوذاى.\nأووه أف أش كى سونى إسناف نيماف.\nأواى ساتيف أوِّى نام نيم أواى ساتيف جاتشى. أووه أسجوك إيفول إنجى تى إغرافى جى أف أوبف نيم نى أنوموس.\nأووه نى إيناف سينى ناف جى أوأ إيروف. إفكيم إن نو أفيؤوى أووه إفجو إمموس.جى فى إثنافال بى إيرفى إيفول. أووه إنتيف كوتف خين شومت إن إيهوؤ.\nناهميك إى أكئ إإخرى إيفول هى بيسطافروس.\n",
-"coptic": " Ouo\\ ;`epi`gravh `nte tef`eti`a nac `c=hout pe je` pouro `nte niIoudai>\nOuo\\ aua] keconi `cnau nemaf> ouai catefou`inam nem ouai catefjash>\nOuo\\ acjwk `ebol `nje ;`gravh je auopf nem ni`anomoc>\nOuo\\ nh`enaucini nau je ou`a `erof > eukim `nnou`avhou`i ouo\\ eujw `mmoc> je vheqnabel piervei` ebol> ouo\\ `ntefkotf =en ]omt `n`e\\oou>\nNa\\mek` eak`i  `e`=rhi `ebol\\i pi`ctauroc\n",
-"english": " 26 And the inscription of His accusation was written above: THE KING OF THE JEWS.\n27 With Him they also crucified two robbers, one on His right and the other on His left.\n28 So the Scripture was fulfilled which says, “And He was numbered with the transgressors.”\n29 And those who passed by blasphemed Him, wagging their heads and saying, “Aha! You who destroy the temple and build it in three days,\n30 save Yourself, and come down from the cross!”\n",
-"englishcoptic": " Owoh ti epi eghrave ente tef eti a nas eskheiot pije ep-oro ente ni Youzai.\nOwoh af ash ke sny esnaf nemaf.\nOuai satef oui nam nem ouai satef gatchi. owoh asgok evol enje ti eghravee je af opf nem ni anomos.\nOwoh ni enav siny nav je o-a erof. afkim enno afioui owoh efgo emmos. je vi ethnaval pe ervei evol. owoh entef kotf khen shomt en eho-o.\nNahmek ei ak-e e ekhrei evol hi pistavros.\n",
-},
-{
-"arabic": " وَكَذَلِكَ رُؤَسَاءُ الْكَهَنَةِ كَانُوا يسْتَهْزِئُونَ فِيمَا بَيْنَهُمْ مَعَ الْكَتَبَةِ قَائِلين: «خَلَّصَ آخَرِينَ وَأَمَّا نَفْسُهُ فَلم يَقْدِرُ أَنْ يُخَلِّصَهَا.,\nإن كَانَ هُوَ الْمَسِيحُ مَلِكُ إِسْرَائِيلَ فَليَنْزِل الآنَ عَنِ الصَّلِيبِ لِنَرَى وَنُؤْمِنَ». وَكَانَ اللَّذَانِ صُلِبَا مَعَهُ يُعَيِّرَانِهِ أيضاً.,\nوَلَمَّا كَانَتِ السَّاعَةُ السَّادِسَةُ كَانَتْ ظُلْمَةٌ عَلَى الأَرْضِ كُلِّهَا إِلَى السَّاعَةِ التَّاسِعَةِ,\n",
-"english": " 31 Likewise the chief priests also, mocking among themselves with the scribes, said, “He saved others; Himself He cannot save.,\n32 Let the Christ, the King of Israel, descend now from the cross, that we may see and believe.” Even those who were crucified with Him reviled Him.,\n33 Now when the sixth hour had come, there was darkness over the whole land until the ninth hour.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "15:26-33 الإنجيل من مرقس",
+  "EnglishTitle": "The Gospel according to St.Mark 15:26-33 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ عُنْوَانُ عِلَّتِهِ مَكْتُوباً «مَلِكُ الْيَهُودِ».",
+      "Coptic": "Ouo\\ ;`epi`gravh `nte tef`eti`a nac `c=hout pe je` pouro `nte niIoudai>",
+      "English": "26 And the inscription of His accusation was written above: THE KING OF THE JEWS.",
+      "Arabiccoptic": "أووه تى إبى إغرافى إنتى تيف إتى أ ناس إسخيوت بى جى إبؤرو إنتى نى يوذاى.",
+      "Englishcoptic": "Owoh ti epi eghrave ente tef eti a nas eskheiot pije ep-oro ente ni Youzai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَصَلَبُوا مَعَهُ لِصَّيْنِ وَاحِداً عَنْ يَمِينِهِ وَالآخَرَ عَنْ يَسَارِهِ.",
+      "Coptic": "Ouo\\ aua] keconi `cnau nemaf> ouai catefou`inam nem ouai catefjash>",
+      "English": "27 With Him they also crucified two robbers, one on His right and the other on His left.",
+      "Arabiccoptic": "أووه أف أش كى سونى إسناف نيماف.",
+      "Englishcoptic": "Owoh af ash ke sny esnaf nemaf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَتَمَّت الْكِتَابةُ الْقَائِلةُ: «وَأُحْصِيَ مَعَ الأَثَمَةِ».",
+      "Coptic": "Ouo\\ acjwk `ebol `nje ;`gravh je auopf nem ni`anomoc>",
+      "English": "28 So the Scripture was fulfilled which says, “And He was numbered with the transgressors.”",
+      "Arabiccoptic": "أواى ساتيف أوِّى نام نيم أواى ساتيف جاتشى. أووه أسجوك إيفول إنجى تى إغرافى جى أف أوبف نيم نى أنوموس.",
+      "Englishcoptic": "Ouai satef oui nam nem ouai satef gatchi. owoh asgok evol enje ti eghravee je af opf nem ni anomos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ الْمُجْتَازُونَ بِهِ يُجَدِّفُونَ عَلَيْهِ وَ يُحرِّكُونَ رُؤُوسَهُمْ قَائِلِينَ: «يَا نَاقِضَ الْهَيْكَلِ وَبَانِيَهُ فِي ثَلاَثَةِ أَيَّامٍ!",
+      "Coptic": "Ouo\\ nh`enaucini nau je ou`a `erof > eukim `nnou`avhou`i ouo\\ eujw `mmoc> je vheqnabel piervei` ebol> ouo\\ `ntefkotf =en ]omt `n`e\\oou>",
+      "English": "29 And those who passed by blasphemed Him, wagging their heads and saying, “Aha! You who destroy the temple and build it in three days",
+      "Arabiccoptic": "أووه نى إيناف سينى ناف جى أوأ إيروف. إفكيم إن نو أفيؤوى أووه إفجو إمموس.جى فى إثنافال بى إيرفى إيفول. أووه إنتيف كوتف خين شومت إن إيهوؤ.",
+      "Englishcoptic": "Owoh ni enav siny nav je o-a erof. afkim enno afioui owoh efgo emmos. je vi ethnaval pe ervei evol. owoh entef kotf khen shomt en eho-o."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خَلِّصْ نَفْسَكَ وَانْزِلْ عَنِ الصَّلِيبِ!»",
+      "Coptic": "Na\\mek` eak`i  `e`=rhi `ebol\\i pi`ctauroc",
+      "English": "30 save Yourself, and come down from the cross!”",
+      "Arabiccoptic": "ناهميك إى أكئ إإخرى إيفول هى بيسطافروس.",
+      "Englishcoptic": "Nahmek ei ak-e e ekhrei evol hi pistavros."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَذَلِكَ رُؤَسَاءُ الْكَهَنَةِ كَانُوا يسْتَهْزِئُونَ فِيمَا بَيْنَهُمْ مَعَ الْكَتَبَةِ قَائِلين: «خَلَّصَ آخَرِينَ وَأَمَّا نَفْسُهُ فَلم يَقْدِرُ أَنْ يُخَلِّصَهَا.",
+      "English": "31 Likewise the chief priests also, mocking among themselves with the scribes, said, “He saved others; Himself He cannot save."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إن كَانَ هُوَ الْمَسِيحُ مَلِكُ إِسْرَائِيلَ فَليَنْزِل الآنَ عَنِ الصَّلِيبِ لِنَرَى وَنُؤْمِنَ». وَكَانَ اللَّذَانِ صُلِبَا مَعَهُ يُعَيِّرَانِهِ أيضاً.",
+      "English": "32 Let the Christ, the King of Israel, descend now from the cross, that we may see and believe.” Even those who were crucified with Him reviled Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَمَّا كَانَتِ السَّاعَةُ السَّادِسَةُ كَانَتْ ظُلْمَةٌ عَلَى الأَرْضِ كُلِّهَا إِلَى السَّاعَةِ التَّاسِعَةِ",
+      "English": "33 Now when the sixth hour had come, there was darkness over the whole land until the ninth hour."
+    }
+  ]
 }

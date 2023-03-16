@@ -1,22 +1,106 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " وفى احد السبوت باكر جدا انين إلى القبر، وقد احضرت العطور التى اعددتها ومعهن نسوة اخريات،\n",
-"arabiccoptic": " خين إيفوواي ذي إينتي نيسابفاتون إينشورب إيماشو اف إي إيبي إيمهاف إي اف إيني إين ني إيستوي إيتاف سيب توتوو نيم هان كي هيومي نيموؤو.\n",
-"coptic": " +en `vouai de `nte nicabbaton `n]wrp ema]w au`i `epi`m\\au `eauini `nni`cqoi `etaucebtwtou nem \\anke\\iomi nemwou.\n",
-"english": " Now on the first day of the week, very early in the morning, they, and certain other women with them, came to the tomb bringing the spices which they had prepared.\n",
-"englishcoptic": " Khen ev-owai ze ente ni-sabvaton en-shorp emasho av-ee epi-emhav e-av-ini enni-estoi etav-seb-to-too nem han-ke-hi-omi nemo-oo.\n",
-},
-{
-"arabic": " 2 فَوَجَدْنَ الْحَجَرَ مُدَحْرَجًا عَنِ الْقَبْرِ،,\n3 فَدَخَلْنَ وَلَمْ يَجِدْنَ جَسَدَ الرَّبِّ يَسُوعَ.,\n4 وَفِيمَا هُنَّ مُحْتَارَاتٌ فِي ذلِكَ، إِذَا رَجُلاَنِ وَقَفَا بِهِنَّ بِثِيَابٍ بَرَّاقَةٍ.,\n5 وَإِذْ كُنَّ خَائِفَاتٍ وَمُنَكِّسَاتٍ وُجُوهَهُنَّ إِلَى الأَرْضِ، قَالاَ لَهُنَّ:«لِمَاذَا تَطْلُبْنَ الْحَيَّ بَيْنَ الأَمْوَاتِ؟,\n6 لَيْسَ هُوَ ههُنَا، لكِنَّهُ قَامَ! اُذْكُرْنَ كَيْفَ كَلَّمَكُنَّ وَهُوَ بَعْدُ فِي الْجَلِيلِ,\n7 قَائِلاً: إِنَّهُ يَنْبَغِي أَنْ يُسَلَّمَ ابْنُ الإِنْسَانِ فِي أَيْدِي أُنَاسٍ خُطَاةٍ، وَيُصْلَبَ، وَفِي الْيَوْمِ الثَّالِثِ يَقُومُ».,\n8 فَتَذَكَّرْنَ كَلاَمَهُ،,\n9 وَرَجَعْنَ مِنَ الْقَبْرِ، وَأَخْبَرْنَ الأَحَدَ عَشَرَ وَجَمِيعَ الْبَاقِينَ بِهذَا كُلِّهِ.,\n10 وَكَانَتْ مَرْيَمُ الْمَجْدَلِيَّةُ وَيُوَنَّا وَمَرْيَمُ أُمُّ يَعْقُوبَ وَالْبَاقِيَاتُ مَعَهُنَّ، اللَّوَاتِي قُلْنَ هذَا لِلرُّسُلِ.,\n11 فَتَرَاءَى كَلاَمُهُنَّ لَهُمْ كَالْهَذَيَانِ وَلَمْ يُصَدِّقُوهُنَّ.,\n12 فَقَامَ بُطْرُسُ وَرَكَضَ إِلَى الْقَبْرِ، فَانْحَنَى وَنَظَرَ الأَكْفَانَ مَوْضُوعَةً وَحْدَهَا، فَمَضَى مُتَعَجِّبًا فِي نَفْسِهِ مِمَّا كَانَ.,\n",
-"english": " 2 But they found the stone rolled away from the tomb.,\n3 Then they went in and did not find the body of the Lord Jesus.,\n4 And it happened, as they were greatly perplexed about this, that behold, two men stood by them in shining garments.,\n5 Then, as they were afraid and bowed their faces to the earth, they said to them, \"Why do you seek the living among the dead?,\n6 He is not here, but is risen! Remember how He spoke to you when He was still in Galilee,,\n7 saying, \"The Son of Man must be delivered into the hands of sinful men, and be crucified, and the third day rise again.\",\n8 And they remembered His words.,\n9 Then they returned from the tomb and told all these things to the eleven and to all the rest.,\n10 It was Mary Magdalene, Joanna, Mary the mother of James, and the other women with them, who told these things to the apostles.,\n11 And their words seemed to them like idle tales, and they did not believe them.,\n12 But Peter arose and ran to the tomb; and stooping down, he saw the linen cloths lying by themselves; and he departed, marveling to himself at what had happened.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "ArabicTitle": "24:1-12  الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 24:1-12 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفى احد السبوت باكر جدا انين إلى القبر، وقد احضرت العطور التى اعددتها ومعهن نسوة اخريات،",
+      "Coptic": "+en `vouai de `nte nicabbaton `n]wrp ema]w au`i `epi`m\\au `eauini `nni`cqoi `etaucebtwtou nem \\anke\\iomi nemwou.",
+      "English": "Now on the first day of the week, very early in the morning, they, and certain other women with them, came to the tomb bringing the spices which they had prepared.",
+      "Arabiccoptic": "خين إيفوواي ذي إينتي نيسابفاتون إينشورب إيماشو اف إي إيبي إيمهاف إي اف إيني إين ني إيستوي إيتاف سيب توتوو نيم هان كي هيومي نيموؤو.",
+      "Englishcoptic": "Khen ev-owai ze ente ni-sabvaton en-shorp emasho av-ee epi-emhav e-av-ini enni-estoi etav-seb-to-too nem han-ke-hi-omi nemo-oo."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "2 فَوَجَدْنَ الْحَجَرَ مُدَحْرَجًا عَنِ الْقَبْرِ،",
+      "English": "2 But they found the stone rolled away from the tomb."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "3 فَدَخَلْنَ وَلَمْ يَجِدْنَ جَسَدَ الرَّبِّ يَسُوعَ.",
+      "English": "3 Then they went in and did not find the body of the Lord Jesus."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "4 وَفِيمَا هُنَّ مُحْتَارَاتٌ فِي ذلِكَ، إِذَا رَجُلاَنِ وَقَفَا بِهِنَّ بِثِيَابٍ بَرَّاقَةٍ.",
+      "English": "4 And it happened, as they were greatly perplexed about this, that behold, two men stood by them in shining garments."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "5 وَإِذْ كُنَّ خَائِفَاتٍ وَمُنَكِّسَاتٍ وُجُوهَهُنَّ إِلَى الأَرْضِ، قَالاَ لَهُنَّ:«لِمَاذَا تَطْلُبْنَ الْحَيَّ بَيْنَ الأَمْوَاتِ؟",
+      "English": "5 Then, as they were afraid and bowed their faces to the earth, they said to them, \"Why do you seek the living among the dead?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "6 لَيْسَ هُوَ ههُنَا، لكِنَّهُ قَامَ! اُذْكُرْنَ كَيْفَ كَلَّمَكُنَّ وَهُوَ بَعْدُ فِي الْجَلِيلِ",
+      "English": "6 He is not here, but is risen! Remember how He spoke to you when He was still in Galilee"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "7 قَائِلاً: إِنَّهُ يَنْبَغِي أَنْ يُسَلَّمَ ابْنُ الإِنْسَانِ فِي أَيْدِي أُنَاسٍ خُطَاةٍ، وَيُصْلَبَ، وَفِي الْيَوْمِ الثَّالِثِ يَقُومُ».",
+      "English": "7 saying, \"The Son of Man must be delivered into the hands of sinful men, and be crucified, and the third day rise again.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "8 فَتَذَكَّرْنَ كَلاَمَهُ،",
+      "English": "8 And they remembered His words."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "9 وَرَجَعْنَ مِنَ الْقَبْرِ، وَأَخْبَرْنَ الأَحَدَ عَشَرَ وَجَمِيعَ الْبَاقِينَ بِهذَا كُلِّهِ.",
+      "English": "9 Then they returned from the tomb and told all these things to the eleven and to all the rest."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "10 وَكَانَتْ مَرْيَمُ الْمَجْدَلِيَّةُ وَيُوَنَّا وَمَرْيَمُ أُمُّ يَعْقُوبَ وَالْبَاقِيَاتُ مَعَهُنَّ، اللَّوَاتِي قُلْنَ هذَا لِلرُّسُلِ.",
+      "English": "10 It was Mary Magdalene, Joanna, Mary the mother of James, and the other women with them, who told these things to the apostles."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "11 فَتَرَاءَى كَلاَمُهُنَّ لَهُمْ كَالْهَذَيَانِ وَلَمْ يُصَدِّقُوهُنَّ.",
+      "English": "11 And their words seemed to them like idle tales, and they did not believe them."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "12 فَقَامَ بُطْرُسُ وَرَكَضَ إِلَى الْقَبْرِ، فَانْحَنَى وَنَظَرَ الأَكْفَانَ مَوْضُوعَةً وَحْدَهَا، فَمَضَى مُتَعَجِّبًا فِي نَفْسِهِ مِمَّا كَانَ.",
+      "English": "12 But Peter arose and ran to the tomb; and stooping down, he saw the linen cloths lying by themselves; and he departed, marveling to himself at what had happened."
+    }
+  ]
 }

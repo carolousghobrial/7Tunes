@@ -1,22 +1,48 @@
 {
-"hymn":"",
-"exposition": [
-{
-"arabic": " طوبى للمساكين بالروح فان لهم ملكوت السموات طوبى للحزانى فانهم يتعزون.\n",
-"arabiccoptic": " أوأونياطو إن نى هيكى خين بى إبنفما, جى إث أوأو تى تيميت أورو إنتى نيفيؤوى, أوأونياطو إن نى إت إير هيفى جى إنثوؤ بى طوناتى هو إيرأو.\n",
-"coptic": " Wouni`atou `nni\\hki =en pip/n/a/> je `qwou te ;metouro `nte nivhoui Wouni`atou `nnh`eter\\hbi je `nqwou petouna;\\o `erwou\n",
-"english": " Blessed are the poor in spirit: for theirs is the kingdom of heaven. Blessed are they that mourn: for they shall be comforted.\n",
-"englishcoptic": " Oo-oniatoo enni-heeki khen pi-epnevma : je eth-o-oo te ti-metooro ente ni-fi-owi . Oo-oniatoo en-nee et-erheevi je enthoo petoo-natiho ero-oo\n",
-},
-{
-"arabic": " طوبى للودعاء فانهم يرثون الأرض. طوبى للجياع والعطاش ومن أجل البر فانهم يشبعون,\nطوبى للرحماء فانهم يرحمون. طوبى للاتقياء القلوب فانهم يعاينون الله.,\nطوبى لصانعى السلام فانهم أبناء الله يدعون. طوبى للمطرودين من أجل البر فإن لهم ملكوت السموات.,\nطوباكم إذا طردوكم وعيروكم وقالوا عليكم كل كلمة شريرة من أجلى كاذبين. افرحوا وتهللوا فإن أجركم عظيم في السموات.,\n",
-"english": " Blessed are the meek: for they shall inherit the earth. Blessed are they which do hunger and thirst after righteousness: for they shall be filled.,\nBlessed are the merciful: for they shall obtain mercy. Blessed are the pure in heart: for they shall see God.,\nBlessed are the peacemakers: for they shall be called the children of God. Blessed are they which are persecuted for righteousness' sake: for theirs is the kingdom of heaven.,\nBlessed are you, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake. Rejoice, and be exceeding glad: for great is your reward in heaven.,\n",
-},{
-"arabic":"",
-"arabiccoptic":"",
-"coptic":"",
-"english":"",
-"englishcoptic":""
-},
-]
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوبى للمساكين بالروح فان لهم ملكوت السموات طوبى للحزانى فانهم يتعزون.",
+      "Coptic": "Wouni`atou `nni\\hki =en pip/n/a/> je `qwou te ;metouro `nte nivhoui Wouni`atou `nnh`eter\\hbi je `nqwou petouna;\\o `erwou",
+      "English": "Blessed are the poor in spirit: for theirs is the kingdom of heaven. Blessed are they that mourn: for they shall be comforted.",
+      "Arabiccoptic": "أوأونياطو إن نى هيكى خين بى إبنفما, جى إث أوأو تى تيميت أورو إنتى نيفيؤوى, أوأونياطو إن نى إت إير هيفى جى إنثوؤ بى طوناتى هو إيرأو.",
+      "Englishcoptic": "Oo-oniatoo enni-heeki khen pi-epnevma : je eth-o-oo te ti-metooro ente ni-fi-owi . Oo-oniatoo en-nee et-erheevi je enthoo petoo-natiho ero-oo"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوبى للودعاء فانهم يرثون الأرض. طوبى للجياع والعطاش ومن أجل البر فانهم يشبعون",
+      "English": "Blessed are the meek: for they shall inherit the earth. Blessed are they which do hunger and thirst after righteousness: for they shall be filled."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوبى للرحماء فانهم يرحمون. طوبى للاتقياء القلوب فانهم يعاينون الله.",
+      "English": "Blessed are the merciful: for they shall obtain mercy. Blessed are the pure in heart: for they shall see God."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوبى لصانعى السلام فانهم أبناء الله يدعون. طوبى للمطرودين من أجل البر فإن لهم ملكوت السموات.",
+      "English": "Blessed are the peacemakers: for they shall be called the children of God. Blessed are they which are persecuted for righteousness' sake: for theirs is the kingdom of heaven."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوباكم إذا طردوكم وعيروكم وقالوا عليكم كل كلمة شريرة من أجلى كاذبين. افرحوا وتهللوا فإن أجركم عظيم في السموات.",
+      "English": "Blessed are you, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake. Rejoice, and be exceeding glad: for great is your reward in heaven."
+    }
+  ]
 }

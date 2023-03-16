@@ -1,7 +1,29 @@
 {
-"arabic": " (R),\nالفصل من أعمال الرسل القديسين , قصص قصص آبائنا الرسل بركتهم المقدسة تكون معنا آمين,\n",
-"arabiccoptic": " (R)\nإبراكسيئون طون أجيون إن أبوسطولون طو أناغنوسما إبراكسيس إبراكسيس إنتى نين يوتى إن أبوسطولوس. إيرى بو إسمو إثؤواب شوبى نيمان آمين.\n",
-"coptic": " (R)\nPra[ewntwn `agiwn `n`apoctolwn to `anagnwcma `pra]ic `pra[ic ``nte nenio; `n`apoctoloc `ere pou `cmou `eqouab ]wpi neman `amhn.\n",
-"english": " (R),\nA reading from the Acts of our saintly apostles  : Acts Acts of our fathers : the apostles  may their holy blessings be with us all, Amen.,\n",
-"englishcoptic": " (R)\nEpraxe-on ton ageyon en-apostolon to-anaghnosma : epraxees epraxees ente nenioty en-apostolos erepoesmo ethowab : shopee neman amin.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": " الإبركسيس",
+  "EnglishTitle": "The Acts ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "القارئ:",
+      "Englishcoptic": "Reader:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الفصل من أعمال الرسل القديسين , قصص قصص آبائنا الرسل بركتهم المقدسة تكون معنا آمين",
+      "Coptic": "Pra[ewntwn `agiwn `n`apoctolwn to `anagnwcma `pra]ic `pra[ic ``nte nenio; `n`apoctoloc `ere pou `cmou `eqouab ]wpi neman `amhn.",
+      "English": "A reading from the Acts of our saintly apostles  : Acts Acts of our fathers : the apostles  may their holy blessings be with us all, Amen.",
+      "Arabiccoptic": "إبراكسيئون طون أجيون إن أبوسطولون طو أناغنوسما إبراكسيس إبراكسيس إنتى نين يوتى إن أبوسطولوس. إيرى بو إسمو إثؤواب شوبى نيمان آمين.",
+      "Englishcoptic": "Epraxe-on ton ageyon en-apostolon to-anaghnosma : epraxees epraxees ente nenioty en-apostolos erepoesmo ethowab : shopee neman amin."
+    }
+  ]
 }

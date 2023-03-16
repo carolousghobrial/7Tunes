@@ -1,7 +1,27 @@
 {
-"arabic": " وَلِتَصِرْ خَرْصَاءَ الْشِفَاهُ الغَاشَّةُ. المُتَكَلِّمَةُ عَلَي الصِدِّيقِ بِالإثْمِ.(جملة),\nلأنِّي سَمِعْتُ المَذَمَّةَ مِنْ كَثِيرِينَ يَسْكُنُونَ حَولِيِ حِينَ اِجتَمَعُوا عَلَيَّ جَمِيعَاً تَآَمَرُوا عَلَي أَخْذِ نَفْسِي الليلويا,\n",
-"arabiccoptic": " مارو إيراط ساجى إنجى نى إسفوطو إن أوجى. نى إتساجى إن أو أنوميا خا بى إثمى (ليكسيس )\nجى أيسوتيم إإبشوش إن أوميس إفشوب إمباكوتى. خين إبجين إثرو ثؤوتى إفسوب إإهرى إيجوى أف سوتشنى إتشى إنطا إبسيشى الليلويا\n",
-"coptic": " Marou eratcaji `nje ni`cvotou `n`oji > nhetcaji `nou`anomi`a =a pi`qmhi (Le[ic)\nJe aicwtem `e`p]w] `noumh] eu]op `mpakw; > =en `pjin `qrouqwou; eucop `e`\\rhi `ejwi aucosni `esi `ntayuxh. A?l?.\n",
-"english": " Let deceitful lips become speechless when they speak lawlessness against the righteous:,\nFor I heard the blame of many who dwell round about when they were gathered together against me, when they plotted to take my life. Alleluia.,\n",
-"englishcoptic": " Maro-erat-sajy enje nee-esfoto enogee : nee-etsajy eno-anomia kha pee-ethmy.\nJe avsotem e-epshosh enomeesh evshop empakoty : khen epjeen ethro-tho-oty evsop e-ehree egoy avso-etchnee e-etchee enta-epseeshee. Alleluia.\n",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلِتَصِرْ خَرْصَاءَ الْشِفَاهُ الغَاشَّةُ. المُتَكَلِّمَةُ عَلَي الصِدِّيقِ بِالإثْمِ.(جملة)",
+      "Coptic": "Marou eratcaji `nje ni`cvotou `n`oji > nhetcaji `nou`anomi`a =a pi`qmhi (Le[ic)",
+      "English": "Let deceitful lips become speechless when they speak lawlessness against the righteous:",
+      "Arabiccoptic": "مارو إيراط ساجى إنجى نى إسفوطو إن أوجى. نى إتساجى إن أو أنوميا خا بى إثمى (ليكسيس )",
+      "Englishcoptic": "Maro-erat-sajy enje nee-esfoto enogee : nee-etsajy eno-anomia kha pee-ethmy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنِّي سَمِعْتُ المَذَمَّةَ مِنْ كَثِيرِينَ يَسْكُنُونَ حَولِيِ حِينَ اِجتَمَعُوا عَلَيَّ جَمِيعَاً تَآَمَرُوا عَلَي أَخْذِ نَفْسِي الليلويا",
+      "Coptic": "Je aicwtem `e`p]w] `noumh] eu]op `mpakw; > =en `pjin `qrouqwou; eucop `e`\\rhi `ejwi aucosni `esi `ntayuxh. A?l?.",
+      "English": "For I heard the blame of many who dwell round about when they were gathered together against me, when they plotted to take my life. Alleluia.",
+      "Arabiccoptic": "جى أيسوتيم إإبشوش إن أوميس إفشوب إمباكوتى. خين إبجين إثرو ثؤوتى إفسوب إإهرى إيجوى أف سوتشنى إتشى إنطا إبسيشى الليلويا",
+      "Englishcoptic": "Je avsotem e-epshosh enomeesh evshop empakoty : khen epjeen ethro-tho-oty evsop e-ehree egoy avso-etchnee e-etchee enta-epseeshee. Alleluia."
+    }
+  ]
 }

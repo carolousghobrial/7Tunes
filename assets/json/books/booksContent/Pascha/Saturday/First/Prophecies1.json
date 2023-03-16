@@ -1,4 +1,101 @@
 {
-"arabic": " اسمعوا لى فتأكلوا الخيرات ولتتلذذ نفوسكم بالصالحات,\nأميلوا آذانكم واسلكوا في طرقى أطيعوني فتحيا نفوسكم بالخيرات أقرر معكم عهدا أبديا وأمنحكم مكرمات داود الصادقة,\nهوذا قد جعلته شاهداً للأمم ورئيسا وموصيا للشعوب.,\nها الأمم التي لا تعرفك تطلبك والشعوب التي لم تفهمك تلتجئ إليك من أجل أن الهك قدوس اسرائيل لأنه قد مجدك.	.,\nاطلبوا الله وإذا ما وجدتموه اضرعوا إليه فيقترب منكم في الساعة,\nوليترك المنافق طرقه والرجل المخالف أفكاره وليأت إلى الرب فيرحمه وإلى إلهنا فإنه يكثر الغفران فإنه يغفر خطاياكم الكثيرة,\nفإن أفكارى ليست أفكاركم ولا طرقى تشبه طرقكم يقول الرب،,\nلأنه كما علت السموات عن الأرض هكذا علت طرقى عن طرقكم وأفكارى عن أفكاركم,\nلأنه كما ينزل الندى والمطر من السماء ولا يرجعان حتى يرويان الأرض فتنتج وتنبت وتعطى زرعاً للزارع وخبزا للآكل,\nهكذا يكون الكلام الذي يخرج من فمى لا يرجع حتى يكمل كل كلام نطقت به،,\nوسأقوم طرقى وأوامرى وأما أنتم فتأتون بفرح وتقبلون بسرور وتقفز الجبال والآكام والتلال أمامكم ترنما وكل اشجار الحقل تصفق بأغضانها,\nعوضا عن الشوك ينبت سرو. وعوضا عن القريس يصعد آس ويكون للرب اسما علامة أبدية لا تنقطع.,\n()",
-"english": " Listen carefully to Me, and eat what is good, And let your soul delight itself in abundance.,\n3 Incline your ear, and come to Me. Hear, and your soul shall live; And I will make an everlasting covenant with you- The sure mercies of David.,\n4 Indeed I have given him as a witness to the people, A leader and commander for the people.,\n5 Surely you shall call a nation you do not know, And nations who do not know you shall run to you, Because of the Lord your God, And the Holy One of Israel; For He has glorified you.\",\n6 Seek the Lord while He may be found, Call upon Him while He is near.,\n7 Let the wicked forsake his way, And the unrighteous man his thoughts; Let him return to the Lord, And He will have mercy on him; And to our God, For He will abundantly pardon.,\n8 \"For My thoughts are not your thoughts, Nor are your ways My ways,\" says the Lord.,\n9 \"For as the heavens are higher than the earth, So are My ways higher than your ways, And My thoughts than your thoughts.,\n10 \"For as the rain comes down, and the snow from heaven, And do not return there, But water the earth, And make it bring forth and bud, That it may give seed to the sower And bread to the eater,,\n11 So shall My word be that goes forth from My mouth; It shall not return to Me void, But it shall accomplish what I please, And it shall prosper in the thing for which I sent it.,\n12 \"For you shall go out with joy, And be led out with peace; The mountains and the hills Shall break forth into singing before you, And all the trees of the field shall clap their hands.,\n13 Instead of the thorn shall come up the cypress tree, And instead of the brier shall come up the myrtle tree; And it shall be to the Lord for a name, For an everlasting sign that shall not be cut off.\",\n()",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اسمعوا لى فتأكلوا الخيرات ولتتلذذ نفوسكم بالصالحات",
+      "English": "Listen carefully to Me, and eat what is good, And let your soul delight itself in abundance."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أميلوا آذانكم واسلكوا في طرقى أطيعوني فتحيا نفوسكم بالخيرات أقرر معكم عهدا أبديا وأمنحكم مكرمات داود الصادقة",
+      "English": "3 Incline your ear, and come to Me. Hear, and your soul shall live; And I will make an everlasting covenant with you- The sure mercies of David."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هوذا قد جعلته شاهداً للأمم ورئيسا وموصيا للشعوب.",
+      "English": "4 Indeed I have given him as a witness to the people, A leader and commander for the people."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ها الأمم التي لا تعرفك تطلبك والشعوب التي لم تفهمك تلتجئ إليك من أجل أن الهك قدوس اسرائيل لأنه قد مجدك.\t.",
+      "English": "5 Surely you shall call a nation you do not know, And nations who do not know you shall run to you, Because of the Lord your God, And the Holy One of Israel; For He has glorified you.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اطلبوا الله وإذا ما وجدتموه اضرعوا إليه فيقترب منكم في الساعة",
+      "English": "6 Seek the Lord while He may be found, Call upon Him while He is near."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وليترك المنافق طرقه والرجل المخالف أفكاره وليأت إلى الرب فيرحمه وإلى إلهنا فإنه يكثر الغفران فإنه يغفر خطاياكم الكثيرة",
+      "English": "7 Let the wicked forsake his way, And the unrighteous man his thoughts; Let him return to the Lord, And He will have mercy on him; And to our God, For He will abundantly pardon."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فإن أفكارى ليست أفكاركم ولا طرقى تشبه طرقكم يقول الرب،",
+      "English": "8 \"For My thoughts are not your thoughts, Nor are your ways My ways,\" says the Lord."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه كما علت السموات عن الأرض هكذا علت طرقى عن طرقكم وأفكارى عن أفكاركم",
+      "English": "9 \"For as the heavens are higher than the earth, So are My ways higher than your ways, And My thoughts than your thoughts."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه كما ينزل الندى والمطر من السماء ولا يرجعان حتى يرويان الأرض فتنتج وتنبت وتعطى زرعاً للزارع وخبزا للآكل",
+      "English": "10 \"For as the rain comes down, and the snow from heaven, And do not return there, But water the earth, And make it bring forth and bud, That it may give seed to the sower And bread to the eater"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هكذا يكون الكلام الذي يخرج من فمى لا يرجع حتى يكمل كل كلام نطقت به،",
+      "English": "11 So shall My word be that goes forth from My mouth; It shall not return to Me void, But it shall accomplish what I please, And it shall prosper in the thing for which I sent it."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وسأقوم طرقى وأوامرى وأما أنتم فتأتون بفرح وتقبلون بسرور وتقفز الجبال والآكام والتلال أمامكم ترنما وكل اشجار الحقل تصفق بأغضانها",
+      "English": "12 \"For you shall go out with joy, And be led out with peace; The mountains and the hills Shall break forth into singing before you, And all the trees of the field shall clap their hands."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عوضا عن الشوك ينبت سرو. وعوضا عن القريس يصعد آس ويكون للرب اسما علامة أبدية لا تنقطع.",
+      "English": "13 Instead of the thorn shall come up the cypress tree, And instead of the brier shall come up the myrtle tree; And it shall be to the Lord for a name, For an everlasting sign that shall not be cut off.\""
+    }
+  ]
 }

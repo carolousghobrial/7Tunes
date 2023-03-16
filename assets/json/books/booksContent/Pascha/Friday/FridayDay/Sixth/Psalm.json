@@ -1,7 +1,40 @@
 {
-"arabic": " رَفَضُونِى أَنَا الحَبِيبُ مِثلَ مَيْتٍ مَرْذُولٍ. وَجَعَلُوا مَسَامِيرَ فِى جَسَدِى. فَلاَ تَهْمِلنِى يَارَبِّى وَإِلَهِى.,\nثَقَبُوا يَدَىَّ وَرِجْلَىَّ وَأَحْصُوا كُلَّ عِظَامِى. إِقتَسَمُوا ثِيَابِى بَينَهُمْ وَعَلَى لِبَاسِى إِقتَرَعُوا.,\nتَكَلَّمُوا بِشِفَاهِهِمْ وَحَرَّكُوا رُؤُوسَهُمْ وَقَالُوا إِنْ كَانَ آمَنَ وَإتَّكَلَ عَلَى الرَبِّ فَلْيُخَلِّصُهُ وَلْيُنَجِّيهِ إِنْ كَانَ أَرَادَهُ الليلويا,\n",
-"arabiccoptic": " أف فيرفورت إيفول أنوك بى مينريت. إم إفريتى إن أو ريف موأوت إف أوريب. أووه أفتى إيفت إيطا ساركس. إمبير كات إنسوك إبشويس بانوتى الليلويا\nأف تشولك إنطوط نيم راط أف أوب إن ناكاس تيرو. أف فوش إن نا إهفوس إإهراف أووه طاهيبسوأفهيؤب إيروس. أفساجى خين نو إسفوطو أفكيم إنطوآفى.\nأفجوس جى يسجى أفناهتى أفئير هيلبيس إإبشويس ماريف ناهميف. ماريف طو جوف يسجىأف أو أشف. الليلويا\n",
-"coptic": " Auberbwrt ebol anok pimenrit mvrh; nourefmwout eforeb> ouo\\ au;iat etacar[> mperxat ncwk Po/c/ panou;> a/l/\nAuswlk ntot nem rat auwp nnakac throu> auvw] nna\\bwc e\\rafouo\\ ta\\ebcw au\\iwp eroc> aucaji =en noucvotou aukim ntouave>\nAujoc je icjeafna\\; afer\\elpic ePo/c/ maref na\\mef> mareftou jof icje afoua]f> a/l/ }autale mpicqoinoufi =ajen pieuaggelion ita euw] a/l/\n",
-"english": " They have rejected me, the beloved one, as an abominable dead carcass: they have pierced my body with nails. Do not forsake me, O Lord, O my God.,\nThey pierced my hands and my feet. I numbered all my bones, they divided my garments among themselves, and for my clothing they cast lots.,\nHe hoped in the Lord, let Him rescue him: Let Him save him since He delights in him. Alleluia,\n",
-"englishcoptic": " Av vervort evol anok pe menreet. em evreety en oref mo-oot ef o-reib. owoh afty eft eta sarex. emperkat ensok Epshois Panouty. Alleluia\nAv etcholk entot nem rat av-op ennakas tiro. av vosh enna ehvos e ehraf owoh tahibso afhi-op eros. avsaji khen no esvoto afkim ento ave.\nAfgos je isje afnahty af-er helpis e Epshois maref nahmef. marefto gof isje af o ashf. Alleluia\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": " 37:21-22 , 21:16-18,8 مزمور",
+  "EnglishTitle": "Psalm 37:21-22 , 21:16-18,8 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رَفَضُونِى أَنَا الحَبِيبُ مِثلَ مَيْتٍ مَرْذُولٍ. وَجَعَلُوا مَسَامِيرَ فِى جَسَدِى. فَلاَ تَهْمِلنِى يَارَبِّى وَإِلَهِى.",
+      "Coptic": "Auberbwrt ebol anok pimenrit mvrh; nourefmwout eforeb> ouo\\ au;iat etacar[> mperxat ncwk Po/c/ panou;> a/l/",
+      "English": "They have rejected me, the beloved one, as an abominable dead carcass: they have pierced my body with nails. Do not forsake me, O Lord, O my God.",
+      "Arabiccoptic": "أف فيرفورت إيفول أنوك بى مينريت. إم إفريتى إن أو ريف موأوت إف أوريب. أووه أفتى إيفت إيطا ساركس. إمبير كات إنسوك إبشويس بانوتى الليلويا",
+      "Englishcoptic": "Av vervort evol anok pe menreet. em evreety en oref mo-oot ef o-reib. owoh afty eft eta sarex. emperkat ensok Epshois Panouty. Alleluia"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثَقَبُوا يَدَىَّ وَرِجْلَىَّ وَأَحْصُوا كُلَّ عِظَامِى. إِقتَسَمُوا ثِيَابِى بَينَهُمْ وَعَلَى لِبَاسِى إِقتَرَعُوا.",
+      "Coptic": "Auswlk ntot nem rat auwp nnakac throu> auvw] nna\\bwc e\\rafouo\\ ta\\ebcw au\\iwp eroc> aucaji =en noucvotou aukim ntouave>",
+      "English": "They pierced my hands and my feet. I numbered all my bones, they divided my garments among themselves, and for my clothing they cast lots.",
+      "Arabiccoptic": "أف تشولك إنطوط نيم راط أف أوب إن ناكاس تيرو. أف فوش إن نا إهفوس إإهراف أووه طاهيبسوأفهيؤب إيروس. أفساجى خين نو إسفوطو أفكيم إنطوآفى.",
+      "Englishcoptic": "Av etcholk entot nem rat av-op ennakas tiro. av vosh enna ehvos e ehraf owoh tahibso afhi-op eros. avsaji khen no esvoto afkim ento ave."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تَكَلَّمُوا بِشِفَاهِهِمْ وَحَرَّكُوا رُؤُوسَهُمْ وَقَالُوا إِنْ كَانَ آمَنَ وَإتَّكَلَ عَلَى الرَبِّ فَلْيُخَلِّصُهُ وَلْيُنَجِّيهِ إِنْ كَانَ أَرَادَهُ الليلويا",
+      "Coptic": "Aujoc je icjeafna\\; afer\\elpic ePo/c/ maref na\\mef> mareftou jof icje afoua]f> a/l/ }autale mpicqoinoufi =ajen pieuaggelion ita euw] a/l/",
+      "English": "He hoped in the Lord, let Him rescue him: Let Him save him since He delights in him. Alleluia",
+      "Arabiccoptic": "أفجوس جى يسجى أفناهتى أفئير هيلبيس إإبشويس ماريف ناهميف. ماريف طو جوف يسجىأف أو أشف. الليلويا",
+      "Englishcoptic": "Afgos je isje afnahty af-er helpis e Epshois maref nahmef. marefto gof isje af o ashf. Alleluia"
+    }
+  ]
 }

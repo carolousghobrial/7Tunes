@@ -1,4 +1,61 @@
 {
-"arabic": " صلبوا مخلصنا على خشبة الصليب وصلبوا معه لصين واحداً عن يمينه وأخر عن يساره والمسيح في وسطهما يغفر الخطايا.,\nوكتب بيلاطس لوحًاً على الصليب فوق رأس مخلصنا وكل من عبر يقرأ المكتوب أن هذا هو يسوع ملك اليهود.,\nواليهود المخالفون قالوا للوالي لا تكتب هكذا أنه ملك اليهود بل أكتب أنت أن هذا قال أنا يسوع ملك اليهود. فكلم بيلاطس اليهود المخالفين قائلاً ما كتب قد كتب وكمل الأمر. كتب بالعبرانية وكتب بالرومية وكتب باليونانية أنه ملك اليهود.,\nومن وقت الساعة السادسة إلى وقت الساعة التاسعة صارت ظلمة على الأرض كلها. الشمس اظلمت والقمر صار دماً والكواكب ظهرت في وسط النهار واللص اليمين صرخ بصوت: اذكرني يا رب متى جئت في ملكوتك. فكلمه مخلصنا أنك اليوم تكون معي في ملكوتي.,\nصارت الظلمة في المسكونة من أجل ملك البرية معلق على الصليب صرخ نحو أبيه بصوت عظيم وأسلم الروح في يديه.,\nجاء يوسف الرامي ونيقوديموس الأرخنان الأجلان جابا بخوراً وصبراً وجعلاهما على جسد الوحيد. دخل يوسف الرامي إلى بيلاطس وسأله قائلا: أعطنى جسد ربي يسوع لكي أدفنه لتدركني رحمته. كفنوا مخلصنا بلفائف نقية ووجهه لفوه بمنديل افاضوا طيباً على رأسه ووضعوه في قبر خارج المدينة.,\nقام من الأموات في اليوم الثالث وخلص العالم من خطاياهم. لذلك نمجد و نصرخ إليه قائلين : مبارك يا ربنا يسوع لأنك قمت و خلصتنا,\n()",
-"english": " They crucified our Savior on the Cross with two other thieves, one on His left and the other on His right, while Christ was in the middle forgiving sins.,\nPilate wrote an inscription above the head of our Savior so that all who passed by may read what was written. That is \"Jesus Is the King of the Jews.\",\nThe protesting Jews told the ruler not to write so but rather what He said, \"I am the King of the Jews.\" Pilate replied, \"What I have written, I have written.\" The inscription was written in Hebrew, Roman, and Greek.,\nThe right thief cried to our Savior and said, \"Remember me Lord when You come into Your kingdom.\" Christ answered him, \"Today, you will be with me in Paradise.\",\nA great darkness came over all the earth because of the Creator's crucifixion. He cried out in a loud voice towards His Father and gave up His Spirit.,\nThen Joseph of Arimathea and Nicodemus brought a mixture of myrrh and ointment for Christ's Body. Joseph of Arimathea went to Pilate and asked him saying, \"Give me the Body of my Lord Jesus that I may wrap Him and that He may have mercy on me.\" There, they wrapped the Body of our Savior in linen cloth. They wrapped His face in a handkerchief. They likewise placed Him in a tomb outside the city.,\nHe rose from the dead on the third day and saved the world. Therefore let us glorify Him and proclaim saying, \"Blessed are You, O our Lord Jesus Christ, for You have risen and saved us.\",\n()",
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلبوا مخلصنا على خشبة الصليب وصلبوا معه لصين واحداً عن يمينه وأخر عن يساره والمسيح في وسطهما يغفر الخطايا.",
+      "English": "They crucified our Savior on the Cross with two other thieves, one on His left and the other on His right, while Christ was in the middle forgiving sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكتب بيلاطس لوحًاً على الصليب فوق رأس مخلصنا وكل من عبر يقرأ المكتوب أن هذا هو يسوع ملك اليهود.",
+      "English": "Pilate wrote an inscription above the head of our Savior so that all who passed by may read what was written. That is \"Jesus Is the King of the Jews.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "واليهود المخالفون قالوا للوالي لا تكتب هكذا أنه ملك اليهود بل أكتب أنت أن هذا قال أنا يسوع ملك اليهود. فكلم بيلاطس اليهود المخالفين قائلاً ما كتب قد كتب وكمل الأمر. كتب بالعبرانية وكتب بالرومية وكتب باليونانية أنه ملك اليهود.",
+      "English": "The protesting Jews told the ruler not to write so but rather what He said, \"I am the King of the Jews.\" Pilate replied, \"What I have written, I have written.\" The inscription was written in Hebrew, Roman, and Greek."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ومن وقت الساعة السادسة إلى وقت الساعة التاسعة صارت ظلمة على الأرض كلها. الشمس اظلمت والقمر صار دماً والكواكب ظهرت في وسط النهار واللص اليمين صرخ بصوت: اذكرني يا رب متى جئت في ملكوتك. فكلمه مخلصنا أنك اليوم تكون معي في ملكوتي.",
+      "English": "The right thief cried to our Savior and said, \"Remember me Lord when You come into Your kingdom.\" Christ answered him, \"Today, you will be with me in Paradise.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صارت الظلمة في المسكونة من أجل ملك البرية معلق على الصليب صرخ نحو أبيه بصوت عظيم وأسلم الروح في يديه.",
+      "English": "A great darkness came over all the earth because of the Creator's crucifixion. He cried out in a loud voice towards His Father and gave up His Spirit."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جاء يوسف الرامي ونيقوديموس الأرخنان الأجلان جابا بخوراً وصبراً وجعلاهما على جسد الوحيد. دخل يوسف الرامي إلى بيلاطس وسأله قائلا: أعطنى جسد ربي يسوع لكي أدفنه لتدركني رحمته. كفنوا مخلصنا بلفائف نقية ووجهه لفوه بمنديل افاضوا طيباً على رأسه ووضعوه في قبر خارج المدينة.",
+      "English": "Then Joseph of Arimathea and Nicodemus brought a mixture of myrrh and ointment for Christ's Body. Joseph of Arimathea went to Pilate and asked him saying, \"Give me the Body of my Lord Jesus that I may wrap Him and that He may have mercy on me.\" There, they wrapped the Body of our Savior in linen cloth. They wrapped His face in a handkerchief. They likewise placed Him in a tomb outside the city."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قام من الأموات في اليوم الثالث وخلص العالم من خطاياهم. لذلك نمجد و نصرخ إليه قائلين : مبارك يا ربنا يسوع لأنك قمت و خلصتنا",
+      "English": "He rose from the dead on the third day and saved the world. Therefore let us glorify Him and proclaim saying, \"Blessed are You, O our Lord Jesus Christ, for You have risen and saved us.\""
+    }
+  ]
 }

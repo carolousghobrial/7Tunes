@@ -1,4 +1,63 @@
 {
-"arabic": " يوم الفصح قد إقترب ياسيدنا, عرفنا المكان الذى فيه نعده لك . هكذا قال التلاميذ للمعلم . أنت هو فصحنا يايسوع المسيح.,\nفأرسل إثنين من تلاميذه _ الصفا ويوحنا _ وقال لهما : قوما وأمضيا إلى هذه المدينة فتجدان رجلاً حاملا جرة ماء .,\nإذا مشى , سيرا أنتما خلفه إلى الموضع الذى يدخل إليه , وقولا لصاحب البيت : يقول المعلم أين المكان الذى أكمل فيه الفصح ؟,\nفذلك يريكما علية علوية خالية مفروشة.. أعدا الفصح فى ذلك الموضع وهكذا صنعا كقول الرب.,\nتعالوا أيها الأمم وافرحوا وتهللوا , لأن الإله الكلمة صار لكم فصحاً . الفصح الأول الذى بالخروف خلص الشعوب من عبودية فرعون,\nوالفصح الجديد هو ابن الله الذى خلص العالم من الفساد. وبأنواع كثيرة وطرق شتى أعد الخلاص والنجاة الأبدية , لكن هذا الخلاص هو لكل العالم من مشارق الشمس إلى مغاربها .,\nجذب كل أحد إلى علو رحمته ورأفته التى كان يصنعها . وأظهر لهم كثرة نعمته التى أفاضها على كل موضع من المسكونة . أخذ الذى لنا وأعطانا الذى له , وتفضل علينا بصلاحه.,\n()\n",
-"english": " Passover is drawing near O Lord. We have found the place to celebrate it in. You are our Passover. O Jesus Christ,\nHe sent two of his disciples Peter and John-and he told them; go to this town and you will find a man carrying a jar of water.,\nFollow his footsteps to the place where he goes in. Go see the owner of the house and tell him, the Lord says, \"where is the place where I celebrate passover.,\nHe will show you an upper room which is vacant but furnished. Make preparation for Passover there. They did as the Lord said.,\nCome along all you nations and rejoice, God the Word is our Passover. The First Passover lamb delivered the people from the servitude of Pharoah.,\nThe new Passover is the Son of God who saves the World from corruption. In so many forms he prepared the world-from the east to the west for eternal salvation.,\nHe lifted us to the heights of his mercy and compassion. He manifested the greatness of His grace that He bestowed on all the creation. He carried our load and granted us His righteousness.,\n()\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطرح",
+  "EnglishTitle": "Exposition ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يوم الفصح قد إقترب ياسيدنا, عرفنا المكان الذى فيه نعده لك . هكذا قال التلاميذ للمعلم . أنت هو فصحنا يايسوع المسيح.",
+      "English": "Passover is drawing near O Lord. We have found the place to celebrate it in. You are our Passover. O Jesus Christ"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فأرسل إثنين من تلاميذه _ الصفا ويوحنا _ وقال لهما : قوما وأمضيا إلى هذه المدينة فتجدان رجلاً حاملا جرة ماء .",
+      "English": "He sent two of his disciples Peter and John-and he told them; go to this town and you will find a man carrying a jar of water."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إذا مشى , سيرا أنتما خلفه إلى الموضع الذى يدخل إليه , وقولا لصاحب البيت : يقول المعلم أين المكان الذى أكمل فيه الفصح ؟",
+      "English": "Follow his footsteps to the place where he goes in. Go see the owner of the house and tell him, the Lord says, \"where is the place where I celebrate passover."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فذلك يريكما علية علوية خالية مفروشة.. أعدا الفصح فى ذلك الموضع وهكذا صنعا كقول الرب.",
+      "English": "He will show you an upper room which is vacant but furnished. Make preparation for Passover there. They did as the Lord said."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تعالوا أيها الأمم وافرحوا وتهللوا , لأن الإله الكلمة صار لكم فصحاً . الفصح الأول الذى بالخروف خلص الشعوب من عبودية فرعون",
+      "English": "Come along all you nations and rejoice, God the Word is our Passover. The First Passover lamb delivered the people from the servitude of Pharoah."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والفصح الجديد هو ابن الله الذى خلص العالم من الفساد. وبأنواع كثيرة وطرق شتى أعد الخلاص والنجاة الأبدية , لكن هذا الخلاص هو لكل العالم من مشارق الشمس إلى مغاربها .",
+      "English": "The new Passover is the Son of God who saves the World from corruption. In so many forms he prepared the world-from the east to the west for eternal salvation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جذب كل أحد إلى علو رحمته ورأفته التى كان يصنعها . وأظهر لهم كثرة نعمته التى أفاضها على كل موضع من المسكونة . أخذ الذى لنا وأعطانا الذى له , وتفضل علينا بصلاحه.",
+      "English": "He lifted us to the heights of his mercy and compassion. He manifested the greatness of His grace that He bestowed on all the creation. He carried our load and granted us His righteousness."
+    }
+  ]
 }
