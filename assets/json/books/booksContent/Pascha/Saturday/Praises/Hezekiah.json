@@ -1,4 +1,111 @@
 {
-"arabic": " (R),\n()10 أَنَا قُلْتُ: «فِي عِزِّ أَيَّامِي أَذْهَبُ إِلَى أَبْوَابِ الْهَاوِيَةِ. قَدْ أُعْدِمْتُ بَقِيَّةَ سِنِيَّ.,\n11 قُلْتُ: لاَ أَرَى الرَّبَّ. الرَّبَّ فِي أَرْضِ الأَحْيَاءِ. لاَ أَنْظُرُ إِنْسَانًا بَعْدُ مَعَ سُكَّانِ الْفَانِيَةِ.,\n12 مَسْكِنِي قَدِ انْقَلَعَ وَانْتَقَلَ عَنِّي كَخَيْمَةِ الرَّاعِي. لَفَفْتُ كَالْحَائِكِ حَيَاتِي. مِنَ النَّوْلِ يَقْطَعُنِي. النَّهَارَ وَاللَّيْلَ تُفْنِينِي.,\n13 صَرَخْتُ إِلَى الصَّبَاحِ. كَالأَسَدِ هكَذَا يُهَشِّمُ جَمِيعَ عِظَامِي. النَّهَارَ وَالَّلَيْلَ تُفْنِينِي.,\n14 كَسُنُونةٍ مُزَقْزِقةٍ هكَذَا أَصِيحُ. أَهْدِرُ كَحَمَامَةٍ. قَدْ ضَعُفَتْ عَيْنَايَ نَاظِرَةً إِلَى العَلاَءِ. يَا رَبُّ، قَدْ تَضَايَقْتُ. كُنْ لِي ضَامِنًا.,\n15 بِمَاذَا أَتَكَلَّمُ، فَإِنَّهُ قَالَ لِي وَهُوَ قَدْ فَعَلَ. أَتَمَشَّى مُتَمَهِّلاً كُلَّ سِنِيَّ مِن أَجْلِ مَرَارَةِ نَفْسِي.,\n16 أَيُّهَا السَّيِّدُ، بِهذِهِ يَحْيَوْنَ، وَبِهَا كُلُّ حَيَاةِ رُوحِي فَتَشْفِينِي وَتُحْيِينِي.,\n17 هُوَذَا لِلسَّلاَمَةِ قَدْ تَحَوَّلَتْ لِيَ الْمَرَارَةُ، وَأَنْتَ تَعَلَّقْتَ بِنَفْسِي مِنْ وَهْدَةِ الْهَلاَكِ، فَإِنَّكَ طَرَحْتَ وَرَاءَ ظَهْرِكَ كُلَّ خَطَايَايَ.,\n18 لأَنَّ الْهَاوِيَةَ لاَ تَحْمَدُكَ. الْمَوْتُ لاَ يُسَبِّحُكَ. لاَ يَرْجُو الْهَابِطُونَ إِلَى الْجُبِّ أَمَانَتَكَ.,\n19 الْحَيُّ الْحَيُّ هُوَ يَحْمَدُكَ كَمَا أَنَا الْيَوْمَ. الأَبُ يُعَرِّفُ الْبَنِينَ حَقَّكَ.,\n20 الرَّبُّ لِخَلاَصِي. فَنَعْزِفُ بِأَوْتَارِنَا كُلَّ أَيَّامِ حَيَاتِنَا فِي بَيْتِ الرَّبِّ».,\nوالسبح لله دائماً.,\n()",
-"english": " (R),\n()10 I said, \"In the prime of my life I shall go to the gates of Sheol; I am deprived of the remainder of my years.\",\n11 I said, \"I shall not see YAH, The LORD in the land of the living; I shall observe man no more among the inhabitants of the world.,\n12 My life span is gone, Taken from me like a shepherd's tent; I have cut off my life like a weaver. He cuts me off from the loom; From day until night You make an end of me.,\n13 I have considered until morning Like a lion, So He breaks all my bones; From day until night You make an end of me.,\n14 Like a crane [or] a swallow, so I chattered; I mourned like a dove; My eyes fail [from looking] upward. O LORD, I am oppressed; Undertake for me!,\n15 \" What shall I say? He has both spoken to me, And He Himself has done [it.] I shall walk carefully all my years In the bitterness of my soul.,\n16 O LORD, by these [things men] live; And in all these [things is] the life of my spirit; So You will restore me and make me live.,\n17 Indeed [it was] for [my own] peace [That] I had great bitterness; But You have lovingly [delivered] my soul from the pit of corruption, For You have cast all my sins behind Your back.,\n18 For Sheol cannot thank You, Death cannot praise You; Those who go down to the pit cannot hope for Your truth.,\n19 The living, the living man, he shall praise You, As I [do] this day; The father shall make known Your truth to the children.,\n20 \"The LORD [was ready] to save me; Therefore we will sing my songs with stringed instruments All the days of our life, in the house of the LORD.\",\nPraise be to God forever. Amen.,\n()",
+    "RefrainAfter": 0,
+    "ArabicTitle": "صلاة حزقيا الملك",
+    "EnglishTitle": "Prayer of Hezekiah the King ",
+    "Hymn": [
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "القارئ:",
+            "English": "Reader:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "10 أَنَا قُلْتُ: «فِي عِزِّ أَيَّامِي أَذْهَبُ إِلَى أَبْوَابِ الْهَاوِيَةِ. قَدْ أُعْدِمْتُ بَقِيَّةَ سِنِيَّ.,",
+            "English": "10 I said, \"In the prime of my life I shall go to the gates of Sheol; I am deprived of the remainder of my years.\","
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "11 قُلْتُ: لاَ أَرَى الرَّبَّ. الرَّبَّ فِي أَرْضِ الأَحْيَاءِ. لاَ أَنْظُرُ إِنْسَانًا بَعْدُ مَعَ سُكَّانِ الْفَانِيَةِ.",
+            "English": "11 I said, \"I shall not see YAH, The LORD in the land of the living; I shall observe man no more among the inhabitants of the world."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "12 مَسْكِنِي قَدِ انْقَلَعَ وَانْتَقَلَ عَنِّي كَخَيْمَةِ الرَّاعِي. لَفَفْتُ كَالْحَائِكِ حَيَاتِي. مِنَ النَّوْلِ يَقْطَعُنِي. النَّهَارَ وَاللَّيْلَ تُفْنِينِي.",
+            "English": "12 My life span is gone, Taken from me like a shepherd's tent; I have cut off my life like a weaver. He cuts me off from the loom; From day until night You make an end of me."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "13 صَرَخْتُ إِلَى الصَّبَاحِ. كَالأَسَدِ هكَذَا يُهَشِّمُ جَمِيعَ عِظَامِي. النَّهَارَ وَالَّلَيْلَ تُفْنِينِي.",
+            "English": "13 I have considered until morning Like a lion, So He breaks all my bones; From day until night You make an end of me."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "14 كَسُنُونةٍ مُزَقْزِقةٍ هكَذَا أَصِيحُ. أَهْدِرُ كَحَمَامَةٍ. قَدْ ضَعُفَتْ عَيْنَايَ نَاظِرَةً إِلَى العَلاَءِ. يَا رَبُّ، قَدْ تَضَايَقْتُ. كُنْ لِي ضَامِنًا.",
+            "English": "14 Like a crane [or] a swallow, so I chattered; I mourned like a dove; My eyes fail [from looking] upward. O LORD, I am oppressed; Undertake for me!"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "15 بِمَاذَا أَتَكَلَّمُ، فَإِنَّهُ قَالَ لِي وَهُوَ قَدْ فَعَلَ. أَتَمَشَّى مُتَمَهِّلاً كُلَّ سِنِيَّ مِن أَجْلِ مَرَارَةِ نَفْسِي.",
+            "English": "15 \" What shall I say? He has both spoken to me, And He Himself has done [it.] I shall walk carefully all my years In the bitterness of my soul."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "16 أَيُّهَا السَّيِّدُ، بِهذِهِ يَحْيَوْنَ، وَبِهَا كُلُّ حَيَاةِ رُوحِي فَتَشْفِينِي وَتُحْيِينِي.",
+            "English": "16 O LORD, by these [things men] live; And in all these [things is] the life of my spirit; So You will restore me and make me live."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "17 هُوَذَا لِلسَّلاَمَةِ قَدْ تَحَوَّلَتْ لِيَ الْمَرَارَةُ، وَأَنْتَ تَعَلَّقْتَ بِنَفْسِي مِنْ وَهْدَةِ الْهَلاَكِ، فَإِنَّكَ طَرَحْتَ وَرَاءَ ظَهْرِكَ كُلَّ خَطَايَايَ.",
+            "English": "17 Indeed [it was] for [my own] peace [That] I had great bitterness; But You have lovingly [delivered] my soul from the pit of corruption, For You have cast all my sins behind Your back."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "18 لأَنَّ الْهَاوِيَةَ لاَ تَحْمَدُكَ. الْمَوْتُ لاَ يُسَبِّحُكَ. لاَ يَرْجُو الْهَابِطُونَ إِلَى الْجُبِّ أَمَانَتَكَ.",
+            "English": "18 For Sheol cannot thank You, Death cannot praise You; Those who go down to the pit cannot hope for Your truth."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "19 الْحَيُّ الْحَيُّ هُوَ يَحْمَدُكَ كَمَا أَنَا الْيَوْمَ. الأَبُ يُعَرِّفُ الْبَنِينَ حَقَّكَ.",
+            "English": "19 The living, the living man, he shall praise You, As I [do] this day; The father shall make known Your truth to the children."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "20 الرَّبُّ لِخَلاَصِي. فَنَعْزِفُ بِأَوْتَارِنَا كُلَّ أَيَّامِ حَيَاتِنَا فِي بَيْتِ الرَّبِّ».",
+            "English": "20 \"The LORD [was ready] to save me; Therefore we will sing my songs with stringed instruments All the days of our life, in the house of the LORD.\""
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "والسبح لله دائماً.",
+            "English": "Praise be to God forever. Amen."
+        }
+    ]
 }

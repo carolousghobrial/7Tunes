@@ -5,6 +5,14 @@
   "CopticTitle": "Ari`precbeuin",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "للعذراء والملائكة والأنبياء والرسل والشهداء والقديسين",
+      "English": "For the Virgin, Angels, Prophets, Apostles, Martyrs and Saints"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

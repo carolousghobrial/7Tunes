@@ -34,6 +34,13 @@
             "visible": 0
         },
         {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Arabic": "في كل الايام ماعدا الاحد",
+            "English": "On all days except Sunday's Midnight Praises"
+        },
+        {
             "Type": "Main",
             "path": "TheotokiasSundayGospel",
             "rule": 0,

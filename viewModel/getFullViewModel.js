@@ -6,7 +6,6 @@ export function getFullViewModel(motherSource, data) {
   let arabicttl = "";
   let copticttl = "";
   let englishttl = "";
-  console.log(motherSource);
   var ViewArray = [];
   var MenuArray = [];
   var key = 0;

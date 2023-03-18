@@ -4,6 +4,14 @@
   "EnglishTitle": "public static string EnglishText = \"Composed by Hegumen Girgis El-Shanrawi",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من نظم القمص جرجس الشنراوى",
+      "English": "Composed by Hegumen Girgis El-Shanrawi "
+    },
+    {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,

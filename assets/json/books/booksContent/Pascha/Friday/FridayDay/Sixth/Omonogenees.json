@@ -1,7 +1,84 @@
 {
-"arabic": " أيها الوحيد الجنس الإبن وكلمة الله (الذى لايموت)3 الأزلى والقابل كل شيئ لأجل خلاصنا المتجسد من القديسة والدة الإله ( الدائمة البتولية مريم.)2,\n(بغير إستحالة (تحول ))3 المتأنس المصلوب المسيح الإله.,\nبالموتِ داس الموت أحد الثالوث القدوس الممجد مع الآب والروح القدس خلصنا.,\n(قدوس)3 الله الذى من أجلنا صار إنساناً بغير إستحالة وهو الإله.,\nقدوس القوى الذى أظهر بالضعف ماهو أعظم من القوة.,\nقدوس الذى لايموت الذى صُلِبَ من أجلنا. وصبر على موت الصليب وقبله فى جسده وهو أزلى غير مائت.,\nأيها الثالوث القدوس إرحمنا.,\n",
-"arabiccoptic": " أومونوجينيس إيوس كى لوغوس طو ثيئو. (أثاناطوس)3 إيبارخون كى كاطا ذيكسا مينوس. ذياتين إيميتيران سوتيريان ساركوثى نى. إكتيس أجياس ثيؤطوكو كى أ إى (بارثينو مارياس)2\n(أتريبتوس)3 إنان إثروبيساس أو إسطافروتيس تى إخريستى أوثيؤس.\nثاناطو ثاناطون باتيساس يس أون تيس أجياس إتري أذوس. سين ذوكسا ذومينوس. تو باترى كيطو أجيو إبنفماتى سو سون إيماس.\n(أجيوس)3 أوثيؤس أوذى إيماس أن إثروبوس. جى غونوس أتريبتوس كى ميناس ثيؤس.\nأجيوس يسشيروس أو إين أستين يا طو إيبيري خون تيس يسشيؤس إبى ذيكسامينوس.\nأجيوس أثاناطوس أو إسطافروتيس ذيماس. أوطون ذيا إسطافرو ثاناطون إيبوميناس. ساركى كى ذي إكساسوس كى إن ثاناطو جى غونوس إيبارشيس أثاناطوس.\nأجيا إترياس إليسون إيماس.\n",
-"coptic": " Omonogenhc `uioc ke logoc tou Qeou. (`aqanatoc)g/ `uparxwn ke katade[amenoc di`a thn `hmete- ran cwthrian carkwqhne ek thc `agiac qe`otokou ke `a `i(parqenou Mariac)b/.\n(Atreptwc)g/ enan`qrwpicac `o`ctaurwqic te `xricte `oQeoc.\nQanatw qanaton pathcac ic wn thc `agiac `tri`adoc > cundo[a- zomenoc tw Patri ke tw `agi`w `Pneumati > cwcon `hmac.\n(Agioc)g/ `o Qeoc `odi `hmac an `qrwpoc gegonwc atreptwc ke minac Qeoc.\nAgioc icxuroc `o en acqeni`a to `uper`exon thc icxuoc `epidi[amenoc.\nAgioc `aqanatoc `o`ctaurwqic di `hmac > `oton di`a`ctaurou qanaton `upominac carki ke di[ac wc ke en qanatw gegonwc `uparxic `aqanatoc.\nAgi`a `triac `ele `hcon `hmac.\n",
-"english": " O only-begotten Son, the eternal and immortal Word of God; who for our salvation did will to be incarnate of the holy Theotokos (and ever Virgin Mary)2.,\nWho without change became man and was crucified, the Christ God. \n Trampled down death by death. One of the Holy Trinity, who is glorified with the Father and the Holy Spirit, save us.,\nHoly God, who being God, for our sake, became man without change.,\nHoly Mighty, who by weakness showed forth what is greater than power.,\nHoly Immortal, who was crucified for our sake, and endured death in His flesh, the Eternal and Immortal.,\nO Holy Trinity, have mercy on us.,\n",
-"englishcoptic": " Omonogenees eyos :ke loghos to-theo: (Athanatos)^3 eepar-khon ke kata zexa menos : zeya-teen ee-meteran soteereyan sarko-thee-ne : ek-tees ageyas theo-toko ke a-ee (par-theno Marias)^2\n(Atreptos)^3 enan ethro-peesas o-estavrotees te ekhreste o-theos :\n thanato thanaton patee-sas : yes-on tees agias etreyados : seen-zoxazo-menos to patri ke to ageyo epnevmatee soson emas.\n(Agios)^3 O Theos : ozee emas an-ethropos gegonos atreptos ke meenas theos.\nAgios Yes-sheros o-ena-thenia to ee-pe-rekhon : tees yes-she-os epee-zexa menos.\nAgios athanatos o estavrotees dee emas : oton zeya-estavro thanaton eepominas : sarkee ke zee-exasos ke en thanato : gegonos ee-parshees athanatos.\nAgia etreyas eleyson emas.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "لحن اومونوجينيس",
+  "EnglishTitle": "Omonogenees Hymn ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الوحيد الجنس الإبن وكلمة الله (الذى لايموت)3 الأزلى والقابل كل شيئ لأجل خلاصنا المتجسد من القديسة والدة الإله ( الدائمة البتولية مريم.)2",
+      "Coptic": "Omonogenhc `uioc ke logoc tou Qeou. (`aqanatoc)g/ `uparxwn ke katade[amenoc di`a thn `hmete\b ran cwthrian carkwqhne ek thc `agiac qe`otokou ke `a `i(parqenou Mariac)b/.",
+      "English": "O only-begotten Son, the eternal and immortal Word of God; who for our salvation did will to be incarnate of the holy Theotokos (and ever Virgin Mary)2.",
+      "Arabiccoptic": "أومونوجينيس إيوس كى لوغوس طو ثيئو. (أثاناطوس)3 إيبارخون كى كاطا ذيكسا مينوس. ذياتين إيميتيران سوتيريان ساركوثى نى. إكتيس أجياس ثيؤطوكو كى أ إى (بارثينو مارياس)2",
+      "Englishcoptic": "Omonogenees eyos :ke loghos to-theo: (Athanatos)^3 eepar-khon ke kata zexa menos : zeya-teen ee-meteran soteereyan sarko-thee-ne : ek-tees ageyas theo-toko ke a-ee (par-theno Marias)^2"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "(بغير إستحالة (تحول ))3 المتأنس المصلوب المسيح الإله.",
+      "Coptic": "(Atreptwc)g/ enan`qrwpicac `o`ctaurwqic te `xricte `oQeoc.",
+      "English": "Who without change became man and was crucified, the Christ God.",
+      "Arabiccoptic": "(أتريبتوس)3 إنان إثروبيساس أو إسطافروتيس تى إخريستى أوثيؤس.",
+      "Englishcoptic": "(Atreptos)^3 enan ethro-peesas o-estavrotees te ekhreste o-theos :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بالموتِ داس الموت أحد الثالوث القدوس الممجد مع الآب والروح القدس خلصنا.",
+      "Coptic": "Qanatw qanaton pathcac ic wn thc `agiac `tri`adoc > cundo[a\b zomenoc tw Patri ke tw `agi`w `Pneumati > cwcon `hmac.",
+      "English": "Trampled down death by death. One of the Holy Trinity, who is glorified with the Father and the Holy Spirit, save us.",
+      "Arabiccoptic": "ثاناطو ثاناطون باتيساس يس أون تيس أجياس إتري أذوس. سين ذوكسا ذومينوس. تو باترى كيطو أجيو إبنفماتى سو سون إيماس.",
+      "Englishcoptic": "thanato thanaton patee-sas : yes-on tees agias etreyados : seen-zoxazo-menos to patri ke to ageyo epnevmatee soson emas."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "(قدوس)3 الله الذى من أجلنا صار إنساناً بغير إستحالة وهو الإله.",
+      "Coptic": "(Agioc)g/ `o Qeoc `odi `hmac an `qrwpoc gegonwc atreptwc ke minac Qeoc.",
+      "English": "Holy God, who being God, for our sake, became man without change.",
+      "Arabiccoptic": "(أجيوس)3 أوثيؤس أوذى إيماس أن إثروبوس. جى غونوس أتريبتوس كى ميناس ثيؤس.",
+      "Englishcoptic": "(Agios)^3 O Theos : ozee emas an-ethropos gegonos atreptos ke meenas theos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدوس القوى الذى أظهر بالضعف ماهو أعظم من القوة.",
+      "Coptic": "Agioc icxuroc `o en acqeni`a to `uper`exon thc icxuoc `epidi[amenoc.",
+      "English": "Holy Mighty, who by weakness showed forth what is greater than power.",
+      "Arabiccoptic": "أجيوس يسشيروس أو إين أستين يا طو إيبيري خون تيس يسشيؤس إبى ذيكسامينوس.",
+      "Englishcoptic": "Agios Yes-sheros o-ena-thenia to ee-pe-rekhon : tees yes-she-os epee-zexa menos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "قدوس الذى لايموت الذى صُلِبَ من أجلنا. وصبر على موت الصليب وقبله فى جسده وهو أزلى غير مائت.",
+      "Coptic": "Agioc `aqanatoc `o`ctaurwqic di `hmac > `oton di`a`ctaurou qanaton `upominac carki ke di[ac wc ke en qanatw gegonwc `uparxic `aqanatoc.",
+      "English": "Holy Immortal, who was crucified for our sake, and endured death in His flesh, the Eternal and Immortal.",
+      "Arabiccoptic": "أجيوس أثاناطوس أو إسطافروتيس ذيماس. أوطون ذيا إسطافرو ثاناطون إيبوميناس. ساركى كى ذي إكساسوس كى إن ثاناطو جى غونوس إيبارشيس أثاناطوس.",
+      "Englishcoptic": "Agios athanatos o estavrotees dee emas : oton zeya-estavro thanaton eepominas : sarkee ke zee-exasos ke en thanato : gegonos ee-parshees athanatos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الثالوث القدوس إرحمنا.",
+      "Coptic": "Agi`a `triac `ele `hcon `hmac.",
+      "English": "O Holy Trinity, have mercy on us.",
+      "Arabiccoptic": "أجيا إترياس إليسون إيماس.",
+      "Englishcoptic": "Agia etreyas eleyson emas."
+    }
+  ]
 }

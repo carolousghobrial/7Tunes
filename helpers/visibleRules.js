@@ -96,6 +96,29 @@ const isKiahkVespersPraises = (motherSource, path) => {
 const isLentenVespersPraises = (motherSource, path) => {
   return motherSource == "lentenVespersPraises" ? true : false;
 };
+const isNOTVespersPraises = (motherSource, path) => {
+  if (
+    isLentenVespersPraises ||
+    isKiahkVespersPraises ||
+    isStandardVespersPraises
+  ) {
+    return true;
+  }
+  return false;
+};
+const isInHolyFifties = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  switch (currentSeason.key) {
+    case "RESURRECTION":
+    case "THOMAS_SUNDAY":
+    case "HOLY_50":
+    case "ASCENSION":
+    case "PENTECOST":
+      return true;
+    default:
+      return false;
+  }
+};
 const isKiahkVespersPraisesExpositionWeek = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
@@ -176,6 +199,7 @@ const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
   }
   return false;
 };
+
 const VisibleRules = {
   TennavRule: TennavRule,
   SundayThetokiaWeekdaysPraisesRule: SundayThetokiaWeekdaysPraisesRule,
@@ -188,7 +212,9 @@ const VisibleRules = {
   isStandardVespersPraises: isStandardVespersPraises,
   isKiahkVespersPraises: isKiahkVespersPraises,
   isLentenVespersPraises: isLentenVespersPraises,
+  isNOTVespersPraises: isNOTVespersPraises,
   isKiahkVespersPraisesExpositionWeek: isKiahkVespersPraisesExpositionWeek,
   isLentVespersPraisesExpositionWeek: isLentVespersPraisesExpositionWeek,
+  isInHolyFifties: isInHolyFifties,
 };
 export default VisibleRules;

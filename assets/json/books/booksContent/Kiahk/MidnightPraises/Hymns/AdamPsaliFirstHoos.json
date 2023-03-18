@@ -5,6 +5,14 @@
   "CopticTitle": "`A P_ erouro",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " تعودت الكنيسة على أن يصليها الرئيس الحاضر ( البطريرك أو الأسقف أو كبير الكهنة ) ",
+      "English": "It is the church's tradition to have the Patriarch or Bishop or an elder priest to pray this Psali"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

@@ -1,7 +1,18 @@
 {
-"arabic": " المجمرة الذهب هى العذراء وعنبرها هو مخلصنا قد ولدته وخلصنا وغفر لنا خطايانا.,\n",
-"arabiccoptic": " تى شورى إن نوب تى تيبارثينوس بيس أروماطا بى بين سوتير. أسميسى إمموف أفسوتى إممون. أووه أفكا نين نوفى نان إيفول\n",
-"coptic": " :]ourh `nnoub te ;parqenoc > pec`arwmata pe Pencwthr > acmici `mmof > afcw; `mmon > ouo\\ afxa nennobi nan `ebol.\n",
-"english": " The golden censer is the Virgin, her aroma is our Savior. She gave birth to Him; He saved us, and forgave us our sins.,\n",
-"englishcoptic": " Tee-shory ennob te ti-Parthenos, pes-aro-mata pe pen-Soteer, asmisi emmof, afsoti emmon, owoh ka nen-novi nan e-vol.\n",
+  "RefrainAfter": 0,
+  "ArabicTitle": "تي شوري",
+  "EnglishTitle": "The Hymn of the Censer (Ti-Shori) ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجمرة الذهب هى العذراء وعنبرها هو مخلصنا قد ولدته وخلصنا وغفر لنا خطايانا.",
+      "Coptic": ":]ourh `nnoub te ;parqenoc > pec`arwmata pe Pencwthr > acmici `mmof > afcw; `mmon > ouo\\ afxa nennobi nan `ebol.",
+      "English": "The golden censer is the Virgin, her aroma is our Savior. She gave birth to Him; He saved us, and forgave us our sins.",
+      "Arabiccoptic": "تى شورى إن نوب تى تيبارثينوس بيس أروماطا بى بين سوتير. أسميسى إمموف أفسوتى إممون. أووه أفكا نين نوفى نان إيفول",
+      "Englishcoptic": "Tee-shory ennob te ti-Parthenos, pes-aro-mata pe pen-Soteer, asmisi emmof, afsoti emmon, owoh ka nen-novi nan e-vol."
+    }
+  ]
 }

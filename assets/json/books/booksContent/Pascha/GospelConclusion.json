@@ -1,7 +1,37 @@
 {
-    "arabic": " اسجدوا للأنجيل المقدس,\n(C),\nوالمجد لله دائماً,\n",
-    "arabiccoptic": " أووشت إمبيف انجيلييون إثؤواب\n(C)\nذوكساسي كيريي\n",
-    "coptic": " Ouw]t mpieuaggelion eqouab\n(C)\nDo[a ci Kuri`e.\n",
-    "english": " Bow down before the Holy Gospel,\n(C),\nGlory be to God forever,\n",
-    "englishcoptic": " O-osht empef-angelion ethowab\n(C)\nZoxa si Kerie\n",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "اسجدوا للأنجيل المقدس,",
+            "Coptic": "Ouw]t mpieuaggelion eqouab",
+            "English": "Bow down before the Holy Gospel,",
+            "Arabiccoptic": "أووشت إمبيف انجيلييون إثؤواب",
+            "Englishcoptic": "O-osht empef-angelion ethowab"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "Coptic": "Pilaoc>",
+            "English": "People:",
+            "Arabiccoptic": ":بيلاؤس",
+            "Englishcoptic": "Pi-Laos:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "والمجد لله دائماً,",
+            "Coptic": "Do[a ci Kuri`e.",
+            "English": "Glory be to God forever,",
+            "Arabiccoptic": "ذوكساسي كيريي",
+            "Englishcoptic": "Zoxa si Kerie"
+        }
+    ]
 }

@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "الإنجيل لمعلمنا مار لوقا",
   "EnglishTitle": "Gospel According to St. Luke",
-  "CopticTitle": "Kata Loukan Kevaleon =b ",
+  "CopticTitle": "Pieuaggelion kata Loukan `Agion",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الإنجيل من لوقا  2 : 29 - 32",
-      "Coptic": "Kata Loukan Kevaleon =b > =k=q \b =l=b",
+      "Coptic": "Pieuaggelion kata Loukan `Agion",
       "English": "The Gospel according to saint Luke (2 : 29-32 )",
       "Arabiccoptic": "اف انجيليون كاطا لوكان",
       "Englishcoptic": "Ev Angelion kata Loukan"

@@ -1,7 +1,37 @@
 {
-    "arabic": " المجد لإلهنا الى الابدين . امين,\n(C),\nوالمجد لله دائماً,\n",
-    "arabiccoptic": " بيأوأو فا بينووتي بي شا إينيه إينتى ني إينيه تيروو : امين.\n(C)\nذوكساسي كيريي\n",
-    "coptic": " Pi`wou va Pennou; pe ]a `ene\\ `nte ni`ene\\ throu > Amhn.\n(C)\nDo[a ci Kuri`e.\n",
-    "english": " Glory is due to our God unto the age of all ages, Amen.,\n(C),\nGlory be to God forever,\n",
-    "englishcoptic": " Pi-o-oo fa Pennooti pe sha eneh ente ni-eneh teeroo : Ameen.\n(C)\nZoxa si Kerie\n",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "المجد لإلهنا الى الابدين . امين,",
+            "Coptic": "Pi`wou va Pennou; pe ]a `ene\\ `nte ni`ene\\ throu > Amhn.",
+            "English": "Glory is due to our God unto the age of all ages, Amen.",
+            "Arabiccoptic": "بيأوأو فا بينووتي بي شا إينيه إينتى ني إينيه تيروو : امين.",
+            "Englishcoptic": "Pi-o-oo fa Pennooti pe sha eneh ente ni-eneh teeroo : Ameen."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "Coptic": "Pilaoc>",
+            "English": "People:",
+            "Arabiccoptic": ":بيلاؤس",
+            "Englishcoptic": "Pi-Laos:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "والمجد لله دائماً,",
+            "Coptic": "Do[a ci Kuri`e.",
+            "English": "Glory be to God forever,",
+            "Arabiccoptic": "ذوكساسي كيريي",
+            "Englishcoptic": "Zoxa si Kerie"
+        }
+    ]
 }

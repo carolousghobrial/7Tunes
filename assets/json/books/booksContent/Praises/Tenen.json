@@ -5,6 +5,14 @@
   "CopticTitle": "TENEN",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قطعة يونانية للثلاثة فتية القديسين",
+      "English": "A Greek Hymn for the Three Saintly Youth"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

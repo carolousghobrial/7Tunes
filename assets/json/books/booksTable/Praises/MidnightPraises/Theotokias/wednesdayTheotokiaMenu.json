@@ -101,6 +101,24 @@
         },
         {
             "Type": "Main",
+            "path": "TheotokiasSundaySunday16",
+            "rule": 0,
+            "visible": "isInHolyFifties"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSundaySunday17",
+            "rule": 0,
+            "visible": "isInHolyFifties"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSundaySunday18",
+            "rule": 0,
+            "visible": "isInHolyFifties"
+        },
+        {
+            "Type": "Main",
             "path": "TheotokiasWednesdayWednesdayLobsh",
             "rule": 0,
             "visible": 0
