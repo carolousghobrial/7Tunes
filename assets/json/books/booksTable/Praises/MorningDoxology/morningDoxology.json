@@ -10,55 +10,55 @@
       "english": "Morning Praises"
     },
     {
-      "type": "Main",
+      "Type": "Main",
       "path": "PraisesMorningDoxologyAdamMorningDoxology",
       "rule": 0,
       "visible": 0
     },
     {
-      "type": "Main",
+      "Type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyOurLord",
       "rule": 0,
       "visible": 0
     },
     {
-      "type": "Main",
+      "Type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyMary",
       "rule": 0,
       "visible": 0
     },
     {
-      "type": "Main",
+      "Type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyHeavenlies",
       "rule": 0,
       "visible": 0
     },
     {
-      "type": "Main",
+      "Type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyApostles",
       "rule": 0,
       "visible": 0
     },
     {
-      "type": "Main",
+      "Type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyMartyrs",
       "rule": 0,
       "visible": 0
     },
     {
-      "type": "Main",
+      "Type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologySainsts",
       "rule": 0,
       "visible": 0
     },
     {
-      "type": "Main",
+      "Type": "Main",
       "path": "PraisesMorningDoxologyMorningDoxologyFathers",
       "rule": 0,
       "visible": 0
     },
     {
-      "type": "Main",
+      "Type": "Main",
       "path": "TheotokiasSundayAdamConclusion",
       "rule": 0,
       "visible": 0

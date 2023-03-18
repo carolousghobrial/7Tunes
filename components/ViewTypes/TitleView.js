@@ -49,16 +49,18 @@ function TitleView({ item }) {
           {item.english}
         </Text>
       </View>
-      <View style={styles.textView}>
-        <Text
-          style={[
-            styles.coptic,
-            { fontSize: fontSize * 1.2, color: getColor("LabelColor") },
-          ]}
-        >
-          {item.coptic}
-        </Text>
-      </View>
+      {item.coptic !== undefined ? (
+        <View style={styles.textView}>
+          <Text
+            style={[
+              styles.coptic,
+              { fontSize: fontSize * 1.2, color: getColor("LabelColor") },
+            ]}
+          >
+            {item.coptic}
+          </Text>
+        </View>
+      ) : null}
       <View style={styles.textView}>
         <Text
           style={[

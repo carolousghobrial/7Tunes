@@ -16,7 +16,7 @@ import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ButtonRules from "../../helpers/buttonRules";
-function ButtonView({ item }) {
+function ButtonView({ item, motherSource, navigation }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
   let flex = "row";
@@ -28,9 +28,7 @@ function ButtonView({ item }) {
     flex = "column";
   }
   return (
-    <Pressable
-      onPress={ButtonRules.find((data) => data.title === item.rule).onPress}
-    >
+    <Pressable onPress={ButtonRules(item, motherSource, navigation)[item.rule]}>
       <View style={[styles.bookView, { flexDirection: flex }]}>
         <Text style={[styles.english, { fontSize }]}> {item.English}</Text>
         <Text style={[styles.arabic, { fontSize }]}> {item.Arabic}</Text>

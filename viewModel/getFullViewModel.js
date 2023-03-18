@@ -2,14 +2,15 @@ import React, { useState, useRef, useEffect } from "react";
 import bookPaths from "../helpers/bookPathsHelpers";
 import VisibleRules from "../helpers/visibleRules";
 
-export function getFullViewModel(data) {
+export function getFullViewModel(motherSource, data) {
   let arabicttl = "";
   let copticttl = "";
   let englishttl = "";
-
+  console.log(motherSource);
   var ViewArray = [];
   var MenuArray = [];
   var key = 0;
+
   data.main.map((item) => {
     if (item.type === "Title") {
       arabicttl = item.arabic;
@@ -18,9 +19,9 @@ export function getFullViewModel(data) {
     } else {
       if (
         item.visible === 0 ||
-        VisibleRules().find((data) => data.rule === item.visible).visible
+        VisibleRules[item.visible](motherSource, item.path)
       ) {
-        switch (item.type) {
+        switch (item.Type) {
           case "Main":
             //Get View
             let book = bookPaths[item.path];
@@ -51,7 +52,6 @@ export function getFullViewModel(data) {
 
             key++;
             var hymn = book.Hymn;
-
             hymn.map((part) => {
               ViewArray.push({
                 part: part,
@@ -65,14 +65,11 @@ export function getFullViewModel(data) {
             });
 
             break;
-          case "Expander":
-            break;
-          default:
-            //Get View
+          case "Button":
+            console.log(item);
             MenuArray.push({
-              EnglishTitle: item.english,
-              CopticTitle: "",
-              ArabicTitle: item.arabic,
+              EnglishTitle: item.Arabic,
+              ArabicTitle: item.English,
               key: key,
             });
             ViewArray.push({
@@ -81,6 +78,23 @@ export function getFullViewModel(data) {
               EnglishTitle: englishttl,
               CopticTitle: copticttl,
               ArabicTitle: arabicttl,
+            });
+            key++;
+            break;
+          default:
+            //Get View
+            MenuArray.push({
+              EnglishTitle: item.english,
+              CopticTitle: item.coptic,
+              ArabicTitle: item.arabic,
+              key: key,
+            });
+            ViewArray.push({
+              part: item,
+              key: key,
+              EnglishTitle: item.english,
+              CopticTitle: item.coptic,
+              ArabicTitle: item.arabic,
             });
             key++;
 

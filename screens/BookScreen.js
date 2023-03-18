@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, memo } from "react";
+import React, { useState, useRef, useCallback, useEffect, memo } from "react";
 import {
   StyleSheet,
   useWindowDimensions,
@@ -6,6 +6,7 @@ import {
   View,
   FlatList,
   Animated,
+  Dimensions,
   Button,
   Pressable,
   StatusBar,
@@ -25,6 +26,7 @@ import RitualView from "../components/ViewTypes/RitualView";
 import ButtonView from "../components/ViewTypes/ButtonView";
 import ExpanderView from "../components/ViewTypes/ExpanderView";
 import CustomHeader from "../components/ViewTypes/CustomHeader";
+import { Updates } from "expo";
 
 import BottomBar from "../components/BottomBar/BottomBar";
 import {
@@ -42,16 +44,20 @@ function BookScreen({ navigation, route }) {
   const [NavbarVisibility, setNavbarVisibility] = useState(true);
   const [index, setIndex] = useState(0);
   const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
-  const [newIndex, setnewIndex] = useState(0);
-  const [scrollToIndex, setscrollToIndex] = useState(0);
+  const [newIndex, setnewIndex] = useState(null);
+  const [scrollToIndex, setscrollToIndex] = useState(null);
 
-  const motherSource = route.params.bookPath;
+  const motherSource = route.params.motherSource;
+  const bookPath = route.params.bookPath;
 
-  const [data, menuData] = getFullViewModel(homescreenPaths[motherSource]);
-  console.log(data[0].part.english);
+  const [data, menuData] = getFullViewModel(
+    motherSource,
+    homescreenPaths[bookPath]
+  );
   const [englishTitle, setenglishTitle] = useState(data[0].part.english);
   const [copticTitle, setcopticTitle] = useState(data[0].part.coptic);
   const [arabicTitle, setarabicTitle] = useState(data[0].part.arabic);
+  const [visibleIndexes, setVisibleIndexes] = useState([]);
 
   const { WIDTH, HEIGHT } = useWindowDimensions();
 
@@ -80,6 +86,9 @@ function BookScreen({ navigation, route }) {
     // Use viewable items in state or as intended
   }, []); // any dependencies that require the function to be "redeclared"
 
+  //   // update state with the new visibleIndexes array
+  //   setVisibleIndexes(visibleIndexes);
+  // };
   function scrollDown() {
     var scrollnewIndex = index + howMcuhToScroll;
     if (scrollnewIndex >= data.length - 1) {
@@ -94,32 +103,32 @@ function BookScreen({ navigation, route }) {
     }
     setIndex(scrollnewIndex);
   }
-  function scrollToKey(key) {
+  async function scrollToKey(key) {
+    //await Updates.reloadAsync();
+
     setenglishTitle(data[key].EnglishTitle);
     setcopticTitle(data[key].CopticTitle);
     setarabicTitle(data[key].ArabicTitle);
-    setscrollToIndex(key);
+    flatListRef.current.scrollToIndex({
+      index: key,
+      animated: false,
+    });
   }
 
   useEffect(() => {
-    // StatusBar.setHidden(NavbarVisibility);
-    // navigation.setOptions({
-    //   headerShown: NavbarVisibility,
-    //   header: () => (
-    //     <CustomHeader
-    //       navigation={navigation}
-    //       english={englishTitle}
-    //       coptic={copticTitle}
-    //       arabic={arabicTitle}
-    //     />
-    //   ),
-    // });
-    flatListRef.current.scrollToIndex({
-      index: scrollToIndex,
-      animated: false,
+    StatusBar.setHidden(NavbarVisibility);
+    navigation.setOptions({
+      headerShown: NavbarVisibility,
+      header: () => (
+        <CustomHeader
+          navigation={navigation}
+          english={englishTitle}
+          coptic={copticTitle}
+          arabic={arabicTitle}
+        />
+      ),
     });
-    console.log("HERE");
-  }, [scrollToIndex]);
+  }, [NavbarVisibility]);
   function hideHeader() {
     setNavbarVisibility(!NavbarVisibility);
   }
@@ -144,20 +153,20 @@ function BookScreen({ navigation, route }) {
 
         break;
       case "Button":
-        content = <ButtonView item={item.part}></ButtonView>;
+        content = (
+          <ButtonView
+            item={item.part}
+            motherSource={motherSource}
+            navigation={navigation}
+          ></ButtonView>
+        );
         break;
-
       default:
         return <Text>Default</Text>;
         break;
     }
     return <Pressable onPress={hideHeader}>{content}</Pressable>;
   }
-  const getItemLayout = (data, index) => ({
-    length: 50, // assuming each item has a height of 50
-    offset: 50 * index,
-    index,
-  });
 
   return (
     // <GestureRecognizer
@@ -172,9 +181,8 @@ function BookScreen({ navigation, route }) {
         showsVerticalScrollIndicator={false}
         data={data}
         onScrollToIndexFailed={(error) => {
-          console.log(error);
           flatListRef.current.scrollToOffset({
-            offset: error.averageItemLength * error.index * 6,
+            offset: error.averageItemLength * error.index,
             animated: false,
           });
           setTimeout(() => {
@@ -186,7 +194,19 @@ function BookScreen({ navigation, route }) {
             }
           }, 10);
         }}
-        // initialNumToRender={data.length}
+        snapToAlignment="start"
+        decelerationRate={"fast"}
+        // onScroll={({ nativeEvent }) => {
+        //   const { contentOffset } = nativeEvent;
+        //   const index = Math.round(contentOffset.y / 100); // Calculate the current index based on the snap interval
+        //   const snapInterval = index === 0 ? 100 : index * 150; // Adjust the snap interval based on the current index
+        //   flatListRef.current.scrollToIndex({
+        //     index,
+        //     viewPosition: 0.5,
+        //   }); // Scroll to the current index with the updated snap interval
+        // }}
+        disableIntervalMomentum={true}
+        removeClippedSubviews={true}
         renderItem={renderItems}
         keyExtractor={(item, index) => {
           return item.key;

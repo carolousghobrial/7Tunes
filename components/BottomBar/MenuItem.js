@@ -36,16 +36,18 @@ function MenuItem({ item, scrollToKey, closeModal }) {
             {item.EnglishTitle}
           </Text>
         </View>
-        <View style={styles.textView}>
-          <Text
-            style={[
-              styles.coptic,
-              { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
-            ]}
-          >
-            {item.CopticTitle}
-          </Text>
-        </View>
+        {item.CopticTitle !== undefined ? (
+          <View style={styles.textView}>
+            <Text
+              style={[
+                styles.coptic,
+                { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
+              ]}
+            >
+              {item.CopticTitle}
+            </Text>
+          </View>
+        ) : null}
         <View style={styles.textView}>
           <Text
             style={[

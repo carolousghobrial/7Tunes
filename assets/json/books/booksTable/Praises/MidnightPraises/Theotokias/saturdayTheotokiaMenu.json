@@ -1,0 +1,499 @@
+{
+    "main": [
+        {
+            "Type": "Title",
+            "rule": 0,
+            "visible": 0,
+            "Side": "Title",
+            "arabic": "ثيؤطوكية الأربعاء ",
+            "coptic": ":qe`otokia `m`P`e\\oou `m`P`ftoou",
+            "english": "The Saturday Theotokia "
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasPsalisNayroozWatos",
+            "rule": 0,
+            "visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasPsalisCrossWatos",
+            "rule": 0,
+            "visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesMidnightPraisesHymnsSaturdayWatosPsali",
+            "rule": 0,
+            "visible": "isLenten"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasPsalisPalmSundayWatos",
+            "rule": 0,
+            "visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasPsalisRessurectionFeastWatosPsali",
+            "rule": 0,
+            "visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturdayPsaliStMary",
+            "rule": 0,
+            "visible": "isStandardVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesHymnsSaturdayWatosPsali",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesMidnightPraisesHymnsSaturdayWatosPsali",
+            "rule": 0,
+            "visible": "isLentenVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturdayPsaliOurLord",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkMidnightPraisesMelodiesSaturdayTheotokiaMelody",
+            "rule": 0,
+            "visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesMelodyWatosPsali",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdayWatosIntro",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturday1",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesHymnsRomi1",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAboelsaad1",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesGhobrial1",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAnbaMorkos1",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesMelodiesLent1",
+            "rule": 0,
+            "visible": "isLentenVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturday2",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesHymnsRomi2",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAboelsaad2",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesGhobrial2",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAnbaMorkos2",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesMelodiesLent2",
+            "rule": 0,
+            "visible": "isLentenVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturday3",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesHymnsRomi3",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAboelsaad3",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesGhobrial3",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAnbaMorkos3",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesMelodiesLent3",
+            "rule": 0,
+            "visible": "isLentenVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturday4",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesHymnsRomi4",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAboelsaad4",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesGhobrial4",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAnbaMorkos4",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesMelodiesLent4",
+            "rule": 0,
+            "visible": "isLentenVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturday5",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesHymnsRomi5",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAboelsaad5",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesGhobrial5",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAnbaMorkos5",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesMelodiesLent5",
+            "rule": 0,
+            "visible": "isLentenVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturday6",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesHymnsRomi6",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAboelsaad6",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesGhobrial6",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAnbaMorkos6",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesMelodiesLent6",
+            "rule": 0,
+            "visible": "isLentenVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturday7",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesHymnsRomi7",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAboelsaad7",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesGhobrial7",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAnbaMorkos7",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesMelodiesLent7",
+            "rule": 0,
+            "visible": "isLentenVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturday8",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesHymnsRomi8",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAboelsaad8",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesGhobrial8",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAnbaMorkos8",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesMelodiesLent8",
+            "rule": 0,
+            "visible": "isLentenVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturday9",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesHymnsRomi9",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAboelsaad9",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesGhobrial9",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesMelodiesAnbaMorkos9",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesMelodiesLent9",
+            "rule": 0,
+            "visible": "isLentenVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturdayLobsh1",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdaySaturdayLobsh2",
+            "rule": 0,
+            "visible": 0
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesExpositionsExpositionsIntroduction",
+            "rule": 0,
+            "visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesExpositionsExpositionsIntroduction",
+            "rule": 0,
+            "visible": "isLentenVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesExpositionsFirstSunday",
+            "rule": 0,
+            "visible": "isKiahkVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesExpositionsSecondSunday",
+            "rule": 0,
+            "visible": "isKiahkVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesExpositionsThirdSunday",
+            "rule": 0,
+            "visible": "isKiahkVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "path": "KiahkVespersPraisesExpositionsFourthSunday",
+            "rule": 0,
+            "visible": "isKiahkVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesExpositionsSunday1",
+            "rule": 0,
+            "visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesExpositionsSunday2",
+            "rule": 0,
+            "visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesExpositionsSunday3",
+            "rule": 0,
+            "visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesExpositionsSunday4",
+            "rule": 0,
+            "visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesExpositionsSunday5",
+            "rule": 0,
+            "visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesVespersPraisesExpositionsSunday6",
+            "rule": 0,
+            "visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdayWatosConclusion",
+            "rule": 0,
+            "visible": 0
+        }
+    ]
+}

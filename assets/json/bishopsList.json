@@ -1,0 +1,58 @@
+{
+    "POPE": {
+        "key": "POPE",
+        "Arabic": "تاواضروس",
+        "Coptic": "Qe`odwrou",
+        "English": "Tawadros",
+        "Arabiccoptic": "تاواضروس",
+        "Englishcoptic": "Tawadros",
+        "PopeNum": 118,
+        "PopeNameNum": 2,
+        "dioceseArabic": "بابا وبطريرك ورئيس أساقفة المدينة العظمى الاسكندرية",
+        "dioceseEnglish": "Pope and Patriarch and Archbishop of the Great City of Alexandria"
+    },
+    "ANTIOCH_POPE": {
+        "key": "ANTIOCH_POPE",
+        "Arabic": "",
+        "Coptic": "",
+        "English": "",
+        "Arabiccoptic": "",
+        "Englishcoptic": "",
+        "dioceseArabic": "",
+        "dioceseEnglish": ""
+    },
+    "ERITREAN_POPE": {
+        "key": "ERITREAN_POPE",
+        "Arabic": "",
+        "Coptic": "",
+        "English": "",
+        "Arabiccoptic": "",
+        "Englishcoptic": "",
+        "dioceseArabic": "",
+        "dioceseEnglish": ""
+    },
+    "Metropolitans": [
+        {
+            "key": "YOUSSEF",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Youssef",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Youssef",
+            "dioceseArabic": "مطران جنوبي الولايات المتحدة",
+            "dioceseEnglish": "Metropolitan of the Southern United States"
+        }
+    ],
+    "Bishops": [
+        {
+            "key": "BASIL_SUS",
+            "Arabic": "باسيل",
+            "Coptic": "Basil",
+            "English": "Basil",
+            "Arabiccoptic": "باسيل",
+            "Englishcoptic": "Basil",
+            "dioceseArabic": "",
+            "dioceseEnglish": "Metropolitan of the Southern United States"
+        }
+    ]
+}

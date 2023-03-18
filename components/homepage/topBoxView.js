@@ -2,44 +2,75 @@ import { StyleSheet } from "react-native";
 import { View, Button, TextInput, Text, Image, Pressable } from "react-native";
 import { getCopticDateString } from "../../helpers/copticMonthsHelper";
 import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
+import { useDispatch, useSelector } from "react-redux";
 import moment from "moment";
-import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
+import {
+  getLanguageValue,
+  getFontSize,
+  getColor,
+} from "../../helpers/SettingsHelpers.js";
 import React, { useState, useEffect } from "react";
+import "moment/locale/ar";
 
 function TopBoxView() {
   const [seasonText, setseasonText] = useState("");
-  const mySeason = getCurrentSeason()[0];
+  const [date, setDate] = useState("");
   useEffect(() => {
     // Update the document title using the browser API
+    SetDateTime();
     SetCurrentSeason();
   });
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  const appLang = useSelector((state) => state.settings.appLanguage);
+  const weekOf = getLanguageValue("week_of");
+  const season = getLanguageValue(currentSeason.key);
   function SetCurrentSeason() {
-    switch (mySeason.key) {
+    switch (currentSeason.key) {
       case "GREAT_LENT":
+      case "HOLY_50":
+      case "NATIVITY_FAST":
         let tempText = "";
-        const currentDate = moment();
+        let weekNum = currentSeason.week;
+        if (appLang === "eng") {
+          switch (weekNum) {
+            case 1:
+              weekNum += "st";
+              break;
+            case 2:
+              weekNum += "nd";
+              break;
+            case 3:
+              weekNum += "rd";
+              break;
+            default:
+              weekNum += "th";
+              break;
+          }
 
-        const startWeek = moment(mySeason.start).startOf("week");
-        const endWeek = moment(mySeason.end).startOf("week");
+          tempText += weekNum + " " + weekOf + " " + season;
 
-        var weekNum = currentDate.isoWeek() - startWeek.isoWeek();
-        switch (weekNum) {
-          case 1:
-            weekNum += "st";
-            break;
-          case 2:
-            weekNum += "nd";
-            break;
-          case 3:
-            weekNum += "rd";
-            break;
-          default:
-            weekNum += "th";
-            break;
+          setseasonText(tempText);
+        } else {
+          tempText += weekOf + weekNum + " من " + season;
+
+          setseasonText(tempText);
         }
-        tempText += weekNum + " Week of the Great Lent";
-        setseasonText(tempText);
+
         break;
+      default:
+        setseasonText(season);
+        break;
+    }
+  }
+  function SetDateTime() {
+    if (appLang === "eng") {
+      moment().locale("en");
+      var mydate = moment().format("dddd, MMMM Do YYYY");
+      setDate(mydate);
+    } else {
+      var mydate = moment().locale("ar").format("LLLL");
+      console.log(mydate);
+      setDate(mydate);
     }
   }
 

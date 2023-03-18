@@ -1,135 +1,22 @@
 import React, { useState } from "react";
-import { FlatList, View, Text, Button } from "react-native";
+import { FlatList, View, Text, Button, TouchableOpacity } from "react-native";
+import Collapsible from "react-native-collapsible";
 
 function Test() {
-  const [initialIndex, setInitialIndex] = useState(0);
-  const [refresh, setRefresh] = useState(0);
-  var data = [
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-    "Pankaj",
-    "Rita",
-    "Mohan",
-    "Amit",
-    "Babulal",
-    "Sakshi",
-  ];
+  const [collapsed, setCollapsed] = useState(true);
 
-  const handleButtonClick = () => {
-    // Generate a random index between 0 and the length of the data array
-    const newIndex = Math.floor(Math.random() * data.length);
-    console.log(newIndex);
-    setInitialIndex(newIndex);
-    setRefresh(true);
+  const toggleCollapsed = () => {
+    setCollapsed(!collapsed);
   };
 
   return (
     <View>
-      <Button
-        title="Reload with new initialScrollIndex"
-        onPress={handleButtonClick}
-      />
-      <FlatList
-        data={data}
-        extraData={refresh}
-        keyExtractor={(item, index) => index.toString()}
-        renderItem={({ item }) => <Text style={{ fontSize: 30 }}>{item}</Text>}
-        initialScrollIndex={initialIndex}
-      />
+      <TouchableOpacity onPress={toggleCollapsed}>
+        <Text>{collapsed ? "Show" : "Hide"}</Text>
+      </TouchableOpacity>
+      <Collapsible collapsed={collapsed}>
+        <Text>This is some collapsible content!</Text>
+      </Collapsible>
     </View>
   );
 }

@@ -24,6 +24,18 @@ const homescreenPaths = {
   standardPsalmody: require("../assets/json/books/booksTable/Praises/MidnightPraises/standardPsalmody.json"),
   kiahkPsalmody: require("../assets/json/books/booksTable/Praises/MidnightPraises/kiahkPsalmody.json"),
   lentenPsalmody: require("../assets/json/books/booksTable/Praises/MidnightPraises/lentenPsalmody.json"),
+  standardVespersPraises: require("../assets/json/books/booksTable/Praises/VespersPraises//standardVespersPraises.json"),
+  kiahkVespersPraises: require("../assets/json/books/booksTable/Praises/VespersPraises/kiahkVespersPraises.json"),
+  lentenVespersPraises: require("../assets/json/books/booksTable/Praises/VespersPraises/lentenVespersPraises.json"),
+  //Theotokias
+  sundayTheotokiaMenu: require("../assets/json/books/booksTable/Praises/MidnightPraises/Theotokias/sundayTheotokiaMenu.json"),
+  mondayTheotokiaMenu: require("../assets/json/books/booksTable/Praises/MidnightPraises/Theotokias/mondayTheotokiaMenu.json"),
+  tuesdayTheotokiaMenu: require("../assets/json/books/booksTable/Praises/MidnightPraises/Theotokias/tuesdayTheotokiaMenu.json"),
+  wednesdayTheotokiaMenu: require("../assets/json/books/booksTable/Praises/MidnightPraises/Theotokias/wednesdayTheotokiaMenu.json"),
+  thursdayTheotokiaMenu: require("../assets/json/books/booksTable/Praises/MidnightPraises/Theotokias/thursdayTheotokiaMenu.json"),
+  fridayTheotokiaMenu: require("../assets/json/books/booksTable/Praises/MidnightPraises/Theotokias/fridayTheotokiaMenu.json"),
+  saturdayTheotokiaMenu: require("../assets/json/books/booksTable/Praises/MidnightPraises/Theotokias/saturdayTheotokiaMenu.json"),
+  //veneration
   venerations: require("../assets/json/books/booksTable/Venerations/venerations.json"),
 };
 

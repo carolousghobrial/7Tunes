@@ -6,9 +6,18 @@ import {
   Share,
 } from "react-native";
 
-const hello = () => {
-  Alert.alert("HELLO");
-};
-const ButtonRules = [{ title: "firstButton", onPress: hello }];
+function ButtonRules(item, motherSource, navigation) {
+  function OpenTheotokia() {
+    navigation.push("BookScreen", {
+      bookPath: item.path,
+      englishTitle: item.English,
+      arabicTitle: item.Arabic,
+      motherSource: motherSource,
+    });
+  }
+  return {
+    OpenTheotokia: OpenTheotokia,
+  };
+}
 
 export default ButtonRules;

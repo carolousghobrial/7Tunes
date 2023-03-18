@@ -1,3 +1,4 @@
+import { getLanguageValue, getFontSize, getColor } from "./SettingsHelpers.js";
 var moment = require("moment");
 var today = moment();
 
@@ -102,7 +103,7 @@ var CopticMonthObjects = [
     leap: false,
   },
   {
-    name: "Pi Kogi Enavot",
+    name: "Nesi",
     index: 12,
     month: 9,
     day: 6,
@@ -596,10 +597,6 @@ export function plantsSeason() {
   }
 }
 
-/**
- * @param {Object} attributes - Attributes object defined in NavSubMenuStore
- * @returns {Array} list of FastFeastNames items
- */
 export function getCurrentSeason() {
   var fastsfeasts = getCopticFastsFeasts();
   var collection = [];
@@ -631,7 +628,7 @@ var isLeapYear = function (year) {
   return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
 };
 
-var getCopticMonthDate = function (CopticMonthObject, year) {
+function getCopticMonthDate(CopticMonthObject, year) {
   var leapYear = isLeapYear(year + 1);
   var m = CopticMonthObject.month;
   var d = CopticMonthObject.day;
@@ -639,7 +636,7 @@ var getCopticMonthDate = function (CopticMonthObject, year) {
     d++;
   }
   return new Date(year, m - 1, d);
-};
+}
 
 export function getCopticDate(year, monthIndex, day) {
   var copticMonth;
@@ -690,10 +687,17 @@ export function getCopticDate(year, monthIndex, day) {
   };
 }
 
-var getCopticDateString = function (year, monthIndex, day) {
+export function getCopticDateString(year, monthIndex, day) {
   var copticDate = getCopticDate(year, monthIndex, day);
-  return copticDate.month + " " + copticDate.day + ", " + copticDate.year;
-};
+  console.log(copticDate);
+  return (
+    getLanguageValue(copticDate.month) +
+    " " +
+    copticDate.day +
+    ", " +
+    copticDate.year
+  );
+}
 
 var getResurrectionDate = function (year) {
   // Meeus Julian algorithm
@@ -771,7 +775,7 @@ var CopticDateComparator = function (
 };
 // default getCopticDate;
 //module.exports.getCopticDate = getCopticDate;
-module.exports.getCopticDateString = getCopticDateString;
+
 module.exports.getResurrectionDate = getResurrectionDate;
 module.exports.getDateString = getDateString;
 module.exports.getNumericDateString = getNumericDateString;

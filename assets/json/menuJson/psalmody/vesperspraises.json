@@ -5,8 +5,8 @@
             "ArabicTitle": "تسبحة عشية السنوي",
             "PurchaseKeyDroid": "annualpsalmodyid",
             "PurchaseKeyIos": "annualpsalmodyidsku",
-            "hasSubBooks": true,
-            "BookPath": 15,
+            "hasSubBooks": false,
+            "BookPath": "standardVespersPraises",
             "ImageURL": "david",
             "Enabled": true
         },
@@ -15,8 +15,8 @@
             "ArabicTitle": "تسبحة عشية الكيهكي",
             "PurchaseKeyDroid": "annualpsalmodyid",
             "PurchaseKeyIos": "annualpsalmodyidsku",
-            "hasSubBooks": true,
-            "BookPath": 4,
+            "hasSubBooks": false,
+            "BookPath": "kiahkVespersPraises",
             "ImageURL": "annuciation",
             "Enabled": true
         },
@@ -26,7 +26,7 @@
             "PurchaseKeyDroid": "holypaschaid",
             "PurchaseKeyIos": "holypaschasku",
             "hasSubBooks": false,
-            "BookPath": 3,
+            "BookPath": "lentenVespersPraises",
             "ImageURL": "lent",
             "Enabled": true
         }

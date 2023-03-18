@@ -10,283 +10,339 @@
             "english": "The Introduction of the Vespers Praise"
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesTenThino",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesHymnsKiahkOde",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesAgiosOTheos",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesHymnsAdamPsaliFirstHoos",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesFirstHoos",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesFirstHoosLobsh",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesFirstHoosMelody",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesExpositionsAdamExpositionFirstHoos",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "TheotokiasSundayGospel",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "TheotokiasSundaySunday7",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesSundaySeventhExplanation",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "TheotokiasSundaySunday8",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "type": "Main",
+            "Type": "Expander",
             "path": "KiahkMidnightPraisesExpositionsExpositionShashfEnsob",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesShereNeMariaMelody",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesRashiOMariaMelody",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesOMaryMelody",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "TheotokiasSundaySunday9",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesExpositionsExpositionAfterAvmoti",
             "rule": 0,
             "visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesHymnsAdamPsaliSecondHoos",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesSecondHoos",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesSecondHoosLobsh",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesSecondHoosMelody",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesExpositionsAdamExpositionSecondHoos",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesHymnsAdamPsaliThirdHoos",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesThursdayTheotokiaMelody",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesWorshipHolyTrinity",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesThirdHoos",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesAripsalin",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesThreeHolyYouthMelody",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesTenen",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesTenoweh",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesExpositionsAdamExpositionThirdHoos",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesCommemoration",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesStAnthonyMelody",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesMaximusDometiusMelody",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesStSamuelMelody",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "KiahkMidnightPraisesExpositionsWatosExpositionCommemoration",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesFourthHoos",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الأحد",
+            "English": "Sunday Theotokia",
+            "rule": "OpenTheotokia",
+            "visible": "TheotokiaVisible",
+            "path": "sundayTheotokiaMenu"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الاثنين",
+            "English": "Monday Theotokia",
+            "rule": "OpenTheotokia",
+            "visible": "TheotokiaVisible",
+            "path": "mondayTheotokiaMenu"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الثلاثاء",
+            "English": "Tuesday Theotokia",
+            "rule": "OpenTheotokia",
+            "visible": "TheotokiaVisible",
+            "path": "tuesdayTheotokiaMenu"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الأربعاء",
+            "English": "Wednesday Theotokia",
+            "rule": "OpenTheotokia",
+            "visible": "TheotokiaVisible",
+            "path": "wednesdayTheotokiaMenu"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الخميس",
+            "English": "Thursday Theotokia",
+            "rule": "OpenTheotokia",
+            "visible": "TheotokiaVisible",
+            "path": "thursdayTheotokiaMenu"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الجمعة",
+            "English": "Friday Theotokia",
+            "rule": "OpenTheotokia",
+            "visible": "TheotokiaVisible",
+            "path": "fridayTheotokiaMenu"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم السبت",
+            "English": "Saturday Theotokia",
+            "rule": "OpenTheotokia",
+            "visible": "TheotokiaVisible",
+            "path": "saturdayTheotokiaMenu"
+        },
+        {
+            "Type": "Main",
             "path": "KiahkMidnightPraisesMelodiesConclusion",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "AgpeyaPrayersIntroToCreed",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "AgpeyaPrayersCreed",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "PraisesPraisesConclusion",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "AgpeyaPrayersHolyHoly",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "RaisingOfIncenseRaisingofIncenseConclusion",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "RaisingOfIncenseShortBlessing",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "AgpeyaPrayersOurFather",
             "rule": 0,
             "visible": 0
         },
         {
-            "type": "Main",
+            "Type": "Main",
             "path": "RaisingOfIncenseShortBlessing2",
             "rule": 0,
             "visible": 0

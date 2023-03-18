@@ -26,6 +26,7 @@ function HomepageScreen({ navigation, route }) {
           bookPath: item.BookPath,
           englishTitle: item.EnglishTitle,
           arabicTitle: item.ArabicTitle,
+          motherSource: item.BookPath,
         });
       }
     }

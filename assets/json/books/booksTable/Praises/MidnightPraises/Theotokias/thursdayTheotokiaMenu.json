@@ -5,121 +5,121 @@
             "rule": 0,
             "visible": 0,
             "Side": "Title",
-            "arabic": " التمجيد",
-            "coptic": ":do[ologia `nte }wrp",
-            "english": "Venerations"
+            "arabic": "ثيؤطوكية الخميس ",
+            "coptic": ":qe`otokia `m`P`e\\oou `m`P`tioou ",
+            "english": "The Thursday Theotokia "
         },
         {
             "Type": "Main",
-            "path": "VenerationEkesmarot",
+            "path": "TheotokiasPsalisNayroozWatos",
+            "rule": 0,
+            "visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasPsalisCrossWatos",
+            "rule": 0,
+            "visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "path": "LentPraisesMidnightPraisesHymnsSaturdayWatosPsali",
+            "rule": 0,
+            "visible": "isLenten"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasPsalisPalmSundayWatos",
+            "rule": 0,
+            "visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasPsalisRessurectionFeastWatosPsali",
+            "rule": 0,
+            "visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasThursdayThursdayPsaliOurLord",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "VenerationShereTheotoke",
+            "path": "KiahkMidnightPraisesMelodiesThursdayTheotokiaMelody",
+            "rule": 0,
+            "visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "path": "TheotokiasSaturdayWatosIntro",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "VenerationAgiosEstin",
+            "path": "TheotokiasThursdayThursday1",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday8",
+            "path": "TheotokiasThursdayThursday2",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday9",
+            "path": "TheotokiasThursdayThursday3",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "VenerationZeftePentis",
+            "path": "TheotokiasThursdayThursday4",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "VenerationAripresvevin",
+            "path": "TheotokiasThursdayThursday5",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "VenerationRashi",
+            "path": "TheotokiasThursdayThursday6",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "VenerationSenaEtsho",
+            "path": "TheotokiasThursdayThursday7",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "VenerationFaiPevlemin",
+            "path": "TheotokiasThursdayThursday8",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "VenerationAtaiParthenos",
+            "path": "TheotokiasThursdayThursday9",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "VenerationAnokNim",
+            "path": "TheotokiasThursdayThursdayLobsh",
             "rule": 0,
             "visible": 0
         },
         {
             "Type": "Main",
-            "path": "VenerationPiEhlog",
-            "rule": 0,
-            "visible": 0
-        },
-        {
-            "Type": "Main",
-            "path": "VenerationApekran",
-            "rule": 0,
-            "visible": 0
-        },
-        {
-            "Type": "Main",
-            "path": "VenerationEporo",
-            "rule": 0,
-            "visible": 0
-        },
-        {
-            "Type": "Main",
-            "path": "VenerationKhenEfran",
-            "rule": 0,
-            "visible": 0
-        },
-        {
-            "Type": "Main",
-            "path": "VenerationLetUsGather",
-            "rule": 0,
-            "visible": 0
-        },
-        {
-            "Type": "Main",
-            "path": "VenerationCrownOfGold",
-            "rule": 0,
-            "visible": 0
-        },
-        {
-            "Type": "Main",
-            "path": "VenerationWaSalam",
+            "path": "TheotokiasSaturdayWatosConclusion",
             "rule": 0,
             "visible": 0
         }
