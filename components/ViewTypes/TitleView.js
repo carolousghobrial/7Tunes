@@ -18,7 +18,7 @@ import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
 import moment from "moment";
 import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 function TitleView({ item }) {
@@ -46,10 +46,10 @@ function TitleView({ item }) {
             { fontSize: fontSize * 1.2, color: getColor("LabelColor") },
           ]}
         >
-          {item.english}
+          {item.English}
         </Text>
       </View>
-      {item.coptic !== undefined ? (
+      {item.Coptic !== undefined ? (
         <View style={styles.textView}>
           <Text
             style={[
@@ -57,7 +57,7 @@ function TitleView({ item }) {
               { fontSize: fontSize * 1.2, color: getColor("LabelColor") },
             ]}
           >
-            {item.coptic}
+            {item.Coptic}
           </Text>
         </View>
       ) : null}
@@ -68,7 +68,7 @@ function TitleView({ item }) {
             { fontSize: fontSize * 1.2, color: getColor("LabelColor") },
           ]}
         >
-          {item.arabic}
+          {item.Arabic}
         </Text>
       </View>
     </View>
@@ -106,5 +106,4 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
-
-export default TitleView;
+export default memo(TitleView);

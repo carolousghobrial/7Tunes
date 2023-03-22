@@ -17,6 +17,8 @@ import homescreenPaths from "../helpers/homescreenPaths";
 import { getCopticFastsFeasts } from "../helpers/copticMonthsHelper";
 import FeastView from "../components/homepage/feastView";
 function FullFeastsScreen() {
+  const [initialIndex, setInitialIndex] = useState(null);
+
   const flatListRef = useRef();
 
   function feastClick(item) {
@@ -27,6 +29,25 @@ function FullFeastsScreen() {
       new moment(a.start).format("YYYYMMDD") -
       new moment(b.start).format("YYYYMMDD")
   );
+  const today = moment();
+
+  // useEffect(() => {
+  //   var todayDate = moment();
+
+  //   var itemKey = "";
+  //   data.map((feast) => {
+  //     if (
+  //       (feast.end === null && feast.start.isSame(todayDate)) ||
+  //       (feast.end !== null &&
+  //         todayDate.isBetween(feast.start, feast.end, null, "[)"))
+  //     ) {
+  //       itemKey = feast.key;
+  //       return;
+  //     }
+  //   });
+  //   var ind = data.findIndex((item) => item.key === itemKey);
+  //   setInitialIndex(ind);
+  // });
 
   function renderItems(itemData) {
     return <FeastView item={itemData.item} onClick={feastClick}></FeastView>;
@@ -37,7 +58,6 @@ function FullFeastsScreen() {
         data={data}
         horizontal={false}
         ref={flatListRef}
-        initialScrollIndex={15}
         style={{ width: "100%" }}
         showsVerticalScrollIndicator={false}
         renderItem={renderItems}

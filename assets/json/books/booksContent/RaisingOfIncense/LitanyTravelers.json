@@ -4,6 +4,14 @@
   "EnglishTitle": "The Litany for the Travelers ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقال في رفع بخور باكر بعد اوشية المرضى فيما عدا ايام السبوت و الاحاد و الاعياد السيدية ",
+      "English": "Said during the morning Offering of Incense after the Litany of the Sick except for Weekends and the feasts of the Lord. "
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

@@ -1,4 +1,6 @@
 import React, { useState, useRef, useCallback, useEffect, memo } from "react";
+import { FlashList } from "@shopify/flash-list";
+
 import {
   StyleSheet,
   useWindowDimensions,
@@ -8,9 +10,11 @@ import {
   Animated,
   Dimensions,
   Button,
+  ActivityIndicator,
   Pressable,
   StatusBar,
 } from "react-native";
+
 import GestureRecognizer, {
   swipeDirections,
 } from "react-native-swipe-gestures";
@@ -45,7 +49,9 @@ function BookScreen({ navigation, route }) {
   const [index, setIndex] = useState(0);
   const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
   const [newIndex, setnewIndex] = useState(null);
+  const [initialIndex, setInitialIndex] = useState(null);
   const [scrollToIndex, setscrollToIndex] = useState(null);
+  const [shouldReload, setShouldReload] = useState(false);
 
   const motherSource = route.params.motherSource;
   const bookPath = route.params.bookPath;
@@ -58,6 +64,7 @@ function BookScreen({ navigation, route }) {
   const [copticTitle, setcopticTitle] = useState(data[0].part.coptic);
   const [arabicTitle, setarabicTitle] = useState(data[0].part.arabic);
   const [visibleIndexes, setVisibleIndexes] = useState([]);
+  const [isFlatListReady, setIsFlatListReady] = useState(false);
 
   const { WIDTH, HEIGHT } = useWindowDimensions();
 
@@ -69,7 +76,7 @@ function BookScreen({ navigation, route }) {
 
   // const handleScroll = (event) => {
   //   const position = event.nativeEvent;
-  //   console.log(position);
+  //
   // };
   const onViewableItemsChanged = React.useCallback(({ viewableItems }) => {
     try {
@@ -101,6 +108,7 @@ function BookScreen({ navigation, route }) {
     if (scrollnewIndex <= 0) {
       scrollnewIndex = 0;
     }
+
     setIndex(scrollnewIndex);
   }
   async function scrollToKey(key) {
@@ -109,30 +117,25 @@ function BookScreen({ navigation, route }) {
     setenglishTitle(data[key].EnglishTitle);
     setcopticTitle(data[key].CopticTitle);
     setarabicTitle(data[key].ArabicTitle);
-    flatListRef.current.scrollToIndex({
-      index: key,
-      animated: false,
-    });
+    setscrollToIndex(key);
+    setShouldReload(true);
   }
 
   useEffect(() => {
-    StatusBar.setHidden(NavbarVisibility);
-    navigation.setOptions({
-      headerShown: NavbarVisibility,
-      header: () => (
-        <CustomHeader
-          navigation={navigation}
-          english={englishTitle}
-          coptic={copticTitle}
-          arabic={arabicTitle}
-        />
-      ),
-    });
-  }, [NavbarVisibility]);
+    if (shouldReload) {
+      setInitialIndex(scrollToIndex);
+
+      setShouldReload(false);
+    }
+  });
   function hideHeader() {
     setNavbarVisibility(!NavbarVisibility);
   }
-
+  const getItemLayout = (data, index) => ({
+    length: ITEM_HEIGHT,
+    offset: ITEM_HEIGHT * index,
+    index,
+  });
   function renderItems({ item }) {
     let content = {};
     switch (item.part.Type) {
@@ -165,7 +168,7 @@ function BookScreen({ navigation, route }) {
         return <Text>Default</Text>;
         break;
     }
-    return <Pressable onPress={hideHeader}>{content}</Pressable>;
+    return content;
   }
 
   return (
@@ -174,55 +177,32 @@ function BookScreen({ navigation, route }) {
     //   onSwipeUp={scrollDown}
     //   onSwipeDown={scrollUp}
     // >
-    <View style={[styles.container, { backgroundColor: pageBackgroundColor }]}>
-      <FlatList
-        ref={flatListRef}
-        onViewableItemsChanged={onViewableItemsChanged}
-        showsVerticalScrollIndicator={false}
-        data={data}
-        onScrollToIndexFailed={(error) => {
-          flatListRef.current.scrollToOffset({
-            offset: error.averageItemLength * error.index,
-            animated: false,
-          });
-          setTimeout(() => {
-            if (flatListRef !== null) {
-              flatListRef.current.scrollToIndex({
-                index: error.index,
-                animated: false,
-              });
-            }
-          }, 10);
-        }}
-        snapToAlignment="start"
-        decelerationRate={"fast"}
-        // onScroll={({ nativeEvent }) => {
-        //   const { contentOffset } = nativeEvent;
-        //   const index = Math.round(contentOffset.y / 100); // Calculate the current index based on the snap interval
-        //   const snapInterval = index === 0 ? 100 : index * 150; // Adjust the snap interval based on the current index
-        //   flatListRef.current.scrollToIndex({
-        //     index,
-        //     viewPosition: 0.5,
-        //   }); // Scroll to the current index with the updated snap interval
-        // }}
-        disableIntervalMomentum={true}
-        removeClippedSubviews={true}
-        renderItem={renderItems}
-        keyExtractor={(item, index) => {
-          return item.key;
-        }}
-      />
-
-      {NavbarVisibility && (
-        <BottomBar
-          navigation={navigation}
-          dataArray={menuData}
-          initialKey={newIndex}
-          scrollToKey={scrollToKey}
-        />
+    <View>
+      {shouldReload ? (
+        <ActivityIndicator />
+      ) : (
+        <View style={{ backgroundColor: pageBackgroundColor }}>
+          <BottomBar
+            navigation={navigation}
+            dataArray={menuData}
+            initialKey={newIndex}
+            scrollToKey={scrollToKey}
+          />
+          <FlatList
+            ref={flatListRef}
+            onViewableItemsChanged={onViewableItemsChanged}
+            showsVerticalScrollIndicator={false}
+            data={data}
+            onScrollToIndexFailed={(error) => {}}
+            initialScrollIndex={initialIndex}
+            renderItem={renderItems}
+            keyExtractor={(item, index) => {
+              return item.key;
+            }}
+          />
+        </View>
       )}
     </View>
-    // </GestureRecognizer>
   );
 }
 

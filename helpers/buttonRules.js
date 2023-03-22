@@ -9,7 +9,15 @@ import {
 function ButtonRules(item, motherSource, navigation) {
   function OpenTheotokia() {
     navigation.push("BookScreen", {
-      bookPath: item.path,
+      bookPath: item.Path,
+      englishTitle: item.English,
+      arabicTitle: item.Arabic,
+      motherSource: motherSource,
+    });
+  }
+  function OpenDoxologies() {
+    navigation.push("BookScreen", {
+      bookPath: item.Path,
       englishTitle: item.English,
       arabicTitle: item.Arabic,
       motherSource: motherSource,
@@ -17,6 +25,7 @@ function ButtonRules(item, motherSource, navigation) {
   }
   return {
     OpenTheotokia: OpenTheotokia,
+    OpenDoxologies: OpenDoxologies,
   };
 }
 

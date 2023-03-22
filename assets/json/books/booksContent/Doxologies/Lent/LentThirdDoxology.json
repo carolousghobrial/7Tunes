@@ -1,9 +1,17 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "public static string ArabicText = \"يقال في سبوت و أحادالصوم الكبير فقط  .",
-  "EnglishTitle": "public static string EnglishText = \"Chanted on Saturday and Sunday of the Great Lent.",
+  "ArabicTitle": "ذكصولوجية ثالثة الصوم الكبير",
+  "EnglishTitle": "First Lent Doxology",
   "CopticTitle": "Amwini `anau `epenCwthr",
   "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقال في سبوت و أحادالصوم الكبير فقط  .",
+      "English": "Chanted on Saturdays and Sundays of the Great Lent."
+    },
     {
       "Type": "Base",
       "Rule": 0,

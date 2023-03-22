@@ -4,6 +4,14 @@
   "EnglishTitle": "The Litany for the Departed ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقال في رفع بخور باكر يوم السبت فقط  . ",
+      "English": "Said during all Vesper's Prayers and during Matins only on Saturday Liturgies. "
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

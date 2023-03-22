@@ -1,22 +1,68 @@
-import { View, Switch, StyleSheet, Text, Image, Pressable } from "react-native";
+import {
+  View,
+  Switch,
+  Button,
+  StyleSheet,
+  Text,
+  Image,
+  Platform,
+  Pressable,
+} from "react-native";
+import moment from "moment";
+
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors.js";
+import DateTimePicker from "@react-native-community/datetimepicker";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
-import { changeTodayPrayer } from "../../stores/redux/settings.js";
+import {
+  changeTodayPrayer,
+  setTimeTransition,
+} from "../../stores/redux/settings.js";
 
 function TodaysPrayer() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
+  const timeTransition = useSelector((state) => state.settings.timeTransition);
   const dispatch = useDispatch();
+  const [time, setTime] = useState(new Date(timeTransition));
+  const [showPicker, setShowPicker] = useState(false);
+  const isAndroid = Platform.OS === "ios" ? false : true;
+  const handleTimeChange = (event, selectedTime) => {
+    const currentTime = selectedTime || time;
+    setShowPicker(Platform.OS === "ios");
+    dispatch(setTimeTransition({ timeTransition: currentTime }));
+    setTime(currentTime);
+  };
+
+  const showTimeTimePicker = () => {
+    setShowPicker(true);
+  };
+
+  const hideTimeTimePicker = () => {
+    setShowPicker(false);
+  };
+
   const toggleSwitch = () => dispatch(changeTodayPrayer());
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
       <View style={styles.switchView}>
         <View style={styles.titleView}>
-          <Text style={[styles.title]}>{getLanguageValue("todayprayer")}</Text>
-          <Text style={[styles.description]}>
+          <Text
+            style={[
+              styles.title,
+              { fontSize: fontSize * 1.3, color: getColor("PrimaryColor") },
+            ]}
+          >
+            {getLanguageValue("todayprayer")}
+          </Text>
+          <Text
+            style={[
+              styles.description,
+              { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") },
+            ]}
+          >
             {getLanguageValue("todayprayerdescription")}
           </Text>
         </View>
@@ -35,6 +81,32 @@ function TodaysPrayer() {
             thumbColor="white"
           />
         </View>
+      </View>
+      <View>
+        {isAndroid ? (
+          <View>
+            <Button onPress={showTimeTimePicker} title="Select time" />
+            {showPicker && (
+              <DateTimePicker
+                value={time}
+                mode="time"
+                is24Hour={false}
+                display="clock"
+                minuteInterval={30}
+                onChange={handleTimeChange}
+              />
+            )}
+          </View>
+        ) : (
+          <DateTimePicker
+            value={time}
+            mode="time"
+            is24Hour={false}
+            display="clock"
+            minuteInterval={30}
+            onChange={handleTimeChange}
+          />
+        )}
       </View>
     </View>
   );

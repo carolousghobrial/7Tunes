@@ -1,0 +1,189 @@
+{
+    "Main": [
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "باكر",
+            "Coptic": ":do[ologia `nte }wrp",
+            "English": "Matins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseEleisonEmas",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseThanksgivingPrayer",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbals",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyDeparted",
+            "Rule": 0,
+            "Visible": "showLitanyOfDeparted"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanySick",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyTravelers",
+            "Rule": 0,
+            "Visible": "showLitanyOfTravelers"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyOblations",
+            "Rule": 0,
+            "Visible": "showLitanyOfOblations"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersGraciouslyOLord",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersTrisagion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "الذكصولوجيات",
+            "English": "The Doxologies",
+            "Rule": "OpenDoxologies",
+            "Visible": true,
+            "Path": "doxologies"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersIntroToCreed",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersCreed",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseEfnotiNaiNan",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyOfGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyPeace",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyPope",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyPlace",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyAir",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyWaters",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanySeeds",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseRaiseThemToTheirMeasure",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyAssemblies",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseAbsolution",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing2",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

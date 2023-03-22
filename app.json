@@ -4,12 +4,15 @@
     "slug": "7Tunes",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images//logofinal.png",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/logofinal.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F5F5DE"
+    },
+    "extra": {
+      "supportsRTL": true
     },
     "plugins": [
       [

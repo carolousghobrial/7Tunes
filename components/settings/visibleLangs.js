@@ -53,7 +53,6 @@ function VisibleLangs() {
       }
       return val;
     });
-    // console.log(updatedArray);
     setLangArray(updatedArray); // set the state to the updated copy
   }
   function renderItems(itemData) {

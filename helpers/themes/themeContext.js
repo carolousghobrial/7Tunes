@@ -1,6 +1,6 @@
 const ThemeContext = createContext({
   mode: defaultMode,
-  setMode: (mode) => console.log(mode),
+  setMode: (mode) => ,
 });
 
 export const useTheme = () => React.useContext(ThemeContext);

@@ -24,6 +24,7 @@ function ApplicationLanguage() {
 
   const wrapperStyle = {
     flexDirection: flexDirection,
+    color: getColor("PrimaryColor"),
   };
   const languages = [
     { key: "ara", text: getLanguageValue("arabic") },
@@ -35,22 +36,54 @@ function ApplicationLanguage() {
     }
   }
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
       <View style={styles.titleView}>
-        <Text style={styles.title}>{getLanguageValue("applanguage")}</Text>
-        <Text style={[styles.description, { fontSize: fontSize / 1.7 }]}>
+        <Text
+          style={[
+            styles.title,
+            { fontSize: fontSize * 1.3, color: getColor("PrimaryColor") },
+          ]}
+        >
+          {getLanguageValue("applanguage")}
+        </Text>
+        <Text
+          style={[
+            styles.description,
+            { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") },
+          ]}
+        >
           {getLanguageValue("applanguagedescription")}
         </Text>
       </View>
-      <View style={[styles.wrapper, wrapperStyle]}>
+      <View
+        style={[
+          styles.wrapper,
+          wrapperStyle,
+          { color: getColor("PrimaryColor") },
+        ]}
+      >
         {languages.map((lang) => (
           <View key={lang.key} style={styles.language}>
             <Pressable onPress={() => changeLang(lang.key)}>
-              <View style={styles.outter}>
-                {mylanguage === lang.key && <View style={styles.inner} />}
+              <View
+                style={[
+                  styles.outter,
+                  { borderColor: getColor("PrimaryColor") },
+                ]}
+              >
+                {mylanguage === lang.key && (
+                  <View
+                    style={[
+                      styles.inner,
+                      { backgroundColor: getColor("PrimaryColor") },
+                    ]}
+                  />
+                )}
               </View>
 
-              <Text style={[styles.lang]}>{lang.text}</Text>
+              <Text style={[styles.lang, { color: getColor("PrimaryColor") }]}>
+                {lang.text}
+              </Text>
             </Pressable>
           </View>
         ))}
@@ -64,7 +97,7 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10,
     borderRadius: 10,
-    flexDirection: "row",
+    flexDirection: "row-reverse",
     borderWidth: 5,
     backgroundColor: "rgba(52, 52, 52, 0.2)",
   },
@@ -84,14 +117,13 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   title: {
-    fontSize: 24,
     fontFamily: "english-font",
   },
   description: {
-    fontSize: 15,
     fontFamily: "english-font",
     textAlign: "justify",
     color: "gray",
+    fontStyle: "italic",
   },
   lang: {
     textTransform: "capitalize",
@@ -117,7 +149,6 @@ const styles = StyleSheet.create({
   inner: {
     width: 15,
     height: 15,
-    backgroundColor: "black",
     padding: 4,
     borderRadius: 10,
   },
@@ -125,7 +156,6 @@ const styles = StyleSheet.create({
     width: 20,
     height: 20,
     borderWidth: 3,
-    borderColor: "black",
     padding: 2,
     borderRadius: 15,
     justifyContent: "center",

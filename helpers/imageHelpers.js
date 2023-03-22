@@ -63,7 +63,7 @@ const images = {
   COPTIC_NEW_YEAR: require("../assets/images/FeastsImages/COPTIC_NEW_YEAR.jpg"),
   FEAST_OF_CROSS: require("../assets/images/FeastsImages/FEAST_OF_CROSS.jpg"),
   FEAST_OF_CROSS_3: require("../assets/images/FeastsImages/FEAST_OF_CROSS.jpg"),
-  GREAT_LENT: require("../assets/images/FeastsImages/NATIVITY.jpg"),
+  GREAT_LENT: require("../assets/images/lent.jpg"),
   FAST_OF_APOSTLES: require("../assets/images/FeastsImages/FAST_OF_APOSTLES.jpg"),
   FAST_STMARY: require("../assets/images/FeastsImages/ASSUMPTION_STMARY.jpg"),
   NATIVITY_FAST: require("../assets/images/FeastsImages/NATIVITY.jpg"),

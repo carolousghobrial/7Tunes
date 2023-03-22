@@ -1,187 +1,397 @@
 {
-    "main": [
+    "Main": [
         {
             "Type": "Title",
-            "rule": 0,
-            "visible": 0,
+            "Rule": 0,
+            "Visible": true,
             "Side": "Title",
-            "arabic": "ثيؤطوكية الأحد ",
-            "coptic": ":qe`otokia `m`P`e\\oou `n:kuriakh",
-            "english": "The Sunday Theotokia "
+            "Arabic": "ثيؤطوكية الأحد ",
+            "Coptic": ":qe`otokia `m`P`e\\oou `n:kuriakh",
+            "English": "The Sunday Theotokia "
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisNayroozAdam",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "TheotokiasPsalisNayroozAdam",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisCrossAdam",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "TheotokiasPsalisCrossAdam",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesMidnightPraisesHymnsAdamPsali",
-            "rule": 0,
-            "visible": "isLenten"
+            "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliSundayTheotokia",
+            "Rule": 0,
+            "Visible": "isLenten"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisPalmSundayAdam",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "LentPraisesMidnightPraisesHymnsAdamPsali",
+            "Rule": 0,
+            "Visible": "isLenten"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisRessurectionFeastAdamPsali",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "TheotokiasPsalisPalmSundayAdam",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "KiahkMidnightPraisesMelodiesSundayTheotokiaMelody",
-            "rule": 0,
-            "visible": "isKiahk"
+            "Path": "TheotokiasPsalisRessurectionFeastAdamPsali",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundayAinahty",
-            "rule": 0,
-            "visible": "isStandard"
+            "Path": "TheotokiasPsalisAscensionPeiodAdam",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundayAikoty",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasPsalisPentecostAdam",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundayAdamIntro",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasPsalisApostlesAdam",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday1",
-            "rule": 0,
-            "visible": "isNOTVespersPraises"
+            "Path": "TheotokiasSundayAinahty",
+            "Rule": 0,
+            "Visible": "isStandard"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday2",
-            "rule": 0,
-            "visible": "isNOTVespersPraises"
+            "Path": "KiahkMidnightPraisesMelodiesAikotiMelody",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday3",
-            "rule": 0,
-            "visible": "isNOTVespersPraises"
+            "Path": "TheotokiasSundayAikoty",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday4",
-            "rule": 0,
-            "visible": "isNOTVespersPraises"
+            "Path": "KiahkMidnightPraisesMelodiesSundayTheotokiaMelody",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday5",
-            "rule": 0,
-            "visible": "isNOTVespersPraises"
+            "Path": "TheotokiasSundayAdamIntro",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday6",
-            "rule": 0,
-            "visible": "isNOTVespersPraises"
+            "Path": "TheotokiasSundaySunday1",
+            "Rule": 0,
+            "Visible": "isNOTVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundayGospel",
-            "rule": 0,
-            "visible": "isNOTVespersPraises"
+            "Path": "KiahkMidnightPraisesMelodiesSundayFirstExplanation",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday7",
-            "rule": 0,
-            "visible": "isNOTVespersPraises"
+            "Path": "KiahkMidnightPraisesMelodiesSundayFirstGospel",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday8",
-            "rule": 0,
-            "visible": "isNOTVespersPraises"
+            "Path": "TheotokiasSundaySunday2",
+            "Rule": 0,
+            "Visible": "isNOTVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday9",
-            "rule": 0,
-            "visible": "isNOTVespersPraises"
+            "Path": "KiahkMidnightPraisesMelodiesSundaySecondExplanation",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday10",
-            "rule": 0,
-            "visible": "isNOTVespersPraises"
+            "Path": "KiahkMidnightPraisesMelodiesSundaySecondGospel",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday11",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasSundaySunday3",
+            "Rule": 0,
+            "Visible": "isNOTVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday12",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkMidnightPraisesMelodiesSundayThirdExplanation",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday13",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkMidnightPraisesMelodiesSundayThirdGospel",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday14",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasSundaySunday4",
+            "Rule": 0,
+            "Visible": "isNOTVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday15",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkMidnightPraisesMelodiesSundayFourthExplanation",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday16",
-            "rule": 0,
-            "visible": "TennavRule"
+            "Path": "KiahkMidnightPraisesMelodiesSundayFourthGospel",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday17",
-            "rule": 0,
-            "visible": "TennavRule"
+            "Path": "TheotokiasSundaySunday5",
+            "Rule": 0,
+            "Visible": "isNOTVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday18",
-            "rule": 0,
-            "visible": "TennavRule"
+            "Path": "KiahkMidnightPraisesMelodiesSundayFifthExplanation",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundayAdamConclusion",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkMidnightPraisesMelodiesSundayFifthGospel",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday6",
+            "Rule": 0,
+            "Visible": "isNOTVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesSundaySixthExplanation",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundayGospel",
+            "Rule": 0,
+            "Visible": "isNOTVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday7",
+            "Rule": 0,
+            "Visible": "isNOTVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesSundaySeventhExplanation",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "LentPraisesMidnightPraisesHymnsWatosPsali8thSunday",
+            "Rule": 0,
+            "Visible": "isLenten"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday8",
+            "Rule": 0,
+            "Visible": "isNOTVespersPraises"
+        },
+        {
+            "Type": "Expander",
+            "Path": "KiahkMidnightPraisesExpositionsExpositionShashfEnsob",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesShereNeMariaMelody",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesRashiOMariaMelody",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesOMaryMelody",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesODaughterOfDavid",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday9",
+            "Rule": 0,
+            "Visible": "isNOTVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesExpositionsExpositionAfterAvmoti",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesHymnsAinahosKhenOgom",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesIPraiseTheVirgin",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday10",
+            "Rule": 0,
+            "Visible": "isNOTVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday11",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday12",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday13",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday14",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday15",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday16",
+            "Rule": 0,
+            "Visible": "TennavRule"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday17",
+            "Rule": 0,
+            "Visible": "TennavRule"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday18",
+            "Rule": 0,
+            "Visible": "TennavRule"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesExpositionsExpositionOfTheLaborers",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "LentPraisesVespersPraisesExpositionsSunday1",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "LentPraisesVespersPraisesExpositionsSunday2",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "LentPraisesVespersPraisesExpositionsSunday3",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "LentPraisesVespersPraisesExpositionsSunday4",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "LentPraisesVespersPraisesExpositionsSunday5",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "LentPraisesVespersPraisesExpositionsSunday6",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundayAdamConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesYourMercies",
+            "Rule": 0,
+            "Visible": "isKiahk"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesExpositionsExpositionNeknai",
+            "Rule": 0,
+            "Visible": "isKiahk"
         }
     ]
 }

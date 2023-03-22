@@ -11,6 +11,7 @@ import {
 } from "../../helpers/SettingsHelpers.js";
 import React, { useState, useEffect } from "react";
 import "moment/locale/ar";
+import images from "../../helpers/imageHelpers";
 
 function TopBoxView() {
   const [seasonText, setseasonText] = useState("");
@@ -69,23 +70,19 @@ function TopBoxView() {
       setDate(mydate);
     } else {
       var mydate = moment().locale("ar").format("LLLL");
-      console.log(mydate);
       setDate(mydate);
     }
   }
 
   return (
     <View style={styles.bookView}>
-      <Image
-        style={styles.image}
-        source={require("../../assets/images/coptic.png")}
-      />
+      <Image style={styles.image} source={images[currentSeason.key]} />
       <View style={styles.textView}>
         <Text style={styles.text}>
           {getCopticDateString(
-            new Date().getFullYear(),
-            new Date().getMonth(),
-            new Date().getDate()
+            currentSeason.copticYear,
+            currentSeason.copticMonth,
+            currentSeason.copticDay
           )}
         </Text>
         <Text style={styles.text}>{moment().format("dddd, MMMM Do YYYY")}</Text>

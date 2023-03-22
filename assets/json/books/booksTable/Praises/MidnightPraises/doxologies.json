@@ -1,0 +1,331 @@
+{
+    "Main": [
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "الذكصولوجيات",
+            "Coptic": ":do[ologia",
+            "English": "The Doxologies"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsNayrooz",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsCross",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesKiahkKiahkFirstDoxology",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesKiahkKiahkSecondDoxology",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesKiahkKiahkThirdDoxology",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesKiahkKiahkFourthDoxology",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesKiahkKiahkFifthDoxology",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesKiahkKiahkSixthDoxology",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsNativity",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsTheophany",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesJonahTheProphet",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesLentLentFirstDoxology",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesLentLentSecondDoxology",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesLentLentThirdDoxology",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesLentLentFourthDoxology",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesLentLentFifthDoxology",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsAnnunciation",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsLazarusSaturday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsRessurection",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsRessurection2",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsAscension",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsPentecost",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStMaryVespers",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStMary",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStMaryMatins",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsArchangelMichaelRessurection",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesArchangelMichael",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesArchangelGabriel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesHeavenlies",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStJohntheBaptist",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStJohntheBaptist1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStPeterStPaul",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesTheApostles",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStMark",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStStephen",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStGeorge",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStPhilopater",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStMina",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStAbanoub",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStDemiana",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStMarina",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStAnthony",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStPaulHermit",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStMoses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStPishoi",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStRewis",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStJohnTheShort",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStKaras",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesPopeKirollos",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesPatriarch",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesConclusionPartOnAdamDays",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

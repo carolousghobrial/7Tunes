@@ -5,7 +5,7 @@ import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
 import moment from "moment";
 import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   getLanguageValue,

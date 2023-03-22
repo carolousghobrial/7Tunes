@@ -1,0 +1,106 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "تبكيت يهوذا",
+  "EnglishTitle": "Judas' Reprimand ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(يا يهوذا)6 مخالف الناموس.",
+      "Coptic": "`( Ioudac ) ,?  `oparanomoc >",
+      "English": "Judas (6) who has broken the law.",
+      "Arabiccoptic": "( يوداس ) 6 أو بارانوموس .",
+      "Englishcoptic": "Youdas (6) oparanomos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "بالفضة بعت المسيح , لليهود مخالفى الناموس. فأما مخالفو الناموس , أخذوا المسيح. سَمَّرُوهُ على الصليب , فى موضع الإقرانيون.",
+      "Coptic": "Arguri`w epraqhcac `Xricton tic . Ioudic paranomic . `Ide paranomi `epilabou meni ton `Xricton > `ctaurw `proc `hlwcan en tw `krani`w tonw.",
+      "English": "With silver, you have sold Christ to the Jews, who have broken the law. The law breakers took Christ and nailed Him on the Cross at the place of Cranium.",
+      "Arabiccoptic": "أرجيريو إبراثى ساس إخريستون تيس. يوذيس بارانوميس. إيذى بارانومى إبى لافو مينى طون إخريستون. إسطافرو إبروس إيلوسان إن طو إكرانيو طونو.",
+      "Englishcoptic": "Argerio eprathy sas ekhriston tees. youzis paranomis. eize paranomy epi lavo meni ton ekhriston. estavro epros eilosan en to ekranio tono."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(يا يهوذا)6 مخالف الناموس.",
+      "Coptic": "`( Ioudac ) ,?  `oparanomoc >",
+      "English": "Judas (6) who has broken the law.",
+      "Arabiccoptic": "( يوداس ) 6 أو بارانوموس .",
+      "Englishcoptic": "Youdas (6) oparanomos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "باراباس اللصُ المُدان أطلقوه , والسيدُ الديان صلبوه.",
+      "Coptic": "Barabban ton kata`kriton `apelucan auton ton `krithn > ke decpothn ectaurwcan.",
+      "English": "Barabbas the condemned thief was set free and the Master, the Judge they crucified.",
+      "Arabiccoptic": "بارابان طون كاطا, إكريطون أبيليسان. أفطون طون إكريتين , كى ذيس بوتين إسطافروسان.",
+      "Englishcoptic": "Paraban ton kata, ekriton apilisan. afton ton ekriteen, ke zees poteen estavrosan."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فى جَنْبِكَ وضعوا حربة , ومثل لصٍّ سَمَّرُوكَ على خشبة. وَوَضَعُوكَ فى قبرٍ , يامَنْ أقامَ لعازر من القبرِ.",
+      "Coptic": "Ic thn `pleuran lonxhn `epiq`enthc > ke wc lhcthn [ulw `proc`hlwcan `eqhkan > en `mnhmi`w `o ektou tavou `egirac ton Lazaron",
+      "English": "They thrust a spear in Your side, and as a thief they nailed You on the Cross. They laid You in a tomb, O You, who raised Lazarus from the tomb.",
+      "Arabiccoptic": "يس تين إبليفران , لونشين إبيث إنتيس. كى أوس ليستين إكسيلو , إبروس إيلوسان إثى كان. إن إمنى ميو أو إكتو طافو , إجيراستون لازارون.",
+      "Englishcoptic": "Yes teen eplifran, lonshin epith entees. ke os listeen exilo, epros e-losan ethikan. en emne mio o ekto tavo, egiraston lazaron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "(يا يهوذا)6 مخالف الناموس.",
+      "Coptic": "`( Ioudac ) ,?  `oparanomoc >",
+      "English": "Judas (6) who has broken the law.",
+      "Arabiccoptic": "( يوداس ) 6 أو بارانوموس .",
+      "Englishcoptic": "Youdas (6) oparanomos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه كما مَكَثَ يونان , ثلاثة أيام فى بطن الحوت. هكذا مخلصنا أقام ثلاثة أيام , بعدَ أن ماتَ ختموا القبرَ.",
+      "Coptic": "Wcper gar Iwnac `tric`hmerac `eminen > enkili`a tou khtouc outwc ke c/w/r/ `hmwn > `tric `hmerac `eminen > meta twn teqnkotwnton tavon ec vragicanto.",
+      "English": "For as Jonah stayed three days inside the whale's belly, also our Savior stayed three days. After He died, they sealed the tomb.",
+      "Arabiccoptic": "أوسبير غار يوناس إتريس إيميراس , إمى نين إن كيليئا طو كيتوس. أوطوس كى سوتير إيمون , إتريس إيميراس إمى نين. ميطا طون تيثن كوطون طون , طافون إس إفراجي سانطو.",
+      "Englishcoptic": "O sper ghar Younas etrees eimiras, emi nen en kily-a to kitos. o tos ke soteer eimon, etrees eimiras emi nen. meta ton tithen ko ton ton, tavon es efragy santo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "(يا يهوذا)6 مخالف الناموس.",
+      "Coptic": "`( Ioudac ) ,?  `oparanomoc >",
+      "English": "Judas (6) who has broken the law.",
+      "Arabiccoptic": "( يوداس ) 6 أو بارانوموس .",
+      "Englishcoptic": "Youdas (6) oparanomos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بالحقيقة قامَ والجندُ لَمْ يعلموا , أنه حقاً نهض مخلصُ العالم. الذى تألمَ وقامَ لأجلِ جنسنا , ياربُ المجدُ لَكَ آمين.",
+      "Coptic": "Ontwc `anecth ke ouk egnwcan ctrati`a `wte > `ontwcegerqic `o c/w/r/ tou kocmou `o paqwn ke `anactac di`a tou genoc `hmwn Kuri`e do[aci > `Amhn.",
+      "English": "Truly He rose but the soldiers were not aware that truly the Savior of the world has risen. He who suffered and died for our sake, O Lord, glory be to You. Amen.",
+      "Arabiccoptic": "أونطوس أنيستى كى أوك إغنوسان , إستراتيا أوتى. أوندوس إيجيرثيس أو سوتير, طو كوزمو أوباثون. كى أناسطاس ذيا طو جينوس إيمون , كيريى ذوكساسى أمين.",
+      "Englishcoptic": "Ontos anesty ke ok eghnosan, estratia o-ti. ondos eigir thees o soteer, to kozmo o pathon. ke anastas zia to genos eimon, kyrie zoxasy Amen."
+    }
+  ]
+}

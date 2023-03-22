@@ -17,19 +17,30 @@ const settingsSlice = createSlice({
     arabic: true,
     copticenglish: false,
     copticarabic: false,
+    timeTransition: new Date().setHours(18, 0, 0),
     currentSeason: {
       key: "STANDARD",
       week: moment().week(),
       dayOfWeek: moment().day(),
       isWatos: true,
-      isFast: false,
+      type: "regular",
       start: moment(),
       end: moment(),
       major: true,
       plantsSeason: "air",
+      copticMonth: "",
+      copticDay: "",
+      copticYear: "",
     },
   },
   reducers: {
+    setTimeTransition: (state, action) => {
+      const time = action.payload.timeTransition;
+      return {
+        ...state,
+        timeTransition: time,
+      };
+    },
     changeLanguage: (state, action) => {
       const key = action.payload.appLanguage;
 
@@ -124,6 +135,7 @@ const settingsSlice = createSlice({
   },
 });
 export const changeLanguage = settingsSlice.actions.changeLanguage;
+export const setTimeTransition = settingsSlice.actions.setTimeTransition;
 export const changeDarkMode = settingsSlice.actions.changeDarkMode;
 export const changeFontSize = settingsSlice.actions.changeFontSize;
 export const changeTodayPrayer = settingsSlice.actions.changeTodayPrayer;

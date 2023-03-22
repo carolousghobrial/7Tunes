@@ -44,7 +44,6 @@ function BaseView({ item }) {
       textColor = getColor("NorthColor");
       break;
     default:
-      console.log(item.Side);
       break;
   }
   const englishVisible = useSelector((state) => state.settings.english);

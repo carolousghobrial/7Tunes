@@ -6,7 +6,7 @@
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
-            "BookPath": 15,
+            "BookPath": "vespers",
             "ImageURL": "censer",
             "Enabled": true
         },
@@ -16,7 +16,7 @@
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
-            "BookPath": 4,
+            "BookPath": "matins",
             "ImageURL": "censer",
             "Enabled": true
         },

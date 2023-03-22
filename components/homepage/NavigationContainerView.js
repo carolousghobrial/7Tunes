@@ -32,7 +32,9 @@ import {
   getCurrentSeason,
   isInFast,
   isWatos,
+  getTodayDate,
   plantsSeason,
+  getCopticDate,
 } from "../../helpers/copticMonthsHelper";
 import moment from "moment";
 import Test from "../settings/test.js";
@@ -48,7 +50,7 @@ function NavigationContainerView() {
 
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const darkMode = useSelector((state) => state.settings.darkMode);
-
+  const timeTransition = useSelector((state) => state.settings.timeTransition);
   let activeColors = darkMode === false ? Colors["light"] : Colors["dark"];
   function getWeeksSinceStartDate(startDate) {
     const now = new Date(); // Get the current date
@@ -58,17 +60,26 @@ function NavigationContainerView() {
     return diffInWeeks;
   }
   function setCurrentSeason() {
-    const mySeason = getCurrentSeason()[0];
+    const mySeason = getCurrentSeason(timeTransition)[0];
+    const currentDate = new Date(getTodayDate(timeTransition));
+    const copticDate = getCopticDate(
+      currentDate.getFullYear(),
+      currentDate.getMonth(),
+      currentDate.getDate()
+    );
     var mycurrentSeason = {
       key: mySeason.key,
       start: mySeason.start,
-      end: mySeason.start,
+      end: mySeason.end,
       major: mySeason.major,
       week: getWeeksSinceStartDate(new Date(mySeason.start)),
-      dayOfWeek: moment().day(),
+      dayOfWeek: currentDate.getDay(),
       isWatos: isWatos(),
-      isFast: isInFast(),
+      type: mySeason.type,
       plantsSeason: plantsSeason(),
+      copticMonth: copticDate.month,
+      copticDay: copticDate.day,
+      copticYear: copticDate.year,
     };
     dispatch(setSeason({ currentSeason: mycurrentSeason }));
   }

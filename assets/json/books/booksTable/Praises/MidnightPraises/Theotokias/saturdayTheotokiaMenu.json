@@ -1,517 +1,535 @@
 {
-    "main": [
+    "Main": [
         {
             "Type": "Title",
-            "rule": 0,
-            "visible": 0,
+            "Rule": 0,
+            "Visible": true,
             "Side": "Title",
-            "arabic": "ثيؤطوكية الأربعاء ",
-            "coptic": ":qe`otokia `m`P`e\\oou `m`P`ftoou",
-            "english": "The Saturday Theotokia "
+            "Arabic": "ثيؤطوكية السبت ",
+            "Coptic": "};e`otokia `m`P`ehoou `mPicabbaton",
+            "English": "The Saturday Theotokia "
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisNayroozWatos",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "TheotokiasPsalisNayroozWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisCrossWatos",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "TheotokiasPsalisCrossWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesMidnightPraisesHymnsSaturdayWatosPsali",
-            "rule": 0,
-            "visible": "isLenten"
+            "Path": "LentPraisesMidnightPraisesHymnsSaturdayWatosPsali",
+            "Rule": 0,
+            "Visible": "isLenten"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisPalmSundayWatos",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "TheotokiasPsalisPalmSundayWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisRessurectionFeastWatosPsali",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "TheotokiasPsalisRessurectionFeastWatosPsali",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturdayPsaliStMary",
-            "rule": 0,
-            "visible": "isStandardVespersPraises"
+            "Path": "TheotokiasPsalisAscensionPeriodWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesHymnsSaturdayWatosPsali",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasPsalisPentecostWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesMidnightPraisesHymnsSaturdayWatosPsali",
-            "rule": 0,
-            "visible": "isLentenVespersPraises"
+            "Path": "TheotokiasPsalisApostlesWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturdayPsaliOurLord",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasSaturdaySaturdayPsaliStMary",
+            "Rule": 0,
+            "Visible": "isStandardVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkMidnightPraisesMelodiesSaturdayTheotokiaMelody",
-            "rule": 0,
-            "visible": "isKiahk"
+            "Path": "KiahkVespersPraisesHymnsSaturdayWatosPsali",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesMelodyWatosPsali",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "LentPraisesMidnightPraisesHymnsSaturdayWatosPsali",
+            "Rule": 0,
+            "Visible": "isLentenVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdayWatosIntro",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasSaturdaySaturdayPsaliOurLord",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturday1",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkMidnightPraisesMelodiesSaturdayTheotokiaMelody",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesHymnsRomi1",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesMelodyWatosPsali",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAboelsaad1",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasSaturdayWatosIntro",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesGhobrial1",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasSaturdaySaturday1",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAnbaMorkos1",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesHymnsRomi1",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesMelodiesLent1",
-            "rule": 0,
-            "visible": "isLentenVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad1",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturday2",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkVespersPraisesMelodiesGhobrial1",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesHymnsRomi2",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos1",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAboelsaad2",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "LentPraisesVespersPraisesMelodiesLent1",
+            "Rule": 0,
+            "Visible": "isLentenVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesGhobrial2",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasSaturdaySaturday2",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAnbaMorkos2",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesHymnsRomi2",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesMelodiesLent2",
-            "rule": 0,
-            "visible": "isLentenVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad2",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturday3",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkVespersPraisesMelodiesGhobrial2",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesHymnsRomi3",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos2",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAboelsaad3",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "LentPraisesVespersPraisesMelodiesLent2",
+            "Rule": 0,
+            "Visible": "isLentenVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesGhobrial3",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasSaturdaySaturday3",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAnbaMorkos3",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesHymnsRomi3",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesMelodiesLent3",
-            "rule": 0,
-            "visible": "isLentenVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad3",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturday4",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkVespersPraisesMelodiesGhobrial3",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesHymnsRomi4",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos3",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAboelsaad4",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "LentPraisesVespersPraisesMelodiesLent3",
+            "Rule": 0,
+            "Visible": "isLentenVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesGhobrial4",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasSaturdaySaturday4",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAnbaMorkos4",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesHymnsRomi4",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesMelodiesLent4",
-            "rule": 0,
-            "visible": "isLentenVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad4",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturday5",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkVespersPraisesMelodiesGhobrial4",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesHymnsRomi5",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos4",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAboelsaad5",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "LentPraisesVespersPraisesMelodiesLent4",
+            "Rule": 0,
+            "Visible": "isLentenVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesGhobrial5",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasSaturdaySaturday5",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAnbaMorkos5",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesHymnsRomi5",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesMelodiesLent5",
-            "rule": 0,
-            "visible": "isLentenVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad5",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturday6",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkVespersPraisesMelodiesGhobrial5",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesHymnsRomi6",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos5",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAboelsaad6",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "LentPraisesVespersPraisesMelodiesLent5",
+            "Rule": 0,
+            "Visible": "isLentenVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesGhobrial6",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasSaturdaySaturday6",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAnbaMorkos6",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesHymnsRomi6",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesMelodiesLent6",
-            "rule": 0,
-            "visible": "isLentenVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad6",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturday7",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkVespersPraisesMelodiesGhobrial6",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesHymnsRomi7",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos6",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAboelsaad7",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "LentPraisesVespersPraisesMelodiesLent6",
+            "Rule": 0,
+            "Visible": "isLentenVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesGhobrial7",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasSaturdaySaturday7",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAnbaMorkos7",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesHymnsRomi7",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesMelodiesLent7",
-            "rule": 0,
-            "visible": "isLentenVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad7",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturday8",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkVespersPraisesMelodiesGhobrial7",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesHymnsRomi8",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos7",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAboelsaad8",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "LentPraisesVespersPraisesMelodiesLent7",
+            "Rule": 0,
+            "Visible": "isLentenVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesGhobrial8",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasSaturdaySaturday8",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAnbaMorkos8",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesHymnsRomi8",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesMelodiesLent8",
-            "rule": 0,
-            "visible": "isLentenVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad8",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturday9",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkVespersPraisesMelodiesGhobrial8",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesHymnsRomi9",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos8",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAboelsaad9",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "LentPraisesVespersPraisesMelodiesLent8",
+            "Rule": 0,
+            "Visible": "isLentenVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesGhobrial9",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasSaturdaySaturday9",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesMelodiesAnbaMorkos9",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "KiahkVespersPraisesHymnsRomi9",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesMelodiesLent9",
-            "rule": 0,
-            "visible": "isLentenVespersPraises"
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad9",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday16",
-            "rule": 0,
-            "visible": "isInHolyFifties"
+            "Path": "KiahkVespersPraisesMelodiesGhobrial9",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday17",
-            "rule": 0,
-            "visible": "isInHolyFifties"
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos9",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday18",
-            "rule": 0,
-            "visible": "isInHolyFifties"
+            "Path": "LentPraisesVespersPraisesMelodiesLent9",
+            "Rule": 0,
+            "Visible": "isLentenVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturdayLobsh1",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasSundaySunday16",
+            "Rule": 0,
+            "Visible": "isInHolyFifties"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdaySaturdayLobsh2",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasSundaySunday17",
+            "Rule": 0,
+            "Visible": "isInHolyFifties"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesExpositionsExpositionsIntroduction",
-            "rule": 0,
-            "visible": "isKiahkVespersPraises"
+            "Path": "TheotokiasSundaySunday18",
+            "Rule": 0,
+            "Visible": "isInHolyFifties"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesExpositionsExpositionsIntroduction",
-            "rule": 0,
-            "visible": "isLentenVespersPraises"
+            "Path": "TheotokiasSaturdaySaturdayLobsh1",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesExpositionsFirstSunday",
-            "rule": 0,
-            "visible": "isKiahkVespersPraisesExpositionWeek"
+            "Path": "TheotokiasSaturdaySaturdayLobsh2",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesExpositionsSecondSunday",
-            "rule": 0,
-            "visible": "isKiahkVespersPraisesExpositionWeek"
+            "Path": "KiahkVespersPraisesExpositionsExpositionsIntroduction",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesExpositionsThirdSunday",
-            "rule": 0,
-            "visible": "isKiahkVespersPraisesExpositionWeek"
+            "Path": "KiahkVespersPraisesExpositionsExpositionsIntroduction",
+            "Rule": 0,
+            "Visible": "isLentenVespersPraises"
         },
         {
             "Type": "Main",
-            "path": "KiahkVespersPraisesExpositionsFourthSunday",
-            "rule": 0,
-            "visible": "isKiahkVespersPraisesExpositionWeek"
+            "Path": "KiahkVespersPraisesExpositionsFirstSunday",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraisesExpositionWeek"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesExpositionsSunday1",
-            "rule": 0,
-            "visible": "isLentVespersPraisesExpositionWeek"
+            "Path": "KiahkVespersPraisesExpositionsSecondSunday",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraisesExpositionWeek"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesExpositionsSunday2",
-            "rule": 0,
-            "visible": "isLentVespersPraisesExpositionWeek"
+            "Path": "KiahkVespersPraisesExpositionsThirdSunday",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraisesExpositionWeek"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesExpositionsSunday3",
-            "rule": 0,
-            "visible": "isLentVespersPraisesExpositionWeek"
+            "Path": "KiahkVespersPraisesExpositionsFourthSunday",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraisesExpositionWeek"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesExpositionsSunday4",
-            "rule": 0,
-            "visible": "isLentVespersPraisesExpositionWeek"
+            "Path": "LentPraisesVespersPraisesExpositionsSunday1",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesExpositionsSunday5",
-            "rule": 0,
-            "visible": "isLentVespersPraisesExpositionWeek"
+            "Path": "LentPraisesVespersPraisesExpositionsSunday2",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesVespersPraisesExpositionsSunday6",
-            "rule": 0,
-            "visible": "isLentVespersPraisesExpositionWeek"
+            "Path": "LentPraisesVespersPraisesExpositionsSunday3",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdayWatosConclusion",
-            "rule": 0,
-            "visible": 0
+            "Path": "LentPraisesVespersPraisesExpositionsSunday4",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "LentPraisesVespersPraisesExpositionsSunday5",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "LentPraisesVespersPraisesExpositionsSunday6",
+            "Rule": 0,
+            "Visible": "isLentVespersPraisesExpositionWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSaturdayWatosConclusion",
+            "Rule": 0,
+            "Visible": true
         }
     ]
 }

@@ -1,9 +1,17 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "public static string ArabicText = \" يقال في ايام الصوم الكبير فقط    .",
-  "EnglishTitle": "public static string EnglishText = \"Chanted on Weekdays of the Great Lent.",
+  "ArabicTitle": "ذكصولوجية رابعة الصوم الكبير",
+  "EnglishTitle": "Fourth Lent Doxology",
   "CopticTitle": "PiMairwmi `n`agaqoc",
   "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يقال في ايام الصوم الكبير فقط.",
+      "English": "Chanted on Weekdays of the Great Lent."
+    },
     {
       "Type": "Base",
       "Rule": 0,

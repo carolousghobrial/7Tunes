@@ -13,7 +13,7 @@ import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
 import moment from "moment";
 import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ButtonRules from "../../helpers/buttonRules";
 function ButtonView({ item, motherSource, navigation }) {
@@ -28,7 +28,7 @@ function ButtonView({ item, motherSource, navigation }) {
     flex = "column";
   }
   return (
-    <Pressable onPress={ButtonRules(item, motherSource, navigation)[item.rule]}>
+    <Pressable onPress={ButtonRules(item, motherSource, navigation)[item.Rule]}>
       <View style={[styles.bookView, { flexDirection: flex }]}>
         <Text style={[styles.english, { fontSize }]}> {item.English}</Text>
         <Text style={[styles.arabic, { fontSize }]}> {item.Arabic}</Text>

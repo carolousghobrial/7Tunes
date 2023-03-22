@@ -37,6 +37,12 @@ const homescreenPaths = {
   saturdayTheotokiaMenu: require("../assets/json/books/booksTable/Praises/MidnightPraises/Theotokias/saturdayTheotokiaMenu.json"),
   //veneration
   venerations: require("../assets/json/books/booksTable/Venerations/venerations.json"),
+  //Doxologies
+  doxologies: require("../assets/json/books/booksTable/Praises/MidnightPraises/doxologies.json"),
+  //Liturgies
+  //RaisingOfIncense
+  vespers: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/vespers.json"),
+  matins: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/matins.json"),
 };
 
 export default homescreenPaths;

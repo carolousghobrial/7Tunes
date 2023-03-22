@@ -4,6 +4,14 @@
   "EnglishTitle": "The Litany of the Sick ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقال في رفع بخور باكر على مدار السنة فيما عدا باكر السبوت ",
+      "English": "Said during the morning Offering of Incense all year round except on Saturday mornings. "
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

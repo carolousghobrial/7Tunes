@@ -10,20 +10,20 @@ export function getFullViewModel(motherSource, data) {
   var MenuArray = [];
   var key = 0;
 
-  data.main.map((item) => {
+  data.Main.map((item) => {
     if (item.type === "Title") {
       arabicttl = item.arabic;
       copticttl = item.coptic;
       englishttl = item.english;
     } else {
       if (
-        item.visible === 0 ||
-        VisibleRules[item.visible](motherSource, item.path)
+        item.Visible === true ||
+        VisibleRules[item.Visible](motherSource, item.Path)
       ) {
         switch (item.Type) {
           case "Main":
             //Get View
-            let book = bookPaths[item.path];
+            let book = bookPaths[item.Path];
             arabicttl = book.ArabicTitle;
             copticttl = book.CopticTitle;
             englishttl = book.EnglishTitle;
@@ -42,9 +42,9 @@ export function getFullViewModel(motherSource, data) {
                 rule: -1,
                 visible: 0,
                 Side: "Title",
-                arabic: arabicttl,
-                coptic: copticttl,
-                english: englishttl,
+                Arabic: arabicttl,
+                Coptic: copticttl,
+                English: englishttl,
               },
               key: key,
             });
@@ -65,7 +65,6 @@ export function getFullViewModel(motherSource, data) {
 
             break;
           case "Button":
-            console.log(item);
             MenuArray.push({
               EnglishTitle: item.Arabic,
               ArabicTitle: item.English,

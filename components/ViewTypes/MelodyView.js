@@ -11,7 +11,7 @@ import {
 } from "../../helpers/SettingsHelpers.js";
 import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 
 function MelodyView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
@@ -43,7 +43,6 @@ function MelodyView({ item }) {
       textColor = getColor("NorthColor");
       break;
     default:
-      console.log(item.Side);
       break;
   }
   const englishVisible = useSelector((state) => state.settings.english);
@@ -99,4 +98,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MelodyView;
+export default memo(MelodyView);

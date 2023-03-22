@@ -1,127 +1,127 @@
 {
-    "main": [
+    "Main": [
         {
             "Type": "Title",
-            "rule": 0,
-            "visible": 0,
+            "Rule": 0,
+            "Visible": true,
             "Side": "Title",
-            "arabic": " التمجيد",
-            "coptic": ":do[ologia `nte }wrp",
-            "english": "Venerations"
+            "Arabic": " التمجيد",
+            "Coptic": ":do[ologia `nte }wrp",
+            "English": "Venerations"
         },
         {
             "Type": "Main",
-            "path": "VenerationEkesmarot",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationEkesmarot",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationShereTheotoke",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationShereTheotoke",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationAgiosEstin",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationAgiosEstin",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday8",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasSundaySunday8",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday9",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasSundaySunday9",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationZeftePentis",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationZeftePentis",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationAripresvevin",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationAripresvevin",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationRashi",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationRashi",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationSenaEtsho",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationSenaEtsho",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationFaiPevlemin",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationFaiPevlemin",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationAtaiParthenos",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationAtaiParthenos",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationAnokNim",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationAnokNim",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationPiEhlog",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationPiEhlog",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationApekran",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationApekran",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationEporo",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationEporo",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationKhenEfran",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationKhenEfran",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationLetUsGather",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationLetUsGather",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationCrownOfGold",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationCrownOfGold",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "VenerationWaSalam",
-            "rule": 0,
-            "visible": 0
+            "Path": "VenerationWaSalam",
+            "Rule": 0,
+            "Visible": true
         }
     ]
 }

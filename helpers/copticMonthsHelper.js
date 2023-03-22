@@ -1,4 +1,5 @@
 import { getLanguageValue, getFontSize, getColor } from "./SettingsHelpers.js";
+import { useDispatch, useSelector } from "react-redux";
 var moment = require("moment");
 var today = moment();
 
@@ -157,6 +158,7 @@ export function getCopticFastsFeasts() {
   var resurrection = moment(getResurrectionDate(today.year()));
   var palmSunday = moment(resurrection).subtract(7, "days");
   var ascension = moment(resurrection).add(39, "days");
+  var ascension2ndday = moment(ascension).add(1, "days");
   var pentecost = moment(resurrection).add(49, "days");
 
   // minor feasts
@@ -297,7 +299,13 @@ export function getCopticFastsFeasts() {
     end: null,
     major: true,
   });
-
+  fastFeasts.push({
+    key: "ASCENSIONTOPENTECOST",
+    type: "feast",
+    start: ascension2ndday,
+    end: pentecost,
+    major: true,
+  });
   fastFeasts.push({
     key: "PENTECOST",
     type: "feast",
@@ -596,16 +604,18 @@ export function plantsSeason() {
     return "plants";
   }
 }
-
-export function getCurrentSeason() {
+export function getTodayDate(timeTransition) {
+  var todayDate = moment();
+  if (new Date(timeTransition) < new Date()) {
+    todayDate.add(1, "days");
+  }
+  return todayDate;
+}
+export function getCurrentSeason(timeTransition) {
   var fastsfeasts = getCopticFastsFeasts();
   var collection = [];
   // ignore time
-  var todayDate = moment([
-    new Date().getFullYear(),
-    attributes.monthIndex,
-    attributes.day,
-  ]);
+  var todayDate = getTodayDate(timeTransition);
   fastsfeasts.map((feast) => {
     if (
       (feast.end === null && feast.start.isSame(todayDate)) ||
@@ -615,12 +625,19 @@ export function getCurrentSeason() {
       collection.push(feast);
     }
   });
-  // for (var x in fastsfeasts) {
-  //   // beginning of date range is inclusive
-  //   console.log(x);
-
-  // }
-
+  if (collection.length === 0) {
+    let type = "regular";
+    if (todayDate.day() === 3 && todayDate.day() === 5) {
+      type = "fast";
+    }
+    collection.push({
+      key: "STANDARD",
+      type: type,
+      start: null,
+      end: null,
+      major: false,
+    });
+  }
   return collection;
 }
 
@@ -654,7 +671,7 @@ export function getCopticDate(year, monthIndex, day) {
     // wrap around to beginning
     var m_next = CopticMonthObjects[(i + 1) % CopticMonthObjects.length];
 
-    var gregDate = new Date(year, monthIndex, day, 12, 0, 0);
+    var gregDate = new Date(year, monthIndex, day);
     var copticMonthStartDate;
     var copticMonthEndDate;
 
@@ -678,7 +695,7 @@ export function getCopticDate(year, monthIndex, day) {
       break;
     }
   }
-
+  console.log(copticDay);
   return {
     month: copticMonth,
     monthIndex: copticMonthIndex,
@@ -687,16 +704,8 @@ export function getCopticDate(year, monthIndex, day) {
   };
 }
 
-export function getCopticDateString(year, monthIndex, day) {
-  var copticDate = getCopticDate(year, monthIndex, day);
-  console.log(copticDate);
-  return (
-    getLanguageValue(copticDate.month) +
-    " " +
-    copticDate.day +
-    ", " +
-    copticDate.year
-  );
+export function getCopticDateString(year, month, day) {
+  return getLanguageValue(month) + " " + day + ", " + year;
 }
 
 var getResurrectionDate = function (year) {
@@ -776,10 +785,10 @@ var CopticDateComparator = function (
 // default getCopticDate;
 //module.exports.getCopticDate = getCopticDate;
 
-module.exports.getResurrectionDate = getResurrectionDate;
-module.exports.getDateString = getDateString;
-module.exports.getNumericDateString = getNumericDateString;
-module.exports.CopticDateComparator = CopticDateComparator;
+// module.exports.getResurrectionDate = getResurrectionDate;
+// module.exports.getDateString = getDateString;
+// module.exports.getNumericDateString = getNumericDateString;
+// module.exports.CopticDateComparator = CopticDateComparator;
 //module.exports.getCopticFastsFeasts = getCopticFastsFeasts;
 //module.exports.isInFast = isInFast;
 // module.exports.FastFeastNames = FastFeastNames;

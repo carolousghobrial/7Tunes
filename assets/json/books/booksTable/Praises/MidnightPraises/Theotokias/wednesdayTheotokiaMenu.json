@@ -1,133 +1,157 @@
 {
-    "main": [
+    "Main": [
         {
             "Type": "Title",
-            "rule": 0,
-            "visible": 0,
+            "Rule": 0,
+            "Visible": true,
             "Side": "Title",
-            "arabic": "ثيؤطوكية الأربعاء ",
-            "coptic": ":qe`otokia `m`P`e\\oou `m`P`ftoou",
-            "english": "The Wednesday Theotokia "
+            "Arabic": "ثيؤطوكية الأربعاء ",
+            "Coptic": ":qe`otokia `m`P`e\\oou `m`P`ftoou",
+            "English": "The Wednesday Theotokia "
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisNayroozWatos",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "TheotokiasPsalisNayroozWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisCrossWatos",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "TheotokiasPsalisCrossWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "LentPraisesMidnightPraisesHymnsSaturdayWatosPsali",
-            "rule": 0,
-            "visible": "isLenten"
+            "Path": "LentPraisesMidnightPraisesHymnsSaturdayWatosPsali",
+            "Rule": 0,
+            "Visible": "isLenten"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisPalmSundayWatos",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "TheotokiasPsalisPalmSundayWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasPsalisRessurectionFeastWatosPsali",
-            "rule": 0,
-            "visible": "isSeason"
+            "Path": "TheotokiasPsalisRessurectionFeastWatosPsali",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasWednesdayWednesdayPsaliOurLord",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasPsalisAscensionPeriodWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "KiahkMidnightPraisesMelodiesWednesdayTheotokiaMelody",
-            "rule": 0,
-            "visible": "isKiahk"
+            "Path": "TheotokiasPsalisAscensionFeastWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdayWatosIntro",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasPsalisPentecostWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasWednesdayWednesday1",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasPsalisApostlesWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasWednesdayWednesday2",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasWednesdayWednesdayPsaliOurLord",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasWednesdayWednesday3",
-            "rule": 0,
-            "visible": 0
+            "Path": "KiahkMidnightPraisesMelodiesWednesdayTheotokiaMelody",
+            "Rule": 0,
+            "Visible": "isKiahk"
         },
         {
             "Type": "Main",
-            "path": "TheotokiasWednesdayWednesday4",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasSaturdayWatosIntro",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasWednesdayWednesday5",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasWednesdayWednesday1",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasWednesdayWednesday6",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasWednesdayWednesday2",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasWednesdayWednesday7",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasWednesdayWednesday3",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday16",
-            "rule": 0,
-            "visible": "isInHolyFifties"
+            "Path": "TheotokiasWednesdayWednesday4",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday17",
-            "rule": 0,
-            "visible": "isInHolyFifties"
+            "Path": "TheotokiasWednesdayWednesday5",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSundaySunday18",
-            "rule": 0,
-            "visible": "isInHolyFifties"
+            "Path": "TheotokiasWednesdayWednesday6",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasWednesdayWednesdayLobsh",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasWednesdayWednesday7",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
-            "path": "TheotokiasSaturdayWatosConclusion",
-            "rule": 0,
-            "visible": 0
+            "Path": "TheotokiasSundaySunday16",
+            "Rule": 0,
+            "Visible": "isInHolyFifties"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday17",
+            "Rule": 0,
+            "Visible": "isInHolyFifties"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundaySunday18",
+            "Rule": 0,
+            "Visible": "isInHolyFifties"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasWednesdayWednesdayLobsh",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSaturdayWatosConclusion",
+            "Rule": 0,
+            "Visible": true
         }
     ]
 }

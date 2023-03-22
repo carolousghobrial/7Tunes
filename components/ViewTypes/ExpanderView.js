@@ -8,7 +8,6 @@ import {
 } from "react-native";
 
 function ExpanderView({ item }) {
-  console.log(item);
   const [isExpanded, setIsExpanded] = useState(false);
   const [animation, setAnimation] = useState(new Animated.Value(0));
 

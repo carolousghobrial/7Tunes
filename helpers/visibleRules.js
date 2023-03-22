@@ -75,36 +75,149 @@ const TheotokiaVisible = (motherSource, path) => {
     return true;
   }
 };
-const isSeason = (motherSource, path) => {
-  return false;
-};
+
 const isStandard = (motherSource, path) => {
-  return motherSource == "standardPsalmody" ? true : false;
+  return motherSource === "standardPsalmody" ? true : false;
 };
 const isKiahk = (motherSource, path) => {
-  return motherSource == "kiahkPsalmody" ? true : false;
+  return motherSource === "kiahkPsalmody" ? true : false;
 };
 const isLenten = (motherSource, path) => {
-  return motherSource == "lentenPsalmody" ? true : false;
+  return motherSource === "lentenPsalmody" ? true : false;
 };
 const isStandardVespersPraises = (motherSource, path) => {
-  return motherSource == "standardVespersPraises" ? true : false;
+  return motherSource === "standardVespersPraises" ? true : false;
 };
 const isKiahkVespersPraises = (motherSource, path) => {
-  return motherSource == "kiahkVespersPraises" ? true : false;
+  return motherSource === "kiahkVespersPraises" ? true : false;
 };
 const isLentenVespersPraises = (motherSource, path) => {
-  return motherSource == "lentenVespersPraises" ? true : false;
+  return motherSource === "lentenVespersPraises" ? true : false;
 };
 const isNOTVespersPraises = (motherSource, path) => {
   if (
-    isLentenVespersPraises ||
-    isKiahkVespersPraises ||
-    isStandardVespersPraises
+    isLentenVespersPraises() ||
+    isKiahkVespersPraises() ||
+    isStandardVespersPraises()
   ) {
     return true;
   }
   return false;
+};
+const isSeason = (motherSource, path) => {
+  const todayPrayer = useSelector((state) => state.settings.todayPrayer);
+
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  if (!isStandard(motherSource, path)) {
+    return false;
+  }
+
+  if (todayPrayer) {
+    switch (currentSeason.key) {
+      case "COPTIC_NEW_YEAR":
+        if (path.toLowerCase().includes("nayrooz")) {
+          return true;
+        }
+        return false;
+      case "FEAST_OF_CROSS":
+      case "FEAST_OF_CROSS_3":
+        if (path.toLowerCase().includes("cross")) {
+          return true;
+        }
+        return false;
+      case "NATIVITY":
+        if (path.toLowerCase().includes("nativity")) {
+          return true;
+        }
+        return false;
+      case "EPIPHANY":
+        if (path.toLowerCase().includes("theophany")) {
+          return true;
+        }
+        return false;
+      case "ANNUNCIATION":
+        if (path.toLowerCase().includes("Annunciation")) {
+          return true;
+        }
+        return false;
+      case "FEAST_OF_CIRCUMCISION":
+        if (path.toLowerCase().includes("circumcision")) {
+          return true;
+        }
+        return false;
+      case "ENTRY_EGYPT":
+        if (path.toLowerCase().includes("entryegypt")) {
+          return true;
+        }
+        return false;
+      case "WEDDING_CANA":
+        if (path.toLowerCase().includes("weddingcana")) {
+          return true;
+        }
+        return false;
+      case "PRESENTATION_TEMPLE":
+        if (path.toLowerCase().includes("presentationtemple")) {
+          return true;
+        }
+        return false;
+      case "TRANSFIGURATION":
+        if (path.toLowerCase().includes("transfiguration")) {
+          return true;
+        }
+        return false;
+      case "NATIVITY_FAST":
+        if (
+          path.toLowerCase().includes("kiahk") &&
+          currentSeason.month === "Koiahk"
+        ) {
+          return true;
+        }
+        return false;
+      case "GREAT_LENT":
+        if (path.toLowerCase().includes("lent")) {
+          return true;
+        }
+        return false;
+      case "PALM_SUNDAY":
+        if (path.toLowerCase().includes("palmsunday")) {
+          return true;
+        }
+        return false;
+      case "RESURRECTION":
+      case "THOMAS_SUNDAY":
+      case "HOLY_50":
+        if (path.toLowerCase().includes("ressurection")) {
+          return true;
+        }
+        return false;
+      case "ASCENSION":
+        if (path.toLowerCase().includes("ascensionfeast")) {
+          return true;
+        }
+        return false;
+      case "ASCENSIONTOPENTECOST":
+        if (path.toLowerCase().includes("ascensionpeiod")) {
+          return true;
+        }
+        return false;
+      case "PENTECOST":
+        if (path.toLowerCase().includes("pentecost")) {
+          return true;
+        }
+        return false;
+      case "FAST_OF_APOSTLES":
+      case "FEAST_OF_APOSTLES":
+        if (path.toLowerCase().includes("apostle")) {
+          return true;
+        }
+        return false;
+
+      default:
+        return false;
+    }
+  }
+  return true;
 };
 const isInHolyFifties = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -123,7 +236,7 @@ const isKiahkVespersPraisesExpositionWeek = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
 
-  if (isKiahkVespersPraises) {
+  if (isKiahkVespersPraises()) {
     if (todayPrayer) {
       switch (currentSeason.week) {
         case 1:
@@ -158,7 +271,7 @@ const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
 
-  if (isLentenVespersPraises) {
+  if (isLentenVespersPraises()) {
     if (todayPrayer) {
       switch (currentSeason.week) {
         case 1:
@@ -199,11 +312,47 @@ const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
   }
   return false;
 };
+const isMatins = (motherSource, path) => {
+  return motherSource === "matins" ? true : false;
+};
+const isVespers = (motherSource, path) => {
+  return motherSource === "vespers" ? true : false;
+};
+const isPraises = (motherSource, path) => {
+  return motherSource === "lentenVespersPraises" ||
+    motherSource === "standardPsalmody"
+    ? true
+    : false;
+};
+const showLitanyOfDeparted = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.dayOfWeek === 6 && currentSeason.type !== "regular") {
+    return true;
+  }
+  return false;
+};
+const showLitanyOfTravelers = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (
+    currentSeason.dayOfWeek !== 6 &&
+    currentSeason.dayOfWeek !== 7 &&
+    currentSeason.type !== "feast"
+  ) {
+    return true;
+  }
+  return false;
+};
+const showLitanyOfOblations = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.dayOfWeek === 0 || currentSeason.type === "feast") {
+    return true;
+  }
+  return false;
+};
 
 const VisibleRules = {
   TennavRule: TennavRule,
   SundayThetokiaWeekdaysPraisesRule: SundayThetokiaWeekdaysPraisesRule,
-  0: true,
   TheotokiaVisible: TheotokiaVisible,
   isStandard: isStandard,
   isKiahk: isKiahk,
@@ -216,5 +365,11 @@ const VisibleRules = {
   isKiahkVespersPraisesExpositionWeek: isKiahkVespersPraisesExpositionWeek,
   isLentVespersPraisesExpositionWeek: isLentVespersPraisesExpositionWeek,
   isInHolyFifties: isInHolyFifties,
+  isMatins: isMatins,
+  isVespers: isVespers,
+  isPraises: isPraises,
+  showLitanyOfDeparted: showLitanyOfDeparted,
+  showLitanyOfTravelers: showLitanyOfTravelers,
+  showLitanyOfOblations: showLitanyOfOblations,
 };
 export default VisibleRules;
