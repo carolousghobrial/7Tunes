@@ -23,46 +23,7 @@ export function getFullViewModel(motherSource, data) {
         switch (item.Type) {
           case "Main":
             //Get View
-            let book = bookPaths[item.Path];
-            arabicttl = book.ArabicTitle;
-            copticttl = book.CopticTitle;
-            englishttl = book.EnglishTitle;
-            MenuArray.push({
-              EnglishTitle: englishttl,
-              CopticTitle: copticttl,
-              ArabicTitle: arabicttl,
-              key: key,
-            });
-            ViewArray.push({
-              EnglishTitle: englishttl,
-              CopticTitle: copticttl,
-              ArabicTitle: arabicttl,
-              part: {
-                Type: "Title",
-                rule: -1,
-                visible: 0,
-                Side: "Title",
-                Arabic: arabicttl,
-                Coptic: copticttl,
-                English: englishttl,
-              },
-              key: key,
-            });
-
-            key++;
-            var hymn = book.Hymn;
-            hymn.map((part) => {
-              ViewArray.push({
-                part: part,
-                key: key,
-                EnglishTitle: englishttl,
-                CopticTitle: copticttl,
-                ArabicTitle: arabicttl,
-              });
-
-              key++;
-            });
-
+            getMain(item.Path, false);
             break;
           case "Button":
             MenuArray.push({
@@ -102,5 +63,57 @@ export function getFullViewModel(motherSource, data) {
     }
   });
 
+  function getMain(Path, inHymn) {
+    let book = bookPaths[Path];
+    arabicttl = book.ArabicTitle;
+    copticttl = book.CopticTitle;
+    englishttl = book.EnglishTitle;
+    if (!inHymn) {
+      MenuArray.push({
+        EnglishTitle: englishttl,
+        CopticTitle: copticttl,
+        ArabicTitle: arabicttl,
+        key: key,
+      });
+      ViewArray.push({
+        EnglishTitle: englishttl,
+        CopticTitle: copticttl,
+        ArabicTitle: arabicttl,
+        part: {
+          Type: "Title",
+          rule: -1,
+          visible: 0,
+          Side: "Title",
+          Arabic: arabicttl,
+          Coptic: copticttl,
+          English: englishttl,
+        },
+        key: key,
+      });
+
+      key++;
+    }
+    var hymn = book.Hymn;
+    hymn.map((part) => {
+      if (
+        part.Visible === true ||
+        VisibleRules[part.Visible](motherSource, part.Path)
+      ) {
+        if (part.Type === "Main") {
+          getMain(part.Path, true);
+        } else {
+          ViewArray.push({
+            part: part,
+            key: key,
+            EnglishTitle: englishttl,
+            CopticTitle: copticttl,
+            ArabicTitle: arabicttl,
+          });
+
+          key++;
+        }
+      }
+    });
+  }
   return [ViewArray, MenuArray];
 }

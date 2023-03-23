@@ -1,0 +1,27 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا،  يسوع المسيح إبن الله،ارك المياه فصيرها خمراً هلليلويا هلليلويا،.",
+      "Coptic": "Allhlouia Allhlouia> Ihc? Pxc? `p}hri `m`V;>  af`cmou `enimwou afaitou `nhrp.  allhlouia Allhlouia>",
+      "English": "Alleluia Alleluia,  Jesus Christ the Son of God, blessed the water and changed it into wine.Alleluia Alleluia,",
+      "Arabiccoptic": " الليلويا الليلويا : إيسوس بخرستوس إبشيرى إمفنوتى: أف إسمو اى نى موأوو أف أيطو إن إيرب الليلويا الليلويا . ",
+      "Englishcoptic": "Alleloia Alleloia:  Isos Pikhrisots epSheeri em-Evnoti: af-esmo eni-mo-oo af-aito en-eerp. Alleloia Alleloia:"
+    }
+  ]
+}

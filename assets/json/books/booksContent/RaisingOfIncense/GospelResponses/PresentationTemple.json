@@ -1,0 +1,27 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا، هلليلويا هلليلويا، يسوع المسيح إبن الله، دخل الى الهيكل.",
+      "Coptic": "Allhlouia Allhlouia> allhlouia Allhlouia> Ihc? Pxc? `p}hri `m`V;> af]e `e=oun `epiervei",
+      "English": "Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, entered into the Temple.",
+      "Arabiccoptic": " الليلويا الليلويا الليلويا الليلويا: إيسوس بخرستوس إبشيرى إمفنوتى: افشى إيخون إيبي إيرفي . ",
+      "Englishcoptic": "Alleloia Alleloia: Alleloia Alleloia: Isos Pikhrisots epSheeri em-Evnoti: afshe ekhon epi-erfei."
+    }
+  ]
+}

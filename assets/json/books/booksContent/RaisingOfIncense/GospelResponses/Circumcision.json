@@ -1,0 +1,27 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا هلليلويا هلليلويا يسو ع المسيح ابن الله قبل إليه الختان   .",
+      "Coptic": "  Allhlouia Allhlouia> allhlouia Allhlouia> Ihc? Pxc? `p}hri `m`V;> af]wp `erof `mpicebi.",
+      "English": "+ Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, accepted unto Himself circumcision.",
+      "Arabiccoptic": " الليلويا الليلويا الليلويا الليلويا: ايسوس بخرستوس إبشيرى إمفنوتى: إفشوب إيروف إمبى سيفى . ",
+      "Englishcoptic": "Alleloia Alleloia: Alleloia Alleloia: Isos Pikhrisots epSheeri em-Evnoti: afshoop -erof empisevi."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية عيد دخول المسيح ارض مصر",
+  "EnglishTitle": "Entrance of the Lord Christ into the Land of Egypt Doxology ",
+  "CopticTitle": "`Vnou; vh``etou ;`wou naf",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الله المُمجد، في مشورة القديسين، الجالس على الشاروبيم، رُؤى في إقليم مصر.",
+      "Coptic": "`Vnou; vh``etou ;`wou naf> =en `pcosni `nte nheqouab> vhet\\emci \\ijen Nixeroubim> aunau `erof =en `txwra `nXhmi.",
+      "English": "God who is glorified, in the council of the saints, who sits upon the Cherubim, was seen in the land of Egypt.",
+      "Arabiccoptic": "إفنوتي في إيتوتي أوؤ ناف، خين إيسو إتشنى إنتي ني إثؤاب، فييت هيمسى هيچين نى شيروبيم، آناڤ إيروف خين إتخورا إنكيمي.",
+      "Englishcoptic": "Evnoti vee-et-o-oo ti-oo-oo naf: khen epsochni ente nee-ethowab: vi-et-hemsi hijen Ni-Sherobim: avnav erof khen etkhoora en-Keemi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " الذي خلق السماء والأرض، رأيناه كصالح، في حِضن مريم السماء الجديدة، مع البار يوسف الصديق.",
+      "Coptic": "  Vh`etafqamio `n`tve nem `pka\\i> annau `erof \\wc `agaqoc> =en kenc `mMaria ;ve `mberi> nem pi`qmhi Iwchv pidikeoc.",
+      "English": "+ He who created heaven and earth, we saw Him as a Good One, in the bosom of Mary the new heaven, and the just Joseph the righteous.",
+      "Arabiccoptic": "في إيطاف ثاميو إن إتفي نيم إبكاهي، آنناف إيروف هوس آغاثوس، خين كينس إم ماريا تي في إمڤيرى، نيم بى إثمى يوسيف بى ذيكيئوس.",
+      "Englishcoptic": "Vee-etafthamio en-etve nem ep-kahi: an-nav erof hoos aghathos: khen kens emmaria tive emveri: nem pi-ethmeei Yoosef pi-zikeos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عتيق الأيام، الذي تُسبحه الملائكة، جاء اليوم إلى كورة مصر، لكي يخلصنا نحن شعبه.",
+      "Coptic": "Pi`apac `nte Ni`e\\oou> vh`etou\\wc `erof `nje niaggeloc> =en `txwra `nXhmi af`i `mvoou> ]a `ntefcotten `anon =a peflaoc.",
+      "English": "The Ancient of Days, whom the angels praise, today has come into Egypt, to save us His people.",
+      "Arabiccoptic": "بى آباس إنتي نى إيهوؤ، في إيتو هوس إيروف إنچى ني أنجيلوس، خين إتخورا إنكيمى أفئي إم فوؤ، شا إنتيف سوتين آنون خا بيف لاؤس.",
+      "Englishcoptic": "Pi-apas ente Ni-eho-oo: vee-et-oo-hoos erof enje ni-angelos: khen et-khoora en-Keemi af-ee emfo-oo: sha entef-sotten anon kha pef-laos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " إفرحوا وتهللوا يا آل مصر، مع بنيها وكل تخومها، لأنه أتى إليك محب البشر، الكائن قبل كل الدهور.",
+      "Coptic": "  Ra]i qelhl `w Xhmi> nem nec]hri nem necqw] throu> je af`i ]aro `nje Pimairwmi> vhet]op =ajwou `nni`ewn throu.",
+      "English": "+ Let Egypt rejoice and be glad, with its sons and border cities, for the Lover of Man has come, who existed before all ages.",
+      "Arabiccoptic": "راشى ثيليل أو كيمي، نيم نيس شيري نيم نيس ثوش تيرو، چى أفئى شاروا إنچى بيماي رومي، فييت شوب خاجو ؤ إن ني إيؤن تيرو.",
+      "Englishcoptic": "Rashi theleel -oo Keemi: nem nes-sheeri nem nes-toosh teeroo: je af-ee sharo enje Pi-mairoomi: vee-etshop khago-oo enni-eo-on teerooo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أشعياء العظيم قال، \"الرب قادم إلى مصر، على سحابة خفيفة، وهو ملك السماء والأرض.\"",
+      "Coptic": "`Hca`hac pini]; afjw `mmoc> je `fnhou `nje `Psoic `eXhmi> `ejen oushpi ec`aci`wou> `nqof pe `Pouro `nte `tve nem `pka\\i.",
+      "English": "Isaiah the great has said, \"The Lord will come to Egypt, upon a light cloud, He is the King of heaven and earth.\"",
+      "Arabiccoptic": "إيسا إيياس بى نشتي أفجو إمموس، چي إفنيو إنچي إبشويس إكيمي، إيچين أو إتشيبي إيس آسي اوؤ، إنثوف بى إبؤرو إنتي إتفى نيم إبكاهي.",
+      "Englishcoptic": "Eesa-eias pinishti af-goo emmos: je efneeoo enje ePchois -eKeemi: ejen oo-cheepi es-asi-o-oo: enthof pe ePoooro ente etve nem epkahi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " نسبحه ونمجده، ونزيده علواً، كصالح ومحب للبشر، إرحمنا كعظيم رحمتك.",
+      "Coptic": "  Ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof> \\wc `agaqoc ouo\\ `mmairwmi> nai nan kata pekni]; `nnai.",
+      "English": "+ We praise and glorify Him, and exalt Him above all, as a Good One and Lover of Man, have mercy upon us according to Your great mercy.",
+      "Arabiccoptic": "تينهوس إيروف تينتي أوؤ ناف، تين إير هوؤ تشيسي إمموف، هوس آغاثوس أووه إمماي رومي، ناي نان كاطا بيك نيشتي إن ناي",
+      "Englishcoptic": "Tenhoos -erof tenti-o-oo naf: ten-erho-oo chisi emmof: hoos aghathos owoh emmai-roomi: nai nan kata pek-nishti ennai."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ارباع الناقوس الختان",
+  "EnglishTitle": "Verses of the Cymbals for Feast of Circumcision",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "في اليوم الثامن لميلاده المجيد قبل إليه الختان كعاده الناموس. ",
+      "Coptic": "+en pima\\ `]mhn `n`e\\o`ou> `nte pefjinmici `mparado]on> af]wp `erof `mpicebi> kata pet`c]e `mpinomoc.",
+      "English": "On the eighth day, from His glorious birth, He accepted unto Himself circumcision, according to the Law.",
+      "Arabiccoptic": "خين بى ماه إشمين إن إيهواوو: إنتى بيف ﭼين ميسى: إمباراذوكسون: أفشوب اروف امبيسيﭭى: كاطا بيت إس شى إمى نوموس  .",
+      "Englishcoptic": "Khen pi-mah eshmeen en-eho-oo : ente pefjinmici emparazoxon: afshop erof empi-se-vi : kata pet es-she empi-nomos"
+    }
+  ]
+}

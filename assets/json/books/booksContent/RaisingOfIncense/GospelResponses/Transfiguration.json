@@ -1,0 +1,27 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا، هلليلويا هلليلويا، يسوع المسيح إبن الله، تجلى على جبل تابور.",
+      "Coptic": "Allhlouia Allhlouia> allhlouia Allhlouia> Ihc? Pxc? `p}hri `m`V;> af]wbt `ejen pitwou `nQabwr.",
+      "English": "Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, was transfigured upon Mount Tabor.",
+      "Arabiccoptic": " الليلويا الليلويا الليلويا الليلويا: إيسوس بخرستوس إبشيرى إمفنوتى: أفشوبت إيجين بي توؤو إنثابور . ",
+      "Englishcoptic": "Alleloia Alleloia: Alleloia Alleloia: Isos Pikhrisots epSheeri em-Evnoti: afshoobt -ejen pito-oo enThavoor."
+    }
+  ]
+}

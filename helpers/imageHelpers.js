@@ -4,6 +4,7 @@ const images = {
   pascha: require("../assets/images/holyweek.jpg"),
   veneration: require("../assets/images/mary.jpg"),
   index: require("../assets/images/indexpic.png"),
+  morningDoxology: require("../assets/images/morningDoxology.jpg"),
   vp: require("../assets/images/vp.jpg"),
   mp: require("../assets/images/mp.jpg"),
   abouticon: require("../assets/images/abouticon.png"),

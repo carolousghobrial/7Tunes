@@ -1,0 +1,27 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا  يسو ع المسيح ابن الله دخل إلي أرض مصر هلليلويا هلليلويا.",
+      "Coptic": "  Allhlouia Allhlouia> Ihc? Pxc? `p}hri `m`V;>af`i `e=oun `e`pka\\i `nXhmi. allhlouia Allhlouia> ",
+      "English": "+ Alleluia Alleluia, Jesus Christ the Son of God, came to the land of Egypt. Alleluia Alleluia,",
+      "Arabiccoptic": " الليلويا الليلويا : ايسوس بخرستوس إبشيرى إمفنوتى: إف إي إيخون إبكاهي إن كيمي الليلويا الليلويا . ",
+      "Englishcoptic": "Alleloia Alleloia:  Isos Pikhrisots epSheeri em-Evnoti: af-ee ekhon epkahi enkeemi. Alleloia Alleloia:"
+    }
+  ]
+}

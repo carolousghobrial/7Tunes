@@ -70,26 +70,20 @@
             "Englishcoptic": "Zoxa si Kerie."
         },
         {
-            "Type": "Base",
+            "Type": "Melody",
             "Rule": 0,
             "Visible": true,
             "Side": "Reader",
             "Arabic": "القارئ:",
-            "Coptic": "Pi`anagnwcthc>",
-            "English": "Reader:",
-            "Arabiccoptic": "القارئ:",
-            "Englishcoptic": "Reader:"
+            "English": "Reader:"
         },
         {
-            "Type": "Base",
+            "Type": "Melody",
             "Rule": 0,
             "Visible": true,
             "Side": "North",
             "Arabic": "قفوا بخوف الله لسماع الإنجيل المقدس، فصل من الإنجيل لمعلمنا مار (...) البشير، بركته على جميعنا.",
-            "Coptic": "\b",
-            "English": "Stand up in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to Saint (...), may his blessings, be with us all. (Amen.)",
-            "Arabiccoptic": "قفوا بخوف الله لسماع الإنجيل المقدس، فصل من الإنجيل لمعلمنا مار (...) البشير، بركته على جميعنا.",
-            "Englishcoptic": "Stand up in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to Saint (...), may his blessings, be with us all. (Amen.)"
+            "English": "Stand up in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to Saint (...), may his blessings, be with us all. (Amen.)"
         },
         {
             "Type": "Base",
@@ -114,15 +108,12 @@
             "Englishcoptic": "Our Lord, our God, our Savior, and King of us all, Jesus Christ, Son of the living God, to whom be glory forever."
         },
         {
-            "Type": "Base",
+            "Type": "Ritual",
             "Rule": 0,
             "Visible": true,
             "Side": "North",
             "Arabic": "(يمكن أن يُرتَّل الإنجيل قبطياً)",
-            "Coptic": "Tou `agiou euaggeliou.",
-            "English": "(The Gospel may be chanted in Coptic)",
-            "Arabiccoptic": "(يمكن أن يُرتَّل الإنجيل قبطياً)",
-            "Englishcoptic": "(The Gospel may be chanted in Coptic)"
+            "English": "(The Gospel may be chanted in Coptic)"
         },
         {
             "Type": "Base",
@@ -147,70 +138,52 @@
             "Englishcoptic": "Glory to You, O Lord."
         },
         {
-            "Type": "Base",
+            "Type": "Melody",
             "Rule": 0,
             "Visible": true,
             "Side": "Reader",
             "Arabic": "القارئ:",
-            "Coptic": "Pi`anagnwcthc>",
-            "English": "Reader:",
-            "Arabiccoptic": "القارئ:",
-            "Englishcoptic": "Reader:"
+            "English": "Reader:"
         },
         {
-            "Type": "Base",
+            "Type": "Melody",
             "Rule": 0,
             "Visible": true,
             "Side": "North",
             "Arabic": "من مزامير أبينا داود النبي، بركاته على جميعنا.",
-            "Coptic": "\b",
-            "English": "From the psalms of our father David the prophet, may his blessings be with us all. (Amen)",
-            "Arabiccoptic": "من مزامير أبينا داود النبي، بركاته على جميعنا.",
-            "Englishcoptic": "From the psalms of our father David the prophet, may his blessings be with us all. (Amen)"
+            "English": "From the psalms of our father David the prophet, may his blessings be with us all. (Amen)"
         },
         {
-            "Type": "Base",
+            "Type": "Ritual",
             "Rule": 0,
             "Visible": true,
             "Side": "North",
             "Arabic": "(يقال المزمور)",
-            "Coptic": "\b",
-            "English": "(The psalm is said)",
-            "Arabiccoptic": "(يقال المزمور)",
-            "Englishcoptic": "(The psalm is said)"
+            "English": "(The psalm is said)"
         },
         {
-            "Type": "Base",
+            "Type": "Melody",
             "Rule": 0,
             "Visible": true,
             "Side": "People",
             "Arabic": "الشعب:",
-            "Coptic": "Pilaoc>",
-            "English": "People:",
-            "Arabiccoptic": "بيلاؤس:",
-            "Englishcoptic": "Pi-Laos:"
+            "English": "People:"
         },
         {
-            "Type": "Base",
+            "Type": "Melody",
             "Rule": 0,
             "Visible": true,
             "Side": "North",
             "Arabic": "هلليلويا.",
-            "Coptic": "\b",
-            "English": "Alleluia.",
-            "Arabiccoptic": "هلليلويا.",
-            "Englishcoptic": "Alleluia."
+            "English": "Alleluia."
         },
         {
-            "Type": "Base",
+            "Type": "Melody",
             "Rule": 0,
             "Visible": true,
             "Side": "Reader",
             "Arabic": "القارئ:",
-            "Coptic": "Pi`anagnwcthc>",
-            "English": "Reader:",
-            "Arabiccoptic": "القارئ:",
-            "Englishcoptic": "Reader:"
+            "English": "Reader:"
         },
         {
             "Type": "Base",
@@ -218,43 +191,31 @@
             "Visible": true,
             "Side": "North",
             "Arabic": "مبارك الآتى باسم الرب، ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح، ابن الله الحى، الذي له المجد الدائم، إلى الابد آمين.",
-            "Coptic": "\b",
-            "English": "Blessed is He who comes in the name of the Lord. Our Lord, God, Savior, and King of us all, Jesus Christ, the Son of the living God, to whom is the glory forever and ever. Amen.",
-            "Arabiccoptic": "مبارك الآتى باسم الرب، ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح، ابن الله الحى، الذي له المجد الدائم، إلى الابد آمين.",
-            "Englishcoptic": "Blessed is He who comes in the name of the Lord. Our Lord, God, Savior, and King of us all, Jesus Christ, the Son of the living God, to whom is the glory forever and ever. Amen."
+            "English": "Blessed is He who comes in the name of the Lord. Our Lord, God, Savior, and King of us all, Jesus Christ, the Son of the living God, to whom is the glory forever and ever. Amen."
         },
         {
-            "Type": "Base",
+            "Type": "Ritual",
             "Rule": 0,
             "Visible": true,
             "Side": "North",
             "Arabic": "(يقال الإنجيل)",
-            "Coptic": "\b",
-            "English": "(The Gospel is said)",
-            "Arabiccoptic": "(يقال الإنجيل)",
-            "Englishcoptic": "(The Gospel is said)"
+            "English": "(The Gospel is said)"
         },
         {
-            "Type": "Base",
+            "Type": "Melody",
             "Rule": 0,
             "Visible": true,
             "Side": "People",
             "Arabic": "الشعب:",
-            "Coptic": "Pilaoc>",
-            "English": "People:",
-            "Arabiccoptic": "بيلاؤس:",
-            "Englishcoptic": "Pi-Laos:"
+            "English": "People:"
         },
         {
-            "Type": "Base",
+            "Type": "Melody",
             "Rule": 0,
             "Visible": true,
             "Side": "North",
             "Arabic": "والمجد لله دائماً.",
-            "Coptic": "\b",
-            "English": "Glory be to God forever.",
-            "Arabiccoptic": "والمجد لله دائماً.",
-            "Englishcoptic": "Glory be to God forever."
+            "English": "Glory be to God forever."
         }
     ]
 }

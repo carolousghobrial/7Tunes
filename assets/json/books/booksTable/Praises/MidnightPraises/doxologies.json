@@ -71,7 +71,25 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesMajorFeastsCircumcision",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesMajorFeastsTheophany",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsWeddingCana",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsPresentationTemple",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -137,6 +155,12 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesMajorFeastsEntryEgypt",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesMajorFeastsAscension",
             "Rule": 0,
             "Visible": "isSeason"
@@ -149,21 +173,27 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesMajorFeastsTransfiguration",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesStMaryVespers",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isVespers"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStMary",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isPraises"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStMaryMatins",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isMatins"
         },
         {
             "Type": "Main",

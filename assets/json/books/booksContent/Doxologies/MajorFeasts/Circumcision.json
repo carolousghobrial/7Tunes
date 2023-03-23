@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية عيد الختان",
+  "EnglishTitle": "Circumcision Feast Doxology ",
+  "CopticTitle": "Apenoc? Ihc? Pxc?",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ربنا يسوع المسيح ابن الله الحقيقي الذي تجسد من العذراء ولدته كصالح.",
+      "Coptic": "Apenoc? Ihc? Pxc?> `p}hri `m`V; `alhqwc> vh`etafsicar[ =en ;Parqenoc> acmici `mmof \\wc `agaqoc.",
+      "English": "Our Lord Jesus Christ, the true Son of God, who was incarnate of the Virgin, she gave birth to the good One.",
+      "Arabiccoptic": " آبينشويس إيسوس بخريستوس: إبشيرى إمفنوتى آليثوس: في إيطاف تشى ساركس خين تى بارثينوس: أسميسى إمموف هوس آغاثوس . ",
+      "Englishcoptic": "Apenchois Isos Pikhrisots: epSheeri em-Evnoti aleethoos: vee-etafchi-sarex khen ti-Parthenos: asmisi emmof hoos aghathos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "في اليوم الثامن لميلاده المجيد قبل إليه الختان كعاده الناموس.",
+      "Coptic": "  +en pima\\ `]mhn `n`e\\o`ou> `nte pefjinmici `mparado[on> af]wp `erof `mpicebi> kata pet`c]e `mpinomoc.",
+      "English": "+ On the eighth day, from His glorious birth, He accepted unto Himself circumcision, according to the Law.",
+      "Arabiccoptic": " خين بى ماه إشمين إن إيهوؤ: إنتى بيف جينميسى إمباراذوكسون: أفشوب إيروف إمبى سيفى: كاطا بى تيسشى إمبى نوموس . ",
+      "Englishcoptic": "Khen pimah eshmeen en-eho-ooo: ente pefjinmisi empara-zoxon: afshoop -erof empisevi: kata petesshe empi-nomos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تعالوا لنسجد له لأنه الإله الحقيقي فلنمجد العذراء التي ولدته جسدياً.",
+      "Coptic": "Amwini `nten`ou`w]t `mmof> je `nqof pe V; =en `oumeqmhi> `nten;`w`ou `n;Parqenoc> qh`etac`jve cwmatikoc.",
+      "English": "Come let us worship Him, for He is the true God, let us glorify the Virgin, who gave birth to Him in the flesh.",
+      "Arabiccoptic": " آموينى إنتين أوؤشت إمموف: جى إنثوف بى إفنوتى خين أو ميثمى: إنتين تي أوأوو إن تي بارثينوس: ثي إيطاس إجفوف سوما تيكوس . ",
+      "Englishcoptic": "Amooini enten-ooo-oosht emmof: je enthof pe Evnoti khen oo-methmeei: ententi-oo-ooo enti-Parthenos: thee-etasegve soo-matikos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "تهللوا اليوم بفرح يا جميع الأمم لان المسيح قبل إليه الختان عنا.",
+      "Coptic": "  Qelhl `mmwten `mvo`ou> nh`eqnoc throu =en `oura]i> je Pxc? af]wp `erof> `mpicebi `e`\\rhi `ejwn.",
+      "English": "+ Rejoice today all you nations, and be glad, for Christ accepted unto Himself, circumcision on our behalf.",
+      "Arabiccoptic": " ثيليل إمموتين إمفوؤ: نى إثنوس تيرو خين أوراشى: جى بخريستوس أفشوب إيروف: امبي سيفى إى إهري إيجون . ",
+      "Englishcoptic": "Theleel emmoo-ten emvo-ooo: nee-ethnos teerooo khen oorashi: je Pikhrisots afshoop erof: empi-sevi eehreei egoon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكي يصيرنا أحراراً من ختان الجسد ولكي يعطينا روحه القدوس بالكمال.",
+      "Coptic": "|ina `ntef`aiten `nrem\\e> `ebol\\a `pcebi `nte ;car[> `ntef; nan `mPef`Pneuma eqouab> \\iten pijwk `ebol.",
+      "English": "That He may free us, from the circumcision of the flesh, and grant us His Holy Spirit, with perfection.",
+      "Arabiccoptic": " هينا إنتيف آيتين إن ريمهى: إفول ها إبسيفى انتى تى ساركس: انتيفتى نان إمبيف ابنفما إثؤاب: هيتين بى جوك إفول . ",
+      "Englishcoptic": "Hina entef-aiten enremhe: evolha epsevi ente ti-sarex: entefti nan em-Pef-epnevma ethowab: hiten pigook -evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ليخزي وليفتضح كل الهراطقة الأنجاس وليسمعوا بولس قائلاً أنا المختون في اليوم الثامن.",
+      "Coptic": "  Marousi]ipi `ncesi]w]> `nje ni\\erecic throu etcwf> eucwtem `mPauloc> je `anok `oucebi =en pima\\ `]mhn `n`e\\o`ou.",
+      "English": "+ Let all the heretics, be put to shame and humiliated, and let them hear what Paul is saying, I was circumcised on the eighth day.",
+      "Arabiccoptic": " مارو تشيشيبى إنسيتشى شوش: إنجى نى هيراسيس تيرو إتسوف: إفسوتيم إمبافلوس: جى آنوك أوسيفى خين بيماه إشمين إن إيهوؤ . ",
+      "Englishcoptic": "Maroo chi-shipi en-sechi-shoosh: enje ni-heresis teeroo et-soof: evsotem em-Pavlos: je anok oosevi khen pimah eshmeen en-eho-ooo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويدلنا علي المسيح أنه قبل الختان في اليوم الثامن كناموس موسي.",
+      "Coptic": "Ef;mhini nan `ejen Pxc?> je af]wp `erof `mpicebi> =en pima\\ `]mhn `n`e\\o`ou> kata `vnomoc `mMw`uchc.",
+      "English": "And he told us about Christ, that He accepted circumcision, on the eighth day, according to the Law of Moses.",
+      "Arabiccoptic": " إفتى مينى نان إيجين بخرستوس: جى أفشوب إيروف إمبى سيفي: خين بى ماه إشمين إن إيهوؤ: كاطا إفنو موس إممو إيسيس . ",
+      "Englishcoptic": "Efti-meeini nan ejen Pikhrisots: je af-shoop erof empisevi: khen pimah eshmeen en-eho-ooo: kata ev-nomos em-Moisees."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "هلليلويا هلليلويا هلليلويا هلليلويا يسو ع المسيح ابن الله قبل إليه الختان كما ينبغي بالناموس.",
+      "Coptic": "  Allhlouia Allhlouia> allhlouia Allhlouia> Ihc? Pxc? `p}hri `m`V;> af]wp `erof `mpicebi.",
+      "English": "+ Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, accepted unto Himself circumcision.",
+      "Arabiccoptic": " الليلويا الليلويا الليلويا الليلويا: ايسوس بخرستوس إبشيرى إمفنوتى: إفشوب إيروف إمبى سيفى . ",
+      "Englishcoptic": "Alleloia Alleloia: Alleloia Alleloia: Isos Pikhrisots epSheeri em-Evnoti: afshoop -erof empisevi."
+    }
+  ]
+}

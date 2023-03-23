@@ -22,28 +22,6 @@
       "English": "Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, was baptized in the Jordan.",
       "Arabiccoptic": "الليلويا الليلويا : ايسوس بي اخريستوس ابشيري ام افنوتي : افتشي اومس خين بي يورذانيس  .",
       "Englishcoptic": "Alleloia, alleloia, alleloia, alleloia, Esos Pikhrestos Ep-shiri Emif-noti, fe-etaf-masf khen Veth-leem."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "هذا الذى ينبغى له المجد، مع أبيه الصالح، والروح القدس، من الآن وإلى الأبد",
-      "Coptic": "Vai `ere pi`wou er`prepi naf > nem Pefiwt `nagaqoc > nem Pip/n/a/ e/q/u/ > icjen ;nou nem ]a `ene\\ .",
-      "English": "This is He to whom is due glory, with His good Father, and the Holy Spirit, both now and forever.",
-      "Arabiccoptic": "فاى إيرى بى أو أوو إريب ريبى ناف، نيم بيف يوت إنا غاثوس، نيم بى إبنڤما إثؤاب، يسچين تينو نيم شا إنيه",
-      "Englishcoptic": "Fay ere pi oo erep reby naf, nem pek yot enaghathos, nem pi epnevma ethowab, Yes gen tee no nem sha eneh."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "لأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.",
-      "Coptic": "Je `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.",
-      "English": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
-      "Arabiccoptic": "جى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.",
-      "Englishcoptic": "Je ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas."
     }
   ]
 }

@@ -41,6 +41,54 @@
         },
         {
             "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologyOurLord",
+            "Rule": 0,
+            "Visible": "isBigFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologyMary",
+            "Rule": 0,
+            "Visible": "isBigFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologyHeavenlies",
+            "Rule": 0,
+            "Visible": "isBigFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologyApostles",
+            "Rule": 0,
+            "Visible": "isBigFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologyMartyrs",
+            "Rule": 0,
+            "Visible": "isBigFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologySainsts",
+            "Rule": 0,
+            "Visible": "isBigFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologyFathers",
+            "Rule": 0,
+            "Visible": "isBigFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundayAdamConclusion",
+            "Rule": 0,
+            "Visible": "isBigFeast"
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseLitanyTravelers",
             "Rule": 0,
             "Visible": "showLitanyOfTravelers"
@@ -97,7 +145,31 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncenseLentLitanies",
+            "Rule": 0,
+            "Visible": "isLentWeekdayOrJonah"
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseLitanyOfGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePsalmResponses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePsalmAndGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponses",
             "Rule": 0,
             "Visible": true
         },

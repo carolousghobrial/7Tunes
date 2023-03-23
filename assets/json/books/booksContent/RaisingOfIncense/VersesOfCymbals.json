@@ -15,339 +15,123 @@
             "Englishcoptic": "Kerie leysoun"
         },
         {
-            "Type": "Base",
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsWatos",
             "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "نسجدُ للابِ والابنِ والروحِ القدس. الثالوث القدوس المساوي في الجوهرِ.",
-            "Coptic": "Tenouw]t `m`Viwt   nem ` P]hri   >    nem Pi`pneuma eqouab > :`triac eqouab n~oumooucioc.",
-            "English": "We worship the Father and the Son,and the Holy Spirit, the Holy Trinity one in essence.",
-            "Arabiccoptic": "تين أووأوشت إم إفيوت : نيم إبشيري نيم بي بنيفما إثؤواب: : تي تيرياس إثؤواب : إن أو موؤوسيوس .",
-            "Englishcoptic": "Ten O osht Em Efiot, Nem Epshiry, nem Pi Epnevma Ethoab, Ti Etrias Ethoab, En O mo Osios."
+            "Visible": "isWatos"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsAdam",
+            "Rule": 0,
+            "Visible": "isAdam"
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyAdamMorningDoxology",
+            "Rule": 0,
+            "Visible": "isBigFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesOfCymbalsNayrooz",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesOfCymbalsCross",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsNativity",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsCircumcision",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTheophany",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsWeddingCana",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPresentationTemple",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesCymbalsAnnunciation",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsLentWeekends",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPalmSunday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsCovenantThursday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsRessurection",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsEntryEgypt",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsAscension",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPentecost",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTransfiguration",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "السلامُ للكنيسةِ، بيت الملائكة. السلام للعذراء، التي ولدتْ مخلصنا.",
-            "Coptic": "Xere :ek`klhcia >`phi n~te niaggeloc > xere ;parqenoc > `etacmec Pencwthr.",
-            "English": "Hail to the Church, the house of the angels, Hail to the Virgin who gave birth to our Savior.",
-            "Arabiccoptic": "\b شيري تي إكليسيا : إب إي إنتيه ني إنجيلوس : شيري تي بارثينوس : إتاسميس بين سوتير .",
-            "Englishcoptic": "Shere Ti Eklicia, Ep E ente ni angelos, Shere Ti Parthenos, Etas Mis Pen Soteer."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "تعالوا فلنسجد للثالوث القدوس. الذي هو الاب والابن والروح القدس.",
-            "Coptic": "Amwini marenouw]t > `n:`triac eqouab > `ete ` Viwt nem ` P]hri >  nem Pi`pneuma  eqouab.",
-            "English": "O come let us worship the Holy Trinity, the Father and the Son and the Holy Spirit.",
-            "Arabiccoptic": "آمويني مارين أووأوشت : إن تي ترياس إثؤواب : إتيه إفيوت نيم إبشيري : نيم بي بنيفما إثؤواب  .",
-            "Englishcoptic": "\b Amoiny Maren O Osht, En Ti etrias Ethoab, Ete Efiot Nem Epshiri, Nem Pi Epnevma Ethoab."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "نحن الشعوب المسيحيين لأن هذا هو الهنا الحقيقي.",
-            "Coptic": "Anon =a nilaoc > `n`xrictianoc > vai gar pe Pennou; > `n`alhqinoc.",
-            "English": "We are the Christian people, for He is our true God.",
-            "Arabiccoptic": "آنون خا ني لاؤس :إنخريستيانوس : فاي غار بيه بين نووتي : إن أليثينوس .",
-            "Englishcoptic": "\b Anon Khani Laos, En Ekhristianos, Fai Ghar Pe Pennoty, En Alithinos."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "يوجد لنا رجاء في القديسة مريم. أن الله يرحمنا     بشفاعتها.",
-            "Coptic": "Ouon ou \\elpic `ntan > =en qheqouab Mari`a > `ere `Vnou; nai nan > \\iten nec`precbi`a.",
-            "English": "We put our hope in Saint Mary, that God will have mercy on us through her intercessions.",
-            "Arabiccoptic": "أوؤن أو هيلبيس إنتان :خين ثى أثؤواب ماريا .  إيريه إفنوتى ناى نان هيتين نيس إبريسفيا .",
-            "Englishcoptic": "\b O Own O Helpis Entan, Khen Thi Ethoab Maria, Ere Evnouti Nai Nan, Hiten Nes Eprisvia."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "بارك إكليل [هذه] السنة، بصلاحك يا رب، الأنهار والينابيع، والزروع والأثمار.",
-            "Coptic": "Cmou `epi`xlom `nte ;rompi> \\iten tekmet`xrhctoc `Poc?> niiarwou nem nimoumi> nem nici; nem nikarpoc.",
-            "English": "Bless the crown of the year, with Your goodness O Lord, the rivers and the fountains, the plants and the fruits.",
-            "Arabiccoptic": "إزموا إيه بي إكلوم انتيه تي رومبي، هيتين تيك ميت إخريستوس إبشويس، ني أروؤ نيم ني مومي، نيم ني سيتي نيم ني كاربوس.",
-            "Englishcoptic": "Esmou epi-ekloum ente ti-rompi, hiten tek-met-ekhrestos Epchois, ni-ya-ro-oo nem ni-moumi, nem ni-siti nem ni-karpous."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "السلام للصليب، الذي صُلِبَ عليه ربي، السلام للقبر، الذي وُضِعَ فيه جسده.",
-            "Coptic": "Xere Pi`ctauroc> `etaue] Pasoic `erof> xere pi`m\\au> `etauxw `mPefcwma `n=htf.",
-            "English": "Hail to the Cross, which my Lord was crucified upon, hail to the grave, where they placed His Body.",
-            "Arabiccoptic": "شيرى بى ستاﭭروس : إطاﭪ باتشويس إيروف : شيرى بى إمهاﭪ : إطاﭪ كو إمبيف سوما إنخيتف .",
-            "Englishcoptic": "Shere Pi-estavros: etav-esh Pachois erof: shere pi-emhav: etavko emPef-soma enkheetf."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "الصليب هو سلاحنا، الصليب هو رجاؤنا، الصليب هو ثباتنا، في ضيقاتنا وشدائدنا.",
-            "Coptic": "Pi`ctauroc pe pen\\oplon> Pi`ctauroc pe ten\\elpic> Pi`ctauroc pe pentajro> =en nen\\oj\\ej nem nen`qliyic.",
-            "English": "The Cross is our weapon, the Cross is our hope, the Cross is our confirmation, in our struggles and sufferings.",
-            "Arabiccoptic": "\b بى ستاﭭروس بى بين هوبلون : بى ستاﭭروس بى تين هيلبيس : بى ستاﭭروس بى تين تاجرون : خين نين هوج هيج نيم نين ثليبسيس .",
-            "Englishcoptic": "Pi-estavros pe pen-hoplon: Pi-estavros pe ten-helpis: Pi-estavros pe pen-tagro: khen nen-hogheg nem nen-ethlip-sis."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "ميلاد بتولي و طلق روحي عجيب ممجد حسب الأخبار النبوية.",
-            "Coptic": "‘Pjinmici `mparqenikon> ouo\\ ninak\\i `m`pneumatikon> ou`]vhri `mparado[on> kata ni`cmh `m`provhtikon.",
-            "English": "The virginal birth, and the spiritual emissions, are an amazing wonder, according to the prophets.",
-            "Arabiccoptic": "بي جين ميسي امبارثينيكون : اووه ني ناكهي ام ابنيفماتيكون : او اشفيري امباراذوكسون : كاطاني اسمي امبروفيتيكون .",
-            "Englishcoptic": "Epjenmisi em-parthenikon , owoh ni nakhi emepnevma-tikon , o-eshvery empara-zaxon , kata ni-esmi emepro-phitikon."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "السلام لبيت لحم مدينة الأنبياء التي ولد فيها المسيح أدم الثاني.",
-            "Coptic": "Xere Bhqleem> `tpolic `nni`provhthc> qh`etaumec Pxc? `n=htc> pima\\`cnau `nAdam.",
-            "English": "Hail to Bethlehem, the city of the prophets, where Christ was born, the second Adam.",
-            "Arabiccoptic": "شيرى بيثليئيم : اتبوليس انني ابروفيتيس : ثي ايطافميس بي خريستوس انخيتس : بي ماه اسناف ان آدام  .",
-            "Englishcoptic": "Shere Vethle-em , etpolis eni-eprophitis , thi-etav mes pikhristos enkhets , pi-mah esnav en-Adam."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "هذا هو إبني حبيبي الذي سُرّت به نفسي وصنع مشيئتي له إسمعوا لأنه هو المحيي.",
-            "Coptic": "Je vai pe Pa]hri pamenrit> `eta tayuxh ;ma;  `n=htf> je af`erpa`ou`w] cwtem `ncwf> je `nqof pe pireftan=o.",
-            "English": "\"This is My beloved Son, with whom My soul is well pleased, He does My will hear Him, for He is the life-Giver.\"",
-            "Arabiccoptic": "جى فاي بى باشيري بامين ريت ايطاطا ابسيشي تي ماتي إنخيتف آفئير با اؤوش سوتيم انسوف جي انثوف بيه بي ريف طانخو  .",
-            "Englishcoptic": "Je fai pe pashiri pa-menrit , eta-ta epseeky timati enkhits , af-er pa-o-osh sotem ensof, je enthof pe pi-ref tankho."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "تهلل مثل الحملان أيها الاردن وبريته فقد أتي إليك الحمل حامل خطية العالم.",
-            "Coptic": "Qelhl `m`vr\\; `n\\an\\ihb> w piIordanhc nem pef`drimoc> je af`i ]arok `nje pi\\ihb> vhetwli `m`vnobi `mpikocmoc.",
-            "English": "Rejoice like the lambs, O Jordon and it´s shores, for unto you came the Lamb, who carries the sin of the world.",
-            "Arabiccoptic": "ثيليل إم إفريتي إنهان هيب : أوبي يوردانيس نيم بيف ذريموس : جي افئي شاروك انجي بي هييب : في اتولي ام افنوفي امبي كوزموس  .",
-            "Englishcoptic": "Thelel emefrity enhan-heyeeb , opi yordanees nem pef-ezrimos , je af-ee sharok enje pi-heyeeb, vi et-oli emef-novi empi-kosmos."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "إسم فخر هو إسمك يا نسيب عمانوئيل أنت عظيم في جميع القديسين يا يوحنا المعمدان.",
-            "Coptic": "Ouran `n]ou]ou pe pekran> `w picuggenhc `nEmmanouhl> `nqok `ouni]; =en nheq?u? throu> Iwannhc piref;wmc.",
-            "English": "A name of pride is your name, O reletive of Emmanuel, for you are great among all the saints, O John the Baptist.",
-            "Arabiccoptic": "اوران انشوشو بى بيك ران : اوبي سينجنيس ان اممانوئيل : انثوك اونيشتي خين ني اثؤواب تيرو : يوأنس بي ريفتي اومس  .",
-            "Englishcoptic": "Ooran en-shosho pe-pekran , opi sen-genees en-emanoeel , enthok onishty khen ni-ethowab tiro, Yo-annes pi-refti oms."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "طأطأ سماء السموات، وجاء إلى بطن العذراء، وصار إنساناً مثلنا، ما خلا الخطية وحدها.",
-            "Coptic": "Afrek nivhou`i `nte nivhou`i> af`i eqmhtra `n:parqenoc> aferrwmi `mpenrh;> ]aten `vnobi `mmauatf.",
-            "English": "He bowed the heaven of heavens, and came to the womb of the Virgin, He became man like us, except for sin alone.",
-            "Arabiccoptic": "آفريك نييئوى إنتى نيفيئوى أفئى إى إثميترا إننى بارثينوس أفئيو رومى إمين ريتى شاتين إفنوتى إممافاتف .",
-            "Englishcoptic": "Afrek ni-fi-owi ente ni-fi-owi: af-ee ethmeetra enTi-parthenos: af-er-romi empen-reeti: shaten evnovi em-mavatf."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "السلام للتي وجدت نعمة، الرب معكِ، السلام للتي قبلت من الملاك، فرح العالم.",
-            "Coptic": "Xere qh`etacjem `\\mot> `Psoic ]op neme> xere qh`etacsi `nten piaggeloc> `m`vra]i `mpikocmoc.",
-            "English": "Hail to you who has found grace, the Lord is with you, hail to you who accepted from the angel, the joy of the world",
-            "Arabiccoptic": "شيرى ثي ايطاس جيم اهموت ابتشويس شوب نى مى  .  شيريه ثى ايطاس اتشي انتين بي انجيلوس ام افراشي امبي كوزموس .",
-            "Englishcoptic": "Shere thee-etasjem ehmot: Epchois shop neme: shere thee-etaschi enten pi-angelos: em-evrashi empi-kosmos."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "ربنا يسوع المسيح، صام عنا، أربعين يوماً وأربعين ليلة، حتي خلصنا من خطايانا.",
-            "Coptic": "A pen_ Ihc?  Pxc? > ernhcteuin `e`\\rhi `ejwn> `n`\\me `n`e\\o`ou nem `\\me `n`ejwr\\> ]a `ntefcwtten =en nennobi.",
-            "English": "Our Lord Jesus Christ, fasted for us, forty days and forty nights, to save us from our sins.",
-            "Arabiccoptic": "أبينشويس أيسوس بخرستوس، إرنستيڤين إى اهرى ايجون، انيهميه ان ايهؤو نيم اهمية ان ايجوره، شا إنتيف سوتين خين نينوڤى.",
-            "Englishcoptic": "A penshois Esos Pekhrestos, ernis-teven e-ehree e-goon, enehme enho-o nem ehme en-e-gorh, sha entef sotten khen nen-novi."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "ونحن أيضاً فلنصم، بطهارة وبر ،ونصلي، صارخين قائلين.",
-            "Coptic": "`Anon \\wn maren ernhcteuin> =en `outoubo nem `oumeqmhi> ouo\\ `nten`er `proc`euxecqe> en`w] `ebol enjw `mmoc.",
-            "English": "And we too let us fast, with purity and righteousness, and let us also pray, proclaiming and saying.",
-            "Arabiccoptic": "أنون هون مارين ارنيستڤين، خين أوتوڤو نيم أو ميثمى، أووه انتين إر ابروس إفشستى، انؤوش ايڤول انجو إموس.",
-            "Englishcoptic": "Anon hon maren ernestevin, khen o-tovo nem o-methme, owoh enten er-epros-evsheste, enosh evol engo emmos."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "أبانا الذي في السموات، ليتقدس إسمك، ليأت ملكوتك، لأن لك المجد إلي الأبد",
-            "Coptic": "Je peniwt et=en nivh`ou`i> mareftoubo `nje pekran> mareci `nje tekmet`ouro> je vwk pe pi`w`ou",
-            "English": "Our Father who art in heaven, hallowed be Your name, may Your kingdom come, for Yours is the glory forever.",
-            "Arabiccoptic": "چي بينيوت اتخين نى فيئوى، مارفتوڤو انچى بيكران، مارسئى إنچى تيك ميتؤرو، چى فوك بي بي ؤوؤو شا نى اينيه.",
-            "Englishcoptic": "Je peniot etkhenne fe-owi, maref tovo enje pekran, mares-e enje tekmetoro, j"
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "أوصنا فى الأعالى .  هذا هو ملك اسرائيل .مبارك الآتى. باسم رب القوات .",
-            "Coptic": "`Wcanna =en nhetsoci> vai pe `Pouro `mPicrahl> `f`cmarwout `nje vheqnhou> =en `vran `m`Psoic `nte nijom.",
-            "English": "Hosanna in the highest, this is the King of Israel, blessed is He who comes in the name, of the Lord of hosts.",
-            "Arabiccoptic": "أوصنا خين نى إتتشوسى . فاى بى إبؤروإمبسرائيل . إف إزمارؤوت إنجى فى إثنيو . خين إفران إمبشويس إنتى نى جوم.",
-            "Englishcoptic": "\bOsanna khen ni etchoci - fai pe ep oro empi-Israel : efes-maro-ot enje vi ethnio : khen efran em epshios ente ni gom."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "الجالس فوق الشاروبيم . ركب على جحش . ودخل أورشليم . ماهو هذا التواضع العظيم.",
-            "Coptic": "Vhet\\emci \\ijen Nixeroubim> aftalof `eou`e`w> af]e `e=oun `eIeroucalhm> oupe paini]; `nqebio.",
-            "English": "He who sits upon the Cherubim, rode on a donkey, He entered Jerusalem, oh what this great humility.",
-            "Arabiccoptic": "فى إتهيمسى هيجين نى شيروبيم. أفطالوف إى أو إ أو . أفشى إيخون إيروساليم. أوبى باى نيشتى إن ثيفيو.",
-            "Englishcoptic": "Vi-et-hemsi hijen ni sherobim : aftalof e-oo e-oo : afshe ekhon eYerosalim : ope pai nishti en-thevio."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "جسدك ودمك . هما غفران خطايانا . مع العهد الجديد . الذى أعطيت لتلاميذك . ",
-            "Coptic": "Picwma nem pi`cnof `ntak > pe `pxw `ebol `nte nennobi > nem ;di`aqhkh `mberi > `etakthic `nnekmaqhthc.",
-            "English": "Your body and Blood, are the forgiveness of sins, and the New Covenant, that You gave to Your disciples.",
-            "Arabiccoptic": "بى سوما نيم بى إسنوف إنطاك. بى إبكو إيفول إنتى نين نوفى. نيم تى ذياثيكى إمفيرى. إيطاكتيس إن نيك ماثيتيس.",
-            "Englishcoptic": "Peesoma nem peeesnof entak : pe epko evol ente nen-novee : nem tee-zeya-theekee emveree : etek tees ennek-matheetees. "
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "المسيح الهنا : قام من بين الاموات : و هو بكر: المضطجعين  .",
-            "Coptic": "A Pxc?  Pennou;> twnf `ebol =en nheqmwout> `nqof pe `t`aparxh> `nte nh`etauenkot.",
-            "English": "Christ our God, has risen from the dead, He is the first-fruit, of those who departed.",
-            "Arabiccoptic": "ابيخريستوس بينوتي : طونف ايفول خين ني اثموؤت : انثوف بي ات ابارشي : انتى ني ايطاف انكوت  .",
-            "Englishcoptic": "Apekhrestos pennouti, tonf evol khenni-ethmo-ot, enthof pe-et-aparshe, ente ny-etav-enkot."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "السلام لقيامته : لما قام من بين الأموات : لكي يخلصنا: من خطايانا  .",
-            "Coptic": "Xere Tef`anactacic> `etaftwnf `ebol =en nheqmwout> ]a `ntefcw; `mmon> `ebol =en nennobi.",
-            "English": "Hail to His Resurrection, when He rose from the dead, that He may save us, from our sins.",
-            "Arabiccoptic": "شيرى تيف اناسطاسيس : ايطاف طونف ايفول خين ني اثمؤوت : شا انتيف سوتي اممون : ايفول خين نين نوفي  .",
-            "Englishcoptic": "Shere tef-anastasis , etaf-tonf evol khen ni-ethmo-oot , sha entef-soti emon , evol khen nen-novi."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "وأيضاً وُضع في القبر : حسب الاخبار النبوية: وفي اليوم الثالث : قام المسيح من بين الأموات  .",
-            "Coptic": "Loipon auxaf =en pi`m\\au> kata ni`cmh `m`provhtikon> =en pima\\]omt `n`e\\oou> Pi`xrictoc `anecth ek nekrwn.",
-            "English": "Moreover He was placed in the tomb, according to the prophetic voices, on the third day, Christ rose from the dead.",
-            "Arabiccoptic": "ليبون افكاف خين بي امهاف : كاطا ني اسمي ام بروفيتيكون : خين بي ماه شمت ان ايهؤوؤ : بي خريستوس انيستي اكنيكرون  .",
-            "Englishcoptic": "Leepon av-qav khen pi-emhav, kata ni-esmi emep-rofe-tikon, khen be-mah shomte-en-eho-oo, Pikh-restos anisti ek-nekron."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "المسيح إلهنا، قام من بين الأموات، وصعد إلى السموات، وجلس عن يمين أبيه.",
-            "Coptic": "A Pi`xrictoc Pennou;> twnf `ebol =en nheqmwout> ouo\\ af]enaf `e`p]wi `enivhou`i> af\\emci caou`inam `mPefiwt.",
-            "English": "Christ our God, has risen from the dead, and ascended into the heavens, and is seated at the right hand of His Father.",
-            "Arabiccoptic": "آ بخرستوس بينوتى: طونف إيﭭول خين نى إثموأووت:أووه أفشيناف اى إبشوى إنيفي أوى:أفهيمسى صاأووى نام إمبيف يوت .",
-            "Englishcoptic": "A Pikhrestos Pennouti, tonf evol khen ni-ethmo-oot, owoh afshenaf e-epshoi enifee-owee, af-hemsi sa-owee-naam empif-yout."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "السلام لصعوده، لما صعد إلى السموات، بمجد وإكرام، جلس عن يمين أبيه.",
-            "Coptic": "Xere Tef`analumyic> `etaf]enaf `e`p]wi `enivhou`i> =en ou`wou nem outaio> af\\emci caou`inam `mPefiwt.",
-            "English": "Hail to His Ascension, in which He ascended into the heavens, in glory and honor, He is seated at the right hand of His Father.",
-            "Arabiccoptic": "\b شيرى تيف أناليم إبسيس:إيطاف شيناف اى إبشوي اى نيفيؤ أوى : خين أووأوأوو نيم أوو طايو: أفهيمسى سا أوى نام إمبيف يوت .",
-            "Englishcoptic": "Shere tef-analeem-ebsees, etaf-shenaf epshoi e-nifee-owee, khen oo-o-oo nem oo-taio, af-hemsi sa-owee-naam empif-yout."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "صعد إلى سماء السموات، ناحية المشارق، لكي يرسل لنا البارقليط، روح الحق.",
-            "Coptic": "Af]enaf `e`p]wi `e`tve> `nte `tve ca nima `n]ai> \\ina `ntefouwrp nan `mPiparaklhton> Pi`pneuma `nte ;meqmhi.",
-            "English": "He ascended into the heaven, of heavens towards the East, that He may send us the Paraclete, the Spirit of Truth.",
-            "Arabiccoptic": "\b أف شيناف اى إبشوي اى إتفى سا نى ما إنشاى: هيناإنتيف أووأورب نان إم بى باراكليتون: بى إبنيﭭما إنتى تى ميثمى .",
-            "Englishcoptic": "Afeshnaf e-epshoi e-etfe : ente etfe sani-manshai : hina entef o-orp nan empi parakleeton : pi-epnevma ente ti-methmi."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "المسيح إلهنا، قام من بين الأموات، وصعد إلى السموات، وأرسل لنا البارقليط.",
-            "Coptic": "` `A Pi`xrictoc Pennou;> twnf `ebol =en nheqmwout> ouo\\ af]enaf `e`p]wi `enivhou`i> afouwrp nan `mPiparaklhton.",
-            "English": "Christ our God, has risen from the dead, and ascended into the heavens, and sent us the Paraclete.",
-            "Arabiccoptic": "\b آ بخرستوس بينوتى: طونف إيﭭول خين نى إثمواووت: أووه أفشيناف اى إبشوى إنيفيؤى: أف اواورب نان إمبى باراكليتون .",
-            "Englishcoptic": "A Piekristos Pennooti: tonf evol khen nee ethmo-oot: owoh afshenaf e-epshoi eni-fiowi: af o-oorp nan emPi-parakleeton."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "السلام لصعوده، لما صعد إلى السموات، وأرسل لنا البارقليط، روح الحق.",
-            "Coptic": "Xere Tef`analumyic> `etaf]enaf `e`p]wi `enivhou`i> afouwrp nan `mPiparaklhton> Pi`pneuma `nte ;meqmhi.",
-            "English": "Hail to His Ascension, in which He ascended into the heavens, and sent the Paraclete, the Spirit of Truth.",
-            "Arabiccoptic": "\b شيرى تيف أنالى إبسيس: إيطاف شيناف اى إبشوى إى نيفيؤى أف اواورب نان إم بى باراكليتون: بى إبنيﭭما إنتى تى ميثمى .",
-            "Englishcoptic": "Shere Tef analimpsis: etaf shenaf e-epshoi eni fi-owi: af-o-oorp nan emPi-parakleeton: Pi-epnevma ente ti-methmeei."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "الروح المعزي، لما نزل من السماء، إنبسط على كل واحد، فنطقوا بأسنة كثيرة.",
-            "Coptic": "Pi`pneuma `mparaklhton> `etaf`i `epecht `ebol =en `tve> afvwr] `ejen `vouai `vouai> aucaji =en \\anmh] `nlac.",
-            "English": "The Spirit of Comfort, came down from heaven, resting upon each one, and they spoke in many tongues.",
-            "Arabiccoptic": "\b بى إبنيﭭما إم باراكليتون إيطاف اى إيبيسيت إيﭭول خين إتفى: أف فوش إيﭼين إف أوواى أوواى: أﭫ ساﭼى ذى خين هان ميش إن لاس .",
-            "Englishcoptic": "Pi-epnevma emparakleeton: etaf-ee epeseet evol khen etve: af-vorsh ejen ef-owai ef-owai: av-saji khen hanmeesh enlas."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "North",
             "Arabic": "السلامُ لكِ يا مريمُ الحمامة الحسنة التي ولدت لنا الله الكلمة.",
             "Coptic": "Xere ne Mari`a > ;`srompi eqnecwc > qh`etacmici nan >  `m`Vnou; pilogoc.",
@@ -358,7 +142,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "South",
             "Arabic": "السلام لكِ يا مريمُ. سلاماً مقدساً. السلام لكِ يامريمُ، أم القدوس.",
             "Coptic": "Xere ne Mari`a > =en ouxere efouab > xere ne Maria > `qmau `mvheqouab.",
@@ -369,7 +153,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "North",
             "Arabic": "السلام لميخائيل رئيس الملائكة العظيم. السلام لغبريال المبشر المختار.",
             "Coptic": "Xere Mixahl> pini]; `n`arxi`aggeloc > xere Gabrihl  > picwtp `mpifai]ennoufi.",
@@ -380,7 +164,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "South",
             "Arabic": "السلام لميخائيل : رئيس الملائكة العظيم : المنادي بالخلاص : الذي للقيامة",
             "Coptic": "Xere Mixahl> pini]; `narxhaggeloc> pi`xriman `nougai> `nte :`anactacic.",
@@ -391,7 +175,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "North",
             "Arabic": "السلام لغبريـال، رئيس الملائكة العظيم، السلام للذي بشَّر، مريم العذراء.",
             "Coptic": "Xere Gabrihl> pini]; `narxhaggeloc> xere vh`etaf\\i]ennoufi> `mMaria :parqenoc.",
@@ -402,7 +186,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "South",
             "Arabic": "السلام للشاروبيم. السلام للسيرافيم. السلام لجميع الطغمات السمائية.",
             "Coptic": "Xere Nixeroubim > xere Niceravim > xere nitagma throu> `n`epouranion.",
@@ -413,7 +197,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "North",
             "Arabic": "السلام ليوحنا، السابق العظيم. السلام للكاهن، نسيب عمانوئيل.",
             "Coptic": "Xere Iwannhc> pini]; `m`prodromoc > xere piouhb > `pcuggenhc `nEmmanouhl.",
@@ -424,7 +208,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "South",
             "Arabic": "السلام لساداتي الأباء، الرسل، السلام لتلاميذ، ربنا يسوع المسيح.",
             "Coptic": "Xere nasoic `nio; > `n`apoctoloc > xere nimaqhthc > `nte Pen_ Ih/c/ Px/c/.",
@@ -435,7 +219,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "North",
             "Arabic": "السلام لكَ إيها الشهيد. السلام للإنجيلي. السلام للرسول مرقس، ناظر الإله.",
             "Coptic": "Xere nak `w pimarturoc > xere pieuaggelicthc > xere pi`apoctoloc > Markoc piqe`wrimoc.",
@@ -444,20 +228,15 @@
             "Englishcoptic": "Shere Nak O pi Martyros, Shere Pi Ev Angelistis, Shere Pi Apostolos, Markos Pi Theorimos."
         },
         {
-            "Type": "Base",
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsLazarusSaturday",
             "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "السلام للعازر الذي أقامه، بعد أربعة أيام، أقم قلبي يا ربي يسوع، الذي قتله الشرير.",
-            "Coptic": "Xere Lazaroc vh`etaftounocf> menenca `ftoou `n`e\\oou> matounoc pa\\ht Pasoic Ihcouc> vh`etaf=oqbef `nje pipet\\wou.",
-            "English": "Hail to Lazarus whom He raised, after four days, raise my heart O my Lord Jesus, that was killed by the evil one.",
-            "Arabiccoptic": "شيرى لازاروس فيئطاف تونوسف. ميننسا إفتو إن إيهوؤ. ماطونوس باهيت باشويس إيسوس. فيئطاف خوثفيف إنجى بى بيتهو أو .",
-            "Englishcoptic": "Shere Lazaaros vi-etaf tonosf : men-ensa efto en-eho-oo : matonos paheet Pachois Isos : vi-etaf khoth-vef enje pi-pet ho-oo"
+            "Visible": "isSeason"
         },
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "South",
             "Arabic": "السلام لاسطفانوس، أول الشهداء. السلام لرئيس الشمامسة المبارك.",
             "Coptic": "Xere ` Ctevanoc > pi]orp `mmarturoc > xere piarxidi`akwn > ouo\\ et`cmarwout.",
@@ -468,18 +247,18 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "North",
             "Arabic": "السلام لكَ أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد  سيدي الملك جيؤرجيوس.",
             "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Pasoic `pouro Gewrgioc.",
             "English": "Hail to you, O martyr. Hail to the noble hero. Hail to the prize-bearer, George, my lord and prince.",
             "Arabiccoptic": "شيري ناك أو بي مارتيروس : شيري بي شويج إن جينيؤس : شيري بي أثلوفوروس :باتشويس إب أوورو جيؤرجيوس  .",
-            "Englishcoptic": "Shere Nak Opi Mar tyros, Shere Pi Shoig En Genni-os, shere pi athlofo ros, Pashois Eporo      Georgios."
+            "Englishcoptic": "Shere Nak Opi Mar tyros, Shere Pi Shoig En Genni-os, shere pi athlofo ros, Pashois Eporo Georgios."
         },
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "South",
             "Arabic": "السلام لكَ أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد  فيلوباتير مرقوريوس.",
             "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Viloupathr  Merkou\brioc.",
@@ -490,7 +269,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "North",
             "Arabic": "السلام لكَ أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد  القديس أبا مينا.",
             "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Pia~gioc a~pa M/na.",
@@ -501,7 +280,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "South",
             "Arabic": "بشفاعة والدة الإله القديسة مريم،   يا رب إنعم لنا بمغفرة خطايانا.",
             "Coptic": "|iten ni`precbi`a > `nte ;qe`otokoc eqouab Mari`a > P_ > `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
@@ -523,7 +302,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "showVersesOfCymbalsFestiveConclusion",
             "Side": "North",
             "Arabic": ". يسوع المسيح هو هو أمس واليوم وإلي الأبد باقنوم واحد نسجد له ونمجده.",
             "Coptic": "Ihc?  Pxc?  `ncaf nem vo`ou> `nqof `nqof pe nem ]a `ene\\> =en ou\\upoctacic `n`ou`wt> ten`ou`w]t `mmof ten]`w`ou naf.",
@@ -534,7 +313,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "showVersesOfCymbalsFestiveConclusion",
             "Side": "South",
             "Arabic": "يا ملك السلام أعطنا سلامك قرر لنا سلامك واغفر لنا خطايانا.",
             "Coptic": "`Pouro `nte ;\\irhnh> moi nan `ntek\\irhnh> cemni nan `ntek\\irhnh> xa nennobi nan `ebol.",
@@ -545,7 +324,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "showVersesOfCymbalsFestiveConclusion",
             "Side": "North",
             "Arabic": "فرق أعداء الكنيسة وحصنها فلا تتزعزع إلي الابد.",
             "Coptic": "Jwr `ebol `nnijaji> `nte ;ekklhcia> `aricobt `eroc> `nneckim ]a `ene\\.",
@@ -556,7 +335,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "showVersesOfCymbalsFestiveConclusion",
             "Side": "South",
             "Arabic": "عمانوئيل إلهنا في وسطنا الآن بمجد أبية والروح القدس.",
             "Coptic": "Emmanouhl penNou;> =en tenmh; ;nou> =en `p`w`ou `nte Pefiwt> nem pi`Pneuma eq?u?.",
@@ -567,7 +346,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "showVersesOfCymbalsFestiveConclusion",
             "Side": "North",
             "Arabic": "ليباركنا كلنا ويطهر قلوبنا ويشفي أمراض نفوسنا وأجسادنا.",
             "Coptic": "`Ntef`cmou `eron thren> `nteftoubo `nnen\\ht> `nteftalso `nni]wni> `nte nen`yuxh nem nencwma.",
@@ -578,7 +357,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "showVersesOfCymbalsFestiveConclusion",
             "Side": "South",
             "Arabic": "نسجد لك ايها المسيح مع ابيك الصالح والروح القدس لأنك [*COME/RISEN*] وخلصتنا. (ارحمنا)",
             "Coptic": "Ten`ou`w]t `mmok `w Pxc > nem Pekiwt `n`agaqoc> nem pi`Pneuma eq?u?.> je [*COME/RISEN*] akcw; `mmon. (Nai nan)",

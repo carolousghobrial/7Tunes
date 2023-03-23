@@ -109,10 +109,6 @@ const isSeason = (motherSource, path) => {
 
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
-  if (!isStandard(motherSource, path)) {
-    return false;
-  }
-
   if (todayPrayer) {
     switch (currentSeason.key) {
       case "COPTIC_NEW_YEAR":
@@ -169,18 +165,78 @@ const isSeason = (motherSource, path) => {
       case "NATIVITY_FAST":
         if (
           path.toLowerCase().includes("kiahk") &&
-          currentSeason.month === "Koiahk"
+          currentSeason.copticMonth === "Koiahk"
         ) {
+          return true;
+        }
+        return false;
+      case "JONAH_FEAST":
+        if (
+          path.toLowerCase().includes("jonah") &&
+          path.toLowerCase().includes("feast")
+        ) {
+          return true;
+        }
+        return false;
+      case "JONAH_FAST":
+        if (path.toLowerCase().includes("jonah")) {
+          if (path.toLowerCase().includes("first")) {
+            if (currentSeason.dayOfWeek === 1) {
+              return true;
+            }
+            return false;
+          }
+          if (path.toLowerCase().includes("second")) {
+            if (currentSeason.dayOfWeek === 2) {
+              return true;
+            }
+            return false;
+          }
+          if (path.toLowerCase().includes("third")) {
+            if (currentSeason.dayOfWeek === 3) {
+              return true;
+            }
+            return false;
+          }
+          if (path.toLowerCase().includes("feast")) {
+            return false;
+          }
           return true;
         }
         return false;
       case "GREAT_LENT":
         if (path.toLowerCase().includes("lent")) {
+          if (path.toLowerCase().includes("weekend")) {
+            if (
+              currentSeason.dayOfWeek === 6 ||
+              currentSeason.dayOfWeek === 7
+            ) {
+              return true;
+            }
+            return false;
+          }
+          return true;
+        }
+        return false;
+      case "LAZARUS_SATURDAY":
+        if (path.toLowerCase().includes("lazarus")) {
           return true;
         }
         return false;
       case "PALM_SUNDAY":
         if (path.toLowerCase().includes("palmsunday")) {
+          if (path.toLowerCase().includes("matins")) {
+            if (isMatins(motherSource, path)) {
+              return true;
+            }
+            return false;
+          }
+          if (path.toLowerCase().includes("vespers")) {
+            if (isVespers(motherSource, path)) {
+              return true;
+            }
+            return false;
+          }
           return true;
         }
         return false;
@@ -349,6 +405,87 @@ const showLitanyOfOblations = (motherSource, path) => {
   }
   return false;
 };
+const isLentWeekdayOrJonah = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.key === "JONAH_FAST") {
+    return true;
+  }
+  if (currentSeason.key === "GREAT_LENT") {
+    if (currentSeason.dayOfWeek !== 6 && currentSeason.dayOfWeek !== 7) {
+      return true;
+    }
+  }
+  return false;
+};
+const isWatos = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (
+    currentSeason.isWatos &&
+    isNOTLentWeekdayOrJonah(motherSource, path) &&
+    !isBigFeast(motherSource, path)
+  ) {
+    return true;
+  }
+
+  return false;
+};
+const isAdam = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (
+    currentSeason.isWatos ||
+    (isNOTLentWeekdayOrJonah(motherSource, path) &&
+      !isBigFeast(motherSource, path))
+  ) {
+    return false;
+  }
+
+  return true;
+};
+const isNOTLentWeekdayOrJonah = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  if (currentSeason.key === "JONAH_FAST") {
+    return false;
+  }
+  if (currentSeason.key === "GREAT_LENT") {
+    if (currentSeason.dayOfWeek !== 6 && currentSeason.dayOfWeek !== 7) {
+      return false;
+    }
+  }
+  return true;
+};
+const showVersesOfCymbalsFestiveConclusion = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  if (currentSeason.type === "feast") {
+    return true;
+  }
+  return false;
+};
+const showGospelResponseFestiveConclusion = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (
+    currentSeason.type === "feast" &&
+    currentSeason.key !== "FEAST_OF_CROSS" &&
+    currentSeason.key !== "FEAST_OF_CROSS_3" &&
+    currentSeason.key !== "PALM_SUNDAY"
+  ) {
+    return true;
+  }
+  return false;
+};
+const isBigFeast = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  console.log("HER");
+  if (
+    currentSeason.key === "NATIVITY" ||
+    currentSeason.key === "EPIPHANY" ||
+    currentSeason.key === "RESURRECTION"
+  ) {
+    return true;
+  }
+  return false;
+};
 
 const VisibleRules = {
   TennavRule: TennavRule,
@@ -371,5 +508,12 @@ const VisibleRules = {
   showLitanyOfDeparted: showLitanyOfDeparted,
   showLitanyOfTravelers: showLitanyOfTravelers,
   showLitanyOfOblations: showLitanyOfOblations,
+  isLentWeekdayOrJonah: isLentWeekdayOrJonah,
+  isNOTLentWeekdayOrJonah: isNOTLentWeekdayOrJonah,
+  isWatos: isWatos,
+  isAdam: isAdam,
+  showVersesOfCymbalsFestiveConclusion: showVersesOfCymbalsFestiveConclusion,
+  showGospelResponseFestiveConclusion: showGospelResponseFestiveConclusion,
+  isBigFeast: isBigFeast,
 };
 export default VisibleRules;

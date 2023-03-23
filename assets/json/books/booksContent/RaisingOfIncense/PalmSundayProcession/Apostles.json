@@ -40,8 +40,64 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ثُمَّ دَعَا تَلاَمِيذَهُ الاِثْنَيْ عَشَرَ وَأَعْطَاهُمْ سُلْطَاناً عَلَى أَرْوَاحٍ نَجِسَةٍ حَتَّى يُخْرِجُوهَا وَيَشْفُوا كُلَّ مَرَضٍ وَكُلَّ ضُعْفٍ. وَأَمَّا أَسْمَاءُ الاِثْنَيْ عَشَرَ رَسُولاً فَهِيَ هَذِهِ: الأَََوَّلُ سِمْعَانُ الَّذِي يُقَالُ لَهُ بُطْرُسُ وَأَنْدَرَاوُسُ أَخُوهُ. يَعْقُوبُ بْنُ زَبْدِي وَيُوحَنَّا أَخُوهُ. فِيلُبُّسُ وَبَرْثُولَمَاوُسُ. تُومَا وَمَتَّى الْعَشَّارُ. يَعْقُوبُ بْنُ حَلْفَى وَلَبَّاوُسُ الْمُلَقَّبُ تَدَّاوُسَ. سِمْعَانُ الْقَانَوِيُّ وَيَهُوذَا الإِسْخَرْيُوطِيُّ الَّذِي أَسْلَمَهُ. هَؤُلاَءِ الاِثْنَا عَشَرَ أَرْسَلَهُمْ يَسُوعُ وَأَوْصَاهُمْ قَائِلاً: «إِلَى طَرِيقِ أُمَمٍ لاَ تَمْضُوا وَإِلَى مَدِينَةٍ لِلسَّامِرِيِّينَ لاَ تَدْخُلُوا. بَلِ اذْهَبُوا بِالْحَرِيِّ إِلَى خِرَافِ بَيْتِ إِسْرَائِيلَ الضَّالَّةِ. وَفِيمَا أَنْتُمْ ذَاهِبُونَ اكْرِزُوا قَائِلِينَ: إِنَّهُ قَدِ اقْتَرَبَ مَلَكُوتُ السَّمَاوَاتِ. ﭐِشْفُوا مَرْضَى. طَهِّرُوا بُرْصاً. أَقِيمُوا مَوْتَى. أَخْرِجُوا شَيَاطِينَ. مَجَّاناً أَخَذْتُمْ مَجَّاناً أَعْطُوا",
-      "English": "And when He had called His twelve disciples to [Him,] He gave them power [over] unclean spirits, to cast them out, and to heal all kinds of sickness and all kinds of disease. 2 Now the names of the twelve apostles are these: first, Simon, who is called Peter, and Andrew his brother; James the [son] of Zebedee, and John his brother; 3 Philip and Bartholomew; Thomas and Matthew the tax collector; James the [son] of Alphaeus, and Lebbaeus, whose surname was Thaddaeus; 4 Simon the Canaanite, and Judas Iscariot, who also betrayed Him. 5 These twelve Jesus sent out and commanded them, saying: \"Do not go into the way of the Gentiles, and do not enter a city of the Samaritans. 6 \"But go rather to the lost sheep of the house of Israel. 7 \"And as you go, preach, saying, 'The kingdom of heaven is at hand.' 8 \"Heal the sick, cleanse the lepers, raise the dead, cast out demons. Freely you have received, freely give."
+      "Arabic": "ثُمَّ دَعَا تَلاَمِيذَهُ الاِثْنَيْ عَشَرَ وَأَعْطَاهُمْ سُلْطَاناً عَلَى أَرْوَاحٍ نَجِسَةٍ حَتَّى يُخْرِجُوهَا وَيَشْفُوا كُلَّ مَرَضٍ وَكُلَّ ضُعْفٍ. ",
+      "English": "And when He had called His twelve disciples to [Him,] He gave them power [over] unclean spirits, to cast them out, and to heal all kinds of sickness and all kinds of disease. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وَأَمَّا أَسْمَاءُ الاِثْنَيْ عَشَرَ رَسُولاً فَهِيَ هَذِهِ: الأَََوَّلُ سِمْعَانُ الَّذِي يُقَالُ لَهُ بُطْرُسُ وَأَنْدَرَاوُسُ أَخُوهُ. يَعْقُوبُ بْنُ زَبْدِي وَيُوحَنَّا أَخُوهُ. ",
+      "English": "2 Now the names of the twelve apostles are these: first, Simon, who is called Peter, and Andrew his brother; James the [son] of Zebedee, and John his brother; "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فِيلُبُّسُ وَبَرْثُولَمَاوُسُ. تُومَا وَمَتَّى الْعَشَّارُ. يَعْقُوبُ بْنُ حَلْفَى وَلَبَّاوُسُ الْمُلَقَّبُ تَدَّاوُسَ. ",
+      "English": " 3 Philip and Bartholomew; Thomas and Matthew the tax collector; James the [son] of Alphaeus, and Lebbaeus, whose surname was Thaddaeus;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " سِمْعَانُ الْقَانَوِيُّ وَيَهُوذَا الإِسْخَرْيُوطِيُّ الَّذِي أَسْلَمَهُ. ",
+      "English": "4 Simon the Canaanite, and Judas Iscariot, who also betrayed Him. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " هَؤُلاَءِ الاِثْنَا عَشَرَ أَرْسَلَهُمْ يَسُوعُ وَأَوْصَاهُمْ قَائِلاً: «إِلَى طَرِيقِ أُمَمٍ لاَ تَمْضُوا وَإِلَى مَدِينَةٍ لِلسَّامِرِيِّينَ لاَ تَدْخُلُوا. ",
+      "English": " 5 These twelve Jesus sent out and commanded them, saying: \"Do not go into the way of the Gentiles, and do not enter a city of the Samaritans. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " بَلِ اذْهَبُوا بِالْحَرِيِّ إِلَى خِرَافِ بَيْتِ إِسْرَائِيلَ الضَّالَّةِ. ",
+      "English": " 6 \"But go rather to the lost sheep of the house of Israel. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وَفِيمَا أَنْتُمْ ذَاهِبُونَ اكْرِزُوا قَائِلِينَ: إِنَّهُ قَدِ اقْتَرَبَ مَلَكُوتُ السَّمَاوَاتِ. ",
+      "English": " 7 \"And as you go, preach, saying, 'The kingdom of heaven is at hand.'"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "  ﭐِشْفُوا مَرْضَى. طَهِّرُوا بُرْصاً. أَقِيمُوا مَوْتَى. أَخْرِجُوا شَيَاطِينَ. مَجَّاناً أَخَذْتُمْ مَجَّاناً أَعْطُوا",
+      "English": " 8 \"Heal the sick, cleanse the lepers, raise the dead, cast out demons. Freely you have received, freely give."
     },
     {
       "Type": "Melody",

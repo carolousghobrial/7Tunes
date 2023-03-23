@@ -22,17 +22,6 @@
       "English": "Our Father who art in heaven / hallowed be Thy name / Thy kingdom come / for Thine is the glory forever",
       "Arabiccoptic": "جي بينيوت اتخين نى فيئوى، ماريف طوڤو انچى بيكران، ماريسئى إنچى تيك ميت أورو، چى فوك بي بي اوؤو شا نى اينيه .",
       "Englishcoptic": "Je Peniot etkhen ni fioui, maref tovo enje pekran, mares-e enje tekmet oro, je vok pe pi o-o sha ni eneh."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "لأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.",
-      "Coptic": "Je `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.",
-      "English": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
-      "Arabiccoptic": "جى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.",
-      "Englishcoptic": "Je ef ezmaro-ot enje efiot nem epshiry : nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas."
     }
   ]
 }

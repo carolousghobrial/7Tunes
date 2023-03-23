@@ -1,0 +1,74 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية عيد دخول المسيح",
+  "EnglishTitle": "Presentation of the Lord Christ in the Temple Feast Doxology ",
+  "CopticTitle": "`A Pensoic Ihcouc Pi`xrictoc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ربنا يسوع المسيح، له المجد والترتيل، مع أبيه الصالح، والروح المعزي.",
+      "Coptic": "`A Pensoic Ihcouc Pi`xrictoc> pi`wou vwf nem pi\\umnoc> nem Pefiwt `n`agaqoc> nem Pi`pneuma `mparaklhton.",
+      "English": "Our Lord Jesus Christ, glory and chanting to Him, with His good Father, and the Spirit of comfort.",
+      "Arabiccoptic": " آبين تشويس إيسوس بي خريستوس : بي أوؤ روف نيم بي هيمنوس : نيم بيف يوت إن اغاثوس : نيم بي إبنيﭬما إمباراكليتون  . ",
+      "Englishcoptic": "-A Penchois Isos Piekhristos: pi-o-oo voof nem pi-heemnos: nem Pefioot en-aghathos: nem Piepnevma em-parakleeton."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " دخل الهيكل المقدس، على يدي أمه، بعد أربعين يوماً، من ميلاده المقدس.",
+      "Coptic": "  `I `e=oun `epiervei eqouab> `ejen nenjij `nTefmau> menenca `\\me `n`e\\oou> `mPefjinmici eqouab.",
+      "English": "+ He entered the holy temple, on His Mother's hands, after forty days, from His holy Birth.",
+      "Arabiccoptic": " إي إيخون إيبي إيرفي إثؤواب : إيﭽين نين ﭽيج إنتيف ماﭫ : مينينصا إهميه إن إيهوؤ : إمبيف ﭽين ميسي إثؤواب  . ",
+      "Englishcoptic": "EE ekhooon epi-ervei ethowab: ejen nen-jig en-Tefmav: menensa ehme en-eho-oo: emPefjinmisi ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جاء يوسف الصديق، مع مريم أم المسيح، وصنعا أتمام الناموس، لآجل الصبي المخلص يسوع.",
+      "Coptic": "Af`i `nje Iwchv pidikeoc> nem Maria `Qmau `mPi`xrictoc> auqamio `m`pjwk `mpinomoc> eqbe Pi`alou `nCwthr Ihcouc.",
+      "English": "Joseph the Righteous came, with Mary the Mother of Christ, to fulfill the law, in Jesus the Savior.",
+      "Arabiccoptic": " آف إيني إنﭽيه يوسيف بي ذيكيؤس : نيم ماريا إثماﭫ إمبي خريستوس : آﭬثاميو إم إبجوك إمبي نوموس : إثﭬيه بي آلو إن سوتير إيسوس  . ",
+      "Englishcoptic": "Af-ee enje Yosef pi-zikeos: nem maria eThmav emPiekhristos: avthamio emep-gook empi-nomos: ethve Pi-alooo en-Sooteer Isos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " حمله سمعان الكاهن، على يديه الطاهرتين، وسبح الملك المسيح، هكذا قائلاً.",
+      "Coptic": "  Afolf `nje Cumewn piouhb> `ejen nefjij eqouab> ouo\\ af\\wc `e`Pouro Pi`xrictoc> `mpairh; efjw `mmoc.",
+      "English": "Simeon the Priest carried Him, on his holy hands, and praised Christ the King, likewise saying.",
+      "Arabiccoptic": " آف أولف إنﭽيه سيميؤن بي أوويب : إيﭽين نيف ﭽيج إثؤواب : اووه آفهوس إي إبؤرو بيخريستوس : إمباي ريتي إفجو إمموس  . ",
+      "Englishcoptic": "Af-olf enje Seemeoon pi-oweeb: ejen nef-jig ethowab: owoh af-hoos Eporo Pi-ekhristos: empai-reeti efgoo emmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"الآن يا سيد تطلق عبدك، بسلام كقولك، لأن عيني قد أبصرتا خلاصك، الذي أعددته قدام الشعوب.\"",
+      "Coptic": ":nou Panhb `xnaxa pekbwk> `ebol =en ou\\irhnh kata pekcaji> je aunau `nje nabal `epekno\\em> vh`etakcebtwtf `mpe`mqo `nnilaoc.",
+      "English": "\"Lord now You are letting Your servant depart, in peace according to Your word, for my eyes have seen Your salvation, which You have prepared before the people.\"",
+      "Arabiccoptic": " تينو بانيب إكناكا بيك ﭬوك : إيﭬول خين أوهيريني كاطا بيك صاﭽي : ﭽيه آفناﭫ إنﭽيه ناﭬال إيبيك نوهيم : في إيتاك سيب طوطف إمبي إمثو إيني لاؤس  . ",
+      "Englishcoptic": "Tino-oo Paneeb ekhna-kha pek-vook: evol khen oo-hireenee kata pek-saji: je av-nav enje naval epek-nohem: vee-etak-seb-tootf empe-emtho enni-laos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " نسبحه ونمجده، ونزيده علواً، كصالح ومحب البشر، إرحمنا كعظيم رحمتك.",
+      "Coptic": "  Ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof> \\wc `Agaqoc ouo\\ `mMairwmi> nai nan kata pekni]; `nnai.",
+      "English": "+ We praise and glorify Him, and exalt Him above all, as a Good One and Lover of Man, have mercy upon us according to Your great mercy.",
+      "Arabiccoptic": " تين هوس إروف تين تي أوؤناف : تين إرهوؤ تشيسي إمموف :هوس اغاثوس اووه إمماي رومي : ناي نان كاطا بيك نيشتي إنناي  . ",
+      "Englishcoptic": "Tenhoos -erof tenti-o-oo naf: ten-erho-oo chisi emmof: hoos aghathos owoh emmai-roomi: nai nan kata pek-nishti ennai."
+    }
+  ]
+}

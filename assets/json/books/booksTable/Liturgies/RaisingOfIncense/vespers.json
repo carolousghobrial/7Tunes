@@ -85,6 +85,24 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncensePsalmResponses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePsalmAndGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseLitanyPeace",
             "Rule": 0,
             "Visible": true

@@ -1,6 +1,4 @@
-import React, { useState, useRef, useCallback, useEffect, memo } from "react";
-import { FlashList } from "@shopify/flash-list";
-
+import React, { useState, useRef, useEffect, memo } from "react";
 import {
   StyleSheet,
   useWindowDimensions,
@@ -8,13 +6,9 @@ import {
   View,
   FlatList,
   Animated,
-  Dimensions,
-  Button,
-  ActivityIndicator,
   Pressable,
   StatusBar,
 } from "react-native";
-
 import GestureRecognizer, {
   swipeDirections,
 } from "react-native-swipe-gestures";
@@ -30,8 +24,6 @@ import RitualView from "../components/ViewTypes/RitualView";
 import ButtonView from "../components/ViewTypes/ButtonView";
 import ExpanderView from "../components/ViewTypes/ExpanderView";
 import CustomHeader from "../components/ViewTypes/CustomHeader";
-import { Updates } from "expo";
-
 import BottomBar from "../components/BottomBar/BottomBar";
 import {
   getLanguageValue,
@@ -48,11 +40,10 @@ function BookScreen({ navigation, route }) {
   const [NavbarVisibility, setNavbarVisibility] = useState(true);
   const [index, setIndex] = useState(0);
   const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
-  const [newIndex, setnewIndex] = useState(null);
-  const [initialIndex, setInitialIndex] = useState(null);
-  const [scrollToIndex, setscrollToIndex] = useState(null);
-  const [shouldReload, setShouldReload] = useState(false);
-
+  const [newIndex, setnewIndex] = useState(0);
+  const [englishTitle, setenglishTitle] = useState("");
+  const [copticTitle, setcopticTitle] = useState("");
+  const [arabicTitle, setarabicTitle] = useState("");
   const motherSource = route.params.motherSource;
   const bookPath = route.params.bookPath;
 
@@ -60,31 +51,21 @@ function BookScreen({ navigation, route }) {
     motherSource,
     homescreenPaths[bookPath]
   );
-  const [englishTitle, setenglishTitle] = useState(data[0].part.english);
-  const [copticTitle, setcopticTitle] = useState(data[0].part.coptic);
-  const [arabicTitle, setarabicTitle] = useState(data[0].part.arabic);
-  const [visibleIndexes, setVisibleIndexes] = useState([]);
-  const [isFlatListReady, setIsFlatListReady] = useState(false);
+  const { width, height } = useWindowDimensions();
 
-  const { WIDTH, HEIGHT } = useWindowDimensions();
-
-  // if (width > height) {
-  //   // Landscape mode
-  // } else {
-  //   // Portrait mode
-  // }
+  if (width > height) {
+    // Landscape mode
+  } else {
+    // Portrait mode
+  }
 
   // const handleScroll = (event) => {
   //   const position = event.nativeEvent;
-  //
+  //   console.log(position);
   // };
   const onViewableItemsChanged = React.useCallback(({ viewableItems }) => {
     try {
-      if (viewableItems[0].item.EnglishTitle != englishTitle) {
-        setenglishTitle(viewableItems[0].item.EnglishTitle);
-        setcopticTitle(viewableItems[0].item.CopticTitle);
-        setarabicTitle(viewableItems[0].item.ArabicTitle);
-      }
+      console.log(viewableItems[0].key);
       setnewIndex(viewableItems[0].key);
 
       sehowMcuhToScroll(viewableItems.length - 1);
@@ -93,9 +74,6 @@ function BookScreen({ navigation, route }) {
     // Use viewable items in state or as intended
   }, []); // any dependencies that require the function to be "redeclared"
 
-  //   // update state with the new visibleIndexes array
-  //   setVisibleIndexes(visibleIndexes);
-  // };
   function scrollDown() {
     var scrollnewIndex = index + howMcuhToScroll;
     if (scrollnewIndex >= data.length - 1) {
@@ -108,34 +86,47 @@ function BookScreen({ navigation, route }) {
     if (scrollnewIndex <= 0) {
       scrollnewIndex = 0;
     }
-
     setIndex(scrollnewIndex);
   }
-  async function scrollToKey(key) {
-    //await Updates.reloadAsync();
-
-    setenglishTitle(data[key].EnglishTitle);
-    setcopticTitle(data[key].CopticTitle);
-    setarabicTitle(data[key].ArabicTitle);
-    setscrollToIndex(key);
-    setShouldReload(true);
+  function scrollToKey(key) {
+    flatListRef.current.scrollToIndex({ index: key, animated: false });
+    // setscrollToIndex(key);
   }
 
   useEffect(() => {
-    if (shouldReload) {
-      setInitialIndex(scrollToIndex);
-
-      setShouldReload(false);
+    StatusBar.setHidden(NavbarVisibility);
+    if (index != newIndex) {
+      setIndex(newIndex);
+      var item = data.find((item) => item.key === index);
+      setenglishTitle(item.EnglishTitle);
+      setcopticTitle(item.CopticTitle);
+      setarabicTitle(item.ArabicTitle);
     }
-  });
+    navigation.setOptions({
+      title: englishTitle,
+      headerTitleStyle: {
+        fontSize: 10,
+      },
+      header: () => (
+        <CustomHeader
+          navigation={navigation}
+          english={englishTitle}
+          coptic={copticTitle}
+          arabic={arabicTitle}
+        />
+      ),
+    });
+  }, [newIndex]);
   function hideHeader() {
+    // Function to change navigation options
+
+    navigation.setOptions({
+      headerShown: !NavbarVisibility,
+    });
+
     setNavbarVisibility(!NavbarVisibility);
   }
-  const getItemLayout = (data, index) => ({
-    length: ITEM_HEIGHT,
-    offset: ITEM_HEIGHT * index,
-    index,
-  });
+
   function renderItems({ item }) {
     let content = {};
     switch (item.part.Type) {
@@ -165,44 +156,54 @@ function BookScreen({ navigation, route }) {
         );
         break;
       default:
+        console.log(item);
         return <Text>Default</Text>;
         break;
     }
     return content;
   }
-
   return (
     // <GestureRecognizer
     //   style={{ flex: 1 }}
     //   onSwipeUp={scrollDown}
     //   onSwipeDown={scrollUp}
     // >
-    <View>
-      {shouldReload ? (
-        <ActivityIndicator />
-      ) : (
-        <View style={{ backgroundColor: pageBackgroundColor }}>
-          <BottomBar
-            navigation={navigation}
-            dataArray={menuData}
-            initialKey={newIndex}
-            scrollToKey={scrollToKey}
-          />
-          <FlatList
-            ref={flatListRef}
-            onViewableItemsChanged={onViewableItemsChanged}
-            showsVerticalScrollIndicator={false}
-            data={data}
-            onScrollToIndexFailed={(error) => {}}
-            initialScrollIndex={initialIndex}
-            renderItem={renderItems}
-            keyExtractor={(item, index) => {
-              return item.key;
-            }}
-          />
-        </View>
+    <View style={[styles.container, { backgroundColor: pageBackgroundColor }]}>
+      <FlatList
+        ref={flatListRef}
+        onViewableItemsChanged={onViewableItemsChanged}
+        showsVerticalScrollIndicator={false}
+        data={data}
+        onScrollToIndexFailed={(error) => {
+          flatListRef.current.scrollToOffset({
+            offset: error.averageItemLength * error.index,
+            animated: false,
+          });
+          setTimeout(() => {
+            if (flatListRef !== null) {
+              flatListRef.current.scrollToIndex({
+                index: error.index,
+                animated: false,
+              });
+            }
+          }, 500);
+        }}
+        initialNumToRender={data.length}
+        renderItem={renderItems}
+        keyExtractor={(item) => {
+          return item.key;
+        }}
+      />
+      {NavbarVisibility && (
+        <BottomBar
+          navigation={navigation}
+          dataArray={menuData}
+          initialKey={newIndex}
+          scrollToKey={scrollToKey}
+        />
       )}
     </View>
+    // </GestureRecognizer>
   );
 }
 

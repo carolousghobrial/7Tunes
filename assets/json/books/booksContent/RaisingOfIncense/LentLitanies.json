@@ -136,213 +136,156 @@
       "Englishcoptic": "Nai nan Evnoti owoh nai nan."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "أيها الطويل الأناة، الكثير الرحمة الحقيقي، إقبل سؤالاتنا وطلباتنا منا، إقبل إبتهالاتنا، وتوبتنا وإعترافنا على مذبحك المقدس الغير الدنس السمائي.",
-      "Coptic": "\b",
-      "English": "O You who are longsuffering, abundant in mercy and true, receive our prayers and supplications, receive our petitions, repentance, and confession upon Your holy, undefiled altar in heaven.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "O You who are longsuffering, abundant in mercy and true, receive our prayers and supplications, receive our petitions, repentance, and confession upon Your holy, undefiled altar in heaven."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "فلنستحق سماع أناجيلك المقدسة، ونحفظ وصاياك وإوامرك. ونثمر فيها بمئة وستين وثلاثين، بالمسيح يسوع ربنا.",
-      "Coptic": "\b",
-      "English": "May we be made worthy to hear Your Holy Gospels, and may we keep Your precepts and commandments. And bring forth fruit therein, a hundredfold, sixtyfold, and thirtyfold, in Christ Jesus our Lord.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "May we be made worthy to hear Your Holy Gospels, and may we keep Your precepts and commandments. And bring forth fruit therein, a hundredfold, sixtyfold, and thirtyfold, in Christ Jesus our Lord."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل الأحياء.",
-      "Coptic": "\b",
-      "English": "Pray for the living.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for the living."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب مرضى شعبك، إفتقدهم بالمراحم والرأفات، إشفهم.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, the sick of Your people; visit them in mercy compassion; heal them.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, the sick of Your people; visit them in mercy compassion; heal them."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل المرضى.",
-      "Coptic": "\b",
-      "English": "Pray for the sick.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for the sick."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب أباءنا واخوتنا المسافرين، ردهم إلى أوطانهم بسلامة وعافية.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, our fathers and brethren who are travelling; bring them back to their homes in peace and health.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, our fathers and brethren who are travelling; bring them back to their homes in peace and health."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل المسافرين.",
-      "Coptic": "\b",
-      "English": "Pray for the travellers.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for the travellers."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
       "Type": "Base",
@@ -477,202 +420,148 @@
       "Englishcoptic": "Nai nan Evnoti owoh nai nan."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب أهوية السماء وثمرات الأرض باركها.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, the air of heaven and the fruits of the earth; bless them.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, the air of heaven and the fruits of the earth; bless them."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل الهواء الصالح وثمار الأرض.",
-      "Coptic": "\b",
-      "English": "Pray for the good air and fruits of the earth.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for the good air and fruits of the earth."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب مياة النهر، باركها، أصعدها كمقدارها كنعمتك.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, the waters of the river; bless them; bring up to their measure according to Your grace.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, the waters of the river; bless them; bring up to their measure according to Your grace."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل صعود مياه الأنهار وإرتفاعها كمقدارها.",
-      "Coptic": "\b",
-      "English": "Pray for the waters of the rivers and rain, and their rising up according to their measure.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for the waters of the rivers and rain, and their rising up according to their measure."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب الزروع والعشب ونبات الحقل، باركها.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, the seeds, the herbs, and the plants of the field; bless them.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, the seeds, the herbs, and the plants of the field; bless them."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل الأمطار الصالحة ومزروعات الأرض.",
-      "Coptic": "\b",
-      "English": "Pray for the good rain and the plants of the earth.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for the good rain and the plants of the earth."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
       "Type": "Base",
@@ -807,202 +696,149 @@
       "Englishcoptic": "Nai nan Evnoti owoh nai nan."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب خلاص الناس والبهائم.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, the safety of the people and the beasts.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, the safety of the people and the beasts."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل خلاص الناس والبهائم.",
-      "Coptic": "\b",
-      "English": "Pray for the safety of the people and the beasts.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for the safety of the people and the beasts."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
       "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب خلاص هذا الموضع المقدس الذي لك، وكل المواضع وكل أديرة أبائنا الأرثوذكسيين.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, the safety of this, Your holy place, and every place and every monastery of our orthodox fathers.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, the safety of this, Your holy place, and every place and every monastery of our orthodox fathers."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل خلاص العالم وهذه المدينة.",
-      "Coptic": "\b",
-      "English": "Pray for the salvation of the world and of this city of ours.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for the salvation of the world and of this city of ours."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب عبدك رئيس (ملك) أرضنا، إحفظه في سلام وعدل ومقدرة.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord the president (king) of our land, Your servant; keep him in peace, justice, and might.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord the president (king) of our land, Your servant; keep him in peace, justice, and might."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل رؤسائنا (ملوكنا) محبي المسيح.",
-      "Coptic": "\b",
-      "English": "Pray for our Christ-loving leaders (kings).",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for our Christ-loving leaders (kings)."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
       "Type": "Base",
@@ -1137,202 +973,148 @@
       "Englishcoptic": "Nai nan Evnoti owoh nai nan."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب المسبيين، نجهم جميعاً.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, those who are in captivity; save them all.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, those who are in captivity; save them all."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل المسبيين.",
-      "Coptic": "\b",
-      "English": "Pray for those who are in captivity.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for those who are in captivity."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب أبائنا واخوتنا الذين رقدوا وتنيحوا في الإيمان الأرثوذكسي، نيِّح نفوسهم أجمعين.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, our fathers and brethren who have fallen asleep and reposed in the orthodox faith; repose all their souls.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, our fathers and brethren who have fallen asleep and reposed in the orthodox faith; repose all their souls."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل المتنيحيين.",
-      "Coptic": "\b",
-      "English": "Pray for those who have fallen asleep.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for those who have fallen asleep."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب الذين قدموا لك هذه القرابين، والذين قدمت عنهم، والذين قدمت بواسطتهم، أعطهم كلهم الأجر السمائي.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, those who have brought unto You these gifts; those on whose behalf they have been brought, and those by whom they have been brought; give them all the heavenly reward.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, those who have brought unto You these gifts; those on whose behalf they have been brought, and those by whom they have been brought; give them all the heavenly reward."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل الصعائد والقرابين.",
-      "Coptic": "\b",
-      "English": "Pray for the sacrifices and gifts.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for the sacrifices and gifts."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
       "Type": "Base",
@@ -1467,191 +1249,141 @@
       "Englishcoptic": "Nai nan Evnoti owoh nai nan."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب المتضايقين في الشدائد والضيقات، خلصهم من جميع شدائدهم.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, those who are distressed in hardships and oppressions; save them from all their hardships.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, those who are distressed in hardships and oppressions; save them from all their hardships."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل المتضايقين.",
-      "Coptic": "\b",
-      "English": "Pray for those who are distressed.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for those who are distressed."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اذكر يا رب موعوظي شعبك، إرحمهم.",
-      "Coptic": "\b",
-      "English": "Remember, O Lord, the catechumens of Your people; have mercy upon them.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Remember, O Lord, the catechumens of Your people; have mercy upon them."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا من أجل الموعوظين.",
-      "Coptic": "\b",
-      "English": "Pray for the catechumens.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Pray for the catechumens."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يا رب إرحم.",
-      "Coptic": "\b",
-      "English": "Lord have mercy.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
       "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "كل بقية عبادة الأوثان، إنزعها من قلوبهم. ناموسك، خوفك، وصاياك، حقوقك، أوامرك المقدسة ثبتها في قلوبهم. أعطهم ان يعرفوا ثبات الكلام الذي وعظوا به.",
-      "Coptic": "\b",
-      "English": "Uproot all traces of idolatry from their hearts. Your Law, Your fear, Your commandments, Your truths, and Your holy precepts, establish in their hearts. Grant that they may know the steadfastness of the preaching they have received.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Uproot all traces of idolatry from their hearts. Your Law, Your fear, Your commandments, Your truths, and Your holy precepts, establish in their hearts. Grant that they may know the steadfastness of the preaching they have received."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وفي الزمن المُحدد فليستحقوا حميم الميلاد الجديد لغفران خطاياهم، إذ تعدهم هيكلاً لروحك المقدس.",
-      "Coptic": "\b",
-      "English": "And in the set time, may they be worthy of the washing of the new birth for the remission of their sins, as You prepare them to be a temple of Your Holy Spirit.",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "And in the set time, may they be worthy of the washing of the new birth for the remission of their sins, as You prepare them to be a temple of Your Holy Spirit."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "صلوا جميعاً \"يا رب إرحم.\"",
-      "Coptic": "\b",
-      "English": "Let everyone pray, \"Lord have mercy.\"",
-      "Arabiccoptic": "-",
-      "Englishcoptic": "-"
+      "English": "Let everyone pray, \"Lord have mercy.\""
     },
     {
       "Type": "Base",

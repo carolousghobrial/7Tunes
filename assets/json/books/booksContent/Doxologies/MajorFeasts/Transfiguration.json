@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية عيد التجلي",
+  "EnglishTitle": "Transfiguration Feast Doxology ",
+  "CopticTitle": "Maren\\wc `ePxc? penNou;",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنسبح المسيح إلهنا، المساوي مع الآب في الجوهر، الذي خلق بلاهوته، الأحياء والأموات.",
+      "Coptic": "Maren\\wc `ePxc? penNou;> pi`Omooucioc nem `vIwt> vh`etafqamio =en tefmeqnou;> `nnhetwn= nem nirefmwout.",
+      "English": "Let us praise Christ our God, the Co-essential with the Father, who created through His divinity, the living and the dead.",
+      "Arabiccoptic": " مارين هوس إبخرستوس بين نوتى: بى أومو أوسيوس نيم إفيوت: في إيطاف ثاميو خين تيف ميثنوتى: ان نى إتؤنخ نيم نى ريفموؤت . ",
+      "Englishcoptic": "Marenhoos -Epikhristos penNoooti: pi-Omo-oosios nem evIoot: vee-etafthamio khen tef-meth-nooti: ennee-etoonkh nem nirefmo-oot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يسوع المسيح الوحيد الجنس، صعد فوق جبل تابور، وأخذ معه تلاميذه، بطرس ويعقوب ويوحنا.",
+      "Coptic": "  Ihc? Pxc? pimonogenhc> af]enaf ca`p]wi `mpitwou `nQabwr> afsi nemaf `nnefmaqhthc> Petroc nem Iakwboc nem Iwannhc.",
+      "English": " Jesus Christ the only-begotten, ascended to the peak of Mount Tabor, and took His disciples with Him, Peter and James and John.",
+      "Arabiccoptic": " إيسوس بخرستوس بيمونوجينيس: أفشيناف سا إبشوى إمبى توؤ إنثافور: آفتشى نيماف إن نيف ماثيتييس: بيتروس نيم ياكوبوس نيم يؤانس . ",
+      "Englishcoptic": "Isos Pikhrisots pi-monogenees: afshenaf sa-epshooi empito-oo enTavoor: afchi nemaf ennef-matheetees: Petros nem Yakobos nem Yoanes."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وتجلى أمامهم، وكان وجهه يلمع أكثر من الشمس، وثيابه مثل الثلج، وظهر له النبيان.",
+      "Coptic": "Ouo\\ afsixereb `mpou`mqo> pef\\o naferouwini `e\\ote `vrh> nef`\\bwc `m`vrh; `nouxiwn> pi`provhthc `cnau auouwn\\ naf.",
+      "English": "And He was transfigured before them, His face shone more than the sun, His clothes were like snow, and two prophets appeared to Him.",
+      "Arabiccoptic": " أووه آفتشى شيريب إمبو إمثو: بيفهو ناف إى روؤينى إيهوتى إفرى: نيف إهفوس إم إفريتى إنؤشيون: بى إبروفيتيس إسناف آف أؤونه ناف . ",
+      "Englishcoptic": "Owoh afchi-kereb empoo-emtho: pefho naf-er-o-ooini -ehote evree: nef-ehvoos emev-reeti en-oo-shioon: pi-eproveetees esnav avo-o-onh naf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نظر إيليا وموسى القوي، ثيابه فوق تابور، وعبر التلاميذ، سحابة نيرة.",
+      "Coptic": "  Hliac nem Mw`uchc petjor> aunau `enef`\\bwc \\i Qabwr> nimaqhthc auerjinior> `noushpi ec`erouwini.",
+      "English": " Elijah and Moses the strong ones, saw His clothes upon Mount Tabor, a cloud of light passed, over the disciples.",
+      "Arabiccoptic": " إيلياس نيم موبسيس بتيجور: آفناف إينيف إهفوس هى ثابور: نيماثيتس أفئير جينيور:إنؤتشبى إسئير أوؤينى . ",
+      "Englishcoptic": "Eelias nem Moisees petgor: avnav enef-ehvoos hi Thavoor: ni-matheetees av-er-jinior: en-oo-cheepi es-ero-ooini."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وإذا بصوت من السماء، من عند الله الآب قائلاً، هذا هو إبني حبيبي، قد صنع إرادتي فإسمعوا له.",
+      "Coptic": "Ouo\\ ic ou`cmh `ebol=en `tve> `ebol\\iten `V; `vIwt> je vai pe Pa]hri Pamenrit> afer paouw] cwtem `ncwf.",
+      "English": "And there was the voice from heaven, of God the Father saying, \"This is My beloved Son, He has done My will hear Him.\"",
+      "Arabiccoptic": " أووه إيس أو إسمى إيفول خين إتفى: ايفول هيتين افنوتى إفيوت: جى فاى بى باشيرى بامينريت: أف إر با أووش سوتيم إنسوف . ",
+      "Englishcoptic": "Owoh ees oo-esmee evol-khen etve: evol-hiten eEvnoti ev-Ioot: je fai pe Pasheeri Pamenrit: af-er pa-o-oosh sootem ensoof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نسبحه ونمجده، ونزيده علواً، كصالح ومحب البشر، إرحمنا كعظيم رحمتك.",
+      "Coptic": "  Ten\\wc `erof ten;`wou naf> tener\\ou`o sici `mmof> \\wc `Agaqoc ouo\\ `mMairwmi> nai nan kata pekni]; `nnai.",
+      "English": " We praise and glorify Him, and exalt Him above all, as a good One and Lover of man, have mercy upon us according to Your great mercy.",
+      "Arabiccoptic": " تينهوس ايروف تين تى أوؤناف: تينير هوؤو تشيسى إمموف: هوس آغاثوس أووه إمماى رومى: ناى نان كاطا بيك نيشتى إن ناى . ",
+      "Englishcoptic": "Tenhoos -erof tenti-o-oo naf: ten-erho-oo chisi emmof: hoos aghathos owoh emmai-roomi: nai nan kata pek-nishti ennai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا، هلليلويا هلليلويا، يسوع المسيح إبن الله، تجلى على جبل تابور.",
+      "Coptic": "Allhlouia Allhlouia> allhlouia Allhlouia> Ihc? Pxc? `p}hri `m`V;> af]wbt `ejen pitwou `nQabwr.",
+      "English": "Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, was transfigured upon Mount Tabor.",
+      "Arabiccoptic": " الليلويا الليلويا الليلويا الليلويا: إيسوس بخرستوس إبشيرى إمفنوتى: أفشوبت إيجين بي توؤو إنثابور . ",
+      "Englishcoptic": "Alleloia Alleloia: Alleloia Alleloia: Isos Pikhrisots epSheeri em-Evnoti: afshoobt -ejen pito-oo enThavoor."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "هذا الذي ينبغي له المجد، مع أبيه الصالح، والروح القدس، من الآن وإلى الأبد.",
+      "Coptic": "  Vai `ere pi`wou er`prepi naf> nem Pefiwt `n`agaqoc> nem pi`Pneuma eqouab> icjen ;nou nem ]a `ene\\.",
+      "English": " This is He who is worthy of glory, with His good Father, and the Holy Spirit, both now and forever.",
+      "Arabiccoptic": " فاى إرى بى أوؤو إر إيريبى ناف: نيم بيف يوت إن آغاثوس نيم بي إبنفما اثؤاب: يسجيسن تينونيم شا إينيه . ",
+      "Englishcoptic": "Fay ere pi oo erep reby naf, nem pek yot enaghathos, nem pi epnevma ethowab, yes gen tee no nem sha eneh."
+    }
+  ]
+}

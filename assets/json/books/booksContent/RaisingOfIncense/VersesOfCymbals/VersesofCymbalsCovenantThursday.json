@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ارباع الناقوس خميس العهد",
+  "EnglishTitle": "Verses of the Cymbals for Covenant Thursday  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جسدك ودمك . هما غفران خطايانا . مع العهد الجديد . الذى أعطيت لتلاميذك . ",
+      "Coptic": "Picwma nem pi`cnof `ntak > pe `pxw `ebol `nte nennobi > nem ;di`aqhkh `mberi > `etakthic `nnekmaqhthc.",
+      "English": "Your body and Blood, are the forgiveness of sins, and the New Covenant, that You gave to Your disciples.",
+      "Arabiccoptic": "بى سوما نيم بى إسنوف إنطاك. بى إبكو إيفول إنتى نين نوفى. نيم تى ذياثيكى إمفيرى. إيطاكتيس إن نيك ماثيتيس.",
+      "Englishcoptic": "Peesoma nem peeesnof entak : pe epko evol ente nen-novee : nem tee-zeya-theekee emveree : etek tees ennek-matheetees. "
+    }
+  ]
+}
