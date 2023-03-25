@@ -14,16 +14,8 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "طرح (..) من البصخة المقدسة بركاته علينا. آمين",
-      "English": "The Exposition of the (..) of the Holy Pascha. May its blessings be us. Amen."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "South",
-      "Arabic": "القارئ:",
-      "English": "Reader:"
+      "Arabic": "طرح [*PASCHA_HOUR_DAY*] من البصخة المقدسة بركاته علينا. آمين",
+      "English": "The Exposition of the [*PASCHA_HOUR_DAY*] of the Holy Pascha. May its blessings be us. Amen."
     }
   ]
 }

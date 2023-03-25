@@ -23,9 +23,27 @@ function ButtonRules(item, motherSource, navigation) {
       motherSource: motherSource,
     });
   }
+  function OpenPalmSundayProcession() {
+    navigation.push("BookScreen", {
+      bookPath: item.Path,
+      englishTitle: item.English,
+      arabicTitle: item.Arabic,
+      motherSource: motherSource,
+    });
+  }
+  function OpenPage() {
+    navigation.push("BookScreen", {
+      bookPath: item.Path,
+      englishTitle: item.English,
+      arabicTitle: item.Arabic,
+      motherSource: motherSource,
+    });
+  }
   return {
     OpenTheotokia: OpenTheotokia,
     OpenDoxologies: OpenDoxologies,
+    OpenPalmSundayProcession: OpenPalmSundayProcession,
+    OpenPage: OpenPage,
   };
 }
 

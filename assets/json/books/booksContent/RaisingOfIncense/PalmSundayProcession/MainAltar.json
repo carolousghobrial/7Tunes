@@ -69,6 +69,18 @@
       "English": "The four immortal creatures : lifting the chariot of : the face of a lion and the face of a bull : the face of a human and the face of an eagle.",
       "Arabiccoptic": "بى إفتو إنزو أون إن أسوماطوس. إتفاى خابى هارما إنتى إفنوتى. أوهو إم موإى نيم أوهو إم ماسى. أوهو إنرومى نيم أوهو إن أإيتوس.",
       "Englishcoptic": "Pi-efto en-zo-on en-asomatos : etfai kha pi-harma ente efnoti : ooho emmo-ee nem ooho emmasi : ooho enromi nem ooho en-aitos."
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayResponse",
+      "Rule": 0,
+      "Visible": "isPalmSunday"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

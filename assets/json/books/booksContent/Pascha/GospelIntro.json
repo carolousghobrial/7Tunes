@@ -5,7 +5,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "English": "Reader:"
     },
@@ -16,6 +16,14 @@
       "Side": "North",
       "Arabic": "اللهم تراءف علينا وإرحمنا وإجعلنا مستحقين لسماع إنجيلك المقدس.",
       "English": "O God have mercy and compassion upon us and make us worthy to hear the Holy Gospel."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فصل من إنجيل معلمنا [*GOSPEL_AUTHOR*] البشير، بركاته علينا. آمين.",
+      "English": "A reading according to Saint [*GOSPEL_AUTHOR*] the evangelist, May his blessings be with us. Amen."
     }
   ]
 }

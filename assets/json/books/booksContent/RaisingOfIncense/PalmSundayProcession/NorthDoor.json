@@ -69,6 +69,18 @@
       "English": "And in Your awesome : Second Coming may we never:hear with trembling : \"I do not know you.\"",
       "Arabiccoptic": "أكشان إى خين تيك ماه إسنوتى . إمباروسيا إتؤى إنهوتى . إمبين إثرين سوتيم خين أو إستيرتير . جى تى سوأون إمموتين أن .",
       "Englishcoptic": "Akshan e khen tek mah esnouty, em parosia et oi enhoty, empen ethren sotem khen o esterteir, Je ti so-on emmo ten an."
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayResponse",
+      "Rule": 0,
+      "Visible": "isPalmSunday"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

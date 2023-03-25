@@ -125,6 +125,18 @@
       "English": "Jesus Christ sent you : O twelve Apostles : to preach the nations : and make them Christians.",
       "Arabiccoptic": "إيسوس بخريستوس أف أوأورب إمموتين. أوبى ميت إسناف إن أبوسطولوس. إتى تين هيؤيش خين نى إثنوس. إيرى تين أيتو إن إخريستيانوس",
       "Englishcoptic": "Isos Pikhristos af-o-orp emmoten : opi-meet esnav en-Apostolos : ereten:hi-oish khen ni-ethnos : ereten aito ene-Khristianos."
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayResponse",
+      "Rule": 0,
+      "Visible": "isPalmSunday"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

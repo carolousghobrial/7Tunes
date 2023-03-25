@@ -66,6 +66,12 @@
       "Side": "North",
       "Arabic": "ولما وضعوا عليه الصليب الأول والثاني ولم يقم. وضعوا الصليب الثالث فجلس الميِّت. فخرت الملكة هيلانة وسجدت له وجميع الشعب معاً وهم صارخين قائلين، \"مبارك الرب يسوع وصليبه المحيي الذي صُلب عليه حتى خلَّص شعبه.",
       "English": "On the coffin, they put the first cross and then the second cross and the dead person did not rise. When they put the third cross, the dead person sat up. Queen Helen kneeled in worship and the people all together were proclaiming saying, \"Blessed is the Lord Jesus and His life-giving cross upon which He was crucified to save His people."
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

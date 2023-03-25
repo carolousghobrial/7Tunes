@@ -272,7 +272,7 @@
             "Visible": "isNOTLentWeekdayOrJonah",
             "Side": "North",
             "Arabic": "السلام لكَ أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد  القديس أبا مينا.",
-            "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Pia~gioc a~pa M/na.",
+            "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Pia~gioc a~pa Mina.",
             "English": "Hail to you, O martyr. Hail to the noble hero. Hail to the prize-bearer, The saint, Abba Mina.",
             "Arabiccoptic": "شيري ناك أو بي مارتيروس : شيري بي شويج إن جينيؤس : شيري بي أثلوفوروس : بي اجيوس أفا مينا   .",
             "Englishcoptic": "Shere Nak Opi Mar tyros, Shere Pi Shoig En Genni-os, shere pi athlofo ros, Pi Agios Ava Mina."
@@ -280,7 +280,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": "isNOTLentWeekdayOrJonah",
+            "Visible": "showHitenVOC",
             "Side": "South",
             "Arabic": "بشفاعة والدة الإله القديسة مريم،   يا رب إنعم لنا بمغفرة خطايانا.",
             "Coptic": "|iten ni`precbi`a > `nte ;qe`otokoc eqouab Mari`a > P_ > `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
@@ -291,7 +291,7 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "showEthrenHosVOC",
             "Side": "North",
             "Arabic": "لكي نسبحَكَ، مع ابيكَ الصالح، والروح القدس ،  لأنك [*COME/RISEN*] وخلصتنا.",
             "Coptic": "Eqren\\wc `erok > nem Pekiwt `n`agaqoc > nem Pi`pneuma eqouab > je [*COME/RISEN*] akcw; `mmon nai nan.",

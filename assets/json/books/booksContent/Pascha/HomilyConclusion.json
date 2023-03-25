@@ -1,5 +1,8 @@
 {
   "RefrainAfter": 0,
+  "ArabicTitle": "ختام العظة",
+  "EnglishTitle": "Conclision of the Homily",
+  "CopticTitle": "Marener `c`vragizin",
   "Hymn": [
     {
       "Type": "Base",

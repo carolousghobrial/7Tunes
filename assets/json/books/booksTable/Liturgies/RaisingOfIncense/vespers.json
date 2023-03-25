@@ -102,6 +102,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "دورة الشعانين",
+            "English": "Hosanna Procession",
+            "Rule": "OpenPalmSundayProcession",
+            "Visible": "isHosanna",
+            "Path": "palmSundayProcession"
+        },
+        {
             "Type": "Main",
             "Path": "RaisingOfIncenseLitanyPeace",
             "Rule": 0,
@@ -165,7 +173,13 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
             "Rule": 0,
-            "Visible": true
+            "Visible": "notPalmSunday"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayConcludingPrayer",
+            "Rule": 0,
+            "Visible": "isPalmSunday"
         },
         {
             "Type": "Main",

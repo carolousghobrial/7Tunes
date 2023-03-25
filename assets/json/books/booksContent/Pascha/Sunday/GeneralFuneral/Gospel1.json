@@ -4,15 +4,20 @@
   "EnglishTitle": "The Gospel according to St.John 5:19-29  ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "أَجَابَ يَسُوعُ وَقَالَ لَهُمُ: «الْحَقَّ الْحَقَّ أَقُولُ لَكُمْ: إِنَّ الاِبْنَ لاَ يَقْدِرُ أَنْ يَفْعَلَ شَيْئاً مِنْ ذَاتِهِ وَحْدَهُ إِلاَّ أَنْ يَرَى الآبَ فَاعِلُهُ. لأَنَّ الأعْمَالَ الَّتِى يَعْمَلُهَا الآبُ يَعْمَلُهُا الاِبْنُ أيضَاً. لأَنَّ الآبَ يُحِبُّ الاِبْنَ وَكُلَّ شَيئٍ يَصْنَعْهُ يُرِيهِ إيَّاهُ . وَيُرِيهِ أَعْمَالاً أَعْظَمَ مِنْ هَذِهِ لِكَى تَتَعَجَّبُوا أَنْتُمْ.",
-      "Coptic": "Aferou`w de `nje Ihc? pejaf nwou je `amhn `amhn ;jw `mmoc nwten > je `mmon `]jom `nte `p]hri er`\\li `ebol \\itotf af`]temnau `e`Viwt ef`iri `mmof nh gar `ete `Viwt ra `mmwou naion `ete pike]hri `iri `mmwou > `Viwt gar `fmei `m`p]hr ouo\\ \\wb niben etef`iri `mmwou `fnatamof `erwou ouo\\ \\an`\\bhou`i euoi `nni]; `enai `fnatamof `erwou \\ina `nqwten `nte tener`]vhri.",
-      "English": "Then Jesus answered and said to them, “Most assuredly, I say to you, the Son can do nothing of Himself, but what He sees the Father do; for whatever He does, the Son also does in like manner. For the Father loves the Son, and shows Him all things that He Himself does; and He will show Him greater works than these, that you may marvel.",
-      "Arabiccoptic": "أف إير أوأو إنجى إيسوس بيجاف نوؤ جى أمين أمين تيجو إمموس نوتين. جى إممون إشجوم إنتى إبشيرى إير إهلى إيفول هيتوتف أف إشتيم ناف إ إفيوت إف إيرى إمموف نى غار إيتى إفيوت را إمموؤ نايون إيتى بيكى شيرى إيرى إمموؤ. إفيوت غار إفمي إم إبشيرى أووه هوب نيفين إتيف إيرى إمموؤ إفنا طاموف إيرو أو أووه هان إهفيؤوى إفؤى إن نيشتى إناى. إفنا طاموف إيرأو هينا إنثوتين إنتى تين إير إشفيرى.",
-      "Englishcoptic": "Af-ero-oo ze enje Isos pegaf no-oo je amen amen tigo emmos noten : je emmon eshgom ente epshery er-ehli evol hitotf af-eshtem-nav Eviot ef-eeri emmof ni ghar ete eviot ra emmo-oo naion ete pike-sheri eeri emmo-oo : Eviot ghar ef-mei emepsheer owoh hob niven etef-eeri emmo-oo efna-tamof ero-oo owoh han-ehvi-owee e-oi ennishty enai efna-tamof ero-oo hina enthoten ente ten-ereshveri"
+      "English": "Then Jesus answered and said to them, “Most assuredly, I say to you, the Son can do nothing of Himself, but what He sees the Father do; for whatever He does, the Son also does in like manner. For the Father loves the Son, and shows Him all things that He Himself does; and He will show Him greater works than these, that you may marvel."
     },
     {
       "Type": "Melody",

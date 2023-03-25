@@ -77,6 +77,18 @@
       "English": "Michael the head of the heavenly : he is the first : among the angelic hosts : serving before the Lord.",
       "Arabiccoptic": "ميخائيل إب أرخون  إن نا نيفيؤوى. إنثوف إتؤى إنشورب . خين نى تاكسيس إن أنجيليكون . إفشيمشى  إم بى إمثو إمبشويس.",
       "Englishcoptic": "Mikhail ep archon en na nifiowi, enthof et oi enshorp, khen ni taksis en angelikon, ev shemshi em pe emtho em epshois."
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayResponse",
+      "Rule": 0,
+      "Visible": "isPalmSunday"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

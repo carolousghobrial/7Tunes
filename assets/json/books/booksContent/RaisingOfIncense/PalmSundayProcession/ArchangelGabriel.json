@@ -96,8 +96,8 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": " وَهَا أَنْتِ سَتَحْبَلِينَ وَتَلِدِينَ ابْناً وَتُسَمِّينَهُ يَسُوعَ. ",
-      "English": "هَذَا يَكُونُ عَظِيماً وَابْنَ الْعَلِيِّ يُدْعَى وَيُعْطِيهِ الرَّبُّ الإِلَهُ كُرْسِيَّ دَاوُدَ أَبِيهِ  "
+      "Arabic": "هَذَا يَكُونُ عَظِيماً وَابْنَ الْعَلِيِّ يُدْعَى وَيُعْطِيهِ الرَّبُّ الإِلَهُ كُرْسِيَّ دَاوُدَ أَبِيهِ  ",
+      "English": " He will be great, and will be called the Son of the Highest; and the Lord God will give Him the throne of His father David. "
     },
     {
       "Type": "Melody",
@@ -173,6 +173,18 @@
       "English": "Gabriel the Archangel, was seen by Daniel, as he stood upon his feet, by the shore of the river.",
       "Arabiccoptic": "غابرييل بى أنجيلوس . أفناف إيروف إنجى دانييل . إف أوهى إيراطف هيجين نيف فات. هيجين نين إسفوطو إم إفيارو.",
       "Englishcoptic": "Ghabriel pi angelos, avnav erof enje Daniel, ef ohi eratf hijen nef vat, hijen nen esvoto em efiaro."
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayResponse",
+      "Rule": 0,
+      "Visible": "isPalmSunday"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

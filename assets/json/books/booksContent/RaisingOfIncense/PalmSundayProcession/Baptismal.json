@@ -69,6 +69,18 @@
       "English": "John has witnessed : in the four Gospels : saying I have baptized my Savior : in the waters of the Jordan.",
       "Arabiccoptic": "أف إير ميثرى إنجى يؤانس. خين بى إفتو إن إف أنجيليكون . جى أيتى أومس إم باسوتير . خين نيموؤ إنتى بى يوردانيس",
       "Englishcoptic": "Af-ermethre enge Yoannes khen pi-efto en-ev angelion, je aity oms em-pasoteer, khen ni-mo-oo ente pi yordanees"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayResponse",
+      "Rule": 0,
+      "Visible": "isPalmSunday"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

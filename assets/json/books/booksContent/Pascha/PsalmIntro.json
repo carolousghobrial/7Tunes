@@ -1,0 +1,21 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من مزامير أبينا داود النبي، بركاته على جميعنا.",
+      "English": "From the Psalms of our father David the prophet, may his blessings be with us all. (Amen)"
+    }
+  ]
+}

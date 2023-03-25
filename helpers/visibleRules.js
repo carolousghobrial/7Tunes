@@ -476,7 +476,6 @@ const showGospelResponseFestiveConclusion = (motherSource, path) => {
 };
 const isBigFeast = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  console.log("HER");
   if (
     currentSeason.key === "NATIVITY" ||
     currentSeason.key === "EPIPHANY" ||
@@ -486,7 +485,58 @@ const isBigFeast = (motherSource, path) => {
   }
   return false;
 };
-
+const isPalmSunday = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.key === "PALM_SUNDAY") {
+    return true;
+  }
+  return false;
+};
+const isCross = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (
+    currentSeason.key === "FEAST_OF_CROSS" ||
+    currentSeason.key === "FEAST_OF_CROSS_3"
+  ) {
+    return true;
+  }
+  return false;
+};
+const isHosanna = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (
+    currentSeason.key === "FEAST_OF_CROSS" ||
+    currentSeason.key === "FEAST_OF_CROSS_3" ||
+    currentSeason.key === "PALM_SUNDAY"
+  ) {
+    return true;
+  }
+  return false;
+};
+const showHitenVOC = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (
+    currentSeason.type === "feast" ||
+    isLentWeekdayOrJonah(motherSource, path)
+  ) {
+    return false;
+  }
+  return true;
+};
+const showEthrenHosVOC = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.type === "feast") {
+    return false;
+  }
+  return true;
+};
+const notPalmSunday = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.key !== "PALM_SUNDAY") {
+    return true;
+  }
+  return false;
+};
 const VisibleRules = {
   TennavRule: TennavRule,
   SundayThetokiaWeekdaysPraisesRule: SundayThetokiaWeekdaysPraisesRule,
@@ -515,5 +565,11 @@ const VisibleRules = {
   showVersesOfCymbalsFestiveConclusion: showVersesOfCymbalsFestiveConclusion,
   showGospelResponseFestiveConclusion: showGospelResponseFestiveConclusion,
   isBigFeast: isBigFeast,
+  isPalmSunday: isPalmSunday,
+  isCross: isCross,
+  isHosanna: isHosanna,
+  showHitenVOC: showHitenVOC,
+  showEthrenHosVOC: showEthrenHosVOC,
+  notPalmSunday: notPalmSunday,
 };
 export default VisibleRules;

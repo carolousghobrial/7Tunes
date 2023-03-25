@@ -12,7 +12,13 @@ import {
 import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect, memo } from "react";
-
+import {
+  ComeRisenRule,
+  ROICONCLUSION,
+  REPLACEGOSPELAUTHOR,
+  REPLACPASCHAHOURDAY,
+  REPLACEPROPHETS,
+} from "../../helpers/replacingRules";
 function MelodyView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let textColor = "";

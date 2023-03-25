@@ -69,6 +69,18 @@
       "English": "O Mark the Apostle : and the Evangelist : the witness to the passion : of the Only-Begotten God.",
       "Arabiccoptic": "ماركوس بى أبوسطولوس . أووه بى إف أنجيليستيس . بى ميثرى خا نى إمكافه . إنتى بى مونوجينيس إن نوتى .",
       "Englishcoptic": "Markos pi-apostolos, owoh pi-ev angelis teees, pi methre khani em kavh, ente pi Mono genees en-noti"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayResponse",
+      "Rule": 0,
+      "Visible": "isPalmSunday"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

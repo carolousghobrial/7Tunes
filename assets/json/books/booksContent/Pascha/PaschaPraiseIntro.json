@@ -50,8 +50,8 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "تسبحة(..) من البصخة المقديسة بركته علينا امين",
-      "English": "The prayer and praises of the (..) of the Holy Pascha. May its blessing be with us Amen."
+      "Arabic": "تسبحة[*PASCHA_HOUR_DAY*] من البصخة المقديسة بركته علينا امين",
+      "English": "The prayer and praises of the [*PASCHA_HOUR_DAY*] of the Holy Pascha. May its blessing be with us Amen."
     }
   ]
 }

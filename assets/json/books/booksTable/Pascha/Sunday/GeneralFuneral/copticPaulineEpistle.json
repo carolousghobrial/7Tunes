@@ -1,0 +1,22 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDayNinthCopticPaulineIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSundayGeneralFuneralCopticPauline",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDayNinthPaulineConclusion",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

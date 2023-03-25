@@ -69,6 +69,18 @@
       "English": "Among those born of women, no one is like you, you are great among the saints, O John the Baptist.",
       "Arabiccoptic": "إمبيه أووأون طونف خين ني جين ميسي : إنتيه ني هيومي إف أوني إمموك : إنثوك أوو ني شتي خين ني إثؤواب تيروو : يوأنيس بي ريف تي أومس  .",
       "Englishcoptic": "Empe ontonf khen ni-jen-misi : ente ni-hiomi ef-oni emmok : enthok onishty khen ni-ethowab tiro : Youannes pirefti-oms"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayResponse",
+      "Rule": 0,
+      "Visible": "isPalmSunday"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

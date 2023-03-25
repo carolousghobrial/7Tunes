@@ -69,6 +69,18 @@
       "English": "Take out from your hearts : the thoughts of evil : and the pretentious images : that darken the mind.",
       "Arabiccoptic": "فول إيفول خين نى تين هيت . إن نى مو ميك إنتى تى كاكيا . نيم نى ميفئ إتشيب شوب . إتئيرى إمبينوس إنكاكى.",
       "Englishcoptic": "Vol evol khen ne ten heet, en ni mokmek ente ti kakia, nem ni mevi etshep shop, et iri empenos en kaki."
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayResponse",
+      "Rule": 0,
+      "Visible": "isPalmSunday"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

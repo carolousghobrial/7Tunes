@@ -2,26 +2,20 @@
   "RefrainAfter": 0,
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Reader",
       "Arabic": "القارئ:",
-      "Coptic": "Pi`anagnwcthc>",
-      "English": "Reader:",
-      "Arabiccoptic": "القارئ:",
-      "Englishcoptic": "Reader:"
+      "English": "Reader:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "من (..) النبي، بركته المقدسة تكون معنا. آمين.",
-      "Coptic": "Ebol =en (..) pi`provhthc> `ere pef`cmou eqouab  ]wpi neman `amhn efjw `mmoc.",
-      "English": "A reading from (..) the prophet, may its blessing be with us. Amen.",
-      "Arabiccoptic": "إيفول خين (..) بي إبروفيتيس إري بيف اسمو اثؤواب شوبي نيمان امين إفجو إمموس",
-      "Englishcoptic": "Evol khen (..) pi Eprophitis : ere pef-esmo ethowab : shopi neman amin efgo emos."
+      "Arabic": "من [*PROPHECIES_AUTHOR*] النبي، بركته المقدسة تكون معنا. آمين.",
+      "English": "A reading from [*PROPHECIES_AUTHOR*] the prophet, may its blessing be with us. Amen."
     }
   ]
 }

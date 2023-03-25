@@ -43,6 +43,22 @@ const homescreenPaths = {
   //RaisingOfIncense
   vespers: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/vespers.json"),
   matins: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/matins.json"),
+  palmSundayProcession: require("../assets/json/books/booksContent/RaisingOfIncense/PalmSundayProcession.json"),
+  //Pascha
+  //Sunday
+  //GeneralFuneral
+  generalFuneral: require("../assets/json/books/booksTable/Pascha/Sunday/GeneralFuneral/generalFuneral.json"),
+  generalFuneralcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Sunday/GeneralFuneral/copticPsalmAndGospel.json"),
+  generalFuneralPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Sunday/GeneralFuneral/PsalmAndGospel.json"),
+  generalFuneralcopticPaulineEpistle: require("../assets/json/books/booksTable/Pascha/Sunday/GeneralFuneral/copticPaulineEpistle.json"),
+  generalFuneralPaulineEpistle: require("../assets/json/books/booksTable/Pascha/Sunday/GeneralFuneral/PaulineEpistle.json"),
+  //SundayDay
+  //NinthHour
+  sundayDayNinthHourMain: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/NinthHour/mainPrayer.json"),
+  sundayDayNinthHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/NinthHour/copticPsalmAndGospel.json"),
+  sundayDayNinthHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/NinthHour/PsalmAndGospel.json"),
+  sundayDayNinthHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/NinthHour/copticProphecies.json"),
+  sundayDayNinthHourProphecies: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/NinthHour/Prophecies.json"),
 };
 
 export default homescreenPaths;

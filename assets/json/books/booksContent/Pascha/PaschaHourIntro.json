@@ -1,0 +1,35 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": ":بي أويب:",
+      "Englishcoptic": "Pi-oweeb;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بإسم الآب الإبن والروح القدس إله واحد. آمين",
+      "Coptic": "+en `vran `m~Viwt nem ~P]hri nem Pi`pneuma `eqouab ounou; `nouwt `amhn.",
+      "English": "In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
+      "Arabiccoptic": "خين افران ام افيوت نيم ابشيري نيم بي ابنيفما اثؤواب أوونوتي ان أووأوت : أمين",
+      "Englishcoptic": "Khen efran nem Efiot nem Epshery nem pi-Epnevma Ethowab, onoti en-o-ot Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نبوات [*PASCHA_HOUR_DAY*] من البصخة المقدسة بركاته علينا. آمين",
+      "English": "The Prophecies of the [*PASCHA_HOUR_DAY*] of the Holy Pascha. May its blessings be us. Amen."
+    }
+  ]
+}

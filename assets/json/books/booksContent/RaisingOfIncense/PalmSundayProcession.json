@@ -1,0 +1,132 @@
+{
+    "Main": [
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "دورة الشعانين",
+            "English": "Hosanna Procession"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionEflogimenos",
+            "Rule": 0,
+            "Visible": "isPalmSunday"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayExposition",
+            "Rule": 0,
+            "Visible": "isPalmSunday"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionEtavenNiEskhai",
+            "Rule": 0,
+            "Visible": "isCross"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionCrossExposition1",
+            "Rule": 0,
+            "Visible": "isCross"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionCrossExposition2",
+            "Rule": 0,
+            "Visible": "isCross"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyOfGospel",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionMainAltar",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionStMary",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionArchangelGabriel",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionArchangelMichael",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionStMark",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionApostles",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionStGeorge",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionStAnthony",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionNorthDoor",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionBaptismal",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionSouthDoor",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionJohnTheBaptist",
+            "Rule": 0,
+            "Visible": "isMatins"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionEflogimenos",
+            "Rule": 0,
+            "Visible": "isPalmSunday"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionEtavenNiEskhai",
+            "Rule": 0,
+            "Visible": "isCross"
+        }
+    ]
+}

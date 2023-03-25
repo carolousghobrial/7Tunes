@@ -143,6 +143,12 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesMajorFeastsPalmSunday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesMajorFeastsRessurection",
             "Rule": 0,
             "Visible": "isSeason"
@@ -347,6 +353,36 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesMajorFeastsNativityMelody",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsTheophanyMelody",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesLentLentVespersMelody",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsPalmSundayMelody",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesMajorFeastsRessurectionMelody",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesConclusion",
             "Rule": 0,
             "Visible": true
@@ -355,7 +391,7 @@
             "Type": "Main",
             "Path": "DoxologiesConclusionPartOnAdamDays",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isPraises"
         }
     ]
 }

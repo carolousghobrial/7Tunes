@@ -4,26 +4,20 @@
   "EnglishTitle": "The Gospel according to St.Matthew 21:10-17 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "١٠ وَلَمَّا دَخَلَ أُورُشَلِيمَ ٱرْتَجَّتِ ٱلْمَدِينَةُ كُلُّهَا قَائِلَةً: «مَنْ هَذَا؟».",
-      "Coptic": "Ouo\\ etafi e=oun eIl/h/m/ acmonmen nje ;baki thrc eujw mmoc je nim pe vai",
-      "English": "10 And when He had come into Jerusalem, all the city was moved, saying, “Who is this?”",
-      "Arabiccoptic": "اووه إيتافي إيخون إي ييروساليم اسمونميم إنجي تيفاكي تيرس إفجو أموس جي نيم بي فاي",
-      "Englishcoptic": "Owoh etaf-ee ekhon eYerosalim asmon-men enje tivaki ters evgo emos: Je nim pe fai"
+      "English": "10 And when He had come into Jerusalem, all the city was moved, saying, “Who is this?”"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "١١ فَقَالَتِ ٱلْجُمُوعُ: «هَذَا هو يَسُوعُ ٱلنَّبِيُّ ٱلَّذِي مِنْ نَاصِرَةِ ٱلْجَلِيلِ».",
-      "Coptic": "Nimh] de naujw mmoc je vai pe piprovhthc Ih/c/ piremnazareq nte;galilia>",
-      "English": "11 So the multitudes said, “This is Jesus, the prophet from Nazareth of Galilee.”",
-      "Arabiccoptic": "نيميش ذي نافجو إموس جي فاي بي إبروفيتيس إيسوس بيريم نازاريث إنتي تي جاليليا",
-      "Englishcoptic": "Nimeesh ze navgo emmos je fai pi-eprophitis Isos pirem-nazareth ente ti-Galilia"
+      "English": "11 So the multitudes said, “This is Jesus, the prophet from Nazareth of Galilee.”"
     },
     {
       "Type": "Melody",

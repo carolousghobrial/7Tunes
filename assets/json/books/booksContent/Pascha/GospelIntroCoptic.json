@@ -5,12 +5,23 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "بي اناغنوستيس:",
+      "Englishcoptic": "Pi-Anaghnostis:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
-      "Arabic": "فصل من إنجيل معلمنا (..) البشير، بركاته علينا. آمين.",
-      "Coptic": "Ou`anagnwcic `ebol +en pieuaggelion `eqouab kata (..) agiou.",
-      "English": "A reading according to Saint (..) the evangelist, May his blessings be with us. Amen.",
-      "Arabiccoptic": "أو أناغنوسيس إيفول خين بى إف أنجيليون إثؤواب. كاطا (..) أجيو.",
-      "Englishcoptic": "O-anaghnosis evol khen pi-evangelion ethowab kata (..) agio"
+      "Arabic": "فصل من إنجيل معلمنا [*GOSPEL_AUTHOR*] البشير، بركاته علينا. آمين.",
+      "Coptic": "Ou`anagnwcic `ebol +en pieuaggelion `eqouab kata [*GOSPEL_AUTHOR*] agiou.",
+      "English": "A reading according to Saint [*GOSPEL_AUTHOR*] the evangelist, May his blessings be with us. Amen.",
+      "Arabiccoptic": "أو أناغنوسيس إيفول خين بى إف أنجيليون إثؤواب. كاطا [*GOSPEL_AUTHOR*] أجيو.",
+      "Englishcoptic": "O-anaghnosis evol khen pi-evangelion ethowab kata [*GOSPEL_AUTHOR*] agio"
     },
     {
       "Type": "Base",
@@ -33,17 +44,6 @@
       "English": "Glory be to God forever",
       "Arabiccoptic": "ذوكساسي كيريي",
       "Englishcoptic": "Zoxa si Kerie"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "Reader",
-      "Arabic": "القارئ:",
-      "Coptic": "Pi`anagnwcthc>",
-      "English": "Reader:",
-      "Arabiccoptic": "القارئ:",
-      "Englishcoptic": "Reader:"
     }
   ]
 }

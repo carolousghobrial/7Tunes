@@ -1,0 +1,27 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "بي اناغنوستيس:",
+      "Englishcoptic": "Pi-Anaghnostis:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مزمور لداود",
+      "Coptic": "Yalmoc tw Dauid",
+      "English": "A Psalm of David",
+      "Arabiccoptic": "بصالموس تو دافييد",
+      "Englishcoptic": "Psalmos to Daveed"
+    }
+  ]
+}

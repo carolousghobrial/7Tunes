@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "3:11-20 من صفونياالنبى",
+  "EnglishTitle": "Zephaniah 3:11-20 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "١١ يَقُولُ الرَّبُّ  فِي ذَلِكَ ٱلْيَوْمِ أَنْزَعُ مِنْ بَيْنَكِ المَرِحِينَ مَعَكِ بِتَكَبُّرٍ،",
+      "Coptic": "Nai nh`ete ~Psoic jw `mmoc> je =en pichou `etemmau ;na`wli `ebol\\aro `nnimetref;]w] `nte pe]w]>",
+      "English": "Thus says the Lord in that day, For at that time I will take away from you the contempt of your arrogance.",
+      "Arabiccoptic": "ناي ني إيتى ابشويس جو امموس , جي خين بيسيو إتيى إمماف تينا أولي إيفول هارو إنيميتريف تيشوش انتى بيشوش",
+      "Englishcoptic": "Nai ni-ete Epchois go emmos: je khen pi-seio etemmav tina-oli evol haro, ennimetref-tishosh ente peshosh"
+    }
+  ]
+}

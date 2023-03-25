@@ -1,0 +1,164 @@
+{
+    "Main": [
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "الجناز العام",
+            "English": "General Funeral"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseEleisonEmas",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseThanksgivingPrayer",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSundayGeneralFuneralVersesOfCymbals",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersPsalm50",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSundayGeneralFuneralPrePauline",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "البولس بالقبطي",
+            "English": "Pauline Epistle in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "generalFuneralcopticPaulineEpistle"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "البولس بالعربي",
+            "English": "Pauline Epistle in English/Arabic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "generalFuneralPaulineEpistle"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthAgios",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyOfGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور و الانجيل بالقبطي",
+            "English": "Psalm and Gospel in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "generalFuneralcopticPsalmAndGospel"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور و الانجيل بالعربي",
+            "English": "Psalm and Gospel in English/Arabic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "generalFuneralPsalmAndGospel"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSundayGeneralFuneralGospelResponse",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSundayGeneralFuneralThreeLongLitanies",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSundayGeneralFuneralInTheWisdom",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersCreed",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyDeparted",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseAbsolution",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing2",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

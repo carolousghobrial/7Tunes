@@ -4,17 +4,6 @@
             "Type": "Base",
             "Rule": 0,
             "Visible": true,
-            "Side": "North",
-            "Arabic": "اسجدوا للأنجيل المقدس,",
-            "Coptic": "Ouw]t mpieuaggelion eqouab",
-            "English": "Bow down before the Holy Gospel,",
-            "Arabiccoptic": "أووشت إمبيف انجيلييون إثؤواب",
-            "Englishcoptic": "O-osht empef-angelion ethowab"
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
             "Side": "People",
             "Arabic": "الشعب:",
             "Coptic": "Pilaoc>",

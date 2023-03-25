@@ -41,6 +41,7 @@ function BookScreen({ navigation, route }) {
   const [index, setIndex] = useState(0);
   const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
   const [newIndex, setnewIndex] = useState(0);
+  const [scrollToIndex, setscrollToIndex] = useState(0);
   const [englishTitle, setenglishTitle] = useState("");
   const [copticTitle, setcopticTitle] = useState("");
   const [arabicTitle, setarabicTitle] = useState("");
@@ -63,50 +64,45 @@ function BookScreen({ navigation, route }) {
   //   const position = event.nativeEvent;
   //   console.log(position);
   // };
-  const onViewableItemsChanged = React.useCallback(({ viewableItems }) => {
-    try {
-      console.log(viewableItems[0].key);
-      setnewIndex(viewableItems[0].key);
-
-      sehowMcuhToScroll(viewableItems.length - 1);
-    } catch (error) {}
-
-    // Use viewable items in state or as intended
-  }, []); // any dependencies that require the function to be "redeclared"
-
-  function scrollDown() {
-    var scrollnewIndex = index + howMcuhToScroll;
-    if (scrollnewIndex >= data.length - 1) {
-      return;
-    }
-    setIndex(scrollnewIndex);
-  }
-  function scrollUp() {
-    var scrollnewIndex = index - howMcuhToScroll;
-    if (scrollnewIndex <= 0) {
-      scrollnewIndex = 0;
-    }
-    setIndex(scrollnewIndex);
-  }
+  const onViewableItemsChanged = useRef(({ viewableItems }) => {
+    // if (viewableItems.length > 0) {
+    //   setnewIndex(viewableItems[0].index);
+    // }
+  }).current;
+  // function scrollDown() {
+  //   var scrollnewIndex = index + howMcuhToScroll;
+  //   if (scrollnewIndex >= data.length - 1) {
+  //     return;
+  //   }
+  //   setIndex(scrollnewIndex);
+  // }
+  // function scrollUp() {
+  //   var scrollnewIndex = index - howMcuhToScroll;
+  //   if (scrollnewIndex <= 0) {
+  //     scrollnewIndex = 0;
+  //   }
+  //   setIndex(scrollnewIndex);
+  // }
   function scrollToKey(key) {
-    flatListRef.current.scrollToIndex({ index: key, animated: false });
-    // setscrollToIndex(key);
+    setscrollToIndex(key);
   }
 
   useEffect(() => {
-    StatusBar.setHidden(NavbarVisibility);
-    if (index != newIndex) {
-      setIndex(newIndex);
-      var item = data.find((item) => item.key === index);
-      setenglishTitle(item.EnglishTitle);
-      setcopticTitle(item.CopticTitle);
-      setarabicTitle(item.ArabicTitle);
-    }
+    //StatusBar.setHidden(NavbarVisibility);
+    // if (index != newIndex) {
+    //   setIndex(newIndex);
+    //   var item = data.find((item) => item.key === index);
+    //   setenglishTitle(item.EnglishTitle);
+    //   setcopticTitle(item.CopticTitle);
+    //   setarabicTitle(item.ArabicTitle);
+    // }
     navigation.setOptions({
       title: englishTitle,
       headerTitleStyle: {
         fontSize: 10,
       },
+      headerShown: NavbarVisibility,
+
       header: () => (
         <CustomHeader
           navigation={navigation}
@@ -116,14 +112,12 @@ function BookScreen({ navigation, route }) {
         />
       ),
     });
-  }, [newIndex]);
-  function hideHeader() {
-    // Function to change navigation options
-
-    navigation.setOptions({
-      headerShown: !NavbarVisibility,
+    flatListRef.current.scrollToIndex({
+      index: scrollToIndex,
+      animated: false,
     });
-
+  }, [NavbarVisibility, scrollToIndex]);
+  function hideHeader() {
     setNavbarVisibility(!NavbarVisibility);
   }
 
@@ -131,6 +125,7 @@ function BookScreen({ navigation, route }) {
     let content = {};
     switch (item.part.Type) {
       case "Base":
+        //console.log(item.part.Rule);
         content = <BaseView item={item.part}></BaseView>;
 
         break;
@@ -160,7 +155,7 @@ function BookScreen({ navigation, route }) {
         return <Text>Default</Text>;
         break;
     }
-    return content;
+    return <Pressable onPress={hideHeader}>{content}</Pressable>;
   }
   return (
     // <GestureRecognizer
@@ -186,7 +181,7 @@ function BookScreen({ navigation, route }) {
                 animated: false,
               });
             }
-          }, 500);
+          }, 50);
         }}
         initialNumToRender={data.length}
         renderItem={renderItems}

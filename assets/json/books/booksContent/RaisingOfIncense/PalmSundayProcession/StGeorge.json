@@ -71,15 +71,12 @@
       "Englishcoptic": "Shashf en rompi avgoko evol, enje-vi ethowab Georgios, ere peshvy en oro en-ano mos, eftee hab erof em mini."
     },
     {
-      "Type": "Base",
+      "Type": "Ritual",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "مرد الإنجيل لو كانت أيقونة أى شهيد آخر",
-      "Coptic": "\b\b\b\b\b\b\b\b\b",
-      "English": "Gospel Response for any other martyr",
-      "Arabiccoptic": "مرد الإنجيل لو كانت أيقونة أى شهيد آخر",
-      "Englishcoptic": "Gospel Response for any other martyr"
+      "English": "Gospel Response for any other martyr"
     },
     {
       "Type": "Base",

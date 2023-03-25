@@ -69,6 +69,18 @@
       "English": "He who sits upon the Cherubim : on the throne of His glory : entered into Jerusalem : what is this great humility",
       "Arabiccoptic": "فى إيت هيمسى هيجين نى شيروبيم . هيجين بيف إثرونوس ‘نتى بيف أوأو . أفشى إيخون إيروساليم. أوبى باى نيشتى إن ثيفيو.",
       "Englishcoptic": "Vi-et hemsi hijen ni-Sherobim : hijen pi-ethronos ente-pef-o-oo : afshe ekhon eYerosalim : ope pai-nishty en-thevio."
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayResponse",
+      "Rule": 0,
+      "Visible": "isPalmSunday"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

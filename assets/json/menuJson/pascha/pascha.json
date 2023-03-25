@@ -5,7 +5,7 @@
          "ArabicTitle": "الجناز العام",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": true,
+         "hasSubBooks": false,
          "BookPath": "generalFuneral",
          "ImageURL": "generalFuneral",
          "Enabled": true

@@ -611,36 +611,40 @@ export function getTodayDate(timeTransition) {
   }
   return todayDate;
 }
+export function setCurrentSeasonByKey(key) {
+  var fastsfeasts = getCopticFastsFeasts();
+  var collection = [];
+  collection.push(fastsfeasts.find((element) => element.key === "PALM_SUNDAY"));
+
+  return collection;
+}
 export function getCurrentSeason(timeTransition) {
   var fastsfeasts = getCopticFastsFeasts();
   var collection = [];
   // ignore time
   var todayDate = getTodayDate(timeTransition);
-  // fastsfeasts.map((feast) => {
-  //   if (
-  //     (feast.end === null && feast.start.isSame(todayDate)) ||
-  //     (feast.end !== null &&
-  //       todayDate.isBetween(feast.start, feast.end, null, "[)"))
-  //   ) {
-  //     collection.push(feast);
-  //   }
-  // });
-  // if (collection.length === 0) {
-  //   let type = "regular";
-  //   if (todayDate.day() === 3 && todayDate.day() === 5) {
-  //     type = "fast";
-  //   }
-  //   collection.push({
-  //     key: "STANDARD",
-  //     type: type,
-  //     start: null,
-  //     end: null,
-  //     major: false,
-  //   });
-  // }
-  collection.push(
-    fastsfeasts.find((element) => element.key === "FEAST_OF_CIRCUMCISION")
-  );
+  fastsfeasts.map((feast) => {
+    if (
+      (feast.end === null && feast.start.isSame(todayDate)) ||
+      (feast.end !== null &&
+        todayDate.isBetween(feast.start, feast.end, null, "[)"))
+    ) {
+      collection.push(feast);
+    }
+  });
+  if (collection.length === 0) {
+    let type = "regular";
+    if (todayDate.day() === 3 && todayDate.day() === 5) {
+      type = "fast";
+    }
+    collection.push({
+      key: "STANDARD",
+      type: type,
+      start: null,
+      end: null,
+      major: false,
+    });
+  }
 
   return collection;
 }

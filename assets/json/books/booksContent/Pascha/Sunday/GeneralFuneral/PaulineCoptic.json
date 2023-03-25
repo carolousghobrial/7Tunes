@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "15:1-23 البولس: كورنثوس الأولى",
+  "EnglishTitle": "The Pauline Epistle: 1st Corinthians 15:1-23 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأنا أُعْلِمُكُمْ يَا أخوَتِىِ أنَّ الإِنْجِيلَ",
+      "Coptic": ":tamo de `mmwten na`cnhou `epieuaggelion.",
+      "English": "Moreover, brethren, I declare to you the gospel",
+      "Arabiccoptic": "تى طامو ذى إمموتين نا إسنيو. إبى إف أنجيليون.",
+      "Englishcoptic": "Tee tamo-ze em-moten na-esneyo : epee ev-angeleyon :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الَّذِي بَشَّرْتُكُمْ بِهِ هُوَ الَّذِي قَبِلْتُمُوهُ.",
+      "Coptic": "Vh`etai \\i]ennoufi `mmof nwten > `ete vh pe `etaretensitf. ",
+      "English": "Which I preached to you, which also you received",
+      "Arabiccoptic": "فى إيطاى هيشين نوفى إمموف نوتين. إيتى فى بى إيطارى تين تشيتف. ",
+      "Englishcoptic": "Fee etai hee-shennofy emmof noten : ete fee pe eta-reten-etchetf."
+    }
+  ]
+}
