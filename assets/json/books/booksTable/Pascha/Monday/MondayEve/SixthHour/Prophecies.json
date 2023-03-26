@@ -1,0 +1,22 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Joel",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaMondayMondayEveSixthProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

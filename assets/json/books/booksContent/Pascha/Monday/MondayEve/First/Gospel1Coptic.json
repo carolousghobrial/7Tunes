@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 12:20-36 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 12:20-36 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢٠ وَكَانَ قومٌ من اليُونَانِيُّينَ ٱلَّذِينَ صَعِدُوا لِيَسْجُدُوا فِي ٱلْعِيدِ.",
+      "Coptic": "Ne ouon \\anoueinin de pe ebol =en nheqnhou e\\rhi ep]ai \\ina ntououw]t>",
+      "English": "Now there were certain Greeks among those who came up to worship at the feast.",
+      "Arabiccoptic": "ني أو أون هان أوإى نين ذي بي إيفول خين ني إثنيو إي إهرى إي إبشای هينا إنتو أوأوشت :",
+      "Englishcoptic": "Ne o-on han-o-enin ze pe evol khen ni-ethneo e-ehri epshai hina ento-o-osht."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢١ فَجَاءَ هَؤُلَاءِ إِلَى فِيلُبُّسَ ٱلَّذِي مِنْ بَيْتِ صَيْدَا ٱلْجَلِيلِ، وَجَعَلُوا يَسْأَلُونَهُ قَائِلِينَ: «يَا سَيِّدَنَا، نُرِيدُ أَنْ نَرَى يَسُوعَ».",
+      "Coptic": "Nai oun aui \\a Vilippoc pirem Bhqcaida nte ;Galilea ouo\\ nau;\\o erof pe eujw mmoc je penqc tenouw] enau eIh/c/>",
+      "English": "Then they came to Philip, who was from Bethsaida of Galilee, and asked him, saying, \"Sir, we wish to see Jesus.",
+      "Arabiccoptic": "ناي أون أفئی ها فيليبوس بی ريم في صيدا إنتی تی جاليلی آأووه ناف تیهو إيروف بي إفجو إمموس جی بين شويس تين إف أوأوش إيناف إي إيسوس",
+      "Englishcoptic": "Nai o-on av-ee ha Filopos pirem Vith-kaida ente ti-Galilea owoh navtiho erof pe egos emmos: Je penths ten-o-osh enav Isos"
+    }
+  ]
+}

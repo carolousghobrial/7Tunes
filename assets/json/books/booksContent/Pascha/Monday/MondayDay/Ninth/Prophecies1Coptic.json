@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "2:15-3:25 من سفر التكوين لموسى النبى",
+  "EnglishTitle": "Genesis 2:15-3:25 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَخَذَ الرَّبُّ الإِلهُ الِإنسَانَ الَّذِي خَلَقَهُ. وَوَضَعَهُ في فِردَوسِ النَعيمِ لِيُفْلِحَهُ وَيَحفَظَهُ،",
+      "Coptic": "Ouo\\ ap ` Vt si `mpirwmi etafqamiof > ouo\\ afxaf =en piparadicoc `nte pounof eqrefer\\wb ouo\\ `ntefare\\ erof>",
+      "English": "Then the Lord God took the man He formed and put him in the garden to tend and keep it.",
+      "Arabiccoptic": "اووه اب إفنوتي تشي أمبيرومي إيتاف ثاميوف. اووه افكاف خين بيباراديسوس إنتىى أبؤنوف إثريث إيرهوب اووه إنتيف إريه أيروف",
+      "Englishcoptic": "Owoh ap efnoti chi empi-romi etaf-thamiof : owoh afkaf khen pi-paradisos ente ep-onof ethref-erhob owoh entef-areh erof"
+    }
+  ]
+}

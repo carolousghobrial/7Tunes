@@ -45,13 +45,11 @@ function BookScreen({ navigation, route }) {
   const [englishTitle, setenglishTitle] = useState("");
   const [copticTitle, setcopticTitle] = useState("");
   const [arabicTitle, setarabicTitle] = useState("");
+  const values = getFullViewModel(route.params.bookPath);
+  const [data, setData] = useState(values[0]);
+  const [menuData, setMenuData] = useState(values[1]);
   const motherSource = route.params.motherSource;
-  const bookPath = route.params.bookPath;
 
-  const [data, menuData] = getFullViewModel(
-    motherSource,
-    homescreenPaths[bookPath]
-  );
   const { width, height } = useWindowDimensions();
 
   if (width > height) {
@@ -151,7 +149,6 @@ function BookScreen({ navigation, route }) {
         );
         break;
       default:
-        console.log(item);
         return <Text>Default</Text>;
         break;
     }

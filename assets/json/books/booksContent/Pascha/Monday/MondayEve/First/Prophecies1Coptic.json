@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 1:2-12 من سفر صفونيا النبى",
+  "EnglishTitle": "Zephaniah 1:2-12 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢ «بالفناء أفنى الْكُلَّ عَنْ وَجْهِ الْأَرْضِ، يَقُولُ الرَّبُّ",
+      "Coptic": "+en oumounk marefmounk ebol \\ijen `p\\o `m`pka\\i peje Poc?",
+      "English": "\"Let all things be totally consumed from the face of the earth.\" says the Lord.",
+      "Arabiccoptic": "خين أومونك ماريفمونك إيفول هيجين إميبكاهي بيجي إبشويس",
+      "Englishcoptic": "Khen o-monk maref-monk evol hijen ep-ho em-epkahi peje Epchois."
+    }
+  ]
+}

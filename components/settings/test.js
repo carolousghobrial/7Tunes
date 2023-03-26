@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { View, Text, FlatList } from "react-native";
+import homescreenPaths from "../../helpers/homescreenPaths";
 
 const slides = [
   {
@@ -95,38 +96,12 @@ const slides = [
 ];
 
 const Test = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const flatListRef = useRef(null);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentIndex((currentIndex) => (currentIndex + 1) % slides.length);
-    }, 30);
-    return () => clearInterval(intervalId);
-  }, []);
-
-  useEffect(() => {
-    flatListRef.current.scrollToIndex({
-      index: currentIndex,
-      animated: true,
-    });
-  }, [currentIndex]);
-
-  const renderItem = ({ item }) => (
-    <View style={{ width: "100%", height: "100%" }}>
-      <Text>{item.title}</Text>
-      <Text>{item.content}</Text>
-    </View>
-  );
+  console.log(homescreenPaths["sundayDayEleventhHourcopticProphecies"]);
 
   return (
-    <FlatList
-      ref={flatListRef}
-      data={slides}
-      renderItem={renderItem}
-      pagingEnabled
-      keyExtractor={(item) => item.id.toString()}
-    />
+    <View style={{ width: "100%", height: "100%" }}>
+      <Text>HI</Text>
+    </View>
   );
 };
 

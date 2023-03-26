@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "32:7-15 من سفر الخروج لموسى النبى",
+  "EnglishTitle": "Exodus 32:7-15 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَلَّمَ الرَبُّ مُوسَى قَائِلاً: إمضِ مُسرِعَاً مِنْ هَهُنَا وإنزِلْ",
+      "Coptic": "Afcaji de `nje ` P_ nem Mwuchc efjw mmoc> je mo]i nxwlem ebol =en paima `ntek]e epecht >",
+      "English": "But the Lord said to Moses, \"Go quickly! Get down from here!",
+      "Arabiccoptic": "افساجي ذي إنجى إبشويس نيم مويسيس إفجو إمموس : جي موشي إنكوليم إيفول خين بايما إنتيكشى إبيسييت",
+      "Englishcoptic": "Afsaji ze enje Epchois nem Moisees efgo emmos : je moshi en-kolem evol khen paima entek-she epeseet"
+    }
+  ]
+}

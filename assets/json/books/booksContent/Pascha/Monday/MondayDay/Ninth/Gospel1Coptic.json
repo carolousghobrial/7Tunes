@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "21:23-27  الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 21:23-27 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَمَّا دخل إِلَى الْهَيْكَلِ تَقَدَّمَ إِلَيْهِ رُؤَسَاءُ الْكَهَنَةِ وَشُيُوخُ الشَّعْب وَهُوَ يُعَلِّمُ، قَائِلِينَ لَهُ.",
+      "Coptic": "Ouo\\ etafi e=oun epiervei aui \\arof ef;cbw nje niarxhereuc nem niprecbuthroc nte pilaoc eujwmmoc >",
+      "English": "Now when he came into the temple, the chief priests and the elders of the people confronted Him as He was teaching and said",
+      "Arabiccoptic": "اووه إيتاف أي أيخون إبي إرفي, افئي هاروف إفتي إيسفو إنجى ني ارشي إيريفس نيم ني إبريسفيتيروس إنتى بيلاؤس إفجو إمموس.",
+      "Englishcoptic": "Owoh etaf-ee ekhon epi-erfei av-ee harof efti-esvo enje ni-arshi erevs nem ni-epres-veteros ente pi-laos evgo emmos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "«بِأَيِّ سُلْطَانٍ تَفْعَلُ هذَا؟ وَمَنْ أَعْطَاكَ هذَا السُّلْطَانَ؟»",
+      "Coptic": "Je akiri nnai =en a] ner]i]i > ouo\\ nim petaf; mpai er]i]i nak",
+      "English": "\"By what authority are You doing these things? And who gave you this authority?\"",
+      "Arabiccoptic": "جى اكئيري إنناي خين اش ان إرشيشي , اووه نيم بيف تافتي إمباي إرشيشي",
+      "Englishcoptic": "Je ak-eeri ennai khen ash en-ershishi : owoh nim pet-aftee empai ershishi nak."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroductionCoptic",
+            "Rule": "Micah",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaMondayMondayEveNinthProphecies1Coptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

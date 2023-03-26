@@ -59,6 +59,74 @@ const homescreenPaths = {
   sundayDayNinthHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/NinthHour/PsalmAndGospel.json"),
   sundayDayNinthHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/NinthHour/copticProphecies.json"),
   sundayDayNinthHourProphecies: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/NinthHour/Prophecies.json"),
+  //Eleventh
+  sundayDayEleventhHourMain: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/EleventhHour/mainPrayer.json"),
+  sundayDayEleventhHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/EleventhHour/copticPsalmAndGospel.json"),
+  sundayDayEleventhHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/EleventhHour/PsalmAndGospel.json"),
+  sundayDayEleventhHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/EleventhHour/copticProphecies.json"),
+  sundayDayEleventhHourProphecies: require("../assets/json/books/booksTable/Pascha/Sunday/SundayDay/EleventhHour/Prophecies.json"),
+  //MondayDay
+  //FirstHour
+  MondayDayFirstHourMain: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/FirstHour/mainPrayer.json"),
+  MondayDayFirstHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/FirstHour/copticPsalmAndGospel.json"),
+  MondayDayFirstHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/FirstHour/PsalmAndGospel.json"),
+  MondayDayFirstHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/FirstHour/copticProphecies.json"),
+  MondayDayFirstHourProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/FirstHour/Prophecies.json"),
+  //ThirdHour
+  MondayDayThirdHourMain: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/ThirdHour/mainPrayer.json"),
+  MondayDayThirdHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/ThirdHour/copticPsalmAndGospel.json"),
+  MondayDayThirdHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/ThirdHour/PsalmAndGospel.json"),
+  MondayDayThirdHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/ThirdHour/copticProphecies.json"),
+  MondayDayThirdHourProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/ThirdHour/Prophecies.json"),
+  //Sixth
+  MondayDaySixthHourMain: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/SixthHour/mainPrayer.json"),
+  MondayDaySixthHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/SixthHour/copticPsalmAndGospel.json"),
+  MondayDaySixthHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/SixthHour/PsalmAndGospel.json"),
+  MondayDaySixthHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/SixthHour/copticProphecies.json"),
+  MondayDaySixthHourProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/SixthHour/Prophecies.json"),
+  //NinthHour
+  MondayDayNinthHourMain: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/NinthHour/mainPrayer.json"),
+  MondayDayNinthHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/NinthHour/copticPsalmAndGospel.json"),
+  MondayDayNinthHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/NinthHour/PsalmAndGospel.json"),
+  MondayDayNinthHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/NinthHour/copticProphecies.json"),
+  MondayDayNinthHourProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/NinthHour/Prophecies.json"),
+  //Eleventh
+  MondayDayEleventhHourMain: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/EleventhHour/mainPrayer.json"),
+  MondayDayEleventhHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/EleventhHour/copticPsalmAndGospel.json"),
+  MondayDayEleventhHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/EleventhHour/PsalmAndGospel.json"),
+  MondayDayEleventhHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/EleventhHour/copticProphecies.json"),
+  MondayDayEleventhHourProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayDay/EleventhHour/Prophecies.json"),
+  //MondayEve
+  //FirstHour
+  MondayEveFirstHourMain: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/FirstHour/mainPrayer.json"),
+  MondayEveFirstHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/FirstHour/copticPsalmAndGospel.json"),
+  MondayEveFirstHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/FirstHour/PsalmAndGospel.json"),
+  MondayEveFirstHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/FirstHour/copticProphecies.json"),
+  MondayEveFirstHourProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/FirstHour/Prophecies.json"),
+  //ThirdHour
+  MondayEveThirdHourMain: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/ThirdHour/mainPrayer.json"),
+  MondayEveThirdHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/ThirdHour/copticPsalmAndGospel.json"),
+  MondayEveThirdHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/ThirdHour/PsalmAndGospel.json"),
+  MondayEveThirdHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/ThirdHour/copticProphecies.json"),
+  MondayEveThirdHourProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/ThirdHour/Prophecies.json"),
+  //Sixth
+  MondayEveSixthHourMain: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/SixthHour/mainPrayer.json"),
+  MondayEveSixthHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/SixthHour/copticPsalmAndGospel.json"),
+  MondayEveSixthHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/SixthHour/PsalmAndGospel.json"),
+  MondayEveSixthHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/SixthHour/copticProphecies.json"),
+  MondayEveSixthHourProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/SixthHour/Prophecies.json"),
+  //NinthHour
+  MondayEveNinthHourMain: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/NinthHour/mainPrayer.json"),
+  MondayEveNinthHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/NinthHour/copticPsalmAndGospel.json"),
+  MondayEveNinthHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/NinthHour/PsalmAndGospel.json"),
+  MondayEveNinthHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/NinthHour/copticProphecies.json"),
+  MondayEveNinthHourProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/NinthHour/Prophecies.json"),
+  //Eleventh
+  MondayEveEleventhHourMain: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/EleventhHour/mainPrayer.json"),
+  MondayEveEleventhHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/EleventhHour/copticPsalmAndGospel.json"),
+  MondayEveEleventhHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/EleventhHour/PsalmAndGospel.json"),
+  MondayEveEleventhHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/EleventhHour/copticProphecies.json"),
+  MondayEveEleventhHourProphecies: require("../assets/json/books/booksTable/Pascha/Monday/MondayEve/EleventhHour/Prophecies.json"),
 };
 
 export default homescreenPaths;

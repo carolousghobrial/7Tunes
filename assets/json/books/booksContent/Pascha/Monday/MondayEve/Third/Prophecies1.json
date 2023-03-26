@@ -4,15 +4,12 @@
   "EnglishTitle": "Zephaniah 1:14-2:3 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "«قَرِيبٌ هو يَوْمُ الرَّبِّ الْعَظِيمِ. قَرِيبٌ هو وَسَرِيعٌ جِدًّا.",
-      "Coptic": "`F=ent nje pe\\oou mPoc? pini];> `f=ent ouo\\ `fihc ema]w>:",
-      "English": "\"For the great day of the Lord is near. It is near and quick.",
-      "Arabiccoptic": "إفخينت إنجى بيهوؤو إمبشويس بينيشتي : إفخينت اووه إف إييس إماشو",
-      "Englishcoptic": "Ef-khent enje peho-oo empechois pinishti : Efkhent owoh ef-ees emasho"
+      "English": "\"For the great day of the Lord is near. It is near and quick."
     },
     {
       "Type": "Melody",

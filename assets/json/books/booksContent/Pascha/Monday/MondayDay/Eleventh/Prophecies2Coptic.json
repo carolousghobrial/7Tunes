@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "1:18-27 من يشوع بن سيراخ",
+  "EnglishTitle": "Joshua Son of Sirach 1:18-27 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَصْلُ الْحِكْمَةِ هِي مَخَافَةُ الرَّبِّ . وأَغصَانُهاَ كَثرَةُ الأَيَّامِ",
+      "Coptic": "Qnouni gar `n;covia pe per\\o; =a`t\\h ``m` P_> ouo\\ \\anmh] `n`e\\oou ne nec`kladoc>",
+      "English": "The root of wisdom is to fear the Lord, and her branches are length of days.",
+      "Arabiccoptic": "إثنوني غار إنتي سوفيا بي بيرهوتي خاإتهي أمبشويس : أووه هانميش نيهوؤ ني نيس إكلادوس :",
+      "Englishcoptic": "Ethno-oni ghar enti-sofia pe perhoti kha-et-hi em-Epchois : owoh han-meesh neho-oo ne nes-eklados :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "غَضَبُ الَأثيمِ لَا يُمكِنُ أَن يَتَبَرَرَ. لِأن وَقرَ غَضَبِهِ يُسِقطُهُ.",
+      "Coptic": "`  Mmon `]jom nourefjwnt eqmaio> piriki gar ``nte pefjwnt pe pef\\ei",
+      "English": "Unjust anger cannot be justified, for anger's decisive influence causes his fall.",
+      "Arabiccoptic": "إمون إشجوم نوريف جونت إثمايو : بيريكي غار إنتى بيف جونت بى بيفهي",
+      "Englishcoptic": "Emmon eshgom noo-ref-gont ethmaio: piri-ki ghar ente pef-gont pe pef-hei."
+    }
+  ]
+}

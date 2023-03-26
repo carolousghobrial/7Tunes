@@ -15,6 +15,8 @@ const TennavRule = (motherSource, path) => {
   const today = moment();
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
+  console.log("ASD");
+
   var Kiahk = fastsFeasts.find((element) => element.key === "NATIVITY_FAST");
   var Resurrection = fastsFeasts.find(
     (element) => element.key === "RESURRECTION"

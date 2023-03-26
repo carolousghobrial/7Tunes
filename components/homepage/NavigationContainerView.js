@@ -171,6 +171,9 @@ function NavigationContainerView() {
           },
           headerTintColor: activeColors.PrimaryColor,
           contentStyle: { backgroundColor: "transparent" },
+
+          gestureEnabled: true,
+          gestureDirection: "horizontal",
         }}
       >
         <Stack.Screen

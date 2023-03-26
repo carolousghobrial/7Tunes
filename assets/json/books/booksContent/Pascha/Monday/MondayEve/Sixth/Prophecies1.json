@@ -4,15 +4,12 @@
   "EnglishTitle": "Joel 1:5-15 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اِسْتَيقِظُوا أَيُّهَا ٱلسَّكَارَى مِنَ ٱلْخَمْرِ ، وَٱبْكُوا وَنُوحُوا يَاجَمِيعَ شَارِبِي ٱلْخَمْرِ المُسْكِرِ لِأَنَّهُ قَدْ نَزَعَ عَنْكُمْ السُرُورَ وَالفرحَ.",
-      "Coptic": "Arinumvin nhetoa=i ebol A=en phrp> ouo\\ rimi ari\\hbi nh throu etcw mpihrp euqa=i> je au`wli ebol =en rwten `m`pounof nem `vra]i",
-      "English": "Get sober, you who are drunk from your wine, and weep, mourn all you who drink wine, for joy and gladness are removed from your mouth.",
-      "Arabiccoptic": "ارين إمفين ني إتوأخي إيفول أخين بيرب : أووه ريمي اريهيبي ني تيرو إتسو إمبيرب إفثاخي , جي اف أولي إيفول خين روتين إم إبأونوف نيم إفراشي",
-      "Englishcoptic": "Arin-emvin ni-eto-akhi evol Akhen pirp : owoh rimi ari-hibi ni tero etso empi-erp ev-thakhi : je av-oli evol khen roten em-ep-onof nem ev-rashi."
+      "English": "Get sober, you who are drunk from your wine, and weep, mourn all you who drink wine, for joy and gladness are removed from your mouth."
     },
     {
       "Type": "Melody",

@@ -1,0 +1,46 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroductionCoptic",
+            "Rule": "Exodus",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaMondayMondayDaySixthProphecies1Coptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroductionCoptic",
+            "Rule": "Wisdom",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroductionCoptic",
+            "Rule": "Isaiah",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaMondayMondayDaySixthProphecies2Coptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

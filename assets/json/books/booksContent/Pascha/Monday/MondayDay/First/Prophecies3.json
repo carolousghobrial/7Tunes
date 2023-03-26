@@ -4,15 +4,12 @@
   "EnglishTitle": "Joshua Son of Sirach 1:1-24 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "1 كُلُّ الحِكمةٍ فهيَ مِنَ قِبَلِ الرّبِّ وهى دائمةٌ معَهُ إلى الأَبَدِ.",
-      "Coptic": ":covia thrc ou ebol \\iten P_> ouo\\ `c]op nemaf ]a ene\\>",
-      "English": "All wisdom comes from the Lord and is with Him forever.",
-      "Arabiccoptic": "تي سوفيا تيرس او إيفول هيتين إبشويس : أووه إسشوب نيماف شا إينيه",
-      "Englishcoptic": "Ti-sofia tirs oo evol hiten Epchois : owoh es-shop nemaf sha eneh"
+      "English": "All wisdom comes from the Lord and is with Him forever."
     },
     {
       "Type": "Melody",

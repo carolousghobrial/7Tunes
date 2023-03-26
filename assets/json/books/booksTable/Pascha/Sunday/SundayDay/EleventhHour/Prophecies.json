@@ -1,0 +1,40 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Isaiah",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSundaySundayDayEleventhProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Nahum",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSundaySundayDayEleventhProphecies2",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

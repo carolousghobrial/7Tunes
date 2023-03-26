@@ -25,7 +25,7 @@
          "ArabicTitle": "ليلة الأثنين",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": false,
+         "hasSubBooks": true,
          "BookPath": "paschamondayeve",
          "ImageURL": "paschamondayeve",
          "Enabled": true
@@ -35,7 +35,7 @@
          "ArabicTitle": "يوم الأثنين",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": false,
+         "hasSubBooks": true,
          "BookPath": "paschamonday",
          "ImageURL": "paschamonday",
          "Enabled": true
@@ -45,7 +45,7 @@
          "ArabicTitle": "ليلة الثلاثاء",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": false,
+         "hasSubBooks": true,
          "BookPath": "paschatuesdayeve",
          "ImageURL": "paschatuesdayeve",
          "Enabled": true
@@ -55,7 +55,7 @@
          "ArabicTitle": "يوم الثلاثاء",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": false,
+         "hasSubBooks": true,
          "BookPath": "paschatuesday",
          "ImageURL": "paschatuesday",
          "Enabled": true
@@ -65,7 +65,7 @@
          "ArabicTitle": "ليلة الأريعاء",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": false,
+         "hasSubBooks": true,
          "BookPath": "paschawednesdayeve",
          "ImageURL": "paschawednesdayeve",
          "Enabled": true
@@ -75,7 +75,7 @@
          "ArabicTitle": "يوم الأريعاء",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": false,
+         "hasSubBooks": true,
          "BookPath": "paschawednesday",
          "ImageURL": "paschawednesday",
          "Enabled": true
@@ -85,7 +85,7 @@
          "ArabicTitle": "ليلة خميس العهد",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": false,
+         "hasSubBooks": true,
          "BookPath": "paschathursdayeve",
          "ImageURL": "paschathursdayeve",
          "Enabled": true
@@ -95,7 +95,7 @@
          "ArabicTitle": "يوم خميس العهد",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": false,
+         "hasSubBooks": true,
          "BookPath": "paschathursday",
          "ImageURL": "paschathursday",
          "Enabled": true
@@ -105,7 +105,7 @@
          "ArabicTitle": "ليلة الجمعة العظيمة",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": false,
+         "hasSubBooks": true,
          "BookPath": "paschafridayeve",
          "ImageURL": "paschafridayeve",
          "Enabled": true
@@ -115,7 +115,7 @@
          "ArabicTitle": "يوم الجمعة العظيمة",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": false,
+         "hasSubBooks": true,
          "BookPath": "paschafriday",
          "ImageURL": "paschafriday",
          "Enabled": true
@@ -125,7 +125,7 @@
          "ArabicTitle": "سبت النور",
          "PurchaseKeyDroid": "",
          "PurchaseKeyIos": "",
-         "hasSubBooks": false,
+         "hasSubBooks": true,
          "BookPath": "brightsaturday",
          "ImageURL": "brightsaturday",
          "Enabled": true

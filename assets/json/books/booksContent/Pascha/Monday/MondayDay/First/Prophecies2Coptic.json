@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "51:1-9 من إشعياء النبي",
+  "EnglishTitle": "Isaiah 51:1-9 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أُمَجِّدُ الذِى أُحِّبُهُ بنَشِيدِ الحبيبِ لِهذا الكَرْمِ:",
+      "Coptic": "Eie;wou `mvhetau `menritf =en oujw nte pimenrit `nte pai ia\\aloli>",
+      "English": "Now I will sing to My Beloved a song of My Beloved regarding My vineyard:",
+      "Arabiccoptic": "إي إتي أوأو إمفي إيتاف مينريتف خين أوجو إنتى بيمينريت إنتي باي ياهالهول",
+      "Englishcoptic": "Ei-eti-o-oo emvi-etav menritf khen o-go ente pi-menreet ente pai yahal holi"
+    }
+  ]
+}

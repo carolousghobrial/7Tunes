@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "1:2-8 من ناحوم النبي",
+  "EnglishTitle": "Nahum 1:2-8",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اَلرَّبُّ إِلَهٌ غَيُورٌ وَمُنْتَقِمٌ. يَنْتَقِمُ الرّبُّ بِغَضَبٍ مِنَ المُقاومينَ لَهُ.  وَهُوَ يُبِيدُ أَعْدَاءَهُ.",
+      "Coptic": "Ounou; nref\\o\\ ouo\\ nsrefsi mp]i] pe Po/c/> =en oumbon fnasi mp]i] nje Po/c/ =en nhet;oubhf ouo\\ nqof efefw; nnefjaji",
+      "English": "God is jealous, and the Lord is an avenger; the Lord is avenging with fury; the Lord takes vengeance on His adversaries and drives out His enemies.",
+      "Arabiccoptic": "اونوتي إنريفهوه اووه إنريفتشي إمبيشيش بي إبشويس : خين اومفون إفماتشي إمبشوش أنجي إبشويس خين ني إتتي إوفيق أووه إنثوف إف إفوتي إنيفجاجي",
+      "Englishcoptic": "Onoti enref-hoh owoh enchref-chi empshish pe Epchois : Khen omvon efnachi empshish enje Epchois khen ni-et-ti-oveef owoh enthof ef-efoti ennef-gaji."
+    }
+  ]
+}

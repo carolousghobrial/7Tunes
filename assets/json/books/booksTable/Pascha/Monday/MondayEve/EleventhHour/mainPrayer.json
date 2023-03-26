@@ -1,0 +1,134 @@
+{
+    "Main": [
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "يوم الإثنين (الساعة الحادية عشر )",
+            "English": " Monday (Eleventh Hour)"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaHourIntro",
+            "Rule": "MondayEveEleventhHour",
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "النبوات بالقبطي",
+            "English": "Prophecies in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "MondayEveEleventhHourcopticProphecies"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "النبوات بالعربي",
+            "English": "Prophecies in English/Arabic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "MondayEveEleventhHourProphecies"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaPraiseIntro",
+            "Rule": "MondayEveEleventhHour",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaPraise1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور و الانجيل بالقبطي",
+            "English": "Psalm and Gospel in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "MondayEveEleventhHourcopticPsalmAndGospel"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور و الانجيل بالعربي",
+            "English": "Psalm and Gospel in English/Arabic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "MondayEveEleventhHourPsalmAndGospel"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaExpositionIntroNight",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaExpositionIntro",
+            "Rule": "MondayEveEleventhHour",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaMondayMondayEveEleventhExposition",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaExpositionConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaNightLitanies",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing2",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

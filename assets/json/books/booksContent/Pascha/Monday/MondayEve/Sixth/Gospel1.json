@@ -4,26 +4,20 @@
   "EnglishTitle": "The Gospel according to St.Mark 10:32-34 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "٣٢ وَكَانُوا فِي ٱلطَرِيقِ صَاعِدِينَ إِلَى أُورُشَلِيمَ وَكَانَ يَسُوعُ يَسِيرُ قَدَّامَهُمْ ، وَكَانُوا يَتَحَيَّرُونَ.",
-      "Coptic": "Nau\\i vmwit de peeunhou Ne\\rhi eIl/h/m/ ouo\\ nafmo]i =ajwou nje Ih/c/ ouo\\ nauer\\o;>",
-      "English": "Now they were on the road, going up to Jerusalem, and Jesus was going before them; and they were amazed.",
-      "Arabiccoptic": "ناف هي إفمويت ذي بي إفنيو إإهري إي پیروساليم أووه ناف موشی خاجوؤ إنجی إيسوس أووه ناف إيرهوتي",
-      "Englishcoptic": "Nav-hi evmoit ze pe-evnio Nehri eYersoalim owoh nafmoshi khago-oo enje ISos owoh nav-erhoti :"
+      "English": "Now they were on the road, going up to Jerusalem, and Jesus was going before them; and they were amazed."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَالذين كانوا يَتْبَعُونَه كَانُوا خَائفينَ. فَتَقَدَّمَ إِلَيْهِ أَيْضًا ٱلِٱثْنَيْ عَشَرَ وَٱبْتَدَأَ يَقُولُ لَهُمْ عَمَّا يَحْدُثُ لَهُ:",
-      "Coptic": "Nh de enauer akolouqin nauer\\o; ouo\\ palin afin mpimht cnau etotf afer\\htc nje nhe qna]wpi mmof nwou>",
-      "English": "And as they followed they were afraid. Then He took the twelve aside again and began to tell them the things that would happen to Him:",
-      "Arabiccoptic": "ني ذي إيناف إرآكولوثين ناف إيرهوتي. أووه بالين أفنئینی إمبی میت إسناف إى طوطف أف إرهیتس إنجى ثنا شوبی إمموف نوؤ .",
-      "Englishcoptic": "Ni ze enav-er akolo-thin nav-erhoti , owoh palin afin epi-meet esnav etotf af-erhits enje ni ethnashopi emmof no-oo"
+      "English": "And as they followed they were afraid. Then He took the twelve aside again and began to tell them the things that would happen to Him:"
     },
     {
       "Type": "Melody",

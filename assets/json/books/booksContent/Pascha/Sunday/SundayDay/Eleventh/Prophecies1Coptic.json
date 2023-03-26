@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "48:12-22 من اشعياء النبي",
+  "EnglishTitle": "Isaiah 48:12-22",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "١٢ «اِسْمَعْ لِي يَا يَعْقُوبُ، وَإِسْرَائِيلُ ٱلَّذِي دَعَوْتُهُ: أَنَا هُوَ. أَنَا ٱلْأزَلِىُّ وَأَنَا ٱلْآبدىُّ،",
+      "Coptic": "Cwtem `eroi Iakwb ouo\\ Picrahl `e;mou; `erof > `anok pe pi]orp ouo\\ `anok on pe pi]a`ene\\.",
+      "English": "\"Listen to Me, O Jacob and Israel, whom I call: I am the first, and I am forever.",
+      "Arabiccoptic": "سوتيم اروي ياكوب اووه بيسرائيل إتيموتي إروف : أنوك بي بيشورب اووه انوك أون بي بيشا إينيه",
+      "Englishcoptic": "Sotem eroi Yakoub owoh Pisrael eti-moti erof : Anok pe pishorp owoh anok on pe pi-sha eneh"
+    }
+  ]
+}

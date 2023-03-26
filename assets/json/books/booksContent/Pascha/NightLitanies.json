@@ -7,7 +7,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -23,7 +23,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -39,7 +39,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -48,14 +48,14 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "من أجل  السلام السمائى وتآلف سائر الكنائس التى فى العالم والأديرة ومجامعها المقدسة والسكان فيها والقائمين بأحوالها , يا الله تحنن على خليقتك ونجها من كل سوء. نسألك يارب إسمعنا وإرحمنا.,",
+      "Arabic": "من أجل السلام السمائى وتآلف سائر الكنائس التى فى العالم والأديرة ومجامعها المقدسة والسكان فيها والقائمين بأحوالها , يا الله تحنن على خليقتك ونجها من كل سوء. نسألك يارب إسمعنا وإرحمنا.,",
       "English": "For the heavenly peace and unity of all churches in the world, monasteries, and for those dwelling in and caring for all holy places, O God, have compassion on Your creation and deliver it from all evil. We ask You, O Lord, hear us and have mercy on us.,"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -71,7 +71,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -87,7 +87,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -103,7 +103,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -119,7 +119,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -135,7 +135,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -151,7 +151,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -167,7 +167,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -183,7 +183,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -199,7 +199,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -215,7 +215,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -231,7 +231,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -240,14 +240,14 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "نطلب إليك يارب أن تحرسنا من جميع الشرور وتتراءف على خليقتك وجميع شعبك لأن أعين الكل تترجاك لأنك أنت الذى تعطيهم طعامهم فى حينه. يامغذى كل ذى جسد. ياعون من ليس له عون ويارجاء من ليس له رجاء.  نسألك يارب إسمعنا وإرحمنا.,",
+      "Arabic": "نطلب إليك يارب أن تحرسنا من جميع الشرور وتتراءف على خليقتك وجميع شعبك لأن أعين الكل تترجاك لأنك أنت الذى تعطيهم طعامهم فى حينه. يامغذى كل ذى جسد. ياعون من ليس له عون ويارجاء من ليس له رجاء. نسألك يارب إسمعنا وإرحمنا.,",
       "English": "We ask You, O Lord, to guard us from all evil, to have compassion on your creation and all Your people, for the eyes of everyone wait upon You, for You give them their food in due season. O sustainer of all flesh, the help of the helpless, and the hope of the hopeless. We ask You, O Lord, hear us and have mercy on us.,"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -263,7 +263,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -272,14 +272,14 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "أيها الناظر إلى المتواضعين بعين عنايتك التى لاتغفل . يامن خلصت يوسف من إمرأة سيده وجعلته ملكاً على مصر وأحوالها, وأجزت عليه أيام الشدة, فأتى إليه إخوته وأبوه يعقوب وسجدوا بين يديه, وأخذوا منه حنطة لقوت بنيهم ومواشيهم. نحن جميعاً أيضاً نخضع لك برؤوسنا ونسجد بين يديك ونشكرك يا خالقنا ورازقنا على هذا الحال وفى كل حال ومن أجل سائر الأحوال. نجنا يا الله من كل شدة.  نسألك يارب إسمعنا وإرحمنا,",
+      "Arabic": "أيها الناظر إلى المتواضعين بعين عنايتك التى لاتغفل . يامن خلصت يوسف من إمرأة سيده وجعلته ملكاً على مصر وأحوالها, وأجزت عليه أيام الشدة, فأتى إليه إخوته وأبوه يعقوب وسجدوا بين يديه, وأخذوا منه حنطة لقوت بنيهم ومواشيهم. نحن جميعاً أيضاً نخضع لك برؤوسنا ونسجد بين يديك ونشكرك يا خالقنا ورازقنا على هذا الحال وفى كل حال ومن أجل سائر الأحوال. نجنا يا الله من كل شدة. نسألك يارب إسمعنا وإرحمنا,",
       "English": "O You who look to the humble with watchful eyes of protection, who saved Joseph from his master's wife, set him as a ruler over Egypt, and spared him in the days of hardship, so that his brothers and father Jacob came and knelt before him, and Look from him wheat for the sustenance of their children and animals, we also bow our heads and kneel before You, O our Creator and Provider, and we thank You for everything, concerning everything, and in everything. We ask You, O Lord, hear us and have mercy on us.,"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -295,7 +295,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -311,7 +311,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -327,7 +327,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -343,7 +343,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -359,7 +359,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -375,7 +375,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -391,7 +391,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -407,7 +407,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -423,7 +423,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -439,7 +439,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -455,7 +455,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -471,7 +471,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -487,7 +487,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -503,7 +503,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -519,7 +519,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -535,7 +535,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -551,7 +551,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -567,7 +567,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -583,7 +583,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -599,7 +599,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -615,7 +615,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -631,7 +631,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -647,7 +647,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -663,7 +663,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -679,7 +679,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -695,7 +695,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -711,7 +711,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -727,7 +727,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -743,7 +743,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -759,7 +759,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -775,7 +775,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -791,7 +791,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -807,7 +807,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -823,7 +823,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -839,7 +839,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -855,7 +855,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -871,7 +871,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Priest",
       "Arabic": "الكاهن:",
       "English": "Priest:"
     },
@@ -887,7 +887,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },

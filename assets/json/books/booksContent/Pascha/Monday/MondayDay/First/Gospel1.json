@@ -1,16 +1,15 @@
 {
   "RefrainAfter": 0,
+  "ArabicTitle": " 11:12-24 الإنجيل من مرقس",
+  "EnglishTitle": "The Gospel according to St.Mark 11:12-24 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وفي الغد لما خرجوا من بيت عنيا جاع. فَرأى شَجَرَةَ تِينٍ عنْ بُعدٍ وَكانَ عَلَيْهَا وَرَقٌ، فَجَاءَ إليها لَعَلَّهُ يَجِدُ فِيهَا شَيْئًا. فَلَمَّا جَاءَ إِلَيْهَا لَمْ يَجِدْ شَيْئًا إِلَّا وَرَقًا، لِأَنَّهُ لَمْ يَكُنْ وَقْتَ التِّينِوفي الغد لما خرجوا من بيت عنيا جاع.",
-      "Coptic": "Ouo\\ epefrac; etaui ebol =en eBhqani`a af`\\ko> Ouo\\ etafnau eoubw `nkente \\ivouei `eouon \\anjwbi \\iwtc a`fi de \\ara afnajem `\\li \\iwtc ouo\\ etafi ejwc `mpefjem ``\\li ebhl e\\anjwbi > ne `pchou gar `nkente an pe >",
-      "English": "Now the next day, when they had come out from Bethany, He was hungry. And seeing from afar a fig tree having leaves, He went to see if perhaps He would find something on it. When He came to it, He found nothing but leaves, for it was not the season for figs",
-      "Arabiccoptic": "اووه أيبيفراستي إيفول خين إيفيثانيا اف إهكو : اووه أيتافناف أي أوفو أنكينتى هيفوإي إي أون هانجوبي هيوتس اف إي ذي هارا افناجيم أهلي هيوتس اووه إيتاف أي إيجوس أمبيفجيم إهلي إفييل أهانجوبي : ني أبسيو غار أنكينتى ان بى",
-      "Englishcoptic": "Owoh epef-rasti etav-ee evol khen eBithinia af-ehko : OWoh etaf-nav e-ovo enkente hi-vo-ei e-o-on han-gobi heyots af-ee ze hara afnagem ehli heyots owoh etaf-ee egos empef-gem ehli eveel ehan-gobi : ne epseyo ghar enkente an pe."
+      "English": "Now the next day, when they had come out from Bethany, He was hungry. And seeing from afar a fig tree having leaves, He went to see if perhaps He would find something on it. When He came to it, He found nothing but leaves, for it was not the season for figs"
     },
     {
       "Type": "Melody",

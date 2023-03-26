@@ -1,27 +1,23 @@
 {
   "RefrainAfter": 0,
+  "ArabicTitle": "50:1-3 من اشعياء النبي",
+  "EnglishTitle": "Isaiah 50:1-3",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "هكَذَا يَقُولُ الرَّبُّ  «أَيْنَ هُوَ كِتَابُ طَلاَقِ أُمِّكُمُ الَّتِي طَلَّقْتُهَا بِهِ أَوْ إِلى مَنْ أَسلمُتكُم .",
-      "Coptic": "Vai pe mvrh; `etefjw `mmoc `nje `P_> je a]pe pijwm `n\\ioui `ebol ``nte tenmau `etai \\itc `ebol `n=htf> ie `etai ;qhnou `ebol `nnim n`eu`w>",
-      "English": "Thus says the Lord: \"Of what quality is your mother's certificate of divorce, by which I put her away? Or to which debtor have I sold you?",
-      "Arabiccoptic": "فاي بي إميفريتي إيتيفجو إمموس إنجى ابشويس : جي اشبى بيجوم أن هيو إيفول إنيى تينماف إيتاي هيتس إيفول إنخيتف : يى إيتاي تيثينو إيفول إننيم نيفوؤ :",
-      "Englishcoptic": "Fai pe emevrity etef-go emmos enje Epchois : je ashpe pi-gom en-heio evol ente ten-mav e-tai hits evol enkhitf : ye etai ti-thino evol ennim ne-evoo ."
+      "English": "Thus says the Lord: \"Of what quality is your mother's certificate of divorce, by which I put her away? Or to which debtor have I sold you?"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "هُوَذَا مِنْ أَجْلِ خَطَاَياكُم قَد أَسلَمتُكُم, وَبسَبَب أثامِكُم طُلِقَت أُمُكُم.",
-      "Coptic": "|hppe ai;qhnou `ebol =en netennobi> ouo\\ =en neten`anomi`a ai\\iou`i ` ebol  `ntetenmau>",
-      "English": "Behold, you are sold for your sins, and for your lawlessness I put away your mother.",
-      "Arabiccoptic": "هيبى أيتي ثينو إيفول خين نيتين نوفي : اووه خين نيتين انومييا اي هي أووي أيفول أنتيتين ماف",
-      "Englishcoptic": "Hippe aiti-thino evol khen neten-novi : owoh khen ni-ten ano-meia ari-hi-owi evol ente-tenmav."
+      "English": "Behold, you are sold for your sins, and for your lawlessness I put away your mother."
     },
     {
       "Type": "Melody",

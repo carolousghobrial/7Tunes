@@ -1,0 +1,40 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Exodus",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaMondayMondayDaySixthProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Wisdom",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaMondayMondayDaySixthProphecies2",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

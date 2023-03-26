@@ -1,18 +1,15 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "2:3-11 من ميخاالنبى",
+  "ArabicTitle": "2:3-11 من ميخا النبى",
   "EnglishTitle": "Micah 2:3-11 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "٣ مِن أجلِ ذَلِكَ هَكَذَا مَا يقَولُ الرَّبُّ: «هَأَنَذَا أَفْكِّرُ بِالشَرورِ عَلَى هَذِهِ الْقبيلةِ.",
-      "Coptic": "Eqbe vai nai ne nh etef Jw `mmwou nje ` Po/c/ je \\hppe anok ;namokmek e\\an pet\\wou ejen tai vulh>",
-      "English": "Therefore thus says the Lord: \"Behold, I am devising evils against this tribe",
-      "Arabiccoptic": "إثفي فاي ناي ني نى ني إتيف جو إموإو إنجي إبشويس جي هيبي انوك تينا موك ميك إهان بيتهوأو إيجين تايفيلي",
-      "Englishcoptic": "Ethve fai nai ne ni-etef go emo-oo enje Epchois je hippe anok tina-mok-mek ehan pet-ho-oo ejen tai fili"
+      "English": "Therefore thus says the Lord: \"Behold, I am devising evils against this tribe"
     },
     {
       "Type": "Melody",

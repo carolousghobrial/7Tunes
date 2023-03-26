@@ -1,18 +1,15 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "  3:1-4 من سفر ميخاالنبى",
+  "ArabicTitle": "  3:1-4 من سفر ميخا النبى",
   "EnglishTitle": "Micah 3:1-4 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "١ وَالربُّ يُرشِدُهُمْ وَيَقُولُ: «ٱسْمَعُوا هَذَا يَارُؤَسَاءَ بَيْتِ يَعْقُوبَ، وَمُخْتَارِىِ بَيْتِ إِسْرَائِيلَ. أَمَا يَنْبَغِى لَكُمْ أَنْ تَعْرِفُوا ٱلْحُكْمَ؟",
-      "Coptic": "Po/c/ de efesimwit nwou ouo\\ efejoc je cwtem enai ni arxwn te `phi nIakwb nem nicotp `nte `phi mpIcrahl mhvwten an pe `e`emi `epi\\ap>",
-      "English": "1 He will say, \"Hear these things, O heads of the house of Jacob, and you remnant of Israel. Is it not for you to know judgment.",
-      "Arabiccoptic": "أبشويس زي إف إتشيمويت نوأو أووه إف إبجوس جي سوتيم إناي ني أرخون تي إب إي أن ياكوب نيم نيسوتب إنتي إب إيي أمبيسرائيل إيمي فوتين ان بى أي أيمي إيبيهاب",
-      "Englishcoptic": "Epchois ze ef-echimoit no-oo owoh ef-egos je sotem enai ni-arkhon te ep-ee enYakob nem ni-sotp ente ep-ee empIsrael emi-voten an pe e-emi epi-hap."
+      "English": "1 He will say, \"Hear these things, O heads of the house of Jacob, and you remnant of Israel. Is it not for you to know judgment."
     },
     {
       "Type": "Melody",

@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 20:20-28  الإنجيل من متى ",
+  "EnglishTitle": "The Gospel according to St.Matthew 20:20-28",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حِينَئِذٍ جَاءَتْ إِلَيْهِ أُمُّ ٱبْنَيْ زَبْدِي مَعَ ٱبْنَيْهَا، وَسَجَدَتْ لَهُ وَسَألَتْهُ شَيْئًا.",
+      "Coptic": "Tote ac`i \\arof `nje `qmau `nnen]hri `nZebedeoc nem nec]hri ecouw]t `mmof ouo\\ ceretin `mmof `nou\\wb>",
+      "English": "Then the mother of Zebedee's sons came to Him with her sons, kneeling down and asking something from Him.",
+      "Arabiccoptic": "توتي اس إي هاروف انجي إثماف إن نين شيري إنذي بي ذيئوس نيم نيس شيري إس أوؤشت إمموف إووه سيريتين إمموف إن أوهوب :",
+      "Englishcoptic": "Tote as-ee harof enje ethmav ennen-shiry enZebe-zeos nem nes-shiri es-o-osht emof owoh ser-etin emmof enoo-hob"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "٢١أَمَّا هُوَ  فَقَالَ لَهَا: «مَاذَا تُرِيدِينَ؟».",
+      "Coptic": "`Nqof de pejaf nac je ou pe eteoua]f",
+      "English": "21 And He said to her, \"What do you wish?\"",
+      "Arabiccoptic": "إنثوف ذي بيجاف ناس جي أو بي إيتي أوأشف",
+      "Englishcoptic": "Enthof ze pegaf nas je oo pe ete-oo-ashf"
+    }
+  ]
+}

@@ -4,15 +4,12 @@
   "EnglishTitle": "The Gospel according to St.Matthew 17:19-23 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "١٩ حِينَئذٍ جَاءَ ٱلتَّلَامِيذُ إِلَى يَسُوعَ مُنفَرِدينَ وَحدَهُم وَقَالُوا لَهُ: «لِمَاذَا لِمَاذَا لَمْ نَقْدِرْ نَحْنُ أَنْ نُخْرِجَهُ؟».",
-      "Coptic": "Tote aui `nje nimaqhthc \\a Ih/c/ ca` pca` mmauatou ouo\\ pejwou naf je eqbeou anon `mpen`]jemjom `e\\itf `ebol>",
-      "English": "Then the disciples came to Jesus privately and said, \"Why could we not cast it out?\"",
-      "Arabiccoptic": "توتي افيي إنجى نيماثيتيس ها إيسوس سا إبسا إمماف اطوو أووه بيجوأو ناف جي إثفيو انون إمبين أشجيمجوم إهيتف إيفول",
-      "Englishcoptic": "Tote av-ee enje ni-mathetis ha Isos sa epsa emmav-ato-oo owoh pego-oo naf je ethveo annon empen-esh-gem-gom ehitf evol"
+      "English": "Then the disciples came to Jesus privately and said, \"Why could we not cast it out?\""
     },
     {
       "Type": "Melody",

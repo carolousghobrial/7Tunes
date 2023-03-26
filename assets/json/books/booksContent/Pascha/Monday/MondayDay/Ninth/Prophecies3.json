@@ -4,15 +4,12 @@
   "EnglishTitle": "Proverbs 1:1-9 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "أَمْثَالُ سُلَيْمَانَ بْنِ دَاوُدَ، الذِي مَلَكَ عَلى إِسرَائيلَ. لِمَعْرِفَةِ حِكْمَةٍ وَأَدَبٍ.",
-      "Coptic": "Ni parhoimi`a `nte Colomwn `p]hri `m`pouro Dauid> vh`etaf erouro =en `pIcrahl> `e`emi `noucovi`a nem ou`cbw>",
-      "English": "The Proverbs of Solomon, the son of David, who reigned in Israel, to know wisdom and instruction",
-      "Arabiccoptic": "ني باري أوميا إنتى سولومون إبشيري إميب إورو إن دافييد : في إيتاف أر أورو خين أب أسرائيل : إى إيمي إن سوفيا نيم أو إسفو",
-      "Englishcoptic": "Ni pari-omia ente Solomon epshery emep-oro Daveed : vi-etaf er-oro khen ep-Israel : e-emi en-osofia nem o-esvo."
+      "English": "The Proverbs of Solomon, the son of David, who reigned in Israel, to know wisdom and instruction"
     },
     {
       "Type": "Melody",

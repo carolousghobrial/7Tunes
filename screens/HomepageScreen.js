@@ -10,10 +10,13 @@ import {
 import BookView from "../components/homepage/bookView";
 import TopBoxView from "../components/homepage/topBoxView";
 import homescreenPaths from "../helpers/homescreenPaths";
+import { getFullViewModel } from "../viewModel/getFullViewModel";
+import React, { useState } from "react";
 
 function HomepageScreen({ navigation, route }) {
   const data = homescreenPaths[route.params.bookPath];
-  function bookClick(item) {
+
+  const bookClick = (item) => {
     if (item.Enabled) {
       if (item.hasSubBooks) {
         navigation.push("HomepageScreen", {
@@ -26,11 +29,10 @@ function HomepageScreen({ navigation, route }) {
           bookPath: item.BookPath,
           englishTitle: item.EnglishTitle,
           arabicTitle: item.ArabicTitle,
-          motherSource: item.BookPath,
         });
       }
     }
-  }
+  };
 
   return (
     <View style={styles.container}>

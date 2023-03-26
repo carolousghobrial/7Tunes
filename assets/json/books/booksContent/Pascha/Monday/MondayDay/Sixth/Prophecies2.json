@@ -4,15 +4,12 @@
   "EnglishTitle": "Wisdom of Solomon 1:1-9 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "أَحِبُّوا العَدْلَ يَا قُضَاةَ الأَرضِ، أُذْكُرُوا الرَّبَ بِالصَلاحِ. أُطْلُبُوهُ بِقَلْبٍ سَلِيمٍ",
-      "Coptic": "Menre ;meomhi `nhet ;\\ap `e`pka\\i> ari `vmeui `m` Po/c/ =en oumetagaqoc > eretenkw; `ncwf =en ;metaplouc nte peten\\ht>",
-      "English": "Love righteousness, you who judge on the earth. Think about the Lord in goodness and seek Him with sincerity of heart;",
-      "Arabiccoptic": "مينرى تيمي أومي ني إت تيهاب إبكاهي اري إفميفئي إمبشويس خين أوميت أغاثوس: إري تينكوتي إنثوف خين تيميت ابولوس إنتي بيتينهيت",
-      "Englishcoptic": "Menre ti-me-omi ni-et ti-hap ep-kahi : ari efmevee em-Epchois khen omet-aghathos : ere tenkoti ensof khen timet-aplos ente peten-heet"
+      "English": "Love righteousness, you who judge on the earth. Think about the Lord in goodness and seek Him with sincerity of heart;"
     },
     {
       "Type": "Melody",

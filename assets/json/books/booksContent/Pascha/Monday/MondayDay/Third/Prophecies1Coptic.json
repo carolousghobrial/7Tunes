@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "5:20-30 من إشعياء النبي",
+  "EnglishTitle": "Isaiah 5:20-30 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويلٌ للقائلينَ للخيرِ شراً وللشرِ خيراً.",
+      "Coptic": "Ouoi `nnhetjw `mmoc> Je nane pipet\\wou> ouo\\ `f\\wou `nje pipeqnanef>",
+      "English": "Woe to those who call evil good and good evil",
+      "Arabiccoptic": "أو اوي إنني إتجو إمموس : جي نانى بيبيت هوأو اووه إفهوإو إنجى بي بيثتانانيف",
+      "Englishcoptic": "Oo-oi enni-etgo emmos: Je Nane pi-pet-ho-oo : owoh efho-oo enje pi-pethna-nef"
+    }
+  ]
+}
