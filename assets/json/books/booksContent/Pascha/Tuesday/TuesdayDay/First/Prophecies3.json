@@ -4,26 +4,20 @@
   "EnglishTitle": "Hosea 4:1-8 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اِسْمَعُوا كَلَامَ الرَّبِّ يَا بَنِي إِسْرَائِيلَ فإِنَّ لِلرَّبِّ مُحَاكَمَةً مَعَ سُكَّانِ الأَرْضِ،",
-      "Coptic": "Cwtem `e`pcaji `mP_ nen]hri `m`pIc/l /> je pi \\ap `mP_/ oube nhet] op \\ijen `pka\\i>",
-      "English": "Hear the word of the Lord, you children of Israel, for the Lord has a judgement for the inhabitants of the land:",
-      "Arabiccoptic": "سوتيم إبصاجي امبشويس نينشيري إمبيسرائيل : جي بيهاب امبشويس اوفى ني إتشوب هيجين إبكاهي :",
-      "Englishcoptic": "Sotem e-epsaji emepshois nenshiri empisrael: je pihap emepshois ove nee-etshop hijen epkahi:"
+      "English": "Hear the word of the Lord, you children of Israel, for the Lord has a judgement for the inhabitants of the land:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "لأَنَّهُ لاَ حَقَّ ولاَ رَحْمَةَ وَلاَ مَعْرِفَةَ اللهِ عَلَي الأَرْضِ.",
-      "Coptic": "Je ouhi `mmon meqmhi> oude `mmon nai> oude `mmon couen `nou; \\ijen `pka\\i",
-      "English": "\"There is no truth or mercy or knowledge of God in the land.",
-      "Arabiccoptic": "جي أوؤون إممون ميثمي : اوذى إممون سوجين نووتي هيجين إبكاهي",
-      "Englishcoptic": "Je oo-ee emmon methmi: oze emmon nai: oze emmon cojen nooti hijen epkahi."
+      "English": "\"There is no truth or mercy or knowledge of God in the land."
     },
     {
       "Type": "Melody",

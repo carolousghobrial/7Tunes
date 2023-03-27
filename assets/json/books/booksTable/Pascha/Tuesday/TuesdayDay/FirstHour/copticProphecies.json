@@ -1,0 +1,58 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroductionCoptic",
+            "Rule": "Exodus",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayFirstProphecies1Coptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroductionCoptic",
+            "Rule": "Job",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayFirstProphecies2Coptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroductionCoptic",
+            "Rule": "Hosea",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayFirstProphecies3Coptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

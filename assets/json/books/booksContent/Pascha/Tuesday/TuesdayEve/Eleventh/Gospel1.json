@@ -4,15 +4,12 @@
   "EnglishTitle": "The Gospel according to St.Mark 13:32-14:2 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "فَأَمَّا ذلِكَ الْيَوْمُ وَتِلْكَ السَّاعَةُ فَلاَ يَعْلمْهُمَا أَحَدٌ، وَلاَ الْمَلاَئِكَةُ الَّذِينَ فِي السَّمَاءِ، وَلاَ الابْنُ، إِلاَّ الآبُ.",
-      "Coptic": "Eqbe pi`e\\oou de `ete `mmau nem ;ounou `mmon `\\li `emi erwou oude niaggeloc nhet=en `tve > oude `p]hri `ebhl `eviwt",
-      "English": "\"But of that day and hour no one knows, not even the angels in heaven, nor the Son, but only the Father.",
-      "Arabiccoptic": "إثفي بي إيهوؤ ذي إيتى  إمماف نيم تي أونو إممون  إهلى إيمى إى إيروؤو  أوذي ني آنجيلوس نی  إتخين إتفى: أوذى إبشيرى  إيفيل إى إفيوت",
-      "Englishcoptic": "Ethve pi-eho-oo ze ete emmav nem tee-ono emmon ehli emi ero-oo oze ni-angelos nee-et khen etfe oze epshiri eveel efiot."
+      "English": "\"But of that day and hour no one knows, not even the angels in heaven, nor the Son, but only the Father."
     },
     {
       "Type": "Melody",

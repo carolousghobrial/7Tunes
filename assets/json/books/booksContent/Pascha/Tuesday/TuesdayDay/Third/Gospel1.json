@@ -4,26 +4,20 @@
   "EnglishTitle": "The Gospel according to St.Matthew 23:37-24:2 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "يَا أُورُشَلِيمُ، يَا أُورُشَلِيمُ! يَا قَاتِلَةَ الأَنْبِيَاءِ وَرَاجِمَةَ الْمُرْسَلِينَ إِلَيْهَا،",
-      "Coptic": "Ilh/m/ Ilh/m/ qhet=wteb nni`provhthc ouo\\ et\\iwni ejen nh`etauouorpou \\aroc>",
-      "English": "\"O Jerusalem, Jerusalem, the one who kills the prophets and stones those who are sent to her!",
-      "Arabiccoptic": "ياروساليم ياروساليم ثي إتخوتيب أنني إبروفيتيس اووه إتهيؤني إيجين ني أيتاف أوؤورب هاروس",
-      "Englishcoptic": "Yarosaleem, Yarosaleem, theet-khoteb enni-eprofetees owoh et-hee-oni Ejen nee-etav o-orpoo haros."
+      "English": "\"O Jerusalem, Jerusalem, the one who kills the prophets and stones those who are sent to her!"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "كَمْ مِنْ مَرَّةٍ أَرَدْتُ أَنْ أَجْمَعَ بَنِيكِ كَمَا يَجْمَعُ الطائر فِرَاخَهُ تَحْتَ جَنَاحَيهِ فَلَمْ تُرِيدُوا!.",
-      "Coptic": "Oumh] `ncop aiouw] `eqouht ne]hri `m`vrh; `nou\\alht `e]afqwou; `nnefmac `e=oun =aneften\\ ouo\\ `mpetenouw]>",
-      "English": "How often I wanted to gather your children together, as a hen gathers her chicks under her wings, but you were not willing!",
-      "Arabiccoptic": "اووميش إينسوب ايو أوش إيث أوويت نيشيري إيم إيفريتي إينوو هاليت إيش افثو أوتيي إنيفماس إيخوون خانيف تينه أووه إيمبيت إين أو أوش:",
-      "Englishcoptic": "Oomeesh ensop ai-oo-osh eth-oweet ne-sheeri em-evreeti en-oo-haleet esh-aftho-ootie en-nefmas ekhoon khan-eftenh owoh empet-en-oo-osh:"
+      "English": "How often I wanted to gather your children together, as a hen gathers her chicks under her wings, but you were not willing!"
     },
     {
       "Type": "Melody",

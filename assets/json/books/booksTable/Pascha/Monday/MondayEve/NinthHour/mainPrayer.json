@@ -43,15 +43,42 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "تسبحة البصخة ( 1 )",
+            "English": "Repeat Pascha Praise ( 1 )",
+            "Rule": "ThokTeTiGomScrollUp",
+            "Visible": true,
+            "Count": 1,
+            "Path": "MondayDayFirstHourProphecies"
+        },
+        {
             "Type": "Main",
             "Path": "AgpeyaPrayersOurFather",
             "Rule": 0,
             "Visible": true
         },
         {
+            "Type": "Main",
+            "Path": "PaschaPsalmIntroCoptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaMondayMondayEveNinthPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaKeEperto",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Button",
-            "Arabic": "المزمور و الانجيل بالقبطي",
-            "English": "Psalm and Gospel in Coptic",
+            "Arabic": " الانجيل بالقبطي",
+            "English": "Gospel in Coptic",
             "Rule": "OpenPage",
             "Visible": true,
             "Path": "MondayEveNinthHourcopticPsalmAndGospel"
@@ -59,7 +86,7 @@
         {
             "Type": "Button",
             "Arabic": "المزمور و الانجيل بالعربي",
-            "English": "Psalm and Gospel in English/Arabic",
+            "English": "Psalm and Gospel in English",
             "Rule": "OpenPage",
             "Visible": true,
             "Path": "MondayEveNinthHourPsalmAndGospel"
@@ -102,7 +129,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
+            "Path": "PaschaServiceConclusion",
             "Rule": 0,
             "Visible": true
         },

@@ -26,12 +26,6 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaPropheciesIntroductionCoptic",
-            "Rule": "Isaiah",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
             "Path": "PaschaMondayMondayDayNinthProphecies2Coptic",
             "Rule": 0,
             "Visible": true

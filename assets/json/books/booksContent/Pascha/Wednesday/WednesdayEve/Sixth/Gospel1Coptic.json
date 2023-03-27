@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "25:1-13 الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 25:1-13 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "«حِينَئِذٍ يُشْبِهُ مَلَكُوتُ السَّمَاوَاتِ عَشْرَ عَذَارَى، أَخَذْنَ مَصَابِيحَهُنَّ وَخَرَجْنَ لِلِقَاءِ الْعَرِيسِ.",
+      "Coptic": "Tote `coni `nje ;metouro `nte nivhoui `mmh; `mparqenoc nai `etausi `nnoulampac au`i ebol `e`\\ren pipat]elet>",
+      "English": "\"Then the kingdom of heaven shall be likened to ten virgins who took their lamps and went out to meet the bridegroom.",
+      "Arabiccoptic": "توتي إس أوني إنجي ميت أورو إنتي نيفيؤوي إمميتي إمبارثينوس ناي إيطافتثي إننولا مباس أفئي إيفول إي إهرين بي باطشيليت",
+      "Englishcoptic": "Tote esoni enje teemetoro ente nifi-owi emmeet emparthenos nai etavchi ennolampas avi evol ehren pipatshelet."
+    }
+  ]
+}

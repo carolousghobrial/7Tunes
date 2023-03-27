@@ -4,15 +4,12 @@
   "EnglishTitle": "The Gospel according to St.Matthew 26:3-16 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "حِينَئِذٍ اجْتَمَعَ رُؤَسَاءُ الْكَهَنَةِ وَشُيُوخُ الشَّعْب في دَارِ رَئِيسِ الْكَهَنَةِ الَّذِي يُدْعَى قَيَافَا،",
-      "Coptic": "Tote auqwou; `nje niarxh`ereuc nem ni`precbuteroc `nte pilaoc `e=oun `e;aulh `nte piarxh`ereuc vh`etaumou; `erof je Kaiava",
-      "English": "Then the chief priests, the scribes, and the elders of the people assembled at the palace of the high priest, who was called Caiaphas",
-      "Arabiccoptic": "توتى أفسوأوتى إنجى نى أرشى إيرفس نيم نى إبريسفيتيروس إنتى بى لاؤس إيخون إتى أفلى إنتى بى أرشى إيرفس فى غيطاف موتى إيروف جى كايافا.",
-      "Englishcoptic": "Tote av tho-oty enje ni arshy erevs nem ni epres viteros ente pi laos ekhon eti avli ente pi arshy erevs vi etav mouty erof je Kayafa."
+      "English": "Then the chief priests, the scribes, and the elders of the people assembled at the palace of the high priest, who was called Caiaphas"
     },
     {
       "Type": "Melody",

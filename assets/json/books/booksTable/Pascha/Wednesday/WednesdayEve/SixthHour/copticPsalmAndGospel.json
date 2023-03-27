@@ -1,0 +1,22 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelIntroCoptic",
+            "Rule": 1,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaWednesdayWednesdayEveSixthGospel1Coptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelConclusionCoptic",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

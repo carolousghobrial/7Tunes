@@ -4,15 +4,12 @@
   "EnglishTitle": "Amos  5:6-14 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اُطْلُبُوا الرَّبَّ فَتَحْيَوْا، لِئَلاَّ يَتَّقِدَ بَيْتُ يُوسُفَ كَنَارٍ فَيَحْتَرِقَ ولا يَكُونُ مَنْ يُطفِئُ مِنْ بَيْتِ اِسْرَائِيلَ.",
-      "Coptic": "Kw; `nca Po/c/ ouo\\ eretenewn=> \\opwc `ntef `]tem]wpi `m`vrh; `nou`xrwm `nje `phi `nIwchv ouo\\ ef`eouomf> ouo\\ `nnef]wpi `nje vheqnasenof `m`phi mp`Icrahl >",
-      "English": "Seek the Lord and live, lest He break out like fire in the house of Joseph and devour it, with no on eta extinguish the fire for the house of Israel.",
-      "Arabiccoptic": "كوتي إنسا إبشويس اووه إريتيني أونخ : هوبوس إنتيف إشتيم شوبي إميفريتي إنوؤو إكروم إنجى بي إن يوسيف اووه إف إي أومف : اووه إنجي في إثنا تشينوف إمبي إسرائيل",
-      "Englishcoptic": "Kotee ensa epshois owoh eretene-onkh; hopos entef shtem-shopi emefriti eno-oo ekrom enje pee enYousef owoh efe-o-omf; owoh enje fee-ethna-chenof empee empisrael."
+      "English": "Seek the Lord and live, lest He break out like fire in the house of Joseph and devour it, with no on eta extinguish the fire for the house of Israel."
     },
     {
       "Type": "Melody",

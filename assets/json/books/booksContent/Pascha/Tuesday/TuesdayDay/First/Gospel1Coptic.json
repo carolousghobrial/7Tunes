@@ -1,0 +1,16 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ قَالَ لَهُمْ يَسُوعُ أَيْضًا:«أَنَا أَمْضِي وَسَتَطْلُبُونَنِي،  فلا تجدُونَنِي وَتَمُوتُونَ بِخَطَايَاكُم. وَحَيْثُ أَمْضِي أَنَا فَلاَ تَقْدِرُونَ أَنْتُمْ أَنْ تَأْتُوا إليِه.",
+      "Coptic": "Palinon peje Ihcouc nwou je anok ;na]enhi ouo\\ tetennakw; `ncwi ouo\\ tetennajemt an ouo\\ tetennamou =en netennobi je pima anok e;na]enhi `erof `mmon] `]jom `mmwten `e`i `erof",
+      "English": "Then Jesus said to them again, \"I am going away, and you will seek Me, and will die in your sin. Where I go you cannot come.\"",
+      "Arabiccoptic": "بالينون بيجي إيسوس نواوو جي آنوك تيناشيني أووه تيتين ناكوتي إنسوى      أووه تيتين ناجيمت      آن أووه تيتین ناموخين      وحيث أمضي أنا نيتين نوفی جی بيما  أن آنوك إتى ناشيني إيروف      إممون إشجوم إمموتين      إى إيروف.",
+      "Englishcoptic": "Palinon peje Isos no-oo je e-anok tee-nashenee owoh teten-nakoty ensoi owoh teten-najemt an owoh teten-namoo khen netennovi je pima e-anok e-teenashenee erof emmon eshgom emmoten e-ee erof"
+    }
+  ]
+}

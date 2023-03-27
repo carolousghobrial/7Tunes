@@ -9,11 +9,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "عظة لأبينا القديس (..) بركته المقدسة تكون معنا .  آمين .",
-      "Coptic": "Oukathxhchc ``nte peniwt` eqouab (..)> `ere pef`cmou `eqouab ]wpi neman `amhn.",
-      "English": "A homily of our holy father (..), may his blessings be us. Amen.",
-      "Arabiccoptic": "أوكاتي شيسيس انتي بين يوت اثؤواب أفا  (..) ايري بيف اسمو اثؤواب شوبي نيمان : أمين  .",
-      "Englishcoptic": "Okati kesis ente peniot ethowab Ava (..) : Ere pefesmo ethowab shopi neman Amen."
+      "Arabic": "عظة لأبينا القديس [*HOMILY_FATHER*] بركته المقدسة تكون معنا .  آمين .",
+      "Coptic": "Oukathxhchc ``nte peniwt` eqouab [*HOMILY_FATHER*]> `ere pef`cmou `eqouab ]wpi neman `amhn.",
+      "English": "A homily of our holy father [*HOMILY_FATHER*], may his blessings be us. Amen.",
+      "Arabiccoptic": "أوكاتي شيسيس انتي بين يوت اثؤواب أفا  [*HOMILY_FATHER*] ايري بيف اسمو اثؤواب شوبي نيمان : أمين  .",
+      "Englishcoptic": "Okati kesis ente peniot ethowab Ava [*HOMILY_FATHER*] : Ere pefesmo ethowab shopi neman Amen."
     }
   ]
 }

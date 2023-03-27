@@ -4,15 +4,12 @@
   "EnglishTitle": "Malachi 1:1-9 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "فَاتِحَةُ قَوْلِ الرَّبِّ لاِسْرَائِيلَ عَلى يَدِ مَلاكِهِ. فَضَعُوا فِي قُلُوبِكُمْ أَنِّي أَحْبَبتُكُمْ يَقُولُ الرَبُّ. وَقُلْتُمْ بِمَ أَحْبَبْتَنَا؟",
-      "Coptic": "Plhmma `m`pcaji `m`Psoic ejen `pIcrahl =en `tjij mpefaggeloc> xac ejen peten\\ht>  aimenre qhnou peje Po/c / ouo\\ pejwten je =en ouakmenriten>",
-      "English": "The burden of the word of the Lord to Israel by the hand of His messenger Malachi. Take it to heart! \"I have loved you,\" says the Lord. \"But you say, 'in what way have You loved us?'",
-      "Arabiccoptic": "بلييما إميبساجي إمبشويس إيجين أبيسرائيل خين إتجيج إمبيف انجيلوس : كاس إيجين بيتينهيت : اي مينرى ثينو بيجى إبشويس اووه بيجوتين جي خين او اكمينريتين",
-      "Englishcoptic": "Pleema epsaji emepshois ejen ep-israel khen etjij empef-angellos; kas ejen petenheet; ai-menre theeno peje epshois owoh pegoten je khen oo-akmenriten"
+      "English": "The burden of the word of the Lord to Israel by the hand of His messenger Malachi. Take it to heart! \"I have loved you,\" says the Lord. \"But you say, 'in what way have You loved us?'"
     },
     {
       "Type": "Melody",

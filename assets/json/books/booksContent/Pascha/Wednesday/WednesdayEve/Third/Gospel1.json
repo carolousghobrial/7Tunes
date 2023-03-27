@@ -4,26 +4,20 @@
   "EnglishTitle": "The Gospel according to St.Matthew 24:36-51 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَأَمَّا ذلِكَ الْيَوْمُ وَتِلْكَ السَّاعَةُ فَلاَ يَعْلَمهُمَا أَحَدٌ، وَلاَ مَلاَئِكَةُ السَّمَاوَاتِ، إِلاَّ الآبُ وَحْدَهُ.",
-      "Coptic": "Eqbe pie\\oou de ete`mmau nem ;ounou > `mmon `\\li `emi `erwou > oude ni`aggeloc `nte nivhoui > ebhl eviwt `mmauatf>",
-      "English": "\"But of that day and hour no one knows, not even the angels of heaven, but My Father only.",
-      "Arabiccoptic": "إتفي بي إيهوؤ ذي إيتي إمماف نيم تي أونو : اممون إهلي إيمي إيروؤو : أوذي بي أنجليوس إنتي نيفيؤي إيفيل إي إفيوت إمما فاطف :",
-      "Englishcoptic": "Ethve pi-eho-oo ze ete-emmav nem tee-ono; emmon ehli emi ero-oo; oze ni-angelos ente nifi-owi; eveel efiot emmavatf;"
+      "English": "\"But of that day and hour no one knows, not even the angels of heaven, but My Father only."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَكَمَا كَانَ في  أَيَّامِ نُوحٍ كَذلِكَ يَكُونُ في اِسْتِعْلَانِ ابْنِ الإِنْسَانِ.",
-      "Coptic": "`Mvrh; gar `nni`e\\oou `nte Nw`e > pairh; eqna]wpi =en `tparoucia `m`p]hri `m`vrwmi",
-      "English": "But as the days of Noah were, so also will the coming of the Son of Man be.",
-      "Arabiccoptic": "إم إفريتي غار إن نيإيهوؤ إنتي نوئي : بايرييتي إثناشوبي خين إتباروسيا إميبشيري إميفرومي",
-      "Englishcoptic": "Emefriti ghar enni-eho-oo ente No-eh ; Pairiti ethna-shopi khen etparosia emepshiri emefromi."
+      "English": "But as the days of Noah were, so also will the coming of the Son of Man be."
     },
     {
       "Type": "Melody",

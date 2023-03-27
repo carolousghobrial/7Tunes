@@ -4,15 +4,12 @@
   "EnglishTitle": "Isaiah 28:16-29 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "لِأَجْلِ هَذَا هَكَذَا مَا يَقُولُهُ السَّيِّدُ الرَّبُّ: «هأَنَذَا وَاضِعٌ حَجَرًا فِي أسَاسَاتِ صِهْيَوْنَ ، حَجَرًا ثَمِيناً مُخْتَارَاً فِى زَاوِيَةٍ كَرِيمًاً فِي أَسَاسَاتِهَا، فمَنْ آمَنَ بِهِ فَلَنْ يُخْزَى.",
-      "Coptic": "Eqbe vai pairh; `etef jw `mmwou `nje P_> je \\hppe `anok ei`e\\iou`i `nnicen; `nte Ciwn `nou`wni `ena]e`ncouenf `ncwtp `nko\\ cabol eftaihout `eneccen;> ouo\\ vheqna\\; `erof `nnefsi]ipi>",
-      "English": "Therefore, thus says the Lord: \"Behold, lay for the foundations of Zion a costly stone, a chosen and precious cornerstone for its foundations, believes in Him will not be put to shame.",
-      "Arabiccoptic": "إثفى فاى باى ريتى إتيف جو إمموؤ إنجى إبشويس. جى هييبى أنوك إى إ هيؤوى إننى سينتى إنتى سيون إن اواونى إينا شى إنسو إنف إنسوتب إنكوه سافول إفطايوت إ نيس سينتى. أووه فى إثناهتى إيروف إن نيف تشى شيبى.",
-      "Englishcoptic": "Ethve fai paireety etefgo emmo-o enje Epshois. je heppe anok ei e hi-oui enni centy ente Sion en-o-ony ena she enso-enf ensotp enkoh cavol eftayut ene senty. owoh vi ethnahty erof ennef etchalavg."
+      "English": "Therefore, thus says the Lord: \"Behold, lay for the foundations of Zion a costly stone, a chosen and precious cornerstone for its foundations, believes in Him will not be put to shame."
     },
     {
       "Type": "Melody",

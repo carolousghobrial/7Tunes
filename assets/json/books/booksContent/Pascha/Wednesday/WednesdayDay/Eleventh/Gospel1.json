@@ -4,15 +4,12 @@
   "EnglishTitle": "The Gospel according to St.John 12:27-36  ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اَلآنَ نَفْسِي قَدِ اضْطَرَبَتْ. وَمَاذَا أَقُولُ؟ يَا أَبَتِ نَجِّنِي مِنْ هذِهِ السَّاعَةِ؟. وَلكِنْ لأَجْلِ هذَا أَتَيْتُ إِلَى هذِهِ السَّاعَةِ",
-      "Coptic": ":nou `atayuxh `]qorter ouo\\ oupe ;najof> Paiwt na\\met `ebol =en taiounou > alla eqbe vai ai`i `etaiounou>",
-      "English": "\"Now My soul is troubled, and what shall I say? 'Father, save Me from this hour'? But for this purpose I came to this hour.",
-      "Arabiccoptic": "تينو أطا إبسيشى إشتورتير أووه أوبى تينا جوف. بايوت ناهميت إيفول خين طاى أونو. اللا إثفى فاى أى إ إيطاى أونو.",
-      "Englishcoptic": "Tino ata epsishy eshtorter owoh o-pe tinagof. Paiot nahmet evol khen tai ono. alla ethve fai ai-e etai ono."
+      "English": "\"Now My soul is troubled, and what shall I say? 'Father, save Me from this hour'? But for this purpose I came to this hour."
     },
     {
       "Type": "Melody",

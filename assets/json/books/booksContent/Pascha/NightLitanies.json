@@ -4,6 +4,14 @@
   "EnglishTitle": "Night Litanies ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم تقال الطلبة في المساء بغير سجود لأن الشعب غير صائم",
+      "English": "This Litany is said in the evening without prostration because the people are not fasting (abstaining)"
+    },
+    {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,

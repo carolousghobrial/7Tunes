@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "13:17-22 من سفر الخروج لموسى النبى",
+  "EnglishTitle": "Exodus 13:17-22 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَعِنْدَمَا أَطْلَقَ فِرْعَوْنُ الشَّعْبَ أَنَّ اللهَ لَمْ يَهْدِهِمْ اِلَى طَرِيقِ أَرْضِ الْفَلَسْطِينِيِّينَ مَعَ أَنَّهَا قَرِيبَةٌ،",
+      "Coptic": "+en `pjin`qre Vara`w xw `mpilaoc `ebol `mpefsimwit =ajwou `nje V; `e`vmwit `mVulictin> je naf=ent pe>",
+      "English": "Thus when Pharaoh let the people go, God did not lead them by way of the land of the Philistines, although that was near;",
+      "Arabiccoptic": "خين إبجين إثرى فاراؤ كو إمبي لاؤس إيفول إمبيف تشى مويت خاجوؤ إنجى إفنوتى إ إفمويت إم فلسطين. جى ناف خينت بى.",
+      "Englishcoptic": "Khen epjin ethre Fara-o ko empi laos evol empef echimoit khago-o enje Evnouty e efmoit em Filistin. je naf khent pe."
+    }
+  ]
+}

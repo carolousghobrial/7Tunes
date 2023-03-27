@@ -4,6 +4,22 @@
   "EnglishTitle": "Pascha Praise",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذه التسبحة تقال أثنتى عشرة مرة في كل صلوة من صلوات البصخة",
+      "English": "This praise is recited 12 times in each hour of the Holy Pascha."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أما سبب تكرارها ۱۲ مرة فلأن الكنيسة رتبت لكل صلوة ١٢ مزموراً وكل مرة من إنشاد هذه الترنيمة تعادل مزموراً واحداً ، وتختم هذه التسبحة كل مرة بالصلاة الربية",
+      "English": "The reason for its repetition 12 times is because The Church arranged 12 psalms for each Agpeya prayer, so each repetetition equates a psalm , and each praise concludes with the Lord’s Prayer."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

@@ -21,12 +21,6 @@
         {
             "Type": "Main",
             "Path": "PaschaPropheciesIntroductionCoptic",
-            "Rule": "Zephaniah",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesIntroductionCoptic",
             "Rule": "Jeremiah",
             "Visible": true
         },

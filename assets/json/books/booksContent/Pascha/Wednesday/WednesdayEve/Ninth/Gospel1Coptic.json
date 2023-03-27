@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "23:29-36  الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 23:29-36 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الوَيْلُ لَكُمْ أَيُّهَا الْكَتَبَةُ وَالْفَرِّيسِيُّونَ الْمُرَاؤُونَ! لأَنَّكُمْ تَبْنُونَ قُبُورَ الأَنْبِيَاءِ وَتُزَيِّنُونَ مَدَافِنَ الصِّدِّيقِينَ،",
+      "Coptic": "Ouoi nwten nica= nem nivariceoc ni]obi> je tetenkwt `nni`m\\au `nte ni`provhthc ouo\\ `ntetencolcel `nnibhb `nte ni`qmhi>",
+      "English": "\"Woe to you, scribes and pharisees, hypocrites! Because you build the tombs of the prophets and adorn the monuments of the righteous",
+      "Arabiccoptic": "أوؤي نوتين ني ساخ نيم ني فاريسيؤس ني شوفي :  جي تيتين كوت إن ني  إمهاف إنتي ني إبروفيتيس أووه إنتيتين سولسيل إن ني فيب إنتي ني إثمي :",
+      "Englishcoptic": "Owoi noten nisakh nem nifariseos nishovi; je tetenkoot enni-emhav ente ni-eprofetees owoh enteten-solsel enni-veeb ente ni-ethmi"
+    }
+  ]
+}

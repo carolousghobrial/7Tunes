@@ -4,15 +4,12 @@
   "EnglishTitle": "Numbers 20:1-13 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَجَاءَ بَنُو إِسْرَائِيلَ، وَالْجَمَاعَةُ كُلُّهَا، إِلَى جَبَلِ سِينَاء فِي الشَّهْرِ الأَوَّلِ. وَأَقَامَ الشَّعْبُ بِقَادَشَ. وَمَاتَتْ  مَرْيَمُ وَدُفِنَتْ هُنَاكَ.",
-      "Coptic": "Ouo\\ au`i `nje nen]hri `mpIc/l/ ;cunagwgh thrc `e`\\rhi `e`ptwou `nCina =en pi`abot `n\\ouit > ouo\\ af]wpi `nje pilaoc =en Kadhc> ouo\\ acmou `mmau `nje Mariam>",
-      "English": "Now the children of Israel, the whole congregation, came into the Desert of Sin in the first month, and the people stayed in Kadesh; and Miriam died and was buried there.",
-      "Arabiccoptic": "أووه أفئ إنجى نين شيرى إم بيسرائيل تى سيناجوجى تيرس إى إهرى إى إبتوأو إن سينا خين بى أفوت إنهو إيت. أووه أفشوبى إنجى بى لاؤس خين كاديس. أووه أسمو إمماف إنجى ماريام.",
-      "Englishcoptic": "Owoh av-e enje nenshiry em Pisraeel ti sinagogy tirs e ehrei e epto-o en Sina khen pi avot en ho-eat. owoh afshopy enje pilaos khen Kadees. owoh asmo emmav enje Mariam."
+      "English": "Now the children of Israel, the whole congregation, came into the Desert of Sin in the first month, and the people stayed in Kadesh; and Miriam died and was buried there."
     },
     {
       "Type": "Melody",

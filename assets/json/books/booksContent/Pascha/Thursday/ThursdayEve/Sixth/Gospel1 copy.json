@@ -1,0 +1,66 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "12:36-43 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 12:36-43 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَالَ يَسُوعُ هَذَا ثُمَّ مَضَى وَتَوَارَى عَنْهُمْ. وَإِذْ فَعَلَ هَذِهِ الآيَاتِ الكَثِيرَةَ أَمَامَهُمْ لَمْ يُؤْمِنُوا بِهِ،",
+      "Coptic": "Nai etaf jotou nje Ih/c/ af]enaf afxopf `ebol \\arwou Naimh] de `mmhni afaitou mpoumqo `ebol `mpouna\\; erof>",
+      "English": "These things Jesus spoke, and departed, and was hidden from them. 37 But although He had done so many signs before them, they did not believe in Him",
+      "Arabiccoptic": "ناى إيطاف جوتو إنجى إيسوس آفشيناف أفكوبف إيفول هاروؤ: نای ميش ذي إمميني آف آيتو إمبو إمثو إيفول إمبو ناهتي إيروف",
+      "Englishcoptic": "Nai etaf gotoo enje Isos Afshenaf afkopf evol haro-oo : Nai-meesh ze emmini af-aito empo-emtho evol emponahti erof."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِيَتِمَّ  القَولُ الَذي قَالَهُ إِشَعْيَاءَ النَّبِيِّ : »يَارَبُّ، مَنْ صَدَّقَ خَبَرَنَا؟ وَلِمَنِ اسْتُعْلِنَتْ ذِرَاعُ الرَّبِّ؟»",
+      "English": "That the word of Isaiah the prophet might be fulfilled, which he spoke: \"Lord, who has believed our report? And to whom has the arm of the LORD been revealed?\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمِنْ أَجْلِ هَذَا لَمْ يَقْدِرُوا أَنْ يُؤْمِنُوا. لأَنَّ إِشَعْيَاءَ قَالَ أَيْضًا:",
+      "English": "Therefore they could not believe, because Isaiah said again:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "»قَدْ أَعْمَى عُيُونَهُمْ، وَقَسَّى قُلُوبَهُمْ، لِئَلاَّ يُبْصِرُوا بِعُيُونِهِمْ، وَيَفْهَمُوا بِقُلُوبِهِمْ، وَيَرْجِعُوا إلىَّ فَأَشْفِيَهُمْ».",
+      "English": "\"He has blinded their eyes and hardened their hearts, Lest they should see with [their] eyes, Lest they should understand with [their] hearts and turn, So that I should heal them.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَالَ إِشَعْيَاءُ هذَا لَمَّا رَأَى مَجْدَ اللهِ وَتَكَلَّمَ عَنْهُ.",
+      "English": "These things Isaiah said when he saw His glory and spoke of Him."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَعَ هَذَا فَإِنَّ كَثِيرَاً مِنَ الرُّؤَسَاءِ أَيْضًا، آمَنُوا بِهِ، غَيْرَ أَنَّهُمْ لِسَبَبِ الْفَرِّيسِيِّينَ لَمْ يَعْتَرِفُوا بِهِ، لِئَلاَّ يَصِيرُوا خَارِجَ الْمَجْمَعِ،",
+      "English": "Nevertheless even among the rulers many believed in Him, but because of the Pharisees they did not confess [Him,] lest they should be put out of the synagogue;"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنَّهُمْ أَحَبُّوا مَجْدَ النَّاسِ أَكْثَرَ مِنْ مَجْدِ اللهِ.",
+      "English": "For they loved the praise of men more than the praise of God."
+    }
+  ]
+}

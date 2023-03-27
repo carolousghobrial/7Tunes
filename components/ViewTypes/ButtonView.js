@@ -16,7 +16,7 @@ import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect, memo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ButtonRules from "../../helpers/buttonRules";
-function ButtonView({ item, motherSource, navigation }) {
+function ButtonView({ item, flatListRef, viewData, navigation }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
   let flex = "row";
@@ -27,13 +27,22 @@ function ButtonView({ item, motherSource, navigation }) {
     // Portrait mode
     flex = "column";
   }
+  const itemVisible = item.Visible;
   return (
-    <Pressable onPress={ButtonRules(item, motherSource, navigation)[item.Rule]}>
-      <View style={[styles.bookView, { flexDirection: flex }]}>
-        <Text style={[styles.english, { fontSize }]}> {item.English}</Text>
-        <Text style={[styles.arabic, { fontSize }]}> {item.Arabic}</Text>
-      </View>
-    </Pressable>
+    <View>
+      {itemVisible !== "hide" ? (
+        <Pressable
+          onPress={
+            ButtonRules(item, flatListRef, viewData, navigation)[item.Rule]
+          }
+        >
+          <View style={[styles.bookView, { flexDirection: flex }]}>
+            <Text style={[styles.english, { fontSize }]}> {item.English}</Text>
+            <Text style={[styles.arabic, { fontSize }]}> {item.Arabic}</Text>
+          </View>
+        </Pressable>
+      ) : null}
+    </View>
   );
 }
 

@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "4:20-5:2 من يشوع بن سيراخ",
+  "EnglishTitle": "Joshua Son of Sirach 4:20-5:2 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِحْرِصْ عَلَى الزَمَانِ وَإحْتَفِظ مِنَ الشَرِّ. وَلَا تَستَحِ مِنْ عَدَمِ مَعْرِفَتِكَ.",
+      "Coptic": "Ma`\\qhk `epichou `ntek`are\\ `erok `ebol \\a pipet\\wou > ouo\\ `mpersi]ipi eqbe tekmetatcbw>",
+      "English": "Watch for a proper opportunity and keep yourself from evil; and do not bring shame upon your soul.",
+      "Arabiccoptic": "ما إهثيك إبيسيو إنتيك اريه إيروك إيفول ها بيبيتهوؤو : اووه إمبيرتشيشيبي إثفى تيكميت ات إسفو",
+      "Englishcoptic": "Ma-ehtheek e-epsio entek-areh erok evol ha pipet-ho-oo; owoh emper-chishipi ethve tekmet-atesvo"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 7:24-30 من حكمة سليمان",
+  "EnglishTitle": "Wisdom of Solomon 7:24-30 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إنَّ الحِكْمَةَ أَسْرَعُ حَرَكَةً مِنْ كُلِّ مُتَحَرِّكٍ فَهِي تَبْلُغُ وَتَرْتَفِعُ عَلَى الكُلِّ مِنْ أَجْلِ طَهَارَتِهَا،",
+      "Coptic": ":covi`a gar `ckim e=oun enh`etkim throu > `cvo\\ ouo\\ `cnhou ebol\\iten `pthrf eqbe pectoubo > ou]a\\ gar te `nte `tjom `mV;>",
+      "English": "For wisdom moves from one place to another more easily than motion itself, and because of her purity, she penetrates all things.",
+      "Arabiccoptic": "تيسوفيا غار إسكيم إيخون أني إتكيم تيرو : إسفوه اووه إسنيو إيفول هيتين إبتيرف إثفي بيستوفو : أووشاه غار تي إنتى إتجوم إمفنوتي",
+      "Englishcoptic": "Tee-sofia ghar eskim ekhon enee-etkeem teero; es-kho owoh esneyo vol hiten pterf etheve pestovo; oshah ghar te ente etgom emefnoti."
+    }
+  ]
+}

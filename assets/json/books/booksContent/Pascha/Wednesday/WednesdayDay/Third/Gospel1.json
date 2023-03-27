@@ -4,15 +4,12 @@
   "EnglishTitle": "The Gospel according to St.Luke 22:1-6 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَلَمَّا قَرُبَ عِيدُ الْفَطِيرِ، الَّذِي يُقَالُ لَهُ الْفِصْحُ.",
-      "Coptic": "Naf=ent de pe `nje `p]ai `nte niat]emhr vh`etoumou; `erof je pipacxa >",
-      "English": "Now the Feast of Unleavened Bread drew near, which is called Passover.",
-      "Arabiccoptic": "ناف خينت ذى بى إنجى إبشاى إنتى نى أت شيمير فى إيطوموتى إيروف جى بى باصخا.",
-      "Englishcoptic": "Naf khent ze pe enje ep ashai ente ni at shemir vi eto moty erof je pi Pascka."
+      "English": "Now the Feast of Unleavened Bread drew near, which is called Passover."
     },
     {
       "Type": "Melody",

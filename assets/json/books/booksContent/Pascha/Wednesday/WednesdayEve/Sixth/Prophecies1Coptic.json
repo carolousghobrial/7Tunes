@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "13:9,16:9-13 من إرميا النبى",
+  "EnglishTitle": "Jeremiah 13:9,16:9-13 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هَذَا مَا يَقُولُهُ رَبُّ القُوَّاتِ إِلهُ إِسْرَائِيلَ: هَأَنَذَا أُفْسِدُ كِبْرِيَاءَ يَهُوذَا، وَكِبْرِيَاءَ أُورُشَلِيمَ الْعَظِيمَةِ.",
+      "Coptic": "Nai ne nh`etefjw `mmwou `nje ` Po/c/ `nte nijom `V; `nte pIc/l/ > je ic\\hppe anok ;natako ebol=en paima `mpe`mqo `nnetenbal ebol >",
+      "English": "\"Thus says the Lord: 'In this manner I will destroy the insolence of Judah and that of Jerusalem.",
+      "Arabiccoptic": "ناي نى ني إيتيفجو إموؤو إنجى إبشويس إنتى نيجوم إفنوتي إنتى بيسرائيل : جى يس هيببى انوك تيناتاكو إيفول خين بايما إمبيمثو إننيتينفال إيفول",
+      "Englishcoptic": "Nai ne nee-etefgo emmo-oo enje epshois ente nigom efnoti ente episrael. Je yes-hippe anok tina-tako evol khen paima empemtho ennetenval evol."
+    }
+  ]
+}

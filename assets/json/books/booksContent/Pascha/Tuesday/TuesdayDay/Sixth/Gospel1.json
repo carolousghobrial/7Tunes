@@ -4,15 +4,12 @@
   "EnglishTitle": "The Gospel according to St.John 8:12-20 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "ثُمَّ كَلَّمَهُمْ أَيْضًا يَسُوعُ قَائِلاً:«أَنَا هُوَ نُورُ الْعَالَمِ. وَمَنْ يَتْبَعْنِي لاَ يَمْشِي فِي الظُّلْمَةِ بَلْ يَكُونُ لَهُ نُورُ الْحَيَاةِ».",
-      "Coptic": "Palin on afcaji nemwou nje Ih/c/ efjw`mmoc> je `anok pe `vouwini `mpikocmoc> vheqnamo]i `ncwi `nnefmo]i =en pixaki > alla ef`esi `mvouwini `nte `pwn= >",
-      "English": "Then Jesus spoke to them again, saying, \"I am the light of the world. He who follows Me shall not walk in darkness, but have the light of life.\"",
-      "Arabiccoptic": "بالين اون افصاجي نيموؤو إنجى إيسوس إفجو إمموس : جي انوك بى إفؤوؤيني امبيكوسموس : في إثناموشي إنسوي إننيفموشي خين بيكاكي : اللا إفيتشي إميفؤويني إنتى إبؤنخ",
-      "Englishcoptic": "Palin on afsaji nemo-oo enje Isos efgo-emmos; je anok pe ef-o-oini empikosmos; fee-ethna moshi ensoi ennef moshi khen pikaki alla efe-echi emef-o-oini ente eponkh"
+      "English": "Then Jesus spoke to them again, saying, \"I am the light of the world. He who follows Me shall not walk in darkness, but have the light of life.\""
     },
     {
       "Type": "Melody",

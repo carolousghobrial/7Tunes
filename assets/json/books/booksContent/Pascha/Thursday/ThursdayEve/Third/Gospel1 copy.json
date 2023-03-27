@@ -1,0 +1,90 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "14:3-11  الإنجيل من مرقس",
+  "EnglishTitle": "The Gospel according to St.Mark 14:3-11 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَفِيمَا هُوَ فِي بَيْتِ عَنْيَا فِي مَنْزِلِ سِمْعَانَ الأَبْرَصِ، وَهُوَ مُتَّكِئٌ، جَاءَتِ امْرَأَةٌ مَعَهَا قَارُورَةُ طِيبٍ مِنْ سُنْبُلِ نَارِدِينٍ خَالِصٍ كَثِيرِ الثَّمَنِ.",
+      "Coptic": "Ouo\\ efxh =en bhoania =en `phi `nCimwn pikakce\\t efrwteb ac`i `nje ou`c\\imi ere ouon oumoki `ncojen `ntotc nardoc `mpi`ctikh `ena]encou`enf>",
+      "English": "And being in Bethany at the house of Simon the leper, as He sat at the table, a woman came having an alabaster flask of very costly oil of spikenard.",
+      "Arabiccoptic": "أووه إفكي خين فيث آنيا خين إبنى إن سيمون بي كاكسيهت إفروتيب : آسئى إنجي أو إسهيمي إيرى أوؤن أو موكى إنسوجين إنتوتس نارذوس إمبى إستيكي إبناشي إنسو إنف",
+      "Englishcoptic": "Owoh ef-kee khen Vi-o-ania khen ep-ee enSimon pikak-seht efroteb ac-ee enje oo-eshimi ere o-on oo-moki ensojen entots nardos empi-esteki enashen-soo-enf"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَكَسَرَتِ الْقَارُورَةَ وَأَفَاضَتْهُ عَلَى رَأْسِهِ.",
+      "English": "Then she broke the flask and poured [it] on His head."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَنَّ قَوْماً تَذَمَّرَبَعْضُهُمْ مَعَ بَعْضٍ قَائِلِينَ: لِمَ كَانَ اِتْلاَفُ هَذَا الطِّيبِ؟",
+      "English": "But there were some who were indignant among themselves, and said, \"Why was this fragrant oil wasted?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنَّهُ كَانَ يَنْبَغِى أَنْ يُبَاعَ هَذَا بِأَكْثَرَ مِنْ ثَلاَثِمِئَةِ دِينَارٍ وَيُعْطَى للمَسَاكِينَ. وَكَانُوا يُؤَنِّبُونَهَا.",
+      "English": "\"For it might have been sold for more than three hundred denarii and given to the poor.\" And they criticized her sharply."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُمْ يَسُوعُ: دَعُوهَا، لِمَاذَا تُعَنِّفُونَهَا؟ فقَدْ صَنَعَتْ بِي صُنْعَاً حَسَنًا!.",
+      "English": "But Jesus said, \"Let her alone. Why do you trouble her? She has done a good work for Me."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنَّ المَسَاكِينَ هُمْ عِنْدَكُمْ فِي كُلِّ حِينٍ، فَتَقْدِرُونَ أَنْ تُحْسِنُوا إِلَيهِمْ مَتَى شِئْتُمْ فِي كُلِّ حِينٍ  وَأَمَّا أَنَا فَلَسْتُ عِنْدَكُمْ فِي كُلِّ حِينٍ.",
+      "English": "\"For you have the poor with you always, and whenever you wish you may do them good; but Me you do not have always."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأِنَّهَا قَدْ صَنَعَتْ مَا فِى وُسْعِهَا وَقَدْ سَبَقَتْ فَطَيَّبَتْ جَسَدِي لِدَفْنِى.",
+      "English": "\"She has done what she could. She has come beforehand to anoint My body for burial."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اَلْحَقَّ أَقُولُ لَكُمْ: حَيْثُمَا يُكْرَزْ بِهذَا الإِنْجِيلِ فِي الْعَالَمِ كُلِّه، يُخْبَرْ أَيْضًا بِمَا صَنَعَتْهُ هذِهِ، تَذْكَارًا لَهَا«.",
+      "English": "\"Assuredly, I say to you, wherever this gospel is preached in the whole world, what this woman has done will also be told as a memorial to her.\""
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأنَّ يَهُوذَا الإِسْخَرْيُوطِيَّ، أَحَدَ الاثْنَيْ عَشَرَ، مَضَى إِلَى رُؤَسَاءِ الْكَهَنَةِ لِيُسَلِّمَهُ إِلَيْهِمْ.",
+      "English": "Then Judas Iscariot, one of the twelve, went to the chief priests to betray Him to them."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمَّا هُمْ فَلَمَّا سَمِعُوا فَرِحُوا،وَأَعْطُوهُ فِضَّةً. وَكَانَ يَطْلُبُ كَيْفَ يَجِدُ فُرْصَةً لِيُسَلِّمهُ",
+      "English": "And when they heard [it,] they were glad, and promised to give him money. So he sought how he might conveniently betray Him."
+    }
+  ]
+}

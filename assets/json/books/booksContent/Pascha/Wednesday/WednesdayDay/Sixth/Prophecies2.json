@@ -4,15 +4,12 @@
   "EnglishTitle": "Joshua Son of Sirach 23:7-14 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "دُونَكَ يَا إِبْنِي أَدَبَ الفَمِ, فَإِنَّ مَنْ يَحْفَظَهُ لاَ يَهْلَكْ, وَلاَ يُؤْخَذُ بِشَفَتَيْهِ",
-      "Coptic": "Cwtem pa]hri `eou`cbw `nterwi> ouo\\ vhet`are\\ `eroc `nneftako> ouo\\ eu`ejemc =en nef`cvotou>",
-      "English": "My children, hear the teaching of my mouth, for he who keeps it will not be conquered.",
-      "Arabiccoptic": "سوتيم باشيرى إىأو إسفو إنتيرأوى. أووه فى إت أريه إيروس إن نيف طاكو. أووه إف إجيمس خين نيف إسفوطو.",
-      "Englishcoptic": "Sotem pashiry e-o esvo enter -oi. owoh vi et areh eros ennef tako. owoh ev-e jems khen nef esvoto."
+      "English": "My children, hear the teaching of my mouth, for he who keeps it will not be conquered."
     },
     {
       "Type": "Melody",

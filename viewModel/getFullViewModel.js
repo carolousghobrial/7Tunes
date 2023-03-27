@@ -7,6 +7,7 @@ import {
   REPLACEGOSPELAUTHOR,
   REPLACEPROPHETS,
   REPLACPASCHAHOURDAY,
+  REPLACEHOMILYFATHERS,
 } from "../helpers/replacingRules";
 import homescreenPaths from "../helpers/homescreenPaths";
 
@@ -210,6 +211,26 @@ function getMain(Path, motherSource, inHymn, rule, key) {
                 Type: part.Type,
                 Visible: part.Visible,
               };
+            } else if (part.English.includes("[*HOMILY_FATHER*]")) {
+              var replacingWord = "[*HOMILY_FATHER*]";
+              var myrule = REPLACEHOMILYFATHERS(thisRule);
+              newPart = {
+                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                Arabiccoptic: part.Arabiccoptic.replace(
+                  replacingWord,
+                  myrule.arabiccoptic
+                ),
+                Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                English: part.English.replace(replacingWord, myrule.english),
+                Englishcoptic: part.Englishcoptic.replace(
+                  replacingWord,
+                  myrule.englishcoptic
+                ),
+                Rule: thisRule,
+                Side: part.Side,
+                Type: part.Type,
+                Visible: part.Visible,
+              };
             } else {
               newPart = part;
             }
@@ -287,8 +308,78 @@ function getMain(Path, motherSource, inHymn, rule, key) {
           });
           key++;
         } else {
+          var newPart = {};
+          var replacingWord = "";
+          var myrule = {};
+          if (part.English.includes("[*COME/RISEN*]")) {
+            replacingWord = "[*COME/RISEN*]";
+            myrule = ComeRisenRule();
+            if (part.Type === "Base") {
+              newPart = {
+                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                Arabiccoptic: part.Arabiccoptic.replace(
+                  replacingWord,
+                  myrule.arabiccoptic
+                ),
+                Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                English: part.English.replace(replacingWord, myrule.english),
+                Englishcoptic: part.Englishcoptic.replace(
+                  replacingWord,
+                  myrule.englishcoptic
+                ),
+                Rule: thisRule,
+                Side: part.Side,
+                Type: part.Type,
+                Visible: part.Visible,
+              };
+            } else {
+              newPart = {
+                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                English: part.English.replace(replacingWord, myrule.english),
+
+                Rule: thisRule,
+                Side: part.Side,
+                Type: part.Type,
+                Visible: part.Visible,
+              };
+            }
+          } else if (part.English.includes("[*ROICONCLUSION*]")) {
+            replacingWord = "[*ROICONCLUSION*]";
+            myrule = ROICONCLUSION();
+            if (part.Type === "Base") {
+              newPart = {
+                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                Arabiccoptic: part.Arabiccoptic.replace(
+                  replacingWord,
+                  myrule.arabiccoptic
+                ),
+                Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                English: part.English.replace(replacingWord, myrule.english),
+                Englishcoptic: part.Englishcoptic.replace(
+                  replacingWord,
+                  myrule.englishcoptic
+                ),
+                Rule: thisRule,
+                Side: part.Side,
+                Type: part.Type,
+                Visible: part.Visible,
+              };
+            } else {
+              newPart = {
+                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                English: part.English.replace(replacingWord, myrule.english),
+
+                Rule: thisRule,
+                Side: part.Side,
+                Type: part.Type,
+                Visible: part.Visible,
+              };
+            }
+          } else {
+            newPart = part;
+          }
           myViewArray.push({
-            part: part,
+            part: newPart,
             key: key,
             EnglishTitle: englishttl,
             CopticTitle: copticttl,

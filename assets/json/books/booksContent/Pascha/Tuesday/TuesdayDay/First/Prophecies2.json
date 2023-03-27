@@ -4,15 +4,12 @@
   "EnglishTitle": "Job 23:2-24:25 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "أنَا أَعْلَمُ أَنَّ تَوْبِيخِي هُوَ مِنهُ. وَيَدُهُ قَدْ ثَقُلَتْ عَلى تَنَهُدِى.",
-      "Coptic": "Ke gar ;emi je paco\\iou ebol\\itotf pe > ouo\\ tefjij ac`\\ro] ejen pafi`a\\om",
-      "English": "\"Indeed, I know pleading is out of my reach, for His hand is heavy upon my groaning.",
-      "Arabiccoptic": "كى غار تي إيمي جى باسوهيو إيفول هيتوتف بى : اووه تيفجيج اس إهروش إيجين بافياهوم",
-      "Englishcoptic": "Ke ghar te-emi je paso-heyo evol hitotf pe: owoh tef-jeej as-ehrosh ejen pafi-ahom"
+      "English": "\"Indeed, I know pleading is out of my reach, for His hand is heavy upon my groaning."
     },
     {
       "Type": "Melody",

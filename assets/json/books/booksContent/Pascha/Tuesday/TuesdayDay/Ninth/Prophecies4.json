@@ -4,15 +4,12 @@
   "EnglishTitle": "Daniel 7:9-15 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "أَنَا دَانِيالَ رَأَيْتُ فِي رُؤَى اللَّيْلِ أَنَّهُ قد وُضِعَتْ كَرَاسِى وَجَلَسَ العتيق الأَيَّامِ. لِبَاسُهُ أَبْيَضُ كَالثَّلْجِ، وَشَعْرُ رَأْسِهِ كَالصُّوفِ النَّقِيِّ،",
-      "Coptic": "Anok Danihl> ainau =en `t\\oracic `mpi`ejwr\\> nai nau pe ]a`ntouxw `n\\an`qronoc> ouo\\ pi`apac` nte nie\\oou naf \\emci pe > tef  \\ebcw nac ouwb] pe `mvrh; `nouxiwn> ouo\\ nifwi `nte tefave `mvrh; `noucort eftoubhout",
-      "English": "I continued to watch until thrones were put in place, and the ancient of days enthroned Himself. His clothing was white as snow, and the hair of His head was like pure wool.",
-      "Arabiccoptic": "انوك دانييل : ايناف خين إتهوراسيس أمبي إيجوره : ناي ناف بى شاإنتووكو إنهان إثرونوس : اووه باي اباس إنتى ني إيهوؤو نافهيمسي بى : تيف هيبسو ناس اوؤوبش بى إمفريتي إن أوشيون : اووه نيق أوي إنتى تيف افى إميفريتي أن أوسورت إفتوفيوت",
-      "Englishcoptic": "Anok Dane-eel; ainav khen et-horasis empi-egorh; nai nav pe sha-entokoo enhan-ethronos; owoh pi-apas  ente ni-eho-oo naf-hemsi pe; tef hebsoo nas o-obsh pe emefriti eno-o shion; owoh nifoi ente tefafe emefriti enosort efto-veyot."
+      "English": "I continued to watch until thrones were put in place, and the ancient of days enthroned Himself. His clothing was white as snow, and the hair of His head was like pure wool."
     },
     {
       "Type": "Melody",

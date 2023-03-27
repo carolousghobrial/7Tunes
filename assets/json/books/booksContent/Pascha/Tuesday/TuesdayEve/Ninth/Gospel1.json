@@ -4,26 +4,20 @@
   "EnglishTitle": "The Gospel according to St.Luke 11:37-52 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَفِيمَا هُوَ يَتَكَلَّمُ سَأَلَهُ فَرِّيسِيٌّ أَنْ يَأكُلَ عِنْدَهُ، فَدَخَلَ وَاتَّكَأَ",
-      "Coptic": "Efcaji de af; \\oerof `nje ouvariceoc \\opwc `ntefouwm  =atotf ouo\\ `etaf] e e=oun afrwteb",
-      "English": "And as He spoke, a certain Pharisee asked Him to dine with him. So He went in and sat down to eat.",
-      "Arabiccoptic": "إفساجي ذي آفتيهو إنجي أو فاريسيئوس هوبوس إنتيف أوؤم خاتونف أووه إيطاف شي إيخون  آفروتيب .",
-      "Englishcoptic": "Efsaji ze aftiho-erof enje ofariseos hopos entef-o-oom khatotf owoh etafshe ekhon afroteb."
+      "English": "And as He spoke, a certain Pharisee asked Him to dine with him. So He went in and sat down to eat."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَأَمَّا الْفَرِّيسِيُّ فَلَمَّا رَأَى أَنَّهُ لَمْ يَغْتَسِلْ أَوَّلاً قَبْلَ الأكْلِ تَعَجَّبَ.",
-      "Coptic": "Pivariceoc de `etafnau afer`]vhri je `mpefsiwmc `n]orp =ajen piouwm",
-      "English": "When the Pharisee saw it, he marveled that He had not first washed before dinner.",
-      "Arabiccoptic": "بيفاريسيوس ذي إيتافناف افئير إيشفيري جي إيمبيف إتشي أومس إينشورب خاجين بيؤوم",
-      "Englishcoptic": "Pi-fari-se-os ze etaf-nav af-er-eshveeri je empef-echi-oms en-shorp khajen pi-o-oom"
+      "English": "When the Pharisee saw it, he marveled that He had not first washed before dinner."
     },
     {
       "Type": "Melody",

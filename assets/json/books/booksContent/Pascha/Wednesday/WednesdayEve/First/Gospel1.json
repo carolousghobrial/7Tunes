@@ -4,15 +4,12 @@
   "EnglishTitle": "The Gospel according to St.Matthew 22:1-14 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "ثُمَّ أَجَابَهُمْ يَسُوعُ بِأَمْثَال قَائِلاً: »يُشْبِهُ مَلَكُوتُ السَّمَاوَاتِ رَجُلاً مَلِكًا صَنَعَ عُرْسًا لابْنِهِ،",
-      "Coptic": "Ouo\\ af`erouw nwou on `nje Ih/c/ =en \\anparabolh efjw`mmoc> je `coni nje ;metouro `nte nivhoui> `nourwmi `nouro `ea`firi `nou\\op `epef]hri >",
-      "English": "And Jesus answered and spoke to them again by parables and said: \"The kingdom of heaven is like a certain king who arranged a marriage for his son",
-      "Arabiccoptic": "اووة افئيروؤ نوؤ اون انجی ايسوس خين هان بارافولی افجو امموس: جي إسؤني إنجي تي ميت أورو إنتي نيفيؤوي : إنؤرومي إنؤروإي أفئيري إنؤهوب إي بيف شيري",
-      "Englishcoptic": "Owoh afer-o-oo no-oo on enje isos khen hanparaboli efgo emmos; Je esoni enje teemetoro ente ni-fi-owi; enoromi enoro e-a-efiri enohop epefshiri"
+      "English": "And Jesus answered and spoke to them again by parables and said: \"The kingdom of heaven is like a certain king who arranged a marriage for his son"
     },
     {
       "Type": "Melody",

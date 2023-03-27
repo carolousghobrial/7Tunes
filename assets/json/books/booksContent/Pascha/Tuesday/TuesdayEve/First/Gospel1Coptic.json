@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 13:23-30 الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 13:23-30 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُ وَاحِدٌ يَارَبُّ أَقَلِيلٌ هُمُ الَّذِينَ يَخْلُصُونَ. فَأمَّا هُوَ فَقَالَ لَهُمْ. اِجْتَهِدُوا أَنْ تَدْخُلُوا مِنَ البَابِ الضَّيِّقِ.",
+      "Coptic": "Peje ouai de naf je ~P_ \\ankouji ne nheqnano\\em > `nqof de pejaf nwou > je ariagwnizecqe `e`i `e=oun `ebol \\iten piro etjhou >",
+      "English": "Then one said to Him, \"Lord are there few who are saved?\" And He said to them, \"strive to enter through the narrow gate",
+      "Arabiccoptic": "بی جی اووای ذی ناف جي إبشويس هان كوجى ني ني إثنا نوهيم : إنثوف  ذی بیجاف نوؤ : جی  آری آجونی زيستى إى  إى إيخون إيفول هيتين  بيروات جيئو :",
+      "Englishcoptic": "Peje owai ze naf je epshois hankoji ne nee-ethnanohem; enthof ze pegaf no-oo; je ariagoni-zesthe e-ee ekhon evol hiten piro etgee-o-oo"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأِنِّي أَقُولُ لَكُمْ إِنَّ كَثِيرِينَ سَيَطْلُبُونَ أَنْ يَدْخُلُوا فَلاَ يَسْتَطِيعُونَ.",
+      "Coptic": "Je ne ouon oumh] ;jw `mmoc nwten nakw; `nca `i `e =oun ouo\\ `nnou`]jemjom",
+      "English": "For many, I say to you, will seek to enter and will not be able.",
+      "Arabiccoptic": "جی نی  أوأون أو ميش تيجو  إمموس نوتين ناکوتی  إنسا إى إيخون أووه إننو  إشجيم جوم",
+      "Englishcoptic": "Je ne o-on omeesh teego emmon noten nakoti ensai-ekhon oooh enno-eshgem-gom"
+    }
+  ]
+}

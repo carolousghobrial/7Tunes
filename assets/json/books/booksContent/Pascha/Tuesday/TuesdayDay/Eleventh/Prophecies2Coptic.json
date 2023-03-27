@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "6:24-7:5 من امثال سليمان الحكيم",
+  "EnglishTitle": "Proverbs 6:24-7:5 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَا ابْنِي، احْفَظْ شريعة أَبِيكَ ولا تَرفُضْ مَشُورَةَ أُمِّكَ.",
+      "Coptic": "Pa]hri `are\\ eninomoc `nte pekiwt> ouo\\ `mperxw`ncwk `nnicosni `nte tekmau >",
+      "English": "My son, guard the laws of you father and do not depart from the rules of your mother.",
+      "Arabiccoptic": "باشيري اريه انينوموس إنتى بيكيوت : اووه إمبيركونسوك إنني سوتشني إنتى تيكماف",
+      "Englishcoptic": "Pashiri areh eninomos ente pekiot; owoh emperko-ensok enni-sochni ente tekmav; moro-oo etek-pseechi khen otagro"
+    }
+  ]
+}

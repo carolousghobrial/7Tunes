@@ -2,24 +2,6 @@
     "Main": [
         {
             "Type": "Main",
-            "Path": "PaschaPsalmIntroCoptic",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaMondayMondayDayNinthPsalm",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaKeEperto",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
             "Path": "PaschaGospelIntroCoptic",
             "Rule": 1,
             "Visible": true

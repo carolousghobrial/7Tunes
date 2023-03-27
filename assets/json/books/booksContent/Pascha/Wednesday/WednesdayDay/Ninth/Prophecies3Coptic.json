@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "1:11-35 من امثال سليمان الحكيم",
+  "EnglishTitle": "Proverbs 1:11-35 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَا ابْنِي، لاَيَضِلَّكَ الرِجَالُ المُنَافِقُونَ، وَلاَتُجِبْهُمْ إِذَا دَعُوكَ قَائِلِينَ:",
+      "Coptic": "Pa]hri `mpen`qrou cormek `nje \\anrwmi `nacebhc> oude `mperraou`w E]wp au]an;\\o `erok eujwmmoc>",
+      "English": "My son, do not let the ungodly lead you astray, and do not consent if they invite you, saying.",
+      "Arabiccoptic": "باشيرى إمبين إثرو سورميك إنجى هان رومى إن أسيفيس. أوذى إمبير را أوؤ إيشوب أفشان تيهو إيروك إفجو إمموس.",
+      "Englishcoptic": "Pashiry empen ethro sormek enje han romy en as-e-vees o-ze emper ra-o-o eshop avshan tiho erok evgo emmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "»هَلُمَّ شَارِكْنَا فِي الدَّمِ. لِنَخْتَفِ فِي الأَرْضِ، للرَجٌلِ البَارِ لِغَيْرِ عِلَّةٍ",
+      "Coptic": "Je `amou `ari`]vhr neman `eou`cnof > ouo\\ `ntenxwp =en `pka\\i `nourwmi `n`qmhi =en oumetoji>",
+      "English": "\"Come with us; take part in bloodshed, and let us hide a righteous man in the earth unjustly;",
+      "Arabiccoptic": "جى أمو أرى إشفير نيمان إى أو إسنوف. أووه إنتين كوب خين إبكاهى إن أو رومى إن إثمى خين أوميت أوجى.",
+      "Englishcoptic": "Je amoo ari eshveer neman e-o esnof. owoh enten kopkhen epkahy en-o romy en etmei khen o met ogi."
+    }
+  ]
+}

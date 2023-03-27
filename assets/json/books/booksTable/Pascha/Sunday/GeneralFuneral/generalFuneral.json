@@ -68,8 +68,8 @@
         },
         {
             "Type": "Button",
-            "Arabic": "المزمور و الانجيل بالقبطي",
-            "English": "Psalm and Gospel in Coptic",
+            "Arabic": " الانجيل بالقبطي",
+            "English": "Gospel in Coptic",
             "Rule": "OpenPage",
             "Visible": true,
             "Path": "generalFuneralcopticPsalmAndGospel"
@@ -77,7 +77,7 @@
         {
             "Type": "Button",
             "Arabic": "المزمور و الانجيل بالعربي",
-            "English": "Psalm and Gospel in English/Arabic",
+            "English": "Psalm and Gospel in English",
             "Rule": "OpenPage",
             "Visible": true,
             "Path": "generalFuneralPsalmAndGospel"
@@ -132,7 +132,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
+            "Path": "PaschaServiceConclusion",
             "Rule": 0,
             "Visible": true
         },

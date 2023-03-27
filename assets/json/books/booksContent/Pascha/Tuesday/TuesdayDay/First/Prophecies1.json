@@ -4,15 +4,12 @@
   "EnglishTitle": "Exodus 19:1-8 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَفِي الشَهْرِ الثَالِثِ لِخُروجِ بَني اِسْرَائِيلَ مِنْ أَرْضِ مِصْرَ فِي ذَلِكَ اليَوْمِ جَاءُوا إِلَى بَرِّيةِ سِينَاء.",
-      "Coptic": "` N\\rhi de  =en piabot `mma\\]omt `nte `pjini ebol `nnen]hri `m`pIcrahl `ebol =en `pka\\i `nXhmi>  =en pi`e\\oou ete `mmau> au`i e\\rhi  `e`p]afe `nCina",
-      "English": "Now in the third month after the Israel departed from the land of Egypt, on the same day, they came into the Sinai Desert.",
-      "Arabiccoptic": "إن إهري ذي خين بي افوت إمماه شومت إنتى إبجيني إيفول إنينشيري إمبيسرائيل ايفول خين إبكاهي إن كيمي خين بي إهوؤو إيتي إمماف افئي إإهري إإيشافى إن سينا",
-      "Englishcoptic": "Enehri ze khen pi-avot emmah shomt ente epgini evol ennenshiri empisrael evol khen epkahi en-kimi khen pi-eho-oo ete-emmav avi e-ehri e-epshafe en-sina."
+      "English": "Now in the third month after the Israel departed from the land of Egypt, on the same day, they came into the Sinai Desert."
     },
     {
       "Type": "Melody",

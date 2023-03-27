@@ -4,15 +4,12 @@
   "EnglishTitle": "The Gospel according to St.Matthew 24:3-35 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَفِيمَا هُوَ جَالِسٌ عَلَى جَبَلِ الزَّيْتُونِ،  جاء إِلَيْهِ تلاميذه عَلَى انْفِرَادٍ  وحدهم قَائِلِينَ: «قُلْ لَنَا مَتَى يَكُونُ هذَا؟ وَمَا هِيَ عَلاَمَةُ مَجِيئِكَ وَانْقِضَاءِ هذا الدَّهْرِ؟»",
-      "Coptic": "Ef\\emci de \\ijen pitwou `nte nijwit > au`i \\arof `nje nefmaqhthc ca`pca `mmau`atou eujw `mmoc je ajoc nan je `are nai na]wpi `n`qnau > ouo\\ a] pe pimhini `nte pekjini nem `t=ae `nte pai ene\\ >",
-      "English": "Now as He sat on the Mount of Olives, the disciples came to Him privately, saying, \"Tell us, when will these things be? And what will be the sign of Your coming, and of the end of the age?\"",
-      "Arabiccoptic": "إف هيمسي ذي هيجين بي طوؤ إنتي ني جويت : أفئي هاروف إنجي نيف ما ثيتيس صا إبصا إمما فاتو إفجو إمموس : جي آجوس نان جي آري ناي ناشوبي إن إثناف : أووه آش بي نا ناشوبي إن إثناف : أووه آش بي بي ميني إنتي بيك جينئ نيم إتخائي إنتي باي إينيه",
-      "Englishcoptic": "Ef-hemsi ze hiben pito-oo ente nigoit; avi harrow enje nef-mathetees sa-epsa emmav-atoo evgo emmos je agos nan je areh nai nashopi enethnav; owoh ash-pe pimini ente pekjini nem etkhai ente pai eneh."
+      "English": "Now as He sat on the Mount of Olives, the disciples came to Him privately, saying, \"Tell us, when will these things be? And what will be the sign of Your coming, and of the end of the age?\""
     },
     {
       "Type": "Melody",

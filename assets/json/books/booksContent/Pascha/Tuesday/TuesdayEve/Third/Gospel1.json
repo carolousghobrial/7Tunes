@@ -4,15 +4,12 @@
   "EnglishTitle": "The Gospel according to St.Luke 13:31-35 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَفِى ذَلِكَ اليَومِ جَاءَ إِلَيهِ قَوْمٌ مِنَ الفِرِّيسيينَ وَقَالُوا لَهُ. أُخْرُجْ وَأذْهَبْ مِنْ هَهُنَا فَإِنَّ هِيرُودُسَ يُرِيدُ قَتْلَكَ.",
-      "Coptic": "` N` \\rhi de   =en pi`e\\oou `ete` mmau aui \\arof `nje \\anvariceoc eujw` mmoc naf> je ma] enak `ebol ouo\\  \\wl` ebol tai je prwdhc `fouw]` e  = oqbek",
-      "English": "On that very day some pharisees came, saying to Him, \"Get out and depart from here, for Herod wants to kill You.\"",
-      "Arabiccoptic": "إن إهرى ذي خين بي  إيهوؤ إيتى إمماف أفئى  هاروف إنجي هان  فاريسيؤس إفجو إمموس  ناف : جي ماشيناك  إيفول أووه هول إيفول  طاي جي إيروديس إف  أوؤش إيخوث فيك.",
-      "Englishcoptic": "Enehri ze khen pi-eho-oo ete emmav avi-harof enje han-fariseos evo memos naf; je mashenak vol owoh hol evol tai je Herodees efoosh ekhoth-vek"
+      "English": "On that very day some pharisees came, saying to Him, \"Get out and depart from here, for Herod wants to kill You.\""
     },
     {
       "Type": "Melody",

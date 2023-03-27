@@ -44,6 +44,17 @@
       "English": "Glory be to God forever",
       "Arabiccoptic": "ذوكساسي كيريي",
       "Englishcoptic": "Zoxa si Kerie"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "بي اناغنوستيس:",
+      "Englishcoptic": "Pi-Anaghnostis:"
     }
   ]
 }

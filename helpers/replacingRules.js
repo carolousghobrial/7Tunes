@@ -83,7 +83,28 @@ export const ComeRisenRule = () => {
   };
 };
 
-export const ROICONCLUSION = () => {
+export const ROICONCLUSION = (motherSource) => {
+  if (motherSource === "kiahkPsalmody") {
+    return {
+      english: "The Begotten of the Father before all ages. ",
+      coptic: "Pimici `ebol=en `Viwt =ajwou `nni`ewn throu.",
+      arabic: "المولود من الآب قبل كل الدهور. ",
+      englishcoptic: "Pi-misi evol khen efiot , khago-oo en-ni e-on teero",
+      arabiccoptic: "بي ميسي إيفول خين إيفيوت خاجو أو إنني إي أون تيرو",
+    };
+  } else if (motherSource === "lentenPsalmody") {
+    return {
+      english:
+        "who fasted for us, forty days and forty nights, to save us from our sins.",
+      coptic:
+        "vh`etaf`ernhcteuin `e`\\rhi `ejwn> `n`\\me `n`e\\o`ou nem `\\me `n`ejwr\\> ]a `ntefcwtten =en nennobi.",
+      arabic: "الذي صام عنا، أربعين يوماً وأربعين ليلة، حتي خلصنا من خطايانا.",
+      englishcoptic:
+        "Vee-etaf ernes-tevin e-ehreei egon: en-ehme en-ehooo nem ehme en-egorh: sha entef-sot-ten khen nen-novi.",
+      arabiccoptic:
+        "في إيتاف إيرنيستيفين إهري إيجون: إين إيهمي إين إيهووؤ نيم إيهمي إين إيجوره: شا إينتيف سوتتين خين نين نوفي.",
+    };
+  }
   const fastsFeasts = getCopticFastsFeasts();
   const today = moment();
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -742,9 +763,9 @@ export const REPLACEPROPHETS = (prophet) => {
         englishcoptic: " Yob pi-ethmi",
         arabiccoptic: " يوب بي إثمي",
       };
-    case "Zachariah":
+    case "Zechariah":
       return {
-        english: " Zachariah",
+        english: " Zechariah",
         coptic: " Zaxariac",
         arabic: "  زكريا ",
         englishcoptic: " Zakhareyas",
@@ -845,6 +866,42 @@ export const REPLACEPROPHETS = (prophet) => {
         arabic: "  دانيال ",
         englishcoptic: " Dani-eel",
         arabiccoptic: " دانييل . ",
+      };
+  }
+};
+export const REPLACEHOMILYFATHERS = (father) => {
+  switch (father) {
+    case "Shenouda":
+      return {
+        english: " Shenouda the Archmandrite",
+        coptic: " }enou; pi`arxhman`drithc",
+        arabic: " شنودة رئيس المتوحدين  ",
+        englishcoptic: " Shenouti pi-Arshi manedretees",
+        arabiccoptic: " شينوتي بي أرشي مان ادراتيس  ",
+      };
+    case "John":
+      return {
+        english: " John Chrysostom",
+        coptic: " Iwannhc pi`xrucoctomoc ",
+        arabic: " يوحنا فم الذهب  ",
+        englishcoptic: " Youannis pi-Ekhri-zostomos",
+        arabiccoptic: " يؤانس بى إخري ذوستوموس",
+      };
+    case "Severus":
+      return {
+        english: " Severus",
+        coptic: " Ceuhrianoc",
+        arabic: " ساويروس",
+        englishcoptic: " Severianos",
+        arabiccoptic: " سيفيريانوس",
+      };
+    case "Athanasius":
+      return {
+        english: " Athanasius the Apostolic",
+        coptic: " Aqanacioc pi`apotolikoc",
+        arabic: " أثانسيوس الرسولى",
+        englishcoptic: " أثانسيوس بى أبوسطوليكوس ",
+        arabiccoptic: " Athanasius Pi-Apostolikos",
       };
   }
 };

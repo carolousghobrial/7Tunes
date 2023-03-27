@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 11:46-57 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 11:46-57 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَضَى قَوْمٌ مِنْهُمْ إِلَى الْفَرِّيسِيِّينَ وَاَخْبَرُوهُمْ عَمَّا فَعَلَ يَسُوعُ.",
+      "Coptic": "|anouon de `ebol n=htou au]enwou \\a nivariceoc autamwou `evh`etafaitou `nje Ih/c/>",
+      "English": "But some of them went away to the Pharisees and told them the things Jesus did.",
+      "Arabiccoptic": "هان أوأون ذى إيفول إنخيتو أف شينوأو ها نى فاريسيؤس أفتاموؤ إفى إيطاف أيطو إنجى إيسوس.",
+      "Englishcoptic": "Han o-on ze evol enkhito avsheno-o evi etaf aito enje Isos."
+    }
+  ]
+}

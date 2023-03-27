@@ -6,7 +6,7 @@
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
-            "BookPath": "thursdayFirst",
+            "BookPath": "ThursdayDayFirstHourMain",
             "ImageURL": "first",
             "Enabled": true
         },
@@ -16,7 +16,7 @@
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
-            "BookPath": "thursdayThird",
+            "BookPath": "ThursdayDayThirdHourMain",
             "ImageURL": "third",
             "Enabled": true
         },
@@ -26,7 +26,7 @@
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
-            "BookPath": "thursdaySixth",
+            "BookPath": "ThursdayDaySixthHourMain",
             "ImageURL": "sixth",
             "Enabled": true
         },
@@ -36,7 +36,7 @@
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
-            "BookPath": "thursdayNinth",
+            "BookPath": "ThursdayDayNinthHourMain",
             "ImageURL": "ninth",
             "Enabled": true
         },
@@ -46,7 +46,7 @@
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
-            "BookPath": "thursdayEleventh",
+            "BookPath": "ThursdayDayEleventhHourMain",
             "ImageURL": "eleventh",
             "Enabled": true
         }

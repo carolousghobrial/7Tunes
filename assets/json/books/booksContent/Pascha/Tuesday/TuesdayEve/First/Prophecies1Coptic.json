@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 1:1-6 من سفر زكرياالنبى",
+  "EnglishTitle": "Zechariah 1:1-6 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَفِي الشَهرِ الثَامِنِ مِنَ السَنَةِ الثَانِيةِ لِدَارِيُّوسَ. كانتْ كَلِمَةُ الرَّبِّ إِلى زَكَرِيَّا بْنِ بَرَاشِيَّا بْنِ عِدُّو النَبِيِّ قَائِلاً.",
+      "Coptic": "` N\\rhi de =en pi`abot `mma\\ `]mhn `nte ;rompi mma\\ `cnou; \\i darioc> aoucaji `nte V; ]wpi \\a Zaxariac `p]hri `mBaraxiac `p]hri nAddw piprovhthc efjw `mmoc>",
+      "English": "In the eighth month of the second year of the reign of Darius, the word of the Lord came to Zechariah, son of Berechiah, son of Addo the prophet, saying",
+      "Arabiccoptic": "إن إهري ذي خين بي أفوت إمماه إشمين إنيى تي رومبي إمماه إسوتي هي زاريوس : ا اوساجي إنتى إفنوتي شوبي ها زاخارياس إبشيري إمباراشياس إبشيري إن اددو بي إبروفيتيس إفجو إمموس :",
+      "Englishcoptic": "Enehri ze khen pi-avot emmah esheen ente teerompi emmah-esnoti hee-Zarios; a-oosajij ente efnoti Shopi ha Zakharias epshiri em- Barakhias epshiri en- Addo pi-eprofetees efgo emmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَدْ غَضِبَ الرَبُّ عَلَى آبَائِكُمْ قَائِلاً",
+      "Coptic": "Afjwnt `nje P_ / ejen netenio; efjwmmoc",
+      "English": "\"The Lord has been very angry with your fathers",
+      "Arabiccoptic": "افجونت إنجى إبشويس إيجين نى تين يوتى إفجو إمموس",
+      "Englishcoptic": "Afgont enje epshois ejen neteniotee efgo emmos"
+    }
+  ]
+}

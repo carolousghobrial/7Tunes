@@ -539,7 +539,11 @@ const notPalmSunday = (motherSource, path) => {
   }
   return false;
 };
+const hide = (motherSource, path) => {
+  return true;
+};
 const VisibleRules = {
+  hide: hide,
   TennavRule: TennavRule,
   SundayThetokiaWeekdaysPraisesRule: SundayThetokiaWeekdaysPraisesRule,
   TheotokiaVisible: TheotokiaVisible,

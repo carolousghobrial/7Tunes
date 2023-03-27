@@ -1,0 +1,62 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "الختام - أمين الليلويا",
+  "EnglishTitle": "The Conclusion (Amen Alleluia) ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين هلليلويا. المجدُ للآبِ والابنِ والروحِ القدسِ، الآن وكلَّ أوانٍ وإلى دهورِ الدهورِ. آمين.",
+      "Coptic": "`Amhn allhlouia. Do[a Patri ke `Uiw ke `Agiw `Pneumati> ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn> `amhn.",
+      "English": "Amen. Alleluia. Glory to the Father and to the Son and to the Holy Spirit, now and ever and unto the ages of the ages. Amen.",
+      "Arabiccoptic": "\b  امين الليلويا ذوكصابتري كى ايو كى اجيو بنفماتى  كي نين  كى ا اى كى اسطوس ا اوناس طون ا اونون امين",
+      "Englishcoptic": "Amen Alleluia Zoxa Patri ke eio, ke agio epnevmati, ken in ke a ei ke estos ei onas ton ei o-non amen"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نصرخ قائلين: يا ربَّنا يسوعَ المسيح الذى صلبت على الصليب وسحقت الشيطان تحت أقدامنا",
+      "Coptic": "Tenw] `ebol enjw `mmoc> je `w Pensoic Ihcouc Pi`xrictoc. `vh`etaua]f `epi`ctauroc> ek`e=om=em `m`pcatanac> capecht `nnensalauj",
+      "English": "We proclaim and say, O our Lord Jesus Christ,  who was crucified on the cross, destroy Satan under our feet ",
+      "Arabiccoptic": "فى إيطاف أشف إبى إسطافروس إك إ خومخيم إم إبساطاناس. سابيسيت إن نين إتشالافج.",
+      "Englishcoptic": "Ten osh evol engo emmos ge open shois isos piekhristos vi etaf ashf epistavros Ek-ekhomkhem emepsatanas, sapeseet en-nen echalavg."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خَلِّصْنا وارحَمْنا*. ياربُّ ارحَم. ياربُّ ارحَم. يا ربُّ بارك. آمين.",
+      "Coptic": "Cw; `mmon ouo\\ nai nan. Kurie `ele`hcon> Kurie `ele`hcon> Kurie euloghcon `amhn.",
+      "English": "Save us and have mercy on us.* Lord have mercy. Lord have mercy. Lord bless. Amen.",
+      "Arabiccoptic": ": سوتي إممون اووه ناي نان : كيري إليصون كيري إليصون : كيري إفلوجيسون امين :",
+      "Englishcoptic": "Soti em-mon owho nai nan, keryalison keryalison kerie evlogi-swn amen,"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "باركوا علَيَّ. [باركوا علَيَّ.] ها مطانية. اغفروا لي. قُلْ البركةَ.",
+      "Coptic": "`Cmou `eroi> `cmou `eroi> ic ;metanoia> xw nhi `ebol> jw `mpi`cmou.",
+      "English": "Bless me. [Bless me.] Lo, the repentance. Forgive me. Say the blessing.",
+      "Arabiccoptic": "إسمو إيروي إسمو إيروي : إس تي ميطانيا كوني إيفول جو إمبي إسمو  .",
+      "Englishcoptic": "Esmo eroi esmo eroi, esti metania koni evol go empi esmo"
+    }
+  ]
+}

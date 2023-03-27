@@ -1,4 +1,11 @@
-import React, { useState, useRef, useEffect, memo } from "react";
+import React, {
+  useState,
+  useRef,
+  useEffect,
+  memo,
+  useCallback,
+  PureComponent,
+} from "react";
 import {
   StyleSheet,
   useWindowDimensions,
@@ -32,6 +39,7 @@ import {
 } from "../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 const _spacing = 10;
+
 function BookScreen({ navigation, route }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const flatListRef = useRef();
@@ -40,7 +48,6 @@ function BookScreen({ navigation, route }) {
   const [NavbarVisibility, setNavbarVisibility] = useState(true);
   const [index, setIndex] = useState(0);
   const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
-  const [newIndex, setnewIndex] = useState(0);
   const [scrollToIndex, setscrollToIndex] = useState(0);
   const [englishTitle, setenglishTitle] = useState("");
   const [copticTitle, setcopticTitle] = useState("");
@@ -48,52 +55,56 @@ function BookScreen({ navigation, route }) {
   const values = getFullViewModel(route.params.bookPath);
   const [data, setData] = useState(values[0]);
   const [menuData, setMenuData] = useState(values[1]);
-  const motherSource = route.params.motherSource;
+  const [prevIndexStack, setprevIndexStack] = useState([0]);
 
-  const { width, height } = useWindowDimensions();
-
-  if (width > height) {
-    // Landscape mode
-  } else {
-    // Portrait mode
-  }
-
-  // const handleScroll = (event) => {
-  //   const position = event.nativeEvent;
-  //   console.log(position);
-  // };
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
-    // if (viewableItems.length > 0) {
-    //   setnewIndex(viewableItems[0].index);
-    // }
+    if (viewableItems.length > 0) {
+      // console.log("INDEX " + viewableItems[0].index);
+
+      setIndex(viewableItems[0].index);
+      sehowMcuhToScroll(viewableItems.length - 1);
+    }
   }).current;
-  // function scrollDown() {
-  //   var scrollnewIndex = index + howMcuhToScroll;
-  //   if (scrollnewIndex >= data.length - 1) {
-  //     return;
-  //   }
-  //   setIndex(scrollnewIndex);
-  // }
-  // function scrollUp() {
-  //   var scrollnewIndex = index - howMcuhToScroll;
-  //   if (scrollnewIndex <= 0) {
-  //     scrollnewIndex = 0;
-  //   }
-  //   setIndex(scrollnewIndex);
-  // }
+
+  function scrollDown() {
+    var scrollnewIndex = index + howMcuhToScroll;
+
+    if (scrollnewIndex >= data.length - 1) {
+      return;
+    }
+    setprevIndexStack(prevIndexStack.concat(scrollnewIndex)); // Add the new value to the end of the array and update the state
+
+    console.log(prevIndexStack);
+
+    flatListRef.current.scrollToIndex({
+      index: scrollnewIndex,
+      animated: false,
+    });
+  }
+  function scrollUp() {
+    const popped = prevIndexStack.pop(); // Remove the last element from the array
+
+    setprevIndexStack([...prevIndexStack]); // Update state with the new array
+
+    var scrollnewIndex = prevIndexStack[prevIndexStack.length - 1];
+    console.log(scrollnewIndex);
+    if (scrollnewIndex <= 0 || scrollnewIndex == undefined) {
+      scrollnewIndex = 0;
+    }
+
+    flatListRef.current.scrollToIndex({
+      index: scrollnewIndex,
+      animated: false,
+    });
+  }
   function scrollToKey(key) {
-    setscrollToIndex(key);
+    flatListRef.current.scrollToIndex({
+      index: key,
+      animated: false,
+    });
   }
 
   useEffect(() => {
-    //StatusBar.setHidden(NavbarVisibility);
-    // if (index != newIndex) {
-    //   setIndex(newIndex);
-    //   var item = data.find((item) => item.key === index);
-    //   setenglishTitle(item.EnglishTitle);
-    //   setcopticTitle(item.CopticTitle);
-    //   setarabicTitle(item.ArabicTitle);
-    // }
     navigation.setOptions({
       title: englishTitle,
       headerTitleStyle: {
@@ -110,11 +121,7 @@ function BookScreen({ navigation, route }) {
         />
       ),
     });
-    flatListRef.current.scrollToIndex({
-      index: scrollToIndex,
-      animated: false,
-    });
-  }, [NavbarVisibility, scrollToIndex]);
+  }, [NavbarVisibility]);
   function hideHeader() {
     setNavbarVisibility(!NavbarVisibility);
   }
@@ -143,7 +150,8 @@ function BookScreen({ navigation, route }) {
         content = (
           <ButtonView
             item={item.part}
-            motherSource={motherSource}
+            flatListRef={flatListRef}
+            viewData={data}
             navigation={navigation}
           ></ButtonView>
         );
@@ -157,8 +165,8 @@ function BookScreen({ navigation, route }) {
   return (
     // <GestureRecognizer
     //   style={{ flex: 1 }}
-    //   onSwipeUp={scrollDown}
-    //   onSwipeDown={scrollUp}
+    //   onSwipeLeft={scrollDown}
+    //   onSwipeRight={scrollUp}
     // >
     <View style={[styles.container, { backgroundColor: pageBackgroundColor }]}>
       <FlatList
@@ -180,7 +188,7 @@ function BookScreen({ navigation, route }) {
             }
           }, 50);
         }}
-        initialNumToRender={data.length}
+        removeClippedSubviews={true}
         renderItem={renderItems}
         keyExtractor={(item) => {
           return item.key;
@@ -190,16 +198,15 @@ function BookScreen({ navigation, route }) {
         <BottomBar
           navigation={navigation}
           dataArray={menuData}
-          initialKey={newIndex}
+          initialKey={index}
           scrollToKey={scrollToKey}
         />
       )}
     </View>
-    // </GestureRecognizer>
   );
 }
 
-export default BookScreen;
+export default memo(BookScreen);
 
 const styles = StyleSheet.create({
   container: {

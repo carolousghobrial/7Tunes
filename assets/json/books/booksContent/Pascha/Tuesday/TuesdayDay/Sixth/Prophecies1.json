@@ -4,15 +4,12 @@
   "EnglishTitle": "Ezekiel 21:3-13 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "هَذَا مَا يَقُولُهُ السَّيِدُ الرَّبُّ: هأَنَذَا مُرَاصِدُكَ وَأَسْتَلُّ سَيْفِي مِنْ غِمْدِهِ  وَأَسْتَأصِلُ مِنْكِ الظَالِمَ والمُنَافِقَ وَالمُتَجَاوِزَ النَامُوسَ",
-      "Coptic": "Nai ne nh`etefjw mmwou `nje Adwnai Po/c/ je \\hppe `anok oubhk ouo\\ ;naqwkem `ntachfi ebol =en peckw\\i ouo\\ ;nafw; `nourefsinjonc ebol `n=htk nem ou`anomoc>",
-      "English": "Thus says the Lord: You shall say to the land of Israel, 'Behold I am against you, and I will draw My sword out of its sheath and destroy both the unrighteous man and the lawless man from among you.",
-      "Arabiccoptic": "ناي ني ني إتيفجو إموؤو إنجى ادوناي إبشويس جى هيبى انوك اوفيك اووه تيناثوكيم إنتاسيفي إيفول خين بيسكوهي اووه تينافوتي إن أوريفتشينجونس إيفول إنخيتك نيم أو أنوموس",
-      "Englishcoptic": "Nai ne nee-etefgo Emmo-oo enje Adonai epshois je heppe anok oveek owoh tee-nathokem entaseefi evol khen peskohi owoh teenaf-oti enoref-echi-engons evol enkheetk nem oo-anomos."
+      "English": "Thus says the Lord: You shall say to the land of Israel, 'Behold I am against you, and I will draw My sword out of its sheath and destroy both the unrighteous man and the lawless man from among you."
     },
     {
       "Type": "Melody",

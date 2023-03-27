@@ -4,15 +4,12 @@
   "EnglishTitle": "Proverbs 9:1-11 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "اَلْحِكْمَةُ بَنَتْ لَهَا بَيْتَاً وَنَصَبَتْ فِيهِ سَّبْعَةَ أعْمِدَةً. ذَبَحَتْ ذَبَائِحَهَا ومَزَجَتْ خَمْرَهَا فِي الأَوَانِي وَهَيَّأتْ مَائِدَتَهَا.",
-      "Coptic": "A; covia nouhi> ouo\\ actajro `n]a]f `n`ctulloc =arof> Ac=ol=el `nnec]wt> acqwt `mpechrp =enoumoki> ouo\\ accob; `ntec`trapeza",
-      "English": "Wisdom built her house, and she supported it with seven pillars. She offered her sacrifices; she mixed her wine in a bowl and prepared her table.",
-      "Arabiccoptic": "اتي سوفيا إن أويي : اووه استاجرو إنشاشف أن إستيللوس خاروف : اسخولخيل إننيسشوت : اسثوت إمبيس أيرب خين أوموكي : اووه اسسوبتي إنتىس إترابيزا",
-      "Englishcoptic": "Ati-sophia enoo-ee owoh astagro enshashf enestellos kharof; as-khol-khel ennes-shot as-thoot empeseerp khen-omoki; owoh assovt entes-etrapeza"
+      "English": "Wisdom built her house, and she supported it with seven pillars. She offered her sacrifices; she mixed her wine in a bowl and prepared her table."
     },
     {
       "Type": "Melody",

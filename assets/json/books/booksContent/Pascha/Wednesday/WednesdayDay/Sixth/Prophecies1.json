@@ -4,15 +4,12 @@
   "EnglishTitle": "Exodus 14:13-15:1 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "فَقَالَ مُوسَى لِلشَّعْبِ: «لاَ تَخَافُوا. تَقَووا قِفُوا وَانْظُرُوا خَلاَصَ الرَّبِّ الَّذِي يَصْنَعُهُ لَكُمُ الْيَوْمَ.",
-      "Coptic": "Peje Mw`uchc de na\\ren pilaoc je jemno;> `ereten`o\\i `eraten qhnou `eretennau `epioujai pi`ebol\\iten Po/c/ > vai `etefnaaif nwten `mvoou>",
-      "English": "Then Moses said to the people, \"Be of good courage. Stand still and see the Lord's salvation which He will accomplish for you today.",
-      "Arabiccoptic": "بيجى مويسيس ذى ناهرين بى لاؤس جى جيم نوتى إيرى تين أوهى إيراتينثينو إيرى تين ناف إبى أوجاى بى إيفول هيتين إبشويس. فاى إتيف نا أيف نوتين إمفوؤ.",
-      "Englishcoptic": "Pige Moisees ze nahren pi-laos je jemnoty ereten ohy eraten thino. ereten nav epi-ogay pi evol hiten Epshois. fai etef na aif notem emfo-o."
+      "English": "Then Moses said to the people, \"Be of good courage. Stand still and see the Lord's salvation which He will accomplish for you today."
     },
     {
       "Type": "Melody",

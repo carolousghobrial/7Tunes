@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 25:14-26:2  الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 25:14-26:2  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وذلك كمثل إِنْسَانٌ مُسَافِرٌ دَعَا عَبِيدَهُ وَسَلَّمَهُمْ أَمْوَالَهُ،",
+      "Coptic": "` Mvrh; gar `n`ourwmi efna]enaf `e`p]emmo afmou; `enefebiaik ouo\\ af; `mpetentaf `etotou",
+      "English": "\"For the kingdom of heaven is like a man traveling to a far country, who called his own servants and delivered his goods to them.",
+      "Arabiccoptic": "إم إفريتي غار إن أورومي  إفنا شيناف إي إبشيممو أفموتي إمبيتين طاف إيتوتو",
+      "Englishcoptic": "Emefriti ghar enoromi efna-shenaf e-epshemmo afmoti enef-evi-aik owoh afti empet-entaf e-etotoo"
+    }
+  ]
+}

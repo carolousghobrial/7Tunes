@@ -1,0 +1,179 @@
+{
+    "Main": [
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "يوم خميس العهد (الساعة الأولى )",
+            "English": " Thursday (First Hour)"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaHourIntro",
+            "Rule": "ThursdayDayFirstHour",
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "النبوات بالقبطي",
+            "English": "Prophecies in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "ThursdayDayFirstHourcopticProphecies"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "النبوات بالعربي",
+            "English": "Prophecies in English/Arabic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "ThursdayDayFirstHourProphecies"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaHomilyIntro",
+            "Rule": "Shenouda",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayFirstHomily",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaHomilyConclusion",
+            "Rule": "Shenouda",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaPraiseIntro",
+            "Rule": "ThursdayDayFirstHour",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaPraise2",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "تسبحة البصخة ( 1 )",
+            "English": "Repeat Pascha Praise ( 1 )",
+            "Rule": "ThokTeTiGomScrollUp",
+            "Visible": true,
+            "Count": 1,
+            "Path": "ThursdayDayFirstHourProphecies"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPsalmIntroCoptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayFirstPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaKeEperto",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": " الانجيل بالقبطي",
+            "English": "Gospel in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "ThursdayDayFirstHourcopticPsalmAndGospel"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور و الانجيل بالعربي",
+            "English": "Psalm and Gospel in English",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "ThursdayDayFirstHourPsalmAndGospel"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaExpositionIntroMorning",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaExpositionIntro",
+            "Rule": "ThursdayDayFirstHour",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayFirstExposition",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaExpositionConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaMorningLitanies",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaServiceConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing2",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

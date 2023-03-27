@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "8:11-20 من سفر التثنية لموسى النبى",
+  "EnglishTitle": "Deuteronomy 8:11-20 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اِحْتَرِزْ مِنْ أَنْ تَنْسَى الرَّبَّ إِلهَكَ وَلاَ تَحْفَظَ وَصَايَاهُ وَأَحْكَامَهُ وَحُقُوقَهُ، الَّتِي أَنَا أُوصِيكَ بِهَا اليَوْمَ",
+      "Coptic": "Ma`\\qhk erok `e`]temer `pwb] `mP_ / peknou; `e`]tem `qrek`are\\ `enefentolh nem nef\\ap nem nefmeqmhi > nai anok `e;\\on\\en `mmwou etotk>",
+      "English": "\"Watch yourself, that you do not forget the Lord your God by not keeping His commandments, judgements, and ordinances. I command you today",
+      "Arabiccoptic": "ما إهثيك ايروك إيشتيمير إب إوش إمبشويس بيكنوتي إيشتيم إثريك اريه إنيف إنتولي نيم نيفهاب نيم نيم نيفميثمي : ناي انوك إيتيهونهين إموؤو إيتوتك:",
+      "Englishcoptic": "Ma-eh-theek erok e-esh temer epovsh emepshois peknoty e-eshtem ethrek-areh enef-entoli nem nefhap nem nef-methmi; nai e-anok eti-honhen emmo-oo etotk;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِئَلاَّ تَأكُلَ وَتَشْبَعَ وَتَبْنِى بُيُوتًاً حَسَنَةً جَمِيلَةً وَتَسْكُنَهَا.",
+      "Coptic": "Mhpwc `ntekouwm `ntekci  `ntekkwt `n\\anhi enaneu ouo\\ enecwou `ntek]wpi `n=htou",
+      "English": "Lest, when you have eaten and are full, and have built beautiful houses and dwell in them",
+      "Arabiccoptic": "مى بوس إنتيك اوؤوم إنتيكسي إنتيككوت إنهانني إينانيف اووه إن إسوؤو إنتيكشوبي إنخيتو",
+      "Englishcoptic": "Meepoos enter-o-oom enteksi entek-koti enhanee ena-nev owoh ene-so-oo entekshopi enkheeto"
+    }
+  ]
+}

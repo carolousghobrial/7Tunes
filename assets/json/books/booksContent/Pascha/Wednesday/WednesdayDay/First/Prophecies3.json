@@ -4,26 +4,20 @@
   "EnglishTitle": "Hosea 5:13-6:3 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَمَضَى أَفْرَايِمُ إِلَى أَشُّورَ، (الموصل) وَأَرْسَلَ شُفَعَاءَ إِلَى مَلِكِ يَارِيمَ",
-      "Coptic": "Ouo\\ af]enaf `nje Evrem nem \\anaccuroc ouo\\ afouwrp `n\\an`precbuc \\a `pouro `nIarim>",
-      "English": "\"Then Ephraim went to the Assyrians and sent ambassadors to King Jareb.",
-      "Arabiccoptic": "اووه أفشيناف إنجى غفريم نيم هان اس سيروس ها إبؤرو إن ياريم.",
-      "Englishcoptic": "Owoh afshenaf enje Efrim nem han as siros owoh af o-orp enhan epresvis ha ep-oro en Yarim."
+      "English": "\"Then Ephraim went to the Assyrians and sent ambassadors to King Jareb."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَلكِنَّهُ لاَ يَسْتَطِيعُ أَنْ يَشْفِيَكُمْ وَلاَ أَنْ يُزِيلَ الحُزْنَ عَنْكُمْ",
-      "Coptic": "Ouo\\ `nqof `mpef`]jemjom `ntouje qhnou ouo\\ `nnefmounk `nje pemka\\ `n\\ht `ebol=en qhnou>",
-      "English": "But he could not heal you, and your pain shall in no way cease from you.",
-      "Arabiccoptic": "اووه إنثوف إمبيف إشجيم جوم إنطو جى ثينو أووه إن نيف مونك إنجى بيمكاه إنهيت إيفول خين ثينو.",
-      "Englishcoptic": "Ouwh enthof empef eshgemgom ento-je thino owoh ennef monk enje pemkah enheat evol khen thino."
+      "English": "But he could not heal you, and your pain shall in no way cease from you."
     },
     {
       "Type": "Melody",
