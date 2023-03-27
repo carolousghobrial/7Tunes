@@ -26,12 +26,6 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaPropheciesIntroductionCoptic",
-            "Rule": "Isaiah",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
             "Path": "PaschaThursdayThursdayDayNinthProphecies2Coptic",
             "Rule": 0,
             "Visible": true
@@ -45,7 +39,7 @@
         {
             "Type": "Main",
             "Path": "PaschaPropheciesIntroductionCoptic",
-            "Rule": "Proverbs",
+            "Rule": "Job",
             "Visible": true
         },
         {

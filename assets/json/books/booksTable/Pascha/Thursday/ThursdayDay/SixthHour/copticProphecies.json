@@ -3,7 +3,7 @@
         {
             "Type": "Main",
             "Path": "PaschaPropheciesIntroductionCoptic",
-            "Rule": "Exodus",
+            "Rule": "Jeremiah",
             "Visible": true
         },
         {
@@ -21,18 +21,30 @@
         {
             "Type": "Main",
             "Path": "PaschaPropheciesIntroductionCoptic",
-            "Rule": "Wisdom",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesIntroductionCoptic",
-            "Rule": "Isaiah",
+            "Rule": "Ezekiel",
             "Visible": true
         },
         {
             "Type": "Main",
             "Path": "PaschaThursdayThursdayDaySixthProphecies2Coptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroductionCoptic",
+            "Rule": "Sirach",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDaySixthProphecies3Coptic",
             "Rule": 0,
             "Visible": true
         },

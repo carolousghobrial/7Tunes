@@ -3,48 +3,12 @@
         {
             "Type": "Main",
             "Path": "PaschaPropheciesIntroduction",
-            "Rule": "Genesis",
+            "Rule": "Exodus",
             "Visible": true
         },
         {
             "Type": "Main",
             "Path": "PaschaThursdayThursdayDayFirstProphecies1",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesConclusion",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesIntroduction",
-            "Rule": "Isaiah",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayFirstProphecies2",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesConclusion",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesIntroduction",
-            "Rule": "Sirach",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayFirstProphecies3",
             "Rule": 0,
             "Visible": true
         },

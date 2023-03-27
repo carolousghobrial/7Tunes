@@ -96,7 +96,7 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsCovenantThursday",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isCovenantThursday"
         },
         {
             "Type": "Main",

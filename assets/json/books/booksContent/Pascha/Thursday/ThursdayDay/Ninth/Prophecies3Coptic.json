@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "27:1-28:13 من أيوب الصديق",
+  "EnglishTitle": "Job 27:1-28:13 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حَيٌّ هُوَ الرَّبُّ الَّذِي حَكَمَ عَلَيِّ هَكَذَا وَالْضَابِطُ الْكُلَّ الَّذِي أَحْزَنَ نَفْسِي. إِنَّهُ مَا دَامَتْ نَسَمَتِي فِيَّ وَرُوحُ القُدُسِ فِي أَنْفِي لَنْ تَنطِقَ شَفَتَايَ إِثْماً",
+      "Coptic": "Fon= `nje `Psoic vh`etaf ;\\ap `eroi `mpairh;> nem pipantokratwr vh`etaf;`mka\\ `ntayuxh > je \\oc on `ere panifi ]op `n=ht > ouo\\ ou=p=n=a `efouab `eti efxh =en pa]ai. `Mpe na`cvotou je oucaji `n`anomon >",
+      "English": "\"As the Lord lives who thus judges me, And the Almighty who embittered my soul, Surely as long as my breath is in me and the divine breath is in my nostrils, My lips will not speak lawless things",
+      "Arabiccoptic": "فونخ إنجى إبشويس فى إيطاف تيهاب إيروى إمباى ريتى. نيم بى باندوكراطور فيئطاف تى إمكاه إنطا إبسيشى. جى هوس أون إيرى بانيفى شوب إنخيت. أووه أو إبنفما إفؤواب إتى إفكى خين باشاى. إمبى نا إسفوطو جى أوساجى إن أنومون.",
+      "Englishcoptic": "Fonkh enje Epshois vi etaf tihab eroi embay reety. nem pi Pandokratoor vi etaf ti emkah enta epsishy. je hos on ere panify shop enkheet. owoh o Ebnevma efouab eti efky khen bashay. empi na esvoto je o-saji en anomon."
+    }
+  ]
+}

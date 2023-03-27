@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "12:36-43 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 12:36-43 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَالَ يَسُوعُ هَذَا ثُمَّ مَضَى وَتَوَارَى عَنْهُمْ. وَإِذْ فَعَلَ هَذِهِ الآيَاتِ الكَثِيرَةَ أَمَامَهُمْ لَمْ يُؤْمِنُوا بِهِ،",
+      "Coptic": "Nai etaf jotou nje Ih/c/ af]enaf afxopf `ebol \\arwou Naimh] de `mmhni afaitou mpoumqo `ebol `mpouna\\; erof>",
+      "English": "These things Jesus spoke, and departed, and was hidden from them. 37 But although He had done so many signs before them, they did not believe in Him",
+      "Arabiccoptic": "ناى إيطاف جوتو إنجى إيسوس آفشيناف أفكوبف إيفول هاروؤ: نای ميش ذي إمميني آف آيتو إمبو إمثو إيفول إمبو ناهتي إيروف",
+      "Englishcoptic": "Nai etaf gotoo enje Isos Afshenaf afkopf evol haro-oo : Nai-meesh ze emmini af-aito empo-emtho evol emponahti erof."
+    }
+  ]
+}

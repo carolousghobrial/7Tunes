@@ -1,7 +1,7 @@
 {
     "Main": [
         {
-            "Type": "Title",
+            "Type": "MainTitle",
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
@@ -101,7 +101,7 @@
         },
         {
             "Type": "Main",
-            "Path": "AgpeyaPrayersGraciouslyOLord",
+            "Path": "AgpeyaPrayersPraiseAngels",
             "Rule": 0,
             "Visible": true
         },

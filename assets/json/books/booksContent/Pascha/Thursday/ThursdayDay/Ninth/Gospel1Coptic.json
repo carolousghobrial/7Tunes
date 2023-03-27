@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "26:17-19   الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 26:17-19  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَفِي اليَومِ الأَوَّلِ مِنَ الْفَطِيرِ تَقَدَّمَ إِلَى يَسُوعَ تَلاَمِيذُهُ قَائِلِينَ: «أَيْنَ تُرِيدُ أَنْ نُعِدَّ لَكَ الْفِصْحَ لِتَأْكُلَهُ ؟»",
+      "Coptic": "N`\\rhi de =en pi`e\\oou `n\\ouit `nte niatkwb > au`i `nje nimaqhthc \\a Ihc? eujw `mmoc > je akouw] `ecebte pipacxa nakqwn `eouomf",
+      "English": "17 Now on the first day of the Feast of the Unleavened Bread the disciples came to Jesus, saying to Him, “Where do You want us to prepare for You to eat the Passover?”",
+      "Arabiccoptic": "إن إهرى ذى خين بى إيهوؤ إنهو إيت إنتى نى أتكوب. أفئ إنجى نى ماثيتيس ها إيسوس إفجو إمموس. جى أكؤوش إس إفتى بى باصخا ناكثون إأوأومف",
+      "Englishcoptic": "En ehry ze khen pi eho-o enho eat ente ni atkop. af-e enje ni mathitees ha Isos efgo emmos. je ak o-osh es efty pe Bascha nakthon e o-omf"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمَّا هُوَ فَقَالَ لَهُمْ : «ﭐذْهَبُوا إِلَى الْمَدِينَةِ إِلَى فُلاَنٍ الرَجُلِ وَقُولُوا لَهُ: الْمُعَلِّمُ يَقُولُ إِنَّ وَقْتِي قَدْ قَرُبَ . وَعِنْدَكَ أَصْنَعُ فِصْحي مَعَ تَلاَمِيذِي».",
+      "Coptic": "`Nqof de pejaf nwou > je ma]enwten `etaibaki \\a pa`vman `nrwmi ouo\\ `ajoc naf > je peje piref;`cbw je pachou af=wnt > eina`iri `mpapacxa =atotk nem namaqhthc >",
+      "English": "18 And He said, “Go into the city to a certain man, and say to him, ‘The Teacher says, “My time is at hand; I will keep the Passover at your house with My disciples.” ’ ”",
+      "Arabiccoptic": "إنثوف ذى بيجاف نوأو. جى ماشينوتين إيطاى فاكى ها با إفمان إنرومى أووه أجوس ناف. جى بيجى بيريف تى إسفو جى باسيو أفخونت. إينا إيرى إمبا باصخا خاطوطك نيم ناماثيتيس.",
+      "Englishcoptic": "Enthof ze pigaf no-o. je mashenoten etai vaky ha pa efman enromy owoh agos naf. je pije piref ti esfo je pasio afkhont. eina ery empa Bascha khatotk nem namathitees."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَفَعَلَ التَّلاَمِيذُ كَمَا قَالَ لَهُمْ يَسُوعُ وَأَعَدُّوا الْفِصْحَ.",
+      "Coptic": "Ouo\\ au`iri `nje nimaqhthc `m`vrh; `eta Ihc? jocnwou ouo\\ aucebte pipacxa >",
+      "English": "19 So the disciples did as Jesus had directed them; and they prepared the Passover.",
+      "Arabiccoptic": "أووه أف إيرى إنجى نى ماثيتيس إم إفريتى إيطا إيسوس جوس نوؤ أووه أف سيفتى بى باصخا.",
+      "Englishcoptic": "Owoh af eiry enje ni mathitees em evreety eta Isos gos no-o owoh af sifty pe Bascha."
+    }
+  ]
+}

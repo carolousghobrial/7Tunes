@@ -17,24 +17,6 @@
             "Path": "PaschaPropheciesConclusion",
             "Rule": 0,
             "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesIntroductionCoptic",
-            "Rule": "Sirach",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayEleventhProphecies2Coptic",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesConclusion",
-            "Rule": 0,
-            "Visible": true
         }
     ]
 }

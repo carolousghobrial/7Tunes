@@ -1,12 +1,12 @@
 {
     "Main": [
         {
-            "Type": "Title",
+            "Type": "MainTitle",
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
             "Arabic": "يوم خميس العهد (الساعة السادسة )",
-            "English": " Thursday (Sixth Hour)"
+            "English": " Covenant Thursday (Sixth Hour)"
         },
         {
             "Type": "Main",

@@ -1,104 +1,95 @@
 {
-  "RefrainAfter": 0,
-  "ArabicTitle": "32:30-33:5 من سفر الخروج لموسى النبى",
-  "EnglishTitle": "Exodus 32:30-33:5 ",
-  "Hymn": [
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَكَانَ فِي الْغَدِ أَنَّ مُوسَى قَالَ لِلشَّعْبِ: «إِنَّكُمْ قَدْ أَخْطَأْتُمْ خَطِيَّةً عَظِيمَةً.",
-      "Coptic": "Ac]wpi de menenca pefrac;> peje Mw`uchc na\\ren pilaoc> je `nqwten `ateten`iri `nouni]; `nnobi>",
-      "English": "Now it came to pass on the next daythat Moses said to the people, \"You committed a great sin.",
-      "Arabiccoptic": "أسشوبى ذى ميننسا بيف راستى. بيجى مويسيس ناهرين بيلاؤس. جى إنثوتين أ تيتين إيرى إن أونيشتى إن نوفى.",
-      "Englishcoptic": "As shopi ze menensa pefrasty. pije Moisees nahren pi laos. je enthoten a titen eiry en o nishty en novy."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فَأَصْعَدُ الآنَ إِلَى اللهِ لَعَلِّي أُكَفِّرُ عَنْ خَطِيَّتِكُمْ».",
-      "Coptic": ";nou de aina]enhi ]a V;> je xac ei`e;\\o =a petennobi >",
-      "English": "So now I will go up to God to make atonement for your sin.\"",
-      "Arabiccoptic": "تينو ذى أيناشينى شا إفنوتى. جى كاس إى إتىهو خا بى تين نوفى.",
-      "Englishcoptic": "Tino ze ainashty sha Evnouty. je kas ei etiho khapi tennovy."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فَرَجَعَ مُوسَى إِلَى الرَّبِّ وَقَالَ:",
-      "Coptic": "Afkotf de `nje Mw`uchc \\a Poc? efjw `mmoc >",
-      "English": "Then Moses returned to the Lord and said",
-      "Arabiccoptic": "أفكوتف ذى إنجى مويسيس ها إبشويس إفجو إمموس :",
-      "Englishcoptic": "Af kotf ze enje Moisees ha Epshois efgo emmos."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "«اللَّهُمَ رَبِّى أَضْرَعُ إليك قَدْ خَطِئَ هَذَا الشَّعْبُ خَطِيَّةً عَظِيمَةً وَصَنَعُوا لَهُمْ آلِهَةً مِنْ ذَهَبٍ.",
-      "English": "\"I pray, O Lord, these people have committed a great sin and have made for themselves a god of gold!"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَالآنَ إِنْ غَفَرْتَ خَطِيَّتَهُمْ - وَإِلاَّ فَامْحُنِي مِنْ كِتَابِكَ الَّذِي كَتَبْتَهُ».",
-      "English": "Yet now, if You will forgive their sin, forgive it-but if not, blot me out of the book You have written.\""
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فَقَالَ الرَّبُّ لِمُوسَى: «الذى خَطِئَ إِلَيَّ إيَّاهْ أَمْحُو مِنْ كِتَابِي. وَالآنَ امْضِ قُدْ الشَّعْبَ إِلَى حَيْثُ قُلْتُ لَكَ .",
-      "English": "Then the Lord said to Moses, \"Whoever sins against Me, I will blot him out of My book. Now therefore, go down and lead the people to the place of which I spoke to you."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "هُوَذَا مَلاَكِي يَسِيرُ أَمَامَكَ. وَفِي يَوْمِ افْتِقَادِي أَفْتَقِدُهُمْ بِذنبِهِمْ». فَضَرَبَ الرَّبُّ الشَّعْبَ مِنْ أَجلِ أَنَّهُمْ عَبَدُوا الْعِجْلَ الَّذِي صَنَعَهُ هَارُونُ.",
-      "English": "Behold, My Angel shall go before your face. Nevertheless, in the day when I visit, I will strike them for their sin.\" So the Lord struck the people for making the calf which Aaron made."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَقَالَ الرَّبُّ لِمُوسَى: «هَلُمَّ فَاصْعَدْ مِنْ هَاهُنَا أَنْتَ وَالشَّعْبُ الَّذِي أَخْرَجْتَهُ مِنْ أَرْضِ مِصْرَ إِلَى الأَرْضِ الَّتِي أَقْسَمتُ لإِبْرَاهِيمَ وَإِسْحَاقَ وَيَعْقُوبَ قَائِلاً: لِنَسْلِكَ أُعْطِيهَا.",
-      "English": "Now the Lord said to Moses, \"Depart, go up from here, you and the people you brought out of the land of Egypt, to the land I swore to Abraham, Isaac, and Jacob, saying, 'To your seed I will give it.'"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَأَنَا أُرْسِلُ أَمَامَكَ مَلاَكي وَأَطْرُدُ الأَمُورِيِّينَ وَالْكِلْدَانِيِّينَ وَالْفِرِزِّيِّينَ وَالْيَبُوسِيِّينَ وَالْكَنْعَانِيِّينَ.",
-      "English": "I will send My Angel before your face, and I will drive out the Amorite, the Hittite, the Perizzite, the Gergesite, the Hivite, the Jebusite, and the Canaanite."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَأُدْخِلَكُمْ إِلَى الأَرْضِ الَّتِى تَفِيضُ لَبَناً وَعَسَلاً. وَأَمَّا أَنَا فَلاَ أَصْعَدُ مَعَكَ لأَنَّكَ شَعْبٌ صُلْبُ الرَّقَبَةُ لِئَلاَّ أُفْنِيَكَ فِي الطَّرِيقِ». فَلَمَّا سَمِعَ الشَّعْبُ هَذَا الْكَلاَمَ المُرَّ نَاحُوا",
-      "English": "I will bring you into a land flowing with milk and honey; for I will not go up in your midst, lest I consume you on the way, for you are a stiff-necked people.\" When the people heard this bad news, they mourned in lamentations."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فَقَالَ الرَّبُّ لِبَنِي إِسْرَائِيلَ: «أَنْتُمْ شَعْبٌ صُلْبُ الرَّقَبَةُ. أنظروا لِئَلاَّ أَتِىَ عَلَيكُمْ بِضَربَةٍ أُخرَى فَأُبِيدُكُمْ ».",
-      "English": "For the Lord said to the children of Israel, \"You are a stiff necked people. Beware, lest I inflict another plague on you and consume you."
-    }
-  ]
+    "RefrainAfter": 0,
+    "ArabicTitle": "32:30-33:5 من سفر الخروج لموسى النبى",
+    "EnglishTitle": "Exodus 32:30-33:5 ",
+    "Hymn": [
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَكَانَ فِي الْغَدِ أَنَّ مُوسَى قَالَ لِلشَّعْبِ: «إِنَّكُمْ قَدْ أَخْطَأْتُمْ خَطِيَّةً عَظِيمَةً.",
+            "English": "Now it came to pass on the next daythat Moses said to the people, \"You committed a great sin."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فَأَصْعَدُ الآنَ إِلَى اللهِ لَعَلِّي أُكَفِّرُ عَنْ خَطِيَّتِكُمْ».",
+            "English": "So now I will go up to God to make atonement for your sin.\""
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فَرَجَعَ مُوسَى إِلَى الرَّبِّ وَقَالَ:",
+            "English": "Then Moses returned to the Lord and said"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "«اللَّهُمَ رَبِّى أَضْرَعُ إليك قَدْ خَطِئَ هَذَا الشَّعْبُ خَطِيَّةً عَظِيمَةً وَصَنَعُوا لَهُمْ آلِهَةً مِنْ ذَهَبٍ.",
+            "English": "\"I pray, O Lord, these people have committed a great sin and have made for themselves a god of gold!"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَالآنَ إِنْ غَفَرْتَ خَطِيَّتَهُمْ - وَإِلاَّ فَامْحُنِي مِنْ كِتَابِكَ الَّذِي كَتَبْتَهُ».",
+            "English": "Yet now, if You will forgive their sin, forgive it-but if not, blot me out of the book You have written.\""
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فَقَالَ الرَّبُّ لِمُوسَى: «الذى خَطِئَ إِلَيَّ إيَّاهْ أَمْحُو مِنْ كِتَابِي. وَالآنَ امْضِ قُدْ الشَّعْبَ إِلَى حَيْثُ قُلْتُ لَكَ .",
+            "English": "Then the Lord said to Moses, \"Whoever sins against Me, I will blot him out of My book. Now therefore, go down and lead the people to the place of which I spoke to you."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "هُوَذَا مَلاَكِي يَسِيرُ أَمَامَكَ. وَفِي يَوْمِ افْتِقَادِي أَفْتَقِدُهُمْ بِذنبِهِمْ». فَضَرَبَ الرَّبُّ الشَّعْبَ مِنْ أَجلِ أَنَّهُمْ عَبَدُوا الْعِجْلَ الَّذِي صَنَعَهُ هَارُونُ.",
+            "English": "Behold, My Angel shall go before your face. Nevertheless, in the day when I visit, I will strike them for their sin.\" So the Lord struck the people for making the calf which Aaron made."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَقَالَ الرَّبُّ لِمُوسَى: «هَلُمَّ فَاصْعَدْ مِنْ هَاهُنَا أَنْتَ وَالشَّعْبُ الَّذِي أَخْرَجْتَهُ مِنْ أَرْضِ مِصْرَ إِلَى الأَرْضِ الَّتِي أَقْسَمتُ لإِبْرَاهِيمَ وَإِسْحَاقَ وَيَعْقُوبَ قَائِلاً: لِنَسْلِكَ أُعْطِيهَا.",
+            "English": "Now the Lord said to Moses, \"Depart, go up from here, you and the people you brought out of the land of Egypt, to the land I swore to Abraham, Isaac, and Jacob, saying, 'To your seed I will give it.'"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَأَنَا أُرْسِلُ أَمَامَكَ مَلاَكي وَأَطْرُدُ الأَمُورِيِّينَ وَالْكِلْدَانِيِّينَ وَالْفِرِزِّيِّينَ وَالْيَبُوسِيِّينَ وَالْكَنْعَانِيِّينَ.",
+            "English": "I will send My Angel before your face, and I will drive out the Amorite, the Hittite, the Perizzite, the Gergesite, the Hivite, the Jebusite, and the Canaanite."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَأُدْخِلَكُمْ إِلَى الأَرْضِ الَّتِى تَفِيضُ لَبَناً وَعَسَلاً. وَأَمَّا أَنَا فَلاَ أَصْعَدُ مَعَكَ لأَنَّكَ شَعْبٌ صُلْبُ الرَّقَبَةُ لِئَلاَّ أُفْنِيَكَ فِي الطَّرِيقِ». فَلَمَّا سَمِعَ الشَّعْبُ هَذَا الْكَلاَمَ المُرَّ نَاحُوا",
+            "English": "I will bring you into a land flowing with milk and honey; for I will not go up in your midst, lest I consume you on the way, for you are a stiff-necked people.\" When the people heard this bad news, they mourned in lamentations."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فَقَالَ الرَّبُّ لِبَنِي إِسْرَائِيلَ: «أَنْتُمْ شَعْبٌ صُلْبُ الرَّقَبَةُ. أنظروا لِئَلاَّ أَتِىَ عَلَيكُمْ بِضَربَةٍ أُخرَى فَأُبِيدُكُمْ ».",
+            "English": "For the Lord said to the children of Israel, \"You are a stiff necked people. Beware, lest I inflict another plague on you and consume you."
+        }
+    ]
 }

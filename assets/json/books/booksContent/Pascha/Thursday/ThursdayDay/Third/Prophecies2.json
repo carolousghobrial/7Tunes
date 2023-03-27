@@ -1,82 +1,79 @@
 {
-  "RefrainAfter": 0,
-  "ArabicTitle": "24:1-11 من يشوع بن سيراخ",
-  "EnglishTitle": "Joshua Son of Sirach 24:1-11 ",
-  "Hymn": [
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "الْحِكْمَةُ تَمْدَحُ نَفْسَهَا. وَتَقْبَلُ طَالِبِيهَا. وَتَفْتَخِرُ فِي وَسْطِ الْجَمَاعَاتِ. وَتَفْتَحُ فَاهَا فِي جَمِاعَةِ الْعَلِّيِ. وَتَفْتَخِرُ أَمَامَ جُنُودِهِ. وَتَقُولُ. إِنِّي خَرَجْتُ مِنْ فَمِ الْعَلِّيِ.",
-      "Coptic": ";covi`a de ce `cmou `etecyuxh > ouo\\ `cna]wp `eroc `nnhetkw; `ncwc > `cna]ou]ou `mmoc =en `qmh; `noumh] > `cnaouwn `nrwc =en `tek`klhci`a `mvhetsoci > `ntec]ou]ou `mmoc `mpe`mqo `ebol `ntefjom > je `anok `etai`i `ebol =en rwf `mvhetsoci .",
-      "English": "Wisdom will praise herself, And in the midst of her people she will boast. In the assembly of the Most High, she will open and boast in the presence of His host. her mouth \"I came forth from the mouth of the Most High",
-      "Arabiccoptic": "تى صوفيا ذى سى إسمو إتيس إبسيشى. أووه إسناشوب إيروس إن نى إتكوتى إنصوس. إسنا شوشو إمموس خين إثميتى إن أوميش. إسنا أوأون إنروس خين إت إككليسيا إمفى إتتشوسى إنتيس شوشو إمموس إمبى إمثو إيفول إنتيف جوم. جى أنوك إيطاى إى إيفول خين روف إمفى إتتشوسى.",
-      "Englishcoptic": "Ti Sofia ze se esmo e tees epsishy. owoh esnashop eros enni etkoty ensos. esna shosho emmos khen ethmity en o-meesh. esna o-on enros khen et eklisia emvi etechosy entees shosho emmos empi emtho evol entef gom. je anok etai ei evol khen rof emvi etechosy."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَغَشَيْتُ الأَرْضَ كُلَّهَا بِمِثْلِ الْضَبَابِ. وَسَكَنْتُ فِي الأَعَالِي وَجَعَلْتُ عَرْشِي فِي عَمُودِ الغَمَامِ.",
-      "English": "And covered the earth like a mist. I pitched my tent in the high places and my throne on the pillar of cloud."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "أَنَا وَحْدِي جُلْتُ فِي دَائِرَةِ الْسَمَاءِ وَسَلَكْتُ فِي عُمْقِ الْغَمَارِ",
-      "English": "I alone encircle the ring of heaven, And I walk in the depth of the abyss."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَمَشَيْتُ عَلَى أَمْوَاجِ الْبَحْرِ. وَالأَرْضِ بِأَسْرِهَا. وَتَمَيَّزْتُ فِى كُلِّ الْشُّعُوبِ. وَكُلِّ الأُمَمِ.",
-      "English": "In the waves of the sea, in all the earth, and in every people and nation I have gained a possession."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فِي هَذِهِ كُلِّهَا اِلْتَمَسْتُ الْرَاحَةَ وَبِأَيِّ مِيرَاثٍ أَحِلُّ.",
-      "English": "With all these, I have sought a place to rest; In what inheritance will I lodge?"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "حِينَئِذٍ أَوْصَانِي خَالِقُ الْجَمِيعِ وَالَّذِي حَازَنِي عَيَّنَ مَقَرَّ مَسْكَنِي.",
-      "English": "\"Then the Creator of all things commanded me, And He who created me gave me a place to live."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَقَالَ اُسْكُنِي فِي يَعْقُوبَ وَرِثِي فِي إِسْرَائِيلَ.",
-      "English": "He said, 'Pitch your tent in Jacob And receive an inheritance in Israel.'"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "قَبْلَ الْدَهْرِ مِنَ الأَوَّلِ حَازَنِي وَإِلَى الْدَهْرِ لاَ أَزُولُ",
-      "English": "Before the age, He created me from the beginning, And in the age to come I will not cease."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَقَدْ خَدَمْتُ أَمَامَهُ فِي الْمَسْكَنِ الْمُقَدَّسِ. وَهَكَذَا فِي صِهْيَونَ تَرَسَّخْتُ وَجَعَلَ لِي مَقَرَّاً فِي الْمَدِينَةِ الْمَحْبُوبَةِ وَسَلْطَنَتِي هِيَ فِي أُورُشَلِيمَ.",
-      "English": "I serve before Him in His holy tabernacle; Therefore, I am established in Zion. In the beloved city likewise He gives me rest, and my authority is in Jerusalem."
-    }
-  ]
+    "RefrainAfter": 0,
+    "ArabicTitle": "24:1-11 من يشوع بن سيراخ",
+    "EnglishTitle": "Joshua Son of Sirach 24:1-11 ",
+    "Hymn": [
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "الْحِكْمَةُ تَمْدَحُ نَفْسَهَا. وَتَقْبَلُ طَالِبِيهَا. وَتَفْتَخِرُ فِي وَسْطِ الْجَمَاعَاتِ. وَتَفْتَحُ فَاهَا فِي جَمِاعَةِ الْعَلِّيِ. وَتَفْتَخِرُ أَمَامَ جُنُودِهِ. وَتَقُولُ. إِنِّي خَرَجْتُ مِنْ فَمِ الْعَلِّيِ.",
+            "English": "Wisdom will praise herself, And in the midst of her people she will boast. In the assembly of the Most High, she will open and boast in the presence of His host. her mouth \"I came forth from the mouth of the Most High"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَغَشَيْتُ الأَرْضَ كُلَّهَا بِمِثْلِ الْضَبَابِ. وَسَكَنْتُ فِي الأَعَالِي وَجَعَلْتُ عَرْشِي فِي عَمُودِ الغَمَامِ.",
+            "English": "And covered the earth like a mist. I pitched my tent in the high places and my throne on the pillar of cloud."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "أَنَا وَحْدِي جُلْتُ فِي دَائِرَةِ الْسَمَاءِ وَسَلَكْتُ فِي عُمْقِ الْغَمَارِ",
+            "English": "I alone encircle the ring of heaven, And I walk in the depth of the abyss."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَمَشَيْتُ عَلَى أَمْوَاجِ الْبَحْرِ. وَالأَرْضِ بِأَسْرِهَا. وَتَمَيَّزْتُ فِى كُلِّ الْشُّعُوبِ. وَكُلِّ الأُمَمِ.",
+            "English": "In the waves of the sea, in all the earth, and in every people and nation I have gained a possession."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فِي هَذِهِ كُلِّهَا اِلْتَمَسْتُ الْرَاحَةَ وَبِأَيِّ مِيرَاثٍ أَحِلُّ.",
+            "English": "With all these, I have sought a place to rest; In what inheritance will I lodge?"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "حِينَئِذٍ أَوْصَانِي خَالِقُ الْجَمِيعِ وَالَّذِي حَازَنِي عَيَّنَ مَقَرَّ مَسْكَنِي.",
+            "English": "\"Then the Creator of all things commanded me, And He who created me gave me a place to live."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَقَالَ اُسْكُنِي فِي يَعْقُوبَ وَرِثِي فِي إِسْرَائِيلَ.",
+            "English": "He said, 'Pitch your tent in Jacob And receive an inheritance in Israel.'"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "قَبْلَ الْدَهْرِ مِنَ الأَوَّلِ حَازَنِي وَإِلَى الْدَهْرِ لاَ أَزُولُ",
+            "English": "Before the age, He created me from the beginning, And in the age to come I will not cease."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَقَدْ خَدَمْتُ أَمَامَهُ فِي الْمَسْكَنِ الْمُقَدَّسِ. وَهَكَذَا فِي صِهْيَونَ تَرَسَّخْتُ وَجَعَلَ لِي مَقَرَّاً فِي الْمَدِينَةِ الْمَحْبُوبَةِ وَسَلْطَنَتِي هِيَ فِي أُورُشَلِيمَ.",
+            "English": "I serve before Him in His holy tabernacle; Therefore, I am established in Zion. In the beloved city likewise He gives me rest, and my authority is in Jerusalem."
+        }
+    ]
 }

@@ -3,6 +3,7 @@ import {
   View,
   Button,
   TextInput,
+  ImageBackground,
   Text,
   Image,
   Pressable,
@@ -80,7 +81,9 @@ const styles = StyleSheet.create({
     margin: 5,
     borderRadius: 30,
     borderWidth: 5,
-    borderStyle: "dashed",
+  },
+  backgroundimage: {
+    backgroundColor: "rgba(52, 52, 52, 0.8)",
   },
   textView: {
     flex: 1,

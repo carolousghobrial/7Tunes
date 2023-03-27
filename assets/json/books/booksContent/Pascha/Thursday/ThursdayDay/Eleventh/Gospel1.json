@@ -1,96 +1,87 @@
 {
-  "RefrainAfter": 0,
-  "ArabicTitle": " 13:21-30  الإنجيل من يوحنا",
-  "EnglishTitle": "The Gospel according to St.John 13:21-30  ",
-  "Hymn": [
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَلَمَّا قَالَ يَسُوعُ هَذَا قَلِقَ بِالرُّوحِ وَشَهِدَ وَقَالَ: «الْحَقَّ الْحَقَّ أَقُولُ لَكُمْ: إِنَّ وَاحِداً مِنْكُمْ يُسَلِّمُنِي».",
-      "Coptic": "Nai de `etafjotou `nje Ihc? af`]qorter =en pi=p=n=a > afermeqre ouo\\ pejaf > je `amhn `amhn ;jw`mmoc nwten je ouai `ebol =en qhnou peqnathit>",
-      "English": "21 When Jesus had said these things, He was troubled in spirit, and testified and said, “Most assuredly, I say to you, one of you will betray Me.”",
-      "Arabiccoptic": "ناى ذى إيطاف جوطو إنجى إيسوس أف إشتورتير خين بى إبنفما. أف إير ميثرى أووه بيجاف. جى أمين أمين تى جو إمموس نوتين. جى أواى إيفول خين ثينو بيثنا تيت.",
-      "Englishcoptic": "Nay ze etaf goto enje Isos af eshtorter khen pi Ebnevma. af er methre owoh pigaf. je Amen Amen tigo emmos noten. je ouay evol khen thino bithn teit."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فَجَعَلَ التّلاَمِيذُ يَنْظُرُونَ بَعْضُهُمْ إِلَى بَعْضٍ وَلاَ يَعْلَمُونَ مَنْ عَنَى مِنْهُمْ .",
-      "Coptic": "Naucomc oun oube nou`erhou `nje nimaqhthc `nce`emi an je afjere nim `mmwou >",
-      "English": "22 Then the disciples looked at one another, perplexed about whom He spoke.",
-      "Arabiccoptic": "ناف سومس أون أوفى إن أو إيريو إنجى نى ماثيتيس إنسى إيمى أن. جى أفجيرى نيم إمموؤ.",
-      "Englishcoptic": "Naf soms on ove en o ereiyo enje ni mathitees ense eimy an. je afgeery nem emmo-o."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَكَانَ مُتَّكِئاً فِي حِضْنِ يَسُوعَ وَاحِدٌ مِنْ تلاَمِيذِهِ الَّذِي كَانَ يَسُوعُ يُحِبُّهُ.",
-      "Coptic": "Nafrwteb de `nje ouai =en kenf `nIhc? `ebol =en nefmaqhthc > xh `enare Ihc? mei `mmof",
-      "English": "23 Now there was leaning on Jesus’ bosom one of His disciples, whom Jesus loved.",
-      "Arabiccoptic": "ناف روتيب ذى إنجى أواى خين كنف إن إيسوس إيفول خين نيف ماثيتيس. كى إنارى إيسوس ميى إمموف.",
-      "Englishcoptic": "Naf roteb ze enje ouay khen kenf en Isos evol khen nef mathitees. ke enare Isos mei emmof."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فَأَشَارَ إِلَيْهِ سِمْعَانُ بُطْرُسُ بِأَنْ يَسْأَلَهُ مَنْ الَّذِي قَالَ عَنْهُ.",
-      "English": "24 Simon Peter therefore motioned to him to ask who it was of whom He spoke."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فَاتَّكَأَ ذَاكَ التِلْمِيذُ عَلَى صَدْرِ يَسُوعَ وَقَالَ لَهُ: «يَا رَبُّ مَنْ هُوَ؟»",
-      "English": "25 Then, leaning back on Jesus’ breast, he said to Him, “Lord, who is it?”"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "أَجَابَ يَسُوعُ قَائِلاً: «هُوَ ذَاكَ الَّذِي أَغْمِسُ أَنَا اللُّقْمَةَ وَأُعْطِيهِ». فَغَمَسَ اللُّقْمَةَ وَأَعْطَاهَا لِيَهُوذَا سِمْعَانَ الإِسْخَرْيُوطِيِّ.",
-      "English": "26 Jesus answered, “It is he to whom I shall give a piece of bread when I have dipped it.” And having dipped the bread, He gave it to Judas Iscariot, the son of Simon."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَبَعْدَ اللُّقْمَةِ دَخَلَهُ الشَّيْطَانُ. فَقَالَ لَهُ يَسُوعُ: «مَا أَنْتَ فَاعِلُهُ فَافْعَلْهُ سَرِيعَاً ».",
-      "English": "27 Now after the piece of bread, Satan entered him. Then Jesus said to him, “What you do, do quickly.”"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وَلَمْ يَعْلَمْ أَحَدٌ مِنَ الْمُتَّكِئِينَ لِمَاذَا قَالَ لَهُ ذَلِكَ.",
-      "English": "28 But no one at the table knew for what reason He said this to him."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فَظَنَّ قَوْمٌ مِنْهُمْ إِذْ كَانَ الصُّنْدُوقُ عِندَ يَهُوذَا أَنَّ يَسُوعَ قَالَ لَهُ: اشْتَرِ مَا نَحْتَاجُ إِلَيْهِ لِلْعِيدِ أَوْ أَنْ يُعْطِيَ شَيْئاً لِلمَسَاكِينَ.",
-      "English": "29 For some thought, because Judas had the money box, that Jesus had said to him, “Buy those things we need for the feast,” or that he should give something to the poor."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "أَمَّا ذَاكَ فَلَمَّا تَنَاوَلَ اللُّقْمَةَ خَرَجَ لِوَقْتِهِ. وَكَانَ لَيْلاً.",
-      "English": "30 Having received the piece of bread, he then went out immediately. And it was night."
-    }
-  ]
+    "RefrainAfter": 0,
+    "ArabicTitle": " 13:21-30  الإنجيل من يوحنا",
+    "EnglishTitle": "The Gospel according to St.John 13:21-30  ",
+    "Hymn": [
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَلَمَّا قَالَ يَسُوعُ هَذَا قَلِقَ بِالرُّوحِ وَشَهِدَ وَقَالَ: «الْحَقَّ الْحَقَّ أَقُولُ لَكُمْ: إِنَّ وَاحِداً مِنْكُمْ يُسَلِّمُنِي».",
+            "English": "21 When Jesus had said these things, He was troubled in spirit, and testified and said, “Most assuredly, I say to you, one of you will betray Me.”"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فَجَعَلَ التّلاَمِيذُ يَنْظُرُونَ بَعْضُهُمْ إِلَى بَعْضٍ وَلاَ يَعْلَمُونَ مَنْ عَنَى مِنْهُمْ .",
+            "English": "22 Then the disciples looked at one another, perplexed about whom He spoke."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَكَانَ مُتَّكِئاً فِي حِضْنِ يَسُوعَ وَاحِدٌ مِنْ تلاَمِيذِهِ الَّذِي كَانَ يَسُوعُ يُحِبُّهُ.",
+            "English": "23 Now there was leaning on Jesus’ bosom one of His disciples, whom Jesus loved."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فَأَشَارَ إِلَيْهِ سِمْعَانُ بُطْرُسُ بِأَنْ يَسْأَلَهُ مَنْ الَّذِي قَالَ عَنْهُ.",
+            "English": "24 Simon Peter therefore motioned to him to ask who it was of whom He spoke."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فَاتَّكَأَ ذَاكَ التِلْمِيذُ عَلَى صَدْرِ يَسُوعَ وَقَالَ لَهُ: «يَا رَبُّ مَنْ هُوَ؟»",
+            "English": "25 Then, leaning back on Jesus’ breast, he said to Him, “Lord, who is it?”"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "أَجَابَ يَسُوعُ قَائِلاً: «هُوَ ذَاكَ الَّذِي أَغْمِسُ أَنَا اللُّقْمَةَ وَأُعْطِيهِ». فَغَمَسَ اللُّقْمَةَ وَأَعْطَاهَا لِيَهُوذَا سِمْعَانَ الإِسْخَرْيُوطِيِّ.",
+            "English": "26 Jesus answered, “It is he to whom I shall give a piece of bread when I have dipped it.” And having dipped the bread, He gave it to Judas Iscariot, the son of Simon."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَبَعْدَ اللُّقْمَةِ دَخَلَهُ الشَّيْطَانُ. فَقَالَ لَهُ يَسُوعُ: «مَا أَنْتَ فَاعِلُهُ فَافْعَلْهُ سَرِيعَاً ».",
+            "English": "27 Now after the piece of bread, Satan entered him. Then Jesus said to him, “What you do, do quickly.”"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وَلَمْ يَعْلَمْ أَحَدٌ مِنَ الْمُتَّكِئِينَ لِمَاذَا قَالَ لَهُ ذَلِكَ.",
+            "English": "28 But no one at the table knew for what reason He said this to him."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فَظَنَّ قَوْمٌ مِنْهُمْ إِذْ كَانَ الصُّنْدُوقُ عِندَ يَهُوذَا أَنَّ يَسُوعَ قَالَ لَهُ: اشْتَرِ مَا نَحْتَاجُ إِلَيْهِ لِلْعِيدِ أَوْ أَنْ يُعْطِيَ شَيْئاً لِلمَسَاكِينَ.",
+            "English": "29 For some thought, because Judas had the money box, that Jesus had said to him, “Buy those things we need for the feast,” or that he should give something to the poor."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "أَمَّا ذَاكَ فَلَمَّا تَنَاوَلَ اللُّقْمَةَ خَرَجَ لِوَقْتِهِ. وَكَانَ لَيْلاً.",
+            "English": "30 Having received the piece of bread, he then went out immediately. And it was night."
+        }
+    ]
 }

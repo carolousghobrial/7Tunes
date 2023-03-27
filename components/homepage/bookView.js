@@ -29,7 +29,7 @@ function BookView(props) {
   };
   const bookviewStyle = {
     width: width / 2.5,
-    height: height / 4,
+    height: height / 3.5,
     alignItems: "center",
     justifyContent: "center",
   };

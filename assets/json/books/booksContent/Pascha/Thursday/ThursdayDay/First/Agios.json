@@ -4,6 +4,22 @@
   "EnglishTitle": "Agios (Holy God) ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ثم تقال أجيوس بلحن الصلبوت ",
+      "English": "The Trisagion is chanted in the Paschal Tune"
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الأولى : أو إكبرثينو،  الثانية والثالثة ،أو إسطافروتيس ذيماس، ثم ذوكسابترى",
+      "English": "The first: was born, the second and the third: was crucified, then Glory to the Father.."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

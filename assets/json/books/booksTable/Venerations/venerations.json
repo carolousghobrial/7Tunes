@@ -1,12 +1,11 @@
 {
     "Main": [
         {
-            "Type": "Title",
+            "Type": "MainTitle",
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
             "Arabic": " التمجيد",
-            "Coptic": ":do[ologia `nte }wrp",
             "English": "Venerations"
         },
         {

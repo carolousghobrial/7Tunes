@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "12:13-13:1 من يشوع بن سيراخ",
+  "EnglishTitle": "Joshua Son of Sirach 12:13-13:1",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنْ يَرْحَمُ رَاقِيَاً قَدْ لَدَغَتْهُ الْحَيَّةُ أَو يُشْفِقُ عَلَى الَّذِينَ يَدْنُونَ مِنَ الْوُحُوشِ. هَكَذَا الَّذِي يُسَايِرُ الْرَجُلَ الْخَاطِئ. يَسْكَرُ( يَمْتَزِجُ ) بِخَطَايَاهُ. إِنَّهُ يَلْبَثُ مَعَكَ سَاعَةً وَإِنْ مِلْتَ لاَ يَثبُتُ.",
+      "Coptic": "Nim peqnanai `nourefmou; `are]an pi\\of lo]f> nem ouon niben eqmo]i `e=oun `eniqhrion> vai \\wf pe pirh; `mvheqmo]i nem ourwmi `nrefernobi > ouo\\ qa=i =en nefnobi `fna`o\\i `nouounou nemak > `e]wp de ak]anriki `mpaf`o\\i...",
+      "English": "Who will pity a snake charmer when he is bitten, Or those who go near wild animals? So no one will pity one who approaches a sinful man and gets involved in his sins. He will stay with you for a while, but if you turn aside from him, he will not put up with you.",
+      "Arabiccoptic": "نيم بيثنا ناى إن أوريف موتى أرى شان بيهوف لوكسف. نيم أوؤن نيفين إثموشى إيخون إنى ثيريون. فاى هوف بى بيريتى إمفى إثموشى نيم أورومى إنريف إيرنوفى. أووه ثاخى خين نيف نوفى إفنا أوهى إن أوأونو نيماك. إشوب ذى أكشان ريكى إمباف أوهى.",
+      "Englishcoptic": "Nem bithna nay en o-ref moty aree shan pihof loxf. nem o-on niven ethmoshy ekhon eni thirion. fay hof pe pirety emvy ethmoshy nem o-romy enref ernovy. owoh thakhy khen nef novy efna ohi en o-ono nemak. eshop ze akshan riky empav ohy."
+    }
+  ]
+}

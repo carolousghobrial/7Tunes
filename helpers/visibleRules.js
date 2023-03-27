@@ -376,6 +376,9 @@ const isMatins = (motherSource, path) => {
 const isVespers = (motherSource, path) => {
   return motherSource === "vespers" ? true : false;
 };
+const isCovenantThursday = (motherSource, path) => {
+  return motherSource === "ThursdayDayFirstHourMain" ? true : false;
+};
 const isPraises = (motherSource, path) => {
   return motherSource === "lentenVespersPraises" ||
     motherSource === "standardPsalmody"
@@ -539,6 +542,9 @@ const notPalmSunday = (motherSource, path) => {
   }
   return false;
 };
+const CreedHolyWeek = (motherSource, path) => {
+  return motherSource === "ThursdayDayFirstHourMain" ? false : true;
+};
 const hide = (motherSource, path) => {
   return true;
 };
@@ -577,5 +583,7 @@ const VisibleRules = {
   showHitenVOC: showHitenVOC,
   showEthrenHosVOC: showEthrenHosVOC,
   notPalmSunday: notPalmSunday,
+  isCovenantThursday: isCovenantThursday,
+  CreedHolyWeek: CreedHolyWeek,
 };
 export default VisibleRules;

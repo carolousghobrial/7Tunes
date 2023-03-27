@@ -29,6 +29,7 @@ import MelodyView from "../components/ViewTypes/MelodyView";
 import TitleView from "../components/ViewTypes/TitleView";
 import RitualView from "../components/ViewTypes/RitualView";
 import ButtonView from "../components/ViewTypes/ButtonView";
+import MainTitleView from "../components/ViewTypes/MainTitleView";
 import ExpanderView from "../components/ViewTypes/ExpanderView";
 import CustomHeader from "../components/ViewTypes/CustomHeader";
 import BottomBar from "../components/BottomBar/BottomBar";
@@ -144,6 +145,10 @@ function BookScreen({ navigation, route }) {
         break;
       case "Ritual":
         content = <RitualView item={item.part}></RitualView>;
+
+        break;
+      case "MainTitle":
+        content = <MainTitleView item={item.part}></MainTitleView>;
 
         break;
       case "Button":

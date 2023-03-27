@@ -21,7 +21,7 @@
         {
             "Type": "Main",
             "Path": "PaschaPropheciesIntroduction",
-            "Rule": "Zephaniah",
+            "Rule": "Isaiah",
             "Visible": true
         },
         {
@@ -39,7 +39,7 @@
         {
             "Type": "Main",
             "Path": "PaschaPropheciesIntroduction",
-            "Rule": "Proverbs",
+            "Rule": "Job",
             "Visible": true
         },
         {

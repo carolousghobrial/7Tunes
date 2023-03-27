@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 22:7-13 الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 22:7-13 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَجَاءَ يَوْمُ الْفَطِيرِ الَّذِي يَنْبَغِي أَنْ يُذْبَحَ فِيهِ الْفِصْحُ.",
+      "Coptic": "` Af`i   de   `nje    pi`e\\oou    `nte niat]emhr vh`ete `c]e `e]at `mpipacxa `n=htf",
+      "English": "7 Then came the Day of Unleavened Bread, when the Passover must be killed.",
+      "Arabiccoptic": "أفئ ذى إنجى بى إيهوؤ ‘نتى نى أتشيمير فى إيتى إسشى إشات إمبى باصخا إنخيتف.",
+      "Englishcoptic": "Afi   ze   enje    pi-eho-oo    ente ni-at-shemeer vee-ete es-she e-shat empi-paska en-kheetf"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَرْسَلَ بُطْرُسَ وَيُوحَنَّا قَائِلاً:  «ﭐمْضِيَا وَأَعِدَّا لَنَا الْفِصْحَ لِنَأْكُلَهُ».",
+      "Coptic": "Ouo\\ afouwrp `mPetroc nem Iwannhc `eafjoc > je ma]enwten cebte pipacxa nan \\ina `ntenouomf",
+      "English": "8 And He sent Peter and John, saying, “Go and prepare the Passover for us, that we may eat.”",
+      "Arabiccoptic": "أووه أفؤورب إم بيتروس نيم يؤنس إ أفجوس: جى ماشينوتين سيفتى بى باصخا نان هينا إنتين أوأومف",
+      "Englishcoptic": "Owoh af-oo-orp em-Petros nem Yoannees e-afgos : je mashe-noten sebte pi-paska nan hina enten-oo-omf"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالاَ لَهُ: «أَيْنَ تُرِيدُ أَنْ نُعِدَّهُ ؟».",
+      "Coptic": "`Nqwou de pejwou naf je `xouw] `ntencebtwtf qwn.",
+      "English": "9 So they said to Him, “Where do You want us to prepare?”",
+      "Arabiccoptic": "إنثؤو ذى بيجوؤ ناف جى إك أوأوش إنتين سيفطوطف ثون",
+      "Englishcoptic": "Entho-oo ze pego-oo naf je ek-oo-osh enten-seb-totf thon."
+    }
+  ]
+}

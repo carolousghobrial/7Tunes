@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "32:30-33:5 من سفر الخروج لموسى النبى",
+  "EnglishTitle": "Exodus 32:30-33:5 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ فِي الْغَدِ أَنَّ مُوسَى قَالَ لِلشَّعْبِ: «إِنَّكُمْ قَدْ أَخْطَأْتُمْ خَطِيَّةً عَظِيمَةً.",
+      "Coptic": "Ac]wpi de menenca pefrac;> peje Mw`uchc na\\ren pilaoc> je `nqwten `ateten`iri `nouni]; `nnobi>",
+      "English": "Now it came to pass on the next daythat Moses said to the people, \"You committed a great sin.",
+      "Arabiccoptic": "أسشوبى ذى ميننسا بيف راستى. بيجى مويسيس ناهرين بيلاؤس. جى إنثوتين أ تيتين إيرى إن أونيشتى إن نوفى.",
+      "Englishcoptic": "As shopi ze menensa pefrasty. pije Moisees nahren pi laos. je enthoten a titen eiry en o nishty en novy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَصْعَدُ الآنَ إِلَى اللهِ لَعَلِّي أُكَفِّرُ عَنْ خَطِيَّتِكُمْ».",
+      "Coptic": ";nou de aina]enhi ]a V;> je xac ei`e;\\o =a petennobi >",
+      "English": "So now I will go up to God to make atonement for your sin.\"",
+      "Arabiccoptic": "تينو ذى أيناشينى شا إفنوتى. جى كاس إى إتىهو خا بى تين نوفى.",
+      "Englishcoptic": "Tino ze ainashty sha Evnouty. je kas ei etiho khapi tennovy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَرَجَعَ مُوسَى إِلَى الرَّبِّ وَقَالَ:",
+      "Coptic": "Afkotf de `nje Mw`uchc \\a Poc? efjw `mmoc >",
+      "English": "Then Moses returned to the Lord and said",
+      "Arabiccoptic": "أفكوتف ذى إنجى مويسيس ها إبشويس إفجو إمموس :",
+      "Englishcoptic": "Af kotf ze enje Moisees ha Epshois efgo emmos."
+    }
+  ]
+}

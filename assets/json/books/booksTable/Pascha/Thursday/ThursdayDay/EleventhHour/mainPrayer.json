@@ -1,12 +1,12 @@
 {
     "Main": [
         {
-            "Type": "Title",
+            "Type": "MainTitle",
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
-            "Arabic": "يوم خميس العهد (الساعة الحادية عشر )",
-            "English": " Thursday (Eleventh Hour)"
+            "Arabic": "الفصول التى تتلى فى توزيع قداس خميس العهد )",
+            "English": "The Readings during the Covenant Thursday Distribution "
         },
         {
             "Type": "Main",
@@ -29,24 +29,6 @@
             "Rule": "OpenPage",
             "Visible": true,
             "Path": "ThursdayDayEleventhHourProphecies"
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaHomilyIntro",
-            "Rule": "Shenouda",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayEleventhHomily",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaHomilyConclusion",
-            "Rule": "Shenouda",
-            "Visible": true
         },
         {
             "Type": "Main",

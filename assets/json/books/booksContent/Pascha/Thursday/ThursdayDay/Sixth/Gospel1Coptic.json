@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "14:12-16 الإنجيل من مرقس",
+  "EnglishTitle": "The Gospel according to St.Mark 14:12-16",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَفِي الْيَوْمِ الأَوَّلِ مِنَ الْفَطِيرِ. إِذْ كَانُوا يَذْبَحُونَ الْفِصْحَ قَالَ لَهُ تَلاَمِيذُهُ: «أَيْنَ تُرِيدُ أَنْ نَمْضِيَ وَنُعِدَّ لِتَأْكُلَ الْفِصْحَ؟»",
+      "Coptic": "Ouo\\ =en pi`e\\oou `n\\ouit `nte niat]emhr > \\ote eu]wt `mpipacxa> pejwou naf `nje nefmaqhthc > je akouw] `nten]enan `eqwn `ntencob; \\ina `ntekouwm `mpipacxa",
+      "English": "12 Now on the first day of Unleavened Bread, when they killed the Passover lamb, His disciples said to Him, “Where do You want us to go and prepare, that You may eat the Passover?”",
+      "Arabiccoptic": "أووه خين بى إيهؤو إنهو إيت إنتى نى أتشيمير. هوتى إفشوت إمبى باصخا. بيجوؤ ناف إنجى نيف ماثيتيس. جى أكؤوش إنتين شينان إثون إنتين سوبتى هينا إنتيك اوأوم إمبى باصخا .",
+      "Englishcoptic": "Owoh khen pi eho-o enho-eat ente ni atchemeer. hoty efshot empi Bascha. pi go-o naf enje nef mathitees. je ak o-osh enten shinan ethon enten sobty hina entek o-om empi Bascha."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَرْسَلَ اثْنَيْنِ مِنْ تَلاَمِيذِهِ وَقَالَ لَهُمَا: «ﭐذْهَبَا إِلَى الْمَدِينَةِ فَسَيَلْقَاكُمَا رَجُلٌ حَامِلٌ جَرَّةَ مَاءٍ. فَاتْبَعَاهُ.",
+      "Coptic": "Ouo\\ afouwrp `n`cnau `nte nefmaqhthc ouo\\ pejaf nwou > je ma]enwten `e;baki ouo\\ `fnaer`apantan `erwten `nje ourwmi effai `nou]o]ou `mmwou> mo]i `ncwf...",
+      "English": "13 And He sent out two of His disciples and said to them, “Go into the city, and a man will meet you carrying a pitcher of water; follow him.",
+      "Arabiccoptic": "أووه أف أوأورب إن إسناف إنتى نيف ماثيتيس أووه بيجاف نوأو. جى ماشينوتين إتى فاكى أووه إفنا إير أبان طان إيروتين إنجى أورومى إف فاى إن أو شوشو إمموؤ . موشى إنسوف.",
+      "Englishcoptic": "Owoh af o-orp en esnav ente nef mathitees owoh pigaf no-o. je mashinoten eti vaky owoh efna er a pan tan eroten enje o-romy ef fay en o shosho emmo-o moshy ensof."
+    }
+  ]
+}

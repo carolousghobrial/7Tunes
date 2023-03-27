@@ -1,12 +1,20 @@
 {
     "Main": [
         {
-            "Type": "Title",
+            "Type": "MainTitle",
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
             "Arabic": "يوم خميس العهد (الساعة الأولى )",
-            "English": " Thursday (First Hour)"
+            "English": " Covenant Thursday (First Hour)"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " يفتح باب الخورس والهيكل ثم يُبدأ بالصلاة فيقرأ رئيس (كبير) الكهنة النبوات قبطياً ثم تفسر عربياً ",
+            "English": "The Veil of the Altar is opened, and the High (Elder) Priest reads the prophecies in Coptic, then interprets them in English"
         },
         {
             "Type": "Main",
@@ -32,24 +40,6 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaHomilyIntro",
-            "Rule": "Shenouda",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayFirstHomily",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaHomilyConclusion",
-            "Rule": "Shenouda",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
             "Path": "PaschaPaschaPraiseIntro",
             "Rule": "ThursdayDayFirstHour",
             "Visible": true
@@ -72,6 +62,150 @@
         {
             "Type": "Main",
             "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseEleisonEmas",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseThanksgivingPrayer",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbals",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersPsalm50",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanySick",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyOblations",
+            "Rule": 0,
+            "Visible": "showLitanyOfOblations"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " وأثناءها يطوف الكاهن البيعة بالبخور بدون تقبيل ",
+            "English": "During that time, the priest goes around the church with incense without kissing the Icons"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersPraiseAngels",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersTrisagion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "الذكصولوجيات",
+            "English": "The Doxologies",
+            "Rule": "OpenDoxologies",
+            "Visible": true,
+            "Path": "doxologies"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersIntroToCreed",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersCreed",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseEfnotiNaiNan",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthFaiEtafEnf",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaEkesmarot",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "  ثم يقرأ الإبركسيس قبطياً حتى الجملة التى تقول \" إيتى بى أوهى إنتى بى إسنوف بى \" ويفسر عربياً حتى هذه الجملة أيضاً \" ",
+            "English": "The Acts is read in coptic untill the sentence (Ente pi-ohi ente pesnof pe) then it is translated again untill the sentence (that is the Field of Blood)"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayFirstPraxisIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayFirstPraxis",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayFirstPraxisConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayFirstJudasRebuke",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayFirstAgios",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyOfGospel",
             "Rule": 0,
             "Visible": true
         },

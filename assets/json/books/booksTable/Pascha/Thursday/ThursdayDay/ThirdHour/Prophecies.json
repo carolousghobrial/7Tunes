@@ -3,7 +3,7 @@
         {
             "Type": "Main",
             "Path": "PaschaPropheciesIntroduction",
-            "Rule": "Isaiah",
+            "Rule": "Exodus",
             "Visible": true
         },
         {
@@ -21,7 +21,7 @@
         {
             "Type": "Main",
             "Path": "PaschaPropheciesIntroduction",
-            "Rule": "Jeremiah",
+            "Rule": "Sirach",
             "Visible": true
         },
         {
