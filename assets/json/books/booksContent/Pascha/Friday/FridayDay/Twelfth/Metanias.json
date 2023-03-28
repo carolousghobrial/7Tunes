@@ -1,0 +1,86 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": "الختام",
+    "EnglishTitle": "400 Prostrations (Metanias) ",
+    "Hymn": [
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": ".+ ثم  يرفع رئيس ( كبير ) الكهنة الصليب ويقول \" إفنوتى ناى نان \"  ويصرخ الشعب  بصوت التهليل قائلين كيرياليسون مائة مرة فى كل جهه من الجهات الأربع شرقاً ثم غرباً ثم شمالاً ثم جنوباً ويضربون جميعهم الميطانيات قارعين صدورهم طالبين مغفرة خطاياهم. ",
+            "English": " Then the (high)priests raises the cross and says \"Evnoti Nai Nan\" and the people shout with one voice saying, \"Kyriyalison\" a hundred times on each side from the four sides, the east, then west, then north, then south, while prostrating, knocking on their chests, asking for forgiveness of their sins."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Priest",
+            "Arabic": "الكاهن:",
+            "Coptic": "Piouhb>",
+            "English": "Priest:",
+            "Arabiccoptic": "بي أويب:",
+            "Englishcoptic": "Pi-oweeb:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "اللهم إرحمنا. قرر لنا رحمة. إصنع معنا رحمة. فى ملكوتك.",
+            "Coptic": "V;  nai nan > qe] ounai `eron > `ariounai neman > =en tekmetouro.",
+            "English": "God have mercy upon us : settle Your mercy upon us : show us mercy : in Your Kingdom.",
+            "Arabiccoptic": "إفنوتى ناى نان. ثيش أوناى إيرون. أرى أوناى نيمان. خين تيك ميت أورو.",
+            "Englishcoptic": "Efnoty nai nan se-sho nai eron : ari onai neman : khen tekmeto-roo."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "Coptic": "Pilaoc>",
+            "English": "People:",
+            "Arabiccoptic": "بيلاؤس:",
+            "Englishcoptic": "Pi-Laos:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "(400) ياربُّ ارحَم.",
+            "Coptic": "Kuri`e `ele`hcon.(400)",
+            "English": "Lord have mercy (400)",
+            "Arabiccoptic": " كيرياليسون (400)",
+            "Englishcoptic": "Kirialison (400)"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " + وبعد إنتهاء الميطانيات يتجهون نحو الشرق ويرتلون كيرياليسون بالناقوس إثنتى عشرة مرة وينزل الكهنة والشمامسة من أعلى الإنبل ويدخلون الخورس ثم يصعدون إلى الهيكل ويطوفون حوله ثلاث مرات كما يطوفون أيضاً ثلاث مرات حول الكنيسة وأخيراً يصعدون للهيكل ويدورون دورة واحدة  ",
+            "English": " And after the end of the Mitanias (Prostrations), they turn towards the east and chant Kyriyalison with the cymbals twelve times, and the priests and deacons go around the altar three times, then around the church three times, and back around the altar once."
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وتقال كيرياليسون الكبير بالناقوس ",
+            "English": "Amen Kerie-leison is chanted with the Cymbals."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "(12) ياربُّ ارحَم.",
+            "Coptic": "Kuri`e `ele`hcon.(12)",
+            "English": "Lord have mercy (12)",
+            "Arabiccoptic": " كيرياليسون (12)",
+            "Englishcoptic": "Kirialison (12)"
+        }
+    ]
+}

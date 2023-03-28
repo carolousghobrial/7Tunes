@@ -26,6 +26,14 @@
       "Englishcoptic": "Efnoty nai nan se-sho nai eron : ari onai neman : khen tek-meto-roo."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وتقال كيرياليسون الكبير بالناقوس ",
+      "English": "Amen Kerie-leison is chanted with the Cymbals."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "14:55-72 الإنجيل من مرقس",
+  "EnglishTitle": "The Gospel according to St.Mark 14:55-72 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأما رُؤَسَاءُ الْكَهَنَةِ وَالْمَجْمَعُ كُلُّهُ فكانوا يَطْلُبُونَ شَهَادَةً عَلَى يَسُوعَ لِيَقْتُلُوهُ، فَلَمْ يَجِدُوا.",
+      "Coptic": "Niarxh`ereuc de nem piman;\\ap thrf > naukw; `nca oumetmeqre =a Ihc? `e`pjin=oqbef ouo\\ naujimi an pe.",
+      "English": "Now the chief priests and all the council sought testimony against Jesus to put Him to death, but found none.",
+      "Arabiccoptic": "نى أرشى إيرفس نيم بى مانتى هاب تيرف. نافكوتى إنسا أوميت ميثرى خا إيسوس ا إبجين خوثفيف أووه ناف جيمى ان بى.",
+      "Englishcoptic": "Ni Arshy erevs ze nem pimanty hab tirf. navkoty ensa o met methre kha Isos e epjin khothvev owoh nav gimy an pe."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنَّ كَثِيرِينَ شَهِدُوا عَلَيْهِ زُورًا، وَلَمْ تَتَّفِقْ شَهَادَاتُهُمْ.",
+      "Coptic": "Nare oumh] gar ermeqre `nnouj =arof pe > ouo\\ nauoi `n\\ucoc an pe `nje noumetmeqre>",
+      "English": "For many bore false witness against Him, but their testimonies did not agree.",
+      "Arabiccoptic": "نارى أوميش غار إير ميثرى  أن نوج خاروف بى. أووه ناف أوى إن هيسوس أن بى إنجى نو ميت ميثرى.",
+      "Englishcoptic": "Nare o meesh ghar er methre en nog kharof pe. owoh nav-oui en hisos an pe enje nomet methre."
+    }
+  ]
+}

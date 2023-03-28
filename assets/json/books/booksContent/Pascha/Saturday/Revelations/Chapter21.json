@@ -289,7 +289,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "الرَّابِعُ زُمُرُّدٌ ذُبَابِيٌّ الْخَامِسُ جَزَعٌ عَقِيقِيٌّ. السَّادِسُ عَقِيقٌ أَحْمَرُ.,",
+      "Arabic": "الرَّابِعُ زُمُرُّدٌ ذُبَابِيٌّ الْخَامِسُ جَزَعٌ عَقِيقِيٌّ. السَّادِسُ عَقِيقٌ أَحْمَرُ.",
       "English": "The fourth emerald, 20 the fifth sardonyx, the sixth sardius,"
     },
     {
@@ -431,8 +431,8 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "الْعَاشِرُ عَقِيقٌ أَخْضَرُ. الْحَادِي عَشَرَ أَسْمَانْجُونِيٌّ. الثَّانِي عَشَرَ جَمَشْتٌ.,",
-      "English": "The tenth was chrysoprase.The eleventh was jacinth.And the twelfth was amethyst.,"
+      "Arabic": "الْعَاشِرُ عَقِيقٌ أَخْضَرُ. الْحَادِي عَشَرَ أَسْمَانْجُونِيٌّ. الثَّانِي عَشَرَ جَمَشْتٌ.",
+      "English": "The tenth was chrysoprase.The eleventh was jacinth.And the twelfth was amethyst."
     },
     {
       "Type": "Base",

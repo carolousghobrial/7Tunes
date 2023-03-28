@@ -4,6 +4,14 @@
   "EnglishTitle": "Psalm 54:21,1 ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يرتل المزمور باللحن الشامى",
+      "English": "Then the Psalm is chanted in the Shammy tune"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

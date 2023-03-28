@@ -15,10 +15,10 @@
       "Englishcoptic": "Pi-Laos:"
     },
     {
-      "Type": "Refrain",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
+      "Side": "Refrain",
       "Arabic": "يامن فى اليوم السادس وفى وقت الساعة السادسة سمرت على الصليب. من أجل الخطيئة التى تجرأ عليها أبونا آدم فى الفردوس خزِّق كتاب يد خطايانا. أيها المسيح إلهنا وخلصنا",
       "Coptic": "Wvhet =en pi`e\\oou `mma\\ coou =en `vnau `najp coou> au;ift nak `e=oun `epi`ctauroc> eqbe `vnobi `etafertolman `erof `nje Adam =en piparadicoc> vw= `mpi`c=i `njij `nte nennobi> `wPxc? penNou; ouo\\ na\\men.",
       "English": "O You who on the sixth day, and at the sixth hour, were nailed to the cross on account of the sin that our father Adam dared to commit in Paradise; wipe out the handwriting of our sins, O Christ our God and save us.",
@@ -59,10 +59,10 @@
       "Englishcoptic": "Pi-Laos:"
     },
     {
-      "Type": "Refrain",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
+      "Side": "Refrain",
       "Arabic": "يامن فى اليوم السادس وفى وقت الساعة السادسة سمرت على الصليب. من أجل الخطيئة التى تجرأ عليها أبونا آدم فى الفردوس خزِّق كتاب يد خطايانا. أيها المسيح إلهنا وخلصنا",
       "Coptic": "Wvhet =en pi`e\\oou `mma\\ coou =en `vnau `najp coou> au;ift nak `e=oun `epi`ctauroc> eqbe `vnobi `etafertolman `erof `nje Adam =en piparadicoc> vw= `mpi`c=i `njij `nte nennobi> `wPxc? penNou; ouo\\ na\\men.",
       "English": "O You who on the sixth day, and at the sixth hour, were nailed to the cross on account of the sin that our father Adam dared to commit in Paradise; wipe out the handwriting of our sins, O Christ our God and save us.",

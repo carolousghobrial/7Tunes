@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "14:26-31 الإنجيل من مرقس",
+  "EnglishTitle": "The Gospel according to St.Mark 14:26-31 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلمَّا سَبَّحُوا خَرَجُوا إِلَى جَبَلِ الزَّيْتُونِ.",
+      "Coptic": "Ouo\\ etau`cmou au`i `ebol `epitwou `nte nijwit",
+      "English": "And when they had sung a hymn, they went out to the Mount of Olives.",
+      "Arabiccoptic": "أووه إيطاف إسمو أف إى إيفول إبى طوأو إنتى نى جويت.",
+      "Englishcoptic": "owoh etav esmo av e evol epi to-o ente ni goit."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُمْ يَسُوعُ: «إِنَّكُمْ كُلَّكُمْ تَشُكُّونَ فِيَّ فِي هذِهِ اللَّيْلَةِ، لأَنَّهُ مَكْتُوبٌ: أَنِّي أَضْرِبُ الرَّاعِيَ فَتَتَفَرَقُ الغَنَمُ.",
+      "Coptic": "Ouo\\ pejaf nwou `nje Ih/c/ je tetennaer`ckandalizecqe throu `n=rhi `n=ht =en pai `ejwr\\ je ouhi `cc=hout je ;na]ari `epiman`ecwou ouo\\ cenajwr `ebol `nje ni`ecwou",
+      "English": "Then Jesus said to them, \"All of you will be made to stumble because of Me this night, for it is written: \"I will strike the Shepherd, and the sheep will be scattered.'",
+      "Arabiccoptic": "أووه بيجاف نوأو إنجى إيسوس جى تيتين نا اسكانداليزيستى تيرو إن إخرى إن خيت خين باى إيحوره جى أوإى إس إسخيوت جى تيناشارى إبى مان إيسوأو أووه سينا جور إيفول إنجى نى إيسوأو.",
+      "Englishcoptic": "Owoh pigaf no-o enje Isos je teten na eskan-dali-zeste tiro en ekhrei en khit khen pai egorh je oway es es-kheiout je tina shary epi man eso-o owoh sina gor evol enje ni eso-o."
+    }
+  ]
+}

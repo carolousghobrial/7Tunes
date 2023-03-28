@@ -1,0 +1,40 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": "مقدمة البولس",
+    "EnglishTitle": "The Introduction to the Pauline Epistle",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Reader",
+            "Arabic": "القارئ:",
+            "Coptic": "Pi`anagnwcthc>",
+            "English": "Reader:",
+            "Arabiccoptic": "القارئ:",
+            "Englishcoptic": "Reader:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "من أجل قيامة الأموات الذين رقدوا وتنيحوا فى الإيمان بالمسيح.",
+            "Coptic": "Eqbe ;`anactacic ``nte niref\b mwout nh`etauenkot afemton `mmwou =en `vna\\; `mPx/c/.",
+            "English": "For the resurrection of the dead who have fallen asleep and reposed in the faith of Christ.",
+            "Arabiccoptic": "إثفى تى أناسطاسيس إنتى نى ريف موؤت. نى إيطاف إنكوت أف إمطون إمموؤ. خين إفناهتى إمبى إخريستوس",
+            "Englishcoptic": "Ethvetee anastasees ente ni refmo-oot. ni etav enkot af-emton emmo-o khen efnahty empi Ekhristos."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "يارب نيح نفوسهم أجمعين. بولس عبد ربنا يسوع المسيح. الرسول المدعو المفرز لبشرى الله.",
+            "Coptic": "P_ maemton `nnouyuxh throu > Pauloc `vbwk `mPen_ Ih/c/ Px/c/ > pi`apoctoloc etqa\\em > vh`etauqa]f `epi\\i]ennoufi ``nte V;>",
+            "English": "O Lord repose their souls. Paul, a bondservant of Jesus Christ, called to be an apostle, separated to the gospel of God.",
+            "Arabiccoptic": "إبشويس ما إمطون إن نو إبسيشى تيرو. بافلوس إفوك إمبين شويس إيسوس بخريستوس. بى أبوسطولوس إيتثاهيم. فى إيطاف ثاشف إبى هيشين نوفى إنتى إفنوتى.",
+            "Englishcoptic": "Epshois ma emton enno ebsishy tiro. Pavlos evok empenshois Isos Pikhristos. pi apostolos et thahem. vi etav thashf epi hi shennoufy ente Evnouty."
+        }
+    ]
+}

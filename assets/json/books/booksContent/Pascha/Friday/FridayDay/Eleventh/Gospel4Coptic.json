@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "19:31-37 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 19:31-37 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأمَّا الْيَهُودُ إذ كان يوم الجُمعة وَلِكَيْ لاَ تَبْقَى الأَجْسَادُ عَلَى الصَّلِيبِ فِي السَّبْتِ لأَنَّ يَوْمَ ذَلِكَ السَّبْتِ كَانَ عَظِيماً فَسَأَلَوا بِيلاَطُسَ أَنْ تُكْسَرَ سِيقَانُهُمْ وَيُرْفَعُوا.",
+      "Coptic": "Niioudai oun `epidh ne`t\b parackeu`h de > \\ina `ntou`]tem `o\\i `nje nicwma \\ijen pi`ctauroc  `m`pcabbaton > neouni]; gar pe `p`e\\oou `m`pcabbaton `ete`mmau > au;\\o `ePilatoc \\ina `ntoukw] `nnoukeli ouo\\ `ntou`olou.",
+      "English": "31 Therefore, because it was the Preparation Day, that the bodies should not remain on the cross on the Sabbath (for that Sabbath was a high day), the Jews asked Pilate that their legs might be broken, and that they might be taken away.",
+      "Arabiccoptic": "نى يوذاى أون إبيذى نى إت باراسكيفى ذى. هينا إنتو إشتيم أوهى إنجى نى سوما هيجين بى إسطافروس إم إبسافاطون. نى أونيشتى غار بى إب إيهوؤ إم إبسافاطون إيتى إمماف. أفتى هو إبيلاطوس هينا إنتو كوش إن نو كيلى أووه إنتو أولو.",
+      "Englishcoptic": "Ni Youzay on e pize ni et paraskevy ze. hina ento eshtem ohy enje ni soma hijen hijen pi estavros em ebsavaton. ni onishty ghar pe eb eho-o em ebsavaton ete emmav. afty-ho e Pilatos hina ento kosh enno kily owoh ento olo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَتَى الْعَسْكَرُ وَكَسَرُوا سَاقَيِ الأَوَّلِ وَالآخَرِ الْلَذان صُلِبَا مَعَهُ.",
+      "Coptic": "Au`i oun `nje nimatoi ouo\\ pi\\ouit men aukw] `nnefkeli ouo\\ aukw] `nnapikeouai `etau`a]ou nemaf.",
+      "English": "32 Then the soldiers came and broke the legs of the first and of the other who was crucified with Him.",
+      "Arabiccoptic": "أفئ أون إنجى نى ماطوى أووه بى هويت مين أفكوش إن نيف كيلى أووه أفكوش إن نا بى كى أواى إيطاف أشو نيماف.",
+      "Englishcoptic": "Av-ee on enje ni matoi owoh pi hoit men afkosh ennef kily owoh afkosh enna pi ke ouai etaf asho nemaf."
+    }
+  ]
+}

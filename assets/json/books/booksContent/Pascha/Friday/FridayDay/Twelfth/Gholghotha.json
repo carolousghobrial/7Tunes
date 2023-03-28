@@ -4,6 +4,14 @@
   "EnglishTitle": "The Burial Hymn ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ثم بعد ذلك يقولون قانون الدفن الأتى بلحنه المعروف:",
+      "English": "They then chant the Hymn of the Burial (Gholghotha)"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -90,6 +98,44 @@
       "English": "We also worship him saying: \"Have mercy on us, O God our Savior, who was crucified on the Cross, destroy Satan under our feet.",
       "Arabiccoptic": "أنون هون مارين أوأوشت إمموف. إنؤش إيفول إنجو إمموس. جى ناى نان إفنوتى بين سوتير. فى إيطاف أشف إبى إسطافروس إك إ خومخيم إم إبساطاناس. سابيسيت إن نين إتشالافج.",
       "Englishcoptic": "Anon hon mareno-osht emmof : enosh evol engo emmos : “je nay nan Efnoty Pensoteer” : fee etav-ashf epi-estavros : ek ekhom-khem epsatanas : sapeseet ennen etshalavg. :"
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "  ثم يبدأ كبير الكهنة بقراءة المزمور الأول والكاهن الثانى بقراءة الثانى والثالث بقراءة الثالث إلى أن يصل لكلمة \" أنا إضطجعت ونمت \" فينزلزن من المذبح ويغطون الهيكل بالستر ويستأنفون قراءة المزامير جميعها ومعهم الشمامسة",
+      "English": "Then the high priest begins to read the first psalm ,the second psalm and the third psalm until he reaches the sentence \"I laid down and slept.\" "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خلصنا وإرحمنا.\"",
+      "Coptic": "Cw; `mmon ouo\\ nai nan.",
+      "English": "Save us and have mercy upon us.\"",
+      "Arabiccoptic": "سوتي إممون اووه ناي نان",
+      "Englishcoptic": "Soty emmon owoh nay nan."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يا رب إرحم، يا رب إرحم، يا رب بارك آمين. باركوا عليَّ، باركوا عليَّ، ها مطانية، إغفروا لي، قُل البركة.",
+      "Coptic": "Kurie `ele`hcon> Kurie `ele`hcon> Kurie euloghcon `amhn. `Cmou `eroi> `cmou `eroi> ic ;metanoia> xw nhi `ebol> jw `mpi`cmou.",
+      "English": "Lord have mercy, Lord have mercy, Lord bless amen. Bless me, bless me, behold the repentance, forgive me, say the blessing.",
+      "Arabiccoptic": ": كيري إليصون كيري إليصون : كيري إفلوجيسون امين : إسمو إيروي إسمو إيروي : إس تي ميطانيا كوني إيفول جو إمبي إسمو  .",
+      "Englishcoptic": "Kyrie eleyson , Kyrie eleyson, Kyrie evlogeeson amen : esmo eroy , esmo eroy , estee metanya : konee evol go empee-esmo."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ويأخذ كبير الكهنة أيقونة الدفن إن وجدت وإلا فأيقونة الصلب ويلفها بستر كتان أبيض وعليها الصليب ويضعها فوق المذبح ثم يدفنها فى الورد والحنوط دون أن يمس الورد الأيقونة بسبب رطوبته بل يوضع حولها. أما الصليب فيدفن فى الورد ويغطى بالإبروسفارين ويوضع حول المذبح شمعدانان عليهما شمعتان موقدتان تمثلان الملاكين اللذين كانا بالقبر واحد عند الرأس والآخر عند الرجلين. ",
+      "English": "The high priest takes the Burial icon, if available, otherwise, he takes the Crucifix icon, wraps it in a white linen covering with the cross on it and places it over the altar, then buries it in the roses without the rose touching the icon because of its dampness, rather it is placed around it. As for the cross, it is buried in roses and covered with the Eprosverin, and places two candlestands on the altar representing the two angels who were in the grave, one at the head and the other at the two feet. "
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 3:1-66 من مراثى أرميا النبى",
+  "EnglishTitle": "Lamentations 3:1-66 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَنَا هُوَ الرَّجُلُ الَّذِي رأَى المَذَلَّةَ. أتى علىَّ بِقَضِيبِ غَضَبِهِ وَقَادَنِي وَسَيَّرَنِي فِي الظُلمَةِ لاَ فى النُورَ. والأن رَدَّ يَدَهُ عَلَيَّ النهارَ كُلَّهُ.",
+      "Coptic": "Anok `vrwmi `anok eqnau `e;met\\hki > `af`i `e`\\rhi `ejwi =en pi`]bwt ``nte pefjwnt Af`amoni `mmoi ouo\\ af`olt `e=oun `eouxaki `eouwini an > `Plhn aftacqo `ntefjij `n`=rhi `n=ht `mpi`e\\oou thrf.",
+      "English": "\"I am the man who sees poverty by the rod of His anger upon me. He took me and led me away into darkness, and not into light. Surely He has turned His hand against me throughout the day.",
+      "Arabiccoptic": "أنوك إفرومى أنوك إثناف إتى ميت هيكى. أفئ إإهرى إيجوى خين بى إشفوت إنتى بيف جونت أف أمونى إمموى أووه أف أولت إيخون إ أوكاكى إ أوأوينى آن.إبلين أفطاستو إنتيف جيج إن إخرى إنخيت إمبى إيهوؤ تيرف.",
+      "Englishcoptic": "Anok efromy anok ethnaf eti methiky. af-e e ehry egoi khen pi eshvot ente pef gont af amony emmoi owoh af olt ekhon e okaky e o-oiny an. eplin aftasto entef gig en ekhrei enkhit empe eho-o tirf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(2) أَبْلَى لَحْمِي وَجِلْدِي وَسَحَقَ عِظَامِي أَحَاطَ بى وَنَكَّسَ رَأسِى وأذلَّنِى وأجلسنى فى مَوَاضِعَ مُظلِمَةٍ مثل المَوْتَى من قديم.",
+      "Coptic": "Af`qreclwm `nje tacar[ nem pa]ar > af=om=em `nnakac Afkw; `eroi ouo\\ afwrf `nta`ave `e=oun > Af`t\\emkoi =en \\anma `nxaki > af`t\\emcoi `e`=rhi `m`vrh; `n\\anrefmwout `n`ene\\.",
+      "English": "\"He has aged my flesh and my skin and has broken my bones. He has besieged me and surrounded my head; He has worn me down with hardships. He set me in dark places as those long dead.",
+      "Arabiccoptic": "أف إثريسلوم إنجى تاساركس نيم باشار. أفخومخيم إن ناكاس أفكوتى إيروى أووه أف أورف إنطا آفى إيخون. أف إتهيم كوى خين هان ما إنكاكى. أف إتهيمسوى إإخرى إم إفريتى إنهان ريف موؤت إن إينيه.",
+      "Englishcoptic": "Af ethreslom enje tasarex nem bashar. afkhomkhem ennakas afkoty eroi owoh af orf enta af-e ekhon. af ethem koi khen han ma enkaky. af ethimsoy e ekhrei em evreety enhan ref mo-ot en eneh."
+    }
+  ]
+}

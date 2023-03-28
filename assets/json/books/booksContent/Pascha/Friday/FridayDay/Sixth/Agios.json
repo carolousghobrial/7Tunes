@@ -4,6 +4,14 @@
   "EnglishTitle": "Agios (Holy God) ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم تقال الثلاث تقديسات ( أجيوس ) بلحن الصلبوت ",
+      "English": "The Trisagion is chanted in the Paschal tune."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

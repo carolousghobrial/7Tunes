@@ -16,15 +16,15 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "قالت له \"فارغة الهدرية،,\nوليس لك دلوَاً يا إنسان،\",\nتعالوا وانظروا خالق كل بَرِية،,\nكيف يعطش وهو الديان.,",
-      "English": "The ignorant replied to him.,\n\"You have no water pot, O Man\",\nCome and behold the Creator,\nHow He thirsts while He is the Judge,"
+      "Arabic": "قالت له \"فارغة الهدرية،,\nوليس لك دلوَاً يا إنسان،\",\nتعالوا وانظروا خالق كل بَرِية،,\nكيف يعطش وهو الديان.",
+      "English": "The ignorant replied to him.\n\"You have no water pot, O Man\",\nCome and behold the Creator,\nHow He thirsts while He is the Judge,"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ربح جزيل وعزاء نعيم،,\nمهيأ لمن يعمل صدقات،,\nحقاً يصير إبن إبراهيم،,\nبحسب الإيمان والنِيات.,",
+      "Arabic": "ربح جزيل وعزاء نعيم،,\nمهيأ لمن يعمل صدقات،,\nحقاً يصير إبن إبراهيم،,\nبحسب الإيمان والنِيات.",
       "English": "A great profit, comfort, and grace,\nFor him who performs charity,\nTruly becomes a son of Abraham,\nAccording to his faith and intentions,"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ويصير وارث فردوس النعيم،,\nويشبع من كل الخيرات،,\nهذا جزاء مَنْ يأوي سقيم،,\nويكسي العريان في خفيات.,",
+      "Arabic": "ويصير وارث فردوس النعيم،,\nويشبع من كل الخيرات،,\nهذا جزاء مَنْ يأوي سقيم،,\nويكسي العريان في خفيات.",
       "English": "He will inherit the Paradise of Joy,\nAnd be filled with all good things,\nThis is the reward to him who helps the sick,\nAnd covers the naked in secret,"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "المحبة هي برج حصين،,\nوكل الفضائل تنميهم،,\nوسراج مضئ لكل الطالبين،,\nوهو نور يشرق فيهم.,",
+      "Arabic": "المحبة هي برج حصين،,\nوكل الفضائل تنميهم،,\nوسراج مضئ لكل الطالبين،,\nوهو نور يشرق فيهم.",
       "English": "Love is a strong tower,\nIt completes all virtues,\nAll those who seek it,\nIts light shines in them,"
     },
     {

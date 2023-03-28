@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "19:1-12 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 19:1-12 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حِينَئِذٍ أَخَذَ بِيلاَطُسُ يَسُوعَ وَجَلَدَهُ.",
+      "Coptic": "Tote pilatoc afsi `nIh/c/ afermactiggoin `mmof",
+      "English": "So then Pilate took Jesus and scourged Him.",
+      "Arabiccoptic": "توتى بيلاطوس أفتشى إن إيسوس أفئير ماستين غين إمموف.",
+      "Englishcoptic": "Tote Pilatos afetchi en Isos af er mastin ghin emmof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَضَفَرَ الْعَسْكَرُ إِكْلِيلاً مِنْ شَوْكٍ وَوَضَعُوهُ عَلَى رَأْسِهِ وَأَلْبَسُوهُ ثَوْباً مِنْ أُرْجُوانٍ",
+      "Coptic": "Ouo\\ nimatoi au]wnt `nou`xlom `ebol=en \\ancouri> ouo\\ authif `ejen tef`ave> ouo\\ aujol\\f `nou\\ebcw `nshji>",
+      "English": "2 And the soldiers twisted a crown of thorns and put it on His head, and they put on Him a purple robe.",
+      "Arabiccoptic": "أووه نى ماطوى أفشونت إن أو إكلوم إيفول خين هان سورى. أووه أفتيف إيجين تيف آفى. أووه أفجولهف إن أو هيبسو إن إتشيجى.",
+      "Englishcoptic": "Owoh ni matoi afshont en o eklom evol khen han sory. owoh afteif ejen tef afei. owoh afgolhf en o hebso en etchigy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانُوا يقبلون إليه وَيَقُولُونَ: «السّلاَمُ يَا مَلِكَ الْيَهُودِ». وَكَانُوا يَلْطِمُونَهُ.",
+      "Coptic": "Ouo\\ naunhou \\arof pe eujw `mmoc> je xere `pouro nte niIoudai ouo\\ nau;kour naf pe>",
+      "English": "3 Then they said, “Hail, King of the Jews!” And they struck Him with their hands.",
+      "Arabiccoptic": "أووه ناف نيو هاروف بى إفجو إمموس. جى شيرى إبؤرو إنتى نى يوذاى أووه نافتى كور ناف بى.",
+      "Englishcoptic": "Owoh nef neio haro pe efgo emmos. je shery ep-oro ente ni Iouzai owoh nafty kor naf pe."
+    }
+  ]
+}

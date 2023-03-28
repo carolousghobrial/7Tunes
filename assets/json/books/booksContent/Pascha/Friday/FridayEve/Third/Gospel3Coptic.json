@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "22:31-39 الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 22:31-39 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "«سِمْعَانُ، سِمْعَانُ، هُوَذَا الشَّيْطَانُ قد سأل أن يُغَرْبِلَكُمْ مثل الْحِنْطَةِ!",
+      "Coptic": "Cimwn Cimwn \\hppe ic `pcatanac afer`etin `mmwten `e]el]el qhnou `m`vrh; `mpicouo.",
+      "English": "\"Simon, Simon! Indeed, Satan has asked for you, that he may sift you as wheat.",
+      "Arabiccoptic": "سيمون سيمون, هييبى يس إبساطاناس أف إير إتين إمموتين إشيلشيل ثينو إم إفريتى إمبى سوأو.",
+      "Englishcoptic": "Simon, Simon, heppe yes epsatanas af er eten emmoten e-shelshel thino em evreety empi so-o."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلكِنِّي طَلَبْتُ مِنْ أَجْلِكَ لِكَيْ لاَ يَنْقُصَ إِيمَانُكَ. وَأَنْتَ أيضاً فَأرْجِعْ وَثَبِّتْ إِخْوَتَكَ زَمَاناً».",
+      "Coptic": "Anok de aitwb\\ `ejwk \\ina `ntef`]tem mounk `nje pekna\\;> ouo\\ `nqok \\wk kotk `nouchou matajre nek`cnhou.",
+      "English": "But I have prayed for you, that your faith should not fail; and when you have returned to Me, strengthen your brethren.\"",
+      "Arabiccoptic": "أنوك ذى أيطوبه إيجوك هينا إنتيف إشتيم مونك إنجى بيك ناهتى. أووه إنثوك هوك كوتك إن أوسيو ماطاجرى نيك إسنيو.",
+      "Englishcoptic": "Anok ze ai-tobh egok hina entef eshtem monk enje pek nahty. owoh enthok hok kotk en o-sio matagre nek esneyou."
+    }
+  ]
+}

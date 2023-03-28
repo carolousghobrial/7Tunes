@@ -4,6 +4,14 @@
   "EnglishTitle": "Omonogenees Hymn ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بعد ذلك يقولون باللحن القطعة الرومي الآتية التي للقديس أثناسيوس الرسولى وتقال أيضاً في تكريس الميرون والبطاركة والأساقفة",
+      "English": "After that, the Greek Hymn (Omonogenees) is chanted, which is of St. Athanasius the Apostolic, and it is also chanted in the consecration of the chrism, the patriarchs, and the bishops."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

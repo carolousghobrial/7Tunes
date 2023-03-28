@@ -4,37 +4,28 @@
   "EnglishTitle": "Zechariah 14:5-11 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَسَيَأْتِي الرَّبُّ إِلَهِي وَجَمِيعُ مَلاَئِكَتِهِ مَعَهُ.",
-      "Coptic": "Ouo\\ ef`e`i `nje Po/c/ panou;> ouo\\ nefaggeloc throu nemaf>",
-      "English": "5 Thus the Lord my God will come, And all the saints with You.",
-      "Arabiccoptic": "أووه إف إ إى إنجى إبشويس بانوتى. أووه نيف أنجيلوس تيرو نيماف.",
-      "Englishcoptic": "Owoh af e ei enje Epshois Panouty. owoh nef angelos tiro nemaf."
+      "English": "5 Thus the Lord my God will come, And all the saints with You."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَفِي ذَلِكَ الْيَوْمِ أَنَّهُ لاَ يَكُونُ نُورٌ. بَلْ بَردٌ وَصَقِيعٌ َيَكُونُ",
-      "Coptic": "+en pi`e\\oou `ete`mmau `nnef]wpi `nje ououwini> oujaf nem ou`wjeb ef`e]wpi =en ou`e\\oou `nouwt >",
-      "English": "6 It shall come to pass in that day That there will be no light; The lights will diminish.",
-      "Arabiccoptic": "خين بى إيهوؤ إيتى إمماف إن نيف شوبى إنجى أوأوينى. أوجاف نيم أوأوجيب إف إشوبى خين أو إيهوؤ إن أوأوت.",
-      "Englishcoptic": "Khen pi eho-o ete emmav en nef shopy enje o-oiny. ogaf nem o-ogeb ef e shopy khen o eho-o en o-oot."
+      "English": "6 It shall come to pass in that day That there will be no light; The lights will diminish."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "فِي يَوْمٍ وَاحِدٍ وَهُوَ مَعْرُوفٌ لِلرَّبِّ. لاَ نَهَارَ وَلاَ لَيْلَ بَلْ يَحْدُثُ أَنَّهُ فِي وَقْتِ الْمَسَاءِ يَكُونُ نُورٌ.",
-      "Coptic": "Ouo\\ pi`e\\oou `ete`mmau `fouon\\ ebol` mP_> oue`\\oou an oude ou`ejwr\\ an > ouo\\` ere`vouwini ]wpi `m`vnau `nrou\\i",
-      "English": "7 It shall be one day Which is known to the Lord— Neither day nor night. But at evening time it shall happen That it will be light.",
-      "Arabiccoptic": "أووه بى إيهوؤ إيتى إمماف إف أوأونه إيفول إم إبشويس. أو إيهوؤ أوذى أو إيجوره أن. أووه إيرى إفؤوينى شوبى إم إفناف إن روهى.",
-      "Englishcoptic": "Owoh pi eho-o ete emmav ef o-onh evol em Epshois. o eho-o oze o egorh an. owoh ere ef o-oiny shopi em efnav en roohy."
+      "English": "7 It shall be one day Which is known to the Lord— Neither day nor night. But at evening time it shall happen That it will be light."
     },
     {
       "Type": "Melody",

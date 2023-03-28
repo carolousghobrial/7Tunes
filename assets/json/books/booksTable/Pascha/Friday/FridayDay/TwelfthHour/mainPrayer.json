@@ -1,0 +1,177 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "يوم الجمعة العظيمة (الساعة الثانية العشر )",
+            "English": " Good Friday (Twelfth Hour)"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " يفتح باب الهيكل والخورس ويكسى الهيكل بكسوة تلاءم سبت الفرح وتوقد الشموع وتجهز أيقونة الصلبوت والصلبان والكهنة لابسين بدلهم ومعهم المجامر والبخور ثم يبدأون بقراءة مراثى أرميا قبطياً ثم عربياً.",
+            "English": "The curtains of the altar are opened, the altar is covered with a garment befitting of Bright Saturday, the candles are lit,  the icon of crucifixes and crosses are prepared, and priests are dressed in their tunics, with censers and incense. Then they begin to read Jeremiah's Lamentations, in Coptic, then it is translated."
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaHourIntro",
+            "Rule": "FridayDayTwelfthHour",
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "النبوات بالقبطي",
+            "English": "Prophecies in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "FridayDayTwelfthHourcopticProphecies"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "النبوات بالعربي",
+            "English": "Prophecies in English/Arabic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "FridayDayTwelfthHourProphecies"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaPraiseIntro",
+            "Rule": "FridayDayTwelfthHour",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaPraise3",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "تسبحة البصخة ( 1 )",
+            "English": "Repeat Pascha Praise ( 1 )",
+            "Rule": "ThokTeTiGomScrollUp",
+            "Visible": true,
+            "Count": 1,
+            "Path": "FridayDayFirstHourProphecies"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPsalmIntroCoptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDayTwelfthPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaKeEperto",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": " الانجيل بالقبطي",
+            "English": "Gospel in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "FridayDayTwelfthHourcopticPsalmAndGospel"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور و الانجيل بالعربي",
+            "English": "Psalm and Gospel in English",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "FridayDayTwelfthHourPsalmAndGospel"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "تقال مقدمة الطرح الخاصة بساعات المساء لأن الساعة الثانية عشر لاتحسب ضمن ساعات النهار الخمس كما أن الأناجيل تذكر أن هذا الوقت كان مساءاً .",
+            "English": "The Evening Introduction to the Exposition is said because the Twelfth Hour is not counted among the five hours of the day, and the Gospels mention that this time was evening."
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaExpositionIntroNight",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaExpositionIntro",
+            "Rule": "FridayDayTwelfthHour",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDayTwelfthExposition",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaExpositionConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaNightLitanies",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDayTwelfthMetanias",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDayTwelfthGholghotha",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing2",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

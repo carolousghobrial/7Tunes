@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "48:1-19 من سفر التكوين لموسى النبى",
+  "EnglishTitle": "Genesis 48:1-19 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَحَدَثَ بَعْدَ هَذِهِ الأُمُورِ أَن أعْلَمُوا يُوسُفَ قَائِلينَ إنَّ أَبَاكَ قَدْ وَهَنَتْ قُوَاهُ. فَأَخَذَ ابْنَيْهِ مَنَسَّى وَأَفْرَايِمَ وَجَاَءَ إلى يَعْقُوبَ.",
+      "Coptic": "Ac]wpi de meneca nai caji autame Iwchv eujw `mmoc> je pekiwt `]qorter> ouo\\ afsi `mpef]hri `cnau Manacch nem `Evrem  afi \\a Iakwb>",
+      "English": "Now it came to pass after these things that Joseph was told, “Indeed your father is sick”; and he took with him his two sons, Manasseh and Ephraim.",
+      "Arabiccoptic": "أسشوبى ذى ميننسا ناى ساجى أفطامى يوسف إفجو إمموس. جى بيك يوت إشتورتير. أووه أفتشى إمبيف شيرى إسناف مَنَسِّى نيم إفريم أفئ ها ياكوب.",
+      "Englishcoptic": "As shopy ze menensa nai saji aftamy Youssef efgo emmos. je pekiot eshtorter. owoh af etchi empef shiry esnav Manassi nem Ephraim af-e ha Yackoub."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَخْبَرُوهُ وَقَالُوا لَهُ: «هُوَذَا ابْنُكَ يُوسُفُ قَادِمٌ إِلَيْكَ». فَتَشَدَّدَ إِسْرَائِيلُ وَجَلَسَ عَلَى السَّرِيرِ.",
+      "Coptic": "Autame Iakwb de eujwmmoc naf> je \\hppe ic pek]hri Iwchv `fnhou \\arok> afjemnom; nje Pic?l?  af\\emci \\ijen pisloj>",
+      "English": "2 And Jacob was told, “Look, your son Joseph is coming to you”; and Israel strengthened himself and sat up on the bed.",
+      "Arabiccoptic": "أفطامى ياكوب ذى إفجو إمموس ناف جى هيبى يس بيك إشفيرى يوسف إفنيو هاروك. أفجيم نومتى إنجى بيسرائيل أفهيمسى هيجين بى إتشلوج.",
+      "Englishcoptic": "Aftamy Yackoub ze efgo emmos naf je heppe yes pek eshviry Youssef efneyou harok. afgem nomty enje Pisraeel af hemsy hijen pi etchlog."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ يَعْقُوبُ لِيُوسُفَ: «أنَّ إلَهِى تَجَلَّى لِي فِي لُوزَ بِأَرْضِ كَنْعَانَ وَبَارَكَنِي.",
+      "Coptic": "Ouo\\ peje Iakwb `nIwchv je panou; afouon\\f eroi =en Louza > =en `pka\\i `nXanaan af`cmou `eroi",
+      "English": "3 Then Jacob said to Joseph: “God Almighty appeared to me at Luz in the land of Canaan and blessed me",
+      "Arabiccoptic": "أووه بيجى ياكوب إن يوسف جى بانوتى أف أوأونهيف إيروى خين لوزا خين إبكاهى إن كانا آن أف إسمو إيروى.",
+      "Englishcoptic": "Owoh pi-ge Yackoub en Youssef je panouty af o-onhef eroi khen Loza khen epkahi en Kanaan af esmo eroi."
+    }
+  ]
+}

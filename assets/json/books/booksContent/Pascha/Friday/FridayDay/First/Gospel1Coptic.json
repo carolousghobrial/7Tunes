@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "27:1-14  الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 27:1-14 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَمَّا كَانَ الغَدُ تَشَاوَرَ جَمِيعُ رُؤَسَاءِ الْكَهَنَةِ وَشُيُوخُ الشَّعْبِ عَلَى يَسُوعَ لِكى يَقْتُلُوهُ فَأَوْثَقُوهُ وَأخَذُوه وَأسلَمُوهُ إِلَى بِيلاَطُسَ الْوَالِي.",
+      "Coptic": "Eta tooui de \\wpi aueroucosni throu nje niarxhereuc nem niprecbuteroc nte pilaoc =a Ih/c/> \\wcte nce =oqbef> Ouo\\ etaucon\\f auolf ouo\\ authif mPilatoc pi\\hgemwn",
+      "English": "When morning came, all the chief priests and elders of the people plotted against Jesus to put Him to death. 2 And when they had bound Him, they led Him away and delivered Him to Pontius Pilate the governor.",
+      "Arabiccoptic": "أيطا توأوى ذى شوبى أفئير أوسوتشنى تيرو إنجى نى أرشى إيرفس نيم نى إبريسفيتيروس إنتى بى لاؤس خا إيسوس. هوستى إنسى خوثفيف. أووه إيطاف سونهيف أف أولف أووه أفتيف أم بيلاطوس بى هيجيمون.",
+      "Englishcoptic": "Eta to oui ze shopi af-er o sotchni tiro enje ni arshi erevs nem ni epresviteros ente pi laos kha Isos. hoste ence khothvev. owoh etav sonhef af-olf owoh afteif em Pilatos pi hegemon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حِينَئِذٍ لَمَّا رَأَى يَهُوذَا الَّذِي أَسْلَمَهُ أَنَّهُ قَدْ دِينَ تنَدمَ وَرَدَّ الثَّلاَثِينَ مِنَ الْفِضَّةِ إِلَى رُؤَسَاءِ الْكَهَنَةِ وَالشُّيُوخِ",
+      "Coptic": "Tote etafnau nje Ioudac vhetaf thif je auer katakrinin mmof etafouem \\qhf>aftacqo n;map n\\at \\a niarxhereuc nem niprecbuteroc",
+      "English": "3 Then Judas, His betrayer, seeing that He had been condemned, was remorseful and brought back the thirty pieces of silver to the chief priests and elders",
+      "Arabiccoptic": "توتى إيطاف ناف إنجى يوداس فيئطاف تيف جى أفئير كاطا إكرينين إمموف إيطاف أو إيم إهثيف. أفطاستو إنتى ماب إنهات هانى أرشى إيرفس نيم نى إبريسفيتيروس.",
+      "Englishcoptic": "Tote etav nav enje Ioudas vi etav tef je af-er kata ekrinin emmof etaf o eim ehthief. aftasto enti map enhat hani arshi erevs nem ni epresviteros."
+    }
+  ]
+}

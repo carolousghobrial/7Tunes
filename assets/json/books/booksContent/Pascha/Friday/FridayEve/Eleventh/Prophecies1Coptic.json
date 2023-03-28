@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "27:11-28:15 من اشعياء النبي",
+  "EnglishTitle": "Isaiah 27:11-28:15 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هَلُمُّوا أَيَّتُهَا النِسَاءُ الآتِيَاتُ لِلنَظَرِ. لأَنَّهُ لَيْسَ شَعْبًا ذَا فَهْمٍ، لِذلِكَ لاَيَرْحَمُهُ خَالِقُهُ وَلاَ يَتَرَأَّفُ عَلَيْهِ جَابِلُهُ.",
+      "Coptic": "Amwini ni\\iomi eqnhou =en ounau> `noulaoc gar an pe `eouon `ntaf `mpika;> eqbe vai `nnef]en\\ht =arwou `nje vh`etafqami`wou> ouo\\ `nnefnai `nwou `nje vh`etafer`plazin `mmwou>",
+      "English": "Come here, you women who come from that sight. For it is a people of no understanding; therefore He who made them will have no compassion on them, neither He who formed them; and He will show them no mercy.",
+      "Arabiccoptic": "اموينى نى هيومى إثنيو خين او ناف. إن أو لاؤس غار أن بى  غ أوأون إنطاف إمبى كاتى. إثفى فاى إننيف شينهيت خاروؤ إنجى فى إيطاف ثاميوؤ أووه إن نيف ناى إنوؤ إنجى فى إيطاف إير غبلازين إمموؤز",
+      "Englishcoptic": "Amoiny ni hiomy ethneio khen o-nav en o laos ghar an be. e-o-on entaf empikaty. ethve fai ennef shenheat kharo-o enje vi-etaf thamio-o. owoh ennef nai eno-o enje vi etav er eplazin emmo-o."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَيَكُونُ فِي ذلِكَ الْيَوْمِ",
+      "Coptic": "Ouo\\ ec`e]wpi =en pi`e\\oou `ete`mmau.",
+      "English": "And it shall come to pass in that day",
+      "Arabiccoptic": "أووه إس إشوبى خين بى إيهوؤ إيتى إمماف.",
+      "Englishcoptic": "owoh es e shopy khen pi eho-o ete emmav."
+    }
+  ]
+}

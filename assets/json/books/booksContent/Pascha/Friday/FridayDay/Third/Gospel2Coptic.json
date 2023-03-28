@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "15:6-25 الإنجيل من مرقس",
+  "EnglishTitle": "The Gospel according to St.Mark 15:6-25 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ فِي كُلِّ عِيدٍ يُطْلِقُ لَهُمْ أَسِيراً وَاحِداً مَنْ طَلَبُوهُ.",
+      "Coptic": "Kata `p]ai de nafxw `nouai efcon\\ nwou `ebol> vh`e]aueretin `mmof",
+      "English": "Now at the feast he was accustomed to releasing one prisoner to them, whomever they requested.",
+      "Arabiccoptic": "كاطا إبشاى ذى نافكو إن أواى إفسونه نوؤ إيفول. فى إشاف إيرتين إمموف",
+      "Englishcoptic": "Kata epshay ze nafko en ouai evsonh no-o evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ الْمُسَمَّى بَارَابَاسَ مُوثَقاً مَعَ أهلِ الْفِتْنَةِ الَّذِينَ إرتَكَبُوا القَتْلَ فِي الْفِتْنَةِ.",
+      "Coptic": "Vh de `etoumou; `erof je Barabbac nafcon\\ pe nem nhetauiri `nou`]qorter> nh`etau`iri `nou=wteb =en pi`]qorter.",
+      "English": "7 And there was one named Barabbas, who was chained with his fellow rebels; they had committed murder in the rebellion.",
+      "Arabiccoptic": "فى ذى إيطو موتى إيروف جى باراباس نافسونه بى نيم نى إيطاف إيرى إن أو إشتورتير. نى إيطاف إيرى إن أو خوتيب خين بى إشتورتير.",
+      "Englishcoptic": "Vi eshav eretin emmof vi ze eito moty erof je Barabas navonh pe nem ni etav ery en o eshtorter. ni etav ery en o khoteb khen pi eshtorter."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَوَثَبَ الْجَمْعُ وَابْتَدَأُوا يَطْلُبُونَ مَاكَانَ يصنَعَهُ لَهُمْ دَائِماً.",
+      "Coptic": "Ouo\\ `etaf`i `e`p]wi `nje pimh]> afer\\htc `n`eretin kata `vrh; `enaf`iri `mmof.",
+      "English": "8 Then the multitude, crying aloud, began to ask him to do just as he had always done for them.",
+      "Arabiccoptic": "أووه إيطاف إى إإبشوى إنجى بيميش. أفئيرهيتس إن إرى تين كاطا إفريتى إناف إيرى إمموف.",
+      "Englishcoptic": "Owoh etaf e a epshoy enje pimeesh. afer hits en ereten kata evreety enav erei emmof."
+    }
+  ]
+}

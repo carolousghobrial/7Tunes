@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "البولس: فيلبي 2:4-11",
+  "EnglishTitle": "The Pauline Epistle: Philippians 2:4-11 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لاَ يَنْظُرَنَّ أحدٌ إِلَى مَاهُوَ لِنَفْسِهِ، بَلْ فَليَنظُر كُلُّ وَاحِدٍ إِلَى مَا هُوَ لغَيرِهِ أَيْضاً.",
+      "Coptic": "Enpiouai piouai `mmwten `n;`\\qhf an `enh`etenouten `mmauaten qhnou alla nem na neten`erhou. Piouai piouai `mmwten",
+      "English": "Let each of you look out not only for his own interest but also for the interest of others.",
+      "Arabiccoptic": "إن بى أواى بى أواى إمموتين إنتى إهثيف أن. إنى إيتى نوتين إمماف أتين ثينو. اللا نيم نا نيتين إيريو. بى أواى بى أواى إمموتين.",
+      "Englishcoptic": "Epi-owai pi-owai emmoten enti-ehtheef an eni-et enoten emmavaten thino alla nem na ni-eten eeri. Pi-owai pi-owai emmoten"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلْيَكُنْ فِيكُمْ هَذَا الْفِكْرُ الَّذِي فِي الْمَسِيحِ يَسُوعَ أَيْضاً:",
+      "Coptic": "Marefmeu`i `evai `n`=rhi =en qhnou> `ete vai pe et=en Pxc? Ihc?.",
+      "English": "Let this mind be in you which was also in Christ Jesus.",
+      "Arabiccoptic": "ماريف ميفئ إفاى إن إخرى خين ثينو. إيتى فى بى إتخين بخريستوس إيسوس.",
+      "Englishcoptic": "Maref-mev-ee efai enekhri khen thino : ete fai pe, etkhen pikhristos Isos."
+    }
+  ]
+}

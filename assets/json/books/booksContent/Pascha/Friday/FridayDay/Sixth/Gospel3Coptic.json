@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "23:26-44 الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 23:26-44 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبينَمَا هُمْ مُنطَلِقُونَ بِهِ أَمْسَكُوا وَاحِداً يُدعَى سِمْعَانَ القَيْرَوَانِى كَانَ آتِياً مِنَ الْحَقْلِ وَوَضَعُوا عَلَيْهِ الصَّلِيبَ لِيَحْمِلَهُ خَلْفَ يَسُوعَ.",
+      "Coptic": "Ouo\\ \\wc eu`ini `mmof `ebol> au`amoni `nouai je Cimewn ne ouKurinneoc pe> efnhou `ebol=en `tkoi> autale pi`ctauroc erof eqreftwoun `mmof cava\\ou `nIh/c/>",
+      "English": "26 Now as they led Him away, they laid hold of a certain man, Simon a Cyrenian, who was coming from the country, and on him they laid the cross that he might bear it after Jesus.",
+      "Arabiccoptic": "أووه هوس إف إينى إمموف إيفول. أف أمونى إن أواى جى سيميؤن نى أوكيرين نيؤس بى. إفنيو إيفول خين إت كوى. أفطالى بى إسطافروس إيروف إثريف طوأون إمموف سافاهو إن إيسوس.",
+      "Englishcoptic": "Owoh hos ef iny emmof evol. af amony en ouai je simy-on ni okiryn ne-os pe. efneio evol khen et-koi. aftale pistavros erof ethref to-on emmof safaho en Isos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَان يتبَعَهُ جُمْهُورٌ كَثِيرٌ مِنَ الشَّعْبِ وَالنِّسَاءِ اللَّوَاتِي كُنَّ يَنْدُبْنَ وَيَنُحْنَ عَلَيْهِ.",
+      "Coptic": "Nafmo]i de `ncwf `nje ouni]; `mmh] `nte pilaoc > nem \\an\\i`omi nh`enautwit ouo\\ naune\\pi `erof>",
+      "English": "27 And a great multitude of the people followed Him, and women who also mourned and lamented Him.",
+      "Arabiccoptic": "نافموشى ذى إنسوف إنجى أونيشتى إم ميش إنتى بى لاؤس. نيم هان هيومى نى إيناف توإيت أووه ناف نيهبى إيروف.",
+      "Englishcoptic": "Nav-moshy ze ensof enje o nishty em-mish ente pi laos. nem han hiomy ni enav to eat owoh nav nehpy erof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَالْتَفَتَ إِلَيْهِنَّ يَسُوعُ وَقَالَ: «يَا بَنَاتِ أُورُشَلِيمَ لاَ تَبْكِينَ عَلَيَّ بَلِ ابْكِينَ عَلَى أَنْفُسِكُنَّ وَعَلَى أَوْلاَدِكُنَّ",
+      "Coptic": "` Etafvon\\f de `erwou `nje Ihc pejaf > ni]eri nte Il/h/m/  `mperrimi `ejwi> plhn rimi `ejen qhnou nem `ejen neten]hri",
+      "English": "28 But Jesus, turning to them, said, “Daughters of Jerusalem, do not weep for Me, but weep for yourselves and for your children.",
+      "Arabiccoptic": "إيطاف فونهيف ذى إيروؤ إنجى إيسوس بيجاف. نىشيرى إنتى يروساليم إمبير ريمى إيجوى. إبلين ريمى إيجين ثينو نيم إيجين نى تين شيرى.",
+      "Englishcoptic": "Etav fon-hef ze ero-o enje Isos pigaf. nishiry ente Yerosaleem emper rimy egoi. eplin rimy ejen thino nem ejen ni ten shiry."
+    }
+  ]
+}

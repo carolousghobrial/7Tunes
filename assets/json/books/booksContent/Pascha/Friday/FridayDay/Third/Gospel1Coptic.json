@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "27:15-26  الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 27:15-26 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ لِلْوَالِي عَادَةً أَنْ يُطْلِقَ لِلْجَمْعِ فِي كُلِّ عِيدٍ أَسِيراً وَاحِداً مَنْ أَرَادُوهُ.",
+      "Coptic": "Kata `p]ai de ne `tka\\c `mpi\\ugemwn>  `exaouai `ebol=en nhetcon\\ `mpimh] vh`e]au oua]f>",
+      "English": "15 Now at the feast the governor was accustomed to releasing to the multitude one prisoner whom they wished.",
+      "Arabiccoptic": "كاطا إبشاى ذى نى إتكاهس إمبى هيجيمون. إيكا أواى إيفول خين نى إتسونه إمبى ميش فى إشاف أوأشف.",
+      "Englishcoptic": "Kata Epshai ze ne etkahs empe higemon. aika ouai evol khen ni etsonh empe mish vi oshav o ashf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ لَهُمْ فى ذَلِكَ الوَقتِ أَسِيرٌ وَهُوَ لِصٌّ يُدعَى بَارَابَاسَ.",
+      "Coptic": "Neouon ouai de efcon\\ `ntotou `mpichou `ete `mmau `eouconi pe> eumou; `erof je Barabbac>",
+      "English": "16 And at that time they had a notorious prisoner called Barabbas.",
+      "Arabiccoptic": "نى أوؤن أواى ذى إفسونه إنطوطو إمبى سيو إيتى إم ماف إ أوسونى بى. إفموتى إيروف جى باراباس.",
+      "Englishcoptic": "Ne o-on ouai ze efsonh entoto empe sio ete emmav e osony pe. efmoty erof je Barabas."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَفِيمَا هُمْ مُجْتَمِعُونَ قَالَ لَهُمْ بِيلاَطُسُ: «مَنْ تُرِيدُونَ أَنْ أُطْلِقَ لَكُمْ؟ بَارَابَاسَ أَمْ يَسُوعَ الَّذِي يُقَالُ لَهُ الْمَسِيحَ؟»",
+      "Coptic": "`Etauqwou; oun euma> peje Pilatoc nwou> je nim` etetenouw] `ntaxaf nwten `ebol >Barabbac ]an Ih/c/ vh`etoumou; `erof je Px/c",
+      "English": "17 Therefore, when they had gathered together, Pilate said to them, “Whom do you want me to release to you? Barabbas, or Jesus who is called Christ?”",
+      "Arabiccoptic": "إيطاف ثؤوتى أون إفما. بيجى بيلاطوس نوؤ. جى نيم إتى تين أوأوش إنتاكاف نوتين إيفول. باراباس شان إيسوس فى إيطوموتى إيروف جى بخريستوس.",
+      "Englishcoptic": "Etav tho-oty on efma. peje Pilatos no-o. je nem eti ten o-osh entakaf noten evol. Barabas shan Isos vi etomoty erof je Pikhristos."
+    }
+  ]
+}

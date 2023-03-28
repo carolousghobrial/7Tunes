@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "يا مَنْ أحييتنا بصلبوتَك،,\nإخزي عنا بي ذياڤلوس،,\nوإحفظنا بقوة لاهوتَك،,\nبصلاة مريم تي بارثينوس.,",
+      "Arabic": "يا مَنْ أحييتنا بصلبوتَك،,\nإخزي عنا بي ذياڤلوس،,\nوإحفظنا بقوة لاهوتَك،,\nبصلاة مريم تي بارثينوس.",
       "English": "O who gave us life through Your Crucifixion,\nPut to shame the devil,\nKeep us by the power of Your divinity,\nThrough the prayers of Mary the Virgin,"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "شعب المسيح يكون في سلام،,\nمشمول بالنعمة الإلهية،,\nيا طبيب المرضى والأسقام،,\nطهرنا من كل خطية.,",
+      "Arabic": "شعب المسيح يكون في سلام،,\nمشمول بالنعمة الإلهية،,\nيا طبيب المرضى والأسقام،,\nطهرنا من كل خطية.",
       "English": "May Christ's congregation be in peace,\nFilled with divine grace,\nPhysician of the sick and weak,\nPurify us from all sins,"
     },
     {
@@ -32,23 +32,23 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "يا مَنْ قَبَل عنا الآلام،,\nوصُلب بين لصين حرامية،,\nاُذكرنا في يوم الزِحام،,\nوهِبنا ملكوتك الأبدية.,",
-      "English": "O who accepted suffering for us,\nAnd was crucified between two thieves,\nRemember us on Judgment Day,\nGrant us Your heavenly kingdom.,"
+      "Arabic": "يا مَنْ قَبَل عنا الآلام،,\nوصُلب بين لصين حرامية،,\nاُذكرنا في يوم الزِحام،,\nوهِبنا ملكوتك الأبدية.",
+      "English": "O who accepted suffering for us,\nAnd was crucified between two thieves,\nRemember us on Judgment Day,\nGrant us Your heavenly kingdom."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "البابا بطركنا عمود الدين،,\nوالأساقفة والكهنة أجمعين،,\nوالبنين والأخوة والوالدين،,\nومرضى البيعة إشفيهم.,",
-      "English": "Our father the patriarch, the pillar of faith,\nThe bishops and all the priests,\nThe children, brethren, and parents,\nAnd heal the sick of the church .,"
+      "Arabic": "البابا بطركنا عمود الدين،,\nوالأساقفة والكهنة أجمعين،,\nوالبنين والأخوة والوالدين،,\nومرضى البيعة إشفيهم.",
+      "English": "Our father the patriarch, the pillar of faith,\nThe bishops and all the priests,\nThe children, brethren, and parents,\nAnd heal the sick of the church ."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ونسأل من ربنا يسوع،,\nأن يجعل دُعاءنا مسموع،,\nونتضرع إليه بكل خشوع،,\nلنفوز بنعيمِه السرمدية.,",
+      "Arabic": "ونسأل من ربنا يسوع،,\nأن يجعل دُعاءنا مسموع،,\nونتضرع إليه بكل خشوع،,\nلنفوز بنعيمِه السرمدية.",
       "English": "We ask of our Lord Jesus,\nTo hear our requests,\nWe supplicate Him with all awe,\nTo gain His eternal delight,"
     },
     {

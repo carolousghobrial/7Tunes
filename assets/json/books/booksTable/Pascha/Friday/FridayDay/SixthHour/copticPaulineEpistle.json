@@ -1,0 +1,16 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthPaulineCoptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDayNinthPaulineConclusionCoptic",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

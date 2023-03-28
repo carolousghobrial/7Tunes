@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "19:13-27 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 19:13-27 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمَّا سَمِعَ بِيلاَطُسُ هَذَا الْكَلامَ أَخْرَجَ يَسُوعَ وَجَلَسَ عَلَى كُرْسِيِّ الْوِلاَيَةِ فِي مَوْضِعٍ يُقَالُ لَهُ «رَصِيفُ الحِجَارةِ» وَبِالْعِبْرَانِيَّةِ «جَبَّاثَا».",
+      "Coptic": "Pilatoc de `etafcwtem `enaicaji> afenIh/c/ `ebol ouo\\ af\\emci \\ijen pibhma> =en pima `etoumou; `erof je piliqoc `trwton> mmet\\ebreoc je Gabbaqa>",
+      "English": "13 When Pilate therefore heard that saying, he brought Jesus out and sat down in the judgment seat in a place that is called The Pavement, but in Hebrew, Gabbatha.",
+      "Arabiccoptic": "بيلاطوس ذى إيطاف سوتيم إناى ساجى. إفين إيسوس إيفول أووه أفهيمسى هيجين بى فيما. خين بيما إيطو موتى إيروف جى بيليثوس إتروطون. إم ميت هيبريؤس جى جاباثا.",
+      "Englishcoptic": "Pilatos ze etav sotem enai saji. ef-in Isos evol owoh afhemsy hijen pifima. khen pima eto moty erof je pelithos etroton. emmet Hebre-os je Gabatha."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَت جُمعَةُ الْفِصْحِ وَكَان نَحْوُ السَّاعَةِ السَّادِسَةِ. فَقَالَ بِيلاَطُسُ لِلْيَهُودِ: «هُوَذَا مَلِكُكُمْ».",
+      "Coptic": "Ne`tpareckeuh ete `mpipacxa > ne vnau de `najp coou pe > ouo\\ nafjw `mmoc `nje Pilatoc `nniIoudai je \\hppe ic petenouro >",
+      "English": "14 Now it was the Preparation Day of the Passover, and about the sixth hour. And he said to the Jews, “Behold your King!”",
+      "Arabiccoptic": "نى إت باريسكيفى إيتى إمبى باصخا. نى إفناف ذى إن أجب سوو بى. أووه نافجو إمموس إنجى بيلاطوس إن نى يوذاى جى هيبى يس بيتين أورو.",
+      "Englishcoptic": "Ni et pareskivy ete empi Bascha. ni efnav ze en agp soo pe. owoh nafgo emmos enje Pilatos enni Youzai je Heppe yes biten oro."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَصَرَخُوا: «إرفَعهُ! إرفَعهُ اصْلِبْهُ!» فَقَالَ لَهُمْ بِيلاَطُسُ: «أَأَصْلِبُ مَلِكَكُمْ؟» أَجَابَ رُؤَسَاءُ الْكَهَنَةِ: «لَيْسَ لَنَا مَلِكٌ إِلاَّ قَيْصَرُ».",
+      "Coptic": "` Nqwou de auw] ebol je `alitf  `alitf a]f > peje Pilatoc nwou je `ntae] petenouro> au`erou`w `nje niarxh`ereuc je `mmon tenouro `mmau `ebhl `eKecar",
+      "English": "15 But they cried out, “Away with Him, away with Him! Crucify Him!” Pilate said to them, “Shall I crucify your King?” The chief priests answered, “We have no king but Caesar!”",
+      "Arabiccoptic": "إنثوؤ ذى أفؤش إيفول جى أليتف أليتف أشف. بيجى بيلاطوس نوؤ جى إنطا أش بيتين أورو. أف إروأو إنجى نى أرشى إيرفس جى إممون تين أورو إمماف إيفيل إكيصار.",
+      "Englishcoptic": "Entho-o ze af-osh evol je alitf alitf ashf. pije Pilatos no-o je enta ash biten oro. af ero-o enje ni arshy erevs je emmon ten oro emmav eiveel eKisar."
+    }
+  ]
+}

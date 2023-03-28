@@ -2,28 +2,5 @@
     "RefrainAfter": 0,
     "ArabicTitle": "الختام",
     "EnglishTitle": "Conclusion ",
-    "Hymn": [
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "خلصنا وإرحمنا.\"",
-            "Coptic": "Cw; `mmon ouo\\ nai nan.",
-            "English": "Save us and have mercy upon us.\"",
-            "Arabiccoptic": "سوتي إممون اووه ناي نان",
-            "Englishcoptic": "Soty emmon owoh nay nan."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "South",
-            "Arabic": "يا رب إرحم، يا رب إرحم، يا رب بارك آمين. باركوا عليَّ، باركوا عليَّ، ها مطانية، إغفروا لي، قُل البركة.",
-            "Coptic": "Kurie `ele`hcon> Kurie `ele`hcon> Kurie euloghcon `amhn. `Cmou `eroi> `cmou `eroi> ic ;metanoia> xw nhi `ebol> jw `mpi`cmou.",
-            "English": "Lord have mercy, Lord have mercy, Lord bless amen. Bless me, bless me, behold the repentance, forgive me, say the blessing.",
-            "Arabiccoptic": ": كيري إليصون كيري إليصون : كيري إفلوجيسون امين : إسمو إيروي إسمو إيروي : إس تي ميطانيا كوني إيفول جو إمبي إسمو  .",
-            "Englishcoptic": "Kyrie eleyson , Kyrie eleyson, Kyrie evlogeeson amen : esmo eroy , esmo eroy , estee metanya : konee evol go empee-esmo."
-        }
-    ]
+    "Hymn": []
 }

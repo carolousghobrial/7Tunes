@@ -545,6 +545,13 @@ const notPalmSunday = (motherSource, path) => {
 const CreedHolyWeek = (motherSource, path) => {
   return motherSource === "ThursdayDayFirstHourMain" ? false : true;
 };
+const isTwelfthHourGoodFriday = (motherSource, path) => {
+  console.log("HERE");
+  return motherSource === "FridayDayTwelfthHourMain" ? true : false;
+};
+const isNOTTwelfthHourGoodFriday = (motherSource, path) => {
+  return motherSource === "FridayDayTwelfthHourMain" ? false : true;
+};
 const hide = (motherSource, path) => {
   return true;
 };
@@ -585,5 +592,7 @@ const VisibleRules = {
   notPalmSunday: notPalmSunday,
   isCovenantThursday: isCovenantThursday,
   CreedHolyWeek: CreedHolyWeek,
+  isTwelfthHourGoodFriday: isTwelfthHourGoodFriday,
+  isNOTTwelfthHourGoodFriday: isNOTTwelfthHourGoodFriday,
 };
 export default VisibleRules;

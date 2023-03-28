@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "27:27-45  الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 27:27-45 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حينئذٍ أَخَذَ جُندُ الْوَالِي يَسُوعَ وَأدخَلُوه إِلَى الإيوانَ وَجَمَعُوا عَلَيْهِ كُلَّ الْكَتِيبَةِ",
+      "Coptic": "Tote nimatoi `nte pi\\ugemwn au`wli `nIh/c/ `e=oun` epi`pretwrion> ouo\\ auqwou; `e;`cphra thrc` e`\\rh ejwf",
+      "English": "27 Then the soldiers of the governor took Jesus into the Praetorium and gathered the whole garrison around Him.",
+      "Arabiccoptic": "توتى نى ماطوى إنتى بى هيجيمون أف أولى إن إيسوس إيخون إبى إبريتوريون. أووه أفثؤوتى إتى إسبيرا تيرس إإهرى إيجوف.",
+      "Englishcoptic": "Tote ni matoi ente pi higemon af oly en Isos Ekhon epi epreterion. owoh aftho-oty eti espira tirs e ehrei egof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَعَرَّوْهُ وَأَلْبَسُوهُ رِدَاءً قِرْمِزِيَّاً",
+      "Coptic": "Ouo\\ etauba]f au; `nou`xlamic `nkokkoc \\iwtf>",
+      "English": "28 And they stripped Him and put a scarlet robe on Him.",
+      "Arabiccoptic": "أووه إيطاف فاشف أفتى إن أوإكلاميس إن كوكوس هيوتف.",
+      "Englishcoptic": "Owoh etaf vashf afty en o-eklamees enkoks hiotf. owoh afshont en o eklom evol khen han sory afteif ejen tef afe."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَضَفَرُوا إِكْلِيلاً مِنْ شَوْكٍ وَوَضَعُوهُ عَلَى رَأْسِهِ وَجَعَلُوا فِي يَمِينِهِ قَصَبَةً. وَكَانُوا يَجْثُونَ عَلَى رُكَبِهِم قُدَّامَهُ وَيَسْتَهْزِئُونَ بِهِ قَائِلِينَ: «ﭐلسَّلاَمُ يَامَلِكَ الْيَهُودِ!»",
+      "Coptic": "Ouo\\ au]wnt `nou`xlom `ebol=en \\ancouri authif `ejen tef`ave> ouo\\ auxw `nouka] =en tefjij `noui`nam> ouo\\ nau\\iou`i `mmwou `ejen noukeli `mpef`mqo eucwbi `mmof eujw `mmoc> je xere `pouro `nniIoudai",
+      "English": "29 When they had twisted a crown of thorns, they put it on His head, and a reed in His right hand. And they bowed the knee before Him and mocked Him, saying, “Hail, King of the Jews!”",
+      "Arabiccoptic": "أووه أفشونت إن أو إكلوم إيفول خين هان سورى أفتيف إيجين تيف آفى. أووه أفكو إن أوكاش خين تيف جيج إن أوى نام. أووه ناف هيؤوى إم موؤ إيجين نوكيلى إمبيف إمثو إف سوفى إمموف إفجو إمموس. جى شيرى إبؤرو إن نى يوذاى.",
+      "Englishcoptic": "Owoh afko en okash khen tef gig en oui-nam. owoh naf hi-oui emmo-o ejen no kily empef emtho efsofy emmof efgo emmos. je shere ep-oro enni youzai."
+    }
+  ]
+}

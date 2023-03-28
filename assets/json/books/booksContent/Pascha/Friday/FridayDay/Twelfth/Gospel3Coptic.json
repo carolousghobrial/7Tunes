@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "23:50-56 الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 23:50-56 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإِذَا رَجُلٌ اسْمُهُ يُوسُفُ وَكَانَ مُشِيراً وَرَجُلاً صَالِحاً بَارّاً -",
+      "Coptic": "Ouo\\ \\hppe ic ourwmi `epefran pe Iwchv > `eoubouleuthc pe > ourwmi `n`agaqoc ouo\\ `n`qmhi >",
+      "English": "50 Now behold, there was a man named Joseph, a council member, a good and just man.",
+      "Arabiccoptic": "أووه هيبى يس أورومى إبيفران بى يوسف. إى أوفول إفتيس بى. أورومى إن أغاثوس أووه إن إثمى.",
+      "Englishcoptic": "Owoh heppe yes o-romy epefran pe Youssef. ei o-vol eftees pe. o-romy en aghathos owoh en ethmei."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هَذَا لَمْ يَكُنْ مُوافِقاً لِرَأْيِهِمْ وَعَمَلِهِمْ وَكَانَ مِنَ الرَّامَةِ مَدِينَةِ الْيَهُودِ. وَكَانَ هُوَ أَيْضاً يَنْتَظِرُ مَلَكُوتَ اللهِ.",
+      "Coptic": "Vai `enaf;ma; an pe =en poucosni nem tou `pra[ic ne ou`ebol =en `Arimaqeac oubaki `nte niIoudai > vai `enafjou]t `ebol =ajen ;metouro `nte V;.",
+      "English": "51 He had not consented to their decision and deed. He was from Arimathea, a city of the Jews, who himself was also waiting for the kingdom of God.",
+      "Arabiccoptic": "فاى إناف تيماتى أن بى خين بوسوتشنى نيم تو إبراكسيس نى أو إيفول خين أريماثياس أوفاكى إنتى نى يوذاى. فاى إناف جوشت إيفول خاجين تى ميت أورو إنتى إفنوتى.",
+      "Englishcoptic": "Fai enaf timaty an pe khen posotchni nem to epraksis ne-o evol khen arimathias o vaky ente ni Youzay. fai enaf gosht evol khagen ti met oro ente Evnouty."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هَذَا تَقَدَّمَ إِلَى بِيلاَطُسَ وَطَلَبَ جَسَدَ يَسُوعَ",
+      "Coptic": "Vai `etaf`i \\a Pilatoc ouo\\ afer`etin `mpicwma `nte Ihc?",
+      "English": "52 This man went to Pilate and asked for the body of Jesus.",
+      "Arabiccoptic": "فاى إيطاف إى ها بيلاطوس أووه أفئير إتين إمبى صوما إنتى إيسوس.",
+      "Englishcoptic": "Fai etaf e ha Pilatos owoh af-er e-ten empi soma ente Isos."
+    }
+  ]
+}

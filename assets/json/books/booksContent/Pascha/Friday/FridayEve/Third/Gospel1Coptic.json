@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "26:30-35  الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 26:30-35 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلمَّا سَبَّحُوا خَرَجُوا إِلَى جَبَلِ الزَّيْتُونِ.",
+      "Coptic": "Ouo\\ `eetau`cmou au`i `ebol `epitwou `nte nijwit",
+      "English": "And when they had sung a hymn, they went out to the Mount of Olives.",
+      "Arabiccoptic": "أووه إ إيطاف إسمو أف إى إيفول إبى طوأو إنتى نى جويت.",
+      "Englishcoptic": "owoh etaf esmo ef e evol epi to-o ente nigoit."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُمْ يَسُوعُ: «كُلُّكُمْ تَشُكُّونَ فِيَّ فِي هذِهِ اللَّيْلَةِ، لأَنَّهُ مَكْتُوبٌ: أَنِّي أَضْرِبُ الرَّاعِيَ فَتَتَفَرَقُ غَنَمَ القَطِيعِ.",
+      "Coptic": "Tote peje Ih/c/ nwou je `nqwten throu tetennaer`ckandalizecqe `n`=rhi `n=ht =eh pai`ejwr\\> `c=hout gar je ei`e`ini `nouer=ot `ejen piman`ecwou ouo\\ eu`ejwr `ebol `nje ni`ecwou `nte pio\\i.",
+      "English": "Then Jesus said to them, \"All of you will be made to stumble because of Me this night, for it is written: 'I will strike the Shepherd, And the sheep of the flock will be scattered.'",
+      "Arabiccoptic": "توتى بيجى إيسوس نوأو جى انثوتين تيرو تيتين نا إير إسكانداليزيستى إن إخرى إنخيت خين باى إيجوره. اسخيوت غار جى إى أ إينى إن أو إيرخوت إيجين بيمان إيسوأو أووه إف إيجور إيفول إنجى نى إيسوأو إنتى بى أوهى.",
+      "Englishcoptic": "Tote pige Isos no-o je enthoten tiroteten na er eskandalizeste en ekhrei enkheet khen pai egorh. eskheiout ghar je ei a einy en-o erkhot ejen piman eso-o owoh ef egor evol enje ni eso-o ente pi ohy."
+    }
+  ]
+}

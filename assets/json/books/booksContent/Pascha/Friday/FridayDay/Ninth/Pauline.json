@@ -1,45 +1,39 @@
 {
-  "RefrainAfter": 0,
-  "ArabicTitle": "البولس: فيلبي 2:4-11",
-  "EnglishTitle": "The Pauline Epistle: Philippians 2:4-11 ",
-  "Hymn": [
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "لاَ يَنْظُرَنَّ أحدٌ إِلَى مَاهُوَ لِنَفْسِهِ، بَلْ فَليَنظُر كُلُّ وَاحِدٍ إِلَى مَا هُوَ لغَيرِهِ أَيْضاً.",
-      "Coptic": "Enpiouai piouai `mmwten `n;`\\qhf an `enh`etenouten `mmauaten qhnou alla nem na neten`erhou. Piouai piouai `mmwten",
-      "English": "Let each of you look out not only for his own interest but also for the interest of others.",
-      "Arabiccoptic": "إن بى أواى بى أواى إمموتين إنتى إهثيف أن. إنى إيتى نوتين إمماف أتين ثينو. اللا نيم نا نيتين إيريو. بى أواى بى أواى إمموتين.",
-      "Englishcoptic": "Epi-owai pi-owai emmoten enti-ehtheef an eni-et enoten emmavaten thino alla nem na ni-eten eeri. Pi-owai pi-owai emmoten"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فَلْيَكُنْ فِيكُمْ هَذَا الْفِكْرُ الَّذِي فِي الْمَسِيحِ يَسُوعَ أَيْضاً:",
-      "Coptic": "Marefmeu`i `evai `n`=rhi =en qhnou> `ete vai pe et=en Pxc? Ihc?.",
-      "English": "Let this mind be in you which was also in Christ Jesus.",
-      "Arabiccoptic": "ماريف ميفئ إفاى إن إخرى خين ثينو. إيتى فى بى إتخين بخريستوس إيسوس.",
-      "Englishcoptic": "Maref-mev-ee efai enekhri khen thino : ete fai pe, etkhen pikhristos Isos."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "الَّذِي إِذْ هُوَ فِي صُورَةِ اللهِ، لَمْ يَحْسِبْ مُسَاوَاته لِلَّهِ إختِلاسَاً. لَكِنَّهُ وَاضَعَ ذَاتَهُ، آخِذاً صُورَةَ عَبْدٍ، صَائِراً فِي شِبْهِ النَّاسِ. وَإِذْ وُجِدَ فِي الْهَيْئَةِ كَإِنْسَانٍ، وَضَعَ نَفْسَهُ وَأَطَاعَ حَتَّى الْمَوْتَ مَوْتَ الصَّلِيبِ.",
-      "English": "Who, being in the form of God, did not consider it robbery to be equal with God, but made Himself of no reputation, taking the form of a bondservant, and coming in the likeness of men. And being found in appearance as a man, He humbled Himself and became obedient to the point of death, even the death of the cross."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "لِذَلِكَ رَفَّعَهُ اللهُ أَيْضاً، وَأَعْطَاهُ اسْماً فَوْقَ كُلِّ اسْمٍ لِكَيْ تَجْثُوَ بِاسْمِ يَسُوعَ كُلُّ رُكْبَةٍ مِمَّنْ فِي السَّمَاءِ وَمَنْ عَلَى الأَرْضِ وَمَنْ تَحْتَ الأَرْضِ، وَيَعْتَرِفَ كُلُّ لِسَانٍ أَنَّ يَسُوعَ الْمَسِيحَ هُوَ رَبٌّ لِمَجْدِ اللهِ الآبِ",
-      "English": "Therefore God also has highly exalted Him and given Him the name which is above every name, that at the name of Jesus every knee should bow, of those in heaven, and of those on earth, and of those under the earth, and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
-    }
-  ]
+    "RefrainAfter": 0,
+    "ArabicTitle": "البولس: فيلبي 2:4-11",
+    "EnglishTitle": "The Pauline Epistle: Philippians 2:4-11 ",
+    "Hymn": [
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "لاَ يَنْظُرَنَّ أحدٌ إِلَى مَاهُوَ لِنَفْسِهِ، بَلْ فَليَنظُر كُلُّ وَاحِدٍ إِلَى مَا هُوَ لغَيرِهِ أَيْضاً.",
+            "English": "Let each of you look out not only for his own interest but also for the interest of others."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فَلْيَكُنْ فِيكُمْ هَذَا الْفِكْرُ الَّذِي فِي الْمَسِيحِ يَسُوعَ أَيْضاً:",
+            "English": "Let this mind be in you which was also in Christ Jesus."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "الَّذِي إِذْ هُوَ فِي صُورَةِ اللهِ، لَمْ يَحْسِبْ مُسَاوَاته لِلَّهِ إختِلاسَاً. لَكِنَّهُ وَاضَعَ ذَاتَهُ، آخِذاً صُورَةَ عَبْدٍ، صَائِراً فِي شِبْهِ النَّاسِ. وَإِذْ وُجِدَ فِي الْهَيْئَةِ كَإِنْسَانٍ، وَضَعَ نَفْسَهُ وَأَطَاعَ حَتَّى الْمَوْتَ مَوْتَ الصَّلِيبِ.",
+            "English": "Who, being in the form of God, did not consider it robbery to be equal with God, but made Himself of no reputation, taking the form of a bondservant, and coming in the likeness of men. And being found in appearance as a man, He humbled Himself and became obedient to the point of death, even the death of the cross."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "لِذَلِكَ رَفَّعَهُ اللهُ أَيْضاً، وَأَعْطَاهُ اسْماً فَوْقَ كُلِّ اسْمٍ لِكَيْ تَجْثُوَ بِاسْمِ يَسُوعَ كُلُّ رُكْبَةٍ مِمَّنْ فِي السَّمَاءِ وَمَنْ عَلَى الأَرْضِ وَمَنْ تَحْتَ الأَرْضِ، وَيَعْتَرِفَ كُلُّ لِسَانٍ أَنَّ يَسُوعَ الْمَسِيحَ هُوَ رَبٌّ لِمَجْدِ اللهِ الآبِ",
+            "English": "Therefore God also has highly exalted Him and given Him the name which is above every name, that at the name of Jesus every knee should bow, of those in heaven, and of those on earth, and of those under the earth, and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
+        }
+    ]
 }

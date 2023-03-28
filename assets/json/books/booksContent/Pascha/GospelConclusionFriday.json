@@ -6,11 +6,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "اسجدوا للأنجيل المقدس حسب معلمنا مار [*NEXT_GOSPEL_AUTHOR*] البشير",
-      "Coptic": "Ouw]t mpieuaggelion eqouab kata [*NEXT_GOSPEL_AUTHOR*] `agiou",
-      "English": "Bow down before the Holy Gospel according to Saint [*NEXT_GOSPEL_AUTHOR*]",
-      "Arabiccoptic": "اأووشت إمبيف انجيلييون إثؤواب كاطا [*NEXT_GOSPEL_AUTHOR*] اجيو",
-      "Englishcoptic": "O-osht empef-angelion ethowab kata [*NEXT_GOSPEL_AUTHOR*] ageio"
+      "Arabic": "اسجدوا للأنجيل المقدس حسب معلمنا مار [*GOSPEL_AUTHOR*] البشير",
+      "Coptic": "Ouw]t mpieuaggelion eqouab kata [*GOSPEL_AUTHOR*] `agiou",
+      "English": "Bow down before the Holy Gospel according to Saint [*GOSPEL_AUTHOR*]",
+      "Arabiccoptic": "اأووشت إمبيف انجيلييون إثؤواب كاطا [*GOSPEL_AUTHOR*] اجيو",
+      "Englishcoptic": "O-osht empef-angelion ethowab kata [*GOSPEL_AUTHOR*] ageio"
     },
     {
       "Type": "Base",

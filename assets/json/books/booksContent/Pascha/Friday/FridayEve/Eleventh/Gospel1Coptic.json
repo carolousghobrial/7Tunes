@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "26:59:75  الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 26:59:75 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأما رُؤَسَاءُ الْكَهَنَةِ و المحفل كُلُّهُ كانوا يَطْلُبُونَ شَهَادَةَ زُورٍ عَلَى يَسُوعَ لِكَيْ يَقْتُلُوهُ،",
+      "Coptic": "Niarxh`ereuc de nem piman;\\ap thrf naukw; `ncaoumetmeqre `nnouj =a Ihc? \\ina `nce=oqbef.",
+      "English": "Now the chief priests, the elders, and all the council sought false testimony against Jesus to put Him to death, but found none.",
+      "Arabiccoptic": "نى أرشى إيرفس ذى نيم بيمانتى هاب تيرف ناف كوتى إنسا أوميت ميثرى إن نوج خا إيسوس هينا إنسى خوثفيف.",
+      "Englishcoptic": "Ni arshy erevs ze nem pimanty hap tirf navkoty ensa omet methre ennog kha Isos hina ense khoth vev."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمْ يَجِدُوا. وَحَضَرَ شُهُودُ زُورٍ كَثِيرُونَ،",
+      "Coptic": "Ouo\\ `mpoujimi> `eau`i `nje oumh] `mmeqre `nnouj>",
+      "English": "Even though many false witnesses came forward, they found none.",
+      "Arabiccoptic": "أووه إمبو جيمى . إ أف إى إنجى أوميش إم ميثرى إن نوج.",
+      "Englishcoptic": "owoh empo gimy. e av-e enje o meesh em methre en nog."
+    }
+  ]
+}

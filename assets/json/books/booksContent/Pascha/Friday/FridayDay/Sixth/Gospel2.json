@@ -4,59 +4,44 @@
   "EnglishTitle": "The Gospel according to St.Mark 15:26-33 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَكَانَ عُنْوَانُ عِلَّتِهِ مَكْتُوباً «مَلِكُ الْيَهُودِ».",
-      "Coptic": "Ouo\\ ;`epi`gravh `nte tef`eti`a nac `c=hout pe je` pouro `nte niIoudai>",
-      "English": "26 And the inscription of His accusation was written above: THE KING OF THE JEWS.",
-      "Arabiccoptic": "أووه تى إبى إغرافى إنتى تيف إتى أ ناس إسخيوت بى جى إبؤرو إنتى نى يوذاى.",
-      "Englishcoptic": "Owoh ti epi eghrave ente tef eti a nas eskheiot pije ep-oro ente ni Youzai."
+      "English": "26 And the inscription of His accusation was written above: THE KING OF THE JEWS."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَصَلَبُوا مَعَهُ لِصَّيْنِ وَاحِداً عَنْ يَمِينِهِ وَالآخَرَ عَنْ يَسَارِهِ.",
-      "Coptic": "Ouo\\ aua] keconi `cnau nemaf> ouai catefou`inam nem ouai catefjash>",
-      "English": "27 With Him they also crucified two robbers, one on His right and the other on His left.",
-      "Arabiccoptic": "أووه أف أش كى سونى إسناف نيماف.",
-      "Englishcoptic": "Owoh af ash ke sny esnaf nemaf."
+      "English": "27 With Him they also crucified two robbers, one on His right and the other on His left."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "فَتَمَّت الْكِتَابةُ الْقَائِلةُ: «وَأُحْصِيَ مَعَ الأَثَمَةِ».",
-      "Coptic": "Ouo\\ acjwk `ebol `nje ;`gravh je auopf nem ni`anomoc>",
-      "English": "28 So the Scripture was fulfilled which says, “And He was numbered with the transgressors.”",
-      "Arabiccoptic": "أواى ساتيف أوِّى نام نيم أواى ساتيف جاتشى. أووه أسجوك إيفول إنجى تى إغرافى جى أف أوبف نيم نى أنوموس.",
-      "Englishcoptic": "Ouai satef oui nam nem ouai satef gatchi. owoh asgok evol enje ti eghravee je af opf nem ni anomos."
+      "English": "28 So the Scripture was fulfilled which says, “And He was numbered with the transgressors.”"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَكَانَ الْمُجْتَازُونَ بِهِ يُجَدِّفُونَ عَلَيْهِ وَ يُحرِّكُونَ رُؤُوسَهُمْ قَائِلِينَ: «يَا نَاقِضَ الْهَيْكَلِ وَبَانِيَهُ فِي ثَلاَثَةِ أَيَّامٍ!",
-      "Coptic": "Ouo\\ nh`enaucini nau je ou`a `erof > eukim `nnou`avhou`i ouo\\ eujw `mmoc> je vheqnabel piervei` ebol> ouo\\ `ntefkotf =en ]omt `n`e\\oou>",
-      "English": "29 And those who passed by blasphemed Him, wagging their heads and saying, “Aha! You who destroy the temple and build it in three days",
-      "Arabiccoptic": "أووه نى إيناف سينى ناف جى أوأ إيروف. إفكيم إن نو أفيؤوى أووه إفجو إمموس.جى فى إثنافال بى إيرفى إيفول. أووه إنتيف كوتف خين شومت إن إيهوؤ.",
-      "Englishcoptic": "Owoh ni enav siny nav je o-a erof. afkim enno afioui owoh efgo emmos. je vi ethnaval pe ervei evol. owoh entef kotf khen shomt en eho-o."
+      "English": "29 And those who passed by blasphemed Him, wagging their heads and saying, “Aha! You who destroy the temple and build it in three days"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "خَلِّصْ نَفْسَكَ وَانْزِلْ عَنِ الصَّلِيبِ!»",
-      "Coptic": "Na\\mek` eak`i  `e`=rhi `ebol\\i pi`ctauroc",
-      "English": "30 save Yourself, and come down from the cross!”",
-      "Arabiccoptic": "ناهميك إى أكئ إإخرى إيفول هى بيسطافروس.",
-      "Englishcoptic": "Nahmek ei ak-e e ekhrei evol hi pistavros."
+      "English": "30 save Yourself, and come down from the cross!”"
     },
     {
       "Type": "Melody",

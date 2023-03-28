@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "18:28-40 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 18:28-40 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَجَاءُوا بِيَسُوعَ مِنْ عِنْدِ قَيَافَا إِلَى دَاخِلِ الإِيوان وَكَانَ صُبْحٌ. فَلَمْ يَدْخُلُوا إِلَى دَارِ الْوِلاَيَةِ لِئلاَ يَتَنَجَّسُوا فَيَمتنعوا عن أكلِ الْفِصْحَ.",
+      "Coptic": "Auini oun nihcouc ebol \\aKaiava e=oun epipretwrion > ne ]wrp de pe > ouo\\ nqwou mpoui e=oun epipretwrion > \\ina je nnoucwf ]atououwm mpipacxa",
+      "English": "Then they led Jesus from Caiaphas to the Praetorium, and it was early morning. But they themselves did not go into the Praetorium, lest they should be defiled, but that they might eat the Passover.",
+      "Arabiccoptic": "أف إينى أون إن إيسوس إيفول ها كايافا إيخون إبى إبريتوريون. نى شورب ذى بى. أووه إنثوؤ إمبو إى إيخون إبى إبريتوريون. هينا جى إن نوسوف شاطو أوأوم إمبى باصخا.",
+      "Englishcoptic": "Af ini on en Isos evol ha Kayafa ekhon epi epretorion. ni shorp ze pe. owoh entho-o empo ei ekhon epi epretorion. hina je en nosof shato o-om empi Baskha."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَخَرَجَ بِيلاَطُسُ إِلَيْهِمْ وَقَالَ لهم:«أَيَّةَ شِكَايَةٍ تُقَدِّمُونَها عَلَى هَذَا الرجلِ؟» أَجَابُوا وَقَالوا له: «لَوْ لَمْ يَكُنْ هَذَا فَاعِلَ شَرٍّ لَمَا أَسَلَّمْنَاهُ إِلَيْكَ!»",
+      "Coptic": "Afi oun ebol\\arwou nje Pilatoc pejaf nwou> je ou nkathgoria etetenini mmoc e\\rhi ejen pairwmi Auerouw pejwou naf > je ene vai oucampet\\wou an pe > nannathif nak an pe",
+      "English": "29 Pilate then went out to them and said, “What accusation do you bring against this Man?” 30 They answered and said to him, “If He were not an evildoer, we would not have delivered Him up to you.”",
+      "Arabiccoptic": "أفئ أون إيفول هاروأو إنجى بيلاطوس بيجاف نوؤ. جى أو إنكاتى غوريئا إ تيتين إينى إمموس إإهرى إيجين باى رومى إفئير أوأو بيجو أو ناف. جى إ نى فاى أوسام بيت هوأو آن بى. نان إن أتيف ناك آن بى.",
+      "Englishcoptic": "Af-e on evol haro-o enje Pilatos pigaf no-o. je o enkaty ghore-a teten ini emmos e ehri ejen pai romy ef-er o-o pigo onaf. je eni fai osam betho-o an pe. nan en ateif nak an pe."
+    }
+  ]
+}

@@ -4,37 +4,28 @@
   "EnglishTitle": "Exodus 12:1-14 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وَكَلَّمَ الرَّبُّ مُوسَى وَهَارُونَ فِي أَرْضِ مِصْرَ قَائِلاً:",
-      "Coptic": "Peje P_  `mMw`uchc  nem `Aarwn =en `pka\\i `nXhmi efjw `mmoc",
-      "English": "Now the Lord spoke to Moses and Aaron in the land of Egypt, saying",
-      "Arabiccoptic": "بيجى إبشويس إم مويسيس نيم أأرون خين إبكاهى إن كيمى إفجو إمموس",
-      "Englishcoptic": "Pije Epshois em Moisees nem Aaron khen epkahy en Kemy efgo emmos"
+      "English": "Now the Lord spoke to Moses and Aaron in the land of Egypt, saying"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "«أنَّ هَذَا الشَّهْرُ رَأْسَ الشُّهُورِ. فَاجعَلُوهُ أَوَّلُ شُهُورِ السَّنَةِ.",
-      "Coptic": "Je pai`abot vai `tarxh `nni`abot `nte ;rompi",
-      "English": "2 “This month shall be your beginning of months; it shall be the first month of the year to you.",
-      "Arabiccoptic": "جى باى أفوت فاى إت أرشى إن نى أفوت إنتى تى رومبى.",
-      "Englishcoptic": "Je pai avot fai et archy en ni avot ente ti rompy."
+      "English": "2 “This month shall be your beginning of months; it shall be the first month of the year to you."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "كَلِّمَا كُلَّ جَمَاعَةِ بَنى إِسْرَائِيلَ وَقُولا لَهُمْ أنَّ فِي اليَومِ الْعَاشِرِ مِنْ هَذَا الشَّهْرِ فَليَأْخُذُ كُلُّ وَاحِدٍ لَهُ خَرُوفاً بِحَسَبِ بُيُوتِ آبَائِهِم. خَرُوفاً لِكلِ بَيْتٍ.",
-      "Coptic": "Caji nem ;cunagwgh thrc `nte nen]hri `mpic/l/ > ekjw `mmoc je `n`=rhi =en cou mht `mpi`abot mare `vouai `vouai sinaf `nou`ecwou kata nen`hou `nnouio; ou`ecwou katahi.",
-      "English": "3 Speak to all the congregation of Israel, saying: ‘On the tenth of this month every man shall take for himself a lamb, according to the house of his father, a lamb for a household.",
-      "Arabiccoptic": "ساجى نيم تى سينا غوجى تيرس إنتى نين شيرى إم بيسرائيل. إكجو إمموس جى إن إخرى خين سو ميت إمبى أفوت مارى إفؤواى إفؤواى تشى ناف إن أو إيسوؤ. كاطا نين إيو إن نويوتى أو إيسوؤ كاطا إى.",
-      "Englishcoptic": "Saji nem ti-seena ghogi tirs ente nensheery em Pisraeel. ekgo emmos je en ekhrei khen so meet empi avot mare efouai efouai etchi naf en o-eso-o. kata nen eio enno iouty o-eso-o kata-e."
+      "English": "3 Speak to all the congregation of Israel, saying: ‘On the tenth of this month every man shall take for himself a lamb, according to the house of his father, a lamb for a household."
     },
     {
       "Type": "Melody",

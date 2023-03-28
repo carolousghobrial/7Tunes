@@ -1,0 +1,51 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "23:13-25 الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 23:13-25 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَدَعَا بِيلاَطُسُ رُؤَسَاءَ الْكَهَنَةِ وَالْعُظَمَاءَ وَالشَّعْبَ",
+      "Coptic": "Pilatoc de `etafmou; `Eniarxhereuc nem niarxwn nem pilaoc>",
+      "English": "13 Then Pilate, when he had called together the chief priests, the rulers, and the people",
+      "Arabiccoptic": "بيلاطوس ذى إيطاف موتى إنى أرشى إيرفس نيم نى أرخون نيم بى لاؤس.",
+      "Englishcoptic": "Pilatos ze etav moty eni arshy erevs nem ni arkhon nem pilaos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَالَ لَهُمْ: «قَدْ قَدَّمْتُمْ إِلَيَّ هَذَا الرجلَ كَمَنْ يُضِلُّ الشَّعْبَ. وَهَا أَنَا قَدْ فَحَصْتُه أمامَكُمْ وَلَمْ أَجِدْ فِيهِ عِلَّةً مِمَّا تَشْتَكُونَ بِهِ عَلَيْهِ.",
+      "Coptic": "Pejaf nwou je areten`ini nhi `mpai rwmi \\wc efvwn\\ `mpilaoc ebol> ouo\\ \\hppe anok etai]enf `e`\\raf `mpeten`mqo > `mpijem `\\li `n`etia =en pai rwmi> =en nh`etenerkathgorin erof `n=htou",
+      "English": "14 said to them, “You have brought this Man to me, as one who misleads the people. And indeed, having examined Him in your presence, I have found no fault in this Man concerning those things of which you accuse Him;",
+      "Arabiccoptic": "بيجاف نوؤ جى أريتين إينى نى إمباى رومى هوس أف فونه إمبى لاؤس إيفول. أووه هيبى أنوك إيطاى شينف إإهراف إمبى تين إمثو. إمبى جيم إهلى إن إتى أ خين باى رومى. خين نى إيتى تين إيركاتى غورين إيروف إنخيتو.",
+      "Englishcoptic": "Pigaf no-o je areten einy ni empay romy hos af fonh empi laos evol. owoh heppe anok etai shenf e ehraf empiten emtho. empi gem ehly enty-a khen pai romy. khen ni ete ten erkaty ghorin erof enkhito."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بَل وَلاَ هِيرُودُسُ أَيْضاً لأَنَّهُ قد أَرْسَلَهُ إِلَيْنَا. وَهَاهُوَّذا لمْ يصنعَ شَيئاً يَسْتَحِقُّ عَليهِ الْمَوْتَ",
+      "Coptic": "Alla oude `pke Hrwdhc afouorpf gar \\aron> ouo\\ \\hppe `mmon `\\li `n\\wb `n=htf `eaif efem`p]a `m`vmou .",
+      "English": "15 no, neither did Herod, for I sent you back to him; and indeed nothing deserving of death has been done by Him.",
+      "Arabiccoptic": "اللا أوذى إبكى إيروديس أف أوأوربف غار هارون. أووه هيبى إممون إهلى إنهوب إنخيتف إى أيف إف إمبشا إن إفمو.",
+      "Englishcoptic": "Alla oze epky Eirodees af o-orpf ghar Haron. owoh heppe emmon ehly enhop enkhitf e-aif ef em epsha en efmo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَنَا أُؤَدِّبُهُ وَأُطْلِقُهُ».",
+      "Coptic": "` Nta;`cbw ounnaf `ntaxaf ebol",
+      "English": "16 I will therefore chastise Him and release Him”",
+      "Arabiccoptic": "إنطاتى إسفو أون ناف إنطاكاف إيفول.",
+      "Englishcoptic": "Entaty esvo on naf entkaf evol."
+    }
+  ]
+}

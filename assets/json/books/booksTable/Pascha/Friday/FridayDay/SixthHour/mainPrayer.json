@@ -1,0 +1,237 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "يوم الجمعة العظيمة (الساعة السادسة )",
+            "English": " Good Friday (Sixth Hour)"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaHourIntro",
+            "Rule": "FridayDaySixthHour",
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "النبوات بالقبطي",
+            "English": "Prophecies in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "FridayDaySixthHourcopticProphecies"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "النبوات بالعربي",
+            "English": "Prophecies in English/Arabic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "FridayDaySixthHourProphecies"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaPraiseIntro",
+            "Rule": "FridayDaySixthHour",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaPraise3",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "تسبحة البصخة ( 1 )",
+            "English": "Repeat Pascha Praise ( 1 )",
+            "Rule": "ThokTeTiGomScrollUp",
+            "Visible": true,
+            "Count": 1,
+            "Path": "FridayDayFirstHourProphecies"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " ثم توقد الشموع أمام أيقونة الصلبوت ويتقدم كبير الكهنة والكهنة بعد أن يكشفوا رؤوسهم ويلبسوا البرانس ويأخذ كل منهم بيده مجمرة ويبتدئون بشركة البخور ويرفعونه أمام أيقونة الصلبوت ثلاثة أيدى وعند الإنتهاء من رفع البخور يرتل الشمامسة لحن طاى شورى",
+            "English": "The candles are lit in front of the icon of the crucifixion, and the high priest and priests come forward after they uncover their heads and put on their vestments , and take a censer with their hands, and begin to raise incense in front of the icon of the Crucifixion. Then the deacons chant the Hymn of Tai Shori (This Censer) , and after that Fai Etaf Enf (He who offered Himself)."
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthTaiShori",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthFaiEtafEnf",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTenosht",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "البولس بالقبطي",
+            "English": "Pauline Epistle in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "FridayDaySixthHourcopticPaulineEpistle"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "البولس بالعربي",
+            "English": "Pauline Epistle in English/Arabic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "FridayDaySixthHourPaulineEpistle"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "بعد قراءة البولس قبطياً و عربياً تقال قطع الساعة السادسة قبطياً و عربياَ",
+            "English": "After reading the Pauline in Coptic and Arabic, the Litanies of the 6th Hour are chanted in Coptic and English"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthLitanies",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthOmonogenees",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthAgios",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPsalmIntroCoptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaKeEperto",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": " الانجيل بالقبطي",
+            "English": "Gospel in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "FridayDaySixthHourcopticPsalmAndGospel"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور و الانجيل بالعربي",
+            "English": "Psalm and Gospel in English",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "FridayDaySixthHourPsalmAndGospel"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaExpositionIntroMorning",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaExpositionIntro",
+            "Rule": "FridayDaySixthHour",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthExposition",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaExpositionConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaMorningLitanies",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSixthHourConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaServiceConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing2",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "امانة اللص",
+            "English": "The Confession of the Thief",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "FridayDaySixthHourRightHandThief"
+        }
+    ]
+}

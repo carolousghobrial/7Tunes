@@ -4,6 +4,14 @@
   "EnglishTitle": "The Confession of the Thief ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يجلسون ويبتدئون بقراءة أمانة اللص كالآتى بالقبطى أولاً ثم باليونانى ",
+      "English": "Then they sit down and start reading the Confession of the Thief as follows, in Coptic first, then in Greek"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -68,6 +76,46 @@
       "English": "Remember me O Master, when You come into Your kingdom.",
       "Arabiccoptic": "إمنيس ثيتي مو ذيسبوطا . إنتى فاسيليا سو .",
       "Englishcoptic": "Emnis thee-ti mo Zesbota, enti vasilee-yaso."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم المرد العربى",
+      "English": "Then it is chanted in English"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أذكرنى يارب متى جئت فى ملكوتك",
+      "English": "Remember me O Lord, when You come into Your kingdom"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أذكرنى ياقدوس متى جئت فى ملكوتك",
+      "English": "Remember me O Holy One, when You come into Your kingdom"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إذكرنى ياسيد متى جئت فى ملكوتك",
+      "English": "Remember me O Master, when You come into Your kingdom"
     },
     {
       "Type": "Melody",

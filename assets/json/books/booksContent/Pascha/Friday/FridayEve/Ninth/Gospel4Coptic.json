@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "18:10-14 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 18:10-14 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ مَعَ سِمْعَانَ بُطْرُسَ سَيْفٌ، فَاسْتَلَّهُ وَضَرَبَ عَبْدَ رَئِيسِ الْكَهَنَةِ، فَقَطَعَ أُذْنَهُ الْيُمْنَى.",
+      "Coptic": "Cimwn oun Petroc ne ouon ouchfi `ntotf> afqokmec af\\iou`i `nca `vbwk `mpiarxh`ereuc> ouo\\ afjwji `mpefma]j `nou`inam `ebol>",
+      "English": "Then Simon Peter, having a sword, drew it and struck the high priest's servant, and cut off his right ear.",
+      "Arabiccoptic": "سيمون أون بيتروس نى اواون او سيفى إنطوطف. أفثوك ميس أف هيؤى إنسا أف فوك إمبى أرسى إيرفس. أووه أفجوجى إمبيف ماشج إن أوى نام إيفول.",
+      "Englishcoptic": "Simon on Petros ne o-on o sify entotf. afthok mes af hi-oui ensa efvok empi arshi erevs. owoh afgogy empef mashg en ouinam evol."
+    }
+  ]
+}

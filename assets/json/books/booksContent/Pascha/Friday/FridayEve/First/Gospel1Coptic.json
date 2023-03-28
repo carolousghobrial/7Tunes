@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "13:33-14:25 الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 13:33-14:25 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَابَنِيَّ، أَنَا مَعَكُمْ زَمَانًا يَسِيراً وَسَتَطْلُبُونَنِي، وَكَمَا قُلْتُ لِلْيَهُودِ: إنَّ المَوْضِعَ الَّذِى أمضى أَنَا إليه لاَ تَقْدِرُونَ أَنْتُمْ عَلَى المَصِيرِ، وَأَقُولُ لَكُمْ الآنَ أيضَاً.",
+      "Coptic": "Na]hri eti ke kouji `nchou ;xh nemwten> ouo\\ tetennakw; `ncwi> kata `vrh; etaijoc `nniIoudai je `vma `anok `e;na]enhi `erof `nqwten tetenna]i `erof an >",
+      "English": "33 Little children, I shall be with you a little while longer. You will seek Me; and as I said to the Jews, ‘Where I am going, you cannot come,’ so now I say to you.",
+      "Arabiccoptic": "ناشيرى اتي كى كوجى إنسيو تيكى نيموتين. أووه تيتين نا كوتى إنسوى. كاطا إفريتى إيطاى جوس اننى يوذاى جى إفما أنوك إتى ناشينى إيروف إنثوتين تيتين ناشى إيروف أن.",
+      "Englishcoptic": "Nashiry eti ke kogy ensio tiky nemoten. owoh teten na koty ensoi. kata evrity etai gos enni Youzai je efma anok eti nashiny erof enthoten teten nashi erof an."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَصِيَّةً جَدِيدَةً أَنَا أُعْطِيكُمْ: أَنْ يُحِبَّ بَعْضُكُمْ بَعْضًا. كَمَا أَحْبَبْتُكُمْ أَنَا لكي يُحِبَّ بَعْضُكُمْ بَعْضًا أَنْتُمْ أَيْضًا.",
+      "Coptic": "ouo\\ ;nou \\wten ;jw `mmoc nwten Ouentolh `mberi ;; `mmoc nwten \\ina `ntetenmenre netenerhou> kata `vrh; `etaimenre qhnou >",
+      "English": "34 A new commandment I give to you, that you love one another; as I have loved you, That you also love one another.",
+      "Arabiccoptic": "أووه تينو هوتين تى جو امموس نوتين أوإينطولى إمفيرى تى تى إمموس نوتين هينا إنتى تين مينرى نى تين ايريو. كاطا إفريتى إيطاى مينرى ثينو.",
+      "Englishcoptic": "owoh tino hoten tigo emmos noten o einotoly emvery teti emmos noten hina ente ten menre niten erio. kata evreety etai menre thino."
+    }
+  ]
+}

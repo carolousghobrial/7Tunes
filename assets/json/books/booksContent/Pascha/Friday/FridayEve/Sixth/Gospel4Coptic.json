@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "18:3-9  الإنجيل من يوحنا",
+  "EnglishTitle": "The Gospel according to St.John 18:3-9  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأنَّ يَهُوذَا أَخَذَ الْجَمْعَ وَشُرَطاً مِنْ عِنْدِ رُؤَسَاءِ الْكَهَنَةِ وَالْفَرِّيسِيِّينَ، وَجَاءَ إِلَى هُنَاكَ بِمَشَاعِلَ وَمَصَابِيحَ وَسِلاَحٍ.",
+      "Coptic": "Ioudac oun `etafsi `mpimh] nem ni\\uperethc `ebol =en niarxh`ereuc nem nivariceoc> af`i `emau nem \\anvanoc nem \\anlampac nem \\an\\oplon.",
+      "English": "Then Judas, having received a detachment of troops, and officers from the chief priests and Pharisees, came there with lanterns, torches, and weapons.",
+      "Arabiccoptic": "يوداس أون إيطاف اتشى إمبى ميش نيم نى هيبير إتيس إيفول خين نى أرشى إيرفس نيم نى فاريسيؤس. أف إى إماف نيم هان فانوس نيم هان لامباس نيم هان هوبلون.",
+      "Englishcoptic": "Youdas on etav etchi empi meesh nem ni hiper etis evol khen ni arshy erevs nem ni farise-os. af-e emav nem han fanos nem han lambas nem han hoplon."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "22:40-46 الإنجيل من لوقا",
+  "EnglishTitle": "The Gospel according to St.Luke 22:40-46 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمَّا جَاءَ إِلَى الْمَكَانِ قَالَ لَهُمْ: «صَلُّوا لِئَلاَّ لاَ تَدْخُلُوا فِي التَجَارِبِ ».",
+      "Coptic": "Etaf`i de `epima pejaf nwou> je twb\\ je `nneten;e `e=oun `epiracmoc.",
+      "English": "When He came to the place, He said to them, \"Pray that you may not enter into temptation.\"",
+      "Arabiccoptic": "إيطاف إى ذى إبيما بيجاف نوأو. جى طوبه جى إن نى تين شى إيخون إبى راسموس.",
+      "Englishcoptic": "Etav-ee ze epima pigaf no-o. Je tobh je enny tenshe ekhon epi rasmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَانْفَرَدَ عَنْهُمْ نَحْوَ رَمْيَةِ حَجَرٍ وَجَثَا عَلَى رُكْبَتَيْهِ وَصَلَّى قَائِلًا:",
+      "Coptic": "Nqof de afou`w; `ebol `mmwou nau `vouw] `n\\iou`i `nou`wni `ebol> ouo\\ `etaf\\itf `ejen nefkeli aftwb\\ efjw `mmoc.",
+      "English": "And He was withdrawn from them about a stone's throw, and He knelt down and prayed, saying",
+      "Arabiccoptic": "إنثوف ذى أف أوأوتى إيفول إموأو ناف إف أوأوش إنهى أوى إن أو أونى إيفول. أووه إيطاف هيتف إيجين نيف كيلى أف طوبه إفجو إمموس.",
+      "Englishcoptic": "Enthof ze af o-oty evol emmo-o naf ef o-osh enhy oui en o-ony evol. owoh etaf hitf epjen nef kely af tobh efgo emmos."
+    }
+  ]
+}

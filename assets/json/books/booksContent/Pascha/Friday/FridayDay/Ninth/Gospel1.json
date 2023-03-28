@@ -4,26 +4,20 @@
   "EnglishTitle": "The Gospel according to St.Matthew 27:46-50 ",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "فَلَمَّا كَانتْ السَّاعَةُ التَّاسِعَةُ صَرَخَ يَسُوعُ بِصَوْتٍ عَظِيمٍ قَائِلاً: «إِيلِي إِيلِي لَمَا شَبَقْتَنِي» (أَيْ: إِلَهِي إِلَهِي لِمَاذَا تَرَكْتَنِي؟)",
-      "Coptic": "` Eta `vnau de `najp yi; ]wpi> afw] `ebol `nje Ihc =en ouni]; `n`=rwou efjw `mmoc> je ` Elwi ` Elwi elema cabaxqani> ete vai pe ` Panou; ` Panou; eqbe ou akxat `ncwk",
-      "English": "And about the ninth hour Jesus cried out with a loud voice, saying, “Eli, Eli, lama sabachthani?” that is, “My God, My God, why have You forsaken Me?”",
-      "Arabiccoptic": "إيطا إفناف ذى إن أجب إبسيتى شوبى. أفؤش إيفول إنجى إيسوس خين أونيشتى إن إخروأو إفجو إمموس. جى إلوى إلوى إليما سافاكثانى. إيتى فاى بى بانوتى بانوتى إثفيؤ أك كات إنسوك.",
-      "Englishcoptic": "Eta efnav ze en agp epsity shopy. af-osh enje Isos khen o-nishty en ekhro-o efgo emmos. je Eloi Eloi elima savakthany. ete fai pe Panouty Panouty ethve-o ak kat ensok."
+      "English": "And about the ninth hour Jesus cried out with a loud voice, saying, “Eli, Eli, lama sabachthani?” that is, “My God, My God, why have You forsaken Me?”"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "فَقَوْمٌ مِنَ الْوَاقِفِينَ هُنَاكَ لَمَّا سَمِعُوا قَالُوا: «إِنَّهُ يُنَادِي إِيلِيَّا».",
-      "Coptic": "|an ouon de `ebol=en nhet`o\\i `eratou `mmau> `etaucwtem naujw `mmoc je afmou; oube Hliac",
-      "English": "47 Some of those who stood there, when they heard that, said, “This Man is calling for Elijah!”",
-      "Arabiccoptic": "هان أوؤن ذى إيفول خين نى إتؤهى إيراطو إمماف. إيطاف سوتيم نافجو إمموس جى أفموتى أوفى إيلياس.",
-      "Englishcoptic": "Han o-oon ze evol khen ni et-ohy erato emmav. etav sotem nafgo emmos je afmooty o-fi Eilias."
+      "English": "47 Some of those who stood there, when they heard that, said, “This Man is calling for Elijah!”"
     },
     {
       "Type": "Melody",

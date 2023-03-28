@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "15:34-37 الإنجيل من مرقس",
+  "EnglishTitle": "The Gospel according to St.Mark 15:34-37 ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَفِي وَقتِ السَّاعَةِ التَّاسِعَةِ صَرَخَ يَسُوعُ بِصَوْتٍ عَظِيمٍ قَائِلاً: «إِلُوِي إِلُوِي لَمَا شَبَقْتَنِي؟» (اَلَّذِي تَفْسِيرُهُ: إِلَهِي إِلَهِي لِمَاذَا تَرَكْتَنِي؟) فَقَالَ قَوْمٌ مِنَ الْحَاضِرِينَ لَمَّا سَمِعُوا: «أُنظُرُوا هُوَذَا يُنَادِي إِيلِيَّا».",
+      "Coptic": "Ouo\\ =en vnau najp yi; afw] ebol `nje Ih/c/ =en ouni]; `ncmh>je ` Elwi ` Elwi elema cabaxqani> ete pefouw\\em pe je Panou; Panou; eqbeou akxat ncwk. Ouo\\ \\anouon `nte nheto\\i eratou etaucwtem naujw `mmoc> je anau afmou; oube Hliac.",
+      "English": "And at the ninth hour Jesus cried out with a loud voice, saying, “Eloi, Eloi, lama sabachthani?” which is translated, “My God, My God, why have You forsaken Me?” 35 Some of those who stood by, when they heard that, said, “Look, He is calling for Elijah!”",
+      "Arabiccoptic": "أووه خين إفناف إن أجب إبسيتى أفؤش إيفول إنجى إيسوس خين أونيشتى إن إسمى. جى إلوى إلوى إليما سافاكثانى. إيتى بيف أوأوهيم بى جى بانوتى بانوتى إثفيؤ أك كات إنسوك. أووه هان أوأون إنتى نى إتؤهى إيراطو إيطاف سوتيم نافجو إمموس. جى آناف أفموتى إوفى إيلياس.",
+      "Englishcoptic": "owoh khen efnav en agp epsity af-osh evol enje Isos khen o nishty en esmy. je Eloi Eloi elima savakthany. ete pef o-o hem pe je Panouty Panouty ethve-o ak kat ensok. owoh han o-on ente ni et-ohy erato etaf sotem nafgo emmos. je a-naf avmoty ovi Eilias."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأسرَعَ وَاحِدٌ وَمَلَأَ إِسْفِنْجَةً خَلاًّ وَوَضَعَهَا عَلَى قَصَبَةٍ وَسَقَاهُ قَائِلاً: «ﭐتْرُكُوه. لِنَرَ هَلْ يَأْتِي إِيلِيَّا لِيُنْزِلَهُ!»",
+      "Coptic": "Etaf soji de `nje ouai afmo\\ `noucvoggoc `n\\emj > aftaloc `ejen ouka] af`tcof efjw `mmoc> je xaf `ntennau je ` Hliac nhou ntefenf e=rhi",
+      "English": "36 Then someone ran and filled a sponge full of sour wine, put it on a reed, and offered it to Him to drink, saying, “Let Him alone; let us see if Elijah will come to take Him down.”",
+      "Arabiccoptic": "إيطاف تشوجى ذى إنجى أواى أفموه إن أو إسفونغوس إنهيمج. أفطالوس إيجين أوكاش أف إتسوف إفجو إمموس. جى كاف إنتين ناف جى إيلياس نيو إنتيف إنف إإخرى.",
+      "Englishcoptic": "Etav etchogi ze enje ouai afmoh en-o esfonghos enhemg. aftalos ejen o-kash af etsof efgo emmos. je kaf enten naf je Eilias neo entef enf e ekhrei."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَصَرَخَ يَسُوعُ أيضاً بِصَوْتٍ عَظِيمٍ وَأَسْلَمَ الرُّوحَ.",
+      "Coptic": "Ihc? de afmou; =en ouni]; `n`cmh af; mpipn?a?>",
+      "English": "37 And Jesus cried out with a loud voice, and breathed His last.",
+      "Arabiccoptic": "إيسوس ذى أفموتى خين أونيشتى إن إسمى أفتى إمبى إبنفما.",
+      "Englishcoptic": "Isos ze afmoty khen o-nishty en esmei afty empi Ebnevma."
+    }
+  ]
+}

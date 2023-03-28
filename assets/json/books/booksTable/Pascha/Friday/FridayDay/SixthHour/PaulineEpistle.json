@@ -1,0 +1,16 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthPauline",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDayNinthPaulineConclusion",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

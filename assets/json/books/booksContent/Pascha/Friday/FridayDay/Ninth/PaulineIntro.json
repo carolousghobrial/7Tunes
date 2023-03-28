@@ -1,39 +1,39 @@
 {
-  "RefrainAfter": 0,
-  "ArabicTitle": "مقدمة البولس",
-  "EnglishTitle": "The Introduction to the Pauline Epistle",
-  "Hymn": [
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "Reader",
-      "Arabic": "القارئ:",
-      "English": "Reader:"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "من أجل قيامة الأموات الذين رقدوا وتنيحوا فى الإيمان بالمسيح.",
-      "English": "For the resurrection of the dead who have fallen asleep and reposed in the faith of Christ."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "يارب نيح نفوسهم أجمعين. بولس عبد ربنا يسوع المسيح. الرسول المدعو المفرز لبشرى الله.",
-      "English": "O Lord repose their souls. Paul, a bondservant of Jesus Christ, called to be an apostle, separated to the gospel of God."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فصل من رسالة معلمنا بولس الرسول إلى أهلِ كورنثوس الأولى، بركاته علينا. آمين.",
-      "English": "A reading from the first epistle of our teacher Saint Paul to the Corinthians, may his blessings be with us all. Amen."
-    }
-  ]
+    "RefrainAfter": 0,
+    "ArabicTitle": "مقدمة البولس",
+    "EnglishTitle": "The Introduction to the Pauline Epistle",
+    "Hymn": [
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Reader",
+            "Arabic": "القارئ:",
+            "English": "Reader:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "من أجل قيامة الأموات الذين رقدوا وتنيحوا فى الإيمان بالمسيح.",
+            "English": "For the resurrection of the dead who have fallen asleep and reposed in the faith of Christ."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "يارب نيح نفوسهم أجمعين. بولس عبد ربنا يسوع المسيح. الرسول المدعو المفرز لبشرى الله.",
+            "English": "O Lord repose their souls. Paul, a bondservant of Jesus Christ, called to be an apostle, separated to the gospel of God."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فصل من رسالة معلمنا بولس الرسول إلى أهلِ كورنثوس الأولى، بركاته علينا. آمين.",
+            "English": "A reading from the first epistle of our teacher Saint Paul to the Corinthians, may his blessings be with us all. Amen."
+        }
+    ]
 }

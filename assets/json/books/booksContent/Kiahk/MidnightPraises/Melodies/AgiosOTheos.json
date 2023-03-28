@@ -225,7 +225,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "سبحانه جَلَّ ثَنَاه,\nخفى لاعين تراه,\nولا معبود سواه,\nأمين الليلويا",
-      "English": "Blessed is the Mighty,\nUnseen and incomprehensible,\nHe is to be adored.,\nAmen Alleluia"
+      "English": "Blessed is the Mighty,\nUnseen and incomprehensible,\nHe is to be adored.\nAmen Alleluia"
     },
     {
       "Type": "Melody",
@@ -361,7 +361,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أن الرب يُنَجِّيه,\nومن الخيرات يعطيه,\nما يكفيه ويعافيه,\nأمين الليلويا",
-      "English": "For God will save him,\nAnd grant him many good things,\nTo satisfy him for many years.,\nAmen Alleluia"
+      "English": "For God will save him,\nAnd grant him many good things,\nTo satisfy him for many years.\nAmen Alleluia"
     },
     {
       "Type": "Melody",
