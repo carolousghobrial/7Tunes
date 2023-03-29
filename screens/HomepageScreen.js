@@ -7,16 +7,17 @@ import {
   Button,
   FlatList,
 } from "react-native";
-
+import { PurchaseItem } from "../helpers/InAppPurchases";
 import BookView from "../components/homepage/bookView";
 import TopBoxView from "../components/homepage/topBoxView";
 import homescreenPaths from "../helpers/homescreenPaths";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 import React, { useState } from "react";
+// import { useIAP } from "react-native-iap";
 
 function HomepageScreen({ navigation, route }) {
   const data = homescreenPaths[route.params.bookPath];
-
+  //const { connected, products, getProducts, makePurchase } = useIAP();
   const bookClick = async (item) => {
     if (item.Enabled) {
       if (item.hasSubBooks) {
@@ -33,7 +34,7 @@ function HomepageScreen({ navigation, route }) {
         });
       }
     } else {
-      //await InAppPurchases.purchaseItemAsync(item.PurchaseKeyIos);
+      //await PurchaseItem(item.PurchaseKeyIos);
     }
   };
 

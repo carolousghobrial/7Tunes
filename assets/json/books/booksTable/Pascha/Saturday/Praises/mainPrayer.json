@@ -1,0 +1,232 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "سبت النور (الساعة الأولى )",
+            "English": " Bright Saturday (First Hour)"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "عند نهاية قراءة مزامير داود النبي إلى آخر المزمور المائة والخمسون، يلبس كبير الكهنة بدلة وباقي الكهنة أيضًا، وتوُقَد الشموع.  ثم يبتدئ كبير الكهنة ويكشف رأسه,  و يُلَف سِفر المزامير في سِتْر حرير أبيض ويقرأ المزمور المائة الواحد والخمسين قبطياً وعربياً (أنا صغيرًا كنت في أخوتي)، ووجهه للشرق وهو يقول الليلويا بلحنها المعروف.",
+            "English": "At the end of the reading of the 150 Psalms , the high priest, priests and deacons put on their vestments, the candles are lit, and the veil of the sanctuary is opened. Then the high priest begins, uncovers his head, wraps the book of Psalms in white linen and recites the Psalm 151 Coptic then it is translated (I was small among my brothers), while facing the east."
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesPsalm151",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وعند نهاية تفسير المزمور، يُرَتِّل الكهنة والشمامسة بالنواقيس قائلين: لُبش الهوس الثاني: \"مارين أو أونه إيفول\"  باللحن المعروف بها، وهم طائفون البيعة إلى أن ينتهوا إلى مكان قراءة التسابيح كل بيعة كعادتها.",
+            "English": "At the end of the Psalm 151, the priests and deacons chant with the cymbals, The Second Hoos Lobsh, \"Maren-o-onh\" while proceeding around the church 3 times until they reach their usual place."
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesSecondHoosLobsh",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "القطع السابقة يرتلونها وهم طائفون البيعة إلى أن ينتهوا إلى مكان قراءة التسابيح كعادة كل بيعة ، ثم يجلس الكهنة والشمامسة بينهم الشموع موقدة على المغارس ويبدأ كبير الكهنة بقراءة تسبحة موسى النبى الأولى (الهوس الأول)",
+            "English": "The previous Hymn was recited while they proceeded around the church until they end at the secondary chorus, then the priests and deacons stand and between them, the candles are lit on a stand, and the chief priest begins to chant the First Praise of Moses the Prophet(1st Hoos)"
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesFirstHoos",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesFirstHoosLobsh",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesSecondPraiseMoses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesHannah",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesHabakuk",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesJonah",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesHezekiah",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesManasseh",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesIsaiahFirst",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesIsaiahSecond",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesIsaiahThird",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesJeremiah",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesBaruch",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesElijah",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesDavid",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesSolomon",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesDaniel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesDanielVision",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesAzarias",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesThirdHoos",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesAripsalin",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesTenen",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesAzariah",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesVirginMary",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesZacharias",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesSimeon",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " ثم تقال قصة سوسنة (حسب إختيار القارئ)",
+            "English": " Then the story of Susanna is read (up to the reader's discretion)"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayPraisesSusanna",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وبعد ذلك توقد الشموع ويرتلون بالدف (تين اويه إنسوك) بلحنها السنوى وهم طائفون البيعة ثلاث مرات إلى أن يدخلوا الخورس",
+            "English": "Then the candles are lit and the Hymn Tenoweh Ensok (We follow you with our Hearts) is chanted with the cymbals, in its standard tune, while they proceed around the church three times until they enter the Chorus."
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesTenoweh",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

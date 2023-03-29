@@ -60,8 +60,6 @@ function BookScreen({ navigation, route }) {
 
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
     if (viewableItems.length > 0) {
-      // console.log("INDEX " + viewableItems[0].index);
-
       setIndex(viewableItems[0].index);
       sehowMcuhToScroll(viewableItems.length - 1);
     }
@@ -75,8 +73,6 @@ function BookScreen({ navigation, route }) {
     }
     setprevIndexStack(prevIndexStack.concat(scrollnewIndex)); // Add the new value to the end of the array and update the state
 
-    console.log(prevIndexStack);
-
     flatListRef.current.scrollToIndex({
       index: scrollnewIndex,
       animated: false,
@@ -88,7 +84,6 @@ function BookScreen({ navigation, route }) {
     setprevIndexStack([...prevIndexStack]); // Update state with the new array
 
     var scrollnewIndex = prevIndexStack[prevIndexStack.length - 1];
-    console.log(scrollnewIndex);
     if (scrollnewIndex <= 0 || scrollnewIndex == undefined) {
       scrollnewIndex = 0;
     }
@@ -131,7 +126,6 @@ function BookScreen({ navigation, route }) {
     let content = {};
     switch (item.part.Type) {
       case "Base":
-        //console.log(item.part.Rule);
         content = <BaseView item={item.part}></BaseView>;
 
         break;

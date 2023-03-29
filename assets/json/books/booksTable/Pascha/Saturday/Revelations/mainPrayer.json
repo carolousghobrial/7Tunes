@@ -1,0 +1,186 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "سبت النور (سفر الرؤيا )",
+            "English": "Bright Saturday (Revelations)"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "توضع سبعة قناديل زيت طيب و سبع شمعات و تنار و صليب فى الوسط و سبع مجامر و يرفع البخور و يقول المرتلون لحن البركة قبطيا ",
+            "English": "Seven candles are lit on seven candle-stands , a cross in its midst, along with 7 censers. The priests raises incense while the chanters chant the Hymn of the Blessing."
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTenosht",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " ثم يبدأ الكهنة بقراءة الرؤيا قبطيا. و عند الفراغ من قراءة الرؤيا قبطيا يقول المرتلون و هم ملتفون نحو الغرب  \" إيرى بى إسمو\" ثم يرفعون البخور و يوقدون الشموع و يبدأون بقراءة الرؤيا عربيا. و تكون معهم نسخة ثانية يراجعون بها على القارئ",
+            "English": "Then the priests will start reading the Book of Revelations in Coptic. And upon completion of the reading, the chanters, facing the west, say, \"Ere pi Esmo.\" (The Hymn of St. John ). Then the priest raise incense, light candles, and begin to translate the Book of Revelations. And they will have a second copy with them that they may review for the reader"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وكلما وصل القارئ إلى ذكر لفظة بخور يرفع الكهنة البخور ",
+            "English": "Whenever the Reader mentions the word \"incense\", the priest raises the incense,"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsErePefesmo",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter1",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter2",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter3",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter4",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter5",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter6",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter7",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter1",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter8",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter9",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter10",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter11",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter12",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter13",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter14",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter15",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter16",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter17",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter18",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter19",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter20",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter21",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsChapter22",
+            "Rule": true,
+            "Visible": true
+        }
+    ]
+}

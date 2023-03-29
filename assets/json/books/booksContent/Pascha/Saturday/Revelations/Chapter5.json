@@ -74,6 +74,14 @@
       "English": "8 Now when He had taken the scroll, the four living creatures and the twenty-four elders fell down before the Lamb, each having a harp, and golden bowls full of incense, which are the prayers of the saints."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكلما وصل القارئ إلى ذكر لفظة بخور يرفع الكهنة البخور ",
+      "English": "Whenever the Reader mentions the word \"incense\", the priest raises the incense,"
+    },
+    {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,

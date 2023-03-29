@@ -1,16 +1,23 @@
 {
   "RefrainAfter": 0,
+  "ArabicTitle": " 5:3-12الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 5:3-12",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقرأ الإنجيل قبطيا نصفه بلحن الحزن و النصف الأخر بالطريقة السنوية.",
+      "English": " The Psalm and Gospel is read half in the Paschal tune and the other half in the standard tune then it is translated."
+    },
+    {
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "طوبى للمساكين بالروح فان لهم ملكوت السموات طوبى للحزانى فانهم يتعزون.",
-      "Coptic": "Wouni`atou `nni\\hki =en pip/n/a/> je `qwou te ;metouro `nte nivhoui Wouni`atou `nnh`eter\\hbi je `nqwou petouna;\\o `erwou",
-      "English": "Blessed are the poor in spirit: for theirs is the kingdom of heaven. Blessed are they that mourn: for they shall be comforted.",
-      "Arabiccoptic": "أوأونياطو إن نى هيكى خين بى إبنفما, جى إث أوأو تى تيميت أورو إنتى نيفيؤوى, أوأونياطو إن نى إت إير هيفى جى إنثوؤ بى طوناتى هو إيرأو.",
-      "Englishcoptic": "Oo-oniatoo enni-heeki khen pi-epnevma : je eth-o-oo te ti-metooro ente ni-fi-owi . Oo-oniatoo en-nee et-erheevi je enthoo petoo-natiho ero-oo"
+      "English": "Blessed are the poor in spirit: for theirs is the kingdom of heaven. Blessed are they that mourn: for they shall be comforted."
     },
     {
       "Type": "Melody",

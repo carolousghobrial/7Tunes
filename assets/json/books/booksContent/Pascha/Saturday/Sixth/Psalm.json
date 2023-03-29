@@ -1,6 +1,16 @@
 {
   "RefrainAfter": 0,
+  "ArabicTitle": "130:1; 142:7 مزمور",
+  "EnglishTitle": "Psalm 130:1; 142:7 ",
   "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقرأ النصف الأول بلحن الحزن",
+      "English": " The 1st half of the Psalm is read in the Paschal Tune"
+    },
     {
       "Type": "Base",
       "Rule": 0,
@@ -11,6 +21,14 @@
       "English": "Out of the depths have I cried to thee, O Lord. O Lord, hearken to my voice;",
       "Arabiccoptic": "إيفول خين نى إتشيك أى أوش أوفيك إبشويس, إبشويس سوتيم إيطا إسمى.",
       "Englishcoptic": "Evol khen ni etsheek ay osh o-veek Epshois, Epshois cotem eta esmy."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقرأ النصف الأخر بالطريقة السنوية",
+      "English": " The 2nd half of the Psalm is read in the Standard Tune"
     },
     {
       "Type": "Base",

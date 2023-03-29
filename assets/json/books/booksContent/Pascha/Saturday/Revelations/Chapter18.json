@@ -114,6 +114,14 @@
       "English": "13 \"and cinnamon and incense, fragrant oil and frankincense, wine and oil, fine flour and wheat, cattle and sheep, horses and chariots, and bodies and souls of men."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكلما وصل القارئ إلى ذكر لفظة بخور يرفع الكهنة البخور ",
+      "English": "Whenever the Reader mentions the word \"incense\", the priest raises the incense,"
+    },
+    {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,

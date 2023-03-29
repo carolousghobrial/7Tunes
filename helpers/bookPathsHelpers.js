@@ -552,6 +552,7 @@ const bookPaths = {
   PaschaSaturdayFirstPsalm: require("../assets/json/books/booksContent/Pascha/Saturday/First/Psalm.json"),
   //Pascha\Saturday\Ninth
   PaschaSaturdayNinthGospel1: require("../assets/json/books/booksContent/Pascha/Saturday/Ninth/Gospel1.json"),
+  PaschaSaturdayNinthGospel1Coptic: require("../assets/json/books/booksContent/Pascha/Saturday/Ninth/Gospel1Coptic.json"),
   PaschaSaturdayNinthIntro: require("../assets/json/books/booksContent/Pascha/Saturday/Ninth/Intro.json"),
   PaschaSaturdayNinthProphecies1: require("../assets/json/books/booksContent/Pascha/Saturday/Ninth/Prophecies1.json"),
   PaschaSaturdayNinthProphecies2: require("../assets/json/books/booksContent/Pascha/Saturday/Ninth/Prophecies2.json"),
@@ -609,11 +610,13 @@ const bookPaths = {
   PaschaSaturdayRevelationsHymnBlessing: require("../assets/json/books/booksContent/Pascha/Saturday/Revelations/HymnBlessing.json"),
   //Pascha\Saturday\Sixth
   PaschaSaturdaySixthGospel1: require("../assets/json/books/booksContent/Pascha/Saturday/Sixth/Gospel1.json"),
+  PaschaSaturdaySixthGospel1Coptic: require("../assets/json/books/booksContent/Pascha/Saturday/Sixth/Gospel1Coptic.json"),
   PaschaSaturdaySixthIntro: require("../assets/json/books/booksContent/Pascha/Saturday/Sixth/Intro.json"),
   PaschaSaturdaySixthProphecies1: require("../assets/json/books/booksContent/Pascha/Saturday/Sixth/Prophecies1.json"),
   PaschaSaturdaySixthPsalm: require("../assets/json/books/booksContent/Pascha/Saturday/Sixth/Psalm.json"),
   //Pascha\Saturday\Third
   PaschaSaturdayThirdGospel1: require("../assets/json/books/booksContent/Pascha/Saturday/Third/Gospel1.json"),
+  PaschaSaturdayThirdGospel1Coptic: require("../assets/json/books/booksContent/Pascha/Saturday/Third/Gospel1Coptic.json"),
   PaschaSaturdayThirdIntro: require("../assets/json/books/booksContent/Pascha/Saturday/Third/Intro.json"),
   PaschaSaturdayThirdProphecies1: require("../assets/json/books/booksContent/Pascha/Saturday/Third/Prophecies1.json"),
   PaschaSaturdayThirdPsalm: require("../assets/json/books/booksContent/Pascha/Saturday/Third/Psalm.json"),

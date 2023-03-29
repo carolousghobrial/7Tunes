@@ -1,16 +1,15 @@
 {
   "RefrainAfter": 0,
+  "ArabicTitle": " الإنجيل من يوحنا 5:21-30 ",
+  "EnglishTitle": "The Gospel according to St.John 5:21-30",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "لأَنَّهُ كَمَا أَنَّ الآبَ يُقِيمُ الأَمْوَاتَ وَيُحْيِي، كَذلِكَ الابْنُ أَيْضًا يُحْيِي مَنْ يَشَاءُ.",
-      "Coptic": "M`vrh; gar `e]are Viwt tounoc `nnirefmwout ouo\\ eftan= `mmwou> pairh; on pike]hri nh`etefou a]ou `ftan=o `mmwou>",
-      "English": "For as the Father raises the dead and gives life to them, even so the Son gives life to whom He will.",
-      "Arabiccoptic": "إم إفريتى غار إ شارى إفيوت طونوس إن نى ريف موأوت أووه إفتانخ إمموأو. باى ريتى أون بيكى شيرى نى إيتيف أو أشو إفتانخو إمموأو.",
-      "Englishcoptic": "Em evreety ghare share Efiot tonos enni ref mo-oot owoh ef tankh emo-o. paireety on pike sheery ni etev o asho eftankho emmo-o."
+      "English": "For as the Father raises the dead and gives life to them, even so the Son gives life to whom He will."
     },
     {
       "Type": "Melody",

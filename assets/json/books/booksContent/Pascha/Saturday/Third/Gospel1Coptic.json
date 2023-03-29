@@ -1,0 +1,45 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 16:24-28  الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 16:24-28  ",
+  "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقرأ النصف الأول بلحن الحزن",
+      "English": " The 1st half of the Psalm is read in the Paschal Tune"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حينئذ قال يسوع لتلاميذه: من أراد أن يتبعنى فلينكر نفسه ويحمل صليبه ويتبعنى،",
+      "Coptic": "Tote peje Ih/c/ `nnefmaqhthc> je vh`eqouw] `emo]i `ncwi marefjolf `ebol ouo\\ maref`wli `mpef`ctauroc `ntefmo]i `ncwi",
+      "English": "Then said Jesus unto his disciples, If any man will come after me, let him deny himself, and take up his cross, and follow me.",
+      "Arabiccoptic": "توتى بيجى إيسوس إن نيف ماثيتيس, جى فى إثؤأوش إيماشو إنسوى ماريف جولف إيفول أووه ماريف أولى إمبيف إسطافروس إنتيف موشى إنسوى.",
+      "Englishcoptic": "Tote pije Isos ennef mathitees. je vi eth o-osh emasho ensoy maref golf evol owoh maref oly empef estavros entef moshy ensoy."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقرأ النصف الأخر بالطريقة السنوية",
+      "English": " The 2nd half of the Psalm is read in the Standard Tune"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن من أراد أن يخلص نفسه يهلكها ومن أهلك نفسه من أجلى يجدها.",
+      "Coptic": "Vh gar eqouw] eno\\em ntefuxh efetakoc> vhde eqnatako ntefuxh eqbht efejemc.",
+      "English": "For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it.",
+      "Arabiccoptic": "في غار إثؤوش إننوهيم إنتىف إيبسييشي إف إيتاكو : في ذى إثناتاكو إنتىف إبسيشي إثفيت إف إيجيمس",
+      "Englishcoptic": "Vi ghar eth-o-osh enohem entef-epseeshy ef-etakos: vi-the ethnatako entef-epseeshy ethvet ef-ejemes"
+    }
+  ]
+}

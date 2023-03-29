@@ -1,0 +1,106 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "سبت النور (الساعة السادسة )",
+            "English": " Bright Saturday (Sixth Hour)"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdaySixthIntro",
+            "Rule": true,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "تصلى مزامير الساعة السادسة",
+            "English": "The psalms of the 6th Hour of the Agpeya are prayed"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Isaiah",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdaySixthProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "يقرأ الإنجيل قبطيا نصفه بلحن الحزن و النصف الأخر بالطريقة السنوية.",
+            "English": " The Psalm and Gospel is read half in the Paschal tune and the other half in the standard tune then it is translated."
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPsalmIntroCoptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdaySixthPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaKeEperto",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": " الانجيل بالقبطي",
+            "English": "Gospel in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "BrightSaturdaySixthHourcopticPsalmAndGospel"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور و الانجيل بالعربي",
+            "English": "Psalm and Gospel in English",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "BrightSaturdaySixthHourPsalmAndGospel"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "تصلى كيرياليسون (يا رب ارحم) 41 مرة",
+            "English": "Kerie Eleison(Lord Have Mercy) is chanted 41 times"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersHolyHoly",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

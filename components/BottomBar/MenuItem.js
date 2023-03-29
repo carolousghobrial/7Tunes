@@ -25,7 +25,6 @@ function MenuItem({ item, HighlitedIndex, scrollToKey, closeModal }) {
   if (item.key === HighlitedIndex) {
     SelectedbackgroundColor = getColor("pageBackgroundColor");
   }
-  console.log(item);
   return (
     <View
       style={[

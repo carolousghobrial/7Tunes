@@ -54,7 +54,6 @@ function ContentsModal({
   const flatListRef = useRef();
 
   useEffect(() => {
-    console.log(HighlitedIndex);
     setInitialIndex(HighlitedIndex);
   });
   return (

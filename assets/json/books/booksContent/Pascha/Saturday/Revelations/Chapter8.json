@@ -34,6 +34,14 @@
       "English": "3 Then another angel, having a golden censer, came and stood at the altar. He was given much incense, that he should offer [it] with the prayers of all the saints upon the golden altar which was before the throne."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكلما وصل القارئ إلى ذكر لفظة بخور يرفع الكهنة البخور ",
+      "English": "Whenever the Reader mentions the word \"incense\", the priest raises the incense,"
+    },
+    {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,

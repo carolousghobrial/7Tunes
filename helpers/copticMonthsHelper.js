@@ -703,7 +703,6 @@ export function getCopticDate(year, monthIndex, day) {
       break;
     }
   }
-  console.log(copticDay);
   return {
     month: copticMonth,
     monthIndex: copticMonthIndex,

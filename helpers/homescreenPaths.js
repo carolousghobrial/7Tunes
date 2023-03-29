@@ -18,7 +18,7 @@ const homescreenPaths = {
   paschathursday: require("../assets/json/menuJson/pascha/thursday.json"),
   paschafridayeve: require("../assets/json/menuJson/pascha/fridayeve.json"),
   paschafriday: require("../assets/json/menuJson/pascha/friday.json"),
-  // brightSaturday: require("../assets/json/menuJson/pascha/saturday.json"),
+  brightsaturday: require("../assets/json/menuJson/pascha/saturday.json"),
   //Table Of Contents
   morningDoxology: require("../assets/json/books/booksTable/Praises/MorningDoxology/morningDoxology"),
   standardPsalmody: require("../assets/json/books/booksTable/Praises/MidnightPraises/standardPsalmody.json"),
@@ -386,6 +386,38 @@ const homescreenPaths = {
   FridayEveEleventhHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Friday/FridayEve/EleventhHour/PsalmAndGospel.json"),
   FridayEveEleventhHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Friday/FridayEve/EleventhHour/copticProphecies.json"),
   FridayEveEleventhHourProphecies: require("../assets/json/books/booksTable/Pascha/Friday/FridayEve/EleventhHour/Prophecies.json"),
+  //BrightSaturday
+  //Praises
+  BrightSaturdayPraisesMain: require("../assets/json/books/booksTable/Pascha/Saturday/Praises/mainPrayer.json"),
+  //FirstHour
+  BrightSaturdayFirstHourMain: require("../assets/json/books/booksTable/Pascha/Saturday/FirstHour/mainPrayer.json"),
+  BrightSaturdayFirstHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/FirstHour/copticPsalmAndGospel.json"),
+  BrightSaturdayFirstHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/FirstHour/PsalmAndGospel.json"),
+  BrightSaturdayFirstHourcopticPauline: require("../assets/json/books/booksTable/Pascha/Saturday/FirstHour/copticPauline.json"),
+  BrightSaturdayFirstHourPauline: require("../assets/json/books/booksTable/Pascha/Saturday/FirstHour/Pauline.json"),
+  BrightSaturdayFirstHourProphecies: require("../assets/json/books/booksTable/Pascha/Saturday/FirstHour/Prophecies.json"),
+  //ThirdHour
+  BrightSaturdayThirdHourMain: require("../assets/json/books/booksTable/Pascha/Saturday/ThirdHour/mainPrayer.json"),
+  BrightSaturdayThirdHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/ThirdHour/copticPsalmAndGospel.json"),
+  BrightSaturdayThirdHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/ThirdHour/PsalmAndGospel.json"),
+  BrightSaturdayThirdHourProphecies: require("../assets/json/books/booksTable/Pascha/Saturday/ThirdHour/Prophecies.json"),
+  //Sixth
+  BrightSaturdaySixthHourMain: require("../assets/json/books/booksTable/Pascha/Saturday/SixthHour/mainPrayer.json"),
+  BrightSaturdaySixthHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/SixthHour/copticPsalmAndGospel.json"),
+  BrightSaturdaySixthHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/SixthHour/PsalmAndGospel.json"),
+  BrightSaturdaySixthHourProphecies: require("../assets/json/books/booksTable/Pascha/Saturday/SixthHour/Prophecies.json"),
+  //Revelations
+  BrightSaturdayRevelationsMain: require("../assets/json/books/booksTable/Pascha/Saturday/Revelations/mainPrayer.json"),
+  //NinthHour
+  BrightSaturdayNinthHourMain: require("../assets/json/books/booksTable/Pascha/Saturday/NinthHour/mainPrayer.json"),
+  BrightSaturdayNinthHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/NinthHour/copticPsalmAndGospel.json"),
+  BrightSaturdayNinthHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/NinthHour/PsalmAndGospel.json"),
+  BrightSaturdayNinthHourProphecies: require("../assets/json/books/booksTable/Pascha/Saturday/NinthHour/Prophecies.json"),
+  //Communion
+  BrightSaturdayCommunionMain: require("../assets/json/books/booksTable/Pascha/Saturday/Communion/mainPrayer.json"),
+  BrightSaturdayCommunioncopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/Communion/copticPsalmAndGospel.json"),
+  BrightSaturdayCommunionPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/Communion/PsalmAndGospel.json"),
+  BrightSaturdayCommunionProphecies: require("../assets/json/books/booksTable/Pascha/Saturday/Communion/Prophecies.json"),
 };
 
 export default homescreenPaths;

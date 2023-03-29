@@ -1,0 +1,45 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " 5:3-12الإنجيل من متى",
+  "EnglishTitle": "The Gospel according to St.Matthew 5:3-12",
+  "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقرأ النصف الأول بلحن الحزن",
+      "English": " The 1st half of the Psalm is read in the Paschal Tune"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوبى للمساكين بالروح فان لهم ملكوت السموات طوبى للحزانى فانهم يتعزون.",
+      "Coptic": "Wouni`atou `nni\\hki =en pip/n/a/> je `qwou te ;metouro `nte nivhoui Wouni`atou `nnh`eter\\hbi je `nqwou petouna;\\o `erwou",
+      "English": "Blessed are the poor in spirit: for theirs is the kingdom of heaven. Blessed are they that mourn: for they shall be comforted.",
+      "Arabiccoptic": "أوأونياطو إن نى هيكى خين بى إبنفما, جى إث أوأو تى تيميت أورو إنتى نيفيؤوى, أوأونياطو إن نى إت إير هيفى جى إنثوؤ بى طوناتى هو إيرأو.",
+      "Englishcoptic": "Oo-oniatoo enni-heeki khen pi-epnevma : je eth-o-oo te ti-metooro ente ni-fi-owi . Oo-oniatoo en-nee et-erheevi je enthoo petoo-natiho ero-oo"
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقرأ النصف الأخر بالطريقة السنوية",
+      "English": " The 2nd half of the Psalm is read in the Standard Tune"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوبى للودعاء فانهم يرثون الأرض. طوبى للجياع والعطاش ومن أجل البر فانهم يشبعون",
+      "Coptic": "Wouniatou `nniremrau]> je `nqwou peqnaer`klhronomin `mpika\\i. Wouniatou  `nnhet\\oker nem nhet`obi  `n;meqmhi> je `nqwou peqnaci",
+      "English": "Blessed are the meek: for they shall inherit the earth. Blessed are they which do hunger and thirst after righteousness: for they shall be filled.",
+      "Arabiccoptic": "أوأونياطو إن نى ريم رافش , جي إنثو أو بيثنا إير إيكليرونومين أمبي كاهي. أوأونياطو إن نى إتهوكير نيم ني إت أوفي إنتى تي ميثمي, جي إنثو أو بيثناسي",
+      "Englishcoptic": "Oo-oniatoo enni-rem-ravsh, je entho-oo pethna-er-ekleeronomin empi-kahi. Oo-oniatoo en-nee et-hoker nem ni-et-ovi enti-methmi, je entho-oo pethna-si."
+    }
+  ]
+}

@@ -27,11 +27,15 @@ import { store, persistor } from "./stores/redux/store";
 import NavigationContainerView from "./components/homepage/NavigationContainerView";
 import { useDispatch, useSelector } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
+// import Purchases, { PurchasesOffering } from "react-native-purchases";
 
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
-
-export default function App() {
+const APIKeys = {
+  apple: "appa21ba64b91",
+  google: "app4d1699d989",
+};
+function App() {
   const [appIsReady, setAppIsReady] = useState(false);
 
   useEffect(() => {
@@ -39,6 +43,12 @@ export default function App() {
       try {
         // Pre-load fonts, make any API calls you need to do here
         await useFonts();
+        // Purchases.setDebugLogsEnabled(true);
+        // if (Platform.OS == "android") {
+        //   await Purchases.configure({ apiKey: APIKeys.google });
+        // } else {
+        //   await Purchases.configure({ apiKey: APIKeys.apple });
+        // }
       } catch (e) {
         console.warn(e);
       } finally {
@@ -79,6 +89,7 @@ export default function App() {
     </SafeAreaView>
   );
 }
+export default App;
 
 const styles = StyleSheet.create({
   backgroundimage: {

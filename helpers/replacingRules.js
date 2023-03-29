@@ -345,7 +345,6 @@ export const ROICONCLUSION = (motherSource) => {
 };
 
 export const REPLACEGOSPELAUTHOR = (author) => {
-  console.log(author);
   switch (author) {
     case 1:
       return {
