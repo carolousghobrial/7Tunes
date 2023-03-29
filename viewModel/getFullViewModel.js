@@ -58,20 +58,48 @@ export function getFullViewModel(motherSource) {
             });
             key++;
             break;
-          default:
-            //Get View
-            MenuArray.push({
-              EnglishTitle: item.english,
-              CopticTitle: item.coptic,
-              ArabicTitle: item.arabic,
-              key: key,
-            });
+          case "Ritual":
             ViewArray.push({
               part: item,
               key: key,
               EnglishTitle: item.english,
               CopticTitle: item.coptic,
               ArabicTitle: item.arabic,
+            });
+            key++;
+
+            break;
+          case "MainTitle":
+            MenuArray.push({
+              EnglishTitle: item.English,
+              CopticTitle: item.Coptic,
+              ArabicTitle: item.Arabic,
+              key: key,
+            });
+            ViewArray.push({
+              part: item,
+              key: key,
+              EnglishTitle: item.English,
+              CopticTitle: item.Coptic,
+              ArabicTitle: item.Arabic,
+            });
+            key++;
+
+            break;
+          default:
+            //Get View
+            MenuArray.push({
+              EnglishTitle: item.English,
+              CopticTitle: item.Coptic,
+              ArabicTitle: item.Arabic,
+              key: key,
+            });
+            ViewArray.push({
+              part: item,
+              key: key,
+              EnglishTitle: item.English,
+              CopticTitle: item.Coptic,
+              ArabicTitle: item.Arabic,
             });
             key++;
 

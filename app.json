@@ -12,7 +12,10 @@
       "backgroundColor": "#F5F5DE"
     },
     "extra": {
-      "supportsRTL": true
+      "supportsRTL": true,
+      "eas": {
+        "projectId": "5d77844a-fb3a-45d6-8695-bc7427964624"
+      }
     },
     "plugins": [
       [
@@ -29,14 +32,23 @@
       "**/*"
     ],
     "ios": {
+      "infoPlist": {
+        "UIStatusBarHidden": true,
+        "NSInAppPurchaseUsageDescription": "YOUR APP NAME requires access to in-app purchases to make purchases."
+      },
       "supportsTablet": true,
-      "requireFullScreen": true
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.companyname.TasbehaFinal"
     },
     "android": {
+      "permissions": [
+        "com.android.vending.BILLING"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.companyname.TasbehaFinal"
     },
     "web": {
       "favicon": "./assets/favicon.png"

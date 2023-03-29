@@ -7,6 +7,7 @@ import {
   Button,
   FlatList,
 } from "react-native";
+
 import BookView from "../components/homepage/bookView";
 import TopBoxView from "../components/homepage/topBoxView";
 import homescreenPaths from "../helpers/homescreenPaths";
@@ -16,7 +17,7 @@ import React, { useState } from "react";
 function HomepageScreen({ navigation, route }) {
   const data = homescreenPaths[route.params.bookPath];
 
-  const bookClick = (item) => {
+  const bookClick = async (item) => {
     if (item.Enabled) {
       if (item.hasSubBooks) {
         navigation.push("HomepageScreen", {
@@ -31,6 +32,8 @@ function HomepageScreen({ navigation, route }) {
           arabicTitle: item.ArabicTitle,
         });
       }
+    } else {
+      //await InAppPurchases.purchaseItemAsync(item.PurchaseKeyIos);
     }
   };
 

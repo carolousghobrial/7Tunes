@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   Modal,
   View,
@@ -22,6 +22,7 @@ import GestureRecognizer, {
   swipeDirections,
 } from "react-native-swipe-gestures";
 import MenuItem from "./MenuItem";
+import MenuMainTitle from "./MenuMainTitle";
 function ContentsModal({
   visible,
   closeModal,
@@ -30,7 +31,14 @@ function ContentsModal({
   scrollToKey,
 }) {
   const { width, height } = useWindowDimensions();
-  const [initialIndex, setInitialIndex] = useState(0);
+  const [initialIndex, setInitialIndex] = useState(null);
+  const MainTitle = dataArray[0];
+  const closest = dataArray.reduce((a, b) => {
+    return Math.abs(b.key - initialKey) < Math.abs(a.key - initialKey) ? b : a;
+  });
+  const HighlitedIndex = dataArray.findIndex(
+    (item) => item.key === closest.key
+  );
   let flexDirection = "column";
   let viewheight = "50%";
   let viewwidth = "100%";
@@ -43,14 +51,11 @@ function ContentsModal({
   const wrapperStyle = {
     flexDirection: flexDirection,
   };
+  const flatListRef = useRef();
+
   useEffect(() => {
-    const closest = dataArray.reduce((a, b) => {
-      return Math.abs(b.key - initialKey) < Math.abs(a.key - initialKey)
-        ? b
-        : a;
-    });
-    var ind = dataArray.findIndex((item) => item.key === closest.key);
-    setInitialIndex(ind);
+    console.log(HighlitedIndex);
+    setInitialIndex(HighlitedIndex);
   });
   return (
     <Modal
@@ -77,16 +82,19 @@ function ContentsModal({
             backgroundColor: getColor("NavigationBarColor"),
           }}
         >
+          <MenuMainTitle item={MainTitle}></MenuMainTitle>
           <FlatList
             data={dataArray}
-            initialScrollIndex={initialIndex}
+            ref={flatListRef}
             renderItem={({ item }) => (
               <MenuItem
                 item={item}
+                highlightedIndex={HighlitedIndex}
                 scrollToKey={scrollToKey}
                 closeModal={closeModal}
               ></MenuItem>
             )}
+            initialScrollIndex={initialIndex}
           />
         </View>
       </View>

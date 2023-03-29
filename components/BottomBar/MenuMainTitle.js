@@ -3,7 +3,7 @@ import {
   Switch,
   StyleSheet,
   Text,
-  Pressable,
+  ImageBackground,
   FlatList,
 } from "react-native";
 import {
@@ -15,33 +15,23 @@ import Colors from "../../constants/colors.js";
 import { useDispatch, useSelector } from "react-redux";
 import { changeTextLanguage } from "../../stores/redux/settings.js";
 
-function MenuItem({ item, HighlitedIndex, scrollToKey, closeModal }) {
+function MenuMainTitle({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
-  var SelectedbackgroundColor = "transparent";
-  function functionCombined() {
-    scrollToKey(item.key);
-    closeModal();
-  }
-  if (item.key === HighlitedIndex) {
-    SelectedbackgroundColor = getColor("pageBackgroundColor");
-  }
-  console.log(item);
   return (
     <View
-      style={[
-        styles.container,
-        {
-          borderColor: getColor("PrimaryColor"),
-          backgroundColor: SelectedbackgroundColor,
-        },
-      ]}
+      style={{
+        borderColor: getColor("LabelColor"),
+        backgroundColor: getColor("NavigationBarColor"),
+      }}
     >
-      <Pressable onPress={functionCombined}>
+      <ImageBackground
+        source={require("../../assets/images/titleBackground.png")}
+      >
         <View style={styles.textView}>
           <Text
             style={[
               styles.english,
-              { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
+              { fontSize: fontSize * 0.9, color: getColor("LabelColor") },
             ]}
           >
             {item.EnglishTitle}
@@ -52,7 +42,7 @@ function MenuItem({ item, HighlitedIndex, scrollToKey, closeModal }) {
             <Text
               style={[
                 styles.coptic,
-                { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
+                { fontSize: fontSize * 0.9, color: getColor("LabelColor") },
               ]}
             >
               {item.CopticTitle}
@@ -63,26 +53,19 @@ function MenuItem({ item, HighlitedIndex, scrollToKey, closeModal }) {
           <Text
             style={[
               styles.arabic,
-              { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
+              { fontSize: fontSize * 0.9, color: getColor("LabelColor") },
             ]}
           >
             {item.ArabicTitle}
           </Text>
         </View>
-      </Pressable>
+      </ImageBackground>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    marginHorizontal: 10,
-    marginVertical: 5,
-    padding: 5,
-    borderWidth: 5,
-  },
   textView: {
-    flex: 1,
     margin: 2,
     justifyContent: "center",
   },
@@ -106,4 +89,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MenuItem;
+export default MenuMainTitle;
