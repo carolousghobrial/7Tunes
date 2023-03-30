@@ -1,6 +1,14 @@
 {
     "Main": [
         {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "يقرأ الإنجيل قبطيا نصفه بلحن الحزن و النصف الأخر بالطريقة السنوية.",
+            "English": " The Psalm and Gospel is read half in the Paschal tune and the other half in the standard tune then it is translated."
+        },
+        {
             "Type": "Main",
             "Path": "PaschaPsalmIntro",
             "Rule": 0,

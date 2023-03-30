@@ -159,6 +159,14 @@
       "Englishcoptic": "Oli Empek gont evol haron, jem penshiny khen pek ogai, owoh kanen novi nan evol."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": "BrightSaturday",
+      "Side": "North",
+      "Arabic": "ويقول المرتلون كيرياليصون بالحن الكبير بالناقوس، وبأيديهم الشموع موقدة والمجامر والصلبان و (الأيقونات).  ويدورون حول المذبح ثلاث مرات، ويطوفون البيعة ثلاث دفعات ويعودون إلى الخورس.",
+      "English": "Kerie Eleison(Lord Have Mercy) is chanted in the great tune while the deacons proceed with the candles and crosses around the sanctuary and the altar three times and once again around the altar once"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

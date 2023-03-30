@@ -395,7 +395,6 @@ const homescreenPaths = {
   BrightSaturdayFirstHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/FirstHour/PsalmAndGospel.json"),
   BrightSaturdayFirstHourcopticPauline: require("../assets/json/books/booksTable/Pascha/Saturday/FirstHour/copticPauline.json"),
   BrightSaturdayFirstHourPauline: require("../assets/json/books/booksTable/Pascha/Saturday/FirstHour/Pauline.json"),
-  BrightSaturdayFirstHourProphecies: require("../assets/json/books/booksTable/Pascha/Saturday/FirstHour/Prophecies.json"),
   //ThirdHour
   BrightSaturdayThirdHourMain: require("../assets/json/books/booksTable/Pascha/Saturday/ThirdHour/mainPrayer.json"),
   BrightSaturdayThirdHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/ThirdHour/copticPsalmAndGospel.json"),

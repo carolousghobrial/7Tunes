@@ -1,0 +1,16 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِذًا نَقُّوا مِنْكُمُ الْخَمِيرَةَ الْعَتِيقَةَ، لِكَيْ تَكُونُوا عَجِينًا جَدِيدًا كَمَا أَنْتُمْ فَطِيرٌ. لأَنَّ فِصْحَنَا أَيْضًا الْمَسِيحَ قَدْ ذُبحَ لأَجْلِنَا.",
+      "Coptic": "Matoube pi]emhr `napac  ebol =en qhnou> \\ina `nteten]wpi `nouw]em `mberi> kata `vrh; etetenoi `nat]emhr> ke gar penpacxa af]atf Px/c/",
+      "English": "Therefore purge out the old leaven, that you may be a new lump, since you truly are unleavened. For indeed Christ, our Passover, was sacrificed for us.",
+      "Arabiccoptic": "ماطوفو بي شيمير إن أباس إيفول خين ثينو هينا إنتى تين شوبى إن أوأوشيم إمفيرى. كاتا إيفريتي إيتي تين أوي إين اتشيمير: كي غار بي نباسخا افشاتف بيخريستوس",
+      "Englishcoptic": "Matoo-ve pi-shemeer en-apas evol khen thee-noo: hina ente-ten-shopi en-oo-oshem em-veri: kata ev-reeti ete-ten-oi en-atshe-meer: ke ghar pen-paskha af-shatf Pikhristos."
+    }
+  ]
+}

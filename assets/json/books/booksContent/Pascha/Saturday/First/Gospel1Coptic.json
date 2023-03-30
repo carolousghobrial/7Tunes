@@ -22,54 +22,6 @@
       "English": "Sir, we remember that that deceiver said, while he was yet alive, After three days I will rise again.",
       "Arabiccoptic": "جى بين نيب أن إير لإفميفئ جى أبى إبلانوس إيت تى أفجوس يسجين إف أونخ جى مينينسا شومت إن إيهوؤ تينا طونط.",
       "Englishcoptic": "Je pennieb an-er efmev-e je api eplanos etty afgos isjen ef onkh je menensa shomt en eho-o tina tont."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فمر بضبط القبر إلى اليوم الثالث",
-      "English": "Command therefore that the sepulchre be made sure until the third day"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "لئلا يأتى تلاميذه ليلاً ويسرقوه،",
-      "English": "Lest his disciples come by night, and steal him away"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "ويقولوا للشعب إنه قد قام من الأموات،",
-      "English": "And say unto the people, He is risen from the dead:"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فتكون الضلالة الأخيرة أشر علينا من الأولى.",
-      "English": "So the last error shall be worse than the first."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فقال لهم بيلاطس: عندكم حراس، فإذهبوا واضبطوه كما تعرفون.",
-      "English": "Pilate said unto them, Ye have a watch: go your way, make it as sure as ye can."
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فمضوا وضبطوا القبر وختموه مع الحراس.",
-      "English": "So they went, and made the sepulchre sure, sealing the stone, and setting a watch."
     }
   ]
 }

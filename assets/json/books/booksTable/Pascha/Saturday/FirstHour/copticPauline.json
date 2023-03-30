@@ -1,20 +1,28 @@
 {
     "Main": [
         {
-            "Type": "Main",
-            "Path": "PaschaPropheciesIntroductionCoptic",
-            "Rule": "Exodus",
-            "Visible": true
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " يقال البولس نصفه بلحن الحزن و النصف الأخر باللحن السنوى دمجا ثم يفسر عربيا",
+            "English": " The Pauline Epistle is read half in the Paschal tune and the other half in the standard tune then it is translated."
         },
         {
             "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayFirstProphecies1Coptic",
+            "Path": "PaschaFridayFridayDayNinthCopticPaulineIntro",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaPropheciesConclusion",
+            "Path": "PaschaSaturdayFirstPaulineCoptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDayNinthPaulineConclusionCoptic",
             "Rule": 0,
             "Visible": true
         }

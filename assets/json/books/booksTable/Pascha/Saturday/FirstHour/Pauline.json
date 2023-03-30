@@ -2,19 +2,19 @@
     "Main": [
         {
             "Type": "Main",
-            "Path": "PaschaPropheciesIntroduction",
-            "Rule": "Exodus",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayFirstProphecies1",
+            "Path": "PaschaFridayFridayDayNinthPaulineIntro",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaPropheciesConclusion",
+            "Path": "PaschaFridayFridayDayNinthPauline",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayFirstPauline",
             "Rule": 0,
             "Visible": true
         }

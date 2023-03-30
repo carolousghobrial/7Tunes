@@ -9,63 +9,6 @@
             "English": " Bright Saturday (First Hour)"
         },
         {
-            "Type": "Ritual",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": " يفتح باب الخورس والهيكل ثم يُبدأ بالصلاة فيقرأ رئيس (كبير) الكهنة النبوات قبطياً ثم تفسر عربياً ",
-            "English": "The Veil of the Altar is opened, and the High (Elder) Priest reads the prophecies in Coptic, then interprets them in English"
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaHourIntro",
-            "Rule": "BrightSaturdayFirstHour",
-            "Visible": true
-        },
-        {
-            "Type": "Button",
-            "Arabic": "النبوات بالقبطي",
-            "English": "Prophecies in Coptic",
-            "Rule": "OpenPage",
-            "Visible": true,
-            "Path": "BrightSaturdayFirstHourcopticProphecies"
-        },
-        {
-            "Type": "Button",
-            "Arabic": "النبوات بالعربي",
-            "English": "Prophecies in English/Arabic",
-            "Rule": "OpenPage",
-            "Visible": true,
-            "Path": "BrightSaturdayFirstHourProphecies"
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaPraiseIntro",
-            "Rule": "BrightSaturdayFirstHour",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaPraise2",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Button",
-            "Arabic": "تسبحة البصخة ( 1 )",
-            "English": "Repeat Pascha Praise ( 1 )",
-            "Rule": "ThokTeTiGomScrollUp",
-            "Visible": true,
-            "Count": 1,
-            "Path": "BrightSaturdayFirstHourProphecies"
-        },
-        {
-            "Type": "Main",
-            "Path": "AgpeyaPrayersOurFather",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
             "Type": "Main",
             "Path": "RaisingOfIncenseEleisonEmas",
             "Rule": 0,
@@ -79,7 +22,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseVersesOfCymbals",
+            "Path": "PraisesMorningDoxologyAdamMorningDoxology",
             "Rule": 0,
             "Visible": true
         },
@@ -97,17 +40,89 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseLitanyOblations",
+            "Path": "PraisesMorningDoxologyMorningDoxologyOurLord",
             "Rule": 0,
-            "Visible": "showLitanyOfOblations"
+            "Visible": true
         },
         {
-            "Type": "Ritual",
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologyMary",
             "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologyHeavenlies",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologyApostles",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologyMartyrs",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologySainsts",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyMorningDoxologyFathers",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSundayAdamConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyDeparted",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersGraciouslyOLord",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayFirstPsali",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayFirstMelody",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم السبت",
+            "English": "Saturday Theotokia",
+            "Rule": "OpenTheotokia",
             "Visible": true,
-            "Side": "North",
-            "Arabic": " وأثناءها يطوف الكاهن البيعة بالبخور بدون تقبيل ",
-            "English": "During that time, the priest goes around the church with incense without kissing the Icons"
+            "Path": "saturdayTheotokiaMenu"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyOblations",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -155,51 +170,71 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaFridayFridayDaySixthFaiEtafEnf",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Isaiah",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayFirstProphecies1",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaEkesmarot",
+            "Path": "PaschaPropheciesConclusion",
             "Rule": 0,
             "Visible": true
         },
         {
-            "Type": "Ritual",
+            "Type": "Main",
+            "Path": "PaschaHomilyIntro",
+            "Rule": "Athanasius",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayFirstHomily",
             "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaHomilyConclusion",
+            "Rule": "Athanasius",
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "البولس بالقبطي",
+            "English": "Pauline Epistle in Coptic",
+            "Rule": "OpenPage",
             "Visible": true,
-            "Side": "North",
-            "Arabic": "  ثم يقرأ الإبركسيس قبطياً حتى الجملة التى تقول \" إيتى بى أوهى إنتى بى إسنوف بى \" ويفسر عربياً حتى هذه الجملة أيضاً \" ",
-            "English": "The Acts is read in coptic untill the sentence (Ente pi-ohi ente pesnof pe) then it is translated again untill the sentence (that is the Field of Blood)"
+            "Path": "BrightSaturdayFirstHourcopticPauline"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "البولس بالعربي",
+            "English": "Pauline Epistle in English",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "BrightSaturdayFirstHourPauline"
         },
         {
             "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayFirstPraxisIntro",
+            "Path": "RaisingOfIncenseLitanyOfGospel",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayFirstPraxis",
+            "Path": "PaschaSaturdayFirstParlex",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayFirstPraxisConclusion",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayFirstJudasRebuke",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayFirstAgios",
+            "Path": "PaschaFridayFridayDaySixthAgios",
             "Rule": 0,
             "Visible": true
         },
@@ -210,6 +245,14 @@
             "Visible": true
         },
         {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "يقرأ الإنجيل قبطيا نصفه بلحن الحزن و النصف الأخر بالطريقة السنوية.",
+            "English": " The Psalm and Gospel is read half in the Paschal tune and the other half in the standard tune then it is translated."
+        },
+        {
             "Type": "Main",
             "Path": "PaschaPsalmIntroCoptic",
             "Rule": 0,
@@ -217,7 +260,7 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayFirstPsalm",
+            "Path": "PaschaSaturdayFirstPsalm",
             "Rule": 0,
             "Visible": true
         },
@@ -245,43 +288,85 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaExpositionIntroMorning",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
             "Path": "PaschaPaschaExpositionIntro",
             "Rule": "BrightSaturdayFirstHour",
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayFirstExposition",
+            "Path": "PaschaSaturdayFirstExposition",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaExpositionConclusion",
+            "Path": "PaschaSundayGeneralFuneralGospelResponse",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaMorningLitanies",
+            "Path": "RaisingOfIncenseLitanyPeace",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaConclusion",
+            "Path": "RaisingOfIncenseLitanyPope",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaServiceConclusion",
+            "Path": "RaisingOfIncenseLitanyPlace",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyAir",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyWaters",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanySeeds",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseRaiseThemToTheirMeasure",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyAssemblies",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseAbsolution",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayFirstConclusion",
             "Rule": 0,
             "Visible": true
         },
