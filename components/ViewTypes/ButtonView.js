@@ -16,7 +16,7 @@ import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect, memo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ButtonRules from "../../helpers/buttonRules";
-function ButtonView({ item, flatListRef, viewData, navigation }) {
+function ButtonView({ item, motherSource, flatListRef, viewData, navigation }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
   let flex = "row";
@@ -33,7 +33,9 @@ function ButtonView({ item, flatListRef, viewData, navigation }) {
       {itemVisible !== "hide" ? (
         <Pressable
           onPress={
-            ButtonRules(item, flatListRef, viewData, navigation)[item.Rule]
+            ButtonRules(item, motherSource, flatListRef, viewData, navigation)[
+              item.Rule
+            ]
           }
         >
           <View style={[styles.bookView, { flexDirection: flex }]}>

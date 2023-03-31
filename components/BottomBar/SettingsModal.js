@@ -21,7 +21,7 @@ import GestureRecognizer, {
   swipeDirections,
 } from "react-native-swipe-gestures";
 
-function SettingsModal({ visible, closeModal }) {
+function SettingsModal() {
   const { width, height } = useWindowDimensions();
   let flexDirection = "column";
   let viewheight = "50%";
@@ -37,38 +37,21 @@ function SettingsModal({ visible, closeModal }) {
   };
 
   return (
-    <Modal
-      animationType="slide"
-      transparent={true}
-      visible={visible}
-      supportedOrientations={[
-        "portrait",
-        "portrait-upside-down",
-        "landscape",
-        "landscape-left",
-        "landscape-right",
-      ]}
-    >
-      <View style={[styles.container, wrapperStyle]}>
-        <Pressable
-          style={{ height: viewheight, width: viewwidth }}
-          onPress={closeModal}
-        ></Pressable>
-        <View
-          style={{
-            height: viewheight,
-            width: viewwidth,
-            backgroundColor: getColor("NavigationBarColor"),
-          }}
-        >
-          <ScrollView>
-            <AppTheme></AppTheme>
-            <FontSize></FontSize>
-            <VisibleLangs></VisibleLangs>
-          </ScrollView>
-        </View>
+    <View style={[styles.container, wrapperStyle]}>
+      <View
+        style={{
+          height: "100%",
+          width: "100%",
+          backgroundColor: getColor("NavigationBarColor"),
+        }}
+      >
+        <ScrollView>
+          <AppTheme></AppTheme>
+          <FontSize></FontSize>
+          <VisibleLangs></VisibleLangs>
+        </ScrollView>
       </View>
-    </Modal>
+    </View>
   );
 }
 

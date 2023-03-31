@@ -110,7 +110,7 @@ export function getFullViewModel(motherSource) {
   });
   return [ViewArray, MenuArray];
 }
-function getMain(Path, motherSource, inHymn, rule, key) {
+export function getMain(Path, motherSource, inHymn, rule, key) {
   var thisRule = rule;
   let myMenuArray = [];
   let myViewArray = [];
@@ -147,7 +147,6 @@ function getMain(Path, motherSource, inHymn, rule, key) {
     }
   }
   var hymn = book.Hymn;
-
   hymn.forEach((part) => {
     if (
       part.Visible === true ||

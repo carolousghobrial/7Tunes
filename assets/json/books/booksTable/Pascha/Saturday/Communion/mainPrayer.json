@@ -5,57 +5,8 @@
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
-            "Arabic": "الفصول التى تتلى فى توزيع قداس خميس العهد )",
+            "Arabic": "الفصول التى تتلى فى توزيع قداس سبت النور )",
             "English": "The Readings during the Bright Saturday Distribution "
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaHourIntro",
-            "Rule": "BrightSaturdayEleventhHour",
-            "Visible": true
-        },
-        {
-            "Type": "Button",
-            "Arabic": "النبوات بالقبطي",
-            "English": "Prophecies in Coptic",
-            "Rule": "OpenPage",
-            "Visible": true,
-            "Path": "BrightSaturdayEleventhHourcopticProphecies"
-        },
-        {
-            "Type": "Button",
-            "Arabic": "النبوات بالعربي",
-            "English": "Prophecies in English/Arabic",
-            "Rule": "OpenPage",
-            "Visible": true,
-            "Path": "BrightSaturdayEleventhHourProphecies"
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaPraiseIntro",
-            "Rule": "BrightSaturdayEleventhHour",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaPraise2",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Button",
-            "Arabic": "تسبحة البصخة ( 1 )",
-            "English": "Repeat Pascha Praise ( 1 )",
-            "Rule": "ThokTeTiGomScrollUp",
-            "Visible": true,
-            "Count": 1,
-            "Path": "BrightSaturdayFirstHourProphecies"
-        },
-        {
-            "Type": "Main",
-            "Path": "AgpeyaPrayersOurFather",
-            "Rule": 0,
-            "Visible": true
         },
         {
             "Type": "Main",
@@ -65,7 +16,7 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayEleventhPsalm",
+            "Path": "PaschaSaturdayCommunionPsalm",
             "Rule": 0,
             "Visible": true
         },
@@ -93,67 +44,7 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaExpositionIntroMorning",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaExpositionIntro",
-            "Rule": "BrightSaturdayEleventhHour",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayEleventhExposition",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaExpositionConclusion",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaMorningLitanies",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaConclusion",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaServiceConclusion",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaShortBlessing",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "RaisingOfIncenseShortBlessing",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "AgpeyaPrayersOurFather",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "RaisingOfIncenseShortBlessing2",
+            "Path": "PaschaSaturdayCommunionPanotiPanoti",
             "Rule": 0,
             "Visible": true
         }

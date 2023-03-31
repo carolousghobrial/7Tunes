@@ -14,6 +14,7 @@ import * as SplashScreen from "expo-splash-screen";
 import useFonts from "../../helpers/useFonts";
 import HomepageScreen from "../../screens/HomepageScreen";
 import BookScreen from "../../screens/BookScreen";
+import ViewSingleHymn from "../../screens/ViewSingleHymn";
 import LoadingScreen from "../../screens/LoadingScreen";
 import Colors from "../../constants/colors";
 import { createDrawerNavigator } from "@react-navigation/drawer";
@@ -40,6 +41,7 @@ import moment from "moment";
 import Test from "../settings/test.js";
 import { setSeason } from "../../stores/redux/settings.js";
 import ContentsModal from "../BottomBar/ContentsModal.js";
+import SettingsModal from "../BottomBar/SettingsModal.js";
 import { FontAwesome5 } from "@expo/vector-icons";
 const Stack = createNativeStackNavigator();
 
@@ -197,7 +199,9 @@ function NavigationContainerView() {
           }}
         />
         <Stack.Screen name="BookScreen" component={BookScreen} />
-        <Stack.Screen name="ContentsScreen" component={ContentsModal} />
+        <Stack.Screen name="ContentsModal" component={ContentsModal} />
+        <Stack.Screen name="SettingsModal" component={SettingsModal} />
+        <Stack.Screen name="ViewSingleHymn" component={ViewSingleHymn} />
       </Stack.Navigator>
     </NavigationContainer>
   );

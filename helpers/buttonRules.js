@@ -7,7 +7,7 @@ import {
 } from "react-native";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 
-function ButtonRules(item, flatListRef, viewData, navigation) {
+function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
   function OpenTheotokia() {
     navigation.push("BookScreen", {
       bookPath: item.Path,
@@ -54,12 +54,20 @@ function ButtonRules(item, flatListRef, viewData, navigation) {
       animated: false,
     });
   }
+  function OpenSinglePage() {
+    navigation.push("ViewSingleHymn", {
+      path: item.Path,
+      motherSource: motherSource,
+      rule: item.Rule,
+    });
+  }
   return {
     OpenTheotokia: OpenTheotokia,
     OpenDoxologies: OpenDoxologies,
     OpenPalmSundayProcession: OpenPalmSundayProcession,
     OpenPage: OpenPage,
     ThokTeTiGomScrollUp: ThokTeTiGomScrollUp,
+    OpenSinglePage: OpenSinglePage,
   };
 }
 

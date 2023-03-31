@@ -535,6 +535,7 @@ const bookPaths = {
   LentPraisesVespersPraisesMelodiesLent9: require("../assets/json/books/booksContent/LentPraises/VespersPraises/Melodies/Lent9.json"),
   //Pascha\Saturday\Communion
   PaschaSaturdayCommunionGospel1: require("../assets/json/books/booksContent/Pascha/Saturday/Communion/Gospel1.json"),
+  PaschaSaturdayCommunionGospel1Coptic: require("../assets/json/books/booksContent/Pascha/Saturday/Communion/Gospel1Coptic.json"),
   PaschaSaturdayCommunionPanotiPanoti: require("../assets/json/books/booksContent/Pascha/Saturday/Communion/PanotiPanoti.json"),
   PaschaSaturdayCommunionPsalm: require("../assets/json/books/booksContent/Pascha/Saturday/Communion/Psalm.json"),
   //Pascha\Saturday\First

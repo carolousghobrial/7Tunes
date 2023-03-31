@@ -550,6 +550,10 @@ const isTwelfthHourGoodFriday = (motherSource, path) => {
 const isNOTTwelfthHourGoodFriday = (motherSource, path) => {
   return motherSource === "FridayDayTwelfthHourMain" ? false : true;
 };
+const BrightSaturday = (motherSource, path) => {
+  console.log("ASDAD");
+  return motherSource.toLowerCase().includes("brightsaturday") ? true : false;
+};
 const hide = (motherSource, path) => {
   return true;
 };
@@ -592,5 +596,6 @@ const VisibleRules = {
   CreedHolyWeek: CreedHolyWeek,
   isTwelfthHourGoodFriday: isTwelfthHourGoodFriday,
   isNOTTwelfthHourGoodFriday: isNOTTwelfthHourGoodFriday,
+  BrightSaturday: BrightSaturday,
 };
 export default VisibleRules;

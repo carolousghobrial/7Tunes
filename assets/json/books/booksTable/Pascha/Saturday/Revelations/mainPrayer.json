@@ -31,18 +31,18 @@
             "English": "Then the priests will start reading the Book of Revelations in Coptic. And upon completion of the reading, the chanters, facing the west, say, \"Ere pi Esmo.\" (The Hymn of St. John ). Then the priest raise incense, light candles, and begin to translate the Book of Revelations. And they will have a second copy with them that they may review for the reader"
         },
         {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsErePefesmo",
+            "Rule": true,
+            "Visible": true
+        },
+        {
             "Type": "Ritual",
             "Rule": 0,
             "Visible": true,
             "Side": "North",
             "Arabic": "وكلما وصل القارئ إلى ذكر لفظة بخور يرفع الكهنة البخور ",
             "English": "Whenever the Reader mentions the word \"incense\", the priest raises the incense,"
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaSaturdayRevelationsErePefesmo",
-            "Rule": true,
-            "Visible": true
         },
         {
             "Type": "Main",
@@ -83,12 +83,6 @@
         {
             "Type": "Main",
             "Path": "PaschaSaturdayRevelationsChapter7",
-            "Rule": true,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaSaturdayRevelationsChapter1",
             "Rule": true,
             "Visible": true
         },

@@ -398,7 +398,7 @@ export const REPLACPASCHAHOURDAY = (paschaHourDay) => {
     case "MondayEveFirstHour":
       return {
         english: "First Hour of the eve of Monday",
-        arabic: " الساعة الأولى من ليلة الأثنين ",
+        arabic: " باكر ليلة الأثنين ",
       };
     case "MondayEveThirdHour":
       return {
@@ -425,7 +425,7 @@ export const REPLACPASCHAHOURDAY = (paschaHourDay) => {
     case "MondayDayFirstHour":
       return {
         english: "First Hour of Monday",
-        arabic: " الساعة الأولى من يوم الأثنين ",
+        arabic: " باكر يوم الأثنين ",
       };
     case "MondayDayThirdHour":
       return {
@@ -452,7 +452,7 @@ export const REPLACPASCHAHOURDAY = (paschaHourDay) => {
     case "TuesdayEveFirstHour":
       return {
         english: "First Hour of the eve of Tuesday",
-        arabic: " الساعة الأولى من ليلة الثلاثاء ",
+        arabic: " باكر ليلة الثلاثاء ",
       };
     case "TuesdayEveThirdHour":
       return {
@@ -479,7 +479,7 @@ export const REPLACPASCHAHOURDAY = (paschaHourDay) => {
     case "TuesdayDayFirstHour":
       return {
         english: "First Hour of Tuesday",
-        arabic: " الساعة الأولى من يوم الثلاثاء ",
+        arabic: " باكر يوم الثلاثاء ",
       };
     case "TuesdayDayThirdHour":
       return {
@@ -506,7 +506,7 @@ export const REPLACPASCHAHOURDAY = (paschaHourDay) => {
     case "WednesdayEveFirstHour":
       return {
         english: "First Hour of the eve of Wednesday",
-        arabic: " الساعة الأولى من ليلة الأربعاء ",
+        arabic: " باكر ليلة الأربعاء ",
       };
     case "WednesdayEveThirdHour":
       return {
@@ -533,7 +533,7 @@ export const REPLACPASCHAHOURDAY = (paschaHourDay) => {
     case "WednesdayDayFirstHour":
       return {
         english: "First Hour of Wednesday",
-        arabic: " الساعة الأولى من يوم الأربعاء ",
+        arabic: " باكر يوم الأربعاء ",
       };
     case "WednesdayDayThirdHour":
       return {
@@ -560,7 +560,7 @@ export const REPLACPASCHAHOURDAY = (paschaHourDay) => {
     case "ThursdayEveFirstHour":
       return {
         english: "First Hour of the eve of Covenant Thursday",
-        arabic: " الساعة الأولى من ليلة خميس العهد ",
+        arabic: " باكر ليلة خميس العهد ",
       };
     case "ThursdayEveThirdHour":
       return {
@@ -587,7 +587,7 @@ export const REPLACPASCHAHOURDAY = (paschaHourDay) => {
     case "ThursdayDayFirstHour":
       return {
         english: "First Hour of Covenant Thursday",
-        arabic: " الساعة الأولى من يوم خميس العهد ",
+        arabic: " باكر يوم خميس العهد ",
       };
     case "ThursdayDayThirdHour":
       return {
@@ -614,7 +614,7 @@ export const REPLACPASCHAHOURDAY = (paschaHourDay) => {
     case "FridayEveFirstHour":
       return {
         english: "First Hour of the eve of Good Friday",
-        arabic: " الساعة الأولى من ليلة الجمعة العظيمة ",
+        arabic: " باكر ليلة الجمعة العظيمة ",
       };
     case "FridayEveThirdHour":
       return {
@@ -641,7 +641,7 @@ export const REPLACPASCHAHOURDAY = (paschaHourDay) => {
     case "FridayDayFirstHour":
       return {
         english: "First Hour of Good Friday",
-        arabic: " الساعة الأولى من يوم الجمعة العظيمة ",
+        arabic: " باكر يوم الجمعة العظيمة ",
       };
     case "FridayDayThirdHour":
       return {
@@ -668,6 +668,11 @@ export const REPLACPASCHAHOURDAY = (paschaHourDay) => {
       return {
         english: "Twelfth Hour of Good Friday",
         arabic: " الساعة الثانية عشر من يوم الجمعة العظيمة",
+      };
+    case "BrightSaturdayFirstHour":
+      return {
+        english: "Matins of Bright Saturday",
+        arabic: " باكر يوم سبت النور",
       };
   }
 };

@@ -113,7 +113,7 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.7tunes"
+    namespace 'com.companyname.TasbehaFinal'
     defaultConfig {
         applicationId 'com.companyname.TasbehaFinal'
         minSdkVersion rootProject.ext.minSdkVersion

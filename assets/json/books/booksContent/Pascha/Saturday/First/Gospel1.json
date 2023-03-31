@@ -1,0 +1,75 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفي الغد بعد الجمعة اجتمع رؤساء الكهنة والفريسيون إلى بيلاطس قائلين:",
+      "Coptic": "Ouo\\ `epefrac; `ete menenca ;parackeuh te> auqwou; `nje ni`arxh`ereuc nem nivariceoc \\aPilatoc eujw`mmoc",
+      "English": "Now the next day, that followed the day of the preparation, the chief priests and Pharisees came together unto Pilate, Saying",
+      "Arabiccoptic": "أووه إبيف راستىإيتى مينينسا تى باراسكى فى تى. أفثوؤتى إنجى نى أرشى إيرفس نيم نى فاريسيؤس ها بيلاطوس إفجو إمموس.",
+      "Englishcoptic": "owoh E-pefrasty ete menensa ti paraskevy te> avtho-oty enje ni archi erevs nem ni fariceos ha Pilatosevgo emmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا سيد قد تذكرنا أن ذلك المضل قال منذ كان حياً إنى بعد ثلاثة أيام أقوم،",
+      "Coptic": "Je Pen aner`vmeu`i je `api`planoc etth `afjoc icjen ef`on= je menenca ]omt `n`e\\oou ;natwnt",
+      "English": "Sir, we remember that that deceiver said, while he was yet alive, After three days I will rise again.",
+      "Arabiccoptic": "جى بين نيب أن إير لإفميفئ جى أبى إبلانوس إيت تى أفجوس يسجين إف أونخ جى مينينسا شومت إن إيهوؤ تينا طونط.",
+      "Englishcoptic": "Je pennieb an-er efmev-e je api eplanos etty afgos isjen ef onkh je menensa shomt en eho-o tina tont."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فمر بضبط القبر إلى اليوم الثالث",
+      "English": "Command therefore that the sepulchre be made sure until the third day"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لئلا يأتى تلاميذه ليلاً ويسرقوه،",
+      "English": "Lest his disciples come by night, and steal him away"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويقولوا للشعب إنه قد قام من الأموات،",
+      "English": "And say unto the people, He is risen from the dead:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فتكون الضلالة الأخيرة أشر علينا من الأولى.",
+      "English": "So the last error shall be worse than the first."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فقال لهم بيلاطس: عندكم حراس، فإذهبوا واضبطوه كما تعرفون.",
+      "English": "Pilate said unto them, Ye have a watch: go your way, make it as sure as ye can."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فمضوا وضبطوا القبر وختموه مع الحراس.",
+      "English": "So they went, and made the sepulchre sure, sealing the stone, and setting a watch."
+    }
+  ]
+}

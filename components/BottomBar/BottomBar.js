@@ -12,15 +12,12 @@ import SettingsModal from "./SettingsModal";
 import ContentsModal from "./ContentsModal";
 function BottomBar({ navigation, dataArray, initialKey, scrollToKey }) {
   const [settingsModalVisible, setsettingsModalVisible] = useState(false);
-  const [contentsModalVisible, setcontentsModalVisible] = useState(false);
   let labelColor = getColor("LabelColor");
   let NavigationBarColor = getColor("NavigationBarColor");
   function closeModal() {
     setsettingsModalVisible(false);
   }
-  function closeContentsModal() {
-    setcontentsModalVisible(false);
-  }
+
   return (
     <View>
       <SettingsModal visible={settingsModalVisible} closeModal={closeModal} />

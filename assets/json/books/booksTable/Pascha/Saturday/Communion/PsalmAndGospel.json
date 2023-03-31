@@ -8,7 +8,7 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayEleventhPsalm",
+            "Path": "PaschaSaturdayCommunionPsalm",
             "Rule": 0,
             "Visible": true
         },
@@ -20,7 +20,7 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaSaturdayBrightSaturdayEleventhGospel1",
+            "Path": "PaschaSaturdayCommunionGospel1",
             "Rule": 0,
             "Visible": true
         },

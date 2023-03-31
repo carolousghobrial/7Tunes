@@ -15,12 +15,11 @@ import Colors from "../../constants/colors.js";
 import { useDispatch, useSelector } from "react-redux";
 import { changeTextLanguage } from "../../stores/redux/settings.js";
 
-function MenuItem({ item, HighlitedIndex, scrollToKey, closeModal }) {
+function MenuItem({ item, HighlitedIndex, scrollToKey }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   var SelectedbackgroundColor = "transparent";
   function functionCombined() {
     scrollToKey(item.key);
-    closeModal();
   }
   if (item.key === HighlitedIndex) {
     SelectedbackgroundColor = getColor("pageBackgroundColor");

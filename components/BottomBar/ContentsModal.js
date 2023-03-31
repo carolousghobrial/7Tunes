@@ -9,6 +9,7 @@ import {
   Pressable,
   useWindowDimensions,
 } from "react-native";
+
 import AppTheme from "../settings/appTheme";
 import FontSize from "../settings/fontSize";
 import VisibleLangs from "../settings/visibleLangs";
@@ -23,22 +24,14 @@ import GestureRecognizer, {
 } from "react-native-swipe-gestures";
 import MenuItem from "./MenuItem";
 import MenuMainTitle from "./MenuMainTitle";
-function ContentsModal({
-  visible,
-  closeModal,
-  dataArray,
-  initialKey,
-  scrollToKey,
-}) {
+function ContentsModal({ route, navigation }) {
   const { width, height } = useWindowDimensions();
   const [initialIndex, setInitialIndex] = useState(null);
-  const MainTitle = dataArray[0];
-  const closest = dataArray.reduce((a, b) => {
-    return Math.abs(b.key - initialKey) < Math.abs(a.key - initialKey) ? b : a;
-  });
-  const HighlitedIndex = dataArray.findIndex(
-    (item) => item.key === closest.key
-  );
+  const [contentsModalVisible, setcontentsModalVisible] = useState(false);
+  const MainTitle = route.params.MainTitle;
+  const { scrollToKey } = route.params;
+  const menuData = route.params.menuData;
+  const initialKey = route.params.initialKey;
   let flexDirection = "column";
   let viewheight = "50%";
   let viewwidth = "100%";
@@ -54,56 +47,38 @@ function ContentsModal({
   const flatListRef = useRef();
 
   useEffect(() => {
-    setInitialIndex(HighlitedIndex);
-  });
+    console.log(initialKey);
+    setInitialIndex(initialKey);
+  }, []);
   return (
-    <Modal
-      animationType="slide"
-      transparent={true}
-      visible={visible}
-      supportedOrientations={[
-        "portrait",
-        "portrait-upside-down",
-        "landscape",
-        "landscape-left",
-        "landscape-right",
-      ]}
-    >
-      <View style={[styles.container, wrapperStyle]}>
-        <Pressable
-          style={{ height: viewheight, width: viewwidth }}
-          onPress={closeModal}
-        ></Pressable>
-        <View
-          style={{
-            height: viewheight,
-            width: viewwidth,
-            backgroundColor: getColor("NavigationBarColor"),
-          }}
-        >
-          <MenuMainTitle item={MainTitle}></MenuMainTitle>
-          <FlatList
-            data={dataArray}
-            ref={flatListRef}
-            renderItem={({ item }) => (
-              <MenuItem
-                item={item}
-                highlightedIndex={HighlitedIndex}
-                scrollToKey={scrollToKey}
-                closeModal={closeModal}
-              ></MenuItem>
-            )}
-            initialScrollIndex={initialIndex}
-          />
-        </View>
+    <View style={[styles.container, wrapperStyle]}>
+      <View
+        style={{
+          backgroundColor: getColor("NavigationBarColor"),
+        }}
+      >
+        <MenuMainTitle item={MainTitle}></MenuMainTitle>
+        <FlatList
+          data={menuData}
+          ref={flatListRef}
+          initialNumToRender={menuData.data}
+          renderItem={({ item }) => (
+            <MenuItem
+              item={item}
+              highlightedIndex={initialKey}
+              scrollToKey={scrollToKey}
+            ></MenuItem>
+          )}
+          initialScrollIndex={initialIndex}
+        />
       </View>
-    </Modal>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    justifyContent: "space-around",
+    flex: 1,
     alignItems: "center",
   },
   transparentView: {
