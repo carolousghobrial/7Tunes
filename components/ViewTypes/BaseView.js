@@ -12,7 +12,6 @@ import {
 import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect, memo } from "react";
-import { I18nManager } from "react-native";
 
 import {
   ComeRisenRule,
@@ -23,8 +22,11 @@ import {
 
 function BaseView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
+  let flexDirection = "row";
+  if (Platform.OS == "android") {
+    flexDirection = "row-reverse";
+  }
   let textColor = "";
-  console.log(I18nManager.isRTL);
   switch (item.Side) {
     case "North":
       textColor = getColor("NorthColor");
@@ -64,7 +66,7 @@ function BaseView({ item }) {
   );
 
   return (
-    <View style={styles.bookView}>
+    <View style={[styles.bookView, { flexDirection: flexDirection }]}>
       {englishVisible ? (
         <Text
           style={[
@@ -126,14 +128,9 @@ function BaseView({ item }) {
 
 const styles = StyleSheet.create({
   bookView: {
-    flexDirection: "row-reverse",
-    borderColor: "black",
-
     width: "100%",
   },
-  eachPart: {
-    flexDirection: "row-reverse",
-  },
+
   textView: {
     flex: 1,
     margin: 5,

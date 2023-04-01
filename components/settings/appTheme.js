@@ -22,10 +22,7 @@ function AppTheme() {
   const { height, width } = useWindowDimensions();
   const darkMode = useSelector((state) => state.settings.darkMode);
   const language = useSelector((state) => state.settings.appLanguage);
-  let flexDirection = "row-reverse";
-  if (language === "ara") {
-    flexDirection = "row";
-  }
+  let flexDirection = "row";
 
   const dispatch = useDispatch();
   const toggleSwitch = () => dispatch(changeDarkMode());

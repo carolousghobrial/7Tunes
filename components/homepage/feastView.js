@@ -12,6 +12,10 @@ import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 
 function FeastView({ item, onClick }) {
   let imageSize = 75;
+  let flexDirection = "row";
+  if (Platform.OS == "android") {
+    flexDirection = "row-reverse";
+  }
   const imageStyle = {
     width: imageSize,
     height: imageSize,
@@ -21,7 +25,7 @@ function FeastView({ item, onClick }) {
   return (
     <View style={styles.container}>
       <Pressable
-        style={[styles.bookViewLandscape]}
+        style={[styles.bookViewLandscape, { flexDirection: flexDirection }]}
         android_ripple={{ color: "red" }}
         onPress={onClick.bind(this, item)}
       >
@@ -73,7 +77,6 @@ const styles = StyleSheet.create({
   },
   bookViewLandscape: {
     flex: 1,
-    flexDirection: "row-reverse",
     justifyContent: "flex-start",
     alignItems: "flex-start",
   },

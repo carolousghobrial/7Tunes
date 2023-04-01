@@ -19,7 +19,6 @@ import {
   isInFast,
   isWatos,
 } from "./helpers/copticMonthsHelper";
-import { I18nManager } from "react-native";
 
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import SettingsScreen from "./screens/SettingsScreen";
@@ -29,7 +28,6 @@ import { store, persistor } from "./stores/redux/store";
 import NavigationContainerView from "./components/homepage/NavigationContainerView";
 import { useDispatch, useSelector } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
-import Purchases, { PurchasesOffering } from "react-native-purchases";
 
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
@@ -46,12 +44,6 @@ function App() {
       try {
         // Pre-load fonts, make any API calls you need to do here
         await useFonts();
-        Purchases.setDebugLogsEnabled(true);
-        if (Platform.OS == "android") {
-          await Purchases.configure({ apiKey: APIKeys.google });
-        } else {
-          await Purchases.configure({ apiKey: APIKeys.apple });
-        }
       } catch (e) {
         console.warn(e);
       } finally {

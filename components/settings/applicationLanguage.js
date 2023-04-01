@@ -17,10 +17,11 @@ function ApplicationLanguage() {
   const { width, height } = useWindowDimensions();
 
   let flexDirection = "column";
-  let containerflexDirection = "row-reverse";
-  if (mylanguage === "ara") {
-    containerflexDirection = "row";
+  let containerflexDirection = "row";
+  if (Platform.OS == "android" && mylanguage !== "ara") {
+    flexDirection = "row-reverse";
   }
+
   if (width > height) {
     flexDirection = "row";
   }
@@ -150,7 +151,6 @@ const styles = StyleSheet.create({
   language: {
     margin: 15,
     alignItems: "center",
-    flexDirection: "row-reverse",
   },
   wrapper: {
     justifyContent: "space-evenly",

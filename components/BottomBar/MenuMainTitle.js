@@ -21,7 +21,10 @@ import { useNavigation } from "@react-navigation/native";
 
 function MenuMainTitle({ item }) {
   const navigation = useNavigation();
-
+  let flexDirection = "row";
+  if (Platform.OS == "android") {
+    flexDirection = "row-reverse";
+  }
   const fontSize = useSelector((state) => state.settings.textFontSize);
   return (
     <View
@@ -33,7 +36,7 @@ function MenuMainTitle({ item }) {
       <ImageBackground
         source={require("../../assets/images/titleBackground.png")}
       >
-        <View style={{ marginTop: 30, flexDirection: "row-reverse" }}>
+        <View style={{ marginTop: 30, flexDirection: flexDirection }}>
           <Pressable
             style={styles.closeView}
             onPress={() => navigation.goBack()}
