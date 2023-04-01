@@ -66,7 +66,12 @@ function VisibleLangs() {
   return (
     <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
       <View style={styles.titleView}>
-        <Text style={[styles.title, { color: getColor("PrimaryColor") }]}>
+        <Text
+          style={[
+            styles.title,
+            { fontSize: fontSize * 1.3, color: getColor("PrimaryColor") },
+          ]}
+        >
           {getLanguageValue("languageselctor")}
         </Text>
         <Text style={[styles.description, { color: getColor("PrimaryColor") }]}>
@@ -113,12 +118,11 @@ const styles = StyleSheet.create({
   },
   description: {
     fontFamily: "english-font",
-    textAlign: "justify",
     color: "gray",
     fontStyle: "italic",
   },
   switchView: {
-    flexDirection: "row",
+    flexDirection: "row-reverse",
     margin: 5,
     padding: 5,
   },

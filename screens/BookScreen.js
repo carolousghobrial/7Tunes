@@ -32,6 +32,7 @@ import ButtonView from "../components/ViewTypes/ButtonView";
 import MainTitleView from "../components/ViewTypes/MainTitleView";
 import ExpanderView from "../components/ViewTypes/ExpanderView";
 import LoadingScreen from "./LoadingScreen";
+import SettingsModal from "../components/BottomBar/SettingsModal";
 import {
   getLanguageValue,
   getFontSize,
@@ -51,6 +52,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const [index, setIndex] = useState(0);
   const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
   const [scrollToIndex, setscrollToIndex] = useState(0);
+  const [settingsModalVisible, setsettingsModalVisible] = useState(false);
 
   const values = getFullViewModel(route.params.bookPath);
   const memoizedData = useMemo(() => values[0], [values[0]]);
@@ -140,7 +142,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
     }, 100);
   }, []);
   const settingsPressed = () => {
-    navigation.navigate("SettingsModal");
+    setsettingsModalVisible(true);
   };
   const contentsPressed = () => {
     // handle button press here
@@ -158,7 +160,9 @@ const BookScreen = React.memo(({ navigation, route }) => {
       scrollToKey,
     });
   };
-
+  function closeModal() {
+    setsettingsModalVisible(false);
+  }
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerRight: () => (
@@ -204,22 +208,28 @@ const BookScreen = React.memo(({ navigation, route }) => {
     return <LoadingScreen />;
   }
   return (
-    <View style={[styles.container, { backgroundColor: pageBackgroundColor }]}>
-      <FlatList
-        ref={flatListRef}
-        onViewableItemsChanged={onViewableItemsChanged}
-        showsVerticalScrollIndicator={false}
-        data={memoizedData}
-        onScrollToIndexFailed={onScrollToIndexFailed}
-        // initialNumToRender={memoizedData.length}
-        // initialScrollIndex={scrollToIndex}
-        removeClippedSubviews={true}
-        renderItem={renderItems}
-        keyExtractor={(item) => {
-          return item.key;
-        }}
-      />
-    </View>
+    <>
+      <SettingsModal visible={settingsModalVisible} closeModal={closeModal} />
+
+      <View
+        style={[styles.container, { backgroundColor: pageBackgroundColor }]}
+      >
+        <FlatList
+          ref={flatListRef}
+          onViewableItemsChanged={onViewableItemsChanged}
+          showsVerticalScrollIndicator={false}
+          data={memoizedData}
+          onScrollToIndexFailed={onScrollToIndexFailed}
+          initialNumToRender={memoizedData.length}
+          // initialScrollIndex={scrollToIndex}
+          removeClippedSubviews={true}
+          renderItem={renderItems}
+          keyExtractor={(item) => {
+            return item.key;
+          }}
+        />
+      </View>
+    </>
   );
 });
 

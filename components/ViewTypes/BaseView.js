@@ -12,6 +12,8 @@ import {
 import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect, memo } from "react";
+import { I18nManager } from "react-native";
+
 import {
   ComeRisenRule,
   ROICONCLUSION,
@@ -22,7 +24,7 @@ import {
 function BaseView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let textColor = "";
-
+  console.log(I18nManager.isRTL);
   switch (item.Side) {
     case "North":
       textColor = getColor("NorthColor");
@@ -64,64 +66,59 @@ function BaseView({ item }) {
   return (
     <View style={styles.bookView}>
       {englishVisible ? (
-        <View style={styles.textView}>
-          <Text
-            style={[
-              styles.english,
-              { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
-            ]}
-          >
-            {item.English}
-          </Text>
-        </View>
+        <Text
+          style={[
+            styles.english,
+            styles.textView,
+            { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
+          ]}
+        >
+          {item.English}
+        </Text>
       ) : null}
       {copticVisible ? (
-        <View style={styles.textView}>
-          <Text
-            style={[
-              styles.coptic,
-              { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
-            ]}
-          >
-            {item.Coptic}
-          </Text>
-        </View>
+        <Text
+          style={[
+            styles.coptic,
+            styles.textView,
+            { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
+          ]}
+        >
+          {item.Coptic}
+        </Text>
       ) : null}
       {arabicVisible ? (
-        <View style={styles.textView}>
-          <Text
-            style={[
-              styles.arabic,
-              { fontSize, color: textColor, lineHeight: fontSize * 1.35 },
-            ]}
-          >
-            {item.Arabic}
-          </Text>
-        </View>
+        <Text
+          style={[
+            styles.arabic,
+            styles.textView,
+            { fontSize, color: textColor, lineHeight: fontSize * 1.35 },
+          ]}
+        >
+          {item.Arabic}
+        </Text>
       ) : null}
       {copticenglishVisible ? (
-        <View style={styles.textView}>
-          <Text
-            style={[
-              styles.english,
-              { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
-            ]}
-          >
-            {item.Englishcoptic}
-          </Text>
-        </View>
+        <Text
+          style={[
+            styles.english,
+            styles.textView,
+            { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
+          ]}
+        >
+          {item.Englishcoptic}
+        </Text>
       ) : null}
       {copticarabicVisible ? (
-        <View style={styles.textView}>
-          <Text
-            style={[
-              styles.arabic,
-              { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
-            ]}
-          >
-            {item.Arabiccoptic}
-          </Text>
-        </View>
+        <Text
+          style={[
+            styles.arabic,
+            styles.textView,
+            { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
+          ]}
+        >
+          {item.Arabiccoptic}
+        </Text>
       ) : null}
     </View>
   );
@@ -129,13 +126,13 @@ function BaseView({ item }) {
 
 const styles = StyleSheet.create({
   bookView: {
-    flexDirection: "row",
+    flexDirection: "row-reverse",
     borderColor: "black",
 
     width: "100%",
   },
   eachPart: {
-    flexDirection: "row",
+    flexDirection: "row-reverse",
   },
   textView: {
     flex: 1,

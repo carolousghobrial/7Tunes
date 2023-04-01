@@ -50,7 +50,7 @@ function ButtonView({ item, motherSource, flatListRef, viewData, navigation }) {
 
 const styles = StyleSheet.create({
   bookView: {
-    flexDirection: "row",
+    flexDirection: "row-reverse",
     borderColor: "black",
     borderRadius: 30,
     backgroundColor: "red",

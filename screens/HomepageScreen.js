@@ -13,6 +13,7 @@ import TopBoxView from "../components/homepage/topBoxView";
 import homescreenPaths from "../helpers/homescreenPaths";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 import React, { useState } from "react";
+import Purchases, { PurchasesOffering } from "react-native-purchases";
 
 function HomepageScreen({ navigation, route }) {
   const data = homescreenPaths[route.params.bookPath];
@@ -32,6 +33,8 @@ function HomepageScreen({ navigation, route }) {
         });
       }
     } else {
+      const offerings = await Purchases.getOfferings();
+      console.log(offerings);
     }
   };
 

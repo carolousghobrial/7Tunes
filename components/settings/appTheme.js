@@ -21,13 +21,18 @@ import { changeDarkMode } from "../../stores/redux/settings.js";
 function AppTheme() {
   const { height, width } = useWindowDimensions();
   const darkMode = useSelector((state) => state.settings.darkMode);
+  const language = useSelector((state) => state.settings.appLanguage);
+  let flexDirection = "row-reverse";
+  if (language === "ara") {
+    flexDirection = "row";
+  }
 
   const dispatch = useDispatch();
   const toggleSwitch = () => dispatch(changeDarkMode());
 
   return (
     <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
-      <View style={styles.switchView}>
+      <View style={[styles.switchView, { flexDirection: flexDirection }]}>
         <View style={styles.titleView}>
           <Text style={[styles.title, { color: getColor("PrimaryColor") }]}>
             {getLanguageValue("backgroundselector")}
@@ -84,10 +89,8 @@ const styles = StyleSheet.create({
   },
   description: {
     fontFamily: "english-font",
-    textAlign: "justify",
   },
   switchView: {
-    flexDirection: "row",
     margin: 5,
     padding: 5,
   },

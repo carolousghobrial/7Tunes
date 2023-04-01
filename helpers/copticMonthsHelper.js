@@ -611,12 +611,31 @@ export function getTodayDate(timeTransition) {
   }
   return todayDate;
 }
-export function setCurrentSeasonByKey(key) {
-  var fastsfeasts = getCopticFastsFeasts();
-  var collection = [];
-  collection.push(fastsfeasts.find((element) => element.key === "PALM_SUNDAY"));
 
-  return collection;
+export function setCurrentSeasonByKey(timeTransition, key) {
+  var fastsfeasts = getCopticFastsFeasts();
+  const mySeason = fastsfeasts.find((element) => element.key === key);
+  const currentDate = new Date(getTodayDate(timeTransition));
+  const copticDate = getCopticDate(
+    currentDate.getFullYear(),
+    currentDate.getMonth(),
+    currentDate.getDate()
+  );
+  var mycurrentSeason = {
+    key: mySeason.key,
+    start: mySeason.start,
+    end: mySeason.end,
+    major: mySeason.major,
+    week: 1,
+    dayOfWeek: currentDate.getDay(),
+    isWatos: isWatos(),
+    type: mySeason.type,
+    plantsSeason: plantsSeason(),
+    copticMonth: copticDate.month,
+    copticDay: copticDate.day,
+    copticYear: copticDate.year,
+  };
+  return mycurrentSeason;
 }
 export function getCurrentSeason(timeTransition) {
   var fastsfeasts = getCopticFastsFeasts();

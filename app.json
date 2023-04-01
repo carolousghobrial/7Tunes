@@ -34,7 +34,7 @@
     "ios": {
       "infoPlist": {
         "UIStatusBarHidden": true,
-        "NSInAppPurchaseUsageDescription": "YOUR APP NAME requires access to in-app purchases to make purchases."
+        "NSInAppPurchaseUsageDescription": "7Tunes requires access to in-app purchases to make purchases."
       },
       "supportsTablet": true,
       "requireFullScreen": true,

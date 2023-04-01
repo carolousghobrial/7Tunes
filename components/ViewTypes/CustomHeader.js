@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     padding: 5,
     justifyContent: "center",
     alignItems: "center",
-    flexDirection: "row",
+    flexDirection: "row-reverse",
   },
   closeView: {
     flex: 1,

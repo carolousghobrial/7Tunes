@@ -19,6 +19,8 @@ import {
   isInFast,
   isWatos,
 } from "./helpers/copticMonthsHelper";
+import { I18nManager } from "react-native";
+
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import SettingsScreen from "./screens/SettingsScreen";
 import CustomDrawerScreen from "./screens/CustomDrawerScreen";
@@ -37,7 +39,8 @@ const APIKeys = {
 };
 function App() {
   const [appIsReady, setAppIsReady] = useState(false);
-
+  //I18nManager.allowRTL(true);
+  //I18nManager.forceRTL(true);
   useEffect(() => {
     async function prepare() {
       try {

@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   bookView: {
     borderColor: "black",
     margin: 5,
-    flexDirection: "row",
+    flexDirection: "row-reverse",
   },
   textView: {
     flex: 1,

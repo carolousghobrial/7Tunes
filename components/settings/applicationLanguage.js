@@ -17,7 +17,10 @@ function ApplicationLanguage() {
   const { width, height } = useWindowDimensions();
 
   let flexDirection = "column";
-
+  let containerflexDirection = "row-reverse";
+  if (mylanguage === "ara") {
+    containerflexDirection = "row";
+  }
   if (width > height) {
     flexDirection = "row";
   }
@@ -36,7 +39,15 @@ function ApplicationLanguage() {
     }
   }
   return (
-    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
+    <View
+      style={[
+        styles.container,
+        {
+          borderColor: getColor("PrimaryColor"),
+          flexDirection: containerflexDirection,
+        },
+      ]}
+    >
       <View style={styles.titleView}>
         <Text
           style={[
@@ -97,7 +108,6 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10,
     borderRadius: 10,
-    flexDirection: "row-reverse",
     borderWidth: 5,
     backgroundColor: "rgba(52, 52, 52, 0.2)",
   },
@@ -121,7 +131,7 @@ const styles = StyleSheet.create({
   },
   description: {
     fontFamily: "english-font",
-    textAlign: "justify",
+
     color: "gray",
     fontStyle: "italic",
   },
@@ -140,7 +150,7 @@ const styles = StyleSheet.create({
   language: {
     margin: 15,
     alignItems: "center",
-    flexDirection: "row",
+    flexDirection: "row-reverse",
   },
   wrapper: {
     justifyContent: "space-evenly",

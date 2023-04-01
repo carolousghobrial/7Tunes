@@ -32,32 +32,23 @@ function ContentsModal({ route, navigation }) {
   const { scrollToKey } = route.params;
   const menuData = route.params.menuData;
   const initialKey = route.params.initialKey;
-  let flexDirection = "column";
-  let viewheight = "50%";
-  let viewwidth = "100%";
 
-  if (width > height) {
-    flexDirection = "row";
-    viewheight = "100%";
-    viewwidth = "50%";
-  }
-  const wrapperStyle = {
-    flexDirection: flexDirection,
-  };
   const flatListRef = useRef();
 
   useEffect(() => {
-    console.log(initialKey);
+    navigation.setOptions({
+      headerShown: true,
+      header: () => <MenuMainTitle item={MainTitle}></MenuMainTitle>,
+    });
     setInitialIndex(initialKey);
   }, []);
   return (
-    <View style={[styles.container, wrapperStyle]}>
+    <View style={[styles.container]}>
       <View
         style={{
           backgroundColor: getColor("NavigationBarColor"),
         }}
       >
-        <MenuMainTitle item={MainTitle}></MenuMainTitle>
         <FlatList
           data={menuData}
           ref={flatListRef}
@@ -79,7 +70,7 @@ function ContentsModal({ route, navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
+    width: "100%",
   },
   transparentView: {
     height: "100%",

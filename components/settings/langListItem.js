@@ -10,8 +10,19 @@ import { changeTextLanguage } from "../../stores/redux/settings.js";
 
 function LangListItem(props) {
   const dispatch = useDispatch();
+  const language = useSelector((state) => state.settings.appLanguage);
+
+  let flexDirection = "row-reverse";
+  if (language === "ara") {
+    flexDirection = "row";
+  }
   return (
-    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
+    <View
+      style={[
+        styles.container,
+        { flexDirection: flexDirection, borderColor: getColor("PrimaryColor") },
+      ]}
+    >
       <View style={styles.textview}>
         <Text style={[styles.text, { color: getColor("PrimaryColor") }]}>
           {getLanguageValue(props.incomingItem.titleKey)}
@@ -48,7 +59,6 @@ const styles = StyleSheet.create({
   container: {
     margin: 5,
     padding: 5,
-    flexDirection: "row",
     borderWidth: 5,
   },
   textview: {
@@ -65,12 +75,12 @@ const styles = StyleSheet.create({
   },
   description: {
     fontFamily: "english-font",
-    textAlign: "justify",
+
     color: "gray",
     fontStyle: "italic",
   },
   switchView: {
-    flexDirection: "row",
+    flexDirection: "row-reverse",
     margin: 5,
     flex: 1,
     padding: 5,

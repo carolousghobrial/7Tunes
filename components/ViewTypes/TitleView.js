@@ -28,7 +28,7 @@ function TitleView({ item }) {
   let flex = "row";
   if (width > height) {
     // Landscape mode
-    flex = "row";
+    flex = "row-reverse";
   } else {
     // Portrait mode
     flex = "column";

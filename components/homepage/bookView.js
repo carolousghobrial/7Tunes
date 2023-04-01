@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
   },
   bookViewLandscape: {
     flex: 1,
-    flexDirection: "row",
+    flexDirection: "row-reverse",
     paddingVertical: 10,
     marginVertical: 10,
     margin: 5,

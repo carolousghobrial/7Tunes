@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   },
   bookViewLandscape: {
     flex: 1,
-    flexDirection: "row",
+    flexDirection: "row-reverse",
     justifyContent: "flex-start",
     alignItems: "flex-start",
   },

@@ -13,7 +13,12 @@ function FontSize() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const dispatch = useDispatch();
   //const [fontSize, setFontSize] = useState(24);
+  const language = useSelector((state) => state.settings.appLanguage);
 
+  let flexDirection = "row-reverse";
+  if (language === "ara") {
+    flexDirection = "row";
+  }
   function fontSizePlus() {
     dispatch(changeFontSize({ direction: "plus" }));
   }
@@ -22,9 +27,14 @@ function FontSize() {
   }
   return (
     <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
-      <View style={styles.switchView}>
+      <View style={[styles.switchView, { flexDirection: flexDirection }]}>
         <View style={styles.titleView}>
-          <Text style={[styles.title, { color: getColor("PrimaryColor") }]}>
+          <Text
+            style={[
+              styles.title,
+              { fontSize: fontSize * 1.3, color: getColor("PrimaryColor") },
+            ]}
+          >
             {getLanguageValue("fontsizelabel")}
           </Text>
 
@@ -69,17 +79,16 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   title: {
-    fontSize: 24,
     fontFamily: "english-font",
   },
   description: {
     fontSize: 15,
     fontFamily: "english-font",
-    textAlign: "justify",
+
     color: "gray",
   },
   switchView: {
-    flexDirection: "row",
+    flexDirection: "row-reverse",
     margin: 5,
     padding: 5,
   },

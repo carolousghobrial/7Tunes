@@ -81,7 +81,7 @@ function MelodyView({ item }) {
 
 const styles = StyleSheet.create({
   bookView: {
-    flexDirection: "row",
+    flexDirection: "row-reverse",
     borderColor: "black",
     width: "100%",
   },

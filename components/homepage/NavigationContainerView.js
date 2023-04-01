@@ -142,7 +142,7 @@ function NavigationContainerView() {
           component={FullFeastsScreen}
           name="FullFeastsScreen"
           options={{
-            title: "Full Feasts",
+            title: getLanguageValue("fullFeasts"),
 
             drawerIcon: ({ color, size }) => (
               <FontAwesome5 name="cross" size={24} color="black" />
@@ -193,6 +193,7 @@ function NavigationContainerView() {
           options={({ route, navigation }) => {
             const englishTitle = route.params.englishTitle;
             const arabicTitle = route.params.arabicTitle;
+
             return {
               title: appLanguage === "eng" ? englishTitle : arabicTitle,
             };

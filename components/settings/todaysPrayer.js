@@ -23,12 +23,17 @@ import {
 function TodaysPrayer() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  const language = useSelector((state) => state.settings.appLanguage);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   const timeTransition = useSelector((state) => state.settings.timeTransition);
   const dispatch = useDispatch();
   const [time, setTime] = useState(new Date(timeTransition));
   const [showPicker, setShowPicker] = useState(false);
   const isAndroid = Platform.OS === "ios" ? false : true;
+  let flexDirection = "row-reverse";
+  if (language === "ara") {
+    flexDirection = "row";
+  }
   const handleTimeChange = (event, selectedTime) => {
     const currentTime = selectedTime || time;
     setShowPicker(Platform.OS === "ios");
@@ -47,7 +52,7 @@ function TodaysPrayer() {
   const toggleSwitch = () => dispatch(changeTodayPrayer());
   return (
     <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
-      <View style={styles.switchView}>
+      <View style={[styles.switchView, { flexDirection: flexDirection }]}>
         <View style={styles.titleView}>
           <Text
             style={[
@@ -129,12 +134,11 @@ const styles = StyleSheet.create({
   },
   description: {
     fontFamily: "english-font",
-    textAlign: "justify",
+
     color: "gray",
     fontStyle: "italic",
   },
   switchView: {
-    flexDirection: "row",
     margin: 5,
     padding: 5,
   },
