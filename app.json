@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "7Tunes",
+    "name": "7 Tunes",
     "slug": "7Tunes",
-    "version": "1.0.0",
+    "version": "6.0.0",
     "orientation": "default",
     "icon": "./assets/images//logofinal.png",
     "userInterfaceStyle": "automatic",
@@ -36,6 +36,7 @@
         "UIStatusBarHidden": true,
         "NSInAppPurchaseUsageDescription": "7Tunes requires access to in-app purchases to make purchases."
       },
+      "buildNumber": "5.5",
       "supportsTablet": true,
       "requireFullScreen": true,
       "bundleIdentifier": "com.companyname.TasbehaFinal"
@@ -44,6 +45,7 @@
       "permissions": [
         "com.android.vending.BILLING"
       ],
+      "versionCode": 6222227,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
