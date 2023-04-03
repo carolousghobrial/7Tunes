@@ -9,6 +9,7 @@ import {
   SafeAreaView,
   useWindowDimensions,
 } from "react-native";
+import 'expo-dev-client';
 import * as SplashScreen from "expo-splash-screen";
 import useFonts from "./helpers/useFonts";
 import HomepageScreen from "./screens/HomepageScreen";
@@ -19,7 +20,7 @@ import {
   isInFast,
   isWatos,
 } from "./helpers/copticMonthsHelper";
-
+import 'react-native-gesture-handler';
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import SettingsScreen from "./screens/SettingsScreen";
 import CustomDrawerScreen from "./screens/CustomDrawerScreen";
@@ -29,6 +30,8 @@ import NavigationContainerView from "./components/homepage/NavigationContainerVi
 import { useDispatch, useSelector } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 
+import {enableScreens} from 'react-native-screens';
+enableScreens();
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
 const APIKeys = {
@@ -44,6 +47,8 @@ function App() {
       try {
         // Pre-load fonts, make any API calls you need to do here
         await useFonts();
+
+    
       } catch (e) {
         console.warn(e);
       } finally {

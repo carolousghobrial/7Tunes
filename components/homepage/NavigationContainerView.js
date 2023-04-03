@@ -43,6 +43,8 @@ import { setSeason } from "../../stores/redux/settings.js";
 import ContentsModal from "../BottomBar/ContentsModal.js";
 import SettingsModal from "../BottomBar/SettingsModal.js";
 import { FontAwesome5 } from "@expo/vector-icons";
+import {enableScreens} from 'react-native-screens';
+enableScreens();
 const Stack = createNativeStackNavigator();
 
 const Drawer = createDrawerNavigator();

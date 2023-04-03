@@ -38,7 +38,7 @@
       },
       "supportsTablet": true,
       "requireFullScreen": true,
-      "bundleIdentifier": "com.seventunes.tasbehafinal"
+      "bundleIdentifier": "com.companyname.TasbehaFinal"
     },
     "android": {
       "permissions": [
