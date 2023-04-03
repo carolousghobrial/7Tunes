@@ -1,0 +1,96 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": " التمجيد",
+            "English": "Venerations"
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMelodiesStMary",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMelodiesStMary2",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMelodiesArchangelMichael",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMelodiesStMark",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMelodiesStGeorge",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMelodiesStPhilopater",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMelodiesStMina",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMelodiesStDemiana",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMelodiesStMarina",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesStAnthonyMelody",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesMaximusDometiusMelody",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMelodiesStPishoi",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesStSamuelMelody",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMelodiesPopeKirollos",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

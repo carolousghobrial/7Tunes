@@ -7,7 +7,7 @@
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
             "BookPath": "BrightSaturdayPraisesMain",
-            "ImageURL": "first",
+            "ImageURL": "mp",
             "Enabled": true
         },
         {
@@ -57,7 +57,7 @@
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
             "BookPath": "BrightSaturdayRevelationsMain",
-            "ImageURL": "communion",
+            "ImageURL": "Revelations",
             "Enabled": true
         },
         {

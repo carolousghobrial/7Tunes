@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     fontStyle: "italic",
   },
   switchView: {
-    flexDirection: "row-reverse",
+    flexDirection: "row",
     margin: 5,
     flex: 1,
     padding: 5,

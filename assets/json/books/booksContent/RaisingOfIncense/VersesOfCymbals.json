@@ -197,8 +197,9 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": "isNOTLentWeekdayOrJonah",
+            "Visible": "VOCSaint",
             "Side": "North",
+            "SAINT": "ST_MARK",
             "Arabic": "السلام ليوحنا، السابق العظيم. السلام للكاهن، نسيب عمانوئيل.",
             "Coptic": "Xere Iwannhc> pini]; `m`prodromoc > xere piouhb > `pcuggenhc `nEmmanouhl.",
             "English": "Hail to John, the great forerunner, hail to the priest, the kinsman of Immanuel.",
@@ -219,8 +220,9 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": "isNOTLentWeekdayOrJonah",
+            "Visible": "VOCSaint",
             "Side": "North",
+            "SAINT": "ST_MARK",
             "Arabic": "السلام لكَ إيها الشهيد. السلام للإنجيلي. السلام للرسول مرقس، ناظر الإله.",
             "Coptic": "Xere nak `w pimarturoc > xere pieuaggelicthc > xere pi`apoctoloc > Markoc piqe`wrimoc.",
             "English": "Hail to you, O martyr, hail to the Evangelist, hail to the apostle,  Mark the beholder of  God.",
@@ -236,8 +238,9 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": "isNOTLentWeekdayOrJonah",
+            "Visible": "VOCSaint",
             "Side": "South",
+            "SAINT": "ST_STEPHEN",
             "Arabic": "السلام لاسطفانوس، أول الشهداء. السلام لرئيس الشمامسة المبارك.",
             "Coptic": "Xere ` Ctevanoc > pi]orp `mmarturoc > xere piarxidi`akwn > ouo\\ et`cmarwout.",
             "English": "Hail to Stephen, the   first martyr. Hail to the archdeacon, the blessed one.",
@@ -247,7 +250,8 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": "isNOTLentWeekdayOrJonah",
+            "Visible": "VOCSaint",
+            "SAINT": "ST_GEORGE",
             "Side": "North",
             "Arabic": "السلام لكَ أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد  سيدي الملك جيؤرجيوس.",
             "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Pasoic `pouro Gewrgioc.",
@@ -258,7 +262,8 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": "isNOTLentWeekdayOrJonah",
+            "Visible": "VOCSaint",
+            "SAINT": "ST_PHILOPATER",
             "Side": "South",
             "Arabic": "السلام لكَ أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد  فيلوباتير مرقوريوس.",
             "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Viloupathr  Merkou\brioc.",
@@ -269,8 +274,9 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": "isNOTLentWeekdayOrJonah",
+            "Visible": "VOCSaint",
             "Side": "North",
+            "SAINT": "ST_MINA",
             "Arabic": "السلام لكَ أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد  القديس أبا مينا.",
             "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Pia~gioc a~pa Mina.",
             "English": "Hail to you, O martyr. Hail to the noble hero. Hail to the prize-bearer, The saint, Abba Mina.",

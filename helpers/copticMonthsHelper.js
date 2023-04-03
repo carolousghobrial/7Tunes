@@ -1,6 +1,9 @@
 import { getLanguageValue, getFontSize, getColor } from "./SettingsHelpers.js";
 import { useDispatch, useSelector } from "react-redux";
-var moment = require("moment");
+const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+var moment = require("moment-timezone"); //moment-timezone
+
 var today = moment();
 
 attributes = {

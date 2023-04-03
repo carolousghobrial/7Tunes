@@ -7,6 +7,7 @@ import {
   StyleSheet,
   Pressable,
   Image,
+  TouchableWithoutFeedback,
   useWindowDimensions,
 } from "react-native";
 import AppTheme from "../settings/appTheme";
@@ -25,7 +26,6 @@ import GestureRecognizer, {
 } from "react-native-swipe-gestures";
 
 function FeastModal({ visible, feast, closeModal, setFeast }) {
-  console.log(feast);
   const { width, height } = useWindowDimensions();
   let viewheight = "50%";
   let viewwidth = "100%";
@@ -55,42 +55,44 @@ function FeastModal({ visible, feast, closeModal, setFeast }) {
         "landscape-right",
       ]}
     >
-      <View style={[styles.container]}>
-        <View
-          style={{
-            height: viewheight,
-            width: viewwidth,
-            alignItems: "center",
-            backgroundColor: getColor("NavigationBarColor"),
-          }}
-        >
-          <View style={[styles.imageContainerLandscape, imageStyle]}>
-            <Image style={styles.image} source={images[feast.key]} />
+      <Pressable onPress={closeModal} style={[styles.container]}>
+        <TouchableWithoutFeedback>
+          <View
+            style={{
+              height: viewheight,
+              width: viewwidth,
+              alignItems: "center",
+              backgroundColor: getColor("NavigationBarColor"),
+            }}
+          >
+            <View style={[styles.imageContainerLandscape, imageStyle]}>
+              <Image style={styles.image} source={images[feast.key]} />
+            </View>
+            <Text style={styles.text}>{getLanguageValue(feast.key)}</Text>
+            <Text style={styles.text}>
+              {feast.start.format("MMM Do YYYY")}
+              {feast.end !== null ? "-" : null}
+              {feast.end !== null ? feast.end.format("MMM Do YYYY") : null}
+            </Text>
+            <View style={{ flexDirection: "row" }}>
+              <Pressable
+                android_ripple={{ color: getColor("pageBackgroundColor") }}
+                style={styles.button}
+                onPress={closeModal}
+              >
+                <Text style={styles.text}>Close</Text>
+              </Pressable>
+              <Pressable
+                android_ripple={{ color: getColor("pageBackgroundColor") }}
+                style={styles.button}
+                onPress={setFeast.bind(this, feast.key)}
+              >
+                <Text style={styles.text}>Set</Text>
+              </Pressable>
+            </View>
           </View>
-          <Text style={styles.text}>{getLanguageValue(feast.key)}</Text>
-          <Text style={styles.text}>
-            {feast.start.format("MMM Do YYYY")}
-            {feast.end !== null ? "-" : null}
-            {feast.end !== null ? feast.end.format("MMM Do YYYY") : null}
-          </Text>
-          <View style={{ flexDirection: "row" }}>
-            <Pressable
-              android_ripple={{ color: getColor("pageBackgroundColor") }}
-              style={styles.button}
-              onPress={closeModal}
-            >
-              <Text style={styles.text}>Close</Text>
-            </Pressable>
-            <Pressable
-              android_ripple={{ color: getColor("pageBackgroundColor") }}
-              style={styles.button}
-              onPress={setFeast.bind(this, feast.key)}
-            >
-              <Text style={styles.text}>Set</Text>
-            </Pressable>
-          </View>
-        </View>
-      </View>
+        </TouchableWithoutFeedback>
+      </Pressable>
     </Modal>
   );
 }

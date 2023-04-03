@@ -99,6 +99,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "مدائح القديسين",
+            "English": "Saints' Melodies",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "saintsMelodies"
+        },
+        {
             "Type": "Main",
             "Path": "VenerationKhenEfran",
             "Rule": 0,

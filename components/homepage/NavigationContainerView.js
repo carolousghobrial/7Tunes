@@ -149,17 +149,6 @@ function NavigationContainerView() {
             ),
           }}
         />
-        <Drawer.Screen
-          component={Test}
-          name="Test"
-          options={{
-            title: "Test",
-
-            drawerIcon: ({ color, size }) => (
-              <FontAwesome5 name="cross" size={24} color="black" />
-            ),
-          }}
-        />
       </Drawer.Navigator>
     );
   }

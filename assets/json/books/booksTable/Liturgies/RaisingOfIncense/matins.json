@@ -5,9 +5,9 @@
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
-            "Arabic": "باكر",
-            "Coptic": ":do[ologia `nte }wrp",
-            "English": "Matins"
+            "Arabic": "رفع بخور باكر",
+            "Coptic": "Ptalo  ~Mpi`cqoinoufi `nte |an`atoui",
+            "English": "Offering of Morning Incense"
         },
         {
             "Type": "Main",
@@ -123,7 +123,8 @@
             "English": "The Doxologies",
             "Rule": "OpenDoxologies",
             "Visible": true,
-            "Path": "doxologies"
+            "Path": "doxologies",
+            "mother": "matins"
         },
         {
             "Type": "Main",
@@ -155,7 +156,8 @@
             "English": "Hosanna Procession",
             "Rule": "OpenPalmSundayProcession",
             "Visible": "isHosanna",
-            "Path": "palmSundayProcession"
+            "Path": "palmSundayProcession",
+            "mother": "matins"
         },
         {
             "Type": "Main",

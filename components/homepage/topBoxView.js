@@ -10,7 +10,6 @@ import {
   getColor,
 } from "../../helpers/SettingsHelpers.js";
 import React, { useState, useEffect } from "react";
-import "moment/locale/ar";
 import images from "../../helpers/imageHelpers";
 
 function TopBoxView() {
@@ -68,9 +67,6 @@ function TopBoxView() {
       moment().locale("en");
       var mydate = moment().format("dddd, MMMM Do YYYY");
       setDate(mydate);
-    } else {
-      var mydate = moment().locale("ar").format("LLLL");
-      setDate(mydate);
     }
   }
 
@@ -96,7 +92,7 @@ function TopBoxView() {
 
 const styles = StyleSheet.create({
   bookView: {
-    flexDirection: "row-reverse",
+    flexDirection: "row",
     borderColor: "black",
     borderRadius: 30,
     borderWidth: 5,

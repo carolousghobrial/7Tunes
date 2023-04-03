@@ -88,6 +88,18 @@
       "English": "Hail to you O martyr : Hail to the courageous hero : Hail to the struggle-mantled :.....",
       "Arabiccoptic": "*REFRAIN*شيرى ناك أو  بى مارتيروس. شيرى بى شويج إن جينيؤس. شيرى بى أثلوفوروس..",
       "Englishcoptic": "Shere nak opee marteros, shere pee shoig en gen- neos, shere pee athloforos, ....."
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayResponse",
+      "Rule": 0,
+      "Visible": "isPalmSunday"
+    },
+    {
+      "Type": "Main",
+      "Path": "RaisingOfIncensePalmSundayProcessionCrossResponse",
+      "Rule": 0,
+      "Visible": "isCross"
     }
   ]
 }

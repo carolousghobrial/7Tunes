@@ -39,7 +39,7 @@ function ExpanderView({ item }) {
 
 const styles = StyleSheet.create({
   bookView: {
-    flexDirection: "row-reverse",
+    flexDirection: "row",
     borderColor: "black",
     borderRadius: 30,
     borderWidth: 5,

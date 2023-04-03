@@ -11,6 +11,7 @@ import ApplicationLanguage from "../components/settings/applicationLanguage";
 import AppTheme from "../components/settings/appTheme";
 import FontSize from "../components/settings/fontSize";
 import VisibleLangs from "../components/settings/visibleLangs";
+import SaintsList from "../components/settings/saintsList";
 import TodaysPrayer from "../components/settings/todaysPrayer";
 import Test from "../components/settings/test";
 import {
@@ -26,6 +27,7 @@ function SettingsScreen({ navigation, route }) {
       <ApplicationLanguage></ApplicationLanguage>
       <FontSize></FontSize>
       <VisibleLangs></VisibleLangs>
+      <SaintsList></SaintsList>
     </ScrollView>
   );
 }

@@ -28,7 +28,8 @@
             "hasSubBooks": true,
             "BookPath": 3,
             "ImageURL": "pascha",
-            "Enabled": false
+            "Enabled": false,
+            "Released": false
         }
     ]
 }

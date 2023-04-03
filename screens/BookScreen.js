@@ -53,7 +53,10 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const [scrollToIndex, setscrollToIndex] = useState(0);
   const [settingsModalVisible, setsettingsModalVisible] = useState(false);
 
-  const values = getFullViewModel(route.params.bookPath);
+  const values = getFullViewModel(
+    route.params.bookPath,
+    route.params.motherSource
+  );
   const memoizedData = useMemo(() => values[0], [values[0]]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -68,7 +71,6 @@ const BookScreen = React.memo(({ navigation, route }) => {
   var currentIndex = 0;
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
     if (viewableItems.length > 0) {
-      console.log(viewableItems[0].index);
       setIndex(viewableItems[0].index);
       //sehowMcuhToScroll(viewableItems.length - 1);
     }
@@ -145,7 +147,6 @@ const BookScreen = React.memo(({ navigation, route }) => {
   };
   const contentsPressed = () => {
     // handle button press here
-    console.log(index);
     const closest = menuData.reduce((a, b) => {
       return Math.abs(b.key - index) < Math.abs(a.key - index) ? b : a;
     });

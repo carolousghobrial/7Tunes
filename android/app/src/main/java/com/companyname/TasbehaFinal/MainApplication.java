@@ -1,4 +1,4 @@
-package com.companyname.TasbehaFinal;
+package com.seventunes.tasbehafinal;
 
 import android.app.Application;
 import android.content.res.Configuration;

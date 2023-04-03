@@ -15,9 +15,9 @@ function FontSize() {
   //const [fontSize, setFontSize] = useState(24);
   const language = useSelector((state) => state.settings.appLanguage);
 
-  let flexDirection = "row-reverse";
+  let flexDirection = "row";
   if (language === "ara") {
-    flexDirection = "row";
+    flexDirection = "row-reverse";
   }
   function fontSizePlus() {
     dispatch(changeFontSize({ direction: "plus" }));
@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     color: "gray",
   },
   switchView: {
-    flexDirection: "row-reverse",
+    flexDirection: "row",
     margin: 5,
     padding: 5,
   },

@@ -56,7 +56,7 @@ function BottomBar({ navigation, dataArray, initialKey, scrollToKey }) {
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: "row-reverse",
+    flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
     height: 35,

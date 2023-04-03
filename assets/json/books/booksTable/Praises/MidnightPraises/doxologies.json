@@ -211,13 +211,15 @@
             "Type": "Main",
             "Path": "DoxologiesArchangelMichael",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ARCHANGEL_MICHAEL"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesArchangelGabriel",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ARCHANGEL_GABRIEL"
         },
         {
             "Type": "Main",
@@ -229,19 +231,21 @@
             "Type": "Main",
             "Path": "DoxologiesStJohntheBaptist",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "JOHN_THE_BAPTIST"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStJohntheBaptist1",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "JOHN_THE_BAPTIST"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStPeterStPaul",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isApostlesFeast"
         },
         {
             "Type": "Main",
@@ -253,97 +257,113 @@
             "Type": "Main",
             "Path": "DoxologiesStMark",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_MARK"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStStephen",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_STEPHEN"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStGeorge",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_GEORGE"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStPhilopater",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_PHILOPATER"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStMina",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_MINA"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStAbanoub",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_ABANOUB"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStDemiana",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_DEMIANA"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStMarina",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_MARINA"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStAnthony",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_ANTHONY"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStPaulHermit",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_PAULHERMIT"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStMoses",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_MOSES"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStPishoi",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_PISHOI"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStRewis",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_REWIS"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStJohnTheShort",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_JOHN_THE_SHORT"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStKaras",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_KARAS"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesPopeKirollos",
             "Rule": 0,
-            "Visible": true
+            "Visible": "DOXSaint",
+            "SAINT": "ST_KIROLLOS_SIXTH"
         },
         {
             "Type": "Main",

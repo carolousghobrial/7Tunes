@@ -1,5 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import settingsReducer from "./settings";
+import saintsReducer from "./saints";
 import { persistReducer, persistStore } from "redux-persist";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { combineReducers } from "redux";
@@ -11,6 +12,7 @@ const persistConfig = {
 };
 const rootReducer = combineReducers({
   settings: settingsReducer,
+  saints: saintsReducer,
   // add other reducers here
 });
 

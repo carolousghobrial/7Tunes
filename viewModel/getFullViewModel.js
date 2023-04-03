@@ -11,7 +11,7 @@ import {
 } from "../helpers/replacingRules";
 import homescreenPaths from "../helpers/homescreenPaths";
 
-export function getFullViewModel(motherSource) {
+export function getFullViewModel(motherSource, mother) {
   let arabicttl = "";
   let copticttl = "";
   let englishttl = "";
@@ -24,9 +24,21 @@ export function getFullViewModel(motherSource) {
       copticttl = item.coptic;
       englishttl = item.english;
     } else {
+      var temppath = "";
+      if (item.SAINT !== undefined) {
+        temppath = item.SAINT;
+      } else {
+        temppath = item.Path;
+      }
+      var tempMother = "";
+      if (mother !== undefined) {
+        tempMother = mother;
+      } else {
+        tempMother = motherSource;
+      }
       if (
         item.Visible === true ||
-        VisibleRules[item.Visible](motherSource, item.Path)
+        VisibleRules[item.Visible](tempMother, temppath)
       ) {
         switch (item.Type) {
           case "Main":
@@ -148,12 +160,26 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
   }
   var hymn = book.Hymn;
   hymn.forEach((part) => {
+    var temppath = "";
+    if (part.SAINT !== undefined) {
+      temppath = part.SAINT;
+    } else {
+      temppath = part.Path;
+    }
     if (
       part.Visible === true ||
-      VisibleRules[part.Visible](motherSource, part.Path)
+      VisibleRules[part.Visible](motherSource, temppath)
     ) {
       if (part.Type === "Main") {
-        getMain(part.Path, true, rule);
+        const [tempView, tempMenu, mykey] = getMain(
+          part.Path,
+          motherSource,
+          true,
+          thisRule,
+          key
+        );
+        key = mykey;
+        myViewArray = myViewArray.concat(tempView);
       } else {
         if (thisRule !== 0 && thisRule != undefined) {
           var newPart = {};
@@ -326,6 +352,7 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
               newPart = part;
             }
           }
+
           myViewArray.push({
             part: newPart,
             key: key,

@@ -5,6 +5,7 @@ import {
   Text,
   Pressable,
   FlatList,
+  useWindowDimensions,
 } from "react-native";
 import {
   getLanguageValue,
@@ -17,6 +18,15 @@ import { changeTextLanguage } from "../../stores/redux/settings.js";
 
 function MenuItem({ item, HighlitedIndex, scrollToKey }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
+  const { width, height } = useWindowDimensions();
+
+  let flexDirection = "row";
+
+  if (width < height) {
+    // Portrait mode
+    flexDirection = "column";
+  }
+
   var SelectedbackgroundColor = "transparent";
   function functionCombined() {
     scrollToKey(item.key);
@@ -25,50 +35,50 @@ function MenuItem({ item, HighlitedIndex, scrollToKey }) {
     SelectedbackgroundColor = getColor("pageBackgroundColor");
   }
   return (
-    <View
+    <Pressable
       style={[
         styles.container,
         {
+          flexDirection: flexDirection,
           borderColor: getColor("PrimaryColor"),
           backgroundColor: SelectedbackgroundColor,
         },
       ]}
+      onPress={functionCombined}
     >
-      <Pressable onPress={functionCombined}>
+      <View style={[styles.textView, { flexDirection: flexDirection }]}>
+        <Text
+          style={[
+            styles.english,
+            { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
+          ]}
+        >
+          {item.EnglishTitle}
+        </Text>
+      </View>
+      {item.CopticTitle !== undefined ? (
         <View style={styles.textView}>
           <Text
             style={[
-              styles.english,
+              styles.coptic,
               { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
             ]}
           >
-            {item.EnglishTitle}
+            {item.CopticTitle}
           </Text>
         </View>
-        {item.CopticTitle !== undefined ? (
-          <View style={styles.textView}>
-            <Text
-              style={[
-                styles.coptic,
-                { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
-              ]}
-            >
-              {item.CopticTitle}
-            </Text>
-          </View>
-        ) : null}
-        <View style={styles.textView}>
-          <Text
-            style={[
-              styles.arabic,
-              { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
-            ]}
-          >
-            {item.ArabicTitle}
-          </Text>
-        </View>
-      </Pressable>
-    </View>
+      ) : null}
+      <View style={styles.textView}>
+        <Text
+          style={[
+            styles.arabic,
+            { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
+          ]}
+        >
+          {item.ArabicTitle}
+        </Text>
+      </View>
+    </Pressable>
   );
 }
 

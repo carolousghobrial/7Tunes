@@ -20,6 +20,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
       bookPath: item.Path,
       englishTitle: item.EnglishTitle,
       arabicTitle: item.ArabicTitle,
+      motherSource: item.mother,
     });
   }
   function OpenPalmSundayProcession() {
@@ -27,6 +28,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
       bookPath: item.Path,
       englishTitle: item.EnglishTitle,
       arabicTitle: item.ArabicTitle,
+      motherSource: item.mother,
     });
   }
   function OpenPage() {

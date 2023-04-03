@@ -130,7 +130,8 @@
             "English": "The Doxologies",
             "Rule": "OpenDoxologies",
             "Visible": true,
-            "Path": "doxologies"
+            "Path": "doxologies",
+            "mother": "praises"
         },
         {
             "Type": "Main",

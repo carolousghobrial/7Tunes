@@ -6,6 +6,7 @@ import {
   Pressable,
   ImageBackground,
   FlatList,
+  useWindowDimensions,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
@@ -25,6 +26,15 @@ function MenuMainTitle({ item }) {
   if (Platform.OS == "android") {
     flexDirection = "row-reverse";
   }
+  const { width, height } = useWindowDimensions();
+
+  let textFlexDirection = "row";
+
+  if (width < height) {
+    // Portrait mode
+    textFlexDirection = "column";
+  }
+
   const fontSize = useSelector((state) => state.settings.textFontSize);
   return (
     <View
@@ -44,43 +54,38 @@ function MenuMainTitle({ item }) {
             <Ionicons
               name="chevron-back"
               size={30}
-              style={{ marginRight: 10 }}
               color={getColor("LabelColor")}
             />
           </Pressable>
-          <View style={styles.titleView}>
-            <View style={styles.textView}>
-              <Text
-                style={[
-                  styles.english,
-                  { fontSize: fontSize * 0.9, color: getColor("LabelColor") },
-                ]}
-              >
-                {item.EnglishTitle}
-              </Text>
-            </View>
+          <View
+            style={[styles.titleView, { flexDirection: textFlexDirection }]}
+          >
+            <Text
+              style={[
+                styles.english,
+                { fontSize: fontSize * 0.9, color: getColor("LabelColor") },
+              ]}
+            >
+              {item.EnglishTitle}
+            </Text>
             {item.CopticTitle !== undefined ? (
-              <View style={styles.textView}>
-                <Text
-                  style={[
-                    styles.coptic,
-                    { fontSize: fontSize * 0.9, color: getColor("LabelColor") },
-                  ]}
-                >
-                  {item.CopticTitle}
-                </Text>
-              </View>
-            ) : null}
-            <View style={styles.textView}>
               <Text
                 style={[
-                  styles.arabic,
+                  styles.coptic,
                   { fontSize: fontSize * 0.9, color: getColor("LabelColor") },
                 ]}
               >
-                {item.ArabicTitle}
+                {item.CopticTitle}
               </Text>
-            </View>
+            ) : null}
+            <Text
+              style={[
+                styles.arabic,
+                { fontSize: fontSize * 0.9, color: getColor("LabelColor") },
+              ]}
+            >
+              {item.ArabicTitle}
+            </Text>
           </View>
         </View>
       </ImageBackground>

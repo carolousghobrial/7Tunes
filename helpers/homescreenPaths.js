@@ -3,7 +3,7 @@ const homescreenPaths = {
   psalmody: require("../assets/json/menuJson/psalmody/psalmody.json"),
   liturgy: require("../assets/json/menuJson/liturgy/liturgy.json"),
   pascha: require("../assets/json/menuJson/pascha/pascha.json"),
-  veneration: require("../assets/images/mary.jpg"),
+  saintsMelodies: require("../assets/json/books/booksTable/Venerations/saintsmelodies.json"),
   index: require("../assets/images/indexpic.png"),
   vp: require("../assets/json/menuJson/psalmody/vesperspraises.json"),
   mp: require("../assets/json/menuJson/psalmody/midnightpraises.json"),

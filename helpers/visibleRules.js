@@ -220,7 +220,7 @@ const isSeason = (motherSource, path) => {
         }
         return false;
       case "LAZARUS_SATURDAY":
-        if (path.toLowerCase().includes("lazarus")) {
+        if (path.Case().includes("lazarus")) {
           return true;
         }
         return false;
@@ -379,10 +379,7 @@ const isCovenantThursday = (motherSource, path) => {
   return motherSource === "ThursdayDayFirstHourMain" ? true : false;
 };
 const isPraises = (motherSource, path) => {
-  return motherSource === "lentenVespersPraises" ||
-    motherSource === "standardPsalmody"
-    ? true
-    : false;
+  return motherSource === "praises" ? true : false;
 };
 const showLitanyOfDeparted = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -436,14 +433,14 @@ const isWatos = (motherSource, path) => {
 const isAdam = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (
-    currentSeason.isWatos ||
-    (isNOTLentWeekdayOrJonah(motherSource, path) &&
-      !isBigFeast(motherSource, path))
+    currentSeason.isWatos === false &&
+    isNOTLentWeekdayOrJonah(motherSource, path) &&
+    !isBigFeast(motherSource, path)
   ) {
-    return false;
+    return true;
   }
 
-  return true;
+  return false;
 };
 const isNOTLentWeekdayOrJonah = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -551,11 +548,27 @@ const isNOTTwelfthHourGoodFriday = (motherSource, path) => {
   return motherSource === "FridayDayTwelfthHourMain" ? false : true;
 };
 const BrightSaturday = (motherSource, path) => {
-  console.log("ASDAD");
   return motherSource.toLowerCase().includes("brightsaturday") ? true : false;
 };
 const hide = (motherSource, path) => {
   return true;
+};
+const VOCSaint = (motherSource, path) => {
+  if (isLentWeekdayOrJonah(motherSource, path)) {
+    return false;
+  }
+  const saintSelected = useSelector((state) => state.saints[path]);
+
+  return saintSelected.vos;
+};
+const DOXSaint = (motherSource, path) => {
+  const saintSelected = useSelector((state) => state.saints[path]);
+
+  return saintSelected.doxologies;
+};
+const isApostlesFeast = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  return currentSeason.key === "FEAST_OF_APOSTLES" ? true : false;
 };
 const VisibleRules = {
   hide: hide,
@@ -597,5 +610,8 @@ const VisibleRules = {
   isTwelfthHourGoodFriday: isTwelfthHourGoodFriday,
   isNOTTwelfthHourGoodFriday: isNOTTwelfthHourGoodFriday,
   BrightSaturday: BrightSaturday,
+  VOCSaint: VOCSaint,
+  DOXSaint: DOXSaint,
+  isApostlesFeast: isApostlesFeast,
 };
 export default VisibleRules;

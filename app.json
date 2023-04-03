@@ -38,7 +38,7 @@
       },
       "supportsTablet": true,
       "requireFullScreen": true,
-      "bundleIdentifier": "com.companyname.TasbehaFinal"
+      "bundleIdentifier": "com.seventunes.tasbehafinal"
     },
     "android": {
       "permissions": [
@@ -48,7 +48,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.companyname.TasbehaFinal"
+      "package": "com.seventunes.tasbehafinal"
     },
     "web": {
       "favicon": "./assets/favicon.png"

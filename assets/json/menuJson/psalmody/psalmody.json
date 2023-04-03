@@ -8,7 +8,7 @@
             "hasSubBooks": true,
             "BookPath": "vp",
             "ImageURL": "vp",
-            "Enabled": true
+            "Enabled": false
         },
         {
             "EnglishTitle": "Midnight Praises",
@@ -18,7 +18,7 @@
             "hasSubBooks": true,
             "BookPath": "mp",
             "ImageURL": "mp",
-            "Enabled": true
+            "Enabled": false
         },
         {
             "EnglishTitle": "Morning Doxology",

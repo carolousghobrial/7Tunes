@@ -5,9 +5,9 @@
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
-            "Arabic": "تسبحة باكر",
-            "Coptic": ":do[ologia `nte }wrp",
-            "English": "Morning Praises"
+            "Arabic": "رفع بخور عشية",
+            "Coptic": "`Ptalo  ~Mpi`cqoinoufi `nte |an`arou\\i",
+            "English": "Offering of Evening Incense"
         },
         {
             "Type": "Main",
@@ -57,7 +57,8 @@
             "English": "The Doxologies",
             "Rule": "OpenDoxologies",
             "Visible": true,
-            "Path": "doxologies"
+            "Path": "doxologies",
+            "mother": "vespers"
         },
         {
             "Type": "Main",

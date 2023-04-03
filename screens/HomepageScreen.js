@@ -4,6 +4,7 @@ import {
   Text,
   useWindowDimensions,
   View,
+  Alert,
   Button,
   FlatList,
 } from "react-native";
@@ -17,7 +18,9 @@ import React, { useState } from "react";
 function HomepageScreen({ navigation, route }) {
   const data = homescreenPaths[route.params.bookPath];
   const bookClick = async (item) => {
-    if (item.Enabled) {
+    if (item.Released === false) {
+      Alert.alert("Will be Released Soon....");
+    } else if (item.Enabled) {
       if (item.hasSubBooks) {
         navigation.push("HomepageScreen", {
           bookPath: item.BookPath,

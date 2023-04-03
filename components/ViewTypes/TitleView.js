@@ -26,10 +26,7 @@ function TitleView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
   let flex = "row";
-  if (width > height) {
-    // Landscape mode
-    flex = "row-reverse";
-  } else {
+  if (width < height) {
     // Portrait mode
     flex = "column";
   }
