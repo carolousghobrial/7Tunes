@@ -21,9 +21,7 @@ import {
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers.js";
-import GestureRecognizer, {
-  swipeDirections,
-} from "react-native-swipe-gestures";
+
 
 function FeastModal({ visible, feast, closeModal, setFeast }) {
   const { width, height } = useWindowDimensions();

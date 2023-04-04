@@ -22,9 +22,7 @@ import {
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers.js";
-import GestureRecognizer, {
-  swipeDirections,
-} from "react-native-swipe-gestures";
+
 
 function SaintModal({ visible, saint, closeModal, updateSaint }) {
   const saintSelected = useSelector((state) => state.saints[saint]);

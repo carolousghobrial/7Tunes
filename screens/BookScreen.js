@@ -20,9 +20,7 @@ import {
   Pressable,
   StatusBar,
 } from "react-native";
-import GestureRecognizer, {
-  swipeDirections,
-} from "react-native-swipe-gestures";
+
 import BaseView from "../components/ViewTypes/BaseView";
 import MelodyView from "../components/ViewTypes/MelodyView";
 import TitleView from "../components/ViewTypes/TitleView";
