@@ -1,4 +1,4 @@
-rootProject.name = '7Tunes'
+rootProject.name = '7 Tunes'
 
 apply from: new File(["node", "--print", "require.resolve('expo/package.json')"].execute(null, rootDir).text.trim(), "../scripts/autolinking.gradle");
 useExpoModules()
