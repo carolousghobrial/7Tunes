@@ -28,14 +28,11 @@ import NavigationContainerView from "./components/homepage/NavigationContainerVi
 import { useDispatch, useSelector } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { enableScreens } from 'react-native-screens';
-
+import Purchases, { LOG_LEVEL } from 'react-native-purchases';
 enableScreens(false);
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
-const APIKeys = {
-  apple: "appa21ba64b91",
-  google: "app4d1699d989",
-};
+
 function App() {
   const [appIsReady, setAppIsReady] = useState(false);
   //I18nManager.allowRTL(true);
@@ -45,6 +42,7 @@ function App() {
       try {
         // Pre-load fonts, make any API calls you need to do here
         await useFonts();
+
       } catch (e) {
         console.warn(e);
       } finally {

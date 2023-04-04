@@ -13,9 +13,13 @@ import BookView from "../components/homepage/bookView";
 import TopBoxView from "../components/homepage/topBoxView";
 import homescreenPaths from "../helpers/homescreenPaths";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
-import React, { useState } from "react";
-
-function HomepageScreen({ navigation, route }) {
+import React, { useState,useEffect } from "react";
+import Purchases, { LOG_LEVEL } from 'react-native-purchases';
+const APIKeys = {
+  apple: "appl_oogcAbHhpVioRDVOZirgjMACtKc",
+  google: "goog_JIchqPHcTjhcgcZJClMLTDukueM",
+};
+ function HomepageScreen({ navigation, route }) {
   const data = homescreenPaths[route.params.bookPath];
   const bookClick = async (item) => {
     if (item.Released === false) {
@@ -35,9 +39,30 @@ function HomepageScreen({ navigation, route }) {
         });
       }
     } else {
+      console.log(await Purchases.getOfferings())
+
+
+
     }
   };
+  useEffect(() => {
+    async function prepare() {
+      try {
 
+        Purchases.setLogLevel(LOG_LEVEL.DEBUG);
+
+        if (Platform.OS === 'ios') {
+            await Purchases.configure({ apiKey: APIKeys.apple });
+        } else if (Platform.OS === 'android') {
+            await Purchases.configure({ apiKey: APIKeys.google });
+        }
+      } catch (e) {
+        console.warn(e);
+      }
+    }
+
+    prepare();
+  }, []);
   return (
     <View style={styles.container}>
       <FlatList

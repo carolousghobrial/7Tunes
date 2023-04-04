@@ -94,6 +94,7 @@ function TodaysPrayer() {
             {showPicker && (
               <DateTimePicker
                 value={time}
+                style={{flex: 1}}
                 mode="time"
                 is24Hour={false}
                 display="clock"
@@ -106,6 +107,7 @@ function TodaysPrayer() {
           <DateTimePicker
             value={time}
             mode="time"
+            style={{flex: 1}}
             is24Hour={false}
             display="clock"
             minuteInterval={30}
