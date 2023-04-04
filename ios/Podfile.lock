@@ -513,7 +513,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-restart (from `../node_modules/react-native-restart`)
-  - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context/`)
+  - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -529,10 +529,10 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
-  - RNGestureHandler (from `../node_modules/react-native-gesture-handler/`)
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNPurchases (from `../node_modules/react-native-purchases`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
-  - RNScreens (from `../node_modules/react-native-screens/`)
+  - RNScreens (from `../node_modules/react-native-screens`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -622,7 +622,7 @@ EXTERNAL SOURCES:
   react-native-restart:
     :path: "../node_modules/react-native-restart"
   react-native-safe-area-context:
-    :path: "../node_modules/react-native-safe-area-context/"
+    :path: "../node_modules/react-native-safe-area-context"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -654,13 +654,13 @@ EXTERNAL SOURCES:
   RNDateTimePicker:
     :path: "../node_modules/@react-native-community/datetimepicker"
   RNGestureHandler:
-    :path: "../node_modules/react-native-gesture-handler/"
+    :path: "../node_modules/react-native-gesture-handler"
   RNPurchases:
     :path: "../node_modules/react-native-purchases"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
-    :path: "../node_modules/react-native-screens/"
+    :path: "../node_modules/react-native-screens"
   RNVectorIcons:
     :path: "../node_modules/react-native-vector-icons"
   Yoga:
@@ -732,6 +732,6 @@ SPEC CHECKSUMS:
   RNVectorIcons: fcc2f6cb32f5735b586e66d14103a74ce6ad61f8
   Yoga: ba09b6b11e6139e3df8229238aa794205ca6a02a
 
-PODFILE CHECKSUM: 59ac0aa9ae6cd2d18e052183ad4c9f617180ecbc
+PODFILE CHECKSUM: 9c003cc4b42023584c124448d11cb0d0f7687f07
 
 COCOAPODS: 1.12.0

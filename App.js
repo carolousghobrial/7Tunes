@@ -1,8 +1,8 @@
+import 'react-native-gesture-handler';
 import { StatusBar } from "expo-status-bar";
 import { Ionicons } from "@expo/vector-icons";
 import { useState, useCallback, useEffect } from "react";
-import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+
 import {
   ImageBackground,
   StyleSheet,
@@ -20,8 +20,7 @@ import {
   isInFast,
   isWatos,
 } from "./helpers/copticMonthsHelper";
-import "react-native-gesture-handler";
-import { createDrawerNavigator } from "@react-navigation/drawer";
+
 import SettingsScreen from "./screens/SettingsScreen";
 import CustomDrawerScreen from "./screens/CustomDrawerScreen";
 import { Provider } from "react-redux";
@@ -29,10 +28,9 @@ import { store, persistor } from "./stores/redux/store";
 import NavigationContainerView from "./components/homepage/NavigationContainerView";
 import { useDispatch, useSelector } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
-import { initConnection } from "react-native-iap";
+import { enableScreens } from 'react-native-screens';
 
-import { enableScreens } from "react-native-screens";
-enableScreens();
+enableScreens(false);
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
 

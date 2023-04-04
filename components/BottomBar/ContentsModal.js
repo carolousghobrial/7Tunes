@@ -19,9 +19,7 @@ import {
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers.js";
-import GestureRecognizer, {
-  swipeDirections,
-} from "react-native-swipe-gestures";
+
 import MenuItem from "./MenuItem";
 import MenuMainTitle from "./MenuMainTitle";
 function ContentsModal({ route, navigation }) {

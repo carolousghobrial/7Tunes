@@ -4,9 +4,6 @@ require File.join(File.dirname(`node --print "require.resolve('@react-native-com
 
 require 'json'
 podfile_properties = JSON.parse(File.read(File.join(__dir__, 'Podfile.properties.json'))) rescue {}
-pod 'RNScreens', :path => '../node_modules/react-native-screens/'
-pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler/'
-pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context/'
 ENV['RCT_NEW_ARCH_ENABLED'] = podfile_properties['newArchEnabled'] == 'true' ? '1' : '0'
 
 platform :ios, podfile_properties['ios.deploymentTarget'] || '13.0'
