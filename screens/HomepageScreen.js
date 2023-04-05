@@ -13,13 +13,10 @@ import BookView from "../components/homepage/bookView";
 import TopBoxView from "../components/homepage/topBoxView";
 import homescreenPaths from "../helpers/homescreenPaths";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
-import React, { useState,useEffect } from "react";
-import Purchases, { LOG_LEVEL } from 'react-native-purchases';
-const APIKeys = {
-  apple: "appl_oogcAbHhpVioRDVOZirgjMACtKc",
-  google: "goog_JIchqPHcTjhcgcZJClMLTDukueM",
-};
- function HomepageScreen({ navigation, route }) {
+import React, { useState, useEffect } from "react";
+import { Glassfy } from "react-native-glassfy-module";
+
+function HomepageScreen({ navigation, route }) {
   const data = homescreenPaths[route.params.bookPath];
   const bookClick = async (item) => {
     if (item.Released === false) {
@@ -39,23 +36,12 @@ const APIKeys = {
         });
       }
     } else {
-      console.log(await Purchases.getOfferings())
-
-
-
     }
   };
   useEffect(() => {
     async function prepare() {
       try {
-
-        Purchases.setLogLevel(LOG_LEVEL.DEBUG);
-
-        if (Platform.OS === 'ios') {
-            await Purchases.configure({ apiKey: APIKeys.apple });
-        } else if (Platform.OS === 'android') {
-            await Purchases.configure({ apiKey: APIKeys.google });
-        }
+        await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
       } catch (e) {
         console.warn(e);
       }
