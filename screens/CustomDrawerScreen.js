@@ -8,7 +8,8 @@ import {
 import { Entypo } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
 import { getLanguageValue, getColor } from "../helpers/SettingsHelpers";
-
+import { Glassfy, GlassfySku } from "react-native-glassfy-module";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import {
   DrawerContentScrollView,
   DrawerItemList,
@@ -42,9 +43,24 @@ const CustomDrawerScreen = (props) => {
       Alert.alert(error.message);
     }
   };
+  const RestorePurchase = async () => {
+    try {
+      await Glassfy.restorePurchases();
+    } catch (error) {
+      Alert.alert(error.message);
+    }
+  };
   const ShareIcon = () => {
     return <Entypo name="share" size={24} color="black" />;
   };
+  const RestoreIcon = () => {
+    return <MaterialCommunityIcons
+    name="restore"
+    size={24}
+    color={"black"}
+  />;
+  };
+  
   const CommentIcon = () => {
     return <FontAwesome name="question-circle" size={24} color="black" />;
   };
@@ -69,9 +85,9 @@ const CustomDrawerScreen = (props) => {
           onPress={onShare}
         />
                 <DrawerItem
-          icon={ShareIcon}
-          label={getLanguageValue("share")}
-          onPress={onShare}
+          icon={RestoreIcon}
+          label={getLanguageValue("restore")}
+          onPress={RestorePurchase}
         />
         <DrawerItem
           icon={CommentIcon}

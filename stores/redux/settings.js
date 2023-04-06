@@ -17,6 +17,9 @@ const settingsSlice = createSlice({
     arabic: true,
     copticenglish: false,
     copticarabic: false,
+    standardPsalmodyPermission : false,
+    kiahkPsalmodyPermission : false,
+    paschaBookPermission : false,
     timeTransition: new Date().setHours(18, 0, 0),
     currentSeason: {
       key: "STANDARD",
@@ -32,6 +35,7 @@ const settingsSlice = createSlice({
       copticDay: "",
       copticYear: "",
     },
+
   },
   reducers: {
     setTimeTransition: (state, action) => {
@@ -132,6 +136,28 @@ const settingsSlice = createSlice({
         currentSeason: action.payload.currentSeason,
       };
     },
+    setItemPurchased: (state, action) => {
+      const permissionId = action.payload.permissionId;
+
+      switch (permissionId) {
+        case "standardPsalmodyPermission":
+          return {
+            ...state,
+            standardPsalmodyPermission: true,
+          };
+        case "kiahkPsalmodyPermission":
+          return {
+            ...state,
+            kiahkPsalmodyPermission: true,
+          };
+        case "paschaBookPermission":
+          return {
+            ...state,
+            paschaBookPermission: true,
+          };
+      }
+
+    },
   },
 });
 export const changeLanguage = settingsSlice.actions.changeLanguage;
@@ -141,5 +167,7 @@ export const changeFontSize = settingsSlice.actions.changeFontSize;
 export const changeTodayPrayer = settingsSlice.actions.changeTodayPrayer;
 export const changeTextLanguage = settingsSlice.actions.changeTextLanguage;
 export const setSeason = settingsSlice.actions.setSeason;
+export const setItemPurchased = settingsSlice.actions.setItemPurchased;
+
 
 export default settingsSlice.reducer;

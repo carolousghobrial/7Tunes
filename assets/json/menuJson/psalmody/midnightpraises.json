@@ -3,8 +3,8 @@
         {
             "EnglishTitle": "Standard Midnight's Praises",
             "ArabicTitle": "تسبحة نصف الليل السنوي",
-            "PurchaseKeyDroid": "annualpsalmodyid",
-            "PurchaseKeyIos": "annualpsalmodyidsku",
+            "PurchaseKey": "StandardPsalmody",
+            "PermissionStatus" : "standardPsalmodyPermission",
             "hasSubBooks": false,
             "BookPath": "standardPsalmody",
             "ImageURL": "david",
@@ -13,8 +13,8 @@
         {
             "EnglishTitle": "Kiahk Midnight's Praises",
             "ArabicTitle": "تسبحة نصف الليل الكيهكي",
-            "PurchaseKeyDroid": "annualpsalmodyid",
-            "PurchaseKeyIos": "annualpsalmodyidsku",
+            "PurchaseKey": "KiahkPsalmody",
+            "PermissionStatus" : "kiahkPsalmodyPermission",
             "hasSubBooks": false,
             "BookPath": "kiahkPsalmody",
             "ImageURL": "annuciation",
@@ -23,8 +23,8 @@
         {
             "EnglishTitle": "Lenten Midnight's Praises",
             "ArabicTitle": "تسبحة نصف الليل الصيامي",
-            "PurchaseKeyDroid": "annualpsalmodyid",
-            "PurchaseKeyIos": "annualpsalmodyidsku",
+            "PurchaseKey": "StandardPsalmody",
+            "PermissionStatus" : "standardPsalmodyPermission",
             "hasSubBooks": false,
             "BookPath": "lentenPsalmody",
             "ImageURL": "lent",

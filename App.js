@@ -27,6 +27,7 @@ import { store, persistor } from "./stores/redux/store";
 import NavigationContainerView from "./components/homepage/NavigationContainerView";
 import { useDispatch, useSelector } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
+import { Glassfy, GlassfySku } from "react-native-glassfy-module";
 import { enableScreens } from 'react-native-screens';
 enableScreens(false);
 // Keep the splash screen visible while we fetch resources
@@ -41,6 +42,7 @@ function App() {
       try {
         // Pre-load fonts, make any API calls you need to do here
         await useFonts();
+        await Glassfy.initialize('68561c8cc6994fb2af25a34a19a5554f', false);
 
       } catch (e) {
         console.warn(e);
@@ -76,7 +78,10 @@ function App() {
         style={[styles.backgroundimage]}
       >
         <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+
           <NavigationContainerView />
+          </PersistGate>
         </Provider>
       </ImageBackground>
     </SafeAreaView>

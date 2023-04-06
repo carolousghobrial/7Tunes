@@ -24,6 +24,7 @@
             "EnglishTitle": "The Holy Pascha",
             "ArabicTitle": "البصخة المقدسة",
             "PurchaseKey": "PaschaBook",
+            "PermissionStatus" : "paschaBookPermission",
             "hasSubBooks": true,
             "BookPath": "pascha",
             "ImageURL": "pascha",

@@ -88,7 +88,7 @@ function TodaysPrayer() {
         </View>
       </View>
       <View>
-        {isAndroid ? (
+        {/* {isAndroid ? (
           <View>
             <Button onPress={showTimeTimePicker} title="Select time" />
             {showPicker && (
@@ -113,7 +113,7 @@ function TodaysPrayer() {
             minuteInterval={30}
             onChange={handleTimeChange}
           />
-        )}
+        )} */}
       </View>
     </View>
   );
