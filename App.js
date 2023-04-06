@@ -28,7 +28,6 @@ import NavigationContainerView from "./components/homepage/NavigationContainerVi
 import { useDispatch, useSelector } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { enableScreens } from 'react-native-screens';
-import Purchases, { LOG_LEVEL } from 'react-native-purchases';
 enableScreens(false);
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();

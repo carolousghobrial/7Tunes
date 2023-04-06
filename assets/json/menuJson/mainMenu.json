@@ -23,12 +23,11 @@
         {
             "EnglishTitle": "The Holy Pascha",
             "ArabicTitle": "البصخة المقدسة",
-            "PurchaseKeyDroid": "holypaschaid",
-            "PurchaseKeyIos": "holypaschasku",
+            "PurchaseKey": "PaschaBook",
             "hasSubBooks": true,
             "BookPath": "pascha",
             "ImageURL": "pascha",
-            "Enabled": true
+            "Enabled": false
         },
         {
             "EnglishTitle": "The Veneration",

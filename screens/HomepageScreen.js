@@ -14,7 +14,7 @@ import TopBoxView from "../components/homepage/topBoxView";
 import homescreenPaths from "../helpers/homescreenPaths";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 import React, { useState, useEffect } from "react";
-import { Glassfy } from "react-native-glassfy-module";
+import { Glassfy, GlassfySku } from "react-native-glassfy-module";
 
 function HomepageScreen({ navigation, route }) {
   const data = homescreenPaths[route.params.bookPath];
@@ -36,18 +36,29 @@ function HomepageScreen({ navigation, route }) {
         });
       }
     } else {
+        const permissions = await Glassfy.permissions();
+        console.log(permissions);
+
+ 
+
+
     }
   };
   useEffect(() => {
     async function prepare() {
       try {
-        await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
+        // Pre-load fonts, make any API calls you need to do here
+        await Glassfy.initialize('68561c8cc6994fb2af25a34a19a5554f', false);
+
+
       } catch (e) {
         console.warn(e);
-      }
+      } 
     }
 
     prepare();
+
+
   }, []);
   return (
     <View style={styles.container}>

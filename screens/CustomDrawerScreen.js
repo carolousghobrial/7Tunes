@@ -68,6 +68,11 @@ const CustomDrawerScreen = (props) => {
           label={getLanguageValue("share")}
           onPress={onShare}
         />
+                <DrawerItem
+          icon={ShareIcon}
+          label={getLanguageValue("share")}
+          onPress={onShare}
+        />
         <DrawerItem
           icon={CommentIcon}
           label="Comment/Question"
