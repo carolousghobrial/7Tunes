@@ -17,8 +17,13 @@ import DateTimePicker from "@react-native-community/datetimepicker";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import {
   changeTodayPrayer,
+  setSeason,
   setTimeTransition,
 } from "../../stores/redux/settings.js";
+import {
+  setCurrentSeasonLive,
+
+} from "../../helpers/copticMonthsHelper";
 
 function TodaysPrayer() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
@@ -30,14 +35,16 @@ function TodaysPrayer() {
   const [time, setTime] = useState(new Date(timeTransition));
   const [showPicker, setShowPicker] = useState(false);
   const isAndroid = Platform.OS === "ios" ? false : true;
-  let flexDirection = "row-reverse";
+  let flexDirection = "row";
   if (language === "ara") {
-    flexDirection = "row";
+    flexDirection = "row-reverse";
   }
   const handleTimeChange = (event, selectedTime) => {
     const currentTime = selectedTime || time;
     setShowPicker(Platform.OS === "ios");
     dispatch(setTimeTransition({ timeTransition: currentTime }));
+    dispatch(setSeason({ currentSeason: setCurrentSeasonLive(currentTime) }));
+
     setTime(currentTime);
   };
 
@@ -88,7 +95,7 @@ function TodaysPrayer() {
         </View>
       </View>
       <View>
-        {/* {isAndroid ? (
+        {isAndroid ? (
           <View>
             <Button onPress={showTimeTimePicker} title="Select time" />
             {showPicker && (
@@ -104,16 +111,26 @@ function TodaysPrayer() {
             )}
           </View>
         ) : (
+          <View style={{flexDirection:"row"}}>
+            <Text
+            style={[
+              styles.description,
+              { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") , flex:7 },
+            ]}
+          >
+            {getLanguageValue("todayprayerdescription")}
+          </Text>
           <DateTimePicker
             value={time}
             mode="time"
-            style={{flex: 1}}
+            style={{flex: 3}}
             is24Hour={false}
-            display="clock"
+            display="inline"
             minuteInterval={30}
             onChange={handleTimeChange}
           />
-        )} */}
+          </View>
+        )}
       </View>
     </View>
   );

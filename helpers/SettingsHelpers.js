@@ -2,8 +2,10 @@ import Colors from "../constants/colors";
 import Languages from "../constants/languages";
 import { useDispatch, useSelector } from "react-redux";
 
+
 export function getLanguageValue(key) {
   const appLanguage = useSelector((state) => state.settings.appLanguage);
+
   return Languages[appLanguage][key];
 }
 export function getSeason() {

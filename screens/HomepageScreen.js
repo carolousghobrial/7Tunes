@@ -1,7 +1,7 @@
 import {
   StyleSheet,
   Dimensions,
-  Text,
+  ActivityIndicator,
   useWindowDimensions,
   View,
   Alert,
@@ -17,21 +17,17 @@ import React, { useState, useEffect } from "react";
 import { Glassfy, GlassfySku } from "react-native-glassfy-module";
 import { useDispatch, useSelector } from "react-redux";
 import { setItemPurchased } from "../stores/redux/settings";
+import * as ScreenOrientation from 'expo-screen-orientation';
 
 function HomepageScreen({ navigation, route }) {
   const data = homescreenPaths[route.params.bookPath];
   const isStandardBought = useSelector((state) => state.settings.standardPsalmodyPermission);
   const isKiahkBought = useSelector((state) => state.settings.kiahkPsalmodyPermission);
   const isPaschaBought = useSelector((state) => state.settings.paschaBookPermission);
+  const [isLoading, setIsLoading] = useState(false);
+
   const dispatch = useDispatch();
-  Dimensions.addEventListener('change', (dimensions) => {
-    // you get:
-    console.log("ASDAD");
-    //  dimensions.window.width
-    //  dimensions.window.height
-    //  dimensions.screen.width
-    //  dimensions.screen.height
-  });
+
   async function bookClick(item) {
     var isBought = false;
     switch(item.PermissionStatus){
@@ -48,12 +44,15 @@ function HomepageScreen({ navigation, route }) {
     if (item.Released === false) {
       Alert.alert("Will be Released Soon....");
       return;
-    } else if (item.Enabled === false) {
+    } 
+    else if (item.Enabled === false) {
+      setIsLoading(true);
       if(!isBought){
+        await Glassfy.restorePurchases();
         const permissions = await Glassfy.permissions();
-        const offerings = await Glassfy.offerings();
         const BookPermission = permissions.all.find((permission) => permission.permissionId === item.PermissionStatus);
         if(BookPermission.isValid === false){
+          const offerings = await Glassfy.offerings();
           const OfferingToBuy = offerings.all.find((offering) => offering.offeringId === item.PurchaseKey).skus[0];
           try {
             const transaction =  await Glassfy.purchaseSku(OfferingToBuy);
@@ -63,10 +62,13 @@ function HomepageScreen({ navigation, route }) {
                 dispatch(setItemPurchased({ permissionId: permission.permissionId }));
             }
             else{
+              setIsLoading(false);
+
               return;
             }
           } catch (error) {
             Alert.alert(error.toString());
+            setIsLoading(false);
             return;
           }
         }
@@ -75,6 +77,8 @@ function HomepageScreen({ navigation, route }) {
         }
       }
     } 
+    setIsLoading(false);
+
      if (item.hasSubBooks) {
         navigation.push("HomepageScreen", {
           bookPath: item.BookPath,
@@ -92,6 +96,7 @@ function HomepageScreen({ navigation, route }) {
 
   return (
     <View style={styles.container}>
+            {isLoading ? <ActivityIndicator size="large" color="black" /> : null}
       <FlatList
         data={data.books}
         horizontal={false}

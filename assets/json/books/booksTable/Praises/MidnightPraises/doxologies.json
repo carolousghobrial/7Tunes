@@ -412,6 +412,12 @@
             "Path": "DoxologiesConclusionPartOnAdamDays",
             "Rule": 0,
             "Visible": "isPraises"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSaturdayWatosConclusion",
+            "Rule": 0,
+            "Visible": "isSeason"
         }
     ]
 }

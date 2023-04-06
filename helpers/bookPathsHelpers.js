@@ -265,6 +265,7 @@ const bookPaths = {
   RaisingOfIncenseVersesOfCymbalsVersesofCymbalsCovenantThursday: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/VersesofCymbalsCovenantThursday.json"),
   RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPentecost: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/VersesofCymbalsPentecost.json"),
   RaisingOfIncenseVersesOfCymbalsVersesofCymbalsRessurection: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/VersesofCymbalsRessurection.json"),
+  RaisingOfIncenseVersesOfCymbalsVersesofCymbalsRessurectionArchangelMichael: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/VersesofCymbalsRessurectionArchangelMicael.json"),
   RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTheophany: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/VersesofCymbalsTheophany.json"),
   RaisingOfIncenseVersesOfCymbalsVersesofCymbalsWatos: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/VersesofCymbalsWatos.json"),
   //Theotokias\Friday

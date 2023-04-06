@@ -107,9 +107,19 @@ const isNOTVespersPraises = (motherSource, path) => {
 };
 const isSeason = (motherSource, path) => {
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
-
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
+  if(motherSource === "brightSaturdayMatins" ){
+    if(path === "DoxologiesMajorFeastsRessurection2" || path === "TheotokiasSaturdayWatosConclusion"){
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
+  if(motherSource == "covenantThursdayMatins"){
+    return false;
+  }
   if (todayPrayer) {
     switch (currentSeason.key) {
       case "COPTIC_NEW_YEAR":
@@ -241,6 +251,7 @@ const isSeason = (motherSource, path) => {
           return true;
         }
         return false;
+      
       case "RESURRECTION":
       case "THOMAS_SUNDAY":
       case "HOLY_50":
@@ -249,16 +260,26 @@ const isSeason = (motherSource, path) => {
         }
         return false;
       case "ASCENSION":
+        if (path.toLowerCase().includes("ressurection") && path.toLowerCase().includes("Doxologies")) {
+          return true;
+        }
+        return false;
         if (path.toLowerCase().includes("ascensionfeast")) {
           return true;
         }
         return false;
       case "ASCENSIONTOPENTECOST":
+        if (path.toLowerCase().includes("ressurection") && path.toLowerCase().includes("Doxologies")) {
+          return true;
+        }
         if (path.toLowerCase().includes("ascensionpeiod")) {
           return true;
         }
         return false;
       case "PENTECOST":
+        if (path.toLowerCase().includes("ressurection") && path.toLowerCase().includes("Doxologies")) {
+          return true;
+        }
         if (path.toLowerCase().includes("pentecost")) {
           return true;
         }
@@ -370,7 +391,7 @@ const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
   return false;
 };
 const isMatins = (motherSource, path) => {
-  return motherSource === "matins" ? true : false;
+  return motherSource.toLowerCase().includes("matins") ? true : false;
 };
 const isVespers = (motherSource, path) => {
   return motherSource === "vespers" ? true : false;
@@ -420,6 +441,9 @@ const isLentWeekdayOrJonah = (motherSource, path) => {
 };
 const isWatos = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if(motherSource === "ThursdayDayFirstHourMain"){
+    return true;
+  }
   if (
     currentSeason.isWatos &&
     isNOTLentWeekdayOrJonah(motherSource, path) &&
@@ -432,6 +456,7 @@ const isWatos = (motherSource, path) => {
 };
 const isAdam = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+
   if (
     currentSeason.isWatos === false &&
     isNOTLentWeekdayOrJonah(motherSource, path) &&
@@ -444,7 +469,9 @@ const isAdam = (motherSource, path) => {
 };
 const isNOTLentWeekdayOrJonah = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+  if(motherSource === "ThursdayDayFirstHourMain"){
+    return true;
+  }
   if (currentSeason.key === "JONAH_FAST") {
     return false;
   }
@@ -516,6 +543,9 @@ const isHosanna = (motherSource, path) => {
 };
 const showHitenVOC = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if(motherSource === "ThursdayDayFirstHourMain"){
+    return true;
+  }
   if (
     currentSeason.type === "feast" ||
     isLentWeekdayOrJonah(motherSource, path)
@@ -539,7 +569,7 @@ const notPalmSunday = (motherSource, path) => {
   return false;
 };
 const CreedHolyWeek = (motherSource, path) => {
-  return motherSource === "ThursdayDayFirstHourMain" ? false : true;
+  return motherSource === "ThursdayDayFirstHourMain" ? true : false;
 };
 const isTwelfthHourGoodFriday = (motherSource, path) => {
   return motherSource === "FridayDayTwelfthHourMain" ? true : false;
@@ -554,10 +584,14 @@ const hide = (motherSource, path) => {
   return true;
 };
 const VOCSaint = (motherSource, path) => {
+  const saintSelected = useSelector((state) => state.saints[path]);
+
+  if(motherSource === "ThursdayDayFirstHourMain"){
+   return saintSelected.vos;
+  }
   if (isLentWeekdayOrJonah(motherSource, path)) {
     return false;
   }
-  const saintSelected = useSelector((state) => state.saints[path]);
 
   return saintSelected.vos;
 };

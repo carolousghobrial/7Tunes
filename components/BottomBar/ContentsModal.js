@@ -41,13 +41,11 @@ function ContentsModal({ route, navigation }) {
     setInitialIndex(initialKey);
   }, []);
   return (
-    <View style={[styles.container]}>
-      <View
-        style={{
-          backgroundColor: getColor("NavigationBarColor"),
-        }}
-      >
+
         <FlatList
+        style={[styles.container,{
+          backgroundColor: getColor("NavigationBarColor"),
+        }]}
           data={menuData}
           ref={flatListRef}
           initialNumToRender={menuData.data}
@@ -60,8 +58,7 @@ function ContentsModal({ route, navigation }) {
           )}
           initialScrollIndex={initialIndex}
         />
-      </View>
-    </View>
+  
   );
 }
 
@@ -69,6 +66,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     width: "100%",
+    height: "100%"
   },
   transparentView: {
     height: "100%",

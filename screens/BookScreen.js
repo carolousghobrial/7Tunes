@@ -9,6 +9,8 @@ import React, {
 } from "react";
 import Icon from "react-native-vector-icons/Ionicons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { useDispatch, useSelector } from "react-redux";
+
 import {
   StyleSheet,
   useWindowDimensions,
@@ -57,20 +59,23 @@ const BookScreen = React.memo(({ navigation, route }) => {
   );
   const memoizedData = useMemo(() => values[0], [values[0]]);
   const [isLoading, setIsLoading] = useState(true);
+  const appLanguage = useSelector((state) => state.settings.appLanguage);
 
   // const [data, setData] = useState(values[0]);
   const [menuData, setMenuData] = useState(values[1]);
   const [englishTitle, setenglishTitle] = useState(
     memoizedData[0].EnglishTitle
   );
-  const [copticTitle, setcopticTitle] = useState(memoizedData[0].CopticTitle);
   const [arabicTitle, setarabicTitle] = useState(memoizedData[0].ArabicTitle);
   // const [prevIndexStack, setprevIndexStack] = useState([0]);
   var currentIndex = 0;
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
     if (viewableItems.length > 0) {
-      setIndex(viewableItems[0].index);
-      //sehowMcuhToScroll(viewableItems.length - 1);
+      if(viewableItems[0].item.EnglishTitle !== englishTitle && viewableItems[0].item.EnglishTitle !== undefined ){
+        setenglishTitle(viewableItems[0].item.EnglishTitle);
+        setarabicTitle(viewableItems[0].item.ArabicTitle);
+      }
+            //sehowMcuhToScroll(viewableItems.length - 1);
     }
   }).current;
 
@@ -128,10 +133,14 @@ const BookScreen = React.memo(({ navigation, route }) => {
     });
   }, [NavbarVisibility]);
   useEffect(() => {
+    var title = englishTitle;
+    if(appLanguage !== "eng"){
+      title = arabicTitle;
+    }
     navigation.setOptions({
-      title: englishTitle,
+      title: title,
       headerTitleStyle: {
-        fontSize: 15,
+        fontSize: 13,
       },
     });
   }, [englishTitle]);

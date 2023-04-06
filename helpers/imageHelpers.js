@@ -49,6 +49,7 @@ const images = {
   RESURRECTION: require("../assets/images/FeastsImages/RESURRECTION.jpg"),
   PALM_SUNDAY: require("../assets/images/FeastsImages/PALM_SUNDAY.jpg"),
   ASCENSION: require("../assets/images/FeastsImages/ASCENSION.jpg"),
+  ASCENSIONTOPENTECOST: require("../assets/images/FeastsImages/ASCENSION.jpg"),
   PENTECOST: require("../assets/images/FeastsImages/PENTECOST.jpg"),
   FEAST_OF_CIRCUMCISION: require("../assets/images/FeastsImages/FEAST_OF_CIRCUMCISION.jpg"),
   ENTRY_EGYPT: require("../assets/images/FeastsImages/ENTRY_EGYPT.jpg"),

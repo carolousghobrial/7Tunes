@@ -77,6 +77,7 @@ const CustomDrawerScreen = (props) => {
       style={styles.backgroundimage}
     >
       <DrawerContentScrollView {...props}>
+      
         <TopBoxView></TopBoxView>
         <DrawerItemList {...props}></DrawerItemList>
         <DrawerItem

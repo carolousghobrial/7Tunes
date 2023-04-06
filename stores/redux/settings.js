@@ -32,7 +32,7 @@ const settingsSlice = createSlice({
       major: true,
       plantsSeason: "air",
       copticMonth: "",
-      copticDay: "",
+      xc: "",
       copticYear: "",
     },
 
