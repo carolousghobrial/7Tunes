@@ -46,6 +46,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   let labelColor = getColor("LabelColor");
 
   var pageBackgroundColor = getColor("pageBackgroundColor");
+  const pagination = useSelector((state) => state.settings.pagination);
 
   const [NavbarVisibility, setNavbarVisibility] = useState(true);
   const [index, setIndex] = useState(0);
@@ -217,15 +218,13 @@ const BookScreen = React.memo(({ navigation, route }) => {
   return (
     <>
       <SettingsModal visible={settingsModalVisible} closeModal={closeModal} />
-
-      <View
-        style={[styles.container, { backgroundColor: pageBackgroundColor }]}
-      >
         <FlatList
           ref={flatListRef}
+          style={[styles.container, { backgroundColor: pageBackgroundColor }]}
           onViewableItemsChanged={onViewableItemsChanged}
           showsVerticalScrollIndicator={false}
           data={memoizedData}
+          pagingEnabled={pagination}
           onScrollToIndexFailed={onScrollToIndexFailed}
           initialNumToRender={memoizedData.length}
           // initialScrollIndex={scrollToIndex}
@@ -235,7 +234,6 @@ const BookScreen = React.memo(({ navigation, route }) => {
             return item.key;
           }}
         />
-      </View>
     </>
   );
 });

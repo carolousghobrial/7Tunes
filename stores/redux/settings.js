@@ -21,6 +21,7 @@ const settingsSlice = createSlice({
     kiahkPsalmodyPermission : false,
     paschaBookPermission : false,
     timeTransition: new Date().setHours(18, 0, 0),
+    pagination: false,
     currentSeason: {
       key: "STANDARD",
       week: moment().week(),
@@ -58,6 +59,12 @@ const settingsSlice = createSlice({
       return {
         ...state,
         darkMode: !state.darkMode,
+      };
+    },
+    changePagination: (state, action) => {
+      return {
+        ...state,
+        pagination: !state.pagination,
       };
     },
     changeFontSize: (state, action) => {
@@ -168,6 +175,8 @@ export const changeTodayPrayer = settingsSlice.actions.changeTodayPrayer;
 export const changeTextLanguage = settingsSlice.actions.changeTextLanguage;
 export const setSeason = settingsSlice.actions.setSeason;
 export const setItemPurchased = settingsSlice.actions.setItemPurchased;
+export const changePagination = settingsSlice.actions.changePagination;
+
 
 
 export default settingsSlice.reducer;

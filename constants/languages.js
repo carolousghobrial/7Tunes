@@ -53,6 +53,11 @@ const Languages = {
     Thoout: "Thoout",
     Tobe: "Tobe",
     todayprayer: "Today's Prayer",
+    presentationMode: "Presentation Mode",
+    presentationModeDescription: "Enable Pagination which allows you to scroll one page at a time.",
+    setTimeTodayPrayer: "Set the time where you would like to roll over to the next day.",
+    saintsMenu: "Saints Menu",
+    commentsOrQuestions: "Comment/Question",
     todayprayerdescription:
       "Today's Prayer options allows the application to automatically load the prayers/hymns said today rather than loading all the possible options",
     NATIVITY: "Nativity",
@@ -159,9 +164,15 @@ const Languages = {
     restore: "استعادة المشتريات",
     settings: "إعدادات",
     share: "مشاركة التطبيق",
+    saintsMenu: "قائمة القديسين",
+    commentsOrQuestions: "تعليق / سؤال",
     Thoout: "توت",
     Tobe: "طوبه",
     todayprayer: "صلاة اليوم",
+    presentationMode: "صفحة ",
+    presentationModeDescription: "تمكين ترقيم الصفحات الذي يسمح لك بتمرير صفحة واحدة في كل مرة.",
+    setTimeTodayPrayer: "اضبط الوقت الذي ترغب في الانتقال فيه إلى اليوم التالي.",
+
     todayprayerdescription:
       "تتيح خيارات الصلاة اليوم للتطبيق تحميل الصلوات / الالحان التي تقال اليوم تلقائيًا بدلاً من تحميل جميع الخيارات الممكنة",
     NATIVITY: "عيد الميلاد",

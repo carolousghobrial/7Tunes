@@ -16,7 +16,7 @@ function FeastView({ item, onClick }) {
   const copticStartDate = getCopticDate(
     item.start.year(),
     item.start.month(),
-    item.start.day()
+    item.start.date()
   );  
   const copticStartDateString = getCopticDateString(copticStartDate.year, copticStartDate.month,copticStartDate.day);
 
@@ -36,7 +36,7 @@ function FeastView({ item, onClick }) {
      var copticDate = getCopticDate(
        item.end.year(),
        item.end.month(),
-       item.end.day()
+       item.end.date()
      );  
      return getCopticDateString(copticDate.year, copticDate.month,copticDate.day);
    
@@ -60,11 +60,11 @@ function FeastView({ item, onClick }) {
             {item.end !== null ? "-" : null}
             {item.end !== null ? item.end.format("MMM Do YYYY") : null}
           </Text>
-          {/* <Text style={styles.text}>
+          <Text style={styles.text}>
             {copticStartDateString}
             {item.end !== null ? "-" : null}
             {item.end !== null ? getCopticEndDateString() : null}
-          </Text> */}
+          </Text>
         </View>
       </Pressable>
     </View>

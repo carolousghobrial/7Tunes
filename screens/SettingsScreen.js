@@ -13,7 +13,7 @@ import FontSize from "../components/settings/fontSize";
 import VisibleLangs from "../components/settings/visibleLangs";
 import SaintsList from "../components/settings/saintsList";
 import TodaysPrayer from "../components/settings/todaysPrayer";
-import Test from "../components/settings/test";
+import PresentationMode from "../components/settings/presentationMode";
 import {
   getLanguageValue,
   getFontSize,
@@ -22,9 +22,10 @@ import {
 function SettingsScreen({ navigation, route }) {
   return (
     <ScrollView style={{ backgroundColor: getColor("pageBackgroundColor") }}>
+      <ApplicationLanguage></ApplicationLanguage>
       <AppTheme></AppTheme>
       <TodaysPrayer></TodaysPrayer>
-      <ApplicationLanguage></ApplicationLanguage>
+      <PresentationMode></PresentationMode>
       <FontSize></FontSize>
       <VisibleLangs></VisibleLangs>
       <SaintsList></SaintsList>

@@ -16,17 +16,16 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors.js";
 import Languages from "../../constants/languages.js";
-import { changeDarkMode } from "../../stores/redux/settings.js";
+import { changePagination } from "../../stores/redux/settings.js";
 
-function AppTheme() {
+function PresentationMode() {
   const { height, width } = useWindowDimensions();
-  const darkMode = useSelector((state) => state.settings.darkMode);
-  const language = useSelector((state) => state.settings.appLanguage);
+  const pagination = useSelector((state) => state.settings.pagination);
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let flexDirection = "row";
 
   const dispatch = useDispatch();
-  const toggleSwitch = () => dispatch(changeDarkMode());
+  const toggleSwitch = () => dispatch(changePagination());
 
   return (
     <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
@@ -34,22 +33,22 @@ function AppTheme() {
         <View style={styles.titleView}>
           <Text style={[styles.title,               { fontSize: fontSize * 1.3, color: getColor("PrimaryColor") },
 ]}>
-            {getLanguageValue("backgroundselector")}
+            {getLanguageValue("presentationMode")}
           </Text>
           <Text style={[styles.title,               { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") },
 ]}>
-            {getLanguageValue("backgroundselectordescription")}
+            {getLanguageValue("presentationModeDescription")}
           </Text>
         </View>
         <View style={styles.switch}>
           <View style={styles.textContainer}>
             <Text
               style={[
-                darkMode ? [styles.textOn] : [styles.textOff],
+                pagination ? [styles.textOn] : [styles.textOff],
                 { color: getColor("PrimaryColor") },
               ]}
             >
-              {darkMode ? getLanguageValue("dark") : getLanguageValue("light")}
+              {pagination ? "Yes" : "No"}
             </Text>
           </View>
           <Switch
@@ -58,11 +57,11 @@ function AppTheme() {
               true: getColor("SecondaryColor"),
             }}
             ios_backgroundColor={
-              darkMode
+              pagination
                 ? getColor("SecondaryColor")
                 : getColor("NavigationBarColor")
             }
-            value={darkMode}
+            value={pagination}
             onValueChange={toggleSwitch}
             thumbColor="white"
           />
@@ -117,4 +116,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default AppTheme;
+export default PresentationMode;

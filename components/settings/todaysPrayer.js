@@ -36,16 +36,17 @@ function TodaysPrayer() {
   const [showPicker, setShowPicker] = useState(false);
   const isAndroid = Platform.OS === "ios" ? false : true;
   let flexDirection = "row";
-  if (language === "ara") {
-    flexDirection = "row-reverse";
-  }
+
   const handleTimeChange = (event, selectedTime) => {
     const currentTime = selectedTime || time;
-    setShowPicker(Platform.OS === "ios");
-    dispatch(setTimeTransition({ timeTransition: currentTime }));
-    dispatch(setSeason({ currentSeason: setCurrentSeasonLive(currentTime) }));
+    if(time != currentTime){
+      setShowPicker(Platform.OS === "ios");
+      dispatch(setTimeTransition({ timeTransition: currentTime }));
+      dispatch(setSeason({ currentSeason: setCurrentSeasonLive(currentTime) }));
+  
+      setTime(currentTime);
+    }
 
-    setTime(currentTime);
   };
 
   const showTimeTimePicker = () => {
@@ -97,6 +98,14 @@ function TodaysPrayer() {
       <View>
         {isAndroid ? (
           <View>
+            <Text
+            style={[
+              styles.description,
+              { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") , flex:7 },
+            ]}
+          >
+            {getLanguageValue("setTimeTodayPrayer")}
+          </Text>
             <Button onPress={showTimeTimePicker} title="Select time" />
             {showPicker && (
               <DateTimePicker
@@ -118,7 +127,7 @@ function TodaysPrayer() {
               { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") , flex:7 },
             ]}
           >
-            {getLanguageValue("todayprayerdescription")}
+            {getLanguageValue("setTimeTodayPrayer")}
           </Text>
           <DateTimePicker
             value={time}

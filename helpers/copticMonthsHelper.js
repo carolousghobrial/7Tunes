@@ -732,7 +732,7 @@ export function getCopticDate(year, monthIndex, day) {
     // wrap around to beginning
     var m_next = CopticMonthObjects[(i + 1) % CopticMonthObjects.length];
 
-    var gregDate = new Date(year, monthIndex, day);
+    var gregDate = new Date(year, monthIndex, day, 12, 0, 0);
     var copticMonthStartDate;
     var copticMonthEndDate;
 
@@ -751,16 +751,16 @@ export function getCopticDate(year, monthIndex, day) {
     if (gregDate >= copticMonthStartDate && gregDate < copticMonthEndDate) {
       copticMonth = m.name;
       copticMonthIndex = m.index;
-      copticDay =
-        Math.floor((gregDate - copticMonthStartDate) / (1000 * 24 * 3600)) + 2;
+      copticDay = Math.floor((gregDate - copticMonthStartDate) / (1000 * 24 * 3600)) + 1;
       break;
     }
   }
+
   return {
     month: copticMonth,
     monthIndex: copticMonthIndex,
     day: copticDay,
-    year: copticYear,
+    year: copticYear
   };
 }
 

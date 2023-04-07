@@ -92,7 +92,7 @@ const CustomDrawerScreen = (props) => {
         />
         <DrawerItem
           icon={CommentIcon}
-          label="Comment/Question"
+          label={getLanguageValue("commentsOrQuestions")}
           onPress={() => Linking.openURL("https://forms.gle/kY4ZqxVcVrKSVhmq5")}
         />
         <DrawerItem

@@ -293,7 +293,7 @@ const bookPaths = {
   //Theotokias\Psalis
   TheotokiasPsalisApostlesAdam: require("../assets/json/books/booksContent/Theotokias/Psalis/ApostlesAdam.json"),
   TheotokiasPsalisApostlesWatos: require("../assets/json/books/booksContent/Theotokias/Psalis/ApostlesWatos.json"),
-  TheotokiasPsalisAscensionPeiodAdam: require("../assets/json/books/booksContent/Theotokias/Psalis/AscensionAdam.json"),
+  TheotokiasPsalisAscensionPeriodAdam: require("../assets/json/books/booksContent/Theotokias/Psalis/AscensionAdam.json"),
   TheotokiasPsalisAscensionFeastWatos: require("../assets/json/books/booksContent/Theotokias/Psalis/AscensionFeastWatos.json"),
   TheotokiasPsalisAscensionPeriodWatos: require("../assets/json/books/booksContent/Theotokias/Psalis/AscensionWatos.json"),
   TheotokiasPsalisCrossAdam: require("../assets/json/books/booksContent/Theotokias/Psalis/CrossAdam.json"),

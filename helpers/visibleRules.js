@@ -144,7 +144,8 @@ const isSeason = (motherSource, path) => {
         }
         return false;
       case "ANNUNCIATION":
-        if (path.toLowerCase().includes("Annunciation")) {
+        if (path.toLowerCase().includes("annunciation")) {
+          console.log("HERE");
           return true;
         }
         return false;
@@ -260,7 +261,7 @@ const isSeason = (motherSource, path) => {
         }
         return false;
       case "ASCENSION":
-        if (path.toLowerCase().includes("ressurection") && path.toLowerCase().includes("Doxologies")) {
+        if (path.toLowerCase().includes("ressurection") && path.toLowerCase().includes("doxologies")) {
           return true;
         }
         return false;
@@ -269,15 +270,15 @@ const isSeason = (motherSource, path) => {
         }
         return false;
       case "ASCENSIONTOPENTECOST":
-        if (path.toLowerCase().includes("ressurection") && path.toLowerCase().includes("Doxologies")) {
+        if (path.toLowerCase().includes("ressurection") && path.toLowerCase().includes("doxologies")) {
           return true;
         }
-        if (path.toLowerCase().includes("ascensionpeiod")) {
+        if (path.toLowerCase().includes("ascensionperiod")) {
           return true;
         }
         return false;
       case "PENTECOST":
-        if (path.toLowerCase().includes("ressurection") && path.toLowerCase().includes("Doxologies")) {
+        if (path.toLowerCase().includes("ressurection") && path.toLowerCase().includes("doxologies")) {
           return true;
         }
         if (path.toLowerCase().includes("pentecost")) {
