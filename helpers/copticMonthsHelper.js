@@ -1,6 +1,6 @@
 import { getLanguageValue, getFontSize, getColor } from "./SettingsHelpers.js";
 import { useDispatch, useSelector } from "react-redux";
-const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+//const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
 var moment = require("moment-timezone"); //moment-timezone
 
@@ -604,12 +604,12 @@ export function plantsSeason(currentDate) {
   }
 }
 export function getTodayDate(timeTransition) {
-  var todayDate =  new Date();
+  var todayDate = new Date();
 
   if (new Date(timeTransition).getHours() <= todayDate.getHours()) {
     todayDate.setDate(todayDate.getDate() + 1);
   }
-  todayDate.setHours(0,0,0,0);
+  todayDate.setHours(0, 0, 0, 0);
   const returnMoment = moment(todayDate);
   return returnMoment;
 }
@@ -664,7 +664,6 @@ export function setCurrentSeasonLive(timeTransition) {
   return mycurrentSeason;
 }
 function getWeeksSinceStartDate(startDate) {
-
   const now = new Date(); // Get the current date
   const msPerWeek = 1000 * 60 * 60 * 24 * 7; // Number of milliseconds in a week
   const diffInMs = now.getTime() - startDate.getTime(); // Difference in milliseconds between now and start date
@@ -751,7 +750,8 @@ export function getCopticDate(year, monthIndex, day) {
     if (gregDate >= copticMonthStartDate && gregDate < copticMonthEndDate) {
       copticMonth = m.name;
       copticMonthIndex = m.index;
-      copticDay = Math.floor((gregDate - copticMonthStartDate) / (1000 * 24 * 3600)) + 1;
+      copticDay =
+        Math.floor((gregDate - copticMonthStartDate) / (1000 * 24 * 3600)) + 1;
       break;
     }
   }
@@ -760,7 +760,7 @@ export function getCopticDate(year, monthIndex, day) {
     month: copticMonth,
     monthIndex: copticMonthIndex,
     day: copticDay,
-    year: copticYear
+    year: copticYear,
   };
 }
 

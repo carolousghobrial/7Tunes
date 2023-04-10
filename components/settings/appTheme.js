@@ -32,12 +32,20 @@ function AppTheme() {
     <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
       <View style={[styles.switchView, { flexDirection: flexDirection }]}>
         <View style={styles.titleView}>
-          <Text style={[styles.title,               { fontSize: fontSize * 1.3, color: getColor("PrimaryColor") },
-]}>
+          <Text
+            style={[
+              styles.title,
+              { fontSize: fontSize * 1.3, color: getColor("PrimaryColor") },
+            ]}
+          >
             {getLanguageValue("backgroundselector")}
           </Text>
-          <Text style={[styles.title,               { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") },
-]}>
+          <Text
+            style={[
+              styles.title,
+              { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") },
+            ]}
+          >
             {getLanguageValue("backgroundselectordescription")}
           </Text>
         </View>

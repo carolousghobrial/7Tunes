@@ -72,11 +72,14 @@ const BookScreen = React.memo(({ navigation, route }) => {
   var currentIndex = 0;
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
     if (viewableItems.length > 0) {
-      if(viewableItems[0].item.EnglishTitle !== englishTitle && viewableItems[0].item.EnglishTitle !== undefined ){
+      if (
+        viewableItems[0].item.EnglishTitle !== englishTitle &&
+        viewableItems[0].item.EnglishTitle !== undefined
+      ) {
         setenglishTitle(viewableItems[0].item.EnglishTitle);
         setarabicTitle(viewableItems[0].item.ArabicTitle);
       }
-            //sehowMcuhToScroll(viewableItems.length - 1);
+      //sehowMcuhToScroll(viewableItems.length - 1);
     }
   }).current;
 
@@ -135,7 +138,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   }, [NavbarVisibility]);
   useEffect(() => {
     var title = englishTitle;
-    if(appLanguage !== "eng"){
+    if (appLanguage !== "eng") {
       title = arabicTitle;
     }
     navigation.setOptions({
@@ -148,7 +151,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 100);
+    }, 10);
   }, []);
   const settingsPressed = () => {
     setsettingsModalVisible(true);
@@ -218,22 +221,22 @@ const BookScreen = React.memo(({ navigation, route }) => {
   return (
     <>
       <SettingsModal visible={settingsModalVisible} closeModal={closeModal} />
-        <FlatList
-          ref={flatListRef}
-          style={[styles.container, { backgroundColor: pageBackgroundColor }]}
-          onViewableItemsChanged={onViewableItemsChanged}
-          showsVerticalScrollIndicator={false}
-          data={memoizedData}
-          pagingEnabled={pagination}
-          onScrollToIndexFailed={onScrollToIndexFailed}
-          initialNumToRender={memoizedData.length}
-          // initialScrollIndex={scrollToIndex}
-          removeClippedSubviews={true}
-          renderItem={renderItems}
-          keyExtractor={(item) => {
-            return item.key;
-          }}
-        />
+      <FlatList
+        ref={flatListRef}
+        style={[styles.container, { backgroundColor: pageBackgroundColor }]}
+        onViewableItemsChanged={onViewableItemsChanged}
+        showsVerticalScrollIndicator={false}
+        data={memoizedData}
+        pagingEnabled={pagination}
+        onScrollToIndexFailed={onScrollToIndexFailed}
+        initialNumToRender={memoizedData.length}
+        // initialScrollIndex={scrollToIndex}
+        removeClippedSubviews={true}
+        renderItem={renderItems}
+        keyExtractor={(item) => {
+          return item.key;
+        }}
+      />
     </>
   );
 });

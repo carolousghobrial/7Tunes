@@ -23,7 +23,6 @@ import {
   getColor,
 } from "../../helpers/SettingsHelpers.js";
 
-
 function SaintModal({ visible, saint, closeModal, updateSaint }) {
   const saintSelected = useSelector((state) => state.saints[saint]);
   const [modalIsOpen, setModalIsOpen] = useState(false);

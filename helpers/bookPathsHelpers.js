@@ -156,6 +156,7 @@ const bookPaths = {
   //Doxologies\MajorFeasts
   DoxologiesMajorFeastsAnnunciation: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/Annunciation.json"),
   DoxologiesMajorFeastsCircumcision: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/Circumcision.json"),
+  DoxologiesMajorFeastsThomasSunday: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/ThomasSunday.json"),
   DoxologiesMajorFeastsEntryEgypt: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/EntryEgypt.json"),
   DoxologiesMajorFeastsWeddingCana: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/WeddingCana.json"),
   DoxologiesMajorFeastsPresentationTemple: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/PresentationTemple.json"),

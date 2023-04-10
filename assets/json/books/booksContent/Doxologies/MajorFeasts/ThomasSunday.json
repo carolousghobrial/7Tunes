@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية لحد توما",
+  "EnglishTitle": "Thomas Sunday Doxology",
+  "CopticTitle": "+en pima\\ `]mhn `n`e\\o`ou",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "في اليوم الثامن كان التلاميذ مجتمعين ومعهم توما وكانت الأبواب مغلقة.",
+      "Coptic": "+en pima\\ `]mhn `n`e\\o`ou> nauqouht `e=oun `nje nimaqhthc> nafxh nemaf `nje Qwmac> nare nirw`ou ec]otem.",
+      "English": "On the eighth day, the disciples were gathered, and Thomas was with them, the doors were shut.",
+      "Arabiccoptic": "    خين بيماه إشمين إن إيهوؤ: نافثويت إيخون إنجى نى ماثيتيس: نافكى نيموؤ إنجى ثوماس: نارى نيروؤ إسشوتيم.",
+      "Englishcoptic": "Khen pimah eshmeen en-eho-ooo: navthoooeet -ekhooon enje nimatheetees: nafshee nemaf enje Thoomas: nare niroo-ooo esshotem."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وقف في وسطهم ربنا يسوع المسيح وقال سلام لكم يا أحبائى وقال.",
+      "Coptic": "  Af`o\\i `eratf =en toumh;> `nje penoc? Ihc? Pxc?> pejaf je `t\\irhnh nemwten> namenra; ouo\\ pejaf.",
+      "English": "Our Lord Jesus Christ, stood in their midst, and said \"Peace be to you, O My brothers\" and He said.",
+      "Arabiccoptic": "    أفؤهى إيراتف خين توميتى: إنجى بين شويس إيسوس بخرستوس: بيجاف جى إتهيرينى نيموتين : ناميزا تى أووه بيجاف.",
+      "Englishcoptic": "Af-ohi -eratf khen tooomeeti: enje penos? Iees? Pkhs?: pegaf je ethireenee nemooten: namenrati ooooh pegaf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا توما هات إصبعك هنا وضع يدك في جنبى ولا تكن غير مؤمن بل مؤمنا.",
+      "Coptic": "Qwmac ma pekthb `mnai> ouo\\ `anhou tekjij> xa tekjij =en pa`cvir> `mpererna\\; alla na\\;.",
+      "English": "\"Thomas put your finger here, reach out your hand, place your hand on My side, do not doubt but believe.\"",
+      "Arabiccoptic": "     توماس ما بيك ثييب إمناى: أووه أنيوء تيك جيج: كاتيك جيج خين با إسفير: إمبير إرناهتى اللا ناهتى.",
+      "Englishcoptic": "Thoomas ma pekteev emnai: ooooh -aneeooo tekjig: kha tekjig khen paesvir: emperernahti alla nahti."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " فصرخ توما قائلًا ربى وإلهى قال له يسوع لما رأيتنى أمنت.",
+      "Coptic": "  Qwmac de af`w] `ebol> je paoc? ouo\\ paNou;> pejaf naf `nje Ihc?> aknau `eroi akna\\;.",
+      "English": "Thomas proclaimed, \"My Lord and my God,\" Jesus said to him, \"You see and you believe.\"",
+      "Arabiccoptic": "   توماس ذى أفؤش إيفول: جى باشويس أووه بانوتى: بيجاف ناف إتجى إيسوس: أكناف إيروى أكناهتى.",
+      "Englishcoptic": "Thoomas ze af-oosh -evol: je paos? ooooh paNoooti: pegaf naf enje Iees?: aknav -eroi aknahti."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوبى لمن يقبل إلى ويؤمن بى ولم يرانى اجعلنا مستحقين أن نؤمن بك يا سيدنا الملك المسيح.",
+      "Coptic": "`W`ouniatou `nni`etaunhou> `eroi `anau anna\\; `eroi an> `ariten `n`em`p]a `ntenna\\; `erok> `w penNhb `p`Ouro Pxc?.",
+      "English": "\"But blessed are those who accept, and believe but have not seen,\" make us worthy to believe in You, O our Master Christ the King.",
+      "Arabiccoptic": "    أوؤنياتو إن نى إيطافنيو: إيروى أناف أناهتى إيروى أن: أريتين إم إم إبشا إنتين ناهتى إيروك: أوبين نيب إبؤرو بخرستوس.",
+      "Englishcoptic": "-Oo-oooniatooo enni-etavneeooo: -eroi -anav annahti -eroi an: -ariten en-emepsha entennahti -erok: -oo penNeev ep-Oooro Pkhs?."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " من أجل هذا نحن أغنياء، بالخيرات الكاملة، وبإيمان نرتل، قائلين \"هلليلويا.\"",
+      "Coptic": "  Eqbe vai tenoi `nrama`o> =en ni`agaqon etjhk `ebol> =en ouna\\; teneryalin> enjw `mmoc je allhlouia.",
+      "English": " Therefore we are rich, with perfect good things, and with faith we sing, saying “Alleluia.”",
+      "Arabiccoptic": "    إثفى فاى تين أوى إنراماؤ: خين نى أغاثون إتجيج إيفول: خين أوناهتى تينيربسالين إنجو إمموس جى الليلويا.",
+      "Englishcoptic": "Ethve vai tenoi enrama-o: khen ni-aghathon etgeek -evol: khen ooonahti tenerpsalin: engoo emmos je alleeloooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا (4)، يسوع المسيح ملك المجد، قام من بين الأموات.",
+      "Coptic": "Allhlouia (=d)> Ihcouc Pi`xrictoc `Pouro `nte `p`wou> aftwnf `ebol =en nheqmwout.",
+      "English": "Alleluia (4), Jesus Christ the King of glory, has risen from the dead.",
+      "Arabiccoptic": "   الليلويا الليلويا الليلويا الليلويا: إيسوس بخرستوس إبؤرو إنتى إبؤؤ: أفتونف إيفول خين نى إثموؤت.",
+      "Englishcoptic": "Alleeloooia (khz): Ieesooos Piekhristos ePoooro ente ep-ooooo: aftoonf -evol khen neeethmooooot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " هذا الذي ينبغي له المجد، مع أبيه الصالح، والروح القدس، من الآن وإلى الأبد.",
+      "Coptic": "Vai `ere pi`wou er`prepi naf > nem Pefiwt `nagaqoc > nem Pip/n/a/ e/q/u/ > icjen ;nou nem ]a `ene\\ .",
+      "English": "This is He who is due glory, with His good Father, and the Holy Spirit, both now and forever.",
+      "Arabiccoptic": "   فاى أرى بى أوؤ إر إبريبى ناف: نيم بيف يوت إن أغاثوس: نيم بى إبنفما إثؤاب: يسيجين تينو نيم شا إينيه.",
+      "Englishcoptic": "Vai -ere pi-ooooo ereprepi naf : nem Pefioot enaghathos : nem Pip/n/a/ e/th/ee/ : isjen tinooo nem sha -eneh ."
+    }
+  ]
+}

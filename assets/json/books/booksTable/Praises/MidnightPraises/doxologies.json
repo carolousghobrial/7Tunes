@@ -161,6 +161,12 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesMajorFeastsThomasSunday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesMajorFeastsEntryEgypt",
             "Rule": 0,
             "Visible": "isSeason"

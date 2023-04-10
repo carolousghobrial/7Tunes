@@ -96,13 +96,13 @@ const styles = StyleSheet.create({
   },
   coptic: {
     fontFamily: "coptic-font",
-    textAlign: "justify",
+    textAlign: "right",
     justifyContent: "center",
     textAlign: "center",
   },
   arabic: {
     fontFamily: "arabictitle-font",
-    textAlign: "justify",
+    textAlign: "right",
     writingDirection: "rtl",
     justifyContent: "center",
     textAlign: "center",

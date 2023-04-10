@@ -21,16 +21,15 @@ function TopBoxView() {
   const season = getLanguageValue(currentSeason.key);
   const [seasonText, setseasonText] = useState("");
   const [date, setDate] = useState("");
-   const [copticdate,setCopticDate] = useState("");
-   const dispatch = useDispatch();
+  const [copticdate, setCopticDate] = useState("");
+  const dispatch = useDispatch();
 
   useEffect(() => {
     // Update the document title using the browser API
     SetCurrentSeason();
     SetDateTime();
-        SetCopticDateTime();
+    SetCopticDateTime();
   });
-
 
   function SetCurrentSeason() {
     switch (currentSeason.key) {
@@ -71,42 +70,41 @@ function TopBoxView() {
     }
   }
   function SetDateTime() {
-    try{
-      if(currentSeason.end === null && currentSeason.start !== undefined){
+    try {
+      if (currentSeason.end === null && currentSeason.start !== undefined) {
         setDate(currentSeason.start.format("dddd, MMMM Do YYYY"));
-      }
-      else{
+      } else {
         setDate(moment().format("dddd, MMMM Do YYYY"));
       }
-    }
-    catch(error){
-    }
-
+    } catch (error) {}
   }
   function SetCopticDateTime() {
-    setCopticDate(Languages[appLang][currentSeason.copticMonth] + " " + currentSeason.copticDay + ", " + currentSeason.copticYear);
-    
+    setCopticDate(
+      Languages[appLang][currentSeason.copticMonth] +
+        " " +
+        currentSeason.copticDay +
+        ", " +
+        currentSeason.copticYear
+    );
   }
-  function setLive(){
-    dispatch(setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) }));
-
+  function setLive() {
+    dispatch(
+      setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
+    );
   }
   return (
-    <Pressable onPress={setLive}> 
+    <Pressable onPress={setLive}>
+      <View style={styles.bookView}>
+        <Image style={styles.image} source={images[currentSeason.key]} />
+        <View style={styles.textView}>
+          <Text style={styles.text}>{copticdate}</Text>
+          <Text style={styles.text}>{date}</Text>
+          <Text style={styles.text}>{seasonText}</Text>
+        </View>
 
-    <View style={styles.bookView}>
-      <Image style={styles.image} source={images[currentSeason.key]} />
-      <View style={styles.textView}>
-        <Text style={styles.text}>{copticdate}
-        </Text>
-        <Text style={styles.text}>{date}</Text>
-        <Text style={styles.text}>{seasonText}</Text>
+        {/* <Text>{getCopticFastsFeasts()}</Text> */}
       </View>
-
-      {/* <Text>{getCopticFastsFeasts()}</Text> */}
-    </View>
     </Pressable>
-
   );
 }
 

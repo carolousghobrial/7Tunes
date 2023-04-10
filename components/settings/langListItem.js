@@ -12,10 +12,8 @@ function LangListItem(props) {
   const dispatch = useDispatch();
   const language = useSelector((state) => state.settings.appLanguage);
 
-  let flexDirection = "row-reverse";
-  if (language === "ara") {
-    flexDirection = "row";
-  }
+  let flexDirection = "row";
+
   return (
     <View
       style={[

@@ -20,7 +20,6 @@ import {
   getColor,
 } from "../../helpers/SettingsHelpers.js";
 
-
 function SettingsModal({ visible, closeModal }) {
   const { width, height } = useWindowDimensions();
   let flexDirection = "column";

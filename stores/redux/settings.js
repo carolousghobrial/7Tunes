@@ -17,11 +17,12 @@ const settingsSlice = createSlice({
     arabic: true,
     copticenglish: false,
     copticarabic: false,
-    standardPsalmodyPermission : false,
-    kiahkPsalmodyPermission : false,
-    paschaBookPermission : false,
+    standardPsalmodyPermission: false,
+    kiahkPsalmodyPermission: false,
+    paschaBookPermission: false,
     timeTransition: new Date().setHours(18, 0, 0),
     pagination: false,
+    isTablet: false,
     currentSeason: {
       key: "STANDARD",
       week: moment().week(),
@@ -36,7 +37,6 @@ const settingsSlice = createSlice({
       xc: "",
       copticYear: "",
     },
-
   },
   reducers: {
     setTimeTransition: (state, action) => {
@@ -44,6 +44,13 @@ const settingsSlice = createSlice({
       return {
         ...state,
         timeTransition: time,
+      };
+    },
+    setIsTablet: (state, action) => {
+      const isTablet = action.payload.isTablet;
+      return {
+        ...state,
+        isTablet: isTablet,
       };
     },
     changeLanguage: (state, action) => {
@@ -69,7 +76,7 @@ const settingsSlice = createSlice({
     },
     changeFontSize: (state, action) => {
       const minFont = 10;
-      const maxFont = 40;
+      const maxFont = 50;
       const direction = action.payload.direction;
       let currentFontSize = state.textFontSize;
       switch (direction) {
@@ -163,7 +170,6 @@ const settingsSlice = createSlice({
             paschaBookPermission: true,
           };
       }
-
     },
   },
 });
@@ -176,7 +182,5 @@ export const changeTextLanguage = settingsSlice.actions.changeTextLanguage;
 export const setSeason = settingsSlice.actions.setSeason;
 export const setItemPurchased = settingsSlice.actions.setItemPurchased;
 export const changePagination = settingsSlice.actions.changePagination;
-
-
 
 export default settingsSlice.reducer;

@@ -23,6 +23,12 @@
         {
           "initialOrientation": "DEFAULT"
         }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "carolous.ghobrial"
+        }
       ]
     ],
     "updates": {
@@ -45,13 +51,13 @@
         "com.android.vending.BILLING"
       ],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#F5F5DE",
+        "foregroundImage": "./assets/images/logofinal.png"
       },
       "package": "com.seventunes.tasbehafinal"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/logofinal.png"
     }
   }
 }

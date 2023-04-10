@@ -24,11 +24,11 @@
             "EnglishTitle": "The Holy Pascha",
             "ArabicTitle": "البصخة المقدسة",
             "PurchaseKey": "PaschaBook",
-            "PermissionStatus" : "paschaBookPermission",
+            "PermissionStatus": "paschaBookPermission",
             "hasSubBooks": true,
             "BookPath": "pascha",
             "ImageURL": "pascha",
-            "Enabled": false
+            "Enabled": true
         },
         {
             "EnglishTitle": "The Veneration",

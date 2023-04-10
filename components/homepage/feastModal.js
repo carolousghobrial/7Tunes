@@ -22,7 +22,6 @@ import {
   getColor,
 } from "../../helpers/SettingsHelpers.js";
 
-
 function FeastModal({ visible, feast, closeModal, setFeast }) {
   let labelColor = getColor("LabelColor");
 
@@ -65,11 +64,19 @@ function FeastModal({ visible, feast, closeModal, setFeast }) {
               backgroundColor: getColor("NavigationBarColor"),
             }}
           >
-            <View style={[styles.imageContainerLandscape, imageStyle, {borderColor: labelColor}]}>
+            <View
+              style={[
+                styles.imageContainerLandscape,
+                imageStyle,
+                { borderColor: labelColor },
+              ]}
+            >
               <Image style={styles.image} source={images[feast.key]} />
             </View>
-            <Text style={[styles.text,{color: labelColor}]}>{getLanguageValue(feast.key)}</Text>
-            <Text style={[styles.text,{color: labelColor}]}>
+            <Text style={[styles.text, { color: labelColor }]}>
+              {getLanguageValue(feast.key)}
+            </Text>
+            <Text style={[styles.text, { color: labelColor }]}>
               {feast.start.format("MMM Do YYYY")}
               {feast.end !== null ? "-" : null}
               {feast.end !== null ? feast.end.format("MMM Do YYYY") : null}
@@ -77,17 +84,17 @@ function FeastModal({ visible, feast, closeModal, setFeast }) {
             <View style={{ flexDirection: "row" }}>
               <Pressable
                 android_ripple={{ color: getColor("pageBackgroundColor") }}
-                style={[styles.button, {borderColor: labelColor}]}
+                style={[styles.button, { borderColor: labelColor }]}
                 onPress={closeModal}
               >
-                <Text style={[styles.text,{color: labelColor}]}>Close</Text>
+                <Text style={[styles.text, { color: labelColor }]}>Close</Text>
               </Pressable>
               <Pressable
                 android_ripple={{ color: getColor("pageBackgroundColor") }}
-                style={[styles.button, {borderColor: labelColor}]}
+                style={[styles.button, { borderColor: labelColor }]}
                 onPress={setFeast.bind(this, feast.key)}
               >
-                <Text style={[styles.text,{color: labelColor}]}>Set</Text>
+                <Text style={[styles.text, { color: labelColor }]}>Set</Text>
               </Pressable>
             </View>
           </View>

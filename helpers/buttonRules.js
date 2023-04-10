@@ -48,7 +48,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
     var newReplacedString = "( " + item.Count + " )";
     item.English = item.English.replace(oldReplacedString, newReplacedString);
     item.Arabic = item.Arabic.replace(oldReplacedString, newReplacedString);
-    if (item.Count > 12) {
+    if (item.Count >= 12) {
       item.Visible = "hide";
     }
     flatListRef.current.scrollToIndex({

@@ -1,5 +1,13 @@
 import { StyleSheet } from "react-native";
-import { View, Button, TextInput, Text, Image, Pressable } from "react-native";
+import {
+  View,
+  Button,
+  Platform,
+  TextInput,
+  Text,
+  Image,
+  Pressable,
+} from "react-native";
 import { getCopticDateString } from "../../helpers/copticMonthsHelper";
 import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
 import moment from "moment";
@@ -12,16 +20,11 @@ import {
 import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect, memo } from "react";
-import {
-  ComeRisenRule,
-  ROICONCLUSION,
-  REPLACEGOSPELAUTHOR,
-  REPLACPASCHAHOURDAY,
-  REPLACEPROPHETS,
-} from "../../helpers/replacingRules";
+
 function MelodyView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let textColor = "";
+  const testAlignText = Platform.OS === "ios" ? "justify" : "right";
 
   switch (item.Side) {
     case "North":
@@ -59,7 +62,13 @@ function MelodyView({ item }) {
       {englishVisible ? (
         <View style={styles.textView}>
           <Text
-            style={[styles.english, { fontSize: fontSize, color: textColor }]}
+            style={[
+              styles.english,
+              {
+                fontSize: fontSize,
+                color: textColor,
+              },
+            ]}
           >
             {item.English}
           </Text>
@@ -69,7 +78,15 @@ function MelodyView({ item }) {
       {arabicVisible ? (
         <View style={styles.textView}>
           <Text
-            style={[styles.arabic, { fontSize: fontSize, color: textColor }]}
+            style={[
+              styles.arabic,
+              {
+                fontSize: fontSize,
+                color: textColor,
+                textAlign: testAlignText,
+                lineHeight: fontSize * 1.8,
+              },
+            ]}
           >
             {item.Arabic}
           </Text>
@@ -91,12 +108,11 @@ const styles = StyleSheet.create({
   },
   coptic: {
     fontFamily: "coptic-font",
-    textAlign: "justify",
+    textAlign: "right",
     justifyContent: "flex-start",
   },
   arabic: {
     fontFamily: "arabic-font",
-    textAlign: "justify",
     writingDirection: "rtl",
   },
   english: {

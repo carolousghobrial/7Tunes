@@ -6,7 +6,7 @@
     {
       "Type": "Ritual",
       "Rule": 0,
-      "Visible": "CreedHolyWeek",
+      "Visible": "isCovenantThursday",
       "Side": "North",
       "Arabic": "  يقال قانون الإيمان لغاية تجسد وتأنس ثم يكمل بنعم نؤمن بالروح القدس إلى آخره",
       "English": "The Orthodox Creed is said untill the sentence \" and became man\" then we skip to \" Yes, we believe in the Holy Spirit\""
@@ -54,7 +54,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "BrightSaturday",
+      "Visible": "CreedCrucified",
       "Side": "North",
       "Arabic": "وصلب عنا على عهد بيلاطس البنطي، وتألم وقبر. .",
       "English": "And He was crucified for us under Pontius Pilate, suffered and was buried. "

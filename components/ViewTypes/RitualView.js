@@ -1,5 +1,13 @@
 import { StyleSheet } from "react-native";
-import { View, Button, TextInput, Text, Image, Pressable } from "react-native";
+import {
+  View,
+  Button,
+  TextInput,
+  Platform,
+  Text,
+  Image,
+  Pressable,
+} from "react-native";
 import { getCopticDateString } from "../../helpers/copticMonthsHelper";
 import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
 import moment from "moment";
@@ -15,6 +23,7 @@ import {
 function RitualView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let RitualColor = getColor("RitualColor");
+  const testAlignText = Platform.OS === "ios" ? "justify" : "right";
 
   return (
     <View style={styles.bookView}>
@@ -30,7 +39,14 @@ function RitualView({ item }) {
       </View>
       <View style={styles.textView}>
         <Text
-          style={[styles.arabic, { fontSize: fontSize, color: RitualColor }]}
+          style={[
+            styles.arabic,
+            {
+              fontSize: fontSize,
+              color: RitualColor,
+              textAlign: testAlignText,
+            },
+          ]}
         >
           {item.Arabic}
         </Text>
@@ -51,11 +67,10 @@ const styles = StyleSheet.create({
   },
   coptic: {
     fontFamily: "coptic-font",
-    textAlign: "justify",
+    textAlign: "right",
   },
   arabic: {
     fontFamily: "arabicritual-font",
-    textAlign: "justify",
     writingDirection: "rtl",
   },
   english: {

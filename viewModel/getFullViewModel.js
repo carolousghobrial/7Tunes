@@ -166,282 +166,286 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
     } else {
       temppath = part.Path;
     }
-    if (
-      part.Visible === true ||
-      VisibleRules[part.Visible](motherSource, temppath)
-    ) {
-      if (part.Type === "Main") {
-        const [tempView, tempMenu, mykey] = getMain(
-          part.Path,
-          motherSource,
-          true,
-          thisRule,
-          key
-        );
-        key = mykey;
-        myViewArray = myViewArray.concat(tempView);
-      } else {
-        if (thisRule !== 0 && thisRule != undefined) {
-          var newPart = {};
-          if (part.Type === "Base") {
-            if (part.English.includes("[*COME/RISEN*]")) {
-              var replacingWord = "[*COME/RISEN*]";
-              var myrule = ComeRisenRule();
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                Arabiccoptic: part.Arabiccoptic.replace(
-                  replacingWord,
-                  myrule.arabiccoptic
-                ),
-                Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-                English: part.English.replace(replacingWord, myrule.english),
-                Englishcoptic: part.Englishcoptic.replace(
-                  replacingWord,
-                  myrule.englishcoptic
-                ),
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else if (part.English.includes("[*ROICONCLUSION*]")) {
-              var replacingWord = "[*ROICONCLUSION*]";
-              var myrule = ROICONCLUSION();
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                Arabiccoptic: part.Arabiccoptic.replace(
-                  replacingWord,
-                  myrule.arabiccoptic
-                ),
-                Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-                English: part.English.replace(replacingWord, myrule.english),
-                Englishcoptic: part.Englishcoptic.replace(
-                  replacingWord,
-                  myrule.englishcoptic
-                ),
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else if (part.English.includes("[*GOSPEL_AUTHOR*]")) {
-              var replacingWord = "[*GOSPEL_AUTHOR*]";
-              var myrule = REPLACEGOSPELAUTHOR(thisRule);
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                Arabiccoptic: part.Arabiccoptic.replace(
-                  replacingWord,
-                  myrule.arabiccoptic
-                ),
-                Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-                English: part.English.replace(replacingWord, myrule.english),
-                Englishcoptic: part.Englishcoptic.replace(
-                  replacingWord,
-                  myrule.englishcoptic
-                ),
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else if (part.English.includes("[*PROPHECIES_AUTHOR*]")) {
-              var replacingWord = "[*PROPHECIES_AUTHOR*]";
-              var myrule = REPLACEPROPHETS(thisRule);
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                Arabiccoptic: part.Arabiccoptic.replace(
-                  replacingWord,
-                  myrule.arabiccoptic
-                ),
-                Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-                English: part.English.replace(replacingWord, myrule.english),
-                Englishcoptic: part.Englishcoptic.replace(
-                  replacingWord,
-                  myrule.englishcoptic
-                ),
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else if (part.English.includes("[*HOMILY_FATHER*]")) {
-              var replacingWord = "[*HOMILY_FATHER*]";
-              var myrule = REPLACEHOMILYFATHERS(thisRule);
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                Arabiccoptic: part.Arabiccoptic.replace(
-                  replacingWord,
-                  myrule.arabiccoptic
-                ),
-                Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-                English: part.English.replace(replacingWord, myrule.english),
-                Englishcoptic: part.Englishcoptic.replace(
-                  replacingWord,
-                  myrule.englishcoptic
-                ),
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else {
-              newPart = part;
-            }
-          } else if (part.Type === "Melody") {
-            if (part.English.includes("[*COME/RISEN*]")) {
-              var replacingWord = "[*COME/RISEN*]";
-              var myrule = ComeRisenRule();
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                English: part.English.replace(replacingWord, myrule.english),
-
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else if (part.English.includes("[*ROICONCLUSION*]")) {
-              var replacingWord = "[*ROICONCLUSION*]";
-              var myrule = ROICONCLUSION();
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                English: part.English.replace(replacingWord, myrule.english),
-
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else if (part.English.includes("[*GOSPEL_AUTHOR*]")) {
-              var replacingWord = "[*GOSPEL_AUTHOR*]";
-              var myrule = REPLACEGOSPELAUTHOR(thisRule);
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                English: part.English.replace(replacingWord, myrule.english),
-
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else if (part.English.includes("[*PASCHA_HOUR_DAY*]")) {
-              var replacingWord = "[*PASCHA_HOUR_DAY*]";
-              var myrule = REPLACPASCHAHOURDAY(thisRule);
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                English: part.English.replace(replacingWord, myrule.english),
-
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else if (part.English.includes("[*PROPHECIES_AUTHOR*]")) {
-              var replacingWord = "[*PROPHECIES_AUTHOR*]";
-              var myrule = REPLACEPROPHETS(thisRule);
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                English: part.English.replace(replacingWord, myrule.english),
-
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else {
-              newPart = part;
-            }
-          }
-
-          myViewArray.push({
-            part: newPart,
-            key: key,
-            EnglishTitle: englishttl,
-            CopticTitle: copticttl,
-            ArabicTitle: arabicttl,
-          });
-          key++;
+    try {
+      if (
+        part.Visible === true ||
+        VisibleRules[part.Visible](motherSource, temppath)
+      ) {
+        if (part.Type === "Main") {
+          const [tempView, tempMenu, mykey] = getMain(
+            part.Path,
+            motherSource,
+            true,
+            thisRule,
+            key
+          );
+          key = mykey;
+          myViewArray = myViewArray.concat(tempView);
         } else {
-          var newPart = {};
-          var replacingWord = "";
-          var myrule = {};
-          if (part.English.includes("[*COME/RISEN*]")) {
-            replacingWord = "[*COME/RISEN*]";
-            myrule = ComeRisenRule();
+          if (thisRule !== 0 && thisRule != undefined) {
+            var newPart = {};
             if (part.Type === "Base") {
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                Arabiccoptic: part.Arabiccoptic.replace(
-                  replacingWord,
-                  myrule.arabiccoptic
-                ),
-                Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-                English: part.English.replace(replacingWord, myrule.english),
-                Englishcoptic: part.Englishcoptic.replace(
-                  replacingWord,
-                  myrule.englishcoptic
-                ),
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else {
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                English: part.English.replace(replacingWord, myrule.english),
+              if (part.English.includes("[*COME/RISEN*]")) {
+                var replacingWord = "[*COME/RISEN*]";
+                var myrule = ComeRisenRule();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*ROICONCLUSION*]")) {
+                var replacingWord = "[*ROICONCLUSION*]";
+                var myrule = ROICONCLUSION();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*GOSPEL_AUTHOR*]")) {
+                var replacingWord = "[*GOSPEL_AUTHOR*]";
+                var myrule = REPLACEGOSPELAUTHOR(thisRule);
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*PROPHECIES_AUTHOR*]")) {
+                var replacingWord = "[*PROPHECIES_AUTHOR*]";
+                var myrule = REPLACEPROPHETS(thisRule);
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*HOMILY_FATHER*]")) {
+                var replacingWord = "[*HOMILY_FATHER*]";
+                var myrule = REPLACEHOMILYFATHERS(thisRule);
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else {
+                newPart = part;
+              }
+            } else if (part.Type === "Melody") {
+              if (part.English.includes("[*COME/RISEN*]")) {
+                var replacingWord = "[*COME/RISEN*]";
+                var myrule = ComeRisenRule();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  English: part.English.replace(replacingWord, myrule.english),
 
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            }
-          } else if (part.English.includes("[*ROICONCLUSION*]")) {
-            replacingWord = "[*ROICONCLUSION*]";
-            myrule = ROICONCLUSION();
-            if (part.Type === "Base") {
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                Arabiccoptic: part.Arabiccoptic.replace(
-                  replacingWord,
-                  myrule.arabiccoptic
-                ),
-                Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-                English: part.English.replace(replacingWord, myrule.english),
-                Englishcoptic: part.Englishcoptic.replace(
-                  replacingWord,
-                  myrule.englishcoptic
-                ),
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
-            } else {
-              newPart = {
-                Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                English: part.English.replace(replacingWord, myrule.english),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*ROICONCLUSION*]")) {
+                var replacingWord = "[*ROICONCLUSION*]";
+                var myrule = ROICONCLUSION();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  English: part.English.replace(replacingWord, myrule.english),
 
-                Rule: thisRule,
-                Side: part.Side,
-                Type: part.Type,
-                Visible: part.Visible,
-              };
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*GOSPEL_AUTHOR*]")) {
+                var replacingWord = "[*GOSPEL_AUTHOR*]";
+                var myrule = REPLACEGOSPELAUTHOR(thisRule);
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  English: part.English.replace(replacingWord, myrule.english),
+
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*PASCHA_HOUR_DAY*]")) {
+                var replacingWord = "[*PASCHA_HOUR_DAY*]";
+                var myrule = REPLACPASCHAHOURDAY(thisRule);
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  English: part.English.replace(replacingWord, myrule.english),
+
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*PROPHECIES_AUTHOR*]")) {
+                var replacingWord = "[*PROPHECIES_AUTHOR*]";
+                var myrule = REPLACEPROPHETS(thisRule);
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  English: part.English.replace(replacingWord, myrule.english),
+
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else {
+                newPart = part;
+              }
             }
+
+            myViewArray.push({
+              part: newPart,
+              key: key,
+              EnglishTitle: englishttl,
+              CopticTitle: copticttl,
+              ArabicTitle: arabicttl,
+            });
+            key++;
           } else {
-            newPart = part;
+            var newPart = {};
+            var replacingWord = "";
+            var myrule = {};
+            if (part.English.includes("[*COME/RISEN*]")) {
+              replacingWord = "[*COME/RISEN*]";
+              myrule = ComeRisenRule();
+              if (part.Type === "Base") {
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else {
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  English: part.English.replace(replacingWord, myrule.english),
+
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              }
+            } else if (part.English.includes("[*ROICONCLUSION*]")) {
+              replacingWord = "[*ROICONCLUSION*]";
+              myrule = ROICONCLUSION();
+              if (part.Type === "Base") {
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else {
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  English: part.English.replace(replacingWord, myrule.english),
+
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              }
+            } else {
+              newPart = part;
+            }
+            myViewArray.push({
+              part: newPart,
+              key: key,
+              EnglishTitle: englishttl,
+              CopticTitle: copticttl,
+              ArabicTitle: arabicttl,
+            });
+            key++;
           }
-          myViewArray.push({
-            part: newPart,
-            key: key,
-            EnglishTitle: englishttl,
-            CopticTitle: copticttl,
-            ArabicTitle: arabicttl,
-          });
-          key++;
         }
       }
+    } catch (error) {
+      console.log(error);
     }
   });
 

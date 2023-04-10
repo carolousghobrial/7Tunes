@@ -18,9 +18,6 @@ function ApplicationLanguage() {
 
   let flexDirection = "column";
   let containerflexDirection = "row";
-  if (Platform.OS == "android" && mylanguage !== "ara") {
-    flexDirection = "row-reverse";
-  }
 
   if (width > height) {
     flexDirection = "row";

@@ -29,16 +29,15 @@ import {
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers";
-import {
-  setCurrentSeasonLive,
-
-} from "../../helpers/copticMonthsHelper";
+import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
 import moment from "moment";
 import Test from "../settings/test.js";
-import { setSeason } from "../../stores/redux/settings.js";
+import { setSeason, setIsTablet } from "../../stores/redux/settings.js";
 import ContentsModal from "../BottomBar/ContentsModal.js";
 import SettingsModal from "../BottomBar/SettingsModal.js";
 import { FontAwesome5 } from "@expo/vector-icons";
+import * as Device from "expo-device";
+
 const Stack = createNativeStackNavigator();
 
 const Drawer = createDrawerNavigator();
@@ -53,10 +52,23 @@ function NavigationContainerView() {
   const timeTransition = useSelector((state) => state.settings.timeTransition);
   let activeColors = darkMode === false ? Colors["light"] : Colors["dark"];
   useEffect(() => {
-    if(todayPrayer){
-      dispatch(setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) }));
+    async function prepare() {
+      try {
+        if (todayPrayer) {
+          dispatch(
+            setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
+          );
+        }
+        dispatch(
+          setIsTablet({
+            isTablet: (await Device.getDeviceTypeAsync()) === 2 ? true : false,
+          })
+        );
+        console.log(isTablet);
+      } catch (e) {}
     }
-  },[])
+    prepare();
+  }, []);
   function Root() {
     return (
       <Drawer.Navigator

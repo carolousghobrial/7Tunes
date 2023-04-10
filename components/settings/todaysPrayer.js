@@ -20,10 +20,7 @@ import {
   setSeason,
   setTimeTransition,
 } from "../../stores/redux/settings.js";
-import {
-  setCurrentSeasonLive,
-
-} from "../../helpers/copticMonthsHelper";
+import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
 
 function TodaysPrayer() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
@@ -39,14 +36,13 @@ function TodaysPrayer() {
 
   const handleTimeChange = (event, selectedTime) => {
     const currentTime = selectedTime || time;
-    if(time != currentTime){
+    if (time != currentTime) {
       setShowPicker(Platform.OS === "ios");
       dispatch(setTimeTransition({ timeTransition: currentTime }));
       dispatch(setSeason({ currentSeason: setCurrentSeasonLive(currentTime) }));
-  
+
       setTime(currentTime);
     }
-
   };
 
   const showTimeTimePicker = () => {
@@ -99,18 +95,22 @@ function TodaysPrayer() {
         {isAndroid ? (
           <View>
             <Text
-            style={[
-              styles.description,
-              { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") , flex:7 },
-            ]}
-          >
-            {getLanguageValue("setTimeTodayPrayer")}
-          </Text>
+              style={[
+                styles.description,
+                {
+                  fontSize: fontSize / 1.8,
+                  color: getColor("PrimaryColor"),
+                  flex: 7,
+                },
+              ]}
+            >
+              {getLanguageValue("setTimeTodayPrayer")}
+            </Text>
             <Button onPress={showTimeTimePicker} title="Select time" />
             {showPicker && (
               <DateTimePicker
                 value={time}
-                style={{flex: 1}}
+                style={{ flex: 1 }}
                 mode="time"
                 is24Hour={false}
                 display="clock"
@@ -120,24 +120,28 @@ function TodaysPrayer() {
             )}
           </View>
         ) : (
-          <View style={{flexDirection:"row"}}>
+          <View style={{ flexDirection: "row" }}>
             <Text
-            style={[
-              styles.description,
-              { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") , flex:7 },
-            ]}
-          >
-            {getLanguageValue("setTimeTodayPrayer")}
-          </Text>
-          <DateTimePicker
-            value={time}
-            mode="time"
-            style={{flex: 3}}
-            is24Hour={false}
-            display="inline"
-            minuteInterval={30}
-            onChange={handleTimeChange}
-          />
+              style={[
+                styles.description,
+                {
+                  fontSize: fontSize / 1.8,
+                  color: getColor("PrimaryColor"),
+                  flex: 7,
+                },
+              ]}
+            >
+              {getLanguageValue("setTimeTodayPrayer")}
+            </Text>
+            <DateTimePicker
+              value={time}
+              mode="time"
+              style={{ flex: 3 }}
+              is24Hour={false}
+              display="inline"
+              minuteInterval={30}
+              onChange={handleTimeChange}
+            />
           </View>
         )}
       </View>

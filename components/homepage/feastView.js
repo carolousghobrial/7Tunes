@@ -9,7 +9,10 @@ import {
 import images from "../../helpers/imageHelpers";
 import React, { useState, memo, useEffect } from "react";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
-import {getCopticDateString, getCopticDate} from "../../helpers/copticMonthsHelper"
+import {
+  getCopticDateString,
+  getCopticDate,
+} from "../../helpers/copticMonthsHelper";
 
 function FeastView({ item, onClick }) {
   //const [copticEndDateString, setcopticEndDateString] = useState(null);
@@ -17,29 +20,33 @@ function FeastView({ item, onClick }) {
     item.start.year(),
     item.start.month(),
     item.start.date()
-  );  
-  const copticStartDateString = getCopticDateString(copticStartDate.year, copticStartDate.month,copticStartDate.day);
-
+  );
+  const copticStartDateString = getCopticDateString(
+    copticStartDate.year,
+    copticStartDate.month,
+    copticStartDate.day
+  );
 
   let imageSize = 75;
   let flexDirection = "row";
-  if (Platform.OS == "android") {
-    flexDirection = "row-reverse";
-  }
+
   const imageStyle = {
     width: imageSize,
     height: imageSize,
     borderRadius: imageSize / 2,
   };
 
-  function getCopticEndDateString(){
-     var copticDate = getCopticDate(
-       item.end.year(),
-       item.end.month(),
-       item.end.date()
-     );  
-     return getCopticDateString(copticDate.year, copticDate.month,copticDate.day);
-   
+  function getCopticEndDateString() {
+    var copticDate = getCopticDate(
+      item.end.year(),
+      item.end.month(),
+      item.end.date()
+    );
+    return getCopticDateString(
+      copticDate.year,
+      copticDate.month,
+      copticDate.day
+    );
   }
 
   return (

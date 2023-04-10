@@ -6,6 +6,7 @@ import { CurrentSeason } from "../../models/currentSeason";
 import moment from "moment";
 
 const saintsSlice = createSlice({
+  
   name: "saints",
   initialState: {
     ARCHANGEL_MICHAEL: {
