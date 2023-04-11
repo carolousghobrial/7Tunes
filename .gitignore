@@ -72,6 +72,3 @@ yarn-error.log
 web-build/
 dist/
 
-# @end expo-cli
-package.json
-package-lock.json

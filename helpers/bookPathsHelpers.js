@@ -1105,7 +1105,7 @@ const bookPaths = {
   PaschaTuesdayTuesdayEveSixthGospel1: require("../assets/json/books/booksContent/Pascha/Tuesday/TuesdayEve/Sixth/Gospel1.json"),
   PaschaTuesdayTuesdayEveSixthProphecies1: require("../assets/json/books/booksContent/Pascha/Tuesday/TuesdayEve/Sixth/Prophecies1.json"),
   PaschaTuesdayTuesdayEveSixthGospel1Coptic: require("../assets/json/books/booksContent/Pascha/Tuesday/TuesdayEve/Sixth/Gospel1Coptic.json"),
-  PaschaTuesdayTuesdayEveSixthProphecies1: require("../assets/json/books/booksContent/Pascha/Tuesday/TuesdayEve/Sixth/Prophecies1Coptic.json"),
+  PaschaTuesdayTuesdayEveSixthProphecies1Coptic: require("../assets/json/books/booksContent/Pascha/Tuesday/TuesdayEve/Sixth/Prophecies1Coptic.json"),
   PaschaTuesdayTuesdayEveSixthPsalm: require("../assets/json/books/booksContent/Pascha/Tuesday/TuesdayEve/Sixth/Psalm.json"),
   //Pascha\Tuesday\TuesdayEve\Third
   PaschaTuesdayTuesdayEveThirdExposition: require("../assets/json/books/booksContent/Pascha/Tuesday/TuesdayEve/Third/Exposition.json"),

@@ -69,6 +69,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   );
   const [arabicTitle, setarabicTitle] = useState(memoizedData[0].ArabicTitle);
   // const [prevIndexStack, setprevIndexStack] = useState([0]);
+
   var currentIndex = 0;
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
     if (viewableItems.length > 0) {

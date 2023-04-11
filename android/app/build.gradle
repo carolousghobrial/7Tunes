@@ -113,14 +113,13 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace 'com.seventunes.tasbehafinal'
+    namespace "com.7tunes"
     defaultConfig {
         applicationId 'com.seventunes.tasbehafinal'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
-        versionName "1.0.0"
-        missingDimensionStrategy "store", "play"
+        versionName "6.0.1"
     }
 
     splits {

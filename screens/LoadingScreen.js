@@ -24,7 +24,7 @@ function LoadingScreen() {
         source={require("../assets/images/logofinal.png")}
       />
 
-      <ActivityIndicator size="large" color={labelColor} />
+      <ActivityIndicator style={{ flex: 2 }} size="large" color={labelColor} />
     </View>
   );
 }
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     borderWidth: 5,
   },
   image: {
-    flex: 1,
+    flex: 8,
     height: "50%",
     borderRadius: 100 / 2,
     overflow: "hidden",

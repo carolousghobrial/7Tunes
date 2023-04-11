@@ -2,7 +2,7 @@
   "expo": {
     "name": "7 Tunes",
     "slug": "7-tunes",
-    "version": "1.0.0",
+    "version": "6.0.1",
     "orientation": "default",
     "icon": "./assets/images//logofinal.png",
     "userInterfaceStyle": "automatic",
