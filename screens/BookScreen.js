@@ -61,6 +61,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const memoizedData = useMemo(() => values[0], [values[0]]);
   const [isLoading, setIsLoading] = useState(true);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
+  const isTablet = useSelector((state) => state.settings.isTablet);
 
   // const [data, setData] = useState(values[0]);
   const [menuData, setMenuData] = useState(values[1]);
@@ -138,14 +139,14 @@ const BookScreen = React.memo(({ navigation, route }) => {
     });
   }, [NavbarVisibility]);
   useEffect(() => {
-    var title = englishTitle;
-    if (appLanguage !== "eng") {
-      title = arabicTitle;
-    }
+    var fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
+    var fontsize = isTablet ? 30 : 15;
+    var title = appLanguage === "eng" ? englishTitle : arabicTitle;
     navigation.setOptions({
       title: title,
       headerTitleStyle: {
-        fontSize: 13,
+        fontSize: fontsize,
+        fontFamily: fontfamily,
       },
     });
   }, [englishTitle]);

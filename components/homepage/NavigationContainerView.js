@@ -59,12 +59,13 @@ function NavigationContainerView() {
             setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
           );
         }
+        var device = (await Device.getDeviceTypeAsync()) === 2 ? true : false;
+        console.log(device);
         dispatch(
           setIsTablet({
-            isTablet: (await Device.getDeviceTypeAsync()) === 2 ? true : false,
+            isTablet: device,
           })
         );
-        console.log(isTablet);
       } catch (e) {}
     }
     prepare();

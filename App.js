@@ -18,7 +18,6 @@ import {
   isInFast,
   isWatos,
 } from "./helpers/copticMonthsHelper";
-import * as Device from "expo-device";
 import SettingsScreen from "./screens/SettingsScreen";
 import CustomDrawerScreen from "./screens/CustomDrawerScreen";
 import { Provider } from "react-redux";

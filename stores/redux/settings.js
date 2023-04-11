@@ -48,6 +48,7 @@ const settingsSlice = createSlice({
     },
     setIsTablet: (state, action) => {
       const isTablet = action.payload.isTablet;
+      console.log(isTablet);
       return {
         ...state,
         isTablet: isTablet,
@@ -182,5 +183,6 @@ export const changeTextLanguage = settingsSlice.actions.changeTextLanguage;
 export const setSeason = settingsSlice.actions.setSeason;
 export const setItemPurchased = settingsSlice.actions.setItemPurchased;
 export const changePagination = settingsSlice.actions.changePagination;
+export const setIsTablet = settingsSlice.actions.setIsTablet;
 
 export default settingsSlice.reducer;

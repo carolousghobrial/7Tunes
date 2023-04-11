@@ -711,7 +711,7 @@ export const REPLACEPROPHETS = (prophet) => {
         englishcoptic: " Epgom ente pi-arithmos ente Moysis",
         arabiccoptic: " إبجوم انتى بي اريثموس انتى موسيس  . ",
       };
-    case "Deutronomy":
+    case "Deuterodasnomy":
       return {
         english: " The book of Deuteronomy of Moses",
         coptic: " `pjwm nte Pideuteronomion `nte Mw`ucic",
