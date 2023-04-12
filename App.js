@@ -25,7 +25,7 @@ import { store, persistor } from "./stores/redux/store";
 import NavigationContainerView from "./components/homepage/NavigationContainerView";
 import { useDispatch, useSelector } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
-//import { Glassfy, GlassfySku } from "react-native-glassfy-module";
+import { Glassfy, GlassfySku } from "react-native-glassfy-module";
 //import Purchases from "react-native-purchases";
 import * as Updates from "expo-updates";
 import * as ScreenOrientation from "expo-screen-orientation";
@@ -45,7 +45,7 @@ function App() {
       try {
         // Pre-load fonts, make any API calls you need to do here
         await useFonts();
-        // await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
+         await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
         //Purchases.configure({ apiKey: "goog_ICeqiHcYzQRzROFBJsEVAAirhPX" });
         await ScreenOrientation.unlockAsync();
 

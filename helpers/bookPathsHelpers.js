@@ -1125,7 +1125,7 @@ const bookPaths = {
   //Pascha\Wednesday\WednesdayDay\First
   PaschaWednesdayWednesdayDayFirstExposition: require("../assets/json/books/booksContent/Pascha/Wednesday/WednesdayDay/First/Exposition.json"),
   PaschaWednesdayWednesdayDayFirstGospel1: require("../assets/json/books/booksContent/Pascha/Wednesday/WednesdayDay/First/Gospel1.json"),
-  PaschaWednesdayWednesdayDayFirstGospel1: require("../assets/json/books/booksContent/Pascha/Wednesday/WednesdayDay/First/Gospel1Coptic.json"),
+  PaschaWednesdayWednesdayDayFirstGospel1Coptic: require("../assets/json/books/booksContent/Pascha/Wednesday/WednesdayDay/First/Gospel1Coptic.json"),
   PaschaWednesdayWednesdayDayFirstHomily: require("../assets/json/books/booksContent/Pascha/Wednesday/WednesdayDay/First/Homily.json"),
   PaschaWednesdayWednesdayDayFirstProphecies1: require("../assets/json/books/booksContent/Pascha/Wednesday/WednesdayDay/First/Prophecies1.json"),
   PaschaWednesdayWednesdayDayFirstProphecies2: require("../assets/json/books/booksContent/Pascha/Wednesday/WednesdayDay/First/Prophecies2.json"),

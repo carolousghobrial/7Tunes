@@ -1,6 +1,9 @@
 PODS:
+  - ASN1Decoder (1.8.0)
   - boost (1.76.0)
   - DoubleConversion (1.1.6)
+  - EASClient (0.5.1):
+    - ExpoModulesCore
   - EXApplication (5.1.1):
     - ExpoModulesCore
   - EXConstants (14.2.1):
@@ -86,6 +89,8 @@ PODS:
     - expo-dev-menu/GestureHandler
     - expo-dev-menu/Reanimated
     - expo-dev-menu/SafeAreaView
+  - ExpoDevice (5.2.1):
+    - ExpoModulesCore
   - ExpoKeepAwake (12.0.1):
     - ExpoModulesCore
   - ExpoLocalization (14.1.1):
@@ -104,6 +109,15 @@ PODS:
   - EXSplashScreen (0.18.1):
     - ExpoModulesCore
     - React-Core
+  - EXStructuredHeaders (3.1.1)
+  - EXUpdates (0.16.4):
+    - ASN1Decoder (~> 1.8)
+    - EASClient
+    - EXManifests
+    - ExpoModulesCore
+    - EXStructuredHeaders
+    - EXUpdatesInterface
+    - React-Core
   - EXUpdatesInterface (0.9.1)
   - FBLazyVector (0.71.6)
   - FBReactNativeSpec (0.71.6):
@@ -114,9 +128,9 @@ PODS:
     - React-jsi (= 0.71.6)
     - ReactCommon/turbomodule/core (= 0.71.6)
   - fmt (6.2.1)
-  - Glassfy (1.3.7)
-  - GlassfyGlue (1.3.5):
-    - Glassfy (= 1.3.7)
+  - Glassfy (1.3.8)
+  - GlassfyGlue (1.3.6):
+    - Glassfy (= 1.3.8)
   - glog (0.3.5)
   - hermes-engine (0.71.6):
     - hermes-engine/Pre-built (= 0.71.6)
@@ -373,8 +387,8 @@ PODS:
   - React-jsinspector (0.71.6)
   - React-logger (0.71.6):
     - glog
-  - react-native-glassfy-module (1.3.7):
-    - GlassfyGlue (= 1.3.5)
+  - react-native-glassfy-module (1.3.8):
+    - GlassfyGlue (= 1.3.6)
     - React-Core
   - react-native-restart (0.0.27):
     - React-Core
@@ -472,6 +486,8 @@ PODS:
     - React-Core
   - RNDateTimePicker (6.7.3):
     - React-Core
+  - RNDeviceInfo (10.6.0):
+    - React-Core
   - RNGestureHandler (2.9.0):
     - React-Core
   - RNReanimated (2.14.4):
@@ -511,6 +527,7 @@ PODS:
 DEPENDENCIES:
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - EASClient (from `../node_modules/expo-eas-client/ios`)
   - EXApplication (from `../node_modules/expo-application/ios`)
   - EXConstants (from `../node_modules/expo-constants/ios`)
   - EXFileSystem (from `../node_modules/expo-file-system/ios`)
@@ -522,6 +539,7 @@ DEPENDENCIES:
   - expo-dev-launcher (from `../node_modules/expo-dev-launcher`)
   - expo-dev-menu (from `../node_modules/expo-dev-menu`)
   - expo-dev-menu-interface (from `../node_modules/expo-dev-menu-interface/ios`)
+  - ExpoDevice (from `../node_modules/expo-device/ios`)
   - ExpoKeepAwake (from `../node_modules/expo-keep-awake/ios`)
   - ExpoLocalization (from `../node_modules/expo-localization/ios`)
   - ExpoModulesCore (from `../node_modules/expo-modules-core`)
@@ -529,6 +547,8 @@ DEPENDENCIES:
   - EXScreenOrientation (from `../node_modules/expo-screen-orientation/ios`)
   - EXSecureStore (from `../node_modules/expo-secure-store/ios`)
   - EXSplashScreen (from `../node_modules/expo-splash-screen/ios`)
+  - EXStructuredHeaders (from `../node_modules/expo-structured-headers/ios`)
+  - EXUpdates (from `../node_modules/expo-updates/ios`)
   - EXUpdatesInterface (from `../node_modules/expo-updates-interface/ios`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/React/FBReactNativeSpec`)
@@ -568,6 +588,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
+  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
@@ -576,6 +597,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - ASN1Decoder
     - fmt
     - Glassfy
     - GlassfyGlue
@@ -586,6 +608,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/boost.podspec"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  EASClient:
+    :path: "../node_modules/expo-eas-client/ios"
   EXApplication:
     :path: "../node_modules/expo-application/ios"
   EXConstants:
@@ -608,6 +632,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-dev-menu"
   expo-dev-menu-interface:
     :path: "../node_modules/expo-dev-menu-interface/ios"
+  ExpoDevice:
+    :path: "../node_modules/expo-device/ios"
   ExpoKeepAwake:
     :path: "../node_modules/expo-keep-awake/ios"
   ExpoLocalization:
@@ -622,6 +648,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-secure-store/ios"
   EXSplashScreen:
     :path: "../node_modules/expo-splash-screen/ios"
+  EXStructuredHeaders:
+    :path: "../node_modules/expo-structured-headers/ios"
+  EXUpdates:
+    :path: "../node_modules/expo-updates/ios"
   EXUpdatesInterface:
     :path: "../node_modules/expo-updates-interface/ios"
   FBLazyVector:
@@ -696,6 +726,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-async-storage/async-storage"
   RNDateTimePicker:
     :path: "../node_modules/@react-native-community/datetimepicker"
+  RNDeviceInfo:
+    :path: "../node_modules/react-native-device-info"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNReanimated:
@@ -708,8 +740,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  ASN1Decoder: 6110fdeacfdb41559b1481457a1645be716610aa
   boost: 57d2868c099736d80fcd648bf211b4431e51a558
   DoubleConversion: 5189b271737e1565bdce30deb4a08d647e3f5f54
+  EASClient: 950674e1098ebc09c4c2cf064a61e42e84d9d4c6
   EXApplication: d8f53a7eee90a870a75656280e8d4b85726ea903
   EXConstants: f348da07e21b23d2b085e270d7b74f282df1a7d9
   EXFileSystem: 844e86ca9b5375486ecc4ef06d3838d5597d895d
@@ -721,6 +755,7 @@ SPEC CHECKSUMS:
   expo-dev-launcher: c50f1b78ea294f5762902b768952898d17739983
   expo-dev-menu: 323c5259cee5713992bd95a4bdd5e549875d7796
   expo-dev-menu-interface: 6c82ae323c4b8724dead4763ce3ff24a2108bdb1
+  ExpoDevice: e0bebf68f978b3d353377ce42e73c20c0a070215
   ExpoKeepAwake: 69f5f627670d62318410392d03e0b5db0f85759a
   ExpoLocalization: f26cd431ad9ea3533c5b08c4fabd879176a794bb
   ExpoModulesCore: 6e0259511f4c4341b6b8357db393624df2280828
@@ -728,12 +763,14 @@ SPEC CHECKSUMS:
   EXScreenOrientation: 52220f8f2477ed25a37e3b2cdbbaa8635d250256
   EXSecureStore: e8923258361cc406d0401af380f12bd05b2b720f
   EXSplashScreen: cd7fb052dff5ba8311d5c2455ecbebffe1b7a8ca
+  EXStructuredHeaders: b1a48d732562e2cc81f11771bcfd29534f5d9254
+  EXUpdates: 603c4dfec2ed9ef323dfbd9c59c946593d4d9a5c
   EXUpdatesInterface: dd699d1930e28639dcbd70a402caea98e86364ca
   FBLazyVector: a83ceaa8a8581003a623facdb3c44f6d4f342ac5
   FBReactNativeSpec: 85eee79837cb797ab6176f0243a2b40511c09158
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
-  Glassfy: e98889f8059ffd1d1f4e1a9dbe14dc97fddc7a71
-  GlassfyGlue: b65bd94ffd5a2c6c0794e4e49c1488da9eb0647d
+  Glassfy: 6bea9bf717b8ff7b9889915cdbf77076cde7530c
+  GlassfyGlue: 441481ed9fda8db8b10a98bb40f630df1a043cf5
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: b434cea529ad0152c56c7cb6486b0c4c0b23b5de
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
@@ -751,7 +788,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 7894956638ff3e00819dd3f9f6f4a84da38f2409
   React-jsinspector: d5ce2ef3eb8fd30c28389d0bc577918c70821bd6
   React-logger: 9332c3e7b4ef007a0211c0a9868253aac3e1da82
-  react-native-glassfy-module: c565357f0325f3c81b0092f07b18953bd96efe9a
+  react-native-glassfy-module: f996fc6d08ba2ee69e8dd00d266b9337ba6cf194
   react-native-restart: 7595693413fe3ca15893702f2c8306c62a708162
   react-native-safe-area-context: 39c2d8be3328df5d437ac1700f4f3a4f75716acc
   React-perflogger: 43392072a5b867a504e2b4857606f8fc5a403d7f
@@ -769,6 +806,7 @@ SPEC CHECKSUMS:
   ReactCommon: 0c43eaeaaee231d7d8dc24fc5a6e4cf2b75bf196
   RNCAsyncStorage: 8616bd5a58af409453ea4e1b246521bb76578d60
   RNDateTimePicker: 00247f26c34683c80be94207f488f6f13448586e
+  RNDeviceInfo: 475a4c447168d0ad4c807e48ef5e0963a0f4eb1b
   RNGestureHandler: 071d7a9ad81e8b83fe7663b303d132406a7d8f39
   RNReanimated: cc5e3aa479cb9170bcccf8204291a6950a3be128
   RNScreens: 218801c16a2782546d30bd2026bb625c0302d70f

@@ -120,6 +120,22 @@ export function getFullViewModel(motherSource, mother) {
       }
     }
   });
+
+ViewArray.push({
+  part:   {
+    "Type": "Button",
+    "Arabic": " العودة",
+    "English": "Return",
+    "Rule": "PopPage",
+    "Visible": true,
+    "Path": ""
+},
+  key: key,
+  EnglishTitle: undefined,
+  CopticTitle: undefined,
+  ArabicTitle: undefined,
+});
+
   return [ViewArray, MenuArray];
 }
 export function getMain(Path, motherSource, inHymn, rule, key) {

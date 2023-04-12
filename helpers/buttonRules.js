@@ -62,6 +62,10 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
       motherSource: motherSource,
       rule: item.Rule,
     });
+    
+  }
+  function PopPage() {
+    navigation.pop();
   }
   return {
     OpenTheotokia: OpenTheotokia,
@@ -70,6 +74,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
     OpenPage: OpenPage,
     ThokTeTiGomScrollUp: ThokTeTiGomScrollUp,
     OpenSinglePage: OpenSinglePage,
+    PopPage: PopPage
   };
 }
 
