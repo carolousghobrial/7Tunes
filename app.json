@@ -60,6 +60,6 @@
     "web": {
       "favicon": "./assets/images/logofinal.png"
     },
-    "runtimeVersion": "48.0.10"
+    "runtimeVersion": "48.0.0"
   }
 }
