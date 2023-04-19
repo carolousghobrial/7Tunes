@@ -23,9 +23,7 @@ import { useNavigation } from "@react-navigation/native";
 function MenuMainTitle({ item }) {
   const navigation = useNavigation();
   let flexDirection = "row";
-  if (Platform.OS == "android") {
-    flexDirection = "row-reverse";
-  }
+
   const { width, height } = useWindowDimensions();
 
   let textFlexDirection = "row";
@@ -100,7 +98,7 @@ const styles = StyleSheet.create({
   },
   coptic: {
     fontFamily: "coptic-font",
-    textAlign: "justify",
+    textAlign: "right",
     justifyContent: "center",
     textAlign: "center",
   },
@@ -112,7 +110,7 @@ const styles = StyleSheet.create({
   },
   arabic: {
     fontFamily: "arabictitle-font",
-    textAlign: "justify",
+    textAlign: "right",
     writingDirection: "rtl",
     justifyContent: "center",
     textAlign: "center",

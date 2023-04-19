@@ -1,25 +1,9 @@
-import React, {
-  useState,
-  useRef,
-  useEffect,
-  memo,
-  useCallback,
-  PureComponent,
-  useMemo,
-} from "react";
+import React, { useState, useRef, useEffect, useMemo } from "react";
 import Icon from "react-native-vector-icons/Ionicons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import {
-  StyleSheet,
-  useWindowDimensions,
-  Text,
-  View,
-  ActivityIndicator,
-  FlatList,
-  Animated,
-  Pressable,
-  StatusBar,
-} from "react-native";
+import { useDispatch, useSelector } from "react-redux";
+
+import { StyleSheet, Text, FlatList, Pressable } from "react-native";
 
 import BaseView from "../components/ViewTypes/BaseView";
 import MelodyView from "../components/ViewTypes/MelodyView";
@@ -30,25 +14,38 @@ import MainTitleView from "../components/ViewTypes/MainTitleView";
 import ExpanderView from "../components/ViewTypes/ExpanderView";
 import LoadingScreen from "./LoadingScreen";
 import SettingsModal from "../components/BottomBar/SettingsModal";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../helpers/SettingsHelpers.js";
+import { getColor } from "../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
-const _spacing = 10;
 
 const BookScreen = React.memo(({ navigation, route }) => {
   const flatListRef = useRef();
-  const visibleItemRef = useRef(null);
   let labelColor = getColor("LabelColor");
 
   var pageBackgroundColor = getColor("pageBackgroundColor");
+  const pagination = useSelector((state) => state.settings.pagination);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   const [NavbarVisibility, setNavbarVisibility] = useState(true);
+  const memoizedNavbarVisibility = useMemo(() => {
+    return NavbarVisibility;
+  }, [NavbarVisibility]);
+  const handleScroll = (event) => {
+    const currentPosition = event.nativeEvent.contentOffset.y;
+    console.log(currentPosition);
+    console.log(scrollPosition);
+    if (currentPosition > scrollPosition) {
+      if (memoizedNavbarVisibility) {
+        setNavbarVisibility(false);
+      }
+    } else {
+      if (!memoizedNavbarVisibility) {
+        setNavbarVisibility(true);
+      }
+    }
+    setScrollPosition(currentPosition);
+  };
+
   const [index, setIndex] = useState(0);
-  const [howMcuhToScroll, sehowMcuhToScroll] = useState(0);
-  const [scrollToIndex, setscrollToIndex] = useState(0);
   const [settingsModalVisible, setsettingsModalVisible] = useState(false);
 
   const values = getFullViewModel(
@@ -57,20 +54,22 @@ const BookScreen = React.memo(({ navigation, route }) => {
   );
   const memoizedData = useMemo(() => values[0], [values[0]]);
   const [isLoading, setIsLoading] = useState(true);
-
-  // const [data, setData] = useState(values[0]);
+  const appLanguage = useSelector((state) => state.settings.appLanguage);
+  const isTablet = useSelector((state) => state.settings.isTablet);
   const [menuData, setMenuData] = useState(values[1]);
   const [englishTitle, setenglishTitle] = useState(
     memoizedData[0].EnglishTitle
   );
-  const [copticTitle, setcopticTitle] = useState(memoizedData[0].CopticTitle);
   const [arabicTitle, setarabicTitle] = useState(memoizedData[0].ArabicTitle);
-  // const [prevIndexStack, setprevIndexStack] = useState([0]);
-  var currentIndex = 0;
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
     if (viewableItems.length > 0) {
-      setIndex(viewableItems[0].index);
-      //sehowMcuhToScroll(viewableItems.length - 1);
+      if (
+        viewableItems[0].item.EnglishTitle !== englishTitle &&
+        viewableItems[0].item.EnglishTitle !== undefined
+      ) {
+        setenglishTitle(viewableItems[0].item.EnglishTitle);
+        setarabicTitle(viewableItems[0].item.ArabicTitle);
+      }
     }
   }).current;
 
@@ -128,23 +127,26 @@ const BookScreen = React.memo(({ navigation, route }) => {
     });
   }, [NavbarVisibility]);
   useEffect(() => {
+    var fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
+    var fontsize = isTablet ? 30 : 15;
+    var title = appLanguage === "eng" ? englishTitle : arabicTitle;
     navigation.setOptions({
-      title: englishTitle,
+      title: title,
       headerTitleStyle: {
-        fontSize: 15,
+        fontSize: fontsize,
+        fontFamily: fontfamily,
       },
     });
   }, [englishTitle]);
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 100);
+    }, 10);
   }, []);
   const settingsPressed = () => {
     setsettingsModalVisible(true);
   };
   const contentsPressed = () => {
-    // handle button press here
     const closest = menuData.reduce((a, b) => {
       return Math.abs(b.key - index) < Math.abs(a.key - index) ? b : a;
     });
@@ -179,9 +181,6 @@ const BookScreen = React.memo(({ navigation, route }) => {
       ),
     });
   }, [navigation]);
-  // useEffect(() => {
-  //   // Set initial header title
-  // }, []);
   function hideHeader() {
     setNavbarVisibility(!NavbarVisibility);
   }
@@ -200,33 +199,29 @@ const BookScreen = React.memo(({ navigation, route }) => {
     }, 10);
   }
 
-  //
-  // });
   if (isLoading) {
     return <LoadingScreen />;
   }
   return (
     <>
       <SettingsModal visible={settingsModalVisible} closeModal={closeModal} />
-
-      <View
+      <FlatList
+        ref={flatListRef}
         style={[styles.container, { backgroundColor: pageBackgroundColor }]}
-      >
-        <FlatList
-          ref={flatListRef}
-          onViewableItemsChanged={onViewableItemsChanged}
-          showsVerticalScrollIndicator={false}
-          data={memoizedData}
-          onScrollToIndexFailed={onScrollToIndexFailed}
-          initialNumToRender={memoizedData.length}
-          // initialScrollIndex={scrollToIndex}
-          removeClippedSubviews={true}
-          renderItem={renderItems}
-          keyExtractor={(item) => {
-            return item.key;
-          }}
-        />
-      </View>
+        onViewableItemsChanged={onViewableItemsChanged}
+        showsVerticalScrollIndicator={false}
+        data={memoizedData}
+        pagingEnabled={pagination}
+        onScroll={handleScroll}
+        onScrollToIndexFailed={onScrollToIndexFailed}
+        initialNumToRender={memoizedData.length}
+        bounces={false}
+        removeClippedSubviews={true}
+        renderItem={renderItems}
+        keyExtractor={(item) => {
+          return item.key;
+        }}
+      />
     </>
   );
 });

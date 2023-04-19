@@ -17,7 +17,12 @@ const settingsSlice = createSlice({
     arabic: true,
     copticenglish: false,
     copticarabic: false,
+    standardPsalmodyPermission: false,
+    kiahkPsalmodyPermission: false,
+    paschaBookPermission: false,
     timeTransition: new Date().setHours(18, 0, 0),
+    pagination: false,
+    isTablet: false,
     currentSeason: {
       key: "STANDARD",
       week: moment().week(),
@@ -29,7 +34,7 @@ const settingsSlice = createSlice({
       major: true,
       plantsSeason: "air",
       copticMonth: "",
-      copticDay: "",
+      xc: "",
       copticYear: "",
     },
   },
@@ -39,6 +44,14 @@ const settingsSlice = createSlice({
       return {
         ...state,
         timeTransition: time,
+      };
+    },
+    setIsTablet: (state, action) => {
+      const isTablet = action.payload.isTablet;
+      console.log(isTablet);
+      return {
+        ...state,
+        isTablet: isTablet,
       };
     },
     changeLanguage: (state, action) => {
@@ -56,9 +69,15 @@ const settingsSlice = createSlice({
         darkMode: !state.darkMode,
       };
     },
+    changePagination: (state, action) => {
+      return {
+        ...state,
+        pagination: !state.pagination,
+      };
+    },
     changeFontSize: (state, action) => {
       const minFont = 10;
-      const maxFont = 40;
+      const maxFont = 50;
       const direction = action.payload.direction;
       let currentFontSize = state.textFontSize;
       switch (direction) {
@@ -132,6 +151,27 @@ const settingsSlice = createSlice({
         currentSeason: action.payload.currentSeason,
       };
     },
+    setItemPurchased: (state, action) => {
+      const permissionId = action.payload.permissionId;
+
+      switch (permissionId) {
+        case "standardPsalmodyPermission":
+          return {
+            ...state,
+            standardPsalmodyPermission: true,
+          };
+        case "kiahkPsalmodyPermission":
+          return {
+            ...state,
+            kiahkPsalmodyPermission: true,
+          };
+        case "paschaBookPermission":
+          return {
+            ...state,
+            paschaBookPermission: true,
+          };
+      }
+    },
   },
 });
 export const changeLanguage = settingsSlice.actions.changeLanguage;
@@ -141,5 +181,8 @@ export const changeFontSize = settingsSlice.actions.changeFontSize;
 export const changeTodayPrayer = settingsSlice.actions.changeTodayPrayer;
 export const changeTextLanguage = settingsSlice.actions.changeTextLanguage;
 export const setSeason = settingsSlice.actions.setSeason;
+export const setItemPurchased = settingsSlice.actions.setItemPurchased;
+export const changePagination = settingsSlice.actions.changePagination;
+export const setIsTablet = settingsSlice.actions.setIsTablet;
 
 export default settingsSlice.reducer;

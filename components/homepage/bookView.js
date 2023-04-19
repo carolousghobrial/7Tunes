@@ -8,11 +8,13 @@ import {
   useWindowDimensions,
 } from "react-native";
 import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import images from "../../helpers/imageHelpers";
 
 function BookView(props) {
   const { width, height } = useWindowDimensions();
-
+  const isTablet = useSelector((state) => state.settings.isTablet);
+  const fontSize = isTablet ? 30 : 20;
   let imageSize = 300;
   if (width > height) {
     // Landscape mode
@@ -68,8 +70,16 @@ function BookView(props) {
             </View>
 
             <View style={styles.textViewLanscape}>
-              <Text style={styles.text}>{props.item.EnglishTitle}</Text>
-              <Text style={styles.text}>{props.item.ArabicTitle}</Text>
+              <Text
+                style={[styles.text, { fontSize, fontFamily: "english-font" }]}
+              >
+                {props.item.EnglishTitle}
+              </Text>
+              <Text
+                style={[styles.text, { fontSize, fontFamily: "arabic-font" }]}
+              >
+                {props.item.ArabicTitle}
+              </Text>
             </View>
           </View>
         </Pressable>
@@ -126,7 +136,6 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "black",
-    fontSize: 15,
     fontWeight: "bold",
     textAlign: "center",
   },

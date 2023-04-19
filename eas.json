@@ -10,19 +10,20 @@
       },
       "ios": {
         "buildConfiguration": "Debug",
+        "image": "latest",
         "resourceClass": "m-medium"
-      }
+      },
+      "channel": "development"
     },
     "preview": {
-      "android": {
-        "buildType": "apk"
-      },
+      "channel": "staging",
       "distribution": "internal",
       "ios": {
         "resourceClass": "m-medium"
       }
     },
     "production": {
+      "channel": "production",
       "ios": {
         "resourceClass": "m-medium"
       }

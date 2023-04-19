@@ -118,7 +118,7 @@ function SaintsList() {
               { fontSize: fontSize * 1.3, color: getColor("PrimaryColor") },
             ]}
           >
-            Saints Menu
+            {getLanguageValue("saintsMenu")}
           </Text>
           {/* <Text style={[styles.description, { color: getColor("PrimaryColor") }]}>
           {getLanguageValue("todayprayerdescription")}

@@ -41,16 +41,6 @@
             "Enabled": true
         },
         {
-            "EnglishTitle": "Ninth Hour",
-            "ArabicTitle": "الساعة التاسعة",
-            "PurchaseKeyDroid": "",
-            "PurchaseKeyIos": "",
-            "hasSubBooks": false,
-            "BookPath": "BrightSaturdayNinthHourMain",
-            "ImageURL": "ninth",
-            "Enabled": true
-        },
-        {
             "ArabicTitle": "سفر الرؤيا ",
             "EnglishTitle": "The Book of Revelations",
             "PurchaseKeyDroid": "",
@@ -60,6 +50,17 @@
             "ImageURL": "Revelations",
             "Enabled": true
         },
+        {
+            "EnglishTitle": "Ninth Hour",
+            "ArabicTitle": "الساعة التاسعة",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "BrightSaturdayNinthHourMain",
+            "ImageURL": "ninth",
+            "Enabled": true
+        },
+
         {
             "ArabicTitle": "الفصول التى تتلى فى توزيع قداس سبت النور ",
             "EnglishTitle": "The Readings during the Bright Saturday Distribution ",

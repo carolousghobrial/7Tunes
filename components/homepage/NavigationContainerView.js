@@ -29,22 +29,15 @@ import {
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers";
-import {
-  getCurrentSeason,
-  isInFast,
-  isWatos,
-  getTodayDate,
-  plantsSeason,
-  getCopticDate,
-} from "../../helpers/copticMonthsHelper";
+import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
 import moment from "moment";
 import Test from "../settings/test.js";
-import { setSeason } from "../../stores/redux/settings.js";
+import { setSeason, setIsTablet } from "../../stores/redux/settings.js";
 import ContentsModal from "../BottomBar/ContentsModal.js";
 import SettingsModal from "../BottomBar/SettingsModal.js";
 import { FontAwesome5 } from "@expo/vector-icons";
-import {enableScreens} from 'react-native-screens';
-enableScreens();
+import * as Device from "expo-device";
+
 const Stack = createNativeStackNavigator();
 
 const Drawer = createDrawerNavigator();
@@ -53,44 +46,30 @@ function NavigationContainerView() {
   const dispatch = useDispatch();
 
   const appLanguage = useSelector((state) => state.settings.appLanguage);
+  const todayPrayer = useSelector((state) => state.settings.todayPrayer);
+
   const darkMode = useSelector((state) => state.settings.darkMode);
   const timeTransition = useSelector((state) => state.settings.timeTransition);
   let activeColors = darkMode === false ? Colors["light"] : Colors["dark"];
-  function getWeeksSinceStartDate(startDate) {
-    const now = new Date(); // Get the current date
-    const msPerWeek = 1000 * 60 * 60 * 24 * 7; // Number of milliseconds in a week
-    const diffInMs = now.getTime() - startDate.getTime(); // Difference in milliseconds between now and start date
-    const diffInWeeks = Math.ceil(diffInMs / msPerWeek); // Round down to get number of full weeks
-    return diffInWeeks;
-  }
-  function setCurrentSeason() {
-    const mySeason = getCurrentSeason(timeTransition)[0];
-    const currentDate = new Date(getTodayDate(timeTransition));
-    const copticDate = getCopticDate(
-      currentDate.getFullYear(),
-      currentDate.getMonth(),
-      currentDate.getDate()
-    );
-    var mycurrentSeason = {
-      key: mySeason.key,
-      start: mySeason.start,
-      end: mySeason.end,
-      major: mySeason.major,
-      week: getWeeksSinceStartDate(new Date(mySeason.start)),
-      dayOfWeek: currentDate.getDay(),
-      isWatos: isWatos(),
-      type: mySeason.type,
-      plantsSeason: plantsSeason(),
-      copticMonth: copticDate.month,
-      copticDay: copticDate.day,
-      copticYear: copticDate.year,
-    };
-    dispatch(setSeason({ currentSeason: mycurrentSeason }));
-  }
   useEffect(() => {
-    // Simulate app loading time
-    setCurrentSeason();
-  });
+    async function prepare() {
+      try {
+        if (todayPrayer) {
+          dispatch(
+            setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
+          );
+        }
+        var device = (await Device.getDeviceTypeAsync()) === 2 ? true : false;
+        console.log(device);
+        dispatch(
+          setIsTablet({
+            isTablet: device,
+          })
+        );
+      } catch (e) {}
+    }
+    prepare();
+  }, []);
   function Root() {
     return (
       <Drawer.Navigator

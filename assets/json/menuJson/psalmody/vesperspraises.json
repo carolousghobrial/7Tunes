@@ -3,32 +3,32 @@
         {
             "EnglishTitle": "Standard Vesper's Praises",
             "ArabicTitle": "تسبحة عشية السنوي",
-            "PurchaseKeyDroid": "annualpsalmodyid",
-            "PurchaseKeyIos": "annualpsalmodyidsku",
+            "PurchaseKey": "StandardPsalmody",
+            "PermissionStatus": "standardPsalmodyPermission",
             "hasSubBooks": false,
             "BookPath": "standardVespersPraises",
             "ImageURL": "david",
-            "Enabled": true
+            "Enabled": false
         },
         {
             "EnglishTitle": "Kiahk Vesper's Praises",
             "ArabicTitle": "تسبحة عشية الكيهكي",
-            "PurchaseKeyDroid": "annualpsalmodyid",
-            "PurchaseKeyIos": "annualpsalmodyidsku",
+            "PurchaseKey": "KiahkPsalmody",
+            "PermissionStatus": "kiahkPsalmodyPermission",
             "hasSubBooks": false,
             "BookPath": "kiahkVespersPraises",
             "ImageURL": "annuciation",
-            "Enabled": true
+            "Enabled": false
         },
         {
             "EnglishTitle": "Lenten Vesper's Praises",
             "ArabicTitle": "تسبحة عشية الصيامي",
-            "PurchaseKeyDroid": "holypaschaid",
-            "PurchaseKeyIos": "holypaschasku",
+            "PurchaseKey": "StandardPsalmody",
+            "PermissionStatus": "standardPsalmodyPermission",
             "hasSubBooks": false,
             "BookPath": "lentenVespersPraises",
             "ImageURL": "lent",
-            "Enabled": true
+            "Enabled": false
         }
     ]
 }

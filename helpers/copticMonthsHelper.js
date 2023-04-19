@@ -1,6 +1,6 @@
 import { getLanguageValue, getFontSize, getColor } from "./SettingsHelpers.js";
 import { useDispatch, useSelector } from "react-redux";
-const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+//const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
 var moment = require("moment-timezone"); //moment-timezone
 
@@ -589,13 +589,9 @@ export function isInFast() {
   // finally if day is Wed or Fri return true
   return todayDate.day() == 3 || todayDate.day() == 5;
 }
-export function plantsSeason() {
+export function plantsSeason(currentDate) {
   // ignore time and use date only
-  var todayDate = moment([
-    new Date().getFullYear(),
-    today.month(),
-    today.date(),
-  ]);
+  var todayDate = moment(currentDate);
   var airStart = moment([new Date().getFullYear(), 1, 19]);
   var waterStart = moment([new Date().getFullYear(), 6, 19]);
   var plantsStart = moment([new Date().getFullYear(), 10, 19]);
@@ -608,17 +604,20 @@ export function plantsSeason() {
   }
 }
 export function getTodayDate(timeTransition) {
-  var todayDate = moment();
-  if (new Date(timeTransition) < new Date()) {
-    todayDate.add(1, "days");
+  var todayDate = new Date();
+
+  if (new Date(timeTransition).getHours() <= todayDate.getHours()) {
+    todayDate.setDate(todayDate.getDate() + 1);
   }
-  return todayDate;
+  todayDate.setHours(0, 0, 0, 0);
+  const returnMoment = moment(todayDate);
+  return returnMoment;
 }
 
 export function setCurrentSeasonByKey(timeTransition, key) {
   var fastsfeasts = getCopticFastsFeasts();
   const mySeason = fastsfeasts.find((element) => element.key === key);
-  const currentDate = new Date(getTodayDate(timeTransition));
+  const currentDate = new Date(mySeason.start);
   const copticDate = getCopticDate(
     currentDate.getFullYear(),
     currentDate.getMonth(),
@@ -631,14 +630,45 @@ export function setCurrentSeasonByKey(timeTransition, key) {
     major: mySeason.major,
     week: 1,
     dayOfWeek: currentDate.getDay(),
-    isWatos: isWatos(),
+    isWatos: isWatos(currentDate.getDay()),
     type: mySeason.type,
-    plantsSeason: plantsSeason(),
+    plantsSeason: plantsSeason(currentDate),
     copticMonth: copticDate.month,
     copticDay: copticDate.day,
     copticYear: copticDate.year,
   };
   return mycurrentSeason;
+}
+export function setCurrentSeasonLive(timeTransition) {
+  const mySeason = getCurrentSeason(timeTransition)[0];
+  const currentDate = new Date(getTodayDate(timeTransition));
+  const copticDate = getCopticDate(
+    currentDate.getFullYear(),
+    currentDate.getMonth(),
+    currentDate.getDate()
+  );
+  var mycurrentSeason = {
+    key: mySeason.key,
+    start: mySeason.start,
+    end: mySeason.end,
+    major: mySeason.major,
+    week: getWeeksSinceStartDate(new Date(mySeason.start)),
+    dayOfWeek: currentDate.getDay(),
+    isWatos: isWatos(currentDate.getDay()),
+    type: mySeason.type,
+    plantsSeason: plantsSeason(currentDate),
+    copticMonth: copticDate.month,
+    copticDay: copticDate.day,
+    copticYear: copticDate.year,
+  };
+  return mycurrentSeason;
+}
+function getWeeksSinceStartDate(startDate) {
+  const now = new Date(); // Get the current date
+  const msPerWeek = 1000 * 60 * 60 * 24 * 7; // Number of milliseconds in a week
+  const diffInMs = now.getTime() - startDate.getTime(); // Difference in milliseconds between now and start date
+  const diffInWeeks = Math.ceil(diffInMs / msPerWeek); // Round down to get number of full weeks
+  return diffInWeeks;
 }
 export function getCurrentSeason(timeTransition) {
   var fastsfeasts = getCopticFastsFeasts();
@@ -701,7 +731,7 @@ export function getCopticDate(year, monthIndex, day) {
     // wrap around to beginning
     var m_next = CopticMonthObjects[(i + 1) % CopticMonthObjects.length];
 
-    var gregDate = new Date(year, monthIndex, day);
+    var gregDate = new Date(year, monthIndex, day, 12, 0, 0);
     var copticMonthStartDate;
     var copticMonthEndDate;
 
@@ -721,10 +751,11 @@ export function getCopticDate(year, monthIndex, day) {
       copticMonth = m.name;
       copticMonthIndex = m.index;
       copticDay =
-        Math.floor((gregDate - copticMonthStartDate) / (1000 * 24 * 3600)) + 2;
+        Math.floor((gregDate - copticMonthStartDate) / (1000 * 24 * 3600)) + 1;
       break;
     }
   }
+
   return {
     month: copticMonth,
     monthIndex: copticMonthIndex,
@@ -767,8 +798,8 @@ var getNumericDateString = function (year, monthIndex, day) {
   return strMonth + "/" + strDay + "/" + year;
 };
 
-export function isWatos() {
-  if (moment().day() < 3) {
+export function isWatos(dayOfWeek) {
+  if (dayOfWeek < 3) {
     return false;
   }
   return true;

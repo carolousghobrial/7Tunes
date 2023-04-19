@@ -22,6 +22,7 @@ function AppTheme() {
   const { height, width } = useWindowDimensions();
   const darkMode = useSelector((state) => state.settings.darkMode);
   const language = useSelector((state) => state.settings.appLanguage);
+  const fontSize = useSelector((state) => state.settings.textFontSize);
   let flexDirection = "row";
 
   const dispatch = useDispatch();
@@ -31,10 +32,20 @@ function AppTheme() {
     <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
       <View style={[styles.switchView, { flexDirection: flexDirection }]}>
         <View style={styles.titleView}>
-          <Text style={[styles.title, { color: getColor("PrimaryColor") }]}>
+          <Text
+            style={[
+              styles.title,
+              { fontSize: fontSize * 1.3, color: getColor("PrimaryColor") },
+            ]}
+          >
             {getLanguageValue("backgroundselector")}
           </Text>
-          <Text style={[styles.title, { color: getColor("PrimaryColor") }]}>
+          <Text
+            style={[
+              styles.title,
+              { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") },
+            ]}
+          >
             {getLanguageValue("backgroundselectordescription")}
           </Text>
         </View>

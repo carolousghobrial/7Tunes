@@ -7,20 +7,47 @@ import {
   Image,
 } from "react-native";
 import images from "../../helpers/imageHelpers";
-
+import React, { useState, memo, useEffect } from "react";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
+import {
+  getCopticDateString,
+  getCopticDate,
+} from "../../helpers/copticMonthsHelper";
 
 function FeastView({ item, onClick }) {
+  //const [copticEndDateString, setcopticEndDateString] = useState(null);
+  const copticStartDate = getCopticDate(
+    item.start.year(),
+    item.start.month(),
+    item.start.date()
+  );
+  const copticStartDateString = getCopticDateString(
+    copticStartDate.year,
+    copticStartDate.month,
+    copticStartDate.day
+  );
+
   let imageSize = 75;
   let flexDirection = "row";
-  if (Platform.OS == "android") {
-    flexDirection = "row-reverse";
-  }
+
   const imageStyle = {
     width: imageSize,
     height: imageSize,
     borderRadius: imageSize / 2,
   };
+
+  function getCopticEndDateString() {
+    var copticDate = getCopticDate(
+      item.end.year(),
+      item.end.month(),
+      item.end.date()
+    );
+    return getCopticDateString(
+      copticDate.year,
+      copticDate.month,
+      copticDate.day
+    );
+  }
 
   return (
     <View style={styles.container}>
@@ -39,6 +66,11 @@ function FeastView({ item, onClick }) {
             {item.start.format("MMM Do YYYY")}
             {item.end !== null ? "-" : null}
             {item.end !== null ? item.end.format("MMM Do YYYY") : null}
+          </Text>
+          <Text style={styles.text}>
+            {copticStartDateString}
+            {item.end !== null ? "-" : null}
+            {item.end !== null ? getCopticEndDateString() : null}
           </Text>
         </View>
       </Pressable>

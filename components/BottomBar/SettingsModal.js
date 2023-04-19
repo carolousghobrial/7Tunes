@@ -12,12 +12,13 @@ import AppTheme from "../settings/appTheme";
 import FontSize from "../settings/fontSize";
 import VisibleLangs from "../settings/visibleLangs";
 import TodaysPrayer from "../settings/todaysPrayer";
+import PresentationMode from "../settings/presentationMode";
+
 import {
   getLanguageValue,
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers.js";
-
 
 function SettingsModal({ visible, closeModal }) {
   const { width, height } = useWindowDimensions();
@@ -61,6 +62,7 @@ function SettingsModal({ visible, closeModal }) {
         >
           <ScrollView>
             <AppTheme></AppTheme>
+            <PresentationMode></PresentationMode>
             <FontSize></FontSize>
             <VisibleLangs></VisibleLangs>
           </ScrollView>

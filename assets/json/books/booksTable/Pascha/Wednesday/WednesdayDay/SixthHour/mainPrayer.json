@@ -32,14 +32,14 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaPaschaPraiseIntro",
-            "Rule": "WednesdayDaySixthHour",
+            "Path": "PaschaWednesdayWednesdayDaySixthJobMemoir",
+            "Rule": true,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaWednesdayWednesdayDaySixthJobMemoir",
-            "Rule": true,
+            "Path": "PaschaPaschaPraiseIntro",
+            "Rule": "WednesdayDaySixthHour",
             "Visible": true
         },
         {

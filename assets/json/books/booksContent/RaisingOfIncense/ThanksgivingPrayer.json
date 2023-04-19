@@ -272,11 +272,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وأن يحفظ حياة وقيام أبينا المكرم البابا الأنبا (...)، وشريكه في الخدمة الرسولية أبينا الأسقف (المطران) أنبا (...).**",
-      "Coptic": "**`Ntef`are\\ `e`pwn= nem `pta\\o `eratf `mpeniwt ettaihout `narxh`ereuc papa abba (...)> nem pefke`]vhr `nlitourgoc peniwt `n`epickopoc (`mmhtropolithc) abba (...).",
-      "English": "**And to keep the life and standing of our honored father, Pope Abba (…) and his partner in the liturgy, our father the bishop (metropolitan), Abba (...);",
-      "Arabiccoptic": "اف ايه اريه نان ابؤنخ نيم اب طاهو ايراتف ام بين يوت ايطايوت ان ارشي ايرفس بابا افا  .  .  .  .  .  .  نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت اثؤواب افا  .  .  .  .",
-      "Englishcoptic": "**Entef-areh ep-onkh nem eptaho eratf empeniot ettaiot en-arshy erevs Papa Avva (..) : nem pef-keshvir enli-torghos peniot en-episkopos(emmetro-politis) Avva (..)"
+      "Arabic": "وأن يحفظ حياة وقيام أبينا المكرم البابا الأنبا [*POPE*]، وشريكه في الخدمة الرسولية أبينا الأسقف (المطران) أنبا (...).**",
+      "Coptic": "**`Ntef`are\\ `e`pwn= nem `pta\\o `eratf `mpeniwt ettaihout `narxh`ereuc papa Abba [*POPE*]> nem pefke`]vhr `nlitourgoc peniwt `n`epickopoc (`mmhtropolithc) Abba (...).",
+      "English": "**And to keep the life and standing of our honored father, Pope Abba [*POPE*] and his partner in the liturgy, our father the bishop (metropolitan), Abba ....",
+      "Arabiccoptic": "اف ايه اريه نان ابؤنخ نيم اب طاهو ايراتف ام بين يوت ايطايوت ان ارشي ايرفس بابا افا [*POPE*] نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت اثؤواب افا  .  .  .  .",
+      "Englishcoptic": "**Entef-areh ep-onkh nem eptaho eratf empeniot ettaiot en-arshy erevs Papa Avva [*POPE*] : nem pef-keshvir enli-torghos peniot en-episkopos(emmetro-politis) Avva (..)"
     },
     {
       "Type": "Base",
@@ -320,7 +320,7 @@
       "Coptic": "Eqbe vai ten;\\o ouo\\ tentwb\\ `ntekmet`agaqoc Pimairwmi> mhic nan eqrenjwk `ebol `mpai ke `e\\oou eqouab vai> nem ni`e\\oou throu `nte penwn= =en \\irhnh niben nem tek\\o;.",
       "English": "Therefore, we ask and entreat Your goodness, O Lover of Mankind, grant us to complete this holy day and all the days of our life in all peace with Your fear.",
       "Arabiccoptic": "إثفى فاى تين تيهو أووه تين طفه إن تيك ميت آغاثوس بى مارومى ميس نان إثرين جوكإيفول إم باى كى إيهوؤو إثؤواب فاى نيم نى إيهوؤو تيرو إنتى بين أونخ خين هيريني نيفين نيم تيكهوتى",
-      "Englishcoptic": "Ethve fai tenty ho owoh tentobh entek met aghathos pi mai romy, meis nan ethrengok evol khen pai ke eho-o Ethowab fai, nem ni eho-o tiro ente pen onkh, khen hiriny niven nem tekhoty."
+      "Englishcoptic": "Ethve fai tenty ho owoh tentobh entek met agha-thos pi mai romy, meis nan ethrengok evol khen pai ke eho-o Ethowab fai, nem ni eho-o tiro ente pen onkh, khen hiriny niven nem tekhoty."
     },
     {
       "Type": "Base",

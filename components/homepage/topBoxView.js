@@ -1,7 +1,6 @@
 import { StyleSheet } from "react-native";
 import { View, Button, TextInput, Text, Image, Pressable } from "react-native";
-import { getCopticDateString } from "../../helpers/copticMonthsHelper";
-import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
+import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
 import { useDispatch, useSelector } from "react-redux";
 import moment from "moment";
 import {
@@ -11,19 +10,27 @@ import {
 } from "../../helpers/SettingsHelpers.js";
 import React, { useState, useEffect } from "react";
 import images from "../../helpers/imageHelpers";
+import Languages from "../../constants/languages";
+import { setSeason } from "../../stores/redux/settings.js";
 
 function TopBoxView() {
-  const [seasonText, setseasonText] = useState("");
-  const [date, setDate] = useState("");
-  useEffect(() => {
-    // Update the document title using the browser API
-    SetDateTime();
-    SetCurrentSeason();
-  });
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  const timeTransition = useSelector((state) => state.settings.timeTransition);
   const appLang = useSelector((state) => state.settings.appLanguage);
   const weekOf = getLanguageValue("week_of");
   const season = getLanguageValue(currentSeason.key);
+  const [seasonText, setseasonText] = useState("");
+  const [date, setDate] = useState("");
+  const [copticdate, setCopticDate] = useState("");
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    // Update the document title using the browser API
+    SetCurrentSeason();
+    SetDateTime();
+    SetCopticDateTime();
+  });
+
   function SetCurrentSeason() {
     switch (currentSeason.key) {
       case "GREAT_LENT":
@@ -63,30 +70,41 @@ function TopBoxView() {
     }
   }
   function SetDateTime() {
-    if (appLang === "eng") {
-      moment().locale("en");
-      var mydate = moment().format("dddd, MMMM Do YYYY");
-      setDate(mydate);
-    }
+    try {
+      if (currentSeason.end === null && currentSeason.start !== undefined) {
+        setDate(currentSeason.start.format("dddd, MMMM Do YYYY"));
+      } else {
+        setDate(moment().format("dddd, MMMM Do YYYY"));
+      }
+    } catch (error) {}
   }
-
+  function SetCopticDateTime() {
+    setCopticDate(
+      Languages[appLang][currentSeason.copticMonth] +
+        " " +
+        currentSeason.copticDay +
+        ", " +
+        currentSeason.copticYear
+    );
+  }
+  function setLive() {
+    dispatch(
+      setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
+    );
+  }
   return (
-    <View style={styles.bookView}>
-      <Image style={styles.image} source={images[currentSeason.key]} />
-      <View style={styles.textView}>
-        <Text style={styles.text}>
-          {getCopticDateString(
-            currentSeason.copticYear,
-            currentSeason.copticMonth,
-            currentSeason.copticDay
-          )}
-        </Text>
-        <Text style={styles.text}>{moment().format("dddd, MMMM Do YYYY")}</Text>
-        <Text style={styles.text}>{seasonText}</Text>
-      </View>
+    <Pressable onPress={setLive}>
+      <View style={styles.bookView}>
+        <Image style={styles.image} source={images[currentSeason.key]} />
+        <View style={styles.textView}>
+          <Text style={styles.text}>{copticdate}</Text>
+          <Text style={styles.text}>{date}</Text>
+          <Text style={styles.text}>{seasonText}</Text>
+        </View>
 
-      {/* <Text>{getCopticFastsFeasts()}</Text> */}
-    </View>
+        {/* <Text>{getCopticFastsFeasts()}</Text> */}
+      </View>
+    </Pressable>
   );
 }
 

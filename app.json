@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "7 Tunes",
-    "slug": "7Tunes",
-    "version": "6.0.0",
+    "slug": "7-tunes",
+    "version": "6.1.1",
     "orientation": "default",
     "icon": "./assets/images//logofinal.png",
     "userInterfaceStyle": "automatic",
@@ -14,7 +14,7 @@
     "extra": {
       "supportsRTL": true,
       "eas": {
-        "projectId": "5d77844a-fb3a-45d6-8695-bc7427964624"
+        "projectId": "2021c9d7-dd0b-4c29-8a9d-da78153a1d49"
       }
     },
     "plugins": [
@@ -23,10 +23,17 @@
         {
           "initialOrientation": "DEFAULT"
         }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "carolous.ghobrial"
+        }
       ]
     ],
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/2021c9d7-dd0b-4c29-8a9d-da78153a1d49"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -47,13 +54,14 @@
       ],
       "versionCode": 6222227,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#F5F5DE",
+        "foregroundImage": "./assets/images/logofinal.png"
       },
       "package": "com.seventunes.tasbehafinal"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/images/logofinal.png"
+    },
+    "runtimeVersion": "48.0.0"
   }
 }

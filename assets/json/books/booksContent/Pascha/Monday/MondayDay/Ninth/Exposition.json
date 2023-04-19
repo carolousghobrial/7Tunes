@@ -7,7 +7,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "English": "Reader:"
     },
@@ -23,7 +23,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -39,7 +39,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "English": "Reader:"
     },
@@ -55,7 +55,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -71,7 +71,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "English": "Reader:"
     },
@@ -87,7 +87,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -103,7 +103,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "English": "Reader:"
     },
@@ -119,7 +119,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -135,7 +135,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "English": "Reader:"
     },
@@ -151,7 +151,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -167,7 +167,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "English": "Reader:"
     },
@@ -183,7 +183,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -199,7 +199,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "English": "Reader:"
     },
@@ -215,7 +215,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -231,7 +231,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "English": "Reader:"
     },
@@ -247,7 +247,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -263,7 +263,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "English": "Reader:"
     },
@@ -279,7 +279,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "People",
       "Arabic": "الشعب:",
       "English": "People:"
     },
@@ -295,7 +295,7 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "English": "Reader:"
     },

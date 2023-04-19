@@ -118,7 +118,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "فرق أعداء البيعة. وحصنها بالإيمان. بحصون عالية منيعة. فلا تتزعزع أبداً",
+      "Arabic": "فرق أعداء البيعة. وحصنها . فلا تتزعزع . الى الأبد",
       "Coptic": "Jwr `ebol `nnijaji > ``nte ;ek`klhci`a > `aricobt `eroc > `nneckim ]a `ene\\ .",
       "English": "Disperse the enemies : of the Church : and fortify her : that she may not be shaken forever.",
       "Arabiccoptic": "جور إيفول إن نى جاجى , إنتى تى إككليسيا , أرى سوفت إيروس, إن نيسكيم شا إينيه .",
@@ -151,7 +151,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "عمانوئيل إلهنا, فى وسطنا الأن,  بمجد أبيه الصالح, والروح القدس.",
+      "Arabic": "عمانوئيل إلهنا, فى وسطنا الأن,  بمجد أبيه , والروح القدس.",
       "Coptic": "Emmanouhl Penn ou; > =en tenmh; ;nou > =en `p`wou ``nte Pefiwt > nem Pipn?a? eq?u? .",
       "English": "Immanuel our God, is now in our midst, with the glory of His Father : and the Holy Spirit",
       "Arabiccoptic": "إممانوئيل بينوتى , خين تين ميتى تينو , خين إب أوأو إنتى بيف يوت , نيم بى إبنفما إثؤواب .",
@@ -221,7 +221,7 @@
       "Coptic": "Tenouw]t `mmok `w Pxc? > nem Pekiwt `n `agaqoc > nem Pipn?a? eq?u? > je `aua]k akcw; `mmon.",
       "English": "We worship you O Christ : with your Good Father : and the Holy Spirit : for you were crucified and saved us.",
       "Arabiccoptic": "تين أوأوشت إمموك أوبخرستوس , نيم بيك يوت إن أغاثوس , نيم بى إبنفما إثؤواب , جى أف أشك أكسوتى إممون .",
-      "Englishcoptic": "Ten o-osht emmok o pi-Ekhristos : nem Pekyot en aghathos : nem pi epnevma Ethowab : je av-ashk aksoti emmon."
+      "Englishcoptic": "Ten o-osht emmok o pi-Ekhristos : nem Pekyot en agha-thos : nem pi epnevma Ethowab : je av-ashk aksoti emmon."
     }
   ]
 }

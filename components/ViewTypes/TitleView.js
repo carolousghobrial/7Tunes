@@ -30,6 +30,9 @@ function TitleView({ item }) {
     // Portrait mode
     flex = "column";
   }
+  //let regex = /2:15-3:25/i;
+  const regex = /\d+/g;
+
   return (
     <View
       style={[
@@ -63,10 +66,16 @@ function TitleView({ item }) {
         <Text
           style={[
             styles.arabic,
-            { fontSize: fontSize * 1.2, color: getColor("LabelColor") },
+            {
+              fontSize: fontSize * 1.2,
+              color: getColor("LabelColor"),
+              flexDirection: "row-reverse",
+            },
           ]}
         >
-          {item.Arabic}
+          {item.Arabic.replace(regex, (match) => {
+            return Number(match).toLocaleString("ar-EG");
+          })}
         </Text>
       </View>
     </View>
@@ -89,13 +98,13 @@ const styles = StyleSheet.create({
   },
   coptic: {
     fontFamily: "coptic-font",
-    textAlign: "justify",
+    textAlign: "right",
     justifyContent: "center",
     textAlign: "center",
   },
   arabic: {
     fontFamily: "arabictitle-font",
-    textAlign: "justify",
+    textAlign: "right",
     writingDirection: "rtl",
     justifyContent: "center",
     textAlign: "center",

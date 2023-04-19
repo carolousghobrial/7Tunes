@@ -21,11 +21,11 @@ import {
   getLanguageValue,
   getFontSize,
   getColor,
+  getSaint,
 } from "../../helpers/SettingsHelpers.js";
 
-
 function SaintModal({ visible, saint, closeModal, updateSaint }) {
-  const saintSelected = useSelector((state) => state.saints[saint]);
+  const saintSelected = getSaint(saint);
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const { width, height } = useWindowDimensions();

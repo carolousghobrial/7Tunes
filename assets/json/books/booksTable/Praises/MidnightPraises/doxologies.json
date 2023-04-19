@@ -161,6 +161,12 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesMajorFeastsThomasSunday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesMajorFeastsEntryEgypt",
             "Rule": 0,
             "Visible": "isSeason"
@@ -412,6 +418,12 @@
             "Path": "DoxologiesConclusionPartOnAdamDays",
             "Rule": 0,
             "Visible": "isPraises"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasSaturdayWatosConclusion",
+            "Rule": 0,
+            "Visible": "isSeason"
         }
     ]
 }

@@ -16,9 +16,7 @@ function FontSize() {
   const language = useSelector((state) => state.settings.appLanguage);
 
   let flexDirection = "row";
-  if (language === "ara") {
-    flexDirection = "row-reverse";
-  }
+
   function fontSizePlus() {
     dispatch(changeFontSize({ direction: "plus" }));
   }

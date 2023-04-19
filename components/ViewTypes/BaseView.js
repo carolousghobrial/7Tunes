@@ -1,5 +1,13 @@
 import { StyleSheet } from "react-native";
-import { View, Button, TextInput, Text, Image, Pressable } from "react-native";
+import {
+  View,
+  Button,
+  TextInput,
+  Text,
+  Platform,
+  Image,
+  Pressable,
+} from "react-native";
 import { getCopticDateString } from "../../helpers/copticMonthsHelper";
 import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
 import moment from "moment";
@@ -13,19 +21,11 @@ import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect, memo } from "react";
 
-import {
-  ComeRisenRule,
-  ROICONCLUSION,
-  REPLACEGOSPELAUTHOR,
-  REPLACEPROPHETS,
-} from "../../helpers/replacingRules";
-
 function BaseView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let flexDirection = "row";
-  if (Platform.OS == "android") {
-    flexDirection = "row-reverse";
-  }
+  const testAlignText = Platform.OS === "ios" ? "justify" : "right";
+
   let textColor = "";
   switch (item.Side) {
     case "North":
@@ -94,7 +94,12 @@ function BaseView({ item }) {
           style={[
             styles.arabic,
             styles.textView,
-            { fontSize, color: textColor, lineHeight: fontSize * 1.35 },
+            {
+              fontSize,
+              color: textColor,
+              lineHeight: fontSize * 1.8,
+              textAlign: testAlignText,
+            },
           ]}
         >
           {item.Arabic}
@@ -116,7 +121,12 @@ function BaseView({ item }) {
           style={[
             styles.arabic,
             styles.textView,
-            { fontSize, color: textColor, lineHeight: fontSize * 1.2 },
+            {
+              fontSize,
+              color: textColor,
+              lineHeight: fontSize * 1.2,
+              textAlign: testAlignText,
+            },
           ]}
         >
           {item.Arabiccoptic}
@@ -141,7 +151,8 @@ const styles = StyleSheet.create({
   },
   arabic: {
     fontFamily: "arabic-font",
-    textAlign: "justify",
+    textAlign: "right",
+    lineHeight: "30",
     writingDirection: "rtl",
   },
   english: {
