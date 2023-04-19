@@ -1,7 +1,7 @@
 import moment from "moment";
-
+import store from "../stores/redux/store.js";
 import { useDispatch, useSelector } from "react-redux";
-import { getSeason } from "./SettingsHelpers.js";
+import { getSeason, getSaint } from "./SettingsHelpers.js";
 import { useState, useEffect } from "react";
 
 import {
@@ -625,7 +625,7 @@ const hide = (motherSource, path) => {
   return true;
 };
 const VOCSaint = (motherSource, path) => {
-  const saintSelected = useSelector((state) => state.saints[path]);
+  const saintSelected = getSaint(path);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   if (todayPrayer) {
     if (motherSource === "ThursdayDayFirstHourMain") {
@@ -641,7 +641,7 @@ const VOCSaint = (motherSource, path) => {
   }
 };
 const DOXSaint = (motherSource, path) => {
-  const saintSelected = useSelector((state) => state.saints[path]);
+  const saintSelected = getSaint(path);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   if (todayPrayer) {
     return saintSelected.doxologies;
@@ -652,6 +652,13 @@ const DOXSaint = (motherSource, path) => {
 const isApostlesFeast = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   return currentSeason.key === "FEAST_OF_APOSTLES" ? true : false;
+};
+const getPlantsSeason = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (path.toLowerCase().includes(currentSeason.plantsSeason)) {
+    return true;
+  }
+  return false;
 };
 const VisibleRules = {
   hide: hide,
@@ -684,6 +691,7 @@ const VisibleRules = {
   isBigFeast: isBigFeast,
   isPalmSunday: isPalmSunday,
   isCross: isCross,
+  getPlantsSeason: getPlantsSeason,
   isHosanna: isHosanna,
   showHitenVOC: showHitenVOC,
   showEthrenHosVOC: showEthrenHosVOC,

@@ -272,11 +272,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وأن يحفظ حياة وقيام أبينا المكرم البابا الأنبا (...)، وشريكه في الخدمة الرسولية أبينا الأسقف (المطران) أنبا (...).**",
-      "Coptic": "**`Ntef`are\\ `e`pwn= nem `pta\\o `eratf `mpeniwt ettaihout `narxh`ereuc papa abba (...)> nem pefke`]vhr `nlitourgoc peniwt `n`epickopoc (`mmhtropolithc) abba (...).",
-      "English": "**And to keep the life and standing of our honored father, Pope Abba (…) and his partner in the liturgy, our father the bishop (metropolitan), Abba (...);",
-      "Arabiccoptic": "اف ايه اريه نان ابؤنخ نيم اب طاهو ايراتف ام بين يوت ايطايوت ان ارشي ايرفس بابا افا  .  .  .  .  .  .  نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت اثؤواب افا  .  .  .  .",
-      "Englishcoptic": "**Entef-areh ep-onkh nem eptaho eratf empeniot ettaiot en-arshy erevs Papa Avva (..) : nem pef-keshvir enli-torghos peniot en-episkopos(emmetro-politis) Avva (..)"
+      "Arabic": "وأن يحفظ حياة وقيام أبينا المكرم البابا الأنبا [*POPE*]، وشريكه في الخدمة الرسولية أبينا الأسقف (المطران) أنبا (...).**",
+      "Coptic": "**`Ntef`are\\ `e`pwn= nem `pta\\o `eratf `mpeniwt ettaihout `narxh`ereuc papa Abba [*POPE*]> nem pefke`]vhr `nlitourgoc peniwt `n`epickopoc (`mmhtropolithc) Abba (...).",
+      "English": "**And to keep the life and standing of our honored father, Pope Abba [*POPE*] and his partner in the liturgy, our father the bishop (metropolitan), Abba ....",
+      "Arabiccoptic": "اف ايه اريه نان ابؤنخ نيم اب طاهو ايراتف ام بين يوت ايطايوت ان ارشي ايرفس بابا افا [*POPE*] نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت اثؤواب افا  .  .  .  .",
+      "Englishcoptic": "**Entef-areh ep-onkh nem eptaho eratf empeniot ettaiot en-arshy erevs Papa Avva [*POPE*] : nem pef-keshvir enli-torghos peniot en-episkopos(emmetro-politis) Avva (..)"
     },
     {
       "Type": "Base",

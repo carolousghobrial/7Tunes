@@ -1,19 +1,9 @@
-import React, {
-  useState,
-  useRef,
-  useEffect,
-  useMemo,
-} from "react";
+import React, { useState, useRef, useEffect, useMemo } from "react";
 import Icon from "react-native-vector-icons/Ionicons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
 
-import {
-  StyleSheet,
-  Text,
-  FlatList,
-  Pressable,
-} from "react-native";
+import { StyleSheet, Text, FlatList, Pressable } from "react-native";
 
 import BaseView from "../components/ViewTypes/BaseView";
 import MelodyView from "../components/ViewTypes/MelodyView";
@@ -24,9 +14,7 @@ import MainTitleView from "../components/ViewTypes/MainTitleView";
 import ExpanderView from "../components/ViewTypes/ExpanderView";
 import LoadingScreen from "./LoadingScreen";
 import SettingsModal from "../components/BottomBar/SettingsModal";
-import {
-  getColor,
-} from "../helpers/SettingsHelpers.js";
+import { getColor } from "../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 
 const BookScreen = React.memo(({ navigation, route }) => {
@@ -43,6 +31,8 @@ const BookScreen = React.memo(({ navigation, route }) => {
   }, [NavbarVisibility]);
   const handleScroll = (event) => {
     const currentPosition = event.nativeEvent.contentOffset.y;
+    console.log(currentPosition);
+    console.log(scrollPosition);
     if (currentPosition > scrollPosition) {
       if (memoizedNavbarVisibility) {
         setNavbarVisibility(false);
@@ -51,7 +41,6 @@ const BookScreen = React.memo(({ navigation, route }) => {
       if (!memoizedNavbarVisibility) {
         setNavbarVisibility(true);
       }
-      
     }
     setScrollPosition(currentPosition);
   };

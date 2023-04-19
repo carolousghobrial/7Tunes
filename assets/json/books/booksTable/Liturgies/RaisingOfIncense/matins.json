@@ -205,19 +205,19 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseLitanyAir",
             "Rule": 0,
-            "Visible": true
+            "Visible": "getPlantsSeason"
         },
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseLitanyWaters",
             "Rule": 0,
-            "Visible": true
+            "Visible": "getPlantsSeason"
         },
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseLitanySeeds",
             "Rule": 0,
-            "Visible": true
+            "Visible": "getPlantsSeason"
         },
         {
             "Type": "Main",

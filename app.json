@@ -2,7 +2,7 @@
   "expo": {
     "name": "7 Tunes",
     "slug": "7-tunes",
-    "version": "6.0.1",
+    "version": "6.1.1",
     "orientation": "default",
     "icon": "./assets/images//logofinal.png",
     "userInterfaceStyle": "automatic",
@@ -32,7 +32,8 @@
       ]
     ],
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/2021c9d7-dd0b-4c29-8a9d-da78153a1d49"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -58,6 +59,7 @@
     },
     "web": {
       "favicon": "./assets/images/logofinal.png"
-    }
+    },
+    "runtimeVersion": "1.0.0"
   }
 }

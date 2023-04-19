@@ -8,6 +8,7 @@ import {
   REPLACEPROPHETS,
   REPLACPASCHAHOURDAY,
   REPLACEHOMILYFATHERS,
+  REPLACEPOPE,
 } from "../helpers/replacingRules";
 import homescreenPaths from "../helpers/homescreenPaths";
 
@@ -121,20 +122,20 @@ export function getFullViewModel(motherSource, mother) {
     }
   });
 
-ViewArray.push({
-  part:   {
-    "Type": "Button",
-    "Arabic": " العودة",
-    "English": "Return",
-    "Rule": "PopPage",
-    "Visible": true,
-    "Path": ""
-},
-  key: key,
-  EnglishTitle: undefined,
-  CopticTitle: undefined,
-  ArabicTitle: undefined,
-});
+  ViewArray.push({
+    part: {
+      Type: "Button",
+      Arabic: " العودة",
+      English: "Return",
+      Rule: "PopPage",
+      Visible: true,
+      Path: "",
+    },
+    key: key,
+    EnglishTitle: undefined,
+    CopticTitle: undefined,
+    ArabicTitle: undefined,
+  });
 
   return [ViewArray, MenuArray];
 }
@@ -301,6 +302,26 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
                   Type: part.Type,
                   Visible: part.Visible,
                 };
+              } else if (part.English.includes("[*POPE*]")) {
+                var replacingWord = "[*POPE*]";
+                var myrule = REPLACEPOPE();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
               } else {
                 newPart = part;
               }
@@ -358,6 +379,19 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
                 var myrule = REPLACEPROPHETS(thisRule);
                 newPart = {
                   Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  English: part.English.replace(replacingWord, myrule.english),
+
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*POPE*]")) {
+                var replacingWord = "[*POPE*]";
+                var myrule = REPLACEPOPE();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+
                   English: part.English.replace(replacingWord, myrule.english),
 
                   Rule: thisRule,

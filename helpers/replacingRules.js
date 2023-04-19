@@ -3,6 +3,7 @@ import moment from "moment";
 import { useDispatch, useSelector } from "react-redux";
 import { getSeason } from "./SettingsHelpers.js";
 import { useState, useEffect } from "react";
+const bishopsList = require("../assets/json/bishopsList.json");
 
 import {
   getCurrentSeason,
@@ -908,4 +909,23 @@ export const REPLACEHOMILYFATHERS = (father) => {
         arabiccoptic: " Athanasius Pi-Apostolikos",
       };
   }
+};
+
+export const REPLACEPOPE = () => {
+  return {
+    english: bishopsList.POPE.English,
+    coptic: bishopsList.POPE.Coptic,
+    arabic: bishopsList.POPE.Arabic,
+    englishcoptic: bishopsList.POPE.Englishcoptic,
+    arabiccoptic: bishopsList.POPE.Arabiccoptic,
+  };
+};
+export const REPLACANTIOCHEPOPE = () => {
+  return {
+    english: bishopsList.ANTIOCH_POPE.English,
+    coptic: bishopsList.ANTIOCH_POPE.Coptic,
+    arabic: bishopsList.ANTIOCH_POPE.Arabic,
+    englishcoptic: bishopsList.ANTIOCH_POPE.Englishcoptic,
+    arabiccoptic: bishopsList.ANTIOCH_POPE.Arabiccoptic,
+  };
 };

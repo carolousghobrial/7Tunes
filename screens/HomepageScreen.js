@@ -15,7 +15,6 @@ import homescreenPaths from "../helpers/homescreenPaths";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 import React, { useState, useEffect } from "react";
 import { Glassfy, GlassfySku } from "react-native-glassfy-module";
-//import Purchases from "react-native-purchases";
 
 import { useDispatch, useSelector } from "react-redux";
 import { setItemPurchased } from "../stores/redux/settings";

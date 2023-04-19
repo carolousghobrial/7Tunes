@@ -8,8 +8,7 @@ import {
 import { Entypo } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
 import { getLanguageValue, getColor } from "../helpers/SettingsHelpers";
-//import { Glassfy, GlassfySku } from "react-native-glassfy-module";
-//import Purchases from "react-native-purchases";
+import { Glassfy, GlassfySku } from "react-native-glassfy-module";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import {
   DrawerContentScrollView,
@@ -46,7 +45,7 @@ const CustomDrawerScreen = (props) => {
   };
   const RestorePurchase = async () => {
     try {
-      //await Glassfy.restorePurchases();
+      await Glassfy.restorePurchases();
     } catch (error) {
       Alert.alert(error.message);
     }
