@@ -32,7 +32,8 @@
       ]
     ],
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/2021c9d7-dd0b-4c29-8a9d-da78153a1d49"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -59,6 +60,6 @@
     "web": {
       "favicon": "./assets/images/logofinal.png"
     },
-    "runtimeVersion": "1.0.0"
+    "runtimeVersion": "48.0.10"
   }
 }
