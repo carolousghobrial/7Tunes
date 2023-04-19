@@ -12,7 +12,8 @@
         "buildConfiguration": "Debug",
         "image": "latest",
         "resourceClass": "m-medium"
-      }
+      },
+      "channel": "development"
     },
     "preview": {
       "channel": "staging",
