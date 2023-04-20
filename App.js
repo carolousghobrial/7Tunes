@@ -66,7 +66,7 @@ function App() {
           );
         }
       } catch (e) {
-        console.warn(e);
+        alert(JSON.stringify(e));
       } finally {
         // Tell the application to render
         //setCurrentSeason();

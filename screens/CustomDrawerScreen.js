@@ -15,6 +15,8 @@ import {
   DrawerItemList,
   DrawerItem,
 } from "@react-navigation/drawer";
+import * as Updates from "expo-updates";
+
 import TopBoxView from "../components/homepage/topBoxView";
 const CustomDrawerScreen = (props) => {
   const onShare = async () => {
@@ -43,6 +45,17 @@ const CustomDrawerScreen = (props) => {
       Alert.alert(error.message);
     }
   };
+  const onUpdates = async () => {    try {
+      const update = await Updates.checkForUpdateAsync();
+      alert(update.isAvailable ? 'update is available' : 'no update available');
+      if (update.isAvailable) {
+        await Updates.fetchUpdateAsync();
+        await Updates.reloadAsync();
+      }
+    } catch (e) {
+      alert(JSON.stringify(e));
+    }
+  }
   const RestorePurchase = async () => {
     try {
       await Glassfy.restorePurchases();
@@ -65,6 +78,9 @@ const CustomDrawerScreen = (props) => {
   };
   const InstagramIcon = () => {
     return <Entypo name="instagram" size={24} color="black" />;
+  };
+  const UpdateIcon = () => {
+    return <MaterialCommunityIcons name="update" size={24} color={"black"} />;
   };
   return (
     <ImageBackground
@@ -99,6 +115,11 @@ const CustomDrawerScreen = (props) => {
           icon={InstagramIcon}
           label={getLanguageValue("instagram")}
           onPress={() => Linking.openURL("instagram://user?username=7tunes_")}
+        />
+                <DrawerItem
+                  icon={UpdateIcon}
+          label={getLanguageValue("update")}
+          onPress={onUpdates}
         />
       </DrawerContentScrollView>
     </ImageBackground>

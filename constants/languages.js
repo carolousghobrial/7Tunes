@@ -32,6 +32,7 @@ const Languages = {
     instagram: "Instagram Page",
     Koiahk: "Koiahk",
     language: "Language",
+    update: "Update Application",
     languageselctor: "Language Selector",
     light: "Light Theme",
     menuBook: "Books",
@@ -172,7 +173,7 @@ const Languages = {
     presentationMode: "صفحة ",
     presentationModeDescription: "تمكين ترقيم الصفحات الذي يسمح لك بتمرير صفحة واحدة في كل مرة.",
     setTimeTodayPrayer: "اضبط الوقت الذي ترغب في الانتقال فيه إلى اليوم التالي.",
-
+    update: "Update Application",
     todayprayerdescription:
       "تتيح خيارات الصلاة اليوم للتطبيق تحميل الصلوات / الالحان التي تقال اليوم تلقائيًا بدلاً من تحميل جميع الخيارات الممكنة",
     NATIVITY: "عيد الميلاد",
