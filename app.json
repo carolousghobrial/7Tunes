@@ -2,7 +2,7 @@
   "expo": {
     "name": "7 Tunes",
     "slug": "7-tunes",
-    "version": "6.1.1",
+    "version": "6.1.2",
     "orientation": "default",
     "icon": "./assets/images//logofinal.png",
     "userInterfaceStyle": "automatic",
@@ -54,7 +54,7 @@
       "permissions": [
         "com.android.vending.BILLING"
       ],
-      "versionCode": 6222227,
+      "versionCode": 6222236,
       "adaptiveIcon": {
         "backgroundColor": "#F5F5DE",
         "foregroundImage": "./assets/images/logofinal.png"
