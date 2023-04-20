@@ -45,9 +45,10 @@ const CustomDrawerScreen = (props) => {
       Alert.alert(error.message);
     }
   };
-  const onUpdates = async () => {    try {
+  const onUpdates = async () => {
+    try {
       const update = await Updates.checkForUpdateAsync();
-      alert(update.isAvailable ? 'update is available' : 'no update available');
+      alert(update.isAvailable ? "update is available" : "No Update available");
       if (update.isAvailable) {
         await Updates.fetchUpdateAsync();
         await Updates.reloadAsync();
@@ -55,7 +56,7 @@ const CustomDrawerScreen = (props) => {
     } catch (e) {
       alert(JSON.stringify(e));
     }
-  }
+  };
   const RestorePurchase = async () => {
     try {
       await Glassfy.restorePurchases();
@@ -116,8 +117,8 @@ const CustomDrawerScreen = (props) => {
           label={getLanguageValue("instagram")}
           onPress={() => Linking.openURL("instagram://user?username=7tunes_")}
         />
-                <DrawerItem
-                  icon={UpdateIcon}
+        <DrawerItem
+          icon={UpdateIcon}
           label={getLanguageValue("update")}
           onPress={onUpdates}
         />
