@@ -62,8 +62,6 @@
     "web": {
       "favicon": "./assets/images/logofinal.png"
     },
-    "runtimeVersion": {
-      "policy": "nativeVersion"
-    }
+    "runtimeVersion": "6.1.1"
   }
 }
