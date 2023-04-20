@@ -258,6 +258,12 @@ const isSeason = (motherSource, path) => {
         return false;
 
       case "RESURRECTION":
+        if (
+          path.toLowerCase().includes("ressurection") 
+        ) {
+          return true;
+        }
+        return false;
       case "THOMAS_SUNDAY":
         if (
           path.toLowerCase().includes("ressurection") &&

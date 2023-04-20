@@ -90,7 +90,7 @@ const Languages = {
     LAZARUS_SATURDAY: "Lazarus Saturday",
     JONAH_FEAST: "Jonah's Feast",
     JONAH_FAST: "Jonah's Fast",
-    HOLY_50: "Holy 50 days (Pentecost)",
+    HOLY_50: "Holy 50 Days (Pentecostal)",
     NATIVITY_PARAMOUN: "Nativity Paramoun",
     EPIPHANY_PARAMOUN: "Epiphany Paramoun",
     NATIVITY_PERIOD: "Nativity Period",

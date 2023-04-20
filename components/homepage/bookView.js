@@ -47,8 +47,10 @@ function BookView(props) {
           </View>
 
           <View style={styles.textView}>
-            <Text style={styles.text}>{props.item.EnglishTitle}</Text>
-            <Text style={styles.text}>{props.item.ArabicTitle}</Text>
+            <Text s                style={[styles.text, { fontSize, fontFamily: "english-font" }]}
+>{props.item.EnglishTitle}</Text>
+            <Text                 style={[styles.text, { fontSize, fontFamily: "arabic-font" }]}
+>{props.item.ArabicTitle}</Text>
           </View>
         </View>
       </Pressable>

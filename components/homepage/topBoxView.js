@@ -71,11 +71,8 @@ function TopBoxView() {
   }
   function SetDateTime() {
     try {
-      if (currentSeason.end === null && currentSeason.start !== undefined) {
-        setDate(currentSeason.start.format("dddd, MMMM Do YYYY"));
-      } else {
-        setDate(moment().format("dddd, MMMM Do YYYY"));
-      }
+      var date = new Date(currentSeason.gregorianYear, currentSeason.gregorianMonth, currentSeason.gregorianDayOfMonth, 0 ,0 ,0 , 0)
+      setDate(moment(date).format("dddd, MMMM Do YYYY"));
     } catch (error) {}
   }
   function SetCopticDateTime() {
