@@ -3,10 +3,9 @@ import { useState, useCallback, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors.js";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
-import { changeTextLanguage } from "../../stores/redux/settings.js";
+import { changeTextLanguage , changeSaint } from "../../stores/redux/settings.js";
 import SaintModal from "./saintModal";
 import images from "../../helpers/imageHelpers";
-import { changeSaint } from "../../stores/redux/saints";
 
 function SaintsList() {
   const fontSize = useSelector((state) => state.settings.textFontSize);

@@ -39,8 +39,245 @@ const settingsSlice = createSlice({
       copticMonth: "",
       copticYear: "",
     },
+    saints: {
+      ARCHANGEL_MICHAEL: {
+        vos: true,
+        doxologies: true,
+      },
+      ARCHANGEL_GABRIEL: {
+        vos: false,
+        doxologies: false,
+      },
+      JOHN_THE_BAPTIST: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_MARK: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_STEPHEN: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_GEORGE: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_PHILOPATER: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_MINA: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_ABANOUB: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_DEMIANA: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_MARINA: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_ANTHONY: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_PAULHERMIT: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_MOSES: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_PISHOI: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_REWIS: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_JOHN_THE_SHORT: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_KARAS: {
+        vos: false,
+        doxologies: false,
+      },
+      ST_KIROLLOS_SIXTH: {
+        vos: false,
+        doxologies: false,
+      },
+    },
   },
   reducers: {
+    changeSaint: (state, action) => {
+      const saint = action.payload.saint;
+      const object = action.payload.object;
+      switch (saint) {
+        case "ARCHANGEL_MICHAEL":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ARCHANGEL_MICHAEL: object,
+            },
+          };
+          
+        case "ARCHANGEL_GABRIEL":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ARCHANGEL_GABRIEL: object,
+            },
+          };
+        case "JOHN_THE_BAPTIST":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              JOHN_THE_BAPTIST: object,
+            },
+          };
+        case "ST_MARK":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_MARK: object,
+            },
+          };
+        case "ST_STEPHEN":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_STEPHEN: object,
+            },
+          };
+        case "ST_GEORGE":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_GEORGE: object,
+            },
+          };
+        case "ST_PHILOPATER":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_PHILOPATER: object,
+            },
+          };
+        case "ST_MINA":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_MINA: object,
+            },
+          };
+        case "ST_ABANOUB":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_ABANOUB: object,
+            },
+          };
+        case "ST_DEMIANA":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_DEMIANA: object,
+            },
+          };
+        case "ST_MARINA":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_MARINA: object,
+            },
+          };
+        case "ST_ANTHONY":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_ANTHONY: object,
+            },
+          };
+        case "ST_PAULHERMIT":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_PAULHERMIT: object,
+            },
+          };
+        case "ST_MOSES":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_MOSES: object,
+            },
+          };
+        case "ST_PISHOI":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_PISHOI: object,
+            },
+          };
+        case "ST_REWIS":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_REWIS: object,
+            },
+          };
+        case "ST_JOHN_THE_SHORT":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_JOHN_THE_SHORT: object,
+            },
+          };
+        case "ST_KARAS":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_KARAS: object,
+            },
+          };
+        case "ST_KIROLLOS_SIXTH":
+          return {
+            ...state,
+            saints: {
+              ...state.saints,
+              ST_KIROLLOS_SIXTH: object,
+            },
+          };
+      }
+    },
     setTimeTransition: (state, action) => {
       const time = action.payload.timeTransition;
       return {
@@ -186,5 +423,7 @@ export const setSeason = settingsSlice.actions.setSeason;
 export const setItemPurchased = settingsSlice.actions.setItemPurchased;
 export const changePagination = settingsSlice.actions.changePagination;
 export const setIsTablet = settingsSlice.actions.setIsTablet;
+export const changeSaint = settingsSlice.actions.changeSaint;
+
 
 export default settingsSlice.reducer;
