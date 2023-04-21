@@ -99,7 +99,6 @@ function SaintsList() {
     setsaintModalVisible(false);
   }
   function updateSaint(saint, saintObject) {
-    console.log(saintObject);
     dispatch(changeSaint({ saint: saint, object: saintObject }));
     setsaintModalVisible(false);
   }
