@@ -23,7 +23,7 @@ export function getColor(key) {
   return activeColors[key];
 }
 export function getSaint(saint) {
-  const saints = useSelector((state) => state.settings.saints);
+  const saints = useSelector((state) => state.settings);
   switch (saint) {
     case "ARCHANGEL_MICHAEL":
       return saints.ARCHANGEL_MICHAEL;
