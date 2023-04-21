@@ -116,6 +116,10 @@ const settingsSlice = createSlice({
         vos: false,
         doxologies: false,
       },
+      DEFAULT: {
+        vos: false,
+        doxologies: false,
+      },
     },
   },
   reducers: {
@@ -131,7 +135,7 @@ const settingsSlice = createSlice({
               ARCHANGEL_MICHAEL: object,
             },
           };
-          
+
         case "ARCHANGEL_GABRIEL":
           return {
             ...state,
@@ -157,6 +161,7 @@ const settingsSlice = createSlice({
             },
           };
         case "ST_STEPHEN":
+          console.log(object);
           return {
             ...state,
             saints: {
@@ -424,6 +429,5 @@ export const setItemPurchased = settingsSlice.actions.setItemPurchased;
 export const changePagination = settingsSlice.actions.changePagination;
 export const setIsTablet = settingsSlice.actions.setIsTablet;
 export const changeSaint = settingsSlice.actions.changeSaint;
-
 
 export default settingsSlice.reducer;

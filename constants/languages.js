@@ -55,8 +55,12 @@ const Languages = {
     Tobe: "Tobe",
     todayprayer: "Today's Prayer",
     presentationMode: "Presentation Mode",
-    presentationModeDescription: "Enable Pagination which allows you to scroll one page at a time.",
-    setTimeTodayPrayer: "Set the time where you would like to roll over to the next day.",
+    presentationModeDescription:
+      "Enable Pagination which allows you to scroll one page at a time.",
+    setTimeTodayPrayer:
+      "Set the time where you would like to roll over to the next day.",
+    versesofCymbals: "Verses of Cymbals",
+    doxologies: "Doxologies",
     saintsMenu: "Saints Menu",
     commentsOrQuestions: "Comment/Question",
     todayprayerdescription:
@@ -68,7 +72,7 @@ const Languages = {
     RESURRECTION: "Resurrection",
     PALM_SUNDAY: "Palm Sunday",
     ASCENSION: "Ascension",
-    ASCENSIONTOPENTECOST : "Period from Ascnesion to Pentecost",
+    ASCENSIONTOPENTECOST: "Period from Ascnesion to Pentecost",
     PENTECOST: "Pentecost",
     FEAST_OF_CIRCUMCISION: "Feast of the Circumcision",
     ENTRY_EGYPT: "Entrance of the Lord Christ into the Land of Egypt",
@@ -171,8 +175,10 @@ const Languages = {
     Tobe: "طوبه",
     todayprayer: "صلاة اليوم",
     presentationMode: "صفحة ",
-    presentationModeDescription: "تمكين ترقيم الصفحات الذي يسمح لك بتمرير صفحة واحدة في كل مرة.",
-    setTimeTodayPrayer: "اضبط الوقت الذي ترغب في الانتقال فيه إلى اليوم التالي.",
+    presentationModeDescription:
+      "تمكين ترقيم الصفحات الذي يسمح لك بتمرير صفحة واحدة في كل مرة.",
+    setTimeTodayPrayer:
+      "اضبط الوقت الذي ترغب في الانتقال فيه إلى اليوم التالي.",
     update: "Update Application",
     todayprayerdescription:
       "تتيح خيارات الصلاة اليوم للتطبيق تحميل الصلوات / الالحان التي تقال اليوم تلقائيًا بدلاً من تحميل جميع الخيارات الممكنة",
@@ -183,7 +189,7 @@ const Languages = {
     RESURRECTION: "عيد القيامة",
     PALM_SUNDAY: "احد الشعانين",
     ASCENSION: "عيد الصعود",
-    ASCENSIONTOPENTECOST :  "الفترة من الصعود إلى عيد العنصرة",
+    ASCENSIONTOPENTECOST: "الفترة من الصعود إلى عيد العنصرة",
     PENTECOST: "عيد العنصرة",
     FEAST_OF_CIRCUMCISION: "عيد الختان",
     ENTRY_EGYPT: "عيد دخول المسيح ارض مصر",

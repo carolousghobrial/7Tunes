@@ -4,12 +4,15 @@ import {
   View,
   ScrollView,
   Text,
+  Switch,
   StyleSheet,
   Pressable,
   TouchableWithoutFeedback,
   Image,
   useWindowDimensions,
 } from "react-native";
+import Colors from "../../constants/colors.js";
+
 import Checkbox from "expo-checkbox";
 import AppTheme from "../settings/appTheme";
 import FontSize from "../settings/fontSize";
@@ -26,7 +29,6 @@ import {
 
 function SaintModal({ visible, saint, closeModal, updateSaint }) {
   const saintSelected = getSaint(saint);
-  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const { width, height } = useWindowDimensions();
   const [vosChecked, setvosChecked] = useState(false);
@@ -49,20 +51,20 @@ function SaintModal({ visible, saint, closeModal, updateSaint }) {
   }
   useEffect(() => {
     if (visible) {
-      setModalIsOpen(true);
       // Do something when the modal appears...
       setvosChecked(saintSelected.vos);
       setdoxChecked(saintSelected.doxologies);
-    } else {
-      setModalIsOpen(false);
     }
   }, [visible]);
-  useEffect(() => {
-    if (saintSelected !== undefined) {
-      saintSelected.vos = vosChecked;
-      saintSelected.doxologies = doxChecked;
-    }
-  }, [vosChecked, doxChecked]);
+
+  function toggleSwitchDox(value) {
+    saintSelected.doxologies = value;
+    setdoxChecked(value);
+  }
+  function toggleSwitchVOS(value) {
+    saintSelected.vos = value;
+    setvosChecked(value);
+  }
   return (
     <Modal
       animationType="slide"
@@ -95,11 +97,23 @@ function SaintModal({ visible, saint, closeModal, updateSaint }) {
             </Text>
             <View style={styles.checkboxcontainer}>
               <View style={styles.section}>
-                <Checkbox
-                  style={styles.checkbox}
-                  value={vosChecked}
-                  onValueChange={setvosChecked}
-                />
+                <View style={styles.switch}>
+                  <View style={styles.textContainer}>
+                    <Text
+                      style={vosChecked ? [styles.textOn] : [styles.textOff]}
+                    >
+                      {vosChecked ? "YES" : "NO"}
+                    </Text>
+                  </View>
+                  <Switch
+                    ios_backgroundColor={
+                      vosChecked ? Colors.NavigationBarColor : "red"
+                    }
+                    value={vosChecked}
+                    onValueChange={(value) => toggleSwitchVOS(value)}
+                    thumbColor="white"
+                  />
+                </View>
                 <Text
                   style={{
                     fontSize: fontSize,
@@ -111,11 +125,23 @@ function SaintModal({ visible, saint, closeModal, updateSaint }) {
                 </Text>
               </View>
               <View style={styles.section}>
-                <Checkbox
-                  style={styles.checkbox}
-                  value={doxChecked}
-                  onValueChange={setdoxChecked}
-                />
+                <View style={styles.switch}>
+                  <View style={styles.textContainer}>
+                    <Text
+                      style={doxChecked ? [styles.textOn] : [styles.textOff]}
+                    >
+                      {doxChecked ? "YES" : "NO"}
+                    </Text>
+                  </View>
+                  <Switch
+                    ios_backgroundColor={
+                      doxChecked ? Colors.NavigationBarColor : "red"
+                    }
+                    value={doxChecked}
+                    onValueChange={(value) => toggleSwitchDox(value)}
+                    thumbColor="white"
+                  />
+                </View>
                 <Text
                   style={{
                     fontSize: fontSize,

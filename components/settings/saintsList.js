@@ -3,7 +3,10 @@ import { useState, useCallback, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors.js";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
-import { changeTextLanguage , changeSaint } from "../../stores/redux/settings.js";
+import {
+  changeTextLanguage,
+  changeSaint,
+} from "../../stores/redux/settings.js";
 import SaintModal from "./saintModal";
 import images from "../../helpers/imageHelpers";
 
@@ -96,6 +99,7 @@ function SaintsList() {
     setsaintModalVisible(false);
   }
   function updateSaint(saint, saintObject) {
+    console.log(saintObject);
     dispatch(changeSaint({ saint: saint, object: saintObject }));
     setsaintModalVisible(false);
   }
@@ -119,9 +123,6 @@ function SaintsList() {
           >
             {getLanguageValue("saintsMenu")}
           </Text>
-          {/* <Text style={[styles.description, { color: getColor("PrimaryColor") }]}>
-          {getLanguageValue("todayprayerdescription")}
-        </Text> */}
         </View>
         {tempLang.map((lang) => {
           return (
