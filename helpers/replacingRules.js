@@ -13,8 +13,17 @@ import {
 
 export const ComeRisenRule = () => {
   const fastsFeasts = getCopticFastsFeasts();
-  const today = moment();
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  var date = new Date(
+    currentSeason.gregorianYear,
+    currentSeason.gregorianMonth,
+    currentSeason.gregorianDayOfMonth,
+    0,
+    0,
+    0,
+    0
+  );
+  var today = new moment(date);
   var Kiahk = fastsFeasts.find((element) => element.key === "NATIVITY_FAST");
   var Resurrection = fastsFeasts.find(
     (element) => element.key === "RESURRECTION"

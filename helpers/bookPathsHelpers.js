@@ -306,7 +306,7 @@ const bookPaths = {
   TheotokiasPsalisPentecostAdam: require("../assets/json/books/booksContent/Theotokias/Psalis/PentecostAdam.json"),
   TheotokiasPsalisPentecostWatos: require("../assets/json/books/booksContent/Theotokias/Psalis/PentecostWatos.json"),
   TheotokiasPsalisRessurectionFeastAdamPsali: require("../assets/json/books/booksContent/Theotokias/Psalis/RessurectionFeastAdamPsali.json"),
-  TheotokiasPsalisRessurectionWatos: require("../assets/json/books/booksContent/Theotokias/Psalis/RessurectionWatos.json"),
+  TheotokiasPsalisRessurectionFeastWatosPsali: require("../assets/json/books/booksContent/Theotokias/Psalis/RessurectionWatos.json"),
   //Theotokias\Saturday
   TheotokiasSaturdaySaturday1: require("../assets/json/books/booksContent/Theotokias/Saturday/Saturday1.json"),
   TheotokiasSaturdaySaturday2: require("../assets/json/books/booksContent/Theotokias/Saturday/Saturday2.json"),

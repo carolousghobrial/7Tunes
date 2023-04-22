@@ -31,8 +31,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   }, [NavbarVisibility]);
   const handleScroll = (event) => {
     const currentPosition = event.nativeEvent.contentOffset.y;
-    console.log(currentPosition);
-    console.log(scrollPosition);
+
     if (currentPosition > scrollPosition) {
       if (memoizedNavbarVisibility) {
         setNavbarVisibility(false);

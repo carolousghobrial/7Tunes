@@ -12,8 +12,18 @@ import {
 
 const TennavRule = (motherSource, path) => {
   const fastsFeasts = getCopticFastsFeasts();
-  const today = moment();
+
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  var date = new Date(
+    currentSeason.gregorianYear,
+    currentSeason.gregorianMonth,
+    currentSeason.gregorianDayOfMonth,
+    0,
+    0,
+    0,
+    0
+  );
+  var today = new moment(date);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
 
   var Kiahk = fastsFeasts.find((element) => element.key === "NATIVITY_FAST");
@@ -25,7 +35,7 @@ const TennavRule = (motherSource, path) => {
     if (today.isBetween(Resurrection.start, PENTECOST.start)) {
       return true;
     } else if (today.isBetween(PENTECOST.start, Kiahk.start)) {
-      if (today.day() === 0) {
+      if (currentSeason.dayOfWeek === 0) {
         return true;
       } else {
         return false;
@@ -38,36 +48,37 @@ const TennavRule = (motherSource, path) => {
   }
 };
 const SundayThetokiaWeekdaysPraisesRule = (motherSource, path) => {
-  const today = moment();
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
 
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   if (todayPrayer) {
-    if (today.day() != 0) {
-      return true;
-    } else {
+    if (currentSeason.dayOfWeek === 0) {
       return false;
+    } else {
+      return true;
     }
   } else {
     return false;
   }
 };
 const TheotokiaVisible = (motherSource, path) => {
-  const today = moment();
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  var today = currentSeason.dayOfWeek;
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   if (todayPrayer) {
-    if (today.day() == 0 && path.includes("sunday")) {
+    if (today == 0 && path.includes("sunday")) {
       return true;
-    } else if (today.day() == 1 && path.includes("monday")) {
+    } else if (today == 1 && path.includes("monday")) {
       return true;
-    } else if (today.day() == 2 && path.includes("tuesday")) {
+    } else if (today == 2 && path.includes("tuesday")) {
       return true;
-    } else if (today.day() == 3 && path.includes("wednesday")) {
+    } else if (today == 3 && path.includes("wednesday")) {
       return true;
-    } else if (today.day() == 4 && path.includes("thursday")) {
+    } else if (today == 4 && path.includes("thursday")) {
       return true;
-    } else if (today.day() == 5 && path.includes("friday")) {
+    } else if (today == 5 && path.includes("friday")) {
       return true;
-    } else if (today.day() == 6 && path.includes("saturday")) {
+    } else if (today == 6 && path.includes("saturday")) {
       return true;
     } else {
       return false;
@@ -258,9 +269,7 @@ const isSeason = (motherSource, path) => {
         return false;
 
       case "RESURRECTION":
-        if (
-          path.toLowerCase().includes("ressurection") 
-        ) {
+        if (path.toLowerCase().includes("ressurection")) {
           return true;
         }
         return false;

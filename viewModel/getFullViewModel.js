@@ -19,11 +19,12 @@ export function getFullViewModel(motherSource, mother) {
   var ViewArray = [];
   var MenuArray = [];
   var key = 0;
-  homescreenPaths[motherSource].Main.map((item) => {
+  var homeItems = homescreenPaths[motherSource];
+  homeItems.Main.map((item) => {
     if (item.type === "Title") {
-      arabicttl = item.arabic;
-      copticttl = item.coptic;
-      englishttl = item.english;
+      arabicttl = item.Arabic;
+      copticttl = item.Coptic;
+      englishttl = item.English;
     } else {
       var temppath = "";
       if (item.SAINT !== undefined) {
@@ -58,8 +59,8 @@ export function getFullViewModel(motherSource, mother) {
             break;
           case "Button":
             MenuArray.push({
-              EnglishTitle: item.Arabic,
-              ArabicTitle: item.English,
+              EnglishTitle: item.English,
+              ArabicTitle: item.Arabic,
               key: key,
             });
             ViewArray.push({
@@ -144,7 +145,9 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
   let myMenuArray = [];
   let myViewArray = [];
   let book = bookPaths[Path];
-
+  if (book === undefined) {
+    console.log(Path);
+  }
   let arabicttl = book.ArabicTitle;
   let copticttl = book.CopticTitle;
   let englishttl = book.EnglishTitle;

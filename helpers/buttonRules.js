@@ -9,6 +9,7 @@ import { getFullViewModel } from "../viewModel/getFullViewModel";
 
 function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
   function OpenTheotokia() {
+    console.log(item);
     navigation.push("BookScreen", {
       bookPath: item.Path,
       englishTitle: item.EnglishTitle,
@@ -62,7 +63,6 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
       motherSource: motherSource,
       rule: item.Rule,
     });
-    
   }
   function PopPage() {
     navigation.pop();
@@ -74,7 +74,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
     OpenPage: OpenPage,
     ThokTeTiGomScrollUp: ThokTeTiGomScrollUp,
     OpenSinglePage: OpenSinglePage,
-    PopPage: PopPage
+    PopPage: PopPage,
   };
 }
 
