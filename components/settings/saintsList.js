@@ -92,13 +92,12 @@ function SaintsList() {
     setLangArray(updatedArray); // set the state to the updated copy
   }
   function openModal(item) {
-    try(
-setSelectedSaint(item);
-    setsaintModalVisible(true);
-    )catch(e){
-      Alert.alert(e)
+    try {
+      setSelectedSaint(item);
+      setsaintModalVisible(true);
+    } catch (e) {
+      Alert.alert(e);
     }
-    
   }
   function closeModal() {
     setsaintModalVisible(false);
