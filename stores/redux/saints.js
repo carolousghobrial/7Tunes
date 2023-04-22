@@ -17,24 +17,24 @@ const saintsSlice = createSlice({
       doxologies: false,
     },
     JOHN_THE_BAPTIST: {
-      vos: false,
-      doxologies: false,
+      vos: true,
+      doxologies: true,
     },
     ST_MARK: {
-      vos: false,
-      doxologies: false,
+      vos: true,
+      doxologies: true,
     },
     ST_STEPHEN: {
-      vos: false,
-      doxologies: false,
+      vos: true,
+      doxologies: true,
     },
     ST_GEORGE: {
-      vos: false,
-      doxologies: false,
+      vos: true,
+      doxologies: true,
     },
     ST_PHILOPATER: {
-      vos: false,
-      doxologies: false,
+      vos: true,
+      doxologies: true,
     },
     ST_MINA: {
       vos: false,

@@ -11,10 +11,9 @@ import { useState, useCallback, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors.js";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
-import {
-  changeTextLanguage,
-  changeSaint,
-} from "../../stores/redux/settings.js";
+import { changeTextLanguage } from "../../stores/redux/settings.js";
+import { changeSaint } from "../../stores/redux/saints";
+
 import SaintModal from "./saintModal";
 import images from "../../helpers/imageHelpers";
 
