@@ -81,7 +81,5 @@ export function getSaint(saint) {
 
     case "ST_KIROLLOS_SIXTH":
       return saints.ST_KIROLLOS_SIXTH;
-    default:
-      return saints.DEFAULT;
   }
 }

@@ -1,4 +1,12 @@
-import { View, Switch, StyleSheet, Text, Image, Pressable } from "react-native";
+import {
+  View,
+  Switch,
+  StyleSheet,
+  Text,
+  Image,
+  Pressable,
+  Alert,
+} from "react-native";
 import { useState, useCallback, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors.js";

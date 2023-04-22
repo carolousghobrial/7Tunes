@@ -8,6 +8,7 @@ import {
   Pressable,
   TouchableWithoutFeedback,
   Image,
+  Alert,
   useWindowDimensions,
 } from "react-native";
 import Checkbox from "expo-checkbox";
@@ -48,13 +49,17 @@ function SaintModal({ visible, saint, closeModal, updateSaint }) {
     viewwidth = "50%";
   }
   useEffect(() => {
-    if (visible) {
-      setModalIsOpen(true);
-      // Do something when the modal appears...
-      setvosChecked(saintSelected.vos);
-      setdoxChecked(saintSelected.doxologies);
-    } else {
-      setModalIsOpen(false);
+    try {
+      if (visible) {
+        setModalIsOpen(true);
+        // Do something when the modal appears...
+        setvosChecked(saintSelected.vos);
+        setdoxChecked(saintSelected.doxologies);
+      } else {
+        setModalIsOpen(false);
+      }
+    } catch (e) {
+      Alert.alert(e);
     }
   }, [visible]);
   useEffect(() => {
