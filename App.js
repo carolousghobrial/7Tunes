@@ -46,12 +46,25 @@ function App() {
       try {
         // Pre-load fonts, make any API calls you need to do here
         await useFonts();
-         await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
+        await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
         //Purchases.configure({ apiKey: "goog_ICeqiHcYzQRzROFBJsEVAAirhPX" });
         await ScreenOrientation.unlockAsync();
+        const update = await Updates.checkForUpdateAsync();
 
+        if (update.isAvailable) {
+          await Updates.fetchUpdateAsync();
+          Alert.alert(
+            "New Update!",
+            "Please restart the app to apply updates",
+            [
+              {
+                text: "Restart App",
+                onPress: () => Updates.reloadAsync(),
+              },
+            ]
+          );
+        }
       } catch (e) {
-        alert(JSON.stringify(e));
       } finally {
         // Tell the application to render
         //setCurrentSeason();

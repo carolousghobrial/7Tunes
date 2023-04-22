@@ -66,21 +66,6 @@ function NavigationContainerView() {
             isTablet: device,
           })
         );
-        const update = await Updates.checkForUpdateAsync();
-
-        if (update.isAvailable) {
-          await Updates.fetchUpdateAsync();
-          Alert.alert(
-            "New Update!",
-            "Please restart the app to apply updates",
-            [
-              {
-                text: "Restart App",
-                onPress: () => Updates.reloadAsync(),
-              },
-            ]
-          );
-        }
       } catch (e) {}
     }
     prepare();
