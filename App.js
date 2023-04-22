@@ -58,7 +58,7 @@ function App() {
             "Please restart the app to apply updates",
             [
               {
-                text: "Restart App",
+                text: "Restart the App",
                 onPress: () => Updates.reloadAsync(),
               },
             ]
