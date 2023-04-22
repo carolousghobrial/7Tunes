@@ -41,6 +41,12 @@ function App() {
 
   //I18nManager.allowRTL(true);
   //I18nManager.forceRTL(true);
+  const onUpdates = async () => {
+    try {
+      await Updates.fetchUpdateAsync();
+      await Updates.reloadAsync();
+    } catch (e) {}
+  };
   useEffect(() => {
     async function prepare() {
       try {
@@ -52,14 +58,13 @@ function App() {
         const update = await Updates.checkForUpdateAsync();
 
         if (update.isAvailable) {
-          await Updates.fetchUpdateAsync();
           Alert.alert(
             "New Update!",
             "Please restart the app to apply updates",
             [
               {
                 text: "Restart the App",
-                onPress: () => Updates.reloadAsync(),
+                onPress: () => onUpdates(),
               },
             ]
           );
