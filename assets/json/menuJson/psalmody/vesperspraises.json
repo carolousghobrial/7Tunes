@@ -8,7 +8,7 @@
             "hasSubBooks": false,
             "BookPath": "standardVespersPraises",
             "ImageURL": "david",
-            "Enabled": false
+            "Enabled": true
         },
         {
             "EnglishTitle": "Kiahk Vesper's Praises",

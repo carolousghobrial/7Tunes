@@ -66,22 +66,42 @@ const TheotokiaVisible = (motherSource, path) => {
   var today = currentSeason.dayOfWeek;
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   if (todayPrayer) {
-    if (today == 0 && path.includes("sunday")) {
-      return true;
-    } else if (today == 1 && path.includes("monday")) {
-      return true;
-    } else if (today == 2 && path.includes("tuesday")) {
-      return true;
-    } else if (today == 3 && path.includes("wednesday")) {
-      return true;
-    } else if (today == 4 && path.includes("thursday")) {
-      return true;
-    } else if (today == 5 && path.includes("friday")) {
-      return true;
-    } else if (today == 6 && path.includes("saturday")) {
-      return true;
+    if (motherSource.includes("VespersPraises")) {
+      if (today == 0 && path.includes("saturday")) {
+        return true;
+      } else if (today == 1 && path.includes("sunday")) {
+        return true;
+      } else if (today == 2 && path.includes("monday")) {
+        return true;
+      } else if (today == 3 && path.includes("tuesday")) {
+        return true;
+      } else if (today == 4 && path.includes("wednesday")) {
+        return true;
+      } else if (today == 5 && path.includes("thursday")) {
+        return true;
+      } else if (today == 6 && path.includes("friday")) {
+        return true;
+      } else {
+        return false;
+      }
     } else {
-      return false;
+      if (today == 0 && path.includes("sunday")) {
+        return true;
+      } else if (today == 1 && path.includes("monday")) {
+        return true;
+      } else if (today == 2 && path.includes("tuesday")) {
+        return true;
+      } else if (today == 3 && path.includes("wednesday")) {
+        return true;
+      } else if (today == 4 && path.includes("thursday")) {
+        return true;
+      } else if (today == 5 && path.includes("friday")) {
+        return true;
+      } else if (today == 6 && path.includes("saturday")) {
+        return true;
+      } else {
+        return false;
+      }
     }
   } else {
     return true;
@@ -89,6 +109,11 @@ const TheotokiaVisible = (motherSource, path) => {
 };
 
 const isStandard = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  if (currentSeason.type === "feast") {
+    return false;
+  }
   return motherSource === "standardPsalmody" ? true : false;
 };
 const isKiahk = (motherSource, path) => {
@@ -98,7 +123,15 @@ const isLenten = (motherSource, path) => {
   return motherSource === "lentenPsalmody" ? true : false;
 };
 const isStandardVespersPraises = (motherSource, path) => {
-  return motherSource === "standardVespersPraises" ? true : false;
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  if (currentSeason.type === "feast") {
+    return false;
+  }
+  if (motherSource === "standardvesperspraises") {
+    return true;
+  }
+  return false;
 };
 const isKiahkVespersPraises = (motherSource, path) => {
   return motherSource === "kiahkVespersPraises" ? true : false;
@@ -276,7 +309,8 @@ const isSeason = (motherSource, path) => {
       case "THOMAS_SUNDAY":
         if (
           path.toLowerCase().includes("ressurection") &&
-          path.toLowerCase().includes("doxologies")
+          (path.toLowerCase().includes("doxologies") ||
+            path.toLowerCase().includes("psali"))
         ) {
           return true;
         }

@@ -375,7 +375,7 @@
             "Type": "Main",
             "Path": "DoxologiesPatriarch",
             "Rule": 0,
-            "Visible": true
+            "Visible": false
         },
         {
             "Type": "Main",

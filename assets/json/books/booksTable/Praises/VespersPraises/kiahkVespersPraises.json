@@ -26,7 +26,8 @@
             "English": "Sunday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "sundayTheotokiaMenu"
+            "Path": "sundayTheotokiaMenu",
+            "mother": "kiahkVespersPraises"
         },
         {
             "Type": "Button",
@@ -34,7 +35,8 @@
             "English": "Monday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "mondayTheotokiaMenu"
+            "Path": "mondayTheotokiaMenu",
+            "mother": "kiahkVespersPraises"
         },
         {
             "Type": "Button",
@@ -42,7 +44,8 @@
             "English": "Tuesday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "tuesdayTheotokiaMenu"
+            "Path": "tuesdayTheotokiaMenu",
+            "mother": "kiahkVespersPraises"
         },
         {
             "Type": "Button",
@@ -50,7 +53,8 @@
             "English": "Wednesday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "wednesdayTheotokiaMenu"
+            "Path": "wednesdayTheotokiaMenu",
+            "mother": "kiahkVespersPraises"
         },
         {
             "Type": "Button",
@@ -58,7 +62,8 @@
             "English": "Thursday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "thursdayTheotokiaMenu"
+            "Path": "thursdayTheotokiaMenu",
+            "mother": "kiahkVespersPraises"
         },
         {
             "Type": "Button",
@@ -66,7 +71,8 @@
             "English": "Friday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "fridayTheotokiaMenu"
+            "Path": "fridayTheotokiaMenu",
+            "mother": "kiahkVespersPraises"
         },
         {
             "Type": "Button",
@@ -74,7 +80,8 @@
             "English": "Saturday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "saturdayTheotokiaMenu"
+            "Path": "saturdayTheotokiaMenu",
+            "mother": "kiahkVespersPraises"
         }
     ]
 }

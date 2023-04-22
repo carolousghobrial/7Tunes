@@ -144,7 +144,8 @@
             "English": "Sunday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "sundayTheotokiaMenu"
+            "Path": "sundayTheotokiaMenu",
+            "mother": "lentenPsalmody"
         },
         {
             "Type": "Button",
@@ -152,7 +153,8 @@
             "English": "Monday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "mondayTheotokiaMenu"
+            "Path": "mondayTheotokiaMenu",
+            "mother": "lentenPsalmody"
         },
         {
             "Type": "Button",
@@ -160,7 +162,8 @@
             "English": "Tuesday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "tuesdayTheotokiaMenu"
+            "Path": "tuesdayTheotokiaMenu",
+            "mother": "lentenPsalmody"
         },
         {
             "Type": "Button",
@@ -168,7 +171,8 @@
             "English": "Wednesday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "wednesdayTheotokiaMenu"
+            "Path": "wednesdayTheotokiaMenu",
+            "mother": "lentenPsalmody"
         },
         {
             "Type": "Button",
@@ -176,7 +180,8 @@
             "English": "Thursday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "thursdayTheotokiaMenu"
+            "Path": "thursdayTheotokiaMenu",
+            "mother": "lentenPsalmody"
         },
         {
             "Type": "Button",
@@ -184,7 +189,8 @@
             "English": "Friday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "fridayTheotokiaMenu"
+            "Path": "fridayTheotokiaMenu",
+            "mother": "lentenPsalmody"
         },
         {
             "Type": "Button",
@@ -192,7 +198,8 @@
             "English": "Saturday Theotokia",
             "Rule": "OpenTheotokia",
             "Visible": "TheotokiaVisible",
-            "Path": "saturdayTheotokiaMenu"
+            "Path": "saturdayTheotokiaMenu",
+            "mother": "lentenPsalmody"
         },
         {
             "Type": "Main",

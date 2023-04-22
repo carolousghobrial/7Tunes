@@ -8,7 +8,7 @@
             "hasSubBooks": false,
             "BookPath": "standardPsalmody",
             "ImageURL": "david",
-            "Enabled": false
+            "Enabled": true
         },
         {
             "EnglishTitle": "Kiahk Midnight's Praises",

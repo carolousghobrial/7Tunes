@@ -137,7 +137,7 @@ const Languages = {
     copticdescription: "عرض الكلمات القبطية باللغة القبطية",
     copticenglish: "قبطي إنجليزي",
     copticenglishdescription: "عرض الكلمات القبطية باللغة الإنجليزية",
-    dark: "خلفية غمئة",
+    dark: "خلفية غامقة ",
     displaylang: "عرض اللغة",
     english: "إنجليزي",
     englishdescription: "عرض الكلمات الإنجليزية باللغة الإنجليزية",

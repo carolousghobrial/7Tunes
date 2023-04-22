@@ -9,11 +9,11 @@ import { getFullViewModel } from "../viewModel/getFullViewModel";
 
 function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
   function OpenTheotokia() {
-    console.log(item);
     navigation.push("BookScreen", {
       bookPath: item.Path,
       englishTitle: item.EnglishTitle,
       arabicTitle: item.ArabicTitle,
+      motherSource: item.mother,
     });
   }
   function OpenDoxologies() {
