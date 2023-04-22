@@ -67,16 +67,21 @@ function NavigationContainerView() {
           })
         );
         const update = await Updates.checkForUpdateAsync();
-        alert(
-          update.isAvailable ? "update is available" : "No Update available"
-        );
+
         if (update.isAvailable) {
           await Updates.fetchUpdateAsync();
-          await Updates.reloadAsync();
+          Alert.alert(
+            "New Update!",
+            "Please restart the app to apply updates",
+            [
+              {
+                text: "Restart App",
+                onPress: () => Updates.reloadAsync(),
+              },
+            ]
+          );
         }
-      } catch (e) {
-        alert(JSON.stringify(e));
-      }
+      } catch (e) {}
     }
     prepare();
   }, []);
