@@ -2,7 +2,7 @@
   "expo": {
     "name": "7 Tunes",
     "slug": "7-tunes",
-    "version": "6.1.4",
+    "version": "6.1.5",
     "orientation": "default",
     "icon": "./assets/images//logofinal.png",
     "userInterfaceStyle": "automatic",
@@ -44,7 +44,7 @@
         "UIStatusBarHidden": true,
         "NSInAppPurchaseUsageDescription": "7Tunes requires access to in-app purchases to make purchases."
       },
-      "buildNumber": "6.1.4",
+      "buildNumber": "6.1.5",
       "supportsTablet": true,
       "requireFullScreen": true,
       "bundleIdentifier": "com.companyname.TasbehaFinal"
