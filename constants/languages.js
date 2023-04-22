@@ -32,7 +32,7 @@ const Languages = {
     instagram: "Instagram Page",
     Koiahk: "Koiahk",
     language: "Language",
-    update: "Update Application",
+    update: "Update Application.",
     languageselctor: "Language Selector",
     light: "Light Theme",
     menuBook: "Books",
