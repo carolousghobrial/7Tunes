@@ -373,12 +373,6 @@
         },
         {
             "Type": "Main",
-            "Path": "DoxologiesPatriarch",
-            "Rule": 0,
-            "Visible": false
-        },
-        {
-            "Type": "Main",
             "Path": "DoxologiesMajorFeastsNativityMelody",
             "Rule": 0,
             "Visible": "isSeason"
