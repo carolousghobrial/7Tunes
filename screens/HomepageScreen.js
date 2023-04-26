@@ -67,6 +67,7 @@ function HomepageScreen({ navigation, route }) {
     async function prepare() {
       try {
         const update = await Updates.checkForUpdateAsync();
+        Alert.alert(update.isAvailable);
         setIsUpdateAvailable(update.isAvailable);
       } catch (e) {
         console.warn(e);
