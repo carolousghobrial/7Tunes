@@ -34,7 +34,7 @@ const Languages = {
     language: "Language",
     noupdates: "No Updates",
 
-    update: "Update Application",
+    update: "Update Application.",
     setCurrentDate: "Set Current Date",
     setYear: "Set Year",
     languageselctor: "Language Selector",
