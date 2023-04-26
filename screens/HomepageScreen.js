@@ -74,7 +74,7 @@ function HomepageScreen({ navigation, route }) {
     }
 
     prepare();
-  }, []);
+  });
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerRight: renderHeaderRight,
