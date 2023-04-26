@@ -1,0 +1,300 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "  ارباع الناقوس ",
+            "English": "Verses of Cymbals "
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsWatos",
+            "Rule": 0,
+            "Visible": "isWatos"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsAdam",
+            "Rule": 0,
+            "Visible": "isAdam"
+        },
+        {
+            "Type": "Main",
+            "Path": "PraisesMorningDoxologyAdamMorningDoxology",
+            "Rule": 0,
+            "Visible": "isBigFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesOfCymbalsNayrooz",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesOfCymbalsCross",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsNativity",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsCircumcision",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTheophany",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsWeddingCana",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPresentationTemple",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesCymbalsAnnunciation",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsLentWeekends",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPalmSunday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsCovenantThursday",
+            "Rule": 0,
+            "Visible": "isCovenantThursday"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsRessurection",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsEntryEgypt",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsAscension",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPentecost",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTransfiguration",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStMary",
+            "Rule": 0,
+            "Visible": "isNOTLentWeekdayOrJonah"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsArchangelMichaelAndGabriel",
+            "Rule": 0,
+            "Visible": "isNOTLentWeekdayOrJonah"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsRessurectionArchangelMichael",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsArchangelGabriel",
+            "SAINT": "ARCHANGEL_GABRIEL"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsHeavenlies",
+            "Rule": 0,
+            "Visible": "isNOTLentWeekdayOrJonah"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStJohnTheBaptist",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "SAINT": "JOHN_THE_BAPTIST"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsApostles",
+            "Rule": 0,
+            "Visible": "isNOTLentWeekdayOrJonah"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStMark",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "SAINT": "ST_MARK"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsLazarusSaturday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStStephen",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "SAINT": "ST_STEPHEN"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStGeorge",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "SAINT": "ST_GEORGE"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStPhilopatir",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "SAINT": "ST_PHILOPATER"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStMina",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "SAINT": "ST_MINA"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStAbanoub",
+            "SAINT": "ST_ABANOUB"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStDemiana",
+            "SAINT": "ST_DEMIANA"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStMarina",
+            "SAINT": "ST_MARINA"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStAnthony",
+            "SAINT": "ST_ANTHONY"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStPaulHermit",
+            "SAINT": "ST_PAULHERMIT"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStMoses",
+            "SAINT": "ST_MOSES"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStPishoy",
+            "SAINT": "ST_PISHOI"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStRewis",
+            "SAINT": "ST_REWIS"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStJohnTheShort",
+            "SAINT": "ST_JOHN_THE_SHORT"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStKaras",
+            "SAINT": "ST_KARAS"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStKirollos",
+            "SAINT": "ST_KIROLLOS_SIXTH"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "showStandardVOCConclusion",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStandardConclusion"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "showVersesOfCymbalsFestiveConclusion",
+            "Path": "RaisingOfIncenseVersesOfCymbalsFestiveConclusion"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": "  ختام ارباع الناقوس (سنوي)",
+    "EnglishTitle": "Verses of the Cymbals Conclsuion (Standard)",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": "showHitenVOC",
+            "Side": "North",
+            "Arabic": "بشفاعة والدة الإله القديسة مريم، يا رب إنعم لنا بمغفرة خطايانا.",
+            "Coptic": "|iten ni`precbi`a > `nte ;qe`otokoc eqouab Mari`a > P_ > `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+            "English": "Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins",
+            "Arabiccoptic": "هيتين ني برسفيا : إنتيه تي ثيؤطوكوس إثؤواب ماريا :إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
+            "Englishcoptic": "Hiten ne Eprisvia, Ente ti Theotokos Ethoab Maria, Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "لكي نسبحَكَ، مع ابيكَ الصالح، والروح القدس ،  لأنك [*COME/RISEN*] وخلصتنا.",
+            "Coptic": "Eqren\\wc `erok > nem Pekiwt `n`agaqoc > nem Pi`pneuma eqouab > je [*COME/RISEN*] akcw; `mmon nai nan.",
+            "English": "That we may praise You, with Your good Father and the Holy Spirit, for you [*COME/RISEN*] and saved us.",
+            "Arabiccoptic": "إثرين هوس إروك : نيم بيكيوت إن إغاثوس : نيم بي بنيفما إثؤواب : جيه [*COME/RISEN*] أك سوتي إمون ناي نان  .",
+            "Englishcoptic": "Ethren Hos Erok, Nem Pekiwt En agha-thos, Nem Pi Epnevma Ethoab, Ge [*COME/RISEN*] Aksoty Emmon nai nan."
+        }
+    ]
+}

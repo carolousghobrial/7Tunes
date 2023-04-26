@@ -1,0 +1,75 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": " ثيؤطوكيات",
+            "English": "Theotokias"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الأحد",
+            "English": "Sunday Theotokia",
+            "Rule": "OpenTheotokia",
+            "Visible": "TheotokiaVisible",
+            "Path": "sundayTheotokiaMenu",
+            "mother": "index"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الاثنين",
+            "English": "Monday Theotokia",
+            "Rule": "OpenTheotokia",
+            "Visible": "TheotokiaVisible",
+            "Path": "mondayTheotokiaMenu",
+            "mother": "index"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الثلاثاء",
+            "English": "Tuesday Theotokia",
+            "Rule": "OpenTheotokia",
+            "Visible": "TheotokiaVisible",
+            "Path": "tuesdayTheotokiaMenu",
+            "mother": "index"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الأربعاء",
+            "English": "Wednesday Theotokia",
+            "Rule": "OpenTheotokia",
+            "Visible": "TheotokiaVisible",
+            "Path": "wednesdayTheotokiaMenu",
+            "mother": "index"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الخميس",
+            "English": "Thursday Theotokia",
+            "Rule": "OpenTheotokia",
+            "Visible": "TheotokiaVisible",
+            "Path": "thursdayTheotokiaMenu",
+            "mother": "index"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم الجمعة",
+            "English": "Friday Theotokia",
+            "Rule": "OpenTheotokia",
+            "Visible": "TheotokiaVisible",
+            "Path": "fridayTheotokiaMenu",
+            "mother": "index"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ثيؤطوكية يوم السبت",
+            "English": "Saturday Theotokia",
+            "Rule": "OpenTheotokia",
+            "Visible": "TheotokiaVisible",
+            "Path": "saturdayTheotokiaMenu",
+            "mother": "index"
+        }
+    ]
+}

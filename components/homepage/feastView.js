@@ -53,7 +53,7 @@ function FeastView({ item, onClick }) {
     <View style={styles.container}>
       <Pressable
         style={[styles.bookViewLandscape, { flexDirection: flexDirection }]}
-        android_ripple={{ color: "red" }}
+        android_ripple={{ color: "#AA4A44" }}
         onPress={onClick.bind(this, item)}
       >
         <View style={[styles.imageContainerLandscape, imageStyle]}>

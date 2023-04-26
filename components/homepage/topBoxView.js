@@ -71,7 +71,15 @@ function TopBoxView() {
   }
   function SetDateTime() {
     try {
-      var date = new Date(currentSeason.gregorianYear, currentSeason.gregorianMonth, currentSeason.gregorianDayOfMonth, 0 ,0 ,0 , 0)
+      var date = new Date(
+        currentSeason.gregorianYear,
+        currentSeason.gregorianMonth,
+        currentSeason.gregorianDayOfMonth,
+        0,
+        0,
+        0,
+        0
+      );
       setDate(moment(date).format("dddd, MMMM Do YYYY"));
     } catch (error) {}
   }
@@ -98,8 +106,6 @@ function TopBoxView() {
           <Text style={styles.text}>{date}</Text>
           <Text style={styles.text}>{seasonText}</Text>
         </View>
-
-        {/* <Text>{getCopticFastsFeasts()}</Text> */}
       </View>
     </Pressable>
   );

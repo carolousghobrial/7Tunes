@@ -1,0 +1,70 @@
+{
+    "books": [
+        {
+            "EnglishTitle": "Verses of Cymbals",
+            "ArabicTitle": "أرباع الناقوس",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "versesofCymbalsIndex",
+            "ImageURL": "index",
+            "Enabled": true,
+            "mother": "index"
+        },
+        {
+            "EnglishTitle": "Doxologies",
+            "ArabicTitle": "الذكصولوجيات",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "doxologies",
+            "ImageURL": "index",
+            "Enabled": true,
+            "mother": "index"
+        },
+        {
+            "EnglishTitle": "Psalm Responses",
+            "ArabicTitle": " مردات المزمور",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "psalmResponsesIndex",
+            "ImageURL": "index",
+            "Enabled": true,
+            "mother": "index"
+        },
+        {
+            "EnglishTitle": "Gospel Responses",
+            "ArabicTitle": " مردات الانجيل",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "gospelResponsesIndex",
+            "ImageURL": "index",
+            "Enabled": true,
+            "mother": "index"
+        },
+        {
+            "EnglishTitle": "Theotokias",
+            "ArabicTitle": "الثيئوطوكيات",
+            "PurchaseKeyDroid": "holypaschaid",
+            "PurchaseKeyIos": "holypaschasku",
+            "hasSubBooks": false,
+            "BookPath": "theotokiasIndex",
+            "ImageURL": "index",
+            "Enabled": true,
+            "mother": "index"
+        },
+        {
+            "EnglishTitle": "Saints Melodies",
+            "ArabicTitle": " مدائح القديسين",
+            "PurchaseKeyDroid": "holypaschaid",
+            "PurchaseKeyIos": "holypaschasku",
+            "hasSubBooks": false,
+            "BookPath": "saintsMelodies",
+            "ImageURL": "index",
+            "Enabled": true,
+            "mother": "index"
+        }
+    ]
+}

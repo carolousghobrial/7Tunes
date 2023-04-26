@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس للابابا كيرلس السادس ",
+    "EnglishTitle": "Verses of the Cymbals for Pope Kirollos the Sixth",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "North",
+            "Visible": true,
+            "Arabic": "طوباك بالحقيقة، يا أبانا القديس البار، البابا كيرلس السادس، حبيب المسيح.",
+            "Coptic": "Wouniatk =en oumeqmhi> peniwt eqouab `ndikeoc> Papa abba kurilloc pima\\coou> pimenrit `nte Pi`xrictoc.",
+            "English": "Blessed are you indeed, O our father the righteous saint, Pope Kirollos the Sixth, the beloved of Christ.",
+            "Arabiccoptic": "أونياتك خين أو ميثمى: بينيوت أثؤاب إنذيكيئوس: بابا افا كيرلس بيماسو أوو: بى مينريت انتى بخرستوس.",
+            "Englishcoptic": "Oo-oniatk khen oomethmi : Peniot ethowab en-zikeos : Papa Avva Kirollos Pi-mah-so-oo : Pi-menreet ente Pikhristos."
+        }
+    ]
+}

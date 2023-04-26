@@ -83,7 +83,7 @@ function TodaysPrayer() {
           </View>
           <Switch
             ios_backgroundColor={
-              todayPrayer ? Colors.NavigationBarColor : "red"
+              todayPrayer ? Colors.NavigationBarColor : "#AA4A44"
             }
             value={todayPrayer}
             onValueChange={toggleSwitch}

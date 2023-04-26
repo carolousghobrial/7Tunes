@@ -42,7 +42,7 @@ function LangListItem(props) {
         </View>
         <Switch
           ios_backgroundColor={
-            props.incomingItem.isEnabled ? Colors.NavigationBarColor : "red"
+            props.incomingItem.isEnabled ? Colors.NavigationBarColor : "#AA4A44"
           }
           value={props.incomingItem.isEnabled}
           onValueChange={(e) => props.onSwitch(props.incomingItem, e)}

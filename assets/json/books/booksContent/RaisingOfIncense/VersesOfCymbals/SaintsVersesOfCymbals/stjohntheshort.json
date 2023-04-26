@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس للانبا يوحنا القصير ",
+    "EnglishTitle": "Verses of the Cymbals for St.John the Short",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "North",
+            "Visible": true,
+            "Arabic": "طوباك بالحقيقة، يا أبانا القديس البار، أنبا يوحنا القصير، حبيب المسيح.",
+            "Coptic": "Wouniatk =en oumeqmhi> peniwt eqouab `ndikeoc> abba Iwannhc pikoloboc> pimenrit `nte Pi`xrictoc.",
+            "English": "Blessed are you indeed, O our father the righteous saint, Abba John the short, the beloved of Christ.",
+            "Arabiccoptic": "أونياتك خين أو ميثمى: بينيوت أثؤاب إنذيكيئوس: أفا يؤانس بي كولوبوس: بى مينريت انتى بخرستوس.",
+            "Englishcoptic": "Oo-oniatk khen oomethmi : Peniot ethowab en-zikeos : Avva Youanes Pi-kolobos : Pi-menreet ente Pikhristos."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس لألملاك ميخائيل و غبريال",
+    "EnglishTitle": "Verses of the Cymbals for Archangel Michael and Gabriel",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "السلام لميخائيل رئيس الملائكة العظيم. السلام لغبريال المبشر المختار.",
+            "Coptic": "Xere Mixahl> pini]; `n`arxi`aggeloc > xere Gabrihl  > picwtp `mpifai]ennoufi.",
+            "English": "Hail to Michael, the great archangel. Hail to Gabriel, chosen to bear glad tidings.",
+            "Arabiccoptic": "شيري ميخائيل : بي نيشتي إن أرشي أنجيلوس : شيري غابرييل : بي سوتب إمبي فاي شينووفي  .",
+            "Englishcoptic": "Shere Mikhail, Pi Nishty En Arshi Angelos, Shere Ghabriel, Pi sotp empi fai shen novi."
+        }
+    ]
+}

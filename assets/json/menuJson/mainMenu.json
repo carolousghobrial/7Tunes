@@ -39,6 +39,16 @@
             "BookPath": "venerations",
             "ImageURL": "veneration",
             "Enabled": true
+        },
+        {
+            "EnglishTitle": "Index",
+            "ArabicTitle": "فهرس",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "index",
+            "ImageURL": "index",
+            "Enabled": true
         }
     ]
 }

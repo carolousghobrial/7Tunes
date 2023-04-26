@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس للانبا موسى ",
+    "EnglishTitle": "Verses of the Cymbals for St.Moses the Strong",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "North",
+            "Visible": true,
+            "Arabic": "السلام لأبينا أنبا موسى وإسيذوروس القس : وأولادهم لباس الصليب : احباه المسيح",
+            "Coptic": "Xere peniwt abba Mwch > nem Hcidwroc pi`precbuteroc> nem nen]hri `n`ctaurovoroc > nimenra; `nte Pixrictoc.",
+            "English": "Hail to our father Abba Moses :and their children the cross-bearers : the beloveds of Christ.",
+            "Arabiccoptic": "  شيرى بينيوت أفا موسى نيم ايسيذوروس بى ابريسفيتيروس: نيـم نيـن شيري إن إستافروفوروس: نيمينراتي إنتى بيخريستوس",
+            "Englishcoptic": "Shere peniot ava Mosee: nem Eesizoros pi-epresveteeros: nem nenshiry en estavrovoros : ni-menrati ente Pikhristos."
+        }
+    ]
+}

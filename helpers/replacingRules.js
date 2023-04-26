@@ -12,7 +12,7 @@ import {
 } from "../helpers/copticMonthsHelper.js";
 
 export const ComeRisenRule = () => {
-  const fastsFeasts = getCopticFastsFeasts();
+  const fastsFeasts = getCopticFastsFeasts(moment().year());
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   var date = new Date(
     currentSeason.gregorianYear,
@@ -115,7 +115,7 @@ export const ROICONCLUSION = (motherSource) => {
         "في إيتاف إيرنيستيفين إهري إيجون: إين إيهمي إين إيهووؤ نيم إيهمي إين إيجوره: شا إينتيف سوتتين خين نين نوفي.",
     };
   }
-  const fastsFeasts = getCopticFastsFeasts();
+  const fastsFeasts = getCopticFastsFeasts(moment().year());
   const today = moment();
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   var ASCENSION = fastsFeasts.find((element) => element.key === "ASCENSION");

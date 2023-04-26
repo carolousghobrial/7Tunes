@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
     top: -12, // adjust the top position to make it float over the base letter
     fontSize: 25,
     backgroundColor: "transparent",
-    color: "red", // set the color of the floating letter
+    color: "#AA4A44", // set the color of the floating letter
     zIndex: 1, // set the zIndex to bring the floating letter to the top
   },
 });

@@ -27,19 +27,22 @@ export function getFullViewModel(motherSource, mother) {
       englishttl = item.English;
     } else {
       var temppath = "";
+      var tempMother = "";
+
       if (item.SAINT !== undefined) {
         temppath = item.SAINT;
+        tempMother = item.Path;
       } else {
         temppath = item.Path;
-      }
-      var tempMother = "";
-      if (mother !== undefined) {
-        tempMother = mother;
-      } else {
-        tempMother = motherSource;
+        if (mother !== undefined) {
+          tempMother = mother;
+        } else {
+          tempMother = motherSource;
+        }
       }
       if (
         item.Visible === true ||
+        mother === "index" ||
         VisibleRules[item.Visible](tempMother, temppath)
       ) {
         switch (item.Type) {
@@ -145,9 +148,6 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
   let myMenuArray = [];
   let myViewArray = [];
   let book = bookPaths[Path];
-  if (book === undefined) {
-    console.log(Path);
-  }
   let arabicttl = book.ArabicTitle;
   let copticttl = book.CopticTitle;
   let englishttl = book.EnglishTitle;
@@ -181,14 +181,19 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
   var hymn = book.Hymn;
   hymn.forEach((part) => {
     var temppath = "";
-    if (part.SAINT !== undefined) {
+    if (
+      part.SAINT !== undefined &&
+      !motherSource.toLowerCase().includes("index")
+    ) {
       temppath = part.SAINT;
     } else {
       temppath = part.Path;
     }
+
     try {
       if (
         part.Visible === true ||
+        motherSource.toLowerCase().includes("index") ||
         VisibleRules[part.Visible](motherSource, temppath)
       ) {
         if (part.Type === "Main") {

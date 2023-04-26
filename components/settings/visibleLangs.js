@@ -87,16 +87,6 @@ function VisibleLangs() {
           ></LangListItems>
         );
       })}
-      {/* <FlatList
-        data={langArray}
-        horizontal={false}
-        style={{ width: "100%" }}
-        showsVerticalScrollIndicator={false}
-        renderItem={renderItems}
-        keyExtractor={(item, index) => {
-          return item.key;
-        }}
-      /> */}
     </View>
   );
 }

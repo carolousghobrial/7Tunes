@@ -35,7 +35,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseGospelResponsesNativity",
+            "Path": "RaisingOfIncenseGospelResponsesNativityGospelResponseMatins",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -47,7 +47,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseGospelResponsesTheophany",
+            "Path": "RaisingOfIncenseGospelResponsesTheophanyGospelResponseMatins",
             "Rule": 0,
             "Visible": "isSeason"
         },

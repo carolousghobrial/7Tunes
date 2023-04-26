@@ -11,7 +11,7 @@ import {
 } from "../helpers/copticMonthsHelper.js";
 
 const TennavRule = (motherSource, path) => {
-  const fastsFeasts = getCopticFastsFeasts();
+  const fastsFeasts = getCopticFastsFeasts(moment().year());
 
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   var date = new Date(
@@ -531,7 +531,6 @@ const isWatos = (motherSource, path) => {
 };
 const isAdam = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  console.log(currentSeason);
   if (
     currentSeason.isWatos === false &&
     isNOTLentWeekdayOrJonah(motherSource, path) &&
@@ -635,7 +634,7 @@ const showHitenVOC = (motherSource, path) => {
   }
   return true;
 };
-const showEthrenHosVOC = (motherSource, path) => {
+const showStandardVOCConclusion = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (currentSeason.type === "feast") {
     return false;
@@ -676,6 +675,8 @@ const hide = (motherSource, path) => {
 const VOCSaint = (motherSource, path) => {
   const saintSelected = getSaint(path);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
+  console.log(motherSource);
+
   if (todayPrayer) {
     if (motherSource === "ThursdayDayFirstHourMain") {
       return saintSelected.vos;
@@ -683,7 +684,6 @@ const VOCSaint = (motherSource, path) => {
     if (isLentWeekdayOrJonah(motherSource, path)) {
       return false;
     }
-
     return saintSelected.vos;
   } else {
     return true;
@@ -692,6 +692,7 @@ const VOCSaint = (motherSource, path) => {
 const DOXSaint = (motherSource, path) => {
   const saintSelected = getSaint(path);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
+
   if (todayPrayer) {
     return saintSelected.doxologies;
   } else {
@@ -700,6 +701,7 @@ const DOXSaint = (motherSource, path) => {
 };
 const isApostlesFeast = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+
   return currentSeason.key === "FEAST_OF_APOSTLES" ? true : false;
 };
 const getPlantsSeason = (motherSource, path) => {
@@ -743,7 +745,7 @@ const VisibleRules = {
   getPlantsSeason: getPlantsSeason,
   isHosanna: isHosanna,
   showHitenVOC: showHitenVOC,
-  showEthrenHosVOC: showEthrenHosVOC,
+  showStandardVOCConclusion: showStandardVOCConclusion,
   notPalmSunday: notPalmSunday,
   isCovenantThursday: isCovenantThursday,
   CreedHolyWeek: CreedHolyWeek,

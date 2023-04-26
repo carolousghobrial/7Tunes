@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس لمارمينا ",
+    "EnglishTitle": "Verses of the Cymbals for St.Mina",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "North",
+            "Visible": true,
+            "Arabic": "السلام لكَ أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد  القديس أبا مينا.",
+            "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Pia~gioc a~pa Mina.",
+            "English": "Hail to you, O martyr. Hail to the noble hero. Hail to the prize-bearer, The saint, Abba Mina.",
+            "Arabiccoptic": "شيري ناك أو بي مارتيروس : شيري بي شويج إن جينيؤس : شيري بي أثلوفوروس : بي اجيوس أفا مينا   .",
+            "Englishcoptic": "Shere Nak Opi Mar tyros, Shere Pi Shoig En Genni-os, shere pi athlofo ros, Pi Agios Ava Mina."
+        }
+    ]
+}

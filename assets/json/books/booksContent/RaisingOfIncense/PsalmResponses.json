@@ -4,17 +4,6 @@
     "EnglishTitle": "Psalm Response",
     "Hymn": [
         {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "الليلويا",
-            "Coptic": "Allhlouia.",
-            "English": "Alleluia",
-            "Arabiccoptic": "الليلويا",
-            "Englishcoptic": "Alleluia"
-        },
-        {
             "Type": "Main",
             "Path": "RaisingOfIncensePsalmResponsesNayrooz",
             "Rule": 0,

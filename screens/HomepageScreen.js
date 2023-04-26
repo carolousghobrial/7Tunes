@@ -6,8 +6,17 @@ import {
   View,
   Alert,
   Button,
+  Pressable,
   FlatList,
+  Text,
 } from "react-native";
+import {
+  getLanguageValue,
+  getFontSize,
+  getColor,
+} from "../helpers/SettingsHelpers.js";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import * as Updates from "expo-updates";
 import { PurchaseItem } from "../helpers/InAppPurchases";
 import BookView from "../components/homepage/bookView";
 import TopBoxView from "../components/homepage/topBoxView";
@@ -21,6 +30,8 @@ import { setItemPurchased } from "../stores/redux/settings";
 import * as ScreenOrientation from "expo-screen-orientation";
 
 function HomepageScreen({ navigation, route }) {
+  let labelColor = getColor("LabelColor");
+
   const data = homescreenPaths[route.params.bookPath];
   const isStandardBought = useSelector(
     (state) => state.settings.standardPsalmodyPermission
@@ -32,9 +43,39 @@ function HomepageScreen({ navigation, route }) {
     (state) => state.settings.paschaBookPermission
   );
   const [isLoading, setIsLoading] = useState(false);
-
+  const [isUpdateAvailable, setIsUpdateAvailable] = useState(false);
   const dispatch = useDispatch();
-
+  const renderHeaderRight = () => {
+    if (isUpdateAvailable) {
+      return (
+        <Pressable
+          style={{ marginHorizontal: 5, borderColor: labelColor }}
+          onPress={onUpdates}
+        >
+          <MaterialCommunityIcons name="update" size={24} color={labelColor} />
+        </Pressable>
+      );
+    } else {
+      return (
+        <Text style={{ color: labelColor, fontSize: 10 }}>
+          {getLanguageValue("noupdates")}
+        </Text>
+      );
+    }
+  };
+  React.useLayoutEffect(() => {
+    navigation.setOptions({
+      headerRight: renderHeaderRight,
+    });
+  }, [navigation]);
+  const onUpdates = async () => {
+    try {
+      await Updates.fetchUpdateAsync();
+      await Updates.reloadAsync();
+    } catch (e) {
+      alert(JSON.stringify(e));
+    }
+  };
   async function bookClick(item) {
     var isBought = false;
     switch (item.PermissionStatus) {
@@ -101,11 +142,20 @@ function HomepageScreen({ navigation, route }) {
         arabicTitle: item.ArabicTitle,
       });
     } else {
-      navigation.push("BookScreen", {
-        bookPath: item.BookPath,
-        englishTitle: item.EnglishTitle,
-        arabicTitle: item.ArabicTitle,
-      });
+      if (item.mother !== undefined) {
+        navigation.push("BookScreen", {
+          bookPath: item.BookPath,
+          englishTitle: item.EnglishTitle,
+          arabicTitle: item.ArabicTitle,
+          motherSource: item.mother,
+        });
+      } else {
+        navigation.push("BookScreen", {
+          bookPath: item.BookPath,
+          englishTitle: item.EnglishTitle,
+          arabicTitle: item.ArabicTitle,
+        });
+      }
     }
   }
 

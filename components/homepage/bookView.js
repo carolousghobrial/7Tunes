@@ -38,7 +38,7 @@ function BookView(props) {
   let content = (
     <>
       <Pressable
-        android_ripple={{ color: "red" }}
+        android_ripple={{ color: "#AA4A44" }}
         onPress={props.onClick.bind(this, props.item)}
       >
         <View style={[styles.bookView, bookviewStyle]}>
@@ -47,10 +47,17 @@ function BookView(props) {
           </View>
 
           <View style={styles.textView}>
-            <Text s                style={[styles.text, { fontSize, fontFamily: "english-font" }]}
->{props.item.EnglishTitle}</Text>
-            <Text                 style={[styles.text, { fontSize, fontFamily: "arabic-font" }]}
->{props.item.ArabicTitle}</Text>
+            <Text
+              s
+              style={[styles.text, { fontSize, fontFamily: "english-font" }]}
+            >
+              {props.item.EnglishTitle}
+            </Text>
+            <Text
+              style={[styles.text, { fontSize, fontFamily: "arabic-font" }]}
+            >
+              {props.item.ArabicTitle}
+            </Text>
           </View>
         </View>
       </Pressable>
@@ -60,7 +67,7 @@ function BookView(props) {
     content = (
       <>
         <Pressable
-          android_ripple={{ color: "red" }}
+          android_ripple={{ color: "#AA4A44" }}
           onPress={props.onClick.bind(this, props.item)}
         >
           <View style={[styles.bookViewLandscape, bookviewStyle]}>

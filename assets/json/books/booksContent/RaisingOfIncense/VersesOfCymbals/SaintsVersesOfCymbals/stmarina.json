@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس للالشهيدة مارينا ",
+    "EnglishTitle": "Verses of the Cymbals for St.Marina",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "North",
+            "Visible": true,
+            "Arabic": " العذراء الصبية الحكيمة السيدة المختارة الحقيقية عروس المسيح القديسة مارينا . ",
+            "Coptic": ":`alou `ncabh `mparqenoc> ;cwtp `nkuria `mmhi> ;]elet `nte Pi`xrictoc> ;`agia Marinh.",
+            "English": "The wise virgin child, the chosen and true lady, the bride of Christ, Saint Marina.",
+            "Arabiccoptic": "تي الو انسافي ام بارثينوس : تي سوتب ان كيريا اممي : تي شيليت انتى بخريستوس : تي اجيا ماريني . ",
+            "Englishcoptic": "Ti-aloo ensav emparthenos: ti-sotp enkerie emmi , ti-shelete ente Pikhristos, ti-Agia Marinee"
+        }
+    ]
+}

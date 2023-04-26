@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس يوحنا المعمدان",
+    "EnglishTitle": "Verses of the Cymbals for St.John the Baptist",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "North",
+            "Visible": true,
+            "Arabic": "السلام ليوحنا، السابق العظيم. السلام للكاهن، نسيب عمانوئيل.",
+            "Coptic": "Xere Iwannhc> pini]; `m`prodromoc > xere piouhb > `pcuggenhc `nEmmanouhl.",
+            "English": "Hail to John, the great forerunner, hail to the priest, the kinsman of Immanuel.",
+            "Arabiccoptic": "شيري يوأنيس : بي نيشتي إمبروذروموس : شيري بي أوويب : إبسينجينيس إن إممانوئيل  .",
+            "Englishcoptic": "Shere Youannes, Pi nishti em Eprodromos, Shere Pi Ouoib, Ep Cengenis En Emmanuel."
+        }
+    ]
+}

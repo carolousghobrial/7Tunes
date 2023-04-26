@@ -4,7 +4,7 @@ const homescreenPaths = {
   liturgy: require("../assets/json/menuJson/liturgy/liturgy.json"),
   pascha: require("../assets/json/menuJson/pascha/pascha.json"),
   saintsMelodies: require("../assets/json/books/booksTable/Venerations/saintsmelodies.json"),
-  index: require("../assets/images/indexpic.png"),
+  index: require("../assets/json/menuJson//index.json"),
   vp: require("../assets/json/menuJson/psalmody/vesperspraises.json"),
   mp: require("../assets/json/menuJson/psalmody/midnightpraises.json"),
   paschaSunday: require("../assets/json/menuJson/pascha/sunday.json"),
@@ -417,6 +417,11 @@ const homescreenPaths = {
   BrightSaturdayCommunioncopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/Communion/copticPsalmAndGospel.json"),
   BrightSaturdayCommunionPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Saturday/Communion/PsalmAndGospel.json"),
   BrightSaturdayCommunionProphecies: require("../assets/json/books/booksTable/Pascha/Saturday/Communion/Prophecies.json"),
+  //index
+  versesofCymbalsIndex: require("../assets/json/books/booksTable/Index/versesofCymbals.json"),
+  psalmResponsesIndex: require("../assets/json/books/booksTable/Index/psalmResponses.json"),
+  gospelResponsesIndex: require("../assets/json/books/booksTable/Index/gospelResponses.json"),
+  theotokiasIndex: require("../assets/json/books/booksTable/Index/theotokias.json"),
 };
 
 export default homescreenPaths;

@@ -151,54 +151,55 @@ var monthNames = [
 //  * @param  {Object} attributes - Attributes object defined in NavSubMenuStore
 //  * @returns {Object} collection of fasts & feasts with start and end dates
 //  */
-export function getCopticFastsFeasts() {
+export function getCopticFastsFeasts(yearSelected) {
   // major feasts
+  console.log(yearSelected);
   // fixed to Jan 7 until the year 2100
-  var nativity = moment([today.year(), 0, 7]);
-  var epiphany = moment([today.year(), 0, 19]);
-  var epiphany2ndDay = moment([today.year(), 0, 20]);
-  var annunciation = moment([today.year(), 3, 7]);
-  var resurrection = moment(getResurrectionDate(today.year()));
+  var nativity = moment([yearSelected, 0, 7]);
+  var epiphany = moment([yearSelected, 0, 19]);
+  var epiphany2ndDay = moment([yearSelected, 0, 20]);
+  var annunciation = moment([yearSelected, 3, 7]);
+  var resurrection = moment(getResurrectionDate(yearSelected));
   var palmSunday = moment(resurrection).subtract(7, "days");
   var ascension = moment(resurrection).add(39, "days");
   var ascension2ndday = moment(ascension).add(1, "days");
   var pentecost = moment(resurrection).add(49, "days");
 
   // minor feasts
-  var circumcision = moment([today.year(), 0, 14]);
-  var entranceTemple = moment([today.year(), 1, 15]);
-  var entryEgypt = moment([today.year(), 5, 1]);
-  var canaMiracle = moment([today.year(), 0, 21]);
-  var transfiguration = moment([today.year(), 7, 19]);
+  var circumcision = moment([yearSelected, 0, 14]);
+  var entranceTemple = moment([yearSelected, 1, 15]);
+  var entryEgypt = moment([yearSelected, 5, 1]);
+  var canaMiracle = moment([yearSelected, 0, 21]);
+  var transfiguration = moment([yearSelected, 7, 19]);
   var covenantThursday = moment(palmSunday).add(4, "days");
   var ThomasSunday = moment(resurrection).add(7, "days");
 
   // feasts of the saints
   // St. Mary
 
-  var MaryAnnunciation = moment([today.year(), 7, 13]);
-  var MaryNativity = moment([today.year(), 4, 9]);
-  var MaryPresentation = moment([today.year(), 11, 12]);
-  var MaryDormant = moment([today.year(), 0, 29]);
+  var MaryAnnunciation = moment([yearSelected, 7, 13]);
+  var MaryNativity = moment([yearSelected, 4, 9]);
+  var MaryPresentation = moment([yearSelected, 11, 12]);
+  var MaryDormant = moment([yearSelected, 0, 29]);
 
-  var StMaryAssumption = moment([today.year(), 7, 22]);
-  var apostlesFeast = moment([today.year(), 6, 12]);
-  var newYear = moment([today.year(), 8, 11]);
-  var feastCross1 = moment([today.year(), 2, 19]);
-  var feastCross2Start = moment([today.year(), 8, 27]);
-  var feastCross2End = moment([today.year(), 8, 29]);
+  var StMaryAssumption = moment([yearSelected, 7, 22]);
+  var apostlesFeast = moment([yearSelected, 6, 12]);
+  var newYear = moment([yearSelected, 8, 11]);
+  var feastCross1 = moment([yearSelected, 2, 19]);
+  var feastCross2Start = moment([yearSelected, 8, 27]);
+  var feastCross2End = moment([yearSelected, 8, 29]);
 
   // fasts
   var lent = moment(resurrection).subtract(55, "days");
   var apostlesFast = moment(pentecost).add(1, "days");
-  var StMaryFast = moment([today.year(), 7, 7]);
+  var StMaryFast = moment([yearSelected, 7, 7]);
 
   // special case since fast spans across years
   if (attributes.todayDate.isBefore(nativity)) {
-    var nativityFastStart = moment([today.year() - 1, 10, 25]);
+    var nativityFastStart = moment([yearSelected - 1, 10, 25]);
     var nativityFastEnd = moment(nativity);
   } else {
-    var nativityFastStart = moment([today.year(), 10, 25]);
+    var nativityFastStart = moment([yearSelected, 10, 25]);
     var nativityFastEnd = moment(nativity).add(1, "years");
   }
 
@@ -211,13 +212,13 @@ export function getCopticFastsFeasts() {
   var goodFriday = moment(palmSunday).add(5, "days");
   var LazarusSaturday = moment(palmSunday).subtract(1, "days");
 
-  if (isLeapYear(today.year())) {
+  if (isLeapYear(yearSelected)) {
     nativity.add(1, "days");
     circumcision.add(1, "days");
     epiphany.add(1, "days");
     canaMiracle.add(1, "days");
   }
-  if (isLeapYear(today.year() + 1)) {
+  if (isLeapYear(yearSelected + 1)) {
     newYear.add(1, "days");
     feastCross2Start.add(1, "days");
     feastCross2End.add(1, "days");
@@ -531,7 +532,7 @@ var getParamounDate = function (feastDate) {
  * @returns {boolean}
  */
 export function isInFast() {
-  var myfastfeasts = getCopticFastsFeasts();
+  var myfastfeasts = getCopticFastsFeasts(moment().year());
   // ignore time and use date only
   var todayDate = moment([
     new Date().getFullYear(),
@@ -605,8 +606,8 @@ export function plantsSeason(currentDate) {
 }
 export function getTodayDate(timeTransition) {
   var todayDate = new Date();
-console.log(new Date(timeTransition).getHours());
-console.log(todayDate.getHours());
+  console.log(new Date(timeTransition).getHours());
+  console.log(todayDate.getHours());
   if (new Date(timeTransition).getHours() <= todayDate.getHours()) {
     console.log("HERE");
     todayDate.setDate(todayDate.getDate() + 1);
@@ -618,7 +619,7 @@ console.log(todayDate.getHours());
 }
 
 export function setCurrentSeasonByKey(timeTransition, key) {
-  var fastsfeasts = getCopticFastsFeasts();
+  var fastsfeasts = getCopticFastsFeasts(moment().year());
   const mySeason = fastsfeasts.find((element) => element.key === key);
   const currentDate = new Date(mySeason.start);
   const copticDate = getCopticDate(
@@ -633,9 +634,9 @@ export function setCurrentSeasonByKey(timeTransition, key) {
     major: mySeason.major,
     week: 1,
     dayOfWeek: currentDate.getDay(),
-    gregorianDayOfMonth : currentDate.getDate(),
+    gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
-      gregorianYear: currentDate.getFullYear(),
+    gregorianYear: currentDate.getFullYear(),
     isWatos: isWatos(currentDate.getDay()),
     type: mySeason.type,
     plantsSeason: plantsSeason(currentDate),
@@ -660,9 +661,9 @@ export function setCurrentSeasonLive(timeTransition) {
     major: mySeason.major,
     week: getWeeksSinceStartDate(new Date(mySeason.start)),
     dayOfWeek: currentDate.getDay(),
-    gregorianDayOfMonth : currentDate.getDate(),
+    gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
-      gregorianYear: currentDate.getFullYear(),
+    gregorianYear: currentDate.getFullYear(),
     isWatos: isWatos(currentDate.getDay()),
     type: mySeason.type,
     plantsSeason: plantsSeason(currentDate),
@@ -670,7 +671,7 @@ export function setCurrentSeasonLive(timeTransition) {
     copticDay: copticDate.day,
     copticYear: copticDate.year,
   };
-  console.log(mycurrentSeason)
+  console.log(mycurrentSeason);
   return mycurrentSeason;
 }
 function getWeeksSinceStartDate(startDate) {
@@ -681,7 +682,7 @@ function getWeeksSinceStartDate(startDate) {
   return diffInWeeks;
 }
 export function getCurrentSeason(timeTransition) {
-  var fastsfeasts = getCopticFastsFeasts();
+  var fastsfeasts = getCopticFastsFeasts(moment().year());
   var collection = [];
   // ignore time
   var todayDate = getTodayDate(timeTransition);

@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس للالشهيدة دميانة ",
+    "EnglishTitle": "Verses of the Cymbals for St.Demiana",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "North",
+            "Visible": true,
+            "Arabic": "العذراء الصبية الحكيمة السيدة المختارة الحقيقية عروس المسيح القديسة دميانه .",
+            "Coptic": ":`alou `ncabh `mparqenoc> ;cwtp `nkuria `mmhi> ;]elet `nte Pi`xrictoc> ;`agia Dumianh.",
+            "English": "The wise virgin child, the chosen and true lady, the bride of Christ, Saint Demiana.",
+            "Arabiccoptic": "تي الو انسافي ام بارثينوس : تي سوتب ان كيريا اممي : تي شيليت انتى بخريستوس : تي اجيا ديمياني  . ",
+            "Englishcoptic": "Ti-aloo ensav emparthenos: ti-sotp enkerie emmi , ti-shelete ente Pikhristos, ti-Agia Demianee"
+        }
+    ]
+}

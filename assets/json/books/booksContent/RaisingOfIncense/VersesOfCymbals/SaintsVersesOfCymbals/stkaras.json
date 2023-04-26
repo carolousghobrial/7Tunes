@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس للانبا كاراس ",
+    "EnglishTitle": "Verses of the Cymbals for St.Karas",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "North",
+            "Visible": true,
+            "Arabic": "طوباك بالحقيقة، يا أبانا القديس البار، أنبا كاراس السائح، حبيب المسيح.",
+            "Coptic": "Wouniatk =en oumeqmhi> peniwt eqouab `ndikeoc> abba Karac pi`anaxwrithc> pimenrit `nte Pi`xrictoc.",
+            "English": "Blessed are you indeed, O our father the righteous saint, Abba Karas the Anchorite, the beloved of Christ.",
+            "Arabiccoptic": "أونياتك خين أو ميثمى: بينيوت أثؤاب إنذيكيئوس: أفا كاراس بي اناخوريتيس: بى مينريت انتى بخرستوس.",
+            "Englishcoptic": "Oo-oniatk khen oomethmi : Peniot ethowab en-zikeos : Avva Karas Pi-Anakhoretees : Pi-menreet ente Pikhristos."
+        }
+    ]
+}

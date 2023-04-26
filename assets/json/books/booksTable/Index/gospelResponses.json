@@ -1,0 +1,168 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": " مردات الانجيل",
+            "English": "Gospel Responses"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesStandardGospelResponse",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesNayrooz",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesCross",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesFirstKiahkGospelResponse",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesSecondKiahkGospelResponse",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesNativityGospelResponseMatins",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesCircumcision",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesTheophanyGospelResponseMatins",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesWeddingCana",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesPresentationTemple",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesFirstJonahMatins",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesSecondJonahMatins",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesThirdJonahMatins",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesFeastJonahMatins",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesGreatLentGospelResponse",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesAnnunciation",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesLazarusSaturday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesPalmSundayVespers",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesPalmSundayMatins",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesRessurectionRaisingOfIncense",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesEntryEgypt",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesAscension",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesPentecost",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesTransfiguration",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesMaryFastVespers",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesMaryFastMatins",
+            "Rule": 0,
+            "Visible": "isSeason"
+        }
+    ]
+}
