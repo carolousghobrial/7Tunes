@@ -66,9 +66,12 @@ function HomepageScreen({ navigation, route }) {
   useEffect(() => {
     async function prepare() {
       try {
-        const update = await Updates.checkForUpdateAsync();
-        Alert.alert(update.isAvailable);
-        setIsUpdateAvailable(update.isAvailable);
+        setTimeout(() => {
+          const update = await Updates.checkForUpdateAsync();
+          Alert.alert(update.isAvailable);
+          setIsUpdateAvailable(update.isAvailable);
+        }, 100);
+
       } catch (e) {
         console.warn(e);
       }
