@@ -153,7 +153,6 @@ var monthNames = [
 //  */
 export function getCopticFastsFeasts(yearSelected) {
   // major feasts
-  console.log(yearSelected);
   // fixed to Jan 7 until the year 2100
   var nativity = moment([yearSelected, 0, 7]);
   var epiphany = moment([yearSelected, 0, 19]);
@@ -606,15 +605,11 @@ export function plantsSeason(currentDate) {
 }
 export function getTodayDate(timeTransition) {
   var todayDate = new Date();
-  console.log(new Date(timeTransition).getHours());
-  console.log(todayDate.getHours());
   if (new Date(timeTransition).getHours() <= todayDate.getHours()) {
-    console.log("HERE");
     todayDate.setDate(todayDate.getDate() + 1);
   }
   todayDate.setHours(0, 0, 0, 0);
   const returnMoment = moment(todayDate);
-  console.log(returnMoment);
   return returnMoment;
 }
 
@@ -671,7 +666,6 @@ export function setCurrentSeasonLive(timeTransition) {
     copticDay: copticDate.day,
     copticYear: copticDate.year,
   };
-  console.log(mycurrentSeason);
   return mycurrentSeason;
 }
 function getWeeksSinceStartDate(startDate) {

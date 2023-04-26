@@ -38,7 +38,21 @@ SplashScreen.preventAutoHideAsync();
 
 function App() {
   const [appIsReady, setAppIsReady] = useState(false);
+  const eventListener = (event) => {
+    if (event.type === Updates.UpdateEventType.ERROR) {
+      console.log("HERUPDATESE");
+      // Handle error
+    } else if (event.type === Updates.UpdateEventType.NO_UPDATE_AVAILABLE) {
+      console.log("HEddRE");
 
+      // Handle no update available
+    } else if (event.type === Updates.UpdateEventType.UPDATE_AVAILABLE) {
+      console.log("HEddRE");
+
+      // Handle update available
+    }
+  };
+  Updates.useUpdateEvents(eventListener);
   //I18nManager.allowRTL(true);
   //I18nManager.forceRTL(true);
   const onUpdates = async () => {
@@ -48,7 +62,7 @@ function App() {
     } catch (e) {}
   };
   useEffect(() => {
-    async function prepare() {
+    const prepare = async () => {
       try {
         // Pre-load fonts, make any API calls you need to do here
         await useFonts();
@@ -75,7 +89,7 @@ function App() {
         //setCurrentSeason();
         setAppIsReady(true);
       }
-    }
+    };
 
     prepare();
   }, []);

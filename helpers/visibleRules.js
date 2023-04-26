@@ -675,7 +675,6 @@ const hide = (motherSource, path) => {
 const VOCSaint = (motherSource, path) => {
   const saintSelected = getSaint(path);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
-  console.log(motherSource);
 
   if (todayPrayer) {
     if (motherSource === "ThursdayDayFirstHourMain") {

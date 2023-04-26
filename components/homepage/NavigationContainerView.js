@@ -60,7 +60,6 @@ function NavigationContainerView() {
           );
         }
         var device = (await Device.getDeviceTypeAsync()) === 2 ? true : false;
-        console.log(device);
         dispatch(
           setIsTablet({
             isTablet: device,

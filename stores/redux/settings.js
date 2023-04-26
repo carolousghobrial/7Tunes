@@ -50,7 +50,6 @@ const settingsSlice = createSlice({
     },
     setIsTablet: (state, action) => {
       const isTablet = action.payload.isTablet;
-      console.log(isTablet);
       return {
         ...state,
         isTablet: isTablet,
