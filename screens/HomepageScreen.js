@@ -63,6 +63,18 @@ function HomepageScreen({ navigation, route }) {
       );
     }
   };
+  useEffect(() => {
+    async function prepare() {
+      try {
+        const update = await Updates.checkForUpdateAsync();
+        setIsUpdateAvailable(update.isAvailable);
+      } catch (e) {
+        console.warn(e);
+      }
+    }
+
+    prepare();
+  }, []);
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerRight: renderHeaderRight,
