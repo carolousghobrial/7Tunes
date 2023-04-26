@@ -32,7 +32,7 @@ const Languages = {
     instagram: "Instagram Page",
     Koiahk: "Koiahk",
     language: "Language",
-    noupdates: "No Updates",
+    noupdates: "No Updates.",
 
     update: "Update Application",
     setCurrentDate: "Set Current Date",
