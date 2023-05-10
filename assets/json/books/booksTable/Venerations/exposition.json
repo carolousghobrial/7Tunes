@@ -1,0 +1,36 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "طرح",
+            "English": "Exposition"
+        },
+        {
+            "Type": "Main",
+            "Path": "LentPraisesVespersPraisesExpositionsAdamExpositionsIntroduction",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationStMaryExposition",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationOonOHelpis",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationMartyrsExposition",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

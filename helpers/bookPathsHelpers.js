@@ -137,6 +137,8 @@ const bookPaths = {
   VenerationShereMaria: require("../assets/json/books/booksContent/Veneration/ShereMaria.json"),
   VenerationShereTheotoke: require("../assets/json/books/booksContent/Veneration/ShereTheotoke.json"),
   VenerationStMaryExposition: require("../assets/json/books/booksContent/Veneration/StMaryExposition.json"),
+  VenerationMartyrsExposition: require("../assets/json/books/booksContent/Veneration/MartyrsExposition.json"),
+
   VenerationWaSalam: require("../assets/json/books/booksContent/Veneration/WaSalam.json"),
   VenerationZeftePentis: require("../assets/json/books/booksContent/Veneration/ZeftePentis.json"),
   //Doxologies\Kiahk

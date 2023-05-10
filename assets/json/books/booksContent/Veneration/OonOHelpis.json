@@ -1,8 +1,17 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "public static string ArabicText = \" فى أعياد السيدة العذراء يقال هذا اللحن.",
-  "EnglishTitle": "public static string EnglishText = \"On the Feasts of St. Mary the following hymn is chanted",
+  "ArabicTitle": " لحن اواون هلبيس",
+  "CopticTitle": "Ouon ou\\elpic",
+  "EnglishTitle": "The Hymn of O-on O Helpis",
   "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فى أعياد السيدة العذراء يقال هذا اللحن.",
+      "English": "On the Feasts of St. Mary the following hymn is chanted"
+    },
     {
       "Type": "Base",
       "Rule": 0,

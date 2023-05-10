@@ -7,6 +7,7 @@ import {
   StyleSheet,
   FlatList,
   Pressable,
+  TextInput,
   useWindowDimensions,
 } from "react-native";
 
@@ -19,47 +20,68 @@ import {
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers.js";
-
+import SearchBar from "../ViewTypes/SearchBar";
 import MenuItem from "./MenuItem";
 import MenuMainTitle from "./MenuMainTitle";
 function ContentsModal({ route, navigation }) {
+  const [clicked, setClicked] = useState(false);
+  const [searchPhrase, setSearchPhrase] = useState("");
   const { width, height } = useWindowDimensions();
   const [initialIndex, setInitialIndex] = useState(null);
   const [contentsModalVisible, setcontentsModalVisible] = useState(false);
   const MainTitle = route.params.MainTitle;
   const { scrollToKey } = route.params;
   const menuData = route.params.menuData;
+  const [currentData, setcurrentData] = useState(menuData);
+
   const initialKey = route.params.initialKey;
 
   const flatListRef = useRef();
 
   useEffect(() => {
+    console.log(currentData);
     navigation.setOptions({
       headerShown: true,
       header: () => <MenuMainTitle item={MainTitle}></MenuMainTitle>,
     });
     setInitialIndex(initialKey);
   }, []);
+  const handleSearch = (text) => {
+    setSearchPhrase(text);
+    const filteredData = menuData.filter(
+      (item) =>
+        item.EnglishTitle.toLowerCase().includes(text.toLowerCase()) ||
+        item.ArabicTitle.includes(text) ||
+        (item.CopticTitle !== undefined && item.CopticTitle.includes(text))
+    );
+
+    setcurrentData(filteredData);
+  };
   return (
-    <FlatList
-      style={[
-        styles.container,
-        {
-          backgroundColor: getColor("NavigationBarColor"),
-        },
-      ]}
-      data={menuData}
-      ref={flatListRef}
-      initialNumToRender={menuData.data}
-      renderItem={({ item }) => (
-        <MenuItem
-          item={item}
-          highlightedIndex={initialKey}
-          scrollToKey={scrollToKey}
-        ></MenuItem>
-      )}
-      initialScrollIndex={initialIndex}
-    />
+    <View style={styles.container}>
+      <SearchBar
+        setClicked={setClicked}
+        searchPhrase={searchPhrase}
+        handleSearch={handleSearch}
+        setSearchPhrase={setSearchPhrase}
+        clicked={clicked}
+      />
+      <FlatList
+        style={[
+          {
+            backgroundColor: getColor("NavigationBarColor"),
+          },
+        ]}
+        data={currentData}
+        renderItem={({ item }) => (
+          <MenuItem
+            item={item}
+            highlightedIndex={initialKey}
+            scrollToKey={scrollToKey}
+          ></MenuItem>
+        )}
+      />
+    </View>
   );
 }
 
@@ -68,6 +90,7 @@ const styles = StyleSheet.create({
     flex: 1,
     width: "100%",
     height: "100%",
+    backgroundColor: "black",
   },
   transparentView: {
     height: "100%",

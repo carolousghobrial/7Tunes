@@ -51,6 +51,10 @@ function App() {
     async function prepare() {
       try {
         // Pre-load fonts, make any API calls you need to do here
+        await useFonts();
+        await ScreenOrientation.unlockAsync();
+        await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
+
         const update = await Updates.checkForUpdateAsync();
 
         if (update.isAvailable) {
@@ -65,11 +69,8 @@ function App() {
             ]
           );
         }
-        await useFonts();
-        await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
-        //Purchases.configure({ apiKey: "goog_ICeqiHcYzQRzROFBJsEVAAirhPX" });
-        await ScreenOrientation.unlockAsync();
       } catch (e) {
+        console.warn(e);
       } finally {
         // Tell the application to render
         //setCurrentSeason();

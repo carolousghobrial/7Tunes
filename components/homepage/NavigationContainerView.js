@@ -37,7 +37,8 @@ import ContentsModal from "../BottomBar/ContentsModal.js";
 import SettingsModal from "../BottomBar/SettingsModal.js";
 import { FontAwesome5 } from "@expo/vector-icons";
 import * as Device from "expo-device";
-
+import SaintsList from "../settings/saintsList";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 const Stack = createNativeStackNavigator();
 
 const Drawer = createDrawerNavigator();
@@ -126,6 +127,21 @@ function NavigationContainerView() {
 
             drawerIcon: ({ color, size }) => (
               <FontAwesome5 name="cross" size={24} color="black" />
+            ),
+          }}
+        />
+        <Drawer.Screen
+          component={SaintsList}
+          name="SaintsList"
+          options={{
+            title: getLanguageValue("saintsMenu"),
+
+            drawerIcon: ({ color, size }) => (
+              <MaterialCommunityIcons
+                name="cross-outline"
+                size={24}
+                color="black"
+              />
             ),
           }}
         />

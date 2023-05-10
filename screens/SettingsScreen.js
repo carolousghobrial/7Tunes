@@ -28,7 +28,6 @@ function SettingsScreen({ navigation, route }) {
       <PresentationMode></PresentationMode>
       <FontSize></FontSize>
       <VisibleLangs></VisibleLangs>
-      <SaintsList></SaintsList>
     </ScrollView>
   );
 }

@@ -45,30 +45,27 @@ function HomepageScreen({ navigation, route }) {
   const [isLoading, setIsLoading] = useState(false);
   const [isUpdateAvailable, setIsUpdateAvailable] = useState(false);
   const dispatch = useDispatch();
-  const renderHeaderRight = () => {
-    if (isUpdateAvailable) {
-      return (
-        <Pressable
-          style={{ marginHorizontal: 5, borderColor: labelColor }}
-          onPress={onUpdates}
-        >
-          <MaterialCommunityIcons name="update" size={24} color={labelColor} />
-        </Pressable>
-      );
-    } else {
-      return (
-        <Text style={{ color: labelColor, fontSize: 10 }}>
-          {getLanguageValue("noupdates")}
-        </Text>
-      );
-    }
-  };
 
-  React.useLayoutEffect(() => {
-    navigation.setOptions({
-      headerRight: renderHeaderRight,
-    });
+  async function onFetchUpdateAsync() {
+    try {
+      const update = await Updates.checkForUpdateAsync();
+      if (update.isAvailable) {
+        Alert.alert("New Update!", "Please restart the app to apply updates", [
+          {
+            text: "Restart the App",
+            onPress: () => onUpdates(),
+          },
+        ]);
+      }
+    } catch (error) {
+      // You can also add an alert() to see the error message in case of an error when fetching updates.
+      //alert(`Error fetching latest Expo update: ${error}`);
+    }
+  }
+  useEffect(() => {
+    onFetchUpdateAsync();
   }, [navigation]);
+
   const onUpdates = async () => {
     try {
       await Updates.fetchUpdateAsync();

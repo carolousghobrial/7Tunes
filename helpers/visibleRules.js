@@ -145,9 +145,9 @@ const isNOTVespersPraises = (motherSource, path) => {
     isKiahkVespersPraises() ||
     isStandardVespersPraises()
   ) {
-    return true;
+    return false;
   }
-  return false;
+  return true;
 };
 const isSeason = (motherSource, path) => {
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);

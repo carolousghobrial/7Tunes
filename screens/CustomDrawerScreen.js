@@ -5,6 +5,8 @@ import {
   Alert,
   Share,
 } from "react-native";
+import { Asset } from "expo-asset";
+
 import { Entypo } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
 import { getLanguageValue, getColor } from "../helpers/SettingsHelpers";
@@ -16,7 +18,8 @@ import {
   DrawerItem,
 } from "@react-navigation/drawer";
 import * as Updates from "expo-updates";
-
+import { Platform } from "react-native";
+import * as FileSystem from "expo-file-system";
 import TopBoxView from "../components/homepage/topBoxView";
 const CustomDrawerScreen = (props) => {
   const onShare = async () => {
@@ -48,15 +51,22 @@ const CustomDrawerScreen = (props) => {
   const onUpdates = async () => {
     try {
       const update = await Updates.checkForUpdateAsync();
-      alert(update.isAvailable ? "update is available" : "No Update available");
       if (update.isAvailable) {
-        await Updates.fetchUpdateAsync();
-        await Updates.reloadAsync();
+        Alert.alert("New Update!", "Please restart the app to apply updates", [
+          {
+            text: "Restart the App",
+            onPress: () => doUpdate(),
+          },
+        ]);
       }
     } catch (e) {
       alert(JSON.stringify(e));
     }
   };
+  async function doUpdate() {
+    await Updates.fetchUpdateAsync();
+    await Updates.reloadAsync();
+  }
   const RestorePurchase = async () => {
     try {
       await Glassfy.restorePurchases();

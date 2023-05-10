@@ -33,13 +33,263 @@
     },
     "Metropolitans": [
         {
+            "key": "ANTONIOUS",
+            "Arabic": "انطونيوس ",
+            "Coptic": "Iwchv",
+            "English": "Antonious",
+            "Arabiccoptic": "انطونيوس ",
+            "Englishcoptic": "Antonious",
+            "dioceseArabic": "مطران  الكرسي الاورشليمي والشرق الادنى",
+            "dioceseEnglish": "Metropolitan of the Holy and Great City of Our Lord, Jerusalem"
+        },
+        {
+            "key": "PACHOMIUS",
+            "Arabic": "باخوميوس",
+            "Coptic": "Iwchv",
+            "English": "Pachomius",
+            "Arabiccoptic": "باخوميوس",
+            "Englishcoptic": "Pachomius",
+            "dioceseArabic": "مطران دمنهور و البحيرة",
+            "dioceseEnglish": "Metropolitan of Damanhur  and Beheira"
+        },
+        {
+            "key": "WISSA",
+            "Arabic": "ويصا",
+            "Coptic": "Iwchv",
+            "English": "Wissa",
+            "Arabiccoptic": "ويصا",
+            "Englishcoptic": "Wissa ",
+            "dioceseArabic": "مطران البلينا",
+            "dioceseEnglish": "Metropolitan of el-Balyana"
+        },
+        {
+            "key": "PAPHNUTIUS",
+            "Arabic": "بفنوتيوس",
+            "Coptic": "Iwchv",
+            "English": "Paphnutius",
+            "Arabiccoptic": "بفنوتيوس",
+            "Englishcoptic": "Paphnutius",
+            "dioceseArabic": "مطران سمالوط",
+            "dioceseEnglish": "Metropolitan of Samalut and Taha El Aameda"
+        },
+        {
+            "key": "BENYAMIN",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Benyamin",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Benyamin ",
+            "dioceseArabic": "مطران المنوفية",
+            "dioceseEnglish": "Metropolitan of Al Minufiyah"
+        },
+        {
+            "key": "TADROS",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Tadros",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Tadros ",
+            "dioceseArabic": "مطران  بورسعيد",
+            "dioceseEnglish": "Metropolitan of Port Said"
+        },
+        {
+            "key": "SERAPION",
+            "Arabic": "سيرابيون ",
+            "Coptic": "Iwchv",
+            "English": "Serapion",
+            "Arabiccoptic": "سيرابيون ",
+            "Englishcoptic": "Serapion",
+            "dioceseArabic": "مطران لوس انجلوس كاليفورنيا وهاواى",
+            "dioceseEnglish": "Metropolitan of Los Angeles, all Southern California and Hawaii, USA"
+        },
+        {
+            "key": "ATHANASIOS",
+            "Arabic": "اثناسيوس",
+            "Coptic": "Iwchv",
+            "English": "Athanasios",
+            "Arabiccoptic": "اثناسيوس",
+            "Englishcoptic": "Athanasios",
+            "dioceseArabic": "مطران طولون ومرسيليا ",
+            "dioceseEnglish": "Metropolitan of Marseille and Primate of the Holy Metropolis of Toulon "
+        },
+        {
+            "key": "PAULA",
+            "Arabic": "بولا",
+            "Coptic": "Iwchv",
+            "English": "Paula",
+            "Arabiccoptic": "بولا",
+            "Englishcoptic": "Paula",
+            "dioceseArabic": "مطران طنطا",
+            "dioceseEnglish": "Metropolitan of Tanta"
+        },
+        {
+            "key": "PISSADA",
+            "Arabic": "بسادة",
+            "Coptic": "Iwchv",
+            "English": "Pissada",
+            "Arabiccoptic": "بسادة",
+            "Englishcoptic": "Pissada",
+            "dioceseArabic": "مطران أخميم",
+            "dioceseEnglish": "Metropolitan of Akhmim , Saqualta"
+        },
+        {
+            "key": "ANDRAWIS",
+            "Arabic": "أندراوس",
+            "Coptic": "Iwchv",
+            "English": "Andrawis",
+            "Arabiccoptic": "أندراوس",
+            "Englishcoptic": "Andrawis",
+            "dioceseArabic": "مطران أبو تيج وصدفا والغنائم",
+            "dioceseEnglish": "Metropolitan of Abutig, Sedna and el Ghanayem"
+        },
+        {
+            "key": "ASHE3YIA",
+            "Arabic": "إشعياء",
+            "Coptic": "Iwchv",
+            "English": "Ashe3yia",
+            "Arabiccoptic": "إشعياء",
+            "Englishcoptic": "Ashe3yia",
+            "dioceseArabic": "مطران طهطا",
+            "dioceseEnglish": "Metropolitan of Tahta, Juhayna and Gabalein"
+        },
+        {
+            "key": "MARKOS",
+            "Arabic": "مرقس",
+            "Coptic": "Iwchv",
+            "English": "Markos",
+            "Arabiccoptic": "مرقس",
+            "Englishcoptic": "Markos",
+            "dioceseArabic": "مطران شبرا الخيمة وتوابعها",
+            "dioceseEnglish": "Metropolitan of Shubra el-Kheima."
+        },
+        {
+            "key": "ABRAM",
+            "Arabic": "ابرآم",
+            "Coptic": "Iwchv",
+            "English": "Abram",
+            "Arabiccoptic": "ابرآم",
+            "Englishcoptic": "Abram",
+            "dioceseArabic": "مطران الفيوم",
+            "dioceseEnglish": "Metropolitan of Faiyum"
+        },
+        {
+            "key": "ANTONIOUS_MARKOS",
+            "Arabic": "أنطونيوس مرقس",
+            "Coptic": "Iwchv",
+            "English": "Antonious Markos",
+            "Arabiccoptic": "أنطونيوس مرقس",
+            "Englishcoptic": "Antonious Markos",
+            "dioceseArabic": "مطران جنوب أفريقيا،",
+            "dioceseEnglish": "Metropolitan of  South Africa and its jurisdictions."
+        },
+        {
+            "key": "BARSOUM",
+            "Arabic": "برسوم",
+            "Coptic": "Iwchv",
+            "English": "Barsoum",
+            "Arabiccoptic": "برسوم",
+            "Englishcoptic": "Barsoum",
+            "dioceseArabic": "مطران ديروط وصنبو",
+            "dioceseEnglish": "Metropolitan of Dairut and Sanabou"
+        },
+        {
+            "key": "DEMETRIOS",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Demetrios",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Demetrios",
+            "dioceseArabic": "مطران ملوي و أنصنا",
+            "dioceseEnglish": "Metropolitan of Mallawi"
+        },
+        {
+            "key": "BAKHOUM",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Bakhoum",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Bakhoum",
+            "dioceseArabic": "مطران سوهاج",
+            "dioceseEnglish": "Metropolitan of Sohag"
+        },
+        {
+            "key": "AGHAPIOS",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Aghapios",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Aghapios",
+            "dioceseArabic": "مطران ديرمواس ودلجا",
+            "dioceseEnglish": "Metropolitan of Deir Mawas and Delga"
+        },
+        {
+            "key": "THOMAS",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Thomas",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Thomas",
+            "dioceseArabic": "مطران القوصية ومير",
+            "dioceseEnglish": "Metropolitan of el-Qusiya (Qis) and Meir"
+        },
+        {
+            "key": "DANIEL",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Daniel",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Daniel",
+            "dioceseArabic": "مطران  المعادى وتوابعها،",
+            "dioceseEnglish": "Metropolitan of Maadi & El-Basateen"
+        },
+        {
+            "key": "CHEROUBIM",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Cheroubim",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Cheroubim",
+            "dioceseArabic": "مطران قنا وقفط",
+            "dioceseEnglish": "Metropolitan of Qena"
+        },
+        {
+            "key": "PIMEN",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Pimen",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Pimen",
+            "dioceseArabic": "مطران نقادة وقوص",
+            "dioceseEnglish": "Metropolitan of Naqada"
+        },
+        {
+            "key": "TAKLA",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Takla",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Takla",
+            "dioceseArabic": "مطران دشنا و توابعها",
+            "dioceseEnglish": "Metropolitan of Dishna"
+        },
+        {
+            "key": "MAXIMOS",
+            "Arabic": "يوسف",
+            "Coptic": "Iwchv",
+            "English": "Maximos",
+            "Arabiccoptic": "يوسف",
+            "Englishcoptic": "Maximos",
+            "dioceseArabic": "مطران بنها وقويسنا",
+            "dioceseEnglish": "Metropolitan of Banha"
+        },
+        {
             "key": "YOUSSEF",
             "Arabic": "يوسف",
             "Coptic": "Iwchv",
             "English": "Youssef",
             "Arabiccoptic": "يوسف",
             "Englishcoptic": "Youssef",
-            "dioceseArabic": "مطران جنوبي الولايات المتحدة",
+            "dioceseArabic": "مطران جنوبي الولايات المتحدة الأمريكية ",
             "dioceseEnglish": "Metropolitan of the Southern United States"
         }
     ],

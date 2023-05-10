@@ -3,6 +3,7 @@ import {
   Switch,
   StyleSheet,
   Text,
+  FlatList,
   Image,
   Pressable,
   Alert,
@@ -13,11 +14,16 @@ import Colors from "../../constants/colors.js";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import { changeTextLanguage } from "../../stores/redux/settings.js";
 import { changeSaint } from "../../stores/redux/saints";
+import SearchBar from "../ViewTypes/SearchBar";
 
 import SaintModal from "./saintModal";
 import images from "../../helpers/imageHelpers";
+import Languages from "../../constants/languages";
+import SaintView from "../homepage/saintView.js";
 
 function SaintsList() {
+  const [clicked, setClicked] = useState(false);
+  const [searchPhrase, setSearchPhrase] = useState("");
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const [selectedSaint, setSelectedSaint] = useState("");
   const [saintModalVisible, setsaintModalVisible] = useState(false);
@@ -78,6 +84,8 @@ function SaintsList() {
       titleKey: "ST_KIROLLOS_SIXTH",
     },
   ];
+  const [currentData, setcurrentData] = useState(tempLang);
+
   let imageSize = 50;
 
   const imageStyle = {
@@ -109,6 +117,19 @@ function SaintsList() {
   function closeModal() {
     setsaintModalVisible(false);
   }
+  function handleSearch(text) {
+    setSearchPhrase(text);
+    const filteredData = tempLang.filter(
+      (item) =>
+        item.titleKey.toLowerCase().includes(text.toLowerCase()) ||
+        item.titleKey.includes(text)
+    );
+    console.log(filteredData);
+    setcurrentData(filteredData);
+  }
+  function renderItems({ item }) {
+    return <SaintView item={item} onClick={openModal}></SaintView>;
+  }
   function updateSaint(saint, saintObject) {
     dispatch(changeSaint({ saint: saint, object: saintObject }));
     setsaintModalVisible(false);
@@ -121,47 +142,25 @@ function SaintsList() {
         updateSaint={updateSaint}
         saint={selectedSaint}
       ></SaintModal>
-      <View
-        style={[styles.container, { borderColor: getColor("PrimaryColor") }]}
-      >
-        <View style={styles.titleView}>
-          <Text
-            style={[
-              styles.title,
-              { fontSize: fontSize * 1.3, color: getColor("PrimaryColor") },
-            ]}
-          >
-            {getLanguageValue("saintsMenu")}
-          </Text>
-        </View>
-        {tempLang.map((lang) => {
-          return (
-            <Pressable
-              key={lang.titleKey}
-              onPress={openModal.bind(this, lang.titleKey)}
-            >
-              <View
-                style={[
-                  styles.secondContainer,
-                  {
-                    borderColor: getColor("PrimaryColor"),
-                  },
-                ]}
-              >
-                <View style={[styles.imageContainerLandscape, imageStyle]}>
-                  <Image style={styles.image} source={images[lang.titleKey]} />
-                </View>
-                <View style={styles.textview}>
-                  <Text
-                    style={[styles.text, { color: getColor("PrimaryColor") }]}
-                  >
-                    {getLanguageValue(lang.titleKey)}
-                  </Text>
-                </View>
-              </View>
-            </Pressable>
-          );
-        })}
+      <View style={styles.container}>
+        <SearchBar
+          setClicked={setClicked}
+          searchPhrase={searchPhrase}
+          handleSearch={handleSearch}
+          setSearchPhrase={setSearchPhrase}
+          clicked={clicked}
+        />
+        <FlatList
+          data={currentData}
+          horizontal={false}
+          initialNumToRender={currentData.length}
+          style={{ width: "100%" }}
+          showsVerticalScrollIndicator={false}
+          renderItem={renderItems}
+          keyExtractor={(item, index) => {
+            return item.key;
+          }}
+        />
       </View>
     </>
   );
@@ -169,11 +168,8 @@ function SaintsList() {
 
 const styles = StyleSheet.create({
   container: {
-    margin: 10,
-    padding: 10,
-    borderRadius: 10,
-    backgroundColor: "rgba(52, 52, 52, 0.2)",
-    borderWidth: 5,
+    margin: 5,
+    padding: 5,
   },
   secondContainer: {
     margin: 5,

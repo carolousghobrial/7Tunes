@@ -107,6 +107,14 @@
             "Path": "saintsMelodies"
         },
         {
+            "Type": "Button",
+            "Arabic": " طرح ",
+            "English": "Veneration Exposition",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "venerationsExposition"
+        },
+        {
             "Type": "Main",
             "Path": "VenerationKhenEfran",
             "Rule": 0,
@@ -127,6 +135,12 @@
         {
             "Type": "Main",
             "Path": "VenerationWaSalam",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationConclusion",
             "Rule": 0,
             "Visible": true
         }

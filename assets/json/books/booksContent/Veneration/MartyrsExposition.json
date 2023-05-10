@@ -1,0 +1,191 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "طرح يقال للشهاداء.",
+  "EnglishTitle": "An Exposition for The Martyrs ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تعالوا جميعكم أيها الأباء الروحانيين والأخوة الأرثوزكسيين لنمجد الثالوث المقدس الأب والأبن والروح القدس ونجزل بالأغانى والتراتيل الروحانية فى هذه البيعة المقدسة الجامعة الرسولية فى يوم عيد الشهيد العظيم الطاهر القديس  [...] الذى احتمل سائر العذاب على الأسم الحلو الصالح الذى لربنا يسوع المسيح له المجد دائماً وترك جميع الفانيات وتبع جميع الباقيات وجعل له مسكناً فى أعلى السموات وفاز بالخيرات السرمدية فى المساكن النورانية. ",
+      "English": "O you spiritual fathers and beloved orthodox brethren, let us all come together to glorify the Holy Trinity, the Father, the Son and the Holy Spirit. And rejoice with spiritual hymns and songs at this holy, apostolic and catholic church on this day which is for the feast of the great martyr St. [...], who has suffered for the good and holy name of our Lord Jesus Christ to Whom is the glory forever. This saint who refused the earthly, sought after the heavenly, built to himself a heavenly house and won the eternal rewards. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنقترب الى هذا الجسد الطاهر ونرفع من قلوبنا سائر الأفكار الرديئة ونطهر زواتنا من كل أفعال الخطية وننزع من قلوبنا الحقد والنميمة والأفتراء والغضب والنفاق ونود بعضنا لنكون مسكناً للروح القدس. احضروا الأن الى هذا الجسد الطاهر والجوهرة النقية النفيسة الجليلة الذى هو جسد الشهيد العظيم الطاهر سيدى الملك  [...] الذى اعترف باسم الرب يسوع المسيح أمام الملك الكافر ونال العذاب واحتمل فى جسده الطاهر الضرب والحريق بالنار وأخيراً قطعت رأسه بحد السيف ونال اكليل الشهادة فلهذا نغبطه ونصرخ بصوت الفرح قائلين:",
+      "English": "Let us approach his holy body and cast out from our hearts all the evil thoughts, cleanse ourselves from every sin, guile, gossip, hypocrisy and hatred and love one another in order to become temples for the Holy Spirit. Let us come now to this pure body, the precious jewel which is the body of the great holy martyr my master prince Mercurius, who confessed the Name of our Lord Jesus Christ before the impious emperor, and who was tortured by beating and casting into fire and at last was beheaded and deserved the crown of martyrdom. Therefore, we glorify him with a joyful voice saying:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مستحق مستحق مستحق (....)",
+      "Coptic": "A[ioc a[ioc a[ioc (.....)",
+      "English": "Worthy, worthy, worthy is (.....)",
+      "Arabiccoptic": "أكسيوس أكسيوس أكسيوس ......",
+      "Englishcoptic": "Axioc axios axios (.....)"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلهذا جسده ميناءً وخلاصاً وشفاءً لكل الأتين اليه بامانة فلنرتل مع داود النبى ونقول كثيرة هى احزان الصديقين ومن جميعها يخلصهم الرب. الرب يحفظ جميع عظامهم وواحدة منها لا تنكسر. عظيم هو هذا اليوم يا أحبائى بحضور هذا الجسد الطاهر فى بيعته المقدسة واظهار العجائب والأيات الباهرة المذهلة للعقول من شفاء المرضى بكل الأمراض بتحصيل الشفاء لهم سريعاً والذين فى الشدائد يفرج الرب عنهم ضوائقهم والذين يقصدون سلامة من أمور هذا العالم يقبل طلباتهم وسوءالهم حين يلتجوءن الى الشهيد المكرم [...] من أجل هذا نصرخ بصوت الفرح هكذا قائلين:",
+      "English": "His body has become a harbor of safety and healing to all of those who come to him with sincerity.  Therefore, let us sing with David the Prophet saying “Many are the afflictions of the righteous, but the Lord delivers him out of them all. He guards all his bones; none of them is broken” (Psalm 34:19, 20). Great is this day, my beloved, by the presence of this pure body in his holy church for the performance of wonders and signs that surpass our mind by promptly healing the sick from all illnesses and changing the sorrow and suffering of those who are in tribulations into happiness and joy. God accepts our quests and prayers when we ask the intercession of the honored martyr St. [...]. So, let us all proclaim with a joyful voice saying:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مستحق مستحق مستحق (....)",
+      "Coptic": "A[ioc a[ioc a[ioc (.....)",
+      "English": "Worthy, worthy, worthy is (.....)",
+      "Arabiccoptic": "أكسيوس أكسيوس أكسيوس ......",
+      "Englishcoptic": "Axioc axios axios (.....)"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلهذا جسده ميناءً وخلاصاً وشفاءً لكل الأتين اليه بامانة فلنرتل مع داود النبى ونقول كثيرة هى احزان الصديقين ومن جميعها يخلصهم الرب. الرب يحفظ جميع عظامهم وواحدة منها لا تنكسر. ",
+      "English": "His body has become a harbor of safety and healing to all of those who come to him with sincerity.  Therefore, let us sing with David the Prophet saying “Many are the afflictions of the righteous, but the Lord delivers him out of them all. He guards all his bones; none of them is broken” (Psalm 34:19, 20). "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عظيم هو هذا اليوم يا أحبائى بحضور هذا الجسد الطاهر فى بيعته المقدسة واظهار العجائب والأيات الباهرة المذهلة للعقول من شفاء المرضى بكل الأمراض بتحصيل الشفاء لهم سريعاً والذين فى الشدائد يفرج الرب عنهم ضوائقهم والذين يقصدون سلامة من أمور هذا العالم يقبل طلباتهم وسوءالهم حين يلتجوءن الى الشهيد المكرم [...] من أجل هذا نصرخ بصوت الفرح هكذا قائلين:",
+      "English": "Great is this day, my beloved, by the presence of this pure body in his holy church for the performance of wonders and signs that surpass our mind by promptly healing the sick from all illnesses and changing the sorrow and suffering of those who are in tribulations into happiness and joy. God accepts our quests and prayers when we ask the intercession of the honored martyr St. [...]. So, let us all proclaim with a joyful voice saying:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مستحق مستحق مستحق (....)",
+      "Coptic": "A[ioc a[ioc a[ioc (.....)",
+      "English": "Worthy, worthy, worthy is (.....)",
+      "Arabiccoptic": "أكسيوس أكسيوس أكسيوس ......",
+      "Englishcoptic": "Axioc axios axios (.....)"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام الشهيد العظيم الطاهر القديس [...] الذى أعطى من الرب كرامة عظيمة لا تحصى وأكاليل ممجدة وكرامة ومملكة لا تزول عوضاً عن كثرة العذاب الذى ناله على الأسم الحلو. السلام للشهيد العظيم الطاهر القديس [...] الذى استحق سماع الصوت الالهى القائل ادخل الى فرح سيدك محل القديسين فى أورشليم السمائية من أجل هذا نصرخ بصوت الفرح هكذا قائلين:",
+      "English": "Hail to you O great and pure martyr [...]. The Lord has looked at the suffering you endured for His holy name and rewarded you with a great and innumerable honor, glorified crowns, and an eternal kingdom that will never perish. Hail to you O great and pure martyr [...] who deserved to hear the Godly voice saying “Enter into the joy of your Lord” (Matthew 25:22), the place of saints in the heavenly Jerusalem. Let us all proclaim with a joyful voice saying:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مستحق مستحق مستحق (....)",
+      "Coptic": "A[ioc a[ioc a[ioc (.....)",
+      "English": "Worthy, worthy, worthy is (.....)",
+      "Arabiccoptic": "أكسيوس أكسيوس أكسيوس ......",
+      "Englishcoptic": "Axioc axios axios (.....)"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أطلب الى الرب عنا ايها الشهيد المكرم العظيم القديس [...] شفاعتك المقبولة مع جميع الشهداء الذين ارضوا الرب باعمالهم الصالحة أن يغفر لنا خطايانا ويجمع شمل أولاد البيعة المقدسة الجامعة الرسولية بالالفة والمحبة الروحانية ويعطف علينا قلوب المتولين علينا ويبدد مشورة المعاندين لنا ويخضع الشيطان عاجلاً تحت أقدامنا بشفاعة الست السيدة مرتمريم العذراء الطاهرة والشهيد العظيم الطاهر القديس [...] و بشفاعة الذين ارضوا الرب ويرضونه باعمالهم الصالحة وأن يديم لنا وعلينا حياة السيد الطاهر والمصباح الزاهر أبينا البطريرك الأنبا [...]  وشريكه فى الخدمة الرسولية أبينا الأسقف المكرم الأنبا [...] اله السماء يثبتهم على كراسيهم أزمنة طويلة ويخلص الشعب المسيحى من التجارب بصلواتهم ويخضع العدو الشيطان سريعاً تحت أقدامهم. المجد للثالوث القدوس الآن وكل أوان والى دهر الداهرين. أمين.",
+      "English": "Ask the Lord on our behalf O great and pure martyr [...] that He may forgive us our sins. May the Lord, through your accepted intercession and the intercession of all the martyrs who pleased the Lord with their good deeds since the beginning, gather all the children of this catholic and apostolic church, disperse the council of their enemies and subdue the devil quickly under their feet. May the Lord, through the intercession of His Mother St. Mary, the intercession of the great and pure martyr [...] and the intercession of those who pleased Him with their good deeds, preserve the life and the rising of our honored father the archbishop Papa Abba [....] and our Father the Bishop [....]. We pray that the Lord of heaven keep them on their throne for many years and peaceful times. We pray that the Lord save their people from temptations and subdue their enemy, the devil, quickly under their feet. Glory be to the Holy trinity now and forever. Amen."
+    }
+  ]
+}

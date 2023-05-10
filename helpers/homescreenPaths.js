@@ -4,6 +4,7 @@ const homescreenPaths = {
   liturgy: require("../assets/json/menuJson/liturgy/liturgy.json"),
   pascha: require("../assets/json/menuJson/pascha/pascha.json"),
   saintsMelodies: require("../assets/json/books/booksTable/Venerations/saintsmelodies.json"),
+  venerationsExposition: require("../assets/json/books/booksTable/Venerations/exposition.json"),
   index: require("../assets/json/menuJson//index.json"),
   vp: require("../assets/json/menuJson/psalmody/vesperspraises.json"),
   mp: require("../assets/json/menuJson/psalmody/midnightpraises.json"),

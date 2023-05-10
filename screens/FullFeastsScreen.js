@@ -21,14 +21,18 @@ import {
   getCopticFastsFeasts,
   setCurrentSeasonByKey,
 } from "../helpers/copticMonthsHelper";
+import Languages from "../constants/languages";
+
 import FeastView from "../components/homepage/feastView";
 import FeastModal from "../components/homepage/feastModal";
 import SelectYearModal from "../components/homepage/SelectYearModal";
+import SearchBar from "../components/ViewTypes/SearchBar";
 import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper";
 function FullFeastsScreen() {
   const dispatch = useDispatch();
   const timeTransition = useSelector((state) => state.settings.timeTransition);
-
+  const [clicked, setClicked] = useState(false);
+  const [searchPhrase, setSearchPhrase] = useState("");
   const [initialIndex, setInitialIndex] = useState(null);
   const [yearModalVisible, setyearModalVisible] = useState(false);
   const [yearSelected, setyearSelected] = useState(2023);
@@ -39,6 +43,8 @@ function FullFeastsScreen() {
       new moment(a.start).format("YYYYMMDD") -
       new moment(b.start).format("YYYYMMDD")
   );
+  const [currentData, setcurrentData] = useState(data);
+
   const [selectedFeast, setselectedFeast] = useState(data[0]);
 
   function feastClick(item) {
@@ -97,6 +103,18 @@ function FullFeastsScreen() {
   function renderItems(itemData) {
     return <FeastView item={itemData.item} onClick={feastClick}></FeastView>;
   }
+  function handleSearch(text) {
+    setSearchPhrase(text);
+    const filteredData = data.filter(
+      (item) =>
+        Languages["eng"][item.key].toLowerCase().includes(text.toLowerCase()) ||
+        Languages["ara"][item.key].includes(text)
+    );
+    console.log(filteredData);
+
+    setcurrentData(filteredData);
+  }
+
   return (
     <>
       <FeastModal
@@ -110,16 +128,24 @@ function FullFeastsScreen() {
         closeModal={closeYearModal}
         setYear={setYear}
       ></SelectYearModal>
+
       <View style={styles.container}>
         <FeastScreenTitleView
           liveClicked={liveClicked}
           yearClick={yearClick}
         ></FeastScreenTitleView>
+        <SearchBar
+          setClicked={setClicked}
+          searchPhrase={searchPhrase}
+          handleSearch={handleSearch}
+          setSearchPhrase={setSearchPhrase}
+          clicked={clicked}
+        />
         <FlatList
-          data={data}
+          data={currentData}
           horizontal={false}
           ref={flatListRef}
-          initialNumToRender={data.length}
+          initialNumToRender={currentData.length}
           initialScrollIndex={initialIndex}
           style={{ width: "100%" }}
           showsVerticalScrollIndicator={false}

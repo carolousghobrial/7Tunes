@@ -145,6 +145,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "تمجيد",
+            "English": "Venerations",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "venerations"
+        },
+        {
             "Type": "Main",
             "Path": "RaisingOfIncenseLentLitanies",
             "Rule": 0,

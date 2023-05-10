@@ -240,8 +240,8 @@ const Languages = {
     ST_MOSES: "الأنبا موسى",
     ST_PISHOI: "الأنبا بيشوي",
     ST_REWIS: "الأنبا رويس",
-    ST_JOHN_THE_SHORT: "الأنبا كاراس",
-    ST_KARAS: "الأنبا يوحنا القصير",
+    ST_KARAS: "الأنبا كاراس",
+    ST_JOHN_THE_SHORT: "الأنبا يوحنا القصير",
     ST_KIROLLOS_SIXTH: "البابا كيرلس",
   },
 };
