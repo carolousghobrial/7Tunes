@@ -2,6 +2,7 @@ const homescreenPaths = {
   myHome: require("../assets/json/menuJson/mainMenu.json"),
   psalmody: require("../assets/json/menuJson/psalmody/psalmody.json"),
   liturgy: require("../assets/json/menuJson/liturgy/liturgy.json"),
+  liturgyMenu: require("../assets/json/menuJson/liturgy/liturgyMenu.json"),
   pascha: require("../assets/json/menuJson/pascha/pascha.json"),
   saintsMelodies: require("../assets/json/books/booksTable/Venerations/saintsmelodies.json"),
   venerationsExposition: require("../assets/json/books/booksTable/Venerations/exposition.json"),
@@ -41,6 +42,8 @@ const homescreenPaths = {
   //Doxologies
   doxologies: require("../assets/json/books/booksTable/Praises/MidnightPraises/doxologies.json"),
   //Liturgies
+  offertory: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/offertory.json"),
+
   //RaisingOfIncense
   vespers: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/vespers.json"),
   matins: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/matins.json"),

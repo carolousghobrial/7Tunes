@@ -7,23 +7,23 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
+      "Side": "Neutral",
       "Arabic": "يسوع المسيح إلهنا، أخذ تلاميذه، وأصعدهم فوق، جبل طابور.",
       "Coptic": "Ihc? Pxc? penNou;> afsi `nnefmaqhthc> afsitou ca`p]wi> `mpitwou `nQabwr.",
       "English": "Jesus Christ our God, took His disciples, He brought them up, to Mount Tabor.",
       "Arabiccoptic": " إيسوس بخرستوس بينوتى:أفتشى إن نيف ماثيتيس:أفتشيتو صاإبشوى:إمبى طواوو إن ثابور . ",
-      "Englishcoptic": "Isos Pikhrisots penNoooti: afchi ennefmatheetees: afchitooo saepshooi: empito-oo enThavoor."
+      "Englishcoptic": "Isos Pikhrisots penNooti: afchi ennefmatheetees: afchitoo saepshooi: empito-oo enThavoor."
     },
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
+      "Side": "Neutral",
       "Arabic": "إيليا وموسى القويان، نظرا ثيابه على طابور، التلاميذ عُبِّروا في، سحابة منيرة.",
       "Coptic": "Hliac nem Mw`uchc petjor> aunau `enef`\\bwc \\i Qabwr> nimaqhthc euerjinior> `noushpi ecerouwini.",
       "English": "Elijah and Moses the strong ones, saw His clothes on Tabor, the disciples passed through, a bright cloud.",
       "Arabiccoptic": " إيلياس نيم مويسيس بيت جوري:أﭫ ناﭫ اى نيف إهـﭭـوس هى طابور:نى ماثيتيس أﭫ إر ﭼينيور:إنو تشيبى إس إر اواوينى . ",
-      "Englishcoptic": "Eelias nem Moisees petgor: avnav -enefehvoos hi Thavoor: nimatheetees everjinior: enooocheepi esero-ooini."
+      "Englishcoptic": "Eelias nem Moisees petgor: avnav -enefehvoos hi Thavoor: nimatheetees everjinior: enoocheepi esero-ooini."
     }
   ]
 }

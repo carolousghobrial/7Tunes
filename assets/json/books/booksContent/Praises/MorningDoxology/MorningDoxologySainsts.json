@@ -3,7 +3,7 @@
     "RefrainAfter": 0,
     "ArabicTitle": "ذكصولوجيه باكر لأجل القديسين ",
     "EnglishTitle": "Morning Doxology (Saints)",
-    "CopticTitle": "Nhe/q/u/ `ntak",
+    "CopticTitle": "Nheqouab `ntak",
     "Hymn": [
         {
             "Type": "Base",
@@ -11,7 +11,7 @@
             "Visible": true,
             "Side": "North",
             "Arabic": "قديسوك يباركونك وينطقون بمجد ملكوتك.",
-            "Coptic": "Nhe/q/u/ `ntak > eu`e`cmou `erok > eu`ecaji `m`p`wou > `nte tekmetouro.",
+            "Coptic": "Nheqouab `ntak > eu`e`cmou `erok > eu`ecaji `m`p`wou > `nte tekmetouro.",
             "English": "Your saints bless You, and they speak, of the glory, of Your Kingdom.",
             "Arabiccoptic": "ني اثؤواب انطاك : إف ايه اسمو ايروك : إف ايه صاجي ام اب أوأوو : انتيه تيك ميت إب أوو رو .",
             "Englishcoptic": "Ni Ethowab entak, ef e esmo erok, ev e saji em ep o-o, ente tekmet oro."

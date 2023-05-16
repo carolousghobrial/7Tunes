@@ -19,7 +19,8 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseThanksgivingPrayer",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "mother": "vespers"
         },
         {
             "Type": "Main",

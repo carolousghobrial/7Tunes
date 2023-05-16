@@ -51,7 +51,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أقول بصوت العشار، صارخاً قائلاً، \"اللهم اغفر لي، أنا الخاطئ\" .",
-      "Coptic": ":jw `n`t`cmh `nte pitelwnhc> ei`w] `ebol eijw `mmoc> je `V; xw nhi `ebol> je `anok `ouref`ernobi.",
+      "Coptic": ":jw `n`t`cmh `nte pitelwnhc> ei`w] `ebol eijw `mmoc> je `Vnou; xw nhi `ebol> je `anok `ouref`ernobi.",
       "English": "I speak with the voice of the publican: crying out saying: O God forgive me, for I am a sinner.",
       "Arabiccoptic": "تى جو إن إت إسمى انتى بى تيلونيس، إيؤش إيڤول ايجو إمموس، چى افنوتى كو نى إيڤول، چى آنوك أو ريف إيرنوڤى .",
       "Englishcoptic": "Tigo en-et-esmi ente pi-telonis : ei-osh evol ei-go emmos : je Evnoti ko ni evol : je anok oref-ernovi ."
@@ -73,10 +73,10 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أعطني يا رب توبة، لكي أتوب، قبل أن يسد الموت فمي، في أبواب الجحيم .",
-      "Coptic": "Moi nhi `Poc? `n`oumetanoia> `e`pjinta`ermetanoin> `mpate `vmou ma`]qam `nrwi> =en nipulh `nte `Amen;.",
+      "Coptic": "Moi nhi `Psoic `n`oumetanoia> `e`pjinta`ermetanoin> `mpate `vmou ma`]qam `nrwi> =en nipulh `nte `Amen;.",
       "English": "Give me, O Lord, repentance: in order that I may repent: before death shuts me : within the gates of Hades.",
       "Arabiccoptic": "موى نى ابشويس إنؤميطانيا، إى إبچين طا إرميطانين، إمباتى إفمو ما أشتام إنروى، خين نى بيلى إنتنى آمينتى .",
-      "Englishcoptic": "Moi ni epchois en-ometania : epjin-ta-er metanin : empate evmo ma-eshtam enroi : khen ni-pili ente Amenti."
+      "Englishcoptic": "Moi ni Epchois en-ometania : epjin-ta-er metanin : empate evmo ma-eshtam enroi : khen ni-pili ente Amenti."
     },
     {
       "Type": "Base",

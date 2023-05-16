@@ -35,7 +35,7 @@
       "Coptic": "Je P_ af`i ouo\\ afsi`wmc> eqbe nennobi `anon \\wn> aftoujon afcw; `mmon> =en `ouni]; `mmet]en\\ht.",
       "English": "For God came and was baptized, for our sins, He delivered and saved us, with great compassion.",
       "Arabiccoptic": "جي ابتشويس افي اووه افتشي أومس : اثفى نين نوفي انون هون : افتووجون افسوتي اممون : خين او نيشتي امميت شين هيت  .",
-      "Englishcoptic": "Je epchois af-ee owoh afchi-oms, ethve nen-novi anon hon, aftogon afsoti emon, khen onishti em-met shenhit."
+      "Englishcoptic": "Je Epchois af-ee owoh afchi-oms, ethve nen-novi anon hon, aftogon afsoti emon, khen onishti em-met shenhit."
     },
     {
       "Type": "Base",
@@ -43,10 +43,10 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "تعال يا داود في وسطنا اليوم، لتنطق بكرامة هذا العيد، صوت الرب علي المياه، إله المجد ارعد.",
-      "Coptic": "Dauid `amou tenmh; `mvo`ou> eqrekjw `m`ptaio `mpai]ai> je `p`=rw`ou `mP_ \\ijen nimw`ou> V;?  `nte `pw`ou af`er=arabai.",
+      "Coptic": "Dauid `amou tenmh; `mvo`ou> eqrekjw `m`ptaio `mpai]ai> je `p`=rw`ou `mP_ \\ijen nimw`ou> Vnou;?  `nte `pw`ou af`er=arabai.",
       "English": "Come today David to our midst, so you may speak of the honor of this feast, saying \"The voice of the God of glory, thunders upon the waters.\"",
       "Arabiccoptic": "دافيد امو تين ميتى امفوؤو : اثريك جو ام ابطايو امباي شاي : جى اب اخروؤو ام ابتشويس هيجين نيموؤو : افنوتي انتى ابؤو اف اير خارافاي  .",
-      "Englishcoptic": "Daveed amo tenmiti emfo-oo , ethrek-go emeptaio emapai-shai, je epekhro-oo emepchois hijen ni-mo-oo, Efnoti ente epo-oo af-er khara-vai."
+      "Englishcoptic": "Daveed amo tenmiti emfo-oo , ethrek-go emeptaio emapai-shai, je epekhro-oo emEpchois hijen ni-mo-oo, Efnoti ente epo-oo af-er khara-vai."
     },
     {
       "Type": "Base",
@@ -90,7 +90,7 @@
       "Coptic": "Ra]i nitw`ou nem nikalamvw`ou> piia\\`]]hn nem ni]encifi> `ebol =a `t\\h `m`p\\o `m`pouro> vh`etafqamio `nninifi.",
       "English": "Rejoice O mountains and hills, thickets and all cedars, before the face of the King, who created all souls.",
       "Arabiccoptic": "راشي ني توؤو نيم ني كلامفوؤو : بي اه إششين نيم ني شينسيفي : ايفول خا إتهي إم إبهو إم إبؤورو : في ايطاف ثاميو انني نيفي  .",
-      "Englishcoptic": "Rashi ni-to-oo nem nikalam-fo-oo, piyah esheen nem ni-shen-sifi , evol kha et-hi emepho emep-oro, vi-etaf thamio en ni-nifi."
+      "Englishcoptic": "Rashi ni-to-oo nem nikalam-fo-oo, piyah esheen nem ni-shen-sifi , evol kha et-hi emep-ho emep-oro, vi-etaf thamio en ni-nifi."
     },
     {
       "Type": "Base",
@@ -131,7 +131,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "هذا الذى ينبغى له المجد، مع أبيه الصالح، والروح القدس، من الآن وإلى الأبد.",
-      "Coptic": "Vai `ere pi`wou er`prepi naf > nem Pefiwt `nagaqoc > nem Pip/n/a/ e/q/u/ > icjen ;nou nem ]a `ene\\ .",
+      "Coptic": "Vai `ere pi`wou er`prepi naf > nem Pefiwt `nagaqoc > nem Pip/n/a/ eqouab > icjen ;nou nem ]a `ene\\ .",
       "English": "This is He to whom is due glory, with His good Father, and the Holy Spirit, both now and forever.",
       "Arabiccoptic": "فاي أري بي أوؤ أري بيريبي ناف : نيم بيف يوت أن آغاثوس : نيم بي إبنفما إثوواب إس جين تينو نيم شا إينيه .",
       "Englishcoptic": "Fay ere pi oo erep reby naf, nem pek yot enagha-thos, nem pi epnevma ethowab, yes gen tee no nem sha eneh."

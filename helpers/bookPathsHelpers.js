@@ -1226,6 +1226,18 @@ const bookPaths = {
   PaschaWednesdayWednesdayEveThirdGospel1Coptic: require("../assets/json/books/booksContent/Pascha/Wednesday/WednesdayEve/Third/Gospel1Coptic.json"),
   PaschaWednesdayWednesdayEveThirdProphecies1Coptic: require("../assets/json/books/booksContent/Pascha/Wednesday/WednesdayEve/Third/Prophecies1Coptic.json"),
   PaschaWednesdayWednesdayEveThirdPsalm: require("../assets/json/books/booksContent/Pascha/Wednesday/WednesdayEve/Third/Psalm.json"),
+
+  //Liturgy
+  //Offertory
+  LiturgyOffertoryAbsolutionOfTheServants: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Offertory/AbsolutionOfTheServants.json"),
+  LiturgyOffertoryAlleluiaEiEee: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Offertory/AlleluiaEiEee.json"),
+  LiturgyOffertoryAlleluiaFaiPePi: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Offertory/AlleluiaFaiPePi.json"),
+  LiturgyOffertoryAlleluiaJeEfmevi: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Offertory/AlleluiaJeEfmevi.json"),
+  LiturgyOffertoryIsPatir: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Offertory/IsPatir.json"),
+  LiturgyOffertoryIsPatirGreat: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Offertory/IsPatirGreat.json"),
+  LiturgyOffertoryKhenEfran: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Offertory/KhenEfran.json"),
+  LiturgyOffertoryNiSavevTiro: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Offertory/NiSavevTiro.json"),
+  LiturgyOffertoryProcessionOfLamb: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Offertory/ProcessionOfLamb.json"),
 };
 
 export default bookPaths;

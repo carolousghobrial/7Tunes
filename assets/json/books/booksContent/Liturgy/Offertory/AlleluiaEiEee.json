@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "هلليلويا. أدخلُ إلى مذبح",
+  "EnglishTitle": "Alleluia. I shall go in",
+  "CopticTitle": "Allhlouia ei`ei `e=oun",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا. أدخلُ إلى مذبح الله تجاه وجه الله الذي يفرح شبابي، أعترفُ لكَ يا الله إلهي بقيثارةٍ.",
+      "Coptic": "Allhlouia ei`ei `e=oun ]a pima`ner]wou]i `nte `Vnou;> na\\ren `p\\o `m`Vnou; vhetaf; `m`pounof `nte tametalou> ;naouwn\\ nak ebol `Vnou; Panou; =en oukuqara.",
+      "English": "Alleluia. I shall go in unto the altar of God, to God who gladdens my youth. I will confess to You O God, my God with a harp.",
+      "Arabiccoptic": "الليلويا اى إيه إي ايخون شا بيما إن ايرشوؤشي انتى افنوتي: ناهرين ابهو ام افنوتي فيئتافتي ام ابونوف انتى تاميت آلو: تي نا أوأونه ناك ايفول افنوتي بانوتي خين أو كيثارا:",
+      "Englishcoptic": "Alleelooia ei-ei -ekhoon sha pima-en-ersho-ooshi ente Evnoti: nahren ep-ho em-Evnoti vee-etaf-ti em-ep-oonof ente tamet-aloo: tina-oo-onh nak evol Evnoti Panooti khen oo-keethara."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اذكر ياربُّ داودَ وكلَّ دِعَتِهِ. هلليلويا.",
+      "Coptic": "Ari`vmeu`i `ePsoic `nDauid nem tefmetremrau] thrc> allhlouia.",
+      "English": "Remember O Lord David, and all his meekness. Alleluia.",
+      "Arabiccoptic": "أري افميفئي ابتشويس إن دافيد نيم تيف ميت ريم رافش تيرس الليلويا",
+      "Englishcoptic": "Ari-efmev-ee Epchois en-Daveed nem tef-metrem-ravsh teers: Alleelooia."
+    }
+  ]
+}

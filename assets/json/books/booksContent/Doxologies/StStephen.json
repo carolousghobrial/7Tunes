@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الشهيد المكرم الذى لربنا يسوع المسيح القديس إستيفانوس الذى تأويله الإكليل.",
-      "Coptic": "Vhettaihout `mmarturoc > `nte Pen_ Ih/c/ Px/c/ > vhe/q/u/ ` Ctevanoc > `ete pefouw\\em pe pi`xlom.",
+      "Coptic": "Vhettaihout `mmarturoc > `nte Pen_ Ih/c/ Px/c/ > vheqouab ` Ctevanoc > `ete pefouw\\em pe pi`xlom.",
       "English": "The honored martyr: of our Lord Jesus Christ: Saint Stephen: which means \"the crown.",
       "Arabiccoptic": "فى إتطايوت إممارتيروس . إنتى بين شويس إيسوس بخريستوس . فى إثؤواب إستيفانوس . إيتى بيف أوأوهيم بى بى إكلوم.",
       "Englishcoptic": "Vi et-taiot em martyros, ente Penshois Isos Pikhristos, vi ethowab Estephanos, ete pef o-ohem pe pi eklom."
@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "الذى كشف له الله أسراراً عظيمة وإستنار وجهه مثل وجه ملاك.",
-      "Coptic": "Vh`eta V; swrp `erof > `n\\anni]; `mmucthrion > afsiouwini `nje pef\\o > `m`vrh; `m`p\\o `nouaggeloc.",
+      "Coptic": "Vh`eta Vnou; swrp `erof > `n\\anni]; `mmucthrion > afsiouwini `nje pef\\o > `m`vrh; `m`p\\o `nouaggeloc.",
       "English": "To whom God revealed: great mysteries: and his face did shine: like the face of an angel.",
       "Arabiccoptic": "فيئطا إفنوتى تشورب إيروف . إنهان نيشتى إمميستيريون . أفتشيى أوأوينى إنجى بيف هو . إم إفريتى إم إبهو إن أوأنجيلوس  .",
-      "Englishcoptic": "Vi eta evnouty etshorp erof, enhan nishty em mysterion, afetshi o-oiny enje pefho, em evrity em epho ente ni angelos."
+      "Englishcoptic": "Vi eta evnouty etshorp erof, enhan nishty em mysterion, afetshi o-oiny enje pefho, em evrity em ep-ho ente ni angelos."
     },
     {
       "Type": "Base",
@@ -76,7 +76,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "السلام لك أيها المجاهد الذى لربنا يسوع المسيح القديس إستيفانوس الذى تأويله الإكليل.",
-      "Coptic": "Xere nak `w piaqlhthc > `nte Pen_ Ih/c/ Px/c/ > vhe/q/u/ ` Ctevanoc > `ete pefouw\\em pe pi`xlom.",
+      "Coptic": "Xere nak `w piaqlhthc > `nte Pen_ Ih/c/ Px/c/ > vheqouab ` Ctevanoc > `ete pefouw\\em pe pi`xlom.",
       "English": "Hail to you. O fighter: of our Lord Jesus Christ: Saint Stephen: which means \"the crown.\"",
       "Arabiccoptic": "شيرى ناك أو بى أثليتيس . إنتى بين شويس إيسوس بخريستوس . فى إثؤواب إستيفانوس . إيتى بيف أوأوهيم بى بى إكلوم.",
       "Englishcoptic": "Shere nak o pi athlitees, ente penshois Isos Pikhristos, vi ethowab Estephanos, ete pef o-ohem pe pi eklom."

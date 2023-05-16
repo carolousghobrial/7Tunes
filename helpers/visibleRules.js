@@ -122,6 +122,9 @@ const isKiahk = (motherSource, path) => {
 const isLenten = (motherSource, path) => {
   return motherSource === "lentenPsalmody" ? true : false;
 };
+const IsLiturgy = (motherSource, path) => {
+  return motherSource === "liturgy" ? true : false;
+};
 const isStandardVespersPraises = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
@@ -476,7 +479,7 @@ const isPraises = (motherSource, path) => {
 };
 const showLitanyOfDeparted = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  if (currentSeason.dayOfWeek === 6 && currentSeason.type !== "regular") {
+  if (currentSeason.dayOfWeek === 6 && currentSeason.type === "regular") {
     return true;
   }
   return false;
@@ -488,6 +491,13 @@ const showLitanyOfTravelers = (motherSource, path) => {
     currentSeason.dayOfWeek !== 7 &&
     currentSeason.type !== "feast"
   ) {
+    return true;
+  }
+  return false;
+};
+const isNotSaturday = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.dayOfWeek !== 6 || currentSeason.type === "feast") {
     return true;
   }
   return false;
@@ -516,6 +526,9 @@ const isWatos = (motherSource, path) => {
   if (motherSource === "ThursdayDayFirstHourMain") {
     return true;
   }
+  if (currentSeason.type === "feast") {
+    return false;
+  }
   if (motherSource === "vespers" && new Date().getDay() === 6) {
     return true;
   }
@@ -531,6 +544,9 @@ const isWatos = (motherSource, path) => {
 };
 const isAdam = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.type === "feast") {
+    return false;
+  }
   if (
     currentSeason.isWatos === false &&
     isNOTLentWeekdayOrJonah(motherSource, path) &&
@@ -553,6 +569,22 @@ const isNOTLentWeekdayOrJonah = (motherSource, path) => {
     return true;
   }
   if (currentSeason.key === "JONAH_FAST") {
+    return false;
+  }
+  if (currentSeason.key === "GREAT_LENT") {
+    if (currentSeason.dayOfWeek !== 6 && currentSeason.dayOfWeek !== 7) {
+      return false;
+    }
+  }
+  return true;
+};
+const showArchangelMichaelAndGabriel = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  if (motherSource === "ThursdayDayFirstHourMain") {
+    return true;
+  }
+  if (currentSeason.key === "JONAH_FAST" || currentSeason.key === "HOLY_50") {
     return false;
   }
   if (currentSeason.key === "GREAT_LENT") {
@@ -734,6 +766,7 @@ const VisibleRules = {
   showLitanyOfOblations: showLitanyOfOblations,
   isLentWeekdayOrJonah: isLentWeekdayOrJonah,
   isNOTLentWeekdayOrJonah: isNOTLentWeekdayOrJonah,
+  showArchangelMichaelAndGabriel: showArchangelMichaelAndGabriel,
   isWatos: isWatos,
   isAdam: isAdam,
   showVersesOfCymbalsFestiveConclusion: showVersesOfCymbalsFestiveConclusion,
@@ -755,5 +788,7 @@ const VisibleRules = {
   VOCSaint: VOCSaint,
   DOXSaint: DOXSaint,
   isApostlesFeast: isApostlesFeast,
+  isNotSaturday: isNotSaturday,
+  IsLiturgy: IsLiturgy,
 };
 export default VisibleRules;

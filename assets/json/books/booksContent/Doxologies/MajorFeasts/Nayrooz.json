@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "ذكصولوجية عيد النيروز",
   "EnglishTitle": "Nayrooz Feast Doxology ",
-  "CopticTitle": "|wc `e`Poc? =en ou\\wc `mberi",
+  "CopticTitle": "|wc `e`Psoic =en ou\\wc `mberi",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,10 +10,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "سبحوا الرب تسبيحاً جديداً، أيها الشعوب محبو المسيح إلهنا، لأنه قد تعهدنا بخلاصه، كصالح ومحب البشر.",
-      "Coptic": "|wc `e`Poc? =en ou\\wc `mberi> `w nilaoc `mmai Pxc? Pennou;> je afjempen]ini =en pefoujai> \\wc `Agaqoc ouo\\ `mMairwmi.",
+      "Coptic": "|wc `e`Psoic =en ou\\wc `mberi> `w nilaoc `mmai Pxc? Pennou;> je afjempen]ini =en pefoujai> \\wc `Agaqoc ouo\\ `mMairwmi.",
       "English": "Sing to the Lord a new song, O people who love Christ our God, for He visited us with His salvation, as the Good One and Lover of Mankind.",
       "Arabiccoptic": "هوس ابتشويس خن اوهوس امفيرى، أو نى لاؤس امماى بخرستوس بنوتى، جيه أف جيم بنشينى خن بك أو جاى، هوس أغاثوس أووه امماى رومى.",
-      "Englishcoptic": "Hos epchois khen oo-hos emveri: o ni-laos emmai Pikhristos Pennooti: je afjem-penshini khen pef-oogai: hos agha-thos owoh emmairomi."
+      "Englishcoptic": "Hos Epchois khen oo-hos emveri: o ni-laos emmai Pikhristos Pennooti: je afjem-penshini khen pef-oogai: hos agha-thos owoh emmairomi."
     },
     {
       "Type": "Base",
@@ -32,7 +32,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أعطنا يا رب سلامك، ونجنا من أيدي أعدائنا، وأذل مشورتهم، وأشف أمراضنا.",
-      "Coptic": "Moi nan `Poc? `ntek\\irhnh> na\\men =en nenjij `nte nenjaji> maqebio `mpoucosni> ouo\\ matalso `nnen]wni.",
+      "Coptic": "Moi nan `Psoic `ntek\\irhnh> na\\men =en nenjij `nte nenjaji> maqebio `mpoucosni> ouo\\ matalso `nnen]wni.",
       "English": "Grant us O Lord Your peace, and save us from the hands of our enemies, humiliate their counsel, and heal our sicknesses.",
       "Arabiccoptic": "موى نان ابشويس انتيك هيرينى، ناه مِن خين ننجيج انتيه نينجاجى، ما ثيه فييو امبوسوتشنى، أووه ماطا ليتشون نينشونى.",
       "Englishcoptic": "Moi nan Epchois entek hi-reenee : nahmen khen nen-jig ente nen-gaji: mathevio empoo-sochni: owoh mata-lecho ennen-shoni."
@@ -43,7 +43,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "\b بارك يا رب إكليل السنة بصلاحك، الأنهار والينابيع، والزروع والأثمار.",
-      "Coptic": "`Cmou `epixlom `nte ;rompi> \\iten tekmet`xrhctoc `Poc?> niiarwou nem nimoumi> nem nici; nem nikarpoc.",
+      "Coptic": "`Cmou `epixlom `nte ;rompi> \\iten tekmet`xrhctoc `Psoic> niiarwou nem nimoumi> nem nici; nem nikarpoc.",
       "English": "Bless the crown of the year, with Your goodness O Lord, the rivers and the springs, the plants and the fruits.",
       "Arabiccoptic": "أسمو ابى أكلوم انتيه تى رومبى، هيتن تك مت اخرستوس ابشويس، نى ياروؤو نم نى مومى، نم نى سيتى نم نى كاربوس.",
       "Englishcoptic": "Esmoo epiklom ente ti-rompi: hiten tek-met-ekhreestos Epchois: ni-yaro-oo nem ni-moomi: nem ni-siti nem nikarpos."
@@ -68,7 +68,7 @@
       "Coptic": "Nhet\\ej\\wj na\\mou `ebol> nh`etau]e `e`p]emmo matacqwou> nem nhetcwn\\ bolou `ebol> nh`etauenkot ma`mton nwou.",
       "English": "The afflicted save them, the travelers return them, the bound loosen them, and those who have slept repose them.",
       "Arabiccoptic": "نى ات هوج هيج ناهمو ايه فول، نى اطافشيه ايه ابشمو ماطاس ثو أوو، نيم نى ات سونوه فولو ايه فول، نى اطاف انكوت ما امطون نو أوو.",
-      "Englishcoptic": "Nee-etheghog nahmoo evol: neeetavshe eepshemmo matasthooo: nem neeetsonh voloo evol: neeetavenkot maemton nooo."
+      "Englishcoptic": "Nee-etheghog nahmoo evol: neeetavshe eepshemmo matasthoo: nem neeetsonh voloo evol: neeetavenkot maemton noo."
     },
     {
       "Type": "Base",

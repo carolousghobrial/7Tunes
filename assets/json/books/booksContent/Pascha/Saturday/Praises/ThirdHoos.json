@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مبارك أنت أيها الرب إله أبائنا ومتزايد بركة ومتزايد علوا إلى الأبد.",
-      "Coptic": "K`cmarwout P_ V; ``nte nenio; > `ker\\ou`o `cmarwout `ker\\ou`o sici ]a ni`ene\\.",
+      "Coptic": "K`cmarwout P_ Vnou; ``nte nenio; > `ker\\ou`o `cmarwout `ker\\ou`o sici ]a ni`ene\\.",
       "English": "Blessed are You, O Lord, God of our fathers and exceedingly to be blessed, and exalted above all forever.",
       "Arabiccoptic": "إكزماروؤت إبشويس إفنوتى إنتى نين يوتى. إكئيرهوؤ إسماروؤت إكئيرهوؤ تشيسى شانى إينيه.",
       "Englishcoptic": "Ek-esmaro-ot Epshois Efnuoti ente nenyoti, ek-erho-ou esmaro-oot, ek-erho-ou chisi sha ni-eneh."
@@ -20,7 +20,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "مبارك إسم مجدك القدوس ومتزايد بركة ومتزايد علوا إلى الأبد .",
-      "Coptic": "`F`cmarwout `nje piran e/q/u/ ``nte pek`wou > `fer\\ou`o `cmarwout `fer\\ou`o sici ]a ni`ene\\.",
+      "Coptic": "`F`cmarwout `nje piran eqouab ``nte pek`wou > `fer\\ou`o `cmarwout `fer\\ou`o sici ]a ni`ene\\.",
       "English": "Blessed is the holy name of Your glory and exceedingly to be blessed and exalted above all forever.",
       "Arabiccoptic": "إفزماروؤت إنجى بيران إثؤواب إنتى بيك أوأو . إفئيرهوؤ إسماروؤت إفئيرهوؤ تشيسى شا نى إينيه.",
       "Englishcoptic": "Ef-esmaro-oot enje piran ethowab ente pek-ow-ou, ek-erho-ou esmaro-oot, ek-erho-ou chisi sha ni-eneh."
@@ -31,7 +31,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مبارك أنت فى هيكل مجدك المقدس ومتزايد بركة ومتزايد علوا إلى الأبد .",
-      "Coptic": "` K`cmarwout =en pi`ervhi ``nte pek`wou e/q/u/ > `ker\\ou`o `cmarwout `ker\\ou`o sici ]a ni`ene\\.",
+      "Coptic": "` K`cmarwout =en pi`ervhi ``nte pek`wou eqouab > `ker\\ou`o `cmarwout `ker\\ou`o sici ]a ni`ene\\.",
       "English": "Blessed are You in the holy temple of Your glory: and exceedingly to be blessed and exalted above all forever.",
       "Arabiccoptic": "إكزماروؤت خين بى إرفى إنتى بيك أوأو إثؤواب. إكئيرهوؤ إسماروؤت إكئيرهوؤ تشيسى شا نى إينيه.",
       "Englishcoptic": "Ek-esmao-oot khen pi-erfei ente pek-o-ou ethowab, ek-erho-ou esmaro-oot, ek-erho-ou chisi shani eneh."
@@ -526,7 +526,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "باركوا الرب أيها القديسون والمتواضعو القلوب سبحوه وزيدوه علوا إلى الأبد.",
-      "Coptic": "`Cmou `eP_ nhe/q/u/ nem niet qebi`hout =en pou\\ht > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
+      "Coptic": "`Cmou `eP_ nheqouab nem niet qebi`hout =en pou\\ht > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
       "English": "Bless the Lord, O you holy and humble of heart: praise Him and exalt Him above all forever.",
       "Arabiccoptic": " إسمو إإبشويس ني إثؤاب نيم نى إيت ثيفيوت خين بوهيت هوس إيروف أرى هوأو تشاسف شانى إينيه.",
       "Englishcoptic": "Esmo Epchois, ni-ethowab nem ni-et-theveyot khen pouheet, hos erof ari-ho-oo chasf sha ni-eneh."
@@ -559,7 +559,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "باركوا الرب ياعابدى الرب إله آبائنا سبحوه وزيدوه علوا إلى الأبد.",
-      "Coptic": "`Cmou `eP_ nh`etercebecqe `mP_ V; ``nte nenio; > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
+      "Coptic": "`Cmou `eP_ nh`etercebecqe `mP_ Vnou; ``nte nenio; > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
       "English": "Bless the Lord O you who worship the Lord the God of our fathers, praise Him and exalt Him above all forever.",
       "Arabiccoptic": "إسمو إإبشويس ني إتئير سيفيستى إم إبشويس إفنوتى إنتى نين يوتى. هوس إيروف أرى هوأو تشاسف شانى إينيه.",
       "Englishcoptic": "Esmo Epshois, ni-etir-se-veste Emipshois ente nenyoti, hos erof ari-ho-oo chasf sha ni-eneh."

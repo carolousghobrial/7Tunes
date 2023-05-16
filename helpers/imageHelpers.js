@@ -16,6 +16,8 @@ const images = {
   paschathursday: require("../assets/images/covenantThursday.jpg"),
   paschafriday: require("../assets/images/crucifixion.jpg"),
   david: require("../assets/images/david.jpg"),
+  offertory: require("../assets/images/Offering.png"),
+  litugyOfWord: require("../assets/images/liturgyOfWord.jpg"),
   faecebook: require("../assets/images/facebook.png"),
   paschamonday: require("../assets/images/figTree.jpg"),
   generalFuneral: require("../assets/images/generalFuneral.jpg"),

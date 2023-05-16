@@ -87,7 +87,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "رُدَّنا يا الله. إلى خلاصك. وعاملنا. كصلاحك.",
-      "Coptic": "Matacqon V; > `e=oun `epekoujai > `ariou`i neman > kata tekmet `agaqoc.",
+      "Coptic": "Matacqon Vnou; > `e=oun `epekoujai > `ariou`i neman > kata tekmet `agaqoc.",
       "English": "Restore us O God: to Your salvation: and deal with us: according to Your goodness.",
       "Arabiccoptic": "ماطاستون إفنوتى.   إيخون إبيك أوجاى. أرى أوى نيمان. كاطا تيك ميت  أغاثوس.",
       "Englishcoptic": "Mataston evnoti, ekhon epek-ogai, ari-owi neman, kata tek-met agha-thos."
@@ -109,10 +109,10 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "تراءف علينا كلنا. أيها الرب الإله. مخلصنا وإرحمنا. كعظيم رحمتك.",
-      "Coptic": "}en\\ht =aron thren > P_ V; Pen cwthr > ouo\\ nai nan > kata pekni]; `nnai.",
+      "Coptic": "}en\\ht =aron thren > P_ Vnou; Pen cwthr > ouo\\ nai nan > kata pekni]; `nnai.",
       "English": "Have compassion upon us all : O Lord God our Savior : and have mercy upon us : according to Your great mercy.",
       "Arabiccoptic": "شينهيت خارون تيرين. إبشويس إفنوتى بين سوتير. أووه ناى نان. كاطا بيك نيشتى إن ناى.",
-      "Englishcoptic": "Shen-hit kharon teren, epchois efnoti pen-sotir, owoh nai nan, kata pek-nishty enai."
+      "Englishcoptic": "Shen-hit kharon teren, Epchois efnoti pen-sotir, owoh nai nan, kata pek-nishty enai."
     },
     {
       "Type": "Base",

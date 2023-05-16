@@ -29,7 +29,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "آثامى علت على رأسى :وثقلت على: يا الله اسمع تنهدى: واطرحها عنى .",
-      "Coptic": "Na`anomia ausici `eta`ave> ouo\\ au`\\ro] `e`\\rhi `ejwi> `V; cwtem `epafia\\om> \\i`ou`i `mmw`ou `ebol\\aroi.",
+      "Coptic": "Na`anomia ausici `eta`ave> ouo\\ au`\\ro] `e`\\rhi `ejwi> `Vnou; cwtem `epafia\\om> \\i`ou`i `mmw`ou `ebol\\aroi.",
       "English": "My iniquities have covered my head, and have overburdened me, O God hear my sighs, and cast them away from me",
       "Arabiccoptic": "نا آنوميا آفتشيسى إى طا آفى: أووه آف إهروش إى إهرى إيجون: افنوتى سوتيم إيب فى آهوم هيؤيى إمموؤ إيفول هاروى .",
       "Englishcoptic": "Na-anomia avchisi eta-ave : owoh av-ehrosh e-ehri egoi : efnoti sotem epa-feyahom: hi-owi emo-oo evol haroi."
@@ -194,10 +194,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لأجل هذا أطلب إليك :أيها الرب الأله مخلصى :لا تحاكمنى :أنا الضعيف الخاطئ .",
-      "Coptic": "Eqbe vai ;twb\\ `mmok> `Poc?  `V; paCwthr> `mper`iri `n`ou\\ap  nemhi> `anok =a pijwb `nref`ernobi.",
+      "Coptic": "Eqbe vai ;twb\\ `mmok> `Psoic  `Vnou; paCwthr> `mper`iri `n`ou\\ap  nemhi> `anok =a pijwb `nref`ernobi.",
       "English": "Wherefore I entreat You, O Lord God my Savior, do not judge me, I the weak and sinful.",
       "Arabiccoptic": "إثفى فاى تى طوفه إمموك: ابشويس افنوتى باسوتير: امبير إيرى إنؤهاب نى مى: آنوك خابى جوب إنريف إيرنوفى .",
-      "Englishcoptic": "Ethve fai ti-tobh emok : epchois evnoti pasotir: emper-eri en-ohap nemi : anok kha pigob enref ernovi."
+      "Englishcoptic": "Ethve fai ti-tobh emok : Epchois evnoti pasotir: emper-eri en-ohap nemi : anok kha pigob enref ernovi."
     },
     {
       "Type": "Base",

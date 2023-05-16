@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "هلليلويا هذا هو اليومُ",
+  "EnglishTitle": "Alleluia This is the Day",
+  "CopticTitle": "Allhlouia Vai pe pi`e\\oou ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا. هذا هو اليومُ الذي صنعَه الربُّ. فلنفرح ونبتهج فيه. ياربُّ خلِّصنا. ياربُّ سهِّل سُبُلَنا.",
+      "Coptic": "Allhlouia Vai pe pi`e\\oou `eta `Psoic qamiof> marenqelhl `nten`ounof `mmon `n=htf> `w `Psoic ek`ena\\men> `w `Psoic ek`ecouten nenmwit> ",
+      "English": "Alleluia. This is the day which the Lord has made; let us rejoice and be glad in it. O Lord, save us. O Lord, straighten our ways.",
+      "Arabiccoptic": "الليلويا فاى بيه بى ايه هوؤ ايطا ابشويس ثاميوف. مارين ثيليل انتين اونوف اممون انخيتف. او ابشويس إك إيه ناهمين أو ابشويس إك إيه سوتين نين مويت: ",
+      "Englishcoptic": "Alleelooia. Fai pe pi-eho-oo -eta Epchois thamiof: maren theleel enten-oonof emmon enkheetf: oo Epchois ek-enah-men: oo Epchois ek-esoo-ten nen-mooit:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مباركُ الآتي بإسمِ الربِّ. هلليلويا.",
+      "Coptic": "`F`cmarwout `nje vh`eqnhou =en `vran `m`Psoic> Allhlouia.",
+      "English": "Blessed is He who comes in the name of the Lord. Alleluia.",
+      "Arabiccoptic": "افئزماروؤت انجيه في اثنيو خين افران ام ابشويس الليلويا",
+      "Englishcoptic": "Ef-esmaro-ot enje vee-ethneeoo khen efran em-Epchois: Alleelooia"
+    }
+  ]
+}

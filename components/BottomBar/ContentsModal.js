@@ -39,7 +39,6 @@ function ContentsModal({ route, navigation }) {
   const flatListRef = useRef();
 
   useEffect(() => {
-    console.log(currentData);
     navigation.setOptions({
       headerShown: true,
       header: () => <MenuMainTitle item={MainTitle}></MenuMainTitle>,

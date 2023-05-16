@@ -1,0 +1,98 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "تقديم الحمل",
+            "Coptic": "Ptalo  ~Mpi`cqoinoufi `nte |an`atoui",
+            "English": "The Offering of the Lamb"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersIntroToCreed",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersCreed",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersHolyHoly",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryProcessionOfLamb",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryAlleluiaFaiPePi",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryAlleluiaJeEfmevi",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryAlleluiaEiEee",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryKhenEfran",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryIsPatir",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryIsPatirGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseThanksgivingPrayer",
+            "Rule": 0,
+            "Visible": true,
+            "mother": "liturgy"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryNiSavevTiro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryAbsolutionOfTheServants",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

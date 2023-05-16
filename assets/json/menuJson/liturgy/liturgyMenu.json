@@ -1,0 +1,35 @@
+{
+    "books": [
+        {
+            "EnglishTitle": "The Offering of the Lamb",
+            "ArabicTitle": "عشية",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "offertory",
+            "ImageURL": "offertory",
+            "Enabled": true
+        },
+        {
+            "EnglishTitle": "Liturgy of the Word",
+            "ArabicTitle": " باكر",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "matins",
+            "ImageURL": "litugyOfWord",
+            "Enabled": true
+        },
+        {
+            "EnglishTitle": "Holy Liturgy",
+            "ArabicTitle": "القداس الألهي",
+            "PurchaseKeyDroid": "holypaschaid",
+            "PurchaseKeyIos": "holypaschasku",
+            "hasSubBooks": true,
+            "BookPath": 3,
+            "ImageURL": "communion",
+            "Enabled": false,
+            "Released": false
+        }
+    ]
+}

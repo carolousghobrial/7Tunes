@@ -84,7 +84,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
     let content = {};
     switch (item.part.Type) {
       case "Base":
-        content = <BaseView item={item.part}></BaseView>;
+        content = <BaseView item={item.part} mykey={item.key}></BaseView>;
 
         break;
       case "Melody":

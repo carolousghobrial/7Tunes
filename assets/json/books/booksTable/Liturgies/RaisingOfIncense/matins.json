@@ -19,13 +19,15 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseThanksgivingPrayer",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "mother": "matins"
         },
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseVersesOfCymbals",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "HasNeutral": true
         },
         {
             "Type": "Main",
@@ -37,7 +39,7 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseLitanySick",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isNotSaturday"
         },
         {
             "Type": "Main",

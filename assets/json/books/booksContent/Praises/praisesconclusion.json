@@ -21,7 +21,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا الله إرحمنا.",
-      "Coptic": "V; nai nan.",
+      "Coptic": "Vnou; nai nan.",
       "English": "O God have mercy on us",
       "Arabiccoptic": "إفنوتى ناى نان.",
       "Englishcoptic": "Efnoti nai nan."
@@ -32,7 +32,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يا الله إسمعنا.",
-      "Coptic": "V; cwtem `eron.",
+      "Coptic": "Vnou; cwtem `eron.",
       "English": "O God hear us.",
       "Arabiccoptic": "إفنوتى سوتيم إيرون.",
       "Englishcoptic": "Efnoti sotem eron."
@@ -43,7 +43,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا الله أنظر إلينا.",
-      "Coptic": "V; comc `eron.",
+      "Coptic": "Vnou; comc `eron.",
       "English": "O God look at us.",
       "Arabiccoptic": "إفنوتى سومس إيرون.",
       "Englishcoptic": "Efnoti soms eron."
@@ -54,7 +54,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يا الله إطلع علينا",
-      "Coptic": "V; jou]t `eron.",
+      "Coptic": "Vnou; jou]t `eron.",
       "English": "O God behold us.",
       "Arabiccoptic": "إفنوتى جوشت إيرون.",
       "Englishcoptic": "Efnoti goosht eron."
@@ -65,7 +65,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ياالله تراءف علينا",
-      "Coptic": "V; ]en\\ht =aron.",
+      "Coptic": "Vnou; ]en\\ht =aron.",
       "English": "O God have compassion on us.",
       "Arabiccoptic": "إفنوتى شينهيت خارون.",
       "Englishcoptic": "Efnoti shenheet kharon."

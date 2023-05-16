@@ -21,7 +21,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ذكرت إسمك فتعزيت ياملك الدهور وإله الألهه.",
-      "Coptic": "Aier`vmeu`i `mpekran> ouo\\ aijemnoum; > `pouro `nni`ewn > V; `nte ninou;.",
+      "Coptic": "Aier`vmeu`i `mpekran> ouo\\ aijemnoum; > `pouro `nni`ewn > Vnou; `nte ninou;.",
       "English": "I remembered Your name: and I was comforted: O King of the ages: and God of all gods.",
       "Arabiccoptic": "أى إرفميقئى إمبيك ران أووه أى جيم نومتى. إبؤرو إن نى إيؤن . إفنوتى إنتى نى نوتى.",
       "Englishcoptic": "Ai-er-meve-e em-pekran, owoh ai-jem-nomti, ep-ooro enni-e-own, Efnouti ente ni noti."
@@ -43,7 +43,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وتجسد من الروح القدس ومن مريم العروس الطاهرة.",
-      "Coptic": "Afsicar[ `ebol > =en Pip/n/a/ e/q/u/ > nem `ebol =en Mari`a > ;]elet e/q/u/.",
+      "Coptic": "Afsicar[ `ebol > =en Pip/n/a/ eqouab > nem `ebol =en Mari`a > ;]elet eqouab.",
       "English": "He was incarnate: of the Holy Spirit: and of Mary: the pure bride.",
       "Arabiccoptic": "أفتشى ساركس إيفول. خين بى إبنقما إثؤاب . نيم إيفول خين ماريا. تى شيليت إثؤاب.",
       "Englishcoptic": "Afit-she-sarks evol, khen pi-epnevma ethowab, nem evol khen Maria, ti-shelet ethowab."
@@ -109,7 +109,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "السلام لك يا مريم نعمة إبراهيم السلام لك يا مريم الإكليل غير المضمحل السلام لك يا مريم خلاص إسحق القديس السلام. أم القدوس.",
-      "Coptic": "Xere ne Mari`a > `p`\\mot `nAbraam > Xere ne Mari`a > pi`xlom `naqlwm > Xere ne Mari`a > `pcw; `nIcaak peqouab > Xere ne Mari`a > `qmau `mvhe/q/u/ .",
+      "Coptic": "Xere ne Mari`a > `p`\\mot `nAbraam > Xere ne Mari`a > pi`xlom `naqlwm > Xere ne Mari`a > `pcw; `nIcaak peqouab > Xere ne Mari`a > `qmau `mvheqouab .",
       "English": "Hail to you Mary: the grace of Abraham: Hail to you Mary: the unfading crown: Hail to you Mary: the redemption of Saint Isaac: Hail to you Mary: The Mother of the Holy.",
       "Arabiccoptic": "شيرى نى ماريا إب إهموت إن ابرآم. شيرى نى ماريا بى إكلوم إن أتلوم. شيرى نى ماريا إبسوتى إن إيساك بيثؤواب.شيرى نى ماريا إثماف إمفى إثؤواب.",
       "Englishcoptic": "Shere ne Maria, ep-ehmoot en-Abraam, Shere ne Maria, pi-eklom en-atlowm, Shere ne Maria, epsoti en-Esaak pethowab, Shere ne Maria, ethmav emfi ethowab."
@@ -186,7 +186,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": ".لسلام لمريم/  التى شهد لها / جميع الأنبياء/ وقالوا .   هوذا الله الكلمة/ الذى تجسد منك/ بوحدانية /لاينطق بمثلها.",
-      "Coptic": "Xere ne Mari`a > `etauermeqre nac > `nje ni`provhthc throu > ouo\\ aujw `mmoc . |hppe V; pilogoc > `etafsicar[ `n=h; > =en oumetouai > `natcaji `mpecrh; .",
+      "Coptic": "Xere ne Mari`a > `etauermeqre nac > `nje ni`provhthc throu > ouo\\ aujw `mmoc . |hppe Vnou; pilogoc > `etafsicar[ `n=h; > =en oumetouai > `natcaji `mpecrh; .",
       "English": "Hail to you Mary: who was witnessed by all the prophets: and they said. Behold God the Word: was incarnate of you: in an indescribable: unity.",
       "Arabiccoptic": "شيرى نى ماريا. إيطاف إيرميثرى ناس. إنجى نى إبروفييس تيرو. أووه أفجو إمموس  .  هيبى إفنوتى بيلوغوس. إيطافتشى ساركس إنخيتى. خين أوميت أواى. إن أتساجى إمبيسريتى.",
       "Englishcoptic": "Shere ne Maria, e-tav er-methre nas, enje ni-eprofitis tiro, owoh avgow emmos. Hippe Efnouti pi-Loghos, etafit-she sarex enkhiti, khen ou-met-oway, en-atsaji empes-riti."

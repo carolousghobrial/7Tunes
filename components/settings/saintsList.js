@@ -78,6 +78,9 @@ function SaintsList() {
       titleKey: "ST_JOHN_THE_SHORT",
     },
     {
+      titleKey: "ST_REWIS",
+    },
+    {
       titleKey: "ST_KARAS",
     },
     {
@@ -124,7 +127,6 @@ function SaintsList() {
         item.titleKey.toLowerCase().includes(text.toLowerCase()) ||
         item.titleKey.includes(text)
     );
-    console.log(filteredData);
     setcurrentData(filteredData);
   }
   function renderItems({ item }) {

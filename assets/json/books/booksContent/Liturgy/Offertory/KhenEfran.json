@@ -1,0 +1,150 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "الرشومات",
+  "EnglishTitle": "The Signings",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بسم الآبِ والابنِ والروحِ القدسِ إله واحد. ",
+      "Coptic": "+en `vran `m`Viwt nem `p}hri nem pi`Pneuma eqouab ounou;`nouwt. ",
+      "English": "In the name of the Father and the Son and the Holy Spirit, one God.",
+      "Arabiccoptic": "خين إفران إم إفيوت نيم إبشيرى نيم بى إبنيفما إثؤواب أونوتى إن أوأوت",
+      "Englishcoptic": "Khen efran emeVioot nem Epsheeri nem pi-Epnrvma ethooav oonootienoot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مباركٌ اللهُ الآبُ ضابطُ الكلِّ. آمين.",
+      "Coptic": "`F`cmarwout `nje Vnou; `Viwt piPantokratwr. Amhn.",
+      "English": "Blessed be God the Father, the Pantocrator. Amen.",
+      "Arabiccoptic": " إف إزماروؤوت إنجى إفنوتى إفيوت بي بانطوكرارطور آمين.",
+      "Englishcoptic": "Ef-esmaro-ot enje Vti eVioot piPantokratoor. Ameen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "Coptic": "Amhn.",
+      "English": "Amen.",
+      "Arabiccoptic": "آمين",
+      "Englishcoptic": "Ameen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مباركٌ إبنُه الوحيد يسوع المسيح ربُّنا. آمين.",
+      "Coptic": "`F`cmarwout `nje Pefmonogenhc `n}hri Ihc? Pxc? penoc?. `Amhn\t",
+      "English": "Blessed be His only-begotten Son, Jesus Christ our Lord. Amen.",
+      "Arabiccoptic": "إف إزماروؤت إنجى بيف مونوجينيس إنشيرى إيسوس بى إخرستوس بين شويس آمين.",
+      "Englishcoptic": "Ef-esmaro-ot enje Pefmonogenees enSheeri Iees? Pkhs? penos?. -Ameen"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "Coptic": "`Amhn.",
+      "English": "Amen.",
+      "Arabiccoptic": "آمين",
+      "Englishcoptic": "-Ameen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مباركٌ الروحُ القدس المعزِّي. آمين.",
+      "Coptic": "`F`cmarwout `nje pi`Pneuma eqouab `mParaklhton> `amhn.",
+      "English": "Blessed be the Holy Spirit, the Paraclete. Amen.",
+      "Arabiccoptic": "إف إزماروؤت إنجى بي إبنيفما إثؤواب إمباراكليتون. آمين.",
+      "Englishcoptic": "Ef-esmaro-ot enje pi-Epnrvma khekhthkhee emParakleeton: -ameen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "Coptic": "`Amhn.",
+      "English": "Amen.",
+      "Arabiccoptic": "آمين",
+      "Englishcoptic": "-Ameen."
+    }
+  ]
+}

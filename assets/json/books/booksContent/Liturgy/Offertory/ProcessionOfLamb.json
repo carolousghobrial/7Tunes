@@ -1,0 +1,73 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "دورة الحمل",
+  "EnglishTitle": "Procession of the Lamb",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مجداً وإكراماً، إكراماً ومجداً، للثالوثِ القدوسِ، الآبِ والابنِ والروحِ القدسِ.",
+      "Coptic": "Ou`wou nem outai`o> outai`o nem ou`wou> `n;pan`agi`a `triac Viwt nem `p}hri nem pi`Pneuma `eqouab.",
+      "English": "Glory and honor, honor and glory to the All Holy Trinity, the Father and the Son and the Holy Spirit.",
+      "Arabiccoptic": "أوأو أو نيم أو طايو أوطايو نيم أوأو أو إنتى بان آجيا إترياس إفيوت نيم إبشيرى نيم بى إبنيفما إثؤواب ",
+      "Englishcoptic": "Oo-o-oo nem oo-taio: ootai-o nem Oo-o-oo: entipan-agi-a etrias Eviot nem Epsheeri nem pi-Epnrvma ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سلاماً وبنياناً لكنيسةِ الله الواحدةِ الوحيدةِ المقدسةِ الجامعةِ الرسوليةِ. آمين.",
+      "Coptic": "Ou\\irhnh nem oukw; `ejen ;ou`i `mmauatc `eqouab `nkaqolikh `n`apoctolikh `nek`klhcia `nte Vnou;> `amhn.",
+      "English": "Peace and edification to the one, only, holy, catholic, and apostolic Church of God. Amen.",
+      "Arabiccoptic": "أو هيرينى نيم او كوت إيجين تى اوى إممافاتس إثؤواب إن كاثوليكى إن أبوسطوليكى إن إككليسيا إنتى إفنوتى آمين.",
+      "Englishcoptic": "oo-hireeny nem ookooti ejen tioo-ee emma-vats ethowab en-katholikee en-apostolikee en-ekek-leesia ente Evnoti Ameen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اذكر ياربُّ الذين قدَّموا لكَ هذه القرابين، والذين قُدِّمَتْ عنهم، والذين قُدِّمَتْ بواسطتِهم، أعطِهم كلَّهم الأجرَ السمائي.",
+      "Coptic": "Ari`vmeu`i `Psoic `nnh`etau`ini nak `e=oun `nnai dwron> nem nh`etau`enou `ejwou>nem nh`etau`enou `ebol\\itotou> moi nwou throu `mpibexe pi`ebol=en nivhou`i.",
+      "English": "Remember, O Lord, those who have brought to You these gifts, and those on whose behalf they have been brought, and those by whom they have been brought. Give them all the heavenly reward.",
+      "Arabiccoptic": "آرى إفميفئى إبشويس إن نى إيطاف إينى ناك إيخون إن ناى ذورون. نيم نى إيطاف إينو إيجوؤو نيم نى إيطاف إينو إيفول هيطوطو. موى نؤو تيرو إمبى فيكى بى إيفول خين نى فيئوى.",
+      "Englishcoptic": "Ari-evmev-ee Epchois ennee-etav-eeni nak ekhoon ennai zooron: nem nee-etav-enoo ego-oo:nem nee-etav-enoo -evol hito-too: moi no-oo teeroo empive-kee pi-evol khen ni-fi-owi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلُّوا من أجل هذه القرابين المقدسةِ الكريمةِ، وضحايانا والذين قَدَّموها. ياربُّ ارحم.",
+      "Coptic": "Proceu]acqe `uper twn `agiwn timiwn dwron toutwn ke quciwn `hmwn ke procverontwn> Kurie `ele`hcon.",
+      "English": "Pray for these holy precious gifts, our sacrifices, and those who bring them. Lord have mercy.",
+      "Arabiccoptic": "إبروس إفئكساستى إيبيرتون آجيون تيميون ذورون توطون كى ثيسيون إيمون كى إبروس فيرون طون. كيريى إليسون.",
+      "Englishcoptic": "Pros-evexaste eeper toon -agioon timioon zooron too-toon ke thee-see-oon eemoon ke epros-veron-toon: Keerie-ele-eison."
+    }
+  ]
+}

@@ -29,7 +29,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "إشفعا فينا. يارئيسى الملائكة الطاهرين . ميخائيل وغبريال . ليغفر لنا خطايانا.",
-      "Coptic": "Ari`precbeuin `e`\\rhi `ejwn > `w niarxh aggeloc e/q/u/ > Mixahl nem Gabrihl > `ntefxa nen nobi nan `ebol .",
+      "Coptic": "Ari`precbeuin `e`\\rhi `ejwn > `w niarxh aggeloc eqouab > Mixahl nem Gabrihl > `ntefxa nen nobi nan `ebol .",
       "English": "Intercede on our behalf, O holy archangels, Michael and Gabriel, that He may forgive us our sins.",
       "Arabiccoptic": "أريبرزفيفين إإهرى إيجون . أونى أرشى أنجيلوس إثؤواب . ميخائيل نيم غابرييل . إنتيف كانين نوفى نان إيفول .",
       "Englishcoptic": "Arep-resvevin e-ehri egon, o ni-arshi-angelos ethowab, Mikhail nem Ghabriel, entef ka nen-novi nan evol."
@@ -40,7 +40,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "إشفعا فينا.يارئيسى الملائكة الطاهرين روفائيل وسوريال ليغفر لنا خطايانا",
-      "Coptic": "Ari`precbeuin `e`\\rhi `ejwn >`w niarxh aggeloc e/q/u/ > Ravahl nem Courihl > `ntefxa nen nobi nan `ebol .",
+      "Coptic": "Ari`precbeuin `e`\\rhi `ejwn >`w niarxh aggeloc eqouab > Ravahl nem Courihl > `ntefxa nen nobi nan `ebol .",
       "English": "Intercede on our behalf. O holy archangels, Raphael and Suriel, that He may forgive us our sins.",
       "Arabiccoptic": "أريبرزفيفين إإهرى إيجون. أونى أرشى أنجيلوس إثؤواب . رافائيل نيم سورييل . انتيف كانين نوفى نان ايفول.",
       "Englishcoptic": "Arep-resvevin e-ehri egon, o ni-arshi-angelos ethowab, Rafaeil nem Souriel, entef ka nen-novi nan evol."
@@ -51,7 +51,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "إشفعوا فينا. يا رؤساء الملائكة الأطهار سداكيال وسراتيال وأنانيال ليغفر لنا خطايانا.",
-      "Coptic": "Ari`precbeuin `e`\\rhi `ejwn >`w niarxh aggeloc e/q/u/ > Cedakihl Caraqihl nem Ananihl > `ntefxa nen nobi nan `ebol .",
+      "Coptic": "Ari`precbeuin `e`\\rhi `ejwn >`w niarxh aggeloc eqouab > Cedakihl Caraqihl nem Ananihl > `ntefxa nen nobi nan `ebol .",
       "English": "Intercede on our behalf. O holy archangels. Sedakiel. Sarathiel and Ananiel, that He may forgive us our sins.",
       "Arabiccoptic": "أريبرزفيفين إإهرى إيجون. أونى أرشى أنجيلوس إثؤواب . سيداكييل سراتييل نيم أنانييل . إنتيف كانين نوفى نان إيفول.",
       "Englishcoptic": "Arep-resvevin e-ehri egon, o ni-arshi-angelos ethowab, Sedakeil Saratheil nem Ananeil, entef ka nen-novi nan evol."
@@ -461,7 +461,7 @@
       "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >Hchdwroc nem Panteleon > Covi`a nem Euvomi`a > `ntefxa nen nobi nan `ebol .",
       "English": "Pray to the Lord on our behalf. Isidore and Panteleon. Sophia and Euphemia, that He may forgive us our sins.",
       "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. إيسيذوروس نيم بانتيليؤن . صوفيا نيم إفوميا . انتيف كانين نوفى نان ايفول.",
-      "Englishcoptic": "Tovhem-epshois e-ehri egon, Isizoros nem Panteleon, Sophia nem Ephomia, entef ka nen-novi nan evol."
+      "Englishcoptic": "Tovhem-epshois e-ehri egon, Isizoros nem Panteleon, Sophia nem ep-homia, entef ka nen-novi nan evol."
     },
     {
       "Type": "Base",
@@ -535,7 +535,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أطلبوا من الرب عنا أيها الثلاثة مقارات القديسين وأولادهم لباس الصليب ليغفر لنا خطايانا .",
-      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >pi g/ e/q/u/ abba Makari > nem nou]hri `n`ctaurovoroc > `ntefxa nen nobi nan `ebol .",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >pi g/ eqouab abba Makari > nem nou]hri `n`ctaurovoroc > `ntefxa nen nobi nan `ebol .",
       "English": "Pray to the Lord on our behalf, O three saints Abba Macarii, and all their children the cross-bearers, that He may forgive us our sins.",
       "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بى شمت إثؤواب أفا ماكارى. نيم نوشيرى إن إسطافروفوروس. انتيف كانين نوفى نان ايفول.",
       "Englishcoptic": "Tovhem-epshois e-ehri egon, pishomt ethowab ava Makari, nem noushiri enes-tavroforos, entef ka nen-novi nan evol."
@@ -568,7 +568,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أطلبا من الرب عنا يا أبوينا القديسين الروميين مكسيموس ودوماديوس ليغفر لنا خطايانا.",
-      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > nenio; e/q/u/ `nrwmeoc > Ma[imoc nem Dometioc > `ntefxa nen nobi nan `ebol .",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > nenio; eqouab `nrwmeoc > Ma[imoc nem Dometioc > `ntefxa nen nobi nan `ebol .",
       "English": "Pray to the Lord on our behalf, our saintly Roman fathers, Maximus and Dometius, that He may forgive us our sins.",
       "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. نين يوتى إثؤواب إن روميؤس. مكسيموس نيم دوماتيوس. انتيف كانين نوفى نان ايفول.",
       "Englishcoptic": "Tovhem-epshois e-ehri egon, nenyoti ethowab en-romeos, Maximos nem Dometios, entef ka nen-novi nan evol."
@@ -590,7 +590,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أطلبا من الرب عنا أيها القوى القديس أنبا موسى ويحنس كاما ليغفر لنا خطايانا.",
-      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >pijwri e/q/u/ abba Mwch > nem Iwannhc pixamh > `ntefxa nen nobi nan `ebol .",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >pijwri eqouab abba Mwch > nem Iwannhc pixamh > `ntefxa nen nobi nan `ebol .",
       "English": "Pray to the Lord on our behalf, O strong saint Abba Moses, and John Kame, that He may forgive is our sins.",
       "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بيجورى إثؤواب أفا موسى. نيم يؤنس بى كامى. انتيف كانين نوفى نان ايفول.",
       "Englishcoptic": "Tovhem-epshois e-ehri egon, pigori ethowab Ava Mousi, nem Yoannis Pikami, entef ka nen-novi nan evol."
@@ -799,7 +799,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أطلبوا من الرب عنا يا قديسى هذا اليوم كل واحد بإسمه ليغفر لنا خطايانا .",
-      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >nhe/q/u/ `nte pai `e\\oou > piouai piouai kata pefran > `ntefxa nen nobi nan `ebol .",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >nheqouab `nte pai `e\\oou > piouai piouai kata pefran > `ntefxa nen nobi nan `ebol .",
       "English": "Pray to the Lord on our behalf. O saints of this day, each one by his name, that He may forgive us our sins.",
       "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. نى إثؤواب إنتى باى إيهوأو. بى أواى بى أواى كاطا بيفران. انتيف كانين نوفى نان ايفول.",
       "Englishcoptic": "Tovhem-epshois e-ehri egon, ni-ethowab ente pai eho-ou, pi-owai pi-owai kata pefran, entef ka nen-novi nan evol."
@@ -821,7 +821,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أطلب من الرب عنا. يا أبانا القديس البطريرك أنبا ... رئيس الكهنة ليغفر لنا خطايانا.",
-      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt e/q/u/ `mpatriarxhc > abba (…) piarxh `ereuc > `ntefxa nen nobi nan `ebol .",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab `mpatriarxhc > abba (…) piarxh `ereuc > `ntefxa nen nobi nan `ebol .",
       "English": "Pray to the Lord on our behalf, our holy father the patriarch. Pope Abba (…), the archpriest, that He may forgive us our sins.",
       "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إم باطريارشيس. أفا (...) بى أرشى إيرفس. انتيف كانين نوفى نان ايفول.",
       "Englishcoptic": "Tovhem-epshois e-ehri egon, nenyot ethowab em-patri-yarshees, Papa Ava …. pi-arshi-erefs, entef ka nen-novi nan evol."
@@ -832,7 +832,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أطلب من الرب عنا. يا أبانا القديس البار. أنبا ... الاسقف ليغفر لنا خطايانا.",
-      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt e/q/u/ ``ndikeoc > abba (…) pi `epickopoc (`mmhtropolhthc) > `ntefxa nen nobi nan `ebol .",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab ``ndikeoc > abba (…) pi `epickopoc (`mmhtropolhthc) > `ntefxa nen nobi nan `ebol .",
       "English": "Pray to the Lord on our behalf, our holy righteous father, Abba (...). the bishop (the metropolitan), that He may forgive us our sins.",
       "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إن ذيكيؤس . أفا (...) بى ابيسكوبوس. انتيف كانين نوفى نان ايفول.",
       "Englishcoptic": "Tovhem-epshois e-ehri egon, nenyot ethowab en-Zike - os, Ava ….. pi-Episkopos, entef ka nen-novi nan evol."

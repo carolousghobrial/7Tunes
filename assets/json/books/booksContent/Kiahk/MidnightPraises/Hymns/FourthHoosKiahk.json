@@ -164,7 +164,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "سبحاً لجميع قديسيه الليلويا بنى إسرائيل الشعب القريب إليه.",
-      "Coptic": "Ou`cmou `nte nhe/q/u/ throu `ntaf a/l/ > nen]hri `mpic/l/ pilaoc et=ent `erof.",
+      "Coptic": "Ou`cmou `nte nheqouab throu `ntaf a/l/ > nen]hri `mpic/l/ pilaoc et=ent `erof.",
       "English": "The praise of all his saints: Alleluia. The children of Israel a people near unto Him.",
       "Arabiccoptic": "أو إسمو إنتى نى إثؤواب تيرو إنطاف الليلويا نين شيرى إمبسرائيل بيلاؤس إتخينت إيروف.",
       "Englishcoptic": "Ou-esmo ente ni-ethowab tiro entaf, Alleluia. Nen-shiri empis-rael, pi-laos etkhent erof."
@@ -175,7 +175,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الليلويا الليلويا الليلويا إنشدوا للرب نشيدا جديداً الليلويا لأن تسبحته فى بيعة القديسين.",
-      "Coptic": "A/l/ a/l/ a/l/ Jw `mP_ =en oujw `mberi a/l/ > je `are pef`cmou =en `tek`klhci`a `nte nhe/q/u/.",
+      "Coptic": "A/l/ a/l/ a/l/ Jw `mP_ =en oujw `mberi a/l/ > je `are pef`cmou =en `tek`klhci`a `nte nheqouab.",
       "English": "Alleluia, Alleluia, Alleluia. Sing to the Lord a new song: Alleluia. And His praise in the congregation of the saints.",
       "Arabiccoptic": "الليلويا الليلويا الليلويا  جو إمبشويس خين أوجو إمفيرى الليلويا جى أرى بيف إسمو خين إت إكليسيا إنتى نى إثؤواب.",
       "Englishcoptic": "Alleluia, Alleluia, Alleluia. Go emip-shois khen ou-go emviri, Alleluia. Je a-ri pef-esmo khen ti-ekliseia ente ni-ethowab."
@@ -197,7 +197,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فليسبحوا إسمه القدوس بصف الليلويا بدف ومزمار فليرتلوا له.",
-      "Coptic": "Marou`cmou `epefran e/q/u/ =en ouxoroc a/l/ > =en oukemkem nem ouyalthrion maroueryalin `erof .",
+      "Coptic": "Marou`cmou `epefran eqouab =en ouxoroc a/l/ > =en oukemkem nem ouyalthrion maroueryalin `erof .",
       "English": "Let them praise His name in the chorus: Alleluia. Let them sing praises unto Him with timbral and harp.",
       "Arabiccoptic": "مارو إسمو إبيفران إثؤواب خين أوخوروس الليلويا خين أوكيمكيم نيم أوإبسالتيريون مارو إيربسالين إيروف.",
       "Englishcoptic": "Marou-esmo epefran ethowab khen o-khoros, Alleluia. Khen o-kem-kem nem opsal-tereion marou-erpsalin erof."
@@ -219,7 +219,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يفتخر القديسون بمجد الليلويا ويتهللون على مضاجعهم .",
-      "Coptic": "Eu`e]ou]ou `mmwou `nje nhe/q/u/ =en ou`wou a/l/ > eueqelhl `mmwou \\ijen nouma`nenkot .",
+      "Coptic": "Eu`e]ou]ou `mmwou `nje nheqouab =en ou`wou a/l/ > eueqelhl `mmwou \\ijen nouma`nenkot .",
       "English": "Let the saints be joyful in glory: Alleluia. Let them sing aloud on their beds.",
       "Arabiccoptic": "إف إشوشو إموأو إنجى نى إثؤواب خين أوأوأو الليلويا إف إثيليل إمموؤ هيجين نوما إن إنكوت.",
       "Englishcoptic": "Ev-e-shou-shou emmow-ou enje-ni-ethowab khen ou-ow-ou, Alleluia. Evethelil emmow-ou, hijen noma-nenkot."
@@ -230,7 +230,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "تعليات الله فى حناجرهم الليلويا وسيوف ذات حدين فى أيديهم .",
-      "Coptic": "Nisici `nte V; etxh =en tou`]bwbi a/l/ > \\anchfi `nrob/ etxh =en noujij .",
+      "Coptic": "Nisici `nte Vnou; etxh =en tou`]bwbi a/l/ > \\anchfi `nrob/ etxh =en noujij .",
       "English": "Let the high praises of God be in their mouth: Alleluia, And a two edged sword in their hand.",
       "Arabiccoptic": "نى إتشيسى إنتى إفنوتى إتكى خين تو إشفوفى الليلويا هان سيفى إنرو إسناف إتكى خين نو جيج .",
       "Englishcoptic": "Nit-shisi ente Efnouti, etki khen tow-esh-vovi, Alleluia. Han-sify enro-esnaf etki khen noujig."
@@ -263,7 +263,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ليصنعوا بهم حكماً مكتوباً الليلويا هذا المجد كائن فى جميع قديسيه .",
-      "Coptic": "`E`pjin`iri `n=htou `nou\\ap ef`c=hout a/l/ > pai `wou vai af]op =en nhe/q/u/ throu `ntaf .",
+      "Coptic": "`E`pjin`iri `n=htou `nou\\ap ef`c=hout a/l/ > pai `wou vai af]op =en nheqouab throu `ntaf .",
       "English": "To execute on them the written judgment: Alleluia. This honor have all His saints.",
       "Arabiccoptic": "إإبجين إيرى إنخيتو إنؤهاب إف إسخيوت الليلويا باى أوأو فاى أفشوب خين نى إثؤواب تيرو إنطاف .",
       "Englishcoptic": "Ei-epjin-eiri enkhitou en-ouhap e-fes-kheyout, Alleluia. Pai ow-ou fai afshop khen ni-ethowab tiro entaf."
@@ -274,7 +274,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "الليلويا الليلويا الليلويا سبحوا الله فى جميع قديسيه الليلويا",
-      "Coptic": "A/l/ a/l/ a/l/ ` Cmou `e V; =en ni e/q/u/ throu `ntaf Al/.",
+      "Coptic": "A/l/ a/l/ a/l/ ` Cmou `e Vnou; =en ni eqouab throu `ntaf Al/.",
       "English": "Alleluia Alleluia Alleluia. Praise God in all His saints Alleluia.",
       "Arabiccoptic": "الليلويا الليلويا الليلويا إسمو إإفنوتى خين نى إثؤواب تيرو إنطاف الليلويا",
       "Englishcoptic": "Alleluia, Alleluia, Alleluia. Esmo Efnouti khen ni-ethowab tiro entaf, Alleluia."
@@ -288,7 +288,7 @@
       "Coptic": "Ef`eranaf `mPennou; > `nje pi`wou nem pi`cmou. `Cmou `eP_ Pennou; > je  nane   ouyalmoc .",
       "English": "Unto Our God is due Glory and the Praise, Praise the Lord, Our God with a joyful Psalm.",
       "Arabiccoptic": "إف إيراناف إمبين نوتى إنجى بى أوأو نيم بى إسمو. إسمو إإبشويس بين نوتى جى نا نى أو إبسالموس .",
-      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo epchois pennoti, je nane o-epsalmos."
+      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo Epchois pennoti, je nane o-epsalmos."
     },
     {
       "Type": "Base",
@@ -310,7 +310,7 @@
       "Coptic": "Ef`eranaf `mPennou; > `nje pi`wou nem pi`cmou. `Cmou `eP_ Pennou; > je  nane   ouyalmoc .",
       "English": "Unto Our God is due Glory and the Praise, Praise the Lord, Our God with a joyful Psalm.",
       "Arabiccoptic": "إف إيراناف إمبين نوتى إنجى بى أوأو نيم بى إسمو. إسمو إإبشويس بين نوتى جى نا نى أو إبسالموس .",
-      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo epchois pennoti, je nane o-epsalmos."
+      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo Epchois pennoti, je nane o-epsalmos."
     },
     {
       "Type": "Base",
@@ -332,7 +332,7 @@
       "Coptic": "Ef`eranaf `mPennou; > `nje pi`wou nem pi`cmou. `Cmou `eP_ Pennou; > je  nane   ouyalmoc .",
       "English": "Unto Our God is due Glory and the Praise, Praise the Lord, Our God with a joyful Psalm.",
       "Arabiccoptic": "إف إيراناف إمبين نوتى إنجى بى أوأو نيم بى إسمو. إسمو إإبشويس بين نوتى جى نا نى أو إبسالموس .",
-      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo epchois pennoti, je nane o-epsalmos."
+      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo Epchois pennoti, je nane o-epsalmos."
     },
     {
       "Type": "Base",
@@ -354,7 +354,7 @@
       "Coptic": "Ef`eranaf `mPennou; > `nje pi`wou nem pi`cmou. `Cmou `eP_ Pennou; > je  nane   ouyalmoc .",
       "English": "Unto Our God is due Glory and the Praise, Praise the Lord, Our God with a joyful Psalm.",
       "Arabiccoptic": "إف إيراناف إمبين نوتى إنجى بى أوأو نيم بى إسمو. إسمو إإبشويس بين نوتى جى نا نى أو إبسالموس .",
-      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo epchois pennoti, je nane o-epsalmos."
+      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo Epchois pennoti, je nane o-epsalmos."
     },
     {
       "Type": "Base",
@@ -376,7 +376,7 @@
       "Coptic": "Ef`eranaf `mPennou; > `nje pi`wou nem pi`cmou. `Cmou `eP_ Pennou; > je  nane   ouyalmoc .",
       "English": "Unto Our God is due Glory and the Praise, Praise the Lord, Our God with a joyful Psalm.",
       "Arabiccoptic": "إف إيراناف إمبين نوتى إنجى بى أوأو نيم بى إسمو. إسمو إإبشويس بين نوتى جى نا نى أو إبسالموس .",
-      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo epchois pennoti, je nane o-epsalmos."
+      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo Epchois pennoti, je nane o-epsalmos."
     },
     {
       "Type": "Base",
@@ -398,7 +398,7 @@
       "Coptic": "Ef`eranaf `mPennou; > `nje pi`wou nem pi`cmou. `Cmou `eP_ Pennou; > je  nane   ouyalmoc .",
       "English": "Unto Our God is due Glory and the Praise, Praise the Lord, Our God with a joyful Psalm.",
       "Arabiccoptic": "إف إيراناف إمبين نوتى إنجى بى أوأو نيم بى إسمو. إسمو إإبشويس بين نوتى جى نا نى أو إبسالموس .",
-      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo epchois pennoti, je nane o-epsalmos."
+      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo Epchois pennoti, je nane o-epsalmos."
     },
     {
       "Type": "Base",
@@ -420,7 +420,7 @@
       "Coptic": "Ef`eranaf `mPennou; > `nje pi`wou nem pi`cmou. `Cmou `eP_ Pennou; > je  nane   ouyalmoc .",
       "English": "Unto Our God is due Glory and the Praise, Praise the Lord, Our God with a joyful Psalm.",
       "Arabiccoptic": "إف إيراناف إمبين نوتى إنجى بى أوأو نيم بى إسمو. إسمو إإبشويس بين نوتى جى نا نى أو إبسالموس .",
-      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo epchois pennoti, je nane o-epsalmos."
+      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo Epchois pennoti, je nane o-epsalmos."
     },
     {
       "Type": "Base",
@@ -442,7 +442,7 @@
       "Coptic": "Ef`eranaf `mPennou; > `nje pi`wou nem pi`cmou. `Cmou `eP_ Pennou; > je  nane   ouyalmoc .",
       "English": "Unto Our God is due Glory and the Praise, Praise the Lord, Our God with a joyful Psalm.",
       "Arabiccoptic": "إف إيراناف إمبين نوتى إنجى بى أوأو نيم بى إسمو. إسمو إإبشويس بين نوتى جى نا نى أو إبسالموس .",
-      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo epchois pennoti, je nane o-epsalmos."
+      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo Epchois pennoti, je nane o-epsalmos."
     },
     {
       "Type": "Base",
@@ -464,7 +464,7 @@
       "Coptic": "Ef`eranaf `mPennou; > `nje pi`wou nem pi`cmou. `Cmou `eP_ Pennou; > je  nane   ouyalmoc .",
       "English": "Unto Our God is due Glory and the Praise, Praise the Lord, Our God with a joyful Psalm.",
       "Arabiccoptic": "إف إيراناف إمبين نوتى إنجى بى أوأو نيم بى إسمو. إسمو إإبشويس بين نوتى جى نا نى أو إبسالموس .",
-      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo epchois pennoti, je nane o-epsalmos."
+      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo Epchois pennoti, je nane o-epsalmos."
     },
     {
       "Type": "Base",
@@ -486,7 +486,7 @@
       "Coptic": "Ef`eranaf `mPennou; > `nje pi`wou nem pi`cmou. `Cmou `eP_ Pennou; > je  nane   ouyalmoc .",
       "English": "Unto Our God is due Glory and the Praise, Praise the Lord, Our God with a joyful Psalm.",
       "Arabiccoptic": "إف إيراناف إمبين نوتى إنجى بى أوأو نيم بى إسمو. إسمو إإبشويس بين نوتى جى نا نى أو إبسالموس .",
-      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo epchois pennoti, je nane o-epsalmos."
+      "Englishcoptic": "Ef-eranaf empennoti , enje pi-o-oo nem pi-esmo. Esmo Epchois pennoti, je nane o-epsalmos."
     },
     {
       "Type": "Base",

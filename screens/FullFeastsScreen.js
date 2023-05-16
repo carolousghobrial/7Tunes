@@ -110,8 +110,6 @@ function FullFeastsScreen() {
         Languages["eng"][item.key].toLowerCase().includes(text.toLowerCase()) ||
         Languages["ara"][item.key].includes(text)
     );
-    console.log(filteredData);
-
     setcurrentData(filteredData);
   }
 

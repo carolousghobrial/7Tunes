@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "اللهُمَّ إرحمنا",
   "EnglishTitle": "O God, have mercy upon us",
-  "CopticTitle": "V; nai nan",
+  "CopticTitle": "Vnou; nai nan",
   "Hymn": [
     {
       "Type": "Base",
@@ -21,7 +21,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "اللهم ارحَمْنا، قرر لنا رحمةً، تراءف علينا.",
-      "Coptic": "V; nai nan qe] ounai `eron> ]en\\ht =aron>",
+      "Coptic": "Vnou; nai nan qe] ounai `eron> ]en\\ht =aron>",
       "English": "O God, have mercy upon us, settle mercy upon us, have compassion upon us",
       "Arabiccoptic": "افنوتي ناي نان : ثيش او ناي ايرون : شينهيت خارون",
       "Englishcoptic": "Evnouty nai nan, thesh o nai eron, shenheet kharon"

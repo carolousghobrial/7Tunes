@@ -26,7 +26,7 @@
             "PurchaseKeyDroid": "holypaschaid",
             "PurchaseKeyIos": "holypaschasku",
             "hasSubBooks": true,
-            "BookPath": 3,
+            "BookPath": "liturgyMenu",
             "ImageURL": "communion",
             "Enabled": false,
             "Released": false

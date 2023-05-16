@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "واحد هو الآب القدوس",
+  "EnglishTitle": "One is the holy Father",
+  "CopticTitle": "Ic Pathr `agioc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "واحد هو الآب القدوس، واحد هو الابن القدوس، واحد هو الروح القدس. آمين. مبارك الرب الإله إلي الأبد. آمين.",
+      "Coptic": "Ic Pathr `agioc> ic `Uioc `agioc> en `Pneuma `agion `amhn. Eulogitoc Kurioc` o Qeoc ic touc `e`wnac `amhn.",
+      "English": "One is the holy Father. One is the holy Son. One is the Holy Spirit. Amen. Blessed be the Lord God forever. Amen.",
+      "Arabiccoptic": "إسباتير آجيوس إس إيوس آجيوس. إن إبنيفما آجيون آمين. إيفلوجيطوس كيريوس أوثيئوس إسطوس إيئوناس آمين. ",
+      "Englishcoptic": "Is Pateer -agios: is -Eyios -agios: en ePnevma -agion -ameen. Evlogitos Keeriose o Theos is toos -e-oonas -ameen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا جميع الامم باركوا الرب. ولتباركه جميع الشعوب. لان رحمته ثبتت علينا. وحق الرب يدوم إلي الابد. آمين.هلليلويا.",
+      "Coptic": "Nheqnoc throu `cmou `ePoc?> marou`cmou `erof `nje nilaoc throu> je `apefnai tajro `e`\\rhi `ejwn> ouo\\ ;meqmhi `nte `Psoic ]op ]a`ene\\> `amhn `allhloui`a.",
+      "English": "Praise the Lord, all you Gentiles! Laud Him, all you peoples!For His mercy has been strengthened toward us; and the truth of the Lord abides for ever.. Amen. Alleluia.",
+      "Arabiccoptic": "نيئثنوس تيرو إزمو إبشويس. مارو إزمو إيروف إنجى نيلاؤس تيرو. جى آبيف ناى تاجرو إى إهرى إيجون اووه تى ميثمى إنتى إبشويس شوب إينيه آمين الليلويا.",
+      "Englishcoptic": "Neeethnos teeroo esmoo -Epchois: marooesmoo -erof enje nilaos teeroo: je -apefnai tagro -eehreei -egoon: owoh timethmeei ente Epchois shop sha-eneh: -ameen -alleelooi-a."
+    }
+  ]
+}

@@ -21,7 +21,7 @@ import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect, memo } from "react";
 
-function BaseView({ item }) {
+function BaseView({ item, mykey }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let flexDirection = "row";
   const testAlignText = Platform.OS === "ios" ? "justify" : "right";
@@ -52,7 +52,15 @@ function BaseView({ item }) {
     case "Title":
       textColor = getColor("NorthColor");
       break;
+    case "Neutral":
+      if (mykey % 2 == 0) {
+        textColor = getColor("NorthColor");
+      } else {
+        textColor = getColor("SouthColor");
+      }
+      break;
     default:
+      textColor = getColor("NorthColor");
       break;
   }
   const englishVisible = useSelector((state) => state.settings.english);

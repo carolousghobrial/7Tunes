@@ -24,7 +24,7 @@
       "Coptic": "Bon niben eujoc > Mari`a qhet`cmarwout > cemou; ero dikeoc > teoi `n\\ikanoc  .",
       "English": "Everyone says : O Mary, the blessed : you are called righteous : you are worthy.",
       "Arabiccoptic": "فون نيفين إيفجوس : ماريا ثي إتسماروؤت : سيمووتي إيرو ذيكيوس : تيوي إينهيكانوس  .",
-      "Englishcoptic": "Von niven evgos : Maria thee etes-marooot : semooti ero zikeos : teoi enhikanos  ."
+      "Englishcoptic": "Von niven evgos : Maria thee etes-maroot : semooti ero zikeos : teoi enhikanos  ."
     },
     {
       "Type": "Base",
@@ -43,7 +43,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "الخالق هو,  الذي اختارها, إله السماء, بيديه خلقها",
-      "Coptic": "Dumiorgoc pe > etafcwtp `mmoc > `V; `nte `tve > =en nefjij qamioc  .",
+      "Coptic": "Dumiorgoc pe > etafcwtp `mmoc > `Vnou; `nte `tve > =en nefjij qamioc  .",
       "English": "The Creator : has chosen her : God of heaven : created her by His hands.",
       "Arabiccoptic": "ديميورغوس بي : إيتافسوتب إيمموس :افنوتي إينتي إتفى : خين نيفجيج ثاميوس  .",
       "Englishcoptic": "Dimi orghos pe : etaf sotp emmos : Evnoti ente etve : khen nef-jig thamios  ."
@@ -142,7 +142,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "من يقدر ينطق, بكرامة البتول, التي حملت الله في بطنها, استوجبتى",
-      "Coptic": "Nim peqna`]caji > `m`ptai`o `n;parqenoc > qh`etacfai =en tecneji `V; > teoi `n\\ikanoc  .",
+      "Coptic": "Nim peqna`]caji > `m`ptai`o `n;parqenoc > qh`etacfai =en tecneji `Vnou; > teoi `n\\ikanoc  .",
       "English": "Who can speak of : the honor of the virgin : who carried God in her womb : you are worthy.",
       "Arabiccoptic": "نيم بيثنا إشساجي : إيم إيبتايو إينتي بارثينوس : ثي إيتاسفاي خين تيسنيجي إفتي : تيوي إينهيكانوس  .",
       "Englishcoptic": "Nim pethna-esh-saji : em-eptaio enti-parthenos : thee-etas-fai khen tesneji Evnoti : teoi enhikanos  ."
@@ -164,7 +164,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "القبة الأولى ,في العقل الداخل ,والقبة الثانية ,الله داخلها",
-      "Coptic": "Ou`ckunh `n\\oui; > `e`pnouc `etca=oun > ;`ckunh `mma\\`cnou; > V; ca=oun `mmoc  .",
+      "Coptic": "Ou`ckunh `n\\oui; > `e`pnouc `etca=oun > ;`ckunh `mma\\`cnou; > Vnou; ca=oun `mmoc  .",
       "English": "The first tabernacle : dwelt in the mind : the second tabernacle : God dwelt in it.",
       "Arabiccoptic": "او إيسكيني إينهوويتي : إبنووس إيتساخوون : تي إيسكيني إيمماه إيسنووتي : افتي ساخوون إيمموس  .",
       "Englishcoptic": "Oo-eskinee enhowiti : e-epnoos etsa-khoon : ti-eskinee emmah-esnooti : Efnoti sakhoon emmos  ."
@@ -208,10 +208,10 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "حينئذ بالحقيقة, الله أرسل, كلمته داخلها ,استوجبتي",
-      "Coptic": "Tote alhqwc > V; ca=oun `mmoc > afouwrp `mpeflogoc > teoi `n\\ikanoc  .",
+      "Coptic": "Tote alhqwc > Vnou; ca=oun `mmoc > afouwrp `mpeflogoc > teoi `n\\ikanoc  .",
       "English": "Therefore truly : God has sent : his Logos in her : you are worthy.",
       "Arabiccoptic": "توتي اليثوس : افتي ساخوون إيمموس : افوؤرب إيمبي فلوغوس : تيوي إينهيكانوس  .",
-      "Englishcoptic": "Tote aleethos : Evnoti sakhoon emmos : afooorp empef-loghos : teoi enhikanos  ."
+      "Englishcoptic": "Tote aleethos : Evnoti sakhoon emmos : afoorp empef-loghos : teoi enhikanos  ."
     },
     {
       "Type": "Base",
@@ -222,7 +222,7 @@
       "Coptic": "`Uioc Qeoc vhet]op > =ajwou `nniewn > Psoic vhenaf]op > af`i afcw; `mmon  .",
       "English": "Son of God, the existent : before the ages : the everlasting Lord : came and saved us.",
       "Arabiccoptic": "اييوس ثيوس في إيتشوب : خاجوؤ إينني إيون : ابتشويس في إنافشوب : افي افسوتي إيممون  .",
-      "Englishcoptic": "Eios Theos vee-etshop : khagooo enni-e-on : Epchois vee-enafshop : af-ee afsoti emmon  ."
+      "Englishcoptic": "Eios Theos vee-etshop : khagoo enni-e-on : Epchois vee-enafshop : af-ee afsoti emmon  ."
     },
     {
       "Type": "Base",
@@ -252,7 +252,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يا الله فرق, بقية خطاياى, وبقية اعمالى, محصاة",
-      "Coptic": "Yepi `nnanobi > V; jorou `ebol > nem `pcepi `nna`\\bhoui > Psoic xw nan `ebol  .",
+      "Coptic": "Yepi `nnanobi > Vnou; jorou `ebol > nem `pcepi `nna`\\bhoui > Psoic xw nan `ebol  .",
       "English": "Disperse away : my sins, O God : and the rest of my deeds : O God, forgive us.",
       "Arabiccoptic": "إبسيبي إيننانوفي : فتي جوروو يفول : نيم إيبسيبي إينناإيهفيووي : بتشويس كو نان يفول  .",
       "Englishcoptic": "Epsepi enna-novi : Evnoti goroo evol : nem epsepi enna-ehveeooi : Epchois ko nan evol  ."

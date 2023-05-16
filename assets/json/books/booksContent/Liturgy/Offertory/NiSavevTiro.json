@@ -1,0 +1,63 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "يا كلَّ حكماءِ (ني سافيف)",
+  "EnglishTitle": "O all you wise men(Ni-Savev)",
+  "CopticTitle": "Nicabeu throu",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا كلَّ حكماءِ إسرائيل صُنَّاع خيوط الذهب، اصنعوا ثوباً هارونياً لائقاً بكرامة كهنوت ",
+      "Coptic": "Nicabeu throu `nte Piicrh/l> nh`eter\\wb `enikap `nnoub> maqamio `nou`]hn `nte Aarwn> kata `ptaio `n;metouhb ",
+      "English": "O all you wise men of Israel, the makers of golden threads, make a robe of Aaron befitting the honor of the priesthood ",
+      "Arabiccoptic": "نى سافيف تيرو إنتى بى إسرائيل نى إت إيرهوب إنيكاب إن نوب ماثاميو إن أو إشتين إنتى آآرون كاطا إبطايو إنتى ميت أوويب ",
+      "Englishcoptic": "Nisavev teeroo ente Piisree/l: nee-eterhoov -enikap ennoob: mathamio enooesheen ente Aaroon: kata eptaio entimetooeev"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أبينا المكرم رئيس الكهنة البابا أنبا __ ",
+      "Coptic": "`mpeniwt ettaihout n~arxiereuc papa abba (…) ",
+      "English": "of our honored father, the high priest, Pope Abba ___, ",
+      "Arabiccoptic": "إمبين يوت إت طايوت إن أرشى إيرفس بابا آفا (…..)",
+      "Englishcoptic": "empenioot ettaieeoot n~arshierevs papa abva (…)"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأبينا الأسقف (المطران) أنبا __ ",
+      "Coptic": "nem peniwt `n`epickopoc (`mmhtropolithc) abba (…)> ",
+      "English": "and our father the bishop (metropolitan), Abba ___, ",
+      "Arabiccoptic": "نيم بينيوت ان ابيسكوبوس افا ___",
+      "Englishcoptic": "nem penioot en-episkopos (emmeetropolitees) abva (…):"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حبيبي المسيح.",
+      "Coptic": "nimenra; n~te Pixrictoc",
+      "English": "the beloved of Christ.",
+      "Arabiccoptic": "  ني مينراتي إنتى بى إخرستوس.",
+      "Englishcoptic": "nimenrati n~te Pikhristos"
+    }
+  ]
+}

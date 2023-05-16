@@ -155,7 +155,7 @@
       "Coptic": "`Nqof on maren;\\o `erof \\opwc `ntef`are\\ `eron> =en pai`e\\oou eqouab vai nem ni`e\\oou throu `nte penwn=> =en \\irhnh niben> `nje Pipantokratwr `Psoic Pennou;.",
       "English": "Let us also ask Him, the Lord our God, the Pantocrator, to guard us in all peace this holy day and all the days of our life.",
       "Arabiccoptic": "إنثوف أون مارين تيهوإيروف هوبوس إنتيف آريه إيرون خين باي إيهوؤو إثؤواب فاى نيم ني إيهوؤوتيرو أنتي بين أونخ خين هيريني نيفين إنجي بي بانطوكراطور إبشويس بيننوتي  .",
-      "Englishcoptic": "Ensof on, maren-tiho erof hopos entef-areh eron, khen pai-eho-oo ethowab fai nem ni-eho-oo tiro ente pen-onkh khen hirini niven, enje pi-pantokrator epchois pennoti."
+      "Englishcoptic": "Ensof on, maren-tiho erof hopos entef-areh eron, khen pai-eho-oo ethowab fai nem ni-eho-oo tiro ente pen-onkh khen hirini niven, enje pi-pantokrator Epchois pennoti."
     },
     {
       "Type": "Base",
@@ -221,7 +221,7 @@
       "Coptic": "`Vnhb `Psoic `Vnou; Pipantokratwr> `Viwt `mPensoic ouo\\ Pennou; ouo\\ Pencwthr Ihcouc Pi`xrictoc>",
       "English": "O Master, Lord, God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ",
       "Arabiccoptic": "إفنيب إبشويس إفنوتي بي بانطوكراطور إفيوت إمبين شويس أووه بيننوتي أووه بين سوتير إيسوس بي إخرستوس",
-      "Englishcoptic": "Evneeb epchois evnoti pi-pantokrator, eviot empenchois owoh pennoti owoh pensotir Isos pi-ekhristos"
+      "Englishcoptic": "Evneeb Epchois evnoti pi-pantokrator, eviot empenchois owoh pennoti owoh pensotir Isos pi-ekhristos"
     },
     {
       "Type": "Base",
@@ -261,11 +261,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "اطلبوا لكي يرحمَنا الله، ويتراءف علينا، ويسمعَنا، ويعينَنا، ويقبلَ سؤالاتَ وطلباتَ قديسيهِ منهم بالصلاحِ عنا في كلِّ حينٍ،** ويغفرَ لنا خطايانا.",
-      "Coptic": "Twb\\ \\ina `nte `Vnou; nai nan> `ntef]en\\ht =aron> `ntefcwtem `eron> `nteferbo`hqin `eron> `ntefsi `nni;\\o nem nitwb\\ `nte nheqouab `ntaf `ntotou `e`\\rhi `ejwn `epi`agaqon `nchou niben*> `ntefxa nennobi nan `ebol.",
-      "English": "Pray that God may have mercy and compassion on us, hear us, help us, and accept the supplications and prayers of His saints, for that which is good on our behalf at all times;* and forgive us our sins.",
-      "Arabiccoptic": "طوبه هينا انتى افنوتى ناي نان انتيف شينهيت خارون انتيف سوتيم ايرون انتيف ايرفويثين ايرون انتيف تشي انتي هو نيم ني طوبه ، انتى ني اثؤواب انتاف ، انطوطو اى اهري ايجون ابي اغاثون انسيو نيفين انتيف كانين نوفي نان ايفول",
-      "Englishcoptic": "Tobh hina ente Evnouty nai nan, entef shenheet kharon entef sotem eron, entef ervoithin eron, entef echi khen nityho nem nitobh, ente ni Ethowab entak, entoto e ehri egon epi aghathon ensio niven, entef kanen novi nan evol."
+      "Arabic": "اطلبوا لكي يرحمَنا الله، ويتراءف علينا، ويسمعَنا، ويعينَنا، ويقبلَ سؤالاتَ وطلباتَ قديسيهِ منهم بالصلاحِ عنا في كلِّ حينٍ",
+      "Coptic": "Twb\\ \\ina `nte `Vnou; nai nan> `ntef]en\\ht =aron> `ntefcwtem `eron> `nteferbo`hqin `eron> `ntefsi `nni;\\o nem nitwb\\ `nte nheqouab `ntaf `ntotou `e`\\rhi `ejwn `epi`agaqon `nchou niben>",
+      "English": "Pray that God may have mercy and compassion on us, hear us, help us, and accept the supplications and prayers of His saints, for that which is good on our behalf at all times",
+      "Arabiccoptic": "طوبه هينا انتى افنوتى ناي نان انتيف شينهيت خارون انتيف سوتيم ايرون انتيف ايرفويثين ايرون انتيف تشي انتي هو نيم ني طوبه ، انتى ني اثؤواب انتاف ، انطوطو اى اهري ايجون ابي اغاثون انسيو نيفين",
+      "Englishcoptic": "Tobh hina ente Evnouty nai nan, entef shenheet kharon entef sotem eron, entef ervoithin eron, entef echi khen nityho nem nitobh, ente ni Ethowab entak, entoto e ehri egon epi aghathon ensio niven"
     },
     {
       "Type": "Base",
@@ -277,6 +277,28 @@
       "English": "**And to keep the life and standing of our honored father, Pope Abba [*POPE*] and his partner in the liturgy, our father the bishop (metropolitan), Abba ....",
       "Arabiccoptic": "اف ايه اريه نان ابؤنخ نيم اب طاهو ايراتف ام بين يوت ايطايوت ان ارشي ايرفس بابا افا [*POPE*] نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت اثؤواب افا  .  .  .  .",
       "Englishcoptic": "**Entef-areh ep-onkh nem eptaho eratf empeniot ettaiot en-arshy erevs Papa Avva [*POPE*] : nem pef-keshvir enli-torghos peniot en-episkopos(emmetro-politis) Avva (..)"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "IsLiturgy",
+      "Side": "North",
+      "Arabic": "ويجعلنا مستحقين أن ننالَ من شركةِ أسرارِه المقدسة المباركة، لمغفرة خطايانا",
+      "Coptic": "Ntefaiten `nem`p]a eqrensi `ebol=en ;koinwnia `nte nefmucthrion eqouab> e`t`cmarwout `epixw `ebol `nte nennobi.",
+      "English": "and make us worthy to partake of the communion of His holy and blessed Mysteries, for the remission of our sins.",
+      "Arabiccoptic": "إنتيف آى تين إن إم إبشا إثرين تشى إيفول خين تى كونونيا إنتى نيف مستريون إثؤواب إت إزماروؤت إى بى كو إيفول إنتى نين نوفى.",
+      "Englishcoptic": "Entef aiten en-emepsha ethren-echi evol khen ti-kenonia ente nef-mesterion ethowab et-esmaro-oot epi-ko evol ente nen-novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويغفرَ لنا خطايانا.",
+      "Coptic": "`ntefxa nennobi nan `ebol.",
+      "English": "And forgive us our sins.",
+      "Arabiccoptic": "انتيف كانين نوفي نان ايفول",
+      "Englishcoptic": "Entef kanen novi nan evol."
     },
     {
       "Type": "Base",
