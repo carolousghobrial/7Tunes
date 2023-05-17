@@ -643,8 +643,7 @@ export function setCurrentSeasonByKey(timeTransition, key) {
 }
 export function setCurrentSeasonLive(timeTransition) {
   const mySeason = getCurrentSeason(timeTransition)[0];
-  //const currentDate = new Date(getTodayDate(timeTransition));
-  const currentDate = new Date("2023-05-21");
+  const currentDate = new Date(getTodayDate(timeTransition));
   const copticDate = getCopticDate(
     currentDate.getFullYear(),
     currentDate.getMonth(),
