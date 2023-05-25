@@ -1,4 +1,5 @@
 const homescreenPaths = {
+  bishopsList: require("../assets/json/bishopsList.json"),
   myHome: require("../assets/json/menuJson/mainMenu.json"),
   psalmody: require("../assets/json/menuJson/psalmody/psalmody.json"),
   liturgy: require("../assets/json/menuJson/liturgy/liturgy.json"),

@@ -938,3 +938,15 @@ export const REPLACANTIOCHEPOPE = () => {
     arabiccoptic: bishopsList.ANTIOCH_POPE.Arabiccoptic,
   };
 };
+
+export const REPLACEDIOCESEBISHOP = () => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+
+  return {
+    english: dioceseBishop.English,
+    coptic: dioceseBishop.Coptic,
+    arabic: dioceseBishop.Arabic,
+    englishcoptic: dioceseBishop.Englishcoptic,
+    arabiccoptic: dioceseBishop.Arabiccoptic,
+  };
+};

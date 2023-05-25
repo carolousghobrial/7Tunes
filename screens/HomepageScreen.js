@@ -90,47 +90,48 @@ function HomepageScreen({ navigation, route }) {
     if (item.Released === false) {
       Alert.alert("Will be Released Soon....");
       return;
-    } else if (item.Enabled === false) {
-      setIsLoading(true);
-
-      if (!isBought) {
-        await Glassfy.restorePurchases();
-        const permissions = await Glassfy.permissions();
-        const BookPermission = permissions.all.find(
-          (permission) => permission.permissionId === item.PermissionStatus
-        );
-        if (BookPermission.isValid === false) {
-          const offerings = await Glassfy.offerings();
-          const OfferingToBuy = offerings.all.find(
-            (offering) => offering.offeringId === item.PurchaseKey
-          ).skus[0];
-          try {
-            const transaction = await Glassfy.purchaseSku(OfferingToBuy);
-            const permission = transaction.permissions.all.find(
-              (p) => p.permissionId === item.PermissionStatus
-            );
-            if (permission && permission.isValid) {
-              // unlock aFeature
-              dispatch(
-                setItemPurchased({ permissionId: permission.permissionId })
-              );
-            } else {
-              setIsLoading(false);
-
-              return;
-            }
-          } catch (error) {
-            Alert.alert(error.toString());
-            setIsLoading(false);
-            return;
-          }
-        } else {
-          dispatch(
-            setItemPurchased({ permissionId: BookPermission.permissionId })
-          );
-        }
-      }
     }
+    // else if (item.Enabled === false) {
+    //   setIsLoading(true);
+
+    //   if (!isBought) {
+    //     await Glassfy.restorePurchases();
+    //     const permissions = await Glassfy.permissions();
+    //     const BookPermission = permissions.all.find(
+    //       (permission) => permission.permissionId === item.PermissionStatus
+    //     );
+    //     if (BookPermission.isValid === false) {
+    //       const offerings = await Glassfy.offerings();
+    //       const OfferingToBuy = offerings.all.find(
+    //         (offering) => offering.offeringId === item.PurchaseKey
+    //       ).skus[0];
+    //       try {
+    //         const transaction = await Glassfy.purchaseSku(OfferingToBuy);
+    //         const permission = transaction.permissions.all.find(
+    //           (p) => p.permissionId === item.PermissionStatus
+    //         );
+    //         if (permission && permission.isValid) {
+    //           // unlock aFeature
+    //           dispatch(
+    //             setItemPurchased({ permissionId: permission.permissionId })
+    //           );
+    //         } else {
+    //           setIsLoading(false);
+
+    //           return;
+    //         }
+    //       } catch (error) {
+    //         Alert.alert(error.toString());
+    //         setIsLoading(false);
+    //         return;
+    //       }
+    //     } else {
+    //       dispatch(
+    //         setItemPurchased({ permissionId: BookPermission.permissionId })
+    //       );
+    //     }
+    //   }
+    // }
     setIsLoading(false);
 
     if (item.hasSubBooks) {

@@ -13,6 +13,7 @@ import ButtonView from "../components/ViewTypes/ButtonView";
 import MainTitleView from "../components/ViewTypes/MainTitleView";
 import ExpanderView from "../components/ViewTypes/ExpanderView";
 import LoadingScreen from "./LoadingScreen";
+import OriginalLoadingScreen from "./OriginalLoadingScreen";
 import SettingsModal from "../components/BottomBar/SettingsModal";
 import { getColor } from "../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
@@ -20,11 +21,9 @@ import { getFullViewModel } from "../viewModel/getFullViewModel";
 const BookScreen = React.memo(({ navigation, route }) => {
   const flatListRef = useRef();
   let labelColor = getColor("LabelColor");
-
   var pageBackgroundColor = getColor("pageBackgroundColor");
   const pagination = useSelector((state) => state.settings.pagination);
   const [scrollPosition, setScrollPosition] = useState(0);
-
   const [NavbarVisibility, setNavbarVisibility] = useState(true);
   const memoizedNavbarVisibility = useMemo(() => {
     return NavbarVisibility;
@@ -43,9 +42,8 @@ const BookScreen = React.memo(({ navigation, route }) => {
     }
     setScrollPosition(currentPosition);
   };
-
-  const [index, setIndex] = useState(0);
   const [settingsModalVisible, setsettingsModalVisible] = useState(false);
+  const [serviceQuestionsDone, setserviceQuestionsDone] = useState(false);
 
   const values = getFullViewModel(
     route.params.bookPath,
@@ -138,20 +136,38 @@ const BookScreen = React.memo(({ navigation, route }) => {
     });
   }, [englishTitle]);
   useEffect(() => {
+    // const timer = setTimeout(checkCondition, 100); // Adjust the delay as needed
+
+    // return () => {
+    //   clearTimeout(timer);
+    // };
     setTimeout(() => {
       setIsLoading(false);
     }, 10);
   }, []);
+
+  const checkCondition = () => {
+    // Check your condition here
+    if (serviceQuestionsDone) {
+      setIsLoading(false);
+    } else {
+      setTimeout(checkCondition, 100); // Call checkCondition again after the delay
+    }
+  };
   const settingsPressed = () => {
     setsettingsModalVisible(true);
   };
   const contentsPressed = () => {
     const closest = menuData.reduce((a, b) => {
-      return Math.abs(b.key - index) < Math.abs(a.key - index) ? b : a;
+      return Math.abs(b.key - scrollPosition) < Math.abs(a.key - scrollPosition)
+        ? b
+        : a;
     });
+    console.log(closest);
     const HighlitedIndex = menuData.findIndex(
       (item) => item.key === closest.key
     );
+    console.log(HighlitedIndex);
     navigation.navigate("ContentsModal", {
       MainTitle: menuData[0],
       menuData: menuData,
@@ -197,9 +213,12 @@ const BookScreen = React.memo(({ navigation, route }) => {
       }
     }, 10);
   }
-
+  function continueToBook() {
+    setIsLoading(false);
+  }
   if (isLoading) {
-    return <LoadingScreen />;
+    // return <LoadingScreen continueToBook={continueToBook} />;
+    return <OriginalLoadingScreen />;
   }
   return (
     <>

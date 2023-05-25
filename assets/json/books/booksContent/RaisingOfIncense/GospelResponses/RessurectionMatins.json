@@ -17,7 +17,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "isRessurectionFeast",
       "Side": "North",
       "Arabic": "قدوسٌ أنت يا رب ومباركٌ، لأنك تألَّمتَ ولم تغضب، وقُمتَ من بين الأموات، في اليوم الثالث.",
       "Coptic": "`Xouab `Psoic ouo\\ `k`cmarwout> aksi`mka\\ ouo\\ `mpekjwnt> aktwnk `ebol =en nheqmwout> =en pi`e\\oou `mma\\]omt.",

@@ -70,7 +70,7 @@ function App() {
           );
         }
       } catch (e) {
-        console.warn(e);
+        //console.warn(e);
       } finally {
         // Tell the application to render
         //setCurrentSeason();

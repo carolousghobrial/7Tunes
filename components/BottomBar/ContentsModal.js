@@ -25,6 +25,8 @@ import MenuItem from "./MenuItem";
 import MenuMainTitle from "./MenuMainTitle";
 function ContentsModal({ route, navigation }) {
   const [clicked, setClicked] = useState(false);
+  const flatListRef = useRef();
+
   const [searchPhrase, setSearchPhrase] = useState("");
   const { width, height } = useWindowDimensions();
   const [initialIndex, setInitialIndex] = useState(null);
@@ -36,14 +38,11 @@ function ContentsModal({ route, navigation }) {
 
   const initialKey = route.params.initialKey;
 
-  const flatListRef = useRef();
-
   useEffect(() => {
     navigation.setOptions({
       headerShown: true,
       header: () => <MenuMainTitle item={MainTitle}></MenuMainTitle>,
     });
-    setInitialIndex(initialKey);
   }, []);
   const handleSearch = (text) => {
     setSearchPhrase(text);
@@ -57,7 +56,14 @@ function ContentsModal({ route, navigation }) {
     setcurrentData(filteredData);
   };
   return (
-    <View style={styles.container}>
+    <View
+      style={[
+        styles.container,
+        {
+          backgroundColor: getColor("NavigationBarColor"),
+        },
+      ]}
+    >
       <SearchBar
         setClicked={setClicked}
         searchPhrase={searchPhrase}
@@ -71,11 +77,12 @@ function ContentsModal({ route, navigation }) {
             backgroundColor: getColor("NavigationBarColor"),
           },
         ]}
+        ref={flatListRef}
         data={currentData}
         renderItem={({ item }) => (
           <MenuItem
             item={item}
-            highlightedIndex={initialKey}
+            highlightedIndex={initialIndex}
             scrollToKey={scrollToKey}
           ></MenuItem>
         )}
@@ -89,7 +96,6 @@ const styles = StyleSheet.create({
     flex: 1,
     width: "100%",
     height: "100%",
-    backgroundColor: "black",
   },
   transparentView: {
     height: "100%",

@@ -333,7 +333,16 @@ const isSeason = (motherSource, path) => {
         ) {
           return true;
         }
+        if (
+          path
+            .toLowerCase()
+            .includes("versesofcymbalsressurectionarchangelmichael")
+        ) {
+          return true;
+        }
         if (path.toLowerCase().includes("ascensionfeast")) {
+          console.log("HERE");
+
           return true;
         }
         return false;
@@ -584,7 +593,13 @@ const showArchangelMichaelAndGabriel = (motherSource, path) => {
   if (motherSource === "ThursdayDayFirstHourMain") {
     return true;
   }
-  if (currentSeason.key === "JONAH_FAST" || currentSeason.key === "HOLY_50") {
+  if (
+    currentSeason.key === "JONAH_FAST" ||
+    currentSeason.key === "HOLY_50" ||
+    currentSeason.key === "ASCENSION" ||
+    currentSeason.key === "PENTECOST" ||
+    currentSeason.key === "RESURRECTION"
+  ) {
     return false;
   }
   if (currentSeason.key === "GREAT_LENT") {
@@ -680,6 +695,13 @@ const notPalmSunday = (motherSource, path) => {
   }
   return false;
 };
+const isRessurectionFeast = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.key === "RESURRECTION") {
+    return true;
+  }
+  return false;
+};
 const CreedHolyWeek = (motherSource, path) => {
   if (
     motherSource === "ThursdayDayFirstHourMain" ||
@@ -742,6 +764,27 @@ const getPlantsSeason = (motherSource, path) => {
   }
   return false;
 };
+const ISDioceseMetropolitain = (motherSource, path) => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+  if (dioceseBishop.Rank === "Metropolitan") {
+    return true;
+  }
+  return false;
+};
+const ISDioceseBishop = (motherSource, path) => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+  if (dioceseBishop.Rank === "Bishop") {
+    return true;
+  }
+  return false;
+};
+const IsDiocesePope = (motherSource, path) => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+  if (dioceseBishop.Rank === "Pope") {
+    return true;
+  }
+  return false;
+};
 const VisibleRules = {
   hide: hide,
   TennavRule: TennavRule,
@@ -790,5 +833,8 @@ const VisibleRules = {
   isApostlesFeast: isApostlesFeast,
   isNotSaturday: isNotSaturday,
   IsLiturgy: IsLiturgy,
+  isRessurectionFeast: isRessurectionFeast,
+  ISDioceseMetropolitain: ISDioceseMetropolitain,
+  ISDioceseBishop: ISDioceseBishop,
 };
 export default VisibleRules;

@@ -9,7 +9,12 @@
     "dioceseArabic": "بابا وبطريرك ورئيس أساقفة المدينة العظمى الاسكندرية",
     "dioceseEnglish": "Pope and Patriarch and Archbishop of the Great City of Alexandria",
     "PopeNum": 118,
-    "PopeNameNum": 2
+    "PopeNameNum": 2,
+    "PopeNameNumArabic": "الثاني",
+    "PopeNameNumCoptic": "pima\\ `cnau",
+    "PopeNameNumEnglish": "the Second",
+    "PopeNameNumArabiccoptic": "بي ماه إسناف",
+    "PopeNameNumEnglishcoptic": "Pi mah esnav"
   },
   "ANTIOCH_POPE": {
     "key": "ANTIOCH_POPE",
@@ -39,6 +44,7 @@
       "English": "Antonious",
       "Arabiccoptic": "أنطونيوس ",
       "Englishcoptic": "Antonious",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران  الكرسي الاورشليمي والشرق الادنى",
       "dioceseEnglish": "Metropolitan of the Holy and Great City of Our Lord, Jerusalem"
     },
@@ -49,6 +55,7 @@
       "English": "Pachomius",
       "Arabiccoptic": "باخوميوس",
       "Englishcoptic": "Pachomius",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران دمنهور و البحيرة",
       "dioceseEnglish": "Metropolitan of Damanhur  and Beheira"
     },
@@ -59,6 +66,7 @@
       "English": "Wissa",
       "Arabiccoptic": "ويصا",
       "Englishcoptic": "Wissa ",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران البلينا",
       "dioceseEnglish": "Metropolitan of el-Balyana"
     },
@@ -69,6 +77,7 @@
       "English": "Paphnutius",
       "Arabiccoptic": "بفنوتيوس",
       "Englishcoptic": "Paphnutius",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران سمالوط",
       "dioceseEnglish": "Metropolitan of Samalut and Taha El Aameda"
     },
@@ -79,6 +88,7 @@
       "English": "Benyamin",
       "Arabiccoptic": "بنيامين",
       "Englishcoptic": "Benyamin",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران المنوفية",
       "dioceseEnglish": "Metropolitan of Al Minufiyah"
     },
@@ -89,6 +99,7 @@
       "English": "Tadros",
       "Arabiccoptic": "تادرس",
       "Englishcoptic": "Tadros ",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران  بورسعيد",
       "dioceseEnglish": "Metropolitan of Port Said"
     },
@@ -96,9 +107,10 @@
       "key": "SERAPION",
       "Arabic": "سيرابيون ",
       "Coptic": "Iwchv",
-      "English": "Cerapion",
+      "English": "Serapion",
       "Arabiccoptic": "سيرابيون ",
       "Englishcoptic": "Serapion",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران لوس انجلوس كاليفورنيا وهاواى",
       "dioceseEnglish": "Metropolitan of Los Angeles, all Southern California and Hawaii, USA"
     },
@@ -109,6 +121,7 @@
       "English": "Athanasios",
       "Arabiccoptic": "اثناسيوس",
       "Englishcoptic": "Athanasios",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران طولون ومرسيليا ",
       "dioceseEnglish": "Metropolitan of Marseille and Primate of the Holy Metropolis of Toulon "
     },
@@ -119,6 +132,7 @@
       "English": "Pola",
       "Arabiccoptic": "بولا",
       "Englishcoptic": "Pola",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران طنطا",
       "dioceseEnglish": "Metropolitan of Tanta"
     },
@@ -129,6 +143,7 @@
       "English": "Picada",
       "Arabiccoptic": "بسادة",
       "Englishcoptic": "Pissada",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران أخميم",
       "dioceseEnglish": "Metropolitan of Akhmim , Saqualta"
     },
@@ -139,6 +154,7 @@
       "English": "Andrawis",
       "Arabiccoptic": "أندراوس",
       "Englishcoptic": "Andrawis",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران أبو تيج وصدفا والغنائم",
       "dioceseEnglish": "Metropolitan of Abutig, Sedna and el Ghanayem"
     },
@@ -149,6 +165,7 @@
       "English": "Ashe3yia",
       "Arabiccoptic": "إشعياء",
       "Englishcoptic": "Ashe3yia",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران طهطا",
       "dioceseEnglish": "Metropolitan of Tahta, Juhayna and Gabalein"
     },
@@ -159,6 +176,7 @@
       "English": "Markos",
       "Arabiccoptic": "مرقس",
       "Englishcoptic": "Markos",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران شبرا الخيمة وتوابعها",
       "dioceseEnglish": "Metropolitan of Shubra el-Kheima."
     },
@@ -169,6 +187,7 @@
       "English": "Abram",
       "Arabiccoptic": "ابرآم",
       "Englishcoptic": "Abram",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران الفيوم",
       "dioceseEnglish": "Metropolitan of Faiyum"
     },
@@ -179,6 +198,7 @@
       "English": "Antonious Markos",
       "Arabiccoptic": "أنطونيوس مرقس",
       "Englishcoptic": "Antonious Markos",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران جنوب أفريقيا،",
       "dioceseEnglish": "Metropolitan of  South Africa and its jurisdictions."
     },
@@ -189,6 +209,7 @@
       "English": "Barsoum",
       "Arabiccoptic": "برسوم",
       "Englishcoptic": "Barsoum",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران ديروط وصنبو",
       "dioceseEnglish": "Metropolitan of Dairut and Sanabou"
     },
@@ -199,6 +220,7 @@
       "English": "Demetrios",
       "Arabiccoptic": "ديميتريوس",
       "Englishcoptic": "Demetrios",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران ملوي و أنصنا",
       "dioceseEnglish": "Metropolitan of Mallawi"
     },
@@ -209,6 +231,7 @@
       "English": "Bakhoum",
       "Arabiccoptic": "باخوم",
       "Englishcoptic": "Bakhoum",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران سوهاج",
       "dioceseEnglish": "Metropolitan of Sohag"
     },
@@ -219,6 +242,7 @@
       "English": "Aghapios",
       "Arabiccoptic": "أغابيوس",
       "Englishcoptic": "Aghapios",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران ديرمواس ودلجا",
       "dioceseEnglish": "Metropolitan of Deir Mawas and Delga"
     },
@@ -229,6 +253,7 @@
       "English": "Thomas",
       "Arabiccoptic": "توماس",
       "Englishcoptic": "Thomas",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران القوصية ومير",
       "dioceseEnglish": "Metropolitan of el-Qusiya (Qis) and Meir"
     },
@@ -239,6 +264,7 @@
       "English": "Daniel",
       "Arabiccoptic": "دانيال",
       "Englishcoptic": "Daniel",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران  المعادى وتوابعها،",
       "dioceseEnglish": "Metropolitan of Maadi & El-Basateen"
     },
@@ -249,6 +275,7 @@
       "English": "Cheroubim",
       "Arabiccoptic": "شاروبيم",
       "Englishcoptic": "Cheroubim",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران قنا وقفط",
       "dioceseEnglish": "Metropolitan of Qena"
     },
@@ -259,6 +286,7 @@
       "English": "Pimen",
       "Arabiccoptic": "بيمن",
       "Englishcoptic": "Pimen",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران نقادة وقوص",
       "dioceseEnglish": "Metropolitan of Naqada"
     },
@@ -269,6 +297,7 @@
       "English": "Takla",
       "Arabiccoptic": "تكلا",
       "Englishcoptic": "Takla",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران دشنا و توابعها",
       "dioceseEnglish": "Metropolitan of Dishna"
     },
@@ -279,6 +308,7 @@
       "English": "Maximos",
       "Arabiccoptic": "مكسيموس",
       "Englishcoptic": "Maximos",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران بنها وقويسنا",
       "dioceseEnglish": "Metropolitan of Banha"
     },
@@ -289,11 +319,12 @@
       "English": "Youssef",
       "Arabiccoptic": "يوسف",
       "Englishcoptic": "Youssef",
+      "Rank": "Metropolitan",
       "dioceseArabic": "مطران جنوبي الولايات المتحدة الأمريكية ",
       "dioceseEnglish": "Metropolitan of the Southern United States"
     }
   ],
-  "Bishops": [
+  "Diocese_Bishops": [
     {
       "key": "AMMONIOS",
       "Arabic": "أمونيوس",
@@ -301,6 +332,7 @@
       "English": " Ammonios",
       "Arabiccoptic": "أمونيوس",
       "Englishcoptic": " Ammonios",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف الأقصر وأرمنت واسنا",
       "dioceseEnglish": "Bishop of the Holy Diocese of Luxor"
     },
@@ -311,6 +343,7 @@
       "English": " Missael",
       "Arabiccoptic": "ميصائيل",
       "Englishcoptic": " Missael",
+      "Rank": "Bishop",
       "dioceseArabic": " أسقف برمنجهام وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of Birmingham"
     },
@@ -321,6 +354,7 @@
       "English": "Pisenti ",
       "Arabiccoptic": "بيسنتي",
       "Englishcoptic": " Pisenti",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف حلوان والمعصرة",
       "dioceseEnglish": "Bishop of the Holy Diocese of Helwan and Al Maasara"
     },
@@ -331,6 +365,7 @@
       "English": " Matthias",
       "Arabiccoptic": "متياس",
       "Englishcoptic": " Matthias",
+      "Rank": "Bishop",
       "dioceseArabic": " أسقف المحلة الكبرى وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of El-Mahalla El-Kubra and Samanoud "
     },
@@ -341,6 +376,7 @@
       "English": " Youannes ",
       "Arabiccoptic": "يوأنس",
       "Englishcoptic": " Youannes ",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف أسيوط وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of Asyut"
     },
@@ -351,6 +387,7 @@
       "English": " Sarapamon ",
       "Arabiccoptic": "صرابامون",
       "Englishcoptic": " Sarapamon ",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف عطبرة وأم درمان والنوبة وشمال السودان",
       "dioceseEnglish": "Bishop of the Holy Diocese of Atbara, Omdurman and all the North of the Sudan"
     },
@@ -361,6 +398,7 @@
       "English": " Antony",
       "Arabiccoptic": "أنطوني",
       "Englishcoptic": " Antony",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف إسكتلندا وأيرلندا وشمال شرق إنجلترا",
       "dioceseEnglish": "Bishop of the Holy Diocese of Ireland, Scotland and of all North East England, United Kingdom. "
     },
@@ -371,6 +409,7 @@
       "English": " Damian",
       "Arabiccoptic": "دميان",
       "Englishcoptic": " Damian",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف شمال ألمانيا وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of  Höxter, Brenkhausen Germany"
     },
@@ -381,6 +420,7 @@
       "English": " Barnaba ",
       "Arabiccoptic": "برنابا",
       "Englishcoptic": " Barnaba ",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف تورينو وروما وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of Torino and Southern Italy."
     },
@@ -391,6 +431,7 @@
       "English": " Ghobrial",
       "Arabiccoptic": "غبريال",
       "Englishcoptic": " Ghobrial",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف بني سويف وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of Beni Suef"
     },
@@ -401,6 +442,7 @@
       "English": " Georgios ",
       "Arabiccoptic": "جوارجيوس",
       "Englishcoptic": " Georgios ",
+      "Rank": "Bishop",
       "dioceseArabic": " أسقف مطاي وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of Matai"
     },
@@ -411,6 +453,7 @@
       "English": " Stephanos ",
       "Arabiccoptic": "اسطفانوس",
       "Englishcoptic": " Stephanos ",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف ببا والفشن وسمسطا",
       "dioceseEnglish": "Bishop of the Holy Diocese of Beba"
     },
@@ -421,6 +464,7 @@
       "English": " Timotheos ",
       "Arabiccoptic": "تيموثاوس",
       "Englishcoptic": "Timotheos",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف الزقازيق ومنيا القمح",
       "dioceseEnglish": "Bishop of the Holy Diocese of Zaqaziq "
     },
@@ -431,6 +475,7 @@
       "English": "Seraphim",
       "Arabiccoptic": "سارافيم",
       "Englishcoptic": "Seraphim",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف الإسماعيلية",
       "dioceseEnglish": "Bishop of the Holy Diocese of Esmailia "
     },
@@ -441,6 +486,7 @@
       "English": " Angaelos",
       "Arabiccoptic": "انجيلوس ",
       "Englishcoptic": " Angaelos",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف لندن وتوابعها",
       "dioceseEnglish": "Archbishop of the Holy Diocese of London, South of England & South Wales (United Kingdom)"
     },
@@ -451,6 +497,7 @@
       "English": " David",
       "Arabiccoptic": "ديفيد",
       "Englishcoptic": " David",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف نيويورك وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of New York and New England"
     },
@@ -461,6 +508,7 @@
       "English": " Gebriel",
       "Arabiccoptic": "جبرييل",
       "Englishcoptic": "Gebriel",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف النمسا والقطاع الألماني بسويسرا",
       "dioceseEnglish": "Bishop of the Holy Diocese of Vienna and all Austria"
     },
@@ -471,6 +519,7 @@
       "English": " Apakir",
       "Arabiccoptic": "أباكير",
       "Englishcoptic": "Apakir",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف الدول الأسكندنافية",
       "dioceseEnglish": "Bishop of the Holy Diocese of Scandanavia"
     },
@@ -481,6 +530,7 @@
       "English": " Aghathon",
       "Arabiccoptic": "اغاثون",
       "Englishcoptic": " Aghathon",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف البرازيل",
       "dioceseEnglish": "Bishop of the Holy Diocese of  São Paulo and of all Brazil"
     },
@@ -491,6 +541,7 @@
       "English": " Youssef",
       "Arabiccoptic": "يوسف",
       "Englishcoptic": " Youssef",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف بوليفيا",
       "dioceseEnglish": "Bishop of the Holy Diocese of Santa Cruz and of all Bolivia"
     },
@@ -501,6 +552,7 @@
       "English": " Mercurios",
       "Arabiccoptic": "مرقوريوس",
       "Englishcoptic": " Mercurios",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف جرجا وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of Girga"
     },
@@ -511,6 +563,7 @@
       "English": " Theodosios",
       "Arabiccoptic": "ثيؤدوسيوس",
       "Englishcoptic": " Theodosios",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف وسط الجيزة",
       "dioceseEnglish": "Bishop of the Holy Diocese of  Giza"
     },
@@ -521,6 +574,7 @@
       "English": " Mina",
       "Arabiccoptic": "مينا",
       "Englishcoptic": " Mina",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف ميسيسوجا وفانكوفر وغرب كندا",
       "dioceseEnglish": "Bishop of the Holy Diocese of  Mississauga, Vancouver & all Western Canada"
     },
@@ -531,6 +585,7 @@
       "English": " Salib",
       "Arabiccoptic": "صليب",
       "Englishcoptic": " Salib",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف ميت غمر وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of Meit Ghamr"
     },
@@ -541,6 +596,7 @@
       "English": " Youhanna",
       "Arabiccoptic": "يوحنا",
       "Englishcoptic": "Youhanna",
+      "Rank": "Bishop",
       "dioceseArabic": " أسقف شمال الجيزة",
       "dioceseEnglish": "Bishop of the Holy Diocese of Imbaba, El-Warraq "
     },
@@ -551,6 +607,7 @@
       "English": " Arsany",
       "Arabiccoptic": "ارسانى",
       "Englishcoptic": " Arsany",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف هولندا وبلجيكا",
       "dioceseEnglish": "Bishop of the Holy Diocese of  Amsterdam and all the Netherlands"
     },
@@ -561,6 +618,7 @@
       "English": " Pavlos",
       "Arabiccoptic": "بافلوس",
       "Englishcoptic": " Pavlos",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف اليونان",
       "dioceseEnglish": "Bishop of the Holy Diocese of  Athens, all Greece and Cyprus"
     },
@@ -571,6 +629,7 @@
       "English": " Luka",
       "Arabiccoptic": "لوقا",
       "Englishcoptic": " Luka",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف جنوب فرنسا والقطاع الفرنسى بسويسرا",
       "dioceseEnglish": "Bishop of the Holy Diocese of Geneva (Switzerland) and Southern France"
     },
@@ -581,6 +640,7 @@
       "English": " Dometius",
       "Arabiccoptic": "دوماديوس",
       "Englishcoptic": " Dometius",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف أكتوبر وأوسيم",
       "dioceseEnglish": "Bishop of the Holy Diocese of October City, Ausim, Ashmoon & affiliate jurisdictions"
     },
@@ -591,6 +651,7 @@
       "English": " Maqar",
       "Arabiccoptic": "مقار",
       "Englishcoptic": " Maqar",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف مراكز الشرقية والعاشر من رمضان",
       "dioceseEnglish": "Bishop of the Holy Diocese of  Al Sharqiyah (Bubastis) and 10th of Ramadan City"
     },
@@ -601,6 +662,7 @@
       "English": " Zosima",
       "Arabiccoptic": "زوسيما",
       "Englishcoptic": " Zosima",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف أطفيح والصف",
       "dioceseEnglish": "Bishop of the Holy Diocese of Atfih"
     },
@@ -611,6 +673,7 @@
       "English": "Samuel",
       "Arabiccoptic": "صموئيل",
       "Englishcoptic": "Samuel",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف طموه وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of Tamouh, El-Badrashein, El Hawamdiah"
     },
@@ -621,6 +684,7 @@
       "English": " Ishak",
       "Arabiccoptic": "اسحق",
       "Englishcoptic": " Ishak",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف طما",
       "dioceseEnglish": "Bishop of the Holy Diocese of Tima"
     },
@@ -631,6 +695,7 @@
       "English": " Markos",
       "Arabiccoptic": "ماركوس",
       "Englishcoptic": " Markos",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف دمياط وكفر الشيخ",
       "dioceseEnglish": "Bishop of the Holy Diocese of Damietta"
     },
@@ -641,6 +706,7 @@
       "English": " Karas",
       "Arabiccoptic": "كاراس",
       "Englishcoptic": " Karas",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف بنسلفانيا وميريلاند وديلاوير ووست فرجينيا بأمريكا",
       "dioceseEnglish": "Bishop of the Holy Diocese of Pennsylvania & its affiliated Regions (Maryland, Delaware & West Virginia) (USA)"
     },
@@ -651,6 +717,7 @@
       "English": " Bemwa",
       "Arabiccoptic": "بموا",
       "Englishcoptic": " Bemwa",
+      "Rank": "Bishop",
       "dioceseArabic": " أسقف السويس",
       "dioceseEnglish": "Bishop of the Holy Diocese of Suez"
     },
@@ -661,6 +728,7 @@
       "English": " Marc",
       "Arabiccoptic": "مارك",
       "Englishcoptic": " Marc",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف باريس وشمال فرنسا",
       "dioceseEnglish": "Bishop of the Holy Diocese of  Paris and all Northern France"
     },
@@ -671,6 +739,7 @@
       "English": " Peter",
       "Arabiccoptic": "بيتر",
       "Englishcoptic": " Peter",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف نورث كارولينا وساوث كارولينا وتوابعها بالولايات المتحدة",
       "dioceseEnglish": "Bishop of the Holy Diocese of North Carolina, South Carolina & Kentucky (USA)"
     },
@@ -681,6 +750,7 @@
       "English": " Giovanni",
       "Arabiccoptic": "جيوفانى",
       "Englishcoptic": "Giovanni",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف وسط أوروبا وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of Central Europe (Hungary, Czech Republic, Poland, Romania & Slovenia)"
     },
@@ -691,6 +761,7 @@
       "English": " Seraphim",
       "Arabiccoptic": "سيرافيم",
       "Englishcoptic": " Seraphim",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف أوهايو وميتشجن وانديانا",
       "dioceseEnglish": "Bishop of the Holy Diocese of  Ohio, Michigan & Indiana (USA)"
     },
@@ -701,6 +772,7 @@
       "English": " Antonio",
       "Arabiccoptic": "أنطونيو",
       "Englishcoptic": " Antonio",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف ميلانو وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of  Milan, Northern Italy."
     },
@@ -711,6 +783,7 @@
       "English": " Arsanius",
       "Arabiccoptic": "أرسانيوس",
       "Englishcoptic": "Arsanius",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف الوادى الجديد والواحات وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of El Wady El-Gedid"
     },
@@ -721,6 +794,7 @@
       "English": " Theophilus",
       "Arabiccoptic": "ثاؤفيلوس",
       "Englishcoptic": " Theophilus",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف منفلوط ",
       "dioceseEnglish": "Bishop of the Holy Diocese of Manfalut"
     },
@@ -731,6 +805,7 @@
       "English": " Elarion",
       "Arabiccoptic": "إيلاريون",
       "Englishcoptic": " Elarion",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف البحر الاحمر",
       "dioceseEnglish": "Bishop of the Holy Diocese of  Hurghada, Kosseir, & all the Red Sea"
     },
@@ -741,6 +816,7 @@
       "English": " Boules",
       "Arabiccoptic": "بولس",
       "Englishcoptic": " Boules",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف اوتاوا ومونتريال وشرق كندا",
       "dioceseEnglish": "Bishop of the Holy Diocese of Ottawa, Montreal & Eastern Canada, Canada"
     },
@@ -751,6 +827,7 @@
       "English": " Philopateer",
       "Arabiccoptic": "فيلوباتير",
       "Englishcoptic": "Philopateer",
+      "Rank": "Bishop",
       "dioceseArabic": "أسقف ابوقرقاص",
       "dioceseEnglish": "Bishop of the Holy Diocese of Abu Qurqas"
     },
@@ -761,6 +838,7 @@
       "English": " Fam",
       "Arabiccoptic": "فام",
       "Englishcoptic": " Fam",
+      "Rank": "Bishop",
       "dioceseArabic": " أسقف شرق المنيا ",
       "dioceseEnglish": "Bishop of the Holy Diocese of East Minya"
     },
@@ -771,6 +849,7 @@
       "English": " Anianus",
       "Arabiccoptic": "انيانوس",
       "Englishcoptic": " Anianus",
+      "Rank": "Bishop",
       "dioceseArabic": "اسقف بني مزار",
       "dioceseEnglish": "Bishop of the Holy Diocese of  Beni Mazar"
     },
@@ -781,6 +860,7 @@
       "English": " Nofer",
       "Arabiccoptic": "نوفير",
       "Englishcoptic": " Nofer",
+      "Rank": "Bishop",
       "dioceseArabic": "اسقف شيبين القناطر",
       "dioceseEnglish": "Bishop of the Holy Diocese of Shebin El Quanater, Toukh and El Khanka"
     },
@@ -791,6 +871,7 @@
       "English": " Pisenti",
       "Arabiccoptic": "بيسنتي",
       "Englishcoptic": " Pisenti",
+      "Rank": "Bishop",
       "dioceseArabic": "اسققف ابنوب",
       "dioceseEnglish": "Bishop of the Holy Diocese of Abnub and el Fateh & New Assiut"
     },
@@ -801,16 +882,20 @@
       "English": " Michael",
       "Arabiccoptic": "مايكل",
       "Englishcoptic": " Michael",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام لكنائس فيرجينيا بأمريكا",
-      "dioceseEnglish": "Bishop of the Holy Diocese of  Ashburn, Virginia parts of Richmond, Virginia."
-    },
+      "dioceseEnglish": "Bishop of the Holy Diocese of Ashburn, Virginia parts of Richmond, Virginia."
+    }
+  ],
+  "General_Bishops": [
     {
       "key": "ABRAHAM",
       "Arabic": "ابراهام",
       "Coptic": "  Abraham",
       "English": "  Abraham",
       "Arabiccoptic": "ابراهام",
-      "Englishcoptic": "  Abraham",
+      "Englishcoptic": "Abraham",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام المساعد لمطران لوس انجلوس",
       "dioceseEnglish": "Auxiliary Bishop of the Holy Metropolis of Los Angeles, auxiliary to Metropolitan Serapion"
     },
@@ -821,6 +906,7 @@
       "English": "Kyrillos",
       "Arabiccoptic": "كيرلس ",
       "Englishcoptic": "  Kyrillos",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام المساعد لمطران لوس انجلوس",
       "dioceseEnglish": "Auxiliary Bishop of the Holy Metropolis of Los Angeles, auxiliary to Metropolitan Serapion"
     },
@@ -831,6 +917,7 @@
       "English": "Basil",
       "Arabiccoptic": "باسيل",
       "Englishcoptic": "Basil",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام المساعد لمطران جنوبى الولايات المتحدة",
       "dioceseEnglish": "Auxiliary Bishop of the Holy Metropolis of  Southern United States, auxiliary to Metropolitan Youssef"
     },
@@ -841,6 +928,7 @@
       "English": "Gregory",
       "Arabiccoptic": "جريجورى",
       "Englishcoptic": "Gregory",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام المساعد لمطران جنوبى الولايات المتحدة",
       "dioceseEnglish": "Auxiliary Bishop of the Holy Metropolis of  Southern United States, auxiliary to Metropolitan Youssef"
     },
@@ -851,7 +939,8 @@
       "English": "Raphael",
       "Arabiccoptic": "رافائيل",
       "Englishcoptic": "Raphael",
-      "dioceseArabic": "",
+      "Rank": "Bishop",
+      "dioceseArabic": "الأسقف العام لكنائس وسط القاهرة",
       "dioceseEnglish": "Assistant Bishop for the Holy Diocese of Central Cairo (Down Town) in the Holy Archdiocese of Cairo"
     },
     {
@@ -861,7 +950,8 @@
       "English": "Maximos",
       "Arabiccoptic": "مكسيموس",
       "Englishcoptic": "Maximos",
-      "dioceseArabic": "لأسقف العام لمدينة السلام والحرفيين في القاهرة",
+      "Rank": "Bishop",
+      "dioceseArabic": "الأسقف العام لمدينة السلام والحرفيين في القاهرة",
       "dioceseEnglish": "Assistant Bishop for the Holy Diocese of Dar El Salam in the Holy Archdiocese of Cairo"
     },
     {
@@ -871,6 +961,7 @@
       "English": "Martyros",
       "Arabiccoptic": "مارتيروس",
       "Englishcoptic": "Martyros",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام لكنائس منطقة شرق السكة الحديد في القاهرة",
       "dioceseEnglish": "Assistant Bishop for the Holy Diocese of East of the Railroad Region in the Holy Archdiocese of Cairo "
     },
@@ -881,6 +972,7 @@
       "English": "Youlyous",
       "Arabiccoptic": "يوليوس",
       "Englishcoptic": "Youlyous",
+      "Rank": "Bishop",
       "dioceseArabic": " الأسقف العام لكنائس لمصر القديمة والمنيل وفم الخليج والخدمات العامة والاجتماعية",
       "dioceseEnglish": "Assistant Bishop for the Holy Diocese of  Old Cairo (Babylon), Manial and Fum El Khalig in the Holy Archdiocese of Cairo"
     },
@@ -891,6 +983,7 @@
       "English": "Abanoub",
       "Arabiccoptic": " ابانوب ",
       "Englishcoptic": "Abanoub",
+      "Rank": "Bishop",
       "dioceseArabic": " الأسقف العام لكنائس المقطم وتوابعها",
       "dioceseEnglish": "Assistant Bishop for the Holy Diocese ofMokattam in the Holy Archdiocese of Cairo"
     },
@@ -901,6 +994,7 @@
       "English": "Makary",
       "Arabiccoptic": "مكارى",
       "Englishcoptic": "Makary",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام لكنائس شبرا الجنوبية",
       "dioceseEnglish": "Assistant Bishop for the Holy Diocese of Southern Shoubra in the Holy Archdiocese of Cairo"
     },
@@ -911,6 +1005,7 @@
       "English": "Angelos",
       "Arabiccoptic": "انجيلوس",
       "Englishcoptic": "Angelos",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام لكنائس شبرا الشمالية",
       "dioceseEnglish": "Assistant Bishop for the Holy Diocese of Northern Shoubra in the Holy Archdiocese of Cairo"
     },
@@ -921,6 +1016,7 @@
       "English": "Pavly",
       "Arabiccoptic": "بافلي",
       "Englishcoptic": "Pavly",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام لكنائس حى المنتزة ومدبر خدمة الشباب بالإسكندرية",
       "dioceseEnglish": "Assistant Bishop for the  Holy Diocese of El-Montazah District in the Holy Archdiocese of Alexandria"
     },
@@ -931,6 +1027,7 @@
       "English": "Klemandos",
       "Arabiccoptic": "كليمنضس",
       "Englishcoptic": "Klemandos",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام لكنائس ألماظة وعزبة الهجانة وزهراء مدينة نصر",
       "dioceseEnglish": "Assistant Bishop for the  Holy Diocese of El-Hagana & Almaza in the Holy Archdiocese of Cairo"
     },
@@ -941,6 +1038,7 @@
       "English": "Ilarion ",
       "Arabiccoptic": "ايلاريون",
       "Englishcoptic": "Ilarion ",
+      "Rank": "Bishop",
       "dioceseArabic": " الأسقف العام لكنائس غرب الإسكندرية",
       "dioceseEnglish": "Assistant Bishop for the  Holy Diocese of the Western District in the Holy Archdiocese of Alexandria"
     },
@@ -951,6 +1049,7 @@
       "English": "Hermina",
       "Arabiccoptic": "هرمينا",
       "Englishcoptic": "Hermina",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام لكنائس حى شرق الإسكندرية",
       "dioceseEnglish": "Assistant Bishop for the  Holy Diocese of Central & Eastern Districts in the Holy Archdiocese of Alexandria"
     },
@@ -961,7 +1060,8 @@
       "English": "Mikhail",
       "Arabiccoptic": "ميخائيل",
       "Englishcoptic": "Mikhail",
-      "dioceseArabic": "لأسقف العام لكنائس الوايلى والقبة ",
+      "Rank": "Bishop",
+      "dioceseArabic": "الأسقف العام لكنائس الوايلى والقبة ",
       "dioceseEnglish": "Assistant Bishop for the  Holy Diocese of Hadayek El-Kobba, El-Wailly & Mansheyat El-Sadr in the Holy Archdiocese of Cairo"
     },
     {
@@ -971,6 +1071,7 @@
       "English": "Sidaros",
       "Arabiccoptic": "سيداروس",
       "Englishcoptic": "Sidaros",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام لكنائس عزبة النخل",
       "dioceseEnglish": "Assistant Bishop for the  Holy Diocese of Ezbet El Nakhl in the Holy Archdiocese of Cairo"
     },
@@ -981,6 +1082,7 @@
       "English": "Axios",
       "Arabiccoptic": "أكسيوس",
       "Englishcoptic": "Axios",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام لكنائس عين شمس والمطرية",
       "dioceseEnglish": "Assistant Bishop for the  Holy Diocese of Ain Shams & El-Matareya in the Holy Archdiocese of Cairo"
     },
@@ -991,6 +1093,7 @@
       "English": "Macarios",
       "Arabiccoptic": "مكاريوس",
       "Englishcoptic": "Macarios",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام للاريتريين بامريكا",
       "dioceseEnglish": " Patriarchal exarch of the Eritrean Congregation in the USA. Member of the Eritrean Holy Synod"
     },
@@ -1001,6 +1104,7 @@
       "English": "Pavlos",
       "Arabiccoptic": "بولس",
       "Englishcoptic": "Pavlos",
+      "Rank": "Bishop",
       "dioceseArabic": " الأسقف العام للكرازة بأفريقيا",
       "dioceseEnglish": " Patriarchal exarch, in the capacity of a Missionary Bishop for the Exarchate of Evangelism & Mission in East and Central Africa"
     },
@@ -1011,6 +1115,7 @@
       "English": "Youssab",
       "Arabiccoptic": "يوساب",
       "Englishcoptic": "Youssab",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام بالأقص",
       "dioceseEnglish": "Patriarchal vicar for the Holy Diocese of Luxor"
     },
@@ -1021,7 +1126,8 @@
       "English": "Youakim",
       "Arabiccoptic": "يواقيم",
       "Englishcoptic": "Youakim",
-      "dioceseArabic": "لأسقف العام بإسنا وارمنت",
+      "Rank": "Bishop",
+      "dioceseArabic": "الأسقف العام بإسنا وارمنت",
       "dioceseEnglish": "Patriarchal vicar for the Holy Diocese of Esna "
     },
     {
@@ -1031,6 +1137,7 @@
       "English": "Joseph",
       "Arabiccoptic": "چوزيف",
       "Englishcoptic": "Joseph",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام (ناميبيا وبتسوانا و زيمبابوى ومالاوى )",
       "dioceseEnglish": "Patriarchal exarch, in the capacity of a Missionary Bishop for the churches in Africa (Botswana, Namibia, Zimbabwe & Malawi)"
     },
@@ -1041,6 +1148,7 @@
       "English": "Reweis",
       "Arabiccoptic": "رويس",
       "Englishcoptic": "Reweis",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام بآسيا ",
       "dioceseEnglish": "Patriarchal exarch, in the capacity of a Missionary Bishop for the churches in Southeast Asia"
     },
@@ -1051,6 +1159,7 @@
       "English": "Aghnatius",
       "Arabiccoptic": "اغناطيوس",
       "Englishcoptic": "Aghnatius",
+      "Rank": "Bishop",
       "dioceseArabic": " أسقف المحلة الكبرى وتوابعها",
       "dioceseEnglish": "Patriarchal vicar for the Holy Diocese of El-Mahalla El-Kubra and Samanoud"
     },
@@ -1061,6 +1170,7 @@
       "English": "Archilidis",
       "Arabiccoptic": "ارشيليدس",
       "Englishcoptic": "Archilidis",
+      "Rank": "Bishop",
       "dioceseArabic": "اسقف عام تورونتو و شمال كندا",
       "dioceseEnglish": "Patriarchal exarch in Toronto, Canada for the Archdiocese of North America"
     },
@@ -1071,118 +1181,9 @@
       "English": "Gabriel",
       "Arabiccoptic": "جابريل",
       "Englishcoptic": "Gabriel",
+      "Rank": "Bishop",
       "dioceseArabic": "اسقف عام نيو جيرسي",
       "dioceseEnglish": "Patriarchal exarch in Cedar Grove, New Jersey for the Archdiocese of North America"
-    },
-    {
-      "key": "MATTAOS",
-      "Arabic": "متاؤس",
-      "Coptic": "Mattaos",
-      "English": "Mattaos",
-      "Arabiccoptic": "متاؤس",
-      "Englishcoptic": "Mattaos",
-      "dioceseArabic": " أسقف ورئيس دير السريان",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of the Most Holy Virgin Mary, known as the Syrian Monastery"
-    },
-    {
-      "key": "BASILIOS",
-      "Arabic": "باسيليوس",
-      "Coptic": "Basilios",
-      "English": "Basilios",
-      "Arabiccoptic": "باسيليوس",
-      "Englishcoptic": "Basilios",
-      "dioceseArabic": "أسقف ورئيس ديرالأنبا صموئيل المعترف بجبل القلمون",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Samuel the Confessor, in El Qualamon Mountain, Upper Egypt"
-    },
-    {
-      "key": "YUSTOS",
-      "Arabic": "يسطس",
-      "Coptic": "Yustos",
-      "English": "Yustos",
-      "Arabiccoptic": "يسطس",
-      "Englishcoptic": "Yustos",
-      "dioceseArabic": "أسقف ورئيس دير الأنبا أنطونيوس",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Anthony the Great, in the Eastern Desert"
-    },
-    {
-      "key": "ISITHOROS",
-      "Arabic": "ايسيذورس",
-      "Coptic": "Isithoros",
-      "English": "Isithoros",
-      "Arabiccoptic": "ايسيذورس",
-      "Englishcoptic": "Isithoros",
-      "dioceseArabic": "أسقف ورئيس دير البراموس",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of the Most Holy Virgin Mary, known as the Paromeos Monastery"
-    },
-    {
-      "key": "KYRILLOS_AVAMINA",
-      "Arabic": "كيرلس آفا مينا",
-      "Coptic": "Kyrillos",
-      "English": "Kyrillos",
-      "Arabiccoptic": "كيرلس آفا مينا",
-      "Englishcoptic": "Kyrillos",
-      "dioceseArabic": " أسقف ورئيس دير مارمينا بصحراء مريوط - الإسكندرية",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Mina, in the Desert of Mariut"
-    },
-    {
-      "key": "MINA",
-      "Arabic": "مينا",
-      "Coptic": "Mina",
-      "English": "Mina",
-      "Arabiccoptic": "مينا",
-      "Englishcoptic": "Mina",
-      "dioceseArabic": "أسقف ورئيس دير مارجرجس بالخطاطبة",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint George in El Khatatba, Central Egypt."
-    },
-    {
-      "key": "DANIEL_PAUL",
-      "Arabic": "دانيال",
-      "Coptic": "Daniel",
-      "English": "Daniel",
-      "Arabiccoptic": "دانيال",
-      "Englishcoptic": "Daniel",
-      "dioceseArabic": "أسقف ورئيس دير الأنبا بولا بالبحر الأحمر",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Paul the Anchorite, in the Eastern Desert."
-    },
-    {
-      "key": "DANIEL_SYDNEY",
-      "Arabic": "دانيال",
-      "Coptic": "Daniel",
-      "English": "Daniel",
-      "Arabiccoptic": "دانيال",
-      "Englishcoptic": "Daniel",
-      "dioceseArabic": "أسقف ورئيس دير الأنبا شنوده بسيدني",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of St. Shenouda the Archimandrite, in Sydney, New South Wales, Australia"
-    },
-    {
-      "key": "OULOGIOS",
-      "Arabic": "اولوجيوس",
-      "Coptic": "Oulogios",
-      "English": "Oulogios",
-      "Arabiccoptic": "اولوجيوس",
-      "Englishcoptic": "Oulogios",
-      "dioceseArabic": "أسقف ورئيس دير الأنبا شنودة رئيس المتوحدين بسوهاج",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Shenouda the Archimandrite in Sohag, Upper Egypt"
-    },
-    {
-      "key": "MISHAEL",
-      "Arabic": "ميشائيل",
-      "Coptic": "Mishael",
-      "English": "Mishael",
-      "Arabiccoptic": "ميشائيل",
-      "Englishcoptic": "Mishael",
-      "dioceseArabic": "أسقف جنوب ألمانيا وتوابعها ورئيس دير الأنبا انطونيوس بكريفلباخ بألمانيا",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Anthony the Great in Kroeffelbach, Germany"
-    },
-    {
-      "key": "PIGOL",
-      "Arabic": "بيجول",
-      "Coptic": "Pigol",
-      "English": "Pigol",
-      "Arabiccoptic": "بيجول",
-      "Englishcoptic": "Pigol",
-      "dioceseArabic": "أسقف ورئيس دير السيدة العذراء المحرق ورزقة الدير وعزبة توما",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of the Most Holy Virgin Mary, known as Al Muharraq Monastery, Upper Egypt"
     },
     {
       "key": "SURIEL",
@@ -1191,58 +1192,9 @@
       "English": "Suriel",
       "Arabiccoptic": "سوريال ",
       "Englishcoptic": "Suriel",
+      "Rank": "Bishop",
       "dioceseArabic": "اسقف عام",
       "dioceseEnglish": "General Bishop"
-    },
-    {
-      "key": "METTAOUS",
-      "Arabic": "متاؤس",
-      "Coptic": "Mettaous",
-      "English": "Mettaous",
-      "Arabiccoptic": "متاؤس",
-      "Englishcoptic": "Mettaous",
-      "dioceseArabic": "أسقف ورئيس دير السيدة العذراء بجبل أخميم",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of St. Mary in Akhmim, Upper Egypt"
-    },
-    {
-      "key": "SAWEROS",
-      "Arabic": "ساويرس",
-      "Coptic": "Saweros",
-      "English": "Saweros",
-      "Arabiccoptic": "ساويرس",
-      "Englishcoptic": "Saweros",
-      "dioceseArabic": "أسقف ورئيس دير الانبا توماس بالخطاطبة وسوهاج وماربقطر بالخطاطبة",
-      "dioceseEnglish": "Bishop and abbot of the Monasteries of St Thomas & Mar Boctor in El-Khatatba, Central Egypt."
-    },
-    {
-      "key": "AGHAPIUS",
-      "Arabic": "أغابيوس",
-      "Coptic": "Agapioc",
-      "English": "Aghapius",
-      "Arabiccoptic": "أغابيوس",
-      "Englishcoptic": "Aghapius",
-      "dioceseArabic": "سقف ورئيس دير الأنبا بيشوى بوادى النطرون",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Pishoy in Scetes, Lower Egypt."
-    },
-    {
-      "key": "ARSANIOUS",
-      "Arabic": "أرسانيوس",
-      "Coptic": "Arsanious",
-      "English": "Arsanious",
-      "Arabiccoptic": "أرسانيوس",
-      "Englishcoptic": "Arsanious",
-      "dioceseArabic": "سقف ورئيس دير الأنبا  باخوميوس ادفو ",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Pachomius in Edfu, Upper Egypt."
-    },
-    {
-      "key": "DIOSCOROS",
-      "Arabic": "ديسقوروس",
-      "Coptic": "Dioscoros",
-      "English": "Dioscoros",
-      "Arabiccoptic": "ديسقوروس",
-      "Englishcoptic": "Dioscoros",
-      "dioceseArabic": "اسقق دير الانبا يوحنا القصير العالمين",
-      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint John the Short - Alamein"
     },
     {
       "key": "YOUHANNA",
@@ -1251,6 +1203,7 @@
       "English": "Youhanna",
       "Arabiccoptic": "يوحنا",
       "Englishcoptic": "Youhanna",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام",
       "dioceseEnglish": "General Bishop and Patriarchal Emissary at large"
     },
@@ -1261,6 +1214,7 @@
       "English": "Thomas",
       "Arabiccoptic": "توماس",
       "Englishcoptic": "Thomas",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام",
       "dioceseEnglish": "General Bishop"
     },
@@ -1271,6 +1225,7 @@
       "English": "Moussa",
       "Arabiccoptic": "موسى",
       "Englishcoptic": "Moussa",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام للشباب",
       "dioceseEnglish": "General Bishop and administrator for the Bishopric of Youth Affairs."
     },
@@ -1281,6 +1236,7 @@
       "English": "Dioscoros",
       "Arabiccoptic": "ديسقوروس",
       "Englishcoptic": "Dioscoros",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام",
       "dioceseEnglish": "General Bishop and administrator of the Patriarchal Print Shop."
     },
@@ -1291,6 +1247,7 @@
       "English": "Botros",
       "Arabiccoptic": "بطرس",
       "Englishcoptic": "Botros",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام ورئيس دير بطمس",
       "dioceseEnglish": "General Bishop for the Patriarchal Media"
     },
@@ -1301,8 +1258,187 @@
       "English": "Armiah",
       "Arabiccoptic": " إرميا ",
       "Englishcoptic": "Armiah",
+      "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام ورئيس المركز الثقافى الأرثوذكسي",
       "dioceseEnglish": "General Bishop and chief of the Coptic Orthodox Cultural Center."
+    }
+  ],
+  "Monastery_Bishops": [
+    {
+      "key": "MATTAOS",
+      "Arabic": "متاؤس",
+      "Coptic": "Mattaos",
+      "English": "Mattaos",
+      "Arabiccoptic": "متاؤس",
+      "Englishcoptic": "Mattaos",
+      "Rank": "Bishop",
+      "dioceseArabic": " أسقف ورئيس دير السريان",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of the Most Holy Virgin Mary, known as the Syrian Monastery"
+    },
+    {
+      "key": "BASILIOS",
+      "Arabic": "باسيليوس",
+      "Coptic": "Basilios",
+      "English": "Basilios",
+      "Arabiccoptic": "باسيليوس",
+      "Englishcoptic": "Basilios",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس ديرالأنبا صموئيل المعترف بجبل القلمون",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Samuel the Confessor, in El Qualamon Mountain, Upper Egypt"
+    },
+    {
+      "key": "YUSTOS",
+      "Arabic": "يسطس",
+      "Coptic": "Yustos",
+      "English": "Yustos",
+      "Arabiccoptic": "يسطس",
+      "Englishcoptic": "Yustos",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس دير الأنبا أنطونيوس",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Anthony the Great, in the Eastern Desert"
+    },
+    {
+      "key": "ISITHOROS",
+      "Arabic": "ايسيذورس",
+      "Coptic": "Isithoros",
+      "English": "Isithoros",
+      "Arabiccoptic": "ايسيذورس",
+      "Englishcoptic": "Isithoros",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس دير البراموس",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of the Most Holy Virgin Mary, known as the Paromeos Monastery"
+    },
+    {
+      "key": "KYRILLOS_AVAMINA",
+      "Arabic": "كيرلس آفا مينا",
+      "Coptic": "Kyrillos",
+      "English": "Kyrillos",
+      "Arabiccoptic": "كيرلس آفا مينا",
+      "Englishcoptic": "Kyrillos",
+      "Rank": "Bishop",
+      "dioceseArabic": " أسقف ورئيس دير مارمينا بصحراء مريوط - الإسكندرية",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Mina, in the Desert of Mariut"
+    },
+    {
+      "key": "MINA",
+      "Arabic": "مينا",
+      "Coptic": "Mina",
+      "English": "Mina",
+      "Arabiccoptic": "مينا",
+      "Englishcoptic": "Mina",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس دير مارجرجس بالخطاطبة",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint George in El Khatatba, Central Egypt."
+    },
+    {
+      "key": "DANIEL_PAUL",
+      "Arabic": "دانيال",
+      "Coptic": "Daniel",
+      "English": "Daniel",
+      "Arabiccoptic": "دانيال",
+      "Englishcoptic": "Daniel",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس دير الأنبا بولا بالبحر الأحمر",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Paul the Anchorite, in the Eastern Desert."
+    },
+    {
+      "key": "DANIEL_SYDNEY",
+      "Arabic": "دانيال",
+      "Coptic": "Daniel",
+      "English": "Daniel",
+      "Arabiccoptic": "دانيال",
+      "Englishcoptic": "Daniel",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس دير الأنبا شنوده بسيدني",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of St. Shenouda the Archimandrite, in Sydney, New South Wales, Australia"
+    },
+    {
+      "key": "OULOGIOS",
+      "Arabic": "اولوجيوس",
+      "Coptic": "Oulogios",
+      "English": "Oulogios",
+      "Arabiccoptic": "اولوجيوس",
+      "Englishcoptic": "Oulogios",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس دير الأنبا شنودة رئيس المتوحدين بسوهاج",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Shenouda the Archimandrite in Sohag, Upper Egypt"
+    },
+    {
+      "key": "MISHAEL",
+      "Arabic": "ميشائيل",
+      "Coptic": "Mishael",
+      "English": "Mishael",
+      "Arabiccoptic": "ميشائيل",
+      "Englishcoptic": "Mishael",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف جنوب ألمانيا وتوابعها ورئيس دير الأنبا انطونيوس بكريفلباخ بألمانيا",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Anthony the Great in Kroeffelbach, Germany"
+    },
+    {
+      "key": "PIGOL",
+      "Arabic": "بيجول",
+      "Coptic": "Pigol",
+      "English": "Pigol",
+      "Arabiccoptic": "بيجول",
+      "Englishcoptic": "Pigol",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس دير السيدة العذراء المحرق ورزقة الدير وعزبة توما",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of the Most Holy Virgin Mary, known as Al Muharraq Monastery, Upper Egypt"
+    },
+    {
+      "key": "METTAOUS",
+      "Arabic": "متاؤس",
+      "Coptic": "Mettaous",
+      "English": "Mettaous",
+      "Arabiccoptic": "متاؤس",
+      "Englishcoptic": "Mettaous",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس دير السيدة العذراء بجبل أخميم",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of St. Mary in Akhmim, Upper Egypt"
+    },
+    {
+      "key": "SAWEROS",
+      "Arabic": "ساويرس",
+      "Coptic": "Saweros",
+      "English": "Saweros",
+      "Arabiccoptic": "ساويرس",
+      "Englishcoptic": "Saweros",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس دير الانبا توماس بالخطاطبة وسوهاج وماربقطر بالخطاطبة",
+      "dioceseEnglish": "Bishop and abbot of the Monasteries of St Thomas & Mar Boctor in El-Khatatba, Central Egypt."
+    },
+    {
+      "key": "AGHAPIUS",
+      "Arabic": "أغابيوس",
+      "Coptic": "Agapioc",
+      "English": "Aghapius",
+      "Arabiccoptic": "أغابيوس",
+      "Englishcoptic": "Aghapius",
+      "Rank": "Bishop",
+      "dioceseArabic": "سقف ورئيس دير الأنبا بيشوى بوادى النطرون",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Pishoy in Scetes, Lower Egypt."
+    },
+    {
+      "key": "ARSANIOUS",
+      "Arabic": "أرسانيوس",
+      "Coptic": "Arsanious",
+      "English": "Arsanious",
+      "Arabiccoptic": "أرسانيوس",
+      "Englishcoptic": "Arsanious",
+      "Rank": "Bishop",
+      "dioceseArabic": "سقف ورئيس دير الأنبا  باخوميوس ادفو ",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint Pachomius in Edfu, Upper Egypt."
+    },
+    {
+      "key": "DIOSCOROS",
+      "Arabic": "ديسقوروس",
+      "Coptic": "Dioscoros",
+      "English": "Dioscoros",
+      "Arabiccoptic": "ديسقوروس",
+      "Englishcoptic": "Dioscoros",
+      "Rank": "Bishop",
+      "dioceseArabic": "اسقق دير الانبا يوحنا القصير العالمين",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of Saint John the Short - Alamein"
     }
   ]
 }

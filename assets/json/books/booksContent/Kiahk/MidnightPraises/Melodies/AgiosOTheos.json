@@ -368,16 +368,32 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "يارب إليك نسأل,\nإحفظ البابا .... الأمثل,\nبطريركاً وإعطيه إقبال,\nأمين الليلويا",
-      "English": "Lord we ask of You,\nKeep Pope (...) the great,\nOur patriarch and grant him wisdom,\nAmen Alleluia"
+      "Arabic": "يارب إليك نسأل,\nإحفظ البابا [*POPE*] الأمثل,\nبطريركاً وإعطيه إقبال,\nأمين الليلويا",
+      "English": "Lord we ask of You,\nKeep Pope [*POPE*] the great,\nOur patriarch and grant him wisdom,\nAmen Alleluia"
     },
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "ISDioceseMetropolitain",
       "Side": "South",
-      "Arabic": "يارب طَمِّنَّا,\nعلى الساهر عنا,\nأنبا (....) أسقفنا,\nأمين الليلويا",
-      "English": "Also keep in safety,\nThe ones (one) who watch(es) over us,\nOur metropolitans and bishops (Our bishop Abba (...)),\nAmen Alleluia"
+      "Arabic": "يارب طَمِّنَّا,\nعلى الساهر عنا,\nأنبا [*DIOCESE_BISHOP*] مطرانا,\nأمين الليلويا",
+      "English": "Also keep in safety,\nThe one who watches over us,\nOur metropolitan Abba [*DIOCESE_BISHOP*] \nAmen Alleluia"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
+      "Side": "South",
+      "Arabic": "يارب طَمِّنَّا,\nعلى الساهر عنا,\nأنبا [*DIOCESE_BISHOP*] اسقفنا,\nأمين الليلويا",
+      "English": "Also keep in safety,\nThe one who watches over us,\nOur bishop Abba [*DIOCESE_BISHOP*] \nAmen Alleluia"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": "IsDiocesePope",
+      "Side": "South",
+      "Arabic": "يارب طَمِّنَّا,\nعلى الساهرين عنا,\nمطراننا وأساقفتنا\nأمين الليلويا",
+      "English": "Also keep in safety,\nThe ones who watch over us,\nOur metropolitans and bishops \nAmen Alleluia"
     },
     {
       "Type": "Melody",

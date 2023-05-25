@@ -9,6 +9,8 @@ import {
   REPLACPASCHAHOURDAY,
   REPLACEHOMILYFATHERS,
   REPLACEPOPE,
+  REPLACANTIOCHEPOPE,
+  REPLACEDIOCESEBISHOP,
 } from "../helpers/replacingRules";
 import homescreenPaths from "../helpers/homescreenPaths";
 
@@ -330,6 +332,46 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
                   Type: part.Type,
                   Visible: part.Visible,
                 };
+              } else if (part.English.includes("[*ANTIOCH_POPE*]")) {
+                var replacingWord = "[*ANTIOCH_POPE*]";
+                var myrule = REPLACANTIOCHEPOPE();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*DIOCESE_BISHOP*]")) {
+                var replacingWord = "[*DIOCESE_BISHOP*]";
+                var myrule = REPLACEDIOCESEBISHOP();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
               } else {
                 newPart = part;
               }
@@ -407,6 +449,19 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
                   Type: part.Type,
                   Visible: part.Visible,
                 };
+              } else if (part.English.includes("[*DIOCESE_BISHOP*]")) {
+                var replacingWord = "[*DIOCESE_BISHOP*]";
+                var myrule = REPLACEDIOCESEBISHOP();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+
+                  English: part.English.replace(replacingWord, myrule.english),
+
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
               } else {
                 newPart = part;
               }
@@ -424,10 +479,126 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
             var newPart = {};
             var replacingWord = "";
             var myrule = {};
-            if (part.English.includes("[*COME/RISEN*]")) {
-              replacingWord = "[*COME/RISEN*]";
-              myrule = ComeRisenRule();
-              if (part.Type === "Base") {
+            if (part.Type === "Base") {
+              if (part.English.includes("[*COME/RISEN*]")) {
+                replacingWord = "[*COME/RISEN*]";
+                myrule = ComeRisenRule();
+                if (part.Type === "Base") {
+                  newPart = {
+                    Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                    Arabiccoptic: part.Arabiccoptic.replace(
+                      replacingWord,
+                      myrule.arabiccoptic
+                    ),
+                    Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                    English: part.English.replace(
+                      replacingWord,
+                      myrule.english
+                    ),
+                    Englishcoptic: part.Englishcoptic.replace(
+                      replacingWord,
+                      myrule.englishcoptic
+                    ),
+                    Rule: thisRule,
+                    Side: part.Side,
+                    Type: part.Type,
+                    Visible: part.Visible,
+                  };
+                } else {
+                  newPart = {
+                    Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                    English: part.English.replace(
+                      replacingWord,
+                      myrule.english
+                    ),
+
+                    Rule: thisRule,
+                    Side: part.Side,
+                    Type: part.Type,
+                    Visible: part.Visible,
+                  };
+                }
+              } else if (part.English.includes("[*ROICONCLUSION*]")) {
+                replacingWord = "[*ROICONCLUSION*]";
+                myrule = ROICONCLUSION();
+                if (part.Type === "Base") {
+                  newPart = {
+                    Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                    Arabiccoptic: part.Arabiccoptic.replace(
+                      replacingWord,
+                      myrule.arabiccoptic
+                    ),
+                    Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                    English: part.English.replace(
+                      replacingWord,
+                      myrule.english
+                    ),
+                    Englishcoptic: part.Englishcoptic.replace(
+                      replacingWord,
+                      myrule.englishcoptic
+                    ),
+                    Rule: thisRule,
+                    Side: part.Side,
+                    Type: part.Type,
+                    Visible: part.Visible,
+                  };
+                } else {
+                  newPart = {
+                    Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                    English: part.English.replace(
+                      replacingWord,
+                      myrule.english
+                    ),
+
+                    Rule: thisRule,
+                    Side: part.Side,
+                    Type: part.Type,
+                    Visible: part.Visible,
+                  };
+                }
+              } else if (part.English.includes("[*POPE*]")) {
+                var replacingWord = "[*POPE*]";
+                var myrule = REPLACEPOPE();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*ANTIOCH_POPE*]")) {
+                var replacingWord = "[*ANTIOCH_POPE*]";
+                var myrule = REPLACANTIOCHEPOPE();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+                  Arabiccoptic: part.Arabiccoptic.replace(
+                    replacingWord,
+                    myrule.arabiccoptic
+                  ),
+                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+                  English: part.English.replace(replacingWord, myrule.english),
+                  Englishcoptic: part.Englishcoptic.replace(
+                    replacingWord,
+                    myrule.englishcoptic
+                  ),
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*DIOCESE_BISHOP*]")) {
+                var replacingWord = "[*DIOCESE_BISHOP*]";
+                var myrule = REPLACEDIOCESEBISHOP();
                 newPart = {
                   Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
                   Arabiccoptic: part.Arabiccoptic.replace(
@@ -446,8 +617,15 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
                   Visible: part.Visible,
                 };
               } else {
+                newPart = part;
+              }
+            } else if (part.Type === "Melody") {
+              if (part.English.includes("[*POPE*]")) {
+                var replacingWord = "[*POPE*]";
+                var myrule = REPLACEPOPE();
                 newPart = {
                   Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+
                   English: part.English.replace(replacingWord, myrule.english),
 
                   Rule: thisRule,
@@ -455,40 +633,36 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
                   Type: part.Type,
                   Visible: part.Visible,
                 };
-              }
-            } else if (part.English.includes("[*ROICONCLUSION*]")) {
-              replacingWord = "[*ROICONCLUSION*]";
-              myrule = ROICONCLUSION();
-              if (part.Type === "Base") {
+              } else if (part.English.includes("[*ANTIOCH_POPE*]")) {
+                var replacingWord = "[*ANTIOCH_POPE*]";
+                var myrule = REPLACANTIOCHEPOPE();
                 newPart = {
                   Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                  Arabiccoptic: part.Arabiccoptic.replace(
-                    replacingWord,
-                    myrule.arabiccoptic
-                  ),
-                  Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
+
                   English: part.English.replace(replacingWord, myrule.english),
-                  Englishcoptic: part.Englishcoptic.replace(
-                    replacingWord,
-                    myrule.englishcoptic
-                  ),
+
+                  Rule: thisRule,
+                  Side: part.Side,
+                  Type: part.Type,
+                  Visible: part.Visible,
+                };
+              } else if (part.English.includes("[*DIOCESE_BISHOP*]")) {
+                var replacingWord = "[*DIOCESE_BISHOP*]";
+                var myrule = REPLACEDIOCESEBISHOP();
+                newPart = {
+                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+
+                  English: part.English.replace(replacingWord, myrule.english),
+
                   Rule: thisRule,
                   Side: part.Side,
                   Type: part.Type,
                   Visible: part.Visible,
                 };
               } else {
-                newPart = {
-                  Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-                  English: part.English.replace(replacingWord, myrule.english),
-
-                  Rule: thisRule,
-                  Side: part.Side,
-                  Type: part.Type,
-                  Visible: part.Visible,
-                };
+                newPart = part;
               }
-            } else {
+            } else if (part.Type === "Button") {
               newPart = part;
             }
             myViewArray.push({
@@ -503,7 +677,8 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
         }
       }
     } catch (error) {
-      console.log(error);
+      console.log(part);
+      console.warn(error);
     }
   });
 

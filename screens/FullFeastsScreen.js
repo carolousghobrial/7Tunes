@@ -35,14 +35,14 @@ function FullFeastsScreen() {
   const [searchPhrase, setSearchPhrase] = useState("");
   const [initialIndex, setInitialIndex] = useState(null);
   const [yearModalVisible, setyearModalVisible] = useState(false);
-  const [yearSelected, setyearSelected] = useState(2023);
   const [feastModalVisible, setfeastModalVisible] = useState(false);
   const flatListRef = useRef();
-  const data = getCopticFastsFeasts(yearSelected).sort(
+  const data = getCopticFastsFeasts(moment().year()).sort(
     (a, b) =>
       new moment(a.start).format("YYYYMMDD") -
       new moment(b.start).format("YYYYMMDD")
   );
+
   const [currentData, setcurrentData] = useState(data);
 
   const [selectedFeast, setselectedFeast] = useState(data[0]);
@@ -67,7 +67,13 @@ function FullFeastsScreen() {
     setfeastModalVisible(false);
   }
   function setYear(year) {
-    setyearSelected(year);
+    const data = getCopticFastsFeasts(year).sort(
+      (a, b) =>
+        new moment(a.start).format("YYYYMMDD") -
+        new moment(b.start).format("YYYYMMDD")
+    );
+    setcurrentData(data);
+
     setyearModalVisible(false);
     //setfeastModalVisible(false);
   }

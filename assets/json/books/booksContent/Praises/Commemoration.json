@@ -817,14 +817,36 @@
     },
     {
       "Type": "Base",
-      "Rule": 0,
+      "Rule": "POPE",
       "Visible": true,
       "Side": "South",
-      "Arabic": "أطلب من الرب عنا. يا أبانا القديس البطريرك أنبا ... رئيس الكهنة ليغفر لنا خطايانا.",
-      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab `mpatriarxhc > abba (…) piarxh `ereuc > `ntefxa nen nobi nan `ebol .",
-      "English": "Pray to the Lord on our behalf, our holy father the patriarch. Pope Abba (…), the archpriest, that He may forgive us our sins.",
-      "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إم باطريارشيس. أفا (...) بى أرشى إيرفس. انتيف كانين نوفى نان ايفول.",
-      "Englishcoptic": "Tovhem-epshois e-ehri egon, nenyot ethowab em-patri-yarshees, Papa Ava …. pi-arshi-erefs, entef ka nen-novi nan evol."
+      "Arabic": "أطلب من الرب عنا. يا أبانا القديس البطريرك أنبا [*POPE*] رئيس الكهنة ليغفر لنا خطايانا.",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab `mpatriarxhc > abba [*POPE*] piarxh `ereuc > `ntefxa nen nobi nan `ebol .",
+      "English": "Pray to the Lord on our behalf, our holy father the patriarch. Pope Abba [*POPE*], the archpriest, that He may forgive us our sins.",
+      "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إم باطريارشيس. أفا [*POPE*] بى أرشى إيرفس. انتيف كانين نوفى نان ايفول.",
+      "Englishcoptic": "Tovhem-epshois e-ehri egon, nenyot ethowab em-patri-yarshees, Papa Ava [*POPE*] pi-arshi-erefs, entef ka nen-novi nan evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseMetropolitain",
+      "Side": "North",
+      "Arabic": "أطلب من الرب عنا. يا أبانا القديس البار. أنبا [*DIOCESE_BISHOP*] المطران ليغفر لنا خطايانا.",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab ``ndikeoc > abba [*DIOCESE_BISHOP*] pi mhtropolhthc > `ntefxa nen nobi nan `ebol .",
+      "English": "Pray to the Lord on our behalf, our holy righteous father, Abba [*DIOCESE_BISHOP*] the metropolitan, that He may forgive us our sins.",
+      "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إن ذيكيؤس . أفا [*DIOCESE_BISHOP*] بى ميتروبوليتيس. انتيف كانين نوفى نان ايفول.",
+      "Englishcoptic": "Tovhem-epshois e-ehri egon, nenyot ethowab en-Zike - os, Ava [*DIOCESE_BISHOP*] pi-Metro-po-litis, entef ka nen-novi nan evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
+      "Side": "North",
+      "Arabic": "أطلب من الرب عنا. يا أبانا القديس البار. أنبا [*DIOCESE_BISHOP*] الاسقف ليغفر لنا خطايانا.",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab ``ndikeoc > abba [*DIOCESE_BISHOP*] pi `epickopoc > `ntefxa nen nobi nan `ebol .",
+      "English": "Pray to the Lord on our behalf, our holy righteous father, Abba [*DIOCESE_BISHOP*] the Bishop , that He may forgive us our sins.",
+      "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إن ذيكيؤس . أفا [*DIOCESE_BISHOP*] بى ابيسكوبوس. انتيف كانين نوفى نان ايفول.",
+      "Englishcoptic": "Tovhem-epshois e-ehri egon, nenyot ethowab en-Zike-os, Ava [*DIOCESE_BISHOP*] pi-Episkopos, entef ka nen-novi nan evol."
     },
     {
       "Type": "Base",
@@ -835,7 +857,7 @@
       "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab ``ndikeoc > abba (…) pi `epickopoc (`mmhtropolhthc) > `ntefxa nen nobi nan `ebol .",
       "English": "Pray to the Lord on our behalf, our holy righteous father, Abba (...). the bishop (the metropolitan), that He may forgive us our sins.",
       "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إن ذيكيؤس . أفا (...) بى ابيسكوبوس. انتيف كانين نوفى نان ايفول.",
-      "Englishcoptic": "Tovhem-epshois e-ehri egon, nenyot ethowab en-Zike - os, Ava ….. pi-Episkopos, entef ka nen-novi nan evol."
+      "Englishcoptic": "Tovhem-epshois e-ehri egon, nenyot ethowab en-Zike - os, Ava (...) pi-Episkopos, entef ka nen-novi nan evol."
     }
   ]
 }

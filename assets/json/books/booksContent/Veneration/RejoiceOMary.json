@@ -42,22 +42,33 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "نسألك يا إبن الله، أن تحفظ حياة بطريركنا، البابا أنبا (...) رئيسُ الكهنة، ثبته على كرسيه.",
-      "Coptic": "Ten;\\o `erok `w `Uioc Qeoc> eqrek`are\\ `e`pwn= `mpenpatriarxhc> papa Abba (...) piarxh`ereuc> matajrof \\ijen pef`qronoc.",
-      "English": "We ask You O Son of God, to keep the life of our patriarch, Pope Abba (...) the high priest, confirm him upon his throne.",
-      "Arabiccoptic": "\b  تين تيهو إروك او إيوس ثيئوس إثريك اريه إمبين باطريارشيس , افا (...) بي ارشي إريفس, ماتاجروف هيجين بيف إثرونوس",
-      "Englishcoptic": "Tentiho erok o Eios Theos: ethrek areh eponkh empen patriarshees: papa Avva (...) piarsheeerevs: matagrof hijen pef ethronos."
+      "Arabic": "نسألك يا إبن الله، أن تحفظ حياة بطريركنا، البابا أنبا [*POPE*] رئيسُ الكهنة، ثبته على كرسيه.",
+      "Coptic": "Ten;\\o `erok `w `Uioc Qeoc> eqrek`are\\ `e`pwn= `mpenpatriarxhc> papa Abba [*POPE*] piarxh`ereuc> matajrof \\ijen pef`qronoc.",
+      "English": "We ask You O Son of God, to keep the life of our patriarch, Pope Abba [*POPE*] the high priest, confirm him upon his throne.",
+      "Arabiccoptic": " تين تيهو إروك او إيوس ثيئوس إثريك اريه إمبين باطريارشيس , افا [*POPE*] بي ارشي إريفس, ماتاجروف هيجين بيف إثرونوس",
+      "Englishcoptic": "Tentiho erok o Eios Theos: ethrek areh eponkh empen patriarshees: papa Avva [*POPE*] piarsheeerevs: matagrof hijen pef ethronos."
     },
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "ISDioceseMetropolitain",
       "Side": "North",
-      "Arabic": "وشريكه في الخدمة الرسولية، أبانا القديس البار، أنبا (...) الأسقف، ثبته على كرسيه.",
-      "Coptic": "Nem pefke`]vhr `nlitourgoc> peniwt eqouab `ndikeoc Abba (...) pi`epickopoc> matajrof \\ijen pef`qronoc.",
-      "English": "And his partner in the liturgy, our holy righteous father, Abba (...) the bishop, confirm him upon his throne.",
-      "Arabiccoptic": "\bنيم بيف كيه إشﭬير إنليتورغوس : بين يوت إثؤواب : إن ذيكيئوس : اﭭا  .  .  .  .  .  . (بي ميت روبوليتيس)(بي إبيسكوبوس ) : ماتاجروف هيﭽين بيف إثرونوس",
-      "Englishcoptic": "Nem pef keshveer enli-toorghos: peniot ethowab en zikeos : Avva (...) pi episkopos: matagrof hijen pef ethronos."
+      "Arabic": "وشريكه في الخدمة الرسولية، أبانا القديس البار، أنبا [*DIOCESE_BISHOP*] ,المطران  ثبته على كرسيه.",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc> peniwt eqouab `ndikeoc Abba [*DIOCESE_BISHOP*] pi`mmhtropolithc> matajrof \\ijen pef`qronoc.",
+      "English": "And his partner in the liturgy, our holy righteous father, Abba [*DIOCESE_BISHOP*] the metropolitain, confirm him upon his throne.",
+      "Arabiccoptic": "نيم بيف كيه إشﭬير إنليتورغوس : بين يوت إثؤواب : إن ذيكيئوس : اﭭا   [*DIOCESE_BISHOP*] بي ميت روبوليتيس : ماتاجروف هيﭽين بيف إثرونوس",
+      "Englishcoptic": "Nem pef keshveer enli-toorghos: peniot ethowab en zikeos : Avva [*DIOCESE_BISHOP*] pi metro-pole-tees: matagrof hijen pef ethronos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
+      "Side": "North",
+      "Arabic": "وشريكه في الخدمة الرسولية، أبانا القديس البار، أنبا [*DIOCESE_BISHOP*] الأسقف، ثبته على كرسيه.",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc> peniwt eqouab `ndikeoc Abba [*DIOCESE_BISHOP*] pi`epickopoc> matajrof \\ijen pef`qronoc.",
+      "English": "And his partner in the liturgy, our holy righteous father, Abba [*DIOCESE_BISHOP*] the bishop, confirm him upon his throne.",
+      "Arabiccoptic": "نيم بيف كيه إشﭬير إنليتورغوس : بين يوت إثؤواب : إن ذيكيئوس : اﭭا   [*DIOCESE_BISHOP*] بي إبيسكوبوس  : ماتاجروف هيﭽين بيف إثرونوس",
+      "Englishcoptic": "Nem pef keshveer enli-toorghos: peniot ethowab en zikeos : Avva [*DIOCESE_BISHOP*] pi episkopos: matagrof hijen pef ethronos."
     },
     {
       "Type": "Base",

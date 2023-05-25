@@ -39,6 +39,18 @@ const settingsSlice = createSlice({
       copticMonth: "",
       copticYear: "",
     },
+    dioceseBishop: {
+      key: "POPE",
+      Arabic: "تاواضروس",
+      Coptic: "Qe`odwrou",
+      English: "Tawadros",
+      Arabiccoptic: "تاواضروس",
+      Englishcoptic: "Tawadros",
+      dioceseArabic: "بابا وبطريرك ورئيس أساقفة المدينة العظمى الاسكندرية",
+      dioceseEnglish:
+        "Pope and Patriarch and Archbishop of the Great City of Alexandria",
+      Rank: "Pope",
+    },
   },
   reducers: {
     setTimeTransition: (state, action) => {
@@ -152,6 +164,12 @@ const settingsSlice = createSlice({
         currentSeason: action.payload.currentSeason,
       };
     },
+    setdioceseBishop: (state, action) => {
+      return {
+        ...state,
+        dioceseBishop: action.payload.dioceseBishop,
+      };
+    },
     setItemPurchased: (state, action) => {
       const permissionId = action.payload.permissionId;
 
@@ -185,5 +203,6 @@ export const setSeason = settingsSlice.actions.setSeason;
 export const setItemPurchased = settingsSlice.actions.setItemPurchased;
 export const changePagination = settingsSlice.actions.changePagination;
 export const setIsTablet = settingsSlice.actions.setIsTablet;
+export const setdioceseBishop = settingsSlice.actions.setdioceseBishop;
 
 export default settingsSlice.reducer;

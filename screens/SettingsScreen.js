@@ -13,6 +13,7 @@ import FontSize from "../components/settings/fontSize";
 import VisibleLangs from "../components/settings/visibleLangs";
 import SaintsList from "../components/settings/saintsList";
 import TodaysPrayer from "../components/settings/todaysPrayer";
+import PopeBishop from "../components/settings/popeBishop";
 import PresentationMode from "../components/settings/presentationMode";
 import {
   getLanguageValue,
@@ -28,6 +29,7 @@ function SettingsScreen({ navigation, route }) {
       <PresentationMode></PresentationMode>
       <FontSize></FontSize>
       <VisibleLangs></VisibleLangs>
+      {/* <PopeBishop></PopeBishop> */}
     </ScrollView>
   );
 }

@@ -41,11 +41,30 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "خَلِّصْنا وارحَمْنا*. ياربُّ ارحَم. ياربُّ ارحَم. يا ربُّ بارك. آمين.",
-      "Coptic": "Cw; `mmon ouo\\ nai nan. Kurie `ele`hcon> Kurie `ele`hcon> Kurie euloghcon `amhn.",
-      "English": "Save us and have mercy on us.* Lord have mercy. Lord have mercy. Lord bless. Amen.",
-      "Arabiccoptic": ": سوتي إممون اووه ناي نان : كيري إليصون كيري إليصون : كيري إفلوجيسون امين :",
-      "Englishcoptic": "Soti em-mon owho nai nan, keryalison keryalison kerie evlogi-swn amen,"
+      "Arabic": "خَلِّصْنا وارحَمْنا*.",
+      "Coptic": "Cw; `mmon ouo\\ nai nan. ",
+      "English": "Save us and have mercy on us.",
+      "Arabiccoptic": " سوتي إممون اووه ناي نان ",
+      "Englishcoptic": "Soti em-mon owho nai nan"
+    },
+    {
+      "Type": "Button",
+      "Arabic": "ختام في حضور البابا/الأسقف",
+      "English": "If Pope/Bishop is Present",
+      "Rule": "OpenSinglePage",
+      "Visible": true,
+      "Path": "RaisingOfIncenseRaisingofIncenseConclusionPope"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ياربُّ ارحَم. ياربُّ ارحَم. يا ربُّ بارك. آمين",
+      "Coptic": "Kurie `ele`hcon> Kurie `ele`hcon> Kurie euloghcon `amhn.",
+      "English": " Lord have mercy. Lord have mercy. Lord bless. Amen.",
+      "Arabiccoptic": " كيري إليصون كيري إليصون : كيري إفلوجيسون امين ",
+      "Englishcoptic": "Keryalison keryalison kerie evlogi-swn amen,"
     },
     {
       "Type": "Base",

@@ -186,7 +186,7 @@
             "English": "Reader:"
         },
         {
-            "Type": "Base",
+            "Type": "Melody",
             "Rule": 0,
             "Visible": true,
             "Side": "North",
