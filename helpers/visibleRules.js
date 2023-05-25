@@ -341,8 +341,9 @@ const isSeason = (motherSource, path) => {
           return true;
         }
         if (path.toLowerCase().includes("ascensionfeast")) {
-          console.log("HERE");
-
+          return true;
+        }
+        if (path.toLowerCase().includes("ascension")) {
           return true;
         }
         return false;
@@ -354,6 +355,9 @@ const isSeason = (motherSource, path) => {
           return true;
         }
         if (path.toLowerCase().includes("ascensionperiod")) {
+          return true;
+        }
+        if (path.toLowerCase().includes("ascension")) {
           return true;
         }
         return false;
