@@ -38,7 +38,6 @@ function PopeBishop() {
     setModalVisible(false);
   }
   function setBishop(bishop) {
-    console.log(bishop);
     // let mycurrentSeason = setCurrentSeasonByKey(timeTransition, feast);
     dispatch(setdioceseBishop({ dioceseBishop: bishop }));
     setModalVisible(false);

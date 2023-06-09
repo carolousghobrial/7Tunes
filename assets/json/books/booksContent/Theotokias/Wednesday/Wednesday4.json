@@ -23,7 +23,7 @@
       "Arabic": "أعلنت لنا ميلاد، الله الذي أتى إلينا، وبشرتَ مريم العذراء، غير الدنسة.",
       "Coptic": "Akercummenin nan `mpi`jvo> `nte `Vnou; `etaf`i ]aron> ak\\i]ennoufi `mMaria> :parqenoc `natqwleb.",
       "English": "For you announced to us the birth, of God who came to us, and you declared to Mary, the undefiled Virgin.",
-      "Arabiccoptic": "\b أكئير سيم مينين نان إمبى إجفو: انتيه إفنوتى إيطافئى شارون: أكهي شينووفى إم ماريا: تى بارثينوس إن آتثوليب .",
+      "Arabiccoptic": " أكئير سيم مينين نان إمبى إجفو: انتيه إفنوتى إيطافئى شارون: أكهي شينووفى إم ماريا: تى بارثينوس إن آتثوليب .",
       "Englishcoptic": "Ak-ersim-menin nan empi-egvo: ente Evnoti etaf-ee sharon: ak hi-shennoofi em-Maria: Ti-parthenos en-at-tholeb."
     },
     {
@@ -31,10 +31,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b قائلاً \"إفرحي يا مُمْتلئة نعمة، الربُّ مَعَكِ، لأنكِ وجدتِ نعمة، والرُّوح القُدُس يحل عليكِ.\"",
+      "Arabic": " قائلاً \"إفرحي يا مُمْتلئة نعمة، الربُّ مَعَكِ، لأنكِ وجدتِ نعمة، والرُّوح القُدُس يحل عليكِ.\"",
       "Coptic": "Je xere qheqme\\ `n`\\mot> ouo\\ `Psoic ]op neme> `arejimi gar `nou`\\mot> Ou`pneuma efouab eqnhou `ejw.",
-      "English": "\b Saying “Hail to you O full of grace, the Lord is with you, you have found favor, the Holy Spirit shall come upon you.",
-      "Arabiccoptic": "\b جيه شيريه ثى إثميه إن إهموت: أووه إبتشويس شوب نيه ميه: آرى جيمى غار إن اوو إهموت: أوو بنيفما إفؤواب إثنيوو إيجو .",
+      "English": " Saying “Hail to you O full of grace, the Lord is with you, you have found favor, the Holy Spirit shall come upon you.",
+      "Arabiccoptic": " جيه شيريه ثى إثميه إن إهموت: أووه إبتشويس شوب نيه ميه: آرى جيمى غار إن اوو إهموت: أوو بنيفما إفؤواب إثنيوو إيجو .",
       "Englishcoptic": "Je shere thee-ethmeh en-ehmot: owoh Epchois shop neme: are-jimi ghar en-oo-ehmot: Oo-epnevma efowab eth-neioo ego."
     },
     {
@@ -45,7 +45,7 @@
       "Arabic": "وقوة العلي، تظللكِ يا مريم، تلدين القدوس، مخلص العالم كله.\"",
       "Coptic": "Oujom `nte Vhetsoci> eqnaer=hibi `ero Maria> teramici `mVheqouab> `Pcwthr `mpikocmoc thrf.",
       "English": "For the power of the Most High, will overshadow you Mary, you shall give birth to the Holy One, the Savior of the whole world.”",
-      "Arabiccoptic": "\b أووجوم انتيه في إتتشوسى: إثنا إيرخيفى ايرو ماريا: تيراميسى إمفى إثؤواب: ابصوتير امبى كوزموس تيرف .",
+      "Arabiccoptic": " أووجوم انتيه في إتتشوسى: إثنا إيرخيفى ايرو ماريا: تيراميسى إمفى إثؤواب: ابصوتير امبى كوزموس تيرف .",
       "Englishcoptic": "Oogom ente Vee-etchosi: ethna-erkheevi ero Maria: tera-misi em-Vee-ethowab: Epsoteer empi-kosmos teerf."
     },
     {
@@ -56,7 +56,7 @@
       "Arabic": "تطَّلع الآب من السماء، فلم يجد مَنْ يُشبهكِ، أرسل وحيده، أتى وتجسد منكِ.",
       "Coptic": "`A `Viwt jou]t `ebol =en `tve> `mpefjem vhet`oni `mmo> afouwrp `mpefmonogenhc> `i afsicar[ `ebol `n=h;.",
       "English": "The Father looked from heaven, and found no one like you, He sent His only-begotten, who came and took flesh from you.",
-      "Arabiccoptic": "\b آه إفيوت جووشت إيفول خين إتفى: امبيف جيم في إتؤنى إممو: أفؤواورب إمبيف مونو جينيس: إى آفتشى صاركس إيفول إنخيتى .",
+      "Arabiccoptic": " آه إفيوت جووشت إيفول خين إتفى: امبيف جيم في إتؤنى إممو: أفؤواورب إمبيف مونو جينيس: إى آفتشى صاركس إيفول إنخيتى .",
       "Englishcoptic": "A Eviot goosht evol khen etve: empef jem vee et-oni emmo: af oo-orp empef-mono-genees: ee-afchi-sarex evol enkheeti."
     }
   ]

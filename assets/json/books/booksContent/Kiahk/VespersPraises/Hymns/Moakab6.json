@@ -9,10 +9,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b كثيرة هى زلاتى. ودنس جسدى. وقليلة هى فضائلى . ياإلهى لاتتركنى عنك ( لاترفضنى ).",
+      "Arabic": " كثيرة هى زلاتى. ودنس جسدى. وقليلة هى فضائلى . ياإلهى لاتتركنى عنك ( لاترفضنى ).",
       "Coptic": "Zeo] `nje na para`ptwma > nem `pqwleb `nte pacwma > euerkouji `nje nakaqartwma > Panou; `mperxat `ncwk .",
       "English": "Many are my iniquities, and the impurities of my body, and few are my virtues, O my God do not turn away from me.",
-      "Arabiccoptic": "\b ذيؤش إنجى نا بارابطوما . نيم إبثوليب إنتى با سوما . إفئير كوجى إنجى نا كاثارتوما . بانوتى إمبير كات إنسوك .",
+      "Arabiccoptic": " ذيؤش إنجى نا بارابطوما . نيم إبثوليب إنتى با سوما . إفئير كوجى إنجى نا كاثارتوما . بانوتى إمبير كات إنسوك .",
       "Englishcoptic": "Ze-osh enje na parabtoma, nem eptholeb ente pasoma, ev-er kogi enje na kathartoma, Panouty emper kat enthok."
     },
     {
@@ -31,10 +31,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b من أجل ... مريم موضع راحتك . التى أمرت موسى عبدك . صنع مثالها .",
+      "Arabic": " من أجل قديستك . مريم موضع راحتك . التى أمرت موسى عبدك . صنع مثالها .",
       "Coptic": "Eqbe qheq?u? `ntak > Mari`a `vma`nemton `mmok > `etak\\on\\en `mMw`uchc pekbwk > afqami`o `mpectupoc .",
       "English": "For the sake of Your saint, Mary Your resting place, concerning whom You ordered your servant Moses, to make a simple of.",
-      "Arabiccoptic": "\b إثفى... ماريا إفما إن إمطون إمموك. إيطاك هونهين إم مويسيس بيك فوك. أفثاميو إمبيس تيبوس.",
+      "Arabiccoptic": " إثفى ثى إثؤاب إنتاك . ماريا إفما إن إمطون إمموك. إيطاك هونهين إم مويسيس بيك فوك. أفثاميو إمبيس تيبوس.",
       "Englishcoptic": "Ethve thi ethowab entak, Maria efma en emton emmok, etak honhen em moisis pekvok, afthamio empes typos."
     },
     {
@@ -42,10 +42,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "صنع ... كأمرك جيداً . لأنه صنع تابوتاً . من خشب اللوز .",
+      "Arabic": "صنع مثالها . كأمرك جيداً . لأنه صنع تابوتاً . من خشب اللوز .",
       "Coptic": "Afqami`o `mpectupoc > kata pek\\on\\en kalwc > je afqami`o `noukibwtoc > =en \\an]e `mpaukinon .",
       "English": "To make a simple of, according to Your good command, for he made a tabernacle, out of almond wood.",
-      "Arabiccoptic": "أفثاميو... كاطا بيك هونهين كالوس. جى أفثاميو إن إوكيفوتوس . خين هان شى إمباف كينون .",
+      "Arabiccoptic": "أفثاميو إمبيس تيبوس . كاطا بيك هونهين كالوس. جى أفثاميو إن إوكيفوتوس . خين هان شى إمباف كينون .",
       "Englishcoptic": "Afthamio empes typos, kata pekhonhen kalos, je afthamio en o kivotos, khen hanshe empavkinon."
     },
     {
@@ -53,10 +53,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b من... والقسط الذهب أيضاً. والمنارة ذات السيقان (القصبان) والمجمرة والأوانى.",
+      "Arabic": " من خشب اللوز . والقسط الذهب أيضاً. والمنارة ذات السيقان (القصبان) والمجمرة والأوانى.",
       "Coptic": "+en \\an]e `mpaukinon > nem pi`ctamnoc `nnob deon > nem ;luxni`a `nkalamon > nem ;]ourh nem ni`ckeuoc .",
       "English": "Out of almond wood, and also a golden vessel, and a lampstand with a rod, the censer and the barrels.",
-      "Arabiccoptic": "\b خين ... نيم بى إستامنوس إن نوب ذيئون. نيم تى ليخنيا إن كالامون.نيم تى شورى نيم نى إسكيفوس.",
+      "Arabiccoptic": " خين هان شى إمباف كينون . نيم بى إستامنوس إن نوب ذيئون. نيم تى ليخنيا إن كالامون. نيم تى شورى نيم نى إسكيفوس.",
       "Englishcoptic": "Khen hanshe empavkinon, nem pi estamnos ennob zi-on, nem ti lykhnia en kalamon, nem tishoty nem ni eskivos."
     },
     {
@@ -64,10 +64,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "والمجمرة ... الموضوعة فى التابوت. هؤلاء كلهم . مثال لوالدة الإله .",
+      "Arabic": " والمجمرة والأوانى . الموضوعة فى التابوت. هؤلاء كلهم . مثال لوالدة الإله .",
       "Coptic": "Nem ;]ourh nem ni`ckeuoc > etxh =en ;kibwtoc > `anai throu ertupoc > eqbe ;qe`otokoc .",
       "English": "The censer and the barrels, that were placed in the tabernacle, are all symbols, because of the Theotokos.",
-      "Arabiccoptic": "نيم تى شورى ... إتكى خين تى كيفوتوس . أناى تيرو إيرتيبوس . إثفى تى ثيؤتوكوس .",
+      "Arabiccoptic": "نيم تى شورى نيم نى إسكيفوس . إتكى خين تى كيفوتوس . أناى تيرو إيرتيبوس . إثفى تى ثيؤتوكوس .",
       "Englishcoptic": "Nem tishoty nem ni eskivos, etki khen ti kivotos, a nai tiro ertypos, ethve ti theotokos."
     },
     {
@@ -75,10 +75,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b مثال ... فتح الفردوس . لأن الرب رحم شعبه . آتى وخلصنا .",
+      "Arabic": " مثال لوالدة الإله . فتح الفردوس . لأن الرب رحم شعبه . آتى وخلصنا .",
       "Coptic": "Eqbe ;qe`otokoc > auouwn `mpiparadicoc > je `aP_ nai =a peflaoc > af`i ouo\\ afcw; `mmon .",
       "English": "Because of the Theotokos, paradise has been reopened, for the Lord was merciful to His people, He came and saved us.",
-      "Arabiccoptic": "\b إثفى ... أفؤون إمبى باراديسوس. جى أ إبشويس ناى خابيف لاؤس. أفىء أووه أفسوتى إممون .",
+      "Arabiccoptic": " إثفى تى ثيؤتوكوس  . أفؤون إمبى باراديسوس. جى أ إبشويس ناى خابيف لاؤس. أفىء أووه أفسوتى إممون .",
       "Englishcoptic": "Ethve ti theotokos, af o-on empi paradisos, je a Epshois nai khapef laos. af-e owoh afsoty emmon."
     },
     {

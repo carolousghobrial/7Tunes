@@ -14,21 +14,24 @@ import {
 export const ComeRisenRule = () => {
   const fastsFeasts = getCopticFastsFeasts(moment().year());
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  var date = new Date(
-    currentSeason.gregorianYear,
-    currentSeason.gregorianMonth,
-    currentSeason.gregorianDayOfMonth,
-    0,
-    0,
-    0,
-    0
+  var date = moment(
+    new Date(
+      currentSeason.gregorianYear,
+      currentSeason.gregorianMonth,
+      currentSeason.gregorianDayOfMonth,
+      0,
+      0,
+      0,
+      0
+    )
   );
-  var today = new moment(date);
+  var today = currentSeason.day;
   var Kiahk = fastsFeasts.find((element) => element.key === "NATIVITY_FAST");
   var Resurrection = fastsFeasts.find(
     (element) => element.key === "RESURRECTION"
   );
   var PENTECOST = fastsFeasts.find((element) => element.key === "PENTECOST");
+
   switch (currentSeason.key) {
     case "NATIVITY":
     case "NATIVITY_PARAMOUN":
@@ -62,19 +65,11 @@ export const ComeRisenRule = () => {
         englishcoptic: "av-ashk",
         arabiccoptic: "اف اشك",
       };
-    default:
-      break;
-  }
-  if (today.isBetween(Resurrection.start, PENTECOST.start)) {
-    return {
-      english: "have risen",
-      coptic: "aktwnk",
-      arabic: "قمت",
-      englishcoptic: "aktonk",
-      arabiccoptic: "اكتونك",
-    };
-  } else if (today.isBetween(PENTECOST.start, Kiahk.start)) {
-    if (today.day() === 0) {
+    case "HOLY_50":
+    case "RESURRECTION":
+    case "ASCENSION":
+    case "ASCENSIONTOPENTECOST":
+    case "PENTECOST":
       return {
         english: "have risen",
         coptic: "aktwnk",
@@ -82,15 +77,26 @@ export const ComeRisenRule = () => {
         englishcoptic: "aktonk",
         arabiccoptic: "اكتونك",
       };
-    }
+    default:
+      if (date.isBetween(PENTECOST.start, Kiahk.start)) {
+        if (today === 0) {
+          return {
+            english: "have risen",
+            coptic: "aktwnk",
+            arabic: "قمت",
+            englishcoptic: "aktonk",
+            arabiccoptic: "اكتونك",
+          };
+        }
+      }
+      return {
+        english: "have come",
+        coptic: "ak`i",
+        arabic: "اتيت",
+        englishcoptic: "ak-ee",
+        arabiccoptic: "اك إي",
+      };
   }
-  return {
-    english: "have come",
-    coptic: "ak`i",
-    arabic: "اتيت",
-    englishcoptic: "ak-ee",
-    arabiccoptic: "اك إي",
-  };
 };
 
 export const ROICONCLUSION = (motherSource) => {
@@ -258,6 +264,7 @@ export const ROICONCLUSION = (motherSource) => {
           "أبؤرو انتيه ابؤؤ افتونف ايفول خين ني ايث موؤت خين بي ايهوؤ امماه شومت",
       };
     case "ASCENSION":
+    case "ASCENSIONTOPENTECOST":
       return {
         english:
           "who is risen from the dead, ascended into the heavens, and is seated at the right hand of His Father.",
@@ -270,32 +277,18 @@ export const ROICONCLUSION = (motherSource) => {
           "آفطونف إيﭬول خين ني إثموأووت : أووه آفشيناف إيه إبشوي إيه ني في أووي : آفهيمسي صا أووي نام إمبيف يوت",
       };
     case "HOLY_50":
-      if (today.isBetween(ASCENSION.start, PENTECOST.start)) {
-        return {
-          english:
-            "who is risen from the dead, ascended into the heavens, and is seated at the right hand of His Father.",
-          coptic:
-            "aftwnf `ebol =en nheqmwout> ouo\\ af]enaf `e`p]wi `enivhou`i> af\\emci caou`inam `mPefiwt.",
-          arabic:
-            "الذي قام من بين الأموات، وصعد إلى السموات، وجلس عن يمين أبيه.",
-          englishcoptic:
-            "Aftonf evol khen ni-ethmo-ot, owoh afshenaf epshoi eni-fi-owwe, af-hemsi sa-ow-we-nam empef-iot.",
-          arabiccoptic:
-            "آفطونف إيﭬول خين ني إثموأووت : أووه آفشيناف إيه إبشوي إيه ني في أووي : آفهيمسي صا أووي نام إمبيف يوت",
-        };
-      } else {
-        return {
-          english:
-            "the King of glory, who has risen from the dead on the third day.",
-          coptic:
-            "`Pouro `nte `p`wou> aftwnf `ebol =en nheqmwout =en pi`e\\oou `mma\\]omt.",
-          arabic: "ملك المجد، (الذي) قام من بين الأموات في اليوم الثالث.",
-          englishcoptic:
-            "Ep-oro ente ep-o-oo, aftonf evol khennieth-mo-oot khenpi-eho-oo emmah-shomt.",
-          arabiccoptic:
-            "أبؤرو انتيه ابؤؤ افتونف ايفول خين ني ايث موؤت خين بي ايهوؤ امماه شومت",
-        };
-      }
+      return {
+        english:
+          "the King of glory, who has risen from the dead on the third day.",
+        coptic:
+          "`Pouro `nte `p`wou> aftwnf `ebol =en nheqmwout =en pi`e\\oou `mma\\]omt.",
+        arabic: "ملك المجد، (الذي) قام من بين الأموات في اليوم الثالث.",
+        englishcoptic:
+          "Ep-oro ente ep-o-oo, aftonf evol khennieth-mo-oot khenpi-eho-oo emmah-shomt.",
+        arabiccoptic:
+          "أبؤرو انتيه ابؤؤ افتونف ايفول خين ني ايث موؤت خين بي ايهوؤ امماه شومت",
+      };
+
     case "PENTECOST":
       return {
         english:

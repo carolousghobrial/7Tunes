@@ -23,7 +23,7 @@
       "Arabic": "حِلُّوا من قلوبكم، أفكار الظلم، والحسد والجهل، وكل غش ومكيدة.",
       "Coptic": "Bwl `ebol =en neten\\ht> `nnimokmek `nte ;kakia> nem pi`vqonoc nem ;metat\\ht> nem `xrof niben nem panorgia.",
       "English": "Loosen from your hearts, the evil thoughts, envy and ignorance, and every guile and malice.",
-      "Arabiccoptic": "\b فول إيفول خين نيتين هيت: إننى موك ميك أنتى تى أكيا: نيم بيفونوس نيم تى ميت أتهيت: نيم إكروف نيفين نيم بانورغيا  .",
+      "Arabiccoptic": " فول إيفول خين نيتين هيت: إننى موك ميك أنتى تى أكيا: نيم بيفونوس نيم تى ميت أتهيت: نيم إكروف نيفين نيم بانورغيا  .",
       "Englishcoptic": "Vol evol khen ne-ten-heet: enni-mokmek ente ti-kakia: nem pi-evthonos nem ti-met-at-heet: nem ek-rof niven nem pan-orgia."
     },
     {
@@ -31,10 +31,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b يا جميع أجناس المؤمنين، عيِّدوا ملائكياً، بمزامير وتسابيح، وترانيم روحية.",
+      "Arabic": " يا جميع أجناس المؤمنين، عيِّدوا ملائكياً، بمزامير وتسابيح، وترانيم روحية.",
       "Coptic": "Genoc niben `nte nipictoc> auic `ari]ai `naggelikon> =en \\anyalmoc nem \\an\\wc> nem \\an\\wdh `m`pneumatikon.",
-      "English": "\b O you believers, celebrate an angelic feast, with psalms and praises, and spiritual songs.",
-      "Arabiccoptic": "\b جينوس نيفين إنتى نى بيستوس: أفسيس أرى شاى إن انجيليكون: خين هان بصالموس: نيم هان هوذى إمبنفماتيكون  .",
+      "English": " O you believers, celebrate an angelic feast, with psalms and praises, and spiritual songs.",
+      "Arabiccoptic": " جينوس نيفين إنتى نى بيستوس: أفسيس أرى شاى إن انجيليكون: خين هان بصالموس: نيم هان هوذى إمبنفماتيكون  .",
       "Englishcoptic": "Genos niven ente ni-pistos: av-ees ari-shai en-angelikon: khen han-epsalmos nem han-hos: nem han-hozee em-epnev-matikon."
     },
     {
@@ -42,10 +42,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b داودية قائلين، \"مبارك الآتي بإسم، الرب الصالح منذ الآن، وإلى آخر الأزمنة.\"",
+      "Arabic": " داودية قائلين، \"مبارك الآتي بإسم، الرب الصالح منذ الآن، وإلى آخر الأزمنة.\"",
       "Coptic": "Dauidikon efjw `mmoc> `f`cmarwout `nje vheqnhou> =en `vran `m`Psoic Pi`agaqoc> icjen ;nou ]a `p=a`e `nnichou.",
-      "English": "\b [Songs of] David saying, “Blessed is He who comes in the name, of the good Lord, from now and to the end of time.”",
-      "Arabiccoptic": "\bدافيديكون إفجو إمموس: إف اسمارؤوت إنجى فيئثنيو: خين إفران إم ابتشويس بى أغاثوس: إيسجين تينو شا إبخائى إننى سيو  .",
+      "English": " [Songs of] David saying, “Blessed is He who comes in the name, of the good Lord, from now and to the end of time.”",
+      "Arabiccoptic": "دافيديكون إفجو إمموس: إف اسمارؤوت إنجى فيئثنيو: خين إفران إم ابتشويس بى أغاثوس: إيسجين تينو شا إبخائى إننى سيو  .",
       "Englishcoptic": "Daveed-eekon efgo emmos: ef-esmaroot enje vee-ethneioo: khen efran em-Epchois Pi-agha-thos: yes-jen ti-noo sha ep-khae en-ni-seioo."
     },
     {
@@ -56,7 +56,7 @@
       "Arabic": "لتفرح البقاع، وكل ما فيها، من أجل مجئ المسيح إلهنا، كقول الأنبياء.",
       "Coptic": "Eu`era]i `nje nime]]o;> nem \\wb niben `ete `n=htou> eqbe `pjin`i `mPi`xrictoc Pennou;> kata `pcaji `nni`provhthc.",
       "English": "Let the fields rejoice, and everyone on them, for Coming of Christ our God, according to the prophetic voices.",
-      "Arabiccoptic": "\b إفئى راشى إنجى نى ميش شومت: نيم هوب نيفين إتى إنخيتو: إثفى إبجينئى إم بخريستوس بين نووتى: كاطا ابساجى إننى بروفيتيس  .",
+      "Arabiccoptic": " إفئى راشى إنجى نى ميش شومت: نيم هوب نيفين إتى إنخيتو: إثفى إبجينئى إم بخريستوس بين نووتى: كاطا ابساجى إننى بروفيتيس  .",
       "Englishcoptic": "Ev-e-rashi enje ni-mesh-shoti: nem hob niven ete en-kheetoo: ethve ep-jin-ee em-Pi-ekhristos Pennooti: kata ep-saji en-ni-eprofeetees."
     },
     {
@@ -67,7 +67,7 @@
       "Arabic": "زكريا الطاهر قال، بالروح القدس، هكذا \"إفرحي، يا إبنة صهيون.",
       "Coptic": "Zaxariac pikaqaroc> =en Ou`pneuma `n`Agion> `mpairh; efjw `mmoc> je ounof `mmo `t]eri `nCiwn.",
       "English": "The pure Zechariah, by the Holy Spirit, likewise he said, “Rejoice O daughter of Zion.",
-      "Arabiccoptic": "\b زاخارياس بى كاثاروس: خين أووبنيفما إن اجيون: إمباى ريتى إفجو إمموس: جى أوونوف إتشيرى إنسيون  .",
+      "Arabiccoptic": " زاخارياس بى كاثاروس: خين أووبنيفما إن اجيون: إمباى ريتى إفجو إمموس: جى أوونوف إتشيرى إنسيون  .",
       "Englishcoptic": "Zakharias pi-katharos: khen Oo-epnevma en-Agion: empai-reeti efgo emmos: je oonof emmo et-sheri en-Sion."
     },
     {
@@ -75,10 +75,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b هوذا ملكك يأتيكِ، بمجد وكرامة، وتسبيح حسن، راكباً على آتان.\"",
+      "Arabic": " هوذا ملكك يأتيكِ، بمجد وكرامة، وتسبيح حسن، راكباً على آتان.\"",
       "Coptic": "Hppe ic Peouro efnhou> =en ou`wou nem outaio> nem \\an\\umnoc `enaneu> eftalhout `eou`e`w.",
-      "English": "\b Behold your King is coming, in glory and honor, and with good hymns, riding on a donkey.”",
-      "Arabiccoptic": "\b إيببى إس بى أوورو إفنيوو: خين أوو أوأوو نيم أووطايو: نيم هان هيمنوس إنا نيف: إفطاليووت إ أوو إ إو  .",
+      "English": " Behold your King is coming, in glory and honor, and with good hymns, riding on a donkey.”",
+      "Arabiccoptic": " إيببى إس بى أوورو إفنيوو: خين أوو أوأوو نيم أووطايو: نيم هان هيمنوس إنا نيف: إفطاليووت إ أوو إ إو  .",
       "Englishcoptic": "Eeppe yes Peooro ef-neioo: khen oo-o-oo nem oo-taio: nem han-himnos en-anev: ef-taleioot e-oo-e-o."
     },
     {
@@ -86,10 +86,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b تكلم أشعياء عابد الله، بالمنطق الإلهي، بلسان ماهر حسن النطق، \"قولوا لمدن يهوذا.",
+      "Arabic": " تكلم أشعياء عابد الله، بالمنطق الإلهي، بلسان ماهر حسن النطق، \"قولوا لمدن يهوذا.",
       "Coptic": "Qeoc`ebhc `Hca`hac> afcaji =en ouqe`oria> =en oulac ef]ep]op eulalwc> je `ajoc `nnibaki `nte Iouda.",
-      "English": "\b Isaiah the worshiper of God, spoke with the divine voice, with a good and clever tongue, “Tell the cities of Judah.",
-      "Arabiccoptic": "\bثيؤسيفيس إيصائياس: أفساجى خين أووثيؤريا: خين أوولاس إفشيب شوب إفلالوس: جى أجوس إننى فاكى إنتى يوودا  .",
+      "English": " Isaiah the worshiper of God, spoke with the divine voice, with a good and clever tongue, “Tell the cities of Judah.",
+      "Arabiccoptic": "ثيؤسيفيس إيصائياس: أفساجى خين أووثيؤريا: خين أوولاس إفشيب شوب إفلالوس: جى أجوس إننى فاكى إنتى يوودا  .",
       "Englishcoptic": "Theos-evees Eesa-eias: afsaji khen oo-the-oria: khen oo-las ef-shep-shop ev-lalos: je agos enni-vaki ente Yooza."
     },
     {
@@ -100,7 +100,7 @@
       "Arabic": "ها هو ربكم العزيز، يأتي كمثل راعي، يرعى قطيع غنمه، وسيعزِّيهم.\"",
       "Coptic": "Ic Petensoic vhet`ama\\i> efnhou \\wc man`ecwou> `nthf`amoni `mpef`o\\i> `n`ecwou `fna;nom; nwou.",
       "English": "Behold your majestic Lord, comes like a shepherd, who shepherds his flock, and comforts them.”",
-      "Arabiccoptic": "\bيس بيتين تشويس فيئت اماهى: إفنيوو هوس مان إسؤو إنتيف أمونى إمبيف أوهى: إن إسؤو إفناتى نومتى نؤو  .",
+      "Arabiccoptic": "يس بيتين تشويس فيئت اماهى: إفنيوو هوس مان إسؤو إنتيف أمونى إمبيف أوهى: إن إسؤو إفناتى نومتى نؤو  .",
       "Englishcoptic": "Yes Peten-chois vee-eta-mahi: ef-neioo hos man-eso-oo: enteef-amoni empef-ohi: en-eso-oo efnati-nomti no-oo."
     },
     {
@@ -111,7 +111,7 @@
       "Arabic": "وقال أيضاً أبونا يعقوب، \"لا تفنى الرئاسة من يهوذا، حتى يأتي الذي له، لغات الألسن.\"",
       "Coptic": "Ke palin peniwt Iakwb pejaf> `nnearxwn mounk =en Ioudac> ]a tef`i `nje vh`ete ;jom naf> `ete nouf `nniacpi `nlac.",
       "English": "And also our father Jacob said, “The authority will not leave Judah, until the Coming of Him who has, the power of many tongues.”",
-      "Arabiccoptic": "\b كى بالين بينيوت ياكوب بيجاف: إننى أرخون مونك خين يوداس: شاتيفئى إنجى فيئتئى تيجوم ناف: إتى نووف إننى أسبى انلاس  .",
+      "Arabiccoptic": " كى بالين بينيوت ياكوب بيجاف: إننى أرخون مونك خين يوداس: شاتيفئى إنجى فيئتئى تيجوم ناف: إتى نووف إننى أسبى انلاس  .",
       "Englishcoptic": "Ke palin peniot Yakob pe-gaf: en-ne-arkon moonk khen Yoodas: sha tef-ee enje vee-ete tigom naf: ete no-of enni-aspi enlas."
     },
     {
@@ -119,10 +119,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b كل الشعوب والقبائل، له تنتظر، يربط في الكرمة، جحشه بفرح.",
+      "Arabic": " كل الشعوب والقبائل، له تنتظر، يربط في الكرمة، جحشه بفرح.",
       "Coptic": "Laoc niben nem nivulh> eu`ejou]t `ebol =ajwf> `ntefmour =en ;bw `n`aloli> `mpefchj =en ouounof.",
-      "English": "\b Every nation and the tribes, wait upon Him, to tie His colt, to the vine in joy.",
-      "Arabiccoptic": "\b لاؤس نيفين نيم نيفيلى: إفئى جووشت إيفول خاجوف: إنتيف موور خين تى فو إن ألولى: إمبيف سيج خين أوونوف  .",
+      "English": " Every nation and the tribes, wait upon Him, to tie His colt, to the vine in joy.",
+      "Arabiccoptic": " لاؤس نيفين نيم نيفيلى: إفئى جووشت إيفول خاجوف: إنتيف موور خين تى فو إن ألولى: إمبيف سيج خين أوونوف  .",
       "Englishcoptic": "Laos niven nem ni-vilee: ev-egoosht evol khagof: entef-moor khen tivo en-aloli: empef-seeg khen oo-oonof."
     },
     {
@@ -130,10 +130,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b فلنقل كلنا هكذا، مع أرميا النبي الفاضل، \"هذا هو إلهنا، لا نحسب آخر أن يختار معه.\"",
+      "Arabic": " فلنقل كلنا هكذا، مع أرميا النبي الفاضل، \"هذا هو إلهنا، لا نحسب آخر أن يختار معه.\"",
       "Coptic": "Marenjoc thren `mpairh;> nem Ieremiac peqnanef pi`provhthc> je vai pe Pennou;> `nnenwp `nkeouai `ncwtp nemaf.",
-      "English": "\b Let us all say with, Jeremiah the good prophet, “This is our God, none other can choose but Him.”",
-      "Arabiccoptic": "\b مارين جوس تيرين إمباى ريتى: نيم يرمياس بيثنانيف بى بروفيتيس: جى فاى بى بين نووتى : إننين أوب إنكى أوواى إسوتب نيماف  .",
+      "English": " Let us all say with, Jeremiah the good prophet, “This is our God, none other can choose but Him.”",
+      "Arabiccoptic": " مارين جوس تيرين إمباى ريتى: نيم يرمياس بيثنانيف بى بروفيتيس: جى فاى بى بين نووتى : إننين أوب إنكى أوواى إسوتب نيماف  .",
       "Englishcoptic": "Marengos teeren empai-reeti: nem Yeremias peth-nanef pi-eprofeetees: je fai pe Pennooti: enn-enop enke-owai en-sotp nemaf."
     },
     {
@@ -144,7 +144,7 @@
       "Arabic": "هو وجد كل طريق، المعرفة وأعطاها، ليعقوب بإستقامة، وإسرائيل كما يليق.",
       "Coptic": "`Nqof afjimi `mmwit niben> `nte ;`epictimh> afthic `nIakwb =en oucwouten> nem Picrahl kata `vtomi.",
       "English": "He found every way, of knowledge and granted it, to Jacob with understanding, and to Israel as they deserve.",
-      "Arabiccoptic": "\b إنثوف أف جيمى إممويت نيفين:إنتى تى إبيستيمى:أفتيس إن ياكوب خين أووسؤوتين: نيم بيرائيل كاطا إفتومى  .",
+      "Arabiccoptic": " إنثوف أف جيمى إممويت نيفين:إنتى تى إبيستيمى:أفتيس إن ياكوب خين أووسؤوتين: نيم بيرائيل كاطا إفتومى  .",
       "Englishcoptic": "Enthof afjimi emmoit niven: ente ti-epis-timee: aftee-ees en-Yakob khen oo-soo-oten: nem Pisraeel kata ev-tomi."
     },
     {
@@ -155,7 +155,7 @@
       "Arabic": "وبغتةً بعد هذا، ظهر على الأرض، وإشترك في المشيْ مع، الناس التُرابيين.",
       "Coptic": "{apina menenca nai> afouwn\\f \\ijen pika\\i> afer`]vhr `mmo]i ca`mnai> nem nirwmi `nrem`nka\\i.",
       "English": "Suddenly thereafter, He appeared on earth, and participated in walking, with the people of the earth.",
-      "Arabiccoptic": "\bكسابينا مينينصا ناى: أف اوس اونهف هيجين بى كاهى: أفئير إشفير إمموشى صا إمناى: نيم نيم نى رومى إنريم إنكاهى  .",
+      "Arabiccoptic": "كسابينا مينينصا ناى: أف اوس اونهف هيجين بى كاهى: أفئير إشفير إمموشى صا إمناى: نيم نيم نى رومى إنريم إنكاهى  .",
       "Englishcoptic": "Exapina men-ensa nai: af-oo-onhf hijen pi-kahi: af-er-eshveer em-moshi sa-emnai: nem ni-romi en-remen-kahi."
     },
     {
@@ -163,10 +163,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b عجباً مُمتلئ مجداً، أن الجالس فوق الشاروبيم، في مثل هذا اليوم، دخل أورُشَليم.",
+      "Arabic": " عجباً مُمتلئ مجداً، أن الجالس فوق الشاروبيم، في مثل هذا اليوم، دخل أورُشَليم.",
       "Coptic": "Ou`]vhri efme\\ `n`wou> vhet\\emci \\ijen Nixeroubim> kata `vrh; `mpai`e\\oou> af`i `e=oun `eIeroucalhm.",
-      "English": "\b A wonder full of glory, He who sits upon the Cherubim, on this day, entered Jerusalem.",
-      "Arabiccoptic": "\bأوو إشفيرى إفميه إنؤو: فيئتهمسى هيجين نى شيروبيم: كاطا إفريتى إمباى إيهؤو: أفئى إخون إيروساليم  .",
+      "English": " A wonder full of glory, He who sits upon the Cherubim, on this day, entered Jerusalem.",
+      "Arabiccoptic": "أوو إشفيرى إفميه إنؤو: فيئتهمسى هيجين نى شيروبيم: كاطا إفريتى إمباى إيهؤو: أفئى إخون إيروساليم  .",
       "Englishcoptic": "Oo-esh-veeri efmeh en-o-oo: vee-et-hemsi hijen Ni-sheroobim: kata ev-reeti empai-eho-oo: af-ee ekhoon eYeroo-saleem."
     },
     {
@@ -174,10 +174,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b الملك الخالق، الغير المرئي، رأوه راكب آتان، والأطفال قدامه.",
+      "Arabic": " الملك الخالق، الغير المرئي، رأوه راكب آتان، والأطفال قدامه.",
       "Coptic": "Piouro `nrefqamio> Piaqnau `erof cenau `erof> eftalhout `eou`e`w> `ere ni`alwou`i =ajwf.",
-      "English": "\b The King and the Creator, the Unseen One, was seen riding a donkey, and the children before Him.",
-      "Arabiccoptic": "\bبى أوورو إنريف ثاميو: بى أثناف إيروف سيناف إيروف: إفطاليووت إ أوو إ أو: إيرى نى ألو أووى خاجوف  .",
+      "English": " The King and the Creator, the Unseen One, was seen riding a donkey, and the children before Him.",
+      "Arabiccoptic": "بى أوورو إنريف ثاميو: بى أثناف إيروف سيناف إيروف: إفطاليووت إ أوو إ أو: إيرى نى ألو أووى خاجوف  .",
       "Englishcoptic": "Pi-ooro enref-thamio: Pi-athnav erof senav erof: efta-leioot e-oo-e-o: ere ni-aloo-owi khagof."
     },
     {
@@ -188,7 +188,7 @@
       "Arabic": "يرتلون جهراً، بأصوات حسنة، ويمدحون عظمته، بغير سكوت.",
       "Coptic": "Rhtoc eueryalin> =en \\an`cmh euveri`wou> ouo\\ euerxwreuin> `ntefmeqni]; `natxarwou.",
       "English": "Chanting fervently, in good voices, praising His greatness, without silence.",
-      "Arabiccoptic": "\b ريتوس إفئيربصالين: خين هان إسمى إف فيرى أو أوو: أووه إفئيرخوريفين: إنتيف ميثنيشتى إن أتكارؤو  .",
+      "Arabiccoptic": " ريتوس إفئيربصالين: خين هان إسمى إف فيرى أو أوو: أووه إفئيرخوريفين: إنتيف ميثنيشتى إن أتكارؤو  .",
       "Englishcoptic": "Reetos ev-erpsalin: khen han-esmee ev-veri-o-oo: owoh ev-er-korevin: entef-meth-nishti en-at-karo-oo."
     },
     {
@@ -199,7 +199,7 @@
       "Arabic": "ويسبحون بتيقظ قائلين، \"هذا هو عمانوئيل، أوصنا في الأعالي، هذا هو ملك إسرائيل.\"",
       "Coptic": "Ceer\\wc `erof =en oune\\ci> eujw vai pe Emmanouhl> je `wcanna =en nhetsoci> vai pe `Pouro `mPicrahl.",
       "English": "Praising diligently saying, “This is Emmanuel, hosanna in the highest, this is the King of Israel.”",
-      "Arabiccoptic": "\b سى إرهوس إيروف خين أوو نى إيسى : إفجو فاى بى إممانوئيل: جى أوصاننا خين نى إتتشوسى: فاى بى إبؤرو إمبيسرائيل  .",
+      "Arabiccoptic": " سى إرهوس إيروف خين أوو نى إيسى : إفجو فاى بى إممانوئيل: جى أوصاننا خين نى إتتشوسى: فاى بى إبؤرو إمبيسرائيل  .",
       "Englishcoptic": "Se-erhos erof khen oo-nehsi: evgo fai pe Emmanooeel: je osanna khen nee-etchosi: fai pe ePooro emPisraeel."
     },
     {
@@ -207,10 +207,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b حينذ كمَّل قول، داود اللابس الروح، \"من أفواه الأطفال الصغار، أعددت سبحاً.\"",
+      "Arabic": " حينذ كمَّل قول، داود اللابس الروح، \"من أفواه الأطفال الصغار، أعددت سبحاً.\"",
       "Coptic": "Tote afjwk `ebol `m`pcaji> `nDauid pi`pneumatovoroc> je `ebol =en rwou `n\\ankouji> `n`alwou`i akcebte pi`cmou.",
-      "English": "\b Then He perfected the sayings, of David the spirit-mantled, “Out of the mouths of nursing infants, You have prepared praise.”",
-      "Arabiccoptic": "\b توتى أفجوك إيفول إمبساجى إندافيد بى إبنيفما طوفوروس: جى إيفول خين رؤو إنهان كووجى: إن ألو أووى أكسيفتى بى إسموو  .",
+      "English": " Then He perfected the sayings, of David the spirit-mantled, “Out of the mouths of nursing infants, You have prepared praise.”",
+      "Arabiccoptic": " توتى أفجوك إيفول إمبساجى إندافيد بى إبنيفما طوفوروس: جى إيفول خين رؤو إنهان كووجى: إن ألو أووى أكسيفتى بى إسموو  .",
       "Englishcoptic": "Tote afgok evol em-epsaji: en-Daveed pi-epnev-mato-voros: je evol khen ro-oo enhan-kooji: en-aloo-owi ak-sebte pi-esmoo."
     },
     {
@@ -218,10 +218,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b من أجل هذا أخذ العبرانيون، سعفاً وزيتوناً، وفرشوها مع ثيابهم، أمامه في الطريق.",
-      "Coptic": "`Uperoutoc Ni\\ebreoc> ausi `n\\anbai nem \\anjwit> ouo\\ auvor]ou nem nou`\\bwc> `mpef`mqo \\ijen pimwit.",
-      "English": "\b Therefore the Hebrews took, palms and olives and their garments, and spread them before Him, on the road.",
-      "Arabiccoptic": "\b إيبيرووطوس نيهيبريؤس: أفتشى نيم هانفاى نيم هان جويت: أووه أف فورشؤو نيم نوو إهفوس : إمبيف إمثو هيجين بى مويت  .",
+      "Arabic": " من أجل هذا أخذ العبرانيون، سعفاً وزيتوناً، وفرشوها مع ثيابهم، أمامه في الطريق.",
+      "Coptic": "`Uperoutoc Ni\\ebreoc> ausi `n\\anbai nem \\anjwit> ouo\\ auvor]ou nem nou`\wc> `mpef`mqo \\ijen pimwit.",
+      "English": " Therefore the Hebrews took, palms and olives and their garments, and spread them before Him, on the road.",
+      "Arabiccoptic": " إيبيرووطوس نيهيبريؤس: أفتشى نيم هانفاى نيم هان جويت: أووه أف فورشؤو نيم نوو إهفوس : إمبيف إمثو هيجين بى مويت  .",
       "Englishcoptic": "Eperootos Nihebreos: avchi enhanvai nem hangoit: owoh avvorshoo nem nooehvos: empefemtho hijen pimoit."
     },
     {
@@ -232,7 +232,7 @@
       "Arabic": "الذي يسير فيها، قائلين \"هذا هو بالحقيقة، المُرتَجى، شمس البر.\"",
       "Coptic": "Vheqmo]i `e`\\rhi `ejwf> je vai pe =en oumeqmhi> vh`etouer\\elpic `erof> `nje Pirh `nte ;meqmhi.",
       "English": "On which He walked upon, saying “This is truly, He who is anticipated, as the Sun of righteousness.”",
-      "Arabiccoptic": "\b فيئثموشى إإهرى إجوف: جى فاى بى خين أووميثمى: فيئت أووئير هيلبيس إيروف: إنجى بيرى إنتى تى ميثمى  .",
+      "Arabiccoptic": " فيئثموشى إإهرى إجوف: جى فاى بى خين أووميثمى: فيئت أووئير هيلبيس إيروف: إنجى بيرى إنتى تى ميثمى  .",
       "Englishcoptic": "Veeethmoshi eehreei egof: je vai pe khen oomethmeei: veeetooerhelpis erof: enje Piree ente ti-methmi."
     },
     {
@@ -243,7 +243,7 @@
       "Arabic": "قدوس قدوس قدوس، نسبحك نحن المؤمنون، مع الأطفال ربوات أضعاف، ونسجد للاهوتك.",
       "Coptic": "`Xouab `xouab ouo\\ `xouab> ten\\wc `erok =a nheqna\\;> nem ni`alwou`i \\an`qba `nkwb> ouo\\ tenouw]t `etekmeqnou;.",
       "English": "Holy holy holy, we praise You as the believers, with the children a hundred fold, and worship Your divinity.",
-      "Arabiccoptic": "\b إكؤواب إكؤواب أووه إكؤواب: تينهوس إيروك خا نى إثناهتى: نيم نى ألو أووى هان إثفا إنكوب: أووه تين أووأوشت إتيك ميثنووتى  .",
+      "Arabiccoptic": " إكؤواب إكؤواب أووه إكؤواب: تينهوس إيروك خا نى إثناهتى: نيم نى ألو أووى هان إثفا إنكوب: أووه تين أووأوشت إتيك ميثنووتى  .",
       "Englishcoptic": "EKooab ekooab owoh ekooab: tenhos erok kha neeethnahti: nem nialooi hanethva enkob: owoh teno-oosht etekmethnooti."
     },
     {
@@ -251,10 +251,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b يا مخلص العالم، إبن الله الحبيب، صارخين قائلين، \"أوصنا يا إبن داود.\"",
+      "Arabic": " يا مخلص العالم، إبن الله الحبيب، صارخين قائلين، \"أوصنا يا إبن داود.\"",
       "Coptic": "Ywthr `mpikocmoc> `P]hri `m`Vnou; Pimenrit> enw] `ebol enjw `mmoc> je `wcanna `P]hri `nDauid.",
-      "English": "\b O Savior of the world, the beloved Son of God, we proclaim saying, “Hosanna to the Son of David.”",
-      "Arabiccoptic": "\b بسوتير إمبى كوزموس: إبشيرى إمفنووتى بي مينريت: إنؤش إيفول إنجو إمموس: جى أوصاننا إبشيرى إن دافيد  .",
+      "English": " O Savior of the world, the beloved Son of God, we proclaim saying, “Hosanna to the Son of David.”",
+      "Arabiccoptic": " بسوتير إمبى كوزموس: إبشيرى إمفنووتى بي مينريت: إنؤش إيفول إنجو إمموس: جى أوصاننا إبشيرى إن دافيد  .",
       "Englishcoptic": "Psoteer empikosmos: ePsheeri em-Evnoti Pimenrit: enosh evol engo emmos: je osanna ePsheeri en-Daveed."
     },
     {
@@ -262,9 +262,9 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b أوصنا في العُلا، إمنحنا نعمة ورحمة، في يوم الدينونة، وإرحمنا كعظيم رحمتك.",
+      "Arabic": " أوصنا في العُلا، إمنحنا نعمة ورحمة، في يوم الدينونة، وإرحمنا كعظيم رحمتك.",
       "Coptic": "`Wcanna `ntic uyictic> moi nan `nou`\\mot nem ounai> =en `P`e\\oou `nte ;`kricic> nai nan kata pekni]; `nnai.",
-      "English": "\b Hosanna in the highest, grant us grace and mercy, on Judgment Day and have mercy on us, according to Your great mercy.",
+      "English": " Hosanna in the highest, grant us grace and mercy, on Judgment Day and have mercy on us, according to Your great mercy.",
       "Arabiccoptic": "أوصاننا إنتيس بسيس تيس: موى نان إن أوو إهموت نيم أووناى:خين إب إهؤوو إنتى تيكريسيس: ناى نان كاطا بيكنيشتى إنناى  .",
       "Englishcoptic": "Osanna entis ipsistis: moi nan enooehmot nem oonai: khen ePehoo ente tiekrisis: nai nan kata peknishti ennai."
     }

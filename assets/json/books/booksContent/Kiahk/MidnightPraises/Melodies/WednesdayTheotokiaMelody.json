@@ -208,8 +208,8 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "والأب الفاضل راعينا,\nأنبا (...) بى أرشى إيرفس,\nبقبول صلواته تهدينا,\nطوباك يا بكر وعروس",
-      "English": "The honored father our shepherd,\nAbba (...) the archpriest our guide,\nWith his prayers direct us,\nBlessed are you A Virgin and bride!"
+      "Arabic": "والأب الفاضل راعينا,\nأنبا [*POPE*] بى أرشى إيرفس,\nبقبول صلواته تهدينا,\nطوباك يا بكر وعروس",
+      "English": "The honored father our shepherd,\nAbba [*POPE*] the archpriest our guide,\nWith his prayers direct us,\nBlessed are you A Virgin and bride!"
     },
     {
       "Type": "Melody",

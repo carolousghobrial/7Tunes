@@ -23,7 +23,7 @@
       "Arabic": "كل معونة كاملة، بقوته منطقهم بها، وأعطاهم سلطاناً، أن يكرزوا في العالم.",
       "Coptic": "Bo`hqia niben etjhk `ebol> =en tekjom afmourou `mmoc> af; er]i]i nwou `ebol> eqrou\\iwi] =en pikocmoc.",
       "English": "All the perfect help, with His power He girded them, He gave them authority, to preach in the world.",
-      "Arabiccoptic": "\bﭬـويثيا نيـﭭـين إتــﭼـيك إيـﭭـول: أووخ تيف جوم إفمورو إموس: أفتى إرشيشى نوأوو إيـﭭـول: إثرو هى أويش خين بى كوزموس .",
+      "Arabiccoptic": "ﭬـويثيا نيـﭭـين إتــﭼـيك إيـﭭـول: أووخ تيف جوم إفمورو إموس: أفتى إرشيشى نوأوو إيـﭭـول: إثرو هى أويش خين بى كوزموس .",
       "Englishcoptic": "Voeethia niven etjeek evol: khen tekgom afmooroo emmos: afti ershishi no-oo evol: ethroo-hi-oish khen pikosmos."
     },
     {
@@ -31,10 +31,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b لأنه هو أختارهم، وملأهم من كل فهم، وأرسلهم وأمرهم قائلاً، \"إذهبوا في كل موضع.\"",
+      "Arabic": " لأنه هو أختارهم، وملأهم من كل فهم، وأرسلهم وأمرهم قائلاً، \"إذهبوا في كل موضع.\"",
       "Coptic": "Ge gar `nqof afcwtp `mmwou> afma\\ou `ebol=en ka; niben> afouorpou af\\on\\en nwou> je ma]enwten =en mai niben.",
-      "English": "\b For He has chosen them, and filled them with all understanding, and He sent and commanded them, saying \"Go to all places.\"",
-      "Arabiccoptic": "\bجى غار إنثوف أفسوتب إموأوو: أفماهو إﭬـول خين كاتى نيـﭭـين: أف أوأوربو أفهون ين نوأوو: ﭼـى ماشينوتين خين ماى نيـﭭـين .",
+      "English": " For He has chosen them, and filled them with all understanding, and He sent and commanded them, saying \"Go to all places.\"",
+      "Arabiccoptic": "جى غار إنثوف أفسوتب إموأوو: أفماهو إﭬـول خين كاتى نيـﭭـين: أف أوأوربو أفهون ين نوأوو: ﭼـى ماشينوتين خين ماى نيـﭭـين .",
       "Englishcoptic": "Ge ghar enthof afsotp emmoo: afmahoo evol khen kati niven: af oo-orpoo afhon-hen no-oo: je masheno-ten khen mai niven."
     },
     {
@@ -42,10 +42,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b علمنا داود في كتابه، أعطانا شهاداته، أن الرب يعطي قوة، للمبشرين بإسمه.",
+      "Arabic": " علمنا داود في كتابه، أعطانا شهاداته، أن الرب يعطي قوة، للمبشرين بإسمه.",
       "Coptic": "Dauid aftamon =en pefjwm> nefmetmeqreu af; nan> je `Psoic ef`e; `noujom> `nnhet\\i]ennoufi `mpefran.",
-      "English": "\b David taught us in his book, He gave us His testimonies, \"The Lord gives strength, to those who preach His name.\"",
-      "Arabiccoptic": "\bداﭬـيد أفطامون خيم بيف جوم: نيف ميت ميثريـﭫ أفتى نان: ﭼـى إبتشويس إف إيتى إن أوجوم: نى إت هى شينوفى إمبيف ران .",
+      "English": " David taught us in his book, He gave us His testimonies, \"The Lord gives strength, to those who preach His name.\"",
+      "Arabiccoptic": "داﭬـيد أفطامون خيم بيف جوم: نيف ميت ميثريـﭫ أفتى نان: ﭼـى إبتشويس إف إيتى إن أوجوم: نى إت هى شينوفى إمبيف ران .",
       "Englishcoptic": "David aftamon khen pefgom: nef met methrev afti nan: je Epchois ef-eti en oogom: ennee et-hishennoofi empefran."
     },
     {
@@ -56,7 +56,7 @@
       "Arabic": "مَنْ في الحكماء، المفسرين حسناً، ينطقون بطوباويتكم، يا سادتي الآباء الرسل.",
       "Coptic": "`Ere nim =en nicovoc> niermhneuthc kalwc> nacaji `nnetenmakaricmoc> nasoic `nio; `n`apoctoloc.",
       "English": "Who among the wise, truly have explained, speaking of your blessedness, O my masters the fathers the Apostles.",
-      "Arabiccoptic": "\bإيرى نيم خين بى سوفوس: نى إر مينيـﭭـتيس كالوس: ناساﭼـى إنيتين ماكاريزموس: ناتشويس إنيوتى إن أبوسطولوس .",
+      "Arabiccoptic": "إيرى نيم خين بى سوفوس: نى إر مينيـﭭـتيس كالوس: ناساﭼـى إنيتين ماكاريزموس: ناتشويس إنيوتى إن أبوسطولوس .",
       "Englishcoptic": "Ere nim khen nisovos: niermee nevtees kalos: nasaji enne-ten maka-rismos: nachois enioti en-apostolos."
     },
     {
@@ -67,7 +67,7 @@
       "Arabic": "نعم حقاً تكلم بالحق، ووعدكم الرب قائلاً، \"أيها الذين صبرتم، معي في تجاربي",
       "Coptic": "Ze ontwc afcaji =en oumeqmhi> afw] nwten `nje `Psoic efjw `mmoc> je nheter\\upomonin nemhi> `n`\\rhi =en napiracmoc.",
       "English": "Truly He spoke with truth, the Lord promised saying, \"O you who were patient with Me, in My tribulations.",
-      "Arabiccoptic": "\bزى أوندوس أفساﭼـى خين أوميثمى: أفؤش نوتين إنـﭽـى إبتشويس إفجو إموس: ﭼـى نى إتئرهيبومونين نيمى: إن إهرى خين نا بى رازموس .",
+      "Arabiccoptic": "زى أوندوس أفساﭼـى خين أوميثمى: أفؤش نوتين إنـﭽـى إبتشويس إفجو إموس: ﭼـى نى إتئرهيبومونين نيمى: إن إهرى خين نا بى رازموس .",
       "Englishcoptic": "Ze ontos afsaji khen oo-methmeei: af-osh noten enje Epchois efgo emmos: je nee eter hipo-monin nemeei: enehreei khen napirasmos."
     },
     {
@@ -75,10 +75,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b هأنذا أقرر معكم، عهداً ثابتاً، بأنكم تجلسون، في ملكوتي.",
+      "Arabic": " هأنذا أقرر معكم، عهداً ثابتاً، بأنكم تجلسون، في ملكوتي.",
       "Coptic": "Hppe `anok ;cemni nemwten> `noudiaqhkh =en outajro> je tetenna\\emci `nqwten> `n`\\rhi =en tametouro.",
-      "English": "\b Behold I firmly establish, a Covenant with you, 'You will sit, in My kingdom.",
-      "Arabiccoptic": "\bيبى أنوك تى سيمنى نيموتين: إن أوذياثيكى خين أوطاجرو: ﭼـى تيتين نا هيمسى إنثوتين: إن إهرى خين طاميت أورو .",
+      "English": " Behold I firmly establish, a Covenant with you, 'You will sit, in My kingdom.",
+      "Arabiccoptic": "يبى أنوك تى سيمنى نيموتين: إن أوذياثيكى خين أوطاجرو: ﭼـى تيتين نا هيمسى إنثوتين: إن إهرى خين طاميت أورو .",
       "Englishcoptic": "Eeppe anok tisemni nemoten: en-oozia-theekee khen oo-tagro: je teten-nahemsi enthoten: enehreei khen tametooro."
     },
     {
@@ -86,10 +86,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b كراسي مقدسة حقيقية، تجلسون عليها، وتدينون، رجال الأجيال.",
+      "Arabic": " كراسي مقدسة حقيقية، تجلسون عليها، وتدينون، رجال الأجيال.",
       "Coptic": "`Qronoc `mmhi eqouab> `ereten`e\\emci `e`\\rhi `ejwou> ouo\\ `ereten`e;\\ap> `nnirwmi `nte nijwou.",
-      "English": "\b True and holy thrones, you will sit upon, and you will judge, the men of the generations.'",
-      "Arabiccoptic": "\bإثرونوس إمى إثؤاب: إيريتين إيهيمسى إى إهرى إيجوأوو: أووه إيريتين تى هاب : إنى رومى إنتى نى جوأوو .",
+      "English": " True and holy thrones, you will sit upon, and you will judge, the men of the generations.'",
+      "Arabiccoptic": "إثرونوس إمى إثؤاب: إيريتين إيهيمسى إى إهرى إيجوأوو: أووه إيريتين تى هاب : إنى رومى إنتى نى جوأوو .",
       "Englishcoptic": "Ehronos emmeei ethowab: eretene-hemsi e-ehreei ego-oo: owoh ereten eti-hap: enni-romi ente nigo-oo."
     },
     {
@@ -100,7 +100,7 @@
       "Arabic": "من المشارق إلى المغارب، ومن الشمال إلى الجنوب، ثبتوا المختارين، رُدوا المنافقين.\"",
       "Coptic": "Icjen nima`n]ai ]a nima`n\\wtp> nem icjen `pem\\it ]a `vrhc> matajro `nnhetcwtp> matacqo `nni`acebhc.",
       "English": "From the east to the west, and from north to the south, confirm the elect, and restore the impious.\"",
-      "Arabiccoptic": "\bإسـﭽـين نى مانشاى شا نى ما إنهوتب: نيم إسـﭽـين إب إم هيت شا إفريس: ما طاجرو إنى إتسوتب: ماطاستو إنى أسيـﭭـيس .",
+      "Arabiccoptic": "إسـﭽـين نى مانشاى شا نى ما إنهوتب: نيم إسـﭽـين إب إم هيت شا إفريس: ما طاجرو إنى إتسوتب: ماطاستو إنى أسيـﭭـيس .",
       "Englishcoptic": "Yesjen nima-enshai sha nima-enhotp: nem yesjen ep-emhit sha evrees: matagro ennee etsotp: matastho enni asevees."
     },
     {
@@ -111,7 +111,7 @@
       "Arabic": "الرب ماسيا، أختار رسله، الذين هم بطرس وأندراوس، ويوحنا ويعقوب.",
       "Coptic": "Kurioc pe Maciac> afcwtp `nnef`apoctoloc> `ete Petroc nem An`dreac> Iwannhc nem Iakwboc.",
       "English": "The Lord is the Messiah, He has chosen His Apostles, who are Peter and Andrew, and John and James.",
-      "Arabiccoptic": "\bكيريوس بى ماسياس: أفسوتب إنيف أبوسطولوس: إيتى بيتروس نيم أندرياس: يوأنس نيم ياكوبوس .",
+      "Arabiccoptic": "كيريوس بى ماسياس: أفسوتب إنيف أبوسطولوس: إيتى بيتروس نيم أندرياس: يوأنس نيم ياكوبوس .",
       "Englishcoptic": "Kirios pe Masias: afsotp ennef apostolos: ete Petros nem Anedreas: Yoannees nem Yakobos."
     },
     {
@@ -121,8 +121,8 @@
       "Side": "South",
       "Arabic": "وأيضاً فيلبس ومتَّى، برثولماوس وتوما، ويعقوب بن حلفى، وسمعان القانوي.",
       "Coptic": "Loipon Vilippoc nem Matqeoc> Barqolomeoc nem Qwmac> Iakwboc `nte Alveoc> nem Cimwn Pikananeoc.",
-      "English": "\b Also Philip and Matthew, Bartholomew and Thomas, James the Son of Alphaeus, and Simon the Canaanite.",
-      "Arabiccoptic": "\bليبون فيليبوس نيم ماتياس: بارثولوميؤس نيم توماس: ياكوبوس إنتى الفيؤس: نيم سيمون بى كانانيؤس .",
+      "English": " Also Philip and Matthew, Bartholomew and Thomas, James the Son of Alphaeus, and Simon the Canaanite.",
+      "Arabiccoptic": "ليبون فيليبوس نيم ماتياس: بارثولوميؤس نيم توماس: ياكوبوس إنتى الفيؤس: نيم سيمون بى كانانيؤس .",
       "Englishcoptic": "Lipon ilippos nem Mattheos: Bartholo-meos nem Thomas: Yakobos ente Alfe-os: nem Seemon Pika-na-neos."
     },
     {
@@ -130,10 +130,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b ومتياس الذي صار، عِوض عن يهوذا، وكامل البقية، الذين تبعوا السيد.",
+      "Arabic": " ومتياس الذي صار، عِوض عن يهوذا، وكامل البقية، الذين تبعوا السيد.",
       "Coptic": "Matqiac vh`etaf]wpi> `n`t]ebiw `nIouda> nem `pjwk `ebol nem `pcepi> nh`etaumo]i `nca Decpota.",
-      "English": "\b Matthias was chosen, instead of Judas, and was counted with the rest, who followed the Master.",
-      "Arabiccoptic": "\bماتياس فى إيطاف شوبى: إن إت شيـﭭـيو إن يودا: نين إبجوك إيـﭭـول نيم إبسيبى: نى إيطاﭪ موشى إنصا ذيسبوطا .",
+      "English": " Matthias was chosen, instead of Judas, and was counted with the rest, who followed the Master.",
+      "Arabiccoptic": "ماتياس فى إيطاف شوبى: إن إت شيـﭭـيو إن يودا: نين إبجوك إيـﭭـول نيم إبسيبى: نى إيطاﭪ موشى إنصا ذيسبوطا .",
       "Englishcoptic": "Matthias vee etaf-shopi: enet-shevio en-Yooda: nem epgok evol nem epsepi: nee etavmoshi ensa Zespota."
     },
     {
@@ -144,7 +144,7 @@
       "Arabic": "هؤلاء أختارهم المسيح عمانوئيل، وأمرهم قائلاً، \"إذهبوا إلى خراف، إسرائيل الضالة.",
       "Coptic": "Nai afcotpou af\\on\\en nwou> `nje Pi`xrictoc Emmanouhl> je ma]enwten \\a ni`ecwou> nhetcwrem =en Picrahl.",
       "English": "These Christ Emmanuel, has chosen and ordered, saying \"Go to the sheep, the lost ones of Israel.",
-      "Arabiccoptic": "\bناى أفسوتبو أفهون هين نوأوو: إنـﭽـى بخرستوس إمانوئيل: ﭼـى ماشينوتين ها نى إيسوأوو: نى إت سوريم خين بى إسرائيل .",
+      "Arabiccoptic": "ناى أفسوتبو أفهون هين نوأوو: إنـﭽـى بخرستوس إمانوئيل: ﭼـى ماشينوتين ها نى إيسوأوو: نى إت سوريم خين بى إسرائيل .",
       "Englishcoptic": "Nai afso-tpoo afhon-hen no-oo: enje Piekristos Emmanoo-eel: je mashenoten ha ni-eso-oo: nee etsorem khen Pisraeel."
     },
     {
@@ -155,7 +155,7 @@
       "Arabic": "زينوهم ببهاء، المعمودية المقدسة، بإسم الله الآب، والإبن والروح القدس.",
       "Coptic": "{elcwlou =en oumetlam`proc> `nte piwmc eqouab> en `onomati tou Qeou Patroc> nem `P]hri nem Pi`pneuma eqouab.",
       "English": "Adorn them with the splendor, of the holy Baptism, in the name of God the Father, the Son and the Holy Spirit.",
-      "Arabiccoptic": "\bكسيلسولو خين أوميتلام إبروس: إنتى بى أومس إثؤاب: إن أونوماتى طو ثيؤو باتروس: نيم إبشيرى نيم بى إبنيـﭭـما إثؤاب  .",
+      "Arabiccoptic": "كسيلسولو خين أوميتلام إبروس: إنتى بى أومس إثؤاب: إن أونوماتى طو ثيؤو باتروس: نيم إبشيرى نيم بى إبنيـﭭـما إثؤاب  .",
       "Englishcoptic": "Exel-soloo khen oomet lamep-ros: ente pi-oms ethowab: en onomati too Theoo Patros: nem ePsheeri nem Piepnevma ethowab."
     },
     {
@@ -163,10 +163,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b إشفوا المرضى، إخرجوا الشياطين، إبرئوا الأسقام، بقوة كاملة.",
+      "Arabic": " إشفوا المرضى، إخرجوا الشياطين، إبرئوا الأسقام، بقوة كاملة.",
       "Coptic": "Ouo\\ matalso `nnhet]wni> nidemwn \\itou `ebol> `ariva=ri `nniiabi> =en oujom ecjhk `ebol.",
-      "English": "\b And heal the sick, cast out the demons, remedy the ill, with perfect power.",
-      "Arabiccoptic": "\bأووه ماطالتشو نى إتشونى: نى ذيمون هيتو إيـﭭـول: أرى فاخرى إنى ياﭬـى: خين أوجوم إسـﭽـيك إيـﭭـول .",
+      "English": " And heal the sick, cast out the demons, remedy the ill, with perfect power.",
+      "Arabiccoptic": "أووه ماطالتشو نى إتشونى: نى ذيمون هيتو إيـﭭـول: أرى فاخرى إنى ياﭬـى: خين أوجوم إسـﭽـيك إيـﭭـول .",
       "Englishcoptic": "Owoh matalcho ennee etshoni: nizemon hitoo evol: arivakhri enni-yavi: khen oogom esjeek evol."
     },
     {
@@ -174,10 +174,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b السلطان الدائم، في السماء وعلى الأرض، الذي للربط والحل، بعزة أعطيه لكم.\"",
+      "Arabic": " السلطان الدائم، في السماء وعلى الأرض، الذي للربط والحل، بعزة أعطيه لكم.\"",
       "Coptic": "Pier]i]i eqmhn `ebol> =en `tve nem \\ijen pika\\i> `nte picwn\\ nem pibwl `ebol> ;nathif nwten =en ou`ama\\i.",
-      "English": "\b The eternal authority, in heaven and on earth, to loose and to bind, \"I shall give you with majesty.\"",
-      "Arabiccoptic": "\bبى إرشيشى إثمين إيـﭭـول: خين إتفى نيم هيـﭽـين بى كاهى : إنتى بى صونه نيم بى ﭬول إيـﭭـول: تينا تيف نوتين خين أو أماهى .",
+      "English": " The eternal authority, in heaven and on earth, to loose and to bind, \"I shall give you with majesty.\"",
+      "Arabiccoptic": "بى إرشيشى إثمين إيـﭭـول: خين إتفى نيم هيـﭽـين بى كاهى : إنتى بى صونه نيم بى ﭬول إيـﭭـول: تينا تيف نوتين خين أو أماهى .",
       "Englishcoptic": "Pi ershishi ethmeen evol: khen etve nem hijen pikahi: ente pisonh nem pivol evol: tina teeif noten khen oo amahi."
     },
     {
@@ -188,7 +188,7 @@
       "Arabic": "أميلوا سمعكم بثبات، للرجال الضعفاء، الذين أنعم لهم الملك، أن يدينوا في القضاء.",
       "Coptic": "Rek petenma]j =en outajro> `nnirwmi `nacqenhc> `etafer`\\mot nwou `nte `Pouro> eqrou;\\ap =en ;`kricic.",
       "English": "Incline your ears in firmness, to the meek men, which the King has granted, to judge in retribution.",
-      "Arabiccoptic": "\bريك بيتين ماشج خين أوطاجرو: إنى رومى إناسثينيس: إيطاف إرإهموت نوأوو إنـﭽـى إبؤورو: إثرو تى هاب خين تى إكريسيس .",
+      "Arabiccoptic": "ريك بيتين ماشج خين أوطاجرو: إنى رومى إناسثينيس: إيطاف إرإهموت نوأوو إنـﭽـى إبؤورو: إثرو تى هاب خين تى إكريسيس .",
       "Englishcoptic": "Rek peten-mashg khen oo-tagro: enni-romi enas-thenees: etaf erehmot no-oo ente ePooro: ethrooti-hap khen ti-ekrisis."
     },
     {
@@ -199,7 +199,7 @@
       "Arabic": "إسمعوا أنه قد خرج، صوتهم على وجه الأرض كلها، وكلامهم وحده، بلغ إلى قلب الجميع.",
       "Coptic": "Cwtem je `a pou`=rwou ]enaf> `ebol \\ijen `p\\o `m`pka\\i thrf> ouo\\ noucaji auvo\\ `mmauatf> =en `p\\ht `nte pi`e`pthrf.",
       "English": "Listen for their voices went out, unto the face of the whole world, and their words have reached, into the hearts of everyone.",
-      "Arabiccoptic": "\bسوتيم ﭼـى ا بوخروأوو شيناف: إيـﭭـول هيـﭽـين إبهو إم إبكاهى تيرف: أووه نوساﭼـى أﭪ فوه إماﭬـاتف: خين إت هيت إنتى بى إى إبتيرف .",
+      "Arabiccoptic": "سوتيم ﭼـى ا بوخروأوو شيناف: إيـﭭـول هيـﭽـين إبهو إم إبكاهى تيرف: أووه نوساﭼـى أﭪ فوه إماﭬـاتف: خين إت هيت إنتى بى إى إبتيرف .",
       "Englishcoptic": "Sotem je a poo-ekhroo shenaf: evol hijen ep-ho emepkahi teerf: owoh noosaji avvoh emmavatf: khen epheet ente pi eepteerf."
     },
     {
@@ -207,10 +207,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b حينئذ لا يتعب فمنا، إذ نمدحكم، ولساننا لا يسكت، إذ نزيدكم رفعة.",
+      "Arabic": " حينئذ لا يتعب فمنا، إذ نمدحكم، ولساننا لا يسكت، إذ نزيدكم رفعة.",
       "Coptic": "Tote rwn na=ici an> tenereuvomin `mmwten> ouo\\ penlac naxarwf an> tener\\ou`o sici `mmwten.",
       "English": "Then our mouth will not weary, to praise you, and our tongue will not cease, to exalt you.",
-      "Arabiccoptic": "\bتوتى رون نا خيسى أن: تين إرإﭪ فورين إموتين: أووه بين لاس نا كاروف أن: تين إرهوأو تشيسى إموتين .",
+      "Arabiccoptic": "توتى رون نا خيسى أن: تين إرإﭪ فورين إموتين: أووه بين لاس نا كاروف أن: تين إرهوأو تشيسى إموتين .",
       "Englishcoptic": "Tote ron nakhisi an: ten erev-vomin emmoten: owoh penlas nakarof an: ten-erho-oo echisi emmoten."
     },
     {
@@ -218,10 +218,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b ها أن أسمائكم، وتذكاراتكم دائمة، في أفواه المؤمنين، تنجيهم من أفكار إبليس.",
+      "Arabic": " ها أن أسمائكم، وتذكاراتكم دائمة، في أفواه المؤمنين، تنجيهم من أفكار إبليس.",
       "Coptic": "Uc netenran nem netener`vmeu`i> eumhn =en rwou `nnipictoc> euno\\em `mmwou `ebol=en nimeu`i> `nte Pidiaboloc.",
-      "English": "\b Your names and commemorations, are on the mouths of the faithful, they saved them from, the thoughts of the Devil.",
-      "Arabiccoptic": "\bيس نيتين ران نيم نيتين إرإفميـﭭـئى: إﭬـمين خين روأوو إنى بيستوس: إﭬـنوهيم إموأوو إيـﭭـول خين نى ميـﭭـئى: إنتى بى ذياﭬـولوس .",
+      "English": " Your names and commemorations, are on the mouths of the faithful, they saved them from, the thoughts of the Devil.",
+      "Arabiccoptic": "يس نيتين ران نيم نيتين إرإفميـﭭـئى: إﭬـمين خين روأوو إنى بيستوس: إﭬـنوهيم إموأوو إيـﭭـول خين نى ميـﭭـئى: إنتى بى ذياﭬـولوس .",
       "Englishcoptic": "Es netenran nem neten erevmevi: evmeen khen ro-oo enni pistos: evnohem emmo- oo evolkhen nimevi: ente Pi-ziavolos."
     },
     {
@@ -232,7 +232,7 @@
       "Arabic": "يا أبا الرأفات، إرحمنا بصلواتهم، وطول أناتك نجنا، من الفخ المنصوب.",
       "Coptic": "`Viwt `nte nimet]en\\ht> nai nan \\iten noueuxh> \\iten tekmetref`wou`n\\ht> na\\men `ebol\\a piva] etxh.",
       "English": "O Father of compassions, have mercy through their prayers, and through Your patience, save us from the snares.",
-      "Arabiccoptic": "\bإفيوت إنتى نى ميت شينهيت: ناى نان هيتين نو إﭬـشى : هيتين تيم ميت ريف أوأونهيت : ناهمين إﭬـول ها بى فاش إتكى .",
+      "Arabiccoptic": "إفيوت إنتى نى ميت شينهيت: ناى نان هيتين نو إﭬـشى : هيتين تيم ميت ريف أوأونهيت : ناهمين إﭬـول ها بى فاش إتكى .",
       "Englishcoptic": "Eviot ente ni-met-shenheet: nai nan hiten noo-evshee: hiten tek met-ref o-oo enheet: nahmen evol ha pivash etshee."
     },
     {
@@ -243,7 +243,7 @@
       "Arabic": "إغفر لنا آثامنا، أيها الأزلي الأبدي، بطلباتهم وشفاعتهم، من الآن وإلى الأبد.",
       "Coptic": "Xw nan `ebol `nnen`anomia> `w Piatarxh Pi]a`ene\\> \\iten noutwb\\ nem nou`precbia> icjen ;nou nem ]a `ene\\.",
       "English": "Forgive us our iniquities, O Eternal One without beginning, and through their intercessions, both now and forever.",
-      "Arabiccoptic": "\bكو نان إيـﭭـول إنين أنوميا: أو بى أت أرشى بى شا إينيه: هيتين نو طوبه نيم نو إبريسـﭭـيا: إسـﭽـين تينو نيم شا إينيه .",
+      "Arabiccoptic": "كو نان إيـﭭـول إنين أنوميا: أو بى أت أرشى بى شا إينيه: هيتين نو طوبه نيم نو إبريسـﭭـيا: إسـﭽـين تينو نيم شا إينيه .",
       "Englishcoptic": "Ko nan evol ennen anomia: o Pi at-arshee Pi sha-eneh: hiten noo-tobh nem noo-epresvia: yes-jen tinoo nem sha eneh."
     },
     {
@@ -251,10 +251,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b إحفظنا بقوتك، بقية أيامنا، ونجنا من الشرير، وفي إيمانك ثبتنا.",
+      "Arabic": " إحفظنا بقوتك، بقية أيامنا، ونجنا من الشرير، وفي إيمانك ثبتنا.",
       "Coptic": "Yepi `nte nen`\\oou> =en tekjom `are\\ `eron> na\\men `ebol\\a pipet\\wou> =en pekna\\; matajron.",
-      "English": "\b The rest of our days, with Your power guard us, deliver us from evil, in Your faith confirm us.",
-      "Arabiccoptic": "\bإبسيبى إنتى نين إيهوأوو: خين تيك جوم أريه إيرون ناهمين إﭬـول ها بى بيتهوأوو: خين بيك ناهتى ماطاجرون .",
+      "English": " The rest of our days, with Your power guard us, deliver us from evil, in Your faith confirm us.",
+      "Arabiccoptic": "إبسيبى إنتى نين إيهوأوو: خين تيك جوم أريه إيرون ناهمين إﭬـول ها بى بيتهوأوو: خين بيك ناهتى ماطاجرون .",
       "Englishcoptic": "Epsepi ente nen eho-oo: khen tek- gom areh eron: nahmen evolha pi-pet-ho-oo: khen pek-nahti matag-ron."
     },
     {
@@ -262,10 +262,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b يا ربنا يسوع المسيح، مع رسلك المختارين، اُذكر الحقير وأحسبنا، نحن أيضاً مع مؤمنيك.",
+      "Arabic": " يا ربنا يسوع المسيح، مع رسلك المختارين، اُذكر الحقير وأحسبنا، نحن أيضاً مع مؤمنيك.",
       "Coptic": "`W Pensoic Ihcouc Pi`xrictoc> nem nekcwtp `n`apoctoloc> `ari`vmeu`i `mpi`elaxictoc> ouo\\ opten \\wn nem nekpictoc.",
-      "English": "\b O our Lord Jesus Christ, and Your chosen Apostles, remember the poor, and count us with Your faithful.",
-      "Arabiccoptic": "\bأو بينشويس إيسوس بخرستوس: نيم نيك سوتب إن أبوسطولوس: أرى إفميـﭭـئى إمبى إيلاخيستوس: أووه أوبتين هون نيم نيك بيستوس .",
+      "English": " O our Lord Jesus Christ, and Your chosen Apostles, remember the poor, and count us with Your faithful.",
+      "Arabiccoptic": "أو بينشويس إيسوس بخرستوس: نيم نيك سوتب إن أبوسطولوس: أرى إفميـﭭـئى إمبى إيلاخيستوس: أووه أوبتين هون نيم نيك بيستوس .",
       "Englishcoptic": "O Penchois Isoos Pi-ekristos: nem nek-sotp en apostolos: ari-evmevi empi-elash-istos: owoh opten hon nem nek pistos."
     }
   ]

@@ -360,8 +360,8 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "الآب العامل بالناموس,\nوالقوانين الرسولية,\nأنبا (...) بى أرشى إرفس,\nعامود دين النصرانية",
-      "English": "The father the doer of the Law,\nAnd all the commandments,\nAbba (...) the high priest,\nThe pillar of the Christian faith"
+      "Arabic": "الآب العامل بالناموس,\nوالقوانين الرسولية,\nأنبا [*POPE*] بى أرشى إرفس,\nعامود دين النصرانية",
+      "English": "The father the doer of the Law,\nAnd all the commandments,\nAbba [*POPE*] the high priest,\nThe pillar of the Christian faith"
     },
     {
       "Type": "Melody",

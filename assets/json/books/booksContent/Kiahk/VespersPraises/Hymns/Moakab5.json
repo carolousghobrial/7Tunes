@@ -9,10 +9,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b من أجل إسمك يارب . لاتغضب إلى الأبد على خليقتك. لكن برحمتك أنظر . بعين رأفتك .",
+      "Arabic": " من أجل إسمك يارب . لاتغضب إلى الأبد على خليقتك. لكن برحمتك أنظر . بعين رأفتك .",
       "Coptic": "Eqbe pekran P_ `mpekjwnt > ]a`ene\\ `ejen pekcwnt > alla kata peknai jou]t > =en `vbal `nnekmet]en\\ht .",
       "English": "For the sake of Your name Lord do not be angry, with Your people forever, but look down according to Your mercy, with Your merciful eyes.",
-      "Arabiccoptic": "\b إثفى بيكران إبشويس إمبير جونت . شاإينيه إيجين بيك سونت . اللا كاطا بيك ناى جوشت . خين إف فال إن نيك ميت شينهيت .",
+      "Arabiccoptic": " إثفى بيكران إبشويس إمبير جونت . شاإينيه إيجين بيك سونت . اللا كاطا بيك ناى جوشت . خين إف فال إن نيك ميت شينهيت .",
       "Englishcoptic": "Ethve pekran Epshois empergont, sha eneh ejen peksont, alla kata peknai gosht, khene v val ennekmet shenheet."
     },
     {
@@ -31,10 +31,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b وإملأه من رحمتك, لكى أقول مدائح سيدتى التى بغير شر. مريم العروسة الحقيقية.",
+      "Arabic": " وإملأه من رحمتك, لكى أقول مدائح سيدتى التى بغير شر. مريم العروسة الحقيقية.",
       "Coptic": "Ma\\f `ebol =en tekcobi`a > eqrijw `nnieuvhmi`a > `nte ta_ `natkaki`a > Mari`a ;]elet `mmhi .",
       "English": "And fill me with Your wisdom, to sing praises, unto my unblemished Lady, Mary the true bride.",
-      "Arabiccoptic": "\b ماهف إيفول خين تيك سوفيا, إثريجو إن نى إفيميا . إنتى طاشويس إن أت كاكيا . ماريا تى شيليت إممى .",
+      "Arabiccoptic": " ماهف إيفول خين تيك سوفيا, إثريجو إن نى إفيميا . إنتى طاشويس إن أت كاكيا . ماريا تى شيليت إممى .",
       "Englishcoptic": "Mahf evol khen teksofia, ethrigo en ni efimia, ente tashois en at kakia, Maria ti sheleet emmei."
     },
     {
@@ -43,7 +43,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "مريم العروسة الحقيقية, السماء الثانية الحقيقية. التى شمس البر. أشرق لنا منها.",
-      "Coptic": "Mari`a ;]elet `mmhi > ;ve `mma\\b/; `nta`vmhi > `eta pirh `nte ;meqmhi > af]ai nan `ebol `n=htc .",
+      "Coptic": "Mari`a ;]elet `mmhi > ;ve `mma\/; `nta`vmhi > `eta pirh `nte ;meqmhi > af]ai nan `ebol `n=htc .",
       "English": "Mary the true bride, the true second heaven, from which the Sun of Righteousness, shone over us.",
       "Arabiccoptic": "ماريا تى شيليت إممى, تى فى إمماه إسنوتى إنتا إفمى . إيطا بيرى إنتى تى ميثمى. أفشاى نان إيفول إنخيتس.",
       "Englishcoptic": "Maria ti sheleet emmei, ti ve emmah esnouty enta evmi, eta piry ente ti methmei, afshai nan evol enkheets."
@@ -53,10 +53,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b أشرق لنا منها, الذى إبتدأ فخلق . البرية كلها . الذى هو يسوع المسيح.",
+      "Arabic": " أشرق لنا منها, الذى إبتدأ فخلق . البرية كلها . الذى هو يسوع المسيح.",
       "Coptic": "Af]ai nan `ebol `n=htc > `nje vh`etafer\\htc > afqami`o `n;`kthcic thrc > `ete `nqof pe Ihc? Pxc? .",
       "English": "Shone over us, He who has begun, He created all creation, this is Jesus Christ.",
-      "Arabiccoptic": "\b أفشاى نان إيفول إنخيتس, إنجى فى إيطاف إيرهيتس. أفثاميو إنتى إكتيسيس تيرس. إيتى إنثوف بى إيسوس بخريستوس .",
+      "Arabiccoptic": " أفشاى نان إيفول إنخيتس, إنجى فى إيطاف إيرهيتس. أفثاميو إنتى إكتيسيس تيرس. إيتى إنثوف بى إيسوس بخريستوس .",
       "Englishcoptic": "Afshai nan evol enkheets, enje vi etaf erhets, afthamio enti ektisis tirs, ete enthof pe Isos Pikhristos."
     },
     {
@@ -75,10 +75,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b من بطن العذراء , وُلِدَ بغير ألمٍ . وخلص شعبه . من يد أعدائهم .",
+      "Arabic": " من بطن العذراء , وُلِدَ بغير ألمٍ . وخلص شعبه . من يد أعدائهم .",
       "Coptic": "`Ebol =en `qneji `n;parqenoc > au`jvof asne paqoc > afno\\em `mpeflaoc > `ebol =en `tjij `nte noujaji .",
       "English": "From the womb of the Virgin, He was born without pain, and He saved His people, from the arm of their enemies.",
-      "Arabiccoptic": "\b إيفول خين إثنيجى إنتى بارثينوس, أف إجفوف أتشنى باثوس. أفنوهيم إمبيف لاؤس. إيفول خين إت جيج إنتى نو جاجى.",
+      "Arabiccoptic": " إيفول خين إثنيجى إنتى بارثينوس, أف إجفوف أتشنى باثوس. أفنوهيم إمبيف لاؤس. إيفول خين إت جيج إنتى نو جاجى.",
       "Englishcoptic": "Evol khen ethneji enti Parthenos, af egfof atchni pathos, afnohem empef laos, evol khen etgig ente no gagi."
     },
     {

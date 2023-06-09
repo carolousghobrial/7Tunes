@@ -20,10 +20,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b لأنك أنت خلقتنى. وتعرفنى. أطلب إليك إسمعنى . وإصغ لمعونتى .",
+      "Arabic": " لأنك أنت خلقتنى. وتعرفنى. أطلب إليك إسمعنى . وإصغ لمعونتى .",
       "Coptic": "Je `nqok akqamioi > ouo\\ `kcwoun `mmoi > ;twb\\ `mmok cwtem `eroi > ma`\\qhk `etabo`hqi`a .",
       "English": "For You have created me, and You know me, I entreat You to hear me, be unto me a help.",
-      "Arabiccoptic": "\b جى إنثوك أكثاميوى. أووه إكسوأون إمموى. تى طوبه إمموك سوتيم إيروى. ماإهثيك إيطا فويثيا.",
+      "Arabiccoptic": " جى إنثوك أكثاميوى. أووه إكسوأون إمموى. تى طوبه إمموك سوتيم إيروى. ماإهثيك إيطا فويثيا.",
       "Englishcoptic": "Je enthok akthamioy, owoh ek so-on emmoi, ti tobh emmok sotem eroi, ma ehtheek eta voithia."
     },
     {
@@ -42,10 +42,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b مريم والدة الإله أصل وجنس . داود المرتل . مسكن الطهارة .",
+      "Arabic": " مريم والدة الإله أصل وجنس . داود المرتل . مسكن الطهارة .",
       "Coptic": "Mari`a ;qe`otokoc? > ;nouni nem pigenoc > `nte Dauid pi\\umnodoc > `vman]wpi `nte pitoubo .",
       "English": "Mary the Theotokos, from the root and descendants of David the psalmist, the place of purity.",
-      "Arabiccoptic": "\b ماريا تى ثيؤطوكوس تى نونى نيم بى جينوس. إنتى دافيد بيهيمنودوس. إفمانشوبى إنتى بى طوفو.",
+      "Arabiccoptic": " ماريا تى ثيؤطوكوس تى نونى نيم بى جينوس. إنتى دافيد بيهيمنودوس. إفمانشوبى إنتى بى طوفو.",
       "Englishcoptic": "Maria ti theotokos, ti nouny nem pi genos, ente David pi hymnodos, evmanshopi ente pi tovo."
     },
     {
@@ -64,10 +64,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b وأخذ شكل العبد حتى خلص عبده. آدم والمستعبدين . كرحمته خلصهم .",
+      "Arabic": " وأخذ شكل العبد حتى خلص عبده. آدم والمستعبدين . كرحمته خلصهم .",
       "Coptic": "Afsi `noumorvh `mbwk > ]a `ntefcw; `mpefbwk > `Adam nem nhetoi `mbwk > kata pefnai afno\\em `mmwou .",
       "English": "And accepted the form of a servant to save His servants, Adam and those who were in slavery, He saved them according to His mercy.",
-      "Arabiccoptic": "\b أفتشى إن أومورفى إمفوك شا إنتيف سوتى إمبيف فوك. آدام نيم نى إتؤى إمفوك. كاطا بيف ناى أفنوهيم إم موأو.",
+      "Arabiccoptic": " أفتشى إن أومورفى إمفوك شا إنتيف سوتى إمبيف فوك. آدام نيم نى إتؤى إمفوك. كاطا بيف ناى أفنوهيم إم موأو.",
       "Englishcoptic": "Af etshi en o morfi emvok, sha entef soti empef vok, Adam nem ni et-oi emvok, kata pefnai afnohem emmo-o."
     },
     {
@@ -86,10 +86,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\bمن أجل مشورة الحية آدم الأول قد سقط. ومن أجل مريم قد رجع. إلى رئاسته دفعة أخرى.",
+      "Arabic": "من أجل مشورة الحية آدم الأول قد سقط. ومن أجل مريم قد رجع. إلى رئاسته دفعة أخرى.",
       "Coptic": "Eqbe pcosni `mpi\\of > `Adam pi]wrp af\\iou`i `mmof > eqbe Mari`a autacqof > `etefarxh `nkecop .",
       "English": "Through the deceit of the serpent, the first Adam fell, and through Mary was restored again, to his authority",
-      "Arabiccoptic": "\b إثفى إبسوتشنى إمبى هوف. آدام بى شورب أف هيؤوى إمموف. إثفى ماريا أفتاسطوف. إتيف أرشى إن كيسوب .",
+      "Arabiccoptic": " إثفى إبسوتشنى إمبى هوف. آدام بى شورب أف هيؤوى إمموف. إثفى ماريا أفتاسطوف. إتيف أرشى إن كيسوب .",
       "Englishcoptic": "Ethve epsotcheni empi hof, Adam pi shorp afhi-oi emmof, ethve Maria avtastof, etef arshi enkesop."
     },
     {

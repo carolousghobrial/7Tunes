@@ -17,9 +17,9 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b هذه هى صورة والدة الإله مريم أمّ إبن الله.",
+      "Arabic": " هذه هى صورة والدة الإله مريم أمّ إبن الله.",
       "Coptic": "Vai pe `plumen> `w ;qe`otokoc> Mari`a qmau `nUioc Qeoc.",
-      "English": "\b This is the image of the mother of God, Mary the mother of the Son of God.",
+      "English": " This is the image of the mother of God, Mary the mother of the Son of God.",
       "Arabiccoptic": "فاى بى إبليمين أوتى ثيؤطوكوس. ماريا إثماف إن إيوس ثيؤس.",
       "Englishcoptic": "Fai pe eplemin, o ti- theo-tokos, Maria ethmave en eios theos."
     },
@@ -28,10 +28,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b عمود النور هو مريم العذراء.",
-      "Coptic": "Ou`ctelloc eter\b ouwini pe Mari`a ;parqenoc.",
-      "English": "\b A pillar of light is Mary the virgin.",
-      "Arabiccoptic": "\b أو إستيللوس إت إير أوأوينى. بى ماريا تيبارثينوس.",
+      "Arabic": " عمود النور هو مريم العذراء.",
+      "Coptic": "Ou`ctelloc eter ouwini pe Mari`a ;parqenoc.",
+      "English": " A pillar of light is Mary the virgin.",
+      "Arabiccoptic": " أو إستيللوس إت إير أوأوينى. بى ماريا تيبارثينوس.",
       "Englishcoptic": "O estellos et er owini, pe Maria ti parthenos."
     },
     {
@@ -39,10 +39,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b صابرة هذه العذراء وحسنة هى بتوليتها.",
+      "Arabic": " صابرة هذه العذراء وحسنة هى بتوليتها.",
       "Coptic": "Cunterben `etai parqenoc> \\an`qmeten nac `ntecparqeni`a.",
-      "English": "\b Perserverant is the virgin and well is her virginity.",
-      "Arabiccoptic": "\b سين تير فى إيطاى بارثينوس. هان إثميت إن ناس إنتيس بارثينيا.",
+      "English": " Perserverant is the virgin and well is her virginity.",
+      "Arabiccoptic": " سين تير فى إيطاى بارثينوس. هان إثميت إن ناس إنتيس بارثينيا.",
       "Englishcoptic": "Sen ter ven etai parthenos, han ethme ten nas entes parthenia."
     },
     {
@@ -50,10 +50,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b من أجل هذا مخلصنا رفعها إلى ملكوته.",
+      "Arabic": " من أجل هذا مخلصنا رفعها إلى ملكوته.",
       "Coptic": "Eqbe vai `aPencwr?> olc e=oun `etefmetouro.",
-      "English": "\b Therefore, our Savior raised her up to His kingdom.",
-      "Arabiccoptic": "\b إثفى فاى إبين سوتير. أولس إيخون إتيف ميت أورو.",
+      "English": " Therefore, our Savior raised her up to His kingdom.",
+      "Arabiccoptic": " إثفى فاى إبين سوتير. أولس إيخون إتيف ميت أورو.",
       "Englishcoptic": "Ethve fai A pen soteer, ols ekhon e tef met oro."
     },
     {
@@ -61,10 +61,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b وأعطاها الخيرات التى لم ترها عين.",
+      "Arabic": " وأعطاها الخيرات التى لم ترها عين.",
       "Coptic": "Af; nac `nni`agaqon> nh`ete `mpebalnau `erwou.",
-      "English": "\b And gave her all goodness which no eye has seen.",
-      "Arabiccoptic": "\b أفتى ناس إن نى أغاثون. نى إيتى إمبى فال ناف إيروؤ.",
+      "English": " And gave her all goodness which no eye has seen.",
+      "Arabiccoptic": " أفتى ناس إن نى أغاثون. نى إيتى إمبى فال ناف إيروؤ.",
       "Englishcoptic": "Afti nas en ni aghathon, ni ete empi val nav ero o."
     },
     {
@@ -72,10 +72,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b أنت هى البرج العالى كقول الحكيم.",
+      "Arabic": " أنت هى البرج العالى كقول الحكيم.",
       "Coptic": "` Nqo gar pe pipurgoc et`soci> kata `pcaji `mpicovoc.",
-      "English": "\b You are the high tower as the wiseman said.",
-      "Arabiccoptic": "\b إنثو غار بى بى بيرغوس إت إتشوسى. كاطا إبساجى إمبى سوفوس.",
+      "English": " You are the high tower as the wiseman said.",
+      "Arabiccoptic": " إنثو غار بى بى بيرغوس إت إتشوسى. كاطا إبساجى إمبى سوفوس.",
       "Englishcoptic": "Entho ghar pe pirghos et etshoci, kata psaji em pi sofos."
     },
     {
@@ -83,10 +83,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b أنت هى خلاص آدم وجميع بنيه.",
+      "Arabic": " أنت هى خلاص آدم وجميع بنيه.",
       "Coptic": "` Nqo gar oucw; `n` Adam> nem nef]hri throu eucop.",
-      "English": "\b You are Adam’s salvation and all his children.",
-      "Arabiccoptic": "\b إنثو غار أوسوتى إن آدام. نيم نيف شيرى تيرو إفسوب.",
+      "English": " You are Adam’s salvation and all his children.",
+      "Arabiccoptic": " إنثو غار أوسوتى إن آدام. نيم نيف شيرى تيرو إفسوب.",
       "Englishcoptic": "Entho ghar o cooti en Adam, nem nef sheri tiro evsop."
     },
     {
@@ -94,10 +94,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b أنت هى بالحقيقة العروسة النقية.",
-      "Coptic": "` Nqo gar `alhqinon> pi ma`n]e\b let `nkaqaroc.",
-      "English": "\b You are truly the pure bride.",
-      "Arabiccoptic": "\b إنثو غار أليثينون. بى ما إنشيليت إن كاثاروس.",
+      "Arabic": " أنت هى بالحقيقة العروسة النقية.",
+      "Coptic": "` Nqo gar `alhqinon> pi ma`n]e let `nkaqaroc.",
+      "English": " You are truly the pure bride.",
+      "Arabiccoptic": " إنثو غار أليثينون. بى ما إنشيليت إن كاثاروس.",
       "Englishcoptic": "Entho ghar alithinon, pima en shelet en katha- ros."
     },
     {
@@ -105,10 +105,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b مريم فرح الملائكة مريم فخر الرسل.",
-      "Coptic": "Mari`a `vra]i `nniaggeloc> Mari`a `p]ou]ou `nniapoc\b toloc.",
-      "English": "\b Mary is the joy of angels. Mary is the joy of the apostles.",
-      "Arabiccoptic": "\b ماريا إفراشى إن نى أنجيلوس. ماريا إبشوشو إن نى أبوسطولوس.",
+      "Arabic": " مريم فرح الملائكة مريم فخر الرسل.",
+      "Coptic": "Mari`a `vra]i `nniaggeloc> Mari`a `p]ou]ou `nniapoc toloc.",
+      "English": " Mary is the joy of angels. Mary is the joy of the apostles.",
+      "Arabiccoptic": " ماريا إفراشى إن نى أنجيلوس. ماريا إبشوشو إن نى أبوسطولوس.",
       "Englishcoptic": "Maria efrashy en ni angelos, Maria ep shosho en ni apostolos."
     }
   ]

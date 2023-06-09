@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b له المجد الدائم والاكرام:,\nصاحب الهيبة والملكوت:,\nقديم أزلي قبل الايام:,\nدائم باقي حي لا يموت",
+      "Arabic": " له المجد الدائم والاكرام:,\nصاحب الهيبة والملكوت:,\nقديم أزلي قبل الايام:,\nدائم باقي حي لا يموت",
       "English": "To Him is due all Glory and Praise,\nWorthy of the Kingdom and honor,\nAncient Existent Before Ages,\nEternal Omnipotent Without death"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b قدوس الله قدوس القوي:,\nقدوس الحي الذي لا يموت:,\nرب العرش الملك العلوي:,\nنكرز ونبشر بالثالوث",
+      "Arabic": " قدوس الله قدوس القوي:,\nقدوس الحي الذي لا يموت:,\nرب العرش الملك العلوي:,\nنكرز ونبشر بالثالوث",
       "English": "Holy God Holy Mighty,\nHoly Immortal without death,\nGod of the Throne King of Glory,\nWe teach we preach the Trinity."
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b مبارك الآب ضابط الكل:,\nمبارك الابن يسوع المسيح:,\nمبارك روح قدسه الذي لا يزال:,\nيجب له السجود مع التسابيح",
+      "Arabic": " مبارك الآب ضابط الكل:,\nمبارك الابن يسوع المسيح:,\nمبارك روح قدسه الذي لا يزال:,\nيجب له السجود مع التسابيح",
       "English": "Blessed is God the Father the Pantocrator,\nBlessed is His Only Begotten Son Jesus Christ,\nBlessed be His Holy Spirit the Paraclete,\nTo Him is due Worship and Praise"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b صاحب قدرة وسلطان عظيم:,\nحاكم عالم جيد وكريم:,\nاله واحد في ثلاثة أقانيم:,\nيعجز عن وصفه كل فهيم",
+      "Arabic": " صاحب قدرة وسلطان عظيم:,\nحاكم عالم جيد وكريم:,\nاله واحد في ثلاثة أقانيم:,\nيعجز عن وصفه كل فهيم",
       "English": "He has Great Power and Authority,\nWise and Informed Good and Generous,\nOne God in Three Hypostasis,\nMany Scholars failed to describe Him"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b جوهر واحد طبع واحد:,\nوذات واحد في اللاهوت فريد:,\nالثلاثة واحد في الجوهر:,\nمن غير تفريد ولا تقسيم",
+      "Arabic": " جوهر واحد طبع واحد:,\nوذات واحد في اللاهوت فريد:,\nالثلاثة واحد في الجوهر:,\nمن غير تفريد ولا تقسيم",
       "English": "One Essence and One Nature,\nOne Hypostasis in the Trinity Unique,\nThree in One in Essence,\nWithout Singularity or Division."
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b جوهر واحد في ثلاثة اقانيم:,\nمن غير تفريد ولا تقسيم:,\nسلطان واحد في ملكه مقيم:,\nمالىء سموات وكل الاقانيم",
+      "Arabic": " جوهر واحد في ثلاثة اقانيم:,\nمن غير تفريد ولا تقسيم:,\nسلطان واحد في ملكه مقيم:,\nمالىء سموات وكل الاقانيم",
       "English": "One Essence in the Trinity,\nWithout Singularity or Division,\nOne in His Kingdom Existent,\nFilling Heaven and all Regions."
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b سر يفوق البشرية:,\nبحسب الجوهر إله واحد:,\nوأما حسب الأقنومية:,\nهم ثلاثة إله واحد",
+      "Arabic": " سر يفوق البشرية:,\nبحسب الجوهر إله واحد:,\nوأما حسب الأقنومية:,\nهم ثلاثة إله واحد",
       "English": "A Mystery Exceeding Humanity,\nAccording to the Essence One God,\nBut According to the Economy,\nAll Three are One God."
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b الابن مولود من الأزلية:,\nليس لتقديم الإرادة ولد من الآب:,\nلكن ولادة طبيعية:,\nوالروح القدس منبثق من الآب",
+      "Arabic": " الابن مولود من الأزلية:,\nليس لتقديم الإرادة ولد من الآب:,\nلكن ولادة طبيعية:,\nوالروح القدس منبثق من الآب",
       "English": "The Son Begotten Before all Ages,\nHe was born of the Father,\nBut His miraculous birth was natural,\nAnd the Holy Spirit Proceeding from the Father"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b كولادة شعاع الشمس وحرارتها:,\nوالقرص الباعث للاثنين:,\nوهذه الولادة طبيعية:,\nلا منقطعين ولا منفصلين",
+      "Arabic": " كولادة شعاع الشمس وحرارتها:,\nوالقرص الباعث للاثنين:,\nوهذه الولادة طبيعية:,\nلا منقطعين ولا منفصلين",
       "English": "Like the Birth of the Sun rays and its heat,\nAnd the Sphere sending both,\nThis birth is natural,\nWithout tearing or division."
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b الثلاثة أقانيم متساوية:,\nفي الجوهر واللاهوتية:,\nوفي قدم الأزلية:,\nودوام الحياة الأبدية",
+      "Arabic": " الثلاثة أقانيم متساوية:,\nفي الجوهر واللاهوتية:,\nوفي قدم الأزلية:,\nودوام الحياة الأبدية",
       "English": "All Three natures are equivalent,\nIn Essence and in Divinity,\nIn Existence before ages,\nIn Eternal life to the end of Age."
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b شاف دانيال كرسي أعيان:,\nوالجالس عليه عتيق الأيام:,\nدنا منه ابن الانسان:,\nواعطاه الكرامة والسلطان",
+      "Arabic": " شاف دانيال كرسي أعيان:,\nوالجالس عليه عتيق الأيام:,\nدنا منه ابن الانسان:,\nواعطاه الكرامة والسلطان",
       "English": "Daniel Saw in his vision a Throne,\nAnd seated upon it ancient of days,\nThe son of man came to Him,\nAnd gave him Dignity and Authority."
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b نظر الكرسي شبيه البرق:,\nوالجالس عليه شبيه النار:,\nشعر رأسه أبيض كالثلج:,\nحاملينه أربعة كائنات من نار",
+      "Arabic": " نظر الكرسي شبيه البرق:,\nوالجالس عليه شبيه النار:,\nشعر رأسه أبيض كالثلج:,\nحاملينه أربعة كائنات من نار",
       "English": "He saw the throne like Lightning,\nWho sat on it like Fire,\nThe hair of His head white as snow,\nCarrying Him Four Creatures of Fire."
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b رأى الأربعة من غير جسد:,\nواحد في شبه انسان وواحد في شبه ثور:,\nوالكائن الثالث شبه اسد:,\nوالكائن الرابع شبيه النسور",
+      "Arabic": " رأى الأربعة من غير جسد:,\nواحد في شبه انسان وواحد في شبه ثور:,\nوالكائن الثالث شبه اسد:,\nوالكائن الرابع شبيه النسور",
       "English": "He saw the four without body,\nOne looked like man one looked like a bull,\nAnd the third creature like a lion,\nAnd the fourth creature like an eagle."
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b أربعة وجوه للواحد منهم:,\nوستة أجنحة وكله عيون:,\nباثنين يغطون أرجلهم:,\nيسترون وجوههم بإتنين ويطيرون بإثنين.",
+      "Arabic": " أربعة وجوه للواحد منهم:,\nوستة أجنحة وكله عيون:,\nباثنين يغطون أرجلهم:,\nيسترون وجوههم بإتنين ويطيرون بإثنين.",
       "English": "Four faces for each of them,\nAnd six wings they were full of eyes,\nWith two they covered their legs,\nAnd they cover their faces with two and fly with two."
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b اربعة وعشرون قسيسا بكراسيهم:,\nوأكاليل ذهب تشعل كالنار:,\nومجامر ذهب في أيديهم:,\nببخور صاعد ليلا ونهار",
+      "Arabic": " اربعة وعشرون قسيسا بكراسيهم:,\nوأكاليل ذهب تشعل كالنار:,\nومجامر ذهب في أيديهم:,\nببخور صاعد ليلا ونهار",
       "English": "Twenty four priests with their Thrones,\nWith golden crowns lit as fire,\nAnd golden censors in their hands,\nWith incense raising night and day."
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b يحوط بالكرسي الوف الوف:,\nورؤساء ملائكة ربوات ربوات:,\nكراسي وسلاطين صفوف صفوف:,\nترتل له بأعلى الأصوات",
+      "Arabic": " يحوط بالكرسي الوف الوف:,\nورؤساء ملائكة ربوات ربوات:,\nكراسي وسلاطين صفوف صفوف:,\nترتل له بأعلى الأصوات",
       "English": "Around the Throne Thousands and Thousands,\nAnd Archangels Myriads of Myriads,\nThrones Dominions rows by rows,\nPraising Him with loudest of voices."
     },
     {
@@ -144,7 +144,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b وعند صياح الكائنات والقسوس:,\nيصيحون جميعا بأعلى صوت:,\nصارخين قائلين قدوس قدوس:,\nقدوس الحي رب الصباؤوت",
+      "Arabic": " وعند صياح الكائنات والقسوس:,\nيصيحون جميعا بأعلى صوت:,\nصارخين قائلين قدوس قدوس:,\nقدوس الحي رب الصباؤوت",
       "English": "And at the Chant of the Creatures and Priests,\nThey all Chant with loudest of voices,\nProclaiming and Saying Holy Holy,\nHoly The Living Lord of Hosts."
     },
     {
@@ -152,7 +152,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b السماء والأرض مملوءة:,\nمن مجدك الفائق ومديحك:,\nلك المجد لك القوة:,\nوجميع البرايا لتسابيحك",
+      "Arabic": " السماء والأرض مملوءة:,\nمن مجدك الفائق ومديحك:,\nلك المجد لك القوة:,\nوجميع البرايا لتسابيحك",
       "English": "Heaven and Earth are Full,\nOf Your Holy Glory and Your Praise,\nThine is the Power and the Glory,\nAnd all creation shall praise You."
     },
     {
@@ -160,7 +160,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b الليلويا الليلويا:,\nلك العظمة والجبروت:,\nلك المجد لك القوة:,\nولك الهيبة ولك الملكوت",
+      "Arabic": " الليلويا الليلويا:,\nلك العظمة والجبروت:,\nلك المجد لك القوة:,\nولك الهيبة ولك الملكوت",
       "English": "Alleluia Alleluia,\nTo you belongs greatness and Power,\nTo You belongs Glory and Strength,\nTo You belongs Authority and Kingdoms."
     }
   ]

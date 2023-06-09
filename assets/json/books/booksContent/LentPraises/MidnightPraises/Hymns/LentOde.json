@@ -202,11 +202,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "المجد للآب... الأن... أمين الليلويا كيرياليسون",
-      "Coptic": "Do[apatri…>Kenun… `amhn   al?   >   k/e/ k/e/ k/e/ .",
-      "English": "Glory to the Father and to the Son and to the Holy Spirit, now and ever and unto the ages of ages. Amen. Alleluia. Lord have mercy. Lord have mercy. Lord have mercy.",
-      "Arabiccoptic": "ذوكسابترى.. كى نين.. امين الليلويا كيرياليسون..",
-      "Englishcoptic": "Zokapatri ke eio ke agio Epnevmati Ken in ke a e ke eis tos e onas ton e onon Amen allelouia kirialison kirialison kirialison"
+      "Arabic": "المجد للآب والابن والروح القدس، الآن وكل اوان وإلي دهر الدهور. أمين الليلويا كيرياليسون.",
+      "Coptic": "Do[a Patri ke Uiw ke `agiw `Pneumati> ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn> `amhn allhlouia. k/e/ k/e/ k/e/",
+      "English": "Glory to the Father and to the Son and to the Holy Spirit, now and ever and unto the ages of the ages. Amen. Alleluia. Lord have mercy. Lord have mercy. Lord have mercy.",
+      "Arabiccoptic": "ذوكصابتري كيه إيو كي آجيو ابنيفماتي كي نين، كي آ إي، كي ايستوس إي أوناس تون إي أونون امين الليلويا كيرياليسون",
+      "Englishcoptic": "Zoxa patri ke eio, ke agio epnevmati. Ke nin ke a-ee ke estos e-onas ton e-onon Amen allelouia Kerie-leyson Kerie-leyson Kerie-leyson"
     }
   ]
 }

@@ -9,10 +9,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b زينتك يامريم العذراء. يا إبنة الملك داود. هى عن يمين يسوع المسيح. إبن الله الحبيب.",
+      "Arabic": " زينتك يامريم العذراء. يا إبنة الملك داود. هى عن يمين يسوع المسيح. إبن الله الحبيب.",
       "Coptic": "Ere `pcolcel `n;parqenoc > Mari`a `t]eri `m`pouro Dauid> caou`inam `nIhc? Pxc? > ` P]hri `mV; pimenrit .",
       "English": "The adornment of the Virgin, Mary the daughter of King David, at the right hand of Jesus Christ, the beloved Son of God.",
-      "Arabiccoptic": "\bإيرى إبسولسيل إنتى بارثينوس. ماريا إتشيرى إم إبؤرو دافيد. سا أوى نام إن إيسوس بخريستوس. إبشيرى إم إفنوتى بي مينريت.",
+      "Arabiccoptic": "إيرى إبسولسيل إنتى بارثينوس. ماريا إتشيرى إم إبؤرو دافيد. سا أوى نام إن إيسوس بخريستوس. إبشيرى إم إفنوتى بي مينريت.",
       "Englishcoptic": "Ere epsolsel enti Parthenos, Maria etshery em ep-oro David, sa-oui name n Isos Pikhristos, epshiry em evnouty pi menreet."
     },
     {
@@ -31,10 +31,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\bأنتِ أرفع من الشاروبيم. وأكرم من السيرافيم. فى السماء وعلى الأرض. يا أم الله ذى العزة.",
+      "Arabic": "أنتِ أرفع من الشاروبيم. وأكرم من السيرافيم. فى السماء وعلى الأرض. يا أم الله ذى العزة.",
       "Coptic": "Tesoci `eNixeroubim> `w `qmau `mV; va pi`ama\\i > tetaihout `eNiceravim > =en `tve nem \\ijen pika\\i.",
       "English": "You are exalted more than the Cherubim, O Mother of the mighty God, and more honored than the Seraphim, in heaven and on earth.",
-      "Arabiccoptic": "\b تى إتشوسى إنى شيروبيم. أو إثماف إمفنوتى فا بي أماهى. تى طايوت إنى سيرافيم. خين إتفى نيم هيجين بيكاهى.",
+      "Arabiccoptic": " تى إتشوسى إنى شيروبيم. أو إثماف إمفنوتى فا بي أماهى. تى طايوت إنى سيرافيم. خين إتفى نيم هيجين بيكاهى.",
       "Englishcoptic": "Tetshosy eni Cherubim, o ethmav em Evnouty vapi amahi, te taiot eni Seraphim, khen etve nem hijen pikahy."
     },
     {
@@ -53,10 +53,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b كما قال أشعياء. بصوت التهلل. هافتاة عذراء. ستلد لنا عمانوئيل.",
+      "Arabic": " كما قال أشعياء. بصوت التهلل. هافتاة عذراء. ستلد لنا عمانوئيل.",
       "Coptic": "Kata `vrh; `etafjoc > `nje Hca`hac =en ou`cmh `nqelhl > je ic `alou `mparqenoc > ec`emici nan `nEmmanouhl .",
       "English": "As Isaiah has said, with a voice of joy, \"Behold a young virgin shall conceive, and bring forth to us Emmanuel.\"",
-      "Arabiccoptic": "\b كاطا إفريتى إيطاف جوس. إنجى إيسائياس خين أو إسمى إن ثيليل. جى يس ألو إمبارثينوس. إس إميسى نان إن إممانوئيل.",
+      "Arabiccoptic": " كاطا إفريتى إيطاف جوس. إنجى إيسائياس خين أو إسمى إن ثيليل. جى يس ألو إمبارثينوس. إس إميسى نان إن إممانوئيل.",
       "Englishcoptic": "Kata evreety etavgos, enje Isaeias, khen o-esmy en thelil, je ies aloe m Parthenos, es emisi nan en Emmanoueel."
     },
     {
@@ -75,10 +75,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b السلام لك أيتها العذراء. نطوبك مع غبريال الملاك. الرب معك.",
+      "Arabic": " السلام لك أيتها العذراء. نطوبك مع غبريال الملاك. الرب معك.",
       "Coptic": "Xere ne `w ;parqenoc > tenermakarizin `mmo > nem Gabrihl piaggeloc > ouo\\ P_ ]op neme .",
       "English": "Hail to you O Virgin, we bless you, with Gabriel the angel, the Lord is with you.",
-      "Arabiccoptic": "\bشيرى نى أوتى بارثينوس. تين إيرماكارى زين إممو. نيم غابرييل بى أنجيلوس. أووه إبشويس شوب نيمى.",
+      "Arabiccoptic": "شيرى نى أوتى بارثينوس. تين إيرماكارى زين إممو. نيم غابرييل بى أنجيلوس. أووه إبشويس شوب نيمى.",
       "Englishcoptic": "Shere ne oti Parthenos, ten er makarizin emmo, nem Ghabriel pi angelos, owoh Epshois shop neme."
     },
     {

@@ -51,6 +51,7 @@ const settingsSlice = createSlice({
         "Pope and Patriarch and Archbishop of the Great City of Alexandria",
       Rank: "Pope",
     },
+    isBishopPresent: false,
   },
   reducers: {
     setTimeTransition: (state, action) => {
@@ -65,6 +66,12 @@ const settingsSlice = createSlice({
       return {
         ...state,
         isTablet: isTablet,
+      };
+    },
+    setisBishopPresent: (state, action) => {
+      return {
+        ...state,
+        isBishopPresent: !state.isBishopPresent,
       };
     },
     changeLanguage: (state, action) => {
@@ -204,5 +211,6 @@ export const setItemPurchased = settingsSlice.actions.setItemPurchased;
 export const changePagination = settingsSlice.actions.changePagination;
 export const setIsTablet = settingsSlice.actions.setIsTablet;
 export const setdioceseBishop = settingsSlice.actions.setdioceseBishop;
+export const setisBishopPresent = settingsSlice.actions.setisBishopPresent;
 
 export default settingsSlice.reducer;

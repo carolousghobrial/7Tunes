@@ -20,10 +20,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b إسمع صوتى عاجلاً . يامن يشاء خلاص . جميع الضالين . من أجل كثرة رحمتك .",
+      "Arabic": " إسمع صوتى عاجلاً . يامن يشاء خلاص . جميع الضالين . من أجل كثرة رحمتك .",
       "Coptic": "Cwtem `eta`cmh `nxwlem > `w vheqouw] `eno\\em > `nnh throu `etaucwrem > eqbe `p`a]ai `nte peknai .",
       "English": "Hear my voice speedily, O You who wish salvation, for all who have gone astray, because of the abundance of Your mercy.",
-      "Arabiccoptic": "\b سوتيم إيطا إسمى إنكوليم . أوفى إث أوأوش إينوهيم . إن نى تيرو إيطاف سوريم . إثفى إب أشاى إنتى بيك ناى .",
+      "Arabiccoptic": " سوتيم إيطا إسمى إنكوليم . أوفى إث أوأوش إينوهيم . إن نى تيرو إيطاف سوريم . إثفى إب أشاى إنتى بيك ناى .",
       "Englishcoptic": "Sotem eta esmy enkolem, ovi eth o-osh enohem, en ni tiro etav sorem, ethve ep ashai ente peknai."
     },
     {
@@ -42,10 +42,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b متجسداً من العذراء, الذى يعقوب الصديق . أعطانا مثاله العظيم . كما قال .",
+      "Arabic": " متجسداً من العذراء, الذى يعقوب الصديق . أعطانا مثاله العظيم . كما قال .",
       "Coptic": "Afsicar[ =en ;parqenoc > `eta Iakwb pidikeoc > af; nan `mpefni]; `ntupoc > kata `vrh; `etafjoc .",
       "English": "He took flesh from the Virgin, concerning which Jacob the righteous gave, a great symbol, as he spoke.",
-      "Arabiccoptic": "\bأفتشى ساركس خين تيبارثينوس, إيطا ياكوب بى ذيكيؤس . أفتى نان إمبيف نيشتى إنتيبوس . كاطا إفريتى إيطاف جوس .",
+      "Arabiccoptic": "أفتشى ساركس خين تيبارثينوس, إيطا ياكوب بى ذيكيؤس . أفتى نان إمبيف نيشتى إنتيبوس . كاطا إفريتى إيطاف جوس .",
       "Englishcoptic": "Af echi sarex khen ti Parthenos, eta Yackoub pizikeos, afti nan empef nishty en typos, kata evreety etav gos."
     },
     {
@@ -64,10 +64,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b التى هى العفيفة النقية, السلم الحقيقى. الذى يعقوب شهد عنه. لأنها حملت رب المجد.",
+      "Arabic": " التى هى العفيفة النقية, السلم الحقيقى. الذى يعقوب شهد عنه. لأنها حملت رب المجد.",
       "Coptic": "`Ete ;cemne `nkaqaroc > pe ;mouki `alhqoc > `eta Iakwb ermeqre =aroc > je acfai =a P_ `nte `p`wou .",
       "English": "The chaste and pure, truly is the ladder, to which Jacob testified, for she carried the Lord of glory.",
-      "Arabiccoptic": "\b إيتى تى سيمنى إنكاثاروس, بى تيموكى أليثوس. إيطا ياكوب إرميثرى خاروس. جى أسفاى خا إبشويس إنتى إبؤو.",
+      "Arabiccoptic": " إيتى تى سيمنى إنكاثاروس, بى تيموكى أليثوس. إيطا ياكوب إرميثرى خاروس. جى أسفاى خا إبشويس إنتى إبؤو.",
       "Englishcoptic": "Ete ti semni en katharos, pe ti moky alithos, eta Yackoub er methre kharos, je asfai kha Epshois ente ep o-o."
     },
     {
@@ -86,10 +86,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b الذى جمع المؤمنين, وآلفهم مع الملائكة . وصيرهم وارثين . لملكوته الأبدى .",
+      "Arabic": " الذى جمع المؤمنين, وآلفهم مع الملائكة . وصيرهم وارثين . لملكوته الأبدى .",
       "Coptic": "`Etafqwou; `nnipictoc > af\\otpou nem niaggeloc > afaito `n`klhronomoc > `ntefmetouro `n`ene\\ .",
       "English": "Who has gathered the faithful, and united them with the angels, He made them heirs, of His eternal kingdom.",
-      "Arabiccoptic": "\b إيطاف ثؤوتى إن نى بيستوس, أفهوتبو نيم نى أنجيلوس . أف أيتو إن إكليرونوموس . إنتيف ميت أورو إن إينيه .",
+      "Arabiccoptic": " إيطاف ثؤوتى إن نى بيستوس, أفهوتبو نيم نى أنجيلوس . أف أيتو إن إكليرونوموس . إنتيف ميت أورو إن إينيه .",
       "Englishcoptic": "Etav tho-oty enni pistos. Afhotpo nem ni angelos, af aito en eklironomos, entef met oro en eneh."
     },
     {

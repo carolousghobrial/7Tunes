@@ -29,7 +29,7 @@ function SettingsScreen({ navigation, route }) {
       <PresentationMode></PresentationMode>
       <FontSize></FontSize>
       <VisibleLangs></VisibleLangs>
-      {/* <PopeBishop></PopeBishop> */}
+      <PopeBishop></PopeBishop>
     </ScrollView>
   );
 }

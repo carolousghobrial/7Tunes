@@ -64,47 +64,47 @@ const SundayThetokiaWeekdaysPraisesRule = (motherSource, path) => {
 const TheotokiaVisible = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   var today = currentSeason.dayOfWeek;
+  console.log(motherSource);
+  console.log(path);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
-  if (todayPrayer) {
-    if (motherSource.includes("VespersPraises")) {
-      if (today == 0 && path.includes("saturday")) {
-        return true;
-      } else if (today == 1 && path.includes("sunday")) {
-        return true;
-      } else if (today == 2 && path.includes("monday")) {
-        return true;
-      } else if (today == 3 && path.includes("tuesday")) {
-        return true;
-      } else if (today == 4 && path.includes("wednesday")) {
-        return true;
-      } else if (today == 5 && path.includes("thursday")) {
-        return true;
-      } else if (today == 6 && path.includes("friday")) {
-        return true;
-      } else {
-        return false;
-      }
+  console.log(todayPrayer);
+
+  if (motherSource.includes("VespersPraises")) {
+    if (today == 0 && path.includes("saturday")) {
+      return true;
+    } else if (today == 1 && path.includes("sunday")) {
+      return true;
+    } else if (today == 2 && path.includes("monday")) {
+      return true;
+    } else if (today == 3 && path.includes("tuesday")) {
+      return true;
+    } else if (today == 4 && path.includes("wednesday")) {
+      return true;
+    } else if (today == 5 && path.includes("thursday")) {
+      return true;
+    } else if (today == 6 && path.includes("friday")) {
+      return true;
     } else {
-      if (today == 0 && path.includes("sunday")) {
-        return true;
-      } else if (today == 1 && path.includes("monday")) {
-        return true;
-      } else if (today == 2 && path.includes("tuesday")) {
-        return true;
-      } else if (today == 3 && path.includes("wednesday")) {
-        return true;
-      } else if (today == 4 && path.includes("thursday")) {
-        return true;
-      } else if (today == 5 && path.includes("friday")) {
-        return true;
-      } else if (today == 6 && path.includes("saturday")) {
-        return true;
-      } else {
-        return false;
-      }
+      return false;
     }
   } else {
-    return true;
+    if (today == 0 && path.includes("sunday")) {
+      return true;
+    } else if (today == 1 && path.includes("monday")) {
+      return true;
+    } else if (today == 2 && path.includes("tuesday")) {
+      return true;
+    } else if (today == 3 && path.includes("wednesday")) {
+      return true;
+    } else if (today == 4 && path.includes("thursday")) {
+      return true;
+    } else if (today == 5 && path.includes("friday")) {
+      return true;
+    } else if (today == 6 && path.includes("saturday")) {
+      return true;
+    } else {
+      return false;
+    }
   }
 };
 
@@ -354,6 +354,13 @@ const isSeason = (motherSource, path) => {
         ) {
           return true;
         }
+        if (
+          path
+            .toLowerCase()
+            .includes("versesofcymbalsressurectionarchangelmichael")
+        ) {
+          return true;
+        }
         if (path.toLowerCase().includes("ascensionperiod")) {
           return true;
         }
@@ -365,6 +372,13 @@ const isSeason = (motherSource, path) => {
         if (
           path.toLowerCase().includes("ressurection") &&
           path.toLowerCase().includes("doxologies")
+        ) {
+          return true;
+        }
+        if (
+          path
+            .toLowerCase()
+            .includes("versesofcymbalsressurectionarchangelmichael")
         ) {
           return true;
         }
@@ -483,6 +497,12 @@ const isMatins = (motherSource, path) => {
 };
 const isVespers = (motherSource, path) => {
   return motherSource === "vespers" ? true : false;
+};
+const inRaisingOfIncense = (motherSource, path) => {
+  return motherSource === "vespers" ||
+    motherSource.toLowerCase().includes("matins")
+    ? true
+    : false;
 };
 const isCovenantThursday = (motherSource, path) => {
   return motherSource === "ThursdayDayFirstHourMain" ? true : false;
@@ -645,10 +665,6 @@ const isBigFeast = (motherSource, path) => {
   return false;
 };
 const isPalmSunday = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  if (currentSeason.key === "PALM_SUNDAY") {
-    return true;
-  }
   return false;
 };
 const isCross = (motherSource, path) => {
@@ -770,7 +786,10 @@ const getPlantsSeason = (motherSource, path) => {
 };
 const ISDioceseMetropolitain = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-  if (dioceseBishop.Rank === "Metropolitan") {
+  const isBishopPresent = useSelector(
+    (state) => state.settings.isBishopPresent
+  );
+  if (dioceseBishop.Rank === "Metropolitan" && isBishopPresent === true) {
     return true;
   }
   return false;
@@ -783,12 +802,9 @@ const ISDioceseBishop = (motherSource, path) => {
   return false;
 };
 const IsDiocesePope = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-  if (dioceseBishop.Rank === "Pope") {
-    return true;
-  }
   return false;
 };
+
 const VisibleRules = {
   hide: hide,
   TennavRule: TennavRule,
@@ -837,6 +853,7 @@ const VisibleRules = {
   isApostlesFeast: isApostlesFeast,
   isNotSaturday: isNotSaturday,
   IsLiturgy: IsLiturgy,
+  inRaisingOfIncense: inRaisingOfIncense,
   isRessurectionFeast: isRessurectionFeast,
   ISDioceseMetropolitain: ISDioceseMetropolitain,
   ISDioceseBishop: ISDioceseBishop,

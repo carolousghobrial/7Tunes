@@ -22,7 +22,7 @@
       "Side": "South",
       "Arabic": "هذه التى امتلأت من الحكمة منذ صباها فأبغضت العالميات وأحبت البتولية.",
       "Coptic": "Qai icjen tecmetalou > acme\\ `ebol =en ;covia > acmoc; `nnikocmikon > acmenre `n;parqenia.",
-      "English": "\b This is she who was filled with wisdom, from her childhood, she hated the earthly, and she loved virginity.",
+      "English": " This is she who was filled with wisdom, from her childhood, she hated the earthly, and she loved virginity.",
       "Arabiccoptic": "ثـاى يسجسن تيسميت آلو: أسميه إيـفـول خين تى صوفـيا : أسموستى إن نى كوسميكون : أسمينريه إن تى بارثينيا",
       "Englishcoptic": "Thai isjen tesmetalo, asmeh evol khen ti sofia, asmosty enni kosmikon, asmenre enti Parthenos."
     },
@@ -44,7 +44,7 @@
       "Side": "South",
       "Arabic": "ولما كفر بالمسيح ردته ابنته دميانه التى أحبته فنال الشهادة.",
       "Coptic": "Afjwl `ebol `mPxc? > actacqo `mmof `nje tef]eri > etacmenre `mmof `nje Dumi`anh > afsi `n;metmarturia.",
-      "English": "\b When he denied Christ, his loving daughter Demiana, restored his faith, and he received martyrdom.",
+      "English": " When he denied Christ, his loving daughter Demiana, restored his faith, and he received martyrdom.",
       "Arabiccoptic": "أفجول إيفول إم بخرستوس : أسطاستو إمموف إنجيه تيف شيرى : إيطاس مينريه إمموف إنجيه دميانى : آفتشى إن تى ميت مارتيريا .",
       "Englishcoptic": "Avgol evol em Epshois, astasto emmof enje tef shery, etas menre emmof enje Dymiani, avechi enti met martyria."
     },
@@ -66,7 +66,7 @@
       "Side": "South",
       "Arabic": "والأربعون عذراء الذين كانوا معها فى القصر نالوا الشهادة معها فى يوم واحد.",
       "Coptic": "Pi m? equ? `mparqenoc > `enau]wpi nemac =en pipurgoc > ausi `n;metmarturia > =en pi`e\\oou `nouwt nemac.",
-      "English": "\b The forty holy virgins, who were with her in the tower, received martyr-dom, all in one day with her.",
+      "English": " The forty holy virgins, who were with her in the tower, received martyr-dom, all in one day with her.",
       "Arabiccoptic": "بى إهميه إثؤواب إم بارثـينوس : إيناف شوبى نيماس خين بى بيرغوس : آقتشى إن تى ميت مارتيريا : خين بى إيهوؤ إنؤوت نيماس",
       "Englishcoptic": "Pi ehme epseet em Parthenos, enav shopi nemas khen pi pyrghos, avechi enti met martyria, khen pi eho-o en o-ot nemas."
     },
@@ -86,9 +86,9 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "أطلبى من الرب عنا ياعروس المسيح القديسة دميانه ليغفر...",
+      "Arabic": "أطلبى من الرب عنا ياعروس المسيح القديسة دميانه ليغفر لنا خطايانا",
       "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > `w;]elet `nte Pxc? > ;agia Dumi`anh  > `ntef xa nennobi nan `ebol.",
-      "English": "\b Pray to the Lord on our behalf, O bride of Christ, Saint Demiana, that He may forgive us our sins.",
+      "English": " Pray to the Lord on our behalf, O bride of Christ, Saint Demiana, that He may forgive us our sins.",
       "Arabiccoptic": "طوبه إمبشويس إإهرى إيجون . أو تى شيليت إنتيـه بخرستوس : تى آجيا دميانى  . انتيف كانين نوفى نان ايفول",
       "Englishcoptic": "Tovh em epshois e ehry egon, Wti shelet ente Pikhristos, ti agia Demiany, entef ka nen-novi nan evol."
     }

@@ -9,10 +9,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b لأنك أنت متحنن. أيها الرب الإله الرحوم . وأنا إنسان جاهل . وخاطىء جداُ .",
+      "Arabic": " لأنك أنت متحنن. أيها الرب الإله الرحوم . وأنا إنسان جاهل . وخاطىء جداُ .",
       "Coptic": "Ge gar `nqok ouref]en\\ht > P_ Vnou; pina`ht > `anok ourwmi `nat\\ht > ourefernobi `ema]w .",
       "English": "For You are merciful, O Lord God the compassionate, I am an ignorant man, and a very sinful one.",
-      "Arabiccoptic": "\b جى غار إنثوك أوريف شينهيت . إبشويس إفنوتى بى ناإيت . أنوك أورومى إن أتهيت . أوريف إيرنوفى إيماشو .",
+      "Arabiccoptic": " جى غار إنثوك أوريف شينهيت . إبشويس إفنوتى بى ناإيت . أنوك أورومى إن أتهيت . أوريف إيرنوفى إيماشو .",
       "Englishcoptic": "Ge ghar enthok oref shenheet, Epshois Evnouty bi na-eat, anok o romi en at-heet, oref ernovi emasho."
     },
     {
@@ -31,10 +31,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b أعطنى توبة. وأمح آثامى . بصلاة القديسة. العروس التى بلا زواج .",
+      "Arabic": " أعطنى توبة. وأمح آثامى . بصلاة القديسة. العروس التى بلا زواج .",
       "Coptic": "Moi nhi `noumet`anoi`a > ouo\\ cwlj `nna`anomia > \\iten pi`]lhl `n;`agia > :]elet `natgamoc.",
       "English": "Grant me repentance, for my iniquities, through the prayers of the holy, the immaculate bride.",
-      "Arabiccoptic": "\b موى نى ... أووه سولج إن نا أنوميا . هيتين بى إشليل إنتى أجيا. تى شيليت إن أت غاموس.",
+      "Arabiccoptic": " موى نى إن أو ميطانيا . أووه سولج إن نا أنوميا . هيتين بى إشليل إنتى أجيا. تى شيليت إن أت غاموس.",
       "Englishcoptic": "Moi ni en o-metania, owoh solg en-na anomia, hiten pi eshlil enti agia, ti shelet en at ghamos."
     },
     {
@@ -45,7 +45,7 @@
       "Arabic": "العروس التى بلا زواج. التى الروح المعزِّى . حل عليها وأعدها . مسكناً للختن .",
       "Coptic": ":]elet `natgamoc > `eta Pi pn?a? `mparaklhtoc > `i `ejwc afcob; `mmoc > `eouman]wpi `nte piNumvioc .",
       "English": "The immaculate bride, over whom the Spirit came, He prepared her to be a place for the bridegroom.",
-      "Arabiccoptic": "تى شيليت ... إيطا بى إبنفما إمباراكليتوس. إى إيجوس أفسوبتى إمموس. إى أومان شوبى إنتى بي نيمفيوس.",
+      "Arabiccoptic": "تى شيليت إن أت غاموس. إيطا بى إبنفما إمباراكليتوس. إى إيجوس أفسوبتى إمموس. إى أومان شوبى إنتى بي نيمفيوس.",
       "Englishcoptic": "Ti shelet en at ghamos, eta pi Ebnevma emparaklitos, e egos avsobty emmos, e oman shopi ente pi nimfios."
     },
     {
@@ -53,10 +53,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b مسكناً للختن . الذى هو الكلمة . الهنا الحقيقى . خالق الدهور .",
+      "Arabic": " مسكناً للختن . الذى هو الكلمة . الهنا الحقيقى . خالق الدهور .",
       "Coptic": "Eouman]wpi `nte piNumvioc > `ete `nqof pe pilogoc > Pennou; `n`alhqin`oc > `vrefqami`o `nni`xronoc .",
       "English": "A place for the bridegroom, which is the Word, our true God, the Creator of the ages.",
-      "Arabiccoptic": "\b إى أومان شوبى.. إيتى أنثوف بى بيلوغوس. بين نوتى إن أليثينوس. إفريف ثاميو إن نى إخرونوس .",
+      "Arabiccoptic": " إى أومان شوبى إنتى بي نيمفيوس. إيتى أنثوف بى بيلوغوس. بين نوتى إن أليثينوس. إفريف ثاميو إن نى إخرونوس .",
       "Englishcoptic": "E oman shopi ente pi nimfios, ete enthof pe pi loghos, pennouty en alithinos, efref thamio enni ekhronos."
     },
     {
@@ -67,7 +67,7 @@
       "Arabic": "خالق الدهور . آتى وتجسد . حتى نجانا نحن شعبه . لأنه هو ملكنا .",
       "Coptic": "`Vrefqami`o `nni`xronoc > af`i afercwmatikoc > ]a `ntefna\\men =a peflaoc > je `nqof pe Penouro .",
       "English": "The Creator of the ages, came and took flesh, to save us His people, for He is our King.",
-      "Arabiccoptic": "إفريف ثاميو... أفىء أفئير سوماتيكوس . شا إنتيف ناهمين خابيف لاؤس. جى إنثوف بى بين أورو .",
+      "Arabiccoptic": "إفريف ثاميو إن نى إخرونوس . أفىء أفئير سوماتيكوس . شا إنتيف ناهمين خابيف لاؤس. جى إنثوف بى بين أورو .",
       "Englishcoptic": "Efref thamio enni ekhronos, Av-e av-er somatikos, sha entef nahmen kha peflaos, je enthof pe pen oro."
     },
     {
@@ -75,10 +75,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b لأنه هو ملكنا . وليس لملكه إنقضاء. دائماً يملك. على بيت يعقوب إلى الأبد .",
+      "Arabic": " لأنه هو ملكنا . وليس لملكه إنقضاء. دائماً يملك. على بيت يعقوب إلى الأبد .",
       "Coptic": "Je `nqof pe Penouro > `mmon =a`e `etefmetouro > efmhn `ebol ef`erouro > `ejen `phi `nIakwb ]a `ene\\ .",
       "English": "For He is our King, and His kingdom shall have no end. He will always reign, over the house of Jacob forever.",
-      "Arabiccoptic": "\b جى إنثوف.. إممون خا إى إتيف ميت أورو. إفمين إيفول إفئير أورو. إيجين إبىء أن ياكوب شا إينيه .",
+      "Arabiccoptic": " جى إنثوف بى بين أورو.  إممون خا إى إتيف ميت أورو. إفمين إيفول إفئير أورو. إيجين إبىء أن ياكوب شا إينيه .",
       "Englishcoptic": "Je enthof pe pen oro, emmon kha-e etef met oro, efmeen evol ef er-oro, ejen ep-e en Yackoub sha eneh."
     },
     {
@@ -86,7 +86,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b نمجدك أيتها الأمينة. الحاملة كلمة الآب . قائلين إفرحى يا ممتلئة نعمة . الرب معك .",
+      "Arabic": " نمجدك أيتها الأمينة. الحاملة كلمة الآب . قائلين إفرحى يا ممتلئة نعمة . الرب معك .",
       "Coptic": "Ten;`wou ne `w qh`eten\\ot > etfai =a pilogoc `nte `Viwt > je xere qheqme\\ `n`\\mot > ouo\\ P_ ]wp neme .",
       "English": "We glorify you O faithful one who carried the Word of the Father. \"Hail to you O full of grace, the Lord is with you.\"",
       "Arabiccoptic": "تين تى أوأونى أوثى إتين هوت. إتفاى خا بي لوغوس إنتى إفيوت. جى شيرى ثى إثميه إن إهموت. أووه إبشويس شوب نيمى .",

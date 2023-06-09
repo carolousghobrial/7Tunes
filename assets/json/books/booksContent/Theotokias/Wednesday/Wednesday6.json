@@ -23,7 +23,7 @@
       "Arabic": "مَنْ تخافه الملائكة، حملته، مريم العذراء، في بطنها.",
       "Coptic": "Vh`etere niaggeloc> er\\o; =a tef\\h> `a Maria :parqenoc> fai =arof =en tecneji.",
       "English": "The One feared by the angels, Mary the Virgin, has carried, in her womb.",
-      "Arabiccoptic": "\b فى إت إريه نى أنجيلوس: إيرهوتى خاتيف هى: آه ماريا تى بارثينوس: فاى خاروف خين تيس نيجى .",
+      "Arabiccoptic": " فى إت إريه نى أنجيلوس: إيرهوتى خاتيف هى: آه ماريا تى بارثينوس: فاى خاروف خين تيس نيجى .",
       "Englishcoptic": "Vee-et-ere ni-angelos: er-hoti kha tef-hee: a Maria Ti-parthenos: fai kharof khen tes-neji."
     },
     {
@@ -31,10 +31,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b هي أرفع من الشاروبيم، وأجَّل من السِّرافيم، لأنها صارت هيكلاً، للواحد من الثالوث.",
+      "Arabic": " هي أرفع من الشاروبيم، وأجَّل من السِّرافيم، لأنها صارت هيكلاً، للواحد من الثالوث.",
       "Coptic": "`Csoci `eNixeroubim> `ctaihout `eNiceravim> je ac]wpi `nouervei> `mPiouai `ebol =en :`triac.",
-      "English": "\b She is exalted above the Cherubim, more honored than the Seraphim, she became a temple, for the One from the Trinity.",
-      "Arabiccoptic": "\b إس تشوسى إيه نى شيروبيم: إسطايووت إيه نى سيرافيم: جيه اس شوبى إن لأوو إرفيى: إمبى أوواى ايفول خين تى ترياس .",
+      "English": " She is exalted above the Cherubim, more honored than the Seraphim, she became a temple, for the One from the Trinity.",
+      "Arabiccoptic": " إس تشوسى إيه نى شيروبيم: إسطايووت إيه نى سيرافيم: جيه اس شوبى إن لأوو إرفيى: إمبى أوواى ايفول خين تى ترياس .",
       "Englishcoptic": "Es-echosi eNi-sheroobim: esta-ioot eNi-seraphim: je as-shopi en-oo-ervei: em-Pi-owai evol khen Ti-etrias."
     },
     {
@@ -45,7 +45,7 @@
       "Arabic": "هذه هي أورشليم، مدينة إلهنا، وفرح جميع القديسين، كائن فيها.",
       "Coptic": "Qai te Ieroucalhm> `tpolic `mPennou; te> `ere `pounof `nte nheqouab throu> ]op `n`=rhi `n=htc.",
       "English": "She is Jerusalem, the city of our God, the joy of all saints, abides in her.",
-      "Arabiccoptic": "\b ثاى تيه يروساليم: إتبوليس امبين نووتى تيه: إريه اب ؤنوف: انتيه نى إثؤواب تيروو: شوب إن إخرى إنخيتس .",
+      "Arabiccoptic": " ثاى تيه يروساليم: إتبوليس امبين نووتى تيه: إريه اب ؤنوف: انتيه نى إثؤواب تيروو: شوب إن إخرى إنخيتس .",
       "Englishcoptic": "Thai te Yeroosaleem: et-polis em-Pennooti te: ere ep-oo-nof ente nee-ethowab tero: shop en-ekhreei en-kheets."
     },
     {
@@ -53,10 +53,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b تطَّلع الآب من السماء، فلم يجد مَنْ يُشبهكِ، أرسل وحيده، أتى وتجسد منكِ.",
+      "Arabic": " تطَّلع الآب من السماء، فلم يجد مَنْ يُشبهكِ، أرسل وحيده، أتى وتجسد منكِ.",
       "Coptic": "`A `Viwt jou]t `ebol =en `tve> `mpefjem vhet`oni `mmo> afouwrp `mpefmonogenhc> `i afsicar[ `ebol `n=h;.",
       "English": "The Father looked from heaven, and found no one like you, He sent His only-begotten, who came and took flesh from you.",
-      "Arabiccoptic": "\b آه إفيوت جووشت إيفول خين إتفى: امبيف جيم في إتؤنى إممو: أفؤواورب إمبيف مونو جينيس: إى آفتشى صاركس إيفول إنخيتى .",
+      "Arabiccoptic": " آه إفيوت جووشت إيفول خين إتفى: امبيف جيم في إتؤنى إممو: أفؤواورب إمبيف مونو جينيس: إى آفتشى صاركس إيفول إنخيتى .",
       "Englishcoptic": "A Eviot goosht evol khen etve: empef jem vee et-oni emmo: af oo-orp empef-mono-genees: ee-afchi-sarex evol enkheeti."
     }
   ]

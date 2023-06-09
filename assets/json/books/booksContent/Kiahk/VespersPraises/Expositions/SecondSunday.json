@@ -55,22 +55,14 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فَقَالَتْ مَرْيَمُ لِلْمَلاَكِ: «كَيْفَ يَكُونُ لي هَذَا وَأَنَا لَسْتُ أَعْرِفُ رَجُلاً؟»  فَأَجَابَ الْمَلاَكُ وقال لها : «اَلرُّوحُ الْقُدُسُ يَحِلُّ عَلَيْكِ وَقُوَّةُ الْعَلِيِّ تُظَلِّلُكِ فَلِذَلِكَ الذى يُولَدُ مِنْكِ  قُدُّوسٌ وَيُدْعَى ابْنَ اللهِ.  وَهُوَذَا أَلِيصَابَاتُ نَسِيبَتُكِ هِيَ أَيْضاً حُبْلَى بِابْنٍ فِي شَيْخُوخَتِهَا وَهَذَا هُوَ الشَّهْرُ السَّادِسُ لِتِلْكَ الْمَدْعُوَّةِ عَاقِراً  لأَنَّهُ لَيْسَ شَيْءٌ غَيْرَ مُمْكِنٍ لَدَى اللهِ».",
-      "English": "Then Mary said to the angel, “How can this be, since I [g]do not know a man?”"
+      "English": "Then Mary said to the angel, “How can this be, since I do not know a man?” And the angel answered and said to her, “The Holy Spirit will come upon you, and the power of the Highest will overshadow you; therefore, also, that Holy One who is to be born will be called the Son of God.  Now indeed, Elizabeth your relative has also conceived a son in her old age; and this is now the sixth month for her who was called barren.  For with God nothing will be impossible."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "فَقَالَتْ مَرْيَمُ: « هأنذا... أَنَا أَمَةُ الرَّبِّ. لِيَكُنْ لِي كَقَوْلِكَ». فَمَضَى مِنْ عِنْدِهَا الْمَلاَكُ الطاهرُ . وَمِنْ ذلك الوقت حَبَلتْ العذراءُ الطاهرةُ.  نُعطِيكِِ السلامَ مع غبريال الملاك قائلين إفرحى ياممتلئة نعمة الرب معكِ.",
-      "English": "And the angel answered and said to her, “The Holy Spirit will come upon you, and the power of the Highest will overshadow you; therefore, also, that Holy One who is to be born will be called the Son of God.  Now indeed, Elizabeth your relative has also conceived a son in her old age; and this is now the sixth month for her who was called barren.  For with God nothing will be impossible.”"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وله أيضاً",
+      "Arabic": "فَقَالَتْ مَرْيَمُ: « هأنذا أَنَا أَمَةُ الرَّبِّ. لِيَكُنْ لِي كَقَوْلِكَ». فَمَضَى مِنْ عِنْدِهَا الْمَلاَكُ الطاهرُ . وَمِنْ ذلك الوقت حَبَلتْ العذراءُ الطاهرةُ.  نُعطِيكِِ السلامَ مع غبريال الملاك قائلين إفرحى ياممتلئة نعمة الرب معكِ.",
       "English": "Then Mary said, “Behold the maidservant of the Lord! Let it be to me according to your word.” And the angel departed from her."
     },
     {
@@ -78,8 +70,16 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
+      "Arabic": "وله أيضاً",
+      "English": "Also for further Interpretation"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
       "Arabic": "وَفِي الشَّهْرِ السَّادِسِ للعجوز العاقر أَلِيصَابَاتُ التى لِِزَكَرِيَّا أُرْسِلَ جِبْرَائِيلُ المختار للبشارة -  مَلاَكُ ضابط الكل المرسوم لهذه الخدمة مِنَ عند الرب -  إِلَى مَدِينَةٍ فى الْجَلِيلِ تسمى نَاصِرَةُ إِلَى عَذْرَاءَ مَخْطُوبَةٍ لِرَجُلٍ اسْمُهُ يُوسُفُ مِنْ بَيْتِ دَاوُدَ.",
-      "English": "Also for further Interpretation, Now in the sixth month of the barren and old Elizabeth, the wife of Zacharias, Gabriel, the chosen one for the Annunciation and the angel of the Pantocrator who is pledge for this service was sent from the Lord to a city of Galilee named Nazareth, to a virgin betrothed to a man whose name was Joseph, of the house of David."
+      "English": " Now in the sixth month of the barren and old Elizabeth, the wife of Zacharias, Gabriel, the chosen one for the Annunciation and the angel of the Pantocrator who is pledge for this service was sent from the Lord to a city of Galilee named Nazareth, to a virgin betrothed to a man whose name was Joseph, of the house of David."
     },
     {
       "Type": "Melody",

@@ -23,7 +23,7 @@
       "Arabic": "كل مجد وكرامة، تليق بصليب، ملك المجد، ثبات المؤمنين.",
       "Coptic": "Bon ou`wou nem outaio> er`prepi `mPi`ctauroc> `Pouro `nte `p`wou> `ptajro `nnipictoc.",
       "English": "Every glory and honor : is due unto the Cross : of the King of glory, : the confirmation of the believers.",
-      "Arabiccoptic": "\b ﭬون أؤوؤ نيم أوطايو : إير إبريبي إمبي إستاﭬروس : إب أورو إنتيه إب أوؤو : إبتاجرو إنني بيستوس  .",
+      "Arabiccoptic": " ﭬون أؤوؤ نيم أوطايو : إير إبريبي إمبي إستاﭬروس : إب أورو إنتيه إب أوؤو : إبتاجرو إنني بيستوس  .",
       "Englishcoptic": "Von oo-o-oo nem oo-taio: erep-repi emPi-estavros: Eporo ente epo-oo: ep-tagro enni-pistos."
     },
     {
@@ -31,10 +31,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b لأن هيلانة الملكة، قامت، وطلبت بإجتهاد، الصليب الغالب.",
+      "Arabic": " لأن هيلانة الملكة، قامت، وطلبت بإجتهاد، الصليب الغالب.",
       "Coptic": "Ge gar actwnc `nje> `Hlanh ;ouro> ackw; =en ou`cpodh> `nca Pi`ctauroc pirefsro.",
-      "English": "\b For Queen Helen : rose up : and diligently sought : the victorious Cross.",
-      "Arabiccoptic": "\b جيه غار آستوس إنﭽيه : إيلاني تي أورو : آكسوتي خين أو إسبوذي : إنصا بي إستاﭬروس بيريف إتشرو  .",
+      "English": " For Queen Helen : rose up : and diligently sought : the victorious Cross.",
+      "Arabiccoptic": " جيه غار آستوس إنﭽيه : إيلاني تي أورو : آكسوتي خين أو إسبوذي : إنصا بي إستاﭬروس بيريف إتشرو  .",
       "Englishcoptic": "Ge ghar astons enje: Ee-lanee ti-ooro: askoti khen oo-espozee: ensa Pi-estavros piref-echro."
     },
     {
@@ -42,10 +42,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b لأن داود ينطق، بكرامة الصليب، يقول حسناً، \"الرب مَلَكَ على خشبة.\"",
+      "Arabic": " لأن داود ينطق، بكرامة الصليب، يقول حسناً، \"الرب مَلَكَ على خشبة.\"",
       "Coptic": "Dauid gar efjw> `m`ptaio `mPi`ctauroc> je `Psoic erouro> `ebol \\iou]e kalwc.",
-      "English": "\b David spoke about : the honor of the Cross, : saying well : “The Lord reigned on a tree.”",
-      "Arabiccoptic": "\b داﭬيد غار إفجو : إم إبطايو إمبي إستاﭬروس : ﭽيه إبتشويس إيرورو : إيﭬول هي أوشيه كالوس  .",
+      "English": " David spoke about : the honor of the Cross, : saying well : “The Lord reigned on a tree.”",
+      "Arabiccoptic": " داﭬيد غار إفجو : إم إبطايو إمبي إستاﭬروس : ﭽيه إبتشويس إيرورو : إيﭬول هي أوشيه كالوس  .",
       "Englishcoptic": "Daveed ghar efgo: emep-taio emPi-estavros: je Epchois er-ooro: evol hi-ooshe kalos."
     },
     {
@@ -56,7 +56,7 @@
       "Arabic": "عمانوئيل إلهنا، الحقيقي، أعطانا الخلاص، من أجل الصليب.",
       "Coptic": "Emmanouhl Pennou;> Pi`alhqinoc> af; nan `noucw;> eqbe Pi`ctauroc.",
       "English": "Emmanuel : our true God, : gave us salvation : through the Cross.",
-      "Arabiccoptic": "\b إممانوئيل بين نوتي : بي آليثينوس : آفتي نان إن أوسوتي : إثﭬيه بي إستاﭬروس  .",
+      "Arabiccoptic": " إممانوئيل بين نوتي : بي آليثينوس : آفتي نان إن أوسوتي : إثﭬيه بي إستاﭬروس  .",
       "Englishcoptic": "Emmanooeel Pennooti: Pi-alee-thinos: afti nan en-oosoti: eth-ve Pi-estavros."
     },
     {
@@ -67,7 +67,7 @@
       "Arabic": "كل السبع طغمات، الأرثوذكسيين، يلتصقون كل حين، بعلامة الصليب.",
       "Coptic": "}a]f `ntagma niben> `norqodo[oc> eutomi `nchou niben> `e`vmhini `mPi`ctauroc.",
       "English": "All the seven ranks : of the orthodox, : continually cling : to the sign of the Cross.",
-      "Arabiccoptic": "\b شاشف إنطاغما نيﭬين : إن أورثوذوكسوس : إﭬتومي إنسيو نيﭬين : إي إفميني إمبي إستاﭬروس  .",
+      "Arabiccoptic": " شاشف إنطاغما نيﭬين : إن أورثوذوكسوس : إﭬتومي إنسيو نيﭬين : إي إفميني إمبي إستاﭬروس  .",
       "Englishcoptic": "Shashf entaghma niven: en-orthozoxos: evtomi enseio niven: evmeeni emPi-estavros."
     },
     {
@@ -75,10 +75,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b هوذا نحن المؤمنين، نُعيِّد له حسناً، ونصرخ قائلين، \"السلام للصليب.\"",
+      "Arabic": " هوذا نحن المؤمنين، نُعيِّد له حسناً، ونصرخ قائلين، \"السلام للصليب.\"",
       "Coptic": "Hppe `anon nipictoc> tener]ai naf kalwc> enw] `ebol enjw `mmoc> je xere Pi`ctauroc.",
-      "English": "\b And we the believers : celebrate it befittingly, : proclaiming and saying, : “Hail to the Cross.”",
-      "Arabiccoptic": "\b إيببيه انون ني بيستوس : تينيرشاي ناف كالوس : إن أوش إيﭬول إنجو إمموس : ﭽيه شيري بي إستاﭬروس  .",
+      "English": " And we the believers : celebrate it befittingly, : proclaiming and saying, : “Hail to the Cross.”",
+      "Arabiccoptic": " إيببيه انون ني بيستوس : تينيرشاي ناف كالوس : إن أوش إيﭬول إنجو إمموس : ﭽيه شيري بي إستاﭬروس  .",
       "Englishcoptic": "Eppe anon ni-pistos: ten-ershai naf kalos: en-osh evol engo emmos: je shere Piestavros."
     },
     {
@@ -86,10 +86,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b لك القوة والمجد، والبركة أيها المسيح، ملك الملوك، إبن الله.",
+      "Arabic": " لك القوة والمجد، والبركة أيها المسيح، ملك الملوك، إبن الله.",
       "Coptic": "Qwk te ;jom nem pi`wou> nem pi`cmou `w Pi`xrictoc> `Pouro `nte niourwou> `P]hri `nQeoc.",
-      "English": "\b Yours is the power and glory : and the blessing, O Christ, : the King of kings, : the Son of God.",
-      "Arabiccoptic": "\bثوك تيه تي جوم نيم بي أوؤ : نيم بي إسمو أوبي خريستوس : إب أورو إنتيه ني أوروؤ : إبشيري إن ثيؤس  .",
+      "English": " Yours is the power and glory : and the blessing, O Christ, : the King of kings, : the Son of God.",
+      "Arabiccoptic": "ثوك تيه تي جوم نيم بي أوؤ : نيم بي إسمو أوبي خريستوس : إب أورو إنتيه ني أوروؤ : إبشيري إن ثيؤس  .",
       "Englishcoptic": "Thok te tigom nem pi-o-oo: nem pi-esmoo o Pi-ekhristos: Eporo ente ni-ooro-oo: Epshery enTheos."
     },
     {
@@ -100,7 +100,7 @@
       "Arabic": "يسوع المسيح إلهنا، ملك الدهور، صُلب من أجل خلاصنا، في جبل الإقرانيون.",
       "Coptic": "Ihcouc Pi`xrictoc Pennou;> `Pouro `nni`ewn> aua]f eqbe pencw;> =en `ptwou `n`Kranion.",
       "English": "Jesus Christ our God, : the King of the ages, : was crucified for our salvation : on the mountain of Kranion.",
-      "Arabiccoptic": "\b إيسوس بي خريستوس بين نوتي : إب أورو إنتيه ني أوروؤ : آﭫ اشف إثﭬيه بين سوتي : خين إبتوؤ إن إكرانيون  .",
+      "Arabiccoptic": " إيسوس بي خريستوس بين نوتي : إب أورو إنتيه ني أوروؤ : آﭫ اشف إثﭬيه بين سوتي : خين إبتوؤ إن إكرانيون  .",
       "Englishcoptic": "Isos Pi-ekhristos Pennooti: Eporo ennieon: avashf ethve pensoti: khen eptoo eneKranion."
     },
     {
@@ -111,7 +111,7 @@
       "Arabic": "قسطنطين الملك، رأى صليب، ملك المجد، في وسط السموات.",
       "Coptic": "Kwctantinoc piouro> afnau `ePi`ctauroc> `m`Pouro `nte `p`wou> =en `qmh; `nouranoc.",
       "English": "Emperor Constantine : saw the Cross : of the King of glory : in the midst of the heavens.",
-      "Arabiccoptic": "\b كوستانتينوس بي أورو : آفناﭫ إيبي إستاﭬروس : إم إب أورو إنتيه إب أوؤو : خين إثميتي إن أورانوس  .",
+      "Arabiccoptic": " كوستانتينوس بي أورو : آفناﭫ إيبي إستاﭬروس : إم إب أورو إنتيه إب أوؤو : خين إثميتي إن أورانوس  .",
       "Englishcoptic": "Kostan-tinos pi-ooro: af-nav ePi-estavros: emep-oro ente ep-o-oo: khen ethmeeti en-ooranos."
     },
     {
@@ -119,10 +119,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b الشعوب المؤمنين، يفرحون بتهليل، في عيد صليب، عمانوئيل.",
+      "Arabic": " الشعوب المؤمنين، يفرحون بتهليل، في عيد صليب، عمانوئيل.",
       "Coptic": "Laoc `nnipictoc> eura]i =en ouqelhl> =en `p]ai `nte Pi`ctauroc> `nte Emmanouhl.",
-      "English": "\b The believing people : rejoice with gladness : on the feast of the Cross : of Emmanuel.",
-      "Arabiccoptic": "\b لاؤس إنني بيستوس : إﭬراشي خين أوثيليل : خين إبشاي إنتيه بي إستاﭬروس : إنتيه إممانوئيل  .",
+      "English": " The believing people : rejoice with gladness : on the feast of the Cross : of Emmanuel.",
+      "Arabiccoptic": " لاؤس إنني بيستوس : إﭬراشي خين أوثيليل : خين إبشاي إنتيه بي إستاﭬروس : إنتيه إممانوئيل  .",
       "Englishcoptic": "La-os enni-pistos: ev-rashi khen oo-theleel: khen epshai ente Pi-estavros: ente Emmanooeel."
     },
     {
@@ -130,10 +130,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b إعطنا سلامك، لنرى أورشليم، ومدينة صهيون، وأرض بيت لحم.",
+      "Arabic": " إعطنا سلامك، لنرى أورشليم، ومدينة صهيون، وأرض بيت لحم.",
       "Coptic": "Moi nan `ntek\\irhnh> `ntennau `eIerocalhm> nem Ciwn ;baki> nem `pka\\i `mBhqleem.",
-      "English": "\b Give us your peace : to see Jerusalem, : and the city of Zion, : and the land of Bethlehem.",
-      "Arabiccoptic": "\b موي نان إنتيك هيريني : إنتين ناﭫ إي إيروساليم : نيم سيون تي ﭬاكي : نيم إبكاهي إمﭬيليثئيم  .",
+      "English": " Give us your peace : to see Jerusalem, : and the city of Zion, : and the land of Bethlehem.",
+      "Arabiccoptic": " موي نان إنتيك هيريني : إنتين ناﭫ إي إيروساليم : نيم سيون تي ﭬاكي : نيم إبكاهي إمﭬيليثئيم  .",
       "Englishcoptic": "Moi nan entek hireeny: entennav eYerosaleem: nem Sion ti-vaki: nem ep-kahi emVeethleem."
     },
     {
@@ -144,7 +144,7 @@
       "Arabic": "والقيامة، وجبل الإقرانيون، والصعود (إلى العلاء)، والمغائر.",
       "Coptic": "Nem :`anactacic> nem pitwou `n`Kranion> nem :`analumyic> nem ni`cphleon.",
       "English": "And the Resurrection, : and the mountain of Kranion, : and the Ascension, : and the caves.",
-      "Arabiccoptic": "\b نيم تي آناستاسيس : نيم بي توؤ إن إكرانيون : نيم تي آناليم بسيس : نيم ني إسبيليون .",
+      "Arabiccoptic": " نيم تي آناستاسيس : نيم بي توؤ إن إكرانيون : نيم تي آناليم بسيس : نيم ني إسبيليون .",
       "Englishcoptic": "Nem Ti-anastasis: nem pi-to-oo en-eKranion: nem Ti ana-lim-epsis: nem ni-espee-leon."
     },
     {
@@ -155,7 +155,7 @@
       "Arabic": "وأيضاً بالأكثر، قبر المسيح، المملوء مجداً، وأرض الأردن.",
       "Coptic": "{apina `n\\ou`o> pi`m\\au `mPi`xrictoc> vheqme\\ `n`wou> nem `pka\\i `mPiiordanhc.",
       "English": "And foremost, : the tomb of Christ, : full of glory, : and the land of the Jordan.",
-      "Arabiccoptic": "\b كسابينا إنهؤو : بي إمهاﭫ إمبي خريستوس : في إثميه إن أوؤ : نيم إبكاهي إمبي يوردانيس  .",
+      "Arabiccoptic": " كسابينا إنهؤو : بي إمهاﭫ إمبي خريستوس : في إثميه إن أوؤ : نيم إبكاهي إمبي يوردانيس  .",
       "Englishcoptic": "Exa-pina en-ho-oo: pi-emhav emPi-ekhristos: vee-ethmeh en-o-oo: nem ep-kahi emPi-yordanees."
     },
     {
@@ -163,10 +163,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b عظيمة هي كرامة، علامة الصليب، الذي لملكنا يسوع، المسيح ربنا.",
+      "Arabic": " عظيمة هي كرامة، علامة الصليب، الذي لملكنا يسوع، المسيح ربنا.",
       "Coptic": "Ouni]; pe `ptaio> `m`ptupoc `mPi`ctauroc> `nte Penouro> Ihcouc Pi`xrictoc Pensoic.",
-      "English": "\b Great is the honor : of the sign of the Cross : of our King, : Jesus Christ our Lord.",
-      "Arabiccoptic": "\b أونيشتي بيه إبطايو : إم إب تيبوس إمبي إستاﭬروس : إنتيه بين أورو : إيسوس بيخريستوس بين تشويس  .",
+      "English": " Great is the honor : of the sign of the Cross : of our King, : Jesus Christ our Lord.",
+      "Arabiccoptic": " أونيشتي بيه إبطايو : إم إب تيبوس إمبي إستاﭬروس : إنتيه بين أورو : إيسوس بيخريستوس بين تشويس  .",
       "Englishcoptic": "Oonishti pe eptaio: emep-tipos emPi-estavros: ente Pen-ooro: Isos Pi-ekhristos Penchois."
     },
     {
@@ -174,10 +174,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b الصليب هو ثباتنا، الصليب هو رجاؤنا، الصليب هو ناصرنا، في شدائدنا.",
+      "Arabic": " الصليب هو ثباتنا، الصليب هو رجاؤنا، الصليب هو ناصرنا، في شدائدنا.",
       "Coptic": "Pi`ctauroc pe pentajro> Pi`ctauroc pe ten\\elpic> Pi`ctauroc pe penrefsro> `ebol =en nen`qluyic.",
-      "English": "\b The Cross is our confirmation. : The Cross is our hope. : The Cross is our victory : in our tribulations.",
-      "Arabiccoptic": "\b بي إستاﭬروس بيه بين تاجرو : بي إستاﭬروس بيه تين هيلبيس : بي إستاﭬروس بيه بين ريف إتشرو : إيﭬول خين نين إثليبسيس  .",
+      "English": " The Cross is our confirmation. : The Cross is our hope. : The Cross is our victory : in our tribulations.",
+      "Arabiccoptic": " بي إستاﭬروس بيه بين تاجرو : بي إستاﭬروس بيه تين هيلبيس : بي إستاﭬروس بيه بين ريف إتشرو : إيﭬول خين نين إثليبسيس  .",
       "Englishcoptic": "Pi-estavros pe pen-tagro: Pi-estavros pe ten-helpis: Pi-estavros pe pen-ref-echro: evol khen nen-ethlipsis."
     },
     {
@@ -188,7 +188,7 @@
       "Arabic": "إفرحوا وتهللوا، يا جنس المؤمنين، بعمانوئيل، في عيد الصليب.",
       "Coptic": "Ra]i ouo\\ qelhl> `w `pgenoc `nnipictoc> `nte Emmanouhl> =en `p]ai `mPi`ctauroc.",
       "English": "Rejoice and be glad, : O believers : of Emmanuel, : on the feast of the Cross.",
-      "Arabiccoptic": "\b راشي اووه ثيليل : أو إبجينوس إنني بيستوس : إنتيه إممانوئيل : خين إبشاي إمبي إستاﭬروس  .",
+      "Arabiccoptic": " راشي اووه ثيليل : أو إبجينوس إنني بيستوس : إنتيه إممانوئيل : خين إبشاي إمبي إستاﭬروس  .",
       "Englishcoptic": "Rashi owoh theleel: o ep-genos enni-pistos: ente Emmanooeel: khen epshai emPi-estavros."
     },
     {
@@ -199,7 +199,7 @@
       "Arabic": "سبحوا الرب إلهنا، لأن المزمور حسن، وقولوا هكذا، \"السلام للصليب.\"",
       "Coptic": "`Cmou `e`Psoic Pennou;> nane ouyalmoc> ouo\\ `ajoc `mpairh;> je xere Pi`ctauroc.",
       "English": "Praise the Lord our God, : with a good psalm, : and likewise say, : “Hail to the Cross.”",
-      "Arabiccoptic": "\b إسمو إي إبتشويس بين نوتي : نانيه أو إبسالموس : اووه آجوس إمباي ريتي : ﭽيه شيري بي إستاﭬروس  .",
+      "Arabiccoptic": " إسمو إي إبتشويس بين نوتي : نانيه أو إبسالموس : اووه آجوس إمباي ريتي : ﭽيه شيري بي إستاﭬروس  .",
       "Englishcoptic": "Esmoo e-Epchois Pennooti: nane oo-epsalmos: owoh agos empai-reeti: je shere Pi-estavros."
     },
     {
@@ -207,10 +207,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b \"لا نفتخر، إلَّا بالصليب،\" كقول الصديق، بولس الرسول.",
+      "Arabic": " \"لا نفتخر، إلَّا بالصليب،\" كقول الصديق، بولس الرسول.",
       "Coptic": "Tenna]ou]ou `mmon an> `ebol `ePi`ctauroc> kata `pcaji `mpidikeoc> Pauloc pi`apoctoloc.",
-      "English": "\b “We shall not boast : except in the Cross,” : as goes the saying of the righteous, : Paul the Apostle.",
-      "Arabiccoptic": "\b تين ناشوشو إممون آن : إيﭬول إيبي إستاﭬروس : كاطا إبصاﭽي إمبي ذيكيئوس : باﭬلوس بي آبوسطولوس  .",
+      "English": " “We shall not boast : except in the Cross,” : as goes the saying of the righteous, : Paul the Apostle.",
+      "Arabiccoptic": " تين ناشوشو إممون آن : إيﭬول إيبي إستاﭬروس : كاطا إبصاﭽي إمبي ذيكيئوس : باﭬلوس بي آبوسطولوس  .",
       "Englishcoptic": "Tenna shoo-shoo emmon an: evol ePi-estavros: kata epsaji empi-zikeos: Pavlos pi-apostolos."
     },
     {
@@ -218,10 +218,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b يا إبن الله إرحمنا، وأرينا أورشليم، وجبل الإقرانيون، وأرض بيت لحم.",
+      "Arabic": " يا إبن الله إرحمنا، وأرينا أورشليم، وجبل الإقرانيون، وأرض بيت لحم.",
       "Coptic": "`Uioc Qeoc nai nan> `ntennau `eIerocalhm> nem pitwou `n`Kranion> nem `pka\\i `mBhqleem.",
-      "English": "\b O Son of God have mercy; : let us see Jerusalem, : and the mountain of Kranion, : and the land of Bethlehem.",
-      "Arabiccoptic": "\b إيوس ثيؤس ناي نان : إنتين ناﭫ إي يروساليم : نيم بيتوؤ إن إكرانيون : نيم إبكاهي إمﭬيلثيئيم  .",
+      "English": " O Son of God have mercy; : let us see Jerusalem, : and the mountain of Kranion, : and the land of Bethlehem.",
+      "Arabiccoptic": " إيوس ثيؤس ناي نان : إنتين ناﭫ إي يروساليم : نيم بيتوؤ إن إكرانيون : نيم إبكاهي إمﭬيلثيئيم  .",
       "Englishcoptic": "Eios Theos nai nan: enten-nav eYerosaleem: nem pi-to-oo en-Ekranion: nem ep-kahi emVeethleem."
     },
     {
@@ -232,7 +232,7 @@
       "Arabic": "يا حامل خطية، العالم، إنقذنا من خطايانا، من أجل الصليب.",
       "Coptic": "Vhet`wli `m`vnobi> `nte pikocmoc> cotten =en nennobi> eqbe Pi`ctauroc.",
       "English": "O You who carries : the sin of the world, : save us from our sins, : through the Cross.",
-      "Arabiccoptic": "\b في إيت أولي إم إفناﭫ : إنتيه بي كوزموس : سوتتين خين نين نوﭬي : إثﭬيه بي إستاﭬروس .",
+      "Arabiccoptic": " في إيت أولي إم إفناﭫ : إنتيه بي كوزموس : سوتتين خين نين نوﭬي : إثﭬيه بي إستاﭬروس .",
       "Englishcoptic": "Vee-etoli emev-novi: ente pi-kosmos: sot-ten khen nen-novi: ethve Pi-estavros."
     },
     {
@@ -243,7 +243,7 @@
       "Arabic": "السلام للصليب، السلام لمدينة صهيون، السلام للاُردن، وموضع المغارة.",
       "Coptic": "Xere Pi`ctauroc> xere ;baki `nCiwn> xere Piiordanhc> nem pima `n`cphleon.",
       "English": "Hail to the Cross. : Hail to the city of Zion. : Hail to the Jordan, : and the place of the cave.",
-      "Arabiccoptic": "\b شيري بي إستاﭬروس : شيري تي ﭬاكي إن سيون : شيري بي يوردانيس : نيم بيما إن إسبيليئون  .",
+      "Arabiccoptic": " شيري بي إستاﭬروس : شيري تي ﭬاكي إن سيون : شيري بي يوردانيس : نيم بيما إن إسبيليئون  .",
       "Englishcoptic": "Shere Pi-estavros: shere ti-vaki enSion: shere Pi-yordanees: nem pima en-espeeleon."
     },
     {
@@ -251,10 +251,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b أنفس آبائنا، نيحهم أيها المسيح، من أجل والدة الإله، مريم العذراء.",
+      "Arabic": " أنفس آبائنا، نيحهم أيها المسيح، من أجل والدة الإله، مريم العذراء.",
       "Coptic": "Yuxh `nnenio;> ma`mton nwou `w Pi`xrictoc> eqbe :macnou;> Maria :parqenoc.",
-      "English": "\b The souls of our fathers, : repose them, O Christ, : for the sake of the Mother of God, : Mary the Virgin.",
-      "Arabiccoptic": "\b إبسيشي إننين يوتي : ما إيمتون نوؤ أو بيخريستوس : إثﭬيه تيماسنوتي : ماريا تي بارثينوس  .",
+      "English": " The souls of our fathers, : repose them, O Christ, : for the sake of the Mother of God, : Mary the Virgin.",
+      "Arabiccoptic": " إبسيشي إننين يوتي : ما إيمتون نوؤ أو بيخريستوس : إثﭬيه تيماسنوتي : ماريا تي بارثينوس  .",
       "Englishcoptic": "Epsi-shee ennen-yoti: ma-emton no-oo oPi-ekhristos: ethve Ti-masnooti: Maria Ti-parthenos."
     },
     {
@@ -262,9 +262,9 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b يا مَنْ وُلِدَ، من العذراء، وصُلِبَ بالجسد، نجنا من التجارب.",
+      "Arabic": " يا مَنْ وُلِدَ، من العذراء، وصُلِبَ بالجسد، نجنا من التجارب.",
       "Coptic": "`W vh`etaumacf> `ebol =en :paraqenoc> ouo\\ =en `tcar[ aua]f> na\\men =en nipiracmoc.",
-      "English": "\b O You who was born : from the Virgin, : and was crucified in the flesh, : deliver us from temptation.",
+      "English": " O You who was born : from the Virgin, : and was crucified in the flesh, : deliver us from temptation.",
       "Arabiccoptic": "أوفي إيتاﭫ ماسف : إيﭬول خين تي بارثينوس : اووه خين إتساركس اﭫ آشف : ناهمين خين ني بيراسموس  .",
       "Englishcoptic": "O vee-etavmasf: evol khen Tiparathenos: oowoh khen etsarx av-ashf: nahmen khen ni-pirasmos."
     }

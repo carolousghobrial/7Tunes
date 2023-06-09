@@ -17,7 +17,7 @@ import OriginalLoadingScreen from "./OriginalLoadingScreen";
 import SettingsModal from "../components/BottomBar/SettingsModal";
 import { getColor } from "../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
-
+import FloatingButton from "../components/ViewTypes/FloatingBishopButton";
 const BookScreen = React.memo(({ navigation, route }) => {
   const flatListRef = useRef();
   let labelColor = getColor("LabelColor");
@@ -44,20 +44,26 @@ const BookScreen = React.memo(({ navigation, route }) => {
   };
   const [settingsModalVisible, setsettingsModalVisible] = useState(false);
   const [serviceQuestionsDone, setserviceQuestionsDone] = useState(false);
+  const [isMoreThan3BishopPresent, setisMoreThan3BishopPresent] =
+    useState(false);
+  const [bishopsPresent, setbishopsPresent] = useState([]);
 
   const values = getFullViewModel(
     route.params.bookPath,
-    route.params.motherSource
+    route.params.motherSource,
+    isMoreThan3BishopPresent,
+    bishopsPresent
   );
-  const memoizedData = useMemo(() => values[0], [values[0]]);
+  // const memoizedData = useMemo(() => values[0], [values[0]]);
+  const [bookContents, setbookContens] = useState(values[0]);
   const [isLoading, setIsLoading] = useState(true);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const isTablet = useSelector((state) => state.settings.isTablet);
   const [menuData, setMenuData] = useState(values[1]);
   const [englishTitle, setenglishTitle] = useState(
-    memoizedData[0].EnglishTitle
+    bookContents[0].EnglishTitle
   );
-  const [arabicTitle, setarabicTitle] = useState(memoizedData[0].ArabicTitle);
+  const [arabicTitle, setarabicTitle] = useState(bookContents[0].ArabicTitle);
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
     if (viewableItems.length > 0) {
       if (
@@ -71,7 +77,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   }).current;
 
   function scrollToKey(key) {
-    setenglishTitle(memoizedData.find((item) => item.key === key).EnglishTitle);
+    setenglishTitle(bookContents.find((item) => item.key === key).EnglishTitle);
     flatListRef.current.scrollToIndex({
       index: key,
       animated: false,
@@ -107,7 +113,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
             item={item.part}
             motherSource={route.params.bookPath}
             flatListRef={flatListRef}
-            viewData={memoizedData}
+            viewData={bookContents}
             navigation={navigation}
           ></ButtonView>
         );
@@ -137,13 +143,9 @@ const BookScreen = React.memo(({ navigation, route }) => {
   }, [englishTitle]);
   useEffect(() => {
     // const timer = setTimeout(checkCondition, 100); // Adjust the delay as needed
-
     // return () => {
     //   clearTimeout(timer);
     // };
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 10);
   }, []);
 
   const checkCondition = () => {
@@ -213,12 +215,14 @@ const BookScreen = React.memo(({ navigation, route }) => {
       }
     }, 10);
   }
-  function continueToBook() {
+  function continueToBook(resultsObject) {
+    setisMoreThan3BishopPresent(resultsObject.threePlusBishops);
+    setbishopsPresent(resultsObject.bishopsPresent);
     setIsLoading(false);
   }
   if (isLoading) {
-    // return <LoadingScreen continueToBook={continueToBook} />;
-    return <OriginalLoadingScreen />;
+    return <LoadingScreen continueToBook={continueToBook} />;
+    //return <OriginalLoadingScreen />;
   }
   return (
     <>
@@ -228,11 +232,11 @@ const BookScreen = React.memo(({ navigation, route }) => {
         style={[styles.container, { backgroundColor: pageBackgroundColor }]}
         onViewableItemsChanged={onViewableItemsChanged}
         showsVerticalScrollIndicator={false}
-        data={memoizedData}
+        data={bookContents}
         pagingEnabled={pagination}
         onScroll={handleScroll}
         onScrollToIndexFailed={onScrollToIndexFailed}
-        initialNumToRender={memoizedData.length}
+        initialNumToRender={bookContents.length}
         bounces={false}
         removeClippedSubviews={true}
         renderItem={renderItems}
@@ -240,6 +244,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
           return item.key;
         }}
       />
+      <FloatingButton></FloatingButton>
     </>
   );
 });

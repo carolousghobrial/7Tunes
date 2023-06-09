@@ -23,7 +23,7 @@
       "Arabic": "الآب صنعِك، والرُّوح القُدُس حلَّ عليكِ، وقوة العلي، ظللتِك يا مريم.",
       "Coptic": "`A `Viwt ertexnithc `ero> `a Pi`pneuma Eqouab `i `ejw> oujom `nte Vhetsoci> eqnaer=hibi `ero Maria.",
       "English": "The Father created you, and the Holy Spirit came upon you, and the power of the Most High, overshadowed you O Mary.",
-      "Arabiccoptic": "\b آه إفيوت إيرتيخني تيس إيرو: آبي بنيفما اثؤواب إى إيجو: أووجوم إنتيه في إت تشوسى: إثنا إيرخيفى إيرو ماريا .",
+      "Arabiccoptic": " آه إفيوت إيرتيخني تيس إيرو: آبي بنيفما اثؤواب إى إيجو: أووجوم إنتيه في إت تشوسى: إثنا إيرخيفى إيرو ماريا .",
       "Englishcoptic": "A Eviot ertek-ni-tees ero: a Pi-epnevma Ethowab ee-ego: oogom ente Vee-etchosi: ethna-erkheevi ero Maria."
     },
     {
@@ -31,10 +31,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b لأنكِ ولدِت، الكلمة الحقيقي، إبن الآب الدائم إلى الأبد، أتى وأنقذنا من خطايانا.",
+      "Arabic": " لأنكِ ولدِت، الكلمة الحقيقي، إبن الآب الدائم إلى الأبد، أتى وأنقذنا من خطايانا.",
       "Coptic": "Je `are`jvo `mPi`alhqinoc> `nLogoc `n}hri `nte `Viwt> eqmhn `ebol ]a `ene\\> af`i afcotten =en nennobi.",
-      "English": "\b For you have given birth, to the true Word, the Son of the ever-existing Father, who came and redeemed us from our sins.",
-      "Arabiccoptic": "\b جيه آريه إجفو إمبى آليثينوس: إن لوغوس إن شيرى انتيه إفيوت: إثمين ايفول شا إينيه: أفئى أفصوتين خين نين نوفى .",
+      "English": " For you have given birth, to the true Word, the Son of the ever-existing Father, who came and redeemed us from our sins.",
+      "Arabiccoptic": " جيه آريه إجفو إمبى آليثينوس: إن لوغوس إن شيرى انتيه إفيوت: إثمين ايفول شا إينيه: أفئى أفصوتين خين نين نوفى .",
       "Englishcoptic": "Je aregvo emPi-aleethinos: en-Loghos en-Sheeri ente Eviot: ethmeen evol sha eneh: af-ee af-sot-ten khen nen-novi."
     },
     {
@@ -45,7 +45,7 @@
       "Arabic": "تطَّلع الآب من السماء، فلم يجد مَنْ يُشبهكِ، أرسل وحيده، أتى وتجسد منكِ.",
       "Coptic": "`A `Viwt jou]t `ebol =en `tve> `mpefjem vhet`oni `mmo> afouwrp `mpefmonogenhc> `i afsicar[ `ebol `n=h;.",
       "English": "The Father looked from heaven, and found no one like you, He sent His only-begotten, who came and took flesh from you.",
-      "Arabiccoptic": "\b آه إفيوت جووشت إيفول خين إتفى: امبيف جيم في إتؤنى إممو: أفؤواورب إمبيف مونو جينيس: إى آفتشى صاركس إيفول .",
+      "Arabiccoptic": " آه إفيوت جووشت إيفول خين إتفى: امبيف جيم في إتؤنى إممو: أفؤواورب إمبيف مونو جينيس: إى آفتشى صاركس إيفول .",
       "Englishcoptic": "A Eviot goosht evol khen etve: empef jem vee et-oni emmo: af oo-orp empef-mono-genees: ee-afchi-sarex evol enkheeti."
     }
   ]

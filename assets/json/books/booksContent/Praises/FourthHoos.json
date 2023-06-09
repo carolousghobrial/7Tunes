@@ -16,6 +16,28 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
+      "Side": "North",
+      "Arabic": "أميــن . يارب إرحم  .",
+      "Coptic": "`Amhn allhaoui`a Kuri`e `ele`hcon ",
+      "English": "Amen Alleluia, Lord have mercy",
+      "Arabiccoptic": "أمين الليلويا كيري اليسون  .",
+      "Englishcoptic": "Amen Alleloia Kerie-leyson "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يارب إرحم . يارب إرحم .",
+      "Coptic": "Kuri`e `ele`hcon Kuri`e `ele`hcon.",
+      "English": "Lord have mercy , Lord have mercy.",
+      "Arabiccoptic": " كيري اليسـون كيري اليسون .",
+      "Englishcoptic": "Kerie-leyson Kerie-leyson"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
       "Side": "South",
       "Arabic": "سبحوا الرب من السموات الليلويا سبحوه فى الأعالى .",
       "Coptic": "Cmou `eP_ `ebol =en nivhou`i a/l/ `cmou `erof =en nietsoci.",

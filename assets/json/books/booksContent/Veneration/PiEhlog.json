@@ -31,7 +31,7 @@
       "Arabic": "باراليكس:",
       "Coptic": "Parale[",
       "English": "Parlex:",
-      "Arabiccoptic": "\bالبرلكس",
+      "Arabiccoptic": "البرلكس",
       "Englishcoptic": "Paralax:"
     },
     {
@@ -53,7 +53,7 @@
       "Arabic": "إذا ما ذكرنا إسمك، نحن المسيحيين، يتهلل قلبنا، أيها القديس (...).",
       "Coptic": "`E]wp an]aner`vmeui `mpekran> `anon =a ni`xrictianoc> er`eqelhl `nje pen\\ht> `w pi`agioc (...).",
       "English": "Whenever we mention your name, we the Christians, our hearts rejoice, O Saint (…).",
-      "Arabiccoptic": "\b إيشوب أنشان إرإفميـﭭئى: إمبيك ران أنون خا نى إخرستيانوس: إر اى ثيليل إنـﭼـى بين هيت: أو بى أجيوس( .  .  .  . ) .",
+      "Arabiccoptic": " إيشوب أنشان إرإفميـﭭئى: إمبيك ران أنون خا نى إخرستيانوس: إر اى ثيليل إنـﭼـى بين هيت: أو بى أجيوس( .  .  .  . ) .",
       "Englishcoptic": "Eshop Anshan erev-mev-ee empekran: anon kha ni ekris-tianos: ere-theleel enje penheet: o piagios (...)."
     },
     {
@@ -64,7 +64,7 @@
       "Arabic": "السلام لك أيها الشهيد، السلام للشجاع البطل، السلام للابس الجهاد، القديس (...).",
       "Coptic": "Xere nak `w pimarturoc> xere pi]wij `ngenneoc> xere piaqlovoroc> pi`agioc (...).",
       "English": "Hail to you O martyr, hail to the courageous hero, hail to the struggle-mantled, Saint (...).",
-      "Arabiccoptic": "\b شيرى ناك أو بى مارتيروس: شيرى بى شويج إن جينيؤس: شيرى بى أثلوفوروس: بى أجيوس( .  .  .  . ) .",
+      "Arabiccoptic": " شيرى ناك أو بى مارتيروس: شيرى بى شويج إن جينيؤس: شيرى بى أثلوفوروس: بى أجيوس( .  .  .  . ) .",
       "Englishcoptic": "Shere nak o pi-martiros: shere pi-shoig en-genneos: shere pi-athlovoros: piagios (...)."
     },
     {
@@ -75,7 +75,7 @@
       "Arabic": "السلام لك أيها الشهيد، الإسفهسلار المُكرم، حبيب المسيح، القديس (...).",
       "Coptic": "Xere nak `w pimarturoc> pi`c`tratilathc ettaihout> pimenrit `nte Pxc?> pi`agioc (...).",
       "English": "Hail to you O martyr, hail to the honored general, the beloved of Christ, Saint (...).",
-      "Arabiccoptic": "\b شيرى ناك أو بى مارتيروس: بى ستراتيلاتيس إطايوت: بى مينريت إنى بخرستوس: بى أجيوس( .  .  .  . ) .",
+      "Arabiccoptic": " شيرى ناك أو بى مارتيروس: بى ستراتيلاتيس إطايوت: بى مينريت إنى بخرستوس: بى أجيوس( .  .  .  . ) .",
       "Englishcoptic": "Shere nak o pi-martiros: pi-es etra-tila-tees et-ta-yoot: pi-menrit ente Pikhristos: piagios (...)."
     },
     {
@@ -86,7 +86,7 @@
       "Arabic": "طوباك بالحقيقة، أيها الكوكب المضئ، ذو الإسم الحلو الممتلئ مجداً، القديس (...).",
       "Coptic": "`Wouniatk =en oumeqmhi> `w pivwcthr eterouwini> va piran et\\olj eqme\\ `n`wou> pi`agioc (...).",
       "English": "Blessed are you in truth, O shining star, whose name is sweet and full of glory, Saint (...).",
-      "Arabiccoptic": "\b أوأونياتك خين أو ميثمى: أو بى فوستير إت إر أوأوينى: فا بى ران إت هولج إثميه إن أوأوو: بى أجيوس( .  .  .  . ) .",
+      "Arabiccoptic": " أوأونياتك خين أو ميثمى: أو بى فوستير إت إر أوأوينى: فا بى ران إت هولج إثميه إن أوأوو: بى أجيوس( .  .  .  . ) .",
       "Englishcoptic": "O-ooniatk khen oomethmeei: o pi-vosteer et-er-oo-oini: va piran et-holg ethmeh en-o-oo: piagios (...)."
     },
     {
@@ -97,7 +97,7 @@
       "Arabic": "إسمك ذاع جداً، في جميع كور الأرض، لأن الرب أعطانا موهبة، القديس (...).",
       "Coptic": "`A pekran cwr `ema]w> =en nixwra throu `nte `pka\\i> je `a `Psoic ;nan `ndwre`a> pi`agioc (...).",
       "English": "You name became famous, in all the cities of the earth, for the Lord has granted us a gift, Saint (...).",
-      "Arabiccoptic": "\b ا بيك ران سور إماشو: خين بى كورا تيرو إنتى إبكاهى: ﭼـى ا إبتشويس تى نان إن ذورى ا: بى أجيوس( .  .  .  . ) .",
+      "Arabiccoptic": " ا بيك ران سور إماشو: خين بى كورا تيرو إنتى إبكاهى: ﭼـى ا إبتشويس تى نان إن ذورى ا: بى أجيوس( .  .  .  . ) .",
       "Englishcoptic": "A pekran sor emasho: khen nikhora teeroo ente ep-kahi: je a Epchois ti-nan enzo-re-a: piagios (...)."
     },
     {
@@ -108,7 +108,7 @@
       "Arabic": "حسنٌ أنت حسن هو الإسم، الذي خُتمتَ به، يا شهيد المسيح، القديس (...).",
       "Coptic": "Kaloc `erok kaloc pe piran> `etautobf `erok> `w pimarturoc `nte Pxc?> pi`agioc (...).",
       "English": "You are well and well is the name, in which you have been sealed, O martyr of Christ, Saint (...).",
-      "Arabiccoptic": "\b كالوس إيروك كالوس بى بى ران: إيطاﭫ طوبف إيروك: أو بى مارتيروس إنتى بخرستوس: بى أجيوس( .  .  .  . ) .",
+      "Arabiccoptic": " كالوس إيروك كالوس بى بى ران: إيطاﭫ طوبف إيروك: أو بى مارتيروس إنتى بخرستوس: بى أجيوس( .  .  .  . ) .",
       "Englishcoptic": "Kalos erok kalos pe piran: etav-tobf erok: o pimartiros ente Pikhristos: piagios (...)."
     },
     {
@@ -119,7 +119,7 @@
       "Arabic": "أطلب من الرب عنا، أيها الشهيد المجاهد، القديس (...)، ليغفر لنا خطايانا.",
       "Coptic": "Twb\\ `m`Psoic `e`\\rhi `ejwn> `w piaqlovoroc `mmarturoc> pi`agioc (...)> `ntefxa nennobi nan `ebol.",
       "English": "Pray to the Lord on our behalf, O struggle-mantled martyr, Saint (…), that He may forgive us our sins.",
-      "Arabiccoptic": "\b طوبه إمبتشويس اى إهرى إيجون: أو بى أثلوفوروس إمارتيروس: بى أجيوس( .  .  .  . ): إنتيف كا نين نوﭭـى نان إﭭول .",
+      "Arabiccoptic": " طوبه إمبتشويس اى إهرى إيجون: أو بى أثلوفوروس إمارتيروس: بى أجيوس( .  .  .  . ): إنتيف كا نين نوﭭـى نان إﭭول .",
       "Englishcoptic": "Tobh emEpchois e-ehreei egon: o pi-athlovoros em-martiros: piagios (...): entef ka nennovi nan evol."
     }
   ]

@@ -17,8 +17,11 @@ import { useDispatch, useSelector } from "react-redux";
 import React, { useState } from "react";
 import AllBishopsPopup from "../components/settings/allbishopsPopup";
 import { AntDesign } from "@expo/vector-icons";
+import { setisBishopPresent } from "../stores/redux/settings.js";
 
 function LoadingScreen({ continueToBook }) {
+  const dispatch = useDispatch();
+
   var pageBackgroundColor = getColor("pageBackgroundColor");
   let labelColor = getColor("LabelColor");
   let primaryColor = getColor("PrimaryColor");
@@ -27,7 +30,10 @@ function LoadingScreen({ continueToBook }) {
   let morethan3BishopsText = getLanguageValue("moreThan3Bishops");
   let setBishopText = getLanguageValue("setBishop");
   const [isloadingIndicator, setisloadingIndicator] = useState(false);
-  const [isBishopPresent, setIsBishopPresent] = useState(false);
+  const isBishopPresent = useSelector(
+    (state) => state.settings.isBishopPresent
+  );
+
   const [threePlusBishops, setthreePlusBishops] = useState(false);
   const darkMode = useSelector((state) => state.settings.darkMode);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
@@ -53,8 +59,14 @@ function LoadingScreen({ continueToBook }) {
   }
   function loadingActivate() {
     setisloadingIndicator(true);
-    continueToBook();
+    continueToBook({
+      isBishopPresent: isBishopPresent,
+      threePlusBishops: threePlusBishops,
+      bishopsPresent: bishopsPresent,
+    });
   }
+  const toggleSwitch = () => dispatch(setisBishopPresent());
+
   const addNewView = () => {};
   return (
     <>
@@ -93,7 +105,7 @@ function LoadingScreen({ continueToBook }) {
                   darkMode ? secondaryColor : navigationBarColor
                 }
                 value={isBishopPresent}
-                onValueChange={setIsBishopPresent}
+                onValueChange={toggleSwitch}
                 thumbColor="white"
               />
             </View>

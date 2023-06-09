@@ -12,7 +12,7 @@
       "Arabic": "أرسل لى عظيم رحمتك . أيها الرب إله خلاصى . ولاتسكت عنى . لأن خطاياى قد كثرت",
       "Coptic": "Bwrp nhi `mpekni]; `nnai > P_ Vnou; `nte paoujai > oude `mperxarwk `eroi > je au`a]ai `nje nanobi .",
       "English": "Send me your great mercy, O Lord God of my salvation, and do not abandon me, for my sins are many.",
-      "Arabiccoptic": " فورب نى إمبيك نيشتى إن ناى . إبشويس إفنوتى إنتى با أوجاى . أوذى إمبير كاروك إيروى . جى أف أشاى إنجى نا نوفى .",
+      "Arabiccoptic": " فورب نى إمبيك نيشتى إن ناى . إبشويس إفنوتى إنتى با أوجاى . أوذى إمبير كاروك إيروى . جى أف أشاى إنجى نا نوفى .",
       "Englishcoptic": "Vorp ni empek nishty ennai, Epshois evnouty ente pa ogai, O ze emper karok eroi, je av ashai enje na novi."
     },
     {
@@ -20,10 +20,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b لأن خطاياى قد كثرت وليس لى أعمال صالحة. ولا دموع . وليس لى دالة .",
-      "Coptic": "J?e? a?u?`??a?]?a?i? > `mmon thi `n\\an`\\bhou`I > `enaneu nem \\anermwou`I > `mmon thi `nouparrhci`a .",
+      "Arabic": " لأن خطاياى قد كثرت وليس لى أعمال صالحة. ولا دموع . وليس لى دالة .",
+      "Coptic": "je au`a]ai `nje nanobi  > `mmon thi `n\\an`\\bhou`I > `enaneu nem \\anermwou`I > `mmon thi `nouparrhci`a .",
       "English": "For my sins are many, and I have no good works, nor tears, for I have no pretext.",
-      "Arabiccoptic": "\b جى أف أشاى ... إممون تى إنهان إهفيؤوى. إينا نيف نيم هان إيرموأوى. إممون تى إن أوبار ريسيا.",
+      "Arabiccoptic": " جى أف أشاى إنجى نا نوفى.  إممون تى إنهان إهفيؤوى. إينا نيف نيم هان إيرموأوى. إممون تى إن أوبار ريسيا.",
       "Englishcoptic": "Je av ashai enje na novi. Emmon ti Enhan ehvi ouwi, ena nef nem han ermo-ouwi, emmon tie n-o par resia."
     },
     {
@@ -32,9 +32,9 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وليس لى دالة . إلا عظم شفاعة. سيدتى السيدة مرتمريم. العفيفة النقية",
-      "Coptic": "` M?m?o?n?       >      `ebhl     `e;ni]; `m`precbi`a > `nte ta_ `nnhb Mari`a > ;cemne `nkaqaroc .",
+      "Coptic": "`Mmon thi `nouparrhci`a >`ebhl `e;ni]; `m`precbi`a > `nte ta_ `nnhb Mari`a > ;cemne `nkaqaroc .",
       "English": "The chaste and pure, unto whom was sent, Gabriel the angel, and he greeted her.",
-      "Arabiccoptic": " إممون ... إيفيل إتى نيشتى إم إبريسفيا . إنتى طاشويس إن نيب ماريا . تى سيمنى إن كاثاروس .",
+      "Arabiccoptic": " إممون تى إن أوبار ريسيا. إيفيل إتى نيشتى إم إبريسفيا . إنتى طاشويس إن نيب ماريا . تى سيمنى إن كاثاروس .",
       "Englishcoptic": "Emmon tie n-o par resia, eveel eti nishty em epresvia, ente tashois enneib Maria, ti semen en katharos."
     },
     {
@@ -42,10 +42,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b العفيفة النقية التى أُرسل إليها. غبريال الملاك. وسلم عليها.",
-      "Coptic": ":?c?e?m?n?e? > qh`etau\b ouwrp ]aroc > `nje Gabrihl piaggeloc > aferxeretizin `mmoc .",
+      "Arabic": " العفيفة النقية التى أُرسل إليها. غبريال الملاك. وسلم عليها.",
+      "Coptic": ":cemne `nkaqaroc . > qh`etau ouwrp ]aroc > `nje Gabrihl piaggeloc > aferxeretizin `mmoc .",
       "English": "Hail to you O full of grace, hail to you O faithful one, you have found grace, for you carried the Word.",
-      "Arabiccoptic": "\b تى سيمنى.. ثى إيطاف أوأورب شاروس. إنجى غابرييل بى أنجيلوس. أفئير شيرى تيزين إمموس.",
+      "Arabiccoptic": " تى سيمنى إن كاثاروس.  ثى إيطاف أوأورب شاروس. إنجى غابرييل بى أنجيلوس. أفئير شيرى تيزين إمموس.",
       "Englishcoptic": "Ti semen en katharos, thi etav o-orp sharos, enje Ghabriel pi angelos, av er shere tizin emmos."
     },
     {
@@ -53,10 +53,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وسلم ... بفرح العالم . هكذا قائلاً . إفرحى يا ممتلئة نعمة .",
-      "Coptic": "A?f?e?r?x?e?r?e? > =en `vra]I `nte pikocmoc > `mpairh; efjw `mmoc > je xere qheqme\\ `n`\\mot .",
+      "Arabic": "وسلم عليها. بفرح العالم . هكذا قائلاً . إفرحى يا ممتلئة نعمة .",
+      "Coptic": "Aferxeretizin `mmoc . > =en `vra]I `nte pikocmoc > `mpairh; efjw `mmoc > je xere qheqme\\ `n`\\mot .",
       "English": "For I have no pretext, without the great intercessions, of my Lady Mary, the chaste and the pure.",
-      "Arabiccoptic": " أفئير شيرى ... خين إفراشى إنتى بى كوزموس. إمباى ريتى إفجو إمموس. جى شيرى ثى إثميه إنهموت",
+      "Arabiccoptic": " أأفئير شيرى تيزين إمموس. خين إفراشى إنتى بى كوزموس. إمباى ريتى إفجو إمموس. جى شيرى ثى إثميه إنهموت",
       "Englishcoptic": "Av er shere tizin emmos, khen evrashi ente pikosmos, empai reety evgo emmos, je shere thi ethmeh en ehmot."
     },
     {
@@ -64,10 +64,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b إفرحى يا ممتلئة نعمة . السلام لكِ أيتها الأمينة. لأنكِ قد وجدتِ نعمة. لأنكِ حملتِ الكلمة.",
-      "Coptic": "J?e? x?e?r?e? > xere ne `w qh`eten\\ot > je `arejimi gar `nou`\\mot > je `arefai =a pilogoc .",
+      "Arabic": " إفرحى يا ممتلئة نعمة . السلام لكِ أيتها الأمينة. لأنكِ قد وجدتِ نعمة. لأنكِ حملتِ الكلمة.",
+      "Coptic": "Je xere qheqme\\ `n`\\mot . > xere ne `w qh`eten\\ot > je `arejimi gar `nou`\\mot > je `arefai =a pilogoc .",
       "English": "And he greeted her, with the gladness of the world, likewise saying, \"Hail to you O full of grace.",
-      "Arabiccoptic": "\b جى شيرى... شيرى نى أوثى إتين هوت . جى أريجيمى غار إن أو إهموت. جى أريفاى خابى لوغوس.",
+      "Arabiccoptic": " جى شيرى ثى إثميه إنهموت. شيرى نى أوثى إتين هوت . جى أريجيمى غار إن أو إهموت. جى أريفاى خابى لوغوس.",
       "Englishcoptic": "Je shere thi ethmeh en ehmot, shere ne o thi etenhot, je arejimy ghar en o-ehmot, je arefai kha piloghos."
     },
     {
@@ -76,9 +76,9 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لأنكِ حملتِ الكلمة. الإبن الخالق . الذى هو ثمرتكِ . الذى جعلنا أحراراً .",
-      "Coptic": "J?e? a?r?e?f?a?i? > `p]hri `ndhmiourgoc > `ete `nqof pe pekarpoc > `etafaiten `nrem\\e .",
+      "Coptic": "Je `arefai =a pilogoc .> `p]hri `ndhmiourgoc > `ete `nqof pe pekarpoc > `etafaiten `nrem\\e .",
       "English": "For you carried the Word, the Son of the Creator, this is He of your fruit, He saved us.",
-      "Arabiccoptic": " جى أريفاى ... إبشيرى إنذيمى أورغوس . إيتى إنثوف بى بىِ كاربوس. إيطاف أيتين إنريمهيه .",
+      "Arabiccoptic": " جى أريفاى خابى لوغوس. إبشيرى إنذيمى أورغوس . إيتى إنثوف بى بىِ كاربوس. إيطاف أيتين إنريمهيه .",
       "Englishcoptic": "Je arefai kha piloghos, Epsheery enzimi orghos, ete enthof pe pi karpos, etaf aiten en remhe."
     },
     {
@@ -86,10 +86,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b الذى جعلنا أحراراً . من العبودية القديمة . لأنه هو إلهنا منذ البدء. ولدته جسدياً.",
-      "Coptic": "`E?t?a?f? > `ebol \\a ;metbwk t\\h > je `nqof pe Pennou; icjen \\h > `aremacf cwmatikoc .",
+      "Arabic": " الذى جعلنا أحراراً . من العبودية القديمة . لأنه هو إلهنا منذ البدء. ولدته جسدياً.",
+      "Coptic": "`Etafaiten `nrem\\e . > `ebol \\a ;metbwk t\\h > je `nqof pe Pennou; icjen \\h > `aremacf cwmatikoc .",
       "English": "He saved us, from the old slavery, for lle is our God of old, she gave birth to Him in the flesh.",
-      "Arabiccoptic": "\b إيطاف... إيفول هاتى ميت فوك إتهى . جى إنثوف بى بين نوتى يسجين هى. أرى ماسف سوماتيكوس .",
+      "Arabiccoptic": " إيطاف أيتين إنريمهيه . إيفول هاتى ميت فوك إتهى . جى إنثوف بى بين نوتى يسجين هى. أرى ماسف سوماتيكوس .",
       "Englishcoptic": "Etaf aiten en remhe, evol haty metvok et-hee, je enthof pe pennouty isjen hi, are masf somatikos."
     },
     {
@@ -98,9 +98,9 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ولدته جسدياً. على الأرض من غير ألم . وصالحنا مع ملائكته . كصلاحه .",
-      "Coptic": "`A?r?e?m?a?c?f? > \\ijen pika\\i asne paqoc > af\\wtp `eron nem nef\b aggeloc > kata tef\b met`agaqoc.",
+      "Coptic": "`Aremacf cwmatikoc .> \\ijen pika\\i asne paqoc > af\\wtp `eron nem nef aggeloc > kata tef met`agaqoc.",
       "English": "She gave birth to Him in the flesh, on earth without pain, and He reconciled us with His angels, according to His goodness.",
-      "Arabiccoptic": " أرى ماسف ... هيجين بى كاهى أتشنى باثوس . أفهوتب إيرون نيم نيف أنجيلوس . كاطا تيف ميت أغاثوس .",
+      "Arabiccoptic": " أرى ماسف سوماتيكوس . هيجين بى كاهى أتشنى باثوس . أفهوتب إيرون نيم نيف أنجيلوس . كاطا تيف ميت أغاثوس .",
       "Englishcoptic": "Are masf somatikos, hijen pikahy achne pathos, Afhotp eron nem nef angelos, kata tefmet agha-thos."
     },
     {
@@ -108,10 +108,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b نمجدك أيتها الأمينة. الحاملة كلمة الآب . قائلين إفرحى يا ممتلئة نعمة . الرب معك",
+      "Arabic": " نمجدك أيتها الأمينة. الحاملة كلمة الآب . قائلين إفرحى يا ممتلئة نعمة . الرب معك",
       "Coptic": "Ten;`wou ne w qheten\\ot…",
       "English": "We glorify you O faithful one, who carried the Word of the Father, \"Hail to you O full of grace, the Lord is with you.\"",
-      "Arabiccoptic": "\bتين تى أوأونى أوثى إتين هوت. إتفاى خا بي لوغوس إنتى إفيوت. جى شيرى ثى إثميه إن إهموت. أووه إبشويس شوب نيمى .",
+      "Arabiccoptic": "تين تى أوأونى أوثى إتين هوت. إتفاى خا بي لوغوس إنتى إفيوت. جى شيرى ثى إثميه إن إهموت. أووه إبشويس شوب نيمى .",
       "Englishcoptic": "Tenti o-o ne wthi etenhot, etfai khapi loghos ente Efiot, je shere thi ethmeh en ehmot, Ouwoh epshois shop neme"
     }
   ]

@@ -53,11 +53,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "يا أبانا القديس رئيس الكهنة البابا انبا ___",
-      "Coptic": "Peniwt eqouab  `narxie`reuc papa abba (..)",
-      "English": "O our holy father, the high priest, Pope Abba ___.",
-      "Arabiccoptic": " بنيوت إثؤواب إن أرشى إرفس*3 بابا آفا (…)",
-      "Englishcoptic": "Penioot ethooav  enarshieerevs papa abva (..)"
+      "Arabic": "يا أبانا القديس رئيس الكهنة البابا انبا [*POPE*]",
+      "Coptic": "Peniwt eqouab  `narxie`reuc papa abba [*POPE*]",
+      "English": "O our holy father, the high priest, Pope Abba [*POPE*].",
+      "Arabiccoptic": " بنيوت إثؤواب إن أرشى إرفس*3 بابا آفا [*POPE*]",
+      "Englishcoptic": "Penioot ethooav  enarshieerevs papa abva [*POPE*]"
     },
     {
       "Type": "Base",

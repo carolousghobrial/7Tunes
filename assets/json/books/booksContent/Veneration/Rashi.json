@@ -31,7 +31,7 @@
       "Arabic": "الفرح لك ايها الشهيد سيدى الملك جوارجيوس",
       "Coptic": "Ra]i nak `wpi% > Pa_ `Pouro Ge`wrgiouc.",
       "English": "Rejoice, O Martyr, My lord prince George.",
-      "Arabiccoptic": "راشى ناك أوبى مارتيروس. باشويس ابؤرو جيؤرجيوس.\b",
+      "Arabiccoptic": "راشى ناك أوبى مارتيروس. باشويس ابؤرو جيؤرجيوس.",
       "Englishcoptic": "Rashi Nak Opi Mar- tiros, Pashois Ep-oro Georgious."
     },
     {
@@ -64,7 +64,7 @@
       "Arabic": "الفرح لك ايها الشهيد سيدى الملك جوارجيوس",
       "Coptic": "Ra]i nak `wpi% > Pa_ `Pouro Ge`wrgiouc.",
       "English": "Rejoice, O Martyr, My lord prince George.",
-      "Arabiccoptic": "راشى ناك أوبى مارتيروس. باشويس ابؤرو جيؤرجيوس.\b",
+      "Arabiccoptic": "راشى ناك أوبى مارتيروس. باشويس ابؤرو جيؤرجيوس.",
       "Englishcoptic": "Rashi Nak Opi Mar- tiros, Pashois Ep-oro Georgious."
     },
     {
@@ -163,7 +163,7 @@
       "Arabic": "الفرح لك ايها الشهيد سيدى الملك جوارجيوس.",
       "Coptic": "Ra]i nak `wpi% > Pa_ `Pouro Ge`wrgiouc",
       "English": "Rejoice, O Martyr, My lord prince George.",
-      "Arabiccoptic": "راشى ناك أوبى مارتيروس. باشويس ابؤرو جيؤرجيوس.\b",
+      "Arabiccoptic": "راشى ناك أوبى مارتيروس. باشويس ابؤرو جيؤرجيوس.",
       "Englishcoptic": "Rashi Nak Opi Mar-tiros, Pashois Ep-oro Georgious."
     },
     {
@@ -207,7 +207,7 @@
       "Arabic": ".قلبى يفرح من اجل لساننا نتهليل",
       "Coptic": "Apa\\ht `eou`vrana > eqbe penlac =en ouqelhl.",
       "English": "My heart is joyful for my tongue rejoices.",
-      "Arabiccoptic": "\b أباهيت إى أو إفرانا. إثفى بين لاس خين أو ثيليل.",
+      "Arabiccoptic": " أباهيت إى أو إفرانا. إثفى بين لاس خين أو ثيليل.",
       "Englishcoptic": "Apaheet E-o ef-rana: Ethve Palas Khen O Thelil."
     },
     {
@@ -240,7 +240,7 @@
       "Arabic": ".الندى والمطر مدلاه على إسمك.",
       "Coptic": "Qaformen \\ormonan > nem neqelhl \\a`mpekran.",
       "English": "Dew and rain are signs, of your name.",
-      "Arabiccoptic": "\b ثافورمين هور مونان. نيم نى ثيليل ها إمبيك ران.",
+      "Arabiccoptic": " ثافورمين هور مونان. نيم نى ثيليل ها إمبيك ران.",
       "Englishcoptic": "Thaf-ormen Hor-mona: Nem Ne-Thelil Ha-empekran."
     }
   ]

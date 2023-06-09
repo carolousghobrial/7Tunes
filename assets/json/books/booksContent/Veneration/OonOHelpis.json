@@ -20,7 +20,7 @@
       "Arabic": "يوجد لنا رجاء فى القديسة مريم أن الله يرحمنا بشفاعاتها.",
       "Coptic": "Ouon ou\\elpic `ntan > =en qheqouab   Mari`a > `ere Vnou; nai nan > \\iten nec`precbi`a.",
       "English": "We have hope, in Saint Mary, that God will have mercy on us, through her intercessions.",
-      "Arabiccoptic": "\b أوؤن أو هيلبيس إنطان. خين ثى إثؤواب ماريا. إيرى إفنوتى ناى نان. هيتين نيس إبريسفيا.",
+      "Arabiccoptic": " أوؤن أو هيلبيس إنطان. خين ثى إثؤواب ماريا. إيرى إفنوتى ناى نان. هيتين نيس إبريسفيا.",
       "Englishcoptic": "O-on o helpees entan, khen thi ethowab Maria, ere evnouti nai nan, hiten nes epresvia."
     },
     {
@@ -28,10 +28,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "\b كل هدوء فى العالم من قبل صلاة والدة الإله القديسة الطاهرة مريم العذراء.",
-      "Coptic": "Ouon oumetcem\b noc > `n`\\rhi =en pikocmoc > `ebol \\iten pi`]lhl > `nte ;qe`oto\b koc eqouab > ;`agia Mari`a ;parqenoc.",
-      "English": "\bAll calmness in the world is through the prayers of the Theotokos Saint Mary the pure Virgin Mary.",
-      "Arabiccoptic": "\b أوؤن أوميت سيمنوس. إن إهرى خين بى كوزموس. إيفول هيتين بى إشليل. إنتى تى ثيؤطوكوس إثؤواب. تى أجيا ماريا تيبارثينوس.",
+      "Arabic": " كل هدوء فى العالم من قبل صلاة والدة الإله القديسة الطاهرة مريم العذراء.",
+      "Coptic": "Ouon oumetcem noc > `n`\\rhi =en pikocmoc > `ebol \\iten pi`]lhl > `nte ;qe`oto koc eqouab > ;`agia Mari`a ;parqenoc.",
+      "English": "All calmness in the world is through the prayers of the Theotokos Saint Mary the pure Virgin Mary.",
+      "Arabiccoptic": " أوؤن أوميت سيمنوس. إن إهرى خين بى كوزموس. إيفول هيتين بى إشليل. إنتى تى ثيؤطوكوس إثؤواب. تى أجيا ماريا تيبارثينوس.",
       "Englishcoptic": "O-on omet semnos,  en ehri khen pi kosmos, evol hiten pi eshlil, ente ti theotokos ethowab, ti agia Maria ti par  thenos."
     }
   ]

@@ -9,10 +9,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b يا يسوع المسيح معينى . إرحم حقارتى . من أجل صلاحك . لا تحسب على آثامى .",
+      "Arabic": " يا يسوع المسيح معينى . إرحم حقارتى . من أجل صلاحك . لا تحسب على آثامى .",
       "Coptic": "Ihc? Pxc? pabo`iqoc > nai =a tamet`elaxictoc > eqbe tekmet`agaqoc > `mperwp `eroi `nna`anomi`a .",
       "English": "Jesus Christ my Helper, have mercy upon Your poor one, for the sake of Your goodness, do not count my iniquities.",
-      "Arabiccoptic": "\b إيسوس بخريستوس بافو إي ثوس . ناى خا طا ميت إلاشيستوس . إثفى تيك ميت أغاثوس . إمبير أوب إيروى إن نا أنوميا .",
+      "Arabiccoptic": " إيسوس بخريستوس بافو إي ثوس . ناى خا طا ميت إلاشيستوس . إثفى تيك ميت أغاثوس . إمبير أوب إيروى إن نا أنوميا .",
       "Englishcoptic": "Isos Pikhristos Pavo isos, nai khata met elashistos, ethve tekmet agha-thos, emper op eroi enna anomia."
     },
     {
@@ -31,10 +31,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b التى أتيت وحللت فيها, لأنك أنت الذى إبتدأت وأعددتها وثبتها من أجل خلاص العالم .",
+      "Arabic": " التى أتيت وحللت فيها, لأنك أنت الذى إبتدأت وأعددتها وثبتها من أجل خلاص العالم .",
       "Coptic": "`Etak`i ak]wpi `n=htc > je `nqok pe `etaker\\htc > akcob; `mmoc ouo\\ akcemnhtc > eqbe `vno\\em `mpikocmoc .",
       "English": "To whom You came and dwelt in, for You are the One who begun, You prepared and established her, for the salvation of the world.",
-      "Arabiccoptic": "\b إيطاك إى أكشوبى إنخيتس, جى إنثوك بى إيطاك إيرهيتس . أكسوبتى إمموس أووه أك سيمنتس . إثفى إفنوهيم إمبى كوزموس .",
+      "Arabiccoptic": " إيطاك إى أكشوبى إنخيتس, جى إنثوك بى إيطاك إيرهيتس . أكسوبتى إمموس أووه أك سيمنتس . إثفى إفنوهيم إمبى كوزموس .",
       "Englishcoptic": "Etak e akshopi enkhits, je enthok pe etak erhits, aksobty emmos owoh ak cemnits, ethve efnohem empi kosmos."
     },
     {
@@ -53,10 +53,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b من العروسة مريم, كموعدك. وخلصت ميراثك . أى نحن المؤمنون .",
+      "Arabic": " من العروسة مريم, كموعدك. وخلصت ميراثك . أى نحن المؤمنون .",
       "Coptic": "` Ebol =en ;]elet Mari`a > kata tek`epaggeli`a > akcw; `ntek`klhronomi`a > `ete `anon =a nipictoc .",
       "English": "From the bride Mary, according to Your promises, You saved Your heritage, we the faithful.",
-      "Arabiccoptic": "\b إيفول خين تى شيليت ماريا, كاطا تيك إبانجيليا . أكسوتى إنتيك إكليرونوميا . إيتى أنون خانى بيستوس .",
+      "Arabiccoptic": " إيفول خين تى شيليت ماريا, كاطا تيك إبانجيليا . أكسوتى إنتيك إكليرونوميا . إيتى أنون خانى بيستوس .",
       "Englishcoptic": "Evol khen ti shelet Maria, kata tek epangelia, aksoty entek eklironomia, ete anon khani pistos."
     },
     {
@@ -75,10 +75,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\b نمجدك أيتها الأمينة. الحاملة كلمة الآب . قائلين إفرحى يا ممتلئة نعمة . الرب معك .",
+      "Arabic": " نمجدك أيتها الأمينة. الحاملة كلمة الآب . قائلين إفرحى يا ممتلئة نعمة . الرب معك .",
       "Coptic": "Ten;`wou ne `w qh`eten\\ot > etfai =a pilogoc `nte `Viwt > je xere qheqme\\ `n`\\mot > ouo\\ P_ ]wp neme .",
       "English": "We glorify you O faithful one, who carried the Word of the Father, \"Hail to you O full of grace, the Lord is with you.\"",
-      "Arabiccoptic": "\bتين تى أوأونى أوثى إتين هوت. إتفاى خا بي لوغوس إنتى إفيوت. جى شيرى ثى إثميه إن إهموت. أووه إبشويس شوب نيمى .",
+      "Arabiccoptic": "تين تى أوأونى أوثى إتين هوت. إتفاى خا بي لوغوس إنتى إفيوت. جى شيرى ثى إثميه إن إهموت. أووه إبشويس شوب نيمى .",
       "Englishcoptic": "Tenti o-o ne wthi etenhot, etfai khapi loghos ente Efiot, je shere thi ethmeh en ehmot, Ouwoh epshois shop neme"
     }
   ]

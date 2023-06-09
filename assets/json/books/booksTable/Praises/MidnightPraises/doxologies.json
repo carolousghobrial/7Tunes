@@ -13,7 +13,7 @@
             "Type": "Main",
             "Path": "DoxologiesIntro",
             "Rule": 0,
-            "Visible": true
+            "Visible": "inRaisingOfIncense"
         },
         {
             "Type": "Main",
