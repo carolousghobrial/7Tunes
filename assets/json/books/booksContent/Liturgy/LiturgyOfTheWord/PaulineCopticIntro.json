@@ -1,0 +1,30 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": "",
+    "EnglishTitle": "",
+    "CopticTitle": "",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "القارئ:",
+            "Coptic": "Pi`anagnwcthc>",
+            "English": "Reader:",
+            "Arabiccoptic": "بي اناغنوستيس:",
+            "Englishcoptic": "Pi-Anaghnostis:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "بولس عبد ربنا يسوع المسيح الرسول المدعو المفرز لبشرى الله.",
+            "Coptic": "Pauloc `vbwk `mPen_ Ih/c/ Px/c/ > pi`apoctoloc etqa\\em > vh`etauqa]f `epi\\i]ennoufi `nte Vnou;",
+            "English": "Paul the Servant of our Lord Jesus Christ, called to be an apostle appointed to the Gospel of God.",
+            "Arabiccoptic": "بافلوس إفوك إمبين شويس إيسوس بخريستوس. بى أبوسطولوس إيتثاهيم. فى إيطاف ثاشف إبى هيشين نوفى إنتى إفنوتى.",
+            "Englishcoptic": "Pavlos evok em Penchoyse Isous pi-Ekhristos : pi-apostolos et-tha-hem : fee etav-thashf e-pee-hee-shennofee ente Efnoty."
+        }
+    ]
+}

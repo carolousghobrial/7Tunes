@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "حينئذ فمنا امتلأ فرحاً، ولساننا تهليلاً، لأن ربنا يسوع المسيح، اعتمد من يوحنا.",
-      "Coptic": "Tote rwn afmo\\ `nra]i> ouo\\ penlac =en ouqelhl> je pen_ Ihc?  Pxc?> afsi`wmc \\iten Iw`annhc.",
+      "Coptic": "Tote rwn afmo\\ `nra]i> ouo\\ penlac =en ouqelhl> je pen_ Ihcouc  Pi`xrictoc> afsi`wmc \\iten Iw`annhc.",
       "English": "Then our mouths are filled with joy, and our tongues with rejoicing, for our Lord Jesus Christ, was baptized by John.",
       "Arabiccoptic": "توتي رون افموه ان راشي : اووه بين لاس خين أوثيليل : جي بين تشويس ايسوس بخريستوس : أفتشي أومس هيتين يوأنس  .",
       "Englishcoptic": "Tote ron afmoh en rashi , owoh pen las khen o-thelil , je penchois Isos Pikhristos , avchi oms hiten Yoanness."
@@ -21,7 +21,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "بالحقيقة السماء والأرض، مملوءتان من كرامتك، أيها الرب ذو اليد العزيزة، والذراع المنقذة.",
-      "Coptic": "`Alhqwc `tve nem `pka\\i> me\\ `ebol=en pektaio> `w P_ va ;jij et`ama\\i> nem pi]wb] `nreftoujo.",
+      "Coptic": "`Alhqwc `tve nem `pka\\i> me\\ `ebol=en pektaio> `w Psoic va ;jij et`ama\\i> nem pi]wb] `nreftoujo.",
       "English": "Truly heaven and earth, are filled with Your honor, O Lord with the mighty hand, and the arm of salvation.",
       "Arabiccoptic": "اليثوس اتفى نيم ابكاهي : ميه ايفول خين بيك طايو : او ابتشويس فا تي جيج ايطا ماهي : نيم بي شوبش انريف توجو  .",
       "Englishcoptic": "Alithos etfe nem epkahi , meh evol khen pek-taio, o-pashois fa ti-jig eta-mahi, nem pi-shobsh enref-tankho."
@@ -32,7 +32,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لأن الرب أتي واعتمد، من أجل خطايانا نحن أيضاً، وانقذنا وخلصنا، برأفة عظيمة.",
-      "Coptic": "Je P_ af`i ouo\\ afsi`wmc> eqbe nennobi `anon \\wn> aftoujon afcw; `mmon> =en `ouni]; `mmet]en\\ht.",
+      "Coptic": "Je Psoic af`i ouo\\ afsi`wmc> eqbe nennobi `anon \\wn> aftoujon afcw; `mmon> =en `ouni]; `mmet]en\\ht.",
       "English": "For God came and was baptized, for our sins, He delivered and saved us, with great compassion.",
       "Arabiccoptic": "جي ابتشويس افي اووه افتشي أومس : اثفى نين نوفي انون هون : افتووجون افسوتي اممون : خين او نيشتي امميت شين هيت  .",
       "Englishcoptic": "Je Epchois af-ee owoh afchi-oms, ethve nen-novi anon hon, aftogon afsoti emon, khen onishti em-met shenhit."
@@ -98,7 +98,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "قدوس أنت أيها الرب وقدوس، قدوس أيها الرب يسوع المسيح، المجد يليق به مع أبيه، والروح القدس.",
-      "Coptic": "`Xouab P_  ouo\\ `xouab> `xouab P_ Ihc?  Pxc?> pi`w`ou `f`er]au naf nem Pefiwt> nem pi`Pneuma `mparaklhton.",
+      "Coptic": "`Xouab Psoic  ouo\\ `xouab> `xouab Psoic Ihcouc  Pi`xrictoc> pi`w`ou `f`er]au naf nem Pefiwt> nem pi`Pneuma `mparaklhton.",
       "English": "Holy O Lord and holy, holy O Lord Jesus Christ, glory be to You and Your Father, and the Spirit of comfort.",
       "Arabiccoptic": "إكؤواب ابتشويس اووه إكؤواب : إكؤواب إبتشويس إيسوس بخريستوس : بي اوؤو إف ايرشاف ناف نيم بيف يوت : نيم بي إبنفما إم باراكليتون  .",
       "Englishcoptic": "Ekowab Epchois owoh Ekowab, Ekowab Epchois Isos Pikhristos , pi-o-oo ef-er shav-naf nem pefiot , nem pi-epnevma emparak-liton."
@@ -120,7 +120,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هلليلويا هلليلويا، هلليلويا هلليلويا، يسوع المسيح إبن الله، اعتمد في الأردن.",
-      "Coptic": "Allhlouia Al?> Allhlouia Al? > Ihc? Pxc?  `p]hri `mV;> afsi`wmc =en piIordanhc.",
+      "Coptic": "Allhlouia Al?> Allhlouia Al? > Ihcouc Pi`xrictoc  `p]hri `mV;> afsi`wmc =en piIordanhc.",
       "English": "Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, was baptized in the Jordan.",
       "Arabiccoptic": "الليلويا الليلويا : ايسوس بي اخريستوس ابشيري ام افنوتي : افتشي اومس خين بي يورذانيس  .",
       "Englishcoptic": "Alleloia, alleloia, alleloia, alleloia, Esos Pikhrestos Ep-shiri Emif-noti, avchi oms khen pi-Yordanees."

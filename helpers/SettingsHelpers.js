@@ -1,85 +1,53 @@
 import Colors from "../constants/colors";
 import Languages from "../constants/languages";
 import { useDispatch, useSelector } from "react-redux";
+import { useMemo } from "react";
 
 export function getLanguageValue(key) {
   const appLanguage = useSelector((state) => state.settings.appLanguage);
-
   return Languages[appLanguage][key];
 }
-export function getSeason() {
-  const season = useSelector((state) => state.settings.currentSeason);
-  return season;
-}
-export function getFontSize() {
-  const fontSize = useSelector((state) => state.settings.textFontSize);
 
-  return fontSize;
+export function getSeason() {
+  return useSelector((state) => state.settings.currentSeason);
 }
+
+export function getFontSize() {
+  return useSelector((state) => state.settings.textFontSize);
+}
+
 export function getColor(key) {
   const darkMode = useSelector((state) => state.settings.darkMode);
-  var activeColors = darkMode === false ? Colors["light"] : Colors["dark"];
-
+  const activeColors = darkMode ? Colors["dark"] : Colors["light"];
   return activeColors[key];
 }
+
+const saintsSelector = (state) => state.saints;
+
 export function getSaint(saint) {
-  const saints = useSelector((state) => state.saints);
-  switch (saint) {
-    case "ARCHANGEL_MICHAEL":
-      return saints.ARCHANGEL_MICHAEL;
+  const saints = useSelector(saintsSelector);
 
-    case "ARCHANGEL_GABRIEL":
-      return saints.ARCHANGEL_GABRIEL;
+  const saintMapping = {
+    ARCHANGEL_MICHAEL: saints.ARCHANGEL_MICHAEL,
+    ARCHANGEL_GABRIEL: saints.ARCHANGEL_GABRIEL,
+    JOHN_THE_BAPTIST: saints.JOHN_THE_BAPTIST,
+    ST_MARK: saints.ST_MARK,
+    ST_STEPHEN: saints.ST_STEPHEN,
+    ST_GEORGE: saints.ST_GEORGE,
+    ST_PHILOPATER: saints.ST_PHILOPATER,
+    ST_MINA: saints.ST_MINA,
+    ST_ABANOUB: saints.ST_ABANOUB,
+    ST_DEMIANA: saints.ST_DEMIANA,
+    ST_MARINA: saints.ST_MARINA,
+    ST_ANTHONY: saints.ST_ANTHONY,
+    ST_PAULHERMIT: saints.ST_PAULHERMIT,
+    ST_MOSES: saints.ST_MOSES,
+    ST_PISHOI: saints.ST_PISHOI,
+    ST_REWIS: saints.ST_REWIS,
+    ST_JOHN_THE_SHORT: saints.ST_JOHN_THE_SHORT,
+    ST_KARAS: saints.ST_KARAS,
+    ST_KIROLLOS_SIXTH: saints.ST_KIROLLOS_SIXTH,
+  };
 
-    case "JOHN_THE_BAPTIST":
-      return saints.JOHN_THE_BAPTIST;
-
-    case "ST_MARK":
-      return saints.ST_MARK;
-
-    case "ST_STEPHEN":
-      return saints.ST_STEPHEN;
-
-    case "ST_GEORGE":
-      return saints.ST_GEORGE;
-
-    case "ST_PHILOPATER":
-      return saints.ST_PHILOPATER;
-
-    case "ST_MINA":
-      return saints.ST_MINA;
-
-    case "ST_ABANOUB":
-      return saints.ST_ABANOUB;
-
-    case "ST_DEMIANA":
-      return saints.ST_DEMIANA;
-
-    case "ST_MARINA":
-      return saints.ST_MARINA;
-
-    case "ST_ANTHONY":
-      return saints.ST_ANTHONY;
-
-    case "ST_PAULHERMIT":
-      return saints.ST_PAULHERMIT;
-
-    case "ST_MOSES":
-      return saints.ST_MOSES;
-
-    case "ST_PISHOI":
-      return saints.ST_PISHOI;
-
-    case "ST_REWIS":
-      return saints.ST_REWIS;
-
-    case "ST_JOHN_THE_SHORT":
-      return saints.ST_JOHN_THE_SHORT;
-
-    case "ST_KARAS":
-      return saints.ST_KARAS;
-
-    case "ST_KIROLLOS_SIXTH":
-      return saints.ST_KIROLLOS_SIXTH;
-  }
+  return saintMapping[saint];
 }

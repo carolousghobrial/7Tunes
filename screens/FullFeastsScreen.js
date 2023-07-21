@@ -1,98 +1,83 @@
-import {
-  StyleSheet,
-  Dimensions,
-  Text,
-  Alert,
-  useWindowDimensions,
-  View,
-  Button,
-  FlatList,
-} from "react-native";
+import { StyleSheet, Text, View, FlatList } from "react-native";
 import { setSeason } from "../stores/redux/settings";
-import { getLanguageValue, getColor } from "../helpers/SettingsHelpers";
+import { getLanguageValue } from "../helpers/SettingsHelpers";
 import moment from "moment";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import FeastScreenTitleView from "../components/homepage/FeastScreenTitleView";
-import BookView from "../components/homepage/bookView";
-import TopBoxView from "../components/homepage/topBoxView";
-import homescreenPaths from "../helpers/homescreenPaths";
-import {
-  getCopticFastsFeasts,
-  setCurrentSeasonByKey,
-} from "../helpers/copticMonthsHelper";
-import Languages from "../constants/languages";
-
 import FeastView from "../components/homepage/feastView";
 import FeastModal from "../components/homepage/feastModal";
 import SelectYearModal from "../components/homepage/SelectYearModal";
 import SearchBar from "../components/ViewTypes/SearchBar";
-import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper";
+import { setCurrentSeasonByKey } from "../helpers/copticMonthsHelper";
+import Languages from "../constants/languages";
+import { getCopticFastsFeasts } from "../helpers/copticMonthsHelper";
 function FullFeastsScreen() {
   const dispatch = useDispatch();
   const timeTransition = useSelector((state) => state.settings.timeTransition);
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
   const [initialIndex, setInitialIndex] = useState(null);
-  const [yearModalVisible, setyearModalVisible] = useState(false);
-  const [feastModalVisible, setfeastModalVisible] = useState(false);
+  const [yearModalVisible, setYearModalVisible] = useState(false);
+  const [feastModalVisible, setFeastModalVisible] = useState(false);
   const flatListRef = useRef();
+
   const data = getCopticFastsFeasts(moment().year()).sort(
     (a, b) =>
       new moment(a.start).format("YYYYMMDD") -
       new moment(b.start).format("YYYYMMDD")
   );
 
-  const [currentData, setcurrentData] = useState(data);
-
-  const [selectedFeast, setselectedFeast] = useState(data[0]);
+  const [currentData, setCurrentData] = useState(data);
+  const [selectedFeast, setSelectedFeast] = useState(data[0]);
 
   function feastClick(item) {
-    setselectedFeast(item);
-    setfeastModalVisible(true);
+    setSelectedFeast(item);
+    setFeastModalVisible(true);
   }
-  function yearClick() {
-    setyearModalVisible(true);
-  }
-  function closeModal() {
-    setfeastModalVisible(false);
-  }
-  function closeYearModal() {
-    setyearModalVisible(false);
-  }
-  function setFeast(feast) {
-    let mycurrentSeason = setCurrentSeasonByKey(timeTransition, feast);
-    dispatch(setSeason({ currentSeason: mycurrentSeason }));
 
-    setfeastModalVisible(false);
+  function yearClick() {
+    setYearModalVisible(true);
   }
+
+  function closeModal() {
+    setFeastModalVisible(false);
+  }
+
+  function closeYearModal() {
+    setYearModalVisible(false);
+  }
+
+  function setFeast(feast) {
+    const myCurrentSeason = setCurrentSeasonByKey(timeTransition, feast);
+    dispatch(setSeason({ currentSeason: myCurrentSeason }));
+    setFeastModalVisible(false);
+  }
+
   function setYear(year) {
     const data = getCopticFastsFeasts(year).sort(
       (a, b) =>
         new moment(a.start).format("YYYYMMDD") -
         new moment(b.start).format("YYYYMMDD")
     );
-    setcurrentData(data);
-
-    setyearModalVisible(false);
-    //setfeastModalVisible(false);
+    setCurrentData(data);
+    setYearModalVisible(false);
   }
-  function liveClicked() {
-    setyearSelected(moment().year());
 
+  function liveClicked() {
     dispatch(
       setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
     );
     Alert.alert("Success");
-    //setyearModalVisible(true);
   }
+
   const today = moment();
 
   useEffect(() => {
     var todayDate = moment();
-
     var itemKey = "";
-    data.map((feast) => {
+
+    data.forEach((feast) => {
       if (
         (feast.end === null && feast.start.isSame(todayDate)) ||
         (feast.end !== null &&
@@ -102,13 +87,15 @@ function FullFeastsScreen() {
         return;
       }
     });
+
     var ind = data.findIndex((item) => item.key === itemKey);
     setInitialIndex(ind);
   }, []);
 
-  function renderItems(itemData) {
-    return <FeastView item={itemData.item} onClick={feastClick}></FeastView>;
+  function renderItems({ item }) {
+    return <FeastView item={item} onClick={feastClick} />;
   }
+
   function handleSearch(text) {
     setSearchPhrase(text);
     const filteredData = data.filter(
@@ -116,7 +103,7 @@ function FullFeastsScreen() {
         Languages["eng"][item.key].toLowerCase().includes(text.toLowerCase()) ||
         Languages["ara"][item.key].includes(text)
     );
-    setcurrentData(filteredData);
+    setCurrentData(filteredData);
   }
 
   return (
@@ -126,18 +113,15 @@ function FullFeastsScreen() {
         closeModal={closeModal}
         setFeast={setFeast}
         feast={selectedFeast}
-      ></FeastModal>
+      />
       <SelectYearModal
         visible={yearModalVisible}
         closeModal={closeYearModal}
         setYear={setYear}
-      ></SelectYearModal>
+      />
 
       <View style={styles.container}>
-        <FeastScreenTitleView
-          liveClicked={liveClicked}
-          yearClick={yearClick}
-        ></FeastScreenTitleView>
+        <FeastScreenTitleView liveClicked={liveClicked} yearClick={yearClick} />
         <SearchBar
           setClicked={setClicked}
           searchPhrase={searchPhrase}
@@ -154,9 +138,8 @@ function FullFeastsScreen() {
           style={{ width: "100%" }}
           showsVerticalScrollIndicator={false}
           renderItem={renderItems}
-          keyExtractor={(item, index) => {
-            return item.key;
-          }}
+          keyExtractor={(item, index) => item.key}
+          extraData={currentData} // Ensure that the FlatList updates when currentData changes
         />
       </View>
     </>

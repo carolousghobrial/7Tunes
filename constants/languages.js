@@ -36,11 +36,11 @@ const Languages = {
     popeSelect: "Choose your Diocese",
     popeSelectDescription:
       "This feature allows you to add your Diocese Bishop/Metropolitan and it will auto populate all of their names in the neccessary order in the responses.",
-    copticPope: "Coptic Pope: His Holiness Pope",
+    copticPope: "Coptic Pope: His Holiness Pope ",
     antiochPope: "Antioch Pope: Mar Ignatius",
     dioceseBishopMetropolitain: "Diocese Bishop/Metropolitan:",
     setBishop: "Set Diocese Bishop",
-    isBishopPresent: "Is a Bishop present?",
+    BishopIsPresent: "Is a Bishop present?",
     moreThan3Bishops: "Are there more than 3 Bishops Present?",
     update: "Update Application",
     setCurrentDate: "Set Current Date",

@@ -1,7 +1,6 @@
 import {
   View,
   Switch,
-  Button,
   StyleSheet,
   Text,
   Image,
@@ -13,7 +12,6 @@ import {
   SafeAreaView,
   TouchableWithoutFeedback,
   useWindowDimensions,
-  ScrollView,
 } from "react-native";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import { useDispatch, useSelector } from "react-redux";
@@ -26,11 +24,10 @@ function AllBishopsPopup({ visible, closeModal, setBishop }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
 
-  let labelColor = getColor("LabelColor");
-  let itemBackgroundColor = getColor("pageBackgroundColor");
-  let pageBackgroundColor = getColor("NavigationBarColor");
+  const labelColor = getColor("LabelColor");
+  const itemBackgroundColor = getColor("pageBackgroundColor");
+  const pageBackgroundColor = getColor("NavigationBarColor");
   const [clicked, setClicked] = useState(false);
-
   const { width, height } = useWindowDimensions();
   let viewheight = "70%";
   let viewwidth = "100%";
@@ -50,35 +47,36 @@ function AllBishopsPopup({ visible, closeModal, setBishop }) {
 
   const popeObject = bishopsList.POPE;
   const antiochPope = bishopsList.ANTIOCH_POPE;
-  const metropolitains = bishopsList.Metropolitans;
-  const bishops = bishopsList.Diocese_Bishops;
-  const m_bishops = bishopsList.Monastery_Bishops;
-  const g_bishops = bishopsList.General_Bishops;
+  const metropolitans = bishopsList.Metropolitans;
+  const dioceseBishops = bishopsList.Diocese_Bishops;
+  const monasteryBishops = bishopsList.Monastery_Bishops;
+  const generalBishops = bishopsList.General_Bishops;
 
-  const DATA = [
+  const bishopSections = [
     {
       title: "Metropolitans",
-      data: metropolitains.sort((a, b) => a.English.localeCompare(b.English)),
+      data: metropolitans.sort((a, b) => a.English.localeCompare(b.English)),
     },
     {
       title: "Diocese Bishops",
-      data: bishops.sort((a, b) => a.English.localeCompare(b.English)),
+      data: dioceseBishops.sort((a, b) => a.English.localeCompare(b.English)),
     },
     {
       title: "Monastery Bishops",
-      data: m_bishops.sort((a, b) => a.English.localeCompare(b.English)),
+      data: monasteryBishops.sort((a, b) => a.English.localeCompare(b.English)),
     },
     {
       title: "General Bishops",
-      data: g_bishops.sort((a, b) => a.English.localeCompare(b.English)),
+      data: generalBishops.sort((a, b) => a.English.localeCompare(b.English)),
     },
   ];
-  const [currentData, setcurrentData] = useState(DATA);
+  const [currentBishopSections, setCurrentBishopSections] =
+    useState(bishopSections);
 
   const handleSearch = (text) => {
     setSearchPhrase(text);
-    const filteredSecitions = DATA.reduce((result, sectionData) => {
-      const { title, data } = sectionData;
+    const filteredSections = bishopSections.reduce((result, section) => {
+      const { title, data } = section;
       const filteredData = data.filter(
         (item) =>
           item.English.toLowerCase().includes(text.toLowerCase()) ||
@@ -97,8 +95,9 @@ function AllBishopsPopup({ visible, closeModal, setBishop }) {
       return result;
     }, []);
 
-    setcurrentData(filteredSecitions);
+    setCurrentBishopSections(filteredSections);
   };
+
   return (
     <Modal
       animationType="slide"
@@ -129,7 +128,7 @@ function AllBishopsPopup({ visible, closeModal, setBishop }) {
           clicked={clicked}
         />
         <SectionList
-          sections={currentData}
+          sections={currentBishopSections}
           style={{ width: "100%" }}
           keyExtractor={(item, index) => item.key}
           renderItem={({ item }) => (
@@ -137,24 +136,16 @@ function AllBishopsPopup({ visible, closeModal, setBishop }) {
               style={[styles.item, { backgroundColor: itemBackgroundColor }]}
               onPress={setBishop.bind(this, item)}
             >
-              {appLanguage === "eng" ? (
-                <Text style={[styles.title, { color: labelColor }]}>
-                  Abba {item.English}
-                </Text>
-              ) : (
-                <Text style={[styles.title, { color: labelColor }]}>
-                  الانبا {item.Arabic}
-                </Text>
-              )}
-              {appLanguage === "eng" ? (
-                <Text style={[styles.subtitle, { color: labelColor }]}>
-                  {item.dioceseEnglish}
-                </Text>
-              ) : (
-                <Text style={[styles.subtitle, { color: labelColor }]}>
-                  {item.dioceseArabic}
-                </Text>
-              )}
+              <Text style={[styles.title, { color: labelColor }]}>
+                {appLanguage === "eng"
+                  ? `Abba ${item.English}`
+                  : `الانبا ${item.Arabic}`}
+              </Text>
+              <Text style={[styles.subtitle, { color: labelColor }]}>
+                {appLanguage === "eng"
+                  ? item.dioceseEnglish
+                  : item.dioceseArabic}
+              </Text>
             </Pressable>
           )}
           renderSectionHeader={({ section: { title } }) => (
@@ -175,10 +166,10 @@ function AllBishopsPopup({ visible, closeModal, setBishop }) {
     </Modal>
   );
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-
     height: "50%",
     justifyContent: "center",
     alignItems: "center",
@@ -216,4 +207,5 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
 });
+
 export default AllBishopsPopup;

@@ -1,114 +1,35 @@
-import {
-  View,
-  Switch,
-  StyleSheet,
-  Text,
-  FlatList,
-  Image,
-  Pressable,
-  Alert,
-} from "react-native";
-import { useState, useCallback, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import Colors from "../../constants/colors.js";
-import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
+import React, { useState } from "react";
+import { View, FlatList, StyleSheet, Alert } from "react-native";
+import { useDispatch } from "react-redux";
 import { changeTextLanguage } from "../../stores/redux/settings.js";
-import { changeSaint } from "../../stores/redux/saints";
 import SearchBar from "../ViewTypes/SearchBar";
-
 import SaintModal from "./saintModal";
-import images from "../../helpers/imageHelpers";
-import Languages from "../../constants/languages";
 import SaintView from "../homepage/saintView.js";
+import tempLang from "./tempLang"; // Use an array directly instead of a separate variable
+import { changeSaint } from "../../stores/redux/saints";
 
 function SaintsList() {
+  const [currentData, setcurrentData] = useState(tempLang);
+
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
-  const fontSize = useSelector((state) => state.settings.textFontSize);
   const [selectedSaint, setSelectedSaint] = useState("");
   const [saintModalVisible, setsaintModalVisible] = useState(false);
   const dispatch = useDispatch();
-  const tempLang = [
-    {
-      titleKey: "ARCHANGEL_MICHAEL",
-    },
-    {
-      titleKey: "ARCHANGEL_GABRIEL",
-    },
-    {
-      titleKey: "JOHN_THE_BAPTIST",
-    },
-    {
-      titleKey: "ST_MARK",
-    },
-    {
-      titleKey: "ST_STEPHEN",
-    },
-    {
-      titleKey: "ST_GEORGE",
-    },
-    {
-      titleKey: "ST_PHILOPATER",
-    },
-    {
-      titleKey: "ST_MINA",
-    },
-    {
-      titleKey: "ST_ABANOUB",
-    },
-    {
-      titleKey: "ST_DEMIANA",
-    },
-    {
-      titleKey: "ST_MARINA",
-    },
-    {
-      titleKey: "ST_ANTHONY",
-    },
-    {
-      titleKey: "ST_PAULHERMIT",
-    },
-    {
-      titleKey: "ST_MOSES",
-    },
-    {
-      titleKey: "ST_PISHOI",
-    },
-    {
-      titleKey: "ST_JOHN_THE_SHORT",
-    },
-    {
-      titleKey: "ST_REWIS",
-    },
-    {
-      titleKey: "ST_KARAS",
-    },
-    {
-      titleKey: "ST_KIROLLOS_SIXTH",
-    },
-  ];
-  const [currentData, setcurrentData] = useState(tempLang);
 
-  let imageSize = 50;
-
+  const imageSize = 50;
   const imageStyle = {
     width: imageSize,
     height: imageSize,
     borderRadius: imageSize / 2,
   };
+
   function onSwitch(item, e) {
     dispatch(
       changeTextLanguage({ lang: item.titleKey, value: !item.titleKey })
     );
-    const updatedArray = langArray.map((val, i) => {
-      if (val.titleKey === item.titleKey) {
-        item.isEnabled = e;
-        return item;
-      }
-      return val;
-    });
-    setLangArray(updatedArray); // set the state to the updated copy
   }
+
   function openModal(item) {
     try {
       setSelectedSaint(item);
@@ -117,9 +38,11 @@ function SaintsList() {
       Alert.alert(e);
     }
   }
+
   function closeModal() {
     setsaintModalVisible(false);
   }
+
   function handleSearch(text) {
     setSearchPhrase(text);
     const filteredData = tempLang.filter(
@@ -129,13 +52,16 @@ function SaintsList() {
     );
     setcurrentData(filteredData);
   }
-  function renderItems({ item }) {
-    return <SaintView item={item} onClick={openModal}></SaintView>;
-  }
+
   function updateSaint(saint, saintObject) {
     dispatch(changeSaint({ saint: saint, object: saintObject }));
     setsaintModalVisible(false);
   }
+
+  function renderItems({ item }) {
+    return <SaintView item={item} onClick={openModal} />;
+  }
+
   return (
     <>
       <SaintModal
@@ -143,7 +69,7 @@ function SaintsList() {
         closeModal={closeModal}
         updateSaint={updateSaint}
         saint={selectedSaint}
-      ></SaintModal>
+      />
       <View style={styles.container}>
         <SearchBar
           setClicked={setClicked}
@@ -155,13 +81,11 @@ function SaintsList() {
         <FlatList
           data={currentData}
           horizontal={false}
-          initialNumToRender={currentData.length}
+          initialNumToRender={tempLang.length}
           style={{ width: "100%" }}
           showsVerticalScrollIndicator={false}
           renderItem={renderItems}
-          keyExtractor={(item, index) => {
-            return item.key;
-          }}
+          keyExtractor={(item) => item.titleKey} // Use titleKey as the key
         />
       </View>
     </>

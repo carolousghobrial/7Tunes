@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلُّواتِهم احفظْ حياةَ أبينا المكرم رئيسِ الكهنةِ البابا أنبا ___، ياربُّ ...",
+      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `narxi`ereuc papa abba … > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through their prayers, keep the life of our honored father, the high priest, Pope Abba ___, O Lord ....",
+      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إمبين يوت إتطايوت إن أرشي إريفس باباآفا (...) إبشويس. آري إهموت نان إمبي كو إيقول إنتي نين نوفي",
+      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot ettaieeooot enarshi-erevs papa abva … : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلواتهم احفظْ حياةَ أبينا المكرم البار أنبا ــ الأسقف (المطران) ياربُّ ...",
+      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba … piepickopoc (pimhtropolithc)> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through their prayers keep the life of our honored and righteous father, the bishop (metropolitan) Abba ___, O Lord ....",
+      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا (...) بي إبسكوبوس إبشويس. آري إهموت نان.",
+      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot ettaieeooot enzikeos abva … piepiskopos (pimeetropolitees): Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

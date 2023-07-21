@@ -8,7 +8,8 @@
             "hasSubBooks": false,
             "BookPath": "standardPsalmody",
             "ImageURL": "david",
-            "Enabled": true
+            "Enabled": true,
+            "BishopButton": true
         },
         {
             "EnglishTitle": "Kiahk Midnight's Praises",
@@ -18,7 +19,8 @@
             "hasSubBooks": false,
             "BookPath": "kiahkPsalmody",
             "ImageURL": "annuciation",
-            "Enabled": false
+            "Enabled": false,
+            "BishopButton": true
         },
         {
             "EnglishTitle": "Lenten Midnight's Praises",
@@ -28,7 +30,8 @@
             "hasSubBooks": false,
             "BookPath": "lentenPsalmody",
             "ImageURL": "lent",
-            "Enabled": false
+            "Enabled": false,
+            "BishopButton": true
         }
     ]
 }

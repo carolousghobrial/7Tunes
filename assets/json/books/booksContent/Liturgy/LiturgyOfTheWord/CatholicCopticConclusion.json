@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "بي اناغنوستيس:",
+      "Englishcoptic": "Pi-Anaghnostis:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لا تحبوا العالم ولا الأشياء التي في العالم، العالم يمضى وشهواته، وأما الذي يصنع إرادة الله يدوم إلى الأبد. آمين.",
+      "Coptic": "Na`cnhou `mpermenre pikocmoc oude nh`et]op =en pikocmoc> pikocmoc nacini nem tef`epiqumia> vh de et`iri `m`vouw] `m`Vnou; `fna]wpi ]a `ene\\> `amhn.",
+      "English": "Do not love the world nor the things in the world. The world passes away, and its desires; but he who does the will of God abides forever. Amen.",
+      "Arabiccoptic": "نا إسنيو إمبير مينريه بي كوزموس : اوذيه ني إتشوب خين بي كوزموس : بي كوزموس ناسيني نيم تيف إبيثيميا : في ذيه إت إيري إم إفؤوش إم إفنوتي : إفناشوبي شا إينيه آمين  . ",
+      "Englishcoptic": "Naesneeooo empermenre pikosmos oooze nee-etshop khen pikosmos: pikosmos nasini nem tef-epitheemia: vee ze et-eeri emevooooosh emeVnoooti efnashoopi sha -eneh: -ameen."
+    }
+  ]
+}

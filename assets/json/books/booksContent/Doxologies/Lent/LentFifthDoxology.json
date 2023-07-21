@@ -18,7 +18,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الصوم والصلاة، بطهارة وعفاف، ومحبة بغير غش، هما اللذان يرضيان المسيح .",
-      "Coptic": ":nhctia nem pi`]lhl> =en `outoubo nem `oumetcemnoc> nem `ou`agaph `n`atdoloc> nai ne nh`e]auranaf `mPxc?.",
+      "Coptic": ":nhctia nem pi`]lhl> =en `outoubo nem `oumetcemnoc> nem `ou`agaph `n`atdoloc> nai ne nh`e]auranaf `mPi`xrictoc.",
       "English": "Fasting and prayer: in purity and chastity: and love without shame: are what please Christ.",
       "Arabiccoptic": "تينيستيا نيم بى اشليل, خين اوطوفو نيم اوميت سيم نوس, نيم او اغابى ان ات ذولوس, ناى نى نى شاف راناف ام بخريستوس.",
       "Englishcoptic": "Ti nestia nem pi eshlil, khen o tovo nem o met simnos, nem o aghapy en at zolos, naine ni shavranaf em Pikhristos"
@@ -73,7 +73,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "الصوم والصلاة، إستحق إبراهيم، أن يضيف الله عنده، مع ملائكته الأطهار .",
-      "Coptic": "|iten ;nhctia nem pi`]lhl> af`er`p`em`p]a `nje Abraam> eqre `Vnou; jwili `erof> nem nef`aggeloc eq?u?.",
+      "Coptic": "|iten ;nhctia nem pi`]lhl> af`er`p`em`p]a `nje Abraam> eqre `Vnou; jwili `erof> nem nef`aggeloc eqouab.",
       "English": "Through fasting and prayer: Abraham was made worthy: to host God: with His holy angels.",
       "Arabiccoptic": "هيتين تينيستيا نيم بى اشليل, افئير اب امبشا انجى ابرأم, اثرى افنوتى جويلى ايروف, نيم نيف انجيلوس اثؤواب.",
       "Englishcoptic": "Hiten Ti nestia nem pi eshlil, af er ep empsha enje Abraam, ethre Evnouty goily erof, nem nef angelos Ethowab."
@@ -84,7 +84,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "بالصوم والصلاة، أصعد أسحق، ذبيحة طاهرة معطياً إشاره للمسيح .",
-      "Coptic": "|iten ;nhctia nem pi`]lhl> af`ini `e`p]wi `n`Icaak> `n`ouqucia ectoubhout> af;mhini `ePxc?.",
+      "Coptic": "|iten ;nhctia nem pi`]lhl> af`ini `e`p]wi `n`Icaak> `n`ouqucia ectoubhout> af;mhini `ePi`xrictoc.",
       "English": "Through fasting and prayer: Isaac was offered up: as a pure sacrifice: as a sign of Christ.",
       "Arabiccoptic": "هيتين تينيستيا نيم بى اشليل, اف اينى اابشوى ان ايسأك, ان او ثيسيا اسطوفيوت, افتي مينى ابخريستوس.",
       "Englishcoptic": "Hiten Ti nestia nem pi eshlil, av ini e epshoi en Isaak, en o thisia estoviot, afty mini ePikhristos."
@@ -315,7 +315,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "نعم يا سيدنا إقبلنا إليك، وأعطنا كمالاً، مسيحياً يرضيك ونصيباً، مع جميع قديسيك .",
-      "Coptic": "Ce penNhb ]opten `erok> ouo\\ moi nan `mpenjwk `n`Xrictianoc> efranak nem `ou`klhroc> nem nheq?u? throu `ntak.",
+      "Coptic": "Ce penNhb ]opten `erok> ouo\\ moi nan `mpenjwk `n`Xrictianoc> efranak nem `ou`klhroc> nem nheqouab throu `ntak.",
       "English": "Yes O our Master accept us to You: and grant us our Christian perfection: that pleases You and: an inheritance with all Your saints.",
       "Arabiccoptic": "سى بين نيب شوبتين إيروك, أووه موى نان إمبين جوك إن إخريستيانوس, إفراناك نيم أو إكليروس, نيم نى إثؤواب تيرو إنطاك.",
       "Englishcoptic": "Ce pennib shopten erok, owoh moi nan empen go ken Ekhristianos, efra nak nem o ekliros, nem ni Ethowab tiro entak."
@@ -326,7 +326,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "نعم يا سيدنا إقبلنا إليك، وأعط فرحاً لنفوسنا، من قبل تذكار إسمك، يا ربنا يسوع المسيح .",
-      "Coptic": "Ce penNhb ]opten `erok> ma `p`ounof `nnen`yuxh> \\iten `p`er`vmeu`i `mpekran> `w penoc? Ihc? Pxc?.",
+      "Coptic": "Ce penNhb ]opten `erok> ma `p`ounof `nnen`yuxh> \\iten `p`er`vmeu`i `mpekran> `w pensoic Ihcouc Pi`xrictoc.",
       "English": "Yes O our Master accept us to You: and grant us joy to our souls: through the remembrance of Your name: O our Lord Jesus Christ.",
       "Arabiccoptic": "سى بين نيب شوبتين إيروك, ما إبؤنوف إن نين إبسيشى, هيتين إب إير إفميفئ إم بيكران, أو بين شويس إيسوس بخريستوس.",
       "Englishcoptic": "Ce pennib shopten erok, ma ep ono fen nen epsishy, hiten ep er efmevi empekran, o penshois Isos Pikhristos."

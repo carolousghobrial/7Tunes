@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "ذكصولوجية الأنبا موسى",
   "EnglishTitle": "St.Moses Doxology ",
-  "CopticTitle": "Pi]orp `mmarturoc equ? ",
+  "CopticTitle": "Pi]orp `mmarturoc eqouab ",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الشهيد الأول القديس الذي كُملّ حسناٌ في جيل شيهات هو أبونا القديس أنبا موسي",
-      "Coptic": "Pi]orp `mmarturoc equ? > etaujwk `nkalwc > =en pitwou `nte }i\\ht > pe peniwt equ? Abba Mwch.",
+      "Coptic": "Pi]orp `mmarturoc eqouab > etaujwk `nkalwc > =en pitwou `nte }i\\ht > pe peniwt eqouab Abba Mwch.",
       "English": "The first holy martyr, who was well perfected, on the mountain of Shiheet, is our holy father Abba Moses.",
       "Arabiccoptic": "بي شورب إممارتيروس إثؤواب : إيطاف جوك إيفول إنكالوس : خين بي طوؤ إنتيه شيهيت : بيه بين يوت إثؤواب آفا موسي",
       "Englishcoptic": "Pishorp em-martyros Ethowab, etav gok evol enkalos, khen pito-o ente shiheet, pe peniot Ethowab ava Mousse."
@@ -43,7 +43,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ذهب بالروح إلي العلو إلي مواضع النياح التي أعدها الرب لمحبي اسمه القدوس",
-      "Coptic": "Af\\wl `e`psici =en pi Pna? > `e=oun `enefma `nemton > etafcebtwtou `nje P_ > `nnheqmei `mpefran Equ?.",
+      "Coptic": "Af\\wl `e`psici =en pi `Pneuma > `e=oun `enefma `nemton > etafcebtwtou `nje Psoic > `nnheqmei `mpefran eqouab.",
       "English": " He flew in the spirit to the heights, to His places of rest, which the Lord has prepared, for those who love His holy name.",
       "Arabiccoptic": "أفهول إيه إبتشيسيي خين بي إبنفما : إيخون إيه نيف ما إن إيمطون : إيطاف سيفتوتو إنجيه إبشويس : إن ني إثمي إمبيف ران إثؤواب",
       "Englishcoptic": "Afhol e-epitchisy khen pi Epnevma, ekhon enef-ma en emton, etav seftoto enje Epshois, enni ethmei empefran Ethowab"
@@ -54,7 +54,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وأبقـي لنـا جسده ومغارته المقدسة لتكمل فيها تذكاره المكرم",
-      "Coptic": "Afcwjp nan `mpefcwma > nem pef`cphleon Equ? > eqrenjwk `ebol `n=htf > `mpefer`vmeu`i ettaihout.",
+      "Coptic": "Afcwjp nan `mpefcwma > nem pef`cphleon eqouab > eqrenjwk `ebol `n=htf > `mpefer`vmeu`i ettaihout.",
       "English": "He left for us his holy body, and his holy cave, that we may complete in it, his honored memorial.",
       "Arabiccoptic": "أفسوجب نان إمبيف سوما : نيم بيف إسبي ليؤن إثؤواب: إثرين جوك إيفول إنخيتف : إمبيف إيـر إفميفئـي إيتطايوت",
       "Englishcoptic": "Afsogp nan empef soma, nem pef espelion Ethowab, ethren gok evol enkhitf, empef er evmev-e ettaiot."
@@ -76,7 +76,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ونفوز بالمواعيد المعده للقديسين الذين أرضوه منـذ البـدء لأجـل حبهـم فيه .",
-      "Coptic": "Ouo\\ `nten]a]ni `eniw] > etafcebtwtou `nnh Equ? > `etauranaf icjen `pene\\ > eqbe touagaph `e=oun `erof.",
+      "Coptic": "Ouo\\ `nten]a]ni `eniw] > etafcebtwtou `nnh eqouab > `etauranaf icjen `pene\\ > eqbe touagaph `e=oun `erof.",
       "English": "That we may win the promises, which He has prepared for the saints, who have pleased Him since the beginning, because of their love for Him.",
       "Arabiccoptic": "أووه إنتيـن شاشني إيني أوش: إيطاف سيفتوتـو إن نـي إثـؤواب : إيطاف راناف يسجـــيـن إب إينيه : إثفــــيه طو آغابى إيخـون إيروف .",
       "Englishcoptic": "owoh enten shashni eni-osh, etaf sevtoto enni Ethowab, etaf ranaf isjen ep eneh, ethve to aghapy ekhon erof."

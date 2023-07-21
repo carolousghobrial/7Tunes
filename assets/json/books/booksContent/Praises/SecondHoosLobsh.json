@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "فلنشكر المسيح. إلهنا. مع المرتل. داود النبى .",
-      "Coptic": "Marenouwn\\ `ebol > `mPxc? Pennou; > nem piieroyalthc > Dauid pi`provhthc .",
+      "Coptic": "Marenouwn\\ `ebol > `mPi`xrictoc Pennou; > nem piieroyalthc > Dauid pi`provhthc .",
       "English": "Let us give thanks: unto Christ our God: with David the Prophet: and the Psalmist.",
       "Arabiccoptic": "مارين أوؤنه إيفول. إم بخريستوس بين نوتى . نيم بى يروبسالتيس . دافيد بى إبروفيتيس.",
       "Englishcoptic": "Maren-oo-onh evol, empi-ekhres-tos pen-noti, nem pi-ierop-saltees, Daveed pi-epro-fetees."
@@ -98,7 +98,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "بصلوات. المرتل داود. يارب أنعم لنا. بمغفرة خطايانا .",
-      "Coptic": "|iten nieuxh > `nte piieroyalthc Dauid > P_ `ari`\\mot nan > `mpixw `ebol `nte nen nobi .",
+      "Coptic": "|iten nieuxh > `nte piieroyalthc Dauid > Psoic `ari`\\mot nan > `mpixw `ebol `nte nen nobi .",
       "English": "Through the prayers of David the holy Psalmist: O Lord, grant us: the forgiveness of our sins.",
       "Arabiccoptic": "هيتين نى إفشى. إنتى بى يروبسالتيس دافيد. إبشويس أرى إهموت نان. إمبى كو إيفول إنتى نين نوفى",
       "Englishcoptic": "Hiten ni-evshi, ente pi-ierop-saltees Daveed, Epshois ari-ehmot nan, empiko evol ente nennovi."
@@ -109,7 +109,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "بشفاعات والدة الإله. القديسة مريم . يارب أنعم لنا. بمغفرة خطايانا.",
-      "Coptic": "|iten ni`precbi`a > `nte ;qe`otokoc eq?u? Mari`a > P_ `ari`\\mot nan > `mpixw `ebol `nte nen nobi .",
+      "Coptic": "|iten ni`precbi`a > `nte ;qe`otokoc eqouab Mari`a > Psoic `ari`\\mot nan > `mpixw `ebol `nte nen nobi .",
       "English": "Through the intercessions: of the Mother of God Saint Mary: O Lord, grant us: the forgiveness of our sins.",
       "Arabiccoptic": "هيتين نى إبريسفيا . إنتى تى ثيؤطوكوس إثؤواب ماريا . إبشويس أرى إهموت نان. إمبى كو إيفول إنتى نين نوفى",
       "Englishcoptic": "Hiten ni-epres-via, ente ti-theotokos ethowab Maria, Epshois ari-ehmot nan, empiko evol ente nennovi."
@@ -120,7 +120,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "بشفاعات كل. صفوف الملائكة. يارب أنعم لنا. بمغفرة خطايانا.",
-      "Coptic": "|iten ni`precbi`a > `nte `pxoroc thrf `nte niaggeloc > P_ `ari`\\mot nan > `mpixw `ebol `nte nen nobi .",
+      "Coptic": "|iten ni`precbi`a > `nte `pxoroc thrf `nte niaggeloc > Psoic `ari`\\mot nan > `mpixw `ebol `nte nen nobi .",
       "English": "Through the intercessions : of the whole chorus of angels: O Lord, grant us: the forgiveness of our sins.",
       "Arabiccoptic": "هيتين نى إبريسفيا إنتى إبخوروس تيرف إنتى نى أنجيلوس. إبشويس أرى إهموت نان. إمبى كو إيفول إنتى نين نوفى ",
       "Englishcoptic": "Hiten ni-epres-via, ente epkhoros tirf ente ni-angelos, Epshois ari-ehmot nan, empikow evol ente nennovi."
@@ -131,7 +131,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مبارك أنت بالحقيقة. مع أبيك الصالح والروح القدس لأنك [*COME/RISEN*] وخلصتنا.",
-      "Coptic": "` K`cmarwout `alhqwc > nem Pekiwt `n`agaqoc > nem piPn/a/ eq?u? > je [*COME/RISEN*] akcw; `mmon .",
+      "Coptic": "` K`cmarwout `alhqwc > nem Pekiwt `n`agaqoc > nem piPn/a/ eqouab > je [*COME/RISEN*] akcw; `mmon .",
       "English": "Blessed are You indeed : with Your good Father : and the Holy Spirit : for You have [*COME/RISEN*] and saved us.",
       "Arabiccoptic": "إك إسماروؤت أليثوس. نيم بيك يوت إن أغاثوس. نيم بى إبنفما إثؤواب. جى [*COME/RISEN*] أكسوتى إممون .",
       "Englishcoptic": "Ek-esmaro-oot alithos, nem Pekiot en-agha-thos, nem pi-Epnevma ethowab, je [*COME/RISEN*] aksoti emmon."

@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "بي اناغنوستيس:",
+      "Englishcoptic": "Pi-Anaghnostis:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أعمال آبائنا الرسل بركتهم المقدسة تكون معنا آمين",
+      "Coptic": "`Pra[ic `nte nenio; `n`apoctoloc `ere pou `cmou `eqouab ]wpi neman `amhn.",
+      "English": "The Acts of our fathers the apostles  may their holy blessings be with us all, Amen.",
+      "Arabiccoptic": " إبراكسيس إنتى نين يوتى إن أبوسطولوس. إيرى بو إسمو إثؤواب شوبى نيمان آمين.",
+      "Englishcoptic": "Epraxees ente nenioty en-apostolos erepoesmo ethowab : shopee neman amin."
+    }
+  ]
+}

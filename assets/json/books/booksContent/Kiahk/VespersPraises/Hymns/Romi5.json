@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "التفسير الرومي الخامس",
   "EnglishTitle": "The Fifth Greek Explanation ",
-  "CopticTitle": "Ic |eppe P_ vh`etaf]an] ",
+  "CopticTitle": "Ic |eppe Psoic vh`etaf]an] ",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ها هوذا الرب الذى أعال . أبائك فى البرية. وأنقذهم من ذئاب . المجرب الخاطفة .",
-      "Coptic": "Ic |eppe P_ vh`etaf]an] > `nneio; =en pi`drumoc > afna\\mou `ebol \\a niouwn] > et\\wlem `nte pidokimoc.",
+      "Coptic": "Ic |eppe Psoic vh`etaf]an] > `nneio; =en pi`drumoc > afna\\mou `ebol \\a niouwn] > et\\wlem `nte pidokimoc.",
       "English": "Today we glorify, because of you O intercessor, when we remembered your name, praising you with accord.",
       "Arabiccoptic": "يس هيببى إبشويس فى إيطاف شانش . إن نى يوتى خين بى إذريموس . أفناهمو إيفول هانى أوأونش . إتهوليم إنتى بى ذوكيموس .",
       "Englishcoptic": "Ic heppe Epshois vi etav shansh, en ne ioty khen pi ezrimos, afnahmo evol hani o-onsh, etholem ente pi zokimos."
@@ -76,7 +76,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "نمجدك أيتها المباركة . إلى النفس الأخير . لأنك وجدت نعمة . عند إلهنا إبن الله .",
-      "Coptic": "Ten;`wou ne `w qhet`cmamat > ]a pinifi `nte leut`eoc > je `arejimi `nou`\\mot > =aten Pennou; Uc? Qc? .",
+      "Coptic": "Ten;`wou ne `w qhet`cmamat > ]a pinifi `nte leut`eoc > je `arejimi `nou`\\mot > =aten Pennou; Uioc Qeoc .",
       "English": "We glorify you O blessed one, until the last breath saying, \"You have found favor before, your God the Son of God.\"",
       "Arabiccoptic": "تين تى أوأونى أوثى إيت إسمامات . شابى نيفى إنتى ليف تيؤس . جى أرى جيمى إن أو إهموت . خاتين بين نوتى إيوس ثيؤس .",
       "Englishcoptic": "Tenti o-o ne othi et esmamat, shapi nifi ente levteos, je arejimi en o ehmot, khaten pen nouty Ious theos."

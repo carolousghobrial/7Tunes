@@ -592,12 +592,13 @@ export function isInFast() {
 export function plantsSeason(currentDate) {
   // ignore time and use date only
   var todayDate = moment(currentDate);
-  var airStart = moment([new Date().getFullYear(), 1, 19]);
-  var waterStart = moment([new Date().getFullYear(), 6, 19]);
-  var plantsStart = moment([new Date().getFullYear(), 10, 19]);
-  if (today.isBetween(airStart, waterStart)) {
+  var airStart = moment([new Date().getFullYear(), 0, 19]);
+  var waterStart = moment([new Date().getFullYear(), 5, 19]);
+  var plantsStart = moment([new Date().getFullYear(), 9, 19]);
+
+  if (todayDate.isBetween(airStart, waterStart)) {
     return "air";
-  } else if (today.isBetween(waterStart, plantsStart)) {
+  } else if (todayDate.isBetween(waterStart, plantsStart)) {
     return "waters";
   } else {
     return "plants";
@@ -847,13 +848,3 @@ var CopticDateComparator = function (
   }
   return false;
 };
-// default getCopticDate;
-//module.exports.getCopticDate = getCopticDate;
-
-// module.exports.getResurrectionDate = getResurrectionDate;
-// module.exports.getDateString = getDateString;
-// module.exports.getNumericDateString = getNumericDateString;
-// module.exports.CopticDateComparator = CopticDateComparator;
-//module.exports.getCopticFastsFeasts = getCopticFastsFeasts;
-//module.exports.isInFast = isInFast;
-// module.exports.FastFeastNames = FastFeastNames;

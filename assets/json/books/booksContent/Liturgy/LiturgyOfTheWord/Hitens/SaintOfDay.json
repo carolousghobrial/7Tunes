@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلواتِ قديسي هذا اليومِ، كل واحدٍ باسمِه، ياربُّ ...",
+      "Coptic": "|iten nieuxh `nte nheqouab `nte pai`e\\oou piouai piouai kata pefran> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the prayers of the saints of this day, each one according to his name, O Lord ....",
+      "Arabiccoptic": "هيتين ني إفكي إنتي ني إثؤواب إنتي باي إبهوؤوبي أوواي بي أوواي كاطا بيفران إبشويس.",
+      "Englishcoptic": "Hiten nievshee ente neeethoooav ente pai-ehoooo pioooai pioooai kata pefran: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

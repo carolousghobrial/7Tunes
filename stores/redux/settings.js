@@ -23,6 +23,10 @@ const settingsSlice = createSlice({
     timeTransition: new Date().setHours(18, 0, 0),
     pagination: false,
     isTablet: false,
+    isBishopHere: false,
+    BishopIsPresent: false,
+    ismorethan3BishopPresent: false,
+    BishopsPresent: [],
     currentSeason: {
       key: "STANDARD",
       week: moment().week(),
@@ -51,7 +55,6 @@ const settingsSlice = createSlice({
         "Pope and Patriarch and Archbishop of the Great City of Alexandria",
       Rank: "Pope",
     },
-    isBishopPresent: false,
   },
   reducers: {
     setTimeTransition: (state, action) => {
@@ -68,10 +71,30 @@ const settingsSlice = createSlice({
         isTablet: isTablet,
       };
     },
-    setisBishopPresent: (state, action) => {
+    changeBishopPresent: (state, action) => {
       return {
         ...state,
-        isBishopPresent: !state.isBishopPresent,
+        BishopIsPresent: !state.BishopIsPresent,
+      };
+    },
+    changeisBishopHere: (state, action) => {
+      return {
+        ...state,
+        isBishopHere: !state.isBishopHere,
+      };
+    },
+    changeismorethan3BishopPresent: (state, action) => {
+      return {
+        ...state,
+        ismorethan3BishopPresent: !state.ismorethan3BishopPresent,
+      };
+    },
+    updateBishopsPresent: (state, action) => {
+      const myBishopsPresent = action.payload.BishopsPresent;
+
+      return {
+        ...state,
+        BishopsPresent: myBishopsPresent,
       };
     },
     changeLanguage: (state, action) => {
@@ -211,6 +234,10 @@ export const setItemPurchased = settingsSlice.actions.setItemPurchased;
 export const changePagination = settingsSlice.actions.changePagination;
 export const setIsTablet = settingsSlice.actions.setIsTablet;
 export const setdioceseBishop = settingsSlice.actions.setdioceseBishop;
-export const setisBishopPresent = settingsSlice.actions.setisBishopPresent;
+export const updateBishopsPresent = settingsSlice.actions.updateBishopsPresent;
+export const changeBishopPresent = settingsSlice.actions.changeBishopPresent;
+export const changeisBishopHere = settingsSlice.actions.changeisBishopHere;
+export const changeismorethan3BishopPresent =
+  settingsSlice.actions.changeismorethan3BishopPresent;
 
 export default settingsSlice.reducer;

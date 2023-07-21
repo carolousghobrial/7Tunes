@@ -40,7 +40,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "حينئذ سبح موسى وبنو إسرائيل بهذه التسبحة للرب وقالوا، \"فلنسبح للرب لأنه بالمجد قد تمجد.\"",
-      "Coptic": "Tote af\\wc `nje Mw`uchc nem nen]hri `mPc/l/ `etai \\wdh `nte P_ ouo\\ afjoc eqroujoc > je maren\\wc `eP_ > je =en ou`wou gar afsi`wou .",
+      "Coptic": "Tote af\\wc `nje Mw`uchc nem nen]hri `mPc/l/ `etai \\wdh `nte Psoic ouo\\ afjoc eqroujoc > je maren\\wc `eP_ > je =en ou`wou gar afsi`wou .",
       "English": "Then Moses and the children of Israel sang this song to the Lord, and spoke saying, \"Let us sing to the Lord for He has triumphed gloriously.\"",
       "Arabiccoptic": "توتى أفهوس إنجى مويسيس نيم نين شيرى إمبسرائيل إطاى هوذى إنتى إبشويس أووه أفجوس إثرو جوس جى مارين هوس إإبشويس جى خين أوأوأو غار أفتشى أوأو.",
       "Englishcoptic": "Tote afhos enje Moisis, nem nen-shiri empis-rael e-tai hozi ente Epshois owoh afgous, ethro-gous je marenhos, e-Epshois, je khen ou-o-oo ghar afit-shi-o-ou."
@@ -73,7 +73,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "الرب مكسر الحروب، الرب إسمه. مركبات فرعون وكل قوته طرحهما في البحر.",
-      "Coptic": "P_ pet=om=em `nnibwtc > P_ pe pefran > nibereswoutc `nte Vara`w nem tefjom thrc afberbwrou `e`viom .",
+      "Coptic": "Psoic pet=om=em `nnibwtc > Psoic pe pefran > nibereswoutc `nte Vara`w nem tefjom thrc afberbwrou `e`viom .",
       "English": "The Lord is a man of war, the Lord is His name. Pharaoh's chariots and his army He has cast into the sea.",
       "Arabiccoptic": "إبشويس بيت خومخيم إن نى فوتس إبشويس بى بيفران . نيفيريتش أوأوتس إنتى فاراؤ نيم تيف جوم تيرس أف فيرفورو إإفيوم .",
       "Englishcoptic": "Epshois pet-khom-khem enni-vots Epshois, pe pefran nive-retsho-ots ente phara-ow nem tefgom tirs, af-vervow-rou e-efyuom."
@@ -106,7 +106,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يمينك يا رب تمجدت بالقوة. يدك اليمنى يا إلهي أهلكت أعداءك.",
-      "Coptic": "Tekou`inam P_ acsi`wou =en oujom > tekjij `nou`inam Panou; actake nekjaji .",
+      "Coptic": "Tekou`inam Psoic acsi`wou =en oujom > tekjij `nou`inam Panou; actake nekjaji .",
       "English": "Your right hand. O Lord, has become glorious in power. Your right hand, O Lord, has dashed the enemy in pieces.",
       "Arabiccoptic": "تيك أوى نام إبشويس أستشى أوأو خين اوجوم تيك جيج إن أوى نام بانوتى أستاكى نيك جاجى .",
       "Englishcoptic": "Tekowi-nam Epshois, asitshi-ow-ou, khen ou-gom, tek jig en-owi-nam pannouti astake nek-gaji."
@@ -128,7 +128,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وبروح غضبك وقف الماء، وإرتفعت الماء مثل السور، وجمدت الأمواج في وسط البحر.",
-      "Coptic": "`Ebol \\iten pipn?a? `nte pek`mbon af`o\\i `eratf `nje pimwou > afsici `nje nimwou `m`vrh; `noucobt > afswc `nje nijol =en `qmh; `m`viom .",
+      "Coptic": "`Ebol \\iten pi`pneuma `nte pek`mbon af`o\\i `eratf `nje pimwou > afsici `nje nimwou `m`vrh; `noucobt > afswc `nje nijol =en `qmh; `m`viom .",
       "English": "And with the blast of Your nostrils the waters were gathered together, the flood stood upright like a heap, and the depths congealed in the heart of the sea",
       "Arabiccoptic": "إيفول هيتين بى إبنفما إنتى بيك إمفون أفؤهى إيراطف إنجى بيموأو أفتشيسى إنجى نيموأو إمفريتى إن أوسوبت أفتشوس إنجى نى جول خين إثميتى إم إفيوم .",
       "Englishcoptic": "Evol hiten pi-Epnevma ente pek-emvon af-ohi eratf enje pi-mowou, avitshisi enje nimowou, emifriti enou-sovt, avetshows enje nigol, khen ethmiti emifyom."
@@ -150,7 +150,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أرسلت روحك، فغطاهم البحر، وغطسوا إلى أسفل كالرصاص في مياه كثيرة.",
-      "Coptic": "Akouwrp `mpekpn?a? > af\\obcou `nje `viom > auwmc `epecht `m`vrh; `noutat\\ =en \\anmwou euo] .",
+      "Coptic": "Akouwrp `mpek`pneuma > af\\obcou `nje `viom > auwmc `epecht `m`vrh; `noutat\\ =en \\anmwou euo] .",
       "English": "You blew with Your wind, the sea covered them, they sank like lead in the mighty waters.",
       "Arabiccoptic": "أكؤورب إمبيك إبنفما أفهوبسو إنجى إفيوم أف أومس إيبيسيت إمفريتى إن أوطاطه خين هان موأو إف أوش .",
       "Englishcoptic": "Ak-ou-owrp empek-Epnevma afhob-sou enje efyom, av-oms epesit, emifriti, en-otatah khen han-mo-ou ev-oush."
@@ -161,7 +161,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "من يشبهك في الآلهة. يا رب من يشبهك، مُمجداً في قديسيك، متعجباً منك بالمجد، صانعاً عجائب.",
-      "Coptic": "Nim et`oni `mmok =en ninou; P_ > nim et`oni `mmok > `eau;`wou nak =en nheq?u? `ntak > euer`]vhri `mmok =en ou`wou ek`iri `n\\an`]vhri .",
+      "Coptic": "Nim et`oni `mmok =en ninou; Psoic > nim et`oni `mmok > `eau;`wou nak =en nheqouab `ntak > euer`]vhri `mmok =en ou`wou ek`iri `n\\an`]vhri .",
       "English": "Who is like You, O Lord, among the gods? Who is like You, glorified in His saints, amazing in glory,performing wonders.",
       "Arabiccoptic": "نيم إتؤنى إمموك خين ن نوتى إبشويس نيم إتؤنى إمموك إأفتى أوأو ناك خين           نى إثؤواب إنتاك إفئير إشفيرى إمموك خين أوأوأو إكئيرى إنهان إشفيرى .",
       "Englishcoptic": "Nim et-oni emmok khen nennouti Epshois, nim et-ouni emmok, e-avati-ow-ou nak, khen ni-ethowab entak ev-er eshfiri emmok khen ou-ow-ou ek-eiri, enhanesh-firi."
@@ -216,7 +216,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "بكثرة ساعدك فليصيروا كالحجر، حتى يجتاز شعبك يا رب، حتى يجتاز شعبك هذا الذي إقتنيته.",
-      "Coptic": "+en `p`a]ai `nte pek`jvoi marouer`wni > ]atefcini `nje peklaoc P_ ]atefcini `nje peklaoc vai `etak`jvof.",
+      "Coptic": "+en `p`a]ai `nte pek`jvoi marouer`wni > ]atefcini `nje peklaoc Psoic ]atefcini `nje peklaoc vai `etak`jvof.",
       "English": "By the greatness of Your arm. they will be as still as a stone, till Your people pass over, O Lord, till Your people pass over whom You have purchased.",
       "Arabiccoptic": "خين إب أشاى إنتى بيك إجفوى مارو إيرأونى شاتيف سينى إنجى بيك لاؤس إبشويس شاتيف سينى إنجى بيك لاؤس فاى إيطاك إجفوف.",
       "Englishcoptic": "Khen ep-ash-ai ente pek-eg-foi, marou-erowni shatef-sini enje pek-laos Epshois, shatef-cini enje pek-laos, fai etak-egfof."
@@ -227,7 +227,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أدخلهم وأغرسهم على جبل ميراثك، وفي مسكنك المُعَد، هذا الذي صنعته يا رب.",
-      "Coptic": "Anitou `e=oun tojou \\ijen outwou `nte tek`klhronomi`a > nem `e=oun `epekma`n]wpi etcebtwt > vai `etaker\\wb `erof P_ .",
+      "Coptic": "Anitou `e=oun tojou \\ijen outwou `nte tek`klhronomi`a > nem `e=oun `epekma`n]wpi etcebtwt > vai `etaker\\wb `erof Psoic .",
       "English": "You will bring them in, and plant them in the mountain of Your inheritance, in the place, O Lord, which You have made for Your own dwelling.",
       "Arabiccoptic": "أنيتو إيخون توجو هيجين أوتو أو إنتى تيك إكليرونوميا نيم إيخون إبيك ما إنشوبى إتسيف توت فاى إيطاك إيرهوب إيروف إبشويس .",
       "Englishcoptic": "Anitou e-khon, togou hijen outow-ou ente tek-ekli-ronomeia, nem ekhoun epekma-enshowpi etcev-towt, fai etak-erhowb erof Epshois."
@@ -238,7 +238,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "موضعك المقدس يا رب الذي أعددته يداك، يا رب تمَلُك منذ الأزل والآن وإلى الأبد.",
-      "Coptic": "Pekma eq?u? P_ vh`etaucebtwtf `nje nekjij > P_ ekoi `nouro ]a `ene\\ nem icjen `p`ene\\ ouo\\ `eti .",
+      "Coptic": "Pekma eqouab Psoic vh`etaucebtwtf `nje nekjij > Psoic ekoi `nouro ]a `ene\\ nem icjen `p`ene\\ ouo\\ `eti .",
       "English": "Your sanctuary, O Lord, which Your hands have established the Lord shall reign forever and ever.",
       "Arabiccoptic": "بيكما إثؤواب إبشويس فيئطاف سيفطوطف إنجى          نيك جيج إبشويس إكؤى إنؤرو شا إينيه نيم يسجين إب إيتيه أووه إيتى.",
       "Englishcoptic": "Pekma ethowab Epshois, fi-etav-cev-towtf enje nek-jig, Epshois ekoi en-owro sha eneh nem yesjen ep-eneh owoh eti."
@@ -260,7 +260,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "والرب غمرهم بماء البحر، أما بنو إسرائيل فكانوا يمشون على اليابسة في وسط البحر.",
-      "Coptic": "` A P_ en pimwou `nte `viom `e`\\rhi `ejwou > nen]hri de `mPic/l/ naumo]i =en pet]ou`wou =en `qmh; `m`viom .",
+      "Coptic": "` A Psoic en pimwou `nte `viom `e`\\rhi `ejwou > nen]hri de `mPic/l/ naumo]i =en pet]ou`wou =en `qmh; `m`viom .",
       "English": "And the Lord brought back the waters of the sea on them, but the children of Israel went on dry land in the midst of the sea",
       "Arabiccoptic": "أإبشويس إن بيموأو  إنتى إفيوم إإهرى إيجوأو نين شيرى ذى إمبسرائيل نافموشى خين بيت شوؤ أو  خين إثميتى إمفيوم .",
       "Englishcoptic": "A-Epshois en pi-mow-ou, ente efyom e-ehri, egow-ou, nenshiri ze empis-rael, navmoshi khen pet-shou-ow-ou, khen ethmiti emifyom."

@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "الصبية العذراء الحكيمة المختارة البارة عروس المسيح القديسة دميانه.",
+      "Coptic": ":alou `ncabh `mparqenoc > ;cwtp `nkuria `mmhi > ;]elet `nte Pi`xrictoc > ;agia Dumianh.",
+      "English": "The wise celibate child, the chosen and true lady, the Bride of Christ, Saint Demiana.",
+      "Arabiccoptic": "تـى آلو إنـسافى إم بارثينـوس : تى سوتب إنكيريـا إممـى : تـى شـيليت إنتيه بخرسـتوس : تى آجيا دميانى ",
+      "Englishcoptic": "Tialooo ensavee emparthenos : tisootp enkeeria emmeei : tishelet ente Pikhristos : tiagia Deemianee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "هذه التى امتلأت من الحكمة منذ صباها فأبغضت العالميات وأحبت البتولية.",
+      "Coptic": "Qai icjen tecmetalou > acme\\ `ebol =en ;covia > acmoc; `nnikocmikon > acmenre `n;parqenia.",
+      "English": "+ This is she who was filled with wisdom, from her childhood, she hated the earthly, and she loved virginity.",
+      "Arabiccoptic": "ثـاى يسجسن تيسميت آلو: أسميه إيـفـول خين تى صوفـيا : أسموستى إن نى كوسميكون : أسمينريه إن تى بارثينيا",
+      "Englishcoptic": "Thai isjen tesmetalooo : asmeh -evol khen tisovia : asmosti ennikosmikon : asmenre entiparthenia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "صارت رئيسة وميناء للخلاص وأما للأربعين عذراء فى القصر الذى بناه لها أبوها.",
+      "Coptic": " Ac]wpi `n;arxh > `nlumhn `nte pioujai > `qmau `nm? `mparqenoc > =en pipurgoc eta peciwt kotf.",
+      "English": "She became the head, and a harbor of salvation, the mother of forty virgins, in the tower which her father built.",
+      "Arabiccoptic": "أسشوبى إن تى أرشى : إنليمين إنتيه بى أوجاى : إثماف إن إهميه إم بارثينوس: خين بى بيرغوس إيطا بيس يوت كوتف .",
+      "Englishcoptic": "Asshoopi entiarshee : enleemeen ente piooogai : ethmav enm? emparthenos : khen pipeerghos eta pesioot kotf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "ولما كفر بالمسيح ردته ابنته دميانه التى أحبته فنال الشهادة.",
+      "Coptic": "Afjwl `ebol `mPi`xrictoc > actacqo `mmof `nje tef]eri > etacmenre `mmof `nje Dumi`anh > afsi `n;metmarturia.",
+      "English": "+ When he denied Christ, his loving daughter Demiana, restored his faith, and he received martyrdom.",
+      "Arabiccoptic": "أفجول إيفول إم بخرستوس : أسطاستو إمموف إنجيه تيف شيرى : إيطاس مينريه إمموف إنجيه دميانى : آفتشى إن تى ميت مارتيريا .",
+      "Englishcoptic": "Afgool -evol emPikhristos : astasto emmof enje tefsheri : etasmenre emmof enje Deemi-anee : afchi entimetmarteeria."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "من أجل هذا أرسل الملك أمره بتعذيبها فقبلت آلامات عدة ونالت الشهادة.",
+      "Coptic": "Eqbe vai afouwrp `nje `pouro > afoua\\ca\\ni =en nec=ici > ac]ep `mka\\ `noumh] `ncop > acsi `n;metmarturia.",
+      "English": "Because of this the king had sent for her, and ordered her to be tortured, she endured repeated sufferings, and received martyrdom.",
+      "Arabiccoptic": "إثـفـيه فاى أفؤورب إنجيه إبؤورو : أف أو آهصاهنى خين نيس خيسى : أستـشيب إمكاه إنؤميش إنسوب : أستـشى إن تى مـيت مارتـيريا",
+      "Englishcoptic": "Ethve vai afooooorp enje epoooro : afoooahsahni khen neskhisi : asshep emkah enooomeesh ensop : aschi entimetmarteeria."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "والأربعون عذراء الذين كانوا معها فى القصر نالوا الشهادة معها فى يوم واحد.",
+      "Coptic": "Pi m? eqouab `mparqenoc > `enau]wpi nemac =en pipurgoc > ausi `n;metmarturia > =en pi`e\\oou `nouwt nemac.",
+      "English": "+ The forty holy virgins, who were with her in the tower, received martyr-dom, all in one day with her.",
+      "Arabiccoptic": "بى إهميه إثؤواب إم بارثـينوس : إيناف شوبى نيماس خين بى بيرغوس : آقتشى إن تى ميت مارتيريا : خين بى إيهوؤ إنؤوت نيماس",
+      "Englishcoptic": "Pi m? ethee? emparthenos : -enavshoopi nemas khen pipeerghos : avchi entimetmarteeria : khen pi-ehoooo enooooot nemas."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "طوباك يادميانه عروس الختن الراهبة البتول المختارة الشهيدة الحقيقية.",
+      "Coptic": "Wonnia; `nqo Dumi`anh > ;]elet `nte pinumvioc > ;monaxh `mparthenoc > ;cwtp `mmhi `mmarturoc.",
+      "English": "Blessed are you O Demiana, the bride of Circumcision, the celibate nun, the chosen and true martyr.",
+      "Arabiccoptic": "أوأوونياتى إنـثـو دمـيـانى : تى شيليت إنتيـه بى نيمفيوس : تى موناكى إم بارثينوس : تى سوتب إممى إم مارتيروس",
+      "Englishcoptic": "Ooonniati entho Deemi-anee : tishelet ente pineemvios : timonashee emparteeenos : tisootp emmeei emmarteeros."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "أطلبى من الرب عنا ياعروس المسيح القديسة دميانه ليغفر...",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > `w;]elet `nte Pi`xrictoc > ;agia Dumi`anh  > `ntef xa nennobi nan `ebol.",
+      "English": "+ Pray to the Lord on our behalf, O bride of Christ, Saint Demiana, that He may forgive us our sins.",
+      "Arabiccoptic": "طوبه إمبشويس إإهرى إيجون . أو تى شيليت إنتيـه بخرستوس : تى آجيا دميانى  . انتيف كانين نوفى نان ايفول",
+      "Englishcoptic": "Toobh emPois -eehreei -egoon : -ootishelet ente Pikhristos : tiagia Deemi-anee  : entef kha nennovi nan -evol."
+    }
+  ]
+}

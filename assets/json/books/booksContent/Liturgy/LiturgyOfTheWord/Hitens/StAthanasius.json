@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلوات أبينا القديس البطريــرك الأنبا أثناسيـــوس الرسولي . يا رب .  .  .  .  .  . ",
+      "Coptic": "|iten ni`euxh `nte peniwt eqouab  `mpatriarxhc abba Aqanacioc piapoctolikoc >  Psoic.  .  .",
+      "English": "Through the prayers of our holy father the patriarch, Abba Athanasius the Apostolic , O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": " هيتين ني إفشي انتي بين يوت إثؤواب إم بطريارشيس آفا أثناسيوس بي أبوسطوليكوس .  إبتشويس .  .  .  .  .  . ",
+      "Englishcoptic": "Hiten ni-evshee ente penioot ethoooav  empatriarshees abva Athanasios piapostolikos :  Pchois.  .  ."
+    }
+  ]
+}

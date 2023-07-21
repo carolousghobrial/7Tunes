@@ -292,6 +292,39 @@
     {
       "Type": "Base",
       "Rule": 0,
+      "Visible": "ISOneMetropolitain",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*METROPOLITAIN_PRESENT*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`mmhtropolithc Abba [*METROPOLITAIN_PRESENT*].",
+      "English": "And his partner in the liturgy, our father the metropolitan, Abba [*METROPOLITAIN_PRESENT*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إن ميتروبوليتيس  افا  [*METROPOLITAIN_PRESENT*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos peniot en-emmetro-politis Avva [*METROPOLITAIN_PRESENT*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISTwoMetropolitain",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*METROPOLITAIN_PRESENT2*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`mmhtropolithc Abba [*METROPOLITAIN_PRESENT2*].",
+      "English": "And his partner in the liturgy, our father the metropolitan, Abba [*METROPOLITAIN_PRESENT2*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إن ميتروبوليتيس  افا  [*METROPOLITAIN_PRESENT2*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos peniot en-emmetro-politis Avva [*METROPOLITAIN_PRESENT2*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeMetropolitain",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*METROPOLITAIN_PRESENT3*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`mmhtropolithc Abba [*METROPOLITAIN_PRESENT3*].",
+      "English": "And his partner in the liturgy, our father the metropolitan, Abba [*METROPOLITAIN_PRESENT3*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إن ميتروبوليتيس  افا  [*METROPOLITAIN_PRESENT3*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos peniot en-emmetro-politis Avva [*METROPOLITAIN_PRESENT3*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
       "Visible": "ISDioceseBishop",
       "Side": "North",
       "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف أنبا [*DIOCESE_BISHOP*].",
@@ -303,13 +336,35 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "IsDiocesePope",
+      "Visible": "ISOneBishop",
       "Side": "North",
-      "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف (المطران) أنبا (...).",
-      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`epickopoc (`mmhtropolithc) Abba (...).",
-      "English": "And his partner in the liturgy, our father the bishop (metropolitan), Abba ....",
-      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت اثؤواب افا  .  .  .  .",
-      "Englishcoptic": "Nem pef-keshvir enli-torghos peniot en-episkopos(emmetro-politis) Avva (..)"
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*BISHOP_PRESENT*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`mmhtropolithc Abba [*BISHOP_PRESENT*].",
+      "English": "And his partner in the liturgy, our father the metropolitan, Abba [*BISHOP_PRESENT*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إن ميتروبوليتيس  افا  [*BISHOP_PRESENT*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos peniot en-emmetro-politis Avva [*BISHOP_PRESENT*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISTwoBishop",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*BISHOP_PRESENT2*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`mmhtropolithc Abba [*BISHOP_PRESENT2*].",
+      "English": "And his partner in the liturgy, our father the metropolitan, Abba [*BISHOP_PRESENT2*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إن ميتروبوليتيس  افا  [*BISHOP_PRESENT2*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos peniot en-emmetro-politis Avva [*BISHOP_PRESENT2*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeBishop",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*BISHOP_PRESENT3*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`mmhtropolithc Abba [*BISHOP_PRESENT3*].",
+      "English": "And his partner in the liturgy, our father the metropolitan, Abba [*BISHOP_PRESENT3*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إن ميتروبوليتيس  افا  [*BISHOP_PRESENT3*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos peniot en-emmetro-politis Avva [*BISHOP_PRESENT3*]"
     },
     {
       "Type": "Base",

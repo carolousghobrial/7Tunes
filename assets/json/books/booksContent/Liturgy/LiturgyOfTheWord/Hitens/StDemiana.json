@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلوات عروس المسيح القديسة دميانة يا رب...",
+      "Coptic": "|iten ni`euxh `nte ;i]elet `nte Pixrictoc ;`agi`a `mmhi Dumianh > `Psoic..",
+      "English": "Through the prayers of the bride of Christ, the righeous Saint Demiana , O Lord ...",
+      "Arabiccoptic": "هيتين نى افكي انتى تي شيليت إنتى بي اخرستوس تى أجيا إممى دميانى  إبشويس.",
+      "Englishcoptic": "Hiten ni-evshee ente tiishelet ente Pikhristos ti-agi-a emmeei Deemianee : ePchois.."
+    }
+  ]
+}

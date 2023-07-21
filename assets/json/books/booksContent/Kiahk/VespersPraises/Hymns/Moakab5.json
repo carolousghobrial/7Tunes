@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "التفسير المعقب الخامس",
   "EnglishTitle": "The Fifth Moaqap Explanation ",
-  "CopticTitle": "Eqbe pekran P_ `mpekjwnt ",
+  "CopticTitle": "Eqbe pekran Psoic `mpekjwnt ",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": " من أجل إسمك يارب . لاتغضب إلى الأبد على خليقتك. لكن برحمتك أنظر . بعين رأفتك .",
-      "Coptic": "Eqbe pekran P_ `mpekjwnt > ]a`ene\\ `ejen pekcwnt > alla kata peknai jou]t > =en `vbal `nnekmet]en\\ht .",
+      "Coptic": "Eqbe pekran Psoic `mpekjwnt > ]a`ene\\ `ejen pekcwnt > alla kata peknai jou]t > =en `vbal `nnekmet]en\\ht .",
       "English": "For the sake of Your name Lord do not be angry, with Your people forever, but look down according to Your mercy, with Your merciful eyes.",
       "Arabiccoptic": " إثفى بيكران إبشويس إمبير جونت . شاإينيه إيجين بيك سونت . اللا كاطا بيك ناى جوشت . خين إف فال إن نيك ميت شينهيت .",
       "Englishcoptic": "Ethve pekran Epshois empergont, sha eneh ejen peksont, alla kata peknai gosht, khene v val ennekmet shenheet."
@@ -54,7 +54,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": " أشرق لنا منها, الذى إبتدأ فخلق . البرية كلها . الذى هو يسوع المسيح.",
-      "Coptic": "Af]ai nan `ebol `n=htc > `nje vh`etafer\\htc > afqami`o `n;`kthcic thrc > `ete `nqof pe Ihc? Pxc? .",
+      "Coptic": "Af]ai nan `ebol `n=htc > `nje vh`etafer\\htc > afqami`o `n;`kthcic thrc > `ete `nqof pe Ihcouc Pi`xrictoc .",
       "English": "Shone over us, He who has begun, He created all creation, this is Jesus Christ.",
       "Arabiccoptic": " أفشاى نان إيفول إنخيتس, إنجى فى إيطاف إيرهيتس. أفثاميو إنتى إكتيسيس تيرس. إيتى إنثوف بى إيسوس بخريستوس .",
       "Englishcoptic": "Afshai nan evol enkheets, enje vi etaf erhets, afthamio enti ektisis tirs, ete enthof pe Isos Pikhristos."
@@ -65,7 +65,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "الذى هو يسوع المسيح, شمس البر الحقيقية. الذى أشرق المؤمنين. من بطن العذراء.",
-      "Coptic": "`Ete `ete `nqof pe Ihc? Pxc? > pirh `nte ;meqmhi `alhqwc > `etaf]ai `nnipictoc > `ebol =en `qneji `n;parqenoc .",
+      "Coptic": "`Ete `ete `nqof pe Ihcouc Pi`xrictoc > pirh `nte ;meqmhi `alhqwc > `etaf]ai `nnipictoc > `ebol =en `qneji `n;parqenoc .",
       "English": "This is Jesus Christ, the true Sun of the righteousness, who has shone upon the faithful, from the womb of the Virgin.",
       "Arabiccoptic": "إيتى إنثوف بى إيسوس بخريستوس, بيرى إنتى تى ميثمى أليثوس. إيطاف شاى إن نى بيستوس. إيفول خين إثنيجى إنتى بارثينوس.",
       "Englishcoptic": "Ete enthof pe Isos Pikhristos, piry ente ti methmei alithos, etaf shai en nipistos, evol khen ethneji enti Parthenos."
@@ -87,7 +87,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "نمجدك أيتها الأمينة. الحاملة كلمة الآب . قائلين إفرحى يا ممتلئة نعمة . الرب معك .",
-      "Coptic": "Ten;`wou ne `w qh`eten\\ot > etfai =a pilogoc `nte `Viwt > je xere qheqme\\ `n`\\mot > ouo\\ P_ ]wp neme .",
+      "Coptic": "Ten;`wou ne `w qh`eten\\ot > etfai =a pilogoc `nte `Viwt > je xere qheqme\\ `n`\\mot > ouo\\ Psoic ]wp neme .",
       "English": "We glorify you O faithful one, who carried the Word of the Father, \"Hail to you O full of grace, the Lord is with you.\"",
       "Arabiccoptic": "تين تى أوأونى أوثى إتين هوت. إتفاى خا بي لوغوس إنتى إفيوت. جى شيرى ثى إثميه إن إهموت. أووه إبشويس شوب نيمى .",
       "Englishcoptic": "Tenti o-o ne wthi etenhot, etfai khapi loghos ente Efiot, je shere thi ethmeh en ehmot, Ouwoh epshois shop neme"

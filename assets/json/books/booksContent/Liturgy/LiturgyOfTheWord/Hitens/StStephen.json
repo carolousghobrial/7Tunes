@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلوات رئيس الشمامسة المبارك اسطفانوس أول الشهداء. يا رب أنعم ...",
+      "Coptic": "|iten nieuxh `nte pi`arxidiakwn `et`cmarowut> ~Ctevanoc pi]orp `mmarturoc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the prayers, of the blessed archdeacon, Stephen the first martyr, O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين ني إفكي إنتي بي آرشي ذياكون إتزماروؤت إستيفانوس بي شورب إممارتيروس إبشويس.",
+      "Englishcoptic": "Hiten nievshee ente pi-arshiziakoon -etesmaroooeet: ~Stevanos pishorp emmarteeros: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

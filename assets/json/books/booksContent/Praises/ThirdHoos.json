@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "الهوس الثالث",
   "EnglishTitle": "The Third Hoos",
-  "CopticTitle": "K`cmarwout P_ Vnou;",
+  "CopticTitle": "K`cmarwout Psoic Vnou;",
   "Hymn": [
     {
       "Type": "Ritual",
@@ -40,7 +40,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مبارك أنت أيها الرب إله أبائنا ومتزايد بركة ومتزايد علوا إلى الأبد.",
-      "Coptic": "K`cmarwout P_ Vnou; `nte nenio; > `ker\\ou`o `cmarwout `ker\\ou`o sici ]a ni`ene\\.",
+      "Coptic": "K`cmarwout Psoic Vnou; `nte nenio; > `ker\\ou`o `cmarwout `ker\\ou`o sici ]a ni`ene\\.",
       "English": "Blessed are You, O Lord, God of our fathers and exceedingly to be blessed, and exalted above all forever.",
       "Arabiccoptic": "إكزماروؤت إبشويس إفنوتى إنتى نين يوتى. إكئيرهوؤ إسماروؤت إكئيرهوؤ تشيسى شانى إينيه.",
       "Englishcoptic": "Ek-esmaro-ot Epshois Efnuoti ente nenyoti, ek-erho-ou esmaro-oot, ek-erho-ou chisi sha ni-eneh."
@@ -106,7 +106,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "باركى الرب ياجميع أعمال الرب سبحيه وزيديه علوا إلى الأبد.",
-      "Coptic": "` Cmou `eP_/ ni`\\bhou`i thro `nte P_ > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
+      "Coptic": "` Cmou `eP_/ ni`\\bhou`i thro `nte Psoic > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
       "English": "Bless the Lord, all you works of the Lord: praise Him and exalt Him above all forever.",
       "Arabiccoptic": "إسمو إإبشويس نى إهفيؤوى تيرو إنتى إبشويس. هوس إيروف أرى هوأو تشاسف شانى إينيه.",
       "Englishcoptic": "Esmo Epshois, ni-ehvi-owi tiro ente Epshois, hos erof ari-ho-oo chasf sha ni-eneh."
@@ -128,7 +128,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "باركوا الرب ياجميع ملائكة الرب سبحوه وزيدوه علوا إلى الأبد.",
-      "Coptic": "` Cmou `eP_/ niaggeloc throu `nte P_ > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
+      "Coptic": "` Cmou `eP_/ niaggeloc throu `nte Psoic > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
       "English": "Bless the Lord, all you angels of the Lord: praise Him and exalt Him above all forever.",
       "Arabiccoptic": "إسمو إإبشويس ني أنجيلوس تيرو إنتى إبشويس هوس إيروف أرى هوأو تشاسف شانى إينيه.",
       "Englishcoptic": "Esmo Epshois, ni-angelos tiro ente Epshois, hos erof ari-ho-oo chasf sha ni-eneh."
@@ -150,7 +150,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "باركى الرب ياجميع قوات الرب سبحيه وزيديه علوا إلى الأبد.",
-      "Coptic": "`Cmou `eP_/ nijom throu `nte P_ > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
+      "Coptic": "`Cmou `eP_/ nijom throu `nte Psoic > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
       "English": "Bless the Lord, all you powers of the Lord: praise Him and exalt Him above all forever.",
       "Arabiccoptic": "إسمو إإبشويس نيجوم تيرو إنتى إبشويس. هوس إيروف أرى هوأو تشاسف شانى إينيه.",
       "Englishcoptic": "Esmo Epshois, nigom tiro ente Epshois, hos erof ari-ho-oo chasf sha ni-eneh."
@@ -414,7 +414,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "باركوا الرب يا كهنة الرب سبحوه وزيدوه علوا إلى الأبد.",
-      "Coptic": "`Cmou `eP_ niouhb `nte P_ > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
+      "Coptic": "`Cmou `eP_ niouhb `nte Psoic > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
       "English": "Bless the Lord, O you priests of the Lord: praise Him and exalt Him above all forever.",
       "Arabiccoptic": "إسمو إإبشويس ني أويب إنتى إبشويس هوس إيروف أرى هوأو تشاسف شانى إينيه.",
       "Englishcoptic": "Esmo Epshois, ni-oweep ente Epshois, hos erof ari-ho-oo chasf sha ni-eneh."
@@ -425,7 +425,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "باركوا الرب ياعبيد الرب سبحوه وزيدوه علوا إلى الأبد.",
-      "Coptic": "`Cmou `eP_ ni`ebiaik `nte P_ > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
+      "Coptic": "`Cmou `eP_ ni`ebiaik `nte Psoic > \\wc `erof `ari\\ou`o sacf ]a ni`ene\\.",
       "English": "Bless the Lord, O you servants of the Lord: praise Him and exalt Him above all forever",
       "Arabiccoptic": "إسمو إإبشويس ني إفى أيك إنتى إبشويس هوس إيروف أرى هوأو تشاسف شانى إينيه.",
       "Englishcoptic": "Esmo Epshois, ni-eivi-ike ente Epshois, hos erof ari-ho-oo chasf sha ni-eneh."

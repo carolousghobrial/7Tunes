@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلواتِ المجاهدِ الشهيدِ القديس السيد ابانوب، ياربُّ ...",
+      "Coptic": "|iten nieuxh `nte pi`aqlovoroc `mmarturoc pasoic `pouro Gewrgioc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the prayers of the victorious martyr, my lord the prince George, O Lord ....",
+      "Arabiccoptic": "هيتين ني إفكي إنتي بينيوت اثؤواب ان باطريارشيس اففا كيرلس بيماه سوأو إبشويس.",
+      "Englishcoptic": "Hiten nievshee ente pi-athlovoros emmarteeros pachois epoooro Geoorgios: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

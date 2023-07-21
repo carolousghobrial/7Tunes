@@ -11,50 +11,42 @@ import {
   REPLACEPOPE,
   REPLACANTIOCHEPOPE,
   REPLACEDIOCESEBISHOP,
+  REPLACEMETROPOLITAINAVAILABLE,
+  REPLACEMETROPOLITAINAVAILABLETWO,
+  REPLACEMETROPOLITAINAVAILABLETHREE,
+  REPLACEBISHOPAVAILABLE,
+  REPLACEBISHOPAVAILABLETWO,
+  REPLACEBISHOPAVAILABLETHREE,
 } from "../helpers/replacingRules";
 import homescreenPaths from "../helpers/homescreenPaths";
 
-export function getFullViewModel(
-  motherSource,
-  mother,
-  isMoreThan3BishopPresent,
-  bishopsPresent
-) {
+export function getFullViewModel(motherSource, mother) {
   let arabicttl = "";
   let copticttl = "";
   let englishttl = "";
-  var ViewArray = [];
-  var MenuArray = [];
-  var key = 0;
-  var homeItems = homescreenPaths[motherSource];
-  homeItems.Main.map((item) => {
+  const ViewArray = [];
+  const MenuArray = [];
+  let key = 0;
+  const homeItems = homescreenPaths[motherSource];
+
+  homeItems.Main.forEach((item) => {
     if (item.type === "Title") {
       arabicttl = item.Arabic;
       copticttl = item.Coptic;
       englishttl = item.English;
     } else {
-      var temppath = "";
-      var tempMother = "";
+      let temppath = item.SAINT !== undefined ? item.SAINT : item.Path;
+      let tempMother = mother !== undefined ? mother : motherSource;
 
-      if (item.SAINT !== undefined) {
-        temppath = item.SAINT;
-        tempMother = item.Path;
-      } else {
-        temppath = item.Path;
-        if (mother !== undefined) {
-          tempMother = mother;
-        } else {
-          tempMother = motherSource;
-        }
-      }
-      if (
+      const isVisible =
         item.Visible === true ||
         mother === "index" ||
-        VisibleRules[item.Visible](tempMother, temppath)
-      ) {
+        VisibleRules[item.Visible](tempMother, temppath);
+
+      if (isVisible) {
         switch (item.Type) {
           case "Main":
-            //Get View
+          case "Default":
             const [tempView, tempMenu, mykey] = getMain(
               item.Path,
               motherSource,
@@ -63,13 +55,14 @@ export function getFullViewModel(
               key
             );
             key = mykey;
-
-            ViewArray = ViewArray.concat(tempView);
-            MenuArray = MenuArray.concat(tempMenu);
+            ViewArray.push(...tempView);
+            MenuArray.push(...tempMenu);
             break;
-          case "Button":
+
+          default:
             MenuArray.push({
               EnglishTitle: item.English,
+              CopticTitle: item.Coptic,
               ArabicTitle: item.Arabic,
               key: key,
             });
@@ -81,52 +74,6 @@ export function getFullViewModel(
               ArabicTitle: arabicttl,
             });
             key++;
-            break;
-          case "Ritual":
-            ViewArray.push({
-              part: item,
-              key: key,
-              EnglishTitle: item.english,
-              CopticTitle: item.coptic,
-              ArabicTitle: item.arabic,
-            });
-            key++;
-
-            break;
-          case "MainTitle":
-            MenuArray.push({
-              EnglishTitle: item.English,
-              CopticTitle: item.Coptic,
-              ArabicTitle: item.Arabic,
-              key: key,
-            });
-            ViewArray.push({
-              part: item,
-              key: key,
-              EnglishTitle: item.English,
-              CopticTitle: item.Coptic,
-              ArabicTitle: item.Arabic,
-            });
-            key++;
-
-            break;
-          default:
-            //Get View
-            MenuArray.push({
-              EnglishTitle: item.English,
-              CopticTitle: item.Coptic,
-              ArabicTitle: item.Arabic,
-              key: key,
-            });
-            ViewArray.push({
-              part: item,
-              key: key,
-              EnglishTitle: item.English,
-              CopticTitle: item.Coptic,
-              ArabicTitle: item.Arabic,
-            });
-            key++;
-
             break;
         }
       }
@@ -150,105 +97,75 @@ export function getFullViewModel(
 
   return [ViewArray, MenuArray];
 }
+
 export function getMain(Path, motherSource, inHymn, rule, key) {
-  var thisRule = rule;
-  let myMenuArray = [];
-  let myViewArray = [];
-  let book = bookPaths[Path];
-  let arabicttl = book.ArabicTitle;
-  let copticttl = book.CopticTitle;
-  let englishttl = book.EnglishTitle;
-  if (!inHymn) {
-    if (englishttl !== undefined) {
-      myMenuArray.push({
-        EnglishTitle: englishttl,
-        CopticTitle: copticttl,
-        ArabicTitle: arabicttl,
-        key: key,
-      });
-      myViewArray.push({
-        EnglishTitle: englishttl,
-        CopticTitle: copticttl,
-        ArabicTitle: arabicttl,
-        part: {
-          Type: "Title",
-          rule: -1,
-          visible: 0,
-          Side: "Title",
-          Arabic: arabicttl,
-          Coptic: copticttl,
-          English: englishttl,
-        },
-        key: key,
-      });
+  const thisRule = rule;
+  const myMenuArray = [];
+  const myViewArray = [];
+  const book = bookPaths[Path];
+  const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
 
-      key++;
-    }
+  if (!inHymn && EnglishTitle !== undefined) {
+    const menuEntry = {
+      EnglishTitle,
+      CopticTitle,
+      ArabicTitle,
+      key,
+    };
+
+    myMenuArray.push(menuEntry);
+    myViewArray.push({
+      EnglishTitle,
+      CopticTitle,
+      ArabicTitle,
+      part: {
+        Type: "Title",
+        rule: -1,
+        visible: 0,
+        Side: "Title",
+        Arabic: ArabicTitle,
+        Coptic: CopticTitle,
+        English: EnglishTitle,
+      },
+      key,
+    });
+
+    key++;
   }
-  var hymn = book.Hymn;
-  hymn.forEach((part) => {
-    var temppath = "";
-    if (
-      part.SAINT !== undefined &&
-      !motherSource.toLowerCase().includes("index")
-    ) {
-      temppath = part.SAINT;
-    } else {
-      temppath = part.Path;
-    }
 
-    try {
-      if (
-        part.Visible === true ||
-        motherSource.toLowerCase().includes("index")
-      ) {
-        if (part.Type === "Main") {
-          const [tempView, tempMenu, mykey] = getMain(
-            part.Path,
-            motherSource,
-            true,
-            thisRule,
-            key
-          );
-          key = mykey;
-          myViewArray = myViewArray.concat(tempView);
-        } else {
-          var addPart = addItemsToArray(part, thisRule);
-          myViewArray.push({
-            part: addPart,
-            key: key,
-            EnglishTitle: englishttl,
-            CopticTitle: copticttl,
-            ArabicTitle: arabicttl,
-          });
-          key++;
-        }
-      } else if (VisibleRules[part.Visible](motherSource, temppath)) {
-        if (part.Type === "Main") {
-          const [tempView, tempMenu, mykey] = getMain(
-            part.Path,
-            motherSource,
-            true,
-            thisRule,
-            key
-          );
-          key = mykey;
-          myViewArray = myViewArray.concat(tempView);
-        } else {
-          var addPart = addItemsToArray(part, thisRule);
-          myViewArray.push({
-            part: addPart,
-            key: key,
-            EnglishTitle: englishttl,
-            CopticTitle: copticttl,
-            ArabicTitle: arabicttl,
-          });
-          key++;
-        }
-      }
-    } catch (error) {
-      // console.log(part);
-      // console.warn(error);
+  Hymn.forEach((part) => {
+    const temppath =
+      part.SAINT !== undefined && !motherSource.toLowerCase().includes("index")
+        ? part.SAINT
+        : part.Path;
+
+    const isVisible =
+      part.Visible === true ||
+      motherSource.toLowerCase().includes("index") ||
+      VisibleRules[part.Visible](motherSource, temppath);
+
+    if (!isVisible) return;
+
+    if (part.Type === "Main") {
+      const [tempView, , mykey] = getMain(
+        part.Path,
+        motherSource,
+        true,
+        thisRule,
+        key
+      );
+      key = mykey;
+      myViewArray.push(...tempView);
+    } else {
+      const addPart = addItemsToArray(part, thisRule);
+      myViewArray.push({
+        part: addPart,
+        key,
+        EnglishTitle,
+        CopticTitle,
+        ArabicTitle,
+      });
+      key++;
     }
   });
 
@@ -256,444 +173,201 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
 }
 
 export function addItemsToArray(part, thisRule) {
-  var newPart = {};
-  var replacingWord = "";
-  var myrule = {};
+  let newPart = { ...part }; // Clone the 'part' object to avoid side effects
+  const keywords = [
+    "[*COME/RISEN*]",
+    "[*ROICONCLUSION*]",
+    "*GOSPEL_AUTHOR*]",
+    "[*PROPHECIES_AUTHOR*]",
+    "[*HOMILY_FATHER*]",
+    "[*POPE*]",
+    "[*ANTIOCH_POPE*]",
+    "[*DIOCESE_BISHOP*]",
+    "[*METROPOLITAIN_PRESENT*]",
+  ]; // Default replacing word
+  let myrule = {};
 
   if (thisRule !== 0 && thisRule != undefined) {
+    // Check for specific cases and apply the corresponding rule
     if (part.Type === "Base") {
-      if (part.English.includes("[*COME/RISEN*]")) {
-        var replacingWord = "[*COME/RISEN*]";
-        var myrule = ComeRisenRule();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          Arabiccoptic: part.Arabiccoptic.replace(
-            replacingWord,
-            myrule.arabiccoptic
-          ),
-          Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-          English: part.English.replace(replacingWord, myrule.english),
-          Englishcoptic: part.Englishcoptic.replace(
-            replacingWord,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*ROICONCLUSION*]")) {
-        var replacingWord = "[*ROICONCLUSION*]";
-        var myrule = ROICONCLUSION();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          Arabiccoptic: part.Arabiccoptic.replace(
-            replacingWord,
-            myrule.arabiccoptic
-          ),
-          Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-          English: part.English.replace(replacingWord, myrule.english),
-          Englishcoptic: part.Englishcoptic.replace(
-            replacingWord,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*GOSPEL_AUTHOR*]")) {
-        var replacingWord = "[*GOSPEL_AUTHOR*]";
-        var myrule = REPLACEGOSPELAUTHOR(thisRule);
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          Arabiccoptic: part.Arabiccoptic.replace(
-            replacingWord,
-            myrule.arabiccoptic
-          ),
-          Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-          English: part.English.replace(replacingWord, myrule.english),
-          Englishcoptic: part.Englishcoptic.replace(
-            replacingWord,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*PROPHECIES_AUTHOR*]")) {
-        var replacingWord = "[*PROPHECIES_AUTHOR*]";
-        var myrule = REPLACEPROPHETS(thisRule);
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          Arabiccoptic: part.Arabiccoptic.replace(
-            replacingWord,
-            myrule.arabiccoptic
-          ),
-          Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-          English: part.English.replace(replacingWord, myrule.english),
-          Englishcoptic: part.Englishcoptic.replace(
-            replacingWord,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*HOMILY_FATHER*]")) {
-        var replacingWord = "[*HOMILY_FATHER*]";
-        var myrule = REPLACEHOMILYFATHERS(thisRule);
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          Arabiccoptic: part.Arabiccoptic.replace(
-            replacingWord,
-            myrule.arabiccoptic
-          ),
-          Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-          English: part.English.replace(replacingWord, myrule.english),
-          Englishcoptic: part.Englishcoptic.replace(
-            replacingWord,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*POPE*]")) {
-        var replacingWord = "[*POPE*]";
-        var myrule = REPLACEPOPE();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          Arabiccoptic: part.Arabiccoptic.replace(
-            replacingWord,
-            myrule.arabiccoptic
-          ),
-          Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-          English: part.English.replace(replacingWord, myrule.english),
-          Englishcoptic: part.Englishcoptic.replace(
-            replacingWord,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*ANTIOCH_POPE*]")) {
-        var replacingWord = "[*ANTIOCH_POPE*]";
-        var myrule = REPLACANTIOCHEPOPE();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          Arabiccoptic: part.Arabiccoptic.replace(
-            replacingWord,
-            myrule.arabiccoptic
-          ),
-          Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-          English: part.English.replace(replacingWord, myrule.english),
-          Englishcoptic: part.Englishcoptic.replace(
-            replacingWord,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*DIOCESE_BISHOP*]")) {
-        var replacingWord = "[*DIOCESE_BISHOP*]";
-        var myrule = REPLACEDIOCESEBISHOP();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          Arabiccoptic: part.Arabiccoptic.replace(
-            replacingWord,
-            myrule.arabiccoptic
-          ),
-          Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-          English: part.English.replace(replacingWord, myrule.english),
-          Englishcoptic: part.Englishcoptic.replace(
-            replacingWord,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else {
-        newPart = part;
+      const foundKeyword = findMatchingSubstring(part.English, keywords);
+
+      switch (foundKeyword) {
+        case "[*COME/RISEN*]":
+          myrule = ComeRisenRule();
+          break;
+        case "[*ROICONCLUSION*]":
+          myrule = ROICONCLUSION();
+          break;
+        case "[*GOSPEL_AUTHOR*]":
+          myrule = REPLACEGOSPELAUTHOR(thisRule);
+          break;
+        case "[*PROPHECIES_AUTHOR*]":
+          myrule = REPLACEPROPHETS(thisRule);
+          break;
+        case "[*HOMILY_FATHER*]":
+          myrule = REPLACEHOMILYFATHERS(thisRule);
+          break;
+        case "[*POPE*]":
+          myrule = REPLACEPOPE();
+          break;
+        case "[*ANTIOCH_POPE*]":
+          myrule = REPLACANTIOCHEPOPE();
+          break;
+        case "[*DIOCESE_BISHOP*]":
+          myrule = REPLACEDIOCESEBISHOP();
+          break;
+        case "[*METROPOLITAIN_PRESENT*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLE();
+          break;
+        default:
+          break;
       }
+
+      // Apply the rule to the 'newPart' object properties
+      newPart = {
+        ...newPart,
+        Arabic: newPart.Arabic.replace(foundKeyword, myrule.arabic),
+        Arabiccoptic: newPart.Arabiccoptic.replace(
+          foundKeyword,
+          myrule.arabiccoptic
+        ),
+        Coptic: newPart.Coptic.replace(foundKeyword, myrule.coptic),
+        English: newPart.English.replace(foundKeyword, myrule.english),
+        Englishcoptic: newPart.Englishcoptic.replace(
+          foundKeyword,
+          myrule.englishcoptic
+        ),
+        Rule: thisRule,
+      };
     } else if (part.Type === "Melody") {
-      if (part.English.includes("[*COME/RISEN*]")) {
-        var replacingWord = "[*COME/RISEN*]";
-        var myrule = ComeRisenRule();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          English: part.English.replace(replacingWord, myrule.english),
-
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*ROICONCLUSION*]")) {
-        var replacingWord = "[*ROICONCLUSION*]";
-        var myrule = ROICONCLUSION();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          English: part.English.replace(replacingWord, myrule.english),
-
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*GOSPEL_AUTHOR*]")) {
-        var replacingWord = "[*GOSPEL_AUTHOR*]";
-        var myrule = REPLACEGOSPELAUTHOR(thisRule);
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          English: part.English.replace(replacingWord, myrule.english),
-
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*PASCHA_HOUR_DAY*]")) {
-        var replacingWord = "[*PASCHA_HOUR_DAY*]";
-        var myrule = REPLACPASCHAHOURDAY(thisRule);
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          English: part.English.replace(replacingWord, myrule.english),
-
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*PROPHECIES_AUTHOR*]")) {
-        var replacingWord = "[*PROPHECIES_AUTHOR*]";
-        var myrule = REPLACEPROPHETS(thisRule);
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          English: part.English.replace(replacingWord, myrule.english),
-
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*POPE*]")) {
-        var replacingWord = "[*POPE*]";
-        var myrule = REPLACEPOPE();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-
-          English: part.English.replace(replacingWord, myrule.english),
-
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*DIOCESE_BISHOP*]")) {
-        var replacingWord = "[*DIOCESE_BISHOP*]";
-        var myrule = REPLACEDIOCESEBISHOP();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-
-          English: part.English.replace(replacingWord, myrule.english),
-
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else {
-        newPart = part;
+      const foundKeyword = findMatchingSubstring(part.English, keywords);
+      switch (foundKeyword) {
+        case "[*COME/RISEN*]":
+          myrule = ComeRisenRule();
+          break;
+        case "[*ROICONCLUSION*]":
+          myrule = ROICONCLUSION();
+          break;
+        case "[*GOSPEL_AUTHOR*]":
+          myrule = REPLACEGOSPELAUTHOR(thisRule);
+          break;
+        case "[*PASCHA_HOUR_DAY*]":
+          myrule = REPLACPASCHAHOURDAY(thisRule);
+          break;
+        case "[*PROPHECIES_AUTHOR*]":
+          myrule = REPLACEPROPHETS(thisRule);
+          break;
+        case "[*POPE*]":
+          myrule = REPLACEPOPE();
+          break;
+        case "[*DIOCESE_BISHOP*]":
+          myrule = REPLACEDIOCESEBISHOP();
+          break;
+        default:
+          break;
       }
+
+      // Apply the rule to the 'newPart' object properties
+      newPart = {
+        ...newPart,
+        Arabic: newPart.Arabic.replace(foundKeyword, myrule.arabic),
+        English: newPart.English.replace(foundKeyword, myrule.english),
+        Rule: thisRule,
+      };
     }
   } else {
+    // Check for specific cases and apply the corresponding rule
     if (part.Type === "Base") {
-      if (part.English.includes("[*COME/RISEN*]")) {
-        replacingWord = "[*COME/RISEN*]";
-        myrule = ComeRisenRule();
-        if (part.Type === "Base") {
-          newPart = {
-            Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-            Arabiccoptic: part.Arabiccoptic.replace(
-              replacingWord,
-              myrule.arabiccoptic
-            ),
-            Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-            English: part.English.replace(replacingWord, myrule.english),
-            Englishcoptic: part.Englishcoptic.replace(
-              replacingWord,
-              myrule.englishcoptic
-            ),
-            Rule: thisRule,
-            Side: part.Side,
-            Type: part.Type,
-            Visible: part.Visible,
-          };
-        } else {
-          newPart = {
-            Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-            English: part.English.replace(replacingWord, myrule.english),
+      const foundKeyword = findMatchingSubstring(part.English, keywords);
 
-            Rule: thisRule,
-            Side: part.Side,
-            Type: part.Type,
-            Visible: part.Visible,
-          };
-        }
-      } else if (part.English.includes("[*ROICONCLUSION*]")) {
-        replacingWord = "[*ROICONCLUSION*]";
-        myrule = ROICONCLUSION();
-        if (part.Type === "Base") {
-          newPart = {
-            Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-            Arabiccoptic: part.Arabiccoptic.replace(
-              replacingWord,
-              myrule.arabiccoptic
-            ),
-            Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-            English: part.English.replace(replacingWord, myrule.english),
-            Englishcoptic: part.Englishcoptic.replace(
-              replacingWord,
-              myrule.englishcoptic
-            ),
-            Rule: thisRule,
-            Side: part.Side,
-            Type: part.Type,
-            Visible: part.Visible,
-          };
-        } else {
-          newPart = {
-            Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-            English: part.English.replace(replacingWord, myrule.english),
-
-            Rule: thisRule,
-            Side: part.Side,
-            Type: part.Type,
-            Visible: part.Visible,
-          };
-        }
-      } else if (part.English.includes("[*POPE*]")) {
-        var replacingWord = "[*POPE*]";
-        var myrule = REPLACEPOPE();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          Arabiccoptic: part.Arabiccoptic.replace(
-            replacingWord,
-            myrule.arabiccoptic
-          ),
-          Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-          English: part.English.replace(replacingWord, myrule.english),
-          Englishcoptic: part.Englishcoptic.replace(
-            replacingWord,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*ANTIOCH_POPE*]")) {
-        var replacingWord = "[*ANTIOCH_POPE*]";
-        var myrule = REPLACANTIOCHEPOPE();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          Arabiccoptic: part.Arabiccoptic.replace(
-            replacingWord,
-            myrule.arabiccoptic
-          ),
-          Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-          English: part.English.replace(replacingWord, myrule.english),
-          Englishcoptic: part.Englishcoptic.replace(
-            replacingWord,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*DIOCESE_BISHOP*]")) {
-        var replacingWord = "[*DIOCESE_BISHOP*]";
-
-        var myrule = REPLACEDIOCESEBISHOP();
-
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-          Arabiccoptic: part.Arabiccoptic.replace(
-            replacingWord,
-            myrule.arabiccoptic
-          ),
-          Coptic: part.Coptic.replace(replacingWord, myrule.coptic),
-          English: part.English.replace(replacingWord, myrule.english),
-          Englishcoptic: part.Englishcoptic.replace(
-            replacingWord,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else {
-        newPart = part;
+      switch (foundKeyword) {
+        case "[*COME/RISEN*]":
+          myrule = ComeRisenRule();
+          break;
+        case "[*ROICONCLUSION*]":
+          myrule = ROICONCLUSION();
+          break;
+        case "[*POPE*]":
+          myrule = REPLACEPOPE();
+          break;
+        case "[*ANTIOCH_POPE*]":
+          myrule = REPLACANTIOCHEPOPE();
+          break;
+        case "[*DIOCESE_BISHOP*]":
+          myrule = REPLACEDIOCESEBISHOP();
+          break;
+        case "[*METROPOLITAIN_PRESENT*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLE();
+          break;
+        case "[*METROPOLITAIN_PRESENT2*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLETWO();
+          break;
+        case "[*METROPOLITAIN_PRESENT3*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLETHREE();
+          break;
+        case "[*BISHOP_PRESENT*]":
+          myrule = REPLACEBISHOPAVAILABLE();
+          break;
+        case "[*BISHOP_PRESENT2*]":
+          myrule = REPLACEBISHOPAVAILABLETWO();
+          break;
+        case "[*BISHOP_PRESENT3*]":
+          myrule = REPLACEBISHOPAVAILABLETHREE();
+          break;
+        default:
+          break;
       }
+
+      // Apply the rule to the 'newPart' object properties
+      newPart = {
+        ...newPart,
+        Arabic: newPart.Arabic.replace(foundKeyword, myrule.arabic),
+        Arabiccoptic: newPart.Arabiccoptic.replace(
+          foundKeyword,
+          myrule.arabiccoptic
+        ),
+        Coptic: newPart.Coptic.replace(foundKeyword, myrule.coptic),
+        English: newPart.English.replace(foundKeyword, myrule.english),
+        Englishcoptic: newPart.Englishcoptic.replace(
+          foundKeyword,
+          myrule.englishcoptic
+        ),
+        Rule: thisRule,
+      };
     } else if (part.Type === "Melody") {
-      if (part.English.includes("[*POPE*]")) {
-        var replacingWord = "[*POPE*]";
-        var myrule = REPLACEPOPE();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
+      const foundKeyword = findMatchingSubstring(part.English, keywords);
 
-          English: part.English.replace(replacingWord, myrule.english),
-
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*ANTIOCH_POPE*]")) {
-        var replacingWord = "[*ANTIOCH_POPE*]";
-        var myrule = REPLACANTIOCHEPOPE();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-
-          English: part.English.replace(replacingWord, myrule.english),
-
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else if (part.English.includes("[*DIOCESE_BISHOP*]")) {
-        var replacingWord = "[*DIOCESE_BISHOP*]";
-        var myrule = REPLACEDIOCESEBISHOP();
-        newPart = {
-          Arabic: part.Arabic.replace(replacingWord, myrule.arabic),
-
-          English: part.English.replace(replacingWord, myrule.english),
-
-          Rule: thisRule,
-          Side: part.Side,
-          Type: part.Type,
-          Visible: part.Visible,
-        };
-      } else {
-        newPart = part;
+      switch (foundKeyword) {
+        case "[*POPE*]":
+          myrule = REPLACEPOPE();
+          break;
+        case "[*ANTIOCH_POPE*]":
+          myrule = REPLACANTIOCHEPOPE();
+          break;
+        case "[*DIOCESE_BISHOP*]":
+          myrule = REPLACEDIOCESEBISHOP();
+          break;
+        default:
+          break;
       }
-    } else {
-      newPart = part;
+
+      // Apply the rule to the 'newPart' object properties
+      newPart = {
+        ...newPart,
+        Arabic: newPart.Arabic.replace(foundKeyword, myrule.arabic),
+        English: newPart.English.replace(foundKeyword, myrule.english),
+        Rule: thisRule,
+      };
     }
   }
 
   return newPart;
+}
+
+function findMatchingSubstring(str, substringsArray) {
+  const foundSubstring = substringsArray.find((substring) =>
+    str.includes(substring)
+  );
+  return foundSubstring ? foundSubstring : null;
 }

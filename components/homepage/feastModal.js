@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   Modal,
   View,
@@ -10,21 +10,12 @@ import {
   TouchableWithoutFeedback,
   useWindowDimensions,
 } from "react-native";
-import AppTheme from "../settings/appTheme";
-import FontSize from "../settings/fontSize";
-import VisibleLangs from "../settings/visibleLangs";
-import TodaysPrayer from "../settings/todaysPrayer";
+import PropTypes from "prop-types";
 import images from "../../helpers/imageHelpers";
 
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers.js";
+import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers.js";
 
 function FeastModal({ visible, feast, closeModal, setFeast }) {
-  let labelColor = getColor("LabelColor");
-
   const { width, height } = useWindowDimensions();
   let viewheight = "50%";
   let viewwidth = "100%";
@@ -40,6 +31,10 @@ function FeastModal({ visible, feast, closeModal, setFeast }) {
     viewheight = "100%";
     viewwidth = "50%";
   }
+
+  const { key, start, end } = feast;
+  let labelColor = getColor("LabelColor");
+
   return (
     <Modal
       animationType="slide"
@@ -54,7 +49,7 @@ function FeastModal({ visible, feast, closeModal, setFeast }) {
         "landscape-right",
       ]}
     >
-      <Pressable onPress={closeModal} style={[styles.container]}>
+      <Pressable onPress={closeModal} style={styles.container}>
         <TouchableWithoutFeedback>
           <View
             style={{
@@ -71,15 +66,15 @@ function FeastModal({ visible, feast, closeModal, setFeast }) {
                 { borderColor: labelColor },
               ]}
             >
-              <Image style={styles.image} source={images[feast.key]} />
+              <Image style={styles.image} source={images[key]} />
             </View>
             <Text style={[styles.text, { color: labelColor }]}>
-              {getLanguageValue(feast.key)}
+              {getLanguageValue(key)}
             </Text>
             <Text style={[styles.text, { color: labelColor }]}>
-              {feast.start.format("MMM Do YYYY")}
-              {feast.end !== null ? "-" : null}
-              {feast.end !== null ? feast.end.format("MMM Do YYYY") : null}
+              {start.format("MMM Do YYYY")}
+              {end !== null ? "-" : null}
+              {end !== null ? end.format("MMM Do YYYY") : null}
             </Text>
             <View style={{ flexDirection: "row" }}>
               <Pressable
@@ -92,7 +87,7 @@ function FeastModal({ visible, feast, closeModal, setFeast }) {
               <Pressable
                 android_ripple={{ color: getColor("pageBackgroundColor") }}
                 style={[styles.button, { borderColor: labelColor }]}
-                onPress={setFeast.bind(this, feast.key)}
+                onPress={() => setFeast(key)}
               >
                 <Text style={[styles.text, { color: labelColor }]}>Set</Text>
               </Pressable>
@@ -143,5 +138,16 @@ const styles = StyleSheet.create({
     borderWidth: 5,
   },
 });
+
+FeastModal.propTypes = {
+  visible: PropTypes.bool.isRequired,
+  feast: PropTypes.shape({
+    key: PropTypes.string.isRequired,
+    start: PropTypes.object.isRequired,
+    end: PropTypes.object,
+  }).isRequired,
+  closeModal: PropTypes.func.isRequired,
+  setFeast: PropTypes.func.isRequired,
+};
 
 export default FeastModal;

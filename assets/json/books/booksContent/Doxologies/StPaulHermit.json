@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "ذكصولوجية الأنبا بولا",
   "EnglishTitle": "St.Paul the Hermit Doxology ",
-  "CopticTitle": "Peniwt equ? Abba Paule ",
+  "CopticTitle": "Peniwt eqouab Abba Paule ",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أبونا القديس الأنبا بولاَ صار أولاٌ في البرية وتنسّك بغير انقطاع نهاراٌ وليلاٌ",
-      "Coptic": "Peniwt equ? Abba Paule > af]wpi `n\\ouit \\i `p]afe > aferackin =en oumetaqmounk > `mpi`e\\oou nem pi `ejwr\\.",
+      "Coptic": "Peniwt eqouab Abba Paule > af]wpi `n\\ouit \\i `p]afe > aferackin =en oumetaqmounk > `mpi`e\\oou nem pi `ejwr\\.",
       "English": "Our holy father Abba Paul, was the first in the wilderness, he unceasingly disciplined himself, by day and by night.",
       "Arabiccoptic": "بيــن يـــوت إثؤواب آفا بافـلى : أفـشوبـى إنهويت هـى إبشافيــــه : أف إيرأسكين خين أو ميت أتمونك : إمبى إيـهوؤ نيم بى إيـجوره",
       "Englishcoptic": "Peniot Ethowab ava Pavly, afshopi en ho-oit hi epshave, av-er askin khen o met athmonk, empi eho-o nem pi egorh."
@@ -21,7 +21,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "و جاهد في ميدان العبادة ونال جائزة الغلبة بقوة المسيح",
-      "Coptic": "Afsoji =en pi`ctadion > `nte ;meteucebhc > afsi `mpibai `nte pisro > \\iten `tjom `nte Pxc?.",
+      "Coptic": "Afsoji =en pi`ctadion > `nte ;meteucebhc > afsi `mpibai `nte pisro > \\iten `tjom `nte Pi`xrictoc.",
       "English": " He fought in the stadium, of piety and he received, the gift of victory, through the strength of Christ.",
       "Arabiccoptic": "أفتشوجى خين بـيستـاذيون إنتيه تى ميت إفـسيفيس : أفتـشى إمبى فاى إنتيه بى إتـشرو : هيتين إتجوم إنتيه بخرستوس",
       "Englishcoptic": "Av echogi khen pi estazion, ente ti met ev cevees, afechi empi vai ente pichro, hiten etgom ente Pikhristos."
@@ -32,7 +32,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "صارخاٌ قائلاٌ مثل بولس الحكيم أمام أبينا البار العظيم القديس أنطونيوس",
-      "Coptic": "Efw] `ebol efjw `mmoc > `m`vrh; `mpicovoc Pauloc > `mpe`mqo `mpeniwt pi`qmhi > pini]; equ? Antwnioc.",
+      "Coptic": "Efw] `ebol efjw `mmoc > `m`vrh; `mpicovoc Pauloc > `mpe`mqo `mpeniwt pi`qmhi > pini]; eqouab Antwnioc.",
       "English": "Proclaiming and saying, like the wise Paul, before our righteous father, the great Saint Antony.",
       "Arabiccoptic": "إفؤش إيفــــــول إفجو إمموس : إم إفريتى إم بى سوفـوس بافلوس : إمبيه إمثو إم بين يوت بى إثمى : بى نيشتى إثؤواب أنطونيوس",
       "Englishcoptic": "Ef osh evol efgo emmos, em efreety empi sovos Pavlos, empe emtho em peniwt pi ethmei, pinishty ethowab Antonious."
@@ -54,7 +54,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وأيضاٌ وُضع لي إكليـل البر هذا الذي يـعـطيه لي الرب في ذلك اليوم",
-      "Coptic": "Palin `fxh nhi `nje pi`xlom > `nte ;dike`ocunh > vai ete P_ nathif nhi > =en pi`ehoou ete `mmau.",
+      "Coptic": "Palin `fxh nhi `nje pi`xlom > `nte ;dike`ocunh > vai ete Psoic nathif nhi > =en pi`ehoou ete `mmau.",
       "English": "\"There is laid up for me, the crown of righteousness, which the Lord will give me, in that day.\"",
       "Arabiccoptic": "بالين إفـكـى نى إنجيه بى إكلوم : إنتيه تى ذيكيؤسينى: فاى إيتيه إبشويس نـاتيف نـى : خين بى إيهوؤ إيتيه إمماف",
       "Englishcoptic": "Palin efky ni enje pi eklom, ente ti zikeociny, fai ete Epshois nateif ni, khen pi eho-o ete emmav."
@@ -65,7 +65,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أطلب من الرب عنا, أيها القديس العظيم أنبا بولا, من الرب الذي أحببته, لكي يغفر لنا خطايانا",
-      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > `wpini]; equ?  abba  Paule > \\ina `nte P_ vhetakmenritf > `ntef xa nennobi nan `ebol.",
+      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > `wpini]; eqouab  abba  Paule > \\ina `nte Psoic vhetakmenritf > `ntef xa nennobi nan `ebol.",
       "English": " Pray to the Lord on our behalf, O great and holy Abba Paul, that the Lord whom you have loved, may forgive us our sins.",
       "Arabiccoptic": "طوفه ام ابشويس ااهرى ايجون, أو بى نيشتى إثؤواب آفا بافـلى, هينا إنتيه إبشويس فى إيطاك مين ريتـف, انتيف كا نين نوفى إيفول",
       "Englishcoptic": "Tovh em epshois e ehry egon, W pi nishty ethowab ava Pavly, hina ente Epshois vi etak menritf , entef ka nen-novi nan evol."

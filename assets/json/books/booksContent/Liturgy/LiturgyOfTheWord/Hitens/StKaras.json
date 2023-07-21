@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلوات أبينا القديس البار  أنبا كاراس السائح  . يا رب .  .  .  .  .  . ",
+      "Coptic": "|iten ni`euxh `nte peniwt eqouab  `ndikeoc `abba Karac pi`anaxwrithc >  Psoic.  .  .",
+      "English": "Through the prayers of our holy father the righeous, Abba Karas the Anchorite, O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": " هيتين ني إفشي انتي بين يوت إثؤواب إم ذيكيئوس آفا كاراس بي اناخو ريتيس    .  إبتشويس .  .  .  .  .  . ",
+      "Englishcoptic": "Hiten ni-evshee ente penioot ethoooav  enzikeos -abva Karas pi-anakhooritees :  Pchois.  .  ."
+    }
+  ]
+}

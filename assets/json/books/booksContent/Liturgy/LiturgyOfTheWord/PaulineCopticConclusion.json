@@ -1,0 +1,30 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": "",
+    "EnglishTitle": "",
+    "CopticTitle": "",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Reader",
+            "Arabic": "القارئ:",
+            "Coptic": "Pi`anagnwcthc>",
+            "English": "Reader:",
+            "Arabiccoptic": "بي اناغنوستيس:",
+            "Englishcoptic": "Pi-Anaghnostis:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "نعمة الله الآب تكون مع جميعكم، آمين.",
+            "Coptic": "Pi`\\mot gar nemwten nem `t\\irhnh eucwp je `amhn ec`e]wpi.",
+            "English": "The Grace of God the Father be with you all Amen.",
+            "Arabiccoptic": "بى إهموت غار نيموتين نيم إت هيرينى إفسوب. جى أمين إس إشوبى.",
+            "Englishcoptic": "Pi ehmot ghar nemoten nem et-hiriny evsop. je amen es e shopy."
+        }
+    ]
+}

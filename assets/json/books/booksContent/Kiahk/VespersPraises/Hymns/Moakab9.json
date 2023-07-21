@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "التفسير المعقب التاسع",
   "EnglishTitle": "The Ninth Moaqap Explanation",
-  "CopticTitle": "Ihc? Pxc? pabo`iqoc ",
+  "CopticTitle": "Ihcouc Pi`xrictoc pabo`iqoc ",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": " يا يسوع المسيح معينى . إرحم حقارتى . من أجل صلاحك . لا تحسب على آثامى .",
-      "Coptic": "Ihc? Pxc? pabo`iqoc > nai =a tamet`elaxictoc > eqbe tekmet`agaqoc > `mperwp `eroi `nna`anomi`a .",
+      "Coptic": "Ihcouc Pi`xrictoc pabo`iqoc > nai =a tamet`elaxictoc > eqbe tekmet`agaqoc > `mperwp `eroi `nna`anomi`a .",
       "English": "Jesus Christ my Helper, have mercy upon Your poor one, for the sake of Your goodness, do not count my iniquities.",
       "Arabiccoptic": " إيسوس بخريستوس بافو إي ثوس . ناى خا طا ميت إلاشيستوس . إثفى تيك ميت أغاثوس . إمبير أوب إيروى إن نا أنوميا .",
       "Englishcoptic": "Isos Pikhristos Pavo isos, nai khata met elashistos, ethve tekmet agha-thos, emper op eroi enna anomia."
@@ -76,7 +76,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": " نمجدك أيتها الأمينة. الحاملة كلمة الآب . قائلين إفرحى يا ممتلئة نعمة . الرب معك .",
-      "Coptic": "Ten;`wou ne `w qh`eten\\ot > etfai =a pilogoc `nte `Viwt > je xere qheqme\\ `n`\\mot > ouo\\ P_ ]wp neme .",
+      "Coptic": "Ten;`wou ne `w qh`eten\\ot > etfai =a pilogoc `nte `Viwt > je xere qheqme\\ `n`\\mot > ouo\\ Psoic ]wp neme .",
       "English": "We glorify you O faithful one, who carried the Word of the Father, \"Hail to you O full of grace, the Lord is with you.\"",
       "Arabiccoptic": "تين تى أوأونى أوثى إتين هوت. إتفاى خا بي لوغوس إنتى إفيوت. جى شيرى ثى إثميه إن إهموت. أووه إبشويس شوب نيمى .",
       "Englishcoptic": "Tenti o-o ne wthi etenhot, etfai khapi loghos ente Efiot, je shere thi ethmeh en ehmot, Ouwoh epshois shop neme"

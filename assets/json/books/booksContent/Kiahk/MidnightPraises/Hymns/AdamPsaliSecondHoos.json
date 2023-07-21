@@ -109,7 +109,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يسوع هو رجاؤنا. فى شدائدنا. أيها الثالوث القدوس إرحمنا",
-      "Coptic": "Ihc? pe ten\\elpic > =en nen`qluyic > `agi`a `triac > `ele`hcon `hmac.",
+      "Coptic": "Ihcouc pe ten\\elpic > =en nen`qluyic > `agi`a `triac > `ele`hcon `hmac.",
       "English": "Jesus is our hope, In our tribulations, O Holy Trinity, have mercy upon us.",
       "Arabiccoptic": "إيسوس بى تين هيلبيس. خين نين إثليبسيس أجيا إترياس . إليسون إيماس .",
       "Englishcoptic": "Isos pe ten helpees, khen nen ethlipsees, agia etrias, elison emas."
@@ -131,7 +131,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "كل الشعوب تسبحك. أيها الملك المسيح. أيها الثالوث القدوس إرحمنا",
-      "Coptic": "Laoc niben ce\\wc nak> `w `pouro Pxc? > `agi`a `triac > `ele`hcon `hmac.",
+      "Coptic": "Laoc niben ce\\wc nak> `w `pouro Pi`xrictoc > `agi`a `triac > `ele`hcon `hmac.",
       "English": "All nations praise You, O Christ the King, O Holy Trinity, have mercy upon us.",
       "Arabiccoptic": "لاؤس نيفين سيهوس ناك. أو إبؤرو بخريستوس. أجيا إترياس . إليسون إيماس .",
       "Englishcoptic": "Laos niven se hos nak, o ep oro Pikhristos, agia etrias, elison emas."
@@ -208,7 +208,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أحرسنا أيها المسيح.بصلاحك. أيها الثالوث القدوس إرحمنا",
-      "Coptic": "Rwic `eron `w Pxc? > =en tekmet`agaqoc > `agi`a `triac > `ele`hcon `hmac.",
+      "Coptic": "Rwic `eron `w Pi`xrictoc > =en tekmet`agaqoc > `agi`a `triac > `ele`hcon `hmac.",
       "English": "Guard us O Christ, With Your Goodness, O Holy Trinity, have mercy upon us.",
       "Arabiccoptic": "رويس إيرون أوبخريستوس. خين تيك ميت أغاثوس. أجيا إترياس . إليسون إيماس .",
       "Englishcoptic": "Rois eron O Pikhristos, khen tekmet agha-thos, agia etrias, elison emas."
@@ -274,7 +274,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "قدوس قدوس قدوس. ياإبن القدوس. أيها الثالوث القدوس إرحمنا",
-      "Coptic": "`Xouab `xouab `xouab > `p]hri `mvheq?u? > `agi`a `triac > `ele`hcon `hmac.",
+      "Coptic": "`Xouab `xouab `xouab > `p]hri `mvheqouab > `agi`a `triac > `ele`hcon `hmac.",
       "English": "Holy, Holy, Holy, O Son of the Holy, O Holy Trinity, have mercy upon us.",
       "Arabiccoptic": "إكؤاب إكؤاب إكؤاب . إبشيرى إمفى إثؤواب . أجيا إترياس . إليسون إيماس .",
       "Englishcoptic": "Ekouab Ekouab Ekouab, Epsheery emvi Ethowab, agia etrias, elison emas."

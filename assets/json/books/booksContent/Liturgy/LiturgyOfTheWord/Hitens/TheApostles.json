@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلواتِ سادتي الآباءِ الرسلِ وبقيةِ التلاميذِ، ياربُّ ...",
+      "Coptic": "|iten nieuxh `nte nasoic `nio; napoctoloc nem `pcepi `nte nimaqhthc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the prayers of my lords and fathers the apostles, and the rest of the disciples, O Lord ....",
+      "Arabiccoptic": "هيتين ني إفكي إنتي ناشويس إنيوتي إن آبوسطولوس نيم إبسيبي إنتي ني ماثيتيس إبشويس.",
+      "Englishcoptic": "Hiten nievshee ente nachois enioti napostolos nem epsepi ente nimatheetees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

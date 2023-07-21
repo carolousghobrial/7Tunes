@@ -11,7 +11,6 @@ const SearchBar = ({
   setSearchPhrase,
 }) => {
   function tempSetClick() {
-    console.log(clicked);
     setClicked(true);
   }
   return (

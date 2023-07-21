@@ -11,7 +11,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import images from "../../helpers/imageHelpers";
 
-function BookView(props) {
+function BookView({ onLongPress, item, onClick }) {
   const { width, height } = useWindowDimensions();
   const isTablet = useSelector((state) => state.settings.isTablet);
   const fontSize = isTablet ? 30 : 20;
@@ -38,25 +38,24 @@ function BookView(props) {
   let content = (
     <>
       <Pressable
-        android_ripple={{ color: "#AA4A44" }}
-        onPress={props.onClick.bind(this, props.item)}
+        onLongPress={onLongPress.bind(this, item)}
+        onPress={onClick.bind(this, item)}
       >
         <View style={[styles.bookView, bookviewStyle]}>
           <View style={[styles.imageContainer, imageStyle]}>
-            <Image style={styles.image} source={images[props.item.ImageURL]} />
+            <Image style={styles.image} source={images[item.ImageURL]} />
           </View>
 
           <View style={styles.textView}>
             <Text
-              s
               style={[styles.text, { fontSize, fontFamily: "english-font" }]}
             >
-              {props.item.EnglishTitle}
+              {item.EnglishTitle}
             </Text>
             <Text
               style={[styles.text, { fontSize, fontFamily: "arabic-font" }]}
             >
-              {props.item.ArabicTitle}
+              {item.ArabicTitle}
             </Text>
           </View>
         </View>
@@ -68,26 +67,24 @@ function BookView(props) {
       <>
         <Pressable
           android_ripple={{ color: "#AA4A44" }}
-          onPress={props.onClick.bind(this, props.item)}
+          onLongPress={onLongPress.bind(this, item)}
+          onPress={onClick.bind(this, item)}
         >
           <View style={[styles.bookViewLandscape, bookviewStyle]}>
             <View style={[styles.imageContainerLandscape, imageStyle]}>
-              <Image
-                style={styles.image}
-                source={images[props.item.ImageURL]}
-              />
+              <Image style={styles.image} source={images[item.ImageURL]} />
             </View>
 
             <View style={styles.textViewLanscape}>
               <Text
                 style={[styles.text, { fontSize, fontFamily: "english-font" }]}
               >
-                {props.item.EnglishTitle}
+                {item.EnglishTitle}
               </Text>
               <Text
                 style={[styles.text, { fontSize, fontFamily: "arabic-font" }]}
               >
-                {props.item.ArabicTitle}
+                {item.ArabicTitle}
               </Text>
             </View>
           </View>

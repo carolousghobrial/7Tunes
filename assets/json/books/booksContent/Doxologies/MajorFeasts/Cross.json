@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "نحن أيضاً معشر الشعوب، أبناء الأرثوذكسيين، نسجد لصليب، ربنا يسوع المسيح.",
-      "Coptic": "`Anon \\wn =a nilaoc> ni]hri `norqodo[oc> `ntenouw]t `mPi`ctauroc> `nte Penoc? Ihc? Pxc",
+      "Coptic": "`Anon \\wn =a nilaoc> ni]hri `norqodo[oc> `ntenouw]t `mPi`ctauroc> `nte Pensoic Ihcouc Pxc",
       "English": "We too, the people: the Orthodox children: we bow down to the Cross: of our Lord Jesus Christ.",
       "Arabiccoptic": "أنون هون خا ني لاؤس: ني شيري إن أورثوذكصوس: إنتين أووأوشت إمبي إسطافروس: إنتيه بين تشويس إيسوس بي خرستوس .",
       "Englishcoptic": "Anon hon kha ni-laos: nisheeri en-orthozoxos: enten oo-osht emPi-estavros: ente Penchois Isos Pikhristos"
@@ -32,7 +32,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أيها المؤمنون فلنسبح، ربنا يسوع المسيح، ونسجد لصليبه، الخشبة المقدسة غير المائتة.",
-      "Coptic": "Tener\\umnoc `w nipictoc> `mPenoc? Ihc? Pxc?> ouo\\ `ntenouw]t `mPef`ctauroc> pi]e eq?u?  `n`aqanatoc.",
+      "Coptic": "Tener\\umnoc `w nipictoc> `mPensoic Ihcouc Pi`xrictoc> ouo\\ `ntenouw]t `mPef`ctauroc> pi]e eqouab  `n`aqanatoc.",
       "English": "We sing hymns, O faithful: to our Lord Jesus Christ: and we bow down to His Cross: the immortal and holy wood.",
       "Arabiccoptic": " تين إيرهيمنوس أوني بيسطوس إمبين تشويس إيسوس بي خرستوس: أووه تين أووأوشت إم بيف سطافروس: بي شيه إثؤواب .",
       "Englishcoptic": "Ten-er-himnos o ni-pistos: em-Penchois Isos Pikhristos: owoh enten oo-osht emPef-estavros: pishe ethowab  en-athanatos."
@@ -43,7 +43,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": " نفتخر بك أيها الصليب، الذي صُلب عليك يسوع، لأنه من قِبَل مثالك، صرنا أحراراً.",
-      "Coptic": "Ten]ou]ou `mmok `w Pi`ctauroc> vh`etau`i]i `ejwk `nIhc?> je `ebol \\iten pektupoc> an]wpi en`eleuqeroc.",
+      "Coptic": "Ten]ou]ou `mmok `w Pi`ctauroc> vh`etau`i]i `ejwk `nIhcouc> je `ebol \\iten pektupoc> an]wpi en`eleuqeroc.",
       "English": "We take pride in you, O Cross; on which Jesus was crucified: for through your type: we were set free",
       "Arabiccoptic": " تين شووشوو إمموك أوبي سطافروس: في إيطاف إيشي إيه جوك إن إيسووس: جيه إيفول هيتين بيك تيبوس: أنشوبي إن إيلفثيروس .",
       "Englishcoptic": "Ten-shoo-shoo emmok o Pi-estavros: vee-etav-eeshi egok en Isos: je evol hiten pek-tipos: an-shopi en-elev-theros."
@@ -153,7 +153,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": " لأنها مكرمة جداً، علامة صليب، يسوع المسيح الملك، إلهنا الحقيقي.",
-      "Coptic": "`Ftai`hout gar `ema]w> `nje pimhini `nte Pi`ctauroc> `nte Ihc? Pxc? `Pouro> Pennou; `n`alhqinoc.",
+      "Coptic": "`Ftai`hout gar `ema]w> `nje pimhini `nte Pi`ctauroc> `nte Ihcouc Pi`xrictoc `Pouro> Pennou; `n`alhqinoc.",
       "English": "Greatly honored: is the sign of the Cross: of Jesus Christ the King: our True God.",
       "Arabiccoptic": " إفطايوت غارإيماشو: إنجيه بي ميني إنتيه بي سطافروس: إنتيه إيسووس بي خرستوس إبؤورو: بين نووتي إن أليثينوس .",
       "Englishcoptic": "Efta-yoot ghar emasho: enje pi-meeni ente Pi-estavros: ente Isos Pikhritsos ep-ooro: Pen-nooti en-aleethinos."
@@ -186,7 +186,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لأنه مبارك المسيح إلهنا، وصليبه المحيي، الذي صُلِبَ عليه، حتى خلَّصنا من خطايانا.",
-      "Coptic": "Je `f`cmarwout `nje Pxc? Pennou;> nem Pef`ctauroc `nreftan=o> vh`etaua]f `e`\\rhi `ejwf> ]a `ntefcotton =en nennobi.",
+      "Coptic": "Je `f`cmarwout `nje Pi`xrictoc Pennou;> nem Pef`ctauroc `nreftan=o> vh`etaua]f `e`\\rhi `ejwf> ]a `ntefcotton =en nennobi.",
       "English": "For blessed is Christ our God: and His life-giving Cross: on which He was crucified: in order to save us from our sins.",
       "Arabiccoptic": " جيه إف إسماروؤوت إنحيه بي خرستوس بين نووتي: نيم بي سطافروس إنريف طانخو: في إيطاف أشف إإهرى إيجوف: شا إنتيف صوتتين خين نين نوفي .",
       "Englishcoptic": "Je Ef-esmaro-ot enje Pikhristos Pennooti: nem Pef-estavros enref-tankho: vee-etav-ashf e-ehry egof: sha entef sotten khen nen-novi."

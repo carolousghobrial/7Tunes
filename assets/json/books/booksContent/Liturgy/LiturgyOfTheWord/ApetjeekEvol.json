@@ -1,0 +1,118 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الكامل بركة أبيه الكلمة، أتى وتجسد كإنسان كامل.",
+      "Coptic": "Apetjhk `ebol `nje pi`cmou tou Logou Pefiwt> `i afsi car[ \\wc rwmi `ntelioc.",
+      "English": "Perfect is the blessing of the Word of His Father, who came and was incarnate as a perfect man.",
+      "Arabiccoptic": "ابيت جيك إيفول إنجيه بي إزمو تولوغوبيف يوت إى آفتشي ساركس هوس رومي إنتي ليوس.",
+      "Englishcoptic": "Apetgeek -evol enje piesmooo tooo Loghooo Pefioot: -ee afchi sarx hoos roomi entelios."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "المجد للآب والإبن والروح القدس.",
+      "Coptic": "Do[a Patri ke `Uiw ke `agiw `Pneumati.",
+      "English": "Glory be to the Father and the Son and the Holy Spirit.",
+      "Arabiccoptic": " ذوكصابتري كي إى يو كي آجيو إبنيفماتي",
+      "Englishcoptic": "Doxa Patri ke -Eyioo ke -agioo ePnevmati."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المذبوح نظروه، المذبوح الكائن معكم، المذبوح مُعَلق على الصليب.",
+      "Coptic": "Apet=el=wlf nau `erof> apet=el=wlf [op nemwten> apet=el=wlf a]f \\ijen pi`ctauroc.",
+      "English": "O You who was slain and was seen, O You who was slain be with us, O You who was slain and raised on the Cross.",
+      "Arabiccoptic": "أبيت خيل خولف ناف إيروف. أبيت خيل خولف شوب ني موتين. أبيت خيل خولف أشف هيجين بي إستافروس.",
+      "Englishcoptic": "Apetkhelkhoolf nav -erof: apetkhelkhoolf xop nemooten: apetkhelkhoolf ashf hijen piestavros."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الآن وكل أوان وإلى دهر الدهور. آمين.",
+      "Coptic": "Ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn> amhn.",
+      "English": "Now and ever and unto the age of all ages. Amen.",
+      "Arabiccoptic": " كي نين كي آإى كي إسطوس إى أوناس طون إى أونون آمين",
+      "Englishcoptic": "Ke neen ke -a-ee ke is tooos -e-oonas toon -e-oonoon: ameen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذه العقلية، هذه الأعجوبة، السجود للمسيح الواحد.",
+      "Coptic": "Qai te ;nou `ete> qai te ;cebhroc> ;`prockunichc tw monw `Xrictoc.",
+      "English": "This is the rational, this is the upright, worship is to the one Christ.",
+      "Arabiccoptic": " ثاي تي تي نو إي تي. ثاي تي تي سيفيروس. تي إبروس كي ني سيس تومونو إخرستوس ",
+      "Englishcoptic": "Thai te tinooo -ete: thai te tiseveeros: tieproskeenisees too monoo eKhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "(بركة الثالوث الاقدس)2، الآب والإبن والروح القدس.",
+      "Coptic": "(`Ere pi`cmou `n;`Triac eqouab) 2> `Viwt nem `p}hri nem pi`Pneuma eqouab.",
+      "English": "(The blessing of the holy Trinity)2, the Father and the Son and the Holy Spirit.",
+      "Arabiccoptic": "إيري بي إزمو إنتي إترياس إثؤواب. إفيوت نيم إبشيري نيم بي إبنيفما إثؤواب.",
+      "Englishcoptic": "(-Ere piesmooo entieTrias ethoooab) 2: eVioot nem epSheeri nem piePnevma ethoooab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(بركة والدة الإله)2، مريم أم يسوع المسيح.",
+      "Coptic": "(`Ere pi`cmou `n;Qe`otokoc) 2> Maria `Qmau `nIhcouc Pi`xrictoc.",
+      "English": "(The blessing of Theotokos)2, Mary the Mother of Jesus Christ.",
+      "Arabiccoptic": " إيري بي إزموا إنتي ثيئوطوكوس ماريا إثماف إن إيسوس بي إخرستوس",
+      "Englishcoptic": "(-Ere piesmooo entiThe-otokos) 2: maria eThmav enIsos Pikhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "(بركة بطريركنا)2، الآب المكرم رئيس الكهنة البابا أنبا [*POPE*].",
+      "Coptic": "(`Ere pi`cmou `mpenpatriarxhc) 2> `niwt ettaihot `n`arxh`ereuc papa abba [*POPE*].",
+      "English": "(The blessing of our patriarch)2, the honored father, the high priest, Pope Abba [*POPE*].*",
+      "Arabiccoptic": " إيري بي إزمو إم ين باتريارشيس إنيوت إتطايوت إن أرشي إيريفس بابا آفا [*POPE*].",
+      "Englishcoptic": "(-Ere piesmooo empenpatriarshees) 2: enioot ettaieeot en-arshee-erevs papa abva [*POPE*]."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تحل علي هذا الشعب كله أمين يكون.",
+      "Coptic": "Eu`i `e`\\rhi `ejen pailaoc thrf> je `amhn ec`e]wpi.",
+      "English": "Be upon all the people. Amen. So be it.",
+      "Arabiccoptic": "إيف إئي أيه إيهري إيجين بايلأوس تيرف, جي امين إس إيشوبي",
+      "Englishcoptic": "Ev-ee -eehreei -ejen pailaos teerf: je -ameen es-eshoopi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الكاثوليكون الكاثوليكون.",
+      "Coptic": "Kaqolikon> kaqolikon.",
+      "English": "The catholic epistle, the catholic epistle.",
+      "Arabiccoptic": "كاثوليكون كاثوليكون",
+      "Englishcoptic": "Katholikon: katholikon."
+    }
+  ]
+}

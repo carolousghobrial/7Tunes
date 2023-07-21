@@ -1,57 +1,46 @@
-import { StatusBar } from "expo-status-bar";
-import { Ionicons } from "@expo/vector-icons";
-import { useState, useCallback, useEffect } from "react";
+import React, { useEffect } from "react";
+import {
+  Ionicons,
+  MaterialCommunityIcons,
+  FontAwesome5,
+} from "@expo/vector-icons";
+import { useWindowDimensions, StyleSheet } from "react-native";
+import { useSelector } from "react-redux";
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import {
-  ImageBackground,
-  StyleSheet,
-  Button,
-  SafeAreaView,
-  useWindowDimensions,
-} from "react-native";
-import * as SplashScreen from "expo-splash-screen";
-import useFonts from "../../helpers/useFonts";
-import HomepageScreen from "../../screens/HomepageScreen";
-import BookScreen from "../../screens/BookScreen";
-import ViewSingleHymn from "../../screens/ViewSingleHymn";
-import LoadingScreen from "../../screens/LoadingScreen";
-import Colors from "../../constants/colors";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import SettingsScreen from "../../screens/SettingsScreen";
-import CustomDrawerScreen from "../../screens/CustomDrawerScreen";
-import FullFeastsScreen from "../../screens/FullFeastsScreen";
-import { Provider } from "react-redux";
-import { store } from "../../stores/redux/store";
-import { useDispatch, useSelector } from "react-redux";
+import * as Device from "expo-device";
 import {
   getLanguageValue,
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers";
 import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
-import moment from "moment";
-import Test from "../settings/test.js";
-import { setSeason, setIsTablet } from "../../stores/redux/settings.js";
+import HomepageScreen from "../../screens/HomepageScreen";
+import BookScreen from "../../screens/BookScreen";
+import ViewSingleHymn from "../../screens/ViewSingleHymn";
+import LoadingScreen from "../../screens/LoadingScreen";
+import Colors from "../../constants/colors";
+import SettingsScreen from "../../screens/SettingsScreen";
+import CustomDrawerScreen from "../../screens/CustomDrawerScreen";
+import FullFeastsScreen from "../../screens/FullFeastsScreen";
+import SaintsList from "../settings/saintsList";
 import ContentsModal from "../BottomBar/ContentsModal.js";
 import SettingsModal from "../BottomBar/SettingsModal.js";
-import { FontAwesome5 } from "@expo/vector-icons";
-import * as Device from "expo-device";
-import SaintsList from "../settings/saintsList";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
-const Stack = createNativeStackNavigator();
 
+const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
-function NavigationContainerView() {
+
+function NavigationContainerView({ dispatch }) {
   const { height, width } = useWindowDimensions();
-  const dispatch = useDispatch();
 
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
-
   const darkMode = useSelector((state) => state.settings.darkMode);
   const timeTransition = useSelector((state) => state.settings.timeTransition);
-  let activeColors = darkMode === false ? Colors["light"] : Colors["dark"];
+
+  const activeColors = darkMode === false ? Colors["light"] : Colors["dark"];
+
   useEffect(() => {
     async function prepare() {
       try {
@@ -60,16 +49,14 @@ function NavigationContainerView() {
             setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
           );
         }
-        var device = (await Device.getDeviceTypeAsync()) === 2 ? true : false;
-        dispatch(
-          setIsTablet({
-            isTablet: device,
-          })
-        );
+        const isTablet =
+          (await Device.getDeviceTypeAsync()) === 2 ? true : false;
+        dispatch(setIsTablet({ isTablet }));
       } catch (e) {}
     }
     prepare();
   }, []);
+
   function Root() {
     return (
       <Drawer.Navigator
@@ -77,9 +64,7 @@ function NavigationContainerView() {
         screenOptions={{
           headerStyle: { backgroundColor: activeColors.NavigationBarColor },
           headerTintColor: activeColors.PrimaryColor,
-          sceneContainerStyle: {
-            backgroundColor: "transparent",
-          },
+          sceneContainerStyle: { backgroundColor: "transparent" },
           drawerContentStyle: {
             backgroundColor: activeColors.NavigationBarColor,
           },
@@ -97,9 +82,7 @@ function NavigationContainerView() {
             arabicTitle: "7 Tunes",
           }}
           options={({ route, navigation }) => {
-            const englishTitle = route.params.englishTitle;
-            const arabicTitle = route.params.arabicTitle;
-
+            const { englishTitle, arabicTitle } = route.params;
             return {
               title: appLanguage === "eng" ? englishTitle : arabicTitle,
               drawerIcon: ({ color, size }) => (
@@ -109,33 +92,30 @@ function NavigationContainerView() {
           }}
         />
         <Drawer.Screen
-          component={SettingsScreen}
           name="SettingsScreen"
+          component={SettingsScreen}
           options={{
             title: getLanguageValue("settings"),
-
             drawerIcon: ({ color, size }) => (
               <Ionicons name="settings" color={color} size={size} />
             ),
           }}
         />
         <Drawer.Screen
-          component={FullFeastsScreen}
           name="FullFeastsScreen"
+          component={FullFeastsScreen}
           options={{
             title: getLanguageValue("fullFeasts"),
-
             drawerIcon: ({ color, size }) => (
               <FontAwesome5 name="cross" size={24} color="black" />
             ),
           }}
         />
         <Drawer.Screen
-          component={SaintsList}
           name="SaintsList"
+          component={SaintsList}
           options={{
             title: getLanguageValue("saintsMenu"),
-
             drawerIcon: ({ color, size }) => (
               <MaterialCommunityIcons
                 name="cross-outline"
@@ -148,17 +128,15 @@ function NavigationContainerView() {
       </Drawer.Navigator>
     );
   }
+
   return (
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
           animation: "none",
-          headerStyle: {
-            backgroundColor: activeColors.NavigationBarColor,
-          },
+          headerStyle: { backgroundColor: activeColors.NavigationBarColor },
           headerTintColor: activeColors.PrimaryColor,
           contentStyle: { backgroundColor: "transparent" },
-
           gestureEnabled: true,
           gestureDirection: "horizontal",
         }}
@@ -168,7 +146,6 @@ function NavigationContainerView() {
           component={Root}
           options={{ headerShown: false }}
         />
-
         <Stack.Screen
           name="HomepageScreen"
           component={HomepageScreen}
@@ -176,9 +153,7 @@ function NavigationContainerView() {
             bookPath: "myHome",
           }}
           options={({ route, navigation }) => {
-            const englishTitle = route.params.englishTitle;
-            const arabicTitle = route.params.arabicTitle;
-
+            const { englishTitle, arabicTitle } = route.params;
             return {
               title: appLanguage === "eng" ? englishTitle : arabicTitle,
             };

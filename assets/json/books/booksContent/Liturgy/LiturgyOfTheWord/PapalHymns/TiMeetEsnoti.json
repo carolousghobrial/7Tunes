@@ -1,0 +1,151 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الإثنا عشرة فضيلة التي للروح القدس، المكتوبة في الكتب المقدسة، وهذه أسماؤها.",
+      "Coptic": ":metc~nou; `n`areth `mPipneuma eqouab> et`c=hout =en ni`gravh eqouab `ete nai ne nouran.",
+      "English": "The twelve virtues of the Holy Spirit that are mentioned in the holy Scriptures, these are their names—",
+      "Arabiccoptic": "تي ميتي إسنوتي إن أريتي إم بي إبنيفما إثؤواب إيت إسخيوت خين ني إغرافي إثؤواب إبني ناي ني نوران.",
+      "Englishcoptic": "Timets~noooti en-aretee emPipnevma ethoooab: eteskheeooot khen nieghravee ethoooav -ete nai ne noooran."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "(تحل على) (2) رأس أبينا القديس رئيس الكهنة، البابا أنبا (تواضروس).",
+      "Coptic": "(Eu`e]wpi)2  `ejen `t`ave `mpeniwt eqouab `narxiereuc papa abba ___",
+      "English": "(they shall come) (2) upon the head of our holy father, the high priest, Pope Abba (Tawadros).",
+      "Arabiccoptic": "إيف إي شوبي إيجين إت آجيه إم بين يوت إثؤواب إن أرشي إريفس بابا آفا (…)",
+      "Englishcoptic": "(Ev-eshoopi)2  -ejen et-ave empenioot ethoooav enarshierevs papa abva oisoisois"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(وشريكه في الخدمة الرسولية، أبينا القديس الأسقف (المطران) أنبا (...)).",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt eqouab `n`epickopoc (`mmhtropolhthc) abba ___.",
+      "English": "(And his partner in the apostolic liturgy, our father the bishop (metropolitan) Abba (...).",
+      "Arabiccoptic": "نيم بيف كيه إشفير إن ليتورغوس بين يوت إم ميت روبوليتيس (إن إبيس كوبوس) آفا (…)",
+      "Englishcoptic": "Nem pefkeeshveer enlitooorghos penioot ethoooav en-episkopos (emmeetropoleetees) abva oisoisois."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الأولى المحبة، الثانية الرجاء، الثالثة الإيمان.",
+      "Coptic": ":hou`i; te ;`agaph> ;mah`cnou; te ;\\elpic> ;ma\\]om; te ;pictic>",
+      "English": "The first is love, the second is hope, the third is faith.",
+      "Arabiccoptic": "تي هويت تي تي أغابي تي ماه إسنوتي تي تي هلبيس  تي ماه شومتي تي تي بيستنيس",
+      "Englishcoptic": "Tieeooo-eeti te ti-aghapee: timaeeesnoooti te tihelpis: timahshomti te tipistis:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرابعة الطهارة، الخامسة البتولية، السادسة السلام.",
+      "Coptic": ":ma\\`ftou te pitoubo> ;ma\\`tiou te ;parqenia> ;ma\\coou te ;hirhnh>",
+      "English": "The fourth is purity, the fifth is virginity, the sixth is peace.",
+      "Arabiccoptic": "تي ماه إفطو تي بي طوفو تي ماه إتيو تي تي بارثينا تي ماه سوؤ تي تي ثيريني",
+      "Englishcoptic": "Timaheftooo te pitooovo: timahetiooo te tiparthenia: timahsoooo te tieeireenee:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "السابعة الحكمة، الثامنة البر، التاسعة الوداعة.",
+      "Coptic": ":ma\\]a]fi te ;covia> ;ma\\`]mhni te ;dike`ocunh> ;ma\\yi; te ;metremrau]>",
+      "English": "The seventh is wisdom, the eighth is righteousness, the ninth is meekness.",
+      "Arabiccoptic": "تي ماه شاشف تي تي صوفيا تي ماه إشمين تي تي ذى كيؤسيتي تي ماه إبسيتي تي تي ميت ريم رافشي.",
+      "Englishcoptic": "Timahshashfi te tisovia: timaheshmeeni te tizike-oseenee: timahpsiti te timetremravsh:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "العاشرة الصبر، الحادية عشر طول الروح، الثانية عشر النسك.",
+      "Coptic": ":ma\\mh; te ;hupomonh> ;ma\\metoui te ;metref`wou `n\\ht> ;mahmet`cnou; te ;egkratia.",
+      "English": "The tenth is patience, the eleventh is long-suffering, the twelfth is asceticism.",
+      "Arabiccoptic": "تي ماه ميتي تي تي ثيبومونى تي ماه ميت أواي تي تي ميت ريف أوؤإنهيت تي ماه أسنوتي تي تي إن إكراتيا.",
+      "Englishcoptic": "Timahmeeti te tieeeepomonee: timahmetoooi te timetref-ooooo enheet: timaeemetesnoooti te tienkratia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "آمين (3) يكون (2)",
+      "Coptic": "Amhn amhn amhn> ece]wpi ece]wpi. Ef`eer`apoleuin `mmwou. 2",
+      "English": "Amen (3), so it shall be (2).(May he be pleased) (2) ",
+      "Arabiccoptic": "(آمين إسئيه شوبي إسئيه شوبي إف إير أبوليفين إم موؤ)2",
+      "Englishcoptic": "Ameen ameen ameen: eseshoopi eseshoopi. Ef-eer-apolevin emmooooo. 2"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": ". يتجمل (2) في هذا المدى (سيدي الآب) (2)،",
+      "Coptic": "|i paikarpoc vai pe (Pasoic `niwt)2.",
+      "English": "at this time (my lord and father) (2),",
+      "Arabiccoptic": "(هي باري كاروس فاي بي باشويس إن بوت)2",
+      "Englishcoptic": "Hi paikarpos vai pe (Pachois enioot)2."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " (أبونا القديس) (2)",
+      "Coptic": "(Peniwt eqouab> Peniwt eqouab)",
+      "English": "(our holy father) (2) ",
+      "Arabiccoptic": "(بين يوت إثؤواب)2",
+      "Englishcoptic": "(Penioot ethoooab: Penioot ethoooab)"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " المكرم رئيس الكهنة البابا أنبا (تواضروس) (وأبينا الأسقف (المطران) الأنبا (...)).",
+      "Coptic": "Ettaihout `narxiereuc papa abba ___> nem peniwt n~e~pickopoc abba ___> nem nennio; n~e~pickopoc nhetxh neman.",
+      "English": "the honored high priest Pope Abba (Tawadros) (and our father the bishop (metropolitan) Abba (...)).",
+      "Arabiccoptic": "إنطايوت إن أرشي إرفس بابا آفا(..)نيم بينيوت ان ايبيسكوبوس افا ... ",
+      "Englishcoptic": "Ettaieeooot enarshierevs papa abva oisoisois: nem penioot n~e~piskopos abva oisoisois: nem nennioti n~e~piskopos neeetshee neman."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "آمين (3) يكون (2) لك (لكم) في جميع أيام حياتك (حياتكم).",
+      "Coptic": "Amhn> amhn> amhn. Ec`e]wpi ec`e]wpi nwten =en nie\\oou throu `nte netenwn=.",
+      "English": "Amen (3), so it shall be (2) for you all the days of your life(s).",
+      "Arabiccoptic": "آمين آمين آمين إس إيه شوبي ناك (نويتن) خين ني أهوؤ تيرو إن تيه تيك أونخ (إن نيتين أونخ)",
+      "Englishcoptic": "Ameen: ameen: ameen. Es-eshoopi es-eshoopi nooten khen niehoooo teerooo ente netenoonkh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فليكن الإكليروس وكل الشعب معافين في الرب. آمين يكون.",
+      "Coptic": "Mare pik`lhroc nem pilaoc thrf> oujai =en Psoic> je` amhn ec`e]wpi.",
+      "English": "May the clergy and all the people be safe in the Lord. Amen. So it shall be.",
+      "Arabiccoptic": " ماري بي إكليروس نيم بي لاؤس تيرف أوجاي خين إبشويس جي آمين إس إيشوبي.",
+      "Englishcoptic": "mare pikeleeros nem pilaos teerf: ooogai khen Pchois: jee ameen es-eshoopi."
+    }
+  ]
+}

@@ -64,6 +64,7 @@ const images = {
   HOLY_WEEK: require("../assets/images/FeastsImages/HOLY_WEEK.jpg"),
   EPIPHANY_SECONDDAY: require("../assets/images/FeastsImages/EPIPHANY_SECONDDAY.jpg"),
   FEAST_OF_APOSTLES: require("../assets/images/FeastsImages/FEAST_OF_APOSTLES.jpg"),
+  STANDARD: require("../assets/images/coptic.png"),
   COPTIC_NEW_YEAR: require("../assets/images/FeastsImages/COPTIC_NEW_YEAR.jpg"),
   FEAST_OF_CROSS: require("../assets/images/FeastsImages/FEAST_OF_CROSS.jpg"),
   FEAST_OF_CROSS_3: require("../assets/images/FeastsImages/FEAST_OF_CROSS.jpg"),

@@ -6,24 +6,14 @@ import {
   Text,
   StyleSheet,
   Pressable,
-  Image,
   TouchableWithoutFeedback,
   useWindowDimensions,
 } from "react-native";
-import AppTheme from "../settings/appTheme";
-import FontSize from "../settings/fontSize";
-import VisibleLangs from "../settings/visibleLangs";
-import TodaysPrayer from "../settings/todaysPrayer";
-import images from "../../helpers/imageHelpers";
 
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers.js";
+import { getColor } from "../../helpers/SettingsHelpers.js";
 
 function SelectYearModal({ visible, closeModal, setYear }) {
-  let labelColor = getColor("LabelColor");
+  const labelColor = getColor("LabelColor");
   const years = Array.from(Array(11), (_, i) => 2023 + i); // create an array of years from 2020 to 2030
 
   const [selectedYear, setSelectedYear] = useState(years[0]); // initialize the selected year to the first year in the array
@@ -74,7 +64,7 @@ function SelectYearModal({ visible, closeModal, setYear }) {
               showsVerticalScrollIndicator={true}
               renderItem={({ item }) => (
                 <Pressable
-                  onPress={setYear.bind(this, item)}
+                  onPress={() => setYear(item)}
                   style={{
                     borderColor: labelColor,
                     borderWidth: 3,
@@ -95,9 +85,7 @@ function SelectYearModal({ visible, closeModal, setYear }) {
                   </Text>
                 </Pressable>
               )}
-              keyExtractor={(item, index) => {
-                return index;
-              }}
+              keyExtractor={(item) => item.toString()}
             />
           </View>
         </TouchableWithoutFeedback>

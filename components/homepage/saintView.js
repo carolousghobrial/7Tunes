@@ -1,64 +1,30 @@
-import {
-  StyleSheet,
-  View,
-  Text,
-  Pressable,
-  useWindowDimensions,
-  Image,
-} from "react-native";
+import React from "react";
+import { View, Text, Pressable, Image, StyleSheet } from "react-native";
 import images from "../../helpers/imageHelpers";
-import React, { useState, memo, useEffect } from "react";
-import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
-import {
-  getCopticDateString,
-  getCopticDate,
-} from "../../helpers/copticMonthsHelper";
+import { getLanguageValue } from "../../helpers/SettingsHelpers";
 
-function SaintView({ item, onClick }) {
-  //const [copticEndDateString, setcopticEndDateString] = useState(null);
-  // const copticStartDate = getCopticDate(
-  //   item.start.year(),
-  //   item.start.month(),
-  //   item.start.date()
-  // );
-  // const copticStartDateString = getCopticDateString(
-  //   copticStartDate.year,
-  //   copticStartDate.month,
-  //   copticStartDate.day
-  // );
+const imageSize = 75;
+const flexDirection = "row";
 
-  let imageSize = 75;
-  let flexDirection = "row";
-
+const SaintView = ({ item, onClick }) => {
   const imageStyle = {
     width: imageSize,
     height: imageSize,
     borderRadius: imageSize / 2,
   };
 
-  // function getCopticEndDateString() {
-  //   var copticDate = getCopticDate(
-  //     item.end.year(),
-  //     item.end.month(),
-  //     item.end.date()
-  //   );
-  //   return getCopticDateString(
-  //     copticDate.year,
-  //     copticDate.month,
-  //     copticDate.day
-  //   );
-  // }
+  const containerStyle = {
+    margin: 5,
+    padding: 5,
+    flexDirection,
+    borderRadius: 10,
+    backgroundColor: "rgba(52, 52, 52, 0.2)",
+    borderWidth: 5,
+    borderColor: "black",
+  };
 
   return (
-    <Pressable
-      onPress={onClick.bind(this, item.titleKey)}
-      style={[
-        styles.secondContainer,
-        {
-          borderColor: "black",
-        },
-      ]}
-    >
+    <Pressable onPress={() => onClick(item.titleKey)} style={containerStyle}>
       <View style={[styles.imageContainerLandscape, imageStyle]}>
         <Image style={styles.image} source={images[item.titleKey]} />
       </View>
@@ -69,52 +35,19 @@ function SaintView({ item, onClick }) {
       </View>
     </Pressable>
   );
-}
+};
 
 const styles = StyleSheet.create({
-  container: {
-    margin: 10,
-    padding: 10,
-    borderRadius: 10,
-    backgroundColor: "rgba(52, 52, 52, 0.2)",
-    borderWidth: 5,
-  },
-  secondContainer: {
-    margin: 5,
-    padding: 5,
-    flexDirection: "row",
-    borderRadius: 10,
-    backgroundColor: "rgba(52, 52, 52, 0.2)",
-    borderWidth: 5,
-  },
-  titleView: {
+  textview: {
     flex: 2,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  title: {
-    fontFamily: "english-font",
-  },
-  textView: {
-    flex: 2,
-    borderColor: "black",
-    alignItems: "center",
-    justifyContent: "center",
   },
   text: {
     color: "black",
     fontSize: 20,
     padding: 5,
     fontFamily: "english-font",
-    alignItems: "center",
-    justifyContent: "center",
     fontWeight: "bold",
     textAlign: "center",
-  },
-  description: {
-    fontFamily: "english-font",
-    color: "gray",
-    fontStyle: "italic",
   },
   imageContainerLandscape: {
     borderWidth: 3,
@@ -123,15 +56,6 @@ const styles = StyleSheet.create({
     alignItems: "flex-start",
     justifyContent: "flex-start",
     margin: 5,
-  },
-  switch: {
-    flex: 1,
-    padding: 5,
-    justifyContent: "center",
-    alignItems: "flex-end",
-  },
-  textContainer: {
-    marginHorizontal: 10,
   },
   image: {
     flex: 1,

@@ -943,3 +943,98 @@ export const REPLACEDIOCESEBISHOP = () => {
     arabiccoptic: dioceseBishop.Arabiccoptic,
   };
 };
+
+export const REPLACEMETROPOLITAINAVAILABLE = () => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+
+  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+  const metro1 = BishopsPresent.filter(
+    (bishop) =>
+      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop.key
+  )[0];
+  return {
+    english: metro1.English,
+    coptic: metro1.Coptic,
+    arabic: metro1.Arabic,
+    englishcoptic: metro1.Englishcoptic,
+    arabiccoptic: metro1.Arabiccoptic,
+  };
+};
+export const REPLACEMETROPOLITAINAVAILABLETWO = () => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+
+  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+  const metro1 = BishopsPresent.filter(
+    (bishop) =>
+      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop.key
+  )[1];
+  return {
+    english: metro1.English,
+    coptic: metro1.Coptic,
+    arabic: metro1.Arabic,
+    englishcoptic: metro1.Englishcoptic,
+    arabiccoptic: metro1.Arabiccoptic,
+  };
+};
+export const REPLACEMETROPOLITAINAVAILABLETHREE = () => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+
+  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+  const metro1 = BishopsPresent.filter(
+    (bishop) =>
+      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop.key
+  )[2];
+  return {
+    english: metro1.English,
+    coptic: metro1.Coptic,
+    arabic: metro1.Arabic,
+    englishcoptic: metro1.Englishcoptic,
+    arabiccoptic: metro1.Arabiccoptic,
+  };
+};
+
+export const REPLACEBISHOPAVAILABLE = () => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+
+  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+  const metro1 = BishopsPresent.filter(
+    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop.key
+  )[0];
+  return {
+    english: metro1.English,
+    coptic: metro1.Coptic,
+    arabic: metro1.Arabic,
+    englishcoptic: metro1.Englishcoptic,
+    arabiccoptic: metro1.Arabiccoptic,
+  };
+};
+export const REPLACEBISHOPAVAILABLETWO = () => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+
+  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+  const metro1 = BishopsPresent.filter(
+    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop.key
+  )[1];
+  return {
+    english: metro1.English,
+    coptic: metro1.Coptic,
+    arabic: metro1.Arabic,
+    englishcoptic: metro1.Englishcoptic,
+    arabiccoptic: metro1.Arabiccoptic,
+  };
+};
+export const REPLACEBISHOPAVAILABLETHREE = () => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+
+  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+  const metro1 = BishopsPresent.filter(
+    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop.key
+  )[2];
+  return {
+    english: metro1.English,
+    coptic: metro1.Coptic,
+    arabic: metro1.Arabic,
+    englishcoptic: metro1.Englishcoptic,
+    arabiccoptic: metro1.Arabiccoptic,
+  };
+};

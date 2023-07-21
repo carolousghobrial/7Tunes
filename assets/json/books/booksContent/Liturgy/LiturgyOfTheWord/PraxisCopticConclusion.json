@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "بي اناغنوستيس:",
+      "Englishcoptic": "Pi-Anaghnostis:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكلمة الرب تنمو وتزداد وتعتز وتثبت فى كنيسة الله المقدسة آمين.",
+      "Coptic": "Picaji de `nte `Psoic > ef`eaiai ouo\\ ef`e`a]ai > ef`e`ama\\i ouo\\ ef`etajro > =en ;`agi`a `nek`klhci`a `nte Vnou; `amhn.",
+      "English": "The word of the Lord shall grow, multiply, be mighty and be confirmed in the Holy Church of God. Amen.",
+      "Arabiccoptic": "بى ساجى ذى إنتى إبشويس. إف إ أى أى أووه إف إ أشاى. إف إ أماهى أووه إف إ طاجرو. خين تى أجيا إن إككليسيا إنتى إفنوتى آمين.",
+      "Englishcoptic": "Peesajee ze ente Epetchoyse : efe-ai-ay owoh efe-ee ashay owoh efe-i-mahee owoh efsatagro khen tee-ageya en-ekekleseya ente Efnoty amen."
+    }
+  ]
+}

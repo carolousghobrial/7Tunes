@@ -127,7 +127,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "نسألُ ونطلبُ من صلاحِك يا محبَّ البشر، اذكر ياربُّ مرضى شعبِك.",
-      "Coptic": "Ten;\\o ouo\\ tentwb\\> `ntekmet`agaqoc pimairwmi. Ari`vmeu`i ~P_ `nnhet]wni `nte peklaoc.",
+      "Coptic": "Ten;\\o ouo\\ tentwb\\> `ntekmet`agaqoc pimairwmi. Ari`vmeu`i ~Psoic `nnhet]wni `nte peklaoc.",
       "English": "We ask and entreat your goodness, O Lover of Mankind, remember, O Lord, the sick among Your people.",
       "Arabiccoptic": "تين تيهو أووه تين طفه إنتيك ميت آغاثوس بى ماى رومى آرى إفميفئى إبشويس إن نيئتشونى إنتى بيك لاؤس.",
       "Englishcoptic": "Tin Tiho Owoh Tin Tobh Entek met Aghathus Pi Mai Romy. Ari Ef mev-e epshois enni-etshoni ente pek-laos."
@@ -237,7 +237,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الذينَ في السجونِ أو المطابقِ أو الذينَ في النفي أو السبي أو المقبوضِ عليهم في عبوديةٍ مرةٍ، ياربُّ اعتقهم جميعَهم وارحَمهم.",
-      "Coptic": "Nhet =en ni`]tekwou> ie nimet`alwc> ie nhetxh =en nie [oricti`a> ie nhexmalwci`a> ie nh`etou`amoni `mmwou =en oumetbwk ecen]a]i> ~P_ `aritou throu `nrem\\e ouo\\ nai nwou.",
+      "Coptic": "Nhet =en ni`]tekwou> ie nimet`alwc> ie nhetxh =en nie [oricti`a> ie nhexmalwci`a> ie nh`etou`amoni `mmwou =en oumetbwk ecen]a]i> ~Psoic `aritou throu `nrem\\e ouo\\ nai nwou.",
       "English": "Those who are in prisons or dungeons, those who are in exile or captivity, or those who are held in bitter bondage, O Lord, set them all free and have mercy upon them.",
       "Arabiccoptic": "نيئت خين نى إشتيكؤو بى نى ميت آلوس يى نيئتكى خين نى أكسوريستيا يى نيخمالوسيا بى نيئيتو أمونى امؤو خين أو ميتفوك إيسى إنشاشى, إبشويس أريتو تيرو إنريمهى أووه ناى نؤو.",
       "Englishcoptic": "Ne-et khen ni-eshtek-oo, ye ni-met-alos: ye ne-etki khen ni-exoros-teya , ye ni-ekhamaloseya, ye ni-eto amoni emo-oo khen o-metvok es-enshashi. Epchois arito tero enremhe owoh nai no-oo."
@@ -281,7 +281,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "كلُّ الأنفسِ المتضايقةِ، والمقبوضِ عليها، أعطِها ياربُّ رحمةً، أعطِها نياحاً، أعطِها برودةً، أعطِها نعمةً، أعطِها معونةً، أعطِها خلاصاً، أعطِها غفرانَ خطاياها وآثامِها.",
-      "Coptic": "Yuxh niben et\\ej\\wj ouo\\ etou`amoni `ejwou. Moi nwou ~P_ `nounai> moi nwou `nou`mton> moi nwou `nou`xbob> moi nwou `nou`\\mot> moi nwou `noubo`hqi`a> moi nwou `noucwthri`a> moi nwou `noumetrefxw `ebol `nte nounobi nem nou`anomi`a.",
+      "Coptic": "Yuxh niben et\\ej\\wj ouo\\ etou`amoni `ejwou. Moi nwou ~Psoic `nounai> moi nwou `nou`mton> moi nwou `nou`xbob> moi nwou `nou`\\mot> moi nwou `noubo`hqi`a> moi nwou `noucwthri`a> moi nwou `noumetrefxw `ebol `nte nounobi nem nou`anomi`a.",
       "English": "All souls that are distressed or bound, grant them mercy. O Lord: grant them rest, grant them refreshment, grant them grace, grant them help, grant them salvation, grant them the forgiveness of their sins and their iniquities.",
       "Arabiccoptic": "إبسيشى نيفين إتهيجهوج أووه إيطو أمونى إيجؤو موى نوؤو إبشويس إن أوناى، موى نوؤو إن أو إمطون موى نوؤوإن أو إكفوف موى نوؤ إن أوإهموت موى نوؤوإن أوسوتيريا موى نوؤو إن أومتريفكوإيفول إنتى نونوفى نيم نو آنوميا",
       "Englishcoptic": "Epsheeshy niven et-heghog owoh eto-amoni ego-oo. Moi no-oo Epchois en-onai, moi no-oo eno-emton, moi no-oo en-o ekvob, moi no-oo eno ehmot, moi no-oo eno-voitheia, moi no-oo eno-soteria , moi no-oo en-o metrefko evol ente no-novi nem no-anomia."
@@ -292,7 +292,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ونحنُ أيضاً ياربُّ، أمراضَ نفوسِنا، اشفِها والتي لأجسادِنا، عافِها.",
-      "Coptic": "Anon de \\wn ~P_> ni]wni `nte nenyuxh matalswou> ouo\\ na nenkecwma `ariva=ri `erwou.",
+      "Coptic": "Anon de \\wn ~Psoic> ni]wni `nte nenyuxh matalswou> ouo\\ na nenkecwma `ariva=ri `erwou.",
       "English": "As for us, too, O Lord, the sicknesses of our souls, heal; and also those of our bodies, cure.",
       "Arabiccoptic": "انون ذى هون إبشويس نى شونى إنتى نين إبسيشى ماطالتشو أووه نان إن كى سوما أريف إخرىإيروؤو",
       "Englishcoptic": "Anon ze hon Epchois, ni-shoni ente nen-epseeshy matalcho, owoh na nen-kesoma  ari-fakhri ero-oo."

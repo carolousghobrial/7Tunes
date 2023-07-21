@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "ذكصولوجية عيد الختان",
   "EnglishTitle": "Circumcision Feast Doxology ",
-  "CopticTitle": "Apenoc? Ihc? Pxc?",
+  "CopticTitle": "Apensoic Ihcouc Pi`xrictoc",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ربنا يسوع المسيح ابن الله الحقيقي الذي تجسد من العذراء ولدته كصالح.",
-      "Coptic": "Apenoc? Ihc? Pxc?> `p}hri `m`Vnou; `alhqwc> vh`etafsicar[ =en ;Parqenoc> acmici `mmof \\wc `agaqoc.",
+      "Coptic": "Apensoic Ihcouc Pi`xrictoc> `p}hri `m`Vnou; `alhqwc> vh`etafsicar[ =en ;Parqenoc> acmici `mmof \\wc `agaqoc.",
       "English": "Our Lord Jesus Christ, the true Son of God, who was incarnate of the Virgin, she gave birth to the good One.",
       "Arabiccoptic": " آبينشويس إيسوس بخريستوس: إبشيرى إمفنوتى آليثوس: في إيطاف تشى ساركس خين تى بارثينوس: أسميسى إمموف هوس آغاثوس . ",
       "Englishcoptic": "Apenchois Isos Pikhrisots: Epsheeri em-Evnoti aleethoos: vee-etafchi-sarex khen ti-Parthenos: asmisi emmof hoos agha-thos."
@@ -43,7 +43,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "تهللوا اليوم بفرح يا جميع الأمم لان المسيح قبل إليه الختان عنا.",
-      "Coptic": "  Qelhl `mmwten `mvo`ou> nh`eqnoc throu =en `oura]i> je Pxc? af]wp `erof> `mpicebi `e`\\rhi `ejwn.",
+      "Coptic": "  Qelhl `mmwten `mvo`ou> nh`eqnoc throu =en `oura]i> je Pi`xrictoc af]wp `erof> `mpicebi `e`\\rhi `ejwn.",
       "English": "+ Rejoice today all you nations, and be glad, for Christ accepted unto Himself, circumcision on our behalf.",
       "Arabiccoptic": " ثيليل إمموتين إمفوؤ: نى إثنوس تيرو خين أوراشى: جى بخريستوس أفشوب إيروف: امبي سيفى إى إهري إيجون . ",
       "Englishcoptic": "Theleel emmoo-ten emvo-oo: nee-ethnos teeroo khen oorashi: je Pikhrisots afshoop erof: empi-sevi eehreei egoon."
@@ -76,7 +76,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ويدلنا علي المسيح أنه قبل الختان في اليوم الثامن كناموس موسي.",
-      "Coptic": "Ef;mhini nan `ejen Pxc?> je af]wp `erof `mpicebi> =en pima\\ `]mhn `n`e\\o`ou> kata `vnomoc `mMw`uchc.",
+      "Coptic": "Ef;mhini nan `ejen Pi`xrictoc> je af]wp `erof `mpicebi> =en pima\\ `]mhn `n`e\\o`ou> kata `vnomoc `mMw`uchc.",
       "English": "And he told us about Christ, that He accepted circumcision, on the eighth day, according to the Law of Moses.",
       "Arabiccoptic": " إفتى مينى نان إيجين بخرستوس: جى أفشوب إيروف إمبى سيفي: خين بى ماه إشمين إن إيهوؤ: كاطا إفنو موس إممو إيسيس . ",
       "Englishcoptic": "Efti-meeini nan ejen Pikhrisots: je af-shoop erof empisevi: khen pimah eshmeen en-eho-oo: kata ev-nomos em-Moisees."
@@ -87,7 +87,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "هلليلويا هلليلويا هلليلويا هلليلويا يسو ع المسيح ابن الله قبل إليه الختان كما ينبغي بالناموس.",
-      "Coptic": "  Allhlouia Allhlouia> allhlouia Allhlouia> Ihc? Pxc? `p}hri `m`Vnou;> af]wp `erof `mpicebi.",
+      "Coptic": "  Allhlouia Allhlouia> allhlouia Allhlouia> Ihcouc Pi`xrictoc `p}hri `m`Vnou;> af]wp `erof `mpicebi.",
       "English": "+ Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, accepted unto Himself circumcision.",
       "Arabiccoptic": " الليلويا الليلويا الليلويا الليلويا: ايسوس بخرستوس إبشيرى إمفنوتى: إفشوب إيروف إمبى سيفى . ",
       "Englishcoptic": "Alleloia Alleloia: Alleloia Alleloia: Isos Pikhrisots Epsheeri em-Evnoti: afshoop -erof empisevi."

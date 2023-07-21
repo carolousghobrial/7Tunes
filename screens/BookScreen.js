@@ -1,4 +1,10 @@
-import React, { useState, useRef, useEffect, useMemo } from "react";
+import React, {
+  useState,
+  useRef,
+  useCallback,
+  useEffect,
+  useMemo,
+} from "react";
 import Icon from "react-native-vector-icons/Ionicons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
@@ -12,123 +18,61 @@ import RitualView from "../components/ViewTypes/RitualView";
 import ButtonView from "../components/ViewTypes/ButtonView";
 import MainTitleView from "../components/ViewTypes/MainTitleView";
 import ExpanderView from "../components/ViewTypes/ExpanderView";
+import BishopModal from "./BishopModal";
 import LoadingScreen from "./LoadingScreen";
-import OriginalLoadingScreen from "./OriginalLoadingScreen";
 import SettingsModal from "../components/BottomBar/SettingsModal";
 import { getColor } from "../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 import FloatingButton from "../components/ViewTypes/FloatingBishopButton";
 const BookScreen = React.memo(({ navigation, route }) => {
   const flatListRef = useRef();
-  let labelColor = getColor("LabelColor");
-  var pageBackgroundColor = getColor("pageBackgroundColor");
+  const { bookPath, motherSource } = route.params;
+  const labelColor = getColor("LabelColor");
+  const pageBackgroundColor = getColor("pageBackgroundColor");
   const pagination = useSelector((state) => state.settings.pagination);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [NavbarVisibility, setNavbarVisibility] = useState(true);
-  const memoizedNavbarVisibility = useMemo(() => {
-    return NavbarVisibility;
-  }, [NavbarVisibility]);
-  const handleScroll = (event) => {
-    const currentPosition = event.nativeEvent.contentOffset.y;
-
-    if (currentPosition > scrollPosition) {
-      if (memoizedNavbarVisibility) {
-        setNavbarVisibility(false);
-      }
-    } else {
-      if (!memoizedNavbarVisibility) {
-        setNavbarVisibility(true);
-      }
-    }
-    setScrollPosition(currentPosition);
-  };
   const [settingsModalVisible, setsettingsModalVisible] = useState(false);
-  const [serviceQuestionsDone, setserviceQuestionsDone] = useState(false);
-  const [isMoreThan3BishopPresent, setisMoreThan3BishopPresent] =
-    useState(false);
-  const [bishopsPresent, setbishopsPresent] = useState([]);
-
-  const values = getFullViewModel(
-    route.params.bookPath,
-    route.params.motherSource,
-    isMoreThan3BishopPresent,
-    bishopsPresent
-  );
-  // const memoizedData = useMemo(() => values[0], [values[0]]);
-  const [bookContents, setbookContens] = useState(values[0]);
+  const BishopIsPresent = useSelector((state) => state.settings.isBishopHere);
+  const values = getFullViewModel(bookPath, motherSource);
+  const [bookContents, setBookContents] = useState(values[0]);
   const [isLoading, setIsLoading] = useState(true);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const isTablet = useSelector((state) => state.settings.isTablet);
   const [menuData, setMenuData] = useState(values[1]);
-  const [englishTitle, setenglishTitle] = useState(
+  const [englishTitle, setEnglishTitle] = useState(
     bookContents[0].EnglishTitle
   );
-  const [arabicTitle, setarabicTitle] = useState(bookContents[0].ArabicTitle);
+  const [arabicTitle, setArabicTitle] = useState(bookContents[0].ArabicTitle);
+
+  const handleScroll = useCallback(
+    (event) => {
+      const currentPosition = event.nativeEvent.contentOffset.y;
+      setNavbarVisibility(currentPosition <= scrollPosition);
+      setScrollPosition(currentPosition);
+    },
+    [scrollPosition]
+  );
+
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
     if (viewableItems.length > 0) {
+      const firstItem = viewableItems[0].item;
       if (
-        viewableItems[0].item.EnglishTitle !== englishTitle &&
-        viewableItems[0].item.EnglishTitle !== undefined
+        firstItem.EnglishTitle !== englishTitle &&
+        firstItem.EnglishTitle !== undefined
       ) {
-        setenglishTitle(viewableItems[0].item.EnglishTitle);
-        setarabicTitle(viewableItems[0].item.ArabicTitle);
+        setEnglishTitle(firstItem.EnglishTitle);
+        setArabicTitle(firstItem.ArabicTitle);
       }
     }
   }).current;
 
-  function scrollToKey(key) {
-    setenglishTitle(bookContents.find((item) => item.key === key).EnglishTitle);
-    flatListRef.current.scrollToIndex({
-      index: key,
-      animated: false,
-    });
-    navigation.pop();
-  }
-  const renderItems = ({ item }) => {
-    let content = {};
-    switch (item.part.Type) {
-      case "Base":
-        content = <BaseView item={item.part} mykey={item.key}></BaseView>;
-
-        break;
-      case "Melody":
-        content = <MelodyView item={item.part}></MelodyView>;
-
-        break;
-      case "Title":
-        content = <TitleView item={item.part}></TitleView>;
-
-        break;
-      case "Ritual":
-        content = <RitualView item={item.part}></RitualView>;
-
-        break;
-      case "MainTitle":
-        content = <MainTitleView item={item.part}></MainTitleView>;
-
-        break;
-      case "Button":
-        content = (
-          <ButtonView
-            item={item.part}
-            motherSource={route.params.bookPath}
-            flatListRef={flatListRef}
-            viewData={bookContents}
-            navigation={navigation}
-          ></ButtonView>
-        );
-        break;
-      default:
-        return <Text>Default</Text>;
-        break;
-    }
-    return <Pressable onPress={hideHeader}>{content}</Pressable>;
-  };
   useEffect(() => {
     navigation.setOptions({
       headerShown: NavbarVisibility,
     });
-  }, [NavbarVisibility]);
+  }, [NavbarVisibility, navigation]);
+
   useEffect(() => {
     var fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
     var fontsize = isTablet ? 30 : 15;
@@ -140,74 +84,110 @@ const BookScreen = React.memo(({ navigation, route }) => {
         fontFamily: fontfamily,
       },
     });
-  }, [englishTitle]);
+  }, [appLanguage, englishTitle, arabicTitle, isTablet, navigation]);
+
   useEffect(() => {
-    // const timer = setTimeout(checkCondition, 100); // Adjust the delay as needed
-    // return () => {
-    //   clearTimeout(timer);
-    // };
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 10);
   }, []);
 
-  const checkCondition = () => {
-    // Check your condition here
-    if (serviceQuestionsDone) {
-      setIsLoading(false);
-    } else {
-      setTimeout(checkCondition, 100); // Call checkCondition again after the delay
-    }
-  };
-  const settingsPressed = () => {
+  const settingsPressed = useCallback(() => {
     setsettingsModalVisible(true);
-  };
-  const contentsPressed = () => {
+  }, []);
+
+  const contentsPressed = useCallback(() => {
     const closest = menuData.reduce((a, b) => {
       return Math.abs(b.key - scrollPosition) < Math.abs(a.key - scrollPosition)
         ? b
         : a;
     });
-    console.log(closest);
     const HighlitedIndex = menuData.findIndex(
       (item) => item.key === closest.key
     );
-    console.log(HighlitedIndex);
     navigation.navigate("ContentsModal", {
       MainTitle: menuData[0],
       menuData: menuData,
       initialKey: HighlitedIndex,
       scrollToKey,
     });
-  };
+  }, [menuData, navigation, scrollPosition]);
+
   function closeModal() {
     setsettingsModalVisible(false);
   }
+  const HeaderRightButtons = ({ onPressSettings, onPressContents }) => {
+    return (
+      <>
+        <Pressable style={{ marginHorizontal: 5 }} onPress={onPressSettings}>
+          <Icon name="ios-settings-outline" size={30} color={labelColor} />
+        </Pressable>
+        <Pressable style={{ marginHorizontal: 5 }} onPress={onPressContents}>
+          <MaterialCommunityIcons
+            name="table-of-contents"
+            size={30}
+            color={labelColor}
+          />
+        </Pressable>
+      </>
+    );
+  };
   React.useLayoutEffect(() => {
+    const headerRightComponent = () => (
+      <HeaderRightButtons
+        onPressSettings={settingsPressed}
+        onPressContents={contentsPressed}
+      />
+    );
+
     navigation.setOptions({
-      headerRight: () => (
-        <>
-          <Pressable style={{ marginHorizontal: 5 }} onPress={settingsPressed}>
-            <Icon name="ios-settings-outline" size={30} color={labelColor} />
-          </Pressable>
-          <Pressable style={{ marginHorizontal: 5 }} onPress={contentsPressed}>
-            <MaterialCommunityIcons
-              name="table-of-contents"
-              size={30}
-              color={labelColor}
-            />
-          </Pressable>
-        </>
-      ),
+      headerRight: headerRightComponent,
     });
-  }, [navigation]);
-  function hideHeader() {
-    setNavbarVisibility(!NavbarVisibility);
+  }, [navigation, settingsPressed, contentsPressed]);
+  function scrollToKey(key) {
+    const item = bookContents.find((item) => item.key === key);
+    if (item) {
+      setEnglishTitle(item.EnglishTitle);
+      setArabicTitle(item.ArabicTitle);
+      flatListRef.current.scrollToIndex({ index: key, animated: false });
+      navigation.pop();
+    }
   }
+
+  const renderItems = ({ item }) => {
+    switch (item.part.Type) {
+      case "Base":
+        return <BaseView item={item.part} mykey={item.key} />;
+      case "Melody":
+        return <MelodyView item={item.part} />;
+      case "Title":
+        return <TitleView item={item.part} />;
+      case "Ritual":
+        return <RitualView item={item.part} />;
+      case "MainTitle":
+        return <MainTitleView item={item.part} />;
+      case "Button":
+        return (
+          <ButtonView
+            item={item.part}
+            motherSource={bookPath}
+            flatListRef={flatListRef}
+            viewData={bookContents}
+            navigation={navigation}
+          />
+        );
+      default:
+        return <Text>Default</Text>;
+    }
+  };
+
   function onScrollToIndexFailed(error) {
     flatListRef.current.scrollToOffset({
       offset: error.averageItemLength * error.index,
       animated: false,
     });
     setTimeout(() => {
-      if (flatListRef !== null) {
+      if (flatListRef.current !== null) {
         flatListRef.current.scrollToIndex({
           index: error.index,
           animated: false,
@@ -215,15 +195,11 @@ const BookScreen = React.memo(({ navigation, route }) => {
       }
     }, 10);
   }
-  function continueToBook(resultsObject) {
-    setisMoreThan3BishopPresent(resultsObject.threePlusBishops);
-    setbishopsPresent(resultsObject.bishopsPresent);
-    setIsLoading(false);
-  }
+
   if (isLoading) {
-    return <LoadingScreen continueToBook={continueToBook} />;
-    //return <OriginalLoadingScreen />;
+    return <LoadingScreen />;
   }
+
   return (
     <>
       <SettingsModal visible={settingsModalVisible} closeModal={closeModal} />
@@ -240,11 +216,9 @@ const BookScreen = React.memo(({ navigation, route }) => {
         bounces={false}
         removeClippedSubviews={true}
         renderItem={renderItems}
-        keyExtractor={(item) => {
-          return item.key;
-        }}
+        keyExtractor={(item) => item.key}
       />
-      <FloatingButton></FloatingButton>
+      {BishopIsPresent && <FloatingButton navigation={navigation} />}
     </>
   );
 });

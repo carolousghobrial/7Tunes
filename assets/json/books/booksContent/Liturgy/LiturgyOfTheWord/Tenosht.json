@@ -1,0 +1,16 @@
+{
+    "RefrainAfter": 0,
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "نسجد لك أيها المسيح مع أبيك الصالح والروح القدس لأنك [*COME/RISEN*]  وخلصتنا إرحمنا.",
+            "Coptic": "Tenouw]t `mmok `w Pi`xrictoc > nem Pekiwt `n `agaqoc > nem Pi`pneuma eqouab > je [*COME/RISEN*]  akcw; `mmon. Nai nan.",
+            "English": "We worship you O Christ : with your Good Father : and the Holy Spirit : for you [*COME/RISEN*]  and saved us. Have mercy on us.",
+            "Arabiccoptic": "تين أوأوشت إمموك أو بخرستوس. نيم بيك يوت إن أغاثوس. نيم بى إبنفما إثؤواب. جى [*COME/RISEN*]  أكسوتى إممون ناى نان .",
+            "Englishcoptic": "Ten o-osht emmok o pi-Ekhristos : nem Pekyot en agha-thos : nem pi epnevma Ethouab : je [*COME/RISEN*] aksoti emmon. Nai nan."
+        }
+    ]
+}

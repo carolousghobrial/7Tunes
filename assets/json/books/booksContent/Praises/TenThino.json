@@ -54,7 +54,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أعطنا يارب يقظة لكى نفهم كيف نقف أمامك وقت الصلاة .",
-      "Coptic": "Moi nan P_ `noumetrefernumvin > \\opwc `ntenka; `nten`o\\i `eraten `mpek`mqo `m`vnau `nte ;`proceuxh .",
+      "Coptic": "Moi nan Psoic `noumetrefernumvin > \\opwc `ntenka; `nten`o\\i `eraten `mpek`mqo `m`vnau `nte ;`proceuxh .",
       "English": "Grant us sobriety, O Lord, that we may know how to stand before You at times of prayer.",
       "Arabiccoptic": "موى نان إبشويس إن أوميتريف إيرنيم فين هوبوس إنتين كاتى إنتين أوهى إيراتين إمبيك إمثو إمفناف إنتى تى إبروس إفشى .",
       "Englishcoptic": "Moi nan Epshois en-ou-metref ernem-feen, hopos enten-kati enten-ouhi e-raten, empek-emtho, emifnav ente ti-epros-evshi."
@@ -76,7 +76,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هاباركوا الرب يا عبيد الرب المجد لك يا محب البشر",
-      "Coptic": "|hppe de `cmou `eP_ ni`ebiaik `nte P_ > do[a ci vilan`qrwpe.",
+      "Coptic": "|hppe de `cmou `eP_ ni`ebiaik `nte Psoic > do[a ci vilan`qrwpe.",
       "English": "Behold bless the Lord. O you servants of the Lord: Glory be to You, O Lover of Mankind.",
       "Arabiccoptic": "هيبى ذى إسمو إإبشويس نى إفي أيك إنتى إبشويس .  ذوكساسى فيلان إثروبى",
       "Englishcoptic": "Hippe ze esmo Epshois, ni-evi-aik ente Epshois. Zoxa si filan-ethrobe."
@@ -98,7 +98,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "بالليالى إرفعوا أيديكم إلى فوق أيها القديسون باركوا الرب المجد..",
-      "Coptic": "` N`\\rhi =en ni`ejwr\\ fai `nnetenjij `e`p]wi nheq?u? `cmou `eP_ > do[a ci vilan`qrwpe.",
+      "Coptic": "` N`\\rhi =en ni`ejwr\\ fai `nnetenjij `e`p]wi nheqouab `cmou `eP_ > do[a ci vilan`qrwpe.",
       "English": "By night, lift up your hands. O you saints, and bless the Lord: Glory be to You, O Lover of Mankind.",
       "Arabiccoptic": "إن إهرى خين نى إيجوره فاى إن نى تين جيج إإبشوى نى إثؤاب إسمو إإبشويس. ذوكساسى فيلان إثروبى",
       "Englishcoptic": "En-eheri khen ni-egorh, fai en-neten-jig, e-epshoi ni-ethowab esmo Epshois. Zoxa si filan-ethrobe."
@@ -109,7 +109,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يباركك الرب من صهيون الذى خلق السماء والأرض المجد لك يا محب البشر",
-      "Coptic": "P_/ ef`e`cmou `erok `ebol =en Ciwn > vh`etafqami`o `n`tve nem `pka\\i > do[a ci vilan`qrwpe.",
+      "Coptic": "Psoic/ ef`e`cmou `erok `ebol =en Ciwn > vh`etafqami`o `n`tve nem `pka\\i > do[a ci vilan`qrwpe.",
       "English": "The Lord bless you from Zion, who made heaven and earth: Glory be to You, O Lover of Mankind.",
       "Arabiccoptic": "إبشويس إف إإسمو إيروك إيفول خين سيون في إيطاف ثاميو إن إتفى نيم إبكاهى . ذوكساسى فيلان إثروبى",
       "Englishcoptic": "Epshois ef-e-esmo erok, evol khen Seion, fi-etaf-thamio en-etfe nem epkahi. Zoxa si filan-ethrobe."
@@ -120,7 +120,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فلتدن وسيلتى قدامك يارب كقولك فهمنى المجد لك يا محب البشر",
-      "Coptic": "Mare pa;\\o =wnt `mpek`mqo P_> maka; nhi kata pekcaji > do[a ci vilan`qrwpe.",
+      "Coptic": "Mare pa;\\o =wnt `mpek`mqo Psoic> maka; nhi kata pekcaji > do[a ci vilan`qrwpe.",
       "English": "Let my cry come near before You, O Lord. Give me understanding, according to Your word: Glory be to You, O Lover of Mankind.",
       "Arabiccoptic": "مارى باتيهو خونت إمبيك إمثو إبشويس ماكاتى نى كاطا بيك ساجى . ذوكساسى فيلان إثروبى.",
       "Englishcoptic": "Mare pati-ho, khont empek-emtho Epshois, makati ni-kata pek-saji. Zoxa si filan-ethrobe."
@@ -132,7 +132,7 @@
       "Side": "South",
       "Arabic": "ليدخل إبتهالى أمامك ككلمتك أحينى المجد لك يا محب البشر",
       "Coptic": "Ef`e`i `e=oun `mpek`mqo `nje pa `a[i`wma > kata pekcaji matan=oi > do[a ci vilan`qrwpe.",
-      "English": "Let my supplication come before You. Deliver me according to Your word: Glory be to You, O Lover of Mankind.",
+      "English": "Let my supplication come before You. Revice me according to Your word: Glory be to You, O Lover of Mankind.",
       "Arabiccoptic": "إف إ إى إيخون إمبيك إمثو إنجى با أكسيوما كاطا بيك ساجى ماطانخوى. ذوكساسى فيلان إثروبى.",
       "Englishcoptic": "Ef-e-ee ekhoun em-pek emtho enje pa-axyoma kata pek-saji matan-khoi. Zoxa si filan-ethrobe."
     },
@@ -175,7 +175,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "إشتقت إلى خلاصك يارب وناموسك هو تلاوتى المجد لك يا محب البشر",
-      "Coptic": "Aisi]]wou `mpekoujai P_ > ouo\\ peknomoc pe tameleth > do[a ci vilan`qrwpe.",
+      "Coptic": "Aisi]]wou `mpekoujai Psoic > ouo\\ peknomoc pe tameleth > do[a ci vilan`qrwpe.",
       "English": "I longed for Your salvation, O Lord, and Your law is my delight: Glory be to You, O Lover of Mankind.",
       "Arabiccoptic": "أي إتشيشو أو إمبيك أوجاى إبشويس أووه بيك نوموس بى تا ميليتى .  ذوكساسى فيلان إثروبى.",
       "Englishcoptic": "Aichish-sho-ou empek ougai Epshois, owoh pek-nomos pe-tameleti. Zoxa si filan-ethrobe."
@@ -230,7 +230,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "المجد للآب والإبن والروح القدس منذ الآن وإلى أبد الأبدين كلها آمين المجد لك يا محب البشر.",
-      "Coptic": "Pi`wou `m`Viwt nem P]hri nem Pipn?a eq?u? > icjen ;nou nem ]a `ene\\ `nte ni`ene\\ throu `amhn > do[a ci vilan`qrwpe.",
+      "Coptic": "Pi`wou `m`Viwt nem P]hri nem Pipn?a eqouab > icjen ;nou nem ]a `ene\\ `nte ni`ene\\ throu `amhn > do[a ci vilan`qrwpe.",
       "English": "Glory to the Father and the Son and the Holy Spirit, from now and unto the age of all ages. Amen: Glory be to You, O Lover of Mankind.",
       "Arabiccoptic": "بى اوأو إم إفيوت نيم إبشيرى نيم بى إبنفما إثؤاب يسجين تينو نيم شا إينيه إنتى نى إينيه تيرو آمين ذوكساسى فيلان إثروبى",
       "Englishcoptic": "Pi-o-ou em-Efiout, nem ep-Shiri, nem pi-Epnevma ethowab, yes-jen tinou nem sha eneh ente ni-eneh tiro. Amen. Zoxa si filan-ethrobe."
@@ -241,7 +241,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "المجد لك يامحب البشر الصالح السلام لأمك العذراء وجميع قديسيك المجد..",
-      "Coptic": "Pi`wou nak pimairwmi `n`agaqoc > xere `ntekmau `mparqenoc nem nheq?u? throu `ntak > do[a ci vilan`qrwpe.",
+      "Coptic": "Pi`wou nak pimairwmi `n`agaqoc > xere `ntekmau `mparqenoc nem nheqouab throu `ntak > do[a ci vilan`qrwpe.",
       "English": "Glory be to You O Good One the Lover of Mankind. Glory be to Your Mother the Virgin and all Your saints: Glory be to You, O Lover of Mankind.",
       "Arabiccoptic": "بى أوأو ناك بى ماى رومى إن أغاثوس شيرى إنتيك ماف إمبارثينوس نيم نى إثؤاب تيرو إنتاك ذوكسا..",
       "Englishcoptic": "Pi-o-ou nak pi-mairomi en-agha-thos, pi-o-ou entek-mav em-Parthenos, nem ni-ethowab tiro entak. Zoxa si filan-ethrobe."
@@ -263,7 +263,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ليقم الله وليتبدد جميع أعدائه وليهرب من قدام وجهه كل مبغضى إسمه القدوس المجد لك يا محب البشر.",
-      "Coptic": "Mareftwnf `nje Vnou; > maroujwr `ebol `nje nefjaji throu > marouvwt `ebol =a `t\\h `mpef\\o `nje ouon niben eqmoc; `mpefran eq?u? > do[a ci vilan`qrwpe.",
+      "Coptic": "Mareftwnf `nje Vnou; > maroujwr `ebol `nje nefjaji throu > marouvwt `ebol =a `t\\h `mpef\\o `nje ouon niben eqmoc; `mpefran eqouab > do[a ci vilan`qrwpe.",
       "English": "Let God arise and let all His enemies be scattered, and let all that hate His holy name flee from before His face: Glory be to You, O Lover of Mankind.",
       "Arabiccoptic": "ماريف طونف إنجى إفنوتى ماروجور إيفول إنجى نيف جاجى تيرو مارو فوت إيفول خا إتهى إمبيف هو إنجى أؤون نيفين إثموستى إمبيفران إثؤاب ذوكسا ..",
       "Englishcoptic": "Maref-tonf enje Efnouti, marou-gor evol enje nef-gaje tiro, maro-vot evol kha-et-he empefho enje ou-on niven eth-mosti em-pefran ethowab. Zoxa si filan-ethrobe."
@@ -285,7 +285,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يارب إفتح شفتى ولينطق فمى بتسبحتك.",
-      "Coptic": "P_ ek`e`aouwn `nna`cvotou > ouo\\ `ere rwi jw `mpek`cmou .",
+      "Coptic": "Psoic ek`e`aouwn `nna`cvotou > ouo\\ `ere rwi jw `mpek`cmou .",
       "English": "O Lord, open my lips, and my mouth shall show forth Your praise.",
       "Arabiccoptic": "إبشويس إك إ أ أو أون أن نا إسفوطو أووه إيرى روى جو إمبيك إسمو .",
       "Englishcoptic": "Epshois ek-e a-ou-own, enna esvoto, owoh ere roy go empek esmo"

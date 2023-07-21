@@ -21,7 +21,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ياإلهى لاتتركنى عنك. بل ردَّنى إليك. لأصنع إرادتك. من أجل قديستك .",
-      "Coptic": "Panou; `mperxat `ncwk > alla matacqoi \\arok > `nta`iri `mpete\\nak > eqbe qheq?u? `ntak.",
+      "Coptic": "Panou; `mperxat `ncwk > alla matacqoi \\arok > `nta`iri `mpete\\nak > eqbe qheqouab `ntak.",
       "English": "O my God do not turn away from me, but bring me back to You, to do Your will, for the sake of Your saint.",
       "Arabiccoptic": "بانوتى إمبير كات إنسوك. اللا ماطاستوى هاروك. إنتا إيرى إمبي تيهناك. إثفى ثى إثؤاب إنتاك",
       "Englishcoptic": "Panouty emper kat enthok, alla matas toi harok, enta iri empe tehnak, ethve thi ethowab entak."
@@ -32,7 +32,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": " من أجل قديستك . مريم موضع راحتك . التى أمرت موسى عبدك . صنع مثالها .",
-      "Coptic": "Eqbe qheq?u? `ntak > Mari`a `vma`nemton `mmok > `etak\\on\\en `mMw`uchc pekbwk > afqami`o `mpectupoc .",
+      "Coptic": "Eqbe qheqouab `ntak > Mari`a `vma`nemton `mmok > `etak\\on\\en `mMw`uchc pekbwk > afqami`o `mpectupoc .",
       "English": "For the sake of Your saint, Mary Your resting place, concerning whom You ordered your servant Moses, to make a simple of.",
       "Arabiccoptic": " إثفى ثى إثؤاب إنتاك . ماريا إفما إن إمطون إمموك. إيطاك هونهين إم مويسيس بيك فوك. أفثاميو إمبيس تيبوس.",
       "Englishcoptic": "Ethve thi ethowab entak, Maria efma en emton emmok, etak honhen em moisis pekvok, afthamio empes typos."
@@ -87,7 +87,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "نمجدك أيتها الأمينة. الحاملة كلمة الآب . قائلين إفرحى يا ممتلئة نعمة . الرب معك .",
-      "Coptic": "Ten;`wou ne `w qh`eten\\ot > etfai =a pilogoc `nte `Viwt > je xere qheqme\\ `n`\\mot > ouo\\ P_ ]wp neme .",
+      "Coptic": "Ten;`wou ne `w qh`eten\\ot > etfai =a pilogoc `nte `Viwt > je xere qheqme\\ `n`\\mot > ouo\\ Psoic ]wp neme .",
       "English": "We glorify you O faithful one, who carried the Word of the Father, \"Hail to you O full of grace, the Lord is with you.\"",
       "Arabiccoptic": "تين تى أوأونى أوثى إتين هوت. إتفاى خا بي لوغوس إنتى إفيوت. جى شيرى ثى إثميه إن إهموت. أووه إبشويس شوب نيمى .",
       "Englishcoptic": "Tenti o-o ne wthi etenhot, etfai khapi loghos ente Efiot, je shere thi ethmeh en ehmot, Ouwoh epshois shop neme"

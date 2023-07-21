@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلوات سيديّ الأبوين محبي أولادهما أنبا أنطونيـــــوس و أنبا بولا .  يا رب  .  .  .  .  .  . ",
+      "Coptic": "/|iten nieuxh `nte nasoic `nio; `mmainou]hri abba Antonioc nem abba Paule > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the prayers of my lords and fathers who love their children, Abba Anthony and Abba Paul, O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين ني إفشي انتي ناشويس انيوتي إمماي نو شيري آفا أنطونيوس نيم آفا بافليَ .  إبتشويس .  .  .  .  .  . ",
+      "Englishcoptic": "/Hiten nievshee ente nachois enioti emmainooosheeri abva Antonios nem abva Pavle : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

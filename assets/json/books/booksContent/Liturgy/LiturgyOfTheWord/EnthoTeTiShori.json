@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت هي المجمرة الذهب النقي، حاملة جمر النار المباركة.",
+      "Coptic": "Nqo te ;]ourh> `nnoub `nkaqaroc> etfai =a pijebc> `n`xrwm et`cmarwout.",
+      "English": "You are the censer made of pure gold, carrying the blessed and live coal.",
+      "Arabiccoptic": "انثو تية تى شورى ان نوب ان كاثاروس اتفاى خا بى چيبس ان إكروم إت إسماروأوت.",
+      "Englishcoptic": "Ntho te tishoooree: ennooov enkatharos: etfai kha pijebs: enekhroom etesmarooooot."
+    }
+  ]
+}

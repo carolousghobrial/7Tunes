@@ -12,7 +12,7 @@ import {
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import { useDispatch, useSelector } from "react-redux";
 import { setdioceseBishop } from "../../stores/redux/settings";
-
+import BishopPresentView from "../../screens/BishopPresentView";
 import React, { useState, useRef, useEffect } from "react";
 import BishopsPopup from "./bishopsPopup";
 const bishopsList = require("../../assets/json/bishopsList.json");
@@ -125,7 +125,7 @@ function PopeBishop() {
             </Pressable>
           </View>
         </View>
-        <View></View>
+        <BishopPresentView></BishopPresentView>
       </View>
     </>
   );

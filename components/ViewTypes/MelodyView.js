@@ -1,87 +1,59 @@
-import { StyleSheet } from "react-native";
-import {
-  View,
-  Button,
-  Platform,
-  TextInput,
-  Text,
-  Image,
-  Pressable,
-} from "react-native";
-import { getCopticDateString } from "../../helpers/copticMonthsHelper";
-import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
-import moment from "moment";
-import { useDispatch, useSelector } from "react-redux";
+import { StyleSheet, Text, View } from "react-native";
+import { useSelector } from "react-redux";
+import React from "react";
 import {
   getLanguageValue,
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers.js";
-import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
-import "moment/locale/en-gb"; // import the locale for UK English
-import React, { useState, useEffect, memo } from "react";
-
 function MelodyView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
-  let textColor = "";
-  const testAlignText = Platform.OS === "ios" ? "justify" : "right";
-
-  switch (item.Side) {
-    case "North":
-      textColor = getColor("NorthColor");
-      break;
-    case "South":
-      textColor = getColor("SouthColor");
-      break;
-    case "Refrain":
-      textColor = getColor("RefrainColor");
-      break;
-    case "Priest":
-      textColor = getColor("PriestColor");
-      break;
-    case "Deacon":
-      textColor = getColor("DeaconColor");
-      break;
-    case "People":
-      textColor = getColor("PeopleColor");
-      break;
-    case "Reader":
-      textColor = getColor("ReaderColor");
-      break;
-    case "Title":
-      textColor = getColor("NorthColor");
-      break;
-    default:
-      break;
-  }
+  const textColor = getColorBySide(item.Side);
   const englishVisible = useSelector((state) => state.settings.english);
   const arabicVisible = useSelector((state) => state.settings.arabic);
 
+  function getColorBySide(side) {
+    switch (side) {
+      case "North":
+        return getColor("NorthColor");
+      case "South":
+        return getColor("SouthColor");
+      case "Refrain":
+        return getColor("RefrainColor");
+      case "Priest":
+        return getColor("PriestColor");
+      case "Deacon":
+        return getColor("DeaconColor");
+      case "People":
+        return getColor("PeopleColor");
+      case "Reader":
+        return getColor("ReaderColor");
+      case "Title":
+        return getColor("NorthColor");
+      default:
+        return "";
+    }
+  }
+
+  const testAlignText = Platform.OS === "ios" ? "justify" : "right";
+
   return (
     <View style={styles.bookView}>
-      {englishVisible ? (
+      {englishVisible && (
         <View style={styles.textView}>
-          <Text
-            style={[
-              styles.english,
-              {
-                fontSize: fontSize,
-                color: textColor,
-              },
-            ]}
-          >
+          <Text style={[styles.english, { fontSize, color: textColor }]}>
             {item.English}
           </Text>
         </View>
-      ) : null}
+      )}
 
-      {arabicVisible ? (
+      {arabicVisible && (
         <View style={styles.textView}>
           <Text
             style={[
               styles.arabic,
               {
-                fontSize: fontSize,
+                fontSize,
                 color: textColor,
                 textAlign: testAlignText,
                 lineHeight: fontSize * 1.8,
@@ -91,7 +63,7 @@ function MelodyView({ item }) {
             {item.Arabic}
           </Text>
         </View>
-      ) : null}
+      )}
     </View>
   );
 }
@@ -120,4 +92,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default memo(MelodyView);
+export default React.memo(MelodyView);

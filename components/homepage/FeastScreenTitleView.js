@@ -1,38 +1,19 @@
 import {
   View,
-  Switch,
   StyleSheet,
   Text,
   Pressable,
   ImageBackground,
-  FlatList,
-  Picker,
-  Modal,
   useWindowDimensions,
 } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
-import React, { useState, useRef, useEffect } from "react";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers";
-import Colors from "../../constants/colors.js";
-import { useDispatch, useSelector } from "react-redux";
-import { changeTextLanguage } from "../../stores/redux/settings.js";
+import React from "react";
+import { getLanguageValue } from "../../helpers/SettingsHelpers";
+import { useSelector } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
 
 function FeastScreenTitleView({ liveClicked, yearClick }) {
   const navigation = useNavigation();
-  const dispatch = useDispatch();
   const timeTransition = useSelector((state) => state.settings.timeTransition);
-
-  let flexDirection = "row";
-
-  const [visible, setvisible] = useState(false); // initialize the selected year to the first year in the array
-  const onYearChange = (year) => {
-    setSelectedYear(year);
-  };
 
   const { width, height } = useWindowDimensions();
 
@@ -46,22 +27,20 @@ function FeastScreenTitleView({ liveClicked, yearClick }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
 
   return (
-    <>
-      <ImageBackground
-        source={require("../../assets/images/titleBackground.png")}
-      >
-        <View style={{ flexDirection: "row", width: "100%" }}>
-          <Pressable style={styles.LiveContainer} onPress={liveClicked}>
-            <Text style={styles.LiveText}>
-              {getLanguageValue("setCurrentDate")}
-            </Text>
-          </Pressable>
-          <Pressable style={styles.titleView} onPress={yearClick}>
-            <Text style={styles.YearFont}> {getLanguageValue("setYear")}</Text>
-          </Pressable>
-        </View>
-      </ImageBackground>
-    </>
+    <ImageBackground
+      source={require("../../assets/images/titleBackground.png")}
+    >
+      <View style={{ flexDirection: "row", width: "100%" }}>
+        <Pressable style={styles.LiveContainer} onPress={liveClicked}>
+          <Text style={styles.LiveText}>
+            {getLanguageValue("setCurrentDate")}
+          </Text>
+        </Pressable>
+        <Pressable style={styles.titleView} onPress={yearClick}>
+          <Text style={styles.YearFont}> {getLanguageValue("setYear")}</Text>
+        </Pressable>
+      </View>
+    </ImageBackground>
   );
 }
 
@@ -77,7 +56,6 @@ const styles = StyleSheet.create({
     flex: 3,
     margin: 3,
     backgroundColor: "lightgray",
-
     borderWidth: 5,
     borderColor: "black",
   },

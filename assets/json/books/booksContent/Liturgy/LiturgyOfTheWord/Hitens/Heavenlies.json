@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بشفاعاتِ رؤساءِ الملائكةِ السبعةِ والطغماتِ السمائيةِ، ياربُّ ...",
+      "Coptic": "|iten ni`precbia `nte pi]a]f `narxiaggeloc nem nitagma `nepouranion> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the intercessions of the seven archangels, and the heavenly orders, O Lord ....",
+      "Arabiccoptic": "هيتين ني إبريسفيا إنتي بي شاشف إن أرشي آنجيلوس نيم ني طغما إن إيبورانيون إبشويس.",
+      "Englishcoptic": "Hiten niepresvia ente pishashf enarshiangelos nem nitaghma enepoooranion: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

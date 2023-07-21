@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "بي اناغنوستيس:",
+      "Englishcoptic": "Pi-Anaghnostis:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الكاثوليكون من رسالة ابينا (...)، يا أحبائى",
+      "Coptic": "Kaholikon e~bol=en ;`ectolh `nte peniwt ___ namenra;.",
+      "English": "The catholic [epistle] from the epistle of our father (...), my beloved.",
+      "Arabiccoptic": "كاثوليكون إيفول خين تي إبيستولي إنتيه بين يوت ( .  .  .  . ) نامين راتي . ",
+      "Englishcoptic": "Kaeeolikon e~volkhen ti-estolee ente penioot oisoisois namenrati."
+    }
+  ]
+}

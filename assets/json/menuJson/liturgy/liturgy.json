@@ -8,7 +8,8 @@
             "hasSubBooks": false,
             "BookPath": "vespers",
             "ImageURL": "censer",
-            "Enabled": true
+            "Enabled": true,
+            "BishopButton": true
         },
         {
             "EnglishTitle": "Matins",
@@ -18,7 +19,8 @@
             "hasSubBooks": false,
             "BookPath": "matins",
             "ImageURL": "censer",
-            "Enabled": true
+            "Enabled": true,
+            "BishopButton": true
         },
         {
             "EnglishTitle": "Holy Liturgy",
@@ -28,8 +30,7 @@
             "hasSubBooks": true,
             "BookPath": "liturgyMenu",
             "ImageURL": "communion",
-            "Enabled": false,
-            "Released": false
+            "Enabled": true
         }
     ]
 }

@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلواتِ ناظرِ الإلهِ الإنجيلي مرقسَ الرسولِ، ياربُّ ...",
+      "Coptic": "|iten nieuxh `nte piqe`wrimoc `neuaggelicthc Markoc pi`apoctoloc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the prayers of the Beholder of God, the Evangelist Mark the Apostle, O Lord ....",
+      "Arabiccoptic": "هيتين ني إفكي إنتي بي ثيئوريموس إن أف آنجيليستيس ماركوس بي آبوسطولوس إبشويس.",
+      "Englishcoptic": "Hiten nievshee ente pithe-oorimos enevangelistees markos pi-apostolos: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

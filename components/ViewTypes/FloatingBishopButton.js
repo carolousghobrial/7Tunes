@@ -6,10 +6,13 @@ import {
   PanResponder,
   Animated,
   Text,
+  Pressable,
 } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
 
-function FloatingButton() {
+function FloatingButton({ navigation }) {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [buttonVisible, setbuttonVisible] = useState(true);
 
   const [pan] = useState(new Animated.ValueXY());
 
@@ -23,15 +26,27 @@ function FloatingButton() {
       setPosition({ x: position.x, y: position.y });
     },
   });
-
+  function OpenBishopPage() {
+    setbuttonVisible(false);
+    navigation.push("BookScreen", {
+      bookPath: "bishopEntrance",
+      motherSource: "matins",
+    });
+  }
   return (
-    <View style={styles.container}>
-      <Animated.View
-        {...panResponder.panHandlers}
-        style={[pan.getLayout(), styles.button]}
-      >
-        <Text>Bishop Arrived</Text>
-      </Animated.View>
+    <View>
+      {buttonVisible && (
+        <View style={styles.container}>
+          <Animated.View
+            {...panResponder.panHandlers}
+            style={[pan.getLayout(), styles.button]}
+          >
+            <Pressable onPress={OpenBishopPage}>
+              <Text>Bishop Arrived</Text>
+            </Pressable>
+          </Animated.View>
+        </View>
+      )}
     </View>
   );
 }

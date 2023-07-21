@@ -18,7 +18,8 @@
             "hasSubBooks": true,
             "BookPath": "mp",
             "ImageURL": "mp",
-            "Enabled": true
+            "Enabled": true,
+            "BishopButton": true
         },
         {
             "EnglishTitle": "Morning Doxology",

@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "التفسير المعقب الأول",
   "EnglishTitle": "The First Moaqap Explanation ",
-  "CopticTitle": "Aina\\wc nak P_ `nounai ",
+  "CopticTitle": "Aina\\wc nak Psoic `nounai ",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": " أسبحك يارب الرحمة . وأطلب خلاصك . إفهمنى كرحمتك . إغفر لى جهالتى .",
-      "Coptic": "Aina\\wc nak P_ `nounai > ainakw; `nca pekoujai > maka; nhi kata peknai > xw nh `ebol `ntametat\\ht .",
+      "Coptic": "Aina\\wc nak Psoic `nounai > ainakw; `nca pekoujai > maka; nhi kata peknai > xw nh `ebol `ntametat\\ht .",
       "English": "I will praise You O Lord of mercy, I will seek Your salvation, teach me according to Your mercy, forgive me my ignorance.",
       "Arabiccoptic": "أيناهوس ناك إبشويس إن أوناى. أيناكوتى إنسابيك أوجاى. ماكاتى نى كاطا بيك ناى. كونى إيفول إنتا ميت أتهيت .",
       "Englishcoptic": "Ainahos nak epshois en ogai, aina koty ensa pek ogai, makaty ni kata peknai, koni evol enta met at heet."
@@ -98,7 +98,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": " نمجدك أيتها الأمينة. الحاملة كلمة الآب . قائلين إفرحى يا ممتلئة نعمة . الرب معك .",
-      "Coptic": "Ten;`wou ne `w qh`eten\\ot > etfai =a pilogoc `nte `Viwt > je xere qheqme\\ `n`\\mot > ouo\\ P_ ]wp neme .",
+      "Coptic": "Ten;`wou ne `w qh`eten\\ot > etfai =a pilogoc `nte `Viwt > je xere qheqme\\ `n`\\mot > ouo\\ Psoic ]wp neme .",
       "English": "We glorify you O trusted one, who carried the Word of the Father saying, \"Hail to you O full of grace, the Lord is with you.\"",
       "Arabiccoptic": "تين تى أوأونى أوثى إتين هوت. إتفاى خا بي لوغوس إنتى إفيوت. جى شيرى ثى إثميه إن إهموت. أووه إبشويس شوب نيمى .",
       "Englishcoptic": "Tenti o-o ne wthi etenhot, etfai khapi loghos ente Efiot, je shere thi ethmeh en ehmot, Ouwoh epshois shop neme"

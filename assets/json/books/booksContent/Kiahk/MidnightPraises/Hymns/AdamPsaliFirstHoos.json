@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "إبصالية أدام على الهوس الأول",
   "EnglishTitle": "Adam Psali on the First Hoos",
-  "CopticTitle": "`A P_ erouro",
+  "CopticTitle": "`A Psoic erouro",
   "Hymn": [
     {
       "Type": "Ritual",
@@ -18,7 +18,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الرب قد ملك. وإشتمل بالبهاء. والمجد والكرامة . وتمنطق بالقوة.",
-      "Coptic": "`A P_ erouro> af; `noucai \\iwtf > nem `p`wou nem `ptai`o > ouo\\ =en pijom afmorf .",
+      "Coptic": "`A Psoic erouro> af; `noucai \\iwtf > nem `p`wou nem `ptai`o > ouo\\ =en pijom afmorf .",
       "English": "The Lord has reigned : and was clothed with splendor : with glory and honor : and also power",
       "Arabiccoptic": "أ إبشويس إير أورو . أفتى أن أوساى هيوتف . نيم إبؤأو نيم إبطايو . أووه خين بيجوم أفمورف .",
       "Englishcoptic": "A Epshois e roro, afti en o-sai hiotf, nem ep o-o nem eptaio, owoh khen tigom afmorf."
@@ -29,7 +29,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أيها الملك الآب. رب القوات . بالقطع قد قُطِعَ. ماء البحر .",
-      "Coptic": "Bacilie ` Viwt > P_ `nte nijom > =en ou]wt af]wt > `nje pimwou `nte `viom .",
+      "Coptic": "Bacilie ` Viwt > Psoic `nte nijom > =en ou]wt af]wt > `nje pimwou `nte `viom .",
       "English": "The Father the King : the Lord of powers : with the split : the waters of the sea split.",
       "Arabiccoptic": "فاسيليى إفيوت . إبشويس إنتى نيجوم . خين اوشوت أفشوت . إنجى بيموأو إنتى إفيوم .",
       "Englishcoptic": "Vasilie Efiot, Epshois ente nigom, khen oshot afshot, enje pimo-o ente efiom."
@@ -139,7 +139,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "فليشرق فينا. نور لاهوتك. العظيم كل حين. أيها المسيح إلهنا .",
-      "Coptic": "Maref`a]ai `n=hten > `nje `vouwini `nte tekmeqnou; > pini]; `nchou niben > `w Pxc? Pennou; .",
+      "Coptic": "Maref`a]ai `n=hten > `nje `vouwini `nte tekmeqnou; > pini]; `nchou niben > `w Pi`xrictoc Pennou; .",
       "English": "May the light of Your divinity : shine within us : that is great at all times : O Christ our God",
       "Arabiccoptic": "ماريف أشاى إنخيتين. إنجى إفؤوينى إنتى تيك ميثنوتى . بينيشتى إنسيو نيفين . أوبخريستوس بين نوتى .",
       "Englishcoptic": "Maref ashai enkhiten, enje ef-o-oiny ente tek methnouty, pi nishty ensio niven, o Pikhristos pennouty."
@@ -150,7 +150,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "إرحمنا ونجنا. يا يسوع المسيح الكلمة. النور الحقيقى. الآتى إلى العالم .",
-      "Coptic": "Nai nan ouo\\ na\\men > Ihc? Pxc? pilogoc > piouwini `nta`vmhi > eqnhou `epikocmoc .",
+      "Coptic": "Nai nan ouo\\ na\\men > Ihcouc Pi`xrictoc pilogoc > piouwini `nta`vmhi > eqnhou `epikocmoc .",
       "English": "Have mercy and save us : O Jesus Christ the Word : the true Light : who comes into the world.",
       "Arabiccoptic": "ناى نان اووه ناهمين. إيسوس بخريستوس بيلوغوس. بى أوأوينى إنتا إفمى. إثنيو إبيكوزموس .",
       "Englishcoptic": "Nai nan owoh nahmen, Isos Pikhristos piloghos, pi o-oiny enta efmei, ethneo epi kosmos."
@@ -216,7 +216,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "قم أيها الرب الإله. وأعنا. لأنك أنت هو ناصرنا. ومخلصنا .",
-      "Coptic": "Twnk P_ Vnou; > `aribo`hqin `eron > je `nqok pe penna]; > ouo\\ cw/r/ `hmon .",
+      "Coptic": "Twnk Psoic Vnou; > `aribo`hqin `eron > je `nqok pe penna]; > ouo\\ cw/r/ `hmon .",
       "English": "Arise O Lord God : and help us : for You are our victory : and our Savior.",
       "Arabiccoptic": "طونك إبشويس إفنوتى. أرى فويثين إيرون. جى إنثوك بى بين ناشتى. أووه سوتير إيمون .",
       "Englishcoptic": "Tonk Epshois Evnouty, Ari voithin eron, je enthok pe pen nashty, owoh soteer eimon."
@@ -249,7 +249,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "السلام لك يا مريم. سلاما مقدساً. السلام لك يا مريم أم القدوس.",
-      "Coptic": "Xere ne Mari`a > =en ouxere `fouab > xere ne Mari`a > `qmau `mvh eq?u? .",
+      "Coptic": "Xere ne Mari`a > =en ouxere `fouab > xere ne Mari`a > `qmau `mvh eqouab .",
       "English": "Hail to you O Mary : a holy hail :hail to you O Mary : the mother of the Holy One.",
       "Arabiccoptic": "شيرى نى ماريا . خين أوشيرى إفؤاب . شيرى نى ماريا . إثماف إمفى إثؤواب.",
       "Englishcoptic": "Shere ne Maria, khen o shere evouab, shere ne Maria ethmav emvi Ethowab."
@@ -260,7 +260,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "السلام لك يامريم. الحمامة الحسنة. السلام لك يامريم. أم يسوع المسيح .",
-      "Coptic": "Xere ne Mari`a > ;`srompi eqnecwc > Xere ne Mari`a > `qmau `nIhc? Pxc? .",
+      "Coptic": "Xere ne Mari`a > ;`srompi eqnecwc > Xere ne Mari`a > `qmau `nIhcouc Pi`xrictoc .",
       "English": "Hail to you O Mary : the beautiful dove : hail to you O Mary : the mother of Jesus",
       "Arabiccoptic": "شيرى نى ماريا. تى إتشرومبى إثنيسوس . شيرى نى ماريا . إثماف إن إيسوس بخريستوس.",
       "Englishcoptic": "Shere ne Maria, ti etchrompi ethnesos, shere ne Maria, ethmav en Isos Pikhristos."

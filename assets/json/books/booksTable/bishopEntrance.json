@@ -1,0 +1,24 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "طرح",
+            "English": "Hymns for the Entrance of a Bishop"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionEflogimenos",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationEkesmarot",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

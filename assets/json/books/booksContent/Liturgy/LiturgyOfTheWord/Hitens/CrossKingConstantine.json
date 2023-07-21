@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلوات سيدي الملك قسطنطين وأمه الملكة هيلانة يارب...",
+      "Coptic": "|iten nieuxh `nte pa_ `pouro Kwctantinoc > nem `Hlanh ;ourw  > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the prayers of my lord King Constantine and his mother, Queen Helen, O Lord ….",
+      "Arabiccoptic": "هيتين ني إفكي إنتي  باشويس إبؤرو كوستانتينوس. نيم إيلانى تى أورو إبشويس.",
+      "Englishcoptic": "Hiten nievshee ente paois epoooro Koostantinos : nem -Eelanee tioooroo  : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}
