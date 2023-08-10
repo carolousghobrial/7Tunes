@@ -132,21 +132,21 @@ function HomepageScreen({ navigation, route }) {
     setIsLoading(false);
 
     if (item.hasSubBooks) {
-      navigation.push("HomepageScreen", {
+      navigation.navigate("HomepageScreen", {
         bookPath: BookPath,
         englishTitle: EnglishTitle,
         arabicTitle: ArabicTitle,
       });
     } else {
       if (mother !== undefined) {
-        navigation.push("BookScreen", {
+        navigation.navigate("BookScreen", {
           bookPath: BookPath,
           englishTitle: EnglishTitle,
           arabicTitle: ArabicTitle,
           motherSource: mother,
         });
       } else {
-        navigation.push("BookScreen", {
+        navigation.navigate("BookScreen", {
           bookPath: BookPath,
           englishTitle: EnglishTitle,
           arabicTitle: ArabicTitle,
@@ -156,7 +156,6 @@ function HomepageScreen({ navigation, route }) {
   };
 
   const onLongPress = async (item) => {
-    console.log("LONGG");
     if (item.BishopButton !== undefined) {
       setbishopModalVisible(true);
     }

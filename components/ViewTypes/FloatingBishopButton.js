@@ -28,7 +28,7 @@ function FloatingButton({ navigation }) {
   });
   function OpenBishopPage() {
     setbuttonVisible(false);
-    navigation.push("BookScreen", {
+    navigation.navigate("BookScreen", {
       bookPath: "bishopEntrance",
       motherSource: "matins",
     });

@@ -35,7 +35,7 @@
       "Coptic": "`mpeniwt ettaihout n~arxiereuc papa abba [*POPE*] ",
       "English": "of our honored father, the high priest, Pope Abba [*POPE*], ",
       "Arabiccoptic": "إمبين يوت إت طايوت إن أرشى إيرفس بابا آفا [*POPE*]",
-      "Englishcoptic": "empenioot ettaieeoot n~arshierevs papa abva [*POPE*]"
+      "Englishcoptic": "empenioot ettaieeoot n~arshierevs papa Avva [*POPE*]"
     },
     {
       "Type": "Base",
@@ -58,17 +58,6 @@
       "English": "and our father the bishop , Abba [*DIOCESE_BISHOP*], ",
       "Arabiccoptic": "نيم بينيوت ان ابيسكوبوس افا [*DIOCESE_BISHOP*]",
       "Englishcoptic": "nem penioot en-episkopos Avva [*DIOCESE_BISHOP*]:"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": "IsDiocesePope",
-      "Side": "North",
-      "Arabic": "وأبينا الأسقف (المطران) أنبا __ ",
-      "Coptic": "nem peniwt `n`epickopoc (`mmhtropolithc) abba (…)> ",
-      "English": "and our father the bishop (metropolitan), Abba ___, ",
-      "Arabiccoptic": "نيم بينيوت ان ابيسكوبوس افا ___",
-      "Englishcoptic": "nem penioot en-episkopos (emmeetropolitees) abva (…):"
     },
     {
       "Type": "Base",

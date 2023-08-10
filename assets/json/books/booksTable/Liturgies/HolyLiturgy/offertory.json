@@ -81,18 +81,6 @@
             "Rule": 0,
             "Visible": true,
             "mother": "liturgy"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyOffertoryNiSavevTiro",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyOffertoryAbsolutionOfTheServants",
-            "Rule": 0,
-            "Visible": true
         }
     ]
 }

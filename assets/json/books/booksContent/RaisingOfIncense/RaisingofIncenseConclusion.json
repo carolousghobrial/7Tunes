@@ -48,11 +48,9 @@
       "Englishcoptic": "Soti em-mon owho nai nan"
     },
     {
-      "Type": "Button",
-      "Arabic": "ختام في حضور البابا/الأسقف",
-      "English": "If Pope/Bishop is Present",
-      "Rule": "OpenSinglePage",
-      "Visible": true,
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "BishopIsPresent",
       "Path": "RaisingOfIncenseRaisingofIncenseConclusionPope"
     },
     {

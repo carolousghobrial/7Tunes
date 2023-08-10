@@ -19,6 +19,12 @@
             "Path": "VenerationEkesmarot",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseHitenForBishopEntrance",
+            "Rule": 0,
+            "Visible": true
         }
     ]
 }

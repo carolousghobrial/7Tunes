@@ -1,0 +1,151 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "في حضور البابا \\ أسقف",
+  "EnglishTitle": "In Presence of Pope/Bishop",
+  "CopticTitle": "|iten nieuxh",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلوات أبينا المكرم رئيس الكهنة البابا الأنبا [*POPE*] ",
+      "Coptic": "|iten nieuxh `nte peniwt ettaihout `narxi`ereuc papa abba [*POPE*] ",
+      "English": "Through the prayers of our honored father, the high priest, Pope Abba [*POPE*]",
+      "Arabiccoptic": "هيتين ني إفكي إنتي بينيوت إتطايوت إن أرشي إريفس باباآفا [*POPE*] إبشويس.",
+      "Englishcoptic": "Hiten ni-evshi ente peniot ettaieeooot enarshi-erevs papa Avva [*POPE*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseMetropolitain",
+      "Side": "North",
+      "Arabic": "وأبينا المطران الأنبا [*DIOCESE_BISHOP*]",
+      "Coptic": "nem peniwt `mhtropolhthc abba [*DIOCESE_BISHOP*] ",
+      "English": "and our father the Metropolitan Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ميتروبوليتيس افا",
+      "Englishcoptic": "nem peniot en-Metro-po-litis Ava [*DIOCESE_BISHOP*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISOneMetropolitain",
+      "Side": "North",
+      "Arabic": "وأبينا المطران الأنبا [*DIOCESE_BISHOP*]",
+      "Coptic": "nem peniwt `mhtropolhthc abba [*DIOCESE_BISHOP*] ",
+      "English": "and our father the Metropolitan Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ميتروبوليتيس افا",
+      "Englishcoptic": "nem peniot en-Metro-po-litis Ava [*DIOCESE_BISHOP*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISTwoMetropolitain",
+      "Side": "North",
+      "Arabic": "وأبينا المطران الأنبا [*DIOCESE_BISHOP*]",
+      "Coptic": "nem peniwt `mhtropolhthc abba [*DIOCESE_BISHOP*] ",
+      "English": "and our father the Metropolitan Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ميتروبوليتيس افا",
+      "Englishcoptic": "nem peniot en-Metro-po-litis Ava [*DIOCESE_BISHOP*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeMetropolitain",
+      "Side": "North",
+      "Arabic": "وأبينا المطران الأنبا [*DIOCESE_BISHOP*]",
+      "Coptic": "nem peniwt `mhtropolhthc abba [*DIOCESE_BISHOP*] ",
+      "English": "and our father the Metropolitan Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ميتروبوليتيس افا",
+      "Englishcoptic": "nem peniot en-Metro-po-litis Ava [*DIOCESE_BISHOP*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
+      "Side": "North",
+      "Arabic": "وأبينا الاسقف الأنبا [*DIOCESE_BISHOP*]",
+      "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
+      "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
+      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISOneBishop",
+      "Side": "North",
+      "Arabic": "وأبينا الاسقف الأنبا [*DIOCESE_BISHOP*]",
+      "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
+      "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
+      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISTwoBishop",
+      "Side": "North",
+      "Arabic": "وأبينا الاسقف الأنبا [*DIOCESE_BISHOP*]",
+      "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
+      "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
+      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeBishop",
+      "Side": "North",
+      "Arabic": "وأبينا الاسقف الأنبا [*DIOCESE_BISHOP*]",
+      "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
+      "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
+      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeBishop",
+      "Side": "North",
+      "Arabic": "وأبينا الاسقف الأنبا [*DIOCESE_BISHOP*]",
+      "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
+      "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
+      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeBishop",
+      "Side": "North",
+      "Arabic": "وأبينا الاسقف الأنبا [*DIOCESE_BISHOP*]",
+      "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
+      "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
+      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeBishop",
+      "Side": "North",
+      "Arabic": "وآبائنا المطارنة والأساقفة الحاضرين معنا",
+      "Coptic": "nem neniw; `mmetropolithc nem ni`epickopoc nhetxh neman ",
+      "English": "and our fathers the Metropolitans and Bishops who are with us",
+      "Arabiccoptic": "نيم نينيوتي  إمميتروبوليتيس نيم ني إيبيسكوبوس ني إتكي نيمان",
+      "Englishcoptic": "nem nenioti  en-metro-politees nem ni episkopos ni-etkee neman "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "showHitenVOC",
+      "Side": "North",
+      "Arabic": " يا رب إنعم لنا بمغفرة خطايانا.",
+      "Coptic": "Psoic > `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": ":إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
+      "Englishcoptic": "Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

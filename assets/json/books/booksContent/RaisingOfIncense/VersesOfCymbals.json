@@ -293,6 +293,12 @@
         {
             "Type": "Main",
             "Rule": 0,
+            "Visible": "BishopIsPresent",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPope"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
             "Visible": "showStandardVOCConclusion",
             "Path": "RaisingOfIncenseVersesOfCymbalsStandardConclusion"
         },
