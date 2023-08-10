@@ -47,7 +47,6 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const pageBackgroundColor = getColor("pageBackgroundColor");
   const pagination = useSelector((state) => state.settings.pagination);
   const [scrollPosition, setScrollPosition] = useState(0);
-  const [visibleIndices, setVisibleIndices] = useState([]);
   const [NavbarVisibility, setNavbarVisibility] = useState(true);
   const [settingsModalVisible, setsettingsModalVisible] = useState(false);
   const BishopIsPresent = useSelector((state) => state.settings.isBishopHere);
@@ -74,8 +73,6 @@ const BookScreen = React.memo(({ navigation, route }) => {
 
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
     if (viewableItems.length > 0) {
-      const indices = viewableItems.map((item) => item.index);
-      setVisibleIndices(indices);
       const firstItem = viewableItems[0].item;
       if (
         firstItem.EnglishTitle !== englishTitle &&
@@ -87,22 +84,6 @@ const BookScreen = React.memo(({ navigation, route }) => {
     }
   }).current;
 
-  function contentsPressed() {
-    if (flatListRef.current) {
-      const closest = menuData.reduce((a, b) => {
-        return Math.abs(b.key - 0) < Math.abs(a.key - 0) ? b : a;
-      });
-      const HighlitedIndex = menuData.findIndex(
-        (item) => item.key === closest.key
-      );
-      navigation.navigate("ContentsModal", {
-        MainTitle: menuData[0],
-        menuData: menuData,
-        initialKey: HighlitedIndex,
-        scrollToKey: scrollToKey,
-      });
-    }
-  }
   useEffect(() => {
     navigation.setOptions({
       headerShown: NavbarVisibility,
@@ -120,7 +101,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
         fontFamily: fontfamily,
       },
     });
-  }, [appLanguage, englishTitle, arabicTitle, isTablet]);
+  }, [appLanguage, englishTitle, arabicTitle, isTablet, navigation]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -131,6 +112,26 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const settingsPressed = useCallback(() => {
     setsettingsModalVisible(true);
   }, []);
+
+  const contentsPressed = useCallback(() => {
+    console.log(scrollPosition);
+
+    const closest = menuData.reduce((a, b) => {
+      return Math.abs(b.key - scrollPosition) < Math.abs(a.key - scrollPosition)
+        ? b
+        : a;
+    });
+    const HighlitedIndex = menuData.findIndex(
+      (item) => item.key === closest.key
+    );
+    console.log(HighlitedIndex);
+    navigation.navigate("ContentsModal", {
+      MainTitle: menuData[0],
+      menuData: menuData,
+      initialKey: HighlitedIndex,
+      scrollToKey,
+    });
+  }, [menuData, scrollPosition]);
 
   function closeModal() {
     setsettingsModalVisible(false);
