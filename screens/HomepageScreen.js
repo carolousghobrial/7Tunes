@@ -84,61 +84,49 @@ function HomepageScreen({ navigation, route }) {
     }
   };
 
-  const bookClick = async (item) => {
-    const {
-      PermissionStatus,
-      Released,
-      Enabled,
-      BishopButton,
-      PurchaseKey,
-      BookPath,
-      EnglishTitle,
-      ArabicTitle,
-      mother,
-    } = item;
-    const isBought = (() => {
-      switch (PermissionStatus) {
-        case "standardPsalmodyPermission":
-          return isStandardBought;
-        case "kiahkPsalmodyPermission":
-          return isKiahkBought;
-        case "paschaBookPermission":
-          return isPaschaBought;
-        default:
-          return false;
-      }
-    })();
-
-    if (Released === false) {
+  async function bookClick(item) {
+    var isBought = false;
+    switch (item.PermissionStatus) {
+      case "standardPsalmodyPermission":
+        isBought = isStandardBought;
+        break;
+      case "kiahkPsalmodyPermission":
+        isBought = isKiahkBought;
+        break;
+      case "paschaBookPermission":
+        isBought = isPaschaBought;
+        break;
+    }
+    if (item.Released === false) {
       Alert.alert("Will be Released Soon....");
       return;
-    } else if (Enabled === false) {
+    } else if (item.Enabled === false) {
       setIsLoading(true);
 
       if (!isBought) {
         await Glassfy.restorePurchases();
         const permissions = await Glassfy.permissions();
         const BookPermission = permissions.all.find(
-          (permission) => permission.permissionId === PermissionStatus
+          (permission) => permission.permissionId === item.PermissionStatus
         );
-
         if (BookPermission.isValid === false) {
           const offerings = await Glassfy.offerings();
           const OfferingToBuy = offerings.all.find(
-            (offering) => offering.offeringId === PurchaseKey
+            (offering) => offering.offeringId === item.PurchaseKey
           ).skus[0];
           try {
             const transaction = await Glassfy.purchaseSku(OfferingToBuy);
             const permission = transaction.permissions.all.find(
-              (p) => p.permissionId === PermissionStatus
+              (p) => p.permissionId === item.PermissionStatus
             );
-
             if (permission && permission.isValid) {
+              // unlock aFeature
               dispatch(
                 setItemPurchased({ permissionId: permission.permissionId })
               );
             } else {
               setIsLoading(false);
+
               return;
             }
           } catch (error) {
@@ -153,34 +141,31 @@ function HomepageScreen({ navigation, route }) {
         }
       }
     }
-
     setIsLoading(false);
 
     if (item.hasSubBooks) {
       navigation.push("HomepageScreen", {
-        bookPath: BookPath,
-        englishTitle: EnglishTitle,
-        arabicTitle: ArabicTitle,
+        bookPath: item.BookPath,
+        englishTitle: item.EnglishTitle,
+        arabicTitle: item.ArabicTitle,
       });
     } else {
-      if (mother !== undefined) {
+      if (item.mother !== undefined) {
         navigation.push("BookScreen", {
-          bookPath: BookPath,
-          englishTitle: EnglishTitle,
-          arabicTitle: ArabicTitle,
-          motherSource: mother,
-          BishopButton: BishopButton,
+          bookPath: item.BookPath,
+          englishTitle: item.EnglishTitle,
+          arabicTitle: item.ArabicTitle,
+          motherSource: item.mother,
         });
       } else {
         navigation.push("BookScreen", {
-          bookPath: BookPath,
-          englishTitle: EnglishTitle,
-          arabicTitle: ArabicTitle,
-          BishopButton: BishopButton,
+          bookPath: item.BookPath,
+          englishTitle: item.EnglishTitle,
+          arabicTitle: item.ArabicTitle,
         });
       }
     }
-  };
+  }
 
   const onLongPress = async (item) => {
     if (item.BishopButton !== undefined) {
