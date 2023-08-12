@@ -69,10 +69,8 @@ function PopeBishop() {
         </View>
         <View
           style={[
-            styles.container,
             {
               flexDirection: "column",
-              borderColor: getColor("PrimaryColor"),
             },
           ]}
         >
@@ -158,8 +156,7 @@ const styles = StyleSheet.create({
   popeView: {
     margin: 10,
     padding: 10,
-    borderColor: "black",
-    borderWidth: 5,
+
     alignContent: "center",
     justifyContent: "center",
   },
@@ -172,10 +169,8 @@ const styles = StyleSheet.create({
   },
   bookView: {
     flexDirection: "row",
-    borderColor: "black",
-    borderRadius: 30,
+
     backgroundColor: "#AA4A44",
-    borderWidth: 5,
     margin: 10,
   },
 

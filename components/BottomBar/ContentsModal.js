@@ -1,49 +1,26 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import {
-  Modal,
   View,
-  ScrollView,
   Text,
   StyleSheet,
   FlatList,
   Pressable,
-  TextInput,
   useWindowDimensions,
 } from "react-native";
+import { BottomSheetModal, BottomSheetBackdrop } from "@gorhom/bottom-sheet";
+import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
+import { AntDesign } from "@expo/vector-icons";
 
-import AppTheme from "../settings/appTheme";
-import FontSize from "../settings/fontSize";
-import VisibleLangs from "../settings/visibleLangs";
-import TodaysPrayer from "../settings/todaysPrayer";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers.js";
 import SearchBar from "../ViewTypes/SearchBar";
 import MenuItem from "./MenuItem";
 import MenuMainTitle from "./MenuMainTitle";
-function ContentsModal({ route, navigation }) {
+
+function ContentsModal({ bottomSheetRef, snapPoints, menuData, scrollToKey }) {
   const [clicked, setClicked] = useState(false);
   const flatListRef = useRef();
-
   const [searchPhrase, setSearchPhrase] = useState("");
-  const { width, height } = useWindowDimensions();
-  const [initialIndex, setInitialIndex] = useState(null);
-  const [contentsModalVisible, setcontentsModalVisible] = useState(false);
-  const MainTitle = route.params.MainTitle;
-  const { scrollToKey } = route.params;
-  const menuData = route.params.menuData;
   const [currentData, setcurrentData] = useState(menuData);
 
-  const initialKey = route.params.initialKey;
-
-  useEffect(() => {
-    navigation.setOptions({
-      headerShown: true,
-      header: () => <MenuMainTitle item={MainTitle}></MenuMainTitle>,
-    });
-  }, []);
   const handleSearch = (text) => {
     setSearchPhrase(text);
     const filteredData = menuData.filter(
@@ -52,18 +29,46 @@ function ContentsModal({ route, navigation }) {
         item.ArabicTitle.includes(text) ||
         (item.CopticTitle !== undefined && item.CopticTitle.includes(text))
     );
-
     setcurrentData(filteredData);
   };
+
+  const { width, height } = useWindowDimensions();
+  const NavigationBarColor = getColor("NavigationBarColor");
+  const labelColor = getColor("LabelColor");
+
+  const renderBackdrop = useCallback(
+    (props) => (
+      <BottomSheetBackdrop
+        {...props}
+        disappearsOnIndex={-1}
+        appearsOnIndex={0}
+      />
+    ),
+    []
+  );
+
   return (
-    <View
-      style={[
-        styles.container,
-        {
-          backgroundColor: getColor("NavigationBarColor"),
-        },
-      ]}
+    <BottomSheetModal
+      style={styles.container}
+      backgroundStyle={{ backgroundColor: NavigationBarColor }}
+      handleIndicatorStyle={{ backgroundColor: labelColor }}
+      ref={bottomSheetRef}
+      handleHeight={50}
+      index={0}
+      snapPoints={snapPoints}
+      backdropComponent={renderBackdrop}
     >
+      <View style={styles.header}>
+        <Text style={[styles.title, { color: labelColor }]}>
+          Table of Contents
+        </Text>
+        <Pressable
+          style={styles.closeButton}
+          onPress={() => bottomSheetRef.current.dismiss()}
+        >
+          <AntDesign name="closecircle" size={30} color={labelColor} />
+        </Pressable>
+      </View>
       <SearchBar
         setClicked={setClicked}
         searchPhrase={searchPhrase}
@@ -72,34 +77,44 @@ function ContentsModal({ route, navigation }) {
         clicked={clicked}
       />
       <FlatList
-        style={[
-          {
-            backgroundColor: getColor("NavigationBarColor"),
-          },
-        ]}
+        style={[styles.flatList, { backgroundColor: NavigationBarColor }]}
         ref={flatListRef}
         data={currentData}
         renderItem={({ item }) => (
           <MenuItem
             item={item}
-            highlightedIndex={initialIndex}
+            highlightedIndex={0}
             scrollToKey={scrollToKey}
-          ></MenuItem>
+          />
         )}
       />
-    </View>
+    </BottomSheetModal>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    width: "100%",
-    height: "100%",
+    justifyContent: "space-around",
+    alignItems: "center",
   },
-  transparentView: {
-    height: "100%",
-    backgroundColor: "transparent",
+  header: {
+    flexDirection: "row",
+  },
+  closeButton: {
+    alignItems: "flex-end",
+    marginHorizontal: 10,
+    marginBottom: 5,
+    borderRadius: 25,
+  },
+  title: {
+    fontWeight: "bold",
+    fontFamily: "englishtitle-font",
+    fontSize: 25,
+    flex: 8,
+    marginHorizontal: 10,
+  },
+  flatList: {
+    flex: 1,
   },
 });
 

@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React, { useCallback } from "react";
 import {
-  Modal,
   View,
   ScrollView,
   Text,
@@ -8,67 +7,76 @@ import {
   Pressable,
   useWindowDimensions,
 } from "react-native";
+import { AntDesign } from "@expo/vector-icons";
+import {
+  BottomSheetModalProvider,
+  BottomSheetModal,
+  BottomSheetBackdrop,
+} from "@gorhom/bottom-sheet";
+
 import AppTheme from "../settings/appTheme";
 import FontSize from "../settings/fontSize";
 import VisibleLangs from "../settings/visibleLangs";
-import TodaysPrayer from "../settings/todaysPrayer";
 import PresentationMode from "../settings/presentationMode";
 
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers.js";
+import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
 
-function SettingsModal({ visible, closeModal }) {
+function SettingsModal({ bottomSheetRef, snapPoints }) {
   const { width, height } = useWindowDimensions();
-  let flexDirection = "column";
-  let viewheight = "50%";
-  let viewwidth = "100%";
+  const NavigationBarColor = getColor("NavigationBarColor");
+  const labelColor = getColor("LabelColor");
 
+  let flexDirection = "column";
   if (width > height) {
     flexDirection = "row";
-    viewheight = "100%";
-    viewwidth = "50%";
   }
+
   const wrapperStyle = {
     flexDirection: flexDirection,
   };
 
+  const renderBackdrop = useCallback(
+    (props) => (
+      <BottomSheetBackdrop
+        {...props}
+        disappearsOnIndex={-1}
+        appearsOnIndex={0}
+      />
+    ),
+    []
+  );
+
   return (
-    <Modal
-      animationType="slide"
-      transparent={true}
-      visible={visible}
-      supportedOrientations={[
-        "portrait",
-        "portrait-upside-down",
-        "landscape",
-        "landscape-left",
-        "landscape-right",
-      ]}
+    <BottomSheetModal
+      style={[styles.container, wrapperStyle]}
+      backgroundStyle={{ backgroundColor: NavigationBarColor }}
+      handleIndicatorStyle={{ backgroundColor: labelColor }}
+      ref={bottomSheetRef}
+      handleHeight={50}
+      index={0}
+      snapPoints={snapPoints}
+      backdropComponent={renderBackdrop}
     >
-      <View style={[styles.container, wrapperStyle]}>
-        <Pressable
-          style={{ height: viewheight, width: viewwidth }}
-          onPress={closeModal}
-        ></Pressable>
-        <View
-          style={{
-            height: viewheight,
-            width: viewwidth,
-            backgroundColor: getColor("NavigationBarColor"),
-          }}
-        >
-          <ScrollView>
-            <AppTheme></AppTheme>
-            <PresentationMode></PresentationMode>
-            <FontSize></FontSize>
-            <VisibleLangs></VisibleLangs>
-          </ScrollView>
+      <View>
+        {/* Close Button */}
+        <View style={styles.header}>
+          <Text style={[styles.title, { color: labelColor }]}>Settings</Text>
+          <Pressable
+            style={styles.closeButton}
+            onPress={() => bottomSheetRef.current.dismiss()}
+          >
+            <AntDesign name="closecircle" size={30} color={labelColor} />
+          </Pressable>
         </View>
+
+        <ScrollView>
+          <AppTheme />
+          <PresentationMode />
+          <FontSize />
+          <VisibleLangs />
+        </ScrollView>
       </View>
-    </Modal>
+    </BottomSheetModal>
   );
 }
 
@@ -77,9 +85,20 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
     alignItems: "center",
   },
-  transparentView: {
-    height: "100%",
-    backgroundColor: "transparent",
+  header: {
+    flexDirection: "row",
+  },
+  closeButton: {
+    alignItems: "flex-end",
+    marginHorizontal: 10,
+    marginBottom: 5,
+    borderRadius: 25,
+  },
+  title: {
+    fontWeight: "bold",
+    fontFamily: "englishtitle-font",
+    fontSize: 25,
+    flex: 8,
   },
 });
 

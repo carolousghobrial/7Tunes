@@ -9,8 +9,8 @@ const saintsSlice = createSlice({
   name: "saints",
   initialState: {
     ARCHANGEL_MICHAEL: {
-      vos: true,
-      doxologies: true,
+      vos: false,
+      doxologies: false,
     },
     ARCHANGEL_GABRIEL: {
       vos: false,
@@ -18,7 +18,7 @@ const saintsSlice = createSlice({
     },
     JOHN_THE_BAPTIST: {
       vos: true,
-      doxologies: true,
+      doxologies: false,
     },
     ST_MARK: {
       vos: true,
@@ -26,15 +26,15 @@ const saintsSlice = createSlice({
     },
     ST_STEPHEN: {
       vos: true,
-      doxologies: true,
+      doxologies: false,
     },
     ST_GEORGE: {
-      vos: true,
-      doxologies: true,
+      vos: false,
+      doxologies: false,
     },
     ST_PHILOPATER: {
-      vos: true,
-      doxologies: true,
+      vos: false,
+      doxologies: false,
     },
     ST_MINA: {
       vos: false,

@@ -5,7 +5,6 @@ import React, {
   useEffect,
   useMemo,
 } from "react";
-import Icon from "react-native-vector-icons/Ionicons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -15,9 +14,14 @@ import {
   FlatList,
   Pressable,
   View,
-  TouchableWithoutFeedback,
   useWindowDimensions,
 } from "react-native";
+
+import {
+  BottomSheetModalProvider,
+  BottomSheetModal,
+} from "@gorhom/bottom-sheet";
+import Icon from "react-native-vector-icons/Ionicons";
 
 import BaseView from "../components/ViewTypes/BaseView";
 import MelodyView from "../components/ViewTypes/MelodyView";
@@ -29,33 +33,36 @@ import ExpanderView from "../components/ViewTypes/ExpanderView";
 import BishopModal from "./BishopModal";
 import LoadingScreen from "./LoadingScreen";
 import SettingsModal from "../components/BottomBar/SettingsModal";
+import ContentsModal from "../components/BottomBar/ContentsModal";
 import { getColor } from "../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 import FloatingButton from "../components/ViewTypes/FloatingBishopButton";
-import { createDrawerNavigator } from "@react-navigation/drawer";
-import {
-  PanGestureHandler,
-  GestureHandlerRootView,
-} from "react-native-gesture-handler";
 
 const BookScreen = React.memo(({ navigation, route }) => {
   const { height, width } = useWindowDimensions();
 
   const flatListRef = useRef();
-  const { bookPath, motherSource } = route.params;
+  const { bookPath, motherSource, BishopButton } = route.params;
   const labelColor = getColor("LabelColor");
   const pageBackgroundColor = getColor("pageBackgroundColor");
   const pagination = useSelector((state) => state.settings.pagination);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [NavbarVisibility, setNavbarVisibility] = useState(true);
   const [settingsModalVisible, setsettingsModalVisible] = useState(false);
-  const BishopIsPresent = useSelector((state) => state.settings.isBishopHere);
+  const BishopIsPresent = useSelector(
+    (state) => state.settings.BishopIsPresent
+  );
   const values = getFullViewModel(bookPath, motherSource);
   const [bookContents, setBookContents] = useState(values[0]);
   const [isLoading, setIsLoading] = useState(true);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const isTablet = useSelector((state) => state.settings.isTablet);
   const [menuData, setMenuData] = useState(values[1]);
+  const bottomSheetRef = useRef(null);
+  const contentsSheetRef = useRef(null);
+
+  // variables
+  const snapPoints = ["75%"];
   const [englishTitle, setEnglishTitle] = useState(
     bookContents[0].EnglishTitle
   );
@@ -88,7 +95,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
     navigation.setOptions({
       headerShown: NavbarVisibility,
     });
-  }, [NavbarVisibility, navigation]);
+  }, [NavbarVisibility]);
 
   useEffect(() => {
     var fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
@@ -109,63 +116,34 @@ const BookScreen = React.memo(({ navigation, route }) => {
     }, 10);
   }, []);
 
-  const settingsPressed = useCallback(() => {
-    setsettingsModalVisible(true);
-  }, []);
+  const settingsPressed = () => {
+    bottomSheetRef?.current.present();
+  };
 
-  const contentsPressed = useCallback(() => {
-    console.log(scrollPosition);
+  const contentsPressed = () => {
+    contentsSheetRef?.current.present();
+  };
 
-    const closest = menuData.reduce((a, b) => {
-      return Math.abs(b.key - scrollPosition) < Math.abs(a.key - scrollPosition)
-        ? b
-        : a;
-    });
-    const HighlitedIndex = menuData.findIndex(
-      (item) => item.key === closest.key
-    );
-    console.log(HighlitedIndex);
-    navigation.navigate("ContentsModal", {
-      MainTitle: menuData[0],
-      menuData: menuData,
-      initialKey: HighlitedIndex,
-      scrollToKey,
-    });
-  }, [menuData, scrollPosition]);
-
-  function closeModal() {
-    setsettingsModalVisible(false);
-  }
   const HeaderRightButtons = ({ onPressSettings, onPressContents }) => {
     return (
       <>
         <Pressable
-          style={{
-            marginRight: 15,
-            alignSelf: "stretch",
-            justifyContent: "center",
-          }}
+          style={styles.settingsheaderButton}
           onPress={onPressSettings}
         >
           <Icon name="ios-settings-outline" size={30} color={labelColor} />
         </Pressable>
-        <Pressable
-          style={{
-            marginRight: 0,
-            alignSelf: "stretch",
-            justifyContent: "center",
-          }}
-          onPress={onPressContents}
-        >
+        <Pressable style={styles.headerButton} onPress={onPressContents}>
           <MaterialCommunityIcons
             name="table-of-contents"
-            size={30}
+            size={40}
             color={labelColor}
           />
         </Pressable>
       </>
     );
   };
+
   React.useLayoutEffect(() => {
     const headerRightComponent = () => (
       <HeaderRightButtons
@@ -178,15 +156,16 @@ const BookScreen = React.memo(({ navigation, route }) => {
       headerRight: headerRightComponent,
     });
   }, [navigation]);
-  function scrollToKey(key) {
+
+  const scrollToKey = (key) => {
     const item = bookContents.find((item) => item.key === key);
     if (item) {
       setEnglishTitle(item.EnglishTitle);
       setArabicTitle(item.ArabicTitle);
       flatListRef.current.scrollToIndex({ index: key, animated: false });
-      navigation.pop();
+      contentsSheetRef?.current.dismiss();
     }
-  }
+  };
 
   const renderItems = ({ item }) => {
     switch (item.part.Type) {
@@ -215,7 +194,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
     }
   };
 
-  function onScrollToIndexFailed(error) {
+  const onScrollToIndexFailed = (error) => {
     flatListRef.current.scrollToOffset({
       offset: error.averageItemLength * error.index,
       animated: false,
@@ -228,15 +207,21 @@ const BookScreen = React.memo(({ navigation, route }) => {
         });
       }
     }, 10);
-  }
+  };
 
   if (isLoading) {
     return <LoadingScreen />;
   }
 
   return (
-    <>
-      <SettingsModal visible={settingsModalVisible} closeModal={closeModal} />
+    <BottomSheetModalProvider>
+      <SettingsModal bottomSheetRef={bottomSheetRef} snapPoints={snapPoints} />
+      <ContentsModal
+        bottomSheetRef={contentsSheetRef}
+        snapPoints={snapPoints}
+        menuData={menuData}
+        scrollToKey={scrollToKey}
+      />
 
       <FlatList
         ref={flatListRef}
@@ -253,8 +238,10 @@ const BookScreen = React.memo(({ navigation, route }) => {
         renderItem={renderItems}
         keyExtractor={(item) => item.key}
       />
-      {BishopIsPresent && <FloatingButton navigation={navigation} />}
-    </>
+      {BishopIsPresent && BishopButton && (
+        <FloatingButton navigation={navigation} />
+      )}
+    </BottomSheetModalProvider>
   );
 });
 
@@ -264,6 +251,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     width: "100%",
+  },
+  settingsheaderButton: {
+    marginRight: 10,
+    alignSelf: "stretch",
+    justifyContent: "center",
   },
   textStyle: {
     fontFamily: "coptic-font",
@@ -275,10 +267,10 @@ const styles = StyleSheet.create({
   },
   floatingText: {
     position: "absolute",
-    top: -12, // adjust the top position to make it float over the base letter
+    top: -12,
     fontSize: 25,
     backgroundColor: "transparent",
-    color: "#AA4A44", // set the color of the floating letter
-    zIndex: 1, // set the zIndex to bring the floating letter to the top
+    color: "#AA4A44",
+    zIndex: 1,
   },
 });

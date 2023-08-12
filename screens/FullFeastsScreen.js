@@ -1,10 +1,15 @@
-import { StyleSheet, Text, View, FlatList } from "react-native";
+import { StyleSheet, Text, View, FlatList, Alert } from "react-native";
 import { setSeason } from "../stores/redux/settings";
 import { getLanguageValue } from "../helpers/SettingsHelpers";
 import moment from "moment";
 import React, { useState, useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import FeastScreenTitleView from "../components/homepage/FeastScreenTitleView";
+import {
+  BottomSheetModalProvider,
+  BottomSheetModal,
+} from "@gorhom/bottom-sheet";
+import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper";
 import FeastView from "../components/homepage/feastView";
 import FeastModal from "../components/homepage/feastModal";
 import SelectYearModal from "../components/homepage/SelectYearModal";
@@ -21,19 +26,20 @@ function FullFeastsScreen() {
   const [yearModalVisible, setYearModalVisible] = useState(false);
   const [feastModalVisible, setFeastModalVisible] = useState(false);
   const flatListRef = useRef();
+  const snapPoints = ["55%"];
 
   const data = getCopticFastsFeasts(moment().year()).sort(
     (a, b) =>
       new moment(a.start).format("YYYYMMDD") -
       new moment(b.start).format("YYYYMMDD")
   );
-
+  const bottomSheetRef = useRef(null);
   const [currentData, setCurrentData] = useState(data);
   const [selectedFeast, setSelectedFeast] = useState(data[0]);
 
   function feastClick(item) {
     setSelectedFeast(item);
-    setFeastModalVisible(true);
+    bottomSheetRef?.current.present();
   }
 
   function yearClick() {
@@ -96,6 +102,21 @@ function FullFeastsScreen() {
     return <FeastView item={item} onClick={feastClick} />;
   }
 
+  const onScrollToIndexFailed = (error) => {
+    flatListRef.current.scrollToOffset({
+      offset: error.averageItemLength * error.index,
+      animated: false,
+    });
+    setTimeout(() => {
+      if (flatListRef.current !== null) {
+        flatListRef.current.scrollToIndex({
+          index: error.index,
+          animated: false,
+        });
+      }
+    }, 10);
+  };
+
   function handleSearch(text) {
     setSearchPhrase(text);
     const filteredData = data.filter(
@@ -107,10 +128,10 @@ function FullFeastsScreen() {
   }
 
   return (
-    <>
+    <BottomSheetModalProvider>
       <FeastModal
-        visible={feastModalVisible}
-        closeModal={closeModal}
+        bottomSheetRef={bottomSheetRef}
+        snapPoints={snapPoints}
         setFeast={setFeast}
         feast={selectedFeast}
       />
@@ -133,6 +154,7 @@ function FullFeastsScreen() {
           data={currentData}
           horizontal={false}
           ref={flatListRef}
+          onScrollToIndexFailed={onScrollToIndexFailed}
           initialNumToRender={currentData.length}
           initialScrollIndex={initialIndex}
           style={{ width: "100%" }}
@@ -142,7 +164,7 @@ function FullFeastsScreen() {
           extraData={currentData} // Ensure that the FlatList updates when currentData changes
         />
       </View>
-    </>
+    </BottomSheetModalProvider>
   );
 }
 

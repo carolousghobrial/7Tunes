@@ -10,15 +10,22 @@ import {
   TouchableWithoutFeedback,
   useWindowDimensions,
 } from "react-native";
+import {
+  getCopticDateString,
+  getCopticDate,
+} from "../../helpers/copticMonthsHelper";
 import PropTypes from "prop-types";
 import images from "../../helpers/imageHelpers";
-
+import { BottomSheetBackdrop, BottomSheetModal } from "@gorhom/bottom-sheet";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers.js";
 
-function FeastModal({ visible, feast, closeModal, setFeast }) {
+function FeastModal({ bottomSheetRef, snapPoints, feast, setFeast }) {
   const { width, height } = useWindowDimensions();
-  let viewheight = "50%";
-  let viewwidth = "100%";
+  const NavigationBarColor = getColor("NavigationBarColor");
+
+  const renderBackdrop = (props) => (
+    <BottomSheetBackdrop {...props} disappearsOnIndex={-1} appearsOnIndex={0} />
+  );
   let imageSize = width / 2.5;
   const imageStyle = {
     width: imageSize,
@@ -28,74 +35,89 @@ function FeastModal({ visible, feast, closeModal, setFeast }) {
 
   if (width > height) {
     flexDirection = "row";
-    viewheight = "100%";
-    viewwidth = "50%";
+    imageStyle.height = height / 3;
+    imageStyle.width = height / 3;
+  } else {
+    flexDirection = "column";
+    imageStyle.height = width / 3;
+    imageStyle.width = width / 3;
   }
+  console.log(feast);
 
   const { key, start, end } = feast;
+  const copticStartDate = getCopticDate(
+    start.year(),
+    start.month(),
+    start.date()
+  );
+  const copticStartDateString = getCopticDateString(
+    copticStartDate.year,
+    copticStartDate.month,
+    copticStartDate.day
+  );
+  function getCopticEndDateString() {
+    var copticDate = getCopticDate(end.year(), end.month(), end.date());
+    return getCopticDateString(
+      copticDate.year,
+      copticDate.month,
+      copticDate.day
+    );
+  }
+
   let labelColor = getColor("LabelColor");
 
   return (
-    <Modal
-      animationType="slide"
-      visible={visible}
-      transparent
-      onRequestClose={closeModal}
-      supportedOrientations={[
-        "portrait",
-        "portrait-upside-down",
-        "landscape",
-        "landscape-left",
-        "landscape-right",
-      ]}
+    <BottomSheetModal
+      backgroundStyle={{ backgroundColor: NavigationBarColor }}
+      handleIndicatorStyle={{ backgroundColor: labelColor }}
+      ref={bottomSheetRef}
+      handleHeight={50}
+      index={0}
+      snapPoints={snapPoints}
+      backdropComponent={renderBackdrop}
     >
-      <Pressable onPress={closeModal} style={styles.container}>
-        <TouchableWithoutFeedback>
-          <View
-            style={{
-              height: viewheight,
-              width: viewwidth,
-              alignItems: "center",
-              backgroundColor: getColor("NavigationBarColor"),
-            }}
-          >
-            <View
-              style={[
-                styles.imageContainerLandscape,
-                imageStyle,
-                { borderColor: labelColor },
-              ]}
+      <View
+        style={{
+          alignItems: "center",
+          backgroundColor: getColor("NavigationBarColor"),
+          flexDirection: flexDirection,
+        }}
+      >
+        <View
+          style={[
+            styles.imageContainerLandscape,
+            imageStyle,
+            { borderColor: labelColor },
+          ]}
+        >
+          <Image style={styles.image} source={images[key]} />
+        </View>
+        <View style={styles.textView}>
+          <Text style={[styles.text, { color: labelColor }]}>
+            {getLanguageValue(key)}
+          </Text>
+          <Text style={[styles.text, { color: labelColor }]}>
+            {start.format("MMM Do YYYY")}
+            {end !== null ? "-" : null}
+            {end !== null ? end.format("MMM Do YYYY") : null}
+          </Text>
+          {/* <Text style={[styles.text, { color: labelColor }]}>
+            {copticStartDateString}
+            {end !== null ? "-" : null}
+            {end !== null ? getCopticEndDateString() : null}
+          </Text> */}
+          <View style={{ flexDirection: "row" }}>
+            <Pressable
+              android_ripple={{ color: getColor("pageBackgroundColor") }}
+              style={[styles.button, { borderColor: labelColor }]}
+              onPress={() => setFeast(key)}
             >
-              <Image style={styles.image} source={images[key]} />
-            </View>
-            <Text style={[styles.text, { color: labelColor }]}>
-              {getLanguageValue(key)}
-            </Text>
-            <Text style={[styles.text, { color: labelColor }]}>
-              {start.format("MMM Do YYYY")}
-              {end !== null ? "-" : null}
-              {end !== null ? end.format("MMM Do YYYY") : null}
-            </Text>
-            <View style={{ flexDirection: "row" }}>
-              <Pressable
-                android_ripple={{ color: getColor("pageBackgroundColor") }}
-                style={[styles.button, { borderColor: labelColor }]}
-                onPress={closeModal}
-              >
-                <Text style={[styles.text, { color: labelColor }]}>Close</Text>
-              </Pressable>
-              <Pressable
-                android_ripple={{ color: getColor("pageBackgroundColor") }}
-                style={[styles.button, { borderColor: labelColor }]}
-                onPress={() => setFeast(key)}
-              >
-                <Text style={[styles.text, { color: labelColor }]}>Set</Text>
-              </Pressable>
-            </View>
+              <Text style={[styles.text, { color: labelColor }]}>Set</Text>
+            </Pressable>
           </View>
-        </TouchableWithoutFeedback>
-      </Pressable>
-    </Modal>
+        </View>
+      </View>
+    </BottomSheetModal>
   );
 }
 
@@ -120,22 +142,29 @@ const styles = StyleSheet.create({
     overflow: "hidden",
     margin: 5,
   },
+  textView: {
+    alignItems: "center",
+    flexDirection: "column",
+    justifyContent: "center",
+  },
   text: {
     color: "black",
     fontSize: 20,
-    padding: 5,
     fontFamily: "english-font",
     fontWeight: "bold",
     textAlign: "center",
   },
   button: {
-    justifyContent: "flex-end",
-    alignItems: "flex-end",
-    flex: 1,
-    margin: 10,
-    padding: 10,
-    borderColor: "black",
-    borderWidth: 5,
+    backgroundColor: "blue",
+    paddingVertical: 10,
+    margin: 20,
+    width: "40%",
+    paddingHorizontal: 20,
+    borderRadius: 5,
+  },
+  buttonText: {
+    color: "white",
+    fontSize: 18,
   },
 });
 

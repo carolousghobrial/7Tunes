@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   View,
   StyleSheet,
@@ -14,6 +14,13 @@ import { setItemPurchased } from "../stores/redux/settings";
 import BookView from "../components/homepage/bookView";
 import BishopModal from "./BishopModal.js";
 import * as Updates from "expo-updates";
+import {
+  BottomSheetModalProvider,
+  BottomSheetModal,
+  BottomSheetScrollView,
+  BottomSheet,
+} from "@gorhom/bottom-sheet";
+import BishopPresentView from "./BishopPresentView.js";
 
 const isStandardBoughtSelector = (state) =>
   state.settings.standardPsalmodyPermission;
@@ -21,6 +28,14 @@ const isKiahkBoughtSelector = (state) => state.settings.kiahkPsalmodyPermission;
 const isPaschaBoughtSelector = (state) => state.settings.paschaBookPermission;
 
 function HomepageScreen({ navigation, route }) {
+  const bottomSheetRef = useRef(null);
+
+  // variables
+  const snapPoints = ["75%"];
+
+  function handlePresentModal() {
+    bottomSheetRef?.current.present();
+  }
   const labelColor = getColor("LabelColor");
   const data = homescreenPaths[route.params.bookPath];
   const isStandardBought = useSelector(isStandardBoughtSelector);
@@ -65,6 +80,7 @@ function HomepageScreen({ navigation, route }) {
       PermissionStatus,
       Released,
       Enabled,
+      BishopButton,
       PurchaseKey,
       BookPath,
       EnglishTitle,
@@ -144,12 +160,14 @@ function HomepageScreen({ navigation, route }) {
           englishTitle: EnglishTitle,
           arabicTitle: ArabicTitle,
           motherSource: mother,
+          BishopButton: BishopButton,
         });
       } else {
         navigation.navigate("BookScreen", {
           bookPath: BookPath,
           englishTitle: EnglishTitle,
           arabicTitle: ArabicTitle,
+          BishopButton: BishopButton,
         });
       }
     }
@@ -157,16 +175,13 @@ function HomepageScreen({ navigation, route }) {
 
   const onLongPress = async (item) => {
     if (item.BishopButton !== undefined) {
-      setbishopModalVisible(true);
+      handlePresentModal();
     }
   };
 
   return (
-    <>
-      <BishopModal
-        visible={bishopModalVisible}
-        closeModal={() => setbishopModalVisible(false)}
-      />
+    <BottomSheetModalProvider>
+      <BishopModal bottomSheetRef={bottomSheetRef} snapPoints={snapPoints} />
       <View style={styles.container}>
         {isLoading ? <ActivityIndicator size="large" color="black" /> : null}
         <FlatList
@@ -184,7 +199,7 @@ function HomepageScreen({ navigation, route }) {
           keyExtractor={(item) => item.BookPath}
         />
       </View>
-    </>
+    </BottomSheetModalProvider>
   );
 }
 

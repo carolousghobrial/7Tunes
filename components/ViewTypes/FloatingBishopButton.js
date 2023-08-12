@@ -9,8 +9,11 @@ import {
   Pressable,
 } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
+import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
 
 function FloatingButton({ navigation }) {
+  const NavigationBarColor = getColor("NavigationBarColor");
+  const labelColor = getColor("LabelColor");
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [buttonVisible, setbuttonVisible] = useState(true);
 
@@ -28,21 +31,34 @@ function FloatingButton({ navigation }) {
   });
   function OpenBishopPage() {
     setbuttonVisible(false);
-    navigation.navigate("BookScreen", {
+    navigation.push("BookScreen", {
       bookPath: "bishopEntrance",
       motherSource: "matins",
     });
   }
+  const hexToRgba = (hex, opacity) => {
+    hex = hex.replace("#", "");
+    const r = parseInt(hex.substring(0, 2), 16);
+    const g = parseInt(hex.substring(2, 4), 16);
+    const b = parseInt(hex.substring(4, 6), 16);
+    return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+  };
+  const secondaryColorWithOpacity = hexToRgba(labelColor, 0.6); // Red color with 70% opacity
+
   return (
     <View>
       {buttonVisible && (
-        <View style={styles.container}>
+        <View style={[styles.container]}>
           <Animated.View
             {...panResponder.panHandlers}
-            style={[pan.getLayout(), styles.button]}
+            style={[
+              pan.getLayout(),
+              styles.button,
+              { backgroundColor: secondaryColorWithOpacity },
+            ]}
           >
             <Pressable onPress={OpenBishopPage}>
-              <Text>Bishop Arrived</Text>
+              <Text style={{ color: NavigationBarColor }}>Bishop Arrived</Text>
             </Pressable>
           </Animated.View>
         </View>
@@ -62,7 +78,6 @@ const styles = StyleSheet.create({
     width: 56,
     height: 56,
     borderRadius: 28,
-    backgroundColor: "rgba(0, 0, 0, 0.4)",
     justifyContent: "center",
     alignItems: "center",
   },

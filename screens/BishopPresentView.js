@@ -1,121 +1,133 @@
-import {
-  View,
-  Text,
-  Image,
-  ActivityIndicator,
-  StyleSheet,
-  Switch,
-  GestureRecognizer,
-  Pressable,
-  Modal,
-  ScrollView,
-  useWindowDimensions,
-  SafeAreaView,
-} from "react-native";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../helpers/SettingsHelpers.js";
-import { useDispatch, useSelector } from "react-redux";
-import React, { useState } from "react";
-import AllBishopsPopup from "../components/settings/allbishopsPopup.js";
+import React, { useState, useCallback } from "react";
+import { View, Text, StyleSheet, Switch, Pressable } from "react-native";
+import { useSelector, useDispatch } from "react-redux";
+import { useWindowDimensions } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
+import {
+  BottomSheetBackdrop,
+  BottomSheetModalProvider,
+} from "@gorhom/bottom-sheet";
+
+import AllBishopsPopup from "../components/settings/allbishopsPopup.js";
+import { getLanguageValue, getColor } from "../helpers/SettingsHelpers.js";
 import {
   changeBishopPresent,
   updateBishopsPresent,
-  changeisBishopHere,
+  changeBishopIsPresent,
   changeismorethan3BishopPresent,
 } from "../stores/redux/settings.js";
 
-function BishopPresentView({ visible, closeModal }) {
+function BishopPresentView({ bottomSheetRef, snapPoints }) {
   const { width, height } = useWindowDimensions();
+  const [ModalVisible, setModalVisible] = useState(false);
 
-  let viewheight = "70%";
-  let viewwidth = "100%";
-  if (width > height) {
-    flexDirection = "row";
-    viewheight = "100%";
-    viewwidth = "50%";
-  }
+  const dispatch = useDispatch();
+
   const darkMode = useSelector((state) => state.settings.darkMode);
-  const [BishopIsPresent, setBishopIsPresent] = useState(
-    useSelector((state) => state.settings.isBishopHere)
+  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+  const BishopIsPresent = useSelector(
+    (state) => state.settings.BishopIsPresent
   );
-
   const ismorethan3BishopPresent = useSelector(
     (state) => state.settings.ismorethan3BishopPresent
   );
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+
   const appLanguage = useSelector((state) => state.settings.appLanguage);
-  const language = useSelector((state) => state.settings.appLanguage);
   const fontSize = useSelector((state) => state.settings.textFontSize);
-  var pageBackgroundColor = getColor("pageBackgroundColor");
-  let labelColor = getColor("LabelColor");
-  let primaryColor = getColor("PrimaryColor");
-  let secondaryColor = getColor("SecondaryColor");
-  let navigationBarColor = getColor("NavigationBarColor");
-  let morethan3BishopsText = getLanguageValue("moreThan3Bishops");
-  let setBishopText = getLanguageValue("setBishop");
-  let BishopIsPresentText = getLanguageValue("BishopIsPresent");
-  const dispatch = useDispatch();
+  const navigationBarColor = getColor("NavigationBarColor");
+  const primaryColor = getColor("PrimaryColor");
+  const secondaryColor = getColor("SecondaryColor");
+  const labelColor = getColor("LabelColor");
+  const morethan3BishopsText = getLanguageValue("moreThan3Bishops");
+  const setBishopText = getLanguageValue("setBishop");
+  const BishopIsPresentText = getLanguageValue("BishopIsPresent");
 
-  let flexDirection = "row";
+  const [bishopsPresent, setBishopsPresent] = useState(BishopsPresent);
 
-  const [isloadingIndicator, setisloadingIndicator] = useState(false);
+  const renderBackdrop = useCallback(
+    (props) => (
+      <BottomSheetBackdrop
+        {...props}
+        disappearsOnIndex={-1}
+        appearsOnIndex={0}
+      ></BottomSheetBackdrop>
+    ),
+    []
+  );
 
-  const [ModalVisible, setModalVisible] = useState(false);
-  const [bishopsPresent, setbishopsPresent] = useState(BishopsPresent);
-
-  function setBishopClicked(bishop) {
-    setbishopsPresent([...bishopsPresent, bishop]);
-
-    closeListModal();
-  }
-  function deleteBishopHandler(id) {
-    var newBishops = bishopsPresent.filter((bishop) => bishop.key != id);
-    setbishopsPresent(newBishops);
-  }
-  function openModal() {
-    setModalVisible(true);
-  }
-  function closeListModal() {
-    setModalVisible(false);
-  }
-  function loadingActivate() {
-    dispatch(updateBishopsPresent({ BishopsPresent: bishopsPresent }));
-    closeModal();
-  }
-  function toggleSwitch() {
+  const toggleSwitch = () => {
     try {
-      setBishopIsPresent(!BishopIsPresent);
-      dispatch(changeisBishopHere());
+      dispatch(changeBishopPresent());
     } catch (e) {
       console.warn(e);
     }
-  }
-  function toggle3PlusSwitch() {
+  };
+
+  const toggle3PlusSwitch = () => {
     dispatch(changeismorethan3BishopPresent());
-  }
+  };
+
+  const setBishopClicked = (bishop) => {
+    setBishopsPresent([...bishopsPresent, bishop]);
+    closeListModal();
+  };
+
+  const deleteBishopHandler = (id) => {
+    const newBishops = bishopsPresent.filter((bishop) => bishop.key !== id);
+    setBishopsPresent(newBishops);
+  };
+
+  const openModal = () => {
+    setModalVisible(true);
+  };
+
+  const closeListModal = () => {
+    setModalVisible(false);
+  };
+
+  const loadingActivate = () => {
+    dispatch(updateBishopsPresent({ BishopsPresent: bishopsPresent }));
+  };
 
   return (
     <>
+      {/* AllBishopsPopup component */}
       <AllBishopsPopup
         visible={ModalVisible}
-        closeModal={closeModal}
+        closeModal={() => setModalVisible(false)}
         setBishop={setBishopClicked}
       ></AllBishopsPopup>
-      <SafeAreaView style={[styles.container]}>
-        <View style={{ margin: 5, flex: 8 }}>
-          <View style={[styles.switchView, { flexDirection: flexDirection }]}>
+
+      {/* Bishop Present View */}
+      <View style={styles.container}>
+        <View style={styles.switchView}>
+          <View style={styles.titleView}>
+            <Text style={[styles.title, { fontSize, color: primaryColor }]}>
+              {BishopIsPresentText}
+            </Text>
+          </View>
+          <View style={styles.switch}>
+            <Switch
+              trackColor={{
+                false: navigationBarColor,
+                true: secondaryColor,
+              }}
+              ios_backgroundColor={
+                darkMode ? secondaryColor : navigationBarColor
+              }
+              value={BishopIsPresent}
+              onValueChange={toggleSwitch}
+              thumbColor="white"
+            />
+          </View>
+        </View>
+
+        {/* Show more than 3 Bishops Switch */}
+        {BishopIsPresent && (
+          <View style={styles.switchView}>
             <View style={styles.titleView}>
-              <Text
-                style={[
-                  styles.title,
-                  { fontSize: fontSize, color: primaryColor },
-                ]}
-              >
-                {BishopIsPresentText}
+              <Text style={[styles.title, { fontSize, color: primaryColor }]}>
+                {morethan3BishopsText}
               </Text>
             </View>
             <View style={styles.switch}>
@@ -127,143 +139,98 @@ function BishopPresentView({ visible, closeModal }) {
                 ios_backgroundColor={
                   darkMode ? secondaryColor : navigationBarColor
                 }
-                value={BishopIsPresent}
-                onValueChange={toggleSwitch}
+                value={ismorethan3BishopPresent}
+                onValueChange={toggle3PlusSwitch}
                 thumbColor="white"
               />
             </View>
           </View>
+        )}
 
-          {BishopIsPresent ? (
-            <View style={[styles.switchView, { flexDirection: flexDirection }]}>
-              <View style={styles.titleView}>
-                <Text
-                  style={[
-                    styles.title,
-                    { fontSize: fontSize, color: primaryColor },
-                  ]}
-                >
-                  {morethan3BishopsText}
-                </Text>
-              </View>
-              <View style={styles.switch}>
-                <Switch
-                  trackColor={{
-                    false: navigationBarColor,
-                    true: secondaryColor,
-                  }}
-                  ios_backgroundColor={
-                    darkMode ? secondaryColor : navigationBarColor
-                  }
-                  value={ismorethan3BishopPresent}
-                  onValueChange={toggle3PlusSwitch}
-                  thumbColor="white"
-                />
-              </View>
-            </View>
-          ) : null}
+        {/* Bishops Present List */}
+        {BishopIsPresent && !ismorethan3BishopPresent ? (
+          <View style={{ width: "100%" }}>
+            {bishopsPresent.length < 3 && (
+              <Pressable onPress={openModal} style={styles.addButton}>
+                <Text style={styles.buttonText}>Add Bishop</Text>
+              </Pressable>
+            )}
 
-          {BishopIsPresent && ismorethan3BishopPresent == false ? (
-            <View>
-              {bishopsPresent.length < 3 ? (
-                <Pressable onPress={openModal} style={styles.addButton}>
-                  <Text style={styles.buttonText}>Add Bishop</Text>
-                </Pressable>
-              ) : null}
-              <Text
-                style={[
-                  styles.title,
-                  {
-                    fontSize: fontSize,
-                    color: primaryColor,
-                    textDecorationLine: "underline",
-                  },
-                ]}
-              >
-                Bishops Present
-              </Text>
-              {bishopsPresent.map((bishop, index) => (
-                <View key={index} style={styles.existingView}>
-                  <View
-                    style={[styles.popeView, { flexDirection: "row" }]}
-                    key={bishop.key}
+            <Text
+              style={[
+                styles.title,
+                {
+                  fontSize,
+                  color: primaryColor,
+                  textDecorationLine: "underline",
+                },
+              ]}
+            >
+              Bishops Present
+            </Text>
+
+            {bishopsPresent.map((bishop, index) => (
+              <View style={styles.existingView} key={index}>
+                <View style={[styles.popeView, { flexDirection: "row" }]}>
+                  <Text
+                    style={[
+                      styles.popeText,
+                      {
+                        color: labelColor,
+                        flex: 8,
+                        alignContent: "flex-start",
+                      },
+                    ]}
                   >
-                    <Text
-                      style={[
-                        styles.popeText,
-                        {
-                          color: labelColor,
-                          flex: 8,
-                          alignContent: "flex-start",
-                        },
-                      ]}
-                    >
-                      {bishop.Rank === "Bishop"
-                        ? " His Grace Bishop "
-                        : " His Eminence Metropolitan "}
-                      {bishop.English}
-                    </Text>
-                    <Pressable
-                      style={{ margin: 3 }}
-                      onPress={deleteBishopHandler.bind(this, bishop.key)}
-                    >
-                      <AntDesign name="closecircle" size={24} color="black" />
-                    </Pressable>
-                  </View>
+                    {bishop.Rank === "Bishop"
+                      ? " His Grace Bishop "
+                      : " His Eminence Metropolitan "}
+                    {bishop.English}
+                  </Text>
+                  <Pressable
+                    style={{ margin: 3 }}
+                    onPress={() => deleteBishopHandler(bishop.key)}
+                  >
+                    <AntDesign
+                      name="closecircle"
+                      size={24}
+                      color={labelColor}
+                    />
+                  </Pressable>
                 </View>
-              ))}
-            </View>
-          ) : null}
-        </View>
-        <Pressable
-          onPress={loadingActivate}
-          style={[styles.addButton, { flex: 2 }]}
-        >
-          <Text style={styles.buttonText}>Exit</Text>
-        </Pressable>
-      </SafeAreaView>
+              </View>
+            ))}
+          </View>
+        ) : null}
+      </View>
     </>
   );
 }
+
 export default BishopPresentView;
+
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-
-    height: "50%",
-    justifyContent: "center",
+    justifyContent: "space-around",
+    alignItems: "center",
+    margin: 5,
+    flexDirection: "column",
   },
-  bookView: {
+  switchView: {
     flexDirection: "row",
-    borderColor: "black",
-    borderRadius: 30,
-    borderWidth: 5,
   },
   titleView: {
-    flex: 2,
     margin: 10,
+    flex: 8,
   },
   title: {
     fontFamily: "english-font",
   },
-  image: {
-    flex: 8,
-    height: "50%",
-    borderRadius: 100 / 2,
-    overflow: "hidden",
-  },
-  textView: {
+  switch: {
     flex: 2,
     borderColor: "black",
     alignItems: "center",
     justifyContent: "center",
-  },
-  text: {
-    color: "black",
-    fontSize: 15,
-    fontFamily: "english-font",
-    fontWeight: "bold",
-    textAlign: "center",
   },
   popeView: {
     alignContent: "center",
@@ -276,14 +243,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     padding: 5,
   },
-  bookView: {
-    flexDirection: "row",
-    borderColor: "black",
-    borderRadius: 30,
-    backgroundColor: "#AA4A44",
-    borderWidth: 5,
-    margin: 10,
-  },
   addButton: {
     backgroundColor: "blue",
     padding: 10,
@@ -295,5 +254,9 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 16,
     fontWeight: "bold",
+  },
+  existingView: {
+    // Add any styles specific to the existing bishop view here
+    // For example, you can add margin, padding, or border styles
   },
 });

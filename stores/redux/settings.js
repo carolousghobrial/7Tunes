@@ -23,7 +23,6 @@ const settingsSlice = createSlice({
     timeTransition: new Date().setHours(18, 0, 0),
     pagination: false,
     isTablet: false,
-    isBishopHere: false,
     BishopIsPresent: false,
     ismorethan3BishopPresent: false,
     BishopsPresent: [],
@@ -77,12 +76,7 @@ const settingsSlice = createSlice({
         BishopIsPresent: !state.BishopIsPresent,
       };
     },
-    changeisBishopHere: (state, action) => {
-      return {
-        ...state,
-        isBishopHere: !state.isBishopHere,
-      };
-    },
+
     changeismorethan3BishopPresent: (state, action) => {
       return {
         ...state,
@@ -236,7 +230,6 @@ export const setIsTablet = settingsSlice.actions.setIsTablet;
 export const setdioceseBishop = settingsSlice.actions.setdioceseBishop;
 export const updateBishopsPresent = settingsSlice.actions.updateBishopsPresent;
 export const changeBishopPresent = settingsSlice.actions.changeBishopPresent;
-export const changeisBishopHere = settingsSlice.actions.changeisBishopHere;
 export const changeismorethan3BishopPresent =
   settingsSlice.actions.changeismorethan3BishopPresent;
 
