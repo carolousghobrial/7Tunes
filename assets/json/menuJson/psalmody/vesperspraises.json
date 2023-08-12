@@ -8,7 +8,7 @@
             "hasSubBooks": false,
             "BookPath": "standardVespersPraises",
             "ImageURL": "david",
-            "Enabled": false
+            "Enabled": true
         },
         {
             "EnglishTitle": "Kiahk Vesper's Praises",
@@ -18,7 +18,7 @@
             "hasSubBooks": false,
             "BookPath": "kiahkVespersPraises",
             "ImageURL": "annuciation",
-            "Enabled": false
+            "Enabled": true
         },
         {
             "EnglishTitle": "Lenten Vesper's Praises",
@@ -28,7 +28,7 @@
             "hasSubBooks": false,
             "BookPath": "lentenVespersPraises",
             "ImageURL": "lent",
-            "Enabled": false
+            "Enabled": true
         }
     ]
 }
