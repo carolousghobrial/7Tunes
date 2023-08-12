@@ -118,8 +118,8 @@ android {
         applicationId 'com.seventunes.tasbehafinal'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 6222241
-        versionName "6.1.7"
+        versionCode 6222242
+        versionName "6.1.8"
     }
 
     splits {

@@ -9,7 +9,7 @@ import { getFullViewModel } from "../viewModel/getFullViewModel";
 
 function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
   function OpenTheotokia() {
-    navigation.navigate("BookScreen", {
+    navigation.push("BookScreen", {
       bookPath: item.Path,
       englishTitle: item.EnglishTitle,
       arabicTitle: item.ArabicTitle,
@@ -17,7 +17,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
     });
   }
   function OpenDoxologies() {
-    navigation.navigate("BookScreen", {
+    navigation.push("BookScreen", {
       bookPath: item.Path,
       englishTitle: item.EnglishTitle,
       arabicTitle: item.ArabicTitle,
@@ -25,7 +25,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
     });
   }
   function OpenPalmSundayProcession() {
-    navigation.navigate("BookScreen", {
+    navigation.push("BookScreen", {
       bookPath: item.Path,
       englishTitle: item.EnglishTitle,
       arabicTitle: item.ArabicTitle,
@@ -33,7 +33,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
     });
   }
   function OpenPage() {
-    navigation.navigate("BookScreen", {
+    navigation.push("BookScreen", {
       bookPath: item.Path,
       englishTitle: item.EnglishTitle,
       arabicTitle: item.ArabicTitle,
@@ -58,7 +58,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
     });
   }
   function OpenSinglePage() {
-    navigation.navigate("ViewSingleHymn", {
+    navigation.push("ViewSingleHymn", {
       path: item.Path,
       motherSource: motherSource,
       rule: item.Rule,

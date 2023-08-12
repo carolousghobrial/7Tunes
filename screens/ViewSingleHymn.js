@@ -93,7 +93,7 @@ const ViewSingleHymn = React.memo(({ navigation, route }) => {
   }, [NavbarVisibility]);
 
   const settingsPressed = () => {
-    navigation.navigate("SettingsModal");
+    navigation.push("SettingsModal");
   };
 
   React.useLayoutEffect(() => {

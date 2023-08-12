@@ -3,8 +3,6 @@
         {
             "EnglishTitle": "Holy Psalmody",
             "ArabicTitle": "الابصلمودية المقدسة",
-            "PurchaseKeyDroid": "annualpsalmodyid",
-            "PurchaseKeyIos": "annualpsalmodyidsku",
             "hasSubBooks": true,
             "BookPath": "psalmody",
             "ImageURL": "psalmody",
@@ -13,8 +11,6 @@
         {
             "EnglishTitle": "Holy Liturgy",
             "ArabicTitle": "القداس الإلهي",
-            "PurchaseKeyDroid": "annualpsalmodyid",
-            "PurchaseKeyIos": "annualpsalmodyidsku",
             "hasSubBooks": true,
             "BookPath": "liturgy",
             "ImageURL": "liturgy",

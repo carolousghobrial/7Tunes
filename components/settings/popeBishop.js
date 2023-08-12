@@ -102,15 +102,15 @@ function PopeBishop() {
             {appLanguage === "eng" ? (
               <Text style={[styles.popeText, { color: labelColor }]}>
                 {getLanguageValue("dioceseBishopMetropolitain")}
-                {dioceseBishop.Rank === "Bishop"
+                {dioceseBishop?.Rank === "Bishop"
                   ? " His Grace Bishop "
                   : " His Eminence Metropolitan "}
-                {dioceseBishop.English}
+                {dioceseBishop?.English}
               </Text>
             ) : (
               <Text style={[styles.popeText, { color: labelColor }]}>
                 {getLanguageValue("dioceseBishopMetropolitain")} نيافة الحبر
-                الجليل الأنبا {dioceseBishop.Arabic}
+                الجليل الأنبا {dioceseBishop?.Arabic}
               </Text>
             )}
 

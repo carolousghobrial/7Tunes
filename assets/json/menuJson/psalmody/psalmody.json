@@ -3,8 +3,6 @@
         {
             "EnglishTitle": "Vesper's Praises",
             "ArabicTitle": "تسبحة عشية",
-            "PurchaseKeyDroid": "annualpsalmodyid",
-            "PurchaseKeyIos": "annualpsalmodyidsku",
             "hasSubBooks": true,
             "BookPath": "vp",
             "ImageURL": "vp",
@@ -13,8 +11,6 @@
         {
             "EnglishTitle": "Midnight Praises",
             "ArabicTitle": "تسبحة نصف الليل",
-            "PurchaseKeyDroid": "annualpsalmodyid",
-            "PurchaseKeyIos": "annualpsalmodyidsku",
             "hasSubBooks": true,
             "BookPath": "mp",
             "ImageURL": "mp",
@@ -24,8 +20,6 @@
         {
             "EnglishTitle": "Morning Doxology",
             "ArabicTitle": "تسبحة باكر",
-            "PurchaseKeyDroid": "",
-            "PurchaseKeyIos": "",
             "hasSubBooks": false,
             "BookPath": "morningDoxology",
             "ImageURL": "morningDoxology",

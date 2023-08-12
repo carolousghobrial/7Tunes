@@ -936,11 +936,11 @@ export const REPLACEDIOCESEBISHOP = () => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
 
   return {
-    english: dioceseBishop.English,
-    coptic: dioceseBishop.Coptic,
-    arabic: dioceseBishop.Arabic,
-    englishcoptic: dioceseBishop.Englishcoptic,
-    arabiccoptic: dioceseBishop.Arabiccoptic,
+    english: dioceseBishop?.English,
+    coptic: dioceseBishop?.Coptic,
+    arabic: dioceseBishop?.Arabic,
+    englishcoptic: dioceseBishop?.Englishcoptic,
+    arabiccoptic: dioceseBishop?.Arabiccoptic,
   };
 };
 
@@ -950,7 +950,7 @@ export const REPLACEMETROPOLITAINAVAILABLE = () => {
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const metro1 = BishopsPresent.filter(
     (bishop) =>
-      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop.key
+      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
   )[0];
   return {
     english: metro1.English,
@@ -966,7 +966,7 @@ export const REPLACEMETROPOLITAINAVAILABLETWO = () => {
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const metro1 = BishopsPresent.filter(
     (bishop) =>
-      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop.key
+      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
   )[1];
   return {
     english: metro1.English,
@@ -982,7 +982,7 @@ export const REPLACEMETROPOLITAINAVAILABLETHREE = () => {
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const metro1 = BishopsPresent.filter(
     (bishop) =>
-      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop.key
+      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
   )[2];
   return {
     english: metro1.English,
@@ -998,7 +998,7 @@ export const REPLACEBISHOPAVAILABLE = () => {
 
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const metro1 = BishopsPresent.filter(
-    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop.key
+    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   )[0];
   return {
     english: metro1.English,
@@ -1013,7 +1013,7 @@ export const REPLACEBISHOPAVAILABLETWO = () => {
 
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const metro1 = BishopsPresent.filter(
-    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop.key
+    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   )[1];
   return {
     english: metro1.English,
@@ -1028,7 +1028,7 @@ export const REPLACEBISHOPAVAILABLETHREE = () => {
 
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const metro1 = BishopsPresent.filter(
-    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop.key
+    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   )[2];
   return {
     english: metro1.English,

@@ -148,14 +148,14 @@ function HomepageScreen({ navigation, route }) {
     setIsLoading(false);
 
     if (item.hasSubBooks) {
-      navigation.navigate("HomepageScreen", {
+      navigation.push("HomepageScreen", {
         bookPath: BookPath,
         englishTitle: EnglishTitle,
         arabicTitle: ArabicTitle,
       });
     } else {
       if (mother !== undefined) {
-        navigation.navigate("BookScreen", {
+        navigation.push("BookScreen", {
           bookPath: BookPath,
           englishTitle: EnglishTitle,
           arabicTitle: ArabicTitle,
@@ -163,7 +163,7 @@ function HomepageScreen({ navigation, route }) {
           BishopButton: BishopButton,
         });
       } else {
-        navigation.navigate("BookScreen", {
+        navigation.push("BookScreen", {
           bookPath: BookPath,
           englishTitle: EnglishTitle,
           arabicTitle: ArabicTitle,

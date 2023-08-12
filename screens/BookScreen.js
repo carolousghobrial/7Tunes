@@ -13,6 +13,7 @@ import {
   Text,
   FlatList,
   Pressable,
+  TouchableWithoutFeedback,
   View,
   useWindowDimensions,
 } from "react-native";
@@ -166,7 +167,9 @@ const BookScreen = React.memo(({ navigation, route }) => {
       contentsSheetRef?.current.dismiss();
     }
   };
-
+  const handleScreenTap = () => {
+    console.log("ASDA");
+  };
   const renderItems = ({ item }) => {
     switch (item.part.Type) {
       case "Base":
@@ -225,7 +228,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
 
       <FlatList
         ref={flatListRef}
-        style={[styles.container, { backgroundColor: pageBackgroundColor }]}
+        style={{ backgroundColor: pageBackgroundColor }}
         onViewableItemsChanged={onViewableItemsChanged}
         showsVerticalScrollIndicator={false}
         data={bookContents}
@@ -238,6 +241,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
         renderItem={renderItems}
         keyExtractor={(item) => item.key}
       />
+
       {BishopIsPresent && BishopButton && (
         <FloatingButton navigation={navigation} />
       )}

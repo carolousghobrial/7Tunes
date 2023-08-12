@@ -64,15 +64,14 @@ const TheotokiaVisible = (motherSource, path) => {
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
 
   const dayOfWeekToPath = {
-    0: "saturday",
-    1: "sunday",
-    2: "monday",
-    3: "tuesday",
-    4: "wednesday",
-    5: "thursday",
-    6: "friday",
+    0: "sunday",
+    1: "monday",
+    2: "tuesday",
+    3: "wednesday",
+    4: "thursday",
+    5: "friday",
+    6: "saturday",
   };
-
   if (todayPrayer) {
     return path.includes(dayOfWeekToPath[today]);
   } else {
@@ -82,8 +81,7 @@ const TheotokiaVisible = (motherSource, path) => {
 
 const isStandard = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-
-  return currentSeason.type !== "feast" && motherSource === "standardPsalmody";
+  return currentSeason.type !== "feast" && motherSource === "praises";
 };
 
 const isKiahk = (motherSource, path) => {
@@ -739,19 +737,29 @@ const getPlantsSeason = (motherSource, path) => {
 };
 const ISDioceseMetropolitain = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+  console.log(dioceseBishop);
   const BishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
 
-  if (dioceseBishop.Rank === "Metropolitan" && BishopIsPresent === true) {
+  if (dioceseBishop === undefined) {
+    return false;
+  }
+  if (dioceseBishop?.Rank === "Metropolitan" && BishopIsPresent === true) {
     return true;
   }
   return false;
 };
 const ISDioceseBishop = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-  if (dioceseBishop.Rank === "Bishop" && BishopIsPresent === true) {
+  const BishopIsPresent = useSelector(
+    (state) => state.settings.BishopIsPresent
+  );
+
+  if (dioceseBishop === undefined) {
+    return false;
+  }
+  if (dioceseBishop?.Rank === "Bishop" && BishopIsPresent === true) {
     return true;
   }
   return false;
@@ -760,7 +768,7 @@ const BishopIsPresent = (motherSource, path) => {
   const BishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
-  if (BishopIsPresent) {
+  if (BishopIsPresent !== undefined && BishopIsPresent !== false) {
     return true;
   }
   return false;
@@ -773,15 +781,15 @@ const Is3PlusBishops = (BishopsPresent, motherSource, path) => {
 
   const filteredMetro = BishopsPresent.filter(
     (bishop) =>
-      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop.key
+      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
   );
   const filteredBishop = BishopsPresent.filter(
-    (bishop) => bishop.Rank === "Bishpp" && bishop.key !== dioceseBishop.key
+    (bishop) => bishop.Rank === "Bishpp" && bishop.key !== dioceseBishop?.key
   );
 
   if (
-    filteredBishop.length >= 3 &&
-    filteredMetro.length >= 3 &&
+    filteredBishop?.length >= 3 &&
+    filteredMetro?.length >= 3 &&
     are3PlusBishopsPresent
   ) {
     return true;
@@ -798,14 +806,14 @@ const Is3PlusMetroBishops = (motherSource, path) => {
 
   const filteredMetro = BishopsPresent.filter(
     (bishop) =>
-      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop.key
+      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
   );
   const filteredBishop = BishopsPresent.filter(
-    (bishop) => bishop.Rank === "Bishpp" && bishop.key !== dioceseBishop.key
+    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   );
   if (
-    filteredBishops.length > 1 &&
-    filteredMetro.length > 1 &&
+    filteredBishops?.length > 1 &&
+    filteredMetro?.length > 1 &&
     Is3PlusBishops === true
   ) {
     return true;
@@ -819,12 +827,11 @@ const ISOneMetropolitain = (motherSource, path) => {
     (state) => state.settings.BishopIsPresent
   );
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
-
   if (
-    BishopsPresent.length > 0 &&
-    BishopsPresent.filter(
+    BishopsPresent?.length > 0 &&
+    BishopsPresent?.filter(
       (bishop) =>
-        bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop.key
+        bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
     ).length > 0 &&
     BishopIsPresent === true
   ) {
@@ -839,14 +846,14 @@ const ISTwoMetropolitain = (motherSource, path) => {
     (state) => state.settings.BishopIsPresent
   );
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
-  const filteredBishops = BishopsPresent.filter(
+  const filteredBishops = BishopsPresent?.filter(
     (bishop) =>
-      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop.key
+      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
   );
-  if (filteredBishops.length > 1 && BishopIsPresent === true) {
+  if (filteredBishops?.length > 1 && BishopIsPresent === true) {
     if (
-      filteredBishops[0].Rank === "Metropolitan" &&
-      filteredBishops[1].Rank === "Metropolitan"
+      filteredBishops[0]?.Rank === "Metropolitan" &&
+      filteredBishops[1]?.Rank === "Metropolitan"
     ) {
       return true;
     } else {
@@ -862,18 +869,18 @@ const ISThreeMetropolitain = (motherSource, path) => {
     (state) => state.settings.BishopIsPresent
   );
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
-  const filteredBishops = BishopsPresent.filter(
+  const filteredBishops = BishopsPresent?.filter(
     (bishop) =>
-      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop.key
+      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
   );
   if (
-    filteredBishops.length > 2 &&
+    filteredBishops?.length > 2 &&
     BishopIsPresent === true &&
-    filteredBishops.some((bishop) => bishop.key !== dioceseBishop.key)
+    filteredBishops?.some((bishop) => bishop.key !== dioceseBishop?.key)
   ) {
     if (
-      filteredBishops[0].Rank === "Metropolitan" &&
-      filteredBishops[1].Rank === "Metropolitan"
+      filteredBishops[0]?.Rank === "Metropolitan" &&
+      filteredBishops[1]?.Rank === "Metropolitan"
     ) {
       return true;
     } else {
@@ -891,9 +898,9 @@ const ISOneBishop = (motherSource, path) => {
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
 
   if (
-    BishopsPresent.length > 0 &&
-    BishopsPresent.filter(
-      (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop.key
+    BishopsPresent?.length > 0 &&
+    BishopsPresent?.filter(
+      (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
     ).length > 0 &&
     BishopIsPresent === true
   ) {
@@ -908,10 +915,10 @@ const ISTwoBishop = (motherSource, path) => {
     (state) => state.settings.BishopIsPresent
   );
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
-  const filteredBishops = BishopsPresent.filter(
-    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop.key
+  const filteredBishops = BishopsPresent?.filter(
+    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   );
-  if (filteredBishops.length > 1 && BishopIsPresent === true) {
+  if (filteredBishops?.length > 1 && BishopIsPresent === true) {
     if (
       filteredBishops[0].Rank === "Bishop" &&
       filteredBishops[1].Rank === "Bishop"
@@ -930,15 +937,15 @@ const ISThreeBishop = (motherSource, path) => {
   );
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
 
-  const filteredBishops = BishopsPresent.filter(
-    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop.key
+  const filteredBishops = BishopsPresent?.filter(
+    (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   );
 
   // Check if there are at least 3 bishops present and if the diocese bishop is not one of them
   if (
-    filteredBishops.length >= 3 &&
+    filteredBishops?.length >= 3 &&
     BishopIsPresent &&
-    !filteredBishops.some((bishop) => bishop.key === dioceseBishop.key)
+    !filteredBishops?.some((bishop) => bishop.key === dioceseBishop?.key)
   ) {
     return true;
   }
