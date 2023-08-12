@@ -25,11 +25,6 @@ import { setSeason } from "../stores/redux/settings.js";
 
 import BishopPresentView from "./BishopPresentView.js";
 
-const isStandardBoughtSelector = (state) =>
-  state.settings.standardPsalmodyPermission;
-const isKiahkBoughtSelector = (state) => state.settings.kiahkPsalmodyPermission;
-const isPaschaBoughtSelector = (state) => state.settings.paschaBookPermission;
-
 function HomepageScreen({ navigation, route }) {
   const timeTransition = useSelector((state) => state.settings.timeTransition);
 
@@ -43,9 +38,15 @@ function HomepageScreen({ navigation, route }) {
   }
   const labelColor = getColor("LabelColor");
   const data = homescreenPaths[route.params.bookPath];
-  const isStandardBought = useSelector(isStandardBoughtSelector);
-  const isKiahkBought = useSelector(isKiahkBoughtSelector);
-  const isPaschaBought = useSelector(isPaschaBoughtSelector);
+  const isStandardBought = useSelector(
+    (state) => state.settings.standardPsalmodyPermission
+  );
+  const isKiahkBought = useSelector(
+    (state) => state.settings.kiahkPsalmodyPermission
+  );
+  const isPaschaBought = useSelector(
+    (state) => state.settings.paschaBookPermission
+  );
   const [isLoading, setIsLoading] = useState(false);
   const [bishopModalVisible, setbishopModalVisible] = useState(false);
   const dispatch = useDispatch();
