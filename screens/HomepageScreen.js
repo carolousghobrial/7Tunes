@@ -20,6 +20,8 @@ import {
   BottomSheetScrollView,
   BottomSheet,
 } from "@gorhom/bottom-sheet";
+import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper";
+
 import BishopPresentView from "./BishopPresentView.js";
 
 const isStandardBoughtSelector = (state) =>
@@ -28,6 +30,10 @@ const isKiahkBoughtSelector = (state) => state.settings.kiahkPsalmodyPermission;
 const isPaschaBoughtSelector = (state) => state.settings.paschaBookPermission;
 
 function HomepageScreen({ navigation, route }) {
+  const dispatch = useDispatch();
+
+  const timeTransition = useSelector((state) => state.settings.timeTransition);
+
   const bottomSheetRef = useRef(null);
 
   // variables
@@ -46,6 +52,9 @@ function HomepageScreen({ navigation, route }) {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    dispatch(
+      setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
+    );
     onFetchUpdateAsync();
   }, [navigation]);
 
