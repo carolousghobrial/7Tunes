@@ -62,6 +62,8 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
       path: item.Path,
       motherSource: motherSource,
       rule: item.Rule,
+      englishTitle: item.English,
+      arabicTitle: item.Arabic,
     });
   }
   function PopPage() {

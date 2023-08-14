@@ -1,69 +1,61 @@
-import {
-  StyleSheet,
-  useWindowDimensions,
-  Text,
-  View,
-  ActivityIndicator,
-  FlatList,
-  Animated,
-  Pressable,
-  StatusBar,
-} from "react-native";
-import BaseView from "../components/ViewTypes/BaseView";
-import MelodyView from "../components/ViewTypes/MelodyView";
-import TitleView from "../components/ViewTypes/TitleView";
-import RitualView from "../components/ViewTypes/RitualView";
-import ButtonView from "../components/ViewTypes/ButtonView";
-import MainTitleView from "../components/ViewTypes/MainTitleView";
+import React, { useState, useRef, useEffect, memo, useCallback } from "react";
+import { StyleSheet, Text, Pressable, FlatList } from "react-native";
+import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
 import Icon from "react-native-vector-icons/Ionicons";
+import { useDispatch, useSelector } from "react-redux";
 
-import React, {
-  useState,
-  useRef,
-  useEffect,
-  memo,
-  useCallback,
-  PureComponent,
-  useMemo,
-} from "react";
 import {
   getLanguageValue,
   getFontSize,
   getColor,
 } from "../helpers/SettingsHelpers.js";
 import { getMain } from "../viewModel/getFullViewModel";
-const ViewSingleHymn = React.memo(({ navigation, route }) => {
+import BaseView from "../components/ViewTypes/BaseView";
+import MelodyView from "../components/ViewTypes/MelodyView";
+import TitleView from "../components/ViewTypes/TitleView";
+import RitualView from "../components/ViewTypes/RitualView";
+import ButtonView from "../components/ViewTypes/ButtonView";
+import MainTitleView from "../components/ViewTypes/MainTitleView";
+import SettingsModal from "../components/BottomBar/SettingsModal";
+
+const ViewSingleHymn = memo(({ navigation, route }) => {
+  const bottomSheetRef = useRef(null);
+  const appLanguage = useSelector((state) => state.settings.appLanguage);
+
+  const snapPoints = ["75%"];
   const flatListRef = useRef();
-  const [NavbarVisibility, setNavbarVisibility] = useState(true);
+  const [navbarVisibility, setNavbarVisibility] = useState(true);
   const path = route.params.path;
-  var pageBackgroundColor = getColor("pageBackgroundColor");
-  let labelColor = getColor("LabelColor");
+  const pageBackgroundColor = getColor("pageBackgroundColor");
+  const labelColor = getColor("LabelColor");
 
   const motherSource = route.params.motherSource;
   const rule = route.params.rule;
+  const title =
+    appLanguage === "eng"
+      ? route.params.englishTitle
+      : route.params.arabicTitle;
+
+  const [navTitle, setNavTitle] = useState(title);
   const data = getMain(path, motherSource, false, rule, 0)[0];
+
   const renderItems = ({ item }) => {
-    let content = {};
+    let content = null;
     switch (item.part.Type) {
       case "Base":
-        content = <BaseView item={item.part}></BaseView>;
-
+        content = <BaseView item={item.part} />;
         break;
       case "Melody":
-        content = <MelodyView item={item.part}></MelodyView>;
-
+        content = <MelodyView item={item.part} />;
         break;
       case "Title":
-        content = <TitleView item={item.part}></TitleView>;
-
+        content = <TitleView item={item.part} />;
         break;
       case "Ritual":
-        content = <RitualView item={item.part}></RitualView>;
-
+        content = <RitualView item={item.part} />;
         break;
       case "MainTitle":
-        content = <MainTitleView item={item.part}></MainTitleView>;
-
+        content = <MainTitleView item={item.part} />;
         break;
       case "Button":
         content = (
@@ -72,71 +64,55 @@ const ViewSingleHymn = React.memo(({ navigation, route }) => {
             flatListRef={flatListRef}
             viewData={memoizedData}
             navigation={navigation}
-          ></ButtonView>
+          />
         );
         break;
       default:
-        return <Text>Default</Text>;
+        content = <Text>Default</Text>;
         break;
     }
     return <Pressable onPress={hideHeader}>{content}</Pressable>;
   };
-  const onViewableItemsChanged = useRef(({ viewableItems }) => {
-    if (viewableItems.length > 0) {
-      //sehowMcuhToScroll(viewableItems.length - 1);
-    }
-  }).current;
-  useEffect(() => {
-    navigation.setOptions({
-      headerShown: NavbarVisibility,
-    });
-  }, [NavbarVisibility]);
 
-  const settingsPressed = () => {
-    navigation.push("SettingsModal");
+  const hideHeader = () => {
+    setNavbarVisibility(!navbarVisibility);
   };
 
   React.useLayoutEffect(() => {
     navigation.setOptions({
+      title: navTitle,
       headerRight: () => (
-        <>
-          <Pressable style={{ marginHorizontal: 5 }} onPress={settingsPressed}>
-            <Icon name="ios-settings-outline" size={30} color={labelColor} />
-          </Pressable>
-        </>
+        <Pressable style={{ marginHorizontal: 5 }} onPress={settingsPressed}>
+          <Icon name="ios-settings-outline" size={30} color={labelColor} />
+        </Pressable>
       ),
+      headerShown: navbarVisibility,
     });
-  }, [navigation]);
+  }, [navigation, navbarVisibility, navTitle]);
 
-  function hideHeader() {
-    setNavbarVisibility(!NavbarVisibility);
-  }
+  const settingsPressed = () => {
+    bottomSheetRef?.current.present();
+  };
 
   return (
-    <View style={[styles.container, { backgroundColor: pageBackgroundColor }]}>
+    <BottomSheetModalProvider>
+      <SettingsModal bottomSheetRef={bottomSheetRef} snapPoints={snapPoints} />
       <FlatList
         ref={flatListRef}
-        onViewableItemsChanged={onViewableItemsChanged}
+        style={{ backgroundColor: pageBackgroundColor }}
         showsVerticalScrollIndicator={false}
         data={data}
-        // initialScrollIndex={scrollToIndex}
         removeClippedSubviews={true}
         renderItem={renderItems}
-        keyExtractor={(item) => {
-          return item.key;
-        }}
+        keyExtractor={(item) => item.key}
       />
-    </View>
+    </BottomSheetModalProvider>
   );
 });
 
 export default ViewSingleHymn;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    width: "100%",
-  },
   textStyle: {
     fontFamily: "coptic-font",
     color: "white",
@@ -147,10 +123,10 @@ const styles = StyleSheet.create({
   },
   floatingText: {
     position: "absolute",
-    top: -12, // adjust the top position to make it float over the base letter
+    top: -12,
     fontSize: 25,
     backgroundColor: "transparent",
-    color: "#AA4A44", // set the color of the floating letter
-    zIndex: 1, // set the zIndex to bring the floating letter to the top
+    color: "#AA4A44",
+    zIndex: 1,
   },
 });

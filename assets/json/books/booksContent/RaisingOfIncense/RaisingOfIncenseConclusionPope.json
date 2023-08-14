@@ -73,28 +73,6 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseMetropolitain",
-      "Side": "North",
-      "Arabic": "وأبينا المطران  أنبا [*DIOCESE_BISHOP*]",
-      "Coptic": "Nem peniwt  `n`mmhtropolithc abba [*DIOCESE_BISHOP*] .",
-      "English": "And our father the metropolitan, Abba [*DIOCESE_BISHOP*].",
-      "Arabiccoptic": " نيم بين يوت إم ميت روبوليتيس آفا [*DIOCESE_BISHOP*].",
-      "Englishcoptic": "Nem penioot en-mmeetropolitees Avva [*DIOCESE_BISHOP*] ."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": "ISDioceseMetropolitain",
-      "Side": "North",
-      "Arabic": "وأبينا المطران  أنبا [*DIOCESE_BISHOP*]",
-      "Coptic": "Nem peniwt  `n`mmhtropolithc abba [*DIOCESE_BISHOP*] .",
-      "English": "And our father the metropolitan, Abba [*DIOCESE_BISHOP*].",
-      "Arabiccoptic": " نيم بين يوت إم ميت روبوليتيس آفا [*DIOCESE_BISHOP*].",
-      "Englishcoptic": "Nem penioot en-mmeetropolitees Avva [*DIOCESE_BISHOP*] ."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
       "Visible": "ISOneMetropolitain",
       "Side": "North",
       "Arabic": "وأبينا المطران  أنبا [*METROPOLITAIN_PRESENT*]",
@@ -172,7 +150,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "hide",
+      "Visible": "IsDiocesePope",
       "Side": "North",
       "Arabic": "إله السماء يثبته على كرسيه ، سنين كثيرة وأزمنة سلامية.",
       "Coptic": "Vnou; nte tve efetajrof \\ijen pef`qronoc> `n\\anmh]` nrompi nem \\anchou  `n\\irhnikon.",
@@ -183,7 +161,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "IsDioceseNotPope",
       "Side": "North",
       "Arabic": "إله السماء يثبتهم على كرسيَيْهما، سنين كثيرة وأزمنة سلامية.",
       "Coptic": "Vnou; nte tve efetajrwou \\ijen nou`qronoc> `n\\anmh]` nrompi nem \\anchou  `n\\irhnikon.",
@@ -194,7 +172,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "hide",
+      "Visible": "IsDiocesePope",
       "Side": "North",
       "Arabic": "ويخضع جميع أعدائه تحت أقدامه سريعاً.",
       "Coptic": "Ntefqebio `nnefjaji throu capecht `nnefsalauj `nxwlem.",
@@ -205,24 +183,13 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "IsDioceseNotPope",
       "Side": "North",
       "Arabic": "ويخضع جميع أعدائهم تحت أقدامهم سريعاً.",
       "Coptic": "`Ntefqebio `nnojaji throu capecht `nnousalauj `nxwlem.",
       "English": "May He subdue all their enemies under their feet speedily.",
       "Arabiccoptic": " إنتيف ثيفيو إنو جاجي تيرو صابي سيت إنو إتشالافج إن كوليم .",
       "Englishcoptic": "Entef-thevio en-noo-gaji teroo sapa-seet en-noo-et-shalavj en-koleam. "
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": "hide",
-      "Side": "North",
-      "Arabic": "أطلب من المسيح عنا ليغفر لنا خطايانا بسلام كعظيم رحمته.",
-      "Coptic": "Twb\\ ePixrictoc `e`\\rhi `ejwn> `ntefxa nennobi nan  `ebol =en ou\\irhnh kata pefni]; `nnai.",
-      "English": "Pray to Christ on our behalf that He may forgive us our sins, in peace, according to His great mercy.",
-      "Arabiccoptic": " طفه إى بخرستوس إي إهري إيجون إنتف كانين نوفي نان إيفول خين أو هيريني كاطا بيف نيشتي إناي ",
-      "Englishcoptic": "Tobh epi-ekhrestos e-ehrei egon entef ka nen novi nan evol, khen o-herini kata pek-nishti ennai."
     },
     {
       "Type": "Base",

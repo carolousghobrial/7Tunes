@@ -90,7 +90,7 @@
       "Coptic": "Ke tou `agioc ke makariou `edecimwtatou tou patroc `hmwn abba [*DIOCESE_BISHOP*] orqodo[ou `hmwn `epickopou thc polewc tauthc ke twn `oriwnauthc.",
       "English": "and our holy, blessed, most honorable father, Abba [*DIOCESE_BISHOP*], our orthodox metropolitain of this city and its surroundings.",
       "Arabiccoptic": "كي تو اجيو كي ماكاريو ايذيسيمو تاتو تو باطروس ايمون افا [*DIOCESE_BISHOP*] اورثوذوكسو ايمون ايم ميتروبولوتيس بوليئوس تافتيس كي تون اوريو نافتيس",
-      "Englishcoptic": "Ke tooo agios ke makariooo ezesimootatooo tooo patros eemon Avva [*DIOCESE_BISHOP*] orthozoxooo eemon episkopooo tees poleoos tavtees ke toon orioonavtees."
+      "Englishcoptic": "Ke tooo agios ke makariooo ezesimootatooo tooo patros eemon Avva [*DIOCESE_BISHOP*] orthozoxooo eemon em-metropolotees tees poleoos tavtees ke toon orioonavtees."
     },
     {
       "Type": "Base",
@@ -154,7 +154,7 @@
       "Arabic": "وأبينا الأسقف  أنبا [*BISHOP_PRESENT2*].",
       "Coptic": "Nem peniwt `nepickopoc  abba [*BISHOP_PRESENT2*]",
       "English": "And our father the bishop , Abba [*BISHOP_PRESENT2*].",
-      "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*BISHOP_PRESENT2*] .",
+      "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوس أﭭا [*BISHOP_PRESENT2*] .",
       "Englishcoptic": "Nem penioot en-epes-kopos avva [*BISHOP_PRESENT2*]"
     },
     {

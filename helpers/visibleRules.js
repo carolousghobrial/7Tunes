@@ -957,6 +957,37 @@ const ISThreeBishop = (motherSource, path) => {
 };
 
 const IsDiocesePope = (motherSource, path) => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+
+  const BishopIsPresent = useSelector(
+    (state) => state.settings.BishopIsPresent
+  );
+
+  if (dioceseBishop === undefined) {
+    return true;
+  }
+  if (dioceseBishop?.Rank === "Pope") {
+    return true;
+  }
+  return false;
+};
+const IsDioceseNotPope = (motherSource, path) => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+
+  const BishopIsPresent = useSelector(
+    (state) => state.settings.BishopIsPresent
+  );
+
+  if (dioceseBishop === undefined) {
+    return false;
+  }
+  if (
+    dioceseBishop?.Rank != "Metropolitan" ||
+    dioceseBishop?.Rank != "Bishop" ||
+    BishopIsPresent === true
+  ) {
+    return true;
+  }
   return false;
 };
 
@@ -1020,6 +1051,7 @@ const VisibleRules = {
   ISTwoBishop: ISTwoBishop,
   ISThreeBishop: ISThreeBishop,
   Is3PlusBishops: Is3PlusBishops,
+  IsDioceseNotPope: IsDioceseNotPope,
   BishopIsPresent: BishopIsPresent,
 };
 export default VisibleRules;

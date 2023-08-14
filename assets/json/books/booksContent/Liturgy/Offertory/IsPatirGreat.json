@@ -57,47 +57,91 @@
       "Coptic": "Peniwt eqouab  `narxie`reuc papa abba [*POPE*]",
       "English": "O our holy father, the high priest, Pope Abba [*POPE*].",
       "Arabiccoptic": " بنيوت إثؤواب إن أرشى إرفس*3 بابا آفا [*POPE*]",
-      "Englishcoptic": "Penioot ethooav  enarshieerevs papa Avva [*POPE*]"
+      "Englishcoptic": "Penioot ethowab  enarshieerevs papa Avva [*POPE*]"
     },
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "ISDioceseMetropolitain",
       "Side": "North",
-      "Arabic": "وشريكه في الخدمة الرسولية أبينا القديس انبا ___.",
-      "Coptic": "Nem pefke]~vh/r `n~litourgoc `n~a~poctolikoc peniwt eqouab abba (...)",
-      "English": "And his partner in the apostolic liturgy, our holy father Abba ___.",
-      "Arabiccoptic": " نيم بيفكيشفير ان ليتورغوس ان ابوستوليكوس بينيوت إثؤواب بنيوت إثؤواب إن ايبوسكوبوس*3  آفا (…)",
-      "Englishcoptic": "Nem pefkesh~vee/r en~litoorghos en~a~postolikos penioot ethooav Avva (...)"
+      "Arabic": "وشريكه في الخدمة الرسولية أبينا القديس المطران انبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem pefke]~vh/r `n~litourgoc `n~a~poctolikoc peniwt eqouab `mmhtropolthc abba [*DIOCESE_BISHOP*]",
+      "English": "And his partner in the apostolic liturgy, our holy father the metropolitain Abba [*DIOCESE_BISHOP*].",
+      "Arabiccoptic": "  نيم بيفكيشفير ان ليتورغوس ان ابوستوليكوس بينيوت إثؤواب إن ايم ميتروبولوتيس آفا [*DIOCESE_BISHOP*]",
+      "Englishcoptic": "Nem pef-kesh-veer en~litoorghos en~a~postolikos penioot ethowab en metropolotees Avva [*DIOCESE_BISHOP*]"
     },
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "ISDioceseBishop",
+      "Side": "North",
+      "Arabic": "وشريكه في الخدمة الرسولية أبينا القديس الأسقف انبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem pefke]~vh/r `n~litourgoc `n~a~poctolikoc peniwt eqouab `nepickopoc abba [*DIOCESE_BISHOP*]",
+      "English": "And his partner in the apostolic liturgy, our holy father the bishop Abba [*DIOCESE_BISHOP*].",
+      "Arabiccoptic": " نيم بيفكيشفير ان ليتورغوس ان ابوستوليكوس بينيوت إثؤواب إن  إن إيبيسكوبوس آفا [*DIOCESE_BISHOP*]",
+      "Englishcoptic": "Nem pef-kesh-veer en~litoorghos en~a~postolikos penioot ethowab en-epes-kopos Avva [*DIOCESE_BISHOP*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
       "Side": "North",
       "Arabic": "إله السماء يثبته (يثبتهما / يثبتهم) على كرسيه (كرسيهما / كراسيهم) سنين عديدة وأزمنة سالمة.",
       "Coptic": "Vnou; `nte `tve> ef``etajrof (efetajrwou) \\ijen pef`qronoc (nou`qronoc)> n\\anmh] ``nrompi> nem \\anchou `n\\irhnikon.",
       "English": "May the God of heaven keep his (them) on his throne (their thrones) for many years and peaceful times. ",
       "Arabiccoptic": "أفنوتى إنتى إتفى إيف إى تاجروف هيجين بيف إثرونوس إن هان ميش إنرومبى نيم هان سيو إن هيرينى كون",
-      "Englishcoptic": "Vnooti ente etve: efe-etagrof (efetagroo) hijen pefethronos (nooethronos): nhanmeesh eenrompi: nem hanseeoo enhireenikon."
+      "Englishcoptic": "Evnoti ente etve: efe-etagrof (ef-e-tagro-oo) hijen pefethronos (noo-ethronos): en-han-meesh eenrompi: nem hanseeoo en-hiree-nikon."
     },
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "IsDioceseNotPope",
       "Side": "North",
-      "Arabic": "ويُخضع جميعَ أعدائه (أعدائهما / أعدائهم) تحت أقدامه (أقدامهما / أقدامهم) سريعاً.",
-      "Coptic": "`Ntefqebio `nnefjaji (`nnoujaji) throu capecht `nnefsalauj (`nnousalauj) `nxwlem.",
-      "English": "May He subdue all his (their) enemies under his (their) feet speedily.",
+      "Arabic": "إله السماء  يثبتهم على  كرسيهما  سنين عديدة وأزمنة سالمة.",
+      "Coptic": "Vnou; `nte `tve> ef`efetajrwou \\ijen nou`qronoc> n\\anmh] ``nrompi> nem \\anchou `n\\irhnikon.",
+      "English": "May the God of heaven keep them on their thrones for many years and peaceful times. ",
+      "Arabiccoptic": "أفنوتى إنتى إتفى إيف إى تاجروف هيجين بيف إثرونوس إن هان ميش إنرومبى نيم هان سيو إن هيرينى كون",
+      "Englishcoptic": "Evnoti ente etve: ef-e-tagro-oo hijen noo-ethronos : en-han-meesh eenrompi: nem hanseeoo en-hiree-nikon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "IsDiocesePope",
+      "Side": "North",
+      "Arabic": "إله السماء يثبته  على كرسيه سنين عديدة وأزمنة سالمة.",
+      "Coptic": "Vnou; `nte `tve> ef``etajrof  \\ijen pef`qronoc > n\\anmh] ``nrompi> nem \\anchou `n\\irhnikon.",
+      "English": "May the God of heaven keep his on his throne for many years and peaceful times. ",
+      "Arabiccoptic": "أفنوتى إنتى إتفى إيف إى تاجروف هيجين بيف إثرونوس إن هان ميش إنرومبى نيم هان سيو إن هيرينى كون",
+      "Englishcoptic": "Evnoti ente etve efe-etagrof hijen pefethronos :en-han-meesh eenrompi: nem hanseeoo en-hiree-nikon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "IsDioceseNotPope",
+      "Side": "North",
+      "Arabic": "ويُخضع جميعَ أعدائهم تحت أقدامه  أقدامهم سريعاً.",
+      "Coptic": "`Ntefqebio `nnoujaji throu capecht `nnousalauj `nxwlem.",
+      "English": "May He subdue all their enemies under their feet speedily.",
+      "Arabiccoptic": " إنتيف ثيفيو إن نو جاجى تيرو سابيسيت إن نو تشالفج إنكوليم",
+      "Englishcoptic": "Entef-sevio ennoogaji teeroo sapeseet en-noo-chalavg enkoolem."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "IsDiocesePope",
+      "Side": "North",
+      "Arabic": "ويُخضع جميعَ أعدائه  تحت أقدامه سريعاً.",
+      "Coptic": "`Ntefqebio `nnoujaji throu capecht `nnefsalauj `nxwlem.",
+      "English": "May He subdue all his enemies under his feet speedily.",
       "Arabiccoptic": " إنتيف ثيفيو إن نيف جاجى تيرو سابيسيت إن نيف إتشالفج إنكوليم",
-      "Englishcoptic": "eNtefthevio ennefgaji (ennoogaji) teeroo sapeseet ennefchalavg (ennoochalavg) enkhoolem."
+      "Englishcoptic": "Entef-sevio ennefgaji teeroo sapeseet en-nef-echalavg  enkhoolem."
     },
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "أطلب (أطلبا / أطلبوا) من المسيح عنا ليغفر لنا خطايانا بسلامٍ كعظيمِ رحمتِهِ.",
+      "Arabic": "  أطلبوا من المسيح عنا ليغفر لنا خطايانا بسلامٍ كعظيمِ رحمتِهِ.",
       "Coptic": "Twb\\` ePixrictoc e\\rhi ejwn `ntefxa nennobi nan ebol =en ou\\irhnh kata pefni]; `nnai.",
       "English": "Ask Christ on our behalf to forgive us our sins, in peace, according to His great mercy.",
       "Arabiccoptic": "طوفه إى بي إخرستوس إى إهرى إيجون إنتيف كانين نوفى نان إيفول خين أو هيرينى كاتا بيف نيشتى إنناى.",
