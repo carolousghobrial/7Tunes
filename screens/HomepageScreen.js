@@ -107,7 +107,6 @@ function HomepageScreen({ navigation, route }) {
         await Glassfy.restorePurchases();
 
         const permissions = await Glassfy.permissions();
-        Alert.alert(permissions.all);
 
         const BookPermission = permissions.all.find(
           (permission) => permission.permissionId === item.PermissionStatus
