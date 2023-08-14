@@ -535,7 +535,7 @@ const isAdam = (motherSource, path) => {
 
   // Check specific conditions to determine if it is "Adam"
   if (
-    (motherSource === "vespers" && currentSeason.dayOfWeek > 3) ||
+    (motherSource === "vespers" && currentSeason.dayOfWeek === 0) ||
     motherSource === "ThursdayDayFirstHourMain"
   ) {
     return false;
@@ -737,8 +737,7 @@ const getPlantsSeason = (motherSource, path) => {
 };
 const ISDioceseMetropolitain = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-  console.log(dioceseBishop);
-  console.log("METRO");
+
   const BishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
@@ -746,7 +745,10 @@ const ISDioceseMetropolitain = (motherSource, path) => {
   if (dioceseBishop === undefined) {
     return false;
   }
-  if (dioceseBishop?.Rank === "Metropolitan" && BishopIsPresent === true) {
+  if (
+    dioceseBishop?.Rank === "Metropolitan" &&
+    (BishopIsPresent === true || motherSource.toLowerCase().includes("index"))
+  ) {
     return true;
   }
   return false;
@@ -756,7 +758,6 @@ const ISDioceseBishop = (motherSource, path) => {
   const BishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
-  console.log("Bishop");
 
   if (dioceseBishop === undefined) {
     return false;
@@ -956,8 +957,6 @@ const ISThreeBishop = (motherSource, path) => {
 };
 
 const IsDiocesePope = (motherSource, path) => {
-  console.log("Pope");
-
   return false;
 };
 

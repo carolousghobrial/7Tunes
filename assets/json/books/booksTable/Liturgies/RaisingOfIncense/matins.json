@@ -288,6 +288,18 @@
             "Path": "RaisingOfIncenseShortBlessing2",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsHymnBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationShereMaria",
+            "Rule": 0,
+            "Visible": true
         }
     ]
 }

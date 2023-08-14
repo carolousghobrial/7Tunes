@@ -134,7 +134,7 @@
       "Coptic": "Nem peniwt  `n`pickopoc abba [*DIOCESE_BISHOP*] .",
       "English": "And our father the bishop, Abba [*DIOCESE_BISHOP*].",
       "Arabiccoptic": " نيم بين يوت إم إيبسكوبوس آفا [*DIOCESE_BISHOP*].",
-      "Englishcoptic": "Nem penioot en-episkopos Avva [*DIOCESE_BISHOP*] ."
+      "Englishcoptic": "Nem penioot en-epes-kopos Avva [*DIOCESE_BISHOP*] ."
     },
     {
       "Type": "Base",
@@ -145,7 +145,7 @@
       "Coptic": "Nem peniwt  `n`pickopoc abba [*BISHOP_PRESENT*] .",
       "English": "And our father the bishop, Abba [*BISHOP_PRESENT*].",
       "Arabiccoptic": " نيم بين يوت إم إيبسكوبوس آفا [*BISHOP_PRESENT*].",
-      "Englishcoptic": "Nem penioot en-episkopos Avva [*BISHOP_PRESENT*] ."
+      "Englishcoptic": "Nem penioot en-epes-kopos Avva [*BISHOP_PRESENT*] ."
     },
     {
       "Type": "Base",
@@ -156,7 +156,7 @@
       "Coptic": "Nem peniwt  `n`pickopoc abba [*BISHOP_PRESENT2*] .",
       "English": "And our father the bishop, Abba [*BISHOP_PRESENT2*].",
       "Arabiccoptic": " نيم بين يوت إم إيبسكوبوس آفا [*BISHOP_PRESENT2*].",
-      "Englishcoptic": "Nem penioot en-episkopos Avva [*BISHOP_PRESENT2*] ."
+      "Englishcoptic": "Nem penioot en-epes-kopos Avva [*BISHOP_PRESENT2*] ."
     },
     {
       "Type": "Base",
@@ -167,7 +167,7 @@
       "Coptic": "Nem peniwt  `n`pickopoc abba [*BISHOP_PRESENT3*] .",
       "English": "And our father the bishop, Abba [*BISHOP_PRESENT3*].",
       "Arabiccoptic": " نيم بين يوت إم إيبسكوبوس آفا [*BISHOP_PRESENT3*].",
-      "Englishcoptic": "Nem penioot en-episkopos Avva [*BISHOP_PRESENT3*] ."
+      "Englishcoptic": "Nem penioot en-epes-kopos Avva [*BISHOP_PRESENT3*] ."
     },
     {
       "Type": "Base",

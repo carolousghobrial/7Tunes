@@ -65,6 +65,15 @@
             "ImageURL": "index",
             "Enabled": true,
             "mother": "index"
+        },
+        {
+            "EnglishTitle": "Papal Hymns",
+            "ArabicTitle": " مدائح القديسين",
+            "hasSubBooks": false,
+            "BookPath": "papalIndex",
+            "ImageURL": "index",
+            "Enabled": true,
+            "mother": "index"
         }
     ]
 }

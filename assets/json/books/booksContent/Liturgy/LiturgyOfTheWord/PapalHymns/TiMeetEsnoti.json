@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "لحن الفضائل",
+  "EnglishTitle": "Hymn of the Virtues",
+  "CopticTitle": ":metc~nou;",
   "Hymn": [
     {
       "Type": "Base",
@@ -13,29 +13,40 @@
       "Coptic": ":metc~nou; `n`areth `mPipneuma eqouab> et`c=hout =en ni`gravh eqouab `ete nai ne nouran.",
       "English": "The twelve virtues of the Holy Spirit that are mentioned in the holy Scriptures, these are their names—",
       "Arabiccoptic": "تي ميتي إسنوتي إن أريتي إم بي إبنيفما إثؤواب إيت إسخيوت خين ني إغرافي إثؤواب إبني ناي ني نوران.",
-      "Englishcoptic": "Timets~noooti en-aretee emPipnevma ethoooab: eteskheeooot khen nieghravee ethoooav -ete nai ne noooran."
+      "Englishcoptic": "Timets~noooti en-aretee emPipnevma ethoooab: eteskheeooot khen nieghravee ethowab -ete nai ne noooran."
     },
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "(تحل على) (2) رأس أبينا القديس رئيس الكهنة، البابا أنبا (تواضروس).",
-      "Coptic": "(Eu`e]wpi)2  `ejen `t`ave `mpeniwt eqouab `narxiereuc papa abba ___",
-      "English": "(they shall come) (2) upon the head of our holy father, the high priest, Pope Abba (Tawadros).",
-      "Arabiccoptic": "إيف إي شوبي إيجين إت آجيه إم بين يوت إثؤواب إن أرشي إريفس بابا آفا (…)",
-      "Englishcoptic": "(Ev-eshoopi)2  -ejen et-ave empenioot ethoooav enarshierevs papa Avva oisoisois"
+      "Arabic": "(تحل على) (2) رأس أبينا القديس رئيس الكهنة، البابا أنبا [*POPE*].",
+      "Coptic": "(Eu`e]wpi)2  `ejen `t`ave `mpeniwt eqouab `narxiereuc papa abba [*POPE*]",
+      "English": "(they shall come) (2) upon the head of our holy father, the high priest, Pope Abba [*POPE*].",
+      "Arabiccoptic": "إيف إي شوبي إيجين إت آجيه إم بين يوت إثؤواب إن أرشي إريفس بابا آفا [*POPE*]",
+      "Englishcoptic": "(Ev-eshoopi)2  -ejen et-ave empenioot ethowab enarshierevs papa Avva [*POPE*]"
     },
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "ISDioceseMetropolitain",
       "Side": "North",
-      "Arabic": "(وشريكه في الخدمة الرسولية، أبينا القديس الأسقف (المطران) أنبا (...)).",
-      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt eqouab `n`epickopoc (`mmhtropolhthc) abba ___.",
-      "English": "(And his partner in the apostolic liturgy, our father the bishop (metropolitan) Abba (...).",
-      "Arabiccoptic": "نيم بيف كيه إشفير إن ليتورغوس بين يوت إم ميت روبوليتيس (إن إبيس كوبوس) آفا (…)",
-      "Englishcoptic": "Nem pefkeeshveer enlitooorghos penioot ethoooav en-episkopos (emmeetropoleetees) Avva oisoisois."
+      "Arabic": "وشريكه في الخدمة الرسولية، أبينا القديس المطران أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt eqouab `n`mmhtropolhthc abba [*DIOCESE_BISHOP*].",
+      "English": "And his partner in the apostolic liturgy, our father the metropolitan Abba [*DIOCESE_BISHOP*].",
+      "Arabiccoptic": "نيم بيف كيه إشفير إن ليتورغوس بين يوت إم ميت روبوليتيس    آفا [*DIOCESE_BISHOP*]",
+      "Englishcoptic": "Nem pef-keshvir enli-toorghos penioot ethowab  en-metro-politees Avva [*DIOCESE_BISHOP*]."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
+      "Side": "North",
+      "Arabic": "وشريكه في الخدمة الرسولية، أبينا القديس الأسقف أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt eqouab `n`epickopoc abba [*DIOCESE_BISHOP*].",
+      "English": "And his partner in the apostolic liturgy, our father the bishop Abba [*DIOCESE_BISHOP*].",
+      "Arabiccoptic": "نيم بيف كيه إشفير إن ليتورغوس بين يوت إم إبيس كوبوس آفا [*DIOCESE_BISHOP*]",
+      "Englishcoptic": "Nem pef-keshvir enli-toorghos penioot ethowab  en-epes-kopos Avva [*DIOCESE_BISHOP*]."
     },
     {
       "Type": "Base",
@@ -86,6 +97,39 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
+      "Arabic": "(تحل على) (2) رأس أبينا القديس رئيس الكهنة، البابا أنبا [*POPE*].",
+      "Coptic": "(Eu`e]wpi)2  `ejen `t`ave `mpeniwt eqouab `narxiereuc papa abba [*POPE*]",
+      "English": "(they shall come) (2) upon the head of our holy father, the high priest, Pope Abba [*POPE*].",
+      "Arabiccoptic": "إيف إي شوبي إيجين إت آجيه إم بين يوت إثؤواب إن أرشي إريفس بابا آفا [*POPE*]",
+      "Englishcoptic": "(Ev-eshoopi)2  -ejen et-ave empenioot ethowab enarshierevs papa Avva [*POPE*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseMetropolitain",
+      "Side": "North",
+      "Arabic": "وشريكه في الخدمة الرسولية، أبينا القديس المطران أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt eqouab `n`mmhtropolhthc abba [*DIOCESE_BISHOP*].",
+      "English": "And his partner in the apostolic liturgy, our father the metropolitan Abba [*DIOCESE_BISHOP*].",
+      "Arabiccoptic": "نيم بيف كيه إشفير إن ليتورغوس بين يوت إم ميت روبوليتيس    آفا [*DIOCESE_BISHOP*]",
+      "Englishcoptic": "Nem pef-keshvir enli-toorghos penioot ethowab  en-metro-politees Avva [*DIOCESE_BISHOP*]."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
+      "Side": "North",
+      "Arabic": "وشريكه في الخدمة الرسولية، أبينا القديس الأسقف أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt eqouab `n`epickopoc abba [*DIOCESE_BISHOP*].",
+      "English": "And his partner in the apostolic liturgy, our father the bishop Abba [*DIOCESE_BISHOP*].",
+      "Arabiccoptic": "نيم بيف كيه إشفير إن ليتورغوس بين يوت إم إبيس كوبوس آفا [*DIOCESE_BISHOP*]",
+      "Englishcoptic": "Nem pef-keshvir enli-toorghos penioot ethowab  en-epes-kopos Avva [*DIOCESE_BISHOP*]."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
       "Arabic": "آمين (3) يكون (2)",
       "Coptic": "Amhn amhn amhn> ece]wpi ece]wpi. Ef`eer`apoleuin `mmwou. 2",
       "English": "Amen (3), so it shall be (2).(May he be pleased) (2) ",
@@ -123,7 +167,7 @@
       "Coptic": "Ettaihout `narxiereuc papa abba ___> nem peniwt n~e~pickopoc abba ___> nem nennio; n~e~pickopoc nhetxh neman.",
       "English": "the honored high priest Pope Abba (Tawadros) (and our father the bishop (metropolitan) Abba (...)).",
       "Arabiccoptic": "إنطايوت إن أرشي إرفس بابا آفا(..)نيم بينيوت ان ايبيسكوبوس افا ... ",
-      "Englishcoptic": "Ettaieeooot enarshierevs papa Avva oisoisois: nem penioot n~e~piskopos Avva oisoisois: nem nennioti n~e~piskopos neeetshee neman."
+      "Englishcoptic": "etta-iot enarshierevs papa Avva oisoisois: nem penioot n~e~piskopos Avva oisoisois: nem nennioti n~e~piskopos neeetshee neman."
     },
     {
       "Type": "Base",
@@ -145,7 +189,7 @@
       "Coptic": "Mare pik`lhroc nem pilaoc thrf> oujai =en Psoic> je` amhn ec`e]wpi.",
       "English": "May the clergy and all the people be safe in the Lord. Amen. So it shall be.",
       "Arabiccoptic": " ماري بي إكليروس نيم بي لاؤس تيرف أوجاي خين إبشويس جي آمين إس إيشوبي.",
-      "Englishcoptic": "mare pikeleeros nem pilaos teerf: ooogai khen Pchois: jee ameen es-eshoopi."
+      "Englishcoptic": "mare pikeleeros nem pi-la-os teerf: ooogai khen Epchois: jee ameen es-eshoopi."
     }
   ]
 }

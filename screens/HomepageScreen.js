@@ -97,6 +97,7 @@ function HomepageScreen({ navigation, route }) {
         isBought = isPaschaBought;
         break;
     }
+
     if (item.Released === false) {
       Alert.alert("Will be Released Soon....");
       return;
@@ -111,6 +112,7 @@ function HomepageScreen({ navigation, route }) {
         const BookPermission = permissions.all.find(
           (permission) => permission.permissionId === item.PermissionStatus
         );
+
         if (BookPermission.isValid === false) {
           const offerings = await Glassfy.offerings();
           const OfferingToBuy = offerings.all.find(

@@ -30,7 +30,6 @@ export function getFullViewModel(motherSource, mother) {
   const homeItems = homescreenPaths[motherSource];
 
   homeItems.Main.forEach((item) => {
-    console.log(item);
     if (item.type === "Title") {
       arabicttl = item.Arabic;
       copticttl = item.Coptic;
@@ -142,8 +141,9 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
 
     const isVisible =
       part.Visible === true ||
-      motherSource.toLowerCase().includes("index") ||
-      VisibleRules[part.Visible](motherSource, temppath);
+      VisibleRules[part.Visible](motherSource, temppath) ||
+      (motherSource.toLowerCase().includes("index") &&
+        !motherSource.toLowerCase().includes("papal"));
 
     if (!isVisible) return;
 
@@ -185,9 +185,13 @@ export function addItemsToArray(part, thisRule) {
     "[*ANTIOCH_POPE*]",
     "[*DIOCESE_BISHOP*]",
     "[*METROPOLITAIN_PRESENT*]",
+    "[*METROPOLITAIN_PRESENT2*]",
+    "[*METROPOLITAIN_PRESENT3*]",
+    "[*BISHOP_PRESENT*]",
+    "[*BISHOP_PRESENT2*]",
+    "[*BISHOP_PRESENT3*]",
   ]; // Default replacing word
   let myrule = {};
-
   if (thisRule !== 0 && thisRule != undefined) {
     // Check for specific cases and apply the corresponding rule
     if (part.Type === "Base") {

@@ -42,7 +42,6 @@ function FeastModal({ bottomSheetRef, snapPoints, feast, setFeast }) {
     imageStyle.height = width / 3;
     imageStyle.width = width / 3;
   }
-  console.log(feast);
 
   const { key, start, end } = feast;
   const copticStartDate = getCopticDate(

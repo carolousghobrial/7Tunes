@@ -948,6 +948,7 @@ export const REPLACEMETROPOLITAINAVAILABLE = () => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
 
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+
   const metro1 = BishopsPresent.filter(
     (bishop) =>
       bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key

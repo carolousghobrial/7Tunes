@@ -13,7 +13,7 @@
       "Coptic": "|iten nieuxh `nte peniwt ettaihout `narxi`ereuc papa abba [*POPE*] ",
       "English": "Through the prayers of our honored father, the high priest, Pope Abba [*POPE*]",
       "Arabiccoptic": "هيتين ني إفكي إنتي بينيوت إتطايوت إن أرشي إريفس باباآفا [*POPE*] إبشويس.",
-      "Englishcoptic": "Hiten ni-evshi ente peniot ettaieeooot enarshi-erevs papa Avva [*POPE*] "
+      "Englishcoptic": "Hiten ni-evshi ente peniot etta-iot enarshi-erevs papa Avva [*POPE*] "
     },
     {
       "Type": "Base",
@@ -68,7 +68,7 @@
       "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
       "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
       "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
-      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+      "Englishcoptic": "nem peniot en-epes-kopos Ava [*DIOCESE_BISHOP*] "
     },
     {
       "Type": "Base",
@@ -79,7 +79,7 @@
       "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
       "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
       "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
-      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+      "Englishcoptic": "nem peniot en-epes-kopos Ava [*DIOCESE_BISHOP*] "
     },
     {
       "Type": "Base",
@@ -90,7 +90,7 @@
       "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
       "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
       "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
-      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+      "Englishcoptic": "nem peniot en-epes-kopos Ava [*DIOCESE_BISHOP*] "
     },
     {
       "Type": "Base",
@@ -101,7 +101,7 @@
       "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
       "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
       "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
-      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+      "Englishcoptic": "nem peniot en-epes-kopos Ava [*DIOCESE_BISHOP*] "
     },
     {
       "Type": "Base",
@@ -112,7 +112,7 @@
       "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
       "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
       "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
-      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+      "Englishcoptic": "nem peniot en-epes-kopos Ava [*DIOCESE_BISHOP*] "
     },
     {
       "Type": "Base",
@@ -123,7 +123,7 @@
       "Coptic": "nem peniwt `epickopoc abba [*DIOCESE_BISHOP*] ",
       "English": "and our father the Bishop Abba [*DIOCESE_BISHOP*]",
       "Arabiccoptic": "نيم بنيوت  [*DIOCESE_BISHOP*]  إن ابيسكوبوس افا",
-      "Englishcoptic": "nem peniot en-Episkopos Ava [*DIOCESE_BISHOP*] "
+      "Englishcoptic": "nem peniot en-epes-kopos Ava [*DIOCESE_BISHOP*] "
     },
     {
       "Type": "Base",
@@ -134,7 +134,7 @@
       "Coptic": "nem neniw; `mmetropolithc nem ni`epickopoc nhetxh neman ",
       "English": "and our fathers the Metropolitans and Bishops who are with us",
       "Arabiccoptic": "نيم نينيوتي  إمميتروبوليتيس نيم ني إيبيسكوبوس ني إتكي نيمان",
-      "Englishcoptic": "nem nenioti  en-metro-politees nem ni episkopos ni-etkee neman "
+      "Englishcoptic": "nem nenioti  en-metro-politees nem ni epes-kopos ni-etkee neman "
     },
     {
       "Type": "Base",

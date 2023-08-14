@@ -9,6 +9,38 @@
             "English": "Venerations"
         },
         {
+            "Type": "Button",
+            "Arabic": "لبش الهوس الثاني",
+            "English": "Second Hoos Lobsh",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "PraisesSecondHoosLobsh"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "السلام لمريم (شيرى ماريا)",
+            "English": "Hail to Mary (Shere Maria)",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "VenerationShereMaria"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "لبش الهوس الثاني",
+            "English": "Rejoice O Mary",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "VenerationRejoiceOMary"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "(7) ثيؤطوكية الأحد",
+            "English": "Sunday Theotokia (7)",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "TheotokiasSundaySunday7"
+        },
+        {
             "Type": "Main",
             "Path": "VenerationEkesmarot",
             "Rule": 0,

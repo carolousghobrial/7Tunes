@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "إي أغابي",
+  "EnglishTitle": "E-aghapi",
+  "CopticTitle": "H `agaph ",
   "Hymn": [
     {
       "Type": "Base",
@@ -144,7 +144,7 @@
       "Coptic": "Nem peniwt `nepickopoc  abba [*BISHOP_PRESENT*]",
       "English": "And our father the bishop , Abba [*BISHOP_PRESENT*].",
       "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*BISHOP_PRESENT*] .",
-      "Englishcoptic": "Nem penioot en-episkopos avva [*BISHOP_PRESENT*]"
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*BISHOP_PRESENT*]"
     },
     {
       "Type": "Base",
@@ -155,7 +155,7 @@
       "Coptic": "Nem peniwt `nepickopoc  abba [*BISHOP_PRESENT2*]",
       "English": "And our father the bishop , Abba [*BISHOP_PRESENT2*].",
       "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*BISHOP_PRESENT2*] .",
-      "Englishcoptic": "Nem penioot en-episkopos avva [*BISHOP_PRESENT2*]"
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*BISHOP_PRESENT2*]"
     },
     {
       "Type": "Base",
@@ -166,7 +166,7 @@
       "Coptic": "Nem peniwt `nepickopoc  abba [*BISHOP_PRESENT3*]",
       "English": "And our father the bishop , Abba [*BISHOP_PRESENT3*].",
       "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*BISHOP_PRESENT3*] .",
-      "Englishcoptic": "Nem penioot en-episkopos avva [*BISHOP_PRESENT3*]"
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*BISHOP_PRESENT3*]"
     },
     {
       "Type": "Base",
@@ -177,7 +177,7 @@
       "Coptic": "Mare pi`klhroc nem pilaoc thrf> oujai =en Psoic> je amhn ece]wpi.",
       "English": "May the clergy and all the people be safe in the Lord. Amen. So be it.",
       "Arabiccoptic": "بيروساليم نيم تي إتيو",
-      "Englishcoptic": "mare piekleeros nem pilaos teerf: ooogai khen Pchois: je ameen eseshoopi."
+      "Englishcoptic": "mare pi-ekleeros nem pi-la-os teerf: ooogai khen Epchois: je ameen eseshoopi."
     }
   ]
 }

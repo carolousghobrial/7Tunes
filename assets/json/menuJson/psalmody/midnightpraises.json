@@ -30,7 +30,7 @@
             "hasSubBooks": false,
             "BookPath": "lentenPsalmody",
             "ImageURL": "lent",
-            "Enabled": true,
+            "Enabled": false,
             "BishopButton": true
         }
     ]

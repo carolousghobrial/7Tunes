@@ -82,7 +82,7 @@ function BaseView({ item, mykey }) {
     },
     {
       key: "Arabiccoptic",
-      style: styles.arabic,
+      style: arabicStyle,
       isVisible: languageSettings.copticarabic,
     },
   ];

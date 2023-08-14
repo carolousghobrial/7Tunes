@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "بي إهموت غار الكبيرة",
+  "EnglishTitle": "Pi-ehmot Ghar - Great",
+  "CopticTitle": "Pi`\\mot gar `mVnou;",
   "Hymn": [
     {
       "Type": "Base",
@@ -24,7 +24,7 @@
       "Coptic": "Nem ;xaric `nte pefmonogenhc `n}hri Ihcouc Pi`xrictoc Pensoic.",
       "English": "and the grace of His only-begotten Son, Jesus Christ our Lord,",
       "Arabiccoptic": " نيم تى خاريس إنتى بيف مونوجينيس إنشيرى إيسوس بى إخريستوس بين شويس.",
-      "Englishcoptic": "Nem tikharis ente pefmonogenees enSheeri Ieesooos Piekhristos Penchois."
+      "Englishcoptic": "Nem tikharis ente pefmonogenees enSheeri Isos Piekhristos Penchois."
     },
     {
       "Type": "Base",
@@ -35,18 +35,18 @@
       "Coptic": "Nem ;koinwnia nem ;dwre`a `nte Pi`pneuma eqouab `mparaklhton.",
       "English": "and the communion and gift of the Holy Spirit, the Paraclete,",
       "Arabiccoptic": "نيم تى كينونيا نيم تى ذورى آ إنتى بى إبنيفما إثؤواب إمباراكليتون.",
-      "Englishcoptic": "Nem tikoinoonia nem tizoore-a ente Piepnevma ethoooav emparakleeton."
+      "Englishcoptic": "Nem tikoinoonia nem tizoore-a ente Piepnevma ethowab emparakleeton."
     },
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "تحل على رأس أبينا الطوباوي المكرم رئيس الكهنة البابا أنبا (تواضروس).",
-      "Coptic": "Eu`e`i  `e`\\rhi `ejen `t`ave `mpimakarioc `niwt ettaihout `narxi`ereuc papa abba [*POPE*]`.",
-      "English": "shall come upon the head of our blessed and honorable father, the high priest Pope Abba ___,",
-      "Arabiccoptic": "إف إى إى إهرى إيجين إت آفيه إمبى مكاريوس إنيوت إتطايوت إن ارشى إيريفس بابا آفا (…..)",
-      "Englishcoptic": "Ev-e-ee  -eehreei -ejen et-ave empimakarios enioot ettaieeooot enarshi-erevs papa Avva x*POPE*she."
+      "Arabic": "تحل على رأس أبينا الطوباوي المكرم رئيس الكهنة البابا أنبا [*POPE*].",
+      "Coptic": "Eu`e`i  `e`\\rhi `ejen `t`ave `mpimakarioc `niwt ettaihout `narxi`ereuc papa abba [*POPE*].",
+      "English": "shall come upon the head of our blessed and honorable father, the high priest Pope Abba [*POPE*],",
+      "Arabiccoptic": "إف إى إى إهرى إيجين إت آفيه إمبى مكاريوس إنيوت إتطايوت إن ارشى إيريفس بابا آفا [*POPE*]",
+      "Englishcoptic": "Ev-e-ee  -eehreei -ejen et-ave empimakarios enioot etta-iot enarshi-erevs papa Avva [*POPE*]."
     },
     {
       "Type": "Base",
@@ -57,7 +57,7 @@
       "Coptic": "Nem `ejen `t`ave `mpeniwt eqouab `n`epickopoc (`mmhtropolithc) abba ___.",
       "English": "and upon the head of our holy father Bishop (Metropolitan) Abba ___.",
       "Arabiccoptic": "نيم إيجين إت آفى إم بين يوت إثؤواب إم ميتروبوليس (إن إبيسكوبوس) آفا (..)",
-      "Englishcoptic": "Nem -ejen et-ave empenioot ethoooav en-episkopos (emmeetropolitees) Avva oisoisois."
+      "Englishcoptic": "Nem -ejen et-ave empenioot ethowab en-epes-kopos (em-metro-poli-tees) Avva oisoisois."
     },
     {
       "Type": "Base",
@@ -68,7 +68,7 @@
       "Coptic": "`Vnou; `nte `tve> ef`etajrwou \\ijen nou`qronoc> `n\\anmh] `nrompi> nem \\anchou `n\\irhnikon.",
       "English": "May the God of heaven confirm them on their thrones for many years and peaceful times,",
       "Arabiccoptic": "إفنوتى إنتى إتفى إف إيطاجروف هيجين نو  اثرونوس إن هان ميش إنرومبى  نيم هان سيو إن هيرينى كون",
-      "Englishcoptic": "eVnoooti ente etve: ef-etagrooooo hijen noooethronos: enhanmeesh enrompi: nem hanseeooo enhireenikon."
+      "Englishcoptic": "Evnoti ente etve: ef-etagrooooo hijen noooethronos: enhanmeesh enrompi: nem hanseeooo enhireenikon."
     },
     {
       "Type": "Base",
@@ -144,7 +144,7 @@
       "Coptic": "Nem peniwt `nepickopoc  abba [*DIOCESE_BISHOP*]",
       "English": "And our father the bishop , Abba [*DIOCESE_BISHOP*].",
       "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*DIOCESE_BISHOP*] .",
-      "Englishcoptic": "Nem penioot en-episkopos avva [*DIOCESE_BISHOP*]"
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*DIOCESE_BISHOP*]"
     },
     {
       "Type": "Base",
@@ -155,7 +155,7 @@
       "Coptic": "Nem peniwt `nepickopoc  abba [*BISHOP_PRESENT*]",
       "English": "And our father the bishop , Abba [*BISHOP_PRESENT*].",
       "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*BISHOP_PRESENT*] .",
-      "Englishcoptic": "Nem penioot en-episkopos avva [*BISHOP_PRESENT*]"
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*BISHOP_PRESENT*]"
     },
     {
       "Type": "Base",
@@ -166,7 +166,7 @@
       "Coptic": "Nem peniwt `nepickopoc  abba [*BISHOP_PRESENT2*]",
       "English": "And our father the bishop , Abba [*BISHOP_PRESENT2*].",
       "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*BISHOP_PRESENT2*] .",
-      "Englishcoptic": "Nem penioot en-episkopos avva [*BISHOP_PRESENT2*]"
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*BISHOP_PRESENT2*]"
     },
     {
       "Type": "Base",
@@ -177,7 +177,7 @@
       "Coptic": "Nem peniwt `nepickopoc  abba [*BISHOP_PRESENT3*]",
       "English": "And our father the bishop , Abba [*BISHOP_PRESENT3*].",
       "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*BISHOP_PRESENT3*] .",
-      "Englishcoptic": "Nem penioot en-episkopos avva [*BISHOP_PRESENT3*]"
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*BISHOP_PRESENT3*]"
     },
     {
       "Type": "Base",
@@ -188,7 +188,7 @@
       "Coptic": "Mare pi`klhroc nem pilaoc thrf> oujai =en Psoic> je a~mhn ece~]wpi",
       "English": "May the clergy and all the people be safe in the Lord. Amen, so it shall be.",
       "Arabiccoptic": " ماري بي إكليروس نيم بي لاؤس تيرف أوجاي خين إبشويس جي آمين إس إيشوبي.",
-      "Englishcoptic": "mare piekleeros nem pilaos teerf: ooogai khen Pchois: je a~meen ese~shoopi"
+      "Englishcoptic": "mare pi-ekleeros nem pi-la-os teerf: ooogai khen Epchois: je Ameen ese~shoopi"
     }
   ]
 }

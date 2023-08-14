@@ -1,13 +1,6 @@
-import React, {
-  useState,
-  useRef,
-  useCallback,
-  useEffect,
-  useMemo,
-} from "react";
+import React, { useState, useRef, useEffect, useMemo } from "react";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
-
 import {
   StyleSheet,
   Text,
@@ -17,13 +10,11 @@ import {
   View,
   useWindowDimensions,
 } from "react-native";
-
 import {
   BottomSheetModalProvider,
   BottomSheetModal,
 } from "@gorhom/bottom-sheet";
 import Icon from "react-native-vector-icons/Ionicons";
-
 import BaseView from "../components/ViewTypes/BaseView";
 import MelodyView from "../components/ViewTypes/MelodyView";
 import TitleView from "../components/ViewTypes/TitleView";
@@ -43,14 +34,13 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const { height, width } = useWindowDimensions();
 
   const flatListRef = useRef();
-  const { bookPath, motherSource, BishopButton } = route.params;
+  const { bookPath, motherSource, bishopButton } = route.params;
   const labelColor = getColor("LabelColor");
   const pageBackgroundColor = getColor("pageBackgroundColor");
   const pagination = useSelector((state) => state.settings.pagination);
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const [NavbarVisibility, setNavbarVisibility] = useState(true);
-  const [settingsModalVisible, setsettingsModalVisible] = useState(false);
-  const BishopIsPresent = useSelector(
+  const [navbarVisibility, setNavbarVisibility] = useState(true);
+  const [settingsModalVisible, setSettingsModalVisible] = useState(false);
+  const bishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
   const values = getFullViewModel(bookPath, motherSource);
@@ -62,54 +52,33 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const bottomSheetRef = useRef(null);
   const contentsSheetRef = useRef(null);
 
-  // variables
   const snapPoints = ["75%"];
-  const [englishTitle, setEnglishTitle] = useState(
-    bookContents[0].EnglishTitle
-  );
-  const [arabicTitle, setArabicTitle] = useState(bookContents[0].ArabicTitle);
-
-  const handleScroll = useCallback((event) => {
-    const currentPosition = event.nativeEvent.contentOffset.y;
-    if (currentPosition > scrollPosition + 5) {
-      setNavbarVisibility(false);
-    } else {
-      setNavbarVisibility(true);
-    }
-    setScrollPosition(currentPosition);
-  });
+  const [navTitle, setNavTitle] = useState(bookContents[0]?.EnglishTitle);
 
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
     if (viewableItems.length > 0) {
       const firstItem = viewableItems[0].item;
-      if (
-        firstItem.EnglishTitle !== englishTitle &&
-        firstItem.EnglishTitle !== undefined
-      ) {
-        setEnglishTitle(firstItem.EnglishTitle);
-        setArabicTitle(firstItem.ArabicTitle);
+      const title =
+        appLanguage === "eng"
+          ? firstItem?.EnglishTitle
+          : firstItem?.ArabicTitle;
+      if (title !== navTitle && title !== undefined) {
+        setNavTitle(title);
       }
     }
   }).current;
 
   useEffect(() => {
+    const fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
+    const fontsize = isTablet ? 30 : 15;
     navigation.setOptions({
-      headerShown: NavbarVisibility,
-    });
-  }, [NavbarVisibility]);
-
-  useEffect(() => {
-    var fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
-    var fontsize = isTablet ? 30 : 15;
-    var title = appLanguage === "eng" ? englishTitle : arabicTitle;
-    navigation.setOptions({
-      title: title,
+      title: navTitle,
       headerTitleStyle: {
         fontSize: fontsize,
         fontFamily: fontfamily,
       },
     });
-  }, [appLanguage, englishTitle, arabicTitle, isTablet, navigation]);
+  }, [navTitle]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -125,25 +94,20 @@ const BookScreen = React.memo(({ navigation, route }) => {
     contentsSheetRef?.current.present();
   };
 
-  const HeaderRightButtons = ({ onPressSettings, onPressContents }) => {
-    return (
-      <>
-        <Pressable
-          style={styles.settingsheaderButton}
-          onPress={onPressSettings}
-        >
-          <Icon name="ios-settings-outline" size={30} color={labelColor} />
-        </Pressable>
-        <Pressable style={styles.headerButton} onPress={onPressContents}>
-          <MaterialCommunityIcons
-            name="table-of-contents"
-            size={40}
-            color={labelColor}
-          />
-        </Pressable>
-      </>
-    );
-  };
+  const HeaderRightButtons = ({ onPressSettings, onPressContents }) => (
+    <>
+      <Pressable style={styles.settingsHeaderButton} onPress={onPressSettings}>
+        <Icon name="ios-settings-outline" size={30} color={labelColor} />
+      </Pressable>
+      <Pressable style={styles.headerButton} onPress={onPressContents}>
+        <MaterialCommunityIcons
+          name="table-of-contents"
+          size={40}
+          color={labelColor}
+        />
+      </Pressable>
+    </>
+  );
 
   React.useLayoutEffect(() => {
     const headerRightComponent = () => (
@@ -155,35 +119,45 @@ const BookScreen = React.memo(({ navigation, route }) => {
 
     navigation.setOptions({
       headerRight: headerRightComponent,
+      headerShown: navbarVisibility,
     });
-  }, [navigation]);
+  }, [navigation, navbarVisibility]);
 
   const scrollToKey = (key) => {
     const item = bookContents.find((item) => item.key === key);
     if (item) {
-      setEnglishTitle(item.EnglishTitle);
-      setArabicTitle(item.ArabicTitle);
+      const title =
+        appLanguage === "eng" ? item?.EnglishTitle : item?.ArabicTitle;
+      setNavTitle(title);
       flatListRef.current.scrollToIndex({ index: key, animated: false });
       contentsSheetRef?.current.dismiss();
     }
   };
-  const handleScreenTap = () => {
-    console.log("ASDA");
-  };
+
   const renderItems = ({ item }) => {
+    let returnView = null;
     switch (item.part.Type) {
       case "Base":
-        return <BaseView item={item.part} mykey={item.key} />;
+        returnView = <BaseView item={item.part} mykey={item.key} />;
+        break;
       case "Melody":
-        return <MelodyView item={item.part} />;
+        returnView = <MelodyView item={item.part} />;
+        break;
+
       case "Title":
-        return <TitleView item={item.part} />;
+        returnView = <TitleView item={item.part} />;
+        break;
+
       case "Ritual":
-        return <RitualView item={item.part} />;
+        returnView = <RitualView item={item.part} />;
+        break;
+
       case "MainTitle":
-        return <MainTitleView item={item.part} />;
+        returnView = <MainTitleView item={item.part} />;
+        break;
+
       case "Button":
-        return (
+        returnView = (
           <ButtonView
             item={item.part}
             motherSource={bookPath}
@@ -192,16 +166,18 @@ const BookScreen = React.memo(({ navigation, route }) => {
             navigation={navigation}
           />
         );
-      default:
-        return <Text>Default</Text>;
+        break;
     }
+    return (
+      <Pressable onPress={() => setNavbarVisibility(!navbarVisibility)}>
+        {returnView}
+      </Pressable>
+    );
   };
 
   const onScrollToIndexFailed = (error) => {
-    flatListRef.current.scrollToOffset({
-      offset: error.averageItemLength * error.index,
-      animated: false,
-    });
+    const offset = error.averageItemLength * error.index;
+    flatListRef.current.scrollToOffset({ offset, animated: false });
     setTimeout(() => {
       if (flatListRef.current !== null) {
         flatListRef.current.scrollToIndex({
@@ -225,7 +201,6 @@ const BookScreen = React.memo(({ navigation, route }) => {
         menuData={menuData}
         scrollToKey={scrollToKey}
       />
-
       <FlatList
         ref={flatListRef}
         style={{ backgroundColor: pageBackgroundColor }}
@@ -233,7 +208,6 @@ const BookScreen = React.memo(({ navigation, route }) => {
         showsVerticalScrollIndicator={false}
         data={bookContents}
         pagingEnabled={pagination}
-        onScroll={handleScroll}
         onScrollToIndexFailed={onScrollToIndexFailed}
         initialNumToRender={bookContents.length}
         bounces={false}
@@ -241,22 +215,19 @@ const BookScreen = React.memo(({ navigation, route }) => {
         renderItem={renderItems}
         keyExtractor={(item) => item.key}
       />
-
-      {BishopIsPresent && BishopButton && (
+      {bishopIsPresent && bishopButton && (
         <FloatingButton navigation={navigation} />
       )}
     </BottomSheetModalProvider>
   );
 });
 
-export default BookScreen;
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     width: "100%",
   },
-  settingsheaderButton: {
+  settingsHeaderButton: {
     marginRight: 10,
     alignSelf: "stretch",
     justifyContent: "center",
@@ -278,3 +249,5 @@ const styles = StyleSheet.create({
     zIndex: 1,
   },
 });
+
+export default BookScreen;
