@@ -738,6 +738,7 @@ const getPlantsSeason = (motherSource, path) => {
 const ISDioceseMetropolitain = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
   console.log(dioceseBishop);
+  console.log("METRO");
   const BishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
@@ -755,6 +756,7 @@ const ISDioceseBishop = (motherSource, path) => {
   const BishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
+  console.log("Bishop");
 
   if (dioceseBishop === undefined) {
     return false;
@@ -954,6 +956,8 @@ const ISThreeBishop = (motherSource, path) => {
 };
 
 const IsDiocesePope = (motherSource, path) => {
+  console.log("Pope");
+
   return false;
 };
 
@@ -976,6 +980,7 @@ const VisibleRules = {
   isMatins: isMatins,
   isVespers: isVespers,
   isPraises: isPraises,
+  IsDiocesePope: IsDiocesePope,
   showLitanyOfDeparted: showLitanyOfDeparted,
   showLitanyOfTravelers: showLitanyOfTravelers,
   showLitanyOfOblations: showLitanyOfOblations,

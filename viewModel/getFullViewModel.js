@@ -30,6 +30,7 @@ export function getFullViewModel(motherSource, mother) {
   const homeItems = homescreenPaths[motherSource];
 
   homeItems.Main.forEach((item) => {
+    console.log(item);
     if (item.type === "Title") {
       arabicttl = item.Arabic;
       copticttl = item.Coptic;
