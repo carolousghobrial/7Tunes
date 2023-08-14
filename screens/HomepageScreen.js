@@ -105,7 +105,10 @@ function HomepageScreen({ navigation, route }) {
 
       if (!isBought) {
         await Glassfy.restorePurchases();
+
         const permissions = await Glassfy.permissions();
+        Alert.alert(permissions.all);
+
         const BookPermission = permissions.all.find(
           (permission) => permission.permissionId === item.PermissionStatus
         );
