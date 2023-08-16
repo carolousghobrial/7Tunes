@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ارباع الناقوس عيد العنصرة",
+  "EnglishTitle": "Verses of the Cymbals for Pentecost Feast ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "السلام لصعوده، لما صعد إلى السموات، وأرسل لنا البارقليط، روح الحق.",
+      "Coptic": "Xere Tef`analumyic> `etaf]enaf `e`p]wi `enivhou`i> afouwrp nan `mPiparaklhton> Pi`pneuma `nte ;meqmhi.",
+      "English": "Hail to His Ascension, in which He ascended into the heavens, and sent the Paraclete, the Spirit of Truth.",
+      "Arabiccoptic": " شيرى تيف أنالى إبسيس: إيطاف شيناف اى إبشوى إى نيفيؤى أف اواورب نان إم بى باراكليتون: بى إبنيﭭما إنتى تى ميثمى .",
+      "Englishcoptic": "Shere Tef analimpsis: etaf shenaf e-epshoi eni fi-owi: af-o-oorp nan emPi-parakleeton: Pi-epnevma ente ti-methmeei."
+    }
+  ]
+}

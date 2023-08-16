@@ -1,8 +1,7 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " هيتين يوحنا المعمدان",
+  "EnglishTitle": "Hiten for St.John the Baptist",
   "Hymn": [
     {
       "Type": "Base",
@@ -12,7 +11,7 @@
       "Arabic": "بشفاعات، السابق الصابغ، يوحنا المعمدان، يا رب إنعم لنا بمغفرة خطايانا.",
       "Coptic": "|iten ni`precbia `nte pi`prodromoc `mbapticthc Iwannhc pireftwmc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through the intercessions, of the forerunner and baptizer, John the Baptist, O Lord ...",
-      "Arabiccoptic": "هيتين ني إبريسفيا إنتى بي إبرودروموس إمفابيستيس يؤانس بيريف تي أومس إبشويس..",
+      "Arabiccoptic": "هيتين ني إبريسفيا إنتى بي إبرودروموس إمفابيستيس يؤانس بيريف تي أومس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  ..",
       "Englishcoptic": "Hiten niepresvia ente pieprozromos emvaptistees Iooannees pireftooms: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     }
   ]

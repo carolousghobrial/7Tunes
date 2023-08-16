@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
     width: "100%",
     height: 90,
     borderRadius: 100 / 2,
+    resizeMode: "stretch",
     overflow: "hidden",
   },
 });

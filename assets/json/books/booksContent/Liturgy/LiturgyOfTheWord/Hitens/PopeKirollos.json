@@ -1,15 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " هيتين للابابا كيرلس السادس ",
+  "EnglishTitle": "Hiten for Pope Kirollos the Sixth",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "Neutral",
-      "Arabic": "بصلواتِ ابانا القديس البطريرك الانبا كيرلس السادس ، ياربُّ ...",
+      "Arabic": "بصلواتِ ابانا القديس البطريرك الانبا كيرلس السادس ، يا رب إنعم لنا بمغفرة خطايانا",
       "Coptic": "|iten nieuxh `nte peniwt `eqouab `npatriarxhc> Abba Kurilloc Pima] Coou> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through the prayersm of our holy father the patriach , Abba Kirollos the Sixth, O Lord, grant us the forgiveness of our sins",
       "Arabiccoptic": "هيتين ني إفكي إنتى بينيوت إثؤواب إنباطريارشيس اففا كيرلس بيماه سوأوو إبشويس",

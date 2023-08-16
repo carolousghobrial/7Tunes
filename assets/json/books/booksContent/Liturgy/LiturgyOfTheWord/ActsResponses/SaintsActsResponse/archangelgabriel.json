@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس لألملاك غبريال",
+    "EnglishTitle": "Verses of the Cymbals for Archangel Gabriel",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "Neutral",
+            "Visible": true,
+            "Arabic": "السلام لغبريـال، رئيس الملائكة العظيم، السلام للذي بشَّر، مريم العذراء.",
+            "Coptic": "Xere Gabrihl> pini]; `narxhaggeloc> xere vh`etaf\\i]ennoufi> `mMaria :parqenoc.",
+            "English": "Hail to Gabriel, the great archangel, hail to him who announced, to the Virgin Mary.",
+            "Arabiccoptic": "شيرى غابرييل: بى نشتى إن أرشى أنجيلوس: شيرى فى إيطاف هى شينوفى :إم ماريا تى بارثينوس .",
+            "Englishcoptic": "Shere Ghabrieel: pinishti en-arshy angelos: shere vee etaf hi-shennoofi: em-Maria Tiparthenos."
+        }
+    ]
+}

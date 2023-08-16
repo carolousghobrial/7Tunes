@@ -1,18 +1,17 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " هيتين للانبا موسى ",
+  "EnglishTitle": "Hiten for St.Moses the Strong",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "Neutral",
-      "Arabic": "بصلوات أبينا القديس البار القوي القديس أنبا موسى  . يا رب .  .  .  .  .  . ",
+      "Arabic": "بصلوات أبينا القديس البار القوي القديس أنبا موسى  . يا رب إنعم لنا بمغفرة خطايانا",
       "Coptic": "|iten ni`euxh `nte peniwt eqouab  ``ndikeoc pijwri `eqouab abba Mwch >  Psoic.  .  .",
       "English": "Through the prayers of our holy father the righeous, the strong saint Abba Moses , O Lord, grant us the forgiveness of our sins",
-      "Arabiccoptic": " هيتين ني إفشي انتي بين يوت إثؤواب إم ذيكيئوس بي جوري إثؤواب آفا موسي  .  إبتشويس .  .  .  .  .  . ",
+      "Arabiccoptic": " هيتين ني إفشي انتي بين يوت إثؤواب إم ذيكيئوس بي جوري إثؤواب آفا موسي  .  إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
       "Englishcoptic": "Hiten ni-evshee ente penioot ethowab  eenzikeos pigoori -ethowab Avva moosee :  Epchois.  .  ."
     }
   ]

@@ -91,7 +91,7 @@ const isLenten = (motherSource, path) => {
   return motherSource === "lentenPsalmody" ? true : false;
 };
 const IsLiturgy = (motherSource, path) => {
-  return motherSource === "liturgy" ? true : false;
+  return motherSource === "offertory" ? true : false;
 };
 const isStandardVespersPraises = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -776,6 +776,9 @@ const BishopIsPresent = (motherSource, path) => {
   }
   return false;
 };
+const BishopIsNOTPresent = (motherSource, path) => {
+  return !BishopIsPresent();
+};
 const Is3PlusBishops = (BishopsPresent, motherSource, path) => {
   const are3PlusBishopsPresent = useSelector(
     (state) => state.settings.ismorethan3BishopPresent
@@ -826,9 +829,6 @@ const Is3PlusMetroBishops = (motherSource, path) => {
 const ISOneMetropolitain = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
 
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   if (
     BishopsPresent?.length > 0 &&
@@ -836,7 +836,7 @@ const ISOneMetropolitain = (motherSource, path) => {
       (bishop) =>
         bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
     ).length > 0 &&
-    BishopIsPresent === true
+    BishopIsPresent()
   ) {
     return true;
   }
@@ -845,15 +845,12 @@ const ISOneMetropolitain = (motherSource, path) => {
 const ISTwoMetropolitain = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
 
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const filteredBishops = BishopsPresent?.filter(
     (bishop) =>
       bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
   );
-  if (filteredBishops?.length > 1 && BishopIsPresent === true) {
+  if (filteredBishops?.length > 1 && BishopIsPresent()) {
     if (
       filteredBishops[0]?.Rank === "Metropolitan" &&
       filteredBishops[1]?.Rank === "Metropolitan"
@@ -868,9 +865,6 @@ const ISTwoMetropolitain = (motherSource, path) => {
 const ISThreeMetropolitain = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
 
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const filteredBishops = BishopsPresent?.filter(
     (bishop) =>
@@ -878,7 +872,7 @@ const ISThreeMetropolitain = (motherSource, path) => {
   );
   if (
     filteredBishops?.length > 2 &&
-    BishopIsPresent === true &&
+    BishopIsPresent() &&
     filteredBishops?.some((bishop) => bishop.key !== dioceseBishop?.key)
   ) {
     if (
@@ -895,9 +889,6 @@ const ISThreeMetropolitain = (motherSource, path) => {
 const ISOneBishop = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
 
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
 
   if (
@@ -905,7 +896,7 @@ const ISOneBishop = (motherSource, path) => {
     BishopsPresent?.filter(
       (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
     ).length > 0 &&
-    BishopIsPresent === true
+    BishopIsPresent()
   ) {
     return true;
   }
@@ -990,7 +981,29 @@ const IsDioceseNotPope = (motherSource, path) => {
   }
   return false;
 };
+const IsNonFastingDays = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
 
+  if (!isInFast() || currentSeason.type === "feast") {
+    return true;
+  } else {
+    return false;
+  }
+};
+const IsFastingDays = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  if (isInFast()) {
+    return true;
+  } else if (
+    currentSeason.key === "GREAT_LENT" &&
+    (currentSeason.dayOfWeek === 0 || currentSeason.dayOfWeek === 6)
+  ) {
+    return true;
+  } else {
+    return false;
+  }
+};
 const VisibleRules = {
   hide: hide,
   TennavRule: TennavRule,
@@ -1053,5 +1066,8 @@ const VisibleRules = {
   Is3PlusBishops: Is3PlusBishops,
   IsDioceseNotPope: IsDioceseNotPope,
   BishopIsPresent: BishopIsPresent,
+  BishopIsNOTPresent: BishopIsNOTPresent,
+  IsNonFastingDays: IsNonFastingDays,
+  IsFastingDays: IsFastingDays,
 };
 export default VisibleRules;

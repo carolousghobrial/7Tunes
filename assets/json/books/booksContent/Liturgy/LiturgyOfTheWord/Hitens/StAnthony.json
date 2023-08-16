@@ -1,8 +1,7 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " هيتين للانبا انطونيوس ",
+  "EnglishTitle": "Hiten for St.Anthony",
   "Hymn": [
     {
       "Type": "Base",
@@ -12,7 +11,7 @@
       "Arabic": "بصلوات سيديّ الأبوين محبي أولادهما أنبا أنطونيـــــوس و أنبا بولا .  يا رب  .  .  .  .  .  . ",
       "Coptic": "/|iten nieuxh `nte nasoic `nio; `mmainou]hri abba Antonioc nem abba Paule > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through the prayers of my lords and fathers who love their children, Abba Anthony and Abba Paul, O Lord, grant us the forgiveness of our sins",
-      "Arabiccoptic": "هيتين ني إفشي انتي ناشويس انيوتي إمماي نو شيري آفا أنطونيوس نيم آفا بافليَ .  إبتشويس .  .  .  .  .  . ",
+      "Arabiccoptic": "هيتين ني إفشي انتي ناشويس انيوتي إمماي نو شيري آفا أنطونيوس نيم آفا بافليَ .  إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
       "Englishcoptic": "/Hiten nievshee ente nachois enioti emmainooosheeri Avva Antonios nem Avva Pavle : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     }
   ]

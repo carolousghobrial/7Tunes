@@ -1,18 +1,17 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " هيتين للانبا كاراس ",
+  "EnglishTitle": "Hiten for St.Karas",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "Neutral",
-      "Arabic": "بصلوات أبينا القديس البار  أنبا كاراس السائح  . يا رب .  .  .  .  .  . ",
+      "Arabic": "بصلوات أبينا القديس البار  أنبا كاراس السائح  . يا رب إنعم لنا بمغفرة خطايانا",
       "Coptic": "|iten ni`euxh `nte peniwt eqouab  `ndikeoc `abba Karac pi`anaxwrithc >  Psoic.  .  .",
       "English": "Through the prayers of our holy father the righeous, Abba Karas the Anchorite, O Lord, grant us the forgiveness of our sins",
-      "Arabiccoptic": " هيتين ني إفشي انتي بين يوت إثؤواب إم ذيكيئوس آفا كاراس بي اناخو ريتيس    .  إبتشويس .  .  .  .  .  . ",
+      "Arabiccoptic": " هيتين ني إفشي انتي بين يوت إثؤواب إم ذيكيئوس آفا كاراس بي اناخو ريتيس    .  إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
       "Englishcoptic": "Hiten ni-evshee ente penioot ethowab  enzikeos -Avva Karas pi-anakhooritees :  Epchois.  .  ."
     }
   ]

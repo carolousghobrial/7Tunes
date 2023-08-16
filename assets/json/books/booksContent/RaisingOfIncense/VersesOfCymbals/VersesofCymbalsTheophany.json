@@ -35,6 +35,17 @@
       "English": "A name of pride is your name, O reletive of Emmanuel, for you are great among all the saints, O John the Baptist.",
       "Arabiccoptic": "اوران انشوشو بى بيك ران : اوبي سينجنيس ان اممانوئيل : انثوك اونيشتي خين ني اثؤواب تيرو : يوأنس بي ريفتي اومس  .",
       "Englishcoptic": "Ooran en-shosho pe-pekran , opi sen-genees en-emanoeel , enthok onishty khen ni-ethowab tiro, Yo-annes pi-refti oms."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Side": "Neutral",
+      "Visible": true,
+      "Arabic": "السلام ليوحنا، السابق العظيم. السلام للكاهن، نسيب عمانوئيل.",
+      "Coptic": "Xere Iwannhc> pini]; `m`prodromoc > xere piouhb > `pcuggenhc `nEmmanouhl.",
+      "English": "Hail to John, the great forerunner, hail to the priest, the kinsman of Immanuel.",
+      "Arabiccoptic": "شيري يوأنيس : بي نيشتي إمبروذروموس : شيري بي أوويب : إبسينجينيس إن إممانوئيل  .",
+      "Englishcoptic": "Shere Youannes, Pi nishti em Eprodromos, Shere Pi Ouoib, Ep Cengenis En Emmanuel."
     }
   ]
 }

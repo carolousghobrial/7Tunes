@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ارباع الناقوس عيد دخول المسيح ارض مصر",
+  "EnglishTitle": "Entrance of the Lord Christ into the Land of Egypt Verses of Cymbals ",
+  "CopticTitle": "Ra]i qelhl `w nirem`nXhmi",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": " إفرحوا و تهللوا يا آل مصر .  كل أقاليمها .  لأنه أتى إليك محب البشر .  الكائن قبل كل الدهور .",
+      "Coptic": "Ra]i qelhl `w nirem`nXhmi> nem nec]hri nem necqw] throu> je af`i ]aro `nje Pimairwmi> vhet]op =ajwou `nni`ewn throu.",
+      "English": "Let Egypt rejoice and be glad, with its sons and border cities, for the Lover of Man has come, who existed before all ages.",
+      "Arabiccoptic": " راشى ثيليل أو نى ريم إن كيمى نيم: نستوش تيرو: ﭼى أف اى شارو إنﭼى بى ماى رومى: فى إت شوب خاجواوو إنى اى اون تيرو . ",
+      "Englishcoptic": "Rashi theleel oo niremen-Keemi: nem nes-sheeri nem nes-toosh teeroo: je af-ee sharo enje Pi-mairoomi: vee-etshop khago-oo en-ni-e-oon teeroo."
+    }
+  ]
+}

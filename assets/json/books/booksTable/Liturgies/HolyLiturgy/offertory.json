@@ -22,6 +22,14 @@
             "Visible": true
         },
         {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "تصلى كيرياليسون (يا رب ارحم) 41 مرة",
+            "English": "Kerie Eleison(Lord Have Mercy) is chanted 41 times"
+        },
+        {
             "Type": "Main",
             "Path": "AgpeyaPrayersHolyHoly",
             "Rule": 0,
@@ -43,19 +51,19 @@
             "Type": "Main",
             "Path": "LiturgyOffertoryAlleluiaFaiPePi",
             "Rule": 0,
-            "Visible": true
+            "Visible": "IsNonFastingDays"
         },
         {
             "Type": "Main",
             "Path": "LiturgyOffertoryAlleluiaJeEfmevi",
             "Rule": 0,
-            "Visible": true
+            "Visible": "IsFastingDays"
         },
         {
             "Type": "Main",
             "Path": "LiturgyOffertoryAlleluiaEiEee",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isLentWeekdayOrJonah"
         },
         {
             "Type": "Main",
@@ -73,14 +81,31 @@
             "Type": "Main",
             "Path": "LiturgyOffertoryIsPatirGreat",
             "Rule": 0,
-            "Visible": true
+            "Visible": "BishopIsPresent"
         },
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseThanksgivingPrayer",
             "Rule": 0,
-            "Visible": true,
-            "mother": "liturgy"
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertorySotees",
+            "Rule": 0,
+            "Visible": "BishopIsNOTPresent"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryNiSavevTiro",
+            "Rule": 0,
+            "Visible": "BishopIsPresent"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryAbsolutionOfTheServants",
+            "Rule": 0,
+            "Visible": true
         }
     ]
 }

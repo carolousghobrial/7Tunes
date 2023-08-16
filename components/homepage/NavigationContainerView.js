@@ -44,11 +44,10 @@ function NavigationContainerView({ dispatch }) {
   useEffect(() => {
     async function prepare() {
       try {
-        if (todayPrayer) {
-          dispatch(
-            setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
-          );
-        }
+        dispatch(
+          setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
+        );
+
         const isTablet =
           (await Device.getDeviceTypeAsync()) === 2 ? true : false;
         dispatch(setIsTablet({ isTablet }));

@@ -1,18 +1,17 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " هيتين للانبا يوحنا القصير ",
+  "EnglishTitle": "Hiten for St.John the Short",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "Neutral",
-      "Arabic": "بصلوات أبينا القديس البار  أنبا يوحنا القصير  . يا رب .  .  .  .  .  . ",
+      "Arabic": "بصلوات أبينا القديس البار  أنبا يوحنا القصير  . يا رب إنعم لنا بمغفرة خطايانا",
       "Coptic": "|iten ni`euxh `nte peniwt eqouab  `ndikeoc `abba Iwannic pikoloboc >  Psoic.  .  .",
       "English": "Through the prayers of our holy father the righeous, Abba John the Short , O Lord, grant us the forgiveness of our sins",
-      "Arabiccoptic": " هيتين ني إفشي انتي بين يوت إثؤواب إم ذيكيئوس آفا يؤانس بيكولوبوس  .  إبتشويس .  .  .  .  .  . ",
+      "Arabiccoptic": " هيتين ني إفشي انتي بين يوت إثؤواب إم ذيكيئوس آفا يؤانس بيكولوبوس  .  إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
       "Englishcoptic": "Hiten ni-evshee ente penioot ethowab  enzikeos -Avva Iooannis pikolovos :  Epchois.  .  ."
     }
   ]

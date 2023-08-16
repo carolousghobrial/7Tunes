@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ارباع الناقوس عيد الصعود",
+  "EnglishTitle": "Verses of the Cymbals for Ascension Feast  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "السلام لصعوده، لما صعد إلى السموات، بمجد وإكرام، جلس عن يمين أبيه.",
+      "Coptic": "Xere Tef`analumyic> `etaf]enaf `e`p]wi `enivhou`i> =en ou`wou nem outaio> af\\emci caou`inam `mPefiwt.",
+      "English": "Hail to His Ascension, in which He ascended into the heavens, in glory and honor, He is seated at the right hand of His Father.",
+      "Arabiccoptic": " شيرى تيف أناليم إبسيس:إيطاف شيناف اى إبشوي اى نيفيؤ أوى : خين أووأوأوو نيم أوو طايو: أفهيمسى سا أوى نام إمبيف يوت .",
+      "Englishcoptic": "Shere tef-analeem-ebsees, etaf-shenaf epshoi e-nifee-owee, khen oo-o-oo nem oo-taio, af-hemsi sa-owee-naam empif-yout."
+    }
+  ]
+}

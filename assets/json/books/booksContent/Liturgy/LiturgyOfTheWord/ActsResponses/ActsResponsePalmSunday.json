@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ارباع الناقوس احد الشعانين",
+  "EnglishTitle": "Verses of the Cymbals for Palm Sunday ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "أوصنا فى الأعالى .  هذا هو ملك اسرائيل .مبارك الآتى. باسم رب القوات .",
+      "Coptic": "`Wcanna =en nhetsoci> vai pe `Pouro `mPicrahl> `f`cmarwout `nje vheqnhou> =en `vran `m`Psoic `nte nijom.",
+      "English": "Hosanna in the highest, this is the King of Israel, blessed is He who comes in the name, of the Lord of hosts.",
+      "Arabiccoptic": "أوصنا خين نى إتتشوسى . فاى بى إبؤروإمبسرائيل . إف إزمارؤوت إنجى فى إثنيو . خين إفران إمبشويس إنتى نى جوم.",
+      "Englishcoptic": "Osanna khen ni etchoci - fai pe ep oro empi-Israel : efes-maro-ot enje vi ethnio : khen efran em epshios ente ni gom."
+    }
+  ]
+}

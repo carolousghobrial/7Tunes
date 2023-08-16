@@ -30,7 +30,7 @@ import { Glassfy, GlassfySku } from "react-native-glassfy-module";
 //import Purchases from "react-native-purchases";
 import * as Updates from "expo-updates";
 import * as ScreenOrientation from "expo-screen-orientation";
-
+import { setSeason } from "./stores/redux/settings.js";
 import { enableScreens } from "react-native-screens";
 enableScreens(false);
 // Keep the splash screen visible while we fetch resources
@@ -39,8 +39,6 @@ SplashScreen.preventAutoHideAsync();
 function App() {
   const [appIsReady, setAppIsReady] = useState(false);
 
-  //I18nManager.allowRTL(true);
-  //I18nManager.forceRTL(true);
   const onUpdates = async () => {
     try {
       await Updates.fetchUpdateAsync();
@@ -54,21 +52,6 @@ function App() {
         await useFonts();
         await ScreenOrientation.unlockAsync();
         await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
-
-        const update = await Updates.checkForUpdateAsync();
-
-        if (update.isAvailable) {
-          Alert.alert(
-            "New Update!",
-            "Please restart the app to apply updates",
-            [
-              {
-                text: "Restart the App",
-                onPress: () => onUpdates(),
-              },
-            ]
-          );
-        }
       } catch (e) {
         //console.warn(e);
       } finally {

@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس للاعذراء مريم",
+    "EnglishTitle": "Verses of the Cymbals for St.Mary",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Neutral",
+            "Arabic": "السلامُ لكِ يا مريمُ الحمامة الحسنة التي ولدت لنا الله الكلمة.",
+            "Coptic": "Xere ne Mari`a > ;`srompi eqnecwc > qh`etacmici nan >  `m`Vnou; pilogoc.",
+            "English": "Hail to you O Mary, the fair dove, who has borne for us,God the Logos.",
+            "Arabiccoptic": "شيري نيه ماريا :تي تشرومبي إثنيسوس : ثي إتاسميسي نان : إم إفنوتي بي لوغوس  .",
+            "Englishcoptic": "Shere Ne Maria, Ti Etsherompi Ethnesos, Thi Etas Mici Nan, Em Efnouti Piloghos."
+        }
+    ]
+}

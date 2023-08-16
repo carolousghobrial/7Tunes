@@ -139,17 +139,6 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "Is3PlusBishops",
-      "Side": "North",
-      "Arabic": "وشركائه في الخدمة أبائنا القديسين الأبرار، المطارنة والأساقفة المجتمعين معنا. ثبتهم علي كراسيهم.",
-      "Coptic": "Nem pefke`]vhr `nlitourgoc> peniwt eqouab `ndikeoc Abba [*BISHOP_PRESENT3*] pi`epickopoc> matajrof \\ijen pef`qronoc.",
-      "English": "And his partner in the liturgy, our holy righteous father, Abba [*BISHOP_PRESENT3*] the bishop, confirm him upon his throne.",
-      "Arabiccoptic": "نيم بيف كيه إشﭬير إنليتورغوس : بين يوت إثؤواب : إن ذيكيئوس : اﭭا   [*BISHOP_PRESENT3*] بي إبيسكوبوس  : ماتاجروف هيﭽين بيف إثرونوس",
-      "Englishcoptic": "Nem pef keshveer enli-toorghos: peniot ethowab en zikeos : Avva [*BISHOP_PRESENT3*] pi epes-kopos: matagrof hijen pef ethronos."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
       "Visible": true,
       "Side": "South",
       "Arabic": "لكي نسبحك، مع الشاروبيم والسِّرافيم، صارخين قائلين:",

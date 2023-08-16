@@ -13,19 +13,19 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordTaiShori",
             "Rule": 0,
-            "Visible": true
+            "Visible": "IsNonFastingDays"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordTiShori",
             "Rule": 0,
-            "Visible": true
+            "Visible": "IsFastingDays"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordEnthoTeTiShori",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isLentWeekdayOrJonah"
         },
         {
             "Type": "Main",
@@ -47,12 +47,6 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyOffertoryAlleluiaEiEee",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordApetjeekEvol",
             "Rule": 0,
             "Visible": true
@@ -66,6 +60,12 @@
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordCatholicCopticConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordActsResponse",
             "Rule": 0,
             "Visible": true
         },

@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس للانبا بولا ",
+    "EnglishTitle": "Verses of the Cymbals for St.Paul the Hermit",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "Neutral",
+            "Visible": true,
+            "Arabic": "السلام لأبينا أنطونيوس، سراج الرهبنة، السلام لأبينا أنبا بولا، حبيب المسيح.",
+            "Coptic": "Xere peniwt abba Antwnioc> pi=hbc `nte ;metmonaxoc> xere peniwt abba Paule> pimenrit `nte Pi`xrictoc.",
+            "English": "Hail to our father Abba Antony, the lamp of monasticism, hail to our father Abba Paul, the beloved of Christ.",
+            "Arabiccoptic": "شيرى بنيوت افا انطونيوس : بي خيبس انتى تي ميت موناخوس : شيرى بينيوت افا بافلى : بي منريت انتى بخريستوس  . ",
+            "Englishcoptic": "Shere Shere  peniot Avva Antonios : pi-kheps ente ti-met-monakhoc : Shere peniot Avva Pavly : pimenrit ente Piekhristos."
+        }
+    ]
+}

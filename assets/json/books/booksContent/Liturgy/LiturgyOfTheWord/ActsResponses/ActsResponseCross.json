@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ارباع الناقوس عيد الصليب",
+  "EnglishTitle": "Verses of the Cymbals for the Feast of the Cross  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "السلام للصليب، الذي صُلِبَ عليه ربي، السلام للقبر، الذي وُضِعَ فيه جسده.",
+      "Coptic": "Xere Pi`ctauroc> `etaue] Pasoic `erof> xere pi`m\\au> `etauxw `mPefcwma `n=htf.",
+      "English": "Hail to the Cross, which my Lord was crucified upon, hail to the grave, where they placed His Body.",
+      "Arabiccoptic": "شيرى بى ستاﭭروس : إطاﭪ باتشويس إيروف : شيرى بى إمهاﭪ : إطاﭪ كو إمبيف سوما إنخيتف .",
+      "Englishcoptic": "Shere Pi-estavros: etav-esh Pachois erof: shere pi-emhav: etavko emPef-soma enkheetf."
+    }
+  ]
+}

@@ -46,10 +46,6 @@ function FullFeastsScreen() {
     setYearModalVisible(true);
   }
 
-  function closeModal() {
-    setFeastModalVisible(false);
-  }
-
   function closeYearModal() {
     setYearModalVisible(false);
   }
@@ -57,7 +53,8 @@ function FullFeastsScreen() {
   function setFeast(feast) {
     const myCurrentSeason = setCurrentSeasonByKey(timeTransition, feast);
     dispatch(setSeason({ currentSeason: myCurrentSeason }));
-    setFeastModalVisible(false);
+    bottomSheetRef.current.dismiss();
+    Alert.alert("Success");
   }
 
   function setYear(year) {

@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس لاشهيد استفانوس",
+    "EnglishTitle": "Verses of the Cymbals for St.Stephen",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "Neutral",
+            "Visible": true,
+            "Arabic": "السلام لاسطفانوس، أول الشهداء. السلام لرئيس الشمامسة المبارك.",
+            "Coptic": "Xere ` Ctevanoc > pi]orp `mmarturoc > xere piarxidi`akwn > ouo\\ et`cmarwout.",
+            "English": "Hail to Stephen, the   first martyr. Hail to the archdeacon, the blessed one.",
+            "Arabiccoptic": "شيري استيفانوس : بي شورب إممارتيروس : شيري بي أرشي ذياكون : أووه إت إسماروؤوت  .",
+            "Englishcoptic": "Shere Estifanos, Pi Shorp Em Martyros, Shere Pi Arshi Ziakon, Ooh Etesmarowt."
+        }
+    ]
+}

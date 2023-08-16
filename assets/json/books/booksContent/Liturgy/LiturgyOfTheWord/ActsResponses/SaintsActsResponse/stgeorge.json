@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس لمارجرجس ",
+    "EnglishTitle": "Verses of the Cymbals for St.George",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "Neutral",
+            "Visible": true,
+            "Arabic": "السلام لكَ أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد  سيدي الملك جيؤرجيوس.",
+            "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Pasoic `pouro Gewrgioc.",
+            "English": "Hail to you, O martyr. Hail to the noble hero. Hail to the prize-bearer, George, my lord and prince.",
+            "Arabiccoptic": "شيري ناك أو بي مارتيروس : شيري بي شويج إن جينيؤس : شيري بي أثلوفوروس :باتشويس إب أوورو جيؤرجيوس  .",
+            "Englishcoptic": "Shere Nak Opi Mar tyros, Shere Pi Shoig En Genni-os, shere pi athlofo ros, Pashois Eporo Georgios."
+        }
+    ]
+}

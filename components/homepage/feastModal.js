@@ -135,6 +135,7 @@ const styles = StyleSheet.create({
     height: 150,
     borderRadius: 100 / 2,
     overflow: "hidden",
+    resizeMode: "stretch",
   },
   imageContainerLandscape: {
     borderWidth: 3,
@@ -166,16 +167,5 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
 });
-
-FeastModal.propTypes = {
-  visible: PropTypes.bool.isRequired,
-  feast: PropTypes.shape({
-    key: PropTypes.string.isRequired,
-    start: PropTypes.object.isRequired,
-    end: PropTypes.object,
-  }).isRequired,
-  closeModal: PropTypes.func.isRequired,
-  setFeast: PropTypes.func.isRequired,
-};
 
 export default FeastModal;

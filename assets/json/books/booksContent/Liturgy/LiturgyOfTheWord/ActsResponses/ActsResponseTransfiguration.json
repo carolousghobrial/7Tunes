@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ارباع الناقوس عيد التجلي",
+  "EnglishTitle": "Transfiguration Feast Verses of Cymbals ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "إيليا وموسى القويان، نظرا ثيابه على طابور، التلاميذ عُبِّروا في، سحابة منيرة.",
+      "Coptic": "Hliac nem Mw`uchc petjor> aunau `enef`\\bwc \\i Qabwr> nimaqhthc euerjinior> `noushpi ecerouwini.",
+      "English": "Elijah and Moses the strong ones, saw His clothes on Tabor, the disciples passed through, a bright cloud.",
+      "Arabiccoptic": " إيلياس نيم مويسيس بيت جوري:أﭫ ناﭫ اى نيف إهـﭭـوس هى طابور:نى ماثيتيس أﭫ إر ﭼينيور:إنو تشيبى إس إر اواوينى . ",
+      "Englishcoptic": "Eelias nem Moisees petgor: avnav -enefehvoos hi Thavoor: nimatheetees everjinior: enoocheepi esero-ooini."
+    }
+  ]
+}

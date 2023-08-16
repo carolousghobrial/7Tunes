@@ -1,18 +1,17 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " هيتين للانبا رويس ",
+  "EnglishTitle": "Hiten for St.Rewis",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "Neutral",
-      "Arabic": "بصلوات أبينا القديس البار  أنبا رويس ناظر الإله  . يا رب .  .  .  .  .  . ",
+      "Arabic": "بصلوات أبينا القديس البار  أنبا رويس ناظر الإله  . يا رب إنعم لنا بمغفرة خطايانا",
       "Coptic": "|iten ni`euxh `nte peniwt eqouab  `ndikeoc `abba Teji qeouvanioc >  Psoic.  .  .",
       "English": "Through the prayers of our holy father the righeous, Abba Teji the beholder of God, O Lord, grant us the forgiveness of our sins",
-      "Arabiccoptic": " هيتين ني إفشي انتي بين يوت إثؤواب إم ذيكيئوس آفا تيجي ثي أوفانيوس  .  إبتشويس .  .  .  .  .  . ",
+      "Arabiccoptic": " هيتين ني إفشي انتي بين يوت إثؤواب إم ذيكيئوس آفا تيجي ثي أوفانيوس  .  إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
       "Englishcoptic": "Hiten ni-evshee ente penioot ethowab  enzikeos -Avva Teji theooovanios :  Epchois.  .  ."
     }
   ]

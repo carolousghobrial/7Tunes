@@ -270,7 +270,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "BishopIsPresent",
       "Side": "North",
       "Arabic": "وأن يحفظ حياة وقيام أبينا المكرم البابا الأنبا [*POPE*]",
       "Coptic": "`Ntef`are\\ `e`pwn= nem `pta\\o `eratf `mpeniwt ettaihout `narxh`ereuc papa Abba [*POPE*]> ",
@@ -380,7 +380,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "inRaisingOfIncense",
       "Side": "North",
       "Arabic": "ويغفرَ لنا خطايانا.",
       "Coptic": "`ntefxa nennobi nan `ebol.",

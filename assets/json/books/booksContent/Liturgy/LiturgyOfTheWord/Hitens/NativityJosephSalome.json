@@ -1,15 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " هيتين عيد الميلاد",
+  "EnglishTitle": "Hiten for Nativity Feast ",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "Neutral",
-      "Arabic": "بصلوات الشيخين المباركين يوسف النجار والقديسة سالومي يارب...",
+      "Arabic": "بصلوات الشيخين المباركين يوسف النجار والقديسة سالومي يا رب إنعم لنا بمغفرة خطايانا",
       "Coptic": "|iten ni`euxh `nte ni=elloi `t`cmarwout Iwchf pi\\am]e nem qheqouab Calwmi> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through the prayers of the blessed elders, Joseph the carpenter and Saint Salome, O Lord ….",
       "Arabiccoptic": "هيتين ني إفشي إنتي ني خللوي إت اسماروؤوت يوسف بيهامشى نيم ثي إيثؤواب سالومي :إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي ",

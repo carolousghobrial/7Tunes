@@ -8,7 +8,8 @@
             "hasSubBooks": false,
             "BookPath": "offertory",
             "ImageURL": "offertory",
-            "Enabled": true
+            "Enabled": true,
+            "BishopButton": true
         },
         {
             "EnglishTitle": "Liturgy of the Word",
@@ -18,7 +19,8 @@
             "hasSubBooks": false,
             "BookPath": "liturgyOfWord",
             "ImageURL": "litugyOfWord",
-            "Enabled": true
+            "Enabled": true,
+            "BishopButton": true
         },
         {
             "EnglishTitle": "Holy Liturgy",
@@ -29,7 +31,7 @@
             "BookPath": 3,
             "ImageURL": "communion",
             "Enabled": false,
-            "Released": false
+            "BishopButton": true
         }
     ]
 }

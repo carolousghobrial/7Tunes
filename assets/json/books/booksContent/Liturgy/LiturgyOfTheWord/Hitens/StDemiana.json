@@ -1,8 +1,7 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " هيتين للالشهيدة دميانة ",
+  "EnglishTitle": "Hiten for St.Demiana",
   "Hymn": [
     {
       "Type": "Base",
@@ -12,7 +11,7 @@
       "Arabic": "بصلوات عروس المسيح القديسة دميانة يا رب...",
       "Coptic": "|iten ni`euxh `nte ;i]elet `nte Pixrictoc ;`agi`a `mmhi Dumianh > `Psoic..",
       "English": "Through the prayers of the bride of Christ, the righeous Saint Demiana , O Lord ...",
-      "Arabiccoptic": "هيتين نى افكي انتى تي شيليت إنتى بي اخرستوس تى أجيا إممى دميانى  إبشويس.",
+      "Arabiccoptic": "هيتين نى افكي انتى تي شيليت إنتى بي اخرستوس تى أجيا إممى دميانى  إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
       "Englishcoptic": "Hiten ni-evshee ente tiishelet ente Pikhristos ti-agi-a emmeei Deemianee : ePchois.."
     }
   ]

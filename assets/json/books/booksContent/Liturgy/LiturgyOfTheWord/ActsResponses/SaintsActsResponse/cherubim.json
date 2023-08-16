@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس للسمائيين",
+    "EnglishTitle": "Verses of the Cymbals for the Heavenlies",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": "isNOTLentWeekdayOrJonah",
+            "Side": "Neutral",
+            "Arabic": "السلام للشاروبيم. السلام للسيرافيم. السلام لجميع الطغمات السمائية.",
+            "Coptic": "Xere Nixeroubim > xere Niceravim > xere nitagma throu> `n`epouranion.",
+            "English": "Hail to the cherubim. Hail to the seraphim. Hail to  all   the   heavenly    orders.",
+            "Arabiccoptic": "شيري ني شيروبيم : شيري ني سيرافيم : شيري ني طاغما تيروو : إن إبوورانيون  .",
+            "Englishcoptic": "Shere Ni Cherubim, Shere Ni Ceraphim, Shere Ni Tagma tero, En Eporanion."
+        }
+    ]
+}

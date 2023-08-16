@@ -1,30 +1,106 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " هيتين لألبابا و الأسقف",
+  "EnglishTitle": "Hiten for the Pope and Bishops  ",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "Neutral",
-      "Arabic": "بصلُّواتِهم احفظْ حياةَ أبينا المكرم رئيسِ الكهنةِ البابا أنبا ___، ياربُّ ...",
-      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `narxi`ereuc papa abba … > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
-      "English": "Through their prayers, keep the life of our honored father, the high priest, Pope Abba ___, O Lord ....",
-      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إمبين يوت إتطايوت إن أرشي إريفس باباآفا (...) إبشويس. آري إهموت نان إمبي كو إيقول إنتي نين نوفي",
-      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enarshi-erevs papa Avva … : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+      "Arabic": "بصلُّواتِهم احفظْ حياةَ أبينا المكرم رئيسِ الكهنةِ البابا أنبا [*POPE*] يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `narxi`ereuc papa abba [*POPE*] > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through their prayers, keep the life of our honored father, the high priest, Pope Abba [*POPE*], O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إمبين يوت إتطايوت إن أرشي إريفس باباآفا [*POPE*] إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان إمبي كو إيقول إنتي نين نوفي",
+      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enarshi-erevs papa Avva [*POPE*] : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     },
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "ISDioceseMetropolitain",
       "Side": "Neutral",
-      "Arabic": "بصلواتهم احفظْ حياةَ أبينا المكرم البار أنبا ــ الأسقف (المطران) ياربُّ ...",
-      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba … piepickopoc (pimhtropolithc)> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
-      "English": "Through their prayers keep the life of our honored and righteous father, the bishop (metropolitan) Abba ___, O Lord ....",
-      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا (...) بي إبسكوبوس إبشويس. آري إهموت نان.",
-      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva … piepes-kopos (pimeetropolitees): Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+      "Arabic": "بصلواتهم احفظْ حياةَ أبينا المكرم البار أنبا [*DIOCESE_BISHOP*]  المطران يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba [*DIOCESE_BISHOP*] pimhtropolithc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through their prayers keep the life of our honored and righteous father, the metropolitan Abba [*DIOCESE_BISHOP*], O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*DIOCESE_BISHOP*] بي ميتروبوليتيس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
+      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*DIOCESE_BISHOP*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISOneMetropolitain",
+      "Side": "Neutral",
+      "Arabic": "بصلواتهم احفظْ حياةَ أبينا المكرم البار أنبا [*METROPOLITAIN_PRESENT*]  المطران يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba[*METROPOLITAIN_PRESENT*] pimhtropolithc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through their prayers keep the life of our honored and righteous father, the metropolitan Abba [*METROPOLITAIN_PRESENT*], O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*METROPOLITAIN_PRESENT*] بي ميتروبوليتيس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
+      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*METROPOLITAIN_PRESENT*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISTwoMetropolitain",
+      "Side": "Neutral",
+      "Arabic": "بصلواتهم احفظْ حياةَ أبينا المكرم البار أنبا [*METROPOLITAIN_PRESENT2*]  المطران يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba[*METROPOLITAIN_PRESENT2*] pimhtropolithc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through their prayers keep the life of our honored and righteous father, the metropolitan Abba [*METROPOLITAIN_PRESENT2*], O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*METROPOLITAIN_PRESENT2*] بي ميتروبوليتيس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
+      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*METROPOLITAIN_PRESENT2*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeMetropolitain",
+      "Side": "Neutral",
+      "Arabic": "بصلواتهم احفظْ حياةَ أبينا المكرم البار أنبا [*METROPOLITAIN_PRESENT3*]  المطران يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba[*METROPOLITAIN_PRESENT3*] pimhtropolithc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through their prayers keep the life of our honored and righteous father, the metropolitan Abba [*METROPOLITAIN_PRESENT3*], O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*METROPOLITAIN_PRESENT3*] بي ميتروبوليتيس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
+      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*METROPOLITAIN_PRESENT3*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
+      "Side": "Neutral",
+      "Arabic": "بصلواتهم احفظْ حياةَ أبينا المكرم البار أنبا [*DIOCESE_BISHOP*] الأسقف  يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba [*DIOCESE_BISHOP*] piepickopoc > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through their prayers keep the life of our honored and righteous father, the bishop  Abba [*DIOCESE_BISHOP*], O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*DIOCESE_BISHOP*] بي إبسكوبوس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
+      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*DIOCESE_BISHOP*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISOneBishop",
+      "Side": "Neutral",
+      "Arabic": "بصلواتهم احفظْ حياةَ أبينا المكرم البار أنبا [*BISHOP_PRESENT*] الأسقف  يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba [*BISHOP_PRESENT*] piepickopoc > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through their prayers keep the life of our honored and righteous father, the bishop  Abba [*BISHOP_PRESENT*], O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*BISHOP_PRESENT*] بي إبسكوبوس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
+      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*BISHOP_PRESENT*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISTwoBishop",
+      "Side": "Neutral",
+      "Arabic": "بصلواتهم احفظْ حياةَ أبينا المكرم البار أنبا [*BISHOP_PRESENT2*] الأسقف  يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba [*BISHOP_PRESENT2*] piepickopoc > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through their prayers keep the life of our honored and righteous father, the bishop  Abba [*BISHOP_PRESENT2*], O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*BISHOP_PRESENT2*] بي إبسكوبوس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
+      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*BISHOP_PRESENT2*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeBishop",
+      "Side": "Neutral",
+      "Arabic": "بصلواتهم احفظْ حياةَ أبينا المكرم البار أنبا [*BISHOP_PRESENT3*] الأسقف  يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba [*BISHOP_PRESENT3*] piepickopoc > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through their prayers keep the life of our honored and righteous father, the bishop  Abba [*BISHOP_PRESENT3*], O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*BISHOP_PRESENT3*] بي إبسكوبوس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
+      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*BISHOP_PRESENT3*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     }
   ]
 }

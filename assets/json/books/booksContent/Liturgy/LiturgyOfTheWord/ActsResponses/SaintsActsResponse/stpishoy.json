@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس للانبا بيشوي ",
+    "EnglishTitle": "Verses of the Cymbals for St.Pishoy",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "Neutral",
+            "Visible": true,
+            "Arabic": "السلام لأبينا أنبا بيشوى الرجل البار الكامل . السلام لأبينا أنبا بولا حبيب المسيح",
+            "Coptic": "Xere peniwt abba Pi]wi > pi`qmhi pirwmi `nte lioc > xere peniwt abba Paule > pimenrit `nte Pi`xrictoc.",
+            "English": "Hail to our father Abba Pishoy, the just and perfect man, hail to our father Abba Paul, the beloved of Christ.",
+            "Arabiccoptic": "شيريه بين يوت آفا بيـشوى: بى إثمى بى رومى إنتيه ليـوس : شيريه بين يوت آفا بافلى : بى مينريت إنتيه بخرستوس",
+            "Englishcoptic": "Shere peniot ava Pishoi, pi ethmei pi romi ente leios, Shere peniot ava Pavli, pi menreet ente Pikhristos."
+        }
+    ]
+}

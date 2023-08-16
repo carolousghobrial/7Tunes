@@ -1,18 +1,17 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " هيتين للاشهيد مرقوريوس",
+  "EnglishTitle": "Hiten for St.Philopateer",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "Neutral",
-      "Arabic": "بصلوات المجاهد الشهيد مرقوريوس محب الآب. يا رب أنعم ...",
+      "Arabic": "بصلوات المجاهد الشهيد مرقوريوس محب الآب. يا رب إنعم لنا بمغفرة خطايانا",
       "Coptic": "|iten nieuxh `nte pi`aqlovoroc `mmarturoc> Vilopathr Merkourioc > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through the prayers, of the struggle mantled martyr, Philopater Mercurius, O Lord, grant us the forgiveness of our sins",
-      "Arabiccoptic": "هيتين ني إفكي إنتي بي آثلوفوروس إم مارتيروس فيلوباتير ميركوريوس إبشويس.",
+      "Arabiccoptic": "هيتين ني إفكي إنتي بي آثلوفوروس إم مارتيروس فيلوباتير ميركوريوس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
       "Englishcoptic": "Hiten nievshee ente pi-athlovoros emmarteeros: Vilopateer merkooorios : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     }
   ]
