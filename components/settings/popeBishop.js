@@ -9,6 +9,7 @@ import {
   Platform,
   Pressable,
 } from "react-native";
+
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import { useDispatch, useSelector } from "react-redux";
 import { setdioceseBishop } from "../../stores/redux/settings";
@@ -24,6 +25,7 @@ function PopeBishop() {
   const dispatch = useDispatch();
 
   const popeObject = bishopsList.POPE;
+
   const antiochPope = bishopsList.ANTIOCH_POPE;
   const metropolitains = bishopsList.Metropolitans;
   const bishops = bishopsList.Bishops;
