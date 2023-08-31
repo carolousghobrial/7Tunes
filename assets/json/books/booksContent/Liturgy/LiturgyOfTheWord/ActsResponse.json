@@ -1,8 +1,19 @@
 {
     "RefrainAfter": 0,
-    "ArabicTitle": "  ارباع الناقوس ",
-    "EnglishTitle": "Verses of Cymbals ",
+    "ArabicTitle": " مرد الأبركسيس",
+    "EnglishTitle": "Acts Response",
     "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "Coptic": "Pilaoc>",
+            "English": "People:",
+            "Arabiccoptic": "بيلاؤس:",
+            "Englishcoptic": "Pi-Laos:"
+        },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseNayrooz",
@@ -65,7 +76,7 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseRessurection",
+            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseResurrection",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -97,12 +108,12 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestmary",
             "Rule": 0,
-            "Visible": "isNOTLentWeekdayOrJonah"
+            "Visible": "stMaryActsResponse"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsearchangelgabriel",
             "SAINT": "ARCHANGEL_GABRIEL"
         },
@@ -110,138 +121,131 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsejohnTheBaptist",
             "Rule": 0,
-            "Visible": "VOCSaint",
-            "SAINT": "JOHN_THE_BAPTIST"
+            "Visible": "JohnTheBaptistShow"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponseapostles",
             "Rule": 0,
-            "Visible": "isNOTLentWeekdayOrJonah"
+            "Visible": "isApostlesFeast"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestmark",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "SAINT": "ST_MARK"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponseststephen",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "SAINT": "ST_STEPHEN"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestgeorge",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "SAINT": "ST_GEORGE"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestphilopatir",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "SAINT": "ST_PHILOPATER"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestmina",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "SAINT": "ST_MINA"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestabanoub",
             "SAINT": "ST_ABANOUB"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestdemiana",
             "SAINT": "ST_DEMIANA"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestmarina",
             "SAINT": "ST_MARINA"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestanthony",
             "SAINT": "ST_ANTHONY"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestpaul",
             "SAINT": "ST_PAULHERMIT"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestmoses",
             "SAINT": "ST_MOSES"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestpishoy",
             "SAINT": "ST_PISHOI"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestrewis",
             "SAINT": "ST_REWIS"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestjohntheshort",
             "SAINT": "ST_JOHN_THE_SHORT"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestkaras",
             "SAINT": "ST_KARAS"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "ActsResponseSaint",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestkirollos",
             "SAINT": "ST_KIROLLOS_SIXTH"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "BishopIsPresent",
-            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponsePope"
-        },
-        {
-            "Type": "Main",
-            "Rule": 0,
             "Visible": true,
-            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseConclusion"
+            "Path": "LiturgyLiturgyOfTheWordEkesmarot"
         }
     ]
 }

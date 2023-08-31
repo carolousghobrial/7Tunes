@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد الإنجيل صوم يونان - باكر الأربعاء",
+  "EnglishTitle": "Jonah's Fast Gospel Response - Wednesday Matins",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"تعالوا إليَّ، يا مباركي أبي، رثوا الحياة الدائمة، إلى الأبد.\"",
+      "Coptic": "Je `amwini \\aroi> nhet`cmarwout `nte Paiwt> `ari`klhronomin `mpiwn=> eqmhn `ebol ]a `ene\\.",
+      "English": "\"Come unto Me, O blessed of My Father, and inherit the life, that endures forever.\"",
+      "Arabiccoptic": "جى اموينى هاروي : نى ايت إسمارؤوت إنتيه بايوت : آرى إكليرونومين إمبى أونخ : إثمين ايفول شا اينيه  .",
+      "Englishcoptic": "Je amoinee haroi : ni-et esmaro-ot ente paiot : ari ekli-ronomin empi-onkh : ethmin evol sha eneh."
+    }
+  ]
+}

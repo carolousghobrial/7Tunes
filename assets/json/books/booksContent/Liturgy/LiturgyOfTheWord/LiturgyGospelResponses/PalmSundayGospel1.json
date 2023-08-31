@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد الإنجيل الأول احد الشعانين",
+  "EnglishTitle": "1st Gospel Response of Palm Sunday ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أوصنا في الأعالي، هذا هو ملك إسرائيل، مبارك الآتي، بإسم رب القوات.",
+      "Coptic": "`Wcanna =en nhetsoci> vai pe `Pouro `mPicrahl> `f`cmarwout `nje vheqnhou> =en `vran `m`Psoic `nte nijom.",
+      "English": "Hosanna in the highest, this is the King of Israel, blessed is He who comes in the name, of the Lord of hosts.",
+      "Arabiccoptic": "أوصنا خين نى إتتشوسى . فاى بى إبؤروإمبسرائيل . إف إزمارؤوت إنجى فى إثنيو . خين إفران إمبشويس إنتى نى جوم.",
+      "Englishcoptic": "Osanna khen ni etchoci - fai pe ep oro empi-Israel : efes-maro-ot enje vi ethnio : khen efran em epshios ente ni gom."
+    }
+  ]
+}

@@ -76,10 +76,10 @@ function BishopsPopup({ visible, closeModal, setBishop }) {
       const { title, data } = sectionData;
       const filteredData = data.filter(
         (item) =>
-          item.English.toLowerCase().includes(text.toLowerCase()) ||
-          item.Arabic.includes(text) ||
-          item.dioceseEnglish.toLowerCase().includes(text.toLowerCase()) ||
-          item.dioceseArabic.includes(text)
+          item.English.toLowerCase()?.includes(text.toLowerCase()) ||
+          item.Arabic?.includes(text) ||
+          item.dioceseEnglish.toLowerCase()?.includes(text.toLowerCase()) ||
+          item.dioceseArabic?.includes(text)
       );
 
       if (filteredData.length !== 0) {

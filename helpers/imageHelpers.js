@@ -46,6 +46,7 @@ const images = {
   twelfth: require("../assets/images/twelvth.png"),
   //FeastAndFasts
   NATIVITY: require("../assets/images/FeastsImages/NATIVITY.jpg"),
+  NATIVITY_SECONDDAY: require("../assets/images/FeastsImages/NATIVITY.jpg"),
   EPIPHANY: require("../assets/images/FeastsImages/EPIPHANY.jpg"),
   ANNUNCIATION: require("../assets/images/FeastsImages/ANNUNCIATION.jpg"),
   RESURRECTION: require("../assets/images/FeastsImages/RESURRECTION.jpg"),
@@ -53,6 +54,7 @@ const images = {
   ASCENSION: require("../assets/images/FeastsImages/ASCENSION.jpg"),
   ASCENSIONTOPENTECOST: require("../assets/images/FeastsImages/ASCENSION.jpg"),
   PENTECOST: require("../assets/images/FeastsImages/PENTECOST.jpg"),
+  TWENTYNINTHTH_COPTIC_MONTH: require("../assets/images/FeastsImages/29TH_COPTIC_MONTH.jpg"),
   FEAST_OF_CIRCUMCISION: require("../assets/images/FeastsImages/FEAST_OF_CIRCUMCISION.jpg"),
   ENTRY_EGYPT: require("../assets/images/FeastsImages/ENTRY_EGYPT.jpg"),
   WEDDING_CANA: require("../assets/images/FeastsImages/WEDDING_CANA.jpg"),

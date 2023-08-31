@@ -5,9 +5,8 @@
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
-            "Arabic": "تقديم الحمل",
-            "Coptic": "Ptalo  ~Mpi`cqoinoufi `nte |an`atoui",
-            "English": "The Offering of the Lamb"
+            "Arabic": "قداس الكلمة",
+            "English": "Liturgy of the Word"
         },
         {
             "Type": "Main",
@@ -29,9 +28,23 @@
         },
         {
             "Type": "Main",
+            "Path": "PaschaFridayFridayDaySixthFaiEtafEnf",
+            "Rule": 0,
+            "Visible": "isCross"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordHitens",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ألحان البابا ",
+            "English": "Papal Hymns",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordPaplHymnsMenu"
         },
         {
             "Type": "Main",
@@ -50,6 +63,12 @@
             "Path": "LiturgyLiturgyOfTheWordApetjeekEvol",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsApostlesFastOntos",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
@@ -83,7 +102,193 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionEtavenNiEskhai",
+            "Rule": 0,
+            "Visible": "isCross"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsCrossParlex",
+            "Rule": 0,
+            "Visible": "isCross"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsNativityEparthenos",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsNativityPijinmisi",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsNativityGenethleyon",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsNativityParlex",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsTheophanyOranEnShosho",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsTheophanyParlex",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsLentMighalo",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsLentParlex",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionEflogimenos",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsPalmSundayParlex",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionKataNiKhorosElHegab",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsAscensionAfrekEtve",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionAllYouHeavenlyOrders",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionKhristosAnesty",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionTonSina",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionTolithos",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionTinAnaStAsin",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionPikhriStOsAftonf",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionParlex",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsAscensionKhristosAnalepsis",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsAscensionPikhristosAftonf",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsAscensionParlex",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsPentecostPiEpnevma",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsApostlesFastEnthotenZe",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsApostlesFastNiRomi",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordAgios",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseLitanyOfGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePsalmResponses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePsalmAndGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordGospelResponse",
             "Rule": 0,
             "Visible": true
         }

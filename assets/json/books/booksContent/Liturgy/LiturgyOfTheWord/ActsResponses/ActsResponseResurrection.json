@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ارباع الناقوس عيد القيامة",
+  "EnglishTitle": "Verses of the Cymbals for Resurrection Feast ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "السلام لقيامته : لما قام من بين الأموات : لكي يخلصنا: من خطايانا  .",
+      "Coptic": "Xere Tef`anactacic> `etaftwnf `ebol =en nheqmwout> ]a `ntefcw; `mmon> `ebol =en nennobi.",
+      "English": "Hail to His Resurrection, when He rose from the dead, that He may save us, from our sins.",
+      "Arabiccoptic": "شيرى تيف اناسطاسيس : ايطاف طونف ايفول خين ني اثمؤوت : شا انتيف سوتي اممون : ايفول خين نين نوفي  .",
+      "Englishcoptic": "Shere tef-anastasis , etaf-tonf evol khen ni-ethmo-oot , sha entef-soti emon , evol khen nen-novi."
+    }
+  ]
+}

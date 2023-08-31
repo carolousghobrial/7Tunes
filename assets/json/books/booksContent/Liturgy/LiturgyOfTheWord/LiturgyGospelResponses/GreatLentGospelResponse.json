@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد الإنجيل - باكر الصوم الكبير",
+  "EnglishTitle": "Gospel Response - Great Lent Matins",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"أبانا الذى فى السموات، ليتقدس اسمك، ليأت ملكوتك، لأن لك المجد إلى الأبد\" .",
+      "Coptic": "Je Peniwt et=en nivhou`i > mareftoubo `nje pekran > marec`i `nje tekmetouro > je vwk pe pi`wou ]a ni`ene\\.",
+      "English": "Our Father who art in heaven / hallowed be Thy name / Thy kingdom come / for Thine is the glory forever",
+      "Arabiccoptic": "جي بينيوت اتخين نى فيئوى، ماريف طوڤو انچى بيكران، ماريسئى إنچى تيك ميت أورو، چى فوك بي بي اوؤو شا نى اينيه .",
+      "Englishcoptic": "Je Peniot etkhen ni fioui, maref tovo enje pekran, mares-e enje tekmet oro, je vok pe pi o-o sha ni eneh."
+    }
+  ]
+}

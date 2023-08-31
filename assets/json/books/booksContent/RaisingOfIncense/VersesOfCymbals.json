@@ -100,13 +100,19 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsRessurection",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsResurrection",
             "Rule": 0,
             "Visible": "isSeason"
         },
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsEntryEgypt",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTwentyNinth",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -142,16 +148,15 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsRessurectionArchangelMichael",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsResurrectionArchangelMichael",
             "Rule": 0,
             "Visible": "isSeason"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
-            "Path": "RaisingOfIncenseVersesOfCymbalsArchangelGabriel",
-            "SAINT": "ARCHANGEL_GABRIEL"
+            "Visible": "ArchangelGabrielShow",
+            "Path": "RaisingOfIncenseVersesOfCymbalsArchangelGabriel"
         },
         {
             "Type": "Main",

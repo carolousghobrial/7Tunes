@@ -1,0 +1,52 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(كاطا ني خــوروس (الحجاب",
+  "CopticTitle": "Kata nixoroc",
+  "EnglishTitle": "Kata ni Khoros (Veil)",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كل الصفوف التي أسمعها،",
+      "Coptic": "Kata nixoroc `e;cwtem `erwou > ",
+      "English": "All the choirs that I hear. ",
+      "Arabiccoptic": " كاطا ني خــوروس اى تي ســـوتيم ايروؤو:",
+      "Englishcoptic": "Kata nikhoros -etisootem -erooooo :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " (يا لهذه الإتفاقات)3 الآتية إلى أذني.",
+      "Coptic": "W nim naicumvwnia 3  eqnhou `enama]j .",
+      "English": "(Oh what are these symphonies)3 that are coming to my ears!",
+      "Arabiccoptic": " أونيم نـاي سيمفونيــــا اثنيـو أن ناماشج",
+      "Englishcoptic": "Oo nim naiseemvoonia 3  ethneeooo -enamashg ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المسيح قام من بين الأموات، باكراً في الأحد من السبوت.",
+      "Coptic": "Pixrictoc aftwnf `ebol =en nheqmwout > `n]wrp `m`vouai `nte nicabbaton.",
+      "English": "Christ rose from the dead, early on one Sunday.",
+      "Arabiccoptic": "-",
+      "Englishcoptic": "Pikhristos aftoonf -evol khen neeethmooooot : enshoorp emevoooai ente nisabvaton."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أيها الجند لا تكذبوا على قيامة مخلصنا في يوم الأحد.",
+      "Coptic": "Nimatoi `mper je meqnouj > =a `t`anactacic `mpencwthr > =en pi`e\\oou `nte ;kuriakh",
+      "English": "O soldiers, lie not about the Resurrection of our Savior on the Lord’s Day (Sunday).",
+      "Arabiccoptic": "-",
+      "Englishcoptic": "Nimatoi emper je methnooog : kha et-anastasis empensooteer : khen pi-ehoooo ente tikeeriakee"
+    }
+  ]
+}

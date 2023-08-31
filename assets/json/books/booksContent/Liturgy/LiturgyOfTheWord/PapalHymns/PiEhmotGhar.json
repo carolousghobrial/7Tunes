@@ -28,17 +28,6 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseBishop",
-      "Side": "North",
-      "Arabic": "وأبينا الأسقف  أنبا [*DIOCESE_BISHOP*].",
-      "Coptic": "Nem peniwt `nepickopoc  abba [*DIOCESE_BISHOP*]",
-      "English": "And our father the bishop , Abba [*DIOCESE_BISHOP*].",
-      "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*DIOCESE_BISHOP*] .",
-      "Englishcoptic": "Nem penioot en-epes-kopos avva [*DIOCESE_BISHOP*]"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
       "Visible": "ISOneMetropolitain",
       "Arabic": "وأبينا المطران أنبا [*METROPOLITAIN_PRESENT*].",
       "Coptic": "Nem peniwt `mmhtropolthc abba [*METROPOLITAIN_PRESENT*]",
@@ -67,6 +56,17 @@
       "English": "And our father the metropolitan, Abba [*METROPOLITAIN_PRESENT3*].",
       "Arabiccoptic": " نيم بين يوت إميتروبوليتيس أﭭا [*METROPOLITAIN_PRESENT3*].",
       "Englishcoptic": "Nem penioot enmetropoleetes avva [*METROPOLITAIN_PRESENT3*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
+      "Side": "North",
+      "Arabic": "وأبينا الأسقف  أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem peniwt `nepickopoc  abba [*DIOCESE_BISHOP*]",
+      "English": "And our father the bishop , Abba [*DIOCESE_BISHOP*].",
+      "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*DIOCESE_BISHOP*] .",
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*DIOCESE_BISHOP*]"
     },
     {
       "Type": "Base",
@@ -105,7 +105,7 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
+      "Side": "North",
       "Arabic": "فليكن الإكليروس وكل الشعب معافين في الرب. آمين يكون.",
       "Coptic": "Mare pi`klhroc nem pilaoc thrf> oujai =en Psoic> je a~mhn ece~]wpi",
       "English": "May the clergy and all the people be safe in the Lord. Amen. So it shall be.",

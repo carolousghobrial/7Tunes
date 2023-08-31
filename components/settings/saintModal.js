@@ -53,7 +53,7 @@ function SaintModal({ visible, saint, closeModal, updateSaint }) {
       if (visible) {
         setModalIsOpen(true);
         // Do something when the modal appears...
-        setvosChecked(saintSelected.vos);
+        setvosChecked(saintSelected.versesofCymbals);
         setdoxChecked(saintSelected.doxologies);
       } else {
         setModalIsOpen(false);
@@ -64,7 +64,7 @@ function SaintModal({ visible, saint, closeModal, updateSaint }) {
   }, [visible]);
   useEffect(() => {
     if (saintSelected !== undefined) {
-      saintSelected.vos = vosChecked;
+      saintSelected.versesofCymbals = vosChecked;
       saintSelected.doxologies = doxChecked;
     }
   }, [vosChecked, doxChecked]);
@@ -196,7 +196,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     height: 150,
-    borderRadius: 100 / 2,
     overflow: "hidden",
   },
   imageContainerLandscape: {

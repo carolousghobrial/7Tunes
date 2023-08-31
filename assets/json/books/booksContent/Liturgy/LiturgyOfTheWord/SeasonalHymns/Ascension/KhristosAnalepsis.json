@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المسيح صعد إلى السماء، وأرسل البارقليط الروح القدس، وأنعم لنفوسنا بالحياة.",
+      "Coptic": "Xrictoc `analumyic ton ouranon e[apectile paraklhton to `pneuma to `agion zwhn xaricamenoc `epi twn yuxwn `hmwn.",
+      "English": "Christ has ascended into the heaven, and sent the Holy Spirit the Paraclete, and granted life to our souls.",
+      "Arabiccoptic": "خريستوس أناليم ابسيس طون أورانون إكصا بيستيلي باراكليطون طو بنيفما طو آجيون زوئين خاريسامينوس إيه بيطون بسيخون إيمون",
+      "Englishcoptic": "Khristos -analeempsis ton oooranon exapestile parakleeton to epnevma to -agion zooeen kharisamenos -epi toon pseekhoon -eemoon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "المجد للآب والإبن والروح القدس، الآن وكل أوان وإلى دهر الدهور. آمين.",
+      "Coptic": "Do[a Patri ke Uiw ke `agiw `Pneumati> ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn> `amhn",
+      "English": "Glory to the Father and the Son and the Holy Spirit, now and forever and unto the age of all ages. Amen.",
+      "Arabiccoptic": " ذوكصاباتري كى إيو كى أجيو إبنفماتي .  كى نين كى آإي كى إستوس إي أوناس طون أؤنون آمين . ",
+      "Englishcoptic": "Doxa Patri ke Eeioo ke -agioo ePnevmati: ke neen ke -a-ee ke is tooos -e-oonas toon -e-oonoon: -ameen"
+    }
+  ]
+}

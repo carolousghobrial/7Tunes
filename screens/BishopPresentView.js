@@ -41,6 +41,8 @@ function BishopPresentView({ bottomSheetRef, snapPoints }) {
   const morethan3BishopsText = getLanguageValue("moreThan3Bishops");
   const setBishopText = getLanguageValue("setBishop");
   const BishopIsPresentText = getLanguageValue("BishopIsPresent");
+  const AddBishops = getLanguageValue("AddBishops");
+  const BishopsPresentText = getLanguageValue("BishopsPresent");
 
   const [bishopsPresent, setBishopsPresent] = useState(BishopsPresent);
 
@@ -152,7 +154,7 @@ function BishopPresentView({ bottomSheetRef, snapPoints }) {
           <View style={{ width: "100%" }}>
             {bishopsPresent.length < 3 && (
               <Pressable onPress={openModal} style={styles.addButton}>
-                <Text style={styles.buttonText}>Add Bishop</Text>
+                <Text style={styles.buttonText}>{AddBishops}</Text>
               </Pressable>
             )}
 
@@ -166,7 +168,7 @@ function BishopPresentView({ bottomSheetRef, snapPoints }) {
                 },
               ]}
             >
-              Bishops Present
+              {BishopsPresentText}
             </Text>
 
             {bishopsPresent.map((bishop, index) => (

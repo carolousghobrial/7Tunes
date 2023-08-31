@@ -1,0 +1,74 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الروح المعزي، حلَّ على الرسل في عيد البنطيقسطي، فتكلَّموا بألسنة كثيرة.",
+      "Coptic": " Pi`pneuma  `mparaklhton > vhetaf`i ejen niapctoloc > =en `p]ai `n;penthkocth > aucaji =en \\anmh] `nlac  . ",
+      "English": "The Spirit of comfort, came down upon the Apostles on the feast of Pentecost, and they spoke in many tongues.",
+      "Arabiccoptic": " بي إبنيـﭭما إمباراكليتون : في إيطاف إي إيـﭽين ني آبوسطولوس : خين إبشاي إنتي بين تيكوستي : آﭭصاﭼـي خين هان ميش إنلاس . ",
+      "Englishcoptic": "Piepnevma  emparakleeton : veeetaf-ee ejen niapstolos : khen epshai entipenteekostee : avsaji khen hanmeesh enlas  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وكان لما كملت، أيام الخمسين، كانوا معاً، الإثنى عشر رسولاً.",
+      "Coptic": " Ac]wpi etaujwk ebol > `nje nie\\oou `nte ;penthkocth > nauqouht throu \\iouma > `nje pimet`cnau `napoctoloc  . ",
+      "English": "It came to pass when, the days of Pentecost were completed, that all twelve Apostles, were gathered together.",
+      "Arabiccoptic": " آس إشوبي إيطاف جوك إيـﭬـول : إنـﭽيه ني إيهوأوو إنتيه تي بين تيكوستي : ناﭪ ثويت تيرو هيوما إنـﭽيه بي ميت إسناﭪ إن آبوسطولوس . ",
+      "Englishcoptic": "Asshoopi etavgook evol : enje niehoooo ente tipenteekostee : navthoooeet teerooo hioooma : enje pimetesnav enapostolos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الروح المعزي، لما نزل من السماء، إنبسط على كل واحد، فنطقوا بأسنة كثيرة.",
+      "Coptic": " Pi`pneuma `mparaklhton > etaf`i epecht ebol =en  `tfe > afvwr] ejen `vouai `vouai > aucaji =en \\anmh] `nlac  . ",
+      "English": "The Spirit of comfort, came down from heaven, resting upon each one, and they spoke in many tongues.",
+      "Arabiccoptic": " بي بنيـﭬما إمباراكليطون : إيطاف إي إيه بيسيت إيـﭬول خين إتفيه : آففورش إيـﭽين إف أوواي إف أوواي : آﭬصاﭽـي خين هان ميش إنلاس . ",
+      "Englishcoptic": "Piepnevma emparakleeton : etaf-ee epeseet evol khen  etfe : afvoorsh ejen evoooai evoooai : avsaji khen hanmeesh enlas  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وكانت مخافة عظيمة، وصار صوت من السماء، فملأ الموضع الذي، كان فيه تلاميذ المسيح.",
+      "Coptic": "Ac]wpi `nje ouni]; `n\\o; > ou`cmh ac]wpi ebol=en `tve > acma\\ nima epauxh `n=htf > `nje pimaqhthc `nte Pi`xrictoc. ",
+      "English": "A great fear occurred, a voice from heaven, filled the place where, Christ’s disciples were gathered.",
+      "Arabiccoptic": " آس شوبي إنـﭽيه أوونيشتي إنهوتي : اووإسمي إسشوبي إيـﭬول خين إتفيه : آسماه نيما إيه باﭬـكي إنخيتف :إنـﭽيه بي ماثيتيس إنتيه بي خريستوس . ",
+      "Englishcoptic": "Asshoopi enje ooonishti enhoti : oooesmee asshoopi evolkhen etve : asmah nima epavshee enkheetf : enje pimatheetees ente Piekhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وظهرت لهم، مثل ألسنة نار، وكانت تنقسم جميعها على كل واحد، من تلاميذه الكرام.",
+      "Coptic": " Ouo\\ pauouona\\ou erwou > `m`vrh; `n\\anlac `n`xrwm > ouo\\ nauvh] throu ejen `vouai `vouai > `nte nimaqhthc ettaihout  . ",
+      "English": "They appeared to them, like tongues of fire, and separated upon each one, of the honorable disciples.",
+      "Arabiccoptic": " اووه باﭪ أووأوناهو إيروأوو : إم إفريتي إنهان لاس إن إكروم : اووه ناﭪ فيش تيرو إيـﭽين إف أوواي إف أوواي : إنتيه ني ماثيتيس إتطايوت . ",
+      "Englishcoptic": "Ooooh pavoooonahooo erooooo : emevreeti enhanlas enekhroom : ooooh navveesh teerooo ejen evoooai evoooai : ente nimatheetees ettaieeooot  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الروح القدس، ملأ الإثنى عشر تلميذاً، ونطقوا بألسنة كثيرة، كأمر الروح القدس.",
+      "Coptic": "Pi`pneuma  eqouab > ma\\pimet`cnau `mmaqhthc > aucaji =en \\anmh] `nlac > kata `voua\\ca\\ni ` mPi`pneuma  eqouab  .",
+      "English": "The Holy Spirit, filled the twelve disciples, and they spoke in many tongues, by the command of the Holy Spirit.",
+      "Arabiccoptic": " آبي بنيـﭬما إثؤواب : ماه بي ميت إسناﭪ إمماثيتيس : آﭬصاﭽـي خين هان ميش إنلاس : كاطا إف أوو آهصاهني إمبي بنيـﭬما إثؤواب  . ",
+      "Englishcoptic": "Piepnevma  ethoooav : mahpimetesnav emmatheetees : avsaji khen hanmeesh enlas : kata evoooahsahni e mPiepnevma  ethoooav  ."
+    }
+  ]
+}

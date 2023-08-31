@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "محير عيد الصليب",
+  "EnglishTitle": "Parlax for Feast of the Cross ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا ربي يسوع المسيح، الذي صُلِبَ على الصليب، إسحق الشيطان، تحت أقدامنا.",
+      "Coptic": "Pasoic Ihcouc Pi`xrictoc> `vh`etaua]f `epi`ctauroc> ek`e=om=em `m`pcatanac> capecht `nnensalauj",
+      "English": "O my Lord Jesus Christ, who was crucified on the Cross, destroy Satan, under our feet.",
+      "Arabiccoptic": " باتشويس ايسوس بخرستوس فى إيطاف أشف إبى إسطافروس إك إ خومخيم إم إبساطاناس. سابيسيت إن نين إتشالافج.",
+      "Englishcoptic": "Pashois Esos Pi-ekhrestos, fi-etav-ashf epis-tav-ros, ek-e-khom-khem emep-sata-nas, saba-seet en-nenet-sha-lavg"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الشاروبيم والسِّرافيم، الملائكة ورؤساء الملائكة، والعساكر والسلاطين، والكراسي والأرباب.",
+      "Coptic": "Nixeroubim nem Niceravim> niaggeloc nem niarxhaggeloc> ni`ctratia nem nie[oucia> ni`qronoc nimetsoic nijom.",
+      "English": "The Cherubim and the Seraphim, the angels and the archangels, the principalities and the authorities, the thrones and the powers.",
+      "Arabiccoptic": " ني شيروبيم نيم ني سيرافيم : ني أنجيلوس نيم ني أرشي أنجيلوس : ني ستراتيا نيم اكسوسيا : ني أثرونوس نيميت تشويس نيجوم  .",
+      "Englishcoptic": "Ni-She-robim nem ni-Seraphim, ni-angelos nem ni-arshi-angelos, ni-sete-rateia nem ni-e-exso-seia, ni-eth-ronos ni-met chois ni-gom."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صارخين قائلين، \"المجد لله في الأعالي، وعلى الإرض السلام، وفي الناس المسرة.\"",
+      "Coptic": "Euw] `ebol eujw `mmoc> je ou`wou `m`Vnou; =en nhetsoci> nem ou\\irhnh \\ijen pika\\i> nem ou;ma; =en nirwmi.",
+      "English": "Proclaim saying, “Glory to God in the highest, peace on earth, and goodwill toward men.”",
+      "Arabiccoptic": " اف أوش افول افجو امموس : جي أووأوأوو ام افنووتي خين ني ات اتشوسي نيم أووهيريني هيجين بي كاهي نيم أووتيماتي خين ني رومي  .",
+      "Englishcoptic": "Evosh evol evgo emmos, je ou-o-ou emef-noti khen ni-etet-shosi, nem ou-hirini hejen pi-kahi, nem ou-ti-mati khen ni-romi."
+    }
+  ]
+}

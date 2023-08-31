@@ -1,0 +1,272 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "إبصالية عيد القيامة واطس",
+  "EnglishTitle": "Resurrection Feast Psali Watos",
+  "CopticTitle": "`Alhqwc tenna\\; `anon",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حقاً نؤمن، نحن الشعب الأرثوذوكسي، أن ملك الدهور، المسيح قام من بين الأموات.",
+      "Coptic": "`Alhqwc tenna\\; `anon> pi`]lol `norqodo[on> je `Pouro `nte ni`ewn> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "Truly we believe, we the orthodox people, that the King of the ages, Christ is risen from the dead.",
+      "Arabiccoptic": "آليثوس تين ناهتي آنون، بى إشلول إنؤرثوذوكسون، چى إبؤرو إنتى ني إ أون، بخرستوس آنيستى إكنيكرون",
+      "Englishcoptic": "Aleethos tennahti anon: pi eshlol en-orthozoxon: je ePooro ente nieon: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فرحاً وتهليلاً، أعطاهما لنا الله، لأن ملكنا عمانوئيل، المسيح قام من بين الأموات.",
+      "Coptic": "Bon oura]i nem ouqelhl> je `Vnou; afthitou nan> je Penouro Emmanouhl> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "All joy and happiness, God gave unto us, for our King Emmanuel, Christ is risen from the dead.",
+      "Arabiccoptic": "ڤون ؤ راشي نيم ؤ ثليل، چى إفنوتي آف تيتو نان، چى بين أورو إممانوئيل، بخرستوس آنيستى إكنيكرون .",
+      "Englishcoptic": "Von oorashi nem oo-theleel: je Evnoti aftee-itoo nan: je Pen-ooro Emmanooeel: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " كل جنس البشر، جميع طرقهم مستقيمة، لأن الكلمة مُحب البشر، المسيح قام من بين الأموات.",
+      "Coptic": "Genoc niben `nte nirwmi> noumwit throu cecoutwn> je Pilogoc `mmairwmi> Pi`xrictoc `anecth ek nekrwn.",
+      "English": " Every race in mankind, follow upright paths, for the Word the Lover of Man, Christ is risen from the dead.",
+      "Arabiccoptic": "جينوس نيڤين إنتى ني رومى، نومويت تيرو سي سوتون، چى بى لوغوس إمماي رومى، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Genos niven ente niromi: noo-moit teeroo se-sooton: je Pi-loghos emmai-romi: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " داود ملك إسرائيل، قال في المزمور، قد قام الله بتهليل، المسيح قام من بين الأموات.",
+      "Coptic": "Dauid `pouro `mPicrahl> afjoc =en piyalthrion> je aftwnf `nje `Vnou; =en ouqelhl> Pi`xrictoc `anecth ek nekrwn.",
+      "English": " David the King of Israel, said with the psaltery, God has joyfully risen, Christ is risen from the dead.",
+      "Arabiccoptic": "داڤيد إبؤرو إمبيسرائيل، أفجوس خين بيبسالتيريون، چى أفتونف إنچى إفنوتى خين أو ثيليل، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Daveed epooro em-Pisraeel: afgos khen pi-psalteerion: je aftonf enje Evnoti khen ootheleel: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من أجل القيامة المقدسة، سبحوا وهللوا ورتلوا، وبشروا معاً في الامم، المسيح قام من بين الأموات.",
+      "Coptic": "Eqbe :`anactacic eqouab> \\wc qelhl `ariyalin> \\i]ennoufi =en nieqnoc eucop> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "For the sake of the holy Resurrection, sing praise and rejoice, preach to the nations, for Christ is risen from the dead.",
+      "Arabiccoptic": "إثڤى تى آناستاسيس إثؤاب، هوس ثيليل آربسالين، هيشين نوفى خين ني إثنوس إفسوب، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Ethve Ti-anastasis ethowab: hos theleel aripsalin: hi-shennoofi khen niethnos evsop: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سبع طغمات الملائكة، تُسبحه روحياً، من أجل خلاص العالم، المسيح قام من بين الأموات.",
+      "Coptic": "Z/? (]a]f) `ntagma `naggeloc> ce\\wc `erof `m`pneumatikon> eqbe `vno\\em `mpikocmoc> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "Seven angelic orders, praise Him spiritually, for the salvation of the world, Christ is risen from the dead.",
+      "Arabiccoptic": "شاشف إنطاغما إن أنجيلوس، سيهوس إيروف إبنفماتيكون، إثڤى افنوهيم إمبى كوزموس، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Shashf entaghma en-angelos: sehos erof emep-nev-matikon: ethve evnohem empi-kosmos: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " إيل هو إبن الله، نُسبحه بالموسيقى، لأنه خلَّص جنسنا، المسيح قام من بين الأموات.",
+      "Coptic": "Hl `nqof pe `Uioc Qeoc> ten\\wc `erof `mmocikon> je `nqof afcw; `mpengenoc> Pi`xrictoc `anecth ek nekrwn.",
+      "English": " God is the Son of God, praise Him with music, for He has saved our race, Christ is risen from the dead.",
+      "Arabiccoptic": "إيل إنثوف بى إييوس ثي ؤوس، تين هوس إيروف إم موسيكون، چى إنثوف أفسوتى إمبين جينوس، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Eel enthof pe Eios Theos: ten-hos erof emmo-sikon: je enthof afsoti empen-genos: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " تهلل يا جنس آدم، بفرح روحي، لأن خالق آدم، المسيح قام من بين الأموات.",
+      "Coptic": "Qelhl `w `pgenoc `n`Adam> =en oura]i `m`pneumatikon> je Pirefcwnt `n`Adam> Pi`xrictoc `anecth ek nekrwn.",
+      "English": " Rejoice O race of Adam, with spiritual joy, for the Creator of Adam, Christ is risen from the dead.",
+      "Arabiccoptic": "ثيليل أو إبجينوس آدام، خين أو راشي إمبنفما تيكون، چى بى ريفسونت إن آدام، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Theleel o epgenos enAdam: khen oorashi emep-nevmatikon: je Piref-sont en Adam: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ها البرية تفرح معاً، من أجل هذا السر، لأن إبن القدوس، المسيح قام من بين الأموات.",
+      "Coptic": "Ic ;`kthcic thrc eucop> ra]i eqbe paimucthrion> je `P]hri `mVheqouab> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "All the creation together, rejoices in this mystery, for the Son of the Holy, Christ is risen from the dead.",
+      "Arabiccoptic": "ييس تى إكتيسيس تيرس إفسوب، راشى إثڤى باى ميستيريون، چى إبشيري إمفى إثؤاب، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Yes ti-ekteesis teers evsop: rashi ethve pai-misteerion: je epsheeri emveee-thooab: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نُسبح الرب، يسوع المسيح، إبن الله الكلمة قائلين، \"المسيح قام من بين الأموات.\"",
+      "Coptic": "Kurioc Ihcouc Pi`xrictoc> `P]hri `m`Vnou; Pilogoc> ten\\wc `erof enjw `mmoc> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "Our Lord Jesus Christ, the Son of God the Word, we praise Him saying, “Christ is risen from the dead.”",
+      "Arabiccoptic": "كيريوس إيسوس بخرستوس، إبشيرى إمفنوتى بي لوغوس، تين هوس إيروف إنجو إمموس، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Kirios Isoos Piekristos: ePsheeri em-Evnoti Piloghos: ten hos erof engo emmos: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " وُضع أيضاً في القبر، حسب الأخبار النبوية، وفي اليوم الثالث، المسيح قام من بين الأموات.",
+      "Coptic": "Loipon auxaf =en pi`m\\au> kata ni`cmh `m`provhtikon> =en pima\\]omt `n`e\\oou> Pi`xrictoc `anecth ek nekrwn.",
+      "English": " Then He was placed in the tomb, according to the prophetic sayings, and on the third day, Christ is risen from the dead.",
+      "Arabiccoptic": "ليبون أڤكاڤ خين بى إمهاڤ، كاطا نى إسمى إم إبروفيتيكون، خين بيماه شمت إن ايهوؤ، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Lipon avkaf khen pi-emhav: kata ni-esmee emepro-feetikon: khen pimah shomt enehoo: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " فلنفهم الإنجيل، أيها الشعوب، الذي قال أن غير المائت، المسيح قام من بين الأموات.",
+      "Coptic": "Marenka; `w nilaoc> `epieuaggelion> vh`etafjoc je Pi`aqanatoc> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "Let us understand, the Gospel O people, which has said “The Immortal, Christ is risen from the dead.”",
+      "Arabiccoptic": "مارين كاتى أونى لاؤس، إى بي إف إنجيلييون، في إيطاف جوس چى بي آثاناتوس، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Maren kati o ni-laos: epi-evangelion: vee etafgos je Pi-athanatos: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كل الطغمات السمائية، والطبائع العقلية، تعجبت من أعمالك، المسيح قام من بين الأموات.",
+      "Coptic": "Nitagma throu `nte nivhou`i> nivucic `nno`hron> auer`]vhri =en nek`\\bhou`i> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "All the heavenly orders, and the rational natures, were amazed at Your works, Christ is risen from the dead.",
+      "Arabiccoptic": "نى طاغما تيرو إنتى نى فيؤيى، نى فيسيس إن نوئيرون، أفئير إشفيرى خين نيك اهڤي اوؤى، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Ni-taghma teeroo ente ni-feeowi: ni-feesis en-no-eeron: aver-eshveeri khen nek ehvee-owi: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبالأكثر أعمالك، وأحكامك المعجزة، لأنك أنت هو ملك السموات، المسيح قام من بين الأموات.",
+      "Coptic": "{eretwn ne nek`\\bhou`i> nek\\ap `mparado[on> je `nqok pe `Pouro `nte nivhou`i> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "Exalted are Your works, and Your mysterious judgments, for You are the King of heaven, Christ is risen from the dead.",
+      "Arabiccoptic": "إكسيريتون نى نيك إهڤي اوؤي، نيك هاب امباراذوكسون، چى إنثوك بي إبؤرو انتى ني في اوؤي، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Exereton ne nek ehveeowi: nek-hap emparazoxon: je enthok pe ePooro ente ni-feeowi: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " إسم الإفتخار هو إسمك، يا إبن الله محب البشر، نؤمن بغير شك، المسيح قام من بين الأموات.",
+      "Coptic": "Ouran `n]ou]ou pe pekran> `Uioc Qeoc Vilan`qrwpon> tenna\\; asne `ckandalon> Pi`xrictoc `anecth ek nekrwn.",
+      "English": " A name of pride is Your name, O Son of God the Lover of Man, we believe without doubt, Christ is risen from the dead.",
+      "Arabiccoptic": "أوران إنشوشو بي بيكران، إيوس ثيؤس فيلان إنثروبون، تين ناهتى أتشنى إسكاندالون، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Ooran en-shooshoo pe pekran: Eios Theos Vilan-ethropon: ten-nahti ach-ne eskan-zalon: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " الواحد من الثالوث، الكلمة الذاتي، إبن الله الحقيقي، المسيح قام من بين الأموات.",
+      "Coptic": "Piouai `ebol =en :`triac> Pilogoc `naidion> `P]hri `m`Vnou; `alhqwc> Pi`xrictoc `anecth ek nekrwn.",
+      "English": " One from the Trinity, the eternal Word, the Son of the true God, Christ is risen from the dead.",
+      "Arabiccoptic": "بى أواي إيڤول خين تى إترياس، بي لوغوس إن أي ذييون، إبشيري إمفنوتي آليثوس، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Pi-owai evol khen Ti-etrias: Pi-loghos en-ai-zion: ePsheeri em-Evnoti aleethos: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فمنا إمتلأ فرحاً، وسروراً لا يُقاس، لأن طبيب المرضى، المسيح قام من بين الأموات.",
+      "Coptic": "Rwn gar afmo\\ `nra]i> nem ouounof `natmetron> je Pichini `nnhet]wni> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "Our mouths are filled with joy, and immeasurable happiness, for the Physician of the sick, Christ is risen from the dead.",
+      "Arabiccoptic": "رون غار أفموه إنراشى، نيم أوؤ نوف إناتميترون، چى بيسينى إن ني إتشونى، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Ron ghar afmoh enrashi: nem oo-oonof en-at-metron: je Pis-eeini en-nee-etshoni: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إسمعوا يا أحبائي، الذين أخذوا الوصية، من أجل قيامة إبن الله، المسيح قام من بين الأموات.",
+      "Coptic": "Cwtem `eroi `w namenra;> nh`etausi `mpiparabion> eqbe :`anactacic `m`P]hri `m`Vnou;> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "Hear me O my beloved, who have received the testament, for the Resurrection of the Son of God, Christ is risen from the dead.",
+      "Arabiccoptic": "سوتيم إيروي أونا مينراتى، نى ايطافيتشى إمبى بارافيون، إثڤى تي آناستاسيس إمبشيرى إمفنوتي، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Sotem eroi o na-menrati: nee-etavchi empi-para-vion: ethve Ti-anastasis em-ePsheeri em-Evnoti: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " نؤمن بغير شك، بهذا الأمر السري، أن الإبن الوحيد، المسيح قام من بين الأموات.",
+      "Coptic": "Tenna\\; asne canic> =en pai\\wb `mmucthrion> je `P]hri `mmonogenhc> Pi`xrictoc `anecth ek nekrwn.",
+      "English": " We believe without doubt, of this mysterious matter, that the only-begotten Son, Christ is risen from the dead.",
+      "Arabiccoptic": "تين ناهتي أتشني سانيس، خين باي هوب إمميستيريون، چى إبشيرى إممو نوجينيس، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Ten-nahti achne sanis: khen pai-hob em-misteerion: je ePsheeri em-mono-genees: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " هوذا جميع الأنبياء، تنبأوا أيضاً، أن ملك جميع الملوك، المسيح قام من بين الأموات.",
+      "Coptic": "Uppe ni`provhthc throu> auer`provhteuin de on> je `Pouro `nte niourwou throu> Pi`xrictoc `anecth ek nekrwn.",
+      "English": " Behold all the prophets, prophesied also, for the King of all kings, Christ is risen from the dead.",
+      "Arabiccoptic": "إببى ني ابروفيتيس تيرو، أفئير إبروفيتي ڤين ذي اؤن، چى إبؤرو إنتى ني أوروؤ تيرو، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Eppe ni-eprofeetees teeroo: av-er epro-feetevin ze on: je ePooro ente ni-ooro-oo teeroo: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إله الأنبياء، والأبرار والصديقين، هو السيد، المسيح قام من بين الأموات",
+      "Coptic": "`Vnou; `nte ni`provhthc> nem ni`qmhi nem nidikeon> `nqof pe Pidecpothc> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "God of the prophets, and the righteous and the just, He is the Master, Christ is risen from the dead.",
+      "Arabiccoptic": "إفنوتى إنتى ني إبروفتيس، نيم ني إثمى نيم ني ذيكيؤن، انثوف بى بي ذيسبوتيس، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Evnoti ente ni-eprofeetees: nem ni-ethmeei nem ni-zikeon: enthof pe Pi-zespotees: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدوس أيها الرب وقدوس، قدوس الآن وإلى الدهور، لأنك أنت إبن القدوس، المسيح قام من بين الأموات.",
+      "Coptic": "`Xouab `Psoic ouo\\ `xouab> `xouab ;nou ]a ni`ewn> je `nqok pe `P]hri `mVheqouab> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "Holy O Lord and holy, holy now and unto the ages, You are the Son of the Holy, Christ is risen from the dead.",
+      "Arabiccoptic": "إكؤاب إبشويس أووه إكؤاب، إكؤاب تينو شا نى إ ؤون، چى إنثوك بى إبشيرى إمفي اثؤاب، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "EK-owab Epchois owoh ek-owab: ek-owab tinoo sha ni-e-on: je enthok pe ePsheeri emVee ethowab: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " نؤمن بكل قلوبنا، بأن إلهنا الحقيقي، مخلِّص العالم كله، المسيح قام من بين الأموات.",
+      "Coptic": "Ywthr `mpikocmoc thrf> Pennou; `n`alhqinon> tenna\\; =en pen\\ht thrf> Pi`xrictoc `anecth ek nekrwn.",
+      "English": " The Savior of the whole world, our true God, we believe with all our hearts, Christ is risen from the dead.",
+      "Arabiccoptic": "إبسوتير إمبى كوزموس تيرف، بين نوتى إن آليثينوس، تين ناهتى خين بينهيت تيرف، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "Epsoteer empi-kosmos teerf: Pennooti en-aleethinon: ten-nahti khen pen-heet teerf: Pikhristos anestee ek nekron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أيها الكائن قبل الآباد، وخالق الدهور، نُسبحك إلى الآباد، المسيح قام من بين الأموات.",
+      "Coptic": "`W vhet]op =ajen ni`ene\\> Pirefcwnt `nni`ewn> ten\\wc `erof ]a ni`ene\\> Pi`xrictoc `anecth ek nekrwn.",
+      "English": "O who was before the ages, the Creator of all ages, we praise You forever, Christ is risen from the dead.",
+      "Arabiccoptic": "أوفى إتشوب خاچين نى إينيه، بى ريفونت إن نى إ وؤن، تينهوس إيروك شانى إينيه، بيخرستوس آنيستي إكنيكرون.",
+      "Englishcoptic": "O vee-etshop khajen ni-eneh: Pi-refsont en-ni-eon: tenhos erof sha ni eneh: Pikhristos anestee ek nekron."
+    }
+  ]
+}

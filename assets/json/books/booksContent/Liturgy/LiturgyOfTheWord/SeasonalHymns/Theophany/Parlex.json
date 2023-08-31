@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "محير عيد الغطاس",
+  "EnglishTitle": "Parlax for Feast of the Theophany ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربي يسوع المسيح، الذي إعتمد في الأردن، طَهِّر نفوسنا، من دنس الخطية.",
+      "Coptic": "Pasoic Ihcouc Pi`xrictoc> vh`etafsiwmc =en Piiordanhc> ek`etoubo `nnenyuxh> `ebol \\a `pqwleb `nte `vnobi.",
+      "English": "O my Lord Jesus Christ, who was baptized in the Jordan, purify our souls, from the defilement of sin.",
+      "Arabiccoptic": "باشويس ايسوس بخرستوس: نى ايطافتشى أومس خين بى يوردانيس: إك إى طوفو إن نين ابسيشى: ايفول ها إبثوليب إنتى إفنوفى .",
+      "Englishcoptic": "Pachois Isos Pikhristos : vi-etaf echi oms khen pi-yordanees : ek-etovo enen-epseeky : evol ha eptholeb ente evnovi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الشاروبيم والسِّرافيم، الملائكة ورؤساء الملائكة، والعساكر والسلاطين، والكراسي والأرباب.",
+      "Coptic": "Nixeroubim nem Niceravim> niaggeloc nem niarxhaggeloc> ni`ctratia nem nie[oucia> ni`qronoc nimetsoic nijom.",
+      "English": "The Cherubim and the Seraphim, the angels and the archangels, the principalities and the authorities, the thrones and the powers.",
+      "Arabiccoptic": " ني شيروبيم نيم ني سيرافيم : ني أنجيلوس نيم ني أرشي أنجيلوس : ني ستراتيا نيم اكسوسيا : ني أثرونوس نيميت تشويس نيجوم  .",
+      "Englishcoptic": "Ni-She-robim nem ni-Seraphim, ni-angelos nem ni-arshi-angelos, ni-sete-rateia nem ni-e-exso-seia, ni-eth-ronos ni-met chois ni-gom."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صارخين قائلين، \"المجد لله في الأعالي، وعلى الإرض السلام، وفي الناس المسرة.\"",
+      "Coptic": "Euw] `ebol eujw `mmoc> je ou`wou `m`Vnou; =en nhetsoci> nem ou\\irhnh \\ijen pika\\i> nem ou;ma; =en nirwmi.",
+      "English": "Proclaim saying, “Glory to God in the highest, peace on earth, and goodwill toward men.”",
+      "Arabiccoptic": " اف أوش افول افجو امموس : جي أووأوأوو ام افنووتي خين ني ات اتشوسي نيم أووهيريني هيجين بي كاهي نيم أووتيماتي خين ني رومي  .",
+      "Englishcoptic": "Evosh evol evgo emmos, je ou-o-ou emef-noti khen ni-etet-shosi, nem ou-hirini hejen pi-kahi, nem ou-ti-mati khen ni-romi."
+    }
+  ]
+}

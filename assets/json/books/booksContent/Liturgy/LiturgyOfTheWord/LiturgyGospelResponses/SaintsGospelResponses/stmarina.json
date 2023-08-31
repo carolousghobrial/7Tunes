@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " للالشهيدة مارينا ",
+    "EnglishTitle": "St.Marina",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "اطلبى من الرب عنا, ياعروس المسيح, القديسة مارينا, ليغفر لنا خطايانا.",
+            "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > `w;]elet `nte Pi`xrictoc > ;agia Marinh > `ntef xa nennobi nan `ebol.",
+            "English": " Pray to the Lord on our behalf, O bride of Christ, Saint Marina, that He may forgive us our sins.",
+            "Arabiccoptic": "طوبه إمبشويس إإهرى إيجون . أو تى شيليت إنتيـه بخرستوس : تى آجيا مارينا  . انتيف كانين نوفى نان ايفول",
+            "Englishcoptic": "Tovh em epshois e ehry egon, Wti shelet ente Pikhristos, ti agia Mariny, entef ka nen-novi nan evol."
+        }
+    ]
+}

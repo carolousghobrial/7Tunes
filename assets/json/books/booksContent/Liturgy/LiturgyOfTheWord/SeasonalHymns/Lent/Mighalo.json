@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ميغالو",
+  "CopticTitle": "Megalou",
+  "EnglishTitle": "The great High Priest (Mighalo) ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رئيس الكهنة الأعظم إلي الابد الطاهر. قدوس الله.",
+      "Coptic": "Megalou arxi`ereuc ic touc `e`wnac axranton `agioc `o Qeoc>",
+      "English": "The great High Priest, undefiled forever. Holy God.",
+      "Arabiccoptic": "ميغالو آرشي اريفس استوس اي أوناس أكرانتون أجيوس أوثيؤس  . ",
+      "Englishcoptic": "meghalooo arshi-erevs is tooos -e-oonas akhranton -agios -o Theos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "على طقس ملكي صادق الكامل. قدوس القوي.",
+      "Coptic": "Kata thn ta[in tou Melxicedek telioc `agioc icxuroc.",
+      "English": "According to the order of Melchizedek, perfect. Holy Mighty.",
+      "Arabiccoptic": " كاطا تين طاكسين تو ميلشي سيديك تيليوس أجيوس اسشيروس  . ",
+      "Englishcoptic": "Kata teen taxin tooo melshisezek telios -agios issheeros."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المُتجسِّد من الروح القدس ومن العذراء مريم البتول، بسر عظيم. قدوس الحي الذي لا يموت، إرحمنا.",
+      "Coptic": "Ocarkwqenta ek Pneumatoc `agiou ke `agiac Mariac thc parqenou mega to mucthrion `agioc `aqanatoc `ele`hcon `hmac.",
+      "English": "You became incarnate of the Holy Spirit and of the holy Virgin Mary. Great is the mystery. Holy Immortal, have mercy upon us.",
+      "Arabiccoptic": " أوصاركو ثيندا اك بنيفماتوس أجيو كي اجياس مارياس تيس بارثينو ميغا طو ميستيريون أجيوس أثاناتوس اليسون ايماس  . ",
+      "Englishcoptic": "Osarkoothenta ek Pnevmatos -agiooo ke -agias marias tees parthenooo megha to meesteerion -agios -athanatos -ele-eeson -eemas."
+    }
+  ]
+}

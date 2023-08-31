@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " للالرسل",
+    "EnglishTitle": "The Apostles",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "أطلبوامن الرب عنا يا سادتى الأباء الرسل والإثنان والسبعون تلميذاً ليغفر لنا خطايانا",
+            "Coptic": "Twb\\ `mP_ `e`\\rei `ejwn > na_ `nio; `napoctoloc > nem pi o/b/ mmaqhthc > `ntef xa nennobi nan `ebol.",
+            "English": "Pray to the Lord on our behalf: O my lords and fathers the apostles: and the seventy-two disciples: that He may forgive us our sins.",
+            "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون ناشويس إن يوتى إن أبوسطولوس . نيم بى إشفيه إسناف إمماثيتيس . إنتيف كانين نوفى نان ايفول",
+            "Englishcoptic": "Tovh em epshois ehry egon, o nashois enyotee en-apostolos, nem ep seby ente ni mathetees, entef kan enn novi nan evol."
+        }
+    ]
+}

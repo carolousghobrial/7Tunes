@@ -51,9 +51,7 @@ function BishopModal({ bottomSheetRef, snapPoints }) {
       backdropComponent={renderBackdrop}
     >
       <View style={styles.header}>
-        <Text style={[styles.title, { color: labelColor }]}>
-          Table of Contents
-        </Text>
+        <Text style={[styles.title, { color: labelColor }]}></Text>
         <Pressable
           style={styles.closeButton}
           onPress={() => bottomSheetRef.current.dismiss()}

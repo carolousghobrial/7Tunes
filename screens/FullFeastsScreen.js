@@ -27,13 +27,14 @@ function FullFeastsScreen() {
   const [feastModalVisible, setFeastModalVisible] = useState(false);
   const flatListRef = useRef();
   const snapPoints = ["55%"];
+  const bottomSheetRef = useRef(null);
 
   const data = getCopticFastsFeasts(moment().year()).sort(
     (a, b) =>
       new moment(a.start).format("YYYYMMDD") -
       new moment(b.start).format("YYYYMMDD")
   );
-  const bottomSheetRef = useRef(null);
+  console.log(data.map((item) => item.key));
   const [currentData, setCurrentData] = useState(data);
   const [selectedFeast, setSelectedFeast] = useState(data[0]);
 
@@ -116,10 +117,13 @@ function FullFeastsScreen() {
 
   function handleSearch(text) {
     setSearchPhrase(text);
+    console.log(text);
     const filteredData = data.filter(
       (item) =>
-        Languages["eng"][item.key].toLowerCase().includes(text.toLowerCase()) ||
-        Languages["ara"][item.key].includes(text)
+        Languages["eng"][item.key]
+          ?.toLowerCase()
+          ?.includes(text.toLowerCase()) ||
+        Languages["ara"][item.key]?.includes(text)
     );
     setCurrentData(filteredData);
   }

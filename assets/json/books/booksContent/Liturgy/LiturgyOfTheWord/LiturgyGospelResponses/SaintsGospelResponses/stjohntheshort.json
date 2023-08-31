@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " للانبا يوحنا القصير ",
+    "EnglishTitle": "St.John the Short",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "أطلب من الرب عنا ياسيدى الآب القمص أنبا يؤانس القصير ليغفر لنا خطايانا.",
+            "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn  > `w pa_ `niwt abba Iwannhc > pi\\hgoumenoc `nkoloboc > `ntefxa nennobi nan `ebol.",
+            "English": " Pray to the Lord on our behalf, O my master and father the hegumen, Abba John Colobos, that He may forgive us our sins.",
+            "Arabiccoptic": " طوبه إمبشويس اى إهرى إيجون, أو باشويس إنيوت أﭭا يوأنس, بى هيغومينوس إن كولوﭭوس, إنتيف كا نين نوفى نان إﭭول .",
+            "Englishcoptic": "Tobh em Epshois e ehri egon, o pashois eniot ava Youannes, pi heghomenos em Kolovos, entefka nen novi nan evol."
+        }
+    ]
+}

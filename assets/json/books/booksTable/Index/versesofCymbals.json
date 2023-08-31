@@ -94,7 +94,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsRessurection",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsResurrection",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -136,7 +136,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsRessurectionArchangelMichael",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsResurrectionArchangelMichael",
             "Rule": 0,
             "Visible": "isSeason"
         },

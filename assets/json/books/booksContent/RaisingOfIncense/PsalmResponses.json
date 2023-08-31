@@ -59,7 +59,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncensePsalmResponsesRessurection",
+            "Path": "RaisingOfIncensePsalmResponsesResurrection",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -84,6 +84,12 @@
         {
             "Type": "Main",
             "Path": "RaisingOfIncensePsalmResponsesTransfiguration",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePsalmResponsesTwentyNinth",
             "Rule": 0,
             "Visible": "isSeason"
         }

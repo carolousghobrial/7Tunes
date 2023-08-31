@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "محير عيد الصليب",
+  "EnglishTitle": "Parlax for Feast of Hosanna Sunday ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "باتشويس إيسوس بي خرستوس: فى إيطاف طونف إفول خين نى إثموأووت: أووه أفشيناف إى إبشوى إى نيفي أوي: أفهيمسى صا أووى نام إمبيف يوت .  ",
+      "Coptic": "Pasoic Ihcoc Pixrictoc > uhetaftwnf `ebol =en nheqmwout > af]enaf `e`p]wi `enivhou`i> af\\emci caou`inam `mPefiwt.",
+      "English": "O my Lord Jesus Christ, who rose from the dead, ascended into the heavens, and sat at the right hand of His Father.",
+      "Arabiccoptic": "يا ربي يسوع المسيح، الذي قام من بين الأموات، وصعد إلى السموات، وجلس عن يمين أبيه.",
+      "Englishcoptic": "Pa-shois Esos Pikhrestos, fe-etaf-tonf evol-khenni-ethmo-oot, af-shenaf e-epshoi eni-fe-owee, af-himsi sa-owee-nam em-pefiot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الشاروبيم والسِّرافيم، الملائكة ورؤساء الملائكة، والعساكر والسلاطين، والكراسي والأرباب.",
+      "Coptic": "Nixeroubim nem Niceravim> niaggeloc nem niarxhaggeloc> ni`ctratia nem nie[oucia> ni`qronoc nimetsoic nijom.",
+      "English": "The Cherubim and the Seraphim, the angels and the archangels, the principalities and the authorities, the thrones and the powers.",
+      "Arabiccoptic": " ني شيروبيم نيم ني سيرافيم : ني أنجيلوس نيم ني أرشي أنجيلوس : ني ستراتيا نيم اكسوسيا : ني أثرونوس نيميت تشويس نيجوم  .",
+      "Englishcoptic": "Ni-She-robim nem ni-Seraphim, ni-angelos nem ni-arshi-angelos, ni-sete-rateia nem ni-e-exso-seia, ni-eth-ronos ni-met chois ni-gom."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صارخين قائلين، \"قدوس قدوس، قدوس رب الدهور، المسيح قام من بين الأموات.\"",
+      "Coptic": "Enw] ebol enjw `mmoc je `Xouab ouo\\ `Xouab > `Xouab Pasoic  `nni`ewn `xrictoc `anecth eknekrwn .",
+      "English": "Proclaim saying, “Holy holy, holy O Lord of the ages, Christ is risen from the dead.”",
+      "Arabiccoptic": "ان اوش ايفول انجو امموس جى اكؤواب أووه اكؤواب: اكؤواب ابشويس ان نى ايه اون خريستوس انيستى اكنكرون . ",
+      "Englishcoptic": "Evosh evol evgo emmos, je ekowab owoh ekowab ekowab epshois en-ni-e-on, ekhristos anisti ek-nekron."
+    }
+  ]
+}

@@ -13,13 +13,14 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordHitensArchangelMichael",
             "Rule": 0,
-            "Visible": "showArchangelMichaelAndGabriel"
+            "Visible": "HitenSaint",
+            "SAINT": "ARCHANGEL_MICHAEL"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordHitensArchangelGabriel",
             "Rule": 0,
-            "Visible": "showArchangelMichaelAndGabriel"
+            "Visible": "ArchangelGabrielShow"
         },
         {
             "Type": "Main",
@@ -35,10 +36,33 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensKiahkJohnTheBaptist",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordHitensStJohntheBaptist",
             "Rule": 0,
-            "Visible": "VOCSaint",
-            "SAINT": "JOHN_THE_BAPTIST"
+            "Visible": "JohnTheBaptistShow"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensKiahkZachariahElizabeth",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensKiahkJoakimAnna",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensNativityJosephSalome",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
@@ -50,12 +74,12 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordHitensStMark",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "SAINT": "ST_MARK"
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsLazarusSaturday",
+            "Path": "LiturgyLiturgyOfTheWordHitensMaryMagdeleneResurrection",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -63,104 +87,110 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordHitensStStephen",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "SAINT": "ST_STEPHEN"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordHitensStGeorge",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "SAINT": "ST_GEORGE"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordHitensStPhilopater",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "SAINT": "ST_PHILOPATER"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordHitensStMina",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "SAINT": "ST_MINA"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "Path": "LiturgyLiturgyOfTheWordHitensStAbanoub",
             "SAINT": "ST_ABANOUB"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "isSeason",
+            "Path": "LiturgyLiturgyOfTheWordHitensCrossKingConstantine"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "HitenSaint",
             "Path": "LiturgyLiturgyOfTheWordHitensStDemiana",
             "SAINT": "ST_DEMIANA"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "Path": "LiturgyLiturgyOfTheWordHitensStMarina",
             "SAINT": "ST_MARINA"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "Path": "LiturgyLiturgyOfTheWordHitensStAnthony",
             "SAINT": "ST_ANTHONY"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "Path": "LiturgyLiturgyOfTheWordHitensStPaulHermit",
             "SAINT": "ST_PAULHERMIT"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "Path": "LiturgyLiturgyOfTheWordHitensStMoses",
             "SAINT": "ST_MOSES"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "Path": "LiturgyLiturgyOfTheWordHitensStPishoi",
             "SAINT": "ST_PISHOI"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "Path": "LiturgyLiturgyOfTheWordHitensStRewis",
             "SAINT": "ST_REWIS"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "Path": "LiturgyLiturgyOfTheWordHitensStJohnTheShort",
             "SAINT": "ST_JOHN_THE_SHORT"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "Path": "LiturgyLiturgyOfTheWordHitensStKaras",
             "SAINT": "ST_KARAS"
         },
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "VOCSaint",
+            "Visible": "HitenSaint",
             "Path": "LiturgyLiturgyOfTheWordHitensPopeKirollos",
             "SAINT": "ST_KIROLLOS_SIXTH"
         },

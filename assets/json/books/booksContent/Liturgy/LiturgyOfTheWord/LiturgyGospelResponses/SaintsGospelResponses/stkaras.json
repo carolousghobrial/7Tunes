@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " للانبا كاراس ",
+    "EnglishTitle": "St.Karas",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "أطلب من الرب عنا، يا أبانا القديس الناسك، أنبا كاراس السائح، ليغفر لنا خطايانا.",
+            "Coptic": "Twb\\ `mPsoic `e`\\rhi `ejwn> peniwt eqouab `nackhthc> abba Karac pi`anaxwrithc> `ntefxa nennobi nan `ebol.",
+            "English": "Pray to the Lord on our behalf, O our holy father the ascetic, Abba Karas the Anchorite, that He may forgive us our sins.",
+            "Arabiccoptic": "توبه إيمبتشويس  إإيهريي إيجون: بينيوت إيثوواب إين اسكيتيس: اففا كاراس بي اناخوريتيس: إينتيفكا نين نوفي نان يفول.",
+            "Englishcoptic": "Tobh emPchois e-ehreei egon: peniot ethowab en-askee-tees: avva Karas pi-ana-khori-tees: entef-ka nen-novi nan evol."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المسيح قام من الأموات، وصعد إلى السموات، وجلس عن يمين أبيه في الأعالي، وأنعم لنفوسنا بالحياة الأبدية .",
+      "Coptic": "Pixrictoc aftwnf ebol=en nheqmwout > ouo\\ af]enaf e`p]wi enivhou`i > af\\emci caou`inam `mpefiwt =en nhet]oci > afer`\\mot `nnenyuxh `mpiwn= `nene\\  .",
+      "English": "Christ has risen from the dead, and ascended into the heavens, and sat at the right hand of His Father in the highest, bestowing upon us (our souls) everlasting life.",
+      "Arabiccoptic": "بي خريستوس أفطونف إيﭬول خين ني إثموأووت : أووه أفشيناف إيه إبشوي إيه ني في أووي : آفهيمسي صا أووي نام إمبيفيوت خين ني إتتشوسي : آف إير إهموت إننين بسيشي إمبي أونخ إن إينيه  . ",
+      "Englishcoptic": "Pikhristos aftoonf evolkhen neeethmooooot : ooooh afshenaf eepshooi eniveeooo-ee : afhemsi saooo-eenam empefioot khen neeetshosi : aferehmot ennenpseeshee empioonkh eneneh  ."
+    }
+  ]
+}

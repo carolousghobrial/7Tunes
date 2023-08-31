@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "مقدمة الإبركسيس",
+  "EnglishTitle": "The Introduction to the Acts",
+  "CopticTitle": "`Pra[ic `nte nenio;",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "Coptic": "Pi`anagnwcthc>",
       "English": "Reader:",

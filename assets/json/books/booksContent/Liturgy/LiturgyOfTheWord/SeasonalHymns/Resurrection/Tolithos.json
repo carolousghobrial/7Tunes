@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "طوليثو",
+  "EnglishTitle": "To lithos",
+  "CopticTitle": "Tou liqou",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أن الحجر لما خُتِم من اليهود وجسدك الطاهر حُفِظ من الجند، قُمت في اليوم الثالث أيها المخلص، مانحاً العالم الحياة. لأجل هذا قوات السموات هتفوا إليك يا واهب الحياة \"المجد لقيامتك أيها المسيح، المجد لتدبيرك، المجد لملكك يا محب البشر وحدك.\"",
+      "Coptic": "Tou liqou cvragicqen- toc upo twn ioudewn >  ke `ctratiwtwn vulaccontwn to axranton cou cwma > anecthc tri`hmeroc cwthr > dwroumenoc tw kocmw thn zwhn > di`a touto `e dunamic    twn ouranwn `ebown ci zw`odota > do[a th  anactaci couxricte > do[a th bacili`a cou > do[a th oikonomi`a cou > mone vilanqrwpe .",
+      "English": "When the stone was sealed by the Jews, and the soldiers were guarding Your undefiled Body, You rose on the third day, O Savior, granting life to the world.For this reason, the heavenly powers cried out to You, O Giver of Life, “Glory to Your Resurrection O Christ. Glory to Your kingdom. Glory be to Your Economy, O You who alone are Lover of Mankind.”",
+      "Arabiccoptic": "طوليثو سفراجــــــــيس ثين توس إيبو توني أو ذيئــــــون كيه اس تراتيو تون فيـــــــــلاس سون تونتو اكران تون ســـــــو سوما : آنيس تيس تــــــــري إي ميروس ســـــــــــوتير ذورو مينـــــــــــوس تو كوزمو تين ذوئــــــــين ذيا توتـــــــو إيذينا ميس تون اورانــــــــون اف اوؤن ثي زو أوذوتا ذوكصــــــاصي تي اناس تاسي سو اخريستيه : ذوكصـاصي تي فاسيليا سو ذوكصـــــاصي تي إي كونو مياسو موني فيلان اثروبيه . ",
+      "Englishcoptic": "To lithos-fra-gisentos, e-poton eio-theon, kes-tra-teio ton filas son-ton to akran-ton-sosoma, anees tees etri emeros soteer, thoro-menos to kosmo tin zo-een, zeia toto e-zenamis ton o-ranon e-bo-on si zo-o-zota, zoxati anastasi so Ekhriste, zoxati vasi-leia so, zoxati-e-konomia, so mone filan, ethrope."
+    }
+  ]
+}

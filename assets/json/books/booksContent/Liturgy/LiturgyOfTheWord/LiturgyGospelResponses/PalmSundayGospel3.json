@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد الإنجيل الثالث احد الشعانين",
+  "EnglishTitle": "3rd Gospel Response of Palm Sunday ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "في الطريق فَرَشوا قُمْصان، ومن الشجر قَطَعوا أغصان، وهُم يَصِيحُونَ بالألحان، \"أوصنا إبشري إن داڤيد.\"",
+      "English": "On the way they spread garments, And from the trees they cut branches, While proclaiming with hymns, “Hosanna to the Son of David.”"
+    }
+  ]
+}

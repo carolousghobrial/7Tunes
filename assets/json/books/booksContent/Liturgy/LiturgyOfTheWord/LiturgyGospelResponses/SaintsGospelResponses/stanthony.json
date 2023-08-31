@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " للانبا انطونيوس ",
+    "EnglishTitle": "St.Anthony",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "أطلبا من الرب عنا ياسيدى الأبوين محبى أولادهما أنطونيوس وأنبا بولا ليغفر لنا خطايانا",
+            "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > `w na_ `nio; `mmainou]hri > Antwnioc nem abba Paule > `ntef xa nennobi nan `ebol.",
+            "English": "Pray to the Lord on our behalf : our masters and fathers who loved their children : Antony and Abba Paul : that He may forgive us our sins.",
+            "Arabiccoptic": "طوبه إمبشويس إإهرى إيجون . أوناشويس إن يوتى إمماى نوشيرى . أنطونيوس نيم أفا بافلى . انتيف كانين نوفى نان ايفول",
+            "Englishcoptic": "Tovh em epshois e ehry egon, Wnashois en nioty emmai no sheree, Antonios nem ava Pavli, entef ka nen-novi nan evol."
+        }
+    ]
+}

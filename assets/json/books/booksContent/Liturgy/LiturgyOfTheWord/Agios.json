@@ -1,0 +1,54 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": "لحن اجيوس",
+    "EnglishTitle": "Agios (Holy God) ",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "Coptic": "Pilaoc>",
+            "English": "People:",
+            "Arabiccoptic": "بيلاؤس:",
+            "Englishcoptic": "Pi-Laos:"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "StandardAgiosShow",
+            "Path": "LiturgyLiturgyOfTheWordAgiosStandard"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "isSeason",
+            "Path": "LiturgyLiturgyOfTheWordAgiosCross"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "isSeason",
+            "Path": "LiturgyLiturgyOfTheWordAgiosNativity"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "isSeason",
+            "Path": "LiturgyLiturgyOfTheWordAgiosTheophany"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "isSeason",
+            "Path": "LiturgyLiturgyOfTheWordAgiosResurrection"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "isSeason",
+            "Path": "LiturgyLiturgyOfTheWordAgiosAscension"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " للانبا بيشوي ",
+    "EnglishTitle": "St.Pishoy",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "اطلبا من الرب عنا, يا سيدي الأبوين محبي أولادهما, أنبا بيشوى وأنبا بولا, ليغفر لنا خطايانا.",
+            "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > `w na_ `nio; `mmainou]hri > abba Pi]wi nem abba Paule > `ntef xa nennobi nan `ebol.",
+            "English": " Pray to the Lord on our behalf, O masters and fathers who loved their children, Abba Pishoy and Abba Paul, that He may forgive us our sins.",
+            "Arabiccoptic": "طوبه إمبشويس إإهرى إيجون . أوناشويس إن يوتى إمماى نوشيرى . افا بيشوى نيم أفا بافلى . انتيف كانين نوفى نان ايفول",
+            "Englishcoptic": "Tovh em epshois e ehry egon, Wnashois en nioty emmai no sheree, ava Pishoi nem ava Pavli, entef ka nen-novi nan evol."
+        }
+    ]
+}

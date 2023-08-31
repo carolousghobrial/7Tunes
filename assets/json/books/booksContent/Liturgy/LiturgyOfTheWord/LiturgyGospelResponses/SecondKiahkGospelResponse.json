@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد انجيل كيهك الاحد الثالث و الرابع",
+  "EnglishTitle": "Kiahk Gospel Response (3rd and 4th Week) ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نعظمكِ بإستحقاق، مع أليصابات نسيبتِك قائلين، \"مباركة أنتِ في النساء، ومباركة هي ثمرة بطنِك.\"",
+      "Coptic": "Tensici `mmo =en ouem`psa> nem `Elicabet tecuggenhc> je te`cmarwout `nqo =en ni\\iomi> `f`cmarwout `nje `pouta\\ `nte teneji.",
+      "English": "We magnify you worthily, with Elizabeth your cousin saying, \"Blessed are you among women, and blessed is the fruit of your womb.\"",
+      "Arabiccoptic": "تين إتشيسى إممو خين أوإمبشا . نيم أليصابيت تى سينجينيس . جى تى إسماروؤت إنثو خين نى هيومى . إفزماروؤت إنجى إبؤطاه إنتى تى نيجى .",
+      "Englishcoptic": "Tenit-shesi emmo khen o-emipsha, nem elee-sabet te-sen-genis, je tis-maroot entho khenni-heyomi, efis-maroot enje ep-otah ente-te-neje."
+    }
+  ]
+}

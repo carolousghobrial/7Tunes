@@ -155,6 +155,8 @@ export function getCopticFastsFeasts(yearSelected) {
   // major feasts
   // fixed to Jan 7 until the year 2100
   var nativity = moment([yearSelected, 0, 7]);
+  var nativity2ndDay = moment([yearSelected, 0, 8]);
+  var nativityEnd = moment([yearSelected, 0, 7]);
   var epiphany = moment([yearSelected, 0, 19]);
   var epiphany2ndDay = moment([yearSelected, 0, 20]);
   var annunciation = moment([yearSelected, 3, 7]);
@@ -212,15 +214,17 @@ export function getCopticFastsFeasts(yearSelected) {
   var LazarusSaturday = moment(palmSunday).subtract(1, "days");
 
   if (isLeapYear(yearSelected)) {
-    nativity.add(1, "days");
-    circumcision.add(1, "days");
-    epiphany.add(1, "days");
-    canaMiracle.add(1, "days");
+    console.log("HERE");
+    nativityEnd = nativityEnd.add(1, "days");
+    nativity2ndDay = nativity2ndDay.add(1, "days");
+    circumcision = circumcision.add(1, "days");
+    epiphany = epiphany.add(1, "days");
+    canaMiracle = canaMiracle.add(1, "days");
   }
   if (isLeapYear(yearSelected + 1)) {
-    newYear.add(1, "days");
-    feastCross2Start.add(1, "days");
-    feastCross2End.add(1, "days");
+    newYear = newYear.add(1, "days");
+    feastCross2Start = feastCross2Start.add(1, "days");
+    feastCross2End = feastCross2End.add(1, "days");
     //nativityFast.add(1, "days");
   }
 
@@ -230,6 +234,14 @@ export function getCopticFastsFeasts(yearSelected) {
     key: "NATIVITY",
     type: "feast",
     start: nativity,
+    end: nativityEnd,
+    major: true,
+  });
+
+  fastFeasts.push({
+    key: "NATIVITY_SECONDDAY",
+    type: "feast",
+    start: nativity2ndDay,
     end: null,
     major: true,
   });
@@ -503,15 +515,16 @@ export function getCopticFastsFeasts(yearSelected) {
   fastFeasts.push({
     key: "NATIVITY_PERIOD",
     type: "feast",
-    start: nativity,
+    start: nativity2ndDay,
     end: circumcision,
     major: true,
   });
+
   return fastFeasts;
 }
 
 /**
- * @param  {Object} feastDate - Nativity or Epiphany Moment object
+ * @param  {Object} feastDate - Nativity or Theophany Moment object
  * @returns {Object}
  */
 var getParamounDate = function (feastDate) {
@@ -650,6 +663,9 @@ export function setCurrentSeasonLive(timeTransition) {
     currentDate.getMonth(),
     currentDate.getDate()
   );
+  //  Tobe: 4,
+  //Meshir: 5,
+
   var mycurrentSeason = {
     key: mySeason.key,
     start: mySeason.start,
@@ -680,6 +696,13 @@ export function getCurrentSeason(timeTransition) {
   var fastsfeasts = getCopticFastsFeasts(moment().year());
   var collection = [];
   // ignore time
+  const currentDate = new Date(getTodayDate(timeTransition));
+
+  const copticDate = getCopticDate(
+    currentDate.getFullYear(),
+    currentDate.getMonth(),
+    currentDate.getDate()
+  );
   var todayDate = getTodayDate(timeTransition);
   fastsfeasts.map((feast) => {
     if (
@@ -694,6 +717,18 @@ export function getCurrentSeason(timeTransition) {
     let type = "regular";
     if (todayDate.day() === 3 && todayDate.day() === 5) {
       type = "fast";
+    }
+    if (
+      copticDate.day === 29 &&
+      (copticDate.month != "Tobe" || copticDate.month != "Meshir")
+    ) {
+      collection.push({
+        key: "TWENTYNINTHTH_COPTIC_MONTH",
+        type: "feast",
+        start: null,
+        end: null,
+        major: false,
+      });
     }
     collection.push({
       key: "STANDARD",

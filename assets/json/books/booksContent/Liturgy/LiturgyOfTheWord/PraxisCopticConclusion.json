@@ -1,14 +1,13 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "ختام الإبركسيس",
+  "EnglishTitle": "The Conclusion of the Acts",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
+      "Side": "Reader",
       "Arabic": "القارئ:",
       "Coptic": "Pi`anagnwcthc>",
       "English": "Reader:",

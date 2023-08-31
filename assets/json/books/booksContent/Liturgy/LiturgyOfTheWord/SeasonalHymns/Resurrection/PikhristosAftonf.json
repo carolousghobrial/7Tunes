@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "بي خريستوس افتونف",
+  "EnglishTitle": "Pekhrestos aftonf ",
+  "CopticTitle": "Px/c/ aftwnf",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المسيح قام من بين الأموات، الذي مات داس الموت والذين في القبور أنعم لهم بالحياة الأبدية.",
+      "Coptic": "Px/c/ aftwnf `ebol =en nheqmwout vhetafmou af\\wmi `ejen `vmou ouo\\ nhetxh =en ni`m\\au afer `\\mot nwou `mpiwn= `n`ene\\ .",
+      "English": "Christ is risen from the dead; He who died trampled down death and upon those in the tombs bestowed eternal life.",
+      "Arabiccoptic": " بي خريستوس افتونف ايفول خيـــن ني ايث موؤت في ايطاف مــو افهومي ايجين افمــو اووه ني اتكي خين ني امهـاف افئير اهــموت نوؤ امبي اونخ ان اينيه . ",
+      "Englishcoptic": "Pekhrestos aftonf evol-khennee-ethmoot, fee-etaf-mo af-homy, ejen efmo owoh, nee etky khen-nee-emhaf, afer-ehmot no-oo empy-onkh en-eneh."
+    }
+  ]
+}

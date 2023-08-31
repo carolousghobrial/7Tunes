@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد الإنجيل (سنوي)",
+  "EnglishTitle": "The Gospel Response (Standard) ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوباهم بالحقيقة قديسو هذا اليوم، كل واحد بإسمه احباء المسيح.",
+      "Coptic": "Wouniatou =en oumeqmhi> nheqouab `nte pai`e\\oou> piouai piouai kata pefran> nimenra; `nte Pixrictoc.",
+      "English": "Blessed are they in truth, the saints of this day, each one according to his name, the beloved of Christ.",
+      "Arabiccoptic": "طوباهم بالحقيقة قديسو هذا اليوم، كل واحد بإسمه احباء المسيح.",
+      "Englishcoptic": "O-oniato khen o-methmi : ni ethowab ente pai eho-oo : pi-owai pi-owai kata pefran : ni menrati ente pikhristos."
+    }
+  ]
+}

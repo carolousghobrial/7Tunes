@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد الإنجيل -  باكر سبت لعازر",
+  "EnglishTitle": "Gospel Response - Lazarus Saturday Matins",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام للعازر الذى أقامه بعد أربعة أيام , أقم قلبى ياربى يسوع , الذى قتله الشرير.",
+      "Coptic": "Xere Lazaroc vh`etaftounocf> menenca `ftoou `n`e\\oou> matounoc pa\\ht Pasoic Ihcouc> vh`etaf=oqbef `nje pipet\\wou.",
+      "English": "Hail to Lazarus whom He raised, after four days, raise my heart O my Lord Jesus, that was killed by the evil one.",
+      "Arabiccoptic": "شيرى لازاروس فيئطاف تونوسف. ميننسا إفتو إن إيهوؤ. ماطونوس باهيت باشويس إيسوس. فيئطاف خوثفيف إنجى بى بيتهو أو .",
+      "Englishcoptic": "Shere Lazaaros vi-etaf tonosf : men-ensa efto en-eho-oo : matonos paheet Pachois Isos : vi-etaf khoth-vef enje pi-pet ho-oo"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أطلب من الرب عنا، أيها الراعي الذي للمسيح، لعازر الأسقف، ليغفر لنا خطايانا.",
+      "Coptic": "Twb\\ `m`Psoic `e`\\rhi `ejwn> `w piman`ecwou `nte Pi`xrictoc> Lazaroc pi`epickopoc> `ntefxa nennobi nan `ebol.",
+      "English": "Pray to the Lord on our behalf, O shepherd of Christ, Lazarus the bishop, that He may forgive us our sins.",
+      "Arabiccoptic": "طوبه إم إبتشويس إ إهري إجون: أوبى مان إى سوؤ انتى بخرستوس: لا زاروس بى إبيسكوبوس:  إنتيف كا نين نوفي نان إيفول  .",
+      "Englishcoptic": "Tob hem-Epchois e-ehrei egon : opi-man eso-oo ente Pikhristos : Lazaros pi-episko-pos : entef-ka nen novi nan evol."
+    }
+  ]
+}

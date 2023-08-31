@@ -524,6 +524,28 @@
       "dioceseEnglish": "Bishop of the Holy Diocese of Scandanavia"
     },
     {
+      "key": "DANIEL_SYDNEY_DIO",
+      "Arabic": "دانيال",
+      "Coptic": "Daniel",
+      "English": "Daniel",
+      "Arabiccoptic": "دانيال",
+      "Englishcoptic": "Daniel",
+      "Rank": "Bishop",
+      "dioceseArabic": " أسقف سيدنى وتوابعها بأستراليا",
+      "dioceseEnglish": "Bishop of the the Holy Diocese of Sydney, New South Wales, Queensland, Northern Territory, Thailand, Singapore, Hong Kong, Japan and patriarchal exarch of all East Asia"
+    },
+    {
+      "key": "MACARIOS_DIO",
+      "Arabic": "مكاريوس",
+      "Coptic": "Macarios",
+      "English": "Macarios",
+      "Arabiccoptic": "مكاريوس",
+      "Englishcoptic": "Macarios",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف المنيا",
+      "dioceseEnglish": "Bishop of the Holy Diocese of Minya."
+    },
+    {
       "key": "AGHATHON",
       "Arabic": "اغاثون",
       "Coptic": " Aghathon",
@@ -532,7 +554,7 @@
       "Englishcoptic": " Aghathon",
       "Rank": "Bishop",
       "dioceseArabic": "أسقف البرازيل",
-      "dioceseEnglish": "Bishop of the Holy Diocese of  São Paulo and of all Brazil"
+      "dioceseEnglish": "Bishop of the Holy Diocese of São Paulo and of all Brazil"
     },
     {
       "key": "YOUSSEF_BOLIVIA",

@@ -135,15 +135,15 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
 
   Hymn.forEach((part) => {
     const temppath =
-      part.SAINT !== undefined && !motherSource.toLowerCase().includes("index")
+      part.SAINT !== undefined && !motherSource?.toLowerCase().includes("index")
         ? part.SAINT
         : part.Path;
 
     const isVisible =
       part.Visible === true ||
       VisibleRules[part.Visible](motherSource, temppath) ||
-      (motherSource.toLowerCase().includes("index") &&
-        !motherSource.toLowerCase().includes("papal"));
+      (motherSource?.toLowerCase().includes("index") &&
+        !motherSource?.toLowerCase().includes("papal"));
 
     if (!isVisible) return;
 
@@ -180,6 +180,7 @@ export function addItemsToArray(part, thisRule) {
     "[*ROICONCLUSION*]",
     "*GOSPEL_AUTHOR*]",
     "[*PROPHECIES_AUTHOR*]",
+    "[*PASCHA_HOUR_DAY*]",
     "[*HOMILY_FATHER*]",
     "[*POPE*]",
     "[*ANTIOCH_POPE*]",
@@ -206,6 +207,9 @@ export function addItemsToArray(part, thisRule) {
           break;
         case "[*GOSPEL_AUTHOR*]":
           myrule = REPLACEGOSPELAUTHOR(thisRule);
+          break;
+        case "[*PASCHA_HOUR_DAY*]":
+          myrule = REPLACPASCHAHOURDAY(thisRule);
           break;
         case "[*PROPHECIES_AUTHOR*]":
           myrule = REPLACEPROPHETS(thisRule);
@@ -372,7 +376,7 @@ export function addItemsToArray(part, thisRule) {
 
 function findMatchingSubstring(str, substringsArray) {
   const foundSubstring = substringsArray.find((substring) =>
-    str.includes(substring)
+    str?.includes(substring)
   );
   return foundSubstring ? foundSubstring : null;
 }

@@ -32,6 +32,7 @@ import FloatingButton from "../components/ViewTypes/FloatingBishopButton";
 
 const BookScreen = React.memo(({ navigation, route }) => {
   const { height, width } = useWindowDimensions();
+  const [contentsModalVisible, setcontentsModalVisible] = useState(false);
 
   const flatListRef = useRef();
   const { bookPath, motherSource, bishopButton } = route.params;
@@ -43,6 +44,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const bishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
+
   const values = getFullViewModel(bookPath, motherSource);
   const [bookContents, setBookContents] = useState(values[0]);
   const [isLoading, setIsLoading] = useState(true);
@@ -91,6 +93,8 @@ const BookScreen = React.memo(({ navigation, route }) => {
   };
 
   const contentsPressed = () => {
+    setcontentsModalVisible(true);
+
     contentsSheetRef?.current.present();
   };
 
@@ -198,6 +202,8 @@ const BookScreen = React.memo(({ navigation, route }) => {
       <ContentsModal
         bottomSheetRef={contentsSheetRef}
         snapPoints={snapPoints}
+        currentTitle={navTitle}
+        visible={contentsModalVisible}
         menuData={menuData}
         scrollToKey={scrollToKey}
       />

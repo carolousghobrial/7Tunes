@@ -1,0 +1,51 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد الانجيل  باكر عيد الميلاد عيد الميلاد",
+  "EnglishTitle": "Gospel Response for Matins of Nativity Feast ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رب المجد دعى ولداً، كقول يوحنا قبل أن يراه، الكلمة الأزلى صار جسداً، وحل فينا ورأيناه.",
+      "Coptic": "`Psoic `m`pwou aumou; erof `nou]hri > kata `pcaji `mpa; Iwannhc nau erof > pilogoc `nene\\ afsicar[ > af; `n`=rhi `n=hten anau erof",
+      "English": "The Lord of glory was called a Son, according to the words of John before he saw Him, the Eternal Word became flesh, and dwelt in us and we saw Him.",
+      "Arabiccoptic": " إبتشويس إم إب أوأوو آفموتي إن أوشيري : كاطا إبصاجي إمبيتي يؤانس ناف إيروف : بي لوغوس إن إينيه آفتشي صاركس : إفتي إن إخري إنخيتين آناف إيروف  .",
+      "Englishcoptic": "Epshois emip-o-oo avmoti erof en-o-shere, katap-sajee empete Yo-annes nav erof, pi-Loghos ep-ee-o-neion afichee-sarex, afee en-ekhrei enkheten ennav erof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نجم اشرق في المشارق، المجوس تبعوه، حتي ادخلهم بيت لحم، وسجدوا لملك الدهور.",
+      "Coptic": "Ouciou af]ai =en nima`n]ai>` a nimagoc mo]i `ncwf> ]a`ntef`enou `e B/qleem> auouw]t `m`pouro `nni`ewn.",
+      "English": "A star appeared in the East, and the wise men followed it, until it let them to Bethlehem, and they worshiped the King of ages.",
+      "Arabiccoptic": " أوسيو افشاى خين نى مان شاى : انى ماغوس موشى إن سوف : شا انتيف اينو اي فيثلئيم : أف أوؤشت ام ابؤرو إن نى إيه أون . ",
+      "Englishcoptic": "O-seio afshai khen ni-manshai, ani-magos moshe ensof, sha-entef-eno e-Veth-leem, av-oo-osht emip-ooro enni-eon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الليلويا الليلويا، الليلويا الليلويا، يسوع المسيح ابن الله، ولد في بيت لحم.",
+      "Coptic": "Al/ Al/ > Al/ Al/ > Ih/c/ Px/c/ ` P]hri `mV; > Vhetaumacf =en bhqleem .",
+      "English": "Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, was born in Bethlehem.",
+      "Arabiccoptic": "الليلويا الليلويا، الليلويا الليلويا، إيسوس بخريستوس إبشيرى إمفنو تى، في إيطاف ماسف خين ڤيثليئيم.",
+      "Englishcoptic": "Alleloia, alleloia, alleloia, alleloia, Esos Pikhrestos Ep-shiri Emif-noti, fe-etaf-masf khen Veth-leem."
+    }
+  ]
+}

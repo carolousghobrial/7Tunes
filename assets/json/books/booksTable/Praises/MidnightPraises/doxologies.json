@@ -17,6 +17,12 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesMajorFeastsAnnunciation",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesMajorFeastsNayrooz",
             "Rule": 0,
             "Visible": "isSeason"
@@ -131,12 +137,6 @@
         },
         {
             "Type": "Main",
-            "Path": "DoxologiesMajorFeastsAnnunciation",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
             "Path": "DoxologiesMajorFeastsLazarusSaturday",
             "Rule": 0,
             "Visible": "isSeason"
@@ -149,13 +149,13 @@
         },
         {
             "Type": "Main",
-            "Path": "DoxologiesMajorFeastsRessurection",
+            "Path": "DoxologiesMajorFeastsResurrection",
             "Rule": 0,
             "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "Path": "DoxologiesMajorFeastsRessurection2",
+            "Path": "DoxologiesMajorFeastsResurrection2",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -209,7 +209,7 @@
         },
         {
             "Type": "Main",
-            "Path": "DoxologiesMajorFeastsArchangelMichaelRessurection",
+            "Path": "DoxologiesMajorFeastsArchangelMichaelResurrection",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -237,15 +237,13 @@
             "Type": "Main",
             "Path": "DoxologiesStJohntheBaptist",
             "Rule": 0,
-            "Visible": "DOXSaint",
-            "SAINT": "JOHN_THE_BAPTIST"
+            "Visible": "JohnTheBaptistShow"
         },
         {
             "Type": "Main",
             "Path": "DoxologiesStJohntheBaptist1",
             "Rule": 0,
-            "Visible": "DOXSaint",
-            "SAINT": "JOHN_THE_BAPTIST"
+            "Visible": "JohnTheBaptistShow"
         },
         {
             "Type": "Main",
@@ -403,7 +401,7 @@
         },
         {
             "Type": "Main",
-            "Path": "DoxologiesMajorFeastsRessurectionMelody",
+            "Path": "DoxologiesMajorFeastsResurrectionMelody",
             "Rule": 0,
             "Visible": "isSeason"
         },

@@ -64,7 +64,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncensePsalmResponsesRessurection",
+            "Path": "RaisingOfIncensePsalmResponsesResurrection",
             "Rule": 0,
             "Visible": "isSeason"
         },

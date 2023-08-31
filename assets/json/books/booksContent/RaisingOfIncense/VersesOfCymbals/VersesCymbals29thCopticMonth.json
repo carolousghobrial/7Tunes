@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ارباع الناقوس عيد البشارة",
+  "EnglishTitle": "Verses of the Cymbals for the Feast of the Annunciation  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "السلام للتي وجدت نعمة، الرب معكِ، السلام للتي قبلت من الملاك، فرح العالم.",
+      "Coptic": "Xere qh`etacjem `\\mot> `Psoic ]op neme> xere qh`etacsi `nten piaggeloc> `m`vra]i `mpikocmoc.",
+      "English": "Hail to you who has found grace, the Lord is with you, hail to you who accepted from the angel, the joy of the world",
+      "Arabiccoptic": "شيرى ثي ايطاس جيم اهموت ابتشويس شوب نى مى  .  شيريه ثى ايطاس اتشي انتين بي انجيلوس ام افراشي امبي كوزموس .",
+      "Englishcoptic": "Shere thee-etasjem ehmot: Epchois shop neme: shere thee-etaschi enten pi-angelos: em-evrashi empi-kosmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "السلام لبيت لحم مدينة الأنبياء التي ولد فيها المسيح أدم الثاني.",
+      "Coptic": "Xere Bhqleem> `tpolic `nni`provhthc> qh`etaumec Pi`xrictoc `n=htc> pima\\`cnau `nAdam.",
+      "English": "Hail to Bethlehem, the city of the prophets, where Christ was born, the second Adam.",
+      "Arabiccoptic": "شيرى بيثليئيم : اتبوليس انني ابروفيتيس : ثي ايطافميس بي خريستوس انخيتس : بي ماه اسناف ان آدام  .",
+      "Englishcoptic": "Shere Vethle-em , etpolis eni-eprophitis , thi-etav mes pikhristos enkhets , pi-mah esnav en-Adam."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "السلام لقيامته : لما قام من بين الأموات : لكي يخلصنا: من خطايانا  .",
+      "Coptic": "Xere Tef`anactacic> `etaftwnf `ebol =en nheqmwout> ]a `ntefcw; `mmon> `ebol =en nennobi.",
+      "English": "Hail to His Resurrection, when He rose from the dead, that He may save us, from our sins.",
+      "Arabiccoptic": "شيرى تيف اناسطاسيس : ايطاف طونف ايفول خين ني اثمؤوت : شا انتيف سوتي اممون : ايفول خين نين نوفي  .",
+      "Englishcoptic": "Shere tef-anastasis , etaf-tonf evol khen ni-ethmo-oot , sha entef-soti emon , evol khen nen-novi."
+    }
+  ]
+}

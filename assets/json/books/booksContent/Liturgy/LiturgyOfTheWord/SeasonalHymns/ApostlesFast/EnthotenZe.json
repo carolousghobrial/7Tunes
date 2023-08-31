@@ -1,0 +1,52 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأنتم الذين ثبتم معي في تجاربي، أنا اُقرر لكم عهدي المقدس إلى الأبد.",
+      "Coptic": "` Nqwten de =a nhetauo\\i nemhi =en napiracmoc > ;nacemnhi nemwten `ntadiaqhkh eqouab ]a ene\\  . ",
+      "English": "O you who have been steadfast with Me in My temptations, I render to you My holy covenant forever.",
+      "Arabiccoptic": "إنثوتين ذيه خا ني إ طاڤ نيمي نيمي نيمي خين نا بي راسموس، تينا سيمني ني موتين إنتا ذيياثيكي إث اُوؤاب شا إنيه.",
+      "Englishcoptic": "e Nthooten ze kha neeetavohi nemeei khen napirasmos : tinasemneei nemooten entaziatheekee ethoooav sha eneh  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وأجعلكم تأكلون معي على مائدتي في ملكوتي، وأجلِسكم على إثنى عشر كرسياً وتدينون الإثنى عشر سبط في إسرائيل.",
+      "Coptic": ":na`qreueten ouwm nemhi \\ijen ta`trapeza =en tametouro ;na`t\\emce qhnou ejen met`cnau `n`qronoc eretene;\\ap e;met`cnau `mfulh `nte Picrahl  . ",
+      "English": "I will make you eat with Me on My table in My Kingdom, sit you on twelve thrones judging the twelve tribes of Israel. (Luke 22:30)",
+      "Arabiccoptic": "تي نا إثريه تيتين ؤ اُوم نيمي نيمي نيمي هيچين طا إترا بيظا خين طا ميت اُورو، تي نا إتهيمسي ثينو إ چين ميت إسناڤ إن إثرونوس إ ريتين إ تي هاب إ تي ميت إسناڤ إمفيلي إنتيه بيسرائيل.",
+      "Englishcoptic": "Tinaethreveten ooooom nemeei hijen taetrapeza khen tametoooro tinaethemse theenooo ejen metesnav enethronos eretenetihap etimetesnav emfeelee ente Pisraeel  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تعالوا إسمعوا الجوهر، اللؤلؤ الكثير الثمن، مُنادي التقوى، لوقا الإنجيلي.",
+      "Coptic": "Amwini cwtem epianamhi > pimargarithc ena]e `ncouenf> pikuri[ `nte ;meteucebhc >Lokac pieuaggelicthc  . ",
+      "English": "Come listen to the precious and expensive pearl, the caller of righteousness, Luke the Evangelist.",
+      "Arabiccoptic": "آمويني سوتيم إ بي آنآ ميي، بي مارغاريتيس إ ناشيه إنسو إنف، بي إك ريكس إنتيه تي ميتيڤ سيڤيس، لوكاس بي إڤ أنجي لييون.",
+      "Englishcoptic": "Amooini sootem epianameei : pimargharitees enashe ensoooenf: pikeerix ente timetevsevees :Lokas pievangelistees  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ينطق بمجد وكرامة، سادتي الآباء الرسل، وعلو منزلتهم، والمرتبة التي صارت إليهم.",
+      "Coptic": "Efcaji `m`pwou nem `patio > `nnasoic `nio; `napoctoloc > nem `psici `mpoua[iwma > nem ;ta[ic etac]wpi `n=htou  .",
+      "English": "He speaks with the glory and the honor, of my masters the fathers the Apostles, and their exalted manner, and rank that was granted to them.",
+      "Arabiccoptic": "إف إ ساچي إم إب اُو ؤ نيم إب طايو، إن ناشويس إن يوتي إن آبوس تولوس، نيم إبيتشيسي إمبو إكسي يوما، نيم تي تاكسيس إ تاس شوبي إنخيتو.",
+      "Englishcoptic": "Efsaji emepooooo nem epatio : ennachois enioti enapostolos : nem epchisi empoooaxiooma : nem titaxis etasshoopi enkheetooo  ."
+    }
+  ]
+}

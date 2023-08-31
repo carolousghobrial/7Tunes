@@ -1,0 +1,51 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد الإنجيل - باكر الصوم الكبير",
+  "EnglishTitle": "Gospel Response - Great Lent Matins",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سلام الله الذي، يفوق كل عقل، يحل في قلوبكم، بالمسيح يسوع ربنا.",
+      "Coptic": ":\\irhnh `nte Vnou;> qhetsoci `enouc niben> ec`e`are\\ `eneten\\ht> =en Pi`xrictoc Ihcouc Pensoic.",
+      "English": "The peace of God, that is above every thought, descends in your hearts, through Christ Jesus our Lord.",
+      "Arabiccoptic": "تى هيرينى انتية افنوتى، ثى إتيت شوسى اي نوس نيڤين، سية اي ارى خين نية تين هيت، خين بيخرستوس إيسوس بنشويس.",
+      "Englishcoptic": "Ti-herini ente Efnouti, fee-etit-shosi enos niven, es-e-areh khen ne-ten-heat, khen Pikhrestos Esos pen-shois."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أخطأت أخطأت، يا ربي يسوع اغفر لي، لأنه ليس عبد بلا خطية، ولا سيد بلا مغفرة .",
+      "Coptic": "Ai`ernobi ai`ernobi> pasoic Ihcouc xw nhi `ebol> je `mmon bwk `n`at`ernobi> `oude `mmon `soic `n`atxw `ebol.",
+      "English": "I have sinned. I have sinned: My Lord Jesus forgive me : for there is no servant without sin: nor a master without forgiveness.",
+      "Arabiccoptic": "آى إير نوڤى آى إيرنوڤى، باشويس إيسوس كونى إيڤول، چى إمموك ڤوك إن آت إرنوڤى، أو ذى إممون شويس إن آتكو إيڤول .",
+      "Englishcoptic": "Ai-ernovi Ai-ernovi : pachois Isos ko ni evol : je emmon vok en-at-ernovi : oze emmon chois en-atko evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"أبانا الذى فى السموات، ليتقدس اسمك، ليأت ملكوتك، لأن لك المجد إلى الأبد\" .",
+      "Coptic": "Je Peniwt et=en nivhou`i > mareftoubo `nje pekran > marec`i `nje tekmetouro > je vwk pe pi`wou ]a ni`ene\\.",
+      "English": "Our Father who art in heaven / hallowed be Thy name / Thy kingdom come / for Thine is the glory forever",
+      "Arabiccoptic": "جي بينيوت اتخين نى فيئوى، ماريف طوڤو انچى بيكران، ماريسئى إنچى تيك ميت أورو، چى فوك بي بي اوؤو شا نى اينيه .",
+      "Englishcoptic": "Je Peniot etkhen ni fioui, maref tovo enje pekran, mares-e enje tekmet oro, je vok pe pi o-o sha ni eneh."
+    }
+  ]
+}

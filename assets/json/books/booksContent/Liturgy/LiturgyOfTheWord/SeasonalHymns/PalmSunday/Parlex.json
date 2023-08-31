@@ -1,0 +1,62 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "محير عيد الصليب",
+  "EnglishTitle": "Parlax for Feast of Hosanna Sunday ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الجالس فوق الشاروبيم . ركب على جحش . ودخل أورشليم . ماهو هذا التواضع العظيم.",
+      "Coptic": "Vhet\\emci \\ijen Nixeroubim> eftalhout `eou`e`w> af]e `e=oun `eIeroucalhm> oupe paini]; `nqebio.",
+      "English": "He who sits upon the Cherubim, rode on a donkey, He entered Jerusalem, oh what this great humility.",
+      "Arabiccoptic": "فى إتهيمسى هيجين نى شيروبيم. افتاليوت إى أو إ أو . أفشى إيخون إيروساليم. أوبى باى نيشتى إن ثيفيو.",
+      "Englishcoptic": "Vi-et-hemsi hijen ni sherobim : evta-letiot e-oo e-oo : afshe ekhon eYerosalim : ope pai nishti en-thevio."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " يسبحونه بيقظة قائلين، هذا هو عمانوئيل، أوصنا في الأعالي، هذا هو ملك إسرائيل.\"",
+      "Coptic": "Ce\\wc `erof =en oune\\ci> auje vai pe Emmanouhl> `wcanna =en nhetsoci> vai pe `Pouro `mPicrahl.",
+      "English": " They praise Him watchfully, saying ‘This is Emmanuel, hosanna in the highest, this is the King of Israel.’”",
+      "Arabiccoptic": "سى هوس إيروف خين أو نيهسى. أف جى فاى بى إممانوئيل. أوصنا خين نى إتتشوسى. فاى بى إبؤرو إمبسرائيل.",
+      "Englishcoptic": "Sehos erof khen o-nehsi : av-je fai pe-Emannoel : Osana khen ni-etchosi : fai pe eporo empi-Israel."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "فلنقل مع داود المرتل: \"مبارك الآتي، بإسم الرب الصالح، منذ الآن وإلى آخر الأزمنة.\"",
+      "Coptic": "Marenjoc nem Dauid pi\\umnodoc> ge `fcmarwout `nje vheqnhou > =en `fran `m`Psoic piagaqoc> icjen ;nou ]a `p=ae `nnichou .",
+      "English": "Let us say with David the hymnist, “Blessed is He who comes, in the name of the good Lord, from now and till the end of times.”",
+      "Arabiccoptic": "مارين جوس نيم دافيد بى هيمنوذوس : جى افسمارؤت انجى فى أثنيو :خين افران امبتشويس بى أغاثوس ك اسجين تى نو شا اب خأ ان نى سيو",
+      "Englishcoptic": "Marengos nem Daveed pi-himno-dos : je ef-esmarot enje vi-ethnio : khen efran em-epchois pi-aghathos : yes-jin tino sha et-kha-e eni-seio."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الشاروبيم والسِّرافيم، الملائكة ورؤساء الملائكة، والعساكر والسلاطين، والكراسي والأرباب.",
+      "Coptic": "Nixeroubim nem Niceravim> niaggeloc nem niarxhaggeloc> ni`ctratia nem nie[oucia> ni`qronoc nimetsoic nijom.",
+      "English": "The Cherubim and the Seraphim, the angels and the archangels, the principalities and the authorities, the thrones and the powers.",
+      "Arabiccoptic": " ني شيروبيم نيم ني سيرافيم : ني أنجيلوس نيم ني أرشي أنجيلوس : ني ستراتيا نيم اكسوسيا : ني أثرونوس نيميت تشويس نيجوم  .",
+      "Englishcoptic": "Ni-She-robim nem ni-Seraphim, ni-angelos nem ni-arshi-angelos, ni-sete-rateia nem ni-e-exso-seia, ni-eth-ronos ni-met chois ni-gom."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صارخين قائلين، \"المجد لله في الأعالي، وعلى الإرض السلام، وفي الناس المسرة.\"",
+      "Coptic": "Euw] `ebol eujw `mmoc> je ou`wou `m`Vnou; =en nhetsoci> nem ou\\irhnh \\ijen pika\\i> nem ou;ma; =en nirwmi.",
+      "English": "Proclaim saying, “Glory to God in the highest, peace on earth, and goodwill toward men.”",
+      "Arabiccoptic": " اف أوش افول افجو امموس : جي أووأوأوو ام افنووتي خين ني ات اتشوسي نيم أووهيريني هيجين بي كاهي نيم أووتيماتي خين ني رومي  .",
+      "Englishcoptic": "Evosh evol evgo emmos, je ou-o-ou emef-noti khen ni-etet-shosi, nem ou-hirini hejen pi-kahi, nem ou-ti-mati khen ni-romi."
+    }
+  ]
+}

@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
+import { useDispatch, useSelector } from "react-redux";
+
 import {
   View,
   Text,
@@ -7,7 +9,11 @@ import {
   Pressable,
   useWindowDimensions,
 } from "react-native";
-import { BottomSheetModal, BottomSheetBackdrop } from "@gorhom/bottom-sheet";
+import {
+  BottomSheetModal,
+  BottomSheetBackdrop,
+  useBottomSheetModal,
+} from "@gorhom/bottom-sheet";
 import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
 import { AntDesign } from "@expo/vector-icons";
 
@@ -15,22 +21,43 @@ import SearchBar from "../ViewTypes/SearchBar";
 import MenuItem from "./MenuItem";
 import MenuMainTitle from "./MenuMainTitle";
 
-function ContentsModal({ bottomSheetRef, snapPoints, menuData, scrollToKey }) {
+function ContentsModal({
+  bottomSheetRef,
+  snapPoints,
+  currentTitle,
+  visible,
+  menuData,
+  scrollToKey,
+}) {
   const [clicked, setClicked] = useState(false);
   const flatListRef = useRef();
   const [searchPhrase, setSearchPhrase] = useState("");
   const [currentData, setcurrentData] = useState(menuData);
+  const [initialIndex, setInitialIndex] = useState(null);
+  const appLanguage = useSelector((state) => state.settings.appLanguage);
+  const { present, dismiss } = useBottomSheetModal();
+  const TableOfContents = getLanguageValue("TableOfContents");
 
   const handleSearch = (text) => {
     setSearchPhrase(text);
     const filteredData = menuData.filter(
       (item) =>
-        item.EnglishTitle.toLowerCase().includes(text.toLowerCase()) ||
-        item.ArabicTitle.includes(text) ||
-        (item.CopticTitle !== undefined && item.CopticTitle.includes(text))
+        item.EnglishTitle.toLowerCase()?.includes(text.toLowerCase()) ||
+        item.ArabicTitle?.includes(text) ||
+        (item.CopticTitle !== undefined && item.CopticTitle?.includes(text))
     );
     setcurrentData(filteredData);
   };
+  useEffect(() => {
+    try {
+      const foundItem = menuData.findIndex(
+        (item) => item.EnglishTitle === currentTitle
+      );
+      setInitialIndex(foundItem);
+    } catch (e) {
+      Alert.alert(e);
+    }
+  }, [currentTitle]);
 
   const { width, height } = useWindowDimensions();
   const NavigationBarColor = getColor("NavigationBarColor");
@@ -46,7 +73,20 @@ function ContentsModal({ bottomSheetRef, snapPoints, menuData, scrollToKey }) {
     ),
     []
   );
-
+  const onScrollToIndexFailed = (error) => {
+    flatListRef.current.scrollToOffset({
+      offset: error.averageItemLength * error.index,
+      animated: false,
+    });
+    setTimeout(() => {
+      if (flatListRef.current !== null) {
+        flatListRef.current.scrollToIndex({
+          index: error.index,
+          animated: false,
+        });
+      }
+    }, 10);
+  };
   return (
     <BottomSheetModal
       style={styles.container}
@@ -60,7 +100,7 @@ function ContentsModal({ bottomSheetRef, snapPoints, menuData, scrollToKey }) {
     >
       <View style={styles.header}>
         <Text style={[styles.title, { color: labelColor }]}>
-          Table of Contents
+          {TableOfContents}
         </Text>
         <Pressable
           style={styles.closeButton}
@@ -80,13 +120,17 @@ function ContentsModal({ bottomSheetRef, snapPoints, menuData, scrollToKey }) {
         style={[styles.flatList, { backgroundColor: NavigationBarColor }]}
         ref={flatListRef}
         data={currentData}
-        renderItem={({ item }) => (
+        renderItem={({ item, index }) => (
           <MenuItem
             item={item}
-            highlightedIndex={0}
+            index={index}
+            HighlitedIndex={initialIndex}
             scrollToKey={scrollToKey}
           />
         )}
+        onScrollToIndexFailed={onScrollToIndexFailed}
+        initialNumToRender={currentData.length}
+        initialScrollIndex={initialIndex}
       />
     </BottomSheetModal>
   );

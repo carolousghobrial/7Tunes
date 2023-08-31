@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد الانجيل تذكار البشارة و الميلاد و القيامة",
+  "EnglishTitle": "Gospel Response for the 29th of each Coptic Month ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا، يسوع المسيح إبن الله، تجسد من العذراء،.",
+      "Coptic": "Allhlouia Allhlouia > Ihcouc Pi`xrictoc `P]hri `m`Vnou;> afsicar[ `ebol =en :parqenoc> ",
+      "English": "Alleluia Alleluia, Jesus Christ the Son of God, was incarnate from the Virgin",
+      "Arabiccoptic": "الليلويا (2) ايسوس بيخرستوس ابشيرى ام افنوتى افتشى ساركس ايفول خين تى بارثينوس",
+      "Englishcoptic": "Alleelooia Alleelooia : Isos Pikhristos Epsheri Em-Envoty : afchi-sarex evol khen Ti-parthenos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولدته العذراء في بيت لحم اليهودية,قام من بين الأموات في اليوم الثالث. .",
+      "Coptic": "acmacf  `nje ;parqenoc =en bhqleem `nte ;Ioude`a > aftwnf `ebol =en nheqmwout =en pi`e\\oou `mma\\]omt > ",
+      "English": "Is born of the Virgin in Bethlehem of Judea , has risen from the dead on the third day",
+      "Arabiccoptic": "اس ماسف انجيه تى بارثينوس : خين فيثلئيم انتيه تى يوذى, فتونف ايفول خين ني ايث موؤت خين بي ايهوؤ امماه شومت ",
+      "Englishcoptic": "Asmasf enje ti Parthenos, khen Veth-leem ente ti-Ioude-a: aftonf evol khennieth-mo-oot khenpi-eho-oo emmah-shomt : "
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "بي جين ميسي",
+  "CopticTitle": "Pijinmici `mparqenikon",
+  "EnglishTitle": "The virginal birth (Pijinmisi) ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ميلاد بتولي و طلق روحي عجيب ممجد حسب الأخبار النبوية.",
+      "Coptic": "Pijinmici `mparqenikon> ouo\\ ninak\\i `m`pneumatikon> ou`]vhri `mparado[on> kata ni`cmh `m`provhtikon.",
+      "English": "The virginal birth, and the spiritual emissions, are an amazing wonder, according to the prophets.",
+      "Arabiccoptic": "بي جين ميسي امبارثينيكون : اووه ني ناكهي ام ابنيفماتيكون : او اشفيري امباراذوكسون : كاطاني اسمي امبروفيتيكون .",
+      "Englishcoptic": "Pi-jenmisi em-parthenikon , owoh ni nakhi emepnevma-tikon , o-eshvery empara-zaxon , kata ni-esmi emepro-phitikon."
+    }
+  ]
+}

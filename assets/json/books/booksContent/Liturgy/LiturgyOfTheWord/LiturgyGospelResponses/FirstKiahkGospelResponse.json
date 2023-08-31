@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد انجيل كيهك الاحد الأول و الثاني",
+  "EnglishTitle": "Kiahk Gospel Response (1st and 2nd Week)",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نعطيكِ السلام، مع غبريال الملاك قائلين، \"السلام لكِ يا ممتلئة نعمة، الرب معكِ.\"",
+      "Coptic": "Ten; ne `mpixereticmoc> nem Gabrihl piaggeloc> je xere kexaritwmenh> `o Kurioc meta cou.",
+      "English": "We give unto you greeting, with Gabriel the angel saying, \"Hail to you O full of grace, the Lord is with you.\"",
+      "Arabiccoptic": "تين تي نيمبي شيرى تيزموس نيم غبرئيل بي انجيلوس جى شيرى كيه خاريتوميني اوكيريوس ميتاسو",
+      "Englishcoptic": "Tenti nem-pi-shere tis-mos, nem Ghabriel pi-angelos, je shere ke kharito-mini, o Kerios metaso."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من أجل هذا نمجدِك، كوالدة الإله كل حين، إسألي الرب عنا، ليغفر لنا خطايانا.",
+      "Coptic": "Eqbe vai ten;`wou ne> \\wc  Qe`otokoc `nchou niben> ma;\\o `e`Psoic `e`\\rhi `ejwn> `ntefxa nennobi nan `ebol.",
+      "English": "Wherefore we glorify you, as the ever-Theotokos, ask the Lord on our behalf, that He may forgive us our sins.",
+      "Arabiccoptic": "اثفي فاي تين تي أوؤونى هوس ثيئوطوكوس انسيو نيفين ماتي هو ابتشويس اى اهري ايجون انتيف كانين نوفي نان ايفول",
+      "Englishcoptic": "Ethve fai ten-ti o-oo-ne, hos theo-tokos enseio nivin, matiho e-epshois e-ehrey e-gon, entef ka nen-novi nan e-vol."
+    }
+  ]
+}

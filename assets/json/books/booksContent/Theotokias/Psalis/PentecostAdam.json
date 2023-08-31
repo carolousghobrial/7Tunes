@@ -262,11 +262,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "يا سيدنا المسيح، اذكر أبينا الطوباوي، أنبا [*POPE]، رئيس الأساقفة.",
-      "Coptic": "`W Pennhb Pi`xrictoc> `ari`vmeui `mpimakarioc> peniwt abba [*POPE]> piarxh`epickopoc.",
-      "English": "O Christ our Master, remember the blessed, our father Abba [*POPE], the archbishop.",
+      "Arabic": "يا سيدنا المسيح، اذكر أبينا الطوباوي، أنبا [*POPE*]، رئيس الأساقفة.",
+      "Coptic": "`W Pennhb Pi`xrictoc> `ari`vmeui `mpimakarioc> peniwt abba [*POPE*]> piarxh`epickopoc.",
+      "English": "O Christ our Master, remember the blessed, our father Abba [*POPE*], the archbishop.",
       "Arabiccoptic": "أو بين نيب بخرستوس: آرى إفميفئى إمبى ماكاريوس بينيوت آفا (… ) بى آرشى إبيسكوبوس.",
-      "Englishcoptic": "O Pen-neeb Pikhristos: ari-evmevi empi-makarios: peniot avva [*POPE]: pi arshee epis-kopos."
+      "Englishcoptic": "O Pen-neeb Pikhristos: ari-evmevi empi-makarios: peniot avva [*POPE*]: pi arshee epis-kopos."
     }
   ]
 }

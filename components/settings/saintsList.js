@@ -1,19 +1,32 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { View, FlatList, StyleSheet, Alert } from "react-native";
 import { useDispatch } from "react-redux";
 import { changeTextLanguage } from "../../stores/redux/settings.js";
 import SearchBar from "../ViewTypes/SearchBar";
 import SaintModal from "./saintModal";
+import UpdatedSaintsModal from "./UpdatedSaintsModal";
 import SaintView from "../homepage/saintView.js";
 import tempLang from "./tempLang"; // Use an array directly instead of a separate variable
 import { changeSaint } from "../../stores/redux/saints";
+import {
+  BottomSheetModalProvider,
+  BottomSheetModal,
+} from "@gorhom/bottom-sheet";
+import {
+  getLanguageValue,
+  getFontSize,
+  getColor,
+  getSaint,
+} from "../../helpers/SettingsHelpers.js";
 
 function SaintsList() {
   const [currentData, setcurrentData] = useState(tempLang);
-
+  const snapPoints = ["75%"];
+  const bottomSheetRef = useRef(null);
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
   const [selectedSaint, setSelectedSaint] = useState("");
+  const [newselectedSaint, newsetSelectedSaint] = useState(null);
   const [saintModalVisible, setsaintModalVisible] = useState(false);
   const dispatch = useDispatch();
 
@@ -32,8 +45,10 @@ function SaintsList() {
 
   function openModal(item) {
     try {
-      setSelectedSaint(item);
-      setsaintModalVisible(true);
+      newsetSelectedSaint(item);
+      bottomSheetRef.current?.present();
+      // setSelectedSaint(item);
+      // setsaintModalVisible(true);
     } catch (e) {
       Alert.alert(e);
     }
@@ -47,15 +62,15 @@ function SaintsList() {
     setSearchPhrase(text);
     const filteredData = tempLang.filter(
       (item) =>
-        item.titleKey.toLowerCase().includes(text.toLowerCase()) ||
-        item.titleKey.includes(text)
+        item.titleKey.toLowerCase()?.includes(text.toLowerCase()) ||
+        item.titleKey?.includes(text)
     );
     setcurrentData(filteredData);
   }
 
   function updateSaint(saint, saintObject) {
     dispatch(changeSaint({ saint: saint, object: saintObject }));
-    setsaintModalVisible(false);
+    bottomSheetRef.current?.dismiss();
   }
 
   function renderItems({ item }) {
@@ -63,12 +78,12 @@ function SaintsList() {
   }
 
   return (
-    <>
-      <SaintModal
-        visible={saintModalVisible}
-        closeModal={closeModal}
+    <BottomSheetModalProvider>
+      <UpdatedSaintsModal
+        bottomSheetRef={bottomSheetRef}
+        snapPoints={snapPoints}
         updateSaint={updateSaint}
-        saint={selectedSaint}
+        saint={newselectedSaint}
       />
       <View style={styles.container}>
         <SearchBar
@@ -88,7 +103,7 @@ function SaintsList() {
           keyExtractor={(item) => item.titleKey} // Use titleKey as the key
         />
       </View>
-    </>
+    </BottomSheetModalProvider>
   );
 }
 

@@ -2,7 +2,7 @@
     "books": [
         {
             "EnglishTitle": "The Offering of the Lamb",
-            "ArabicTitle": "عشية",
+            "ArabicTitle": "تقديم الحمل",
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
@@ -13,7 +13,7 @@
         },
         {
             "EnglishTitle": "Liturgy of the Word",
-            "ArabicTitle": " باكر",
+            "ArabicTitle": " قداس الكلمة",
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
             "hasSubBooks": false,

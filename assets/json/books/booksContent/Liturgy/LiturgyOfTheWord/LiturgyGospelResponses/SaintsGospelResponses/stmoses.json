@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " للانبا موسى ",
+    "EnglishTitle": "St.Moses the Strong",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "اطلب من الرب عنا, يا سيدي الآب أنبا موسي وأولاده لباس الصليب ليغفر لنا خطايانا.",
+            "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > `wpa_ `niwt abba Mwch > nem nef]hri `n`ctaurovoroc > `ntef xa nennobi nan `ebol.",
+            "English": " Pray to the Lord on our behalf, O my master and father Abba Moses, and his children the cross-bearers, that He may forgive us our sins.",
+            "Arabiccoptic": "طوفه ام ابشويس ااهرى ايجون  : أو باشويس إنيوت آفـا موسي : نيـم نيـف شيريه إن إستافروفوروس : إنتيف كانين نوفى نان ايفول",
+            "Englishcoptic": "Tovh em epshois e ehry egon, O pashois eniot ava Mousse, nem nefshiry en estavrovoros, entef ka nen-novi nan evol."
+        }
+    ]
+}

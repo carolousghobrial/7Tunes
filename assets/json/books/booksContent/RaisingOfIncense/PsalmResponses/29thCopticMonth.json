@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد المزمور تذكار البشارة و الميلاد و القيامة",
+  "EnglishTitle": "Psalm Response for the 29th of each Coptic Month ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا، يسوع المسيح إبن الله، تجسد من العذراء،ولدته العذراء في بيت لحم اليهودية,قام من بين الأموات في اليوم الثالث. هلليلويا هلليلويا.",
+      "Coptic": "Allhlouia Allhlouia > Ihcouc Pi`xrictoc `P]hri `m`Vnou;> afsicar[ `ebol =en :parqenoc> acmacf  `nje ;parqenoc =en bhqleem `nte ;Ioude`a > aftwnf `ebol =en nheqmwout =en pi`e\\oou `mma\\]omt > Allhlouia Allhlouia.",
+      "English": "Alleluia Alleluia, Jesus Christ the Son of God, was incarnate from the Virgin,  was born of the Virgin in Bethlehem of Judea , has risen from the dead on the third day, Alleluia Alleluia.",
+      "Arabiccoptic": "الليلويا (2) ايسوس بيخرستوس ابشيرى ام افنوتى افتشى ساركس ايفول خين تى بارثينوس اس ماسف انجيه تى بارثينوس : خين فيثلئيم انتيه تى يوذى, فتونف ايفول خين ني ايث موؤت خين بي ايهوؤ امماه شومت آ الليلويا (2)",
+      "Englishcoptic": "Alleelooia Alleelooia : Isos Pikhristos Epsheri Em-Envoty : afchi-sarex evol khen Ti-parthenos: asmasf enje ti Parthenos, khen Veth-leem ente ti-Ioude-a: aftonf evol khennieth-mo-oot khenpi-eho-oo emmah-shomt : Alleelooia Alleelooia."
+    }
+  ]
+}

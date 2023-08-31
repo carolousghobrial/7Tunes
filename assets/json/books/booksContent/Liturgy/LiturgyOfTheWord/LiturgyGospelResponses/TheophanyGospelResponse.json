@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد الانجيل عيد الغطاس",
+  "EnglishTitle": "Gospel Response for Theophany Feast ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذا هو حمل الله حامل خطية العالم الذي جاء بقرن خلاص ليخلص شعبه",
+      "Coptic": "Vai pe pi\\ihb `nte Vnou;> vhet`wli `m`vnobi `mpikocmoc> vh`etaf`ini `noutap `ncw;> eqrefno\\em `mpeflaoc.",
+      "English": "This is the Lamb of God, / who takes away the sin of the world, /  who brought a trumpet of salvation, / in order to save His people.",
+      "Arabiccoptic": "فاي بيه بي هيب انتيه افنوتي في ايت اولي ام افنوفي امبي كوزموس في ايطاف ايني انأ وطاب ا نسوتي اثريف نوهيم ام بيف لاؤس  . ",
+      "Englishcoptic": "Fai pe pi-hieeb ente Evnoti: vee-et-ooli em-evnovi empi-kosmos: vee-etaf-eeni en-oo-tap en-sooti: ethref-nohem empef-laos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا، هلليلويا هلليلويا، يسوع المسيح إبن الله، اعتمد في الأردن.",
+      "Coptic": "Allhlouia Al?> Allhlouia Al? > Ihcouc Pi`xrictoc  `p]hri `mV;> afsi`wmc =en piIordanhc.",
+      "English": "Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, was baptized in the Jordan.",
+      "Arabiccoptic": "الليلويا الليلويا : ايسوس بي اخريستوس ابشيري ام افنوتي : افتشي اومس خين بي يورذانيس  .",
+      "Englishcoptic": "Alleloia, alleloia, alleloia, alleloia, Esos Pikhrestos Ep-shiri Emif-noti, fe-etaf-masf khen Veth-leem."
+    }
+  ]
+}

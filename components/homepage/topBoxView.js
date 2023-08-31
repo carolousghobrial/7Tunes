@@ -124,6 +124,7 @@ const styles = StyleSheet.create({
     height: 90,
     borderRadius: 100 / 2,
     overflow: "hidden",
+    resizeMode: "stretch",
   },
   textView: {
     flex: 2,

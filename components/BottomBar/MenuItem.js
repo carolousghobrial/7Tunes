@@ -16,9 +16,10 @@ import Colors from "../../constants/colors.js";
 import { useDispatch, useSelector } from "react-redux";
 import { changeTextLanguage } from "../../stores/redux/settings.js";
 
-function MenuItem({ item, HighlitedIndex, scrollToKey }) {
+function MenuItem({ item, index, HighlitedIndex, scrollToKey }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
+  const highlightColor = getColor("pageBackgroundColor");
 
   let flexDirection = "row";
 
@@ -31,8 +32,8 @@ function MenuItem({ item, HighlitedIndex, scrollToKey }) {
   function functionCombined() {
     scrollToKey(item.key);
   }
-  if (item.key === HighlitedIndex) {
-    SelectedbackgroundColor = getColor("pageBackgroundColor");
+  if (index === HighlitedIndex) {
+    SelectedbackgroundColor = highlightColor;
   }
   return (
     <Pressable

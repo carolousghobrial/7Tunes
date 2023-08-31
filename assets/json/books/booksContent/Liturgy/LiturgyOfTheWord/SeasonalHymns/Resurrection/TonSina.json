@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "طون سينا",
+  "EnglishTitle": "We the believers (Ton seena)",
+  "CopticTitle": "Ton cuna",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " نسبح نحن المؤمنين ونمجد الكلمة المساوى للآب والروح فى الأزلية وعدم الإبتداء, المولود من العذراء لخلاصنا, لأنه سُرَّ وإرتضى بالجسد أن يعلو على الصليب, يحتمل الموت وينهض الموتى بقيامته المجيدة",
+      "Coptic": "Ton cunanarxon logon patri ke `pneumati > ton ekparqenou texqenta ic cwthrian `hmwn > anumnhcwmen picti ke `prockunhcwmen > `oti hudokhce carki > `anelqin en twctaurw > ke qanaton upomine > ke `egire touc teqne`wotac > enth endo[w `anactaci autou .",
+      "English": "We the believers hymn and worship the Logos, without beginning with the Father and the Spirit, having been born of a virgin for our salvation, for He appeared in the flesh to ascend on the Cross. He persevered unto death and raised the dead through His glorious Resurrection.",
+      "Arabiccoptic": "طون سينا نارخـــــــون لوغون باتــــــري كى إبنيفماتي: تـــــــــون إكبارثينــــو تيك ثيندا إيس سوتيريــــــان إيـــمون: أنيــــم ني سومين بيستي كى إبروس كى نيســـومين: أوتي إفذوكي سى ســــــاركي: أنيلثين إندو إستــــــــافرو كى ثاناتون إيبـــــــو ميني: كى إيجيري تـوس تيثنى أوأوو : طاس إنتي إنذوكســـــو أناستاسي أفتــــــــــو . ",
+      "Englishcoptic": "Ton seena-narkhon Loghon Patri kep-nevmati, ton ek-partheno-tek-thenta ies sotee-reian emmon, anim-ne-somen pisti kep-ros-ke-ni-somen, o-ti ev-zokee se sarkee, anil-theen entos-tavro ke thanton ee-pomene, ke ee-giri tos teth-ne-o-oo, tas enti en-zoxso anastasi avto."
+    }
+  ]
+}

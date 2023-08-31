@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "لحن جينيثليون ",
+  "CopticTitle": " Geneqlion ",
+  "EnglishTitle": "A wondrous nativity (Genethlion) ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ميلاداً عجيباً. ومولوداً عظيماً. رأى الرئيس النجار، رباً متأنساً.",
+      "Coptic": "Geneqlion te qavmacton > gennhton ewraken > megicton arxhtektwn > Kerion te an `qrwpon",
+      "English": "A wondrous nativity, a great newborn. The chief carpenter saw the Lord incarnate.",
+      "Arabiccoptic": "جينيثليون تي تاف ماسطون : جين ني طون ايه أوراكين : ميه جيس طون أرشي تيك طون : كيريون تيه آن اثروبون  . ",
+      "Englishcoptic": "Genethlion, genethlion te thav mas-ton, jen ne-ton e-o-raken, meg-eston arshee tek-ton Kereion te anath-ropon."
+    }
+  ]
+}

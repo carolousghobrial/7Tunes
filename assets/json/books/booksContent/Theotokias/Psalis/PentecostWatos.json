@@ -262,11 +262,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": " يا ربنا يسوع المسيح، إحفظ حياة أبينا الصديق، أنبا [*POPE] رئيس الكهنة، ثبته على كرسيه.",
-      "Coptic": "`W Pensoic Ihcouc Pi`xrictoc> `are\\ `e`pwn= `mpidikeoc> peniwt abba [*POPE] piarxh`ereuc> matajrof \\ijen pef`qronoc.",
-      "English": " O our Lord Jesus Christ, preserve the life of the righteous, our father Abba [*POPE] the high priest, confirm him on his throne.",
-      "Arabiccoptic": "أوبينشويس إيسوس بخرستوس: آريه إبؤنخ إمبى ذيكيؤس بينويت آفا [*POPE] بى آرشى إرفس: ما طاجروف هيجين بيف إثرونوس.",
-      "Englishcoptic": "O Penchois Isos Pikhristos: areh e-eponkh empi-zikeos: peniot avva [*POPE] piarsheeerevs: ma-tagrof hijen pef-ethronos."
+      "Arabic": " يا ربنا يسوع المسيح، إحفظ حياة أبينا الصديق، أنبا [*POPE*] رئيس الكهنة، ثبته على كرسيه.",
+      "Coptic": "`W Pensoic Ihcouc Pi`xrictoc> `are\\ `e`pwn= `mpidikeoc> peniwt abba [*POPE*] piarxh`ereuc> matajrof \\ijen pef`qronoc.",
+      "English": " O our Lord Jesus Christ, preserve the life of the righteous, our father Abba [*POPE*] the high priest, confirm him on his throne.",
+      "Arabiccoptic": "أوبينشويس إيسوس بخرستوس: آريه إبؤنخ إمبى ذيكيؤس بينويت آفا [*POPE*] بى آرشى إرفس: ما طاجروف هيجين بيف إثرونوس.",
+      "Englishcoptic": "O Penchois Isos Pikhristos: areh e-eponkh empi-zikeos: peniot avva [*POPE*] piarsheeerevs: ma-tagrof hijen pef-ethronos."
     }
   ]
 }

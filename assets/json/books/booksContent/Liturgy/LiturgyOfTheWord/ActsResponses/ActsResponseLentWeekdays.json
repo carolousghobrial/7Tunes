@@ -7,23 +7,12 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "Neutral",
-      "Arabic": "يا رب ارحم",
-      "Coptic": "Kurie `ele`hcon",
-      "English": "Lord Have Mercy",
-      "Arabiccoptic": "كيريي ليسون",
-      "Englishcoptic": "Kerie leysoun"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "Neutral",
-      "Arabic": "لكي نسبحَكَ، مع ابيكَ الصالح، والروح القدس ،  لأنك (أتيتَ) وخلصتنا.",
-      "Coptic": "Eqren\\wc `erok > nem Pekiwt `n`agaqoc > nem Pi`pneuma eqouab > je (ak`i) akcw; `mmon nai nan.",
-      "English": "That we may praise You, with Your good Father and the Holy Spirit, for you (have come) and saved us.",
-      "Arabiccoptic": "إثرين هوس إروك : نيم بيكيوت إن إغاثوس : نيم بي بنيفما إثؤواب : جيه أك إي أك سوتي إمون ناي نان  .",
-      "Englishcoptic": "Ethren Hos Erok, Nem Pekiwt En agha-thos, Nem Pi Epnevma Ethoab, Ge Ak-ee Aksoty Emmon nai nan."
+      "Side": "North",
+      "Arabic": "ويرفع الله هناك خطايا الشعب من قِبل المحرقات ورائحة البخور.",
+      "Coptic": "}are Vnou; `wli `mmau > `nninobi `nte pilaoc > `ebol \\iten pi`slhl > nem pi`cqoi `nte pi`cqounoufi .",
+      "English": "Wherein God takes away: the sins of the people: through the burnt offerings: and the aroma of incense.",
+      "Arabiccoptic": "شارى إفنوتى أولى إمماف. أن نينوفى إنتى بى لاؤس. إيفول هيتين بى إتشليل. نيم بى إسطوى إنتى بى إسطوينوفى.",
+      "Englishcoptic": "Sha-ri Efnouti oli emmov, ennenovi ente pi-laos, evol hiten pi-etshilil, eem pi-estoi ente pi-estoi-noufi."
     }
   ]
 }

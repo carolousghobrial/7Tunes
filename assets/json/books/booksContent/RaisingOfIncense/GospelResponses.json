@@ -7,7 +7,7 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseGospelResponsesStandardGospelResponse",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isStandardSeason"
         },
         {
             "Type": "Main",
@@ -119,7 +119,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseGospelResponsesRessurectionRaisingOfIncense",
+            "Path": "RaisingOfIncenseGospelResponsesResurrectionRaisingOfIncense",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -156,6 +156,12 @@
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseGospelResponsesMaryFastMatins",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgyGospelResponsesTwentyNinth",
             "Rule": 0,
             "Visible": "isSeason"
         },

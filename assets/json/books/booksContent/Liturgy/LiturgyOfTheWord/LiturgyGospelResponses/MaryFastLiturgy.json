@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد الإنجيل -باكر صوم العدراء",
+  "EnglishTitle": "Gospel Response - St.Mary's Fast Matins",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نعظمك كل يوم قائلين. مع غبريال . إفرحى يا ممتلئة نعمة . الرب معك .",
+      "Coptic": "Tensici `mmo `mmhni `mmhni > enjw `mmoc nem Gabrihl > je xere ke Xaritwmenh > `oKurioc metacou .",
+      "English": "We exalt you day by day, saying with Gabriel, \"Hail to you O full of grace, the Lord is with you.\"",
+      "Arabiccoptic": "تين تشيسى إممو إممينى إممينى. إنجو إمموس نيم غابرييل. جى شيرى كى خاريتومينى. أوكيريوس ميطاسو.",
+      "Englishcoptic": "Yen chisi emmo emmini emmini, engo emmos nem Ghabriel, je shere ke kharito meni, o kyrios metaso."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أشفعي فينا يا سيدتنا كلنا، السيدة والدة الإله مريم أم مخلصنا، ليغفر لنا خطايانا.",
+      "Coptic": "Ari`precbeuin `e`\\rhi `ejwn> `w tensoic `nnhb thren ;qe`otokoc> Mari`a `qmau `mpencwthr> `ntefxa nennobi nan `ebol.",
+      "English": "Intercede on our behalf, O Lady of us all, the Theotokos, Mary, the mother of our Savoir, that He may forgive us our sins.",
+      "Arabiccoptic": "أريبرزفيفين إإهرى إيجون . أوتين شويس إن نيب تيرين تى ثيؤطوكوس. ماريا إثماف إمبين سوتير . إنتيف كانين نوفى نان إيفول .",
+      "Englishcoptic": "Arep-resvevin e-ehri egon, o ten-chois ennib ti-renti Theotokos, Maria ethmav empen-Sotir, entef ka nen-novi nan evol."
+    }
+  ]
+}

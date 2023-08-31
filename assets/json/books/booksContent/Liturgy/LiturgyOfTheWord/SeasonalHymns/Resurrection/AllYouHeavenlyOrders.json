@@ -1,0 +1,47 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "يا كُلُّ الصُفُوفِ السَمَائِيينْ،",
+  "EnglishTitle": "All you heavenly orders",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا كُلُّ الصُفُوفِ السَمَائِيينْ،\nرَتِّلُوا لإلَهِنَا بِنَغَمَاتِ التَسْبِيحْ\nوإبْتَهِجُوا مَعَنَا اليَوْمَ فَرِحِينْ،\nبِقِيَامَةِ السَيِّدِ المَسِيحْ.",
+      "English": "All you heavenly orders,\nSing to our God with the melody of praise,\nRejoice with us today with gladness,\nIn the Resurrection of the Lord Christ."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "اليَوْمَ قَدْ كَمَلَتِ النُبُوَاتْ،\nوقَدْ تَمَّتْ أقْوَالُ الآبَاءِ الأوَّلِينْ،\nبِقِيَامَةِ الرَّبِّ من بَيْنِ الأمْوَاتْ،\nوهُوَ بَدْءُ المُضْطَجِعِينْ.",
+      "English": "Today the prophecies are fulfilled,\nAnd the sayings of the forefathers are realized,\nBy the Resurrection of the Lord from among the dead,\nHe is the first-fruit of those who have fallen asleep."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَدْ قَامَ الرَّبُّ مِثْلُ النَائِمْ،\nوكَالثَمِلِ من اَلخَمَرَة،\nووَهَبَنَا النَعِيمَ الدَائِمْ،\nوعَتَقْنَا مِنْ اَلعُبُودِيَّة المُرَّة.",
+      "English": "The Lord arose as one who sleeps,\nAnd as one who is sated with wine,\nHe has granted us the everlasting joy,\nAnd freed us from bitter bondage."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وسَبَى اَلجَحِيمَ سَبْيَاً،\nوحَطَّمَ أبْوَابَهُ النُحَاسْ،\nوكَسَّرَ مَتَارِيسَهُ الحَدِيدَ كَسْرَاً،\nوأبْدَلَ لَنَا العُقُوبَةَ بِالخَلاصْ.",
+      "English": "He led Hades captive,\nAnd crushed the brass doors,\nHe utterly broke the bars of iron,\nAnd for us, exchanged punishment for salvation."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نُسَبِّحَهُ ونَزِيدْ رِفْعَتَهُ،\nونَعْتَرِفْ بِمَجْدِ قِيَامَتِهِ،\nونَشْكُرُهُ عَلَى عَظَيمِ نِعْمَتِهِ،\nلأنَّ إلى الأبَدِ رَحْمَتِهِ.",
+      "English": "We praise and increase His exaltation, \n And confess the glory of His Resurrection, \n We thank Him for His great grace, \n For His mercy endures forever."
+    }
+  ]
+}

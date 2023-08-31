@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "تين أناسطاسين",
+  "EnglishTitle": "Tin Anastasin",
+  "CopticTitle": "Thn anactacin",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أيها المسيح مخلصنا اٍن الملائكة لا يزالون في السماء يسبحون قيامتك ولذلك نتضرع اٍليك فأهلنا نحن الذين على الأرض أن نكون ممجدين اٍياك بقلوب نقية أيضاً . ",
+      "Coptic": "Thn anactacin cou Xricte cwthr aggeli umnoucin en ouranic > ke hmac touc `epi ghc kata[iwcon > en kaqara kardia ce do[azin  .",
+      "English": "Your Resurrection, Christ Savior, is praised by the angels in heaven; and make us on earth worthy with pure hearts to glorify You.",
+      "Arabiccoptic": "تين أناسطاسين سو خريستي : سوتير انجيلي ايمنوسين ان اورانيس : كى ايماس توس ايبي جيس كاطا اكسيو سون :ان كاثارا كارذيا سى ذوكسازين ",
+      "Englishcoptic": "Tin Anastasin sou Ekhreste Sotir, angeli emnousin en ou-ranis, ke imas tous epi ghis katak-siosen en kathara kardhia se doxazin."
+    }
+  ]
+}

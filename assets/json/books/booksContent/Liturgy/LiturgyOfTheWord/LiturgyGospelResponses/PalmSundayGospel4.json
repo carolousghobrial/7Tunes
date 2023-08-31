@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد الإنجيل الرابع احد الشعانين",
+  "EnglishTitle": "3rd Gospel Response of Palm Sunday ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اليوم تَمَّتَ الأقوال، من النبوَاتِ والأمثال، كما تنبأ زكريا وقال، نبوة عن إيسوس بي إخرستوس.",
+      "English": "Today the sayings are fulfilled, From the prophecies and proverbs, As Zechariah prophesied and said, A prophecy about Jesus Christ."
+    }
+  ]
+}

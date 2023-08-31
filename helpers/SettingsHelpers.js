@@ -26,7 +26,6 @@ const saintsSelector = (state) => state.saints;
 
 export function getSaint(saint) {
   const saints = useSelector(saintsSelector);
-
   const saintMapping = {
     ARCHANGEL_MICHAEL: saints.ARCHANGEL_MICHAEL,
     ARCHANGEL_GABRIEL: saints.ARCHANGEL_GABRIEL,
