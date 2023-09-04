@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "خريستوس أناليم ابسيس",
+  "EnglishTitle": "Khristos ana-lim-epsis",
+  "CopticTitle": "Xrictoc `analumyic ",
   "Hymn": [
     {
       "Type": "Base",
@@ -13,7 +13,7 @@
       "Coptic": "Xrictoc `analumyic ton ouranon e[apectile paraklhton to `pneuma to `agion zwhn xaricamenoc `epi twn yuxwn `hmwn.",
       "English": "Christ has ascended into the heaven, and sent the Holy Spirit the Paraclete, and granted life to our souls.",
       "Arabiccoptic": "خريستوس أناليم ابسيس طون أورانون إكصا بيستيلي باراكليطون طو بنيفما طو آجيون زوئين خاريسامينوس إيه بيطون بسيخون إيمون",
-      "Englishcoptic": "Khristos -analeempsis ton oooranon exapestile parakleeton to epnevma to -agion zooeen kharisamenos -epi toon pseekhoon -eemoon."
+      "Englishcoptic": "Khristos ana-lim-epsis ton oranon, exa-pestele Parakleton to Epnevma to Agion, zo-een kharee-sa-menos e-pitoon epsi-khon e-mon."
     },
     {
       "Type": "Base",

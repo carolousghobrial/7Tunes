@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "محير عيد الصليب",
-  "EnglishTitle": "Parlax for Feast of Hosanna Sunday ",
+  "ArabicTitle": "محير عيد الصعود",
+  "EnglishTitle": "Parlax for Feast of the Ascension ",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "باتشويس إيسوس بي خرستوس: فى إيطاف طونف إفول خين نى إثموأووت: أووه أفشيناف إى إبشوى إى نيفي أوي: أفهيمسى صا أووى نام إمبيف يوت .  ",
+      "Side": "North",
+      "Arabic": "باتشويس إيسوس بي خرستوس: فى إيطاف طونف إفول خين نى إثموأووت:  أفشيناف إى إبشوى إى نيفي أوي: أفهيمسى صا أووى نام إمبيف يوت .  ",
       "Coptic": "Pasoic Ihcoc Pixrictoc > uhetaftwnf `ebol =en nheqmwout > af]enaf `e`p]wi `enivhou`i> af\\emci caou`inam `mPefiwt.",
       "English": "O my Lord Jesus Christ, who rose from the dead, ascended into the heavens, and sat at the right hand of His Father.",
       "Arabiccoptic": "يا ربي يسوع المسيح، الذي قام من بين الأموات، وصعد إلى السموات، وجلس عن يمين أبيه.",
