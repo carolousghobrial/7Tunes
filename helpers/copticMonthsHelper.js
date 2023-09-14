@@ -187,6 +187,7 @@ export function getCopticFastsFeasts(yearSelected) {
   var apostlesFeast = moment([yearSelected, 6, 12]);
   var newYear = moment([yearSelected, 8, 11]);
   var feastCross1 = moment([yearSelected, 2, 19]);
+  var newYearEnd = moment([yearSelected, 8, 26]);
   var feastCross2Start = moment([yearSelected, 8, 27]);
   var feastCross2End = moment([yearSelected, 8, 29]);
 
@@ -405,7 +406,7 @@ export function getCopticFastsFeasts(yearSelected) {
     key: "COPTIC_NEW_YEAR",
     type: "feast",
     start: newYear,
-    end: feastCross2Start,
+    end: newYearEnd,
     major: false,
   });
 
