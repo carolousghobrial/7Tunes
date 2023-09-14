@@ -81,7 +81,7 @@ const bookPaths = {
   PraisesFirstHoosLobsh: require("../assets/json/books/booksContent/Praises/FirstHoosLobsh.json"),
   PraisesFourthHoos: require("../assets/json/books/booksContent/Praises/FourthHoos.json"),
   PraisesNiEthnosTiro: require("../assets/json/books/booksContent/Praises/NiEthnosTiro.json"),
-  PraisesPraisesConclusion: require("../assets/json/books/booksContent/Praises/PraisesConclusion.json"),
+  PraisesPraisesConclusion: require("../assets/json/books/booksContent/Praises/praisesconclusion.json"),
   PraisesSecondHoos: require("../assets/json/books/booksContent/Praises/SecondHoos.json"),
   PraisesSecondHoosLobsh: require("../assets/json/books/booksContent/Praises/SecondHoosLobsh.json"),
   PraisesTenen: require("../assets/json/books/booksContent/Praises/Tenen.json"),

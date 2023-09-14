@@ -405,7 +405,7 @@ export function getCopticFastsFeasts(yearSelected) {
     key: "COPTIC_NEW_YEAR",
     type: "feast",
     start: newYear,
-    end: null,
+    end: feastCross2Start,
     major: false,
   });
 
