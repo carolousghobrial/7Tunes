@@ -35,6 +35,8 @@ function UpdatedSaintsModal({
   const { width, height } = useWindowDimensions();
   const NavigationBarColor = getColor("NavigationBarColor");
   //const saintSelected = getSaint(saint);
+  const labelColor = getColor("LabelColor");
+
   const saints = useSelector((state) => state.saints);
   const [saintSelected, setSaintSelected] = useState(saints.ST_MARINA);
 
@@ -68,7 +70,6 @@ function UpdatedSaintsModal({
       console.warn(e);
     }
   }, [saint]);
-  let labelColor = getColor("LabelColor");
   function toggleSwitch(key, e) {
     console.log(key);
     console.log(e);
@@ -91,15 +92,15 @@ function UpdatedSaintsModal({
       <View style={[styles.container, { flexDirection: flexDirection }]}>
         <View style={[styles.imageContainerLandscape, imageStyle]}>
           <Image style={styles.image} source={images[saint]} />
-          <Text style={[styles.text, { color: getColor("PrimaryColor") }]}>
+          <Text style={[styles.text, { color: labelColor }]}>
             {getLanguageValue(saint)}
           </Text>
         </View>
 
-        <View style={{ flex: 5 }}>
+        <View style={{ flex: 6 }}>
           {Object.keys(saintSelected)?.map((key) => (
             <View key={key} style={styles.inputStyle}>
-              <Text style={[styles.text, { flex: 7 }]}>
+              <Text style={[styles.text, { flex: 7, color: labelColor }]}>
                 {getLanguageValue(key)}
               </Text>
               <Switch
