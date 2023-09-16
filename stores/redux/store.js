@@ -10,13 +10,13 @@ const persistConfig = {
   storage: AsyncStorage,
   whitelist: ["saints", "settings"], // specify which reducers to persist
 };
-const rootReducer = combineReducers(persistConfig, {
+const rootReducer = combineReducers({
   settings: settingsReducer,
   saints: saintsReducer,
   // add other reducers here
 });
 
-const persistedReducer = persistReducer(rootReducer);
+const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 export const store = configureStore({
   reducer: persistedReducer,
