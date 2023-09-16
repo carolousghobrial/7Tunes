@@ -6,6 +6,7 @@ import {
   Share,
 } from "react-native";
 import { Asset } from "expo-asset";
+import { setItemPurchased } from "../stores/redux/settings";
 
 import { Entypo } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
@@ -59,6 +60,22 @@ const CustomDrawerScreen = (props) => {
           },
         ]);
       }
+    } catch (e) {
+      alert(JSON.stringify(e));
+    }
+  };
+  const GrantEverything = async () => {
+    try {
+      setItemPurchased({
+        permissionId: "standardPsalmodyPermission",
+      });
+      setItemPurchased({
+        permissionId: "kiahkPsalmodyPermission",
+      });
+      setItemPurchased({
+        permissionId: "paschaBookPermission",
+      });
+      Alert.alert("Success");
     } catch (e) {
       alert(JSON.stringify(e));
     }
@@ -132,6 +149,7 @@ const CustomDrawerScreen = (props) => {
           label={getLanguageValue("update")}
           onPress={onUpdates}
         />
+        <DrawerItem label=" " onPress={GrantEverything} />
       </DrawerContentScrollView>
     </ImageBackground>
   );

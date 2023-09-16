@@ -66,7 +66,6 @@ function App() {
 
   const onLayoutRootView = useCallback(async () => {
     if (appIsReady) {
-      persistor.flush();
       // This tells the splash screen to hide immediately! If we call this after
       // `setAppIsReady`, then we may see a blank screen while the app is
       // loading its initial state and rendering its first pixels. So instead,

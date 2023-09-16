@@ -8,15 +8,15 @@ import { combineReducers } from "redux";
 const persistConfig = {
   key: "root",
   storage: AsyncStorage,
-  whitelist: ["settings", "saints"], // specify which reducers to persist
+  whitelist: ["saints", "settings"], // specify which reducers to persist
 };
-const rootReducer = combineReducers({
+const rootReducer = combineReducers(persistConfig, {
   settings: settingsReducer,
   saints: saintsReducer,
   // add other reducers here
 });
 
-const persistedReducer = persistReducer(persistConfig, rootReducer);
+const persistedReducer = persistReducer(rootReducer);
 
 export const store = configureStore({
   reducer: persistedReducer,
