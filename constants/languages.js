@@ -120,7 +120,7 @@ const Languages = {
     EPIPHANY_PARAMOUN: "Theophany Paramoun",
     NATIVITY_PERIOD: "Nativity Period",
     week_of: "Week of the",
-    ARCHANGEL_MICHAEL: "Archangel Micahel",
+    ARCHANGEL_MICHAEL: "Archangel Michael",
     ARCHANGEL_GABRIEL: "Archangel Gabriel",
     JOHN_THE_BAPTIST: "St.John The Baptist",
     ST_MARK: "St.Mark the Apostle",
