@@ -64,7 +64,7 @@ function UpdatedSaintsModal({
     try {
       if (saint != null) {
         setSaintSelected(saints[saint]);
-        Alert.alert(saints[saint]);
+        Alert.alert("Success", saints[saint]);
       }
     } catch (e) {
       console.warn(e);
