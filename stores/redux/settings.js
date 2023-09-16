@@ -23,6 +23,7 @@ const settingsSlice = createSlice({
     timeTransition: new Date().setHours(18, 0, 0),
     pagination: false,
     isTablet: false,
+    firstPurge: false,
     BishopIsPresent: false,
     ismorethan3BishopPresent: false,
     BishopsPresent: [],
@@ -104,6 +105,12 @@ const settingsSlice = createSlice({
       return {
         ...state,
         darkMode: !state.darkMode,
+      };
+    },
+    changePurge: (state, action) => {
+      return {
+        ...state,
+        firstPurge: !state.firstPurge,
       };
     },
     changePagination: (state, action) => {
@@ -218,6 +225,7 @@ const settingsSlice = createSlice({
   },
 });
 export const changeLanguage = settingsSlice.actions.changeLanguage;
+export const changePurge = settingsSlice.actions.changePurge;
 export const setTimeTransition = settingsSlice.actions.setTimeTransition;
 export const changeDarkMode = settingsSlice.actions.changeDarkMode;
 export const changeFontSize = settingsSlice.actions.changeFontSize;

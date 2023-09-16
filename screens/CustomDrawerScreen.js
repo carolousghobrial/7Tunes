@@ -7,6 +7,7 @@ import {
 } from "react-native";
 import { Asset } from "expo-asset";
 import { setItemPurchased } from "../stores/redux/settings";
+import { useDispatch, useSelector } from "react-redux";
 
 import { Entypo } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
@@ -23,6 +24,8 @@ import { Platform } from "react-native";
 import * as FileSystem from "expo-file-system";
 import TopBoxView from "../components/homepage/topBoxView";
 const CustomDrawerScreen = (props) => {
+  const dispatch = useDispatch();
+
   const onShare = async () => {
     try {
       const result = await Share.share({
@@ -66,15 +69,21 @@ const CustomDrawerScreen = (props) => {
   };
   const GrantEverything = async () => {
     try {
-      setItemPurchased({
-        permissionId: "standardPsalmodyPermission",
-      });
-      setItemPurchased({
-        permissionId: "kiahkPsalmodyPermission",
-      });
-      setItemPurchased({
-        permissionId: "paschaBookPermission",
-      });
+      dispatch(
+        setItemPurchased({
+          permissionId: "standardPsalmodyPermission",
+        })
+      );
+      dispatch(
+        setItemPurchased({
+          permissionId: "kiahkPsalmodyPermission",
+        })
+      );
+      dispatch(
+        setItemPurchased({
+          permissionId: "paschaBookPermission",
+        })
+      );
       Alert.alert("Success");
     } catch (e) {
       alert(JSON.stringify(e));

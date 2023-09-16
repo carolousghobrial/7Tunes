@@ -6,11 +6,14 @@ import {
   ActivityIndicator,
   Alert,
 } from "react-native";
+import { store, persistor } from "../stores/redux/store";
+
 import { useDispatch, useSelector } from "react-redux";
 import { Glassfy } from "react-native-glassfy-module";
 import { getColor } from "../helpers/SettingsHelpers.js";
 import homescreenPaths from "../helpers/homescreenPaths";
 import { setItemPurchased } from "../stores/redux/settings";
+import { changePurge } from "../stores/redux/settings";
 import BookView from "../components/homepage/bookView";
 import BishopModal from "./BishopModal.js";
 import * as Updates from "expo-updates";
@@ -26,6 +29,7 @@ import BishopPresentView from "./BishopPresentView.js";
 
 function HomepageScreen({ navigation, route }) {
   const timeTransition = useSelector((state) => state.settings.timeTransition);
+  const firstPurge = useSelector((state) => state.settings.firstPurge);
 
   const bottomSheetRef = useRef(null);
 
@@ -57,6 +61,7 @@ function HomepageScreen({ navigation, route }) {
   const onFetchUpdateAsync = async () => {
     try {
       const update = await Updates.checkForUpdateAsync();
+
       if (update.isAvailable) {
         Alert.alert("New Update!", "Please restart the app to apply updates", [
           {
@@ -64,6 +69,10 @@ function HomepageScreen({ navigation, route }) {
             onPress: () => onUpdates(),
           },
         ]);
+      }
+      if (!firstPurge) {
+        persistor.purge();
+        dispatch(changePurge());
       }
     } catch (error) {
       // You can also add an alert() to see the error message in case of an error when fetching updates.
