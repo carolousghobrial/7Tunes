@@ -28,7 +28,6 @@ import {
 function SaintModal({ visible, saint, closeModal, updateSaint }) {
   const saintSelected = getSaint(saint);
   const [modalIsOpen, setModalIsOpen] = useState(false);
-
   const { width, height } = useWindowDimensions();
   const [vosChecked, setvosChecked] = useState(false);
   const [doxChecked, setdoxChecked] = useState(false);

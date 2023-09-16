@@ -9,6 +9,7 @@ import {
   Image,
   TouchableWithoutFeedback,
   useWindowDimensions,
+  Alert,
 } from "react-native";
 import {
   getCopticDateString,
@@ -62,9 +63,8 @@ function UpdatedSaintsModal({
   useEffect(() => {
     try {
       if (saint != null) {
-        console.log(saint);
         setSaintSelected(saints[saint]);
-        console.log(saints[saint]);
+        Alert.alert(saints[saint]);
       }
     } catch (e) {
       console.warn(e);
