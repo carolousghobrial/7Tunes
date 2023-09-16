@@ -3,6 +3,8 @@ const homescreenPaths = {
   myHome: require("../assets/json/menuJson/mainMenu.json"),
   psalmody: require("../assets/json/menuJson/psalmody/psalmody.json"),
   liturgy: require("../assets/json/menuJson/liturgy/liturgy.json"),
+  liturgyOfBelievers: require("../assets/json/menuJson/liturgy/liturgyBelievers.json"),
+  liturgyofStBasil: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/liturgyofStBasil.json"),
   liturgyOfWord: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/liturgyOfWord.json"),
   LiturgyLiturgyOfTheWordPaplHymnsMenu: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/papalHymns.json"),
 

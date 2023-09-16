@@ -23,12 +23,23 @@
             "BishopButton": true
         },
         {
-            "EnglishTitle": "Holy Liturgy",
-            "ArabicTitle": "القداس الألهي",
-            "PurchaseKeyDroid": "holypaschaid",
-            "PurchaseKeyIos": "holypaschasku",
+            "EnglishTitle": "Liturgy of the Believers",
+            "ArabicTitle": "قداس المؤمنين",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
             "hasSubBooks": true,
-            "BookPath": 3,
+            "BookPath": "liturgyOfBelievers",
+            "ImageURL": "liturgyOfBelievers",
+            "Enabled": true,
+            "BishopButton": true
+        },
+        {
+            "EnglishTitle": "The Distribution of the Holy Mysteries",
+            "ArabicTitle": "التوزيع",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "communion",
             "ImageURL": "communion",
             "Enabled": false,
             "BishopButton": true

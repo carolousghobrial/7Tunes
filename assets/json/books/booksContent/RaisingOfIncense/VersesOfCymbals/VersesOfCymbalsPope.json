@@ -17,7 +17,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseMetropolitain",
+      "Visible": "ISDioceseMetropolitainAlways",
       "Side": "Neutral",
       "Arabic": "وشريكه في الخدمة الرسولية، أبانا القديس البار، أنبا [*DIOCESE_BISHOP*] ,المطران  ثبته على كرسيه.",
       "Coptic": "Nem pefke`]vhr `nlitourgoc> peniwt eqouab `ndikeoc Abba [*DIOCESE_BISHOP*] pi`mmhtropolithc> matajrof \\ijen pef`qronoc.",
@@ -61,7 +61,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseBishop",
+      "Visible": "ISDioceseBishopAlways",
       "Side": "Neutral",
       "Arabic": "وشريكه في الخدمة الرسولية، أبانا القديس البار، أنبا [*DIOCESE_BISHOP*] الأسقف، ثبته على كرسيه.",
       "Coptic": "Nem pefke`]vhr `nlitourgoc> peniwt eqouab `ndikeoc Abba [*DIOCESE_BISHOP*] pi`epickopoc> matajrof \\ijen pef`qronoc.",

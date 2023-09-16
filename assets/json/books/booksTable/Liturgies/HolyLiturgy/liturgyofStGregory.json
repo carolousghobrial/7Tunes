@@ -291,42 +291,6 @@
             "Path": "LiturgyLiturgyOfTheWordGospelResponse",
             "Rule": 0,
             "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLitanyOfPeaceGreat",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLitanyOfPopeGreat",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLitanyOfAssembliesGreat",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordInTheWisdom",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversStBasilReconcliationPrayer",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversStBasilAnaphora",
-            "Rule": 0,
-            "Visible": true
         }
     ]
 }

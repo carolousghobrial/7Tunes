@@ -214,7 +214,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "ISDioceseMetropolitain",
+      "Visible": "ISDioceseMetropolitainAlways",
       "Side": "South",
       "Arabic": "لاتنسى بطركنا,\nوإمنحيه وافر النِعَمْ,\nو شريكه انبا [*DIOCESE_BISHOP*],\nالسلام لك يا مريم",
       "English": "Lord bless Pope [*POPE*]\nBless him abundantly,\nAnd his partner Abba [*DIOCESE_BISHOP*] \nHail to you o Mary"
@@ -222,7 +222,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "ISDioceseBishop",
+      "Visible": "ISDioceseBishopAlways",
       "Side": "South",
       "Arabic": "لاتنسى بطركنا,\nوإمنحيه وافر النِعَمْ,\nو شريكه انبا [*DIOCESE_BISHOP*],\nالسلام لك يا مريم",
       "English": "Lord bless Pope [*POPE*]\nBless him abundantly,\nAnd his partner Abba [*DIOCESE_BISHOP*] \nHail to you o Mary"

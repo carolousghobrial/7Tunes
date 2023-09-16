@@ -1,0 +1,36 @@
+{
+    "books": [
+        {
+            "EnglishTitle": "Liturgy of St.Basil",
+            "ArabicTitle": "القداس الباسيلي",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "liturgyofStBasil",
+            "ImageURL": "liturgyofStBasil",
+            "Enabled": true,
+            "BishopButton": true
+        },
+        {
+            "EnglishTitle": "Liturgy of St.Gregory",
+            "ArabicTitle": "القداس الإغريغوري",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "liturgyofStGregory",
+            "ImageURL": "liturgyofStGregory",
+            "Enabled": true,
+            "BishopButton": true
+        },
+        {
+            "EnglishTitle": "Liturgy of St.Cyril",
+            "ArabicTitle": "القداس الكيرلس",
+            "PurchaseKeyDroid": "holypaschaid",
+            "PurchaseKeyIos": "holypaschasku",
+            "hasSubBooks": true,
+            "BookPath": "liturgyofStCyril",
+            "ImageURL": "liturgyofStCyril",
+            "Enabled": true
+        }
+    ]
+}

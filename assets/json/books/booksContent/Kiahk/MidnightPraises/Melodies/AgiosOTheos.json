@@ -374,7 +374,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "ISDioceseMetropolitain",
+      "Visible": "ISDioceseMetropolitainAlways",
       "Side": "South",
       "Arabic": "يارب طَمِّنَّا,\nعلى الساهر عنا,\nأنبا [*DIOCESE_BISHOP*] مطرانا,\nأمين الليلويا",
       "English": "Also keep in safety,\nThe one who watches over us,\nOur metropolitan Abba [*DIOCESE_BISHOP*] \nAmen Alleluia"
@@ -382,7 +382,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "ISDioceseBishop",
+      "Visible": "ISDioceseBishopAlways",
       "Side": "South",
       "Arabic": "يارب طَمِّنَّا,\nعلى الساهر عنا,\nأنبا [*DIOCESE_BISHOP*] اسقفنا,\nأمين الليلويا",
       "English": "Also keep in safety,\nThe one who watches over us,\nOur bishop Abba [*DIOCESE_BISHOP*] \nAmen Alleluia"

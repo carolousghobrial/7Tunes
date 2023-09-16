@@ -50,7 +50,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseMetropolitain",
+      "Visible": "ISDioceseMetropolitainAlways",
       "Side": "North",
       "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*DIOCESE_BISHOP*].",
       "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`mmhtropolithc Abba [*DIOCESE_BISHOP*].",
@@ -94,7 +94,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseBishop",
+      "Visible": "ISDioceseBishopAlways",
       "Side": "North",
       "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف أنبا [*DIOCESE_BISHOP*].",
       "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`epickopoc Abba [*DIOCESE_BISHOP*].",
@@ -182,7 +182,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseMetropolitain",
+      "Visible": "ISDioceseMetropolitainAlways",
       "Side": "North",
       "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*DIOCESE_BISHOP*].",
       "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`mmhtropolithc Abba [*DIOCESE_BISHOP*].",
@@ -226,7 +226,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseBishop",
+      "Visible": "ISDioceseBishopAlways",
       "Side": "North",
       "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف أنبا [*DIOCESE_BISHOP*].",
       "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`epickopoc Abba [*DIOCESE_BISHOP*].",

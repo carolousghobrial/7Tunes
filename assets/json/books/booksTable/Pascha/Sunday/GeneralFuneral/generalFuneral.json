@@ -90,13 +90,25 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaSundayGeneralFuneralThreeLongLitanies",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfPeaceGreat",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaSundayGeneralFuneralInTheWisdom",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfPopeGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfAssembliesGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordInTheWisdom",
             "Rule": 0,
             "Visible": true
         },

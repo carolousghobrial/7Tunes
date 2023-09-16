@@ -17,7 +17,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseMetropolitain",
+      "Visible": "ISDioceseMetropolitainAlways",
       "Side": "Neutral",
       "Arabic": "بصلواتهم احفظْ حياةَ أبينا المكرم البار أنبا [*DIOCESE_BISHOP*]  المطران يا رب إنعم لنا بمغفرة خطايانا",
       "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba [*DIOCESE_BISHOP*] pimhtropolithc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",

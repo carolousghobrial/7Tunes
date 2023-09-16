@@ -374,7 +374,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "ISDioceseMetropolitain",
+      "Visible": "ISDioceseMetropolitainAlways",
       "Side": "North",
       "Arabic": "والأب الفاضل مطراننا,\nشريكه فى الخدمة الرسولية,\nبقبول صلاته يجعلنا,\nأبناء الملكوت الأبدية",
       "English": "Our metropolitain the gracious father Abba [*DIOCESE_BISHOP*],\nHis partner in the apostolic service,\nThrough his prayers we may become,\nSons of the eternal kingdom"
@@ -382,7 +382,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "ISDioceseBishop",
+      "Visible": "ISDioceseBishopAlways",
       "Side": "North",
       "Arabic": "والأب الفاضل أسقفنا,\nشريكه فى الخدمة الرسولية,\nبقبول صلاته يجعلنا,\nأبناء الملكوت الأبدية",
       "English": "Our bishop the gracious father Abba [*DIOCESE_BISHOP*],\nHis partner in the apostolic service,\nThrough his prayers we may become,\nSons of the eternal kingdom"

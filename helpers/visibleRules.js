@@ -739,7 +739,7 @@ const BrightSaturday = (motherSource, path) => {
   return motherSource.toLowerCase()?.includes("brightsaturday") ? true : false;
 };
 const hide = (motherSource, path) => {
-  return true;
+  return false;
 };
 const VOCSaint = (motherSource, path) => {
   const saintSelected = getSaint(path);
@@ -880,6 +880,17 @@ const ISDioceseMetropolitain = (motherSource, path) => {
   }
   return false;
 };
+const ISDioceseMetropolitainAlways = (motherSource, path) => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+
+  if (dioceseBishop === undefined) {
+    return false;
+  }
+  if (dioceseBishop?.Rank === "Metropolitan") {
+    return true;
+  }
+  return false;
+};
 const ISDioceseBishop = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
   const BishopIsPresent = useSelector(
@@ -889,7 +900,24 @@ const ISDioceseBishop = (motherSource, path) => {
   if (dioceseBishop === undefined) {
     return false;
   }
-  if (dioceseBishop?.Rank === "Bishop" && BishopIsPresent === true) {
+  if (
+    dioceseBishop?.Rank === "Bishop" &&
+    (BishopIsPresent === true || motherSource.toLowerCase()?.includes("index"))
+  ) {
+    return true;
+  }
+  return false;
+};
+const ISDioceseBishopAlways = (motherSource, path) => {
+  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
+  const BishopIsPresent = useSelector(
+    (state) => state.settings.BishopIsPresent
+  );
+
+  if (dioceseBishop === undefined) {
+    return false;
+  }
+  if (dioceseBishop?.Rank === "Bishop") {
     return true;
   }
   return false;
@@ -1130,15 +1158,17 @@ const IsFastingDays = (motherSource, path) => {
       currentSeason.key === FeastEnum.FEAST_OF_CROSS_3) &&
     path.toLowerCase().includes("tishori")
   ) {
-    console.log("HEREE");
     return true;
   }
-  if (isInFast()) {
-    return true;
-  } else if (
+  if (
     currentSeason.key === "GREAT_LENT" &&
     (currentSeason.dayOfWeek === 0 || currentSeason.dayOfWeek === 6)
   ) {
+    return true;
+  } else {
+    return false;
+  }
+  if (isInFast() && currentSeason.type !== "feast") {
     return true;
   } else {
     return false;
@@ -1241,5 +1271,7 @@ const VisibleRules = {
   ArchangelGabrielShow: ArchangelGabrielShow,
   JohnTheBaptistShow: JohnTheBaptistShow,
   StandardAgiosShow: StandardAgiosShow,
+  ISDioceseMetropolitainAlways: ISDioceseMetropolitainAlways,
+  ISDioceseBishopAlways: ISDioceseBishopAlways,
 };
 export default VisibleRules;

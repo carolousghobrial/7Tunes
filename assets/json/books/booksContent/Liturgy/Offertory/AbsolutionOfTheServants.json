@@ -61,18 +61,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وشريكهِ في الخدمةِ [الرسوليةِ] أبينا الأسقف (المطران) المكرم أنبا [*DIOCESE_BISHOP*] .",
-      "Coptic": "Nem Peniwt en `pickopoc abba [*DIOCESE_BISHOP*]",
-      "English": "and from the mouth of his partner in the [apostolic] liturgy, our honored father the bishop (metropolitan), Abba [*DIOCESE_BISHOP*]; ",
-      "Arabiccoptic": "نيم بيكيشفير ان لي تورغوس بينيوت اثؤواب ان (ميتروبيليتيس) ابيسبوكوس افا [*DIOCESE_BISHOP*] ",
-      "Englishcoptic": "Nem peniot en-epes-kopos Avva [*DIOCESE_BISHOP*] "
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": "ISDioceseMetropolitain",
+      "Visible": "ISDioceseMetropolitainAlways",
       "Side": "North",
       "Arabic": "وشريكَهُ في الخدمةِ الرسولية أبانا المطران المكرم أنبا [*DIOCESE_BISHOP*].",
       "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `nmmhtropolithc abba [*DIOCESE_BISHOP*]",
@@ -83,7 +72,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseBishop",
+      "Visible": "ISDioceseBishopAlways",
       "Side": "North",
       "Arabic": "وشريكَهُ في الخدمةِ [الرسولية] أبانا الأسقف المكرم أنبا [*DIOCESE_BISHOP*].",
       "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`epickopoc abba [*DIOCESE_BISHOP*]",

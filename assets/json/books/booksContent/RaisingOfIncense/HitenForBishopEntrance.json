@@ -139,7 +139,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "showHitenVOC",
+      "Visible": true,
       "Side": "North",
       "Arabic": " يا رب إنعم لنا بمغفرة خطايانا.",
       "Coptic": "Psoic > `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",

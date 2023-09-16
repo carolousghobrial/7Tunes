@@ -829,7 +829,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseMetropolitain",
+      "Visible": "ISDioceseMetropolitainAlways",
       "Side": "North",
       "Arabic": "أطلب من الرب عنا. يا أبانا القديس البار. أنبا [*DIOCESE_BISHOP*] المطران ليغفر لنا خطايانا.",
       "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab ``ndikeoc > abba [*DIOCESE_BISHOP*] pi mhtropolhthc > `ntefxa nen nobi nan `ebol .",
@@ -873,7 +873,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": "ISDioceseBishop",
+      "Visible": "ISDioceseBishopAlways",
       "Side": "North",
       "Arabic": "أطلب من الرب عنا. يا أبانا القديس البار. أنبا [*DIOCESE_BISHOP*] الاسقف ليغفر لنا خطايانا.",
       "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab ``ndikeoc > abba [*DIOCESE_BISHOP*] pi `epickopoc > `ntefxa nen nobi nan `ebol .",
@@ -902,28 +902,6 @@
       "English": "Pray to the Lord on our behalf, our holy righteous father, Abba [*BISHOP_PRESENT2*] the Bishop , that He may forgive us our sins.",
       "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إن ذيكيؤس . أفا [*BISHOP_PRESENT2*] بى ابيسكوبوس. انتيف كانين نوفى نان ايفول.",
       "Englishcoptic": "Tovhem-epshois e-ehri egon, peniot ethowab en-Zike-os, Ava [*BISHOP_PRESENT2*] pi-epes-kopos, entef ka nen-novi nan evol."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": "ISThreeBishop",
-      "Side": "North",
-      "Arabic": "أطلب من الرب عنا. يا أبانا القديس البار. أنبا [*BISHOP_PRESENT3*] الاسقف ليغفر لنا خطايانا.",
-      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab ``ndikeoc > abba [*BISHOP_PRESENT3*] pi `epickopoc > `ntefxa nen nobi nan `ebol .",
-      "English": "Pray to the Lord on our behalf, our holy righteous father, Abba [*BISHOP_PRESENT3*] the Bishop , that He may forgive us our sins.",
-      "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إن ذيكيؤس . أفا [*BISHOP_PRESENT3*] بى ابيسكوبوس. انتيف كانين نوفى نان ايفول.",
-      "Englishcoptic": "Tovhem-epshois e-ehri egon, peniot ethowab en-Zike-os, Ava [*BISHOP_PRESENT3*] pi-epes-kopos, entef ka nen-novi nan evol."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": "ISThreeBishop",
-      "Side": "North",
-      "Arabic": "أطلب من الرب عنا. يا أبانا القديس البار. أنبا [*BISHOP_PRESENT3*] الاسقف ليغفر لنا خطايانا.",
-      "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab ``ndikeoc > abba [*BISHOP_PRESENT3*] pi `epickopoc > `ntefxa nen nobi nan `ebol .",
-      "English": "Pray to the Lord on our behalf, our holy righteous father, Abba [*BISHOP_PRESENT3*] the Bishop , that He may forgive us our sins.",
-      "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إن ذيكيؤس . أفا [*BISHOP_PRESENT3*] بى ابيسكوبوس. انتيف كانين نوفى نان ايفول.",
-      "Englishcoptic": "Tovhem-epshois e-ehri egon, peniot ethowab en-Zike-os, Ava [*BISHOP_PRESENT3*] pi-epes-kopos, entef ka nen-novi nan evol."
     },
     {
       "Type": "Base",
