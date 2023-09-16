@@ -26,7 +26,6 @@ function PresentationMode() {
   let difference = Object.keys(Languages.eng).filter(
     (x) => !Object.keys(Languages.ara).includes(x)
   );
-  console.log(difference);
   const dispatch = useDispatch();
   const toggleSwitch = () => dispatch(changePagination());
 

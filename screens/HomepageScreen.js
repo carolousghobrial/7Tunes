@@ -63,16 +63,14 @@ function HomepageScreen({ navigation, route }) {
       const update = await Updates.checkForUpdateAsync();
 
       if (update.isAvailable) {
+        persistor.purge();
+
         Alert.alert("New Update!", "Please restart the app to apply updates", [
           {
             text: "Restart the App",
             onPress: () => onUpdates(),
           },
         ]);
-      }
-      if (!firstPurge) {
-        persistor.purge();
-        dispatch(changePurge());
       }
     } catch (error) {
       // You can also add an alert() to see the error message in case of an error when fetching updates.
