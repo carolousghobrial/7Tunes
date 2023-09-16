@@ -37,4 +37,3 @@ export const persistor = persistStore(store, null, checkAndPurge);
 // Set the flag to 'true' when you want to trigger the purge
 // This can be done during an app update or migration process
 // Ensure to set it to 'true' only when needed
-AsyncStorage.setItem("shouldPurge", "true");

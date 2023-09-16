@@ -66,6 +66,12 @@ function BaseView({ item, mykey }) {
     textAlign: testAlignText,
     writingDirection: "rtl",
   };
+  const arabicCopticStyle = {
+    fontFamily: "arabic-font",
+    lineHeight: fontSize * 1.4,
+    textAlign: testAlignText,
+    writingDirection: "rtl",
+  };
 
   const languages = [
     {
@@ -82,7 +88,7 @@ function BaseView({ item, mykey }) {
     },
     {
       key: "Arabiccoptic",
-      style: arabicStyle,
+      style: arabicCopticStyle,
       isVisible: languageSettings.copticarabic,
     },
   ];
