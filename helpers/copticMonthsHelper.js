@@ -215,7 +215,6 @@ export function getCopticFastsFeasts(yearSelected) {
   var LazarusSaturday = moment(palmSunday).subtract(1, "days");
 
   if (isLeapYear(yearSelected)) {
-    console.log("HERE");
     nativityEnd = nativityEnd.add(1, "days");
     nativity2ndDay = nativity2ndDay.add(1, "days");
     circumcision = circumcision.add(1, "days");
@@ -224,6 +223,7 @@ export function getCopticFastsFeasts(yearSelected) {
   }
   if (isLeapYear(yearSelected + 1)) {
     newYear = newYear.add(1, "days");
+    newYearEnd = newYearEnd.add(1, "days");
     feastCross2Start = feastCross2Start.add(1, "days");
     feastCross2End = feastCross2End.add(1, "days");
     //nativityFast.add(1, "days");

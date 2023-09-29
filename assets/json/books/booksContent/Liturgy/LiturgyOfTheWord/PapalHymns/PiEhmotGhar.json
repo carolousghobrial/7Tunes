@@ -104,6 +104,17 @@
     {
       "Type": "Base",
       "Rule": 0,
+      "Visible": "Is3PlusBishops",
+      "Side": "North",
+      "Arabic": "وآبائنا المطارنة والأساقفة الحاضرين معنا",
+      "Coptic": "nem neniw; `mmetropolithc nem ni`epickopoc nhetxh neman ",
+      "English": "and our fathers the Metropolitans and Bishops who are with us",
+      "Arabiccoptic": "نيم نينيوتي  إمميتروبوليتيس نيم ني إيبيسكوبوس ني إتكي نيمان",
+      "Englishcoptic": "nem nenioti  en-metro-politees nem ni epes-kopos ni-etkee neman "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "فليكن الإكليروس وكل الشعب معافين في الرب. آمين يكون.",

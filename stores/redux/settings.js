@@ -86,7 +86,7 @@ const settingsSlice = createSlice({
     },
     updateBishopsPresent: (state, action) => {
       const myBishopsPresent = action.payload.BishopsPresent;
-
+      console.log(myBishopsPresent);
       return {
         ...state,
         BishopsPresent: myBishopsPresent,

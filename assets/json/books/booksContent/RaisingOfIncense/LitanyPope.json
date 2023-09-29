@@ -138,6 +138,17 @@
     {
       "Type": "Base",
       "Rule": 0,
+      "Visible": "Is3PlusBishops",
+      "Side": "North",
+      "Arabic": "وآبائنا المطارنة والأساقفة الحاضرين معنا",
+      "Coptic": "nem neniw; `mmetropolithc nem ni`epickopoc nhetxh neman ",
+      "English": "and our fathers the Metropolitans and Bishops who are with us",
+      "Arabiccoptic": "نيم نينيوتي  إمميتروبوليتيس نيم ني إيبيسكوبوس ني إتكي نيمان",
+      "Englishcoptic": "nem nenioti  en-metro-politees nem ni epes-kopos ni-etkee neman "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
@@ -266,6 +277,17 @@
       "English": "And his partner in the liturgy, our father the metropolitan, Abba [*BISHOP_PRESENT3*]",
       "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إن ميتروبوليتيس  افا  [*BISHOP_PRESENT3*]",
       "Englishcoptic": "Nem pef-keshvir enli-torghos peniot en-emmetro-politis Avva [*BISHOP_PRESENT3*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "Is3PlusBishops",
+      "Side": "North",
+      "Arabic": "وآبائنا المطارنة والأساقفة الحاضرين معنا",
+      "Coptic": "nem neniw; `mmetropolithc nem ni`epickopoc nhetxh neman ",
+      "English": "and our fathers the Metropolitans and Bishops who are with us",
+      "Arabiccoptic": "نيم نينيوتي  إمميتروبوليتيس نيم ني إيبيسكوبوس ني إتكي نيمان",
+      "Englishcoptic": "nem nenioti  en-metro-politees nem ni epes-kopos ni-etkee neman "
     },
     {
       "Type": "Base",

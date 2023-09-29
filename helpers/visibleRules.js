@@ -938,21 +938,7 @@ const Is3PlusBishops = (BishopsPresent, motherSource, path) => {
   const are3PlusBishopsPresent = useSelector(
     (state) => state.settings.ismorethan3BishopPresent
   );
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
-  const filteredMetro = BishopsPresent.filter(
-    (bishop) =>
-      bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
-  );
-  const filteredBishop = BishopsPresent.filter(
-    (bishop) => bishop.Rank === "Bishpp" && bishop.key !== dioceseBishop?.key
-  );
-
-  if (
-    filteredBishop?.length >= 3 &&
-    filteredMetro?.length >= 3 &&
-    are3PlusBishopsPresent
-  ) {
+  if (are3PlusBishopsPresent) {
     return true;
   }
 
@@ -983,7 +969,12 @@ const Is3PlusMetroBishops = (motherSource, path) => {
 };
 const ISOneMetropolitain = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
+  const are3PlusBishopsPresent = useSelector(
+    (state) => state.settings.ismorethan3BishopPresent
+  );
+  if (are3PlusBishopsPresent) {
+    return false;
+  }
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   if (
     BishopsPresent?.length > 0 &&
@@ -999,7 +990,12 @@ const ISOneMetropolitain = (motherSource, path) => {
 };
 const ISTwoMetropolitain = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
+  const are3PlusBishopsPresent = useSelector(
+    (state) => state.settings.ismorethan3BishopPresent
+  );
+  if (are3PlusBishopsPresent) {
+    return false;
+  }
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const filteredBishops = BishopsPresent?.filter(
     (bishop) =>
@@ -1019,7 +1015,12 @@ const ISTwoMetropolitain = (motherSource, path) => {
 };
 const ISThreeMetropolitain = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
+  const are3PlusBishopsPresent = useSelector(
+    (state) => state.settings.ismorethan3BishopPresent
+  );
+  if (are3PlusBishopsPresent) {
+    return false;
+  }
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const filteredBishops = BishopsPresent?.filter(
     (bishop) =>
@@ -1045,7 +1046,12 @@ const ISOneBishop = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
 
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
-
+  const are3PlusBishopsPresent = useSelector(
+    (state) => state.settings.ismorethan3BishopPresent
+  );
+  if (are3PlusBishopsPresent) {
+    return false;
+  }
   if (
     BishopsPresent?.length > 0 &&
     BishopsPresent?.filter(
@@ -1063,6 +1069,12 @@ const ISTwoBishop = (motherSource, path) => {
   const BishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
+  const are3PlusBishopsPresent = useSelector(
+    (state) => state.settings.ismorethan3BishopPresent
+  );
+  if (are3PlusBishopsPresent) {
+    return false;
+  }
   const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const filteredBishops = BishopsPresent?.filter(
     (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
@@ -1089,13 +1101,18 @@ const ISThreeBishop = (motherSource, path) => {
   const filteredBishops = BishopsPresent?.filter(
     (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   );
-
-  // Check if there are at least 3 bishops present and if the diocese bishop is not one of them
+  const are3PlusBishopsPresent = useSelector(
+    (state) => state.settings.ismorethan3BishopPresent
+  );
+  if (are3PlusBishopsPresent) {
+    return false;
+  }
   if (
     filteredBishops?.length >= 3 &&
     BishopIsPresent &&
     !filteredBishops?.some((bishop) => bishop.key === dioceseBishop?.key)
   ) {
+    // Check if there are at least 3 bishops present and if the diocese bishop is not one of them
     return true;
   }
 

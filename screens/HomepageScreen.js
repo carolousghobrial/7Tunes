@@ -159,12 +159,14 @@ function HomepageScreen({ navigation, route }) {
           englishTitle: item.EnglishTitle,
           arabicTitle: item.ArabicTitle,
           motherSource: item.mother,
+          bishopButton: item.BishopButton,
         });
       } else {
         navigation.push("BookScreen", {
           bookPath: item.BookPath,
           englishTitle: item.EnglishTitle,
           arabicTitle: item.ArabicTitle,
+          bishopButton: item.BishopButton,
         });
       }
     }

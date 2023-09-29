@@ -70,12 +70,17 @@ function BishopPresentView({ bottomSheetRef, snapPoints }) {
   };
 
   const setBishopClicked = (bishop) => {
-    setBishopsPresent([...bishopsPresent, bishop]);
+    // setBishopsPresent();
+    const updateArray = [...bishopsPresent, bishop];
+    dispatch(updateBishopsPresent({ BishopsPresent: updateArray }));
+    setBishopsPresent(updateArray);
     closeListModal();
   };
 
   const deleteBishopHandler = (id) => {
     const newBishops = bishopsPresent.filter((bishop) => bishop.key !== id);
+    dispatch(updateBishopsPresent({ BishopsPresent: newBishops }));
+
     setBishopsPresent(newBishops);
   };
 
@@ -85,10 +90,6 @@ function BishopPresentView({ bottomSheetRef, snapPoints }) {
 
   const closeListModal = () => {
     setModalVisible(false);
-  };
-
-  const loadingActivate = () => {
-    dispatch(updateBishopsPresent({ BishopsPresent: bishopsPresent }));
   };
 
   return (

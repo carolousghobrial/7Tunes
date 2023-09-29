@@ -20,26 +20,6 @@ function BishopModal({ bottomSheetRef, snapPoints }) {
     <BottomSheetBackdrop {...props} disappearsOnIndex={-1} appearsOnIndex={0} />
   );
 
-  const [ModalVisible, setModalVisible] = useState(false);
-
-  const dispatch = useDispatch();
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
-
-  const [bishopsPresent, setbishopsPresent] = useState(BishopsPresent);
-
-  const toggleSwitch = () => {
-    try {
-      setBishopIsPresent(!BishopIsPresent);
-      dispatch(changeBishopIsPresent());
-    } catch (e) {
-      console.warn(e);
-    }
-  };
-
-  const toggle3PlusSwitch = () => {
-    dispatch(changeismorethan3BishopPresent());
-  };
-
   return (
     <BottomSheetModal
       backgroundStyle={{ backgroundColor: NavigationBarColor }}

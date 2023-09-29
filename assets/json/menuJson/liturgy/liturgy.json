@@ -30,8 +30,7 @@
             "hasSubBooks": true,
             "BookPath": "liturgyMenu",
             "ImageURL": "communion",
-            "Enabled": true,
-            "Released": false
+            "Enabled": true
         }
     ]
 }

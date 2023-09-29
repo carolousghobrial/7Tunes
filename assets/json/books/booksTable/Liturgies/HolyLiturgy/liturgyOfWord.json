@@ -315,18 +315,6 @@
             "Path": "LiturgyLiturgyOfTheWordInTheWisdom",
             "Rule": 0,
             "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversStBasilReconcliationPrayer",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversStBasilAnaphora",
-            "Rule": 0,
-            "Visible": true
         }
     ]
 }

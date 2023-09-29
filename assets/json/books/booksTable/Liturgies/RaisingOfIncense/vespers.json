@@ -94,6 +94,14 @@
             "Path": "venerations"
         },
         {
+            "Type": "Button",
+            "Arabic": "دورة الشعانين",
+            "English": "Hosanna Procession",
+            "Rule": "OpenPalmSundayProcession",
+            "Visible": "isHosanna",
+            "Path": "palmSundayProcession"
+        },
+        {
             "Type": "Main",
             "Path": "RaisingOfIncenseLitanyOfGospel",
             "Rule": 0,
@@ -116,14 +124,6 @@
             "Path": "RaisingOfIncenseGospelResponses",
             "Rule": 0,
             "Visible": true
-        },
-        {
-            "Type": "Button",
-            "Arabic": "دورة الشعانين",
-            "English": "Hosanna Procession",
-            "Rule": "OpenPalmSundayProcession",
-            "Visible": "isHosanna",
-            "Path": "palmSundayProcession"
         },
         {
             "Type": "Main",

@@ -27,8 +27,8 @@ export function getFullViewModel(motherSource, mother) {
   const ViewArray = [];
   const MenuArray = [];
   let key = 0;
-  const homeItems = homescreenPaths[motherSource];
 
+  const homeItems = homescreenPaths[motherSource];
   homeItems.Main.forEach((item) => {
     if (item.type === "Title") {
       arabicttl = item.Arabic;
