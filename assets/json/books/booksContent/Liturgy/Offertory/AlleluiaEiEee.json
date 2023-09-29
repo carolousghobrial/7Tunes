@@ -5,6 +5,14 @@
   "CopticTitle": "Allhlouia ei`ei `e=oun",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفي أيام صوم نينوى وأيام الصوم الكبير، دون سبوته وآحاده يقال ما يلي: (مز 42: 4، مز 131: 1)",
+      "English": "On the days of Ninevites’ Fast and the days of the Great Fast, not including Saturdays and Sundays, the people chant the following from Psalms 42 and 131:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

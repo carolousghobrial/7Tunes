@@ -5,6 +5,14 @@
   "CopticTitle": "Allhlouia Vai pe pi`e\\oou ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقول الشعب في أيام السبوت والآحاد (ما عدا في سبوت وأحاد الصوم المقدس)، وفي الأعياد السيدية والخمسين وكل أيام الإفطار (مز 24:117 –26).",
+      "English": "On Saturdays and Sundays (except during the Great Fast), on feasts of our Lord, on Paschaltide, and on all days of non-fasting, the people chant from Psalm 117: 24-26."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

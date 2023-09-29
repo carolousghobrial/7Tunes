@@ -9,6 +9,50 @@
             "English": "The Offering of the Lamb"
         },
         {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "يجب أن يستبرئ الكاهن أفكاره وأحواله داخلاً وخارجاً. ففي الداخل وهو الأهم يجب أن يكون نقياً من كلِّ زلة، لئلا يأخذ دينونة لنفسه، كقول القديس بولس الرسول (كورنثوس الأولى 11: 27-31)، ويكون الكاهن مصطلحاً مع الجميع (راجع متى 5: 23، 24؛ مرقس 11: 25-26). ",
+            "English": "The priest purifies his thoughts and his actions, internally and externally, and, most important, he must be internally pure of all transgressions, lest he receive judgment onto himself according to the sayin of St. Paul, i.e. Corinthians 11: 27-31, and he shall be at peace with all men (see Matthew 5: 23, 24; Mark 11: 25-26). "
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وفي الخارج يجب أن يكون نظيف الجسم والملابس، ويغسل يديه ورجليه (راجع 30: 17-21)، ويكون محترساً، أي لم يذق شيئاً البتة. ",
+            "English": "He must be externally clean in body and clothing, and washes his hands and feet (exodus 30: 17-21), and he must be careful not to taste anything at all. "
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "ثم يلبس الكاهن بدلة الكهنوت بعد رشمها وهو يقول المزمور التاسع والعشرين (أعظمك ياربُّ) وبعده المزمور الثاني والتسعين (الربُّ قد ملك ولبس الجلال). وفي اثناء ذلك يرتل الشمامسة لحن البركة ",
+            "English": "The priest then puts on the vestments of the priesthood after having them blessed with the sign of the cross, saying Psalm 29, “I will extol You, O Lord….,” and, after it, Psalm 92, “The Lord reigns; He is robed in majesty….”. During this the deacons chant the Hymn of the Blessing, “We worship the Father of light ….” (Tenouwst)."
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayRevelationsHymnBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationShereMaria",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "ثم يصافح إِخوته الكهنة ويسألهم الحل والصلاة من أَجله. ثم يصعد إلى الهيكل. والشماس يصعد ويقف أمامه. ويضع الكاهن الآنية أمامه، ويرشمها ثلاثة رشوم وهو يقول Qen v~ran وFc~marwout ، ثم يحلَّها ويفرش المذبح ويصلي أثناء ذلك صلاة الاستعداد سراً.",
+            "English": "After this, the priest kisses the hands of his brethren the priests and asks them to absolve him and pray on his behalf. Then he ascends to the altar and the deacon ascends and stands before him and the priest places the vessels before him and signs them three times, saying, “In the name of the Father….” (Qen v~ran…) and “Blessed be God the Father….” (Fc~marwout…). He then takes out the vessels and prepares the altar while saying the Prayer of Preparation inaudibly."
+        },
+        {
             "Type": "Main",
             "Path": "AgpeyaPrayersIntroToCreed",
             "Rule": 0,
@@ -27,6 +71,14 @@
             "Side": "North",
             "Arabic": "تصلى كيرياليسون (يا رب ارحم) 41 مرة",
             "English": "Kerie Eleison(Lord Have Mercy) is chanted 41 times"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وإذا تكامل ذلك يلف الحمل (القربان) في لفافة حرير ويرفعه على رأسه. كذلك الشماس يلف وعاء الخمر في لفافة حرير ويرفعه على رأسه أيضاً واقفاً خلف الكاهن. ويكون قدام كلٍِّ منهما شماس بيده شمعة موقدة، ويدورون حول المذبح دورة واحدة.",
+            "English": "After completing the above, the priest covers the loaf with a silk mat and holds it to the top of his forehead, and the deacon behind him does the same with the cruet of wine. Then they encircle the altar once while each of them is preceded by a deacon bearing a lighted candle."
         },
         {
             "Type": "Main",
@@ -83,6 +135,22 @@
             "Visible": "BishopIsPresent"
         },
         {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وفي أثناء ذلك يضع الكاهن القربانة في الصينية وتحتها لفافة حرير",
+            "English": "During this time, the priest places the loaf on the paten, beneath which is a silk mat."
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "ثم يصب الخمر في الكأس ويصفِّى القارورة جيداً ويضيف إلى الخمر قليلاً من الماء نحو ثلثه أو ربعه، ولا يقلّ عن العُشر، ثم يمسح فم القارورة بلفافة بيضاء وينزلها من المذبح",
+            "English": "Then he pours water into the empty wine cruet, and from it, he adds a little water to the wine in the chalice (the proportion of water to wine is not less than a one-tenth, usually a quarter but not more than a third), wipes the mouth of the cruet with a white mat, removes it from the altar."
+        },
+        {
             "Type": "Main",
             "Path": "RaisingOfIncenseThanksgivingPrayer",
             "Rule": 0,
@@ -92,7 +160,13 @@
             "Type": "Main",
             "Path": "LiturgyOffertorySotees",
             "Rule": 0,
-            "Visible": "BishopIsNOTPresent"
+            "Visible": "ShowSotees"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryNefsenti",
+            "Rule": 0,
+            "Visible": "isLentWeekdayOrJonah"
         },
         {
             "Type": "Main",

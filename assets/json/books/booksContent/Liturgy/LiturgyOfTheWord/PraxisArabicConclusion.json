@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ختام الإبركسيس",
+  "EnglishTitle": "The Conclusion of the Acts",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لم تزل كلمة الرب تنو وتعتز وتثبت في كنيسة الله المقدسة. آمين.",
+      "English": "The word of the Lord shall grow, multiply, be mighty and be confirmed in the Holy Church of God. Amen."
+    }
+  ]
+}

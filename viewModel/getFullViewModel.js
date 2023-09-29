@@ -58,7 +58,16 @@ export function getFullViewModel(motherSource, mother) {
             ViewArray.push(...tempView);
             MenuArray.push(...tempMenu);
             break;
-
+          case "Ritual":
+            ViewArray.push({
+              part: item,
+              key: key,
+              EnglishTitle: englishttl,
+              CopticTitle: copticttl,
+              ArabicTitle: arabicttl,
+            });
+            key++;
+            break;
           default:
             MenuArray.push({
               EnglishTitle: item.English,
@@ -103,9 +112,10 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
   const myMenuArray = [];
   const myViewArray = [];
   const book = bookPaths[Path];
+
   const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
 
-  if (!inHymn && EnglishTitle !== undefined) {
+  if (!inHymn && EnglishTitle !== undefined && EnglishTitle !== "") {
     const menuEntry = {
       EnglishTitle,
       CopticTitle,
@@ -132,7 +142,6 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
 
     key++;
   }
-
   Hymn.forEach((part) => {
     const temppath =
       part.SAINT !== undefined && !motherSource?.toLowerCase().includes("index")

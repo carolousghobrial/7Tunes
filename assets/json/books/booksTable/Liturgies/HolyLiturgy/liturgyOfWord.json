@@ -40,6 +40,14 @@
         },
         {
             "Type": "Button",
+            "Arabic": "البولس بالقبطي",
+            "English": "Pauline Epistle in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordCopticPauline"
+        },
+        {
+            "Type": "Button",
             "Arabic": " ألحان البابا ",
             "English": "Papal Hymns",
             "Rule": "OpenPage",
@@ -48,13 +56,21 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordPaulineCopticIntro",
+            "Path": "LiturgyLiturgyOfTheWordPaulineArabicIntro",
             "Rule": 0,
             "Visible": true
         },
         {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "تقرأ قراءات اليوم :",
+            "English": "The reading of the day is read "
+        },
+        {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordPaulineCopticConclusion",
+            "Path": "LiturgyLiturgyOfTheWordPaulineArabicConclusion",
             "Rule": 0,
             "Visible": true
         },
@@ -71,14 +87,30 @@
             "Visible": "isSeason"
         },
         {
+            "Type": "Button",
+            "Arabic": "الكاثوليكون بالقبطي",
+            "English": "The Catholic Epistle in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordCopticCatholic"
+        },
+        {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordCatholicCopticIntro",
+            "Path": "LiturgyLiturgyOfTheWordCatholicArabicIntro",
             "Rule": 0,
             "Visible": true
         },
         {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "تقرأ قراءات اليوم :",
+            "English": "The reading of the day is read "
+        },
+        {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordCatholicCopticConclusion",
+            "Path": "LiturgyLiturgyOfTheWordCatholicArabicConclusion",
             "Rule": 0,
             "Visible": true
         },
@@ -89,16 +121,46 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "الابركسيس بالقبطي",
+            "English": "The Acts in Coptic",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordCopticActs"
+        },
+        {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordPraxisCopticIntro",
+            "Path": "LiturgyLiturgyOfTheWordPraxisArabicIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "تقرأ قراءات اليوم :",
+            "English": "The reading of the day is read "
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPraxisArabicConclusion",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordPraxisCopticConclusion",
+            "Path": "LiturgyLiturgyOfTheWordSynaxarion",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isNOTInHolyFifties"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "تقرأ قراءات اليوم :",
+            "English": "The reading of the day is read "
         },
         {
             "Type": "Main",

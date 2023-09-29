@@ -1,0 +1,23 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": "السنكسار",
+    "EnglishTitle": "The Synaxarion",
+    "Hymn": [
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Priest",
+            "Arabic": "الكاهن:",
+            "English": "Priest:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "اليوم الـ ___ من شهر ___ المبارك، أحسنَ الله استقبالَه (انقضاءَه)، وأعادَه علينا وعليكُم ونحن وأنتم في هدوءٍ واطمئنانٍ، مغفوري الخطايا والآثامِ والزلاتِ، من قِبَلِ مراحمِ الربِّ يا آبائي وإخوتي. آمين.",
+            "English": "Today is the ___ day of the blessed month of ___; may God begin/end it in goodness and renew it for us in peace and tranquility, while our sins and iniquities are forgiven through the tender mercies of our Lord, O my fathers and my brethren. Amen."
+        }
+    ]
+}

@@ -5,6 +5,14 @@
   "CopticTitle": "Nqo te ;]ourh",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفي كل أيام الأصوام (ما عدا أيام الصوم الكبير وصوم نينوى) وفي سبوت وآحاد الصوم الكبير وفي عيدي الصليب تقال هذه عوضاً عن السابقة:",
+      "English": "On weekdays of the Great Fast and during Ninevites’ Fast, the following is chanted:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

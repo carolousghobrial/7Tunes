@@ -1,0 +1,203 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "نيف سينتي",
+  "CopticTitle": "Nefcen; ",
+  "EnglishTitle": "Nefsenty ",
+  "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكن في صوم نينوى وأيام الصوم المقدس دون سبوته وآحاده لا تقال Cwyic بلحنها السنوي بل بالمختصر المعروف، وبعدها nefcen] وهي جزء من مزمور 86 ثم يقول الكاهن klinwmen (صفحة 521).",
+      "English": "But during Jonah’s Fast and the weekdays for the Great Fast, Cwyic is not said with its normal tune but the short one and then Nefcen] which is part of Psalm 86. Then the priest says klinwmen (page 521)."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خَلُصْتَ حقاً. ولِرُوحِكَ.",
+      "Coptic": "Cwqic  `amhn>  ke tw `pneumati cou.",
+      "English": "Saved. Amen. And with your spirit.",
+      "Arabiccoptic": "سوتيس آمين، كيطو بنيفماتى سو",
+      "Englishcoptic": "Sotees Amen : Ke-to Epnevmati-so"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أساساته في الجبال المقدسة. يحب الرب أبواب صهيون، أفضل من جميع مساكن يعقوب. أعمال مجيدة قد قيلت عنكِ يا مدينة الله. هلليلويا.",
+      "Coptic": "Nefcen; =en nitwou eqouab> `A `Psoic mei `nnipulh `nte Ciwn > `e\\ote nima `n]wpi throu `nte Iakwb> Afcaji eqbh; `n\\an`nbhoui eutaihout > ;baki `nte `Vnou; > Allhlouia",
+      "English": "His foundation is in the holy mountains. The Lord loves the gates of Zion, more than all the dwellings of Jacob. Glorious things are spoken of you, O city of God. Alleluia.",
+      "Arabiccoptic": "يف سينتى خين نى طو أو اثؤواب، أ إبشويس ميى ان نيبى لى انتية سيون، إيهوتي نى ما انشوبى تيرو إنتية ياكوب، آفساچى اثڤيتى ان هان اهڤى أووى افطايوت، تى ڤاكى إنتية افنوتى. الليلويا.",
+      "Englishcoptic": "Nefsin-ti khenne-to-o ethowab, a-epshois mey eni-pilee ente Seion, eho-tene-ma enshopi tero ente Yakop, afsaje ethveti enhan ehve-owee ev-taiot, ti-vaki ente Efnouti. Alleloia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صهيون الأم تقول \"إنساناً وإنساناً وُلد فيها، وهو العلي الذي أسسها إلى الأبد.\" هلليلويا.",
+      "Coptic": "Ciwn ;mau najoc > je ourwmi nem ourwmi af]wpi `n=htc > ouo\\ `nqof petsoci af\\icen; `mmoc ]a `ene\\ . Allhlouia",
+      "English": "Zion the mother says, “A man and a man dwells in her, and the Most High Himself shall establish her forever.” Alleluia.(Psalm 87: 1-3,5)",
+      "Arabiccoptic": "سيون تى ماڤ ناجوس، چية أو رومى نيم أورومى آفشوبى ان خيتس، أووة انثوف بي إتيتشوسى آف هيسنتى امموس شا اينية. الليلويا.",
+      "Englishcoptic": "Seion ti-mav nagos, je o-romi nem o-romi af-shobi enkhets, owoh enthof p-etit-shosee, afhe-senti emmos sha eneh, alleloia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نحني ركبنا.",
+      "Coptic": "`Klinomen ta gonata.",
+      "English": "Let us bow our knees.",
+      "Arabiccoptic": "إكلينومين طاغوناتا",
+      "Englishcoptic": "Eklinomen ta ghonata."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إرحمنا يا الله الآب ضابط الكل.",
+      "Coptic": "Nai nan `Vnou; `Viwt Pipantokratwr.",
+      "English": "Have mercy upon us, O God, the Father, the Pantocrator.",
+      "Arabiccoptic": "ناي نان افنوتي افيوت بي بانطوكراطور",
+      "Englishcoptic": "Nai nan Evnoti Eviot Pipantokrator."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نقف ثم نحني ركبنا.",
+      "Coptic": "`Anactwmen `klinomen ta gonata.",
+      "English": "Let us stand. Let us bow our knees.",
+      "Arabiccoptic": "اناسطومين إكلينومين طاغوناتا.",
+      "Englishcoptic": "Anastomen Eklinomen ta ghonata."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إرحمنا يا الله مخلصنا.",
+      "Coptic": "Nai nan `Vnou; Pencwthr.",
+      "English": "Have mercy upon us, O God, our Savior.",
+      "Arabiccoptic": "ناي نان افنوتي بينسوتير",
+      "Englishcoptic": "Nai nan Evnoti Pensotir."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم نقف ونحني ركبنا.",
+      "Coptic": "Ke `anactwmen `klinomen ta gonata.",
+      "English": "Again, Let us stand. Let us bow our knees.",
+      "Arabiccoptic": "كي اناسطومين إكلينومين طاغوناتا",
+      "Englishcoptic": "Ke anastomen Eklinomen ta ghonata."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إرحمنا يا الله ثم إرحمنا.",
+      "Coptic": "Nai nan `Vnou; ouo\\ nai nan.",
+      "English": "Have mercy upon us, O God, and have mercy upon us.",
+      "Arabiccoptic": "ناي نان افنوتي اووه ناي نان",
+      "Englishcoptic": "Nai nan Evnoti owoh nai nan."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم(لحن القرابين)",
+      "Coptic": "Kurie `ele`hcon.",
+      "English": "Lord have mercy. [Oblations Tune]",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Kerye Eleison."
+    }
+  ]
+}

@@ -4,6 +4,14 @@
   "EnglishTitle": "The Hymn of the Censer (Tai-Shori) ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أما الشعب فإنه يرتل أثناء ذلك - بعد قراءة تحليل الخدام -لحن العذراء هذا: وهو يقال في أيام السبوت والآحاد (ما عدا سبوت وآحاد الصوم الكبير) وفي الأعياد السيدية والخمسين وكل أيام الإفطار.",
+      "English": "After the Absolution, the congregation chants the following hymn for the Virgin on Saturdays and Sundays (except during the Great Fast), the major feasts, the fifty days of the Pentecost , and all non-fasting days."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

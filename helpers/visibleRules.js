@@ -424,6 +424,19 @@ const isInHolyFifties = (motherSource, path) => {
       return false;
   }
 };
+const isNOTInHolyFifties = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  switch (currentSeason.key) {
+    case "RESURRECTION":
+    case "THOMAS_SUNDAY":
+    case "HOLY_50":
+    case "ASCENSION":
+    case "PENTECOST":
+      return false;
+    default:
+      return true;
+  }
+};
 const isKiahkVespersPraisesExpositionWeek = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
@@ -1215,6 +1228,15 @@ const StandardAgiosShow = (motherSource, path) => {
       return true;
   }
 };
+const ShowSotees = (motherSource, path) => {
+  if (
+    BishopIsNOTPresent(motherSource, path) &&
+    !isLentWeekdayOrJonah(motherSource, path)
+  ) {
+    return true;
+  }
+  return false;
+};
 const VisibleRules = {
   hide: hide,
   TennavRule: TennavRule,
@@ -1232,6 +1254,7 @@ const VisibleRules = {
   isKiahkVespersPraisesExpositionWeek: isKiahkVespersPraisesExpositionWeek,
   isLentVespersPraisesExpositionWeek: isLentVespersPraisesExpositionWeek,
   isInHolyFifties: isInHolyFifties,
+  isNOTInHolyFifties: isNOTInHolyFifties,
   isMatins: isMatins,
   isVespers: isVespers,
   isPraises: isPraises,
@@ -1290,5 +1313,6 @@ const VisibleRules = {
   StandardAgiosShow: StandardAgiosShow,
   ISDioceseMetropolitainAlways: ISDioceseMetropolitainAlways,
   ISDioceseBishopAlways: ISDioceseBishopAlways,
+  ShowSotees: ShowSotees,
 };
 export default VisibleRules;

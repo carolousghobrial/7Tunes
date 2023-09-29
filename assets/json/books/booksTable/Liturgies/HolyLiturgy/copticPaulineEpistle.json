@@ -1,0 +1,24 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPaulineCopticIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "تقرأ قراءات اليوم أو يقرأ هذا الربع:",
+            "English": "The reading of the day is read or this verse is said:"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPaulineCopticConclusion",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

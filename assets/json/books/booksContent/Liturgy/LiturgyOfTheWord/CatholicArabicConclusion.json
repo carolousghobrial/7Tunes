@@ -1,0 +1,24 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ختام الكاثوليكون",
+  "EnglishTitle": "The Conclusion of the Catholic Epistle",
+  "CopticTitle": "Na`cnhou `mpermenre",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لا تحبوا العالم ولا الأشياء التي في العالم، العالم يمضى وشهواته، وأما الذي يصنع إرادة الله يدوم إلى الأبد. آمين.",
+      "English": "Do not love the world nor the things in the world. The world passes away, and its desires; but he who does the will of God abides forever. Amen."
+    }
+  ]
+}

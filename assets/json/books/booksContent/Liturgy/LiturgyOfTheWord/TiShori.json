@@ -4,6 +4,14 @@
   "EnglishTitle": "The Hymn of the Censer (Ti-Shori) ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفي كل أيام الأصوام (ما عدا أيام الصوم الكبير وصوم نينوى) وفي سبوت وآحاد الصوم الكبير وفي عيدي الصليب تقال هذه عوضاً عن السابقة:",
+      "English": "On all fasting days (except during the Great Fast and Ninevites’ Fast), Saturdays and Sundays of the Great Fast, and on the two Feasts of the Cross, the following is chanted:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

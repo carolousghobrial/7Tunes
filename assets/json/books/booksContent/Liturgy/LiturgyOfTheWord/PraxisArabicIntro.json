@@ -1,0 +1,24 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مقدمة الإبركسيس",
+  "EnglishTitle": "The Introduction to the Acts",
+  "CopticTitle": "`Pra[ic `nte nenio;",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الإبركسيس فصل من أعمال آبائنا الرسل الأطهار المشمولين بنعمة الروح القدس بركتهم المقدسة فلتكن معنا آمين",
+      "English": "The Acts of our fathers the apostles who were invested with the grace of the Holy Spirit, may their holy blessings be with us all, Amen."
+    }
+  ]
+}

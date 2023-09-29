@@ -4,6 +4,22 @@
   "EnglishTitle": "The Signings",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وإذا أكمل الكاهن الدورة السابق ذكرها يقف مكانه أولاً غربي المذبح ووجهه إلى الشرق. ويضع الحمل (القربانة) على يده اليسرى. ويطامن برأسه لإخوته الكهنة ملتمساً منهم أن يباركوا. ",
+      "English": "The priest, having come around to the front of the altar, faces East, and uncovers the loaf and places it in his left hand. Then he inclines his head to his brethren, the priests, asking them to bless. "
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يلتفت إلى القربانة ويقرب إليها وعاء الخمر الذي يكون بيد الشماس اليمنى ملفوفة بلفافة حرير ويرشم الكاهن الاثنين معاً ثلاثة رشوم بمثال الصليب كالعادة. فأول ذلك يبتدئ قائلاً:",
+      "English": "Then the priest brings the loaf close to the cruet of wine in the deacon’s right hand, which is covered with a silk mat, and three times he makes the sign of the cross over both, saying:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -23,7 +39,15 @@
       "Coptic": "+en `vran `m`Viwt nem `p}hri nem pi`Pneuma eqouab ounou;`nouwt. ",
       "English": "In the name of the Father and the Son and the Holy Spirit, one God.",
       "Arabiccoptic": "خين إفران إم إفيوت نيم إبشيرى نيم بى إبنيفما إثؤواب أونوتى إن أوأوت",
-      "Englishcoptic": "Khen efran emeVioot nem Epsheeri nem pi-Epnrvma ethowab oonootienoot."
+      "Englishcoptic": "Khen efran em Eviot nem Epsheeri nem pi-Epnevma ethowab oo-nooti en-o-ot."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يرشم الرشم الأول وهو يقول:",
+      "English": "At the first signing, he says"
     },
     {
       "Type": "Base",
@@ -57,6 +81,14 @@
       "English": "Amen.",
       "Arabiccoptic": "آمين",
       "Englishcoptic": "Ameen."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يرشم الرشم الثاني وهو يقول:",
+      "English": "At the second signing, he says"
     },
     {
       "Type": "Base",
@@ -103,6 +135,14 @@
       "Englishcoptic": "-Ameen."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يرشم الرشم الثالث وهو يقول:",
+      "English": "At the third signing, he says"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -122,7 +162,7 @@
       "Coptic": "`F`cmarwout `nje pi`Pneuma eqouab `mParaklhton> `amhn.",
       "English": "Blessed be the Holy Spirit, the Paraclete. Amen.",
       "Arabiccoptic": "إف إزماروؤت إنجى بي إبنيفما إثؤواب إمباراكليتون. آمين.",
-      "Englishcoptic": "Ef-esmaro-ot enje pi-Epnrvma khekhthkhee emParakleeton: -ameen."
+      "Englishcoptic": "Ef-esmaro-ot enje pi-Epnevma khekhthkhee emParakleeton: -ameen."
     },
     {
       "Type": "Base",

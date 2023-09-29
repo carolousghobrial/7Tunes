@@ -1,0 +1,32 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": "مقدمة البولس",
+    "EnglishTitle": "The Introduction to the Pauline Epistle",
+    "CopticTitle": "Pauloc `vbwk",
+    "Hymn": [
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Reader",
+            "Arabic": "القارئ:",
+            "English": "Reader:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "بولس عبد ربنا يسوع المسيح الرسول المدعو المفرز لبشرى الله.",
+            "English": "Paul the Servant of our Lord Jesus Christ, called to be an apostle appointed to the Gospel of God."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فصل من بشارة معلمنا بولس الرسول \"\" الى \" \" بركتة تكون معنا امين",
+            "English": "A reading from  \" the first/ the second / the \" Epistle of our teacher Paul to \" ..... \" . May his holy blessings be with us Amen. "
+        }
+    ]
+}

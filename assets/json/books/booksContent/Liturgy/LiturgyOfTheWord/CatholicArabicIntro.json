@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مقدمة الكاثوليكون",
+  "EnglishTitle": "The Introduction of the Catholic Epistle",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الكاثوليكون من رسالة ابينا (...)،بركتة تكون معنا امين",
+      "English": "The catholic [epistle] from the epistle of our father (...),may his holy blessings be with us all Amen."
+    }
+  ]
+}

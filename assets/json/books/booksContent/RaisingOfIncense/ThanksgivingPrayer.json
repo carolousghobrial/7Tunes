@@ -70,6 +70,14 @@
       "Englishcoptic": "Epi Epros evki estathi te"
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويلتفت الكاهن إلى إِخوته الكهنة، ثم إلى الغرب، ويرشم الشعب رشماً واحداً بمثال الصليب وهو يقول",
+      "English": "The priest then turns to his brethren the priests before turning to the west and making the sign of the cross over the people, saying:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -455,6 +463,14 @@
       "Englishcoptic": "Efthonos niven pirasmos niven en ergia niven ente epsatanas, epsotchni ente han romy efho-o nem eptonf e-epshoi ente han gagi ni etheeb, nem ni eth-o-onh evol,"
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يطامن الكاهن رأسه إلى الشرق ويرشم ذاته بمثال الصليب قائلاً",
+      "English": "The priest bows his head towards the East and signs himself with the sign of the cross, saying:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -464,6 +480,14 @@
       "English": "Take them away from us",
       "Arabiccoptic": "آليتو إيفول هارن",
       "Englishcoptic": "Alito evol haron"
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يلتفت إلى الغرب عن يمينه ويرشم الشعب قائلا:",
+      "English": "Then he turns towards the west from his right and makes the sign of the cross over the people, saying the following:"
     },
     {
       "Type": "Base",
@@ -479,13 +503,40 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "inRaisingOfIncense",
       "Side": "North",
       "Arabic": "وعن هذه الكنيسةِ.",
       "Coptic": "Nem `ebol \\a taiekklhcia qai>",
       "English": "And from this church",
       "Arabiccoptic": "نيم إيفول هاتاي اكليسيا ثاي",
       "Englishcoptic": "Nem evol hatai eklisia thai,"
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": "inRaisingOfIncense",
+      "Side": "North",
+      "Arabic": "ثم يلتفت إلى الشرق :",
+      "English": "Then he turns towards the East"
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": "IsLiturgy",
+      "Side": "North",
+      "Arabic": "ثم يلتفت إلى الشرق ويرشم على المائدة قائلا:",
+      "English": "Then he turns towards the East, making the sign of the cross on the altar, saying"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "IsLiturgy",
+      "Side": "North",
+      "Arabic": "وعن هذه المائدة.",
+      "Coptic": "Nem `ebol \\a tai`etrapeza qai>",
+      "English": "And from this table",
+      "Arabiccoptic": "نيم إيفول هاتاي اترابيزا ثاي",
+      "Englishcoptic": "Nem evol hatai etrapeza thai,"
     },
     {
       "Type": "Base",

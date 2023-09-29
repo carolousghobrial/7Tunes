@@ -9,7 +9,7 @@
             "BookPath": "liturgyofStBasil",
             "ImageURL": "liturgyofStBasil",
             "Enabled": true,
-            "BishopButton": true
+            "Released": false
         },
         {
             "EnglishTitle": "Liturgy of St.Gregory",
@@ -20,7 +20,7 @@
             "BookPath": "liturgyofStGregory",
             "ImageURL": "liturgyofStGregory",
             "Enabled": true,
-            "BishopButton": true
+            "Released": false
         },
         {
             "EnglishTitle": "Liturgy of St.Cyril",
@@ -30,7 +30,7 @@
             "hasSubBooks": true,
             "BookPath": "liturgyofStCyril",
             "ImageURL": "liturgyofStCyril",
-            "Enabled": true
+            "Released": false
         }
     ]
 }
