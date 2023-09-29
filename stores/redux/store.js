@@ -19,7 +19,10 @@ const rootReducer = combineReducers({
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 async function checkAndPurge() {
   const shouldPurge = await AsyncStorage.getItem("shouldPurge");
-  if (shouldPurge === "true") {
+
+  if (shouldPurge === null) {
+    console.log("INSIDE");
+
     // Purge the store and update the flag
     persistor.purge();
     await AsyncStorage.setItem("shouldPurge", "false");
