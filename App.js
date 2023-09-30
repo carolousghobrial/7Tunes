@@ -58,7 +58,6 @@ function App() {
         //console.warn(e);
       } finally {
         // Tell the application to render
-        //setCurrentSeason();
         setAppIsReady(true);
       }
     }

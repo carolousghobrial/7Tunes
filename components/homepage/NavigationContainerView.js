@@ -44,9 +44,8 @@ function NavigationContainerView({ dispatch }) {
   useEffect(() => {
     async function prepare() {
       try {
-        dispatch(
-          setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
-        );
+        const season = setCurrentSeasonLive(timeTransition);
+        dispatch(setSeason({ currentSeason: season }));
 
         const isTablet =
           (await Device.getDeviceTypeAsync()) === 2 ? true : false;

@@ -709,7 +709,7 @@ export function getCurrentSeason(timeTransition) {
     if (
       (feast.end === null && feast.start.isSame(todayDate)) ||
       (feast.end !== null &&
-        todayDate.isBetween(feast.start, feast.end, null, "[)"))
+        todayDate.isBetween(feast.start, feast.end, null, "[]"))
     ) {
       collection.push(feast);
     }
