@@ -35,7 +35,7 @@ export const store = configureStore({
   ],
 });
 
-export const persistor = persistStore(store, null, checkAndPurge);
+export const persistor = persistStore(store);
 // In your app initialization logic or specific update/migration code
 // Set the flag to 'true' when you want to trigger the purge
 // This can be done during an app update or migration process
