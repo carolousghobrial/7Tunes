@@ -16,28 +16,11 @@ const rootReducer = combineReducers({
   // add other reducers here
 });
 
-const persistedReducer = persistReducer(persistConfig, rootReducer);
-async function checkAndPurge() {
-  const shouldPurge = await AsyncStorage.getItem("shouldPurge");
-  if (shouldPurge === "true") {
-    // Purge the store and update the flag
-    persistor.purge();
-    await AsyncStorage.setItem("shouldPurge", "false");
-  }
-}
 export const store = configureStore({
   reducer: persistedReducer,
   middleware: [
     /* add any middleware here */
   ],
-});
-AsyncStorage.getItem("shouldPurge").then((val) => {
-  console.log(val);
-  if (val === null) {
-    // Purge the store and update the flag
-    persistor.purge();
-    AsyncStorage.setItem("shouldPurge", false);
-  }
 });
 
 export const persistor = persistStore(store, null);
