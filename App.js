@@ -32,6 +32,8 @@ import * as Updates from "expo-updates";
 import * as ScreenOrientation from "expo-screen-orientation";
 import { setSeason } from "./stores/redux/settings.js";
 import { enableScreens } from "react-native-screens";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+
 enableScreens(false);
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
@@ -57,8 +59,12 @@ function App() {
       } finally {
         // Tell the application to render
         //setCurrentSeason();
-        persistor.persist();
-
+        const shouldPurge = await AsyncStorage.getItem("shouldPurge");
+        if (shouldPurge === "true") {
+          // Purge the store and update the flag
+          persistor.purge();
+          await AsyncStorage.setItem("shouldPurge", "false");
+        }
         setAppIsReady(true);
       }
     }
