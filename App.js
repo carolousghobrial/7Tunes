@@ -55,7 +55,7 @@ function App() {
         await ScreenOrientation.unlockAsync();
         await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
       } catch (e) {
-        //console.warn(e);
+        console.warn(e);
       } finally {
         // Tell the application to render
         setAppIsReady(true);
