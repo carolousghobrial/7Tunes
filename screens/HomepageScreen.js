@@ -173,8 +173,12 @@ function HomepageScreen({ navigation, route }) {
   }
 
   const onLongPress = async (item) => {
-    if (item.BishopButton !== undefined) {
-      // handlePresentModal();
+    try {
+      if (item.BishopButton !== undefined) {
+        handlePresentModal();
+      }
+    } catch (e) {
+      Alert.alert("Error", e);
     }
   };
 
