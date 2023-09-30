@@ -57,6 +57,8 @@ function App() {
       } finally {
         // Tell the application to render
         //setCurrentSeason();
+        persistor.persist();
+
         setAppIsReady(true);
       }
     }
