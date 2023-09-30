@@ -125,6 +125,7 @@ function PopeBishop() {
             </Pressable>
           </View>
         </View>
+        <BishopPresentView></BishopPresentView>
       </View>
     </>
   );

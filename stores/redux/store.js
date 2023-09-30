@@ -37,5 +37,9 @@ export const persistor = persistStore(store, null);
 // Set the flag to 'true' when you want to trigger the purge
 // This can be done during an app update or migration process
 // Ensure to set it to 'true' only when needed
-persistor.purge();
-console.log("DASD");
+const shouldPurge = await AsyncStorage.getItem("shouldPurge");
+if (shouldPurge === "true") {
+  // Purge the store and update the flag
+  persistor.purge();
+  await AsyncStorage.setItem("shouldPurge", "false");
+}
