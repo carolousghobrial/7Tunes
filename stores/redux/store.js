@@ -31,15 +31,17 @@ export const store = configureStore({
     /* add any middleware here */
   ],
 });
+AsyncStorage.getItem("shouldPurge").then((val) => {
+  console.log(val);
+  if (val === null) {
+    // Purge the store and update the flag
+    persistor.purge();
+    AsyncStorage.setItem("shouldPurge", false);
+  }
+});
 
 export const persistor = persistStore(store, null);
 // In your app initialization logic or specific update/migration code
 // Set the flag to 'true' when you want to trigger the purge
 // This can be done during an app update or migration process
 // Ensure to set it to 'true' only when needed
-const shouldPurge = await AsyncStorage.getItem("shouldPurge");
-if (shouldPurge === "true") {
-  // Purge the store and update the flag
-  persistor.purge();
-  await AsyncStorage.setItem("shouldPurge", "false");
-}
