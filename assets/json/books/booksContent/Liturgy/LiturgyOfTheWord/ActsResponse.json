@@ -52,12 +52,6 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseAnnunciation",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseLentWeekends",
             "Rule": 0,
             "Visible": "isSeason"
