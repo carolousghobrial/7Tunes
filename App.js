@@ -59,7 +59,6 @@ function App() {
       } finally {
         // Tell the application to render
         //setCurrentSeason();
-        persistor.purge();
         setAppIsReady(true);
       }
     }
