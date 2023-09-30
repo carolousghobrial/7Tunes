@@ -174,7 +174,7 @@ function HomepageScreen({ navigation, route }) {
 
   const onLongPress = async (item) => {
     if (item.BishopButton !== undefined) {
-      handlePresentModal();
+      // handlePresentModal();
     }
   };
 
