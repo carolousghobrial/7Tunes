@@ -19,10 +19,7 @@ const rootReducer = combineReducers({
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 async function checkAndPurge() {
   const shouldPurge = await AsyncStorage.getItem("shouldPurge");
-
-  if (shouldPurge === null) {
-    console.log("INSIDE");
-
+  if (shouldPurge === "true") {
     // Purge the store and update the flag
     persistor.purge();
     await AsyncStorage.setItem("shouldPurge", "false");
@@ -35,7 +32,7 @@ export const store = configureStore({
   ],
 });
 
-export const persistor = persistStore(store);
+export const persistor = persistStore(store, null);
 // In your app initialization logic or specific update/migration code
 // Set the flag to 'true' when you want to trigger the purge
 // This can be done during an app update or migration process
