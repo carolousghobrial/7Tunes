@@ -59,12 +59,7 @@ function App() {
       } finally {
         // Tell the application to render
         //setCurrentSeason();
-        const shouldPurge = await AsyncStorage.getItem("shouldPurge");
-        if (shouldPurge === "true") {
-          // Purge the store and update the flag
-          persistor.purge();
-          await AsyncStorage.setItem("shouldPurge", "false");
-        }
+        persistor.purge();
         setAppIsReady(true);
       }
     }
