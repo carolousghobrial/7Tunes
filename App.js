@@ -41,12 +41,6 @@ SplashScreen.preventAutoHideAsync();
 function App() {
   const [appIsReady, setAppIsReady] = useState(false);
 
-  const onUpdates = async () => {
-    try {
-      await Updates.fetchUpdateAsync();
-      await Updates.reloadAsync();
-    } catch (e) {}
-  };
   useEffect(() => {
     async function prepare() {
       try {
