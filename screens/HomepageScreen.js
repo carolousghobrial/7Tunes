@@ -69,6 +69,10 @@ function HomepageScreen({ navigation, route }) {
               text: "Restart the App",
               onPress: () => onUpdates(),
             },
+            {
+              text: "Cancel",
+              onPress: () => console.log("Cancel Pressed"),
+            },
           ],
           { cancelable: true }
         );
