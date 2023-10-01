@@ -53,7 +53,7 @@ function HomepageScreen({ navigation, route }) {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    onFetchUpdateAsync();
+    //onFetchUpdateAsync();
   }, [navigation]);
 
   const onFetchUpdateAsync = async () => {
