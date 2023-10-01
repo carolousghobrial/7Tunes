@@ -1,6 +1,9 @@
 {
   "expo": {
     "name": "7 Tunes",
+    "hermes": {
+      "enabled": true
+    },
     "slug": "7-tunes",
     "version": "6.8.1",
     "orientation": "default",
