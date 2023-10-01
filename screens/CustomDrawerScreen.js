@@ -56,12 +56,6 @@ const CustomDrawerScreen = (props) => {
     try {
       const update = await Updates.checkForUpdateAsync();
       if (update.isAvailable) {
-        Alert.alert("New Update!", "Please restart the app to apply updates", [
-          {
-            text: "Restart the App",
-            onPress: () => doUpdate(),
-          },
-        ]);
       }
     } catch (e) {
       alert(JSON.stringify(e));
