@@ -55,12 +55,15 @@
       "permissions": [
         "com.android.vending.BILLING"
       ],
-      "versionCode": 6222242,
+      "versionCode": 6222243,
       "adaptiveIcon": {
         "backgroundColor": "#F5F5DE",
         "foregroundImage": "./assets/images/logofinal.png"
       },
-      "package": "com.seventunes.tasbehafinal"
+      "package": "com.seventunes.tasbehafinal",
+      "hermes": {
+        "enabled": true
+      }
     },
     "web": {
       "favicon": "./assets/images/logofinal.png"
