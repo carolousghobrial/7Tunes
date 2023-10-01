@@ -61,17 +61,6 @@ function HomepageScreen({ navigation, route }) {
       const update = await Updates.checkForUpdateAsync();
 
       if (update.isAvailable) {
-        Alert.alert(
-          "New Update!",
-          "Please restart the app to apply updates",
-          [
-            {
-              text: "Restart the App",
-              onPress: () => onUpdates(),
-            },
-          ],
-          { cancelable: true }
-        );
       }
     } catch (error) {
       // You can also add an alert() to see the error message in case of an error when fetching updates.
