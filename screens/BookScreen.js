@@ -21,7 +21,6 @@ import TitleView from "../components/ViewTypes/TitleView";
 import RitualView from "../components/ViewTypes/RitualView";
 import ButtonView from "../components/ViewTypes/ButtonView";
 import MainTitleView from "../components/ViewTypes/MainTitleView";
-import ExpanderView from "../components/ViewTypes/ExpanderView";
 import BishopModal from "./BishopModal";
 import LoadingScreen from "./LoadingScreen";
 import SettingsModal from "../components/BottomBar/SettingsModal";
@@ -29,6 +28,7 @@ import ContentsModal from "../components/BottomBar/ContentsModal";
 import { getColor } from "../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 import FloatingButton from "../components/ViewTypes/FloatingBishopButton";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 const BookScreen = React.memo(({ navigation, route }) => {
   const { height, width } = useWindowDimensions();
@@ -197,34 +197,39 @@ const BookScreen = React.memo(({ navigation, route }) => {
   }
 
   return (
-    <BottomSheetModalProvider>
-      <SettingsModal bottomSheetRef={bottomSheetRef} snapPoints={snapPoints} />
-      <ContentsModal
-        bottomSheetRef={contentsSheetRef}
-        snapPoints={snapPoints}
-        currentTitle={navTitle}
-        visible={contentsModalVisible}
-        menuData={menuData}
-        scrollToKey={scrollToKey}
-      />
-      <FlatList
-        ref={flatListRef}
-        style={{ backgroundColor: pageBackgroundColor }}
-        onViewableItemsChanged={onViewableItemsChanged}
-        showsVerticalScrollIndicator={false}
-        data={bookContents}
-        pagingEnabled={pagination}
-        onScrollToIndexFailed={onScrollToIndexFailed}
-        initialNumToRender={bookContents.length}
-        bounces={false}
-        removeClippedSubviews={true}
-        renderItem={renderItems}
-        keyExtractor={(item) => item.key}
-      />
-      {bishopIsPresent && bishopButton && (
-        <FloatingButton navigation={navigation} />
-      )}
-    </BottomSheetModalProvider>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <BottomSheetModalProvider>
+        <SettingsModal
+          bottomSheetRef={bottomSheetRef}
+          snapPoints={snapPoints}
+        />
+        <ContentsModal
+          bottomSheetRef={contentsSheetRef}
+          snapPoints={snapPoints}
+          currentTitle={navTitle}
+          visible={contentsModalVisible}
+          menuData={menuData}
+          scrollToKey={scrollToKey}
+        />
+        <FlatList
+          ref={flatListRef}
+          style={{ backgroundColor: pageBackgroundColor }}
+          onViewableItemsChanged={onViewableItemsChanged}
+          showsVerticalScrollIndicator={false}
+          data={bookContents}
+          pagingEnabled={pagination}
+          onScrollToIndexFailed={onScrollToIndexFailed}
+          initialNumToRender={bookContents.length}
+          bounces={false}
+          removeClippedSubviews={true}
+          renderItem={renderItems}
+          keyExtractor={(item) => item.key}
+        />
+        {bishopIsPresent && bishopButton && (
+          <FloatingButton navigation={navigation} />
+        )}
+      </BottomSheetModalProvider>
+    </GestureHandlerRootView>
   );
 });
 

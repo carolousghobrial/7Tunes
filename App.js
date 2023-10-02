@@ -1,4 +1,3 @@
-import "react-native-gesture-handler";
 import { StatusBar } from "expo-status-bar";
 import { Ionicons } from "@expo/vector-icons";
 import { useState, useCallback, useEffect } from "react";

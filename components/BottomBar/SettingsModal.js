@@ -14,26 +14,19 @@ import {
   BottomSheetBackdrop,
 } from "@gorhom/bottom-sheet";
 
+import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
+
 import AppTheme from "../settings/appTheme";
 import FontSize from "../settings/fontSize";
 import VisibleLangs from "../settings/visibleLangs";
 import PresentationMode from "../settings/presentationMode";
-
-import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
 
 function SettingsModal({ bottomSheetRef, snapPoints }) {
   const { width, height } = useWindowDimensions();
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
 
-  let flexDirection = "column";
-  if (width > height) {
-    flexDirection = "row";
-  }
-
-  const wrapperStyle = {
-    flexDirection: flexDirection,
-  };
+  const flexDirection = width > height ? "row" : "column";
 
   const renderBackdrop = useCallback(
     (props) => (
@@ -46,9 +39,13 @@ function SettingsModal({ bottomSheetRef, snapPoints }) {
     []
   );
 
+  const closeBottomSheet = () => {
+    bottomSheetRef.current.dismiss();
+  };
+
   return (
     <BottomSheetModal
-      style={[styles.container, wrapperStyle]}
+      style={[styles.container, { flexDirection }]}
       backgroundStyle={{ backgroundColor: NavigationBarColor }}
       handleIndicatorStyle={{ backgroundColor: labelColor }}
       ref={bottomSheetRef}
@@ -61,10 +58,7 @@ function SettingsModal({ bottomSheetRef, snapPoints }) {
         {/* Close Button */}
         <View style={styles.header}>
           <Text style={[styles.title, { color: labelColor }]}>Settings</Text>
-          <Pressable
-            style={styles.closeButton}
-            onPress={() => bottomSheetRef.current.dismiss()}
-          >
+          <Pressable style={styles.closeButton} onPress={closeBottomSheet}>
             <AntDesign name="closecircle" size={30} color={labelColor} />
           </Pressable>
         </View>

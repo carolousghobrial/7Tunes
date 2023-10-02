@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
-
 import {
   View,
   Text,
@@ -19,7 +18,6 @@ import { AntDesign } from "@expo/vector-icons";
 
 import SearchBar from "../ViewTypes/SearchBar";
 import MenuItem from "./MenuItem";
-import MenuMainTitle from "./MenuMainTitle";
 
 function ContentsModal({
   bottomSheetRef,
@@ -30,38 +28,44 @@ function ContentsModal({
   scrollToKey,
 }) {
   const [clicked, setClicked] = useState(false);
-  const flatListRef = useRef();
+  const flatListRef = useRef(null);
   const [searchPhrase, setSearchPhrase] = useState("");
-  const [currentData, setcurrentData] = useState(menuData);
-  const [initialIndex, setInitialIndex] = useState(null);
+  const [currentData, setCurrentData] = useState(menuData);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const { present, dismiss } = useBottomSheetModal();
   const TableOfContents = getLanguageValue("TableOfContents");
 
-  const handleSearch = (text) => {
-    setSearchPhrase(text);
-    const filteredData = menuData.filter(
-      (item) =>
-        item.EnglishTitle.toLowerCase()?.includes(text.toLowerCase()) ||
-        item.ArabicTitle?.includes(text) ||
-        (item.CopticTitle !== undefined && item.CopticTitle?.includes(text))
-    );
-    setcurrentData(filteredData);
-  };
   useEffect(() => {
     try {
       const foundItem = menuData.findIndex(
-        (item) => item.EnglishTitle === currentTitle
+        (item) =>
+          item.EnglishTitle === currentTitle ||
+          item.ArabicTitle === currentTitle ||
+          (item.CopticTitle !== undefined && item.CopticTitle === currentTitle)
       );
-      setInitialIndex(foundItem);
+      flatListRef.current.scrollToIndex({
+        index: foundItem,
+        animated: false,
+      });
     } catch (e) {
-      Alert.alert(e);
+      console.error(e);
     }
   }, [currentTitle]);
 
   const { width, height } = useWindowDimensions();
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
+
+  const handleSearch = (text) => {
+    setSearchPhrase(text);
+    const filteredData = menuData.filter(
+      (item) =>
+        item.EnglishTitle.toLowerCase().includes(text.toLowerCase()) ||
+        item.ArabicTitle.includes(text) ||
+        (item.CopticTitle !== undefined && item.CopticTitle.includes(text))
+    );
+    setCurrentData(filteredData);
+  };
 
   const renderBackdrop = useCallback(
     (props) => (
@@ -73,20 +77,7 @@ function ContentsModal({
     ),
     []
   );
-  const onScrollToIndexFailed = (error) => {
-    flatListRef.current.scrollToOffset({
-      offset: error.averageItemLength * error.index,
-      animated: false,
-    });
-    setTimeout(() => {
-      if (flatListRef.current !== null) {
-        flatListRef.current.scrollToIndex({
-          index: error.index,
-          animated: false,
-        });
-      }
-    }, 10);
-  };
+
   return (
     <BottomSheetModal
       style={styles.container}
@@ -96,7 +87,6 @@ function ContentsModal({
       handleHeight={50}
       index={0}
       snapPoints={snapPoints}
-      backdropComponent={renderBackdrop}
     >
       <View style={styles.header}>
         <Text style={[styles.title, { color: labelColor }]}>
@@ -124,13 +114,12 @@ function ContentsModal({
           <MenuItem
             item={item}
             index={index}
-            HighlitedIndex={initialIndex}
+            HighlitedIndex={currentTitle === item.EnglishTitle ? index : -1}
             scrollToKey={scrollToKey}
           />
         )}
-        onScrollToIndexFailed={onScrollToIndexFailed}
         initialNumToRender={currentData.length}
-        initialScrollIndex={initialIndex}
+        keyExtractor={(item, index) => index.toString()}
       />
     </BottomSheetModal>
   );
