@@ -53,44 +53,44 @@ function HomepageScreen({ navigation, route }) {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    onFetchUpdateAsync();
+    // onFetchUpdateAsync();
   }, [navigation]);
 
-  const onFetchUpdateAsync = async () => {
-    try {
-      const update = await Updates.checkForUpdateAsync();
+  // const onFetchUpdateAsync = async () => {
+  //   try {
+  //     const update = await Updates.checkForUpdateAsync();
 
-      if (update.isAvailable) {
-        Alert.alert(
-          "New Update!",
-          "Please restart the app to apply updates",
-          [
-            {
-              text: "Restart the App",
-              onPress: () => onUpdates(),
-            },
-            {
-              text: "Cancel",
-              onPress: () => console.log("Cancel Pressed"),
-            },
-          ],
-          { cancelable: true }
-        );
-      }
-    } catch (error) {
-      // You can also add an alert() to see the error message in case of an error when fetching updates.
-      // alert(`Error fetching latest Expo update: ${error}`);
-    }
-  };
+  //     if (update.isAvailable) {
+  //       Alert.alert(
+  //         "New Update!",
+  //         "Please restart the app to apply updates",
+  //         [
+  //           {
+  //             text: "Restart the App",
+  //             onPress: () => onUpdates(),
+  //           },
+  //           {
+  //             text: "Cancel",
+  //             onPress: () => console.log("Cancel Pressed"),
+  //           },
+  //         ],
+  //         { cancelable: true }
+  //       );
+  //     }
+  //   } catch (error) {
+  //     // You can also add an alert() to see the error message in case of an error when fetching updates.
+  //     // alert(`Error fetching latest Expo update: ${error}`);
+  //   }
+  // };
 
-  const onUpdates = async () => {
-    try {
-      await Updates.fetchUpdateAsync();
-      await Updates.reloadAsync();
-    } catch (e) {
-      alert(JSON.stringify(e));
-    }
-  };
+  // const onUpdates = async () => {
+  //   try {
+  //     await Updates.fetchUpdateAsync();
+  //     await Updates.reloadAsync();
+  //   } catch (e) {
+  //     alert(JSON.stringify(e));
+  //   }
+  // };
 
   async function bookClick(item) {
     var isBought = false;

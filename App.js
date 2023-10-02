@@ -27,7 +27,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { Glassfy, GlassfySku } from "react-native-glassfy-module";
 //import Purchases from "react-native-purchases";
-import * as Updates from "expo-updates";
 import * as ScreenOrientation from "expo-screen-orientation";
 import { setSeason } from "./stores/redux/settings.js";
 import { enableScreens } from "react-native-screens";
