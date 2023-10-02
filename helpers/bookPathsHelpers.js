@@ -1319,8 +1319,7 @@ const bookPaths = {
   LiturgyLiturgyOfTheWordPapalHymnsPiEhmotGharGreat: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/PapalHymns/PiEhmotGharGreat.json"),
   LiturgyLiturgyOfTheWordPapalHymnsTiMeetEsnoti: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/PapalHymns/TiMeetEsnoti.json"),
   LiturgyLiturgyOfTheWordPapalHymnsToMakario: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/PapalHymns/ToMakario.json"),
-  //Liturgy\LiturgyOfTheWord\ActsResponses
-  // LiturgyLiturgyOfTheWordActsResponsesActsResponseAnnunciation: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/ActsResponseAnnunciation.json"),
+  LiturgyLiturgyOfTheWordActsResponsesActsResponseAnnunciation: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/ActsResponseAnnunciation.json"),
   LiturgyLiturgyOfTheWordActsResponsesActsResponseAscension: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/ActsResponseAscension.json"),
   LiturgyLiturgyOfTheWordActsResponsesActsResponseCircumcision: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/ActsResponseCircumcision.json"),
   LiturgyLiturgyOfTheWordActsResponsesActsResponseConclusion: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/ActsResponseConclusion.json"),
