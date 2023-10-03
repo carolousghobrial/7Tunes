@@ -3,7 +3,7 @@ import { StyleSheet, Text, Pressable, FlatList } from "react-native";
 import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
 import Icon from "react-native-vector-icons/Ionicons";
 import { useDispatch, useSelector } from "react-redux";
-
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 import {
   getLanguageValue,
   getFontSize,
@@ -95,18 +95,23 @@ const ViewSingleHymn = memo(({ navigation, route }) => {
   };
 
   return (
-    <BottomSheetModalProvider>
-      <SettingsModal bottomSheetRef={bottomSheetRef} snapPoints={snapPoints} />
-      <FlatList
-        ref={flatListRef}
-        style={{ backgroundColor: pageBackgroundColor }}
-        showsVerticalScrollIndicator={false}
-        data={data}
-        removeClippedSubviews={true}
-        renderItem={renderItems}
-        keyExtractor={(item) => item.key}
-      />
-    </BottomSheetModalProvider>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <BottomSheetModalProvider>
+        <SettingsModal
+          bottomSheetRef={bottomSheetRef}
+          snapPoints={snapPoints}
+        />
+        <FlatList
+          ref={flatListRef}
+          style={{ backgroundColor: pageBackgroundColor }}
+          showsVerticalScrollIndicator={false}
+          data={data}
+          removeClippedSubviews={true}
+          renderItem={renderItems}
+          keyExtractor={(item) => item.key}
+        />
+      </BottomSheetModalProvider>
+    </GestureHandlerRootView>
   );
 });
 

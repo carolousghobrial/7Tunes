@@ -64,8 +64,8 @@
       "Visible": "ISDioceseMetropolitainAlways",
       "Side": "North",
       "Arabic": "وشريكَهُ في الخدمةِ الرسولية أبانا المطران المكرم أنبا [*DIOCESE_BISHOP*].",
-      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `nmmhtropolithc abba [*DIOCESE_BISHOP*]",
-      "English": "And his partner in the liturgy, our father the metropolitan, Abba [*DIOCESE_BISHOP*]",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`nmmhtropolithc abba [*DIOCESE_BISHOP*]",
+      "English": "And his partner in the apostolic liturgy, our holy father the metropolitan, Abba [*DIOCESE_BISHOP*]",
       "Arabiccoptic": "نيم بيف أشفير انليتورغوس بينيوت إن ميتروبوليتيس افا [*DIOCESE_BISHOP*]",
       "Englishcoptic": "Nem pef ke eshveer enlitorghos peniot en meetropolitees ava [*DIOCESE_BISHOP*]"
     },
@@ -75,8 +75,8 @@
       "Visible": "ISDioceseBishopAlways",
       "Side": "North",
       "Arabic": "وشريكَهُ في الخدمةِ [الرسولية] أبانا الأسقف المكرم أنبا [*DIOCESE_BISHOP*].",
-      "Coptic": "Nem pefke`]vhr `nlitourgoc peniwt `n`epickopoc abba [*DIOCESE_BISHOP*]",
-      "English": "And his partner in the liturgy, our father the bishop, Abba [*DIOCESE_BISHOP*]",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`n`epickopoc abba [*DIOCESE_BISHOP*]",
+      "English": "And his partner in the apostolic liturgy, our holy father the bishop, Abba [*DIOCESE_BISHOP*]",
       "Arabiccoptic": "نيم بيف أشفير انليتورغوس بينيوت إن إبيسكوبوس افا [*DIOCESE_BISHOP*]",
       "Englishcoptic": "Nem pef ke eshveer enlitorghos peniot en epes-kopos ava [*DIOCESE_BISHOP*]"
     },

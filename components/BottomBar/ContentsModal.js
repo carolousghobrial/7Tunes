@@ -47,9 +47,7 @@ function ContentsModal({
         index: foundItem,
         animated: false,
       });
-    } catch (e) {
-      console.error(e);
-    }
+    } catch (e) {}
   }, [currentTitle]);
 
   const { width, height } = useWindowDimensions();
@@ -87,6 +85,7 @@ function ContentsModal({
       handleHeight={50}
       index={0}
       snapPoints={snapPoints}
+      backdropComponent={renderBackdrop}
     >
       <View style={styles.header}>
         <Text style={[styles.title, { color: labelColor }]}>
