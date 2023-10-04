@@ -20,6 +20,7 @@ const settingsSlice = createSlice({
     standardPsalmodyPermission: false,
     kiahkPsalmodyPermission: false,
     paschaBookPermission: false,
+    holyLiturgyPermission: false,
     timeTransition: new Date().setHours(18, 0, 0),
     pagination: false,
     isTablet: false,
@@ -219,6 +220,11 @@ const settingsSlice = createSlice({
           return {
             ...state,
             paschaBookPermission: true,
+          };
+        case "holyLiturgyPermission":
+          return {
+            ...state,
+            holyLiturgyPermission: true,
           };
       }
     },

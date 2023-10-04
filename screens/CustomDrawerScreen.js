@@ -84,6 +84,11 @@ const CustomDrawerScreen = (props) => {
           permissionId: "paschaBookPermission",
         })
       );
+      dispatch(
+        setItemPurchased({
+          permissionId: "holyLiturgyPermission",
+        })
+      );
       Alert.alert("Success");
     } catch (e) {
       alert(JSON.stringify(e));

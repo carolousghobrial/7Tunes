@@ -317,7 +317,7 @@
             "Visible": "ISDioceseBishop",
             "Side": "North",
             "Arabic": "وشريكَهُ في الخدمةِ [الرسولية] أبانا الأسقف المكرم أنبا [*DIOCESE_BISHOP*].",
-            "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`n`epickopoc abba [*DIOCESE_BISHOP*]",
+            "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc abba [*DIOCESE_BISHOP*]",
             "English": "And his partner in the apostolic liturgy, our holy father the bishop, Abba [*DIOCESE_BISHOP*]",
             "Arabiccoptic": "نيم بيف أشفير انليتورغوس بينيوت إن إبيسكوبوس افا [*DIOCESE_BISHOP*]",
             "Englishcoptic": "Nem pef ke eshveer enlitorghos peniot en epes-kopos ava [*DIOCESE_BISHOP*]"
@@ -328,7 +328,7 @@
             "Visible": "IsDiocesePope",
             "Side": "North",
             "Arabic": "وشريكَهُ في الخدمةِ [الرسولية] أبانا الأسقف المكرم أنبا ___.",
-            "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`n`epickopoc abba (…)",
+            "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc abba (…)",
             "English": "And his partner in the apostolic liturgy, our holy father the bishop, Abba (..)",
             "Arabiccoptic": "نيم بيف أشفير انليتورغوس بينيوت إن إبيسكوبوس افا...",
             "Englishcoptic": "Nem pef ke eshveer enlitorghos peniot en epes-kopos ava….."
@@ -394,7 +394,7 @@
             "Visible": "ISDioceseBishop",
             "Side": "North",
             "Arabic": "وشريكَهُ في الخدمةِ [الرسولية] أبانا الأسقف المكرم أنبا [*DIOCESE_BISHOP*].",
-            "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`n`epickopoc abba [*DIOCESE_BISHOP*]",
+            "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc abba [*DIOCESE_BISHOP*]",
             "English": "And his partner in the apostolic liturgy, our holy father the bishop, Abba [*DIOCESE_BISHOP*]",
             "Arabiccoptic": "نيم بيف أشفير انليتورغوس بينيوت إن إبيسكوبوس افا [*DIOCESE_BISHOP*]",
             "Englishcoptic": "Nem pef ke eshveer enlitorghos peniot en epes-kopos ava [*DIOCESE_BISHOP*]"
@@ -405,7 +405,7 @@
             "Visible": "IsDiocesePope",
             "Side": "North",
             "Arabic": "وشريكَهُ في الخدمةِ [الرسولية] أبانا الأسقف المكرم أنبا ___.",
-            "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`n`epickopoc abba (…)",
+            "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc abba (…)",
             "English": "And his partner in the apostolic liturgy, our holy father the bishop, Abba (..)",
             "Arabiccoptic": "نيم بيف أشفير انليتورغوس بينيوت إن إبيسكوبوس افا...",
             "Englishcoptic": "Nem pef ke eshveer enlitorghos peniot en epes-kopos ava….."

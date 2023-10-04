@@ -48,6 +48,9 @@ function HomepageScreen({ navigation, route }) {
   const isPaschaBought = useSelector(
     (state) => state.settings.paschaBookPermission
   );
+  const isLiturgyBought = useSelector(
+    (state) => state.settings.holyLiturgyPermission
+  );
   const [isLoading, setIsLoading] = useState(false);
   const [bishopModalVisible, setbishopModalVisible] = useState(false);
   const dispatch = useDispatch();
@@ -94,6 +97,9 @@ function HomepageScreen({ navigation, route }) {
         break;
       case "paschaBookPermission":
         isBought = isPaschaBought;
+        break;
+      case "holyLiturgyPermission":
+        isBought = isLiturgyBought;
         break;
     }
 
