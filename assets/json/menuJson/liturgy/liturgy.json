@@ -31,7 +31,9 @@
             "BookPath": "liturgyMenu",
             "ImageURL": "communion",
             "Enabled": false,
-            "PermissionStatus": "holyLiturgyPermission"
+            "PermissionStatus": "holyLiturgyPermission",
+            "PurchaseKey": "HolyLiturgy",
+            "Released": false,
         }
     ]
 }
