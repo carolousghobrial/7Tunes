@@ -117,7 +117,6 @@ function FullFeastsScreen() {
 
   function handleSearch(text) {
     setSearchPhrase(text);
-    console.log(text);
     const filteredData = data.filter(
       (item) =>
         Languages["eng"][item.key]

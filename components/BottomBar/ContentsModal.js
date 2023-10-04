@@ -27,13 +27,16 @@ function ContentsModal({
   menuData,
   scrollToKey,
 }) {
+  const NavigationBarColor = getColor("NavigationBarColor");
+  const labelColor = getColor("LabelColor");
   const [clicked, setClicked] = useState(false);
   const flatListRef = useRef(null);
   const [searchPhrase, setSearchPhrase] = useState("");
   const [currentData, setCurrentData] = useState(menuData);
+  const [initialIndex, setInitialIndex] = useState(null);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
-  const { present, dismiss } = useBottomSheetModal();
   const TableOfContents = getLanguageValue("TableOfContents");
+  const { width, height } = useWindowDimensions();
 
   useEffect(() => {
     try {
@@ -43,26 +46,36 @@ function ContentsModal({
           item.ArabicTitle === currentTitle ||
           (item.CopticTitle !== undefined && item.CopticTitle === currentTitle)
       );
-      flatListRef.current.scrollToIndex({
-        index: foundItem,
-        animated: false,
-      });
+      if (foundItem !== -1) {
+        setInitialIndex(foundItem);
+      }
     } catch (e) {}
   }, [currentTitle]);
-
-  const { width, height } = useWindowDimensions();
-  const NavigationBarColor = getColor("NavigationBarColor");
-  const labelColor = getColor("LabelColor");
+  const onScrollToIndexFailed = (error) => {
+    flatListRef.current.scrollToOffset({
+      offset: error.averageItemLength * error.index,
+      animated: false,
+    });
+    setTimeout(() => {
+      if (flatListRef.current !== null) {
+        flatListRef.current.scrollToIndex({
+          index: error.index,
+          animated: false,
+        });
+      }
+    }, 10);
+  };
 
   const handleSearch = (text) => {
-    setSearchPhrase(text);
-    const filteredData = menuData.filter(
-      (item) =>
-        item.EnglishTitle.toLowerCase().includes(text.toLowerCase()) ||
-        item.ArabicTitle.includes(text) ||
-        (item.CopticTitle !== undefined && item.CopticTitle.includes(text))
-    );
-    setCurrentData(filteredData);
+    try {
+      const filteredData = menuData.filter(
+        (item) =>
+          item.EnglishTitle.toLowerCase().includes(text.toLowerCase()) ||
+          item.ArabicTitle.includes(text) ||
+          (item.CopticTitle !== undefined && item.CopticTitle.includes(text))
+      );
+      setCurrentData(filteredData);
+    } catch (e) {}
   };
 
   const renderBackdrop = useCallback(
@@ -98,13 +111,7 @@ function ContentsModal({
           <AntDesign name="closecircle" size={30} color={labelColor} />
         </Pressable>
       </View>
-      <SearchBar
-        setClicked={setClicked}
-        searchPhrase={searchPhrase}
-        handleSearch={handleSearch}
-        setSearchPhrase={setSearchPhrase}
-        clicked={clicked}
-      />
+
       <FlatList
         style={[styles.flatList, { backgroundColor: NavigationBarColor }]}
         ref={flatListRef}
@@ -117,7 +124,9 @@ function ContentsModal({
             scrollToKey={scrollToKey}
           />
         )}
-        initialNumToRender={currentData.length}
+        onScrollToIndexFailed={onScrollToIndexFailed}
+        initialNumToRender={menuData.length}
+        initialScrollIndex={initialIndex}
         keyExtractor={(item, index) => index.toString()}
       />
     </BottomSheetModal>

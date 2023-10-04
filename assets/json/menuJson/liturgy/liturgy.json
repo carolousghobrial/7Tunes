@@ -33,7 +33,7 @@
             "Enabled": false,
             "PermissionStatus": "holyLiturgyPermission",
             "PurchaseKey": "HolyLiturgy",
-            "Released": false,
+            "Released": false
         }
     ]
 }
