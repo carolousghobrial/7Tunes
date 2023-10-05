@@ -24,6 +24,7 @@ import Colors from "../../constants/colors";
 import SettingsScreen from "../../screens/SettingsScreen";
 import CustomDrawerScreen from "../../screens/CustomDrawerScreen";
 import FullFeastsScreen from "../../screens/FullFeastsScreen";
+import BigSearchScreen from "../../screens/BigSearchScreen";
 import SaintsList from "../settings/saintsList";
 import ContentsModal from "../BottomBar/ContentsModal.js";
 import SettingsModal from "../BottomBar/SettingsModal.js";
@@ -109,6 +110,16 @@ function NavigationContainerView({ dispatch }) {
             ),
           }}
         />
+        {/* <Drawer.Screen
+          name="BigSearchScreen"
+          component={BigSearchScreen}
+          options={{
+            title: "BigSearchScreen",
+            drawerIcon: ({ color, size }) => (
+              <FontAwesome5 name="cross" size={24} color="black" />
+            ),
+          }}
+        /> */}
         <Drawer.Screen
           name="SaintsList"
           component={SaintsList}

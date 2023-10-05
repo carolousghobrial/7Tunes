@@ -6,8 +6,9 @@ import {
   ActivityIndicator,
   Alert,
 } from "react-native";
+import bookPaths from "../helpers/bookPathsHelpers";
 import { store, persistor } from "../stores/redux/store";
-
+import SearchBar from "../components/ViewTypes/SearchBar";
 import { useDispatch, useSelector } from "react-redux";
 import { Glassfy } from "react-native-glassfy-module";
 import { getColor } from "../helpers/SettingsHelpers.js";
@@ -28,7 +29,19 @@ import BishopPresentView from "./BishopPresentView.js";
 
 function HomepageScreen({ navigation, route }) {
   const timeTransition = useSelector((state) => state.settings.timeTransition);
+  const [clicked, setClicked] = useState(false);
+  const [searchPhrase, setSearchPhrase] = useState("");
+  const [currentData, setCurrentData] = useState([]);
+  const searchTerm = "John"; // The value you want to search for
+  const results = [];
 
+  // Using a for...in loop to search for the value
+  // for (const key in bookPaths) {
+  //   results.push(
+  //     bookPaths[key].Hymn.filter((item) => item.English?.includes(searchTerm))
+  //   );
+  //   console.log(results);
+  // }
   const bottomSheetRef = useRef(null);
 
   // variables
@@ -54,7 +67,15 @@ function HomepageScreen({ navigation, route }) {
   const [isLoading, setIsLoading] = useState(false);
   const [bishopModalVisible, setbishopModalVisible] = useState(false);
   const dispatch = useDispatch();
-
+  function handleSearch(text) {
+    setSearchPhrase(text);
+    // const filteredData = tempLang.filter(
+    //   (item) =>
+    //     item.titleKey.toLowerCase()?.includes(text.toLowerCase()) ||
+    //     item.titleKey?.includes(text)
+    // );
+    // setcurrentData(filteredData);
+  }
   useEffect(() => {
     onFetchUpdateAsync();
   }, [navigation]);
@@ -108,7 +129,6 @@ function HomepageScreen({ navigation, route }) {
       return;
     } else if (item.Enabled === false) {
       setIsLoading(true);
-      console.log("HERE");
       if (!isBought) {
         await Glassfy.restorePurchases();
 
@@ -184,9 +204,7 @@ function HomepageScreen({ navigation, route }) {
       if (item.BishopButton !== undefined) {
         handlePresentModal();
       }
-    } catch (e) {
-      Alert.alert("Error", e);
-    }
+    } catch (e) {}
   };
 
   return (
@@ -194,6 +212,7 @@ function HomepageScreen({ navigation, route }) {
       <BishopModal bottomSheetRef={bottomSheetRef} snapPoints={snapPoints} />
       <View style={styles.container}>
         {isLoading ? <ActivityIndicator size="large" color="black" /> : null}
+
         <FlatList
           data={data.books}
           horizontal={false}

@@ -91,7 +91,6 @@ function ContentsModal({
 
   return (
     <BottomSheetModal
-      style={styles.container}
       backgroundStyle={{ backgroundColor: NavigationBarColor }}
       handleIndicatorStyle={{ backgroundColor: labelColor }}
       ref={bottomSheetRef}
