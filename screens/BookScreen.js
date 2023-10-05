@@ -197,7 +197,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   }
 
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
+    <GestureHandlerRootView>
       <BottomSheetModalProvider>
         <SettingsModal
           bottomSheetRef={bottomSheetRef}
