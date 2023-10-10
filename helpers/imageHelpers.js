@@ -11,6 +11,7 @@ const images = {
   annuciation: require("../assets/images/annuciation.jpg"),
   brightsaturday: require("../assets/images/brightsaturday.jpg"),
   censer: require("../assets/images/censer.jpg"),
+  matins: require("../assets/images/matins.jpg"),
   coptic: require("../assets/images/coptic.png"),
   communion: require("../assets/images/communion.jpg"),
   paschathursday: require("../assets/images/covenantThursday.jpg"),

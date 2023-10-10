@@ -19,6 +19,7 @@ import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
 import HomepageScreen from "../../screens/HomepageScreen";
 import BookScreen from "../../screens/BookScreen";
 import ViewSingleHymn from "../../screens/ViewSingleHymn";
+import ViewSingleHymnSearch from "../../screens/ViewSingleHymnSearch";
 import LoadingScreen from "../../screens/LoadingScreen";
 import Colors from "../../constants/colors";
 import SettingsScreen from "../../screens/SettingsScreen";
@@ -172,6 +173,10 @@ function NavigationContainerView({ dispatch }) {
         <Stack.Screen name="ContentsModal" component={ContentsModal} />
         <Stack.Screen name="SettingsModal" component={SettingsModal} />
         <Stack.Screen name="ViewSingleHymn" component={ViewSingleHymn} />
+        <Stack.Screen
+          name="ViewSingleHymnSearch"
+          component={ViewSingleHymnSearch}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

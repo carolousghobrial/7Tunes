@@ -94,6 +94,18 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyOffertoryAlElOrban",
+            "Rule": 0,
+            "Visible": "IsNonFastingDays"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryApinavShopi",
+            "Rule": 0,
+            "Visible": "IsFastingDays"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyOffertoryProcessionOfLamb",
             "Rule": 0,
             "Visible": true

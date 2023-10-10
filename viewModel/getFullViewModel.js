@@ -187,7 +187,7 @@ export function addItemsToArray(part, thisRule) {
   const keywords = [
     "[*COME/RISEN*]",
     "[*ROICONCLUSION*]",
-    "*GOSPEL_AUTHOR*]",
+    "[*GOSPEL_AUTHOR*]",
     "[*PROPHECIES_AUTHOR*]",
     "[*PASCHA_HOUR_DAY*]",
     "[*HOMILY_FATHER*]",
@@ -238,10 +238,24 @@ export function addItemsToArray(part, thisRule) {
         case "[*METROPOLITAIN_PRESENT*]":
           myrule = REPLACEMETROPOLITAINAVAILABLE();
           break;
+        case "[*METROPOLITAIN_PRESENT2*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLETWO();
+          break;
+        case "[*METROPOLITAIN_PRESENT3*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLETHREE();
+          break;
+        case "[*BISHOP_PRESENT*]":
+          myrule = REPLACEBISHOPAVAILABLE();
+          break;
+        case "[*BISHOP_PRESENT2*]":
+          myrule = REPLACEBISHOPAVAILABLETWO();
+          break;
+        case "[*BISHOP_PRESENT3*]":
+          myrule = REPLACEBISHOPAVAILABLETHREE();
+          break;
         default:
           break;
       }
-
       // Apply the rule to the 'newPart' object properties
       newPart = {
         ...newPart,
@@ -279,8 +293,29 @@ export function addItemsToArray(part, thisRule) {
         case "[*POPE*]":
           myrule = REPLACEPOPE();
           break;
+        case "[*ANTIOCH_POPE*]":
+          myrule = REPLACANTIOCHEPOPE();
+          break;
         case "[*DIOCESE_BISHOP*]":
           myrule = REPLACEDIOCESEBISHOP();
+          break;
+        case "[*METROPOLITAIN_PRESENT*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLE();
+          break;
+        case "[*METROPOLITAIN_PRESENT2*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLETWO();
+          break;
+        case "[*METROPOLITAIN_PRESENT3*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLETHREE();
+          break;
+        case "[*BISHOP_PRESENT*]":
+          myrule = REPLACEBISHOPAVAILABLE();
+          break;
+        case "[*BISHOP_PRESENT2*]":
+          myrule = REPLACEBISHOPAVAILABLETWO();
+          break;
+        case "[*BISHOP_PRESENT3*]":
+          myrule = REPLACEBISHOPAVAILABLETHREE();
           break;
         default:
           break;
@@ -365,6 +400,24 @@ export function addItemsToArray(part, thisRule) {
           break;
         case "[*DIOCESE_BISHOP*]":
           myrule = REPLACEDIOCESEBISHOP();
+          break;
+        case "[*METROPOLITAIN_PRESENT*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLE();
+          break;
+        case "[*METROPOLITAIN_PRESENT2*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLETWO();
+          break;
+        case "[*METROPOLITAIN_PRESENT3*]":
+          myrule = REPLACEMETROPOLITAINAVAILABLETHREE();
+          break;
+        case "[*BISHOP_PRESENT*]":
+          myrule = REPLACEBISHOPAVAILABLE();
+          break;
+        case "[*BISHOP_PRESENT2*]":
+          myrule = REPLACEBISHOPAVAILABLETWO();
+          break;
+        case "[*BISHOP_PRESENT3*]":
+          myrule = REPLACEBISHOPAVAILABLETHREE();
           break;
         default:
           break;

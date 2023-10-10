@@ -1,0 +1,38 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "هلليلويا (القربان)",
+  "CopticTitle": "Allhlouia ",
+  "EnglishTitle": "Alleluia (The Korban)",
+  "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقول الشعب في أيام السبوت والآحاد (ما عدا في سبوت وأحاد الصوم المقدس)، وفي الأعياد السيدية والخمسين وكل أيام الإفطار (مز 24:117 –26).",
+      "English": "On Saturdays and Sundays (except during the Great Fast), on feasts of our Lord, on Paschaltide, and on all days of non-fasting, the people chant from Psalm 117: 24-26."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا.",
+      "Coptic": "Allhlouia",
+      "English": "Alleluia. ",
+      "Arabiccoptic": "الليلويا",
+      "Englishcoptic": "Alleelooia. "
+    }
+  ]
+}

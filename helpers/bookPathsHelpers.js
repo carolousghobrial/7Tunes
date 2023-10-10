@@ -238,6 +238,7 @@ const bookPaths = {
   RaisingOfIncensePalmSundayProcessionStMary: require("../assets/json/books/booksContent/RaisingOfIncense/PalmSundayProcession/StMary.json"),
   //RaisingOfIncense\PsalmResponses
   RaisingOfIncensePsalmResponsesAnnunciation: require("../assets/json/books/booksContent/RaisingOfIncense/PsalmResponses/Annunciation.json"),
+  RaisingOfIncensePsalmResponsesStandard: require("../assets/json/books/booksContent/RaisingOfIncense/PsalmResponses/Standard.json"),
   RaisingOfIncensePsalmResponsesTwentyNinth: require("../assets/json/books/booksContent/RaisingOfIncense/PsalmResponses/29thCopticMonth.json"),
   RaisingOfIncensePsalmResponsesCircumcision: require("../assets/json/books/booksContent/RaisingOfIncense/PsalmResponses/Circumcision.json"),
   RaisingOfIncensePsalmResponsesWeddingCana: require("../assets/json/books/booksContent/RaisingOfIncense/PsalmResponses/WeddingCana.json"),
@@ -1238,6 +1239,8 @@ const bookPaths = {
   LiturgyOffertoryAlleluiaEiEee: require("../assets/json/books/booksContent/Liturgy/Offertory/AlleluiaEiEee.json"),
   LiturgyOffertoryAlleluiaFaiPePi: require("../assets/json/books/booksContent/Liturgy/Offertory/AlleluiaFaiPePi.json"),
   LiturgyOffertoryAlleluiaJeEfmevi: require("../assets/json/books/booksContent/Liturgy/Offertory/AlleluiaJeEfmevi.json"),
+  LiturgyOffertoryAlElOrban: require("../assets/json/books/booksContent/Liturgy/Offertory/AlElOrban.json"),
+  LiturgyOffertoryApinavShopi: require("../assets/json/books/booksContent/Liturgy/Offertory/ApinavShopi.json"),
   LiturgyOffertorySotees: require("../assets/json/books/booksContent/Liturgy/Offertory/Sotees.json"),
   LiturgyOffertoryIsPatir: require("../assets/json/books/booksContent/Liturgy/Offertory/IsPatir.json"),
   LiturgyOffertoryIsPatirGreat: require("../assets/json/books/booksContent/Liturgy/Offertory/IsPatirGreat.json"),

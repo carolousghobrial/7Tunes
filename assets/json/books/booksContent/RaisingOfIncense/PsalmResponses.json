@@ -5,6 +5,12 @@
     "Hymn": [
         {
             "Type": "Main",
+            "Path": "RaisingOfIncensePsalmResponsesStandard",
+            "Rule": 0,
+            "Visible": "isStandardSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncensePsalmResponsesNayrooz",
             "Rule": 0,
             "Visible": "isSeason"

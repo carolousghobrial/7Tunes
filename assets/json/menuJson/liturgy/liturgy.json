@@ -18,13 +18,13 @@
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
             "BookPath": "matins",
-            "ImageURL": "censer",
+            "ImageURL": "matins",
             "Enabled": true,
             "BishopButton": true
         },
         {
             "EnglishTitle": "Holy Liturgy",
-            "ArabicTitle": "القداس الألهي",
+            "ArabicTitle": "القداس الإلهي",
             "PurchaseKeyDroid": "holypaschaid",
             "PurchaseKeyIos": "holypaschasku",
             "hasSubBooks": true,
@@ -32,8 +32,7 @@
             "ImageURL": "communion",
             "Enabled": false,
             "PermissionStatus": "holyLiturgyPermission",
-            "PurchaseKey": "HolyLiturgy",
-            "Released": false
+            "PurchaseKey": "HolyLiturgy"
         }
     ]
 }

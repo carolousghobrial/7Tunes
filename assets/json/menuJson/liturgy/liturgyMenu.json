@@ -42,7 +42,8 @@
             "BookPath": "communion",
             "ImageURL": "communion",
             "Enabled": false,
-            "BishopButton": true
+            "BishopButton": true,
+            "Released": false
         }
     ]
 }
