@@ -437,6 +437,7 @@ const homescreenPaths = {
   gospelResponsesIndex: require("../assets/json/books/booksTable/Index/gospelResponses.json"),
   theotokiasIndex: require("../assets/json/books/booksTable/Index/theotokias.json"),
   papalIndex: require("../assets/json/books/booksTable/Index/papalHymns.json"),
+  hitensIndex: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens.json"),
 };
 
 export default homescreenPaths;
