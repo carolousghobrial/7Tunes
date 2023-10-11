@@ -8,6 +8,7 @@ import {
   useWindowDimensions,
 } from "react-native";
 import "expo-dev-client";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 import * as SplashScreen from "expo-splash-screen";
 import useFonts from "./helpers/useFonts";
 import HomepageScreen from "./screens/HomepageScreen";
@@ -73,20 +74,22 @@ function App() {
   }
 
   return (
-    <SafeAreaView style={styles.container} onLayout={onLayoutRootView}>
-      <StatusBar style="auto" translucent={true} hidden={true} />
-      <ImageBackground
-        source={require("./assets/images/copticBackground.png")}
-        resizeMode="cover"
-        style={[styles.backgroundimage]}
-      >
-        <Provider store={store}>
-          <PersistGate loading={null} persistor={persistor}>
-            <NavigationContainerView />
-          </PersistGate>
-        </Provider>
-      </ImageBackground>
-    </SafeAreaView>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <SafeAreaView style={styles.container} onLayout={onLayoutRootView}>
+        <StatusBar style="auto" translucent={true} hidden={true} />
+        <ImageBackground
+          source={require("./assets/images/copticBackground.png")}
+          resizeMode="cover"
+          style={[styles.backgroundimage]}
+        >
+          <Provider store={store}>
+            <PersistGate loading={null} persistor={persistor}>
+              <NavigationContainerView />
+            </PersistGate>
+          </Provider>
+        </ImageBackground>
+      </SafeAreaView>
+    </GestureHandlerRootView>
   );
 }
 export default App;
