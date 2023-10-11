@@ -34,7 +34,6 @@ function FullFeastsScreen() {
       new moment(a.start).format("YYYYMMDD") -
       new moment(b.start).format("YYYYMMDD")
   );
-  console.log(data.map((item) => item.key));
   const [currentData, setCurrentData] = useState(data);
   const [selectedFeast, setSelectedFeast] = useState(data[0]);
 

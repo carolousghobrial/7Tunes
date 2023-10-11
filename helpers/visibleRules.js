@@ -394,7 +394,6 @@ const isSeason = (motherSource, path) => {
           path.toLowerCase().includes("gospelresponses")
         ) {
           if (path?.toLowerCase().includes("twentyninth")) {
-            console.log(path);
             return true;
           }
         } else if (
@@ -775,7 +774,6 @@ const HitenSaint = (motherSource, path) => {
 };
 const ActsResponseSaint = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  console.log(path);
   const saintSelected = getSaint(path);
   switch (currentSeason.key) {
     case "STANDARD":
@@ -1196,13 +1194,12 @@ const IsFastingDays = (motherSource, path) => {
   ) {
     return true;
   } else {
-    return false;
+    if (isInFast() && currentSeason.type !== "feast") {
+      return true;
+    }
   }
-  if (isInFast() && currentSeason.type !== "feast") {
-    return true;
-  } else {
-    return false;
-  }
+
+  return false;
 };
 const StandardAgiosShow = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);

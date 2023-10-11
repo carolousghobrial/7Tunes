@@ -137,10 +137,8 @@ function HomepageScreen({ navigation, route }) {
         const BookPermission = permissions.all.find(
           (permission) => permission.permissionId === item.PermissionStatus
         );
-        console.log(BookPermission);
         if (BookPermission.isValid === false) {
           const offerings = await Glassfy.offerings();
-          console.log(offerings);
           const OfferingToBuy = offerings.all.find(
             (offering) => offering.offeringId === item.PurchaseKey
           ).skus[0];

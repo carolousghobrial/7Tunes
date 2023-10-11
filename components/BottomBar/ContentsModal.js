@@ -50,7 +50,6 @@ function ContentsModal({
           (item.CopticTitle !== undefined && item.CopticTitle === currentTitle)
       );
       if (foundItem !== -1) {
-        console.log("HEREE");
         flatListRef.current.scrollToIndex({
           index: foundItem,
           animated: false,

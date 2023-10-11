@@ -91,7 +91,6 @@ const ViewSingleHymnSearch = memo(({ navigation, route }) => {
     const itemToFind = data.filter((item) =>
       item.part.English.includes(partClicked)
     );
-    console.log(itemToFind[0].key);
     flatListRef.current.scrollToIndex({
       index: itemToFind[0].key,
       animated: false,

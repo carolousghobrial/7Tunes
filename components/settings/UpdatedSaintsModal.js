@@ -70,8 +70,6 @@ function UpdatedSaintsModal({
     }
   }, [saint]);
   function toggleSwitch(key, e) {
-    console.log(key);
-    console.log(e);
     setSaintSelected((prev) => ({
       ...prev, // Spread the previous state
       [key]: e, // Update the age property
