@@ -8,6 +8,8 @@ import {
   Pressable,
   useWindowDimensions,
 } from "react-native";
+import { BottomSheetFlatList } from "@gorhom/bottom-sheet";
+
 import {
   BottomSheetModal,
   BottomSheetBackdrop,
@@ -25,6 +27,7 @@ function ContentsModal({
   currentTitle,
   visible,
   menuData,
+  contentsClose,
   scrollToKey,
 }) {
   const NavigationBarColor = getColor("NavigationBarColor");
@@ -47,10 +50,14 @@ function ContentsModal({
           (item.CopticTitle !== undefined && item.CopticTitle === currentTitle)
       );
       if (foundItem !== -1) {
-        setInitialIndex(foundItem);
+        console.log("HEREE");
+        flatListRef.current.scrollToIndex({
+          index: foundItem,
+          animated: false,
+        });
       }
     } catch (e) {}
-  }, [currentTitle]);
+  }, []);
   const onScrollToIndexFailed = (error) => {
     flatListRef.current.scrollToOffset({
       offset: error.averageItemLength * error.index,
@@ -88,7 +95,14 @@ function ContentsModal({
     ),
     []
   );
-
+  const handleBottomSheetShow = () => {
+    // Do something when the bottom sheet is shown
+    console.log("Bottom sheet is shown");
+  };
+  const handlePresent = () => {
+    // Your code to execute when the bottom sheet is presented
+    console.log("Bottom sheet is presented");
+  };
   return (
     <BottomSheetModal
       backgroundStyle={{ backgroundColor: NavigationBarColor }}
@@ -96,6 +110,7 @@ function ContentsModal({
       ref={bottomSheetRef}
       handleHeight={50}
       index={0}
+      onPresent={handlePresent}
       snapPoints={snapPoints}
       backdropComponent={renderBackdrop}
     >
@@ -103,15 +118,12 @@ function ContentsModal({
         <Text style={[styles.title, { color: labelColor }]}>
           {TableOfContents}
         </Text>
-        <Pressable
-          style={styles.closeButton}
-          onPress={() => bottomSheetRef.current.dismiss()}
-        >
+        <Pressable style={styles.closeButton} onPress={contentsClose}>
           <AntDesign name="closecircle" size={30} color={labelColor} />
         </Pressable>
       </View>
 
-      <FlatList
+      <BottomSheetFlatList
         style={[styles.flatList, { backgroundColor: NavigationBarColor }]}
         ref={flatListRef}
         data={currentData}
@@ -125,7 +137,6 @@ function ContentsModal({
         )}
         onScrollToIndexFailed={onScrollToIndexFailed}
         initialNumToRender={menuData.length}
-        initialScrollIndex={initialIndex}
         keyExtractor={(item, index) => index.toString()}
       />
     </BottomSheetModal>

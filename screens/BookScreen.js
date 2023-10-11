@@ -53,7 +53,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const bottomSheetRef = useRef(null);
   const contentsSheetRef = useRef(null);
 
-  const snapPoints = ["75%"];
+  const snapPoints = ["90%"];
   const [navTitle, setNavTitle] = useState(bookContents[0]?.EnglishTitle);
 
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
@@ -95,6 +95,11 @@ const BookScreen = React.memo(({ navigation, route }) => {
     setcontentsModalVisible(true);
 
     contentsSheetRef?.current.present();
+  };
+  const contentsClose = () => {
+    setcontentsModalVisible(false);
+
+    contentsSheetRef?.current.dismiss();
   };
 
   const HeaderRightButtons = ({ onPressSettings, onPressContents }) => (
@@ -204,6 +209,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
         currentTitle={navTitle}
         visible={contentsModalVisible}
         menuData={menuData}
+        contentsClose={contentsClose}
         scrollToKey={scrollToKey}
       />
       <FlatList
