@@ -9,20 +9,234 @@
             "English": "Liturgy of the Believers"
         },
         {
+            "Type": "Button",
+            "Arabic": " صلاة صلح ثانية (القداس الباسيلي)",
+            "English": "Another Prayer of Reconciliation To The Father (Saint Basil’s Liturgy)",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilAnotherReconcliationPrayer"
+        },
+        {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilReconcliationPrayer",
             "Rule": 0,
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "اسباسموس ادام",
+            "English": "Adam Aspasmos",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfThBelieversAdamAspasmos"
+        },
+        {
+            "Arabic": "أسباذيستيه الكبيرة - (قبلوا بعضكم بعضاً)",
+            "English": "Great one another - Great ",
+            "Type": "Button",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilGreatAsapzeste"
+        },
+        {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversStBasilAnotherReconcliationPrayer",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilGreetOneAnother",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilThroughTheIntercessions",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilAnaphora",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "اسباسموس واطس",
+            "English": "Watos Aspasmos",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordWatosAspasmos"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilTheCherubim",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilAgiosAgiosAgios",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilWasIncarnate",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilHeRose",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilInstitutionNarrative",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilEpiclesis",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfPeace",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfPope",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfClergy",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfMercy",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfPlace",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyAir",
+            "Rule": 0,
+            "Visible": "getPlantsSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyWaters",
+            "Rule": 0,
+            "Visible": "getPlantsSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanySeeds",
+            "Rule": 0,
+            "Visible": "getPlantsSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseRaiseThemToTheirMeasure",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfOblations",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilCommemorationOfSaints",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "ترحيم",
+            "English": "Diptych",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilDiptych"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "افشيس",
+            "English": "Evshes ",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilEvshees"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "بي نيشتي ",
+            "English": "Pinishti",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilPinishti"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "بي نيشتي الكبيرة",
+            "English": "Great Pinishti",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilGreatPinishti"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilMayTheirHolyBlessings",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilThoseOLord",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilAsItWas",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLeadUsThroughoutTheWay",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilIntroductionToTheFraction",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilPrayersAferFraction",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilTheConfession",
             "Rule": 0,
             "Visible": true
         }

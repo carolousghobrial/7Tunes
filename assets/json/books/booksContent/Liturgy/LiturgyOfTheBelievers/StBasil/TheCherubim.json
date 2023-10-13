@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "الشاروبيم يسجدون لك",
+  "EnglishTitle": "The Cherubim worship You",
+  "CopticTitle": "Nixeroubim ceouw]t `mmok",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الشاروبيم يسجدون لك، والسِّرافيم يمجدونك، صارخين قائلين:",
+      "Coptic": "Nixeroubim ceouw]t `mmok> nem Niceravim ce;`wou nak> euw] `ebol eujw `mmoc>",
+      "English": "The Cherubim worship You, and the Seraphim glorify You, proclaiming and saying,",
+      "Arabiccoptic": "ني شيروبيم سى أوأوشت إمموك نيم ني سيرافيم سى تي أوأوو ناك إفؤش إيفول إفجو إمموس",
+      "Englishcoptic": "Nisherobim seo-oosht emmok: nem Niseraphim seti-o-oo nak: evoosh evol evgoo emmos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"قدوس. قدوس. قدوس. رب الصاباؤت. السماء والأرض مملوءتان من مجدك الأقدس.\"",
+      "Coptic": "Je `agioc `agioc `agioc> Kurioc cabawq> `plhrhc `o ouranoc ke `h gh> thc `agiac cou do[hc.",
+      "English": "“Holy, holy, holy, Lord of hosts, heaven and earth are full of Your holy glory.”",
+      "Arabiccoptic": " جى أجيوس أجيوس أجيوس كيريوس صاباؤوت بلى ريس أورانوس كى إيجي تيس أجياس سوذوكسيس . ",
+      "Englishcoptic": "Ge agios agios agios: Keerios savaooth: epleerees -o ooranos ke ee gee: tees agias soo zoxees."
+    }
+  ]
+}

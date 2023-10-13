@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعجوبة مملوءة مجداً، الجالس فوق الشاروبيم، في مثل هذا اليوم، نظر إلى أورُشَليم.",
+      "Coptic": "Ou`]vhri efme\\ `n`wou> vhet\\emci \\ijen Nixeroubim> kata `vrh; `mpai`e\\oou> af]e `e=oun `eIeroucalhm.",
+      "English": "A wonder full of glory, He who sits upon the Cherubim, on such a day, entered Jerusalem.",
+      "Arabiccoptic": "او إيشفيري إيفميه إن أوأوو : في إيتهيمسي هيجين ني شيروبيم : كاطا إيفريتي أمباي أيهوؤو : إفشى إيخون إي ييروساليم",
+      "Englishcoptic": "Oooeshveeri efmeh en-o-oo: vee-ethemsi hijen- Nisherobim: kata evreeti empai-eho-oo: afshe ekhoon eIeroosaleem."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا (3)، يسوع المسيح إبن الله، دخل أورُشَليم. خلصنا وإرحمنا.",
+      "Coptic": "Allhlouia Allhlouia Allhlouia> Ihcouc Pi`xrictoc `P]hri `m`Vnou;> af]e `e=oun `eIeroucalhm. Cw; `mmon ouo\\ nai nan.",
+      "English": "Alleluia (3), Jesus Christ the Son of God, entered Jerusalem. Save us and have mercy upon us.",
+      "Arabiccoptic": "الليلويا الليلويا الليلويا.  ايسوس بى اخريستوس ابشيرى امفنوتى: افشى إيخون إييروسالم .  سوتي أيممون اووه ناي نان .",
+      "Englishcoptic": "Alleelooia Alleelooia Alleelooia: Isos Pikhristos ePsheeri emEvnoti-: afshe ekhoon eIeroosaleem. Sooti- emmon owoh nai nan."
+    }
+  ]
+}

@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "قد حان الوقت أطلق الجميع. فليفسر المعلمون، فليجتمع الحكماء إلينا، مفسرين في الكتب المقدسة.",
-      "Coptic": "`A pinau ]wpi xa nimh] `ebol. Mare nica= viri `ebol> mare nicovoc qwou; ]aron> euermhneuin =en ni`gravh e̅q̅u̅.",
+      "Coptic": "`A pinau ]wpi xa nimh] `ebol. Mare nica= viri `ebol> mare nicovoc qwou; ]aron> euermhneuin =en ni`gravh eqouab.",
       "English": "The time came to send the multitude away. Let the scribes write, let the wise men assemble, and reveal what is in the holy Scriptures.",
       "Arabiccoptic": "آبي ناف شوبي كابي ميش إيفول : ماريه ني صاخ فيري إيفول : ماريه ني صوفوس ثوأووتي شارون : إف إيرمين إيفين خين ني إغرافي إثوؤاب  .",
-      "Englishcoptic": "-A pinav shoopi kha nimeesh -evol. mare nisakh viri -evol: mare nisovos oooooti sharon: evermeenevin khen nieghravee e̅̅ee̅."
+      "Englishcoptic": "-A pinav shoopi kha nimeesh evol. mare nisakh viri evol: mare nisovos oooooti sharon: evermeenevin khen nieghravee ethowab."
     },
     {
       "Type": "Base",
@@ -32,10 +32,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وبركة الثالوث الأقدس، الآب والابن والروح القدس.",
-      "Coptic": "`Ere pi`cmou `n:`triac e̅q̅u̅> `Viwt nem `P]hri nem Pi`pneuma e̅q̅u̅.",
+      "Coptic": "`Ere pi`cmou `n:`triac eqouab> `Viwt nem `P]hri nem Pi`pneuma eqouab.",
       "English": "The blessing of the holy Trinity, the Father, the Son, and the Holy Spirit,",
       "Arabiccoptic": "  إيريه بي إسمو إنتي ترياس إثوؤاب : إفيوت نيم إبشيري نيم بي بنيفما إثوؤاب  .",
-      "Englishcoptic": "-Ere piesmooo enTietrias e̅̅ee̅: eVioot nem ePsheeri nem Piepnevma e̅̅ee̅."
+      "Englishcoptic": "Ere piesmooo enTietrias ethowab: eVioot nem ePsheeri nem Piepnevma ethowab."
     },
     {
       "Type": "Base",
@@ -43,10 +43,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وبركة والدة الإله مريم أم يسوع المسيح.",
-      "Coptic": "`Ere pi`cmou `n:qe`otokoc> Maria `qmau `nIh̅c̅ Px̅c̅.",
+      "Coptic": "`Ere pi`cmou `n:qe`otokoc> Maria `qmau `nIhcouc Pi`xrictoc.",
       "English": "The blessing of the Theotokos, Mary, the Mother of Jesus Christ,",
       "Arabiccoptic": " إيريه بي إسمو إنتي ثيؤطوكوس ماريا : إثماف إن إيسوس بي خريستوس  . ",
-      "Englishcoptic": "-Ere piesmooo enTie-otokos: maria emav enIee̅s̅ Pkh̅s̅."
+      "Englishcoptic": "Ere piesmooo enTie-otokos: maria emav enIsos Pikhristos."
     },
     {
       "Type": "Base",
@@ -57,7 +57,7 @@
       "Coptic": "Ef`e`i `e`\\rhi `ejen pailaoc thrf eu`oujai =en `Po̅c̅. Je `amhn ec`e]wpi.",
       "English": "Be upon all the people, being safe in the Lord. Amen, so it shall be.",
       "Arabiccoptic": "إيف إئي أيه إيهري إيجين بايلأوس تيرف,اي اووجاي جي امين إس إيشوبي",
-      "Englishcoptic": "Ef-e-ee -eehreei -ejen pailaos teerf ev-ooogai khen ePo̅s̅. Je -ameen es-eshoopi."
+      "Englishcoptic": "Ef-e-ee eehreei ejen pailaos teerf ev-ooogai khen ePo̅s̅. Je ameen es-eshoopi."
     }
   ]
 }

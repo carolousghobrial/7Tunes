@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "بي نيشتي الكبيرة",
+  "EnglishTitle": "Great Pinishti",
+  "CopticTitle": "Pini]; abba Antwni",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "العظيم أنبا أنطونيوس، والبار أنبا بولا، والقديسون الثلاثة مقارات، أنبا يؤنس القصير، أنبا بيشوي، أنبا بولا، أبوانا القديسان الروميان مكسيموس ودوماديوس، أنبا موسى، أنبا يؤانس كاما، أنبا دانيال، أنبا ايسيذوروس، أنبا باخوم، أنبا شنودة، وأنبا بفنوتي، أنبا برسوم، أنبا رويس.",
+      "Coptic": "Pini]; abba Antwni> nem pi`qmhi abba Paule> nem pi]omt eqouab Makarioc> abba Iwannhc pikoloboc> abba Pi]wi> abba Paule> nenio; eqouab `nrwmeoc Ma[imoc nem Dometioc> abba Mwch> abba Iwannhc Xamh> abba Danihl> abba Icidwroc> abba Pa=wm> abba }enou;> ke abba Pavnou;> abba Parcwma> abba Teji.",
+      "English": "The great Abba Anthony, and the righteous Abba Paul, the three saints Abba Macarii, Abba John the short, Abba Pishoy, Abba Paul, our holy Roman fathers Maximus and Dometius, Abba Moses, Abba John Kame, Abba Daniel, Abba Isidore, Abba Pachom, Abba Shenoute and Abba Paphnoute, Abba Parsoma, Abba Teji.",
+      "Arabiccoptic": "بي نيشتي آفا أنطوني، نيم بي إثمي أفا بافلي، نيم بي شمت إثؤواب مكاريوس، آفا يؤانس بي كولوفوس، أفا بيشوي أفا بافلي، نين يوتي إثواب إنروميوس، ماكسيموس نيم دوميتيوس، أفا موسي، أفا يؤانس كامي، أفا دانييل، أفا اسي ذوروس أفا باخوم، أفا شينوتي، كي أفا بفنوتي، أفا برسوما، أفا تيجي.",
+      "Englishcoptic": "Pinishti avva Antoni, nem pi-esme avva Pavle, nem pi-shomt ethowab Makareios, avva Yoannes pi-kolobos, avva Pishoy, avva Pavle, nenyoti ethowab en-romeos Maximos nem Dometios, avva Mosee, avva Yoannes Kame, avva Daniel, avva Esezoros, avva Pakhom, avva Shenouti, ke avva Paphnouti, avva Parsoma, avva Teji."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وجميع الذين علَّموا كلمة الحق بإستقامة، الأساقفة الاُرثوذكسيين والقسوس والشمامسة والإكليروس والعلمانيون. هؤلاء وجميع الاُرثوذكسيين. آمين.",
+      "Coptic": "Ke pantwn twn orqwcdida[antwn> ton logon> thc `alhqiac> orqodo[wn `epickopwn `precbuterwn> diakonwn `klhrikwn ke laikwn ke toutwn ke pantwn> orqodo[wn> `amhn.",
+      "English": "And all those who have rightly taught the word of truth: the orthodox bishops, priests, deacons, clergy, laity, and all the orthodox people. Amen.",
+      "Arabiccoptic": "كي بأنطون طون، أورثوذيذاكسان طون، طون لوغون، تيبس آليثياس، أورثوذكسون، إبيسكوبون إبريسفيتيرون، ذياكونون إكليريكون كي لائكون كي طوطون كي بانطون، اورثوذوكسون أمين.",
+      "Englishcoptic": "Ke panton ton ortho-zizaxanton, ton loghon, tees alithias, Orthozoxon, epis-kopon ep-resvi-teron, zeia-konon ekli-rekon ke laikon ke to-ton ke pan-ton, Orthozoxon, amen."
+    }
+  ]
+}

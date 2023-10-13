@@ -1,0 +1,139 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ترحيم",
+  "EnglishTitle": "Diptych",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وهؤلاء وكل أحد، يا رب، الذين ذكرنا أسماءهم،",
+      "Coptic": "Ouo\\ nai nem ouon niben `Psoic nh`etantaou`e nouran> nem nh`ete `mpentaou`wou.",
+      "English": "Those, O Lord, and everyone whose names we have mentioned; and those whose names we have not mentioned,",
+      "Arabiccoptic": "اووه ناى نيم اؤون نيفين ابتشويس نى ايتان ايتو ان او ران : نيم نى ﺇيتى ام بين طاؤو :",
+      "Englishcoptic": "Owoh nai nem o-oon ni-ven Epchois nee-etantaoo-e nooran: nem nee-ete empentaoo-o-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والذين لم نذكرهم الذين في فكر كل واحد منا، والذين ليسوا في فكرنا.",
+      "Coptic": "Nhet =en `vmeui `mpiouai piouai `mmon> nem nh`ete `n=hten an.",
+      "English": "those whom each one has in mind and those who are not in our minds;",
+      "Arabiccoptic": " نى ايت خين افميفئ ام بى اواى : بى اواى اممون نيم نى ﺇيتى ان خيتين ان ",
+      "Englishcoptic": "Nee-et khen evmevi empi-ooai pi-ooai emmon: nem nee-ete enkheeten an."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذين رقدوا، وتنيحوا في الإيمان بالمسيح.",
+      "Coptic": "`Etauenkot au`mton `mmwou =en `vna\\; `mPi`xrictoc.",
+      "English": "and those who have fallen asleep and reposed in the faith of Christ.",
+      "Arabiccoptic": "ايطاف انكوت اف امتون امؤو خين اف ناهتى ان بيخرستوس . ",
+      "Englishcoptic": "Etaven-kot avemton emmo-oo khen- evnahti emPikhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تفضَّلْ يا ربُّ نَيِّح نُفُوسَهُم أجمعينَ في حِضِنِ آبائِنا القِدِّيسينَ، إبراهيمَ وإسحقَ ويعقوبَ.",
+      "Coptic": "`Arikata[ioin `Psoic ma`mton `nnouyuxh throu =en kenf `nnenio; eqouab Abraam nem `Icaak nem Iakwb.",
+      "English": "Graciously, O Lord, repose all their souls in the bosom of our holy fathers Abraham, Isaac, and Jacob.",
+      "Arabiccoptic": "ارى كاطا كسيون ابتشويس ما امتون ان نو ابسيشى تيرو : خين كينف نين يوتى أثؤواب : ارام نيم ايساك نيم ياكوب ",
+      "Englishcoptic": "-Arikataxioin Epchois maemton en-noopseeshee tero khen- ken-f en-nen-ioti ethowab Abraam nem -Isaak nem Iakoob."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عُلهُم في مَوْضِعِ خُضرةٍ على ماءِ الرَّاحةِ في فِردُوسِ النَّعيمِ.",
+      "Coptic": "}anou]ou =en ouma `n`xlo`h> \\ijen `vmwou `nte `pemton =en Piparadicoc `nte `pounof.",
+      "English": "Sustain them in a green pasture, by the water of rest in the Paradise of joy,",
+      "Arabiccoptic": "شانؤ شو خين او ما ان اكلوى: هيﭽين افمؤو انتى بيم تونى : ان بيباراديسوس انتى ابؤنوف : ",
+      "Englishcoptic": "Shanooshoo khen ooma enek-hlo-ee: hijen evmo-oo ente epemton khen Piparazisos ente ep-onof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الموْضِعِ الذي هَرَبَ مِنْهُ الحُزنُ والكآبَةُ والتنَهُّدُ في نورِ قدِّيسيكَ.",
+      "Coptic": "Pima `etafvwt `ebol `n=htf `nje pi`mka\\ `n\\ht nem ;luph nem pifia\\om =en `vouwini `nte nheqouab `ntak.",
+      "English": "the place out of which grief, sorrow, and groaning have fled away in the light of Your saints.",
+      "Arabiccoptic": "بيما ايطاف فوت ايفول انخيتف انﭽى بى ام كاه ان هيت نيم تى ليبى نيم بى فيأهوم ك خين خين افؤوينى انتى نى أثؤواب انتاك . ",
+      "Englishcoptic": "Pima etaf-voot evol en-kheetf en-je pi-emkah en-heet nem ti-leepee nem pi-fiahom khen- evo-ooini en-te nee-ethowab en-tak."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اطلبوا عن آبائِنا وإخوتِنا الذينَ رقدوا، وتنيحوا في الإيمانِ بالمسيحِ منذُ البدءِ. آبائِنا القديسين رؤساءِ الأساقفةِ، وآبائِنا الأساقفةِ، وآبائِنا القمامصةِ، وآبائِنا القسوسِ وإخوتِنا الشمامسةِ، وآبائِنا الرهبانِ، وآبائِنا العلمانيينَ، وعن نياحِ كلِّ المسيحيين.",
+      "Coptic": "Twb\\ `ejen nenio; nem nen`cnhou `etauenkot> au`mton `mmwou =en `vna\\; `mPx/c/ icjen `p`ene\\> nenio; eqouab `narxiepicokopoc ke nenio; `n`epickopoc> nenio; `n\\hgoumenoc ke nenio; `mprecbuteroc> nem nen`cnhou `ndi`akwn> nenio; `mmonaxoc ke nenio; `nla`ikoc> nem `e`\\rhi `ejen ;`anapaucic thrc `nte ni`xricti`anoc>",
+      "English": "Pray for our fathers and brethren who have fallen asleep and reposed in the faith of Christ since the beginning: our holy fathers the archbishops our fathers the bishops our fathers the hegumens our fathers the priests our brethren the deacons our fathers the monks and our fathers the laymen and for the full repose of Christians",
+      "Arabiccoptic": "طوبه ايجين نين يوتي نيم نين اسنيو ايتاف انكوت اف امتون امموؤو خين افنهتي امبي خريستوس يسجين اب اينيه نينيوتي اثؤواب ان ارشي ابيسكوبوس كى نين يوتي ان ابيسكوبوس نين يوتي ان هيغومينوس كى نينيوتي ام بريسفيتيروس نيم نين اسنيو ان ذياكون نينيوتي انم موناخوس كى نين يوتي انلايكوس نيم ااهري ايجين تي انا بافسيس تيرس انتى ني خريستيانوس",
+      "Englishcoptic": " Toph egen Nen ioty Nem Nen esnio etav Enkut av emton em mo-o Khen Evnahty empi Ekhristos Isjen ep eneh nen ioty Ethowab en arshi epes-kopos ke nen ioty en epes-kopos nen ioty en hyghomenos ke nenioty em epresviteros nem nen esnio en ziakon nen ioty em monakhos ke nen ioty en laikos nem e ehri ejen ti ana pavsis tirs ente ni ekhristianos"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكي المسيحُ إلهُنا ينيِّحَ نفوسَهم أجمعين في فردوسِ النعيمِ، ونحنُ أيضاً يصنعَ معنا رحمةً، ويغفرَ لنا خطايانا.",
+      "Coptic": "\\ina `nte Px/c/ Pennou; ;`mton `nnouyuxh throu> =en piparadicoc `nte `pounof> `anon de \\wn `ntefer pinai neman `ntefxa nennobi nan `ebol.",
+      "English": "That Christ our God may repose all their souls in the paradise of joy and we too accord mercy unto us and forgive us our sins.",
+      "Arabiccoptic": "هينا انتى بخريستوس بين نوتي تي امتون انو ابسيشي تيرو خين بي باراديسوس انتى ابؤونوف : انون ذى هون انتيف اير بيناي نيمان : انتيف كانين نوفي نان ايفول  .",
+      "Englishcoptic": "Hina ente Pikhristos Pennouty ti emton en no epsishy tiro khen pi paradisos ente ep onof anon ze hon entef er pinay neman entef kanen novi nan evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب ارحم",
+      "Coptic": "Kuri`e `ele`hcon.",
+      "English": "Lord have mercy",
+      "Arabiccoptic": "كيرياليسون",
+      "Englishcoptic": "Kiryalison"
+    }
+  ]
+}

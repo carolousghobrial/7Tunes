@@ -1,0 +1,106 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أوشية السلام",
+  "EnglishTitle": "Litany of Peace",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أذكر يا رب سلام كنيستك الواحدة، الوحيدة المقدسة، الجامعة الرسولية.",
+      "Coptic": "`Ari`vmeui `Psoic `n;\\irhnh `nte tekou`i `mmauatc eqouab `nkaqolikh `n`apoctolikh `nEkklhcia.",
+      "English": "Remember, O Lord, the peace of Your one, only, holy, catholic, and apostolic Church",
+      "Arabiccoptic": "آري إفميقئي إبشويس إنتي هيريني إنتي تيك أوى إمماقتس إثؤواب إن كاثوليكي إن آبوسطوليكي إن إككليسيا . ",
+      "Englishcoptic": "-Arievmevi Epchois en-ti-hireen-ee en-te tekoo-ee emmavats ethowab en-katholikee en-apostolikee en-Ekkleesia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا من أجل سلام الواحدة المقدسة الجامعة الرسولية كنيسة الله الأرثوذكسية.",
+      "Coptic": "`Proceu[acqe `uper thc `irhnhc thc `agiac monhc kaqolikhc ke `apoctolikhc orqodo[ou tou qeou Ekklhciac.",
+      "English": "Pray for the peace of the one holy catholic and apostolic orthodox Church of God.",
+      "Arabiccoptic": "بروس أفكساستيه إيبرتيس إيرينيس تيس أجياس مونيس كاثوليكيس كيه أبوسطولوكيس أورثودوكسو تو ثيؤ أكليسياس . ",
+      "Englishcoptic": "eProsevxaste eyper tees eereen-ees tees agias monees katholikees ke apostolikees orthozoxoo too theoo Ekkleesias."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Kurie `ele`hcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Keerie ele-eeson."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذه التي اقتنيتها لك بالدم الكريم الذي لمسيحك.",
+      "Coptic": "qai `etak`jvoc nak `ebol \\iten Pi`cnof ettai`hout `nte Pek`xrictoc.",
+      "English": "this, which You have acquired to Yourself with the precious Blood of Your Christ,",
+      "Arabiccoptic": "ثاي إيطاك إجفوس ناك إيقول هيتين بي إسنوف إتطايوت إنتي بيك إخرستوس",
+      "Englishcoptic": "thai etakegvos nak evol hiten Piesnof ettai-eeoot ente Pekekhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إحفظها بسلام، وكل الأساقفة الأرثوذكسيين الذين فيها.",
+      "Coptic": "`Are\\ `eroc =en ou\\irhnh> nem ni`epickopoc throu `norqodo[oc `ete `n=htc.",
+      "English": "keep her in peace, with all the orthodox bishops who are in her.",
+      "Arabiccoptic": "آريه إيروس خين او هيريني نيم ني إبيسكوبوس تيرو إن اورثوذكسوس إيتي إنخيتس",
+      "Englishcoptic": "-Areh eros khen oohireenee: nem ni-epi-skopos tero enorthozoxos ete enkheets."
+    }
+  ]
+}

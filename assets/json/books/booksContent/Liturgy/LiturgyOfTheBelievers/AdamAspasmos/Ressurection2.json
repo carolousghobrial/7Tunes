@@ -1,0 +1,63 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنسبح مع الملائكة، صارخين قائلين، \"أنه قام من بين الأموات، في اليوم الثالث.\"",
+      "Coptic": "Maren\\wc nem niaggeloc> enw] `ebol enjw `mmoc> je aftwnf `ebol =en nheqmwout> =en pi`e\\oou `mma\\]omt.",
+      "English": "Let us praise with the angels, proclaiming and saying, “He is risen from the dead, on the third day.”",
+      "Arabiccoptic": "مارين هوس نيم ني أنجيلوس: ان أوش ايفول انجو امموس: جى أفطونف ايفول خين ني ايثموأووت: خين بي ايهوأوو امماه شومت . ",
+      "Englishcoptic": "maren-hoos nem ni-angelos: en-oosh evol en-goo emmos: je aftoonf evol khen- nee-ethmo-oot: khen- pi-eho-oo emmahshomt."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رتلوا بفهم، للذي أتى وخلَّصنا، ومات من أجل خلاصنا، المسيح قام من بين الأموات.",
+      "Coptic": "`Ariyalin =en ouka;> `evh`etaf`i afcw; `mmon> ouo\\ afmou eqbe pencw;> `Xrictoc `anecth ek nekrwn.",
+      "English": "Chant with understanding, to Him who has come and saved us, and died for our salvation, Christ is risen from the dead.",
+      "Arabiccoptic": " أريبسالين خين أووكاتي: اى في ايطاف إي أفسوتي اممون: أووه أفموو اثفى بين سوتي: اخريستوس آنيستي ايك نيكرون . ",
+      "Englishcoptic": "-Aripsalin khen ookati-: evee-etaf-ee afsooti- emmon: owoh afmoo ethve pensooti-: eKhristos anestee ek nek-roon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "داود الملك المرتل، قال في المزمور، أن خالق الدهور، المسيح قام من بين الأموات.",
+      "Coptic": "Dauid `pouro pi\\hmnodoc> afjoc =en piyalthrion> je Pirefcwnt `nni`ewn> `Xrictoc `anecth ek nekrwn.",
+      "English": "King David the hymnist, said in the psalm, “The Creator of ages,” Christ is risen from the dead.",
+      "Arabiccoptic": " دافيد اب أوورو بيهيمنودوس: أفجوس خين بي بسالتيريون: جى بي ريف سونت انني ايؤن: اخريستوس آنيستي ايك نيكرون . ",
+      "Englishcoptic": "Daviz epooro pi-heemnozos: afgos khen pi-psalteerion: je Pirefsoont enni-eoon: eKhristos anestee ek nek-roon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نصرخ قائلين، \"قدوس قدوس، قدوس رب الدهور، المسيح قام من بين الأموات.\"",
+      "Coptic": "Euw] `ebol eujw `mmoc> je `xouab ouo\\ `xouab> `xouab `Psoic `nni`ewn> `Xrictoc `anecth ek nekrwn.",
+      "English": "We proclaim and say, “Holy holy, holy O Lord of the ages, Christ is risen from the dead.”",
+      "Arabiccoptic": " ان أوش ايفول انجو امموس: جى اكؤواب أووه اكؤواب: اكؤواب ابتشويس انني ايؤن: اخريستوس آنيستي ايك نيكرون  . ",
+      "Englishcoptic": "Evoosh evol evgoo emmos: je Ek-owab owoh ekhooab: Ek-owab Epchois en-ni-eoon: eKhristos anestee ek nek-roon."
+    }
+  ]
+}

@@ -13,7 +13,7 @@ import {
   BottomSheetModal,
   BottomSheetBackdrop,
 } from "@gorhom/bottom-sheet";
-import { BottomSheetScrollView } from "@gorhom/bottom-sheet";
+import { BottomSheetFlatList } from "@gorhom/bottom-sheet";
 
 import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
 
@@ -64,12 +64,12 @@ function SettingsModal({ bottomSheetRef, snapPoints }) {
           </Pressable>
         </View>
 
-        <BottomSheetScrollView>
+        <ScrollView>
           <AppTheme />
           <PresentationMode />
           <FontSize />
           <VisibleLangs />
-        </BottomSheetScrollView>
+        </ScrollView>
       </View>
     </BottomSheetModal>
   );

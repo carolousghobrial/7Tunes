@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لما وُلد في بيت لحم، كأقوال الأنبياء، أنقذنا وخلصنا، لأننا نحن شعبه.",
+      "Coptic": "`Etaumacf =en Bhqleem> kata ni`cmh `nte ni`provhthc> aftoujon afcw; `mmon> je `anon pe peflaoc.",
+      "English": "He was born in Bethlehem, according to the prophetic sayings, He rescued and saved us, for we are His people.",
+      "Arabiccoptic": " ايطاف ماسف خين بيتليئيم : كاطا ني اسمي انتى ني ابروفيتيس : أفتووجون أفسوتي اممون : جى آنون بى بيف لاؤس  . ",
+      "Englishcoptic": "Etavmasf khen Veethleem: kata ni-esmee ente ni-epro-phetees: aftoogon afsooti emmon: je anon pe peflaos."
+    }
+  ]
+}

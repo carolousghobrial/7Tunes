@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "غبريال الملاك بشر العذراء قائلاً: افرحي يا ممتلة نعمة الرب معك،",
+      "Coptic": "Gabrihl pi`aggeloc af\\i]ennoufi `n;Parqenoc> je xere qh`eqme\\ `n`\\mot> ouo\\ Po̅c̅ ]op neme.",
+      "English": "Gabriel the holy Angel, announced to the Virgin, \"Hail to you O full of grace, the Lord is with you.\"",
+      "Arabiccoptic": "غابرييل بي أنجيلوس آف هي شيننوفي إنتي بارثينوس جي شيري ثي إثميه إنئهموت أووه إبشويس شوب نيمي",
+      "Englishcoptic": "Ghabrieel pi-angelos afhishen-noofi en-ti-Parthen-os: je shere thee-ethmeh en-ehmot: owoh Po̅s̅ shop neme."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ستحبلين وتلدين ابناً ويدعي اسمه يسوع. فأجابت الحكيمة: لتكن مشيئتك يا رب.",
+      "Coptic": "Tera`erboki ouo\\ `nte mici `nou}hri> eu`emou; `epefran `nje Ihcouc> ac`erouw `nje ;cabe> pet`\\nak Po̅c̅ maref]wpi",
+      "English": "\"Behold you will conceive, and bring forth a Son, He will be named Jesus,\" so the wise one answered, \"Let it be according to Your will O Lord.\"",
+      "Arabiccoptic": "تيرا إرفوكي أووه إنتي ميسي إنؤوشيري إف إي موتي إي بيفران جي إيسوس آس إير أوأوإنجي تي سافي بي تيهناك إبشويس ماريف شوبي",
+      "Englishcoptic": "Tera-ervoki owoh ente misi enooSheeri: ev-emooti epefran enje Isos: as-ero-oo enje tisave: petehnak Po̅s̅ marefshoopi"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا هلليلويا المولود من الآب قبل كل الدهور خلصنا وارحمنا.",
+      "Coptic": "Allhlouia Allhlouia Allhlouia> pimici `ebol =en `Viwt =ajwou `nni `e`wn throu> cw; `mmon ouo\\ nai nan.",
+      "English": "Alleluia Alleluia Alleluia the begotten of the Father before all ages. Save us and have mercy upon us.",
+      "Arabiccoptic": "الليلويا (3) بي ميسي إيفول خين إفيوت خاجوؤو إنني أؤون تيرو سوتي إممون اووه ناي نان.",
+      "Englishcoptic": "Alleelooia Alleelooia Alleelooia: pi-misi evol khen Eviot khago-oo enni e-oon tero: sooti emmon owoh nai nan."
+    }
+  ]
+}

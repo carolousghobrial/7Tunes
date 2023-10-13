@@ -1,0 +1,63 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "اسبازموس واطس سنوي ثالث",
+  "EnglishTitle": "Third Annual Watos Aspasmos ",
+  "CopticTitle": "Maria ;srompi",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مريم الحمامة الحسنة، مريم والدة الإله، مريم أُم يسوع المسيح، لكِ المجد والعز.",
+      "Coptic": "Maria ;srompi eqnecwc> Maria :qe`otokoc> Maria `qmau `nIhcouc Pi`xrictoc> vwk pe pi`wou nem pi`ama\\i.",
+      "English": "Mary the beautiful dove, Mary the Theotokos, Mary the Mother of Jesus Christ, to you is the glory and majesty",
+      "Arabiccoptic": "ماريا تي إيتشيرومبي إيثنيسوس : ماريا تيثيئوطوكس: ماريا إيثماف إن إيسوس بي إيخريستوس : فوك بى بي أوأو نيم بي اماهي",
+      "Englishcoptic": "Maria ti-chrompi ethnesoos: Maria Ti-the-otokos: Maria ethmav en-Isos Pikhristos: vook pe pi-o-oo nem pi-amahi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا (3).",
+      "Coptic": "Allhlouia Allhlouia Allhlouia.",
+      "English": "Alleluia (3).",
+      "Arabiccoptic": " اليلويا اليلويا اليلويا",
+      "Englishcoptic": "Alleelooia Alleelooia Alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "[*ROICONCLUSION*]",
+      "Coptic": "[*ROICONCLUSION*]",
+      "English": "[*ROICONCLUSION*]",
+      "Arabiccoptic": "[*ROICONCLUSION*]",
+      "Englishcoptic": "[*ROICONCLUSION*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدوس قدوس قدوس، رب الصاباؤت، السماء والأرض، مملوءتان من مجدك الأقدس.",
+      "Coptic": "`Agioc `agioc `agioc> Kurioc cabawq> `plhrhc `o ouranoc ke `h gh> thc `agiac cou do[hc.",
+      "English": "Holy holy holy, Lord of hosts, heaven and earth, are full of Your holy glory.",
+      "Arabiccoptic": "اجيوس أجيوس أجيوس : كيريوس سافاوث : أبليريس أوؤرانوس كي أي غي : تيس أجياس سوؤ ذوكسيس ازمو أينسيتي نيم نيسيم  . ",
+      "Englishcoptic": "Agios agios agios: Keerios savaooth: epleerees -o ooranos ke ee gee: tees agias soo zoxees."
+    }
+  ]
+}

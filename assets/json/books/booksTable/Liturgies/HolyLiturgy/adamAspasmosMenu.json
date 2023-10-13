@@ -1,0 +1,142 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosStandardOne",
+            "Rule": 0,
+            "Visible": "isStandardSeasonWithStMary"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosStandardTwo",
+            "Rule": 0,
+            "Visible": "isStandardSeasonWithStMary"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosStandardThree",
+            "Rule": 0,
+            "Visible": "isStandardSeasonWithStMary"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosNayrooz",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosCross",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosKiahk1",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosKiahk2",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosKiahk4",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosNativity",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosNativity2",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosNativity3",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosNativity4",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosTheophany",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosWeddingCana",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosLent",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosLazarusSaturday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosPalmSunday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosResurrection",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosRessurection2",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosRessurection3",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAscension",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosPentecost",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosEntryEgypt",
+            "Rule": 0,
+            "Visible": "isSeason"
+        }
+    ]
+}

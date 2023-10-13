@@ -1,0 +1,118 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "افشيس",
+  "EnglishTitle": "Evshes ",
+  "CopticTitle": "Euxec",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بصلوات وشفاعات ذات كل قداسة، الممجدة الطاهرة المباركة سيدتنا والدة الإله الدائمة البتولية مريم.",
+      "Coptic": "Euxec ke `precbiec> thc pan`agiac `uperen do[ou> axrantou `upereuloghmenhc> decpinhc `hmwn> qe`otokou ke `a`iParqenou Mariac.",
+      "English": "Through the prayers and intercessions of our Lady, the all-holy, full-of-glory, undefiled, most blessed Theotokos, the ever-virgin Mary;",
+      "Arabiccoptic": "ﺇفشيس كي أبرسفيس تيس باناجياس أيبيرين ذوكسوواكرانتوو يبر فلوجيمينيس ذيسبينيس أيمون ثيأوتوكوس كي أاي بارثينوو مارياس  . ",
+      "Englishcoptic": "Evshes ke epresvies: tees pan-agias -eyperen zoxoo: akhrantoo -eyperevlogeemenees: zespi-nees -eemoon: the-otokoo ke -a-eeParthenoo Marias."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والقديس النبي السابق المعمدان الشهيد يوحنا.",
+      "Coptic": "Ke to `agiou `provhtou> ke `prodromou baptictou> ke marturoc Iwannou.",
+      "English": "and of John, the holy prophet, forerunner, baptizer, and martyr;",
+      "Arabiccoptic": "كي توو أاجيوس أبروفيتو كي أبروذرومو فابتيستوو كي مارتيروس يوأنو  .",
+      "Englishcoptic": "Ke to -agioo eproveetoo: ke eprozromoo vapti-stoo: ke marteeros Iooannoo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والقديس إستفانوس رئيس الشمامسة وأول الشهداء.",
+      "Coptic": "Ke to `agiou `Ctevanou> tou arxhdiakonou> ke `prwto marturoc.",
+      "English": "and of Saint Stephen, the archdeacon, and protomartyr;",
+      "Arabiccoptic": " كي توو أجيوو أستيفانو توو ارشي ذياكونو كي أبروتو مارتيروس  .",
+      "Englishcoptic": "Ke to -agioo eStevanoo: too arsheeziakonoo: ke eprooto marteeros."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والقديسين الرسل الممجدين والأنبياء والحسنى الظفر الشهداء وكل مصاف القديسين.",
+      "Coptic": "Ke twn `agiwn> `apoctolwn endo[wn> `provhtwn> ke kallinikwn> marturwn ke pantwn twn xorwn twn `agiwn cou.",
+      "English": "and of the holy and glorious Apostles, prophets, triumphant martyrs, and all the choirs of the saints;",
+      "Arabiccoptic": "  كي تون أجيون أابروس تولون ان ذوكسون أبروفيتون كي كاللي ني كون مارتيون : كي بانتون تون كورون تون أجيون سوو  .",
+      "Englishcoptic": "Ke toon -agioon: -apostoloon en-zoxoon: eproveetoon: ke kallini-koon: marteron ke pantoon toon khoroon toon -agioon soo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنبا (...) السيد رئيس أساقفة المدينة العظمى الإسكندرية، وأساقفتنا الأرثوذكسيين، المشكورين، ومن أجل الراقدين ونياحتهم وآبائنا القديسين.",
+      "Coptic": "Abba (...) kuriou> tou arxh`epickopou> thc megalo polewc `Ale[an`driac> ke twn orqodo[wn `hmwn `epickopwn twn euxaricthriwn> ke `upper gumnecewc ke `anapaucewc> ke twn `agiwn paterwn `hmwn.",
+      "English": "and of Abba (…), lord and archbishop of the city of Alexandria, and our grateful orthodox bishops; for the well-being and repose of our holy fathers;",
+      "Arabiccoptic": " أفا ___ كيريو توو ارشي كأي بييسكوبو تيس ميجالوبو ليوس اليكساندرياس كي تون اورثذوكسون أيمون أيبيسكوبون تون ﺇفخاريس تيريون : كي أيبير جيمنيسيوس كي أنابأف سيون كي تون أجيون با تيرون أيمون . ",
+      "Englishcoptic": "Abva (...) keerioo: too arshee-epi-skopoo: tees meghalo poleoos -Alexanezrias: ke toon orthozoxoon -eemoon -epi-skopoon toon evkharisteerioon: ke -eypper geemneseoos ke -anapavseoos: ke toon -agioon pateroon -eemoon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الأول، القديس مرقس الرسول الإنجيلي ورئيس الأساقفة والشهيد.",
+      "Coptic": "Ouai (a̅) Markou tou `agiou `apoctolou> euaggelictou> arxh`epickopou ke marturoc.",
+      "English": "foremost, Mark the holy apostle, Evangelist, archbishop, and martyr;",
+      "Arabiccoptic": "أواي ماركو تو آجيو أبوسطولو إيف أنجيليستو أرشي إبيسكوبوكي مارتيروس.",
+      "Englishcoptic": "Oooai (a̅) markoo too -agioo -apostoloo: evangelistoo: arshee-epi-skopoo ke marteeros."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(المئة والسادس عشر، أنبا كيرلس السادس، رئيس الكهنة).",
+      "Coptic": "(}e mhtcoou abba Kurilloc pima\\coou piarxh`ereuc).",
+      "English": "(and the one hundred and sixteenth, Abba Kyrillos VI, the high priest;)",
+      "Arabiccoptic": "شي ميت سو أو افا كيريلوس بي ماه سوو بي ارشي اريفس",
+      "Englishcoptic": "(She meetso-oo abva Keerillos pi-mahso-oo pi-arshee-erevs)."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(المئة والسابع عشر، أنبا شنودة الثالث، رئيس الكهنة).",
+      "Coptic": "(}e mht]a]f abba }enouda pima\\]omt piarxh`ereuc).",
+      "English": "(and the one hundred and seventeenth, Abba Shenouda III, the high priest;)",
+      "Arabiccoptic": "شي ميت شاشف أو افا شيتوتي بي ماه سوو بي ارشي اريفس",
+      "Englishcoptic": "(She meetshashf abva Shen-ooza pi-mahshomt pi-arshee-erevs)."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وجميع الذين علَّموا كلمة الحق بإستقامة، الأساقفة الاُرثوذكسيين والقسوس والشمامسة والإكليروس والعلمانيون. هؤلاء وجميع الاُرثوذكسيين. آمين.",
+      "Coptic": "Ke pantwn twn orqwcdida[antwn> ton logon> thc `alhqiac> orqodo[wn `epickopwn `precbuterwn> diakonwn `klhrikwn ke laikwn ke toutwn ke pantwn> orqodo[wn> `amhn.",
+      "English": "And all those who have rightly taught the word of truth: the orthodox bishops, priests, deacons, clergy, laity, and all the orthodox people. Amen.",
+      "Arabiccoptic": "كي بأنطون طون، أورثوذيذاكسان طون، طون لوغون، تيبس آليثياس، أورثوذكسون، إبيسكوبون إبريسقيتيرون، ذياكونون إكليريكون كي لائكون كي طوطون كي بانطون، اورثوذوكسون أمين.",
+      "Englishcoptic": "Ke pantoon toon orthooszizaxantoon: ton loghon: tees -aleethias: orthozoxoon -epi-skopoon epresveeteroon: ziakonoon ekleerikoon ke laikoon ke tootoon ke pantoon: orthozoxoon: -ameen-."
+    }
+  ]
+}

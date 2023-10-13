@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كل الانفس تفرح وترتل مع الملائكة مسبحين الملك المسيح.",
+      "Coptic": "`Yuxh niben ra]i ouo\\ ce`erxorevin> nem ni`aggeloc eu\\wc `e`pOuro Pi`xrictoc.",
+      "English": "All the souls rejoice and chant with the angels praising Christ the King.",
+      "Arabiccoptic": "بسيشي نيفين : راشي اووه سي ايرخوريفين : نيم ني انجيلوس ايف هوس : اي ابؤورو بيخريستوس . ",
+      "Englishcoptic": "ePseeshee ni-ven rashi owoh se-erkhorevin: nem ni-angelos evhoos eepOooro Pikhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صارخين قائلين، المجد لله فى الأعالى، وعلى الأرض السلام، وفى الناس المسرة.",
+      "Coptic": "Euw] `ebol eujw `mmoc> je `ou`w`ou `mV; =en nh`etsoci> nem ou\\irhnh \\ijen pika\\i> nem ou;ma; =en nirwmi.",
+      "English": "Proclaiming and saying, \"Glory to God in the highest, peace on earth, and good will toward men.\"",
+      "Arabiccoptic": " ايفؤوش ايقول ايفجو امموس : جي اوو أو أوو امفنوتي خين ني ايتتشوسي : نيم اوو هيريني هيجين بي كاهي : نيم او تي ماتي خين ني رومي . ",
+      "Englishcoptic": "Evoosh evol evgoo emmos: je -oo-oo-oo emVti khen nee-etchosi: nem oohireenee hijen pi-kahi: nem ootimati khen ni-roomi."
+    }
+  ]
+}

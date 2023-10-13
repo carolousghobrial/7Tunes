@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت هو الكنز، الذي أشتراه يوسف، ووجد الجوهرة، في وسطها.",
+      "Coptic": "`Nqo pe pi`a\\o> `etaf]opf `nje Iwchv> aujem pimargarithc> ef\\hp =en tefmh;.",
+      "English": "You are the treasure, that Joesph purchased, and found the pearl, in its midst.",
+      "Arabiccoptic": "إنثو بى بى أهو: إيطاف شوبف إنـﭼـى يوسف: أفﭼين بى مارغاريتيس: إف هيب خين تيف ميتى . ",
+      "Englishcoptic": "eNtho pe pi-aho: etaf-shopf en-je Iooseev: avjem pi-margharitees: efheep khen- tefmeeti-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يسوع مخلصنا، في بطنك، ولدتيه في العالم، لكي يخلِّصنا.",
+      "Coptic": "Aujem Pencwthr> Ihcouc =en teneji> `are`jvof `epikocmoc> ]a `ntefcw; `mmon.",
+      "English": "Jesus our Savior, was in your womb, you gave birth to Him for the world, that He may save us.",
+      "Arabiccoptic": " أﭫ ﭼين بين سوتير: إيسوس خين تى نيـﭼـى: أف إجفوف اى بى كوزموس: شا إنتيف سوتى إمون .",
+      "Englishcoptic": "Avjem Pen-sooteer: Isos khen- ten-eji: areegvof epi-kosmos: sha en-tefsooti emmon."
+    }
+  ]
+}

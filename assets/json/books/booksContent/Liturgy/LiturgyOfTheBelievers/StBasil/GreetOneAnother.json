@@ -1,0 +1,63 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "قبلوا بعضكم بعضاً",
+  "EnglishTitle": "Great one another ",
+  "CopticTitle": "Acpazecqe",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قبِّلوا بعضَكُمْ بعضاً بقُبلةٍ مقدسةٍ.",
+      "Coptic": "Acpazecqe allhlouc en vilhmati `agiw.",
+      "English": "Greet one another with a holy kiss.",
+      "Arabiccoptic": "اسبازيسته اليلوس انفيلي ماتي اجيو",
+      "Englishcoptic": "Aspazeste alleeloos en vileemati agioo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم، يا ربُّ إرحَم ، يا ربُّ إرحَم.",
+      "Coptic": "Kurie `ele`hcon> Kurie `ele`hcon> Kurie `ele`hcon.",
+      "English": "Lord have mercy. Lord have mercy. Lord have mercy.",
+      "Arabiccoptic": " كيري ليسون كيري ليسون كيري ليسون : ",
+      "Englishcoptic": "Keerie ele-eeson: Keerie ele-eeson: Keerie ele-eeson."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نعم يا ربُّ، الذي هو يسوعُ المسيحُ إبنُ اللهِ، إسمعْنا وإرحّمْنا.",
+      "Coptic": "Ce Kurie> `ete vai pe Ihcouc Pi`xrictoc `P]hri `m`Vnou; cwtem `eron ouo\\ nai nan.",
+      "English": "Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us.",
+      "Arabiccoptic": "سيه كيريه ايتى فاي بى ايسوس بيخريستوس ابشيري ام افنوتي سوتيم ايرون اووه ناي نان",
+      "Englishcoptic": "Se Keerie: ete vai pe Isos Pikhristos ePsheeri emEvnoti sootem eron owoh nai nan."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تقدموا على الرسمِ، قفوا برعدةٍ، وإلى الشرق أنظروا. ننصِتْ.",
+      "Coptic": "`Procverin kata `tropon> `ctaqhte kata `tromou> ic `anatolac `bleyate. `Procxwmen.",
+      "English": "Offer in order. Stand with trembling. Look towards the East. Let us attend.",
+      "Arabiccoptic": " بروس فيرين كاطا اطروبون : اسطاثيتيه كاطا اطرومو : اس اناطولاس افلبساطيه بروس خومين . ",
+      "Englishcoptic": "eProsverin kata etropon: estatheete kata etromoo: is anatolas eblepsate. eProskhoomen-."
+    }
+  ]
+}

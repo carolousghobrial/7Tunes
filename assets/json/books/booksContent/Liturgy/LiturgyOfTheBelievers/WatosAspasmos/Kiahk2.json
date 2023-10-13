@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الملاك المقدس غبريال بشَّر العذراء وبعد السلام قوَّها بقوله:",
+      "Coptic": "Pi`aggeloc eqouab Gabrihl> af\\i]ennoufi `n;Parqenoc> menenca pi`acpacmoc aftajro `mmoc =en pefcaji.",
+      "English": "Gabriel the holy Angel, announced to the Virgin, and after the greeting, he strengthened her saying.",
+      "Arabiccoptic": "بى أنجيلوس إثؤواب غابرييل. أفهي شين نوفى إنتى بارثينوس. ميننسا بى أسباسموس. أف طاجرو إمموس خين بيف ساجى.",
+      "Englishcoptic": "Pi-angelos ethowab Ghabrieel: afhishen-noofi en-ti-Parthen-os: men-en-sa pi-aspasmos aftagro emmos khen- pefsaji."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لا تخافي يا مريم لأنك وجدت نعمة عند الله. ها ستحبلين وتلدين ابناً.",
+      "Coptic": "Je `mperer\\o; Mariam> `arejimi gar `nou`\\mot> =aten V; \\hppe gar tera`erboki> ouo\\ `ntemici `nou}hri.",
+      "English": "\"Do not be afraid Mary, for you have found favor with God, behold you will conceive, and bring forth a Son.\"",
+      "Arabiccoptic": "جى إمبير إيرهوتى ماريام. أرى جيمى غار إن أو إهموت. خاتين إفنوتى هيبى غار تيرا إيرفوكى. أووه إنتيميسى إن أوشيرى.",
+      "Englishcoptic": "Ge empererhoti Mariam: arejimi ghar en-ooehmot: khaten- Vti heeppe ghar tera-ervoki: owoh en-temisi en-ooSheeri."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا هلليلويا المولود من الآب قبل كل الدهور خلصنا وارحمنا.",
+      "Coptic": "Allhlouia Allhlouia Allhlouia> pimici `ebol =en `Viwt =ajwou `nni `e`wn throu> cw; `mmon ouo\\ nai nan.",
+      "English": "Alleluia Alleluia Alleluia the begotten of the Father before all ages. Save us and have mercy upon us.",
+      "Arabiccoptic": "الليلويا (3) بي ميسي إيفول خين إفيوت خاجوؤو إنني أؤون تيرو سوتي إممون اووه ناي نان.",
+      "Englishcoptic": "Alleelooia Alleelooia Alleelooia: pi-misi evol khen Eviot khago-oo enni e-oon tero: sooti emmon owoh nai nan."
+    }
+  ]
+}

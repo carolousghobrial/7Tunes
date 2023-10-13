@@ -1,0 +1,148 @@
+{
+    "Main": [
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosStandardOne",
+            "Rule": 0,
+            "Visible": "isStandardSeasonWithStMary"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosStandardTwo",
+            "Rule": 0,
+            "Visible": "isStandardSeasonWithStMary"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosStandardThree",
+            "Rule": 0,
+            "Visible": "isStandardSeasonWithStMary"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosNayrooz",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosCross",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosKiahk1",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosKiahk2",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosKiahk4",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosNativityParamoune",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosNativity",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosNativity2",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosNativity3",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosNativity4",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosTheophany",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosWeddingCana",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosLent",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosLazarusSaturday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosPalmSunday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosResurrection",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosRessurection2",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosRessurection3",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosAscension",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosPentecost",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosEntryEgypt",
+            "Rule": 0,
+            "Visible": "isSeason"
+        }
+    ]
+}

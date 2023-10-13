@@ -1,0 +1,52 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الصليب هو سلاحنا، الصليب هو رجاؤنا، الصليب هو خلاصنا، الصليب هو فخرنا.",
+      "Coptic": "Pi`ctauroc pe pen\\oplon> Pi`ctauroc pe ten\\elpic> Pi`ctauroc pe penoujai> Pi`ctauroc pe pen]ou]ou.",
+      "English": "The Cross is our weapon. / The Cross is our hope. / The Cross is our salvation. / The Cross is our pride.",
+      "Arabiccoptic": " بي إستافروس بيه بين هوبلون : بي إستافروس بيه تين هيلبيس : بي إستافروس بيه تين أوجاي : بي إستافروس بيه بين شوشو الليلويا الليلويا الليلويا . ",
+      "Englishcoptic": "Piestavros pe pen-hoplon: Piestavros pe ten-helpi-s: Piestavros pe pen-oogai: Piestavros pe pen-shooshoo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا هلليلويا، يا ربى يسوع المسيح الذى صلب على الصليب، اسحق الشيطان تحت أرجلنا.",
+      "Coptic": "Allhlouia Allhlouia Allhlouia> Pasoic Ihcouc Pi`xrictoc> vh`etaua]f `ePi`ctauroc> ek`e=wm=em `m`Pcatanac> capecht `nnensalauj.",
+      "English": "Alleluia (3). O my Lord Jesus Christ, who was crucified on the Cross, destroy Satan, under our feet.",
+      "Arabiccoptic": " باتشويس إيسوس بيخريستوس : في إيتاف آشف إيبي إستافروس إيك إيخومخيم إم إبساطاناس سابيسيت إننين إتشالافج .",
+      "Englishcoptic": "Alleelooia Alleelooia Alleelooia: Pachois Isos Pikhristos: vee-etavashf ePiestavros: ek-ekhoomkhem emePsatanas: sapeseet en-nen-chalavg."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " خلصنا وارحمنا.",
+      "Coptic": "Cw; `mmon ouo\\ nai nan.",
+      "English": "Save us and have mercy on us.",
+      "Arabiccoptic": " سوتي إممون اووه ناي نان . ",
+      "Englishcoptic": "Sooti emmon owoh nai nan."
+    }
+  ]
+}

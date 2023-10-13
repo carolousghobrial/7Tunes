@@ -1,0 +1,272 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مقدمة القسمة",
+  "EnglishTitle": "Introduction to the Fraction",
+  "CopticTitle": "Palin on maren]ep`\\mot",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأيضاً فلنشكر الله ضابط الكل، أبا ربنا وإلهنا ومخلصنا يسوع المسيح.",
+      "Coptic": "Palin on maren]ep`\\mot `ntotf `m`Vnou; Pipantokratwr> `Viwt `m`Psoic ouo\\ Pennou; ouo\\ Pencwthr Ihcouc Pi`xrictoc.",
+      "English": "Again, let us give thanks to God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ,",
+      "Arabiccoptic": "بالين أون مارين شيبهموت إن طوطف إمفنوتى بى باندوكراطور:إفيوت إم بين تشويس أووه بينوتى:أووه بين سوتير إيسوس بي إخرستوس .",
+      "Englishcoptic": "Palin on maren-shepehmot en-totf emEvnoti Pipantokratoor: Eviot emEpchois owoh Pen-nooti owoh Pen-sooteer Isos Pikhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه جعلنا أهلاً الآن أن نقف في هذا الموضع المقدس، ونرفع أيدينا إلى فوق، ونخدم إسمه القدوس.",
+      "Coptic": "Je af`qrener`pem`p]a on ;nou `e`o\\i `eraten =en paima eqouab vai> ouo\\ `efai `nnenjij `e`p]wi> ouo\\ `e]em]i `mpefran eqouab.",
+      "English": "for He also has made us worthy now to stand in this holy place, to lift up our hands, and to serve His holy name.",
+      "Arabiccoptic": " ﭼى أفإثرين ايرإب ايمبشا أون تينو إي أوهى إيراتين:خين باى ماإثؤاب فاى:اووه ايفاى إنين ﭼيج اى إبشوى:أووه أى شيمشى إمبيفران إثؤاب . ",
+      "Englishcoptic": "Ge afethren-erepemep-sha on ti-noo e-ohi eraten- khen- paima ethowab vai: owoh efai en-nen-jig eepshooi: owoh eshemshi empefran ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هو أيضاً فلنسأله أن يجعلنا مستحقين لشركة وإصعاد أسراره الإلهية غير المائتة.",
+      "Coptic": "`Nqof on maren;\\o `erof \\opwc `ntefaiten `nem`p]a `n;met`]vhr nem ;met`alumyic `nte nefmucthrion `nnou; ouo\\ `naqmou.",
+      "English": "Let us also ask Him to make us worthy of the communion and partaking of His divine and immortal Mysteries.",
+      "Arabiccoptic": "إنثوف أون مارين تى هوإروف: هوبوس انتيف أيتين امبشاإنتى ميت اشفير نيم تى ميت أليمبسيس:إنتى نيف ميستيريون إنوتى أووه إن أثموو . ",
+      "Englishcoptic": "eNthof on maren-ti-ho erof hopoos en-tefaiten- en-emep-sha en-ti-meteshveer nem ti-met-aleempsis en-te nefmeesteerion en-nooti- owoh en-athmoo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين.",
+      "Coptic": "`Amhn.",
+      "English": "Amen.",
+      "Arabiccoptic": "امين",
+      "Englishcoptic": "Ameen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الجسد المقدس.",
+      "Coptic": "Picwma eqouab.",
+      "English": "The holy Body—",
+      "Arabiccoptic": "بى سوما إثؤواب  . ",
+      "Englishcoptic": "Pisooma ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نسجد لجسدك المقدس.",
+      "Coptic": "Tenouw]t `mPekcwma eqouab.",
+      "English": "We worship Your holy Body—",
+      "Arabiccoptic": "تين أو اوشت امبيك سوما اثؤواف  . ",
+      "Englishcoptic": "Ten-o-oosht emPeksooma ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والدم الكريم.",
+      "Coptic": "Nem Pi`cnof ettaihout.",
+      "English": "and the precious Blood—",
+      "Arabiccoptic": "نيم بي إسنوف إتطايوت  . ",
+      "Englishcoptic": "Nem Piesnof ettaieeoot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ودمك الكريم.",
+      "Coptic": "Nem Pek`cnof ettaihout.",
+      "English": "and Your precious Blood.",
+      "Arabiccoptic": "نيم بيك اسنوف اتطايوت . ",
+      "Englishcoptic": "Nem Pekesnof ettaieeoot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اللذين لمسيحه، الضابط الكل الرب إلهنا.",
+      "Coptic": "`Nte Pef`xrictoc> `nje Pipantokratwr `Psoic Pennou;.",
+      "English": "of His Christ, the Pantocrator, the Lord our God.",
+      "Arabiccoptic": "إنتى بيف إخرستوس: إنﭼى بى بانطوكراطور إبتشويس بينوتى . ",
+      "Englishcoptic": "eNte Pefekhristos: en-je Pipantokratoor Epchois Pen-nooti-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين. آمين. صلوا.",
+      "Coptic": "`Amhn `amhn `proceu[acqe.",
+      "English": "Amen. Amen. Pray.",
+      "Arabiccoptic": "امين امين بروس افكساستي",
+      "Englishcoptic": "Ameen ameen eprosevxaste."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Kurie `ele`hcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريي ليسون",
+      "Englishcoptic": "Keerie ele-eeson."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام للكل.",
+      "Coptic": "`Irhnh paci.",
+      "English": "Peace be with all.",
+      "Arabiccoptic": "إيرينى باسى . ",
+      "Englishcoptic": "-Ireen-ee pasi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولروحك أيضاً.",
+      "Coptic": "Ke tw `pneumati cou.",
+      "English": "And with your spirit.",
+      "Arabiccoptic": "كى طو ابنيفماتي سو",
+      "Englishcoptic": "Ke too epnevmati soo."
+    }
+  ]
+}

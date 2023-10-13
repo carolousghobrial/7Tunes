@@ -1,0 +1,205 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلوات بعد القسمة",
+  "EnglishTitle": "Prayers after the Fraction",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": ":بيلاؤس",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بالمسيح يسوع ربنا",
+      "Coptic": "+en Pi`xrictoc Ihcouc Pen_.",
+      "English": "In Christ Jesus Our Lord",
+      "Arabiccoptic": "خين بخرستوس إيسوس بنشويس",
+      "Englishcoptic": "Khen Pikhristos Isos Penchois"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": ":بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "احنوا رؤوسَكم للربِّ.",
+      "Coptic": "Tac kevalac `umwn tw Kuriw `klinate.",
+      "English": "Bow your heads to the Lord.",
+      "Arabiccoptic": "طاس كى فالاس ايمون طوكيريو اكليناتى",
+      "Englishcoptic": "Taski valas eimon to kirio eklinati"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": ":بيلاؤس",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمامك يارب",
+      "Coptic": "`Enwpion cou Kurie.",
+      "English": "Before You, O Lord.",
+      "Arabiccoptic": "اينو بيون ثو كيريى",
+      "Englishcoptic": "Eno pion tho kirie."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": ":بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "انصتوا بخوفِ الله.",
+      "Coptic": "`Procxwmen Qeou meta vobou. `Amhn.",
+      "English": "Let us attend in the fear of God.",
+      "Arabiccoptic": "ابروس خومين ثيئو ميطافوفو أمين",
+      "Englishcoptic": "Epros khomen theo metavovo Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": ":بي أويب:",
+      "Englishcoptic": "Pi-oweeb;"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلامُ للكلِّ.",
+      "Coptic": "`Irhnh paci.",
+      "English": "Peace be with all.",
+      "Arabiccoptic": "ايرينى باسى",
+      "Englishcoptic": "Iriny Paci"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": ":بيلاؤس",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولروحِكَ [أيضاً.",
+      "Coptic": "Ke tw `pneumati cou.",
+      "English": "And with your spirit.",
+      "Arabiccoptic": "كيطوبنفماتى سو",
+      "Englishcoptic": "Keto epnevmati so."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أذكر يا ربُّ إجتماعاتنا، باركها.",
+      "Coptic": "`Ari`vmeui `Psoic `nnenjinqwou; `cmou `erwou.",
+      "English": "Remember, O Lord, our assemblies; bless them.",
+      "Arabiccoptic": "أرى إفميفئى إبشويس إن إتسوتيريا إمباى توبوس إثؤواب إنتاك فاى نيم توبوس نيفينآري إفميقئي إبشويس إن نين جينثؤوتي إزمو إيرؤو",
+      "Englishcoptic": "-Arievmevi Epchois en-nen-jintho-ooti esmoo ero-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خلَصْتَ حقاً، ومع رُوحِكَ، ننصِتُ بخوفِ الله.",
+      "Coptic": "Cwqic `amhn> ke tw `pneumati cou> meta vobou qeou `procxwmen.",
+      "English": "Saved. Amen. And with your spirit. In the fear of God, let us attend.",
+      "Arabiccoptic": "سوتيس آمين كيطوإبنيقماتي سو ميتا فوقو ثيؤبروس خومين",
+      "Englishcoptic": " Soo-tees Ameen: ke too epnevmati soo: meta vovoo theoo eproskhoomen-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين. يا ربُّ إرحَم (3).",
+      "Coptic": "`Amhn. Kuri`e `ele`hcon> Kuri`e `ele`hcon> Kuri`e `ele`hcon.",
+      "English": "Amen.Lord have mercy (3).",
+      "Arabiccoptic": "آمين كيريي إليسون كيريي إليسون كيريي إليسون",
+      "Englishcoptic": "Ameen. Kerie-leyson Kerie-leyson Kerie-leyson"
+    }
+  ]
+}

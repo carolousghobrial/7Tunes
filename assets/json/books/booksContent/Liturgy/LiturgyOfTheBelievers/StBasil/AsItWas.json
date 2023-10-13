@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "كما كان ",
+  "EnglishTitle": "As it was",
+  "CopticTitle": "Wcper hn",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كما كان وهكذا يكون، من جيل إلى جيل، وإلى دهر الدهور. آمين.",
+      "Coptic": "Wcper hn ke ecte ectin `apo geneac ic genean ke pantac touc `e`wnac twn `e`wnwn> `amhn.",
+      "English": "As it was and shall be, it is from generation to generation, and unto all the ages of the ages. Amen.(P)",
+      "Arabiccoptic": "اوس بيرين كي استي استين ابوجينيأس إس جي ني آن كي بانداس طوس ايئوناس طون ايئونون امين . ",
+      "Englishcoptic": "Oosper een ke este esti-n apo geneas is genean ke pantas toos e-oonas toon e-oonoon: ameen."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "روح الرب عليَّ، من أجل هذا مسحني وأرسلني، لأبشر المساكين، وأكرز بسنة مقبولة للرب.",
+      "Coptic": "Ou`pneuma `nte `Po̅c̅ petxh \\ijwi> eqbe vai afqa\\ct afouwrp `mmoi> `e\\i]ennoufi `nni\\hki> `e\\iwi] `nourompi ec]hp `m`Po̅c̅.",
+      "English": "The Spirit of the Lord is upon Me,Because He has anointed Me. To preach the gospel to the poor; To proclaim the acceptable year of the Lord.",
+      "Arabiccoptic": "أو إبنفما إنتيه إبشويس بيتكي هي جوي. إثفيه فاي أفثاهست أف أو أورب امموي إيه هي شينوفي إن نيهيكي إيهي أويش إن أو رومبي إس شيب إم إبشويس.",
+      "Englishcoptic": "Oooepnevma en-te ePo̅s̅ petshee higooi: ethve vai afthahst afo-oorp emmoi: ehishen-noofi en-ni-heeki: ehiooish en-oorompi essheep emePo̅s̅."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا (3). بارك إكليل السنة بصلاحك يا رب خلصنا وارحمنا.",
+      "Coptic": "Allhlouia Allhlouia Allhlouia. `Cmou `epi`xlom `nte ;rompi> \\iten tekmet`xrhctoc `Po̅c̅> cw; `mmon ouo\\ nai nan.",
+      "English": "Alleluia (3). Bless the crown of the year with Your goodness, O Lord. Save us and have mercy on us.",
+      "Arabiccoptic": "الليلويا، الليلويا، الليلويا. إزموا إيه بي إكلوم انتيه تي رومبي هيتين تيك ميت إخريستوس إبشويس. سوتي إممون أووه ناي نان.",
+      "Englishcoptic": "Alleelooia Alleelooia Alleelooia. eSmoo epi-ekhlom en-te ti-rompi-: hiten- tekmetekhreestos ePo̅s̅: sooti- emmon owoh nai nan."
+    }
+  ]
+}

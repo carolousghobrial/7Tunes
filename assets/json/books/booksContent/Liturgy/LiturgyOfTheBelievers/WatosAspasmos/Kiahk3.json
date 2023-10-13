@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وزكريا الكاهن أنت بشرته بميلاد السابق يوحنا المعمدان.",
+      "Coptic": "Ouo\\ Ⲍaxariac piouhb `nqok ak\\i]ennoufi naf =en `pjinmici `mpi`prodromoc Iw`annhc piref;wmc.",
+      "English": "And you also have announced the birth of the forefunner John the Baptist to Zechariah the priest.",
+      "Arabiccoptic": "أووه زاخارياس بى أويب. إنثوك أكهيشين نوفى ناف . خين إبجين ميسى إمبى إبرودروموس. يوأنس بى ريفتى أومس.",
+      "Englishcoptic": "Owoh Ⲍakharias pi-ooeev en-thok akhishen-noofi naf khen- epjinmisi empi-eprozromos Ioo-annees pi-refti-ooms."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا هلليلويا المولود من الآب قبل كل الدهور خلصنا وارحمنا.",
+      "Coptic": "Allhlouia Allhlouia Allhlouia> pimici `ebol =en `Viwt =ajwou `nni `e`wn throu> cw; `mmon ouo\\ nai nan.",
+      "English": "Alleluia Alleluia Alleluia the begotten of the Father before all ages. Save us and have mercy upon us.",
+      "Arabiccoptic": "الليلويا (3) بي ميسي إيفول خين إفيوت خاجوؤو إنني أؤون تيرو سوتي إممون اووه ناي نان.",
+      "Englishcoptic": "Alleelooia Alleelooia Alleelooia: pi-misi evol khen Eviot khago-oo enni e-oon tero: sooti emmon owoh nai nan."
+    }
+  ]
+}

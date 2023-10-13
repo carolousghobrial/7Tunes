@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كل العلل الردية فلنتركها عنا ولنطهر قلوبنا باسم الرب.",
+      "Coptic": "Lwiji niben et\\wou> marenxau `ncwn> marentoubo `nnen\\ht> `e=oun `e`vran `m`Psoic.",
+      "English": "All imperfections; let us cast away; let us purify our hearts ; in the name of the Lord.",
+      "Arabiccoptic": "لويجي نيفين إت هو اوو، مارين كاف إنسون، مارين توفو إننين هيت، إخون إ إفران إميب شويس.",
+      "Englishcoptic": "Looiji ni-ven etho-oo: marenkhav ensoon: marentoovo ennenheet: ekhoon eevran emEpchois."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ليكن اسم الرب فينا ليضئ علينا في انساننا الداخلي.",
+      "Coptic": "Mare `vran `m`Psoic> ]wpi `n`=rhi `n=hten> `nteferouwini `eron> =en penrwmi etca=oun.",
+      "English": "Let the Name of the Lord ; dwell in us ; to shine upon ; our inner man.",
+      "Arabiccoptic": "ماري إفران إميب شويس، شوبي إن إخري إن خيتين، إنتيف إر اوؤيني إرون، خين بين رومي إتساخون.",
+      "Englishcoptic": "mare evran emEpchois: shoopi en-ek-hreei en-kheeten-: en-tefero-ooini eron: khen- pen-roomi etsakhoon."
+    }
+  ]
+}

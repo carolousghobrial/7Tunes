@@ -1,0 +1,95 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أوشية القمامصة و القسوس",
+  "EnglishTitle": "Litany of the Clergy",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أذكر يارب القمامصة، والقسوس الأرثوذكسيين والشمامسة.",
+      "Coptic": "Ari`fmeu`i `Psoic `nni\\hgoumenoc>nem ni `precbuteroc `norqodo[oc>nem nidiakwn . ",
+      "English": "Remember, O Lord, the orthodox hegumens, priests, and deacons.",
+      "Arabiccoptic": "أري إفميقئي إبشويس إن ني هيغومينوس نيم ني  إبريسقيتيروس إن اورثوذكسوس نيم ني ذياكون",
+      "Englishcoptic": "Ari efmev-ee Epchois enni-highomenos nem ni epresveteros en-orthozoxos nem ni-ziakon"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا من أجل القمامصة القسوس والشمامسة والإبوذياقونين سبع طغمات كنيسة الله.",
+      "Coptic": "Proceu[acqe `upertwn hgoumenwn ke `precbuterwn ke diakonon ke `upodiakonwn epta tagmatwn tou Qeou thc ek`klhciac",
+      "English": "Pray for the hegumens, priests, deacons, subdeacons, and the seven orders of the Church of God.",
+      "Arabiccoptic": "بروس أفكساستيه إيبرتون أيغومينون كيه إبريسفيتيرون كيه ذياكونون إيبطا طاغماتون تو ثيؤ تيس إكليسياس",
+      "Englishcoptic": "Pros-eveksaste eper-ton ee-go-menon ke epres-veteron ke ziakonon ke epo-ziakonon , epta taghma ton too theo tees ek-ekleesia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Kur`ie` el`ehcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Keer-ee-ee el-ee-eson."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكل الخدام، وكل الذين في البتولية وطهارة كل شعبك المؤمن.",
+      "Coptic": "Nem ref]em]i niben> nem nhthrou et=en ;parqeni`a> Nem outoubo `mpeklaoc thrf `mpictoc .  ",
+      "English": "And all the servants, and all who are in virginity, and the purity of all Your faithful people",
+      "Arabiccoptic": "نيم ريف شمشي نيفين نيم ني تيرو إتخين تي بارثي نيا نيم أؤطوفو إمبيك لاؤس تيرف إمبستوس . ",
+      "Englishcoptic": "Nem ref-shemshi niven : nem nee teeroo etkhen ti-parthenia : nem oo-toovo empek-la-os teerf empistos."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أولئك يا رب",
+  "EnglishTitle": "Those, O Lord",
+  "CopticTitle": "Nh men `Psoic",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أولئك يا رب، الذين أخذت نفوسهم، نيحهم في فردوس النعيم، في كورة الأحياء إلى الأبد، في أورشليم السمائية، في ذلك الموضع.",
+      "Coptic": "Nh men `Psoic `eaksi `nnouyuxh> ma`mton nwou> =en Piparadicoc `nte pounof> =en `txwra `nte nheton= ]a `ene\\> =en Ieroucalhm `nte `tve> =en pima `ete `mmau.",
+      "English": "Those, O Lord, whose souls You have taken, repose them in the Paradise of joy, in the region of the living forever, in the heavenly Jerusalem—in that place.",
+      "Arabiccoptic": "نيمين إبشويس إي آكتشي إن نو إبسيشي ما إمطون نوؤو خين بي باراذيسوس إنتي إبؤونوف خين إتخورا إنتي نيئيت أونخ شا إبنيه خين يروساليم إنتي إتفي خين بي ما إيتي إمماف ",
+      "Englishcoptic": "Nee men Epchois eakchi ennoopseeshee: maemton no-oo: khen Piparazisos ente poonof: khen etkhoora ente nee-etonkh sha eneh: khen Ieroosaleem ente etve: khen pi-ma ete emmav."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ونحن أيضاً الغرباء في هذا المكان، إحفظنا في إيمانك، وأنعم لنا بسلامك إلى التمام.",
+      "Coptic": "`Anon de \\wn =a nhetoi `nrem`njwili `mpaima> `are\\ `eron =en pekna\\;> `ari`\\mot nan `ntek\\irhnh ]a `ebol.",
+      "English": "And we too, who are sojourners in this place, keep us in Your faith, and grant us Your peace unto the end.",
+      "Arabiccoptic": "أنون ذي هون خانيئتؤوي إنريم إنجويلي إم باي ما آريه إيرون خين بيك ناهتي آريئهموت نان إنتيك هيريني شا أيفول . ",
+      "Englishcoptic": "-Anon ze hoon kha nee-etoi en-remen-gooili empaima: areh eron khen- pek-nahti-: ariehmot nan en-tek-hireen-ee sha evol."
+    }
+  ]
+}

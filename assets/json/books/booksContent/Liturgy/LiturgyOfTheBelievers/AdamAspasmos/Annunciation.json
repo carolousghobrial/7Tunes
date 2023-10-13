@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لوالدة الإله، فرح الملائكة، السلام للعفيفة، كرازة الأنبياء.",
+      "Coptic": "Xere :macnou;> `pqelhl `nte niaggeloc> xere ;cemne> `p\\iwi] `nte ni`provhthc",
+      "English": "Hail to the Mother of God, the joy of the angels, hail to the chaste, the preaching of the prophets.",
+      "Arabiccoptic": "شيري تى ماسنوتى إبثيليل إنتى نى آنجيلوس شيرى تى سيمنى إب هى أويش إنتى نى إبروفيتيس . ",
+      "Englishcoptic": "Shere Timasnooti-: eptheleel en-te ni-angelos: shere ti-semne: ephiooish en-te ni-epro-phetees"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام للتي وجدت نعمة، الرب معكِ، السلام للتي قبلت من الملاك، فرح العالم.",
+      "Coptic": "Xere qh`etacjem `\\mot> `Psoic ]op neme> xere qh`etacsi `nten piaggeloc> `m`vra]i `mpikocmoc.",
+      "English": "Hail to you who has found grace, the Lord is with you, hail to you who accepted from the angel, the joy of the world.",
+      "Arabiccoptic": " شيرى ثيايطاس جيم اهموت : ابتشويس شوب نيمى : شيرى ثي ايطاس تشي انتين أنجيلوس : ام افراشي ام بي كوزموس . ",
+      "Englishcoptic": "Shere thee-etasjem ehmot: Epchois shop neme: shere thee-etaschi en-ten- pi-angelos: emevrashi empi-kosmos."
+    }
+  ]
+}

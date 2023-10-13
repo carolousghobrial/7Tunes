@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنْ في الآلهة، يشبهك يا رب، أنت هو الإله الحقيقي، الصانع العجائب.",
+      "Coptic": "Nim gar =en ninou;> et`oni `mmok `Psoic> `nqok pe `Vnou; `mmhi> et`iri `n\\an`]vhri.",
+      "English": "For who among the gods, is likened unto You O Lord, You are the true God, who performs wonders.",
+      "Arabiccoptic": "  نيم غار خين نى نوتى : إتؤنى إمموك إبشويس : إثنوك بى إفنوتى إممى : إت إيرى إنهان إشفيرى . ",
+      "Englishcoptic": "Nim ghar khen ni-nooti-: et-oni- emmok Epchois: enthok pe Evnoti- emmeei: et-eeri enhaneshveeri."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مبارك أنت بالحقيقة، يا ربي يسوع، مع أبيك الصالح، والروح القدس.",
+      "Coptic": "`K`cmarwout `alhqwc> `w Pasoic Ihcouc> nem Pekiwt `n`agaqoc> nem Pi`pneuma Eqouab.",
+      "English": "Blessed are You indeed, O my Lord Jesus, with Your good Father, and the Holy Spirit.",
+      "Arabiccoptic": "اك إزمارؤوت اليثوس , أو باشويس ايسوس , نيم بيكيوت أن اغاثوس , نيم بي إيبنيفما إيثؤواب",
+      "Englishcoptic": "eKesmaro-oot aleethos: -oo Pachois Isos: nem Pekioot en-aghathos: nem Piepnevma Ethowab."
+    }
+  ]
+}

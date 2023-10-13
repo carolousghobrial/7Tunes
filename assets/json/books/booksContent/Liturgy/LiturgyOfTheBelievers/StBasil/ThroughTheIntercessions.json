@@ -1,0 +1,52 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "بشفاعاتِ والدةِ الإلهِ",
+  "EnglishTitle": "Through the intercessions",
+  "CopticTitle": "|iten ni`precbia ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بشفاعاتِ والدةِ الإلهِ القديسةِ مريم، يا ربُّ أَنعِمْ لنا بمغفرةِ خطايانا.",
+      "Coptic": "|iten ni`precbia `nte :qe`otokoc eqouab Maria> `Psoic `ari`\\mot nan `mpixw `ebol `nte nennobi.",
+      "English": "Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins.",
+      "Arabiccoptic": "هيتين ني ابريسفيا انتى تي ثيؤطوكوس اثؤواب ماريا : ابتشويس اري اهموت نان : ام بيكو ايفول انتى نين نوفي :",
+      "Englishcoptic": "Hiten ni-epresvia ente Ti-the-otokos ethowab Maria: Epchois ariehmot nan empi-khoo evol ente nennovi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نسجدُ لكَ أيها المسيحُ، مع أبيكَ الصالح، والروحِ القدسِ، لأنكَ [*COME/RISEN*] وخلَّصتنا.",
+      "Coptic": "Tenouw]t `mmok `w Pi`xrictoc nem Pekiwt `n`agaqoc nem Pi`pneuma Eqouab> je [*COME/RISEN*] akcw; `mmon.",
+      "English": "We worship You, O Christ, with Your good Father and the Holy Spirit, for You [*COME/RISEN*] and saved us.",
+      "Arabiccoptic": "تين اؤوشت امموك اوبيخريستوس نيم بيك يوت ان اغاثوس نيم بي بنيفما اثؤواب [*COME/RISEN*] اك سوتى اممون",
+      "Englishcoptic": "Ten-o-oosht emmok -oo Pikhristos nem Pekioot en-aghathos nem Piepnevma Ethowab: je [*COME/RISEN*] aksooti emmon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رحمةُ السلامِ، ذبيحةُ التسبيحِ.",
+      "Coptic": "`Eleoc `irhnhc> qucia `enecewc.",
+      "English": "A mercy of peace, a sacrifice of praise.",
+      "Arabiccoptic": " ايليؤس ايرينيس ثيثيا ايه نيه ثيؤس",
+      "Englishcoptic": "Eleos eereen-ees: theesia en-eseoos."
+    }
+  ]
+}

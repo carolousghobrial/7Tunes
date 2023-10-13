@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنك لا تشاء، موت الخاطئ، مثل ان يرجع، وتحيا نفسه.",
+      "Coptic": "Je `x`ou`w] `m`vmou`an `miref`ernobi> `m`vrh; `nteftacqof> `ntec`wn= `nje tef`yuxh.",
+      "English": "For You not desire the death of the sinner, but rather that he returns, and that his soul may live.",
+      "Arabiccoptic": "چية إكؤوش اميفمو آن امبى ريف اير نوفى، ام افريتى انتيف طاس توف، انتيس أونخ انچية تيف ابسيشى.",
+      "Englishcoptic": "Ge ekh-oo-oosh emevmoo-an emiref-ernovi: emevreeti en-teftastof: en-tes-oonkh en-je tefepseeshee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ردنا يا الله، إلي خلاصك، وإصنع معنا، كصلاحك.",
+      "Coptic": "Matacqon `V;> `e=oun `epek`oujai> `ari`ou`i neman> kata tekmet`agaqoc.",
+      "English": "Restore us O God, to Your salvation, and deal with us, according to Your goodness.",
+      "Arabiccoptic": "ماتاستون افنوتى، اي خون اى بيك أوجاى، آرى أوى نيمان، كاطا تيك ميت آسغاثوس.",
+      "Englishcoptic": "mataston eVti-: ekhoon epek-oogai: ari-oo-ee neman: kata tekmet-aghathos."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مجمع القديسين",
+  "EnglishTitle": "The Commemoration of the Saints ",
+  "CopticTitle": "`Epidh `Psoic",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن هذا يا رب هو أمر إبنك الوحيد، أن نشترك في تذكار قديسيك. تفضل يا رب، أن تذكر جميع القديسين الذين أرضوك منذ البدء.",
+      "Coptic": "`Epidh `Psoic oua\\ca\\ni pe `nte pekmonogenhc `n}hri> eqrener`]vhr `epier`vmeui `nte nheqouab `ntak. `Arikata[ioin `Psoic `nteker`vmeui `nnheqouab throu `etauranak icjen `p`ene\\.",
+      "English": "As this, O Lord, is the command of Your only-begotten Son, that we share in the commemoration of Your saints, graciously accord, O Lord, to remember all the saints who have pleased You since the beginning:",
+      "Arabiccoptic": "إيبيذي إبشويس آواه ساهني بي إنتي بيك مونوجينيس إنشيري إيثرين إرإشفيرإبي إيرإفميفئي إنتي .  نيئثؤواب إنتاك آري كاطاكسين إبشويس إنتيك إيرإفميفئي إن نيئثؤواب تيرو إيطفرانك يسجين إبئينيه",
+      "Englishcoptic": "Epi-zee Epchois ooahsahni pe en-te pek-monogen-ees En-Sheeri: ethren-ereshveer epi-erevmevi en-te nee-ethowab en-tak. Arikataxioin Epchois en-tek-erevmevi en-nee-ethowab tero etavranak isjen- ep-eneh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آباءنا الأطهار رؤساء الآباء والأنبياء، والرسل والمبشرين والإنجيليين، والشهداء والمعترفين، وكل أرواح الصديقين، الذين كملوا في الإيمان.",
+      "Coptic": "Nenio; eqouab> nipatriarxhc ni`provhthc ni`apoctoloc niref\\iwi] nieuaggelicthc nimarturoc ni`omologithc> nem `pneuma niben `n`qmhi `etaujwk `ebol =en `vna\\;.",
+      "English": "our holy fathers the patriarchs, the prophets, the Apostles, the preachers, the evangelists, the martyrs, the confessors, and all the spirits of the righteous perfected in the faith.",
+      "Arabiccoptic": " نينيوتي إثؤواب ني بطريارشيس ني إبروفيتيس ني آبوسطولوس نيريف هي أويش ني أف آنجيليستيس ني مارتيروس ني اومولوجيتيس نيم إبنيفما نيفين إن أثمي إيطاف جوك إيفول خين إفناهتي ",
+      "Englishcoptic": "Nen-ioti ethowab: ni-patriarshees ni-epro-phetees ni-apostolos ni-refhiooish ni-evangelistees ni-marteeros ni-omologitees: nem epnevma ni-ven- en-ethmeei etavgook evol khen- evnahti."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبالأكثر القديسة المملوءة مجداً، العذراء كل حين والدة الإله القديسة الطاهرة مريم، التي ولدت الله الكلمة بالحقيقة.",
+      "Coptic": "`N\\ou`o de qheqouab `qme\\ `n`wou `etoi `mParqenoc `nchou niben> :qe`otokoc eqouab> ;`agia Maria> qh`etac`jve `Vnou; Pilogoc =en oumeqmhi.",
+      "English": "Most of all, the pure, full-of-glory, ever-virgin, holy Theotokos, Saint Mary, who truly gave birth to God the Logos.",
+      "Arabiccoptic": "إنهوؤو ذي ثيئثؤواب إثميه إن أوأوإت أوي إمبارثينوس إنسيونيفين تي ثيئوطوكوس إثؤواب تي آجيا ماريا ثيئيتاس إجفي إفنوتي بي لوغوس خين أوميثمي ",
+      "Englishcoptic": "eNhoo-o ze thee-ethowab ethmeh en-o-oo etoi emParthen-os en-seeoo ni-ven-: Ti-the-otokos ethowab: ti-agia Maria: thee-etasegve Evnoti- Piloghos khen- oo-methmee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والقديس يوحنا السابق الصابغ والشهيد، والقديس إستفانوس رئيس الشمامسة وأول الشهداء، وناظر الإله الإنجيلى مرقس الرسول الطاهر والشهيد.",
+      "Coptic": "Nem pi`agioc Iwannhc pi`prodromoc `mbapticthc ouo\\ `mmarturoc> nem pi`agioc `Ctevanoc piarxhdiakonoc ouo\\ `m`prwtomarturoc> nem piqe`wrimoc `neuaggelicthc Markoc pi`apoctoloc eqouab ouo\\ `mmarturoc.",
+      "English": "And Saint John the forerunner, baptist, and martyr; Saint Stephen the archdeacon and protomartyr; the beholder-of-God, Saint Mark the Evangelist, the apostle and martyr;",
+      "Arabiccoptic": "نيم بي آجيوس يوأنس بي إبروذروموس أمفابتس تيس أووه إم مارتيروس نيم بي آجيوس إستيفانوس بي أرشي ذياكونوس اووه إم إبروطومارتيروس نيم بي ثيئوريموس إن إف آنجيليستيس ماركوس بي آبوسطولوس إثؤواب أووه إم مارتيروس",
+      "Englishcoptic": "Nem pi-agios Iooannees pi-eprozromos emvapti-stees owoh emmarteeros: nem pi-agios eStevanos pi-arsheeziakonos owoh emep-rootomarteeros: nem pi-the-oorimos en-evangelistees markos pi-apostolos ethowab owoh emmarteeros."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والبطريرك القديس ساويرس، ومعلمنا ديوسقورس، والقديس أثناسيوس الرسولي، والقديس بطرس الشهيد ورئيس الكهنه.",
+      "Coptic": "Nem pipatriarxhc eqouab Ceuhroc> nem penca= Diockoroc> nem pi`agioc `Aqanacioc pi`apoctolikoc> nem pi`agioc Petroc ieromarturoc piarxh`ereuc.",
+      "English": "the patriarch Saint Severus; our teacher Dioscorus; Saint Athanasius the Apostolic; Saint Peter, the holy martyr and high priest;",
+      "Arabiccoptic": " نيم بي بطريارشيس إثؤواب سيفيروس نيم بينساخ ديوسكورس نيم بي آجيوس اثناسيوس بي آبوسطوليكوس نيم بي آجيوس بيترس يبرومارتيروس بي أرشي إرفس ",
+      "Englishcoptic": "Nem pi-patriarshees ethowab Seveeros: nem pen-sakh Dioskoros: nem pi-agios Athanasios pi-apostolikos: nem pi-agios Petros ieromarteeros pi-arshee-erevs."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والقديس يوحنا ذهبي الفم، والقديس ثاودوسيوس، والقديس ثيئوفيلوس، والقديس ديمتريوس، والقديس كيرلس، والقديس باسيليوس، والقديس اغريغوريوس الناطق بالإلهيات، والقديس اغريغوريوس صانع العجائب، والقديس اغريغوريوس الأرمني.",
+      "Coptic": "Nem pi`agioc Iwannhc pi`xrucoctomoc> nem pi`agioc qe`odocioc> nem pi`agioc qe`oviloc> nem pi`agioc Dhmhtrioc> nem pi`agioc Kurilloc> nem pi`agioc Bacilioc> nem pi`agioc Grhgorioc piqe`ologoc> nem pi`agioc Grhgorioc piqaumatourgoc> nem pi`agioc Grhgorioc piarmenioc.",
+      "English": "Saint John Chrysostom; Saint Theodosius; Saint Theophilus; Saint Demetrius; Saint Cyril; Saint Basil; Saint Gregory the Theologian; Saint Gregory the Wonderworker; Saint Gregory the Armenian;",
+      "Arabiccoptic": "نيم بي آجيوس يوأنس بي إخرزوستوموس نيم بي آجيوس ثيئودوسيوس نيم بي آجيوس ثيئوفيلوس نيم بي آجيوس ديمتريوس نيم لي آجيوس كيرلس نيم بي آجيوس فاسيليوس نيم بي آجيوس أغريغوريوس بي ثيئولوغوس نيم بي آجيوس إغريغوريوس بيثاف ماطورغوس نيم بي آجيوس إغريغوريوس بي أرمينيوس ",
+      "Englishcoptic": "Nem pi-agios Iooannees pi-ekhreesostomos: nem pi-agios the-ozosios: nem pi-agios the-ovilos: nem pi-agios Deemeetrios: nem pi-agios Keerillos: nem pi-agios Vasilios: nem pi-agios Ghreeghorios pi-the-ologhos: nem pi-agios Ghreeghorios pi-thavmatoorghos: nem pi-agios Ghreeghorios pi-armen-ios."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والثلاثمائة والثمانية عشر المجتمعين بنيقية، والمئة والخمسين بالقسطنطينية، والمائتين بأفسس.",
+      "Coptic": "Nem pi]omt ]e mht `]mhn `etauqwou; =en Nike`a> nem pi]e teui `nte Kwctantinoupolic> nem pi`cnau ]e `nte `Evecoc.",
+      "English": "the three hundred and eighteen assembled at Nicea; the one hundred and fifty at Constantinople; and the two hundred at Ephesus;",
+      "Arabiccoptic": "نيم بي شمت شي ميت إشمين إيطاف ثوؤوتي خين نيكيئا نيم بي شي تيفي إنتي كوسطانطينوبوليس نيم بي إسناف شي إنتي إيفيسوس . ",
+      "Englishcoptic": "Nem pi-shomt she meet eshmeen etavtho-ooti khen Nike-a: nem pi-she tevi ente Koostantinoopolis: nem pi-esnav she ente evesos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأبانا الصديق العظيم أنبا أنطونيوس، والبار أنبا بولا، والثلاثة أنبا مقارات القديسين، وجميع أولادهم لُباس الصليب.",
+      "Coptic": "Nem peniwt `ndikeoc pini]; abba Antwnioc> nem pi`qmhi abba Paule> nem pi]omt eqouab abba Makari> nem nou]hri throu `n`ctaurovoroc.",
+      "English": "our righteous father, the great Abba Anthony; the righteous Abba Paul; the three saints Abba Macarii and all their children, the cross-bearers;",
+      "Arabiccoptic": "نيم بينيوت إن ذيكيئوس بينشتي آفا أنطونوس نيم بي إثمي آفا بافلي .  نيم بي شومت إثؤواب آفاري نيم نوشيري تيرو إن إسطافروفورس .  ",
+      "Englishcoptic": "Nem pen-ioot en-zikeos pi-ni-shti abva Antooni-os: nem pi-ethmeei abva Pavle: nem pi-shomt ethowab abva makari: nem noosheeri tero en-estavrovoros."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأبانا أنبا يؤأنس القمص، وأبانا أنبا بيشوي البار الرجل الكامل، حبيب مخلصنا الصالح.",
+      "Coptic": "Nem peniwt abba Iwannhc pi\\hgoumenoc> nem peniwt abba Pi]wi pi`qmhi pirwmi `ntelioc> pimenrit `nte Pencwthr `n`agaqoc.",
+      "English": "our father Abba John the hegumen; our righteous father Abba Pishoy, the perfect man, the beloved of our good Savior.",
+      "Arabiccoptic": "نيم بينيوت آفا يؤانس بي هيغومينوس نيم بينوت آفا بيشوي بي إثمي بي رومي إنتي ليوس بي مينريت إنتي بين سوتير إن آغاثوس . ",
+      "Englishcoptic": "Nem pen-ioot abva Iooannees pi-heeghoomen-os: nem pen-ioot abva Pishooi pi-ethmeei pi-roomi en-telios: pi-men-rit en-te Pen-sooteer en-aghathos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأبانا أنبا بولا الطموهي، وحزقيال تلميذه، وسيدي الأبوين القديسين الروميين مكسيموس ودوماديوس، والتسعة والأربعين شهيداً شيوخ شيهيت، والقوي القديس أنبا موسى، ويحنس كاما القس. وأبانا أنبا دانيال القمص، وأبانا أنبا إيسيذوروس القس، وأبانا أنبا باخوم أب الشركة، وتادرس تلميذه، وأبانا أنبا شنودة رئيس المتوحدين، وأنبا ويصا تلميذه.",
+      "Coptic": "Nem peniwt abba Paule piremtammo\\> nem Iezekihl pefmaqhthc> nem nasoic `nio; eqouab `nrwmeoc Ma[imoc nem Dometioc> nem pi`\\me yit `mmarturoc ni=elloi `nte }i\\ht> nem pijwri eqouab abba Mwch> nem Iwannhc Xamh Piouhb> nem peniwt abba Danihl pi\\hgoumenoc> nem peniwt abba `Icidwroc pi`precbuteroc nem peniwt abba Pa=wm va ;koinwnia> nem qe`odwroc pefmaqhthc> nem peniwt abba }enou; piarxhman`drithc> nem abba Bhca pefmaqhthc.",
+      "English": "Our father Abba Paul of Tammoh and Ezekiel his disciple; my lords, the Roman fathers Saints Maximus and Dometius; the Forty-nine Martyrs; the elders of Shiheet; the strong saint Abba Moses; John Kame the priest; our father Abba Daniel the hegumen; our father Abba Isidore the priest; our father Abba Pachom of the Koinonia, and Theodore his disciple; our father Abba Shenoute the archmandrite, and Abba Wesa his disciple;",
+      "Arabiccoptic": "نيم بينيوت آفا بافلي بيريم طموه نيم إيزاكيئيل بيف ماثيتيس نيم ناشويس إنيوتي إثؤواب إنروميئوس مكسيموس نيم دوميتيوس نيم بي إهمي إبيسيت إم مارتيروسنيخللوي إنتي شيهيت نيم بي جوري إثؤواب آفا موسي .  نيم يوانس كامي بي إبريسفيتيروس نيم بينيوت أفا دانيئيل بيهيغومينوس نيم بينيوت آفا إيسيذوروس بي إبريسفيتيروس نيم بينيوت آفا شينوتي بي أرشي مان إذريتيس نيم آفا فيصابيف ماثيتيس ",
+      "Englishcoptic": "Nem pen-ioot abva Pavle pi-remtammoh: nem Iezekieel pefmatheetees: nem nachois en-ioti ethowab en-roomeos maximos nem Dometios: nem pi-ehme psit emmarteeros ni-khelloi en-te Shiheet: nem pi-goori ethowab abva moosee: nem Iooannees Khamee Piooeeb: nem pen-ioot abva Dani-eel pi-heeghoomen-os: nem pen-ioot abva -Isizooros pi-epresveeteros nem pen-ioot abva Pakhoom va tikoinooni-a: nem the-ozooros pefmatheetees: nem pen-ioot abva Shen-ooti pi-arsheemanezritees: nem abva Veesa pefmatheetees."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكل مصاف قديسيك، هؤلاء الذين بسؤالاتهم وطلباتهم، إرحمنا كلنا معاً. وانقذنا من أجل إسمك القدوس الذي دُعي علينا.",
+      "Coptic": "Nem `pxoroc thrf `nte nheqouab `ntak> nai `ete `ebol \\iten nou;\\o nem noutwb\\ nai nan throu eucop> ouo\\ matoujon eqbe pekran eqouab `etaumou; `mmof `e`\\rhi `ejwn.",
+      "English": "and all the choir of Your saints, through whose prayers and supplications have mercy on us all and save us, for the sake of Your holy name, which is called upon us.",
+      "Arabiccoptic": " نيم إبخوروس تيرف إنتي نيئؤواب إنطاك ناي إيتي إيفول هيتين نو تيهو نيم طفه ناي نان تيرو إفسوب أووه ماطوجون إثفي بيكران إثؤواب إيطاف موتي إمموف إي إهري إيجون .",
+      "Englishcoptic": "Nem epkhoros terf en-te nee-ethowab en-tak: nai ete evol hiten- nooti-ho nem nootoobh nai nan tero evsop: owoh matoogon ethve pek-ran ethowab etavmooti- emmof eehreei egoon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "القارِئونَ فليقولوا أسماءَ آبائِنا القِدِّيسينَ البطارِكَةِ الذِينَ رَقَدوا. الربُّ يُنيِّحُ نُفُوسَهُم أجمعينَ، ويغفِرُ لَنا خَطايانا.",
+      "Coptic": "Nhetw] maroutaou`o `nniran> `nte nenio; eqouab `mpatriarxhc `etauenkot. `Psoic ma`mton `nnouyuxh throu> ouo\\ `ntefxa nennobi nan `ebol.",
+      "English": "Let those who read, recite the names of our holy fathers, the patriarchs who have fallen asleep. O Lord repose their souls, and forgive us our sins.",
+      "Arabiccoptic": " نيئتئوش ماروطاؤؤو إن ني ران إنتي نينيوتي إثؤواب إمباطريارشيس إيطاف إنكوت إبشويس ماإمطون إن نؤ إبسيشي تيرو أووه إنتيف كانين نوفي نان إيفول . ",
+      "Englishcoptic": "Nee-etoosh marootaoo-o en-ni-ran: en-te nen-ioti ethowab empatriarshees etaven-kot. Epchois maemton en-noopseeshee tero: owoh en-tefkha nen-novi nan evol."
+    }
+  ]
+}

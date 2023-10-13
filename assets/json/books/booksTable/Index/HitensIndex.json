@@ -1,0 +1,203 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": " ألحان البابا ",
+            "English": "Papal Hymns"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensStMary",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensArchangelMichael",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensArchangelGabriel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensArchangelMichaelResurrection",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensHeavenlies",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensKiahkJohnTheBaptist",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensStJohntheBaptist",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensKiahkZachariahElizabeth",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensKiahkJoakimAnna",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensNativityJosephSalome",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensTheApostles",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensStMark",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensMaryMagdeleneResurrection",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensStStephen",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensStGeorge",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensStPhilopater",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensStMina",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Path": "LiturgyLiturgyOfTheWordHitensStAbanoub",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordHitensCrossKingConstantine"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Path": "LiturgyLiturgyOfTheWordHitensStDemiana",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Path": "LiturgyLiturgyOfTheWordHitensStMarina",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Path": "LiturgyLiturgyOfTheWordHitensStAnthony",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Path": "LiturgyLiturgyOfTheWordHitensStPaulHermit",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordHitensStMoses"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Path": "LiturgyLiturgyOfTheWordHitensStPishoi",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Path": "LiturgyLiturgyOfTheWordHitensStRewis",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Path": "LiturgyLiturgyOfTheWordHitensStJohnTheShort",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Path": "LiturgyLiturgyOfTheWordHitensStKaras",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Path": "LiturgyLiturgyOfTheWordHitensPopeKirollos",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordHitensSaintOfDay"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordHitensPatriarch"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordTenosht"
+        }
+    ]
+}

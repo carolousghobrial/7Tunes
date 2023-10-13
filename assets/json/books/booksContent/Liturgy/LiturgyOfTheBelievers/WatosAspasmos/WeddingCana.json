@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يسوع الناصري، بارك المياه فصيرها خمراً، ما نظر أحد أعجوبة مثل هذه، منذ أدام إلى اليوم.",
+      "Coptic": "Ihcouc Piremnazareq> af`cmou `enimwou afaitou `nhrp> `mpe`\\li nau `eou`]vhri ec`oni `nqai> icjen `Adam ]a `e=oun `mvoou.",
+      "English": "Jesus of Nazareth, blessed the water and it became wine, no one have seen such wonder, since the times of Adam till today.",
+      "Arabiccoptic": " إيسوس بى ريمنازيريث: أف إسمو اى نى موأوو أف أيطو إن إيرب: إمبى إهلى ناف اى أو إشفيرى إس أونى إنثاى: يسـﭼين آدام شا إيخون إم إفموأوو . ",
+      "Englishcoptic": "Isos Piremnazareth: afesmoo en-imo-oo afaitoo en-eerp: empeehli nav eooeshveeri es-oni en-thai: isjen- Azam sha ekhoon emvo-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا، هلليلويا، هلليلويا. يسوع المسيح إبن الله، بارك المياه فصيرها خمراً. خلصنا وارحمنا.",
+      "Coptic": "Allhlouia Allhlouia Allhlouia. Ihcouc Pi`xrictoc `P]hri `m`Vnou;> af`cmou `enimwou afaitou `nhrp. Cw; `mmon ouo\\ nai nan.",
+      "English": "Alleluia alleluia alleluia. Jesus Christ, the Son of God, blessed the water and changed it into wine. Save us and have mercy on us.",
+      "Arabiccoptic": " اليلويا اليلويا اليلويا: إيسوس بخرستوس إبشيرى إمفنوتى: أف إسمو اى نى موأوو أف أيطو إن إيرب: سوتى إمون أووه ناى نان . ",
+      "Englishcoptic": "Alleelooia Alleelooia Alleelooia. Isos Pikhristos ePsheeri emEvnoti-: afesmoo en-imo-oo afaitoo en-eerp. Sooti- emmon owoh nai nan."
+    }
+  ]
+}

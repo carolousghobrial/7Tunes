@@ -1,0 +1,63 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ربنا يسوع المسيح، ملك الدهور، قام من بين الأموات، في اليوم الثالث.",
+      "Coptic": "`A Peno̅c̅ Ihcouc Pi`xrictoc> `Pouro `nte ni`ewn> aftwnf `ebol =en nheqmwout> =en pi`e\\oou `mma\\]omt.",
+      "English": "Our Lord Jesus Christ, the King of the ages, rose from the dead, on the third day.",
+      "Arabiccoptic": "آ بينتشويس ايسوس بي خريستوس: اب أوورو انتى ني ايؤن: أفطونف ايفول خين ني ايثموأووت: خين بي ايهوأوو امماه شومت . ",
+      "Englishcoptic": "-A Pen-o̅s̅ Isos Pikhristos: ePooro en-te ni-eoon: aftoonf evol khen- nee-ethmo-oot: khen- pi-eho-oo emmahshomt."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رتلوا لإلهنا، رتلوا لملكنا، رتلوا لمخلصنا، قام من بين الأموات.",
+      "Coptic": "`Ariyalin `ePennou;> `ariyalin `ePenouro> `ariyalin `ePenrefcw;> aftwnf `ebol =en nheqmwout.",
+      "English": "Sing to our God, sing to our King, sing to our Savior, He is risen from the dead.",
+      "Arabiccoptic": "ف اريبسالين اى بين نوتي: أريبسالين اى بين أوورو: أريبسالين اى بين ريف سوتي: أفطونف ايفول خين ني ايثموأووت . ",
+      "Englishcoptic": "-Aripsalin ePen-nooti-: aripsalin ePen-ooro: aripsalin ePen-refsooti-: aftoonf evol khen- nee-ethmo-oot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إستنيري إستنيري، أيتها العذراء مريم، إستنيروا إستنيروا، أيها الرسل الصديقون.",
+      "Coptic": "Siouwini siouwini> `w :parqenoc Mariam> siouwini siouwini> ni`apoctoloc `ndikeoc.",
+      "English": "Illuminate illuminate, O Virgin Mary, illuminate illuminate, O righteous Apostles.",
+      "Arabiccoptic": "ف تشي أووأويني: أو تي بارثينوس ماريام: تشي أووأويني تشي أووأويني: ني أبوسطولوس ان ذيكيؤس . ",
+      "Englishcoptic": "Chio-ooini chio-ooini: -oo Tiparthen-os Mariam: chio-ooini chio-ooini: ni-apostolos en-zikeos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نصرخ قائلين، \"قدوس قدوس، قدوس رب الدهور، المسيح قام من بين الأموات.\"",
+      "Coptic": "Euw] `ebol eujw `mmoc> je `xouab ouo\\ `xouab> `xouab `Psoic `nni`ewn> `Xrictoc `anecth ek nekrwn.",
+      "English": "We proclaim and say, “Holy holy, holy O Lord of the ages, Christ is risen from the dead.”",
+      "Arabiccoptic": "ف ان أوش ايفول انجو امموس: جى اكؤواب أووه اكؤواب: اكؤواب ابتشويس انني ايؤن: اخريستوس آنيستي ايك نيكرون . ",
+      "Englishcoptic": "Evoosh evol evgoo emmos: je Ek-owab owoh ekhooab: Ek-owab Epchois en-ni-eoon: eKhristos anestee ek nek-roon."
+    }
+  ]
+}

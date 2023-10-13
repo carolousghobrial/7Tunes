@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ستة أجران ماء: صنعتها خمر مختار: بمجدك العظيم: نسبحك ثلاث مرات  . ",
+      "Coptic": "Coou (6) `n\\udria `mmwou> akaito `nhrp efcwtp> \\iten pekni]; `n`wou> ten\\wc nak ]omt `ncop.",
+      "English": "Six jars of water, You changed into genuine wine, with Your great glory, we praise You three times.",
+      "Arabiccoptic": " سوأوو إن هيذريا إموأوو: أك أيطو إن إيرب إف سوتب: هيتين بيك نيشتى إن أواوو: تين هوس ناك شومت إنسوب . ",
+      "Englishcoptic": "So-oo (6) en-heezria emmo-oo: akaito en-eerp efsootp: hiten- pek-ni-shti en-o-oo: ten-hoos nak shomt en-sop."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الله هو نور وساكن في النور وملائكة النور تسبحه.",
+      "Coptic": "Ou`ouwini pe V;> ef]op =en pi`ouwini> \\an aggeloc `n`ouwini `eter\\umnoc erof.",
+      "English": "God is Light dwelling in the Light, with angels of light praising Him.",
+      "Arabiccoptic": "أوأويني بي أفنوتي إفشوب خين بي أوأويني هان آنجيليوس إن أو أويني إتئير هيمنوس إيروف",
+      "Englishcoptic": "Ooo-o-ooini pe Vti-: efshop khen pi-o-ooini: han angelos en-o-ooini eterheemnos erof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "النور أشرق من مريم واليصابات ولدت السابق.",
+      "Coptic": "`ApiOuwini ]ai `ebol =en Maria> `Elicabet mici `mpi`prodromoc.",
+      "English": "The Light has shone forth from Mary; Elizabeth has borne the forerunner.",
+      "Arabiccoptic": "آبي أوأويني شاي إيفول خين ماريا آ إليصافيت ميسي إمبي إبروذروموس",
+      "Englishcoptic": "-Api-Oo-ooini shai evol khen Maria: elisavet misi empi-eprozromos."
+    }
+  ]
+}

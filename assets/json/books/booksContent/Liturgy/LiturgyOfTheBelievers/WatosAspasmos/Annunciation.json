@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صعد إلى السموات، وخضعت له الملائكة، والقوات والسلاطين، حسب قول الرسول.",
+      "Coptic": "Af]enaf `e`p]wi `enivhou`i> ausnejwou naf `nje \\anaggeloc> nem \\anjom nem \\ane[oucia> kata `pcaji `mpi`apoctoloc.",
+      "English": "He ascended into the heavens, the angels submitted to Him, with the powers and the authorities, according to the saying of the Apostle.",
+      "Arabiccoptic": "  آفشيناف إيه إبشوي إيه ني فيؤوي : آﭭتشنيه جوأوو ناف إنﭽيه هان آنجيلوس : نيم هان جوم نيم هان إيه إكسوسيا : كاطا إبصاﭽي إمبي آبوسطولوس  . ",
+      "Englishcoptic": "Afshen-af eepshooi en-iveeoo-ee: avchnego-oo naf en-je hanangelos: nem hangom nem hanexoosia: kata epsaji empi-apostolos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا (3)، المسيح قام من بين الأموات، وصعد إلى السموات. خلصنا وإرحمنا.",
+      "Coptic": "Allhlouia (g̅)> Pi`xrictoc aftwnf `ebol =en nheqmwout> ouo\\ af]enaf `e`p]wi `enivhou`i. Cw; `mmon ouo\\ nai nan. Cw; `mmon ouo\\ nai nan.",
+      "English": "Alleluia (3), Christ has risen from the dead, and ascended into the heavens. Save us and have mercy upon us.",
+      "Arabiccoptic": " الليلويا (3): بي خريستوس آفطونف إيفول خين نى اثمؤوت أووه افشيناف إى إبشوى إني فى أووى  . سوتى إممون أووه ناى نان . ",
+      "Englishcoptic": "Alleelooia (gh̅): Pikhristos aftoonf evol khen nee-ethmo-oot: owoh afshenaf eepshooi eni-veeoo-ee. Sooti emmon owoh nai nan. Sooti emmon owoh nai nan."
+    }
+  ]
+}

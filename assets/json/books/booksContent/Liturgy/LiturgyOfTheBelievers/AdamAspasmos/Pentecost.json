@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " تعال إلينا اليوم، يا سيدنا المسيح، وأضئ علينان، بلاهوتك العالي . ",
+      "Coptic": "`Amou ]aron `mvoou> `w Pennhb Pi`xrictoc> `ariouwini `eron> =en tekmeqnou; etsoci.",
+      "English": "Come to us today, O our Master Christ, enlighten us, with Your high divinity.",
+      "Arabiccoptic": " آمو شارون إمفوؤ : أو بين نيب بيخريستوس : آري أوؤيني إرون : خين تيك ميثنوتي إت تشوسي  . ",
+      "Englishcoptic": "-Amoo sharon emvo-oo: -oo Pen-neev Pikhristos: ario-ooini eron: khen- tekmethnooti etchosi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أرسل إلينا، هذه النعمة العظيمة، التي لروحك القدس، المعزي . ",
+      "Coptic": "Ouwrp `e`=rhi `ejwn> `mpaini]; `n`\\mot> `nte Pek`pneuma Eqouab> `mparaklhton.",
+      "English": "Send down upon us, this great grace, of Your Holy Spirit, of comfort.",
+      "Arabiccoptic": " أوؤرب إي إخري إيجون : إمباي نيشتي إن إهموت : إنتيه بيك بنيفما إثوؤاب : إمباراكليتون  . ",
+      "Englishcoptic": "Oo-oorp eekhreei egoon: empaini-shti en-ehmot: en-te Pekepnevma Ethowab: emparakleeton."
+    }
+  ]
+}

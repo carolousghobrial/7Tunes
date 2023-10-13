@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أسباذيستيه الكبيرة - (قبلوا بعضكم بعضاً)",
+  "EnglishTitle": "Great one another - Great ",
+  "CopticTitle": "Acpazecqe",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قبِّلوا بعضَكُمْ بعضاً بقُبلةٍ مقدسةٍ.",
+      "Coptic": "Acpazecqe allhlouc en vilhmati `agiw.",
+      "English": "Greet one another with a holy kiss.",
+      "Arabiccoptic": "آسبازيستيه الليلوس إن فيليماتي آجيو",
+      "Englishcoptic": "Aspazeste alleeloos en vileemati agioo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين. يا ربُّ إرحَم، يا ربُّ إرحَم، يا ربُّ إرحَم، الذي هو يسوع المسيح إبن الله، إسمعنا وإرحمنا.",
+      "Coptic": "`Amhn. Kurie `ele`hcon Kurie `ele`hcon Kurie `ele`hcon. `Ete vai pe Ihcouc Pi`xrictoc `P]hri `m`Vnou; cwtem `eron ouo\\ nai nan.",
+      "English": "Amen. Lord have mercy, Lord have mercy, Lord have mercy, O [Lord] Jesus Christ, Son of God, hear us and have mercy upon us.",
+      "Arabiccoptic": " امين كيريه إليسون كيريه إليسون كيريه إليسون إيتيه فاي بيه إيسوس بي خريستوس إبشيري إم إفنوتي سوتيم إيرون أووه ناي نان  . ",
+      "Englishcoptic": "Ameen. Keerie ele-eeson Keerie ele-eeson Keerie ele-eeson. ete vai pe Isos Pikhristos ePsheeri emEvnoti sootem eron owoh nai nan."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنقف حسناً، لنقف بتقوَى، نقف بإتصال، نقف بسلام، نقف بخوف الله ورعدة وخشوع.",
+      "Coptic": "`Ctwmen kalwc> `ctwmen eulabwc> `ctwmen ektenwc> `ctwmen en`irhnh> `ctomen meta vobou qeou ke `tromou ke kata nu[eoc.",
+      "English": "Let us stand commendably, let us stand reverently, let us stand resolutely, let us stand in peace, let us stand in the fear of God, trembling and transfixed.",
+      "Arabiccoptic": "إستومين كالوس : إستومين إف لافوس : إستومين إكتينوس : إستومين إن إيريني : إستومين ميتافوفو ثيؤو كيه ترومو كيه كاطا نيكسيؤس  .",
+      "Englishcoptic": "eStoomen kaloos: estoomen evlavoos: estoomen ektenoos: estoomen en-eereenee: estomen meta vovoo theoo ke etromoo ke kata neexeos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الإكليروس وكل الشعب بطلبة وشكر، بهدوء وسكوت.",
+      "Coptic": "Pi`klhroc nem pilaoc thrf> =en outwb\\ nem ou]ep`\\mot> nem oucemni nem ouxarwf.",
+      "English": "O clergy and all the people, with prayer and with thanksgiving, with dignity and silence,",
+      "Arabiccoptic": " بي إكليروس نيم بي لاؤس تيرف خين أوو طوبه نيم أوو شيب إهموت نيم أوو سيمني نيم أوو كاروف  .",
+      "Englishcoptic": "Piekleeros nem pi-laos terf: khen ootoobh nem ooshepehmot: nem oosemni nem ookharoof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إرفعوا أعينكم إلى ناحية المشرق، لتنظروا المذبح وجسد ودم عمانوئيل إلهنا موضوعين عليه.",
+      "Coptic": "Fai `nnetenbal `e`p]wi `e`pca `n;`anatolh> `ntetennau `epiquciac thrion> `ere Picwma nem Pi`cnof `nte Emmanouhl Pennou; xh `e`\\rhi `ejwf.",
+      "English": "raise your eyes towards the East to see the altar and the Body and the Blood of Emmanuel our God placed upon it.",
+      "Arabiccoptic": " فاي إن نيتين فال إي إبشوي إي إبصا إنتي آناطولي إنتيه تين ناف إيه بي ثيسياس تيريون إيريه بي سوما نيم بي إسنوف إنتيه إممانوئيل بين نوتي كيه إي إهري إيجوف  .",
+      "Englishcoptic": "Fai en-neten-val eepshooi eepsa en-ti-anatolee: en-teten-nav epi-theesias teerion: ere Pisooma nem Piesnof en-te Emmanooeel Pen-nooti- shee eehreei egoof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الملائكة ورؤساء الملائكة قيام. السِّرافيم ذو الستة أجنحه والشاروبيم الممتلئون أعيناً يسترون وجوههم من بهاء عظمة مجده غير المنظور ولا ينطق بة.",
+      "Coptic": "`Ere niaggeloc `o\\i `eratou nem niarxhaggeloc> Niceravim na picoou (6) `nten\\> nem Nixeroubim eqme\\ `mbal> eu\\wbc `nnou\\o eqbe `qmetcaie `nte pefni]; `p`wou> `nat`]erqe`wrin `mmof ouo\\ `nat`]caji `mmof.",
+      "English": "The angels and archangels are standing, the Seraphim with six wings and the Cherubim full of eyes are covering their faces because of the splendor of His great glory, which is invisible and ineffable,",
+      "Arabiccoptic": " إيريه ني آنجيلوس أوهي إيراتو نيم ني آرشي آنجيلوس : ني سيرافيم نابي سوو إن تينه نيم ني شيروبيم إثميه إمفال : إفهوبس إننوهو إثفيه إيه ميت صاي إيه إنتيه بيف نيشتي إن أوأوو إن آت إش إيثريه إورين إمموف أووه إن آت إش صاﭽي إمموف : ",
+      "Englishcoptic": "Ere ni-angelos -ohi eratoo nem ni-arshee-angelos: Niseraphim na pi-so-oo (6) en-ten-h: nem Nisherobim ethmeh emval: evhoobs en-nooho ethve ethmetsaie en-te pefni-shti ep-o-oo: en-atesherthe-oorin emmof owoh en-ateshsaji emmof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يسبحون بصوت واحد صارخين قائلين: \"قدوس قدوس قدوس رب الصاباؤوت. السماء والأرض مملوءتان من مجدك الأقدس.\"",
+      "Coptic": "Eu\\wc =en ou`cmh `nouwt> euw] `ebol eujw `mmoc> je `agioc `agioc `agioc> Kurioc cabawq> `plhrhc `o ouranoc ke `hgh thc `agiac cou do[hc.",
+      "English": "Praising in one voice, proclaiming and saying: “Holy, holy, holy, Lord of hosts, heaven and earth are full of Your holy glory.”",
+      "Arabiccoptic": "إفهوبس خين أوو إسمي إن أووأوت : إف اوش إيفول إفجو إمموس  . ﭽيه آجيوس آجيوس آجيوس كيريوس صاباؤت بليريس أو أوورانوس كيه أي جي تيس آجياس سو ذوكسيس  . ",
+      "Englishcoptic": "Evhoos khen ooesmee eno-oot: evoosh evol evgoo emmos: je agios agios agios: Keerios savaooth: epleerees -o ooranos ke eegee tees agias soo zoxees."
+    }
+  ]
+}

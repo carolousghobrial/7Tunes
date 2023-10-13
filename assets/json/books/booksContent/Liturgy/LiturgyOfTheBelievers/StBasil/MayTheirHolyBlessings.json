@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "بركتهم المقدسة",
+  "EnglishTitle": "May their holy blessing",
+  "CopticTitle": "`Ere pou`cmou eqouab",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "برَكَتُهُم المقدسةُ تكونُ مَعَنا. آمين.",
+      "Coptic": "`Ere pou`cmou eqouab ]wpi neman. `Amhn.",
+      "English": "May their holy blessing be with us. Amen.",
+      "Arabiccoptic": "بركتهم المقدسة تكون معنا آمين  .",
+      "Englishcoptic": "Ere pooesmoo ethowab shoopi neman. Ameen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجدُ لكَ يا رب، (يا ربُّ لكَ المجدُ). يا ربُّ إرحَم. يا ربُّ إرحَم. يا ربُّ بارِكْنا. يا رب نَيِّحْهُم. آمين.",
+      "Coptic": "Do[a ci Kurie> Kurie `ele`hcon Kurie `ele`hcon> Kurie euloghcon> Kurie `anapaucon> `amhn.",
+      "English": "Glory to You, O Lord. Lord have mercy. Lord have mercy. Lord, bless us. Lord, repose them. Amen.",
+      "Arabiccoptic": "  المجد لك يا رب  . (يا رب لك المجد) يا رب ارحم ، يا رب ارحم ، يا رب باركنا يا رب نيحهم امين . ",
+      "Englishcoptic": "Doxa si Keerie: Keerie ele-eeson Keerie ele-eeson: Keerie evlogeeson: Keerie anapavson: Ameen."
+    }
+  ]
+}

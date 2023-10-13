@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ايها الحمل الحقيقي الذي لله الآب اصنع معنا رحمة في ملكوتك.",
+      "Coptic": "Pi|ihb `mmhi> `nte V; `Viwt> `ari`ounai neman> =en tekmetouro.",
+      "English": "O true Lamb of God the Father, have mercy upon us in Your kingdom.",
+      "Arabiccoptic": "بي هييب اممي : انتي افنوتي افيوت : أري أووناي نيمان : خين تيك ميت أوورو  . ",
+      "Englishcoptic": "PiHieev emmeei: en-te Vti Eviot: ari-oonai neman: khen- tekmetooro."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن فم أبيك يشهد لك أنك هو ابن العلي وأنا اليوم ولدتك.",
+      "Coptic": "Rof gar `mPekiw>t etoi `mmeqre =arok> je `nqok pe Pa}hri> `anok ai`jvok `mvo`ou.",
+      "English": "For the mouth of Your Father testifies about You, saying, “You are my Son, today have I begotten You.”",
+      "Arabiccoptic": " روف غار امبيك يوت : ات أوي امميثريه خاروك : جي انثوك بي باشيري : أنوك أي اجفوك امفوأوو  .",
+      "Englishcoptic": "Rof ghar emPekioo:t etoi emmethre kharok: je en-thok pe PaSheeri: anok aiegvok emvo-oo."
+    }
+  ]
+}

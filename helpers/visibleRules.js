@@ -83,6 +83,20 @@ const isStandard = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   return currentSeason.type !== "feast" && motherSource === "praises";
 };
+const isStandardSeasonWithStMary = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  switch (currentSeason.key) {
+    case "STANDARD":
+    case "FAST_OF_APOSTLES":
+    case "FEAST_OF_APOSTLES":
+    case FeastEnum.FAST_STMARY:
+    case FeastEnum.ASSUMPTION_STMARY:
+      return true;
+    default:
+      return false;
+  }
+  return currentSeason.type !== "feast";
+};
 const isStandardSeason = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   switch (currentSeason.key) {
@@ -1241,6 +1255,7 @@ const VisibleRules = {
   TheotokiaVisible: TheotokiaVisible,
   isStandard: isStandard,
   isStandardSeason: isStandardSeason,
+  isStandardSeasonWithStMary: isStandardSeasonWithStMary,
   isKiahk: isKiahk,
   isLenten: isLenten,
   isSeason: isSeason,

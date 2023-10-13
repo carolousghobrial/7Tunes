@@ -1,0 +1,63 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "اسبازموس أدام سنوي ثاني",
+  "EnglishTitle": "Second Annual Adam Aspasmos - Ari-aspazesta",
+  "CopticTitle": "`Ariacpazecqe",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قبِّلوا، بقبلةٍ مقدسة، طهِّروا قلوبكم، من كل شر.",
+      "Coptic": "`Ariacpazecqe> =en ouvi eqouab> matoubo `nneten\\ht> `ebol \\a kakia niben.",
+      "English": "Greet, with a holy kiss, purify your hearts, from every evil thing.",
+      "Arabiccoptic": "اري اسبازيستي : خين اوفي ايثؤواب : ماتوفو إنين هيت : إيفول ها كاكيا نيفين",
+      "Englishcoptic": "-Ariaspazeste: khen oovi ethowab: matoovo ennetenheet: evol ha kakia ni-ven."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كونوا مستعدين، لموهبة الله، حتى تنالوا، من هذه الأسرار.",
+      "Coptic": "}wpi `ere tencebtwt> `e;dwre`a `nte `Vnou;> ]a `ntetensi `ebol> =en naimucthrion.",
+      "English": "Be prepared, for the gift of God, that you may be given, these mysteries.",
+      "Arabiccoptic": "شوبي أيرى تين سيفتوت : إيتي ذوريئا  إنتى إيفنوتي : شا إنتي تين تشيسي إيفول: خين ناي ميستيريون",
+      "Englishcoptic": "Shoopi ere ten-sebtoot: eti-zoore-a en-te Evnoti-: sha en-teten-chi evol: khen- naimeesteerion."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبهذه، نفوز بالرحمة، ومغفرة خطايانا، كعظيم رحمته.",
+      "Coptic": "`Ebol \\iten nai> eqren]a]ni `eounai> nem ouxw `ebol `nte nennobi> kata pefni]; `nnai.",
+      "English": "Through these [mysteries], we may win mercy, and forgiveness of our sins, according to His great mercy.",
+      "Arabiccoptic": "إيفول هيتين ناي : إيثرين شاشني إي أوناي : نيم أوكو إيفول إينتى نين نوفي : كاتا بيفنيشتي أن ناي",
+      "Englishcoptic": "Evol hiten nai: ethrenshashni eoonai: nem ookhoo evol ente nennovi: kata pefnishti ennai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نسجد لك أيها المسيح، مع أبيك الصالح، والروح القدس، لأنك [*COME/RISEN*] وخلصتنا. .",
+      "Coptic": "Tenouw]t `mmok `w Pi`xrictoc> nem Pekiwt `n`agaqoc> nem Pi`pneuma Eqouab> je [*COME/RISEN*] akcw; `mmon. ",
+      "English": "We worship You O Christ, with Your good Father, and the Holy Spirit, for You have [*COME/RISEN*] and saved us. ",
+      "Arabiccoptic": "تين أوأو شت إمموك أوبخرستوس. نيم بيك يوت إن أغاثوس. نيم بى إبنفما إثؤواب. جى [*COME/RISEN*] أكسوتى إممون .   ",
+      "Englishcoptic": "Ten-o-oosht emmok -oo Pikhristos: nem Pekioot en-aghathos: nem Piepnevma Ethowab: je [*COME/RISEN*] aksooti emmon."
+    }
+  ]
+}

@@ -180,7 +180,7 @@
         {
             "Type": "Main",
             "Rule": 0,
-            "Visible": "isStandardSeason",
+            "Visible": "isStandardSeasonWithStMary",
             "Path": "LiturgyLiturgyOfTheWordLiturgyGospelResponsesSaintsGospelResponsesstmary"
         },
         {

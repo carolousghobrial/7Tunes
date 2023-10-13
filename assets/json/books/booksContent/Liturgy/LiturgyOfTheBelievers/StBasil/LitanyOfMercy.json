@@ -1,0 +1,51 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أوشية الرحمة",
+  "EnglishTitle": "Litany of Mercyy",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أذكر يا رب أن ترحمنا كلنا معاً",
+      "Coptic": "Ari`fmeu`i `Psoic  `nteknai nan throu eucop .  ",
+      "English": "Remember, O Lord, to have mercy upon us all",
+      "Arabiccoptic": "آري إفميفتي إبشويس إنتيك ناي تيرو إفسوب . ",
+      "Englishcoptic": "Ari-efmev-ee epchois entek-nai nan teero evsop."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إرحمنا يا الله الآب، ضابط الكل.",
+      "Coptic": "Ele`hcon `hmac `o Qeoc `o pathr `o pantokratwr",
+      "English": "Have mercy upon us, O God, the Father, the Pantocrator.",
+      "Arabiccoptic": "اليسون ايماس اوثيؤس اوباتير او باندكوراطور",
+      "Englishcoptic": "Eleison eemas o-theos o-patir o-pantocrator."
+    }
+  ]
+}

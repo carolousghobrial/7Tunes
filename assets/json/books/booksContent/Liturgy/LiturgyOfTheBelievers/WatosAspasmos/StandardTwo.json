@@ -1,0 +1,52 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "اسبازموس واطس سنوي ثاني",
+  "EnglishTitle": "Second Annual Watos Aspasmos ",
+  "CopticTitle": "Maren\\wc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنسبح مع الملائكة، والطغمات السمائية، الذي هو الآب والإبن، والروح القدس.",
+      "Coptic": "Maren\\wc nem niaggeloc> nem nitagma `n`epouranin> `ete vai pe `Viwt nem `P]hri> nem Pi`pneuma Eqouab.",
+      "English": "Let us praise with the angels, and the heavenly hosts, He who is the Father and the Son, and the Holy Spirit.",
+      "Arabiccoptic": "مارينهوس نيم ني انجيلوس : نيم ني طاغما إن إيبورانيون : إيتى فاي بى إيفيوت نيم إبشيري : نيم بي إيبنيفما إيثؤواب",
+      "Englishcoptic": "maren-hoos nem ni-angelos: nem ni-taghma en-epoorani-n: ete vai pe Eviot nem ePsheeri: nem Piepnevma Ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "[*ROICONCLUSION*]",
+      "Coptic": "[*ROICONCLUSION*]",
+      "English": "[*ROICONCLUSION*]",
+      "Arabiccoptic": "[*ROICONCLUSION*]",
+      "Englishcoptic": "[*ROICONCLUSION*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدوس قدوس قدوس، رب الصاباؤت، السماء والأرض، مملوءتان من مجدك الأقدس.",
+      "Coptic": "`Agioc `agioc `agioc> Kurioc cabawq> `plhrhc `o ouranoc ke `h gh> thc `agiac cou do[hc.",
+      "English": "Holy holy holy, Lord of hosts, heaven and earth, are full of Your holy glory.",
+      "Arabiccoptic": "اجيوس أجيوس أجيوس : كيريوس سافاوث : أبليريس أوؤرانوس كي أي غي : تيس أجياس سوؤ ذوكسيس ازمو أينسيتي نيم نيسيم  . ",
+      "Englishcoptic": "Agios agios agios: Keerios savaooth: epleerees -o ooranos ke ee gee: tees agias soo zoxees."
+    }
+  ]
+}

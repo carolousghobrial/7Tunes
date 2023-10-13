@@ -82,6 +82,8 @@ function HomepageScreen({ navigation, route }) {
 
   const onFetchUpdateAsync = async () => {
     try {
+      const season = setCurrentSeasonLive(timeTransition);
+      dispatch(setSeason({ currentSeason: season }));
       const update = await Updates.checkForUpdateAsync();
 
       if (update.isAvailable) {

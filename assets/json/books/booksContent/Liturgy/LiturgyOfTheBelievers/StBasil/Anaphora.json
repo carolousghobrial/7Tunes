@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "الأنافورا",
+  "EnglishTitle": "The Anaphora",
+  "CopticTitle": "`O Kurioc meta",
   "Hymn": [
     {
       "Type": "Base",
@@ -24,7 +24,7 @@
       "Coptic": "`O Kurioc meta pantwn `umwn.",
       "English": "The Lord be with you all.",
       "Arabiccoptic": "أوكيريوس ميطابانطون إيمون",
-      "Englishcoptic": "-O Keerios meta pantoon -eymoon."
+      "Englishcoptic": "O Keerios meta pantoon eemon."
     },
     {
       "Type": "Base",
@@ -46,7 +46,7 @@
       "Coptic": "Ke meta tw `pneumatoc cou.",
       "English": "And with your spirit.",
       "Arabiccoptic": "كي مي طاطو إبنيقماتو سو",
-      "Englishcoptic": "Ke meta too epnevmatos sooo."
+      "Englishcoptic": "Ke meta too epnevmatos soo."
     },
     {
       "Type": "Base",
@@ -68,7 +68,7 @@
       "Coptic": "`Anw `umwn tac kardiac.",
       "English": "Lift up your hearts.",
       "Arabiccoptic": "آنو إيمون طاس كارذياس",
-      "Englishcoptic": "-Anoo -eymoon tas karzias."
+      "Englishcoptic": "-Anoo eemon tas karzias."
     },
     {
       "Type": "Base",
@@ -90,7 +90,7 @@
       "Coptic": "`Exomen `proc ton Kurion.",
       "English": "We have them with the Lord.",
       "Arabiccoptic": "إيخومين إبروس طون كيريون",
-      "Englishcoptic": "-Ekhomen epros ton Keerion."
+      "Englishcoptic": "Ekhomen epros ton Keerion."
     },
     {
       "Type": "Base",
@@ -112,7 +112,7 @@
       "Coptic": "Euxaricthcwmen tw Kuriw.",
       "English": "Let us give thanks to the Lord.",
       "Arabiccoptic": "إيفخاريس تيسومين طوكيريو",
-      "Englishcoptic": "Evkharisteesoomen too Keerioo."
+      "Englishcoptic": "Evkharistee-soomen too Keerioo."
     },
     {
       "Type": "Base",
@@ -156,7 +156,7 @@
       "Coptic": "A[ion ke dikeon> a[ion ke dikeon> `alhqwc gar =en oumeqmhi> a[ion ke dikeon.",
       "English": "Meet and right, meet and right; truly, indeed, it is meet and right.",
       "Arabiccoptic": "اكسيون كي ذي كيئون أكسيون كي ذي كيئون آليثوس غارخين اوميثمي أكسيون كي ذي كيئون",
-      "Englishcoptic": "Axion ke zikeon: axion ke zikeon: -aleeoos ghar khen ooomemeei: axion ke zikeon."
+      "Englishcoptic": "Axion ke zikeon: axion ke zikeon: aleethos ghar khen oo-methmee: axion ke zikeon."
     },
     {
       "Type": "Base",
@@ -167,7 +167,7 @@
       "Coptic": "Vhet]op `Vnhb `Psoic `Vnou; `nte ;meqmhi.",
       "English": "O You, THE BEING, Master, Lord, God of Truth,",
       "Arabiccoptic": "فيئتشوب إننيب إبشويس إفنوتي إنتي تي ميثمي ",
-      "Englishcoptic": "Veeetshop eVneev ePchois eVnoooti ente timemeei."
+      "Englishcoptic": "Vee-etshop Evneeb Epchois Evnoti en-te timethmeei."
     },
     {
       "Type": "Base",
@@ -178,7 +178,7 @@
       "Coptic": "Vhet]op =ajwou `nni`ene\\> ouo\\ etoi `nouro ]a `ene\\.",
       "English": "being before the ages and reigning forever;",
       "Arabiccoptic": "فيئتشوب خاجوؤو إن ني إبنيه أووه إت أوى إن أورو شا إينيه.",
-      "Englishcoptic": "Veeetshop khagooooo enni-eneh: ooooh etoi enoooro sha -eneh."
+      "Englishcoptic": "Vee-etshop khago-oo en-ni-eneh: owoh etoi en-ooro sha eneh."
     },
     {
       "Type": "Base",
@@ -189,7 +189,7 @@
       "Coptic": "Vhet]op =en nhetsoci> ouo\\ etjou]t `ejen nhetqebihout.",
       "English": "who dwell in the highest and look upon the lowly;",
       "Arabiccoptic": " فيئتشوب خين ني إتتشوسي أووه إت جوشت إيجين نيئتثيقيوت",
-      "Englishcoptic": "Veeetshop khen neeetchosi: ooooh etgooosht -ejen neeettevieeooot."
+      "Englishcoptic": "Vee-etshop khen nee-etchosi: owoh etgoosht ejen nee-ettevieeoot."
     },
     {
       "Type": "Base",
@@ -200,7 +200,7 @@
       "Coptic": "Vh`etafqamio `n`tve nem `pka\\i nem `viom> nem nh`ete `n=htou throu.",
       "English": "who have created the heaven, the earth, the sea, and all that is therein;",
       "Arabiccoptic": " فيئيتاف ثاميو إن إتفي نيم إبكاهي نيم إفيوم نيم نيئتي إنخيتو تيرو. ",
-      "Englishcoptic": "Vee-etafamio enetve nem epkahi nem eviom: nem nee-ete enkheetooo teerooo."
+      "Englishcoptic": "Vee-etaf-thamio en-etve nem epkahi nem eviom: nem nee-ete en-kheetoo tero."
     },
     {
       "Type": "Base",
@@ -211,7 +211,7 @@
       "Coptic": "`Viwt `mPensoic ouo\\ Pennou; ouo\\ Pencwthr Ihcouc Pi`xrictoc.",
       "English": "the Father of our Lord, God, and Savior Jesus Christ,",
       "Arabiccoptic": "إفيوت إمبين شويس أووه بيننوتي أووه بين سوتير إيسوس بي إخرستوس",
-      "Englishcoptic": "eVioot emPenchois ooooh Pennoooti ooooh Pensooteer Ieesooos Piekhristos."
+      "Englishcoptic": "Eviot emPen-chois owoh Pen-nooti owoh Pen-sooteer Isos Pikhristos."
     },
     {
       "Type": "Base",
@@ -222,7 +222,7 @@
       "Coptic": "Vai `etakqamio `m`pthrf `ebol \\itotf> nh`etounau `erwou nem nh`ete `ncenau `erwou an.",
       "English": "by whom You have created all things, visible and invisible;",
       "Arabiccoptic": " فاى إيتاك ثاميو إم إبتيرف إيقول هي ططف ني إيتو ناف إيروؤو نيم نيئتي إنسيناف إيروؤو آن.",
-      "Englishcoptic": "Vai -etakamio emepteerf -evol hitotf: nee-etooonav -erooooo nem nee-ete ensenav -erooooo an."
+      "Englishcoptic": "Vai etakthamio emep-terf evol hitotf: nee-etoonav ero-oo nem nee-ete en-sen-av ero-oo an."
     },
     {
       "Type": "Base",
@@ -233,7 +233,7 @@
       "Coptic": "Vhet\\emci \\ijen pi`qronoc `nte pef`wou> vh`etououw]t `mmof \\iten jom niben eqouab.",
       "English": "who sits upon the throne of His glory; and who is worshiped by all the holy powers.",
       "Arabiccoptic": " فيئت هيمسي هيجين بيإثرونوس إنتي بيف أوأو فيئيتو أوأوشت إمموف هيتين جوم نيفين إثؤواب.",
-      "Englishcoptic": "Veeethemsi hijen pieronos ente pef-ooooo: vee-etoooooooosht emmof hiten gom niven eoooab."
+      "Englishcoptic": "Vee-ethemsi hijen pi-ethronos ente pef-o-oo: vee-eto-oo-oosht emmof hiten gom ni-ven ethowab."
     },
     {
       "Type": "Base",
@@ -255,7 +255,7 @@
       "Coptic": "`I kaqhmeni `anacqhte.",
       "English": "You who are seated, stand.",
       "Arabiccoptic": "إيكاثي ميني آناسثيتي.",
-      "Englishcoptic": "-I kaeemeni -anasteete."
+      "Englishcoptic": "-I katheemen-i anasteete."
     },
     {
       "Type": "Base",
@@ -277,7 +277,7 @@
       "Coptic": "Vh`etou`o\\i `eratou na\\raf> `nje niaggeloc> nem niarxhaggeloc> niarxh> nie[oucia> ni`qronoc> nimetsoic> nijom.",
       "English": "Before whom stand the angels, the archangels, the principalities, the authorities, the thrones, the dominions, and the powers.",
       "Arabiccoptic": "يئتو أو هي إى راتو ناهراف إنجي ني آنجيلوس نيم ني أرشي نجيلوس نيم أرشي ني إكسوسيا ني إثرونوس ني ميت شويس ني جوم.",
-      "Englishcoptic": "Vee-etooo-ohi -eratooo nahraf: enje niangelos: nem niarsheeangelos: niarshee: niexooosia: nieronos: nimetchois: nigom."
+      "Englishcoptic": "Vee-etoo-ohi eratoo nahraf: en-je ni-angelos: nem ni-arshee-angelos: ni-arshee: ni-exoosia: ni-ethronos: ni-metchois: ni-gom."
     },
     {
       "Type": "Base",
@@ -299,7 +299,7 @@
       "Coptic": "Ic `anatolac `bleyate.",
       "English": "Look towards the East.",
       "Arabiccoptic": "إيس أناطولاس إقليبساتي",
-      "Englishcoptic": "Is -anatolas eblepsate."
+      "Englishcoptic": "Is anatolas eblepsate."
     },
     {
       "Type": "Base",
@@ -321,7 +321,7 @@
       "Coptic": "`Nqok gar pe `etou`o\\i `eratou `mpekkw;> `nje Nixeroubim eqme\\ `mbal> nem Niceravim na picoou `nten\\> euer\\umnoc =en oumoun `ebol `natxarwou eujw `mmoc.",
       "English": "You are He around whom stand the Cherubim full of eyes, and the Seraphim with six wings, praising continuously, without ceasing, saying—",
       "Arabiccoptic": "إنثوك غاربي إتؤ أو هي إيراتو إم بيك كوتي إنجي ني شيروفيم إثميه إمقال نيم ني سيرافيم نابي سو إن تنه. إيقئير هيمنوس خين أومون إيقول إن أت كارورو إيقجو إمموس.",
-      "Englishcoptic": "eNok ghar pe -etooo-ohi -eratooo empekkooti: enje Nisherooovim emeh emval: nem Niseravim na pisoooo entenh: everheemnos khen ooomooon -evol enatkharooooo evgoo emmos."
+      "Englishcoptic": "eNthok ghar pe etoo-ohi eratoo empek-kooti-: en-je Nisherobim ethmeh emval: nem Niseraphim na pi-so-oo en-ten-h: everheemnos khen- oomoon evol en-atkharo-oo evgoo emmos."
     },
     {
       "Type": "Base",
@@ -343,40 +343,7 @@
       "Coptic": "`Procxwmen.",
       "English": "Let us attend.",
       "Arabiccoptic": "إبروس خومين",
-      "Englishcoptic": "eProskhoomen."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "People",
-      "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "الشاروبيم يسجدون لك، والسِّرافيم يمجدونك، صارخين قائلين:",
-      "Coptic": "Nixeroubim ceouw]t `mmok> nem Niceravim ce;`wou nak> euw] `ebol eujw `mmoc>",
-      "English": "The Cherubim worship You, and the Seraphim glorify You, proclaiming and saying,",
-      "Arabiccoptic": "ني شيروبيم سى أوأوشت إمموك نيم ني سيرافيم سى تي أوأوو ناك إفؤش إيفول إفجو إمموس",
-      "Englishcoptic": "Nisherooovim seooooosht emmok: nem Niseravim seti-ooooo nak: evoosh -evol evgoo emmos:"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "\"قدوس. قدوس. قدوس. رب الصاباؤت. السماء والأرض مملوءتان من مجدك الأقدس.\"",
-      "Coptic": "Je `agioc `agioc `agioc> Kurioc cabawq> `plhrhc `o ouranoc ke `h gh> thc `agiac cou do[hc.",
-      "English": "“Holy, holy, holy, Lord of hosts, heaven and earth are full of Your holy glory.”",
-      "Arabiccoptic": " جى أجيوس أجيوس أجيوس كيريوس صاباؤوت بلى ريس أورانوس كى إيجي تيس أجياس سوذوكسيس . ",
-      "Englishcoptic": "Je -agios -agios -agios: Keerios savaoo: epleerees -o oooranos ke -ee gee: tees -agias sooo zoxees."
+      "Englishcoptic": "eProskhoomen-."
     }
   ]
 }

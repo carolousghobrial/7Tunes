@@ -46,7 +46,7 @@
       "Coptic": "Eu`e`i  `e`\\rhi `ejen `t`ave `mpimakarioc `niwt ettaihout `narxi`ereuc papa abba [*POPE*].",
       "English": "shall come upon the head of our blessed and honorable father, the high priest Pope Abba [*POPE*],",
       "Arabiccoptic": "إف إى إى إهرى إيجين إت آفيه إمبى مكاريوس إنيوت إتطايوت إن ارشى إيريفس بابا آفا [*POPE*]",
-      "Englishcoptic": "Ev-e-ee  -eehreei -ejen et-ave empimakarios enioot etta-iot enarshi-erevs papa Avva [*POPE*]."
+      "Englishcoptic": "Ev-e-ee  eehreei ejen et-ave empimakarios enioot etta-iot enarshi-erevs papa Avva [*POPE*]."
     },
     {
       "Type": "Base",
@@ -57,7 +57,7 @@
       "Coptic": "Nem `ejen `t`ave `mpeniwt eqouab `n`epickopoc (`mmhtropolithc) abba [*DIOCESE_BISHOP*].",
       "English": "and upon the head of our holy father Metropolitan Abba [*DIOCESE_BISHOP*].",
       "Arabiccoptic": "نيم إيجين إت آفى إم بين يوت إثؤواب إم ميتروبوليس آفا [*DIOCESE_BISHOP*]",
-      "Englishcoptic": "Nem -ejen et-ave empenioot ethowab em-metro-poli-tees Avva [*DIOCESE_BISHOP*]."
+      "Englishcoptic": "Nem ejen et-ave empenioot ethowab em-metro-poli-tees Avva [*DIOCESE_BISHOP*]."
     },
     {
       "Type": "Base",
@@ -68,7 +68,7 @@
       "Coptic": "Nem `ejen `t`ave `mpeniwt eqouab `n`epickopoc  abba [*DIOCESE_BISHOP*].",
       "English": "and upon the head of our holy father Bishop  Abba [*DIOCESE_BISHOP*].",
       "Arabiccoptic": "نيم إيجين إت آفى إم بين يوت إثؤواب إن إبيسكوبوس آفا [*DIOCESE_BISHOP*]",
-      "Englishcoptic": "Nem -ejen et-ave empenioot ethowab en-epes-kopos  Avva [*DIOCESE_BISHOP*]"
+      "Englishcoptic": "Nem ejen et-ave empenioot ethowab en-epes-kopos  Avva [*DIOCESE_BISHOP*]"
     },
     {
       "Type": "Base",

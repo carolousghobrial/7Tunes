@@ -262,6 +262,28 @@
       "Side": "North",
       "Arabic": "الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين.",
       "English": "Now and at all times and unto the age of all ages. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين. يا ربُّ إرحَم (3).",
+      "Coptic": "`Amhn. Kuri`e `ele`hcon> Kuri`e `ele`hcon> Kuri`e `ele`hcon.",
+      "English": "Amen.Lord have mercy (3).",
+      "Arabiccoptic": "آمين كيريي إليسون كيريي إليسون كيريي إليسون",
+      "Englishcoptic": "Ameen. Kerie-leyson Kerie-leyson Kerie-leyson"
     }
   ]
 }

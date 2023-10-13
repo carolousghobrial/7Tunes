@@ -12,7 +12,7 @@
       "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `narxi`ereuc papa abba [*POPE*] > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through their prayers, keep the life of our honored father, the high priest, Pope Abba [*POPE*], O Lord, grant us the forgiveness of our sins",
       "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إمبين يوت إتطايوت إن أرشي إريفس باباآفا [*POPE*] إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان إمبي كو إيقول إنتي نين نوفي",
-      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enarshi-erevs papa Avva [*POPE*] : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+      "Englishcoptic": "Hiten noooevshee areh epoonkh empenioot etta-iot enarshi-erevs papa Avva [*POPE*] : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     },
     {
       "Type": "Base",
@@ -23,7 +23,7 @@
       "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba [*DIOCESE_BISHOP*] pimhtropolithc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through their prayers keep the life of our honored and righteous father, the metropolitan Abba [*DIOCESE_BISHOP*], O Lord, grant us the forgiveness of our sins",
       "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*DIOCESE_BISHOP*] بي ميتروبوليتيس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
-      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*DIOCESE_BISHOP*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+      "Englishcoptic": "Hiten noooevshee areh epoonkh empenioot etta-iot enzikeos Avva [*DIOCESE_BISHOP*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     },
     {
       "Type": "Base",
@@ -34,7 +34,7 @@
       "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba[*METROPOLITAIN_PRESENT*] pimhtropolithc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through their prayers keep the life of our honored and righteous father, the metropolitan Abba [*METROPOLITAIN_PRESENT*], O Lord, grant us the forgiveness of our sins",
       "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*METROPOLITAIN_PRESENT*] بي ميتروبوليتيس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
-      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*METROPOLITAIN_PRESENT*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+      "Englishcoptic": "Hiten noooevshee areh epoonkh empenioot etta-iot enzikeos Avva [*METROPOLITAIN_PRESENT*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     },
     {
       "Type": "Base",
@@ -45,7 +45,7 @@
       "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba[*METROPOLITAIN_PRESENT2*] pimhtropolithc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through their prayers keep the life of our honored and righteous father, the metropolitan Abba [*METROPOLITAIN_PRESENT2*], O Lord, grant us the forgiveness of our sins",
       "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*METROPOLITAIN_PRESENT2*] بي ميتروبوليتيس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
-      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*METROPOLITAIN_PRESENT2*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+      "Englishcoptic": "Hiten noooevshee areh epoonkh empenioot etta-iot enzikeos Avva [*METROPOLITAIN_PRESENT2*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     },
     {
       "Type": "Base",
@@ -56,7 +56,7 @@
       "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba[*METROPOLITAIN_PRESENT3*] pimhtropolithc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through their prayers keep the life of our honored and righteous father, the metropolitan Abba [*METROPOLITAIN_PRESENT3*], O Lord, grant us the forgiveness of our sins",
       "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*METROPOLITAIN_PRESENT3*] بي ميتروبوليتيس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
-      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*METROPOLITAIN_PRESENT3*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+      "Englishcoptic": "Hiten noooevshee areh epoonkh empenioot etta-iot enzikeos Avva [*METROPOLITAIN_PRESENT3*] metro-politees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     },
     {
       "Type": "Base",
@@ -67,7 +67,7 @@
       "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba [*DIOCESE_BISHOP*] piepickopoc > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through their prayers keep the life of our honored and righteous father, the bishop  Abba [*DIOCESE_BISHOP*], O Lord, grant us the forgiveness of our sins",
       "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*DIOCESE_BISHOP*] بي إبسكوبوس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
-      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*DIOCESE_BISHOP*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+      "Englishcoptic": "Hiten noooevshee areh epoonkh empenioot etta-iot enzikeos Avva [*DIOCESE_BISHOP*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     },
     {
       "Type": "Base",
@@ -78,7 +78,7 @@
       "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba [*BISHOP_PRESENT*] piepickopoc > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through their prayers keep the life of our honored and righteous father, the bishop  Abba [*BISHOP_PRESENT*], O Lord, grant us the forgiveness of our sins",
       "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*BISHOP_PRESENT*] بي إبسكوبوس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
-      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*BISHOP_PRESENT*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+      "Englishcoptic": "Hiten noooevshee areh epoonkh empenioot etta-iot enzikeos Avva [*BISHOP_PRESENT*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     },
     {
       "Type": "Base",
@@ -89,7 +89,7 @@
       "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba [*BISHOP_PRESENT2*] piepickopoc > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through their prayers keep the life of our honored and righteous father, the bishop  Abba [*BISHOP_PRESENT2*], O Lord, grant us the forgiveness of our sins",
       "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*BISHOP_PRESENT2*] بي إبسكوبوس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
-      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*BISHOP_PRESENT2*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+      "Englishcoptic": "Hiten noooevshee areh epoonkh empenioot etta-iot enzikeos Avva [*BISHOP_PRESENT2*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     },
     {
       "Type": "Base",
@@ -100,7 +100,7 @@
       "Coptic": "|iten noueuxh `are\\ epwn= `mpeniwt ettaihout `ndikeoc abba [*BISHOP_PRESENT3*] piepickopoc > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
       "English": "Through their prayers keep the life of our honored and righteous father, the bishop  Abba [*BISHOP_PRESENT3*], O Lord, grant us the forgiveness of our sins",
       "Arabiccoptic": "هيتين نو إفكي آريه إبؤنخ إم بنيوت إتطايوت إن ذيكيئوس آفا [*BISHOP_PRESENT3*] بي إبسكوبوس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  . آري إهموت نان.",
-      "Englishcoptic": "Hiten noooevshee -areh epoonkh empenioot etta-iot enzikeos Avva [*BISHOP_PRESENT3*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+      "Englishcoptic": "Hiten noooevshee areh epoonkh empenioot etta-iot enzikeos Avva [*BISHOP_PRESENT3*] piepes-kopos : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
     }
   ]
 }

@@ -1,0 +1,239 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "طوبه هينا الكبيرة",
+  "EnglishTitle": "Tobh Hina (Great) ",
+  "CopticTitle": "Twb\\ \\ina ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أطلبوا لكي يرحمنا الله، ويتراءف علينا ويسمعنا، ويعيننا، ويبدد عنا كل التجارب ويديم إيماننا.",
+      "Coptic": "Twb\\ \\ina `nte V; nai nan> `ntef]en\\ht =aron> `ntefcwtem `eron> `ntef`erbohqin `eron> `ntefjer piracmoc niben `ebol \\aron> `ntefxa penna\\; efmhn `ebol.",
+      "English": "Pray that God may have mercy and compassion on us, hear us, help us and disperse all temptations and preserve our faith.",
+      "Arabiccoptic": "طوبه هينا إنتيه إفنوتي ناي نان : إنتيف شينهيت خارون : إنتيف سوتيم إيرون : إنتيف إيرفويثين إيرون : إنتيف ﭽير بيرازموس نيفين إيفول هارون : إنتيف كانين ناهتي إفمين إيفول  . ",
+      "Englishcoptic": "Toobh hina ente Evnoti nai nan: entef-shenheet kharon: entef-sootem eron: entef-ervoeein eron: entef-ger pirasmos niven evol haron: entef-ka pen-nahti efmeen evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بسؤلات وصلوات أبينا المكرم المثلث الغبطة، أبينا أبى الآباء، راعى الرعاة، رئيس رؤساء كهنتنا.",
+      "Coptic": "+en ni;\\o nem ni`proc`euxh `nte peniwt ettaihout tou `tric makariou> patroc `hmwn patroc paterwn> pimenoc pimenwn arxh`ere`wc arxh`ere`wn `hmwn.",
+      "English": "Through the prayers and intercessions of our honorable father, his triple beatitude, the father of fathers, the shepherd of shepherds, the head of the heads of our clergy.",
+      "Arabiccoptic": " خين ني تيهو نيم ني بروس إفشي إنتيه بينيوت إتطايوت تو إتريس ماكاريو : باتروس إيمون باتروس باتيرون : بي مينوس بي مينون : آرشي إيريؤس آرشي إيريؤن إيمون  . ",
+      "Englishcoptic": "Khen nitiho nem niepros-evshee ente penioot etta-iot tooo etris makariooo: patros eemoon patros pateron: pimenos pimenoon arshee-ere-oos arshee-ere-oon eemoon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الراعي الحقيقي، كمثل كهنوت ملكي صادق وهرون، خليفة مرقس الرسول، بابا وبطريرك المدينة العظمى الإسكندرية وما لها من البلاد حبيب المسيح، ",
+      "Coptic": "Pima `n`ecw`ou `n`alhqinon kata `vrh; `n;met`ouhb `mMelxicedek nem `A`arwn> pidiadoxoc `mMarkoc pi`apoctoloc> papa ke patriarxou thc megalo pole`wc `Ale[an`driac> nem nh`ete nouc `mpolic pimenrit `nte Pi`xrictoc ",
+      "English": "The true shepherd who resembles the priesthood of Melchizedek and Aaron, the descendent of St. Mark the Apostle, Pope and patriarch of the great city of Alexandria and all its vicinities, the beloved of Christ, ",
+      "Arabiccoptic": " بي ما إن إيصوأوو إن آليثينون كاطا إفريتي إنتي ميت أوويب إمميلشي سيديك نيم آآرون : بي ذياذوخوس إمماركوس بي آبوسطولوس بابا كيه باتريارخو تيس ميغالو بوليؤس آليكصاندرياس : نيم ني إيتيه نوس إمبوليس : بي مينريت إنتيه بي خريستوس ",
+      "Englishcoptic": "Pima en-esoo-ooo en-aleei-thinon kata evreeti entimet-oweeb em-melshisezek nem A-aroon: pizia-zokhos em-markos pi-apostolos: papa ke patriarkhooo tees meghalo po-le-oos Alexane-drias: nem nee-ete nooos empolis pimenrit ente Pikhristos"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "BishopIsPresent",
+      "Side": "North",
+      "Arabic": "وأن يحفظ حياة وقيام أبينا المكرم البابا الأنبا [*POPE*]",
+      "Coptic": "`Ntef`are\\ `e`pwn= nem `pta\\o `eratf `mpeniwt ettaihout `narxh`ereuc papa Abba [*POPE*]> ",
+      "English": "And to keep the life and standing of our honored father, Pope Abba [*POPE*] ",
+      "Arabiccoptic": "اف ايه اريه نان ابؤنخ نيم اب طاهو ايراتف ام بين يوت ايطايوت ان ارشي ايرفس بابا افا [*POPE*] ",
+      "Englishcoptic": "Entef-areh ep-onkh nem eptaho eratf empeniot ettaiot en-arshy erevs Papa Avva [*POPE*] "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseMetropolitain",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`n`mmhtropolithc Abba [*DIOCESE_BISHOP*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the metropolitan, Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن ميتروبوليتيس  افا  [*DIOCESE_BISHOP*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-emmetro-politis Avva [*DIOCESE_BISHOP*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISOneMetropolitain",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*METROPOLITAIN_PRESENT*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`n`mmhtropolithc Abba [*METROPOLITAIN_PRESENT*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the metropolitan, Abba [*METROPOLITAIN_PRESENT*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن ميتروبوليتيس  افا  [*METROPOLITAIN_PRESENT*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-emmetro-politis Avva [*METROPOLITAIN_PRESENT*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISTwoMetropolitain",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*METROPOLITAIN_PRESENT2*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`n`mmhtropolithc Abba [*METROPOLITAIN_PRESENT2*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the metropolitan, Abba [*METROPOLITAIN_PRESENT2*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن ميتروبوليتيس  افا  [*METROPOLITAIN_PRESENT2*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-emmetro-politis Avva [*METROPOLITAIN_PRESENT2*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeMetropolitain",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*METROPOLITAIN_PRESENT3*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`n`mmhtropolithc Abba [*METROPOLITAIN_PRESENT3*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the metropolitan, Abba [*METROPOLITAIN_PRESENT3*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن ميتروبوليتيس  افا  [*METROPOLITAIN_PRESENT3*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-emmetro-politis Avva [*METROPOLITAIN_PRESENT3*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc Abba [*DIOCESE_BISHOP*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the bishop , Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن إيبيسكوبوس افا [*DIOCESE_BISHOP*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-epes-kopos Avva [*DIOCESE_BISHOP*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISOneBishop",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف أنبا [*BISHOP_PRESENT*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc Abba [*BISHOP_PRESENT*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the bishop, Abba [*BISHOP_PRESENT*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن إيبيسكوبوس  افا  [*BISHOP_PRESENT*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-epes-kopos Avva [*BISHOP_PRESENT*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISTwoBishop",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف أنبا [*BISHOP_PRESENT2*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc Abba [*BISHOP_PRESENT2*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the bishop, Abba [*BISHOP_PRESENT2*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن إيبيسكوبوس  افا  [*BISHOP_PRESENT2*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-epes-kopos Avva [*BISHOP_PRESENT2*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeBishop",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف أنبا [*BISHOP_PRESENT3*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc Abba [*BISHOP_PRESENT3*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the bishop, Abba [*BISHOP_PRESENT3*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن إيبيسكوبوس  افا  [*BISHOP_PRESENT3*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-epes-kopos Avva [*BISHOP_PRESENT3*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "Is3PlusBishops",
+      "Side": "North",
+      "Arabic": "وشركائه في الخدمة الرسولية آبائنا المطارنة والأساقفة الحاضرين معنا",
+      "Coptic": "Nem nefke`]vhr `nlitourgoc `napoctolikoc neniw; eqouab  `mmetropolithc nem ni`epickopoc nhetxh neman ",
+      "English": "And his partner in the apostolic liturgy, our holy fathers the Metropolitans and Bishops who are with us",
+      "Arabiccoptic": " نيم نيف كى اشفير ان ليتورغوس ان ابوسطوليكوس نينيوتي إثؤواب إمميتروبوليتيس نيم ني إيبيسكوبوس ني إتكي نيمان",
+      "Englishcoptic": "Nem nef-keshvir enli-torghos en-apostolikos nenioti ethowab en-epes-kopos nem ni epes-kopos ni-etkee neman "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يسوع المسيح الحمل الحقيقي الراعي الصالح، يثبته على كرسيه سنين عديدة وأزمنة سالمة.",
+      "Coptic": "Ihcouc Pi`xrictoc pi|ihb `n`alhqinoc ouo\\ piman`ecw`ou `n`agaqoc> ef`etajrof \\ijen pef`qronoc `n\\anmh] `nrompi nem \\anchou `n\\irhnikon.",
+      "English": "May the Lord Jesus Christ, the true Lamb and good Shepherd, confirm him on his throne for several years and many peaceful times.",
+      "Arabiccoptic": " إيسوس بي خريستوس بي هييب إن آليثينوس اووه بيما إن إيصو أوو إن آغاثوس : إف إيه طاجروف هيﭽين بيف إثرونوس إنهان ميش إنرومبي نيم هان سيو إنهيرينيكون  . ",
+      "Englishcoptic": "Isos Pikhristos pi-Hieeb en-alee-thinos owoh piman-esoo-ooo en-aghathos: ef-etagrof hijen peferonos enhanmeesh enrompi nem hanseeooo enhireenikon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "IsDioceseNotPope",
+      "Side": "North",
+      "Arabic": "ويُخضع جميعَ أعدائهم تحت أقدامه  أقدامهم سريعاً.",
+      "Coptic": "`Ntefqebio `nnoujaji throu capecht `nnousalauj `nxwlem.",
+      "English": "May He subdue all their enemies under their feet speedily.",
+      "Arabiccoptic": " إنتيف ثيفيو إن نو جاجى تيرو سابيسيت إن نو تشالفج إنكوليم",
+      "Englishcoptic": "Entef-sevio ennoogaji teeroo sapeseet en-noo-chalavg enkoolem."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "IsDiocesePope",
+      "Side": "North",
+      "Arabic": "ويُخضع جميعَ أعدائه  تحت أقدامه سريعاً.",
+      "Coptic": "`Ntefqebio `nnefjaji throu capecht `nnefsalauj `nxwlem.",
+      "English": "May He subdue all his enemies under his feet speedily.",
+      "Arabiccoptic": " إنتيف ثيفيو إن نيف جاجى تيرو سابيسيت إن نيف إتشالفج إنكوليم",
+      "Englishcoptic": "Entef-sevio ennefgaji teeroo sapeseet en-nef-echalavg  enkhoolem."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "IsDioceseNotPope",
+      "Side": "North",
+      "Arabic": " ويعطيهم زماناً هادئاً بهيجاً.",
+      "Coptic": " Ouo\\ `ntef; nou `n`ouchou `njamh `nnotem.",
+      "English": "And grant them peaceful, pleasant times.",
+      "Arabiccoptic": "   أووه إنتيف تي نو إن أووسيو إنجامي إننوتيم",
+      "Englishcoptic": "Owoh entefti noo en-oooseioo engamee ennotem."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "IsDiocesePope",
+      "Side": "North",
+      "Arabic": " ويعطيه زماناً هادئاً بهيجاً.",
+      "Coptic": " Ouo\\ `ntef; naf `n`ouchou `njamh `nnotem.",
+      "English": "And grant him peaceful, pleasant times.",
+      "Arabiccoptic": "   أووه إنتيف تي ناف إن أووسيو إنجامي إننوتيم",
+      "Englishcoptic": "Owoh entefti naf en-oooseeooo engamee ennotem."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويقبل سؤالات وطلبات قديسيه منهم بالصلاح عنا في كل حين.",
+      "Coptic": "`Ntefsi `nni;\\o nem nitwb\\ `nte nh eqouab `ntaf `ntotou `e`\\rhi `ejwn `epi`agaqon `nchou niben.",
+      "English": "And accept the supplications and prayers of His saints for that which is good on our behalf at all times.",
+      "Arabiccoptic": " إنتيف تشي إنني تيهو نيم ني طوبه إنتيه ني إثؤواب إنطاف إنتوتو إيه إهري إيجون إيه بي آغاثون إنسيو نيفين : ",
+      "Englishcoptic": "eNtefchi ennitiho nem nitoobh ente nee ethowab entaf entotooo eehreei egoon epi-aghaon enseeooo niven."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويجعلنا مستحقين أن ننال من شركة أسراره المقدسة المباركة، لمغفرة خطايانا.",
+      "Coptic": "`Ntef`aiten `n`em`p]a eqrensi `ebol=en ;koinwnia `nte nefmucthrion eqouab> et`cmarw`out `epixw `ebol `nte nennobi.",
+      "English": "And make us worthy to partake of the communion of His holy and blessed mysteries, for the remission of our sins.",
+      "Arabiccoptic": "إنتيف آيتين إن إيم إبشا إثرين تشي إيفول خين تي كينونيا إنتيه نيف ميستيريون إثؤواب إت إسماروؤت إيه بي كو إيفول إنتيه نين نوفي  .  ",
+      "Englishcoptic": "eNtef-aiten en-emepsha erenchi evolkhen tikoinoonia ente nefmeesteerion ethowab: etesmaroo-ooot epi-koo evol ente nennovi."
+    }
+  ]
+}

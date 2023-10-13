@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجد للآب والابن والروح القدس، الآن وكل اوان وإلي دهر الدهور. أمين الليلويا .",
+      "Coptic": "Do[a Patri ke Uiw ke `agiw `Pneumati> ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn> `amhn allhlouia.",
+      "English": "Glory to the Father and to the Son and to the Holy Spirit, now and ever and unto the ages of the ages. Amen. Alleluia.",
+      "Arabiccoptic": "ذوكصابتري كيه إيو كي آجيو ابنيفماتي كي نين، كي آ إي، كي ايستوس إي أوناس تون إي أونون امين الليلويا ",
+      "Englishcoptic": "Zoxa patri ke eio, ke agio epnevmati. Ke nin ke a-ee ke estos e-onas ton e-onon Amen allelouia "
+    }
+  ]
+}

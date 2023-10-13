@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "بي نيشتي الكبيرة",
+  "EnglishTitle": "Great Pinishti",
+  "CopticTitle": "Pini]; abba Antwni",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "العظيم أنبا أنطونيوس الكامل الصالحات، والبار بولا أول السواح، أنبا مقار اللابس الروح، أنبا مقار الأسقف حبيب المسيح، أنبا مقار القس، أنبا يؤأنس القمص، أنبا بيشوي الرجل الكامل، أنبا إيسيذوروس القس، أبونا القديسان الروميان مكسيموس ودوماديوس، أنبا موسى الجندي القوي، أنبا دانيال القمص، أنبا شنودة رئيس المتوحدين، أنبا صموئيل المعترف، وكل مصاف القديسين.",
+      "Coptic": "Pini]; abba Antwni> pitelioc =en ni`agaqon> nem pi`qmhi abba Paule> pi]orp `n`anaxwrithc> abba Makari pi`pneumatovoroc> abba Makari pi`epickopoc> pimenrit `nte Pi`xrictoc> abba Makari Piouhb> abba Iwannhc pi\\hgoumenoc> abba Pi]wi pirwmi `ntelioc> abba `Icidwroc Piouhb> nenio; eqouab `nrwmeoc Ma[imoc nem Dometioc> abba Mwch pimatoi `njwri> abba Danihl pi\\hgoumenoc> abba }enou; piarxhman`drithc> nem abba Camouhl pi`omologithc> nem `pxoroc thrf `nte nheqouab.",
+      "English": "The great Abba Anthony full of goodness, and the righteous Abba Paul the first anchorite, Abba Macari the spiritual, Abba Macari the bishop beloved of Christ, Abba Macari the priest, Abba John the hegumen, Abba Pishoy the perfect man, Abba Isidore the priest, our holy Roman fathers Maximus and Dometius, Abba Moses the strong soldier, Abba Daniel the hegumen, our father Abba Shenoute the archimandrite, Abba Samuel the confessor, and all the choirs of the saints—",
+      "Arabiccoptic": "بي نشتي آفا أنطوني بي تيليوس خين ني آغاثون نيم بي إثمي آفابافلي بي شورب إن آناخوريتيس آفا مكاري بي إبنيفماتوفوروس آفا مكاري بي إبيسكوبوس بي منريت إنتي بي إخرستوس آفا مكاري بي إبريسفيتيروس آفا يؤانس بي هيغومينوس آفا بيشوي بي رومي إنتي ليوس آفا إيسيذوروس بي إبريسفيتيروس نين يوتي إثؤواب إن روميئوس ماكسيموس نيم دوميتيوس آفا موسي بي ماطوي إن جورى آفا دانييل بي هيجومينوس آفا شينوتي بي أرشي مان إذرتيس نيم آفا صموئيل بي أومولوجيتيس نيم إبخوروس تيرف إنتي ني إثؤواب",
+      "Englishcoptic": "Pi-nishti avva Anoti, pi-teleios khenne-aghathos, nem pi-ethme avva Pavle, pishorb en-ana-khoritees, avva Makari pi-epnevma-toforos, avva Makari pi-epis-kopos, pi-menreet ente Pekhrestos, avva Makari pi-epres-veteros, avva Yoannes pi-heghomenos, avva Pishoy pi-romi ente-leios, ava Esezoros pi-epres-veteros, nenyoti ethowab en-romeos Maximos nem Dometios, avva Mosee pi-matoy en-gori, avva Daniel pi-heghomenos, avva Shenouti pi-arshe-menid-retees, nem avva Samo-eel pi-omologetees, nem epkhores ente ni-ethowab"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بركتهم المقدسة تكون معنا. آمين.",
+      "Coptic": "`Ere pou`cmou eqouab ]wpi neman. `Amhn.",
+      "English": "may their holy blessing be with us. Amen.",
+      "Arabiccoptic": " إيربو إزمو إثؤواب شوبي نيمان آمين . ",
+      "Englishcoptic": "E-re po-esmo ethowab shobi neman amen."
+    }
+  ]
+}

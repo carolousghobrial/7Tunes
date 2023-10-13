@@ -10,6 +10,8 @@ const homescreenPaths = {
   LiturgyLiturgyOfTheWordCopticCatholic: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/copticCatholic.json"),
   LiturgyLiturgyOfTheWordCopticPauline: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/copticPaulineEpistle.json"),
   LiturgyLiturgyOfTheWordCopticActs: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/copticActs.json"),
+  LiturgyLiturgyOfThBelieversAdamAspasmos: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/adamAspasmosMenu.json"),
+  LiturgyLiturgyOfTheWordWatosAspasmos: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/watosAspasmosMenu.json"),
 
   liturgyMenu: require("../assets/json/menuJson/liturgy/liturgyMenu.json"),
   pascha: require("../assets/json/menuJson/pascha/pascha.json"),
@@ -437,7 +439,7 @@ const homescreenPaths = {
   gospelResponsesIndex: require("../assets/json/books/booksTable/Index/gospelResponses.json"),
   theotokiasIndex: require("../assets/json/books/booksTable/Index/theotokias.json"),
   papalIndex: require("../assets/json/books/booksTable/Index/papalHymns.json"),
-  hitensIndex: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens.json"),
+  hitensIndex: require("../assets/json/books/booksTable/Index/HitensIndex.json"),
 };
 
 export default homescreenPaths;

@@ -1,0 +1,63 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أيها الرب إله القوات",
+  "EnglishTitle": "O Lord God of Hosts",
+  "CopticTitle": "`Psoic `Vnou;",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الرب إله القوات، إرجع واطلع من السماء، وانظر وتعهد هذه الكرمة، أصلحها وثبتها، هذه التي غرستها يمينك.",
+      "Coptic": "`Psoic `Vnou; `nte nijom> kotk ouo\\ jou]t `ebol =en `tve> `anau ouo\\ jem`p]ini `ntaibw `n`aloli> cebtwtc ouo\\ cemnhtc qai `etacsoc `nje tekou`inam.",
+      "English": "O Lord God of Hosts, return and behold from heaven, and look and visit this vine, restore and establish Her, this which Your right hand has planted.",
+      "Arabiccoptic": "أبشويس افنوتي انتي نيجوم : كوتك أووه جوشت ايفول خين اتفي : اناف أووه جيم أبشيني انتاي فوان ألولي : سيفططس أووه سيمنتس .  ثاي أيطاس أتشوس انجي تيك أوي نام",
+      "Englishcoptic": "Epchois Evnoti en-te ni-gom: kotk owoh goosht evol khen- etve: anav owoh jemep-shini- en-taivoo en-aloli: sebtoots owoh semneets thai etaschos en-je tekoo-een-am."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا (3).",
+      "Coptic": "Allhlouia Allhlouia Allhlouia.",
+      "English": "Alleluia (3).",
+      "Arabiccoptic": " اليلويا اليلويا اليلويا",
+      "Englishcoptic": "Alleelooia Alleelooia Alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "[*ROICONCLUSION*]",
+      "Coptic": "[*ROICONCLUSION*]",
+      "English": "[*ROICONCLUSION*]",
+      "Arabiccoptic": "[*ROICONCLUSION*]",
+      "Englishcoptic": "[*ROICONCLUSION*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدوس قدوس قدوس، رب الصاباؤت، السماء والأرض، مملوءتان من مجدك الأقدس.",
+      "Coptic": "`Agioc `agioc `agioc> Kurioc cabawq> `plhrhc `o ouranoc ke `h gh> thc `agiac cou do[hc.",
+      "English": "Holy holy holy, Lord of hosts, heaven and earth, are full of Your holy glory.",
+      "Arabiccoptic": "اجيوس أجيوس أجيوس : كيريوس سافاوث : أبليريس أوؤرانوس كي أي غي : تيس أجياس سوؤ ذوكسيس ازمو أينسيتي نيم نيسيم  . ",
+      "Englishcoptic": "Agios agios agios: Keerios savaooth: epleerees -o ooranos ke ee gee: tees agias soo zoxees."
+    }
+  ]
+}

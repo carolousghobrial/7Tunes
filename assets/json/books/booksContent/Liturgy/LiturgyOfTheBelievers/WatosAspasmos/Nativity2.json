@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدموا له هدايا : ذهبا ولبانا ومرا : مسبحين، مع البقية : ساجدين له . ",
+      "Coptic": "Au`ini naf `n\\andwron> `ounoub nem `oulibanoc nem `ou]al> eu`er\\umnoc nem `pcepi> eu`ou`w]t `mmof.",
+      "English": "They presented unto Him gifts, gold frankincense and myrrh, praising with the rest, worshipping Him.",
+      "Arabiccoptic": "أفئينى ناف إنهان ذورون : أونوب نيم أوليبانوس نيم أوشال : آف إرهيمنوس نيم إبسيبي : إف أوأووشت إمموف  . ",
+      "Englishcoptic": "Av-een-i naf en-hanzooron: -oonoov nem -oolivanos nem -ooshal: ev-erheemnos nem epsepi-: ev-oo-oosht emmof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الليلويا الليلويا الليلويا : يسوع المسيح ابن الله : ولدته العذراء : في بيت لحم اليهودية : كالأصوات النبوية . ",
+      "Coptic": "Allhlouia Allhlouia Allhlouia> Ihcouc Pi`xrictoc `p}hri `mV;> acmacf `nje ;Parqenoc> =en Bhqleem `nte ;Ioude`a kata ni`cmh `m`provhtkon.",
+      "English": "Alleluia Alleluia Alleluia, Jesus Christ the Son of God was born of the Virgin, in Bethlehem of Judea according to the prophetic sayings.",
+      "Arabiccoptic": " الليلويا الليلويا الليلويا : ايسوس ابشيرى ام افنوتى : اس ماسف انجى تى بارثينوس : خين فيثلئيم انتى تى يوذى أ : كاطا نى أسمى ام ابروفيتيكون  . ",
+      "Englishcoptic": "Alleelooia Alleelooia Alleelooia: Isos Pikhristos epSheeri emVti-: asmasf en-je ti-Parthen-os: khen- Veethleem en-te ti-Iooze-a kata ni-esmee emep-roveetkon."
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": " صلاة صلح (القداس الباسيلي)",
+  "EnglishTitle": "Prayer of Reconciliation To The Father (Saint Basil’s Liturgy)",
+  "CopticTitle": "`Vnou; pini]; pi]a`ene\\",
   "Hymn": [
     {
       "Type": "Base",
@@ -20,11 +20,99 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
+      "Arabic": "صـلِّ.",
+      "Coptic": "}lhl.",
+      "English": "Let us pray.",
+      "Arabiccoptic": "اشليل",
+      "Englishcoptic": "Eshlil"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "للصلاةِ قفوا.",
+      "Coptic": "Epi `proceuxh `ctaqhte.",
+      "English": "Stand up for prayer.",
+      "Arabiccoptic": "ابى ابروس افكى اسطاثى تى",
+      "Englishcoptic": "Epi epros Evki estathe te"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلامُ للكلِّ.",
+      "Coptic": "Irhnh paci.",
+      "English": "Peace be with all.",
+      "Arabiccoptic": "ايرينى باسى",
+      "Englishcoptic": "Iriny Pacy"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولروحِكَ [أيضاً].",
+      "Coptic": "Ke tw `pneuma ti cou.",
+      "English": "And with your spirit.",
+      "Arabiccoptic": "كيطوبنفماتى سو",
+      "Englishcoptic": "Kito pnevmati so"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
       "Arabic": "يا اللهُ العظيمُ الأبدي، الذي جَبَلَ الإنسانَ على غيرِ فسادٍ.",
-      "Coptic": "Vnou; pini]; pi]a`ene\\> vh`etafkwt `mpirwmi `e`\\rhi `ejen ;metattako.",
+      "Coptic": "`Vnou; pini]; pi]a`ene\\> vh`etafkwt `mpirwmi `e`\\rhi `ejen ;metattako.",
       "English": "O God, the Great, the Eternal, who formed man in incorruption;",
       "Arabiccoptic": "إفنوتي بي نشتي بي شا إينيه في إبطاف كوت إمبي رومي إى إهري إيجين تي ميت أتطاكو",
-      "Englishcoptic": "Vnoooti pinishti pisha-eneh: vee-etafkoot empiroomi -eehreei -ejen timetattako."
+      "Englishcoptic": "Vnooti pi-ni-shti pi-sha-eneh: vee-etaf-koot empi-roomi eehreei ejen- timetattako."
     },
     {
       "Type": "Base",
@@ -35,7 +123,7 @@
       "Coptic": "Ouo\\ `vmou `etaf`i `e=oun `epikocmoc> \\iten pi`vqonoc `nte Pidiaboloc> ak]er]wrf \\iten piouwn\\ `ebol `nreftan=o> `nte pekmonogenhc `n}hri> Pensoic ouo\\ Pennou; ouo\\ Pencwthr Ihcouc Pi`xrictoc.",
       "English": "and death, which entered into the world through the envy of the Devil, You have destroyed by the life-giving manifestation of Your only-begotten Son, our Lord, God, and Savior Jesus Christ.",
       "Arabiccoptic": " .  أووه إفمو إيطاف إي إيخون إي بي كوزموس هيتين بي إفثونوس إنتي بي ذيافولوس آك شير شورف .  هيتين بي أو أونه إيفول إنريف تنخو إنتي بيك مونوجينيس إنشيري بين شويس أووه بين نوتي أووه بين سوتير إيسوس بي إخرستوس",
-      "Englishcoptic": "Ooooh evmooo -etaf-ee -ekhooon -epikosmos: hiten pievonos ente Piziavolos: akshershoorf hiten piooooonh -evol enreftankho: ente pekmonogenees enSheeri: Penchois ooooh Pennoooti ooooh Pensooteer Ieesooos Piekhristos."
+      "Englishcoptic": "Owoh evmoo etaf-ee ekhoon epi-kosmos: hiten pi-evthonos ente Piziavolos: akshershoorf hiten pi-o-oonh evol enreftankho: ente pek-monogenees En-Sheeri: Penchois owoh Pen-nooti owoh Pen-sooteer Isos Pikhristos."
     },
     {
       "Type": "Base",
@@ -46,7 +134,7 @@
       "Coptic": "Ouo\\ akmo\\ `mpika\\i `ebol =en ;\\irhnh ;`ebol =en nivhou`i.",
       "English": "You have filled the earth with the heavenly peace",
       "Arabiccoptic": "أووه آك موه إم بي كاهي إيفول خين تي هيريني تي إيفول خين نيفيئووي",
-      "Englishcoptic": "Ooooh akmoh empikahi -evol khen tihireenee ti-evol khen niveeooo-ee."
+      "Englishcoptic": "Owoh akmoh empi-kahi evol khen ti-hireenee ti-evol khen ni-veeoo-ee."
     },
     {
       "Type": "Base",
@@ -57,7 +145,7 @@
       "Coptic": "qai `etere ;`c`tratia `nte niaggeloc ;`wou nak `n=htc eujw `mmoc.",
       "English": "by which the hosts of angels glorify You, saying,",
       "Arabiccoptic": "ثاي إت إيري تي ستراتيا إنتي ني آنجيلوس تي أو اوناك إنخيتس إفجو إمموس",
-      "Englishcoptic": "thai -etere tiesetratia ente niangelos ti-ooooo nak enkheets evgoo emmos."
+      "Englishcoptic": "thai etere ti-esetrati-a en-te ni-angelos ti-o-oo nak en-kheets evgoo emmos."
     },
     {
       "Type": "Base",
@@ -68,7 +156,7 @@
       "Coptic": "Je ou`wou `m`Vnou; =en nhetsoci> nem ou\\irhnh \\ijen pika\\i> nem ou;ma; =en nirwmi.",
       "English": "“Glory to God in the highest, peace on earth, and good will towards men.”",
       "Arabiccoptic": "جي أوأو أو إم إفنوتي خين ني إتتشوسي نيم أو هيريني هيجين بي كاهي نيم أوتيماتي خين ني رومي . ",
-      "Englishcoptic": "Je ooo-ooooo emeVnoooti khen neeetchosi: nem ooohireenee hijen pikahi: nem oootimati khen niroomi."
+      "Englishcoptic": "Ge oo-o-oo emEvnoti khen nee-etchosi: nem oohireenee hijen pi-kahi: nem ootimati khen ni-roomi."
     },
     {
       "Type": "Base",
@@ -90,7 +178,7 @@
       "Coptic": "`Proceu[acqe `uper thc teliac `irhnhc ke `agaphc ke twn `agiwn acpacmwn twn `apoctolwn.",
       "English": "Pray for perfect peace, love, and the holy apostolic kisses.",
       "Arabiccoptic": "بروس ايفكساستى ايبيرتيس تيه لياس ايرينيس كى اغابيس كيه طون اجيون اس بازموس طون ابوسطولون . ",
-      "Englishcoptic": "eProsevxaste -eyper tees telias -eereenees ke -aghapees ke toon -agioon aspasmoon toon -apostoloon."
+      "Englishcoptic": "eProsevxaste eyper tees telias eereen-ees ke aghapees ke toon agioon aspasmoon toon apostoloon."
     },
     {
       "Type": "Base",
@@ -112,7 +200,7 @@
       "Coptic": "Kurie `ele`hcon.",
       "English": "Lord have mercy.",
       "Arabiccoptic": "كيري ليسون . ",
-      "Englishcoptic": "Keerie -ele-eeson."
+      "Englishcoptic": "Keerie ele-eeson."
     },
     {
       "Type": "Base",
@@ -134,7 +222,7 @@
       "Coptic": "+en pek;ma; `Vnou; mo\\ `nnen\\ht =en tek\\irhnh.",
       "English": "According to Your good will, O God, fill our hearts with Your peace.",
       "Arabiccoptic": "خين بيك تيماتي إفنوتي موه إننهيت خين تيك هيرينى",
-      "Englishcoptic": "Khen pektimati eVnoooti moh ennenheet khen tekhireenee."
+      "Englishcoptic": "Khen pek-ti-mati- Evnoti- moh ennenheet khen tekhireenee."
     },
     {
       "Type": "Base",
@@ -145,7 +233,7 @@
       "Coptic": "Ouo\\ matoubon `ebol \\a qwleb niben> nem `xrof niben> nem met]obi niben> nem panourgia niben> nem ;metrefer`vmeui `nte ;kakia etervorin `m`vmou.",
       "English": "Cleanse us from all blemish, all guile, all hypocrisy, all malice, and the remembrance of evil entailing death.",
       "Arabiccoptic": " .  أووه ماطوفون إيقول هاثوليب نيفين نيم إكروف نيفين نيم ميتشوفي نيقين نيم بان أورجيا نيقين نيم تي ميت ريف إيبر إفميفئي إنتي تي كاكيا إتئيرفورين إم إفمؤو",
-      "Englishcoptic": "Ooooh matooovon -evol ha oolev niven: nem ekhrof niven: nem metshovi niven: nem panooorgia niven: nem timetreferevmevi ente tikakia etervorin emevmooo."
+      "Englishcoptic": "Owoh matoovon evol ha thoolev ni-ven-: nem ekhrof ni-ven-: nem metshovi ni-ven-: nem panoorgia ni-ven-: nem ti-metreferevmevi en-te ti-kakia etervorin emevmoo."
     },
     {
       "Type": "Base",
@@ -156,7 +244,7 @@
       "Coptic": "Ouo\\ `ariten`nem`p]a thren Pennhb> eqren eracpazecqe `nnen`erhou =en ouvi ecouab.",
       "English": "And make us all worthy, O our Master, to greet one another with a holy kiss,",
       "Arabiccoptic": " .  أووه آريتين إن إم إبشاتيرين بين نيب إيثرين إير أسبازيستي إنين إيريؤخين أوفي إثؤواب .  ",
-      "Englishcoptic": "Ooooh -aritenenemepsha teeren Penneeb: eren eraspazeste ennen-ereeooo khen ooovi esoooab."
+      "Englishcoptic": "Owoh ariten-en-emep-sha teeren- Pen-neeb: ethren- eraspazeste en-nen-ereeoo khen- oovi esooab."
     },
     {
       "Type": "Base",
@@ -167,106 +255,7 @@
       "Coptic": "`E`pjintensi =en oumetat\\itten `e`p\\ap `ebol =en tekdwre`a `naqmou ouo\\ `n`epouranion> =en Pi`xrictoc Ihcouc Pensoic.",
       "English": "that without falling into condemnation, we may partake of Your immortal and heavenly gift in Christ Jesus our Lord.",
       "Arabiccoptic": "إى إيجين تين تشي خين أو ميت أت هي تتين إي إبهاب إيفول خين تيك ذوريا إن أثمو أووه إن إيبورانيون خين بي إخرستوس إيسوس بين شويس .",
-      "Englishcoptic": "-Eepjintenchi khen ooometathitten -eephap -evol khen tekzoore-a enamooo ooooh en-epoooranion: khen Piekhristos Ieesooos Penchois."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "Deacon",
-      "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "قبِّلوا بعضَكُمْ بعضاً بقُبلةٍ مقدسةٍ.",
-      "Coptic": "Acpazecqe allhlouc en vilhmati `agiw.",
-      "English": "Greet one another with a holy kiss.",
-      "Arabiccoptic": "اسبازيسته اليلوس انفيلي ماتي اجيو",
-      "Englishcoptic": "Aspazeste alleelooos en vileemati -agioo."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "يا ربُّ إرحَم، يا ربُّ إرحَم ، يا ربُّ إرحَم.",
-      "Coptic": "Kurie `ele`hcon> Kurie `ele`hcon> Kurie `ele`hcon.",
-      "English": "Lord have mercy. Lord have mercy. Lord have mercy.",
-      "Arabiccoptic": " كيري ليسون كيري ليسون كيري ليسون : ",
-      "Englishcoptic": "Keerie -ele-eeson: Keerie -ele-eeson: Keerie -ele-eeson."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "نعم يا ربُّ، الذي هو يسوعُ المسيحُ إبنُ اللهِ، إسمعْنا وإرحّمْنا.",
-      "Coptic": "Ce Kurie> `ete vai pe Ihcouc Pi`xrictoc `P]hri `m`Vnou; cwtem `eron ouo\\ nai nan.",
-      "English": "Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us.",
-      "Arabiccoptic": "سيه كيريه ايتى فاي بى ايسوس بيخريستوس ابشيري ام افنوتي سوتيم ايرون اووه ناي نان",
-      "Englishcoptic": "Se Keerie: -ete vai pe Ieesooos Piekhristos ePsheeri emeVnoooti sootem -eron ooooh nai nan."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "تقدموا على الرسمِ، قفوا برعدةٍ، وإلى الشرق أنظروا. ننصِتْ.",
-      "Coptic": "`Procverin kata `tropon> `ctaqhte kata `tromou> ic `anatolac `bleyate. `Procxwmen.",
-      "English": "Offer in order. Stand with trembling. Look towards the East. Let us attend.",
-      "Arabiccoptic": " بروس فيرين كاطا اطروبون : اسطاثيتيه كاطا اطرومو : اس اناطولاس افلبساطيه بروس خومين . ",
-      "Englishcoptic": "eProsverin kata etropon: estaeete kata etromooo: is -anatolas eblepsate. eProskhoomen."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "People",
-      "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "بشفاعاتِ والدةِ الإلهِ القديسةِ مريم، يا ربُّ أَنعِمْ لنا بمغفرةِ خطايانا.",
-      "Coptic": "|iten ni`precbia `nte :qe`otokoc eqouab Maria> `Psoic `ari`\\mot nan `mpixw `ebol `nte nennobi.",
-      "English": "Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins.",
-      "Arabiccoptic": "هيتين ني ابريسفيا انتى تي ثيؤطوكوس اثؤواب ماريا : ابتشويس اري اهموت نان : ام بيكو ايفول انتى نين نوفي :",
-      "Englishcoptic": "Hiten niepresvia ente Tie-otokos eoooav maria: ePchois -ariehmot nan empikhoo -evol ente nennovi."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "نسجدُ لكَ أيها المسيحُ، مع أبيكَ الصالح، والروحِ القدسِ، لأنكَ (أتيتَ) وخلَّصتنا.",
-      "Coptic": "Tenouw]t `mmok `w Pi`xrictoc nem Pekiwt `n`agaqoc nem Pi`pneuma Eqouab> je (ak`i) akcw; `mmon.",
-      "English": "We worship You, O Christ, with Your good Father and the Holy Spirit, for You (have come) and saved us.",
-      "Arabiccoptic": "تين اؤوشت امموك اوبيخريستوس نيم بيك يوت ان اغاثوس نيم بي بنيفما اثؤواب جى اك أي اك سوتى اممون",
-      "Englishcoptic": "Tenooooosht emmok -oo Piekhristos nem Pekioot en-aghaos nem Piepnevma Eoooab: je (ak-ee) aksooti emmon."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "رحمةُ السلامِ، ذبيحةُ التسبيحِ.",
-      "Coptic": "`Eleoc `irhnhc> qucia `enecewc.",
-      "English": "A mercy of peace, a sacrifice of praise.",
-      "Arabiccoptic": " ايليؤس ايرينيس ثيثيا ايه نيه ثيؤس",
-      "Englishcoptic": "-Eleos -eereenees: eesia -eneseoos."
+      "Englishcoptic": "Eepjinten-chi khen- oometathitten- eephap evol khen- tekzoore-a en-athmoo owoh en-epoorani-on: khen- Pikhristos Isos Pen-chois."
     }
   ]
 }
