@@ -74,15 +74,6 @@
             "ImageURL": "index",
             "Enabled": true,
             "mother": "index"
-        },
-        {
-            "EnglishTitle": "The Hitens",
-            "ArabicTitle": "الهيتينيات",
-            "hasSubBooks": false,
-            "BookPath": "hitensIndex",
-            "ImageURL": "index",
-            "Enabled": true,
-            "mother": "index"
         }
     ]
 }

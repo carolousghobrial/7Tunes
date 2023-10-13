@@ -9,8 +9,8 @@
             "Enabled": true
         },
         {
-            "EnglishTitle": "Holy Liturgy",
-            "ArabicTitle": "القداس الإلهي",
+            "EnglishTitle": "Liturgy Menu",
+            "ArabicTitle": "القائمة الليتورجية",
             "hasSubBooks": true,
             "BookPath": "liturgy",
             "ImageURL": "liturgy",

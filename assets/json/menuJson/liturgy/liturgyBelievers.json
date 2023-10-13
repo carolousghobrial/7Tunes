@@ -8,7 +8,8 @@
             "hasSubBooks": false,
             "BookPath": "liturgyofStBasil",
             "ImageURL": "liturgyofStBasil",
-            "Enabled": true
+            "Enabled": true,
+            "Released": false
         },
         {
             "EnglishTitle": "Liturgy of St.Gregory",
