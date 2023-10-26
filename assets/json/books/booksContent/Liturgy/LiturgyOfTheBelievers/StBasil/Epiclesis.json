@@ -20,10 +20,10 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "اففيما نحن أيضاً نصنع ذكر آلامه المقدسة، وقيامته من الأموات، وصُعوده إلى السموات، وجلوسه عن يمينك أيها الآب.",
+      "Arabic": "ففيما نحن أيضاً نصنع ذكر آلامه المقدسة، وقيامته من الأموات، وصُعوده إلى السموات، وجلوسه عن يمينك أيها الآب.",
       "Coptic": "En`iri oun \\wn `m`vmeui `nnef=ici eqouab> nem Pefjintwnf `ebol =en nheqmwout> nem Pefjin]e `e`p]wi `enivhou`i> nem Pefjin\\emci catekou`inam `Viwt.",
       "English": "Therefore, as we also commemorate His holy Passion, His Resurrection from the dead, His Ascension into the heavens, His Sitting at Your right hand, O Father,",
-      "Arabiccoptic": "إنئيري اون هون إم إفميقئي إن نيف خيسي إثؤواب نيم نيف جين طنف إيقول خين ني إثموؤوت نيم بيف جين شي إي إبشوى إي نيفيئوي نيم بيف جين هيمسي ساتيك أؤي نام إفيوت ",
+      "Arabiccoptic": "إنئيري اون هون إم إفميقئي إن نيف خيسي إثؤواب نيم نيف جين طنف ايفول خين ني إثموؤوت نيم بيف جين شي إي إبشوى إي نيفيئوي نيم بيف جين هيمسي ساتيك أؤي نام إفيوت ",
       "Englishcoptic": "En-eeri oon hoon emevmevi en-nefkhisi ethowab: nem Pefjintoonf evol khen- nee-ethmo-oot: nem Pefjinshe eepshooi en-iveeoo-ee: nem Pefjinhemsi satekoo-een-am Eviot."
     },
     {
@@ -34,7 +34,7 @@
       "Arabic": "وظهوره الثاني الآتي من السموات، المخوف المملوء مجداً.",
       "Coptic": "Nem tefma\\`cnou; `mparoucia> eqnhou `ebol =en nivhou`i> etoi `n\\o; ouo\\ eqme\\ `n`wou.",
       "English": "and His Second Coming from the heavens, awesome and full of glory,",
-      "Arabiccoptic": "نيم نيف ماه إسنوتي إمباروسيا إثنيو إيقول خين نيفيئوي إتئوي إنهوتي اووه إثميه إن أوأو  .",
+      "Arabiccoptic": "نيم نيف ماه إسنوتي إمباروسيا إثنيو ايفول خين نيفيئوي إتئوي إنهوتي اووه إثميه إن أوأو  .",
       "Englishcoptic": "Nem tefmahesnooti emparoosia: ethneeoo evol khen ni-veeoo-ee: etoi enhoti owoh ethmeh en-o-oo."
     },
     {
@@ -45,7 +45,7 @@
       "Arabic": "نقرِّب لك قرابينك من الذي لك، على كل حال، ومن أجل كل حال وفي كل حال.",
       "Coptic": "Tener`procverin nak `nnh`ete nouk `ndwron `ebol =en nh`ete nouk> kata \\wb niben> nem eqbe \\wb niben> nem =en \\wb niben.",
       "English": "we offer unto You Your gifts from what is Yours, for everything, concerning everything, and in everything.",
-      "Arabiccoptic": "  تين إير إبروس فيرين ناك إن نيئيتينوك إنذورون إيقول خين نييئينوك كاطا هوب نيقين نيم إتقي هوب نيقين نيم خين هوب نيقين .",
+      "Arabiccoptic": "  تين إير إبروس فيرين ناك إن نيئيتينوك إنذورون ايفول خين نييئينوك كاطا هوب نيقين نيم إتقي هوب نيقين نيم خين هوب نيقين .",
       "Englishcoptic": "Ten-ereprosverin nak en-nee-ete nook en-zooron evol khen- nee-ete nook: kata hoov ni-ven-: nem ethve hoov ni-ven-: nem khen- hoov ni-ven-."
     },
     {
@@ -71,6 +71,14 @@
       "Englishcoptic": "Oo-oosht emEvnoti khen oohoti nem ooesterter."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يسجد جميع الشعب لله ويقولون وهم مطامنون رؤوسهم.",
+      "English": "While all the people bow their heads, they say:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -86,7 +94,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "نسبحك. نباركك. نخدمك. نسجد لك.",
+      "Arabic": "نسبحك. نباركك. نخدمك (يا رب). نسجد لك.",
       "Coptic": "Ten\\wc `erok ten`cmou `erok ten]em]i `mmok tenouw]t `mmok.",
       "English": "We praise You, we bless You, we serve You, we worship You.",
       "Arabiccoptic": "تينهوس ايروك تين اسمو ايروك تين شمشي امموك تين أو اوشت امموك  . ",
@@ -113,6 +121,14 @@
       "English": "Let us attend. Amen.",
       "Arabiccoptic": "ابروس خومين امين  . ",
       "Englishcoptic": "eProskhoomen-: Ameen."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يرفع الجميع رؤوسهم. ويرشم الكاهن القربان ثلاثة رشوم بسرعة وهو موضوع في الصينية ويصرخ ويقول:",
+      "English": "Everyone raises his head, and three times the priest quickly signs with the sign of the cross the oblation which is upon the paten, and says aloud:"
     },
     {
       "Type": "Base",
@@ -148,6 +164,14 @@
       "Englishcoptic": "Pi-Laos:"
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يسجد الشعب ويقولون:",
+      "English": "The people worship, and say:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -157,6 +181,14 @@
       "English": "I believe. Amen.",
       "Arabiccoptic": "تي ناهتي آمين  . ",
       "Englishcoptic": "Tinahti-: Ameen."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يرشم الكاهن الكأس أيضاً ثلاثة رشوم بسرعة ويصرخ ويقول:",
+      "English": "Three times, the priest quickly signs the chalice with the sign of the cross."
     },
     {
       "Type": "Base",
@@ -181,6 +213,14 @@
       "Englishcoptic": "Owoh pai-avot ze on en-esnof eftaieeoot: en-te ti-ziatheekee emveri en-taf."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يسجد الشعب ويقولون:",
+      "English": "The people worship, and say:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -203,6 +243,14 @@
       "Englishcoptic": "Ke palin ti-nahti-: Ameen."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يبسط الكاهن يديه ويخضع برأسه للرب ويقول:",
+      "English": "The priest stretches out his hands and bows his head to the Lord, saying:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -221,7 +269,7 @@
       "Arabic": "ربنا وإلهنا ومخلصنا يسوع المسيح. يُعطَى لغفرانِ الخطايا،",
       "Coptic": "Pensoic ouo\\ Pennou; ouo\\ Pencwthr Ihcouc Pi`xrictoc. Eu; `mmof `e`pxw `ebol `nte ninobi>",
       "English": "Our Lord, God, and Savior Jesus Christ, given for the remission of sins",
-      "Arabiccoptic": " بين شويس أووه بيننوتي اووه بين سوتير إيسوس بي إخرستوس إقتي إمموف إإبكو إيقول إنتي ني نوفي",
+      "Arabiccoptic": " بين شويس أووه بيننوتي اووه بين سوتير إيسوس بي إخرستوس إقتي إمموف إإبكو ايفول إنتي ني نوفي",
       "Englishcoptic": "Pen-chois owoh Pen-nooti owoh Pen-sooteer Isos Pikhristos. Evti emmof eepkhoo evol en-te ni-novi:"
     },
     {
@@ -232,8 +280,16 @@
       "Arabic": "وحياة أبدية لمَنْ يتناول منه.",
       "Coptic": "nem ouwn= `n`ene\\ `nnheqnasi `ebol `n=htf.",
       "English": "and eternal life to those who partake of Him.",
-      "Arabiccoptic": " نيم أوأونخ إن إنيه إن نيئثناتشي إيقول إنخيتف . ",
+      "Arabiccoptic": " نيم أوأونخ إن إنيه إن نيئثناتشي ايفول إنخيتف . ",
       "Englishcoptic": "nem o-oonkh en-eneh en-nee-ethnachi evol en-kheetf."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآن فقد صار القربان جسد المسيح والخمر دم المسيح وصار رشمهما في مابعد منهما وبِهما.",
+      "English": "Now indeed the bread has become the Body of Christ and the wine the Blood of Christ. After this, the signings of both of Them shall be through Them and by Them."
     },
     {
       "Type": "Base",
@@ -258,6 +314,14 @@
       "Englishcoptic": "Keerie ele-eeson (3)."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يأخذ الكاهن لفافة على يده اليمنى ولفافة أخرى على يده اليسرى ويقول:",
+      "English": "The priest takes the linen in his right hand and another in his left hand, and says:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -276,7 +340,7 @@
       "Arabic": "اجعلنا مستحقين كلنا، يا سيدنا، أن نتناول من قُدساتك طهارةً لأنفسنا وأجسادنا وأرواحنا.",
       "Coptic": "`Ariten`nem`p]a thren Pennhb> `esi `ebol =en nheqouab `ntak> `eoutoubo `nte nenyuxh nem nencwma nem nen`pneuma.",
       "English": "Make us all worthy, O our Master, to partake of Your Holies, unto the purification of our souls, our bodies, and our spirits,",
-      "Arabiccoptic": "آريتين إن إيم إبشا تيرين بين نيب إتشي إيقول خين نيئثؤواب إنتاك إي أوطوقو إنتي نين إبسيشي نيم نين سوما نيم نين إبنيقما",
+      "Arabiccoptic": "آريتين إن إيم إبشا تيرين بين نيب إتشي ايفول خين نيئثؤواب إنتاك إي أوطوقو إنتي نين إبسيشي نيم نين سوما نيم نين إبنيقما",
       "Englishcoptic": "-Ariten-en-emep-sha teeren- Pen-neeb: echi evol khen- nee-ethowab en-tak: eootoovo en-te nen-pseeshee nem nen-sooma nem nen-epnevma."
     },
     {

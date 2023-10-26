@@ -11,7 +11,8 @@ const homescreenPaths = {
   LiturgyLiturgyOfTheWordCopticPauline: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/copticPaulineEpistle.json"),
   LiturgyLiturgyOfTheWordCopticActs: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/copticActs.json"),
   LiturgyLiturgyOfThBelieversAdamAspasmos: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/adamAspasmosMenu.json"),
-  LiturgyLiturgyOfTheWordWatosAspasmos: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/watosAspasmosMenu.json"),
+  LiturgyLiturgyOfTheBelieversWatosAspasmos: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/watosAspasmosMenu.json"),
+  LiturgyLiturgyOfTheBelieversFractions: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/fractions.json"),
 
   liturgyMenu: require("../assets/json/menuJson/liturgy/liturgyMenu.json"),
   pascha: require("../assets/json/menuJson/pascha/pascha.json"),

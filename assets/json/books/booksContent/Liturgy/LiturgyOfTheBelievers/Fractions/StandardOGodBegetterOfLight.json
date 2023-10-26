@@ -1,0 +1,140 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة قسمة للآب (اللهُمَّ والدَ النور)",
+  "EnglishTitle": "A Fraction to the Father (O God beggetter of Light)",
+  "CopticTitle": "Vnou; pirefmici",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اللهُمَّ والدَ النور،ِ ورئيسَ الحياةِ، واهبَ المعرفَةِ.",
+      "Coptic": "Vnou; pirefmici `nte piouwini> `parxhgoc `nte `pwn=> pireferxarizecqe `mpi`emi.",
+      "English": "O God, begetter of the Light, Author of life, granter of knowledge,",
+      "Arabiccoptic": "فنأوتي بيريفميسي إنتي بيأووويني: إبارشيغوس إنتي إبوونخ: بيريفيرخاريزيستي إمبي إيمي.",
+      "Englishcoptic": "Vnooti pi-refmisi en-te pi-o-ooini-: eparsheeghos en-te epoonkh: pi-referkharizeste empi-emi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صانعَ النعمةِ، المحسِنَ لنفوسِنا، كنـزَ الحكمةِ.",
+      "Coptic": "Pirefqamio `nte pi`\\mot> pireferpeqnanef `nte nen'uxh> pi`a\\o `nte ;covia.",
+      "English": "creator of grace, benefactor to our souls, treasure of wisdom,",
+      "Arabiccoptic": "بيريفثاميو إنتي بيإهموت: بيريفيربيثنانيف إنتي نين'يشي: بي اهو إنتي تيسوفيا.",
+      "Englishcoptic": "Pirefthamio en-te pi-ehmot: pi-referpethnanef en-te nen-'eeshee: pi-aho en-te ti-sovia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "معلِّمَ الطهارةِ، مؤسِسَ الدهورِ، قابِلَ الصلواتِ النقيةِ.",
+      "Coptic": "Piref;`cbw `nte pitoubo piref\\icen; `nte ni`ene\\> piref]wp `erof `nni`]lhl ettoubhout.",
+      "English": "teacher of purity, founder of the ages, who receives to Himself pure prayers,",
+      "Arabiccoptic": "بيريفتيإسفوو إنتي بيتأوفو بيريفهيسينتي إنتي نيإينيه: بيريفشووب إيروف إنني إشليل إيتتأوفيأوت.",
+      "Englishcoptic": "Pirefti-esvoo en-te pi-toovo pi-refhisen-ti- en-te ni-en-eh: pi-refshoop -erof en-ni-eshleel ettooveeoot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مُعطِيَ المتوكلينَ عليه من كلِّ قَلْبِِهِم الأشياءَ التي تشتهي الملائكةُ أن تراها.",
+      "Coptic": "Vhet; `nnhet`ere `\\qhou xh `erof =en pou\\ht thrf> `nnhet `ere niaggeloc er`epiqumin `enau `erwou.",
+      "English": "who gives to those who trust in Him with all their heart the things which the angels desire to behold,",
+      "Arabiccoptic": "فييتتي إنني يتإيري إهثيأو شي إيروف خين بأوهيت تيرف: إنني يت إيري نيانجيلوس إيرإيبيثيمين إيناف إيرؤو.",
+      "Englishcoptic": "Vee-etti en-nee-et-ere ehtheeoo shee -erof khen- pooheet terf: en-nee-et -ere ni-angelos er-epi-theemin -en-av -ero-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي أصعَدَنا من العمقِ إلى النورِ. ",
+      "Coptic": "Vh`etafenten `e`p]wi `ebol=en `vnoun `e`vouwini.",
+      "English": "who has brought us out of the depth into the light,",
+      "Arabiccoptic": "فيإيتافينتين إيإبشووي إيفولخين إفنأون إيإفأووويني.",
+      "Englishcoptic": "Vee-etaf-en-ten- -eepshooi evolkhen- evnoon -eevo-ooini-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي أعطانا الحياةَ من الموتِ. ",
+      "Coptic": "Vh`etaf; nan `nouwn= `ebol=en oumou.",
+      "English": "who gave us life from death,",
+      "Arabiccoptic": "فيإيتافتي نان إنأووونخ إيفولخين أومأو.",
+      "Englishcoptic": "Vee-etaf-ti nan en-o-oonkh evolkhen- oomoo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي أنعمَ علينا بالعِتقِ من العبوديةِ.",
+      "Coptic": "Vh`etaferxarizecqe nan `noumetrem\\e `ebol=en oumetbwk.",
+      "English": "who granted us freedom from bondage,",
+      "Arabiccoptic": "فيإيتافيرخاريزيستي نان إن أوميتريمهي إيفولخين  أوميتفووك.",
+      "Englishcoptic": "Vee-etaf-erkharizeste nan en-oometremhe evolkhen- oometvook."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي جَعَلَ ظُلمَةَ الضلالةِ التي فينا تُضىءُ مِنْ قِبَلِ إتيانِ ابنِكَ الوحيدِ بالجسدِ.",
+      "Coptic": "Vh`etaf`qre pixaki `ete `n=hten `nte ;`planh erouwini> \\iten `tparoucia =en `tcar[ `mpekmonogenhc `nShri.",
+      "English": "who made the darkness of error in us to become light through the coming in the flesh of Your only-begotten Son.",
+      "Arabiccoptic": "فيإيتافإثري بيخاكي إيتي إنخيتين إنتي تيإبلاني إيرأووويني: هيتين إتبارأوسيا خين إتساركس إمبي كمونوجينيس إنتشيري.",
+      "Englishcoptic": "Vee-etaf-ethre pi-khaki ete en-kheeten- en-te ti-eplanee ero-ooini-: hiten- etparoosia khen- etsarx empek-monogen-ees en-Cheeri."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت الآن أيضاً يا سيدَنا أَنِرْ عيونَ قلوبِنا، وطهِّرْنا كاملينَ في النفسِ والجسدِ والروحِ.",
+      "Coptic": "Nqok on ;nou pennhb> `ariouwini `enibal `nte nen\\ht> ouo\\ matoubon enjhk `ebol> =en ;'uxh nem picwma nem pi`pneuma.",
+      "English": "Now You also, O our Master, enlighten the eyes of our hearts and purify us to be whole in soul, body, and spirit,",
+      "Arabiccoptic": "نثوك ون تينأو بيننيب:  اريأووويني إينيفال إنتي نينهيت: أووه ماتأوفون إينجيك إيفول: خين تي'يشي نيم بيسووما نيم بيإبنيفما.",
+      "Englishcoptic": "Enthok on ti-noo pen-neeb: -ario-ooini -en-ival en-te nen-heet: owoh matoovon en-geek evol: khen- ti-'eeshee nem pi-sooma nem pi-epnevma."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكي بقلبٍ طاهرٍ وشفتين نقيتين، نجرُؤَ أن ندعُوَكَ يااللهُ الآبُ القدوسُ الذي في السمواتِ، ونقولَ:",
+      "Coptic": "Je \\ina =en ou\\ht efouab> nem \\an`cvotou eutoubhout> `ntenertolman `etwb\\ `mmok> Vnou; Viwt eqouab et=en nivhou`i ouo\\ `ejoc>",
+      "English": "so that with a pure heart and cleansed lips, we may dare to entreat You, O God the holy Father who are in the heavens, and say,",
+      "Arabiccoptic": "جي هينا خين أوهيت إيف أواب: نيم هانإسفوتأو إيف تأوفيأوت: إنتينيرتولمان إيتووبه إمموك: فنأوتي فيووت إيثؤاب إيتخين نيفيأو إي أووه إيجوس:",
+      "Englishcoptic": "Ge hina khen ooheet efooab: nem hanesvotoo evtooveeoot: entenertolman -etoobh emmok: Vnooti Vioot ethowab etkhen ni-veeoo-ee owoh -egos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أبانا ...",
+      "Coptic": "Je Peniwt ....",
+      "English": "Our Father ....",
+      "Arabiccoptic": "جي بينيووت ....",
+      "Englishcoptic": "Ge Pen-ioot ...."
+    }
+  ]
+}

@@ -5,6 +5,14 @@
   "CopticTitle": "Nh men `Psoic",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يقول الكاهن هذا ويداه مبسوطتان إلى العلو بعد الترحيم.",
+      "English": "After the commemoration of the departed, the priest, with his hands extended on high, continues:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

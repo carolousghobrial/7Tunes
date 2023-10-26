@@ -5,6 +5,14 @@
   "CopticTitle": "`Csoci ca`p]wi",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ليوحنا المثلث الطوبى.",
+      "English": "The following prayer is by the Thrice-Blessed John."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

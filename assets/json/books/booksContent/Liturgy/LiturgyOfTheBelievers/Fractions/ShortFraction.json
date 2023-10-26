@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "القسمة الوجيزة",
+  "EnglishTitle": "The Short Fraction",
+  "CopticTitle": "`Vnou; vh`etafer`\\mot",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا الله الذي أنعم علينا نحن الخطاة بميقات الخلاص وذبيحة ناطقة سمائية.",
+      "Coptic": "`Vnou; vh`etafer`\\mot nan `anon =a nirefernobi nou`proqecmia `noujai nem ou]ou]wou]i `nlogikon ouo\\ `n`epouranion `ete Picwma `nNou; pe nem Pi`cnof ettaihout `nte Pek`xrictoc.",
+      "English": "O God, who granted us, who are sinners, the foreordained salvation and a rational, heavenly sacrifice,",
+      "Arabiccoptic": "افنوتي فيإيتافيرإهموت نان  انون خا نيريفيرنوفي نأوإبروثيسميا إنأوجاي نيم أوشأوشؤوشي إنلوجيكون أووه إنإيبأورانيون إيتي بيسووما إننأوتي بي نيم بيإسنوف إيتتاييأوت إنتي بيكإخريستوس.",
+      "Englishcoptic": "Evnoti vee-etaf-erehmot nan anon kha ni-refernovi nooeprothesmia en-oogai nem ooshoosho-ooshi en-logikon owoh en-epoorani-on ete Pisooma en-Nooti pe nem Piesnof ettaieeoot en-te Pekekhristos."
+    }
+  ]
+}

@@ -105,7 +105,7 @@ const bookPaths = {
   RaisingOfIncenseLitanyPeace: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyPeace.json"),
   RaisingOfIncenseLitanyPlace: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyPlace.json"),
   RaisingOfIncenseLitanyPope: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyPope.json"),
-  RaisingOfIncenseLitanySeeds: require("../assets/json/books/booksContent/RaisingOfIncense/LitanySeeds.json"),
+  RaisingOfIncenseLitanyPlants: require("../assets/json/books/booksContent/RaisingOfIncense/LitanySeeds.json"),
   RaisingOfIncenseLitanySick: require("../assets/json/books/booksContent/RaisingOfIncense/LitanySick.json"),
   RaisingOfIncenseHitenForBishopEntrance: require("../assets/json/books/booksContent/RaisingOfIncense/HitenForBishopEntrance.json"),
   RaisingOfIncenseLitanyTravelers: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyTravelers.json"),
@@ -118,6 +118,7 @@ const bookPaths = {
   RaisingOfIncenseShortBlessing: require("../assets/json/books/booksContent/RaisingOfIncense/ShortBlessing.json"),
   RaisingOfIncenseShortBlessing2: require("../assets/json/books/booksContent/RaisingOfIncense/ShortBlessing2.json"),
   RaisingOfIncenseThanksgivingPrayer: require("../assets/json/books/booksContent/RaisingOfIncense/ThanksgivingPrayer.json"),
+  RaisingOfIncenseKhenPikhristos: require("../assets/json/books/booksContent/RaisingOfIncense/KhenPikhristos.json"),
   //Veneration
   VenerationAgiosEstin: require("../assets/json/books/booksContent/Veneration/AgiosEstin.json"),
   VenerationAnokNim: require("../assets/json/books/booksContent/Veneration/AnokNim.json"),
@@ -1514,6 +1515,31 @@ const bookPaths = {
   LiturgyLiturgyOfTheBelieversWatosAspasmosStandardTwo: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/WatosAspasmos/StandardTwo.json"),
   LiturgyLiturgyOfTheBelieversWatosAspasmosTheophany: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/WatosAspasmos/Theophany.json"),
   LiturgyLiturgyOfTheBelieversWatosAspasmosWeddingCana: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/WatosAspasmos/WeddingCana.json"),
+  //Fractions
+  LiturgyLiturgyOfTheBelieversFractionsApostlesFast: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/ApostlesFast.json"),
+  LiturgyLiturgyOfTheBelieversFractionsApostlesFastOther: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/ApostlesFastOther.json"),
+  LiturgyLiturgyOfTheBelieversFractionsBrightSaturday: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/BrightSaturday.json"),
+  LiturgyLiturgyOfTheBelieversFractionsCovenantThursday: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/CovenantThursday.json"),
+  LiturgyLiturgyOfTheBelieversFractionsCross: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/Cross.json"),
+  LiturgyLiturgyOfTheBelieversFractionsLentFather: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/LentFather.json"),
+  LiturgyLiturgyOfTheBelieversFractionsLentSon: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/LentSon.json"),
+  LiturgyLiturgyOfTheBelieversFractionsLordsFeasts: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/LordsFeasts.json"),
+  LiturgyLiturgyOfTheBelieversFractionsNativity: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/Nativity.json"),
+  LiturgyLiturgyOfTheBelieversFractionsPalmSunday: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/PalmSunday.json"),
+  LiturgyLiturgyOfTheBelieversFractionsRessurection: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/Ressurection.json"),
+  LiturgyLiturgyOfTheBelieversFractionsRessurectionSon: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/RessurectionSon.json"),
+  LiturgyLiturgyOfTheBelieversFractionsShortFraction: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/ShortFraction.json"),
+  LiturgyLiturgyOfTheBelieversFractionsStandardBasil: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/StandardBasil.json"),
+  LiturgyLiturgyOfTheBelieversFractionsStandardCyril: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/StandardCyril.json"),
+
+  LiturgyLiturgyOfTheBelieversFractionsStandardYouAreTheLoghos: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/StandardYouAreTheLoghos.json"),
+  LiturgyLiturgyOfTheBelieversFractionsStandardGregorian: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/StandardGregorian.json"),
+  LiturgyLiturgyOfTheBelieversFractionsStandardGodBegotterOfLight: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/StandardOGodBegetterOfLight.json"),
+  LiturgyLiturgyOfTheBelieversFractionsStandardOLambOfGod: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/StandardOLambOfGod.json"),
+  LiturgyLiturgyOfTheBelieversFractionsStandardOOnlyBegottenSon: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/StandardOOnlyBegottenSon.json"),
+  LiturgyLiturgyOfTheBelieversFractionsStMaryHeavenlies: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/StMaryHeavenlies.json"),
+  LiturgyLiturgyOfTheBelieversFractionsTheophany: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/Theophany.json"),
+  LiturgyLiturgyOfTheBelieversFractionsTheophanyOther: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/Fractions/TheophanyOther.json"),
 };
 
 export default bookPaths;

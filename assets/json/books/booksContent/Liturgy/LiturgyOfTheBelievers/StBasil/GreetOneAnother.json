@@ -5,6 +5,14 @@
   "CopticTitle": "Acpazecqe",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يقول الشماس وهو رافع الصليب:",
+      "English": "Then the deacon, holding the cross, says:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

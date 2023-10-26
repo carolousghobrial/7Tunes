@@ -38,6 +38,14 @@
       "Englishcoptic": "Hina nem khen vai kata evreeti on khen hoov ni-ven entefchi-o-oo owoh entefchiesmoo owoh entefchisi: enje pek-ni-shti enran ethowab: khen hoov ni-ven ettaieeoot owoh etesmaro-oot: nem Isos Pikhristos pek-menrit En-Sheeri: nem Piepnevma Ethowab."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يخضع الكاهن يرأسه نحو الكهنة والشمامسة (بلا رشم) ويقول:",
+      "English": "The priest bows his head towards the priests and deacons, and without signing them with the sign of the cross, says:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

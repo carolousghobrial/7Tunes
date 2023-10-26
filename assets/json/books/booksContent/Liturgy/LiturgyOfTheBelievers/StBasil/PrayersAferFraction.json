@@ -136,6 +136,14 @@
       "Englishcoptic": "Keto epnevmati so."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يقول الكاهن أوشيتي السلام والآباء الصغيرتين سراً. ثم يقول جهراً:",
+      "English": "The priest says inaudibly the short prayers for the peace of the church and for the fathers. Then he exclaims aloud:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -156,6 +164,14 @@
       "English": "Remember, O Lord, our assemblies; bless them.",
       "Arabiccoptic": "أرى إفميفئى إبشويس إن إتسوتيريا إمباى توبوس إثؤواب إنتاك فاى نيم توبوس نيفينآري إفميقئي إبشويس إن نين جينثؤوتي إزمو إيرؤو",
       "Englishcoptic": "-Arievmevi Epchois en-nen-jintho-ooti esmoo ero-oo."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يرفع الشماس الصليب ويقول:",
+      "English": "The deacon raises the cross, and says:"
     },
     {
       "Type": "Base",

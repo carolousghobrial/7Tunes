@@ -4,6 +4,14 @@
   "EnglishTitle": "The Confession",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يأخذ الكاهن الأسباديقون بيديه ويرفعه إلى فوق إلى آخر امتداد وهو مطامن الرأس صارخاً قائلاً:",
+      "English": "The priest takes in his hands the Despotikon and raises It up to arm’s length, and with bowed head he exclaims aloud:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -35,6 +43,14 @@
       "English": "Blessed be the Lord Jesus Christ, the Son of God; the sanctification is by the Holy Spirit. Amen.",
       "Arabiccoptic": " إفلوجيطوس كيريروس إيسوس إخرستوس إيوس ثيئو آجياسموس إبنيفماآجيون آمين.",
       "Englishcoptic": "Evlogeetos Keerios Isos eKhristos eyios theoo agiasmos ePnevma Agion: Ameen."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم ينهض الشعب من سجودهم، ويجاوبونه بأعلى أصواتهم قائلين:",
+      "English": "The people raise their heads, and respond in a loud voice:"
     },
     {
       "Type": "Base",

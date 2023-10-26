@@ -1,0 +1,206 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " قسمة لأعياد ألعذراء مريم والسمائيين",
+  "EnglishTitle": "A Fraction for Feasts of St. Mary and the Heavenly ",
+  "CopticTitle": "|hppe `fxh neman ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هوذا كائن معنا على هذه المائدة اليوم عمانوئيل إلهنا، حمل الله الذي يحمل خطية العالم كله.",
+      "Coptic": "|hppe `fxh neman \\ijen taitrapeza `mvoou `nje Emmanouhl Pennou;> Pi\\ihb `nte `Vnou; vhet`wli `mvnobi `mpikocmoc thrf.",
+      "English": "Behold, Emmanuel our God, the Lamb of God who takes away the sin of the whole world, is with us today on this table;",
+      "Arabiccoptic": "هيببي إفشي نيمان هيجين تايترابيزا إمفوأو إنجي إيممانأويل بيننأوتي: بيهييف إنتي افنوتي فييت وولي إمفنوفي إمبي كوسموس تيرف.",
+      "Englishcoptic": "Heeppe efshee neman hijen taitrapeza emvo-oo enje Emmanooeel Pen-nooti-: Pihieev ente Evnoti- vee-et-ooli emvnovi empi-kosmos terf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الجالس على عرش مجده.",
+      "Coptic": "Vhet\\emci \\ijen pi`qronoc `nte pef`wou.",
+      "English": "who sits on the throne of His glory",
+      "Arabiccoptic": "فييتهيمسي هيجين بيإثرونوس إنتي بيف ؤو.",
+      "Englishcoptic": "Vee-ethemsi hijen pi-ethronos ente pef-o-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي تقف أمامه جميع الطغمات السمائية، الذي تسبحه الملائكة بأصوات البركة، ويخـر ويسجد له رؤساء الملائكة.",
+      "Coptic": "Vhetou`o\\i `eratou na\\raf `nje nitagma throu `n`epouranion> vh`etou\\wc `erof `nje niaggeloc =en ni`cmh `nte pi`cmou> ouo\\ eu\\itou euouw]t `mmof `nje niarxhaggeloc.",
+      "English": "and before whom stand all the heavenly orders; whom the angels praise with voices of blessing and before whom the archangels fall down and worship.",
+      "Arabiccoptic": "فييتأو وهي إيراتأو ناهراف إنجي نيتاغما تييرو إنإيبأورانيون: فيإيتأوهووس إيروف إنجي نيانجيلوس خين نيإسمي إنتي بيإسمأو: أووه إيف هيتأو إيف أوأوؤوشت إمموف إنجي نيارشيانجيلوس.",
+      "Englishcoptic": "Vee-etoo-ohi -eratoo nahraf en-je ni-taghma tero en-epoorani-on: vee-etoohoos -erof en-je ni-angelos khen- ni-esmee en-te pi-esmoo: owoh evhitoo evo-oosht emmof en-je ni-arshee-angelos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الأربعة الكائنات غير المتجسدين يقولون تسبحة الثلاثة التقديسات.",
+      "Coptic": "Pi`ftou `nzwon `n`acwmatoc cejw `mpi\\umnoc `nte pi`tricagioc.",
+      "English": "The four incorporeal creatures sing the hymn of the Trisagion.",
+      "Arabiccoptic": "بيإفتأو إنزووون إن اسووماتوس سيجوو إمبي هيمنوس إنتي بيإتريساجيوس.",
+      "Englishcoptic": "Pieftoo en-zoon en-asoomatos segoo empi-heemnos en-te pi-etrisagios."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والأربعة والعشرون قسيساً جلوس على كراسيهم، وأربعة وعشرون إكليل ذهب على رؤوسهم، وأربعة وعشرون جاماً من ذهب فى أيديهم، مملوءة بخوراً الذي هو صلوات القديسين، ويسجدون أمام الحيْ إلى أبد الآبدين.",
+      "Coptic": "Ouo\\ pijout `ftou `m`precbuteroc ce\\emci \\ijen nou`qronoc> `ere jout `ftou `n`xlom `nnoub \\ijen nou`avhou`i> `ere jout `ftou `mvu`alh `nnoub =en noujij eume\\ `n`cqoinoufi> `ete ni`proceuxh `nte ni`agioc> ouo\\ ceouw]t `mpe`mqo `mvheton= ]a `ene\\ `nte pi`ene\\.",
+      "English": "And the twenty-four priests are seated on their thrones, with twenty-four golden crowns upon their heads and in their hands twenty-four golden bowls full of incense, which are the prayers of the saints. They fall down before Him who lives forever and ever.",
+      "Arabiccoptic": "أووه بيجأوت إفتأو إمإبريسفيتيروس سيهيمسي هيجين نأوإثرونوس: إيري جأوت إفتأو إنإخلوم إننأوف هيجين نأو افيأو إي: إيري جأوت إفتأو إمفي الي إننأوف خين نأوجيج إيف ميه إنإستوينأوفي: إيتي نيإبروسيفشي إنتي ني اجيوس: أووه سيأوأوؤوشت إمبي إمثو إمفييتونخ شا إينيه إنتي بيإينيه.",
+      "Englishcoptic": "Owoh pi-goot eftoo emep-resveeteros sehemsi hijen nooethronos: -ere goot eftoo enek-hlom ennoov hijen noo-aveeoo-ee: -ere goot eftoo emvee-alee ennoov khen noojig evmeh enestoinoofi: ete ni-eprosevshee ente ni-agios: owoh seo-oosht empeemtho emvee-etonkh sha -eneh ente pi-eneh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والمائة وأربعون ألفاً البتولين غير الدنسين يسبحون الرب قائلين: \"قدوس. قدوس. قدوس. آمين. الليلويا.\"",
+      "Coptic": "Ouo\\ pi]e `\\me `ftou `n]o (pir̅m̅d̅) niparqenoc `natqwleb ce\\wc `e`Psoic eujw `mmoc> je `agioc `agioc `agioc> `amhn> allhlouia.",
+      "English": "And the hundred and forty-four thousand undefiled virgins praise the Lord, saying, \"Holy, holy, holy. Amen. Alleluia.\"",
+      "Arabiccoptic": "أووه بيشي إهمي إفتأو إنشو (بير̅م̅ز̅) نيبارثينوس إناتتووليف سيهووس إيإبتشويس إيف جوو إمموس: جي  اجيوس  اجيوس  اجيوس:  امين: الليلأويا.",
+      "Englishcoptic": "Owoh pi-she ehme eftoo en-sho (pi-r̅m̅z̅) ni-parthen-os en-attoolev sehoos -eEpchois evgoo emmos: je agios agios agios: -ameen-: alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ونحن أيضاً نسجد للثالوث القدوس، ونسبحه قائلين:",
+      "Coptic": "`Anon de \\wn tenouw]t `n:`triac eqouab en\\wc `eroc enjw `mmoc.",
+      "English": "And we also worship the Holy Trinity, praising Him, saying,",
+      "Arabiccoptic": "أنون زي هوون تينأوأوؤوشت إنتيإترياس إيثؤاب إينهووس إيروس إينجوو إمموس.",
+      "Englishcoptic": "-Anon ze hoon ten-o-oosht en-Tietrias ethowab en-hoos -eros en-goo emmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"قدوس الله الآب ضابط الكل. آمين. الليلويا.",
+      "Coptic": "Je `fouab `nje `Vnou; `Viwt Pipantokratwr> `amhn> allhlouia.",
+      "English": "\"Holy is God the Father, the Pantocrator. Amen. Alleluia.",
+      "Arabiccoptic": "جي إفأواف إنجي افنوتي إفيوت بيبانتوكراتوور:  امين: الليلأويا.",
+      "Englishcoptic": "Ge efooav en-je Evnoti Eviot Pipantokratoor: -ameen-: alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدوس إبنه الوحيد يسوع المسيح ربنا. آمين. الليلويا.",
+      "Coptic": "`Fouab `nje pefmonogenhc> `n}hri Ihcouc Pi`xrictoc Pensoic> `amhn> allhlouia.",
+      "English": "Holy is His only-begotten Son, Jesus Christ our Lord. Amen. Alleluia.",
+      "Arabiccoptic": "إفأواف إنجي بيفمونوجينيس: إنشيري إييسأوس بيإخريستوس بينتشويس:  امين: الليلأويا.",
+      "Englishcoptic": "eFooav en-je pefmonogen-ees: En-Sheeri Isos Pikhristos Pen-chois: -ameen-: alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدوس الروح القدس الباراقليط. آمين الليلويا.\"",
+      "Coptic": "`Fouab `nje Pi`pneuma Eqouab `mparaklhton> `amhn> allhloua.",
+      "English": "Holy is the Holy Spirit, the Paraclete. Amen. Alleluia.\"",
+      "Arabiccoptic": "إفأواف إنجي بيإبنيفما إيثؤاب إمباراكليتون:  امين: الليلأوا.",
+      "Englishcoptic": "eFooav en-je Piepnevma Ethooav emparakleeton: -ameen-: alleelooa."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مقدسة ومملوءة مجداً والدة الإله الطاهرة القديسة مريم العذراء. آمين. الليلويا.",
+      "Coptic": "`Couab ouo\\ `cme\\ `n`wou `nje :qe`otokoc eqouab ;`agia Maria :parqenoc> `amhn allhlouia.",
+      "English": "Holy and full of glory is the holy Theotokos, Saint Mary, the Virgin. Amen. Alleluia.",
+      "Arabiccoptic": "إسأواف أووه إسميه إن ؤو إنجي تيثي وتوكوس إيثؤاب تي اجيا ماريا تيبارثينوس:  امين الليلأويا.",
+      "Englishcoptic": "eSooav owoh esmeh en-o-oo en-je Tithe-otokos ethowab ti-agia Maria Tiparthen-os: -ameen- alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مقدسة ومملوءة مجداً، هذه الذبيحة التي ذبحت عن حياة العالم كله. آمين. الليلويا.",
+      "Coptic": "`Couab ouo\\ `cme\\ `n`wou `nje taiqucia> qh`etau]atc =a `pwn= `mpikocmoc thrf> `amhn allhlouia.",
+      "English": "Holy and full of glory is this sacrifice, which has been slain for the life of the whole world. Amen. Alleluia.",
+      "Arabiccoptic": "إسأواف أووه إسميه إن ؤو إنجي تايثيسيا: ثيإيتافشاتس خا إبوونخ إمبي كوسموس تيرف:  امين الليلأويا.",
+      "Englishcoptic": "eSooav owoh esmeh en-o-oo en-je taitheesia: thee-etavshats kha epoonkh empi-kosmos terf: -ameen- alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من أجل هذا صرخ مخلصنا الصالح قائلا: \"إن جسدي هو مأكل حق، ودمي مشرب حق.",
+      "Coptic": "Eqbe vai `a Pencwthr `n`agaqoc w] `ebol efjw mmoc> je Pacwma ou`=re `mmhi te> ouo\\ Pa`cnof oucw `mmhi pe.",
+      "English": "Therefore, our good Savior proclaimed, saying, \"My Body is food indeed and My Blood is drink indeed.",
+      "Arabiccoptic": "يثفي فاي  ا بينسووتير إن اغاثوس إيش إيفول إيف جوو مموس: جي باسووما أوإخري إمميي تي: أووه باإسنوف أوسوو إمميي بي.",
+      "Englishcoptic": "Ethve vai -a Pen-sooteer en-aghathos oosh evol efgoo mmos: je Pasooma ooekhre emmeei te: owoh Paesnof oosoo emmeei pe."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنْ يأكل جسدي ويشرب دمي يكون في وأنا أيضاً أكون فيه.\"",
+      "Coptic": "Vheqouwm `mPacwma ouo\\ etcw `mPa`cnof ef`e]wpi `n=ht> ouo\\ `anok \\w ei`e]wpi `n=htf.",
+      "English": "He who eats My Body and drinks My Blood dwells in Me, and I in him.\"",
+      "Arabiccoptic": "فييثأوووم إمباسووما أووه إيتسوو إمباإسنوف إيف إيشووبي إنخيت: أووه  انوك هوو إييإيشووبي إنخيتف.",
+      "Englishcoptic": "Vee-etho-oom emPasooma owoh etsoo emPaesnof ef-eshoopi en-kheet: owoh -anok hoo ei-eshoopi en-kheetf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نسألك يا سيدنا، طهر نفوسنا وأجسادنا، وأرواحنا.",
+      "Coptic": "Ten;\\o `erok Pennhb matoubo `nnenyuxh nem nencwma nem nen`pneuma.",
+      "English": "We ask You, O our Master, purify our souls, our bodies, and our spirits,",
+      "Arabiccoptic": "تينتيهو إيروك بيننيف ماتأوفو إنني نبسيشي نيم نينسووما نيم نينإبنيفما.",
+      "Englishcoptic": "Ten-ti-ho -erok Pen-neev matoovo en-nen-pseeshee nem nen-sooma nem nen-epnevma."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكيْ بقلب طاهر، وشفتين نقيتين، ونفس مستنيرة، ووجه غير مخزي، وإيمان بلا رياء، ونية نقية، وصبر كامل، ورجاء ثابت.",
+      "Coptic": "Je \\ina =en ou\\ht efouab> nem \\an`cvotou eutoubhout> nem ouyuxh `eacsiouwini> nem ou\\o `natsi]ipi> nem ouna\\; `natmet]obi> nem oucunidhcic ectoubhout> nem ou\\upomonh ecjhk ebol> nem ou\\elpic ectajrhout.",
+      "English": "so that with a pure heart, cleansed lips, an enlightened soul, an unashamed face, a faith unfeigned, a pure conscience, a perfect patience, and a firm hope,",
+      "Arabiccoptic": "جي هينا خين أوهيت إيف أواب: نيم هانإسفوتأو إيف تأوفيأوت: نيم أوبسيشي إياستشيأووويني: نيم أوهو إناتتشيشيبي: نيم أوناهتي إناتميتشوفي: نيم أوسينيزيسيس إيستأوفيأوت: نيم أوهيبوموني إيسجيك إيفول: نيم أوهيلبيس إيستاجريأوت.",
+      "Englishcoptic": "Ge hina khen ooheet efooab: nem hanesvotoo evtooveeoot: nem oopseeshee -easchio-ooini-: nem ooho enatchishipi-: nem oonahti enatmetshovi: nem ooseeni-zeesis estooveeoot: nem ooheepomonee esgeek evol: nem oohelpi-s estagreeoot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نجسر بدالة بغير خوف، أن نطلب إليك يا الله الآب القدوس الذي في السموات، ونقول \"أبانا الذي في السموات ...\"",
+      "Coptic": "`Ntenertolman =en ouparrhcia nater\\o; `etwb\\ `mmok> `Vnou; `Viwt eqouab et =en nivhou`i> ouo\\ `ejoc> je Peniwt ....",
+      "English": "we may dare with boldness, without fear, to pray to You, O God the holy Father who are in the heavens, and say, \"Our Father ....\"",
+      "Arabiccoptic": "إنتينيرتولمان خين أوبارريسيا ناتيرهوتي إيتووبه إمموك: افنوتي إفيوت إيثؤاب إيت خين نيفيأو إي: أووه إيجوس: جي بينيووت ....",
+      "Englishcoptic": "eNten-ertolman khen- ooparreesia naterhoti -etoobh emmok: Evnoti Eviot ethowab et khen- ni-veeoo-ee: owoh -egos: je Pen-ioot ...."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة قسمة للآب (أنتَ هو كلمةُ الآبِ)",
+  "EnglishTitle": "A Fraction to the Son (You are the Logos of the Father)",
+  "CopticTitle": "Nqok gar pe Pilogoc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنتَ هو كلمةُ الآبِ، الإلهُ الذي قَبْلَ الدهورِ، رئيسُ الكهنةِ الأعظمُ.",
+      "Coptic": "Nqok gar pe Pilogoc `nte Viwt> Vnou; et =ajwou `nni`ene\\> pini]; `narxi`ereuc.",
+      "English": "You are the Logos of the Father, God before the ages, the great High Priest,",
+      "Arabiccoptic": "نثوك غار بي بيلوغوس إنتي فيووت: فنأوتي إيت خاجؤو إنني إينيه: بينيشتي إن ارشي إيريفس.",
+      "Englishcoptic": "Enthok ghar pe Piloghos en-te Vioot: Vnooti et khago-oo en-ni-en-eh: pi-ni-shti en-arshi-erevs."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي تَجَسَّدَ وتأنسَ مِن أجلِ خلاصِ جنسِ البشَرِ.",
+      "Coptic": "Vh`etafsicar[ ouo\\ aferrwmi> eqbe `poujai `m`pgenoc `nnirwmi.",
+      "English": "who was incarnate and was made man for the salvation of mankind.",
+      "Arabiccoptic": "في إيتاف إتشيساركس أووه افيرروومي: إيثفي إب أوجاي إمإبجينوس إنني روومي.",
+      "Englishcoptic": "Vee-etaf-chisarx owoh aferroomi: ethve epoogai emep-gen-os en-ni-roomi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ودعا لهُ مِنْ جميعِ الأُممِ جنساً مختاراً، مملكةً وكهنوتاً وأُمةً مُقدسةً وشعباً مُبرراً.",
+      "Coptic": "Ouo\\ afqw\\em naf `ebol=en nieqnoc throu> `nougenoc efcwtp> oumetouro oumetouhb> ou`]lol efouab> oulaoc eu`qmaiof.",
+      "English": "And out of all the nations, He called to Himself a chosen race, a kingdom, a priesthood, a holy nation, and a justified people.",
+      "Arabiccoptic": "أووه افثووهيم ناف إيفولخين ني إيثنوس تييرو: إنأوجينوس إيف سووتب:  أوميتأورو  أوميتأويب: أوإشلول إيف أواب: أولاوس إيف إثمايوف.",
+      "Englishcoptic": "Owoh afthoohem naf evolkhen ni-ethnos tero: enoogenos efsootp: oometooro oometooeeb: ooeshlol efooab: oolaos evethmaiof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلهذا نسألُ ونطلبُ من صلاحِكَ يامحبَّ البشَرِ.",
+      "Coptic": "Eqbe vai ten;\\o ouo\\ tentwb\\ `ntekmet`agaqoc pimairwmi.",
+      "English": "Therefore, we ask and entreat Your goodness, O Lover of Mankind,",
+      "Arabiccoptic": "يثفي فاي تينتيهو أووه تينتووبه إنتيكميت اغاثوس بيمايروومي.",
+      "Englishcoptic": "Ethve vai ten-ti-ho owoh ten-toobh en-tek-met-aghathos pi-mairoomi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أن لا تكونَ لنا هذه الذبيحةُ تبكيتاً لخطايانا وعاراً لآثامِنا ",
+      "Coptic": "|ina `nte `]tem pai]ou]wou]i vai ]wpi nan `eouco\\i `nte nennobi nem ou`]vit `nte nen`anomia> je an`ini `mmof nak `e`\\rhi `ejen tenmetacqenhc.",
+      "English": "that this sacrifice may not be a rebuke of our sins nor a shame for our iniquities, for we have brought it to You on account of our weakness.",
+      "Arabiccoptic": "هينا إنتي إشتيم بايشأوشؤوشي فاي شووبي نان إيأوسوهي إنتي نيننوفي نيم أوإشفيت إنتي نين انوميا: جي ان إيني إمموف ناك إي إهريي إيجين تينميتاستينيس.",
+      "Englishcoptic": "Hina en-te eshtem paishoosho-ooshi vai shoopi nan -eoosohi en-te nen-novi nem ooeshvit en-te nen-anomia: je an-een-i emmof nak -eehreei -ejen- ten-metasten-ees."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأننا قدمناها لكَ عن ضَعْفِنا.",
+      "Coptic": "Alla kata `vrh; `etoutoubhout =en \\wb niben `nje naidwron nai.",
+      "English": "Rather, even as these gifts are purified in everything,",
+      "Arabiccoptic": "أللا كاتا إفريتي إيتأوتأوفيأوت خين هووف نيفين إنجي نايزوورون ناي.",
+      "Englishcoptic": "Alla kata evreeti -etootooveeoot khen hoov ni-ven enje naizooron nai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بلْ كما أَنَّ هذه القرابينَ طاهرةٌ في كلِّ شيءٍ.",
+      "Coptic": "Eakerkata[ioin akma\\ou `ebol=en \\wb niben eqouab> `ebol \\iten pijin`i `e`=rhi `ejwou `nte Pek`pneuma eqouab.",
+      "English": "You, having graciously filled them with every holy thing through the coming down upon them of Your Holy Spirit,",
+      "Arabiccoptic": "ياكيركاتاكسيوين اكماهأو إيفولخين هووف نيفين إيثأواب: إيفول هيتين بيجين إي إيإخريي إيجؤو إنتي بيكإبنيفما إيثأواب.",
+      "Englishcoptic": "Eakerkataxioin akmahoo evolkhen hoov ni-ven ethowab: evol hiten pi-jin-ee -eekhreei -ego-oo ente Pekepnevma ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إذ قد تَفَضَّلْتَ وأفعمْتَها من كلِّ شيءٍ طاهرٍ، بحلولِ روحِكَ القدوسِ عليها.",
+      "Coptic": "Pairh; `anon \\wn =a nirefernobi> `arikata[ioin matoubo `nnen'uxh nem nencwma nem nen`pneuma nem nencunidhcic.",
+      "English": "Likewise, we also the sinners, graciously accord to purify our souls, bodies, spirits, and consciences,",
+      "Arabiccoptic": "بايريتي  انون هوون خا نيريفيرنوفي:  اريكاتاكسيوين ماتأوفو إنني ن'يشي نيم نينسووما نيم نينإبنيفما نيم نينسينيزيسيس.",
+      "Englishcoptic": "Paireeti anon hoon kha ni-refernovi: -arikataxioin matoovo en-nen-'eeshee nem nen-sooma nem nen-epnevma nem nen-seen-izeesis."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هكذا نحنُ أيضاً الخطاةُ تفضَّلْ قَدِّسْ أنفسَنا، وأجسادَنا، وأرواحَنا، وسرائرَنا.",
+      "Coptic": "|opwc =en ou'uxh `eacsiouwini> nem ou\\o `natsi]ipi> =en ou\\ht efouab nem ouna\\; `natmet]obi> =en ou`agaph ecjhk `ebol> nem ou\\elpic ectajrhout.",
+      "English": "so that with an enlightened soul, an unashamed face, a pure heart, a faith unfeigned, a perfect love, and a firm hope,",
+      "Arabiccoptic": "هوبووس خين أو'يشي إياستشيأووويني: نيم أوهو إناتتشيشيبي: خين أوهيت إيف أواف نيم أوناهتي إناتميتشوفي: خين أو اغابي إيسجيك إيفول: نيم أوهيلبيس إيستاجريأوت.",
+      "Englishcoptic": "Hopoos khen oo'eeshee -easchio-ooini-: nem ooho enatchishipi-: khen ooheet efooav nem oonahti enatmetshovi: khen oo-aghapee esgeek evol: nem oohelpi-s estagreeoot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكي بنفسٍ مستنيرةٍ ووجهٍ غيرِ مخزيٍّ، بقلبٍ طاهرٍ وإيمانٍ بغيرِ رياءٍ، بمحبةٍ كاملةٍ ورجاءٍ ثابتٍ.",
+      "Coptic": "Ntenertolman =en ouparrhcia `nater\\o;> `ejw `n;euxh eqouab> qh`etakthic `etotou `nnh`ete nouk `n`agioc `mmaqhthc ouo\\ `n`apoctoloc eqouab ekjw `mmoc> je `e]wp `areten]aner`proceuxecqe twb\\ `mpairh; ouo\\ `ajoc>",
+      "English": "we may dare with boldness, without fear, to say the holy prayer which You have given to Your holy disciples and saintly apostles, saying, “Whenever you pray, entreat in this manner and say,",
+      "Arabiccoptic": "نتينيرتولمان خين أوبارريسيا إناتيرهوتي: إيجوو إنتييفشي إيثأواب: ثيإيتاكتييس إيتوتأو إنني إيتي نأوك إن اجيوس إمماثيتيس أووه إن ابوستولوس إيثؤاب إيكجوو إمموس: جي إيشووب  اريتينشانيرإبروسيفشيستي تووبه إمبايريتي أووه  اجوس:",
+      "Englishcoptic": "Nten-ertolman khen- ooparreesia en-aterhoti-: -egoo en-ti-evshee ethowab: thee-etakteeis -etotoo en-nee-ete nook en-agios emmatheetees owoh en-apostolos ethowab ekgoo emmos: je -eshoop -areten-shanereprosevsheste toobh empaireeti- owoh -agos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نجرُؤَ بدالةٍ بغيرِ خوفٍ أن نقولَ الصلاةَ المقدسةَ التي أَعطيتَها لتلاميذِكَ القديسينَ والرسلِ الأطهارِ قائلاً: ”إذا صليتُم فاطلبوا هكذا وقولوا:",
+      "Coptic": "Je Peniwt ....",
+      "English": "‘Our Father ....’”",
+      "Arabiccoptic": "جي بينيووت ....",
+      "Englishcoptic": "Ge Pen-ioot ...."
+    }
+  ]
+}

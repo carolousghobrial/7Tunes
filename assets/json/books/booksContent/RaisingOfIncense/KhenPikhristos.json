@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بالمسيح يسوع ربنا",
+      "Coptic": "+en Pi`xrictoc Ihcouc Pensoic.",
+      "English": "In Christ Jesus our Lord",
+      "Arabiccoptic": "خين بخريستوس ايسوس بينشويس",
+      "Englishcoptic": "Khen pi-khristos Isos Penchois"
+    }
+  ]
+}

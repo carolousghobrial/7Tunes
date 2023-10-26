@@ -62,7 +62,7 @@
             "English": "Watos Aspasmos",
             "Rule": "OpenPage",
             "Visible": true,
-            "Path": "LiturgyLiturgyOfTheWordWatosAspasmos"
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmos"
         },
         {
             "Type": "Main",
@@ -144,7 +144,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseLitanySeeds",
+            "Path": "RaisingOfIncenseLitanyPlants",
             "Rule": 0,
             "Visible": "getPlantsSeason"
         },
@@ -225,6 +225,20 @@
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilIntroductionToTheFraction",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "القسمة",
+            "English": "Fractions",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversFractions"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
             "Rule": 0,
             "Visible": true
         },

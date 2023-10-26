@@ -71,6 +71,14 @@
       "Englishcoptic": "Ameen."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يأخذ الكاهن الجسد الطاهر بيده اليمنى ويضعه على اليسرى. ويضع إصبعه السبابة اليمنى على الجسد بجانب الأسباديقون من المكان المقسوم، وهو يقول:",
+      "English": "The priest takes the pure Body with his right hand and places It in his left hand, and places the index finger of his right hand on the Body at the side of the Despotikon, at the place of separation, and says:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -113,6 +121,14 @@
       "English": "We worship Your holy Body—",
       "Arabiccoptic": "تين أو اوشت امبيك سوما اثؤواف  . ",
       "Englishcoptic": "Ten-o-oosht emPeksooma ethowab."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يرشم الجسد بالدم الذي على إصبعه رشماً فوق، ورشماً أسفل أي على ظهره، ويقول:",
+      "English": "The priest signs the pure Body with the Blood which is on his finger, once on the front and once on the back of It, and says:"
     },
     {
       "Type": "Base",

@@ -5,6 +5,14 @@
   "CopticTitle": "Afxw de nan `e`=rhi",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يبخر الكاهن يديه على المجمرة ثلاث مرات ثم يبخر بيديه إلى القربانة ثم إلى الخمر.وهو يقول:",
+      "English": "The priest censes his hands three times and then censes the bread, followed by the wine, with his hands, while saying:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -23,8 +31,16 @@
       "Arabic": "ووضع لنا هذا السر العظيم الذي للتقوى.",
       "Coptic": "Afxw de nan `e`=rhi `mpaini]; `mmucthrion `nte ;meteucebhc.",
       "English": "He instituted for us this great Mystery of godliness.",
-      "Arabiccoptic": "أفكودي نان إى إخري إمباي نشتي إمميستيريون إنتي تيميت إيقسبيس . ",
+      "Arabiccoptic": "أفكوذي نان إى إخري إمباي نشتي إمميستيريون إنتي تيميت إيقسبيس . ",
       "Englishcoptic": "Afkhoo ze nan eekhreei empaini-shti emmeesteerion en-te timetevsevees."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يرفع يديه من فوق المجمرة بالبخور ويقول:",
+      "English": "The priest takes away his smoke-filled hands from the censer, and says:"
     },
     {
       "Type": "Base",
@@ -58,6 +74,14 @@
       "English": "We believe.",
       "Arabiccoptic": "(اليثوس) بيستيف اومين  . ",
       "Englishcoptic": "-Aleethos pi-stev-omen-."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يأخذ الكاهن القربانة ويضعها على يده اليسرى. ويرفع اللفافة الحرير التي تحتها في الصينية ويقبلها بفيه ويتركها على المذبح وهو يقول:",
+      "English": "The priest takes the bread into his left hand, raises the silk mat which was beneath it on the paten and kisses it, then places it on the altar, saying:"
     },
     {
       "Type": "Base",
@@ -104,6 +128,14 @@
       "Englishcoptic": "Ten-nahti je vai pe khen- oo-methmee: Ameen."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يضع الكاهن يده اليمنى على القربانة التي على يده اليسرى، ويرفع نظره إلى فوق ويقول:",
+      "English": "The priest places his right hand upon the bread that is in his left hand, raises his eyes upwards, and says:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -124,6 +156,14 @@
       "English": "He looked up towards heaven to You, O God, who are His Father and Master of everyone.",
       "Arabiccoptic": " آفجوشت إي إبشوي إي إتفي هاروك فيئتيفوف إنيوت إفنوتي أووه غفنيب إنتي أؤون نيفين",
       "Englishcoptic": "Afgoosht eepshooi eetve harok: vee-ete voof en-Ioot Evnoti owoh Evneeb en-te o-oon ni-ven-."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يرشم الكاهن الخبز بأصبعه ثلاثة رشوم. وفي كل رشم يجاوبه . الشعب قائلين امين. أول رشم يقول الكاهن:",
+      "English": "Three times, the priest makes the sign of the cross with his finger, and each time the congregation responds, saying, “Amen.” At the first signing, the priest says:"
     },
     {
       "Type": "Base",
@@ -157,6 +197,14 @@
       "English": "Amen.",
       "Arabiccoptic": "أمين",
       "Englishcoptic": "Ameen."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وثاني رشم:",
+      "English": "And at the second signing:"
     },
     {
       "Type": "Base",
@@ -201,6 +249,14 @@
       "English": "Amen.",
       "Arabiccoptic": "أمين",
       "Englishcoptic": "Ameen."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وثالث  رشم:",
+      "English": "And at the third  signing:"
     },
     {
       "Type": "Base",
@@ -258,6 +314,14 @@
       "Englishcoptic": "Pistev-omen ke -omologhoomen ke zoxazomen."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يقسم القربانة ثلثين وثلثاً بعناية من غير فصل بعضهما عن بعض. ومن غير أن يمس الأسباديقون. وتكون القسمة بإبهام يده اليمنى وليس بالظفر. ويجعل القسمة من فوق إلى أسفل ويكون الثلث عن يمينه والثلثان عن يساره. وهو يقول:",
+      "English": "The priest breaks the oblation into a two-thirds and a one-third part, carefully, slightly, and without separating one part from the other, and without touching the Despotikon. The fraction must be made with his right thumb, and not with the nail. Making the fraction from the top to the bottom with the one-third part on his right and the two-thirds part on his left, he says:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -287,8 +351,16 @@
       "Arabic": "\"خذوا كلوا منه كلكم،",
       "Coptic": "je si ouwm `ebol `n=htf throu>",
       "English": "“Take, eat of it, all of you.",
-      "Arabiccoptic": "جي تشي أؤوم إيقول إنخيتف تيرو ",
+      "Arabiccoptic": "جي تشي أؤوم ايفول إنخيتف تيرو ",
       "Englishcoptic": "je chi o-oom evol en-kheetf tero:"
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هنا يفرق رأس القربانة من فوق قليلاً بأطراف أصابعه بعناية من غير فصل ويضعها في الصينية. وينظف يديه داخل الصينية لئلا يكون قد التصق بهما شيء من القربانة. يفعل ذلك وهو يقول:",
+      "English": "The priest slightly and gently breaks the top of the oblation with the tips of his fingers, without, however, completely separating it. He places it in the paten, and cleans his hands inside the paten so that nothing of the oblation should adhere to either of them. He does this while saying:"
     },
     {
       "Type": "Base",
@@ -298,7 +370,7 @@
       "Arabic": "لأن هذا هو جسدي الذي يقسم عنكم وعن كثيرين، يعطى لمغفرة الخطايا، هذا اصنعوه لذكري.\"",
       "Coptic": "vai gar pe pacwma. `Etounava]f `ejen qhnou nem \\ankemh]> `ncethif `e`pxw `ebol `nte ninobi> vai `aritf `epaer`vmeui.",
       "English": "For this is My Body, which is broken for you and for many, to be given for the remission of sins. This do in remembrance of Me.”",
-      "Arabiccoptic": "فاي غار بي باسوما  .  إتو ناف اشف إيجين ثينو نيم هان كي ميش إنسي تيف إي إيكو إيقول إنتي ني نوفي فاي ىريتف إيبا إير إفميقتي  . ",
+      "Arabiccoptic": "فاي غار بي باسوما  .  إتو ناف اشف إيجين ثينو نيم هان كي ميش إنسي تيف إي إيكو ايفول إنتي ني نوفي فاي ىريتف إيبا إير إفميقتي  . ",
       "Englishcoptic": "vai ghar pe pasooma. etoonavashf ejen theenoo nem hankemeesh: enseteeif eepkhoo evol ente ni-novi: vai aritf epaerevmevi."
     },
     {
@@ -324,6 +396,14 @@
       "Englishcoptic": "Vai pe khen oo-methmee: ameen."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يضع الكاهن يده على حافة الكأس ويقول:",
+      "English": "The priest places his hand upon the rim of the chalice, and says:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -344,6 +424,14 @@
       "English": "Likewise also, the cup, after supper, He mixed it of wine and water.",
       "Arabiccoptic": "باى ريتي أون بي كي أفوت مينينسا بيذيبتون أفثوطف إيفول خين أو إيرب نيم أو موؤو . ",
       "Englishcoptic": "Paireeti on pi-ke-avot men-en-sa pi-zipnon: afthotf evol khen- ooeerp nem oomo-oo."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يرشم الكأس ثلاثة رشوم. وفي كل رشم يجاوبه الشعب قائلين امين .أول رشم يقول الكاهن:",
+      "English": "Three times, the priest makes the sign of the cross, and each time the congregation responds, saying, “Amen.” At the first signing, the priest says:"
     },
     {
       "Type": "Base",
@@ -377,6 +465,14 @@
       "English": "Amen.",
       "Arabiccoptic": "أمين",
       "Englishcoptic": "Ameen."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وثاني رشم:",
+      "English": "And at the second signing:"
     },
     {
       "Type": "Base",
@@ -421,6 +517,14 @@
       "English": "Amen.",
       "Arabiccoptic": "أمين",
       "Englishcoptic": "Ameen."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وثالث رشم:",
+      "English": "And at the third  signing:"
     },
     {
       "Type": "Base",
@@ -478,6 +582,14 @@
       "Englishcoptic": "Ke palin pi-stev-omen ke -omologhoomen ke zoxazomen."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يمسك الكاهن حافة الكأس بيده ويقول:",
+      "English": "The priest holds the brim of the chalice with his hands, saying:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -500,6 +612,14 @@
       "Englishcoptic": "Afjemti-pi afteeif on en-nee-ete noof en-agios emmatheetees: owoh en-apostolos ethowab efgoo emmos."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يحرك الكأس مثال الصليب. أي يميلها باحتراس إلى الغرب أولاً ثم الشرقِ والشمال والجنوب، وهو يقول:",
+      "English": "The priest moves the chalice in the form of the cross, inclining it carefully first to the west, then to the East, to the north, and to the south, while saying:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -507,8 +627,16 @@
       "Arabic": "\"خذوا اشربوا منه كلكم",
       "Coptic": "Je si cw `ebol `n=htf throu.",
       "English": "“Take, drink of it, all of you.",
-      "Arabiccoptic": "  جي تشي سو إيقول إنخيتف تيرو . ",
+      "Arabiccoptic": "  جي تشي سو ايفول إنخيتف تيرو . ",
       "Englishcoptic": "Ge chi soo evol en-kheetf tero."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يشير بيديه إلى الكأس ويقول:",
+      "English": "The priest points with his hands to the chalice, and says:"
     },
     {
       "Type": "Base",
@@ -518,7 +646,7 @@
       "Arabic": "لأن هذا هو دمي الذي للعهد الجديد، الذي يُسفَك عنكم وعن كثيرين يعطى لمغفرة الخطايا. هذا إصنعوه لذكري.\"",
       "Coptic": "Vai gar pe pa`cnof `nte ;diaqhkh `mberi> `etounavonf `ebol `ejen qhnou nem \\ankemh]> `ncethif `e`pxw `ebol `nte ninobi> vai `aritf `epaer`vmeui.",
       "English": "For this is My Blood of the New Covenant, which is shed for you and for many, to be given for the remission of sins. This do in remembrance of Me.”",
-      "Arabiccoptic": " فاي غاربي با إسنوف إنتي تي ذيائيكي إمقيري إبطو نافونف إيقول إيجين ثينو نيم هان كي ميش إنسيتيف إي إبكو إيقول إنتي ني نوفي فاي آريتف إيبا إير إفميقئي .",
+      "Arabiccoptic": " فاي غاربي با إسنوف إنتي تي ذيائيكي إمقيري إبطو نافونف ايفول إيجين ثينو نيم هان كي ميش إنسيتيف إي إبكو ايفول إنتي ني نوفي فاي آريتف إيبا إير إفميقئي .",
       "Englishcoptic": "Vai ghar pe paesnof en-te ti-ziatheekee emveri: etoonavonf evol ejen- theen-oo nem hankemeesh: en-seteeif eepkhoo evol en-te ni-novi: vai aritf epaerevmevi."
     },
     {
@@ -544,6 +672,14 @@
       "Englishcoptic": "Vai on pe khen oo-methmee: ameen."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يشير الكاهن بيديه إلى الجسد وهو يقول:",
+      "English": "The priest points with his hands to the Body, saying:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -559,11 +695,49 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "لأن كل مرة تأكلون من هذا الخبز. وتشربون من هذه الكأس. تبشرون بموتي وتعترفون بقيامتي وتذكروني إلى أن أجئ.",
-      "Coptic": "Cop gar niben `etetennaouwm `ebol =en paiwik vai> ouo\\ `ntetencw `ebol =en pai`avot vai> `ere ten\\iwi] `mpamou> `ere tener`omologin `nta`anactacic> `ere ten`iri `mpameui ]a;`i.",
-      "English": "“For every time you eat of this bread and drink of this cup, you proclaim My Death, confess My Resurrection, and remember Me till I come.”",
-      "Arabiccoptic": "  سوب غار نيفين إيتيتين نا او أوم إيقول خين باي أوبك فاي اووه إيتي تين سو إيقول خين باي ىفوت فاي إيريتين هي اويش إمبابو إيريتين إير أومولوجين إن تا آناسطاسيس إيري تين إيري إمباميقئي شاتي إي .",
-      "Englishcoptic": "Sop ghar ni-ven etetennao-oom evol khen paiooik vai: owoh entetensoo evol khen pai-avot vai: ere tenhiooish empamoo: ere tener-omologin enta-anastasis: ere ten-eeri empamevi shati-ee."
+      "Arabic": "لأن كل مرة تأكلون من هذا الخبز.",
+      "Coptic": "Cop gar niben `etetennaouwm `ebol =en paiwik vai>",
+      "English": "“For every time you eat of this bread ",
+      "Arabiccoptic": "  سوب غار نيفين إيتيتين نا او أوم ايفول خين باي أوبك فاي  .",
+      "Englishcoptic": "Sop ghar ni-ven etetennao-oom evol khen paiooik vai: "
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يشير بيديه إلى الكأس أيضاً وهو يقول:",
+      "English": "Then he points with his hands to the chalice, saying:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وتشربون من هذه الكأس. .",
+      "Coptic": "ouo\\ `ntetencw `ebol =en pai`avot vai> ",
+      "English": "and drink of this cup, ",
+      "Arabiccoptic": "   اووه إيتي تين سو ايفول خين باي ىفوت فاي  .",
+      "Englishcoptic": " owoh entetensoo evol khen pai-avot vai: "
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يكمل قائلاً:",
+      "English": "The priest continues, saying:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تبشرون بموتي وتعترفون بقيامتي وتذكروني إلى أن أجئ",
+      "Coptic": "`ere ten\\iwi] `mpamou> `ere tener`omologin `nta`anactacic> `ere ten`iri `mpameui ]a;`i.",
+      "English": "you proclaim My Death, confess My Resurrection, and remember Me till I come.”",
+      "Arabiccoptic": "إيريتين هي اويش إمبابو إيريتين إير أومولوجين إن تا آناسطاسيس إيري تين إيري إمباميقئي شاتي إي",
+      "Englishcoptic": " ere tenhiooish empamoo: ere tener-omologin enta-anastasis: ere ten-eeri empamevi shati-ee."
     },
     {
       "Type": "Base",

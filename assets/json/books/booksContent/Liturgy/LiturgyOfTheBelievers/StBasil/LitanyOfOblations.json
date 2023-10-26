@@ -4,6 +4,14 @@
   "EnglishTitle": "The Litany for the Oblations ",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبعد ذلك يشير الكاهن بيديه إلى القرابين الموضوعة أمامه وهو يقول: (يقولها الأب البابا أو المطران أو الأسقف إذا كان حاضراً)",
+      "English": "The priest points with his hands to the oblations set before him, saying the following (which is said by the pope, the metropolitan, or the bishop, if present):"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

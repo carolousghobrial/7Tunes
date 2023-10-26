@@ -1,0 +1,261 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة قسمة للآب (أيها الابنُ الوحيدُ )",
+  "EnglishTitle": "A Fraction to the Son (O the Only-begotten Son)",
+  "CopticTitle": "W pimonogenhc `nShri Vnou;",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الابنُ الوحيدُ الإلهُ الكلمةُ الذي أحبنا وبحبهِ أرادَ أن يخلِّصَنا من الهلاكِ الأبدي.",
+      "Coptic": "W pimonogenhc `nShri Vnou; Pilogoc vhetafmenriten> ouo\\ `ebol\\iten pefmei afouw] `ecotten `ebol=en `ptako `n`ene\\.",
+      "English": "O the Only-begotten Son, God, the Logos. who loved us, and through His love, He desired to redeem us from eternal perdition.",
+      "Arabiccoptic": "وو بيمونوجينيس إنتشيري فنأوتي بيلوغوس فييتافمينريتين: أووه إيفولهيتين بيفميي افأوأوؤوش إيسوتتين إيفولخين إبتاكو إنإينيه.",
+      "Englishcoptic": "Oo pi-monogen-ees en-Cheeri Vnooti Piloghos vee-etaf-men-riten-: owoh evolhiten- pefmei afo-oosh -esotten- evolkhen- eptako en-en-eh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولما كان الموتُ في طريقِ خلاصِنا اشتَهى أن يجوزَ فيهِ حُباً بنا. وهكذا ارتفع على الصليبِ ليحملَ عقابَ خطايانا.",
+      "Coptic": "Ouo\\ eqbe je nare `vmou xh =en `vmwit `mpencw;> aferepiqumin `ecini `ebol\\itotf eqbe tefagaph `e=oun `eron> ouo\\ pairh; afalhi `epictauroc \\ina `nteffai =a ;timwria `nte nennobi.",
+      "English": "And since death was in the way of our redemption, He desired to go through it out of His love for us. And thus He ascended upon the Cross that He may bear the punishment of our sins.",
+      "Arabiccoptic": "أووه إيثفي جي ناري إفمأو شي خين إفموويت إمبي نسووتي: افيريبيثيمين إيسيني إيفولهيتوتف إيثفي تيفاغابي إيخأون إيرون: أووه بايريتي افاليي إيبيستافروس هينا إنتيففاي خا تيتيمووريا إنتي نيننوفي.",
+      "Englishcoptic": "Owoh ethve je nare evmoo shee khen evmooit empensooti-: aferepi-theemin -esini evolhitotf ethve tefaghapee -ekhoon -eron: owoh paireeti- afaleei -epi-stavros hina enteffai kha ti-ti-mooria ente nennovi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نحنُ الذين أخطأْنا، وهو الذي تألَّم.",
+      "Coptic": "Anon =a nhetanernobi> ouo\\ `nqof petaf]ep`mka\\.",
+      "English": "We are the ones who sinned, and He is the One who suffered.",
+      "Arabiccoptic": "أنون خا نييتانيرنوفي: أووه إنثوف بيتافشيبإمكاه.",
+      "Englishcoptic": "Anon kha nee-etanernovi: owoh en-thof petaf-shepemkah."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نحنُ الذينَ كنا مديونينَ للعدلِ الإِلهي بذنوبِنا، وهو الذي دفعَ الديونَ عنا.",
+      "Coptic": "Anon =a nhete ne ouon `nte ;meqmhi `nnou; `eron =en nen`anomi`a> ouo\\ `nqof petaftwb `nnheteron `e`\\rhi `ejwn.",
+      "English": "We are the ones who were indebted to the divine justice because of our sins, and He was the One who paid off the debts on our behalf.",
+      "Arabiccoptic": "أنون خا نييتي ني أوون إنتي تيميثميي إننأوتي إيرون خين نين انومي ا: أووه إنثوف بيتافتووف إنني يتيرون إي إهريي إيجوون.",
+      "Englishcoptic": "Anon kha nee-ete ne o-oon en-te ti-methmeei en-nooti- -eron khen- nen-anomi-a: owoh en-thof petaf-toov en-nee-eteron -eehreei -egoon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَجلنا فضَّل التألُمَ على التنعُمِ، والشقاءَ على الراحَةِ، والهوانَ على المجدِ، والصليبَ على العرشِ الذي يحمِلُهُ الشاروبيم.",
+      "Coptic": "Eqbhten afcwtp naf `mpi]ep`mka\\ `e\\ote piounof> nem ;talepwria `e\\ote pimton> nem pi]w] e\\ote piwou> nem pi`ctauroc `e\\ote pi`qronoc vhete nixeroubim fai =arof.",
+      "English": "For our sake He preferred suffering over delight, toil over rest, contempt over glory, and the Cross over the throne which is carried by the Cherubim.",
+      "Arabiccoptic": "يثفيتين افسووتب ناف إمبي شيبإمكاه إيهوتي بيأونوف: نيم تيتاليبووريا إيهوتي بيمتون: نيم بيشأوؤوش إيهوتي بيؤو: نيم بيإستافروس إيهوتي بيإثرونوس فييتي نيشيرأوفيم فاي خاروف.",
+      "Englishcoptic": "Ethveeten afsootp naf empi-shepemkah -ehote pi-oonof: nem ti-talepooria -ehote pi-mton: nem pi-shoosh ehote pi-o-oo: nem pi-estavros -ehote pi-ethronos vee-ete ni-sherobim fai kharof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَبِلَ أن يُربَطَ بالحبالِ ليحلَّنا من رباطاتِ خطايانا. تواضعَ ليرفَعَنا، وجاعَ ليُشْبِعَنا، وعَطِشَ ليُروينا.",
+      "Coptic": "Af;ma; eqroucon\\f =en nino\\ \\ina `ntefbolten `ebol=en ni`cnau\\ `nte nennobi> afqebiof je `ntefsacten> af`\\ko je `ntef`tcion> ouo\\ af`ibi je `ntef`tcon.",
+      "English": "He consented to be tied by ropes that He may loose us from the bonds of our sins. He humbled Himself that He may lift us up. He hungered to satiate us, and thirsted to quench our thirst. ",
+      "Arabiccoptic": "أفتيماتي إيثرأوسونهف خين نينوه هينا إنتيففولتين إيفولخين نيإسنافه إنتي نيننوفي: افثيفيوف جي إنتيفتشاستين: افإهكو جي إنتيفإتسيون: أووه اف إيف ي جي إنتيفإتسون.",
+      "Englishcoptic": "Afti-mati- ethroosonhf khen ni-noh hina entefvolten evolkhen ni-esnavh ente nennovi: aftheviof je entefchasten: afehko je entefetsion: owoh af-eevi je entefetson."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وصعَدَ إلى الصليبِ عرياناً ليكسُوَنا بثوبِ بِرِّهِ. وفَتَحَ جنبَهُ بالحربَةِ لكي ندخلَ إليهِ ونسكنَ في عرشِ نعمتِهِ، ولكي يسيلَ الدمُ من جسدِهِ لنغتسِلَ من آثامِنا.",
+      "Coptic": "Ouo\\ afalhi `epi`ctauroc efbh] je \\ina `ntef\\obcten =en pi\\bwc `nte tefmeqmhi> ouo\\ afouwn `mpef`cvir =en ;logxh \\ina `nten]enan `e=oun `erof> ouo\\ `nten]wpi =en pi`qronoc `nte pef`\\mot> ouo\\ je `nte pi`cnof vwn `ebol=en pefcwma `ntenjokmen `ebol=en nen`anomi`a.",
+      "English": "And He ascended upon the Cross naked that He may clothe us with the garment of His righteousness. And He opened His side by the spear that we may enter into Him and dwell in the throne of His grace, and that the blood may flow from His body that we may wash ourselves from our iniquities.",
+      "Arabiccoptic": "أووه افاليي إيبيإستافروس إيف فيش جي هينا إنتيفهوبستين خين بيهفووس إنتي تيفميثميي: أووه افأووون إمبي فإسفير خين تيلونشي هينا إنتينشينان إيخأون إيروف: أووه إنتينشووبي خين بيإثرونوس إنتي بيفإهموت: أووه جي إنتي بيإسنوف فوون إيفولخين بيفسووما إنتينجوكمين إيفولخين نين انومي ا.",
+      "Englishcoptic": "Owoh afaleei -epi-estavros efveesh je hina en-tefhobsten- khen- pi-hvoos en-te tefmethmeei: owoh afo-oon empefesvir khen- ti-lonshee hina en-ten-shen-an -ekhoon -erof: owoh en-ten-shoopi- khen- pi-ethronos en-te pefehmot: owoh je en-te pi-esnof voon evolkhen- pefsooma en-ten-gokmen- evolkhen- nen-anomi-a."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لقد ماتَ حقاً  ودُفِنَ في القبرِ، ثم قامَ ليُقيمَنا من موتِ الخطيةِ ويحيينا حياةً أبديةً.",
+      "Coptic": "Tavmhi afmou ouo\\ auqomcf =en pi`m\\au> ouo\\ aftwnf `ebol je \\ina `nteftounocten `ebol=en `vmou `nte `vnobi> ouo\\ `nteftan=on euon= `n`ene\\.",
+      "English": "Truly He died and was buried in the tomb; then He rose that He may raise us from the death of sin, and quicken us unto life eternal.",
+      "Arabiccoptic": "تافميي افمأو أووه افثومسف خين بيإمهاف: أووه افتوونف إيفول جي هينا إنتيفتأونوستين إيفولخين إفمأو إنتي إفنوفي: أووه إنتيفتانخون إيف ونخ إنإينيه.",
+      "Englishcoptic": "Tavmeei afmoo owoh avthomsf khen pi-emhav: owoh aftoonf evol je hina enteftoonosten evolkhen evmoo ente evnovi: owoh enteftankhon evonkh en-eneh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فيا إلهي إن خطاياي هي الشوكُ الذي يوخزُ رأسَكَ المقدسَةَ، أنا الذي أَحزنتُ قلبَكَ بسروري بملاذِ الدنيا الباطِلَةِ.",
+      "Coptic": "Nanobi `w Panou; ne nicouri etqou[ `ntekave eqouab> anok =a vhetai; `mka\\`n\\ht nak =en para]i =en ni\\hdonh et]ouit `nte pikocmoc.",
+      "English": "My sins, O my God are the thorns that pierce Your holy head, I who has saddened Your heart by my rejoicing in vain pleasures of the world.",
+      "Arabiccoptic": "نانوفي  وو بانأوتي ني نيسأوري إيتتأوكس إنتيكافي إيثأواب: انوك خا فييتايتي إمكاهإنهيت ناك خين باراشي خين نيهيزوني إيتشأويت إنتي بيكوسموس.",
+      "Englishcoptic": "Nanovi -oo Panooti ne ni-soori ettoox en-tek-ave ethowab: anok kha vee-etaiti emkahen-heet nak khen- parashi khen- ni-heezonee etshooit en-te pi-kosmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ما هذه الطريق المؤدية للموت التي أنت سائر فيها يا إلهي ومخلصي.",
+      "Coptic": "Ou pe paimwit etsi `e`vmou vhetekmo]i `n=htf `w Panou; ouo\\ pacwthr.",
+      "English": "What is this road that leads to death in which You are walking, O my God and my Savior?",
+      "Arabiccoptic": "أو بي بايموويت إيتتشي إيإفمأو فييتيكموشي إنخيتف  وو بانأوتي أووه باسووتير.",
+      "Englishcoptic": "Ooo pe paimooit etchi -eevmoo vee-etekmoshi en-kheetf -oo Panooti owoh pasooteer."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَيُّ شيءٍ تحملُ على منكَبيْكَ؟ هو صليبُ العارِ الذي حملْتَهُ عِوضاً عنِّي.",
+      "Coptic": "Ou pe paienxai `etek`wli `mmof \\ijen nekna\\bi> vai pe pi`ctauroc `nte `p]ipi vhetakolf `nta]ebiw.",
+      "English": "What is it that You are carrying upon Your shoulders? This is the Cross of shame which You have carried instead of me.",
+      "Arabiccoptic": "أو بي بايإينخاي إيتيك وولي إمموف هيجين نيكناهفي: فاي بي بيإستافروس إنتي إبشيبي فييتاكولف إنتاشيفيوو.",
+      "Englishcoptic": "Ooo pe paien-khai etek-ooli emmof hijen- nek-nahvi: vai pe pi-estavros en-te epshipi- vee-etakolf en-tashevioo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ما هذا أيها الفادِي؟ ما الذي جعلَكَ تَرْضَى بذلِك؟",
+      "Coptic": "Ou pe vai `w pirefcw;> ou pe etaf`qrek;ma; `ejen vai.",
+      "English": "What is this, O Redeemer? What has caused You to consent to this?",
+      "Arabiccoptic": "أو بي فاي  وو بيريفسووتي: أو بي إيتافإثريكتيماتي إيجين فاي.",
+      "Englishcoptic": "Ooo pe vai -oo pi-refsooti-: oo pe etaf-ethrekti-mati- -ejen vai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَيُهانُ العظيمُ؟ أَيُذَلُّ الممجَّدُ؟ أيوضَعُ المرتفِعُ؟ يالِعِظَمِ حُبِّكَ.",
+      "Coptic": "An `c]e `ntou]w]f `mpini];> Ie `ntout\\emko `mvhetou;wou naf> ie `ntouqebio `mvhetsoci> `w nem ;metni]; `nte tekagaph.",
+      "English": "Shall the great One be despised? Shall the glorified One be afflicted? Shall the exalted One be humbled? Oh! The greatness of Your love.",
+      "Arabiccoptic": "أن إسشي إنتأوشأوؤوشف إمبي نيشتي: إيي إنتأوتهيمكو إمفييتأوتيؤو ناف: يإي إنتأوثيفيو إمفييتتشوسي:  وو نيم تيميتنيشتي إنتي تيكاغابي.",
+      "Englishcoptic": "An esshe en-tooshooshf empi-ni-shti-: Ie en-toothemko emvee-etooti-o-oo naf: ie en-toothevio emvee-etchosi: -oo nem ti-metni-shti- en-te tekaghapee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نعم هو حُبُّكَ العظيمُ الذي جعلَكَ تَقْبَلَ احتمالَ كلِّ تِلكَ العذاباتِ من أجلي.",
+      "Coptic": "A\\a tekni]; `nagaph de `nqof etac`qreksi =en ou`amoni `ntotf `nnai`mkau\\ throu eqbht.",
+      "English": "Yes, it is Your great love that made You accept with endurance all these sufferings for my sake.",
+      "Arabiccoptic": "أها تيكنيشتي إناغابي زي إنثوف إيتاسإثريكتشي خين أو اموني إنتوتف إننايإمكافه تييرو إيثفيت.",
+      "Englishcoptic": "Aha tekni-shti en-aghapee ze en-thof etasethrekchi khen- oo-amoni- en-totf en-naiemkavh tero ethveet."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَشكُرُكَ ياإلهي، وتَشكُرُكَ عَنِّي ملائكتُكَ وخليقتُكَ جميعاً، لأني عاجِزٌ عن القيامِ بحمدِكَ كما يستحقُّ حُبُّكَ. فهل رأَيْنَا حُبّاً أعظَمَ من هذا؟",
+      "Coptic": "}]ep`\\mot `ntotk Panou;> ouo\\ ce]ep`\\mot `ntotk =aroi `nje nekaggeloc nem pekcwnt thrf> je `mmon `]jom `mmoi `ntaouwn\\ `ebol `mpek`cmou kata petcem`p]a `mpekmei> mh annau `eoumei `enaaf `evai.",
+      "English": "I give thanks to You; O my God; and Your angels, (rather) all Your creation give thanks to You on my behalf for I am unable to present Your praise as befits Your love. Have we (ever) seen a greater love?",
+      "Arabiccoptic": "ششيبإهموت إنتوتك بانأوتي: أووه سيشيبإهموت إنتوتك خاروي إنجي نيكانجيلوس نيم بيكسوونت تيرف: جي إممون إشجوم إمموي إنتاأووونه إيفول إمبي كإسمأو كاتا بيتسيمإبشا إمبي كميي: مي انناف إيأوميي إينااف إيف اي.",
+      "Englishcoptic": "Shshepehmot en-totk Panooti-: owoh seshepehmot en-totk kharoi en-je nek-angelos nem pek-soont terf: je emmon eshgom emmoi en-tao-oonh evol empek-esmoo kata petsemep-sha empek-mei: mee annav -eoomei -en-aaf -evai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فاحْزَنِي يانَفْسِي على خطاياكِ التي سَبَّبَتْ لفاديكِ الحنون هذه الآلام. ارْسِمِي جُرْحَهُ أمامَكِ، واحتَمِي فيهِ عندما يَهِيجُ عليكِ العَدُوّ.",
+      "Coptic": "{i `mka\\`n\\ht `w ta'uxh `ejen nenobi etau; `nnai`mkau\\ `mperefcw; `nref]en\\ht> `c=ai `mpefvwl\\ =ajw> ouo\\ ari\\elpic `erof are]an pijaji twnf `e`\\rhi `ejw.",
+      "English": "So, be sorrowful, O my soul for your sins that caused these sufferings to Your compassionate Redeemer. Portray His wound before you, and hope in Him when the enemy rages against you.",
+      "Arabiccoptic": "إكسي إمكاهإنهيت  وو تا'يشي إيجين نينوفي إيتافتي إننايإمكافه إمبي ريفسووتي إنريفشينهيت: إسخاي إمبي ففووله خاجوو: أووه اريهيلبيس إيروف اريشان بيجاجي توونف إي إهريي إيجوو.",
+      "Englishcoptic": "Exi emkahen-heet -oo ta'eeshee -ejen- nen-ovi etavti en-naiemkavh emperefsooti en-refshen-heet: eskhai empefvoolh khagoo: owoh arihelpi-s -erof areshan pi-gaji toonf -eehreei -egoo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَعطِني يامخلِّصِي أن أعتبرَ عذابَكَ كنزِي، وإكليلَ الشَّوكِ مجدِي، وأوجاعَكَ تنعُّمِي، ومرارَتَكَ حلاوَتِي، ودَمَكَ حياتي، ومحبتَكَ فخرِي وشُكرِي.",
+      "Coptic": "Moi nhi `w pacwthr `ntawp `mpek`t\\emko `epa`a\\o> ouo\\ pi`xlom `ncouri je pa`wou> nek`mkau\\ je paounof> ouo\\ peken]a]i je ta\\lhji> pek`cnof je pawn=> ouo\\ pekmei je pa]ou]ou nem pajin]ep`\\mot",
+      "English": "Grant me, O my Savior to consider Your suffering my treasure, the crown of thorns my glory, Your sorrows my delight, Your bitterness my sweetness, Your blood my life, and Your love my pride and my thanksgiving.",
+      "Arabiccoptic": "موي نيي  وو باسووتير إنتاووب إمبي كإتهيمكو إيبا اهو: أووه بيإخلوم إنسأوري جي با ؤو: نيكإمكافه جي باأونوف: أووه بيكينشاشي جي تاهليجي: بيكإسنوف جي باوونخ: أووه بيكميي جي باشأوشأو نيم باجينشيبإهموت",
+      "Englishcoptic": "moi neei -oo pasooteer en-taoop empek-ethemko -epa-aho: owoh pi-ekhlom en-soori je pa-o-oo: nek-emkavh je paoonof: owoh pek-en-shashi je tahleeji: pek-esnof je paoonkh: owoh pek-mei je pashooshoo nem pajinshepehmot"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ياربي يسوع المسيح يامن جُرِحْتَ من أجلِ معاصِينا وبجراحاتِكَ شُفِينا، اجرحْني بحربَةِ حُبِّكَ الإلهيِّ الشافي، وبدَمِ صليبِكَ طهِّرْنِي من خطاياي، وأَسكرني بحبِّك يامن قَبِلْتَ الموتَ من أَجلي لتَفدِيني وتُحييني.",
+      "Coptic": "Pasoic Ihcouc Pixrictoc vhetaksi er=ot eqbe nennobi> ouo\\ =en neklelexhmi anon anoujai> ek`evol\\t =en `vmere\\ `mpekmei `nnou; `nreftalso> ouo\\ =en pi`cnof `nte pek`ctauroc> ek`etouboi `ebol=en nanobi> ouo\\ ek`eqriqi=i =en pekmei `w vhetak]ep `vmou eqbht je `ntekcott ouo\\ `ntektan=oi.",
+      "English": "O my Lord Jesus Christ who was wounded on account of our sins, and by Your bruises we were healed, wound me by the spear of Your healing divine love. And by the blood of Your Cross purify me from my sins. Inebriate me also by Your love, O You who accepted death for my sake, that You may redeem me and quicken me.",
+      "Arabiccoptic": "باتشويس إييسأوس بيخريستوس فييتاكتشي إيرخوت إيثفي نيننوفي: أووه خين نيكليليشيمي انون انأوجاي: إيكإيفولهت خين إفميريه إمبي كميي إننأوتي إنريفتالتشو: أووه خين بيإسنوف إنتي بيكإستافروس: إيكإيتأوفوي إيفولخين نانوفي: أووه إيكإيثريثيخي خين بيكميي  وو فييتاكشيب إفمأو إيثفيت جي إنتيكسوتت أووه إنتيكتانخوي.",
+      "Englishcoptic": "Pachois Isos Pikhristos vee-etakchi erkhot ethve nen-novi: owoh khen- nek-lelesheemi anon anoogai: ek-evolht khen- evmereh empek-mei en-nooti en-reftalcho: owoh khen- pi-esnof en-te pek-estavros: ek-etoovoi evolkhen- nanovi: owoh ek-ethrithikhi khen- pek-mei -oo vee-etakshep evmoo ethveet je en-tek-sott owoh en-tek-tankhoi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ياربي يسوع حبيبي إذا رأيتني عُضواً يابساً رطِّبْني بزيتِ نِعمتِكَ، وثبتني فيكَ غصناً حياً أيها الكرمَةُ الحقيقيةُ.",
+      "Coptic": "Pasoic Ihcouc pamenrit ak]annau `eroi `noumeloc ef]ouwou `clajlej `mmoi =en `vne\\ `mpek`\\mot> ouo\\ matajroi `n=htk `nouklhma efon= `w ;bw `naloli `nta`vmhi.",
+      "English": "O My Lord Jesus, my beloved, if You see me as a withered organ, soften me with the oil of Your grace, and confirm me in You as a living branch, O True Vine. ",
+      "Arabiccoptic": "باتشويس إييسأوس بامينريت اكشانناف إيروي إنأوميلوس إيف شأوؤو إسلاجليج إمموي خين إفنيه إمبي كإهموت: أووه ماتاجروي إنخيتك إنأوكليما إيف ونخ  وو تيفوو إنالولي إنتاإفميي.",
+      "Englishcoptic": "Pachois Isos pamen-rit akshannav -eroi en-oomelos efsho-oo-oo eslagleg emmoi khen- evneh empek-ehmot: owoh matagroi en-kheetk en-ookleema efonkh -oo ti-voo en-aloli en-taevmeei."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وحينما أَتَقَدَّمُ لتناوُلِ أسرارِكَ اجعلْني مستحقاً لذلك، ومؤهلاً للاتحادِ بكَ.",
+      "Coptic": "Ouo\\ ai]an=wnt `esi `ebol=en nekmucthrion aritt `nem`p]a `nnai> ouo\\ `n]ou]wpi `n=htk =en oumetouai.",
+      "English": "And when I come forth to partake of Your mysteries, make me worthy of these, and fit for being in union with You.",
+      "Arabiccoptic": "أووه ايشانخوونت إيتشي إيفولخين نيكميستيريون اريتت إنيمإبشا إنناي: أووه إنشأوشووبي إنخيتك خين  أوميتأواي.",
+      "Englishcoptic": "Owoh aishankhoont -echi evolkhen nek-meesteerion aritt enemep-sha ennai: owoh enshooshoopi enkheetk khen oometooai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكي أجرُؤَ بغيرِ خوفٍ أن أُنادِي أباكَ القدوس الذي في السمواتِ، بنغمةِ البنينِ قائلاً:",
+      "Coptic": "Je \\ina `ntaertolman =en ouparrhcia `nater\\o;> `emou; oube Pekiwt eqouab et=en nivhou`i> =en `t`cmh `nte ni]hri> eijw `mmoc>",
+      "English": "So that I may dare with boldness without fear to call on Your Holy Father who is in the heavens, with the voice of children, saying:",
+      "Arabiccoptic": "جي هينا إنتايرتولمان خين أوبارريسيا إناتيرهوتي: إيمأوتي أوفي بيكيووت إيثؤاب إيتخين نيفيأو إي: خين إتإسمي إنتي نيشيري: إييجوو إمموس:",
+      "Englishcoptic": "Ge hina en-taertolman khen- ooparreesia en-aterhoti-: -emooti- oove Pekioot ethowab etkhen- ni-veeoo-ee: khen- etesmee en-te ni-sheeri: eigoo emmos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أبانا....",
+      "Coptic": "Je Peniwt .",
+      "English": "Our Father….",
+      "Arabiccoptic": "جي بينيووت .",
+      "Englishcoptic": "Ge Pen-ioot ."
+    }
+  ]
+}

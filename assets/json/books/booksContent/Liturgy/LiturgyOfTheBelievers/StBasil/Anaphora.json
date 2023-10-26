@@ -5,6 +5,14 @@
   "CopticTitle": "`O Kurioc meta",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يرشم الكاهن الشعب غرباً رشماً واحداً بمثال الصليب وهو يقول:",
+      "English": "Turning to the west, the priest signs the people once with the sign of the cross, saying:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -49,6 +57,14 @@
       "Englishcoptic": "Ke meta too epnevmatos soo."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يرشم الكاهن الخدام شرقاً عن يمينه رشماً واحداً وهو يقول:",
+      "English": "The priest turns to the East and signs the deacons on his right once with the sign of the cross, saying:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -91,6 +107,14 @@
       "English": "We have them with the Lord.",
       "Arabiccoptic": "إيخومين إبروس طون كيريون",
       "Englishcoptic": "Ekhomen epros ton Keerion."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم يرشم الكاهن ذاته رشماً واحداّ وهو يقول:",
+      "English": "The priest signs himself once with the sign of the cross, saying:"
     },
     {
       "Type": "Base",
@@ -221,7 +245,7 @@
       "Arabic": "هذا الذي خلقت الكل به، ما يرى وما لا يرى.",
       "Coptic": "Vai `etakqamio `m`pthrf `ebol \\itotf> nh`etounau `erwou nem nh`ete `ncenau `erwou an.",
       "English": "by whom You have created all things, visible and invisible;",
-      "Arabiccoptic": " فاى إيتاك ثاميو إم إبتيرف إيقول هي ططف ني إيتو ناف إيروؤو نيم نيئتي إنسيناف إيروؤو آن.",
+      "Arabiccoptic": " فاى إيتاك ثاميو إم إبتيرف ايفول هي ططف ني إيتو ناف إيروؤو نيم نيئتي إنسيناف إيروؤو آن.",
       "Englishcoptic": "Vai etakthamio emep-terf evol hitotf: nee-etoonav ero-oo nem nee-ete en-sen-av ero-oo an."
     },
     {
@@ -320,7 +344,7 @@
       "Arabic": "أنت هو الذي يقف حولك الشاروبيم الممتلئون أعينا، والسِّرافيم ذوو الستة الأجنحة، يسبحون على الدوام بغير سكوت قائلين:",
       "Coptic": "`Nqok gar pe `etou`o\\i `eratou `mpekkw;> `nje Nixeroubim eqme\\ `mbal> nem Niceravim na picoou `nten\\> euer\\umnoc =en oumoun `ebol `natxarwou eujw `mmoc.",
       "English": "You are He around whom stand the Cherubim full of eyes, and the Seraphim with six wings, praising continuously, without ceasing, saying—",
-      "Arabiccoptic": "إنثوك غاربي إتؤ أو هي إيراتو إم بيك كوتي إنجي ني شيروفيم إثميه إمقال نيم ني سيرافيم نابي سو إن تنه. إيقئير هيمنوس خين أومون إيقول إن أت كارورو إيقجو إمموس.",
+      "Arabiccoptic": "إنثوك غاربي إتؤ أو هي إيراتو إم بيك كوتي إنجي ني شيروفيم إثميه إمقال نيم ني سيرافيم نابي سو إن تنه. إيقئير هيمنوس خين أومون ايفول إن أت كارورو إيقجو إمموس.",
       "Englishcoptic": "eNthok ghar pe etoo-ohi eratoo empek-kooti-: en-je Nisherobim ethmeh emval: nem Niseraphim na pi-so-oo en-ten-h: everheemnos khen- oomoon evol en-atkharo-oo evgoo emmos."
     },
     {

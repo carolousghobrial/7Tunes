@@ -5,6 +5,14 @@
   "CopticTitle": "Afsicar[ ouo\\ aferrwmi",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقدم الشماس المجمرة إلى الكاهن فيضع فيها يد بخور.",
+      "English": "The deacon presents the censer to the priest, who puts a handful of incense into it."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -34,7 +42,7 @@
       "Arabic": "وأنعم علينا بالميلاد الذي من فوق بواسطة الماء والروح.",
       "Coptic": "`Eaferxarizecqe nan `mpimici pi`ebol `m`p]wi \\iten oumwou nem Ou`pneuma.",
       "English": "He granted us the birth from on high through water and Spirit.",
-      "Arabiccoptic": "إى آفئير خارزستي نان إمبي ميسي بي إيقول إم إبشوي هيتين أوموأو نيم او إبنيقما .",
+      "Arabiccoptic": "إى آفئير خارزستي نان إمبي ميسي بي ايفول إم إبشوي هيتين أوموأو نيم او إبنيقما .",
       "Englishcoptic": "Eaferkharizeste nan empi-misi pi-evol emep-shooi hiten oomo-oo nem Oooepnevma."
     },
     {
@@ -45,7 +53,7 @@
       "Arabic": "وجعلنا له شعباً مجتمعاً، وصيرنا أطهاراً بروحك القدوس. هذا الذي أحب خاصته الذين في العالم، وسلم ذاته فداءً عنا، إلى الموت الذي تملَّك علينا، هذا الذي كنا ممسكين به، مبيعين من قِبَل خطايانا.",
       "Coptic": "Afaiten naf `noulaoc efqouht> af`qren]wpi enouab> \\iten Pek`pneuma Eqouab. Vai `etafmenre nh`ete nouf et =en pikocmoc> afthif `mmin `mmof `ncw; =aron> `e`vmou etoi `nouro `e`\\rhi `ejwn> vai `enau`amoni `mmon `ebol \\itotf> entoi `ebol \\iten nennobi.",
       "English": "He made us unto Himself an assembled people, and sanctified us by Your Holy Spirit. He loved His own who are in the world, and gave Himself up for our salvation unto death, which reigned over us, whereby we were bound and sold on account of our sins.",
-      "Arabiccoptic": " آف أيتين ناف إن أو لاؤس إفثويت ىفئيرين شوبي إثؤواب هيتين بيك إبنيقما إثؤواب فاي إيطاف منري ني إيتي نوف إيتخين بي كوزموس آفتيف إممين إمموف إن سوتي خارون إيئفمو إت أوي إنئورو إيئهري إيجون فاي إبطاف أموني إممون إيقول هيططف إنطوي إيقول هيتين نين نوفي ",
+      "Arabiccoptic": " آف أيتين ناف إن أو لاؤس إفثويت ىفئيرين شوبي إثؤواب هيتين بيك إبنيقما إثؤواب فاي إيطاف منري ني إيتي نوف إيتخين بي كوزموس آفتيف إممين إمموف إن سوتي خارون إيئفمو إت أوي إنئورو إيئهري إيجون فاي إبطاف أموني إممون ايفول هيططف إنطوي ايفول هيتين نين نوفي ",
       "Englishcoptic": "Afaiten naf enoolaos efthooeet: afethrenshoopi enooab: hiten Pekepnevma Ethowab. Vai etaf-menre nee-ete noof et khen pikosmos: afteeif emmin emmof ensooti kharon: eevmoo etoi enooro eehreei egoon: vai enav-amoni emmon evol hitotf: entoi evol hiten nennovi."
     },
     {
@@ -56,7 +64,7 @@
       "Arabic": "نزل إلى الجحيم من قِبَل الصليب.",
       "Coptic": "Af]enaf `epecht `e`Amen; `ebol \\iten Pi`ctauroc.",
       "English": "He descended into Hades through the Cross.",
-      "Arabiccoptic": "أفشيناف إيبيسيت إى آمنتي إيقول هيتين بي إستافروس  . ",
+      "Arabiccoptic": "أفشيناف إيبيسيت إى آمنتي ايفول هيتين بي إستافروس  . ",
       "Englishcoptic": "Afshen-af epeseet e-Amen-ti evol hiten- Piestavros."
     },
     {

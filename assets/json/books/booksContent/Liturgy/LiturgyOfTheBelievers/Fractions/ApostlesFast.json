@@ -1,0 +1,184 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "قسمة صوم الرسل",
+  "EnglishTitle": "Fraction for the Apostles Fast",
+  "CopticTitle": "`Nqok gar pe Pilogoc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت هو كلمة الآب،الإله الذى قبل الدهور، رئيس الكهنة الأعظم.",
+      "Coptic": "`Nqok gar pe Pilogoc `nte `Viwt> `Vnou; et =ajwou `nni`ene\\> pini]; `narxh`ereuc.",
+      "English": "You are the Logos of the Father, God who are before the ages, the great High Priest,",
+      "Arabiccoptic": "إنثوك غار بي بيلوغوس إنتي إفيوت: افنوتي إيت خاجؤو إنني إينيه: بينيشتي إن ارشي إيريفس.",
+      "Englishcoptic": "eNthok ghar pe Piloghos en-te Eviot: Evnoti et khago-oo en-ni-en-eh: pi-ni-shti en-arshee-erevs."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذى تجسد وتأنس من أجل خلاص جنس البشر.",
+      "Coptic": "Vh`etafsicar[ ouo\\ aferrwmi> eqbe `poujai `m`pgenoc `nnirwmi.",
+      "English": "who were incarnate and became man for the salvation of mankind.",
+      "Arabiccoptic": "في إيتاف إتشيساركس أووه افيرروومي: إيثفي إب أوجاي إمإبجينوس إنني روومي.",
+      "Englishcoptic": "Vee-etaf-chisarx owoh aferroomi: ethve epoogai emep-gen-os en-ni-roomi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ودعا له من جميع الأمم جنساً مختاراً، مملكة وكهنوتاً وأمة مقدسة وشعباً مبرراً.",
+      "Coptic": "Ouo\\ afqw\\em naf `ebol =en nieqnoc throu> `nougenoc efcwtp> oumetouro oumetouhb> ou`]lol efouab> oulaoc eu`qmaiof.",
+      "English": "Out of all the nations, He called to Himself a chosen generation, a kingdom, a priesthood, a holy nation, and a justified people.",
+      "Arabiccoptic": "أووه افثووهيم ناف إيفول خين ني إيثنوس تييرو: إنأوجينوس إيف سووتب:  أوميتأورو  أوميتأويب: أوإشلول إيف أواب: أولاوس إيف إثمايوف.",
+      "Englishcoptic": "Owoh afthoohem naf evol khen ni-ethnos tero: enoogenos efsootp: oometooro oometooeeb: ooeshlol efooab: oolaos evethmaiof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إذ أرسلت الروح القدس على الرسل يوم البنطيقسطي.",
+      "Coptic": "`Eakouwrp `mPi`pneuma Eqouab `ejen ni`apoctoloc> =en pi`e\\oou `nte :penthkocth.",
+      "English": "You have sent the Holy Spirit upon the apostles on the day of Pentecost.",
+      "Arabiccoptic": "إياكأووورب إمبي إبنيفما إيثؤاب إيجين ني ابوستولوس: خين بيإيهوأو إنتي تيبينتيكوستي.",
+      "Englishcoptic": "-Eako-oorp emPiepnevma Ethooav -ejen ni-apostolos: khen pi-eho-oo ente Tipenteekostee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وحل عليهم مثل ألسنة نار منقسمة على كل واحد منهم.",
+      "Coptic": "Ouo\\ af`i `e`\\rhi `ejwou `m`vrh; `n\\anlac `n`xrwm> euvh] `ejen `vouai `vouai `mmwou.",
+      "English": "He came upon each one of them like divided tongues of fire",
+      "Arabiccoptic": "أووه اف إي إي إهريي إيجؤو إم إفريتي إنهانلاس إنإخرووم: إيف فيش إيجين إفأواي إفأواي إممؤو.",
+      "Englishcoptic": "Owoh af-ee -eehreei -ego-oo emevreeti en-hanlas en-ek-hroom: evveesh -ejen- evooai evooai emmo-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وملأهم من كل معرفة وكل فهم وكل حكمة روحية كوعدك الصادق.",
+      "Coptic": "Ouo\\ afma\\ou `ebol =en `emi niben nem ka; niben nem covia niben `m`pneumatikh> kata pekw] `eten\\ot.",
+      "English": "and filled them with all knowledge, all understanding, and all spiritual wisdom, according to Your faithful promise.",
+      "Arabiccoptic": "أووه افماهأو إيفول خين إيمي نيفين نيم كاتي نيفين نيم سوفيا نيفين إمإبنيفماتيكي: كاتا بيكأوؤوش إيتينهوت.",
+      "Englishcoptic": "Owoh afmahoo evol khen -emi ni-ven nem kati ni-ven nem sovia ni-ven emep-nevmatikee: kata pek-oosh etenhot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وتكلموا بكل اللغات، وبشروا بYسمك القدوس فى جميع الأمم.",
+      "Coptic": "Ouo\\ aucaji =en acpi niben> ouo\\ au\\iwi] `mpekran eqouab `n`\\rhi =en nieqnoc throu.",
+      "English": "And they spoke in every language and they preached Your holy name to all the nations.",
+      "Arabiccoptic": "أووه افساجي خين اسبي نيفين: أووه افهيوويش إمبيكران إيثؤاب إنإهريي خين ني إيثنوس تييرو.",
+      "Englishcoptic": "Owoh avsaji khen aspi ni-ven: owoh avhiooish empek-ran ethowab enehreei khen ni-ethnos tero."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أما بطرس وبولس الرسولان، فكان ظل أحدهما يشفى الأمراض، وكانت مناديل وعصائب الآخر تذهب الأمراض، وتخرج الأرواح الشريرة.",
+      "Coptic": "Petroc de nem Pauloc `panjwj `cnau (b̅) `nni`apoctoloc> ne ]are `t=hibi `mpiouai `mmwou talso `nni]wni> ouo\\ nicoudarion nem nicimikunqinon `mpikeouai ne ]au`qre ni]wni ]enwou> ouo\\ `nte ni`pneuma et\\wou `i `ebol.",
+      "English": "As for Peter and Paul, foremost among the apostles, the shadow of the one was healing the sick, whereas the handkerchiefs and aprons of the other were causing diseases to leave and evil spirits to come out.",
+      "Arabiccoptic": "بيتروس زي نيم بافلوس إبانجووج إسناف (ب̅) إنني  ابوستولوس: ني شاري إتخييفي إمبي أواي إممؤو تالتشو إنني شووني: أووه نيسأوزاريون نيم نيسيميكينثينون إمبي كيأواي ني شافإثري نيشووني شينؤو: أووه إنتي نيإبنيفما إيتهؤو  إي إيفول.",
+      "Englishcoptic": "Petros ze nem Pavlos epangoog esnav (b̅) en-ni-apostolos: ne share etkheeivi empi-ooai emmo-oo talcho en-ni-shooni-: owoh ni-soozarion nem ni-simikeen-thinon empi-keooai ne shavethre ni-shooni- shen-o-oo: owoh en-te ni-epnevma etho-oo -ee evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبعدما كرزا باٍنجيل الملكوت وعلما الأمم، سفكا دمهما من أجل إسمك، ونالا اٍكليل الرسولية واٍكليل الشهادة.",
+      "Coptic": "Ouo\\ menenca `qrou\\iwi] `mpieuaggelion `nte ;metouro> ouo\\ `ntou;`cbw `nnieqnoc> auvwn `mpou`cnof eqbe pekran> ouo\\ ausi `mpi`xlom `nte ;met`apoctoloc nem va ;metmarturoc.",
+      "English": "And after they preached the Gospel of the kingdom and taught the nations, they shed their blood for Your name´s sake and received the crown of apostleship and of martyrdom.",
+      "Arabiccoptic": "أووه مينينسا إثرأوهيوويش إمبي إيف انجيليون إنتي تيميتأورو: أووه إنتأوتيإسفوو إنني إيثنوس: اففوون إمبأوإسنوف إيثفي بيكران: أووه افتشي إمبي إخلوم إنتي تيميت ابوستولوس نيم فا تيميتمارتيروس.",
+      "Englishcoptic": "Owoh men-en-sa ethroohiooish empi-evangelion en-te ti-metooro: owoh en-tooti-esvoo en-ni-ethnos: avvoon empooesnof ethve pek-ran: owoh avchi empi-ekhlom en-te ti-met-apostolos nem va ti-metmarteeros."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فيامن أنعم على تلاميذه القديسين ورسله المكرمين بحلول الروح المعزى عليهم، وأعطاهم السلطان أن يصنعوا الأشفية والآيات والعجائب.",
+      "Coptic": "`W vh`etafer`\\mot `nnef`agioc `mmaqhthc ouo\\ `n`apoctoloc ettaihout> `m`pjin`i `e`=rhi `ejwou `nte Pi`pneuma `mparaklhton> ouo\\ af; `mpier]i]i nwou `e`iri `nnitalso nem nimhini nem ni`]vhri.",
+      "English": "O You who have granted His holy Disciples and honored Apostles the descent of the Spirit, the Paraclete, upon them and gave them authority to work healings, signs, and wonders-",
+      "Arabiccoptic": "وو فيإيتافيرإهموت إنني ف اجيوس إمماثيتيس أووه إن ابوستولوس إيتتاييأوت: إمإبجين إي إيإخريي إيجؤو إنتي بيإبنيفما إمباراكليتون: أووه افتي إمبي إيرشيشي نؤو إي إيري إنني تالتشو نيم نيمييني نيم نيإشفيري.",
+      "Englishcoptic": "Oo vee-etaf-erehmot en-nefagios emmatheetees owoh en-apostolos ettaieeoot: emep-jin-ee -eekhreei -ego-oo en-te Piepnevma emparakleeton: owoh afti empi-ershishi no-oo -e-eeri en-ni-talcho nem ni-meeini- nem ni-eshveeri."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبشرونا بإسمه القدوس، وردونا اٍلى الاٍيمان الحقيقى بالثالوث القدوس.",
+      "Coptic": "Au\\i]ennoufi nan `mpefran eqouab> ouo\\ autacqon `epina\\; `mmhi `nte :`triac eqouab.",
+      "English": "they proclaimed to us the good news of His holy name and restored us to the true faith of the Holy Trinity.",
+      "Arabiccoptic": "أفهيشيننأوفي نان إمبي فران إيثأواب: أووه افتاستون إيبيناهتي إمميي إنتي تيإترياس إيثأواب.",
+      "Englishcoptic": "Avhishen-noofi nan empefran ethowab: owoh avtaston -epi-nahti emmeei en-te Tietrias ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نسبحك ونباركك ونمجدك ونشكرك لأجل هذه النعم العظيمة.",
+      "Coptic": "Ten\\wc `erok ten`cmou `erok ten;`wou nak tenouwn\\ nak `ebol> eqbe naini]; `n`\\mot.",
+      "English": "We praise You, we bless You, we glorify You, and we give thanks to You on account of these great gifts.",
+      "Arabiccoptic": "تينهووس إيروك تينإسمأو إيروك تينتي ؤو ناك تينأووونه ناك إيفول: إيثفي ناينيشتي إنإهموت.",
+      "Englishcoptic": "Ten-hoos -erok ten-esmoo -erok ten-ti-o-oo nak ten-o-oonh nak evol: ethve naini-shti- en-ehmot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ونسألك يا سيدنا أن تنعم علينا بغفران خطايانا.",
+      "Coptic": "Ouo\\ ten;\\o `erok Pennhb> eqrekerxarizecqe nan on `m`pxw `ebol `nte nennobi.",
+      "English": "And we ask You, O our Master, to also grant us the forgiveness of our sins,",
+      "Arabiccoptic": "أووه تينتيهو إيروك بيننيب: إيثريكيرخاريزيستي نان ون إمإبخوو إيفول إنتي نيننوفي.",
+      "Englishcoptic": "Owoh ten-ti-ho -erok Pen-neeb: ethrekerkharizeste nan on emep-khoo evol en-te nen-novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وتطهر قلوبنا ونفوسنا وأجسادنا وأرواحنا.",
+      "Coptic": "Ouo\\ `ntektoubo `nnen\\ht nem nenyuxh nem nencwma nem nen`pneuma.",
+      "English": "and to purify our hearts, our souls, our bodies, and our spirits,",
+      "Arabiccoptic": "أووه إنتيكتأوفو إنني نهيت نيم نينبسيشي نيم نينسووما نيم نينإبنيفما.",
+      "Englishcoptic": "Owoh en-tek-toovo en-nen-heet nem nen-pseeshee nem nen-sooma nem nen-epnevma."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكى بقلب طاهر نجرأ بدالة بغير خوف، أن نصرخ نحو أبيك القدوس الذى فى السموات، ونقول \"أبانا الذي...\"",
+      "Coptic": "Je \\ina =en ou\\ht efouab> `ntenertolman =en ouparrhcia `nater\\o;> `ew] oube Pekiwt eqouab et=en nivhou`i ouo\\ `ejoc> je Peniwt....",
+      "English": "so that with a pure heart, we may dare with boldness, without fear, to cry to Your holy Father who is in the heavens, and say, \"Our Father ....\"",
+      "Arabiccoptic": "جي هينا خين أوهيت إيف أواب: إنتينيرتولمان خين أوبارريسيا إناتيرهوتي: إيأوؤوش أوفي بيكيووت إيثؤاب إيتخين نيفيأو إي أووه إيجوس: جي بينيووت....",
+      "Englishcoptic": "Ge hina khen ooheet efooab: entenertolman khen ooparreesia enaterhoti-: -eoosh oove Pekioot ethowab etkhen ni-veeoo-ee owoh -egos: je Peni-oot...."
+    }
+  ]
+}

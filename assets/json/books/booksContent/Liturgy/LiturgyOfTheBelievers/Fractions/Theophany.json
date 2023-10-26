@@ -1,0 +1,85 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " قسمة لعيد الغطاس",
+  "EnglishTitle": "A Fraction for Feast of Theophany",
+  "CopticTitle": "|hppe `fxh neman ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إذ أعطيتنا نعمة البنوة بحميم الميلاد الجديد، وتجديد الروح القدس.",
+      "Coptic": "`Eak; nan `mpi`\\mot `nte ;met]hri> \\iten pijwkem `nte piou`a\\emmici> nem ;metberi `nte Pi`pneuma Eqouab.",
+      "English": "As You have bestowed upon us the grace of sonship through the washing of regeneration and renewing of the Holy Spirit,",
+      "Arabiccoptic": "إياكتي نان إمبي إهموت إنتي تيميتشيري: هيتين بيجووكيم إنتي بيأو اهيمميسي: نيم تيميتفيري إنتي بيإبنيفما إيثأواب.",
+      "Englishcoptic": "-Eakti nan empi-ehmot en-te timetsheeri: hiten- pi-gookem en-te pi-oo-ahemmisi: nem timetveri en-te Piepnevma Ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآن أيضاً إجعلنا مستحقين، بغير رياء، وقلب طاهر، ونية مملوءة دالة، وشفتين غير ساقطتين، أن نطلب إليك يا أبا الآب.",
+      "Coptic": "Ouo\\ ;nou on `ariten `nem`p]a =en oumetat]obi> nem ou\\ht efouab nem oucunidhcic ecme\\ `mparrhcia> nem \\an`cvotou `nat\\ei eqrentwb\\ `mmok abba `Viwt.",
+      "English": "so make us worthy, now, that without hypocrisy, with a pure heart, a conscience full of boldness, and unerring lips, that we may entreat you, O Abba Father.",
+      "Arabiccoptic": "أووه تينأو ون  اريتين إنيمإبشا خين  أوميتاتشوفي: نيم أوهيت إيف أواف نيم أوسينيزيسيس إيسميه إمبارريسيا: نيم هانإسفوتأو إناتهيي إيثرينتووبه إمموك ابفا إفيوت.",
+      "Englishcoptic": "Owoh ti-noo on -ariten enemep-sha khen oometatshovi: nem ooheet efooav nem ooseeni-zeesis esmeh emparreesia: nem hanesvotoo enathei ethrentoobh emmok abva Eviot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكي إذ تركنا كثرة كلام الأمم الباطل وإستكبار اليهود.",
+      "Coptic": "|ina `eanxw `e`=rhi `n;met`e`vlhou `nte ;metrefkemh] `ncaji `nte nieqnoc> nem ;metref\\i`p\\o `nte Niioudai.",
+      "English": "So that, having abandoned the excessive vain words of the heathen and the vanity of the Jews,",
+      "Arabiccoptic": "هينا إيانخوو إيإخريي إنتيميتإيإفليأو إنتي تيميتريفكيميش إنساجي إنتي ني إيثنوس: نيم تيميتريفهيإبهو إنتي نييأوزاي.",
+      "Englishcoptic": "Hina -eankhoo -eekhreei en-ti-met-eevleeoo en-te ti-metrefkemeesh en-saji en-te ni-ethnos: nem ti-metrefhiepho en-te Niioozai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نستطيع أن نقدم لك سؤال الصلاة، كشريعة إبنك الوحيد المملوءة خلاصاً.",
+      "Coptic": "`Nten`]jemjom `n`ini nak `e=oun `mpi;\\o `nte ;`proceuxh> kata ;nomoqecia eqme\\ `noujai `nte pekmonogenhc `n}hri",
+      "English": "we may be able to offer You the supplication of prayer according to the statute of Your only-begotten Son, which is full of salvation.",
+      "Arabiccoptic": "إنتينإشجيمجوم إن إيني ناك إيخأون إمبي تيهو إنتي تيإبروسيفشي: كاتا تينوموثيسيا إيثميه إنأوجاي إنتي بيكمونوجينيس إنشيري",
+      "Englishcoptic": "eNten-eshjemgom en-een-i nak -ekhoon empi-ti-ho en-te ti-eprosevshee: kata ti-nomothesia ethmeh en-oogai en-te pek-monogen-ees En-Sheeri"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فبصوت متواضع يليق بالمسيحيين، وبطهارة النفس والجسد والروح.",
+      "Coptic": "+en ou`cmh men ecqebihout ecer`prepi `nni`xrictianoc =en outoubo de `nte ;yuxh nem picwma nem pi`pneuma.",
+      "English": "So with a humble voice befitting Christians, and with purity of soul, body, and spirit,",
+      "Arabiccoptic": "خين أوإسمي مين إيستيفييأوت إيسيرإبريبي إنني إخريستيانوس خين أوتأوفو زي إنتي تيبسيشي نيم بيسووما نيم بيإبنيفما.",
+      "Englishcoptic": "Khen ooesmee men estevieeoot esereprepi enni-ekhristi-anos khen ootoovo ze ente ti-pseeshee nem pisooma nem piepnevma."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نجسر بدالة بغير خوفٍ أن نصرخ إليك أنت غير المخلوق ولا مبتدئ ولا مولود، سيد كل أحد، الله الآب القدوس الذي في السموات، ونقول: \"أبانا الذي...\"",
+      "Coptic": "`Ntenertolman =en oumetat\\o; `ew] oubhk> `nqok piatcontf ouo\\ `natarxh ouo\\ `nat`jvof> `Vnhb `nouon niben> `Vnou; `Viwt eqouab et =en nivhou`i ouo\\ `ejoc> je Peniwt...",
+      "English": "we dare without fear to cry to You who are uncreated, without beginning, and unbegotten, the Master of everyone, God the holy Father, who are in the heavens, and say: \"Our Father....\"",
+      "Arabiccoptic": "إنتينيرتولمان خين  أوميتاتهوتي إيأوؤوش أوفيك: إنثوك بياتسونتف أووه إناتارشي أووه إناتإجفوف: إفنيف إنأوون نيفين: افنوتي إفيوت إيثؤاب إيت خين نيفيأو إي أووه إيجوس: جي بينيووت...",
+      "Englishcoptic": "eNten-ertolman khen- oometathoti -eoosh ooveek: en-thok pi-atsontf owoh en-atarshee owoh en-ategvof: Evneeb en-o-oon ni-ven-: Evnoti Eviot ethowab et khen- ni-veeoo-ee owoh -egos: je Pen-ioot..."
+    }
+  ]
+}

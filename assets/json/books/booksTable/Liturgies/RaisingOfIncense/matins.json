@@ -23,6 +23,12 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncenseKhenPikhristos",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseThanksgivingPrayer",
             "Rule": 0,
             "Visible": true,
@@ -231,7 +237,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseLitanySeeds",
+            "Path": "RaisingOfIncenseLitanyPlants",
             "Rule": 0,
             "Visible": "getPlantsSeason"
         },

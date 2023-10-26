@@ -331,7 +331,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseLitanySeeds",
+            "Path": "RaisingOfIncenseLitanyPlants",
             "Rule": 0,
             "Visible": "getPlantsSeason"
         },

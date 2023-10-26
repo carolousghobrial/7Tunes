@@ -1,0 +1,74 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " قسمة لعيد أحد الشعانين",
+  "EnglishTitle": "A Fraction for Feast of Hosanna Sunday",
+  "CopticTitle": "`Psoic Pensoic `m`vrh;",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الرب ربنا، مثل عجب صار إسمك على الأرض كلها.",
+      "Coptic": "`Psoic Pensoic `m`vrh; `nou`]vhri af]wpi `nje pekran \\ijen pika\\i thrf.",
+      "English": "O Lord, our Lord, how wonderful has became Your name in all the earth.",
+      "Arabiccoptic": "إبتشويس بينتشويس إم إفريتي إنأوإشفيري افشووبي إنجي بيكران هيجين بيكاهي تيرف.",
+      "Englishcoptic": "Epchois Pen-chois emevreeti en-ooeshveeri afshoopi en-je pek-ran hijen- pikahi terf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه قد إرتفع عِظَم بهائك فوق السموات.",
+      "Coptic": "Je acsici `nje `qmetni]; `nte tekmetcaie ca`p]wi `nnivhou`i.",
+      "English": "For the greatness of Your beauty is exalted above the heavens.",
+      "Arabiccoptic": "جي استشيسي إنجي إثميتنيشتي إنتي تيكميتسايإي ساإبشووي إنني فيأو إي.",
+      "Englishcoptic": "Ge aschisi en-je ethmetni-shti en-te tekmetsaie saepshooi en-ni-veeoo-ee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من أفواه الأطفال والرضعان هيأت سُبحاً.",
+      "Coptic": "`Ebol =en rwou `n\\ankouji `n`alwou`i nem nheqouemsi akcebte pi`cmou.",
+      "English": "Out of the mouth of little children and sucklings You have prepared praise.",
+      "Arabiccoptic": "إيفول خين رؤو إنهانكأوجي إن الؤو إي نيم نييثأويمتشي اكسيبتي بيإسمأو.",
+      "Englishcoptic": "-Evol khen ro-oo enhankooji en-alo-oo-ee nem nee-ethooemchi aksebte pi-esmoo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فهيئ أيضاً يا رب نفوسنا لنسبحك، ونرتل لك، ونباركك، ونخدمك، ونسجد لك، ونمجدك، ونشكرك كل يوم وكل ساعة.",
+      "Coptic": "Cob; de on `Psoic `nnh`ete noun `myuxh> `e`pjin\\wc `erok `eer\\umnoc `erok> `e`cmou `erok> `e]em]i `mmok> `eouw]t `mmok> `e;`wou nak> `e]ep`\\mot `ntotk> kata `e\\oou niben nem kata ounou niben.",
+      "English": "Prepare also, O Lord, our souls for praising You, chanting to You, blessing You, serving You, worshipping You, glorifying You, giving thanks to You, every day and every hour.",
+      "Arabiccoptic": "سوبتي زي ون إبتشويس إنني إيتي نأون إمبسيشي: إيإبجينهووس إيروك إييرهيمنوس إيروك: إيإسمأو إيروك: إيشيمشي إمموك: إيأوأوؤوشت إمموك: إيتي ؤو ناك: إيشيبإهموت إنتوتك: كاتا إيهوأو نيفين نيم كاتا أونأو نيفين.",
+      "Englishcoptic": "Sobti ze on Epchois en-nee-ete noon empseeshee: -eepjinhoos -erok -eerheemnos -erok: -eesmoo -erok: -eshemshi emmok: -eo-oosht emmok: -eti-o-oo nak: -eshepehmot en-totk: kata -eho-oo ni-ven- nem kata oonoo ni-ven-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكي نعترف لك، ونصرخ نحوك أيها الآب القدوس الذي في السموات، ونقول: \"يا أبانا...\"",
+      "Coptic": "|wcte `ntenouwn\\ nak `ebol> ouo\\ `ntenw] `e`p]wi \\arok> `Viwt eqouab et =en nivhou`i> ouo\\ `ntenjoc> je Peniwt ....",
+      "English": "That we may confess to You and cry out to You, O holy Father, who is in the heavens, and say, \"Our Father ...\"",
+      "Arabiccoptic": "هووستي إنتينأووونه ناك إيفول: أووه إنتينأوؤوش إيإبشووي هاروك: إفيوت إيثؤاب إيت خين نيفيأو إي: أووه إنتينجوس: جي بينيووت ....",
+      "Englishcoptic": "Hooste en-ten-o-oonh nak evol: owoh en-ten-oosh -eepshooi harok: Eviot ethowab et khen- ni-veeoo-ee: owoh en-ten-gos: je Pen-ioot ...."
+    }
+  ]
+}

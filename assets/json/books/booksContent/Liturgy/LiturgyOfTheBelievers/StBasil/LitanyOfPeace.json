@@ -70,6 +70,14 @@
       "Englishcoptic": "Keerie ele-eeson."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقول الكاهن وهو يشير بيديه إلى الدم أولاً وإلى الجسد ثانياً:",
+      "English": "While pointing with his hand first to the Blood and then to the Body, the priest says:"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -88,7 +96,7 @@
       "Arabic": "هذه التي اقتنيتها لك بالدم الكريم الذي لمسيحك.",
       "Coptic": "qai `etak`jvoc nak `ebol \\iten Pi`cnof ettai`hout `nte Pek`xrictoc.",
       "English": "this, which You have acquired to Yourself with the precious Blood of Your Christ,",
-      "Arabiccoptic": "ثاي إيطاك إجفوس ناك إيقول هيتين بي إسنوف إتطايوت إنتي بيك إخرستوس",
+      "Arabiccoptic": "ثاي إيطاك إجفوس ناك ايفول هيتين بي إسنوف إتطايوت إنتي بيك إخرستوس",
       "Englishcoptic": "thai etakegvos nak evol hiten Piesnof ettai-eeoot ente Pekekhristos."
     },
     {

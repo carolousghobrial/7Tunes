@@ -1,0 +1,217 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "قسمة للأعياد السيدية - للإبن",
+  "EnglishTitle": "Fraction for the Lord's Feasts - For the So",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نسبح ونمجد إله الآلهة ورب الأرباب، الذي تجسد من القديسة مريم العذراء، ولدته في بيت لحم.",
+      "Coptic": "Ten\\wc ten;`wou `m`Vnou; `nte ninou; ouo\\ `Psoic `nte nisoic> vh`etafsicar[ `ebol =en qheqouab Mariam> ouo\\ acmici `mmof =en Bhqleem.",
+      "English": "We praise and glorify the God of gods and the Lord of lords, who was incarnate of Saint Mary who gave birth to Him in Bethlehem.",
+      "Arabiccoptic": "تينهووس تينتي ؤو إمافنوتي إنتي نينأوتي أووه إبتشويس إنتي نيتشويس: في إيتاف إتشيساركس إيفول خين ثييثأواف ماريام: أووه اسميسي إمموف خين فيثلييم.",
+      "Englishcoptic": "Ten-hoos ten-ti-o-oo emEvnoti- en-te ni-nooti- owoh Epchois en-te ni-chois: vee-etaf-chisarx evol khen- thee-ethowab Mariam: owoh asmisi emmof khen- Veethleem."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وإذا ملاك الرب قد ظهر للرعاة، وبشرهم بميلاده العجيب فأتوا ونظروه.",
+      "Coptic": "Ouo\\ ic `paggeloc `nte `Psoic afouon\\f `eniman`ecwou> af\\i]ennoufi nwou `mpefjinmici etoi `n`]vhri> ouo\\ au`i aunau `erof.",
+      "English": "And lo, the angel of the Lord appeared to the shepherds and proclaimed the good news of His wonderful Nativity to them, and they came and beheld Him;",
+      "Arabiccoptic": "أووه يس إبانجيلوس إنتي إبتشويس افأوونهف إينيمانإيسؤو: افهيشيننأوفي نؤو إمبي فجينميسي إيتوي إنإشفيري: أووه اف إي افناف إيروف.",
+      "Englishcoptic": "Owoh is epangelos en-te Epchois afo-oonhf -en-iman-eso-oo: afhishen-noofi no-oo empefjinmisi etoi en-eshveeri: owoh av-ee avnav -erof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي رأى المجوس نجمه، فأتوا وسجدوا له وقدموا له هدايا.",
+      "Coptic": "Vh`etaunau `nje nimagoc `epefciou> ouo\\ au`i auouw]t `mmof> au`ini naf `n\\andwron.",
+      "English": "whose star the Magi saw. They came and worshiped Him, and presented gifts to Him;",
+      "Arabiccoptic": "فيإيتافناف إنجي نيماغوس إيبيفسيأو: أووه اف إي افأوأوؤوشت إمموف: اف إيني ناف إنهانزوورون.",
+      "Englishcoptic": "Vee-etavnav en-je ni-maghos -epefsioo: owoh av-ee avo-oosht emmof: av-een-i naf en-hanzooron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي أتى إلى أرض مصر، ثم عاد وسكن في ناصرة الجليل.",
+      "Coptic": "Vh`etaf`i `e`pka\\i `nXhmi> ouo\\ aftacqof af]wpi =en Nazareq `nte :galile`a.",
+      "English": "who came to the land of Egypt, and then returned and dwelt in Nazareth of Galilee;",
+      "Arabiccoptic": "فيإيتاف إي إيإبكاهي إنشيمي: أووه افتاستوف افشووبي خين نازاريث إنتي تيغاليلي ا.",
+      "Englishcoptic": "Vee-etaf-ee -eepkahi en-Sheemi: owoh aftastof afshoopi khen- Nazareth en-te Tighalile-a."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي نما قليلاً قليلاً بشبه البشر، بغير خطية وحده.",
+      "Coptic": "Vh`etafaiai `noukouji kouji kata `p`cmot `nnirwmi> atsne nobi `mmauatf.",
+      "English": "who grew little by little, according to the form of men, yet He alone was without sin;",
+      "Arabiccoptic": "فيإيتافاياي إنأوكأوجي كأوجي كاتا إبإسموت إنني روومي: اتتشني نوفي إممافاتف.",
+      "Englishcoptic": "Vee-etaf-aiai en-ookooji kooji kata epesmot en-ni-roomi: atchne novi emmavatf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي أتى إلى الأردن، وإعتمد من يوحنا السابق.",
+      "Coptic": "Vh`etaf`i `ePiiordanhc> afsiwmc `ntotf `nIwannhc pi`prodromoc.",
+      "English": "who came to the Jordan and was baptized by John the Forerunner;",
+      "Arabiccoptic": "فيإيتاف إي إيبييورزانيس: افتشيوومس إنتوتف إنإيوواننيس بيإبروزروموس.",
+      "Englishcoptic": "Vee-etaf-ee -ePiiorzanees: afchiooms en-totf en-Iooannees pi-eprozromos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي صام عنا أربعين يوماً وأربعين ليلة، بسر لا يُنطق به.",
+      "Coptic": "Vh`etafernhcteuin `e`\\rhi `ejwn `n`\\me `n`e\\oou nem `\\me `n`ejwr\\> =en oumucthrion `nat`]caji `mmof.",
+      "English": "who fasted on our behalf forty days and forty nights in a mystery ineffable;",
+      "Arabiccoptic": "فيإيتافيرنيستيفين إي إهريي إيجوون إنإهمي إنإيهوأو نيم إهمي إنإيجووره: خين أوميستيريون إناتإشساجي إمموف.",
+      "Englishcoptic": "Vee-etaf-erneestevin -eehreei -egoon en-ehme en-eho-oo nem ehme en-egoorh: khen- oomeesteerion en-ateshsaji emmof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي صيَّر الماء خمراً بقوة لاهوته في عرس قانا الجليل.",
+      "Coptic": "Vh`etaf`qre pimwou erhrp \\iten `tjom `nte tefmeqnou;> =en `p\\op `n:kana `nte :galile`a.",
+      "English": "who made the water wine by the power of His divinity at the wedding of Cana of Galilee;",
+      "Arabiccoptic": "فيإيتافإثري بيمؤو إيريرب هيتين إتجوم إنتي تيفميثنأوتي: خين إبهوب إنتيكانا إنتي تيغاليلي ا.",
+      "Englishcoptic": "Vee-etaf-ethre pi-mo-oo ereerp hiten etgom ente tefmethnooti-: khen ephop enTikana ente Tighalile-a."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي أعطى النظر للعميان. وجعل العرج يمشون، والشل يصِّحون، والبُرص يطهرون، والصم يسمعون، والخرس يتكلمون، والشياطين يخرجون.",
+      "Coptic": "Vh`etaf; `m`vnau `mbol `nnibelleu> ouo\\ af`qre nisaleu mo]i> nijaseu `ntououjai> nikakce\\t `ntoutoubo> nikour `ntoucwtem> ni`ebwou `ntoucaji> nidemwn `ntou`i `ebol.",
+      "English": "who gave sight to the blind, made the lame to walk, the maimed whole, the lepers pure, the deaf to hear, the mute to speak, and the demons to depart;",
+      "Arabiccoptic": "فيإيتافتي إمإفناف إمفول إنني فيلليف: أووه افإثري نيتشاليف موشي: نيجاتشيف إنتأوأوجاي: نيكاكسيهت إنتأوتأوفو: نيكأور إنتأوسووتيم: نيإيف ؤو إنتأوساجي: نيزيموون إنتأو إي إيفول.",
+      "Englishcoptic": "Vee-etaf-ti emevnav emvol en-ni-vellev: owoh afethre ni-chalev moshi: ni-gachev en-to-ooogai: ni-kakseht en-tootoovo: ni-koor en-toosootem: ni-evo-oo en-toosaji: ni-zemoon en-too-ee evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي أقام إبن الأرملة بنايين، وإبنة يايروس.",
+      "Coptic": "Vh`etaftounoc `p]hri `nte ;xhra et =en Nain> nem `t]eri `nIairoc.",
+      "English": "who raised the son of the widow of Nain and the daughter of Jairus;",
+      "Arabiccoptic": "فيإيتافتأونوس إبشيري إنتي تيشيرا إيت خين ناين: نيم إتشيري إنإيايروس.",
+      "Englishcoptic": "Vee-etaf-toonos epsheeri en-te ti-sheera et khen- Nain: nem etsheri en-Iairos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي تجلى على جبل طابور قدام تلاميذه القديسين، وأضاء وجهه كالشمس.",
+      "Coptic": "Vh`etaf]obtf `ejen pitwou `nqabwr `mpe`mqo `nnef`agioc `mmaqhthc> ouo\\ `a pef\\o erouwini `m`vrh; `m`vrh.",
+      "English": "who was transfigured on Mount Tabor before His holy disciples, and His face shone like the sun;",
+      "Arabiccoptic": "فيإيتافشوبتف إيجين بيتؤو إنثافوور إمبي إمثو إنني ف اجيوس إمماثيتيس: أووه  ا بيفهو إيرأووويني إم إفريتي إمإفري.",
+      "Englishcoptic": "Vee-etaf-shobtf -ejen pi-to-oo enthavoor empeemtho ennefagios emmatheetees: owoh -a pefho ero-ooini emevreeti emevree."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي أقام لعازر من القبر بعد أربعة أيام.",
+      "Coptic": "Vh`etaftounoc Lazaroc `ebol =en pi`m\\au menenca `ftou (d̅) `n`e\\oou.",
+      "English": "who raised Lazarus from the tomb after four days;",
+      "Arabiccoptic": "فيإيتافتأونوس لازاروس إيفول خين بيإمهاف مينينسا إفتأو (ز̅) إنإيهوأو.",
+      "Englishcoptic": "Vee-etaf-toonos Lazaros evol khen pi-emhav menensa eftoo (z̅) en-eho-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي دخل أورشليم راكباً على أتان وجحش إبن أتان مثل ملك.",
+      "Coptic": "Vh`etaf]e `e=oun `eIeroucalhm eftalhout `eou`e`w nem ouchj `p]hri `nou`e`w `m`vrh; `nOuouro.",
+      "English": "who entered into Jerusalem, riding on a colt and the foal of a colt, as a King;",
+      "Arabiccoptic": "فيإيتافشي إيخأون إيإييرأوساليم إيف تاليأوت إيأوإي وو نيم أوسيج إبشيري إنأوإي وو إم إفريتي إنأوأورو.",
+      "Englishcoptic": "Vee-etaf-she -ekhoon -eIeroosaleem eftaleeoot -eoo-e-oo nem ooseej epsheeri en-oo-e-oo emevreeti en-Oo-ooro."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي عاهد تلاميذه القديسين، وأعطاهم جسده المقدس ودمه الكريم ، لغفران خطايانا.",
+      "Coptic": "Vh`etafcemni `noudiaqhkhnem nef`agioc `mmaqhthc ouo\\ afthitou `mPefcwma eqouab nem Pef`cnof ettaihout> `e`pxw `ebol `nte nennobi.",
+      "English": "who established a covenant with His holy disciples and gave them His holy Body and His precious Blood for the forgiveness of our sins;",
+      "Arabiccoptic": "فيإيتافسيمني إنأوزياثيكينيم نيف اجيوس إمماثيتيس أووه افتييتأو إمبي فسووما إيثؤاب نيم بيفإسنوف إيتتاييأوت: إيإبخوو إيفول إنتي نيننوفي.",
+      "Englishcoptic": "Vee-etaf-semni en-ooziatheekeen-em nefagios emmatheetees owoh afteeitoo emPefsooma ethowab nem Pefesnof ettaieeoot: -eepkhoo evol en-te nen-novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي صلب على الصليب، وسحق الشيطان، ووضع في القبر، وبعد ثلاثة أيام قام من الأموات.",
+      "Coptic": "Vh`etaua]f `ePi`ctauroc> af=om=em `m`Pcatanac> ouo\\ auxaf =en pi`m\\au> menenca ]omt (g̅) `n`e\\oou aftwnf `ebol =en nheqmwout.",
+      "English": "who was crucified on the Cross and trampled down Satan, and was placed in the tomb, and after three days He rose from the dead;",
+      "Arabiccoptic": "فيإيتافاشف إيبيإستافروس: افخومخيم إمإبساتاناس: أووه افخاف خين بيإمهاف: مينينسا شومت (غ̅) إنإيهوأو افتوونف إيفول خين نييثمؤوت.",
+      "Englishcoptic": "Vee-etavashf -ePiestavros: afkhomkhem emePsatanas: owoh avkhaf khen pi-emhav: menensa shomt (gh̅) en-eho-oo aftoonf evol khen nee-ethmo-oot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي رآه تلاميذه المختارون على بحر طبرية بعد قيامته المقدسة.",
+      "Coptic": "Vh`etaunau `erof `nje nefcwtp `mmaqhthc> \\ijen `viom `nte :beriadoc> menenca Tef`anactacic eqouab.",
+      "English": "whom His chosen disciples saw on the Sea of Tiberias after His holy Resurrection,",
+      "Arabiccoptic": "فيإيتافناف إيروف إنجي نيفسووتب إمماثيتيس: هيجين إفيوم إنتي تيفيريازوس: مينينسا تيف اناستاسيس إيثأواب.",
+      "Englishcoptic": "Vee-etavnav -erof en-je nefsootp emmatheetees: hijen- eviom en-te Tiveriazos: men-en-sa Tef-anastasis ethowab."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبعد أربعين يوماً صعد إلى السموات ، وجلس عن يمين أبيه الصالح، وأرسل لنا البارقليط المعزي مثل ألسنة نار.",
+      "Coptic": "Ouo\\ menenca `\\me (m̅) `n`e\\oou af]enaf `e`p]wi `enivhou`i> af\\emci caou`inam `mPefiwt `n`agaqoc> afouwrp nan `mPiparaklhton `m`vrh; `n\\anlac `n`xrwm.",
+      "English": "and after forty days He ascended into the heavens, and sat at the right hand of His good Father, and sent us the Paraclete in the likeness of tongues of fire;",
+      "Arabiccoptic": "أووه مينينسا إهمي (م̅) إنإيهوأو افشيناف إيإبشووي إينيفيأو إي: افهيمسي ساأو إينام إمبي فيووت إن اغاثوس: افأووورب نان إمبي باراكليتون إم إفريتي إنهانلاس إنإخرووم.",
+      "Englishcoptic": "Owoh men-en-sa ehme (m̅) en-eho-oo afshen-af -eepshooi -en-iveeoo-ee: afhemsi saoo-een-am emPefioot en-aghathos: afo-oorp nan emPiparakleeton emevreeti en-hanlas en-ek-hroom."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي علَّم خواصه التلاميذ ورسله القديسين قائلا لهم : \"متى صليتم فاطلبوا هكذا وقولوا: أبانا الذي في السموات ...\"",
+      "Coptic": "Vh`etaf;`cbw `nnefcwtp `mmaqhthc ouo\\ `n`apoctoloc eqouab efjw `mmoc> je `e]wp `areten]aner`proceuxecqe twb\\ `mpairh; ouo\\ `ajoc> je Peniwt ...",
+      "English": "who taught His chosen disciples and holy apostles, saying, \"Whenever you pray, entreat in this manner and say, `Our Father ....´\"",
+      "Arabiccoptic": "فيإيتافتيإسفوو إنني فسووتب إمماثيتيس أووه إن ابوستولوس إيثؤاب إيف جوو إمموس: جي إيشووب  اريتينشانيرإبروسيفشيستي تووبه إمبايريتي أووه  اجوس: جي بينيووت ...",
+      "Englishcoptic": "Vee-etaf-ti-esvoo en-nefsootp emmatheetees owoh en-apostolos ethowab efgoo emmos: je -eshoop -areten-shanereprosevsheste toobh empaireeti- owoh -agos: je Pen-ioot ..."
+    }
+  ]
+}

@@ -882,6 +882,8 @@ const JohnTheBaptistShow = (motherSource, path) => {
 };
 const getPlantsSeason = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  console.log(currentSeason);
+  console.log(path);
   if (path?.toLowerCase().includes(currentSeason.plantsSeason)) {
     return true;
   }

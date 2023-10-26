@@ -115,6 +115,14 @@
       "Englishcoptic": "Nem pen-ioot abva Iooannees pi-heeghoomen-os: nem pen-ioot abva Pishooi pi-ethmeei pi-roomi en-telios: pi-men-rit en-te Pen-sooteer en-aghathos."
     },
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وإذا أراد فيزيد أيضاً ما يأتي:",
+      "English": "If the priest chooses, he may add the following."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
