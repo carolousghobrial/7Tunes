@@ -69,21 +69,18 @@ function HomepageScreen({ navigation, route }) {
   const dispatch = useDispatch();
   function handleSearch(text) {
     setSearchPhrase(text);
-    // const filteredData = tempLang.filter(
-    //   (item) =>
-    //     item.titleKey.toLowerCase()?.includes(text.toLowerCase()) ||
-    //     item.titleKey?.includes(text)
-    // );
-    // setcurrentData(filteredData);
   }
   useEffect(() => {
+    setLive();
     onFetchUpdateAsync();
   }, [navigation]);
-
+  function setLive() {
+    dispatch(
+      setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
+    );
+  }
   const onFetchUpdateAsync = async () => {
     try {
-      const season = setCurrentSeasonLive(timeTransition);
-      dispatch(setSeason({ currentSeason: season }));
       const update = await Updates.checkForUpdateAsync();
 
       if (update.isAvailable) {

@@ -29,7 +29,7 @@ function TopBoxView() {
     SetCurrentSeason();
     SetDateTime();
     SetCopticDateTime();
-  });
+  }, []);
 
   function SetCurrentSeason() {
     switch (currentSeason.key) {

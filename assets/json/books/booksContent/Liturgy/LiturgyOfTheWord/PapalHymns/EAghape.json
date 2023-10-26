@@ -90,7 +90,7 @@
       "Coptic": "Ke tou `agioc ke makariou `edecimwtatou tou patroc `hmwn abba [*DIOCESE_BISHOP*] orqodo[ou `hmwn `epickopou thc polewc tauthc ke twn `oriwnauthc.",
       "English": "and our holy, blessed, most honorable father, Abba [*DIOCESE_BISHOP*], our orthodox metropolitain of this city and its surroundings.",
       "Arabiccoptic": "كي تو اجيو كي ماكاريو ايذيسيمو تاتو تو باطروس ايمون افا [*DIOCESE_BISHOP*] اورثوذوكسو ايمون ايم ميتروبولوتيس بوليئوس تافتيس كي تون اوريو نافتيس",
-      "Englishcoptic": "Ke tooo agios ke makariooo ezesimootatooo tooo patros eemon Avva [*DIOCESE_BISHOP*] orthozoxooo eemon em-metropolotees tees poleoos tavtees ke toon orioonavtees."
+      "Englishcoptic": "Ke tooo agios ke makariooo ezesimootatooo tooo patros eemon Avva [*DIOCESE_BISHOP*] orthozoxooo eemon em-metropolotees tees poleoos tavtees ke ton orioonavtees."
     },
     {
       "Type": "Base",
@@ -101,7 +101,7 @@
       "Coptic": "Ke tou `agioc ke makariou `edecimwtatou tou patroc `hmwn abba [*DIOCESE_BISHOP*] orqodo[ou `hmwn `mmhtropolo thc polewc tauthc ke twn `oriwnauthc.",
       "English": "and our holy, blessed, most honorable father, Abba [*DIOCESE_BISHOP*], our orthodox bishop of this city and its surroundings.",
       "Arabiccoptic": "كي تو اجيو كي ماكاريو ايذيسيمو تاتو تو باطروس ايمون افا [*DIOCESE_BISHOP*] اورثوذوكسو ايمون ايبيسكوبوتيس بوليئوس تافتيس كي تون اوريو نافتيس",
-      "Englishcoptic": "Ke tooo agios ke makariooo ezesimootatooo tooo patros eemon Avva [*DIOCESE_BISHOP*] orthozoxooo eemon emetro-polo tees poleoos tavtees ke toon orioonavtees."
+      "Englishcoptic": "Ke tooo agios ke makariooo ezesimootatooo tooo patros eemon Avva [*DIOCESE_BISHOP*] orthozoxooo eemon emetro-polo tees poleoos tavtees ke ton orioonavtees."
     },
     {
       "Type": "Base",
