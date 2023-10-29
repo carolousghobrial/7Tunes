@@ -23,6 +23,8 @@ import {
   BottomSheetScrollView,
   BottomSheet,
 } from "@gorhom/bottom-sheet";
+import { setSeason } from "../stores/redux/settings.js";
+
 import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper";
 
 import BishopPresentView from "./BishopPresentView.js";
@@ -71,6 +73,7 @@ function HomepageScreen({ navigation, route }) {
     setSearchPhrase(text);
   }
   useEffect(() => {
+    setLive();
     onFetchUpdateAsync();
   }, [navigation]);
   function setLive() {
