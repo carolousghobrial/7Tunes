@@ -108,7 +108,6 @@ export function getFullViewModel(motherSource, mother) {
 }
 
 export function getMain(Path, motherSource, inHymn, rule, key) {
-  console.log(Path);
   const thisRule = rule;
   const myMenuArray = [];
   const myViewArray = [];

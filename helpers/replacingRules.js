@@ -25,7 +25,7 @@ export const ComeRisenRule = () => {
       0
     )
   );
-  var today = currentSeason.day;
+  var today = currentSeason.dayOfWeek;
   var Kiahk = fastsFeasts.find((element) => element.key === "NATIVITY_FAST");
   var Resurrection = fastsFeasts.find(
     (element) => element.key === "RESURRECTION"
