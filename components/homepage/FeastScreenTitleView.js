@@ -5,6 +5,7 @@ import {
   Pressable,
   ImageBackground,
   useWindowDimensions,
+  Platform,
 } from "react-native";
 import { getLanguageValue } from "../../helpers/SettingsHelpers";
 import { useSelector, useDispatch } from "react-redux";
@@ -17,15 +18,32 @@ import { setSeason } from "../../stores/redux/settings.js";
 function FeastScreenTitleView({ liveClicked, yearClick, changeDate }) {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const dispatch = useDispatch();
-
+  const isAndroid = Platform.OS === "ios" ? false : true;
+  const [showPicker, setShowPicker] = useState(false);
   const navigation = useNavigation();
   const timeTransition = useSelector((state) => state.settings.timeTransition);
-  const [date, setDate] = useState(new Date());
+  const [date, setDate] = useState(
+    new Date(
+      currentSeason.gregorianYear,
+      currentSeason.gregorianMonth,
+      currentSeason.gregorianDayOfMonth,
+      0,
+      0,
+      0,
+      0
+    )
+  );
 
   const { width, height } = useWindowDimensions();
 
   let textFlexDirection = "row";
+  const showTimeTimePicker = () => {
+    setShowPicker(true);
+  };
 
+  const hideTimeTimePicker = () => {
+    setShowPicker(false);
+  };
   if (width < height) {
     // Portrait mode
     textFlexDirection = "column";
@@ -48,6 +66,7 @@ function FeastScreenTitleView({ liveClicked, yearClick, changeDate }) {
   const handleTimeChange = (event, selectedTime) => {
     const currentDate = selectedTime || date;
     if (date != currentDate) {
+      setShowPicker(Platform.OS === "ios");
       const curSeason = getCurrentSeasonByDate(currentDate, timeTransition);
       dispatch(
         setSeason({
@@ -70,17 +89,34 @@ function FeastScreenTitleView({ liveClicked, yearClick, changeDate }) {
             {getLanguageValue("setCurrentDate")}
           </Text>
         </Pressable>
-        <Pressable style={styles.titleView} onPress={changeDate}>
-          <DateTimePicker
-            value={date}
-            mode="date"
-            style={styles.changeDate}
-            is24Hour={false}
-            display="default"
-            minuteInterval={30}
-            onChange={handleTimeChange}
-          />
-        </Pressable>
+        <View style={styles.titleView}>
+          {isAndroid ? (
+            <View>
+              <Button onPress={showTimeTimePicker} title="Change Date" />
+              {showPicker && (
+                <DateTimePicker
+                  value={date}
+                  mode="date"
+                  style={styles.changeDate}
+                  is24Hour={false}
+                  display="default"
+                  minuteInterval={30}
+                  onChange={handleTimeChange}
+                />
+              )}
+            </View>
+          ) : (
+            <DateTimePicker
+              value={date}
+              mode="date"
+              style={styles.changeDate}
+              is24Hour={false}
+              display="default"
+              minuteInterval={30}
+              onChange={handleTimeChange}
+            />
+          )}
+        </View>
         <Pressable style={styles.titleView} onPress={yearClick}>
           <Text style={styles.YearFont}> {getLanguageValue("setYear")}</Text>
         </Pressable>
@@ -118,9 +154,12 @@ const styles = StyleSheet.create({
     fontSize: 30,
   },
   changeDate: {
-    flex: 1,
     justifyContent: "center",
     textAlign: "center",
+    flex: 1,
+    alignContent: "center",
+    width: "100%",
+    height: "100%",
   },
   YearFont: {
     fontFamily: "englishtitle-font",
