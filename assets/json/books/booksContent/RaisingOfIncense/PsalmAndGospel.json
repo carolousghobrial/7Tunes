@@ -40,7 +40,7 @@
             "Type": "Base",
             "Rule": 0,
             "Visible": true,
-            "Side": "North",
+            "Side": "GetGospelReadingAuthorCoptic",
             "Arabic": "مبارك الآتي بإسم رب القوات. يا رب بارك الفصل من الإنجيل المقدس من القديس (...).",
             "Coptic": "`F`cmarwout `nje vheqnhou =en `vran `m`Psoic `nte nijom. Kurie euloghcon ek tou kata (...) `agiou euaggelion to `anagnwcma.",
             "English": "Blessed is He who comes in the name of the Lord of powers. Bless, O Lord, the reading of the Holy Gospel according to Saint Matthew.",
@@ -80,10 +80,11 @@
         {
             "Type": "Melody",
             "Rule": 0,
+            "mother": "VespersGospel",
             "Visible": true,
             "Side": "North",
-            "Arabic": "قفوا بخوف الله لسماع الإنجيل المقدس، فصل من الإنجيل لمعلمنا مار (...) البشير، بركته على جميعنا.",
-            "English": "Stand up in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to Saint (...), may his blessings, be with us all. (Amen.)"
+            "Arabic": "قفوا بخوف الله لسماع الإنجيل المقدس، فصل من الإنجيل لمعلمنا مار [*STANDARD_GOSPEL_AUTHOR*] البشير، بركته على جميعنا.",
+            "English": "Stand up in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to Saint [*STANDARD_GOSPEL_AUTHOR*], may his blessings, be with us all. (Amen.)"
         },
         {
             "Type": "Base",
@@ -154,12 +155,10 @@
             "English": "From the psalms of our father David the prophet, may his blessings be with us all. (Amen)"
         },
         {
-            "Type": "Ritual",
+            "Type": "GetDaysReading",
+            "Path": "VespersPsalm",
             "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "(يقال المزمور)",
-            "English": "(The psalm is said)"
+            "Visible": true
         },
         {
             "Type": "Melody",
@@ -194,12 +193,10 @@
             "English": "Blessed is He who comes in the name of the Lord. Our Lord, God, Savior, and King of us all, Jesus Christ, the Son of the living God, to whom is the glory forever and ever. Amen."
         },
         {
-            "Type": "Ritual",
+            "Type": "GetDaysReading",
+            "Path": "VespersGospel",
             "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "(يقال الإنجيل)",
-            "English": "(The Gospel is said)"
+            "Visible": true
         },
         {
             "Type": "Melody",

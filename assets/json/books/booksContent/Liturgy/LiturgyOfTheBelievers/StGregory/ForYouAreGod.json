@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنكَ أنتَ هو اللهُ الرحومُ الذي لا يشاءُ موتَ الخاطئ مثل ما يرجعُ ويحيا.",
+      "Coptic": "Ⲛ̀ⲑⲟⲕ ⲅⲁⲣ ⲡⲉ Ⲫ̀ⲛⲟⲩϯ Ⲡⲓⲛⲁⲏⲧ: ⲫⲏⲉⲑⲟⲩⲱϣ ⲙ̀ⲫ̀ⲙⲟⲩ ⲁⲛ ⲙ̀ⲡⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲧⲉϥⲕⲟⲧϥ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥⲱⲛϧ.",
+      "English": "For You are God the Merciful, who desire not the death of a sinner, but rather that he returns and lives.",
+      "Arabiccoptic": "Ⲛ̀ⲑⲟⲕ ⲅⲁⲣ ⲡⲉ Ⲫ̀ⲛⲟⲩϯ Ⲡⲓⲛⲁⲏⲧتي ⲫⲏⲉⲑⲟⲩⲱϣ ⲙ̀ⲫ̀ⲙⲟⲩ ⲁⲛ ⲙ̀ⲡⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲧⲉϥⲕⲟⲧϥ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥⲱⲛϧ.",
+      "Englishcoptic": "Ⲛ̀ⲑⲟⲕ ⲅⲁⲣ ⲡⲉ Ⲫ̀ⲛⲟⲩϯ ⲠⲓⲛⲁⲏⲧTi ⲫⲏⲉⲑⲟⲩⲱϣ ⲙ̀ⲫ̀ⲙⲟⲩ ⲁⲛ ⲙ̀ⲡⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲧⲉϥⲕⲟⲧϥ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥⲱⲛϧ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رُدَّنا يا اللهُ إلى خلاصِكَ، واصنع معنا كصلاحِكَ، يا مَنْ يصنعُ أكثرَ مما نسألُ أو نفهم.",
+      "Coptic": "Ⲙⲁⲧⲁⲥⲑⲟⲛ Ⲫ̀ⲛⲟⲩϯ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲉⲕⲟⲩϫⲁⲓ: ⲁ̀ⲣⲓⲟⲩⲓ̀ ⲛⲉⲙⲁⲛ ⲕⲁⲧⲁ ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ: ⲫⲏⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲓϩⲟⲩⲟ̀ ⲉ̀ⲛⲏⲉ̀ⲧⲉⲛⲉ̀ⲣⲉⲧⲓⲛ ⲙ̀ⲙⲱⲟⲩ: ⲓⲉ ⲛⲏⲉ̀ⲧⲉⲛⲕⲁϯ ⲉ̀ⲣⲱⲟⲩ.",
+      "English": "Restore us, O God, to Your salvation. Deal with us according to Your goodness, O You who do more than we ask or understand.",
+      "Arabiccoptic": "Ⲙⲁⲧⲁⲥⲑⲟⲛ Ⲫ̀ⲛⲟⲩϯ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲉⲕⲟⲩϫⲁⲓتي ⲁ̀ⲣⲓⲟⲩⲓ̀ ⲛⲉⲙⲁⲛ ⲕⲁⲧⲁ ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥتي ⲫⲏⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲓϩⲟⲩⲟ̀ ⲉ̀ⲛⲏⲉ̀ⲧⲉⲛⲉ̀ⲣⲉⲧⲓⲛ ⲙ̀ⲙⲱⲟⲩتي ⲓⲉ ⲛⲏⲉ̀ⲧⲉⲛⲕⲁϯ ⲉ̀ⲣⲱⲟⲩ.",
+      "Englishcoptic": "Ⲙⲁⲧⲁⲥⲑⲟⲛ Ⲫ̀ⲛⲟⲩϯ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲉⲕⲟⲩϫⲁⲓTi ⲁ̀ⲣⲓⲟⲩⲓ̀ ⲛⲉⲙⲁⲛ ⲕⲁⲧⲁ ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥTi ⲫⲏⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲓϩⲟⲩⲟ̀ ⲉ̀ⲛⲏⲉ̀ⲧⲉⲛⲉ̀ⲣⲉⲧⲓⲛ ⲙ̀ⲙⲱⲟⲩTi ⲓⲉ ⲛⲏⲉ̀ⲧⲉⲛⲕⲁϯ ⲉ̀ⲣⲱⲟⲩ."
+    }
+  ]
+}

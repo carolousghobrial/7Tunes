@@ -415,7 +415,7 @@
             "Type": "Main",
             "Path": "DoxologiesConclusionPartOnAdamDays",
             "Rule": 0,
-            "Visible": "isPraises"
+            "Visible": "AdamConclusionDoxologies"
         },
         {
             "Type": "Main",

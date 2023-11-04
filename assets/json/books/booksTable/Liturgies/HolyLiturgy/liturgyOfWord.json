@@ -61,12 +61,10 @@
             "Visible": true
         },
         {
-            "Type": "Ritual",
+            "Type": "GetDaysReading",
+            "Path": "LiturgyPauline",
             "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "تقرأ قراءات اليوم :",
-            "English": "The reading of the day is read "
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -75,10 +73,12 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordApetjeekEvol",
-            "Rule": 0,
-            "Visible": true
+            "Type": "Button",
+            "Arabic": "طوبه هينا الكبيرة",
+            "English": "Tobh Hina (Great)",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordApetjeekEvol"
         },
         {
             "Type": "Main",
@@ -101,12 +101,10 @@
             "Visible": true
         },
         {
-            "Type": "Ritual",
+            "Type": "GetDaysReading",
+            "Path": "LiturgyCatholic",
             "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "تقرأ قراءات اليوم :",
-            "English": "The reading of the day is read "
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -135,12 +133,10 @@
             "Visible": true
         },
         {
-            "Type": "Ritual",
+            "Type": "GetDaysReading",
+            "Path": "LiturgyActs",
             "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "تقرأ قراءات اليوم :",
-            "English": "The reading of the day is read "
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -344,7 +340,7 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncensePsalmAndGospel",
+            "Path": "LiturgyLiturgyOfTheWordPsalmAndGospel",
             "Rule": 0,
             "Visible": true
         },

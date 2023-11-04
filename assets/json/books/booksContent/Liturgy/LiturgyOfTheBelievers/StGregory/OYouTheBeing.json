@@ -1,0 +1,250 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنتَ الكائنُ في كلِّ زَمانٍ، أتيتَ إلينا على الأرضِ، أتيتَ إلى بطنِ العذراءِ.",
+      "Coptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲫⲏⲉⲧϣⲟⲡ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ: ⲁⲕⲓ̀ ⲛⲁⲛ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ: ⲁⲕⲓ̀ ⲉ̀ⲑ̀ⲙⲏⲧⲣⲁ ⲛ̀Ϯⲡⲁⲣⲑⲉⲛⲟⲥ.",
+      "English": "O YOU THE BEING at all times, have come to us on earth. You have come into the womb of the Virgin.",
+      "Arabiccoptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲫⲏⲉⲧϣⲟⲡ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛتي ⲁⲕⲓ̀ ⲛⲁⲛ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓتي ⲁⲕⲓ̀ ⲉ̀ⲑ̀ⲙⲏⲧⲣⲁ ⲛ̀Ϯⲡⲁⲣⲑⲉⲛⲟⲥ.",
+      "Englishcoptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲫⲏⲉⲧϣⲟⲡ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛTi ⲁⲕⲓ̀ ⲛⲁⲛ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓTi ⲁⲕⲓ̀ ⲉ̀ⲑ̀ⲙⲏⲧⲣⲁ ⲛ̀Ϯⲡⲁⲣⲑⲉⲛⲟⲥ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الغيرُ المُحوَى، إذ أنتَ الإلهُ لم تُضْمِرْ إختطافاً أن تكونَ مُساوِياً للهِ.",
+      "Coptic": "Ⲡⲓⲁⲧϣⲟⲡϥ ⲉⲕⲟⲓ ⲛ̀Ⲛⲟⲩϯ: ⲛ̀ⲟⲩϩⲱⲗⲉⲙ ⲁⲛ ⲡⲉ ⲉ̀ⲧⲁⲕⲙⲉⲩⲓ ⲉ̀ⲣⲟϥ: ⲉⲑⲣⲉⲕϣⲱⲡⲓ ⲛ̀ϩⲩⲥⲟⲥ ⲛⲉⲙ Ⲫ̀ⲛⲟⲩϯ.",
+      "English": "You, the Infinite, being God, did not consider equality with God a thing to be grasped.",
+      "Arabiccoptic": "Ⲡⲓⲁⲧϣⲟⲡϥ ⲉⲕⲟⲓ ⲛ̀Ⲛⲟⲩϯتي ⲛ̀ⲟⲩϩⲱⲗⲉⲙ ⲁⲛ ⲡⲉ ⲉ̀ⲧⲁⲕⲙⲉⲩⲓ ⲉ̀ⲣⲟϥتي ⲉⲑⲣⲉⲕϣⲱⲡⲓ ⲛ̀ϩⲩⲥⲟⲥ ⲛⲉⲙ Ⲫ̀ⲛⲟⲩϯ.",
+      "Englishcoptic": "Ⲡⲓⲁⲧϣⲟⲡϥ ⲉⲕⲟⲓ ⲛ̀ⲚⲟⲩϯTi ⲛ̀ⲟⲩϩⲱⲗⲉⲙ ⲁⲛ ⲡⲉ ⲉ̀ⲧⲁⲕⲙⲉⲩⲓ ⲉ̀ⲣⲟϥTi ⲉⲑⲣⲉⲕϣⲱⲡⲓ ⲛ̀ϩⲩⲥⲟⲥ ⲛⲉⲙ Ⲫ̀ⲛⲟⲩϯ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكن وَضَعْتَ ذاتَكَ.",
+      "Coptic": "Ⲁⲗⲗⲁ ⲁⲕϣⲟⲩⲱⲕ ⲉ̀ⲃⲟⲗ ⲙ̀ⲙⲓⲛ ⲙ̀ⲙⲟⲕ.",
+      "English": "But emptied Yourself,",
+      "Arabiccoptic": "Ⲁⲗⲗⲁ ⲁⲕϣⲟⲩⲱⲕ ⲉ̀ⲃⲟⲗ ⲙ̀ⲙⲓⲛ ⲙ̀ⲙⲟⲕ.",
+      "Englishcoptic": "Ⲁⲗⲗⲁ ⲁⲕϣⲟⲩⲱⲕ ⲉ̀ⲃⲟⲗ ⲙ̀ⲙⲓⲛ ⲙ̀ⲙⲟⲕ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأخذتَ شَكلَ العبدِ.",
+      "Coptic": "Ⲁⲕϭⲓ ⲛ̀ⲟⲩⲙⲟⲣⲫⲏ ⲙ̀ⲃⲱⲕ.",
+      "English": "and took the form of a servant,",
+      "Arabiccoptic": "Ⲁⲕϭⲓ ⲛ̀ⲟⲩⲙⲟⲣⲫⲏ ⲙ̀ⲃⲱⲕ.",
+      "Englishcoptic": "Ⲁⲕϭⲓ ⲛ̀ⲟⲩⲙⲟⲣⲫⲏ ⲙ̀ⲃⲱⲕ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وباركتَ طَبيعَتي فيكَ.",
+      "Coptic": "Ⲁⲕⲥ̀ⲙⲟⲩ ⲉ̀ⲧⲁⲫⲩⲥⲓⲥ ⲛ̀ϧⲏⲧⲕ.",
+      "English": "and blessed my nature in Yourself,",
+      "Arabiccoptic": "Ⲁⲕⲥ̀ⲙⲟⲩ ⲉ̀ⲧⲁⲫⲩⲥⲓⲥ ⲛ̀ϧⲏⲧⲕ.",
+      "Englishcoptic": "Ⲁⲕⲥ̀ⲙⲟⲩ ⲉ̀ⲧⲁⲫⲩⲥⲓⲥ ⲛ̀ϧⲏⲧⲕ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأكملتَ ناموسَكَ عنِّي.",
+      "Coptic": "Ⲁⲕϫⲉⲕ ⲡⲉⲕⲛⲟⲙⲟⲥ ⲉ̀ⲃⲟⲗ ϧⲁⲣⲟⲓ.",
+      "English": "and fulfilled your Law on my behalf.",
+      "Arabiccoptic": "Ⲁⲕϫⲉⲕ ⲡⲉⲕⲛⲟⲙⲟⲥ ⲉ̀ⲃⲟⲗ ϧⲁⲣⲟⲓ.",
+      "Englishcoptic": "Ⲁⲕϫⲉⲕ ⲡⲉⲕⲛⲟⲙⲟⲥ ⲉ̀ⲃⲟⲗ ϧⲁⲣⲟⲓ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وعرَّفتني القيامَ من سقطتي.",
+      "Coptic": "Ⲁⲕⲧⲁⲙⲟⲓ ⲉ̀ⲡ̀ϫⲓⲛⲧⲱⲟⲩⲛ ⲛ̀ⲧⲉ ⲡⲁϩⲉⲓ.",
+      "English": "You have shown me the rising up from my fall.",
+      "Arabiccoptic": "Ⲁⲕⲧⲁⲙⲟⲓ ⲉ̀ⲡ̀ϫⲓⲛⲧⲱⲟⲩⲛ ⲛ̀ⲧⲉ ⲡⲁϩⲉⲓ.",
+      "Englishcoptic": "Ⲁⲕⲧⲁⲙⲟⲓ ⲉ̀ⲡ̀ϫⲓⲛⲧⲱⲟⲩⲛ ⲛ̀ⲧⲉ ⲡⲁϩⲉⲓ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعطيتَ إطلاقاً لِمَنْ قُبِضَ عليهِم في الجحيمِ.",
+      "Coptic": "Ⲁⲕϯ ⲙ̀ⲡ̀ⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲏⲉ̀ⲧⲟⲩⲁ̀ⲙⲁϩⲓ ⲉ̀ϫⲱⲟⲩ ϩⲓⲧⲉⲛ Ⲁ̀ⲙⲉⲛϯ.",
+      "English": "You have given release to those who were bound in Hades.",
+      "Arabiccoptic": "Ⲁⲕϯ ⲙ̀ⲡ̀ⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲏⲉ̀ⲧⲟⲩⲁ̀ⲙⲁϩⲓ ⲉ̀ϫⲱⲟⲩ ϩⲓⲧⲉⲛ Ⲁ̀ⲙⲉⲛϯ.",
+      "Englishcoptic": "Ⲁⲕϯ ⲙ̀ⲡ̀ⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲏⲉ̀ⲧⲟⲩⲁ̀ⲙⲁϩⲓ ⲉ̀ϫⲱⲟⲩ ϩⲓⲧⲉⲛ Ⲁ̀ⲙⲉⲛϯ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أزلتَ لَعنةَ الناموسِ.",
+      "Coptic": "Ⲁⲕϩⲓⲟⲩⲓ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡ̀ⲥⲁϩⲟⲩⲓ ⲛ̀ⲧⲉ ⲡⲓⲛⲟⲙⲟⲥ",
+      "English": "You have lifted the curse of the Law.",
+      "Arabiccoptic": "Ⲁⲕϩⲓⲟⲩⲓ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡ̀ⲥⲁϩⲟⲩⲓ ⲛ̀ⲧⲉ ⲡⲓⲛⲟⲙⲟⲥ",
+      "Englishcoptic": "Ⲁⲕϩⲓⲟⲩⲓ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡ̀ⲥⲁϩⲟⲩⲓ ⲛ̀ⲧⲉ ⲡⲓⲛⲟⲙⲟⲥ"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أبطلتَ الخطيةَ بالجسدِ.",
+      "Coptic": "Ⲁⲕⲕⲱⲣϥ ⲙ̀ⲫ̀ⲛⲟⲃⲓ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ.",
+      "English": "You have abolished sin in the flesh.",
+      "Arabiccoptic": "Ⲁⲕⲕⲱⲣϥ ⲙ̀ⲫ̀ⲛⲟⲃⲓ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ.",
+      "Englishcoptic": "Ⲁⲕⲕⲱⲣϥ ⲙ̀ⲫ̀ⲛⲟⲃⲓ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عَرَّفتني قوةَ سُلطانِكَ.",
+      "Coptic": "Ⲁⲕⲧⲁⲙⲟⲓ ⲉ̀ⲧ̀ϫⲟⲙ ⲛ̀ⲧⲉ ⲧⲉⲕⲉⲝⲟⲩⲥⲓⲁ.",
+      "English": "You have shown me the power of Your authority.",
+      "Arabiccoptic": "Ⲁⲕⲧⲁⲙⲟⲓ ⲉ̀ⲧ̀ϫⲟⲙ ⲛ̀ⲧⲉ ⲧⲉⲕⲉⲝⲟⲩⲥⲓⲁ.",
+      "Englishcoptic": "Ⲁⲕⲧⲁⲙⲟⲓ ⲉ̀ⲧ̀ϫⲟⲙ ⲛ̀ⲧⲉ ⲧⲉⲕⲉⲝⲟⲩⲥⲓⲁ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَهبتَ النظرَ للعميانِ.",
+      "Coptic": "Ⲁⲕϯ ⲙ̀ⲫ̀ⲛⲁⲩ ⲙ̀ⲃⲟⲗ ⲛ̀ⲛⲓⲃⲉⲗⲗⲉⲩ.",
+      "English": "You have given sight to the blind.",
+      "Arabiccoptic": "Ⲁⲕϯ ⲙ̀ⲫ̀ⲛⲁⲩ ⲙ̀ⲃⲟⲗ ⲛ̀ⲛⲓⲃⲉⲗⲗⲉⲩ.",
+      "Englishcoptic": "Ⲁⲕϯ ⲙ̀ⲫ̀ⲛⲁⲩ ⲙ̀ⲃⲟⲗ ⲛ̀ⲛⲓⲃⲉⲗⲗⲉⲩ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَقمتَ الموْتى من القبورِ.",
+      "Coptic": "Ⲁⲕⲧⲟⲩⲛⲟⲥ ⲛⲓⲣⲉϥⲙⲱⲟⲩⲧ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲙ̀ϩⲁⲩ.",
+      "English": "You have raised the dead from the tombs.",
+      "Arabiccoptic": "Ⲁⲕⲧⲟⲩⲛⲟⲥ ⲛⲓⲣⲉϥⲙⲱⲟⲩⲧ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲙ̀ϩⲁⲩ.",
+      "Englishcoptic": "Ⲁⲕⲧⲟⲩⲛⲟⲥ ⲛⲓⲣⲉϥⲙⲱⲟⲩⲧ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲙ̀ϩⲁⲩ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أقمتَ الطبيعةَ بالكلمةِ.",
+      "Coptic": "Ⲁⲕⲧⲁϩⲟ ⲛ̀ϯⲫⲩⲥⲓⲥ ⲉ̀ⲣⲁⲧⲥ ϧⲉⲛ ⲡ̀ⲥⲁϫⲓ.",
+      "English": "You have established nature by the word.",
+      "Arabiccoptic": "Ⲁⲕⲧⲁϩⲟ ⲛ̀ϯⲫⲩⲥⲓⲥ ⲉ̀ⲣⲁⲧⲥ ϧⲉⲛ ⲡ̀ⲥⲁϫⲓ.",
+      "Englishcoptic": "Ⲁⲕⲧⲁϩⲟ ⲛ̀ϯⲫⲩⲥⲓⲥ ⲉ̀ⲣⲁⲧⲥ ϧⲉⲛ ⲡ̀ⲥⲁϫⲓ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَظهرتَ ليَ تدبيرَ تَعطُّفِكَ.",
+      "Coptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ϯⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲧϣⲁⲛⲑ̀ⲙⲁϧⲧ.",
+      "English": "You have manifested to me the economy of your tender mercy.",
+      "Arabiccoptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ϯⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲧϣⲁⲛⲑ̀ⲙⲁϧⲧ.",
+      "Englishcoptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ϯⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲧϣⲁⲛⲑ̀ⲙⲁϧⲧ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إحتملتَ ظُلْمَ الأشرارِ.",
+      "Coptic": "Ⲁⲕϥⲁⲓ ϧⲁ ⲡ̀ϭⲓⲛ̀ϫⲟⲛⲥ ⲛ̀ⲧⲉ ⲛⲓⲡⲟⲛⲏⲣⲟⲥ.",
+      "English": "You have borne the oppression of the wicked.",
+      "Arabiccoptic": "Ⲁⲕϥⲁⲓ ϧⲁ ⲡ̀ϭⲓⲛ̀ϫⲟⲛⲥ ⲛ̀ⲧⲉ ⲛⲓⲡⲟⲛⲏⲣⲟⲥ.",
+      "Englishcoptic": "Ⲁⲕϥⲁⲓ ϧⲁ ⲡ̀ϭⲓⲛ̀ϫⲟⲛⲥ ⲛ̀ⲧⲉ ⲛⲓⲡⲟⲛⲏⲣⲟⲥ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بَذَلتَ ظَهرَكَ للسِياطِ.",
+      "Coptic": "Ⲁⲕϯ ⲛ̀ⲧⲉⲕϭⲓⲥⲓ ⲉ̀ϩⲁⲛⲙⲁⲥⲧⲓⲅⲅⲟⲥ.",
+      "English": "You have given Your back to the scourge.",
+      "Arabiccoptic": "Ⲁⲕϯ ⲛ̀ⲧⲉⲕϭⲓⲥⲓ ⲉ̀ϩⲁⲛⲙⲁⲥⲧⲓⲅⲅⲟⲥ.",
+      "Englishcoptic": "Ⲁⲕϯ ⲛ̀ⲧⲉⲕϭⲓⲥⲓ ⲉ̀ϩⲁⲛⲙⲁⲥⲧⲓⲅⲅⲟⲥ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وخَدَّيكَ أهمَلْتَهُما لِلَّطمِ.",
+      "Coptic": "Ⲛⲉⲕⲟⲩⲟ̀ϫⲓ ⲁⲕⲭⲁⲩ ⲉ̀ϩⲁⲛϣⲉⲛⲕⲟⲩⲣ.",
+      "English": "Your cheeks You have left open to those who smite.",
+      "Arabiccoptic": "Ⲛⲉⲕⲟⲩⲟ̀ϫⲓ ⲁⲕⲭⲁⲩ ⲉ̀ϩⲁⲛϣⲉⲛⲕⲟⲩⲣ.",
+      "Englishcoptic": "Ⲛⲉⲕⲟⲩⲟ̀ϫⲓ ⲁⲕⲭⲁⲩ ⲉ̀ϩⲁⲛϣⲉⲛⲕⲟⲩⲣ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأجلي يا سيدي، لم تَردَّ وجهَكَ عن خِزيِ البصاقِ.",
+      "Coptic": "Ⲉⲑⲃⲏⲧ Ⲡⲁⲛⲏⲃ ⲙ̀ⲡⲉⲕⲧⲁⲥⲑⲟ ⲙ̀ⲡⲉⲕϩⲟ ⲉ̀ⲃⲟⲗ ϩⲁ ⲡ̀ϣⲓⲡⲓ ⲛ̀ⲧⲉ ϩⲁⲛⲑⲁϥ.",
+      "English": "For my sake, O my Master, You have not hidden Your face from the shame of spitting.",
+      "Arabiccoptic": "Ⲉⲑⲃⲏⲧ Ⲡⲁⲛⲏⲃ ⲙ̀ⲡⲉⲕⲧⲁⲥⲑⲟ ⲙ̀ⲡⲉⲕϩⲟ ⲉ̀ⲃⲟⲗ ϩⲁ ⲡ̀ϣⲓⲡⲓ ⲛ̀ⲧⲉ ϩⲁⲛⲑⲁϥ.",
+      "Englishcoptic": "Ⲉⲑⲃⲏⲧ Ⲡⲁⲛⲏⲃ ⲙ̀ⲡⲉⲕⲧⲁⲥⲑⲟ ⲙ̀ⲡⲉⲕϩⲟ ⲉ̀ⲃⲟⲗ ϩⲁ ⲡ̀ϣⲓⲡⲓ ⲛ̀ⲧⲉ ϩⲁⲛⲑⲁϥ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+    }
+  ]
+}

@@ -14,10 +14,11 @@
     {
       "Type": "Melody",
       "Rule": 0,
+      "mother": "LiturgyCatholic",
       "Visible": true,
       "Side": "North",
-      "Arabic": "الكاثوليكون من رسالة ابينا (...)،بركتة تكون معنا امين",
-      "English": "The catholic [epistle] from the epistle of our father (...),may his holy blessings be with us all Amen."
+      "Arabic": "الكاثوليكون من رسالة معلمنا [*CATHOLIC_AUTHOR*]،بركتة تكون معنا امين",
+      "English": "The catholic epistle from the [*CATHOLIC_AUTHOR*] ,may his holy blessings be with us all Amen."
     }
   ]
 }

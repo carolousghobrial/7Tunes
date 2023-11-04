@@ -23,7 +23,7 @@
       "Arabic": "ففيما نحن أيضاً نصنع ذكر آلامه المقدسة، وقيامته من الأموات، وصُعوده إلى السموات، وجلوسه عن يمينك أيها الآب.",
       "Coptic": "En`iri oun \\wn `m`vmeui `nnef=ici eqouab> nem Pefjintwnf `ebol =en nheqmwout> nem Pefjin]e `e`p]wi `enivhou`i> nem Pefjin\\emci catekou`inam `Viwt.",
       "English": "Therefore, as we also commemorate His holy Passion, His Resurrection from the dead, His Ascension into the heavens, His Sitting at Your right hand, O Father,",
-      "Arabiccoptic": "إنئيري اون هون إم إفميقئي إن نيف خيسي إثؤواب نيم نيف جين طنف ايفول خين ني إثموؤوت نيم بيف جين شي إي إبشوى إي نيفيئوي نيم بيف جين هيمسي ساتيك أؤي نام إفيوت ",
+      "Arabiccoptic": "إن إيري أون هون إم إفميفئي إن نيف خيسي إثؤواب, نيم بيف جين طونف إيفول خين ني إثموؤوت, نيم بيف جين شي إي إبشوى إي نيفيئوي, نيم بيف جين هيمسي ساتيك أوى نام إفيوت,",
       "Englishcoptic": "En-eeri oon hoon emevmevi en-nefkhisi ethowab: nem Pefjintoonf evol khen- nee-ethmo-oot: nem Pefjinshe eepshooi en-iveeoo-ee: nem Pefjinhemsi satekoo-een-am Eviot."
     },
     {
@@ -34,7 +34,7 @@
       "Arabic": "وظهوره الثاني الآتي من السموات، المخوف المملوء مجداً.",
       "Coptic": "Nem tefma\\`cnou; `mparoucia> eqnhou `ebol =en nivhou`i> etoi `n\\o; ouo\\ eqme\\ `n`wou.",
       "English": "and His Second Coming from the heavens, awesome and full of glory,",
-      "Arabiccoptic": "نيم نيف ماه إسنوتي إمباروسيا إثنيو ايفول خين نيفيئوي إتئوي إنهوتي اووه إثميه إن أوأو  .",
+      "Arabiccoptic": "نيم تيف ماه إسنوتي إمباروسيا إثنيو إيفول خين نيفيئوي, إت أوي إن هوتي أووه إثميه إن أوأو.",
       "Englishcoptic": "Nem tefmahesnooti emparoosia: ethneeoo evol khen ni-fi-owi: etoi enhoti owoh ethmeh en-o-oo."
     },
     {
@@ -45,7 +45,7 @@
       "Arabic": "نقرِّب لك قرابينك من الذي لك، على كل حال، ومن أجل كل حال وفي كل حال.",
       "Coptic": "Tener`procverin nak `nnh`ete nouk `ndwron `ebol =en nh`ete nouk> kata \\wb niben> nem eqbe \\wb niben> nem =en \\wb niben.",
       "English": "we offer unto You Your gifts from what is Yours, for everything, concerning everything, and in everything.",
-      "Arabiccoptic": "  تين إير إبروس فيرين ناك إن نيئيتينوك إنذورون ايفول خين نييئينوك كاطا هوب نيقين نيم إتقي هوب نيقين نيم خين هوب نيقين .",
+      "Arabiccoptic": "تين إير إبروس فيرين ناك إن ني إيتي نوك إنذورون إيفول خين ني إيتي نوك,  كاطا هوب نيفين نيم إثفي هوب نيفين نيم خين هوب نيفين.",
       "Englishcoptic": "Ten-ereprosverin nak en-nee-ete nook en-zooron evol khen- nee-ete nook: kata hoov ni-ven-: nem ethve hoov ni-ven-: nem khen- hoov ni-ven-."
     },
     {
@@ -67,7 +67,7 @@
       "Arabic": "اسجدوا لله بخوف ورعدة.",
       "Coptic": "Ouw]t `m`Vnou; =en ou\\o; nem ou`cqerter.",
       "English": "Worship God in fear and trembling.",
-      "Arabiccoptic": "اؤوشت ام افنوتي نيم اهوتي نيم اوستير تير  . ",
+      "Arabiccoptic": "أوأوشت إم إفنوتي خين أوهوتي نيم أو إستيرتير.",
       "Englishcoptic": "Oo-oosht emEvnoti khen oohoti nem ooesterter."
     },
     {
@@ -97,7 +97,7 @@
       "Arabic": "نسبحك. نباركك. نخدمك (يا رب). نسجد لك.",
       "Coptic": "Ten\\wc `erok ten`cmou `erok ten]em]i `mmok tenouw]t `mmok.",
       "English": "We praise You, we bless You, we serve You, we worship You.",
-      "Arabiccoptic": "تينهوس ايروك تين اسمو ايروك تين شمشي امموك تين أو اوشت امموك  . ",
+      "Arabiccoptic": "تين هوس إيروك تين إسمو إيروك تين شيمشي إمموك, تين أوأوشت إمموك.",
       "Englishcoptic": "Ten-hoos erok ten-esmoo erok ten-shemshi emmok ten-o-oosht emmok."
     },
     {

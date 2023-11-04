@@ -1,0 +1,107 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أتيتَ إلى الذَبحِ مثل حَمَلٍ، حتى إلى الصليبِ.",
+      "Coptic": "Ⲁⲕⲓ̀ ⲉ̀ⲡ̀ϧⲟⲗϧⲉⲗ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲉ̀ⲥⲱⲟⲩ ϣⲁ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀Ⲟⲩⲥ̀ⲧⲁⲩⲣⲟⲥ.",
+      "English": "You have come to the slaughter as a lamb, even to the Cross.",
+      "Arabiccoptic": "Ⲁⲕⲓ̀ ⲉ̀ⲡ̀ϧⲟⲗϧⲉⲗ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲉ̀ⲥⲱⲟⲩ ϣⲁ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀Ⲟⲩⲥ̀ⲧⲁⲩⲣⲟⲥ.",
+      "Englishcoptic": "Ⲁⲕⲓ̀ ⲉ̀ⲡ̀ϧⲟⲗϧⲉⲗ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲉ̀ⲥⲱⲟⲩ ϣⲁ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀Ⲟⲩⲥ̀ⲧⲁⲩⲣⲟⲥ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أظهرتَ عِظَمَ إهتمامِكَ بي.",
+      "Coptic": "Ⲁⲕⲟⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉⲕⲛⲓϣϯ ⲙ̀ⲙⲉⲧϥⲁⲓⲣⲱⲟⲩϣ ϧⲁⲣⲟⲓ.",
+      "English": "You have manifested the greatness of Your care for me.",
+      "Arabiccoptic": "Ⲁⲕⲟⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉⲕⲛⲓϣϯ ⲙ̀ⲙⲉⲧϥⲁⲓⲣⲱⲟⲩϣ ϧⲁⲣⲟⲓ.",
+      "Englishcoptic": "Ⲁⲕⲟⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉⲕⲛⲓϣϯ ⲙ̀ⲙⲉⲧϥⲁⲓⲣⲱⲟⲩϣ ϧⲁⲣⲟⲓ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَتَلتَ خَطيَتي بقَبرِكَ.",
+      "Coptic": "Ⲁⲕϧⲱⲧⲉⲃ ⲙ̀ⲡⲁⲛⲟⲃⲓ ϧⲉⲛ ⲡⲉⲕⲙ̀ϩⲁⲩ.",
+      "English": "You have slain my sin in Your tomb.",
+      "Arabiccoptic": "Ⲁⲕϧⲱⲧⲉⲃ ⲙ̀ⲡⲁⲛⲟⲃⲓ ϧⲉⲛ ⲡⲉⲕⲙ̀ϩⲁⲩ.",
+      "Englishcoptic": "Ⲁⲕϧⲱⲧⲉⲃ ⲙ̀ⲡⲁⲛⲟⲃⲓ ϧⲉⲛ ⲡⲉⲕⲙ̀ϩⲁⲩ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أصعَدتَ باكُورَتي إلى السماءِ.",
+      "Coptic": "Ⲁⲕⲱ̀ⲗⲓ ⲛ̀ⲧⲁⲁ̀ⲡⲁⲣⲭⲏ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲧ̀ⲫⲉ.",
+      "English": "You have brought my first fruit up to heaven.",
+      "Arabiccoptic": "Ⲁⲕⲱ̀ⲗⲓ ⲛ̀ⲧⲁⲁ̀ⲡⲁⲣⲭⲏ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲧ̀ⲫⲉ.",
+      "Englishcoptic": "Ⲁⲕⲱ̀ⲗⲓ ⲛ̀ⲧⲁⲁ̀ⲡⲁⲣⲭⲏ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲧ̀ⲫⲉ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أظهَرتَ لي إعلانَ مجيئِكَ.",
+      "Coptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ ⲛ̀ⲧⲉ ⲡⲉⲕϫⲓⲛⲓ̀.",
+      "English": "You have shown me the manifestation of Your Coming",
+      "Arabiccoptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ ⲛ̀ⲧⲉ ⲡⲉⲕϫⲓⲛⲓ̀.",
+      "Englishcoptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ ⲛ̀ⲧⲉ ⲡⲉⲕϫⲓⲛⲓ̀."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذا الذي تأتي فيه لتدينَ الأحياءَ والأمواتَ، وتُعطِي كلَّ واحدٍ كأعمالِهِ.",
+      "Coptic": "Ⲑⲁⲓ ⲉ̀ⲧⲉⲕⲛⲏⲟⲩ ⲛ̀ϧⲏⲧⲥ ⲉ̀ϯϩⲁⲡ ⲉ̀ⲛⲏⲉⲧⲟⲛϧ ⲛⲉⲙ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲉ̀ϯ ⲙ̀ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ.",
+      "English": "wherein You shall come to judge the living and the dead, and give each one according to his deeds.",
+      "Arabiccoptic": "Ⲑⲁⲓ ⲉ̀ⲧⲉⲕⲛⲏⲟⲩ ⲛ̀ϧⲏⲧⲥ ⲉ̀ϯϩⲁⲡ ⲉ̀ⲛⲏⲉⲧⲟⲛϧ ⲛⲉⲙ ⲛⲏⲉⲑⲙⲱⲟⲩⲧتي ⲟⲩⲟϩ ⲉ̀ϯ ⲙ̀ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ.",
+      "Englishcoptic": "Ⲑⲁⲓ ⲉ̀ⲧⲉⲕⲛⲏⲟⲩ ⲛ̀ϧⲏⲧⲥ ⲉ̀ϯϩⲁⲡ ⲉ̀ⲛⲏⲉⲧⲟⲛϧ ⲛⲉⲙ ⲛⲏⲉⲑⲙⲱⲟⲩⲧTi ⲟⲩⲟϩ ⲉ̀ϯ ⲙ̀ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كرحمتك يا رب، وليس كخطايانا.",
+      "Coptic": "Ⲕⲁⲧⲁ ⲧⲟ ⲉ̀ⲗⲉⲟⲥ ⲥⲟⲩ Ⲕⲩⲣⲓⲉ: ⲕⲉ ⲙⲏ ⲕⲁⲧⲁ ⲧⲁⲥ ⲁ̀ⲙⲁⲣⲧⲓⲁⲥ ⲏ̀ⲙⲱⲛ.",
+      "English": "According to Your mercy, O Lord, and not according to our sins.",
+      "Arabiccoptic": "Ⲕⲁⲧⲁ ⲧⲟ ⲉ̀ⲗⲉⲟⲥ ⲥⲟⲩ Ⲕⲩⲣⲓⲉتي ⲕⲉ ⲙⲏ ⲕⲁⲧⲁ ⲧⲁⲥ ⲁ̀ⲙⲁⲣⲧⲓⲁⲥ ⲏ̀ⲙⲱⲛ.",
+      "Englishcoptic": "Ⲕⲁⲧⲁ ⲧⲟ ⲉ̀ⲗⲉⲟⲥ ⲥⲟⲩ ⲔⲩⲣⲓⲉTi ⲕⲉ ⲙⲏ ⲕⲁⲧⲁ ⲧⲁⲥ ⲁ̀ⲙⲁⲣⲧⲓⲁⲥ ⲏ̀ⲙⲱⲛ."
+    }
+  ]
+}

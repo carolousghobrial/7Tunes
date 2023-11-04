@@ -31,7 +31,7 @@
       "Arabic": "الرب مع جميعكم.",
       "Coptic": "`O Kurioc meta pantwn `umwn.",
       "English": "The Lord be with you all.",
-      "Arabiccoptic": "أوكيريوس ميطابانطون إيمون",
+      "Arabiccoptic": "أوكيريوس ميطا بانطون إيمون",
       "Englishcoptic": "O Keerios meta pantoon eemon."
     },
     {
@@ -53,7 +53,7 @@
       "Arabic": "ومع روحك أيضاً.",
       "Coptic": "Ke meta tw `pneumatoc cou.",
       "English": "And with your spirit.",
-      "Arabiccoptic": "كي مي طاطو إبنيقماتو سو",
+      "Arabiccoptic": "كي مي طاطو إبنيفما تو سو",
       "Englishcoptic": "Ke meta too epnevmatos soo."
     },
     {
@@ -135,7 +135,7 @@
       "Arabic": "فلنشكر الرب.",
       "Coptic": "Euxaricthcwmen tw Kuriw.",
       "English": "Let us give thanks to the Lord.",
-      "Arabiccoptic": "إيفخاريس تيسومين طوكيريو",
+      "Arabiccoptic": "إيف خاريس تي سومين طوكيريو",
       "Englishcoptic": "Evkharistee-soomen too Keerioo."
     },
     {
@@ -179,7 +179,7 @@
       "Arabic": "مستحقٌ وعادلٌ، مستحقٌ وعادلٌ، لأنه حقاً بالحقيقة مستحقٌ وعادلٌ.",
       "Coptic": "A[ion ke dikeon> a[ion ke dikeon> `alhqwc gar =en oumeqmhi> a[ion ke dikeon.",
       "English": "Meet and right, meet and right; truly, indeed, it is meet and right.",
-      "Arabiccoptic": "اكسيون كي ذي كيئون أكسيون كي ذي كيئون آليثوس غارخين اوميثمي أكسيون كي ذي كيئون",
+      "Arabiccoptic": "أكسيون كي ذي كيئون أكسيون كي ذي كيئون آليثوس غار خين اوميثمي أكسيون كي ذي كيئون",
       "Englishcoptic": "Axion ke zikeon: axion ke zikeon: aleethos ghar khen oo-methmee: axion ke zikeon."
     },
     {
@@ -190,7 +190,7 @@
       "Arabic": "أيها الكائن السيد الرب الإله الحق.",
       "Coptic": "Vhet]op `Vnhb `Psoic `Vnou; `nte ;meqmhi.",
       "English": "O You, THE BEING, Master, Lord, God of Truth,",
-      "Arabiccoptic": "فيئتشوب إننيب إبشويس إفنوتي إنتي تي ميثمي ",
+      "Arabiccoptic": "فيئتشوب إفنيب إبشويس إفنوتي إنتي تي ميثمي",
       "Englishcoptic": "Vee-etshop Evneeb Epchois Evnoti en-te timethmeei."
     },
     {
@@ -201,7 +201,7 @@
       "Arabic": "الكائن قبل الدهـور والمـالك إلى الأبد.",
       "Coptic": "Vhet]op =ajwou `nni`ene\\> ouo\\ etoi `nouro ]a `ene\\.",
       "English": "being before the ages and reigning forever;",
-      "Arabiccoptic": "فيئتشوب خاجوؤو إن ني إبنيه أووه إت أوى إن أورو شا إينيه.",
+      "Arabiccoptic": "فيئتشوب خاجوؤو إن ني إينيه أووه إت أوى إن أورو شا إينيه. ",
       "Englishcoptic": "Vee-etshop khago-oo en-ni-eneh: owoh etoi en-ooro sha eneh."
     },
     {
@@ -212,7 +212,7 @@
       "Arabic": "الساكـن في الأعالي والناظر إلى المتواضعــات.",
       "Coptic": "Vhet]op =en nhetsoci> ouo\\ etjou]t `ejen nhetqebihout.",
       "English": "who dwell in the highest and look upon the lowly;",
-      "Arabiccoptic": " فيئتشوب خين ني إتتشوسي أووه إت جوشت إيجين نيئتثيقيوت",
+      "Arabiccoptic": "فيئتشوب خين ني إتتشوسي أووه إت جوشت إيجين ني إت ثيفيوت, ",
       "Englishcoptic": "Vee-etshop khen nee-etchosi: owoh etgoosht ejen nee-ettevieeoot."
     },
     {
@@ -223,7 +223,7 @@
       "Arabic": "الـذي خلــق السماء والأرض والبحر وكل ما فيها.",
       "Coptic": "Vh`etafqamio `n`tve nem `pka\\i nem `viom> nem nh`ete `n=htou throu.",
       "English": "who have created the heaven, the earth, the sea, and all that is therein;",
-      "Arabiccoptic": " فيئيتاف ثاميو إن إتفي نيم إبكاهي نيم إفيوم نيم نيئتي إنخيتو تيرو. ",
+      "Arabiccoptic": " فيئيطاف ثاميو إن إتفي نيم إبكاهي نيم إفيوم نيم ني إيتي إنخيتو تيرو.  ",
       "Englishcoptic": "Vee-etaf-thamio en-etve nem epkahi nem eviom: nem nee-ete en-kheetoo tero."
     },
     {
@@ -234,7 +234,7 @@
       "Arabic": "أبو ربنا وإلهنا ومخلصنا يسوع المسيح.",
       "Coptic": "`Viwt `mPensoic ouo\\ Pennou; ouo\\ Pencwthr Ihcouc Pi`xrictoc.",
       "English": "the Father of our Lord, God, and Savior Jesus Christ,",
-      "Arabiccoptic": "إفيوت إمبين شويس أووه بيننوتي أووه بين سوتير إيسوس بي إخرستوس",
+      "Arabiccoptic": "إفيوت إمبين شويس أووه بين نوتي أووه بين سوتير إيسوس بي إخرستوس,",
       "Englishcoptic": "Eviot emPen-chois owoh Pen-nooti owoh Pen-sooteer Isos Pikhristos."
     },
     {
@@ -245,7 +245,7 @@
       "Arabic": "هذا الذي خلقت الكل به، ما يرى وما لا يرى.",
       "Coptic": "Vai `etakqamio `m`pthrf `ebol \\itotf> nh`etounau `erwou nem nh`ete `ncenau `erwou an.",
       "English": "by whom You have created all things, visible and invisible;",
-      "Arabiccoptic": " فاى إيتاك ثاميو إم إبتيرف ايفول هي ططف ني إيتو ناف إيروؤو نيم نيئتي إنسيناف إيروؤو آن.",
+      "Arabiccoptic": "فاى إيطاك ثاميو إم إبتيرف إيفول هي طوطف ني إيطو ناف إيروؤو, نيم ني إيتي إنسيناف إيروؤو آن. ",
       "Englishcoptic": "Vai etakthamio emep-terf evol hitotf: nee-etoonav ero-oo nem nee-ete en-sen-av ero-oo an."
     },
     {
@@ -256,7 +256,7 @@
       "Arabic": "الجالس على كرسى مجده، المسجود له من جميع القوات المقدسة.",
       "Coptic": "Vhet\\emci \\ijen pi`qronoc `nte pef`wou> vh`etououw]t `mmof \\iten jom niben eqouab.",
       "English": "who sits upon the throne of His glory; and who is worshiped by all the holy powers.",
-      "Arabiccoptic": " فيئت هيمسي هيجين بيإثرونوس إنتي بيف أوأو فيئيتو أوأوشت إمموف هيتين جوم نيفين إثؤواب.",
+      "Arabiccoptic": " في إت هيمسي هيجين بي إثرونوس إنتي بيف أوأو, في إيتو أوأوشت إمموف هيتين جوم نيفين إثؤواب.",
       "Englishcoptic": "Vee-ethemsi hijen pi-ethronos ente pef-o-oo: vee-eto-oo-oosht emmof hiten gom ni-ven ethowab."
     },
     {
@@ -300,7 +300,7 @@
       "Arabic": "الذي يقف أمامه الملائكة ورؤساء الملائكة، والرئاسات والسلطات والكراسي، والربوبيات والقوات.",
       "Coptic": "Vh`etou`o\\i `eratou na\\raf> `nje niaggeloc> nem niarxhaggeloc> niarxh> nie[oucia> ni`qronoc> nimetsoic> nijom.",
       "English": "Before whom stand the angels, the archangels, the principalities, the authorities, the thrones, the dominions, and the powers.",
-      "Arabiccoptic": "يئتو أو هي إى راتو ناهراف إنجي ني آنجيلوس نيم ني أرشي نجيلوس نيم أرشي ني إكسوسيا ني إثرونوس ني ميت شويس ني جوم.",
+      "Arabiccoptic": "في إيطو أوهي إيراطو ناهراف, إنجي ني آنجيلوس, نيم ني أرشي آنجيلوس, ني أرشي, ني إكسوسيا, ني إثرونوس,  ني ميت شويس, ني جوم.",
       "Englishcoptic": "Vee-etoo-ohi eratoo nahraf: en-je ni-angelos: nem ni-arshee-angelos: ni-arshee: ni-exoosia: ni-ethronos: ni-metchois: ni-gom."
     },
     {
@@ -322,7 +322,7 @@
       "Arabic": "وإلى الشرق انظروا.",
       "Coptic": "Ic `anatolac `bleyate.",
       "English": "Look towards the East.",
-      "Arabiccoptic": "إيس أناطولاس إقليبساتي",
+      "Arabiccoptic": "يس أنا طولاس إفليب ساتي",
       "Englishcoptic": "Is anatolas eblepsate."
     },
     {
@@ -344,7 +344,7 @@
       "Arabic": "أنت هو الذي يقف حولك الشاروبيم الممتلئون أعينا، والسِّرافيم ذوو الستة الأجنحة، يسبحون على الدوام بغير سكوت قائلين:",
       "Coptic": "`Nqok gar pe `etou`o\\i `eratou `mpekkw;> `nje Nixeroubim eqme\\ `mbal> nem Niceravim na picoou `nten\\> euer\\umnoc =en oumoun `ebol `natxarwou eujw `mmoc.",
       "English": "You are He around whom stand the Cherubim full of eyes, and the Seraphim with six wings, praising continuously, without ceasing, saying—",
-      "Arabiccoptic": "إنثوك غاربي إتؤ أو هي إيراتو إم بيك كوتي إنجي ني شيروفيم إثميه إمقال نيم ني سيرافيم نابي سو إن تنه. إيقئير هيمنوس خين أومون ايفول إن أت كارورو إيقجو إمموس.",
+      "Arabiccoptic": "إنثوك غار بي إيطو أوهي إيراطو إم بيك كوتي, إنجي ني شيروبيم إثميه إمفال, نيم ني سيرافيم نابي سو إن تينه. إف أير هيمنوس خين أومون إيفول إن أت كاروؤ, إفجو إمموس.",
       "Englishcoptic": "eNthok ghar pe etoo-ohi eratoo empek-kooti-: en-je Nisherobim ethmeh emval: nem Niseraphim na pi-so-oo en-ten-h: everheemnos khen- oomoon evol en-atkharo-oo evgoo emmos."
     },
     {

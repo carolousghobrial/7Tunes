@@ -544,13 +544,15 @@ var getParamounDate = function (feastDate) {
  * @param  {Object} attributes - Attributes object defined in NavSubMenuStore
  * @returns {boolean}
  */
-export function isInFast() {
+export function isInFast(timeTransition) {
   var myfastfeasts = getCopticFastsFeasts(moment().year());
+  const currentDate = new Date(getTodayDate(timeTransition));
+
   // ignore time and use date only
   var todayDate = moment([
-    new Date().getFullYear(),
-    today.month(),
-    today.date(),
+    currentDate.getFullYear(),
+    currentDate.getMonth(),
+    currentDate.getDate(),
   ]);
 
   // if day is Saturday or Sunday and not in Great Lent return false
@@ -642,7 +644,8 @@ export function setCurrentSeasonByKey(timeTransition, key) {
     start: mySeason.start,
     end: mySeason.end,
     major: mySeason.major,
-    week: 1,
+    weekOfMonth: Math.ceil(copticDate.day / 7),
+    week: getWeeksSinceStartDate(new Date(mySeason.start)),
     dayOfWeek: currentDate.getDay(),
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
@@ -672,6 +675,7 @@ export function setCurrentSeasonLive(timeTransition) {
     start: mySeason.start,
     end: mySeason.end,
     major: mySeason.major,
+    weekOfMonth: Math.ceil(copticDate.day / 7),
     week: getWeeksSinceStartDate(new Date(mySeason.start)),
     dayOfWeek: currentDate.getDay(),
     gregorianDayOfMonth: currentDate.getDate(),
@@ -692,6 +696,35 @@ function getWeeksSinceStartDate(startDate) {
   const diffInMs = now.getTime() - startDate.getTime(); // Difference in milliseconds between now and start date
   const diffInWeeks = Math.ceil(diffInMs / msPerWeek); // Round down to get number of full weeks
   return diffInWeeks;
+}
+export function getCurrentSeasonByDate(date, timeTransition) {
+  const mySeason = getCurrentSeason(timeTransition)[0];
+  var fastsfeasts = getCopticFastsFeasts(moment().year());
+  const currentDate = date;
+  const copticDate = getCopticDate(
+    currentDate.getFullYear(),
+    currentDate.getMonth(),
+    currentDate.getDate()
+  );
+  var mycurrentSeason = {
+    key: mySeason.key,
+    start: mySeason.start,
+    end: mySeason.end,
+    major: mySeason.major,
+    weekOfMonth: Math.ceil(copticDate.day / 7),
+    week: getWeeksSinceStartDate(new Date(mySeason.start)),
+    dayOfWeek: currentDate.getDay(),
+    gregorianDayOfMonth: currentDate.getDate(),
+    gregorianMonth: currentDate.getMonth(),
+    gregorianYear: currentDate.getFullYear(),
+    isWatos: isWatos(currentDate.getDay()),
+    type: mySeason.type,
+    plantsSeason: plantsSeason(currentDate),
+    copticMonth: copticDate.month,
+    copticDay: copticDate.day,
+    copticYear: copticDate.year,
+  };
+  return mycurrentSeason;
 }
 export function getCurrentSeason(timeTransition) {
   var fastsfeasts = getCopticFastsFeasts(moment().year());

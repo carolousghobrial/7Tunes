@@ -25,8 +25,9 @@
             "Rule": 0,
             "Visible": true,
             "Side": "North",
-            "Arabic": "فصل من بشارة معلمنا بولس الرسول \"\" الى \" \" بركتة تكون معنا امين",
-            "English": "A reading from  \" the first/ the second / the \" Epistle of our teacher Paul to \" ..... \" . May his holy blessings be with us Amen. "
+            "mother": "LiturgyPauline",
+            "Arabic": "فصل من بشارة معلمنا بولس الرسول [*PAULINE_AUTHOR*]بركتة تكون معنا امين",
+            "English": "A reading from [*PAULINE_AUTHOR*] . May his holy blessings be with us Amen. "
         }
     ]
 }

@@ -60,8 +60,13 @@ const SundayThetokiaWeekdaysPraisesRule = (motherSource, path) => {
 
 const TheotokiaVisible = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  const timeTransition = useSelector((state) => state.settings.timeTransition);
+
   const today = currentSeason.dayOfWeek;
+  const yesterday =
+    currentSeason.dayOfWeek === 0 ? 6 : currentSeason.dayOfWeek - 1;
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
+  const timeOfDay = moment().hour();
 
   const dayOfWeekToPath = {
     0: "sunday",
@@ -72,10 +77,14 @@ const TheotokiaVisible = (motherSource, path) => {
     5: "friday",
     6: "saturday",
   };
-  if (todayPrayer) {
-    return path?.includes(dayOfWeekToPath[today]);
+  if (motherSource?.toLowerCase().includes("vesperspraises")) {
+    if (timeOfDay < new Date(timeTransition).getHours()) {
+      return path?.includes(dayOfWeekToPath[today]);
+    } else {
+      return path?.includes(dayOfWeekToPath[yesterday]);
+    }
   } else {
-    return false;
+    return path?.includes(dayOfWeekToPath[today]);
   }
 };
 
@@ -516,6 +525,11 @@ const inRaisingOfIncense = (motherSource, path) => {
 };
 const isCovenantThursday = (motherSource, path) => {
   return motherSource === "ThursdayDayFirstHourMain" ? true : false;
+};
+const AdamConclusionDoxologies = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  return motherSource === "praises" && !currentSeason.isWatos;
 };
 const isPraises = (motherSource, path) => {
   return motherSource === "praises" ? true : false;
@@ -1180,6 +1194,8 @@ const IsDioceseNotPope = (motherSource, path) => {
 };
 const IsNonFastingDays = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  const timeTransition = useSelector((state) => state.settings.timeTransition);
+
   if (
     (currentSeason.key === FeastEnum.FEAST_OF_CROSS ||
       currentSeason.key === FeastEnum.FEAST_OF_CROSS_3) &&
@@ -1187,13 +1203,14 @@ const IsNonFastingDays = (motherSource, path) => {
   ) {
     return false;
   }
-  if (!isInFast() || currentSeason.type === "feast") {
+  if (!isInFast(timeTransition) || currentSeason.type === "feast") {
     return true;
   } else {
     return false;
   }
 };
 const IsFastingDays = (motherSource, path) => {
+  const timeTransition = useSelector((state) => state.settings.timeTransition);
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (
     (currentSeason.key === FeastEnum.FEAST_OF_CROSS ||
@@ -1208,7 +1225,7 @@ const IsFastingDays = (motherSource, path) => {
   ) {
     return true;
   } else {
-    if (isInFast() && currentSeason.type !== "feast") {
+    if (isInFast(timeTransition) && currentSeason.type !== "feast") {
       return true;
     }
   }
@@ -1326,5 +1343,6 @@ const VisibleRules = {
   ISDioceseMetropolitainAlways: ISDioceseMetropolitainAlways,
   ISDioceseBishopAlways: ISDioceseBishopAlways,
   ShowSotees: ShowSotees,
+  AdamConclusionDoxologies: AdamConclusionDoxologies,
 };
 export default VisibleRules;

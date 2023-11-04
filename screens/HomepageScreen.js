@@ -73,7 +73,6 @@ function HomepageScreen({ navigation, route }) {
     setSearchPhrase(text);
   }
   useEffect(() => {
-    setLive();
     onFetchUpdateAsync();
   }, [navigation]);
   function setLive() {

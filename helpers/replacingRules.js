@@ -138,7 +138,7 @@ export const ROICONCLUSION = (motherSource) => {
         englishcoptic:
           "Esmoo e-pi-eklom ente-ti rompi, he-ten tek-met-ekhrestos Ep-shois, ni-a-ro-oo nem ni-mo-me, nem ni-siti nem ni-karpos.",
         arabiccoptic:
-          "إزموا إيه بي إكلوم انتيه تي رومبي، هيتين تيك ميت إخريستوس إبشويس، ني أروؤ نيم ني مومي، نيم ني سيتي نيم ني كاربوس.",
+          "إسموا إيه بي إكلوم انتيه تي رومبي، هيتين تيك ميت إخريستوس إبشويس، ني أروؤ نيم ني مومي، نيم ني سيتي نيم ني كاربوس.",
       };
     case "FEAST_OF_CROSS":
     case "FEAST_OF_CROSS_3":
@@ -211,7 +211,7 @@ export const ROICONCLUSION = (motherSource) => {
         coptic: "P]hri `m`Vnou;>  af`cmou `enimwou afaitou `nhrp",
         arabic: "ابن الله بارك المياه فصيرها خمراً.",
         englishcoptic: "Epsheeri em-Evnooti: av-esmo eni-mo-oo af-aito en-eerp",
-        arabiccoptic: "إيبشيري إميفنووتي: اف إزمو ان نيموؤو اف ايتو إن ايرب",
+        arabiccoptic: "إيبشيري إميفنووتي: اف إسمو ان نيموؤو اف ايتو إن ايرب",
       };
     case "PRESENTATION_TEMPLE":
       return {
@@ -380,6 +380,206 @@ export const REPLACEGOSPELAUTHOR = (author) => {
         arabic: "يوحنا",
         englishcoptic: "Yoanin",
         arabiccoptic: "يوأنين",
+      };
+    default:
+      return {
+        english: "...",
+        coptic: "...",
+        arabic: "...",
+        englishcoptic: "...",
+        arabiccoptic: "...",
+      };
+  }
+};
+export const REPLACECATHOLICAUTHOR = (author) => {
+  switch (author) {
+    case "1Peter":
+      return {
+        english: "first epistle of our teacher St.Peter",
+        coptic: "Markon",
+        arabic: "بطرس الأولى",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "2Peter":
+      return {
+        english: "second epistle of our teacher St.Peter",
+        coptic: "Markon",
+        arabic: "بطرس الثانية",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "1John":
+      return {
+        english: "first epistle of our teacher St.John",
+        coptic: "Markon",
+        arabic: "يوحنا الأولى",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "2John":
+      return {
+        english: "second epistle of our teacher St.John",
+        coptic: "Markon",
+        arabic: "يوحنا الثانية",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "3John":
+      return {
+        english: "third epistle of our teacher St.John",
+        coptic: "Markon",
+        arabic: "يوحنا الثالثة",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "James":
+      return {
+        english: "epistle of our teacher St.James",
+        coptic: "Loukan",
+        arabic: "يعقوب",
+        englishcoptic: "Lokan",
+        arabiccoptic: "يعقوب",
+      };
+    case "Jude":
+      return {
+        english: "epistle of our teacher St.Jude",
+        coptic: "Loukan",
+        arabic: "يهوذا",
+        englishcoptic: "Lokan",
+        arabiccoptic: "يعقوب",
+      };
+    default:
+      return {
+        english: "...",
+        coptic: "...",
+        arabic: "...",
+        englishcoptic: "...",
+        arabiccoptic: "...",
+      };
+  }
+};
+export const REPLACEPAULINEAUTHOR = (author) => {
+  switch (author) {
+    case "1Timothy":
+      return {
+        english: "the first Epistle of our teacher St.Paul to Timothy",
+        coptic: "Markon",
+        arabic: "الأولى الى تيموثاوس ",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "2Timothy":
+      return {
+        english: "the second Epistle of our teacher St.Paul to Timothy",
+        coptic: "Markon",
+        arabic: "الثانية الى تيموثاوس ",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "1Thessalonians":
+      return {
+        english: "the first Epistle of our teacher St.Paul to Thessalonians",
+        coptic: "Markon",
+        arabic: "الأولى الى أهل تسالونيكى ",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "2Thessalonians":
+      return {
+        english: "the second Epistle of our teacher St.Paul to Thessalonians",
+        coptic: "Markon",
+        arabic: "الثانية الى أهل تسالونيكى ",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "1Corinthians":
+      return {
+        english: "the first Epistle of our teacher St.Paul to Corinthians",
+        coptic: "Markon",
+        arabic: "الأولى الى أهل كورنثوس ",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "2Corinthians":
+      return {
+        english: "the second Epistle of our teacher St.Paul to Corinthians",
+        coptic: "Markon",
+        arabic: "الثانية الى أهل كورنثوس ",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "Titus":
+      return {
+        english: "the Epistle of our teacher St.Paul to Titus",
+        coptic: "Markon",
+        arabic: "الى تيطس",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "Philemon":
+      return {
+        english: "the Epistle of our teacher St.Paul to Philemon",
+        coptic: "Markon",
+        arabic: "الى فليمون",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "Hebrews":
+      return {
+        english: "the Epistle of our teacher St.Paul to the Hebrews",
+        coptic: "Markon",
+        arabic: "الى العبرانيين",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "Galatians":
+      return {
+        english: "the Epistle of our teacher St.Paul to the Galatians",
+        coptic: "Markon",
+        arabic: "الى أهل غلاطية",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "Ephesians":
+      return {
+        english: "the Epistle of our teacher St.Paul to the Ephesians",
+        coptic: "Markon",
+        arabic: "الى أهل أفسس",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "Philippians":
+      return {
+        english: "the Epistle of our teacher St.Paul to the Philippians",
+        coptic: "Markon",
+        arabic: "الى أهل فيلبي",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "Colossians":
+      return {
+        english: "the Epistle of our teacher St.Paul to the Colossians",
+        coptic: "Markon",
+        arabic: "الى أهل كولوسى",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case "Romans":
+      return {
+        english: "the Epistle of our teacher St.Paul to the Romans",
+        coptic: "Markon",
+        arabic: "الى أهل رومية",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    default:
+      return {
+        english: "...",
+        coptic: "...",
+        arabic: "...",
+        englishcoptic: "...",
+        arabiccoptic: "...",
       };
   }
 };

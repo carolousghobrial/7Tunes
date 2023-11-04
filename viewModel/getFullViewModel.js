@@ -1,9 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
 import bookPaths from "../helpers/bookPathsHelpers";
 import VisibleRules from "../helpers/visibleRules";
+import { useDispatch, useSelector } from "react-redux";
+
 import {
   ComeRisenRule,
+  REPLACEPAULINEAUTHOR,
   ROICONCLUSION,
+  REPLACECATHOLICAUTHOR,
   REPLACEGOSPELAUTHOR,
   REPLACEPROPHETS,
   REPLACPASCHAHOURDAY,
@@ -68,6 +72,20 @@ export function getFullViewModel(motherSource, mother) {
             });
             key++;
             break;
+          case "GetDaysReading":
+            var filePath = GetTodaysReadingPath(item.Path);
+            if (filePath !== "Katamaros") {
+              const [tempView, tempMenu, mykey] = getMain(
+                filePath,
+                motherSource,
+                false,
+                item.Rule,
+                key
+              );
+              key = mykey;
+              ViewArray.push(...tempView);
+              MenuArray.push(...tempMenu);
+            }
           default:
             MenuArray.push({
               EnglishTitle: item.English,
@@ -166,6 +184,19 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
       );
       key = mykey;
       myViewArray.push(...tempView);
+    } else if (part.Type === "GetDaysReading") {
+      var filePath = GetTodaysReadingPath(part.Path);
+      if (filePath !== "Katamaros") {
+        const [tempView, , mykey] = getMain(
+          filePath,
+          motherSource,
+          false,
+          thisRule,
+          key
+        );
+        key = mykey;
+        myViewArray.push(...tempView);
+      }
     } else {
       const addPart = addItemsToArray(part, thisRule);
       myViewArray.push({
@@ -191,6 +222,10 @@ export function addItemsToArray(part, thisRule) {
     "[*PROPHECIES_AUTHOR*]",
     "[*PASCHA_HOUR_DAY*]",
     "[*HOMILY_FATHER*]",
+    "[*STANDARD_GOSPEL_AUTHOR*]",
+    "[*CATHOLIC_AUTHOR*]",
+    "[*PAULINE_AUTHOR*]",
+
     "[*POPE*]",
     "[*ANTIOCH_POPE*]",
     "[*DIOCESE_BISHOP*]",
@@ -216,6 +251,15 @@ export function addItemsToArray(part, thisRule) {
           break;
         case "[*GOSPEL_AUTHOR*]":
           myrule = REPLACEGOSPELAUTHOR(thisRule);
+          break;
+        case "[*STANDARD_GOSPEL_AUTHOR*]":
+          myrule = REPLACEGOSPELAUTHOR(getGospelAuthor(part));
+          break;
+        case "[*CATHOLIC_AUTHOR*]":
+          myrule = REPLACECATHOLICAUTHOR(getCatholicAuthor(part));
+          break;
+        case "[*PAULINE_AUTHOR*]":
+          myrule = REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
           break;
         case "[*PASCHA_HOUR_DAY*]":
           myrule = REPLACPASCHAHOURDAY(thisRule);
@@ -284,6 +328,16 @@ export function addItemsToArray(part, thisRule) {
         case "[*GOSPEL_AUTHOR*]":
           myrule = REPLACEGOSPELAUTHOR(thisRule);
           break;
+        case "[*STANDARD_GOSPEL_AUTHOR*]":
+          myrule = REPLACEGOSPELAUTHOR(getGospelAuthor(part));
+
+          break;
+        case "[*CATHOLIC_AUTHOR*]":
+          myrule = REPLACECATHOLICAUTHOR(getCatholicAuthor(part));
+          break;
+        case "[*PAULINE_AUTHOR*]":
+          myrule = REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
+          break;
         case "[*PASCHA_HOUR_DAY*]":
           myrule = REPLACPASCHAHOURDAY(thisRule);
           break;
@@ -340,6 +394,16 @@ export function addItemsToArray(part, thisRule) {
           break;
         case "[*ROICONCLUSION*]":
           myrule = ROICONCLUSION();
+          break;
+        case "[*STANDARD_GOSPEL_AUTHOR*]":
+          myrule = REPLACEGOSPELAUTHOR(getGospelAuthor(part));
+
+          break;
+        case "[*CATHOLIC_AUTHOR*]":
+          myrule = REPLACECATHOLICAUTHOR(getCatholicAuthor(part));
+          break;
+        case "[*PAULINE_AUTHOR*]":
+          myrule = REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
           break;
         case "[*POPE*]":
           myrule = REPLACEPOPE();
@@ -401,6 +465,18 @@ export function addItemsToArray(part, thisRule) {
         case "[*DIOCESE_BISHOP*]":
           myrule = REPLACEDIOCESEBISHOP();
           break;
+        case "[*STANDARD_GOSPEL_AUTHOR*]":
+          myrule = REPLACEGOSPELAUTHOR(getGospelAuthor(part));
+          break;
+        case "[*CATHOLIC_AUTHOR*]":
+          myrule = REPLACECATHOLICAUTHOR(getCatholicAuthor(part));
+          break;
+        case "[*PAULINE_AUTHOR*]":
+          myrule = REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
+          break;
+        case "[*PAULINE_AUTHOR*]":
+          myrule = REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
+          break;
         case "[*METROPOLITAIN_PRESENT*]":
           myrule = REPLACEMETROPOLITAINAVAILABLE();
           break;
@@ -436,6 +512,171 @@ export function addItemsToArray(part, thisRule) {
   return newPart;
 }
 
+function GetTodaysReadingPath(path) {
+  let filePath = "Katamaros";
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  switch (currentSeason.key) {
+    case "STANDARD":
+      switch (currentSeason.dayOfWeek) {
+        case 0:
+          filePath += "Sundays";
+          switch (currentSeason.copticMonth) {
+            case "Paope":
+              filePath += "Paope";
+              switch (currentSeason.weekOfMonth) {
+                case 1:
+                  break;
+                case 2:
+                  break;
+                case 3:
+                  break;
+                case 4:
+                  filePath += "Week4";
+                  switch (path) {
+                    case "VespersPsalm":
+                      filePath += "VespersPsalm";
+                      break;
+                    case "VespersGospel":
+                      filePath += "VespersGospel";
+                      break;
+                    case "MatinsPsalm":
+                      filePath += "MatinsPsalm";
+                      break;
+                    case "MatinsGospel":
+                      filePath += "MatinsGospel";
+                      break;
+                    case "LiturgyPauline":
+                      filePath += "LiturgyPauline";
+                      break;
+                    case "LiturgyCatholic":
+                      filePath += "LiturgyCatholic";
+                      break;
+                    case "LiturgyActs":
+                      filePath += "LiturgyActs";
+                      break;
+                    case "LiturgyPsalm":
+                      filePath += "LiturgyPsalm";
+                      break;
+                    case "LiturgyGospel":
+                      filePath += "LiturgyGospel";
+                      break;
+                  }
+
+                  break;
+              }
+              break;
+          }
+          break;
+        default:
+          break;
+      }
+      break;
+  }
+  return filePath;
+}
+function getGospelAuthor(part) {
+  const completePath = GetTodaysReadingPath(part.mother);
+  if (completePath == "Katamaros") {
+    return "NONE";
+  }
+  const book = bookPaths[completePath];
+
+  const { EnglishTitle } = book;
+  if (EnglishTitle.includes("Matthew")) {
+    return 1;
+  }
+  if (EnglishTitle.includes("Mark")) {
+    return 2;
+  }
+  if (EnglishTitle.includes("Luke")) {
+    return 3;
+  }
+  if (EnglishTitle.includes("John")) {
+    return 4;
+  }
+}
+function getCatholicAuthor(part) {
+  const completePath = GetTodaysReadingPath(part.mother);
+  if (completePath == "Katamaros") {
+    return "NONE";
+  }
+  const book = bookPaths[completePath];
+
+  const { EnglishTitle } = book;
+  if (EnglishTitle.includes("James")) {
+    return "James";
+  }
+  if (EnglishTitle.includes("Jude")) {
+    return "Jude";
+  }
+  if (EnglishTitle.includes("1 Peter")) {
+    return "1Peter";
+  }
+  if (EnglishTitle.includes("2 Peter")) {
+    return "2Peter";
+  }
+  if (EnglishTitle.includes("1 John")) {
+    return "1John";
+  }
+  if (EnglishTitle.includes("2 John")) {
+    return "2John";
+  }
+  if (EnglishTitle.includes("3 John")) {
+    return "3John";
+  }
+}
+function getPaulineAuthor(part) {
+  const completePath = GetTodaysReadingPath(part.mother);
+  console.log(completePath);
+  if (completePath == "Katamaros") {
+    return "NONE";
+  }
+  const book = bookPaths[completePath];
+
+  const { EnglishTitle } = book;
+  if (EnglishTitle.includes("1 Timothy")) {
+    return "1Timothy";
+  }
+  if (EnglishTitle.includes("2 Timothy")) {
+    return "2Timothy";
+  }
+  if (EnglishTitle.includes("1 Thessalonians")) {
+    return "1Thessalonians";
+  }
+  if (EnglishTitle.includes("2 Thessalonians")) {
+    return "2Thessalonians";
+  }
+  if (EnglishTitle.includes("1 Corinthians")) {
+    return "1Corinthians";
+  }
+  if (EnglishTitle.includes("2 Corinthians")) {
+    return "2Corinthians";
+  }
+  if (EnglishTitle.includes("Titus")) {
+    return "Titus";
+  }
+  if (EnglishTitle.includes("Philemon")) {
+    return "Philemon";
+  }
+  if (EnglishTitle.includes("Hebrews")) {
+    return "Hebrews";
+  }
+  if (EnglishTitle.includes("Galatians")) {
+    return "Galatians";
+  }
+  if (EnglishTitle.includes("Ephesians")) {
+    return "Ephesians";
+  }
+  if (EnglishTitle.includes("Philippians")) {
+    return "Philippians";
+  }
+  if (EnglishTitle.includes("Colossians")) {
+    return "Colossians";
+  }
+  if (EnglishTitle.includes("Romans")) {
+    return "Romans";
+  }
+}
 function findMatchingSubstring(str, substringsArray) {
   const foundSubstring = substringsArray.find((substring) =>
     str?.includes(substring)

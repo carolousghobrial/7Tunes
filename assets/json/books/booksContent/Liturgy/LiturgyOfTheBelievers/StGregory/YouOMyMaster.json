@@ -1,0 +1,129 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تجسد وتأنس وعلمنا طرق الخلاصأنتَ يا سيدي حَوَّلتَ لي العُقوبةَ خلاصاً.",
+      "Coptic": "Ⲛ̀ⲑⲟⲕ Ⲡⲁⲛⲏⲃ ⲁⲕⲫⲱⲛϩ ⲛⲏⲓ ⲛ̀ϯⲧⲓⲙⲱⲣⲓⲁ ⲉ̀ⲟⲩⲟⲩϫⲁⲓ.",
+      "English": "You, O my Master, have turned for me the punishment into salvation.",
+      "Arabiccoptic": "Ⲛ̀ⲑⲟⲕ Ⲡⲁⲛⲏⲃ ⲁⲕⲫⲱⲛϩ ⲛⲏⲓ ⲛ̀ϯⲧⲓⲙⲱⲣⲓⲁ ⲉ̀ⲟⲩⲟⲩϫⲁⲓ.",
+      "Englishcoptic": "Ⲛ̀ⲑⲟⲕ Ⲡⲁⲛⲏⲃ ⲁⲕⲫⲱⲛϩ ⲛⲏⲓ ⲛ̀ϯⲧⲓⲙⲱⲣⲓⲁ ⲉ̀ⲟⲩⲟⲩϫⲁⲓ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كَراعٍ صالحٍ سَعَيْتَ في طَلَبِ الضالِ.",
+      "Coptic": "Ϩⲱⲥ ⲙⲁⲛⲉ̀ⲥⲱⲟⲩ ⲉ̀ⲛⲁⲛⲉϥ ⲁⲕϭⲟϫⲓ ⲉ̀ⲕⲱϯ ⲛ̀ⲥⲁ ⲫⲏⲉ̀ⲧⲁϥⲥⲱⲣⲉⲙ.",
+      "English": "As a good shepherd, You have sought after that which had gone astray.",
+      "Arabiccoptic": "Ϩⲱⲥ ⲙⲁⲛⲉ̀ⲥⲱⲟⲩ ⲉ̀ⲛⲁⲛⲉϥ ⲁⲕϭⲟϫⲓ ⲉ̀ⲕⲱϯ ⲛ̀ⲥⲁ ⲫⲏⲉ̀ⲧⲁϥⲥⲱⲣⲉⲙ.",
+      "Englishcoptic": "Ϩⲱⲥ ⲙⲁⲛⲉ̀ⲥⲱⲟⲩ ⲉ̀ⲛⲁⲛⲉϥ ⲁⲕϭⲟϫⲓ ⲉ̀ⲕⲱϯ ⲛ̀ⲥⲁ ⲫⲏⲉ̀ⲧⲁϥⲥⲱⲣⲉⲙ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كأبٍ حقيقيٍ تَعِبْتَ معي أنا الذي سَقطَ.",
+      "Coptic": "Ϩⲱⲥ ⲓⲱⲧ ⲙ̀ⲙⲏⲓ ⲁⲕϣⲉⲡϧⲓⲥⲓ ⲛⲉⲙⲏⲓ ⲁ̀ⲛⲟⲕ ϧⲁ ⲫⲏⲉ̀ⲧⲁϥϩⲉⲓ.",
+      "English": "As a true father, you have labored with me, I who had fallen.",
+      "Arabiccoptic": "Ϩⲱⲥ ⲓⲱⲧ ⲙ̀ⲙⲏⲓ ⲁⲕϣⲉⲡϧⲓⲥⲓ ⲛⲉⲙⲏⲓ ⲁ̀ⲛⲟⲕ ϧⲁ ⲫⲏⲉ̀ⲧⲁϥϩⲉⲓ.",
+      "Englishcoptic": "Ϩⲱⲥ ⲓⲱⲧ ⲙ̀ⲙⲏⲓ ⲁⲕϣⲉⲡϧⲓⲥⲓ ⲛⲉⲙⲏⲓ ⲁ̀ⲛⲟⲕ ϧⲁ ⲫⲏⲉ̀ⲧⲁϥϩⲉⲓ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ربَّطتني بكلِّ الأدوِيةِ المؤدِّيةِ إلى الحياةِ.",
+      "Coptic": "Ⲁⲕⲙⲟⲣⲧ ϧⲉⲛ ⲛⲓⲫⲁϧⲣⲓ ⲧⲏⲣⲟⲩ ⲉⲧϭⲓ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡ̀ⲱⲛϧ.",
+      "English": "You have bound me with all the remedies that lead to life.",
+      "Arabiccoptic": "Ⲁⲕⲙⲟⲣⲧ ϧⲉⲛ ⲛⲓⲫⲁϧⲣⲓ ⲧⲏⲣⲟⲩ ⲉⲧϭⲓ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡ̀ⲱⲛϧ.",
+      "Englishcoptic": "Ⲁⲕⲙⲟⲣⲧ ϧⲉⲛ ⲛⲓⲫⲁϧⲣⲓ ⲧⲏⲣⲟⲩ ⲉⲧϭⲓ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡ̀ⲱⲛϧ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنتَ الذي أرسَلتَ لي الأنبياءَ من أجلي أنا المريضَ.",
+      "Coptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕⲟⲩⲱⲣⲡ ⲛⲏⲓ ⲛ̀ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲉⲑⲃⲏⲧ ⲁ̀ⲛⲟⲕ ϧⲁ ⲫⲏⲉⲧϣⲱⲛⲓ.",
+      "English": "You are He who have sent to me the prophets for my sake, I the sick.",
+      "Arabiccoptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕⲟⲩⲱⲣⲡ ⲛⲏⲓ ⲛ̀ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲉⲑⲃⲏⲧ ⲁ̀ⲛⲟⲕ ϧⲁ ⲫⲏⲉⲧϣⲱⲛⲓ.",
+      "Englishcoptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕⲟⲩⲱⲣⲡ ⲛⲏⲓ ⲛ̀ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲉⲑⲃⲏⲧ ⲁ̀ⲛⲟⲕ ϧⲁ ⲫⲏⲉⲧϣⲱⲛⲓ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعطَيتَني الناموسَ عَوْناً.",
+      "Coptic": "Ⲁⲕϯ ⲙ̀ⲫ̀ⲛⲟⲙⲟⲥ ⲛⲏⲓ ⲉ̀ⲟⲩⲃⲟⲏ̀ⲑⲓⲁ.",
+      "English": "You have given me the Law as a help.",
+      "Arabiccoptic": "Ⲁⲕϯ ⲙ̀ⲫ̀ⲛⲟⲙⲟⲥ ⲛⲏⲓ ⲉ̀ⲟⲩⲃⲟⲏ̀ⲑⲓⲁ.",
+      "Englishcoptic": "Ⲁⲕϯ ⲙ̀ⲫ̀ⲛⲟⲙⲟⲥ ⲛⲏⲓ ⲉ̀ⲟⲩⲃⲟⲏ̀ⲑⲓⲁ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنتَ الذي خَدَمْتَ لي الخلاصَ لما خالَفتُ ناموسَكَ.",
+      "Coptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕⲉⲣⲇⲓⲁⲕⲟⲛⲓⲛ ⲛⲏⲓ ⲙ̀ⲡⲓⲟⲩϫⲁⲓ ⲉ̀ⲁⲓⲉⲣⲡⲁⲣⲁⲃⲉⲛⲓⲛ ⲙ̀ⲡⲉⲕⲛⲟⲙⲟⲥ.",
+      "English": "You are He who ministered salvation to me when I disobeyed Your Law.",
+      "Arabiccoptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕⲉⲣⲇⲓⲁⲕⲟⲛⲓⲛ ⲛⲏⲓ ⲙ̀ⲡⲓⲟⲩϫⲁⲓ ⲉ̀ⲁⲓⲉⲣⲡⲁⲣⲁⲃⲉⲛⲓⲛ ⲙ̀ⲡⲉⲕⲛⲟⲙⲟⲥ.",
+      "Englishcoptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕⲉⲣⲇⲓⲁⲕⲟⲛⲓⲛ ⲛⲏⲓ ⲙ̀ⲡⲓⲟⲩϫⲁⲓ ⲉ̀ⲁⲓⲉⲣⲡⲁⲣⲁⲃⲉⲛⲓⲛ ⲙ̀ⲡⲉⲕⲛⲟⲙⲟⲥ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كنورٍ حقيقيٍ أشرَقْتَ للضالين وغيرِ العارفين.",
+      "Coptic": "Ϩⲱⲥ ⲟⲩⲱⲓⲛⲓ ⲙ̀ⲙⲏⲓ: ⲁⲕϣⲁⲓ ⲛ̀ⲛⲏⲉⲧⲥⲱⲣⲉⲙ ⲛⲉⲙ ⲛⲏⲉⲧⲟⲓ ⲛ̀ⲁⲧⲉ̀ⲙⲓ.",
+      "English": "As true light, You have shone upon the lost and the ignorant.",
+      "Arabiccoptic": "Ϩⲱⲥ ⲟⲩⲱⲓⲛⲓ ⲙ̀ⲙⲏⲓتي ⲁⲕϣⲁⲓ ⲛ̀ⲛⲏⲉⲧⲥⲱⲣⲉⲙ ⲛⲉⲙ ⲛⲏⲉⲧⲟⲓ ⲛ̀ⲁⲧⲉ̀ⲙⲓ.",
+      "Englishcoptic": "Ϩⲱⲥ ⲟⲩⲱⲓⲛⲓ ⲙ̀ⲙⲏⲓTi ⲁⲕϣⲁⲓ ⲛ̀ⲛⲏⲉⲧⲥⲱⲣⲉⲙ ⲛⲉⲙ ⲛⲏⲉⲧⲟⲓ ⲛ̀ⲁⲧⲉ̀ⲙⲓ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+    }
+  ]
+}

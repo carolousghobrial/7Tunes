@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كما كانَ فهو كائنٌ وهكذا يكونُ إلى أجيالِ الأجيالٍ، وإلى سائرِ دهورِ الدهورِ. آمين.",
+      "Coptic": "Ⲱⲥⲡⲉⲣ ⲏⲛ ⲕⲉ ⲉⲥⲧⲓⲛ: ⲕⲉ ⲉⲥⲧⲉ: ⲓⲥ ⲅⲉⲛⲉⲁⲥ ⲅⲉⲛⲉⲱⲛ: ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲥⲩⲙⲡⲁⲛⲧⲁⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ: ⲁ̀ⲙⲏⲛ.",
+      "English": "As it was and is, it shall also be unto generations of generations and unto all the ages of the ages. Amen.",
+      "Arabiccoptic": "Ⲱⲥⲡⲉⲣ ⲏⲛ ⲕⲉ ⲉⲥⲧⲓⲛتي ⲕⲉ ⲉⲥⲧⲉتي ⲓⲥ ⲅⲉⲛⲉⲁⲥ ⲅⲉⲛⲉⲱⲛتي ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲥⲩⲙⲡⲁⲛⲧⲁⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛتي ⲁ̀ⲙⲏⲛ.",
+      "Englishcoptic": "Ⲱⲥⲡⲉⲣ ⲏⲛ ⲕⲉ ⲉⲥⲧⲓⲛTi ⲕⲉ ⲉⲥⲧⲉTi ⲓⲥ ⲅⲉⲛⲉⲁⲥ ⲅⲉⲛⲉⲱⲛTi ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲥⲩⲙⲡⲁⲛⲧⲁⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛTi ⲁ̀ⲙⲏⲛ."
+    }
+  ]
+}

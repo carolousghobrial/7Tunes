@@ -30,6 +30,7 @@ const settingsSlice = createSlice({
     BishopsPresent: [],
     currentSeason: {
       key: "STANDARD",
+      weekOfMonth: 1,
       week: moment().week(),
       dayOfWeek: moment().day(),
       gregorianDayOfMonth: moment().date(),

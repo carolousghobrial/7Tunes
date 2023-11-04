@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 118 : 4 ، 5 )",
+  "EnglishTitle": "Psalms 119:7-8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعترف لـك يـارب، باستقامة قلبي. إذ عرفـت أحـكـام عـدلـك. ",
+      "English": "7 I will praise You with uprightness of heart, When I learn Your righteous judgments. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وحقوقك أحفظها. ",
+      "English": "8 I will keep Your statutes."
+    }
+  ]
+}

@@ -1,6 +1,13 @@
-import { StyleSheet, Text, View, FlatList, Alert } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  FlatList,
+  Platform,
+  Alert,
+} from "react-native";
 import { setSeason } from "../stores/redux/settings";
-import { getLanguageValue } from "../helpers/SettingsHelpers";
+import { getLanguageValue, getColor } from "../helpers/SettingsHelpers";
 import moment from "moment";
 import React, { useState, useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -9,16 +16,21 @@ import {
   BottomSheetModalProvider,
   BottomSheetModal,
 } from "@gorhom/bottom-sheet";
-import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper";
+import {
+  setCurrentSeasonLive,
+  setCurrentSeasonByKey,
+} from "../helpers/copticMonthsHelper";
+
 import FeastView from "../components/homepage/feastView";
 import FeastModal from "../components/homepage/feastModal";
 import SelectYearModal from "../components/homepage/SelectYearModal";
 import SearchBar from "../components/ViewTypes/SearchBar";
-import { setCurrentSeasonByKey } from "../helpers/copticMonthsHelper";
 import Languages from "../constants/languages";
 import { getCopticFastsFeasts } from "../helpers/copticMonthsHelper";
 function FullFeastsScreen() {
   const dispatch = useDispatch();
+  const fontSize = useSelector((state) => state.settings.textFontSize);
+
   const timeTransition = useSelector((state) => state.settings.timeTransition);
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
@@ -26,6 +38,9 @@ function FullFeastsScreen() {
   const [yearModalVisible, setYearModalVisible] = useState(false);
   const [feastModalVisible, setFeastModalVisible] = useState(false);
   const flatListRef = useRef();
+  const isAndroid = Platform.OS === "ios" ? false : true;
+  const [time, setTime] = useState(new Date(timeTransition));
+
   const snapPoints = ["55%"];
   const bottomSheetRef = useRef(null);
 
@@ -65,6 +80,9 @@ function FullFeastsScreen() {
     );
     setCurrentData(data);
     setYearModalVisible(false);
+  }
+  function changeDate() {
+    Alert.alert("CHANGEDATE");
   }
 
   function liveClicked() {
@@ -114,6 +132,16 @@ function FullFeastsScreen() {
     }, 10);
   };
 
+  const handleTimeChange = (event, selectedTime) => {
+    const currentTime = selectedTime || time;
+    if (time != currentTime) {
+      setShowPicker(Platform.OS === "ios");
+      dispatch(setTimeTransition({ timeTransition: currentTime }));
+      dispatch(setSeason({ currentSeason: setCurrentSeasonLive(currentTime) }));
+
+      setTime(currentTime);
+    }
+  };
   function handleSearch(text) {
     setSearchPhrase(text);
     const filteredData = data.filter(
@@ -139,9 +167,12 @@ function FullFeastsScreen() {
         closeModal={closeYearModal}
         setYear={setYear}
       />
-
       <View style={styles.container}>
-        <FeastScreenTitleView liveClicked={liveClicked} yearClick={yearClick} />
+        <FeastScreenTitleView
+          liveClicked={liveClicked}
+          yearClick={yearClick}
+          changeDate={changeDate}
+        />
         <SearchBar
           setClicked={setClicked}
           searchPhrase={searchPhrase}
