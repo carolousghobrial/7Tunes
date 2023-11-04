@@ -39,13 +39,14 @@
         {
             "Type": "Base",
             "Rule": 0,
+            "mother": "MatinsGospel",
             "Visible": true,
             "Side": "North",
-            "Arabic": "مبارك الآتي بإسم رب القوات. يا رب بارك الفصل من الإنجيل المقدس من القديس (...).",
-            "Coptic": "`F`cmarwout `nje vheqnhou =en `vran `m`Psoic `nte nijom. Kurie euloghcon ek tou kata (...) `agiou euaggelion to `anagnwcma.",
-            "English": "Blessed is He who comes in the name of the Lord of powers. Bless, O Lord, the reading of the Holy Gospel according to Saint Matthew.",
-            "Arabiccoptic": "مبارك الآتي بإسم رب القوات. يا رب بارك الفصل من الإنجيل المقدس من القديس (...).",
-            "Englishcoptic": "Efesmaro-ot enje vi-ethneo khen efran emEpchois ente ni-gom , kerie evlogison ekto kata (..) agio, ev-angelio to anagh-nosma."
+            "Arabic": "مبارك الآتي بإسم رب القوات. يا رب بارك الفصل من الإنجيل المقدس من القديس [*STANDARD_GOSPEL_AUTHOR*].",
+            "Coptic": "`F`cmarwout `nje vheqnhou =en `vran `m`Psoic `nte nijom. Kurie euloghcon ek tou kata [*STANDARD_GOSPEL_AUTHOR*] `agiou euaggelion to `anagnwcma.",
+            "English": "Blessed is He who comes in the name of the Lord of powers. Bless, O Lord, the reading of the Holy Gospel according to Saint [*STANDARD_GOSPEL_AUTHOR*].",
+            "Arabiccoptic": "مبارك الآتي بإسم رب القوات. يا رب بارك الفصل من الإنجيل المقدس من القديس [*STANDARD_GOSPEL_AUTHOR*].",
+            "Englishcoptic": "Efesmaro-ot enje vi-ethneo khen efran emEpchois ente ni-gom , kerie evlogison ekto kata [*STANDARD_GOSPEL_AUTHOR*] agio, ev-angelio to anagh-nosma."
         },
         {
             "Type": "Base",
