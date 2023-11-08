@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "بالمسيح يسوع ربنا امين هلليلويا. السلام لكِ، نسألك أيتها القديسة الممتلئة مجداً، العذراء كل حين، والدة الإله، أم المسيح.",
-      "Coptic": "+en Px////c I h/c pen_. Amhn al.Xere ne ten;\\o e~ro> w qeqouab eqme\\ ‘n~w~ou> etoi n~parqenoc n~c/ou niben> ;macnou; q~mau m~Pixrictoc.",
+      "Coptic": "+en Pi`xrictoc Ihcouc peno̅c̅. Amhn Allhlouia. Xere ne ten;\\o `ero> `w qheqouab eqme\\ `n`wou> `etoi `mParqenoc `nchou niben> ;macnou; `qmau `mPi`xrictoc.",
       "English": "In Christ Jesus our Lord: Amen Alleluia. Hail to you. We ask you, : O saint, full of glory, : the ever-virgin, : the Mother of God, the Mother of Christ",
       "Arabiccoptic": ".خين بخريستوس ايسوس بين شويس امين الليلويا. شيرى نى تين تى هو إرو: أوتى إثؤواب إثميه إن أواو: إتؤى إم بارثينوس إن سيو نيفين: تى ماسنوتى إثماف إم بى إخرستوس.",
       "Englishcoptic": "Khen Pikhristos Isos Penshois. Amen Alleluia. Shere ne tenti ho ero, o the ethowab ethmeh en o o, etoi em Parthenos ensio nivin, timasnouty ethmav empikhristos"
@@ -21,7 +21,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "إصعدي صلُّواتنا، إلى إبنِكِ الحبيب، ليغفر لنا خطايانا.",
-      "Coptic": "Anioui n~tenp~roceuxh> e~p~swi \\a Pe]hri m~menrit> n~tefxa nennobi nan e~bol.",
+      "Coptic": " Aniou`i `nte`proc`euxh> `e`p]wi \\a pe]hri `mmenrit> `ntefxa nennobi nan `ebol.",
       "English": "To lift up our prayers : unto your beloved Son : that He may forgive us our sins.",
       "Arabiccoptic": "آنيؤوى إنتين إبروس إفكى اإبشوى هابى شيرى. إم مينريت: إنتيف كانين نوفى نان إيفول.",
       "Englishcoptic": "Ani ou oi enten epros evshi, e epshoi ha peshiry em menrit, entef kanen novi nan evol."
@@ -32,7 +32,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "السلام للتي ولدت لنا، النور الحقيقي، المسيح إلهنا، العذراء القديسة.",
-      "Coptic": "Xere qetacmici nan> m~piouwini n~ta`v~m/i> Pixrictoc Pennou;> ;parqenoc eqouab.",
+      "Coptic": "Xere qh`etacmici nan> `mpiOuwini `nta`vmhi> Pi`xrictoc penNou;> ;Parqenoc eqouab.",
       "English": "Hail to the holy Virgin, : to her who has borne for us : the true Light, : Christ our God.",
       "Arabiccoptic": "شيرى تى إيطاسميسى نان: إم بى أوينى إنتا إفمى: بى إخرستوس بين نوتى تى بارثينوس إثؤواب.",
       "Englishcoptic": "Shere thi etas misi nan, em pi o oiny enta efmi, pikhristos pen nouty, ti Parthenos ethowab."
@@ -43,7 +43,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "إسألي الرب عنا، ليصنع رحمةً مع نفوسنا، ويغفر لنا خطايانا.",
-      "Coptic": "Ma;\\o m~Psoic> e~\\~r/i e~jwn> n~teferounai nem nenyux/h> n~tefxa nennobi nan e~bol.",
+      "Coptic": "Ma;\\o `mPo̅c̅ `e`\\rhi `ejwn> `ntef`er ounai nem nenyuxh> `ntefxa nennobi nan `ebol.",
       "English": "Ask the Lord : on our behalf : that He may have mercy on our souls : and forgive us our sins.",
       "Arabiccoptic": "ماتى هو إم إبشويس: إإرى إيجون: إنتيف إيرأو ناى نيم نين إبسيشى: إنتيف كانين نوفى نان إيفول.",
       "Englishcoptic": "Mati ho em epshois, e ehri egon, entef er o nai nem nen epsiky, entef kanen novi nan evol."
@@ -54,7 +54,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أيتها العذراء مريم، والدة الإله القديسة، الشفيعة الأمينة لجنس البشر.",
-      "Coptic": ":parqenoc Mariam> ;qeo~tokoc eqouab> ;p~roctat/hc e~ten\\ot> n~te p~genoc n~te ;metrwmi.",
+      "Coptic": ":Parqenoc Mariam> ;qeotokoc eqouab> ;`proctathc `eten\\ot> `nte `pgenoc `nte ;metrwmi.",
       "English": "O Virgin Mary : the holy Theotokos, : the faithful advocate : of the human race",
       "Arabiccoptic": "تى بارثينوس ماريام: تى ثيئو توكوس. إثؤواب:تى إبروستاتيس إنتين هوت:إنتى إبجينوس إنتى تى ميت رومى.",
       "Englishcoptic": "Ti Parthenos Mariam, ti theotokos ethowab, tie pros tatis e ten hot, ente epgenos ente ti met romi"
@@ -65,7 +65,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "إشفعي فينا، أمام المسيح الذي ولدته، لكي ينعم لنا، بمغفرة خطايانا.",
-      "Coptic": "Arip~recbeuin e~`\\~rhi e~jwn> na\\ren Pixrictoc vh`/etar`ej~vof> \\opwc n~tefer\\~mot nan> m~pixw e~bol n~te nennobi.",
+      "Coptic": " Ari`precbeuin `e`\\rhi ejwn> na\\ren Pi`xrictoc> vh`etar`ejvof> \\opwc `ntef`er`\\mot nan> `m`pxw `ebol `nte nennobi.",
       "English": "Intercede on our behalf : before Christ whom you bore, : that He may grant us : the forgiveness of our sins.",
       "Arabiccoptic": "أرى إبريس فيفين إاهرى إيجون: ناهرين بخرستوس فيئيت ارى إجفوف:هوبوس إنتيف إرأهموت نان:إم بى كو إيفول إنتى نين نوفى.",
       "Englishcoptic": "Ari epresvevin e ehri egon, nahren pikhristos vi etare egvof, hopos entef er ehmot nan, empi ko evol ente nen novi."
@@ -76,7 +76,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "السلام لكِ أيتها العذراء، الملكة الحقيقية الحقانية. السلام لفخر جنسنا، لأنك ولدتِ لنا عمانوئيل.",
-      "Coptic": "Xere ne w~ ;parqenoc> ;ourw m~m/i `n`~a~l/qinh/> xere `p~]ou]ou n~te pengenoc> a~re`j~vo nan n`Emmanouhl.",
+      "Coptic": "Xere ne `w ;Parqenoc> ;ourw `mmhi `n`alhqinh> xere `p]ou]ou `nte pengenoc> are`jvo nan `nEmmanouhl.",
       "English": "Hail to you, O Virgin, : the true Queen indeed. : Hail to the pride of our race, : who has borne for us Immanuel.",
       "Arabiccoptic": "شيرى نى أوتي بارثينوس : تي اورو اممي ان اليثيني : شيرى ابشوشو انتى بين جينوس : اري اجفو نان ان اممانوئيل  .",
       "Englishcoptic": "Shere ne o ti Parthenos, ti o roe m mi en alithiny, shere ep shosho ente pengenos, ari egvo nan en emmanouel."
@@ -87,7 +87,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "نسألك أذكرينا، أيتها الشفيعة الأمينة، أمام ربنا يسوع المسيح، ليغفر لنا خطايانا.",
-      "Coptic": "Ten;\\o a~ripenmeui> w~ ;p~`roctath/c `e~ten\\ot> na\\ren Pen_  I h/c/  Pixrictoc> n~tefxa nennobi nan e~bol.",
+      "Coptic": " Ten;\\o `arepenmeu`i> `w ;`proctathc `eten\\ot> na\\ren peno̅c̅ Ihcouc Pi`xrictoc> `ntefxa nennobi nan `ebol.",
       "English": "We ask you to remember us, : O faithful advocate, : before our Lord Jesus Christ, : that He may forgive us our sins.",
       "Arabiccoptic": "تين تي هو اري بين ميفي : اوتي ابروس تا تيس ايتين هوت : ناهرين بين تشويس ايسوس بى خريستوس : انتيف كانين نوفي نان ايفول  .",
       "Englishcoptic": "Ten ti ho Ari pen mevi, w tie epros tatis eten hot, Nahren penshois Isos Pikhristos, entef kanen novi nan evol."

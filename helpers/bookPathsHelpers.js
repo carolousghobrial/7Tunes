@@ -1572,8 +1572,18 @@ const bookPaths = {
   KatamarosSundaysPaopeWeek4MatinsGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Paope/Week4/MatinsGospel.json"),
   KatamarosSundaysPaopeWeek4MatinsPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Paope/Week4/MatinsPsalm.json"),
   KatamarosSundaysPaopeWeek4VespersGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Paope/Week4/VespersGospel.json"),
-
   KatamarosSundaysPaopeWeek4VespersPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Paope/Week4/VespersPsalm.json"),
+
+  //Hathor
+  KatamarosSundaysHathorWeek1LiturgyActs: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Hathor/Week1/LiturgyActs.json"),
+  KatamarosSundaysHathorWeek1LiturgyCatholic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Hathor/Week1/LiturgyCatholic.json"),
+  KatamarosSundaysHathorWeek1LiturgyGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Hathor/Week1/LiturgyGospel.json"),
+  KatamarosSundaysHathorWeek1LiturgyPauline: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Hathor/Week1/LiturgyPauline.json"),
+  KatamarosSundaysHathorWeek1LiturgyPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Hathor/Week1/LiturgyPsalm.json"),
+  KatamarosSundaysHathorWeek1MatinsGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Hathor/Week1/MatinsGospel.json"),
+  KatamarosSundaysHathorWeek1MatinsPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Hathor/Week1/MatinsPsalm.json"),
+  KatamarosSundaysHathorWeek1VespersGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Hathor/Week1/VespersGospel.json"),
+  KatamarosSundaysHathorWeek1VespersPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Hathor/Week1/VespersPsalm.json"),
 };
 
 export default bookPaths;

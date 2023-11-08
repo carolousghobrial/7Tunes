@@ -5,6 +5,7 @@ import {
   FlatList,
   ActivityIndicator,
   Alert,
+  AppState,
 } from "react-native";
 import bookPaths from "../helpers/bookPathsHelpers";
 import { store, persistor } from "../stores/redux/store";
@@ -36,14 +37,9 @@ function HomepageScreen({ navigation, route }) {
   const [currentData, setCurrentData] = useState([]);
   const searchTerm = "John"; // The value you want to search for
   const results = [];
+  const appState = useRef(AppState.currentState);
+  const [appStateVisible, setAppStateVisible] = useState(appState.current);
 
-  // Using a for...in loop to search for the value
-  // for (const key in bookPaths) {
-  //   results.push(
-  //     bookPaths[key].Hymn.filter((item) => item.English?.includes(searchTerm))
-  //   );
-  //   console.log(results);
-  // }
   const bottomSheetRef = useRef(null);
 
   // variables

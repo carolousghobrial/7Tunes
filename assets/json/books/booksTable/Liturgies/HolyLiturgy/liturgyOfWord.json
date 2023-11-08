@@ -74,8 +74,8 @@
         },
         {
             "Type": "Button",
-            "Arabic": "طوبه هينا الكبيرة",
-            "English": "Tobh Hina (Great)",
+            "Arabic": "مرد الكاثوليكون - آ بيت جيك إيفول",
+            "English": "The Catholic Response - Apitjeek Evol",
             "Rule": "OpenSinglePage",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheWordApetjeekEvol"

@@ -5,6 +5,8 @@ import {
   Alert,
   Share,
 } from "react-native";
+import { setSeason, setIsTablet } from "../stores/redux/settings.js";
+
 import { Asset } from "expo-asset";
 import { setItemPurchased } from "../stores/redux/settings";
 import { useDispatch, useSelector } from "react-redux";
@@ -19,13 +21,32 @@ import {
   DrawerItemList,
   DrawerItem,
 } from "@react-navigation/drawer";
+import * as Device from "expo-device";
+import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper";
+import React, { useEffect } from "react";
 import * as Updates from "expo-updates";
 import { Platform } from "react-native";
 import * as FileSystem from "expo-file-system";
 import TopBoxView from "../components/homepage/topBoxView";
 const CustomDrawerScreen = (props) => {
   const dispatch = useDispatch();
+  const timeTransition = useSelector((state) => state.settings.timeTransition);
 
+  useEffect(() => {
+    async function prepare() {
+      try {
+        const season = setCurrentSeasonLive(timeTransition);
+        dispatch(setSeason({ currentSeason: season }));
+
+        const isTablet =
+          (await Device.getDeviceTypeAsync()) === 2 ? true : false;
+        dispatch(setIsTablet({ isTablet }));
+      } catch (e) {
+        console.log(e);
+      }
+    }
+    prepare();
+  }, []);
   const onShare = async () => {
     try {
       const result = await Share.share({

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 64 : 10 ، 11 )",
+  "EnglishTitle": "Psalms 65:10-11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ليرو حرثهـا ولتكـثر أثمارهـا. وتفـرح بقطراتهـا فتنبـت. ",
+      "English": "10 You water its ridges abundantly, You settle its furrows; You make it soft with showers, You bless its growth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تبـارك إكليـل السنة بصلاحك.  وبقاعك تمتلئ من الدسم..",
+      "English": "11 You crown the year with Your goodness, And Your paths drip with abundance\r"
+    }
+  ]
+}

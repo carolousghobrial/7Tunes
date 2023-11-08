@@ -39,23 +39,8 @@ function NavigationContainerView({ dispatch }) {
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   const darkMode = useSelector((state) => state.settings.darkMode);
-  const timeTransition = useSelector((state) => state.settings.timeTransition);
 
   const activeColors = darkMode === false ? Colors["light"] : Colors["dark"];
-
-  useEffect(() => {
-    async function prepare() {
-      try {
-        const season = setCurrentSeasonLive(timeTransition);
-        dispatch(setSeason({ currentSeason: season }));
-
-        const isTablet =
-          (await Device.getDeviceTypeAsync()) === 2 ? true : false;
-        dispatch(setIsTablet({ isTablet }));
-      } catch (e) {}
-    }
-    prepare();
-  }, []);
 
   function Root() {
     return (

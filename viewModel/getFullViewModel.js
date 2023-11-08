@@ -515,63 +515,37 @@ export function addItemsToArray(part, thisRule) {
 function GetTodaysReadingPath(path) {
   let filePath = "Katamaros";
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  switch (currentSeason.key) {
-    case "STANDARD":
-      switch (currentSeason.dayOfWeek) {
-        case 0:
-          filePath += "Sundays";
-          switch (currentSeason.copticMonth) {
-            case "Paope":
-              filePath += "Paope";
-              switch (currentSeason.weekOfMonth) {
-                case 1:
-                  break;
-                case 2:
-                  break;
-                case 3:
-                  break;
-                case 4:
-                  filePath += "Week4";
-                  switch (path) {
-                    case "VespersPsalm":
-                      filePath += "VespersPsalm";
-                      break;
-                    case "VespersGospel":
-                      filePath += "VespersGospel";
-                      break;
-                    case "MatinsPsalm":
-                      filePath += "MatinsPsalm";
-                      break;
-                    case "MatinsGospel":
-                      filePath += "MatinsGospel";
-                      break;
-                    case "LiturgyPauline":
-                      filePath += "LiturgyPauline";
-                      break;
-                    case "LiturgyCatholic":
-                      filePath += "LiturgyCatholic";
-                      break;
-                    case "LiturgyActs":
-                      filePath += "LiturgyActs";
-                      break;
-                    case "LiturgyPsalm":
-                      filePath += "LiturgyPsalm";
-                      break;
-                    case "LiturgyGospel":
-                      filePath += "LiturgyGospel";
-                      break;
-                  }
 
-                  break;
-              }
+  if (currentSeason.key === "STANDARD" && currentSeason.dayOfWeek === 0) {
+    filePath += "Sundays";
+
+    if (["Paope", "Hathor"].includes(currentSeason.copticMonth)) {
+      filePath += "Hathor";
+
+      switch (currentSeason.weekOfMonth) {
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+          filePath += `Week${currentSeason.weekOfMonth}`;
+          switch (path) {
+            case "VespersPsalm":
+            case "VespersGospel":
+            case "MatinsPsalm":
+            case "MatinsGospel":
+            case "LiturgyPauline":
+            case "LiturgyCatholic":
+            case "LiturgyActs":
+            case "LiturgyPsalm":
+            case "LiturgyGospel":
+              filePath += path;
               break;
           }
           break;
-        default:
-          break;
       }
-      break;
+    }
   }
+
   return filePath;
 }
 function getGospelAuthor(part) {
