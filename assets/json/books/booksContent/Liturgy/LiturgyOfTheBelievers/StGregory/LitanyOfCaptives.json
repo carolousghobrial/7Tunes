@@ -1,0 +1,172 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أوشية المسبيين",
+  "EnglishTitle": "Litany of the Captives",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اذكر ياربُّ الساكنين في الجبالِ والمغايرِ، وإخوتَنا الذين في السبي.",
+      "Coptic": "Arivmeui `Psoic `nnhet]op =en nitwou nem ni`cphleon> ouo\\ nen`cnhou et=en niexmalwcia.",
+      "English": "Remember, O Lord, those who dwell in the mountains and the caves, and our brethren who are in captivity.",
+      "Arabiccoptic": "آري إفميفئي إبتشويس إنني إتشوب خين ني طوأوو نيم ني سبيليؤن أووه نين إسنيو إتخين ني إخمالوسيا . ",
+      "Englishcoptic": "Arivmevi Epchois en-nee-etshop khen ni-too-oo nem ni-espee-leon: owoh nen-es-neiooo etkhen ni-ekhmaloo-seia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلُّوا من أجلِ المسبيينَ.",
+      "Coptic": "Proceu[acqe `uper twn exmalwtwn.",
+      "English": "Pray for the captives.",
+      "Arabiccoptic": " بروس أفكساستيه إيبرتون إيخمالوتون ",
+      "Englishcoptic": "Pros-eveksaste eper-ton ekhmalo-ton"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Kur`ie` el`ehcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Keer-ee-ee el-ee-eson."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنعِم عليهم بعودةٍ سالمةٍ إلى منازلِهم.",
+      "Coptic": "Ari`\\mot nwou `e\\anjintacqo `n\\irhnikon `e=oun `enh`ete nouou.",
+      "English": "Grant them a peaceful return unto their own.",
+      "Arabiccoptic": " . +اري إهموت نوؤ إنهان ﭽين ات استو إنهيريبيكون إخون إن إيتيه نوؤ  . ",
+      "Englishcoptic": "Ariehmot no-oo ehan-jin-tasto enhiree-nikon ekhon enee-ete no-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إسجُدوا للهِ بخوفٍ.",
+      "Coptic": "Klinate Qe`w meta vobou.",
+      "English": "Worship God in fear. ",
+      "Arabiccoptic": " إيكلانيتى ثي أوو ميتا فوفوو",
+      "Englishcoptic": "Eklinate The-oo meta vo-voo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارحَمْنا يا اللهُ مخلِّصَنا.",
+      "Coptic": "Ele`hcon `hmac o~ Qeoc `o cwthr `hmwn.",
+      "English": "Have mercy upon us, O God, our Savior.",
+      "Arabiccoptic": "اليسون ايماس اوثى اوس او سوتير اممون",
+      "Englishcoptic": "Eleison emas o-The-os o Soteer eemon"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارحَمْنا يا اللهُ مخلِّصَنا.",
+      "Coptic": "Ele`hcon `hmac o~ Qeoc `o cwthr `hmwn.",
+      "English": "Have mercy upon us, O God, our Savior.",
+      "Arabiccoptic": "اليسون ايماس اوثى اوس او سوتير اممون",
+      "Englishcoptic": "Eleison emas o-The-os o Soteer eemon"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارحَمْنا يا اللهُ مخلِّصَنا.",
+      "Coptic": "Ele`hcon `hmac o~ Qeoc `o cwthr `hmwn.",
+      "English": "Have mercy upon us, O God, our Savior.",
+      "Arabiccoptic": "اليسون ايماس اوثى اوس او سوتير اممون",
+      "Englishcoptic": "Eleison emas o-The-os o Soteer eemon"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Kur`ie` el`ehcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Keer-ee-ee el-ee-eson."
+    }
+  ]
+}

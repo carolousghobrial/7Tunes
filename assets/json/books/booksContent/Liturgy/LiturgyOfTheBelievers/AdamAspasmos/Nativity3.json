@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أسبسمس أدام عيد الميلاد 3",
+  "EnglishTitle": "Adam Aspasmos for Feast of Nativity 4",
+  "CopticTitle": "Xere `tve `mberi",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "السلام للسماء الجديدة، التي اشرق لنا منها، شمس البر، رب جميع البرية.",
-      "Coptic": "Xere `tve `mberi> `etaf]ai nan `ebol `n=htc> `nje pirh `nte ;dike`ocunh> Po̅c̅ `nte ;`kthcic thrc.",
+      "Coptic": "Xere `tve `mberi> `etaf]ai nan `ebol `n=htc> `nje pirh `nte ;dike`ocunh> Psoic `nte ;`kthcic thrc.",
       "English": "Hail to the new heaven, who brought us, the Sun of righteousness, the Lord of all creation.",
       "Arabiccoptic": " شيرى إتفى إمـفيرى :إيطاف شاى نان إفول إنخيتس:إنـﭼـى بيرى إنتى تى ذيكؤسينى : إبتشويس إنتى تى إكتيسيس تيرس . ",
       "Englishcoptic": "Shere etve emveri: etaf-shai nan evol en-kheets: en-je pi-ree en-te ti-zike-oseen-ee: Po̅s̅ en-te ti-ekteesis teers."

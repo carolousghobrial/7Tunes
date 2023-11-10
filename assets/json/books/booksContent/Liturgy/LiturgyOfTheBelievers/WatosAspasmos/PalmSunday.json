@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أسبسمس واطس احد الشعانين",
+  "EnglishTitle": "Watos Aspasmos for  of Neyrooz",
+  "CopticTitle": "Ou`]vhri efme\\",
   "Hymn": [
     {
       "Type": "Base",
@@ -13,7 +13,7 @@
       "Coptic": "Ou`]vhri efme\\ `n`wou> vhet\\emci \\ijen Nixeroubim> kata `vrh; `mpai`e\\oou> af]e `e=oun `eIeroucalhm.",
       "English": "A wonder full of glory, He who sits upon the Cherubim, on such a day, entered Jerusalem.",
       "Arabiccoptic": "او إيشفيري إيفميه إن أوأوو : في إيتهيمسي هيجين ني شيروبيم : كاطا إيفريتي أمباي أيهوؤو : إفشى إيخون إي ييروساليم",
-      "Englishcoptic": "Oooeshveeri efmeh en-o-oo: vee-ethemsi hijen- Nisherobim: kata evreeti empai-eho-oo: afshe ekhoon eIeroosaleem."
+      "Englishcoptic": "Oo-eshveeri efmeh en-o-oo: vee-ethemsi hijen- Nisherobim: kata evreeti empai-eho-oo: afshe ekhoon eIeroosaleem."
     },
     {
       "Type": "Base",

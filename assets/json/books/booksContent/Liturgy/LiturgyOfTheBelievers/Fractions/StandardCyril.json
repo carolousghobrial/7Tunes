@@ -21,7 +21,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا الله الذي سبق فوسمنا للبنوة بيسوع المسيح ربنا كمسرة إرادتك، كرامة لمجد نعمتك التي أنعمت بها علينا بحبيبك.",
-      "Coptic": "Vnou; vh`etafer]orp `nqa]ten `eoumet]hri> \\iten Ihcouc Pi`xrictoc peno̅c̅> kata `p;ma; `mpekouw]> `eoutaio `nte `p`wou `nte pek`\\mot> vh`etaker`\\mot `mmof nan =en Pekmenrit.",
+      "Coptic": "Vnou; vh`etafer]orp `nqa]ten `eoumet]hri> \\iten Ihcouc Pi`xrictoc Pensoic> kata `p;ma; `mpekouw]> `eoutaio `nte `p`wou `nte pek`\\mot> vh`etaker`\\mot `mmof nan =en Pekmenrit.",
       "English": "O God, who foreordained us to sonship through Jesus Christ our Lord, according to the good pleasure of Your will, unto the honor of the glory of Your grace, which You have granted to us through Your Beloved.",
       "Arabiccoptic": "إفتي فيإيتافيرشورب إنثاشتين إي أوميتشيري: هيتين إييسأوس بيإخريستوس بينو̅س̅: كاتا إبتيماتي إمبي كأوأوؤوش: إيأوتايو إنتي إب ؤو إنتي بيكإهموت: فيإيتاكيرإهموت إمموف نان خين بيكمينريت.",
       "Englishcoptic": "eVti vee-etaf-ershorp en-thashten- -eoometsheeri: hiten- Isos Pikhristos pen-o̅s̅: kata eptimati empek-o-oosh: -eootaio en-te ep-o-oo en-te pek-ehmot: vee-etakerehmot emmof nan khen- Pekmen-rit."
@@ -43,7 +43,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "نشكرك أيها الرب الإله ضابط الكل، لأنك جعلتنا مستحقين نحن الخطاة. أن نقف في هذا الموضع المقدس، ونكمل هذا السر المقدس السمائي.",
-      "Coptic": "Ten]ep`\\mot `ntotk `Po̅c̅ Vnou; piPantokratwr> je ak`qrener`pem`p]a `anon =a nirefernobi. `E`o\\i `eraten =en paima eqouab vai ouo\\ `ejwk `mpai`agion `mMucthrion `nte nivhou`i `ebol.",
+      "Coptic": "Ten]ep`\\mot `ntotk `Psoic Vnou; piPantokratwr> je ak`qrener`pem`p]a `anon =a nirefernobi. `E`o\\i `eraten =en paima eqouab vai ouo\\ `ejwk `mpai`agion `mMucthrion `nte nivhou`i `ebol.",
       "English": "We give thanks to You, O Lord God the Pantocrator, for You have made us, who are sinners, worthy to stand in this holy place and fulfill this holy, heavenly Mystery.",
       "Arabiccoptic": "تينشيبإهموت إنتوتك إبو̅س̅ إفتي بيبانتوكراتوور: جي اكإثرينيرإبيمإبشا  انون خا نيريفيرنوفي. إي وهي إيراتين خين بايما إإثؤواب فاي أووه إيجووك إمباي اجيون إمميستيريون إنتي نيفيأو إي إيفول.",
       "Englishcoptic": "Ten-shepehmot en-totk ePo̅s̅ eVti pi-Pantokratoor: je akethren-erepemep-sha anon kha ni-refernovi. -E-ohi -eraten- khen- paima ethowab vai owoh -egook empai-agion emmeesteerion en-te ni-fi-owi evol."
@@ -90,7 +90,7 @@
       "Coptic": "Je ic vai afsinem nek`cvotou> `fna`wli `nnek`anomia> ouo\\ neknobi throu `fnatoubwou.",
       "English": "\"Behold, this has touched your lips, it shall take away your iniquities and cleanse all your sins.\"",
       "Arabiccoptic": "جي يس فاي افتشينيم نيكإسفوتأو: إفنا وولي إنني ك انوميا: أووه نيكنوفي تييرو إفناتأوفؤو.",
-      "Englishcoptic": "Ge is vai afchinem nek-esvotoo: efna-ooli en-nek-anomia: owoh nek-novi tero efnatoovo-oo."
+      "Englishcoptic": "Je is vai afchinem nek-esvotoo: efna-ooli en-nek-anomia: owoh nek-novi tero efnatoovo-oo."
     },
     {
       "Type": "Base",
@@ -178,7 +178,7 @@
       "Coptic": "Je `nchou men gar niben `e]wp `areten]aner`proceuxecqe> twb\\ `mpairh; ouo\\ `ajoc. Je penIwt...",
       "English": "\"At all times, whenever you pray, entreat in this manner, and say, 'Our Father...'\"",
       "Arabiccoptic": "جي إنسيأو مين غار نيفين إيشووب  اريتينشانيرإبروسيفشيستي: تووبه إمبايريتي أووه  اجوس. جي بينإيووت...",
-      "Englishcoptic": "Ge en-seeoo men- ghar ni-ven- -eshoop -areten-shanereprosevsheste: toobh empaireeti owoh -agos. Je pen-Ioot..."
+      "Englishcoptic": "Je en-seeoo men- ghar ni-ven- -eshoop -areten-shanereprosevsheste: toobh empaireeti owoh -agos. Je pen-Ioot..."
     }
   ]
 }

@@ -18,8 +18,7 @@
             "hasSubBooks": false,
             "BookPath": "liturgyofStGregory",
             "ImageURL": "liturgyofStGregory",
-            "Enabled": true,
-            "Released": false
+            "Enabled": true
         },
         {
             "EnglishTitle": "Liturgy of St.Cyril",

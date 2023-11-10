@@ -64,6 +64,14 @@
       "Englishcoptic": "Pi-Laos:"
     },
     {
+      "Type": "Button",
+      "Arabic": "واحد هو الآب القدوس.",
+      "English": "One is the Holy Father",
+      "Rule": "OpenSinglePage",
+      "Visible": true,
+      "Path": "LiturgyLiturgyOfTheBelieversStGregoryOneIsTheHolyFather"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -281,7 +289,7 @@
       "Coptic": "Je qai te :car[ `nreftan=o `eta pekmonogenhc `n}hri> Pensoic ouo\\ Pennou; ouo\\ Pencwthr Ihcouc Pi`xrictoc> sitc `ebol =en tensoic `nnhb thren :qe`otokoc eqouab ;`agia Maria.",
       "English": "that this is the life-giving Flesh that Your only-begotten Son, our Lord, God, and Savior Jesus Christ, took from our Lady, the Lady of us all, the holy Theotokos, Saint Mary.",
       "Arabiccoptic": " جي ثاي تي تيساريكس إنريف تانخوإبطا بيك مونوجينيس إنشيري بين شويس اووه بيننوتي اووه بينسوتير إيسوس بي إخرستوس تشيتس إيفول خين تين شويإننيب تيرين تيثيئوطوكوس إثؤواب تي آجيا ماريا ",
-      "Englishcoptic": "Ge thai te Tisarx en-reftankho eta pek-monogen-ees En-Sheeri: Pen-chois owoh Pen-nooti owoh Pen-sooteer Isos Pikhristos: chits evol khen- ten-chois en-neev teeren- Ti-the-otokos ethowab ti-agia Maria."
+      "Englishcoptic": "Je thai te Tisarx en-reftankho eta pek-monogen-ees En-Sheeri: Pen-chois owoh Pen-nooti owoh Pen-sooteer Isos Pikhristos: chits evol khen- ten-chois en-neev teeren- Ti-the-otokos ethowab ti-agia Maria."
     },
     {
       "Type": "Base",

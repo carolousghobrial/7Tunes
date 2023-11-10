@@ -199,6 +199,14 @@
             "Path": "LiturgyOffertoryAbsolutionOfTheServants",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس الكلمة",
+            "English": "Liturgy of the Word",
+            "Rule": "OpenNewPage",
+            "Visible": true,
+            "Path": "liturgyOfWord"
         }
     ]
 }

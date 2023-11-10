@@ -312,47 +312,6 @@
       "English": "Lord have mercy (3)",
       "Arabiccoptic": "كيريي ليسون كيريي ليسون كيريي ليسون",
       "Englishcoptic": "Kiryalison (3)."
-    },
-    {
-      "Type": "Ritual",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "ثم يأخذ الكاهن لفافة على يده اليمنى ولفافة أخرى على يده اليسرى ويقول:",
-      "English": "The priest takes the linen in his right hand and another in his left hand, and says:"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "Priest",
-      "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "اجعلنا مستحقين كلنا، يا سيدنا، أن نتناول من قُدساتك طهارةً لأنفسنا وأجسادنا وأرواحنا.",
-      "Coptic": "`Ariten`nem`p]a thren Pennhb> `esi `ebol =en nheqouab `ntak> `eoutoubo `nte nenyuxh nem nencwma nem nen`pneuma.",
-      "English": "Make us all worthy, O our Master, to partake of Your Holies, unto the purification of our souls, our bodies, and our spirits,",
-      "Arabiccoptic": "آريتين إن إيم إبشا تيرين بين نيب إتشي ايفول خين نيئثؤواب إنتاك إي أوطوقو إنتي نين إبسيشي نيم نين سوما نيم نين إبنيقما",
-      "Englishcoptic": "-Ariten-en-emep-sha teeren- Pen-neeb: echi evol khen- nee-ethowab en-tak: eootoovo en-te nen-pseeshee nem nen-sooma nem nen-epnevma."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "لكي نكون جسداً واحداً، وروحاً واحداً، ونجد نصيباً وميراثاً مع جميع القديسين الذين أرضوك منذ البدء.",
-      "Coptic": "|ina `nten]wpi `noucwma `nouwt> nem ou`pneuma `nouwt> `ntenjimi `noumeroc nem ou`klhroc> nem nheqouab throu `etauranak icjen `p`ene\\.",
-      "English": "that we may become one body and one spirit, and may have a share and an inheritance with all the saints who have pleased You since the beginning.",
-      "Arabiccoptic": "هينا إنتين شوبي إن اوسوما إن أوأوت نيم أو إبنيقما إن أوأوت إنتين جيمي إن أوميروس نيم أو إكليروس نيم نيئثؤواب تيروإيتافراناك يسجين إبئينيه .",
-      "Englishcoptic": "Hina en-ten-shoopi en-oosooma en-o-oot: nem ooepnevma en-o-oot: en-ten-jimi en-oomeros nem ooekleeros: nem nee-ethowab tero etavranak isjen- ep-eneh."
     }
   ]
 }

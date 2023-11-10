@@ -1,0 +1,81 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أوشية القرابين",
+  "EnglishTitle": "The Litany for the Oblations ",
+  "Hymn": [
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبعد ذلك يشير الكاهن بيديه إلى القرابين الموضوعة أمامه وهو يقول: (يقولها الأب البابا أو المطران أو الأسقف إذا كان حاضراً)",
+      "English": "The priest points with his hands to the oblations set before him, saying the following (which is said by the pope, the metropolitan, or the bishop, if present):"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اذكر ياربُّ الذين قدَّموا لكَ هذه القرابين، والذين قُدِّمَتْ عنهم، والذين قُدِّمَتْ بواسطتِهم، أعطِهم كلَّهم الأجرَ السمائي.",
+      "Coptic": "Ari`vmeu`i `Psoic `nnh`etau`ini nak `e=oun `nnai dwron> nem nh`etau`enou `ejwou>nem nh`etau`enou `ebol\\itotou> moi nwou throu `mpibexe pi`ebol=en nivhou`i.",
+      "English": "Remember, O Lord, those who have brought to You these gifts, and those on whose behalf they have been brought, and those by whom they have been brought. Give them all the heavenly reward.",
+      "Arabiccoptic": "آرى إفميفئى إبشويس إن نى إيطاف إينى ناك إيخون إن ناى ذورون. نيم نى إيطاف إينو إيجوؤو نيم نى إيطاف إينو إيفول هيطوطو. موى نؤو تيرو إمبى فيكى بى إيفول خين نى فيئوى.",
+      "Englishcoptic": "Ari-evmev-ee Epchois ennee-etav-eeni nak ekhoon ennai zooron: nem nee-etav-enoo ego-oo:nem nee-etav-enoo evol hito-too: moi no-oo teeroo empive-kee pi-evol khen ni-fi-owi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلُّوا من أجل هذه القرابين المقدسةِ الكريمةِ، وضحايانا والذين قَدَّموها. ياربُّ ارحم.",
+      "Coptic": "`Proceuxacqe. `uper twn `agiwn timiwn dwron toutwn ke quciwn `hmwn ke procverontwn> Kurie `ele`hcon.",
+      "English": "Pray for these holy precious gifts, our sacrifices, and those who bring them. Lord have mercy.",
+      "Arabiccoptic": "إبروس إفئكساستى إيبيرتون آجيون تيميون ذورون توطون كى ثيسيون إيمون كى إبروس فيرون طون. كيريى إليسون.",
+      "Englishcoptic": "Pros-evexaste eeper ton agioon timioon zooron too-ton ke thee-see-oon eemoon ke epros-veron-ton: Keerie-ele-eison."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ياربُّ ارحَم.",
+      "Coptic": "Kuri`e `ele`hcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Kerie-leyson"
+    }
+  ]
+}

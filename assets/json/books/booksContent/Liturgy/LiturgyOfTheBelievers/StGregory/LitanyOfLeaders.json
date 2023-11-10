@@ -1,0 +1,73 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أوشية الملوك",
+  "EnglishTitle": "Litany of the Leaders",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أذكر ياربُّ الذين تملَّكُوا في التقوى والذين هم الآن ملوكٌ (رؤساء).",
+      "Coptic": "Ari`vmeui` Psoic `nnh`etauerouro =en ;meteucebhc> nem nhetoi n~ouro (`mproedroc).",
+      "English": "Remember, O Lord, those who have reigned in godliness and those who are now kings (leaders).",
+      "Arabiccoptic": "آري إفميفئي إبتشويس إنني إيتاف إير أوورو خين تي ميت إيفسيبيس نيم ني إيت أووي إن أوورو . ",
+      "Englishcoptic": "Ari-evmevie Epchois en-nee-etav-er-ooro khen ti-met-evsevees: nem nee-etoi en-ooro (empro-ezros)."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلُّوا من أجلِ ملوكِنا (رؤسائِنا) محبي المسيح.",
+      "Coptic": "Proceu[acqe `uper twn vilo`xrictwn `hmwn bacilewn (`proedrwn).",
+      "English": "Pray for our Christ loving kings (leaders).",
+      "Arabiccoptic": "بروس إفكصاستيه إيبيرطون فيلو خريستون إيمون فاسيلي أوون . ",
+      "Englishcoptic": "Prosevxaste eper toon filo-ekhristoon eemoon vasi-le-oon (empro-ezros)."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Kur`ie` el`ehcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Keer-ee-ee el-ee-eson."
+    }
+  ]
+}

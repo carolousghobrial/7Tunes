@@ -1,0 +1,128 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "اوشية الموضع",
+  "EnglishTitle": "Litany of the Place",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اذكر ياربُّ خلاصَ هذا الموضعِ المقدس الذي لكَ، وكلِّ المواضعِ وكلِّ أديرةِ آبائنا الأرثوذكسيين.",
+      "Coptic": "Ari`vmeu`i Psoic `n`tcwthria `mpaitopoc eqouab `ntak vai > nem topoc niben nem monacthrion niben `nte nenio; `norqodo[oc.",
+      "English": "Remember, O Lord, the salvation of this Your holy place, and every place, and every monastery of our orthodox fathers",
+      "Arabiccoptic": "أرى إفميفئى إبشويس إن إتسوتيريا إمباى توبوس إثؤواب إنتاك فاى نيم توبوس نيفين نيم مونا ستيريون نيفين إنتى نين يوتى إن أورثوذكسوس",
+      "Englishcoptic": "Ari efmev-e Epshois en etsotiria empai topos Ethowab entak fai, nem topos niven, nem monastirion niven ente nen ioty en orthozoxos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلُّوا من أجلِ خلاصِ العالم، ومدينتِنا هذه* وسائرِ المدنِ والكُوَرِ والجزائرِ والأديرةِ.",
+      "Coptic": "`Proceu[acqe `upper thc cwthriac tou kocmou ke thc polewc `hmwn tauthc ke pacwn polewn ke twn xwron ke nhcwn ke monacthriwn.",
+      "English": "Pray for the salvation of the world and of this city of ours, and of all cities, districts, islands, and monasteries",
+      "Arabiccoptic": "إبروس إف إكساستى إيبرتيس سوتيرياس طو كوزمو كى تيس بوليئوس إيمون طافتيس كى باسون بوليئون كى طون خورون كى نيسون كى موناستيريون.",
+      "Englishcoptic": "Epros ev exasti eper tees cotirias to kozmo, ke tees pole-os eimon tavtees ke pason pole-on ke ton khoron ke nison ke monastireyion."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ياربُّ ارحَم.",
+      "Coptic": "Kuri`e `ele`hcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Kerie-leyson"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكلِّ مدينةٍ، وكلِّ كورةٍ، والقرى وكلِّ زينتِها.",
+      "Coptic": "Nem polic niben nem xwra niben nem ni;mi nem pouvolvel thrf.",
+      "English": "And every city and every country, and the villages and all their adornment.",
+      "Arabiccoptic": "نيم بولس نيفين نيم خورا نيفين نيم نى تيمى نيم بو سولسيل تيرف",
+      "Englishcoptic": "Nem polis niven, nem khora niven, nem ni timy, nem po solsel tirf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ونجنا كلَّنا من الغلاءِ، والوباءِ، والزلزالِ، والغرقِ، والحريقِ، وسبي البربرِ، ومن سيفِ الغريبِ، ومن قيامِ الهراطقةِ.",
+      "Coptic": "Ouo\\ na\\men thren `ebol \\a ou`\\bwn nem oumou nem oumonmen nem oukatapontic moc nemo u`xrwm nem ouexmalwcia `nte \\anbarbaroc > nem ebol \\a `tchfi `nte pi]emmo > nem `ebol \\a `pjintwnf `e`p]wi `nte \\an\\eretikoc.",
+      "English": "And save us all from famine, plague, earthquake, drowning, fire, captivity by barbarians, the sword of the stranger, and the rising up of herecies.",
+      "Arabiccoptic": "أووه ناهمين تيرين إيفول ها أو إهفون نيم او مونيم أو منمين نيم أو كاطا بونتسموس نيم او إكروم نيم أو إخمالوسيا إنتى هان فرفاروس نيم إيفول ها إتسيفى إنتى بى شيممو نيم إيفول ها إيجين طنف إى إبشوى إنتى هان هيريتيكوس.",
+      "Englishcoptic": "Owoh nahmen tiren evol ha o ehvon nem omo nem o monmen nem o katapon tismos nem o ekrom nem o ekhmalosia ente han Barbaros, nem evol ha et cify ente pi shemmo, nem evol ha epjin tonf e epshoi ente han heretikos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ياربُّ ارحَم.",
+      "Coptic": "Kuri`e `ele`hcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Kerie-leyson"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أسبسمس واطس عيد الغطاس",
+  "EnglishTitle": "Watos Aspasmos for Feast of Theophany",
+  "CopticTitle": "Qelhl `m`vrh;",
   "Hymn": [
     {
       "Type": "Base",
@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "تهلل مثل الحملان، أيها الأردن وبريته، فقد أتى إليك الحمل، حامل خطية العالم.",
-      "Coptic": "qelhl `m`vrh; `n\\an\\ihb> `w Piiordanhc nem pef`drimoc> je af`i ]arok `nje Pi\\ihb> vhet`wli `m`vnobi `mpikocmoc.",
+      "Coptic": "Qelhl `m`vrh; `n\\an\\ihb> `w Piiordanhc nem pef`drimoc> je af`i ]arok `nje Pi\\ihb> vhet`wli `m`vnobi `mpikocmoc.",
       "English": "Rejoice like the lambs, O Jordon and its shores, for unto you came the Lamb, who carries the sin of the world.",
       "Arabiccoptic": "ثيليل إمفريتى إنهان هييب: أو بى يوردانيس نيم بيف إذريموس: ﭼـى أفئى شاروك إنـﭼـى بى هييب: فى إتؤلى إم افنوتـى إمبى كوزموس . ",
-      "Englishcoptic": "theleel emevreeti en-hanhieeb: -oo Piiorzanees nem pefezrimos: je af-ee sharok en-je Pihieeb: vee-et-ooli emevnovi empi-kosmos."
+      "Englishcoptic": "Theleel emevreeti en-hanhieeb: -oo Piiorzanees nem pefezrimos: je af-ee sharok en-je Pihieeb: vee-et-ooli emevnovi empi-kosmos."
     },
     {
       "Type": "Base",

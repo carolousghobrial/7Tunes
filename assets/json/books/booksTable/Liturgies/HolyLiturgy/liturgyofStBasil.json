@@ -5,8 +5,20 @@
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
-            "Arabic": "قداس المؤمنين",
-            "English": "Liturgy of the Believers"
+            "Arabic": "قداس القديس باسيليوس",
+            "English": "Liturgy of St.Basil"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordInTheWisdom",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersCreed",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Button",
@@ -17,10 +29,19 @@
             "Path": "LiturgyLiturgyOfTheBelieversStBasilAnotherReconcliationPrayer"
         },
         {
+            "Type": "Button",
+            "Arabic": " صلاة صلح ثانية (القداس غريغوريوس)",
+            "English": "Another Prayer of Reconciliation To The Father (Saint Gregory's Liturgy)",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryAnotherReconcliationPrayer"
+        },
+        {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilReconcliationPrayer",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryReconcliationPrayer"
         },
         {
             "Type": "Button",
@@ -54,7 +75,8 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilAnaphora",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryAnaphora"
         },
         {
             "Type": "Button",
@@ -74,7 +96,8 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilAgiosAgiosAgios",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryAgiosAgiosAgios"
         },
         {
             "Type": "Main",
@@ -92,19 +115,30 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilInstitutionNarrative",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryInstitutionNarrative"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilEpiclesis",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryEpiclesis"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "نَعَم نَسألُكَ",
+            "English": "Yea, we ask You,",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryYeaWeAskYou"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfPeace",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfPeace"
         },
         {
             "Type": "Main",
@@ -129,6 +163,14 @@
             "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfPlace",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "لأن شعبَكَ",
+            "English": "For Your people ",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryJeNaiNan"
         },
         {
             "Type": "Main",
@@ -164,7 +206,8 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilCommemorationOfSaints",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryCommemorationOfSaints"
         },
         {
             "Type": "Button",
@@ -208,7 +251,16 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilThoseOLord",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryRemmemberOLord"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "(الغريغوري)كما كان ",
+            "English": "As it was (Gregorian)",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryAsItWas"
         },
         {
             "Type": "Main",
@@ -220,13 +272,15 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilLeadUsThroughoutTheWay",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryThatAsInThis"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilIntroductionToTheFraction",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryIntroductionToTheFraction"
         },
         {
             "Type": "Button",
@@ -252,7 +306,8 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStBasilTheConfession",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryTheConfession"
         }
     ]
 }

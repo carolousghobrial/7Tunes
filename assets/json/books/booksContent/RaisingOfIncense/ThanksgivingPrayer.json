@@ -6,7 +6,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "inRaisingOfIncense",
       "Side": "People",
       "Arabic": "الشعب:",
       "Coptic": "Pilaoc>",
@@ -17,7 +17,7 @@
     {
       "Type": "Base",
       "Rule": 0,
-      "Visible": true,
+      "Visible": "inRaisingOfIncense",
       "Side": "North",
       "Arabic": "بالمسيح يسوع ربنا",
       "Coptic": "+en Pi`xrictoc Ihcouc Pensoic.",

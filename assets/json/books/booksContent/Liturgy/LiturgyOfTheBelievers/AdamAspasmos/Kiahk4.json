@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "اسبسموس أدآم للاسبوع الرابع",
+  "EnglishTitle": "Aspasmos Adam - 4th Week ",
+  "CopticTitle": "Ou`ouwini pe Vnou;",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الله هو نور وساكن في النور وملائكة النور تسبحه.",
-      "Coptic": "Ou`ouwini pe V;> ef]op =en pi`ouwini> \\an aggeloc `n`ouwini `eter\\umnoc erof.",
+      "Coptic": "Ou`ouwini pe Vnou;> ef]op =en pi`ouwini> \\an aggeloc `n`ouwini `eter\\umnoc erof.",
       "English": "God is Light dwelling in the Light, with angels of light praising Him.",
       "Arabiccoptic": "أوأويني بي أفنوتي إفشوب خين بي أوأويني هان آنجيليوس إن أو أويني إتئير هيمنوس إيروف",
       "Englishcoptic": "Ooo-o-ooini pe Vti-: efshop khen pi-o-ooini: han angelos en-o-ooini eterheemnos erof."

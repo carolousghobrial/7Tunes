@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أذكُر يا ربُّ الآخَرِينَ الذِينَ ذَكَرناهُم المؤمِنينَ، وأيضاً الذِينَ لم نذكُرْهُمْ الأرثوذكسيينَ.",
-      "Coptic": "Ⲁ̀ⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲛⲓⲕⲉⲭⲱⲟⲩⲛⲓ: ⲉ̀ⲧⲁⲛⲉⲣⲡⲟⲩⲙⲉⲩⲓ ⲙ̀ⲡⲓⲥⲧⲟⲥ: ⲛⲉⲙ ⲛⲏ ⲟⲛ ⲉ̀ⲧⲉ ⲙ̀ⲡⲉⲛⲉⲣⲡⲟⲩⲙⲉⲩⲓ ⲛ̀ⲟⲣⲑⲟⲇⲟⲝⲟⲥ.",
+      "Coptic": "`Ari`vmeui `Psoic `nnikexwouni> `etanerpoumeui `mpictoc> nem nh on `ete `mpenerpoumeui `norqodo[oc.",
       "English": "Remember, O Lord, the others: those whom we have remembered, the faithful, and those whom we have not remembered, the orthodox—",
-      "Arabiccoptic": "Ⲁ̀ⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲛⲓⲕⲉⲭⲱⲟⲩⲛⲓتي ⲉ̀ⲧⲁⲛⲉⲣⲡⲟⲩⲙⲉⲩⲓ ⲙ̀ⲡⲓⲥⲧⲟⲥتي ⲛⲉⲙ ⲛⲏ ⲟⲛ ⲉ̀ⲧⲉ ⲙ̀ⲡⲉⲛⲉⲣⲡⲟⲩⲙⲉⲩⲓ ⲛ̀ⲟⲣⲑⲟⲇⲟⲝⲟⲥ.",
-      "Englishcoptic": "Ⲁ̀ⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲛⲓⲕⲉⲭⲱⲟⲩⲛⲓTi ⲉ̀ⲧⲁⲛⲉⲣⲡⲟⲩⲙⲉⲩⲓ ⲙ̀ⲡⲓⲥⲧⲟⲥTi ⲛⲉⲙ ⲛⲏ ⲟⲛ ⲉ̀ⲧⲉ ⲙ̀ⲡⲉⲛⲉⲣⲡⲟⲩⲙⲉⲩⲓ ⲛ̀ⲟⲣⲑⲟⲇⲟⲝⲟⲥ."
+      "Arabiccoptic": "أريإفميفي إبتشويس إنني كيخؤوني: إيتانيربأوميفي إمبي ستوس: نيم ني ون إيتي إمبي نيربأوميفي إنورثوزوكسوس.",
+      "Englishcoptic": "-Arievmevi Epchois en-ni-kekho-ooni-: -etanerpoomevi empi-stos: nem nee on ete empen-erpoomevi en-orthozoxos."
     },
     {
       "Type": "Base",
@@ -32,10 +32,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هؤلاءِ الذينَ نحنُ وهُم، كصالِحٍ ومُحِبِّ البشرِ يا الله.",
-      "Coptic": "Ⲛⲁⲓ ⲉ̀ⲧⲉ ⲁ̀ⲛⲟⲛ ⲛⲉⲙⲱⲟⲩ ϩⲱⲥ Ⲁ̀ⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ⲙ̀Ⲙⲁⲓⲣⲱⲙⲓ Ⲫ̀ⲛⲟⲩϯ.",
+      "Coptic": "Nai `ete `anon nemwou \\wc `Agaqoc ouo\\ `mMairwmi `Vnou;.",
       "English": "them and us—as a Good One and Lover of Mankind, O God.",
-      "Arabiccoptic": "Ⲛⲁⲓ ⲉ̀ⲧⲉ ⲁ̀ⲛⲟⲛ ⲛⲉⲙⲱⲟⲩ ϩⲱⲥ Ⲁ̀ⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ⲙ̀Ⲙⲁⲓⲣⲱⲙⲓ Ⲫ̀ⲛⲟⲩϯ.",
-      "Englishcoptic": "Ⲛⲁⲓ ⲉ̀ⲧⲉ ⲁ̀ⲛⲟⲛ ⲛⲉⲙⲱⲟⲩ ϩⲱⲥ Ⲁ̀ⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ⲙ̀Ⲙⲁⲓⲣⲱⲙⲓ Ⲫ̀ⲛⲟⲩϯ."
+      "Arabiccoptic": "ناي إيتي  انون نيمؤو هووس  أغاثوس أووه إممايروومي افنوتي.",
+      "Englishcoptic": "Nai ete anon nemo-oo hoos -Aghathos owoh emmairoomi Evnoti-."
     },
     {
       "Type": "Base",
@@ -54,10 +54,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "حِلَّ وإغفِرْ وإصفحْ لنا يا اللهُ عن زلاتِنا، التي صنعناها بإرادَتِنا والتي صنعناها بغيرِ إرادَتِنا، التي فعلناها بمعرِفَةٍ والتي فعلناها بغيرِ معرِفَةٍ، الخفيَّةِ والظاهِرةِ، يا رب اغفِرْها لنا.",
-      "Coptic": "Ⲃⲱⲗ ⲉ̀ⲃⲟⲗ ⲭⲱ ⲉ̀ⲃⲟⲗ ⲁ̀ⲣⲓⲥⲩⲛⲭⲱⲣⲓⲛ ⲛⲁⲛ Ⲫ̀ⲛⲟⲩϯ ⲛ̀ⲛⲉⲛⲡⲁⲣⲁⲡⲧⲱⲙⲁ: ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲡⲉⲛⲟⲩⲱϣ: ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲡⲉⲛⲟⲩⲱϣ ⲁⲛ: ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲟⲩⲉ̀ⲙⲓ: ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧⲉ̀ⲙⲓ: ⲛⲏⲉⲧϩⲏⲡ ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ: Ⲡ̀ϭⲟⲓⲥ ⲉⲕⲉ̀ⲭⲁⲩ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+      "Coptic": "Bwl `ebol xw `ebol `aricunxwrin nan `Vnou; `nnenparaptwma> nh`etanaitou =en penouw]> nem nh`etanaitou =en penouw] an> nh`etanaitou =en ou`emi> nem nh`etanaitou =en oumetat`emi> nhet\\hp nem nheqouwn\\ `ebol> `Psoic ek`exau nan `ebol.",
       "English": "Loose, remit, and forgive us, O God, our iniquities which we have committed willingly and which we have committed unwillingly, which we have committed knowingly and which we have committed unknowingly; the hidden and the manifest, O Lord, remit for us.",
-      "Arabiccoptic": "Ⲃⲱⲗ ⲉ̀ⲃⲟⲗ ⲭⲱ ⲉ̀ⲃⲟⲗ ⲁ̀ⲣⲓⲥⲩⲛⲭⲱⲣⲓⲛ ⲛⲁⲛ Ⲫ̀ⲛⲟⲩϯ ⲛ̀ⲛⲉⲛⲡⲁⲣⲁⲡⲧⲱⲙⲁتي ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲡⲉⲛⲟⲩⲱϣتي ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲡⲉⲛⲟⲩⲱϣ ⲁⲛتي ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲟⲩⲉ̀ⲙⲓتي ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧⲉ̀ⲙⲓتي ⲛⲏⲉⲧϩⲏⲡ ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗتي Ⲡ̀ϭⲟⲓⲥ ⲉⲕⲉ̀ⲭⲁⲩ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
-      "Englishcoptic": "Ⲃⲱⲗ ⲉ̀ⲃⲟⲗ ⲭⲱ ⲉ̀ⲃⲟⲗ ⲁ̀ⲣⲓⲥⲩⲛⲭⲱⲣⲓⲛ ⲛⲁⲛ Ⲫ̀ⲛⲟⲩϯ ⲛ̀ⲛⲉⲛⲡⲁⲣⲁⲡⲧⲱⲙⲁTi ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲡⲉⲛⲟⲩⲱϣTi ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲡⲉⲛⲟⲩⲱϣ ⲁⲛTi ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲟⲩⲉ̀ⲙⲓTi ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲁⲛⲁⲓⲧⲟⲩ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧⲉ̀ⲙⲓTi ⲛⲏⲉⲧϩⲏⲡ ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗTi Ⲡ̀ϭⲟⲓⲥ ⲉⲕⲉ̀ⲭⲁⲩ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ."
+      "Arabiccoptic": "فوول إيفول خوو إيفول  اريسينخوورين نان افنوتي إنني نبارابتووما: نيإيتانايتأو خين بينأوأوؤوش: نيم نيإيتانايتأو خين بينأوأوؤوش ان: نيإيتانايتأو خين أوإيمي: نيم نيإيتانايتأو خين  أوميتاتإيمي: نييتهيب نيم نييثأووونه إيفول: إبتشويس إيكإيخاف نان إيفول.",
+      "Englishcoptic": "Vool evol khoo evol -ariseen-khoorin nan Evnoti en-nen-paraptooma: nee-etanaitoo khen- pen-o-oosh: nem nee-etanaitoo khen- pen-o-oosh an: nee-etanaitoo khen- oo-emi: nem nee-etanaitoo khen- oometat-emi: nee-etheep nem nee-etho-oonh evol: Epchois ek-ekhav nan evol."
     }
   ]
 }

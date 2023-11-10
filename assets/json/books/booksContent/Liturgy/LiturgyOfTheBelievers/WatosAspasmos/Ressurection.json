@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أسبسمس واطس عيد القيامة 1",
+  "EnglishTitle": "Watos Aspasmos for Feast of the Resurrection 1",
+  "CopticTitle": "Loipon auxaf",
   "Hymn": [
     {
       "Type": "Base",
@@ -32,10 +32,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هلليلويا (3) يسوع المسيح ملك المجد، قام من بين الأموات. خلصنا وإرحمنا.",
-      "Coptic": "Allhlouia (g̅) Ihcouc Pi`xrictoc `Pouro `nte `p`wou> aftwnf `ebol =en nheqmwout. Cw; `mmon ouo\\ nai nan.",
+      "Coptic": "Allhlouia (g?) Ihcouc Pi`xrictoc `Pouro `nte `p`wou> aftwnf `ebol =en nheqmwout. Cw; `mmon ouo\\ nai nan.",
       "English": "Alleluia (3) Jesus Christ the King of glory, has risen from the dead. Save us and have mercy upon us.",
       "Arabiccoptic": " الليلويا الليلويا : الليلويا الليلوياايسوس بي خريستــوس أبؤرو انتيه ابؤؤ افتونف ايفـــــول خين ني ايث مـــــوؤت . ",
-      "Englishcoptic": "Alleelooia (gh̅) Isos Pikhristos ePooro en-te ep-o-oo: aftoonf evol khen- nee-ethmo-oot. Sooti emmon owoh nai nan."
+      "Englishcoptic": "Alleelooia (3) Isos Pikhristos ePooro en-te ep-o-oo: aftoonf evol khen- nee-ethmo-oot. Sooti emmon owoh nai nan."
     }
   ]
 }

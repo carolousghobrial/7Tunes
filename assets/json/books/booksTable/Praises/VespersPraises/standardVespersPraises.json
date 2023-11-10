@@ -82,6 +82,15 @@
             "Visible": "TheotokiaVisible",
             "Path": "saturdayTheotokiaMenu",
             "mother": "standardvesperspraises"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "رفع بخور عشية",
+            "Coptic": "`Ptalo  ~Mpi`cqoinoufi `nte |an`arou\\i",
+            "English": "Offering of Evening Incense",
+            "Rule": "OpenNewPage",
+            "Visible": true,
+            "Path": "vespers"
         }
     ]
 }

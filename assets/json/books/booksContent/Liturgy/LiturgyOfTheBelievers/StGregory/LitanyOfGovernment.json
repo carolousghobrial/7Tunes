@@ -1,0 +1,73 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أوشية البلاط",
+  "EnglishTitle": "Litany of the Goverment",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اذكر ياربُّ إخوتَنا المؤمنينَ الأرثوذكسيينَ الذين في البلاطِ، وجميعَ الأجنادِ.",
+      "Coptic": "Ari`vmeui `Psoic `nnen`cnhou `mpictoc ouo\\ `norqodo[oc et=en pipalation nem pi`ctrateuma thrf.",
+      "English": "Remember, O Lord, our brethren, the orthodox believers who are in the palace [government], and all the soldiers.",
+      "Arabiccoptic": "آري إفميفئي إبتشويس نين إسنيو ني إم بيستوس أووه إن أورثوذوكصوس إيت خين بي بالاتيون نيم بيسترا تيفما تيرف",
+      "Englishcoptic": "Arievmevi Epchois ennen-esneeoo empistos owoh en-orthozoxos etkhen pi-pala-teion nem pi-estratevma teerf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلُّوا من أجلِ الذينَ في البلاطِ من الإخوةِ المؤمنينَ الأرثوذكسيينَ وسائرِ الأجنادِ.",
+      "Coptic": "Proceu[acqe `uper twn en tw palatiw `adelvwn pictwn ke orqodo[wn ke pantwn twn `ctratopetwn.",
+      "English": "Pray for those of our brethren, the orthodox believers who are in the palace [government], and all the soldiers.",
+      "Arabiccoptic": "بروس إفكصاستيه إيبر تون إن طو بالاتيو آذيلفون بيستون كيه أورثوذوكصون كيه بانطون طون ستراصو بيطون .  ",
+      "Englishcoptic": "Prosevxaste eper ton en too palatioo azel-foon pistoon ke orthozoxoon ke pantoon toon estra-to-petoon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Kur`ie` el`ehcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Keer-ee-ee el-ee-eson."
+    }
+  ]
+}

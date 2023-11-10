@@ -294,6 +294,14 @@
             "Path": "RaisingOfIncenseShortBlessing2",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "تقديم الحمل",
+            "English": "The Offering of the Lamb",
+            "Rule": "OpenNewPage",
+            "Visible": true,
+            "Path": "offertory"
         }
     ]
 }

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 103 : 16 ، 10 )",
+  "EnglishTitle": "Psalms 104:16, 10",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تشبع جميع شجر الحقل. وأرز لبنان الذي غرسته.",
+      "English": "16 The trees of the Lord are full of sap, The cedars of Lebanon which He planted,.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الـذي يرسـل العيـون في الأودية، وفي وسط الجبال تعبر المياه. ",
+      "English": "10 He sends the springs into the valleys, They flow among the hills.     Alleluia\r"
+    }
+  ]
+}

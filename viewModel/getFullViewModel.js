@@ -56,7 +56,8 @@ export function getFullViewModel(motherSource, mother) {
               motherSource,
               false,
               item.Rule,
-              key
+              key,
+              item.Switch
             );
             key = mykey;
             ViewArray.push(...tempView);
@@ -80,7 +81,8 @@ export function getFullViewModel(motherSource, mother) {
                 motherSource,
                 false,
                 item.Rule,
-                key
+                key,
+                undefined
               );
               key = mykey;
               ViewArray.push(...tempView);
@@ -125,7 +127,7 @@ export function getFullViewModel(motherSource, mother) {
   return [ViewArray, MenuArray];
 }
 
-export function getMain(Path, motherSource, inHymn, rule, key) {
+export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
   const thisRule = rule;
   const myMenuArray = [];
   const myViewArray = [];
@@ -154,6 +156,7 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
         Arabic: ArabicTitle,
         Coptic: CopticTitle,
         English: EnglishTitle,
+        Switch: switchWord,
       },
       key,
     });
@@ -201,6 +204,7 @@ export function getMain(Path, motherSource, inHymn, rule, key) {
       const addPart = addItemsToArray(part, thisRule);
       myViewArray.push({
         part: addPart,
+        path: Path,
         key,
         EnglishTitle,
         CopticTitle,
@@ -601,7 +605,6 @@ function getCatholicAuthor(part) {
 }
 function getPaulineAuthor(part) {
   const completePath = GetTodaysReadingPath(part.mother);
-  console.log(completePath);
   if (completePath == "Katamaros") {
     return "NONE";
   }

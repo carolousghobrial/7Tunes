@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( ٨٥ : ٢ ، 3 ، 4 )",
+  "EnglishTitle": "Psalms 86:2-4",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خلص عبـدك يـا إلهي، المتكل عليك، ",
+      "English": "2 You are my God; Save Your servant who trusts in You \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارحمني يـارب فإني صرخت إليك النهار كله. ",
+      "English": "3 Be merciful to me, O Lord, For I cry to You all day long. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فرح نفس عبدك. هللويا.",
+      "English": "4 Rejoice the soul of Your servant.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أوشية السلام",
+  "EnglishTitle": "Litany of Peace",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أذكر يا رب سلام كنيستك الواحدة، الوحيدة المقدسة، الجامعة الرسولية.",
+      "Coptic": "`Ari`vmeui `Psoic `n;\\irhnh `nte tekou`i `mmauatc eqouab `nkaqolikh `n`apoctolikh `nEkklhcia.",
+      "English": "Remember, O Lord, the peace of Your one, only, holy, catholic, and apostolic Church",
+      "Arabiccoptic": "آري إفميقئي إبشويس إنتي هيريني إنتي تيك أوى إمماقتس إثؤواب إن كاثوليكي إن آبوسطوليكي إن إككليسيا . ",
+      "Englishcoptic": "-Arievmevi Epchois en-ti-hireen-ee en-te tekoo-ee emmavats ethowab en-katholikee en-apostolikee en-Ekkleesia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صلوا من أجل سلام الواحدة المقدسة الجامعة الرسولية كنيسة الله الأرثوذكسية.",
+      "Coptic": "`Proceu[acqe `uper thc `irhnhc thc `agiac monhc kaqolikhc ke `apoctolikhc orqodo[ou tou qeou Ekklhciac.",
+      "English": "Pray for the peace of the one holy catholic and apostolic orthodox Church of God.",
+      "Arabiccoptic": "بروس أفكساستيه إيبرتيس إيرينيس تيس أجياس مونيس كاثوليكيس كيه أبوسطولوكيس أورثودوكسو تو ثيؤ أكليسياس . ",
+      "Englishcoptic": "Epros-eveksaste eyper tees Ereenis tees agias monees katholikees ke apostolikees orthozoxoo too theoo Ekkleesias."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Kurie `ele`hcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Kiryalison."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقول الكاهن وهو يشير بيديه إلى الدم أولاً وإلى الجسد ثانياً:",
+      "English": "While pointing with his hand first to the Blood and then to the Body, the priest says:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذه الكائنةِ من أقصي المسكونةِ إلى أقصاها.",
+      "Coptic": "Qai et]op icjen aurhjc `n;oikoumenh ]a aurhjc.",
+      "English": "This which exists from one end of the world to the other.",
+      "Arabiccoptic": "ثاى إتشوب يسجين أفريجس إنتى إيكومينى شا أفريجس",
+      "Englishcoptic": "Thai etshop isjen avregs enti eikomeny sha avregs"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " والذين يفصلون معه كلمة الحق بإستقامة.",
+      "Coptic": "Nem nhet]wt `ebol nemaf `m`pcagi `nte ;meqmhi =en oucwouten . ",
+      "English": "And those who rightly divide the word of truth with him,",
+      "Arabiccoptic": " نيم نيئتشوت ايفول نيماف إم إبساجي إنتي تي ميثمي خين أو سوؤتين . ",
+      "Englishcoptic": "nem nee-etshot evol nemaf em-ep-saji ente ti-methmee khen oo-so-oten"
+    }
+  ]
+}

@@ -34,7 +34,14 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const [contentsModalVisible, setcontentsModalVisible] = useState(false);
 
   const flatListRef = useRef();
-  const { bookPath, motherSource, bishopButton } = route.params;
+  const {
+    bookPath,
+    motherSource,
+    bishopButton,
+    englishTitle,
+    arabicTitle,
+    Switch,
+  } = route.params;
   const labelColor = getColor("LabelColor");
   const pageBackgroundColor = getColor("pageBackgroundColor");
   const pagination = useSelector((state) => state.settings.pagination);
@@ -84,6 +91,15 @@ const BookScreen = React.memo(({ navigation, route }) => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
+      if (Switch !== undefined) {
+        const itemToFind = bookContents.findIndex(
+          (item) => item.path === Switch
+        );
+        flatListRef.current.scrollToIndex({
+          index: bookContents[itemToFind].key,
+          animated: false,
+        });
+      }
     }, 10);
   }, []);
 
@@ -153,7 +169,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
         break;
 
       case "Title":
-        returnView = <TitleView item={item.part} />;
+        returnView = <TitleView item={item.part} navigation={navigation} />;
         break;
 
       case "Ritual":

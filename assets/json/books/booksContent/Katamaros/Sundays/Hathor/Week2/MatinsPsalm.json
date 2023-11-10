@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 66 : 5 ، 6 )",
+  "EnglishTitle": "Psalms 67:6-7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الأرض أعطت ثمرتها. ",
+      "English": "6 Then the earth shall yield her increase; God, our own God, shall bless us. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ليباركنا الله إلهنا. فلتخشه، جميع أقطار الأرض. .",
+      "English": "7 God shall bless us, And all the ends of the earth shall fear Him.     Alleluia\r"
+    }
+  ]
+}

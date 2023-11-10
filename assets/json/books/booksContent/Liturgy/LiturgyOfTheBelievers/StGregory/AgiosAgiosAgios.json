@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أجيوس، أجيوس، أجيوس",
+  "EnglishTitle": "Agios agios agios.",
+  "CopticTitle": "`Agioc `agioc `agioc.",
   "Hymn": [
     {
       "Type": "Base",
@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أجيوس، أجيوس، أجيوس.",
-      "Coptic": "Ⲁ̀ⲅⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥ.",
+      "Coptic": "`Agioc `agioc `agioc.",
       "English": "Agios, agios, agios.",
-      "Arabiccoptic": "Ⲁ̀ⲅⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥ.",
-      "Englishcoptic": "Ⲁ̀ⲅⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥ."
+      "Arabiccoptic": "أجيوس  اجيوس  اجيوس.",
+      "Englishcoptic": "Agios agios agios."
     },
     {
       "Type": "Base",
@@ -32,10 +32,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "قدوس، قدوس، قدوس، بالحقيقة أيها الرب إلهنا. الذيقدوسٌ، قدوسٌ، أنتَ أيها الربُّ، وقدوسٌ في كلِّ شيءٍ، وبالأكثرِ مختارٌ هو نورُ جَوْهريَّتِكَ.",
-      "Coptic": "Ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ Ⲡ̀ϭⲟⲓⲥ ⲟⲩⲟϩ ⲭ̀ⲟⲩⲁⲃ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ: ⲛ̀ϩⲟⲩⲟ̀ ⲇⲉ ϥ̀ⲥⲱⲧⲡ ⲛ̀ϫⲉ ⲫ̀ⲟⲩⲱⲓⲛⲓ ⲛ̀ⲧⲉ ⲧⲉⲕⲟⲩⲥⲓⲁ.",
+      "Coptic": "`Xouab `xouab `Psoic ouo\\ `xouab =en \\wb niben> `n\\ou`o de `fcwtp `nje `vouwini `nte tekoucia.",
       "English": "Holy, holy, O Lord, and holy are you in everything, and most excellent is the light of Your essence.",
-      "Arabiccoptic": "Ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ Ⲡ̀ϭⲟⲓⲥ ⲟⲩⲟϩ ⲭ̀ⲟⲩⲁⲃ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛتي ⲛ̀ϩⲟⲩⲟ̀ ⲇⲉ ϥ̀ⲥⲱⲧⲡ ⲛ̀ϫⲉ ⲫ̀ⲟⲩⲱⲓⲛⲓ ⲛ̀ⲧⲉ ⲧⲉⲕⲟⲩⲥⲓⲁ.",
-      "Englishcoptic": "Ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ Ⲡ̀ϭⲟⲓⲥ ⲟⲩⲟϩ ⲭ̀ⲟⲩⲁⲃ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛTi ⲛ̀ϩⲟⲩⲟ̀ ⲇⲉ ϥ̀ⲥⲱⲧⲡ ⲛ̀ϫⲉ ⲫ̀ⲟⲩⲱⲓⲛⲓ ⲛ̀ⲧⲉ ⲧⲉⲕⲟⲩⲥⲓⲁ."
+      "Arabiccoptic": "إخأواف إخأواف إبتشويس أووه إخأواف خين هووف نيفين: إنهأو و زي إفسووتب إنجي إفأووويني إنتي تيكأوسيا.",
+      "Englishcoptic": "Ek-owab Ek-owab Epchois owoh Ek-owab khen hoov ni-ven: enhoo-o ze efsootp enje evo-ooini- ente tekoosia."
     },
     {
       "Type": "Base",
@@ -43,10 +43,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وغيرُ مَوْصُوفةٍ هي قوةُ حِكمتِكَ، وليس شيءٌ من النطقِ يستطيعُ أن يحدَّ لجةَ محبتِكَ للبشرِ.",
-      "Coptic": "Ⲟⲩⲁⲧϣ̀ⲥⲁϫⲓ ⲙ̀ⲙⲟⲥ ⲧⲉ ⲧ̀ϫⲟⲙ ⲛ̀ⲧⲉ ⲧⲉⲕⲥⲟⲫⲓⲁ: ⲙ̀ⲙⲟⲛ ϩ̀ⲗⲓ ⲛ̀ⲥⲁϫⲓ ⲛⲁϣ̀ϯϣⲓ ⲉ̀ⲡⲓⲡⲉⲗⲁⲅⲟⲥ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲧⲙⲁⲓⲣⲱⲙⲓ.",
+      "Coptic": "Ouat`]caji `mmoc te `tjom `nte tekcovia> `mmon `\\li `ncaji na`];]i `epipelagoc `nte tekmetmairwmi.",
       "English": "Ineffable is the power of your wisdom, and no manner of speech can measure the depth of Your love towards mankind.",
-      "Arabiccoptic": "Ⲟⲩⲁⲧϣ̀ⲥⲁϫⲓ ⲙ̀ⲙⲟⲥ ⲧⲉ ⲧ̀ϫⲟⲙ ⲛ̀ⲧⲉ ⲧⲉⲕⲥⲟⲫⲓⲁتي ⲙ̀ⲙⲟⲛ ϩ̀ⲗⲓ ⲛ̀ⲥⲁϫⲓ ⲛⲁϣ̀ϯϣⲓ ⲉ̀ⲡⲓⲡⲉⲗⲁⲅⲟⲥ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲧⲙⲁⲓⲣⲱⲙⲓ.",
-      "Englishcoptic": "Ⲟⲩⲁⲧϣ̀ⲥⲁϫⲓ ⲙ̀ⲙⲟⲥ ⲧⲉ ⲧ̀ϫⲟⲙ ⲛ̀ⲧⲉ ⲧⲉⲕⲥⲟⲫⲓⲁTi ⲙ̀ⲙⲟⲛ ϩ̀ⲗⲓ ⲛ̀ⲥⲁϫⲓ ⲛⲁϣ̀ϯϣⲓ ⲉ̀ⲡⲓⲡⲉⲗⲁⲅⲟⲥ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲧⲙⲁⲓⲣⲱⲙⲓ."
+      "Arabiccoptic": "أواتإشساجي إمموس تي إتجوم إنتي تيكسوفيا: إممون إهلي إنساجي ناإشتيشي إيبيبيلاغوس إنتي تيكميتمايروومي.",
+      "Englishcoptic": "Oooateshsaji emmos te etgom en-te teksovia: emmon ehli en-saji naeshti-shi -epi-pelaghos en-te tekmetmairoomi."
     },
     {
       "Type": "Base",
@@ -54,10 +54,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "خَلَقتَني إنساناً كمحبٍّ للبشرِ، ولم تَكُن أنتَ محتاجاً إلى عُبُوديَّتي، بَلْ أنا المحتاجُ إلى رُبوبِيَّتِكَ.",
-      "Coptic": "Ⲁⲕⲑⲁⲙⲓⲟⲓ ⲛ̀ⲣⲱⲙⲓ ϩⲱⲥ Ⲙⲁⲓⲣⲱⲙⲓ: ⲛⲁⲕⲉⲣⲭ̀ⲣⲓⲁ ⲛ̀ⲑⲟⲕ ⲁⲛ ⲡⲉ ⲛ̀ⲧⲁⲙⲉⲧⲃⲱⲕ: ⲁⲗⲗⲁ ⲁ̀ⲛⲟⲕ ⲇⲉ ⲛⲁⲓⲉⲣⲭ̀ⲣⲓⲁ ⲛ̀ⲧⲉⲕⲙⲉⲧϭⲟⲓⲥ.",
+      "Coptic": "Akqamioi `nrwmi \\wc Mairwmi> naker`xria `nqok an pe `ntametbwk> alla `anok de naier`xria `ntekmetsoic.",
       "English": "You, as Lover of Mankind, have created me, as man. You had no need of my servitude, but rather I had need of Your lordship.",
-      "Arabiccoptic": "Ⲁⲕⲑⲁⲙⲓⲟⲓ ⲛ̀ⲣⲱⲙⲓ ϩⲱⲥ Ⲙⲁⲓⲣⲱⲙⲓتي ⲛⲁⲕⲉⲣⲭ̀ⲣⲓⲁ ⲛ̀ⲑⲟⲕ ⲁⲛ ⲡⲉ ⲛ̀ⲧⲁⲙⲉⲧⲃⲱⲕتي ⲁⲗⲗⲁ ⲁ̀ⲛⲟⲕ ⲇⲉ ⲛⲁⲓⲉⲣⲭ̀ⲣⲓⲁ ⲛ̀ⲧⲉⲕⲙⲉⲧϭⲟⲓⲥ.",
-      "Englishcoptic": "Ⲁⲕⲑⲁⲙⲓⲟⲓ ⲛ̀ⲣⲱⲙⲓ ϩⲱⲥ ⲘⲁⲓⲣⲱⲙⲓTi ⲛⲁⲕⲉⲣⲭ̀ⲣⲓⲁ ⲛ̀ⲑⲟⲕ ⲁⲛ ⲡⲉ ⲛ̀ⲧⲁⲙⲉⲧⲃⲱⲕTi ⲁⲗⲗⲁ ⲁ̀ⲛⲟⲕ ⲇⲉ ⲛⲁⲓⲉⲣⲭ̀ⲣⲓⲁ ⲛ̀ⲧⲉⲕⲙⲉⲧϭⲟⲓⲥ."
+      "Arabiccoptic": "أكثاميوي إنروومي هووس مايروومي: ناكيرإخريا إنثوك ان بي إنتاميتفووك: اللا  انوك زي نايإيرإخريا إنتيكميتتشويس.",
+      "Englishcoptic": "Akthamioi en-roomi hoos mairoomi: nakerekhria en-thok an pe en-tametvook: alla -anok ze naierekhria en-tek-metchois."
     },
     {
       "Type": "Base",
@@ -65,10 +65,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "من أجلِ تَعطُّفاتِكَ الجزيلةِ، كَوَّنتَنِي إذ لم أَكُنْ.",
-      "Coptic": "Ⲉⲑⲃⲉ ⲛⲉⲕⲙⲉⲧϣⲁⲛⲑ̀ⲙⲁϧⲧ ⲉⲧⲟϣ ⲁⲕⲑ̀ⲣⲓϣⲱⲡⲓ ⲉ̀ⲛⲁⲓϣⲟⲡ ⲁⲛ ⲡⲉ.",
+      "Coptic": "Eqbe nekmet]an`qma=t eto] ak`qri]wpi `enai]op an pe.",
       "English": "Because of the multitude of Your tender mercies, You have brought me into existence when I was not.",
-      "Arabiccoptic": "Ⲉⲑⲃⲉ ⲛⲉⲕⲙⲉⲧϣⲁⲛⲑ̀ⲙⲁϧⲧ ⲉⲧⲟϣ ⲁⲕⲑ̀ⲣⲓϣⲱⲡⲓ ⲉ̀ⲛⲁⲓϣⲟⲡ ⲁⲛ ⲡⲉ.",
-      "Englishcoptic": "Ⲉⲑⲃⲉ ⲛⲉⲕⲙⲉⲧϣⲁⲛⲑ̀ⲙⲁϧⲧ ⲉⲧⲟϣ ⲁⲕⲑ̀ⲣⲓϣⲱⲡⲓ ⲉ̀ⲛⲁⲓϣⲟⲡ ⲁⲛ ⲡⲉ."
+      "Arabiccoptic": "يثفي نيكميتشانإثماخت إيتوش اكإثريشووبي إينايشوب ان بي.",
+      "Englishcoptic": "Ethve nek-metshanethmakht etosh akethrishoopi -en-aishop an pe."
     },
     {
       "Type": "Base",
@@ -76,10 +76,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أقمتَ السماءَ لي سَقفاً.",
-      "Coptic": "Ⲁⲕⲧⲁϩⲟ ⲛ̀ⲧ̀ⲫⲉ ⲉ̀ⲣⲁⲧⲥ ⲛⲏⲓ ⲉ̀ⲟⲩⲁϩⲥⲟⲓ.",
+      "Coptic": "Akta\\o `n`tve `eratc nhi `eoua\\coi.",
       "English": "You have raised heaven as a roof for me,",
-      "Arabiccoptic": "Ⲁⲕⲧⲁϩⲟ ⲛ̀ⲧ̀ⲫⲉ ⲉ̀ⲣⲁⲧⲥ ⲛⲏⲓ ⲉ̀ⲟⲩⲁϩⲥⲟⲓ.",
-      "Englishcoptic": "Ⲁⲕⲧⲁϩⲟ ⲛ̀ⲧ̀ⲫⲉ ⲉ̀ⲣⲁⲧⲥ ⲛⲏⲓ ⲉ̀ⲟⲩⲁϩⲥⲟⲓ."
+      "Arabiccoptic": "أكتاهو إنإتفي إيراتس نيي إيأواهسوي.",
+      "Englishcoptic": "Aktaho en-etve -erats neei -eooahsoi."
     },
     {
       "Type": "Base",
@@ -87,10 +87,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وثَبَّتَ لي الأرضَ لأمشِيَ عليها.",
-      "Coptic": "Ⲁⲕⲧⲁϫⲣⲟ ⲙ̀ⲡⲓⲕⲁϩⲓ ⲛⲏⲓ ⲉⲑⲣⲓⲙⲟϣⲓ ϩⲓϫⲱϥ.",
+      "Coptic": "Aktajro `mpika\\i nhi eqrimo]i \\ijwf.",
       "English": "and established the earth for me to walk upon.",
-      "Arabiccoptic": "Ⲁⲕⲧⲁϫⲣⲟ ⲙ̀ⲡⲓⲕⲁϩⲓ ⲛⲏⲓ ⲉⲑⲣⲓⲙⲟϣⲓ ϩⲓϫⲱϥ.",
-      "Englishcoptic": "Ⲁⲕⲧⲁϫⲣⲟ ⲙ̀ⲡⲓⲕⲁϩⲓ ⲛⲏⲓ ⲉⲑⲣⲓⲙⲟϣⲓ ϩⲓϫⲱϥ."
+      "Arabiccoptic": "أكتاجرو إمبي كاهي نيي إيثريموشي هيجووف.",
+      "Englishcoptic": "Aktagro empi-kahi neei ethrimoshi higoof."
     },
     {
       "Type": "Base",
@@ -98,10 +98,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "من أجلي ألجمتَ البحرَ.",
-      "Coptic": "Ⲉⲑⲃⲏⲧ ⲁⲕⲙⲁϣⲑⲁⲙ ⲙ̀ⲫ̀ⲓⲟⲙ.",
+      "Coptic": "Eqbht akma]qam `m`viom.",
       "English": "For my sake, you have bound the sea.",
-      "Arabiccoptic": "Ⲉⲑⲃⲏⲧ ⲁⲕⲙⲁϣⲑⲁⲙ ⲙ̀ⲫ̀ⲓⲟⲙ.",
-      "Englishcoptic": "Ⲉⲑⲃⲏⲧ ⲁⲕⲙⲁϣⲑⲁⲙ ⲙ̀ⲫ̀ⲓⲟⲙ."
+      "Arabiccoptic": "يثفيت اكماشتام إمإفيوم.",
+      "Englishcoptic": "Ethveet akmashtam emeviom."
     },
     {
       "Type": "Base",
@@ -109,10 +109,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "من أجلي أظهَرتَ طَبيعةَ الحيوانِ.",
-      "Coptic": "Ⲉⲑⲃⲏⲧ ⲁⲕⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧ̀ⲫⲩⲥⲓⲥ ⲛ̀ⲛⲓⲍⲱⲟⲛ.",
+      "Coptic": "Eqbht akouwn\\ `ebol `n`tvucic `nnizwon.",
       "English": "For my sake, You have manifested the nature of animals.",
-      "Arabiccoptic": "Ⲉⲑⲃⲏⲧ ⲁⲕⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧ̀ⲫⲩⲥⲓⲥ ⲛ̀ⲛⲓⲍⲱⲟⲛ.",
-      "Englishcoptic": "Ⲉⲑⲃⲏⲧ ⲁⲕⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧ̀ⲫⲩⲥⲓⲥ ⲛ̀ⲛⲓⲍⲱⲟⲛ."
+      "Arabiccoptic": "يثفيت اكأووونه إيفول إنإتفيسيس إنني زووون.",
+      "Englishcoptic": "Ethveet ako-oonh evol en-etveesis en-ni-zoon."
     },
     {
       "Type": "Base",
@@ -120,10 +120,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أخْضَعتَ كلَّ شيءٍ تحتَ قَدميَّ.",
-      "Coptic": "Ⲁⲕⲑⲉⲃⲓⲟ ⲛ̀ⲉⲛⲭⲁⲓ ⲛⲓⲃⲉⲛ ⲥⲁⲡⲉⲥⲏⲧ ⲛ̀ⲛⲁϭⲁⲗⲁⲩϫ.",
+      "Coptic": "Akqebio `nenxai niben capecht `nnasalauj.",
       "English": "You have subjected all things under my feet.",
-      "Arabiccoptic": "Ⲁⲕⲑⲉⲃⲓⲟ ⲛ̀ⲉⲛⲭⲁⲓ ⲛⲓⲃⲉⲛ ⲥⲁⲡⲉⲥⲏⲧ ⲛ̀ⲛⲁϭⲁⲗⲁⲩϫ.",
-      "Englishcoptic": "Ⲁⲕⲑⲉⲃⲓⲟ ⲛ̀ⲉⲛⲭⲁⲓ ⲛⲓⲃⲉⲛ ⲥⲁⲡⲉⲥⲏⲧ ⲛ̀ⲛⲁϭⲁⲗⲁⲩϫ."
+      "Arabiccoptic": "أكثيفيو إنينخاي نيفين سابيسيت إنناتشالافج.",
+      "Englishcoptic": "Akthevio en-en-khai ni-ven- sapeseet en-nachalavg."
     },
     {
       "Type": "Base",
@@ -131,10 +131,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لم تَدَعْنِي مُعْوَزاً شيئاً من أعمالِ كرامتِكَ.",
-      "Coptic": "Ⲙ̀ⲡⲉⲕⲭⲁⲧ ⲉⲓϣⲁⲧ ⲛ̀ϩ̀ⲗⲓ ϧⲉⲛ ⲛⲓϩ̀ⲃⲏⲟⲩⲓ̀ ⲛ̀ⲧⲉ ⲡⲉⲕⲧⲁⲓⲟ.",
+      "Coptic": "`Mpekxat ei]at `n`\\li =en ni`\\bhou`i `nte pektaio.",
       "English": "You have not left me in need of any of the works of Your honor.",
-      "Arabiccoptic": "Ⲙ̀ⲡⲉⲕⲭⲁⲧ ⲉⲓϣⲁⲧ ⲛ̀ϩ̀ⲗⲓ ϧⲉⲛ ⲛⲓϩ̀ⲃⲏⲟⲩⲓ̀ ⲛ̀ⲧⲉ ⲡⲉⲕⲧⲁⲓⲟ.",
-      "Englishcoptic": "Ⲙ̀ⲡⲉⲕⲭⲁⲧ ⲉⲓϣⲁⲧ ⲛ̀ϩ̀ⲗⲓ ϧⲉⲛ ⲛⲓϩ̀ⲃⲏⲟⲩⲓ̀ ⲛ̀ⲧⲉ ⲡⲉⲕⲧⲁⲓⲟ."
+      "Arabiccoptic": "إمبي كخات إييشات إنإهلي خين نيإهفيأو إي إنتي بيكتايو.",
+      "Englishcoptic": "empek-khat eishat en-ehli khen- ni-ehveeoo-ee en-te pek-taio."
     },
     {
       "Type": "Base",
@@ -142,10 +142,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أنتَ الذي جَبَلْتَنِي.",
-      "Coptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕⲉⲣⲡ̀ⲗⲁⲍⲓⲛ ⲙ̀ⲙⲟⲓ.",
+      "Coptic": "`Nqok pe `etaker`plazin `mmoi.",
       "English": "You are He who formed me,",
-      "Arabiccoptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕⲉⲣⲡ̀ⲗⲁⲍⲓⲛ ⲙ̀ⲙⲟⲓ.",
-      "Englishcoptic": "Ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕⲉⲣⲡ̀ⲗⲁⲍⲓⲛ ⲙ̀ⲙⲟⲓ."
+      "Arabiccoptic": "إنثوك بي إيتاكيرإبلازين إمموي.",
+      "Englishcoptic": "Enthok pe -etakereplazin emmoi."
     },
     {
       "Type": "Base",
@@ -153,10 +153,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ووَضعْتَ يدَكَ عليَّ.",
-      "Coptic": "Ⲁⲕⲭⲱ ⲛ̀ⲧⲉⲕϫⲓϫ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ.",
+      "Coptic": "Akxw `ntekjij `e`\\rhi `ejwi.",
       "English": "and laid Your hand upon me,",
-      "Arabiccoptic": "Ⲁⲕⲭⲱ ⲛ̀ⲧⲉⲕϫⲓϫ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ.",
-      "Englishcoptic": "Ⲁⲕⲭⲱ ⲛ̀ⲧⲉⲕϫⲓϫ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ."
+      "Arabiccoptic": "أكخوو إنتيكجيج إي إهريي إيجووي.",
+      "Englishcoptic": "Akkhoo en-tek-jig -eehreei -egooi."
     },
     {
       "Type": "Base",
@@ -164,10 +164,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وكَتَبتَ فيَّ صورةَ سلطانِكَ.",
-      "Coptic": "Ⲁⲕⲥ̀ϧⲁⲓ ⲛ̀ϧⲏⲧ ⲛ̀ϯϩⲓⲕⲱⲛ ⲛ̀ⲧⲉ ⲧⲉⲕⲉⲝⲟⲩⲥⲓⲁ.",
+      "Coptic": "Ak`c=ai `n=ht `n;\\ikwn `nte teke[oucia.",
       "English": "and inscribed in me the image of Your authority.",
-      "Arabiccoptic": "Ⲁⲕⲥ̀ϧⲁⲓ ⲛ̀ϧⲏⲧ ⲛ̀ϯϩⲓⲕⲱⲛ ⲛ̀ⲧⲉ ⲧⲉⲕⲉⲝⲟⲩⲥⲓⲁ.",
-      "Englishcoptic": "Ⲁⲕⲥ̀ϧⲁⲓ ⲛ̀ϧⲏⲧ ⲛ̀ϯϩⲓⲕⲱⲛ ⲛ̀ⲧⲉ ⲧⲉⲕⲉⲝⲟⲩⲥⲓⲁ."
+      "Arabiccoptic": "أكإسخاي إنخيت إنتيهيكوون إنتي تيكيكسأوسيا.",
+      "Englishcoptic": "Akeskhai en-kheet en-ti-hikoon en-te tekexoosia."
     },
     {
       "Type": "Base",
@@ -175,10 +175,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ووَضعْتَ فيَّ موهِبةَ النطقِ.",
-      "Coptic": "Ⲁⲕⲭⲱ ⲙ̀ⲡⲓⲇⲱⲣⲟⲛ ⲛ̀ϧⲏⲧ ⲛ̀ⲧⲉ ⲛⲓⲥⲁϫⲓ.",
+      "Coptic": "Akxw `mpidwron `n=ht `nte nicaji.",
       "English": "You have placed in me the gift of speech,",
-      "Arabiccoptic": "Ⲁⲕⲭⲱ ⲙ̀ⲡⲓⲇⲱⲣⲟⲛ ⲛ̀ϧⲏⲧ ⲛ̀ⲧⲉ ⲛⲓⲥⲁϫⲓ.",
-      "Englishcoptic": "Ⲁⲕⲭⲱ ⲙ̀ⲡⲓⲇⲱⲣⲟⲛ ⲛ̀ϧⲏⲧ ⲛ̀ⲧⲉ ⲛⲓⲥⲁϫⲓ."
+      "Arabiccoptic": "أكخوو إمبي زوورون إنخيت إنتي نيساجي.",
+      "Englishcoptic": "Akkhoo empi-zooron en-kheet en-te ni-saji."
     },
     {
       "Type": "Base",
@@ -186,10 +186,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وفَتحتَ لي الفردوسَ لأتَنعَّم.",
-      "Coptic": "Ⲁⲕⲟⲩⲱⲛ ⲙ̀Ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲛⲏⲓ ⲉ̀ⲟⲩⲛⲟϥ.",
+      "Coptic": "Akouwn `mPiparadicoc nhi `eounof.",
       "English": "and opened for me Paradise to enjoy,",
-      "Arabiccoptic": "Ⲁⲕⲟⲩⲱⲛ ⲙ̀Ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲛⲏⲓ ⲉ̀ⲟⲩⲛⲟϥ.",
-      "Englishcoptic": "Ⲁⲕⲟⲩⲱⲛ ⲙ̀Ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲛⲏⲓ ⲉ̀ⲟⲩⲛⲟϥ."
+      "Arabiccoptic": "أكأووون إمبي بارازيسوس نيي إيأونوف.",
+      "Englishcoptic": "Ako-oon emPiparazisos neei -eoonof."
     },
     {
       "Type": "Base",
@@ -197,10 +197,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وأعطيتني عِلْمَ مَعرفَتِكَ.",
-      "Coptic": "Ⲁⲕϯ ⲉ̀ⲧⲟⲧ ⲛ̀ϯⲙⲉⲧⲣⲉϥϯⲥ̀ⲃⲱ ⲛ̀ⲧⲉ ⲡⲉⲕⲉ̀ⲙⲓ.",
+      "Coptic": "Ak; `etot `n;metref;`cbw `nte pek`emi.",
       "English": "and have given to me the learning of Your knowledge.",
-      "Arabiccoptic": "Ⲁⲕϯ ⲉ̀ⲧⲟⲧ ⲛ̀ϯⲙⲉⲧⲣⲉϥϯⲥ̀ⲃⲱ ⲛ̀ⲧⲉ ⲡⲉⲕⲉ̀ⲙⲓ.",
-      "Englishcoptic": "Ⲁⲕϯ ⲉ̀ⲧⲟⲧ ⲛ̀ϯⲙⲉⲧⲣⲉϥϯⲥ̀ⲃⲱ ⲛ̀ⲧⲉ ⲡⲉⲕⲉ̀ⲙⲓ."
+      "Arabiccoptic": "أكتي إيتوت إنتيميتريفتيإسفوو إنتي بيكإيمي.",
+      "Englishcoptic": "Akti -etot en-timetreftiesvoo en-te pek-emi."
     },
     {
       "Type": "Base",
@@ -208,10 +208,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أَظْهرتَ لي شجرةَ الحياةِ.",
-      "Coptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲓϣ̀ϣⲏⲛ ⲛ̀ⲧⲉ ⲡ̀ⲱⲡϧ.",
+      "Coptic": "Akouwn\\ nhi `ebol `mpi`]]hn `nte `pwp=.",
       "English": "You have manifested to me the tree of life,",
-      "Arabiccoptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲓϣ̀ϣⲏⲛ ⲛ̀ⲧⲉ ⲡ̀ⲱⲡϧ.",
-      "Englishcoptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲓϣ̀ϣⲏⲛ ⲛ̀ⲧⲉ ⲡ̀ⲱⲡϧ."
+      "Arabiccoptic": "أكأووونه نيي إيفول إمبي إششين إنتي إبووبخ.",
+      "Englishcoptic": "Ako-oonh neei evol empi-eshsheen ente epoopkh."
     },
     {
       "Type": "Base",
@@ -219,10 +219,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وعَرَّفتني شوكةَ الموتِ.",
-      "Coptic": "Ⲁⲕⲧⲁⲙⲟⲓ ⲉ̀ⲧ̀ⲥⲟⲩⲣⲓ ⲙ̀ⲫ̀ⲙⲟⲩ.",
+      "Coptic": "Aktamoi `e`tcouri `m`vmou.",
       "English": "and made known to me the sting of death.",
-      "Arabiccoptic": "Ⲁⲕⲧⲁⲙⲟⲓ ⲉ̀ⲧ̀ⲥⲟⲩⲣⲓ ⲙ̀ⲫ̀ⲙⲟⲩ.",
-      "Englishcoptic": "Ⲁⲕⲧⲁⲙⲟⲓ ⲉ̀ⲧ̀ⲥⲟⲩⲣⲓ ⲙ̀ⲫ̀ⲙⲟⲩ."
+      "Arabiccoptic": "أكتاموي إيإتسأوري إمإفمأو.",
+      "Englishcoptic": "Aktamoi -eetsoori emevmoo."
     },
     {
       "Type": "Base",
@@ -230,10 +230,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "غُرسٌ واحدٌ نَهيتَنِي أن آكلَ مِنهُ.",
-      "Coptic": "Ⲟⲩⲧⲱϫⲓ ⲛ̀ⲟⲩⲱⲧ ⲡⲉ ⲉ̀ⲧⲁⲕϣⲁϣⲧ ⲉ̀ϣ̀ⲧⲉⲙⲟⲩⲱⲙ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ.",
+      "Coptic": "Outwji `nouwt pe `etak]a]t `e`]temouwm `ebol `n=htf.",
       "English": "Of one plant have You forbidden me to eat,",
-      "Arabiccoptic": "Ⲟⲩⲧⲱϫⲓ ⲛ̀ⲟⲩⲱⲧ ⲡⲉ ⲉ̀ⲧⲁⲕϣⲁϣⲧ ⲉ̀ϣ̀ⲧⲉⲙⲟⲩⲱⲙ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ.",
-      "Englishcoptic": "Ⲟⲩⲧⲱϫⲓ ⲛ̀ⲟⲩⲱⲧ ⲡⲉ ⲉ̀ⲧⲁⲕϣⲁϣⲧ ⲉ̀ϣ̀ⲧⲉⲙⲟⲩⲱⲙ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ."
+      "Arabiccoptic": "أوتووجي إنأوووت بي إيتاكشاشت إيإشتيمأوووم إيفول إنخيتف.",
+      "Englishcoptic": "Oootooji en-o-oot pe -etakshasht -eeshtemo-oom evol en-kheetf."
     },
     {
       "Type": "Base",
@@ -241,10 +241,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هذا الذي قُلتَ لي لا تأكلْ مِنهُ وَحدَهُ.",
-      "Coptic": "Ⲫⲁⲓ ⲉ̀ⲧⲁⲕϫⲟⲥ ⲛⲏⲓ ϫⲉ ⲙ̀ⲡⲉⲣⲟⲩⲱⲙ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ ⲙ̀ⲙⲁⲩⲁⲧϥ.",
+      "Coptic": "Vai `etakjoc nhi je `mperouwm `ebol `n=htf `mmauatf.",
       "English": "that of which You have said to me, “Of it only do not eat.”",
-      "Arabiccoptic": "Ⲫⲁⲓ ⲉ̀ⲧⲁⲕϫⲟⲥ ⲛⲏⲓ ϫⲉ ⲙ̀ⲡⲉⲣⲟⲩⲱⲙ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ ⲙ̀ⲙⲁⲩⲁⲧϥ.",
-      "Englishcoptic": "Ⲫⲁⲓ ⲉ̀ⲧⲁⲕϫⲟⲥ ⲛⲏⲓ ϫⲉ ⲙ̀ⲡⲉⲣⲟⲩⲱⲙ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ ⲙ̀ⲙⲁⲩⲁⲧϥ."
+      "Arabiccoptic": "فاي إيتاكجوس نيي جي إمبي رأوووم إيفول إنخيتف إممافاتف.",
+      "Englishcoptic": "Vai -etakgos neei je empero-oom evol en-kheetf emmavatf."
     },
     {
       "Type": "Base",
@@ -252,10 +252,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فأكلتُ بإرادتي.",
-      "Coptic": "Ⲁⲓⲟⲩⲱⲙ ϧⲉⲛ ⲡⲁⲟⲩⲱϣ.",
+      "Coptic": "Aiouwm =en paouw].",
       "English": "But according to my will, I did eat.",
-      "Arabiccoptic": "Ⲁⲓⲟⲩⲱⲙ ϧⲉⲛ ⲡⲁⲟⲩⲱϣ.",
-      "Englishcoptic": "Ⲁⲓⲟⲩⲱⲙ ϧⲉⲛ ⲡⲁⲟⲩⲱϣ."
+      "Arabiccoptic": "أيأوووم خين باأوأوؤوش.",
+      "Englishcoptic": "Aio-oom khen pao-oosh."
     },
     {
       "Type": "Base",
@@ -263,10 +263,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وتَرَكتُ عَنِّي ناموسَكَ برأيِي. وتَكاسَلتُ عن وصاياكَ.",
-      "Coptic": "Ⲁⲓⲭⲱ ⲛ̀ⲥⲱⲓ ⲙ̀ⲡⲉⲕⲛⲟⲙⲟⲥ ϧⲉⲛ ⲧⲁⲅ̀ⲛⲱⲙⲏ: ⲁⲓⲉⲣⲁ̀ⲙⲉⲗⲏⲥ ⲉ̀ⲛⲉⲕⲉⲛⲧⲟⲗⲏ.",
+      "Coptic": "Aixw `ncwi `mpeknomoc =en ta`gnwmh> aier`amelhc `enekentolh.",
       "English": "I put Your law behind me by my own counsel, and became slothful towards Your commandments.",
-      "Arabiccoptic": "Ⲁⲓⲭⲱ ⲛ̀ⲥⲱⲓ ⲙ̀ⲡⲉⲕⲛⲟⲙⲟⲥ ϧⲉⲛ ⲧⲁⲅ̀ⲛⲱⲙⲏتي ⲁⲓⲉⲣⲁ̀ⲙⲉⲗⲏⲥ ⲉ̀ⲛⲉⲕⲉⲛⲧⲟⲗⲏ.",
-      "Englishcoptic": "Ⲁⲓⲭⲱ ⲛ̀ⲥⲱⲓ ⲙ̀ⲡⲉⲕⲛⲟⲙⲟⲥ ϧⲉⲛ ⲧⲁⲅ̀ⲛⲱⲙⲏTi ⲁⲓⲉⲣⲁ̀ⲙⲉⲗⲏⲥ ⲉ̀ⲛⲉⲕⲉⲛⲧⲟⲗⲏ."
+      "Arabiccoptic": "أيخوو إنسووي إمبي كنوموس خين تاإغنوومي: ايإير اميليس إينيكينتولي.",
+      "Englishcoptic": "Aikhoo en-sooi empek-nomos khen- taeghnoomee: aier-amelees -en-ek-en-tolee."
     },
     {
       "Type": "Base",
@@ -274,10 +274,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أنا إختَطفتُ لي قَضِيةَ الموتِ.",
-      "Coptic": "Ⲁ̀ⲛⲟⲕ ⲁⲓϩⲱⲗⲉⲙ ⲛⲏⲓ ⲛ̀ϯⲁ̀ⲡⲟⲫⲁⲥⲓⲥ ⲛ̀ⲧⲉ ⲫ̀ⲙⲟⲩ.",
+      "Coptic": "`Anok ai\\wlem nhi `n;`apovacic `nte `vmou.",
       "English": "I plucked for myself the sentence of death.",
-      "Arabiccoptic": "Ⲁ̀ⲛⲟⲕ ⲁⲓϩⲱⲗⲉⲙ ⲛⲏⲓ ⲛ̀ϯⲁ̀ⲡⲟⲫⲁⲥⲓⲥ ⲛ̀ⲧⲉ ⲫ̀ⲙⲟⲩ.",
-      "Englishcoptic": "Ⲁ̀ⲛⲟⲕ ⲁⲓϩⲱⲗⲉⲙ ⲛⲏⲓ ⲛ̀ϯⲁ̀ⲡⲟⲫⲁⲥⲓⲥ ⲛ̀ⲧⲉ ⲫ̀ⲙⲟⲩ."
+      "Arabiccoptic": "أنوك ايهووليم نيي إنتي ابوفاسيس إنتي إفمأو.",
+      "Englishcoptic": "-Anok aihoolem neei en-ti-apovasis en-te evmoo."
     },
     {
       "Type": "Base",
@@ -296,10 +296,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا ربُّ إرحَم.",
-      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Coptic": "Kurie `ele`hcon.",
       "English": "Lord have mercy.",
-      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
-      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      "Arabiccoptic": "كيريإي إيلي يسون.",
+      "Englishcoptic": "Keerie -ele-eeson."
     }
   ]
 }

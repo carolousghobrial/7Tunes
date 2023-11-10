@@ -351,6 +351,22 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "قداس القديس باسيليوس",
+            "English": "Liturgy of St.Basil",
+            "Rule": "OpenNewPage",
+            "Visible": true,
+            "Path": "liturgyofStBasil"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس القديس غريغوريوس",
+            "English": "Liturgy of St.Gregory",
+            "Rule": "OpenNewPage",
+            "Visible": true,
+            "Path": "liturgyofStGregory"
+        },
+        {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordLitanyOfPeaceGreat",
             "Rule": 0,
@@ -369,10 +385,20 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordInTheWisdom",
-            "Rule": 0,
-            "Visible": true
+            "Type": "Button",
+            "Arabic": "قداس القديس باسيليوس",
+            "English": "Liturgy of St.Basil",
+            "Rule": "OpenNewPage",
+            "Visible": true,
+            "Path": "liturgyofStBasil"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس القديس غريغوريوس",
+            "English": "Liturgy of St.Gregory",
+            "Rule": "OpenNewPage",
+            "Visible": true,
+            "Path": "liturgyofStGregory"
         }
     ]
 }

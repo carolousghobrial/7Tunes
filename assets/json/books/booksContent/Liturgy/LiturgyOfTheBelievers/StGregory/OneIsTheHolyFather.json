@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "واحد هو الآب القدوس.",
+  "EnglishTitle": "One is the Holy Father",
+  "CopticTitle": "Ic Pathr `agioc",
   "Hymn": [
     {
       "Type": "Base",
@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "واحد هو الآب القدوس. واحد هو الإبن القدوس. واحد هو الروح القدس. آمين.",
-      "Coptic": "Ⲓⲥ Ⲡⲁⲧⲏⲣ ⲁ̀ⲅⲓⲟⲥ: ⲓⲥ ⲟ̀ Ⲩ̀ⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥ: ⲉⲛ Ⲡ̀ⲛⲉⲩⲙⲁ Ⲁ̀ⲅⲓⲟⲛ: ⲁ̀ⲙⲏⲛ.",
+      "Coptic": "Ic Pathr `agioc> ic `o `Uioc `agioc> en `Pneuma `Agion> `amhn.",
       "English": "One is the Holy Father, one is the Holy Son, one is the Holy Spirit. Amen.",
-      "Arabiccoptic": "Ⲓⲥ Ⲡⲁⲧⲏⲣ ⲁ̀ⲅⲓⲟⲥتي ⲓⲥ ⲟ̀ Ⲩ̀ⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥتي ⲉⲛ Ⲡ̀ⲛⲉⲩⲙⲁ Ⲁ̀ⲅⲓⲟⲛتي ⲁ̀ⲙⲏⲛ.",
-      "Englishcoptic": "Ⲓⲥ Ⲡⲁⲧⲏⲣ ⲁ̀ⲅⲓⲟⲥTi ⲓⲥ ⲟ̀ Ⲩ̀ⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥTi ⲉⲛ Ⲡ̀ⲛⲉⲩⲙⲁ Ⲁ̀ⲅⲓⲟⲛTi ⲁ̀ⲙⲏⲛ."
+      "Arabiccoptic": "إيس باتير  اجيوس: يس  و  إييوس  اجيوس: إين إبنيفما  أجيون:  امين.",
+      "Englishcoptic": "Is Pateer agios: is -o -Eyios agios: en ePnevma -Agion: -ameen."
     }
   ]
 }

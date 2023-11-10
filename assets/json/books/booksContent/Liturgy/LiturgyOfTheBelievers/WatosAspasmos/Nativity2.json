@@ -1,9 +1,20 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أسبسمس واطس عيد الميلاد 1",
+  "EnglishTitle": "Watos Aspasmos for Feast of Nativity 1",
+  "CopticTitle": "Au`ini naf ",
   "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
     {
       "Type": "Base",
       "Rule": 0,

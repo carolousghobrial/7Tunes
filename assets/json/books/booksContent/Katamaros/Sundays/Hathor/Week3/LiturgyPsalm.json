@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 85 : 14 ، 15 )",
+  "EnglishTitle": "Psalms 86:15-16",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأنت أيها الرب الإله أنت رحوم ورؤوف. أنت طويـل الـروح وكثير الرحمة وصادق. ",
+      "English": "15 But You, O Lord, are a God full of compassion, and gracious, Longsuffering and abundant in mercy and truth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنظر إلي وارحمني. أعط عزة لعبدك وخلص ابن أمتك. هللويا.",
+      "English": "16 Oh, turn to me, and have mercy on me! Give Your strength to Your servant, And save the son of Your maidservant.     Alleluia\r"
+    }
+  ]
+}

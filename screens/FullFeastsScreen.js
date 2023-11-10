@@ -34,7 +34,7 @@ function FullFeastsScreen() {
   const timeTransition = useSelector((state) => state.settings.timeTransition);
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
-  const [initialIndex, setInitialIndex] = useState(null);
+  const [initialIndex, setInitialIndex] = useState(0);
   const [yearModalVisible, setYearModalVisible] = useState(false);
   const [feastModalVisible, setFeastModalVisible] = useState(false);
   const flatListRef = useRef();
@@ -110,7 +110,9 @@ function FullFeastsScreen() {
     });
 
     var ind = data.findIndex((item) => item.key === itemKey);
-    setInitialIndex(ind);
+    if (ind !== -1) {
+      setInitialIndex(ind);
+    }
   }, []);
 
   function renderItems({ item }) {

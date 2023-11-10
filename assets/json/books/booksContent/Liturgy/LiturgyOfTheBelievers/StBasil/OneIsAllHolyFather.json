@@ -20,11 +20,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "واحد هو الآب القدوس. واحد هو الإبن القدوس. واحد هو الروح القدس. آمين.",
-      "Coptic": "Ic Pathr `agioc> ic `o `Uioc `agioc> en `Pneuma `Agion> `amhn.",
-      "English": "One is the Holy Father, one is the Holy Son, one is the Holy Spirit. Amen.",
-      "Arabiccoptic": "أرى إفميفئى إبشويس إن إتسوتيريا إمباى توبوس إثؤواب إنتاك فاى نيم توبوس نيفين نيم مونا ستيريون نيفين إنتى نين يوتى إن أورثوذكسوس",
-      "Englishcoptic": "Is Pateer agios: is -o eyios agios: en ePnevma Agion: ameen."
+      "Arabic": "واحد الآب الكلي القدوس. واحد الإبن الكلي القدوس. واحد الروح القدس الكلي. آمين.",
+      "Coptic": "Ic `o panagioc Pathr > Ic `o panagioc Uioc> en to panagion `pneuma amhn . ",
+      "English": "One is the All-Holy Father, one is the All-Holy Son, one is the All-Holy Spirit. Amen.",
+      "Arabiccoptic": "+ايس اوبان اجيوس باتير  .  ايس اوبان اجيوس ايوس .انطو باناجيون بنيفما امين . ",
+      "Englishcoptic": "Is o panagios Pateer : Is o panagios Eios: en to panagion epnevma ameen ."
     }
   ]
 }

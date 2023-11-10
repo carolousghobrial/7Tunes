@@ -39,6 +39,14 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
       arabicTitle: item.ArabicTitle,
     });
   }
+  function OpenNewPage() {
+    navigation.replace("BookScreen", {
+      bookPath: item.Path,
+      englishTitle: item.EnglishTitle,
+      arabicTitle: item.ArabicTitle,
+      Switch: item.Switch,
+    });
+  }
   function ThokTeTiGomScrollUp() {
     var index = viewData.findIndex(
       (part) => part.EnglishTitle === "Pascha Praise"
@@ -74,6 +82,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
     OpenDoxologies: OpenDoxologies,
     OpenPalmSundayProcession: OpenPalmSundayProcession,
     OpenPage: OpenPage,
+    OpenNewPage: OpenNewPage,
     ThokTeTiGomScrollUp: ThokTeTiGomScrollUp,
     OpenSinglePage: OpenSinglePage,
     PopPage: PopPage,

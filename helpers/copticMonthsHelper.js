@@ -698,14 +698,52 @@ function getWeeksSinceStartDate(startDate) {
   return diffInWeeks;
 }
 export function getCurrentSeasonByDate(date, timeTransition) {
-  const mySeason = getCurrentSeason(timeTransition)[0];
-  var fastsfeasts = getCopticFastsFeasts(moment().year());
+  var fastsfeasts = getCopticFastsFeasts(date.getFullYear());
+  var collection = [];
+
   const currentDate = date;
   const copticDate = getCopticDate(
     currentDate.getFullYear(),
     currentDate.getMonth(),
     currentDate.getDate()
   );
+  var todayDate = moment(date);
+  fastsfeasts.map((feast) => {
+    if (
+      (feast.end === null && feast.start.isSame(todayDate)) ||
+      (feast.end !== null &&
+        todayDate.isBetween(feast.start, feast.end, null, "[]"))
+    ) {
+      collection.push(feast);
+    }
+  });
+  if (collection.length === 0) {
+    let type = "regular";
+    if (todayDate.day() === 3 && todayDate.day() === 5) {
+      type = "fast";
+    }
+    if (
+      copticDate.day === 29 &&
+      (copticDate.month != "Tobe" || copticDate.month != "Meshir")
+    ) {
+      collection.push({
+        key: "TWENTYNINTHTH_COPTIC_MONTH",
+        type: "feast",
+        start: null,
+        end: null,
+        major: false,
+      });
+    }
+    collection.push({
+      key: "STANDARD",
+      type: type,
+      start: null,
+      end: null,
+      major: false,
+    });
+  }
+  const mySeason = collection[0];
+
   var mycurrentSeason = {
     key: mySeason.key,
     start: mySeason.start,

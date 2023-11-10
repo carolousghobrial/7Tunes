@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 103 : 13 ، 14 )",
+  "EnglishTitle": "Psalms 104:13-14",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي يسقي الجبال من علاليه. من ثمرة أعمالك تشبع الأرض.",
+      "English": "13 He waters the hills from His upper chambers; The earth is satisfied with the fruit of Your works. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الذي ينبت عشباً للبهائم، وبقول الخضرة لخدمة البشر.",
+      "English": "14 He causes the grass to grow for the cattle, And vegetation for the service of man.     Alleluia\r"
+    }
+  ]
+}

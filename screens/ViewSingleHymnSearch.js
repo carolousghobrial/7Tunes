@@ -50,7 +50,7 @@ const ViewSingleHymnSearch = memo(({ navigation, route }) => {
         content = <MelodyView item={item.part} />;
         break;
       case "Title":
-        content = <TitleView item={item.part} />;
+        content = <TitleView item={item.part} navigation={navigation} />;
         break;
       case "Ritual":
         content = <RitualView item={item.part} />;

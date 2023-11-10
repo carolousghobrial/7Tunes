@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "شِفاءً للمَرضى،",
+  "EnglishTitle": "Ououjai `nnhet]wni",
+  "CopticTitle": "Healing to the sick",
   "Hymn": [
     {
       "Type": "Base",
@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "شِفاءً للمَرضى، راحةً للمُعوَزين.",
-      "Coptic": "Ⲟⲩⲟⲩϫⲁⲓ ⲛ̀ⲛⲏⲉⲧϣⲱⲛⲓ: ⲟⲩⲙ̀ⲧⲟⲛ ⲛ̀ⲛⲏⲉⲧϣⲁⲧ.",
+      "Coptic": "Ououjai `nnhet]wni> ou`mton `nnhet]at.",
       "English": "Healing to the sick, rest to the needy.",
-      "Arabiccoptic": "Ⲟⲩⲟⲩϫⲁⲓ ⲛ̀ⲛⲏⲉⲧϣⲱⲛⲓتي ⲟⲩⲙ̀ⲧⲟⲛ ⲛ̀ⲛⲏⲉⲧϣⲁⲧ.",
-      "Englishcoptic": "Ⲟⲩⲟⲩϫⲁⲓ ⲛ̀ⲛⲏⲉⲧϣⲱⲛⲓTi ⲟⲩⲙ̀ⲧⲟⲛ ⲛ̀ⲛⲏⲉⲧϣⲁⲧ."
+      "Arabiccoptic": "أوأوجاي إنني يتشووني: أوإمتون إنني يتشات.",
+      "Englishcoptic": "Oo-oogai en-nee-etshooni-: ooemton en-nee-etshat."
     },
     {
       "Type": "Base",
@@ -43,10 +43,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا ربُّ إرحَم .",
-      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Coptic": "Kurie `ele`hcon.",
       "English": "Lord have mercy.",
-      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
-      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      "Arabiccoptic": "كيريإي إيلي يسون.",
+      "Englishcoptic": "Keerie -ele-eeson."
     },
     {
       "Type": "Base",
@@ -65,10 +65,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "إطلاقاً للذين في السبي، قبولاً (مِنْكَ) للأيتامِ.",
-      "Coptic": "Ⲟⲩⲃⲱⲗ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲏⲉⲧ ϧⲉⲛ ⲛⲓⲉⲝⲟⲣⲓⲥⲧⲓⲁ: ⲟⲩⲙⲉⲧⲣⲉϥϣⲱⲡ ⲉ̀ⲣⲟⲕ ⲛ̀ⲛⲓⲟⲣⲫⲁⲛⲟⲥ.",
+      "Coptic": "Oubwl `ebol `nnhet =en nie[orictia> oumetref]wp `erok `nniorvanoc.",
       "English": "Release to those in captivity, acceptance to the orphans.",
-      "Arabiccoptic": "Ⲟⲩⲃⲱⲗ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲏⲉⲧ ϧⲉⲛ ⲛⲓⲉⲝⲟⲣⲓⲥⲧⲓⲁتي ⲟⲩⲙⲉⲧⲣⲉϥϣⲱⲡ ⲉ̀ⲣⲟⲕ ⲛ̀ⲛⲓⲟⲣⲫⲁⲛⲟⲥ.",
-      "Englishcoptic": "Ⲟⲩⲃⲱⲗ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲏⲉⲧ ϧⲉⲛ ⲛⲓⲉⲝⲟⲣⲓⲥⲧⲓⲁTi ⲟⲩⲙⲉⲧⲣⲉϥϣⲱⲡ ⲉ̀ⲣⲟⲕ ⲛ̀ⲛⲓⲟⲣⲫⲁⲛⲟⲥ."
+      "Arabiccoptic": "أوفوول إيفول إنني يت خين نيإيكسوريستيا:  أوميتريفشووب إيروك إنني ورفانوس.",
+      "Englishcoptic": "Ooovool evol en-nee-et khen- ni-exoristi-a: oometrefshoop -erok en-ni-orvanos."
     },
     {
       "Type": "Base",
@@ -87,10 +87,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا ربُّ إرحَم .",
-      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Coptic": "Kurie `ele`hcon.",
       "English": "Lord have mercy.",
-      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
-      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      "Arabiccoptic": "كيريإي إيلي يسون.",
+      "Englishcoptic": "Keerie -ele-eeson."
     },
     {
       "Type": "Base",
@@ -109,10 +109,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مساعدةً للأراملِ، المتضيقونَ اكفِهُم بالخيراتِ.",
-      "Coptic": "Ⲟⲩⲙⲉⲧⲣⲉϥϯ ⲧⲟⲧⲟⲩ ⲛ̀ⲛⲓⲭⲏⲣⲁ: ⲛⲏⲉⲧϩⲉϫϩⲱϫ ⲣⲱϣⲓ ⲉ̀ⲣⲱⲟⲩ ⲉ̀ⲡⲓⲁ̀ⲅⲁⲑⲟⲛ.",
+      "Coptic": "Oumetref; totou `nnixhra> nhet\\ej\\wj rw]i `erwou `epi`agaqon.",
       "English": "Help to the widows, satisfy the distressed with good things.",
-      "Arabiccoptic": "Ⲟⲩⲙⲉⲧⲣⲉϥϯ ⲧⲟⲧⲟⲩ ⲛ̀ⲛⲓⲭⲏⲣⲁتي ⲛⲏⲉⲧϩⲉϫϩⲱϫ ⲣⲱϣⲓ ⲉ̀ⲣⲱⲟⲩ ⲉ̀ⲡⲓⲁ̀ⲅⲁⲑⲟⲛ.",
-      "Englishcoptic": "Ⲟⲩⲙⲉⲧⲣⲉϥϯ ⲧⲟⲧⲟⲩ ⲛ̀ⲛⲓⲭⲏⲣⲁTi ⲛⲏⲉⲧϩⲉϫϩⲱϫ ⲣⲱϣⲓ ⲉ̀ⲣⲱⲟⲩ ⲉ̀ⲡⲓⲁ̀ⲅⲁⲑⲟⲛ."
+      "Arabiccoptic": " أوميتريفتي توتأو إنني شيرا: نييتهيجهووج رأوؤوشي إيرؤو إيبي اغاثون.",
+      "Englishcoptic": "Ooometrefti totoo en-ni-sheera: nee-etheghoog rooshi -ero-oo -epi-aghathon."
     },
     {
       "Type": "Base",
@@ -131,10 +131,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا ربُّ إرحَم .",
-      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Coptic": "Kurie `ele`hcon.",
       "English": "Lord have mercy.",
-      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
-      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      "Arabiccoptic": "كيريإي إيلي يسون.",
+      "Englishcoptic": "Keerie -ele-eeson."
     },
     {
       "Type": "Base",
@@ -153,10 +153,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الساقطونَ أقمْهُم، القيام ثَبِّتْهُم.",
-      "Coptic": "Ⲛⲏⲉ̀ⲧⲁⲩϩⲉⲓ ⲙⲁⲧⲁϩⲱⲟⲩ ⲉ̀ⲣⲁⲧⲟⲩ: ⲛⲏⲉⲧⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧⲟⲩ ⲙⲁⲧⲁϫⲣⲱⲟⲩ.",
+      "Coptic": "Nh`etau\\ei mata\\wou `eratou> nhet`o\\i `eratou matajrwou.",
       "English": "Raise the fallen, confirm the upright.",
-      "Arabiccoptic": "Ⲛⲏⲉ̀ⲧⲁⲩϩⲉⲓ ⲙⲁⲧⲁϩⲱⲟⲩ ⲉ̀ⲣⲁⲧⲟⲩتي ⲛⲏⲉⲧⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧⲟⲩ ⲙⲁⲧⲁϫⲣⲱⲟⲩ.",
-      "Englishcoptic": "Ⲛⲏⲉ̀ⲧⲁⲩϩⲉⲓ ⲙⲁⲧⲁϩⲱⲟⲩ ⲉ̀ⲣⲁⲧⲟⲩTi ⲛⲏⲉⲧⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧⲟⲩ ⲙⲁⲧⲁϫⲣⲱⲟⲩ."
+      "Arabiccoptic": "نيإيتافهيي ماتاهؤو إيراتأو: نييت وهي إيراتأو ماتاجرؤو.",
+      "Englishcoptic": "Nee-etavhei mataho-oo -eratoo: nee-et-ohi -eratoo matagro-oo."
     },
     {
       "Type": "Base",
@@ -175,10 +175,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا ربُّ إرحَم .",
-      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Coptic": "Kurie `ele`hcon.",
       "English": "Lord have mercy.",
-      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
-      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      "Arabiccoptic": "كيريإي إيلي يسون.",
+      "Englishcoptic": "Keerie -ele-eeson."
     },
     {
       "Type": "Base",
@@ -197,10 +197,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الراقِدونَ اذكرْهُم، المعترفونَ إقبلْ إليكَ طلباتِهم.",
-      "Coptic": "Ⲛⲏⲉ̀ⲧⲁⲩⲉⲛⲕⲟⲧ ⲁ̀ⲣⲓⲡⲟⲩⲙⲉⲩⲓ: ⲛⲏⲉⲧ ϧⲉⲛ ϯⲟ̀ⲙⲟⲗⲟⲅⲓⲁ ϣⲱⲡ ⲉ̀ⲣⲟⲕ ⲛ̀ⲛⲟⲩⲧⲱⲃϩ.",
+      "Coptic": "Nh`etauenkot `aripoumeui> nhet =en ;`omologia ]wp `erok `nnoutwb\\.",
       "English": "Remember those who have fallen asleep, accept to Yourself the prayers of the confessors.",
-      "Arabiccoptic": "Ⲛⲏⲉ̀ⲧⲁⲩⲉⲛⲕⲟⲧ ⲁ̀ⲣⲓⲡⲟⲩⲙⲉⲩⲓتي ⲛⲏⲉⲧ ϧⲉⲛ ϯⲟ̀ⲙⲟⲗⲟⲅⲓⲁ ϣⲱⲡ ⲉ̀ⲣⲟⲕ ⲛ̀ⲛⲟⲩⲧⲱⲃϩ.",
-      "Englishcoptic": "Ⲛⲏⲉ̀ⲧⲁⲩⲉⲛⲕⲟⲧ ⲁ̀ⲣⲓⲡⲟⲩⲙⲉⲩⲓTi ⲛⲏⲉⲧ ϧⲉⲛ ϯⲟ̀ⲙⲟⲗⲟⲅⲓⲁ ϣⲱⲡ ⲉ̀ⲣⲟⲕ ⲛ̀ⲛⲟⲩⲧⲱⲃϩ."
+      "Arabiccoptic": "نيإيتافينكوت  اريبأوميفي: نييت خين تي ومولوجيا شووب إيروك إننأوتووبه.",
+      "Englishcoptic": "Nee-etaven-kot -aripoomevi: nee-et khen- ti-omologia shoop -erok en-nootoobh."
     },
     {
       "Type": "Base",
@@ -219,10 +219,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا ربُّ إرحَم .",
-      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Coptic": "Kurie `ele`hcon.",
       "English": "Lord have mercy.",
-      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
-      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      "Arabiccoptic": "كيريإي إيلي يسون.",
+      "Englishcoptic": "Keerie -ele-eeson."
     },
     {
       "Type": "Base",
@@ -241,10 +241,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الخطاة الذينَ تابوا عِدَّهُم مع مُؤمِنيكَ، مُؤمِنُوكَ إحصِهم مع شهدائِكَ.",
-      "Coptic": "Ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ ⲉ̀ⲧⲁⲩⲉⲣⲙⲉⲧⲁⲛⲟⲓⲛ ⲟ̀ⲡⲟⲩ ⲛⲉⲙ ⲛⲉⲕⲡⲓⲥⲧⲟⲥ: ⲛⲉⲕⲡⲓⲥⲧⲟⲥ ⲟ̀ⲡⲟⲩ ⲛⲉⲙ ⲛⲉⲕⲙⲁⲣⲧⲩⲣⲟⲥ.",
+      "Coptic": "Nirefernobi `etauermetanoin `opou nem nekpictoc> nekpictoc `opou nem nekmarturoc.",
       "English": "The sinners who have repented, count them with Your faithful; Your faithful, count with Your martyrs.",
-      "Arabiccoptic": "Ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ ⲉ̀ⲧⲁⲩⲉⲣⲙⲉⲧⲁⲛⲟⲓⲛ ⲟ̀ⲡⲟⲩ ⲛⲉⲙ ⲛⲉⲕⲡⲓⲥⲧⲟⲥتي ⲛⲉⲕⲡⲓⲥⲧⲟⲥ ⲟ̀ⲡⲟⲩ ⲛⲉⲙ ⲛⲉⲕⲙⲁⲣⲧⲩⲣⲟⲥ.",
-      "Englishcoptic": "Ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ ⲉ̀ⲧⲁⲩⲉⲣⲙⲉⲧⲁⲛⲟⲓⲛ ⲟ̀ⲡⲟⲩ ⲛⲉⲙ ⲛⲉⲕⲡⲓⲥⲧⲟⲥTi ⲛⲉⲕⲡⲓⲥⲧⲟⲥ ⲟ̀ⲡⲟⲩ ⲛⲉⲙ ⲛⲉⲕⲙⲁⲣⲧⲩⲣⲟⲥ."
+      "Arabiccoptic": "نيريفيرنوفي إيتافيرميتانوين  وبأو نيم نيكبيستوس: نيكبيستوس  وبأو نيم نيكمارتيروس.",
+      "Englishcoptic": "Nirefernovi -etavermetanoin -opoo nem nek-pi-stos: nek-pi-stos -opoo nem nek-marteeros."
     },
     {
       "Type": "Base",
@@ -263,10 +263,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا ربُّ إرحَم .",
-      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Coptic": "Kurie `ele`hcon.",
       "English": "Lord have mercy.",
-      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
-      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      "Arabiccoptic": "كيريإي إيلي يسون.",
+      "Englishcoptic": "Keerie -ele-eeson."
     },
     {
       "Type": "Base",
@@ -285,10 +285,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الذين هَهنا إجعلهم مُتشبِّهينَ بملائكتِكَ.",
-      "Coptic": "Ⲛⲏⲉⲧ ϧⲉⲛ ⲡⲁⲓⲙⲁ ⲁ̀ⲣⲓⲧⲟⲩ ⲉⲩⲧⲉⲛⲑⲱⲛⲧ ⲉ̀ⲛⲉⲕⲁⲅⲅⲉⲗⲟⲥ.",
+      "Coptic": "Nhet =en paima `aritou eutenqwnt `enekaggeloc.",
       "English": "Those who are in this place, conform them to Your angels.",
-      "Arabiccoptic": "Ⲛⲏⲉⲧ ϧⲉⲛ ⲡⲁⲓⲙⲁ ⲁ̀ⲣⲓⲧⲟⲩ ⲉⲩⲧⲉⲛⲑⲱⲛⲧ ⲉ̀ⲛⲉⲕⲁⲅⲅⲉⲗⲟⲥ.",
-      "Englishcoptic": "Ⲛⲏⲉⲧ ϧⲉⲛ ⲡⲁⲓⲙⲁ ⲁ̀ⲣⲓⲧⲟⲩ ⲉⲩⲧⲉⲛⲑⲱⲛⲧ ⲉ̀ⲛⲉⲕⲁⲅⲅⲉⲗⲟⲥ."
+      "Arabiccoptic": "نييت خين بايما  اريتأو إيف تينثوونت إينيكانجيلوس.",
+      "Englishcoptic": "Nee-et khen paima -aritoo evtenthoont -enek-angelos."
     },
     {
       "Type": "Base",
@@ -307,10 +307,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا ربُّ إرحَم .",
-      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Coptic": "Kurie `ele`hcon.",
       "English": "Lord have mercy.",
-      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
-      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      "Arabiccoptic": "كيريإي إيلي يسون.",
+      "Englishcoptic": "Keerie -ele-eeson."
     },
     {
       "Type": "Base",
@@ -329,10 +329,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ونحنُ أيضاً المدعُوينَ بِنعمتِكَ إلى خدمتِكَ ونحنُ غيرَ مستحقينَ، إقبلْنا إليكَ.",
-      "Coptic": "Ⲁ̀ⲛⲟⲛ ⲇⲉ ϩⲱⲛ ϧⲁ ⲛⲏⲉ̀ⲧⲁⲩⲑⲁϩⲙⲟⲩ ϧⲉⲛ ⲡⲉⲕϩ̀ⲙⲟⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲧⲉⲕⲇⲓⲁⲕⲟⲛⲓⲁ ⲉⲛⲟⲓ ⲛ̀ⲁⲧⲙ̀ⲡ̀ϣⲁ ϣⲟⲡⲧⲉⲛ ⲉ̀ⲣⲟⲕ.",
+      "Coptic": "`Anon de \\wn =a nh`etauqa\\mou =en pek`\\mot `e=oun `etekdiakonia enoi `nat`m`p]a ]opten `erok.",
       "English": "And we also, who have been called by Your grace into Your service while unworthy, accept us to Yourself.",
-      "Arabiccoptic": "Ⲁ̀ⲛⲟⲛ ⲇⲉ ϩⲱⲛ ϧⲁ ⲛⲏⲉ̀ⲧⲁⲩⲑⲁϩⲙⲟⲩ ϧⲉⲛ ⲡⲉⲕϩ̀ⲙⲟⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲧⲉⲕⲇⲓⲁⲕⲟⲛⲓⲁ ⲉⲛⲟⲓ ⲛ̀ⲁⲧⲙ̀ⲡ̀ϣⲁ ϣⲟⲡⲧⲉⲛ ⲉ̀ⲣⲟⲕ.",
-      "Englishcoptic": "Ⲁ̀ⲛⲟⲛ ⲇⲉ ϩⲱⲛ ϧⲁ ⲛⲏⲉ̀ⲧⲁⲩⲑⲁϩⲙⲟⲩ ϧⲉⲛ ⲡⲉⲕϩ̀ⲙⲟⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲧⲉⲕⲇⲓⲁⲕⲟⲛⲓⲁ ⲉⲛⲟⲓ ⲛ̀ⲁⲧⲙ̀ⲡ̀ϣⲁ ϣⲟⲡⲧⲉⲛ ⲉ̀ⲣⲟⲕ."
+      "Arabiccoptic": "أنون زي هوون خا نيإيتافثاهمأو خين بيكإهموت إيخأون إيتيكزياكونيا إينوي إناتإمإبشا شوبتين إيروك.",
+      "Englishcoptic": "-Anon ze hoon kha nee-etavthahmoo khen pek-ehmot -ekhoon etekziakoni-a enoi enatemep-sha shopten -erok."
     },
     {
       "Type": "Base",
@@ -351,10 +351,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا ربُّ إرحَم (3).",
-      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲅ̅).",
+      "Coptic": "Kurie `ele`hcon (g?).",
       "English": "Lord have mercy (3).",
-      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲅ̅).",
-      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲅ̅)."
+      "Arabiccoptic": "كيريإي إيلي يسون(3).",
+      "Englishcoptic": "Keerie -ele-eeson (3)."
     }
   ]
 }

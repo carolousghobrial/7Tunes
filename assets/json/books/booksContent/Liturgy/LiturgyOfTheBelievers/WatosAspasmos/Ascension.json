@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أسبسمس واطس عيد الصعود",
+  "EnglishTitle": "Watos Aspasmos for Feast of Ascension",
+  "CopticTitle": "Af]enaf `e`p]wi ",
   "Hymn": [
     {
       "Type": "Base",
@@ -20,11 +20,22 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "المسيح إلهنا، قام من بين الأموات، وصعد إلى السموات، وجلس عن يمين أبيه.",
-      "Coptic": "`A Pi`xrictoc Pennou;> twnf `ebol =en nheqmwout> ouo\\ af]enaf `e`p]wi `enivhou`i> af\\emci caou`inam `mPefiwt.",
-      "English": "Christ our God, has risen from the dead, and ascended into the heavens, He is seated at the right hand of His Father.",
-      "Arabiccoptic": " آ بي خريستوس بين نوتي: طونف إيفول خين ني إثموأووت: أووه آفشيناف إيه إبشوي إيه ني في أووي: آفهيمسي صا أووي نام إمبيف يوت . ",
-      "Englishcoptic": "-A Pikhristos Pen-nooti-: toonf evol khen- nee-ethmo-oot: owoh afshen-af eepshooi en-iveeoo-ee: afhemsi saoo-een-am emPefioot."
+      "Arabic": "صعد إلى السموات، وخضعت له الملائكة، والقوات والسلاطين، حسب قول الرسول.",
+      "Coptic": "Af]enaf `e`p]wi `enivhoui ausenjwou naf `nje \\anaggeloc nem \\anjom nem \\ane[oucia kata `pcaji `mpi`apoctoloc",
+      "English": "He ascended into the heavens, the angels submitted to Him, with the powers and the authorities, according to the saying of the Apostle.",
+      "Arabiccoptic": "أفشيناف إإبشوى إ أتفى إنتى إتفى سا أوى نام إبشاى هينا إنتيف أو أورب نان إم بى باراكليتون بى إبنيفما إنتى تى ميثمى. ",
+      "Englishcoptic": "Afshenaf e-epshooi eni-fi-owi : avchen-go-oo naf enje han-angelos : nem hangom nem han-exoosia: kata epsaji empi-apostolos"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا , هلليلويا  ، المسيح قام من بين الأموات، وصعد إلى السموات خلصنا وإرحمنا.",
+      "Coptic": "Allhlouia Allhlouia > Allhlouia  Pi`xrictoc aftwnf `ebol =en nheqmwout> ouo\\ af]enaf `e`p]wi `enivhou`i Cw; `mmon ouo\\ nai nan.",
+      "English": "Alleluia Alleluia, Alleluia  Christ has risen from the dead, and ascended into the heavens. Save us and have mercy upon us.",
+      "Arabiccoptic": "الليلويا الليلويا, الليلويا  : بي خريستوس آفطونف إيﭬول خين ني إثموأووت : اووه آفشيناف إيه إبشوي إيه ني في أووي. سوتى إممون أووه ناى نان  .",
+      "Englishcoptic": "Alleelooia , Alleelooia :  Alleelooia : Pikhristos aftonf evol khen nui ethmo-oot , owoh afshenaf epshoi eni-fi-owi. Sooti emmon owoh nai nan. "
     }
   ]
 }

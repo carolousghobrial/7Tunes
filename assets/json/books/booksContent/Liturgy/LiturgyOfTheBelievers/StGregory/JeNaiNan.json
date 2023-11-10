@@ -1,0 +1,151 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "لأن شعبَكَ",
+  "EnglishTitle": "For Your people ",
+  "CopticTitle": "Peklaoc gar",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن شعبَكَ وكنيستَكَ يطلبونَ إليكَ، وبكَ، إلى الآبِ معكَ قائلين:",
+      "Coptic": "Peklaoc gar nem tekek`klhcia ce;\\o `erok> ouo\\ `ebol \\itotk `eViwt nemak eujw `mmoc.",
+      "English": "For Your people and Your Church ask You, and through You the Father with You, saying,",
+      "Arabiccoptic": "بيك لاؤس غار نيم تيك إكلليسيا سي تيهو إروك : اووه إيﭭول هيتوتك إي إفيوت نيماك إيﭭجو إمموس",
+      "Englishcoptic": "Peklaos ghar nem tek-ekekleesia setiho erok: owoh evol hitotk Eviot nemak evgoo emmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارحَمْنا يا اللهُ مخلِّصَنا.",
+      "Coptic": "Je nai nan Vnou; pencwthr.",
+      "English": "Have mercy upon us, O God, our Savior.",
+      "Arabiccoptic": "جى ناي نان افنوتي بين سوتير ",
+      "Englishcoptic": "Je nai nan Evnoti pen-sooteer."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارحَمْنا يا اللهُ مخلِّصَنا.",
+      "Coptic": "Je nai nan Vnou; pencwthr.",
+      "English": "Have mercy upon us, O God, our Savior.",
+      "Arabiccoptic": "جى ناي نان افنوتي بين سوتير ",
+      "Englishcoptic": "Je nai nan Evnoti pen-sooteer."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارحَمْنا يا اللهُ مخلِّصَنا.",
+      "Coptic": "Je nai nan Vnou; pencwthr.",
+      "English": "Have mercy upon us, O God, our Savior.",
+      "Arabiccoptic": "جى ناي نان افنوتي بين سوتير ",
+      "Englishcoptic": "Je nai nan Evnoti pen-sooteer."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Kur`ie` el`ehcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Keer-ee-ee el-ee-eson."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارحَمْنا يا اللهُ مخلِّصَنا.",
+      "Coptic": "Ele`hcon `hmac o~ Qeoc `o cwthr `hmwn.",
+      "English": "Have mercy upon us, O God, our Savior.",
+      "Arabiccoptic": "اليسون ايماس اوثى اوس او سوتير اممون",
+      "Englishcoptic": "Eleison emas o-The-os o Soteer eemon"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارحَمْنا يا اللهُ مخلِّصَنا.",
+      "Coptic": "Ele`hcon `hmac o~ Qeoc `o cwthr `hmwn.",
+      "English": "Have mercy upon us, O God, our Savior.",
+      "Arabiccoptic": "اليسون ايماس اوثى اوس او سوتير اممون",
+      "Englishcoptic": "Eleison emas o-The-os o Soteer eemon"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارحَمْنا يا اللهُ مخلِّصَنا.",
+      "Coptic": "Ele`hcon `hmac o~ Qeoc `o cwthr `hmwn.",
+      "English": "Have mercy upon us, O God, our Savior.",
+      "Arabiccoptic": "اليسون ايماس اوثى اوس او سوتير اممون",
+      "Englishcoptic": "Eleison emas o-The-os o Soteer eemon"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم.",
+      "Coptic": "Kur`ie` el`ehcon.",
+      "English": "Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون",
+      "Englishcoptic": "Keer-ee-ee el-ee-eson."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَنعِمْ على شعبِكَ بوحدانيةِ القلبِ. أَعطِ طُمأنينةً للعالمِ، ومزاجاً حسناً للهواءِ.",
+      "Coptic": "Ari`\\mot `mpeklaoc `n;met\\ht `nouwt> moi `noucemni `mpikocmoc> ouqwt e~nanef `mpi`ahr.",
+      "English": "Grant Your people oneness of heart. Give tranquillity to the world, good temper to the air.",
+      "Arabiccoptic": " اري إهموت إمبيك لاؤس إنتي ميت هيت إن اؤوؤ : موي إن اوسيمني إمبي كوزموس : اوثوت إنانيف إمبي اير",
+      "Englishcoptic": "Ariehmot empeklaos entimetheet enooooot: moi enooosemni empikosmos: ooothoot e~nanef empi-aeer."
+    }
+  ]
+}

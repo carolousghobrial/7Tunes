@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أسبسمس أدام عيد القيامة 2",
+  "EnglishTitle": "Adam Aspasmos for Feast of the Resurrection 2",
+  "CopticTitle": "Maren\\wc nem niaggeloc",
   "Hymn": [
     {
       "Type": "Base",
@@ -57,7 +57,7 @@
       "Coptic": "Euw] `ebol eujw `mmoc> je `xouab ouo\\ `xouab> `xouab `Psoic `nni`ewn> `Xrictoc `anecth ek nekrwn.",
       "English": "We proclaim and say, “Holy holy, holy O Lord of the ages, Christ is risen from the dead.”",
       "Arabiccoptic": " ان أوش ايفول انجو امموس: جى اكؤواب أووه اكؤواب: اكؤواب ابتشويس انني ايؤن: اخريستوس آنيستي ايك نيكرون  . ",
-      "Englishcoptic": "Evoosh evol evgoo emmos: je Ek-owab owoh ekhooab: Ek-owab Epchois en-ni-eoon: eKhristos anestee ek nek-roon."
+      "Englishcoptic": "Ev-osh evol evgoo emmos: je Ek-owab owoh ekhooab: Ek-owab Epchois en-ni-eoon: eKhristos anestee ek nek-roon."
     }
   ]
 }

@@ -55,9 +55,9 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "المجد لك يارب الصباؤوتالساكن فى النور الأعظميامن آتانا بالناسوتوولد من العذراء مريم",
-      "English": "Glory to You, O Lord of Hosts Who abides in the great light Who came to us clothed in humanity And was born of Virgin Mary"
+      "Side": "Refrain",
+      "Arabic": "المجد لك يارب الصباؤوت \n الساكن فى النور الأعظم\n يامن آتانا بالناسوت\n وولد من العذراء مريم",
+      "English": "Glory to You, O Lord of Hosts\n Who abides in the great light \n Who came to us clothed in humanity \n And was born of Virgin Mary"
     }
   ]
 }

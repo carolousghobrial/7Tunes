@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أسبسمس واطس عيد عرس قانا الجليل",
+  "EnglishTitle": "Watos Aspasmos for Feast of the Wedding of Cana of Galilee",
+  "CopticTitle": "Ihcouc Piremnazareq",
   "Hymn": [
     {
       "Type": "Base",
@@ -24,7 +24,7 @@
       "Coptic": "Ihcouc Piremnazareq> af`cmou `enimwou afaitou `nhrp> `mpe`\\li nau `eou`]vhri ec`oni `nqai> icjen `Adam ]a `e=oun `mvoou.",
       "English": "Jesus of Nazareth, blessed the water and it became wine, no one have seen such wonder, since the times of Adam till today.",
       "Arabiccoptic": " إيسوس بى ريمنازيريث: أف إسمو اى نى موأوو أف أيطو إن إيرب: إمبى إهلى ناف اى أو إشفيرى إس أونى إنثاى: يسـﭼين آدام شا إيخون إم إفموأوو . ",
-      "Englishcoptic": "Isos Piremnazareth: afesmoo en-imo-oo afaitoo en-eerp: empeehli nav eooeshveeri es-oni en-thai: isjen- Azam sha ekhoon emvo-oo."
+      "Englishcoptic": "Isos Pirem-nazareth: afesmoo en-imo-oo afaitoo en-eerp: empeehli nav eooeshveeri es-oni en-thai: isjen- Azam sha ekhoon emvo-oo."
     },
     {
       "Type": "Base",

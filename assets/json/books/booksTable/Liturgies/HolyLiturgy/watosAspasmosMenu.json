@@ -50,12 +50,6 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosNativityParamoune",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosNativity",
             "Rule": 0,
             "Visible": "isSeason"
@@ -68,18 +62,6 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosNativity3",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosNativity4",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosTheophany",
             "Rule": 0,
             "Visible": "isSeason"
@@ -87,6 +69,12 @@
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosWeddingCana",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosAnnunciation",
             "Rule": 0,
             "Visible": "isSeason"
         },

@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أتيتَ إلى الذَبحِ",
+  "EnglishTitle": "You have come to the slaughter",
+  "CopticTitle": "Ak`i `e`p=ol=el",
   "Hymn": [
     {
       "Type": "Base",
@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أتيتَ إلى الذَبحِ مثل حَمَلٍ، حتى إلى الصليبِ.",
-      "Coptic": "Ⲁⲕⲓ̀ ⲉ̀ⲡ̀ϧⲟⲗϧⲉⲗ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲉ̀ⲥⲱⲟⲩ ϣⲁ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀Ⲟⲩⲥ̀ⲧⲁⲩⲣⲟⲥ.",
+      "Coptic": "Ak`i `e`p=ol=el `m`vrh; `nou`ecwou ]a `e`=rhi `eOu`ctauroc.",
       "English": "You have come to the slaughter as a lamb, even to the Cross.",
-      "Arabiccoptic": "Ⲁⲕⲓ̀ ⲉ̀ⲡ̀ϧⲟⲗϧⲉⲗ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲉ̀ⲥⲱⲟⲩ ϣⲁ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀Ⲟⲩⲥ̀ⲧⲁⲩⲣⲟⲥ.",
-      "Englishcoptic": "Ⲁⲕⲓ̀ ⲉ̀ⲡ̀ϧⲟⲗϧⲉⲗ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲉ̀ⲥⲱⲟⲩ ϣⲁ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀Ⲟⲩⲥ̀ⲧⲁⲩⲣⲟⲥ."
+      "Arabiccoptic": "أك إي إيإبخولخيل إم إفريتي إنأوإيسؤو شا إيإخريي إيأوإستافروس.",
+      "Englishcoptic": "Ak-ee -eepkholkhel emevreeti en-oo-eso-oo sha -eekhreei -eOooestavros."
     },
     {
       "Type": "Base",
@@ -32,10 +32,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أظهرتَ عِظَمَ إهتمامِكَ بي.",
-      "Coptic": "Ⲁⲕⲟⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉⲕⲛⲓϣϯ ⲙ̀ⲙⲉⲧϥⲁⲓⲣⲱⲟⲩϣ ϧⲁⲣⲟⲓ.",
+      "Coptic": "Akown\\ `ebol `ntekni]; `mmetfairwou] =aroi.",
       "English": "You have manifested the greatness of Your care for me.",
-      "Arabiccoptic": "Ⲁⲕⲟⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉⲕⲛⲓϣϯ ⲙ̀ⲙⲉⲧϥⲁⲓⲣⲱⲟⲩϣ ϧⲁⲣⲟⲓ.",
-      "Englishcoptic": "Ⲁⲕⲟⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉⲕⲛⲓϣϯ ⲙ̀ⲙⲉⲧϥⲁⲓⲣⲱⲟⲩϣ ϧⲁⲣⲟⲓ."
+      "Arabiccoptic": "أكووونه إيفول إنتيكنيشتي إمميتفايرؤوش خاروي.",
+      "Englishcoptic": "Akoonh evol en-tek-ni-shti emmetfairo-oosh kharoi."
     },
     {
       "Type": "Base",
@@ -43,10 +43,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "قَتَلتَ خَطيَتي بقَبرِكَ.",
-      "Coptic": "Ⲁⲕϧⲱⲧⲉⲃ ⲙ̀ⲡⲁⲛⲟⲃⲓ ϧⲉⲛ ⲡⲉⲕⲙ̀ϩⲁⲩ.",
+      "Coptic": "Ak=wteb `mpanobi =en pek`m\\au.",
       "English": "You have slain my sin in Your tomb.",
-      "Arabiccoptic": "Ⲁⲕϧⲱⲧⲉⲃ ⲙ̀ⲡⲁⲛⲟⲃⲓ ϧⲉⲛ ⲡⲉⲕⲙ̀ϩⲁⲩ.",
-      "Englishcoptic": "Ⲁⲕϧⲱⲧⲉⲃ ⲙ̀ⲡⲁⲛⲟⲃⲓ ϧⲉⲛ ⲡⲉⲕⲙ̀ϩⲁⲩ."
+      "Arabiccoptic": "أكخووتيف إمبانوفي خين بيكإمهاف.",
+      "Englishcoptic": "Akkhootev empanovi khen pek-emhav."
     },
     {
       "Type": "Base",
@@ -54,10 +54,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أصعَدتَ باكُورَتي إلى السماءِ.",
-      "Coptic": "Ⲁⲕⲱ̀ⲗⲓ ⲛ̀ⲧⲁⲁ̀ⲡⲁⲣⲭⲏ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲧ̀ⲫⲉ.",
+      "Coptic": "Ak`wli `nta`aparxh `e`p]wi `e`tve.",
       "English": "You have brought my first fruit up to heaven.",
-      "Arabiccoptic": "Ⲁⲕⲱ̀ⲗⲓ ⲛ̀ⲧⲁⲁ̀ⲡⲁⲣⲭⲏ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲧ̀ⲫⲉ.",
-      "Englishcoptic": "Ⲁⲕⲱ̀ⲗⲓ ⲛ̀ⲧⲁⲁ̀ⲡⲁⲣⲭⲏ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲧ̀ⲫⲉ."
+      "Arabiccoptic": "أك وولي إنتا ابارشي إيإبشووي إيإتفي.",
+      "Englishcoptic": "Ak-ooli en-ta-aparshee -eepshooi -eetve."
     },
     {
       "Type": "Base",
@@ -65,10 +65,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أظهَرتَ لي إعلانَ مجيئِكَ.",
-      "Coptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ ⲛ̀ⲧⲉ ⲡⲉⲕϫⲓⲛⲓ̀.",
+      "Coptic": "Akouwn\\ nhi `ebol `n`tparoucia `nte pekjin`i.",
       "English": "You have shown me the manifestation of Your Coming",
-      "Arabiccoptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ ⲛ̀ⲧⲉ ⲡⲉⲕϫⲓⲛⲓ̀.",
-      "Englishcoptic": "Ⲁⲕⲟⲩⲱⲛϩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ ⲛ̀ⲧⲉ ⲡⲉⲕϫⲓⲛⲓ̀."
+      "Arabiccoptic": "أكأووونه نيي إيفول إنإتبارأوسيا إنتي بيكجين إي.",
+      "Englishcoptic": "Ako-oonh neei evol en-etparoosia en-te pek-jin-ee."
     },
     {
       "Type": "Base",
@@ -76,10 +76,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هذا الذي تأتي فيه لتدينَ الأحياءَ والأمواتَ، وتُعطِي كلَّ واحدٍ كأعمالِهِ.",
-      "Coptic": "Ⲑⲁⲓ ⲉ̀ⲧⲉⲕⲛⲏⲟⲩ ⲛ̀ϧⲏⲧⲥ ⲉ̀ϯϩⲁⲡ ⲉ̀ⲛⲏⲉⲧⲟⲛϧ ⲛⲉⲙ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲉ̀ϯ ⲙ̀ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ.",
+      "Coptic": "qai `eteknhou `n=htc `e;\\ap `enheton= nem nheqmwout> ouo\\ `e; `mpiouai piouai kata nef`\\bhoui.",
       "English": "wherein You shall come to judge the living and the dead, and give each one according to his deeds.",
-      "Arabiccoptic": "Ⲑⲁⲓ ⲉ̀ⲧⲉⲕⲛⲏⲟⲩ ⲛ̀ϧⲏⲧⲥ ⲉ̀ϯϩⲁⲡ ⲉ̀ⲛⲏⲉⲧⲟⲛϧ ⲛⲉⲙ ⲛⲏⲉⲑⲙⲱⲟⲩⲧتي ⲟⲩⲟϩ ⲉ̀ϯ ⲙ̀ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ.",
-      "Englishcoptic": "Ⲑⲁⲓ ⲉ̀ⲧⲉⲕⲛⲏⲟⲩ ⲛ̀ϧⲏⲧⲥ ⲉ̀ϯϩⲁⲡ ⲉ̀ⲛⲏⲉⲧⲟⲛϧ ⲛⲉⲙ ⲛⲏⲉⲑⲙⲱⲟⲩⲧTi ⲟⲩⲟϩ ⲉ̀ϯ ⲙ̀ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ."
+      "Arabiccoptic": "ثاي إيتيكنيأو إنخيتس إيتيهاب إينييتونخ نيم نييثمؤوت: أووه إيتي إمبي أواي بيأواي كاتا نيفإهفيأوي.",
+      "Englishcoptic": "thai etekneeoo en-kheets -eti-hap -en-ee-etonkh nem nee-ethmo-oot: owoh -eti- empi-ooai pi-ooai kata nefehveeooi."
     },
     {
       "Type": "Base",
@@ -98,10 +98,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "كرحمتك يا رب، وليس كخطايانا.",
-      "Coptic": "Ⲕⲁⲧⲁ ⲧⲟ ⲉ̀ⲗⲉⲟⲥ ⲥⲟⲩ Ⲕⲩⲣⲓⲉ: ⲕⲉ ⲙⲏ ⲕⲁⲧⲁ ⲧⲁⲥ ⲁ̀ⲙⲁⲣⲧⲓⲁⲥ ⲏ̀ⲙⲱⲛ.",
+      "Coptic": "Kata to `eleoc cou Kurie> ke mh kata tac `amartiac `hmwn.",
       "English": "According to Your mercy, O Lord, and not according to our sins.",
-      "Arabiccoptic": "Ⲕⲁⲧⲁ ⲧⲟ ⲉ̀ⲗⲉⲟⲥ ⲥⲟⲩ Ⲕⲩⲣⲓⲉتي ⲕⲉ ⲙⲏ ⲕⲁⲧⲁ ⲧⲁⲥ ⲁ̀ⲙⲁⲣⲧⲓⲁⲥ ⲏ̀ⲙⲱⲛ.",
-      "Englishcoptic": "Ⲕⲁⲧⲁ ⲧⲟ ⲉ̀ⲗⲉⲟⲥ ⲥⲟⲩ ⲔⲩⲣⲓⲉTi ⲕⲉ ⲙⲏ ⲕⲁⲧⲁ ⲧⲁⲥ ⲁ̀ⲙⲁⲣⲧⲓⲁⲥ ⲏ̀ⲙⲱⲛ."
+      "Arabiccoptic": "كاتا تو إيليوس سأو كيريإي: كي مي كاتا تاس  امارتياس  يموون.",
+      "Englishcoptic": "Kata to -eleos soo Keerie: ke mee kata tas -amarti-as -eemoon."
     }
   ]
 }

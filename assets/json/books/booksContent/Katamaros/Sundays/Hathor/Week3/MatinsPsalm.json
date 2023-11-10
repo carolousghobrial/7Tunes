@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( ١١٢ : ۲ ، ۳ )",
+  "EnglishTitle": "Psalms 113:3-4",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مـن مشـارق الشمس إلى مغاربهـا، بـاركوا اسـم الـرب. ",
+      "English": "3 From the rising of the sun to its going down The Lord's name is to be praised. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الـرب عـال على كل الأمم، وعلى السموات مجـده. ",
+      "English": "4 The Lord is high above all nations, His glory above the heavens.     Alleluia\r"
+    }
+  ]
+}

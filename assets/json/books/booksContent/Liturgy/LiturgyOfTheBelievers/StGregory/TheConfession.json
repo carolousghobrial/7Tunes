@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "القُدساتُ للقِدِّيسينَ.",
-      "Coptic": "Ⲧⲁ ⲁ̀ⲅⲓⲁ ⲧⲓⲥ ⲁ̀ⲅⲏⲥ.",
+      "Coptic": "Ta `agia tic `aghc.",
       "English": "The Holies for the holy.",
-      "Arabiccoptic": "Ⲧⲁ ⲁ̀ⲅⲓⲁ ⲧⲓⲥ ⲁ̀ⲅⲏⲥ.",
-      "Englishcoptic": "Ⲧⲁ ⲁ̀ⲅⲓⲁ ⲧⲓⲥ ⲁ̀ⲅⲏⲥ."
+      "Arabiccoptic": "تا  اجيا تيس  اجيس.",
+      "Englishcoptic": "Ta -agia ti-s -agees."
     },
     {
       "Type": "Base",
@@ -32,10 +32,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مٌبارَكٌ الربُّ يسوعُ المسيحُ إبنُ اللهِ، وقُدُّوسٌ الرُّوحُ القُدُسُ. آمين.",
-      "Coptic": "Ⲉⲩⲗⲟⲅⲏⲧⲟⲥ Ⲕⲩⲣⲓⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲩ̀ⲓⲟⲥ Ⲑⲉⲟⲩ ⲁ̀ⲅⲓⲁⲥⲙⲟⲥ Ⲡ̀ⲛⲉⲩⲙⲁ Ⲁ̀ⲅⲓⲟⲛ: ⲁ̀ⲙⲏⲛ.",
+      "Coptic": "Euloghtoc Kurioc Ihcouc `Xrictoc `Uioc qeou `agiacmoc `Pneuma `Agion> `amhn.",
       "English": "Blessed be the Lord Jesus Christ, the Son of God; the sanctification is by the Holy Spirit. Amen.",
-      "Arabiccoptic": "Ⲉⲩⲗⲟⲅⲏⲧⲟⲥ Ⲕⲩⲣⲓⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲩ̀ⲓⲟⲥ Ⲑⲉⲟⲩ ⲁ̀ⲅⲓⲁⲥⲙⲟⲥ Ⲡ̀ⲛⲉⲩⲙⲁ Ⲁ̀ⲅⲓⲟⲛتي ⲁ̀ⲙⲏⲛ.",
-      "Englishcoptic": "Ⲉⲩⲗⲟⲅⲏⲧⲟⲥ Ⲕⲩⲣⲓⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲩ̀ⲓⲟⲥ Ⲑⲉⲟⲩ ⲁ̀ⲅⲓⲁⲥⲙⲟⲥ Ⲡ̀ⲛⲉⲩⲙⲁ Ⲁ̀ⲅⲓⲟⲛTi ⲁ̀ⲙⲏⲛ."
+      "Arabiccoptic": "يفلوجيتوس كيريوس إييسأوس إخريستوس  إييوس ثيأو  اجياسموس إبنيفما  أجيون:  امين.",
+      "Englishcoptic": "Evlogeetos Keerios Isos eKhristos -Eyios theoo -agiasmos ePnevma -Agion: -ameen-."
     },
     {
       "Type": "Base",
@@ -49,15 +49,23 @@
       "Englishcoptic": "Pi-Laos:"
     },
     {
+      "Type": "Button",
+      "Arabic": "واحد هو الآب القدوس.",
+      "English": "One is the Holy Father",
+      "Rule": "OpenSinglePage",
+      "Visible": true,
+      "Path": "LiturgyLiturgyOfTheBelieversStBasilOneIsAllHolyFather"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "واحد هو الآب القدوس. واحد هو الإبن القدوس. واحد هو الروح القدس. آمين.",
-      "Coptic": "Ⲓⲥ Ⲡⲁⲧⲏⲣ ⲁ̀ⲅⲓⲟⲥ: ⲓⲥ ⲟ̀ Ⲩ̀ⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥ: ⲉⲛ Ⲡ̀ⲛⲉⲩⲙⲁ Ⲁ̀ⲅⲓⲟⲛ: ⲁ̀ⲙⲏⲛ.",
+      "Coptic": "Ic Pathr `agioc> ic `o `Uioc `agioc> en `Pneuma `Agion> `amhn.",
       "English": "One is the Holy Father, one is the Holy Son, one is the Holy Spirit. Amen.",
-      "Arabiccoptic": "Ⲓⲥ Ⲡⲁⲧⲏⲣ ⲁ̀ⲅⲓⲟⲥتي ⲓⲥ ⲟ̀ Ⲩ̀ⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥتي ⲉⲛ Ⲡ̀ⲛⲉⲩⲙⲁ Ⲁ̀ⲅⲓⲟⲛتي ⲁ̀ⲙⲏⲛ.",
-      "Englishcoptic": "Ⲓⲥ Ⲡⲁⲧⲏⲣ ⲁ̀ⲅⲓⲟⲥTi ⲓⲥ ⲟ̀ Ⲩ̀ⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥTi ⲉⲛ Ⲡ̀ⲛⲉⲩⲙⲁ Ⲁ̀ⲅⲓⲟⲛTi ⲁ̀ⲙⲏⲛ."
+      "Arabiccoptic": "إيس باتير  اجيوس: يس  و  إييوس  اجيوس: إين إبنيفما  أجيون:  امين.",
+      "Englishcoptic": "Is Pateer agios: is -o -Eyios agios: en ePnevma -Agion: -ameen."
     },
     {
       "Type": "Base",
@@ -76,10 +84,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "السلام للكل.",
-      "Coptic": "Ⲓ̀ⲣⲏⲛⲏ ⲡⲁⲥⲓ.",
+      "Coptic": "`Irhnh paci.",
       "English": "Peace be with all.",
-      "Arabiccoptic": "Ⲓ̀ⲣⲏⲛⲏ ⲡⲁⲥⲓ.",
-      "Englishcoptic": "Ⲓ̀ⲣⲏⲛⲏ ⲡⲁⲥⲓ."
+      "Arabiccoptic": "إيريني باسي.",
+      "Englishcoptic": "-Ireen-ee pasi."
     },
     {
       "Type": "Base",
@@ -98,10 +106,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ولروحك أيضاً.",
-      "Coptic": "Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ.",
+      "Coptic": "Ke tw `pneumati cou.",
       "English": "And with your spirit.",
-      "Arabiccoptic": "Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ.",
-      "Englishcoptic": "Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ."
+      "Arabiccoptic": "كي توو إبنيفماتي سأو.",
+      "Englishcoptic": "Ke too epnevmati soo."
     },
     {
       "Type": "Base",
@@ -120,10 +128,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "جسدٌ مُقدَّسٌ، ودمٌ كريمٌ حقيقيٌّ، ليسوعَ المسيحِ إبنِ إلَهِنا. آمين.",
-      "Coptic": "Ⲥⲱⲙⲁ ⲁ̀ⲅⲓⲟⲛ ⲕⲉ Ⲉ̀ⲙⲁ ⲧⲓⲙⲓⲟⲛ ⲁ̀ⲗⲏⲑⲓⲛⲟⲛ: Ⲓⲏⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲟⲩ ⲧⲟⲩ Ⲩ̀ⲓⲟⲩ ⲧⲟⲩ Ⲑⲉⲟⲩ ⲏ̀ⲙⲱⲛ: ⲁ̀ⲙⲏⲛ.",
+      "Coptic": "Cwma `agion ke `Ema timion `alhqinon> Ihcou `Xrictou tou `Uiou tou qeou `hmwn> `amhn.",
       "English": "The holy Body and the precious, true Blood of Jesus Christ, the Son of our God. Amen.",
-      "Arabiccoptic": "Ⲥⲱⲙⲁ ⲁ̀ⲅⲓⲟⲛ ⲕⲉ Ⲉ̀ⲙⲁ ⲧⲓⲙⲓⲟⲛ ⲁ̀ⲗⲏⲑⲓⲛⲟⲛتي Ⲓⲏⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲟⲩ ⲧⲟⲩ Ⲩ̀ⲓⲟⲩ ⲧⲟⲩ Ⲑⲉⲟⲩ ⲏ̀ⲙⲱⲛتي ⲁ̀ⲙⲏⲛ.",
-      "Englishcoptic": "Ⲥⲱⲙⲁ ⲁ̀ⲅⲓⲟⲛ ⲕⲉ Ⲉ̀ⲙⲁ ⲧⲓⲙⲓⲟⲛ ⲁ̀ⲗⲏⲑⲓⲛⲟⲛTi Ⲓⲏⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲟⲩ ⲧⲟⲩ Ⲩ̀ⲓⲟⲩ ⲧⲟⲩ Ⲑⲉⲟⲩ ⲏ̀ⲙⲱⲛTi ⲁ̀ⲙⲏⲛ."
+      "Arabiccoptic": "سووما  اجيون كي إيما تيميون  اليثينون: إييسأو إخريستأو تأو  إييأو تأو ثيأو  يموون:  امين.",
+      "Englishcoptic": "Sooma -agion ke -Ema ti-mion -aleethinon: Ieesoo eKhristoo too -Eyioo too theoo -eemoon: -ameen-."
     },
     {
       "Type": "Base",
@@ -142,10 +150,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "آمين.",
-      "Coptic": "Ⲁ̀ⲙⲏⲛ.",
+      "Coptic": "`Amhn.",
       "English": "Amen.",
-      "Arabiccoptic": "Ⲁ̀ⲙⲏⲛ.",
-      "Englishcoptic": "Ⲁ̀ⲙⲏⲛ."
+      "Arabiccoptic": "أمين.",
+      "Englishcoptic": "Ameen-."
     },
     {
       "Type": "Base",
@@ -164,10 +172,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مُقدَّسٌ وكَريمٌ جسدٌ ودمٌ حقيقيُّ، ليسوعَ المسيحِ إبنِ إلَهِنا. آمين.",
-      "Coptic": "Ⲁ̀ⲅⲓⲟⲛ ⲧⲓⲙⲓⲟⲛ Ⲥⲱⲙⲁ ⲕⲉ Ⲉ̀ⲙⲁ ⲁ̀ⲗⲏⲑⲓⲛⲟⲛ: Ⲓⲏⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲟⲩ ⲧⲟⲩ Ⲩ̀ⲓⲟⲩ ⲧⲟⲩ Ⲑⲉⲟⲩ ⲏ̀ⲙⲱⲛ: ⲁ̀ⲙⲏⲛ.",
+      "Coptic": "`Agion timion Cwma ke `Ema `alhqinon> Ihcou `Xrictou tou `Uiou tou qeou `hmwn> `amhn.",
       "English": "The holy, precious Body and the true Blood of Jesus Christ, the Son of our God. Amen.",
-      "Arabiccoptic": "Ⲁ̀ⲅⲓⲟⲛ ⲧⲓⲙⲓⲟⲛ Ⲥⲱⲙⲁ ⲕⲉ Ⲉ̀ⲙⲁ ⲁ̀ⲗⲏⲑⲓⲛⲟⲛتي Ⲓⲏⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲟⲩ ⲧⲟⲩ Ⲩ̀ⲓⲟⲩ ⲧⲟⲩ Ⲑⲉⲟⲩ ⲏ̀ⲙⲱⲛتي ⲁ̀ⲙⲏⲛ.",
-      "Englishcoptic": "Ⲁ̀ⲅⲓⲟⲛ ⲧⲓⲙⲓⲟⲛ Ⲥⲱⲙⲁ ⲕⲉ Ⲉ̀ⲙⲁ ⲁ̀ⲗⲏⲑⲓⲛⲟⲛTi Ⲓⲏⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲟⲩ ⲧⲟⲩ Ⲩ̀ⲓⲟⲩ ⲧⲟⲩ Ⲑⲉⲟⲩ ⲏ̀ⲙⲱⲛTi ⲁ̀ⲙⲏⲛ."
+      "Arabiccoptic": "أجيون تيميون سووما كي إيما  اليثينون: إييسأو إخريستأو تأو  إييأو تأو ثيأو  يموون:  امين.",
+      "Englishcoptic": "-Agion ti-mion Sooma ke -Ema -aleethinon: Ieesoo eKhristoo too -Eyioo too theoo -eemoon: -ameen-."
     },
     {
       "Type": "Base",
@@ -186,10 +194,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "آمين.",
-      "Coptic": "Ⲁ̀ⲙⲏⲛ.",
+      "Coptic": "`Amhn.",
       "English": "Amen.",
-      "Arabiccoptic": "Ⲁ̀ⲙⲏⲛ.",
-      "Englishcoptic": "Ⲁ̀ⲙⲏⲛ."
+      "Arabiccoptic": "أمين.",
+      "Englishcoptic": "Ameen-."
     },
     {
       "Type": "Base",
@@ -208,10 +216,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "جسدُ ودمُ عمانوئيلَ إلَهِنا هذا هو بالحقيقةِ. آمين.",
-      "Coptic": "Ⲡⲓⲥⲱⲙⲁ ⲛⲉⲙ Ⲡⲓⲥ̀ⲛⲟϥ ⲛ̀ⲧⲉ Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ Ⲡⲉⲛⲛⲟⲩϯ ⲫⲁⲓ ⲡⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲁ̀ⲙⲏⲛ.",
+      "Coptic": "Picwma nem Pi`cnof `nte Emmanouhl Pennou; vai pe =en oumeqmhi> `amhn.",
       "English": "The Body and the Blood of Emmanuel our God; this is true. Amen.",
-      "Arabiccoptic": "Ⲡⲓⲥⲱⲙⲁ ⲛⲉⲙ Ⲡⲓⲥ̀ⲛⲟϥ ⲛ̀ⲧⲉ Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ Ⲡⲉⲛⲛⲟⲩϯ ⲫⲁⲓ ⲡⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓتي ⲁ̀ⲙⲏⲛ.",
-      "Englishcoptic": "Ⲡⲓⲥⲱⲙⲁ ⲛⲉⲙ Ⲡⲓⲥ̀ⲛⲟϥ ⲛ̀ⲧⲉ Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ Ⲡⲉⲛⲛⲟⲩϯ ⲫⲁⲓ ⲡⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓTi ⲁ̀ⲙⲏⲛ."
+      "Arabiccoptic": "بيسووما نيم بيإسنوف إنتي إيممانأويل بيننأوتي فاي بي خين أوميثميي:  امين.",
+      "Englishcoptic": "Pisooma nem Piesnof en-te Emmanooeel Pen-nooti vai pe khen- oo-methmee: -ameen-."
     },
     {
       "Type": "Base",
@@ -230,10 +238,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "حقاً. أؤمن.",
-      "Coptic": "Ⲁ̀ⲙⲏⲛ. Ϯⲛⲁϩϯ.",
+      "Coptic": "`Amhn. :na\\;.",
       "English": "Amen. I believe.",
-      "Arabiccoptic": "Ⲁ̀ⲙⲏⲛ. Ϯⲛⲁϩϯ.",
-      "Englishcoptic": "Ⲁ̀ⲙⲏⲛ. Ϯⲛⲁϩϯ."
+      "Arabiccoptic": "أمين. تيناهتي.",
+      "Englishcoptic": "Ameen-. Tinahti-."
     },
     {
       "Type": "Base",
@@ -252,10 +260,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "آمين. آمين. آمين. أؤمنُ. أؤمنُ. أؤمنُ. وأعترفُ إلى النفسِ الأخيرِ.",
-      "Coptic": "Ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ: ϯⲛⲁϩϯ ϯⲛⲁϩϯ ϯⲛⲁϩϯ ⲟⲩⲟϩ ϯⲉⲣⲟ̀ⲙⲟⲗⲟⲅⲓⲛ ϣⲁ ⲡⲓⲛⲓϥⲓ ⲛ̀ϧⲁⲉ̀.",
+      "Coptic": "`Amhn `amhn `amhn> ;na\\; ;na\\; ;na\\; ouo\\ ;er`omologin ]a pinifi `n=a`e.",
       "English": "Amen. Amen. Amen. I believe, I believe, I believe and confess to the last breath",
-      "Arabiccoptic": "Ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛتي ϯⲛⲁϩϯ ϯⲛⲁϩϯ ϯⲛⲁϩϯ ⲟⲩⲟϩ ϯⲉⲣⲟ̀ⲙⲟⲗⲟⲅⲓⲛ ϣⲁ ⲡⲓⲛⲓϥⲓ ⲛ̀ϧⲁⲉ̀.",
-      "Englishcoptic": "Ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛTi ϯⲛⲁϩϯ ϯⲛⲁϩϯ ϯⲛⲁϩϯ ⲟⲩⲟϩ ϯⲉⲣⲟ̀ⲙⲟⲗⲟⲅⲓⲛ ϣⲁ ⲡⲓⲛⲓϥⲓ ⲛ̀ϧⲁⲉ̀."
+      "Arabiccoptic": "أمين  امين  امين: تيناهتي تيناهتي تيناهتي أووه تيير ومولوجين شا بينيفي إنخاإي.",
+      "Englishcoptic": "Ameen -ameen -ameen: ti-nahti- ti-nahti- ti-nahti- owoh ti-er-omologin sha pi-ni-fi enkha-e."
     },
     {
       "Type": "Base",
@@ -263,10 +271,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أن هذا هو الجسدُ المحيي، الذي أخذتَه أيها المسيحُ إلهي من سيدتِنا كلِّنا والدةِ الإلهِ القديسةِ الطاهرةِ مريم.",
-      "Coptic": "Ϫⲉ ⲑⲁⲓ ⲧⲉ Ϯⲥⲁⲣⲝ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ: ⲉ̀ⲧⲁⲕϭⲓⲧⲥ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲁⲛⲟⲩϯ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧⲉⲛϭⲟⲓⲥ ⲧⲏⲣⲉⲛ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ ϯⲁ̀ⲅⲓⲁ Ⲙⲁⲣⲓⲁ.",
+      "Coptic": "Je qai te :car[ `nreftan=o> `etaksitc `w Pi`xrictoc Panou; `ebol =en tensoic thren :qe`otokoc eqouab ;`agia Maria.",
       "English": "that this is the life-giving Flesh that You have taken, O Christ my God, from our Lady, the Lady of us all, the holy Theotokos, Saint Mary.",
-      "Arabiccoptic": "Ϫⲉ ⲑⲁⲓ ⲧⲉ Ϯⲥⲁⲣⲝ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟتي ⲉ̀ⲧⲁⲕϭⲓⲧⲥ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲁⲛⲟⲩϯ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧⲉⲛϭⲟⲓⲥ ⲧⲏⲣⲉⲛ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ ϯⲁ̀ⲅⲓⲁ Ⲙⲁⲣⲓⲁ.",
-      "Englishcoptic": "Ϫⲉ ⲑⲁⲓ ⲧⲉ Ϯⲥⲁⲣⲝ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟTi ⲉ̀ⲧⲁⲕϭⲓⲧⲥ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲁⲛⲟⲩϯ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧⲉⲛϭⲟⲓⲥ ⲧⲏⲣⲉⲛ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ ϯⲁ̀ⲅⲓⲁ Ⲙⲁⲣⲓⲁ."
+      "Arabiccoptic": "جي ثاي تي تيساركس إنريفتانخو: إيتاكتشيتس  وو بيإخريستوس بانأوتي إيفول خين تينتشويس تيرين تيثي وتوكوس إيثؤاب تي اجيا ماريا.",
+      "Englishcoptic": "Je thai te Tisarx en-reftankho: -etakchits -oo Pikhristos Panooti evol khen- ten-chois teeren- Tithe-otokos ethowab ti-agia Maria."
     },
     {
       "Type": "Base",
@@ -274,10 +282,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وجَعلتَهُ واحداً مع لاهوتِكَ بغيرِ إختلاطٍ ولا إمتزاجٍ ولا تغييرٍ.",
-      "Coptic": "Ⲁⲕⲁⲓⲥ ⲛ̀ⲟⲩⲁⲓ ⲛⲉⲙ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ: ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧⲙⲟⲩϫⲧ: ⲛⲉⲙ ⲟⲩⲙⲉⲧⲁⲧⲑⲱϧ: ⲛⲉⲙ ⲟⲩⲙⲉⲧⲁⲧϣⲓⲃϯ.",
+      "Coptic": "Akaic `nouai nem tekmeqnou;> =en oumetatmoujt> nem oumetatqw=> nem oumetat]ib;.",
       "English": "You have made It one with Your divinity without mingling, without confusion, and without alteration.",
-      "Arabiccoptic": "Ⲁⲕⲁⲓⲥ ⲛ̀ⲟⲩⲁⲓ ⲛⲉⲙ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯتي ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧⲙⲟⲩϫⲧتي ⲛⲉⲙ ⲟⲩⲙⲉⲧⲁⲧⲑⲱϧتي ⲛⲉⲙ ⲟⲩⲙⲉⲧⲁⲧϣⲓⲃϯ.",
-      "Englishcoptic": "Ⲁⲕⲁⲓⲥ ⲛ̀ⲟⲩⲁⲓ ⲛⲉⲙ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯTi ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧⲙⲟⲩϫⲧTi ⲛⲉⲙ ⲟⲩⲙⲉⲧⲁⲧⲑⲱϧTi ⲛⲉⲙ ⲟⲩⲙⲉⲧⲁⲧϣⲓⲃϯ."
+      "Arabiccoptic": "أكايس إنأواي نيم تيكميثنأوتي: خين  أوميتاتمأوجت: نيم  أوميتاتتووخ: نيم  أوميتاتشيبتي.",
+      "Englishcoptic": "Akais en-ooai nem tekmethnooti-: khen- oometatmoogt: nem oometattookh: nem oometatshibti-."
     },
     {
       "Type": "Base",
@@ -285,10 +293,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "واعترفتَ الإعترافَ الحسنَ أمامَ بيلاطُس البُنطي.",
-      "Coptic": "Ⲉ̀ⲁϥⲉⲣⲟ̀ⲙⲟⲗⲟⲅⲓⲛ ⲛ̀ϯⲟ̀ⲙⲟⲗⲟⲅⲓⲁ ⲉⲑⲛⲁⲛⲉⲥ ⲛⲁϩⲣⲉⲛ Ⲡⲟⲛⲧⲓⲟⲥ Ⲡⲓⲗⲁⲧⲟⲥ.",
+      "Coptic": "`Eafer`omologin `n;`omologia eqnanec na\\ren Pontioc Pilatoc.",
       "English": "You have confessed the good confession before Pontius Pilate.",
-      "Arabiccoptic": "Ⲉ̀ⲁϥⲉⲣⲟ̀ⲙⲟⲗⲟⲅⲓⲛ ⲛ̀ϯⲟ̀ⲙⲟⲗⲟⲅⲓⲁ ⲉⲑⲛⲁⲛⲉⲥ ⲛⲁϩⲣⲉⲛ Ⲡⲟⲛⲧⲓⲟⲥ Ⲡⲓⲗⲁⲧⲟⲥ.",
-      "Englishcoptic": "Ⲉ̀ⲁϥⲉⲣⲟ̀ⲙⲟⲗⲟⲅⲓⲛ ⲛ̀ϯⲟ̀ⲙⲟⲗⲟⲅⲓⲁ ⲉⲑⲛⲁⲛⲉⲥ ⲛⲁϩⲣⲉⲛ Ⲡⲟⲛⲧⲓⲟⲥ Ⲡⲓⲗⲁⲧⲟⲥ."
+      "Arabiccoptic": "إيافير ومولوجين إنتي ومولوجيا إيثنانيس ناهرين بونتيوس بيلاتوس.",
+      "Englishcoptic": "-Eafer-omologin en-ti-omologia ethnanes nahren- Ponti-os Pilatos."
     },
     {
       "Type": "Base",
@@ -296,10 +304,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وسَلَّمتَهُ عنا على خشبةِ الصليبِ المقدسةِ، بإرادتِكَ وحدَكَ عنَّا كلِّنا.",
-      "Coptic": "Ⲁⲕⲧⲏⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ϩⲓϫⲉⲛ ⲡⲓϣⲉ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ: ϧⲉⲛ ⲡⲉⲕⲟⲩⲱϣ ⲙ̀ⲙⲓⲛ ⲙ̀ⲙⲟⲕ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ⲧⲏⲣⲉⲛ.",
+      "Coptic": "Akthic `e`\\rhi `ejwn \\ijen pi]e eqouab `nte Pi`ctauroc> =en pekouw] `mmin `mmok `e`\\rhi `ejwn thren.",
       "English": "You have given It up for us upon the holy wood of the Cross, of Your own will, for us all.",
-      "Arabiccoptic": "Ⲁⲕⲧⲏⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ϩⲓϫⲉⲛ ⲡⲓϣⲉ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥتي ϧⲉⲛ ⲡⲉⲕⲟⲩⲱϣ ⲙ̀ⲙⲓⲛ ⲙ̀ⲙⲟⲕ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ⲧⲏⲣⲉⲛ.",
-      "Englishcoptic": "Ⲁⲕⲧⲏⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ϩⲓϫⲉⲛ ⲡⲓϣⲉ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥTi ϧⲉⲛ ⲡⲉⲕⲟⲩⲱϣ ⲙ̀ⲙⲓⲛ ⲙ̀ⲙⲟⲕ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ⲧⲏⲣⲉⲛ."
+      "Arabiccoptic": "أكتييس إي إهريي إيجوون هيجين بيشي إيثؤاب إنتي بيإستافروس: خين بيكأوأوؤوش إممين إمموك إي إهريي إيجوون تيرين.",
+      "Englishcoptic": "Akteeis -eehreei -egoon hijen pi-she ethowab ente Piestavros: khen pek-o-oosh emmin emmok -eehreei -egoon teeren."
     },
     {
       "Type": "Base",
@@ -307,10 +315,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "(بالحقيقةِ) أؤمنُ، أن لاهوتَكَ لم يفارقْ ناسوتَكَ لحظةً واحدةً ولا طرفةَ عينٍ.",
-      "Coptic": "Ϯⲛⲁϩϯ ϫⲉ ⲙ̀ⲡⲉ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ ⲫⲱⲣϫ ⲉ̀ⲧⲉⲕⲙⲉⲧⲣⲱⲙⲓ: ⲛ̀ⲟⲩⲥⲟⲩⲥⲟⲩ ⲛ̀ⲟⲩⲱⲧ ⲟⲩⲇⲉ ⲟⲩⲣⲓⲕⲓ ⲙ̀ⲃⲁⲗ.",
+      "Coptic": ":na\\; je `mpe tekmeqnou; vwrj `etekmetrwmi> `noucoucou `nouwt oude ouriki `mbal.",
       "English": "I believe that Your divinity parted not from Your humanity for a single moment, nor a twinkling of an eye;",
-      "Arabiccoptic": "Ϯⲛⲁϩϯ ϫⲉ ⲙ̀ⲡⲉ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ ⲫⲱⲣϫ ⲉ̀ⲧⲉⲕⲙⲉⲧⲣⲱⲙⲓتي ⲛ̀ⲟⲩⲥⲟⲩⲥⲟⲩ ⲛ̀ⲟⲩⲱⲧ ⲟⲩⲇⲉ ⲟⲩⲣⲓⲕⲓ ⲙ̀ⲃⲁⲗ.",
-      "Englishcoptic": "Ϯⲛⲁϩϯ ϫⲉ ⲙ̀ⲡⲉ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ ⲫⲱⲣϫ ⲉ̀ⲧⲉⲕⲙⲉⲧⲣⲱⲙⲓTi ⲛ̀ⲟⲩⲥⲟⲩⲥⲟⲩ ⲛ̀ⲟⲩⲱⲧ ⲟⲩⲇⲉ ⲟⲩⲣⲓⲕⲓ ⲙ̀ⲃⲁⲗ."
+      "Arabiccoptic": "تيناهتي جي إمبي  تيكميثنأوتي فوورج إيتيكميتروومي: إنأوسأوسأو إنأوووت أوزي أوريكي إمفال.",
+      "Englishcoptic": "Tinahti je empe tekmethnooti voorg etekmetroomi: en-oosoosoo en-o-oot ooze ooriki emval."
     },
     {
       "Type": "Base",
@@ -318,10 +326,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يُعطَى عنا خلاصاً وغفراناً للخطايا، وحياةً أبديةً لمن يتناولُ منُه.",
-      "Coptic": "Ⲉⲩϯ ⲙ̀ⲙⲟⲥ ⲉ̀ϫⲱⲛ ⲛ̀ⲟⲩⲥⲱϯ: ⲛⲉⲙ ⲟⲩⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲓⲛⲟⲃⲓ: ⲛⲉⲙ ⲟⲩⲱⲛϧ ⲛ̀ⲉ̀ⲛⲉϩ: ⲛ̀ⲛⲏⲉⲑⲛⲁϭⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧⲥ.",
+      "Coptic": "Eu; `mmoc `ejwn `noucw;> nem ouxw `ebol `nte ninobi> nem ouwn= `n`ene\\> `nnheqnasi `ebol `n=htc.",
       "English": "given for us for salvation, remission of sins, and eternal life to those who partake of Him.",
-      "Arabiccoptic": "Ⲉⲩϯ ⲙ̀ⲙⲟⲥ ⲉ̀ϫⲱⲛ ⲛ̀ⲟⲩⲥⲱϯتي ⲛⲉⲙ ⲟⲩⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲓⲛⲟⲃⲓتي ⲛⲉⲙ ⲟⲩⲱⲛϧ ⲛ̀ⲉ̀ⲛⲉϩتي ⲛ̀ⲛⲏⲉⲑⲛⲁϭⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧⲥ.",
-      "Englishcoptic": "Ⲉⲩϯ ⲙ̀ⲙⲟⲥ ⲉ̀ϫⲱⲛ ⲛ̀ⲟⲩⲥⲱϯTi ⲛⲉⲙ ⲟⲩⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲓⲛⲟⲃⲓTi ⲛⲉⲙ ⲟⲩⲱⲛϧ ⲛ̀ⲉ̀ⲛⲉϩTi ⲛ̀ⲛⲏⲉⲑⲛⲁϭⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧⲥ."
+      "Arabiccoptic": "يفتي إمموس إيجوون إنأوسووتي: نيم أوخوو إيفول إنتي نينوفي: نيم أووونخ إنإينيه: إنني يثناتشي إيفول إنخيتس.",
+      "Englishcoptic": "Evti emmos -egoon en-oosooti: nem ookhoo evol en-te ni-novi: nem o-oonkh en-en-eh: en-nee-ethnachi evol en-kheets."
     },
     {
       "Type": "Base",
@@ -329,10 +337,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أؤمن. أن هذا هو بالحقيقةِ. آمين.",
-      "Coptic": "Ϯⲛⲁϩϯ ϫⲉ ⲑⲁⲓ ⲧⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲁ̀ⲙⲏⲛ.",
+      "Coptic": ":na\\; je qai te =en oumeqmhi> `amhn.",
       "English": "I believe that this is true. Amen.",
-      "Arabiccoptic": "Ϯⲛⲁϩϯ ϫⲉ ⲑⲁⲓ ⲧⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓتي ⲁ̀ⲙⲏⲛ.",
-      "Englishcoptic": "Ϯⲛⲁϩϯ ϫⲉ ⲑⲁⲓ ⲧⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓTi ⲁ̀ⲙⲏⲛ."
+      "Arabiccoptic": "تيناهتي جي ثاي تي خين أوميثميي:  امين.",
+      "Englishcoptic": "Tinahti je thai te khen oo-methmee: -ameen."
     },
     {
       "Type": "Base",
@@ -351,10 +359,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "آمين، آمين، آمين. أؤمن، آؤمن، آؤمن. أن هذا هو بالحقيقة. آمين.",
-      "Coptic": "Ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ: ϯⲛⲁϩϯ ϯⲛⲁϩϯ ϯⲛⲁϩϯ ϫⲉ ⲑⲁⲓ ⲧⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ. Ⲁ̀ⲙⲏⲛ.",
+      "Coptic": "`Amhn `amhn `amhn> ;na\\; ;na\\; ;na\\; je qai te =en oumeqmhi. `Amhn.",
       "English": "Amen. Amen. Amen. I believe, I believe, I believe that this is true. Amen.",
-      "Arabiccoptic": "Ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛتي ϯⲛⲁϩϯ ϯⲛⲁϩϯ ϯⲛⲁϩϯ ϫⲉ ⲑⲁⲓ ⲧⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ. Ⲁ̀ⲙⲏⲛ.",
-      "Englishcoptic": "Ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛTi ϯⲛⲁϩϯ ϯⲛⲁϩϯ ϯⲛⲁϩϯ ϫⲉ ⲑⲁⲓ ⲧⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ. Ⲁ̀ⲙⲏⲛ."
+      "Arabiccoptic": "أمين  امين  امين: تيناهتي تيناهتي تيناهتي جي ثاي تي خين أوميثميي.  أمين.",
+      "Englishcoptic": "Ameen -ameen -ameen: ti-nahti- ti-nahti- ti-nahti- je thai te khen oo-methmee. Ameen."
     },
     {
       "Type": "Base",
@@ -362,10 +370,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "اُطلبوا عنا وعن كلِّ المسيحيينَ الذينَ قالوا لنا من أجلهِم، \"أذكرونا في بيت الرب.\"",
-      "Coptic": "Ⲧⲱⲃϩ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ⲛⲉⲙ ⲉ̀ϫⲉⲛ ⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ ⲛⲓⲃⲉⲛ ⲉ̀ⲧⲁⲩϫⲟⲥ ⲛⲁⲛ ⲉⲑⲃⲏⲧⲟⲩ: ϫⲉ ⲁ̀ⲣⲓⲡⲉⲛⲙⲉⲩⲓ ϧⲉⲛ ⲡ̀ⲏⲓ ⲙ̀Ⲡ̀ϭⲟⲓⲥ.",
+      "Coptic": "Twb\\ `e`\\rhi `ejwn nem `ejen `xrictianoc niben `etaujoc nan eqbhtou> je `aripenmeui =en `phi `m`Psoic.",
       "English": "Pray for us and for all Christians who said to us concerning them, “Remember us in the house of the Lord.”",
-      "Arabiccoptic": "Ⲧⲱⲃϩ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ⲛⲉⲙ ⲉ̀ϫⲉⲛ ⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ ⲛⲓⲃⲉⲛ ⲉ̀ⲧⲁⲩϫⲟⲥ ⲛⲁⲛ ⲉⲑⲃⲏⲧⲟⲩتي ϫⲉ ⲁ̀ⲣⲓⲡⲉⲛⲙⲉⲩⲓ ϧⲉⲛ ⲡ̀ⲏⲓ ⲙ̀Ⲡ̀ϭⲟⲓⲥ.",
-      "Englishcoptic": "Ⲧⲱⲃϩ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ⲛⲉⲙ ⲉ̀ϫⲉⲛ ⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ ⲛⲓⲃⲉⲛ ⲉ̀ⲧⲁⲩϫⲟⲥ ⲛⲁⲛ ⲉⲑⲃⲏⲧⲟⲩTi ϫⲉ ⲁ̀ⲣⲓⲡⲉⲛⲙⲉⲩⲓ ϧⲉⲛ ⲡ̀ⲏⲓ ⲙ̀Ⲡ̀ϭⲟⲓⲥ."
+      "Arabiccoptic": "تووبه إي إهريي إيجوون نيم إيجين إخريستيانوس نيفين إيتافجوس نان إيثفيتأو: جي  اريبينميفي خين إبيي إمإبتشويس.",
+      "Englishcoptic": "Toobh -eehreei -egoon nem -ejen ekhristi-anos ni-ven -etavgos nan ethveetoo: je -aripenmevi khen epeei emEpchois."
     },
     {
       "Type": "Base",
@@ -373,10 +381,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "سلامُ ومحبةُ يسوعَ المسيحِ معكُم. رتلوا بنشيد: \"هلليلويا.\"",
-      "Coptic": "Ⲏ̀ ⲓ̀ⲣⲏⲛⲏ ⲕⲉ ⲁ̀ⲅⲁⲡⲓ Ⲓⲏⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲟⲩ ⲙⲉⲑ ⲩ̀ⲙⲱⲛ: ⲯⲁⲗⲗⲁⲧⲉ ϫⲱ ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+      "Coptic": "`H `irhnh ke `agapi Ihcou `Xrictou meq `umwn> yallate jw allhlouia.",
       "English": "The peace and love of Jesus Christ be with you. Sing, “Alleluia.”",
-      "Arabiccoptic": "Ⲏ̀ ⲓ̀ⲣⲏⲛⲏ ⲕⲉ ⲁ̀ⲅⲁⲡⲓ Ⲓⲏⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲟⲩ ⲙⲉⲑ ⲩ̀ⲙⲱⲛتي ⲯⲁⲗⲗⲁⲧⲉ ϫⲱ ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
-      "Englishcoptic": "Ⲏ̀ ⲓ̀ⲣⲏⲛⲏ ⲕⲉ ⲁ̀ⲅⲁⲡⲓ Ⲓⲏⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲟⲩ ⲙⲉⲑ ⲩ̀ⲙⲱⲛTi ⲯⲁⲗⲗⲁⲧⲉ ϫⲱ ⲁⲗⲗⲏⲗⲟⲩⲓⲁ."
+      "Arabiccoptic": "ي  إيريني كي  اغابي إييسأو إخريستأو ميث  يموون: بساللاتي جوو الليلأويا.",
+      "Englishcoptic": "-Ee -eereen-ee ke -aghapi Ieesoo eKhristoo meth eemon: psallate goo alleelooia."
     },
     {
       "Type": "Base",
@@ -384,10 +392,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "صلُّوا من أجلِ التناولِ باستحقاقٍ من هذه الأسرارِ المقدسةِ الطاهرةِ والسمائيةِ.",
-      "Coptic": "Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲁⲝⲓⲁⲥ ⲙⲉⲧⲁⲗⲏⲯⲉⲱⲥ ⲁⲭⲣⲁⲛⲧⲱⲛ ⲕⲉ ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲱⲛ ⲧⲱⲛ ⲁ̀ⲅⲓⲱⲛ Ⲙⲩⲥⲧⲏⲣⲓⲱⲛ.",
+      "Coptic": "`Proceu[acqe `uper thc a[iac metalhyewc axrantwn ke `epouraniwn twn `agiwn Mucthriwn.",
       "English": "Pray for the worthy partaking of the immaculate, heavenly, and holy Mysteries.",
-      "Arabiccoptic": "Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲁⲝⲓⲁⲥ ⲙⲉⲧⲁⲗⲏⲯⲉⲱⲥ ⲁⲭⲣⲁⲛⲧⲱⲛ ⲕⲉ ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲱⲛ ⲧⲱⲛ ⲁ̀ⲅⲓⲱⲛ Ⲙⲩⲥⲧⲏⲣⲓⲱⲛ.",
-      "Englishcoptic": "Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲁⲝⲓⲁⲥ ⲙⲉⲧⲁⲗⲏⲯⲉⲱⲥ ⲁⲭⲣⲁⲛⲧⲱⲛ ⲕⲉ ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲱⲛ ⲧⲱⲛ ⲁ̀ⲅⲓⲱⲛ Ⲙⲩⲥⲧⲏⲣⲓⲱⲛ."
+      "Arabiccoptic": "إبروسيفكساستي  يبير تيس اكسياس ميتاليبسيووس اخرانتوون كي إيبأورانيوون توون  اجيوون ميستيريوون.",
+      "Englishcoptic": "eProsevxaste -eyper tees axias metaleepseoos akhrantoon ke -epoorani-oon toon -agioon meesteerioon."
     },
     {
       "Type": "Base",
@@ -395,10 +403,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا ربُّ إرحَم.",
-      "Coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+      "Coptic": "Kurie `ele`hcon.",
       "English": "Lord have mercy.",
-      "Arabiccoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
-      "Englishcoptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      "Arabiccoptic": "كيريإي إيلي يسون.",
+      "Englishcoptic": "Keerie -ele-eeson."
     }
   ]
 }

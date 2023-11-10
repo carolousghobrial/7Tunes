@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "اسبسموس أدآم للاسبوع الثاني",
+  "EnglishTitle": "Adam Aspasmos for Month of Kiahk Week 2",
+  "CopticTitle": "`Nqok on ak\\wl",
   "Hymn": [
     {
       "Type": "Base",
@@ -13,7 +13,7 @@
       "Coptic": "`Nqok on ak\\wl> ]aqh `eqouab Maria ak\\i]ennoufi nac> `m`vra]i `mpikocmoc.",
       "English": "You also flew to Saint Mary, and announced to her glad tidings of the joy of the world.",
       "Arabiccoptic": "إنثوك أون أكهول شاني إثؤواب ماريا أك شيننوفي ناس إم إفراشي إمبي كوزموس.",
-      "Englishcoptic": "eNthok on akhool: shathee ethowab Maria akhishen-noofi nas: emevrashi empi-kosmos."
+      "Englishcoptic": "Enthok on akhool: shathee ethowab Maria akhishen-noofi nas: emevrashi empi-kosmos."
     },
     {
       "Type": "Base",
@@ -21,7 +21,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وصرخت اليها قائلا السلام لك يا ممتلئة نعمة الرب معك.",
-      "Coptic": "Ouo\\ akw] `ebol `eroc =en ou`cmhi `nqelhl> xe xere qh`eqme\\ `n`\\mot Po̅c̅ ]op neme.",
+      "Coptic": "Ouo\\ akw] `ebol `eroc =en ou`cmhi `nqelhl> xe xere qh`eqme\\ `n`\\mot Psoic ]op neme.",
       "English": "And You cried out to her, with a voice of joy, saying: “Hail, O full of grace, the Lord is with you.”",
       "Arabiccoptic": "أووه آكؤوش إيفول إيروس خين او إزمي إنثيليل جي شيري ثي إثميه عن إهموت إبشويس شوب نيمي",
       "Englishcoptic": "Owoh akoosh evol eros khen ooesmeei entheleel: she shere thee-ethmeh enehmot Po̅s̅ shop neme."

@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أسبسمس أدام عيد الميلاد 2",
+  "EnglishTitle": "Adam Aspasmos for Feast of Nativity 2",
+  "CopticTitle": "Je aumici nan ",
   "Hymn": [
     {
       "Type": "Base",
@@ -13,7 +13,7 @@
       "Coptic": "Je aumici nan `nou`Alou> au; nan `nou}hri> vh`et `eretef`arxh> xh \\ijen tefna\\bi.",
       "English": "For unto us a Child is born, unto us a Son is given, and the government shall be, upon His shoulder.",
       "Arabiccoptic": "جيه اف ميسى نان ان او آلو : افتى نان ان أوشيرى : فى ايت ايريه تيف أرشى : كى هى جين تيف ناهفى . ",
-      "Englishcoptic": "Ge avmisi nan en-oo-Aloo: avti nan en-ooSheeri: vee-et eretef-arshee: shee hijen- tefnahvi."
+      "Englishcoptic": "Je avmisi nan en-oo-Aloo: avti nan en-ooSheeri: vee-et eretef-arshee: shee hijen- tefnahvi."
     },
     {
       "Type": "Base",
@@ -21,7 +21,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الإله القوي، المتسلط، وملاك المشورة، العظمي.",
-      "Coptic": "V; vh`etjor> `n`e[ouciacthc> ouo\\ pi`aggeloc `nte pini]; `ncosni.",
+      "Coptic": "Vnou; vh`etjor> `n`e[ouciacthc> ouo\\ pi`aggeloc `nte pini]; `ncosni.",
       "English": "The powerful God, who reigns, and the angel of, the great message.",
       "Arabiccoptic": " افنوتى فى ايت جور : إن اكسوسياس تيس : اووه بى انجيلوس انتيه بى نيشتى : إن سوتشنى . ",
       "Englishcoptic": "Vti vee-etgor: en-exoosiastees: owoh pi-angelos en-te pi-ni-shti en-sochni-."

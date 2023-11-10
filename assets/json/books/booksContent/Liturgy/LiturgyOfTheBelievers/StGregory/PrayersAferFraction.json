@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أذكر يا ربُّ إجتماعاتنا، باركها.",
-      "Coptic": "Ⲁ̀ⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲛⲉⲛϫⲓⲛⲑⲱⲟⲩϯ ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲱⲟⲩ.",
+      "Coptic": "`Ari`vmeui `Psoic `nnenjinqwou; `cmou `erwou.",
       "English": "Remember, O Lord, our assemblies; bless them.",
-      "Arabiccoptic": "Ⲁ̀ⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲛⲉⲛϫⲓⲛⲑⲱⲟⲩϯ ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲱⲟⲩ.",
-      "Englishcoptic": "Ⲁ̀ⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲛⲉⲛϫⲓⲛⲑⲱⲟⲩϯ ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲱⲟⲩ."
+      "Arabiccoptic": "أريإفميفي إبتشويس إنني نجينثؤوتي إسمأو إيرؤو.",
+      "Englishcoptic": "-Arievmevi Epchois en-nen-jintho-ooti esmoo -ero-oo."
     },
     {
       "Type": "Base",
@@ -43,10 +43,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "خلَصْتَ حقاً، ومع رُوحِكَ، ننصِتُ بخوفِ الله.",
-      "Coptic": "Ⲥⲱⲑⲓⲥ ⲁ̀ⲙⲏⲛ: ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ: ⲙⲉⲧⲁ ⲫⲟⲃⲟⲩ Ⲑⲉⲟⲩ ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ.",
+      "Coptic": "Cwqic `amhn> ke tw `pneumati cou> meta vobou qeou `procxwmen.",
       "English": "Saved. Amen. And with your spirit. In the fear of God, let us attend.",
-      "Arabiccoptic": "Ⲥⲱⲑⲓⲥ ⲁ̀ⲙⲏⲛتي ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩتي ⲙⲉⲧⲁ ⲫⲟⲃⲟⲩ Ⲑⲉⲟⲩ ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ.",
-      "Englishcoptic": "Ⲥⲱⲑⲓⲥ ⲁ̀ⲙⲏⲛTi ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩTi ⲙⲉⲧⲁ ⲫⲟⲃⲟⲩ Ⲑⲉⲟⲩ ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ."
+      "Arabiccoptic": "سووثيس  امين: كي توو إبنيفماتي سأو: ميتا فوفأو ثيأو إبروسخوومين.",
+      "Englishcoptic": "Soothis -ameen-: ke too epnevmati soo: meta vovoo theoo eproskhoomen-."
     },
     {
       "Type": "Base",
@@ -65,10 +65,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "آمين. يا ربُّ إرحَم (3).",
-      "Coptic": "Ⲁ̀ⲙⲏⲛ.",
+      "Coptic": "`Amhn.",
       "English": "Amen.Lord have mercy (3).",
-      "Arabiccoptic": "Ⲁ̀ⲙⲏⲛ.",
-      "Englishcoptic": "Ⲁ̀ⲙⲏⲛ."
+      "Arabiccoptic": "أمين.",
+      "Englishcoptic": "Ameen-."
     }
   ]
 }

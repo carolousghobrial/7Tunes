@@ -96,16 +96,16 @@ function NavigationContainerView({ dispatch }) {
             ),
           }}
         />
-        {/* <Drawer.Screen
+        <Drawer.Screen
           name="BigSearchScreen"
           component={BigSearchScreen}
           options={{
-            title: "BigSearchScreen",
+            title: "Search Page",
             drawerIcon: ({ color, size }) => (
-              <FontAwesome5 name="cross" size={24} color="black" />
+              <FontAwesome5 name="search" size={24} color="black" />
             ),
           }}
-        /> */}
+        />
         <Drawer.Screen
           name="SaintsList"
           component={SaintsList}

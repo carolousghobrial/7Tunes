@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "أسبسمس واطس عيد العنصرة",
+  "EnglishTitle": "Watos Aspasmos for Feast of Pentecost",
+  "CopticTitle": "Af]enaf `e`p]wi ",
   "Hymn": [
     {
       "Type": "Base",
@@ -32,10 +32,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هلليلويا (3)، المسيح صعد إلى السموات، وأرسل لنا البارقليط. خلصنا وإرحمنا.",
-      "Coptic": "Allhlouia (g̅)> Pi`xrictoc af]enaf `e`p]wi `enivhou`i> afouwrp nan `mPiparaklhton. Cw; `mmon ouo\\ nai nan.",
+      "Coptic": "Allhlouia (g?)> Pi`xrictoc af]enaf `e`p]wi `enivhou`i> afouwrp nan `mPiparaklhton. Cw; `mmon ouo\\ nai nan.",
       "English": "Alleluia (3), Christ ascended into the heavens, and sent us the Paraclete. Save us and have mercy upon us.",
       "Arabiccoptic": " الليلويا (3) : بي خريتوس آفطونف أووه آفشيناف آف أووأورب نان إمبي باراكليطون  .  سوتي إممون اووه ناي نان",
-      "Englishcoptic": "Alleelooia (gh̅): Pikhristos afshen-af eepshooi en-iveeoo-ee: afo-oorp nan emPiparakleeton. Sooti emmon owoh nai nan."
+      "Englishcoptic": "Alleelooia (3): Pikhristos afshen-af eepshooi en-iveeoo-ee: afo-oorp nan emPiparakleeton. Sooti emmon owoh nai nan."
     }
   ]
 }

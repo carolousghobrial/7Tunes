@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "اسبسموس واطس للاسبوع الثاني",
+  "EnglishTitle": "Watos Aspasmos for Month of Kiahk Week 2",
+  "CopticTitle": "Pi`aggeloc eqouab Gabrihl",
   "Hymn": [
     {
       "Type": "Base",
@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لا تخافي يا مريم لأنك وجدت نعمة عند الله. ها ستحبلين وتلدين ابناً.",
-      "Coptic": "Je `mperer\\o; Mariam> `arejimi gar `nou`\\mot> =aten V; \\hppe gar tera`erboki> ouo\\ `ntemici `nou}hri.",
+      "Coptic": "Je `mperer\\o; Mariam> `arejimi gar `nou`\\mot> =aten Vnou; \\hppe gar tera`erboki> ouo\\ `ntemici `nou}hri.",
       "English": "\"Do not be afraid Mary, for you have found favor with God, behold you will conceive, and bring forth a Son.\"",
       "Arabiccoptic": "جى إمبير إيرهوتى ماريام. أرى جيمى غار إن أو إهموت. خاتين إفنوتى هيبى غار تيرا إيرفوكى. أووه إنتيميسى إن أوشيرى.",
-      "Englishcoptic": "Ge empererhoti Mariam: arejimi ghar en-ooehmot: khaten- Vti heeppe ghar tera-ervoki: owoh en-temisi en-ooSheeri."
+      "Englishcoptic": "Je empererhoti Mariam: arejimi ghar en-ooehmot: khaten- Vti heeppe ghar tera-ervoki: owoh en-temisi en-ooSheeri."
     },
     {
       "Type": "Base",

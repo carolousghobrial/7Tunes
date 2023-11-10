@@ -73,7 +73,6 @@ function FeastScreenTitleView({ liveClicked, yearClick, changeDate }) {
           currentSeason: curSeason,
         })
       );
-
       setDate(currentDate);
     }
   };

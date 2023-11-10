@@ -20,22 +20,22 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "صعد إلى السموات، وخضعت له الملائكة، والقوات والسلاطين، حسب قول الرسول.",
-      "Coptic": "Af]enaf `e`p]wi `enivhou`i> ausnejwou naf `nje \\anaggeloc> nem \\anjom nem \\ane[oucia> kata `pcaji `mpi`apoctoloc.",
-      "English": "He ascended into the heavens, the angels submitted to Him, with the powers and the authorities, according to the saying of the Apostle.",
-      "Arabiccoptic": "  آفشيناف إيه إبشوي إيه ني فيؤوي : آﭭتشنيه جوأوو ناف إنﭽيه هان آنجيلوس : نيم هان جوم نيم هان إيه إكسوسيا : كاطا إبصاﭽي إمبي آبوسطولوس  . ",
-      "Englishcoptic": "Afshen-af eepshooi en-iveeoo-ee: avchnego-oo naf en-je hanangelos: nem hangom nem hanexoosia: kata epsaji empi-apostolos."
+      "Arabic": "طأطأ سماء السموات، وجاء إلى بطن العذراء، وصار إنساناً مثلنا، ما خلا الخطية وحدها.",
+      "Coptic": "Afrek nivhou`i `nte nivhou`i> af`i eqmhtra `n:parqenoc> aferrwmi `mpenrh;> ]aten `vnobi `mmauatf.",
+      "English": "He bowed the heaven of heavens, and came to the womb of the Virgin, He became man like us, except for sin alone.",
+      "Arabiccoptic": "آفريك نييئوى إنتى نيفيئوى أفئى إى إثميترا إننى بارثينوس أفئيو رومى إمين ريتى شاتين إفنوتى إممافاتف .",
+      "Englishcoptic": "Afrek ni-fi-owi ente ni-fi-owi: af-ee ethmeetra enTi-parthenos: af-er-romi empen-reeti: shaten evnovi em-mavatf."
     },
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "هلليلويا (3)، المسيح قام من بين الأموات، وصعد إلى السموات. خلصنا وإرحمنا.",
-      "Coptic": "Allhlouia (g̅)> Pi`xrictoc aftwnf `ebol =en nheqmwout> ouo\\ af]enaf `e`p]wi `enivhou`i. Cw; `mmon ouo\\ nai nan. Cw; `mmon ouo\\ nai nan.",
-      "English": "Alleluia (3), Christ has risen from the dead, and ascended into the heavens. Save us and have mercy upon us.",
-      "Arabiccoptic": " الليلويا (3): بي خريستوس آفطونف إيفول خين نى اثمؤوت أووه افشيناف إى إبشوى إني فى أووى  . سوتى إممون أووه ناى نان . ",
-      "Englishcoptic": "Alleelooia (gh̅): Pikhristos aftoonf evol khen nee-ethmo-oot: owoh afshenaf eepshooi eni-fi-owi. Sooti emmon owoh nai nan. Sooti emmon owoh nai nan."
+      "Arabic": "هلليلويا هلليلويا , هلليلويا  ، يسوع المسيح إبن الله، تجسد من العذراء خلصنا وإرحمنا.",
+      "Coptic": "Allhlouia Allhlouia > Allhlouia  Ihcouc Pi`xrictoc `P]hri `m`Vnou;> afsicar[ `ebol =en :parqenoc. Cw; `mmon ouo\\ nai nan.",
+      "English": "Alleluia Alleluia, Alleluia  Jesus Christ the Son of God, was incarnate from the Virgin. Save us and have mercy upon us.",
+      "Arabiccoptic": "الليلويا الليلويا, الليلويا  : ايسوس بيخرستوس ابشيرى ام افنوتى افتشى ساركس ايفول خين تى بارثينوس . سوتى إممون أووه ناى نان  .",
+      "Englishcoptic": "Alleelooia , Alleelooia :  Alleelooia : Isos Piekhristos Epsheri Em-evnoty: afchi-sarex evol khen Ti-parthenos. Sooti emmon owoh nai nan. "
     }
   ]
 }
