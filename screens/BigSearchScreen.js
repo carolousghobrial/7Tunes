@@ -3,8 +3,9 @@ import { View, Text, Pressable, FlatList, StyleSheet } from "react-native";
 import { useSelector, useDispatch } from "react-redux";
 import SearchBar from "../components/ViewTypes/SearchBar";
 import bookPaths from "../helpers/bookPathsHelpers";
+import DropDownPicker from "react-native-dropdown-picker";
+import { getLanguageValue } from "../helpers/SettingsHelpers";
 
-import { getColor, getLanguageValue } from "../helpers/SettingsHelpers.js";
 import {
   changeBishopIsPresent,
   changeismorethan3BishopPresent,
@@ -16,18 +17,58 @@ function BigSearchScreen({ navigation }) {
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
   const [currentData, setCurrentData] = useState([]);
-  function renderItems({ item }) {
-    const highlightedText = HighlightText(item.part.English, searchPhrase);
+  const [open, setOpen] = useState(false);
+  const [value, setValue] = useState("english");
+  const [items, setItems] = useState([
+    { label: getLanguageValue("english"), value: "english" },
+    { label: getLanguageValue("coptic"), value: "coptic" },
+    { label: getLanguageValue("arabic"), value: "arabic" },
+    { label: getLanguageValue("copticarabic"), value: "copticarabic" },
+    { label: getLanguageValue("copticenglish"), value: "copticenglish" },
+  ]);
 
-    return (
-      <Pressable onPress={openPage.bind(this, item, searchPhrase)}>
-        <View style={styles.ReturnBox} key={item.listKey}>
-          <Text style={styles.title}>{item.englishTitle}</Text>
-          <Text>{highlightedText}</Text>
-        </View>
-      </Pressable>
-    );
+  function renderItems({ item }) {
+    const getItemValues = {
+      english: {
+        key: "English",
+        method: HighlightText,
+      },
+      coptic: {
+        key: "Coptic",
+        method: HighlightText,
+      },
+      arabic: {
+        key: "Arabic",
+        method: HighlightText,
+      },
+      copticarabic: {
+        key: "Arabiccoptic",
+        method: HighlightText,
+      },
+      copticenglish: {
+        key: "Englishcoptic",
+        method: HighlightText,
+      },
+    };
+
+    const { key, method } = getItemValues[value] || {};
+
+    if (key && method) {
+      const highlightedText = method(item.part[key], searchPhrase);
+
+      return (
+        <Pressable onPress={openPage.bind(this, item, searchPhrase)}>
+          <View style={styles.ReturnBox} key={item.listKey}>
+            <Text style={styles.title}>{item.englishTitle}</Text>
+            <Text>{highlightedText}</Text>
+          </View>
+        </Pressable>
+      );
+    }
+
+    return null; // Or handle unsupported value
   }
+
   function openPage(item, searchPhrase) {
     navigation.push("ViewSingleHymnSearch", {
       path: item.key,
@@ -38,13 +79,14 @@ function BigSearchScreen({ navigation }) {
     });
   }
   function HighlightText(textToHighlight, searchText) {
-    const regex = new RegExp(`(${searchText})`, "gim");
+    const newSearch = searchText.trim();
+    const regex = new RegExp(`(${newSearch})`, "gim");
     const parts = textToHighlight.split(regex);
     var key = 0;
     return (
       <Text>
         {parts.map((part) =>
-          part.toLowerCase() === searchText.toLowerCase() ? (
+          part.toLowerCase() === newSearch.toLowerCase() ? (
             <Text style={{ backgroundColor: "yellow" }} key={key++}>
               {part}
             </Text>
@@ -56,20 +98,82 @@ function BigSearchScreen({ navigation }) {
     );
   }
   function handleSearch(text) {
-    setSearchPhrase(text);
+    setSearchPhrase(text.toLowerCase().trim());
     const results = [];
     var listKeyNum = 0;
     for (const key in bookPaths) {
       bookPaths[key].Hymn.map((item) => {
-        if (item.English !== undefined && item.English.includes(text)) {
-          listKeyNum++;
-          results.push({
-            key: key,
-            part: item,
-            englishTitle: bookPaths[key].EnglishTitle,
-            arabicTitle: bookPaths[key].ArabicTitle,
-            listKey: listKeyNum,
-          });
+        switch (value) {
+          case "english":
+            if (
+              item.English !== undefined &&
+              item.English.toLowerCase().includes(searchPhrase)
+            ) {
+              listKeyNum++;
+              console.log(item);
+              results.push({
+                key: key,
+                part: item,
+                englishTitle: bookPaths[key].EnglishTitle,
+                arabicTitle: bookPaths[key].ArabicTitle,
+                listKey: listKeyNum,
+              });
+            }
+            break;
+          case "coptic":
+            if (item.Coptic !== undefined && item.Coptic.includes(text)) {
+              listKeyNum++;
+              results.push({
+                key: key,
+                part: item,
+                englishTitle: bookPaths[key].EnglishTitle,
+                arabicTitle: bookPaths[key].ArabicTitle,
+                listKey: listKeyNum,
+              });
+            }
+            break;
+          case "arabic":
+            if (item.Arabic !== undefined && item.Arabic.includes(text)) {
+              listKeyNum++;
+              results.push({
+                key: key,
+                part: item,
+                englishTitle: bookPaths[key].EnglishTitle,
+                arabicTitle: bookPaths[key].ArabicTitle,
+                listKey: listKeyNum,
+              });
+            }
+            break;
+          case "copticarabic":
+            if (
+              item.Arabiccoptic !== undefined &&
+              item.Arabiccoptic.includes(text)
+            ) {
+              listKeyNum++;
+              results.push({
+                key: key,
+                part: item,
+                englishTitle: bookPaths[key].EnglishTitle,
+                arabicTitle: bookPaths[key].ArabicTitle,
+                listKey: listKeyNum,
+              });
+            }
+            break;
+          case "copticenglish":
+            if (
+              item.Englishcoptic !== undefined &&
+              item.Englishcoptic.includes(text)
+            ) {
+              listKeyNum++;
+              results.push({
+                key: key,
+                part: item,
+                englishTitle: bookPaths[key].EnglishTitle,
+                arabicTitle: bookPaths[key].ArabicTitle,
+                listKey: listKeyNum,
+              });
+            }
+            break;
         }
       });
     }
@@ -85,6 +189,14 @@ function BigSearchScreen({ navigation }) {
         handleSearch={handleSearch}
         setSearchPhrase={setSearchPhrase}
         clicked={clicked}
+      />
+      <DropDownPicker
+        open={open}
+        value={value}
+        items={items}
+        setOpen={setOpen}
+        setValue={setValue}
+        setItems={setItems}
       />
       <FlatList
         data={currentData}

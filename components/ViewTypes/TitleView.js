@@ -118,7 +118,7 @@ function TitleView({ item, navigation }) {
               />
               <View style={[styles.swapTextView, { flexDirection: flex }]}>
                 <Entypo name="swap" size={24} color="black" />
-                <Text style={styles.SwitchText}>G</Text>
+                <Text style={styles.SwitchText}>St.Gregory</Text>
               </View>
             </View>
           ) : (
@@ -126,7 +126,7 @@ function TitleView({ item, navigation }) {
               <Image style={styles.image} source={images["liturgyofStBasil"]} />
               <View style={[styles.swapTextView, { flexDirection: flex }]}>
                 <Entypo name="swap" size={24} color="black" />
-                <Text style={styles.SwitchText}>B</Text>
+                <Text style={styles.SwitchText}>St.Basil</Text>
               </View>
             </View>
           )}
@@ -156,21 +156,24 @@ const styles = StyleSheet.create({
     alignContent: "center",
   },
   image: {
-    flex: 1,
+    flex: 2,
+    justifyContent: "center",
+    alignContent: "center",
     width: "100%",
+    marginHorizontal: 10,
     height: 60,
     borderRadius: 100 / 2,
     overflow: "hidden",
     resizeMode: "stretch",
   },
   switchView: {
-    margin: "auto",
     flex: 1,
-    justifyContent: "center",
-    alignContent: "center",
+    justifyContent: "center", // Center vertically
+    alignItems: "center", // Center horizontally
   },
   textView: {
     margin: 2,
+
     justifyContent: "center",
   },
   coptic: {
