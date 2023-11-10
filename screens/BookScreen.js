@@ -1,4 +1,10 @@
-import React, { useState, useRef, useEffect, useMemo } from "react";
+import React, {
+  useState,
+  useRef,
+  useCallback,
+  useEffect,
+  useMemo,
+} from "react";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -29,6 +35,24 @@ import { getColor } from "../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 import FloatingButton from "../components/ViewTypes/FloatingBishopButton";
 
+const HeaderRightButtons = ({ onPressSettings, onPressContents }) => (
+  <>
+    <Pressable style={styles.settingsHeaderButton} onPress={onPressSettings}>
+      <Icon
+        name="ios-settings-outline"
+        size={30}
+        color={getColor("LabelColor")}
+      />
+    </Pressable>
+    <Pressable style={styles.headerButton} onPress={onPressContents}>
+      <MaterialCommunityIcons
+        name="table-of-contents"
+        size={40}
+        color={getColor("LabelColor")}
+      />
+    </Pressable>
+  </>
+);
 const BookScreen = React.memo(({ navigation, route }) => {
   const { height, width } = useWindowDimensions();
   const [contentsModalVisible, setcontentsModalVisible] = useState(false);
@@ -86,7 +110,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
         fontFamily: fontfamily,
       },
     });
-  }, [navTitle]);
+  }, [navTitle, appLanguage, isTablet, navigation]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -95,43 +119,29 @@ const BookScreen = React.memo(({ navigation, route }) => {
         const itemToFind = bookContents.findIndex(
           (item) => item.path === Switch
         );
-        flatListRef.current.scrollToIndex({
-          index: bookContents[itemToFind].key,
-          animated: false,
-        });
+        if (itemToFind !== -1) {
+          flatListRef.current.scrollToIndex({
+            index: bookContents[itemToFind]?.key,
+            animated: false,
+          });
+        }
       }
     }, 10);
-  }, []);
+  }, [Switch, bookContents, flatListRef]);
 
-  const settingsPressed = () => {
+  const settingsPressed = useCallback(() => {
     bottomSheetRef?.current.present();
-  };
+  }, [bottomSheetRef]);
 
-  const contentsPressed = () => {
+  const contentsPressed = useCallback(() => {
     setcontentsModalVisible(true);
-
     contentsSheetRef?.current.present();
-  };
-  const contentsClose = () => {
+  }, [contentsSheetRef]);
+
+  const contentsClose = useCallback(() => {
     setcontentsModalVisible(false);
-
     contentsSheetRef?.current.dismiss();
-  };
-
-  const HeaderRightButtons = ({ onPressSettings, onPressContents }) => (
-    <>
-      <Pressable style={styles.settingsHeaderButton} onPress={onPressSettings}>
-        <Icon name="ios-settings-outline" size={30} color={labelColor} />
-      </Pressable>
-      <Pressable style={styles.headerButton} onPress={onPressContents}>
-        <MaterialCommunityIcons
-          name="table-of-contents"
-          size={40}
-          color={labelColor}
-        />
-      </Pressable>
-    </>
-  );
+  }, [contentsSheetRef]);
 
   React.useLayoutEffect(() => {
     const headerRightComponent = () => (
@@ -159,39 +169,24 @@ const BookScreen = React.memo(({ navigation, route }) => {
   };
 
   const renderItems = ({ item }) => {
-    let returnView = null;
-    switch (item.part.Type) {
-      case "Base":
-        returnView = <BaseView item={item.part} mykey={item.key} />;
-        break;
-      case "Melody":
-        returnView = <MelodyView item={item.part} />;
-        break;
+    const viewTypeMap = {
+      Base: <BaseView item={item.part} mykey={item.key} />,
+      Melody: <MelodyView item={item.part} />,
+      Title: <TitleView item={item.part} navigation={navigation} />,
+      Ritual: <RitualView item={item.part} />,
+      MainTitle: <MainTitleView item={item.part} />,
+      Button: (
+        <ButtonView
+          item={item.part}
+          motherSource={bookPath}
+          flatListRef={flatListRef}
+          viewData={bookContents}
+          navigation={navigation}
+        />
+      ),
+    };
+    const returnView = viewTypeMap[item.part.Type];
 
-      case "Title":
-        returnView = <TitleView item={item.part} navigation={navigation} />;
-        break;
-
-      case "Ritual":
-        returnView = <RitualView item={item.part} />;
-        break;
-
-      case "MainTitle":
-        returnView = <MainTitleView item={item.part} />;
-        break;
-
-      case "Button":
-        returnView = (
-          <ButtonView
-            item={item.part}
-            motherSource={bookPath}
-            flatListRef={flatListRef}
-            viewData={bookContents}
-            navigation={navigation}
-          />
-        );
-        break;
-    }
     return (
       <Pressable onPress={() => setNavbarVisibility(!navbarVisibility)}>
         {returnView}

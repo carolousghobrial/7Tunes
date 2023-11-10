@@ -517,34 +517,32 @@ export function addItemsToArray(part, thisRule) {
 }
 
 function GetTodaysReadingPath(path) {
-  let filePath = "Katamaros";
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  let filePath = "Katamaros";
 
-  if (currentSeason.key === "STANDARD" && currentSeason.dayOfWeek === 0) {
-    filePath += "Sundays";
+  const isStandardSeasonSunday =
+    currentSeason.key === "STANDARD" && currentSeason.dayOfWeek === 0;
+  const isPaopeOrHathor = ["Paope", "Hathor"].includes(
+    currentSeason.copticMonth
+  );
 
-    if (["Paope", "Hathor"].includes(currentSeason.copticMonth)) {
-      filePath += "Hathor";
+  if (isStandardSeasonSunday && isPaopeOrHathor) {
+    filePath += "SundaysHathor";
 
-      switch (currentSeason.weekOfMonth) {
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-          filePath += `Week${currentSeason.weekOfMonth}`;
-          switch (path) {
-            case "VespersPsalm":
-            case "VespersGospel":
-            case "MatinsPsalm":
-            case "MatinsGospel":
-            case "LiturgyPauline":
-            case "LiturgyCatholic":
-            case "LiturgyActs":
-            case "LiturgyPsalm":
-            case "LiturgyGospel":
-              filePath += path;
-              break;
-          }
+    if (currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4) {
+      filePath += `Week${currentSeason.weekOfMonth}`;
+
+      switch (path) {
+        case "VespersPsalm":
+        case "VespersGospel":
+        case "MatinsPsalm":
+        case "MatinsGospel":
+        case "LiturgyPauline":
+        case "LiturgyCatholic":
+        case "LiturgyActs":
+        case "LiturgyPsalm":
+        case "LiturgyGospel":
+          filePath += path;
           break;
       }
     }
@@ -552,108 +550,67 @@ function GetTodaysReadingPath(path) {
 
   return filePath;
 }
+
+function getAuthor(part, checkList) {
+  const completePath = GetTodaysReadingPath(part.mother);
+  if (completePath === "Katamaros") {
+    return "NONE";
+  }
+
+  const book = bookPaths[completePath];
+  const { EnglishTitle } = book;
+
+  for (const item of checkList) {
+    if (EnglishTitle.includes(item.keyword)) {
+      return item.returnValue;
+    }
+  }
+}
+
 function getGospelAuthor(part) {
-  const completePath = GetTodaysReadingPath(part.mother);
-  if (completePath == "Katamaros") {
-    return "NONE";
-  }
-  const book = bookPaths[completePath];
-
-  const { EnglishTitle } = book;
-  if (EnglishTitle.includes("Matthew")) {
-    return 1;
-  }
-  if (EnglishTitle.includes("Mark")) {
-    return 2;
-  }
-  if (EnglishTitle.includes("Luke")) {
-    return 3;
-  }
-  if (EnglishTitle.includes("John")) {
-    return 4;
-  }
+  const checkList = [
+    { keyword: "Matthew", returnValue: 1 },
+    { keyword: "Mark", returnValue: 2 },
+    { keyword: "Luke", returnValue: 3 },
+    { keyword: "John", returnValue: 4 },
+  ];
+  return getAuthor(part, checkList);
 }
+
 function getCatholicAuthor(part) {
-  const completePath = GetTodaysReadingPath(part.mother);
-  if (completePath == "Katamaros") {
-    return "NONE";
-  }
-  const book = bookPaths[completePath];
-
-  const { EnglishTitle } = book;
-  if (EnglishTitle.includes("James")) {
-    return "James";
-  }
-  if (EnglishTitle.includes("Jude")) {
-    return "Jude";
-  }
-  if (EnglishTitle.includes("1 Peter")) {
-    return "1Peter";
-  }
-  if (EnglishTitle.includes("2 Peter")) {
-    return "2Peter";
-  }
-  if (EnglishTitle.includes("1 John")) {
-    return "1John";
-  }
-  if (EnglishTitle.includes("2 John")) {
-    return "2John";
-  }
-  if (EnglishTitle.includes("3 John")) {
-    return "3John";
-  }
+  const checkList = [
+    { keyword: "James", returnValue: "James" },
+    { keyword: "Jude", returnValue: "Jude" },
+    { keyword: "1 Peter", returnValue: "1Peter" },
+    { keyword: "2 Peter", returnValue: "2Peter" },
+    { keyword: "1 John", returnValue: "1John" },
+    { keyword: "2 John", returnValue: "2John" },
+    { keyword: "3 John", returnValue: "3John" },
+  ];
+  return getAuthor(part, checkList);
 }
+
 function getPaulineAuthor(part) {
-  const completePath = GetTodaysReadingPath(part.mother);
-  if (completePath == "Katamaros") {
-    return "NONE";
-  }
-  const book = bookPaths[completePath];
-
-  const { EnglishTitle } = book;
-  if (EnglishTitle.includes("1 Timothy")) {
-    return "1Timothy";
-  }
-  if (EnglishTitle.includes("2 Timothy")) {
-    return "2Timothy";
-  }
-  if (EnglishTitle.includes("1 Thessalonians")) {
-    return "1Thessalonians";
-  }
-  if (EnglishTitle.includes("2 Thessalonians")) {
-    return "2Thessalonians";
-  }
-  if (EnglishTitle.includes("1 Corinthians")) {
-    return "1Corinthians";
-  }
-  if (EnglishTitle.includes("2 Corinthians")) {
-    return "2Corinthians";
-  }
-  if (EnglishTitle.includes("Titus")) {
-    return "Titus";
-  }
-  if (EnglishTitle.includes("Philemon")) {
-    return "Philemon";
-  }
-  if (EnglishTitle.includes("Hebrews")) {
-    return "Hebrews";
-  }
-  if (EnglishTitle.includes("Galatians")) {
-    return "Galatians";
-  }
-  if (EnglishTitle.includes("Ephesians")) {
-    return "Ephesians";
-  }
-  if (EnglishTitle.includes("Philippians")) {
-    return "Philippians";
-  }
-  if (EnglishTitle.includes("Colossians")) {
-    return "Colossians";
-  }
-  if (EnglishTitle.includes("Romans")) {
-    return "Romans";
-  }
+  const checkList = [
+    { keyword: "1 Timothy", returnValue: "1Timothy" },
+    { keyword: "2 Timothy", returnValue: "2Timothy" },
+    { keyword: "1 Thessalonians", returnValue: "1Thessalonians" },
+    { keyword: "2 Thessalonians", returnValue: "2Thessalonians" },
+    { keyword: "1 Corinthians", returnValue: "1Corinthians" },
+    { keyword: "2 Corinthians", returnValue: "2Corinthians" },
+    { keyword: "Titus", returnValue: "Titus" },
+    { keyword: "Philemon", returnValue: "Philemon" },
+    { keyword: "Hebrews", returnValue: "Hebrews" },
+    { keyword: "Galatians", returnValue: "Galatians" },
+    { keyword: "Ephesians", returnValue: "Ephesians" },
+    { keyword: "Philippians", returnValue: "Philippians" },
+    { keyword: "Colossians", returnValue: "Colossians" },
+    { keyword: "Romans", returnValue: "Romans" },
+    // Add other items to the checkList
+  ];
+  return getAuthor(part, checkList);
 }
+
 function findMatchingSubstring(str, substringsArray) {
   const foundSubstring = substringsArray.find((substring) =>
     str?.includes(substring)

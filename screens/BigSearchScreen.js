@@ -98,7 +98,7 @@ function BigSearchScreen({ navigation }) {
     );
   }
   function handleSearch(text) {
-    setSearchPhrase(text.toLowerCase().trim());
+    setSearchPhrase(text);
     const results = [];
     var listKeyNum = 0;
     for (const key in bookPaths) {
@@ -107,10 +107,9 @@ function BigSearchScreen({ navigation }) {
           case "english":
             if (
               item.English !== undefined &&
-              item.English.toLowerCase().includes(searchPhrase)
+              item.English.toLowerCase().includes(text.toLowerCase().trim())
             ) {
               listKeyNum++;
-              console.log(item);
               results.push({
                 key: key,
                 part: item,
@@ -121,7 +120,10 @@ function BigSearchScreen({ navigation }) {
             }
             break;
           case "coptic":
-            if (item.Coptic !== undefined && item.Coptic.includes(text)) {
+            if (
+              item.Coptic !== undefined &&
+              item.Coptic.includes(text.toLowerCase().trim())
+            ) {
               listKeyNum++;
               results.push({
                 key: key,
@@ -133,7 +135,10 @@ function BigSearchScreen({ navigation }) {
             }
             break;
           case "arabic":
-            if (item.Arabic !== undefined && item.Arabic.includes(text)) {
+            if (
+              item.Arabic !== undefined &&
+              item.Arabic.includes(text.toLowerCase().trim())
+            ) {
               listKeyNum++;
               results.push({
                 key: key,
@@ -147,7 +152,7 @@ function BigSearchScreen({ navigation }) {
           case "copticarabic":
             if (
               item.Arabiccoptic !== undefined &&
-              item.Arabiccoptic.includes(text)
+              item.Arabiccoptic.includes(text.toLowerCase().trim())
             ) {
               listKeyNum++;
               results.push({
@@ -162,7 +167,7 @@ function BigSearchScreen({ navigation }) {
           case "copticenglish":
             if (
               item.Englishcoptic !== undefined &&
-              item.Englishcoptic.includes(text)
+              item.Englishcoptic.includes(text.toLowerCase().trim())
             ) {
               listKeyNum++;
               results.push({
