@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "طواف عشية سنوي",
+  "EnglishTitle": "Vespers Psalm Trailer",
+  "CopticTitle": "Psoic aiw] oubhk",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "بي اناغنوستيس:",
+      "Englishcoptic": "Pi-Anaghnostis:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(مز 141: 2،1): يا رب إليك صرخت فاسمعني، أنصت إلى صوت تضرعي إذا ما صرخت إليك . ",
+      "Coptic": "Psoic aiw] oubhk cwtem eroi > ma`\\qhk e`t`cmhi `nte pa;\\o > e`pjintaw] e`p]wi \\arok > ",
+      "English": "Lord, I cry out to You;Make haste to me!Give ear to my voice when I cry out to You.",
+      "Arabiccoptic": "بتشويس ايأوؤوش أوفيك سووتيم إيروي : ماإهثيك إيإتإسميي إنتي باتيهو : إيإبجينتاأوؤوش إيإبشووي هاروك :",
+      "Englishcoptic": "Pchois aioosh ooveek sootem eroi : maehtheek eetesmeei en-te pati-ho : eepjintaoosh eepshooi harok :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فلتستقم أمامك صلاتي كالبخور، رفع يديّ هو ذبيحة مسائية .  الليلويا . ",
+      "Coptic": "mareccwouten `mpek`mqo `nje taproceuxh `m`vrh; `nou`cqoinoufi > `ptwnf e`p]wi `ptenajij ou]ou]wou]i `nte \\anarou\\i pe > al?  . ",
+      "English": "2 Let my prayer be set before You as incense, The lifting up of my hands as the evening sacrifice.",
+      "Arabiccoptic": "ماريسسؤوتين إمبي كإمثو إنجي تابروسيفشي إم إفريتي إنأوإستوينأوفي : إبتوونف إيإبشووي إبتيناجيج أوشأوشؤوشي إنتي هانارأوهي بي : ال?  .",
+      "Englishcoptic": "maresso-ooten empek-emtho enje taprosevshee emevreeti enooestoinoofi : eptoonf eepshooi eptenajig ooshoosho-ooshi ente hanaroohi pe : al?  ."
+    }
+  ]
+}

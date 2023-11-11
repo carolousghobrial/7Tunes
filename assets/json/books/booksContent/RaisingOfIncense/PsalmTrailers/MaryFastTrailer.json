@@ -1,0 +1,41 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "طواف صوم و اعياد العذراء ",
+  "EnglishTitle": "Psalm Trailer for feasts and fasts of St.Mary",
+  "CopticTitle": "Cwtem ta]eri",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "بي اناغنوستيس:",
+      "Englishcoptic": "Pi-Anaghnostis:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أسمعي يا أبنتي وانظري و أميلي سمعك وأنسي شعبُك وبيت أبيكِ ، ",
+      "Coptic": "Cwtem ta]eri anau rek pekma]j > ari`pwb] `mpelaoc nem `phi thrf `nte peiwt > ",
+      "English": "Hear O daughter, and see, and incline your ear. Forget your own people also, and your father´s house.",
+      "Arabiccoptic": "سووتيم تاشيري اناف ريك بيكماشج : اريإبووبش إمبي لاوس نيم إبيي تيرف إنتي بييووت :",
+      "Englishcoptic": "Sootem tasheri anav rek pek-mashg : ariepoobsh empelaos nem epeei terf en-te peioot :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فأن الملك أختار حسنك لأنه هو ربُكِ : الليلويا . ",
+      "Coptic": "je apiouro ere piqimin epecai > je ouhi `nqof pe pesoic al?. ",
+      "English": "Because the King has desired your beauty. For He is your LORD. Alleluia.",
+      "Arabiccoptic": "جي ابيأورو إيري بيثيمين إيبيساي : جي أويي إنثوف بي بيتشويس ال?.",
+      "Englishcoptic": "je api-ooro ere pi-thimin epesai : je ooeei en-thof pe pechois al?."
+    }
+  ]
+}

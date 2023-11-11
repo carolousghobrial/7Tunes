@@ -90,6 +90,10 @@ const bookPaths = {
   PraisesTenThino: require("../assets/json/books/booksContent/Praises/TenThino.json"),
   PraisesThirdHoos: require("../assets/json/books/booksContent/Praises/ThirdHoos.json"),
   //RaisingOfIncense
+  RaisingOfIncensePsalmTrailersBishopPsalmTrailer: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/RaisingOfIncense/PsalmTrailers/BishopPsalmTrailer.json"),
+  RaisingOfIncensePsalmTrailersMaryFastTrailer: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/RaisingOfIncense/PsalmTrailers/MaryFastTrailer.json"),
+  RaisingOfIncensePsalmTrailersMatinsTrailer: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/RaisingOfIncense/PsalmTrailers/MatinsTrailer.json"),
+  RaisingOfIncensePsalmTrailersVespersTrailer: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/RaisingOfIncense/PsalmTrailers/VespersTrailer.json"),
   RaisingOfIncenseAbsolution: require("../assets/json/books/booksContent/RaisingOfIncense/Absolution.json"),
   RaisingOfIncenseEfnotiNaiNan: require("../assets/json/books/booksContent/RaisingOfIncense/EfnotiNaiNan.json"),
   RaisingOfIncenseEleisonEmas: require("../assets/json/books/booksContent/RaisingOfIncense/EleisonEmas.json"),

@@ -115,6 +115,18 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncensePsalmTrailersVespersTrailer",
+            "Rule": 0,
+            "Visible": "isStandardSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePsalmTrailersBishopPsalmTrailer",
+            "Rule": 0,
+            "Visible": "BishopIsPresent"
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncensePsalmResponses",
             "Rule": 0,
             "Visible": true

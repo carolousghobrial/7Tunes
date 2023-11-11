@@ -54,7 +54,7 @@ function BigSearchScreen({ navigation }) {
     const { key, method } = getItemValues[value] || {};
 
     if (key && method) {
-      const highlightedText = method(item.part[key], searchPhrase);
+      const highlightedText = method(item.part[key], searchPhrase, key);
 
       return (
         <Pressable onPress={openPage.bind(this, item, searchPhrase)}>
@@ -78,25 +78,33 @@ function BigSearchScreen({ navigation }) {
       arabicTitle: item.arabicTitle,
     });
   }
-  function HighlightText(textToHighlight, searchText) {
+  function HighlightText(textToHighlight, searchText, key) {
+    const font = key === "Coptic" ? "coptic-font" : "english-font";
+
     const newSearch = searchText.trim();
     const regex = new RegExp(`(${newSearch})`, "gim");
     const parts = textToHighlight.split(regex);
-    var key = 0;
+
     return (
-      <Text>
-        {parts.map((part) =>
-          part.toLowerCase() === newSearch.toLowerCase() ? (
-            <Text style={{ backgroundColor: "yellow" }} key={key++}>
-              {part}
-            </Text>
-          ) : (
-            part
-          )
-        )}
+      <Text style={{ fontFamily: font, fontSize: 20 }}>
+        {parts.map((part, index) => (
+          <Text
+            key={index}
+            style={{
+              backgroundColor:
+                part.toLowerCase() === newSearch.toLowerCase()
+                  ? "yellow"
+                  : "transparent",
+              fontFamily: font,
+            }}
+          >
+            {part}
+          </Text>
+        ))}
       </Text>
     );
   }
+
   function handleSearch(text) {
     setSearchPhrase(text);
     const results = [];

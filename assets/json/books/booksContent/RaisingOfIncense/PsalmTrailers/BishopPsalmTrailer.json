@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "طواف لحضور الأسقف   ",
+  "EnglishTitle": "Psalm Trailer for the presence of Bishops",
+  "CopticTitle": "Marou sacf ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "بي اناغنوستيس:",
+      "Englishcoptic": "Pi-Anaghnostis:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فليرفعوه في كنيسة شعبه ",
+      "Coptic": "Marou sacf =en `tek`klhcia `nte peflaoc >",
+      "English": "Let them exalt Him in the church of His people,",
+      "Arabiccoptic": "مارأو تشاسف خين إتيكإكليسيا إنتي بيفلاوس :",
+      "Englishcoptic": "maroo chasf khen etekekleesia ente peflaos :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وليباركوه علي منابر الشيوخ،",
+      "Coptic": " ouo\\ marou `cmou `erof \\i`tkaqedra `nte ni`precbuteroc > ",
+      "English": " and praise Him in the seat of the elders,",
+      "Arabiccoptic": "أووه مارأو إسمأو إيروف هيإتكاثيزرا إنتي نيإبريسفيتيروس :",
+      "Englishcoptic": "owoh maroo esmoo -erof hietkathezra en-te ni-epresveeteros :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأنه جعل أُبوَّة مثل الخراف، يُبصِرُ المستقيمون ويفرحون.",
+      "Coptic": "je afxw `noumetiwt `m`frh; `n\\an `ecwou eu`enau `nje nhetcoutwn ouo\\ eueounof > ",
+      "English": " for He has made the family like a flock of sheep, the upright shall see and rejoice.",
+      "Arabiccoptic": "جي افخوو إن أوميتيووت إم إفريتي إنهان إيسؤو إيف إيناف إنجي نييتسأوتوون أووه إيف يأونوف :",
+      "Englishcoptic": "je afkhoo en-oometi-oot emefreeti- en-han -eso-oo ev-en-av en-je nee-etsootoon owoh eveoonof :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أقسم الرب ولن يندم،",
+      "Coptic": "Afwrk `nje Psoic ouo\\ `nnefouwm `n`\\qhf > ",
+      "English": "The Lord has sworn and will have no regret, ",
+      "Arabiccoptic": "أفوورك إنجي بتشويس أووه إنني فأوووم إنإهثيف :",
+      "Englishcoptic": "Afoork en-je Pchois owoh en-nefo-oom en-ehtheef :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أنك أنت هو الكاهن إلى الأبد على طقس ملكي صادق.",
+      "Coptic": "je `nqok pe `fouhb ]a `ene\\ > kata `tta[ic `mmelxicedek > ",
+      "English": "“You are a priest forever, after the order of Melchizedek.”",
+      "Arabiccoptic": "جي إنثوك بي إفأويف شا إينيه : كاتا إتتاكسيس إمميلشيسيزيك :",
+      "Englishcoptic": "je en-thok pe efooeev sha -en-eh : kata ettaxis emmelshisezek :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرب عن يمينك يا أبانا القديس البطريرك البابا المعظم الأنبا (....)",
+      "Coptic": "Psoic caouinam `mmok peniwt eqouab `mpatiarxic papa abba (…) ",
+      "English": "The Lord is at your right hand, our saintly father, the patriarch, Pope Abba (Tawadros II). ",
+      "Arabiccoptic": "بتشويس ساأوينام إمموك بينيووت إيثؤاب إمباتيارشيس بابا ابفا (…)",
+      "Englishcoptic": "Pchois saooinam emmok pen-ioot ethowab empati-arshis papa abva (…)"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الرب يحفظ حياتكما",
+      "Coptic": "Psoic ef`e`are\\ `epetnwn= . ",
+      "English": "the Lord keep your lives",
+      "Arabiccoptic": "بتشويس إيف إي اريه إيبيتنوونخ .",
+      "Englishcoptic": "Pchois ef-e-areh -epetnoonkh ."
+    }
+  ]
+}
