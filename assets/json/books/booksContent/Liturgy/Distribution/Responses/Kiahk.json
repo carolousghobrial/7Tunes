@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد انجيل كيهك الاحد الأول و الثاني",
+  "EnglishTitle": "Kiahk  Response (1st and 2nd Week)",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المولود من الآب، قبل كل الدهور.",
+      "Coptic": "Pimici `ebol =en `Viwt> =ajw`ou `nni`e`wn throu",
+      "English": "The Begotten of the Father, before all ages.",
+      "Arabiccoptic": " بي ميسي ايفول خين افيوت : خاجوؤو انني ايون تيرو  ",
+      "Englishcoptic": "Pimisi evol khen Eviot: khagoo-oo enni-e-oon tero"
+    }
+  ]
+}

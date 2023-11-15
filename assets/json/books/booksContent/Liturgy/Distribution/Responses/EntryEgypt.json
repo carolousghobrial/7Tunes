@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد  عيد دخول المسيح ارض مصر",
+  "EnglishTitle": "Entrance of the Lord Christ into the Land of Egypt  Response ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يسو ع المسيح ابن الله دخل إلي أرض مصر",
+      "Coptic": "Ihcouc Pi`xrictoc `p}hri `m`Vnou;>af`i `e=oun `e`pka\\i `nXhmi.",
+      "English": " Jesus Christ the Son of God, came to the land of Egypt.",
+      "Arabiccoptic": " ايسوس بخرستوس إبشيرى إمفنوتى: إف إي إيخون إبكاهي إن كيمي . ",
+      "Englishcoptic": "Isos Pikhrisots Epsheeri em-Evnoti: af-ee ekhon epkahi enkeemi."
+    }
+  ]
+}

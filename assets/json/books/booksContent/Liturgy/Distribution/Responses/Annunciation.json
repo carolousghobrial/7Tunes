@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد  عيد البشارة",
+  "EnglishTitle": " Response for the Feast of the Annunciation  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يسوع المسيح إبن الله، تجسد من العذراء.",
+      "Coptic": " Ihcouc Pi`xrictoc `P]hri `m`Vnou;> afsicar[ `ebol =en :parqenoc",
+      "English": " Jesus Christ the Son of God, was incarnate from the Virgin.",
+      "Arabiccoptic": " ايسوس بيخرستوس ابشيرى ام افنوتى افتشى ساركس ايفول خين تى بارثينوس  .",
+      "Englishcoptic": " Isos Pikhristos Epsheri Em-Envoty : afchi-sarex evol khen Ti-parthenos."
+    }
+  ]
+}

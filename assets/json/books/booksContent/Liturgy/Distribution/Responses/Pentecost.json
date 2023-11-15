@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد  عيد العنصرة",
+  "EnglishTitle": " Response for Pentecost Feast ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " المسيح قام ثم صعد، وأرسل لنا البارقليط.",
+      "Coptic": " Pi`xrictoc aftwnf ouo\\ af]enaf> afouwrp nan `mPiparaklhton.",
+      "English": " Christ has risen and ascended, and sent us the Paraclete.",
+      "Arabiccoptic": " بي خريتوس آفطونف أووه آفشيناف آف أووأورب نان إمبي باراكليطون .",
+      "Englishcoptic": " Pikhristos Aftonf owoh Afshenaf : af-o-orp nan empi-parakliton."
+    }
+  ]
+}

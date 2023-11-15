@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد  عيد الصليب",
+  "EnglishTitle": " Response for the Feast of the Cross  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يسوع المسيح إبن الله، صُلب على الصليب، .",
+      "Coptic": "Ihcouc Pi`xrictoc `P]hri `m`Vnou;> vh`etaua]f `ePi`ctauroc",
+      "English": " Jesus Christ the Son of God, who was crucified on the Cross",
+      "Arabiccoptic": " اييسووس بي إيخريستوس إيبشيري إيميفنوتي: في إيتافأشف إيبييستافروس",
+      "Englishcoptic": "Isos Pi-ekristos Epshery em-Evnoti: vee-etav-ashf ePi-estavros"
+    }
+  ]
+}

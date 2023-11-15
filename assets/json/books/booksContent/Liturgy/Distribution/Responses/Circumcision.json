@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد الختان",
+  "EnglishTitle": " Response for Feast of Circumcision",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يسوع المسيح ابن الله قبل إليه الختان   .",
+      "Coptic": "Ihcouc Pi`xrictoc `p}hri `m`Vnou;> af]wp `erof `mpicebi.",
+      "English": " Jesus Christ the Son of God, accepted unto Himself circumcision.",
+      "Arabiccoptic": " ايسوس بخرستوس إبشيرى إمفنوتى: إفشوب إيروف إمبى سيفى . ",
+      "Englishcoptic": "Isos Pikhrisots Epsheeri em-Evnoti: afshoop erof empisevi."
+    }
+  ]
+}

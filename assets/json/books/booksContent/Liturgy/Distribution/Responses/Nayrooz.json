@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد  عيد النيروز",
+  "EnglishTitle": " Response for Nayrooz Feast ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " بارك إكليل [هذه] السنة، بصلاحك يا رب.",
+      "Coptic": " `Cmou `epi`xlom `nte ;rompi> \\iten tekmet`xrhctoc `Psoic.",
+      "English": " Bless the crown of the year, with Your goodness O Lord.",
+      "Arabiccoptic": "إسموا إيه بي إكلوم انتيه تي رومبي، هيتين تيك ميت إخريستوس إبشويس.",
+      "Englishcoptic": " Esmoo e-pi-eklom ente-ti rompi, he-ten tek-met-ekhrestos Epshois."
+    }
+  ]
+}

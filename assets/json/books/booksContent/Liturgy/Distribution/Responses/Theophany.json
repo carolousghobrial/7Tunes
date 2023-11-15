@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد  عيد الغطاس",
+  "EnglishTitle": " Response for Theophany Feast ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يسوع المسيح إبن الله، اعتمد في الأردن.",
+      "Coptic": " Ihcouc Pi`xrictoc  `p]hri `mV;> afsi`wmc =en piIordanhc.",
+      "English": " Jesus Christ the Son of God, was baptized in the Jordan.",
+      "Arabiccoptic": "الليلويا الليلويا : ايسوس بي اخريستوس ابشيري ام افنوتي : افتشي اومس خين بي يورذانيس  .",
+      "Englishcoptic": " Isos Pikhrestos Ep-shiri Emif-noti, fe-etaf-masf khen Veth-leem."
+    }
+  ]
+}

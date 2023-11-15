@@ -1,0 +1,29 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد الإنجيل صوم يونان - باكر الإثنين",
+  "EnglishTitle": "Jonah's Fast  Response - Monday Matins",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يونان في بطن الحوت كمثال، المسيح في القبر ثلاثة أيام.",
+      "Coptic": "Iwna =en `qneji `mpikitoc kata `ptupoc > `mPixrictoc =en pi`m\\au `n]omt `n`e\\oou",
+      "English": "Jonah in the belly of the whale, likewise Christ in the tomb three days.",
+      "Arabiccoptic": " يونا خين اثنيجى امبى كيتوس كاطا ابتيبوس : امبخريستوس خين بى امهاف ان شومت إن إيهؤو . .",
+      "Englishcoptic": "Ioona khen ethneji empikitos kata epteepos : emPikhristos khen piemhav enshomt en-ehoooo"
+    }
+  ]
+}

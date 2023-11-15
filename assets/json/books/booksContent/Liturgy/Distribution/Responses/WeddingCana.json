@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد  عيد عرس قانا الجليل",
+  "EnglishTitle": "Wedding at Cana of Galilee  Response ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يسوع المسيح إبن الله،بارك المياه فصيرها خمراً.",
+      "Coptic": " Ihcouc Pi`xrictoc `p}hri `m`Vnou;>  af`cmou `enimwou afaitou `nhrp.",
+      "English": " Jesus Christ the Son of God, blessed the water and changed it into wine.",
+      "Arabiccoptic": " إيسوس بخرستوس إبشيرى إمفنوتى: أف إسمو اى نى موأوو أف أيطو إن إيرب . ",
+      "Englishcoptic": "Isos Pikhrisots Epsheeri em-Evnoti: af-esmo eni-mo-oo af-aito en-eerp."
+    }
+  ]
+}

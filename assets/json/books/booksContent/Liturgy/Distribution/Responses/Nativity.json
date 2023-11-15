@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد   باكر عيد الميلاد عيد الميلاد",
+  "EnglishTitle": " Response for Matins of Nativity Feast ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يسوع المسيح ابن الله، ولد في بيت لحم.",
+      "Coptic": " Ih/c/ Px/c/ ` P]hri `mV; > Vhetaumacf =en bhqleem .",
+      "English": " Jesus Christ the Son of God, was born in Bethlehem.",
+      "Arabiccoptic": " إيسوس بخريستوس إبشيرى إمفنو تى، في إيطاف ماسف خين ڤيثليئيم.",
+      "Englishcoptic": " Isos Pikhrestos Ep-shiri Emif-noti, fe-etaf-masf khen Veth-leem."
+    }
+  ]
+}

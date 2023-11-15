@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد  عيد دخول المسيح",
+  "EnglishTitle": "Presentation of the Lord Christ in the Temple Feast  Response ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يسوع المسيح إبن الله، دخل الى الهيكل.",
+      "Coptic": " Ihcouc Pi`xrictoc `p}hri `m`Vnou;> af]e `e=oun `epiervei",
+      "English": " Jesus Christ the Son of God, entered into the Temple.",
+      "Arabiccoptic": " إيسوس بخرستوس إبشيرى إمفنوتى: افشى إيخون إيبي إيرفي . ",
+      "Englishcoptic": "Isos Pikhrisots Epsheeri em-Evnoti: afshe ekhon epi-erfei."
+    }
+  ]
+}
