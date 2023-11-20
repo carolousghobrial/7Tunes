@@ -62,13 +62,13 @@ function BaseView({ item, mykey }) {
 
   const arabicStyle = {
     fontFamily: "arabic-font",
-    lineHeight: fontSize * 1.8,
+    lineHeight: fontSize * 1.6,
     textAlign: testAlignText,
     writingDirection: "rtl",
   };
   const arabicCopticStyle = {
     fontFamily: "arabic-font",
-    lineHeight: fontSize * 1.4,
+    lineHeight: fontSize * 1.2,
     textAlign: testAlignText,
     writingDirection: "rtl",
   };

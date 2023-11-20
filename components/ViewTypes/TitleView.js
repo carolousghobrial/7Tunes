@@ -118,7 +118,11 @@ function TitleView({ item, navigation }) {
               />
               <View style={[styles.swapTextView, { flexDirection: flex }]}>
                 <Entypo name="swap" size={24} color="black" />
-                <Text style={styles.SwitchText}>St.Gregory</Text>
+                <Text
+                  style={[styles.SwitchText, { color: getColor("LabelColor") }]}
+                >
+                  St.Gregory
+                </Text>
               </View>
             </View>
           ) : (
@@ -126,7 +130,11 @@ function TitleView({ item, navigation }) {
               <Image style={styles.image} source={images["liturgyofStBasil"]} />
               <View style={[styles.swapTextView, { flexDirection: flex }]}>
                 <Entypo name="swap" size={24} color="black" />
-                <Text style={styles.SwitchText}>St.Basil</Text>
+                <Text
+                  style={[styles.SwitchText, { color: getColor("LabelColor") }]}
+                >
+                  St.Basil
+                </Text>
               </View>
             </View>
           )}

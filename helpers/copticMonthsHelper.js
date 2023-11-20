@@ -742,6 +742,7 @@ export function getCurrentSeasonByDate(date, timeTransition) {
       major: false,
     });
   }
+
   const mySeason = collection[0];
 
   var mycurrentSeason = {
