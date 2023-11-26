@@ -226,7 +226,7 @@ export function getCopticFastsFeasts(yearSelected) {
     newYearEnd = newYearEnd.add(1, "days");
     feastCross2Start = feastCross2Start.add(1, "days");
     feastCross2End = feastCross2End.add(1, "days");
-    //nativityFast.add(1, "days");
+    nativityFastStart.add(1, "days");
   }
 
   var fastFeasts = [];

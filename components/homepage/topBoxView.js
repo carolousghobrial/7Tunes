@@ -35,7 +35,6 @@ function TopBoxView() {
     switch (currentSeason.key) {
       case "GREAT_LENT":
       case "HOLY_50":
-      case "NATIVITY_FAST":
         let tempText = "";
         let weekNum = currentSeason.week;
         if (appLang === "eng") {

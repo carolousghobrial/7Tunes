@@ -234,6 +234,11 @@ const isSeason = (motherSource, path) => {
           currentSeason.copticMonth === "Koiahk"
         ) {
           return true;
+        } else if (
+          currentSeason.weekOfMonth === 5 &&
+          currentSeason.copticMonth === "Hathor"
+        ) {
+          return true;
         }
         return false;
       case "JONAH_FEAST":

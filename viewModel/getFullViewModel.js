@@ -521,7 +521,8 @@ function GetTodaysReadingPath(path) {
   let filePath = "Katamaros";
 
   const isStandardSeasonSunday =
-    currentSeason.key === "STANDARD" && currentSeason.dayOfWeek === 0;
+    (currentSeason.key !== "GREAT_LENT" || currentSeason.key !== "HOLY_50") &&
+    currentSeason.dayOfWeek === 0;
   const isPaopeOrHathor = ["Paope", "Hathor"].includes(
     currentSeason.copticMonth
   );
