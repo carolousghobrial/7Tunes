@@ -240,11 +240,108 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": " المكرم رئيس الكهنة البابا أنبا (تواضروس) (وأبينا الأسقف (المطران) الأنبا (...)).",
-      "Coptic": "Ettaihout `narxiereuc papa abba ___> nem peniwt n~e~pickopoc abba ___> nem nennio; n~e~pickopoc nhetxh neman.",
-      "English": "the honored high priest Pope Abba (Tawadros) (and our father the bishop (metropolitan) Abba (...)).",
-      "Arabiccoptic": "إنطايوت إن أرشي إرفس بابا آفا(..)نيم بينيوت ان ايبيسكوبوس افا ... ",
-      "Englishcoptic": "etta-iot enarshierevs papa Avva oisoisois: nem penioot n~e~piskopos Avva oisoisois: nem nennioti n~e~piskopos neeetshee neman."
+      "Arabic": " المكرم رئيس الكهنة البابا أنبا [*POPE*].",
+      "Coptic": "Ettaihout `narxiereuc papa abba [*POPE*]>",
+      "English": "the honored high priest Pope Abba [*POPE*] ",
+      "Arabiccoptic": "إنطايوت إن أرشي إرفس بابا آفا [*POPE*] ",
+      "Englishcoptic": "etta-iot enarshierevs papa Avva [*POPE*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseMetropolitain",
+      "Arabic": "وأبينا المطران أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem peniwt `mmhtropolthc abba [*DIOCESE_BISHOP*]",
+      "English": "And our father the metropolitan, Abba [*DIOCESE_BISHOP*].",
+      "Arabiccoptic": " نيم بين يوت إميتروبوليتيس أﭭا [*DIOCESE_BISHOP*].",
+      "Englishcoptic": "Nem penioot enmetropoleetes avva [*DIOCESE_BISHOP*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISOneMetropolitain",
+      "Arabic": "وأبينا المطران أنبا [*METROPOLITAIN_PRESENT*].",
+      "Coptic": "Nem peniwt `mmhtropolthc abba [*METROPOLITAIN_PRESENT*]",
+      "English": "And our father the metropolitan, Abba [*METROPOLITAIN_PRESENT*].",
+      "Arabiccoptic": " نيم بين يوت إميتروبوليتيس أﭭا [*METROPOLITAIN_PRESENT*].",
+      "Englishcoptic": "Nem penioot enmetropoleetes avva [*METROPOLITAIN_PRESENT*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISTwoMetropolitain",
+      "Side": "North",
+      "Arabic": "وأبينا المطران أنبا [*METROPOLITAIN_PRESENT2*].",
+      "Coptic": "Nem peniwt `mmhtropolthc abba [*METROPOLITAIN_PRESENT2*]",
+      "English": "And our father the metropolitan, Abba [*METROPOLITAIN_PRESENT2*].",
+      "Arabiccoptic": " نيم بين يوت إميتروبوليتيس أﭭا [*METROPOLITAIN_PRESENT2*].",
+      "Englishcoptic": "Nem penioot enmetropoleetes avva [*METROPOLITAIN_PRESENT2*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeMetropolitain",
+      "Side": "North",
+      "Arabic": "وأبينا المطران أنبا [*METROPOLITAIN_PRESENT3*].",
+      "Coptic": "Nem peniwt `mmhtropolthc abba [*METROPOLITAIN_PRESENT3*]",
+      "English": "And our father the metropolitan, Abba [*METROPOLITAIN_PRESENT3*].",
+      "Arabiccoptic": " نيم بين يوت إميتروبوليتيس أﭭا [*METROPOLITAIN_PRESENT3*].",
+      "Englishcoptic": "Nem penioot enmetropoleetes avva [*METROPOLITAIN_PRESENT3*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
+      "Side": "North",
+      "Arabic": "وأبينا الأسقف  أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem peniwt `nepickopoc  abba [*DIOCESE_BISHOP*]",
+      "English": "And our father the bishop , Abba [*DIOCESE_BISHOP*].",
+      "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*DIOCESE_BISHOP*] .",
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*DIOCESE_BISHOP*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISOneBishop",
+      "Side": "North",
+      "Arabic": "وأبينا الأسقف  أنبا [*BISHOP_PRESENT*].",
+      "Coptic": "Nem peniwt `nepickopoc  abba [*BISHOP_PRESENT*]",
+      "English": "And our father the bishop , Abba [*BISHOP_PRESENT*].",
+      "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*BISHOP_PRESENT*] .",
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*BISHOP_PRESENT*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISTwoBishop",
+      "Side": "North",
+      "Arabic": "وأبينا الأسقف  أنبا [*BISHOP_PRESENT2*].",
+      "Coptic": "Nem peniwt `nepickopoc  abba [*BISHOP_PRESENT2*]",
+      "English": "And our father the bishop , Abba [*BISHOP_PRESENT2*].",
+      "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*BISHOP_PRESENT2*] .",
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*BISHOP_PRESENT2*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISThreeBishop",
+      "Side": "North",
+      "Arabic": "وأبينا الأسقف  أنبا [*BISHOP_PRESENT3*].",
+      "Coptic": "Nem peniwt `nepickopoc  abba [*BISHOP_PRESENT3*]",
+      "English": "And our father the bishop , Abba [*BISHOP_PRESENT3*].",
+      "Arabiccoptic": " نيم بين يوت إن إيبيسكوبوسأﭭا [*BISHOP_PRESENT3*] .",
+      "Englishcoptic": "Nem penioot en-epes-kopos avva [*BISHOP_PRESENT3*]"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "Is3PlusBishops",
+      "Side": "North",
+      "Arabic": "وآبائنا المطارنة والأساقفة الحاضرين معنا",
+      "Coptic": "nem neniw; `mmetropolithc nem ni`epickopoc nhetxh neman ",
+      "English": "and our fathers the Metropolitans and Bishops who are with us",
+      "Arabiccoptic": "نيم نينيوتي  إمميتروبوليتيس نيم ني إيبيسكوبوس ني إتكي نيمان",
+      "Englishcoptic": "nem nenioti  en-metro-politees nem ni epes-kopos ni-etkee neman "
     },
     {
       "Type": "Base",

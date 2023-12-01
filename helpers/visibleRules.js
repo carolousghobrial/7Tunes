@@ -9,7 +9,11 @@ import {
   isInFast,
   getCopticFastsFeasts,
 } from "../helpers/copticMonthsHelper.js";
-
+import {
+  getCopticDateString,
+  getCopticDate,
+  getParamounDate,
+} from "../helpers/copticMonthsHelper";
 const TennavRule = (motherSource, path) => {
   const fastsFeasts = getCopticFastsFeasts(moment().year());
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -101,6 +105,14 @@ const isStandardSeasonWithStMary = (motherSource, path) => {
     case FeastEnum.FAST_STMARY:
     case FeastEnum.ASSUMPTION_STMARY:
       return true;
+    case "NATIVITY_FAST":
+      if (
+        currentSeason.copticMonth !== "Koiahk" &&
+        !TakeFromHathor(currentSeason)
+      ) {
+        return true;
+      }
+      return false;
     default:
       return false;
   }
@@ -113,6 +125,14 @@ const isStandardSeason = (motherSource, path) => {
     case "FAST_OF_APOSTLES":
     case "FEAST_OF_APOSTLES":
       return true;
+    case "NATIVITY_FAST":
+      if (
+        currentSeason.copticMonth !== "Koiahk" &&
+        !TakeFromHathor(currentSeason)
+      ) {
+        return true;
+      }
+      return false;
     default:
       return false;
   }
@@ -231,15 +251,12 @@ const isSeason = (motherSource, path) => {
       case "NATIVITY_FAST":
         if (
           path.toLowerCase()?.includes("kiahk") &&
-          currentSeason.copticMonth === "Koiahk"
-        ) {
-          return true;
-        } else if (
-          currentSeason.weekOfMonth === 5 &&
-          currentSeason.copticMonth === "Hathor"
+          (currentSeason.copticMonth === "Koiahk" ||
+            TakeFromHathor(currentSeason))
         ) {
           return true;
         }
+
         return false;
       case "JONAH_FEAST":
         if (
@@ -853,7 +870,7 @@ const ArchangelGabrielShow = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const saintSelected = getSaint("ARCHANGEL_GABRIEL");
 
-  if (currentSeason.copticMonth === "Koiahk") {
+  if (currentSeason.copticMonth === "Koiahk" || TakeFromHathor(currentSeason)) {
     return true;
   }
   if (
@@ -873,7 +890,7 @@ const ArchangelGabrielShow = (motherSource, path) => {
 const JohnTheBaptistShow = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const saintSelected = getSaint("JOHN_THE_BAPTIST");
-  if (currentSeason.copticMonth === "Koiahk") {
+  if (currentSeason.copticMonth === "Koiahk" || TakeFromHathor(currentSeason)) {
     if (path?.toLowerCase().includes("Doxologies")) {
       return true;
     } else if (path?.toLowerCase().includes("VersesOfCymbals")) {
@@ -1270,6 +1287,156 @@ const ShowSotees = (motherSource, path) => {
   }
   return false;
 };
+const firstKiahkGospelResponse = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  const copticMonthFound = {
+    name: "Koiahk",
+    index: 3,
+    month: 12,
+    day: 10,
+    leap: true,
+  };
+
+  const copticDate = getCopticDate(
+    currentSeason.gregorianYear,
+    copticMonthFound.month - 1,
+    copticMonthFound.day
+  );
+
+  const firstDay = moment([
+    currentSeason.gregorianYear,
+    copticMonthFound.month - 1,
+    copticMonthFound.day +
+      (copticDate.month === "Hathor" && copticDate.day === 30 ? 1 : 0),
+  ]);
+
+  const lastDay = moment(
+    getParamounDate(moment([currentSeason.gregorianYear, 0, 7]))
+  );
+
+  let numSundays = 0;
+
+  for (
+    let currentDay = firstDay.clone();
+    currentDay.isBefore(lastDay);
+    currentDay.add(1, "day")
+  ) {
+    if (currentDay.day() === 0) {
+      numSundays++;
+    }
+  }
+
+  if (
+    numSundays < 4 &&
+    ((currentSeason.copticMonth === "Hathor" &&
+      currentSeason.weekOfMonth === 5) ||
+      (currentSeason.copticMonth === "Koiahk" &&
+        currentSeason.weekOfMonth + 1 === 2))
+  ) {
+    return true;
+  }
+
+  return false;
+};
+const secondKiahkGospelResponse = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  const copticMonthFound = {
+    name: "Koiahk",
+    index: 3,
+    month: 12,
+    day: 10,
+    leap: true,
+  };
+
+  const copticDate = getCopticDate(
+    currentSeason.gregorianYear,
+    copticMonthFound.month - 1,
+    copticMonthFound.day
+  );
+
+  const firstDay = moment([
+    currentSeason.gregorianYear,
+    copticMonthFound.month - 1,
+    copticMonthFound.day +
+      (copticDate.month === "Hathor" && copticDate.day === 30 ? 1 : 0),
+  ]);
+
+  const lastDay = moment(
+    getParamounDate(moment([currentSeason.gregorianYear, 0, 7]))
+  );
+
+  let numSundays = 0;
+
+  for (
+    let currentDay = firstDay.clone();
+    currentDay.isBefore(lastDay);
+    currentDay.add(1, "day")
+  ) {
+    if (currentDay.day() === 0) {
+      numSundays++;
+    }
+  }
+  console.log(currentSeason.weekOfMonth);
+
+  if (
+    numSundays < 4 &&
+    currentSeason.copticMonth === "Koiahk" &&
+    (currentSeason.weekOfMonth + 1 === 3 ||
+      currentSeason.weekOfMonth + 1 === 4 ||
+      currentSeason.weekOfMonth === 4)
+  ) {
+    return true;
+  }
+
+  return false;
+};
+
+export function TakeFromHathor(currentSeason) {
+  const copticMonthFound = {
+    name: "Koiahk",
+    index: 3,
+    month: 12,
+    day: 10,
+    leap: true,
+  };
+
+  const copticDate = getCopticDate(
+    currentSeason.gregorianYear,
+    copticMonthFound.month - 1,
+    copticMonthFound.day
+  );
+
+  let firstDay = moment([
+    currentSeason.gregorianYear,
+    copticMonthFound.month - 1,
+    copticMonthFound.day +
+      (copticDate.month === "Hathor" && copticDate.day === 30 ? 1 : 0),
+  ]);
+  // Calculate the number of days in the month
+  const lastDay = moment(
+    getParamounDate(moment([currentSeason.gregorianYear, 0, 7]))
+  );
+  let numSundays = 0;
+
+  for (
+    let currentDay = firstDay.clone();
+    currentDay.isBefore(lastDay);
+    currentDay.add(1, "day")
+  ) {
+    if (currentDay.day() === 0) {
+      numSundays++;
+    }
+  }
+  const lastSundayOfHathoor = firstDay.subtract(firstDay.day(), "days");
+  if (
+    numSundays < 4 &&
+    lastSundayOfHathoor.isSame(moment(currentSeason.fullgregorianDate))
+  ) {
+    return true;
+  } else {
+    return false;
+  }
+}
 const VisibleRules = {
   hide: hide,
   TennavRule: TennavRule,
@@ -1280,6 +1447,7 @@ const VisibleRules = {
   isStandardSeasonWithStMary: isStandardSeasonWithStMary,
   isKiahk: isKiahk,
   isLenten: isLenten,
+  secondKiahkGospelResponse: secondKiahkGospelResponse,
   isSeason: isSeason,
   isStandardVespersPraises: isStandardVespersPraises,
   isKiahkVespersPraises: isKiahkVespersPraises,
@@ -1291,6 +1459,7 @@ const VisibleRules = {
   isNOTInHolyFifties: isNOTInHolyFifties,
   isMatins: isMatins,
   isVespers: isVespers,
+  firstKiahkGospelResponse: firstKiahkGospelResponse,
   isPraises: isPraises,
   IsDiocesePope: IsDiocesePope,
   showLitanyOfDeparted: showLitanyOfDeparted,

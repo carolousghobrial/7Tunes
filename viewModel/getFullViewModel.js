@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import bookPaths from "../helpers/bookPathsHelpers";
 import VisibleRules from "../helpers/visibleRules";
 import { useDispatch, useSelector } from "react-redux";
-
+var moment = require("moment-timezone"); //moment-timezone
 import {
   ComeRisenRule,
   REPLACEPAULINEAUTHOR,
@@ -23,7 +23,11 @@ import {
   REPLACEBISHOPAVAILABLETHREE,
 } from "../helpers/replacingRules";
 import homescreenPaths from "../helpers/homescreenPaths";
-
+import {
+  getCopticDateString,
+  getCopticDate,
+  getParamounDate,
+} from "../helpers/copticMonthsHelper";
 export function getFullViewModel(motherSource, mother) {
   let arabicttl = "";
   let copticttl = "";
@@ -515,41 +519,100 @@ export function addItemsToArray(part, thisRule) {
 
   return newPart;
 }
+function TakeFromHathor(currentSeason) {
+  const copticMonthFound = {
+    name: "Koiahk",
+    index: 3,
+    month: 12,
+    day: 10,
+    leap: true,
+  };
+  const copticDate = getCopticDate(
+    currentSeason.gregorianYear,
+    copticMonthFound.month - 1,
+    copticMonthFound.day
+  );
 
+  let firstDay = moment([
+    currentSeason.gregorianYear,
+    copticMonthFound.month - 1,
+    copticMonthFound.day +
+      (copticDate.month === "Hathor" && copticDate.day === 30 ? 1 : 0),
+  ]);
+  // Calculate the number of days in the month
+  const lastDay = moment(
+    getParamounDate(moment([currentSeason.gregorianYear, 0, 7]))
+  );
+  let numSundays = 0;
+
+  for (
+    let currentDay = firstDay.clone();
+    currentDay.isBefore(lastDay);
+    currentDay.add(1, "day")
+  ) {
+    if (currentDay.day() === 0) {
+      numSundays++;
+    }
+  }
+  if (numSundays < 4) {
+    return true;
+  } else {
+    return false;
+  }
+}
 function GetTodaysReadingPath(path) {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   let filePath = "Katamaros";
 
   const isStandardSeasonSunday =
-    (currentSeason.key !== "GREAT_LENT" || currentSeason.key !== "HOLY_50") &&
+    currentSeason.key !== "GREAT_LENT" &&
+    currentSeason.key !== "HOLY_50" &&
     currentSeason.dayOfWeek === 0;
-  const isPaopeOrHathor = ["Paope", "Hathor"].includes(
-    currentSeason.copticMonth
-  );
 
-  if (isStandardSeasonSunday && isPaopeOrHathor) {
-    filePath += "SundaysHathor";
-
-    if (currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4) {
-      filePath += `Week${currentSeason.weekOfMonth}`;
-
-      switch (path) {
-        case "VespersPsalm":
-        case "VespersGospel":
-        case "MatinsPsalm":
-        case "MatinsGospel":
-        case "LiturgyPauline":
-        case "LiturgyCatholic":
-        case "LiturgyActs":
-        case "LiturgyPsalm":
-        case "LiturgyGospel":
-          filePath += path;
-          break;
+  if (isStandardSeasonSunday) {
+    if (TakeFromHathor(currentSeason)) {
+      if (
+        currentSeason.copticMonth === "Hathor" &&
+        currentSeason.weekOfMonth === 5
+      ) {
+        filePath = updateFilePath("SundaysKoiahkWeek1");
+        filePath = "Katamaros";
+      } else if (currentSeason.copticMonth === "Koiahk") {
+        filePath = updateFilePath(
+          `SundaysKoiahkWeek${currentSeason.weekOfMonth + 1}`
+        );
+        filePath = "Katamaros";
       }
+    } else if (
+      currentSeason.weekOfMonth >= 1 &&
+      currentSeason.weekOfMonth <= 4
+    ) {
+      filePath = updateFilePath(
+        `Sundays${currentSeason.copticMonth}Week${currentSeason.weekOfMonth}`
+      );
+    } else {
+      filePath = "Katamaros";
     }
   }
 
   return filePath;
+
+  function updateFilePath(commonPart) {
+    switch (path) {
+      case "VespersPsalm":
+      case "VespersGospel":
+      case "MatinsPsalm":
+      case "MatinsGospel":
+      case "LiturgyPauline":
+      case "LiturgyCatholic":
+      case "LiturgyActs":
+      case "LiturgyPsalm":
+      case "LiturgyGospel":
+        return filePath + commonPart + path;
+      default:
+        return filePath;
+    }
+  }
 }
 
 function getAuthor(part, checkList) {
@@ -617,4 +680,39 @@ function findMatchingSubstring(str, substringsArray) {
     str?.includes(substring)
   );
   return foundSubstring ? foundSubstring : null;
+}
+
+function countSundays(yearSelected) {
+  const copticMonthFound = CopticMonthObjects.find(
+    (month) => month.name === "Koiahk"
+  );
+
+  const copticDate = getCopticDate(
+    yearSelected,
+    copticMonthFound.month - 1,
+    copticMonthFound.day
+  );
+
+  let firstDay = moment([
+    yearSelected,
+    copticMonthFound.month - 1,
+    copticMonthFound.day +
+      (copticDate.month === "Hathor" && copticDate.day === 30 ? 1 : 0),
+  ]);
+
+  // Calculate the number of days in the month
+  const lastDay = moment(getParamounDate(moment([yearSelected + 1, 0, 7])));
+
+  let numSundays = 0;
+
+  for (
+    let currentDay = firstDay.clone();
+    currentDay.isBefore(lastDay);
+    currentDay.add(1, "day")
+  ) {
+    if (currentDay.day() === 0) {
+      numSundays++;
+    }
+  }
+  return numSundays;
 }

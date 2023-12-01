@@ -35,7 +35,7 @@
       "Coptic": "Euloghtoc Kurioc Ihcouc `Xrictoc `Uioc qeou `agiacmoc `Pneuma `Agion> `amhn.",
       "English": "Blessed be the Lord Jesus Christ, the Son of God; the sanctification is by the Holy Spirit. Amen.",
       "Arabiccoptic": "يفلوجيتوس كيريوس إييسأوس إخريستوس  إييوس ثيأو  اجياسموس إبنيفما  أجيون:  امين.",
-      "Englishcoptic": "Evlogeetos Keerios Isos eKhristos -Eyios theoo -agiasmos ePnevma -Agion: -ameen-."
+      "Englishcoptic": "Evlogeetos Keerios Isos eKhristos eyios theoo -agiasmos ePnevma -Agion: -ameen-."
     },
     {
       "Type": "Base",
@@ -65,7 +65,7 @@
       "Coptic": "Ic Pathr `agioc> ic `o `Uioc `agioc> en `Pneuma `Agion> `amhn.",
       "English": "One is the Holy Father, one is the Holy Son, one is the Holy Spirit. Amen.",
       "Arabiccoptic": "إيس باتير  اجيوس: يس  و  إييوس  اجيوس: إين إبنيفما  أجيون:  امين.",
-      "Englishcoptic": "Is Pateer agios: is -o -Eyios agios: en ePnevma -Agion: -ameen."
+      "Englishcoptic": "Is Pateer agios: is -o eyios agios: en ePnevma -Agion: -ameen."
     },
     {
       "Type": "Base",
@@ -131,7 +131,7 @@
       "Coptic": "Cwma `agion ke `Ema timion `alhqinon> Ihcou `Xrictou tou `Uiou tou qeou `hmwn> `amhn.",
       "English": "The holy Body and the precious, true Blood of Jesus Christ, the Son of our God. Amen.",
       "Arabiccoptic": "سووما  اجيون كي إيما تيميون  اليثينون: إييسأو إخريستأو تأو  إييأو تأو ثيأو  يموون:  امين.",
-      "Englishcoptic": "Sooma -agion ke -Ema ti-mion -aleethinon: Ieesoo eKhristoo too -Eyioo too theoo -eemoon: -ameen-."
+      "Englishcoptic": "Sooma -agion ke ema ti-mion -aleethinon: Ieesoo eKhristoo too eyioo too theoo eemoon: -ameen-."
     },
     {
       "Type": "Base",
@@ -175,7 +175,7 @@
       "Coptic": "`Agion timion Cwma ke `Ema `alhqinon> Ihcou `Xrictou tou `Uiou tou qeou `hmwn> `amhn.",
       "English": "The holy, precious Body and the true Blood of Jesus Christ, the Son of our God. Amen.",
       "Arabiccoptic": "أجيون تيميون سووما كي إيما  اليثينون: إييسأو إخريستأو تأو  إييأو تأو ثيأو  يموون:  امين.",
-      "Englishcoptic": "-Agion ti-mion Sooma ke -Ema -aleethinon: Ieesoo eKhristoo too -Eyioo too theoo -eemoon: -ameen-."
+      "Englishcoptic": "-Agion ti-mion Sooma ke ema -aleethinon: Ieesoo eKhristoo too eyioo too theoo eemoon: -ameen-."
     },
     {
       "Type": "Base",
@@ -274,7 +274,7 @@
       "Coptic": "Je qai te :car[ `nreftan=o> `etaksitc `w Pi`xrictoc Panou; `ebol =en tensoic thren :qe`otokoc eqouab ;`agia Maria.",
       "English": "that this is the life-giving Flesh that You have taken, O Christ my God, from our Lady, the Lady of us all, the holy Theotokos, Saint Mary.",
       "Arabiccoptic": "جي ثاي تي تيساركس إنريفتانخو: إيتاكتشيتس  وو بيإخريستوس بانأوتي إيفول خين تينتشويس تيرين تيثي وتوكوس إيثؤاب تي اجيا ماريا.",
-      "Englishcoptic": "Je thai te Tisarx en-reftankho: -etakchits -oo Pikhristos Panooti evol khen- ten-chois teeren- Tithe-otokos ethowab ti-agia Maria."
+      "Englishcoptic": "Je thai te Tisarx en-reftankho: etakchits -oo Pikhristos Panooti evol khen- ten-chois teeren- Tithe-otokos ethowab ti-agia Maria."
     },
     {
       "Type": "Base",
@@ -307,7 +307,7 @@
       "Coptic": "Akthic `e`\\rhi `ejwn \\ijen pi]e eqouab `nte Pi`ctauroc> =en pekouw] `mmin `mmok `e`\\rhi `ejwn thren.",
       "English": "You have given It up for us upon the holy wood of the Cross, of Your own will, for us all.",
       "Arabiccoptic": "أكتييس إي إهريي إيجوون هيجين بيشي إيثؤاب إنتي بيإستافروس: خين بيكأوأوؤوش إممين إمموك إي إهريي إيجوون تيرين.",
-      "Englishcoptic": "Akteeis -eehreei -egoon hijen pi-she ethowab ente Piestavros: khen pek-o-oosh emmin emmok -eehreei -egoon teeren."
+      "Englishcoptic": "Akteeis eehreei egoon hijen pi-she ethowab ente Piestavros: khen pek-o-oosh emmin emmok eehreei egoon teeren."
     },
     {
       "Type": "Base",
@@ -329,7 +329,7 @@
       "Coptic": "Eu; `mmoc `ejwn `noucw;> nem ouxw `ebol `nte ninobi> nem ouwn= `n`ene\\> `nnheqnasi `ebol `n=htc.",
       "English": "given for us for salvation, remission of sins, and eternal life to those who partake of Him.",
       "Arabiccoptic": "يفتي إمموس إيجوون إنأوسووتي: نيم أوخوو إيفول إنتي نينوفي: نيم أووونخ إنإينيه: إنني يثناتشي إيفول إنخيتس.",
-      "Englishcoptic": "Evti emmos -egoon en-oosooti: nem ookhoo evol en-te ni-novi: nem o-oonkh en-en-eh: en-nee-ethnachi evol en-kheets."
+      "Englishcoptic": "Evti emmos egoon en-oosooti: nem ookhoo evol en-te ni-novi: nem o-oonkh en-en-eh: en-nee-ethnachi evol en-kheets."
     },
     {
       "Type": "Base",
@@ -373,7 +373,7 @@
       "Coptic": "Twb\\ `e`\\rhi `ejwn nem `ejen `xrictianoc niben `etaujoc nan eqbhtou> je `aripenmeui =en `phi `m`Psoic.",
       "English": "Pray for us and for all Christians who said to us concerning them, “Remember us in the house of the Lord.”",
       "Arabiccoptic": "تووبه إي إهريي إيجوون نيم إيجين إخريستيانوس نيفين إيتافجوس نان إيثفيتأو: جي  اريبينميفي خين إبيي إمإبتشويس.",
-      "Englishcoptic": "Toobh -eehreei -egoon nem -ejen ekhristi-anos ni-ven -etavgos nan ethveetoo: je -aripenmevi khen epeei emEpchois."
+      "Englishcoptic": "Toobh eehreei egoon nem ejen ekhristi-anos ni-ven etavgos nan ethveetoo: je -aripenmevi khen epeei emEpchois."
     },
     {
       "Type": "Base",
@@ -384,7 +384,7 @@
       "Coptic": "`H `irhnh ke `agapi Ihcou `Xrictou meq `umwn> yallate jw allhlouia.",
       "English": "The peace and love of Jesus Christ be with you. Sing, “Alleluia.”",
       "Arabiccoptic": "ي  إيريني كي  اغابي إييسأو إخريستأو ميث  يموون: بساللاتي جوو الليلأويا.",
-      "Englishcoptic": "-Ee -eereen-ee ke -aghapi Ieesoo eKhristoo meth eemon: psallate goo alleelooia."
+      "Englishcoptic": "-Ee eereen-ee ke -aghapi Ieesoo eKhristoo meth eemon: psallate goo alleelooia."
     },
     {
       "Type": "Base",
@@ -395,7 +395,7 @@
       "Coptic": "`Proceu[acqe `uper thc a[iac metalhyewc axrantwn ke `epouraniwn twn `agiwn Mucthriwn.",
       "English": "Pray for the worthy partaking of the immaculate, heavenly, and holy Mysteries.",
       "Arabiccoptic": "إبروسيفكساستي  يبير تيس اكسياس ميتاليبسيووس اخرانتوون كي إيبأورانيوون توون  اجيوون ميستيريوون.",
-      "Englishcoptic": "eProsevxaste -eyper tees axias metaleepseoos akhrantoon ke -epoorani-oon toon -agioon meesteerioon."
+      "Englishcoptic": "eProsevxaste eyper tees axias metaleepseoos akhrantoon ke epoorani-oon toon -agioon meesteerioon."
     },
     {
       "Type": "Base",
@@ -406,7 +406,7 @@
       "Coptic": "Kurie `ele`hcon.",
       "English": "Lord have mercy.",
       "Arabiccoptic": "كيريإي إيلي يسون.",
-      "Englishcoptic": "Keerie -ele-eeson."
+      "Englishcoptic": "Keerie ele-eeson."
     }
   ]
 }

@@ -6,21 +6,6 @@ var moment = require("moment-timezone"); //moment-timezone
 
 var today = moment();
 
-attributes = {
-  englishCheckbox: true,
-  copticCheckbox: true,
-  arabicCheckbox: false,
-  lightThemeCheckbox: false,
-  presentationModeCheckbox: false,
-  todayDate: today,
-  day: today.date(),
-  monthIndex: today.month(),
-  year: today.year(),
-  time: today.hours(),
-  fontScale: 1,
-  autoLoad: true,
-};
-
 var CopticMonthObjects = [
   {
     name: "Thoout",
@@ -147,11 +132,7 @@ var monthNames = [
   "December",
 ];
 
-// /**
-//  * @param  {Object} attributes - Attributes object defined in NavSubMenuStore
-//  * @returns {Object} collection of fasts & feasts with start and end dates
-//  */
-export function getCopticFastsFeasts(yearSelected) {
+export function getCopticFastsFeasts(yearSelected, date) {
   // major feasts
   // fixed to Jan 7 until the year 2100
   var nativity = moment([yearSelected, 0, 7]);
@@ -182,7 +163,6 @@ export function getCopticFastsFeasts(yearSelected) {
   var MaryNativity = moment([yearSelected, 4, 9]);
   var MaryPresentation = moment([yearSelected, 11, 12]);
   var MaryDormant = moment([yearSelected, 0, 29]);
-
   var StMaryAssumption = moment([yearSelected, 7, 22]);
   var apostlesFeast = moment([yearSelected, 6, 12]);
   var newYear = moment([yearSelected, 8, 11]);
@@ -195,17 +175,31 @@ export function getCopticFastsFeasts(yearSelected) {
   var lent = moment(resurrection).subtract(55, "days");
   var apostlesFast = moment(pentecost).add(1, "days");
   var StMaryFast = moment([yearSelected, 7, 7]);
+  var nativityParamoun = getParamounDate(nativity);
 
   // special case since fast spans across years
-  if (attributes.todayDate.isBefore(nativity)) {
-    var nativityFastStart = moment([yearSelected - 1, 10, 25]);
-    var nativityFastEnd = moment(nativity);
+  if (date !== undefined) {
+    if (moment(date).isBefore(nativity)) {
+      var nativityFastStart = moment([yearSelected - 1, 10, 25]);
+      var nativityFastEnd = moment(nativityParamoun).subtract(1, "day");
+    } else {
+      var nativityFastStart = moment([yearSelected, 10, 25]);
+      var nativityFastEnd = moment(
+        getParamounDate(moment([yearSelected + 1, 0, 7]))
+      );
+    }
   } else {
-    var nativityFastStart = moment([yearSelected, 10, 25]);
-    var nativityFastEnd = moment(nativity).add(1, "years");
+    if (today.isBefore(nativity)) {
+      var nativityFastStart = moment([yearSelected - 1, 10, 25]);
+      var nativityFastEnd = moment(nativityParamoun);
+    } else {
+      var nativityFastStart = moment([yearSelected, 10, 25]);
+      var nativityFastEnd = moment(
+        getParamounDate(moment([yearSelected + 1, 0, 7]))
+      );
+    }
   }
 
-  var nativityParamoun = getParamounDate(nativity);
   var epiphanyParamoun = getParamounDate(epiphany);
   var JonahFast = moment(lent).subtract(14, "days");
   var JonahFeast = moment(JonahFast).add(3, "days");
@@ -228,14 +222,15 @@ export function getCopticFastsFeasts(yearSelected) {
     feastCross2End = feastCross2End.add(1, "days");
     nativityFastStart.add(1, "days");
   }
-
   var fastFeasts = [];
 
   fastFeasts.push({
     key: "NATIVITY",
     type: "feast",
     start: nativity,
-    end: nativityEnd,
+    end: null,
+    copticStartDate: getCopticDateByDate(nativity),
+    copticEndDate: null,
     major: true,
   });
 
@@ -244,6 +239,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: nativity2ndDay,
     end: null,
+    copticStartDate: getCopticDateByDate(nativity2ndDay),
+    copticEndDate: null,
     major: true,
   });
 
@@ -252,6 +249,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: epiphany,
     end: null,
+    copticStartDate: getCopticDateByDate(epiphany),
+    copticEndDate: null,
     major: true,
   });
   fastFeasts.push({
@@ -259,6 +258,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: epiphany2ndDay,
     end: null,
+    copticStartDate: getCopticDateByDate(epiphany2ndDay),
+    copticEndDate: null,
     major: true,
   });
 
@@ -282,6 +283,8 @@ export function getCopticFastsFeasts(yearSelected) {
       type: "feast",
       start: annunciation,
       end: null,
+      copticStartDate: getCopticDateByDate(annunciation),
+      copticEndDate: null,
       major: true,
     });
 
@@ -290,6 +293,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: resurrection,
     end: null,
+    copticStartDate: getCopticDateByDate(resurrection),
+    copticEndDate: null,
     major: true,
   });
 
@@ -298,6 +303,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: palmSunday,
     end: null,
+    copticStartDate: getCopticDateByDate(palmSunday),
+    copticEndDate: null,
     major: true,
   });
   fastFeasts.push({
@@ -305,6 +312,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "fast",
     start: palmSunday,
     end: resurrection,
+    copticStartDate: getCopticDateByDate(palmSunday),
+    copticEndDate: getCopticDateByDate(resurrection),
     major: true,
   });
 
@@ -313,6 +322,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: ascension,
     end: null,
+    copticStartDate: getCopticDateByDate(ascension),
+    copticEndDate: null,
     major: true,
   });
   fastFeasts.push({
@@ -320,6 +331,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: ascension2ndday,
     end: pentecost,
+    copticStartDate: getCopticDateByDate(ascension2ndday),
+    copticEndDate: getCopticDateByDate(pentecost),
     major: true,
   });
   fastFeasts.push({
@@ -327,6 +340,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: pentecost,
     end: null,
+    copticStartDate: getCopticDateByDate(pentecost),
+    copticEndDate: null,
     major: true,
   });
 
@@ -335,6 +350,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: circumcision,
     end: null,
+    copticStartDate: getCopticDateByDate(circumcision),
+    copticEndDate: null,
     major: false,
   });
 
@@ -343,6 +360,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: entryEgypt,
     end: null,
+    copticStartDate: getCopticDateByDate(entryEgypt),
+    copticEndDate: null,
     major: false,
   });
 
@@ -351,6 +370,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: canaMiracle,
     end: null,
+    copticStartDate: getCopticDateByDate(canaMiracle),
+    copticEndDate: null,
     major: false,
   });
 
@@ -359,6 +380,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: entranceTemple,
     end: null,
+    copticStartDate: getCopticDateByDate(entranceTemple),
+    copticEndDate: null,
     major: false,
   });
 
@@ -367,6 +390,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: transfiguration,
     end: null,
+    copticStartDate: getCopticDateByDate(transfiguration),
+    copticEndDate: null,
     major: false,
   });
 
@@ -375,6 +400,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: covenantThursday,
     end: null,
+    copticStartDate: getCopticDateByDate(covenantThursday),
+    copticEndDate: null,
     major: false,
   });
 
@@ -383,6 +410,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: ThomasSunday,
     end: null,
+    copticStartDate: getCopticDateByDate(ThomasSunday),
+    copticEndDate: null,
     major: false,
   });
 
@@ -391,6 +420,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: StMaryAssumption,
     end: null,
+    copticStartDate: getCopticDateByDate(StMaryAssumption),
+    copticEndDate: null,
     major: false,
   });
 
@@ -399,6 +430,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: apostlesFeast,
     end: null,
+    copticStartDate: getCopticDateByDate(apostlesFeast),
+    copticEndDate: null,
     major: false,
   });
 
@@ -407,6 +440,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: newYear,
     end: newYearEnd,
+    copticStartDate: getCopticDateByDate(newYear),
+    copticEndDate: getCopticDateByDate(newYearEnd),
     major: false,
   });
 
@@ -415,6 +450,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: feastCross1,
     end: null,
+    copticStartDate: getCopticDateByDate(feastCross1),
+    copticEndDate: null,
     major: false,
   });
 
@@ -423,6 +460,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: feastCross2Start,
     end: feastCross2End,
+    copticStartDate: getCopticDateByDate(feastCross2Start),
+    copticEndDate: getCopticDateByDate(feastCross2End),
     major: false,
   });
 
@@ -431,6 +470,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "fast",
     start: apostlesFast,
     end: apostlesFeast,
+    copticStartDate: getCopticDateByDate(apostlesFast),
+    copticEndDate: getCopticDateByDate(apostlesFeast),
     major: true,
   });
 
@@ -439,6 +480,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "fast",
     start: StMaryFast,
     end: StMaryAssumption,
+    copticStartDate: getCopticDateByDate(StMaryFast),
+    copticEndDate: getCopticDateByDate(StMaryAssumption),
     major: false,
   });
 
@@ -447,6 +490,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "fast",
     start: nativityFastStart,
     end: nativityFastEnd,
+    copticStartDate: getCopticDateByDate(nativityFastStart),
+    copticEndDate: getCopticDateByDate(nativityFastEnd),
     major: true,
   });
 
@@ -455,6 +500,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "fast",
     start: goodFriday,
     end: null,
+    copticStartDate: getCopticDateByDate(goodFriday),
+    copticEndDate: null,
     major: false,
   });
 
@@ -463,6 +510,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "fast",
     start: LazarusSaturday,
     end: null,
+    copticStartDate: getCopticDateByDate(LazarusSaturday),
+    copticEndDate: null,
     major: false,
   });
 
@@ -471,6 +520,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: JonahFeast,
     end: null,
+    copticStartDate: getCopticDateByDate(JonahFeast),
+    copticEndDate: null,
     major: false,
   });
 
@@ -479,6 +530,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "fast",
     start: JonahFast,
     end: JonahFeast,
+    copticStartDate: getCopticDateByDate(JonahFast),
+    copticEndDate: getCopticDateByDate(JonahFeast),
     major: false,
   });
 
@@ -487,6 +540,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "fast",
     start: lent,
     end: resurrection,
+    copticStartDate: getCopticDateByDate(lent),
+    copticEndDate: getCopticDateByDate(resurrection),
     major: true,
   });
   fastFeasts.push({
@@ -494,6 +549,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: resurrection,
     end: apostlesFast,
+    copticStartDate: getCopticDateByDate(resurrection),
+    copticEndDate: getCopticDateByDate(apostlesFast),
     major: true,
   });
 
@@ -502,6 +559,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "fast",
     start: nativityParamoun,
     end: nativity,
+    copticStartDate: getCopticDateByDate(nativityParamoun),
+    copticEndDate: getCopticDateByDate(nativity),
     major: false,
   });
 
@@ -510,6 +569,8 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "fast",
     start: epiphanyParamoun,
     end: epiphany,
+    copticStartDate: getCopticDateByDate(epiphanyParamoun),
+    copticEndDate: getCopticDateByDate(epiphany),
     major: false,
   });
 
@@ -518,17 +579,15 @@ export function getCopticFastsFeasts(yearSelected) {
     type: "feast",
     start: nativity2ndDay,
     end: circumcision,
+    copticStartDate: getCopticDateByDate(nativity2ndDay),
+    copticEndDate: getCopticDateByDate(circumcision),
     major: true,
   });
 
   return fastFeasts;
 }
 
-/**
- * @param  {Object} feastDate - Nativity or Theophany Moment object
- * @returns {Object}
- */
-var getParamounDate = function (feastDate) {
+export function getParamounDate(feastDate) {
   // Sunday
   if (feastDate.day() == 0) {
     return moment(feastDate).subtract(2, "days");
@@ -538,12 +597,8 @@ var getParamounDate = function (feastDate) {
   } else {
     return moment(feastDate).subtract(1, "days");
   }
-};
+}
 
-/**
- * @param  {Object} attributes - Attributes object defined in NavSubMenuStore
- * @returns {boolean}
- */
 export function isInFast(timeTransition) {
   var myfastfeasts = getCopticFastsFeasts(moment().year());
   const currentDate = new Date(getTodayDate(timeTransition));
@@ -650,6 +705,7 @@ export function setCurrentSeasonByKey(timeTransition, key) {
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
     gregorianYear: currentDate.getFullYear(),
+    fullgregorianDate: currentDate,
     isWatos: isWatos(currentDate.getDay()),
     type: mySeason.type,
     plantsSeason: plantsSeason(currentDate),
@@ -681,6 +737,7 @@ export function setCurrentSeasonLive(timeTransition) {
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
     gregorianYear: currentDate.getFullYear(),
+    fullgregorianDate: currentDate,
     isWatos: isWatos(currentDate.getDay()),
     type: mySeason.type,
     plantsSeason: plantsSeason(currentDate),
@@ -698,7 +755,7 @@ function getWeeksSinceStartDate(startDate) {
   return diffInWeeks;
 }
 export function getCurrentSeasonByDate(date, timeTransition) {
-  var fastsfeasts = getCopticFastsFeasts(date.getFullYear());
+  var fastsfeasts = getCopticFastsFeasts(date.getFullYear(), date);
   var collection = [];
 
   const currentDate = date;
@@ -717,6 +774,7 @@ export function getCurrentSeasonByDate(date, timeTransition) {
       collection.push(feast);
     }
   });
+
   if (collection.length === 0) {
     let type = "regular";
     if (todayDate.day() === 3 && todayDate.day() === 5) {
@@ -756,6 +814,7 @@ export function getCurrentSeasonByDate(date, timeTransition) {
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
     gregorianYear: currentDate.getFullYear(),
+    fullgregorianDate: currentDate,
     isWatos: isWatos(currentDate.getDay()),
     type: mySeason.type,
     plantsSeason: plantsSeason(currentDate),
@@ -832,6 +891,57 @@ function getCopticMonthDate(CopticMonthObject, year) {
 export function getCopticDate(year, monthIndex, day) {
   var copticMonth;
   var copticMonthIndex = 0;
+  var copticDay = day;
+  var copticYear = year - 284;
+  var copticNewYearDay = isLeapYear(year + 1) ? 12 : 11;
+  // Coptic New Year
+  if (monthIndex >= 8 && day >= copticNewYearDay) {
+    copticYear++;
+  }
+
+  for (var i = 0; i < CopticMonthObjects.length; i++) {
+    var m = CopticMonthObjects[i];
+    // wrap around to beginning
+    var m_next = CopticMonthObjects[(i + 1) % CopticMonthObjects.length];
+
+    var gregDate = new Date(year, monthIndex, day, 12, 0, 0);
+    var copticMonthStartDate;
+    var copticMonthEndDate;
+
+    // special cases for new Gregorian year
+    if (monthIndex == 0 && m.index == 3) {
+      copticMonthStartDate = getCopticMonthDate(m, year - 1);
+      copticMonthEndDate = getCopticMonthDate(m_next, year);
+    } else if (monthIndex == 11 && m_next.index == 4) {
+      copticMonthStartDate = getCopticMonthDate(m, year);
+      copticMonthEndDate = getCopticMonthDate(m_next, year + 1);
+    } else {
+      copticMonthStartDate = getCopticMonthDate(m, year);
+      copticMonthEndDate = getCopticMonthDate(m_next, year);
+    }
+
+    if (gregDate >= copticMonthStartDate && gregDate < copticMonthEndDate) {
+      copticMonth = m.name;
+      copticMonthIndex = m.index;
+      copticDay =
+        Math.floor((gregDate - copticMonthStartDate) / (1000 * 24 * 3600)) + 1;
+      break;
+    }
+  }
+
+  return {
+    month: copticMonth,
+    monthIndex: copticMonthIndex,
+    day: copticDay,
+    year: copticYear,
+  };
+}
+export function getCopticDateByDate(date) {
+  var copticMonth;
+  var copticMonthIndex = 0;
+  var year = date.year();
+  var monthIndex = date.month();
+  var day = date.date();
   var copticDay = day;
   var copticYear = year - 284;
   var copticNewYearDay = isLeapYear(year + 1) ? 12 : 11;
