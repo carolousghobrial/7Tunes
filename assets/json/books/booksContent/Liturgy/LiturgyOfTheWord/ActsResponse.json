@@ -28,6 +28,12 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseNativityParamoun",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseNativity",
             "Rule": 0,
             "Visible": "isSeason"

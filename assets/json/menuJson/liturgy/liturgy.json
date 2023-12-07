@@ -29,7 +29,7 @@
             "PurchaseKeyIos": "holypaschasku",
             "hasSubBooks": true,
             "BookPath": "liturgyMenu",
-            "ImageURL": "communion",
+            "ImageURL": "holyliturgy",
             "Enabled": false,
             "PermissionStatus": "holyLiturgyPermission",
             "PurchaseKey": "HolyLiturgy"

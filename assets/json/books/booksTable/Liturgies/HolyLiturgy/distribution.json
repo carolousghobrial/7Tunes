@@ -94,6 +94,12 @@
         },
         {
             "Type": "Main",
+            "Path": "JeEfesmarot",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyDistributionMelodiesAnnunciation",
             "Rule": 0,
             "Visible": "isSeason"

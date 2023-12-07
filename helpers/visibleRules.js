@@ -532,21 +532,18 @@ const isKiahkWeek = (motherSource, path) => {
     currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4;
   const isWeek5 = currentSeason.weekOfMonth === 5;
   const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
-
-  if (isWeek1to4) {
-    if (
-      isTakeFromHathor &&
-      isKoiahkMonth &&
-      currentSeason.key !== "NATIVITY_PARAMOUN"
-    ) {
+  if (
+    isWeek1to4 &&
+    currentSeason.key !== "NATIVITY_PARAMOUN" &&
+    currentSeason.key === "NATIVITY_FAST"
+  ) {
+    if (isTakeFromHathor && isKoiahkMonth) {
       const weekNum =
         currentSeason.weekOfMonth + 1 > 4
           ? currentSeason.weekOfMonth + 1
           : currentSeason.weekOfMonth;
-      console.log(weekNum);
       return path.toLowerCase().includes(weekNum);
     } else {
-      console.log(path);
       return path.toLowerCase().includes(currentSeason.weekOfMonth);
     }
   } else if (isTakeFromHathor && isHathorMonth && isWeek5) {
@@ -920,7 +917,8 @@ const stMaryActsResponse = (motherSource, path) => {
   }
   if (
     currentSeason.key === "GREAT_LENT" ||
-    currentSeason.key === "JONAH_FAST"
+    currentSeason.key === "JONAH_FAST" ||
+    currentSeason.key === "NATIVITY_PARAMOUN"
   ) {
     return false;
   }

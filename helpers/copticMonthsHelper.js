@@ -765,6 +765,18 @@ export function getCurrentSeasonByDate(date, timeTransition) {
     currentDate.getDate()
   );
   var todayDate = moment(date);
+  if (
+    copticDate.day === 29 &&
+    (copticDate.month != "Tobe" || copticDate.month != "Meshir")
+  ) {
+    collection.push({
+      key: "TWENTYNINTHTH_COPTIC_MONTH",
+      type: "feast",
+      start: null,
+      end: null,
+      major: false,
+    });
+  }
   fastsfeasts.map((feast) => {
     if (
       (feast.end === null && feast.start.isSame(todayDate)) ||
@@ -780,18 +792,7 @@ export function getCurrentSeasonByDate(date, timeTransition) {
     if (todayDate.day() === 3 && todayDate.day() === 5) {
       type = "fast";
     }
-    if (
-      copticDate.day === 29 &&
-      (copticDate.month != "Tobe" || copticDate.month != "Meshir")
-    ) {
-      collection.push({
-        key: "TWENTYNINTHTH_COPTIC_MONTH",
-        type: "feast",
-        start: null,
-        end: null,
-        major: false,
-      });
-    }
+
     collection.push({
       key: "STANDARD",
       type: type,
@@ -800,7 +801,7 @@ export function getCurrentSeasonByDate(date, timeTransition) {
       major: false,
     });
   }
-
+  console.log(collection);
   const mySeason = collection[0];
 
   var mycurrentSeason = {
@@ -835,6 +836,21 @@ export function getCurrentSeason(timeTransition) {
     currentDate.getMonth(),
     currentDate.getDate()
   );
+  if (
+    copticDate.day === 29 &&
+    (copticDate.month != "Tobe" ||
+      copticDate.month != "Meshir" ||
+      copticDate.month != "Koiahk" ||
+      copticDate.month != "Paremhotep")
+  ) {
+    collection.push({
+      key: "TWENTYNINTHTH_COPTIC_MONTH",
+      type: "feast",
+      start: null,
+      end: null,
+      major: false,
+    });
+  }
   var todayDate = getTodayDate(timeTransition);
   fastsfeasts.map((feast) => {
     if (
@@ -845,23 +861,13 @@ export function getCurrentSeason(timeTransition) {
       collection.push(feast);
     }
   });
+
   if (collection.length === 0) {
     let type = "regular";
     if (todayDate.day() === 3 && todayDate.day() === 5) {
       type = "fast";
     }
-    if (
-      copticDate.day === 29 &&
-      (copticDate.month != "Tobe" || copticDate.month != "Meshir")
-    ) {
-      collection.push({
-        key: "TWENTYNINTHTH_COPTIC_MONTH",
-        type: "feast",
-        start: null,
-        end: null,
-        major: false,
-      });
-    }
+
     collection.push({
       key: "STANDARD",
       type: type,

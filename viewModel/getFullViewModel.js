@@ -578,7 +578,6 @@ function GetTodaysReadingPath(path) {
 
     if (isWeek1to4) {
       if (isTakeFromHathorTwo && isKoiahkMonth) {
-        console.log("ADAD");
         filePath = updateFilePath(
           `Sundays${currentSeason.copticMonth}Week${
             currentSeason.weekOfMonth + 1

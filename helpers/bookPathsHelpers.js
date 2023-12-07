@@ -1341,6 +1341,7 @@ const bookPaths = {
   LiturgyLiturgyOfTheWordActsResponsesActsResponseLentWeekends: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/ActsResponseLentWeekends.json"),
   LiturgyLiturgyOfTheWordEkesmarot: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Ekesmarot.json"),
   LiturgyLiturgyOfTheWordActsResponsesActsResponseNativity: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/ActsResponseNativity.json"),
+  LiturgyLiturgyOfTheWordActsResponsesActsResponseNativityParamoun: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/ActsResponseNativityParamoun.json"),
   LiturgyLiturgyOfTheWordActsResponsesActsResponsePalmSunday: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/ActsResponsePalmSunday.json"),
   LiturgyLiturgyOfTheWordActsResponsesActsResponsePentecost: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/ActsResponsePentecost.json"),
   LiturgyLiturgyOfTheWordActsResponsesActsResponseResurrection: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/ActsResponseResurrection.json"),
@@ -1578,6 +1579,7 @@ const bookPaths = {
   LiturgyLiturgyOfTheBelieversStGregoryYouOMyMaster: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/StGregory/YouOMyMaster.json"),
   //Communion
   LiturgyDistributionPsalm150Responses: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/Psalm150Responses.json"),
+  JeEfesmarot: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/JeEfesmarot.json"),
   LiturgyDistributionApostlesFastAsomen: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/Asomen.json"),
   LiturgyDistributionKiahkEfempeshaGhar: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/EfempeshaGhar.json"),
   LiturgyDistributionResurrectionKataNiKhoros: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/KataNiKhoros.json"),
