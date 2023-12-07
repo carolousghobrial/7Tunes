@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     borderRadius: 30,
     backgroundColor: "#AA4A44",
     borderWidth: 5,
-    margin: 10,
+    marginHorizontal: 20,
   },
 
   english: {
@@ -66,6 +66,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     alignItems: "center",
+    textDecorationLine: "underline",
     justifyContent: "center",
   },
   arabic: {
@@ -76,6 +77,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     alignItems: "center",
+    textDecorationLine: "underline",
     justifyContent: "center",
   },
 });
