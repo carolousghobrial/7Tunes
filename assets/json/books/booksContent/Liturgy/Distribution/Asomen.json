@@ -1,0 +1,217 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "فلنسبح الرب",
+  "EnglishTitle": "Let us Praise the Lord",
+  "CopticTitle": "`Acwmen tw Kuriw",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فلنسبح الرب، لأنه بالمجد تمجد.",
+      "Coptic": " `Acwmen tw Kuriw> endo[wc gar de do[acqe.",
+      "English": " Let us praise the Lord, for with glory, He was glorified.",
+      "Arabiccoptic": " أسومين طو كيريو : إن ذوكسوس غار كى ذوكساستى:",
+      "Englishcoptic": "-Asoomen too Keerioo: enzoxoos ghar ze zoxaste."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صعد إلى أعلى السموات، وأرسل لنا البارقليط، روح الحق المعزي. آمين هلليلويا.",
+      "Coptic": "`Anelqwn ic ouranoc> a[iton Paraklhton> to `Pneuma thc `alhqiac. `Amhn Allhlouia.",
+      "English": "He ascended into the heavens, and sent us the Paraclete, the Spirit of Truth. Amen Alleluia.",
+      "Arabiccoptic": " أنيلثون إس أورانوس : أكسيتون باراكليتون طو إبنيـفـما تيس اليثياس: أمين اليلويا . ",
+      "Englishcoptic": "-Anelthoon is ooranos: axiton Parakleeton: to ePnevma tees -aleethias. Ameen Alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنسبح الرب، لأنه بالمجد تمجد.",
+      "Coptic": " Maren\\wc `e`Psoic> je =en ou`wou gar ausi`wou.",
+      "English": " Let us praise the Lord, for with glory, He was glorified.",
+      "Arabiccoptic": "+ مارين هوس إى إبتشويس :ﭽـى خين أوأوأو غار أفتشى أوأوو : ",
+      "Englishcoptic": "maren-hoos eEpchois: je khen- oo-o-oo ghar avchi-o-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صعد إلى أعلى السموات، وأرسل لنا البارقليط، روح الحق المعزي. آمين هلليلويا.",
+      "Coptic": "Af]enaf `e`p]wi `enivhou`i> afouwrp nan `mPiparaklhton> Pi`pneuma `nte ;meqmhi. `Amhn Allhlouia.",
+      "English": "He ascended into the heavens, and sent us the Paraclete, the Spirit of Truth. Amen Alleluia.",
+      "Arabiccoptic": "أفشيناف إى إبشوى إينيفيؤى: أف أوأورب نان إمبى باراكليتون: بى إبنيـفما إنتى تى ميثمى: أمين اليلويا . ",
+      "Englishcoptic": "Afshen-af eepshooi en-iveeoo-ee: afo-oorp nan emPiparakleeton: Piepnevma en-te ti-methmeei. Ameen- Alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " جعل الإثنين واحداً، أي السماء والأرض.",
+      "Coptic": " Touc du`o `kticac ic `ena> ton ouranon ke thn ghn.",
+      "English": " He made the two become one, that is, the heaven and the earth. ",
+      "Arabiccoptic": "+ طوس ذى أو إكتيساس إس إينا : طون أورانون كى تين جين : ",
+      "Englishcoptic": "Toos zee-o ekti-sas is en-a: ton ooranon ke teen- geen-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صعد إلى أعلى السموات، وأرسل لنا البارقليط، روح الحق المعزي. آمين هلليلويا.",
+      "Coptic": "`Anelqwn ic ouranoc> a[iton Paraklhton> to `Pneuma thc `alhqiac. `Amhn Allhlouia.",
+      "English": "He ascended into the heavens, and sent us the Paraclete, the Spirit of Truth. Amen Alleluia.",
+      "Arabiccoptic": "أنيلثون إس أورانوس : أكسيتون باراكليتون طو إبنيـفـما تيس اليثياس: أمين اليلويا . ",
+      "Englishcoptic": "-Anelthoon is ooranos: axiton Parakleeton: to ePnevma tees -aleethias. Ameen Alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " جعل الإثنين واحداً، أي السماء والأرض.",
+      "Coptic": " Pentafer pi`cnau `nouai> `ete vai pe `tve nem `pka\\i.",
+      "English": " He made the two become one, that is, the heaven and the earth. ",
+      "Arabiccoptic": "+ بين طاف إر بى إسناف إن أواى: إيتى فاى بى إتفى نيم إبكاهى : ",
+      "Englishcoptic": "Pen-tafer pi-esnav en-ooai: ete vai pe etve nem epkahi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صعد إلى أعلى السموات، وأرسل لنا البارقليط، روح الحق المعزي. آمين هلليلويا.",
+      "Coptic": "Af]enaf `e`p]wi `enivhou`i> afouwrp nan `mPiparaklhton> Pi`pneuma `nte ;meqmhi. `Amhn Allhlouia.",
+      "English": "He ascended into the heavens, and sent us the Paraclete, the Spirit of Truth. Amen Alleluia.",
+      "Arabiccoptic": "أفشيناف إى إبشوى إينيفيؤى: أف أوأورب نان إمبى باراكليتون: بى إبنيـفما إنتى تى ميثمى: أمين اليلويا . ",
+      "Englishcoptic": "Afshen-af eepshooi en-iveeoo-ee: afo-oorp nan emPiparakleeton: Piepnevma en-te ti-methmeei. Ameen- Alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " تعالوا يا جميع الشعوب، لنسجد ليسوع المسيح. ",
+      "Coptic": " Deute pantec `ila`i> `prockunh cwmen Ihcou `Xrictw.",
+      "English": "O Come all you peoples, let us worship Jesus Christ.",
+      "Arabiccoptic": "+ ذيفتى بانطيس إيلائى : إبروس كينيسومين إيسو خريسطو :",
+      "Englishcoptic": "Devte pantes eela-ee: eproskeen-ee soomen- Ieesoo eKhristoo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صعد إلى أعلى السموات، وأرسل لنا البارقليط، روح الحق المعزي. آمين هلليلويا.",
+      "Coptic": "`Anelqwn ic ouranoc> a[iton Paraklhton> to `Pneuma thc `alhqiac. `Amhn Allhlouia.",
+      "English": "He ascended into the heavens, and sent us the Paraclete, the Spirit of Truth. Amen Alleluia.",
+      "Arabiccoptic": " أنيلثون إس أورانوس : أكسيتون باراكليتون طو إبنيـفـما تيس اليثياس: أمين اليلويا . ",
+      "Englishcoptic": "-Anelthoon is ooranos: axiton Parakleeton: to ePnevma tees -aleethias. Ameen Alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " تعالوا يا جميع الشعوب، لنسجد ليسوع المسيح. ",
+      "Coptic": " `Amwini nilaoc throu> `ntenouw]t `nIhcouc Pi`xrictoc.",
+      "English": "O Come all you peoples, let us worship Jesus Christ.",
+      "Arabiccoptic": "+ أموينى نى لاؤس تيرو : إنتين أوأوشت إن إيسوس بخرستوس :",
+      "Englishcoptic": "-Amooini nilaos tero: en-ten-o-oosht en-Isos Pikhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صعد إلى أعلى السموات، وأرسل لنا البارقليط، روح الحق المعزي. آمين هلليلويا.",
+      "Coptic": "Af]enaf `e`p]wi `enivhou`i> afouwrp nan `mPiparaklhton> Pi`pneuma `nte ;meqmhi. `Amhn Allhlouia.",
+      "English": "He ascended into the heavens, and sent us the Paraclete, the Spirit of Truth. Amen Alleluia.",
+      "Arabiccoptic": " أفشيناف إى إبشوى إينيفيؤى: أف أوأورب نان إمبى باراكليتون: بى إبنيـفما إنتى تى ميثمى: أمين اليلويا . ",
+      "Englishcoptic": "Afshen-af eepshooi en-iveeoo-ee: afo-oorp nan emPiparakleeton: Piepnevma en-te ti-methmeei. Ameen- Alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " هذا هو الله مخلصنا، ورب كل جسد.",
+      "Coptic": " Outoc ectin `o qeoc `o Cwthr `hmwn> ke Kurioc pacic carkoc.",
+      "English": " This is God our Savior, and the Lord of all flesh. ",
+      "Arabiccoptic": "+ أوطوس إستين أوثيؤس أوسوتير إيمون: كى كيريوس باسيس ساركوس :",
+      "Englishcoptic": "Oootos esti-n -o theos -o Sooteer eemoon: ke Keerios pasis sarkos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " صعد إلى أعلى السموات، وأرسل لنا البارقليط، روح الحق المعزي. آمين هلليلويا.",
+      "Coptic": "`Anelqwn ic ouranoc> a[iton Paraklhton> to `Pneuma thc `alhqiac. `Amhn Allhlouia.",
+      "English": "He ascended into the heavens, and sent us the Paraclete, the Spirit of Truth. Amen Alleluia.",
+      "Arabiccoptic": " أنيلثون إس أورانوس: أكسيتون باراكليتون طو إبنيـفـما تيس اليثياس: أمين اليلويا . ",
+      "Englishcoptic": "-Anelthoon is ooranos: axiton Parakleeton: to ePnevma tees -aleethias. Ameen Alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " هذا هو الله مخلصنا، ورب كل جسد.",
+      "Coptic": " Vai pe `Vnou; Pencwthr> ouo\\ `Psoic `ncar[ niben.",
+      "English": " This is God our Savior, and the Lord of all flesh. ",
+      "Arabiccoptic": "+ فاى بى إفنوتى بين سوتير : أووه إبتشويس إن ساركس نيـفين :",
+      "Englishcoptic": "Vai pe Evnoti Pen-sooteer: owoh Epchois en-sarx ni-ven-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " صعد إلى أعلى السموات، وأرسل لنا البارقليط، روح الحق المعزي. آمين هلليلويا.",
+      "Coptic": "Af]enaf `e`p]wi `enivhou`i> afouwrp nan `mPiparaklhton> Pi`pneuma `nte ;meqmhi. `Amhn Allhlouia.",
+      "English": "He ascended into the heavens, and sent us the Paraclete, the Spirit of Truth. Amen Alleluia.",
+      "Arabiccoptic": " أفشيناف إى إبشوى إينيفيؤى : أف أوأورب نان إمبى باراكليتون : بى إبنيـفما إنتى تى ميثمى : أمين اليلويا . ",
+      "Englishcoptic": "Afshen-af eepshooi en-iveeoo-ee: afo-oorp nan emPiparakleeton: Piepnevma en-te ti-methmeei. Ameen- Alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ثالوث في واحد وواحد في ثالوث، الآب والإبن والروح القدس، روح الحق المعزي. آمين هلليلويا.",
+      "Coptic": " `Triacen monadi> ke monacen `triadi> `o Pathr ke `o Uioc> ke to `Agion `Pneuma> to `Pneuma thc `alhqiac> `amhn Allhlouia.",
+      "English": " Three in one and one in three, the Father, the Son, and the Holy Spirit, the Spirit of Truth. Amen alleluia.",
+      "Arabiccoptic": "+ إترياس إن موناذى : كى موناس إن اتى أذى: أوباتير كى أو إيوس كى طو أجيون إبنيـفما : طو إبنيـفما تيس اليثياس : أمين اليلويا . ",
+      "Englishcoptic": "eTriasen monazi: ke monasen etriazi: -o Pateer ke -o Eeios: ke to -Agion ePnevma: to ePnevma tees -aleethias: -ameen Alleelooia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ثالوث في واحد وواحد في ثالوث، الآب والإبن والروح القدس، روح الحق المعزي. آمين هلليلويا.",
+      "Coptic": " Ou`triac ecjhk `ebol> ecoi `n]omt ecoi `nouai> `ete vai pe `Viwt nem `P]hri> nem Pi`pneuma eqouab> Pi`pneuma `nte ;meqmhi> `amhn Allhlouia.",
+      "English": " Three in one and one in three, the Father, the Son, and the Holy Spirit, the Spirit of Truth. Amen alleluia.",
+      "Arabiccoptic": "+أو إترياس إسـﭽيك إيـفول : إسؤى إن شومت إسؤى إن أواى : إيتى فاى بى إفيوت نيم إبشيرى نيم بى إبنيـفما إثؤاب: بى إبنيـفما إنتى تى ميثمى : أمين اليلويا . ",
+      "Englishcoptic": "Oooetrias esgeek evol: esoi en-shomt esoi en-ooai: ete vai pe Eviot nem ePsheeri: nem Piepnevma ethowab: Piepnevma en-te ti-methmeei: -ameen- Alleelooia."
+    }
+  ]
+}

@@ -25,6 +25,12 @@
       "English": "The powerful God, who reigns, and the angel of, the great message.",
       "Arabiccoptic": " افنوتى فى ايت جور : إن اكسوسياس تيس : اووه بى انجيلوس انتيه بى نيشتى : إن سوتشنى . ",
       "Englishcoptic": "Vti vee-etgor: en-exoosiastees: owoh pi-angelos en-te pi-ni-shti en-sochni-."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }

@@ -25,6 +25,12 @@
       "English": "Behold the young children, praise Emmanuel saying, “Hosanna in the highest, this is the King of Israel.”",
       "Arabiccoptic": "اس نيكوجي ان آلوأووي : افهوس جي اممانوئيل : أوساننا خين ني اتتشوسي : فاي بي اب أوورو امبي اسرائيل",
       "Englishcoptic": "Is ni-kooji en-alo-oo-ee: evhoos je Emmanooeel: -oosanna khen- nee-etchosi: vai pe ePooro emPisraeel."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }

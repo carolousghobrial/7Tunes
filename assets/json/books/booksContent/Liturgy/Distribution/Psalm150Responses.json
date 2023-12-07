@@ -1,0 +1,115 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد المزمور",
+    "EnglishTitle": "Psalm Response",
+    "Hymn": [
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesNayrooz",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesCross",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesKiahk",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesNativity",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesCircumcision",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesTheophany",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesWeddingCana",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesPresentationTemple",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesJonahsFast",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesGreatLent",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesAnnunciation",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesPalmSunday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesResurrection",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesEntryEgypt",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesAscension",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesPentecost",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesTransfiguration",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionResponsesTwentyNinth",
+            "Rule": 0,
+            "Visible": "isSeason"
+        }
+    ]
+}

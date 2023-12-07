@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 44 : 13 )",
+  "EnglishTitle": "Psalms 45:10-11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إسمعي يـا ابنتي وانظـري وأميلـي سـمعك، وانسـي شـعبك وبيـت أبيـك، ",
+      "English": "10 Listen, O daughter, Consider and incline your ear; Forget your own people also, and your father's house; \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فإن الملك قد اشتهى حسنك، لأنه هو ربك..",
+      "English": "11 So the King will greatly desire your beauty; Because He is your Lord."
+    }
+  ]
+}

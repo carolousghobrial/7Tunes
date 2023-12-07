@@ -25,6 +25,12 @@
       "English": "Christ our God, has risen from the dead, and ascended into the heavens, He is seated at the right hand of His Father.",
       "Arabiccoptic": " آ بي خريستوس بين نوتي: طونف إيفول خين ني إثموأووت: أووه آفشيناف إيه إبشوي إيه ني في أووي: آفهيمسي صا أووي نام إمبيف يوت . ",
       "Englishcoptic": "-A Pikhristos Pen-nooti-: toonf evol khen- nee-ethmo-oot: owoh afshen-af eepshooi en-iveeoo-ee: afhemsi saoo-een-am emPefioot."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }

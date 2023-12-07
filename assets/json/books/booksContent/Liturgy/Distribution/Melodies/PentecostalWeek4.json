@@ -1,0 +1,231 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنا أفتح فمي واتكلم\r\nوانشيء مديحا بانسجام\r\nفي من أتانا وتألم\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "I will open my mouth and declare \n With hymns and praise I will compose \n About Him who came and suffered for us \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبدا ذلك في علمه\r\nقبل بداية الأيام\r\nفدبر الفداء بابنه\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nThe Father knew of what would come \n That is the reason why He chose \n To plan redemption through His only Son \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nتأهلت عن وصفه الحكماء  \r\nوكذا جميع أولي الأفهام\r\nحين راوا مريم له شبه سماء\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nThe prophets prophesied His coming \n And they wrote down upon their scrolls \n They saw the Virgin Mary, His new heaven \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nجاءنا الإله رب الصباؤوت\r\nمتجسدًا وبيننا اقام\r\nوعن الشيطان اخفي اللاهوت\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nHe came and dwelt among us \n We had in our midst the Lord of Hosts \n But He hid His divinity from Satan \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nحقا أتي إلى الصلبوت\r\nلخلاص الذين في الظلام\r\nالكلمة الأزلي ذاق الموت\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nBy His free will He came to the cross \n And of our punishment, He did dispose \n To give light to those who are in darkness \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nخلصنا الرب القدوس\r\nبالمزايا والعطايا والأنعام\r\nوبموته أحيا النفوس \r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nBecause of His unlimited love \n Freedom and life to us He bestows \n And the gift of living daily with Him \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nداس سلطان الموت\r\nوظفر بالعدو الظفر التمام\r\nهو الحي الذي لا يموت\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nHe destroyed the power of death \n And He defeated all His foes \n He is the living immortal God \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nذل الشيطان الرجيم وأفل\r\nموليا الأدبار بانفحام\r\nويهوذا لنفسه قد قتل\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nBy His Death, He humiliated Satan \n By His Resurrection, He defeated His foes \n And by His love, He saved us all \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nرفع المسيح على الصليب\r\nخشبة العار في تلك الأيام\r\nوحمل ما نستحق من التأديب\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nJesus was raised up on a cross \n The tree of shame and of great woes \n He bore our deserved chastisement \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nذان الصليب بربوبيته\r\nوحول اللعنة إلى السلام\r\nوجعل القوة في علامته\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nHis lordship adorned the cross \n The curse, to peace, He did transpose \n And made it the sign of power \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nسيدنا رب القوات\r\nدفن في القبر ثلاثة أيام\r\nوقام في الثالث من الأموات\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nAnd so they buried Him inside the tomb \n The Lamb of God, the Lord of Sabaoth \n But He rose up after three days \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nشمل بالعفو آدم وبنيه\r\nورفعهم عنهم صارم الأحكام\r\nوعذابا دائمًا كانوا فيه\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nHis forgiveness was offered to all \n To our father Adam and to all those \n Who were tormented with him in Hades \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nصعد للسماء ابنه الإله\r\nبجسد أخذ من ماريام  \r\nوجلس عن يمين الآب في علاه\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nAnd He ascended to the heavens \n With an eternal Body that glows \n He sits at the right hand of the Father \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nضرب الأعداء وبددهم\r\nوكسر شوكة الموت الزؤام\r\nوالمأسورين في الجب أطلقهم\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nBy His death He broke the thorn of death \n And He conquered all of His foes \n And He freed the saints from their prison \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nطرح التنين في بحيرة النار\r\nفي آلام باضطرام والتهام\r\nمعدة له ولجنده الأشرار\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nHe threw the dragon into the lake \n Of brimstone and fire, pain and woes \n That was prepared for him and his demons \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nظن الشرير أنه تحكم\r\nوبمكره استبعد الأنام\r\nفخلصهم الله بتدبير محكم\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nSatan once thought that he ruled \n All humanity, he exiled and deposed \n God redeemed them with His wisdom \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nعظيم جدا ومكرم\r\nفعل الله إله ابرآم\r\nحيث فدانا بابنه الأكرم\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nHow full of wisdom is the Father \n The perfect plan He did compose \n His only Son redeemed us \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nغرتنا ثمرة العصيان\r\nفأثرناها على كل طعام\r\nوإليها بجرأة امتدت اليدان\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nWe were deceived by the serpent \n To eat the forbidden fruit is what we chose \n In defiance, our hands reached for it \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nفيها كان السم الزاعف\r\nأودي بالأرواح والأجسام\r\nفادركنا الله بالإلطاف\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nThat fruit was full of deadly poison \n Its potency, we did misdiagnose \n But God revived us with His mercy \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nقدوس رحمته إلى الأبد\r\nله التمجيد على طول الدوام\r\nليس لقدرته العلوية حد\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nHalleluiah to the merciful God! \n We praise Him with gratitude because \n His tender mercy endures forever \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nكمل وتم كل المكتوب\r\nفي الأنبياء من غابر الأيام\r\nعن ابن الله الفادي المحبوب\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nHe fulfilled all the prophecies \n What the forefathers had composed \n The beloved Son is the Redeemer \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nله أشارت جميع النبوات\r\nمن مولد وتألم ودفن وقيام\r\nوصعود إلى أعلي السموات\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nOf His birth and sufferings \n Death and burial, the prophecies told \n And His Resurrection and Ascension \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nمن سمائه رب الكون\r\nارسل روحه القدوس بسلام\r\nعلى تلاميذه في عليه صهيون\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nJesus ascended after forty days \n The Holy Spirit, the Father bestowed \n Upon His apostles in the upper room \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nنوره العظيم اشرق عليهم\r\nومنحهم المعرفة بقسط تام\r\nفسطع عليهم وابرق\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nAll of the witnesses saw the Paraclete \n Descend over them as His light glowed \n Like tongues of fire over their heads \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nهذا هو صنع الإله\r\nالمتفضل علينا بالأنعام\r\nنحمده على خلاص لنا اولاه\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nBehold how kind our Father is \n His love surpasses what the mind knows \n And in three days' fasting it stayed \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nلأنه إله رؤوف رحيم\r\nغافر الخطايا الجسام\r\nمورث شعبه فردوس النعيم\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nHe comforts every weary soul \n And He surely consoles all of those \n Who call on Him with a true heart \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nيا من قد أتي وهو أت\r\nليدين المخلوقات بأحكام\r\nالأحياء منهم والأموات\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nChrist came and will return again \n He will sit on the throne as the trumpet blows \n To judge the living and the dead \n Christ was crucified, buried then arose\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nوأحفظ شعبك وبلغه مناه\r\nحياة مرضية وحسن ختام\r\nواسكنه مكانًا عاليًا في أخراه\r\nالمسيح صلب وقبر ثم قام\r\n",
+      "English": "\nPlease, O Lord, grant all of us \n To please You daily before we repose \n To forever dwell with the Holy One \n Christ was crucified, buried then arose\n"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 143 : 5 ، 7 )",
+  "EnglishTitle": "Psalms 144:5, 7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب طأطئ السموات وانزل. المس الجبال فتدخن.",
+      "English": "5 Bow down Your heavens, O Lord, and come down; Touch the mountains, and they shall smoke.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أرسل يدك من العلاء. أنقذني ونجني..",
+      "English": "7 Stretch out Your hand from above; Rescue me and deliver me."
+    }
+  ]
+}

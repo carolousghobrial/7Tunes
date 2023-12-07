@@ -27,6 +27,12 @@
             "Englishcoptic": "Esmo Efnouti khen ni-ethowab tiro entaf, Alleluia."
         },
         {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Base",
             "Rule": 0,
             "Visible": true,
@@ -36,6 +42,12 @@
             "English": "Praise Him, in the firmament of His power. Alleluia.",
             "Arabiccoptic": "إسمو إيروف خين بى طاجرو إنتى تيف جوم الليلويا.",
             "Englishcoptic": "Esmo erof khen pi-tagro ente tef-gom, Alleluia."
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Base",
@@ -49,6 +61,12 @@
             "Englishcoptic": "Esmo erof e-ehri hijen tefmet-gowri, Alleluia."
         },
         {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Base",
             "Rule": 0,
             "Visible": true,
@@ -58,6 +76,12 @@
             "English": "Praise Him, according to the multitudes of His greatness. Alleluia.",
             "Arabiccoptic": "إسمو إيروف كاطا إب أشاى إنتى تيف ميت نيشتى الليلويا",
             "Englishcoptic": "Esmo erof kata ep-ashai ente tef-met-nishti, Alleluia."
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Base",
@@ -71,6 +95,12 @@
             "Englishcoptic": "Esmo erof khen ou-esmi ensalpen-ghos, Alleluia."
         },
         {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Base",
             "Rule": 0,
             "Visible": true,
@@ -80,6 +110,12 @@
             "English": "Praise Him, with psaltery and harp. Alleluia.",
             "Arabiccoptic": "إسمو إيروف خين أو إبسالتيريون نيم أوكيثارا الليلويا",
             "Englishcoptic": "Esmo erof khen ou-epsal-terion nem ou-kithara, Alleluia."
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Base",
@@ -93,6 +129,12 @@
             "Englishcoptic": "Esmo erof khen han-kem-kem nem han-khoros, Alleluia."
         },
         {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Base",
             "Rule": 0,
             "Visible": true,
@@ -102,6 +144,12 @@
             "English": "Praise Him, with strings and organs. Alleluia.",
             "Arabiccoptic": "إسمو إيروف خين هان كاب نيم أو أورغانون الليلويا",
             "Englishcoptic": "Esmo erof khen han-kap nem ou-orghanon, Alleluia."
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Base",
@@ -115,6 +163,12 @@
             "Englishcoptic": "Esmo erof khen han-kim-valon ene-setou-esmi, Alleluia."
         },
         {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Base",
             "Rule": 0,
             "Visible": true,
@@ -124,6 +178,12 @@
             "English": "Praise Him, upon the cymbals of joy, Alleluia.",
             "Arabiccoptic": "إسمو إيروف خين هان كيمفالون إنتى أوإى إشليلوى الليلويا",
             "Englishcoptic": "Esmo erof khen han-valon ente ou-eshlilowi, Alleluia."
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Base",
@@ -137,6 +197,12 @@
             "Englishcoptic": "Nifi niven maro-esmo tiro Ee-efran Emipshois Pennouti, Alleluia."
         },
         {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Base",
             "Rule": 0,
             "Visible": true,
@@ -146,6 +212,12 @@
             "English": "Glory to the Father, and the Son, and the Holy Spirit. Alleluia.",
             "Arabiccoptic": "ذوكصابترى كى إيو كى أجيو إبنفماتى الليلويا",
             "Englishcoptic": "Zoxa Patree ke Eio ke Agio Epnevmati, Alleluia."
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Base",
@@ -159,6 +231,12 @@
             "Englishcoptic": "Ke neen ke a-ee ke estos e-onas ton e-onon amen. Alleluia."
         },
         {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Base",
             "Rule": 0,
             "Visible": true,
@@ -170,6 +248,12 @@
             "Englishcoptic": "Alleluia, Alleluia, Zoxa si o Theos emon, Alleluia."
         },
         {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Base",
             "Rule": 0,
             "Visible": true,
@@ -179,6 +263,17 @@
             "English": "Alleluia. Alleluia. Glory be to our God. Alleluia.",
             "Arabiccoptic": "الليلويا الليلويا بى أو أو فا بين نوتى بى الليلويا",
             "Englishcoptic": "Alleluia, Alleluia, pi-ow-ou fa pennouti pe, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " يسوع المسيح ابن الله،إسمعنا وإرحمنا.",
+            "Coptic": " Ih/c/ Px/c/ ` P]hri `mV; > swtem `eron ouo\\ nai nan.",
+            "English": " Jesus Christ the Son of God, hear us and have mercy upon us.",
+            "Arabiccoptic": " إيسوس بخريستوس إبشيرى إمفنو تى،سوتبم أيرون اووه ناي نان.",
+            "Englishcoptic": " Isos Pikhrestos Ep-shiri Emif-noti, sotem eron owoh nai nan"
         }
     ]
 }

@@ -9,8 +9,56 @@ import {
   getCurrentSeason,
   isInFast,
   getCopticFastsFeasts,
+  getCopticDateString,
+  getCopticDate,
+  getParamounDate,
 } from "../helpers/copticMonthsHelper.js";
+export function TakeFromHathor(currentSeason) {
+  const copticMonthFound = {
+    name: "Koiahk",
+    index: 3,
+    month: 12,
+    day: 10,
+    leap: true,
+  };
 
+  const copticDate = getCopticDate(
+    currentSeason.gregorianYear,
+    copticMonthFound.month - 1,
+    copticMonthFound.day
+  );
+
+  let firstDay = moment([
+    currentSeason.gregorianYear,
+    copticMonthFound.month - 1,
+    copticMonthFound.day +
+      (copticDate.month === "Hathor" && copticDate.day === 30 ? 1 : 0),
+  ]);
+  // Calculate the number of days in the month
+  const lastDay = moment(
+    getParamounDate(moment([currentSeason.gregorianYear, 0, 7]))
+  );
+  let numSundays = 0;
+
+  for (
+    let currentDay = firstDay.clone();
+    currentDay.isBefore(lastDay);
+    currentDay.add(1, "day")
+  ) {
+    if (currentDay.day() === 0) {
+      numSundays++;
+    }
+  }
+  const lastSundayOfHathoor = firstDay.subtract(firstDay.day(), "days");
+  if (
+    numSundays < 4 &&
+    lastSundayOfHathoor.isSame(moment(currentSeason.fullgregorianDate))
+  ) {
+    return true;
+  } else {
+    return false;
+  }
+}
 export const ComeRisenRule = () => {
   const fastsFeasts = getCopticFastsFeasts(moment().year());
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -77,8 +125,11 @@ export const ComeRisenRule = () => {
         englishcoptic: "aktonk",
         arabiccoptic: "اكتونك",
       };
-    default:
-      if (date.isBetween(PENTECOST.start, Kiahk.start)) {
+    case "NATIVITY_FAST":
+      if (
+        !currentSeason.copticMonth === "Koiahk" ||
+        !TakeFromHathor(currentSeason)
+      ) {
         if (today === 0) {
           return {
             english: "have risen",
@@ -89,6 +140,25 @@ export const ComeRisenRule = () => {
           };
         }
       }
+      return {
+        english: "have come",
+        coptic: "ak`i",
+        arabic: "اتيت",
+        englishcoptic: "ak-ee",
+        arabiccoptic: "اك إي",
+      };
+
+    default:
+      if (today === 0) {
+        return {
+          english: "have risen",
+          coptic: "aktwnk",
+          arabic: "قمت",
+          englishcoptic: "aktonk",
+          arabiccoptic: "اكتونك",
+        };
+      }
+
       return {
         english: "have come",
         coptic: "ak`i",

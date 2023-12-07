@@ -4,49 +4,49 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsStandardBasil",
             "Rule": 0,
-            "Visible": "isStandardSeason"
+            "Visible": "isStandardFraction"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsStandardGregorian",
             "Rule": 0,
-            "Visible": "isStandardSeason"
+            "Visible": "isStandardFraction"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsStandardCyril",
             "Rule": 0,
-            "Visible": "isStandardSeason"
+            "Visible": "isStandardFraction"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsShortFraction",
             "Rule": 0,
-            "Visible": "isStandardSeason"
+            "Visible": "isStandardFraction"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsStandardGodBegotterOfLight",
             "Rule": 0,
-            "Visible": "isStandardSeason"
+            "Visible": "isStandardFraction"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsStandardYouAreTheLoghos",
             "Rule": 0,
-            "Visible": "isStandardSeason"
+            "Visible": "isStandardFraction"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsStandardOLambOfGod",
             "Rule": 0,
-            "Visible": "isStandardSeason"
+            "Visible": "isStandardFraction"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsStandardOOnlyBegottenSon",
             "Rule": 0,
-            "Visible": "isStandardSeason"
+            "Visible": "isStandardFraction"
         },
         {
             "Type": "Main",
@@ -100,7 +100,7 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsNativity",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "NativityFeastAndFast"
         },
         {
             "Type": "Main",
@@ -124,7 +124,7 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsStMaryHeavenlies",
             "Rule": 0,
-            "Visible": "isStandardSeasonWithStMary"
+            "Visible": "isStandardFraction"
         },
         {
             "Type": "Main",

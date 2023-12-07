@@ -25,6 +25,12 @@
       "English": "The Light has shone forth from Mary; Elizabeth has borne the forerunner.",
       "Arabiccoptic": "آبي أوأويني شاي إيفول خين ماريا آ إليصافيت ميسي إمبي إبروذروموس",
       "Englishcoptic": "-Api-Oo-ooini shai evol khen Maria: elisavet misi empi-eprozromos."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }

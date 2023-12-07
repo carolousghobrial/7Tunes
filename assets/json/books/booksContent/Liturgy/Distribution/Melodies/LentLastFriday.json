@@ -1,0 +1,407 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الصوم الصوم يا شعب يسوع\r\nصوموا صوما طاهرا بشخوع\r\nليس الصوم معناه الجوع\r\nالصوم هو التوبة عن الزلات\r\n",
+      "English": "This great fast, O Christian people \n Fast it with purity and meekness \n Fasting never meant starvation \n Fasting is humility and repentance\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالصوم هو الطاعة لله\r\nالصوم هو فعل وصاياه\r\nالمأمور بها في التوراة\r\nالمسطرة في الألواح المحفوظات\r\n",
+      "English": "\nFasting is obedience to God \n Fasting is following the commandments \n Which are in the Torah commanded \n Written on two holy tablets\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالأولى حب الرب إلهك\r\nمن كل قلبك وأفكارك\r\nوالمحبة لجميع أهل إيمانك\r\nوساوي الكل في الدرجات\r\n",
+      "English": "\nThe first is love the Lord your God \n From all your heart and thought \n And love your neighbor as yourself \n As, in the Bible, we have been taught \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالثانية لا تتخذ لك تمثال\r\nولا تعبد غير الرب المتعال\r\nلأنه إله غيور ذو الجلال\r\nيأتي بزجزه على أهل الزلات\r\n",
+      "English": "\nThe second is do not make idols \n And never worship other gods \n The Lord destroys the idolaters \n Because He is a jealous God\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالثالثة لا تحلق باسم الإله كاذب\r\nلئلا يذمك الحاضر والغائب\r\nولأن القسم ليس بواجب\r\nفلنترك يا أحبائي هذه العادات\r\n",
+      "English": "\nThe third is never use God's name in vain \n Lest you be greatly condemned \n Swearing is not proper \n Let us avoid such habits\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالرابعة اذكر اليوم المحدود\r\nلا تصنع فيه العمل المعهود\r\nلأنه أعد للراحة في هذا الوجود\r\nمع التراتيل والقداسات\r\n",
+      "English": "\nThe fourth is remember the Lord's Day \n Consecrate time to learn His way \n For He rested on that day \n With praises observe it and pray \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالخامسة أكرم اباك وأمك\r\nلأنهما تحملا همك\r\nليكثر خيرك ويطيل أيامك\r\nوبدعائهما تنال البركات\r\n",
+      "English": "\nThe fifth is obey your father and mother \n For they cared for you \n That God may prosper your life \n Through their prayers for you\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالسادسة لا تقتل أي أحد\r\nتقرب منك أو ابتعد\r\nولو مع أهل الضلالة اتحد\r\nلأن القتل من أعظم الموبقات\r\n",
+      "English": "\nThe sixth is you shall not kill \n Any person, loved or reviled \n Love even all of your enemies \n Killing is a great sin that is despised\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالسابعة لا تزن أيها الإنسان\r\nلا بالجسم ولا بالجنان\r\nواخشى غضب الديان\r\nلأن الزنى يغلق باب الرحمات\r\n",
+      "English": "\nThe seventh is never commit adultery \n Do not torture the body \n Avoid the anger of God \n So that He may show you mercy Refrain \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالثامنة لا تسرق مال الإنسان\r\nواقنع بما قسمه المنان\r\nلتكون من أهل الإيمان\r\nويخصك بوافر الحسنات\r\n",
+      "English": "\nThe eighth is never steal anything \n Be content with God's blessings \n So you will be counted righteous \n And do not delay your offerings\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالتاسعة لا تشهد بالزور\r\nلأن الكذب قبيح وكله شرور\r\nفاصدق وكن على الحق غيور\r\nولا تخشى أرباب السلطات\r\n",
+      "English": "\nThe ninth is never bear false witness \n Because lying is evil and shameful \n Always speak the whole truth \n And do not be afraid of anyone\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالعاشرة لا تشته مقتنى إنسان\r\nلأن ما في الدنيا معرض للخسران\r\nوالمرتجى من ربه الغفران\r\nلا يطمع في حطام المخلوقات\r\n",
+      "English": "\nThe tenth is never envy your neighbors \n Do not covet anything at all \n He who asks of God forgiveness \n Is not greedy to obtain the perishable \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبهذه الوصايا والناموس\r\nيطالبنا الرب القدوس\r\nالرازق محيي كل النفوس\r\nلنرث ملكوت السموات\r\n",
+      "English": "\nAll these commandments are His law \n He asks us to live by them \n He who grants all of His people \n To inherit the kingdom of heaven\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nنوح بالصوم والصلاة والإحسان\r\nنجاه الله من الطوفان\r\nبعمل السفينة في ذاك الزمان\r\nالتي جدد بها كل المخلوقات\r\n",
+      "English": "\nGod saved Noah from the flood \n Through his fasting and prayers \n By making the great ark \n With it He renewed the creatures\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبالصوم والصلاة ابونا إبراهيم\r\nقدم اسحق بإيمان عظيم\r\nوقبل قربانه الله الكريم\r\nوجعله أبا القبائل والجماعات\r\n",
+      "English": "\nAbraham offered his only son \n Through fasting and prayers \n The mighty One accepted his offering \n And made him the father of all generations \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبالصوم والصلاة لوط البار\r\nأتى إليه ملائكة اطهار\r\nوخلصوه من لهيب النار\r\nولم ينظر تلك الضربات\r\n",
+      "English": "\nThrough fasting and prayers \n To righteous Lot came two angels \n And took him out of Sodom \n To save him from the burning tribulation\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبالصوم والصلاة يوسف الصديق\r\nخلص من الزانية والتضييق\r\nوصارت له العفة أكبر صديق\r\nواصبح رئيسا على تلك الجهات\r\n",
+      "English": "\nThrough fasting and prayer \n Joseph escaped the sinful mistress' hand \n God strengthened him all his life \n And he became the governor of the land\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبالصوم والصلاة موسى الكليم\r\nاستحق ان ينظر نور الخالق العظيم\r\nواعطاه الله العهد القديم\r\nمكتوبا في ألواح باهرات\r\n",
+      "English": "\nThrough fasting and prayer \n Moses saw God's great light \n God gave him the Commandments \n Written on two stones by fire Refrain \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبالصوم والصلاة دعى صموئيل\r\nالماسح ملوك اسرائيل\r\nقدمه اباؤه بالتهليل\r\nفي بيت الرب إله القوات\r\n",
+      "English": "\nThrough fasting and prayer \n Samuel anointed the kings of Israel \n His parents joyfully devoted him \n To the house of the Lord of hosts\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبالصوم والصلاة ايليا المعتبر\r\nمنع السماء من المطر\r\nلما الضلال عم واشتهر\r\nورفعه رب ه حيا إلى السموات\r\n",
+      "English": "\nThrough fasting and prayer \n Elijah stopped the rain of heaven \n When sin filled the whole earth \n Then God took him alive to heaven\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبالصوم والصلاة الفتية الأبرار\r\nلما القاهم بختنصر في النار\r\nنجوا من غير أن يمسهم أضرار\r\nلأنهم لم يسجدوا للمصنوعات\r\n",
+      "English": "\nThrough fasting and prayer \n The three youth overcame the fire \n They survived without any harm \n For they did not worship the idol\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبالصوم والصلاة والابتهال\r\nخضعت الأسود لدانيال\r\nحيث كان في الجب ينال\r\nوافر الأمن والحسنات\r\n",
+      "English": "\nThrough fasting and prayer \n The lions kneeled to Daniel willingly \n God listened while he was in the den \n And granted him grace and security\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبالصوم والصلاة كل الأوقات\r\nنال الأباء جميع المطلوبات\r\nواطفأوا لهيب نار الشهوات\r\nرجاء في ملكوت السموات\r\n",
+      "English": "\nThrough fasting and prayers at all times \n The holy men gained prosperity \n And put out the flames of sin \n While waiting for the heavenly\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبعد تماما ثلاثين عام\r\nلميلاد يسوع رب الآنام\r\nتعمد من يوحنا وصام\r\nأربعين يوما متواليات\r\n",
+      "English": "\nAfter thirty whole years \n From the birth of the Lord of might \n He was baptized by Saint John \n Then fasted forty days and nights\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nتوهم إبليس وتحير\r\nحين رأى وجهه لم يتغير\r\nفعلم الإله فكره ودبر\r\nفاظهر الجوع وهو غنى عن المطعومات\r\n",
+      "English": "\nSatan was confused by His condition \n Seeing Him in signs of weakness \n God knowing Satan's thoughts appeared hungry \n Though He is the Lord of hosts\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nجاء إبليس ليجرب مولاه\r\nكما فعل بآدم واغواه\r\nقال له إن كنت ابن الله\r\nفقل للحجارة تصير خبزا به تقتات\r\n",
+      "English": "\nSatan came to tempt his King \n As he did with Adam \n And said, \"If You are the Son of God \n Tell these stones to become bread\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nحينئذ أجاب الديان\r\nليس بالخبز يحيا الإنسان\r\nبل بكلام الله المنان\r\nيصير حيا بلا ممات\r\n",
+      "English": "\nJesus our Lord answered, \n \"Not by bread alone man lives \n But by every Word of God \n Shall man live without sins\" \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nخرج يسوع إلى البرية\r\nليصوم ويعلم البشرية\r\nالذين قبلوا المعمودية\r\nفضائل الصوم والصلوات\r\n",
+      "English": "\nJesus went out to the wilderness \n To fast and teach all humans \n That those who accepted baptism \n Can benefit from fasting and prayers\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nداود ذو الفضل المعود\r\nبتقواه صار نبيا لليهود\r\nوملكا قادر ذا جنود\r\nدائم الذكر في كل الأوقات\r\n",
+      "English": "\nDavid the great king \n Became a prophet by his righteousness \n And a great and powerful king \n Remembered throughout generations\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nرسل سيدنا تحملوا الاضطهاد\r\nمن الكفرة عباد المصنوعات\r\nوبالصوم والصلاة اقاموا الأموات\r\nوردوا الأمم إلى صحيح العبادات\r\n",
+      "English": "\nThe prophets bore the tortures \n From the pagans and unbelievers \n Through fasting and prayer they raised the dead \n And directed people to the Redeemer\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nزال عن آدم وحوا\r\nما كانا فيه الجوى\r\nوقد قبلت توبة أهل نينوي\r\nبفضل الصوم وصفاء النيات\r\n",
+      "English": "\nHe forgave Adam and Eve \n And all of their generations \n Through fasting and good deeds \n He accepted the Ninevite nation\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nسيدنا يمدح الصائمين\r\nذوي التقوى واليقين\r\n ويطرد عنهم حيل الشياطين\r\nكما نصت على ذاك الآيات\r\n",
+      "English": "\nOur Lord glorified those who fast \n Whose righteousness is from above \n And cast away their enemies \n With His might and His love\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nشرف الصوم مولانا\r\nوأمرنا به وهدانا\r\nفلنصم ونسامح اعدانا\r\nفيغفر لنا كل الزلات\r\n",
+      "English": "\nOur path to the kingdom is through fasting \n As He commanded us to live \n Let us fast and forgive our enemies \n That our sins He may forgive \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nصوموا وصلوا بخوف ووقار\r\nبكل خضوع مثل العشار\r\nواطلبوا منه الاستغفار\r\nلتحصدوا من الصوم حلو الثمرات\r\n",
+      "English": "\nLet us fast and pray with fear \n Like the tax collector with obedience \n That we may reap all its fruits \n Let us ask Him for forgiveness\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nضيعنا حياتنا في اللذات\r\nفي طعام وشراب وشهوات\r\nوتعاطي مسكر وسماع نغمات\r\nولم نفكر في ساعة الموت مع الحسرات\r\n",
+      "English": "\nWe wasted our lives in the world \n With dancing, gluttony, and drinking \n Indulging in prodigal living \n The day of our departure, forgetting\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nطاعة الله واجبة كقول الرسول\r\nفاطيعوه وقاوموا ابليس المخذول\r\nفيهرب منكم بسرعة ويزول\r\nواقتربوا من الله كل الأوقات\r\n",
+      "English": "\nObedience to the Lord is necessary \n As Saint Paul teaches us saying, \n \"Cling to God and resist Satan \n He will run away from you fleeing\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nظهر سيدنا بجسد الناسوت\r\nاقنوما واحدا من ثلاثة مثبوت\r\nوعن الشيطان اخفى اللاهوت\r\nلأجل خلاص العالم من الضيقات\r\n",
+      "English": "\nOur Lord appeared in His humanity \n One Person of the Trinity \n To grant the world freedom \n From the devil He hid His divinity\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nعلمنا الصوم مع الصلوات\r\nابانا الذي في السموات\r\nاظهر لنا عجايب مع آيات\r\nكشفاء المرضى وقيامه الأموات\r\n",
+      "English": "\nHe taught us fasting with prayer \n And \"Our Father who art in heaven\" \n He showed us great miracles \n Signs of healing we were given\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nغفر للزانية خطاياها\r\nوالسامرية أيضًا هداها\r\nومن ماء الحياة رواها\r\nونالت منه كل المطلوبات\r\n",
+      "English": "\nHe forgave the sinful women \n He changed the heart of the Samaritan \n He gave her the everlasting water \n She accepted all that He was offering\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nفتح عيني أعمى مولود\r\nولم تصدق به اليهود\r\nوسألوا أبويه بعد الجحود\r\nفقالا أنه ولدنا باثبات\r\n",
+      "English": "\nThe Jews would not believe \n That He opened the eyes of the born-blind \n So they questioned his parents who said, \n \"When we bore him he was blind\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nقال للأعمى الذي شفاه\r\nأتؤمن انت بابن الله\r\nفقال من هو يا سيد لكي آراه\r\nأجابه أنا الناطق بالكلمات\r\n",
+      "English": "\n\"Do you believe in the Son of God?\" \n He asked the blind man whom He healed \n He said, \"Who is He my Lord?\" \n \"I am He, your Rock and Shield\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nكمل تدبير مخلصنا\r\nوقبل تلك الآلام عنا\r\nوآلامه صارت دينا يلزمنا\r\nنوفيه بفعل الحسنات\r\n",
+      "English": "\nOur Savior completed His plan \n And bore all our sufferings and pain \n They are our debts to Him \n With good deeds, forgiveness we gain \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nلماذا لم نسمع ما قيل\r\nمن قول مخلصنا في الإنجيل\r\nتعالى إلى يا من حمله ثقيل\r\nوأنا اعطيك كل الراحات\r\n",
+      "English": "\nListen to the words of our Savior \n In the Bible, He has a request \n \"Come to Me heavy laden, \n Come and I shall give you rest\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nمن كان من نفسه يألف التواني\r\nيمضى لأبيه الروحاني\r\nيعترف ليفوز بالأماني\r\nوتمحي عنه جميع السيئات\r\n",
+      "English": "\nThose who desire to return \n They must repent to Christ \n Confess to their father of confession \n And all their sins shall be erased\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nنقدم صلوات مع طلبات\r\nلأبينا الذي في السموات\r\nونصنع رحمة صدقات\r\nبما يصل إليه حد القوات\r\n",
+      "English": "\nLet us offer supplication and prayers \n To God who is in heaven \n And have mercy and help those in need \n According to what we have been given \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nهلموا يا أخوة قبل الظلمة\r\nلنبتاع لنا زيت الرحمة\r\nلأنها مصباح النعمة\r\nتضئ لصاحبها في الظلمات\r\n",
+      "English": "\nO come all before the darkness \n To buy the oil of service \n For it is the lamp of grace \n Illuminating in the time of darkness\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nونسأل من مخلصنا يسوع\r\nونضرع إليه بخشوع\r\nأن يجعل دعانا مسموع\r\nلنفوز بنعيم الجنات\r\n",
+      "English": "\nWe ask our Savior Jesus Christ \n With great respect worshipping \n That He would hear our prayers \n And grant us the kingdom of heaven\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nلأنه يستجيب لمن دعاه\r\nفلنسبح له ونمجده في علاه\r\nونداوم على فعل وصاياه\r\nونستدر منه الخير والبركات\r\n",
+      "English": "\nWe worship Him and praise Him \n He hears His servants who are praying \n Let us follow His commandments \n We shall receive goodness with blessings \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nيا رب بفضلك ارحمنا\r\nوللعمل بالوصايا وفقنا\r\nوفي ملكوتك اجمعنا\r\nفي نعيم دائم ومسرات\r\n",
+      "English": "\nLord, help us follow Your commandments \n Have mercy on us all together \n And in Your kingdom gather us \n In prosperity and happiness forever\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nوايضا البيع في كل مكان\r\nاجعلها مفتوحة على ممر الزمان\r\nوالشعب فيها بهدو وطمان\r\nمحفوظين محروسين من الضربات\r\n",
+      "English": "\nAnd protect Your church in every place \n Keep its gates open at all times \n Protect the congregations in peace \n From every plague and evil mind \n"
+    }
+  ]
+}

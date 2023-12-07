@@ -25,6 +25,12 @@
       "English": "And You cried out to her, with a voice of joy, saying: “Hail, O full of grace, the Lord is with you.”",
       "Arabiccoptic": "أووه آكؤوش إيفول إيروس خين او إزمي إنثيليل جي شيري ثي إثميه عن إهموت إبشويس شوب نيمي",
       "Englishcoptic": "Owoh akoosh evol eros khen ooesmeei entheleel: she shere thee-ethmeh enehmot Po̅s̅ shop neme."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }

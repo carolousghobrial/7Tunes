@@ -34,19 +34,19 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosKiahk1",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isKiahkSeason"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosKiahk2",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isKiahkSeason"
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosKiahk4",
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmosKiahk3",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isKiahkSeason"
         },
         {
             "Type": "Main",

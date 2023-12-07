@@ -4,6 +4,14 @@
   "EnglishTitle": "Watos Melody for St.Mary",
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من نظم أبو السعد الأبوتيجى",
+      "English": "Composed by Abou El-Saad of Aboutig "
+    },
+    {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,

@@ -1,0 +1,195 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سر عظيم، يفوق عقول البشر، هو سعيْ مخلصنا، الذي أتى وصار ابن بشر.",
+      "Coptic": "Ouni]; `mmucthrion> efca `p]wi `eninouc `nrwmi> pe `pjinmo]i `mPencwthr> `etaf`i af]wpi `n}hri `nrwmi.",
+      "English": "A great mystery, / beyond all human minds, / is the pursuit of our Savior / who came and became the Son of Man.",
+      "Arabiccoptic": " أوونيشتي امميستيريون : افسا ابشوي اي ني نوس انرومي : بي ابجين موشي امبين سوتير : ايتاف اي أفشوبي انشيري انرومي  . ",
+      "Englishcoptic": "Oooni-shti emmeesteerion: efsa epshooi en-inoos en-roomi: pe epjinmoshi emPen-sooteer: etaf-ee afshoopi En-Sheeri en-roomi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "محب البشر الصالح، الذي عال إسرائيل، أربعين سنة في البرية، أتى وصار إبن بشر.",
+      "Coptic": "Pimairwmi `n`agaqoc> vh`etau]an] `mPicrahl> `n`\\me `nrompi \\i `p]afe> af`i af]wpi `n}hri `nrwmi.",
+      "English": "The good Lover of Mankind, / who sustained Israel / forty years in the wilderness, / He came and became the Son of Man.",
+      "Arabiccoptic": " بي ماي رومي ان أغاثوس : في ايطاف شانش امبي اسرائيل : ان اهميه انرومي هي ابشافيه : أف اي أفشوبي انشيري انرومي  . ",
+      "Englishcoptic": "Pimairoomi en-aghathos: vee-etavshansh emPisraeel: en-ehme en-rompi hi epshafe: af-ee afshoopi En-Sheeri en-roomi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولما أكمل التواضع، بعد ثلاثين سنة من الزمان، إعتمد وصام، أربعين يوماً وأربعين ليلة.",
+      "Coptic": "`Etafjwk `mpiqebio> menenca map `nrompi `nchou> afsiwmc afernhcteuin> `n`\\me `n`e\\oou nem `\\me `n`ejwr\\.",
+      "English": "When He completed the humility / after thirty years of time, / He was baptized and fasted / forty days and forty nights.",
+      "Arabiccoptic": " ايطاف جوك امبي ثيفيو : مينينسا ماب انرومبي انسيو : أفتشي أومس أف ايرنيستيفين : ان اهميه ان ايهوأوو نيم اهميه ان ايجوره . ",
+      "Englishcoptic": "-Etafgook empi-thevio: men-en-sa map en-rompi- en-seeoo: afchiooms aferneestevin: en-ehme en-eho-oo nem ehme en-egoorh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكان مع الوحوش، لما صام في البرية، لكي نصنع مثله، في زمن وحدتنا.",
+      "Coptic": "Nafxh nem niqhrion> `etafernhcteuin \\i `p]afe> \\ina `nten`iri `mpefrh;> =en `pchou `nten`hcixia.",
+      "English": "He was with the beasts / when He fasted in the wilderness / so that we do like Him / during the days of our solitude.",
+      "Arabiccoptic": " نافكي نيم نيثيريون : ايطاف ايرنيستيفين هي ابشافي : هينا انتين ايري امبيف ريتي : خين ابسيو انتين اي سيكيا  . ",
+      "Englishcoptic": "Nafshee nem ni-theerion: etaf-erneestevin hi epshafe: hina en-ten-eeri empefreeti-: khen- epseeoo en-ten-eesishia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تعالوا نصرخ نحوه، ونبكي أمامه، صارخين قائلين، كما علَّمنا.",
+      "Coptic": "`Amwini `ntenw] oubhf> ouo\\ `ntenrimi na\\raf> enw] `ebol enjw `mmoc> `m`vrh; `etaf`tcabon.",
+      "English": "Come let us proclaim to Him / and weep before Him, / proclaiming and saying / as He taught us:",
+      "Arabiccoptic": " آمويني انتين أوش أوفيف : أووه انتين ريمي ناهراف : ان أوش افول انجو امموس : ام افريتي ايطاف اتسافون  . ",
+      "Englishcoptic": "-Amooini en-ten-oosh ooveef: owoh en-ten-rimi nahraf: en-oosh evol en-goo emmos: emevreeti etaf-etsavon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"أبانا الذي في السموات، ليتقدس إسمك،\" في كل جيل وجيل، وإلى أبد الأبد.",
+      "Coptic": "Je Peniwt et =en nivhou`i> mareftoubo `nje pekran> gene`a niben ke gene`a> ]a `ene\\ `nte pi`ene\\.",
+      "English": "“Our Father who art in heaven, / hallowed be Thy name,” / in every generation and generation, / and forever and ever.",
+      "Arabiccoptic": " جي بينيوت اتخين ني في أووي ماريف توفو انجي بيك ران : جيني أ نيفين كي جيني آ : شا اينيه انتي بي اينيه  . ",
+      "Englishcoptic": "Ge Pen-ioot et khen- ni-veeoo-ee: mareftoovo en-je pek-ran: gen-e-a ni-ven- ke gen-e-a: sha en-eh en-te pi-en-eh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الجسد والدم الذين لك، هما لمغفرة خطايانا، مع العهد الجديد، الذي أعطيته لتلاميذك.",
+      "Coptic": "Picwma nem Pi`cnof `ntak> pe `pxw `ebol `nte nennobi> nem ;diaqhkh `mberi> `etakthic `nnekmaqhthc.",
+      "English": "The Body and the Blood that are Yours / for the forgiveness of our sins / and the New Covenant, / which You gave to Your Disciples.",
+      "Arabiccoptic": " بي سوما نيم بي اسنوف انطاك : بي ابكو افول انتيه نين نوفي : نيم تي ذياثيكي امفيري : ايطاك تيس اننيك ماثيتيس  . ",
+      "Englishcoptic": "Pisooma nem Piesnof en-tak: pe epkhoo evol en-te nen-novi: nem ti-ziatheekee emveri: etakteeis en-nek-matheetees."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فنحن أخذنا منهم، هذا المثال الذي أعطيته لهم، لكيْ نصنعه في كل حين، إلى مجيئك الثاني.",
+      "Coptic": "`Anon ansi `ebol \\itotou> `mpaitupoc `etakthif nwou eqrenaif kata chou niben> ]a pekjin`i `mma\\`cnau.",
+      "English": "We took from them this example, / which You gave them, / that we may do it at all times / until Your Second Coming.",
+      "Arabiccoptic": " أنون آنتشي افول هيتوتو : امباي تيبوس ايطاك تيف نوأوو : اثرين آيف كاطا سيو نيفين : شا بيك جين اي امماه اسناف  . ",
+      "Englishcoptic": "-Anon anchi evol hitotoo: empaiteepos etakteeif no-oo ethren-aif kata seeoo ni-ven-: sha pek-jin-ee emmahesnav."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآن تنولنا من جسدك، ودمك الحقيقيين، تجديداً لقلوبنا، وغفراناً لخطايانا.",
+      "Coptic": ":nou ansi `ebol =en Pekcwma> nem Pek`cnof `n`alqinon> `a pen\\ht erberi `eron> nem ouxw `ebol `nte nennobi.",
+      "English": "Now we partook of Your / true Body and Blood, / a renewal of our hearts / and a forgiveness of our sins.",
+      "Arabiccoptic": " تينو آنتشي افول خين بيك سوما : نيم بيك اسنوف ان آليثينون : آبين هيت ايرفيري ايرون : نيم أووكو افول انتي نين نوفي  . ",
+      "Englishcoptic": "Tinoo anchi evol khen Peksooma: nem Pekesnof en-althinon: -a penheet erveri eron: nem ookhoo evol ente nennovi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أطرد الشياطين عنا، لنكمل بسلام، لأنه ليس لنا سواك، في ضيقاتنا وشدائدنا.",
+      "Coptic": "Soji `nnidemwn \\aron> eqrenjwk `ebol =en ou\\irhnh> je `mmon `ntan `ebol `erok> =en nen\\oj\\ej nem nen`qliyic.",
+      "English": "Cast the demons away from us / to be perfected in peace, / for we have none but You / in our adversities and tribulations.",
+      "Arabiccoptic": " تشوجي انني ذيمون هارون : اثرين جوك افول خين أووهيريني : جي اممون انتان ايفيل ايروك : خين نين هوج هيج نيم نين اثليبسيس  . ",
+      "Englishcoptic": "Choji en-ni-zemoon haron: ethren-gook evol khen- oohireen-ee: je emmon en-tan evol erok: khen- nen-hogheg nem nen-ethlipsis."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأننا نحن شعبك، وخراف قطيعك، تجاوز عن أثامنا، كصالح ومحب البشر.",
+      "Coptic": "Je `anon gar pe peklaoc> nem ni`ecwou `nte pek`o\\i> cini `nnen`anomia> \\wc `Agaqoc ouo\\ `mMairwmi.",
+      "English": "For we are Your people / and the sheep of Your flock; / ignore our iniquities / as a Good One and Lover of Mankind.",
+      "Arabiccoptic": " جي أنون غار بي بيك لاؤس : نيم ني سوأوو انتي بيك أوهي : سيني اننين آنوميا : هوس آغاثوس أووه امماي رومي  . ",
+      "Englishcoptic": "Ge anon ghar pe pek-laos: nem ni-eso-oo en-te pek-ohi: sini- en-nen-anomia: hoos -Aghathos owoh emmairoomi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "واجعلنا مستحقين، نعمتك أيها المخلص، في هذه الأيام ونحن بلا خطية، مع صوم نقي.",
+      "Coptic": "Ouo\\ `ariten `nem`p]a> `mpek`\\mot `w Pirefno\\em> =en nai`e\\oou enoi `naqnobi> nem ounhctia ectoubhout.",
+      "English": "Make us worthy to be / of Your grace, O Savior, / in these days without sin / and in a pure fasting.",
+      "Arabiccoptic": " أووه آريتين ان ام ابشا : امبيك اهموت اوبي ريف نوهيم : خين ناي ايهوأوو اي نوي ان آثنوفي : نيم أوونيستيا استوفيوت  . ",
+      "Englishcoptic": "Owoh -ariten enemep-sha: empek-ehmot -oo Pirefnohem: khen nai-eho-oo enoi enathnovi: nem ooneesti-a estooveeoot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولنحب بعضناً بعضاً، ونصنع التواضع، لأننا بالمحبة، نكمل الوصايا.",
+      "Coptic": "Marenmenre nen`erhou> `nten`iri `mpiqebio> je `ebol \\iten ;`agapi> ]an jwk `ebol `nnentolh.",
+      "English": "Let us love one another / and be humble, / for through love, / we fulfill the commandments.",
+      "Arabiccoptic": " مارين مينري نين ايريو : انتين ايري امبي ثيفيو : جي افول هيتين تي أغابي : شان جوك افول انني اندولي  . ",
+      "Englishcoptic": "maren-men-re nen-ereeoo: en-ten-eeri empi-thevio: je evol hiten- ti-aghapi-: shan gook evol en-nen-tolee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الناموس والأنبياء، هما المحبة التي بغير رياء، لأننا من قِبَل المحبة، ننال المغفرة.",
+      "Coptic": "Pinomoc nem ni`provhthc> pe ;`agapi `naqmet]obi> je `ebol \\iten ;`agapi> tensi `mpixw `ebol.",
+      "English": "The Law and the Prophets / are love without hypocrisy, / for through love, / we can obtain forgiveness.",
+      "Arabiccoptic": " بي نوموس نيم ني ابروفيتيس : بي تي أغابي ان أثميت شوفي : جي افول هيتين تي أغابي: تين تشي امبي كو افول  . ",
+      "Englishcoptic": "Pinomos nem ni-epro-phetees: pe ti-aghapi en-athmetshovi: je evol hiten- ti-aghapi: ten-chi empikhoo evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إجعل أبواب الكنائس مفتوحة لنا، وكمِّلنا في الإيمان المستقيم، لكيْ ننال الوعد الصادق، من فمك القائل.",
+      "Coptic": "Xa `vro `nniekklhcia efouhn nan> jokten =en pina\\; etcoutwn> \\ina `ntensi `mpiw]> `eten\\ot `ebol =en rwk.",
+      "English": "Let the doors of the churches be open for us / and confirm us in the upright faith / that we may attain the faithful promise / of Your mouth, which says:",
+      "Arabiccoptic": " كا افرو انني اكليسيا اف أووين نان : جوكتين خين بي ناهتي اتسوتون : هينا انتين تشي امبي أوش : ايتين هوت افول خين روك  . ",
+      "Englishcoptic": "Kha evro en-ni-ekkleesia efooeen- nan: gokten- khen- pi-nahti etsootoon: hina en-ten-chi empi-oosh: eten-hot evol khen- rook."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"تعالوا إليَّ، يا مباركي أبي، رثوا الحياة، الدائمة إلى الأبد.\"",
+      "Coptic": "Je `amwini \\aroi> nhet`cmarwout `nte Paiwt> `ari`klhronomin `mpiwn=> eqmhn `ebol ]a `ene\\.",
+      "English": "“Come unto Me, / O blessed of My Father, / and inherit the life / that endures forever.”",
+      "Arabiccoptic": " جي أمويني هاروي انثوتين : ني ات اسماروؤت انتي بايوت : آري اكليرونومين امبي أونخ : اثمين افول شا اينيه  . ",
+      "Englishcoptic": "Ge -amooini haroi: nee-etesmaro-oot en-te Paioot: -ariekleeronomin empi-oonkh: ethmeen- evol sha en-eh."
+    }
+  ]
+}

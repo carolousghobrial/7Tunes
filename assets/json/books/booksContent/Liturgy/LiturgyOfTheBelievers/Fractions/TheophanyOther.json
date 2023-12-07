@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": " قسمة لعيد الغطاس و اعياد يوحنا المعمدان",
   "EnglishTitle": "A Fraction for Feast of Theophany And Feasts of John the Baptist.",
-  "CopticTitle": "`Vnou; vh`etafer`\\mot `nⲌaxariac",
+  "CopticTitle": "`Vnou; vh`etafer`\\mot `nZaxariac",
   "Hymn": [
     {
       "Type": "Base",
@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا الله الذي أنعم على زكريا من بعد الكبر وعلى أليصابات من بعد الشيخوخة والعُقم.",
-      "Coptic": "`Vnou; vh`etafer`\\mot `nⲌaxariac `nou]hri menenca ;met=ello> ouo\\ `n`Elicabet menenca ;met=ellw nem ;metatsrhn.",
+      "Coptic": "`Vnou; vh`etafer`\\mot `nZaxariac `nou]hri menenca ;met=ello> ouo\\ `n`Elicabet menenca ;met=ellw nem ;metatsrhn.",
       "English": "O God, who granted Zacharias a son in old age and Elizabeth in old age and childlessness.(Luke 1:7)",
-      "Arabiccoptic": "افنوتي فيإيتافيرإهموت إنⲌاخارياس إنأوشيري مينينسا تيميتخيللو: أووه إنإيليسافيت مينينسا تيميتخيللوو نيم تيميتاتتشرين.",
-      "Englishcoptic": "Evnoti vee-etaf-erehmot en-Ⲍakharias en-oosheeri men-en-sa timetkhello: owoh en-Elisavet men-en-sa timetkhelloo nem timetatchreen-."
+      "Arabiccoptic": "افنوتي فيإيتافيرإهموت إنZاخارياس إنأوشيري مينينسا تيميتخيللو: أووه إنإيليسافيت مينينسا تيميتخيللوو نيم تيميتاتتشرين.",
+      "Englishcoptic": "Evnoti vee-etaf-erehmot en-Zakharias en-oosheeri men-en-sa timetkhello: owoh en-Elisavet men-en-sa timetkhelloo nem timetatchreen-."
     },
     {
       "Type": "Base",

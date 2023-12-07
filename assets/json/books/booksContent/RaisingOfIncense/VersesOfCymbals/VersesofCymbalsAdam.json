@@ -35,6 +35,17 @@
       "English": "We put our hope in Saint Mary, that God will have mercy on us through her intercessions.",
       "Arabiccoptic": "أوؤن أو هيلبيس إنتان :خين ثى أثؤواب ماريا .  إيريه إفنوتى ناى نان هيتين نيس إبريسفيا .",
       "Englishcoptic": " O Own O Helpis Entan, Khen Thi Ethowab Maria, Ere Evnouti Nai Nan, Hiten Nes Eprisvia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "كل هدوء، في العالم، من قبل صلاة، القديسة مريم العذراء.",
+      "Coptic": "Ouon oumetcemnoc> `n`\\rhi =en pikocmoc `ebol \\iten pi`]lhl> `nte ;`agia Maria :parqenoc.",
+      "English": "All calmness, in the world, is through the prayers, of Saint Mary the Virgin.",
+      "Arabiccoptic": "أو أون او ميت هينوس: انيهري خين بي كوسموس: افول هيتين بي اتشليل انتي ني اجيا ماريا تي بارثنوس.",
+      "Englishcoptic": " O onn O met-semnos, en-ehri khen pi kosmos, evol hiten pi-eshleel, ente ti agia Maria ti-parthenos"
     }
   ]
 }

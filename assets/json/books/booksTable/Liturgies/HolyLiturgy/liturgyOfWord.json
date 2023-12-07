@@ -210,13 +210,13 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsLentMighalo",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isLentWeekends"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsLentParlex",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isLentWeekends"
         },
         {
             "Type": "Main",

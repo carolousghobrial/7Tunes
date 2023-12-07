@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 101 : 10 ، 11 ، 14 )",
+  "EnglishTitle": "Psalms 102:13, 16",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأنـت يـارب ترجـع وتترأف على صهيون؛ لأنـه وقـت الـتراؤف عليـها؛ ",
+      "English": "13 You will arise and have mercy on Zion; For the time to favor her, Yes, the set time, has come.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن الرب يبني صهيون، ويظهر بمجده.",
+      "English": "16 For the Lord shall build up Zion; He shall appear in His glory."
+    }
+  ]
+}

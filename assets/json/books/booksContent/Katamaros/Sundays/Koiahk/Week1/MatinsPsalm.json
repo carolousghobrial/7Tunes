@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 101 : 16 ، 17 )",
+  "EnglishTitle": "Psalms 102:19-20, 21",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الـرب نـظـر مـن السماء على الأرض؛",
+      "English": "19 From heaven the Lord viewed the earth \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ليسمع تنهد المغلوليـن. ",
+      "English": "20 To hear the groaning of the prisoner.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ليخبروا في صهيون باسم الرب، وبتسبحته في أورشليم",
+      "English": "21 To declare the name of the Lord in Zion, And His praise in Jerusalem,."
+    }
+  ]
+}

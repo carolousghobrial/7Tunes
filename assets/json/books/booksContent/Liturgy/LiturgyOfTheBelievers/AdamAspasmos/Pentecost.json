@@ -36,6 +36,12 @@
       "English": "Send down upon us, this great grace, of Your Holy Spirit, of comfort.",
       "Arabiccoptic": " أوؤرب إي إخري إيجون : إمباي نيشتي إن إهموت : إنتيه بيك بنيفما إثوؤاب : إمباراكليتون  . ",
       "Englishcoptic": "Oo-oorp eekhreei egoon: empaini-shti en-ehmot: en-te Pekepnevma Ethowab: emparakleeton."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }

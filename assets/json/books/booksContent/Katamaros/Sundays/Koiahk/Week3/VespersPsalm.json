@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 131 : ۱۰ ، ۱۱ )",
+  "EnglishTitle": "Psalms 132:13, 14-15",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن الـرب اختـار صـهيون. ورضيهـا مسـكناً لـه",
+      "English": "13 For the Lord has chosen Zion; He has desired it for His dwelling place:.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " هـهنا أسكن لأني أردتـه ",
+      "English": "14 Here I will dwell, for I have desired it \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لصيـدهـا أبـارك بركة،.",
+      "English": "15 I will abundantly bless her provision."
+    }
+  ]
+}

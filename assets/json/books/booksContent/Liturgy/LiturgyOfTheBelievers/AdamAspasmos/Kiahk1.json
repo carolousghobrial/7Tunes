@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "اسبسموس أدآم للاسبوع الاول",
   "EnglishTitle": "Adam Aspasmos for Month of Kiahk Week 1",
-  "CopticTitle": "Ⲍaxariac piouhb ",
+  "CopticTitle": "Zaxariac piouhb ",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,10 +10,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "زكريا الكاهن ابن براخيا فيما هو في الهيكل يرفع البخور.",
-      "Coptic": "Ⲍaxariac piouhb `p]hri `mBaraxiac euxh =en pi`ervei> eftale ou`cqoi noufi `e`p]wi.",
+      "Coptic": "Zaxariac piouhb `p]hri `mBaraxiac euxh =en pi`ervei> eftale ou`cqoi noufi `e`p]wi.",
       "English": "Zachariah the priest, son of Barachiah, was in the temple offering incense.",
       "Arabiccoptic": "زخارياس بي أويب إبشيري إمفاراشياس إفكي خين بي إرفي إفطالي أو إستوي نوفي إي إبشوي",
-      "Englishcoptic": "Ⲍakharias pi-ooeev epsheeri emVarashias evshee khen pi-ervei: eftale ooestoi noofi eepshooi."
+      "Englishcoptic": "Zakharias pi-ooeev epsheeri emVarashias evshee khen pi-ervei: eftale ooestoi noofi eepshooi."
     },
     {
       "Type": "Base",
@@ -25,6 +25,12 @@
       "English": "When he saw the light, which was in his face; he was terrified and fell down to his feet.",
       "Arabiccoptic": " إيتاف ناف إي بي أوأويني إتكي خين بيف هو آفئيرهوتي أووه آف هي خاراتو إن نيف إتشالفج.",
       "Englishcoptic": "Etafnav epi-o-ooini-: etshee khen pefho af-erhoti owoh afhei kharatoo ennef chalavg."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }

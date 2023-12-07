@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( ٨٤ : 6 ، 7 )",
+  "EnglishTitle": "Psalms 85:7-8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أرنا يارب رحمتك وأعطنا خلاصك. ",
+      "English": "7 Show us Your mercy, Lord, And grant us Your salvation. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سأسمع ما يتكلـم بـه الرب الإله في؛ لأنه يتكلم بالسلام على شعبه، وعلى قديسيه..",
+      "English": "8 I will hear what God the Lord will speak, For He will speak peace To His people and to His saints."
+    }
+  ]
+}

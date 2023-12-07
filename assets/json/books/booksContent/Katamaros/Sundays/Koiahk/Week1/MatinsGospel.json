@@ -1,0 +1,39 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من إنجيل معلمنا مرقس البشير ( ١٢ : 41 - 44 )",
+  "EnglishTitle": "Mark 12:41-44",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ثـم جـلـس يـسـوع قـدام الخزانة، وكـان ينظـر كيـف يلقـي الجمـع نحاسـاً في الخزانـة. وكـان أغنيـاء كثيرون يلقـون كثيراً. ",
+      "English": "41 Now Jesus sat opposite the treasury and saw how the people put money into the treasury. And many who were rich put in much. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فجـاءت أرملـة مسـكينة فألقت فلسين، قيمتـهما ربع. ",
+      "English": "42 Then one poor widow came and threw in two mites, which make a quadrans. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فدعـا تلاميذه وقـال لهم: \" الحـق أقـول لـكـم إن هـذه الأرملـة الفقـيـرة قـد ألقـت أكـثـر مـن جـميـع الـذيـن القـوا في الخزانـة ؛ ",
+      "English": "43 So He called His disciples to Himself and said to them, Assuredly, I say to you that this poor widow has put in more than all those who have given to the treasury; \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن الجميع مـن فضلتهم ألقـوا. وأمـا هـذه فمـن إعوازهـا ألـقـت كـل مـا عندها، كل معيشتها \".",
+      "English": "44 for they all put in out of their abundance, but she out of her poverty put in all that she had, her whole livelihood.     "
+    }
+  ]
+}

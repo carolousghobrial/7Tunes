@@ -13,7 +13,7 @@ const images = {
   censer: require("../assets/images/censer.jpg"),
   matins: require("../assets/images/matins.jpg"),
   coptic: require("../assets/images/coptic.png"),
-  communion: require("../assets/images/communion.jpg"),
+  distribution: require("../assets/images/communion.jpg"),
   paschathursday: require("../assets/images/covenantThursday.jpg"),
   paschafriday: require("../assets/images/crucifixion.jpg"),
   david: require("../assets/images/david.jpg"),

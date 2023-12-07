@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( ٨٤ : 9 ، 10 )",
+  "EnglishTitle": "Psalms 85:10-11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الرحمـة والـحـق التقيـا. العـدل والسلام تلائمـا. ",
+      "English": "10 Mercy and truth have met together; Righteousness and peace have kissed. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الحـق مـن الأرض أشـرق، والعدل من السماء تطلع،.",
+      "English": "11 Truth shall spring out of the earth, And righteousness shall look down from heaven."
+    }
+  ]
+}

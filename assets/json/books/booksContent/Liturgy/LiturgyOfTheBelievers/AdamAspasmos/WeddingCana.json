@@ -25,6 +25,12 @@
       "English": "Six jars of water, You changed into genuine wine, with Your great glory, we praise You three times.",
       "Arabiccoptic": " سوأوو إن هيذريا إموأوو: أك أيطو إن إيرب إف سوتب: هيتين بيك نيشتى إن أواوو: تين هوس ناك شومت إنسوب . ",
       "Englishcoptic": "So-oo (6) en-heezria emmo-oo: akaito en-eerp efsootp: hiten- pek-ni-shti en-o-oo: ten-hoos nak shomt en-sop."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }

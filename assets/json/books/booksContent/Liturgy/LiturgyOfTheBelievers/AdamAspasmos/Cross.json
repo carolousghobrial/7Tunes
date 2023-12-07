@@ -25,6 +25,12 @@
       "English": "They likened the rod of Aaron, to the wood of the cross, on which my Lord was crucified upon, that He may to save us.",
       "Arabiccoptic": " آفئين بي إشفوت إنتيه آارون : هيﭽين إبشيه إنتيه بي إستافروس : إيتاف إيش باتشويس إروف : شا إنتيف سوتي إممون  . ",
       "Englishcoptic": "Aven pi-eshvoot ente A-aroon: hijen epshe ente Piestavros: etavesh Pachois erof: sha entefsooti emmon."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }

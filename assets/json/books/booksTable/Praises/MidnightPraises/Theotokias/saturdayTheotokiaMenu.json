@@ -113,6 +113,12 @@
         },
         {
             "Type": "Main",
+            "Path": "KiahkVespersPraisesHymnsMoakab1",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
             "Path": "KiahkVespersPraisesMelodiesAboelsaad1",
             "Rule": 0,
             "Visible": "isKiahkVespersPraises"
@@ -144,6 +150,12 @@
         {
             "Type": "Main",
             "Path": "KiahkVespersPraisesHymnsRomi2",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkVespersPraisesHymnsMoakab2",
             "Rule": 0,
             "Visible": "isKiahkVespersPraises"
         },
@@ -185,6 +197,12 @@
         },
         {
             "Type": "Main",
+            "Path": "KiahkVespersPraisesHymnsMoakab3",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
             "Path": "KiahkVespersPraisesMelodiesAboelsaad3",
             "Rule": 0,
             "Visible": "isKiahkVespersPraises"
@@ -216,6 +234,12 @@
         {
             "Type": "Main",
             "Path": "KiahkVespersPraisesHymnsRomi4",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkVespersPraisesHymnsMoakab4",
             "Rule": 0,
             "Visible": "isKiahkVespersPraises"
         },
@@ -257,6 +281,12 @@
         },
         {
             "Type": "Main",
+            "Path": "KiahkVespersPraisesHymnsMoakab5",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
             "Path": "KiahkVespersPraisesMelodiesAboelsaad5",
             "Rule": 0,
             "Visible": "isKiahkVespersPraises"
@@ -288,6 +318,12 @@
         {
             "Type": "Main",
             "Path": "KiahkVespersPraisesHymnsRomi6",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkVespersPraisesHymnsMoakab6",
             "Rule": 0,
             "Visible": "isKiahkVespersPraises"
         },
@@ -329,6 +365,12 @@
         },
         {
             "Type": "Main",
+            "Path": "KiahkVespersPraisesHymnsMoakab7",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
             "Path": "KiahkVespersPraisesMelodiesAboelsaad7",
             "Rule": 0,
             "Visible": "isKiahkVespersPraises"
@@ -365,6 +407,12 @@
         },
         {
             "Type": "Main",
+            "Path": "KiahkVespersPraisesHymnsMoakab8",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
             "Path": "KiahkVespersPraisesMelodiesAboelsaad8",
             "Rule": 0,
             "Visible": "isKiahkVespersPraises"
@@ -396,6 +444,12 @@
         {
             "Type": "Main",
             "Path": "KiahkVespersPraisesHymnsRomi9",
+            "Rule": 0,
+            "Visible": "isKiahkVespersPraises"
+        },
+        {
+            "Type": "Main",
+            "Path": "KiahkVespersPraisesHymnsMoakab9",
             "Rule": 0,
             "Visible": "isKiahkVespersPraises"
         },

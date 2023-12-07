@@ -1,0 +1,223 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إسمعوا يا شعب المسيح،\r\nوتفهموا بعقل رجيح،\r\nوصيحوا بلسان فصيح،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nListen, O Christ's congregation, \n with understanding and concentration \n and sing with all jubilation. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nاُشكروا فضله وإحسانه،\r\nلأنه أعطانا جزيل أنعامه،\r\nوأنعم علينا بأسراره،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nThank His favor and goodness, \n for He has abundantly given us graces \n and bestowed upon us His sacraments. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبإرادته الآلهية،\r\nوحكمته العلوية،\r\nأوهب لنا أسراراً خفية،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nAccording to His divine will, \n and His elevated wisdom, \n He gave us His hidden Mysteries. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nتشتهي الملائكة النورانية،\r\nأن تنظر هذه العطية،\r\nالتي أنعم بها للبشرية،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nThe luminous angels desire, \n to behold and look upon this gift, \n that the Lord has granted to mankind. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nجاد علينا بالغفران،\r\nوكسر عنا فخ الشيطان،\r\nوأعطانا جسده قربان،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nHe bestowed on us forgiveness, \n and destroyed Satan's snare for us, \n and gave us His body as Qorban. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nحكمة عميقة وسر خفي،\r\nلا يدركهما عقل بشري،\r\nإلا الإله الحي الأزلي،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nDeep wisdom and hidden mystery, \n the human mind cannot comprehend, \n only the eternal living God. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nخبزاً موضوعاً في الصينية،\r\nلمحو الذنوب والخطية،\r\nمن أكله ينال حياة أبدية،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nThe Bread that is placed in the Paten \n It covers sins and transgressions, \n he who eats of it obtains eternal life. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nخمراً طاهراً ممزوج بالكأس،\r\nلأجل التوبة والخلاص،\r\nمن يشربه ينجي من القصاص،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nPure wine mixed in the Chalice, \n for salvation and repentance, \n he who drinks it, is saved from punishment \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nخلاصاً لأرواح ونفوس،\r\nومن يؤمن بإسم القدوس،\r\nينال ميراث الفردوس،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nSalvation for spirits and souls, \n and those who believe in His holy name \n they receive the inheritance of Paradise \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nدواء يبري كل جراحات،\r\nويمحي الخطايا والسيئات،\r\nونرث ملكوت السموات،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nA medicine that heals all wounds, \n that abolish all sins and wickedness, \n to inherit the kingdom of heaven. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nراحة لنفوس المؤمنين،\r\nالذين هم على الأيمان ثابتين،\r\nيرحمهم الرب في يوم الدين،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nComfort for the souls of the believers \n for those who are steadfast in the faith \n they will receive mercy on Judgment day \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nزمان الضلالة زال عنا،\r\nوأضاء علينا نور مخلصنا،\r\nوإبتهجت نفوسنا وفرحنا،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nThe time of deception has gone away \n our Savior's light has shone upon us \n and our souls rejoiced and were happy \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nسراج الحق أضاء فينا،\r\nونوره أشرق علينا،\r\nيسوع الحي فادينا،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nThe lamp of truth illuminated in us \n and its light shone upon us, \n the living Jesus our redeemer. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nشرف زائد ومجد جليل،\r\nموهبة تامة ليست تمثيل،\r\nجسد ودم عمانوئيل،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nA high honor and great glory, \n a true and perfect gift, \n the Body and Blood of Immanuel. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nصفوف الملائكة العلويين،\r\nوقوف قدامه مرتعدين،\r\nلجلال عظمته حاضعين،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nThe hosts of angels on high, \n are standing before Him in fear, \n and worship now and forever \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nضياء نوره في كل مكان،\r\nله العظمة والسلطان،\r\nوالسجود الآن وكل آوان،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nHis light shined in every place, \n to Him is greatness and authority, \n and worship now and forever. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nظهر بالخلاص للشعوب،\r\nوخزق كتاب العهد المكتوب،\r\nطوبي لمن يؤمن به ويتوب،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nHe manifested salvation to all nations \n and tore the written covenant, \n Blessed is he who believes in Him and repents. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nأعطانا وصاياه الألهية،\r\nالاعتراف وترك الخطية،\r\nوالتناول من أسراره المحيية،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nHe gave us His divine commandments \n confession and abandonment of sins, \n and partaking of the living Mysteries. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nغسل خطايانا بدمه الكريم،\r\nوخلصنا من نار الخطبة،\r\nوفتح لنا باب النعيم،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nHe cleansed our sins with His honored Blood \n and saved us from the everlasting fire, \n and opened for us the gate of Paradise. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nفلنسبح رب الآنام،\r\nونقول مع الملائكة الكرام،\r\nالمجد لله في العلا،\r\nوعلى الأرض السلام.\r\n",
+      "English": "\nLet us praise the Lord of mankind, \n and sing with the honored angels, \n glory to God in the highest. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nونصيح بأعلى صوت،\r\nنحو الحي الذي لا يموت،\r\nلينعم علينا بالملكوت،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nWe proclaim with loud voices, \n to the Living who does not die, \n to grant unto us the kingdom. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nقدوس قدوس رب القوات،\r\nقدوس الممجد في السموات،\r\nالذي أنعم علينا بالخيرات،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nHoly, Holy is the Lord of Hosts, \n Holy is He who is glorified in heaven, \n Who granted us good things. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nكرامة ومجداً وأكرام،\r\nبإسم الله الحي الأعظم،\r\nالذي اعطانا مواهب عظام،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nHonor, glory and adoration \n to the name of the great living God \n Who granted us great gifts. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nليس لنا معين سواك،\r\nوأعين الكل تترجاك،\r\nجود عينا برضاك،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nWe have no other helper but You, \n the eyes of all wait upon You, \n bestow on us Your acceptance. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nمنك نطلب غفران الذنوب،\r\nأنت الغاية والمطلوب،\r\nتفرح بخاطئ واحد يتوب،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nWe ask of You forgiveness of transgressions \n You are the goal and the desired \n Who rejoices with a repented sinner. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nنسألك يا رب الصابؤوت،\r\nالحي الأزلي الذي لا يموت،\r\nأن تنعم علينا بالملكوت،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nWe ask You, O Lord of Sabaoth \n the living, everlasting, immortal God \n to grant us Your kingdom. \n Christ has granted us salvation.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nأعطينا يا رب توبة نقية،\r\nوأعمالاً بارة مرضية،\r\nلكي نرث حياة أبدية،\r\nالمسيح أنعم لنا بالخلاص.\r\n",
+      "English": "\nGrant us O Lord a pure repentance \n and righteous, acceptable deeds \n to inherit eternal life. \n Christ has granted us salvation.\n"
+    }
+  ]
+}

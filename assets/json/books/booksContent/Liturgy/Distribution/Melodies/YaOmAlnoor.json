@@ -1,0 +1,63 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا أُمَ النور .. يا فَخرَ الأُمَّة،\r\nيا بَدَءَ السرور .. يا كَنزَ النعمة،\r\nيا أصلَ الحُبُور .. مَعْدَنَ الرحمة،\r\nيا مريم يا إبنة يواقيم.\r\n",
+      "English": "O Mother of Light..the pride of the nations \n The beginning of joy..the treasure of grace \n The source of happiness..the origin of mercy \n O Mary, the daughter of Joachim\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالربَّ المُتَعَالُ .. الحيَّ الموجود،\r\nشَرَّفَكِ بكمال .. يا إبنة داود،\r\nوأتاكِ غبريـال .. بالسِرِّ المعهود،\r\nيا مريم يا إبنة يواقيم.\r\n",
+      "English": "\nThe exalted, living..worshipped Lord, \n Honored you with perfection..O daughter of David \n And Gabriel visited you..with the promised mystery \n O Mary, the daughter of Joachim Joachim\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nأعطاكِ التطويب .. بحُلُولِ النعمة،\r\nبسِرٍّ عجيب .. حَمَلْتِ الكلمة،\r\nوأنقذ كلَّ كئيب .. من وِثاقِ الظلمة،\r\nيا مريم يا إبنة يواقيم.\r\n",
+      "English": "\nHe granted you blessedness..by the descent of Grace \n In a wondrous mystery..you gave birth to the Logos \n He saved every grievous soul..from the bonds of darkness \n O Mary, the daughter of Joachim\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالسلامُ لكِ .. يا عصا هرون،\r\nالطوبى إليكِ .. يا إبنة صهيون،\r\nيفرحُ داعِيكِ .. والصديقون،\r\nيا مريم يا إبنة يواقيم.\r\n",
+      "English": "\nHail to you..O rod of Aaron \n Blessed are you..O daughter of Zion \n The righteous rejoice..at your name \n O Mary, the daughter of Joachim\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nإفرحي يا مريم .. يا عروسٌ مختارة،\r\nيا نسلاً مُكرماً .. قبة ومنارة،\r\nيا أصلً مُعظمً .. ذو الطهارة،\r\nيا مريم يا إبنة يواقيم.\r\n",
+      "English": "\nRejoice O Mary..O chosen bride \n O honored seed..and dome and tower \n O exalted root..of all purity \n O Mary, the daughter of Joachim\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nصرتِ كالسموات .. حاملة القدوس،\r\nأشرف من القوات .. عالية عن الطقوس،\r\nنرجوكِ الشفاعة .. أمام الربِّ إيسوس،\r\nيا مريم يا إبنة يواقيم.\r\n",
+      "English": "\nYou became a heaven..carrying the Holy One \n More honored than the powers..higher than the ranks \n We beseech your intercession..before the Lord Jesus \n O Mary, the daughter of Joachim\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nنسألُكِ يا عذراء .. يا تاجَ إسرائيل،\r\nيا فرحَ الشهداء .. يا أصلَ التهليل،\r\nشفاعة ونصراً .. أمام عمانوئيل،\r\nيا مريم يا إبنة يواقيم.\r\n",
+      "English": "\nWe ask you O Virgin..O crown of Israel \n O joy of the martyrs..O origin of rejoicing \n Intercession and victory..before Immanuel \n O Mary, the daughter of Joachim\n"
+    }
+  ]
+}

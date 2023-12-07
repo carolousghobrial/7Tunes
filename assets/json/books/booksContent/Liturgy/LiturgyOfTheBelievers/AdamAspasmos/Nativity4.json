@@ -14,6 +14,12 @@
       "English": "Hail to Bethlehem, the city of the prophets, where Christ was born, the second Adam.",
       "Arabiccoptic": " شيري فيثليئيم : إتبوليس إنني إبروفيتيس : ثي إيتاس ميس بيخريستوس إنخيتس : بيماه إسناف إن آدام  . ",
       "Englishcoptic": "Shere Vee-ethleem: etpolis en-ni-proveetees: thee-etavmes Pikhristos en-kheets: pi-mah esnav en-Azam."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }

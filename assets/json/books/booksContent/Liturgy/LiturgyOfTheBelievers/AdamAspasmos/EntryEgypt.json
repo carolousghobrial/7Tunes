@@ -36,6 +36,12 @@
       "English": "Jesus our Savior, was in your womb, you gave birth to Him for the world, that He may save us.",
       "Arabiccoptic": " أﭫ ﭼين بين سوتير: إيسوس خين تى نيـﭼـى: أف إجفوف اى بى كوزموس: شا إنتيف سوتى إمون .",
       "Englishcoptic": "Avjem Pen-sooteer: Isos khen- ten-eji: areegvof epi-kosmos: sha en-tefsooti emmon."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }

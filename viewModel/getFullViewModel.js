@@ -136,7 +136,7 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
   const myMenuArray = [];
   const myViewArray = [];
   const book = bookPaths[Path];
-
+  console.log(Path);
   const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
 
   if (!inHymn && EnglishTitle !== undefined && EnglishTitle !== "") {
@@ -570,26 +570,27 @@ function GetTodaysReadingPath(path) {
     currentSeason.dayOfWeek === 0;
 
   if (isStandardSeasonSunday) {
-    if (TakeFromHathor(currentSeason)) {
-      if (
-        currentSeason.copticMonth === "Hathor" &&
-        currentSeason.weekOfMonth === 5
-      ) {
-        filePath = updateFilePath("SundaysKoiahkWeek1");
-        filePath = "Katamaros";
-      } else if (currentSeason.copticMonth === "Koiahk") {
+    const isHathorMonth = currentSeason.copticMonth === "Hathor";
+    const isKoiahkMonth = currentSeason.copticMonth === "Koiahk";
+    const isWeek1to4 =
+      currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4;
+    const isWeek5 = currentSeason.weekOfMonth === 5;
+    const isTakeFromHathor = TakeFromHathor(currentSeason);
+
+    if (isWeek1to4) {
+      if (isTakeFromHathor && isKoiahkMonth) {
         filePath = updateFilePath(
-          `SundaysKoiahkWeek${currentSeason.weekOfMonth + 1}`
+          `Sundays${currentSeason.copticMonth}Week${
+            currentSeason.weekOfMonth + 1
+          }`
         );
-        filePath = "Katamaros";
+      } else {
+        filePath = updateFilePath(
+          `Sundays${currentSeason.copticMonth}Week${currentSeason.weekOfMonth}`
+        );
       }
-    } else if (
-      currentSeason.weekOfMonth >= 1 &&
-      currentSeason.weekOfMonth <= 4
-    ) {
-      filePath = updateFilePath(
-        `Sundays${currentSeason.copticMonth}Week${currentSeason.weekOfMonth}`
-      );
+    } else if (isTakeFromHathor && isHathorMonth && isWeek5) {
+      filePath = updateFilePath("SundaysKoiahkWeek1");
     } else {
       filePath = "Katamaros";
     }

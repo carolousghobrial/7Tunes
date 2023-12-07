@@ -19,8 +19,7 @@
             "hasSubBooks": false,
             "BookPath": "liturgyOfWord",
             "ImageURL": "litugyOfWord",
-            "Enabled": true,
-            "BishopButton": true
+            "Enabled": true
         },
         {
             "EnglishTitle": "Liturgy of the Believers",
@@ -30,20 +29,17 @@
             "hasSubBooks": true,
             "BookPath": "liturgyOfBelievers",
             "ImageURL": "liturgyOfBelievers",
-            "Enabled": true,
-            "BishopButton": true
+            "Enabled": true
         },
         {
             "EnglishTitle": "The Distribution of the Holy Mysteries",
             "ArabicTitle": "التوزيع",
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
-            "hasSubBooks": true,
-            "BookPath": "communion",
-            "ImageURL": "communion",
-            "Enabled": false,
-            "BishopButton": true,
-            "Released": false
+            "hasSubBooks": false,
+            "BookPath": "distribution",
+            "ImageURL": "distribution",
+            "Enabled": true
         }
     ]
 }

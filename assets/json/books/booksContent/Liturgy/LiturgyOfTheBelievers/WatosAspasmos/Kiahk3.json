@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": "اسبسموس واطس للاسبوع الثالث",
   "EnglishTitle": "Watos Aspasmos for Month of Kiahk Week 3",
-  "CopticTitle": "Ouo\\ Ⲍaxariac piouhb",
+  "CopticTitle": "Ouo\\ Zaxariac piouhb",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,10 +10,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وزكريا الكاهن أنت بشرته بميلاد السابق يوحنا المعمدان.",
-      "Coptic": "Ouo\\ Ⲍaxariac piouhb `nqok ak\\i]ennoufi naf =en `pjinmici `mpi`prodromoc Iw`annhc piref;wmc.",
+      "Coptic": "Ouo\\ Zaxariac piouhb `nqok ak\\i]ennoufi naf =en `pjinmici `mpi`prodromoc Iw`annhc piref;wmc.",
       "English": "And you also have announced the birth of the forefunner John the Baptist to Zechariah the priest.",
       "Arabiccoptic": "أووه زاخارياس بى أويب. إنثوك أكهيشين نوفى ناف . خين إبجين ميسى إمبى إبرودروموس. يوأنس بى ريفتى أومس.",
-      "Englishcoptic": "Owoh Ⲍakharias pi-ooeev en-thok akhishen-noofi naf khen- epjinmisi empi-eprozromos Ioo-annees pi-refti-ooms."
+      "Englishcoptic": "Owoh Zakharias pi-ooeev en-thok akhishen-noofi naf khen- epjinmisi empi-eprozromos Ioo-annees pi-refti-ooms."
     },
     {
       "Type": "Base",

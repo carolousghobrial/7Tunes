@@ -1,0 +1,107 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا سيدي يسوع محب البشر، الصالح أسألك، لا تطرحني علي شمالك، مع الجداء الخطاة.",
+      "Coptic": "PiMairwmi `n`agaqoc> pasoic Ihcouc ;;\\o `erok> `mper\\it cajash `mmok> nem niba`empi `nref`ernobi.",
+      "English": "O good Lover of mankind, my Master Jesus, I entreat You not to put me on Your left, with the goats the sinners.",
+      "Arabiccoptic": "بى ماى رومى إن آغاثوس، باشويس إيسوس تى تيهو إيروك، امبيرهيت ساجاتشى إمموك، نيم نى با إمبى إنريف إرنوڤى.",
+      "Englishcoptic": "Pimairoomi en-aghathos: pao̅s̅ Isos ti-ti-ho erok: emperhit sagachee emmok: nem ni-va-empi en-ref-ernovi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولا تقل لي أيضاً، \"إني ما أعرفك، إذهب عني أيها المعد، للنار الأبدية.\"",
+      "Coptic": "`Oude on `mperjoc nhi> je ;cw`oun `mmok an> ma]enak `ebol \\aroi> vh`etcebtwt `mpi`xrwm `n`ene\\.",
+      "English": "Also do not say to me, \"I do not know you, go away from Me, you who is prepared for the everlasting fire.\"",
+      "Arabiccoptic": "أو ذى أن امبيرجوس نى، چى تى سوؤن إمموك آن، ما شيناك إيڤول هاروى، في اتسيڤتوت إمبى إكروم إن إينيه.",
+      "Englishcoptic": "Oooze on empergos neei: je ti-soo-oon emmok an: mashen-ak evol haroi: vee-etsebtoot empi-ekhroom en-en-eh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأني أعلم بالحقيقة، إني خاطئ، وأعمالي الرديئة كلها، ظاهرة أمامك.",
+      "Coptic": ":`emi gar =en `oumeqmhi> je `anok `ouref`ernobi> ouo\\ na`\\bh`ou`i throu et\\w`ou> ce`ou`wn\\ `ebol `mpek`mqo.",
+      "English": "I know indeed, that I am a sinner, and that all my evil deeds, are manifested before You.",
+      "Arabiccoptic": "تى إيمى غار خين أو ميثمى، چى آنوك أو ريف إير نوڤى، أووه ناه فيؤيى تيرو إتهوؤ، سى أوؤنه إيڤول إمبيك إمثو.",
+      "Englishcoptic": "Ti-emi ghar khen -oo-methmee: je -anok -ooref-ernovi: owoh naehvee-oo-ee tero ethoo-oo: se-oo-oonh evol empek-emtho."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أقول بصوت العشار، صارخاً قائلاً، \"اللهم اغفر لي، أنا الخاطئ.\"",
+      "Coptic": ":jw `n`t`cmh `nte pitelwnhc> ei`w] `ebol eijw `mmoc> je `V; xw nhi `ebol> je `anok `ouref`ernobi.",
+      "English": "I speak with, the tax collector´s voice, proclaiming and saying, \"O God forgive me, I am the sinner.\"",
+      "Arabiccoptic": "تى جو إن إت إسمى انتى بى تيلونيس، إيؤش إيڤول ايجو إمموس، چى افنوتى كو نى إيڤول، چى آنوك أو ريف إيرنوڤى.",
+      "Englishcoptic": "Tigoo en-etesmee en-te pi-teloonees: ei-oosh evol eigoo emmos: je eVti khoo neei evol: je -anok -ooref-ernovi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أخطأت أخطأت، يا ربي يسوع اغفر لي، لأنه ليس عبد بلا خطية، ولا سيد بلا مغفرة.",
+      "Coptic": "Ai`ernobi ai`ernobi> pasoic Ihcouc xw nhi `ebol> je `mmon bwk `n`at`ernobi> `oude `mmon `soic `n`atxw `ebol.",
+      "English": "I have sinned I have sinned, O my Lord Jesus forgive me, for there is no servant without sin, nor master without forgiveness.",
+      "Arabiccoptic": "آى إير نوڤى آى إيرنوڤى، باشويس إيسوس كونى إيڤول، چى إمموك ڤوك إن آت إرنوڤى، أو ذى إممون شويس إن آتكو إيڤول.",
+      "Englishcoptic": "Ai-ernovi ai-ernovi: pao̅s̅ Isos khoo neei evol: je emmon vook en-at-ernovi: -ooze emmon echois en-atkhoo evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعطني يا رب توبة، لكي أتوب، قبل أن يسد الموت فمي، في أبواب الجحيم.",
+      "Coptic": "Moi nhi Psoic `n`oumetanoia> `e`pjinta`ermetanoin> `mpate `vmou ma`]qam `nrwi> =en nipulh `nte `Amen;.",
+      "English": "O Lord grant me repentance, that I may repent, before death closes my mouth, at the doors of Hades.",
+      "Arabiccoptic": "موى نى ابشويس إنؤميطانيا، إى إبچين طا إرميطانين، إمباتى إفمو ما أشتام إنروى، خين نى بيلى إنتنى آمينتى.",
+      "Englishcoptic": "moi neei Epchois en-oometanoia: eepjinta-ermetanoin: empate evmoo maeshtam en-rooi: khen- ni-peelee en-te -Amen-ti-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولكي أعطي أيضاً جواباً، عن كل ما فعلته، يسوع القاضي العادل، هو يُدينَني.",
+      "Coptic": "Ouo\\ on `nta;logoc> =a nai throu `etai`aitou> pi`Krithc `mmhi Ihcouc> `nqof eqna;\\ap `eroi.",
+      "English": "Also give me an answer, for all what I have done, O just Judge Jesus, who will judge me.",
+      "Arabiccoptic": "أووه أون إنطاتيلوغوس، خا ناى تيرو إيطاى أيتو، بى إكريتيس إممى ايسوس، انثوف إثناتيهاب إيروى.",
+      "Englishcoptic": "Owoh on en-tati-loghos: kha nai tero etai-aitoo: pi-eKritees emmeei Isos: en-thof ethnati-hap eroi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رؤوف هو مخلصي، يترأف علي شعبه، كصلاح ومحب البشر، إرحمنا كعظيم رحمتك.",
+      "Coptic": "`OuRef]en\\ht pe paCwthr> ef`e]en\\ht =a pefla`oc> \\wc `agaqoc ouo\\ `mmairwmi> nai nan kata pekni]; `nnai.",
+      "English": "Compassionate is my Savior, who have compassion upon His people, as a good One and Lover of mankind, have mercy upon us according to Your great mercy.",
+      "Arabiccoptic": "أو ريف شينهيت بى باسوتير، إفئى شينهيت خا بيف لاؤس هوس آغاثوس أووه إم ماى رومى، ناى نان كاطا بيك نيشتى إن ناى.",
+      "Englishcoptic": "OooRefshen-heet pe paSooteer: ef-eshen-heet kha pefla-os: hoos -aghathos owoh emmairoomi: nai nan kata pek-ni-shti en-nai."
+    }
+  ]
+}

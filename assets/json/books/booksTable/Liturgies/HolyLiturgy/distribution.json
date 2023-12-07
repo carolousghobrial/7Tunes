@@ -5,100 +5,26 @@
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
-            "Arabic": "قداس الكلمة",
-            "English": "Liturgy of the Word"
+            "Arabic": "التوزيع",
+            "English": "Distribution of the Holy Mysteries"
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordTaiShori",
-            "Rule": 0,
-            "Visible": "IsNonFastingDays"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordTiShori",
-            "Rule": 0,
-            "Visible": "IsFastingDays"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordEnthoTeTiShori",
-            "Rule": 0,
-            "Visible": "isLentWeekdayOrJonah"
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaFridayFridayDaySixthFaiEtafEnf",
-            "Rule": 0,
-            "Visible": "isCross"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordHitens",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Button",
-            "Arabic": " ألحان البابا ",
-            "English": "Papal Hymns",
-            "Rule": "OpenPage",
-            "Visible": true,
-            "Path": "LiturgyLiturgyOfTheWordPaplHymnsMenu"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordPaulineCopticIntro",
+            "Path": "LiturgyDistributionPsalm150",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordPaulineCopticConclusion",
+            "Path": "VenerationEkesmarot",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isStandardSeasonWithStMary"
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordApetjeekEvol",
+            "Path": "LiturgyDistributionPiOik",
             "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsApostlesFastOntos",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordCatholicCopticIntro",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordCatholicCopticConclusion",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordActsResponse",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordPraxisCopticIntro",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordPraxisCopticConclusion",
-            "Rule": 0,
-            "Visible": true
+            "Visible": "isStandardSeasonWithStMary"
         },
         {
             "Type": "Main",
@@ -108,19 +34,7 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsCrossParlex",
-            "Rule": 0,
-            "Visible": "isCross"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsNativityEparthenos",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsNativityPijinmisi",
+            "Path": "LiturgyDistributionKiahkEfempeshaGhar",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -132,33 +46,15 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsNativityParlex",
+            "Path": "LiturgyDistributionLentPiMairomi",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isLentWeekdayOrJonah"
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsTheophanyOranEnShosho",
+            "Path": "LiturgyDistributionLentOnishti",
             "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsTheophanyParlex",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsLentMighalo",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsLentParlex",
-            "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isLentWeekends"
         },
         {
             "Type": "Main",
@@ -168,13 +64,7 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsPalmSundayParlex",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionKataNiKhorosElHegab",
+            "Path": "LiturgyDistributionResurrectionKataNiKhoros",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -186,73 +76,13 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionAllYouHeavenlyOrders",
+            "Path": "LiturgyDistributionApostlesFastAsomen",
             "Rule": 0,
             "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionKhristosAnesty",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionTonSina",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionTolithos",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionTinAnaStAsin",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionPikhriStOsAftonf",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionParlex",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsAscensionKhristosAnalepsis",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsAscensionPikhristosAftonf",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsAscensionParlex",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsPentecostPiEpnevma",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsApostlesFastEnthotenZe",
+            "Path": "LiturgyDistribuLiturgyLiturgyOfTheWordSeasonalHymnsApostlesFastEnthotenZetionApostlesFastAsomen",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -264,33 +94,249 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordAgios",
+            "Path": "LiturgyDistributionMelodiesAnnunciation",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseLitanyOfGospel",
+            "Path": "LiturgyDistributionMelodiesApostlesFast",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncensePsalmResponses",
+            "Path": "LiturgyDistributionMelodiesAscension",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncensePsalmAndGospel",
+            "Path": "LiturgyDistributionMelodiesCircumcision",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordGospelResponse",
+            "Path": "LiturgyDistributionMelodiesCross",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesEntryEgypt",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesEntryTemple",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesHosannaOSonOfDavid",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesIntercedeOMary",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesJonahFast",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesKiahkWeek1",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesKiahkWeek2",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesKiahkWeek3",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesKiahkWeek4",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesLentWeek1",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesLentWeek2",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesLentWeek3",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesLentWeek4",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesAnnunciation",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesLentWeek5",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesLentWeek6",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesListenOChristsCongregation",
+            "Rule": 0,
+            "Visible": "isStandardSeasonWithStMary"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesNativity",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesNativityParamoune",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesOLordHaveMercyOnYourCreation",
+            "Rule": 0,
+            "Visible": "isStandardSeasonWithStMary"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesOurFatherWhoArtInHeaven",
+            "Rule": 0,
+            "Visible": "isStandardSeasonWithStMary"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesOurSaviorCalledUponUs",
+            "Rule": 0,
+            "Visible": "isStandardSeasonWithStMary"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesPalmSunday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesPentecost",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesNativityParamoune",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesPentecostalWeek2",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesPentecostalWeek3",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesPentecostalWeek4",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesPentecostalWeek5",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesPentecostalWeek6",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesRessurection",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesTheophany",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesThomasSunday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesTransfiguration",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesWeddingCana",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesYaOmAlnoor",
+            "Rule": 0,
+            "Visible": "isSeason"
         }
     ]
 }

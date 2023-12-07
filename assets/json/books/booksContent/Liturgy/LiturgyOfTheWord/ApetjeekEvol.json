@@ -95,6 +95,28 @@
     {
       "Type": "Base",
       "Rule": 0,
+      "Visible": "ISDioceseMetropolitain",
+      "Side": "South",
+      "Arabic": "(بركة مطراننا)2، الآب المكرم أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "(`Ere pi`cmou `mpenmhtropolhthc) 2> `niwt ettaihot  abba [*DIOCESE_BISHOP*].",
+      "English": "(The blessing of our metropolitan)2, the honored father, Abba [*DIOCESE_BISHOP*].*",
+      "Arabiccoptic": " إيري بي إسمو إم ين ميتروبوليتيس إنيوت إتطايوت آفا [*DIOCESE_BISHOP*].",
+      "Englishcoptic": "(Ere piesmooo empen Metro-po-litis) 2: enioot ettaieeot Avva [*DIOCESE_BISHOP*]."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "ISDioceseBishop",
+      "Side": "South",
+      "Arabic": "(بركة ااسقفنا)2، الآب المكرم أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "(`Ere pi`cmou `mpenepickopoc) 2> `niwt ettaihot  abba [*DIOCESE_BISHOP*].",
+      "English": "(The blessing of our Bishop)2, the honored father, Abba [*DIOCESE_BISHOP*].*",
+      "Arabiccoptic": " إيري بي إسمو إم ين ابيسكوبوس إنيوت إتطايوت آفا [*DIOCESE_BISHOP*].",
+      "Englishcoptic": "(Ere piesmooo empen epes-kopos) 2: enioot ettaieeot Avva [*DIOCESE_BISHOP*]."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "تحل علي هذا الشعب كله أمين يكون.",

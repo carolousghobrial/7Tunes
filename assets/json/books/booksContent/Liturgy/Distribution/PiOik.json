@@ -1,0 +1,129 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "بي اويك ",
+  "EnglishTitle": "Piooik ente ep-onkh",
+  "CopticTitle": "Piwik `nte `pwn=",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خبز الحياة الذى نزل من السماء، وهب الحياة للعالم.",
+      "Coptic": "Piwik `nte `pwn=> `etaf`i epecht> nan `ebol=en `tve> av; `m`pwn= `mpikocmoc.",
+      "English": "The Bread of life, which came down for us from heaven, has given life to the world.",
+      "Arabiccoptic": "بي اويك انتى ابؤنخ : ايطاف اي ابسيت: نان ايفول خين اتفى : افتي امابؤنخ امبي كوزموس",
+      "Englishcoptic": "Piooik en-te epoonkh: etaf-ee epeseet: nan evolkhen etve: avti emep-oonkh empi-kosmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأنتِ أيضاُ يا مريم حملتِ فى بطنك المن العقلى الذى أتى من الآب.",
+      "Coptic": "`Nqo \\wi Mari`a> `arefai =en teneji> `mpiManna `nno `hton> `etaf`i `ebol=en `Viwt.",
+      "English": "And you too, O Mary, have born in your womb the rational Manna, which came from the Father.",
+      "Arabiccoptic": "انثو هوي ماريا : اري فاي خين تى نيجي : امبي مانا انو ايطون : ايطاف اي ايفول خين افيوت",
+      "Englishcoptic": "eNtho hooi mari-a: -arefai khen teneji: empi-manna enno eeton: etaf-ee evolkhen Eviot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولدته بغير دنس، وأعطانا جسده ودمه الكريم فحيينا الى الأبـد.",
+      "Coptic": "`Aremacf asne qwleb> af; nan `mpefcwma> nem pef`cnof ettai`hout> anwn= ]a `ene\\.",
+      "English": "You have brought Him forth without blemish; He gave us His body and His precious blood, and we live forever.",
+      "Arabiccoptic": "اري ماسف اتشني ثوليب : افتي نان امبيف سوما : نيم بيف اسنوف اطايوت : ان اونخ شا اينيه",
+      "Englishcoptic": "-Aremasf achne thooleb: afti nan empefsooma: nem pefesnof ettai-eeoot: anoonkh sha en-eh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقوم حولك الشاروبيم والسارافيم ولا يستطيعون أن ينظروك.",
+      "Coptic": "Cetwounou \\arok> `nje niXeroubim> nem niCeravim> ce`]nau `erok an.",
+      "English": "Around You stand the Cherubim, and the Seraphim, and they cannot look at You.",
+      "Arabiccoptic": "سيطوؤو نو هاروك : انجى ني شيروفيم : نيم ني سيرافيم : سى اشناف ايروك ان . ",
+      "Englishcoptic": "Seto-oonoo harok: en-je ni-Sheroovim: nem ni-Seravim: seeshnav erok an."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ونحن ننظرك كل يوم على المذبح، ونتناول من جسدك ودمك الكريم.",
+      "Coptic": "Tennau `erok `mmhi> \\ijen pima`ner]wou]i> tensi `ebol=en pekcwma nem pek `cnof ettai`hout.",
+      "English": "We behold You upon the Altar and we partake of Your body and Your precious blood.",
+      "Arabiccoptic": "تين ناف ايروك اميني : هيجين بي مان ايرشوؤوشي : تين تشي ايفول خين بيك سوما : نيم بيك اسنوف ايطايوت . ",
+      "Englishcoptic": "Ten-nav erok emmeei: hijen- pi-maen-ersho-ooshi: ten-chi evolkhen- pek-sooma nem pek- esnof ettai-eeoot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من أجل هذا نعظمك بإستحقاق بتماجيد نبوية.",
+      "Coptic": "`Eqbe vai tensici> `mmo `a[iwc =en \\an`umnologi`a> `m`provhtikon.",
+      "English": "Therefore we exalt you befittingly, with prophetic hymnology.",
+      "Arabiccoptic": "اثفى فاي تين تشيسي : اممو اكسيوس : خين هان امنولوجيا : ام بروفيتيكون . ",
+      "Englishcoptic": "-Ethve vai ten-chisi: emmo -axioos khen- han-eymnologi-a: emep-roveeti-kon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لانهم تكلموا من أجلك بأعمال كريمة، أيتها المدينة المقدسة التى للملك العظيم.",
+      "Coptic": "Je aucaji eqbh;> `n\\an `\\bhou`i eutai`hout ;baki `eqouab `nte pini]; `nOuro.",
+      "English": "For they spoke of you with great honor, O holy city of the great King.",
+      "Arabiccoptic": "جى افساجي اثفيتي : انهان اهفيؤوي ايطايوت : تي فاكي اثوؤاب : انتى بي نيشتي انوؤرو . ",
+      "Englishcoptic": "Ge avsaji ethveeti-: en-han ehveeoo-ee evtai-eeoot ti-vaki ethowab en-te pi-ni-shti- en-Oooro."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نسأل ونطلب أن نفوز برحمة، بشفاعاتك عند محب البشر.",
+      "Coptic": "Ten;\\o tentwb\\> `eqren]a]ni eunai> \\iten ni`precui`a> `ntotf `mpimairwmi.",
+      "English": "We entreat and pray that we may win mercy through your intercessions with the Lover of mankind.",
+      "Arabiccoptic": "تين تي هو تين طوبه : اثرين شاشني افناي : هيتين نى بريسفيا : انطوطف امبي مايرومي . ",
+      "Englishcoptic": "Ten-ti-ho ten-toobh: ethren-shashni evnai: hiten- niepreseei-a: en-totf empi-mairoomi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بشفاعات والدة الاله القديسة مريم، يا رب أنعم لنا بغفران خطايانا.",
+      "Coptic": "|iten ni`precui`a `nte ;qe`otokoc `eqouab Mari`a> Psoic `ari`\\mot nan `mpixw `ebol `nte nennobi.",
+      "English": "Through the intercessions of the Theotokos Saint Mary, O Lord, grant us the forgiveness of our sins.",
+      "Arabiccoptic": "هيتين ني بريسفيا : انتى تي ثيؤطوكوس اثوؤاب ماريا : ابتشويس اري اهموت نان : تمبي كو ايفول انتى نين نوفي . ",
+      "Englishcoptic": "Hiten ni-epreseei-a ente ti-the-otokos ethowab mari-a: Epchois -ariehmot nan empi-khoo evol ente nennovi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بشفاعات رئيسى الملائكة المقدسين ميخائيل وغبريال يا رب أنعم لنا بغفران خطايانا.",
+      "Coptic": "|iten ni`precui`a `nte ni`arxh`aggeloc `eqouab Mixahl nen Gabrihl> Psoic `ari`\\mot nan `mpixw `ebol `nte nennobi.",
+      "English": "Through the intercessions of the holy archangels Michael and Gabriel, O Lord, grant us the forgiveness of our sins.",
+      "Arabiccoptic": "هيتين ني بريسفيا : انتى ني ارشي انجيلوس اثوؤاب ميخائيل نيم غابرييل : ابتشويس اري اهموت نان : امبيكو ايفول انتى نين نوفي",
+      "Englishcoptic": "Hiten ni-epreseei-a ente ni-arshee-angelos ethowab mikhaeel nen Ghabrieel: Epchois -ariehmot nan empi-khoo evol ente nennovi."
+    }
+  ]
+}

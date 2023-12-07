@@ -25,6 +25,12 @@
       "English": "For the mouth of Your Father testifies about You, saying, “You are my Son, today have I begotten You.”",
       "Arabiccoptic": " روف غار امبيك يوت : ات أوي امميثريه خاروك : جي انثوك بي باشيري : أنوك أي اجفوك امفوأوو  .",
       "Englishcoptic": "Rof ghar emPekioo:t etoi emmethre kharok: je en-thok pe PaSheeri: anok aiegvok emvo-oo."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
     }
   ]
 }
