@@ -521,27 +521,27 @@
         },
         {
             "Type": "Main",
-            "Path": "KiahkVespersPraisesExpositionsFirstSunday",
+            "Path": "KiahkVespersPraisesExpositionsWeek1",
             "Rule": 0,
-            "Visible": "isKiahkVespersPraisesExpositionWeek"
+            "Visible": "isKiahkWeek"
         },
         {
             "Type": "Main",
-            "Path": "KiahkVespersPraisesExpositionsSecondSunday",
+            "Path": "KiahkVespersPraisesExpositionsWeek2",
             "Rule": 0,
-            "Visible": "isKiahkVespersPraisesExpositionWeek"
+            "Visible": "isKiahkWeek"
         },
         {
             "Type": "Main",
-            "Path": "KiahkVespersPraisesExpositionsThirdSunday",
+            "Path": "KiahkVespersPraisesExpositionsWeek3",
             "Rule": 0,
-            "Visible": "isKiahkVespersPraisesExpositionWeek"
+            "Visible": "isKiahkWeek"
         },
         {
             "Type": "Main",
-            "Path": "KiahkVespersPraisesExpositionsFourthSunday",
+            "Path": "KiahkVespersPraisesExpositionsWeek4",
             "Rule": 0,
-            "Visible": "isKiahkVespersPraisesExpositionWeek"
+            "Visible": "isKiahkWeek"
         },
         {
             "Type": "Main",

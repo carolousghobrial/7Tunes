@@ -1,7 +1,7 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح عيد احد  المجيد",
+  "EnglishTitle": "Melody for the Feast of Palm Sunday(1)",
   "Hymn": [
     {
       "Type": "Melody",
@@ -9,7 +9,111 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "اليوم قد تمت الأقوال\r\nمن النبوات والأمثال\r\nكما تكلم زكريا وقال\r\nنبوة عن ايسوس بي اخرستوس\r\n",
-      "English": "(1/14) Today the sayings are fulfilled / From the prophecies and the proverbs / As Zechariah prophesied and said / A prophecy about Jesus Christ. (2/14) O Daughter of Zion, a just King is come / He passes through you, riding on a foal / To purify your inhabitants / He is the Savior of all souls (3/14) Though He is our Judge and King / He rode on a colt in humility / Surrounded by His angelic hosts / He appeared in the likeness of men humbly (4/14) Today rejoices Jerusalem / And all the land of Naphtali sings / With a great voice saying, / \"Save us, O holy King!\" (5/14) From the trees they cut branches / And on the road they spread their vests / Chanting with hymns saying, / \"Hosanna in the highest!\" (6/14) From the palm and olive trees / Branches on the road were poured / The people cried out, \"Blessed is He / Who comes in the name of the Lord!\" (7/14) This is the promised day / Of which King David prayed / As he explained in the psalms / \"This is the day the Lord has made\" (8/14) \"Let us rejoice and be glad in it\" / Joyful are the souls of men / The light of dawn has emerged / And has shone upon every Christian (9/14) Today the blind have been granted sight / And the children have spoken / While they are still nursing babes / As David said in the psalms (10/14) \"Out of the mouth of babes and infants, / You have perfected praise\" / Today his saying came to pass / As the Lord Jesus was praised (11/14) When the inhabitants heard of His coming / At the Mount of Olives, they went to meet Him / They saw scribes and Pharisees around Him / His apostles, like shining stars, surrounding Him (12/14) We were all in Satan's trap / Through the sin of Adam, the first man / He came and saved the believers / His salvation reached every human (13/14) The pagans drew near to Him / And each one received what he sought / But Israel did not know the Lord / They strayed away and fought the law (14/14) The ignorant walked in uprightness / But the wise ignored the visible proof / Denying the power of the glorified / And was blind to the tangible truth"
+      "English": "Today the sayings are fulfilled \n From the prophecies and the proverbs \n As Zechariah prophesied and said \n A prophecy about Jesus Christ.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nيا ابنة صهيون سوف يأتيك\r\nملك عادل ليطهر ساكنيك\r\nوهو راكب على جحش ويمر فيك\r\nوهو مخلص سائر النفوس\r\n",
+      "English": "\nO Daughter of Zion, a just King is come \n He passes through you, riding on a foal \n To purify your inhabitants \n He is the Savior of all souls\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nاليوم صار في شبه إنسان\r\nراكبا على ابن اتان\r\nبتواضعه وهو الديان\r\nوحوله طقوس ني انجليوس\r\n",
+      "English": "\nThough He is our Judge and King \n He rode on a colt in humility \n Surrounded by His angelic hosts \n He appeared in the likeness of men humbly\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nاليوم تفرح أورشليم\r\nوكل كور نفتاليم\r\nوهم يصرخون بصوت عظيم\r\nخلصنا أيها الملك القدوس\r\n",
+      "English": "\nToday rejoices Jerusalem \n And all the land of Naphtali sings \n With a great voice saying, \n \"Save us, O holy King!\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nفي الطريق فرشوا قمصان\r\nومن الشجر قطعوا الأغصان\r\nوهم يرتلون بالألحان\r\nويقولون المجد لله القدوس\r\n",
+      "English": "\nFrom the trees they cut branches \n And on the road they spread their vests \n Chanting with hymns saying, \n \"Hosanna in the highest!\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nوكانت تلك الغصون\r\nمن النخيل والزيتون\r\nوجميع الشعوب يصيحون\r\nهذا ملكنا محيي النفوس\r\n",
+      "English": "\nFrom the palm and olive trees \n Branches on the road were poured \n The people cried out, \"Blessed is He \n Who comes in the name of the Lord!\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nهذا هو اليوم الموعود\r\nالذي قال عنه داود\r\nهذا الذي صنعه المعبود\r\nكما شرح في ابصالموس\r\n",
+      "English": "\nThis is the promised day \n Of which King David prayed \n As he explained in the psalms \n \"This is the day the Lord has made\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nهلموا لنسر ونفرح\r\nوتبتهج الأنفس وتنجح\r\nطلع الفجر ولاح وأصبح\r\nوأشرق على ني اخرستيانوس\r\n",
+      "English": "\n\"Let us rejoice and be glad in it\" \n Joyful are the souls of men \n The light of dawn has emerged \n And has shone upon every Christian\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nاليوم أبصرت العميات\r\nوقد نطق الصبيان\r\nوهم أطفال رضعان\r\nكما ذكر داود في ابصالموس\r\n",
+      "English": "\nToday the blind have been granted sight \n And the children have spoken \n While they are still nursing babes \n As David said in the psalms\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nمن فم الأطفال الرضعان،\r\nهيئت لك سُبْحاً بإيمان،\r\nفتم قوله اليوم وبان،\r\nبتسبيحهم باشويس إيسوس.\r\n",
+      "English": "\n\"Out of the mouth of babes and infants, \n You have perfected praise\" \n Today his saying came to pass \n As the Lord Jesus was praised\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nفلما سمع بقدومه القاطنون،\r\nخرجوا لملاقاته في جبل الزيتون،\r\nفنظروه وحوله كتبة وفريسيون،\r\nومعه رسله كالشموس.\r\n",
+      "English": "\nWhen the inhabitants heard of His coming \n At the Mount of Olives, they went to meet Him \n They saw scribes and Pharisees around Him \n His apostles, like shining stars, surrounding Him\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nكنا جميعاً في فخ الشيطان،\r\nبخطية آدم أبي الإنسان،\r\nفجاء وخَلَّص ذَوِي الإيمان،\r\nوعم هداه الرئيس والمرؤوس.\r\n",
+      "English": "\nWe were all in Satan's trap \n Through the sin of Adam, the first man \n He came and saved the believers \n His salvation reached every human\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nعباد الأصنام فازوا منه بالقرب،\r\nونال كل منهم ما أحب،\r\nوشعب إسرائيل لم يعرف الرب،\r\nولذا ضل وخالف الناموس.\r\n",
+      "English": "\nThe pagans drew near to Him \n And each one received what he sought \n But Israel did not know the Lord \n They strayed away and fought the law\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nوقد أصبح الجاهل في إعتدال،\r\nوصار العاقل في ضلال،\r\nوأنكر قدرة ذي الجلال،\r\nوتعامى عن الحق المحسوس.\r\n",
+      "English": "\nThe ignorant walked in uprightness \n But the wise ignored the visible proof \n Denying the power of the glorified \n And was blind to the tangible truth\n"
     }
   ]
 }

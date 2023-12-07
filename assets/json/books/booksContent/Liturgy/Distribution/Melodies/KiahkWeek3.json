@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح الاحد الثالث من شهر كيهك",
+  "EnglishTitle": "Melody for the Third Week of Kiahk",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "خطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "خطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": " A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nالسماء الثانية الجسدانية\r\nمريم عرش الله المتعال\r\nقبلت البشرى الجبرائيلية\r\nحين بشرها النذير وقال\r\n",
+      "Arabic": "\nالسماء الثانية الجسدانية\nمريم عرش الله المتعال\nقبلت البشرى الجبرائيلية\nحين بشرها النذير وقال\n",
       "English": "\nA second bodily heaven, \n Mary, the throne of the Almighty. \n She accepted the preaching of Gabriel \n When the angel preached to her gently:\n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nبالابن الخالق تحبلين\r\nوأعطاها علامة للتصديق\r\nاليصابات عاقر لسنين\r\nواليوم حبلى بنبي وصديق\r\n",
+      "Arabic": "\nبالابن الخالق تحبلين\nوأعطاها علامة للتصديق\nاليصابات عاقر لسنين\nواليوم حبلى بنبي وصديق\n",
       "English": "\n\"You will bear the Creator.\" \n And he gave her a sign to believe: \n \"Today Elizabeth is with child \n After being barren for years.\"\n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nتمت ستة أشهر بتمام\r\nلها من بعد العقورية\r\nلا يقول إلهك قط كلام\r\nإلا وفيه قدرة أزلية\r\n",
+      "Arabic": "\nتمت ستة أشهر بتمام\nلها من بعد العقورية\nلا يقول إلهك قط كلام\nإلا وفيه قدرة أزلية\n",
       "English": "\nShe completed six full months \n After being barren. \n God's words and promises \n Are full of eternal power. \n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nترأى البشير صاعد لمولاه\r\nفكرت مريم قائلة أقوم\r\nلانظر هذا الحبل وآراه\r\nفتركت الناصرة والتخوم\r\n",
+      "Arabic": "\nترأى البشير صاعد لمولاه\nفكرت مريم قائلة أقوم\nلانظر هذا الحبل وآراه\nفتركت الناصرة والتخوم\n",
       "English": "\nMary saw the announcer ascending up \n Then thought, \"I shall arise and see; \n I will go witness this pregnancy,\" \n So she left Nazareth and the vicinity.\n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nجاءت الحمامة الوديعة\r\nكندي حرمون فوق جبل صهيون\r\nسحابة وأمطارها بديعة\r\nأمطرت طل الرخا في صهيون\r\n",
+      "Arabic": "\nجاءت الحمامة الوديعة\nكندي حرمون فوق جبل صهيون\nسحابة وأمطارها بديعة\nأمطرت طل الرخا في صهيون\n",
       "English": "\nThe pure dove came in \n As the dew of Hermon on Mount Zion; \n A cloud with gentle rain \n Drizzled softly upon Zion.\n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nجذب شمس البر سواعى ضياه\r\nحملا للعجلة النارية\r\nوفي عين كارم حل برؤياه\r\nودخل إلى بيت زكريا\r\n",
+      "Arabic": "\nجذب شمس البر سواعى ضياه\nحملا للعجلة النارية\nوفي عين كارم حل برؤياه\nودخل إلى بيت زكريا\n",
       "English": "\nThe Sun of Righteousness evoked His rays \n Carried by the fiery chariot. \n In a city of Judah He appeared \n And entered the house of Zechariah. \n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nحل القصر النفساني\r\nوأقدامه عجلات نارية\r\nحامل واحد ليس له ثاني\r\nخالق أزلي نار محيية\r\n",
+      "Arabic": "\nحل القصر النفساني\nوأقدامه عجلات نارية\nحامل واحد ليس له ثاني\nخالق أزلي نار محيية\n",
       "English": "\nThe spiritual castle came in \n Her feet like wheels of fire; \n Carrying the only-begotten One \n The eternal Creator, Life-Giving Fire.\n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nحمامة يمامة كقول سليمان\r\nونخلة حاملة أثمار الحياة\r\nبشرتنا بسلام وطمأن\r\nوالشفاء من منكبيها قبلناه\r\n",
+      "Arabic": "\nحمامة يمامة كقول سليمان\nونخلة حاملة أثمار الحياة\nبشرتنا بسلام وطمأن\nوالشفاء من منكبيها قبلناه\n",
       "English": "\nA dove, as Solomon called her; \n A palm tree with life-giving fruit. \n Bringing tidings of peace and comfort; \n In its wings is our healing.\n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nحمامة تصيح في أراضينا\r\nوقفت في بلاد الأموات\r\nوعلى منكبيها بارينا\r\nليصير الأرض كما السموات\r\n",
+      "Arabic": "\nحمامة تصيح في أراضينا\nوقفت في بلاد الأموات\nوعلى منكبيها بارينا\nليصير الأرض كما السموات\n",
       "English": "\nA bird calling in our land; \n In the land of the dead, standing. \n Carrying our Redeemer; \n Transforming earth into heaven. \n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخرج العبد يتلقى مولاه\r\nجوف العاقر له ستر حجاب\r\nوجوف الصبية فيه انشاه\r\nفي عرشه اللحمي وفي حضن الآب\r\n",
+      "Arabic": "\nخرج العبد يتلقى مولاه\nجوف العاقر له ستر حجاب\nوجوف الصبية فيه انشاه\nفي عرشه اللحمي وفي حضن الآب\n",
       "English": "\nThe servant rejoiced to meet his King; \n The womb of the barren is His veil. \n In the womb of the Virgin He was formed, \n In the bodily throne, but with the Father still.\n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخرج الصابغ للقاء ربه\r\nوالصنعة احتاجت للصانع\r\nوتنازل إليها بغزير حبه\r\nفعل كل شيء بغير مانع\r\n",
+      "Arabic": "\nخرج الصابغ للقاء ربه\nوالصنعة احتاجت للصانع\nوتنازل إليها بغزير حبه\nفعل كل شيء بغير مانع\n",
       "English": "\nThe Baptist went to meet his Lord; \n The creation needed the Creator. \n He humbled Himself through His great love; \n He did all things with great splendor.\n"
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nدنت العاقر لتعاين الأمر\r\nوالليل المظلم حضن النهار\r\nالعاقر ليل وسراجعها القمر\r\nوالصبي نهار وشمس الأبرار\r\n",
+      "Arabic": "\nدنت العاقر لتعاين الأمر\nوالليل المظلم حضن النهار\nالعاقر ليل وسراجعها القمر\nوالصبي نهار وشمس الأبرار\n",
       "English": "\nThe barren began to understand; \n Day embraced the night of darkness: \n The barren is the night; her light is the moon; \n The Child is the day and Sun of Righteousness \n"
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -144,7 +144,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nدل السيد القادر يده\r\nوأدناها من داخل الجوف\r\nوبيمينه عمد عبده\r\nونضح عليه رشاش الزوف\r\n",
+      "Arabic": "\nدل السيد القادر يده\nوأدناها من داخل الجوف\nوبيمينه عمد عبده\nونضح عليه رشاش الزوف\n",
       "English": "\nThe all powerful Master \n Stretched His hand from the womb. \n By His right hand He baptized His servant \n And anointed him in His mother's womb.\n"
     },
     {
@@ -152,7 +152,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nدهش العبد من لقاء مولاه\r\nوتحرك وتهلل في الجوف\r\nسجد المخلوق لمن إنشاه\r\nوامتلأ رهبة ورعدة مع خوف\r\n",
+      "Arabic": "\nدهش العبد من لقاء مولاه\nوتحرك وتهلل في الجوف\nسجد المخلوق لمن إنشاه\nوامتلأ رهبة ورعدة مع خوف\n",
       "English": "\nThe servant was astonished; \n He moved and was filled with joy. \n He worshipped his Creator \n And was full of fear and awe.\n"
     },
     {
@@ -160,7 +160,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nذا من يوهب عبده عطاياه\r\nويعود يتسولها منه\r\nإلا إلهنا المفتقر برضاه\r\nوبمسكنته اغنى عبده\r\n",
+      "Arabic": "\nذا من يوهب عبده عطاياه\nويعود يتسولها منه\nإلا إلهنا المفتقر برضاه\nوبمسكنته اغنى عبده\n",
       "English": "\nWho is He who grants His gifts \n And then asks it of His servant? \n It is our God who humbled Himself \n That He may enrich His servant. \n"
     },
     {
@@ -168,7 +168,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -176,7 +176,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nربنا عمد يوحنا عبده\r\nفي الجوف وملاه بروح التهليل\r\nورجع سأل الصبغة منه\r\nكأنه محتاج وهو مغنى جليل\r\n",
+      "Arabic": "\nربنا عمد يوحنا عبده\nفي الجوف وملاه بروح التهليل\nورجع سأل الصبغة منه\nكأنه محتاج وهو مغنى جليل\n",
       "English": "\nOur Lord baptized His servant John; \n In the womb, He filled him with joy. \n Then He asked baptism of him \n As if in need; but He is the One who bestows.\n"
     },
     {
@@ -184,7 +184,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nرقص داود قدام تابوت العهد\r\nوهو محمول على الدواب\r\nرقص يوحنا قدام رب المجد\r\nوهو في بطن أمه وفي حضن الآب\r\n",
+      "Arabic": "\nرقص داود قدام تابوت العهد\nوهو محمول على الدواب\nرقص يوحنا قدام رب المجد\nوهو في بطن أمه وفي حضن الآب\n",
       "English": "\nBefore the Ark of the Covenant \n David rejoiced and danced. \n Likewise, while Christ was in the womb \n John the Baptist rejoiced and danced.\n"
     },
     {
@@ -192,7 +192,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nزمر يا داود بأرغن وقيثار\r\nقل الرحمة والعدل تلاقيا\r\nالحق اشرق من الأرض اجهار\r\nوالعدل هو يسوع أهيا شراهيا\r\n",
+      "Arabic": "\nزمر يا داود بأرغن وقيثار\nقل الرحمة والعدل تلاقيا\nالحق اشرق من الأرض اجهار\nوالعدل هو يسوع أهيا شراهيا\n",
       "English": "\nO David, play the organ and harp, \n For mercy and justice did embrace. \n Justice has shown from the earth; \n Mercy is Jesus who came to save. \n"
     },
     {
@@ -200,7 +200,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -208,7 +208,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nسمعت العجوز خاص السلام\r\nوهو خارج من فم صبية\r\nسلام من فم حمام ويمام\r\nفامتلأت بالنعمة الإلهية\r\n",
+      "Arabic": "\nسمعت العجوز خاص السلام\nوهو خارج من فم صبية\nسلام من فم حمام ويمام\nفامتلأت بالنعمة الإلهية\n",
       "English": "\nThe elder heard the peace \n Out of the young virgin's lips; \n From the mouth of a pure dove \n She was filled with divine grace.\n"
     },
     {
@@ -216,7 +216,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nشاهد الصابغ والدة ربه\r\nوامتلأ حكمة وسر وبرهان\r\nولوقته صاح على فم أمه\r\nقال مباركة أنت في النسوان\r\n",
+      "Arabic": "\nشاهد الصابغ والدة ربه\nوامتلأ حكمة وسر وبرهان\nولوقته صاح على فم أمه\nقال مباركة أنت في النسوان\n",
       "English": "\nThe forerunner saw his Creator's mother \n And was filled with grace and wisdom. \n He spoke through his mother's mouth: \n \"Blessed are you among women!\"\n"
     },
     {
@@ -224,7 +224,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nصارت حواء أم الأحياء\r\nوقد صارت أم الأموات\r\nلما لعنت بالمعصية\r\nولعنوا بها كل النسوات\r\n",
+      "Arabic": "\nصارت حواء أم الأحياء\nوقد صارت أم الأموات\nلما لعنت بالمعصية\nولعنوا بها كل النسوات\n",
       "English": "\nEve the mother of all the living \n Became the mother of all the dead; \n When she was cursed for disobedience \n To Hades all humanity was led. \n"
     },
     {
@@ -232,7 +232,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -240,7 +240,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوصرت مباركة حين باركك\r\nربك بملاكه غبريال\r\nوجميع النسوة تباركوا بك\r\nوعتقوا من كل ضلال\r\n",
+      "Arabic": "\nوصرت مباركة حين باركك\nربك بملاكه غبريال\nوجميع النسوة تباركوا بك\nوعتقوا من كل ضلال\n",
       "English": "\nMary was divinely blessed \n With the greeting of Gabriel the angel. \n All women became blessed by her \n And released from the curse and its danger.\n"
     },
     {
@@ -248,7 +248,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nضلال آدم أضل الرجال\r\nوالجميع صاروا به ملاعيين\r\nوبيسوع ابنك الرب المتعال\r\nتبارك جنسهم أجمعين\r\n",
+      "Arabic": "\nضلال آدم أضل الرجال\nوالجميع صاروا به ملاعيين\nوبيسوع ابنك الرب المتعال\nتبارك جنسهم أجمعين\n",
       "English": "\nAdam's fall affected all men; \n The curse, they all inherited. \n Through Jesus the exalted Lord \n The human race was blessed.\n"
     },
     {
@@ -256,7 +256,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nضمنت لي كل البركات\r\nمن أين لي مجيء أم ربي إلى\r\nطوباك يا من قبلت الكلمات\r\nوامنت بأنك أم الحي\r\n",
+      "Arabic": "\nضمنت لي كل البركات\nمن أين لي مجيء أم ربي إلى\nطوباك يا من قبلت الكلمات\nوامنت بأنك أم الحي\n",
       "English": "\nYou secured for me all blessing; \n You came to me, mother of my God. \n Blessed are you who accepted and believed \n That you would be the Mother of God. \n"
     },
     {
@@ -264,7 +264,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -272,7 +272,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nطاب فلب مريم البتول\r\nصاحت للوقت بصوت ما أبهاه\r\nوسبحت الله وبدت تقول\r\nتتعظم نفسي بالإله\r\n",
+      "Arabic": "\nطاب فلب مريم البتول\nصاحت للوقت بصوت ما أبهاه\nوسبحت الله وبدت تقول\nتتعظم نفسي بالإله\n",
       "English": "\nThe heart of pure Mary was comforted; \n With a beautiful voice, she was singing: \n \"My soul magnifies the Lord;\" \n She praised the Lord with thanksgiving.\n"
     },
     {
@@ -280,7 +280,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nظهر تهليل روحي بالخلاص\r\nخالقي في احشائي وهو الصانع إياه\r\nنظر لتواضعي بغير انتقاص\r\nأنا أمته وامه وسماه\r\n",
+      "Arabic": "\nظهر تهليل روحي بالخلاص\nخالقي في احشائي وهو الصانع إياه\nنظر لتواضعي بغير انتقاص\nأنا أمته وامه وسماه\n",
       "English": "\n\"My Creator is in my womb, \n I rejoice in God my Savior. \n He beheld my lowly state, \n I, His handmaid and mother,\"\n"
     },
     {
@@ -288,7 +288,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nظهر فضله لكل الأجيال\r\nومن الان يعطوني الطوبى\r\nقد حل في أحشائي ابن متعال\r\nوأكمل بي الرموز المكتوبة\r\n",
+      "Arabic": "\nظهر فضله لكل الأجيال\nومن الان يعطوني الطوبى\nقد حل في أحشائي ابن متعال\nوأكمل بي الرموز المكتوبة\n",
       "English": "\n\"He showed His mercy to all generations, \n Henceforth, they will all call me blessed. \n The Son of the highest dwelt in my womb; \n Through me, all symbols are fulfilled.\" \n"
     },
     {
@@ -296,7 +296,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -304,7 +304,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nعظائم صنعها بي المتعال\r\nقدوس اسمه في علو سماه\r\nومراحمه إلى كل جيل الأجيال\r\nوعهوده أكملها لإصفياه\r\n",
+      "Arabic": "\nعظائم صنعها بي المتعال\nقدوس اسمه في علو سماه\nومراحمه إلى كل جيل الأجيال\nوعهوده أكملها لإصفياه\n",
       "English": "\n\"The high God performed wonders; \n Holy is His name in heaven. \n His mercies are from generation to generation; \n His promises to His people given.\"\n"
     },
     {
@@ -312,7 +312,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nعلو ذراعه صنع القوات\r\nوالأعزاء من الرتب أنزلهم\r\nاسقط الشياطين من السموات\r\nليجلس الناس في مراتبهم\r\n",
+      "Arabic": "\nعلو ذراعه صنع القوات\nوالأعزاء من الرتب أنزلهم\nاسقط الشياطين من السموات\nليجلس الناس في مراتبهم\n",
       "English": "\n\"He made wonders with His strong arm; \n He brought down the haughty. \n He expelled demons from heaven; \n To seat His people in glory.\"\n"
     },
     {
@@ -320,7 +320,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nعال الجائعين واشبعهم خيرات\r\nوالأغنياء قد أرسلهم\r\nفارغين فقراء من الصالحات\r\nليحتاجوا إليه ويخلصهم\r\n",
+      "Arabic": "\nعال الجائعين واشبعهم خيرات\nوالأغنياء قد أرسلهم\nفارغين فقراء من الصالحات\nليحتاجوا إليه ويخلصهم\n",
       "English": "\n\"He fed the hungry with goodness \n And sent the rich away without compensation; \n Empty of all goodness, \n That they may seek Him for salvation.\" \n"
     },
     {
@@ -328,7 +328,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -336,7 +336,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nعندما تزوجت رفقة بثبات\r\nودعوها اخوتها قائلين\r\nأنت يا اختنا لألوف وربوات\r\nوزرعك يرث مدن معاندين\r\n",
+      "Arabic": "\nعندما تزوجت رفقة بثبات\nودعوها اخوتها قائلين\nأنت يا اختنا لألوف وربوات\nوزرعك يرث مدن معاندين\n",
       "English": "\nWhen Rebecca was given to marriage \n Her brothers spoke to her saying, \n \"May you increase thousands upon thousands; \n May your offspring possess their enemies' dwellings.\"\n"
     },
     {
@@ -344,7 +344,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nغابت رفقة وظهرت مريم\r\nقالت هذا القول حقا يقين\r\nطرد المعاندين من جلال أعظم\r\nورفع عوضهم المتواضعين\r\n",
+      "Arabic": "\nغابت رفقة وظهرت مريم\nقالت هذا القول حقا يقين\nطرد المعاندين من جلال أعظم\nورفع عوضهم المتواضعين\n",
       "English": "\nRebecca is gone, and now Mary \n Spoke the same prophecy and said, \n \"He removed the proud in their heart \n And with the humble replaced them.\"\n"
     },
     {
@@ -352,7 +352,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفتاة إسرائيل ابن إبراهيم\r\nعضده ورفعه وبارك زرعه\r\nمن نسلى أنا ابنة يواقيم\r\nظهر منه ربه ورفعه\r\n",
+      "Arabic": "\nفتاة إسرائيل ابن إبراهيم\nعضده ورفعه وبارك زرعه\nمن نسلى أنا ابنة يواقيم\nظهر منه ربه ورفعه\n",
       "English": "\n\"His servant Israel, son of Abraham, \n He strengthened and blessed. \n The Offspring of the daughter of Joachim; \n His Lord appeared and exalted\" \n"
     },
     {
@@ -360,7 +360,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -368,7 +368,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقد صار ولدى نسل ليعقوب\r\nوإبراهيم واسحق نالا الميثاق\r\nقد حل في احشائي إله مرهوب\r\nوأكمل بي الموعد والميثاق\r\n",
+      "Arabic": "\nقد صار ولدى نسل ليعقوب\nوإبراهيم واسحق نالا الميثاق\nقد حل في احشائي إله مرهوب\nوأكمل بي الموعد والميثاق\n",
       "English": "\n\"My Son, the offspring of Jacob, \n Abraham and Isaac received the promise: \n In my womb dwelt the fearful God \n And fulfilled through me all promises.\"\n"
     },
     {
@@ -376,7 +376,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقامت مريم عند اليصابات\r\nثلاثة أشهر متوالية\r\nكمل الزمان وجاءت الآوقات\r\nلميلاد كاروز المعمودية\r\n",
+      "Arabic": "\nقامت مريم عند اليصابات\nثلاثة أشهر متوالية\nكمل الزمان وجاءت الآوقات\nلميلاد كاروز المعمودية\n",
       "English": "\nMary dwelt for three months \n With Elizabeth her kinswoman, \n Until the completion of her time, \n To give birth to the preacher of baptism.\n"
     },
     {
@@ -384,7 +384,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nكملت العجوز الصبية\r\nوقالت لها أمض بسلام\r\nيا مركبة لحمية ونارية\r\nجالس عليها منشئ الأنام\r\n",
+      "Arabic": "\nكملت العجوز الصبية\nوقالت لها أمض بسلام\nيا مركبة لحمية ونارية\nجالس عليها منشئ الأنام\n",
       "English": "\nThe elder woman spoke to the young girl \n Saying, \"Go in peace \n O fiery chariot of God, \n On which sat the King of peace.\" \n"
     },
     {
@@ -392,7 +392,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     },
     {
@@ -400,7 +400,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلا يمكن ان الأمة تجلس\r\nوالسيدة تخدم بقيام\r\nامض لبيتك باسماء مقدس\r\nرجعت البتول إلى بيتها بسلام\r\n",
+      "Arabic": "\nلا يمكن ان الأمة تجلس\nوالسيدة تخدم بقيام\nامض لبيتك باسماء مقدس\nرجعت البتول إلى بيتها بسلام\n",
       "English": "\nHow could the handmaiden rest \n While her mistress served her? \n Depart to your house, O holy heaven; \n In peace the pure virgin returned.\n"
     },
     {
@@ -408,7 +408,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nمضت راجعة للناصرية\r\nحمامة في فمها غصن الزيتون\r\nطردت طوفان كل خطية\r\nقد بشرتنا بإله مكنون\r\n",
+      "Arabic": "\nمضت راجعة للناصرية\nحمامة في فمها غصن الزيتون\nطردت طوفان كل خطية\nقد بشرتنا بإله مكنون\n",
       "English": "\nShe returned to Nazareth; \n A dove with an olive branch in her mouth. \n She expelled the flood of sin \n And preached to us the hidden God.\n"
     },
     {
@@ -416,7 +416,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيا من خلصت سفينة نوح\r\nوعلى رسلك حليت بالروح\r\nاجعل باب البيعة دائما مفتوح\r\nبصلاة مريم ريحانة النفوس\r\n",
+      "Arabic": "\nيا من خلصت سفينة نوح\nوعلى رسلك حليت بالروح\nاجعل باب البيعة دائما مفتوح\nبصلاة مريم ريحانة النفوس\n",
       "English": "\nO You who saved Noah's ark; \n Your Spirit descended on Your disciples. \n Keep the gates of the Church open for us, \n Through the intercessions of Saint Mary. \n"
     },
     {
@@ -424,7 +424,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخطرت حمامة في بيت زكريا\r\nوفي أميالها أعطت سلام\r\nفخرجت ذات العقورية\r\nللقاء والدة منشئ الأنام\r\n",
+      "Arabic": "\nخطرت حمامة في بيت زكريا\nوفي أميالها أعطت سلام\nفخرجت ذات العقورية\nللقاء والدة منشئ الأنام\n",
       "English": "\n A dove appeared at Zacharias' house; \n She gave peace as she turned. \n The barren one came out \n To meet the Mother of the Creator.\n"
     }
   ]

@@ -14,6 +14,7 @@ import {
   getCopticDate,
   getParamounDate,
 } from "../helpers/copticMonthsHelper";
+import { TakeFromHathorTwo } from "../viewModel/getFullViewModel.js";
 const TennavRule = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const fastsFeasts = getCopticFastsFeasts(currentSeason.gregorianYear);
@@ -239,6 +240,14 @@ const isSeason = (motherSource, path) => {
     case "FEAST_OF_CROSS":
     case "FEAST_OF_CROSS_3":
       if (path.toLowerCase()?.includes("cross")) {
+        return true;
+      }
+      return false;
+    case "NATIVITY_PARAMOUN":
+      if (
+        path.toLowerCase()?.includes("nativity") &&
+        path.toLowerCase()?.includes("paramoun")
+      ) {
         return true;
       }
       return false;
@@ -515,26 +524,34 @@ const isNOTInHolyFifties = (motherSource, path) => {
       return true;
   }
 };
-const isKiahkVespersPraisesExpositionWeek = (motherSource, path) => {
+const isKiahkWeek = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const todayPrayer = useSelector((state) => state.settings.todayPrayer);
+  const isHathorMonth = currentSeason.copticMonth === "Hathor";
+  const isKoiahkMonth = currentSeason.copticMonth === "Koiahk";
+  const isWeek1to4 =
+    currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4;
+  const isWeek5 = currentSeason.weekOfMonth === 5;
+  const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
 
-  if (isKiahkVespersPraises()) {
-    if (todayPrayer) {
-      const { week } = currentSeason;
-      const weekKeywords = ["first", "second", "third", "fourth"];
-
-      // Check if path includes any of the weekKeywords based on the current week
-      return weekKeywords.some(
-        (keyword) =>
-          path.toLowerCase()?.includes(keyword) &&
-          path.toLowerCase()?.includes(week.toString())
-      );
+  if (isWeek1to4) {
+    if (
+      isTakeFromHathor &&
+      isKoiahkMonth &&
+      currentSeason.key !== "NATIVITY_PARAMOUN"
+    ) {
+      const weekNum =
+        currentSeason.weekOfMonth + 1 > 4
+          ? currentSeason.weekOfMonth + 1
+          : currentSeason.weekOfMonth;
+      console.log(weekNum);
+      return path.toLowerCase().includes(weekNum);
     } else {
-      return true;
+      console.log(path);
+      return path.toLowerCase().includes(currentSeason.weekOfMonth);
     }
+  } else if (isTakeFromHathor && isHathorMonth && isWeek5) {
+    return path.toLowerCase().includes(1);
   }
-
   return false;
 };
 const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
@@ -1262,16 +1279,20 @@ const IsNonFastingDays = (motherSource, path) => {
   const timeTransition = useSelector((state) => state.settings.timeTransition);
 
   if (
-    (currentSeason.key === FeastEnum.FEAST_OF_CROSS ||
-      currentSeason.key === FeastEnum.FEAST_OF_CROSS_3) &&
-    path.toLowerCase().includes("taishori")
+    currentSeason.key === FeastEnum.FEAST_OF_CROSS ||
+    currentSeason.key === FeastEnum.FEAST_OF_CROSS_3
   ) {
     return false;
   }
-  if (!isInFast(timeTransition) || currentSeason.type === "feast") {
+  if (currentSeason.type === "feast") {
+    return true;
+  }
+  if (!isInFast(timeTransition)) {
     return true;
   } else {
-    return false;
+    return currentSeason.dayOfWeek === 6 || currentSeason.dayOfWeek === 0
+      ? true
+      : false;
   }
 };
 const IsFastingDays = (motherSource, path) => {
@@ -1299,8 +1320,12 @@ const IsFastingDays = (motherSource, path) => {
     return false;
   }
 
-  if (isInFast(timeTransition) && currentSeason.type !== "feast") {
-    return true;
+  if (!isInFast(timeTransition)) {
+    return false;
+  } else {
+    return currentSeason.dayOfWeek === 6 || currentSeason.dayOfWeek === 0
+      ? false
+      : true;
   }
 
   return false;
@@ -1487,6 +1512,7 @@ export function TakeFromHathor(currentSeason) {
     return false;
   }
 }
+
 const VisibleRules = {
   hide: hide,
   TennavRule: TennavRule,
@@ -1505,7 +1531,7 @@ const VisibleRules = {
   isKiahkVespersPraises: isKiahkVespersPraises,
   isLentenVespersPraises: isLentenVespersPraises,
   isNOTVespersPraises: isNOTVespersPraises,
-  isKiahkVespersPraisesExpositionWeek: isKiahkVespersPraisesExpositionWeek,
+  isKiahkWeek: isKiahkWeek,
   isLentVespersPraisesExpositionWeek: isLentVespersPraisesExpositionWeek,
   isInHolyFifties: isInHolyFifties,
   isNOTInHolyFifties: isNOTInHolyFifties,

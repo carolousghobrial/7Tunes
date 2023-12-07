@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح ان فادينا دعانا",
+  "EnglishTitle": "Our Savior, called upon us Melody ",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ان فادينا دعانا\r\nكلنا نحي به\r\nمعطيا عهدا جديدا\r\nضمن سر حبه\r\n",
+      "Arabic": "ان فادينا دعانا\nكلنا نحي به\nمعطيا عهدا جديدا\nضمن سر حبه\n",
       "English": "Our Savior, called upon us \n All of us, to live with Him \n Giving us, a new covenant \n Among mysteries, of His love\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nأخذ الخبز وبار\r\nكه ثم شكرًا\r\nجسدى هذا كلوه\r\nقال ذا وكسرا\r\n",
+      "Arabic": "\nأخذ الخبز وبار\nكه ثم شكرًا\nجسدى هذا كلوه\nقال ذا وكسرا\n",
       "English": "\nHe took bread, and blessed it \n Then He, gave thanks \n \"Take My Body and, eat of It\" \n He said this, and then broke It \n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nناول الكأس وقال\r\nهذا عهد للحياة\r\nذا دمي المسفوك عنكم\r\nيغفر أثم الخطاة\r\n",
+      "Arabic": "\nناول الكأس وقال\nهذا عهد للحياة\nذا دمي المسفوك عنكم\nيغفر أثم الخطاة\n",
       "English": "\nHe gave the chalice, and said to them \n This is a covenant, of life \n This is My blood, shed for you \n For the remission, of all sins \n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nأنه المن السماوي\r\nأكله يحيي الآنام\r\nيملأ النفس حياة\r\nوكمالًا وسلام\r\n",
+      "Arabic": "\nأنه المن السماوي\nأكله يحيي الآنام\nيملأ النفس حياة\nوكمالًا وسلام\n",
       "English": "\nThe heavenly, manna \n Eating It, brings forth life \n It gives life, to the soul \n Fulfillment, and tranquility \n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nهوذا القوت السمائي\r\nجسد الفادي الكريم\r\nوالدم الطاهر يعطي\r\nضد قوات الجحيم\r\n",
+      "Arabic": "\nهوذا القوت السمائي\nجسد الفادي الكريم\nوالدم الطاهر يعطي\nضد قوات الجحيم\n",
       "English": "\nHere is the food, of heaven \n The Savior's holy Body \n And the pure, Blood given \n To resist the powers of Hades \n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nرحمة الرب تناهت\r\nضمن ذا السر العجيب\r\nوبه النفس تلاقي\r\nربها الفادي الحبيب\r\n",
+      "Arabic": "\nرحمة الرب تناهت\nضمن ذا السر العجيب\nوبه النفس تلاقي\nربها الفادي الحبيب\n",
       "English": "\nGod's mercy, beyond measure \n Is within this, wondrous mystery \n Where the soul, is united with \n Her Beloved, Savior and Lord \n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيا له سرًا عظيمًا\r\nذا جلال وبهاء\r\nفاق عقل الناس طرا\r\nونهي أهل السماء\r\n",
+      "Arabic": "\nيا له سرًا عظيمًا\nذا جلال وبهاء\nفاق عقل الناس طرا\nونهي أهل السماء\n",
       "English": "\nOh how great, is this sacrament \n Of splendor, and brilliance \n Surpassing the mind of men \n And the mind of the heavenly \n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nكل شخص ذى حياة\r\nوالملائكة والجنود\r\nيخضعون له طرًا\r\nبوقار وسجود\r\n",
+      "Arabic": "\nكل شخص ذى حياة\nوالملائكة والجنود\nيخضعون له طرًا\nبوقار وسجود\n",
       "English": "\nEvery person, that has life \n And angels, and principalities \n To Him, they all submit \n In reverence, and worship \n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nربنا رب العطايا\r\nصاحب المجد العظيم\r\nقد غدا دومًا بقربي\r\nوهو في قلبي يقيم\r\n",
+      "Arabic": "\nربنا رب العطايا\nصاحب المجد العظيم\nقد غدا دومًا بقربي\nوهو في قلبي يقيم\n",
       "English": "\nOur Lord, the giver of gifts \n Who is great, in glory \n Is always, near to me \n In my heart, He is dwelling \n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nتفرح النفس بهذا\r\nثم يكمل الوفاق\r\nكلما دنوت منه\r\nزادني فيه اشتياق\r\n",
+      "Arabic": "\nتفرح النفس بهذا\nثم يكمل الوفاق\nكلما دنوت منه\nزادني فيه اشتياق\n",
       "English": "\nThe soul rejoices, in all this \n And victory, is complete \n Every time 1, draw near him \n He makes me, long more for Him \n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nأشرب سر الحبيب\r\nفهو لي خير طبيب\r\nأنه الدواء لنفسي\r\nوبه الغم يغيب\r\n",
+      "Arabic": "\nأشرب سر الحبيب\nفهو لي خير طبيب\nأنه الدواء لنفسي\nوبه الغم يغيب\n",
       "English": "\nI take in my, Beloved's sacrament \n He is the best, remedy for me \n He's the healer, of my soul \n And with Him, gloom disappears \n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيغتذي منه فؤادي\r\nثم يشتد الرجاء\r\nوبه الإيمان يغدو\r\nمع حبي في نماء\r\n",
+      "Arabic": "\nيغتذي منه فؤادي\nثم يشتد الرجاء\nوبه الإيمان يغدو\nمع حبي في نماء\n",
       "English": "\nHe is the nourishment, of my heart \n Then my hope, is strengthened \n Every day, my faith and \n My love for, Him increases \n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيهرب الشر إذا ما\r\nكنت منه أقرب\r\nوكذا الأحزان والآ\r\nلام عني تهرب\r\n",
+      "Arabic": "\nيهرب الشر إذا ما\nكنت منه أقرب\nوكذا الأحزان والآ\nلام عني تهرب\n",
       "English": "\nWhen I draw, nearer to Him \n Evil will, depart away \n And all pain, also and \n Sadness, will flee away \n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nنحن لا نخشي المنايا\r\nلا ولا كل الكروب\r\nمنه ترتاع الخطايا\r\nوبه تمحي الذنوب\r\n",
+      "Arabic": "\nنحن لا نخشي المنايا\nلا ولا كل الكروب\nمنه ترتاع الخطايا\nوبه تمحي الذنوب\n",
       "English": "\nWe do not, fear disasters \n No neither, any hardships \n All the sins dread, His presence \n He wipes out, all iniquities \n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nهو عربون خلاص\r\nفيه ذخر للسلام\r\nفيه صون وعفاف\r\nوانتصار في الختام\r\n",
+      "Arabic": "\nهو عربون خلاص\nفيه ذخر للسلام\nفيه صون وعفاف\nوانتصار في الختام\n",
       "English": "\nHe is the atonement, of salvation \n He is a treasure, of peace \n Preservation and, chastity in Him \n In the end, and victory \n"
     }
   ]

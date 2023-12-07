@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
   "ArabicTitle": "مديح عيد البشارة المجيد",
-  "EnglishTitle": "",
+  "EnglishTitle": "Melody for the Feast of Annunciation",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "أبدأ باسم الله القدوس\r\nبادئ الأجسام محيي النفوس\r\nسيدنا ايسوس بي اخرستوس\r\nفي إيتاف اتشى ساركس خين تي بارثينوس\r\n",
+      "Arabic": "أبدأ باسم الله القدوس\nبادئ الأجسام محيي النفوس\nسيدنا ايسوس بي اخرستوس\nفي إيتاف اتشى ساركس خين تي بارثينوس\n",
       "English": "I begin in the name of the holy God \n The creator of bodies, provider of souls \n Our Master Jesus Christ \n Who was incarnate of the Virgin\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nبسر وحيد الآب المكنون\r\nالذي عجز عن فهمه البشريون\r\nولم تحصر أوصافه المنشئون\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nبسر وحيد الآب المكنون\nالذي عجز عن فهمه البشريون\nولم تحصر أوصافه المنشئون\nفي إيتاف اتشى………………\n",
       "English": "\nThe mystery of the only-begotten Son \n Incomprehensible by all humans \n Infinite, countless, immeasurable \n Who was incarnate of the Virgin\n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nتنبأ الأنبياء الأولون\r\nالمتقدمون والمتأخرون\r\nبتجسد الكلمة المكنون\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nتنبأ الأنبياء الأولون\nالمتقدمون والمتأخرون\nبتجسد الكلمة المكنون\nفي إيتاف اتشى………………\n",
       "English": "\nThe first prophets prophesied \n They prophesied early, far and close \n About the incarnation of the Logos \n Who was incarnate of the Virgin\n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nجلت قدرة الإله\r\nللذي تجلى ليعقوب فرآه\r\nوقال كل الأمم تنتظر لقياه\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nجلت قدرة الإله\nللذي تجلى ليعقوب فرآه\nوقال كل الأمم تنتظر لقياه\nفي إيتاف اتشى………………\n",
       "English": "\nGlory to the power of the Lord \n Who appeared to our father Jacob \n Who said all nations are waiting to see Him \n Who was incarnate of the Virgin\n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nحقا أشعيا قال في رؤياه\r\nولد لنا ابن واعطيناه\r\nالرئاسة على كل براياه\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nحقا أشعيا قال في رؤياه\nولد لنا ابن واعطيناه\nالرئاسة على كل براياه\nفي إيتاف اتشى………………\n",
       "English": "\nTruly Isaiah said in his prophecy \n Unto us a Son is given and has arose \n The government will be upon His shoulders \n Who was incarnate of the Virgin\n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخذوا بأيديكم العشرة أوتار\r\nورتلوا لإلهنا بالمزمار\r\nمع ابينا داود البار\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nخذوا بأيديكم العشرة أوتار\nورتلوا لإلهنا بالمزمار\nمع ابينا داود البار\nفي إيتاف اتشى………………\n",
       "English": "\nTake into your hands the ten strings \n Sing to our Lord with a flute and rejoice \n With our father the righteous David \n Who was incarnate of the Virgin\n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nدانيال أخبرنا بكلام\r\nيظهر في العالم رئيس السلام\r\nبعد سبعين أسبوعا بتمام\r\nفي إيتاف اتشىساركس خين تي بارثينوس\r\n",
+      "Arabic": "\nدانيال أخبرنا بكلام\nيظهر في العالم رئيس السلام\nبعد سبعين أسبوعا بتمام\nفي إيتاف اتشىساركس خين تي بارثينوس\n",
       "English": "\nDaniel informed us with his words \n The Prince of Peace shall come forth \n After seventy full weeks \n Who was incarnate of the Virgin\n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nرأى الرؤيا بالعيان\r\nرمزا لما تم وكان\r\nحجرا قطع بغير يد إنسان\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nرأى الرؤيا بالعيان\nرمزا لما تم وكان\nحجرا قطع بغير يد إنسان\nفي إيتاف اتشى………………\n",
       "English": "\nHe had seen a vision \n A symbol of what was to come forth \n A stone cut without the hands of man \n Who was incarnate of the Virgin\n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nزاد الفتية إيمانا بالإله\r\nوبختنصر اعترف بما رآة\r\nقال الرابع شبيه ابن الله\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nزاد الفتية إيمانا بالإله\nوبختنصر اعترف بما رآة\nقال الرابع شبيه ابن الله\nفي إيتاف اتشى………………\n",
       "English": "\nThe young men's+ faith increased \n Nebuchadnezzar confessed to what he saw \n Saying the fourth resembled the Son of God++ \n Who was incarnate of the Virgin + The three young men in Babylon ++ \"I see four men loose, walking in the midst of the fire; and they are not hurt, and the form of the fourth is like the Son of God.\" Dan 3:25\n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nسبحوا ومجدوا الملك المنان\r\nالذي به خلص الأبوان\r\nآدم وحواء الأولان\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nسبحوا ومجدوا الملك المنان\nالذي به خلص الأبوان\nآدم وحواء الأولان\nفي إيتاف اتشى………………\n",
       "English": "\nPraise and glorify the good King \n Through whom we were released from remorse \n He saved Adam and Eve and our forefathers \n Who was incarnate of the Virgin\n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nشاهد الآب القدوس\r\nفلم يجد أطهر من تي بارثينوس\r\nفأوفد لبشراها بي انجليوس\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nشاهد الآب القدوس\nفلم يجد أطهر من تي بارثينوس\nفأوفد لبشراها بي انجليوس\nفي إيتاف اتشى………………\n",
       "English": "\nThe Lord our holy Father searched \n He found none purer than the Virgin \n He sent an angel to announce to her \n Who was incarnate of the Virgin\n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nصاغ لها البشرى بعد السلام\r\nقائلا افرحي يا مريم\r\nسيولد منك العتيق الأيام\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nصاغ لها البشرى بعد السلام\nقائلا افرحي يا مريم\nسيولد منك العتيق الأيام\nفي إيتاف اتشى………………\n",
       "English": "\nHe announced to her after the greeting \n Saying, \"Rejoice, O Mary, the virtuous! \n The Ancient of days will be born from you\" \n Who was incarnate of the Virgin\n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nضابط كل البرية\r\nظهر لنا بالناسوتية\r\nلأجل خلاص البشرية\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nضابط كل البرية\nظهر لنا بالناسوتية\nلأجل خلاص البشرية\nفي إيتاف اتشى………………\n",
       "English": "\nThe Pantocrator of all the world \n Appeared in the flesh to us \n To save all of humanity \n Who was incarnate of the Virgin\n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nطهر الخالق احشاها\r\nحيث اختارها منذ صباها\r\nومن روحه القدس ملاها\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nطهر الخالق احشاها\nحيث اختارها منذ صباها\nومن روحه القدس ملاها\nفي إيتاف اتشى………………\n",
       "English": "\nThe Creator purified her womb \n From her childhood, her He chose \n And filled her with His Holy Spirit \n Who was incarnate of the Virgin\n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nظهر منها أحد الأقاليم\r\nإله وإنسان باتحاد مقيم\r\nوصارت اما لله الكريم\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nظهر منها أحد الأقاليم\nإله وإنسان باتحاد مقيم\nوصارت اما لله الكريم\nفي إيتاف اتشى………………\n",
       "English": "\nOne of the Trinity appeared from her \n Both God and Man: united, harmonious \n She became the Mother of the gracious God \n Who was incarnate of the Virgin\n"
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nعنه قال الأنبياء القديسون\r\nالله يطهر في صهيون\r\nويماثل خلقه وبه ينجون\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nعنه قال الأنبياء القديسون\nالله يطهر في صهيون\nويماثل خلقه وبه ينجون\nفي إيتاف اتشى………………\n",
       "English": "\nThe holy prophets said about Him \n God shall appear in Zion \n To resemble His creation whom He will save \n Who was incarnate of the Virgin\n"
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nغبريال بلغ بشراه\r\nللعذراء بما تلقاه\r\nمن لدن الله مولاه\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nغبريال بلغ بشراه\nللعذراء بما تلقاه\nمن لدن الله مولاه\nفي إيتاف اتشى………………\n",
       "English": "\nGabriel made his announcement \n To the Virgin of the holy truth \n Which he received from God his Master \n Who was incarnate of the Virgin\n"
     },
     {
@@ -144,7 +144,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفسر كلام اشعيا الجليل\r\nالعذراء تحبل من غير مثيل\r\nوتلد ابنا يدعى عمانوئيل\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nفسر كلام اشعيا الجليل\nالعذراء تحبل من غير مثيل\nوتلد ابنا يدعى عمانوئيل\nفي إيتاف اتشى………………\n",
       "English": "\nHe explained the words of Isaiah \n \"The Virgin will conceive in truth \n And give birth to a Son called Immanuel\" \n Who was incarnate of the Virgin\n"
     },
     {
@@ -152,7 +152,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقال داود اليوم ولدتك\r\nأنت ابني وقد ورثتك\r\nكل الأمم تتعبد لك\r\nفي إيتاف اتشىساركس خين تي بارثينوس\r\n",
+      "Arabic": "\nقال داود اليوم ولدتك\nأنت ابني وقد ورثتك\nكل الأمم تتعبد لك\nفي إيتاف اتشىساركس خين تي بارثينوس\n",
       "English": "\nDavid said, \"Today I have begotten You \n You are my Son, I shall give you those \n Nations for Your inheritance and possession\" \n Who was incarnate of the Virgin\n"
     },
     {
@@ -160,7 +160,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nكل الطغمات العلوية\r\nوالمراتب النورانية\r\nيسجدون لذي الأبدية\r\n في إيتاف اتشى………………\r\n",
+      "Arabic": "\nكل الطغمات العلوية\nوالمراتب النورانية\nيسجدون لذي الأبدية\n في إيتاف اتشى………………\n",
       "English": "\nAll of the luminous orders \n All of the heavenly hosts \n Shall worship Him the eternal Logos \n Who was incarnate of the Virgin\n"
     },
     {
@@ -168,7 +168,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلك الشعوب صاروا مهنئين\r\nيا من حملت قدس القديسين\r\nالحي الأزلي ملجأ المؤمنين\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nلك الشعوب صاروا مهنئين\nيا من حملت قدس القديسين\nالحي الأزلي ملجأ المؤمنين\nفي إيتاف اتشى………………\n",
       "English": "\nBecause you carried the Holy of Holies \n All the people became joyous \n He is the eternal God; refuge of the faithful \n Who was incarnate of the Virgin\n"
     },
     {
@@ -176,7 +176,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nميخا تنبأ بقول جليل\r\nمن بيت لحم راعي اسرائيل\r\nممتدا ملكه جيلا بعد جيل\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nميخا تنبأ بقول جليل\nمن بيت لحم راعي اسرائيل\nممتدا ملكه جيلا بعد جيل\nفي إيتاف اتشى………………\n",
       "English": "\nMicah prophesied with wonderful words: \n \"From Bethlehem, the Shepherd arose \n His kingdom extends unto all generations\" \n Who was incarnate of the Virgin\n"
     },
     {
@@ -184,7 +184,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nنؤمن بالذي تجسد ورأيناه\r\nوكان غير محسوس فلمسناه\r\nنسجد له في علوه سماه\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nنؤمن بالذي تجسد ورأيناه\nوكان غير محسوس فلمسناه\nنسجد له في علوه سماه\nفي إيتاف اتشى………………\n",
       "English": "\nWe believe in Him who was incarnated \n Untouchable, yet was touched by all \n We worship Him in His highest heavens \n Who was incarnate of the Virgin\n"
     },
     {
@@ -192,7 +192,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nهذا هو الرب الإله\r\nالحي المعبود في علاه\r\nليس أحد قط يراه\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nهذا هو الرب الإله\nالحي المعبود في علاه\nليس أحد قط يراه\nفي إيتاف اتشى………………\n",
       "English": "\nThis is the Lord our God \n The living and worshiped in the cosmos \n Which no one had ever seen \n Who was incarnate of the Virgin\n"
     },
     {
@@ -200,7 +200,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوأيضًا تنبأ جميع النبيين\r\nمن قديم العصور والسنين\r\nإن الإله يظهر بشرا بيقين\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nوأيضًا تنبأ جميع النبيين\nمن قديم العصور والسنين\nإن الإله يظهر بشرا بيقين\nفي إيتاف اتشى………………\n",
       "English": "\nAnd also all the prophets prophesied \n From ancient times, they did expose \n That God will appear like a Man in truth \n Who was incarnate of the Virgin\n"
     },
     {
@@ -208,7 +208,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلا تنس شعبك يا قدوس\r\nولا تدخلهم في بؤوس\r\nبصلاة مريم البكر العروس\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nلا تنس شعبك يا قدوس\nولا تدخلهم في بؤوس\nبصلاة مريم البكر العروس\nفي إيتاف اتشى………………\n",
       "English": "\nDo not forget Your people, O holy One \n Abandon them not in the misery of their flaws \n Through the prayers of Virgin Mary the bride \n Who was incarnate of the Virgin\n"
     },
     {
@@ -216,7 +216,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيا رب يا متجسد لأجلنا\r\nاحفظ أنبا (…….) بطريركنا\r\nوشريكه (…….) مطراننا\r\nفي إيتاف اتشى………………\r\n",
+      "Arabic": "\nيا رب يا متجسد لأجلنا\nاحفظ أنبا (…….) بطريركنا\nوشريكه (…….) مطراننا\nفي إيتاف اتشى………………\n",
       "English": "\nKeep our Pope ... the Patriarch \n O Lord who was incarnated for us all \n And his partner in the liturgy our Bishop ... \n And all the fathers, our shepherds and all\n"
     }
   ]

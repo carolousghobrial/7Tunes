@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح اشفعي فينا يا مريم",
+  "EnglishTitle": "Intercede for us, O Mary",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "أول ما أبدي أسبح الإله\r\nإله تعالي لا رب سواه\r\nوأمدح مريم البكر الفتاة\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "أول ما أبدي أسبح الإله\nإله تعالي لا رب سواه\nوأمدح مريم البكر الفتاة\nاشفعي فينا يا مريم\n",
       "English": "I begin by praising God \n The great Lord of the heavenly \n I glorify Mary, the virgin bride \n Intercede for us, O Mary\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nالسلام لك يا بدء السرور\r\nيا من اشتملتي ببهي النور\r\nوحملتي الحي غير المنظور\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nالسلام لك يا بدء السرور\nيا من اشتملتي ببهي النور\nوحملتي الحي غير المنظور\nاشفعي فينا يا مريم\n",
       "English": "\nHail to you, O beginning of joy \n Adorned with light gloriously \n You bore the invisible living God \n Intercede for us, O Mary\n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nبتول نقية شريفة النسب\r\nمن سبط نقي طاهر منتخب\r\nشفاعتك قوية تزيل الغضب\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nبتول نقية شريفة النسب\nمن سبط نقي طاهر منتخب\nشفاعتك قوية تزيل الغضب\nاشفعي فينا يا مريم\n",
       "English": "\nA pure virgin of good name \n From a tribe full of purity \n Your intercession calms God's wrath \n Intercede for us, 0 Mary\n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nتهللتي بفرح جزيل\r\nوحملتي في احشاك سر جليل\r\nيا مرهم شافي لكل عليل\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nتهللتي بفرح جزيل\nوحملتي في احشاك سر جليل\nيا مرهم شافي لكل عليل\nاشفعي فينا يا مريم\n",
       "English": "\nYou were filled with great joy \n In your womb, you bore a mystery \n O you the healer of all the sick \n Intercede for us O Mary\n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nجميع الألسن بالتفريح\r\nيطوبونك يا أم المسيح\r\nوانا الخاطئ أصرخ وأصيح\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nجميع الألسن بالتفريح\nيطوبونك يا أم المسيح\nوانا الخاطئ أصرخ وأصيح\nاشفعي فينا يا مريم\n",
       "English": "\nO Mother of Christ, \n All tongues glorify you joyfully \n And I, the sinner, cry and say \n Intercede for us, 0 Mary\n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nجثتك حبا وأنت تعلمي بي\r\nاكثر من ناسي واهلي وأحبابي\r\nوأن ضربوا القرعة انت منابي\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nجثتك حبا وأنت تعلمي بي\nاكثر من ناسي واهلي وأحبابي\nوأن ضربوا القرعة انت منابي\nاشفعي فينا يا مريم\n",
       "English": "\nI sought you, for you know me \n Even better than my family \n You are my blessed portion \n Intercede for us, O Mary\n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخاطري طول عمري وحياتي\r\nاكون مادحك كل اوقاتي\r\nلتكوني عوني عند مماتي\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nخاطري طول عمري وحياتي\nاكون مادحك كل اوقاتي\nلتكوني عوني عند مماتي\nاشفعي فينا يا مريم\n",
       "English": "\nAll my life's desire \n Is to praise you daily \n So be my helper at my repose \n Intercede for us, O Mary\n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nدرة ثمينة وأسمك غالي\r\nيا خدرا طاهرًا يتلالي\r\nانت ربحي ورأس مالي\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nدرة ثمينة وأسمك غالي\nيا خدرا طاهرًا يتلالي\nانت ربحي ورأس مالي\nاشفعي فينا يا مريم\n",
       "English": "\nA precious stone of great price \n A treasure shining brightly \n You are my reward and benefit \n Intercede for us, O Mary\n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nروايحك زكية تفوق الأطياب\r\nوعصيرك احلا من كل شراب\r\nيروي ويزيل جميع الأتعاب\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nروايحك زكية تفوق الأطياب\nوعصيرك احلا من كل شراب\nيروي ويزيل جميع الأتعاب\nاشفعي فينا يا مريم\n",
       "English": "\nYour aroma is above all scents \n Your praise is sweeter than honey \n It quenches and removes all troubles \n Intercede for us, O Mary\n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nزدتي وصفا وشرفا جليل\r\nعن كل نساء آل إسرائيل\r\nياويل من جحدك يصير ذليل\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nزدتي وصفا وشرفا جليل\nعن كل نساء آل إسرائيل\nياويل من جحدك يصير ذليل\nاشفعي فينا يا مريم\n",
       "English": "\nAbove all women of Israel \n You were exalted befittingly \n Poor is he who renounces you \n Intercede for us, O Mary\n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nسماء ثانية جسدانية\r\nسميتي يا بكر نقية\r\nلأنك حملت رب البرية\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nسماء ثانية جسدانية\nسميتي يا بكر نقية\nلأنك حملت رب البرية\nاشفعي فينا يا مريم\n",
       "English": "\nYou were called, O pure first-born \n A second heaven in the body \n For you bore the Lord of creation \n Intercede for us, O Mary\n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nشرح فيكي داود البار\r\nومدح فيكي بصوت المزمار\r\nالرب اشتهي حسنك واختار\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nشرح فيكي داود البار\nومدح فيكي بصوت المزمار\nالرب اشتهي حسنك واختار\nاشفعي فينا يا مريم\n",
       "English": "\nDavid the pure explained about you \n And sang about you with the psaltery, \n \"The Lord desired your beauty\" \n Intercede for us, 0 Mary\n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nسببًا صرتي لخلاص أدم\r\nبعد أن كان مأسور نادم\r\nصار وارث ملكوت دايم\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nسببًا صرتي لخلاص أدم\nبعد أن كان مأسور نادم\nصار وارث ملكوت دايم\nاشفعي فينا يا مريم\n",
       "English": "\nYour Son is Adam's salvation \n After he was bound shamefully \n He inherited the kingdom of heaven \n Intercede for us, O Mary\n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nضافك إله عظيم معبود\r\nله التمجيد مع السجود\r\nواوفانا الوعد الموعود\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nضافك إله عظيم معبود\nله التمجيد مع السجود\nواوفانا الوعد الموعود\nاشفعي فينا يا مريم\n",
       "English": "\nThe great God chose you \n To whom is due worship and glory \n He fulfilled the promise \n Intercede for us, O Mary\n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nطوباك في كل الأجيال\r\nيا والدة الملك المتعال\r\nقد تشرف قدرك بالكمال\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nطوباك في كل الأجيال\nيا والدة الملك المتعال\nقد تشرف قدرك بالكمال\nاشفعي فينا يا مريم\n",
       "English": "\nYou are blessed through the ages \n O mother of the holy \n He exalted your purity \n Intercede for us, O Mary\n"
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nظفرتي بنعمة من عند الله\r\nكقول غبريال في بشراه\r\nوجدتي دالة دون أصفياه\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nظفرتي بنعمة من عند الله\nكقول غبريال في بشراه\nوجدتي دالة دون أصفياه\nاشفعي فينا يا مريم\n",
       "English": "\nYou were filled with God's grace \n As Gabriel said in his salutation \n You have found favor with God \n Intercede for us, O Mary\n"
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nعليك شهدت جميع الآباء\r\nكل منهم قدم بإجابة\r\nوقد دعوك قبة وسحابة\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nعليك شهدت جميع الآباء\nكل منهم قدم بإجابة\nوقد دعوك قبة وسحابة\nاشفعي فينا يا مريم\n",
       "English": "\nAll the prophets witnessed \n Each one in his prophecy \n They called you a dome and cloud \n Intercede for us, O Mary\n"
     },
     {
@@ -144,7 +144,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nغابت فيك كل الأفهام    \r\nولا أمكنهم ان يصفوك بكلام\r\nحملت الإله كشبه غلام\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nغابت فيك كل الأفهام    \nولا أمكنهم ان يصفوك بكلام\nحملت الإله كشبه غلام\nاشفعي فينا يا مريم\n",
       "English": "\nYou surpassed all understanding \n No one can describe you precisely \n You bore God as a babe \n Intercede for us, O Mary\n"
     },
     {
@@ -152,7 +152,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفقت مراتب كل الأبرار\r\nوتفضلتي فوق المقدار\r\nطوباك يا طهر الأطهار\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nفقت مراتب كل الأبرار\nوتفضلتي فوق المقدار\nطوباك يا طهر الأطهار\nاشفعي فينا يا مريم\n",
       "English": "\nYou exceeded all the holy ranks \n You were exalted highly \n Blessed are you, O most pure \n Intercede for us, 0 Mary\n"
     },
     {
@@ -160,7 +160,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقد صرت القصر البهي\r\nوحملت الإله غير المحوي\r\nومنك ظهر السر الخفي\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nقد صرت القصر البهي\nوحملت الإله غير المحوي\nومنك ظهر السر الخفي\nاشفعي فينا يا مريم\n",
       "English": "\nYou bore the uncircumscribed \n O castle, full of beauty \n Of you, came the hidden mystery \n Intercede for us, O Mary\n"
     },
     {
@@ -168,7 +168,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nكملت أقوال الأنبياء\r\nوكل شهادات نبوية\r\nعن حبلك يا بكر نقية\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nكملت أقوال الأنبياء\nوكل شهادات نبوية\nعن حبلك يا بكر نقية\nاشفعي فينا يا مريم\n",
       "English": "\nAll the fathers' sayings were fulfilled \n And the testimonies and prophecies \n About your immaculate pregnancy \n Intercede for us, O Mary\n"
     },
     {
@@ -176,7 +176,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلك يليق كل التعظيم\r\nيا مريم يا أبنة يواقيم\r\nتشبهتي بخيمة إبراهيم\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nلك يليق كل التعظيم\nيا مريم يا أبنة يواقيم\nتشبهتي بخيمة إبراهيم\nاشفعي فينا يا مريم\n",
       "English": "\nO Mary, daughter of Joachim \n You are due all glory \n You were likened to Abraham's tent \n Intercede for us, 0 Mary\n"
     },
     {
@@ -184,7 +184,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nماذا أدعوك يا مريم\r\nمنبر طاهر وعرش معظم\r\nوأن قلت الكرسي أنت اعظم\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nماذا أدعوك يا مريم\nمنبر طاهر وعرش معظم\nوأن قلت الكرسي أنت اعظم\nاشفعي فينا يا مريم\n",
       "English": "\nYou are a pure great throne \n What shall I call you, O Mary? \n Even higher than the throne \n Intercede for us, O Mary.\n"
     },
     {
@@ -192,7 +192,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nنعظمك مدي الأعمار\r\nونطوبك بفح ووقار\r\nلأننا بك صرنا أحرار\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nنعظمك مدي الأعمار\nونطوبك بفح ووقار\nلأننا بك صرنا أحرار\nاشفعي فينا يا مريم\n",
       "English": "\nWe exalt you all the time \n We bless you joyfully \n Through you we were freed \n Intercede for us, 0 Mary\n"
     },
     {
@@ -200,7 +200,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nهدوءا بطول الدوام\r\nإعطي شعب البيعة بتمام\r\nليكونوا محفوظين بسلام\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nهدوءا بطول الدوام\nإعطي شعب البيعة بتمام\nليكونوا محفوظين بسلام\nاشفعي فينا يا مريم\n",
       "English": "\nMay a life of calmness and rest \n Be given to the church's people \n To be kept in all peace \n Intercede for us, O Mary\n"
     },
     {
@@ -208,7 +208,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nويقرأ سلامه إليك يا بكر بتول\r\nبشارة ناظم هذا لقول\r\nجيريه لكي يكون مقبول\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nويقرأ سلامه إليك يا بكر بتول\nبشارة ناظم هذا لقول\nجيريه لكي يكون مقبول\nاشفعي فينا يا مريم\n",
       "English": "\nSending peace upon you, O pure bride \n The chanter of this melody \n Help him to be acceptable \n Intercede for us, O Mary\n"
     },
     {
@@ -216,7 +216,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلاحظيني بشفاعتك يا عذراء\r\nيوم القيامة في الحشرة\r\nحتى أكون فايز بالنصرة\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nلاحظيني بشفاعتك يا عذراء\nيوم القيامة في الحشرة\nحتى أكون فايز بالنصرة\nاشفعي فينا يا مريم\n",
       "English": "\nSurround me with your intercession \n On the day of resurrection of the body \n To be victorious with salvation \n Intercede for us, 0 Mary\n"
     },
     {
@@ -224,7 +224,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيا من قد أسموك الألباب \r\nسماء ثانية لرب الأرباب\r\nجيريني من نار وعذاب\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nيا من قد أسموك الألباب \nسماء ثانية لرب الأرباب\nجيريني من نار وعذاب\nاشفعي فينا يا مريم\n",
       "English": "\nO who was called by the fathers \n A second heaven of the Lord of glory \n Help me escape from the fire and pain \n Intercede for us, 0 Mary\n"
     },
     {
@@ -232,7 +232,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوالسلام لك يا أم الرحمة\r\nيا والدة الابن الكلمة\r\nطوباك يا مملوءة نعمة\r\nاشفعي فينا يا مريم\r\n",
+      "Arabic": "\nوالسلام لك يا أم الرحمة\nيا والدة الابن الكلمة\nطوباك يا مملوءة نعمة\nاشفعي فينا يا مريم\n",
       "English": "\nHail to you, 0 Mother of the Logos \n O mother of all mercy \n Blessed are you, O full of grace \n Intercede for us, 0 Mary\n"
     }
   ]

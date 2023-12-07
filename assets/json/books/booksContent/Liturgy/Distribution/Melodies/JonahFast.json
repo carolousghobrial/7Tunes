@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح صوم يونان",
+  "EnglishTitle": "Melody for the Jonah's Fast",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "الصوم الصوم للنفس ثبات\r\nالصوم الصوم يطرد الشهوات\r\nالصوم الصوم يغفر الزلات\r\nويخلص من كان تعبان\r\n",
+      "Arabic": "الصوم الصوم للنفس ثبات\nالصوم الصوم يطرد الشهوات\nالصوم الصوم يغفر الزلات\nويخلص من كان تعبان\n",
       "English": "Fasting grants the soul constancy \n Fasting fights away all envy \n Fasting forgives the transgression \n And grants the weary salvation\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nالصوم الصوم يمحى الخطية\r\nويزيل الفكار الشيطانية\r\nلنصوم يا إخوة بطهارة ونية\r\nصوما نقيا روحاني\r\n",
+      "Arabic": "\nالصوم الصوم يمحى الخطية\nويزيل الفكار الشيطانية\nلنصوم يا إخوة بطهارة ونية\nصوما نقيا روحاني\n",
       "English": "\nFasting forgives the sins \n And removes all evil thoughts \n Let our fast be pure and willful \n A fast, righteous and spiritual\n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nصوموا صوما طاهرا بخشوع\r\nكما قد صام الرب يسوع\r\nبقلب ذليل مع كثرة دموع\r\nلتنالوا قوة وإيمان\r\n",
+      "Arabic": "\nصوموا صوما طاهرا بخشوع\nكما قد صام الرب يسوع\nبقلب ذليل مع كثرة دموع\nلتنالوا قوة وإيمان\n",
       "English": "\nFast with purity and piety \n As the fasting of our Lord Jesus \n With a humble heart and many tears \n To obtain power and faithfulness\n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nالله المتحنن الرحمن\r\nالذي لا يشاء هلاك إنسان\r\nكلم يونان قائلا إعلان\r\nامضي إلى نينوي ياإنسان\r\n",
+      "Arabic": "\nالله المتحنن الرحمن\nالذي لا يشاء هلاك إنسان\nكلم يونان قائلا إعلان\nامضي إلى نينوي ياإنسان\n",
       "English": "\nThe kind merciful God we cherish \n Who does not want anyone to perish \n To the prophet Jonah He did speak, \n \"Go to Nineveh and preach\"\n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nأما النبي يونان فكان\r\nقد مضي إلى ترشيش هربان\r\nمن وجه الله القوى الديان\r\nفوجد سفينة يا أخوان\r\n",
+      "Arabic": "\nأما النبي يونان فكان\nقد مضي إلى ترشيش هربان\nمن وجه الله القوى الديان\nفوجد سفينة يا أخوان\n",
       "English": "\nJonah the prophet did not obey \n To Tarshish he did escape \n From God the Judge most powerful \n He boarded a ship and was not shameful\n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nبالنوم فكر يونان وراح\r\nفي جوف السفينة انضجع وارتاح\r\nوأما الرب إله الأرواح\r\nسلط ريحا جاء بالعيان\r\n",
+      "Arabic": "\nبالنوم فكر يونان وراح\nفي جوف السفينة انضجع وارتاح\nوأما الرب إله الأرواح\nسلط ريحا جاء بالعيان\n",
       "English": "\nHe thought that sleeping was best \n He retired to the ship's bottom for rest \n But God, the God of all spirits \n Sent to the ship a great tempest\n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nتشاوروا كل النواتية\r\nأن يرموا ما في السفينة بالكلية \r\nوالأرباح كانت قوية\r\nهجمت عليهم بالعان\r\n",
+      "Arabic": "\nتشاوروا كل النواتية\nأن يرموا ما في السفينة بالكلية \nوالأرباح كانت قوية\nهجمت عليهم بالعان\n",
       "English": "\nThe sailors decided to throw away \n Everything in the ship that was in the way \n The wind was very strong \n It would turn and toss the ship along\n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nثم ان الريس نهض وقام\r\nأيقظ يونان من المنام\r\nقال له قم لماذا تنام\r\nانهض ولا تكن كسلان\r\n",
+      "Arabic": "\nثم ان الريس نهض وقام\nأيقظ يونان من المنام\nقال له قم لماذا تنام\nانهض ولا تكن كسلان\n",
       "English": "\nDown to Jonah went the captain \n From his sleep he caused him to refrain \n He told him: \"Why are you sleepy? \n Get up and do not be lazy!\"\n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nجاهد يا أيها الإنسان\r\nوأطلب من إلهك الغفران\r\nحتى يهدى عنا الهيجان\r\nلنصير في راحة واطمئنان\r\n",
+      "Arabic": "\nجاهد يا أيها الإنسان\nوأطلب من إلهك الغفران\nحتى يهدى عنا الهيجان\nلنصير في راحة واطمئنان\n",
       "English": "\n\"O man, make some effort \n And ask your God forgiveness \n That He may calm this disturbance \n So that we dwell in rest and peace\"\n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nحينئذ خافوا الملاحون\r\nوتشاوروا جميع الحاضرون\r\nان يلقوا قرعة ويعرفون\r\nفصابت يونان بالمعان\r\n",
+      "Arabic": "\nحينئذ خافوا الملاحون\nوتشاوروا جميع الحاضرون\nان يلقوا قرعة ويعرفون\nفصابت يونان بالمعان\n",
       "English": "\nThe sailors were frightened \n To decide what to do, they gathered \n They decided to cast lots \n And the lot fell on Jonah\n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخرجت القرعة علية\r\nبامر الرب الساكن فيه \r\nفجاؤا الرجال وطلبوا إليه\r\nاخبرنا يالأمر اللي كان\r\n",
+      "Arabic": "\nخرجت القرعة علية\nبامر الرب الساكن فيه \nفجاؤا الرجال وطلبوا إليه\nاخبرنا يالأمر اللي كان\n",
       "English": "\nThe lot was against him \n By the order of God dwelling in him \n So the men came and asked him, \n \"Tell us, why is this happening?\"\n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nدهش يونان حين سمع الكلمات\r\nوقال لهم قولا بثبات\r\nأنا هارب من إله السموات\r\nوالأرض وكل الأكوان\r\n",
+      "Arabic": "\nدهش يونان حين سمع الكلمات\nوقال لهم قولا بثبات\nأنا هارب من إله السموات\nوالأرض وكل الأكوان\n",
       "English": "\nJonah was amazed when he was asked \n And truthfully he replied \n \"I have escaped the God of heaven \n God of the earth and the universe\"\n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nذنبًا فعلت أيها الحضار\r\nأمام الخالق الجبار\r\nفقالوا له وماذا تختار\r\nوكيف العمل فيك يا إنسان\r\n",
+      "Arabic": "\nذنبًا فعلت أيها الحضار\nأمام الخالق الجبار\nفقالوا له وماذا تختار\nوكيف العمل فيك يا إنسان\n",
       "English": "\n\"I have committed a sin, O people \n Before the great Creator\" \n They asked him, \"What is our option \n How do we deal with you, O man?\"\n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nرد عليهم النبي المختار\r\nبقلب حزين مملوء أضرار \r\nخذوني إرموني في التيار\r\nوالبحر يعود لأصله ثان\r\n",
+      "Arabic": "\nرد عليهم النبي المختار\nبقلب حزين مملوء أضرار \nخذوني إرموني في التيار\nوالبحر يعود لأصله ثان\n",
       "English": "\nThe prophet answered them in brief \n With a heavy heart full of grief, \n \"Take me and throw me into the sea \n It will be calm once you get rid of me\"\n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nزعقوا الجميع ببكاء وأحزان\r\nوقالوا يا رب يا حنان\r\nلا تهلكنا بسبب هذا الإنسان\r\nاغفر لنا يا رب يا رحمان\r\n",
+      "Arabic": "\nزعقوا الجميع ببكاء وأحزان\nوقالوا يا رب يا حنان\nلا تهلكنا بسبب هذا الإنسان\nاغفر لنا يا رب يا رحمان\n",
       "English": "\nThey all cried out and wept from sorrow, \n They spoke saying, \"O compassionate God, \n Because of that man, do not destroy us \n O merciful God, forgive us\"\n"
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nسمعوا كلام النبي الكريم\r\nورموه في وسط البحر العميم\r\nفاعد له الرب حوتا عظيم\r\nفبلع يونان وصار هربان\r\n",
+      "Arabic": "\nسمعوا كلام النبي الكريم\nورموه في وسط البحر العميم\nفاعد له الرب حوتا عظيم\nفبلع يونان وصار هربان\n",
       "English": "\nThey obeyed the gracious prophet \n They threw him into the water \n God prepared for him a great whale \n Who swallowed Jonah and went away\n"
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nشاهدوا جميع النواتية\r\nالأرياح العظيمة القوية \r\nهدئت وبقيت مخفية\r\nوالأمواج صارت تحتان\r\n",
+      "Arabic": "\nشاهدوا جميع النواتية\nالأرياح العظيمة القوية \nهدئت وبقيت مخفية\nوالأمواج صارت تحتان\n",
       "English": "\nAll the sailors did witness \n The strong and violent tempest \n Became calm mysteriously \n And the waves flowed smoothly\n"
     },
     {
@@ -144,7 +144,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nصاروا الجميع متحيريين\r\nمن هذا المنظر يا حاضرين\r\nوقروا بأنهم مؤمنين\r\nباسم الرب الفوقاني\r\n",
+      "Arabic": "\nصاروا الجميع متحيريين\nمن هذا المنظر يا حاضرين\nوقروا بأنهم مؤمنين\nباسم الرب الفوقاني\n",
       "English": "\nAll of them became puzzled \n By this view, O my brothers \n And they professed their faith \n In the mighty Lord of Hosts\n"
     },
     {
@@ -152,7 +152,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nضاقت نفسه في بطن الحوت\r\nوصلي لرب الصباؤوت\r\nوقال صرخت إليك يا من لا يموت\r\nاسمعني أنا الغفلان\r\n",
+      "Arabic": "\nضاقت نفسه في بطن الحوت\nوصلي لرب الصباؤوت\nوقال صرخت إليك يا من لا يموت\nاسمعني أنا الغفلان\n",
       "English": "\nInside the whale's belly he was distressed \n To the Lord of hosts Jonah prayed, \n \"I cry unto You who never dies \n Listen to me, the unwise\n"
     },
     {
@@ -160,7 +160,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nطلبتك من عمق الأبحار\r\nخلصني يا رب يا غفار\r\nمن جوف اللجج مع التيار\r\nلأنك رؤوف لا تنساني\r\n",
+      "Arabic": "\nطلبتك من عمق الأبحار\nخلصني يا رب يا غفار\nمن جوف اللجج مع التيار\nلأنك رؤوف لا تنساني\n",
       "English": "\n\"I ask of You from the deep sea \n Save me, O Lord, and forgive me \n From the deep waves and dangerous wind \n Do not forget me, for You are kind\n"
     },
     {
@@ -168,7 +168,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nظاهر لي لأنك قدير\r\nوليس عندك امرا عسير\r\nلأني مترجى أن اصير\r\nوأنظر هيكل قدسك ثان\r\n",
+      "Arabic": "\nظاهر لي لأنك قدير\nوليس عندك امرا عسير\nلأني مترجى أن اصير\nوأنظر هيكل قدسك ثان\n",
       "English": "\n\"It is apparent how mighty You are, \n Nothing is difficult for You \n I wish to survive and not tremble \n To see again Your holy temple\"\n"
     },
     {
@@ -176,7 +176,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nعلم الإله ضيقة الصديق\r\nوقال للحوت قولا وثيق\r\nفقذف يونان يا أخوة بتحقيق\r\nكمثل ما قالالديان\r\n",
+      "Arabic": "\nعلم الإله ضيقة الصديق\nوقال للحوت قولا وثيق\nفقذف يونان يا أخوة بتحقيق\nكمثل ما قالالديان\n",
       "English": "\nGod knew how Jonah was being tortured \n He gave the whale a mighty order \n The whale vomited Jonah unto land, \n As God had ordered by His mighty hand\n"
     },
     {
@@ -184,7 +184,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nغفر ذنبه وخرج بسلام\r\nمن بعد ما قام ثلاثة ايام\r\nوثلاثة ليالي بالتمام\r\nفي بطن الحوت يا اخوان\r\n",
+      "Arabic": "\nغفر ذنبه وخرج بسلام\nمن بعد ما قام ثلاثة ايام\nوثلاثة ليالي بالتمام\nفي بطن الحوت يا اخوان\n",
       "English": "\nHe was forgiven and went his way \n After he spent three whole days \n And three nights completely \n Inside of the whale's belly\n"
     },
     {
@@ -192,7 +192,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفنادي الله يونان وقال\r\nامضي إلى نينوي باستعجال\r\nوقل لهم نينوي تخرب في الحال\r\nمزمع يخفسها الديان\r\n",
+      "Arabic": "\nفنادي الله يونان وقال\nامضي إلى نينوي باستعجال\nوقل لهم نينوي تخرب في الحال\nمزمع يخفسها الديان\n",
       "English": "\nGod called out to Jonah and said, \n \"Go quickly to Nineveh, \n He told them, \"It will be destroyed now \n For the Judge has chosen to do so\"\n"
     },
     {
@@ -200,7 +200,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلما سمعوا قوله الخاطبين\r\nالذين في نينوى يا حاضرين\r\nرجعوا بقلوبهم تائبين\r\nإليه والتمسوا الغفران\r\n",
+      "Arabic": "\nلما سمعوا قوله الخاطبين\nالذين في نينوى يا حاضرين\nرجعوا بقلوبهم تائبين\nإليه والتمسوا الغفران\n",
       "English": "\nWhen the sinners of Nineveh heard \n Jonah speak forth this word \n Back to God they did repent \n And asked Him forgiveness if they return\n"
     },
     {
@@ -208,7 +208,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nملك نينوي حين سمع الأخبار\r\nقام عن كرسيه يا حضار\r\nليس مسحا وشال التراب\r\nونهض حزينا دهشان\r\n",
+      "Arabic": "\nملك نينوي حين سمع الأخبار\nقام عن كرسيه يا حضار\nليس مسحا وشال التراب\nونهض حزينا دهشان\n",
       "English": "\nWhen their king heard that news \n He left his throne, and did choose \n To wear sackcloth and cover himself in dust \n With shock and sorrow he was thrust\n"
     },
     {
@@ -216,7 +216,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nنادي المنادي بالأصوام\r\nإلى كمال ثلاثة أيام\r\nكبار وصغار وبقر وأغنام\r\nحتى الأطفال الرضعان\r\n",
+      "Arabic": "\nنادي المنادي بالأصوام\nإلى كمال ثلاثة أيام\nكبار وصغار وبقر وأغنام\nحتى الأطفال الرضعان\n",
       "English": "\nThe king called for fasting \n For three whole days lasting \n Adults, children, cows and sheep \n Even young babies who weep\n"
     },
     {
@@ -224,7 +224,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nندم على الشر الذي كان أراد\r\nيفعله باهل نينوى باجتهاد\r\nسبحانه رؤوف رب العباد\r\nشفوق على جنس الإنسان  \r\n",
+      "Arabic": "\nندم على الشر الذي كان أراد\nيفعله باهل نينوى باجتهاد\nسبحانه رؤوف رب العباد\nشفوق على جنس الإنسان  \n",
       "English": "\nOf the evil, God relented \n To do to Nineveh, what He had intended \n For God is kind and graceful \n To all mankind He is merciful\n"
     },
     {
@@ -232,7 +232,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nهرب يونان وصار مغموم\r\nحين تمت له أربعين يوم\r\nوقال يا رب انت رحوم\r\nلماذا ارسلتني ثان\r\n",
+      "Arabic": "\nهرب يونان وصار مغموم\nحين تمت له أربعين يوم\nوقال يا رب انت رحوم\nلماذا ارسلتني ثان\n",
       "English": "\nJonah went away sadly \n For forty days he was angry \n He said, \"O God, You merciful, \n Why did You send me to these people?\"\n"
     },
     {
@@ -240,7 +240,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nهوذا الله كلم يونان\r\nثاني مرة وبقي غضبان\r\nوقاليا رب موتي كان\r\nخير من حياتي الآن\r\n",
+      "Arabic": "\nهوذا الله كلم يونان\nثاني مرة وبقي غضبان\nوقاليا رب موتي كان\nخير من حياتي الآن\n",
       "English": "\nGod spoke to Jonah directly, \n \"Is it right for you to be angry?\" \n He said, \"Take my life from me \n To die is better than to live for me\"\n"
     },
     {
@@ -248,7 +248,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nواما يونان فطلع برا\r\nالمدينة ونفسه عادت مرة\r\nوالشمس اشرقت بالأحري \r\nضربت في رأسه بالعان\r\n",
+      "Arabic": "\nواما يونان فطلع برا\nالمدينة ونفسه عادت مرة\nوالشمس اشرقت بالأحري \nضربت في رأسه بالعان\n",
       "English": "\nHe went away sadly \n Outside the town he remained angry \n And the sun was too hot for him \n It beat him till his life grew dim\n"
     },
     {
@@ -256,7 +256,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوان الله سبحانه قدير\r\nبحكمته دبر تدبير\r\nخلق غصنا من يقطين كبير\r\nوصار يونان به فرحان\r\n",
+      "Arabic": "\nوان الله سبحانه قدير\nبحكمته دبر تدبير\nخلق غصنا من يقطين كبير\nوصار يونان به فرحان\n",
       "English": "\nGod Almighty of heavenly kingdom \n Arranged a plant by His wisdom \n He created a large tree \n That made Jonah very happy\n"
     },
     {
@@ -264,7 +264,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nويونان به صار مسرور\r\nالنهار كله وهو مستور\r\nوان الله العلي الغيور\r\nارسل دودة فاكتلها من تحتان\r\n",
+      "Arabic": "\nويونان به صار مسرور\nالنهار كله وهو مستور\nوان الله العلي الغيور\nارسل دودة فاكتلها من تحتان\n",
       "English": "\nHe was satisfied by its shade \n It covered him during the whole day \n Then God the Lover of Mankind \n Sent a worm to eat the plant\n"
     },
     {
@@ -272,7 +272,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nولما أصبح الصباح\r\nوطلوع الشمس أشرق ولاح\r\nامر ريحا من الأرياح\r\nطرحها إلى اسفل تحتان\r\n",
+      "Arabic": "\nولما أصبح الصباح\nوطلوع الشمس أشرق ولاح\nامر ريحا من الأرياح\nطرحها إلى اسفل تحتان\n",
       "English": "\nAnd so in the next morning \n When the sun was just rising \n God ordered a strong wind \n To hit the tree and make it bend\n"
     },
     {
@@ -280,7 +280,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوأن الشمس أحرقت يونان\r\nثاني مرة وبقي غضبان\r\nوقال يا رب موتي كان\r\nخير من حياتي الآن\r\n",
+      "Arabic": "\nوأن الشمس أحرقت يونان\nثاني مرة وبقي غضبان\nوقال يا رب موتي كان\nخير من حياتي الآن\n",
       "English": "\nSo the sun beat Jonah again \n He became angry and did complain \n And said to God, \"I wish I was dead \n Better by now to be in a death bed\"\n"
     },
     {
@@ -288,7 +288,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nنادي الله يونان وقال\r\nيا يونان ما بالك حزنت في الحال\r\nعلى شجرة خلقت بالكمال\r\nوفي ليلة زالت يا إنسان\r\n",
+      "Arabic": "\nنادي الله يونان وقال\nيا يونان ما بالك حزنت في الحال\nعلى شجرة خلقت بالكمال\nوفي ليلة زالت يا إنسان\n",
       "English": "\nGod called Jonah and said, \n \"Why has sorrow filled your head \n For one tree created in a night \n And so quickly removed from your sight?\n"
     },
     {
@@ -296,7 +296,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلماذا لا ارحم نينوي\r\nالتي فيها أثني عشرة ربوة\r\nومواضي أيضا بالكثرة\r\nلماذا اهلكها يا إنسان\r\n",
+      "Arabic": "\nلماذا لا ارحم نينوي\nالتي فيها أثني عشرة ربوة\nومواضي أيضا بالكثرة\nلماذا اهلكها يا إنسان\n",
       "English": "\n\"Nineveh, should I not pity \n One hundred and twenty thousand in the city \n As well as much cattle \n Why would I destroy it in hell?\n"
     },
     {
@@ -304,7 +304,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلا تعلم يمينا ولا يسار\r\nلأني إله رؤوف غفار\r\nافرح بالخاطي إذا تاب وصار\r\nبكل قلبه يا إنسان\r\n",
+      "Arabic": "\nلا تعلم يمينا ولا يسار\nلأني إله رؤوف غفار\nافرح بالخاطي إذا تاب وصار\nبكل قلبه يا إنسان\n",
       "English": "\n\"My wisdom you cannot understand \n I am God who's mercy is so grand \n I rejoice when a sinner returns \n All of his heart to Me turns\"\n"
     },
     {
@@ -312,7 +312,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلا تنسانا نحن الخطاه\r\nنصرخ نحوك طالبين نجاه\r\nاقبلنا يا من هو في حضن اباه\r\nواصنع معنا إحسان\r\n",
+      "Arabic": "\nلا تنسانا نحن الخطاه\nنصرخ نحوك طالبين نجاه\nاقبلنا يا من هو في حضن اباه\nواصنع معنا إحسان\n",
       "English": "\nLord, do not forget us sinners \n For Your mercy, we are beggars \n Accept us, O Christ Jesus \n According to Your mercy deal with us\n"
     },
     {
@@ -320,7 +320,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيا من صلب عنا اجميعن\r\nاعطنا رحمة يوم الدين\r\nواجعلنا من اهل اليمين\r\nفي فردوس نعيم أجناني\r\n",
+      "Arabic": "\nيا من صلب عنا اجميعن\nاعطنا رحمة يوم الدين\nواجعلنا من اهل اليمين\nفي فردوس نعيم أجناني\n",
       "English": "\nO You who were crucified for those astray \n Give us mercy on Judgment Day \n Accept us all at Your right hand \n In the Paradise of Joy, the promised land\n"
     }
   ]

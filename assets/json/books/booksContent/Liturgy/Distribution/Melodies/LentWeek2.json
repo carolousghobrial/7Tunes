@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح الاحد الثاني من الصوم الكبير",
+  "EnglishTitle": "Melody for the Second Week of the Great Lent",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "سر عجيب هو سر المسيح\r\nخرج إلى البرية للتسبيح\r\nفجاءه الشيطان بوجه قبيح\r\nليجربه مثل الإنسان\r\n",
+      "Arabic": "سر عجيب هو سر المسيح\nخرج إلى البرية للتسبيح\nفجاءه الشيطان بوجه قبيح\nليجربه مثل الإنسان\n",
       "English": "A great mystery of Jesus Christ \n Who went to the desert for retreat \n Satan came to Him in a hideous form \n To tempt Him as any human being\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفقال له إن كنت المسيح\r\nوالقول عنك هذا صحيح\r\nفقل للحجارة بالتصريح\r\nصيري خبزا يشبع الجوعان\r\n",
+      "Arabic": "\nفقال له إن كنت المسيح\nوالقول عنك هذا صحيح\nفقل للحجارة بالتصريح\nصيري خبزا يشبع الجوعان\n",
       "English": "\nHe told Him, \"If You are the Christ \n If the truth about You is said accurately \n Command these stones clearly \n To become bread feeding the hungry\"\n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقال له إذهب عنى يا شيطان\r\nلأنه مكتوب في سفر الديان\r\nليس بالخبز يحيا الأنسان\r\nبل بكلمة الإيمان\r\n",
+      "Arabic": "\nقال له إذهب عنى يا شيطان\nلأنه مكتوب في سفر الديان\nليس بالخبز يحيا الأنسان\nبل بكلمة الإيمان\n",
       "English": "\nChrist replied: \"Go away Satan \n For it is written in the Book of grace \n 'Man shall not live by bread alone \n But with every word of faith  \n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nثم أخذه إبليس في الحال\r\nواوقفه على جناح هيكل عال\r\nوقال إن كنت ابن الله المتعال\r\nفأطرح نفسك من هذا المكان\r\n",
+      "Arabic": "\nثم أخذه إبليس في الحال\nواوقفه على جناح هيكل عال\nوقال إن كنت ابن الله المتعال\nفأطرح نفسك من هذا المكان\n",
       "English": "\nThe devil took Him to the temple \n And said, \"as You stand in this holy place \n If truly You are the Son of God \n Throw Yourself from here to the base\"\n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفقال له مكتوب في التوراة\r\nلا تجرب الرب الإله\r\nفاحتار إبليس في عقله وتاه\r\nوتغلب عليه الذهول والبهتان\r\n",
+      "Arabic": "\nفقال له مكتوب في التوراة\nلا تجرب الرب الإله\nفاحتار إبليس في عقله وتاه\nوتغلب عليه الذهول والبهتان\n",
       "English": "\nJesus said to him, \"It is written \n You shall not tempt the Lord \n For He is Your maker and creator \n You cannot withstand to oppose His Word\"\n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nثم تجرأ في الحال\r\nوصعد به على جبل عال\r\nوآراه الممالك والأموال\r\nوقال له انظر تلك بالأعيان\r\n",
+      "Arabic": "\nثم تجرأ في الحال\nوصعد به على جبل عال\nوآراه الممالك والأموال\nوقال له انظر تلك بالأعيان\n",
       "English": "\nThen he took Jesus at once \n And went up with Him on a high mountain \n He showed Him all the kingdoms and wealth \n And told Him, \"Behold all this glittering!\"  \n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nهذه كلها في قبضتي\r\nوتحت تصرفي وإرادتي\r\nفإن سجدت لي في وجهتي\r\nاعطيك الكل بلا نقصان\r\n",
+      "Arabic": "\nهذه كلها في قبضتي\nوتحت تصرفي وإرادتي\nفإن سجدت لي في وجهتي\nاعطيك الكل بلا نقصان\n",
       "English": "\n\"I own all these in my own hands \n It is all mine and under my will \n So if You kneel now before me \n I will give You everything\"\n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقال أذهب عنى يا شيطان\r\nأنا ابن الله الديان\r\nالمختص به السجود والإيمان\r\nفاعتراه الوجل والخذلان\r\n",
+      "Arabic": "\nقال أذهب عنى يا شيطان\nأنا ابن الله الديان\nالمختص به السجود والإيمان\nفاعتراه الوجل والخذلان\n",
       "English": "\nJesus replied: \"Go away Satan! \n I am the Son of the living God \n Who alone is due all worship\" \n Satan was defeated and left Him for a time\n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفمضي إبليس عنه بالحسرات\r\nوجاءت الملائكة تخدمه بالمسرات\r\nألوف عساكر مع ربوات\r\nتخدم الابن الديان\r\n",
+      "Arabic": "\nفمضي إبليس عنه بالحسرات\nوجاءت الملائكة تخدمه بالمسرات\nألوف عساكر مع ربوات\nتخدم الابن الديان\n",
       "English": "\nSatan went away disappointed \n With joy, angels came to serve Christ \n Thousands and myriads of soldiers \n Serving the holy True Light  \n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقد صام الرب بيقين\r\nلنتواضع ونصير ثابتين\r\nونسامح أخوتنا المسيئين\r\nوالله يكافئ أهل الإيمان\r\n",
+      "Arabic": "\nقد صام الرب بيقين\nلنتواضع ونصير ثابتين\nونسامح أخوتنا المسيئين\nوالله يكافئ أهل الإيمان\n",
       "English": "\nThe Lord fasted to teach us \n To be humble and imitate Him \n To forgive others for His sake \n To reach God the beneficent\n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nموسي صام فوق جبل الطور\r\nأربعين يوما بغير فتور\r\nأعطاه ربه لوحين مسطور\r\nفيهما العشرة كلمات ببيان\r\n",
+      "Arabic": "\nموسي صام فوق جبل الطور\nأربعين يوما بغير فتور\nأعطاه ربه لوحين مسطور\nفيهما العشرة كلمات ببيان\n",
       "English": "\nMoses fasted on Mount Sinai \n Without ceasing for forty days \n God gave him two written tablets \n With the Ten Commandments teaching His ways\n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوإيلياس بالصوم حبس ماء السموات\r\nفلم تمطر ثلاث سنوات\r\nوستة شهور كاملات\r\nوبصلاته هطل في كل مكان\r\n",
+      "Arabic": "\nوإيلياس بالصوم حبس ماء السموات\nفلم تمطر ثلاث سنوات\nوستة شهور كاملات\nوبصلاته هطل في كل مكان\n",
       "English": "\nThrough fasting, Elijah stopped the rain \n From coming down for three whole years \n And six complete months \n Then through his prayers it rained everywhere  \n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nكان اهل نينوي من الكفار\r\nعباد أصنام فجرة أشرار\r\nولما صاموا ثلاثة أيام بوقار\r\nشملهم العفو والغفران\r\n",
+      "Arabic": "\nكان اهل نينوي من الكفار\nعباد أصنام فجرة أشرار\nولما صاموا ثلاثة أيام بوقار\nشملهم العفو والغفران\n",
       "English": "\nThe Ninevites worshipped idols \n And committed all kinds of sins \n When they fasted for three days piously \n They gained forgiveness of their iniquities\n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nمن صام وهو في ضلال\r\nوطلب رحمة فلا ينال\r\nوينقطع منه الرجاء والآمال\r\nويحرم من نوال الاحسان\r\n",
+      "Arabic": "\nمن صام وهو في ضلال\nوطلب رحمة فلا ينال\nوينقطع منه الرجاء والآمال\nويحرم من نوال الاحسان\n",
       "English": "\nThose who fast while in sin \n And ask for mercy, but cannot gain \n They lose every source of hope \n Away from God; they are in pain\n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nمن صام ويعمل عثرة لأخيه\r\nويطلب رحمة فلا يعطيه\r\nويكون الشيطان متمكنا فيه\r\nويرميه في أسفل النيران\r\n",
+      "Arabic": "\nمن صام ويعمل عثرة لأخيه\nويطلب رحمة فلا يعطيه\nويكون الشيطان متمكنا فيه\nويرميه في أسفل النيران\n",
       "English": "\nThose who fast and cause others to sin \n In them, God does not dwell \n The devil is able to manipulate them \n And cast them down into hell  \n"
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nمن صام وهو غضبان\r\nيكون مسالما للشيطان\r\nويمشي فيا لعالم كالسكران\r\nويصير بينهم كالثعبان\r\n",
+      "Arabic": "\nمن صام وهو غضبان\nيكون مسالما للشيطان\nويمشي فيا لعالم كالسكران\nويصير بينهم كالثعبان\n",
       "English": "\nHe who fasts while angry \n Is in harmony with the devil \n He walks in the world like a drunkard \n Like a serpent, he slithers\n"
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nطوبي لمن صام باعتصام\r\nطوبي لمن صام بغير أثام\r\nطوبي لمن صام وأدخر ليوم الزحام\r\nلأنه يفوز بنعيم الجنان\r\n",
+      "Arabic": "\nطوبي لمن صام باعتصام\nطوبي لمن صام بغير أثام\nطوبي لمن صام وأدخر ليوم الزحام\nلأنه يفوز بنعيم الجنان\n",
       "English": "\nBlessed are those who fast piously \n Blessed are those who fast without sinning \n Those who fast and prepare for Judgment Day \n Paradise is what they shall be gaining\n"
     },
     {
@@ -144,7 +144,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n من لا يرحم فليس يرحم\r\nويقع في أسفل الجحيم ويحطم\r\nلأن إبليس لما تعظم\r\nسقط فأدركه الحرمان\r\n",
+      "Arabic": "\n من لا يرحم فليس يرحم\nويقع في أسفل الجحيم ويحطم\nلأن إبليس لما تعظم\nسقط فأدركه الحرمان\n",
       "English": "\nThe merciless shall not obtain mercy \n They descend into Hades and perish \n For when Satan became arrogant and proud \n He fell being filled with imperfection  \n"
     },
     {
@@ -152,7 +152,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلا تتشامخ وتتكبر\r\nتقع في الجحيم وتتحسر\r\nلأن إبليس لما تجبر\r\nصار مخلدا في النيران\r\n",
+      "Arabic": "\nلا تتشامخ وتتكبر\nتقع في الجحيم وتتحسر\nلأن إبليس لما تجبر\nصار مخلدا في النيران\n",
       "English": "\nDo not be arrogant and proud \n You will go to Hades and there be sad \n For when Satan exalted himself \n In hell fire, he was clad\n"
     },
     {
@@ -160,7 +160,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفلنسأل الله الرحمان\r\nالحاضر في كل مكان\r\nأن يثبتنا على الإيمان\r\nويسكننا فردوس الجنان\r\n",
+      "Arabic": "\nفلنسأل الله الرحمان\nالحاضر في كل مكان\nأن يثبتنا على الإيمان\nويسكننا فردوس الجنان\n",
       "English": "\nLet us ask God the merciful \n Who is present everywhere \n To confirm us in the faith \n In Paradise, we shall meet Him there  \n"
     }
   ]

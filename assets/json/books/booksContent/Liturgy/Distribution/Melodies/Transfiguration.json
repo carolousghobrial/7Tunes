@@ -1,7 +1,7 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح عيد التجلي المجيد",
+  "EnglishTitle": "Melody for the Feast of Transfiguration",
   "Hymn": [
     {
       "Type": "Melody",
@@ -9,7 +9,127 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "المجد لله ذو الرحمة\r\nالمجد للابن ذو الكلمة\r\nالمجد للروح واهب الحكمة\r\nثالوث نمجده بغير فتور\r\n",
-      "English": "Then our mouths are filled with joy, and our tongues with rejoicing, for our Lord Jesus Christ, was born in Bethlehem.\r\n Hail to the city of our Lord, the city of the living, the dwelling of the righteous, which is Jerusalem.\r\nHail to you O Bethlehem, the city of the prophets, who has foretold of, the birth of Emmanuel.\r\n Today the true Light, has shone upon us, from the Virgin Mary, the pure bride.\r\nMary gave birth to our Savior, the good Lover of man, in Bethlehem of Judea, according to the sayings of the prophets.\r\n Isaiah the prophet, proclaimed with a voice of joy , saying \"She will give birth to Emmanuel, our good Savior.\"\r\nNow the heavens rejoice, and the earth is glad, for she has born Emmanuel for us, we the Christian people.\r\n Therefore we are rich, with perfect good things, and with faith we sing, saying Alleluia.\r\nAlleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, was born in Bethlehem.\r\n This is He to whom is due glory, with His good Father, and the Holy Spirit, both now and forever."
+      "English": "\r\nGlory be to the merciful God \n Glory be to the Logos \n Glory be to the Holy Spirit \n The Trinity we glorify always\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nالجالس فوق الكاروبيم\r\nالممجد من السيرافيم\r\nوالحيوانات حاملوا العرش العظيم\r\nيسبحونه على ممر الدهور\r\n",
+      "English": "\r\nHe who sits on the cherubim, \n Is blessed by the seraphim \n The creatures carrying His awesome throne \n Indefinitely praise Him\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nوالأربعة وعشرون قسيس\r\nيرتلون له بالتقديس\r\nوميخائيل بشكل نفيس\r\nوأقف أمام كرسي النور\r\n",
+      "English": "\r\nThe twenty-four presbyters \n Praise Him with great delight \n Along with archangel Michael, \n Standing before the throne of light\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nوذوو الرتب والقوات\r\nوالرؤساء ملائكة السموات\r\nيسبحونه بأجمل اللغات\r\nوهو الحي الباقي مدى الدهور\r\n",
+      "English": "\r\nThe thrones, dominions and powers \n The archangels and angels \n Praise with beautiful songs \n He who exists before all ages\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nونحن شعبه واحباه\r\nنسبحه في علاه\r\nونقول المجد لابن الله\r\nالمتجلي فوق جبل الطور\r\n",
+      "English": "\r\nWe are His beloved people \n We worship crying forevermore \n \"Glory to the Son of God!\" \n Who was transfigured upon Mount Tabor\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nولما دبر واراد\r\nأن يتجلى خالق العباد\r\nأخذ من التلاميذ الأمجاد\r\nذوي العمل المبرور\r\n",
+      "English": "\r\nThe Creator transfigured \n As recorded in the Holy Bible \n He took up with Him \n Three of the blessed disciples\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nبطرس ويوحنا الهمام\r\nويعقوب عالي المقام\r\nوصعدوا جبلا عاليا بالتمام\r\nوتجلى بوجه مشرق بالنور\r\n",
+      "English": "\r\nPeter, and the beloved John, \n James of Zebedee, He did invite \n They went up on a high mountain \n And He transfigured with great light\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nوكانت ثيابه بيضاء\r\nوالنور على الجبل قد أضاء\r\nفظروا اثنان من الأنبياء\r\nوهما موسى وإيلياس الغيور\r\n",
+      "English": "\r\nHis clothes were white as snow \n His light filled the mountain \n Two ancient prophets appeared \n Moses and Elijah the chosen\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nوكانا يخاطبانه بخضوع\r\nفقالت بطرس للرب يسوع\r\nبكل أدب وخشوع\r\nاصنع ثلاث مظال فوق الطور\r\n",
+      "English": "\r\nThey reverently talked to our Lord \n Peter bravely opened his mouth \n \"Let us build three tabernacles \n On this very holy mount,\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nواحدة تكون برسمك\r\nوواحدة لموسى نبيك\r\nوواحدة لإيليا عبدك\r\nفظللتهم سحابة من النور\r\n",
+      "English": "\r\nOne for Your Holy glory \n One for Moses and another \n For Elijah your servant\" \n A cloud of light covered them together\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nوظهر منها صوت سمعوه\r\nهذا ابني الحبيب فأطيعوه\r\nفاضطربوا وما استطاعوه\r\nوانبهروا من هذا النور\r\n",
+      "English": "\r\nA great voice was heard, \n \"This is My beloved Son. Hear Him!\" \n They were awed and amazed \n And trembled with great fear\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nفسقطوا من شدة الفزع\r\nوما اعتراهم من الجزع\r\nفلمسهم يسوع فارتفع\r\nعنهم الخوف وعمهم الحبور\r\n",
+      "English": "\r\nThey fell down on their faces \n Their strength did cease \n Jesus came and touched them \n And they were filled with peace\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nفرفعوا نظرهم نحو محياه\r\nفلم يروا أحدا سواه\r\nيتجلى في باهى ضياه\r\nكالكوكب المشتمل بالنور\r\n",
+      "English": "\r\nThey looked up and saw \n Only their Lord of hosts \n Bright as a shining star, \n Full of glory and honor\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nوفي نزولهم من ذلك المكان\r\nقال لهم الرب الديان\r\nلا تخبروا بالرؤيا أي إنسان\r\nحتى أقوم من بين القبور\r\n",
+      "English": "\r\nOn their way down from the mount \n He spoke to them and said \n \"Do not tell anyone what you have seen \n Until I rise from the dead\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nفازداد التلاميذ من الإيمان\r\nومجدوا ابن الإنسان\r\nوقالوا هذا الذي قد كان\r\nيتجلى فوق جبل الطور\r\n",
+      "English": "\r\nThe disciples were filled with faith \n They glorified the Son of Man evermore \n They praised Him saying, \n \"He was transfigured upon Mount Tabor!\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\r\nيا من تجلى بالأنوار\r\nأمام تلاميذه الأطهار\r\nنجنا من شر الأشرار\r\nوارحمنا واشملنا بالنور\r\n",
+      "English": "\r\nO You who shined so bright \n Before Your beloved disciples thus \n Save us from our enemies \n And have mercy and enlighten us\n"
     }
   ]
 }

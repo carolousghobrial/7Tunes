@@ -490,10 +490,10 @@ const bookPaths = {
   KiahkMidnightPraisesMelodiesYourMercies: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Melodies/YourMercies.json"),
   //Kiahk\VespersPraises\Expositions
   KiahkVespersPraisesExpositionsExpositionsIntroduction: require("../assets/json/books/booksContent/Kiahk/VespersPraises/Expositions/ExpositionsIntroduction.json"),
-  KiahkVespersPraisesExpositionsFirstSunday: require("../assets/json/books/booksContent/Kiahk/VespersPraises/Expositions/FirstSunday.json"),
-  KiahkVespersPraisesExpositionsFourthSunday: require("../assets/json/books/booksContent/Kiahk/VespersPraises/Expositions/FourthSunday.json"),
-  KiahkVespersPraisesExpositionsSecondSunday: require("../assets/json/books/booksContent/Kiahk/VespersPraises/Expositions/SecondSunday.json"),
-  KiahkVespersPraisesExpositionsThirdSunday: require("../assets/json/books/booksContent/Kiahk/VespersPraises/Expositions/ThirdSunday.json"),
+  KiahkVespersPraisesExpositionsWeek1: require("../assets/json/books/booksContent/Kiahk/VespersPraises/Expositions/FirstSunday.json"),
+  KiahkVespersPraisesExpositionsWeek4: require("../assets/json/books/booksContent/Kiahk/VespersPraises/Expositions/FourthSunday.json"),
+  KiahkVespersPraisesExpositionsWeek2: require("../assets/json/books/booksContent/Kiahk/VespersPraises/Expositions/SecondSunday.json"),
+  KiahkVespersPraisesExpositionsWeek3: require("../assets/json/books/booksContent/Kiahk/VespersPraises/Expositions/ThirdSunday.json"),
   //Kiahk\VespersPraises\Hymns
   KiahkVespersPraisesHymnsMoakab1: require("../assets/json/books/booksContent/Kiahk/VespersPraises/Hymns/Moakab1.json"),
   KiahkVespersPraisesHymnsMoakab2: require("../assets/json/books/booksContent/Kiahk/VespersPraises/Hymns/Moakab2.json"),

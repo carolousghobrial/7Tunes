@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح عيد دخول الصليب",
+  "EnglishTitle": "Melody for the Feast of the Cross",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "أبدي باسم الثالوث\r\nالحي رب الصباؤوت\r\nونصيح جميعًا بأعلا صوت\r\nشيريه ناك أوبي استافروس\r\n",
+      "Arabic": "أبدي باسم الثالوث\nالحي رب الصباؤوت\nونصيح جميعًا بأعلا صوت\nشيريه ناك أوبي استافروس\n",
       "English": "I begin in the name of the Trinity \n The living Lord of Hosts \n We all cry out with a loud voice \n Hail to you, O Cross\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلما أراد الملك الديان\r\nأن يظهر صليبه بالإيمان\r\nدبر تدبيرا بالاحسان\r\nشيريه …………………….\r\n",
+      "Arabic": "\nلما أراد الملك الديان\nأن يظهر صليبه بالإيمان\nدبر تدبيرا بالاحسان\nشيريه …………………….\n",
       "English": "\nWhen the just King wanted \n To reveal His Cross with faith \n He arranged a heavenly plan \n Hail to you, O Cross\n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفظهر للملك قسطنطينوس\r\nبعد هلاك دقلديانوس\r\nوكان محبا لاسم ايسوس\r\nشيريه …………………….\r\n",
+      "Arabic": "\nفظهر للملك قسطنطينوس\nبعد هلاك دقلديانوس\nوكان محبا لاسم ايسوس\nشيريه …………………….\n",
       "English": "\nAfter the death of Diocletian \n Emperor Constantine reigned \n And he loved the name of Jesus \n Hail to you, O Cross\n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nأبواب الكنائس فتحهم\r\nوبيوت البرابي أهدمهم\r\nوأهلك جميع من يتبعهم\r\nشيريه …………………….\r\n",
+      "Arabic": "\nأبواب الكنائس فتحهم\nوبيوت البرابي أهدمهم\nوأهلك جميع من يتبعهم\nشيريه …………………….\n",
       "English": "\nHe reopened the churches' doors \n And tore down the temple of the idols \n And destroyed all the followers \n Hail to you, O Cross\n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nارسل عساكر في الوديان\r\nينادوا فيها بالإيمان\r\nوأهلك جميع عباد الأوثان\r\nشيريه …………………….\r\n",
+      "Arabic": "\nارسل عساكر في الوديان\nينادوا فيها بالإيمان\nوأهلك جميع عباد الأوثان\nشيريه …………………….\n",
       "English": "\nHe sent his soldiers in the cities \n To call upon the faithful saints \n And to destroy the idol worshippers \n Hail to you, O Cross\n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفطار عليه حرب البربر\r\nفجمع جيوشا مع عسكر\r\nوقام بالليل وهو يتفكر\r\nشيريه …………………….\r\n",
+      "Arabic": "\nفطار عليه حرب البربر\nفجمع جيوشا مع عسكر\nوقام بالليل وهو يتفكر\nشيريه …………………….\n",
       "English": "\nAt war with barbarians of great might \n He gathered a great army to fight \n And arose thinking in the night \n Hail to you, O Cross\n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفظهر له في السماء علامات\r\nمثل صليب مع ارشادات\r\nواوحي إليه في الرؤيات\r\nشيريه …………………….\r\n",
+      "Arabic": "\nفظهر له في السماء علامات\nمثل صليب مع ارشادات\nواوحي إليه في الرؤيات\nشيريه …………………….\n",
       "English": "\nIn heaven a sign appeared to him \n Like the sign of the Cross in a vision \n And it was revealed unto him \n Hail to you, O Cross\n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقائلا يا ملك الأفراح\r\nاعمل صليب على رؤوس السلاح\r\nفي بريق الحرب يصير لك فلاح\r\nشيريه …………………….\r\n",
+      "Arabic": "\nقائلا يا ملك الأفراح\nاعمل صليب على رؤوس السلاح\nفي بريق الحرب يصير لك فلاح\nشيريه …………………….\n",
       "English": "\nA voice came to the emperor \n \"Place the cross on your armor\" \n In the war, you will conquer\" \n Hail to you, O Cross\n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nأعمل هذه العلامة تنال مناك\r\nبإرادة يسوع تغلب أعداك\r\nفصنع كما قال له الملاك\r\nشيريه …………………….\r\n",
+      "Arabic": "\nأعمل هذه العلامة تنال مناك\nبإرادة يسوع تغلب أعداك\nفصنع كما قال له الملاك\nشيريه …………………….\n",
       "English": "\n\"Make this sign and you will prevail \n Through Jesus your enemies shall fail\" \n The command of the angel, He did obey \n Hail to you, O Cross\n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفطلع للبربر وغلبهم\r\nوهلك اعداءه وبددهم\r\nوظفر بالقوم وشتتهم\r\nشيريه …………………….\r\n",
+      "Arabic": "\nفطلع للبربر وغلبهم\nوهلك اعداءه وبددهم\nوظفر بالقوم وشتتهم\nشيريه …………………….\n",
       "English": "\nHe overcame the barbarians \n He utterly destroyed his enemies \n He triumphed and they were dispersed \n Hail to you, O Cross\n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفلما رجع من حرب البربر\r\nجلس بين العظماء يتفكر\r\nفقال أين صليب المسيح يظهر\r\nشيريه ناك أوبي استافروس\r\n",
+      "Arabic": "\nفلما رجع من حرب البربر\nجلس بين العظماء يتفكر\nفقال أين صليب المسيح يظهر\nشيريه ناك أوبي استافروس\n",
       "English": "\nWhen he returned from the war \n He sat with his counselors and thought \n \"Where can the Cross of Jesus be sought?\" \n Hail to you, O Cross\n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقالوا له في مدينة أورشليم\r\nصليب  المسيح فيها مقيم\r\nوهو صار له زمانا قديم\r\nشيريه …………………….\r\n",
+      "Arabic": "\nقالوا له في مدينة أورشليم\nصليب  المسيح فيها مقيم\nوهو صار له زمانا قديم\nشيريه …………………….\n",
       "English": "\nThey answered, \"The city of Jerusalem \n The Cross of Christ is therein \n It has been there for a long time\" \n Hail to you, O Cross\n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوالملكة هيلانة اتت إليه\r\nوهي تخضع ما بين يديه\r\nقائلة انهض وحارب عليه\r\nشيريه …………………….\r\n",
+      "Arabic": "\nوالملكة هيلانة اتت إليه\nوهي تخضع ما بين يديه\nقائلة انهض وحارب عليه\nشيريه …………………….\n",
       "English": "\nQueen Helen came to him \n And knelt down before him \n \"Arise, fight for it,\" she told him \n Hail to you, O Cross\n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nاذ بالصليب تغلب أعداك\r\nبالصليب تنال مناك\r\nالله اختارك واصطفاك\r\nشيريه …………………….\r\n",
+      "Arabic": "\nاذ بالصليب تغلب أعداك\nبالصليب تنال مناك\nالله اختارك واصطفاك\nشيريه …………………….\n",
       "English": "\n\"If you conquer with the Cross \n With it, you'll obtain your wishes \n God has chosen your goodness \n Hail to you, O Cross\n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفجمعت عسكر مع جيش عظيم\r\nومضت بسرعة إلى أورشليم\r\nفسمعت بها المدن والأقاليم\r\nشيريه …………………….\r\n",
+      "Arabic": "\nفجمعت عسكر مع جيش عظيم\nومضت بسرعة إلى أورشليم\nفسمعت بها المدن والأقاليم\nشيريه …………………….\n",
       "English": "\nShe gathered soldiers for a great army \n And hastened to Jerusalem \n All the cities heard of this mystery \n Hail to you, O Cross\n"
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nولما وصلت المدينة بالإمكان\r\nوعساكرها ملكوا ألأركان\r\nارتجت المدينة بالسكان\r\nشيريه …………………….\r\n",
+      "Arabic": "\nولما وصلت المدينة بالإمكان\nوعساكرها ملكوا ألأركان\nارتجت المدينة بالسكان\nشيريه …………………….\n",
       "English": "\nWhen she reached the city \n Her soldiers secured the place \n The whole city was shaken \n Hail to you, O Cross\n"
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nطلعوا أكابر تلك البلدان\r\nينظروا هذا الأمر الذي كان\r\nوجدوا جيش ملكة مع سلطان\r\nشيريه …………………….\r\n",
+      "Arabic": "\nطلعوا أكابر تلك البلدان\nينظروا هذا الأمر الذي كان\nوجدوا جيش ملكة مع سلطان\nشيريه …………………….\n",
       "English": "\nAll the authorities came to see \n What can this matter be? \n They saw the army of the queen \n Hail to you, O Cross\n"
     },
     {
@@ -144,7 +144,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nاحتارت المدينة في ذاك الحين\r\nلما نظروا أم الملك قسطنطين\r\nفسألتهم كلام باللين\r\nشيريه …………………….\r\n",
+      "Arabic": "\nاحتارت المدينة في ذاك الحين\nلما نظروا أم الملك قسطنطين\nفسألتهم كلام باللين\nشيريه …………………….\n",
       "English": "\nThe city was in great despair \n When they saw the mother of Constantine \n So she asked them with care \n Hail to you, O Cross\n"
     },
     {
@@ -152,7 +152,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقائلة اخبروني بالصحيح\r\nعن صليب يسوع المسيح\r\nأني وضعوه اليهود بالصريح\r\nشيريه …………………….\r\n",
+      "Arabic": "\nقائلة اخبروني بالصحيح\nعن صليب يسوع المسيح\nأني وضعوه اليهود بالصريح\nشيريه …………………….\n",
       "English": "\n\"Please tell me in truth \n About the Cross of Jesus Christ \n Where did the Jews hide it? \n Hail to you, 0 Cross\n"
     },
     {
@@ -160,7 +160,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقالوا لها يا مليكتنا\r\nهذا شيء قديم عنا\r\nليس هو في ايام مدتنا\r\nشيريه …………………….\r\n",
+      "Arabic": "\nقالوا لها يا مليكتنا\nهذا شيء قديم عنا\nليس هو في ايام مدتنا\nشيريه …………………….\n",
       "English": "\nThey told her, \"O our queen \n This is a very ancient thing \n Not even in our lifetime\" \n Hail to you, O Cross\n"
     },
     {
@@ -168,7 +168,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقالت الملكة يا حضار\r\nائتوا لنا أناس اخيار\r\nليتحققوا تلك الأخبار\r\nشيريه …………………….\r\n",
+      "Arabic": "\nقالت الملكة يا حضار\nائتوا لنا أناس اخيار\nليتحققوا تلك الأخبار\nشيريه …………………….\n",
       "English": "\nShe said to all of them, \n \"Bring to me chosen men \n To prove what was spoken\" \n Hail to you, O Cross\n"
     },
     {
@@ -176,7 +176,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nاحضروا لها ثلاث رجال يهود\r\nيحقوا الأزمان والعهود\r\nقالت لهم يا قوم جحود\r\nشيريه …………………….\r\n",
+      "Arabic": "\nاحضروا لها ثلاث رجال يهود\nيحقوا الأزمان والعهود\nقالت لهم يا قوم جحود\nشيريه …………………….\n",
       "English": "\nThey brought three Jewish men \n Of those ancient times, they can tell \n She firmly inquired of them \n Hail to you, O Cross\n"
     },
     {
@@ -184,7 +184,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقائلة اخبروني عن صليب المسيح\r\nاين وضعوه اليهود بالصريح\r\nوكان فيهم واحد فصيح\r\nشيريه ناك أوبي استافروس\r\n",
+      "Arabic": "\nقائلة اخبروني عن صليب المسيح\nاين وضعوه اليهود بالصريح\nوكان فيهم واحد فصيح\nشيريه ناك أوبي استافروس\n",
       "English": "\n\"Tell me about the Cross of Christ \n Where did the Jews hide it?\" \n But one of them was shrewd \n Hail to you, O Cross\n"
     },
     {
@@ -192,7 +192,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفأجابوا عليها بالانكار\r\nقالوا لها لا نعلم ما قد صار\r\nفحسبتهم  في دخان ونار\r\nشيريه …………………….\r\n",
+      "Arabic": "\nفأجابوا عليها بالانكار\nقالوا لها لا نعلم ما قد صار\nفحسبتهم  في دخان ونار\nشيريه …………………….\n",
       "English": "\nThey answered her with denial \n \"We do not know what did transpire\" \n She tested them with fiery trials \n Hail to you, 0 Cross\n"
     },
     {
@@ -200,7 +200,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقالوا اطلقينا ونحن نقول لك\r\nعن صليب المسيح ونخبرك\r\nفي أي مكان نحن نعلمك\r\nشيريه …………………….\r\n",
+      "Arabic": "\nقالوا اطلقينا ونحن نقول لك\nعن صليب المسيح ونخبرك\nفي أي مكان نحن نعلمك\nشيريه …………………….\n",
       "English": "\n\"Release us and we will inform \n About the Cross of Jesus Christ \n We will tell of the place\" \n Hail to you, 0 Cross\n"
     },
     {
@@ -208,7 +208,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقال يهوذا كلام موزون\r\nالصليب في كوم الجلجلة مدفون\r\nهاتوا لنا اناس فحاتون\r\nشيريه …………………….\r\n",
+      "Arabic": "\nقال يهوذا كلام موزون\nالصليب في كوم الجلجلة مدفون\nهاتوا لنا اناس فحاتون\nشيريه …………………….\n",
       "English": "\nOne named Judas told her \n \"It is buried under the pile of Golgotha \n Bring us some men to dig it out\" \n Hail to you, O Cross\n"
     },
     {
@@ -216,7 +216,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفحتوا الكوم والمكان\r\nظهر منه ثلاثة صلبان\r\nفلم يعلموا أيهما صليب الديان\r\nشيريه …………………….\r\n",
+      "Arabic": "\nفحتوا الكوم والمكان\nظهر منه ثلاثة صلبان\nفلم يعلموا أيهما صليب الديان\nشيريه …………………….\n",
       "English": "\nThey dug up the place \n And the three crosses appeared \n But they did not know which was Christ's \n Hail to you, O Cross\n"
     },
     {
@@ -224,7 +224,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nالا وميت أتي عليهم\r\nورجال حاملينه بأيديهم\r\nأمرت الملكة ان يحضروه إليهم\r\nشيريه …………………….\r\n",
+      "Arabic": "\nالا وميت أتي عليهم\nورجال حاملينه بأيديهم\nأمرت الملكة ان يحضروه إليهم\nشيريه …………………….\n",
       "English": "\nA funeral was passing by them \n The dead being carried by men \n The queen ordered them to bring him \n Hail to you, O Cross\n"
     },
     {
@@ -232,7 +232,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقالت الملكة إنزلوه\r\nوهاتوا الصليب عليه أوضعوه\r\nففرحوا الجميع لما رأوه\r\nشيريه …………………….\r\n",
+      "Arabic": "\nقالت الملكة إنزلوه\nوهاتوا الصليب عليه أوضعوه\nففرحوا الجميع لما رأوه\nشيريه …………………….\n",
       "English": "\n\"Set him down and bring the crosses \n And place them upon him\" \n Everyone rejoiced when they saw them \n Hail to you, O Cross\n"
     },
     {
@@ -240,7 +240,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوضعوا عليه الأول والثاني\r\nوالثالث قام بألأكفان\r\nصاحوا الجميع بالعبراني\r\nشيريه …………………….\r\n",
+      "Arabic": "\nوضعوا عليه الأول والثاني\nوالثالث قام بألأكفان\nصاحوا الجميع بالعبراني\nشيريه …………………….\n",
       "English": "\nThe first two were placed on him \n But he rose up with the third cross \n Everyone cried out in Hebrew \n Hail to you, O Cross\n"
     },
     {
@@ -248,7 +248,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nحملوه بإكرام وتهليل\r\nوتراتيل أيضًا مع تبجيل\r\nهذا اليوم عظيم وجليل\r\nشيريه …………………….\r\n",
+      "Arabic": "\nحملوه بإكرام وتهليل\nوتراتيل أيضًا مع تبجيل\nهذا اليوم عظيم وجليل\nشيريه …………………….\n",
       "English": "\nThey carried it with glory and joy \n Praises and beautiful songs \n This is a great day \n Hail to you, O Cross\n"
     },
     {
@@ -256,7 +256,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nهذا هو اليوم الموعود\r\nالذي تنبأ فيه داود\r\nفي ذلك اليوم تم المقصود\r\nشيريه …………………….\r\n",
+      "Arabic": "\nهذا هو اليوم الموعود\nالذي تنبأ فيه داود\nفي ذلك اليوم تم المقصود\nشيريه …………………….\n",
       "English": "\nThis is the promised day \n Of which David prophesied \n On this day the promise was fulfilled \n Hail to you, O Cross\n"
     },
     {
@@ -264,7 +264,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nالسلام للصليب سلاح الغلبة\r\nالسلام للصليب تاج الملكة\r\nبعلامة الصليب تحل البركة\r\nشيريه …………………….\r\n",
+      "Arabic": "\nالسلام للصليب سلاح الغلبة\nالسلام للصليب تاج الملكة\nبعلامة الصليب تحل البركة\nشيريه …………………….\n",
       "English": "\nHail to the Cross, the weapon of victory \n Hail to the Cross, the crown of the kingdom \n With its sign, we receive blessing \n Hail to you, 0 Cross\n"
     },
     {
@@ -272,7 +272,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nالسلام للصليب عمود الدين\r\nالسلام للصليب فخر المؤمنين\r\nالسلام للصليب فرح المسيحيين\r\nشيريه …………………….\r\n",
+      "Arabic": "\nالسلام للصليب عمود الدين\nالسلام للصليب فخر المؤمنين\nالسلام للصليب فرح المسيحيين\nشيريه …………………….\n",
       "English": "\nHail to the Cross, the pillar of faith \n Hail to the Cross, the pride of the faithful \n Hail to the Cross, the joy of the Christians \n Hail to you, O Cross\n"
     },
     {
@@ -280,7 +280,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nالسلام للصليب نور الإيمان\r\nالسلام للصليب نور الإنسان\r\nبعلامة الصليب جحد الشيطان\r\nشيريه ناك أوبي استافروس\r\n",
+      "Arabic": "\nالسلام للصليب نور الإيمان\nالسلام للصليب نور الإنسان\nبعلامة الصليب جحد الشيطان\nشيريه ناك أوبي استافروس\n",
       "English": "\nHail to the Cross, the light of faith \n Hail to the Cross, the light to every man \n With its sign, Satan is renounced \n Hail to you, O Cross\n"
     },
     {
@@ -288,7 +288,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nالسلام للصليب ثمرة الحياة\r\nالسلام للصليب سفينة النجاة\r\nالسلام للصليب سفينة الخطاة\r\nشيريه …………………….\r\n",
+      "Arabic": "\nالسلام للصليب ثمرة الحياة\nالسلام للصليب سفينة النجاة\nالسلام للصليب سفينة الخطاة\nشيريه …………………….\n",
       "English": "\nHail to the Cross, the fruit of life \n Hail to the Cross, the ark of salvation \n Hail to the Cross, the ark for sinners \n Hail to you, 0 Cross\n"
     },
     {
@@ -296,7 +296,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nبالصليب رجع آدم إلى الفردوس\r\nبالصليب غلب أعداءه قسطنطينوس\r\nبالصليب هلك بذيافلوس\r\nشيريه …………………….\r\n",
+      "Arabic": "\nبالصليب رجع آدم إلى الفردوس\nبالصليب غلب أعداءه قسطنطينوس\nبالصليب هلك بذيافلوس\nشيريه …………………….\n",
       "English": "\nThrough the Cross, Adam returned to Paradise \n Through the Cross, Constantine overcame his enemies \n Through the Cross, Satan was destroyed \n Hail to you, O Cross\n"
     },
     {
@@ -304,7 +304,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nالسلام للعذراء أم النور\r\nتخلصنا من كل شرور\r\nوتجعل أيامنا في فرح وسرور\r\nشيريه …………………….\r\n",
+      "Arabic": "\nالسلام للعذراء أم النور\nتخلصنا من كل شرور\nوتجعل أيامنا في فرح وسرور\nشيريه …………………….\n",
       "English": "\nHail to the Virgin, the Mother of Light \n Who protects us from all evils \n She fills our days with joy \n Hail to you, O Cross\n"
     },
     {
@@ -312,7 +312,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nبإشارة صليب مخلصنا\r\nنجحد قوة الشيطان عنا\r\nوشفاعة العذراء تكون معنا\r\nشيريه …………………….\r\n",
+      "Arabic": "\nبإشارة صليب مخلصنا\nنجحد قوة الشيطان عنا\nوشفاعة العذراء تكون معنا\nشيريه …………………….\n",
       "English": "\nThrough the sign of our Savior's Cross \n We renounced the power of Satan \n Through the intercessions of the Virgin \n Hail to you, O Cross\n"
     },
     {
@@ -320,7 +320,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nالسلام للملك قسطنطينوس\r\nالذي أظهر صليب بي اخرستوس\r\nطوباه ثم طوباه اكسيوس\r\nشيريه …………………….\r\n",
+      "Arabic": "\nالسلام للملك قسطنطينوس\nالذي أظهر صليب بي اخرستوس\nطوباه ثم طوباه اكسيوس\nشيريه …………………….\n",
       "English": "\nHail to King Constantine \n Who revealed the Cross of Christ \n We bless him saying, \"Worthy\" \n Hail to you, O Cross\n"
     },
     {
@@ -328,7 +328,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوالسلام للملكة هيلانة\r\nالتي جاهدت بأمانة\r\nنســــــــــأل يا الله الإعانة\r\nشيريــه …………………….\r\n",
+      "Arabic": "\nوالسلام للملكة هيلانة\nالتي جاهدت بأمانة\nنســــــــــأل يا الله الإعانة\nشيريــه …………………….\n",
       "English": "\nHail to Queen Helen \n Who diligently searched for the Cross \n We ask God to help us \n Hail to you, O Cross\n"
     }
   ]

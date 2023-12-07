@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح عيد دخول المسيح الهيكل",
+  "EnglishTitle": "Melody for the Feast of the Lord's Entry into the Temple",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "المجد لمن رفع الإنسان\r\nالترابي واحياه بالإيمان\r\nالمجد لمن وعد سمعان\r\nواتم الوعد له وأوفاه\r\n",
+      "Arabic": "المجد لمن رفع الإنسان\nالترابي واحياه بالإيمان\nالمجد لمن وعد سمعان\nواتم الوعد له وأوفاه\n",
       "English": "Glory be to the holy God \n Glory to the only-begotten of the Father \n Glory be to the life-giving Spirit \n A glowing Trinity, burning like fire\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nذاك الكاهن القديس\r\nكان يخدم في قبة التقديس\r\nشيخ تقى وحبر نفيس\r\nكما وصفه انجيل الله\r\n",
+      "Arabic": "\nذاك الكاهن القديس\nكان يخدم في قبة التقديس\nشيخ تقى وحبر نفيس\nكما وصفه انجيل الله\n",
       "English": "\nBefore our Savior ascended to heaven \n He promised His chosen \n To send the Spirit of comfort \n As tongues of fire\n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nذكر في الأنبياء الأولين\r\nأن العذراء تحبل بجنين\r\nهو عمانوئيل بيقين\r\nالله معنا تفسير معناه\r\n",
+      "Arabic": "\nذكر في الأنبياء الأولين\nأن العذراء تحبل بجنين\nهو عمانوئيل بيقين\nالله معنا تفسير معناه\n",
       "English": "\nThe disciples were gathered \n In the upper room in one spirit \n On the day of Pentecost \n Awaiting the coming of the Holy Spirit\n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nأن سمعان أحد السبعين\r\nمترجمي التوراة للغة اليونانيين\r\nقرأ فيها العذراء تحبل بجنين\r\nفغرق في الفكر وتاه\r\n",
+      "Arabic": "\nأن سمعان أحد السبعين\nمترجمي التوراة للغة اليونانيين\nقرأ فيها العذراء تحبل بجنين\nفغرق في الفكر وتاه\n",
       "English": "\nBehold, thunder and earthquakes \n And a great voice from heaven \n Upon them, the Spirit descended \n With great joy, they accept Him\n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nشك وعقله تحير\r\nوقال هنا فكرى تغير\r\nتروى كيف يترجم ويدبر\r\nفأبدل اسم العذراء بالفتاة\r\n",
+      "Arabic": "\nشك وعقله تحير\nوقال هنا فكرى تغير\nتروى كيف يترجم ويدبر\nفأبدل اسم العذراء بالفتاة\n",
       "English": "\nHe descended upon each one \n And filled them with the Spirit of holiness \n Each one uttered with a tongue \n And spoke of hidden mysteries with boldness\n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفأوحى له الروح المعبود\r\nأنك لا ترى الموت المحدود\r\nحتى يظهر ذلك المولود\r\nبجسد بشرى وبالعين تراه\r\n",
+      "Arabic": "\nفأوحى له الروح المعبود\nأنك لا ترى الموت المحدود\nحتى يظهر ذلك المولود\nبجسد بشرى وبالعين تراه\n",
       "English": "\nMany people gathered to them \n Seeing them rejoice at the visitation \n Of the Spirit of the holiest One \n Who gave them hidden inspiration\n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nهو المسيح رب الأرباب\r\nيولد من عذراء عقب الأحقاب\r\nعند حلول زمانه بحساب\r\nوعلى ذراعيك تحمله وتراه\r\n",
+      "Arabic": "\nهو المسيح رب الأرباب\nيولد من عذراء عقب الأحقاب\nعند حلول زمانه بحساب\nوعلى ذراعيك تحمله وتراه\n",
       "English": "\nSome people were marveling \n Others started mocking them \n Others began accusing \n That these are but drunken men\n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلهذا الوعد عمر سمعان\r\nوعاش كثيرًا من الأزمان\r\nمنتظرا ظهور الإله الديان\r\nبتمام السر وتفسير معناه\r\n",
+      "Arabic": "\nلهذا الوعد عمر سمعان\nوعاش كثيرًا من الأزمان\nمنتظرا ظهور الإله الديان\nبتمام السر وتفسير معناه\n",
       "English": "\nPeter cried with a great voice, \n \"O inhabitants of Jerusalem \n Let every wise man hear \n And be found blameless\"\n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nولما حان الوقت المحتم\r\nقال الله لغبريال تقدم\r\nإلى عذراء تسمى مريم\r\nوبشرها بحلول ابن الله\r\n",
+      "Arabic": "\nولما حان الوقت المحتم\nقال الله لغبريال تقدم\nإلى عذراء تسمى مريم\nوبشرها بحلول ابن الله\n",
       "English": "\n\"It is not as you suppose \n We are not drunkards gone astray \n But are joyful in the Spirit \n It is the third hour of the day!\"\n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nبهذه المواعيد قد كملت\r\nونبؤة أشعيا قد صدقت\r\nمريم عذراء وقد ولدت\r\nوأكمل لسمعان ما أوحاه\r\n",
+      "Arabic": "\nبهذه المواعيد قد كملت\nونبؤة أشعيا قد صدقت\nمريم عذراء وقد ولدت\nوأكمل لسمعان ما أوحاه\n",
       "English": "\n\"Joel the prophet did speak \n About this day and did prophesy \n So understand, o Israelites \n Listen to what I will testify\"\n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفي ختام الأربعين من الأيام\r\nلتطهير الأم بعد ميلاد الغلام\r\nيقدم قربان زوج يمام أو حمام\r\nكناموس موسى الموحى من الله\r\n",
+      "Arabic": "\nفي ختام الأربعين من الأيام\nلتطهير الأم بعد ميلاد الغلام\nيقدم قربان زوج يمام أو حمام\nكناموس موسى الموحى من الله\n",
       "English": "\n\"Jesus of Nazareth came to you \n From God with great wonders \n Him you did crucify \n God raised Him with the sound of thunder\"\n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفأتي الطفل مع ابويه\r\nفحمله سمعان على ذراعيه\r\nومجد الله الذي أوحى إليه\r\nوأتم الوعد واوفاه\r\n",
+      "Arabic": "\nفأتي الطفل مع ابويه\nفحمله سمعان على ذراعيه\nومجد الله الذي أوحى إليه\nوأتم الوعد واوفاه\n",
       "English": "\n\"We are His witnesses \n We beheld Him with our eyes \n We ate and drank with Him \n For many days and many nights\"\n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفقال سمعان يا سيد الأنام\r\nالآن اطلق عبدك بسلام\r\nلأن عيني أبصرتا بالتمام\r\nخلاصك الذي أعددته يا الله\r\n",
+      "Arabic": "\nفقال سمعان يا سيد الأنام\nالآن اطلق عبدك بسلام\nلأن عيني أبصرتا بالتمام\nخلاصك الذي أعددته يا الله\n",
       "English": "\n\"The day He ascended to heaven \n He sat at the right of His Father \n He promised us the Holy Spirit \n Who came as tongues of fire\"\n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nنورا لجميع الأمم والشعوب\r\nومجدًا لإسرائيل آل يعقوب\r\nولهذا الكلام المرهوب\r\nدهش وتعجب أبواه\r\n",
+      "Arabic": "\nنورا لجميع الأمم والشعوب\nومجدًا لإسرائيل آل يعقوب\nولهذا الكلام المرهوب\nدهش وتعجب أبواه\n",
       "English": "\nWhen they heard Simon Peter, they said, \n \"We believe this, which is mysterious \n What shall we do to be counted \n Among the ranks of righteous?\"\n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفباركهما سمعان باهتمام\r\nوقال لمريم ببيان\r\nهذا جعل لسقوط وقيام\r\nكثيرين في اسرائيل الذي يترجاه\r\n",
+      "Arabic": "\nفباركهما سمعان باهتمام\nوقال لمريم ببيان\nهذا جعل لسقوط وقيام\nكثيرين في اسرائيل الذي يترجاه\n",
       "English": "\nThey told them, \"Come you all \n To be immersed in holy baptism \n In the name of Jesus your Savior \n Receive the promise through Him\"\n"
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوأنت سيجوز سيف في نفسك\r\nحتى تكشف افكار بني جنسك\r\nمختارة أنت من بطن أمك\r\nلتمام الوعد الذي به فاه\r\n",
+      "Arabic": "\nوأنت سيجوز سيف في نفسك\nحتى تكشف افكار بني جنسك\nمختارة أنت من بطن أمك\nلتمام الوعد الذي به فاه\n",
       "English": "\nThey all received the word of faith \n And were baptized in His holy name \n According to the apostles' testimony \n Three thousand Christians were claimed\n"
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوحنة النبية إبنة فنوئيل\r\nالمتعبدة في الهيكل الزمن الطويل\r\nشهدت معترفة بقول جليل\r\nمحدثة عن كل منتظر فداه\r\n",
+      "Arabic": "\nوحنة النبية إبنة فنوئيل\nالمتعبدة في الهيكل الزمن الطويل\nشهدت معترفة بقول جليل\nمحدثة عن كل منتظر فداه\n",
       "English": "\nMany sights and wonders \n Were performed by each apostle \n By the Spirit, they raised the dead \n And illuminated the world with the Gospel\n"
     }
   ]

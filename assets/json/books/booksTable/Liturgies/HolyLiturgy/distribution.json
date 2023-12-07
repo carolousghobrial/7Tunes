@@ -156,25 +156,25 @@
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesKiahkWeek1",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isKiahkWeek"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesKiahkWeek2",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isKiahkWeek"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesKiahkWeek3",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isKiahkWeek"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesKiahkWeek4",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isKiahkWeek"
         },
         {
             "Type": "Main",

@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح عيد الميلاد المجيد",
+  "EnglishTitle": "Melody for the Feast of Nativity",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "أنا افتح فاي بمجد الله\r\nوأرتل للمسيح على الدوام\r\nلأنه أكمل وعده وأوفاه\r\nفي إيتاف ماسف خين فيسليئيم\r\n",
+      "Arabic": "أنا افتح فاي بمجد الله\nوأرتل للمسيح على الدوام\nلأنه أكمل وعده وأوفاه\nفي إيتاف ماسف خين فيسليئيم\n",
       "English": "I open my mouth glorifying God \n And praising Christ at all times \n For He has fulfilled His promise \n Who was born in Bethlehem\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nترأى الملاك بصوت التهليل\r\nوبشر رعاة الأغنام\r\nاثقية ابجين ميسى ان امانوئيل\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nترأى الملاك بصوت التهليل\nوبشر رعاة الأغنام\nاثقية ابجين ميسى ان امانوئيل\nفي إيتاف………………..\n",
       "English": "\nThe angel appeared with the voice of joy \n Concerning the Birth of Immanuel \n He preached to the shepherds in the field \n Who was born in Bethlehem\n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nجميع اللغات تصرخ بصياح\r\nالمجد لله في العلا وعلى الأرض السلام\r\nوفي الناس بهجة وأفراح\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nجميع اللغات تصرخ بصياح\nالمجد لله في العلا وعلى الأرض السلام\nوفي الناس بهجة وأفراح\nفي إيتاف………………..\n",
       "English": "\nAll the tongues cry out saying: \n \"Glory to God in the highest; \n Peace on earth, good will towards men\" \n Who was born in Bethlehem\n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nحينئذ أتوا إليه المجوس\r\nمن المشرق باهتمام\r\nوسجدوا لأسمه القدوس\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nحينئذ أتوا إليه المجوس\nمن المشرق باهتمام\nوسجدوا لأسمه القدوس\nفي إيتاف………………..\n",
       "English": "\nThe wise men came to Him \n Diligently from the East \n And worshipped His holy name \n Who was born in Bethlehem\n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nخروا له بعظم إيمان\r\nوقدموا قرابين بالتمام\r\nمرا وذهبا ولبان\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nخروا له بعظم إيمان\nوقدموا قرابين بالتمام\nمرا وذهبا ولبان\nفي إيتاف………………..\n",
       "English": "\nThey worshipped Him with great faith \n And offered Him their gifts \n Gold, frankincense and myrrh \n Who was born in Bethlehem\n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nدانيال أخبرنا ببيان\r\nحين رأى وحية باستفاهم\r\nحجرا قطع بغير يد إنسان\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nدانيال أخبرنا ببيان\nحين رأى وحية باستفاهم\nحجرا قطع بغير يد إنسان\nفي إيتاف………………..\n",
       "English": "\nDaniel saw a vision and did understand \n He proclaimed to all humans \n A stone cut out without a human hand \n Who was born in Bethlehem\n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nدعيت يا بيت لحم أفراثا\r\nوتشرفني بأسرار عظام\r\nسيدنا منك أتى\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nدعيت يا بيت لحم أفراثا\nوتشرفني بأسرار عظام\nسيدنا منك أتى\nفي إيتاف………………..\n",
       "English": "\nYou were adorned with great mysteries \n You were called \"Ephrathah,\" O Bethlehem \n From you, our Master came \n Who was born in Bethlehem\n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nرتل فيك ميخاؤوس\r\nونطق بخفيات عظام\r\nعلى مولد باشويس ايسوس\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nرتل فيك ميخاؤوس\nونطق بخفيات عظام\nعلى مولد باشويس ايسوس\nفي إيتاف………………..\n",
       "English": "\nMicah did sing about you \n And uttered mysteries that are hidden \n About the Birth of our Lord Jesus \n Who was born in Bethlehem\n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nزهرة نبعت من بيت داود\r\nوكوكب أشرق من ابرآم\r\nوقج تم الوعد الموعود\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nزهرة نبعت من بيت داود\nوكوكب أشرق من ابرآم\nوقج تم الوعد الموعود\nفي إيتاف………………..\n",
       "English": "\nA flower grew from the house of David \n And a star appeared from Abraham \n The promises were now fulfilled \n Who was born in Bethlehem\n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nسالومي ويوسف النجار\r\nقد نالوا كرامات عظام\r\nومجد الرب عليهما نار\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nسالومي ويوسف النجار\nقد نالوا كرامات عظام\nومجد الرب عليهما نار\nفي إيتاف………………..\n",
       "English": "\nSalome and Joseph the Carpenter \n The glory of the Lord shone upon them \n They have received great honors \n Who was born in Bethlehem\n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nاشعياء نطق بسرور وأفراح\r\nعذراء في عقب الأيام\r\nتلد راعى شعبه بصلاح\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nاشعياء نطق بسرور وأفراح\nعذراء في عقب الأيام\nتلد راعى شعبه بصلاح\nفي إيتاف………………..\n",
       "English": "\nIsaiah spoke with joy and gladness \n \"A Virgin, in the fullness of time, \n Will bear the Shepherd of His people\" \n Who was born in Bethlehem\n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nصبيًا ولد أو إبنا أعطيناه\r\nملاك المشورة الأعظم\r\nرئاسته على منكباه\r\nفي إيتاف ماسف خين فيسليئيم\r\n",
+      "Arabic": "\nصبيًا ولد أو إبنا أعطيناه\nملاك المشورة الأعظم\nرئاسته على منكباه\nفي إيتاف ماسف خين فيسليئيم\n",
       "English": "\n\"Unto us a Child is born, and a Son is given \n Upon His shoulders will be the government \n His name is Wonderful and Mighty God\" \n Who was born in Bethlehem\n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nصوفونيو عنك خبر\r\nونطق بمجدك يا مريم\r\nشمس البر منك ظهر\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nصوفونيو عنك خبر\nونطق بمجدك يا مريم\nشمس البر منك ظهر\nفي إيتاف………………..\n",
       "English": "\nSolomon talked about you \n And uttered of your glory, O Mary \n The Sun of Righteousness shone from you \n Who was born in Bethlehem\n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nضوء الكوكب أشرق للمجوس\r\nوصار يرشدهم بإلهام\r\nإلى حيث كان الرب ايسوس\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nضوء الكوكب أشرق للمجوس\nوصار يرشدهم بإلهام\nإلى حيث كان الرب ايسوس\nفي إيتاف………………..\n",
       "English": "\nThe light of the star was a guide \n And was leading the way for the wise men \n To the place where the Lord Jesus lay \n Who was born in Bethlehem\n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nطغمات العرش العلويين\r\nيسبحون ببهجة ونظام\r\nبصوت الفرح مبتهجين\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nطغمات العرش العلويين\nيسبحون ببهجة ونظام\nبصوت الفرح مبتهجين\nفي إيتاف………………..\n",
       "English": "\nThe high angelic ranks of heaven \n Praise with gladness and rejoicing \n With the voice of joy saying \n Who was born in Bethlehem\n"
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nظهر سيدنا وأوفي الوعد\r\nوجاد علينا بالأنعام\r\nتواضع وأخذ شكل العبد\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nظهر سيدنا وأوفي الوعد\nوجاد علينا بالأنعام\nتواضع وأخذ شكل العبد\nفي إيتاف………………..\n",
       "English": "\nOur Lord came and granted us His grace \n He fulfilled His promise \n He was humble and took our form \n Who was born in Bethlehem\n"
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nعمانوئيل نور من نور\r\nنورنا من بعد ظلام\r\nوصار معنا إله منظور\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nعمانوئيل نور من نور\nنورنا من بعد ظلام\nوصار معنا إله منظور\nفي إيتاف………………..\n",
       "English": "\nImmanuel is Light out of Light \n He enlightened us after the darkness \n He was with us, a manifest God \n Who was born in Bethlehem\n"
     },
     {
@@ -144,7 +144,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nغير المرئي ظهر الآن\r\nلأجل خلاص عبده آدم\r\nوعتقنا من أسر الشيطان\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nغير المرئي ظهر الآن\nلأجل خلاص عبده آدم\nوعتقنا من أسر الشيطان\nفي إيتاف………………..\n",
       "English": "\nThe invisible God became visible \n For the salvation of Adam His servant \n And freed us from Satan's bondage \n Who was born in Bethlehem\n"
     },
     {
@@ -152,7 +152,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفي المذوذ كان ملفوف\r\nوسجدت له رعاة الأغنام\r\nوسبحته كل الصفوف\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nفي المذوذ كان ملفوف\nوسجدت له رعاة الأغنام\nوسبحته كل الصفوف\nفي إيتاف………………..\n",
       "English": "\nIn the manger, He was wrapped \n The shepherds worshipped Him \n All the angelic ranks praised Him \n Who was born in Bethlehem\n"
     },
     {
@@ -160,7 +160,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقال المرتل في المزمور\r\nتسجد له سائر الانام\r\nوتقدم له هدايا ونذور\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nقال المرتل في المزمور\nتسجد له سائر الانام\nوتقدم له هدايا ونذور\nفي إيتاف………………..\n",
       "English": "\nDavid said in the Book of Psalms \n \"All the nations worship Him \n And offer Him gifts and presents\" \n Who was born in Bethlehem\n"
     },
     {
@@ -168,7 +168,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nكل الأنفس مجتمعين\r\nاليوم في عيدك الأعظم\r\nبأصوات الفرح مبتهجين\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nكل الأنفس مجتمعين\nاليوم في عيدك الأعظم\nبأصوات الفرح مبتهجين\nفي إيتاف………………..\n",
       "English": "\nAll the souls are gathered today \n To celebrate this great feast \n Praising with the voice of joy \n Who was born in Bethlehem\n"
     },
     {
@@ -176,7 +176,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلوقا الرسول أخبر بما قيل\r\nنورا أشرق للأمم\r\nومجدا لشعبك اسرائيل\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nلوقا الرسول أخبر بما قيل\nنورا أشرق للأمم\nومجدا لشعبك اسرائيل\nفي إيتاف………………..\n",
       "English": "\nLuke the Apostle spoke of the news \n \"A light to bring revelation to the Gentiles, \n and the Glory of Your people Israel\" \n Who was born in Bethlehem\n"
     },
     {
@@ -184,7 +184,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nميلاد ايسوس هكذا كان\r\nبعجائب واسرار عظام\r\nوالكلمة قد صار إنسان\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nميلاد ايسوس هكذا كان\nبعجائب واسرار عظام\nوالكلمة قد صار إنسان\nفي إيتاف………………..\n",
       "English": "\nYour birth, our Lord Jesus was \n Mysterious with great wonders \n The eternal Logos became Man \n Who was born in Bethlehem\n"
     },
     {
@@ -192,7 +192,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nنؤمن باسمه القدوس\r\nونسبح بمجد أعظم\r\nأنون خين ني اخرستيانوس\r\nفي إيتاف ماسف خين فيسليئم\r\n",
+      "Arabic": "\nنؤمن باسمه القدوس\nونسبح بمجد أعظم\nأنون خين ني اخرستيانوس\nفي إيتاف ماسف خين فيسليئم\n",
       "English": "\nWe believe in His holy name \n And praise with great glories \n All of us, the Christians \n Who was born in Bethlehem\n"
     },
     {
@@ -200,7 +200,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nهيرودس ذلك الملعون\r\nأراد أن يقتل رب الأنام\r\nأبؤور أن ايه بورانيون\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nهيرودس ذلك الملعون\nأراد أن يقتل رب الأنام\nأبؤور أن ايه بورانيون\nفي إيتاف………………..\n",
       "English": "\nThe cursed King Herod \n Wanted to kill the Lord of heaven \n King of the heavenly \n Who was born in Bethlehem\n"
     },
     {
@@ -208,7 +208,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوغاب صوابه المنجوس\r\nوقتل ربوات أطفال تمام\r\nمن شأن سيدنا بي اخرستوس\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nوغاب صوابه المنجوس\nوقتل ربوات أطفال تمام\nمن شأن سيدنا بي اخرستوس\nفي إيتاف………………..\n",
       "English": "\nHis wicked judgment was foolish \n For he killed myriads of children \n They died for the sake of our Lord Christ \n Who was born in Bethlehem\n"
     },
     {
@@ -216,7 +216,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوظهر ملاك الله في الحين\r\nليوسف يقول أهرب قوام\r\nإلى أرض المصريين\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nوظهر ملاك الله في الحين\nليوسف يقول أهرب قوام\nإلى أرض المصريين\nفي إيتاف………………..\n",
       "English": "\nThe angel of God appeared \n To Joseph telling him to quickly flee \n To the land of the Egyptians \n Who was born in Bethlehem\n"
     },
     {
@@ -224,7 +224,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nواتى السيد من أورشليم\r\nحتى بلغ إلى قسقام\r\nفوق السحابة الحقيقية مقيم\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nواتى السيد من أورشليم\nحتى بلغ إلى قسقام\nفوق السحابة الحقيقية مقيم\nفي إيتاف………………..\n",
       "English": "\nThe Lord came from Jerusalem \n Until He reached Qosqam Hill+ \n Riding on the true cloud++ \n Who was born in Bethlehem + Part of Assuit governorate, about 327 Kilometers south of Cairo; where the monastery of St. Mary known as \"El-Moharrak Monastery\" was later built. ++ Behold, the Lord rides on a swift cloud, and will come into Egypt...\" Isaiah 19:1\n"
     },
     {
@@ -232,7 +232,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلا تنسى يا أم القدوس\r\nاشفعي فينا يا مريم\r\nأمام سيدنا بي اخرستوس\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nلا تنسى يا أم القدوس\nاشفعي فينا يا مريم\nأمام سيدنا بي اخرستوس\nفي إيتاف………………..\n",
       "English": "\nDo not forget O Mother of the Holy \n O Mary, intercede on our behalf \n Before our Master Christ \n Who was born in Bethlehem\n"
     },
     {
@@ -240,7 +240,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيا من اتيت من علو سماك\r\nواشرقت من البتول مريم\r\nتطلع علينا بعين رضاك\r\nفي إيتاف………………..\r\n",
+      "Arabic": "\nيا من اتيت من علو سماك\nواشرقت من البتول مريم\nتطلع علينا بعين رضاك\nفي إيتاف………………..\n",
       "English": "\nO You who came from heaven up high \n And shone to us from the Virgin Mary \n Look upon us with Your kindness \n Who was born in Bethlehem\n"
     },
     {
@@ -248,7 +248,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوالبيعة تكون في طمأنينتك\r\nمحفوظة دايما يا مريم\r\nوتكون منصانة بشفاعتك\r\nمحروسة طول الأيام\r\n",
+      "Arabic": "\nوالبيعة تكون في طمأنينتك\nمحفوظة دايما يا مريم\nوتكون منصانة بشفاعتك\nمحروسة طول الأيام\n",
       "English": "\nMay the Church always be in safety \n Guarded always, O Mary; \n Fortified through | your intercessions \n Protected eternally\n"
     }
   ]

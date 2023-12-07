@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح عيد النيروز ",
+  "EnglishTitle": "Melody for the Feast of Nayrooz",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "المجد لله في علاه\r\nالذي نزل إلينا برضاه\r\nليرد آدم من منفاه\r\nيا رب ارفع غضبك عنا\r\n",
+      "Arabic": "المجد لله في علاه\nالذي نزل إلينا برضاه\nليرد آدم من منفاه\nيا رب ارفع غضبك عنا\n",
       "English": "Glory to God in the highest \n Who of His own will came to us \n To restore Adam from his exile \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيا الله تراءف علينا\r\nوبمعونتك اشملنا\r\nواشرق بأنوارك  فينا\r\nيا رب…………….\r\n",
+      "Arabic": "\nيا الله تراءف علينا\nوبمعونتك اشملنا\nواشرق بأنوارك  فينا\nيا رب ارفع غضبك عنا\n",
       "English": "\nO God, have compassion upon us \n With Your aid surround us \n Shine Your light upon us \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nبارك أكليل هذا العام\r\nواصفح عن جميع آثامنا\r\nوجدد قلوبنا والأفهام\r\n يـا رب…………….\r\n",
+      "Arabic": "\nبارك أكليل هذا العام\nواصفح عن جميع آثامنا\nوجدد قلوبنا والأفهام\n يـا رب…………….\n",
       "English": "\nBless the crown of this year \n Forgive all our sins \n Renew our hearts and minds \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nعرفنا يا رب سبلك\r\nولعمل شريعتك أهلنا\r\nأظهر لكل الناس عدلك\r\nيا رب…………….\r\n",
+      "Arabic": "\nعرفنا يا رب سبلك\nولعمل شريعتك أهلنا\nأظهر لكل الناس عدلك\nيا رب ارفع غضبك عنا\n",
       "English": "\nO Lord, teach us Your ways \n Make us worthy to fulfill Your laws \n Show Your justice to all men \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nنشكرك لحسن أعمالك\r\nونعترف بجودك علينا\r\nونمجد عظمتك وجلالك\r\nيا رب…………….\r\n",
+      "Arabic": "\nنشكرك لحسن أعمالك\nونعترف بجودك علينا\nونمجد عظمتك وجلالك\nيا رب ارفع غضبك عنا\n",
       "English": "\nWe thank You for Your goodness \n We acknowledge it upon us \n And we glorify Your majesty and greatness \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nنفرح بحلولك فينا\r\nونسبحك في كنائسنا\r\nلأنك إلهنا وفادينا\r\nيا رب…………….\r\n",
+      "Arabic": "\nنفرح بحلولك فينا\nونسبحك في كنائسنا\nلأنك إلهنا وفادينا\nيا رب ارفع غضبك عنا\n",
       "English": "\nWe rejoice in Your dwelling in us \n We praise You in our churches \n For You are our Lord and Redeemer \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nحكمك عدل وحق يا رحمان\r\nووعدت التائب بالغفران\r\nلأنك رؤوف على كل الأكوان\r\nيا رب…………….\r\n",
+      "Arabic": "\nحكمك عدل وحق يا رحمان\nووعدت التائب بالغفران\nلأنك رؤوف على كل الأكوان\nيا رب ارفع غضبك عنا\n",
       "English": "\nYour judgment is just right, O Merciful \n You promised repentant forgiveness \n For You are merciful at all times \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nنصرخ إليك كل الأوقات\r\nفي التجارب لا تدخلنا\r\nواترك لنا كل الزلات\r\nيا رب…………….\r\n",
+      "Arabic": "\nنصرخ إليك كل الأوقات\nفي التجارب لا تدخلنا\nواترك لنا كل الزلات\nيا رب ارفع غضبك عنا\n",
       "English": "\nWe cry to You at all times: \n \"Lead us not into temptation, \n And forgive us our trespasses\" \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nنتوسل إليك وبابتهال\r\nأمل أذنيك واسمعنا\r\nلكي نسبحك ليلًا ونهارًا\r\nيا رب…………….\r\n",
+      "Arabic": "\nنتوسل إليك وبابتهال\nأمل أذنيك واسمعنا\nلكي نسبحك ليلًا ونهارًا\nيا رب ارفع غضبك عنا\n",
       "English": "\nWe implore You with supplication \n Incline Your ears and hear us \n That we may praise You day and night \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nسامحنا بكل الأوزار\r\nتعطف علينا وارحمنا\r\nطالبين عفوك كبار وصغار\r\nيا رب…………….\r\n",
+      "Arabic": "\nسامحنا بكل الأوزار\nتعطف علينا وارحمنا\nطالبين عفوك كبار وصغار\nيا رب ارفع غضبك عنا\n",
       "English": "\nForgive all our iniquities \n Have compassion and mercy upon us \n We all ask your forgiveness \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nطهرنا من كل العيوب\r\nوإلى الأعداء لا تسلمنا\r\nواجعـــــــل الخاطئ فينا يتوب\r\nيا رب ارفــــع غضبك عنـــا\r\n",
+      "Arabic": "\nطهرنا من كل العيوب\nوإلى الأعداء لا تسلمنا\nواجعـــــــل الخاطئ فينا يتوب\nيا رب ارفــــع غضبك عنـــا\n",
       "English": "\nPurify us from all mistakes \n Deliver us not unto our enemies \n Let the sinners repent to You \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nامنــــــع الغلاء وأيضًا الحروب\r\nواغنى الفقراء وابطل مطامعنــــا\r\nوامنحنا كل المطلوب\r\nيا رب…………….\r\n",
+      "Arabic": "\nامنــــــع الغلاء وأيضًا الحروب\nواغنى الفقراء وابطل مطامعنــــا\nوامنحنا كل المطلوب\nيا رب ارفع غضبك عنا\n",
       "English": "\nDeliver us from wars and inflations \n Fill the poor with surplus \n Grant us our requests \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nعول الارامل والأيتام\r\nواشفي جميع اسقامنا\r\nلأنك رجانا على الدوام\r\nيا رب…………….\r\n",
+      "Arabic": "\nعول الارامل والأيتام\nواشفي جميع اسقامنا\nلأنك رجانا على الدوام\nيا رب ارفع غضبك عنا\n",
       "English": "\nCare for the widows and orphans \n Heal all our sicknesses \n For You are our hope forever \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nامنع الأوبئة والأوجاع\r\nوفي الضيق كن عنائلنا\r\nوأكثر خيراتك – للجياع\r\nيا رب…………….\r\n",
+      "Arabic": "\nامنع الأوبئة والأوجاع\nوفي الضيق كن عنائلنا\nوأكثر خيراتك – للجياع\nيا رب ارفع غضبك عنا\n",
       "English": "\nEnd the pains and afflictions \n Be our support in distress \n Multiply Your fruits among the needy \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nأوفي دين المديونين\r\nومن جميع الشدائد نجينا\r\nوخلص كل المسبين\r\nيا رب…………….\r\n",
+      "Arabic": "\nأوفي دين المديونين\nومن جميع الشدائد نجينا\nوخلص كل المسبين\nيا رب ارفع غضبك عنا\n",
       "English": "\nRemove the debts of Your people \n Save us from all afflictions \n Save all those who are captives \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nحزاني القلوب عزيهم\r\nوبصوتك الفرح اسمعنا\r\nوالذين في الشدة أفرج عنهم\r\nيا رب…………….\r\n",
+      "Arabic": "\nحزاني القلوب عزيهم\nوبصوتك الفرح اسمعنا\nوالذين في الشدة أفرج عنهم\nيا رب ارفع غضبك عنا\n",
       "English": "\nComfort the mourning hearts \n Let us hear Your joyful voice \n Strengthen those who are in trouble \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nثبتنا على الإيمان\r\nبطلبات قديسيك اقبلنا\r\nوابعد عنا فكر الشيطان\r\nيا رب…………….\r\n",
+      "Arabic": "\nثبتنا على الإيمان\nبطلبات قديسيك اقبلنا\nوابعد عنا فكر الشيطان\nيا رب ارفع غضبك عنا\n",
       "English": "\nConfirm us in the faith \n Accept us through the prayers of your saints \n Remove from us the devil's thoughts \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -144,7 +144,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nلك الشكر على الدوام\r\nونسبحك بأفواهنا\r\nمتعنا بجزيل الأنعام\r\nيا رب…………….\r\n",
+      "Arabic": "\nلك الشكر على الدوام\nونسبحك بأفواهنا\nمتعنا بجزيل الأنعام\nيا رب ارفع غضبك عنا\n",
       "English": "\nYou are always worthy of thanksgiving \n Our lips offer You praises \n Let us enjoy Your goodness \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -152,7 +152,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nمنك تصدر البركات\r\nبغلات الأرض تشبعنا\r\nتسبحك جميع المخلوقات\r\nيا رب…………….\r\n",
+      "Arabic": "\nمنك تصدر البركات\nبغلات الأرض تشبعنا\nتسبحك جميع المخلوقات\nيا رب ارفع غضبك عنا\n",
       "English": "\nAll blessings come from You \n Fill us with Your blessing on earth \n All creation praises You \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -160,7 +160,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nأخرجت الثمرة من الأشجار\r\nوجعلتها طعام في أفواهنا\r\nنمجدك ليلًا ونهارًا\r\nيا رب…………….\r\n",
+      "Arabic": "\nأخرجت الثمرة من الأشجار\nوجعلتها طعام في أفواهنا\nنمجدك ليلًا ونهارًا\nيا رب ارفع غضبك عنا\n",
       "English": "\nYou produce fruit from trees \n And grant them as food for us \n We praise You day and night \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -168,7 +168,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيا رب املانا من بركتك\r\nوفي كنيستك اجمعنا\r\nلنكون أهلًا لخدمتك\r\nيا رب…………….\r\n",
+      "Arabic": "\nيا رب املانا من بركتك\nوفي كنيستك اجمعنا\nلنكون أهلًا لخدمتك\nيا رب ارفع غضبك عنا\n",
       "English": "\nO Lord, fill us with Your blessings \n In Your Church, gather us \n Make us worthy of Your service \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -176,7 +176,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوبطريرك هذا الزمان\r\nبصلواته يا رب نفعنا\r\nواحفظه من التجارب والأحزان\r\nيا رب…………….\r\n",
+      "Arabic": "\nوبطريرك هذا الزمان\nبصلواته يا رب نفعنا\nواحفظه من التجارب والأحزان\nيا رب ارفع غضبك عنا\n",
       "English": "\nThe patriarch of our generation \n Through his prayers, O Lord, help us \n Keep Him from temptation and grief \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -184,7 +184,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nإلهنا يباركنا كل حين\r\nويشفي أمراضنا واوجاعنا\r\nويشبع الفقراء والمحتاجين\r\nيا رب ارفع غضبك عنا\r\n",
+      "Arabic": "\nإلهنا يباركنا كل حين\nويشفي أمراضنا واوجاعنا\nويشبع الفقراء والمحتاجين\nيا رب ارفع غضبك عنا\n",
       "English": "\nOur Lord blesses us at all times \n Heals our sicknesses and pains \n He fills the hungry and the needy \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -192,7 +192,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nباركنا ببركات السموات\r\nولغيرك لا تحوجنا\r\nاملأ بيوتنا من الخيرات\r\nيا رب…………….\r\n",
+      "Arabic": "\nباركنا ببركات السموات\nولغيرك لا تحوجنا\nاملأ بيوتنا من الخيرات\nيا رب ارفع غضبك عنا\n",
       "English": "\nGrant us blessing from above \n Please Lord do not forsake us \n Fill our homes with Your blessings \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -200,7 +200,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nبارك جميع المسيحيين\r\nالحاضرين والغائبين عنا\r\nارحمنا جميعًا يوم الدين\r\nيا رب…………….\r\n",
+      "Arabic": "\nبارك جميع المسيحيين\nالحاضرين والغائبين عنا\nارحمنا جميعًا يوم الدين\nيا رب ارفع غضبك عنا\n",
       "English": "\nBless all the Christians \n Those who are present and those absent \n Have mercy on us on Judgment Day \n O Lord, take away Your wrath from us\n"
     },
     {
@@ -208,7 +208,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفليكن اسمك مخوف ومبارك\r\nومجدك في جميع الأمم يا إلهنا\r\nاسكنـــــــــا نعيمك وديارك\r\nيـــــــا رب…………….\r\n",
+      "Arabic": "\nفليكن اسمك مخوف ومبارك\nومجدك في جميع الأمم يا إلهنا\nاسكنـــــــــا نعيمك وديارك\nيـــــــا رب…………….\n",
       "English": "\nLet Your name be feared and blessed \n O our God, Your glory is to all nations \n Let us live in Your goodness in heaven \n O Lord, take away Your wrath from us\n"
     }
   ]

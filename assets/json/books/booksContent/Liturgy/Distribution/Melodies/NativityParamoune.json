@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح برمون عيد الميلاد المجيد",
+  "EnglishTitle": "Melody for the Paramoune of Nativity",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "أنا أول كلامي أصيح السلام\r\n لفخر الآنام وبدر التمام\r\n أنا ألقي إهتمامي بطول الدوام\r\n علي البكر مريم وبها أستجير\r\n وأبيح وأتكلم بما في ضمير . \r\n",
+      "Arabic": "أنا أول كلامي أصيح السلام\n لفخر الآنام وبدر التمام\n أنا ألقي إهتمامي بطول الدوام\n علي البكر مريم وبها أستجير\n وأبيح وأتكلم بما في ضمير . \n",
       "English": "I start this song with words peacefully \n About the pride and brightness of humanity \n I place my cares permanently \n Upon Virgin Mary who helps quickly \n I reveal and speak my mind openly\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n بماذا أتكلم وبماذا أقول\r\n أكِل ولا أعلم بسِر البتول\r\n حبل مرتمريم يفوق العقول\r\n وشرحه عجيباً علينا عسير\r\n ومَنْ كان لبيباً نطق باليسير . \r\n",
+      "Arabic": "\n بماذا أتكلم وبماذا أقول\n أكِل ولا أعلم بسِر البتول\n حبل مرتمريم يفوق العقول\n وشرحه عجيباً علينا عسير\n ومَنْ كان لبيباً نطق باليسير . \n",
       "English": "\nHow can I speak and what can I say \n About the mystery of her virginity \n Mary's pregnancy baffles minds mysteriously \n It is impossible to explain and say \n Even the scholars could not find a way\n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n تنبأ عليها النبي حزقيال\r\n وأهدأ إليها سلامُه وقال\r\n يأتي إليها يسوع ذو الجلال\r\n وهو ربها العزيز القدير\r\n الذي أحبها من قبل أن تصير . \r\n",
+      "Arabic": "\n تنبأ عليها النبي حزقيال\n وأهدأ إليها سلامُه وقال\n يأتي إليها يسوع ذو الجلال\n وهو ربها العزيز القدير\n الذي أحبها من قبل أن تصير . \n",
       "English": "\nEzekiel the prophet spoke about her \n He greeted her with peace and said about her \n Jesus the King will come to her \n He is her Lord and the Creator \n He loved her before He had made her\n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n جميع الغرائب وكل الفنون\r\n عقول اللبايب بها لم يدركون\r\n يا أهل العجايب لا تتعجبون\r\n ما هو العجب أن رباً قدير\r\n في البطن أنتجب مثل طفل صغير . \r\n",
+      "Arabic": "\n جميع الغرائب وكل الفنون\n عقول اللبايب بها لم يدركون\n يا أهل العجايب لا تتعجبون\n ما هو العجب أن رباً قدير\n في البطن أنتجب مثل طفل صغير . \n",
       "English": "\nAll the arts and all the wonders \n Even the sayings of the scholars \n Her virginity we should not ponder \n Our Almighty Lord is the real wonder \n Who dwelt in her womb as a Child to her\n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n حينئذ لما صُلِب واُنتهر\r\n مات بالإرادة وقام بالسحر\r\n فمن أجل هذا يا بني البشر\r\n تعلُّوا ورُفِعوا من عمق بير\r\n جُهنم فرجعوا إلي فردوس مُنير . \r\n",
+      "Arabic": "\n حينئذ لما صُلِب واُنتهر\n مات بالإرادة وقام بالسحر\n فمن أجل هذا يا بني البشر\n تعلُّوا ورُفِعوا من عمق بير\n جُهنم فرجعوا إلي فردوس مُنير . \n",
       "English": "\nBy His will He suffered and was crucified \n He rose from the dead after He died \n The Son of Man raised men who died \n From the depth of Hades to the Paradise \n He returned man to the Paradise of light\n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n خلاص البَرِيَة ظهر من قِبَل\r\n بتول مُصطفية التي هي جبل\r\n صهيون النقية وسر الحبل\r\n على فكر قلبي وفاق الضمير\r\n وليس عند ربي أمر عسير . \r\n",
+      "Arabic": "\n خلاص البَرِيَة ظهر من قِبَل\n بتول مُصطفية التي هي جبل\n صهيون النقية وسر الحبل\n على فكر قلبي وفاق الضمير\n وليس عند ربي أمر عسير . \n",
       "English": "\nThe salvation of the creation appeared from \n The pure and chosen Virgin Mount Zion \n Her pregnancy is a mysterious one \n To my heart and to my conscience, \n But nothing is impossible for my Lord, the One\n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n دعيت صديقة وموسى الكليم\r\n نطق في العتيقة بأمر عظيم\r\n وقال \"بالحقيقة أن الله يُقيم\r\n إليكم نبياً كمثلي نذير\r\nخلقكم بدياً وإليه المسير . \"\r\n",
+      "Arabic": "\n دعيت صديقة وموسى الكليم\n نطق في العتيقة بأمر عظيم\n وقال \"بالحقيقة أن الله يُقيم\n إليكم نبياً كمثلي نذير\nخلقكم بدياً وإليه المسير . \"\n",
       "English": "\nMoses the prophet spoke a great saying, \n With an old prophecy that was amazing \n He said that God will truly bring \n A great prophet with no equal being \n Who created the end and the beginning\n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n رآكِ عَوْسج أخضر وفيه نار تقيد\r\n فصار في تحير وعجب شديد\r\n وجاء البعض فسر ما هو عتيد\r\n وقال إن هذا لمريم شهير\r\n وأكرز ونادى يوحنا البشير . \r\n",
+      "Arabic": "\n رآكِ عَوْسج أخضر وفيه نار تقيد\n فصار في تحير وعجب شديد\n وجاء البعض فسر ما هو عتيد\n وقال إن هذا لمريم شهير\n وأكرز ونادى يوحنا البشير . \n",
       "English": "\nHe saw you in a burning bush with flames \n He became amazed and marveled \n Many prophesied what would happen \n This is a known symbol of Mary \n John the Evangelist spoke and preached:\n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n زماني جميعه وأنا في المديح\r\n ولم أستطيع لكني أبيح\r\n بسري جميعه لأم المسيح\r\n وأكون المُبشِّر بها والنذير\r\n مهما تيسر قليل من كثير . \r\n",
+      "Arabic": "\n زماني جميعه وأنا في المديح\n ولم أستطيع لكني أبيح\n بسري جميعه لأم المسيح\n وأكون المُبشِّر بها والنذير\n مهما تيسر قليل من كثير . \n",
       "English": "\nAll my life I glorify with melodies \n I could not refrain, I must reveal \n The mysteries of the Mother of Christ \n I was entrusted to evangelize \n Regardless of any circumstances\n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n سليمان أجابك يقول في النشيد\r\n \"أختي مرحباً بكِ وأنا لكِ أريد\r\n روايح ثيابِك كعنبر يقيد\r\n\" حقاً قد تكلم يوحنا البشير\r\n على البكر مريم كلاماً كثير . \r\n",
+      "Arabic": "\n سليمان أجابك يقول في النشيد\n \"أختي مرحباً بكِ وأنا لكِ أريد\n روايح ثيابِك كعنبر يقيد\n\" حقاً قد تكلم يوحنا البشير\n على البكر مريم كلاماً كثير . \n",
       "English": "\nSolomon spoke of you in the Song of Songs \n Welcome, my sister, to you I long \n The aroma of your clothes is sweet \n Truly, John the Evangelist spoke \n About Virgin Mary in many words\n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n شهد وقال \"أمس رأيت إمراة\r\n بهية بلُباس بهي في ضياء\r\n مشتملة بشمس وقمر حداه\r\n وأثنى عشر نجم عليها تنير\r\n وحَبَلت ووضعت غلاماً صغير . \"\r\n",
+      "Arabic": "\n شهد وقال \"أمس رأيت إمراة\n بهية بلُباس بهي في ضياء\n مشتملة بشمس وقمر حداه\n وأثنى عشر نجم عليها تنير\n وحَبَلت ووضعت غلاماً صغير . \"\n",
       "English": "\nHe testified saying \"I saw a lady \n Clothed in garments full of light \n Clothed with the sun, the moon under her feet \n And around her head twelve stars shining \n Being with a child, she cried out in labor\n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n صحيح إن هذا الكلام المقول\r\n أما القمر فهو يوحنا البتول\r\n والإثنى عشر نجم هم الإثنى عشر رسول\r\n الشمس المحيطة هو الإبن الصغير\r\n دي قدرة بسيطة ورباً قدير . \r\n",
+      "Arabic": "\n صحيح إن هذا الكلام المقول\n أما القمر فهو يوحنا البتول\n والإثنى عشر نجم هم الإثنى عشر رسول\n الشمس المحيطة هو الإبن الصغير\n دي قدرة بسيطة ورباً قدير . \n",
       "English": "\nThere is no doubt that this is true \n The moon is no one but John the Baptist \n The twelve stars are the twelve apostles \n And surely the Sun is the Child Jesus \n This a simple act of the Mighty God\n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n ضميري وفكري تعلق بكِ\r\n وطول عمري لم أري مثلكِ\r\n لكني لعمري أقول إنكِ\r\n كمثل صور حائط وحصناً كبير\r\n حائط وحاجز وحصناً حصين . \r\n",
+      "Arabic": "\n ضميري وفكري تعلق بكِ\n وطول عمري لم أري مثلكِ\n لكني لعمري أقول إنكِ\n كمثل صور حائط وحصناً كبير\n حائط وحاجز وحصناً حصين . \n",
       "English": "\nMy heart and mind are attached to you \n I have never seen anyone like you \n I always confess and do not deny \n You are my fortress and my refuge \n A harbor to those who are in distress\n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n طلبنا وجدنا بلوغ المُراد\r\n هدينا وصرنا لبر الرشاد\r\n لأننا آمنا بكل إعتقال\r\n وصرنا أهل طاعة ونحمل لنير\r\n يسوع بإستطاعه وشعباً منير . \r\n",
+      "Arabic": "\n طلبنا وجدنا بلوغ المُراد\n هدينا وصرنا لبر الرشاد\n لأننا آمنا بكل إعتقال\n وصرنا أهل طاعة ونحمل لنير\n يسوع بإستطاعه وشعباً منير . \n",
       "English": "\nWe asked and were given \n We reached the shore of enlightenment \n For we believed with all understanding \n And became righteous and carried the yoke \n Of Jesus the Mighty One to His people\n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n ظهر منكِ الكلمة وسِرّ عظيم\r\n ولاهوت وناسوت وجوهر كريم\r\n وصرتِ كتابوت العهد القديم\r\n الذي من خشب لا يسوس الكبير\r\n المطلي بالذهب المكسي بالحرير . \r\n",
+      "Arabic": "\n ظهر منكِ الكلمة وسِرّ عظيم\n ولاهوت وناسوت وجوهر كريم\n وصرتِ كتابوت العهد القديم\n الذي من خشب لا يسوس الكبير\n المطلي بالذهب المكسي بالحرير . \n",
       "English": "\nThe Logos appeared from you in a great mystery \n Honorable essence: divinity and humanity \n You became like the ark of the covenant \n Made with wood that would not decay \n And covered with gold and clothed in silk\n"
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n عليتِ وصرتِ في سماء الإله\r\n وقد إرتفعتِ لأنكِ سماه\r\n والحق فقتِ جميع أصفياه\r\n وصرتِ منارة وضوءكِ منير\r\n ومدحِك تجارة وربحه كثير . \r\n",
+      "Arabic": "\n عليتِ وصرتِ في سماء الإله\n وقد إرتفعتِ لأنكِ سماه\n والحق فقتِ جميع أصفياه\n وصرتِ منارة وضوءكِ منير\n ومدحِك تجارة وربحه كثير . \n",
       "English": "\nYou were exalted to the heaven of God \n And you were exalted as His heaven \n And truly you surpassed all the ranks \n You became a lampstand with great light \n Your praise is of great value\n"
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n غلاماً وضعتِ وهو إللي أنشاك\r\n وطفلاً حملت حلَّ بين يداك\r\n تألم حزنتي كعاجز وذاك\r\n له الملك وحده ولا له نظير\r\n الكل بيده الغني والفقير . \r\n",
+      "Arabic": "\n غلاماً وضعتِ وهو إللي أنشاك\n وطفلاً حملت حلَّ بين يداك\n تألم حزنتي كعاجز وذاك\n له الملك وحده ولا له نظير\n الكل بيده الغني والفقير . \n",
       "English": "\nYour Son is the One who created you \n You carried Him in your hands as a babe \n You mourned at His Passion \n There is no other King glorified like Him \n He created everything with His own hands\n"
     },
     {
@@ -144,7 +144,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n فلَوْ كان مدادي كنيل الفُرات\r\n وأوراقي كوادي عظيم الصفات\r\n وأقلامي تحاكي جميع النبات\r\n وأمكُث لهذا زماناً كبير\r\n من الرمل ماذا يشيل البعير . \r\n",
+      "Arabic": "\n فلَوْ كان مدادي كنيل الفُرات\n وأوراقي كوادي عظيم الصفات\n وأقلامي تحاكي جميع النبات\n وأمكُث لهذا زماناً كبير\n من الرمل ماذا يشيل البعير . \n",
       "English": "\nAnd if my ink were as the Euphrates \n And my paper as a great valley \n And my pens similar to a great field \n And if I continue this praise for a great while \n I am incapable of completing my task\n"
     },
     {
@@ -152,7 +152,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n قديماً بذاته قوي لا يحول\r\n نزل من سماءه لبطن البتول\r\n وكانت آياته تفوق العقول\r\n بعلمه تطلع وعِرف الضمير\r\n وأبرأ المخلع وحمل السرير . \r\n",
+      "Arabic": "\n قديماً بذاته قوي لا يحول\n نزل من سماءه لبطن البتول\n وكانت آياته تفوق العقول\n بعلمه تطلع وعِرف الضمير\n وأبرأ المخلع وحمل السرير . \n",
       "English": "\nThe Eternal, Mighty and Unchangeable, \n Descended to the Virgin's womb, \n His miracles were beyond understanding, \n The thoughts of men were known to Him, \n He healed the paralytic who carried his bed.\n"
     },
     {
@@ -160,7 +160,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n كثيرة عجائب يسوع المسيح\r\n عقول اللبايب بها لم تبيح\r\n قبل كل تايب وأقام السطيح\r\n وأشفى السقيم وأبرأ الكسيح\r\n وأبرأ المعتري من الروح الشرير . \r\n",
+      "Arabic": "\n كثيرة عجائب يسوع المسيح\n عقول اللبايب بها لم تبيح\n قبل كل تايب وأقام السطيح\n وأشفى السقيم وأبرأ الكسيح\n وأبرأ المعتري من الروح الشرير . \n",
       "English": "\nMany are the wonders of Jesus Christ \n The mind of scholars cannot understand \n He accepted the sinners and raised the dead \n He healed the sick and paralytic \n And from the naked one He cast out devils\n"
     },
     {
@@ -168,7 +168,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n لعمري مثالِك ووصفِك بعيد\r\n وطول المَسالِك لنحوه شديد\r\n وكَوني أصف ذلك وكَوني وحيد\r\n ولا لحملي طاقة لجد المسير\r\n قطعت المسافة ولا لي خبير . \r\n",
+      "Arabic": "\n لعمري مثالِك ووصفِك بعيد\n وطول المَسالِك لنحوه شديد\n وكَوني أصف ذلك وكَوني وحيد\n ولا لحملي طاقة لجد المسير\n قطعت المسافة ولا لي خبير . \n",
       "English": "\nI dedicated my life to explaining you \n And took the harsh roads toward this ending \n That I may explain you, while I am alone \n But I do not have the energy \n I took this road without a guide\n"
     },
     {
@@ -176,7 +176,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n مريم أنت سموت سماء العلوْ\r\n بهذا دعيتي وإسمك حلوْ\r\n ويعجز حديثي عن وصفِك ولوْ\r\n من أول زماني لليوم الأخير\r\n ويعجز لساني ودهري قصير . \r\n",
+      "Arabic": "\n مريم أنت سموت سماء العلوْ\n بهذا دعيتي وإسمك حلوْ\n ويعجز حديثي عن وصفِك ولوْ\n من أول زماني لليوم الأخير\n ويعجز لساني ودهري قصير . \n",
       "English": "\nMary, you are called the highest heaven \n This you were called, and your name is sweet \n And my speech cannot explain you \n Even from my first days to the last \n My tongue is incapable and my time is short\n"
     },
     {
@@ -184,7 +184,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n نزولي براحه لبحر العلوم\r\n وجدته إباحة عظيم الرسوم\r\n ولا أقدر سباحة ولا أعرف أعوم\r\n ولا لي سفينة تجوز الغزير\r\n كي أصل لمينا السلام وأصير . \r\n",
+      "Arabic": "\n نزولي براحه لبحر العلوم\n وجدته إباحة عظيم الرسوم\n ولا أقدر سباحة ولا أعرف أعوم\n ولا لي سفينة تجوز الغزير\n كي أصل لمينا السلام وأصير . \n",
       "English": "\nI went into the sea of knowledge \n I found it a difficult journey \n I cannot dive and I cannot swim \n I do not have a ship to go through the deep \n So that I may reach the harbor of peace\n"
     },
     {
@@ -192,7 +192,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n ها الإله الحقيقي صُلب فوق عود\r\n واحتمل بالحقيقة إفتراء اليهود\r\n يا لهذه الجسارة يا لهذا الجحود\r\n يا لهذه الخطية ليس لها نظير\r\n سقوه المرارة خلاً وخمير . \r\n",
+      "Arabic": "\n ها الإله الحقيقي صُلب فوق عود\n واحتمل بالحقيقة إفتراء اليهود\n يا لهذه الجسارة يا لهذا الجحود\n يا لهذه الخطية ليس لها نظير\n سقوه المرارة خلاً وخمير . \n",
       "English": "\nThe true God was crucified on the Cross \n And truly endured the oppression of the Jews \n What great a sacrifice despite denial \n How great an injustice that was not seen \n They gave Him gall, vinegar, and wine\n"
     },
     {
@@ -200,7 +200,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n وعدنا بدياً كَمل وعدنا\r\n نزل مختفياً لبس مثلنا\r\n وفيه كل شئ تشبه بنا\r\n ما خلا الخطية لئلا نصير\r\n بهذه القضية للشيطان المكير . \r\n",
+      "Arabic": "\n وعدنا بدياً كَمل وعدنا\n نزل مختفياً لبس مثلنا\n وفيه كل شئ تشبه بنا\n ما خلا الخطية لئلا نصير\n بهذه القضية للشيطان المكير . \n",
       "English": "\nHe fulfilled His eternal promise \n He took our likeness and became Man \n And in everything He resembled us except sin \n In order that we may not be deceived \n By the craftiness of the cunning devil\n"
     },
     {
@@ -208,7 +208,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n لأنه تقدم جانا بإتضاع\r\n والتلميذ يهوذا أسلمه وباع\r\n قَبَل التألم بغير إمتناع\r\n قام وصعد وحطم متاريس الجحيم\r\n وأخرج آدم من الزمهرير . \r\n",
+      "Arabic": "\n لأنه تقدم جانا بإتضاع\n والتلميذ يهوذا أسلمه وباع\n قَبَل التألم بغير إمتناع\n قام وصعد وحطم متاريس الجحيم\n وأخرج آدم من الزمهرير . \n",
       "English": "\nHe came to us a humble Man \n And Judas His disciple betrayed Him \n He willfully submitted to the sufferings \n He rose, ascended, crushed the gates of Hades, \n And released Adam from Hades\n"
     },
     {
@@ -216,7 +216,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n يفوق الطبيعة وصف أم الإله\r\n وهي مستطيعة الشفاعة حداه\r\n أيتها الشفيعة في يوم اللقاء\r\n أبو السعد عبدِك ذليل وحقير\r\n منتظر لوعدِك كوني لي نصير . \r\n",
+      "Arabic": "\n يفوق الطبيعة وصف أم الإله\n وهي مستطيعة الشفاعة حداه\n أيتها الشفيعة في يوم اللقاء\n أبو السعد عبدِك ذليل وحقير\n منتظر لوعدِك كوني لي نصير . \n",
       "English": "\nIndescribable is the Mother of God \n And she is capable of interceding to Him \n O our advocate on Judgment Day \n Abo-el-Saad your servant is unworthy \n Waiting for your promise to be my helper\n"
     },
     {
@@ -224,7 +224,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\n السلام لكِ وواجب علينا السلام\r\n من أهل المراتب كبار المقام\r\n وكل أب طالب لنا بالدوام\r\n بطريك وأسقف وكاهن مشير\r\n والشعب جميعه كبير مع صغير .  \r\n ",
+      "Arabic": "\n السلام لكِ وواجب علينا السلام\n من أهل المراتب كبار المقام\n وكل أب طالب لنا بالدوام\n بطريك وأسقف وكاهن مشير\n والشعب جميعه كبير مع صغير .  \n ",
       "English": "\nHail to you—our duty is to praise you \n All people and ranks offer you praise \n And every father asking on our behalf always \n Patriarch, bishops and priests \n And all the laymen, elders and young\n"
     }
   ]

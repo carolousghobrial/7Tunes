@@ -1,14 +1,14 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "مديح عيد العنصرة المجيد",
+  "EnglishTitle": "Melody for the Feast of Pentecost",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "المجد لله القدوس\r\nالمجد للابن المحسوس\r\nالمجد للروح محيي النفوس\r\nثالوث متلألئ يشعل كالنار\r\n",
+      "Arabic": "المجد لله القدوس\nالمجد للابن المحسوس\nالمجد للروح محيي النفوس\nثالوث متلألئ يشعل كالنار\n",
       "English": "Glory be to the holy God \n Glory to the only-begotten of the Father \n Glory be to the life-giving Spirit \n A glowing Trinity, burning like fire\n"
     },
     {
@@ -16,7 +16,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوقبل صعود مخلصنا\r\nإلى السموات قد وعدنا\r\nبارسال المعزي ليرشدنا\r\nمنتشرا شبه ألسنة النار\r\n",
+      "Arabic": "\nوقبل صعود مخلصنا\nإلى السموات قد وعدنا\nبارسال المعزي ليرشدنا\nمنتشرا شبه ألسنة النار\n",
       "English": "\nBefore our Savior ascended to heaven \n He promised His chosen \n To send the Spirit of comfort \n As tongues of fire\n"
     },
     {
@@ -24,7 +24,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوكان التلاميذ مجتمعين\r\nفي العلية منتظرين\r\nيوم الاحد تمام الخمسين\r\nحلول الروح بكل وقار\r\n",
+      "Arabic": "\nوكان التلاميذ مجتمعين\nفي العلية منتظرين\nيوم الاحد تمام الخمسين\nحلول الروح بكل وقار\n",
       "English": "\nThe disciples were gathered \n In the upper room in one spirit \n On the day of Pentecost \n Awaiting the coming of the Holy Spirit\n"
     },
     {
@@ -32,7 +32,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوإذا برعود وزلازل\r\nوصوت عظيم من فوق نازل\r\nوحل عليهم بلا حائل\r\nالروح فقبلوه باستبشار\r\n",
+      "Arabic": "\nوإذا برعود وزلازل\nوصوت عظيم من فوق نازل\nوحل عليهم بلا حائل\nالروح فقبلوه باستبشار\n",
       "English": "\nBehold, thunder and earthquakes \n And a great voice from heaven \n Upon them, the Spirit descended \n With great joy, they accept Him\n"
     },
     {
@@ -40,7 +40,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوانبسط عليهم من غير نقصان\r\nفامتلأ الجميع بالروح والإيمان\r\nونطق كل منهم بلسان\r\nوتكلم بخفي الأسرار\r\n",
+      "Arabic": "\nوانبسط عليهم من غير نقصان\nفامتلأ الجميع بالروح والإيمان\nونطق كل منهم بلسان\nوتكلم بخفي الأسرار\n",
       "English": "\nHe descended upon each one \n And filled them with the Spirit of holiness \n Each one uttered with a tongue \n And spoke of hidden mysteries with boldness\n"
     },
     {
@@ -48,7 +48,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفتوافدت عليهم الناس\r\nونظروهم في فرح وايناس\r\nبحلول روح قدس الأقداس\r\nالذي كلمهم بنير الأفكار\r\n",
+      "Arabic": "\nفتوافدت عليهم الناس\nونظروهم في فرح وايناس\nبحلول روح قدس الأقداس\nالذي كلمهم بنير الأفكار\n",
       "English": "\nMany people gathered to them \n Seeing them rejoice at the visitation \n Of the Spirit of the holiest One \n Who gave them hidden inspiration\n"
     },
     {
@@ -56,7 +56,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nقوم كانوا يتعجبون\r\nقوم كانوا يستهزئون\r\nوقوم كانوا يقولون\r\nهؤلاء سكارى في الأسحار\r\n",
+      "Arabic": "\nقوم كانوا يتعجبون\nقوم كانوا يستهزئون\nوقوم كانوا يقولون\nهؤلاء سكارى في الأسحار\n",
       "English": "\nSome people were marveling \n Others started mocking them \n Others began accusing \n That these are but drunken men\n"
     },
     {
@@ -64,7 +64,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفصرخ بطرس بصوت عظيم\r\nوقال يا سكان أورشليم\r\nفليصغى كل فهيم\r\nحتى لا يشتبه ويحتار\r\n",
+      "Arabic": "\nفصرخ بطرس بصوت عظيم\nوقال يا سكان أورشليم\nفليصغى كل فهيم\nحتى لا يشتبه ويحتار\n",
       "English": "\nPeter cried with a great voice, \n \"O inhabitants of Jerusalem \n Let every wise man hear \n And be found blameless\"\n"
     },
     {
@@ -72,7 +72,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nليس الأمر كماتظنون\r\nأننا سكارى وأهل جنون\r\nبل بالروح مبتهجون\r\nوهي ثالث ساعة من النهار\r\n",
+      "Arabic": "\nليس الأمر كماتظنون\nأننا سكارى وأهل جنون\nبل بالروح مبتهجون\nوهي ثالث ساعة من النهار\n",
       "English": "\n\"It is not as you suppose \n We are not drunkards gone astray \n But are joyful in the Spirit \n It is the third hour of the day!\"\n"
     },
     {
@@ -80,7 +80,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوقد تنبأ يوئيل \r\nعن هذا الأمر الجليل\r\nفافهموا يا بني إسرائيل\r\nواصغوا لكلامي باستبشار\r\n",
+      "Arabic": "\nوقد تنبأ يوئيل \nعن هذا الأمر الجليل\nفافهموا يا بني إسرائيل\nواصغوا لكلامي باستبشار\n",
       "English": "\n\"Joel the prophet did speak \n About this day and did prophesy \n So understand, o Israelites \n Listen to what I will testify\"\n"
     },
     {
@@ -88,7 +88,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيسوع الناصري لكم أتى\r\nمن عند الله بآيات شتى\r\nوقد صلبتوه حتى\r\nأقامه الله في الأسحار\r\n",
+      "Arabic": "\nيسوع الناصري لكم أتى\nمن عند الله بآيات شتى\nوقد صلبتوه حتى\nأقامه الله في الأسحار\n",
       "English": "\n\"Jesus of Nazareth came to you \n From God with great wonders \n Him you did crucify \n God raised Him with the sound of thunder\"\n"
     },
     {
@@ -96,7 +96,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nونحن له شهود حيث رأيناه\r\nمرار كثيرة وعايناه\r\nوأكلنا وشربنا وناجيناه\r\nوجلس معنا عدة مرات\r\n",
+      "Arabic": "\nونحن له شهود حيث رأيناه\nمرار كثيرة وعايناه\nوأكلنا وشربنا وناجيناه\nوجلس معنا عدة مرات\n",
       "English": "\n\"We are His witnesses \n We beheld Him with our eyes \n We ate and drank with Him \n For many days and many nights\"\n"
     },
     {
@@ -104,7 +104,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nيوم صعوده إلى معاليه\r\nرايناه جالسا عن يمين ابيه\r\nووعدنا بالروح من فيه\r\nفأتانا شبه ألسنة النار\r\n",
+      "Arabic": "\nيوم صعوده إلى معاليه\nرايناه جالسا عن يمين ابيه\nووعدنا بالروح من فيه\nفأتانا شبه ألسنة النار\n",
       "English": "\n\"The day He ascended to heaven \n He sat at the right of His Father \n He promised us the Holy Spirit \n Who came as tongues of fire\"\n"
     },
     {
@@ -112,7 +112,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفلما سمعوا قول سمعون\r\nقالوا تحققنا السر المكنون\r\nفماذا نصنع لنكون\r\nمحسوبين من جملة الأبرار\r\n",
+      "Arabic": "\nفلما سمعوا قول سمعون\nقالوا تحققنا السر المكنون\nفماذا نصنع لنكون\nمحسوبين من جملة الأبرار\n",
       "English": "\nWhen they heard Simon Peter, they said, \n \"We believe this, which is mysterious \n What shall we do to be counted \n Among the ranks of righteous?\"\n"
     },
     {
@@ -120,7 +120,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفقال لهم تعالوا باجمعكم\r\nوليصطبغ كل إنسان منكم\r\nباسم يسوع مخلصكم\r\nلأن الموعد لكم قد صار\r\n",
+      "Arabic": "\nفقال لهم تعالوا باجمعكم\nوليصطبغ كل إنسان منكم\nباسم يسوع مخلصكم\nلأن الموعد لكم قد صار\n",
       "English": "\nThey told them, \"Come you all \n To be immersed in holy baptism \n In the name of Jesus your Savior \n Receive the promise through Him\"\n"
     },
     {
@@ -128,7 +128,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nفقبلوا كلمة الإيمان\r\nواصطبغ الجميع باسم الديان\r\nوكانوا نحو ثلاثة آلاف إنسان\r\nكشهادة الرسل الأخيار\r\n",
+      "Arabic": "\nفقبلوا كلمة الإيمان\nواصطبغ الجميع باسم الديان\nوكانوا نحو ثلاثة آلاف إنسان\nكشهادة الرسل الأخيار\n",
       "English": "\nThey all received the word of faith \n And were baptized in His holy name \n According to the apostles' testimony \n Three thousand Christians were claimed\n"
     },
     {
@@ -136,7 +136,7 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "\r\nوظهر من الرسل آيات\r\nوعجائب شتى بنيات\r\nوبالروح أقاموا الأموات\r\nوالعالم بكرازتهم استنار\r\n",
+      "Arabic": "\nوظهر من الرسل آيات\nوعجائب شتى بنيات\nوبالروح أقاموا الأموات\nوالعالم بكرازتهم استنار\n",
       "English": "\nMany sights and wonders \n Were performed by each apostle \n By the Spirit, they raised the dead \n And illuminated the world with the Gospel\n"
     }
   ]
