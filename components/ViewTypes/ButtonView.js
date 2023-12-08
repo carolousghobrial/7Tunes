@@ -15,7 +15,6 @@ import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
 import { useDispatch, useSelector } from "react-redux";
 import ButtonRules from "../../helpers/buttonRules";
-import * as Haptics from "expo-haptics";
 
 function ButtonView({ item, motherSource, flatListRef, viewData, navigation }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
@@ -24,8 +23,6 @@ function ButtonView({ item, motherSource, flatListRef, viewData, navigation }) {
   const itemVisible = item.Visible;
 
   const handlePress = () => {
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-
     const ruleFunction = ButtonRules(
       item,
       motherSource,

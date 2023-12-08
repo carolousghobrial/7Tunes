@@ -4,7 +4,6 @@ import { useSelector } from "react-redux";
 import { getColor } from "../../helpers/SettingsHelpers";
 import Colors from "../../constants/colors";
 import { changeTextLanguage } from "../../stores/redux/settings";
-import * as Haptics from "expo-haptics";
 
 const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
   const fontSize = useSelector((state) => state.settings.textFontSize);
@@ -16,8 +15,6 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
   const selectedBackgroundColor = isSelected ? highlightColor : "transparent";
 
   const handlePress = () => {
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-
     scrollToKey(item.key);
   };
 

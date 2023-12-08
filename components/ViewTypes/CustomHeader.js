@@ -6,15 +6,12 @@ import {
   getColor,
 } from "../../helpers/SettingsHelpers.js";
 import { Ionicons } from "@expo/vector-icons";
-import * as Haptics from "expo-haptics";
 
 const CustomHeader = ({ navigation, english, coptic, arabic }) => {
   const navigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
 
   const handlePressBack = () => {
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-
     navigation.pop();
   };
 
