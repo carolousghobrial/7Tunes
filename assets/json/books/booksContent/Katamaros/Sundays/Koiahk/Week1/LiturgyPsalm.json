@@ -4,20 +4,26 @@
   "EnglishTitle": "Psalms 102:13, 16",
   "Hymn": [
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "وأنـت يـارب ترجـع وتترأف على صهيون؛ لأنـه وقـت الـتراؤف عليـها؛ ",
-      "English": "13 You will arise and have mercy on Zion; For the time to favor her, Yes, the set time, has come.\r"
+      "Coptic": "Nqok Psoic ek`ekotk ek`e]en\\ht =a Ciwn> je `pchou pe eqrek]en\\ht =aroc> ",
+      "Arabiccoptic": "نثوك بتشويس إيكإيكوتك إيكإيشينهيت خا سيوون: جي إبسيأو بي إيثريكشينهيت خاروس:",
+      "Englishcoptic": "Nthok Pchois ek-ekotk ek-eshen-heet kha Sioon: je epseeoo pe ethrekshen-heet kharos:",
+      "English": "13 You will arise and have mercy on Zion; For the time to favor her, Yes, the set time, has come."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "لأن الرب يبني صهيون، ويظهر بمجده.",
-      "English": "16 For the Lord shall build up Zion; He shall appear in His glory."
+      "Coptic": "je Psoic ef`ekwt `nCiwn> ouo\\ ef`eouon\\f =en pef`wou.",
+      "English": "16 For the Lord shall build up Zion; He shall appear in His glory.",
+      "Arabiccoptic": "جي بتشويس إيف إيكووت إنسيوون: أووه إيف إيأوونهف خين بيف ؤو.",
+      "Englishcoptic": "je Pchois ef-ekoot en-Sioon: owoh ef-eo-oonhf khen- pef-o-oo."
     }
   ]
 }

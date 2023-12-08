@@ -333,10 +333,12 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "RaisingOfIncensePsalmTrailersBishopPsalmTrailer",
-            "Rule": 0,
-            "Visible": "BishopIsPresent"
+            "Type": "Button",
+            "Arabic": "المزمور",
+            "English": "Chanted Psalm",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordChantedLiturgyPsalm"
         },
         {
             "Type": "Main",

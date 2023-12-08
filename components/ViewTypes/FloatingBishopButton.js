@@ -13,10 +13,9 @@ import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
 function FloatingButton({ navigation }) {
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
-  const [position, setPosition] = useState({ x: 0, y: 0 });
-  const [buttonVisible, setbuttonVisible] = useState(true);
 
   const [pan] = useState(new Animated.ValueXY());
+  const [buttonVisible, setButtonVisible] = useState(true);
 
   const panResponder = PanResponder.create({
     onStartShouldSetPanResponder: () => true,
@@ -25,16 +24,19 @@ function FloatingButton({ navigation }) {
     }),
     onPanResponderRelease: () => {
       // Add any additional logic you want to perform when the button is released
-      setPosition({ x: position.x, y: position.y });
+      // Assuming you want to update the position state
+      pan.flattenOffset();
     },
   });
-  function OpenBishopPage() {
-    setbuttonVisible(false);
+
+  const OpenBishopPage = () => {
+    setButtonVisible(false);
     navigation.push("BookScreen", {
       bookPath: "bishopEntrance",
       motherSource: "matins",
     });
-  }
+  };
+
   const hexToRgba = (hex, opacity) => {
     hex = hex.replace("#", "");
     const r = parseInt(hex.substring(0, 2), 16);
@@ -42,12 +44,13 @@ function FloatingButton({ navigation }) {
     const b = parseInt(hex.substring(4, 6), 16);
     return `rgba(${r}, ${g}, ${b}, ${opacity})`;
   };
-  const secondaryColorWithOpacity = hexToRgba(labelColor, 0.6); // Red color with 70% opacity
+
+  const secondaryColorWithOpacity = hexToRgba(labelColor, 0.6);
 
   return (
     <View>
       {buttonVisible && (
-        <View style={[styles.container]}>
+        <View style={styles.container}>
           <Animated.View
             {...panResponder.panHandlers}
             style={[

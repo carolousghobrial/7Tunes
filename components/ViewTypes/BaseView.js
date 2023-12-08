@@ -7,48 +7,34 @@ import {
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers.js";
+
 function BaseView({ item, mykey }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const languageSettings = useSelector((state) => state.settings);
 
-  let textColor = "";
+  const getColorBySide = (side) => getColor(`${side}Color`);
 
-  switch (item.Side) {
-    case "North":
-      textColor = getColor("NorthColor");
-      break;
-    case "South":
-      textColor = getColor("SouthColor");
-      break;
-    case "Refrain":
-      textColor = getColor("RefrainColor");
-      break;
-    case "Priest":
-      textColor = getColor("PriestColor");
-      break;
-    case "Deacon":
-      textColor = getColor("DeaconColor");
-      break;
-    case "People":
-      textColor = getColor("PeopleColor");
-      break;
-    case "Reader":
-      textColor = getColor("ReaderColor");
-      break;
-    case "Title":
-      textColor = getColor("NorthColor");
-      break;
-    case "Neutral":
-      if (mykey % 2 == 0) {
-        textColor = getColor("NorthColor");
-      } else {
-        textColor = getColor("SouthColor");
-      }
-      break;
-    default:
-      textColor = getColor("NorthColor");
-      break;
-  }
+  const getTextColor = (item) => {
+    const sideColors = {
+      North: "NorthColor",
+      South: "SouthColor",
+      Refrain: "RefrainColor",
+      Priest: "PriestColor",
+      Deacon: "DeaconColor",
+      People: "PeopleColor",
+      Reader: "ReaderColor",
+      Title: "NorthColor",
+    };
+
+    const side = sideColors[item.Side] || "NorthColor";
+
+    if (side === "Neutral") {
+      return mykey % 2 === 0 ? getColor("NorthColor") : getColor("SouthColor");
+    }
+
+    return getColor(side);
+  };
+
   const textStyle = {
     fontSize,
     flex: 1,
@@ -56,8 +42,9 @@ function BaseView({ item, mykey }) {
     margin: 5,
     fontFamily: "",
     justifyContent: "flex-start",
-    color: textColor,
+    color: getTextColor(item),
   };
+
   const testAlignText = Platform.OS === "ios" ? "justify" : "right";
 
   const arabicStyle = {
@@ -66,6 +53,7 @@ function BaseView({ item, mykey }) {
     textAlign: testAlignText,
     writingDirection: "rtl",
   };
+
   const arabicCopticStyle = {
     fontFamily: "arabic-font",
     lineHeight: fontSize * 1.2,
@@ -97,10 +85,7 @@ function BaseView({ item, mykey }) {
     <View style={[styles.bookView, { flexDirection: "row" }]}>
       {languages.map(({ key, style, isVisible }) =>
         isVisible ? (
-          <Text
-            key={key}
-            style={[textStyle, style, { color: textStyle.color }]}
-          >
+          <Text key={key} style={[textStyle, style]}>
             {item[key]}
           </Text>
         ) : null
@@ -116,7 +101,6 @@ const styles = StyleSheet.create({
   coptic: {
     fontFamily: "coptic-font",
   },
-
   english: {
     fontFamily: "english-font",
   },

@@ -55,7 +55,6 @@ const HeaderRightButtons = ({ onPressSettings, onPressContents }) => (
 );
 const BookScreen = React.memo(({ navigation, route }) => {
   const { height, width } = useWindowDimensions();
-  const [contentsModalVisible, setcontentsModalVisible] = useState(false);
 
   const flatListRef = useRef();
   const {
@@ -86,16 +85,19 @@ const BookScreen = React.memo(({ navigation, route }) => {
 
   const snapPoints = ["90%"];
   const [navTitle, setNavTitle] = useState(bookContents[0]?.EnglishTitle);
+  const [currKey, setcurrKey] = useState(0);
 
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
     if (viewableItems.length > 0) {
       const firstItem = viewableItems[0].item;
+
       const title =
         appLanguage === "eng"
           ? firstItem?.EnglishTitle
           : firstItem?.ArabicTitle;
       if (title !== navTitle && title !== undefined) {
         setNavTitle(title);
+        setcurrKey(firstItem.key);
       }
     }
   }).current;
@@ -134,12 +136,10 @@ const BookScreen = React.memo(({ navigation, route }) => {
   }, [bottomSheetRef]);
 
   const contentsPressed = useCallback(() => {
-    setcontentsModalVisible(true);
     contentsSheetRef?.current.present();
   }, [contentsSheetRef]);
 
   const contentsClose = useCallback(() => {
-    setcontentsModalVisible(false);
     contentsSheetRef?.current.dismiss();
   }, [contentsSheetRef]);
 
@@ -163,6 +163,8 @@ const BookScreen = React.memo(({ navigation, route }) => {
       const title =
         appLanguage === "eng" ? item?.EnglishTitle : item?.ArabicTitle;
       setNavTitle(title);
+      setcurrKey(key);
+
       flatListRef.current.scrollToIndex({ index: key, animated: false });
       contentsSheetRef?.current.dismiss();
     }
@@ -217,8 +219,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
       <ContentsModal
         bottomSheetRef={contentsSheetRef}
         snapPoints={snapPoints}
-        currentTitle={navTitle}
-        visible={contentsModalVisible}
+        currentKey={currKey}
         menuData={menuData}
         contentsClose={contentsClose}
         scrollToKey={scrollToKey}

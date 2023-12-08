@@ -1,63 +1,46 @@
-import {
-  View,
-  Switch,
-  StyleSheet,
-  Text,
-  Pressable,
-  FlatList,
-  useWindowDimensions,
-} from "react-native";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers";
-import Colors from "../../constants/colors.js";
-import { useDispatch, useSelector } from "react-redux";
-import { changeTextLanguage } from "../../stores/redux/settings.js";
+import React from "react";
+import { View, Text, Pressable, useWindowDimensions } from "react-native";
+import { useSelector } from "react-redux";
+import { getColor } from "../../helpers/SettingsHelpers";
+import Colors from "../../constants/colors";
+import { changeTextLanguage } from "../../stores/redux/settings";
 
-function MenuItem({ item, index, HighlitedIndex, scrollToKey }) {
+const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
   const highlightColor = getColor("pageBackgroundColor");
 
-  let flexDirection = "row";
+  const flexDirection = width < height ? "column" : "row";
+  const isSelected = index === HighlitedIndex;
+  const selectedBackgroundColor = isSelected ? highlightColor : "transparent";
 
-  if (width < height) {
-    // Portrait mode
-    flexDirection = "column";
-  }
-
-  var SelectedbackgroundColor = "transparent";
-  function functionCombined() {
+  const handlePress = () => {
     scrollToKey(item.key);
-  }
-  if (index === HighlitedIndex) {
-    SelectedbackgroundColor = highlightColor;
-  }
+  };
+
   return (
     <Pressable
       style={[
         styles.container,
         {
-          flexDirection: flexDirection,
+          flexDirection,
           borderColor: getColor("PrimaryColor"),
-          backgroundColor: SelectedbackgroundColor,
+          backgroundColor: selectedBackgroundColor,
         },
       ]}
-      onPress={functionCombined}
+      onPress={handlePress}
     >
-      <View style={[styles.textView, { flexDirection: flexDirection }]}>
+      <View style={[styles.textView, { flexDirection }]}>
         <Text
           style={[
-            styles.english,
+            styles.title,
             { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
           ]}
         >
           {item.EnglishTitle}
         </Text>
       </View>
-      {item.CopticTitle !== undefined ? (
+      {item.CopticTitle && (
         <View style={styles.textView}>
           <Text
             style={[
@@ -68,7 +51,7 @@ function MenuItem({ item, index, HighlitedIndex, scrollToKey }) {
             {item.CopticTitle}
           </Text>
         </View>
-      ) : null}
+      )}
       <View style={styles.textView}>
         <Text
           style={[
@@ -81,9 +64,9 @@ function MenuItem({ item, index, HighlitedIndex, scrollToKey }) {
       </View>
     </Pressable>
   );
-}
+};
 
-const styles = StyleSheet.create({
+const styles = {
   container: {
     marginHorizontal: 10,
     marginVertical: 5,
@@ -108,11 +91,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     textAlign: "center",
   },
-  english: {
+  title: {
     fontFamily: "englishtitle-font",
     justifyContent: "center",
     textAlign: "center",
   },
-});
+};
 
 export default MenuItem;

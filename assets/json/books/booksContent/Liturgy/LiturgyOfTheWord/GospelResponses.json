@@ -25,13 +25,13 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseGospelResponsesFirstKiahkGospelResponse",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "firstKiahkGospelResponse"
         },
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseGospelResponsesSecondKiahkGospelResponse",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "secondKiahkGospelResponse"
         },
         {
             "Type": "Main",

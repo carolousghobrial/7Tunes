@@ -24,8 +24,7 @@ import MenuItem from "./MenuItem";
 function ContentsModal({
   bottomSheetRef,
   snapPoints,
-  currentTitle,
-  visible,
+  currentKey,
   menuData,
   contentsClose,
   scrollToKey,
@@ -35,7 +34,13 @@ function ContentsModal({
   const [clicked, setClicked] = useState(false);
   const flatListRef = useRef(null);
   const [searchPhrase, setSearchPhrase] = useState("");
-  const [currentData, setCurrentData] = useState(menuData);
+
+  const [currentData, setCurrentData] = useState(
+    menuData.filter(
+      (item) =>
+        item.ArabicTitle !== undefined || item.EnglishTitle !== undefined
+    )
+  );
   const [initialIndex, setInitialIndex] = useState(null);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const TableOfContents = getLanguageValue("TableOfContents");
@@ -43,20 +48,14 @@ function ContentsModal({
 
   useEffect(() => {
     try {
-      const foundItem = menuData.findIndex(
-        (item) =>
-          item.EnglishTitle === currentTitle ||
-          item.ArabicTitle === currentTitle ||
-          (item.CopticTitle !== undefined && item.CopticTitle === currentTitle)
-      );
       if (foundItem !== -1) {
         flatListRef.current.scrollToIndex({
-          index: foundItem,
+          index: currentKey,
           animated: false,
         });
       }
     } catch (e) {}
-  }, []);
+  }, [currentKey]);
   const onScrollToIndexFailed = (error) => {
     flatListRef.current.scrollToOffset({
       offset: error.averageItemLength * error.index,
@@ -130,7 +129,7 @@ function ContentsModal({
           <MenuItem
             item={item}
             index={index}
-            HighlitedIndex={currentTitle === item.EnglishTitle ? index : -1}
+            HighlitedIndex={currentKey}
             scrollToKey={scrollToKey}
           />
         )}

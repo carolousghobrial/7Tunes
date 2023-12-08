@@ -114,16 +114,12 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "RaisingOfIncensePsalmTrailersVespersTrailer",
-            "Rule": 0,
-            "Visible": "isStandardSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "RaisingOfIncensePsalmTrailersBishopPsalmTrailer",
-            "Rule": 0,
-            "Visible": "BishopIsPresent"
+            "Type": "Button",
+            "Arabic": "المزمور",
+            "English": "Chanted Psalm",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "LiturgyRaisingOfIncenseChantedVespersPsalm"
         },
         {
             "Type": "Main",

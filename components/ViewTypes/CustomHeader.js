@@ -6,40 +6,39 @@ import {
   getColor,
 } from "../../helpers/SettingsHelpers.js";
 import { Ionicons } from "@expo/vector-icons";
-function CustomHeader({ navigation, english, coptic, arabic }) {
-  let NavigationBarColor = getColor("NavigationBarColor");
+
+const CustomHeader = ({ navigation, english, coptic, arabic }) => {
+  const navigationBarColor = getColor("NavigationBarColor");
+  const labelColor = getColor("LabelColor");
+
+  const handlePressBack = () => {
+    navigation.pop();
+  };
 
   return (
-    <View style={[styles.header, { backgroundColor: NavigationBarColor }]}>
-      <Pressable style={styles.closeView} onPress={() => navigation.pop()}>
-        <Ionicons
-          name="chevron-back"
-          size={24}
-          color={getColor("LabelColor")}
-        />
+    <View style={[styles.header, { backgroundColor: navigationBarColor }]}>
+      <Pressable style={styles.closeView} onPress={handlePressBack}>
+        <Ionicons name="chevron-back" size={24} color={labelColor} />
       </Pressable>
 
       <View style={styles.titleView}>
-        <Text
-          style={[styles.englishheaderTitle, { color: getColor("LabelColor") }]}
-        >
+        <Text style={[styles.headerTitle, { color: labelColor }]}>
           {english}
         </Text>
         <Text
-          style={[styles.copticheaderTitle, { color: getColor("LabelColor") }]}
+          style={[styles.headerTitle, styles.coptic, { color: labelColor }]}
         >
           {coptic}
         </Text>
-
         <Text
-          style={[styles.arabicheaderTitle, { color: getColor("LabelColor") }]}
+          style={[styles.headerTitle, styles.arabic, { color: labelColor }]}
         >
           {arabic}
         </Text>
       </View>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   header: {
@@ -54,25 +53,17 @@ const styles = StyleSheet.create({
   titleView: {
     flex: 9,
   },
-  englishheaderTitle: {
+  headerTitle: {
     fontSize: 15,
     fontWeight: "bold",
     justifyContent: "center",
     textAlign: "center",
   },
-  arabicheaderTitle: {
-    fontSize: 15,
-    fontWeight: "bold",
-    justifyContent: "center",
-    textAlign: "center",
+  arabic: {
     fontFamily: "arabictitle-font",
   },
-  copticheaderTitle: {
-    fontSize: 15,
-    fontWeight: "bold",
+  coptic: {
     fontFamily: "coptic-font",
-    justifyContent: "center",
-    textAlign: "center",
   },
 });
 

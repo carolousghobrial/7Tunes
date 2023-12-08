@@ -200,6 +200,14 @@
             "Visible": "BishopIsPresent"
         },
         {
+            "Type": "Button",
+            "Arabic": "المزمور",
+            "English": "Chanted Psalm",
+            "Rule": "OpenPage",
+            "Visible": true,
+            "Path": "LiturgyRaisingOfIncenseChantedMatinsPsalm"
+        },
+        {
             "Type": "Main",
             "Path": "RaisingOfIncensePsalmResponses",
             "Rule": 0,

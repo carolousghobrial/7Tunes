@@ -1,49 +1,40 @@
-import { StyleSheet, Text, View } from "react-native";
-import { useSelector } from "react-redux";
 import React from "react";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers.js";
+import { StyleSheet, Text, View, Platform } from "react-native";
+import { useSelector } from "react-redux";
+import { getColor } from "../../helpers/SettingsHelpers.js";
+
 function MelodyView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
-  const textColor = getColorBySide(item.Side);
   const englishVisible = useSelector((state) => state.settings.english);
   const arabicVisible = useSelector((state) => state.settings.arabic);
+  const textColor = getColorBySide(item.Side);
+  const testAlignText = Platform.OS === "ios" ? "justify" : "right";
 
   function getColorBySide(side) {
-    switch (side) {
-      case "North":
-        return getColor("NorthColor");
-      case "South":
-        return getColor("SouthColor");
-      case "Refrain":
-        return getColor("RefrainColor");
-      case "Priest":
-        return getColor("PriestColor");
-      case "Deacon":
-        return getColor("DeaconColor");
-      case "People":
-        return getColor("PeopleColor");
-      case "Reader":
-        return getColor("ReaderColor");
-      case "Title":
-        return getColor("NorthColor");
-      default:
-        return "";
-    }
+    const sideColors = {
+      North: "NorthColor",
+      South: "SouthColor",
+      Refrain: "RefrainColor",
+      Priest: "PriestColor",
+      Deacon: "DeaconColor",
+      People: "PeopleColor",
+      Reader: "ReaderColor",
+      Title: "NorthColor",
+    };
+
+    return getColor(sideColors[side] || "NorthColor");
   }
 
-  const testAlignText = Platform.OS === "ios" ? "justify" : "right";
+  const commonTextStyle = {
+    fontSize,
+    color: textColor,
+  };
 
   return (
     <View style={styles.bookView}>
       {englishVisible && (
         <View style={styles.textView}>
-          <Text style={[styles.english, { fontSize, color: textColor }]}>
-            {item.English}
-          </Text>
+          <Text style={[styles.english, commonTextStyle]}>{item.English}</Text>
         </View>
       )}
 
@@ -52,9 +43,8 @@ function MelodyView({ item }) {
           <Text
             style={[
               styles.arabic,
+              commonTextStyle,
               {
-                fontSize,
-                color: textColor,
                 textAlign: testAlignText,
                 lineHeight: fontSize * 1.8,
               },
@@ -77,11 +67,6 @@ const styles = StyleSheet.create({
   textView: {
     flex: 1,
     margin: 5,
-  },
-  coptic: {
-    fontFamily: "coptic-font",
-    textAlign: "right",
-    justifyContent: "flex-start",
   },
   arabic: {
     fontFamily: "arabic-font",

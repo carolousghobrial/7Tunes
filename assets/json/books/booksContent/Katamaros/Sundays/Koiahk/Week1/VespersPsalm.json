@@ -4,20 +4,37 @@
   "EnglishTitle": "Psalms 13:1, 3",
   "Hymn": [
     {
-      "Type": "Melody",
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "Coptic": "Pi`anagnwcthc>",
+      "English": "Reader:",
+      "Arabiccoptic": "بي اناغنوستيس:",
+      "Englishcoptic": "Pi-Anaghnostis:"
+    },
+    {
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": "إلى متى يارب تنساني إلى الانقضاء؟ حتى متى تصرف وجهك عني؟",
-      "English": "13:1 How long, O Lord? Will You forget me forever? How long will You hide Your face from me?.\r"
+      "Coptic": "}a`qnau je Psoic> `k`iri `mpawb] ]a `ebol> ]a`qnau je `kvwn\\ `mpek\\o cabol `mmoi> ",
+      "English": "13:1 How long, O Lord? Will You forget me forever? How long will You hide Your face from me?.\r",
+      "Arabiccoptic": "شاإثناف جي بتشويس: إك إيري إمباووبش شا إيفول: شاإثناف جي إكفوونه إمبي كهو سافول إمموي:",
+      "Englishcoptic": "Shaethnav je Pchois: ek-eeri empaoobsh sha evol: shaethnav je ekvoonh empek-ho savol emmoi:"
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
       "Arabic": " أنظـر واستجب لي يا ربي وإلهي. أنر عيني..",
-      "English": "3 Consider and hear me, O Lord my God; Enlighten my eyes."
+      "Coptic": "comc cwtem `eroi Psoic Panou;> ma`vouwini `nnabal.",
+      "English": "3 Consider and hear me, O Lord my God; Enlighten my eyes.",
+      "Arabiccoptic": "سومس سووتيم إيروي بتشويس بانأوتي: ماإفأووويني إننافال.",
+      "Englishcoptic": "soms sootem -eroi Pchois Panooti-: maevo-ooini en-naval."
     }
   ]
 }

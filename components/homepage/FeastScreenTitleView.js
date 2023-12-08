@@ -91,18 +91,20 @@ function FeastScreenTitleView({ liveClicked, yearClick, changeDate }) {
         <View style={styles.titleView}>
           {isAndroid ? (
             <View>
-              <Button onPress={showTimeTimePicker} title="Change Date" />
-              {showPicker && (
-                <DateTimePicker
-                  value={date}
-                  mode="date"
-                  style={styles.changeDate}
-                  is24Hour={false}
-                  display="default"
-                  minuteInterval={30}
-                  onChange={handleTimeChange}
-                />
-              )}
+              <Pressable onPress={showTimeTimePicker}>
+                <Text style={styles.openCal}>Open Calander</Text>
+                {showPicker && (
+                  <DateTimePicker
+                    value={date}
+                    mode="date"
+                    style={styles.changeDate}
+                    is24Hour={false}
+                    display="default"
+                    minuteInterval={30}
+                    onChange={handleTimeChange}
+                  />
+                )}
+              </Pressable>
             </View>
           ) : (
             <DateTimePicker
@@ -151,6 +153,12 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     textAlign: "center",
     fontSize: 30,
+  },
+  openCal: {
+    fontFamily: "englishtitle-font",
+    justifyContent: "center",
+    textAlign: "center",
+    fontSize: 23,
   },
   changeDate: {
     justifyContent: "center",

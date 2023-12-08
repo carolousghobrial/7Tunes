@@ -801,7 +801,6 @@ export function getCurrentSeasonByDate(date, timeTransition) {
       major: false,
     });
   }
-  console.log(collection);
   const mySeason = collection[0];
 
   var mycurrentSeason = {

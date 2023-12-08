@@ -84,7 +84,8 @@ const TheotokiaVisible = (motherSource, path) => {
     currentSeason.dayOfWeek === 0 ? 6 : currentSeason.dayOfWeek - 1;
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   const timeOfDay = moment().hour();
-
+  console.log(timeOfDay);
+  console.log(new Date(timeTransition).getHours());
   const dayOfWeekToPath = {
     0: "sunday",
     1: "monday",
@@ -128,6 +129,16 @@ const isStandardSeasonWithStMary = (motherSource, path) => {
       return false;
     default:
       return false;
+  }
+  return currentSeason.type !== "feast";
+};
+const AlleluiaStandard = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  switch (currentSeason.type) {
+    case "feast":
+      return false;
+    default:
+      return true;
   }
   return currentSeason.type !== "feast";
 };
@@ -470,6 +481,7 @@ const isSeason = (motherSource, path) => {
       return false;
 
     case FeastEnum.TWENTYNINTHTH_COPTIC_MONTH:
+      console.log(motherSource);
       if (path.toLowerCase().includes("cymbals")) {
         switch (path) {
           case "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTwentyNinth":
@@ -487,9 +499,10 @@ const isSeason = (motherSource, path) => {
           return true;
         }
       } else if (
-        path.toLowerCase()?.includes("nativity") ||
-        path.toLowerCase()?.includes("annunciation") ||
-        path.toLowerCase()?.includes("resurrection")
+        (path.toLowerCase()?.includes("nativity") ||
+          path.toLowerCase()?.includes("annunciation") ||
+          path.toLowerCase()?.includes("resurrection")) &&
+        !motherSource.includes("kiahk")
       ) {
         return true;
       }
@@ -1595,6 +1608,7 @@ const VisibleRules = {
   ISDioceseMetropolitainAlways: ISDioceseMetropolitainAlways,
   ISDioceseBishopAlways: ISDioceseBishopAlways,
   ShowSotees: ShowSotees,
+  AlleluiaStandard: AlleluiaStandard,
   AdamConclusionDoxologies: AdamConclusionDoxologies,
 };
 export default VisibleRules;

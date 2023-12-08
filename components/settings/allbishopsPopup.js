@@ -75,6 +75,7 @@ function AllBishopsPopup({ visible, closeModal, setBishop }) {
 
   const handleSearch = (text) => {
     setSearchPhrase(text);
+
     const filteredSections = bishopSections.reduce((result, section) => {
       const { title, data } = section;
       const filteredData = data.filter(

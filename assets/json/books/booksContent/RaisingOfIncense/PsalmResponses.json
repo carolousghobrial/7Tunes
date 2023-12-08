@@ -7,7 +7,7 @@
             "Type": "Main",
             "Path": "RaisingOfIncensePsalmResponsesStandard",
             "Rule": 0,
-            "Visible": "isStandardSeasonWithStMary"
+            "Visible": "AlleluiaStandard"
         },
         {
             "Type": "Main",

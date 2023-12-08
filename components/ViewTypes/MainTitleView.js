@@ -1,14 +1,5 @@
 import { StyleSheet } from "react-native";
-import {
-  View,
-  Button,
-  TextInput,
-  ImageBackground,
-  Text,
-  Image,
-  Pressable,
-  useWindowDimensions,
-} from "react-native";
+import { View, Text, ImageBackground, useWindowDimensions } from "react-native";
 import {
   getLanguageValue,
   getFontSize,
@@ -19,20 +10,21 @@ import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
 import moment from "moment";
 import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
-import React, { useState, useEffect, memo } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React, { memo } from "react";
+import { useSelector } from "react-redux";
 
 function MainTitleView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
-  let flex = "row";
-  if (width > height) {
-    // Landscape mode
-    flex = "row";
-  } else {
-    // Portrait mode
-    flex = "column";
-  }
+  const flex = width > height ? "row" : "column";
+
+  const commonTextStyle = {
+    fontSize: fontSize * 1.5,
+    color: getColor("LabelColor"),
+    justifyContent: "center",
+    textAlign: "center",
+  };
+
   return (
     <View
       style={{
@@ -44,36 +36,15 @@ function MainTitleView({ item }) {
         source={require("../../assets/images/titleBackground.png")}
       >
         <View style={styles.textView}>
-          <Text
-            style={[
-              styles.english,
-              { fontSize: fontSize * 1.5, color: getColor("LabelColor") },
-            ]}
-          >
-            {item.English}
-          </Text>
+          <Text style={[styles.english, commonTextStyle]}>{item.English}</Text>
         </View>
-        {item.Coptic !== undefined ? (
+        {item.Coptic && (
           <View style={styles.textView}>
-            <Text
-              style={[
-                styles.coptic,
-                { fontSize: fontSize * 1.5, color: getColor("LabelColor") },
-              ]}
-            >
-              {item.Coptic}
-            </Text>
+            <Text style={[styles.coptic, commonTextStyle]}>{item.Coptic}</Text>
           </View>
-        ) : null}
+        )}
         <View style={styles.textView}>
-          <Text
-            style={[
-              styles.arabic,
-              { fontSize: fontSize * 1.5, color: getColor("LabelColor") },
-            ]}
-          >
-            {item.Arabic}
-          </Text>
+          <Text style={[styles.arabic, commonTextStyle]}>{item.Arabic}</Text>
         </View>
       </ImageBackground>
     </View>
@@ -88,21 +59,14 @@ const styles = StyleSheet.create({
   },
   coptic: {
     fontFamily: "coptic-font",
-    textAlign: "right",
-    justifyContent: "center",
-    textAlign: "center",
   },
   arabic: {
     fontFamily: "arabictitle-font",
-    textAlign: "right",
     writingDirection: "rtl",
-    justifyContent: "center",
-    textAlign: "center",
   },
   english: {
     fontFamily: "englishtitle-font",
-    justifyContent: "center",
-    textAlign: "center",
   },
 });
+
 export default memo(MainTitleView);

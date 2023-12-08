@@ -13,6 +13,16 @@ const SearchBar = ({
     setClicked(true);
   }, [setClicked]);
 
+  const clearSearch = () => {
+    handleSearch("");
+    Keyboard.dismiss();
+  };
+
+  const cancelSearch = () => {
+    Keyboard.dismiss();
+    setClicked(false);
+  };
+
   return (
     <View style={styles.container}>
       <View style={[styles.searchBar, clicked && styles.searchBarClicked]}>
@@ -31,19 +41,11 @@ const SearchBar = ({
             size={20}
             color="black"
             style={styles.icon}
-            onPress={() => handleSearch("")}
+            onPress={clearSearch}
           />
         )}
       </View>
-      {clicked && (
-        <Button
-          title="Cancel"
-          onPress={() => {
-            Keyboard.dismiss();
-            setClicked(false);
-          }}
-        />
-      )}
+      {clicked && <Button title="Cancel" onPress={cancelSearch} />}
     </View>
   );
 };

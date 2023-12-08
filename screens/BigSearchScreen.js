@@ -107,85 +107,49 @@ function BigSearchScreen({ navigation }) {
 
   function handleSearch(text) {
     setSearchPhrase(text);
+    if (text === "") {
+      return;
+    }
     const results = [];
-    var listKeyNum = 0;
+    let listKeyNum = 0;
+
     for (const key in bookPaths) {
-      bookPaths[key].Hymn.map((item) => {
+      bookPaths[key].Hymn.forEach((item) => {
+        const textLower = text.toLowerCase().trim();
+
+        const checkAndPush = (property) => {
+          if (
+            item[property] !== undefined &&
+            item[property].toLowerCase().includes(textLower)
+          ) {
+            listKeyNum++;
+            results.push({
+              key,
+              part: item,
+              englishTitle: bookPaths[key].EnglishTitle,
+              arabicTitle: bookPaths[key].ArabicTitle,
+              listKey: listKeyNum,
+            });
+          }
+        };
+
         switch (value) {
           case "english":
-            if (
-              item.English !== undefined &&
-              item.English.toLowerCase().includes(text.toLowerCase().trim())
-            ) {
-              listKeyNum++;
-              results.push({
-                key: key,
-                part: item,
-                englishTitle: bookPaths[key].EnglishTitle,
-                arabicTitle: bookPaths[key].ArabicTitle,
-                listKey: listKeyNum,
-              });
-            }
+            checkAndPush("English");
             break;
           case "coptic":
-            if (
-              item.Coptic !== undefined &&
-              item.Coptic.includes(text.toLowerCase().trim())
-            ) {
-              listKeyNum++;
-              results.push({
-                key: key,
-                part: item,
-                englishTitle: bookPaths[key].EnglishTitle,
-                arabicTitle: bookPaths[key].ArabicTitle,
-                listKey: listKeyNum,
-              });
-            }
+            checkAndPush("Coptic");
             break;
           case "arabic":
-            if (
-              item.Arabic !== undefined &&
-              item.Arabic.includes(text.toLowerCase().trim())
-            ) {
-              listKeyNum++;
-              results.push({
-                key: key,
-                part: item,
-                englishTitle: bookPaths[key].EnglishTitle,
-                arabicTitle: bookPaths[key].ArabicTitle,
-                listKey: listKeyNum,
-              });
-            }
+            checkAndPush("Arabic");
             break;
           case "copticarabic":
-            if (
-              item.Arabiccoptic !== undefined &&
-              item.Arabiccoptic.includes(text.toLowerCase().trim())
-            ) {
-              listKeyNum++;
-              results.push({
-                key: key,
-                part: item,
-                englishTitle: bookPaths[key].EnglishTitle,
-                arabicTitle: bookPaths[key].ArabicTitle,
-                listKey: listKeyNum,
-              });
-            }
+            checkAndPush("Arabiccoptic");
             break;
           case "copticenglish":
-            if (
-              item.Englishcoptic !== undefined &&
-              item.Englishcoptic.includes(text.toLowerCase().trim())
-            ) {
-              listKeyNum++;
-              results.push({
-                key: key,
-                part: item,
-                englishTitle: bookPaths[key].EnglishTitle,
-                arabicTitle: bookPaths[key].ArabicTitle,
-                listKey: listKeyNum,
-              });
-            }
+            checkAndPush("Englishcoptic");
+            break;
+          default:
             break;
         }
       });
