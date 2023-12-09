@@ -162,7 +162,7 @@
             "Arabic": "طرح أدام على الهوس الثاني",
             "English": "Adam Exposition on the Second Hoos",
             "Rule": "OpenSinglePage",
-            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Visible": true,
             "Path": "KiahkMidnightPraisesExpositionsAdamExpositionSecondHoos"
         },
         {
@@ -230,7 +230,7 @@
             "Arabic": "طرح أدام على الهوس الثالث",
             "English": "Adam Exposition on the Third Hoos",
             "Rule": "OpenSinglePage",
-            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Visible": true,
             "Path": "KiahkMidnightPraisesExpositionsAdamExpositionThirdHoos"
         },
         {
@@ -244,7 +244,7 @@
             "Arabic": "مديح القديس العظيم الأنبا أنطونيوس",
             "English": "Melody for St.Anthony the Great",
             "Rule": "OpenSinglePage",
-            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesStAnthonyMelody"
         },
         {
@@ -252,7 +252,7 @@
             "Arabic": "مديح آدام لأبوينا مكسيموس ودوماديوس",
             "English": "Melody for St.Maximus and Dometius",
             "Rule": "OpenSinglePage",
-            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesMaximusDometiusMelody"
         },
         {
@@ -260,7 +260,7 @@
             "Arabic": "مديح القديس انبا صموئيل المعترف",
             "English": "Melody for St.Samuel the Confessor",
             "Rule": "OpenSinglePage",
-            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesStSamuelMelody"
         },
         {
@@ -276,7 +276,7 @@
             "Arabic": "طرح واطس يقال بعد المجمع",
             "English": "Watos Exposition on the Commemoration",
             "Rule": "OpenSinglePage",
-            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Visible": true,
             "Path": "KiahkMidnightPraisesExpositionsWatosExpositionCommemoration"
         },
         {
@@ -290,7 +290,7 @@
             "Arabic": "طرح أدام على الهوس الرابع",
             "English": "Adam Exposition on the Fourth Hoos",
             "Rule": "OpenSinglePage",
-            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Visible": true,
             "Path": "KiahkMidnightPraisesExpositionsAdamExpositionFourthHoos"
         },
         {
