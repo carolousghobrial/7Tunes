@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "انه الأمر مستحق بالحقيقة وعادل ان نسبح الإله الحقيقي الرب الكائن في السماء",
-      "Coptic": "`Fem`p]a gar =en oumeqmhi> ouo\\ oudikeonpe> eqren\\oc `eV; `nta`vmhi> Psoic vhet]op =en tve.",
+      "Coptic": "`Fem`p]a gar =en oumeqmhi> ouo\\ oudikeonpe> eqren\\oc `eV; `nta`vmhi> Psoic vhet]op =en `tve.",
       "English": "For truly it is: Meet and right: To praise the True God : The Lord who dwells in Heaven.",
       "Arabiccoptic": "إف إم إبشاغار خين أو ميثمى، أووه أوذيكيئون بى، إثرين هوس إى إفنوتى انتا إفمى، ابشويس فيتنشوب خين اتفى.",
-      "Englishcoptic": "eFemep-sha ghar khen oo-methmee: owoh oozikeonpe: ethrenhos eVti entaevmeei: Po̅s̅ vee-etshop khen tve."
+      "Englishcoptic": "eFemep-sha ghar khen oo-methmee: owoh oozikeon-pe: ethrenhos Evnoti entaevmeei: Epchois vee-etshop khen Etve."
     },
     {
       "Type": "Base",
@@ -35,7 +35,7 @@
       "Coptic": "Pefran \\olj ouo\\ `f`cmarwout> =en rwou `nnh`eqouab> `ete vai pe V; `viwt> nem `P]hri nem Pi`pneuma`eqouab.",
       "English": "His Name is beautiful and blessed: In the mouths of His saints: This is God the Father: The Son and the Holy Spirit.",
       "Arabiccoptic": "بيفران هولج أووه إفإزماروؤوت، خين روانى اثؤاب، إتى فاى بى إفنوتى افيوت، نيم ابشيرى نيم بى ابنفما إثؤاب.",
-      "Englishcoptic": "Pefran holg owoh efesmaro-oot: khen ro-oo ennee-ethowab: ete vai pe Vti evioot: nem ePsheeri nem Pi-epnevma ethowab."
+      "Englishcoptic": "Pefran holg owoh efesmaro-oot: khen ro-oo ennee-ethowab: ete vai pe Evnoti evioot: nem ePsheeri nem Pi-epnevma ethowab."
     },
     {
       "Type": "Base",
@@ -46,7 +46,7 @@
       "Coptic": "Ouo\\ `nten;w`ou `ntcemne> Mari`a :qeotokoc> ;ma\\`cnou; `n`ckhnh> pi`a\\o `n`alhqinoc.",
       "English": "We glorify the pure: Mary the Theotokos: The Second Tabernacle: The True Treasure.",
       "Arabiccoptic": "أووه انتينتى أو أو إنتى سمينى ، ماري ثيثيؤطوكوس، تى ماه إسنوتى إن إسكينى بى أهو إن أليثينوس.",
-      "Englishcoptic": "Owoh en-ten-ti-oo-oo en-tsemne: mari-a Titheotokos: ti-mahesnooti- en-eskeen-ee: pi-aho en-aleethinos."
+      "Englishcoptic": "Owoh en-ten-ti-oo-oo en-tsemne: Maria Titheotokos: ti-mah-esnooti- en-eskeen-ee: pi-aho en-aleethinos."
     },
     {
       "Type": "Base",
@@ -57,7 +57,7 @@
       "Coptic": "Ouo\\ `ntenw] `ebol rhtwc> =en uoni]; `mmetcaic> je xere ne `w ;parqenoc> ouo\\ Psoic ]op neme.",
       "English": "We utter crying out: With great charm saying: Hail to you O Virgin: The Lord is with you.",
       "Arabiccoptic": "أووه انتين أوش ايفول ريتوس، خين أونيشتى إمميتساى إ، جى شيرى نى أوتى بارثينوس، أووه ابشويس شوب نيمى.",
-      "Englishcoptic": "Owoh en-ten-oosh evol reetoos: khen- eeoni-shti emmetsais: je shere ne -oo tiparthen-os: owoh Po̅s̅ shop neme."
+      "Englishcoptic": "Owoh en-ten-oosh evol reetoos: khen- eeoni-shti emmetsais: je shere ne-oo tiparthen-os: owoh Epchois shop neme."
     },
     {
       "Type": "Base",
@@ -68,7 +68,7 @@
       "Coptic": "Xere ne `w :parqenoc> `pcwt `nAdam nem Eu`a> Xere ne `w :parqenoc> `pounof `nnigene`a.",
       "English": "Hail to you O Virgin: The salvation of Adam and Eve: Hail ...: The joy of the ages.",
       "Arabiccoptic": "شيرى نى أوتى بارثينوس، إبسوتى ان آدام نيم ايفا، شيرى نى أوتى بارثينوس، ابؤونوف انى جينيئا.",
-      "Englishcoptic": "Shere ne oo Tiparthenos: epsoot en-Azam nem Ev-a: Shere ne -oo Tiparthen-os: ep-onof en-ni-gen-e-a."
+      "Englishcoptic": "Shere ne oo Tiparthenos: epsoot en-Adam nem Ev-a: Shere ne-oo Tiparthen-os: ep-onof en-ni-gen-e-a."
     },
     {
       "Type": "Base",
@@ -143,7 +143,7 @@
       "Side": "South",
       "Arabic": "السلام لك أيتها العذراء رؤيا موسي السلام لك أيتها العذراء أم السيد ",
       "Coptic": "Xere ne `w :parqenoc> ;qe`wria `nte Mw`uchc> Xere ne `w :parqenoc> `qmau `mpidecpothc.",
-      "English": "Hail to you O Virgin: The apparition of Mosses : Hail to you O Virgin: The Mother of the Master.",
+      "English": "Hail to you O Virgin: The apparition of Moses : Hail to you O Virgin: The Mother of the Master.",
       "Arabiccoptic": "شيرى نى أوتى بارثينوس، تى ثيئوريا إنتى مويسيس، شيرى نى أوتى بارثينوس، إثماف ايبذيسبوتيس.",
       "Englishcoptic": "Shere ne oo Tiparthenos: ti-the-ooria en-te moo-eysees: Shere ne oo Tiparthenos: ethmav empi-zespotees."
     },
@@ -343,7 +343,7 @@
       "Coptic": "Ten;\\o `aripenmeu`i> `w ;`proctathc `eten\\ot> na\\ren `Psoic vh`etaferrwmi> ouo\\ af;nan `mpef`\\mot.",
       "English": "We ask you, remember us : O the faithful advocate : Before the Lord who became Man : and granted us His Grace.",
       "Arabiccoptic": "تنتى هو أرى بينمفئى، أو تى ابروستاتيس إتينهوت، ناهرين ابشويس فيئتاف إير رومى، أووه أفتى نان إمبيف اهموت.",
-      "Englishcoptic": "Ten-ti-ho -aripen-mev-ee: -oo ti-eprostatees eten-hot: nahren- Epchois vee-etaf-erroomi: owoh afti-nan empefehmot."
+      "Englishcoptic": "Ten-ti-ho -aripen-mev-ee:-oo ti-eprostatees eten-hot: nahren- Epchois vee-etaf-erroomi: owoh afti-nan empefehmot."
     },
     {
       "Type": "Base",
@@ -361,11 +361,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "South",
-      "Arabic": "ويحفظ راعينا انبا (…) ويرفع مجدة ليرعي شعبه مع أبائنا الأساقفة",
-      "Coptic": "Ntef`are\\ `epenman`ecwou> abba (}enouda) ef`esici `mpef`wou> eqref`amoni `mpeflaoc> nem nenio; `n`epickopoc.",
-      "English": "And keep our Shepherd : Abba (Shenouda) and exalt his glory : That he may shepherd his people : together with our fathers the Bishops.",
-      "Arabiccoptic": "انتيف أريه إبينما ان إسوؤو، أفا (شنودة) إف إى اتشيسى إمبيف أوأو، اثريف أمونى امبيف لاؤس، نيم نينيوتى إن اى بيسكوبوس.",
-      "Englishcoptic": "Ntef-areh epen-man-eso-oo: abva (Shen-ooza) ef-echisi empef-o-oo: ethref-amoni empeflaos: nem nen-ioti en-epi-skopos."
+      "Arabic": "ويحفظ راعينا انبا [*POPE*] ويرفع مجدة ليرعي شعبه مع أبائنا الأساقفة",
+      "Coptic": "Ntef`are\\ `epenman`ecwou> abba [*POPE*] ef`esici `mpef`wou> eqref`amoni `mpeflaoc> nem nenio; `n`epickopoc.",
+      "English": "And keep our Shepherd : Abba [*POPE*] and exalt his glory : That he may shepherd his people : together with our fathers the Bishops.",
+      "Arabiccoptic": "انتيف أريه إبينما ان إسوؤو، أفا [*POPE*] إف إى اتشيسى إمبيف أوأو، اثريف أمونى امبيف لاؤس، نيم نينيوتى إن اى بيسكوبوس.",
+      "Englishcoptic": "Ntef-areh epen-man-eso-oo: Avva [*POPE*]ef-echisi empef-o-oo: ethref-amoni empeflaos: nem nen-ioti en-epi-skopos."
     },
     {
       "Type": "Base",
@@ -398,7 +398,7 @@
       "Coptic": "Ten;`wou ne `w qh`eten\\ot> nem piaggeloc `nte pi`cmou> je xere qheqme\\ `n`\\mot> `o Kurioc meta cou.",
       "English": "We glorify you O faithful : with the angel of blessing saying : Hail to you full of grace : The Lord is with you.",
       "Arabiccoptic": "تنتى أو أو نى أو ثيئ تينهوت، نيم بى آنجيلوس نتى بى إسمو، جى شيرى ثى اثميه إن اهموت، أو كيريوس ميتا سو.",
-      "Englishcoptic": "Ten-ti-o-oo ne -oo thee-eten-hot: nem pi-angelos en-te pi-esmoo: je shere thee-ethmeh en-ehmot: -o Keerios meta soo."
+      "Englishcoptic": "Ten-ti-o-oo ne-oo thee-eten-hot: nem pi-angelos en-te pi-esmoo: je shere thee-ethmeh en-ehmot: -o Keerios meta soo."
     },
     {
       "Type": "Base",
@@ -409,7 +409,7 @@
       "Coptic": "Ari`precbeuin `e`\\rhi `ejwn> `w tensoic `nnhb thren ;qe`otokoc> Maria `qmau `mPencwthr> `ntefxa nennobi nan `ebol.",
       "English": "Intercede on our behalf : O lady of us all, the Theotokos : Mary the Mother of our Savior : That He may forgive us our sins.",
       "Arabiccoptic": "أريبرزفيفين إإهرى إيجون . أوتين شويس إن نيب تيرين تى ثيؤطوكوس. ماريا إثماف إمبين سوتير . إنتيف كانين نوفى نان إيفول .",
-      "Englishcoptic": "Ariepresvevin eehreei egoon: -oo ten-chois en-neev teeren- ti-the-otokos: Maria ethmav emPen-sooteer: en-tefkha nen-novi nan evol."
+      "Englishcoptic": "Ariepresvevin eehreei egoon:-oo ten-chois en-neev teeren- ti-the-otokos: Maria ethmav emPen-sooteer: en-tefkha nen-novi nan evol."
     }
   ]
 }

@@ -84,8 +84,6 @@ const TheotokiaVisible = (motherSource, path) => {
     currentSeason.dayOfWeek === 0 ? 6 : currentSeason.dayOfWeek - 1;
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   const timeOfDay = moment().hour();
-  console.log(timeOfDay);
-  console.log(new Date(timeTransition).getHours());
   const dayOfWeekToPath = {
     0: "sunday",
     1: "monday",
@@ -481,7 +479,6 @@ const isSeason = (motherSource, path) => {
       return false;
 
     case FeastEnum.TWENTYNINTHTH_COPTIC_MONTH:
-      console.log(motherSource);
       if (path.toLowerCase().includes("cymbals")) {
         switch (path) {
           case "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTwentyNinth":
@@ -595,10 +592,15 @@ const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
 };
 
 const isMatins = (motherSource, path) => {
-  return motherSource.toLowerCase()?.includes("matins") ? true : false;
+  return motherSource.toLowerCase()?.includes("matins") &&
+    isKiahkSeason(motherSource, path)
+    ? true
+    : false;
 };
 const isVespers = (motherSource, path) => {
-  return motherSource === "vespers" ? true : false;
+  return motherSource === "vespers" && isKiahkSeason(motherSource, path)
+    ? true
+    : false;
 };
 const inRaisingOfIncense = (motherSource, path) => {
   return motherSource === "vespers" ||
@@ -961,30 +963,36 @@ const ArchangelGabrielShow = (motherSource, path) => {
 const JohnTheBaptistShow = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const saintSelected = getSaint("JOHN_THE_BAPTIST");
-  if (currentSeason.copticMonth === "Koiahk" || TakeFromHathor(currentSeason)) {
-    if (path?.toLowerCase().includes("Doxologies")) {
-      return true;
-    } else if (path?.toLowerCase().includes("VersesOfCymbals")) {
-      return true;
-    }
-    return false;
+
+  const isDoxologyPath = (path) =>
+    path?.toLowerCase().includes("doxologies") ||
+    path?.toLowerCase().includes("versesofcymbals");
+
+  if (
+    (currentSeason.copticMonth === "Koiahk" || TakeFromHathor(currentSeason)) &&
+    isDoxologyPath(path)
+  ) {
+    return true;
   }
+
   switch (currentSeason.key) {
     case FeastEnum.EPIPHANY:
     case FeastEnum.EPIPHANY_PARAMOUN:
     case FeastEnum.EPIPHANY_SECONDDAY:
       return true;
-    default:
-      if (path?.toLowerCase().includes("ActsResponse")) {
-        return saintSelected.actsResponse;
-      } else if (path?.toLowerCase().includes("Hitens")) {
-        return saintSelected.intercessions;
-      } else if (path?.toLowerCase().includes("VersesOfCymbals")) {
-        return saintSelected.versesofCymbals;
-      } else if (path?.toLowerCase().includes("Doxologies")) {
-        return saintSelected.doxologies;
+
+    case FeastEnum.NATIVITY_FAST:
+      if (
+        currentSeason.copticMonth === "Koiahk" ||
+        TakeFromHathor(currentSeason)
+      ) {
+        return false;
+      } else {
+        return isDoxologyPath(path) ? saintSelected.doxologies : false;
       }
-      return false;
+
+    default:
+      return isDoxologyPath(path) ? saintSelected.doxologies : false;
   }
 };
 const getPlantsSeason = (motherSource, path) => {

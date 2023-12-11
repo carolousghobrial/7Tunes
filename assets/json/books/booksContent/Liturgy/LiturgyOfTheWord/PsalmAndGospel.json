@@ -45,7 +45,7 @@
             "Arabic": "مبارك الآتي بإسم رب القوات. يا رب بارك الفصل من الإنجيل المقدس من القديس [*STANDARD_GOSPEL_AUTHOR*].",
             "Coptic": "`F`cmarwout `nje vheqnhou =en `vran `m`Psoic `nte nijom. Kurie euloghcon ek tou kata [*STANDARD_GOSPEL_AUTHOR*] `agiou euaggelion to `anagnwcma.",
             "English": "Blessed is He who comes in the name of the Lord of powers. Bless, O Lord, the reading of the Holy Gospel according to Saint [*STANDARD_GOSPEL_AUTHOR*].",
-            "Arabiccoptic": "مبارك الآتي بإسم رب القوات. يا رب بارك الفصل من الإنجيل المقدس من القديس [*STANDARD_GOSPEL_AUTHOR*].",
+            "Arabiccoptic": "افزماروؤت انجى بي اثنيو خين افران امبشويس انتى ني جوم كيريى افلوجيسون اكتو كاتا[*STANDARD_GOSPEL_AUTHOR*] اجيو افانجيليو تو اناغنوسما.",
             "Englishcoptic": "Efesmaro-ot enje vi-ethneo khen efran emEpchois ente ni-gom , kerie evlogison ekto kata [*STANDARD_GOSPEL_AUTHOR*] agio, ev-angelio to anagh-nosma."
         },
         {
@@ -106,8 +106,8 @@
             "Arabic": "ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح، إبن الله الحي، الذي له المجد إلى الأبد.",
             "Coptic": "Pensoic ouo\\ Pennou; ouo\\ Pencwthr ouo\\ Penouro thren Ihcouc Pi`xrictoc `P]hri `m`Vnou; eton= pi`wou naf ]a `ene\\.",
             "English": "Our Lord, our God, our Savior, and King of us all, Jesus Christ, Son of the living God, to whom be glory forever.",
-            "Arabiccoptic": "ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح، إبن الله الحي، الذي له المجد إلى الأبد.",
-            "Englishcoptic": "Our Lord, our God, our Savior, and King of us all, Jesus Christ, Son of the living God, to whom be glory forever."
+            "Arabiccoptic": "بين شويس أووه بيننوتى أووه بين سوتير أووه بين أوروتيرين إيسوس بى اخرستوس ابشيرى إم افنوتى ات أونخ بى أوؤوناف شا اينيه",
+            "Englishcoptic": "Penchois owoh pennoti owoh pensoteer owoh pen-oro teren Isos Pikhristos, epsheery emevnoti, et-onkh pi-o-o naf sha-eneh"
         },
         {
             "Type": "Ritual",

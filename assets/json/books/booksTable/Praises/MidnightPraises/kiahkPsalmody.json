@@ -176,15 +176,23 @@
             "Arabic": "مديح آدام على الهوس الثالث",
             "English": "Adam Melody on the Third Hoos ",
             "Rule": "OpenSinglePage",
-            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesThirdHoosMelody"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "مديح واطس على تداكية يوم الأربعاء",
+            "English": "Watos Melody on the Wednesday Theotokia ",
+            "Rule": "OpenSinglePage",
+            "Visible": true,
+            "Path": "KiahkMidnightPraisesMelodiesWednesdayTheotokiaMelody"
         },
         {
             "Type": "Button",
             "Arabic": "مديح واطس على تداكية يوم الخميس",
             "English": "Watos Melody on the Thursday Theotokia ",
             "Rule": "OpenSinglePage",
-            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesThursdayTheotokiaMelody"
         },
         {
@@ -192,7 +200,7 @@
             "Arabic": "مديح السجود يليق بالثالوث القدوس",
             "English": "Worship Befits the Trinity Melody",
             "Rule": "OpenSinglePage",
-            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesWorshipHolyTrinity"
         },
         {
