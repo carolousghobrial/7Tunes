@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "السلام لقديس عظيم,\nكامل طاهر حكيم,\nيليق له التكريم,\nالسلام للشهيد أبانوب",
-      "English": "Hail to a great saint,,\nPerfect, pure and wise,,\nWho merits all veneration,,\nHail to Saint Abanoub."
+      "English": "Hail to a great saint,\nPerfect, pure and wise,\nWho merits all veneration,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ولد بنهيسة,\nمن مريم القديسة,\nوأبوه مقاره,\nالسلام للشهيد أبانوب",
-      "English": "He was born in Nehissa,,\nFrom Mary the saint,,\nAnd his father the nobleman,,\nHail to Saint Abanoub."
+      "English": "He was born in Nehissa,\nFrom Mary the saint,\nAnd his father the nobleman,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "بعد 12 سنة,\nانتقلا للسما,\nوتركوه في صباه,\nالسلام للشهيد أبانوب",
-      "English": "After twelve years had passed,,\nBoth departed to Heaven,,\nLeaving him in his boyhood,,\nHail to Saint Abanoub."
+      "English": "After twelve years had passed,\nBoth departed to Heaven,\nLeaving him in his boyhood,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ذهب لكنيسة الأبرار,\nليتناول من الأسرار,\nفي وداعة ووقار,\nالسلام للشهيد أبانوب",
-      "English": "He went to the Church of the good,,\nTo partake of the Holy Mysteries,,\nIn humility and reverence,,\nHail to Saint Abanoub."
+      "English": "He went to the Church of the good,\nTo partake of the Holy Mysteries,\nIn humility and reverence,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -41,7 +41,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "في عظة القداس,\nسمع عن دقلديانوس,\nواضطهاده لشعب أيسوس,\nالسلام للشهيد أبانوب",
-      "English": "During the Liturgy´s sermon,,\nHe heard of Diocletian,,\nAnd his persecution of Christ´s people,,\nHail to Saint Abanoub."
+      "English": "During the Liturgy´s sermon,\nHe heard of Diocletian,\nAnd his persecution of Christ´s people,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -49,7 +49,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ذهب القديس وباع,\nالذهب والمتاع,\nوأعطاه للجياع,\nالسلام للشهيد أبانوب",
-      "English": "The saint then went and sold,,\nAll his gold and belongings,,\nAnd gave to the hungry,,\nHail to Saint Abanoub."
+      "English": "The saint then went and sold,\nAll his gold and belongings,\nAnd gave to the hungry,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -57,7 +57,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وصلي الي الله,\nيطلب مكان الولاة,\nلينال إكليل الشهادة,\nالسلام للشهيد أبانوب",
-      "English": "He prayed to the Lord our God,,\nThat he go to the rulers,,\nAnd gain the crown of martyrdom,,\nHail to Saint Abanoub."
+      "English": "He prayed to the Lord our God,\nThat he go to the rulers,\nAnd gain the crown of martyrdom,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -65,7 +65,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ظهر له ميخائيل,\nمن قبل عمانوئيل,\nووعده بالإكليل,\nالسلام للشهيد أبانوب",
-      "English": "St. Michael appeared to him,,\nSent from Emmanuel,,\nAnd promised him the crown,,\nHail to Saint Abanoub."
+      "English": "St. Michael appeared to him,\nSent from Emmanuel,\nAnd promised him the crown,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -73,7 +73,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أمر الوالي بجلده,\nأربع مرات علي بطنه,\nفخرجت أحشاؤه,\nالسلام للشهيد أبانوب",
-      "English": "The ruler ordered him flogged,,\nFour times on his belly,,\nAnd his bowels gushed out,,\nHail to Saint Abanoub."
+      "English": "The ruler ordered him flogged,\nFour times on his belly,\nAnd his bowels gushed out,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -81,7 +81,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أتي الملاك وشفاه,\nومن الوالي نجاه,\nوقام بكل قواه,\nالسلام للشهيد أبانوب",
-      "English": "The angel came and healed him,,\nAnd rescued him from the ruler,,\nHe got up in his full strength,,\nHail to Saint Abanoub."
+      "English": "The angel came and healed him,\nAnd rescued him from the ruler,\nHe got up in his full strength,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -89,7 +89,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "صار الوالي كالمجنون,\nوقال القوه في السجون,\nمع إخوانه المسيحيون,\nالسلام للشهيد أبانوب",
-      "English": "The ruler became very mad,,\nAnd ordered him cast in jail,,\nWith his friends the Christians,,\nHail to Saint Abanoub."
+      "English": "The ruler became very mad,\nAnd ordered him cast in jail,\nWith his friends the Christians,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -97,7 +97,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "شجع كل المسجونين,\nفتمسكوا بالدين,\nوقالوا نحن مسيحيين,\nالسلام للشهيد أبانوب",
-      "English": "He encouraged all the prisoners,,\nAnd they were steadfast in the faith,,\nAnd proclaimed their Christianity,,\nHail to Saint Abanoub."
+      "English": "He encouraged all the prisoners,\nAnd they were steadfast in the faith,\nAnd proclaimed their Christianity,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -105,7 +105,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أمر الوالي بتجميعهم,\nوقتلهم بأجمعهم,\nأكثر من إلف عددهم,\nالسلام للشهيد أبانوب",
-      "English": "The ruler had them rounded up,,\nAnd killed them one and all,,\nThey were more than one thousand,,\nHail to Saint Abanoub."
+      "English": "The ruler had them rounded up,\nAnd killed them one and all,\nThey were more than one thousand,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -113,7 +113,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فعلق أبانوب,\nعلي ساري المركب,\nوأتجه إلي أتريب,\nالسلام للشهيد أبانوب",
-      "English": "He then hung Abanoub,,\nOn the mast of the ship,,\nAnd set sail for Ethrib,,\nHail to Saint Abanoub."
+      "English": "He then hung Abanoub,\nOn the mast of the ship,\nAnd set sail for Ethrib,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -121,7 +121,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "نزف انفه وفاه,\nفأتي الملاك وشفاه,\nوفك رباطاته,\nالسلام للشهيد أبانوب",
-      "English": "His nose and mouth did bleed,,\nThe angel again healed him,,\nAnd undid his shackles,,\nHail to Saint Abanoub."
+      "English": "His nose and mouth did bleed,\nThe angel again healed him,\nAnd undid his shackles,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -129,7 +129,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "شل والي سمنود,\nوعمي الجنود,\nفأمنوا بالحي الموجود,\nالسلام للشهيد أبانوب",
-      "English": "Samanoud´s ruler was paralyzed,,\nAnd his soldiers blinded,,\nSo they believed in the Living God,,\nHail to Saint Abanoub."
+      "English": "Samanoud´s ruler was paralyzed,\nAnd his soldiers blinded,\nSo they believed in the Living God,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -137,7 +137,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أعلنوا أيمانهم,\nفعفي الرب عنهم,\nبصلاة قديسهم,\nالسلام للشهيد أبانوب",
-      "English": "They then proclaimed their faith,,\nAnd the Lord God forgave them,,\nThrough the prayers of their saint,,\nHail to Saint Abanoub."
+      "English": "They then proclaimed their faith,\nAnd the Lord God forgave them,\nThrough the prayers of their saint,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -145,7 +145,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "واعترفوا بالمسيح,\nانه الإله الصحيح,\nالذي فيه نستريح,\nالسلام للشهيد أبانوب",
-      "English": "They confessed that the Christ,,\nIs the true God and Lord,,\nIn Whom we find solace,,\nHail to Saint Abanoub."
+      "English": "They confessed that the Christ,\nIs the true God and Lord,\nIn Whom we find solace,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -153,7 +153,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أغتاظ والي اتريب,\nمن أيمانهم العجيب,\nفقطعهم أربا أربا,\nالسلام للشهيد أبانوب",
-      "English": "Ethrib´s ruler was angry,,\nBecause of their amazing faith,,\nAnd he cut them up in pieces,,\nHail to Saint Abanoub."
+      "English": "Ethrib´s ruler was angry,\nBecause of their amazing faith,\nAnd he cut them up in pieces,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -161,7 +161,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وأتي القديس ودعاه,\nإن يقف وسط الولاة,\nفلم يخش أمره,\nالسلام للشهيد أبانوب",
-      "English": "He came to the saint and said,,\n\"Stand amidst the rulers,\",\nBut he was not afraid,,\nHail to Saint Abanoub."
+      "English": "He came to the saint and said,\n\"Stand amidst the rulers,\",\nBut he was not afraid,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -169,7 +169,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فأمروا بتعذيبه,\nبكي جسده,\nوحرق أعضاؤه,\nالسلام للشهيد أبانوب",
-      "English": "They ordered his torture,,\nBy burning his body,,\nAnd scalding his members,,\nHail to Saint Abanoub."
+      "English": "They ordered his torture,\nBy burning his body,\nAnd scalding his members,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -177,7 +177,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فأتي يسوع وشفاه,\nمن الحرق ونجاه,\nوبالملائكة قواه,\nالسلام للشهيد أبانوب",
-      "English": "Christ then came and healed him,,\nAnd saved him from the burns,,\nAnd angels strengthened him,,\nHail to Saint Abanoub."
+      "English": "Christ then came and healed him,\nAnd saved him from the burns,\nAnd angels strengthened him,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -185,7 +185,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وقطعوا رجليه,\nوأيضا يديه,\nليقضوا عليه,\nالسلام للشهيد أبانوب",
-      "English": "They then cut off his legs,,\nAnd also his hands,,\nTrying to kill him slowly,,\nHail to Saint Abanoub."
+      "English": "They then cut off his legs,\nAnd also his hands,\nTrying to kill him slowly,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -193,7 +193,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أتي الملاك وشفاه,\nو من الوالي نجاه,\nوقام بكل قواه,\nالسلام للشهيد أبانوب",
-      "English": "The angel came and healed him,,\nAnd rescued him from the ruler,,\nHe got up in his full strength,,\nHail to Saint Abanoub."
+      "English": "The angel came and healed him,\nAnd rescued him from the ruler,\nHe got up in his full strength,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -201,7 +201,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وبعد عذابات شديدة,\nوقسوة مريرة,\nنال إكليل الشهادة,\nالسلام للشهيد أبانوب",
-      "English": "After extreme tortures,,\nAnd bitter cruelty,,\nHe gained the crown of martyrdom,,\nHail to Saint Abanoub."
+      "English": "After extreme tortures,\nAnd bitter cruelty,\nHe gained the crown of martyrdom,\nHail to Saint Abanoub."
     },
     {
       "Type": "Melody",
@@ -209,7 +209,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "تفسير اسمك في أفواه,\nكل المؤمنين,\nالكل يقولون يا اله,\nالشهيد أبانوب أعنا أجمعين",
-      "English": "The mention of your name,\nIs in all the believers’ mouth,\nThey all say “O God of St.Abanoub,,\nHelp all of us!”"
+      "English": "The mention of your name,\nIs in all the believers’ mouth,\nThey all say “O God of St.Abanoub,\nHelp all of us!”"
     }
   ]
 }

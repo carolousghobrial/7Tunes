@@ -47,9 +47,9 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لكِ يا أم الرحمة,نحن عبيدك جيرينا,طوباكِ يامملؤة نعمة,عند أبنك الحبيب إشفعى فينا",
-      "English": "Hail to you O mother of mercy / we are your beloved pray acknowledge us / blessed are you O full of grace / before your Son intercede for us."
+      "Side": "Refrain",
+      "Arabic": "السلام لكِ يا أم الرحمة\nنحن عبيدك جيرينا\nطوباكِ يامملؤة نعمة\nعند أبنك الحبيب إشفعى فينا",
+      "English": "Hail to you O mother of mercy \n we are your beloved pray acknowledge us \n  blessed are you O full of grace \n before your Son intercede for us."
     }
   ]
 }

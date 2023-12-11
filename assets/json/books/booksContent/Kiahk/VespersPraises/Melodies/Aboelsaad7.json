@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "دُعِيتِ أم الله وأى,\nلسان بَشَرى ينطق بقليل,\nمن أسرار إبن الله الحى,\nوهو إبنك عمانوئيل",
-      "English": "You were called the Mother of God,,\nNo human tongue can utter trivially,,\nOf the living Son of God´s mystery,,\nWho is your Son Emmanuel"
+      "English": "You were called the Mother of God,\nNo human tongue can utter trivially,\nOf the living Son of God´s mystery,\nWho is your Son Emmanuel"
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ولدته وأنت بتول لكى,\nيتم قول الأنبياء وماقيل,\nلأنهم لم يقولوا شيىء,\nإلا وَ لَهُ نحو وتأويل",
-      "English": "You bore Him while a virgin,,\nThat the prophets´ sayings may be fulfilled,,\nFor they did not speak anything,,\nExcept that which is symbolic."
+      "English": "You bore Him while a virgin,\nThat the prophets´ sayings may be fulfilled,\nFor they did not speak anything,\nExcept that which is symbolic."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "عمانوئيل الذى ولدته,\nمن غير فساد بل بطهارة,\nوفضلك عن مختاريه,\nلأنكِ مُصطَفيَّة ومختارة",
-      "English": "Emmanuel whom you have born,,\nWithout corrupt in purity,,\nHe chose you above all His chosen,,\nFor you are chosen and pure."
+      "English": "Emmanuel whom you have born,\nWithout corrupt in purity,\nHe chose you above all His chosen,\nFor you are chosen and pure."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "تشبهت بالسماء كرسيه,\nوكم لكِ رمزٌ وإشارة,\nكالقسط والمن مُخفى فيه,\nشورية وتابوت ومنارة",
-      "English": "You were likened to heaven His throne,,\nHow many are your symbols and signs,,\nLike the pot and manna hidden in it,,\nThe censor the ark and the lamp stand."
+      "English": "You were likened to heaven His throne,\nHow many are your symbols and signs,\nLike the pot and manna hidden in it,\nThe censor the ark and the lamp stand."
     },
     {
       "Type": "Melody",
@@ -41,15 +41,15 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أهل النبوة والحكمة,\nعَلَموا أن الرب يأتينا,\nويُهلِك مؤامرة الأثَمَة,\nومن الهلاك ينجينا",
-      "English": "The prophets and wise men,,\nRealized that the Lord God will come to us,,\nAnd abolish the evil plots,,\nAnd save us from destruction."
+      "English": "The prophets and wise men,\nRealized that the Lord God will come to us,\nAnd abolish the evil plots,\nAnd save us from destruction."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لكِ يا أم الرحمة,نحن عبيدك جيرينا,طوباكِ يامملؤة نعمة,عند أبنك الحبيب إشفعى فينا",
-      "English": "Hail to you O mother of mercy / we are your beloved pray acknowledge us / blessed are you O full of grace / before your Son intercede for us."
+      "Side": "Refrain",
+      "Arabic": "السلام لكِ يا أم الرحمة\nنحن عبيدك جيرينا\nطوباكِ يامملؤة نعمة\nعند أبنك الحبيب إشفعى فينا",
+      "English": "Hail to you O mother of mercy \n we are your beloved pray acknowledge us \n  blessed are you O full of grace \n before your Son intercede for us."
     }
   ]
 }

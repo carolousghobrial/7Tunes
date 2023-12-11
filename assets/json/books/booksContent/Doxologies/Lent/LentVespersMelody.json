@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أنت يا رب تعطيني أغراضي،,\nوتمحي ذنبي وإثمي الماضي،,\nوتشفيني من أمراضي،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "You O Lord fulfill my desires,,\nBlot out my guilt, past sins and iniquities,,\nAnd heal me from my sickness,,\nHave mercy, O God, and have mercy."
+      "English": "You O Lord fulfill my desires,\nBlot out my guilt, past sins and iniquities,\nAnd heal me from my sickness,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "باكر في وقت الأسحار،,\nيظهر كوكب يضئ بالأنوار،,\nيشبه البتول يوحنا البار،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Early when the dawn breaks through,,\nThe star appears, its light is shining,\nLike the light of Saint John the righteous,,\nHave mercy, O God, and have mercy."
+      "English": "Early when the dawn breaks through,\nThe star appears, its light is shining,\nLike the light of Saint John the righteous,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "تلاميذ يسوع كانوا سبعين،,\nكسبعين نخلة موجودين،,\nفي نص ناموس موسى معدودين،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Christ called seventy Disciples,,\nLike the seventy palm trees,,\nMentioned in the Law of Moses,,\nHave mercy, O God, and have mercy."
+      "English": "Christ called seventy Disciples,\nLike the seventy palm trees,\nMentioned in the Law of Moses,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "جمع يسوع تلاميذه الأطهار،,\nكسبعين نخلة وإثنى عشر أبيار،,\nينابيع منهم تجري الأنهار،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Christ gathered His Disciples,,\nLike seventy palms grown from pure wells,,\nWells from which rivers run,,\nHave mercy, O God, and have mercy."
+      "English": "Christ gathered His Disciples,\nLike seventy palms grown from pure wells,\nWells from which rivers run,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -41,7 +41,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "حلت البيعة على المينا،,\nومن دمه وجسده يفدينا،,\nومن ينبوعه يروينا،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "The Church is the harbor,,\nHis Body and Blood save the guilty,,\nHe gives us water from His spring,\nHave mercy, O God, and have mercy."
+      "English": "The Church is the harbor,\nHis Body and Blood save the guilty,\nHe gives us water from His spring,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -49,7 +49,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "خروف دمه طلى الأبواب،,\nفخلص الشعب من الأتعاب،,\nففدانا بدمه إبن الآب،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "The Lamb´s Blood on the doors,,\nSaved the people from destruction,,\nThe Son saved us with His Blood,\nHave mercy, O God, and have mercy."
+      "English": "The Lamb´s Blood on the doors,\nSaved the people from destruction,\nThe Son saved us with His Blood,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -57,7 +57,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "دخل موسى بين الجبلين،,\nبين طور سينا ورافازين،,\nوالله تعالى أعطاه لوحين،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Moses went through two mountains,,\nSinai and Rephidim,,\nAnd God gave him two tablets,,\nHave mercy, O God, and have mercy."
+      "English": "Moses went through two mountains,\nSinai and Rephidim,\nAnd God gave him two tablets,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -65,7 +65,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "عشرة وصايا في لوحين،,\nأربعة موجودة في العهدين،,\nوستة علينا طلب ودين،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Ten Commandments on two tablets,,\nObserved in both testaments,,\nThis law is the Lord´s demand of us,,\nHave mercy, O God, and have mercy."
+      "English": "Ten Commandments on two tablets,\nObserved in both testaments,\nThis law is the Lord´s demand of us,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -73,7 +73,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "رتب ستة أيام مباح،,\nأن كنت تاجر أو فلاح،,\nواليوم السابع فيه ترتاح،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Six days of work He allowed,,\nRegardless of one´s vocation,,\nThe seventh is the day of rest,,\nHave mercy, O God, and have mercy."
+      "English": "Six days of work He allowed,\nRegardless of one´s vocation,\nThe seventh is the day of rest,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -81,7 +81,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "رتب الراحة لكل النفوس،,\nيوم السبت قراءة الناموس،,\nورفع الختان فوق كل طقوس،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "He planned rest for all souls,,\nOn the Sabbath the Law is read,,\nHe exalted the rite of circumcision,,\nHave mercy, O God, and have mercy."
+      "English": "He planned rest for all souls,\nOn the Sabbath the Law is read,\nHe exalted the rite of circumcision,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -89,7 +89,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "زكا أيضاً كان قصير،,\nوزكا من ماله الكثير،,\nفزكاه إبن الله القدير،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Zaccheus of short stature,,\nGave from his own wealth,,\nThe mighty Son of God then enriched him,,\nHave mercy, O God, and have mercy."
+      "English": "Zaccheus of short stature,\nGave from his own wealth,\nThe mighty Son of God then enriched him,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -97,7 +97,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "سيدنا الصالح صاحب العظمة،,\nنزل من السماء لأجل الرحمة،,\nأنزل زكا عن الكرمة،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Our good Lord of greatness,,\nCame down from heaven out of mercy,,\nBrought Zacchaeus down from the tree,,\nHave mercy, O God, and have mercy."
+      "English": "Our good Lord of greatness,\nCame down from heaven out of mercy,\nBrought Zacchaeus down from the tree,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -105,7 +105,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "شفوق كالآباء على البنين،,\nدخل كورة الجرجسيين،,\nوحل قيود المسجونين،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "As a merciful father with his children,,\nHe entered the region of the Gadarenes,,\nAnd broke the prisoner´s chains,,\nHave mercy, O God, and have mercy."
+      "English": "As a merciful father with his children,\nHe entered the region of the Gadarenes,\nAnd broke the prisoner´s chains,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -113,7 +113,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "صعد يسوع لأورشليم،,\nيوم التجديد تذكار عظيم،,\nويود العيد وضع التعليم،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Christ ascended to Jerusalem,,\nOn the great Feast of Dedication,,\nHe established His teachings,,\nHave mercy, O God, and have mercy."
+      "English": "Christ ascended to Jerusalem,\nOn the great Feast of Dedication,\nHe established His teachings,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -121,7 +121,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "صرخ يسوع في الأسطوان،,\nوقال عن الروح ونهر الإيمان،,\nينبوع يخرج يروى العطشان،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Christ cried out in the temple,,\nHis words are water for the thirsty,,\nHe spoke of the Spirit and the river of faith,,\nHave mercy, O God, and have mercy."
+      "English": "Christ cried out in the temple,\nHis words are water for the thirsty,\nHe spoke of the Spirit and the river of faith,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -129,7 +129,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ضرب مثل بصوت مسموع،,\nكقول يوئيل في هذا الموضوع،,\nمن صهيون يخرج ينبوع،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "He likened His saying with a parable,,\nAs Joel said in his prophecy,,\nOut of Zion, the Spirit flows,,\nHave mercy, O God, and have mercy."
+      "English": "He likened His saying with a parable,\nAs Joel said in his prophecy,\nOut of Zion, the Spirit flows,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -137,7 +137,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "طبيب أيضاً طبيب العميان،,\nصعد إلى بركة الضأن،,\nوشفى عليل مقعد مرضان،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "A physician of the blind,,\nHe went to the Sheep Gate,,\nAnd healed the paralyzed man,,\nHave mercy, O God, and have mercy."
+      "English": "A physician of the blind,\nHe went to the Sheep Gate,\nAnd healed the paralyzed man,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -145,7 +145,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ظهرت أية غريبة،,\nبلمس ثيابه العجيبة،,\nشفى الأمراض العصيبة،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "At the touch of the hem of His garment,,\nHealings of great mystery,,\nThe thorny illnesses were cured,,\nHave mercy, O God, and have mercy."
+      "English": "At the touch of the hem of His garment,\nHealings of great mystery,\nThe thorny illnesses were cured,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -153,7 +153,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "على أيدي الكهنة الرسمية،,\nتمحي الذنوب والخطية،,\nبالإعتراف والتوبة النقية،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "At the hands or a canonical priest,,\nThe transgressions and sins are lifted,,\nThrough confession and repentance,,\nHave mercy, O God, and have mercy."
+      "English": "At the hands or a canonical priest,\nThe transgressions and sins are lifted,\nThrough confession and repentance,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -161,7 +161,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أرسل البرص عشرة بالتمام،,\nللكهنة ليعترفوا بالآثام،,\nوقد شُفيوا من الأسقام،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "He sent away ten lepers,,\nWhom He healed completely,,\nTo confess their sins to the priests,,\nHave mercy, O God, and have mercy."
+      "English": "He sent away ten lepers,\nWhom He healed completely,\nTo confess their sins to the priests,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -169,7 +169,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "غريب الجنس رجع بخضوع،,\nوشكر وخضع للرب يسوع،,\nوالتسعة زاغوا عن الرجوع،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "The stranger returned, kneeling,,\nBefore the Lord Jesus, thankfully,,\nWhile the other nine strayed away,,\nHave mercy, O God, and have mercy."
+      "English": "The stranger returned, kneeling,\nBefore the Lord Jesus, thankfully,\nWhile the other nine strayed away,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -177,7 +177,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "غابوا تسعة قال الإنجيل،,\nوالتسعة من شعب إسرائيل،,\nشعب خاين خان الجميل،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "The Gospel spoke of nine who strayed,,\nNine tribes from the Israelites,,\nThe adulteress nation that betrayed goodness,,\nHave mercy, O God, and have mercy."
+      "English": "The Gospel spoke of nine who strayed,\nNine tribes from the Israelites,\nThe adulteress nation that betrayed goodness,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -185,7 +185,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "في صرفية صيدا كانت إمرأة،,\nعنها قالت التوراة،,\n\"قبلت إيليا رجل الله،\",\nارحمنا يا الله ثم ارحمنا",
-      "English": "The Torah spoke of a widow,,\nIn the land of Zarephath,,\nShe took in Elijah, the man of God,,\nHave mercy, O God, and have mercy."
+      "English": "The Torah spoke of a widow,\nIn the land of Zarephath,\nShe took in Elijah, the man of God,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -193,7 +193,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "قبلته الإمرأة إليها بحقيق،,\nإيلياس النبي الصديق،,\nيوم بارك الزيت والدقيق،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "She accepted the man of God,,\nThe prophet Elijah, truthfully,,\nThat day he blessed the flour and oil,,\nHave mercy, O God, and have mercy."
+      "English": "She accepted the man of God,\nThe prophet Elijah, truthfully,\nThat day he blessed the flour and oil,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -201,7 +201,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فسر يسوع آية يونان،,\nوقال \"ملكة سبا أتت بالإيمان،,\nلتسمع من حكمة سليمان،\",\nارحمنا يا الله ثم ارحمنا",
-      "English": "Jesus explained the story of Jonah,,\nHe said the queen of Sheba came faithfully,,\nTo hear the wisdom of Solomon,,\nHave mercy, O God, and have mercy."
+      "English": "Jesus explained the story of Jonah,\nHe said the queen of Sheba came faithfully,\nTo hear the wisdom of Solomon,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -209,7 +209,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "قد عيرهم عمانوئيل،,\nوقال \"كن أرامل في إسرائيل،,\nيشبهون أرامل هذا الجيل،\",\nارحمنا يا الله ثم ارحمنا",
-      "English": "Emmanuel likened in His saying,,\nThe widows of the Israelites,,\nTo the widows of this generation,,\nHave mercy, O God, and have mercy."
+      "English": "Emmanuel likened in His saying,\nThe widows of the Israelites,\nTo the widows of this generation,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -217,7 +217,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "برص كثيرين كانوا في إسرائيل،,\nفي أيام إليشع قال الإنجيل،,\nوما شفى منهم إلا نعمان العليل،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "There were many lepers in Israel,,\nNone were healed completely,,\nIn the time of prophet Elisha,,\nHave mercy, O God, and have mercy."
+      "English": "There were many lepers in Israel,\nNone were healed completely,\nIn the time of prophet Elisha,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -225,7 +225,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "قال عنهم يهوذا البار،,\n\"أشجار خرافية بدون أثمار،,\nوسحاب يسير بغير أمطار،\",\nارحمنا يا الله ثم ارحمنا",
-      "English": "It was said by Jude the righteous,,\nThey are as unfruitful autumn trees,,\nClouds without water, carried about by wind,,\nHave mercy, O God, and have mercy."
+      "English": "It was said by Jude the righteous,\nThey are as unfruitful autumn trees,\nClouds without water, carried about by wind,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -233,7 +233,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "كرَّام يغرس البساتين،,\nجاء إلى الشجرة تين،,\nفلعنها ويبست في ذاك الحين،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "The Vinedresser who sows the seeds,,\nCame to the fig tree, but found no fruit,,\nHe cursed it and it withered immediately,,\nHave mercy, O God, and have mercy."
+      "English": "The Vinedresser who sows the seeds,\nCame to the fig tree, but found no fruit,\nHe cursed it and it withered immediately,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -241,7 +241,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "كان شعب اليهود الكفرة،,\nيشبهون هذه الشجرة،,\nخرافية وخالية من الثمرة،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "The heathen Jewish people,,\nResemble this fig tree,,\nGreat but barren trees,,\nHave mercy, O God, and have mercy."
+      "English": "The heathen Jewish people,\nResemble this fig tree,\nGreat but barren trees,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -249,7 +249,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "إن كنت يهودي ومأمن،,\nومختون في اليوم الثامن،,\nإمضي وأري نفسك للكاهن،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "A Jew, full of faith, and circumcised,,\nOn the eighth day faithfully,,\nIs to go show himself to the priest,,\nHave mercy, O God, and have mercy."
+      "English": "A Jew, full of faith, and circumcised,\nOn the eighth day faithfully,\nIs to go show himself to the priest,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -257,7 +257,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "كاهن أيضاً خادم الأسرار،,\nوخدم في بيعة الأبكار،,\nدعته البيعة رئيس الأحبار،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "A priest, a servant of the Mysteries,,\nServing in the church of the first-born,,\nThe church called him high priest,,\nHave mercy, O God, and have mercy."
+      "English": "A priest, a servant of the Mysteries,\nServing in the church of the first-born,\nThe church called him high priest,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -265,7 +265,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لبس الحلة وإشتمل بالنور،,\nنام وقام وقت السحور،,\nوقدم الذبيحة والبخور،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "He girded himself with light,,\nSlept then awakened very early,,\nAnd offered the sacrifice and incense,,\nHave mercy, O God, and have mercy."
+      "English": "He girded himself with light,\nSlept then awakened very early,\nAnd offered the sacrifice and incense,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -273,7 +273,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "مسحه رئيس الأحبار،,\nبزيت البهجة والوقار،,\nكما قال داود النبي البار،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Anointed by the High Priest,,\nWith the oil of reverence joyfully,,\nAs the righteous prophet David spoke,,\nHave mercy, O God, and have mercy."
+      "English": "Anointed by the High Priest,\nWith the oil of reverence joyfully,\nAs the righteous prophet David spoke,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -281,7 +281,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "نام الرئيس في قدس الأقداس،,\nوقام باكر وقت الأغلاس،,\nوفوق المذبح صلى القداس،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "Standing in the Holy of Holies,,\nThe high priest arose at dawn,,\nAnd on the altar prayed a liturgy,,\nHave mercy, O God, and have mercy."
+      "English": "Standing in the Holy of Holies,\nThe high priest arose at dawn,\nAnd on the altar prayed a liturgy,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -289,7 +289,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "\"هدوا الهيكل بالتمام،\",\nقال يسوع رب الأنام،,\n\"وأنا أقيمه في ثلاثة أيام،\",\nارحمنا يا الله ثم ارحمنا",
-      "English": "Jesus, the Lord of all said,,\n\"Destroy this temple completely,,\nAnd I will raise it again in three days,\",\nHave mercy, O God, and have mercy."
+      "English": "Jesus, the Lord of all said,\n\"Destroy this temple completely,\nAnd I will raise it again in three days,\",\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -297,7 +297,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هيكل جسده حجاب الناسوت،,\nتألم به واق الموت،,\nوإنبعث بقوة اللاهوت،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "His Body, the abode of humanity,,\nTasted death, suffering and infirmity,,\nAnd arose by the power of divinity,,\nHave mercy, O God, and have mercy."
+      "English": "His Body, the abode of humanity,\nTasted death, suffering and infirmity,\nAnd arose by the power of divinity,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -305,7 +305,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هيكل طاهر قلب الإنسان،,\nالمبني على حجر الإيمان،,\nأفضل من هيكل سليمان،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "The pure temple is the human heart,,\nBuilt on the rock of the faith,,\nIt is greater than the temple of Solomon,,\nHave mercy, O God, and have mercy."
+      "English": "The pure temple is the human heart,\nBuilt on the rock of the faith,\nIt is greater than the temple of Solomon,\nHave mercy, O God, and have mercy."
     },
     {
       "Type": "Melody",
@@ -313,7 +313,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "واضع أيضاً هذا المديح،,\nالإيغومانس عبد المسيح،,\nزينة البيعة هو التسبيح،,\nارحمنا يا الله ثم ارحمنا",
-      "English": "The author who composed this melody,\nIs Hegumen Abdel-Masseh,,\nPraising the church´s glory,,\nHave mercy, O God, and have mercy."
+      "English": "The author who composed this melody,\nIs Hegumen Abdel-Masseh,\nPraising the church´s glory,\nHave mercy, O God, and have mercy."
     }
   ]
 }

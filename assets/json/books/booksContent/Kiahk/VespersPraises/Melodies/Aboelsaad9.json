@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هوذا الرب آتى منكِ,\nوخلص العالم الذى خلقه,\nمن أسر الشيطان اللعين وبكِ,\nربنا فى جوف الجحيم سحقه",
-      "English": "Behold the Lord came from you,,\nAnd saved the world He created,,\nFrom the bondage of the cursed Satan,,\nIn the belly of Hades He crushed him."
+      "English": "Behold the Lord came from you,\nAnd saved the world He created,\nFrom the bondage of the cursed Satan,\nIn the belly of Hades He crushed him."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وصيرنا له شعباً زكى,\nوكتاب العبودية خزَّقه,\nوأدم أبينا الذى هو متكىء,\nمن قديم فى جوف الجحيم عتقه",
-      "English": "And we became His justified people,,\nHe tore the hand-writing of slavery,,\nOur father Adam who was bound,,\nSince ancient times in Hades He released."
+      "English": "And we became His justified people,\nHe tore the hand-writing of slavery,\nOur father Adam who was bound,\nSince ancient times in Hades He released."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "نسبح له ونمجد إياه,\nونزيده علواً إلى الأبد,\nكصالح محب البشر مع أباه,\nوالروح القدس الذى به إتَّحد",
-      "English": "We praise and glorify Him,,\nAnd exalt Him forever,,\nAs a good Lover of man with His father,,\nAnd the Holy Spirit One with Him."
+      "English": "We praise and glorify Him,\nAnd exalt Him forever,\nAs a good Lover of man with His father,\nAnd the Holy Spirit One with Him."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أنا معكم يامحبى الإله,\nأبو السعد سقيم الروح والجسد,\nتعالوا نسأل طويل الأناة,\nأن يهب الخلاص لكل أحد",
-      "English": "I am with you O lovers of God,,\nAbo El-Saad the sick in spirit and body,,\nCome let us ask the patient One,,\nTo bring salvation to every one."
+      "English": "I am with you O lovers of God,\nAbo El-Saad the sick in spirit and body,\nCome let us ask the patient One,\nTo bring salvation to every one."
     },
     {
       "Type": "Melody",
@@ -41,15 +41,15 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لأنه أعطانا رسماً رَسَمُه,\nبالمعمودية يُحيينا,\nيوم القيامة فى الزحمة,\nمن عن يمينه يُهنِّينا",
-      "English": "He gave us a sign of signs,,\nBy baptism He gave us life,,\nOn judgment day of Resurrection,,\nHe will put us as His right hand."
+      "English": "He gave us a sign of signs,\nBy baptism He gave us life,\nOn judgment day of Resurrection,\nHe will put us as His right hand."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لكِ يا أم الرحمة,نحن عبيدك جيرينا,طوباكِ يامملؤة نعمة,عند أبنك الحبيب إشفعى فينا",
-      "English": "Hail to you O mother of mercy / we are your beloved pray acknowledge us / blessed are you O full of grace / before your Son intercede for us."
+      "Side": "Refrain",
+      "Arabic": "السلام لكِ يا أم الرحمة\nنحن عبيدك جيرينا\nطوباكِ يامملؤة نعمة\nعند أبنك الحبيب إشفعى فينا",
+      "English": "Hail to you O mother of mercy \n we are your beloved pray acknowledge us \n  blessed are you O full of grace \n before your Son intercede for us."
     }
   ]
 }

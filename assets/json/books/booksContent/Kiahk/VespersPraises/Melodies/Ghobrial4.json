@@ -87,9 +87,9 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لك ثم السلام إليك,ونسألك ياأم المحبوب,أن تحظينا فى مظال أبائك,إبراهيم وإسحق ويعقوب",
-      "English": "Hail to you and hail unto you, we ask you O Mother of the Beloved, grant us to be in your fathers dwellings, Abraham Isaac and Jacob."
+      "Side": "Refrain",
+      "Arabic": "السلام لك ثم السلام إليك\nونسألك ياأم المحبوب\nأن تحظينا فى مظال أبائك\nإبراهيم وإسحق ويعقوب",
+      "English": "Hail to you and hail unto you\n we ask you O Mother of the Beloved\n grant us to be in your fathers dwellings\n Abraham Isaac and Jacob."
     }
   ]
 }

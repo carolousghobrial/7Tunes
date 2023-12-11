@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أنت هى الجنس المختار,\nمن بيت داود الطوبانى,\nبوجودك ياطهر الأطهار,\nآدم بك قد صار فرحانِ",
-      "English": "You are the chosen descendant,,\nFrom the blessed house of David,,\nWith your presence O pure one,,\nAdam became happy."
+      "English": "You are the chosen descendant,\nFrom the blessed house of David,\nWith your presence O pure one,\nAdam became happy."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "سكن فيكِ الأزلى الجبار,\nالإبن الكلمة الوحدانى,\nوحملتيه يا ست الأبكار,\nتسعة شهور من غير نقصانِِ",
-      "English": "The Eternal and Mighty dwelt in you,,\nThe only Son and Logos,,\nYou carried Him O Lady of the first-born,,\nNine full months."
+      "English": "The Eternal and Mighty dwelt in you,\nThe only Son and Logos,\nYou carried Him O Lady of the first-born,\nNine full months."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وولدتيه فى بيت لحم إجهار,\nكطفلٍٍ صغيرٍٍ عريانِِ,\nووضعتيه فى مزود أبقار,\nملفوفاً بخرق كالإنسانِ",
-      "English": "You bore Him in Bethlehem,,\nAs a young naked Child,,\nAnd placed Him in a manger,,\nWrapped in clothes as a human."
+      "English": "You bore Him in Bethlehem,\nAs a young naked Child,\nAnd placed Him in a manger,\nWrapped in clothes as a human."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وبحضور سالومة والنجار,\nالشيخ يوسف الطوبانى,\nو أتوا إليه بفرح ووقار,\nوسجدوا له الرعيانِ",
-      "English": "In the presence of Salome and the carpenter,,\nJoseph the blessed elder,,\nAnd others came to Him with joy,,\nThe shepherds worshiped Him."
+      "English": "In the presence of Salome and the carpenter,\nJoseph the blessed elder,\nAnd others came to Him with joy,\nThe shepherds worshiped Him."
     },
     {
       "Type": "Melody",
@@ -41,7 +41,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وظهر نجمه يشعل كالنار,\nفى المشرق زاهى نورانى,\nونظروه فى تلك الأقطار,\nمجوس وقصدوا إليه بالمعانى",
-      "English": "And His star shone like fire,,\nIn the east it was illuminating,,\nAnd they saw Him in those regions,,\nAnd the wise men came to Him."
+      "English": "And His star shone like fire,\nIn the east it was illuminating,\nAnd they saw Him in those regions,\nAnd the wise men came to Him."
     },
     {
       "Type": "Melody",
@@ -49,7 +49,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وجابوا هدايا بالقنطار,\nذهباً ومُرَّاً ولبانِ,\nوالنجم يسير ليلاً ونهار,\nمعهم يرشدهم أعيانِ",
-      "English": "With expensive gifts,,\nGold silver and frankincense,,\nThe star was shining day and night,,\nTo lead them to the place."
+      "English": "With expensive gifts,\nGold silver and frankincense,\nThe star was shining day and night,\nTo lead them to the place."
     },
     {
       "Type": "Melody",
@@ -57,15 +57,15 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "إلى حيث كان عالِم الأسرار,\nالمولود خالق الأزمانِ,\nوسجدوا له بفرحٍ ووقار,\nونالوا منه الغفرانِ",
-      "English": "Where the Omniscient dwelt,,\nThe Begotten the Creator of the ages,,\nThey worship Him with joy and adoration,,\nAndbeheld the enlightened glory."
+      "English": "Where the Omniscient dwelt,\nThe Begotten the Creator of the ages,\nThey worship Him with joy and adoration,\nAndbeheld the enlightened glory."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس",
-      "English": "Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior."
+      "Side": "Refrain",
+      "Arabic": "السلام لك ياست الأبكار\nيا مريم تى بارثينوس\nيامن حلَّ فى أحشاك وصار\nمخلصنا إيسوس بى إخريستوس",
+      "English": "Hail to you o Lady of virgins \n O Mary the Virgin \n Jesus Christ dwelt in your womb \n and became our Savior."
     }
   ]
 }

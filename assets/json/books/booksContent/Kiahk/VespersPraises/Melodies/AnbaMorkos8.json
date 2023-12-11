@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "سلم رأه الأب يعقوب,\nفى الرؤيا حقاً بثبات,\nمرتفعاً عالياً منصوب,\nمن الأرض إلى السموات",
-      "English": "A ladder father Jacob saw,,\nTruly in the vision,,\nIt was standing high,,\nFrom the earth to the heavens."
+      "English": "A ladder father Jacob saw,\nTruly in the vision,\nIt was standing high,\nFrom the earth to the heavens."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وملائكة الرب المرهوب,\nنازلين عليه ألوفاً مع ربوات,\nوصاعدين للعرش المحجوب,\nوعليه جالس رب القوات",
-      "English": "And the angels of the awesome Lord,,\nThousands descending on it,,\nAnd ascending to the hidden throne,,\nAnd upon it is the Lord of hosts."
+      "English": "And the angels of the awesome Lord,\nThousands descending on it,\nAnd ascending to the hidden throne,\nAnd upon it is the Lord of hosts."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وقد صار من رؤياه مرعوب,\nوهذا رمز وإشارات,\nعن مريم قد تم المكتوب,\nبكل أقوال ونبوات",
-      "English": "He trembled by this vision,,\nIt is a sign and a testimony,,\nThe writings about Mary were fulfilled,,\nWith all the sayings and prophecies."
+      "English": "He trembled by this vision,\nIt is a sign and a testimony,\nThe writings about Mary were fulfilled,\nWith all the sayings and prophecies."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "هى حملت غافر كل ذنوب,\nوله تسجد كل الطغمات,\nبتدبيره قد صار مصلوب,\nودفن فى قبر مع الأموات",
-      "English": "She carried the Forgiver of all sins,,\nAnd to Him all the ranks worship,,\nHe was crucified by His Economy,,\nAnd was buried among the dead."
+      "English": "She carried the Forgiver of all sins,\nAnd to Him all the ranks worship,\nHe was crucified by His Economy,\nAnd was buried among the dead."
     },
     {
       "Type": "Melody",
@@ -41,7 +41,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وفى ثالث يوم محسوب,\nقام سيدنا صاحب الهيبات,\nوخلص من قد كان متعوب,\nفى نار جحيم ببكاء وحسرات",
-      "English": "And on the chosen third day,,\nOur awesome Master arose,,\nAnd saved those in tribulations,,\nIn the fire of Hades in distress."
+      "English": "And on the chosen third day,\nOur awesome Master arose,\nAnd saved those in tribulations,\nIn the fire of Hades in distress."
     },
     {
       "Type": "Melody",
@@ -49,15 +49,15 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أدم وبنيه بلغوا المطلوب,\nوخلصوا من تلك الرجفات,\nوالشيطان صار مسجوناً مغلوب,\nموضعهم فى تلك الظلمات",
-      "English": "Adam and his sons have attained what was needed,,\nAnd were saved from those flashes,,\nAnd the Devil was bound,,\nAnd placed in that darkness."
+      "English": "Adam and his sons have attained what was needed,\nAnd were saved from those flashes,\nAnd the Devil was bound,\nAnd placed in that darkness."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس",
-      "English": "Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior."
+      "Side": "Refrain",
+      "Arabic": "السلام لك ياست الأبكار\nيا مريم تى بارثينوس\nيامن حلَّ فى أحشاك وصار\nمخلصنا إيسوس بى إخريستوس",
+      "English": "Hail to you o Lady of virgins \n O Mary the Virgin \n Jesus Christ dwelt in your womb \n and became our Savior."
     }
   ]
 }

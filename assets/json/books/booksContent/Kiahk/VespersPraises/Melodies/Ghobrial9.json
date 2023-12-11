@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هوذا الرب شاء وأحب,\nوأراد يوفى وعده بكمال,\nوماوعد به الرب وهب,\nومحى عن شعبه كل ضلال",
-      "English": "Behold the Lord desired and loved,,\nWishing to fulfill the promise,,\nThe Lord granted what He promised,,\nHe erased all His people´s recklessness."
+      "English": "Behold the Lord desired and loved,\nWishing to fulfill the promise,\nThe Lord granted what He promised,\nHe erased all His people´s recklessness."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ومحى عن شعبه كل ضلال,\nوعرفنا سر اللاهوت,\nوحملتيه وأكمل الأقوال,\nوعمَّدنا بإسم الثالوث",
-      "English": "He erased all His people´s recklessness,,\nAnd taught us His divine mystery,,\nYou bore Him and He fulfilled the word,,\nHe baptized us in the Trinity´s name."
+      "English": "He erased all His people´s recklessness,\nAnd taught us His divine mystery,\nYou bore Him and He fulfilled the word,\nHe baptized us in the Trinity´s name."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وعمَّدنا بإسم الثالوث,\nوأشرق نوره من بعد ظلام,\nوجاد علينا بالملكوت,\nومحى عنَّا كل أثام",
-      "English": "He baptized us in the Trinity´s name,,\nHe shone His light after darkness,,\nHe granted us His kingdom,,\nAnd erased all our sins."
+      "English": "He baptized us in the Trinity´s name,\nHe shone His light after darkness,\nHe granted us His kingdom,\nAnd erased all our sins."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ومحى عنَّا كل أثام,\nنسبح له ونمجد إياه,\nله المجد الدائم والإكرام,\nكصالح محب البشر مع أباه",
-      "English": "And erased all our sins,,\nWe praise and glorify Him,,\nHe is due eternal glory and honor,,\nAs a good lover of man with His Father."
+      "English": "And erased all our sins,\nWe praise and glorify Him,\nHe is due eternal glory and honor,\nAs a good lover of man with His Father."
     },
     {
       "Type": "Melody",
@@ -41,7 +41,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "كصالح محب البشر مع أباه,\nوالروح القدس أزلى معبود,\nإله واحد لا رب سواه,\nدائم باقى حاضر موجود",
-      "English": "As a good Lover of man with His Father,,\nAnd the eternal Holy Spirit,,\nOnly God no Lord but Him,,\nEternal everlasting omnipresent."
+      "English": "As a good Lover of man with His Father,\nAnd the eternal Holy Spirit,\nOnly God no Lord but Him,\nEternal everlasting omnipresent."
     },
     {
       "Type": "Melody",
@@ -49,7 +49,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "دائم باقى حاضر موجود,\nخالق رازق عاطى وَهَّاب,\nإختارك يا إبنة داود,\nوسكن فى أحشاكِ ربّ الأرباب",
-      "English": "Eternal everlasting omnipresent,,\nCreator giver bestower,,\nHe chose you O daughter of David,,\nLord of lords dwelt in your womb."
+      "English": "Eternal everlasting omnipresent,\nCreator giver bestower,\nHe chose you O daughter of David,\nLord of lords dwelt in your womb."
     },
     {
       "Type": "Melody",
@@ -57,7 +57,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وسكن فى أحشاكِ ربّ الأرباب,\nوولدتيه ورضع من ثدييكِ,\nوهو كائن فى مجد الآب,\nمن أجل خلاص أمك وأبيكِ",
-      "English": "Lord of lords dwelt in your womb,,\nYou gave birth to Him and you suckled Him,,\nWhile being in His Father´s glory,,\nFor the sake of your parents."
+      "English": "Lord of lords dwelt in your womb,\nYou gave birth to Him and you suckled Him,\nWhile being in His Father´s glory,\nFor the sake of your parents."
     },
     {
       "Type": "Melody",
@@ -65,7 +65,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "من أجل خلاص أمك وأبيكِ,\nبعد أن كانوا فى ضيق وأحزان,\nيامن تاق الرب إليكِ,\nنجينا من شر الشيطان",
-      "English": "For the sake of your parents,,\nAfter they were in affliction and sadness,,\nO you whom the Lord desired,,\nSave us from Satan´s evil."
+      "English": "For the sake of your parents,\nAfter they were in affliction and sadness,\nO you whom the Lord desired,\nSave us from Satan´s evil."
     },
     {
       "Type": "Melody",
@@ -73,7 +73,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "نجينا من شر الشيطان,\nلأننا محسوبين عليكِ,\nوالعبد الناظم ذى الأوزان,\nخاطىء وتقدمت إليكِ",
-      "English": "Save us from Satan´s evil,,\nWe ask you O mother of the Beloved,,\nAnd the composer of this hymn,\nA sinner and coming to you"
+      "English": "Save us from Satan´s evil,\nWe ask you O mother of the Beloved,\nAnd the composer of this hymn,\nA sinner and coming to you"
     },
     {
       "Type": "Melody",
@@ -103,9 +103,9 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "بالجهد يقول السلام إليكِ,ونسألك ياأم المحبوب,أن تحظينا فى مظال أبائك,إبراهيم وإسحق ويعقوب",
-      "English": "Hail to you and hail unto you, we ask you O Mother of the Beloved, grant us to be in your fathers dwellings, Abraham Isaac and Jacob."
+      "Side": "Refrain",
+      "Arabic": "بالجهد يقول السلام إليكِ\nونسألك ياأم المحبوب\nأن تحظينا فى مظال أبائك\nإبراهيم وإسحق ويعقوب",
+      "English": "Hail to you and hail unto you\n we ask you O Mother of the Beloved\n grant us to be in your fathers dwellings\n Abraham Isaac and Jacob."
     }
   ]
 }

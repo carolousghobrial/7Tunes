@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "فقال لك يا مختار,\nأنت من أي مكان,\nأنا لي ثلاثة أعوام,\nما رأيت مثلك إنسان",
-      "English": "He said to you, O chosen one,,\n\"From where are you?,\nIn the past three years,\nI have not seen a man like you"
+      "English": "He said to you, O chosen one,\n\"From where are you?,\nIn the past three years,\nI have not seen a man like you"
     },
     {
       "Type": "Melody",
@@ -57,7 +57,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "فقال له جورجيوس,\nأنا ابن انسطاسيوس,\nو أنا عبد لربي,\nايسوس بى إخريستوس",
-      "English": "George answered him,,\n\"My father is Anastasious,\nAnd I am a servant,\nOf my Lord Jesus Christ"
+      "English": "George answered him,\n\"My father is Anastasious,\nAnd I am a servant,\nOf my Lord Jesus Christ"
     },
     {
       "Type": "Melody",
@@ -73,7 +73,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فقال له دقلديانوس,\nتعال أعبد الأوثان,\nو بَخَّر يا محروس,\nو أنا اكتب لك فَرَمَان",
-      "English": "Diocletian said to him,,\n\"Come, worship the idols with me,\nOffer incense to them,\nI shall write you a decree!\""
+      "English": "Diocletian said to him,\n\"Come, worship the idols with me,\nOffer incense to them,\nI shall write you a decree!\""
     },
     {
       "Type": "Melody",
@@ -81,7 +81,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فقال له جورجيوس,\nأنا نسل الكرام,\nكيف تأمرني يا منجوس,\nأن أعبد الأوثان",
-      "English": "George answered him,,\n\"I am the seed of the honorable,\nHow can you command me, O defiled,\nTo worship the idols"
+      "English": "George answered him,\n\"I am the seed of the honorable,\nHow can you command me, O defiled,\nTo worship the idols"
     },
     {
       "Type": "Melody",
@@ -145,7 +145,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "تفسير أسمك في أفواه,\nكل المؤمنين,\nالكل يقولون ياإله,\nمارجرجس أعنا أجمعين",
-      "English": "The mention of your name,\nIs in all the believers’ mouth,\nThey all say “O God of St.George,,\nHelp all of us!”"
+      "English": "The mention of your name,\nIs in all the believers’ mouth,\nThey all say “O God of St.George,\nHelp all of us!”"
     }
   ]
 }

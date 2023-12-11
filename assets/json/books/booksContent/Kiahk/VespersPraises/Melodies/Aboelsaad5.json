@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "السماء الثانية التى صارت,\nعلى الأرض فهى أيضاً,\nمريم العذراء التى إختارت,\nوصارت وسيطة لنا بالرضى",
-      "English": "The second heaven what became,,\nOn earth is also,,\nVirgin Mary who was chosen,,\nAnd became our intercessor willingly."
+      "English": "The second heaven what became,\nOn earth is also,\nVirgin Mary who was chosen,\nAnd became our intercessor willingly."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "كل البَرِيَّة بها نارت,\nومنها شمسُ العدل أضاء,\nوبهذا التحقيق أشارت,\nشيوخ الزمان الذى قد مضى",
-      "English": "All the creation ware illuminated by her,,\nFrom her the Sun of righteousness shone,,\nBy this testimony they indicated,,\nThe elders of the past times."
+      "English": "All the creation ware illuminated by her,\nFrom her the Sun of righteousness shone,\nBy this testimony they indicated,\nThe elders of the past times."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وَلَدنه كالنبوة التى شهدت,\nأنه يُولَد من غير زرع بشر,\nومن غير فساد حملته مدة,\nتسعة شهور ثم قد إشتهر",
-      "English": "She bore him as the prophecy witnessed,,\nThat He will be born without seed of man,,\nWithout corruption she bore Him,,\nNine month then He was known."
+      "English": "She bore him as the prophecy witnessed,\nThat He will be born without seed of man,\nWithout corruption she bore Him,\nNine month then He was known."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "تُسرُّ الخليقة بما قد وُعِدت,\nوتسجد أمام الذى قد ظهر,\nوتصيح السلام للتى وجدت,\nكل نعمة أمام محب البشر",
-      "English": "The creation is pleased with its promise,,\nAnd worships before He who appeared,,\nAnd offers greeting to who has found,,\nAll grace before the Lover of Man."
+      "English": "The creation is pleased with its promise,\nAnd worships before He who appeared,\nAnd offers greeting to who has found,\nAll grace before the Lover of Man."
     },
     {
       "Type": "Melody",
@@ -41,15 +41,15 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "بماذا أدعوكِ أيتها الكرمة,\nعصيرك منه سقيتينا,\nوصرتِ وسيلة ومهتمة,\nبنا وسائر ما لينا",
-      "English": "What shall I call you O vine,,\nYou gave us to drink of your nectar,,\nYou became an intercessor and care-giver,,\nFor us and all who belong to us."
+      "English": "What shall I call you O vine,\nYou gave us to drink of your nectar,\nYou became an intercessor and care-giver,\nFor us and all who belong to us."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لكِ يا أم الرحمة,نحن عبيدك جيرينا,طوباكِ يامملؤة نعمة,عند أبنك الحبيب إشفعى فينا",
-      "English": "Hail to you O mother of mercy / we are your beloved pray acknowledge us / blessed are you O full of grace / before your Son intercede for us."
+      "Side": "Refrain",
+      "Arabic": "السلام لكِ يا أم الرحمة\nنحن عبيدك جيرينا\nطوباكِ يامملؤة نعمة\nعند أبنك الحبيب إشفعى فينا",
+      "English": "Hail to you O mother of mercy \n we are your beloved pray acknowledge us \n  blessed are you O full of grace \n before your Son intercede for us."
     }
   ]
 }

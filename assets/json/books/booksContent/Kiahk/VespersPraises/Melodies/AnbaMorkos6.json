@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "القبة النبوية,\nزينها موسى بكل ألوان,\nوجعلها بذهبٍ مطلية,\nوسبعة سِرُج أيضاً بنيران",
-      "English": "The prophetic tabernacle,,\nWas decorated by Moses with,\nColors, he overlaid it with gold,,\nAnd seven lamps shined on it."
+      "English": "The prophetic tabernacle,\nWas decorated by Moses with,\nColors, he overlaid it with gold,\nAnd seven lamps shined on it."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "والألواح العهدية,\nمكتوبة بأصبع الديان,\nوجعل فيها منارة مضيئة,\nوقسط ذهب فيه المن بيان",
-      "English": "And the tablets of the covenant,,\nWritten by the finger of the Judge,,\nAnd he placed a bright lampstand,,\nAnd a golde vessel with the manna in it."
+      "English": "And the tablets of the covenant,\nWritten by the finger of the Judge,\nAnd he placed a bright lampstand,\nAnd a golde vessel with the manna in it."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "على بنى الإسرائيلية,\nشهادة يوم نَصب الميزان,\nوذلك إشارة رمزية,\nعليكِ ياهيكل منصان",
-      "English": "A decree upon the Israelites,,\nA testimony of Judgment Day,,\nAnd this is a symbolic sign,,\nAbout you O protected sanctuary."
+      "English": "A decree upon the Israelites,\nA testimony of Judgment Day,\nAnd this is a symbolic sign,\nAbout you O protected sanctuary."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يامريم بكر نقية,\nقد صرتِ قبة للغفران,\nوزيَّنك بأنوار بهية,\nالإله منشىء الأكوان",
-      "English": "O Mary the pure first-born,,\nYou became a tabernacle for forgiveness,,\nGod the Creator of the universe,,\nDecorated you with splendid lights."
+      "English": "O Mary the pure first-born,\nYou became a tabernacle for forgiveness,\nGod the Creator of the universe,\nDecorated you with splendid lights."
     },
     {
       "Type": "Melody",
@@ -41,7 +41,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وإلى الديار المصرية,\nمضى بكِ يوسف الإنسان,\nومعكِ خالق كل البَرِيَّة,\nطفلاً محمولاً على الأبدان",
-      "English": "Joseph came with you,,\nTo the Egyptian cities,,\nWith the Creator of the creation,,\nA Child carried in your hands."
+      "English": "Joseph came with you,\nTo the Egyptian cities,\nWith the Creator of the creation,\nA Child carried in your hands."
     },
     {
       "Type": "Melody",
@@ -49,15 +49,15 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "بادت الأصنام بالكلية,\nمن قدامه فى كل مكان,\nوصارت أرض مصر محمية,\nوبادت منها عبادة الإوثان",
-      "English": "All the idols were destroyed,,\nBefore Him in every place,,\nAnd Egypt was protected,,\nAnd the worship of idols ceased to be."
+      "English": "All the idols were destroyed,\nBefore Him in every place,\nAnd Egypt was protected,\nAnd the worship of idols ceased to be."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس",
-      "English": "Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior."
+      "Side": "Refrain",
+      "Arabic": "السلام لك ياست الأبكار\nيا مريم تى بارثينوس\nيامن حلَّ فى أحشاك وصار\nمخلصنا إيسوس بى إخريستوس",
+      "English": "Hail to you o Lady of virgins \n O Mary the Virgin \n Jesus Christ dwelt in your womb \n and became our Savior."
     }
   ]
 }

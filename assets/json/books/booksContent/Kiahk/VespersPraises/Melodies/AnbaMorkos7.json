@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "دعيتِ أم الله خالقنا,\nيامريم إبنة صهيون,\nتجسد منكِ وعتقنا,\nمن أسر الشيطان الأركون",
-      "English": "You are called the Mother of God our Creator,,\nO Mary the daughter of Zion,,\nHe was incarnate of you and He saved us,,\nFrom the captivity of the Devil."
+      "English": "You are called the Mother of God our Creator,\nO Mary the daughter of Zion,\nHe was incarnate of you and He saved us,\nFrom the captivity of the Devil."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "عمانوئيل هو صار معنا,\nالله عالم بما سيكون,\nورضعتيه يا شفيعتنا,\nمن لبنك شبه البشريون",
-      "English": "Immanuel dwelt with us,,\nAs a God knowing what will happen,,\nYou nursed Him O intercessor,,\nWith your milk like all humans."
+      "English": "Immanuel dwelt with us,\nAs a God knowing what will happen,\nYou nursed Him O intercessor,\nWith your milk like all humans."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "لأنه آتى ليخلصنا,\nوصنع أفعال البشريون,\nوليس كفعل الخطية,\nإبؤرو إن إيبورانيون",
-      "English": "For He came and saved us,,\nAnd acted like all humans,,\nBut He has never sinned,,\nThe heavenly King."
+      "English": "For He came and saved us,\nAnd acted like all humans,\nBut He has never sinned,\nThe heavenly King."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "تواضع كى يعلمنا,\nويجعلنا شعباً و بنون,\nوفى الأردن من يوحنا,\nتعمد وأعطانا الأربون",
-      "English": "He humbled Himself to teach us,,\nTo make us a nation and a family,,\nIn the Jordan with John He was baptized,,\nAnd gave us the pledge."
+      "English": "He humbled Himself to teach us,\nTo make us a nation and a family,\nIn the Jordan with John He was baptized,\nAnd gave us the pledge."
     },
     {
       "Type": "Melody",
@@ -41,7 +41,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وأراد أن يُصلب عنا,\nويخلص من كان مسجون,\nوأخذ شكل طبيعتنا,\nوصًلِبَ عند الإقرانيون",
-      "English": "He willed to be crucified for us,,\nTo save him who was captive,,\nAnd He took our nature,,\nAnd was crucified on Golgotha."
+      "English": "He willed to be crucified for us,\nTo save him who was captive,\nAnd He took our nature,\nAnd was crucified on Golgotha."
     },
     {
       "Type": "Melody",
@@ -49,7 +49,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ومن شعبه قَبِلَ اللعنة,\nجنس اليهود الذين جحدون,\nوجعلوا فى جنبه الطعنة,\nوصاروا به مستهزئون",
-      "English": "He accepted the curse on His own,,\nThe Jews the disbelieving people,,\nPierced Him in His side,,\nAnd they mocked Him."
+      "English": "He accepted the curse on His own,\nThe Jews the disbelieving people,\nPierced Him in His side,\nAnd they mocked Him."
     },
     {
       "Type": "Melody",
@@ -57,15 +57,15 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وأسلم روحه سيدنا,\nونزل دمه لآدم ميرون,\nوهو الأن كائن معنا,\nأحيانا وبه صرنا فرحون",
-      "English": "He gave up His spirit,,\nHe descended to save Adam the prisoner,,\nAnd now He is with us,,\nHe revives us and we are joyful."
+      "English": "He gave up His spirit,\nHe descended to save Adam the prisoner,\nAnd now He is with us,\nHe revives us and we are joyful."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس",
-      "English": "Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior."
+      "Side": "Refrain",
+      "Arabic": "السلام لك ياست الأبكار\nيا مريم تى بارثينوس\nيامن حلَّ فى أحشاك وصار\nمخلصنا إيسوس بى إخريستوس",
+      "English": "Hail to you o Lady of virgins \n O Mary the Virgin \n Jesus Christ dwelt in your womb \n and became our Savior."
     }
   ]
 }

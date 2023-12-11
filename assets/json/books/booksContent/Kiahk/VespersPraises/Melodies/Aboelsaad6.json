@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "القبة وأوانيها,\nموسى كمَّلها تطريز,\nوالتابوت موضوع فيها,\nمطلىٌّ بالذهبِ الإبريز",
-      "English": "The tabernacle and its vessels,,\nMoses completed their making,,\nThe ark was placed in it,,\nOverlaid with pure gold."
+      "English": "The tabernacle and its vessels,\nMoses completed their making,\nThe ark was placed in it,\nOverlaid with pure gold."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "والألواح وما فيها,\nالقسط وفيه المن عزيز,\nوعن تفسير معانيها,\nإحتاروا أهل التمييز",
-      "English": "The tables and their contents,,\nThe pot in it the precious manna,,\nAbout their explanations,,\nThe interpreters were perplexed."
+      "English": "The tables and their contents,\nThe pot in it the precious manna,\nAbout their explanations,\nThe interpreters were perplexed."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "القبة الحقيقية,\nأعنى هى العذراء مريم,\nفاقت طبع البشرية,\nوقد حوت السرَّ الأعظم",
-      "English": "The true tabernacle,,\nThat is Mary the Virgin,,\nShe exalted above all humans,,\nAnd carried the great mystery."
+      "English": "The true tabernacle,\nThat is Mary the Virgin,\nShe exalted above all humans,\nAnd carried the great mystery."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "والطغمات العلوية,\nتَكِلُّ ولم تقدر تفهم,\nجميع ألسنة البشرية,\nفهى تصمت لم تتكلم",
-      "English": "The exalted ranks,,\nCould not comprehend,,\nAll human tongues,,\nWere silent and could not speak."
+      "English": "The exalted ranks,\nCould not comprehend,\nAll human tongues,\nWere silent and could not speak."
     },
     {
       "Type": "Melody",
@@ -41,15 +41,15 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مريم هى فخر الأمة,\nوهى فى العالم تحمينا,\nسفينة وصارت مهتمة,\nبنا توصلنا إلى الميناء",
-      "English": "Mary is the pride of the nation,,\nShe protects us in the world,,\nAn ark she is diligent,,\nTo take us the Harbor."
+      "English": "Mary is the pride of the nation,\nShe protects us in the world,\nAn ark she is diligent,\nTo take us the Harbor."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لكِ يا أم الرحمة,نحن عبيدك جيرينا,طوباكِ يامملؤة نعمة,عند أبنك الحبيب إشفعى فينا",
-      "English": "Hail to you O mother of mercy / we are your beloved pray acknowledge us / blessed are you O full of grace / before your Son intercede for us."
+      "Side": "Refrain",
+      "Arabic": "السلام لكِ يا أم الرحمة\nنحن عبيدك جيرينا\nطوباكِ يامملؤة نعمة\nعند أبنك الحبيب إشفعى فينا",
+      "English": "Hail to you O mother of mercy \n we are your beloved pray acknowledge us \n  blessed are you O full of grace \n before your Son intercede for us."
     }
   ]
 }

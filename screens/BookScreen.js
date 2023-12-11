@@ -112,7 +112,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
         fontFamily: fontfamily,
       },
     });
-  }, [navTitle, appLanguage, isTablet, navigation]);
+  }, [navTitle, appLanguage]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -169,9 +169,6 @@ const BookScreen = React.memo(({ navigation, route }) => {
       contentsSheetRef?.current.dismiss();
     }
   };
-  const copyText = (part) => {
-    console.log(part);
-  };
 
   const renderItems = ({ item }) => {
     const viewTypeMap = {
@@ -215,6 +212,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   if (isLoading) {
     return <LoadingScreen />;
   }
+  const keyExtractor = (item) => item.key;
 
   return (
     <BottomSheetModalProvider>
@@ -239,7 +237,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
         bounces={false}
         removeClippedSubviews={true}
         renderItem={renderItems}
-        keyExtractor={(item) => item.key}
+        keyExtractor={keyExtractor}
       />
       {bishopIsPresent && bishopButton && (
         <FloatingButton navigation={navigation} />

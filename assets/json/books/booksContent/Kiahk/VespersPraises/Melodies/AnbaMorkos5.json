@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "صرتِ سماء حقاً ثانِ,\nحملتِ الإله رب الصباؤوت,\nيامريم فخر الأكوانِ,\nسكن فيكِ حقاً بثبوت",
-      "English": "You truly became a second heaven,,\nYou carried the Lord of hosts,,\nO Mary the pride of women,,\nHe truly and firmly dwelt in you."
+      "English": "You truly became a second heaven,\nYou carried the Lord of hosts,\nO Mary the pride of women,\nHe truly and firmly dwelt in you."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وظهر منكِ شبه إنسانِ,\nأقنوماً واحداً من ثالوث,\nورضع من لبن الثديانِ,\nوعن الشيطان أخفى اللاهوت",
-      "English": "And appeared from you like a Man,,\nOne Person of the Trinity,,\nHe was nursed from your milk,,\nAnd hid His divinity from the Devil."
+      "English": "And appeared from you like a Man,\nOne Person of the Trinity,\nHe was nursed from your milk,\nAnd hid His divinity from the Devil."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وهيرودس قد صار حيرانِ,\nمن أجله قد أمرَ بالموت,\nلجميع الأطفال الصبيانِ,\nسكان بيت لحم وكل بيوت",
-      "English": "Herod became weary,,\nFor His sake he put to death,,\nAll male children who lived,,\nIn the houses of Bethlehem."
+      "English": "Herod became weary,\nFor His sake he put to death,\nAll male children who lived,\nIn the houses of Bethlehem."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وملاك الرب الروحانى,\nمضى ليوسف وناداه بالصوت,\nفى النوم قائلاً له ياإنسانِ,\nقُم بسرعة لمَّا الليل يفوت",
-      "English": "And the spiritual angel of the Lord,,\nCame to Joseph and called him,,\nIn his sleep saying \"O man,,\nHurry before the night passes."
+      "English": "And the spiritual angel of the Lord,\nCame to Joseph and called him,\nIn his sleep saying \"O man,\nHurry before the night passes."
     },
     {
       "Type": "Melody",
@@ -41,7 +41,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "خذ الطفل وصير هربانِ,\nأنت وأمه تنجو من الموت,\nمن هيرودس الملك الخوان,\nوكن إلى أرض مصر مبعوت",
-      "English": "Take the Child and flee,,\nWith His Mother to be saved from death,,\nBy King Herod the deceiver,,\nAnd go to the land of Egypt."
+      "English": "Take the Child and flee,\nWith His Mother to be saved from death,\nBy King Herod the deceiver,\nAnd go to the land of Egypt."
     },
     {
       "Type": "Melody",
@@ -49,7 +49,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وإمضِّ إلى تلك البلدانِ,\nلمَّا يفنى مُلكَهُ ويفوت,\nتعال وإرجع بالثانى,\nلمَّا يهلك ذلك الممقوت",
-      "English": "Leave now to those cities,,\nUntil his reign ends,,\nYou can come and return,,\nWhen the hated one is destroyed.\""
+      "English": "Leave now to those cities,\nUntil his reign ends,\nYou can come and return,\nWhen the hated one is destroyed.\""
     },
     {
       "Type": "Melody",
@@ -57,15 +57,15 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ويوسف كان غير كسلانِ,\nبسرعة جاب أتانا كان مربوط,\nورَكِّب فخر الأكوانِ,\nومعها مَن للخلقِ يقوت",
-      "English": "And Joseph was not lazy,,\nHe quickly took a colt,,\nAnd sat the Virgin upon it,,\nWith Him who cares for the creation."
+      "English": "And Joseph was not lazy,\nHe quickly took a colt,\nAnd sat the Virgin upon it,\nWith Him who cares for the creation."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لك ياست الأبكار,يا مريم تى بارثينوس,يامن حلَّ فى أحشاك وصار,مخلصنا إيسوس بى إخريستوس",
-      "English": "Hail to you o Lady of virgins/ O Mary the Virgin/ Jesus Christ dwelt in your womb/ and became our Savior."
+      "Side": "Refrain",
+      "Arabic": "السلام لك ياست الأبكار\nيا مريم تى بارثينوس\nيامن حلَّ فى أحشاك وصار\nمخلصنا إيسوس بى إخريستوس",
+      "English": "Hail to you o Lady of virgins \n O Mary the Virgin \n Jesus Christ dwelt in your womb \n and became our Savior."
     }
   ]
 }

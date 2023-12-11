@@ -9,7 +9,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "سماء ثانية جسدانية,\nدعيتى ياقبة الأنوار,\nشمس البر العظيمة,\nضياؤها شارق فى الأقطار",
-      "English": "The second bodily heaven,,\nYou were called of dome of lights,,\nThe rational Sun of righteousness,,\nYour light shines in the world."
+      "English": "The second bodily heaven,\nYou were called of dome of lights,\nThe rational Sun of righteousness,\nYour light shines in the world."
     },
     {
       "Type": "Melody",
@@ -17,7 +17,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ضياؤها شارق فى الأقطار,\nعلى الأرض وفى السموات,\nطوباكِ يازينة الأبكار,\nحملتِ الإله رب القوات",
-      "English": "Your light shines in the world,,\nOn earth and in heaven,,\nBlessed are you O beauty of first-born,,\nYou bore God Lord of hosts."
+      "English": "Your light shines in the world,\nOn earth and in heaven,\nBlessed are you O beauty of first-born,\nYou bore God Lord of hosts."
     },
     {
       "Type": "Melody",
@@ -25,7 +25,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "حملتِ الإله رب القوات,\nوصرت وسيطة لنا بالرضى,\nكما شهدوا على الآيات,\nشيوخ الزمان الذى قد مضى",
-      "English": "You bore God Lord of hosts,,\nYou became our intercessor willingly,,\nHow many witnessed of this sign,,\nThe elders of the past times."
+      "English": "You bore God Lord of hosts,\nYou became our intercessor willingly,\nHow many witnessed of this sign,\nThe elders of the past times."
     },
     {
       "Type": "Melody",
@@ -33,7 +33,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "شيوخ الزمان الذى قد مضى,\nنطقوا بشهادات وأمثال,\nوقالوا سوف يُبَدِّل غضبه بالرضى,\nويأتى فى عقب الأجيال",
-      "English": "The elders of the past times,,\nSpoke with witnesses and proverbs,,\nSaying He will change His wrath by His will,,\nAnd come in the fullness of time."
+      "English": "The elders of the past times,\nSpoke with witnesses and proverbs,\nSaying He will change His wrath by His will,\nAnd come in the fullness of time."
     },
     {
       "Type": "Melody",
@@ -41,7 +41,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ويأتى فى عقب الأجيال,\nالمولود من بِكر بتول تيبارثينوس,\nإفموتى إبيفران جى إممانوئيل,\nإبسوتى إمبى كوزموس",
-      "English": "And come in the fullness of time,,\nBorn of the pure first-born ti-parthenos,,\nAfmoti pef-ran je Emmanoeel,,\nEpsoti empi-kosmos."
+      "English": "And come in the fullness of time,\nBorn of the pure first-born ti-parthenos,\nAfmoti pef-ran je Emmanoeel,\nEpsoti empi-kosmos."
     },
     {
       "Type": "Melody",
@@ -49,7 +49,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "إبسوتى إمبى كوزموس,\nبين نوتى إن أليثينوس,\nبين سوتير إن أغاثوس,\nفى إيطاف إى افسوتى إممون",
-      "English": "Epsoti empi-kosmos,\nPen-Noti en ali-thenos,,\nPen-Soteer en-agha-thos,,\nFee etaf ee efsoti emmon."
+      "English": "Epsoti empi-kosmos,\nPen-Noti en ali-thenos,\nPen-Soteer en-agha-thos,\nFee etaf ee efsoti emmon."
     },
     {
       "Type": "Melody",
@@ -57,7 +57,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "فى إيطاف إى افسوتى إممون,\nبميلاده الإنسانى,\nقد جاد علينا بالأربون,\nبحميم الميلاد الثانى",
-      "English": "Fee etaf ee efsoti emmon,,\nBy His human birth,,\nHe granted unto us the promise,,\nBy the bathing of the second birth."
+      "English": "Fee etaf ee efsoti emmon,\nBy His human birth,\nHe granted unto us the promise,\nBy the bathing of the second birth."
     },
     {
       "Type": "Melody",
@@ -65,7 +65,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "بحميم الميلاد الثانى,\nأنون خانى إخريستيانوس,\nونحن نصيح بتراتيل وألحانِ,\nإنؤش إيفول إنجو إمموس",
-      "English": "By the bathing of the second birth,,\nAnon kha ni-ekhres-teianos,,\nWe all cry with songs and hymns,,\nEnosh evol engo emmos."
+      "English": "By the bathing of the second birth,\nAnon kha ni-ekhres-teianos,\nWe all cry with songs and hymns,\nEnosh evol engo emmos."
     },
     {
       "Type": "Melody",
@@ -73,7 +73,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "إنؤش إيفول إنجو إمموس,\nونسألك يازهرة الأطياب,\nأن تجودى علينا بالفردوس,\nوتجيرينا من نار وعذاب",
-      "English": "Enosh evol engo emmos,,\nWe ask you O flower of fragrance,,\nOpen to us the gate of paradise,,\nAnd save us from fire and suffering."
+      "English": "Enosh evol engo emmos,\nWe ask you O flower of fragrance,\nOpen to us the gate of paradise,\nAnd save us from fire and suffering."
     },
     {
       "Type": "Melody",
@@ -81,15 +81,15 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وتجيرينا من نار وعذاب,\nلأننا محسوبين عليكِ,\nطوباكِ ياأم وحيد الآب,\nالسلام لكِ ثم السلام إليكِ",
-      "English": "And save us from fire and suffering,,\nFor we are counted for you, blessed are you,,\nMother of only-begotten of the Father,,\nHail to you and hail unto you."
+      "English": "And save us from fire and suffering,\nFor we are counted for you, blessed are you,\nMother of only-begotten of the Father,\nHail to you and hail unto you."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "السلام لك ثم السلام إليك,ونسألك ياأم المحبوب,أن تحظينا فى مظال أبائك,إبراهيم وإسحق ويعقوب",
-      "English": "Hail to you and hail unto you, we ask you O Mother of the Beloved, grant us to be in your fathers dwellings, Abraham Isaac and Jacob."
+      "Side": "Refrain",
+      "Arabic": "السلام لك ثم السلام إليك\nونسألك ياأم المحبوب\nأن تحظينا فى مظال أبائك\nإبراهيم وإسحق ويعقوب",
+      "English": "Hail to you and hail unto you\n we ask you O Mother of the Beloved\n grant us to be in your fathers dwellings\n Abraham Isaac and Jacob."
     }
   ]
 }

@@ -78,12 +78,12 @@ const SundayThetokiaWeekdaysPraisesRule = (motherSource, path) => {
 const TheotokiaVisible = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const timeTransition = useSelector((state) => state.settings.timeTransition);
-
-  const today = currentSeason.dayOfWeek;
-  const yesterday =
-    currentSeason.dayOfWeek === 0 ? 6 : currentSeason.dayOfWeek - 1;
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
   const timeOfDay = moment().hour();
+
+  const today = currentSeason.dayOfWeek;
+  const yesterday = today === 0 ? 6 : today - 1;
+
   const dayOfWeekToPath = {
     0: "sunday",
     1: "monday",
@@ -93,15 +93,18 @@ const TheotokiaVisible = (motherSource, path) => {
     5: "friday",
     6: "saturday",
   };
-  if (motherSource?.toLowerCase().includes("vesperspraises")) {
-    if (timeOfDay < new Date(timeTransition).getHours()) {
-      return path?.includes(dayOfWeekToPath[today]);
-    } else {
-      return path?.includes(dayOfWeekToPath[yesterday]);
-    }
-  } else {
-    return path?.includes(dayOfWeekToPath[today]);
+
+  const isVespersPraises = motherSource
+    ?.toLowerCase()
+    .includes("vesperspraises");
+
+  if (isVespersPraises) {
+    const selectedDay =
+      timeOfDay < new Date(timeTransition).getHours() ? today : yesterday;
+    return path?.includes(dayOfWeekToPath[selectedDay]);
   }
+
+  return path?.includes(dayOfWeekToPath[today]);
 };
 
 const isStandard = (motherSource, path) => {
@@ -565,27 +568,22 @@ const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
 
-  if (isLentenVespersPraises()) {
-    if (todayPrayer) {
-      const { week } = currentSeason;
-      const weekKeywords = [
-        "first",
-        "second",
-        "third",
-        "fourth",
-        "fifth",
-        "sixth",
-      ];
+  if (isLentenVespersPraises() && !todayPrayer) {
+    const { week } = currentSeason;
+    const weekKeywords = [
+      "first",
+      "second",
+      "third",
+      "fourth",
+      "fifth",
+      "sixth",
+    ];
 
-      // Check if path includes any of the weekKeywords based on the current week
-      return weekKeywords.some(
-        (keyword) =>
-          path.toLowerCase()?.includes(keyword) &&
-          path.toLowerCase()?.includes(week.toString())
-      );
-    } else {
-      return true;
-    }
+    return weekKeywords.some(
+      (keyword) =>
+        path.toLowerCase()?.includes(keyword) &&
+        path.toLowerCase()?.includes(week.toString())
+    );
   }
 
   return false;
@@ -698,21 +696,11 @@ const isWatos = (motherSource, path) => {
 const isAdam = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
-  if (currentSeason.type === "feast") {
-    return false;
-  }
-
-  // If any of the conditions is not met, return false
   if (
-    currentSeason.isWatos === true ||
+    currentSeason.type === "feast" ||
+    currentSeason.isWatos ||
     !isNOTLentWeekdayOrJonah(motherSource, path) ||
-    isBigFeast(motherSource, path)
-  ) {
-    return false;
-  }
-
-  // Check specific conditions to determine if it is "Adam"
-  if (
+    isBigFeast(motherSource, path) ||
     (motherSource === "vespers" && currentSeason.dayOfWeek === 0) ||
     motherSource === "ThursdayDayFirstHourMain"
   ) {
@@ -740,7 +728,10 @@ const showArchangelMichaelAndGabriel = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const { key, dayOfWeek } = currentSeason;
 
-  if (motherSource === "ThursdayDayFirstHourMain") {
+  if (
+    motherSource === "ThursdayDayFirstHourMain" ||
+    (key === "GREAT_LENT" && (dayOfWeek === 6 || dayOfWeek === 7))
+  ) {
     return true;
   }
 
@@ -751,11 +742,8 @@ const showArchangelMichaelAndGabriel = (motherSource, path) => {
     "PENTECOST",
     "RESURRECTION",
   ];
-  if (nonArchangelSeasons?.includes(key)) {
-    return false;
-  }
 
-  if (key === "GREAT_LENT" && dayOfWeek !== 6 && dayOfWeek !== 7) {
+  if (nonArchangelSeasons.includes(key)) {
     return false;
   }
 
