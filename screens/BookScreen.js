@@ -169,6 +169,9 @@ const BookScreen = React.memo(({ navigation, route }) => {
       contentsSheetRef?.current.dismiss();
     }
   };
+  const copyText = (part) => {
+    console.log(part);
+  };
 
   const renderItems = ({ item }) => {
     const viewTypeMap = {

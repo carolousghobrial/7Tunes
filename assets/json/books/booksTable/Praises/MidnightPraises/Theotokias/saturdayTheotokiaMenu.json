@@ -106,34 +106,44 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsRomi1",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير الرومي الأول",
+            "English": "The First Greek Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsRomi1"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsMoakab1",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير المعقب الأول",
+            "English": "The First Moaqap Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsMoakab1"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAboelsaad1",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الأولى من نظم المعلم أبو السعد الأبوتيجى",
+            "English": "The First Explanation of Abou El-Saad of Aboutig ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad1"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesGhobrial1",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الأولى من نظم المعلم غبريال القايى",
+            "English": "The First Explanation of Cantor Ghobrial Qay ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesGhobrial1"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos1",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الأولى من نظم البطريرك الأب مرقس",
+            "English": "The First Explanation of Pope Abba Markos ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos1"
         },
         {
             "Type": "Main",
@@ -148,34 +158,44 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsRomi2",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير الرومي الثاني",
+            "English": "The Second Greek Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsRomi2"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsMoakab2",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير المعقب الثاني",
+            "English": "The Second Moaqap Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsMoakab2"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAboelsaad2",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الثانية من نظم المعلم أبو السعد الأبوتيجى",
+            "English": "The Second Explanation of Abou El-Saad of Aboutig ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad2"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesGhobrial2",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الثانية من نظم المعلم غبريال القايى",
+            "English": "The Second Explanation of Cantor Ghobrial Qay ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesGhobrial2"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos2",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الثانية من نظم البطريرك الأب مرقس",
+            "English": "The Second Explanation of Pope Abba Markos ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos2"
         },
         {
             "Type": "Main",
@@ -190,34 +210,44 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsRomi3",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير الرومي الثالث",
+            "English": "The Third Greek Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsRomi3"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsMoakab3",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير المعقب الثالث",
+            "English": "The Third Moaqap Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsMoakab3"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAboelsaad3",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الثالثة من نظم المعلم أبو السعد الأبوتيجى",
+            "English": "The Second Explanation of Abou El-Saad of Aboutig ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad3"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesGhobrial3",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الثالثة من نظم المعلم غبريال القايى",
+            "English": "The Third Explanation of Cantor Ghobrial Qay ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesGhobrial3"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos3",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الثالثة من نظم البطريرك الأب مرقس",
+            "English": "The Third Explanation of Pope Abba Markos ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos3"
         },
         {
             "Type": "Main",
@@ -232,34 +262,44 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsRomi4",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير الرومي الرابع",
+            "English": "The Fourth Greek Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsRomi4"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsMoakab4",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير المعقب الرابع",
+            "English": "The Fourth Moaqap Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsMoakab4"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAboelsaad4",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الرابعة من نظم المعلم أبو السعد الأبوتيجى",
+            "English": "The Fourth Explanation of Abou El-Saad of Aboutig ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad4"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesGhobrial4",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الرابعة من نظم المعلم غبريال القايى",
+            "English": "The Fourth Explanation of Cantor Ghobrial Qay ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesGhobrial4"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos4",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الرابعة من نظم البطريرك الأب مرقس",
+            "English": "The Fourth Explanation of Pope Abba Markos ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos4"
         },
         {
             "Type": "Main",
@@ -274,34 +314,44 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsRomi5",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير الرومي الخامس",
+            "English": "The Fifth Greek Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsRomi5"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsMoakab5",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير المعقب الخامس",
+            "English": "The Fifth Moaqap Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsMoakab5"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAboelsaad5",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الخامسة من نظم المعلم أبو السعد الأبوتيجى",
+            "English": "The Fifth Explanation of Abou El-Saad of Aboutig ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad5"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesGhobrial5",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الخامسة من نظم المعلم غبريال القايى",
+            "English": "The Fifth Explanation of Cantor Ghobrial Qay ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesGhobrial5"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos5",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الخامسة من نظم البطريرك الأب مرقس",
+            "English": "The Fifth Explanation of Pope Abba Markos ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos5"
         },
         {
             "Type": "Main",
@@ -316,34 +366,44 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsRomi6",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير الرومي السادس",
+            "English": "The Sixth Greek Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsRomi6"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsMoakab6",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير المعقب السادس",
+            "English": "The Sixth Moaqap Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsMoakab6"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAboelsaad6",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة السادسة من نظم المعلم أبو السعد الأبوتيجى",
+            "English": "The Sixth Explanation of Abou El-Saad of Aboutig ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad6"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesGhobrial6",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة السادسة من نظم المعلم غبريال القايى",
+            "English": "The Sixth Explanation of Cantor Ghobrial Qay ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesGhobrial6"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos6",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة السادسة من نظم البطريرك الأب مرقس",
+            "English": "The Sixth Explanation of Pope Abba Markos ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos6"
         },
         {
             "Type": "Main",
@@ -358,34 +418,44 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsRomi7",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير الرومي السابع",
+            "English": "The Seventh Greek Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsRomi7"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsMoakab7",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير المعقب السابع",
+            "English": "The Seventh Moaqap Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsMoakab7"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAboelsaad7",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة السابعة من نظم المعلم أبو السعد الأبوتيجى",
+            "English": "The Seventh Explanation of Abou El-Saad of Aboutig ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad7"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesGhobrial7",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة السابعة من نظم المعلم غبريال القايى",
+            "English": "The Seventh Explanation of Cantor Ghobrial Qay ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesGhobrial7"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos7",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة السابعة من نظم البطريرك الأب مرقس",
+            "English": "The Seventh Explanation of Pope Abba Markos ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos7"
         },
         {
             "Type": "Main",
@@ -400,34 +470,44 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsRomi8",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير الرومي الثامن",
+            "English": "The Eighth Greek Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsRomi8"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsMoakab8",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير المعقب الثامن",
+            "English": "The Eighth Moaqap Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsMoakab8"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAboelsaad8",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الثامنة من نظم المعلم أبو السعد الأبوتيجى",
+            "English": "The Eighth Explanation of Abou El-Saad of Aboutig ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad8"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesGhobrial8",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الثامنة من نظم المعلم غبريال القايى",
+            "English": "The Eighth Explanation of Cantor Ghobrial Qay ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesGhobrial8"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos8",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة الثامنة من نظم البطريرك الأب مرقس",
+            "English": "The Eighth Explanation of Pope Abba Markos ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos8"
         },
         {
             "Type": "Main",
@@ -442,34 +522,44 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsRomi9",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير الرومي التاسع",
+            "English": "The Ninth Greek Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsRomi9"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesHymnsMoakab9",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "التفسير المعقب التاسع",
+            "English": "The Ninth Moaqap Explanation ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesHymnsMoakab9"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAboelsaad9",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة التاسعة من نظم المعلم أبو السعد الأبوتيجى",
+            "English": "The Ninth Explanation of Abou El-Saad of Aboutig ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAboelsaad9"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesGhobrial9",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة التاسعة من نظم المعلم غبريال القايى",
+            "English": "The Ninth Explanation of Cantor Ghobrial Qay ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesGhobrial9"
         },
         {
-            "Type": "Main",
-            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos9",
-            "Rule": 0,
-            "Visible": "isKiahkVespersPraises"
+            "Type": "Button",
+            "Arabic": "القطعة التاسعة من نظم البطريرك الأب مرقس",
+            "English": "The Ninth Explanation of Pope Abba Markos ",
+            "Rule": "OpenSinglePage",
+            "Visible": "isKiahkVespersPraises",
+            "Path": "KiahkVespersPraisesMelodiesAnbaMorkos9"
         },
         {
             "Type": "Main",
