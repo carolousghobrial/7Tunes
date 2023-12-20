@@ -9,8 +9,11 @@ import {
   Pressable,
   useWindowDimensions,
 } from "react-native";
-import images from "../../helpers/imageHelpers";
+import bookPaths from "../../helpers/bookPathsHelpers";
 
+import images from "../../helpers/imageHelpers";
+import * as Print from "expo-print";
+import { shareAsync } from "expo-sharing";
 import { Entypo } from "@expo/vector-icons";
 
 import {
@@ -55,6 +58,76 @@ function TitleView({ item, navigation }) {
       }
     }
   }
+
+  const printToFile = async () => {
+    // On iOS/android prints the given html. On web prints the HTML from the current page.
+    const book = bookPaths[item.Path];
+
+    //     let html = `
+    // <html>
+    //   <head>
+    //     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    // <style>
+    //      @font-face {
+    //         font-family: 'Shenouda';
+    //         src: local('Shenouda'), url('../../assets/fonts/Shenouda.ttf') format('truetype');
+    //       }
+    //       h1{
+    //          font-family: Shenouda
+    //       }
+    //     </style>
+    //   </head>
+    //   <body style="text-align: center;">
+    //     <h1 >
+    //       ${book.CopticTitle}
+    //     </h1>
+    // `;
+    //     book.Hymn.forEach((part) => {
+    //       html += `
+    //       <div>
+    //         <div style="display: flex;">
+    //           <p style="font-size: 12px; font-weight: normal; ">
+    //             ${part.Arabic}
+    //           </p>
+    //           <p>
+    //             ${part.Coptic}
+    //           </p>
+    //           <p style="font-size: 12px; font-family: Helvetica Neue; font-weight: normal;">
+    //             ${part.English}
+    //           </p>
+    //           <!-- Add your content here for each hymn -->
+    //         </div>
+    //       </div>
+    //       `;
+    //     });
+
+    //     html += `
+    //         </body>
+    //       </html>
+    //     `;
+
+    let html = `
+    <html>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <style>
+         @font-face {
+            font-family: 'Shenouda';
+            src: local('Shenouda'), url('../../assets/fonts/Shenouda.ttf') format('truetype');
+          }
+     </style>
+      </head>
+      <body style="text-align: center;">
+        <h1 style="font-family: Shenouda;">
+          ${book.CopticTitle}
+        </h1>
+          </body>
+         </html>
+  `;
+    const { uri } = await Print.printToFileAsync({ html });
+    console.log("File has been saved to:", uri);
+    await shareAsync(uri, { UTI: ".pdf", mimeType: "application/pdf" });
+  };
   return (
     <View
       style={[
@@ -140,6 +213,9 @@ function TitleView({ item, navigation }) {
           )}
         </Pressable>
       ) : null}
+      {/* <Pressable onPress={printToFile}>
+        <Text>PRINT</Text>
+      </Pressable> */}
     </View>
   );
 }

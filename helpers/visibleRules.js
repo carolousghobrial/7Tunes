@@ -31,13 +31,17 @@ const TennavRule = (motherSource, path) => {
       return true;
     case "NATIVITY_FAST":
       if (
-        !currentSeason.copticMonth === "Koiahk" ||
-        !TakeFromHathor(currentSeason)
+        currentSeason.copticMonth === "Koiahk" ||
+        TakeFromHathor(currentSeason)
       ) {
-        if (currentSeason.dayOfWeek === 0) {
-          return true;
-        }
+        return false;
       }
+
+      if (currentSeason.dayOfWeek === 0) {
+        return true;
+      }
+
+      // Default case
       return false;
 
     default:
@@ -547,15 +551,19 @@ const isKiahkWeek = (motherSource, path) => {
   const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
   if (
     isWeek1to4 &&
-    currentSeason.key !== "NATIVITY_PARAMOUN" &&
-    currentSeason.key === "NATIVITY_FAST"
+    currentSeason.key === "NATIVITY_FAST" &&
+    currentSeason.key !== "NATIVITY_PARAMOUN"
   ) {
     if (isTakeFromHathor && isKoiahkMonth) {
-      const weekNum =
-        currentSeason.weekOfMonth + 1 > 4
-          ? currentSeason.weekOfMonth + 1
-          : currentSeason.weekOfMonth;
-      return path.toLowerCase().includes(weekNum);
+      if (currentSeason.dayOfWeek === 0) {
+        if (currentSeason.weekOfMonth + 1 <= 4) {
+          return path.toLowerCase().includes(currentSeason.weekOfMonth + 1);
+        } else {
+          return path.toLowerCase().includes(currentSeason.weekOfMonth);
+        }
+      } else {
+        return path.toLowerCase().includes(currentSeason.weekOfMonth);
+      }
     } else {
       return path.toLowerCase().includes(currentSeason.weekOfMonth);
     }

@@ -127,19 +127,29 @@ export const ComeRisenRule = () => {
       };
     case "NATIVITY_FAST":
       if (
-        !currentSeason.copticMonth === "Koiahk" ||
-        !TakeFromHathor(currentSeason)
+        currentSeason.copticMonth === "Koiahk" ||
+        TakeFromHathor(currentSeason)
       ) {
-        if (today === 0) {
-          return {
-            english: "have risen",
-            coptic: "aktwnk",
-            arabic: "قمت",
-            englishcoptic: "aktonk",
-            arabiccoptic: "اكتونك",
-          };
-        }
+        return {
+          english: "have come",
+          coptic: "ak`i",
+          arabic: "اتيت",
+          englishcoptic: "ak-ee",
+          arabiccoptic: "اك إي",
+        };
       }
+
+      if (today === 0) {
+        return {
+          english: "have risen",
+          coptic: "aktwnk",
+          arabic: "قمت",
+          englishcoptic: "aktonk",
+          arabiccoptic: "اكتونك",
+        };
+      }
+
+      // Default case
       return {
         english: "have come",
         coptic: "ak`i",

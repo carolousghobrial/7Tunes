@@ -16,6 +16,12 @@
       "Englishcoptic": "Pi-Laos:"
     },
     {
+      "Type": "Main",
+      "Path": "JeEfesmarot",
+      "Rule": 0,
+      "Visible": true
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,

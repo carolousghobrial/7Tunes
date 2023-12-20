@@ -160,6 +160,7 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
         Coptic: CopticTitle,
         English: EnglishTitle,
         Switch: switchWord,
+        Path: Path,
       },
       key,
     });

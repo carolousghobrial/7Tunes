@@ -1,5 +1,11 @@
 import { StyleSheet } from "react-native";
-import { View, Text, ImageBackground, useWindowDimensions } from "react-native";
+import {
+  View,
+  Text,
+  ImageBackground,
+  Pressable,
+  useWindowDimensions,
+} from "react-native";
 import {
   getLanguageValue,
   getFontSize,
