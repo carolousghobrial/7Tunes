@@ -12,7 +12,6 @@ import {
 import bookPaths from "../../helpers/bookPathsHelpers";
 
 import images from "../../helpers/imageHelpers";
-import { shareAsync } from "expo-sharing";
 import { Entypo } from "@expo/vector-icons";
 
 import {
