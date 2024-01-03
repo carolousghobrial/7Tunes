@@ -35,6 +35,12 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesNativityParamoune",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordLiturgyGospelResponsesNativityGospelResponse",
             "Rule": 0,
             "Visible": "isSeason"

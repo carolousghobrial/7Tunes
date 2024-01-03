@@ -46,6 +46,12 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsNativityParamoun",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsNativity",
             "Rule": 0,
             "Visible": "isSeason"

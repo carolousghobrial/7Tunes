@@ -50,6 +50,12 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosNativityParamoun",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosNativity",
             "Rule": 0,
             "Visible": "isSeason"

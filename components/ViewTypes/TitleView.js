@@ -188,7 +188,7 @@ function TitleView({ item, navigation }) {
                 source={images["liturgyofStGregory"]}
               />
               <View style={[styles.swapTextView, { flexDirection: flex }]}>
-                <Entypo name="swap" size={24} color="black" />
+                <Entypo name="swap" size={24} color={getColor("LabelColor")} />
                 <Text
                   style={[styles.SwitchText, { color: getColor("LabelColor") }]}
                 >
@@ -200,7 +200,7 @@ function TitleView({ item, navigation }) {
             <View style={[styles.switchView, { flexDirection: Switchflex }]}>
               <Image style={styles.image} source={images["liturgyofStBasil"]} />
               <View style={[styles.swapTextView, { flexDirection: flex }]}>
-                <Entypo name="swap" size={24} color="black" />
+                <Entypo name="swap" size={24} color={getColor("LabelColor")} />
                 <Text
                   style={[styles.SwitchText, { color: getColor("LabelColor") }]}
                 >
@@ -235,6 +235,8 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontStyle: "italic",
     justifyContent: "center",
+    textDecorationLine: "underline",
+
     alignContent: "center",
   },
   image: {

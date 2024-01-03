@@ -563,11 +563,15 @@ export function TakeFromHathorTwo(currentSeason) {
 function GetTodaysReadingPath(path) {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   let filePath = "Katamaros";
-
+  console.log(currentSeason.key);
   const isStandardSeasonSunday =
     currentSeason.key !== "GREAT_LENT" &&
     currentSeason.key !== "HOLY_50" &&
-    currentSeason.dayOfWeek === 0;
+    currentSeason.dayOfWeek === 0 &&
+    currentSeason.key !== "NATIVITY" &&
+    currentSeason.key !== "EPIPHANY" &&
+    currentSeason.key !== "PALM_SUNDAY" &&
+    currentSeason.key !== "RESURRECTION";
 
   if (isStandardSeasonSunday) {
     const isHathorMonth = currentSeason.copticMonth === "Hathor";
@@ -618,6 +622,7 @@ function GetTodaysReadingPath(path) {
 
 function getAuthor(part, checkList) {
   const completePath = GetTodaysReadingPath(part.mother);
+  console.log(part);
   if (completePath === "Katamaros") {
     return "NONE";
   }

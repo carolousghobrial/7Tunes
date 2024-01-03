@@ -1,0 +1,118 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية برمون عيد الميلاد المجيد",
+  "EnglishTitle": "Doxology for the Paramoun of Nativity",
+  "CopticTitle": "Ainau `e;`kthcic thrc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رأيت الخليقة كلها اليوم مضيئة بلمعان عظيم، من اجل الظهور الإلهى، الذى اعلن لنا.",
+      "Coptic": "Ainau `e;`kthcic thrc `mvo`ou> `cerlampin =en `ouni]; `n`ou`wini> eqbe ;ni]; `nqe`wria> `etau`ou`wn\\ nan `ebol.",
+      "English": "Today all the creations, saw a great illuminating light, because the divine appearance, that was revealed to us.",
+      "Arabiccoptic": "أيناڤ إى تى إكتيسيس تيرس إمفوؤ، إسئير لامبين هخين أو نيشتى إنؤ أوينى، إث ڤى تى نيشتى إنثيؤريا، إيطاف أوؤنه نان إيڤول.",
+      "Englishcoptic": "Ainav eti-ekteesis teers emvo-oo: eserlampi-n khen -ooni-shti- en-oo-ooini-: ethve ti-ni-shti- enthe-ooria: etav-oo-oonh nan evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأن غير المتجسد تجسد، ولدته العذراء، مثل كل احد، إلهاً وانسانا.",
+      "Coptic": " Je pi`atcarz afsicar[> acmacf `nje ;Parqenoc> `m`vrh; `n`ou`on niben> ef`oi `nnou; ef`oi `nrwmi.",
+      "English": "For the Incorporeal was incarnate, and the Virgin gave birth to Him, like everyone else, but as God as well as man.",
+      "Arabiccoptic": "چى بى أتساركس أفتشى ساركس، أسماسف إنچى تى بارثينوس، إمفريتى إنؤؤن نيڤين، افؤى ان نوتى إفؤى إنرومى.",
+      "Englishcoptic": "Je pi-atsarz afchisarx: asmasf en-je ti-Parthen-os: emevreeti- en-oo-on ni-ven-: ef-oi en-nooti- ef-oi en-roomi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بيت لحم مدينة داود، تفتخر بتهليل، لأنها حملت جسديا، الذى على الشاروبيم.",
+      "Coptic": "Bhqleem `q`baki `nDauid> ]ou]ou `mmoc =en `ouqelhl> je acfai cwmatikoc> =a vh`et\\ijen niXeroubim.",
+      "English": "Bethlehem the city of David, takes pride with joy, for she received to herself in the flesh, He who is on the Cherubim.",
+      "Arabiccoptic": "فيثليئيم إثڤاكى إنداڤيد، شوشو إمموس خين أو ثيليل، چى أسفاى سوماتيكوس، خافى إتهيچين نى شيروبيم.",
+      "Englishcoptic": "Veethleem ethevaki en-Daviz: shooshoo emmos khen- -ootheleel: je asfai soomati-kos: kha vee-ethijen- ni-Sheroovim."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الكائن الذى كان، والمبدع وحده، القاطع رباط الخطية، لُف بخرق.",
+      "Coptic": " Vh`et]op vh`enaf]op> ouo\\ piRefcwnt `mmauatf> vh`etcwlp `n`cnau\\ `nte `vnobi> aukoulwlf `n\\antwici.",
+      "English": "THE BEING before the ages, the only Creator, the destroyer of the bond of sin, was wrapped in sackcloth.",
+      "Arabiccoptic": "في إتشوب في إيناف شوب، أووه بى ريفسونت إمما ڤاطف، فى إتسولب إن اسناڤه إنتى افنوتى، آف كولولف إنهان تويسى.",
+      "Englishcoptic": "Vee-etshop vee-en-afshop: owoh pi-Refsoont emmavatf: vee-etsoolp en-esnavh en-te evnovi: avkooloolf en-hantooisi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "العذراء مريم، ويوسف وسالومى، تعجبوا جداً، ممن رأوه.",
+      "Coptic": ":Parqenoc Mariam> nem Iwchv nem Calwmi> au`er`]vhri `ema]w> eqbe nh`etaunau `erw`ou.",
+      "English": "Mary the Virgin, and Joseph and Salome, marveled very much, when they saw Him.",
+      "Arabiccoptic": "تى بارثينوس ماريام، نيم يوسيف نيم سالومى، أفئير إشفيرى إيماشو، اثڤى نى إيطاڤ ناڤ إيروؤ.",
+      "Englishcoptic": "TiParthen-os Mariam: nem Youssef nem Saloomi: av-ereshveeri emashoo: ethve nee-etavnav eroo-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "العساكر السماوية، تسبح على الأرض منشده، بهذا التسبيح المقدس، صارخه قائلة.",
+      "Coptic": " Ni`ctratia `nte nivhou`i> eu`er\\umnoc \\ijen pika\\i> eujw `ntai \\umnoc e̅q̅u̅> euw] `ebol eujw `mmoc.",
+      "English": "The heavenly hosts, praise on earth, this holy song, proclaiming and saying.",
+      "Arabiccoptic": "نى سيتراتيا انتى نى فيؤيى، إڤئير هيمنوس هيجين بى كاهى، إفجو إنطاى هيمنوس إثؤاب، إڤؤش إيڤول إڤجو إمموس.",
+      "Englishcoptic": "Niestrati-a en-te ni-veeoo-ee: ev-erheemnos hijen- pi-kahi: evgoo en-tai heemnos e̅th̅ee̅: evoosh evol evgoo emmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجد لله فى الأعالى، وعلى الأرض السلام، وفى الناس المسرة، لأنه اتى وخلصنا.",
+      "Coptic": "Je `ou`w`ou =en nh`etsoci `mV;> nem `ou\\irhnh \\ijen pika\\i> nem `ou;ma; =en nirwmi> je af`i ouo\\ afcw; `mmon.",
+      "English": "Glory to God in the highest, peace on earth, and good will toward men, for He came and saved us.",
+      "Arabiccoptic": "چى أوو أو أوو خين نى إتيتشويسى إمفنوتى، نيم أو هيرينى هيچين بى كاهى، نيم أوتى ماتى خين نى رومى، چى أفئى أووه أفسوتى إممون.",
+      "Englishcoptic": "Ge -oo-oo-oo khen nee-etchosi emVti-: nem -oohireenee hijen pi-kahi: nem -ooti-mati- khen ni-roomi: je af-ee owoh afsooti- emmon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "الرعاة الذين فى الحقل، اتوا وسجدوا له، ونحن ايضاً نسجد له، ونشهد له.",
+      "Coptic": " Niman`ecw`ou et=en `tkoi> au`i ouo\\ au`ou`w]t `mmof> `anon \\wn ten`ou`w]t `mmof> ouo\\ `nten`ermeqre =arof.",
+      "English": "The shepherds in the fields, came and worshiped Him, and we too worship Him, and also testify.",
+      "Arabiccoptic": "نيمان إيسوؤ إتخين إتكوى، أفئى أووه أفوؤشت إمموف، آنون هون تيى أوؤشت إمموف، أووه إنتين إرميثرى خاروف.",
+      "Englishcoptic": "Niman-esoo-oo etkhen etkoi: av-ee owoh av-oo-oosht emmof: anon hoon ten-oo-oosht emmof: owoh enten-ermethre kharof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "انه اتى الى العالم، ووُلد من العذراء، وخلص جنسنا، من إبليس الشرير.",
+      "Coptic": "Je `nqof af`i `epikocmoc> afmacf `ebol =en ;Parqenoc> ouo\\ afcw; `mpengenoc> `ebol \\a pidiaboloc et\\w`ou.",
+      "English": "That He came into the world, and was born from the Virgin, and saved our race, from the evil Devil.",
+      "Arabiccoptic": "چى إنثوف أفئى إيبى كوزموس، افماسف ايڤول خين تى بارثينوس، أووه أفسوتى إمبين جينوس، إيڤول هابى ذيافولوس إتهوو.",
+      "Englishcoptic": "Ge en-thof af-ee epi-kosmos: afmasf evol khen- ti-Parthen-os: owoh afsooti- empen-gen-os: evol ha pi-ziavolos ethoo-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نسبحه ونمجده، ونزيده علواً، كصالح ومحب البشر، ارحمنا كعظيم رحمتك.",
+      "Coptic": " Ten\\wc `erof ten;`w`ou naf> ten`er\\ou`o sici `mmof> \\wc `agaqoc ouo\\ `mmairwmi> nai nan kata pekni]; `nnai.",
+      "English": "We praise and glorify Him, and exalt Him above all, as a good One and Lover of man, have mercy upon us according to Your great mercy.",
+      "Arabiccoptic": "تين هوس إيروف تين تى أو أوو ناف، تينير هوؤ تشيسى إمموف، هوس آغاثوس أووه إمماى رومى، ناى نان كاطا بيك نيشتى إن ناى.",
+      "Englishcoptic": "Ten-hoos erof ten-ti-oo-oo naf: ten-erhoo-o chisi emmof: hoos -aghathos owoh emmairoomi: nai nan kata pek-ni-shti- en-nai."
+    }
+  ]
+}

@@ -238,7 +238,7 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyDistributionMelodiesNativityParamoune",
+            "Path": "LiturgyDistributionMelodiesNativityParamoun",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -269,12 +269,6 @@
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesPentecost",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyDistributionMelodiesNativityParamoune",
             "Rule": 0,
             "Visible": "isSeason"
         },
@@ -343,6 +337,30 @@
             "Path": "LiturgyDistributionMelodiesYaOmAlnoor",
             "Rule": 0,
             "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing2",
+            "Rule": 0,
+            "Visible": true
         }
     ]
 }

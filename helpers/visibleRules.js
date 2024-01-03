@@ -260,6 +260,7 @@ const isSeason = (motherSource, path) => {
       }
       return false;
     case "NATIVITY_PARAMOUN":
+      console.log(path);
       if (
         path.toLowerCase()?.includes("nativity") &&
         path.toLowerCase()?.includes("paramoun")
@@ -268,12 +269,18 @@ const isSeason = (motherSource, path) => {
       }
       return false;
     case "NATIVITY":
-      if (path.toLowerCase()?.includes("nativity")) {
+      if (
+        path.toLowerCase()?.includes("nativity") &&
+        !path.toLowerCase()?.includes("paramoun")
+      ) {
         return true;
       }
       return false;
     case "EPIPHANY":
-      if (path.toLowerCase()?.includes("theophany")) {
+      if (
+        path.toLowerCase()?.includes("theophany") &&
+        !path.toLowerCase()?.includes("paramoun")
+      ) {
         return true;
       }
       return false;
@@ -599,7 +606,7 @@ const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
 
 const isMatins = (motherSource, path) => {
   return motherSource.toLowerCase()?.includes("matins") &&
-    isKiahkSeason(motherSource, path)
+    isKiahkSeason(motherSource, path) !== true
     ? true
     : false;
 };
@@ -1380,105 +1387,53 @@ const ShowSotees = (motherSource, path) => {
 };
 const firstKiahkGospelResponse = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const copticMonthFound = {
-    name: "Koiahk",
-    index: 3,
-    month: 12,
-    day: 10,
-    leap: true,
-  };
+  const { copticMonth, weekOfMonth, dayOfWeek, key } = currentSeason;
+  const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
 
-  const copticDate = getCopticDate(
-    currentSeason.gregorianYear,
-    copticMonthFound.month - 1,
-    copticMonthFound.day
-  );
+  let weekNUM = 0;
 
-  const firstDay = moment([
-    currentSeason.gregorianYear,
-    copticMonthFound.month - 1,
-    copticMonthFound.day +
-      (copticDate.month === "Hathor" && copticDate.day === 30 ? 1 : 0),
-  ]);
-
-  const lastDay = moment(
-    getParamounDate(moment([currentSeason.gregorianYear, 0, 7]))
-  );
-
-  let numSundays = 0;
-
-  for (
-    let currentDay = firstDay.clone();
-    currentDay.isBefore(lastDay);
-    currentDay.add(1, "day")
-  ) {
-    if (currentDay.day() === 0) {
-      numSundays++;
-    }
+  if (isWeek1to4() && key === "NATIVITY_FAST" && key !== "NATIVITY_PARAMOUN") {
+    weekNUM =
+      isTakeFromHathor && copticMonth === "Koiahk" && dayOfWeek === 0
+        ? Math.min(weekOfMonth + 1, 4)
+        : weekOfMonth;
+  } else if (isTakeFromHathor && copticMonth === "Hathor" && isWeek5) {
+    weekNUM = 1;
   }
 
-  if (
-    numSundays < 4 &&
-    ((currentSeason.copticMonth === "Hathor" &&
-      currentSeason.weekOfMonth === 5) ||
-      (currentSeason.copticMonth === "Koiahk" &&
-        currentSeason.weekOfMonth + 1 === 2))
-  ) {
-    return true;
-  }
+  return weekNUM >= 1 && weekNUM <= 2;
 
-  return false;
+  // Helper function to check if it's week 1 to 4
+  function isWeek1to4() {
+    return weekOfMonth >= 1 && weekOfMonth <= 4;
+  }
 };
 const secondKiahkGospelResponse = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const copticMonthFound = {
-    name: "Koiahk",
-    index: 3,
-    month: 12,
-    day: 10,
-    leap: true,
-  };
+  const isHathorMonth = currentSeason.copticMonth === "Hathor";
+  const isKoiahkMonth = currentSeason.copticMonth === "Koiahk";
+  const isWeek5 = currentSeason.weekOfMonth === 5;
 
-  const copticDate = getCopticDate(
-    currentSeason.gregorianYear,
-    copticMonthFound.month - 1,
-    copticMonthFound.day
-  );
+  const { copticMonth, weekOfMonth, dayOfWeek, key } = currentSeason;
+  const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
 
-  const firstDay = moment([
-    currentSeason.gregorianYear,
-    copticMonthFound.month - 1,
-    copticMonthFound.day +
-      (copticDate.month === "Hathor" && copticDate.day === 30 ? 1 : 0),
-  ]);
+  let weekNUM = 0;
 
-  const lastDay = moment(
-    getParamounDate(moment([currentSeason.gregorianYear, 0, 7]))
-  );
-
-  let numSundays = 0;
-
-  for (
-    let currentDay = firstDay.clone();
-    currentDay.isBefore(lastDay);
-    currentDay.add(1, "day")
-  ) {
-    if (currentDay.day() === 0) {
-      numSundays++;
-    }
+  if (isWeek1to4() && key === "NATIVITY_FAST" && key !== "NATIVITY_PARAMOUN") {
+    weekNUM =
+      isTakeFromHathor && isKoiahkMonth && dayOfWeek === 0
+        ? Math.min(weekOfMonth + 1, 4)
+        : weekOfMonth;
+  } else if (isTakeFromHathor && isHathorMonth && isWeek5) {
+    weekNUM = 1;
   }
 
-  if (
-    numSundays < 4 &&
-    currentSeason.copticMonth === "Koiahk" &&
-    (currentSeason.weekOfMonth + 1 === 3 ||
-      currentSeason.weekOfMonth + 1 === 4 ||
-      currentSeason.weekOfMonth === 4)
-  ) {
-    return true;
-  }
+  return weekNUM >= 3 && weekNUM <= 4;
 
-  return false;
+  // Helper function to check if it's week 1 to 4
+  function isWeek1to4() {
+    return weekOfMonth >= 1 && weekOfMonth <= 4;
+  }
 };
 
 export function TakeFromHathor(currentSeason) {

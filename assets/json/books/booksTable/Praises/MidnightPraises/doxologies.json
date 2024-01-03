@@ -71,6 +71,12 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesMajorFeastsNativityParamoun",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesMajorFeastsNativity",
             "Rule": 0,
             "Visible": "isSeason"
