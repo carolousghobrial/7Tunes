@@ -89,7 +89,7 @@ const Languages = {
     commentsOrQuestions: "Comment/Question",
     todayprayerdescription:
       "Today's Prayer options allows the application to automatically load the prayers/hymns said today rather than loading all the possible options",
-    NATIVITY: "Nativity",
+    NATIVITY: "Nativity Feast",
     EPIPHANY: "Theophany Feast",
     EPIPHANY_SECONDDAY: "2nd Day of Theophany Feast",
     NATIVITY_SECONDDAY: "2nd Day of Nativity Feast",

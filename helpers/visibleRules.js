@@ -260,7 +260,6 @@ const isSeason = (motherSource, path) => {
       }
       return false;
     case "NATIVITY_PARAMOUN":
-      console.log(path);
       if (
         path.toLowerCase()?.includes("nativity") &&
         path.toLowerCase()?.includes("paramoun")
@@ -729,6 +728,9 @@ const isNOTLentWeekdayOrJonah = (motherSource, path) => {
   if (motherSource === "ThursdayDayFirstHourMain") {
     return true;
   }
+  if (isBigFeast(motherSource, path)) {
+    return false;
+  }
   if (currentSeason.key === "JONAH_FAST") {
     return false;
   }
@@ -742,7 +744,9 @@ const isNOTLentWeekdayOrJonah = (motherSource, path) => {
 const showArchangelMichaelAndGabriel = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const { key, dayOfWeek } = currentSeason;
-
+  if (isBigFeast(motherSource, path)) {
+    return false;
+  }
   if (
     motherSource === "ThursdayDayFirstHourMain" ||
     (key === "GREAT_LENT" && (dayOfWeek === 6 || dayOfWeek === 7))
@@ -881,7 +885,10 @@ const hide = (motherSource, path) => {
 const VOCSaint = (motherSource, path) => {
   const saintSelected = getSaint(path);
 
-  if (isLentWeekdayOrJonah(motherSource, path)) {
+  if (
+    isLentWeekdayOrJonah(motherSource, path) ||
+    isBigFeast(motherSource, path)
+  ) {
     return false;
   }
 
@@ -930,37 +937,51 @@ const isApostlesFeast = (motherSource, path) => {
 const stMaryActsResponse = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
-  if (currentSeason.type === "feast") {
-    return false;
-  }
   if (
-    currentSeason.key === "GREAT_LENT" ||
-    currentSeason.key === "JONAH_FAST" ||
-    currentSeason.key === "NATIVITY_PARAMOUN"
+    currentSeason.type === "feast" ||
+    ["GREAT_LENT", "JONAH_FAST", "NATIVITY_PARAMOUN"].includes(
+      currentSeason.key
+    )
   ) {
     return false;
   }
+
   return true;
 };
 const ArchangelGabrielShow = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const saintSelected = getSaint("ARCHANGEL_GABRIEL");
+  const isBigFeastResult = isBigFeast(motherSource, path);
 
-  if (currentSeason.copticMonth === "Koiahk" || TakeFromHathor(currentSeason)) {
-    return true;
-  }
   if (
-    currentSeason.key === FeastEnum.ANNUNCIATION ||
-    currentSeason.key === FeastEnum.TWENTYNINTHTH_COPTIC_MONTH
+    (currentSeason.copticMonth === "Koiahk" ||
+      TakeFromHathor(currentSeason) ||
+      currentSeason.key === FeastEnum.ANNUNCIATION ||
+      currentSeason.key === FeastEnum.TWENTYNINTHTH_COPTIC_MONTH) &&
+    !isBigFeastResult
   ) {
+    console.log("DADAhhhhSD");
+
     return true;
   }
-  if (path?.toLowerCase().includes("ActsResponse")) {
-    return saintSelected.actsResponse;
-  } else if (path?.toLowerCase().includes("Hitens")) {
+  console.log("DADASD");
+  const lowerPath = path?.toLowerCase();
+
+  if (lowerPath.includes("ActsResponse")) {
+    return isBigFeastResult ? false : saintSelected.actsResponse;
+  } else if (lowerPath.includes("Hitens")) {
+    if (
+      currentSeason.key === FeastEnum.NATIVITY ||
+      currentSeason.key === FeastEnum.NATIVITY_SECONDDAY ||
+      currentSeason.key === FeastEnum.NATIVITY_PERIOD
+    ) {
+      return true;
+    }
     return saintSelected.intercessions;
-  } else if (path?.toLowerCase().includes("VersesOfCymbals")) {
-    return saintSelected.versesofCymbals;
+  } else if (lowerPath.includes("VersesOfCymbals")) {
+    console.log("DADASD");
+
+    return isBigFeastResult ? false : saintSelected.versesofCymbals;
   }
 };
 const JohnTheBaptistShow = (motherSource, path) => {
@@ -1007,21 +1028,20 @@ const getPlantsSeason = (motherSource, path) => {
 };
 const ISDioceseMetropolitain = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
   const BishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
 
-  if (dioceseBishop === undefined) {
+  if (!dioceseBishop) {
     return false;
   }
-  if (
-    dioceseBishop?.Rank === "Metropolitan" &&
-    (BishopIsPresent === true || motherSource.toLowerCase()?.includes("index"))
-  ) {
-    return true;
-  }
-  return false;
+
+  const isMetropolitan =
+    dioceseBishop.Rank === "Metropolitan" &&
+    (BishopIsPresent ||
+      (motherSource && motherSource.toLowerCase().includes("index")));
+
+  return isMetropolitan;
 };
 const ISDioceseMetropolitainAlways = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
@@ -1043,13 +1063,13 @@ const ISDioceseBishop = (motherSource, path) => {
   if (dioceseBishop === undefined) {
     return false;
   }
-  if (
-    dioceseBishop?.Rank === "Bishop" &&
-    (BishopIsPresent === true || motherSource.toLowerCase()?.includes("index"))
-  ) {
-    return true;
-  }
-  return false;
+
+  const isBishop =
+    dioceseBishop.Rank === "Bishop" &&
+    (BishopIsPresent ||
+      (motherSource && motherSource.toLowerCase().includes("index")));
+
+  return isBishop;
 };
 const ISDioceseBishopAlways = (motherSource, path) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
@@ -1320,6 +1340,7 @@ const IsNonFastingDays = (motherSource, path) => {
 const IsFastingDays = (motherSource, path) => {
   const timeTransition = useSelector((state) => state.settings.timeTransition);
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+
   if (
     (currentSeason.key === FeastEnum.FEAST_OF_CROSS ||
       currentSeason.key === FeastEnum.FEAST_OF_CROSS_3) &&
@@ -1327,12 +1348,14 @@ const IsFastingDays = (motherSource, path) => {
   ) {
     return true;
   }
+
   if (
     currentSeason.key === "GREAT_LENT" &&
     (currentSeason.dayOfWeek === 0 || currentSeason.dayOfWeek === 6)
   ) {
     return true;
   }
+
   if (
     currentSeason.key === "JONAH_FAST" ||
     (currentSeason.key === "GREAT_LENT" &&
@@ -1342,39 +1365,35 @@ const IsFastingDays = (motherSource, path) => {
     return false;
   }
 
-  if (!isInFast(timeTransition)) {
-    return false;
-  } else {
-    return currentSeason.dayOfWeek === 6 || currentSeason.dayOfWeek === 0
-      ? false
-      : true;
-  }
-
-  return false;
+  return (
+    isInFast(timeTransition) &&
+    currentSeason.dayOfWeek !== 6 &&
+    currentSeason.dayOfWeek !== 0
+  );
 };
 const StandardAgiosShow = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  switch (currentSeason.key) {
-    case "FEAST_OF_CROSS":
-    case "FEAST_OF_CROSS_3":
-    case "NATIVITY_PARAMOUN":
-    case "NATIVITY":
-    case "NATIVITY_SECONDDAY":
-    case "NATIVITY_PERIOD":
-    case "FEAST_OF_CIRCUMCISION":
-    case "EPIPHANY_PARAMOUN":
-    case "EPIPHANY":
-    case "EPIPHANY_SECONDDAY":
-    case FeastEnum.RESURRECTION:
-    case FeastEnum.HOLY_50:
-    case FeastEnum.THOMAS_SUNDAY:
-    case FeastEnum.ASCENSION:
-    case FeastEnum.ASCENSIONTOPENTECOST:
-    case FeastEnum.PENTECOST:
-      return false;
-    default:
-      return true;
-  }
+
+  const nonSpecialSeasons = [
+    "FEAST_OF_CROSS",
+    "FEAST_OF_CROSS_3",
+    "NATIVITY_PARAMOUN",
+    "NATIVITY",
+    "NATIVITY_SECONDDAY",
+    "NATIVITY_PERIOD",
+    "FEAST_OF_CIRCUMCISION",
+    "EPIPHANY_PARAMOUN",
+    "EPIPHANY",
+    "EPIPHANY_SECONDDAY",
+    FeastEnum.RESURRECTION,
+    FeastEnum.HOLY_50,
+    FeastEnum.THOMAS_SUNDAY,
+    FeastEnum.ASCENSION,
+    FeastEnum.ASCENSIONTOPENTECOST,
+    FeastEnum.PENTECOST,
+  ];
+
+  return !nonSpecialSeasons.includes(currentSeason.key);
 };
 const ShowSotees = (motherSource, path) => {
   if (
@@ -1451,16 +1470,17 @@ export function TakeFromHathor(currentSeason) {
     copticMonthFound.day
   );
 
-  let firstDay = moment([
+  const firstDay = moment([
     currentSeason.gregorianYear,
     copticMonthFound.month - 1,
     copticMonthFound.day +
       (copticDate.month === "Hathor" && copticDate.day === 30 ? 1 : 0),
   ]);
-  // Calculate the number of days in the month
+
   const lastDay = moment(
     getParamounDate(moment([currentSeason.gregorianYear, 0, 7]))
   );
+
   let numSundays = 0;
 
   for (
@@ -1472,15 +1492,13 @@ export function TakeFromHathor(currentSeason) {
       numSundays++;
     }
   }
+
   const lastSundayOfHathoor = firstDay.subtract(firstDay.day(), "days");
-  if (
+
+  return (
     numSundays < 4 &&
     lastSundayOfHathoor.isSame(moment(currentSeason.fullgregorianDate))
-  ) {
-    return true;
-  } else {
-    return false;
-  }
+  );
 }
 
 const VisibleRules = {

@@ -191,7 +191,7 @@ export function getCopticFastsFeasts(yearSelected, date) {
   } else {
     if (today.isBefore(nativity)) {
       var nativityFastStart = moment([yearSelected - 1, 10, 25]);
-      var nativityFastEnd = moment(nativityParamoun);
+      var nativityFastEnd = moment(nativityParamoun).subtract(1, "day");
     } else {
       var nativityFastStart = moment([yearSelected, 10, 25]);
       var nativityFastEnd = moment(
@@ -725,7 +725,6 @@ export function setCurrentSeasonLive(timeTransition) {
   );
   //  Tobe: 4,
   //Meshir: 5,
-
   var mycurrentSeason = {
     key: mySeason.key,
     start: mySeason.start,
@@ -860,7 +859,6 @@ export function getCurrentSeason(timeTransition) {
       collection.push(feast);
     }
   });
-
   if (collection.length === 0) {
     let type = "regular";
     if (todayDate.day() === 3 && todayDate.day() === 5) {

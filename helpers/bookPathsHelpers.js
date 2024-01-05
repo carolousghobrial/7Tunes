@@ -1736,6 +1736,16 @@ const bookPaths = {
   KatamarosSundaysKoiahkWeek4MatinsPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Koiahk/Week4/MatinsPsalm.json"),
   KatamarosSundaysKoiahkWeek4VespersGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Koiahk/Week4/VespersGospel.json"),
   KatamarosSundaysKoiahkWeek4VespersPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Koiahk/Week4/VespersPsalm.json"),
+  //Days
+  KatamarosDaysKoiahk29LiturgyActs: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyActs.json"),
+  KatamarosDaysKoiahk29LiturgyCatholic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyCatholic.json"),
+  KatamarosDaysKoiahk29LiturgyGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyGospel.json"),
+  KatamarosDaysKoiahk29LiturgyPauline: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyPauline.json"),
+  KatamarosDaysKoiahk29LiturgyPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyPsalm.json"),
+  KatamarosDaysKoiahk29MatinsGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/MatinsGospel.json"),
+  KatamarosDaysKoiahk29MatinsPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/MatinsPsalm.json"),
+  KatamarosDaysKoiahk29VespersGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/VespersGospel.json"),
+  KatamarosDaysKoiahk29VespersPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/VespersPsalm.json"),
 };
 
 export default bookPaths;

@@ -563,15 +563,16 @@ export function TakeFromHathorTwo(currentSeason) {
 function GetTodaysReadingPath(path) {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   let filePath = "Katamaros";
-  console.log(currentSeason.key);
   const isStandardSeasonSunday =
     currentSeason.key !== "GREAT_LENT" &&
     currentSeason.key !== "HOLY_50" &&
     currentSeason.dayOfWeek === 0 &&
-    currentSeason.key !== "NATIVITY" &&
-    currentSeason.key !== "EPIPHANY" &&
     currentSeason.key !== "PALM_SUNDAY" &&
     currentSeason.key !== "RESURRECTION";
+  const isStandardSeasonWeekday =
+    currentSeason.key !== "GREAT_LENT" &&
+    currentSeason.key !== "HOLY_50" &&
+    currentSeason.dayOfWeek !== 0;
 
   if (isStandardSeasonSunday) {
     const isHathorMonth = currentSeason.copticMonth === "Hathor";
@@ -580,8 +581,9 @@ function GetTodaysReadingPath(path) {
       currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4;
     const isWeek5 = currentSeason.weekOfMonth === 5;
     const isTakeFromHathorTwo = TakeFromHathorTwo(currentSeason);
-
-    if (isWeek1to4) {
+    if (currentSeason.key === "NATIVITY") {
+      filePath = updateFilePath(`DaysKoiahk29`);
+    } else if (isWeek1to4) {
       if (isTakeFromHathorTwo && isKoiahkMonth) {
         filePath = updateFilePath(
           `Sundays${currentSeason.copticMonth}Week${
@@ -598,8 +600,16 @@ function GetTodaysReadingPath(path) {
     } else {
       filePath = "Katamaros";
     }
+  } else if (isStandardSeasonWeekday) {
+    if (currentSeason.key === "NATIVITY") {
+      filePath = updateFilePath(`DaysKoiahk29`);
+    }
+    // else {
+    //   filePath = updateFilePath(
+    //     `Days${currentSeason.copticMonth}${currentSeason.copticDay}`
+    //   );
+    // }
   }
-
   return filePath;
 
   function updateFilePath(commonPart) {
@@ -622,7 +632,6 @@ function GetTodaysReadingPath(path) {
 
 function getAuthor(part, checkList) {
   const completePath = GetTodaysReadingPath(part.mother);
-  console.log(part);
   if (completePath === "Katamaros") {
     return "NONE";
   }

@@ -60,9 +60,7 @@ function BishopPresentView({ bottomSheetRef, snapPoints }) {
   const toggleSwitch = () => {
     try {
       dispatch(changeBishopPresent());
-    } catch (e) {
-      console.warn(e);
-    }
+    } catch (e) {}
   };
 
   const toggle3PlusSwitch = () => {

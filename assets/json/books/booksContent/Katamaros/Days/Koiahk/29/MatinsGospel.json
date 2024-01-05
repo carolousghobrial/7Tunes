@@ -1,0 +1,39 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "يوحنا 1 : 14-17",
+  "EnglishTitle": "John 1: 14 – 17",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَالْكَلِمَةُ صَارَ جَسَداً وَحَلَّ بَيْنَنَا وَرَأَيْنَا مَجْدَهُ مَجْداً كَمَا لِوَحِيدٍ مِنَ الآبِ مَمْلُوءاً نِعْمَةً وَحَقّاً.",
+      "English": "And the Word became flesh and dwelt among us, and we beheld His glory, the glory as of the only begotten of the Father, full of grace and truth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يُوحَنَّا شَهِدَ لَهُ وَنَادَى: «هَذَا هُوَ الَّذِي قُلْتُ عَنْهُ: إِنَّ الَّذِي يَأْتِي بَعْدِي صَارَ قُدَّامِي لأَنَّهُ كَانَ قَبْلِي».",
+      "English": "John bore witness of Him and cried out, saying, \"This was He of whom I said, \"He who comes after me is preferred before me, for He was before me.\"' \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وَمِنْ مِلْئِهِ نَحْنُ جَمِيعاً أَخَذْنَا وَنِعْمَةً فَوْقَ نِعْمَةٍ.",
+      "English": "And of His fullness we have all received, and grace for grace. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأَنَّ النَّامُوسَ بِمُوسَى أُعْطِيَ أَمَّا النِّعْمَةُ وَالْحَقُّ فَبِيَسُوعَ الْمَسِيحِ صَارَا.",
+      "English": "For the law was given through Moses, but grace and truth came through Jesus Christ.\r"
+    }
+  ]
+}

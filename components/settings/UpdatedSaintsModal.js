@@ -65,9 +65,7 @@ function UpdatedSaintsModal({
       if (saint != null) {
         setSaintSelected(saints[saint]);
       }
-    } catch (e) {
-      console.warn(e);
-    }
+    } catch (e) {}
   }, [saint]);
   function toggleSwitch(key, e) {
     setSaintSelected((prev) => ({
