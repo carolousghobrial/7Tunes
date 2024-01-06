@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "عبرانيين 1 :1-2 :4",
+  "EnglishTitle": "Hebrews 1: 1 - 2: 4",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اَللهُ، بَعْدَ مَا كَلَّمَ الآبَاءَ بِالأَنْبِيَاءِ قَدِيماً، بِأَنْوَاعٍ وَطُرُقٍ كَثِيرَةٍ، ",
+      "English": "God, who at various times and in various ways spoke in time past to the fathers by the prophets",
+      "Coptic": "+en ouqo `nrh; nem oumh] `n`cmot icjen \\h `a Vnou;> caji nem nenio; `ebol =en ni`provhthc.",
+      "Arabiccoptic": "خين أوثو إنريتي نيم أوميش إنإسموت يسجين هي  ا فنأوتي: ساجي نيم نينيوتي إيفول خين نيإبروفيتيس.",
+      "Englishcoptic": "Khen oootho enreeti nem ooomeesh enesmot isjen hee a Evnoti: saji nem nenioti evol khen nieproveetees."
+    }
+  ]
+}

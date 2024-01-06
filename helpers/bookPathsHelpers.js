@@ -1738,9 +1738,12 @@ const bookPaths = {
   KatamarosSundaysKoiahkWeek4VespersPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Sundays/Koiahk/Week4/VespersPsalm.json"),
   //Days
   KatamarosDaysKoiahk29LiturgyActs: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyActs.json"),
+  KatamarosDaysKoiahk29LiturgyActsCoptic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyActsCoptic.json"),
   KatamarosDaysKoiahk29LiturgyCatholic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyCatholic.json"),
+  KatamarosDaysKoiahk29LiturgyCatholicCoptic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyCatholicCoptic.json"),
   KatamarosDaysKoiahk29LiturgyGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyGospel.json"),
   KatamarosDaysKoiahk29LiturgyPauline: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyPauline.json"),
+  KatamarosDaysKoiahk29LiturgyPaulineCoptic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyPaulineCoptic.json"),
   KatamarosDaysKoiahk29LiturgyPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/LiturgyPsalm.json"),
   KatamarosDaysKoiahk29MatinsGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/MatinsGospel.json"),
   KatamarosDaysKoiahk29MatinsPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/MatinsPsalm.json"),

@@ -17,11 +17,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "الكاثوليكون من رسالة ابينا (...)، يا أحبائى",
-      "Coptic": "Kaholikon e~bol=en ;`ectolh `nte peniwt ___ namenra;.",
-      "English": "The catholic [epistle] from the epistle of our father (...), my beloved.",
-      "Arabiccoptic": "كاثوليكون إيفول خين تي إبيستولي إنتيه بين يوت ( .  .  .  . ) نامين راتي . ",
-      "Englishcoptic": "Kaeeolikon e~volkhen ti-estolee ente penioot oisoisois namenrati."
+      "Arabic": "الكاثوليكون من رسالة ابينا [*CATHOLIC_AUTHOR*] ، يا أحبائى",
+      "Coptic": "Kaholikon e~bol=en ;`ectolh `nte peniwt [*CATHOLIC_AUTHOR*] namenra;.",
+      "English": "The catholic [epistle] from the epistle of our father [*CATHOLIC_AUTHOR*], my beloved.",
+      "Arabiccoptic": "كاثوليكون إيفول خين تي إبيستولي إنتيه بين يوت [*CATHOLIC_AUTHOR*] نامين راتي . ",
+      "Englishcoptic": "Kaeeolikon evol-khen ti-estolee ente penioot [*CATHOLIC_AUTHOR*] namenrati."
     }
   ]
 }

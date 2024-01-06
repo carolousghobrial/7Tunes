@@ -15,6 +15,12 @@
             "English": "The reading of the day is read or this verse is said:"
         },
         {
+            "Type": "GetDaysReading",
+            "Path": "LiturgyCatholicCoptic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordCatholicCopticConclusion",
             "Rule": 0,

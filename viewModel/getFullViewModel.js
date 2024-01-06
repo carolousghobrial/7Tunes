@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import bookPaths from "../helpers/bookPathsHelpers";
 import VisibleRules from "../helpers/visibleRules";
 import { useDispatch, useSelector } from "react-redux";
+import { Alert } from "react-native";
 var moment = require("moment-timezone"); //moment-timezone
 import {
   ComeRisenRule,
@@ -233,7 +234,6 @@ export function addItemsToArray(part, thisRule) {
     "[*STANDARD_GOSPEL_AUTHOR*]",
     "[*CATHOLIC_AUTHOR*]",
     "[*PAULINE_AUTHOR*]",
-
     "[*POPE*]",
     "[*ANTIOCH_POPE*]",
     "[*DIOCESE_BISHOP*]",
@@ -623,6 +623,12 @@ function GetTodaysReadingPath(path) {
       case "LiturgyActs":
       case "LiturgyPsalm":
       case "LiturgyGospel":
+        return filePath + commonPart + path;
+      case "LiturgyPaulineCoptic":
+      case "LiturgyCatholicCoptic":
+      case "LiturgyActsCoptic":
+        // Alert.alert(filePath + commonPart + path);
+
         return filePath + commonPart + path;
       default:
         return filePath;

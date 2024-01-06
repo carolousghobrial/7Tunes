@@ -476,58 +476,58 @@ export const REPLACECATHOLICAUTHOR = (author) => {
     case "1Peter":
       return {
         english: "first epistle of our teacher St.Peter",
-        coptic: "Markon",
+        coptic: "Petroc",
         arabic: "بطرس الأولى",
-        englishcoptic: "Markon",
-        arabiccoptic: "ماركون",
+        englishcoptic: "Petros",
+        arabiccoptic: "بيتروس",
       };
     case "2Peter":
       return {
         english: "second epistle of our teacher St.Peter",
-        coptic: "Markon",
+        coptic: "Petroc",
         arabic: "بطرس الثانية",
-        englishcoptic: "Markon",
-        arabiccoptic: "ماركون",
+        englishcoptic: "Petros",
+        arabiccoptic: "بيتروس",
       };
     case "1John":
       return {
         english: "first epistle of our teacher St.John",
-        coptic: "Markon",
+        coptic: "Iwannhc",
         arabic: "يوحنا الأولى",
-        englishcoptic: "Markon",
-        arabiccoptic: "ماركون",
+        englishcoptic: "Youannis",
+        arabiccoptic: "يوأنيس",
       };
     case "2John":
       return {
         english: "second epistle of our teacher St.John",
-        coptic: "Markon",
+        coptic: "Iwannhc",
         arabic: "يوحنا الثانية",
-        englishcoptic: "Markon",
-        arabiccoptic: "ماركون",
+        englishcoptic: "Youannis",
+        arabiccoptic: "يوأنيس",
       };
     case "3John":
       return {
         english: "third epistle of our teacher St.John",
-        coptic: "Markon",
+        coptic: "Iwannhc",
         arabic: "يوحنا الثالثة",
-        englishcoptic: "Markon",
-        arabiccoptic: "ماركون",
+        englishcoptic: "Youannis",
+        arabiccoptic: "يوأنيس",
       };
     case "James":
       return {
         english: "epistle of our teacher St.James",
-        coptic: "Loukan",
+        coptic: "Iakwboc",
         arabic: "يعقوب",
-        englishcoptic: "Lokan",
-        arabiccoptic: "يعقوب",
+        englishcoptic: "Yakobos",
+        arabiccoptic: "ياكووبوس",
       };
     case "Jude":
       return {
         english: "epistle of our teacher St.Jude",
-        coptic: "Loukan",
+        coptic: "Iouda",
         arabic: "يهوذا",
-        englishcoptic: "Lokan",
-        arabiccoptic: "يعقوب",
+        englishcoptic: "Iooza",
+        arabiccoptic: "يودا",
       };
     default:
       return {
