@@ -882,7 +882,7 @@ var isLeapYear = function (year) {
 };
 
 function getCopticMonthDate(CopticMonthObject, year) {
-  var leapYear = isLeapYear(year + 1);
+  var leapYear = isLeapYear(year);
   var m = CopticMonthObject.month;
   var d = CopticMonthObject.day;
   if (CopticMonthObject.leap && leapYear) {
@@ -896,7 +896,7 @@ export function getCopticDate(year, monthIndex, day) {
   var copticMonthIndex = 0;
   var copticDay = day;
   var copticYear = year - 284;
-  var copticNewYearDay = isLeapYear(year + 1) ? 12 : 11;
+  var copticNewYearDay = isLeapYear(year) ? 12 : 11;
   // Coptic New Year
   if (monthIndex >= 8 && day >= copticNewYearDay) {
     copticYear++;
@@ -904,6 +904,7 @@ export function getCopticDate(year, monthIndex, day) {
 
   for (var i = 0; i < CopticMonthObjects.length; i++) {
     var m = CopticMonthObjects[i];
+
     // wrap around to beginning
     var m_next = CopticMonthObjects[(i + 1) % CopticMonthObjects.length];
 
@@ -947,7 +948,7 @@ export function getCopticDateByDate(date) {
   var day = date.date();
   var copticDay = day;
   var copticYear = year - 284;
-  var copticNewYearDay = isLeapYear(year + 1) ? 12 : 11;
+  var copticNewYearDay = isLeapYear(year) ? 12 : 11;
   // Coptic New Year
   if (monthIndex >= 8 && day >= copticNewYearDay) {
     copticYear++;
