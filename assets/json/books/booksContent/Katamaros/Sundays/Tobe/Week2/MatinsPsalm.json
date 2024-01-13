@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 96 : ١ ، ٢ )",
+  "EnglishTitle": "Psalms 97:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الـرب قـد ملـك فلتتهلل الأرض. ولتفـرح الجزائر الكثيرة، ",
+      "English": "97:1 The Lord reigns; Let the earth rejoice; Let the multitude of isles be glad! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سحاب وضبـاب حوله. العـدل والقضاء قـوام عرشه. هللويا.",
+      "English": "2 Clouds and darkness surround Him; Righteousness and justice are the foundation of His throne.     Alleluia\r"
+    }
+  ]
+}

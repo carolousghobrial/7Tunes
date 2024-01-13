@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 97 : ٤ ، ٨ )",
+  "EnglishTitle": "Psalms 98:3, 9",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نظـرت خـلاص إلهنا، أقاصي الأرض جميعها. ",
+      "English": "3 All the ends of the earth have seen the salvation of our God.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يديـن المسكونة بالعـدل، والشعوب بالاستقامة. هللويا.",
+      "English": "9 With righteousness He shall judge the world, And the peoples with equity.     Alleluia\r"
+    }
+  ]
+}

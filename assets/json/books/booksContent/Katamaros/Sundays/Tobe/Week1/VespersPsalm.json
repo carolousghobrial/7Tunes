@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 46 : 1 ، ۲ )",
+  "EnglishTitle": "Psalms 47:1, 2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا جميع الأمم صفقوا بأيديكم. هللوا لله بصوت الابتهاج؛ ",
+      "English": "47:1 Oh, clap your hands, all you peoples! Shout to God with the voice of triumph! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن الرب عالٍ ومرهوب. ملك عظيم على كافة الأرض. هللويا.",
+      "English": "2 For the Lord Most High is awesome; He is a great King over all the earth. Alleluia\r"
+    }
+  ]
+}

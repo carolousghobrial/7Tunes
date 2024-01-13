@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 83 : 7 ، 64 : ٢ )",
+  "EnglishTitle": "Psalms 83:7, 64:2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن البركات يعطيها واضع الناموس. يسيرون من قوة إلى قوة. ",
+      "English": "7 For there the lawgiver shall give blessings. They go from strength to strength.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "استمع يا الله صلاتي. لأنـه إلـيـك يـأتـي كل بشر. هللويا.",
+      "English": "2 O You who hear prayer, To You all flesh will come.     Alleluia\r"
+    }
+  ]
+}

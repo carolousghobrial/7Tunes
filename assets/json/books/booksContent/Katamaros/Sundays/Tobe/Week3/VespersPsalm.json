@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 76 : ۱۲ ، ۱۳ )",
+  "EnglishTitle": "Psalms 77:18, 19",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أضـاءت بروفـك المسكونة. تزلزلت الأرض وارتعـدت.",
+      "English": "8 The lightnings lit up the world; The earth trembled and shook. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يـا اللـه في البحـر طريقك، ومسالكك في المياه الكثيرة، هللويا.",
+      "English": "19 Your way was in the sea, Your path in the great waters.  Alleluia\r"
+    }
+  ]
+}

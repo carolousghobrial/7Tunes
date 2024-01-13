@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "من مزامير أبينا داود النبي ( 79 : ۲ ، ۳ )",
+  "EnglishTitle": "Psalms 80:1-3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الجالس على الشاروبيم اظهر.",
+      "English": "80:1 You who dwell between the cherubim, shine forth! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " قـدام افرايم وبنيامين ومنسى. لخلاصـنا يا الله ",
+      "English": "2 Before Ephraim, Benjamin, and Manasseh, Stir up Your strength, And come and save us! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أرددنا. ولينر وجهك علينا فنخلص..",
+      "English": "3 Restore us, O God; Cause Your face to shine, And we shall be saved!"
+    }
+  ]
+}
