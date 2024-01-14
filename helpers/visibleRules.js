@@ -268,6 +268,8 @@ const isSeason = (motherSource, path) => {
       }
       return false;
     case "NATIVITY":
+    case "NATIVITY_SECONDDAY":
+    case "NATIVITY_PERIOD":
       if (
         path.toLowerCase()?.includes("nativity") &&
         !path.toLowerCase()?.includes("paramoun")
