@@ -583,6 +583,8 @@ function GetTodaysReadingPath(path) {
     const isTakeFromHathorTwo = TakeFromHathorTwo(currentSeason);
     if (currentSeason.key === "NATIVITY") {
       filePath = updateFilePath(`DaysKoiahk29`);
+    } else if (currentSeason.key === "EPIPHANY") {
+      filePath = updateFilePath(`DaysTobe11`);
     } else if (isWeek1to4) {
       if (isTakeFromHathorTwo && isKoiahkMonth) {
         filePath = updateFilePath(
@@ -603,6 +605,8 @@ function GetTodaysReadingPath(path) {
   } else if (isStandardSeasonWeekday) {
     if (currentSeason.key === "NATIVITY") {
       filePath = updateFilePath(`DaysKoiahk29`);
+    } else if (currentSeason.key === "EPIPHANY") {
+      filePath = updateFilePath(`DaysTobe11`);
     }
     // else {
     //   filePath = updateFilePath(

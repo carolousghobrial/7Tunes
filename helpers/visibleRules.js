@@ -635,7 +635,10 @@ const isPraises = (motherSource, path) => {
 };
 const showLitanyOfDeparted = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  if (currentSeason.dayOfWeek === 6 && currentSeason.type === "regular") {
+  if (
+    currentSeason.dayOfWeek === 6 &&
+    (currentSeason.type === "regular" || currentSeason.type === "fast")
+  ) {
     return true;
   }
   return false;

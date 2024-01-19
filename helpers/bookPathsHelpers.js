@@ -1785,6 +1785,19 @@ const bookPaths = {
   KatamarosDaysKoiahk29MatinsPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/MatinsPsalm.json"),
   KatamarosDaysKoiahk29VespersGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/VespersGospel.json"),
   KatamarosDaysKoiahk29VespersPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Koiahk/29/VespersPsalm.json"),
+  //Theophany
+  KatamarosDaysTobe11LiturgyActs: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/LiturgyActs.json"),
+  KatamarosDaysTobe11LiturgyActsCoptic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/LiturgyActsCoptic.json"),
+  KatamarosDaysTobe11LiturgyCatholic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/LiturgyCatholic.json"),
+  KatamarosDaysTobe11LiturgyCatholicCoptic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/LiturgyCatholicCoptic.json"),
+  KatamarosDaysTobe11LiturgyGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/LiturgyGospel.json"),
+  KatamarosDaysTobe11LiturgyPauline: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/LiturgyPauline.json"),
+  KatamarosDaysTobe11LiturgyPaulineCoptic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/LiturgyPaulineCoptic.json"),
+  KatamarosDaysTobe11LiturgyPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/LiturgyPsalm.json"),
+  KatamarosDaysTobe11MatinsGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/MatinsGospel.json"),
+  KatamarosDaysTobe11MatinsPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/MatinsPsalm.json"),
+  KatamarosDaysTobe11VespersGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/VespersGospel.json"),
+  KatamarosDaysTobe11VespersPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/Days/Tobe/11/VespersPsalm.json"),
 };
 
 export default bookPaths;
