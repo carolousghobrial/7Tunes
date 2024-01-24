@@ -278,6 +278,7 @@ const isSeason = (motherSource, path) => {
       }
       return false;
     case "EPIPHANY":
+    case "EPIPHANY_SECONDDAY":
       if (
         path.toLowerCase()?.includes("theophany") &&
         !path.toLowerCase()?.includes("paramoun")

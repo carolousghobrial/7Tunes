@@ -213,6 +213,7 @@ export function getCopticFastsFeasts(yearSelected, date) {
     nativity2ndDay = nativity2ndDay.add(1, "days");
     circumcision = circumcision.add(1, "days");
     epiphany = epiphany.add(1, "days");
+    epiphany2ndDay = epiphany.add(1, "days");
     canaMiracle = canaMiracle.add(1, "days");
   }
   if (isLeapYear(yearSelected + 1)) {
