@@ -39,7 +39,6 @@ function SaintModal({ visible, saint, closeModal, updateSaint }) {
   const imageStyle = {
     width: imageSize,
     height: imageSize,
-    borderRadius: imageSize / 2,
   };
 
   if (width > height) {
@@ -135,10 +134,7 @@ function SaintModal({ visible, saint, closeModal, updateSaint }) {
             <View style={{ flexDirection: "row" }}>
               <Pressable
                 android_ripple={{ color: getColor("pageBackgroundColor") }}
-                style={[
-                  styles.button,
-                  { borderColor: getColor("PrimaryColor") },
-                ]}
+                style={[styles.button]}
                 onPress={closeModal}
               >
                 <Text
@@ -149,10 +145,7 @@ function SaintModal({ visible, saint, closeModal, updateSaint }) {
               </Pressable>
               <Pressable
                 android_ripple={{ color: getColor("pageBackgroundColor") }}
-                style={[
-                  styles.button,
-                  { borderColor: getColor("PrimaryColor") },
-                ]}
+                style={[styles.button]}
                 onPress={updateSaint.bind(this, saint, saintSelected)}
               >
                 <Text
@@ -198,8 +191,6 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   imageContainerLandscape: {
-    borderWidth: 3,
-    borderColor: "black",
     overflow: "hidden",
     margin: 5,
   },
@@ -217,7 +208,6 @@ const styles = StyleSheet.create({
     flex: 1,
     margin: 10,
     padding: 10,
-    borderWidth: 5,
   },
 });
 

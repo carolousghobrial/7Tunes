@@ -63,9 +63,9 @@ function FeastView({ item, onClick }) {
         <View style={styles.textViewLanscape}>
           <Text style={styles.text}>{getLanguageValue(item.key)}</Text>
           <Text style={styles.text}>
-            {item.start.format("MMM Do YYYY")}
+            {item.start.format("dddd, MMMM D, YYYY")}
             {item.end !== null ? "-" : null}
-            {item.end !== null ? item.end.format("MMM Do YYYY") : null}
+            {item.end !== null ? item.end.format("dddd, MMMM D, YYYY") : null}
           </Text>
           <Text style={styles.text}>
             {copticStartDateString}
@@ -82,7 +82,8 @@ const styles = StyleSheet.create({
   container: {
     borderColor: "black",
     borderRadius: 30,
-    borderWidth: 5,
+    backgroundColor: "rgba(52, 52, 52, 0.2)",
+
     margin: 5,
     padding: 5,
   },
@@ -113,7 +114,6 @@ const styles = StyleSheet.create({
     alignItems: "flex-start",
   },
   imageContainerLandscape: {
-    borderWidth: 3,
     borderColor: "black",
     overflow: "hidden",
     alignItems: "flex-start",

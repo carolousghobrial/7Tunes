@@ -140,11 +140,10 @@ const styles = StyleSheet.create({
     resizeMode: "stretch",
   },
   imageContainerLandscape: {
-    borderWidth: 3,
     overflow: "hidden",
     justifyContent: "center",
     alignContent: "center",
-    margin: 5,
+    margin: 10,
     flex: 3,
   },
 

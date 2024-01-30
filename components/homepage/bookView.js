@@ -112,14 +112,12 @@ const styles = StyleSheet.create({
     alignItems: "flex-start",
   },
   imageContainerLandscape: {
-    borderWidth: 3,
     borderColor: "black",
     overflow: "hidden",
     alignItems: "flex-start",
     justifyContent: "flex-start",
   },
   imageContainer: {
-    borderWidth: 3,
     borderColor: "black",
     overflow: "hidden",
     alignItems: "center",

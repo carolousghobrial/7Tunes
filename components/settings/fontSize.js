@@ -64,7 +64,6 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10,
     borderRadius: 10,
-    borderWidth: 5,
     backgroundColor: "rgba(52, 52, 52, 0.2)",
   },
   titleView: {

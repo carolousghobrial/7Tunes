@@ -1,0 +1,263 @@
+{
+    "ARCHANGEL_MICHAEL": [
+        {
+            "day": 12
+        }
+    ],
+    "ARCHANGEL_GABRIEL": [
+        {
+            "day": 13,
+            "month": "Koiahk"
+        },
+        {
+            "day": 3,
+            "month": "Nesi"
+        }
+    ],
+    "ARCHANGEL_RAPHAEL": [
+        {
+            "day": 13,
+            "month": "Paone"
+        }
+    ],
+    "FOUR_INCORPOREAL_CREATURES": [
+        {
+            "day": 8,
+            "month": "Hathor"
+        }
+    ],
+    "TWENTY_FOUR_PRIESTS": [
+        {
+            "day": 24,
+            "month": "Hathor"
+        }
+    ],
+    "JOHN_THE_BAPTIST": [
+        {
+            "day": 2,
+            "month": "Thoout"
+        },
+        {
+            "day": 2,
+            "month": "Paone"
+        },
+        {
+            "day": 30,
+            "month": "Paone"
+        }
+    ],
+    "ST_MARK": [
+        {
+            "day": 17,
+            "month": "Paone"
+        },
+        {
+            "day": 30,
+            "month": "Paope"
+        },
+        {
+            "day": 30,
+            "month": "Parmoute"
+        }
+    ],
+    "ST_STEPHEN": [
+        {
+            "day": 1,
+            "month": "Tobe"
+        }
+    ],
+    "ST_GEORGE": [
+        {
+            "day": 16,
+            "month": "Epep"
+        },
+        {
+            "day": 7,
+            "month": "Hathor"
+        },
+        {
+            "day": 23,
+            "month": "Parmoute"
+        }
+    ],
+    "ST_PHILOPATER": [
+        {
+            "day": 25,
+            "month": "Epep"
+        },
+        {
+            "day": 25,
+            "month": "Hathor"
+        },
+        {
+            "day": 9,
+            "month": "Paone"
+        }
+    ],
+    "ST_MINA": [
+        {
+            "day": 15,
+            "month": "Hathor"
+        },
+        {
+            "day": 15,
+            "month": "Paone"
+        }
+    ],
+    "ST_THEODORE_SHOTEP": [
+        {
+            "day": 5,
+            "month": "Hathor"
+        },
+        {
+            "day": 20,
+            "month": "Hathor"
+        },
+        {
+            "day": 20,
+            "month": "Epe"
+        }
+    ],
+    "ST_ABANOUB": [
+        {
+            "day": 24,
+            "month": "Epep"
+        }
+    ],
+    "APAKIR_AND_JOHN": [
+        {
+            "day": 6,
+            "month": "Meshir"
+        }
+    ],
+    "COSMAN_AND_DEMIAN": [
+        {
+            "day": 22,
+            "month": "Hathor"
+        }
+    ],
+    "ST_DEMIANA": [
+        {
+            "day": 13,
+            "month": "Tobe"
+        },
+        {
+            "day": 12,
+            "month": "Pashons"
+        }
+    ],
+    "ST_MARINA": [
+        {
+            "day": 23,
+            "month": "Epep"
+        }
+    ],
+    "BARBARA": [
+        {
+            "day": 8,
+            "month": "Koiahk"
+        }
+    ],
+    "JULIANA": [
+        {
+            "day": 8,
+            "month": "Koiahk"
+        }
+    ],
+    "ST_ANTHONY": [
+        {
+            "day": 22,
+            "month": "Tobe"
+        }
+    ],
+    "ST_PAULHERMIT": [
+        {
+            "day": 2,
+            "month": "Meshir"
+        }
+    ],
+    "MACARIUS_GREAT": [
+        {
+            "day": 27,
+            "month": "Paremhotep"
+        }
+    ],
+    "ATHANASIUS_APOSTOLIC": [
+        {
+            "day": 30,
+            "month": "Thoout"
+        },
+        {
+            "day": 7,
+            "month": "Pashons"
+        }
+    ],
+    "ST_MOSES": [
+        {
+            "day": 24,
+            "month": "Paone"
+        }
+    ],
+    "ST_PISHOI": [
+        {
+            "day": 8,
+            "month": "Epep"
+        }
+    ],
+    "ST_SHENOUDA_ARCHMANDRITE": [
+        {
+            "day": 7,
+            "month": "Epep"
+        },
+        {
+            "day": 1,
+            "month": "Koiahk"
+        }
+    ],
+    "ST_PACHOMIOUS": [
+        {
+            "day": 14,
+            "month": "Pashons"
+        }
+    ],
+    "MAXIMUS_DOMETIUS": [
+        {
+            "day": 14,
+            "month": "Tobe"
+        },
+        {
+            "day": 17,
+            "month": "Tobe"
+        }
+    ],
+    "ST_REWIS": [
+        {
+            "day": 21,
+            "month": "Paope"
+        }
+    ],
+    "SAMUEL_CONFESSOR": [
+        {
+            "day": 8,
+            "month": "Koiahk"
+        }
+    ],
+    "ST_JOHN_THE_SHORT": [
+        {
+            "day": 20,
+            "month": "Paope"
+        }
+    ],
+    "ST_KARAS": [
+        {
+            "day": 8,
+            "month": "Epep"
+        }
+    ],
+    "ST_KIROLLOS_SIXTH": [
+        {
+            "day": 30,
+            "month": "Meshir"
+        }
+    ]
+}

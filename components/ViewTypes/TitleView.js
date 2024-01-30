@@ -127,18 +127,13 @@ function TitleView({ item, navigation }) {
   //   await shareAsync(uri, { UTI: ".pdf", mimeType: "application/pdf" });
   // };
   return (
-    <View
-      style={[
-        styles.bookView,
-        { flexDirection: flex, borderColor: getColor("LabelColor") },
-      ]}
-    >
+    <View style={[styles.bookView, { flexDirection: flex }]}>
       <View style={{ flex: 8 }}>
         <View style={styles.textView}>
           <Text
             style={[
               styles.english,
-              { fontSize: fontSize * 1.13, color: getColor("LabelColor") },
+              { fontSize: fontSize * 1.13, color: getColor("TitleColor") },
             ]}
           >
             {item.English}
@@ -149,7 +144,7 @@ function TitleView({ item, navigation }) {
             <Text
               style={[
                 styles.coptic,
-                { fontSize: fontSize * 1.13, color: getColor("LabelColor") },
+                { fontSize: fontSize * 1.13, color: getColor("TitleColor") },
               ]}
             >
               {item.Coptic}
@@ -162,7 +157,7 @@ function TitleView({ item, navigation }) {
               styles.arabic,
               {
                 fontSize: fontSize * 1.13,
-                color: getColor("LabelColor"),
+                color: getColor("TitleColor"),
                 flexDirection: "row-reverse",
               },
             ]}
@@ -220,9 +215,8 @@ function TitleView({ item, navigation }) {
 
 const styles = StyleSheet.create({
   bookView: {
-    margin: 5,
+    margin: 3,
     borderRadius: 30,
-    borderWidth: 5,
   },
   backgroundimage: {
     backgroundColor: "rgba(52, 52, 52, 0.8)",

@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 var moment = require("moment-timezone"); //moment-timezone
 
 var today = moment();
+const saintsFeastsCalendar = require("../assets/json/saintsFeastsCalendar.json");
 
 var CopticMonthObjects = [
   {
@@ -695,6 +696,7 @@ export function setCurrentSeasonByKey(timeTransition, key) {
     currentDate.getMonth(),
     currentDate.getDate()
   );
+
   var mycurrentSeason = {
     key: mySeason.key,
     start: mySeason.start,
@@ -709,8 +711,10 @@ export function setCurrentSeasonByKey(timeTransition, key) {
     fullgregorianDate: currentDate,
     isWatos: isWatos(currentDate.getDay()),
     type: mySeason.type,
+    saintsOfThisDay: getSaintOfTheDay(copticDate),
     plantsSeason: plantsSeason(currentDate),
     copticMonth: copticDate.month,
+    copticMonthIndex: copticDate.monthIndex,
     copticDay: copticDate.day,
     copticYear: copticDate.year,
   };
@@ -724,8 +728,7 @@ export function setCurrentSeasonLive(timeTransition) {
     currentDate.getMonth(),
     currentDate.getDate()
   );
-  //  Tobe: 4,
-  //Meshir: 5,
+
   var mycurrentSeason = {
     key: mySeason.key,
     start: mySeason.start,
@@ -738,10 +741,13 @@ export function setCurrentSeasonLive(timeTransition) {
     gregorianMonth: currentDate.getMonth(),
     gregorianYear: currentDate.getFullYear(),
     fullgregorianDate: currentDate,
+    fullcopticDate: copticDate,
+    saintsOfThisDay: getSaintOfTheDay(copticDate),
     isWatos: isWatos(currentDate.getDay()),
     type: mySeason.type,
     plantsSeason: plantsSeason(currentDate),
     copticMonth: copticDate.month,
+    copticMonthIndex: copticDate.monthIndex,
     copticDay: copticDate.day,
     copticYear: copticDate.year,
   };
@@ -754,6 +760,20 @@ function getWeeksSinceStartDate(startDate) {
   const diffInWeeks = Math.ceil(diffInMs / msPerWeek); // Round down to get number of full weeks
   return diffInWeeks;
 }
+function getSaintOfTheDay(copticDate) {
+  var SaintsFeastToday = [];
+  Object.keys(saintsFeastsCalendar).map((saint) => {
+    const isFeastDay = saintsFeastsCalendar[saint].some(
+      (item) =>
+        item.day === copticDate.day &&
+        (item.month === undefined || item.month === copticDate.month)
+    );
+    if (isFeastDay) {
+      SaintsFeastToday.push(saint);
+    }
+  });
+  return SaintsFeastToday;
+}
 export function getCurrentSeasonByDate(date, timeTransition) {
   var fastsfeasts = getCopticFastsFeasts(date.getFullYear(), date);
   var collection = [];
@@ -764,6 +784,7 @@ export function getCurrentSeasonByDate(date, timeTransition) {
     currentDate.getMonth(),
     currentDate.getDate()
   );
+
   var todayDate = moment(date);
   if (
     copticDate.day === 29 &&
@@ -817,8 +838,10 @@ export function getCurrentSeasonByDate(date, timeTransition) {
     fullgregorianDate: currentDate,
     isWatos: isWatos(currentDate.getDay()),
     type: mySeason.type,
+    saintsOfThisDay: getSaintOfTheDay(copticDate),
     plantsSeason: plantsSeason(currentDate),
     copticMonth: copticDate.month,
+    copticMonthIndex: copticDate.monthIndex,
     copticDay: copticDate.day,
     copticYear: copticDate.year,
   };
@@ -878,12 +901,13 @@ export function getCurrentSeason(timeTransition) {
   return collection;
 }
 
-var isLeapYear = function (year) {
+function isLeapYear(year) {
   return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
-};
+}
 
 function getCopticMonthDate(CopticMonthObject, year) {
   var leapYear = isLeapYear(year);
+
   var m = CopticMonthObject.month;
   var d = CopticMonthObject.day;
   if (CopticMonthObject.leap && leapYear) {
@@ -992,9 +1016,34 @@ export function getCopticDateByDate(date) {
     year: copticYear,
   };
 }
+export function getDateByCopticDate(copticMonth, copticDay) {
+  if (copticMonth === undefined) {
+    return null;
+  }
+
+  const monthObj = CopticMonthObjects.find((item) => item.name === copticMonth);
+
+  if (!monthObj) {
+    return null; // Handle the case where the month is not found
+  }
+
+  const returnDate = moment([
+    moment().year(),
+    monthObj.month - 1,
+    monthObj.day - 1,
+  ]).add(copticDay - 1, "days");
+
+  return returnDate;
+}
 
 export function getCopticDateString(year, month, day) {
-  return getLanguageValue(month) + " " + day + ", " + year;
+  var copticMonth = getLanguageValue(month);
+
+  if (month === undefined) {
+    return "The " + day + "th of Every Month";
+  } else {
+    return copticMonth + " " + day + ", " + year;
+  }
 }
 
 var getResurrectionDate = function (year) {

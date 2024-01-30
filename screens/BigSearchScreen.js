@@ -55,11 +55,16 @@ function BigSearchScreen({ navigation }) {
 
     if (key && method) {
       const highlightedText = method(item.part[key], searchPhrase, key);
-
+      title =
+        item[key.toLowerCase() + "Title"] === undefined
+          ? item["englishTitle"]
+          : item[key.toLowerCase() + "Title"];
       return (
         <Pressable onPress={openPage.bind(this, item, searchPhrase)}>
           <View style={styles.ReturnBox} key={item.listKey}>
-            <Text style={styles.title}>{item.englishTitle}</Text>
+            <View style={styles.titleBox}>
+              <Text style={styles.title}>{title}</Text>
+            </View>
             <Text>{highlightedText}</Text>
           </View>
         </Pressable>
@@ -200,13 +205,17 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontFamily: "englishtitle-font",
     fontSize: 25,
+  },
+  titleBox: {
     marginHorizontal: 10,
+    borderBottomWidth: 5,
+    borderBottomColor: "black",
     flex: 8,
   },
   ReturnBox: {
-    borderWidth: 5,
-    margin: 5,
-    padding: 5,
+    margin: 10,
+    padding: 10,
+    backgroundColor: "rgba(0, 0, 0, 0.2)", // semi-transparent background
   },
 });
 

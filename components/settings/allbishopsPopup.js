@@ -178,7 +178,6 @@ const styles = StyleSheet.create({
   item: {
     backgroundColor: "grey",
     borderColor: "black",
-    borderWidth: 5,
     marginVertical: 8,
   },
   header: {

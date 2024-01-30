@@ -138,7 +138,6 @@ const styles = StyleSheet.create({
     resizeMode: "stretch",
   },
   imageContainerLandscape: {
-    borderWidth: 3,
     overflow: "hidden",
     margin: 5,
   },

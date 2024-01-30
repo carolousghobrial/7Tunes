@@ -9,11 +9,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "إسمك عظيم في مصر أيها الطوباوي القديس المكرم في جميع القديسين أبونا الطاهر (...)",
-      "Coptic": "`Apekran erni]; =en `txwra `nXhmi `wpimakarioc pi`agioc ettaihout =en ni`agioc throu peniwt eqouab abba (…)",
-      "English": "Your name is great in the land of Egypt, O blessed saint who is honored among all the saints, our Holy Father Abba (...).",
+      "Arabic": "إسمك عظيم في مصر أيها الطوباوي القديس المكرم في جميع  القديسين أبونا الطاهر (3) (...)",
+      "Coptic": "`Apekran erni]; =en `txwra `nXhmi `wpimakarioc pi`agioc ettaihout =en ni`agioc throu peniwt eqouab (3) abba (…)",
+      "English": "Your name is great in the land of Egypt, O blessed saint who is honored among all the saints, our Holy Father (3) Abba (...).",
       "Arabiccoptic": "آبيكران إيرنيشتى خين إتكورا إنكيمى أوبى مكاريوس بى آجيوس إتطايوت خين نى آجيوس تيرو بينيوت إثؤواب (3) انذيكيئوس آفا.. بى مينريت إنتى بى إخرستوس.",
-      "Englishcoptic": "Apekran er-nishti khen et-khora en-Keemi opi-makarios pi-agios etta-yoot khen ni-agios teeroo peniot ethowab ava (…)."
+      "Englishcoptic": "Apekran er-nishti khen et-khora en-Keemi opi-makarios pi-agios etta-yoot khen ni-agios teeroo peniot ethowab (3)ava (…)."
     },
     {
       "Type": "Base",
@@ -45,7 +45,7 @@
       "Arabic": "لأنه حقا بالحقيقة حرك قلبي تذكارك الجليل أيها القديس أنبا (...)",
       "Coptic": "Alhqoc gar =en oumeqmhi afkim `e`=rhi `epa\\ht `nje peker`vmeu`i ettaihout `wpiagioc abba (…)",
       "English": " Truly, your gracious commemoration has touched my heart, O honored Saint Abba (...).",
-      "Arabiccoptic": "آليثوس غار خين أووميثمي أفكيم اي اخري ايباهيت انجي بيك ارافميفئي اتطايوت أوبي أجيوس أفا اثناسيوس بي آبوسطوليكوس .",
+      "Arabiccoptic": "آليثوس غار خين أووميثمي أفكيم اي اخري ايباهيت انجي بيك ارافميفئي اتطايوت أوبي أجيوس أفا (...)  .",
       "Englishcoptic": "Aleethos ghar khen oo-methmeei : afkim e-ekhreei epaheet : enje pek-erevmevi et-ta-yoot : opi-agios avva (…)."
     }
   ]

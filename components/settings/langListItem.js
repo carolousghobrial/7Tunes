@@ -55,9 +55,9 @@ function LangListItem(props) {
 
 const styles = StyleSheet.create({
   container: {
-    margin: 5,
-    padding: 5,
-    borderWidth: 5,
+    margin: 10,
+    padding: 10,
+    borderWidth: 2,
   },
   textview: {
     flex: 4,

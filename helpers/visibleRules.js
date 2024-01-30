@@ -966,11 +966,8 @@ const ArchangelGabrielShow = (motherSource, path) => {
       currentSeason.key === FeastEnum.TWENTYNINTHTH_COPTIC_MONTH) &&
     !isBigFeastResult
   ) {
-    console.log("DADAhhhhSD");
-
     return true;
   }
-  console.log("DADASD");
   const lowerPath = path?.toLowerCase();
 
   if (lowerPath.includes("ActsResponse")) {
@@ -985,8 +982,6 @@ const ArchangelGabrielShow = (motherSource, path) => {
     }
     return saintSelected.intercessions;
   } else if (lowerPath.includes("VersesOfCymbals")) {
-    console.log("DADASD");
-
     return isBigFeastResult ? false : saintSelected.versesofCymbals;
   }
 };

@@ -16,11 +16,13 @@ import { setSeason } from "../../stores/redux/settings.js";
 function TopBoxView() {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const timeTransition = useSelector((state) => state.settings.timeTransition);
+
   const appLang = useSelector((state) => state.settings.appLanguage);
   const weekOf = getLanguageValue("week_of");
   const season = getLanguageValue(currentSeason.key);
   const [seasonText, setseasonText] = useState("");
   const [date, setDate] = useState("");
+  const [imageURL, setImageURL] = useState(currentSeason.key);
   const [copticdate, setCopticDate] = useState("");
   const dispatch = useDispatch();
 
@@ -29,6 +31,12 @@ function TopBoxView() {
     SetCurrentSeason();
     SetDateTime();
     SetCopticDateTime();
+    if (
+      currentSeason.key === "STANDARD" &&
+      currentSeason.saintsOfThisDay.length > 0
+    ) {
+      setImageURL(currentSeason.saintsOfThisDay[0]);
+    }
   });
 
   function SetCurrentSeason() {
@@ -92,6 +100,13 @@ function TopBoxView() {
     );
   }
   function setLive() {
+    setImageURL(
+      currentSeason.key === "STANDARD" &&
+        currentSeason.saintsOfThisDay.length > 0
+        ? currentSeason.saintsOfThisDay[0]
+        : currentSeason.key
+    );
+
     dispatch(
       setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
     );
@@ -99,7 +114,7 @@ function TopBoxView() {
   return (
     <Pressable onPress={setLive}>
       <View style={styles.bookView}>
-        <Image style={styles.image} source={images[currentSeason.key]} />
+        <Image style={styles.image} source={images[imageURL]} />
         <View style={styles.textView}>
           <Text style={styles.text}>{copticdate}</Text>
           <Text style={styles.text}>{date}</Text>
@@ -115,7 +130,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     borderColor: "black",
     borderRadius: 30,
-    borderWidth: 5,
+    margin: 10,
+    backgroundColor: "rgba(0, 0, 0, 0.2)", // semi-transparent background
   },
   image: {
     flex: 1,

@@ -9,12 +9,13 @@ import {
   TouchableWithoutFeedback,
   useWindowDimensions,
 } from "react-native";
+import moment from "moment";
 
 import { getColor } from "../../helpers/SettingsHelpers.js";
 
 function SelectYearModal({ visible, closeModal, setYear }) {
   const labelColor = getColor("LabelColor");
-  const years = Array.from(Array(11), (_, i) => 2023 + i); // create an array of years from 2020 to 2030
+  const years = Array.from(Array(20), (_, i) => moment().year() + i);
 
   const [selectedYear, setSelectedYear] = useState(years[0]); // initialize the selected year to the first year in the array
   const { width, height } = useWindowDimensions();
@@ -67,8 +68,9 @@ function SelectYearModal({ visible, closeModal, setYear }) {
                   onPress={() => setYear(item)}
                   style={{
                     borderColor: labelColor,
-                    borderWidth: 3,
                     width: "100%",
+                    backgroundColor: "rgba(0, 0, 0, 0.2)", // semi-transparent background
+
                     margin: 5,
                   }}
                 >

@@ -25,7 +25,10 @@ export function getColor(key) {
 const saintsSelector = (state) => state.saints;
 
 export function getSaint(saint) {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
   const saints = useSelector(saintsSelector);
+
   const saintMapping = {
     ARCHANGEL_MICHAEL: saints.ARCHANGEL_MICHAEL,
     ARCHANGEL_GABRIEL: saints.ARCHANGEL_GABRIEL,
@@ -48,5 +51,13 @@ export function getSaint(saint) {
     ST_KIROLLOS_SIXTH: saints.ST_KIROLLOS_SIXTH,
   };
 
-  return saintMapping[saint];
+  return currentSeason.saintsOfThisDay.includes(saint)
+    ? {
+        versesofCymbals: true,
+        doxologies: true,
+        intercessions: true,
+        actsResponse: true,
+        gospelResponse: true,
+      }
+    : saintMapping[saint];
 }

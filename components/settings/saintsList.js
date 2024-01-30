@@ -118,7 +118,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     borderRadius: 10,
     backgroundColor: "rgba(52, 52, 52, 0.2)",
-    borderWidth: 5,
   },
   titleView: {
     flex: 2,

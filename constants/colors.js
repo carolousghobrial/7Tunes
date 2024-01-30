@@ -16,6 +16,7 @@ const Colors = {
     RitualColor: "#0047AB",
     TabBarColor: "#000000",
     TabBarTextColor: "#F5F5DE",
+    TitleColor: "#2e2e2e",
   },
   dark: {
     pageBackgroundColor: "#000000",
@@ -34,6 +35,7 @@ const Colors = {
     RitualColor: "#89CFF0",
     TabBarColor: "F5F5DE",
     TabBarTextColor: "#000000",
+    TitleColor: "#dcdcdc",
   },
 
   pageBackgroundColor: "#F5F5DE",

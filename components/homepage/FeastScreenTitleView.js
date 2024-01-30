@@ -130,7 +130,6 @@ const styles = StyleSheet.create({
   LiveContainer: {
     flex: 4,
     margin: 3,
-    borderWidth: 5,
     backgroundColor: "lightgray",
     borderColor: "black",
   },
@@ -138,7 +137,6 @@ const styles = StyleSheet.create({
     flex: 3,
     margin: 3,
     backgroundColor: "lightgray",
-    borderWidth: 5,
     borderColor: "black",
   },
   arabic: {
