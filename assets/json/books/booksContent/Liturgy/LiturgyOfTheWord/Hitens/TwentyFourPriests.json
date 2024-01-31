@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " هيتين لالاربعة وعشرين قسيساً",
+  "EnglishTitle": "Hiten for The Twenty Four Priests",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بشفاعات كهنة الحق ال24 قسيساً ، يا رب إنعم لنا بمغفرة خطايانا.",
+      "Coptic": "|iten ni`precbia `nte niouhb `nte ;meqmhi > pik/d/ `mprecbuteroc > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the intercessions, of the priests of the Truth, the twenty-four presbyters, O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين ني إبريسفيا إنتي ني اوييب انتي تي ميثمي : بي جوت افتو امبريسفيتروس :إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي ",
+      "Englishcoptic": "Hiten niepresvia ente ni-oweeb en-te ti-methmeei : pigot efto empresveeteros: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس لالشهيدان قزمان و دميان",
+    "EnglishTitle": "Verses of the Cymbals for Cosman and Demian",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "Neutral",
+            "Visible": true,
+            "Arabic": "السلام لكَم أيها الشهداء. السلام للشجاعان الابطال. السلام للابسي الجهاد  قزمان و اخوته و امهم.",
+            "Coptic": "Xere nwten `w nimarturoc > xere ni]wij `ngenneoc > xere niaqlovoroc > Kocma nem nef`cnhou nem toumau.",
+            "English": "Hail to the martyrs. Hail to the courageous heroes. Hail to the struggle-mantled, Cosmas , his brothers and their mother.",
+            "Arabiccoptic": "شيري نوتين أو ني مارتيروس : شيري ني شويج إن جينيؤس : شيري ني أثلوفوروس :كوزما نيم نيف نيف اسنيو نيم تؤو ماف  .",
+            "Englishcoptic": "Shere Noten Oni Mar teeros, Shere ni Shoig En Genni-os, shere ni athlofo ros, Kosma nem nef-esneioo nem toomav."
+        }
+    ]
+}

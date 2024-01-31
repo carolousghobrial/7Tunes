@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل لالانبا شنودة رئيس المتوحدين",
+    "EnglishTitle": "Gospel Response for St.Shenouda the Archimanidrite",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " اطلب من الرب عنا .  يا سيدى الأب الناسك .  أنبا شنودة رئيس المتوحدين .  ليغفر لنا خطايانا  . ",
+            "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > `w pasoic `niwt `nackuthc > abba }enou; piarxh mani`drithc> `ntefxa nen nobi nan `ebol.  ",
+            "English": " Pray to the Lord on our behalf, O my master the ascetic father: Abba Shenute the Archimandrite: that He may forgive us our sins. ",
+            "Arabiccoptic": " طوبه إمبتشويس اى إهرى إيجون: أو باتشويس إنيوت إن أسكيتيس: أﭭا شينوتى بى أرشى مان إذريتيس: إنتيف كا نين نوﭭى نان إيﭭول  . ",
+            "Englishcoptic": "Tobhem empshois e-ehri egon : oo pachois en-ioot en-askeetees : Ava Shen-ooti pi-arshee mani-ezritees: entef ka nen novi nan evol  ."
+        }
+    ]
+}

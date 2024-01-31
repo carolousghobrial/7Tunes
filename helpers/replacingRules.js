@@ -60,26 +60,13 @@ export function TakeFromHathor(currentSeason) {
   }
 }
 export const ComeRisenRule = () => {
-  const fastsFeasts = getCopticFastsFeasts(moment().year());
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  var date = moment(
-    new Date(
-      currentSeason.gregorianYear,
-      currentSeason.gregorianMonth,
-      currentSeason.gregorianDayOfMonth,
-      0,
-      0,
-      0,
-      0
-    )
-  );
-  var today = currentSeason.dayOfWeek;
-  var Kiahk = fastsFeasts.find((element) => element.key === "NATIVITY_FAST");
-  var Resurrection = fastsFeasts.find(
-    (element) => element.key === "RESURRECTION"
-  );
-  var PENTECOST = fastsFeasts.find((element) => element.key === "PENTECOST");
 
+  const fastsFeasts = getCopticFastsFeasts(currentSeason.gregorianYear);
+
+  const KIAHK = fastsFeasts.find((element) => element.key === "NATIVITY_FAST");
+
+  const PENTECOST = fastsFeasts.find((element) => element.key === "PENTECOST");
   switch (currentSeason.key) {
     case "NATIVITY":
     case "NATIVITY_PARAMOUN":
@@ -159,7 +146,13 @@ export const ComeRisenRule = () => {
       };
 
     default:
-      if (today === 0) {
+      if (
+        moment(currentSeason.fullgregorianDate).isBetween(
+          PENTECOST.start,
+          KIAHK.start
+        ) &&
+        moment(currentSeason.fullgregorianDate).day === 0
+      ) {
         return {
           english: "have risen",
           coptic: "aktwnk",
@@ -168,7 +161,6 @@ export const ComeRisenRule = () => {
           arabiccoptic: "اكتونك",
         };
       }
-
       return {
         english: "have come",
         coptic: "ak`i",
@@ -202,10 +194,7 @@ export const ROICONCLUSION = (motherSource) => {
     };
   }
   const fastsFeasts = getCopticFastsFeasts(moment().year());
-  const today = moment();
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  var ASCENSION = fastsFeasts.find((element) => element.key === "ASCENSION");
-  var PENTECOST = fastsFeasts.find((element) => element.key === "PENTECOST");
   switch (currentSeason.key) {
     case "COPTIC_NEW_YEAR":
       return {

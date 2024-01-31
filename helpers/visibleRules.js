@@ -889,7 +889,7 @@ const hide = (motherSource, path) => {
   return false;
 };
 const VOCSaint = (motherSource, path) => {
-  const saintSelected = getSaint(path);
+  const saintSelected = getSaint(path.trim());
 
   if (
     isLentWeekdayOrJonah(motherSource, path) ||
@@ -901,18 +901,18 @@ const VOCSaint = (motherSource, path) => {
   return saintSelected.versesofCymbals;
 };
 const DOXSaint = (motherSource, path) => {
-  const saintSelected = getSaint(path);
+  const saintSelected = getSaint(path.trim());
 
   return saintSelected.doxologies;
 };
 const HitenSaint = (motherSource, path) => {
-  const saintSelected = getSaint(path);
+  const saintSelected = getSaint(path.trim());
 
   return saintSelected.intercessions;
 };
 const ActsResponseSaint = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const saintSelected = getSaint(path);
+  const saintSelected = getSaint(path.trim());
   switch (currentSeason.key) {
     case "STANDARD":
     case "FAST_OF_APOSTLES":
@@ -924,7 +924,7 @@ const ActsResponseSaint = (motherSource, path) => {
   }
 };
 const GospelResponseSaint = (motherSource, path) => {
-  const saintSelected = getSaint(path);
+  const saintSelected = getSaint(path.trim());
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   switch (currentSeason.key) {
     case "STANDARD":
@@ -949,6 +949,9 @@ const stMaryActsResponse = (motherSource, path) => {
       currentSeason.key
     )
   ) {
+    return false;
+  }
+  if (isKiahkWeek("", "Week4")) {
     return false;
   }
 

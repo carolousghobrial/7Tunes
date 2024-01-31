@@ -602,66 +602,45 @@ export function getParamounDate(feastDate) {
 }
 
 export function isInFast(timeTransition) {
-  var myfastfeasts = getCopticFastsFeasts(moment().year());
-  const currentDate = new Date(getTodayDate(timeTransition));
+  const myfastfeasts = getCopticFastsFeasts(moment().year());
+  const currentDate = moment(getTodayDate(timeTransition)).startOf("day");
 
-  // ignore time and use date only
-  var todayDate = moment([
-    currentDate.getFullYear(),
-    currentDate.getMonth(),
-    currentDate.getDate(),
-  ]);
+  const isWeekend = currentDate.day() === 6 || currentDate.day() === 0;
 
-  // if day is Saturday or Sunday and not in Great Lent return false
-  //array1.find(element => element > 10);
-  var GreatLent = myfastfeasts.find((element) => element.key === "GREAT_LENT");
+  // Check if day is Saturday or Sunday and not in Great Lent, return false
+  const GreatLent = myfastfeasts.find(
+    (element) => element.key === "GREAT_LENT"
+  );
   if (
-    (todayDate.day() == 6 || todayDate.day() == 0) &&
-    !todayDate.isBetween(GreatLent.start, GreatLent.end, null, "[)")
+    isWeekend &&
+    !currentDate.isBetween(GreatLent.start, GreatLent.end, null, "[)")
   ) {
     return false;
   }
 
-  for (var x in myfastfeasts) {
-    // beginning of date range is inclusive
-    /*
-    check if date falls in fast, in major feast period, or on major feast day
-    */
+  // Check if today is a fasting day
+  for (const feast of myfastfeasts) {
     if (
-      myfastfeasts[x].type == "fast" &&
-      myfastfeasts[x].end !== null &&
-      todayDate.isBetween(
-        myfastfeasts[x].start,
-        myfastfeasts[x].end,
-        null,
-        "[)"
-      )
+      feast.type === "fast" &&
+      feast.end !== null &&
+      currentDate.isBetween(feast.start, feast.end, null, "[)")
     ) {
       return true;
     } else if (
-      myfastfeasts[x].type == "feast" &&
-      myfastfeasts[x].major &&
-      myfastfeasts[x].start.isSame(todayDate)
-    ) {
-      return false;
-    } else if (
-      myfastfeasts[x].type == "feast" &&
-      myfastfeasts[x].major &&
-      myfastfeasts[x].end !== null &&
-      todayDate.isBetween(
-        myfastfeasts[x].start,
-        myfastfeasts[x].end,
-        null,
-        "[)"
-      )
+      feast.type === "feast" &&
+      feast.major &&
+      (feast.start.isSame(currentDate) ||
+        (feast.end !== null &&
+          currentDate.isBetween(feast.start, feast.end, null, "[)")))
     ) {
       return false;
     }
   }
 
-  // finally if day is Wed or Fri return true
-  return todayDate.day() == 3 || todayDate.day() == 5;
+  // Finally, if day is Wed or Fri, return true
+  return currentDate.day() === 3 || currentDate.day() === 5;
 }
+
 export function plantsSeason(currentDate) {
   // ignore time and use date only
   var todayDate = moment(currentDate);
@@ -761,19 +740,15 @@ function getWeeksSinceStartDate(startDate) {
   return diffInWeeks;
 }
 function getSaintOfTheDay(copticDate) {
-  var SaintsFeastToday = [];
-  Object.keys(saintsFeastsCalendar).map((saint) => {
-    const isFeastDay = saintsFeastsCalendar[saint].some(
+  return Object.keys(saintsFeastsCalendar).filter((saint) =>
+    saintsFeastsCalendar[saint].some(
       (item) =>
         item.day === copticDate.day &&
         (item.month === undefined || item.month === copticDate.month)
-    );
-    if (isFeastDay) {
-      SaintsFeastToday.push(saint);
-    }
-  });
-  return SaintsFeastToday;
+    )
+  );
 }
+
 export function getCurrentSeasonByDate(date, timeTransition) {
   var fastsfeasts = getCopticFastsFeasts(date.getFullYear(), date);
   var collection = [];
@@ -788,7 +763,8 @@ export function getCurrentSeasonByDate(date, timeTransition) {
   var todayDate = moment(date);
   if (
     copticDate.day === 29 &&
-    (copticDate.month != "Tobe" || copticDate.month != "Meshir")
+    copticDate.month !== "Tobe" &&
+    copticDate.month !== "Meshir"
   ) {
     collection.push({
       key: "TWENTYNINTHTH_COPTIC_MONTH",
@@ -798,7 +774,8 @@ export function getCurrentSeasonByDate(date, timeTransition) {
       major: false,
     });
   }
-  fastsfeasts.map((feast) => {
+
+  fastsfeasts.forEach((feast) => {
     if (
       (feast.end === null && feast.start.isSame(todayDate)) ||
       (feast.end !== null &&
@@ -810,7 +787,7 @@ export function getCurrentSeasonByDate(date, timeTransition) {
 
   if (collection.length === 0) {
     let type = "regular";
-    if (todayDate.day() === 3 && todayDate.day() === 5) {
+    if (todayDate.day() === 3 || todayDate.day() === 5) {
       type = "fast";
     }
 
@@ -822,6 +799,7 @@ export function getCurrentSeasonByDate(date, timeTransition) {
       major: false,
     });
   }
+
   const mySeason = collection[0];
 
   var mycurrentSeason = {
@@ -845,8 +823,10 @@ export function getCurrentSeasonByDate(date, timeTransition) {
     copticDay: copticDate.day,
     copticYear: copticDate.year,
   };
+
   return mycurrentSeason;
 }
+
 export function getCurrentSeason(timeTransition) {
   var fastsfeasts = getCopticFastsFeasts(moment().year());
   var collection = [];
@@ -1018,7 +998,7 @@ export function getCopticDateByDate(date) {
 }
 export function getDateByCopticDate(copticMonth, copticDay) {
   if (copticMonth === undefined) {
-    return null;
+    return new moment();
   }
 
   const monthObj = CopticMonthObjects.find((item) => item.name === copticMonth);
@@ -1031,8 +1011,9 @@ export function getDateByCopticDate(copticMonth, copticDay) {
     moment().year(),
     monthObj.month - 1,
     monthObj.day - 1,
-  ]).add(copticDay - 1, "days");
-
+  ])
+    .add(copticDay - 1, "days")
+    .format("dddd, MMMM D, YYYY");
   return returnDate;
 }
 

@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الإبركسيس لألملاك غبريال",
+    "EnglishTitle": "Acts Response for Archangel Gabriel",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "السلام غبريال المبشر العظيم فى الملائكة والطغمات المقدسة العلوية حاملى السيف الملتهب ناراً .",
+            "Coptic": "Xere Gabrihl pifai]ennoufi > pini]; =en niaggeloc > nem nitagma eqouab etsoci > etfai =a `tchfi `n]a\\ `n`xrwm .",
+            "English": "Hail to Gabriel the herald of the glad tidings, the great among the angels, and the exalted holy orders, who carry fiery flaming swords.",
+            "Arabiccoptic": "شيرى غابرييل بى فاى شين نوفى . بينيشتى خين نى أنجيلوس. نيم نى طغما إثؤواب إتتشوسى. إيتفاى خا إتسيفى إنشاه إن إكروم.",
+            "Englishcoptic": "Shere Ghabriel pi fai shennoufi, pi nishty khen ni angelos, nem ni taghma Ethowab etechosi, etfai kha etsifi en shah en ekrom."
+        }
+    ]
+}

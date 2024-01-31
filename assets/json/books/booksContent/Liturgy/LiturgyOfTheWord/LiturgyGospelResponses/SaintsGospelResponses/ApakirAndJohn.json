@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل لأباكير ويوحنا اخوه",
+    "EnglishTitle": "Gospel Response for St.Apakir and John his Brother",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " اطلبا عنا ايها الشهيدان المجاهدان  .  أباكير ويوحنا اخوه ليغفر لنا خطايانا  .",
+            "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > `w niaqlovoroc `mmarturoc > Apakir nem Iwannhc pefcon > `ntefxa nennobi nan `ebol  . ",
+            "English": "+ Pray to the Lord on our behalf, O struggling martyrs, Apakir and John his brother, that He may forgive us our sins.",
+            "Arabiccoptic": " طوبه إمبتشويس إى إهرى إيجون: أو نى أثلوفوروس إممارتيروس:أباكير نيم يوأننس بيف سون:إنتيف كانين نوفى نان ايفول",
+            "Englishcoptic": "Tobhem empshois e-ehri egon: oo ni-athlovoros emmarteeros : Apakir nem Youannes pefson : en-tefka nen-novi nan evol  ."
+        }
+    ]
+}

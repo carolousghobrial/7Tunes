@@ -1,0 +1,74 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ذكصولوجية لالأنبا مقار الكبير",
+  "EnglishTitle": "Doxology for St.Macarius the Great",
+  "CopticTitle": " Xere pini]; abba Makari ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " السلام للعظيم أنبا مقار .  مصباح الرهبنة .  الذى صار منارة ذهبية .  تضئ أكثر من الشمس  . ",
+      "Coptic": " Xere pini]; abba Makari > pi=hbc `nte ;metmonaxoc > vh`etaf]wpi `nouluxnia `nnoub > `cerlampin `e\\ote `vrh  . ",
+      "English": "Hail to the great Abba Makari, the light of monasticism, who became the golden lamp, shining more than the sun. ",
+      "Arabiccoptic": " شيرى بى نيشتى آفا ماكارى: بى خيبس انتى تى ميت موناخوس: فى إيطاف شوبى إنؤ لينخنيا إن نوب: إس ايرلامبين إيهوتى إفرى  . ",
+      "Englishcoptic": "Shere pi-ni-shti Ava makari : pi-kheebs en-te timetmonakhos : vee-etaf-shoopi- en-ooleekhni-a en-noov : eserlampi-n ehote evree  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأن نفسك مضيئة .  في أورشليم السمائية .  وجسدك .  لامع في كنيستك  . ",
+      "Coptic": " `Cerouwini gar `nje tekyuxh > =en I=l=h=m `nte `tve > `f;mou`e `nje pekcwma > =en qhete qwk `nekklhcia > . ",
+      "English": " For your soul is enlightened, in the heavenly Jerusalem, and your body is shining, in your church. ",
+      "Arabiccoptic": " إسئير أوواوينى غار إنجى تيك إبسيشى: خين ييروساليم إنتى إتفى: إفتى مو إى إنجى بيك سوما: خين ثى إيتى ثوك إن أككليسيا  . ",
+      "Englishcoptic": "eSero-ooini ghar en-je tekpseeshee : khen- Ikhlkheekhm en-te etve : efti-moo-e en-je pek-sooma : khen- thee-ete thook en-ek-kleesia : ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " نعم نؤمن إنك كائن معنا .  نفسياً وجسداً وروحاً .  وصائر لنا معزياً .  ومزينا لنفوسنا  . ",
+      "Coptic": " Ce tenna\\; je `kxh neman > yuxh nem cwma nem `pneuma > `k]op nan `mparaklhcic > ouo\\ `ncolcel `nnenyuxh  . ",
+      "English": " Yes we believe that you are with us, in soul and body and spirit, you became a comfort for us, and adornment of our souls. ",
+      "Arabiccoptic": " سى تين ناهتى جى إككى نيمان: إبسيشى نيم سوما نيم ابنفما: إكشوب نان: إمباراكليسيس أووه إنصولسيل إن نين إبسيشى  . ",
+      "Englishcoptic": "Se ten-nahti je ekshee neman : pseeshee nem sooma nem epnevma : ekshop nan emparakleesis : owoh en-solsel en-nen-pseeshee  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " كل طائفة الرهبان .  تسبح وتبارك الله .  لأجل مجيئك إلينا .  با ابانا القديس انبا مقار  . ",
+      "Coptic": " `F\\wc ouo\\ `f`cmou `eV; > `nje pi`]lol thrf `nte nimonaxoc > `e`\\rhi `ejen pekjin`I ]aron > peniwt eqouab abba Makari  . ",
+      "English": " The congregation of the monks, praise and bless God, for your coming unto us, O our holy father Abba Makari. ",
+      "Arabiccoptic": " إفهوس أووه أف إسمو إى إفنوتى إنجى بى إشلول تيرف انتى نى موناخوس : إى إهرى إيجين بيك جيننى شارون: بين يوت إثؤاب آفا ماكارى  . ",
+      "Englishcoptic": "eFhoos owoh efesmoo eVti : ee-en-je pi-eshlol terf en-te ni-monakhos : eehreei ejen- pek-jin-I sharon : pen-ioot ethowab Ava makari  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فلهذا نسألك .  كأبناء لك في الصلاة .  اسأل الرب عنا .  لكي يصنع رحمة مع نفوسنا  . ",
+      "Coptic": " `Oqen ten;\\o `erok > \\wc ]hri `nte nekeuxh > ma;\\o `ePu `e`\\rhi `ejwn > `nteferounai nem nenyuxh  . ",
+      "English": " With this we entreat you, as sons of your prayers, ask the Lord on our behalf, that He may have mercy on our souls. ",
+      "Arabiccoptic": " أوثين تين تيهو إيروك: هوس شيرى انتى نيك إفشى: ماتيهو إى إبشويس إإهرى إيجون: انتيفئير أوناى نيم إبسيشى  . ",
+      "Englishcoptic": "Othen tenti-ho erok : hoos sheeri ente nek-evshee : mati-ho ePee eehreei egoon : enteferoonai nem nenpseeshee  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اطلب عنا .  يا سيدى الأب أنبا مقار .  وأولاده لابسى الصليب .  ليغفر لنا خطايانا  . ",
+      "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn `w pasoic `niwt abba Makari > nem nef]hri `nctaurovoroc > `ntefxa nennobi nan ebol ",
+      "English": " Pray to the Lord on our behalf, O my master and father Abba Makari, and all his children the cross-bearers, that He may forgive us our sins. ",
+      "Arabiccoptic": " طوبه إمبشويس إإهرى إيجون .  : أوباشويس إنيوت آفا ماكارى: نيم نيف شيرى إن ستافروفوروس : إنتيف كانين نوﭭى نان إيﭭول",
+      "Englishcoptic": "Tobhem empshois e-ehri egon : oo pachois en-ioot Ava makari : nem nefsheeri en-stavrovoros : en-tefka nen-novi nan evol"
+    }
+  ]
+}

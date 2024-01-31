@@ -40,6 +40,12 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsNativityParamoun",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsNativity",
             "Rule": 0,
             "Visible": "isSeason"
@@ -106,6 +112,12 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTwentyNinth",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsAscension",
             "Rule": 0,
             "Visible": "isSeason"
@@ -132,7 +144,7 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseVersesOfCymbalsArchangelMichaelAndGabriel",
             "Rule": 0,
-            "Visible": "isNOTLentWeekdayOrJonah"
+            "Visible": "showArchangelMichaelAndGabriel"
         },
         {
             "Type": "Main",
@@ -143,9 +155,29 @@
         {
             "Type": "Main",
             "Rule": 0,
+            "Visible": "ArchangelGabrielShow",
+            "Path": "RaisingOfIncenseVersesOfCymbalsArchangelGabriel"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsArchangelRaphael",
+            "Rule": 0,
             "Visible": "VOCSaint",
-            "Path": "RaisingOfIncenseVersesOfCymbalsArchangelGabriel",
-            "SAINT": "ARCHANGEL_GABRIEL"
+            "SAINT": "ARCHANGEL_RAPHAEL"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsFourIncorporealCreatures",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "SAINT": "FOUR_INCORPOREAL_CREATURES"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsTwentyFourPriests",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "SAINT": "TWENTY_FOUR_PRIESTS"
         },
         {
             "Type": "Main",
@@ -165,6 +197,13 @@
             "Path": "RaisingOfIncenseVersesOfCymbalsApostles",
             "Rule": 0,
             "Visible": "isNOTLentWeekdayOrJonah"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStJohntheBeloved",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "SAINT": "ST_JOHN_BELOVED"
         },
         {
             "Type": "Main",
@@ -195,6 +234,13 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStTheodoreShatpi",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "SAINT": " ST_THEODORE_SHOTEP"
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseVersesOfCymbalsStPhilopatir",
             "Rule": 0,
             "Visible": "VOCSaint",
@@ -218,6 +264,20 @@
             "Type": "Main",
             "Rule": 0,
             "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsApakirAndJohn",
+            "SAINT": " APAKIR_AND_JOHN"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsCosmanAndDemian",
+            "SAINT": "COSMAN_AND_DEMIAN"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
             "Path": "RaisingOfIncenseVersesOfCymbalsStDemiana",
             "SAINT": "ST_DEMIANA"
         },
@@ -227,6 +287,20 @@
             "Visible": "VOCSaint",
             "Path": "RaisingOfIncenseVersesOfCymbalsStMarina",
             "SAINT": "ST_MARINA"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsBarbara",
+            "SAINT": "ST_BARBARA"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsJuliana",
+            "SAINT": "ST_JULIANA"
         },
         {
             "Type": "Main",
@@ -246,8 +320,22 @@
             "Type": "Main",
             "Rule": 0,
             "Visible": "VOCSaint",
-            "Path": "RaisingOfIncenseVersesOfCymbalsStMoses",
-            "SAINT": "ST_MOSES"
+            "Path": "RaisingOfIncenseVersesOfCymbalsStMacariusGreat",
+            "SAINT": "MACARIUS_GREAT"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStStAthanasius",
+            "SAINT": "ATHANASIUS_APOSTOLIC"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsMaximusDometius",
+            "SAINT": " MAXIMUS_DOMETIUS"
         },
         {
             "Type": "Main",
@@ -255,6 +343,27 @@
             "Visible": "VOCSaint",
             "Path": "RaisingOfIncenseVersesOfCymbalsStPishoy",
             "SAINT": "ST_PISHOI"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStShenoudaTheArchManadrite",
+            "SAINT": "ST_SHENOUDA_ARCHMANDRITE"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStPachomious",
+            "SAINT": "ST_PACHOMIOUS"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "VOCSaint",
+            "Path": "RaisingOfIncenseVersesOfCymbalsSamuelConfessor",
+            "SAINT": "SAMUEL_CONFESSOR"
         },
         {
             "Type": "Main",

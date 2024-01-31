@@ -1,0 +1,74 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ذكصولوجية ل الانبا اثناسيوس الرسولي ",
+  "EnglishTitle": "Doxology for St.Athansius the Apostolic",
+  "CopticTitle": "Pi=hbc eterouwini",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " المصباح المنير لمدينة الإسكندرية لأجل عجائبه وآياته وضعوه على المنارة  . ",
+      "Coptic": " Pi=hbc eterouwini > `tpolic Ale[andriac > eqbe nef`]vhri nem nefmhini > auxaf `ejen ;luxnia  . ",
+      "English": " O you who are strong in managing the ship, O you the distinguished fighter, who is victorious in the wars, the luminous lamp. ",
+      "Arabiccoptic": "بي خيبس إت إر أووأويني : أت بوليس أليكساندرياس : إثفيه نيف إشفيري نيم نيف ميني : أف كاف إجين تي ليخنيا  . ",
+      "Englishcoptic": "Pikheebs etero-ooini : etpolis Alexanzrias : ethve nefeshveeri nem nefmeeini : avkhaf ejen ti-leekhnia  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأنه هو بالحقيقة أبينا أنبا أثناسيوس الراعي الحقيقي و الرسولي  . ",
+      "Coptic": " `N9qof gar =en oumeqmhi > pe peniwt abba Aqanacioc > pima`n`ecwou `nta`vmhi > ouo\\ piapoctolikoc  . ",
+      "English": " The leader of Orthodoxy, is Athanasius the apostolic, the instructor of the rational flock, That is for Christ. ",
+      "Arabiccoptic": " إنثوف غار خين أوو ميثمي : بيه بين يوت أفا أثناسيوس بي ما إن إسوؤو إنطا إفمي :أووه بي أبوسطوليكوس  . ",
+      "Englishcoptic": "eN9thof ghar khen oo-methmee : pe peni-oot Ava Athanasios : pi-maen-eso-oo entaevmeei : owoh pi-apostolikos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " المعلم الصالح والمعترف مثل الرسل و بقية التلاميذ  . ",
+      "Coptic": " Pica= `mmeteckalwc > ouo\\ piomologithc > `m`vrh; `nniapoctoloc > nem `pcepi `nte nimaqhthc  . ",
+      "English": " Your truthful teachings, pierced the hearts of the heretics, like a double-edged sword, by the power of the Trinity. ",
+      "Arabiccoptic": " بي ساخ إمميت إسكالوس :أووه بي أومولوجيتيس : إم إفريتي إن ني أبوسطولوس :نيم إبسيبي إنتيه ني ماثيتيس  . ",
+      "Englishcoptic": "Pisakh emmeteskaloos : owoh pi-omologitees : emevreeti en-ni-apostolos : nem epsepi- en-te ni-matheetees  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " تعاليمك المقدسة أعطت الفرح لقلوبنا وصاياك و أحكامك تنجينا من الفخاخ المنصوبة  . ",
+      "Coptic": " Nek`cbwoui eqouab > ; `m`pounof `nnenyuxh > nekentolh nem nek\\ap > na\\men =en niva] etxh  . ",
+      "English": " Every knee worshiped the Lord, and every tongue praised Him, The Glory of God was announced, and filled the entire universe. ",
+      "Arabiccoptic": " نيك إسفوؤوي إثؤواب :تي إم إب أوونوف إن نين بسيشي :نيك إندولي نيم نيك هاب :ناهمين خين ني فاش إت كي  . ",
+      "Englishcoptic": "Nekesvo-ooi ethowab : ti emep-onof en-nen-pseeshee : nek-en-tolee nem nek-hap : nahmen- khen- ni-vash etshee  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " نكرمك بالحقيقة مع المرتل داود لأنك أنت هو رئيس كهنة ربنا يسوع المسيح  . ",
+      "Coptic": " Tentaio `mmok alhqwc > nem Dauid pi\\umnodoc > je `nqok pe `parxhereuc > `nte pensoic Ihcouc pixrictoc  . ",
+      "English": " We therefore magnify You, along with David the prophet, For You are the priest forever, on the order of Melchizedek. ",
+      "Arabiccoptic": " تين طايو إمموك أليثوس :نيم دافيد بي هيمنوذوس : جيه إنثوك بيه إب أرشي إريفس : إنتيه بين تشويس إيسووس بي خريستوس  . ",
+      "Englishcoptic": "Ten-taio emmok aleethoos : nem Daviz pi-heemnozos : je en-thok pe eparshee-erevs : en-te pen-chois Isos pi-khristos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اطلب من الرب عنا يا أبانا القديس البطريرك أنبا أثناسيوس الرسولي ليغفر لنا خطايانا  . ",
+      "Coptic": " Twb\\ `m`psoic `e`\\rhi `ejwn > peniwt eqouab mpatriarxhc > abba Aqanacioc piapoctolikoc > `ntefxa nennobi nan ebol . ",
+      "English": "  to the great patriarch, our holy father Abba Athanasius, whose holy teachings, enlightened our minds. ",
+      "Arabiccoptic": " طوبه إم إبتشويس إ إهري إجون : بين يوت إثؤواب إم باتري أرشيس : أفا أثناسيوس بي أبوسطوليكوس : إنتيف كا نين نوفي نان إيفول  . ",
+      "Englishcoptic": "Toobh emep-chois eehreei egoon : pen-ioot ethowab mpatriarshees : Ava Athanasios pi-apostolikos : en-tefka nen-novi nan evol ."
+    }
+  ]
+}

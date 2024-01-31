@@ -38,7 +38,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "اسمه حلو ومبارك في أفواه القديسين أى الله الأب والابن والروح القدس",
-      "Coptic": "Pefran \\olj ouo\\ `f`cmarwout> =en rwou `nnh`eqouab> `ete vai pe V; `viwt> nem `P]hri nem Pi`pneuma`eqouab.",
+      "Coptic": "Pefran \\olj ouo\\ `f`cmarwout> =en rwou `nnh`eqouab> `ete vai pe `Vnou; `viwt> nem `P]hri nem Pi`pneuma`eqouab.",
       "English": "His Name is beautiful and blessed: In the mouths of His saints: This is God the Father: The Son and the Holy Spirit.",
       "Arabiccoptic": "بيفران هولج أووه إفإزماروؤوت، خين روانى اثؤاب، إتى فاى بى إفنوتى افيوت، نيم ابشيرى نيم بى ابنفما إثؤاب.",
       "Englishcoptic": "Pefran holg owoh efesmaro-oot: khen ro-oo ennee-ethowab: ete vai pe Evnoti evioot: nem ePsheeri nem Pi-epnevma ethowab."
@@ -72,7 +72,7 @@
       "Side": "North",
       "Arabic": "السلام لك أيتها العذراء  خلاص أدم وحواء السلام لك أيتها العذراء فرح الأجيال",
       "Coptic": "Xere ne `w :parqenoc> `pcwt `nAdam nem Eu`a> Xere ne `w :parqenoc> `pounof `nnigene`a.",
-      "English": "Hail to you O Virgin: The salvation of Adam and Eve: Hail ...: The joy of the ages.",
+      "English": "Hail to you O Virgin: The salvation of Adam and Eve: Hail to you O Virgin: The joy of the ages.",
       "Arabiccoptic": "شيرى نى أوتى بارثينوس، إبسوتى ان آدام نيم ايفا، شيرى نى أوتى بارثينوس، ابؤونوف انى جينيئا.",
       "Englishcoptic": "Shere ne oo Tiparthenos: epsoot en-Adam nem Ev-a: Shere ne-oo Tiparthen-os: ep-onof en-ni-gen-e-a."
     },
@@ -215,7 +215,7 @@
       "Side": "North",
       "Arabic": "السلام لك أيتها العذراء نبوة أشعيا السلام لك أيتها العذراء إعادة ارميا",
       "Coptic": "Xere ne `w :parqenoc> ;`provhtia `nHca`hac> Xere ne `w :parqenoc> `ptacqo `nIeremiac.",
-      "English": "Hail to you O Virgin: The prophecy of Isaiah : Hail... : The restoration of Jeremiah.",
+      "English": "Hail to you O Virgin: The prophecy of Isaiah : Hail to you O Virgin : The restoration of Jeremiah.",
       "Arabiccoptic": "شيرى نى أوتى بارثينوس، تى ابروفيتيا إن إسائياس، شيرى نى أوتى بارثينوس، ابتاس ثو ان إرمياس.",
       "Englishcoptic": "Shere ne oo Tiparthenos: ti-eproveeti-a en-Eesa-eeas: Shere ne oo Tiparthenos: eptasto en-Ieremias."
     },
@@ -270,7 +270,7 @@
       "Side": "South",
       "Arabic": "السشلام كرامة رؤساء الأباء السلام لك أيتها العذراء كرازة الأنبياء",
       "Coptic": "Xere ne `w :parqenoc> `ptaio `nnipatriarxhc> Xere ne `w :parqenoc>Y `p\\iwi] `nte ni`provhthc.",
-      "English": "Hail to you O Virgin: The glory of the Patriarchs : Hail ...: The preaching of the prophets.",
+      "English": "Hail to you O Virgin: The glory of the Patriarchs : Hail to you O Virgin: The preaching of the prophets.",
       "Arabiccoptic": "شيرى نى أوتى بارثينوس، إبتايو إنتى باتريارشيس، شيرى نى أوتى بارثينوس، إبهى أويش انتى نى إبروفيتيس.",
       "Englishcoptic": "Shere ne oo Tiparthenos: eptaio en-ni-patriarshees: Shere ne oo Tiparthenos:Ps ephiooish en-te ni-epro-phetees."
     },
@@ -404,7 +404,7 @@
       "Coptic": "Ten;`wou ne `w qh`eten\\ot> nem piaggeloc `nte pi`cmou> je xere qheqme\\ `n`\\mot> `o Kurioc meta cou.",
       "English": "We glorify you O faithful : with the angel of blessing saying : Hail to you full of grace : The Lord is with you.",
       "Arabiccoptic": "تنتى أو أو نى أو ثيئ تينهوت، نيم بى آنجيلوس نتى بى إسمو، جى شيرى ثى اثميه إن اهموت، أو كيريوس ميتا سو.",
-      "Englishcoptic": "Ten-ti-o-oo ne-oo thee-eten-hot: nem pi-angelos en-te pi-esmoo: je shere thee-ethmeh en-ehmot: -o Keerios meta soo."
+      "Englishcoptic": "Ten-ti-o-oo ne-oo thee-eten-hot: nem pi-angelos en-te pi-esmoo: je shere thee-ethmeh en-ehmot: o Keerios meta soo."
     },
     {
       "Type": "Base",
@@ -415,7 +415,7 @@
       "Coptic": "Ari`precbeuin `e`\\rhi `ejwn> `w tensoic `nnhb thren ;qe`otokoc> Maria `qmau `mPencwthr> `ntefxa nennobi nan `ebol.",
       "English": "Intercede on our behalf : O lady of us all, the Theotokos : Mary the Mother of our Savior : That He may forgive us our sins.",
       "Arabiccoptic": "أريبرزفيفين إإهرى إيجون . أوتين شويس إن نيب تيرين تى ثيؤطوكوس. ماريا إثماف إمبين سوتير . إنتيف كانين نوفى نان إيفول .",
-      "Englishcoptic": "Ariepresvevin eehreei egoon:-oo ten-chois en-neev teeren- ti-the-otokos: Maria ethmav emPen-sooteer: en-tefkha nen-novi nan evol."
+      "Englishcoptic": "Ariepresvevin eehreei egoon:-oo ten-chois en-neev teeren- ti-the-otokos: Maria ethmav emPen-sooteer: en-tefka nen-novi nan evol."
     }
   ]
 }

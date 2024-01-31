@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل لالملاك روفائيل",
+    "EnglishTitle": "Gospel Response for Archangel Raphael",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " إشفع فينا يا رئيس الملائكة الطاهر رافائيل مفرح القلوب ليغفر لنا خطايانا  . ",
+            "Coptic": " `Ari`precbeuin `e`\\rhi `ejwn > `w piarxhaggeloc eqouab > Ravahl `pounof `n\\ht > `ntefxa nen nobi nan `ebol.",
+            "English": "Intercede on our behalf, O holy archangel, Raphael the joy of hearts, that He may forgive us our sins.",
+            "Arabiccoptic": " اريب ريسفافين : او بي ارشى انجيلوس اثؤاب : رافائيل ابؤونوف انهيت : إنتيف كانين نوفى نان ايفول",
+            "Englishcoptic": "Ariepresvevin eehreei egoon : oo pi-arshee-angelos ethowab : Rafaeel ep-onof en-heet : entef ka nen novi nan evol"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ذكصولوجية للانبا باخوميوس ",
+  "EnglishTitle": "Doxology for St.Pachom",
+  "CopticTitle": "Nqok oumakarioc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أنت طوباوى .  يا أبانا القديس أنبا باخوم .  ورثت البركة .  من قبل الرب  . ",
+      "Coptic": " Nqok oumakarioc >peniwt eqouab abba Pa=wm >aker`klhronomin `mpi`cmou >`ebol\\iten Pu `Vnou; . ",
+      "English": "You are blessed, O our holy father Abba Pachom, you inherited the blessing, from the Lord God. ",
+      "Arabiccoptic": " إنثوك أو ماكاريوس: بين يوت اثؤاب آفا باخوم: أكئير إكليرونومين إمبى إسمو: ايفول هيتين إبشويس إفنوتى  . ",
+      "Englishcoptic": "Nthok oomakarios :pen-ioot ethowab Ava Pakhoom :akerekleeronomin empi-esmoo :-evolhiten- Pee Evnoti ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا أبانا القديس أنبا باخوم .  استحققت مراراً كثيرة .  أن تنظر الرب .  مع ملائكته القديسين  . ",
+      "Coptic": " Peniwt eqouab abba Pa=wm >aker`m`p]a `noumh] `ncop> akerqe`orin `mPsoic >nem nefaggeloc eqouab  . ",
+      "English": " Our holy father Pachom, was worthy many times, to see the Lord, and His holy angels. ",
+      "Arabiccoptic": " بين يوت إثؤاب آفا باخوم: أكئير إم إبش إنؤميش إنسوب: أكئير ثيؤرين إم إبشويس: نيم نيف أنجيلوس إثؤاب  . ",
+      "Englishcoptic": "Pen-ioot ethowab Ava Pakhoom :akeremep-sha en-oomeesh en-sop: akerthe-orin emPee :nem nefangelos ethowab  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا أبانا القديس أنبا باخوم .  فسرت وصايا الله  . وأكملت كل الفضائل .  وأرضيت المسيح  . ",
+      "Coptic": " Peniwt eqouab abba Pa=wm> aker`e\\e oua\\em nientolh `nte `Vnou;>akjwk `nniereth throu>ouo\\ akrana `mPi`xrictoc  . ",
+      "English": " Our holy father Pachom, you have explained the commandments of God, and you perfected all virtues, and pleased Christ. ",
+      "Arabiccoptic": " بين يوت إثؤاب آفا باخوم: أكئير إيهيه أوو آهيم نى إندولى إنتى إفنوتى: أكجوك إنتى إيريتى تيرو: أووه أكرانا إمبخرستوس  . ",
+      "Englishcoptic": "Pen-ioot ethowab Ava Pakhoom: aker-ehe ooahem ni-en-tolee en-te Evnoti-:akgook en-ni-eretee tero:owoh akrana emPikhristos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " زينه النساك .  يا أبانا القديس ثيؤدوروس .  لأنك صرت عوضاً .  عن أبيك باخوميوس  . ",
+      "Coptic": " Yolcel `nniackuthc >peniwt eqouab qe`odwroc >je ak]wpi `n`t]ebio>` mpekiwt Pa=wmioc  . ",
+      "English": " The adornment of the ascetics, is our holy father Theodore, for you became the replacement, of your father Pachom. ",
+      "Arabiccoptic": " إبسول سيل إن نى أسكيتيس: بين يوت إثؤاب ثيؤدوروس: جى أكشوبى إن إتشيفيو: إمبيك يوت باخوميوس  . ",
+      "Englishcoptic": "Psolsel en-ni-askeetees :pen-ioot ethowab Theodoros :je akshoopi en-etshevio:e mpek-ioot Pakhoomios  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ووجهت طلب الأخوة .  إلى التقوى .  ووعظتهم .  بكلامك الحلو  . ",
+      "Coptic": " Akxo\\ka\\ `nni`cnhou>`e`\\rhi `e;meteucebhc> akerkaqixin `mmwou >=en pekcaji gar et\\olj  . ",
+      "English": " You directed the needs, of the brothers to piety, and you preached to them, with your precious word. ",
+      "Arabiccoptic": " أك كوه كاه إن نى إسنيو: إى إهرى إى تى ميت إفسيفيس: أكئير كاثيكين إمموؤ: خين بيك ساجى غار إتهولج . ",
+      "Englishcoptic": "Akkhohkah en-ni-esneeoo:-eehreei eti-metevsevees: akerkathishin emmo-oo :khen- pek-saji ghar etholg  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وقويت الضعفاء .  وصغيرى القلوب .  بالمحبة الكاملة .  من قبل ربنا يسوع المسيح  . ",
+      "Coptic": " Ak;nom; `nnhet\\a]>nem nhetoi `nkouji `n\\ht>=en ;agaph etjhk `ebol>\\iten Penu I=h=c Pi`xrictoc  . ",
+      "English": " You comforted the weak, and those of faint-heartedness, with perfect love, through our Lord Jesus Christ. ",
+      "Arabiccoptic": " أكتى نومتى إن نى إتهياش: نيم نى إتؤى إن كوجى إنهيت: خين تى آغابى إتجيك إيفول: هيتين بنشويس إيسوس بخرستوس  . ",
+      "Englishcoptic": "Akti-nomti- en-nee-ethash:nem nee-etoi en-kooji een-heet:khen- ti-aghapee etgeek evol:hiten- Pen-ee Ikheekhs Pikhristos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " السلام لآبائنا القديسين .  أنبا باخوم صاحب الشركة .  وثيؤدوروس تلميذه .  محبى المسيح  . ",
+      "Coptic": " Xere nau `nio; eqouab> abba Pa=wm va ;koinwnia>nem qe`odwroc pefmaqhthc>nimenra; `nte Pi`xrictoc  . ",
+      "English": " Hail to my lords and holy fathers, Abba Pachom of the Koinonia, and Theodore his disciple, the beloved of Christ. ",
+      "Arabiccoptic": " شيرى ناشويس إنيوتى إثؤاب: آفا باخوم فاتى كينونيا: نيم ثيؤدوروس بيف ماثيتيس: نى ميزاتى إنتى بخرستوس  . ",
+      "Englishcoptic": "Shere nav enioti ethowab: Ava Pakhoom va tikoinooni-a:nem Theodoros pef-matheetees:ni-men-rati en-te Pikhristos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اطلبا .  .   .  يا أنبا باخوم صاحب الشركة .  وثيؤدروس تلميذه .  ليغفر لنا خطايانا  .  ",
+      "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn>abba Pa=wm va ;koinwnia>nem Qe`odwroc pefmaqhthc>`ntefxa nen nobi nan `ebol.",
+      "English": " Pray to the Lord on our behalf, Abba Pachom of the Koinonia, and Theodore his disciple, that He may forgive us our sins. ",
+      "Arabiccoptic": " طوبه إمبشويس إإهرى إيجون . : آبا باخوم فاتى كينونيا: نيم ثيؤدوروس بيف ماثيتيس: إنتيف كانين نوﭭى نان إيﭭول ",
+      "Englishcoptic": "Tobhem empshois e-ehri egon:Ava Pakhoom va ti-koinooni-a:nem Theodoros pef-matheetees:entef ka nen novi nan evol .  ."
+    }
+  ]
+}

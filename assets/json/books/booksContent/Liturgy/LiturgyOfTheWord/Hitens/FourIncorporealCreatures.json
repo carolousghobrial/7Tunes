@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " هيتين لألربعة حيوانات غير المتجسدين",
+  "EnglishTitle": "Hiten for The Four Incorporeal Living Creatures",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بشفاعات الاربعة الحيوانات الغير المتجسدين الخدام الملتهبون ناراً، يا رب إنعم لنا بمغفرة خطايانا.",
+      "Coptic": "|iten ni`precbia `nte pi`ftou `nzwon `nacwmatoc > `nlitourgoc `n]a\\ `n`xrwm > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the intercessions, of the four incorporeal creatures, the ministers fervent as fire, O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين ني إبريسفيا إنتي بي افتو انزؤون ان اسوماتوس : ان ليتورغوس ان شاه ان اكروم :إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي ",
+      "Englishcoptic": "Hiten niepresvia ente pi-eftoo en-zoon en-asoomatos : en-litoorghos en-shah en-ekrom: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

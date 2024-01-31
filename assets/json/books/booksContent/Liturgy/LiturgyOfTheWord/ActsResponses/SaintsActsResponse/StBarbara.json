@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الإبركسيس لالشهيدة بربارة ويوليانة",
+    "EnglishTitle": "Acts Response for St.Barbara and St.Juliana",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "Neutral",
+            "Visible": true,
+            "Arabic": "العذراء الصبية الحكيمة السيدة المختارة الحقيقية عروس المسيح القديسة بربارة .",
+            "Coptic": ":`alou `ncabh `mparqenoc> ;cwtp `nkuria `mmhi> ;]elet `nte Pi`xrictoc> ;`agia Barbara.",
+            "English": "The wise virgin child, the chosen and true lady, the bride of Christ, Saint Barbara.",
+            "Arabiccoptic": "تي الو انسافي ام بارثينوس : تي سوتب ان كيريا اممي : تي شيليت انتى بخريستوس : تي اجيا باربارا  . ",
+            "Englishcoptic": "Ti-aloo ensav emparthenos: ti-sotp enkerie emmi , ti-shelete ente Pikhristos, ti-Agia Barbara"
+        }
+    ]
+}

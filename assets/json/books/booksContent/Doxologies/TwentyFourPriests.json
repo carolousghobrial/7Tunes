@@ -1,0 +1,74 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ذكصولوجية لالاربعة وعشرين قسيساً",
+  "EnglishTitle": "Doxology for The Twenty Four Priests",
+  "CopticTitle": "Ouni]; gar pe pitaio",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عظيمة هي كرامة القديسين الغير المتجسدين كهنة الحق الاربعة و العشرين قسيساً  . ",
+      "Coptic": " Ouni]; gar pe pitaio >`nte nheqouab `nacwmatoc > niouhb `nte ;meqmhi > pijout `ftou `m`precbuteroc > . ",
+      "English": "For great is the honor, of the incorporeal saints, the priests of Truth, the twenty-four presbyters. ",
+      "Arabiccoptic": " اونيشتي غار بي بي تايو : انتي ني اثؤواب ان لسوماتوس : ني اوييب انتي تي ميثمي : بي جوت افتو امبريسفيتيروس  . ",
+      "Englishcoptic": "Oooni-shti ghar pe pi-taio :en-te neeethowab en-asoomatos : ni-oweeb en-te timethmeei : pi-goot eftoo emeepresveeteros : ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " من اجل انهم قريبون من الله وكائنون امام كرسيه يسبحونه بلا فتور النهار والليل  . ",
+      "Coptic": " Eqbe je ce=ent `e=9oun `eV;> ouo\\ euxh na\\ren pef`qronoc > eu\\wc `erof =en oumetaqmounk > `mpi`e\\oou nem p`iejwr\\  . ",
+      "English": " Because they are close to God, and near to His Throne, they praise him unceasingly, by day and by night. ",
+      "Arabiccoptic": " اثفي جي سي خونت ايخون اي افنوتي : اووه افشي ناهرين بيف ثرونوس: افهوس ايروف خين اوميت اثمونك : امبي ايهوؤو نيم بي ايجوره  . ",
+      "Englishcoptic": "Ethve je sekhen-t ekh9oon eVti-: owoh evshee nahren- pefeethronos : evhoos erof khen- oometathmoonk : empi-eho-oo nem p-ee-egoorh  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " جالسين على اربعة و عشرين كرسياً واكاليل على رؤوسهم  .  وجامات ذهب بأيديهم مملوءةً بخوراً مختاراً  . ",
+      "Coptic": " Eu\\emci \\ijen jout `ftou `n`qronoc > ere\\an`xlom \\ijen nou`avhoui > ere \\anvu`alh `nnoub =en noujij > eume\\ `n`cqoinoufi efcwtp  . ",
+      "English": " They sit upon twenty-four thrones, with crowns upon their heads, and with golden bowls in their hands, full of chosen incense. ",
+      "Arabiccoptic": " افهيمسي هيجين جوت افتو ان اثرونوس : ايري هان اكلوم هيجين نو افيؤوي :ايري هان في الي انوب خين نوجيج : افميه ان استوي نوفي افسوتب  . ",
+      "Englishcoptic": "Evhemsi hijen goot eeftoo eneethronos : erehanek-hlom hijen noo-aveeooi : ere hanvee-e-alee ennoov khen noojig : evmeh enestoinoofi efsootp  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الذي هو صلوات القديسين الذين على الأرض  .  يقدمونها الى الحمل الحقيقي  . ",
+      "Coptic": " Ete nai ne ni`proceuxh > `nte niagioc et\\ijen pika\\i > euerprockunin `mmwou > `e=oun ]a pi\\hb `mmhi  . ",
+      "English": " Which are the prayers, of the saints who lived on the earth, and they offer them, unto the True Lamb. ",
+      "Arabiccoptic": " ايتي ناي ني نيبروسيفشي : انتي ني اجيوس ايت هيجين بي كاهي كاف ايربروسكينين امؤو : ايخون شا بي هييب اممي  . ",
+      "Englishcoptic": "Ete nai ne ni-eeprosevshee : en-te ni-agios ethijen- pi-kahi : everproskeen-in emmo-oo : ekhoon sha pi-heev emmeei  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الذين يُظهِرون أسمائهم وهم كائنون على الأرض يطلبون من الرب عنهم من أجل أنهم قريبون من الله  . ",
+      "Coptic": " Nheqnaouwn\\ `nnouran `ebol > `eti eu]op \\ijen pika\\i > cenatwb\\ `mPsoic `e`\\rhi `ejwou >` eqbe je ce=ent `e=oun `eV;  . ",
+      "English": " And those who lived on the earth, their names will be revealed, they will ask the Lord for them, for they are close to God. ",
+      "Arabiccoptic": " ني اثنا اوؤونه ان اوران ايفول : ايتي ايفشوب هيجين بي كاهي :سينا توبه ام ابشويس اي اهري ايجؤواي افنوتي  . ",
+      "Englishcoptic": "Nee-ethnao-oonh en-nooran e-evol : e-eti evshop hijen- pi-kahi : sen-atoobh emPchois eehreei ego-oo :e ethve je sekhen-t e-ekhoon e-eVti  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " إشفعوا فينا يا كهنة الحق ال24 قسيساً  .  ليغفر لنا خطايانا  .",
+      "Coptic": " Ari`precbeuin `e`\\rhi `ejwn > niouhb `nte ;meqmhi > pik/d/ `mprecbuteroc > `ntefxa nen nobi nan `ebol.  ",
+      "English": " Intercede on our behalf, the priests of the Truth, the twenty-four presbyters, that He may forgive us our sins. ",
+      "Arabiccoptic": " اريب ريسفافين : ني اوييب انتي تي ميثمي : بي جوت افتو امبريسفيتروس: إنتيف كانين نوفى نان ايفول ",
+      "Englishcoptic": "Ari ep-resvevin eehry egon: ni-oweeb en-te ti-methmeei : pigot efto empresveeteros : entef ka nen novi nan evol"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ذكصولوجية لالانبا شنودة رئيس المتوحدين",
+  "EnglishTitle": "Doxology for St.Shenouda the Archimanidrite",
+  "CopticTitle": " `Nqok ou Makarioc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أنت المطوب .  يا أبانا القديس أنبا شنودة .  لأنك صرت رسولا .  ونبيا معاً  . ",
+      "Coptic": " `Nqok ou Makarioc> peniwt eqouab abba }enou;>je ak]wpi `nou apoctoloc > ouo\\ `m`prcvhthc eucop  . ",
+      "English": "You are blessed: O our holy father Abba Shenute: for you became an apostle: and also a prophet. ",
+      "Arabiccoptic": " إنثوك او ماكاريوس: بنيوت إثؤاب أﭭا شينوتي: ﭼى اكشوبى إن أوو ابوسطولوس: أووه إم إبروفيتيس إفصوب  . ",
+      "Englishcoptic": "eNthok oo makarios: pen-ioot ethowab Ava Shen-ooti-:je akshoopi en-oo apostolos : owoh emep-rsveetees evsop  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأنك وضعت لنا .  ناموساً للفضائل الكاملة .  وحفظت الوصايا .  المكتوبة في الإنجيل  . ",
+      "Coptic": " Ke gar akcemni nomoc nan> `eni `ereth etjhk `ebol> akare\\ `enientolh et`c=hout> =en pieuaggelion  . ",
+      "English": " You have set for us a law: of perfect virtues: and kept the written commandments: in the Gospel. ",
+      "Arabiccoptic": " كى غار أكسيمنى نوموس نان: ايه نى ايريتى إت ﭼيك إيفول: أك اريه اى نى إندولى إت إسخيوت: خين بى إيﭫ أنجيليون  . ",
+      "Englishcoptic": "Ke ghar aksemni nomos nan: en-i eretee etgeek evol: akareh en-ien-tolee eteskheeoot: khen- pi-evangelion  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " والسالكون فيها .  يحرسهم الله  . وملائكته ترافقهم .  إلى أورشليم السمائية  . ",
+      "Coptic": " Nheqnamo]i gar `n=htou> aV; `fnarwic `erwou> nef aggeloc mo]i nemwou>=en I=l=h=m `nte `tve  . ",
+      "English": " For the Lord will guard: those who follow them: His angels accompany them: in the heavenly Jerusalem. ",
+      "Arabiccoptic": " نى إثنا موشى غار إنخيتو:ا إفنوتى إفنا رويس إروؤوو: نيف أنجيلوس موشى نيموؤوو: خين يروساليم إنتى إتفى  . ",
+      "Englishcoptic": "Nee-ethnamoshi ghar en-kheetoo: aVti efnaroois ero-oo: nef angelos moshi nemo-oo:khen- Ikhlkheekhm en-te etve  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " بخور فضائله .  أعطى الفرح لنفوسنا .  مثل العنبر .  الفائح في الفردوس  . ",
+      "Coptic": " Api `cqoinoufi `nte nef`ereth> ;`m`pounof `nnenyuxh > `m`vrh; `mpi`arwmata> etrht =en piparadicoc  . ",
+      "English": " The incense of his virtues: delighted our souls: like the blossomed aroma: in the Paradise. ",
+      "Arabiccoptic": " ا بى إستوى نوفى إنتى نيف إيريتى : تى إم إبؤونوف إن نين بسيشى: إم إفريتى إمبى أرو ماطا:إت ريت خين بى باراديسوس  . ",
+      "Englishcoptic": "Api estoinoofi en-te nef-eretee: ti-emep-onof en-nen-pseeshee : emevreeti- empi-aroomata: etreet khen- piparazisos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " بالحقيقة ارتفعت جداً .  في وسط مجمع .  آبائنا الأرثوذكسين .  في مدينة أفسس  . ",
+      "Coptic": " Alhqwc aksici `ema]w> =en `qmh; `n;cunodoc> `nte nenio; `norqodo[oc> +en ;polic Evecoc  . ",
+      "English": " Truly you were greatly exalted: in the midst of the council: of our Orthodox fathers: in the city of Ephesus. ",
+      "Arabiccoptic": " اليثوس أكتشيسى إما شو: خين إثميتى إنتى سينوذوس: إنتى نين يوتى إن أورثوذوكسوس: خين تى بوليس إفيسوس  . ",
+      "Englishcoptic": "Aleethoos akchisi emashoo: khen ethmeeti entiseenozos: ente neni-oti enorthozoxos: Khen tipolis Evesos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وأخزيت نسطور .  البطريرك المنافق .  واعترفت .  الاعتراف الحسن  . ",
+      "Coptic": " Aksipi `nNictourioc > pi patriarxhc `nacebhc> ouo\\ aker`omologin> `n;`omologia eqnanec  . ",
+      "English": " You embarrassed Nestorius: the impious patriarch: and you have confessed: the good confession. ",
+      "Arabiccoptic": " أكتشيبى إن نيستوريوس: بى باطريارشيس إن أسي ﭭيس: أووه أك إر أومولوجين :إنتى أومولوجيا إثنا نيس  . ",
+      "Englishcoptic": "Akchipi en-Nistoorios : pi patriarshees en-asevees: owoh aker-omologin: en-ti-omologia ethnanes  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " بوحدانية الثالوث .  المحى المساوى .  الأب والابن والروح القدس .  3 أسماء لإله الواحد  . ",
+      "Coptic": " +en oumetouai `n;triac> `nreftan=o `nomooucioc> `Viwt nem `P]hri nem pi=p=n=a eqouab > =g `nran ounu; `nouwt  . ",
+      "English": " \"One in essence is the Trinity: coessential and life-giving: the Father the Son and the Holy Spirit: three hypostases in one God.\"",
+      "Arabiccoptic": " خين أوميت أوواى إن تى ترياس: إنريف طانخو إن أوموسيوس: إفيوت نيم إبشيرى نيم بى إبنﭭما إثؤاب: شومت إن ران أو نوتى إن أوواوت  . ",
+      "Englishcoptic": "Khen oometowai enti-trias: enreftankho enomo-oosios: Eviot nem ePsheeri nem pi-khpkhnkha ethowab : khgh enran ooneeti- eno-oot  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وسمعت الصوت الصارخ .  من السماء قائلاً: مقدس أنت .  يا شنودة رئيس المتوحدين  . ",
+      "Coptic": " Ouo\\ akcwtem et`cmh efw]> `ebol =en `tve efjw `mmoc > je auer `agiazin `mmof> Cenouqioc `narxh man`drithc  . ",
+      "English": "And you heard the loud voice: from heaven saying: \"You are sanctified: O Shenute the archimandrite.",
+      "Arabiccoptic": " أووه أكسوتيم إت إسمى إفؤش: إﭭول خين إتفى إفجو إمموس: ﭼى أﭭئير أجيازين إمموف: سينوو ثيوس إن أرشى مان إذريتيس  . ",
+      "Englishcoptic": "Owoh aksootem etesmee efoosh: evol khen etve efgoo emmos : je aver -agiazin emmof: Senoothios enarshee manezritees  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " طوباك أيها البار .  أنبا شنودة رئيس المتوحدين .  لأنك تكلمت مع المسيح .  مثل موسى واضع الناموس  . ",
+      "Coptic": " `Wouniatk `wpi11dikeoc> abba }enou; piarxh man`drithc> je `nqok akcaji nem Pi`xrictoc > `m`vrh; ` mMw`uchc pinomocithc  . ",
+      "English": " Blessed are you O righteous one: Abba Shenute the archimandrite: for you spoke with Christ: like Moses the law-giver. ",
+      "Arabiccoptic": " أوأوونياتك أو بى ذيكيؤس: أﭭا شينوتى بى أرشى مان إذريتيس : ﭼى إنثوك أك ساﭼى نيم بخرستوس:إم إفريتى إم مويسيس بى نوموسيتيس  . ",
+      "Englishcoptic": "Oo-ooni-atk oopi-11zikeos: Ava Shen-ooti pi-arshee manezritees: je en-thok aksaji nem Pikhristos : emevreeti e mmoo-eysees pi-nomositees  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اطلب من الرب عنا .  يا سيدى الأب الناسك .  أنبا شنودة رئيس المتوحدين .  ليغفر لنا خطايانا  . ",
+      "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > `w pasoic `niwt `nackuthc > abba }enou; piarxh mani`drithc> `ntefxa nen nobi nan `ebol.  ",
+      "English": " Pray to the Lord on our behalf, O my master the ascetic father: Abba Shenute the Archimandrite: that He may forgive us our sins. ",
+      "Arabiccoptic": " طوبه إمبتشويس اى إهرى إيجون: أو باتشويس إنيوت إن أسكيتيس: أﭭا شينوتى بى أرشى مان إذريتيس: إنتيف كا نين نوﭭى نان إيﭭول  . ",
+      "Englishcoptic": "Tobhem empshois e-ehri egon : oo pachois en-ioot en-askeetees : Ava Shen-ooti pi-arshee mani-ezritees: entef ka nen novi nan evol  ."
+    }
+  ]
+}

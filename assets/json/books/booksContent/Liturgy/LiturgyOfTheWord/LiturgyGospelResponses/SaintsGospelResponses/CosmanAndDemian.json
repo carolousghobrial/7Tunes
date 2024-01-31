@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل لالشهيدان قزمان و دميان",
+    "EnglishTitle": "Gospel Response for Cosman and Demian",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " أطلبوا عنا أيها الشهداء المجاهدون قزمان وأخوته وأمهم ليغفر .  .  . ",
+            "Coptic": " Twb\\ `mPsoic `e`\\ryi `egwn > ni`aqlouoroc `mmarturoc > Kocma nem nef`cnhou nem toumau > `ntefx,a nennobi nan `ebol . ",
+            "English": " Pray to the Lord on our behalf, O struggle mantled martyrs, Cosmas and his brothers and their mother that He may forgive us our sins.",
+            "Arabiccoptic": " طوبه إمبشويس اى إهرى إيجون  : ني اثلوفوروس ام مارتيروس : كوزما نيم نيف نيف اسنيو نيم تؤو ماف : انتيف كانين نوفي نان ايفول  . ",
+            "Englishcoptic": "Toobh em-Epchois e-ehri eghoon : ni-athlo-ooros emmarteeros : Kosma nem nefesneeoo nem toomav : en-tefkhso-ooa nen-novi nan evol ."
+        }
+    ]
+}

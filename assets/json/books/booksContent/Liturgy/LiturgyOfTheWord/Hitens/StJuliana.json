@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " هيتين للالشهيدة يوليانة ",
+  "EnglishTitle": "Hiten for St.Juliana",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلوات عروس المسيح القديسة يوليانة يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten ni`euxh `nte ;i]elet `nte Pixrictoc ;`agi`a `mmhi Iwlianh > Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the prayers of the bride of Christ, Saint Juliana ,O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين نى افكي انتى تي شيليت إنتى بي اخرستوس تى أجيا إممى يوليانى  إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
+      "Englishcoptic": "Hiten ni-evshee ente ti-shelete ente Pikhristos ti-agi-a emmeei Ioolianee : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

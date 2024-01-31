@@ -1,0 +1,74 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ذكصولوجية لالربعة حيوانات غير المتجسدين",
+  "EnglishTitle": "Doxology for The Four Incorporeal Living Creatures",
+  "CopticTitle": "Pi`ftou `nzwoun `nacwmatoc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الاربعة الحيوانات الغير متجسدين الحاملين مركبة الله وجه اسد  .  ووجه ثور  .  ووجه انسان  .  ووجه نسر  . ",
+      "Coptic": " Pi`ftou `nzwoun `nacwmatoc > etfai =a pi\\arma `nte `Vnou; ou\\o `mmoi nem ou\\o `mmaci > ou\\o `nrwmi nem ou\\o `n`a`htoc > . ",
+      "English": "The four incorporeal creatures, carry the throne of God, a face of lion and a face of a ram, a face of a man and a face of an eagle. ",
+      "Arabiccoptic": " بي افتو ان زوؤون ان اسوماتوس : ات فاي خا بي هارما انتي افنوتي اوهو اموي نيم اوهو اماسي : اوهو ان رومي نيم اوهو ان ايتوس  . ",
+      "Englishcoptic": "Pieeftoo een-zo-oon en-asoomatos : etfai kha pi-harma en-te Evnoti : ooho emmoi nem ooho emmasi : ooho en-roomi nem ooho en-aitos : ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وهم ايضا ممتلئون اعينا من قدام ومن خلفهم  .  ستة اجنحة للواحد وستة اجنحة للاخر  . ",
+      "Coptic": "Ouo\\ on eume\\ `mbal > \\i `t\\h nem va\\ou `mmwou > coou `nten\\ `mpiouai > nem `nten\\ `mpikeouai . ",
+      "English": " And they are full of eyes, from their fronts to their backs, six wings to the one, and six wings to the other. ",
+      "Arabiccoptic": " اووه اون افميه فال : هي اتهي نيم فاهو امو : تينه امبي اواي : نيم ان تينه امبيك اواي  . ",
+      "Englishcoptic": "Owoh on evmeh eemval : hi et-hee nem vahoo emmo-oo : so-oo een-tenh empi-owai : nem en-tenh empi-keowai ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " باثنين يغطون وجوههم وباثنين يغطون ارجلهم  .  ويطيرون باثنين  .  ويصرخون قائلين :",
+      "Coptic": " +en `cnau eu\\wbc `nnou\\o > =en `cnau eu\\wbc `nnousalauj > eu\\hl je =en pike`cnau > euw] `ebol eujw `mmoc  . ",
+      "English": " With two they cover their faces, with two they cover their feet, they fly with the other two, proclaiming and saying: ",
+      "Arabiccoptic": " خين اسناف اف هوبس ان اوهو : خين اسناف اف هوبس هنو اتشالافج : اف هيل جي خين بيك اسناف : افؤش ايفول افجو اموس  . ",
+      "Englishcoptic": "Khen esnav evhoobs ennooho : khen esnav evhoobs ennoochalavg : evheel je khen pi-kee-esnav : evoosh evol evgoo emmos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " قدوس قدوس قدوس رب الصاباؤوت  .  السماء والارض مملوءتان من مجدك وكرامتك  . ",
+      "Coptic": " Je `xouab ouo\\ `xouab > `xouab `Psoic cabawq > `tve nem `pka\\i me\\ `ebol > =en pek`wou nem pektaio  . ",
+      "English": "\"Holy and holy, holy O Lord of hosts, heaven and earth are full of, Your glory and Your honor. ",
+      "Arabiccoptic": " جي اكؤواب اووه اكؤواب: اكؤواب ابشويس سافاؤث: اتفي نيم ابكاهي ميه ايفول :خين بيك اوؤو نيم بيك تايو  . ",
+      "Englishcoptic": "Je Ek-owab owoh Ek-owab : Ek-owab Epchois savaooth : etve nem epkahi meh evol : khen pek-o-oo nem pek-taio  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ونحن ايضاً نسبح معهم باصوات غير ساكتة قائلين قدوس قدوس قدوس أيها الرب  . ",
+      "Coptic": " Anon de \\wn ten\\wc nemwou > =en \\an`cmh `natxarwou > je agioc agioc > agioc `w Kurioc . ",
+      "English": "\" We also praise with them, with incessant voices, saying \"Holy holy, holy O Lord. ",
+      "Arabiccoptic": " انون ذي هون تين هوس نيم اؤوؤو: خين هان اسمي ان اتخارؤو : جي اجيوس اجيوس :اجيوس او كيريوس  . ",
+      "Englishcoptic": "Anon ze hoon ten-hoos nemo-oo : khen- hanesmee en-atkharo-oo : je agios agios : agios oo Keerios ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " إشفعوا فينا ايها الاربعة الحيوانات الغير المتجسدين الخدام الملتهبون ناراً  .  ليغفر لنا خطايانا  . ",
+      "Coptic": " Ari`precbeuin `e`\\rhi `ejwn > `wpi`ftou `nzwon `nacwmatoc > `nlitourgoc `n]a\\ `n`xrwm > `ntefxa nen nobi nan `ebol.",
+      "English": "\" Intercede on our behalf, O four incorporeal creatures, the ministers fervent as fire, that He may forgive us our sins. ",
+      "Arabiccoptic": " اريب ريسفافين : اوبي افتو انزؤون ان اسوماتوس : ان ليتورغوس ان شاه ان اكروم: إنتيف كانين نوفى نان ايفول ",
+      "Englishcoptic": "Ari ep-resvevin eehry egon : oopi-eftoo en-zoon en-asoomatos : en-litoorghos en-shah en-ekrom : entef ka nen novi nan evol"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ذكصولوجية لالشهيدان قزمان و دميان",
+  "EnglishTitle": "Doxology for Cosman and Demian",
+  "CopticTitle": "Tiou `ncon `n`aqlouoroc",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " خمسة اخوة مجاهدين خدام المسيح أطهارا فى بتوليتهم من أم واحدة . ",
+      "Coptic": " `Tiou `ncon `n`aqlouoroc > `ndi`akwn `nte P=,=xc > outoubo =en touparqeni`a > `ebol =en toumau `nouwt . ",
+      "English": "Five struggling brothers, the ministers of Christ, purity to their virginity, from their one mother. ",
+      "Arabiccoptic": " تيو انسون ان اثلوفوروس : ان ذياكون انتي بيخريستوس : اوتوفو خين تو بارثينيا : ايفول خين اوماف اننوتي  . ",
+      "Englishcoptic": "Tioo en-son en-athlo-ooros : en-zi-akoon en-te Pkhso-ookhkhs : ootoovo khen- tooparthen-i-a : evol khen- toomav en-o-oot ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الذين هم قزمان ودميان وأنثيموس ولاونديوس وأبرابيوس أطباء وحكماء فى صناعتهم . ",
+      "Coptic": " Ete Kocma nem Deminoc > nem Anqimoc nem Leontioc > nem Ouprabioc \\anchini ne > ouo\\ `ncovoc =en toupicthmh . ",
+      "English": " Cosmas and Demian, Anthimus and Leontius, and also Arabius, they were doctors and physicians",
+      "Arabiccoptic": " اتي كوزما نيم دميانوس : نيم انثيموس نيم لونتيوس : نيم اوبراغيوس هان سيني ني :اووه انسوفوس خين توبيستيمي  . ",
+      "Englishcoptic": "Ete Kosma nem Deminos : nem Anthimos nem Leonti-os : nem Ooopravios hanseeini ne : owoh en-sovos khen- toopi-steemee ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يعالجون كل الأمراض النفسية والجسدية والمحبة فى وسطهم وكان بيتهم لكل واحد . ",
+      "Coptic": " Euerva`=ri `n]wni niben > na ni,yuxh nem na nicwma > `ere ;`agapi =en toumh; > `ere pouhi `nouon niben . ",
+      "English": " They healed every sickness, of the soul and the body, and love was in their midst,  their house was open for all.   ",
+      "Arabiccoptic": " ايف ايرفاخري انشوني نيفين : نا ني ابسيشي نيم نا نيسوما : اري تي اغابي خين توميتي : ايري بوي انؤون نيفين  . ",
+      "Englishcoptic": "Evervaekhri en-shooni niven- : na niso-oopseeshee nem na nisooma : ere ti-aghapi khen- toomeeti- : ere pooeei en-o-oon niven- ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فقام الاخوةالخمسة ومضوا الى الوالى وفى الطريق صنعوا عجائب وآيات عظيمة فى الطريق . ",
+      "Coptic": " Autwonou `nje pi`tiou `ncon > au]enwou ]a pi\\hgemwn > au`iri `n\\anni]; `n`]uvhri > nem \\anmhini \\i pimwit . ",
+      "English": " The five brothers arose, and went to the governor, they performed many wonders, and signs on the way. ",
+      "Arabiccoptic": " افتونؤو انجي بي اتيو انسون : افشينؤو شا بيهيجيمون : اف ايري ان هاننيشتي ان اشفيري : نيم هان ميني هي بي مويت  . ",
+      "Englishcoptic": "Avtoonoo en-je pi-eti-oo en-son : avshen-o-oo sha pi-heegemoon : av-eeri en-hanni-shti- en-esheeveeri : nem hanmeeini- hi pi-mooit ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " والقديسة ثيؤدوذا أمهم المباركة القديسة كانت تثبتهم فى الايمان على اسم يسوع المسيح . ",
+      "Coptic": " T`aji`a Qe`ododa > toumau `e`t`cmarwout eqouab > nactajro `mmwou =en pina\\; `ejen `vran `nI=hc P___==xc  . ",
+      "English": " Saint Theodota, their blessed and holy mother, confirmed them in the faith, in the name of Jesus Christ.",
+      "Arabiccoptic": " تي اجيا ثيؤدودا تو ماف اتسمارؤوت اثؤواب : ناستاجرو امؤو خين بي ناهتي : ايجين افران ان ايسوس بيخريستوس  . ",
+      "Englishcoptic": "Te-aji-a The-ozoza : toomav eetesmaro-oot ethowab : nastagro emmo-oo khen pi-nahti ejen evran eenIkhees Poisoisoiskhkhkhs  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ولما وقفوا أمام الوالى جاهروا باعترافهم باعلان عظيم . ",
+      "Coptic": " Etau`o\\i gar `eratou > `mpe`mqo `mpi\\hgemwn > au; `n`touomoulogi`a > =en ouni]; `mparrhci`a . ",
+      "English": " For when they all stood, before the governor, they gave their confession, with great fervor. ",
+      "Arabiccoptic": " اتاف اوهي غار اراتو : امبي امثو امبي هي جيمون : افتي انتوؤمولوجيا : خين اونيشتي امبا ريسيا  . ",
+      "Englishcoptic": "Etave-ohi ghar eratoo : empeemtho empi-heegemoon : avti en-eto-oomoologi-a : khen- ooni-shti emparreesi-a ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وبهذا توشحوا باكليل الشهادة غير المضمحل وعيدوا مع المسيح فى كورة الأحياء . ",
+      "Coptic": " +en nai auervorin `n\\an`,xlom `natlwm > `nte ;met marthroc > auer]ai nem P=,=xc =en `tx,wra `nte nheton= . ",
+      "English": " With this they wore the unfading crowns, of martyrdom, they celebrated with Christ, in the region of the living. ",
+      "Arabiccoptic": " خين ناي افئر فورين ان هان اكلوم انتالوم : انتي تي ميت مارتيروس : اف ارشاي نيم بيخريستوس ك خين اتخورا انتي ني اتؤنخ  . ",
+      "Englishcoptic": "Khen nai avervorin enhaneso-ookhlom enatloom : ente ti-met marteeros : avershai nem Pkhso-ookhkhs khen etkhso-o-oora ente nee-etonkh ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أطلبوا عنا أيها الشهداء المجاهدون قزمان وأخوته وأمهم ليغفر .  .  . ",
+      "Coptic": " Twb\\ `mPsoic `e`\\ryi `egwn > ni`aqlouoroc `mmarturoc > Kocma nem nef`cnhou nem toumau > `ntefx,a nennobi nan `ebol . ",
+      "English": " Pray to the Lord on our behalf, O struggle mantled martyrs, Cosmas and his brothers and their mother that He may forgive us our sins.",
+      "Arabiccoptic": " طوبه إمبشويس اى إهرى إيجون  : ني اثلوفوروس ام مارتيروس : كوزما نيم نيف نيف اسنيو نيم تؤو ماف : انتيف كانين نوفي نان ايفول  . ",
+      "Englishcoptic": "Toobh em-Epchois e-ehri eghoon : ni-athlo-ooros emmarteeros : Kosma nem nefesneeoo nem toomav : en-tefkhso-ooa nen-novi nan evol ."
+    }
+  ]
+}

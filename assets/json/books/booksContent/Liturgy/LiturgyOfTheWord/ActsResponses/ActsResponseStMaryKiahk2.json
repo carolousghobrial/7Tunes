@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الإبركسيس لألعزراء مريم في الاحد الرابع من كيهك",
+    "EnglishTitle": "Acts Response for St.Mary for the 4th Week of Kiahk",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Neutral",
+            "Arabic": "السلام لكِ يا مريمُ. سلاماً مقدساً. السلام لكِ يامريمُ، أم القدوس.",
+            "Coptic": "Xere ne Mari`a > =en ouxere efouab > xere ne Maria > `qmau `mvheqouab.",
+            "English": "Hail to you O Mary, with a holy hail. Hail to you, O Mary, the mother of the Holy One.",
+            "Arabiccoptic": "شيري نيه ماريا : خين أوو شيري إفؤواب : شيري نيه : ماريا إثماف إم في إثؤواب  .",
+            "Englishcoptic": "Shere Ne Maria,khen O shere Efouab, Shere Ne Maria, Ethmav Emvi Ethowab."
+        }
+    ]
+}

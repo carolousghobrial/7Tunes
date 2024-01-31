@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل لانبا صموئيل المعترف",
+    "EnglishTitle": "Gospel Response for St.Samuel the Confessor",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " أطلب من الرب عنا .  يا أبانا القديس أنبا صموئيل .  وأولاده الرهبان .  ليغفر لنا خطايانا  . ",
+            "Coptic": " Twb\\ `mPsoic `e`\\rhi `ejwn > `w peniwt eqouab abba Camouhl > nem nef]hri `mmonaxoc > `ntefxa nennobi nan `ebol > . ",
+            "English": " Pray to the Lord on our behalf, O our holy father Abba Samuel, and all his children the monks, that He may forgive us our sins. ",
+            "Arabiccoptic": " طوبه إمبشويس إى إهرى إيجون: أو بين يوت إثؤاب آفا صاموئيل: نيم نيف شيرى إمموناخوس: إنتيف كانين نوﭭى نان إيﭭول  . ",
+            "Englishcoptic": "Toobh emPee eehreei egoon : oo pen-ioot ethowab Ava Samooeel : nem nefsheeri emmonakhos : en-tefka nen-novi nan evol ."
+        }
+    ]
+}

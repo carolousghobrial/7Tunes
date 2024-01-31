@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية مارجرجس 2",
+  "EnglishTitle": "St.George Doxology 2",
+  "CopticTitle": " Nixoroc `nte nimarturoc  ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " صفوف الشهداء والأبرار والصديقين يطوبونك أيها الملك جيؤرجيوس  . ",
+      "Coptic": " Nixoroc `nte nimarturoc > nem ni`qmhi nem ni dikeoc > euermakarizin `mmok > `w piouro Gewrgioc , . ",
+      "English": "The choruses: of the martyrs: the just and the righteous: bless you O King George;",
+      "Arabiccoptic": "ني خوروس إنتيه ني مارتيروس نيم ني إثمي نيم ني ذيكيؤس : إﭭ إرماكاريزين إمموك : اوو بي اورو جيؤرجيوس  . ",
+      "Englishcoptic": "Nikhoros en-te ni-Marteeros:  nem ni-ethmeei nem ni- zikeos : evermakarizin emmok : oo pi-ooro Geoorgios so-oo ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأنك انت العظيم فيهم من اجل اعترافك بعد سبع سنوات من الزمن لم ينكر اسم المسيح  . ",
+      "Coptic": " Je `nqok ouni]; gar `n=htou > eqbe teko mologia > menenca =z `nrompi `nchou > `mpe\\ai ermeui` `m Pi`xrictoc  . ",
+      "English": "For you are great among them: because of your confession: after seven years' time: no one remembered Christ.",
+      "Arabiccoptic": " ﭽيه إنثوك اوو نيشتي غار إنخيتو : إثﭭيه تيكو مولوجيا : مينينسا شاشف إن رومبي إنسيو : إمبيهاي إرميفي إمبي إخريستوس  . ",
+      "Englishcoptic": "Je en-thok ooni-shti ghar en-kheetoo : ethve teko mologia : men-en-sa khz en-rompi en-seeoo : empehai ermevie em Pikhristos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " إعترفت بالمسيح علناً بغير خوف وكان سبعون ملكاً مع اوثانهم النجسة  . ",
+      "Coptic": " Akouwn\\ `m Pi`xrictoc ebol > =en ouparrhcia `na ter\\o; > af]wpi `n\\an =o `nouro > nem nou`idwlon etsw=em  . ",
+      "English": "You proclaimed Christ: boldly and fearlessly: Seventy kings were there: with their defiled idols.",
+      "Arabiccoptic": " اك اوؤنه إمبي إخريستوس إيفول : خين اووباريسيا إن ات إرهوتي : افشوبي إنهان اشفيه إن اورو : نيم نو إيذولون إت تشوخيم  . ",
+      "Englishcoptic": "Ako-oonh em Pikhristos evol : khen ooparreesia ena terhoti : afshoopi enhan kho enooro : nem noo-eezoolon etchookhem  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فبات الامات منهم  .  سبع سنوات كاملة عذبوك بعذابات عظيمة  . ",
+      "Coptic": " Ak]ep `mkau\\ `ebol \\itotou > `n=z `nrompi etjhk `ebol> auerbacanizin `mmok > =en ouni]; `mbacanoc  . ",
+      "English": "You received sufferings from them: for seven whole years: They tortured you: with great tortures.",
+      "Arabiccoptic": " اك شيب إمكافه إيفول هيتوتو : إن شاشف إن رومبي إتﭽيك إيﭭول : اﭭ إرفاصاني زين إمموك :خين اوونيشتي إمفاصانوس  . ",
+      "Englishcoptic": "Akshep emkavh evol hitotoo : en-khz en-rompi etgeek evol: avervasani-zin emmok : khen- ooni-shti emvasanos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وبهذا الملك المسيح كرمك جداً اكثر من الشهداء ودعاك العظيم فيهم  . ",
+      "Coptic": " +en nai aPi`xrictoc Piou ro > ;taio `mmok `ema]o > `e\\ote pi U afmou; `erok jeo uni]; `n=htou . ",
+      "English": "With these, Christ the King: honored your greatly: more than the martyrs: He called you, \"great\", among them.",
+      "Arabiccoptic": " خين ناي اب خريستوس بي اورو : تي طايو إمموك إماشو : إهوتيه بي مارتيروس افموتي إروك ﭽيه اوونيشتي إنخيتو  . ",
+      "Englishcoptic": "Khen nai aPikhristos Pioo ro : ti-taio emmok emasho : ehote pi Ee afmooti- erok jeo eeni-shti- enkheetoo ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وألبسك سبعة اكاليل بيمينه  .  ورفعك معه الى ملكوته بمجد وكرامة  . ",
+      "Coptic": " Afervorin `mmok =en tefjij > `noui nam `n=z `nxlom > afolk nemaf etef metouro > =en `wou nem outaio  . ",
+      "English": "With His right hand he adorned you: with seven crowns: He lifted you with Him: to His kingdom with glory and honor.",
+      "Arabiccoptic": " اف إرفورين إمموك خين تيف ﭽيج : إن اواي نام إن شاشف إن إكلوم : اف اولك نيماف إتيف ميت اورو : خين اوؤ نيم اوطايو  . ",
+      "Englishcoptic": "Afervorin emmok khen tefjig : enooi nam enkhz enkhlom : afolk nemaf etef metooro : khen o-oo nem ootaio  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " السلام لك يا شهيد ربنا يسوع المسيح السلام للشجاع المجاهد سيدي الملك جيؤرجيوس  . ",
+      "Coptic": " Xere nak `w piU > `nte pen u I=hc Pi`xrictoc > xere piswij `ngenneoc> pasoic `pouro Gewrgioc  . ",
+      "English": "Hail to you, O martyr: Hail to the courageous hero: Hail to the struggle-mantled: my lord King George.",
+      "Arabiccoptic": " شيري ناك اووبي مارتيروس : إنتيه بين تشويس إيسوس بي إخريستوس : شيري بي تشويج إنجينيؤس : باتشويس إب اورو جيؤرجيوس  . ",
+      "Englishcoptic": "Shere nak oo pi-Ee : en-te pen- ee Ikhees Pikhristos : shere pi-chooig en-gen-neos: pachois epooro Geoorgios  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اطلب عنا أيها الشهيد المجاهد سيدي الملك جيؤرجيوس  .  ليغفر لنا خطايانا  . ",
+      "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > piaqlovoroc `mU > pasoic `pouro Gewrgioc> `ntef .  .  .  .  .",
+      "English": "Pray to the Lord on our behalf: O struggle-bearer and martyr: my lord Prince George: that He may forgive us our sins.",
+      "Arabiccoptic": " طوبه إمبشويس إإهرى إيجون : بي اثلوفوروس إم مارتيروس : باتشويس إب اورو جيؤرجيوس : إنتيف  .  .  .",
+      "Englishcoptic": "Tobhem empshois e-ehri egon : pi-athlovoros emEe : pachois epooro Geoorgios: en-tef .  .  .  .  ."
+    }
+  ]
+}

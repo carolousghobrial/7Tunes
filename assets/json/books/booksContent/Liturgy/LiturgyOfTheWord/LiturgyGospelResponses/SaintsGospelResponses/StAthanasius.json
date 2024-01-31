@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل الانبا اثناسيوس الرسولي ",
+    "EnglishTitle": "Gospel Response for St.Athansius the Apostolic",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " اطلب من الرب عنا يا أبانا القديس البطريرك أنبا أثناسيوس الرسولي ليغفر لنا خطايانا  . ",
+            "Coptic": " Twb\\ `m`psoic `e`\\rhi `ejwn > peniwt eqouab mpatriarxhc > abba Aqanacioc piapoctolikoc > `ntefxa nennobi nan ebol . ",
+            "English": "  Pray to the Lord on our behalf, O our holy father the patriarch, Abba Athanasius the Apostolic, that He may forgive us our sins. ",
+            "Arabiccoptic": " طوبه إم إبتشويس إ إهري إجون : بين يوت إثؤواب إم باتري أرشيس : أفا أثناسيوس بي أبوسطوليكوس : إنتيف كا نين نوفي نان إيفول  . ",
+            "Englishcoptic": "Toobh emep-chois eehreei egoon : pen-ioot ethowab mpatriarshees : Ava Athanasios pi-apostolikos : en-tefka nen-novi nan evol ."
+        }
+    ]
+}

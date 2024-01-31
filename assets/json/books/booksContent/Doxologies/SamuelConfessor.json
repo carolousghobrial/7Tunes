@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ذكصولوجية لانبا صموئيل المعترف",
+  "EnglishTitle": "Doxology for St.Samuel the Confessor",
+  "CopticTitle": " Xere peniwt abba Camouhl",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " السلام لأبينا أنبا صموئيل .  العظيم في القديسين .  الذى صنع فضائل عظيمة .  في جبل شيهيت  . ",
+      "Coptic": " Xere peniwt abba Camouhl > pini]; =en ni`agioc > vh`etaf`iri `n\\anni]; `nareth > =en `ptwou `nte }i\\ht  . ",
+      "English": "Hail to Abba Samuel, the great among the saints, who has gained great virtues, in the mountain of Shiheet. ",
+      "Arabiccoptic": " شيرى بينيوت آﭭا صاموئيل: بى نيشتى خين نى آجيوس: في إيطافئيرى إنهان نيشتى إن آريتى: خين إبتوؤو إنتى شيهيت  . ",
+      "Englishcoptic": "Shere pen-ioot Ava Samooeel : pi-ni-shti khen- ni-agios : vee-etaf-eeri en-hanni-shti en-aretee : khen- epto-oo en-te Shiheet  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " السلام لأبينا أنبا صموئيل .  الذى خزق طومس لاون .  وثبت أخوته .  في الإيمان الأرثوذكسى  . ",
+      "Coptic": " Xere peniwt abba Camouhl > vh`etafvw= `m`ptomoc `nLewn > ouo\\ aftajro `nnefchou > =en pina\\; `norqodo[oc  . ",
+      "English": " Hail to our father Abba Samuel, who tore the Tome of Leo, he confirmed his brothers, in the Orthodox faith. ",
+      "Arabiccoptic": " شيرى بينيوت آﭭا صاموئيل: في إيطاف فوخ إم ابتوموس إنليؤن: أووه أفطاجرو إن نيف سيو: خين بى ناهتى إن أورثوذوكسوس  . ",
+      "Englishcoptic": "Shere pen-ioot Ava Samooeel : vee-etaf-vookh emep-tomos en-Leoon : owoh aftagro en-nefseeoo : khen- pi-nahti en-orthozoxos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأجل هذه طارده .  ماكيس اتريانوس المنافق .  فأتى إلى جبل القلمون .  مع أربعة رهبان مختارين  . ",
+      "Coptic": " Eqbe vai afsoji `ncwf > `nje Makic Atr`ianoc pi`acebhc > ouo\\ af`i \\a `ptwou `nKalamon > nem =piftou `ncwtp `mmonaxoc  . ",
+      "English": " Wherefore the impious one, Macius Atrianus sought him, he sent him to the mountain of Qualamon, with four chosen monks. ",
+      "Arabiccoptic": " إثﭭى فاى أفتشوجى إنسوف: إنﭼى ماكيس اتريانوس بى آسيﭭيس: أووه أفئى ها إبتوؤو إنكالامون: نيم إفتو إنسوتب إمموناخوس  . ",
+      "Englishcoptic": "Ethve vai afchoji en-soof : en-je makis Atre-eeanos pi-e-asevees : owoh af-ee ha epto-oo en-Kalamon : nem khpi-ftoo en-sootp emmonakhos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أنبا صموئيل المعترف .  قد صبر على أتعاب .  الاضطهاد .  وسبى البربر . ",
+      "Coptic": " Abba Camouhl pi`omologithc > `nqof afer\\upomonin > `ejen ni=ici `nte pi diwgmoc > nem ;exmalwcia `nte Nibarbaroc  . ",
+      "English": " Abba Samuel the confessor, was very patient, through the pains of the sufferings, and the captivity of Barbarians. ",
+      "Arabiccoptic": " آﭭا صموئيل بى أومولجيتيس: إنثوف أف إرهيبومونين: إيﭼين نيخيسى إنتى بى ذيؤغموس: نيم تى إخمالوسيا إنتى تى بارباروس  . ",
+      "Englishcoptic": "Ava Samooeel pi-omologitees : en-thof aferheepomoni-n : ejen- ni-khisi en-te pi- ziooghmos : nem ti-ekhmaloosia en-te Nivarvaros  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " السلام لأبينا أنبا صموئيل .  الذى صنع آيات وعجائب .  وشفى المرضى في الدير .  ومدينة البربر  . ",
+      "Coptic": " Xere peniwt abba Camouhl > vh`etaf`iri `n\\anmhni nem \\an`]vhri > ouo\\ aftalso `nnhet]wni > =en pimonacthrion nem `qbaki `nniBarbaroc  . ",
+      "English": " Hail to our father Abba Samuel, who performed wonders and signs, he healed the sick, in the monastery and the city of the Barbarians. ",
+      "Arabiccoptic": " شيرى بينيوت آفا صاموئيل: فى إيطافئيرى إنهان مينى نيم هان إشفيرى : أووه أفطالتشو إن نى إتشونى: خين بى موناستيرون نيم إث ﭭاكى إن نى بارباروس  . ",
+      "Englishcoptic": "Shere pen-ioot Ava Samooeel : vee-etaf-eeri en-hanmeen-i nem haneshveeri : owoh aftalcho en-nee-etshooni : khen- pi-monasteerion nem ethvaki en-niVarvaros  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " السلام لأبينا أنبا صموئيل .  الذى صار أباً رحوماً .  ومعلمناً صالحاً .  لأبنائه الرهبان  . ",
+      "Coptic": " Xere peniwt abba Camouhl > vh`etaf]wpi `niwt `nnaht> nem ouref;`cbw `n`agaqoc > `nnef]hri `mmonaxoc  . ",
+      "English": " Hail to our father Abba Samuel, who became a merciful father, and a good teacher, for his children the monks. ",
+      "Arabiccoptic": " شيرى بينوت آفا صاموئيل: في إيطاف شوبى إنيوت إنائيت: نيم أو ريفتى إسﭭو إن آغاثوس: ان نيف شيرى إمموناخوس  . ",
+      "Englishcoptic": "Shere pen-ioot Ava Samooeel : vee-etaf-shoopi en-ioot en-naeet: nem oorefti-esvoo en-aghathos : en-nefsheeri emmonakhos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " السلام لأبينا أنبا صموئيل .  الذى صار أباً عظيماً جداً .  في السماء وعلى الأرض .  عند الله والناس  . ",
+      "Coptic": " Xere peniwt abba Camouhl > vh`etaferni]; `ema]w > =en `tve nem \\ijen pika\\i > =aten `Vnou; nem pirwmi  . ",
+      "English": " Hail to our father Abba Samuel, who became exceedingly great, in heaven and on earth, before God and men. ",
+      "Arabiccoptic": " شيرى بينوت آفا صاموئيل: في إيطافئيرنيشتى إيماشو: خين إتفى نيم هيﭼين بى كاهى: خاتين إفنوتى نيم بى رومى  . ",
+      "Englishcoptic": "Shere pen-ioot Ava Samooeel : vee-etaf-erni-shti emashoo : khen- etve nem hijen- pi-kahi : khaten- Evnoti nem pi-roomi  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أطلب من الرب عنا .  يا أبانا القديس أنبا صموئيل .  وأولاده الرهبان .  ليغفر لنا خطايانا  . ",
+      "Coptic": " Twb\\ `mPsoic `e`\\rhi `ejwn > `w peniwt eqouab abba Camouhl > nem nef]hri `mmonaxoc > `ntefxa nennobi nan `ebol > . ",
+      "English": " Pray to the Lord on our behalf, O our holy father Abba Samuel, and all his children the monks, that He may forgive us our sins. ",
+      "Arabiccoptic": " طوبه إمبشويس إى إهرى إيجون: أو بين يوت إثؤاب آفا صاموئيل: نيم نيف شيرى إمموناخوس: إنتيف كانين نوﭭى نان إيﭭول  . ",
+      "Englishcoptic": "Toobh emPee eehreei egoon : oo pen-ioot ethowab Ava Samooeel : nem nefsheeri emmonakhos : en-tefka nen-novi nan evol : ."
+    }
+  ]
+}

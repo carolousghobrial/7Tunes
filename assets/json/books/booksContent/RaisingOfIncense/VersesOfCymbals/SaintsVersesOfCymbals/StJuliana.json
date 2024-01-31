@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس لالشهيدة بربارة ويوليانة",
+    "EnglishTitle": "Verses of the Cymbals for St.Barbara and St.Juliana",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "Neutral",
+            "Visible": true,
+            "Arabic": "العذراء الصبية الحكيمة السيدة المختارة الحقيقية عروس المسيح القديسة يوليانة .",
+            "Coptic": ":`alou `ncabh `mparqenoc> ;cwtp `nkuria `mmhi> ;]elet `nte Pi`xrictoc> ;`agia Iwlianh.",
+            "English": "The wise virgin child, the chosen and true lady, the bride of Christ, Saint Juliana.",
+            "Arabiccoptic": "تي الو انسافي ام بارثينوس : تي سوتب ان كيريا اممي : تي شيليت انتى بخريستوس : تي اجيا يوليانى  . ",
+            "Englishcoptic": "Ti-aloo ensav emparthenos: ti-sotp enkerie emmi , ti-shelete ente Pikhristos, ti-Agia Ioolianee"
+        }
+    ]
+}

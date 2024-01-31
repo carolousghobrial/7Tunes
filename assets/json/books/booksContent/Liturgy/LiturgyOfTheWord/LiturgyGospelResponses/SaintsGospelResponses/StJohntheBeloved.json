@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل لالقديس يوحنا الأنجيلي",
+    "EnglishTitle": "Gospel Response for St.John the Beloved",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " اطلب عنا ايها البتول الانجيلي يوحنا الرسول ليغفر لنا خطايانا  .  ",
+            "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > `w piparqenoc `neuaggelicthc > Iwannhc piapoctoloc > `ntefxa nennobi nan ebol ",
+            "English": " Pray to the Lord on our behalf, O celibate and the Evangelist, John the Apostle, that He may forgive us our sins. ",
+            "Arabiccoptic": " طوبه إمبشويس إإهرى إيجون : اوبي بي بارثينوس إن إﭭ انجيليستيس : يؤانيس بي ابوسطولوس : إنتيف كانين نوﭭى نان إيﭭول",
+            "Englishcoptic": "Tobhem empshois e-ehri egon : oo pi-parthen-os en-evangelistees : Youannes pi-apostolos : en-tefka nen-novi nan evol"
+        }
+    ]
+}

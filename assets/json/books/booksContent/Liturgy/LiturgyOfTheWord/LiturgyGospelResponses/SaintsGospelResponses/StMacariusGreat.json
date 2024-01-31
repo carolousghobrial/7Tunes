@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل لالأنبا مقار الكبير",
+    "EnglishTitle": "Gospel Response for St.Macarius the Great",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " اطلب عنا .  يا سيدى الأب أنبا مقار .  وأولاده لابسى الصليب .  ليغفر لنا خطايانا  . ",
+            "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn `w pasoic `niwt abba Makari > nem nef]hri `nctaurovoroc > `ntefxa nennobi nan ebol ",
+            "English": " Pray to the Lord on our behalf, O my master and father Abba Makari, and all his children the cross-bearers, that He may forgive us our sins. ",
+            "Arabiccoptic": " طوبه إمبشويس إإهرى إيجون .  : أوباشويس إنيوت آفا ماكارى: نيم نيف شيرى إن ستافروفوروس : إنتيف كانين نوﭭى نان إيﭭول",
+            "Englishcoptic": "Tobhem empshois e-ehri egon : oo pachois en-ioot Ava makari : nem nefsheeri en-stavrovoros : en-tefka nen-novi nan evol"
+        }
+    ]
+}

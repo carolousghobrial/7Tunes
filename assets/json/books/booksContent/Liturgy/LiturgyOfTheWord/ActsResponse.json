@@ -28,6 +28,30 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseArchangelGabrielKiahkWeek1",
+            "Rule": 0,
+            "Visible": "isKiahkWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseArchangelGabrielKiahkWeek2",
+            "Rule": 0,
+            "Visible": "isKiahkWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseArchangelGabrielKiahkWeek3",
+            "Rule": 0,
+            "Visible": "isKiahkWeek"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseArchangelGabrielKiahkWeek4",
+            "Rule": 0,
+            "Visible": "isKiahkWeek"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseNativityParamoun",
             "Rule": 0,
             "Visible": "isSeason"
@@ -109,6 +133,12 @@
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponsestmary",
             "Rule": 0,
             "Visible": "stMaryActsResponse"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseStMaryKiahkWeek4",
+            "Rule": 0,
+            "Visible": "isKiahkWeek"
         },
         {
             "Type": "Main",

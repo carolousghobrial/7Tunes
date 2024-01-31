@@ -1,0 +1,74 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ذكصولوجية لأباكير ويوحنا اخوه",
+  "EnglishTitle": "Doxology for St.Apakir and John his Brother",
+  "CopticTitle": "Apakir nem Iwannhc pefcon",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أباكير ويوحنا اخوه مع اختين مباركتين جنود المسيح كانوا يحبونه جدا  . ",
+      "Coptic": " Apakir nem Iwannhc pefcon > nem cwni `cnou; eu`cmarwout > nimatoi `nte Pi`xrictoc > naumei `mmof `ema]w  . ",
+      "English": " Apakir and John his brother, with two blessed sisters, the soldiers of Christ, loved him very much.",
+      "Arabiccoptic": " أباكير نيم يوأنس بيف سون: نيم سونى إسنوتى إيف إسمارواووت: نى ماطوى إنتى بخرستوس: ناف مى إموف إيما شو . ",
+      "Englishcoptic": "Apakir nem Youannes pefson : nem sooni esnooti evesmaro-oot : nimatoi en-te Pikhristos : navmei emmof emashoo  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أبغضوا العالم كله ومقتنياته وكل ما فيه من اجل محبتهم الصادقة وايمانهم بالمسيح  . ",
+      "Coptic": " Aumoc; `mpikocmoc thrf > nem pef`xrhma nem pi`pthrf > eqbe tou`agaph eten\\ot > nem pouna\\; =en Pi`xrictoc  . ",
+      "English": "+ They hated the entire world, its possessions and all in it, for the sake of their true love, and faith in Christ.",
+      "Arabiccoptic": " أف موستى إمبى كوزموس تيرف: نيم بيف إخريما نيم بى إب تيرف: إثفى توو أغابى إيت إن هوت: نيم بو ناهتى خين بخرستوس . ",
+      "Englishcoptic": "Avmosti empi-kosmos terf : nem pefekreema nem pi-epterf : ethve too-aghapee eten-hot : nem poo-nahti khen Pikhristos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " تألموا في أجسادهم بعذابات عظيمة من اجل الإيمان بالمسيح ولم يتخلوا عنها  . ",
+      "Coptic": " Au]ep`mka\\ =en noucwma > \\iten \\anni]; `mbacanoc > eqbe `vna\\; `mPi`xrictoc > `mpouxaf `ncwou  . ",
+      "English": "+ They suffered great tortures, in their bodies, for the sake of faith in Christ, and did not abandon Him.",
+      "Arabiccoptic": " أف شيب إمكاه خين نووسوما: هيتين هان نيشتى إم فاسانوس: إثفى إفناهتى إمبخرستوس: إمبوو كاف إنثواوو . ",
+      "Englishcoptic": "Avshepemkah khen noosooma : hiten han-nishti emvasanos : ethve evnahti emPikhristos : empookhaf enso-oo  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " غنالوا اكاليلا غير مضمحلة التي للشهادة وعيدوا مع جميع القديسين في كورة الأحياء  . ",
+      "Coptic": " Ausi `n\\an`xlom `natlwm > `nte ;metmarturoc > auer]ai nem nheqouab throu > =en `txwra `nte nheton=  . ",
+      "English": "They received unfading crowns, for their testimony, and celebrated with all the saints, in the region of the living.",
+      "Arabiccoptic": " أفتشى إنهان إكلوم إن أتلوم: إنتى ميت مارتيروس: أف إير شاى نيم نى إثؤاب تيروو: خين إت خورا إنتى نى إت أونخ . ",
+      "Englishcoptic": "Avchi en-hanek-hlom en-atloom : en-te ti-metmarteeros : avershai nem nee-ethowab tero : khen- etkhoora en-te nee-etonkh  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " السلام للاخوين القديسين أباكير ويوحنا اخيه السلام للشهيدين الطبيبين الروحيين  . ",
+      "Coptic": " Xere con `cnau eqouab > Apakir nem Iwannhc pefcon > xere pi`cnau `mmarthroc > nichini `m`pneumatikwn  . ",
+      "English": "+ Hail to the two saintly brothers, Apakir and his brother John, Hail to the two martyrs, the two spiritual physicians.",
+      "Arabiccoptic": " شيرى سون إسناف إثؤاب: أباكير نيم يوأنس بيف سون: شيرى بى إسناف إممارتيروس: نى سينى إم إبنيفماتيكون . ",
+      "Englishcoptic": "Shere son esnav ethowab : Apakir nem Iooannees pefson : shere pi-esnav emmarteeros : ni-seeini- emep-nevmati-koon  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اطلبا عنا ايها الشهيدان المجاهدان  .  أباكير ويوحنا اخوه ليغفر لنا خطايانا  .",
+      "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > `w niaqlovoroc `mmarturoc > Apakir nem Iwannhc pefcon > `ntefxa nennobi nan `ebol  . ",
+      "English": "+ Pray to the Lord on our behalf, O struggling martyrs, Apakir and John his brother, that He may forgive us our sins.",
+      "Arabiccoptic": " طوبه إمبتشويس إى إهرى إيجون: أو نى أثلوفوروس إممارتيروس:أباكير نيم يوأننس بيف سون:",
+      "Englishcoptic": "Tobhem empshois e-ehri egon: oo ni-athlovoros emmarteeros : Apakir nem Youannes pefson : en-tefka nen-novi nan evol  ."
+    }
+  ]
+}

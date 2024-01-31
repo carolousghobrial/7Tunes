@@ -35,7 +35,7 @@
       "Coptic": "` C]op nemak `nje ;arxh =en `pe`\\oou `nte tekjom =en v`ouwini n`te nheqouab> `ebol=en `qneji =ajwf m`piciou n`te \\an`atooui> `anok aij`vok.",
       "English": "With You is the Rule in the Day of Your power, in the brightness of the holy ones. From the womb, before the morning star, I have begotten You.",
       "Arabiccoptic": "إس شوب نيماك إنجى تى أرشى خين إب إيهو أو إنتى تيك جوم خين إف أو أوينى إنتى نى إثؤواب إيفول خين إثنيجى خاجوف إمبى سيو إنتى هان أتو أويى آنوك آى جفوك ",
-      "Englishcoptic": "e Sshop nemak neje tiarshee khen epeeho-oo ente tekgom khen v-ooini nete neeethooab: evolkhen ethneji khagoof mepisioo nete han-atoooi: anok aigevok."
+      "Englishcoptic": "e Sshop nemak neje tiarshee khen epeeho-oo ente tekgom khen v-ooini nete neeethooab: evolkhen ethneji khagoof mepisioo nete han-atooi: anok aigevok."
     },
     {
       "Type": "Base",
@@ -46,7 +46,7 @@
       "Coptic": "Afwrk `nje `Psoic> ouo\\ n`nefouwm `n`\\qhf> je `nqok pe v`ouhb ]a `ene\\> kata `ttaxic `m`Melxicedek.",
       "English": "The Lord has sworn and will have no regret, “You are a priest for ever according to the order of Melchizedek.” ",
       "Arabiccoptic": "آف أورك إنجى إبشويس أووه إن نيف أو أوم إن إهثيف جى إنثوك بى إف أويب جى إنثوك بى إف أويب شا إينيه كاتا إتتاكسيس إم ميلشيساديك.",
-      "Englishcoptic": "Afoork neje e Epchois: owoh nenefoom enehtheef: je enthok pe v-ooeev sha eneh: kata ettashis ememelshisezek."
+      "Englishcoptic": "Afoork neje e Epchois: owoh nenefoom enehtheef: je enthok pe v-oweeb sha eneh: kata ettashis ememelshisezek."
     },
     {
       "Type": "Base",
@@ -164,7 +164,7 @@
       "Visible": "IsDioceseNotPope",
       "Side": "North",
       "Arabic": "إله السماء يثبته (يثبتهما / يثبتهم) على كرسيه (كرسيهما / كراسيهم) سنين عديدة وأزمنة سالمة.",
-      "Coptic": "Vnou; `nte `tve> ef``etajrof (efetajrwou) \\ijen pef`qronoc (nou`qronoc)> n\\anmh] ``nrompi> nem \\anchou `n\\irhnikon.",
+      "Coptic": "Vnou; `nte `tve> ef`etajrof (efetajrwou) \\ijen pef`qronoc (nou`qronoc)> n\\anmh] `nrompi> nem \\anchou `n\\irhnikon.",
       "English": "May the God of heaven keep his (them) on his throne (their thrones) for many years and peaceful times. ",
       "Arabiccoptic": "أفنوتى إنتى إتفى إيف إى تاجروف هيجين بيف إثرونوس إن هان ميش إنرومبى نيم هان سيو إن هيرينى كون",
       "Englishcoptic": "Evnoti ente etve: efe-etagrof (ef-e-tagro-oo) hijen pefethronos (noo-ethronos): en-han-meesh eenrompi: nem hanseeoo en-hiree-nikon."
@@ -175,7 +175,7 @@
       "Visible": "IsDioceseNotPope",
       "Side": "North",
       "Arabic": "إله السماء  يثبتهم على  كرسيهما  سنين عديدة وأزمنة سالمة.",
-      "Coptic": "Vnou; `nte `tve> ef`efetajrwou \\ijen nou`qronoc> n\\anmh] ``nrompi> nem \\anchou `n\\irhnikon.",
+      "Coptic": "Vnou; `nte `tve> ef`efetajrwou \\ijen nou`qronoc> n\\anmh] `nrompi> nem \\anchou `n\\irhnikon.",
       "English": "May the God of heaven keep them on their thrones for many years and peaceful times. ",
       "Arabiccoptic": "أفنوتى إنتى إتفى إيف إى تاجروف هيجين بيف إثرونوس إن هان ميش إنرومبى نيم هان سيو إن هيرينى كون",
       "Englishcoptic": "Evnoti ente etve: ef-e-tagro-oo hijen noo-ethronos : en-han-meesh eenrompi: nem hanseeoo en-hiree-nikon."
@@ -186,7 +186,7 @@
       "Visible": "IsDiocesePope",
       "Side": "North",
       "Arabic": "إله السماء يثبته  على كرسيه سنين عديدة وأزمنة سالمة.",
-      "Coptic": "Vnou; `nte `tve> ef``etajrof  \\ijen pef`qronoc > n\\anmh] ``nrompi> nem \\anchou `n\\irhnikon.",
+      "Coptic": "Vnou; `nte `tve> ef`etajrof  \\ijen pef`qronoc > n\\anmh] `nrompi> nem \\anchou `n\\irhnikon.",
       "English": "May the God of heaven keep his on his throne for many years and peaceful times. ",
       "Arabiccoptic": "أفنوتى إنتى إتفى إيف إى تاجروف هيجين بيف إثرونوس إن هان ميش إنرومبى نيم هان سيو إن هيرينى كون",
       "Englishcoptic": "Evnoti ente etve efe-etagrof hijen pefethronos :en-han-meesh eenrompi: nem hanseeoo en-hiree-nikon."

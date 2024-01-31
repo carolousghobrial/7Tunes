@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس لأباكير ويوحنا اخوه",
+    "EnglishTitle": "Verses of the Cymbals for St.Apakir and John his Brother",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "Neutral",
+            "Visible": true,
+            "Arabic": "السلام لكَم أيها الشهداء. السلام للشجاعان الابطال. السلام للابسي الجهاد  أباكير ويوحنا اخيه.",
+            "Coptic": "Xere nwten `w nimarturoc > xere ni]wij `ngenneoc > xere niaqlovoroc > Apakir nem Iwannhc pefcon.",
+            "English": "Hail to the martyrs. Hail to the courageous heroes. Hail to the struggle-mantled, Apakir and his brother John.",
+            "Arabiccoptic": "شيري نوتين أو ني مارتيروس : شيري ني شويج إن جينيؤس : شيري ني أثلوفوروس :أباكير نيم يوأنس بيف سون  .",
+            "Englishcoptic": "Shere Noten Oni Mar teeros, Shere ni Shoig En Genni-os, shere ni athlofo ros, Apakir nem Iooannees pefson"
+        }
+    ]
+}

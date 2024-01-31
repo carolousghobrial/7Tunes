@@ -1,0 +1,74 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ذكصولوجية مكسيموس ودوماديوس",
+  "EnglishTitle": "Doxology for St.Maximus and St.Dometius",
+  "CopticTitle": " Nivwcthr `nte ;meqmhi",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " كوكبا الحق .  والرئيسان العظيمان .  اللذان لمجمعنا المقدس .  مكسيموس ودوماديوس  . ",
+      "Coptic": " Nivwcthr `nte ;meqmhi > ouo\\ pini]; `narxhgoc > `nte tencunoudia eqouab > Ma[imoc nem Dometioc  . ",
+      "English": "The stars of the truth, and the great princes, of our holy congregation, Maximus and Dometius. ",
+      "Arabiccoptic": " نى فوستير إنتى تى ميثمى:أووه بى نشتى إن أرشى غوس:إنتى تين سينوذيا إثؤاب:ماكسيموس نيم دوميتيوس  . ",
+      "Englishcoptic": "Nivoosteer en-te ti-methmeei : owoh pi-ni-shti- en-arsheeghos : en-te ten-seen-oozia ethowab : Maximos nem Dometi-os  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " هذان اللذان جمعا .  باسميهما الثالوث المحيي .  لكي نتبع آثارهما .  ونلبس شكلهما المقدس  . ",
+      "Coptic": " Nai `etacqouwten =en nouran > `nje 1Ttriac `nreftan=o > eqrenmo]i `nca mou]entatci > `ntenervorin `mpou`cxhma eqouab . ",
+      "English": " These whom the Life-giving Trinity, has gathered us in their name, that we may follow in their footsteps, and wear their holy images. ",
+      "Arabiccoptic": " ناى إتاس تواوتين خين نوران:إنجى تى ترياس إنريف تانخو:إثرين موشى إنسا موشين تاتسى:إنتين إرفورين إمبو إسكيما إثؤاب  . ",
+      "Englishcoptic": "Nai etasto-ooten khen nooran : enje 1Ttrias enreftankho : ethrenmoshi ensa mooshentatsi : entenervorin empooessheema ethowab ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وسلما لنا المواعيد .  المكتوبة في الانجيل .  التي هي المحبة الأخوية .  كمال جميع الفضائل  . ",
+      "Coptic": " Au; `etoten `nniw] > et`c=hout =en pieuaggelion > ete qai te ;metmaicon > `pjwk `ebol `nni`areth throu  . ",
+      "English": " They gave us the written promises, that were in the Gospel, this is the love of brothers, the perfection of all virtues. ",
+      "Arabiccoptic": " أﭭتى إيه تيتين إنى اوش: إت إسخيوت خين بى إﭫ انجيليون: إيتى ثاى تى تى ميت مايسون:إبجوك إﭭول إنى اريتى تيرو  . ",
+      "Englishcoptic": "Avti etoten enni-oosh : eteskheeoot khen pi-evangelion : ete thai te timetmaison : epgook evol enni-aretee tero  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " نعيد في كنيستهما .  ونكمل تذكارهما .  ونمجد الثالوث .  نهارا وليلا  . ",
+      "Coptic": " Ener]ai =en touekklhcia > enjwk `mpouer`vmeui `ebol > en;`wou `n;Triac >` mpie`\\oou nem pi`ejwr\\  . ",
+      "English": " We celebrate in their church, and we complete their remembrance, we glorify the Trinity, by day and by night. ",
+      "Arabiccoptic": " إينى راشى خين تو إكليسيا: إن جوك إمبو إر إفميﭭئى إﭭول: إنتـى اواو إن تى ترياس: إمبى إهواوو نيم بى إيجوره  . ",
+      "Englishcoptic": "Enershai khen tooekkleesia : engook empooerevmevi evol : enti-o-oo enti-Trias :e mpi-eeho-oo nem pi-egoorh  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " السلام لكما ايها الصديقان .  السلام للابسي الروح .  السلام لأبوينا القديسين الروميين  . مكسيموس ودوماديوس  . ",
+      "Coptic": " Xere nwten `wnidikeoc> xere ni=p=n=a tovoroc > xere nenio; eqouab `nrwmeoc > Ma[imoc nem Dometioc  . ",
+      "English": " Hail to you O righteous ones, hail to the spirit mantled, hail to our holy roman fathers, Maximus and Dometius. ",
+      "Arabiccoptic": " شيرى نوتين او نى ذيكيؤس: شيرى بى إبنﭭما توفوس: شيرى نينيوتى إثؤاب إن روميؤس: ماكسيموس نيم دوميديوس  . ",
+      "Englishcoptic": "Shere nooten ooni-zikeos: shere ni-khpkhnkha tovoros : shere neni-oti ethowab enroomeos : Maximos nem Dometios  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اطلبا عنا .  يا ابوينا القديسين الروميين .  مكسيموس ودوماديوس .  ليغفر لنا خطايانا  . ",
+      "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > `w nenio; eqouab `nrwmeoc > Ma[imoc nem Dometioc >`ntefxa nen nobi nan `ebol.",
+      "English": " Pray to the Lord on our behalf, our holy roman fathers, Maximus and Dometius, that He may forgive us our sins. ",
+      "Arabiccoptic": " طوبه إمبشويس اى إهرى إيجون :او نينيوتى إثؤاب إن روميؤس:ماكسيموس نيم دوميديوس:إنتيف كانين نوفى نان ايفول",
+      "Englishcoptic": "Tobhem empshois e-ehri egon : oo nen-ioti ethowab en-roomeos : Maximos nem Dometios :entef ka nen novi nan evol .  ."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل لالاربعة وعشرين قسيساً",
+    "EnglishTitle": "Gospel Response for The Twenty Four Priests",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " إشفعوا فينا يا كهنة الحق ال24 قسيساً  .  ليغفر لنا خطايانا  .",
+            "Coptic": " Ari`precbeuin `e`\\rhi `ejwn > niouhb `nte ;meqmhi > pik/d/ `mprecbuteroc > `ntefxa nen nobi nan `ebol.  ",
+            "English": " Intercede on our behalf, the priests of the Truth, the twenty-four presbyters, that He may forgive us our sins. ",
+            "Arabiccoptic": " اريب ريسفافين : ني اوييب انتي تي ميثمي : بي جوت افتو امبريسفيتروس: إنتيف كانين نوفى نان ايفول ",
+            "Englishcoptic": "Ari ep-resvevin eehry egon: ni-oweeb en-te ti-methmeei : pigot efto empresveeteros : entef ka nen novi nan evol"
+        }
+    ]
+}

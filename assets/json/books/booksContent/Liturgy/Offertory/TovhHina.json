@@ -35,7 +35,7 @@
       "Coptic": "+en ni;\\o nem ni`proc`euxh `nte peniwt ettaihout tou `tric makariou> patroc `hmwn patroc paterwn> pimenoc pimenwn arxh`ere`wc arxh`ere`wn `hmwn.",
       "English": "Through the prayers and intercessions of our honorable father, his triple beatitude, the father of fathers, the shepherd of shepherds, the head of the heads of our clergy.",
       "Arabiccoptic": " خين ني تيهو نيم ني بروس إفشي إنتيه بينيوت إتطايوت تو إتريس ماكاريو : باتروس إيمون باتروس باتيرون : بي مينوس بي مينون : آرشي إيريؤس آرشي إيريؤن إيمون  . ",
-      "Englishcoptic": "Khen nitiho nem niepros-evshee ente penioot etta-iot tooo etris makariooo: patros eemoon patros pateron: pimenos pimenoon arshee-ere-oos arshee-ere-oon eemoon."
+      "Englishcoptic": "Khen nitiho nem niepros-evshee ente penioot etta-iot too etris makarioo: patros eemoon patros pateron: pimenos pimenoon arshee-ere-oos arshee-ere-oon eemoon."
     },
     {
       "Type": "Base",
@@ -46,7 +46,7 @@
       "Coptic": "Pima `n`ecw`ou `n`alhqinon kata `vrh; `n;met`ouhb `mMelxicedek nem `A`arwn> pidiadoxoc `mMarkoc pi`apoctoloc> papa ke patriarxou thc megalo pole`wc `Ale[an`driac> nem nh`ete nouc `mpolic pimenrit `nte Pi`xrictoc ",
       "English": "The true shepherd who resembles the priesthood of Melchizedek and Aaron, the descendent of St. Mark the Apostle, Pope and patriarch of the great city of Alexandria and all its vicinities, the beloved of Christ, ",
       "Arabiccoptic": " بي ما إن إيصوأوو إن آليثينون كاطا إفريتي إنتي ميت أوويب إمميلشي سيديك نيم آآرون : بي ذياذوخوس إمماركوس بي آبوسطولوس بابا كيه باتريارخو تيس ميغالو بوليؤس آليكصاندرياس : نيم ني إيتيه نوس إمبوليس : بي مينريت إنتيه بي خريستوس ",
-      "Englishcoptic": "Pima en-esoo-ooo en-aleei-thinon kata evreeti entimet-oweeb em-melshisezek nem A-aroon: pizia-zokhos em-markos pi-apostolos: papa ke patriarkhooo tees meghalo po-le-oos Alexane-drias: nem nee-ete nooos empolis pimenrit ente Pikhristos"
+      "Englishcoptic": "Pima en-esoo-oo en-aleei-thinon kata evreeti entimet-oweeb em-melshisezek nem A-aroon: pizia-zokhos em-markos pi-apostolos: papa ke patriarkhoo tees meghalo po-le-oos Alexane-drias: nem nee-ete noos empolis pimenrit ente Pikhristos"
     },
     {
       "Type": "Base",
@@ -167,7 +167,7 @@
       "Coptic": "Ihcouc Pi`xrictoc pi|ihb `n`alhqinoc ouo\\ piman`ecw`ou `n`agaqoc> ef`etajrof \\ijen pef`qronoc `n\\anmh] `nrompi nem \\anchou `n\\irhnikon.",
       "English": "May the Lord Jesus Christ, the true Lamb and good Shepherd, confirm him on his throne for several years and many peaceful times.",
       "Arabiccoptic": " إيسوس بي خريستوس بي هييب إن آليثينوس اووه بيما إن إيصو أوو إن آغاثوس : إف إيه طاجروف هيﭽين بيف إثرونوس إنهان ميش إنرومبي نيم هان سيو إنهيرينيكون  . ",
-      "Englishcoptic": "Isos Pikhristos pi-Hieeb en-alee-thinos owoh piman-esoo-ooo en-aghathos: ef-etagrof hijen peferonos enhanmeesh enrompi nem hanseeooo enhireenikon."
+      "Englishcoptic": "Isos Pikhristos pi-Hieeb en-alee-thinos owoh piman-esoo-oo en-aghathos: ef-etagrof hijen peferonos enhanmeesh enrompi nem hanseeoo enhireenikon."
     },
     {
       "Type": "Base",
@@ -200,7 +200,7 @@
       "Coptic": " Ouo\\ `ntef; nou `n`ouchou `njamh `nnotem.",
       "English": "And grant them peaceful, pleasant times.",
       "Arabiccoptic": "   أووه إنتيف تي نو إن أووسيو إنجامي إننوتيم",
-      "Englishcoptic": "Owoh entefti noo en-oooseioo engamee ennotem."
+      "Englishcoptic": "Owoh entefti noo en-ooseioo engamee ennotem."
     },
     {
       "Type": "Base",
@@ -211,7 +211,7 @@
       "Coptic": " Ouo\\ `ntef; naf `n`ouchou `njamh `nnotem.",
       "English": "And grant him peaceful, pleasant times.",
       "Arabiccoptic": "   أووه إنتيف تي ناف إن أووسيو إنجامي إننوتيم",
-      "Englishcoptic": "Owoh entefti naf en-oooseeooo engamee ennotem."
+      "Englishcoptic": "Owoh entefti naf en-ooseeoo engamee ennotem."
     },
     {
       "Type": "Base",
@@ -222,7 +222,7 @@
       "Coptic": "`Ntefsi `nni;\\o nem nitwb\\ `nte nh eqouab `ntaf `ntotou `e`\\rhi `ejwn `epi`agaqon `nchou niben.",
       "English": "And accept the supplications and prayers of His saints for that which is good on our behalf at all times.",
       "Arabiccoptic": " إنتيف تشي إنني تيهو نيم ني طوبه إنتيه ني إثؤواب إنطاف إنتوتو إيه إهري إيجون إيه بي آغاثون إنسيو نيفين : ",
-      "Englishcoptic": "eNtefchi ennitiho nem nitoobh ente nee ethowab entaf entotooo eehreei egoon epi-aghaon enseeooo niven."
+      "Englishcoptic": "eNtefchi ennitiho nem nitoobh ente nee ethowab entaf entotoo eehreei egoon epi-aghaon enseeoo niven."
     },
     {
       "Type": "Base",
@@ -233,7 +233,7 @@
       "Coptic": "`Ntef`aiten `n`em`p]a eqrensi `ebol=en ;koinwnia `nte nefmucthrion eqouab> et`cmarw`out `epixw `ebol `nte nennobi.",
       "English": "And make us worthy to partake of the communion of His holy and blessed mysteries, for the remission of our sins.",
       "Arabiccoptic": "إنتيف آيتين إن إيم إبشا إثرين تشي إيفول خين تي كينونيا إنتيه نيف ميستيريون إثؤواب إت إسماروؤت إيه بي كو إيفول إنتيه نين نوفي  .  ",
-      "Englishcoptic": "eNtef-aiten en-emepsha erenchi evolkhen tikoinoonia ente nefmeesteerion ethowab: etesmaroo-ooot epi-koo evol ente nennovi."
+      "Englishcoptic": "eNtef-aiten en-emepsha erenchi evolkhen tikoinoonia ente nefmeesteerion ethowab: etesmaroo-oot epi-koo evol ente nennovi."
     }
   ]
 }

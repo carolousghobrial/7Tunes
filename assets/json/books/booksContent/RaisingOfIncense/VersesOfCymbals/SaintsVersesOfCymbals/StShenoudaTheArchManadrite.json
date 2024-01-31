@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس لالانبا شنودة رئيس المتوحدين",
+    "EnglishTitle": "Verses of the Cymbals for St.Shenouda the Archimanidrite",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " طوباك أيها البار .  أنبا شنودة رئيس المتوحدين .  لأنك تكلمت مع المسيح .  مثل موسى واضع الناموس  . ",
+            "Coptic": " `Wouniatk `wpi11dikeoc> abba }enou; piarxh man`drithc> je `nqok akcaji nem Pi`xrictoc > `m`vrh; ` mMw`uchc pinomocithc  . ",
+            "English": " Blessed are you O righteous one: Abba Shenute the archimandrite: for you spoke with Christ: like Moses the law-giver. ",
+            "Arabiccoptic": " أوأوونياتك أو بى ذيكيؤس: أﭭا شينوتى بى أرشى مان إذريتيس : ﭼى إنثوك أك ساﭼى نيم بخرستوس:إم إفريتى إم مويسيس بى نوموسيتيس  . ",
+            "Englishcoptic": "Oo-ooni-atk oopi-11zikeos: Ava Shen-ooti pi-arshee manezritees: je en-thok aksaji nem Pikhristos : emevreeti e mmoo-eysees pi-nomositees  ."
+        }
+    ]
+}

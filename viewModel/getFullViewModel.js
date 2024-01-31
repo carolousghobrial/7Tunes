@@ -44,8 +44,8 @@ export function getFullViewModel(motherSource, mother) {
       copticttl = item.Coptic;
       englishttl = item.English;
     } else {
-      let temppath = item.SAINT !== undefined ? item.SAINT : item.Path;
-      let tempMother = mother !== undefined ? mother : motherSource;
+      let temppath = item.SAINT ?? item.Path;
+      let tempMother = mother ?? motherSource;
 
       const isVisible =
         item.Visible === true ||
@@ -71,7 +71,7 @@ export function getFullViewModel(motherSource, mother) {
           case "Ritual":
             ViewArray.push({
               part: item,
-              key: key,
+              key,
               EnglishTitle: englishttl,
               CopticTitle: copticttl,
               ArabicTitle: arabicttl,
@@ -93,16 +93,17 @@ export function getFullViewModel(motherSource, mother) {
               ViewArray.push(...tempView);
               MenuArray.push(...tempMenu);
             }
+            break;
           default:
             MenuArray.push({
               EnglishTitle: item.English,
               CopticTitle: item.Coptic,
               ArabicTitle: item.Arabic,
-              key: key,
+              key,
             });
             ViewArray.push({
               part: item,
-              key: key,
+              key,
               EnglishTitle: englishttl,
               CopticTitle: copticttl,
               ArabicTitle: arabicttl,
@@ -182,7 +183,7 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
 
     if (!isVisible) return;
 
-    if (part.Type === "Main") {
+    const processMainType = () => {
       const [tempView, , mykey] = getMain(
         part.Path,
         motherSource,
@@ -192,8 +193,10 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
       );
       key = mykey;
       myViewArray.push(...tempView);
-    } else if (part.Type === "GetDaysReading") {
-      var filePath = GetTodaysReadingPath(part.Path);
+    };
+
+    const processGetDaysReadingType = () => {
+      const filePath = GetTodaysReadingPath(part.Path);
       if (filePath !== "Katamaros") {
         const [tempView, , mykey] = getMain(
           filePath,
@@ -205,7 +208,9 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
         key = mykey;
         myViewArray.push(...tempView);
       }
-    } else {
+    };
+
+    const processOtherTypes = () => {
       const addPart = addItemsToArray(part, thisRule);
       myViewArray.push({
         part: addPart,
@@ -216,6 +221,18 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
         ArabicTitle,
       });
       key++;
+    };
+
+    switch (part.Type) {
+      case "Main":
+        processMainType();
+        break;
+      case "GetDaysReading":
+        processGetDaysReadingType();
+        break;
+      default:
+        processOtherTypes();
+        break;
     }
   });
 

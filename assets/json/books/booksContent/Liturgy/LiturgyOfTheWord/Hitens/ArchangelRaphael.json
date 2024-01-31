@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " هيتين لألملاك رافائيل",
+  "EnglishTitle": "Hiten for Archangel Raphael",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بشفاعات رئيس الملائكة الطاهر رافائيل مفرح القلوب، يا رب إنعم لنا بمغفرة خطايانا.",
+      "Coptic": "|iten ni`precbia `nte pi`arxh`aggeloc eqouab Ravahl `pounof `n\\ht> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the intercessions, of the holy archangel, Raphael the joy of hearts, O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين ني إبريسفيا إنتي بي أرشي آنجيليوس إثؤواب رافائيل ابؤونوف انهيت :إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي ",
+      "Englishcoptic": "Hiten niepresvia ente pi-arshee-angelos ethowab Rafaeel ep-onof en-heet: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

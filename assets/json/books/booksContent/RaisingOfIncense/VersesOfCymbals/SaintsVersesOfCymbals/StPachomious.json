@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس للانبا باخوميوس ",
+    "EnglishTitle": "Verses of the Cymbals for St.Pachom",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " السلام لآبائنا القديسين .  أنبا باخوم صاحب الشركة .  وثيؤدوروس تلميذه .  محبى المسيح  . ",
+            "Coptic": " Xere nau `nio; eqouab> abba Pa=wm va ;koinwnia>nem qe`odwroc pefmaqhthc>nimenra; `nte Pi`xrictoc  . ",
+            "English": " Hail to my lords and holy fathers, Abba Pachom of the Koinonia, and Theodore his disciple, the beloved of Christ. ",
+            "Arabiccoptic": " شيرى ناشويس إنيوتى إثؤاب: آفا باخوم فاتى كينونيا: نيم ثيؤدوروس بيف ماثيتيس: نى ميزاتى إنتى بخرستوس  . ",
+            "Englishcoptic": "Shere nav enioti ethowab: Ava Pakhoom va tikoinooni-a:nem Theodoros pef-matheetees:ni-men-rati en-te Pikhristos  ."
+        }
+    ]
+}

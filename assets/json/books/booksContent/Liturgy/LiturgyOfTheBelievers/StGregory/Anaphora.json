@@ -167,7 +167,7 @@
       "Coptic": "`Fem`p]a =en oumeqmhi ouo\\ oudikeon pe> `e\\wc `erok> `e`cmou `erok> `e]em]i `mmok> `eouw]t `mmok> `e;`wou nak> piouai `mmauatf `nta`vmhi> `Vnou; Pimairwmi.",
       "English": "It is fitting indeed, and right, that we praise You, bless You, serve You, worship You, and glorify You, the one, only, true God, the Lover of Mankind,",
       "Arabiccoptic": "إفيمإبشا خين أوميثميي أووه أوزيكيون بي: إيهووس إيروك: إيإسمأو إيروك: إيشيمشي إمموك: إيأوأوؤوشت إمموك: إيتي ؤو ناك: بيأواي إممافاتف إنتاإفميي: افنوتي بيمايروومي.",
-      "Englishcoptic": "eFemep-sha khen oo-methmee owoh oozikeon pe: ehoos erok: eesmoo erok: eshemshi emmok: eo-oosht emmok: eti-o-oo nak: pi-ooai emmavatf entaevmeei: Evnoti- Pimairoomi."
+      "Englishcoptic": "eFemep-sha khen oo-methmee owoh oozikeon pe: ehoos erok: eesmoo erok: eshemshi emmok: eo-oosht emmok: eti-o-oo nak: pi-owai emmavatf entaevmeei: Evnoti- Pimairoomi."
     },
     {
       "Type": "Base",
@@ -453,7 +453,7 @@
       "Coptic": "`Nqok gar ne `etou`o\\i `eratou `mpekkw;> `nje Nixeroubim nem Niceravim> `ere coou `nten\\ `mpiouai> ouo\\ coou `nten\\ `mpikeouai.",
       "English": "You are He around whom stand the Cherubim and the Seraphim, six wings to the one and six wings to the other,",
       "Arabiccoptic": "إنثوك غار ني إيتأو وهي إيراتأو إمبي ككووتي: إنجي نيشيرأوفيم نيم نيسيرافيم: إيري سوأو إنتينه إمبي أواي: أووه سوأو إنتينه إمبي كيأواي.",
-      "Englishcoptic": "Enthok ghar ne etoo-ohi eratoo empek-kooti-: en-je Nisherobim nem Niseraphim: ere so-oo en-ten-h empi-ooai: owoh so-oo en-ten-h empi-keooai."
+      "Englishcoptic": "Enthok ghar ne etoo-ohi eratoo empek-kooti-: en-je Nisherobim nem Niseraphim: ere so-oo en-tenh empi-owai: owoh so-oo en-tenh empi-keowai."
     },
     {
       "Type": "Base",
@@ -464,7 +464,7 @@
       "Coptic": "+en `cnau men `nten\\ eu\\wbc `nnou\\o> =en `cnau de eu\\wbc `nnousalauj> eu\\hl de =en pike`cnau> euw] `ebol ouai oube ouai `mmwou.",
       "English": "with two they cover their faces and with two they cover their feet, and with two they fly. And one cries to another.",
       "Arabiccoptic": "خين إسناف مين إنتينه إيف هووبس إننأوهو: خين إسناف زي إيف هووبس إننأوتشالافج: إيف هيل زي خين بيكيإسناف: إيف أوؤوش إيفول أواي أوفي أواي إممؤو.",
-      "Englishcoptic": "Khen esnav men entenh evhoobs ennooho: khen esnav ze evhoobs ennoochalavg: evheel ze khen pi-keesnav: Ev-osh evol ooai oove ooai emmo-oo."
+      "Englishcoptic": "Khen esnav men entenh evhoobs ennooho: khen esnav ze evhoobs ennoochalavg: evheel ze khen pi-keesnav: Ev-osh evol owai oove owai emmo-oo."
     },
     {
       "Type": "Base",
@@ -541,7 +541,7 @@
       "Coptic": "Je `agioc `agioc `agioc> Kurioc cabawq> `plhrhc `o ouranoc ke `h gh> thc `agiac cou do[hc.",
       "English": "“Holy, holy, holy, Lord of hosts, heaven and earth are full of Your holy glory.”",
       "Arabiccoptic": "جي  اجيوس  اجيوس  اجيوس: كيريوس سافاووث: إبليريس  و أورانوس كي  ي جي: تيس  اجياس سأو زوكسيس.",
-      "Englishcoptic": "Je agios agios agios: Keerios savaooth: epleerees -o ooranos ke ee gee: tees -agias soo zoxees."
+      "Englishcoptic": "Je agios agios agios: Keerios savaooth: epleerees o ooranos ke ee gee: tees -agias soo zoxees."
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " هيتين مكسيموس ودوماديوس ",
+  "EnglishTitle": "Hiten for St.Maximus and St.Dometius",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلواتِ المجاهدِ الشهيدِ سيــدي الملك جيؤرجيوس، يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten nieuxh `nte nenio; eqouab `nrwmeoc > Ma[imoc nem Dometioc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the prayers of our holy roman fathers, Maximus and Dometius, O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين ني إفكي إنتي نينيوتى إثؤاب إن روميؤس:ماكسيموس نيم دوميديوس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
+      "Englishcoptic": "Hiten ni-evshee ente nen-ioti ethowab en-roomeos : Maximos nem Dometios : Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

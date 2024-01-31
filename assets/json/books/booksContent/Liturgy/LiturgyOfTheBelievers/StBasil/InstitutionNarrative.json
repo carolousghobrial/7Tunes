@@ -311,7 +311,7 @@
       "Coptic": "Picteu`omen ke `omologoumen ke do[azomen.",
       "English": "We believe, we confess, and we glorify.",
       "Arabiccoptic": "بيستيف أومين كي أومولوغومين كي ذوكسا ذومين",
-      "Englishcoptic": "Pistev-omen ke -omologhoomen ke zoxazomen."
+      "Englishcoptic": "Pistev-omen ke omologhoomen ke zoxazomen."
     },
     {
       "Type": "Ritual",
@@ -579,7 +579,7 @@
       "Coptic": "Ke palin picteu`omen ke `omologoumen ke do[azomen.",
       "English": "Again, we believe, we confess, and we glorify.",
       "Arabiccoptic": "كى بالين بيستيف اومين كى أومولوغومين كى ذوكصا ذومين  . ",
-      "Englishcoptic": "Ke palin pi-stev-omen ke -omologhoomen ke zoxazomen."
+      "Englishcoptic": "Ke palin pi-stev-omen ke omologhoomen ke zoxazomen."
     },
     {
       "Type": "Ritual",
@@ -759,7 +759,7 @@
       "Coptic": "`Amhn `amhn `amhn> ton qanaton cou Kurie kataggellomen> ke thn `agian cou `anactacin ke thn `analhyin cou `nthc ouranic ce `omologoumen.",
       "English": "Amen. Amen. Amen. Your Death, O Lord, we proclaim; Your holy Resurrection and Ascension into the heavens, we confess.",
       "Arabiccoptic": "آمين آمين آمين طون ثاناطون سو كيريي كاطا آنجيلومين. كي تين آجيان سو آناسطاسين, كي تين أناليم إبسين سو إنتيس اورانيس. سي أومولوغومين.  ",
-      "Englishcoptic": "Ameen ameen ameen: ton thanaton soo Keerie katangellomen: ke teen agian soo anastasin ke teen analeepsin soo entees oorani-s se -omologhoomen."
+      "Englishcoptic": "Ameen ameen ameen: ton thanaton soo Keerie katangellomen: ke teen agian soo anastasin ke teen analeepsin soo entees oorani-s se omologhoomen."
     },
     {
       "Type": "Base",
@@ -770,7 +770,7 @@
       "Coptic": "Ce `enoumen ce eulogoumen ci euxarictoumen Kurie> ke de`omeqa cou `o qeoc `hmwn.",
       "English": "We praise You, we bless You, we thank You, O Lord, and we entreat You, O our God.",
       "Arabiccoptic": "سي إنومين. سي إفلوغومين سي إفخاريستومين كيريي, كي ذي او ميطا سو أو ثيئوس إيمون. ",
-      "Englishcoptic": "Se en-oomen- se evloghoomen- si evkharistoomen- Keerie: ke ze-ometha soo -o theos eemoon."
+      "Englishcoptic": "Se en-oomen- se evloghoomen- si evkharistoomen- Keerie: ke ze-ometha soo o theos eemoon."
     }
   ]
 }

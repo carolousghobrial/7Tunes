@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل مكسيموس ودوماديوس",
+    "EnglishTitle": "Gospel Response for St.Maximus and St.Dometius",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " اطلبا عنا .  يا ابوينا القديسين الروميين .  مكسيموس ودوماديوس .  ليغفر لنا خطايانا  . ",
+            "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > `w nenio; eqouab `nrwmeoc > Ma[imoc nem Dometioc >`ntefxa nen nobi nan `ebol.",
+            "English": " Pray to the Lord on our behalf, our holy roman fathers, Maximus and Dometius, that He may forgive us our sins. ",
+            "Arabiccoptic": " طوبه إمبشويس اى إهرى إيجون :او نينيوتى إثؤاب إن روميؤس:ماكسيموس نيم دوميديوس:إنتيف كانين نوفى نان ايفول",
+            "Englishcoptic": "Tobhem empshois e-ehri egon : oo nen-ioti ethowab en-roomeos : Maximos nem Dometios :entef ka nen novi nan evol ."
+        }
+    ]
+}

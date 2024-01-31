@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس مكسيموس ودوماديوس",
+    "EnglishTitle": "Verses of the Cymbals for St.Maximus and St.Dometius",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " السلام لكما ايها الصديقان .  السلام للابسي الروح .  السلام لأبوينا القديسين الروميين  . مكسيموس ودوماديوس  . ",
+            "Coptic": " Xere nwten `wnidikeoc> xere ni=p=n=a tovoroc > xere nenio; eqouab `nrwmeoc > Ma[imoc nem Dometioc  . ",
+            "English": " Hail to you O righteous ones, hail to the spirit mantled, hail to our holy roman fathers, Maximus and Dometius. ",
+            "Arabiccoptic": " شيرى نوتين او نى ذيكيؤس: شيرى بى إبنﭭما توفوس: شيرى نينيوتى إثؤاب إن روميؤس: ماكسيموس نيم دوميديوس  . ",
+            "Englishcoptic": "Shere nooten ooni-zikeos: shere ni-khpkhnkha tovoros : shere neni-oti ethowab enroomeos : Maximos nem Dometios  ."
+        }
+    ]
+}

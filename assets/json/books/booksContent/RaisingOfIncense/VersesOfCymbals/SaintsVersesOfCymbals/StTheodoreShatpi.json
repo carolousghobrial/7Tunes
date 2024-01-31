@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس لالأمير تادرس بن يوحنا الشطبي ",
+    "EnglishTitle": "Verses of the Cymbals for St.Theodore of Shotep",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "السلام لك أيها الشهيد السلام للشجاع المجاهد السلام للابس الجهاد ثيؤدوروس الأسفهسلار",
+            "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Qe`odwroc pi`ctratilathc.",
+            "English": "Hail to you, O martyr: Hail to the noble hero: Hail to the struggle-mantled : O Theodore the general.",
+            "Arabiccoptic": "شيرى ناك أو بى مارتيروس. شيرى بى شويج إن جينيؤس. شيرى بى أثلوفوروس. ثيؤدوروس بى ستراتيلاتيس .",
+            "Englishcoptic": "Shere nak opee marteros/ shere pee shoig enge-neos/ shere pee athlovoros/ Theodoros pi-estrati-latees."
+        }
+    ]
+}

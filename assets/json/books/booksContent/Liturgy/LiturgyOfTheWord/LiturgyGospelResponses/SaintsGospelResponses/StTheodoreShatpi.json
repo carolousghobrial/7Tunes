@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل لالأمير تادرس بن يوحنا الشطبي ",
+    "EnglishTitle": "Gospel Response for St.Theodore of Shotep",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " اطلب عنا أيها الشهيد المجاهد ثيؤدوروس الأسفهسلار  .  ليغفر لنا خطايانا  .  ",
+            "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > ~w piaqlovoroc `mU > Qe`odwroc pi`ctratilathc > `ntefxa nen nobi nan `ebol. ",
+            "English": " For great is your honor: O Theodore the general: for Christ rejoices in you: in the heavenly Jerusalem. ",
+            "Arabiccoptic": "طوبه إمبتشويس إى إهرى إيجون: أو بى أثلوفوروس إم مارتيروس: ثيؤدوروس بى ستراتيلاتيس: إنتيف كا نين نوفـى نان إيـفـول . ",
+            "Englishcoptic": "Tobhem empshois e-ehri egon : o pi-athlovoros emEe : Theodoros pi-estrati-latees : entef ka nen novi nan evol."
+        }
+    ]
+}

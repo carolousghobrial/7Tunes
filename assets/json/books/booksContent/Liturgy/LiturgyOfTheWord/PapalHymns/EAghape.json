@@ -13,7 +13,7 @@
       "Coptic": "H `agaph tou eou patroc> ke `h xaric tou monogenouc.",
       "English": "May the love of God the Father; and the grace of the only-begotten Son, ",
       "Arabiccoptic": "إي أغابي توثيؤ باطرس كي إي خاريستو مونوجينوس",
-      "Englishcoptic": "Ee aghapee tooo eooo patros: ke ee kharis tooo monogenooos."
+      "Englishcoptic": "Ee aghapee too eoo patros: ke ee kharis too monogenoos."
     },
     {
       "Type": "Base",
@@ -24,7 +24,7 @@
       "Coptic": "Uiou Kuriou de ke Qeou ke cwthroc hmwn Ihcou Xrictou>",
       "English": "our Lord, God, and Savior Jesus Christ;",
       "Arabiccoptic": " إبو كيريو ذي كي ثيؤ كي سوتيروس إيمون إيسو إخرستو ",
-      "Englishcoptic": "Eeiooo Keeriooo ze ke Theooo ke sooteeros eemoon Ieesooo Khristooo:"
+      "Englishcoptic": "Eeioo Keerioo ze ke Theoo ke sooteeros eemoon Ieesoo Khristoo:"
     },
     {
       "Type": "Base",
@@ -35,7 +35,7 @@
       "Coptic": "Ke `h koinwnia ke `h dwre`a tou agiou Pneumatoc.",
       "English": "and the communion and gift of the Holy Spirit,",
       "Arabiccoptic": "كي إي كينونيا كي إي ذوريها طو آجيو إبنيقماتوس توس:",
-      "Englishcoptic": "Ke ee koinoonia ke ee zoore-a tooo agiooo Pnevmatos."
+      "Englishcoptic": "Ke ee koinoonia ke ee zoore-a too agioo Pnevmatos."
     },
     {
       "Type": "Base",
@@ -46,7 +46,7 @@
       "Coptic": "I`h meta tou `agiwtatou ke makariwtatou patroc hmwn papa abba [*POPE*].",
       "English": "be with our most holy and most blessed father, Pope Abba [*POPE*],",
       "Arabiccoptic": " إي إي مي تاطو آجيو طاطو كي ماكريو تاطو باتروس إيمون بابا أفا [*POPE*]",
-      "Englishcoptic": "I-ee meta tooo agiootatooo ke makariootatooo patros eemoon papa Avva [*POPE*]."
+      "Englishcoptic": "I-ee meta too agiootatoo ke makariootatoo patros eemoon papa Avva [*POPE*]."
     },
     {
       "Type": "Base",
@@ -57,7 +57,7 @@
       "Coptic": "Papa ke patriarxou thc megalo polewc Ale[an`driac> ",
       "English": "pope and patriarch of the great city of Alexandria",
       "Arabiccoptic": "بابا كي بارتي أرخو تيس ميغالو بوليئوس آليسكان إذرياس",
-      "Englishcoptic": "Papa ke patriarkhooo tees meghalo poleoos Alexanezrias:"
+      "Englishcoptic": "Papa ke patriarkhoo tees meghalo poleoos Alexanezrias:"
     },
     {
       "Type": "Base",
@@ -68,7 +68,7 @@
       "Coptic": "Nem `txwra thrc `nXhmi> nem `tpolic `mPennou; Ieroucalhm.",
       "English": "and the whole country of Egypt, the city of our God, Jerusalem, ",
       "Arabiccoptic": " نيم إيت خورا تيرس إنكيمي نيم إيت بوليس إم بين نوتي ييروساليم",
-      "Englishcoptic": "Nem etkhoora teers enSheemi: nem etpolis emPennoooti Ierooosaleem."
+      "Englishcoptic": "Nem etkhoora teers enSheemi: nem etpolis emPennooti Ieroosaleem."
     },
     {
       "Type": "Base",
@@ -79,7 +79,7 @@
       "Coptic": "Nem ;`tiou `mbaki `mpement> nem ;Lubia nem Noubia nem nieqau] nem Afrikia.",
       "English": "the Pentapolis, Libya, Nubia, Ethiopia, and Africa;",
       "Arabiccoptic": " نيم تي إتيو إم فاكي إم بي مينت. نيم تي ليبيا نيم نوفيانيم أيه ثافش نيم أفريكيا.",
-      "Englishcoptic": "Nem tietiooo emvaki empement: nem tiLeevia nem Nooovia nem niethavsh nem Afrikia."
+      "Englishcoptic": "Nem tietioo emvaki empement: nem tiLeevia nem Noovia nem niethavsh nem Afrikia."
     },
     {
       "Type": "Base",
@@ -90,7 +90,7 @@
       "Coptic": "Ke tou `agioc ke makariou `edecimwtatou tou patroc `hmwn abba [*DIOCESE_BISHOP*] orqodo[ou `hmwn `epi `mmhtropolhthc polewc tauthc ke twn `oriwnauthc.",
       "English": "and our holy, blessed, most honorable father, Abba [*DIOCESE_BISHOP*], our orthodox metropolitain of this city and its surroundings.",
       "Arabiccoptic": "كي تو اجيو كي ماكاريو ايذيسيمو تاتو تو باطروس ايمون افا [*DIOCESE_BISHOP*] اورثوذوكسو ايمون ايبي ميتروبولوتيس بوليئوس تافتيس كي تون اوريو نافتيس",
-      "Englishcoptic": "Ke tooo agios ke makariooo ezesimootatooo tooo patros eemon Avva [*DIOCESE_BISHOP*] orthozoxooo eemon epi metropolotees tees poleoos tavtees ke ton orioonavtees."
+      "Englishcoptic": "Ke too agios ke makarioo ezesimootatoo too patros eemon Avva [*DIOCESE_BISHOP*] orthozoxoo eemon epi metropolotees tees poleoos tavtees ke ton orioonavtees."
     },
     {
       "Type": "Base",
@@ -101,7 +101,7 @@
       "Coptic": "Ke tou `agioc ke makariou `edecimwtatou tou patroc `hmwn abba [*DIOCESE_BISHOP*] orqodo[ou `hmwn `epickopoc thc polewc tauthc ke twn `oriwnauthc.",
       "English": "and our holy, blessed, most honorable father, Abba [*DIOCESE_BISHOP*], our orthodox bishop of this city and its surroundings.",
       "Arabiccoptic": "كي تو اجيو كي ماكاريو ايذيسيمو تاتو تو باطروس ايمون افا [*DIOCESE_BISHOP*] اورثوذوكسو ايمون ايبيسكوبوتيس بوليئوس تافتيس كي تون اوريو نافتيس",
-      "Englishcoptic": "Ke tooo agios ke makariooo ezesimootatooo tooo patros eemon Avva [*DIOCESE_BISHOP*] orthozoxooo eemon episkopo tees poleoos tavtees ke ton orioonavtees."
+      "Englishcoptic": "Ke too agios ke makarioo ezesimootatoo too patros eemon Avva [*DIOCESE_BISHOP*] orthozoxoo eemon episkopo tees poleoos tavtees ke ton orioonavtees."
     },
     {
       "Type": "Base",
@@ -188,7 +188,7 @@
       "Coptic": "Mare pi`klhroc nem pilaoc thrf> oujai =en Psoic> je amhn ece]wpi.",
       "English": "May the clergy and all the people be safe in the Lord. Amen. So be it.",
       "Arabiccoptic": "بيروساليم نيم تي إتيو",
-      "Englishcoptic": "mare pi-ekleeros nem pi-la-os teerf: ooogai khen Epchois: je ameen eseshoopi."
+      "Englishcoptic": "mare pi-ekleeros nem pi-la-os teerf: oogai khen Epchois: je ameen eseshoopi."
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الإبركسيس لالاربعة وعشرين قسيساً",
+    "EnglishTitle": "Acts Response for The Twenty Four Priests",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "عظيمة هي كرامة القديسين الغير المتجسدين كهنة الحق الاربعة و العشرين قسيساً  . ",
+            "Coptic": " Ouni]; gar pe pitaio >`nte nheqouab `nacwmatoc > niouhb `nte ;meqmhi > pijout `ftou `m`precbuteroc > . ",
+            "English": "For great is the honor, of the incorporeal saints, the priests of Truth, the twenty-four presbyters. ",
+            "Arabiccoptic": " اونيشتي غار بي بي تايو : انتي ني اثؤواب ان لسوماتوس : ني اوييب انتي تي ميثمي : بي جوت افتو امبريسفيتيروس  . ",
+            "Englishcoptic": "Oooni-shti ghar pe pi-taio :en-te neeethowab en-asoomatos : ni-oweeb en-te timethmeei : pi-goot eftoo emeepresveeteros : ."
+        }
+    ]
+}

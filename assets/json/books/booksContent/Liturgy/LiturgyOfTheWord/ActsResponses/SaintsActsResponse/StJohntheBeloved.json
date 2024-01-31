@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الإبركسيس لالقديس يوحنا الأنجيلي",
+    "EnglishTitle": "Acts Response for St.John the Beloved",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " طوباك بالحقيقة يا حبيب المسيح يوحنا المختار الحقيقي ابن زبدي  . ",
+            "Coptic": " `Wouniatk =en oumeqmhi > `w pimenrit `nte Pi`xrictoc > Iwannhc picwtp `mmhi > `p]hri `nZebeleoc  . ",
+            "English": " Blessed are you indeed, O beloved of Christ, John the truly chosen one, the Son of Zebedee. ",
+            "Arabiccoptic": " اوؤنياتك خين اووميثمي : اووبي مين ريت إنتيه بي إخريستوس : يؤانيس بي سوتب إممي : إبشيري إنزيﭭيليؤس  . ",
+            "Englishcoptic": "Oo-ooni-atk khen oo-methmee : oo pi-menrit ente Pikhristos : Youannes pi-sootp emmeei : epsheeri enZeveleos  ."
+        }
+    ]
+}

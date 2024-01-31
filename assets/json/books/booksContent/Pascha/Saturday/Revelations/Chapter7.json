@@ -68,7 +68,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ يَهُوذَا اثْنَا عَشَرَ أَلْفَ",
-      "Coptic": "Ebol=en `tvulh ``nIoudac =ib `n]o.",
+      "Coptic": "Ebol=en `tvulh `nIoudac =ib `n]o.",
       "English": "Of the tribe of Judah twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن يوداس ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Yodas, meet esnav ensho."
@@ -79,7 +79,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": ".مِنْ سِبْطِ رَأُوبِينَ اثْنَا عَشَرَ أَلْفَ",
-      "Coptic": "`Ebol=en `tvulh ``nRoubhn =ib `n]o.",
+      "Coptic": "`Ebol=en `tvulh `nRoubhn =ib `n]o.",
       "English": "Of the tribe of Reuben twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن روبيين ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Robeen, meet esnav ensho."
@@ -90,7 +90,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": ".مِنْ سِبْطِ جَادَ اثْنَا عَشَرَ أَلْفَ .",
-      "Coptic": "`Ebol=en `tvulh ``nGad =ib `n]o.",
+      "Coptic": "`Ebol=en `tvulh `nGad =ib `n]o.",
       "English": "Of the tribe of Gad twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن جاد ميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Gad, meet esnav ensho."
@@ -128,7 +128,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ أَشِيرَ اثْنَا عَشَرَ أَلْفَ",
-      "Coptic": "`Ebol=en `tvulh ``nAcchr =ib `n]o.",
+      "Coptic": "`Ebol=en `tvulh `nAcchr =ib `n]o.",
       "English": "Of the tribe of Asher twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن اسيرميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Aseer, meet esnav ensho."
@@ -139,7 +139,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ نَفْتَالِي اثْنَا عَشَرَ أَلْفَ",
-      "Coptic": "`Ebol=en `tvulh ``nEvqal`im =ib `n]o.",
+      "Coptic": "`Ebol=en `tvulh `nEvqal`im =ib `n]o.",
       "English": "Of the tribe of Naphtali twelve thousand",
       "Arabiccoptic": ", إيفول خين إيتفيلي إن إفتاليم ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Eftaleem, meet esnav ensho."
@@ -150,7 +150,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ مَنَسَّى اثْنَا عَشَرَ أَلْفَ",
-      "Coptic": "`Ebol=en `tvulh ``nManach =ib `n]o.",
+      "Coptic": "`Ebol=en `tvulh `nManach =ib `n]o.",
       "English": "Of the tribe of Manasseh twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن ماناسا ميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Manasee, meet esnav ensho."
@@ -188,7 +188,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ شَمْعُونَ اثْنَا عَشَرَ أَلْفَ",
-      "Coptic": "`Ebol=en `tvulh ``nCumewn =ib `n]o.",
+      "Coptic": "`Ebol=en `tvulh `nCumewn =ib `n]o.",
       "English": "Of the tribe of Simeon twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن سيميئون ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Sime-on meet esnav ensho."
@@ -199,7 +199,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": ".مِنْ سِبْطِ لاَوِي اثْنَا عَشَرَ أَلْفَ",
-      "Coptic": "`Ebol=en `tvulh ``nLeu`i =ib `n]o.",
+      "Coptic": "`Ebol=en `tvulh `nLeu`i =ib `n]o.",
       "English": "Of the tribe of Levi twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن لييفيي ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Levee , meet esnav ensho."
@@ -210,7 +210,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": ".مِنْ سِبْطِ يَسَّاكَرَ اثْنَا عَشَرَ أَلْفَ .",
-      "Coptic": "`Ebol=en `tvulh ``n Icaxar =ib `n]o.",
+      "Coptic": "`Ebol=en `tvulh `n Icaxar =ib `n]o.",
       "English": "Of the tribe of Issachar twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن إيساكار ميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Isakar, meet esnav ensho."
@@ -248,7 +248,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ زَبُولُونَ اثْنَا عَشَرَ أَلْفَ",
-      "Coptic": "`Ebol=en `tvulh ``nZaboulwn =ib `n]o.",
+      "Coptic": "`Ebol=en `tvulh `nZaboulwn =ib `n]o.",
       "English": "Of the tribe of Zebulun twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن زوبولون ميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Zabolon , meet esnav ensho."
@@ -259,7 +259,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ يُوسُفَ اثْنَا عَشَرَ أَلْفَ",
-      "Coptic": "`Ebol=en `tvulh ``nIwchv =ib `n]o.",
+      "Coptic": "`Ebol=en `tvulh `nIwchv =ib `n]o.",
       "English": "Of the tribe of Joseph twelve thousand",
       "Arabiccoptic": ", إيفول خين إيتفيلي إن يوسف ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Youssef, meet esnav ensho."
@@ -270,7 +270,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ بِنْيَامِينَ اثْنَا عَشَرَ أَلْفَ",
-      "Coptic": "`Ebol=en `tvulh ``nBeni`amhn =ib `n]o.",
+      "Coptic": "`Ebol=en `tvulh `nBeni`amhn =ib `n]o.",
       "English": "Of the tribe of Benjamin twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن بنيامين ميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Beniameen, meet esnav ensho."

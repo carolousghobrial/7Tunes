@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الإبركسيس لالربعة حيوانات غير المتجسدين",
+    "EnglishTitle": "Acts Response for The Four Incorporeal Living Creatures",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "  السلام لالاربعة الحيوانات الغير متجسدين الحاملين مركبة الله وجه اسد  .  ووجه ثور  .  ووجه انسان  .  ووجه نسر  . ",
+            "Coptic": "Xere Pi`ftou `nzwoun `nacwmatoc > etfai =a pi\\arma `nte `Vnou; ou\\o `mmoi nem ou\\o `mmaci > ou\\o `nrwmi nem ou\\o `n`a`htoc > . ",
+            "English": "Hail to The four incorporeal creatures, carry the throne of God, a face of lion and a face of a ram, a face of a man and a face of an eagle. ",
+            "Arabiccoptic": " شيري بي افتو ان زوؤون ان اسوماتوس : ات فاي خا بي هارما انتي افنوتي اوهو اموي نيم اوهو اماسي : اوهو ان رومي نيم اوهو ان ايتوس  . ",
+            "Englishcoptic": "Shere Pieeftoo een-zo-oon en-asoomatos : etfai kha pi-harma en-te Evnoti : ooho emmoi nem ooho emmasi : ooho en-roomi nem ooho en-aitos : ."
+        }
+    ]
+}

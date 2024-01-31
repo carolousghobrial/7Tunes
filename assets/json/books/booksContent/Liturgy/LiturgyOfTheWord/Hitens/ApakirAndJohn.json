@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " هيتين لأباكير ويوحنا اخوه",
+  "EnglishTitle": "Hiten for St.Apakir and John his Brothe",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلواتِ الشهداء المجاهدون أباكير ويوحنا اخوه ، يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten nieuxh `nte ni`aqlouoroc `mmarturoc> Apakir nem Iwannhc pefcon Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the prayers of the struggle mantled martyrs, Apakir and John his brother, O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين ني إفكي إنتي ني اثلوفوروس ام مارتيروس : أباكير نيم يوأننس بيف سون إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
+      "Englishcoptic": "Hiten ni-evshee ente ni-athlo-ooros emmarteeros : Apakir nem Youannes pefson: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

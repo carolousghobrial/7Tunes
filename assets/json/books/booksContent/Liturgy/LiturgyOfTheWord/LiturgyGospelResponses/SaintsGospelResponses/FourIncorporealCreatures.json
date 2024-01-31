@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الانجيل لالربعة حيوانات غير المتجسدين",
+    "EnglishTitle": "Gospel Response for The Four Incorporeal Living Creatures",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " إشفعوا فينا ايها الاربعة الحيوانات الغير المتجسدين الخدام الملتهبون ناراً  .  ليغفر لنا خطايانا  . ",
+            "Coptic": " Ari`precbeuin `e`\\rhi `ejwn > `wpi`ftou `nzwon `nacwmatoc > `nlitourgoc `n]a\\ `n`xrwm > `ntefxa nen nobi nan `ebol.",
+            "English": "\" Intercede on our behalf, O four incorporeal creatures, the ministers fervent as fire, that He may forgive us our sins. ",
+            "Arabiccoptic": " اريب ريسفافين : اوبي افتو انزؤون ان اسوماتوس : ان ليتورغوس ان شاه ان اكروم: إنتيف كانين نوفى نان ايفول ",
+            "Englishcoptic": "Ari ep-resvevin eehry egon : oopi-eftoo en-zoon en-asoomatos : en-litoorghos en-shah en-ekrom : entef ka nen novi nan evol"
+        }
+    ]
+}

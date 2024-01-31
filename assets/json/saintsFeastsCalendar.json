@@ -60,6 +60,12 @@
             "month": "Parmoute"
         }
     ],
+    "ST_JOHN_BELOVED": [
+        {
+            "day": 4,
+            "month": "Tobe"
+        }
+    ],
     "ST_STEPHEN": [
         {
             "day": 1,
@@ -152,13 +158,13 @@
             "month": "Epep"
         }
     ],
-    "BARBARA": [
+    "ST_BARBARA": [
         {
             "day": 8,
             "month": "Koiahk"
         }
     ],
-    "JULIANA": [
+    "ST_JULIANA": [
         {
             "day": 8,
             "month": "Koiahk"

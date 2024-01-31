@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " هيتين لأمير تادرس بن يوحنا الشطبي  ",
+  "EnglishTitle": "Hiten for St.Theodore of Shotep",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "بصلواتِ المجاهدِ الشهيدِ ثيؤدوروس الأسفهسلار، يا رب إنعم لنا بمغفرة خطايانا",
+      "Coptic": "|iten nieuxh `nte ni`aqlovoroc `mmarturoc Qe`odwroc pi`ctratilathc> Psoic `ari`\\mot nan > `mpixw `ebol `nte nennoubi.",
+      "English": "Through the prayers of the victorious martyr, Theodore the General, O Lord, grant us the forgiveness of our sins",
+      "Arabiccoptic": "هيتين ني إفكي إنتي بي آثلوفوروس إم مارتيروس ثيؤدوروس بى ستراتيلاتيس إبتشويس أري إهموت نان إمبيكو إفول إنتيه نين نوفي  .",
+      "Englishcoptic": "Hiten ni-evshee ente pi-athlovoros em-marteeros Theodoros pi-estrati-latees: Epshois Ari Ehmot Nan Empi ko Evol, Ente Nen novi."
+    }
+  ]
+}

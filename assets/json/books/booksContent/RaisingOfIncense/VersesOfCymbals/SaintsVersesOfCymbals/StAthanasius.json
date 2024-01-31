@@ -1,0 +1,18 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " ارباع الناقوس ل الانبا اثناسيوس الرسولي ",
+    "EnglishTitle": "Verses of the Cymbals for St.Athansius the Apostolic",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Side": "Neutral",
+            "Visible": true,
+            "Arabic": "طوباك بالحقيقة، يا أبانا القديس البطريرك أنبا أثناسيوس الرسولي، حبيب المسيح.",
+            "Coptic": "Wouniatk =en oumeqmhi> peniwt eqouab mpatriarxhc > abba Aqanacioc piapoctolikoc > pimenrit `nte Pi`xrictoc.",
+            "English": "Blessed are you indeed, O our father the patriarch , Abba Athanasios the Apostolic, the beloved of Christ.",
+            "Arabiccoptic": "أونياتك خين أو ميثمى:بين يوت إثؤواب إم باتري أرشيس : أفا أثناسيوس بي أبوسطوليكوس : بى مينريت انتى بخرستوس.",
+            "Englishcoptic": "Oo-oniatk khen oomethmi : pen-ioot ethowab mpatriarshees : Ava Athanasios pi-apostolikos: Pi-menreet ente Pikhristos."
+        }
+    ]
+}

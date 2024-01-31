@@ -235,6 +235,27 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesArchangelRaphael",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "ARCHANGEL_RAPHAEL"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesFourIncorporealCreatures",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "FOUR_INCORPOREAL_CREATURES"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesTwentyFourPriests",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "TWENTY_FOUR_PRIESTS"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesHeavenlies",
             "Rule": 0,
             "Visible": true
@@ -265,6 +286,13 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesStJohntheBeloved",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "ST_JOHN_BELOVED"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesStMark",
             "Rule": 0,
             "Visible": "DOXSaint",
@@ -283,6 +311,22 @@
             "Rule": 0,
             "Visible": "DOXSaint",
             "SAINT": "ST_GEORGE"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "ذكصولوجية مارجرجس 2",
+            "English": "St.George Doxology 2",
+            "Rule": "OpenSinglePage",
+            "Visible": "DOXSaint",
+            "Path": "DoxologiesStGeorge2",
+            "SAINT": "ST_GEORGE"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStTheodoreShatpi",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "ST_THEODORE_SHOTEP"
         },
         {
             "Type": "Main",
@@ -307,6 +351,20 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesCosmanAndDemian",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "COSMAN_AND_DEMIAN"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesApakirAndJohn",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "APAKIR_AND_JOHN"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesStDemiana",
             "Rule": 0,
             "Visible": "DOXSaint",
@@ -318,6 +376,20 @@
             "Rule": 0,
             "Visible": "DOXSaint",
             "SAINT": "ST_MARINA"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesBarbaraAndJuliana",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "ST_BARBARA"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesBarbaraAndJuliana",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "ST_JULIANA"
         },
         {
             "Type": "Main",
@@ -335,6 +407,13 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesStPaulHermit",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "DoxologiesStMacariusGreat"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesStMoses",
             "Rule": 0,
             "Visible": "DOXSaint",
@@ -342,10 +421,24 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesMaximusDometius",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "MAXIMUS_DOMETIUS"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesStPishoi",
             "Rule": 0,
             "Visible": "DOXSaint",
             "SAINT": "ST_PISHOI"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStAthanasius",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "ATHANASIUS_APOSTOLIC"
         },
         {
             "Type": "Main",
@@ -360,6 +453,27 @@
             "Rule": 0,
             "Visible": "DOXSaint",
             "SAINT": "ST_JOHN_THE_SHORT"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStShenoudaTheArchManadrite",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "ST_SHENOUDA_ARCHMANDRITE"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStPachomious",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "ST_PACHOMIOUS"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesSamuelConfessor",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "SAMUEL_CONFESSOR"
         },
         {
             "Type": "Main",

@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " ذكصولوجية لالقديس يوحنا الأنجيلي",
+  "EnglishTitle": "Doxology for St.John the Beloved",
+  "CopticTitle": " Iwannhc pi Parqenoc ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يوحنا البتول ابن زبدي من أهل بيت صيدا من سبط زبولون  . ",
+      "Coptic": " Iwannhc pi Parqenoc > `p]hri `nZebeleoc > ebol=en nirem`mbhdcaide > =en `tvulh `nte Zebolon  . ",
+      "English": "John the Celibate, the Son of Zebedee, a native of Bethsaida, from the tribe of Zebulun. ",
+      "Arabiccoptic": " يؤانس بي بارثينوس : إبشيري إنزيﭭيليؤس : إيﭭول خين نيريم إمﭭيذ سايذيه : خين إتفيلي إنتيه زيﭭولون  . ",
+      "Englishcoptic": "Youannes pi Parthen-os : epsheeri en-Zeveleos : evolkhen- ni-rememveezsaize : khen- etveelee en-te Zevolon  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اختاره المسيح وصيره تلميذا له ورسولا وكان يحبه جدا  . ",
+      "Coptic": " Afcwtp `mmof `nje Pi`xrictoc > af`eroumaqhthc naf > ouo\\ piapoctoloc > nafmei `mmof `ema]w  . ",
+      "English": " Christ has chosen him, and made him a disciple for Himself, and also an apostle, he loved  Him very much.  ",
+      "Arabiccoptic": " افسوتب إمموف إنﭽيه بي إخريستوس : اف إر اووماثيتيس ناف : اووه بي ابوسطولوس ناف مي إمموف إماشو  . ",
+      "Englishcoptic": "Afsootp emmof en-je Pikhristos : af-eroomatheetees naf : owoh pi-apostolos : nafmei emmof emashoo  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وهو أيضا بعد العشاء اتكا على صدر مخلصنا وقال من هو الذي يسلمك  . ",
+      "Coptic": " `Nqof on menenca pidhpnon > afrwteb `mmof `e`\\rhi `ejen > `qmecten\\ht `mpen =c=w=r > ouo\\ afjoc nim vheqnathik  . ",
+      "English": "He also after dinner, rested upon the shoulder, of our Savior and said to him, \"Who betray You?\"",
+      "Arabiccoptic": " إنثوف اون مينينسا بيذيبنون : افروتيب إمموف إيهري إيﭽين : إثميس تينهيت إمبين سوتير : اووه افجوس نيم في إثناتيك  . ",
+      "Englishcoptic": "eNthof on men-en-sa pi-zeepnon : afrootev emmof eehreei ejen- : ethmesten-heet empen- khskhookhr : owoh afgos ni-m vee-ethnateeik  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وهو ايضا الذي تكلم من اجله المسيح بفمه الطاهر  .  اذا اردت ان اجعله يبقى لحين مجيئي فماذا لك  . ",
+      "Coptic": " `Nqof on `e`taf caji eqbhtf ; `nje Pi`xrictoc =en rwf eqouab > je `e]wp ei- ]anouw] `exaf > `evai]a; `i`a=ok `ncok  . ",
+      "English": " Christ has spoken of you, through His holy mouth, \"If I will that he remain till I come, what is that to you?\" ",
+      "Arabiccoptic": " إثنوف اون إي إتاف صاﭽي إنﭭيتف : إنﭽيه بي إخريستوس خين روف إثؤواب : ﭽيه إشوب إيشانوؤش إكاف : إي فاي شاتي إي اخوك إنسوك  . ",
+      "Englishcoptic": "eNthof on eetaf saji ethveetf ti en-je Pikhristos khen- roof ethowab : je eshoop ei- shano-oosh ekhaf : evaishati ee-akhok en-sok  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وبعد ثلاثين سنة للقيامة المقدسة كتب انجيله  .  وكرز به في العالم  . ",
+      "Coptic": "Ouo\\ menenca =l `nrompi > `e;anactacic eqouab > af`c=ai `mpefeuaggelion > af \\iwi] `mmof =en pikocmoc  . ",
+      "English": " And after sixty years, from the Holy Resurrection, he wrote his Gospel, and preached to world.  ",
+      "Arabiccoptic": " اووه مينينسا إن رومبي : إي تي اناستاسيس إثؤواب : اف إسخاي إمبيف إﭭ انجيليون : آف هي اويش إمموف خين بي كوزموس  . ",
+      "Englishcoptic": "owoh men-en-sa khl en-rompi : eti-anastasis ethowab : afeskhai empefevangelion : af hiooish emmof khen- pikosmos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " السلام لك ايها البتول السلام للانجيلي السلام لرسول المسيح وتلميذه  . ",
+      "Coptic": " Xere nak `w pi parqenoc >xere pieuaggelicthc > xere piapoctoloc > `nte Pi`xrictoc ouo\\ maqhthc  . ",
+      "English": " Hail to you O celibate, hail to the Evangelist, hail to the apostle, and disciple of Christ. ",
+      "Arabiccoptic": " شيري ناك اوو بي بارثينوس : شيري بي إﭭ انجيليستيس : شيري بي ايوسطولوس : إنتيه بي إخريستوس اووه ماثيتيس  . ",
+      "Englishcoptic": "Shere nak oo pi parthen-os :shere pievangelistees : shere piapostolos : en-te Pikhristos owoh matheetees  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " طوباك بالحقيقة يا حبيب المسيح يوحنا المختار الحقيقي ابن زبدي  . ",
+      "Coptic": " `Wouniatk =en oumeqmhi > `w pimenrit `nte Pi`xrictoc > Iwannhc picwtp `mmhi > `p]hri `nZebeleoc  . ",
+      "English": " Blessed are you indeed, O beloved of Christ, John the truly chosen one, the Son of Zebedee. ",
+      "Arabiccoptic": " اوؤنياتك خين اووميثمي : اووبي مين ريت إنتيه بي إخريستوس : يؤانيس بي سوتب إممي : إبشيري إنزيﭭيليؤس  . ",
+      "Englishcoptic": "Oo-ooni-atk khen oo-methmee : oo pi-menrit ente Pikhristos : Youannes pi-sootp emmeei : epsheeri enZeveleos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اطلب عنا ايها البتول الانجيلي يوحنا الرسول ليغفر لنا خطايانا  .  ",
+      "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > `w piparqenoc `neuaggelicthc > Iwannhc piapoctoloc > `ntefxa nennobi nan ebol ",
+      "English": " Pray to the Lord on our behalf, O celibate and the Evangelist, John the Apostle, that He may forgive us our sins. ",
+      "Arabiccoptic": " طوبه إمبشويس إإهرى إيجون : اوبي بي بارثينوس إن إﭭ انجيليستيس : يؤانيس بي ابوسطولوس : إنتيف كانين نوﭭى نان إيﭭول",
+      "Englishcoptic": "Tobhem empshois e-ehri egon : oo pi-parthen-os en-evangelistees : Youannes pi-apostolos : en-tefka nen-novi nan evol"
+    }
+  ]
+}
