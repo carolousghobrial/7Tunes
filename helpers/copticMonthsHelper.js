@@ -682,7 +682,10 @@ export function setCurrentSeasonByKey(timeTransition, key) {
     end: mySeason.end,
     major: mySeason.major,
     weekOfMonth: Math.ceil(copticDate.day / 7),
-    week: getWeeksSinceStartDate(new Date(mySeason.start)),
+    week:
+      mySeason.start === null
+        ? 0
+        : getWeeksSinceStartDate(currentDate, new Date(mySeason.start)),
     dayOfWeek: currentDate.getDay(),
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
@@ -714,7 +717,10 @@ export function setCurrentSeasonLive(timeTransition) {
     end: mySeason.end,
     major: mySeason.major,
     weekOfMonth: Math.ceil(copticDate.day / 7),
-    week: getWeeksSinceStartDate(new Date(mySeason.start)),
+    week:
+      mySeason.start === null
+        ? 0
+        : getWeeksSinceStartDate(currentDate, new Date(mySeason.start)),
     dayOfWeek: currentDate.getDay(),
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
@@ -732,12 +738,10 @@ export function setCurrentSeasonLive(timeTransition) {
   };
   return mycurrentSeason;
 }
-function getWeeksSinceStartDate(startDate) {
-  const now = new Date(); // Get the current date
-  const msPerWeek = 1000 * 60 * 60 * 24 * 7; // Number of milliseconds in a week
-  const diffInMs = now.getTime() - startDate.getTime(); // Difference in milliseconds between now and start date
-  const diffInWeeks = Math.ceil(diffInMs / msPerWeek); // Round down to get number of full weeks
-  return diffInWeeks;
+function getWeeksSinceStartDate(currentDate, startDate) {
+  const now = new moment(currentDate); // Get the current date
+  const diff = now.diff(startDate, "weeks") + 1;
+  return diff;
 }
 function getSaintOfTheDay(copticDate) {
   return Object.keys(saintsFeastsCalendar).filter((saint) =>
@@ -808,7 +812,10 @@ export function getCurrentSeasonByDate(date, timeTransition) {
     end: mySeason.end,
     major: mySeason.major,
     weekOfMonth: Math.ceil(copticDate.day / 7),
-    week: getWeeksSinceStartDate(new Date(mySeason.start)),
+    week:
+      mySeason.start === null
+        ? 0
+        : getWeeksSinceStartDate(currentDate, new Date(mySeason.start)),
     dayOfWeek: currentDate.getDay(),
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
@@ -997,23 +1004,25 @@ export function getCopticDateByDate(date) {
   };
 }
 export function getDateByCopticDate(copticMonth, copticDay) {
-  if (copticMonth === undefined) {
-    return new moment();
-  }
-
+  const todaysMoment = new moment();
   const monthObj = CopticMonthObjects.find((item) => item.name === copticMonth);
 
-  if (!monthObj) {
-    return null; // Handle the case where the month is not found
+  if (copticMonth === undefined || !monthObj) {
+    return todaysMoment;
   }
-
   const returnDate = moment([
-    moment().year(),
+    todaysMoment.year(),
     monthObj.month - 1,
     monthObj.day - 1,
-  ])
-    .add(copticDay - 1, "days")
-    .format("dddd, MMMM D, YYYY");
+  ]).add(copticDay, "days");
+
+  if (
+    isLeapYear(todaysMoment.year()) &&
+    returnDate.isBefore(moment([todaysMoment.year(), 2, 1]))
+  ) {
+    returnDate.add(1, "days");
+  }
+
   return returnDate;
 }
 

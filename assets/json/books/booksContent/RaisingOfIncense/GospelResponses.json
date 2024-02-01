@@ -157,13 +157,13 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseGospelResponsesMaryFastVespers",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "FeastsAndFastsOfStMary"
         },
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseGospelResponsesMaryFastMatins",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "FeastsAndFastsOfStMary"
         },
         {
             "Type": "Main",

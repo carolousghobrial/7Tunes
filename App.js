@@ -1,4 +1,3 @@
-import { StatusBar } from "expo-status-bar";
 import { Ionicons } from "@expo/vector-icons";
 import { useState, useCallback, useEffect } from "react";
 import {
@@ -14,11 +13,7 @@ import useFonts from "./helpers/useFonts";
 import HomepageScreen from "./screens/HomepageScreen";
 import BookScreen from "./screens/BookScreen";
 import Colors from "./constants/colors";
-import {
-  setCurrentSeasonLive,
-  isInFast,
-  isWatos,
-} from "./helpers/copticMonthsHelper";
+import { isInFast, isWatos } from "./helpers/copticMonthsHelper";
 import SettingsScreen from "./screens/SettingsScreen";
 import CustomDrawerScreen from "./screens/CustomDrawerScreen";
 import { Provider } from "react-redux";
@@ -27,13 +22,18 @@ import NavigationContainerView from "./components/homepage/NavigationContainerVi
 import { useDispatch, useSelector } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { Glassfy, GlassfySku } from "react-native-glassfy-module";
-//import Purchases from "react-native-purchases";
+import { StatusBar } from "expo-status-bar";
 import * as ScreenOrientation from "expo-screen-orientation";
 import { setSeason } from "./stores/redux/settings.js";
 import { enableScreens } from "react-native-screens";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import * as Notifications from "expo-notifications";
-
+Notifications.setNotificationHandler({
+  handleNotification: async () => ({
+    shouldShowAlert: true,
+    shouldPlaySound: false,
+    shouldSetBadge: false,
+  }),
+});
 enableScreens(false);
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();

@@ -1,4 +1,39 @@
 {
+    "ST_MARY": [
+        {
+            "day": 21,
+            "FeastName": "MonthlyRememberance"
+        },
+        {
+            "day": 7,
+            "month": "Mesore"
+        },
+        {
+            "day": 1,
+            "month": "Pashons",
+            "FeastName": "Birthday"
+        },
+        {
+            "day": 3,
+            "month": "Koiahk",
+            "FeastName": "EntryTemple"
+        },
+        {
+            "day": 21,
+            "month": "Tobe",
+            "FeastName": "Departure"
+        },
+        {
+            "day": 21,
+            "month": "Paone",
+            "FeastName": "MeltedIron"
+        },
+        {
+            "day": 24,
+            "month": "Paremhotep",
+            "FeastName": "Zeyton"
+        }
+    ],
     "ARCHANGEL_MICHAEL": [
         {
             "day": 12
@@ -7,17 +42,17 @@
     "ARCHANGEL_GABRIEL": [
         {
             "day": 13,
-            "month": "Koiahk"
-        },
-        {
-            "day": 3,
-            "month": "Nesi"
+            "month": "Paone"
         }
     ],
     "ARCHANGEL_RAPHAEL": [
         {
             "day": 13,
-            "month": "Paone"
+            "month": "Koiahk"
+        },
+        {
+            "day": 3,
+            "month": "Nesi"
         }
     ],
     "FOUR_INCORPOREAL_CREATURES": [

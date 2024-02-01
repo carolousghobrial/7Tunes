@@ -7,17 +7,6 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "People",
-      "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
       "Side": "Refrain",
       "Arabic": " يسوع المسيح ابن الله قبل إليه الختان   .",
       "Coptic": "Ihcouc Pi`xrictoc `p}hri `m`Vnou;> af]wp `erof `mpicebi.",

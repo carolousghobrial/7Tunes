@@ -8,6 +8,13 @@ import moment from "moment";
 const saintsSlice = createSlice({
   name: "saints",
   initialState: {
+    ST_MARY: {
+      versesofCymbals: true,
+      doxologies: true,
+      intercessions: true,
+      actsResponse: true,
+      gospelResponse: true,
+    },
     ARCHANGEL_MICHAEL: {
       versesofCymbals: false,
       doxologies: false,

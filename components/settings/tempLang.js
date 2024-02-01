@@ -1,5 +1,8 @@
 const tempLang = [
   {
+    titleKey: "ST_MARY",
+  },
+  {
     titleKey: "ARCHANGEL_MICHAEL",
   },
   {

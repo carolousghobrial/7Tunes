@@ -15,7 +15,6 @@ import SaintsList from "../components/settings/saintsList";
 import TodaysPrayer from "../components/settings/todaysPrayer";
 import PopeBishop from "../components/settings/popeBishop";
 import PresentationMode from "../components/settings/presentationMode";
-import NotificationPermission from "../components/settings/notificationPermission.js";
 import BishopPresentView from "../screens/BishopPresentView";
 import {
   getLanguageValue,
@@ -26,7 +25,6 @@ function SettingsScreen({ navigation, route }) {
   return (
     <ScrollView style={{ backgroundColor: getColor("pageBackgroundColor") }}>
       <ApplicationLanguage></ApplicationLanguage>
-      <NotificationPermission></NotificationPermission>
       <AppTheme></AppTheme>
       <TodaysPrayer></TodaysPrayer>
       <PresentationMode></PresentationMode>

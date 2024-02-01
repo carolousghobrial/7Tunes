@@ -29,6 +29,7 @@ export function getSaint(saint) {
 
   const saints = useSelector(saintsSelector);
   const saintMapping = {
+    ST_MARY: saints.ST_MARY,
     ARCHANGEL_MICHAEL: saints.ARCHANGEL_MICHAEL,
     ARCHANGEL_GABRIEL: saints.ARCHANGEL_GABRIEL,
     ARCHANGEL_RAPHAEL: saints.ARCHANGEL_RAPHAEL,

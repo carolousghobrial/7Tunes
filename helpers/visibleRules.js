@@ -137,6 +137,35 @@ const isStandardSeasonWithStMary = (motherSource, path) => {
   }
   return currentSeason.type !== "feast";
 };
+const FeastsAndFastsOfStMary = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
+    return true;
+  }
+  switch (currentSeason.key) {
+    case FeastEnum.FAST_STMARY:
+    case FeastEnum.ASSUMPTION_STMARY:
+      return true;
+    default:
+      return false;
+  }
+};
+const FeastsAndFastsOfStMaryAndHeavenlies = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (FeastsAndFastsOfStMary(motherSource, path)) {
+    return true;
+  }
+  switch (currentSeason.saintsOfThisDay) {
+    case "ARCHANGEL_MICHAEL":
+    case "ARCHANGEL_GABRIEL":
+    case "ARCHANGEL_RAPHAEL":
+    case "FOUR_INCORPOREAL_CREATURES":
+    case "TWENTY_FOUR_PRIESTS":
+      return true;
+    default:
+      return false;
+  }
+};
 const AlleluiaStandard = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   switch (currentSeason.type) {
@@ -169,14 +198,15 @@ const isStandardSeason = (motherSource, path) => {
 };
 const isStandardFraction = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (FeastsAndFastsOfStMaryAndHeavenlies(motherSource, path)) {
+    return false;
+  }
   switch (currentSeason.key) {
     case "STANDARD":
-    case "FAST_STMARY":
       return true;
     default:
       return false;
   }
-  return currentSeason.type !== "feast";
 };
 
 const isKiahk = (motherSource, path) => {
@@ -581,6 +611,22 @@ const isKiahkWeek = (motherSource, path) => {
   }
   return false;
 };
+const isWeekOfLent = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  return (
+    path.toLowerCase().includes(currentSeason.week) &&
+    currentSeason.key === "GREAT_LENT"
+  );
+};
+const isWeekOfPentecost = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  return (
+    path.toLowerCase().includes(currentSeason.week) &&
+    isInHolyFifties(motherSource, path)
+  );
+};
 const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
@@ -763,6 +809,7 @@ const showArchangelMichaelAndGabriel = (motherSource, path) => {
   const nonArchangelSeasons = [
     "JONAH_FAST",
     "HOLY_50",
+    "GREAT_LENT",
     "ASCENSION",
     "PENTECOST",
     "RESURRECTION",
@@ -1323,22 +1370,23 @@ const IsDioceseNotPope = (motherSource, path) => {
 const IsNonFastingDays = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const timeTransition = useSelector((state) => state.settings.timeTransition);
-
-  if (
-    currentSeason.key === FeastEnum.FEAST_OF_CROSS ||
-    currentSeason.key === FeastEnum.FEAST_OF_CROSS_3
-  ) {
-    return false;
-  }
-  if (currentSeason.type === "feast") {
-    return true;
-  }
-  if (!isInFast(timeTransition)) {
-    return true;
-  } else {
-    return currentSeason.dayOfWeek === 6 || currentSeason.dayOfWeek === 0
-      ? true
-      : false;
+  switch (currentSeason.key) {
+    case FeastEnum.FEAST_OF_CROSS:
+    case FeastEnum.FEAST_OF_CROSS:
+    case FeastEnum.GREAT_LENT:
+    case FeastEnum.JONAH_FAST:
+    case FeastEnum.FEAST_OF_CROSS:
+      return false;
+    default:
+      if (currentSeason.type === "feast") {
+        return true;
+      }
+      if (!isInFast(timeTransition)) {
+        return true;
+      }
+      return currentSeason.dayOfWeek === 6 || currentSeason.dayOfWeek === 0
+        ? true
+        : false;
   }
 };
 const IsFastingDays = (motherSource, path) => {
@@ -1524,6 +1572,8 @@ const VisibleRules = {
   isLentenVespersPraises: isLentenVespersPraises,
   isNOTVespersPraises: isNOTVespersPraises,
   isKiahkWeek: isKiahkWeek,
+  isWeekOfLent: isWeekOfLent,
+  isWeekOfPentecost: isWeekOfPentecost,
   isLentVespersPraisesExpositionWeek: isLentVespersPraisesExpositionWeek,
   isInHolyFifties: isInHolyFifties,
   isNOTInHolyFifties: isNOTInHolyFifties,
@@ -1591,5 +1641,7 @@ const VisibleRules = {
   ShowSotees: ShowSotees,
   AlleluiaStandard: AlleluiaStandard,
   AdamConclusionDoxologies: AdamConclusionDoxologies,
+  FeastsAndFastsOfStMary: FeastsAndFastsOfStMary,
+  FeastsAndFastsOfStMaryAndHeavenlies: FeastsAndFastsOfStMaryAndHeavenlies,
 };
 export default VisibleRules;

@@ -336,7 +336,7 @@ const bookPaths = {
   RaisingOfIncenseVersesOfCymbalsStPachomious: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/SaintsVersesOfCymbals/StPachomious.json"),
   RaisingOfIncenseVersesOfCymbalsStShenoudaTheArchManadrite: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/SaintsVersesOfCymbals/StShenoudaTheArchManadrite.json"),
   RaisingOfIncenseVersesOfCymbalsStTheodoreShatpi: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/SaintsVersesOfCymbals/StTheodoreShatpi.json"),
-  RaisingOfIncenseVersesOfCymbalsStStAthanasius: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/SaintsVersesOfCymbals/StAthanasius.json"),
+  RaisingOfIncenseVersesOfCymbalsStAthanasius: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/SaintsVersesOfCymbals/StAthanasius.json"),
   RaisingOfIncenseVersesOfCymbalsTwentyFourPriests: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/SaintsVersesOfCymbals/TwentyFourPriests.json"),
   RaisingOfIncenseVersesOfCymbalsStandardConclusion: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/VersesCymbalsStandardConclusion.json"),
   RaisingOfIncenseVersesOfCymbalsFestiveConclusion: require("../assets/json/books/booksContent/RaisingOfIncense/VersesOfCymbals/VersesCymbalsFestiveConclusion.json"),
@@ -1371,7 +1371,7 @@ const bookPaths = {
   LiturgyLiturgyOfTheWordHitensStPachomious: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/StPachomious.json"),
   LiturgyLiturgyOfTheWordHitensStShenoudaTheArchManadrite: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/StShenoudaTheArchManadrite.json"),
   LiturgyLiturgyOfTheWordHitensStTheodoreShatpi: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/StTheodoreShatpi.json"),
-  LiturgyLiturgyOfTheWordHitensStStAthanasius: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/StAthanasius.json"),
+  LiturgyLiturgyOfTheWordHitensStAthanasius: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/StAthanasius.json"),
   LiturgyLiturgyOfTheWordHitensTwentyFourPriests: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/TwentyFourPriests.json"),
   //Liturgy\LiturgyOfTheWord\PapalHymns
   LiturgyLiturgyOfTheWordPapalHymnsEAghape: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/PapalHymns/EAghape.json"),
@@ -1439,7 +1439,7 @@ const bookPaths = {
   LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponseStPachomious: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/SaintsActsResponse/StPachomious.json"),
   LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponseStShenoudaTheArchManadrite: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/SaintsActsResponse/StShenoudaTheArchManadrite.json"),
   LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponseStTheodoreShatpi: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/SaintsActsResponse/StTheodoreShatpi.json"),
-  LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponseStStAthanasius: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/SaintsActsResponse/StAthanasius.json"),
+  LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponseStAthanasius: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/SaintsActsResponse/StAthanasius.json"),
   LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponseTwentyFourPriests: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/ActsResponses/SaintsActsResponse/TwentyFourPriests.json"),
 
   //Liturgy/GospelResponses
@@ -1465,6 +1465,7 @@ const bookPaths = {
   LiturgyLiturgyOfTheWordLiturgyGospelResponsesThirdJonahLiturgy: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/ThirdJonahLiturgy.json"),
   LiturgyLiturgyOfTheWordLiturgyGospelResponsesSaintsGospelResponsesapostles: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/apostles.json"),
   LiturgyLiturgyOfTheWordLiturgyGospelResponsesSaintsGospelResponsesarchangelgabriel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/archangelgabriel.json"),
+  LiturgyLiturgyOfTheWordLiturgyGospelResponsesSaintsGospelResponsesarchangelmichael: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/archangelmichael.json"),
   LiturgyLiturgyOfTheWordLiturgyGospelResponsesSaintsGospelResponsesjohnTheBaptist: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/johnTheBaptist.json"),
   LiturgyLiturgyOfTheWordLiturgyGospelResponsesSaintsGospelResponsesstabanoub: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/stabanoub.json"),
   LiturgyLiturgyOfTheWordLiturgyGospelResponsesSaintsGospelResponsesstanthony: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/stanthony.json"),
@@ -1496,7 +1497,7 @@ const bookPaths = {
   LiturgyLiturgyOfTheWordGospelResponsesSaintsGospelResponsesStPachomious: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/StPachomious.json"),
   LiturgyLiturgyOfTheWordGospelResponsesSaintsGospelResponsesStShenoudaTheArchManadrite: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/StShenoudaTheArchManadrite.json"),
   LiturgyLiturgyOfTheWordGospelResponsesSaintsGospelResponsesStTheodoreShatpi: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/StTheodoreShatpi.json"),
-  LiturgyLiturgyOfTheWordGospelResponsesSaintsGospelResponsesStStAthanasius: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/StAthanasius.json"),
+  LiturgyLiturgyOfTheWordGospelResponsesSaintsGospelResponsesStAthanasius: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/StAthanasius.json"),
   LiturgyLiturgyOfTheWordGospelResponsesSaintsGospelResponsesTwentyFourPriests: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/TwentyFourPriests.json"),
   //LiturgyOfTheWord/SeasonalHymns
   LiturgyLiturgyOfTheWordLiturgySeasonalHymnsCrossParlex: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Cross/Parlex.json"),
@@ -1710,6 +1711,7 @@ const bookPaths = {
   LiturgyDistributionMelodiesLentWeek4: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/Melodies/LentWeek4.json"),
   LiturgyDistributionMelodiesLentWeek5: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/Melodies/LentWeek5.json"),
   LiturgyDistributionMelodiesLentWeek6: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/Melodies/LentWeek6.json"),
+  LiturgyDistributionMelodiesLentWeek7: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/Melodies/LentWeek7.json"),
   LiturgyDistributionMelodiesListenOChristsCongregation: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/Melodies/ListenOChristsCongregation.json"),
   LiturgyDistributionMelodiesNativity: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/Melodies/Nativity.json"),
   LiturgyDistributionMelodiesNativityParamoun: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Liturgy/Distribution/Melodies/NativityParamoun.json"),

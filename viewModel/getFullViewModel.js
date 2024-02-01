@@ -326,24 +326,33 @@ export function addItemsToArray(part, thisRule) {
           myrule = REPLACEBISHOPAVAILABLETHREE();
           break;
         default:
+          myrule = {
+            english: "..",
+            coptic: "..",
+            arabic: "..",
+            englishcoptic: "..",
+            arabiccoptic: "..",
+          };
           break;
       }
       // Apply the rule to the 'newPart' object properties
-      newPart = {
-        ...newPart,
-        Arabic: newPart.Arabic.replace(foundKeyword, myrule.arabic),
-        Arabiccoptic: newPart.Arabiccoptic.replace(
-          foundKeyword,
-          myrule.arabiccoptic
-        ),
-        Coptic: newPart.Coptic.replace(foundKeyword, myrule.coptic),
-        English: newPart.English.replace(foundKeyword, myrule.english),
-        Englishcoptic: newPart.Englishcoptic.replace(
-          foundKeyword,
-          myrule.englishcoptic
-        ),
-        Rule: thisRule,
-      };
+      if (myrule !== undefined) {
+        newPart = {
+          ...newPart,
+          Arabic: newPart.Arabic?.replace(foundKeyword, myrule.arabic),
+          Arabiccoptic: newPart.Arabiccoptic?.replace(
+            foundKeyword,
+            myrule.arabiccoptic
+          ),
+          Coptic: newPart.Coptic?.replace(foundKeyword, myrule.coptic),
+          English: newPart.English?.replace(foundKeyword, myrule.english),
+          Englishcoptic: newPart.Englishcoptic?.replace(
+            foundKeyword,
+            myrule.englishcoptic
+          ),
+          Rule: thisRule,
+        };
+      }
     } else if (part.Type === "Melody") {
       const foundKeyword = findMatchingSubstring(part.English, keywords);
       switch (foundKeyword) {
@@ -400,16 +409,25 @@ export function addItemsToArray(part, thisRule) {
           myrule = REPLACEBISHOPAVAILABLETHREE();
           break;
         default:
+          myrule = {
+            english: "..",
+            coptic: "..",
+            arabic: "..",
+            englishcoptic: "..",
+            arabiccoptic: "..",
+          };
           break;
       }
+      if (myrule !== undefined) {
+        // Apply the rule to the 'newPart' object properties
 
-      // Apply the rule to the 'newPart' object properties
-      newPart = {
-        ...newPart,
-        Arabic: newPart.Arabic.replace(foundKeyword, myrule.arabic),
-        English: newPart.English.replace(foundKeyword, myrule.english),
-        Rule: thisRule,
-      };
+        newPart = {
+          ...newPart,
+          Arabic: newPart.Arabic?.replace(foundKeyword, myrule.arabic),
+          English: newPart.English?.replace(foundKeyword, myrule.english),
+          Rule: thisRule,
+        };
+      }
     }
   } else {
     // Check for specific cases and apply the corresponding rule
@@ -461,25 +479,33 @@ export function addItemsToArray(part, thisRule) {
           myrule = REPLACEBISHOPAVAILABLETHREE();
           break;
         default:
+          myrule = {
+            english: "..",
+            coptic: "..",
+            arabic: "..",
+            englishcoptic: "..",
+            arabiccoptic: "..",
+          };
           break;
       }
-
+      if (myrule !== undefined) {
+        newPart = {
+          ...newPart,
+          Arabic: newPart.Arabic?.replace(foundKeyword, myrule.arabic),
+          Arabiccoptic: newPart.Arabiccoptic?.replace(
+            foundKeyword,
+            myrule.arabiccoptic
+          ),
+          Coptic: newPart.Coptic?.replace(foundKeyword, myrule.coptic),
+          English: newPart.English?.replace(foundKeyword, myrule.english),
+          Englishcoptic: newPart.Englishcoptic?.replace(
+            foundKeyword,
+            myrule.englishcoptic
+          ),
+          Rule: thisRule,
+        };
+      }
       // Apply the rule to the 'newPart' object properties
-      newPart = {
-        ...newPart,
-        Arabic: newPart.Arabic.replace(foundKeyword, myrule.arabic),
-        Arabiccoptic: newPart.Arabiccoptic.replace(
-          foundKeyword,
-          myrule.arabiccoptic
-        ),
-        Coptic: newPart.Coptic.replace(foundKeyword, myrule.coptic),
-        English: newPart.English.replace(foundKeyword, myrule.english),
-        Englishcoptic: newPart.Englishcoptic.replace(
-          foundKeyword,
-          myrule.englishcoptic
-        ),
-        Rule: thisRule,
-      };
     } else if (part.Type === "Melody") {
       const foundKeyword = findMatchingSubstring(part.English, keywords);
 
@@ -524,16 +550,24 @@ export function addItemsToArray(part, thisRule) {
           myrule = REPLACEBISHOPAVAILABLETHREE();
           break;
         default:
+          myrule = {
+            english: "..",
+            coptic: "..",
+            arabic: "..",
+            englishcoptic: "..",
+            arabiccoptic: "..",
+          };
           break;
       }
-
+      if (myrule !== undefined) {
+        newPart = {
+          ...newPart,
+          Arabic: newPart.Arabic?.replace(foundKeyword, myrule.arabic),
+          English: newPart.English?.replace(foundKeyword, myrule.english),
+          Rule: thisRule,
+        };
+      }
       // Apply the rule to the 'newPart' object properties
-      newPart = {
-        ...newPart,
-        Arabic: newPart.Arabic.replace(foundKeyword, myrule.arabic),
-        English: newPart.English.replace(foundKeyword, myrule.english),
-        Rule: thisRule,
-      };
     }
   }
 

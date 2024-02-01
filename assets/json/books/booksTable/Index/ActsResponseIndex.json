@@ -1,18 +1,12 @@
 {
-    "RefrainAfter": 0,
-    "ArabicTitle": " مرد الأبركسيس",
-    "EnglishTitle": "Acts Response",
-    "Hymn": [
+    "Main": [
         {
-            "Type": "Base",
+            "Type": "MainTitle",
             "Rule": 0,
             "Visible": true,
-            "Side": "People",
-            "Arabic": "الشعب:",
-            "Coptic": "Pilaoc>",
-            "English": "People:",
-            "Arabiccoptic": "بيلاؤس:",
-            "Englishcoptic": "Pi-Laos:"
+            "Side": "Title",
+            "Arabic": " مرد الأبركسيس",
+            "English": "Acts Response"
         },
         {
             "Type": "Main",

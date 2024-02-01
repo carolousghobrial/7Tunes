@@ -49,7 +49,9 @@ const SaintView = ({ item, onClick }) => {
             <Text> | </Text>
             <Text style={styles.text}>
               {date.month !== undefined
-                ? getDateByCopticDate(date.month, date.day)
+                ? getDateByCopticDate(date.month, date.day).format(
+                    "dddd, MMMM D, YYYY"
+                  )
                 : null}
             </Text>
           </View>

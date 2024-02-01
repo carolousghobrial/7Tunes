@@ -115,7 +115,7 @@
             "Type": "Main",
             "Path": "DoxologiesLentLentFirstDoxology",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isLentWeekends"
         },
         {
             "Type": "Main",
@@ -124,22 +124,31 @@
             "Visible": "isSeason"
         },
         {
-            "Type": "Main",
-            "Path": "DoxologiesLentLentThirdDoxology",
-            "Rule": 0,
-            "Visible": "isSeason"
+            "Type": "Button",
+            "Arabic": "ذكصولوجية ثالثة الصوم الكبير",
+            "English": "Third Lent Doxology",
+            "Coptic": "Amwini `anau `epenCwthr",
+            "Rule": "OpenSinglePage",
+            "Visible": "isSeason",
+            "Path": "DoxologiesLentLentThirdDoxology"
         },
         {
-            "Type": "Main",
-            "Path": "DoxologiesLentLentFourthDoxology",
-            "Rule": 0,
-            "Visible": "isSeason"
+            "Type": "Button",
+            "Arabic": "ذكصولوجية رابعة الصوم الكبير",
+            "English": "Fourth Lent Doxology",
+            "Coptic": "PiMairwmi `n`agaqoc",
+            "Rule": "OpenSinglePage",
+            "Visible": "isSeason",
+            "Path": "DoxologiesLentLentFourthDoxology"
         },
         {
-            "Type": "Main",
-            "Path": "DoxologiesLentLentFifthDoxology",
-            "Rule": 0,
-            "Visible": "isSeason"
+            "Type": "Button",
+            "Arabic": "ذكصولوجية خامسة الصوم الكبير",
+            "English": "Fifth Lent Doxology",
+            "Coptic": ":nhctia nem pi`]lhl",
+            "Rule": "OpenSinglePage",
+            "Visible": "isSeason",
+            "Path": "DoxologiesLentLentFifthDoxology"
         },
         {
             "Type": "Main",

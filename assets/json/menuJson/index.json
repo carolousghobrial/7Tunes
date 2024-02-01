@@ -56,6 +56,28 @@
             "mother": "index"
         },
         {
+            "EnglishTitle": "The Hitens",
+            "ArabicTitle": "الهيتينيات",
+            "PurchaseKeyDroid": "holypaschaid",
+            "PurchaseKeyIos": "holypaschasku",
+            "hasSubBooks": false,
+            "BookPath": "hitensIndex",
+            "ImageURL": "index",
+            "Enabled": true,
+            "mother": "index"
+        },
+        {
+            "ArabicTitle": " مرد الأبركسيس",
+            "EnglishTitle": "Acts Response",
+            "PurchaseKeyDroid": "holypaschaid",
+            "PurchaseKeyIos": "holypaschasku",
+            "hasSubBooks": false,
+            "BookPath": "actsResponseIndex",
+            "ImageURL": "index",
+            "Enabled": true,
+            "mother": "index"
+        },
+        {
             "EnglishTitle": "Saints Melodies",
             "ArabicTitle": " مدائح القديسين",
             "PurchaseKeyDroid": "holypaschaid",

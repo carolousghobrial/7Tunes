@@ -94,6 +94,12 @@
         },
         {
             "Type": "Main",
+            "Path": "VenerationAtaiParthenos",
+            "Rule": 0,
+            "Visible": "FeastsAndFastsOfStMary"
+        },
+        {
+            "Type": "Main",
             "Path": "JeEfesmarot",
             "Rule": 0,
             "Visible": true
@@ -150,7 +156,7 @@
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesIntercedeOMary",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "FeastsAndFastsOfStMary"
         },
         {
             "Type": "Main",
@@ -186,43 +192,49 @@
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesLentWeek1",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfLent"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesLentWeek2",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfLent"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesLentWeek3",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfLent"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesLentWeek4",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfLent"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesAnnunciation",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfLent"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesLentWeek5",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfLent"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesLentWeek6",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfLent"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesLentWeek7",
+            "Rule": 0,
+            "Visible": "isWeekOfLent"
         },
         {
             "Type": "Main",
@@ -336,7 +348,7 @@
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesYaOmAlnoor",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "FeastsAndFastsOfStMary"
         },
         {
             "Type": "Main",

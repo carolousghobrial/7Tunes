@@ -7,12 +7,12 @@
             "Type": "Base",
             "Rule": 0,
             "Visible": true,
-            "Side": "Neutral",
-            "Arabic": "السلام لساداتي الأباء، الرسل، السلام لتلاميذ، ربنا يسوع المسيح.",
-            "Coptic": "Xere nasoic `nio; > `n`apoctoloc > xere nimaqhthc > `nte Pen_ Ih/c/ Px/c/.",
-            "English": "Hail to my lords and fathers the apostles, hail to the disciples of our Lord Jesus Christ.",
-            "Arabiccoptic": "شيري ناتشويس إنيوتي :إن أبوسطولوس : شيري ني ماثيتيس : إنتيه بين تشويس إيسوس بي خريستوس  .",
-            "Englishcoptic": "Shere Nashois En nioti, En Apostolos, Shere Ni Mathitees Ente Pen Shois Isos Pikhristos."
+            "Side": "North",
+            "Arabic": " السلام للعظيم أنبا مقاره سراج الرهبنة. وأولاده لباس الصليب أحباء المسيح. ",
+            "Coptic": " Xere pini]; abba Makari > pi=hbc `nte ;metmonaxoc > nem nef]hri `n`ctaurovoroc > nimenra; `nte Pi`xrictoc. ",
+            "English": "Hail to the great Abba Makari, the light of monasticism, and his children the cross-bearers, the beloved of Christ ",
+            "Arabiccoptic": "شيرى بى نيشتى أفا مكارى: بى خيبس انتى تى ميتموناخوس:نيم نيف شيرى ان استافرو فوروس: نيميزاتى انتى بخرستوس.",
+            "Englishcoptic": "Shere pi-ni-shti Ava makari : pi-kheebs en-te timetmonakhos : nem nef-sheeri en-estavrovoros , ni-menrati ente Pikhristos ."
         }
     ]
 }

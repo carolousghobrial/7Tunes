@@ -45,8 +45,11 @@ function SaintsList() {
 
   function openModal(item) {
     try {
-      newsetSelectedSaint(item);
-      bottomSheetRef.current?.present();
+      if (item !== "ST_MARY") {
+        newsetSelectedSaint(item);
+        bottomSheetRef.current?.present();
+      }
+
       // setSelectedSaint(item);
       // setsaintModalVisible(true);
     } catch (e) {

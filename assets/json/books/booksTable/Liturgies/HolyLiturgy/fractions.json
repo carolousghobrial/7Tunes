@@ -124,7 +124,7 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsStMaryHeavenlies",
             "Rule": 0,
-            "Visible": "isStandardFraction"
+            "Visible": "FeastsAndFastsOfStMaryAndHeavenlies"
         },
         {
             "Type": "Main",

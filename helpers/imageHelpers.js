@@ -93,6 +93,7 @@ const images = {
   EPIPHANY_PARAMOUN: require("../assets/images/FeastsImages/EPIPHANY.jpg"),
   NATIVITY_PERIOD: require("../assets/images/FeastsImages/NATIVITY_PERIOD.jpg"),
   Revelations: require("../assets/images/Revelations.jpg"),
+  ST_MARY: require("../assets/images/SaintsImages/ST_MARY.jpg"),
   ARCHANGEL_MICHAEL: require("../assets/images/SaintsImages/ARCHANGEL_MICHAEL.jpg"),
   ARCHANGEL_GABRIEL: require("../assets/images/SaintsImages/ARCHANGEL_GABRIEL.jpg"),
   JOHN_THE_BAPTIST: require("../assets/images/SaintsImages/JOHN_THE_BAPTIST.jpg"),

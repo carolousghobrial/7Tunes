@@ -36,7 +36,13 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordHitens",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isNOTLentWeekdayOrJonah"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordTenosht"
         },
         {
             "Type": "Button",

@@ -106,7 +106,6 @@ function TopBoxView() {
         ? currentSeason.saintsOfThisDay[0]
         : currentSeason.key
     );
-
     dispatch(
       setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
     );
