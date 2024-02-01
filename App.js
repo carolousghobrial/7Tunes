@@ -32,6 +32,7 @@ import * as ScreenOrientation from "expo-screen-orientation";
 import { setSeason } from "./stores/redux/settings.js";
 import { enableScreens } from "react-native-screens";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import * as Notifications from "expo-notifications";
 
 enableScreens(false);
 // Keep the splash screen visible while we fetch resources

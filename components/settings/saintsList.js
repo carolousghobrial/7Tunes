@@ -45,8 +45,6 @@ function SaintsList() {
 
   function openModal(item) {
     try {
-      console.log(item);
-
       newsetSelectedSaint(item);
       bottomSheetRef.current?.present();
       // setSelectedSaint(item);

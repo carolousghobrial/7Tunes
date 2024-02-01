@@ -1,9 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
-import bookPaths from "../helpers/bookPathsHelpers";
-import VisibleRules from "../helpers/visibleRules";
 import { useDispatch, useSelector } from "react-redux";
 import { Alert } from "react-native";
-var moment = require("moment-timezone"); //moment-timezone
+import moment from "moment-timezone"; // moment-timezone
+
 import {
   ComeRisenRule,
   REPLACEPAULINEAUTHOR,
@@ -23,12 +22,16 @@ import {
   REPLACEBISHOPAVAILABLETWO,
   REPLACEBISHOPAVAILABLETHREE,
 } from "../helpers/replacingRules";
+
+import bookPaths from "../helpers/bookPathsHelpers";
 import homescreenPaths from "../helpers/homescreenPaths";
+import VisibleRules from "../helpers/visibleRules";
 import {
   getCopticDateString,
   getCopticDate,
   getParamounDate,
 } from "../helpers/copticMonthsHelper";
+
 export function getFullViewModel(motherSource, mother) {
   let arabicttl = "";
   let copticttl = "";

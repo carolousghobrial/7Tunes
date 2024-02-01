@@ -28,7 +28,6 @@ export function getSaint(saint) {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
   const saints = useSelector(saintsSelector);
-  console.log(saint);
   const saintMapping = {
     ARCHANGEL_MICHAEL: saints.ARCHANGEL_MICHAEL,
     ARCHANGEL_GABRIEL: saints.ARCHANGEL_GABRIEL,
@@ -65,10 +64,7 @@ export function getSaint(saint) {
     ST_KARAS: saints.ST_KARAS,
     ST_KIROLLOS_SIXTH: saints.ST_KIROLLOS_SIXTH,
   };
-  if (saint === "ST_THEODORE_SHOTEP") {
-    console.log("HERasdadssadEEE");
-    console.log(saintMapping[saint]);
-  }
+
   return currentSeason.saintsOfThisDay.includes(saint)
     ? {
         versesofCymbals: true,

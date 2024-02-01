@@ -410,7 +410,14 @@
             "Path": "DoxologiesStPaulHermit",
             "Rule": 0,
             "Visible": "DOXSaint",
-            "SAINT": "DoxologiesStMacariusGreat"
+            "SAINT": "ST_PAULHERMIT"
+        },
+        {
+            "Type": "Main",
+            "Path": "DoxologiesStMacariusGreat",
+            "Rule": 0,
+            "Visible": "DOXSaint",
+            "SAINT": "MACARIUS_GREAT"
         },
         {
             "Type": "Main",

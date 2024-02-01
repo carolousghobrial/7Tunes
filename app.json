@@ -32,14 +32,6 @@
         {
           "username": "carolous.ghobrial"
         }
-      ],
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/images//logofinal.png",
-          "color": "#ffffff"
-          
-        }
       ]
     ],
     "updates": {

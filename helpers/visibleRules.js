@@ -613,7 +613,7 @@ const isMatins = (motherSource, path) => {
     : false;
 };
 const isVespers = (motherSource, path) => {
-  return motherSource === "vespers" && isKiahkSeason(motherSource, path)
+  return motherSource === "vespers" && !isKiahkSeason(motherSource, path)
     ? true
     : false;
 };
