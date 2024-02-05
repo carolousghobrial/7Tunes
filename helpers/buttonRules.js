@@ -20,6 +20,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
 
   const openViewSingleHymn = () => {
     const { Path, Rule, English, Arabic } = item;
+    console.log("GEEEFAJSASJDA");
     navigation.push("ViewSingleHymn", {
       path: Path,
       motherSource,
@@ -29,7 +30,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
     });
   };
 
-  const thokTeTiGomScrollUp = () => {
+  const ThokTeTiGomScrollUpButtonRule = () => {
     const index = viewData.findIndex(
       (part) => part.EnglishTitle === "Pascha Praise"
     );
@@ -49,13 +50,13 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
   };
 
   return {
-    OpenTheotokia: () => openBookScreen(),
-    OpenDoxologies: () => openBookScreen(),
-    OpenPalmSundayProcession: () => openBookScreen(),
-    OpenPage: () => openBookScreen(),
-    OpenNewPage: () => openBookScreen(true),
-    ThokTeTiGomScrollUp: () => thokTeTiGomScrollUp(true),
-    OpenSinglePage: openViewSingleHymn,
+    OpenTheotokiaButtonRule: () => openBookScreen(),
+    OpenDoxologiesButtonRule: () => openBookScreen(),
+    OpenPalmSundayProcessionButtonRule: () => openBookScreen(),
+    OpenPageButtonRule: () => openBookScreen(),
+    OpenNewPageButtonRule: () => openBookScreen(true),
+    ThokTeTiGomScrollUpButtonRule: () => ThokTeTiGomScrollUpButtonRule(true),
+    OpenSinglePageButtonRule: openViewSingleHymn,
     PopPage: () => navigation.pop(),
   };
 }

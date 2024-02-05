@@ -12,7 +12,7 @@
             "Type": "Button",
             "Arabic": "لبش الهوس الثاني",
             "English": "Second Hoos Lobsh",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "PraisesSecondHoosLobsh"
         },
@@ -20,7 +20,7 @@
             "Type": "Button",
             "Arabic": "السلام لمريم (شيرى ماريا)",
             "English": "Hail to Mary (Shere Maria)",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "VenerationShereMaria"
         },
@@ -28,7 +28,7 @@
             "Type": "Button",
             "Arabic": "افرحي يا مريم",
             "English": "Rejoice O Mary",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosStandardOne"
         },
@@ -36,7 +36,7 @@
             "Type": "Button",
             "Arabic": "(7) ثيؤطوكية الأحد",
             "English": "Sunday Theotokia (7)",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "TheotokiasSundaySunday7"
         },
@@ -134,7 +134,7 @@
             "Type": "Button",
             "Arabic": "مدائح القديسين",
             "English": "Saints' Melodies",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "saintsMelodies"
         },
@@ -142,7 +142,7 @@
             "Type": "Button",
             "Arabic": " طرح ",
             "English": "Veneration Exposition",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "venerationsExposition"
         },

@@ -38,6 +38,7 @@ const ViewSingleHymnSearch = memo(({ navigation, route }) => {
       : route.params.arabicTitle;
 
   const [navTitle, setNavTitle] = useState(title);
+  console.log(path);
   const data = getMain(path, "index", false, rule, 0)[0];
 
   const renderItems = ({ item }) => {

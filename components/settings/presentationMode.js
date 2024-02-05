@@ -23,9 +23,7 @@ function PresentationMode() {
   const pagination = useSelector((state) => state.settings.pagination);
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let flexDirection = "row";
-  let difference = Object.keys(Languages.eng).filter(
-    (x) => !Object.keys(Languages.ara).includes(x)
-  );
+
   const dispatch = useDispatch();
   const toggleSwitch = () => dispatch(changePagination());
 

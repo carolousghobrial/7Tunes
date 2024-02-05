@@ -1,5 +1,5 @@
 import { Ionicons } from "@expo/vector-icons";
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import {
   ImageBackground,
   StyleSheet,
@@ -27,6 +27,8 @@ import * as ScreenOrientation from "expo-screen-orientation";
 import { setSeason } from "./stores/redux/settings.js";
 import { enableScreens } from "react-native-screens";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import * as Notifications from "expo-notifications";
+
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
     shouldShowAlert: true,
@@ -34,13 +36,53 @@ Notifications.setNotificationHandler({
     shouldSetBadge: false,
   }),
 });
+
 enableScreens(false);
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
 
 function App() {
   const [appIsReady, setAppIsReady] = useState(false);
+  const [expoPushToken, setExpoPushToken] = useState("");
 
+  async function registerForPushNotificationsAsync() {
+    let token;
+
+    if (Platform.OS === "android") {
+      await Notifications.setNotificationChannelAsync("default", {
+        name: "default",
+        importance: Notifications.AndroidImportance.MAX,
+        vibrationPattern: [0, 250, 250, 250],
+        lightColor: "#FF231F7C",
+      });
+    }
+
+    if (Device.isDevice) {
+      const { status: existingStatus } =
+        await Notifications.getPermissionsAsync();
+      let finalStatus = existingStatus;
+      if (existingStatus !== "granted") {
+        const { status } = await Notifications.requestPermissionsAsync();
+        finalStatus = status;
+      }
+      if (finalStatus !== "granted") {
+        alert("Failed to get push token for push notification!");
+        return;
+      }
+      // Learn more about projectId:
+      // https://docs.expo.dev/push-notifications/push-notifications-setup/#configure-projectid
+      token = (
+        await Notifications.getExpoPushTokenAsync({
+          projectId: "2021c9d7-dd0b-4c29-8a9d-da78153a1d49",
+        })
+      ).data;
+      console.log(token);
+    } else {
+      alert("Must use physical device for Push Notifications");
+    }
+
+    return token;
+  }
   useEffect(() => {
     async function prepare() {
       try {
@@ -48,6 +90,9 @@ function App() {
         await useFonts();
         await ScreenOrientation.unlockAsync();
         await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
+        registerForPushNotificationsAsync().then((token) =>
+          setExpoPushToken(token)
+        );
       } catch (e) {
       } finally {
         // Tell the application to render

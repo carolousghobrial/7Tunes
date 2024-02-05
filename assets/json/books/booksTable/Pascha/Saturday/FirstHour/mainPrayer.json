@@ -114,7 +114,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم السبت",
             "English": "Saturday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": true,
             "Path": "saturdayTheotokiaMenu"
         },
@@ -146,7 +146,7 @@
             "Type": "Button",
             "Arabic": "الذكصولوجيات",
             "English": "The Doxologies",
-            "Rule": "OpenDoxologies",
+            "Rule": "OpenDoxologiesButtonRule",
             "Visible": true,
             "Path": "doxologies",
             "mother": "brightSaturdayMatins"
@@ -209,7 +209,7 @@
             "Type": "Button",
             "Arabic": "البولس بالقبطي",
             "English": "Pauline Epistle in Coptic",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "BrightSaturdayFirstHourcopticPauline"
         },
@@ -217,7 +217,7 @@
             "Type": "Button",
             "Arabic": "البولس بالعربي",
             "English": "Pauline Epistle in English",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "BrightSaturdayFirstHourPauline"
         },
@@ -269,7 +269,7 @@
             "Type": "Button",
             "Arabic": " الانجيل بالقبطي",
             "English": "Gospel in Coptic",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "BrightSaturdayFirstHourcopticPsalmAndGospel"
         },
@@ -277,7 +277,7 @@
             "Type": "Button",
             "Arabic": "المزمور و الانجيل بالعربي",
             "English": "Psalm and Gospel in English",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "BrightSaturdayFirstHourPsalmAndGospel"
         },

@@ -60,7 +60,7 @@ function BigSearchScreen({ navigation }) {
           ? item["englishTitle"]
           : item[key.toLowerCase() + "Title"];
       return (
-        <Pressable onPress={openPage.bind(this, item, searchPhrase)}>
+        <Pressable onPress={OpenPageButtonRule.bind(this, item, searchPhrase)}>
           <View style={styles.ReturnBox} key={item.listKey}>
             <View style={styles.titleBox}>
               <Text style={styles.title}>{title}</Text>
@@ -74,7 +74,7 @@ function BigSearchScreen({ navigation }) {
     return null; // Or handle unsupported value
   }
 
-  function openPage(item, searchPhrase) {
+  function OpenPageButtonRule(item, searchPhrase) {
     navigation.push("ViewSingleHymnSearch", {
       path: item.key,
       searchPhrase: searchPhrase,

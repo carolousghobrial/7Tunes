@@ -5,7 +5,7 @@
       "enabled": true
     },
     "slug": "7-tunes",
-    "version": "6.8.1",
+    "version": "6.8.2",
     "orientation": "default",
     "icon": "./assets/images//logofinal.png",
     "userInterfaceStyle": "automatic",
@@ -32,6 +32,14 @@
         {
           "username": "carolous.ghobrial"
         }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "/assets/images/logofinal.png",
+          "color": "#ffffff"
+
+        }
       ]
     ],
     "updates": {
@@ -44,9 +52,10 @@
     "ios": {
       "infoPlist": {
         "UIStatusBarHidden": true,
+        "UIBackgroundModes": [ "remote-notification" , "fetch"],
         "NSInAppPurchaseUsageDescription": "7Tunes requires access to in-app purchases to make purchases."
       },
-      "buildNumber": "6.8.1",
+      "buildNumber": "6.8.2",
       "supportsTablet": true,
       "requireFullScreen": true,
       "bundleIdentifier": "com.companyname.TasbehaFinal"

@@ -135,7 +135,7 @@
             "Type": "Button",
             "Arabic": "الذكصولوجيات",
             "English": "The Doxologies",
-            "Rule": "OpenDoxologies",
+            "Rule": "OpenDoxologiesButtonRule",
             "Visible": true,
             "Path": "doxologies",
             "mother": "matins"
@@ -162,7 +162,7 @@
             "Type": "Button",
             "Arabic": "تمجيد",
             "English": "Venerations",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "venerations"
         },
@@ -176,7 +176,7 @@
             "Type": "Button",
             "Arabic": "دورة الشعانين",
             "English": "Hosanna Procession",
-            "Rule": "OpenPalmSundayProcession",
+            "Rule": "OpenPalmSundayProcessionButtonRule",
             "Visible": "isHosanna",
             "Path": "palmSundayProcession",
             "mother": "matins"
@@ -203,7 +203,7 @@
             "Type": "Button",
             "Arabic": "المزمور",
             "English": "Chanted Psalm",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "LiturgyRaisingOfIncenseChantedMatinsPsalm"
         },
@@ -319,7 +319,7 @@
             "Type": "Button",
             "Arabic": "تقديم الحمل",
             "English": "The Offering of the Lamb",
-            "Rule": "OpenNewPage",
+            "Rule": "OpenNewPageButtonRule",
             "Visible": true,
             "Path": "offertory"
         }

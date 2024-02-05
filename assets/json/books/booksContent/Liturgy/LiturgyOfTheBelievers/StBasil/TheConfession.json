@@ -67,7 +67,7 @@
       "Type": "Button",
       "Arabic": "واحد هو الآب القدوس.",
       "English": "One is the Holy Father",
-      "Rule": "OpenSinglePage",
+      "Rule": "OpenSinglePageButtonRule",
       "Visible": true,
       "Path": "LiturgyLiturgyOfTheBelieversStGregoryOneIsTheHolyFather"
     },

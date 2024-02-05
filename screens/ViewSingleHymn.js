@@ -37,6 +37,7 @@ const ViewSingleHymn = memo(({ navigation, route }) => {
       : route.params.arabicTitle;
 
   const [navTitle, setNavTitle] = useState(title);
+  console.log("ViewSingleHymn ");
   const data = getMain(path, motherSource, false, rule, 0)[0];
 
   const renderItems = ({ item }) => {

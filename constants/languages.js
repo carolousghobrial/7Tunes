@@ -78,6 +78,9 @@ const Languages = {
     presentationMode: "Presentation Mode",
     presentationModeDescription:
       "Enable Pagination which allows you to scroll one page at a time.",
+    NotificationPermission: "Enable Notifications",
+    NotificationPermissionDescription:
+      "Enable Notifications to allow for 7 Tunes to send you Notifications of saint's feasts and occasions.",
     setTimeTodayPrayer:
       "Set the time where you would like to roll over to the next day.",
     versesofCymbals: "Verses of Cymbals",

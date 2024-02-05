@@ -3,26 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { Alert } from "react-native";
 import moment from "moment-timezone"; // moment-timezone
 
-import {
-  ComeRisenRule,
-  REPLACEPAULINEAUTHOR,
-  ROICONCLUSION,
-  REPLACECATHOLICAUTHOR,
-  REPLACEGOSPELAUTHOR,
-  REPLACEPROPHETS,
-  REPLACPASCHAHOURDAY,
-  REPLACEHOMILYFATHERS,
-  REPLACEPOPE,
-  REPLACANTIOCHEPOPE,
-  REPLACEDIOCESEBISHOP,
-  REPLACEMETROPOLITAINAVAILABLE,
-  REPLACEMETROPOLITAINAVAILABLETWO,
-  REPLACEMETROPOLITAINAVAILABLETHREE,
-  REPLACEBISHOPAVAILABLE,
-  REPLACEBISHOPAVAILABLETWO,
-  REPLACEBISHOPAVAILABLETHREE,
-} from "../helpers/replacingRules";
-
 import bookPaths from "../helpers/bookPathsHelpers";
 import homescreenPaths from "../helpers/homescreenPaths";
 import VisibleRules from "../helpers/visibleRules";
@@ -31,7 +11,27 @@ import {
   getCopticDate,
   getParamounDate,
 } from "../helpers/copticMonthsHelper";
-
+export const keywords = [
+  "[*TEMP*]",
+  "[*COME/RISEN*]",
+  "[*ROICONCLUSION*]",
+  "[*GOSPEL_AUTHOR*]",
+  "[*PROPHECIES_AUTHOR*]",
+  "[*PASCHA_HOUR_DAY*]",
+  "[*HOMILY_FATHER*]",
+  "[*STANDARD_GOSPEL_AUTHOR*]",
+  "[*CATHOLIC_AUTHOR*]",
+  "[*PAULINE_AUTHOR*]",
+  "[*POPE*]",
+  "[*ANTIOCH_POPE*]",
+  "[*DIOCESE_BISHOP*]",
+  "[*METROPOLITAIN_PRESENT*]",
+  "[*METROPOLITAIN_PRESENT2*]",
+  "[*METROPOLITAIN_PRESENT3*]",
+  "[*BISHOP_PRESENT*]",
+  "[*BISHOP_PRESENT2*]",
+  "[*BISHOP_PRESENT3*]",
+];
 export function getFullViewModel(motherSource, mother) {
   let arabicttl = "";
   let copticttl = "";
@@ -39,87 +39,73 @@ export function getFullViewModel(motherSource, mother) {
   const ViewArray = [];
   const MenuArray = [];
   let key = 0;
+  const visibleHymns = homescreenPaths[motherSource].Main.filter((hymn) => {
+    const temppath = hymn.SAINT || hymn.Path;
+    const tempMother = mother || motherSource;
 
-  const homeItems = homescreenPaths[motherSource];
-  homeItems.Main.forEach((item) => {
+    return (
+      hymn.Visible === true ||
+      mother === "index" ||
+      VisibleRules[hymn.Visible]?.(tempMother, temppath)
+    );
+  }).forEach((item) => {
     if (item.type === "Title") {
-      arabicttl = item.Arabic;
-      copticttl = item.Coptic;
-      englishttl = item.English;
+      ({ Arabic, Coptic, English } = item);
     } else {
-      let temppath = item.SAINT ?? item.Path;
-      let tempMother = mother ?? motherSource;
-
-      const isVisible =
-        item.Visible === true ||
-        mother === "index" ||
-        VisibleRules[item.Visible](tempMother, temppath);
-
-      if (isVisible) {
-        switch (item.Type) {
-          case "Main":
-          case "Default":
-            const [tempView, tempMenu, mykey] = getMain(
-              item.Path,
-              motherSource,
-              false,
-              item.Rule,
-              key,
-              item.Switch
-            );
-            key = mykey;
-            ViewArray.push(...tempView);
-            MenuArray.push(...tempMenu);
-            break;
-          case "Ritual":
-            ViewArray.push({
-              part: item,
-              key,
-              EnglishTitle: englishttl,
-              CopticTitle: copticttl,
-              ArabicTitle: arabicttl,
-            });
-            key++;
-            break;
-          case "GetDaysReading":
-            var filePath = GetTodaysReadingPath(item.Path);
-            if (filePath !== "Katamaros") {
-              const [tempView, tempMenu, mykey] = getMain(
-                filePath,
-                motherSource,
-                false,
-                item.Rule,
-                key,
-                undefined
-              );
-              key = mykey;
-              ViewArray.push(...tempView);
-              MenuArray.push(...tempMenu);
-            }
-            break;
-          default:
-            MenuArray.push({
-              EnglishTitle: item.English,
-              CopticTitle: item.Coptic,
-              ArabicTitle: item.Arabic,
-              key,
-            });
-            ViewArray.push({
-              part: item,
-              key,
-              EnglishTitle: englishttl,
-              CopticTitle: copticttl,
-              ArabicTitle: arabicttl,
-            });
-            key++;
-            break;
-        }
+      switch (item.Type) {
+        case "Main":
+        case "Default":
+          processMainOrDefault(item);
+          break;
+        case "Ritual":
+        case "GetDaysReading":
+          processRitualOrGetDaysReading(item);
+          break;
+        default:
+          console.log("HEREE");
+          pushToArrays(item, key++);
+          break;
       }
     }
   });
 
-  ViewArray.push({
-    part: {
+  function processMainOrDefault(item) {
+    const [tempView, tempMenu, mykey] = getMain(
+      item.Path,
+      motherSource,
+      false,
+      item.Rule,
+      key,
+      item.Switch
+    );
+    key = mykey;
+    ViewArray.push(...tempView);
+    MenuArray.push(...tempMenu);
+  }
+
+  function processRitualOrGetDaysReading(item) {
+    if (item.Type === "GetDaysReading") {
+      const filePath = GetTodaysReadingPath(item.Path);
+      if (filePath !== "Katamaros") {
+        const [tempView, tempMenu, mykey] = getMain(
+          filePath,
+          motherSource,
+          false,
+          item.Rule,
+          key,
+          undefined
+        );
+        key = mykey;
+        ViewArray.push(...tempView);
+        MenuArray.push(...tempMenu);
+      }
+    } else {
+      pushToArrays(item, key++);
+    }
+  }
+
+  pushToArrays(
+    {
       Type: "Button",
       Arabic: " العودة",
       English: "Return",
@@ -127,13 +113,28 @@ export function getFullViewModel(motherSource, mother) {
       Visible: true,
       Path: "",
     },
-    key: key,
-    EnglishTitle: undefined,
-    CopticTitle: undefined,
-    ArabicTitle: undefined,
-  });
+    key++
+  );
 
   return [ViewArray, MenuArray];
+
+  function pushToArrays(item, currentKey) {
+    console.log(item);
+    const { English, Coptic, Arabic } = item;
+    MenuArray.push({
+      EnglishTitle: English,
+      CopticTitle: Coptic,
+      ArabicTitle: Arabic,
+      key: currentKey,
+    });
+    ViewArray.push({
+      part: item,
+      key: currentKey,
+      EnglishTitle: englishttl,
+      CopticTitle: copticttl,
+      ArabicTitle: arabicttl,
+    });
+  }
 }
 
 export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
@@ -142,7 +143,6 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
   const myViewArray = [];
   const book = bookPaths[Path];
   const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
-
   if (!inHymn && EnglishTitle !== undefined && EnglishTitle !== "") {
     const menuEntry = {
       EnglishTitle,
@@ -172,20 +172,21 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
 
     key++;
   }
-  Hymn.forEach((part) => {
+
+  const visibleParts = Hymn.filter((part) => {
     const temppath =
       part.SAINT !== undefined && !motherSource?.toLowerCase().includes("index")
         ? part.SAINT
         : part.Path;
 
-    const isVisible =
+    const isPartVisible =
       part.Visible === true ||
-      VisibleRules[part.Visible](motherSource, temppath) ||
+      VisibleRules[part.Visible]?.(motherSource, temppath) ||
       (motherSource?.toLowerCase().includes("index") &&
         !motherSource?.toLowerCase().includes("papal"));
 
-    if (!isVisible) return;
-
+    return isPartVisible;
+  }).forEach((part) => {
     const processMainType = () => {
       const [tempView, , mykey] = getMain(
         part.Path,
@@ -242,337 +243,96 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
   return [myViewArray, myMenuArray, key];
 }
 
-export function addItemsToArray(part, thisRule) {
+function addItemsToArray(part, thisRule) {
+  const foundKeyword = findMatchingSubstring(part.English, keywords);
+
+  const myrule =
+    foundKeyword === "EMPTY"
+      ? null
+      : matchRule(thisRule, part, foundKeyword.replace(/[\*\[\]/]/g, ""));
   let newPart = { ...part }; // Clone the 'part' object to avoid side effects
-  const keywords = [
-    "[*COME/RISEN*]",
-    "[*ROICONCLUSION*]",
-    "[*GOSPEL_AUTHOR*]",
-    "[*PROPHECIES_AUTHOR*]",
-    "[*PASCHA_HOUR_DAY*]",
-    "[*HOMILY_FATHER*]",
-    "[*STANDARD_GOSPEL_AUTHOR*]",
-    "[*CATHOLIC_AUTHOR*]",
-    "[*PAULINE_AUTHOR*]",
-    "[*POPE*]",
-    "[*ANTIOCH_POPE*]",
-    "[*DIOCESE_BISHOP*]",
-    "[*METROPOLITAIN_PRESENT*]",
-    "[*METROPOLITAIN_PRESENT2*]",
-    "[*METROPOLITAIN_PRESENT3*]",
-    "[*BISHOP_PRESENT*]",
-    "[*BISHOP_PRESENT2*]",
-    "[*BISHOP_PRESENT3*]",
-  ]; // Default replacing word
-  let myrule = {};
-  if (thisRule !== 0 && thisRule != undefined) {
-    // Check for specific cases and apply the corresponding rule
-    if (part.Type === "Base") {
-      const foundKeyword = findMatchingSubstring(part.English, keywords);
-
-      switch (foundKeyword) {
-        case "[*COME/RISEN*]":
-          myrule = ComeRisenRule();
-          break;
-        case "[*ROICONCLUSION*]":
-          myrule = ROICONCLUSION();
-          break;
-        case "[*GOSPEL_AUTHOR*]":
-          myrule = REPLACEGOSPELAUTHOR(thisRule);
-          break;
-        case "[*STANDARD_GOSPEL_AUTHOR*]":
-          myrule = REPLACEGOSPELAUTHOR(getGospelAuthor(part));
-          break;
-        case "[*CATHOLIC_AUTHOR*]":
-          myrule = REPLACECATHOLICAUTHOR(getCatholicAuthor(part));
-          break;
-        case "[*PAULINE_AUTHOR*]":
-          myrule = REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
-          break;
-        case "[*PASCHA_HOUR_DAY*]":
-          myrule = REPLACPASCHAHOURDAY(thisRule);
-          break;
-        case "[*PROPHECIES_AUTHOR*]":
-          myrule = REPLACEPROPHETS(thisRule);
-          break;
-        case "[*HOMILY_FATHER*]":
-          myrule = REPLACEHOMILYFATHERS(thisRule);
-          break;
-        case "[*POPE*]":
-          myrule = REPLACEPOPE();
-          break;
-        case "[*ANTIOCH_POPE*]":
-          myrule = REPLACANTIOCHEPOPE();
-          break;
-        case "[*DIOCESE_BISHOP*]":
-          myrule = REPLACEDIOCESEBISHOP();
-          break;
-        case "[*METROPOLITAIN_PRESENT*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLE();
-          break;
-        case "[*METROPOLITAIN_PRESENT2*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLETWO();
-          break;
-        case "[*METROPOLITAIN_PRESENT3*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLETHREE();
-          break;
-        case "[*BISHOP_PRESENT*]":
-          myrule = REPLACEBISHOPAVAILABLE();
-          break;
-        case "[*BISHOP_PRESENT2*]":
-          myrule = REPLACEBISHOPAVAILABLETWO();
-          break;
-        case "[*BISHOP_PRESENT3*]":
-          myrule = REPLACEBISHOPAVAILABLETHREE();
-          break;
-        default:
-          myrule = {
-            english: "..",
-            coptic: "..",
-            arabic: "..",
-            englishcoptic: "..",
-            arabiccoptic: "..",
-          };
-          break;
-      }
-      // Apply the rule to the 'newPart' object properties
-      if (myrule !== undefined) {
-        newPart = {
-          ...newPart,
-          Arabic: newPart.Arabic?.replace(foundKeyword, myrule.arabic),
-          Arabiccoptic: newPart.Arabiccoptic?.replace(
-            foundKeyword,
-            myrule.arabiccoptic
-          ),
-          Coptic: newPart.Coptic?.replace(foundKeyword, myrule.coptic),
-          English: newPart.English?.replace(foundKeyword, myrule.english),
-          Englishcoptic: newPart.Englishcoptic?.replace(
-            foundKeyword,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-        };
-      }
-    } else if (part.Type === "Melody") {
-      const foundKeyword = findMatchingSubstring(part.English, keywords);
-      switch (foundKeyword) {
-        case "[*COME/RISEN*]":
-          myrule = ComeRisenRule();
-          break;
-        case "[*ROICONCLUSION*]":
-          myrule = ROICONCLUSION();
-          break;
-        case "[*GOSPEL_AUTHOR*]":
-          myrule = REPLACEGOSPELAUTHOR(thisRule);
-          break;
-        case "[*STANDARD_GOSPEL_AUTHOR*]":
-          myrule = REPLACEGOSPELAUTHOR(getGospelAuthor(part));
-
-          break;
-        case "[*CATHOLIC_AUTHOR*]":
-          myrule = REPLACECATHOLICAUTHOR(getCatholicAuthor(part));
-          break;
-        case "[*PAULINE_AUTHOR*]":
-          myrule = REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
-          break;
-        case "[*PASCHA_HOUR_DAY*]":
-          myrule = REPLACPASCHAHOURDAY(thisRule);
-          break;
-        case "[*PROPHECIES_AUTHOR*]":
-          myrule = REPLACEPROPHETS(thisRule);
-          break;
-        case "[*POPE*]":
-          myrule = REPLACEPOPE();
-          break;
-        case "[*ANTIOCH_POPE*]":
-          myrule = REPLACANTIOCHEPOPE();
-          break;
-        case "[*DIOCESE_BISHOP*]":
-          myrule = REPLACEDIOCESEBISHOP();
-          break;
-        case "[*METROPOLITAIN_PRESENT*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLE();
-          break;
-        case "[*METROPOLITAIN_PRESENT2*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLETWO();
-          break;
-        case "[*METROPOLITAIN_PRESENT3*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLETHREE();
-          break;
-        case "[*BISHOP_PRESENT*]":
-          myrule = REPLACEBISHOPAVAILABLE();
-          break;
-        case "[*BISHOP_PRESENT2*]":
-          myrule = REPLACEBISHOPAVAILABLETWO();
-          break;
-        case "[*BISHOP_PRESENT3*]":
-          myrule = REPLACEBISHOPAVAILABLETHREE();
-          break;
-        default:
-          myrule = {
-            english: "..",
-            coptic: "..",
-            arabic: "..",
-            englishcoptic: "..",
-            arabiccoptic: "..",
-          };
-          break;
-      }
-      if (myrule !== undefined) {
-        // Apply the rule to the 'newPart' object properties
-
-        newPart = {
-          ...newPart,
-          Arabic: newPart.Arabic?.replace(foundKeyword, myrule.arabic),
-          English: newPart.English?.replace(foundKeyword, myrule.english),
-          Rule: thisRule,
-        };
-      }
-    }
-  } else {
-    // Check for specific cases and apply the corresponding rule
-    if (part.Type === "Base") {
-      const foundKeyword = findMatchingSubstring(part.English, keywords);
-
-      switch (foundKeyword) {
-        case "[*COME/RISEN*]":
-          myrule = ComeRisenRule();
-          break;
-        case "[*ROICONCLUSION*]":
-          myrule = ROICONCLUSION();
-          break;
-        case "[*STANDARD_GOSPEL_AUTHOR*]":
-          myrule = REPLACEGOSPELAUTHOR(getGospelAuthor(part));
-
-          break;
-        case "[*CATHOLIC_AUTHOR*]":
-          myrule = REPLACECATHOLICAUTHOR(getCatholicAuthor(part));
-          break;
-        case "[*PAULINE_AUTHOR*]":
-          myrule = REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
-          break;
-        case "[*POPE*]":
-          myrule = REPLACEPOPE();
-          break;
-        case "[*ANTIOCH_POPE*]":
-          myrule = REPLACANTIOCHEPOPE();
-          break;
-        case "[*DIOCESE_BISHOP*]":
-          myrule = REPLACEDIOCESEBISHOP();
-          break;
-        case "[*METROPOLITAIN_PRESENT*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLE();
-          break;
-        case "[*METROPOLITAIN_PRESENT2*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLETWO();
-          break;
-        case "[*METROPOLITAIN_PRESENT3*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLETHREE();
-          break;
-        case "[*BISHOP_PRESENT*]":
-          myrule = REPLACEBISHOPAVAILABLE();
-          break;
-        case "[*BISHOP_PRESENT2*]":
-          myrule = REPLACEBISHOPAVAILABLETWO();
-          break;
-        case "[*BISHOP_PRESENT3*]":
-          myrule = REPLACEBISHOPAVAILABLETHREE();
-          break;
-        default:
-          myrule = {
-            english: "..",
-            coptic: "..",
-            arabic: "..",
-            englishcoptic: "..",
-            arabiccoptic: "..",
-          };
-          break;
-      }
-      if (myrule !== undefined) {
-        newPart = {
-          ...newPart,
-          Arabic: newPart.Arabic?.replace(foundKeyword, myrule.arabic),
-          Arabiccoptic: newPart.Arabiccoptic?.replace(
-            foundKeyword,
-            myrule.arabiccoptic
-          ),
-          Coptic: newPart.Coptic?.replace(foundKeyword, myrule.coptic),
-          English: newPart.English?.replace(foundKeyword, myrule.english),
-          Englishcoptic: newPart.Englishcoptic?.replace(
-            foundKeyword,
-            myrule.englishcoptic
-          ),
-          Rule: thisRule,
-        };
-      }
-      // Apply the rule to the 'newPart' object properties
-    } else if (part.Type === "Melody") {
-      const foundKeyword = findMatchingSubstring(part.English, keywords);
-
-      switch (foundKeyword) {
-        case "[*POPE*]":
-          myrule = REPLACEPOPE();
-          break;
-        case "[*ANTIOCH_POPE*]":
-          myrule = REPLACANTIOCHEPOPE();
-          break;
-        case "[*DIOCESE_BISHOP*]":
-          myrule = REPLACEDIOCESEBISHOP();
-          break;
-        case "[*STANDARD_GOSPEL_AUTHOR*]":
-          myrule = REPLACEGOSPELAUTHOR(getGospelAuthor(part));
-          break;
-        case "[*CATHOLIC_AUTHOR*]":
-          myrule = REPLACECATHOLICAUTHOR(getCatholicAuthor(part));
-          break;
-        case "[*PAULINE_AUTHOR*]":
-          myrule = REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
-          break;
-        case "[*PAULINE_AUTHOR*]":
-          myrule = REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
-          break;
-        case "[*METROPOLITAIN_PRESENT*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLE();
-          break;
-        case "[*METROPOLITAIN_PRESENT2*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLETWO();
-          break;
-        case "[*METROPOLITAIN_PRESENT3*]":
-          myrule = REPLACEMETROPOLITAINAVAILABLETHREE();
-          break;
-        case "[*BISHOP_PRESENT*]":
-          myrule = REPLACEBISHOPAVAILABLE();
-          break;
-        case "[*BISHOP_PRESENT2*]":
-          myrule = REPLACEBISHOPAVAILABLETWO();
-          break;
-        case "[*BISHOP_PRESENT3*]":
-          myrule = REPLACEBISHOPAVAILABLETHREE();
-          break;
-        default:
-          myrule = {
-            english: "..",
-            coptic: "..",
-            arabic: "..",
-            englishcoptic: "..",
-            arabiccoptic: "..",
-          };
-          break;
-      }
-      if (myrule !== undefined) {
-        newPart = {
-          ...newPart,
-          Arabic: newPart.Arabic?.replace(foundKeyword, myrule.arabic),
-          English: newPart.English?.replace(foundKeyword, myrule.english),
-          Rule: thisRule,
-        };
-      }
-      // Apply the rule to the 'newPart' object properties
-    }
+  if (myrule !== null) {
+    newPart = {
+      ...newPart,
+      Arabic: newPart.Arabic?.replace(foundKeyword, myrule.arabic),
+      Arabiccoptic: newPart.Arabiccoptic?.replace(
+        foundKeyword,
+        myrule.arabiccoptic
+      ),
+      Coptic: newPart.Coptic?.replace(foundKeyword, myrule.coptic),
+      English: newPart.English?.replace(foundKeyword, myrule.english),
+      Englishcoptic: newPart.Englishcoptic?.replace(
+        foundKeyword,
+        myrule.englishcoptic
+      ),
+      Rule: thisRule,
+    };
   }
 
   return newPart;
 }
+
+const matchRule = (rule, part, item) => {
+  return VisibleRules[item]?.(rule, part);
+  // switch (foundKeyword) {
+  //   case "[*TEMP*]":
+  //     return VisibleRules["TEST"]?.(null, null);
+  //   case "[*COME/RISEN*]":
+  //     return ComeRisenRule();
+  //   case "[*ROICONCLUSION*]":
+  //     return ROICONCLUSION();
+
+  //   case "[*GOSPEL_AUTHOR*]":
+  //     return REPLACEGOSPELAUTHOR(rule);
+  //   case "[*STANDARD_GOSPEL_AUTHOR*]":
+  //     return REPLACEGOSPELAUTHOR(getGospelAuthor(part));
+
+  //   case "[*CATHOLIC_AUTHOR*]":
+  //     return REPLACECATHOLICAUTHOR(getCatholicAuthor(part));
+
+  //   case "[*PAULINE_AUTHOR*]":
+  //     return REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
+
+  //   case "[*PASCHA_HOUR_DAY*]":
+  //     return REPLACPASCHAHOURDAY(rule);
+
+  //   case "[*PROPHECIES_AUTHOR*]":
+  //     return REPLACEPROPHETS(rule);
+
+  //   case "[*HOMILY_FATHER*]":
+  //     return REPLACEHOMILYFATHERS(rule);
+
+  //   case "[*POPE*]":
+  //     return REPLACEPOPE();
+
+  //   case "[*ANTIOCH_POPE*]":
+  //     return REPLACANTIOCHEPOPE();
+
+  //   case "[*DIOCESE_BISHOP*]":
+  //     return REPLACEDIOCESEBISHOP();
+
+  //   case "[*METROPOLITAIN_PRESENT*]":
+  //     return REPLACEMETROPOLITAINAVAILABLE();
+
+  //   case "[*METROPOLITAIN_PRESENT2*]":
+  //     return REPLACEMETROPOLITAINAVAILABLETWO();
+
+  //   case "[*METROPOLITAIN_PRESENT3*]":
+  //     return REPLACEMETROPOLITAINAVAILABLETHREE();
+
+  //   case "[*BISHOP_PRESENT*]":
+  //     return REPLACEBISHOPAVAILABLE();
+
+  //   case "[*BISHOP_PRESENT2*]":
+  //     return REPLACEBISHOPAVAILABLETWO();
+
+  //   case "[*BISHOP_PRESENT3*]":
+  //     return REPLACEBISHOPAVAILABLETHREE();
+  //   default:
+  //     return part;
+  // }
+};
+
 export function TakeFromHathorTwo(currentSeason) {
   const copticMonthFound = {
     name: "Koiahk",
@@ -617,44 +377,43 @@ export function TakeFromHathorTwo(currentSeason) {
 function GetTodaysReadingPath(path) {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   let filePath = "Katamaros";
+
   const isStandardSeasonSunday =
     currentSeason.key !== "GREAT_LENT" &&
     currentSeason.key !== "HOLY_50" &&
     currentSeason.dayOfWeek === 0 &&
     currentSeason.key !== "PALM_SUNDAY" &&
     currentSeason.key !== "RESURRECTION";
+
   const isStandardSeasonWeekday =
     currentSeason.key !== "GREAT_LENT" &&
     currentSeason.key !== "HOLY_50" &&
     currentSeason.dayOfWeek !== 0;
 
   if (isStandardSeasonSunday) {
-    const isHathorMonth = currentSeason.copticMonth === "Hathor";
-    const isKoiahkMonth = currentSeason.copticMonth === "Koiahk";
-    const isWeek1to4 =
-      currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4;
-    const isWeek5 = currentSeason.weekOfMonth === 5;
-    const isTakeFromHathorTwo = TakeFromHathorTwo(currentSeason);
     if (currentSeason.key === "NATIVITY") {
       filePath = updateFilePath(`DaysKoiahk29`);
     } else if (currentSeason.key === "EPIPHANY") {
       filePath = updateFilePath(`DaysTobe11`);
-    } else if (isWeek1to4) {
-      if (isTakeFromHathorTwo && isKoiahkMonth) {
+    } else {
+      const isHathorMonth = currentSeason.copticMonth === "Hathor";
+      const isKoiahkMonth = currentSeason.copticMonth === "Koiahk";
+      const isWeek1to4 =
+        currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4;
+      const isWeek5 = currentSeason.weekOfMonth === 5;
+      const isTakeFromHathorTwo = TakeFromHathorTwo(currentSeason);
+
+      if (isWeek1to4) {
         filePath = updateFilePath(
           `Sundays${currentSeason.copticMonth}Week${
-            currentSeason.weekOfMonth + 1
+            isTakeFromHathorTwo && isKoiahkMonth
+              ? currentSeason.weekOfMonth + 1
+              : currentSeason.weekOfMonth
           }`
         );
-      } else {
-        filePath = updateFilePath(
-          `Sundays${currentSeason.copticMonth}Week${currentSeason.weekOfMonth}`
-        );
+      } else if (isTakeFromHathorTwo && isHathorMonth && isWeek5) {
+        filePath = updateFilePath("SundaysKoiahkWeek1");
       }
-    } else if (isTakeFromHathorTwo && isHathorMonth && isWeek5) {
-      filePath = updateFilePath("SundaysKoiahkWeek1");
-    } else {
-      filePath = "Katamaros";
     }
   } else if (isStandardSeasonWeekday) {
     if (currentSeason.key === "NATIVITY") {
@@ -668,28 +427,29 @@ function GetTodaysReadingPath(path) {
     //   );
     // }
   }
+
   return filePath;
 
   function updateFilePath(commonPart) {
-    switch (path) {
-      case "VespersPsalm":
-      case "VespersGospel":
-      case "MatinsPsalm":
-      case "MatinsGospel":
-      case "LiturgyPauline":
-      case "LiturgyCatholic":
-      case "LiturgyActs":
-      case "LiturgyPsalm":
-      case "LiturgyGospel":
-        return filePath + commonPart + path;
-      case "LiturgyPaulineCoptic":
-      case "LiturgyCatholicCoptic":
-      case "LiturgyActsCoptic":
-        // Alert.alert(filePath + commonPart + path);
+    const liturgyPaths = [
+      "VespersPsalm",
+      "VespersGospel",
+      "MatinsPsalm",
+      "MatinsGospel",
+      "LiturgyPauline",
+      "LiturgyCatholic",
+      "LiturgyActs",
+      "LiturgyPsalm",
+      "LiturgyGospel",
+      "LiturgyPaulineCoptic",
+      "LiturgyCatholicCoptic",
+      "LiturgyActsCoptic",
+    ];
 
-        return filePath + commonPart + path;
-      default:
-        return filePath;
+    if (liturgyPaths.includes(path)) {
+      return filePath + commonPart + path;
+    } else {
+      return filePath;
     }
   }
 }
@@ -710,55 +470,11 @@ function getAuthor(part, checkList) {
   }
 }
 
-function getGospelAuthor(part) {
-  const checkList = [
-    { keyword: "Matthew", returnValue: 1 },
-    { keyword: "Mark", returnValue: 2 },
-    { keyword: "Luke", returnValue: 3 },
-    { keyword: "John", returnValue: 4 },
-  ];
-  return getAuthor(part, checkList);
-}
-
-function getCatholicAuthor(part) {
-  const checkList = [
-    { keyword: "James", returnValue: "James" },
-    { keyword: "Jude", returnValue: "Jude" },
-    { keyword: "1 Peter", returnValue: "1Peter" },
-    { keyword: "2 Peter", returnValue: "2Peter" },
-    { keyword: "1 John", returnValue: "1John" },
-    { keyword: "2 John", returnValue: "2John" },
-    { keyword: "3 John", returnValue: "3John" },
-  ];
-  return getAuthor(part, checkList);
-}
-
-function getPaulineAuthor(part) {
-  const checkList = [
-    { keyword: "1 Timothy", returnValue: "1Timothy" },
-    { keyword: "2 Timothy", returnValue: "2Timothy" },
-    { keyword: "1 Thessalonians", returnValue: "1Thessalonians" },
-    { keyword: "2 Thessalonians", returnValue: "2Thessalonians" },
-    { keyword: "1 Corinthians", returnValue: "1Corinthians" },
-    { keyword: "2 Corinthians", returnValue: "2Corinthians" },
-    { keyword: "Titus", returnValue: "Titus" },
-    { keyword: "Philemon", returnValue: "Philemon" },
-    { keyword: "Hebrews", returnValue: "Hebrews" },
-    { keyword: "Galatians", returnValue: "Galatians" },
-    { keyword: "Ephesians", returnValue: "Ephesians" },
-    { keyword: "Philippians", returnValue: "Philippians" },
-    { keyword: "Colossians", returnValue: "Colossians" },
-    { keyword: "Romans", returnValue: "Romans" },
-    // Add other items to the checkList
-  ];
-  return getAuthor(part, checkList);
-}
-
 function findMatchingSubstring(str, substringsArray) {
   const foundSubstring = substringsArray.find((substring) =>
     str?.includes(substring)
   );
-  return foundSubstring ? foundSubstring : null;
+  return foundSubstring ? foundSubstring : "EMPTY";
 }
 
 function countSundays(yearSelected) {

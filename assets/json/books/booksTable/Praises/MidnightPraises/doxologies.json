@@ -128,7 +128,7 @@
             "Arabic": "ذكصولوجية ثالثة الصوم الكبير",
             "English": "Third Lent Doxology",
             "Coptic": "Amwini `anau `epenCwthr",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": "isSeason",
             "Path": "DoxologiesLentLentThirdDoxology"
         },
@@ -137,7 +137,7 @@
             "Arabic": "ذكصولوجية رابعة الصوم الكبير",
             "English": "Fourth Lent Doxology",
             "Coptic": "PiMairwmi `n`agaqoc",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": "isSeason",
             "Path": "DoxologiesLentLentFourthDoxology"
         },
@@ -146,7 +146,7 @@
             "Arabic": "ذكصولوجية خامسة الصوم الكبير",
             "English": "Fifth Lent Doxology",
             "Coptic": ":nhctia nem pi`]lhl",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": "isSeason",
             "Path": "DoxologiesLentLentFifthDoxology"
         },
@@ -325,7 +325,7 @@
             "Type": "Button",
             "Arabic": "ذكصولوجية مارجرجس 2",
             "English": "St.George Doxology 2",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": "DOXSaint",
             "Path": "DoxologiesStGeorge2",
             "SAINT": "ST_GEORGE"

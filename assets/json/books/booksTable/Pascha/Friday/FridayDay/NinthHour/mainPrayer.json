@@ -18,7 +18,7 @@
             "Type": "Button",
             "Arabic": "النبوات بالقبطي",
             "English": "Prophecies in Coptic",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "FridayDayNinthHourcopticProphecies"
         },
@@ -26,7 +26,7 @@
             "Type": "Button",
             "Arabic": "النبوات بالعربي",
             "English": "Prophecies in English/Arabic",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "FridayDayNinthHourProphecies"
         },
@@ -46,7 +46,7 @@
             "Type": "Button",
             "Arabic": "تسبحة البصخة ( 1 )",
             "English": "Repeat Pascha Praise ( 1 )",
-            "Rule": "ThokTeTiGomScrollUp",
+            "Rule": "ThokTeTiGomScrollUpButtonRule",
             "Visible": true,
             "Count": 1,
             "Path": "FridayDayFirstHourProphecies"
@@ -87,7 +87,7 @@
             "Type": "Button",
             "Arabic": "البولس بالقبطي",
             "English": "Pauline Epistle in Coptic",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "FridayDayNinthHourcopticPaulineEpistle"
         },
@@ -95,7 +95,7 @@
             "Type": "Button",
             "Arabic": "البولس بالعربي",
             "English": "Pauline Epistle in English/Arabic",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "FridayDayNinthHourPaulineEpistle"
         },
@@ -141,7 +141,7 @@
             "Type": "Button",
             "Arabic": " الانجيل بالقبطي",
             "English": "Gospel in Coptic",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "FridayDayNinthHourcopticPsalmAndGospel"
         },
@@ -149,7 +149,7 @@
             "Type": "Button",
             "Arabic": "المزمور و الانجيل بالعربي",
             "English": "Psalm and Gospel in English",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "FridayDayNinthHourPsalmAndGospel"
         },

@@ -48,7 +48,7 @@
             "Type": "Button",
             "Arabic": "البولس بالقبطي",
             "English": "Pauline Epistle in Coptic",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheWordCopticPauline"
         },
@@ -56,7 +56,7 @@
             "Type": "Button",
             "Arabic": " ألحان البابا ",
             "English": "Papal Hymns",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheWordPaplHymnsMenu"
         },
@@ -82,7 +82,7 @@
             "Type": "Button",
             "Arabic": "مرد الكاثوليكون - آ بيت جيك إيفول",
             "English": "The Catholic Response - Apitjeek Evol",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheWordApetjeekEvol"
         },
@@ -96,7 +96,7 @@
             "Type": "Button",
             "Arabic": "الكاثوليكون بالقبطي",
             "English": "The Catholic Epistle in Coptic",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheWordCopticCatholic"
         },
@@ -128,7 +128,7 @@
             "Type": "Button",
             "Arabic": "الابركسيس بالقبطي",
             "English": "The Acts in Coptic",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheWordCopticActs"
         },
@@ -342,7 +342,7 @@
             "Type": "Button",
             "Arabic": "المزمور",
             "English": "Chanted Psalm",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheWordChantedLiturgyPsalm"
         },
@@ -368,7 +368,7 @@
             "Type": "Button",
             "Arabic": "قداس القديس باسيليوس",
             "English": "Liturgy of St.Basil",
-            "Rule": "OpenNewPage",
+            "Rule": "OpenNewPageButtonRule",
             "Visible": true,
             "Path": "liturgyofStBasil"
         },
@@ -376,7 +376,7 @@
             "Type": "Button",
             "Arabic": "قداس القديس غريغوريوس",
             "English": "Liturgy of St.Gregory",
-            "Rule": "OpenNewPage",
+            "Rule": "OpenNewPageButtonRule",
             "Visible": true,
             "Path": "liturgyofStGregory"
         },
@@ -402,7 +402,7 @@
             "Type": "Button",
             "Arabic": "قداس القديس باسيليوس",
             "English": "Liturgy of St.Basil",
-            "Rule": "OpenNewPage",
+            "Rule": "OpenNewPageButtonRule",
             "Visible": true,
             "Path": "liturgyofStBasil"
         },
@@ -410,7 +410,7 @@
             "Type": "Button",
             "Arabic": "قداس القديس غريغوريوس",
             "English": "Liturgy of St.Gregory",
-            "Rule": "OpenNewPage",
+            "Rule": "OpenNewPageButtonRule",
             "Visible": true,
             "Path": "liturgyofStGregory"
         }

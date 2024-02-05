@@ -103,7 +103,7 @@
             "Type": "Button",
             "Arabic": "الذكصولوجيات",
             "English": "The Doxologies",
-            "Rule": "OpenDoxologies",
+            "Rule": "OpenDoxologiesButtonRule",
             "Visible": true,
             "Path": "doxologies",
             "mother": "praises"
@@ -118,7 +118,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الأحد",
             "English": "Sunday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "sundayTheotokiaMenu",
             "mother": "praises"
@@ -127,7 +127,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الاثنين",
             "English": "Monday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "mondayTheotokiaMenu",
             "mother": "praises"
@@ -136,7 +136,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الثلاثاء",
             "English": "Tuesday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "tuesdayTheotokiaMenu",
             "mother": "praises"
@@ -145,7 +145,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الأربعاء",
             "English": "Wednesday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "wednesdayTheotokiaMenu",
             "mother": "praises"
@@ -154,7 +154,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الخميس",
             "English": "Thursday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "thursdayTheotokiaMenu",
             "mother": "praises"
@@ -163,7 +163,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الجمعة",
             "English": "Friday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "fridayTheotokiaMenu",
             "mother": "praises"
@@ -172,7 +172,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم السبت",
             "English": "Saturday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "saturdayTheotokiaMenu",
             "mother": "praises"

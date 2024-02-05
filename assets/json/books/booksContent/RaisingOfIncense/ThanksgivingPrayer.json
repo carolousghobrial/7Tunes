@@ -257,7 +257,7 @@
       "Type": "Button",
       "Arabic": "طوبه هينا الكبيرة",
       "English": "Tobh Hina (Great)",
-      "Rule": "OpenSinglePage",
+      "Rule": "OpenSinglePageButtonRule",
       "Visible": "BishopIsPresent",
       "Path": "LiturgyOffertoryTovhHinaGreat"
     },

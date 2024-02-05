@@ -10,6 +10,7 @@ const settingsSlice = createSlice({
   initialState: {
     appLanguage: "eng",
     darkMode: false,
+    notifications: false,
     textFontSize: 24,
     todayPrayer: true,
     english: true,
@@ -59,6 +60,12 @@ const settingsSlice = createSlice({
     },
   },
   reducers: {
+    changeNotifications: (state, action) => {
+      return {
+        ...state,
+        notifications: !state.notifications,
+      };
+    },
     setTimeTransition: (state, action) => {
       const time = action.payload.timeTransition;
       return {
@@ -230,6 +237,7 @@ const settingsSlice = createSlice({
     },
   },
 });
+export const changeNotifications = settingsSlice.actions.changeNotifications;
 export const changeLanguage = settingsSlice.actions.changeLanguage;
 export const changePurge = settingsSlice.actions.changePurge;
 export const setTimeTransition = settingsSlice.actions.setTimeTransition;

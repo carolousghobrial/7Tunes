@@ -24,7 +24,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الأحد",
             "English": "Sunday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "sundayTheotokiaMenu",
             "mother": "standardvesperspraises"
@@ -33,7 +33,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الاثنين",
             "English": "Monday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "mondayTheotokiaMenu",
             "mother": "standardvesperspraises"
@@ -42,7 +42,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الثلاثاء",
             "English": "Tuesday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "tuesdayTheotokiaMenu",
             "mother": "standardvesperspraises"
@@ -51,7 +51,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الأربعاء",
             "English": "Wednesday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "wednesdayTheotokiaMenu",
             "mother": "standardvesperspraises"
@@ -60,7 +60,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الخميس",
             "English": "Thursday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "thursdayTheotokiaMenu",
             "mother": "standardvesperspraises"
@@ -69,7 +69,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الجمعة",
             "English": "Friday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "fridayTheotokiaMenu",
             "mother": "standardvesperspraises"
@@ -78,7 +78,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم السبت",
             "English": "Saturday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "saturdayTheotokiaMenu",
             "mother": "standardvesperspraises"
@@ -88,7 +88,7 @@
             "Arabic": "رفع بخور عشية",
             "Coptic": "`Ptalo  ~Mpi`cqoinoufi `nte |an`arou\\i",
             "English": "Offering of Evening Incense",
-            "Rule": "OpenNewPage",
+            "Rule": "OpenNewPageButtonRule",
             "Visible": true,
             "Path": "vespers"
         }

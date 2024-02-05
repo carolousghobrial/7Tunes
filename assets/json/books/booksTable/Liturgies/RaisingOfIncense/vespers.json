@@ -68,7 +68,7 @@
             "Type": "Button",
             "Arabic": "الذكصولوجيات",
             "English": "The Doxologies",
-            "Rule": "OpenDoxologies",
+            "Rule": "OpenDoxologiesButtonRule",
             "Visible": true,
             "Path": "doxologies",
             "mother": "vespers"
@@ -95,7 +95,7 @@
             "Type": "Button",
             "Arabic": "تمجيد",
             "English": "Venerations",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "venerations"
         },
@@ -103,7 +103,7 @@
             "Type": "Button",
             "Arabic": "دورة الشعانين",
             "English": "Hosanna Procession",
-            "Rule": "OpenPalmSundayProcession",
+            "Rule": "OpenPalmSundayProcessionButtonRule",
             "Visible": "isHosanna",
             "Path": "palmSundayProcession"
         },
@@ -117,7 +117,7 @@
             "Type": "Button",
             "Arabic": "المزمور",
             "English": "Chanted Psalm",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "LiturgyRaisingOfIncenseChantedVespersPsalm"
         },

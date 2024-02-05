@@ -24,7 +24,7 @@
             "Type": "Button",
             "Arabic": " صلاة صلح ثانية (القداس غريغوريوس)",
             "English": "Another Prayer of Reconciliation To The Father (Saint Gregory's Liturgy)",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStGregoryAnotherReconcliationPrayer"
         },
@@ -39,7 +39,7 @@
             "Type": "Button",
             "Arabic": "اسباسموس ادام",
             "English": "Adam Aspasmos",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfThBelieversAdamAspasmos"
         },
@@ -47,7 +47,7 @@
             "Arabic": "أسباذيستيه الكبيرة - (قبلوا بعضكم بعضاً)",
             "English": "Great one another - Great ",
             "Type": "Button",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilGreatAsapzeste"
         },
@@ -74,7 +74,7 @@
             "Type": "Button",
             "Arabic": "اسباسموس واطس",
             "English": "Watos Aspasmos",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmos"
         },
@@ -225,7 +225,7 @@
             "Type": "Button",
             "Arabic": "ترحيم",
             "English": "Diptych",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilDiptych"
         },
@@ -233,7 +233,7 @@
             "Type": "Button",
             "Arabic": "افشيس",
             "English": "Evshes ",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilEvshees"
         },
@@ -241,7 +241,7 @@
             "Type": "Button",
             "Arabic": "بي نيشتي ",
             "English": "Pinishti",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilPinishti"
         },
@@ -249,7 +249,7 @@
             "Type": "Button",
             "Arabic": "بي نيشتي الكبيرة",
             "English": "Great Pinishti",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilGreatPinishti"
         },
@@ -277,7 +277,7 @@
             "Type": "Button",
             "Arabic": "كما كان ",
             "English": "As it was",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStGregoryAsItWas"
         },
@@ -305,7 +305,7 @@
             "Type": "Button",
             "Arabic": "القسمة",
             "English": "Fractions",
-            "Rule": "OpenPage",
+            "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversFractions"
         },

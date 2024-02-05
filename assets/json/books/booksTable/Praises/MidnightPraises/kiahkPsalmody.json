@@ -54,7 +54,7 @@
             "Type": "Button",
             "Arabic": "طرح أدام على الهوس الأول",
             "English": "Adam Exposition on the First Hoos",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesExpositionsAdamExpositionFirstHoos"
         },
@@ -93,7 +93,7 @@
             "Type": "Button",
             "Arabic": "طرح يقال بعد شاشف إنسوب",
             "English": "Exposition on the 8th part of the Sunday Theotokia",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": "SundayThetokiaWeekdaysPraisesRule",
             "Path": "KiahkMidnightPraisesExpositionsExpositionShashfEnsob"
         },
@@ -101,7 +101,7 @@
             "Type": "Button",
             "Arabic": "مديح للعذراء على شيرى نى ماريا",
             "English": "Melody for St.Mary on Shere ne Maria",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": "SundayThetokiaWeekdaysPraisesRule",
             "Path": "KiahkMidnightPraisesMelodiesShereNeMariaMelody"
         },
@@ -109,7 +109,7 @@
             "Type": "Button",
             "Arabic": "مديح للعذراء على  راشي او ماريا",
             "English": "Melody for St.Mary on Rashi O Maria",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": "SundayThetokiaWeekdaysPraisesRule",
             "Path": "KiahkMidnightPraisesMelodiesRashiOMariaMelody"
         },
@@ -129,7 +129,7 @@
             "Type": "Button",
             "Arabic": "طرح يقال بعد أفموتى",
             "English": "Exposition on the 9th part of the Sunday Theotokia",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": "SundayThetokiaWeekdaysPraisesRule",
             "Path": "KiahkMidnightPraisesExpositionsExpositionAfterAvmoti"
         },
@@ -161,7 +161,7 @@
             "Type": "Button",
             "Arabic": "طرح أدام على الهوس الثاني",
             "English": "Adam Exposition on the Second Hoos",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesExpositionsAdamExpositionSecondHoos"
         },
@@ -175,7 +175,7 @@
             "Type": "Button",
             "Arabic": "مديح آدام على الهوس الثالث",
             "English": "Adam Melody on the Third Hoos ",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesThirdHoosMelody"
         },
@@ -183,7 +183,7 @@
             "Type": "Button",
             "Arabic": "مديح واطس على تداكية يوم الأربعاء",
             "English": "Watos Melody on the Wednesday Theotokia ",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesWednesdayTheotokiaMelody"
         },
@@ -191,7 +191,7 @@
             "Type": "Button",
             "Arabic": "مديح واطس على تداكية يوم الخميس",
             "English": "Watos Melody on the Thursday Theotokia ",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesThursdayTheotokiaMelody"
         },
@@ -199,7 +199,7 @@
             "Type": "Button",
             "Arabic": "مديح السجود يليق بالثالوث القدوس",
             "English": "Worship Befits the Trinity Melody",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesWorshipHolyTrinity"
         },
@@ -237,7 +237,7 @@
             "Type": "Button",
             "Arabic": "طرح أدام على الهوس الثالث",
             "English": "Adam Exposition on the Third Hoos",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesExpositionsAdamExpositionThirdHoos"
         },
@@ -251,7 +251,7 @@
             "Type": "Button",
             "Arabic": "مديح القديس العظيم الأنبا أنطونيوس",
             "English": "Melody for St.Anthony the Great",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesStAnthonyMelody"
         },
@@ -259,7 +259,7 @@
             "Type": "Button",
             "Arabic": "مديح آدام لأبوينا مكسيموس ودوماديوس",
             "English": "Melody for St.Maximus and Dometius",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesMaximusDometiusMelody"
         },
@@ -267,7 +267,7 @@
             "Type": "Button",
             "Arabic": "مديح القديس انبا صموئيل المعترف",
             "English": "Melody for St.Samuel the Confessor",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesMelodiesStSamuelMelody"
         },
@@ -275,7 +275,7 @@
             "Type": "Button",
             "Arabic": "الذكصولوجيات",
             "English": "The Doxologies",
-            "Rule": "OpenDoxologies",
+            "Rule": "OpenDoxologiesButtonRule",
             "Visible": true,
             "Path": "doxologies"
         },
@@ -283,7 +283,7 @@
             "Type": "Button",
             "Arabic": "طرح واطس يقال بعد المجمع",
             "English": "Watos Exposition on the Commemoration",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesExpositionsWatosExpositionCommemoration"
         },
@@ -297,7 +297,7 @@
             "Type": "Button",
             "Arabic": "طرح أدام على الهوس الرابع",
             "English": "Adam Exposition on the Fourth Hoos",
-            "Rule": "OpenSinglePage",
+            "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
             "Path": "KiahkMidnightPraisesExpositionsAdamExpositionFourthHoos"
         },
@@ -305,7 +305,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الأحد",
             "English": "Sunday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "sundayTheotokiaMenu",
             "mother": "kiahkPsalmody"
@@ -314,7 +314,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الاثنين",
             "English": "Monday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "mondayTheotokiaMenu",
             "mother": "kiahkPsalmody"
@@ -323,7 +323,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الثلاثاء",
             "English": "Tuesday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "tuesdayTheotokiaMenu",
             "mother": "kiahkPsalmody"
@@ -332,7 +332,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الأربعاء",
             "English": "Wednesday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "wednesdayTheotokiaMenu",
             "mother": "kiahkPsalmody"
@@ -341,7 +341,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الخميس",
             "English": "Thursday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "thursdayTheotokiaMenu",
             "mother": "kiahkPsalmody"
@@ -350,7 +350,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم الجمعة",
             "English": "Friday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "fridayTheotokiaMenu",
             "mother": "kiahkPsalmody"
@@ -359,7 +359,7 @@
             "Type": "Button",
             "Arabic": " ثيؤطوكية يوم السبت",
             "English": "Saturday Theotokia",
-            "Rule": "OpenTheotokia",
+            "Rule": "OpenTheotokiaButtonRule",
             "Visible": "TheotokiaVisible",
             "Path": "saturdayTheotokiaMenu",
             "mother": "kiahkPsalmody"
