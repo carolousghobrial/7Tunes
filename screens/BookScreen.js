@@ -34,12 +34,13 @@ import ContentsModal from "../components/BottomBar/ContentsModal";
 import { getColor } from "../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 import FloatingButton from "../components/ViewTypes/FloatingBishopButton";
+import { PanGestureHandler, State } from "react-native-gesture-handler";
 
 const HeaderRightButtons = ({ onPressSettings, onPressContents }) => (
   <>
     <Pressable style={styles.settingsHeaderButton} onPress={onPressSettings}>
-      <Icon
-        name="ios-settings-outline"
+      <MaterialCommunityIcons
+        name="cog"
         size={30}
         color={getColor("LabelColor")}
       />
@@ -77,6 +78,8 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const values = getFullViewModel(bookPath, motherSource);
   const [bookContents, setBookContents] = useState(values[0]);
   const [isLoading, setIsLoading] = useState(true);
+  const [isNotMoreThanOneViewShown, setisNotMoreThanOneViewShown] =
+    useState(false);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const isTablet = useSelector((state) => state.settings.isTablet);
   const [menuData, setMenuData] = useState(values[1]);
@@ -88,7 +91,9 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const [currKey, setcurrKey] = useState(0);
 
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
-    if (viewableItems.length > 0) {
+    if (viewableItems.length === 1) {
+      setisNotMoreThanOneViewShown(true);
+    } else if (viewableItems.length > 0) {
       const firstItem = viewableItems[0].item;
 
       const title =
@@ -98,10 +103,22 @@ const BookScreen = React.memo(({ navigation, route }) => {
       if (title !== navTitle && title !== undefined) {
         setNavTitle(title);
         setcurrKey(firstItem.key);
+        setisNotMoreThanOneViewShown(false);
       }
     }
   }).current;
 
+  useEffect(() => {
+    const fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
+    const fontsize = isTablet ? 30 : 15;
+    navigation.setOptions({
+      title: navTitle,
+      headerTitleStyle: {
+        fontSize: fontsize,
+        fontFamily: fontfamily,
+      },
+    });
+  }, []);
   useEffect(() => {
     const fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
     const fontsize = isTablet ? 30 : 15;
@@ -170,6 +187,21 @@ const BookScreen = React.memo(({ navigation, route }) => {
     }
   };
 
+  const onHandlerStateChange = ({ nativeEvent }) => {
+    if (nativeEvent.state === State.END) {
+      // Gesture ended, determine the direction
+      const velocityX = nativeEvent.velocityX;
+
+      if (velocityX > 0) {
+        // Right swipe
+        scrollBack(); // Perform actions for a right swipe
+      } else if (velocityX < 0) {
+        // Left swipe
+        scrollToNextItem();
+        // Perform actions for a left swipe
+      }
+    }
+  };
   const renderItems = ({ item }) => {
     const viewTypeMap = {
       Base: <BaseView item={item.part} mykey={item.key} />,
@@ -195,7 +227,26 @@ const BookScreen = React.memo(({ navigation, route }) => {
       </Pressable>
     );
   };
-
+  const scrollToNextItem = () => {
+    if (isNotMoreThanOneViewShown) {
+      const offset =
+        flatListRef.current._listRef._scrollMetrics.offset +
+        height -
+        height * 0.2;
+      flatListRef.current.scrollToOffset({
+        offset,
+        animated: false,
+      });
+    } else {
+      flatListRef.current.scrollToIndex({
+        index: currKey + 1,
+        animated: false,
+      });
+    }
+  };
+  const scrollBack = () => {
+    console.log(isNotMoreThanOneViewShown);
+  };
   const onScrollToIndexFailed = (error) => {
     const offset = error.averageItemLength * error.index;
     flatListRef.current.scrollToOffset({ offset, animated: false });
@@ -225,23 +276,27 @@ const BookScreen = React.memo(({ navigation, route }) => {
         contentsClose={contentsClose}
         scrollToKey={scrollToKey}
       />
-      <FlatList
-        ref={flatListRef}
-        style={{ backgroundColor: pageBackgroundColor }}
-        onViewableItemsChanged={onViewableItemsChanged}
-        showsVerticalScrollIndicator={false}
-        data={bookContents}
-        pagingEnabled={pagination}
-        onScrollToIndexFailed={onScrollToIndexFailed}
-        initialNumToRender={bookContents.length}
-        bounces={false}
-        removeClippedSubviews={true}
-        renderItem={renderItems}
-        keyExtractor={keyExtractor}
-      />
-      {bishopIsPresent && bishopButton && (
-        <FloatingButton navigation={navigation} />
-      )}
+      <View style={{ flex: 1 }}>
+        <PanGestureHandler onHandlerStateChange={onHandlerStateChange}>
+          <FlatList
+            ref={flatListRef}
+            style={{ flex: 1, backgroundColor: pageBackgroundColor }}
+            onViewableItemsChanged={onViewableItemsChanged}
+            showsVerticalScrollIndicator={false}
+            data={bookContents}
+            pagingEnabled={pagination}
+            onScrollToIndexFailed={onScrollToIndexFailed}
+            initialNumToRender={bookContents.length}
+            bounces={false}
+            removeClippedSubviews={true}
+            renderItem={renderItems}
+            keyExtractor={keyExtractor}
+          />
+        </PanGestureHandler>
+        {bishopIsPresent && bishopButton && (
+          <FloatingButton navigation={navigation} />
+        )}
+      </View>
     </BottomSheetModalProvider>
   );
 });

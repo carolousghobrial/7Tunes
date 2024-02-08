@@ -26,7 +26,6 @@ import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper";
 import React, { useEffect } from "react";
 import * as Updates from "expo-updates";
 import { Platform } from "react-native";
-import * as FileSystem from "expo-file-system";
 import TopBoxView from "../components/homepage/topBoxView";
 const CustomDrawerScreen = (props) => {
   const dispatch = useDispatch();

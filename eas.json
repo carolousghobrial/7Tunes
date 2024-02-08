@@ -1,7 +1,7 @@
 {
   "cli": {
     "version": ">= 3.8.1",
-    "promptToConfigurePushNotifications": false
+    "promptToConfigurePushNotifications": true
   },
   "build": {
     "development": {

@@ -766,9 +766,9 @@ export function getCurrentSeasonByDate(date, timeTransition) {
 
   var todayDate = moment(date);
   if (
-    copticDate.day === 29 &&
     copticDate.month !== "Tobe" &&
-    copticDate.month !== "Meshir"
+    copticDate.month !== "Meshir" &&
+    copticDate.day === 29
   ) {
     collection.push({
       key: "TWENTYNINTHTH_COPTIC_MONTH",
@@ -847,10 +847,10 @@ export function getCurrentSeason(timeTransition) {
   );
   if (
     copticDate.day === 29 &&
-    (copticDate.month != "Tobe" ||
-      copticDate.month != "Meshir" ||
-      copticDate.month != "Koiahk" ||
-      copticDate.month != "Paremhotep")
+    copticDate.month != "Tobe" &&
+    copticDate.month != "Meshir" &&
+    copticDate.month != "Koiahk" &&
+    copticDate.month != "Paremhotep"
   ) {
     collection.push({
       key: "TWENTYNINTHTH_COPTIC_MONTH",

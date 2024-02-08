@@ -62,7 +62,6 @@ export function getFullViewModel(motherSource, mother) {
           processRitualOrGetDaysReading(item);
           break;
         default:
-          console.log("HEREE");
           pushToArrays(item, key++);
           break;
       }
@@ -119,7 +118,6 @@ export function getFullViewModel(motherSource, mother) {
   return [ViewArray, MenuArray];
 
   function pushToArrays(item, currentKey) {
-    console.log(item);
     const { English, Coptic, Arabic } = item;
     MenuArray.push({
       EnglishTitle: English,
@@ -274,63 +272,6 @@ function addItemsToArray(part, thisRule) {
 
 const matchRule = (rule, part, item) => {
   return VisibleRules[item]?.(rule, part);
-  // switch (foundKeyword) {
-  //   case "[*TEMP*]":
-  //     return VisibleRules["TEST"]?.(null, null);
-  //   case "[*COME/RISEN*]":
-  //     return ComeRisenRule();
-  //   case "[*ROICONCLUSION*]":
-  //     return ROICONCLUSION();
-
-  //   case "[*GOSPEL_AUTHOR*]":
-  //     return REPLACEGOSPELAUTHOR(rule);
-  //   case "[*STANDARD_GOSPEL_AUTHOR*]":
-  //     return REPLACEGOSPELAUTHOR(getGospelAuthor(part));
-
-  //   case "[*CATHOLIC_AUTHOR*]":
-  //     return REPLACECATHOLICAUTHOR(getCatholicAuthor(part));
-
-  //   case "[*PAULINE_AUTHOR*]":
-  //     return REPLACEPAULINEAUTHOR(getPaulineAuthor(part));
-
-  //   case "[*PASCHA_HOUR_DAY*]":
-  //     return REPLACPASCHAHOURDAY(rule);
-
-  //   case "[*PROPHECIES_AUTHOR*]":
-  //     return REPLACEPROPHETS(rule);
-
-  //   case "[*HOMILY_FATHER*]":
-  //     return REPLACEHOMILYFATHERS(rule);
-
-  //   case "[*POPE*]":
-  //     return REPLACEPOPE();
-
-  //   case "[*ANTIOCH_POPE*]":
-  //     return REPLACANTIOCHEPOPE();
-
-  //   case "[*DIOCESE_BISHOP*]":
-  //     return REPLACEDIOCESEBISHOP();
-
-  //   case "[*METROPOLITAIN_PRESENT*]":
-  //     return REPLACEMETROPOLITAINAVAILABLE();
-
-  //   case "[*METROPOLITAIN_PRESENT2*]":
-  //     return REPLACEMETROPOLITAINAVAILABLETWO();
-
-  //   case "[*METROPOLITAIN_PRESENT3*]":
-  //     return REPLACEMETROPOLITAINAVAILABLETHREE();
-
-  //   case "[*BISHOP_PRESENT*]":
-  //     return REPLACEBISHOPAVAILABLE();
-
-  //   case "[*BISHOP_PRESENT2*]":
-  //     return REPLACEBISHOPAVAILABLETWO();
-
-  //   case "[*BISHOP_PRESENT3*]":
-  //     return REPLACEBISHOPAVAILABLETHREE();
-  //   default:
-  //     return part;
-  // }
 };
 
 export function TakeFromHathorTwo(currentSeason) {

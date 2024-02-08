@@ -20,7 +20,6 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
 
   const openViewSingleHymn = () => {
     const { Path, Rule, English, Arabic } = item;
-    console.log("GEEEFAJSASJDA");
     navigation.push("ViewSingleHymn", {
       path: Path,
       motherSource,

@@ -32,7 +32,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": " فلهذا نمدح مع المرتل داود قائلين تدوس الثعبان وملك الحيات  . ",
-      "Coptic": " Eqbe vai tenerxoreuin > nem pi\\umnodoc Dauid> je ek`e\\wmi `ejen ou\\of> nem ou bacilickoc . ",
+      "Coptic": " Eqbe vai tenerxoreuin > nem pi\\umnodoc Dauid> je ek`e\\wmi `ejen ou\\of> nem oubacilickoc . ",
       "English": "\" Wherefore we sing, with David the Psalmist, saying \"Tread upon serpents, and the power of scorpions. ",
       "Arabiccoptic": "إثـفـى فاى تين إر خوريـفين : نيم بى هيمنودوس دافيد: ﭽـى إك إيهومى إيـﭽين أوهوف: نيم أوفاسيليسكوس . ",
       "Englishcoptic": "Ethve vai ten-erkhorevin : nem pi-heemnozos Daviz: je ek-ehoomi ejen- oohof: nem oo vasiliskos ."
@@ -41,12 +41,34 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
+      "Side": "South",
+      "Arabic": "عظيمة هى كرامتك ثيؤدوروس الأسفهسلار المسيح يفرح معك فى أورشليم السمائية.",
+      "Coptic": "Ouni]; gar pe pektai`o > Qe`odwroc pi`ctratilathc > `ere Px/c/ ra]i nemak > =en Il/h/m/ `nte `tve.",
+      "English": "For great is your honor: Theodore the general : for Christ rejoices in you: in the heavenly Jerusalem.",
+      "Arabiccoptic": "أونيشتى غار بى بيك طايو. ثيؤدوروس بى ستراتيلاتيس . إيرى بخريستوس راشى نيماك. خين يروساليم إنتى إتفى.",
+      "Englishcoptic": "Onishty ghar pe-pek taio, Theodoros pi-estrati-latees , ere Pikhristos rashy nemak, khen Ierosaleem ente etfe ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لك أيها الشهيد السلام للشجاع المجاهد السلام للابس الجهاد ثيؤدوروس الأسفهسلار",
+      "Coptic": "Xere nak `w pimarturoc > xere pi]wij `ngenneoc > xere piaqlovoroc > Qe`odwroc pi`ctratilathc",
+      "English": "Hail to you, O martyr: Hail to the noble hero: Hail to the struggle-mantled : Theodore the general.",
+      "Arabiccoptic": "شيرى ناك أو بى مارتيروس. شيرى بى شويج إن جينيؤس. شيرى بى أثلوفوروس. ثيؤدوروس بى ستراتيلاتيس .",
+      "Englishcoptic": "Shere nak opee marteros/ shere pee shoig enge-neos/ shere pee athlovoros/ Theodoros pi-estrati-latees"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": " اطلب عنا أيها الشهيد المجاهد ثيؤدوروس الأسفهسلار  .  ليغفر لنا خطايانا  .  ",
-      "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > ~w piaqlovoroc `mU > Qe`odwroc pi`ctratilathc > `ntefxa nen nobi nan `ebol ",
-      "English": " For great is your honor: O Theodore the general: for Christ rejoices in you: in the heavenly Jerusalem. ",
+      "Coptic": " Twp\\ `mPsoic `e`\\rhi `ejwn > ~w piaqlovoroc `mmarturoc > Qe`odwroc pi`ctratilathc > `ntefxa nen nobi nan `ebol ",
+      "English": "Pray to the Lord on our behalf : O struggle-mantled martyr : Theodore the General : that He may forgive us our sins.",
       "Arabiccoptic": "طوبه إمبتشويس إى إهرى إيجون: أو بى أثلوفوروس إم مارتيروس: ثيؤدوروس بى ستراتيلاتيس: إنتيف كا نين نوفـى نان إيـفـول . ",
-      "Englishcoptic": "Tobhem empshois e-ehri egon : o pi-athlovoros emEe : Theodoros pi-estrati-latees : entef ka nen novi nan evol."
+      "Englishcoptic": "Tobhem empshois e-ehri egon : o pi-athlovoros em-Marteeros : Theodoros pi-estrati-latees : entef ka nen novi nan evol."
     }
   ]
 }
