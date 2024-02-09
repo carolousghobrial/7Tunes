@@ -36,7 +36,7 @@ function ButtonView({ item, motherSource, flatListRef, viewData, navigation }) {
   return (
     <View>
       {itemVisible !== "hide" && (
-        <Pressable onPress={handlePress}>
+        <Pressable style={{ marginHorizontal: 70 }} onPress={handlePress}>
           <View style={[styles.bookView, { flexDirection: flex }]}>
             <Text style={[styles.text, { fontSize }]}>{item.English}</Text>
             <Text style={[styles.text, { fontSize }]}>{item.Arabic}</Text>
@@ -53,7 +53,6 @@ const styles = StyleSheet.create({
     borderColor: "black",
     borderRadius: 30,
     backgroundColor: "#AA4A44",
-    marginHorizontal: 20,
     marginVertical: 10,
   },
   text: {

@@ -27,6 +27,25 @@ function SettingsModal({ bottomSheetRef, snapPoints }) {
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
 
+  const data = [
+    {
+      id: "2",
+      content: "AppTheme",
+    },
+    {
+      id: "3",
+      content: "FontSize",
+    },
+    {
+      id: "4",
+      content: "PresentationMode",
+    },
+
+    {
+      id: "6",
+      content: "VisibleLangs",
+    },
+  ];
   const flexDirection = width > height ? "row" : "column";
 
   const renderBackdrop = useCallback(
@@ -44,6 +63,19 @@ function SettingsModal({ bottomSheetRef, snapPoints }) {
     bottomSheetRef.current.dismiss();
   };
 
+  function SettingsItem({ item }) {
+    console.log(item);
+    const viewTypeMap = {
+      AppTheme: <AppTheme />,
+      FontSize: <FontSize />,
+
+      VisibleLangs: <VisibleLangs />,
+      PresentationMode: <PresentationMode />,
+    };
+    const itemToReturn = viewTypeMap[item.content];
+    console.log(itemToReturn);
+    return viewTypeMap[item.content];
+  }
   return (
     <BottomSheetModal
       style={[styles.container, { flexDirection }]}
@@ -55,22 +87,19 @@ function SettingsModal({ bottomSheetRef, snapPoints }) {
       snapPoints={snapPoints}
       backdropComponent={renderBackdrop}
     >
-      <View>
-        {/* Close Button */}
-        <View style={styles.header}>
-          <Text style={[styles.title, { color: labelColor }]}>Settings</Text>
-          <Pressable style={styles.closeButton} onPress={closeBottomSheet}>
-            <AntDesign name="closecircle" size={30} color={labelColor} />
-          </Pressable>
-        </View>
-
-        <ScrollView>
-          <AppTheme />
-          <PresentationMode />
-          <FontSize />
-          <VisibleLangs />
-        </ScrollView>
+      {/* Close Button */}
+      <View style={styles.header}>
+        <Text style={[styles.title, { color: labelColor }]}>Settings</Text>
+        <Pressable style={styles.closeButton} onPress={closeBottomSheet}>
+          <AntDesign name="closecircle" size={30} color={labelColor} />
+        </Pressable>
       </View>
+      <BottomSheetFlatList
+        style={{ flex: 1 }}
+        data={data}
+        renderItem={({ item }) => <SettingsItem item={item} />}
+        keyExtractor={(item, index) => item.id}
+      />
     </BottomSheetModal>
   );
 }
@@ -79,6 +108,9 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: "space-around",
     alignItems: "center",
+  },
+  flatList: {
+    flex: 1,
   },
   header: {
     flexDirection: "row",

@@ -16,6 +16,7 @@ import {
 } from "../helpers/copticMonthsHelper";
 import { TakeFromHathorTwo } from "../viewModel/getFullViewModel.js";
 const bishopsList = require("../assets/json/bishopsList.json");
+import bookPaths from "../helpers/bookPathsHelpers";
 
 const TennavRule = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -1913,7 +1914,9 @@ const ROICONCLUSION = (motherSource, rule) => {
 };
 
 const REPLACEGOSPELAUTHOR = (author, part) => {
-  switch (author) {
+  myauthor = getGospelAuthor(part);
+
+  switch (myauthor) {
     case 1:
       return {
         english: "Matthew",
@@ -1957,7 +1960,9 @@ const REPLACEGOSPELAUTHOR = (author, part) => {
   }
 };
 const REPLACECATHOLICAUTHOR = (author, part) => {
-  switch (author) {
+  myauthor = getCatholicAuthor(part);
+
+  switch (myauthor) {
     case "1Peter":
       return {
         english: "first epistle of our teacher St.Peter",
@@ -2025,7 +2030,9 @@ const REPLACECATHOLICAUTHOR = (author, part) => {
   }
 };
 const REPLACEPAULINEAUTHOR = (author, part) => {
-  switch (author) {
+  myauthor = getPaulineAuthor(part);
+
+  switch (myauthor) {
     case "1Timothy":
       return {
         english: "the first Epistle of our teacher St.Paul to Timothy",
@@ -2804,6 +2811,100 @@ const REPLACEBISHOPAVAILABLETHREE = (rule, part) => {
     arabiccoptic: metro1.Arabiccoptic,
   };
 };
+function GetTodaysReadingPath(path) {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  let filePath = "Katamaros";
+
+  const isStandardSeasonSunday =
+    currentSeason.key !== "GREAT_LENT" &&
+    currentSeason.key !== "HOLY_50" &&
+    currentSeason.dayOfWeek === 0 &&
+    currentSeason.key !== "PALM_SUNDAY" &&
+    currentSeason.key !== "RESURRECTION";
+
+  const isStandardSeasonWeekday =
+    currentSeason.key !== "GREAT_LENT" &&
+    currentSeason.key !== "HOLY_50" &&
+    currentSeason.dayOfWeek !== 0;
+
+  if (isStandardSeasonSunday) {
+    if (currentSeason.key === "NATIVITY") {
+      filePath = updateFilePath(`DaysKoiahk29`);
+    } else if (currentSeason.key === "EPIPHANY") {
+      filePath = updateFilePath(`DaysTobe11`);
+    } else {
+      const isHathorMonth = currentSeason.copticMonth === "Hathor";
+      const isKoiahkMonth = currentSeason.copticMonth === "Koiahk";
+      const isWeek1to4 =
+        currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4;
+      const isWeek5 = currentSeason.weekOfMonth === 5;
+      const isTakeFromHathorTwo = TakeFromHathorTwo(currentSeason);
+
+      if (isWeek1to4) {
+        filePath = updateFilePath(
+          `Sundays${currentSeason.copticMonth}Week${
+            isTakeFromHathorTwo && isKoiahkMonth
+              ? currentSeason.weekOfMonth + 1
+              : currentSeason.weekOfMonth
+          }`
+        );
+      } else if (isTakeFromHathorTwo && isHathorMonth && isWeek5) {
+        filePath = updateFilePath("SundaysKoiahkWeek1");
+      }
+    }
+  } else if (isStandardSeasonWeekday) {
+    if (currentSeason.key === "NATIVITY") {
+      filePath = updateFilePath(`DaysKoiahk29`);
+    } else if (currentSeason.key === "EPIPHANY") {
+      filePath = updateFilePath(`DaysTobe11`);
+    }
+    // else {
+    //   filePath = updateFilePath(
+    //     `Days${currentSeason.copticMonth}${currentSeason.copticDay}`
+    //   );
+    // }
+  }
+
+  return filePath;
+
+  function updateFilePath(commonPart) {
+    const liturgyPaths = [
+      "VespersPsalm",
+      "VespersGospel",
+      "MatinsPsalm",
+      "MatinsGospel",
+      "LiturgyPauline",
+      "LiturgyCatholic",
+      "LiturgyActs",
+      "LiturgyPsalm",
+      "LiturgyGospel",
+      "LiturgyPaulineCoptic",
+      "LiturgyCatholicCoptic",
+      "LiturgyActsCoptic",
+    ];
+
+    if (liturgyPaths.includes(path)) {
+      return filePath + commonPart + path;
+    } else {
+      return filePath;
+    }
+  }
+}
+function getAuthor(part, checkList) {
+  const completePath = GetTodaysReadingPath(part.mother);
+  if (completePath === "Katamaros") {
+    return "NONE";
+  }
+
+  const book = bookPaths[completePath];
+  const { EnglishTitle } = book;
+
+  for (const item of checkList) {
+    if (EnglishTitle.includes(item.keyword)) {
+      return item.returnValue;
+    }
+  }
+}
 function getGospelAuthor(part) {
   const checkList = [
     { keyword: "Matthew", returnValue: 1 },

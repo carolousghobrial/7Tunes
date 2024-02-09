@@ -1,13 +1,16 @@
 import React from "react";
 import { View, Text, Pressable, Image, StyleSheet } from "react-native";
 import images from "../../helpers/imageHelpers";
-import { getLanguageValue } from "../../helpers/SettingsHelpers";
 import {
   getCopticDateString,
   getDateByCopticDate,
 } from "../../helpers/copticMonthsHelper";
 import { useSelector, useDispatch } from "react-redux";
-
+import {
+  getLanguageValue,
+  getFontSize,
+  getColor,
+} from "../../helpers/SettingsHelpers";
 const imageSize = 75;
 const flexDirection = "row";
 const saintsFeastsCalendar = require("../../assets/json/saintsFeastsCalendar.json");
@@ -23,7 +26,8 @@ const SaintView = ({ item, onClick }) => {
     margin: 5,
     padding: 5,
     flexDirection,
-    backgroundColor: "rgba(52, 52, 52, 0.2)",
+    opacity: 0.8,
+    backgroundColor: getColor("NavigationBarColor"),
   };
   const gregDate = getDateByCopticDate(
     currentSeason.copticMonth,
@@ -35,19 +39,21 @@ const SaintView = ({ item, onClick }) => {
         <Image style={styles.image} source={images[item.titleKey]} />
       </View>
       <View style={styles.textview}>
-        <Text style={styles.title}>{getLanguageValue(item.titleKey)}</Text>
+        <Text style={[styles.title, { color: getColor("LabelColor") }]}>
+          {getLanguageValue(item.titleKey)}
+        </Text>
 
         {saintsFeastsCalendar[item.titleKey].map((date, index) => (
           <View key={index} style={styles.DateBox}>
-            <Text style={styles.text}>
+            <Text style={[styles.text, { color: getColor("LabelColor") }]}>
               {getCopticDateString(
                 currentSeason.copticYear,
                 date.month,
                 date.day
               )}
             </Text>
-            <Text> | </Text>
-            <Text style={styles.text}>
+            <Text style={{ color: getColor("LabelColor") }}> | </Text>
+            <Text style={[styles.text, { color: getColor("LabelColor") }]}>
               {date.month !== undefined
                 ? getDateByCopticDate(date.month, date.day).format(
                     "dddd, MMMM D, YYYY"
@@ -79,7 +85,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: "black",
-    fontSize: 20,
+    fontSize: 24,
     padding: 5,
     fontFamily: "english-font",
     fontWeight: "bold",

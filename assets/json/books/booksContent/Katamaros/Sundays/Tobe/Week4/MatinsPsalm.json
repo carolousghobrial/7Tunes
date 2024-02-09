@@ -1,31 +1,23 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "من مزامير أبينا داود النبي ( 95 : 10 ، ۱۱ ، ۱۲ )",
-  "EnglishTitle": "Psalms 96:11, 12-13",
+  "ArabicTitle": " (مز16:79، 7)",
+  "EnglishTitle": "Psalms 80:7,18",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "فلتفـرح السموات ولتبتهج الأرض، وليتحرك البحـر وكـل ملئه. ",
-      "English": "11 Let the heavens rejoice, and let the earth be glad; Let the sea roar, and all its fullness; \r"
+      "Arabic": "\" يارب إله القوات أرجعنا، ولينر وجهك علينا فنخلص،",
+      "English": "7 Restore us, O God of hosts; Cause Your face to shine, And we shall be saved!.\r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "يبتهج كـل شجر الغـاب قـدام وجـه الـرب ",
-      "English": "12 Then all the trees of the woods will rejoice before the Lord. \r"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "لأنـه يـأتي. إنـه يـأتـي ليـديـن المسكونة بـالعدل والشعوب بحقه",
-      "English": "13 For He is coming, for He is coming to judge the earth. He shall judge the world with righteousness, And the peoples with His truth.  Alleluia\r"
+      "Arabic": " فلا نرتد عنك، أحينا فندعو باسمك. هلليلويا  \"",
+      "English": "18 Then we will not turn back from You; Revive us, and we will call upon your name.\r"
     }
   ]
 }

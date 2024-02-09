@@ -1,31 +1,135 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "من إنجيل معلمنا لوقا البشير ( ٨ : ۱ - ۳ )",
-  "EnglishTitle": "Luke 8:1-3",
+  "ArabicTitle": " (يو31:5-46)",
+  "EnglishTitle": "John 5:31-46",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وحدث بعد ذلك، أنه كان يسير في كل مدينة وقرية يكرز ويبشر بملكوت الله، ومعه الاثنا عشر. ",
-      "English": "8:1 Now it came to pass, afterward, that He went through every city and village, preaching and bringing the glad tidings of the kingdom of God. And the twelve were with Him, \r"
+      "Arabic": " \" 31- ان كنت اشهد لنفسي فشهادتي ليست حقا.",
+      "English": "31 If I bear witness of Myself, My witness is not true. \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وبعض النساء كان قد أبرأهن من أرواح شريرة وأمراض: مريم التي تدعى المجدلية التي أخرج منها سبعة شياطيـن، ",
-      "English": "2 and certain women who had been healed of evil spirits and infirmities--Mary called Magdalene, out of whom had come seven demons, \r"
+      "Arabic": " 32- الذي يشهد لي هو اخر و انا اعلم ان شهادته التي يشهدها لي هي حق.",
+      "English": "32 There is another who bears witness of Me, and I know that the witness which He witnesses of Me is true. \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ويوأنـا امـرأة خـوزي وكيل هيرودس، وسوسنة، وأخر كثيرات كن يخدمنه من أموالهـن.",
-      "English": "3 and Joanna the wife of Chuza, Herod's steward, and Susanna, and many others who provided for Him from their substance.  "
+      "Arabic": " 33- انتم ارسلتم الى يوحنا فشهد للحق.",
+      "English": "33 You have sent to John, and he has borne witness to the truth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 34- و انا لا اقبل شهادة من انسان و لكني اقول هذا لتخلصوا انتم.",
+      "English": "34 Yet I do not receive testimony from man, but I say these things that you may be saved. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 35- كان هو السراج الموقد المنير و انتم اردتم ان تبتهجوا بنوره ساعة.",
+      "English": "35 He was the burning and shining lamp, and you were willing for a time to rejoice in his light. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 36- و اما انا فلي شهادة اعظم من يوحنا لان الاعمال التي اعطاني الاب لاكملها هذه الاعمال بعينها التي انا اعملها هي تشهد لي ان الاب قد ارسلني.",
+      "English": "36 But I have a greater witness than John's; for the works which the Father has given Me to finish--the very works that I do--bear witness of Me, that the Father has sent Me. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 37- و الاب نفسه الذي ارسلني يشهد لي لم تسمعوا صوته قط و لا ابصرتم هيئته.",
+      "English": "37 And the Father Himself, who sent Me, has testified of Me. You have neither heard His voice at any time, nor seen His form. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 38- و ليست لكم كلمته ثابتة فيكم لان الذي ارسله هو لستم انتم تؤمنون به.",
+      "English": "38 But you do not have His word abiding in you, because whom He sent, Him you do not believe. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 39- فتشوا الكتب لانكم تظنون ان لكم فيها حياة ابدية و هي التي تشهد لي.",
+      "English": "39 You search the Scriptures, for in them you think you have eternal life; and these are they which testify of Me. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 40- و لا تريدون ان تاتوا الي لتكون لكم حياة.",
+      "English": "40 But you are not willing to come to Me that you may have life. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 41- مجدا من الناس لست اقبل.",
+      "English": "41 I do not receive honor from men. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 42- و لكني قد عرفتكم ان ليست لكم محبة الله في انفسكم.",
+      "English": "42 But I know you, that you do not have the love of God in you. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 43- انا قد اتيت باسم ابي و لستم تقبلونني ان اتى اخر باسم نفسه فذلك تقبلونه.",
+      "English": "43 I have come in My Father's name, and you do not receive Me; if another comes in his own name, him you will receive. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 44- كيف تقدرون ان تؤمنوا و انتم تقبلون مجدا بعضكم من بعض و المجد الذي من الاله الواحد لستم تطلبونه.",
+      "English": "44 How can you believe, who receive honor from one another, and do not seek the honor that comes from the only God? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 45- لا تظنوا اني اشكوكم الى الاب يوجد الذي يشكوكم و هو موسى الذي عليه رجاؤكم.",
+      "English": "45 Do not think that I shall accuse you to the Father; there is one who accuses you--Moses, in whom you trust. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 46- لانكم لو كنتم تصدقون موسى لكنتم تصدقونني لانه هو كتب عني. \"",
+      "English": "46 For if you believed Moses, you would believe Me; for he wrote about Me.     \r"
     }
   ]
 }

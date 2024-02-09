@@ -1,31 +1,23 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "من مزامير أبينا داود النبي ( 79 : ۲ ، ۳ )",
-  "EnglishTitle": "Psalms 80:1-3",
+  "ArabicTitle": "مزمور إنجيل القداس (مز7:35، 8)",
+  "EnglishTitle": "Psalms 36:9-10",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "أيها الجالس على الشاروبيم اظهر.",
-      "English": "80:1 You who dwell between the cherubim, shine forth! \r"
+      "Arabic": "\" لأن ينبوع الحياة عندك، بنورك يارب نعاين النور، ",
+      "English": "9 For with You is the fountain of life; In Your light we see light. \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": " قـدام افرايم وبنيامين ومنسى. لخلاصـنا يا الله ",
-      "English": "2 Before Ephraim, Benjamin, and Manasseh, Stir up Your strength, And come and save us! \r"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "أرددنا. ولينر وجهك علينا فنخلص",
-      "English": "3 Restore us, O God; Cause Your face to shine, And we shall be saved!"
+      "Arabic": "فابسط رحمتك على الذين يعرفونك، وعدلك على المستقيمين في قلوبهم. هلليلويا  \"",
+      "English": "10 Oh, continue Your lovingkindness to those who know You, And Your righteousness to the upright in heart.     Alleluia\r"
     }
   ]
 }

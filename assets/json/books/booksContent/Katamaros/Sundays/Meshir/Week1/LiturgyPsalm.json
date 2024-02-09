@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز5:90، 3)",
+  "EnglishTitle": "Psalms 96:6, 4",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" الاعتراف والبهاء قدامه، الطهر والجلال العظيم في قدسه،",
+      "English": "6 Honor and majesty are before Him; Strength and beauty are in His sanctuary.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأن الرب عظيم ومسبح جدًا، ومهوب على كل الآلهة. هلليلويا  \"",
+      "English": "4 For the Lord is great and greatly to be praised; He is to be feared above all gods.   \r"
+    }
+  ]
+}

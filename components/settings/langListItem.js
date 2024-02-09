@@ -65,9 +65,6 @@ const styles = StyleSheet.create({
   text: {
     fontFamily: "english-font",
   },
-  titleView: {
-    flex: 2,
-  },
   title: {
     fontFamily: "english-font",
   },

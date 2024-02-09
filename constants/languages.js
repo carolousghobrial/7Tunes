@@ -4,6 +4,7 @@ const Languages = {
     applanguage: "Application Language",
     applanguagedescription:
       "Set the language of the application to fit your preference.",
+    onboardingScreen: "Onboarding Screen",
 
     arabic: "Arabic",
     arabicdescription: "Display the Arabic words in the Arabic Language",
@@ -25,6 +26,7 @@ const Languages = {
     Epep: "Epep",
     facebook: "Facebook Page",
     fullFeasts: "Calender",
+    searchPage: "Search Page",
     fontsizelabel: "Font Size: ",
     fontsizeselector: "Select Font Size",
     Hathor: "Hathor",
@@ -165,6 +167,8 @@ const Languages = {
     ST_KIROLLOS_SIXTH: "Pope Kirollos the 6th",
   },
   ara: {
+    searchPage: "صفحة البحث",
+    onboardingScreen: "شاشة التعليمات",
     about: "معلومات",
     applanguage: "لغة التطبيق",
     applanguagedescription: "اضبط لغة التطبيق بما يناسبك.",

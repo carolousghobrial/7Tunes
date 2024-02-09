@@ -1,5 +1,11 @@
 import React, { useState, useRef, useEffect, memo, useCallback } from "react";
-import { StyleSheet, Text, Pressable, FlatList } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  Pressable,
+  useWindowDimensions,
+  FlatList,
+} from "react-native";
 import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
 import Icon from "react-native-vector-icons/Ionicons";
 import { useDispatch, useSelector } from "react-redux";
@@ -17,14 +23,22 @@ import RitualView from "../components/ViewTypes/RitualView";
 import ButtonView from "../components/ViewTypes/ButtonView";
 import MainTitleView from "../components/ViewTypes/MainTitleView";
 import SettingsModal from "../components/BottomBar/SettingsModal";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { PanGestureHandler, State } from "react-native-gesture-handler";
 
 const ViewSingleHymn = memo(({ navigation, route }) => {
+  const { height, width } = useWindowDimensions();
+
   const bottomSheetRef = useRef(null);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
+  const pagination = useSelector((state) => state.settings.pagination);
 
   const snapPoints = ["75%"];
   const flatListRef = useRef();
   const [navbarVisibility, setNavbarVisibility] = useState(true);
+  const [IsOnlyOneViewShown, setIsOnlyOneViewShown] = useState(false);
+  const [IsTopNotBeginning, setIsTopNotBeginning] = useState(false);
+
   const path = route.params.path;
   const pageBackgroundColor = getColor("pageBackgroundColor");
   const labelColor = getColor("LabelColor");
@@ -35,10 +49,28 @@ const ViewSingleHymn = memo(({ navigation, route }) => {
     appLanguage === "eng"
       ? route.params.englishTitle
       : route.params.arabicTitle;
+  const [currKey, setcurrKey] = useState(0);
 
   const [navTitle, setNavTitle] = useState(title);
   const data = getMain(path, motherSource, false, rule, 0)[0];
+  const onViewableItemsChanged = useRef(({ viewableItems }) => {
+    if (viewableItems.length <= 1) {
+      setIsOnlyOneViewShown(true);
+    } else {
+      const firstItem = viewableItems[0].item;
+      setcurrKey(firstItem.key);
 
+      setIsOnlyOneViewShown(false);
+
+      const title =
+        appLanguage === "eng"
+          ? firstItem?.EnglishTitle
+          : firstItem?.ArabicTitle;
+      if (title !== navTitle && title !== undefined) {
+        setNavTitle(title);
+      }
+    }
+  }).current;
   const renderItems = ({ item }) => {
     let content = null;
     switch (item.part.Type) {
@@ -83,13 +115,63 @@ const ViewSingleHymn = memo(({ navigation, route }) => {
       title: navTitle,
       headerRight: () => (
         <Pressable style={{ marginHorizontal: 5 }} onPress={settingsPressed}>
-          <Icon name="ios-settings-outline" size={30} color={labelColor} />
+          <MaterialCommunityIcons
+            name="cog"
+            size={30}
+            color={getColor("LabelColor")}
+          />
         </Pressable>
       ),
       headerShown: navbarVisibility,
     });
   }, [navigation, navbarVisibility, navTitle]);
+  const scrollToNextItem = () => {
+    if (IsOnlyOneViewShown && currKey !== 0) {
+      const offset =
+        flatListRef.current._listRef._scrollMetrics.offset +
+        height -
+        height * 0.2;
+      flatListRef.current.scrollToOffset({
+        offset,
+        animated: true,
+      });
+      setIsTopNotBeginning(true);
+    } else {
+      flatListRef.current.scrollToIndex({
+        index: currKey + 1,
+        animated: true,
+      });
+    }
+  };
+  const scrollBack = () => {
+    if (IsTopNotBeginning) {
+      flatListRef.current.scrollToIndex({
+        index: currKey,
+        animated: true,
+      });
+      setIsTopNotBeginning(false);
+    } else if (currKey !== 0) {
+      flatListRef.current.scrollToIndex({
+        index: currKey - 1,
+        animated: true,
+      });
+    }
+  };
+  const onHandlerStateChange = ({ nativeEvent }) => {
+    if (nativeEvent.state === State.END && pagination) {
+      // Gesture ended, determine the direction
+      const velocityX = nativeEvent.velocityX;
 
+      if (velocityX > 0) {
+        // Right swipe
+        scrollBack(); // Perform actions for a right swipe
+      } else if (velocityX < 0) {
+        // Left swipe
+        scrollToNextItem();
+        // Perform actions for a left swipe
+      }
+    }
+  };
   const settingsPressed = () => {
     bottomSheetRef?.current.present();
   };
@@ -101,15 +183,18 @@ const ViewSingleHymn = memo(({ navigation, route }) => {
           bottomSheetRef={bottomSheetRef}
           snapPoints={snapPoints}
         />
-        <FlatList
-          ref={flatListRef}
-          style={{ backgroundColor: pageBackgroundColor }}
-          showsVerticalScrollIndicator={false}
-          data={data}
-          removeClippedSubviews={true}
-          renderItem={renderItems}
-          keyExtractor={(item) => item.key}
-        />
+        <PanGestureHandler onHandlerStateChange={onHandlerStateChange}>
+          <FlatList
+            ref={flatListRef}
+            onViewableItemsChanged={onViewableItemsChanged}
+            style={{ backgroundColor: pageBackgroundColor }}
+            showsVerticalScrollIndicator={false}
+            data={data}
+            removeClippedSubviews={true}
+            renderItem={renderItems}
+            keyExtractor={(item) => item.key}
+          />
+        </PanGestureHandler>
       </BottomSheetModalProvider>
     </GestureHandlerRootView>
   );

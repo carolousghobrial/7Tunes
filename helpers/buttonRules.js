@@ -11,8 +11,8 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
   const openBookScreen = (switchScreen = false) => {
     navigation[switchScreen ? "replace" : "push"]("BookScreen", {
       bookPath: item.Path,
-      englishTitle: item.EnglishTitle,
-      arabicTitle: item.ArabicTitle,
+      englishTitle: item.English,
+      arabicTitle: item.Arabic,
       motherSource: item.mother,
       Switch: item.Switch,
     });

@@ -43,6 +43,7 @@ function ApplicationLanguage() {
         {
           borderColor: getColor("PrimaryColor"),
           flexDirection: containerflexDirection,
+          backgroundColor: getColor("NavigationBarColor"),
         },
       ]}
     >
@@ -106,7 +107,6 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10,
     borderRadius: 10,
-    backgroundColor: "rgba(52, 52, 52, 0.2)",
   },
   titleView: {
     flex: 1,

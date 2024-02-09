@@ -216,6 +216,7 @@ export function getCopticFastsFeasts(yearSelected, date) {
     epiphany = epiphany.add(1, "days");
     epiphany2ndDay = epiphany.add(1, "days");
     canaMiracle = canaMiracle.add(1, "days");
+    entranceTemple = entranceTemple.add(1, "days");
   }
   if (isLeapYear(yearSelected + 1)) {
     newYear = newYear.add(1, "days");

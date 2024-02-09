@@ -85,13 +85,6 @@ function FullFeastsScreen() {
     Alert.alert("CHANGEDATE");
   }
 
-  function liveClicked() {
-    dispatch(
-      setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
-    );
-    Alert.alert("Success");
-  }
-
   const today = moment();
 
   useEffect(() => {
@@ -170,11 +163,7 @@ function FullFeastsScreen() {
         setYear={setYear}
       />
       <View style={styles.container}>
-        <FeastScreenTitleView
-          liveClicked={liveClicked}
-          yearClick={yearClick}
-          changeDate={changeDate}
-        />
+        <FeastScreenTitleView yearClick={yearClick} changeDate={changeDate} />
         <SearchBar
           setClicked={setClicked}
           searchPhrase={searchPhrase}

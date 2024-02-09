@@ -7,6 +7,8 @@ import {
   Pressable,
   useWindowDimensions,
 } from "react-native";
+import { changeonboardingViewed } from "../../stores/redux/settings.js";
+
 import {
   getLanguageValue,
   getFontSize,
@@ -33,7 +35,7 @@ function NotificationPermission() {
 
   const dispatch = useDispatch();
   const toggleSwitch = () => {
-    dispatch(changeNotifications());
+    dispatch(changeonboardingViewed());
   };
   const scheduleNotification = async (title, body, date) => {
     // Convert the date to milliseconds since Unix epoch
@@ -61,10 +63,7 @@ function NotificationPermission() {
       });
 
     responseListener.current =
-      Notifications.addNotificationResponseReceivedListener((response) => {
-        console.log("TAPPED");
-        console.log(response);
-      });
+      Notifications.addNotificationResponseReceivedListener((response) => {});
 
     return () => {
       Notifications.removeNotificationSubscription(
@@ -130,7 +129,6 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10,
     borderRadius: 10,
-    backgroundColor: "rgba(52, 52, 52, 0.2)",
   },
   titleView: {
     flex: 2,

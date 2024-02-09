@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر مز3:23، 4",
+  "EnglishTitle": "Psalms 24:34",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " \"  من يصعد إلى جبل الرب، أو من يقوم في موضع قدسه، ",
+      "English": "3 Who may ascend into the hill of the Lord? Or who may stand in His holy place? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الطاهر بيديه، النقي بقلبه. هلليلويا  \"",
+      "English": "4 He who has clean hands and a pure heart.     \r"
+    }
+  ]
+}

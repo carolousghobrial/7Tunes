@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر مز9:88، 1",
+  "EnglishTitle": "Psalms 89:11, 1",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" لك السموات ولك الأرض أيضًا، أنت أسست المسكونة وملئها،",
+      "English": "11 The heavens are Yours, the earth also is Yours; The world and all its fullness, You have founded them.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " بمراحمك يارب أسبح إلى الدهر، من جيل إلى جيل أخبر بحقك بفمي. هلليلويا  \"",
+      "English": "89:1 I will sing of the mercies of the Lord forever; With my mouth will I make known Your faithfulness to all generations.   \r"
+    }
+  ]
+}

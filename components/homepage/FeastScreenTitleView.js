@@ -7,15 +7,19 @@ import {
   useWindowDimensions,
   Platform,
 } from "react-native";
-import { getLanguageValue } from "../../helpers/SettingsHelpers";
 import { useSelector, useDispatch } from "react-redux";
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigation } from "@react-navigation/native";
 import DateTimePicker from "@react-native-community/datetimepicker";
 import { getCurrentSeasonByDate } from "../../helpers/copticMonthsHelper";
 import { setSeason } from "../../stores/redux/settings.js";
+import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
+import {
+  setCurrentSeasonLive,
+  setCurrentSeasonByKey,
+} from "../../helpers/copticMonthsHelper";
 
-function FeastScreenTitleView({ liveClicked, yearClick, changeDate }) {
+function FeastScreenTitleView({ yearClick, changeDate }) {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const dispatch = useDispatch();
   const isAndroid = Platform.OS === "ios" ? false : true;
@@ -33,7 +37,21 @@ function FeastScreenTitleView({ liveClicked, yearClick, changeDate }) {
       0
     )
   );
-
+  function liveClicked() {
+    const currSeason = setCurrentSeasonLive(timeTransition);
+    setDate(
+      new Date(
+        currSeason.gregorianYear,
+        currSeason.gregorianMonth,
+        currSeason.gregorianDayOfMonth,
+        0,
+        0,
+        0,
+        0
+      )
+    );
+    dispatch(setSeason({ currentSeason: currSeason }));
+  }
   const { width, height } = useWindowDimensions();
 
   let textFlexDirection = "row";
@@ -79,50 +97,70 @@ function FeastScreenTitleView({ liveClicked, yearClick, changeDate }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
 
   return (
-    <ImageBackground
-      source={require("../../assets/images/titleBackground.png")}
+    <View
+      style={{
+        flexDirection: "row",
+        width: "100%",
+      }}
     >
-      <View style={{ flexDirection: "row", width: "100%" }}>
-        <Pressable style={styles.LiveContainer} onPress={liveClicked}>
-          <Text style={styles.LiveText}>
-            {getLanguageValue("setCurrentDate")}
-          </Text>
-        </Pressable>
-        <View style={styles.titleView}>
-          {isAndroid ? (
-            <View>
-              <Pressable onPress={showTimeTimePicker}>
-                <Text style={styles.openCal}>Open Calander</Text>
-                {showPicker && (
-                  <DateTimePicker
-                    value={date}
-                    mode="date"
-                    style={styles.changeDate}
-                    is24Hour={false}
-                    display="default"
-                    minuteInterval={30}
-                    onChange={handleTimeChange}
-                  />
-                )}
-              </Pressable>
-            </View>
-          ) : (
-            <DateTimePicker
-              value={date}
-              mode="date"
-              style={styles.changeDate}
-              is24Hour={false}
-              display="default"
-              minuteInterval={30}
-              onChange={handleTimeChange}
-            />
-          )}
-        </View>
-        <Pressable style={styles.titleView} onPress={yearClick}>
-          <Text style={styles.YearFont}> {getLanguageValue("setYear")}</Text>
-        </Pressable>
+      <Pressable
+        style={[
+          styles.LiveContainer,
+          { backgroundColor: getColor("NavigationBarColor") },
+        ]}
+        onPress={liveClicked}
+      >
+        <Text style={[styles.LiveText, { color: getColor("LabelColor") }]}>
+          {getLanguageValue("setCurrentDate")}
+        </Text>
+      </Pressable>
+      <View
+        style={[
+          styles.titleView,
+          { backgroundColor: getColor("NavigationBarColor") },
+        ]}
+      >
+        {isAndroid ? (
+          <View>
+            <Pressable onPress={showTimeTimePicker}>
+              <Text style={styles.openCal}>Open Calander</Text>
+              {showPicker && (
+                <DateTimePicker
+                  value={date}
+                  mode="date"
+                  style={styles.changeDate}
+                  is24Hour={false}
+                  display="default"
+                  minuteInterval={30}
+                  onChange={handleTimeChange}
+                />
+              )}
+            </Pressable>
+          </View>
+        ) : (
+          <DateTimePicker
+            value={date}
+            mode="date"
+            style={styles.changeDate}
+            is24Hour={false}
+            display="default"
+            minuteInterval={30}
+            onChange={handleTimeChange}
+          />
+        )}
       </View>
-    </ImageBackground>
+      <Pressable
+        style={[
+          styles.titleView,
+          { backgroundColor: getColor("NavigationBarColor") },
+        ]}
+        onPress={yearClick}
+      >
+        <Text style={[styles.YearFont, { color: getColor("LabelColor") }]}>
+          {getLanguageValue("setYear")}
+        </Text>
+      </Pressable>
+    </View>
   );
 }
 
@@ -130,11 +168,14 @@ const styles = StyleSheet.create({
   LiveContainer: {
     flex: 4,
     margin: 3,
+    opacity: 0.8,
+
     backgroundColor: "lightgray",
     borderColor: "black",
   },
   titleView: {
     flex: 3,
+    opacity: 0.8,
     margin: 3,
     backgroundColor: "lightgray",
     borderColor: "black",
@@ -150,7 +191,7 @@ const styles = StyleSheet.create({
     fontFamily: "englishtitle-font",
     justifyContent: "center",
     textAlign: "center",
-    fontSize: 30,
+    fontSize: 25,
   },
   openCal: {
     fontFamily: "englishtitle-font",

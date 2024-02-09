@@ -64,7 +64,15 @@ function VisibleLangs() {
     );
   }
   return (
-    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
+    <View
+      style={[
+        styles.container,
+        {
+          borderColor: getColor("PrimaryColor"),
+          backgroundColor: getColor("NavigationBarColor"),
+        },
+      ]}
+    >
       <View style={styles.titleView}>
         <Text
           style={[
@@ -96,7 +104,6 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10,
     borderRadius: 10,
-    backgroundColor: "rgba(52, 52, 52, 0.2)",
   },
   titleView: {
     flex: 2,

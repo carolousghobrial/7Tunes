@@ -1,15 +1,23 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "من مزامير أبينا داود النبي ( ٨٦ : ٥ )",
-  "EnglishTitle": "Psalms 87:5",
+  "ArabicTitle": " (مز17:77، 20)",
+  "EnglishTitle": "Psalms 78:20, 23",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "الأم صهيون تقـول: إن إنساناً وإنساناً حـل فيها، وهو العلي، الذي أسسها إلى الأبد",
-      "English": "5 And of Zion it will be said, This one and that one were born in her; And the Most High Himself shall establish her.  Alleluia\r"
+      "Arabic": "\" لأنه ضرب الصخرة فانحدرت المياه، وفاضت الأودية مياه،",
+      "English": "20 Behold, He struck the rock, So that the waters gushed out, And the streams overflowed.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فأمر السحاب من فوق، وفتح أبواب السماء. هلليلويا  \"",
+      "English": "23 Yet He had commanded the clouds above, And opened the doors of heaven,.     Alleluia\r"
     }
   ]
 }

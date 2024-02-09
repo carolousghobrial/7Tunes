@@ -50,7 +50,12 @@ function FeastView({ item, onClick }) {
   }
 
   return (
-    <View style={styles.container}>
+    <View
+      style={[
+        styles.container,
+        { backgroundColor: getColor("NavigationBarColor") },
+      ]}
+    >
       <Pressable
         style={[styles.bookViewLandscape, { flexDirection: flexDirection }]}
         android_ripple={{ color: "#AA4A44" }}
@@ -61,13 +66,20 @@ function FeastView({ item, onClick }) {
         </View>
 
         <View style={styles.textViewLanscape}>
-          <Text style={styles.text}>{getLanguageValue(item.key)}</Text>
-          <Text style={styles.text}>
+          <Text
+            style={[
+              styles.text,
+              { color: getColor("LabelColor"), fontSize: 24 },
+            ]}
+          >
+            {getLanguageValue(item.key)}
+          </Text>
+          <Text style={[styles.text, { color: getColor("LabelColor") }]}>
             {item.start.format("dddd, MMMM D, YYYY")}
             {item.end !== null ? "-" : null}
             {item.end !== null ? item.end.format("dddd, MMMM D, YYYY") : null}
           </Text>
-          <Text style={styles.text}>
+          <Text style={[styles.text, { color: getColor("LabelColor") }]}>
             {copticStartDateString}
             {item.end !== null ? "-" : null}
             {item.end !== null ? getCopticEndDateString() : null}
@@ -82,8 +94,7 @@ const styles = StyleSheet.create({
   container: {
     borderColor: "black",
     borderRadius: 30,
-    backgroundColor: "rgba(52, 52, 52, 0.2)",
-
+    opacity: 0.8,
     margin: 5,
     padding: 5,
   },

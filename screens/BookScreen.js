@@ -78,8 +78,9 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const values = getFullViewModel(bookPath, motherSource);
   const [bookContents, setBookContents] = useState(values[0]);
   const [isLoading, setIsLoading] = useState(true);
-  const [isNotMoreThanOneViewShown, setisNotMoreThanOneViewShown] =
-    useState(false);
+  const [IsOnlyOneViewShown, setIsOnlyOneViewShown] = useState(false);
+  const [scrolledBack, setscrolledBack] = useState(false);
+  const [IsTopNotBeginning, setIsTopNotBeginning] = useState(false);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const isTablet = useSelector((state) => state.settings.isTablet);
   const [menuData, setMenuData] = useState(values[1]);
@@ -87,23 +88,52 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const contentsSheetRef = useRef(null);
 
   const snapPoints = ["90%"];
-  const [navTitle, setNavTitle] = useState(bookContents[0]?.EnglishTitle);
+  const [navTitle, setNavTitle] = useState(bookContents[0]?.part.English);
   const [currKey, setcurrKey] = useState(0);
 
   const onViewableItemsChanged = useRef(({ viewableItems }) => {
-    if (viewableItems.length === 1) {
-      setisNotMoreThanOneViewShown(true);
-    } else if (viewableItems.length > 0) {
-      const firstItem = viewableItems[0].item;
+    const firstItem = viewableItems[0]?.item;
+
+    if (!firstItem) {
+      setIsOnlyOneViewShown(true); // Handle case when there are no viewable items
+    } else {
+      setIsOnlyOneViewShown(
+        viewableItems.length <= 1 ||
+          (viewableItems.length === 2 &&
+            ["Priest", "Deacon", "People", "Reader", "Ritual"].includes(
+              firstItem.part.Side
+            ))
+      );
+
+      const side = firstItem.part.Side;
+      const type = firstItem.part.Type;
+
+      if (
+        ["South", "North", "Neutral", "Refrain", "Title"].includes(side) ||
+        (type === "Button" && side !== "Ritual")
+      ) {
+        setcurrKey(firstItem.key);
+      } else {
+        const firstMatchingItem = viewableItems.find(
+          (myitem) =>
+            ["South", "North", "Neutral", "Refrain", "Title"].includes(
+              myitem.item.part.Side
+            ) ||
+            (myitem.item.part.Type === "Button" &&
+              myitem.item.part.Side !== "Ritual")
+        );
+
+        if (firstMatchingItem) {
+          setcurrKey(firstMatchingItem.key);
+        }
+      }
 
       const title =
         appLanguage === "eng"
           ? firstItem?.EnglishTitle
           : firstItem?.ArabicTitle;
-      if (title !== navTitle && title !== undefined) {
+      if (title && title !== navTitle) {
         setNavTitle(title);
-        setcurrKey(firstItem.key);
-        setisNotMoreThanOneViewShown(false);
       }
     }
   }).current;
@@ -188,14 +218,13 @@ const BookScreen = React.memo(({ navigation, route }) => {
   };
 
   const onHandlerStateChange = ({ nativeEvent }) => {
-    if (nativeEvent.state === State.END) {
+    if (nativeEvent.state === State.END && pagination) {
       // Gesture ended, determine the direction
-      const velocityX = nativeEvent.velocityX;
-
-      if (velocityX > 0) {
+      const velocityY = nativeEvent.velocityY;
+      if (velocityY > 0) {
         // Right swipe
         scrollBack(); // Perform actions for a right swipe
-      } else if (velocityX < 0) {
+      } else if (velocityY < 0) {
         // Left swipe
         scrollToNextItem();
         // Perform actions for a left swipe
@@ -219,33 +248,49 @@ const BookScreen = React.memo(({ navigation, route }) => {
         />
       ),
     };
-    const returnView = viewTypeMap[item.part.Type];
 
     return (
       <Pressable onPress={() => setNavbarVisibility(!navbarVisibility)}>
-        {returnView}
+        {viewTypeMap[item.part.Type]}
       </Pressable>
     );
   };
   const scrollToNextItem = () => {
-    if (isNotMoreThanOneViewShown) {
+    if (IsOnlyOneViewShown && currKey !== 0) {
       const offset =
         flatListRef.current._listRef._scrollMetrics.offset +
         height -
         height * 0.2;
       flatListRef.current.scrollToOffset({
         offset,
-        animated: false,
+        animated: true,
       });
+      setIsTopNotBeginning(true);
     } else {
       flatListRef.current.scrollToIndex({
         index: currKey + 1,
-        animated: false,
+        animated: true,
       });
     }
   };
   const scrollBack = () => {
-    console.log(isNotMoreThanOneViewShown);
+    if (currKey === 0) {
+      return;
+    }
+    if (IsTopNotBeginning) {
+      flatListRef.current.scrollToIndex({
+        index: currKey,
+        animated: true,
+      });
+      setIsTopNotBeginning(false);
+    } else {
+      const newInd = currKey - 1;
+      flatListRef.current.scrollToIndex({
+        index: newInd,
+        animated: true,
+      });
+      setcurrKey(newInd);
+    }
   };
   const onScrollToIndexFailed = (error) => {
     const offset = error.averageItemLength * error.index;
@@ -284,7 +329,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
             onViewableItemsChanged={onViewableItemsChanged}
             showsVerticalScrollIndicator={false}
             data={bookContents}
-            pagingEnabled={pagination}
+            scrollEnabled={!pagination}
             onScrollToIndexFailed={onScrollToIndexFailed}
             initialNumToRender={bookContents.length}
             bounces={false}

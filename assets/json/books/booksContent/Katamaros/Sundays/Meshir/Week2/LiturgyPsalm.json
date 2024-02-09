@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس مز6:95، 7",
+  "EnglishTitle": "Psalms 96:7-9",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" قدموا للرب يا جميع قبائل الشعوب، قدموا للرب مجدًا وكرامة،",
+      "English": "7 Give to the Lord, O families of the peoples, Give to the Lord glory and strength. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " قدموا للرب مجدًا لاسمه، احملوا الذبائح وانطلقوا فادخلوا دياره.",
+      "English": "8 Give to the Lord the glory due His name; Bring an offering, and come into His courts. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أسجدوا للرب في داره المقدس. هلليلويا  \"",
+      "English": "9 Oh, worship the Lord in the beauty of holiness!.     \r"
+    }
+  ]
+}

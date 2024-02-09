@@ -27,7 +27,7 @@ import {
 import { setSeason } from "../stores/redux/settings.js";
 
 import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper";
-
+import Onboarding from "./OnBoardingScreen.js";
 import BishopPresentView from "./BishopPresentView.js";
 
 function HomepageScreen({ navigation, route }) {
@@ -39,7 +39,11 @@ function HomepageScreen({ navigation, route }) {
   const results = [];
   const appState = useRef(AppState.currentState);
   const [appStateVisible, setAppStateVisible] = useState(appState.current);
-
+  useEffect(() => {
+    navigation.setOptions({
+      headerShown: true,
+    });
+  }, [onboardingViewed]);
   const bottomSheetRef = useRef(null);
 
   // variables
@@ -61,6 +65,9 @@ function HomepageScreen({ navigation, route }) {
   );
   const isLiturgyBought = useSelector(
     (state) => state.settings.holyLiturgyPermission
+  );
+  const onboardingViewed = useSelector(
+    (state) => state.settings.onboardingViewed
   );
   const [isLoading, setIsLoading] = useState(false);
   const [bishopModalVisible, setbishopModalVisible] = useState(false);
@@ -200,28 +207,30 @@ function HomepageScreen({ navigation, route }) {
       }
     } catch (e) {}
   };
-
   return (
     <BottomSheetModalProvider>
       <BishopModal bottomSheetRef={bottomSheetRef} snapPoints={snapPoints} />
-      <View style={styles.container}>
-        {isLoading ? <ActivityIndicator size="large" color="black" /> : null}
-
-        <FlatList
-          data={data.books}
-          horizontal={false}
-          showsVerticalScrollIndicator={false}
-          renderItem={({ item }) => (
-            <BookView
-              onLongPress={onLongPress}
-              item={item}
-              onClick={bookClick}
-            />
-          )}
-          numColumns={2}
-          keyExtractor={(item) => item.BookPath}
-        />
-      </View>
+      {onboardingViewed === false ? (
+        <Onboarding navigation={navigation} />
+      ) : (
+        <View style={styles.container}>
+          {isLoading ? <ActivityIndicator size="large" color="black" /> : null}
+          <FlatList
+            data={data.books}
+            horizontal={false}
+            showsVerticalScrollIndicator={false}
+            renderItem={({ item }) => (
+              <BookView
+                onLongPress={onLongPress}
+                item={item}
+                onClick={bookClick}
+              />
+            )}
+            numColumns={2}
+            keyExtractor={(item) => item.BookPath}
+          />
+        </View>
+      )}
     </BottomSheetModalProvider>
   );
 }

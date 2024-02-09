@@ -1,0 +1,47 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " إنجيل باكر يو17:3-21",
+  "EnglishTitle": "John 3:17-21",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " \"  17 لانه لم يرسل الله ابنه الى العالم ليدين العالم بل ليخلص به العالم.",
+      "English": "17 For God did not send His Son into the world to condemn the world, but that the world through Him might be saved. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 18 الذي يؤمن به لا يدان و الذي لا يؤمن قد دين لانه لم يؤمن باسم ابن الله الوحيد.",
+      "English": "18 He who believes in Him is not condemned; but he who does not believe is condemned already, because he has not believed in the name of the only begotten Son of God. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 19 و هذه هي الدينونة ان النور قد جاء الى العالم و احب الناس الظلمة اكثر من النور لان اعمالهم كانت شريرة.",
+      "English": "19 And this is the condemnation, that the light has come into the world, and men loved darkness rather than light, because their deeds were evil. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 20- لان كل من يعمل السيات يبغض النور و لا ياتي الى النور لئلا توبخ اعماله.",
+      "English": "20 For everyone practicing evil hates the light and does not come to the light, lest his deeds should be exposed. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 21 و اما من يفعل الحق فيقبل الى النور لكي تظهر اعماله انها بالله معمولة  \"",
+      "English": "21 But he who does the truth comes to the light, that his deeds may be clearly seen, that they have been done in God\r"
+    }
+  ]
+}

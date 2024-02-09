@@ -58,11 +58,12 @@ export function getFullViewModel(motherSource, mother) {
           processMainOrDefault(item);
           break;
         case "Ritual":
+
         case "GetDaysReading":
           processRitualOrGetDaysReading(item);
           break;
         default:
-          pushToArrays(item, key++);
+          pushToArrays(item, key++, false);
           break;
       }
     }
@@ -99,7 +100,7 @@ export function getFullViewModel(motherSource, mother) {
         MenuArray.push(...tempMenu);
       }
     } else {
-      pushToArrays(item, key++);
+      pushToArrays(item, key++, true);
     }
   }
 
@@ -117,7 +118,7 @@ export function getFullViewModel(motherSource, mother) {
 
   return [ViewArray, MenuArray];
 
-  function pushToArrays(item, currentKey) {
+  function pushToArrays(item, currentKey, ritual) {
     const { English, Coptic, Arabic } = item;
     MenuArray.push({
       EnglishTitle: English,
@@ -140,103 +141,108 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
   const myMenuArray = [];
   const myViewArray = [];
   const book = bookPaths[Path];
-  const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
-  if (!inHymn && EnglishTitle !== undefined && EnglishTitle !== "") {
-    const menuEntry = {
-      EnglishTitle,
-      CopticTitle,
-      ArabicTitle,
-      key,
-    };
+  try {
+    const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
+    if (!inHymn && EnglishTitle !== undefined && EnglishTitle !== "") {
+      const menuEntry = {
+        EnglishTitle,
+        CopticTitle,
+        ArabicTitle,
+        key,
+      };
 
-    myMenuArray.push(menuEntry);
-    myViewArray.push({
-      EnglishTitle,
-      CopticTitle,
-      ArabicTitle,
-      part: {
-        Type: "Title",
-        rule: -1,
-        visible: 0,
-        Side: "Title",
-        Arabic: ArabicTitle,
-        Coptic: CopticTitle,
-        English: EnglishTitle,
-        Switch: switchWord,
-        Path: Path,
-      },
-      key,
-    });
+      myMenuArray.push(menuEntry);
+      myViewArray.push({
+        EnglishTitle,
+        CopticTitle,
+        ArabicTitle,
+        part: {
+          Type: "Title",
+          rule: -1,
+          visible: 0,
+          Side: "Title",
+          Arabic: ArabicTitle,
+          Coptic: CopticTitle,
+          English: EnglishTitle,
+          Switch: switchWord,
+          Path: Path,
+        },
+        key,
+      });
 
-    key++;
-  }
+      key++;
+    }
 
-  const visibleParts = Hymn.filter((part) => {
-    const temppath =
-      part.SAINT !== undefined && !motherSource?.toLowerCase().includes("index")
-        ? part.SAINT
-        : part.Path;
+    const visibleParts = Hymn.filter((part) => {
+      const temppath =
+        part.SAINT !== undefined &&
+        !motherSource?.toLowerCase().includes("index")
+          ? part.SAINT
+          : part.Path;
 
-    const isPartVisible =
-      part.Visible === true ||
-      VisibleRules[part.Visible]?.(motherSource, temppath) ||
-      (motherSource?.toLowerCase().includes("index") &&
-        !motherSource?.toLowerCase().includes("papal"));
+      const isPartVisible =
+        part.Visible === true ||
+        VisibleRules[part.Visible]?.(motherSource, temppath) ||
+        (motherSource?.toLowerCase().includes("index") &&
+          !motherSource?.toLowerCase().includes("papal"));
 
-    return isPartVisible;
-  }).forEach((part) => {
-    const processMainType = () => {
-      const [tempView, , mykey] = getMain(
-        part.Path,
-        motherSource,
-        true,
-        thisRule,
-        key
-      );
-      key = mykey;
-      myViewArray.push(...tempView);
-    };
-
-    const processGetDaysReadingType = () => {
-      const filePath = GetTodaysReadingPath(part.Path);
-      if (filePath !== "Katamaros") {
+      return isPartVisible;
+    }).forEach((part) => {
+      const processMainType = () => {
         const [tempView, , mykey] = getMain(
-          filePath,
+          part.Path,
           motherSource,
-          false,
+          true,
           thisRule,
           key
         );
         key = mykey;
         myViewArray.push(...tempView);
+      };
+
+      const processGetDaysReadingType = () => {
+        const filePath = GetTodaysReadingPath(part.Path);
+        if (filePath !== "Katamaros") {
+          const [tempView, , mykey] = getMain(
+            filePath,
+            motherSource,
+            false,
+            thisRule,
+            key
+          );
+          key = mykey;
+          myViewArray.push(...tempView);
+        }
+      };
+
+      const processOtherTypes = () => {
+        const addPart = addItemsToArray(part, thisRule);
+        myViewArray.push({
+          part: addPart,
+          path: Path,
+          key,
+          EnglishTitle,
+          CopticTitle,
+          ArabicTitle,
+        });
+        key++;
+      };
+
+      switch (part.Type) {
+        case "Main":
+          processMainType();
+          break;
+        case "GetDaysReading":
+          processGetDaysReadingType();
+          break;
+        default:
+          processOtherTypes();
+          break;
       }
-    };
-
-    const processOtherTypes = () => {
-      const addPart = addItemsToArray(part, thisRule);
-      myViewArray.push({
-        part: addPart,
-        path: Path,
-        key,
-        EnglishTitle,
-        CopticTitle,
-        ArabicTitle,
-      });
-      key++;
-    };
-
-    switch (part.Type) {
-      case "Main":
-        processMainType();
-        break;
-      case "GetDaysReading":
-        processGetDaysReadingType();
-        break;
-      default:
-        processOtherTypes();
-        break;
-    }
-  });
+    });
+  } catch (err) {
+    console.error(err);
+  }
 
   return [myViewArray, myMenuArray, key];
 }
@@ -386,7 +392,6 @@ function GetTodaysReadingPath(path) {
       "LiturgyCatholicCoptic",
       "LiturgyActsCoptic",
     ];
-
     if (liturgyPaths.includes(path)) {
       return filePath + commonPart + path;
     } else {
@@ -400,7 +405,6 @@ function getAuthor(part, checkList) {
   if (completePath === "Katamaros") {
     return "NONE";
   }
-
   const book = bookPaths[completePath];
   const { EnglishTitle } = book;
 

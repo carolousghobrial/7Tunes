@@ -29,7 +29,15 @@ function AppTheme() {
   const toggleSwitch = () => dispatch(changeDarkMode());
 
   return (
-    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
+    <View
+      style={[
+        styles.container,
+        {
+          borderColor: getColor("PrimaryColor"),
+          backgroundColor: getColor("NavigationBarColor"),
+        },
+      ]}
+    >
       <View style={[styles.switchView, { flexDirection: flexDirection }]}>
         <View style={styles.titleView}>
           <Text

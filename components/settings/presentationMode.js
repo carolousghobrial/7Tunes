@@ -23,12 +23,22 @@ function PresentationMode() {
   const pagination = useSelector((state) => state.settings.pagination);
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let flexDirection = "row";
-
+  let difference = Object.keys(Languages.eng).filter(
+    (x) => !Object.keys(Languages.ara).includes(x)
+  );
   const dispatch = useDispatch();
   const toggleSwitch = () => dispatch(changePagination());
 
   return (
-    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
+    <View
+      style={[
+        styles.container,
+        {
+          borderColor: getColor("PrimaryColor"),
+          backgroundColor: getColor("NavigationBarColor"),
+        },
+      ]}
+    >
       <View style={[styles.switchView, { flexDirection: flexDirection }]}>
         <View style={styles.titleView}>
           <Text

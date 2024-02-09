@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز2:91، 3)",
+  "EnglishTitle": "Psalms 92:4-5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" لأنك أفرحتني يارب بصنيعك. وبأعمال يديك أبتهج.",
+      "English": "4 For You, Lord, have made me glad through Your work; I will triumph in the works of Your hands. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " كما عظمت أعمالك يارب. وأفكارك عمقت جدًا. هلليلويا  \"",
+      "English": "5 O Lord, how great are Your works! Your thoughts are very deep.   Alleluia\r"
+    }
+  ]
+}

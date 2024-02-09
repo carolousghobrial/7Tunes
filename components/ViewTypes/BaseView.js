@@ -24,21 +24,17 @@ function BaseView({ item, mykey }) {
       People: "PeopleColor",
       Reader: "ReaderColor",
       Title: "NorthColor",
+      Neutral: mykey % 2 === 0 ? "NorthColor" : "SouthColor",
     };
 
     const side = sideColors[item.Side] || "NorthColor";
-
-    if (side === "Neutral") {
-      return mykey % 2 === 0 ? getColor("NorthColor") : getColor("SouthColor");
-    }
-
     return getColor(side);
   };
 
   const textStyle = {
     fontSize,
     flex: 1,
-    lineHeight: fontSize * 1.2,
+    lineHeight: fontSize * 1.1,
     margin: 5,
     fontFamily: "",
     justifyContent: "flex-start",

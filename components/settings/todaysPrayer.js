@@ -55,7 +55,15 @@ function TodaysPrayer() {
 
   const toggleSwitch = () => dispatch(changeTodayPrayer());
   return (
-    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
+    <View
+      style={[
+        styles.container,
+        {
+          borderColor: getColor("PrimaryColor"),
+          backgroundColor: getColor("NavigationBarColor"),
+        },
+      ]}
+    >
       <View style={[styles.switchView, { flexDirection: flexDirection }]}>
         <View style={styles.titleView}>
           <Text
@@ -74,6 +82,21 @@ function TodaysPrayer() {
           >
             {getLanguageValue("todayprayerdescription")}
           </Text>
+        </View>
+        <View style={styles.switch}>
+          <View style={styles.textContainer}>
+            <Text style={todayPrayer ? [styles.textOn] : [styles.textOff]}>
+              {todayPrayer ? "YES" : "NO"}
+            </Text>
+          </View>
+          <Switch
+            ios_backgroundColor={
+              todayPrayer ? Colors.NavigationBarColor : "#AA4A44"
+            }
+            value={todayPrayer}
+            onValueChange={toggleSwitch}
+            thumbColor="white"
+          />
         </View>
       </View>
       <View>
@@ -139,7 +162,6 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10,
     borderRadius: 10,
-    backgroundColor: "rgba(52, 52, 52, 0.2)",
   },
   titleView: {
     flex: 2,

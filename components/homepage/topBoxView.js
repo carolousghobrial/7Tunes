@@ -31,13 +31,13 @@ function TopBoxView() {
     SetCurrentSeason();
     SetDateTime();
     SetCopticDateTime();
-    if (
+    setImageURL(
       currentSeason.key === "STANDARD" &&
-      currentSeason.saintsOfThisDay.length > 0
-    ) {
-      setImageURL(currentSeason.saintsOfThisDay[0]);
-    }
-  });
+        currentSeason.saintsOfThisDay.length > 0
+        ? currentSeason.saintsOfThisDay[0]
+        : currentSeason.key
+    );
+  }, [currentSeason]);
 
   function SetCurrentSeason() {
     switch (currentSeason.key) {
@@ -100,14 +100,12 @@ function TopBoxView() {
     );
   }
   function setLive() {
+    const curSeason = setCurrentSeasonLive(timeTransition);
+    dispatch(setSeason({ currentSeason: curSeason }));
     setImageURL(
-      currentSeason.key === "STANDARD" &&
-        currentSeason.saintsOfThisDay.length > 0
-        ? currentSeason.saintsOfThisDay[0]
-        : currentSeason.key
-    );
-    dispatch(
-      setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
+      curSeason.key === "STANDARD" && curSeason.saintsOfThisDay.length > 0
+        ? curSeason.saintsOfThisDay[0]
+        : curSeason.key
     );
   }
   return (

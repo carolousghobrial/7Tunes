@@ -18,6 +18,7 @@ import {
 import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
 import HomepageScreen from "../../screens/HomepageScreen";
 import BookScreen from "../../screens/BookScreen";
+import Onboarding from "../../screens/OnBoardingScreen.js";
 import ViewSingleHymn from "../../screens/ViewSingleHymn";
 import ViewSingleHymnSearch from "../../screens/ViewSingleHymnSearch";
 import LoadingScreen from "../../screens/LoadingScreen";
@@ -100,7 +101,7 @@ function NavigationContainerView({ dispatch }) {
           name="BigSearchScreen"
           component={BigSearchScreen}
           options={{
-            title: "Search Page",
+            title: getLanguageValue("searchPage"),
             drawerIcon: ({ color, size }) => (
               <FontAwesome5 name="search" size={24} color="black" />
             ),
@@ -137,7 +138,7 @@ function NavigationContainerView({ dispatch }) {
         }}
       >
         <Stack.Screen
-          name="Root"
+          name="7 Tunes"
           component={Root}
           options={{ headerShown: false }}
         />
@@ -158,6 +159,7 @@ function NavigationContainerView({ dispatch }) {
         <Stack.Screen name="ContentsModal" component={ContentsModal} />
         <Stack.Screen name="SettingsModal" component={SettingsModal} />
         <Stack.Screen name="ViewSingleHymn" component={ViewSingleHymn} />
+        <Stack.Screen name="Onboarding" component={Onboarding} />
         <Stack.Screen
           name="ViewSingleHymnSearch"
           component={ViewSingleHymnSearch}

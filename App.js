@@ -28,105 +28,24 @@ import * as ScreenOrientation from "expo-screen-orientation";
 import { setSeason } from "./stores/redux/settings.js";
 import { enableScreens } from "react-native-screens";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import * as Notifications from "expo-notifications";
 import * as Device from "expo-device";
-import * as BackgroundFetch from "expo-background-fetch";
-
-const TASK_NAME = "notification-task";
-
-Notifications.setNotificationHandler({
-  handleNotification: async () => ({
-    shouldShowAlert: true,
-    shouldPlaySound: false,
-    shouldSetBadge: false,
-  }),
-});
-
-if (!TaskManager.isTaskDefined(TASK_NAME)) {
-  TaskManager.defineTask(TASK_NAME, async () => {
-    console.debug("notification task running...");
-
-    // API call and some conditions would go here
-
-    await Notifications.scheduleNotificationAsync({
-      content: {
-        title: "Title!",
-        body: "Test",
-      },
-      trigger: null,
-    });
-
-    return BackgroundFetch.BackgroundFetchResult.NewData;
-  });
-}
-
-try {
-  console.debug("registering notification task...");
-  await BackgroundFetch.registerTaskAsync(TASK_NAME, {
-    minimumInterval: 60 * 15, // 15 minutes
-    startOnBoot: true,
-    stopOnTerminate: false,
-  });
-} catch (err) {
-  console.debug("registering notification task failed:", err);
-}
 
 enableScreens(false);
+
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
 
 function App() {
   const [appIsReady, setAppIsReady] = useState(false);
   const [expoPushToken, setExpoPushToken] = useState("");
-  const sendScheduledNotification = async () => {
-    await Notifications.scheduleNotificationAsync({
-      content: {
-        title: "Scheduled Notification",
-        body: "This is a scheduled notification!",
-      },
-      trigger: new Date(moment().add(10, "seconds")), // Send the notification after 5 seconds
-    });
-  };
-  async function registerForPushNotificationsAsync() {
-    let token;
 
-    if (Device.isDevice) {
-      const { status: existingStatus } =
-        await Notifications.getPermissionsAsync();
-      let finalStatus = existingStatus;
-      if (existingStatus !== "granted") {
-        const { status } = await Notifications.requestPermissionsAsync();
-        finalStatus = status;
-      }
-      if (finalStatus !== "granted") {
-        alert("Failed to get push token for push notification!");
-        return;
-      }
-      // Learn more about projectId:
-      // https://docs.expo.dev/push-notifications/push-notifications-setup/#configure-projectid
-      token = (
-        await Notifications.getExpoPushTokenAsync({
-          projectId: "2021c9d7-dd0b-4c29-8a9d-da78153a1d49",
-        })
-      ).data;
-    } else {
-      alert("Must use physical device for Push Notifications");
-    }
-
-    return token;
-  }
   useEffect(() => {
     async function prepare() {
       try {
         // Pre-load fonts, make any API calls you need to do here
         await useFonts();
-        sendScheduledNotification();
         await ScreenOrientation.unlockAsync();
         await Glassfy.initialize("68561c8cc6994fb2af25a34a19a5554f", false);
-        await registerForPushNotificationsAsync().then((token) => {
-          console.log(token);
-          setExpoPushToken(token);
-        });
       } catch (e) {
       } finally {
         // Tell the application to render

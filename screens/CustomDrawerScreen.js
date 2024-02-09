@@ -150,8 +150,9 @@ const CustomDrawerScreen = (props) => {
       resizeMode="cover"
       style={styles.backgroundimage}
     >
+      <TopBoxView></TopBoxView>
+
       <DrawerContentScrollView {...props}>
-        <TopBoxView></TopBoxView>
         <DrawerItemList {...props}></DrawerItemList>
         <DrawerItem
           icon={ShareIcon}

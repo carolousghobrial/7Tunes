@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز6:81، 5)",
+  "EnglishTitle": "Psalms 82:8, 6",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" قم يا الله ودن الأرض، لأنك أنت ترث في جميع الأمم، ",
+      "English": "8 Arise, O God, judge the earth; For You shall inherit all nations.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنا قلت إنكم آلهة، وبنو العلى كلكم. هلليلويا  \"",
+      "English": "6 I said, You are gods, And all of you are children of the Most High.     Alleluia\r"
+    }
+  ]
+}

@@ -1,127 +1,143 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "من أعمال الرسل",
-  "EnglishTitle": "Acts 7:8-22",
+  "ArabicTitle": " الإبركسيس (أع2:11-18)",
+  "EnglishTitle": "Acts 11:2-18",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "(۲۲ - ۸:۷)",
-      "English": "8 Then He gave him the covenant of circumcision; and so Abraham begot Isaac and circumcised him on the eighth day; and Isaac begot Jacob, and Jacob begot the twelve patriarchs. \r"
+      "Arabic": " \"  2- و لما صعد بطرس الى اورشليم خاصمه الذين من اهل الختان.",
+      "English": "2 And when Peter came up to Jerusalem, those of the circumcision contended with him, \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وأعطاه عهد الختان، وهكذا ولد إسحق وختنه في اليوم الثامن. وإسحق ولد يعقوب، ويعقوب ولد رؤساء الآباء الاثني عشر. ",
-      "English": "9 And the patriarchs, becoming envious, sold Joseph into Egypt. But God was with him \r"
+      "Arabic": " 3- قائلين انك دخلت الى رجال ذوي غلفة و اكلت معهم.",
+      "English": "3 saying, You went in to uncircumcised men and ate with them! \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ورؤساء الآباء حسدوا يوسف وباعوه إلى مصر، وكـان اللـه معـه، ",
-      "English": "10 and delivered him out of all his troubles, and gave him favor and wisdom in the presence of Pharaoh, king of Egypt; and he made him governor over Egypt and all his house. \r"
+      "Arabic": " 4- فابتدا بطرس يشرح لهم بالتتابع قائلا.",
+      "English": "4 But Peter explained it to them in order from the beginning, saying: \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وخلصـه مـن جـميـع شـدائده، ومنحـه نعمة وحكمة أمام فرعـون ملك مصر، فجعله مدبراً على مصر وعلى كل بيته",
-      "English": "11 Now a famine and great trouble came over all the land of Egypt and Canaan, and our fathers found no sustenance. \r"
+      "Arabic": " 5- انا كنت في مدينة يافا اصلي فرايت في غيبة رؤيا اناء نازلا مثل ملاءة عظيمة مدلاة باربعة اطراف من السماء فاتى الي.",
+      "English": "5 I was in the city of Joppa praying; and in a trance I saw a vision, an object descending like a great sheet, let down from heaven by four corners; and it came to me. \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ثـم أتـى جـوع علـى كـل أرض مصـر وكنعان، وضيـق عـظيـم، فكـان آباؤنا لا يجدون قمحاً. ",
-      "English": "12 But when Jacob heard that there was grain in Egypt, he sent out our fathers first. \r"
+      "Arabic": " 6- فتفرست فيه متاملا فرايت دواب الارض و الوحوش و الزحافات و طيور السماء.",
+      "English": "6 When I observed it intently and considered, I saw four-footed animals of the earth, wild beasts, creeping things, and birds of the air. \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ولما سمع يعقوب أن في مصر قمحاً يباع، أرسل أباءنا أولاً. ",
-      "English": "13 And the second time Joseph was made known to his brothers, and Joseph's family became known to the Pharaoh. \r"
+      "Arabic": " 7- و سمعت صوتا قائلا لي قم يا بطرس اذبح و كل.",
+      "English": "7 And I heard a voice saying to me, `Rise, Peter; kill and eat.' \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وفي المرة الثانيـة أظـهر يوسـف نفسـه لإخوته، وتبيـن لفـرعـون أصـل يـوسـف. ",
-      "English": "14 Then Joseph sent and called his father Jacob and all his relatives to him, seventy-five people. \r"
+      "Arabic": " 8- فقلت كلا يا رب لانه لم يدخل فمي قط دنس او نجس.",
+      "English": "8 But I said, `Not so, Lord! For nothing common or unclean has at any time entered my mouth.' \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "فأرسل يوسـف واستدعى يعقـوب أبـاه وجميـع عشيرته، خمسة وسبعيـن نفساً ",
-      "English": "15 So Jacob went down to Egypt; and he died, he and our fathers. \r"
+      "Arabic": " 9- فاجابني صوت ثانية من السماء ما طهره الله لا تنجسه انت.",
+      "English": "9 But the voice answered me again from heaven, `What God has cleansed you must not call common.' \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "فنزل يعقـوب إلى مصـر ومـات هـو وآباؤنا، ",
-      "English": "16 And they were carried back to Shechem and laid in the tomb that Abraham bought for a sum of money from the sons of Hamor, the father of Shechem. \r"
+      "Arabic": " 10- و كان هذا على ثلاث مرات ثم انتشل الجميع الى السماء ايضا.",
+      "English": "10 Now this was done three times, and all were drawn up again into heaven. \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ونقـل إلى شـكيم ووضـع في القـبر الـذي اشتراه إبراهيـم بـمـن مـن الفضـة مـن بنـي حمـور في شكيم. ",
-      "English": "17 But when the time of the promise drew near which God had sworn to Abraham, the people grew and multiplied in Egypt \r"
+      "Arabic": " 11- و اذا ثلاثة رجال قد وقفوا للوقت عند البيت الذي كنت فيه مرسلين الي من قيصرية.",
+      "English": "11 At that very moment, three men stood before the house where I was, having been sent to me from Caesarea. \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ولمـا اقـترب زمان الموعد الذي أقسم به الله لإبراهيم، كان الشعب قـد نمـا وكـثر في مصر، ",
-      "English": "18 till another king arose who did not know Joseph. \r"
+      "Arabic": " 12- فقال لي الروح ان اذهب معهم غير مرتاب في شيء و ذهب معي ايضا هؤلاء الاخوة الستة فدخلنا بيت الرجل.",
+      "English": "12 Then the Spirit told me to go with them, doubting nothing. Moreover these six brethren accompanied me, and we entered the man's house. \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "إلى أن قام ملك آخر على مصر لم يكن يعرف يوسف. ",
-      "English": "19 This man dealt treacherously with our people, and oppressed our forefathers, making them expose their babies, so that they might not live. \r"
+      "Arabic": " 13- فاخبرنا كيف راى الملاك في بيته قائما و قائلا له ارسل الى يافا رجالا و استدع سمعان الملقب بطرس.",
+      "English": "13 And he told us how he had seen an angel standing in his house, who said to him, `Send men to Joppa, and call for Simon whose surname is Peter, \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "فهذا دبر حيلة على جنسنا وأساء إلى آبائنا، كي يطرحوا خارجاً أطفالهم الصغار لكي لا يعيشوا. ",
-      "English": "20 At this time Moses was born, and was well pleasing to God; and he was brought up in his father's house for three months. \r"
+      "Arabic": " 14- و هو يكلمك كلاما به تخلص أنت و كل بيتك.",
+      "English": "14 `who will tell you words by which you and all your household will be saved.' \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وفي ذلك الوقت ولـد موسى وكان جميلاً مرضياً عند الله، هذا ربي ثلاثة أشهر في بيـت أبيـه. ",
-      "English": "21 But when he was set out, Pharaoh's daughter took him away and brought him up as her own son. \r"
+      "Arabic": " 15- فلما ابتدات اتكلم حل الروح القدس عليهم كما علينا ايضا في البداءة.",
+      "English": "15 And as I began to speak, the Holy Spirit fell upon them, as upon us at the beginning. \r"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ولمـا طـرح، أخذتـه ابـنـه فـرعـون وربتـه لنفسها ابنـا. ",
-      "English": "22 And Moses was learned in all the wisdom of the Egyptians, and was mighty in words and deeds. "
+      "Arabic": " 16- فتذكرت كلام الرب كيف قال ان يوحنا عمد بماء و اما انتم فستعمدون بالروح القدس.",
+      "English": "16 Then I remembered the word of the Lord, how He said, `John indeed baptized with water, but you shall be baptized with the Holy Spirit.' \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 17- فان كان الله قد اعطاهم الموهبة كما لنا ايضا بالسوية مؤمنين بالرب يسوع المسيح فمن انا اقادر ان امنع الله.",
+      "English": "17 If therefore God gave them the same gift as He gave us when we believed on the Lord Jesus Christ, who was I that I could withstand God? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 18- فلما سمعوا ذلك سكتوا و كانوا يمجدون الله قائلين اذا اعطى الله الامم ايضا التوبة للحياة\"",
+      "English": "18 When they heard these things they became silent; and they glorified God, saying, Then God has also granted to the Gentiles repentance to life \r"
     }
   ]
 }

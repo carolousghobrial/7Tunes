@@ -24,10 +24,9 @@ import {
 } from "../helpers/SettingsHelpers.js";
 function SettingsScreen({ navigation, route }) {
   return (
-    <ScrollView style={{ backgroundColor: getColor("pageBackgroundColor") }}>
+    <ScrollView>
       <ApplicationLanguage></ApplicationLanguage>
       <AppTheme></AppTheme>
-      <NotificationPermission></NotificationPermission>
       <TodaysPrayer></TodaysPrayer>
       <PresentationMode></PresentationMode>
       <FontSize></FontSize>

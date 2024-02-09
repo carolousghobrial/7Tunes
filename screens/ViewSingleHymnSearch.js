@@ -4,6 +4,7 @@ import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
 import Icon from "react-native-vector-icons/Ionicons";
 import { useDispatch, useSelector } from "react-redux";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import {
   getLanguageValue,
   getFontSize,
@@ -38,7 +39,6 @@ const ViewSingleHymnSearch = memo(({ navigation, route }) => {
       : route.params.arabicTitle;
 
   const [navTitle, setNavTitle] = useState(title);
-  console.log(path);
   const data = getMain(path, "index", false, rule, 0)[0];
 
   const renderItems = ({ item }) => {
@@ -106,7 +106,11 @@ const ViewSingleHymnSearch = memo(({ navigation, route }) => {
       title: navTitle,
       headerRight: () => (
         <Pressable style={{ marginHorizontal: 5 }} onPress={settingsPressed}>
-          <Icon name="ios-settings-outline" size={30} color={labelColor} />
+          <MaterialCommunityIcons
+            name="cog"
+            size={30}
+            color={getColor("LabelColor")}
+          />
         </Pressable>
       ),
       headerShown: navbarVisibility,

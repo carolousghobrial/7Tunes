@@ -52,7 +52,13 @@ function PopeBishop() {
         setBishop={setBishop}
       ></BishopsPopup>
       <View
-        style={[styles.container, { borderColor: getColor("PrimaryColor") }]}
+        style={[
+          styles.container,
+          {
+            borderColor: getColor("PrimaryColor"),
+            backgroundColor: getColor("NavigationBarColor"),
+          },
+        ]}
       >
         <View style={styles.titleView}>
           <Text
