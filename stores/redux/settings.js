@@ -10,7 +10,6 @@ const settingsSlice = createSlice({
   initialState: {
     appLanguage: "eng",
     darkMode: false,
-    notifications: false,
     onboardingViewed: false,
     textFontSize: 24,
     todayPrayer: true,
@@ -61,12 +60,6 @@ const settingsSlice = createSlice({
     },
   },
   reducers: {
-    changeNotifications: (state, action) => {
-      return {
-        ...state,
-        notifications: !state.notifications,
-      };
-    },
     changeonboardingViewed: (state, action) => {
       return {
         ...state,
@@ -246,7 +239,6 @@ const settingsSlice = createSlice({
 });
 export const changeonboardingViewed =
   settingsSlice.actions.changeonboardingViewed;
-export const changeNotifications = settingsSlice.actions.changeNotifications;
 export const changeLanguage = settingsSlice.actions.changeLanguage;
 export const changePurge = settingsSlice.actions.changePurge;
 export const setTimeTransition = settingsSlice.actions.setTimeTransition;
