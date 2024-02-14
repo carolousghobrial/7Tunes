@@ -1502,6 +1502,8 @@ const bookPaths = {
   LiturgyLiturgyOfTheWordGospelResponsesSaintsGospelResponsesTwentyFourPriests: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/LiturgyGospelResponses/SaintsGospelResponses/TwentyFourPriests.json"),
   //LiturgyOfTheWord/SeasonalHymns
   LiturgyLiturgyOfTheWordLiturgySeasonalHymnsCrossParlex: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Cross/Parlex.json"),
+  LiturgyLiturgyOfTheWordLiturgySeasonalHymnsPresentationTempleTiGaleelia: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/PresentationTemple/TiGaleelia.json"),
+  LiturgyLiturgyOfTheWordLiturgySeasonalHymnsWeddingCanaNikhora: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/WeddingCana/Nikhora.json"),
   LiturgyLiturgyOfTheWordLiturgySeasonalHymnsNativityParlex: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Nativity/Parlex.json"),
   LiturgyLiturgyOfTheWordLiturgySeasonalHymnsNativityEparthenos: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Nativity/Eparthenos.json"),
   LiturgyLiturgyOfTheWordLiturgySeasonalHymnsNativityGenethleyon: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Nativity/Genethleyon.json"),

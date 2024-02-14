@@ -57,7 +57,7 @@
       "Coptic": "Ak; nhi `n`qmet`alumyic `nte Tekcar[ =en ouwik nem ouhrp.",
       "English": "You have given me the partaking of Your Flesh, in bread and wine.",
       "Arabiccoptic": "أكتي نيي إنإثميت اليمبسيس إنتي تيكساركس خين أووويك نيم أويرب.",
-      "Englishcoptic": "Akti neei en-ethmet-aleempsis en-te Teksarx khen- o-ooik nem ooeerp."
+      "Englishcoptic": "Akti neei en-ethmet-aleempsis en-te Teksarx khen o-ooik nem ooeerp."
     },
     {
       "Type": "Base",
@@ -112,7 +112,7 @@
       "Coptic": "Aksi `nouwik `ejen nekjij eqouab> ouo\\ `natasni> ouo\\ `natqwleb> ouo\\ `mmakarion> ouo\\ `nreftan=o.",
       "English": "You took bread into Your holy hands, which are without spot or blemish, blessed, and life-giving.",
       "Arabiccoptic": "أكتشي إنأووويك إيجين نيكجيج إيثأواب: أووه إناتاتشني: أووه إناتتووليب: أووه إمماكاريون: أووه إنريفتانخو.",
-      "Englishcoptic": "Akchi en-o-ooik ejen- nek-jig ethowab: owoh en-atachni-: owoh en-attooleb: owoh emmakarion: owoh en-reftankho."
+      "Englishcoptic": "Akchi en-o-ooik ejen nek-jig ethowab: owoh en-atachni-: owoh en-attooleb: owoh emmakarion: owoh en-reftankho."
     },
     {
       "Type": "Base",
@@ -134,7 +134,7 @@
       "Coptic": "Tenna\\; je vai pe =en oumeqmhi> `amhn.",
       "English": "We believe that this is true. Amen.",
       "Arabiccoptic": "تينناهتي جي فاي بي خين أوميثميي:  امين.",
-      "Englishcoptic": "Ten-nahti je vai pe khen- oo-methmee: -ameen-."
+      "Englishcoptic": "Ten-nahti je vai pe khen oo-methmee: ameen-."
     },
     {
       "Type": "Base",
@@ -167,7 +167,7 @@
       "Coptic": "`Etak]ep`\\mot.",
       "English": "And when You had given thanks—",
       "Arabiccoptic": "إيتاكشيبإهموت.",
-      "Englishcoptic": "-Etakshepehmot."
+      "Englishcoptic": "Etakshepehmot."
     },
     {
       "Type": "Base",
@@ -332,7 +332,7 @@
       "Coptic": "vai gar pe pacwma> `etounava]f `ejen qhnou nem \\ankemh]> `ncethif `e`pxw `ebol `nte ninobi> vai `aritf `epaer`vmeui.",
       "English": "For this is My Body, which is broken for you and for many, to be given for the remission of sins. This do in remembrance of Me.”",
       "Arabiccoptic": "فاي غار بي باسووما: إيتأونافاشف إيجين ثينأو نيم هانكيميش: إنسيتييف إيإبخوو إيفول إنتي نينوفي: فاي  اريتف إيبايرإفميفي.",
-      "Englishcoptic": "vai ghar pe pasooma: etoonavashf ejen theenoo nem hankemeesh: enseteeif eepkhoo evol ente ni-novi: vai -aritf epaerevmevi."
+      "Englishcoptic": "vai ghar pe pasooma: etoonavashf ejen theenoo nem hankemeesh: enseteeif eepkhoo evol ente ni-novi: vai aritf epaerevmevi."
     },
     {
       "Type": "Base",
@@ -354,7 +354,7 @@
       "Coptic": "Vai pe =en oumeqmhi> `amhn.",
       "English": "This is true. Amen.",
       "Arabiccoptic": "فاي بي خين أوميثميي:  امين.",
-      "Englishcoptic": "Vai pe khen oo-methmee: -ameen."
+      "Englishcoptic": "Vai pe khen oo-methmee: ameen."
     },
     {
       "Type": "Base",
@@ -376,7 +376,7 @@
       "Coptic": "Pairh; on menenca `qrououwm aksi `nou`avot> akqotf `ebol =en `pouta\\ `nte ;bw `n`aloli nem oumwou.",
       "English": "Likewise also, after they had supped, You took a cup and mixed it of the fruit of the vine and water.",
       "Arabiccoptic": "بايريتي ون مينينسا إثرأوأوووم اكتشي إنأو افوت: اكثوتف إيفول خين إبأوتاه إنتي تيفوو إن الولي نيم أومؤو.",
-      "Englishcoptic": "Paireeti on men-en-sa ethro-oo-oom akchi en-oo-avot: akthotf evol khen- epootah en-te tivoo en-aloli nem oomo-oo."
+      "Englishcoptic": "Paireeti on men-en-sa ethro-oo-oom akchi en-oo-avot: akthotf evol khen epootah en-te tivoo en-aloli nem oomo-oo."
     },
     {
       "Type": "Base",
@@ -387,7 +387,7 @@
       "Coptic": "`Etak]ep`\\mot.",
       "English": "And when You had given thanks—",
       "Arabiccoptic": "إيتاكشيبإهموت.",
-      "Englishcoptic": "-Etakshepehmot."
+      "Englishcoptic": "Etakshepehmot."
     },
     {
       "Type": "Base",
@@ -552,7 +552,7 @@
       "Coptic": "vai gar pe pa`cnof `nte ;diaqhkh `mberi> `etounavonf `ebol `ejen qhnou nem \\ankemh]> `ncethif `e`pxw `ebol `nte ninobi> vai `aritf `epaer`vmeui.",
       "English": "For this is My Blood of the New Covenant, which is shed for you and for many, to be given for the remission of sins. This do in remembrance of Me.”",
       "Arabiccoptic": "فاي غار بي باإسنوف إنتي تيزياثيكي إمفيري: إيتأونافونف إيفول إيجين ثينأو نيم هانكيميش: إنسيتييف إيإبخوو إيفول إنتي نينوفي: فاي  اريتف إيبايرإفميفي.",
-      "Englishcoptic": "vai ghar pe paesnof en-te ti-ziatheekee emveri: etoonavonf evol ejen- theen-oo nem hankemeesh: en-seteeif eepkhoo evol en-te ni-novi: vai -aritf epaerevmevi."
+      "Englishcoptic": "vai ghar pe paesnof en-te ti-ziatheekee emveri: etoonavonf evol ejen theen-oo nem hankemeesh: en-seteeif eepkhoo evol en-te ni-novi: vai aritf epaerevmevi."
     },
     {
       "Type": "Base",
@@ -574,7 +574,7 @@
       "Coptic": "Vai on pe =en oumeqmhi> `amhn.",
       "English": "This is also true. Amen.",
       "Arabiccoptic": "فاي ون بي خين أوميثميي:  امين.",
-      "Englishcoptic": "Vai on pe khen oo-methmee: -ameen."
+      "Englishcoptic": "Vai on pe khen oo-methmee: ameen."
     },
     {
       "Type": "Base",
@@ -618,7 +618,7 @@
       "Coptic": "`Amhn `amhn `amhn> ton qanaton cou Kurie kataggellomen> ke thn `agian cou `anactacin ke thn `analhyin cou `nthc ouranic ce `omologoumen.",
       "English": "Amen. Amen. Amen. Your Death, O Lord, we proclaim; Your holy Resurrection and Ascension into the heavens, we confess.",
       "Arabiccoptic": "أمين  امين  امين: تون ثاناتون سأو كيريإي كاتانجيللومين: كي تين  اجيان سأو  اناستاسين كي تين  اناليبسين سأو إنتيس أورانيس سي  ومولوغأومين.",
-      "Englishcoptic": "Ameen -ameen -ameen: ton thanaton soo Keerie katangellomen: ke teen -agian soo -anastasin ke teen -analeepsin soo entees oorani-s se omologhoomen."
+      "Englishcoptic": "Ameen ameen ameen: ton thanaton soo Keerie katangellomen: ke teen agian soo anastasin ke teen analeepsin soo entees oorani-s se omologhoomen."
     },
     {
       "Type": "Base",
@@ -629,7 +629,7 @@
       "Coptic": "Ce `enoumen ce eulogoumen ci euxarictoumen Kurie> ke de`omeqa cou `o qeoc `hmwn.",
       "English": "We praise You, we bless You, we thank You, O Lord, and we entreat You, O our God.",
       "Arabiccoptic": "سي إينأومين سي إيف لوغأومين سي إيف خاريستأومين كيريإي: كي زي وميثا سأو  و ثيوس  يموون.",
-      "Englishcoptic": "Se en-oomen- se evloghoomen- si evkharistoomen- Keerie: ke ze-ometha soo o theos eemoon."
+      "Englishcoptic": "Se en-oomen se evloghoomen si evkharistoomen Keerie: ke ze-ometha soo o theos eemoon."
     }
   ]
 }

@@ -33,7 +33,7 @@ function TopBoxView() {
     SetCopticDateTime();
     setImageURL(
       currentSeason.key === "STANDARD" &&
-        currentSeason.saintsOfThisDay.length > 0
+        currentSeason.saintsOfThisDay?.length > 0
         ? currentSeason.saintsOfThisDay[0]
         : currentSeason.key
     );
@@ -103,7 +103,7 @@ function TopBoxView() {
     const curSeason = setCurrentSeasonLive(timeTransition);
     dispatch(setSeason({ currentSeason: curSeason }));
     setImageURL(
-      curSeason.key === "STANDARD" && curSeason.saintsOfThisDay.length > 0
+      curSeason.key === "STANDARD" && curSeason.saintsOfThisDay?.length > 0
         ? curSeason.saintsOfThisDay[0]
         : curSeason.key
     );

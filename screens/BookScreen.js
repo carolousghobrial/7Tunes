@@ -14,6 +14,7 @@ import {
   Pressable,
   TouchableWithoutFeedback,
   View,
+  Platform,
   useWindowDimensions,
 } from "react-native";
 import {
@@ -35,6 +36,7 @@ import { getColor } from "../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 import FloatingButton from "../components/ViewTypes/FloatingBishopButton";
 import { PanGestureHandler, State } from "react-native-gesture-handler";
+import { isAction } from "@reduxjs/toolkit";
 
 const HeaderRightButtons = ({ onPressSettings, onPressContents }) => (
   <>
@@ -74,6 +76,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const bishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
+  const isAndroid = Platform.OS === "ios" ? false : true;
 
   const values = getFullViewModel(bookPath, motherSource);
   const [bookContents, setBookContents] = useState(values[0]);
@@ -322,7 +325,24 @@ const BookScreen = React.memo(({ navigation, route }) => {
         scrollToKey={scrollToKey}
       />
       <View style={{ flex: 1 }}>
-        <PanGestureHandler onHandlerStateChange={onHandlerStateChange}>
+        {pagination && isAndroid ? (
+          <PanGestureHandler onHandlerStateChange={onHandlerStateChange}>
+            <FlatList
+              ref={flatListRef}
+              style={{ flex: 1, backgroundColor: pageBackgroundColor }}
+              onViewableItemsChanged={onViewableItemsChanged}
+              showsVerticalScrollIndicator={false}
+              data={bookContents}
+              scrollEnabled={!pagination}
+              onScrollToIndexFailed={onScrollToIndexFailed}
+              initialNumToRender={bookContents.length}
+              bounces={false}
+              removeClippedSubviews={true}
+              renderItem={renderItems}
+              keyExtractor={keyExtractor}
+            />
+          </PanGestureHandler>
+        ) : (
           <FlatList
             ref={flatListRef}
             style={{ flex: 1, backgroundColor: pageBackgroundColor }}
@@ -337,7 +357,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
             renderItem={renderItems}
             keyExtractor={keyExtractor}
           />
-        </PanGestureHandler>
+        )}
         {bishopIsPresent && bishopButton && (
           <FloatingButton navigation={navigation} />
         )}

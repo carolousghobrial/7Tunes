@@ -24,7 +24,7 @@
       "Coptic": "|hppe `fxh neman \\ijen taitrapeza `mvoou `nje Emmanouhl Pennou;> Pi\\ihb `nte `Vnou; vhet`wli `mvnobi `mpikocmoc thrf.",
       "English": "Behold, Emmanuel our God, the Lamb of God who takes away the sin of the whole world, is with us today on this table;",
       "Arabiccoptic": "هيببي إفشي نيمان هيجين تايترابيزا إمفوأو إنجي إيممانأويل بيننأوتي: بيهييف إنتي افنوتي فييت وولي إمفنوفي إمبي كوسموس تيرف.",
-      "Englishcoptic": "Heeppe efshee neman hijen taitrapeza emvo-oo enje Emmanooeel Pen-nooti-: Pihieev ente Evnoti- vee-et-ooli emvnovi empi-kosmos terf."
+      "Englishcoptic": "Heeppe efshee neman hijen taitrapeza emvo-oo enje Emmanooeel Pen-nooti-: Pihieev ente Evnoti vee-et-ooli emvnovi empi-kosmos terf."
     },
     {
       "Type": "Base",
@@ -46,7 +46,7 @@
       "Coptic": "Vhetou`o\\i `eratou na\\raf `nje nitagma throu `n`epouranion> vh`etou\\wc `erof `nje niaggeloc =en ni`cmh `nte pi`cmou> ouo\\ eu\\itou euouw]t `mmof `nje niarxhaggeloc.",
       "English": "and before whom stand all the heavenly orders; whom the angels praise with voices of blessing and before whom the archangels fall down and worship.",
       "Arabiccoptic": "فييتأو وهي إيراتأو ناهراف إنجي نيتاغما تييرو إنإيبأورانيون: فيإيتأوهووس إيروف إنجي نيانجيلوس خين نيإسمي إنتي بيإسمأو: أووه إيف هيتأو إيف أوأوؤوشت إمموف إنجي نيارشيانجيلوس.",
-      "Englishcoptic": "Vee-etoo-ohi eratoo nahraf en-je ni-taghma tero en-epoorani-on: vee-etoohoos erof en-je ni-angelos khen- ni-esmee en-te pi-esmoo: owoh evhitoo evo-oosht emmof en-je ni-arshee-angelos."
+      "Englishcoptic": "Vee-etoo-ohi eratoo nahraf en-je ni-taghma tero en-epoorani-on: vee-etoohoos erof en-je ni-angelos khen ni-esmee en-te pi-esmoo: owoh evhitoo evo-oosht emmof en-je ni-arshee-angelos."
     },
     {
       "Type": "Base",
@@ -79,7 +79,7 @@
       "Coptic": "Ouo\\ pi]e `\\me `ftou `n]o (pir̅m̅d̅) niparqenoc `natqwleb ce\\wc `e`Psoic eujw `mmoc> je `agioc `agioc `agioc> `amhn> allhlouia.",
       "English": "And the hundred and forty-four thousand undefiled virgins praise the Lord, saying, \"Holy, holy, holy. Amen. Alleluia.\"",
       "Arabiccoptic": "أووه بيشي إهمي إفتأو إنشو (بير̅م̅ز̅) نيبارثينوس إناتتووليف سيهووس إيإبتشويس إيف جوو إمموس: جي  اجيوس  اجيوس  اجيوس:  امين: الليلأويا.",
-      "Englishcoptic": "Owoh pi-she ehme eftoo en-sho (pi-r̅m̅z̅) ni-parthen-os en-attoolev sehoos eEpchois evgoo emmos: je agios agios agios: -ameen-: alleelooia."
+      "Englishcoptic": "Owoh pi-she ehme eftoo en-sho (pi-r̅m̅z̅) ni-parthen-os en-attoolev sehoos eEpchois evgoo emmos: je agios agios agios: ameen-: alleelooia."
     },
     {
       "Type": "Base",
@@ -90,7 +90,7 @@
       "Coptic": "`Anon de \\wn tenouw]t `n:`triac eqouab en\\wc `eroc enjw `mmoc.",
       "English": "And we also worship the Holy Trinity, praising Him, saying,",
       "Arabiccoptic": "أنون زي هوون تينأوأوؤوشت إنتيإترياس إيثؤاب إينهووس إيروس إينجوو إمموس.",
-      "Englishcoptic": "-Anon ze hoon ten-o-oosht en-Tietrias ethowab en-hoos eros en-goo emmos."
+      "Englishcoptic": "Anon ze hoon ten-o-oosht en-Tietrias ethowab en-hoos eros en-goo emmos."
     },
     {
       "Type": "Base",
@@ -101,7 +101,7 @@
       "Coptic": "Je `fouab `nje `Vnou; `Viwt Pipantokratwr> `amhn> allhlouia.",
       "English": "\"Holy is God the Father, the Pantocrator. Amen. Alleluia.",
       "Arabiccoptic": "جي إفأواف إنجي افنوتي إفيوت بيبانتوكراتوور:  امين: الليلأويا.",
-      "Englishcoptic": "Je efooav en-je Evnoti Eviot Pipantokratoor: -ameen-: alleelooia."
+      "Englishcoptic": "Je efooav en-je Evnoti Eviot Pipantokratoor: ameen-: alleelooia."
     },
     {
       "Type": "Base",
@@ -112,7 +112,7 @@
       "Coptic": "`Fouab `nje pefmonogenhc> `n}hri Ihcouc Pi`xrictoc Pensoic> `amhn> allhlouia.",
       "English": "Holy is His only-begotten Son, Jesus Christ our Lord. Amen. Alleluia.",
       "Arabiccoptic": "إفأواف إنجي بيفمونوجينيس: إنشيري إييسأوس بيإخريستوس بينتشويس:  امين: الليلأويا.",
-      "Englishcoptic": "eFooav en-je pefmonogen-ees: En-Sheeri Isos Pikhristos Pen-chois: -ameen-: alleelooia."
+      "Englishcoptic": "eFooav en-je pefmonogen-ees: En-Sheeri Isos Pikhristos Pen-chois: ameen-: alleelooia."
     },
     {
       "Type": "Base",
@@ -123,7 +123,7 @@
       "Coptic": "`Fouab `nje Pi`pneuma Eqouab `mparaklhton> `amhn> allhloua.",
       "English": "Holy is the Holy Spirit, the Paraclete. Amen. Alleluia.\"",
       "Arabiccoptic": "إفأواف إنجي بيإبنيفما إيثؤاب إمباراكليتون:  امين: الليلأوا.",
-      "Englishcoptic": "eFooav en-je Piepnevma Ethowab emparakleeton: -ameen-: alleelooa."
+      "Englishcoptic": "eFooav en-je Piepnevma Ethowab emparakleeton: ameen-: alleelooa."
     },
     {
       "Type": "Base",
@@ -134,7 +134,7 @@
       "Coptic": "`Couab ouo\\ `cme\\ `n`wou `nje :qe`otokoc eqouab ;`agia Maria :parqenoc> `amhn allhlouia.",
       "English": "Holy and full of glory is the holy Theotokos, Saint Mary, the Virgin. Amen. Alleluia.",
       "Arabiccoptic": "إسأواف أووه إسميه إن ؤو إنجي تيثي وتوكوس إيثؤاب تي اجيا ماريا تيبارثينوس:  امين الليلأويا.",
-      "Englishcoptic": "eSooav owoh esmeh en-o-oo en-je Tithe-otokos ethowab ti-agia Maria Tiparthen-os: -ameen- alleelooia."
+      "Englishcoptic": "eSooav owoh esmeh en-o-oo en-je Tithe-otokos ethowab ti-agia Maria Tiparthen-os: ameen alleelooia."
     },
     {
       "Type": "Base",
@@ -145,7 +145,7 @@
       "Coptic": "`Couab ouo\\ `cme\\ `n`wou `nje taiqucia> qh`etau]atc =a `pwn= `mpikocmoc thrf> `amhn allhlouia.",
       "English": "Holy and full of glory is this sacrifice, which has been slain for the life of the whole world. Amen. Alleluia.",
       "Arabiccoptic": "إسأواف أووه إسميه إن ؤو إنجي تايثيسيا: ثيإيتافشاتس خا إبوونخ إمبي كوسموس تيرف:  امين الليلأويا.",
-      "Englishcoptic": "eSooav owoh esmeh en-o-oo en-je taitheesia: thee-etavshats kha epoonkh empi-kosmos terf: -ameen- alleelooia."
+      "Englishcoptic": "eSooav owoh esmeh en-o-oo en-je taitheesia: thee-etavshats kha epoonkh empi-kosmos terf: ameen alleelooia."
     },
     {
       "Type": "Base",
@@ -156,7 +156,7 @@
       "Coptic": "Eqbe vai `a Pencwthr `n`agaqoc w] `ebol efjw mmoc> je Pacwma ou`=re `mmhi te> ouo\\ Pa`cnof oucw `mmhi pe.",
       "English": "Therefore, our good Savior proclaimed, saying, \"My Body is food indeed and My Blood is drink indeed.",
       "Arabiccoptic": "يثفي فاي  ا بينسووتير إن اغاثوس إيش إيفول إيف جوو مموس: جي باسووما أوإخري إمميي تي: أووه باإسنوف أوسوو إمميي بي.",
-      "Englishcoptic": "Ethve vai -a Pen-sooteer en-aghathos oosh evol efgoo mmos: je Pasooma ooekhre emmeei te: owoh Paesnof oosoo emmeei pe."
+      "Englishcoptic": "Ethve vai a Pen-sooteer en-aghathos oosh evol efgoo mmos: je Pasooma ooekhre emmeei te: owoh Paesnof oosoo emmeei pe."
     },
     {
       "Type": "Base",
@@ -167,7 +167,7 @@
       "Coptic": "Vheqouwm `mPacwma ouo\\ etcw `mPa`cnof ef`e]wpi `n=ht> ouo\\ `anok \\w ei`e]wpi `n=htf.",
       "English": "He who eats My Body and drinks My Blood dwells in Me, and I in him.\"",
       "Arabiccoptic": "فييثأوووم إمباسووما أووه إيتسوو إمباإسنوف إيف إيشووبي إنخيت: أووه  انوك هوو إييإيشووبي إنخيتف.",
-      "Englishcoptic": "Vee-etho-oom emPasooma owoh etsoo emPaesnof ef-eshoopi en-kheet: owoh -anok hoo ei-eshoopi en-kheetf."
+      "Englishcoptic": "Vee-etho-oom emPasooma owoh etsoo emPaesnof ef-eshoopi en-kheet: owoh anok hoo ei-eshoopi en-kheetf."
     },
     {
       "Type": "Base",
@@ -200,7 +200,7 @@
       "Coptic": "`Ntenertolman =en ouparrhcia nater\\o; `etwb\\ `mmok> `Vnou; `Viwt eqouab et =en nivhou`i> ouo\\ `ejoc> je Peniwt ....",
       "English": "we may dare with boldness, without fear, to pray to You, O God the holy Father who are in the heavens, and say, \"Our Father ....\"",
       "Arabiccoptic": "إنتينيرتولمان خين أوبارريسيا ناتيرهوتي إيتووبه إمموك: افنوتي إفيوت إيثؤاب إيت خين نيفيأو إي: أووه إيجوس: جي بينيووت ....",
-      "Englishcoptic": "eNten-ertolman khen- ooparreesia naterhoti etoobh emmok: Evnoti Eviot ethowab et khen- ni-fi-owi: owoh egos: je Pen-ioot ...."
+      "Englishcoptic": "eNten-ertolman khen ooparreesia naterhoti etoobh emmok: Evnoti Eviot ethowab et khen ni-fi-owi: owoh egos: je Pen-ioot ...."
     }
   ]
 }

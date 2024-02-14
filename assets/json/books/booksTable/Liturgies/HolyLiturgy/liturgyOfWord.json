@@ -214,6 +214,18 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsWeddingCanaNikhora",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsPresentationTempleTiGaleelia",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsLentMighalo",
             "Rule": 0,
             "Visible": "isLentWeekends"

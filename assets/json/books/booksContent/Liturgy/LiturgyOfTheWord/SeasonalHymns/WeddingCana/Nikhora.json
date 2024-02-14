@@ -1,0 +1,74 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "يا كل كور إريحا",
+  "EnglishTitle": "Nikhoora (O regions of Jericho)",
+  "CopticTitle": "Nixwra throu",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا كل كور إريحا، وجبل الزيتون وأورشليم، تعالوا انظروا هذه الأُعجوبة العظيمة، التي صارت فى عرس قانا الجليل.",
+      "Coptic": "Nixwra throu `nte Ierixw> nem `ptwou `nte nijwit nem Ieroucalhm> `amwini `anau `etaini]; `n`]vhri> qh`etac]wpi =en `p\\op `n`Tkana `nte :galile`a.",
+      "English": "O regions of Jericho, the Mount of Olives and Jerusalem, come see this great wonder, that was made in the wedding of Cana of Galilee.",
+      "Arabiccoptic": " نى خورا تيرو إنتى يريكو: نيم إبتوأوو إنتى نى جويت نيم يروساليم: أموينى أناﭫ إطاى نشتى: إن إشفيرى: ثى إيطاس شوبى خين إب هوب إن إت كانا إنتى جاليلى آ . ",
+      "Englishcoptic": "Nikhoora tero en-te Ierikhoo: nem epto-oo en-te ni-gooit nem Ieroosaleem: amooini anav etaini-shti en-eshveeri: thee-etasshoopi khe-ephop en-eTkana en-te Tighalile-a."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذه هي الأية الأولى، التي صنعها مخلصنا الصالح، أمام تلاميذه، وآمنوا به أنه المسيح.",
+      "Coptic": "Vai pe pi\\ouit `mmhni> `eta Pencwthr `n`agaqoc> aif `mpe`mqo `nnefmaqhthc> auna\\; `erof je Pi`xrictoc.",
+      "English": "This is the first miracle, that our good Savior performed, before His Disciples, that they believed in Him to be the Christ.",
+      "Arabiccoptic": "فاي بي بيهأويت إمميني: إيتا بينسووتير إن اغاثوس: ايف إمبي إمثو إنني فماثيتيس: افناهتي إيروف جي بيإخريستوس.",
+      "Englishcoptic": "Vai pe pi-hooit emmeen-i: eta Pen-sooteer en-aghathos: aif empeemtho en-nefmatheetees: avnahti erof je Pikhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يسوع الناصري، بارك المياه فصيرها خمراً، ما نظر أحد أعجوبة مثل هذه، منذ أدام إلى اليوم.",
+      "Coptic": "Ihcouc Piremnazareq> af`cmou `enimwou afaitou `nhrp> `mpe`\\li nau `eou`]vhri ec`oni `nqai> icjen `Adam ]a `e=oun `mvoou.",
+      "English": "Jesus of Nazareth, blessed the water and it became wine, no one has seen such wonder, since the times of Adam till today.",
+      "Arabiccoptic": "إييسأوس بيريمنازاريث: افإسمأو إينيمؤو افايتأو إنيرب: إمبي إهلي ناف إيأوإشفيري إيس وني إنثاي: يسجين  أزام شا إيخأون إمفوأو.",
+      "Englishcoptic": "Isos Piremnazareth: afesmoo en-imo-oo afaitoo en-eerp: empeehli nav eooeshveeri es-oni en-thai: isjen azam sha ekhoon emvo-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ستة أجران ماء، حولتها إلى خمر مختار، من قِبَل مجدك العظيم، فى عرس قانا الجليل.",
+      "Coptic": "Coou `n\\udria `mmwou> ouhrp efcwtp akou`wteb `mmwou> `ebol=en pekni]; `n`wou> =en `p\\op `n`Tkana `nte :galile`a.",
+      "English": "Six jars of water, You changed into chosen wine, with Your great glory, in the wedding of Cana of Galilee.",
+      "Arabiccoptic": "سوأو إنهيزريا إممؤو: أويرب إيف سووتب اكأو ووتيف إممؤو: إيفولخين بيكنيشتي إن ؤو: خين إبهوب إنإتكانا إنتي تيغاليلي ا.",
+      "Englishcoptic": "So-oo en-heezria emmo-oo: ooeerp efsootp akoo-ootev emmo-oo: evolkhen pek-ni-shti en-o-oo: khen ephop en-eTkana en-te Tighalile-a."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يسوع المسيح هو هو أمس، واليوم وإلى الأبد، بأُقنوم واحد، نسجد له ونمجده.",
+      "Coptic": "Ihcouc Pi`xrictoc `ncaf nem voou> `nqof `nqof pe nem ]a `ene\\> =en ou\\upoctacic `nouwt> tenouw]t `mmof ten;`wou naf.",
+      "English": "Jesus Christ the same yesterday, today and forever, in one hypostasis, we worship and glorify Him.",
+      "Arabiccoptic": "إييسأوس بيإخريستوس إنساف نيم فوأو: إنثوف إنثوف بي نيم شا إينيه: خين أوهيبوستاسيس إنأوووت: تينأوأوؤوشت إمموف تينتي ؤو ناف.",
+      "Englishcoptic": "Isos Pikhristos en-saf nem vo-oo: en-thof en-thof pe nem sha en-eh: khen ooheepostasis en-o-oot: ten-o-oosht emmof ten-ti-o-oo naf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إشفعي فينا، يا سيدتنا كلنا السيدة والدة الإله، مريم أُم مخلصنا، ليغفر لنا خطايانا.",
+      "Coptic": "`Ari`precbeuin `e`\\rhi `ejwn> `w tensoic `nnhb thren :qe`otokoc> Maria `qmau `mPencwthr> `ntefxa nennobi nan `ebol.",
+      "English": "Intercede on our behalf, O the Lady of us all the Theotokos, Mary the Mother of our Savior, that He may forgive us our sins.",
+      "Arabiccoptic": "أريإبريسفيفين إي إهريي إيجوون:  وو تينتشويس إنني ف تيرين تيثي وتوكوس: ماريا إثماف إمبي نسووتير: إنتيفخا نيننوفي نان إيفول.",
+      "Englishcoptic": "Ariepresvevin eehreei egoon: -oo ten-chois en-neev teeren Tithe-otokos: Maria ethmav emPen-sooteer: en-tefkha nen-novi nan evol."
+    }
+  ]
+}

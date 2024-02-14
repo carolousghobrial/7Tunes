@@ -327,6 +327,14 @@
             "Rule": 0,
             "Visible": true,
             "Switch": "LiturgyLiturgyOfTheBelieversStBasilTheConfession"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "التوزيع",
+            "English": "Distribution of the Holy Mysteries",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "distribution"
         }
     ]
 }

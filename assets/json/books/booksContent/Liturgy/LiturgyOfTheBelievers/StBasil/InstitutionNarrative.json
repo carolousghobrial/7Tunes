@@ -73,7 +73,7 @@
       "Coptic": "`Alhqoc picteu`omen.",
       "English": "We believe.",
       "Arabiccoptic": "(اليثوس) بيستيف اومين  . ",
-      "Englishcoptic": "-Aleethos pi-stev-omen-."
+      "Englishcoptic": "Aleethos pi-stev-omen-."
     },
     {
       "Type": "Ritual",
@@ -103,7 +103,7 @@
       "Coptic": "Afsi `nouwik `ejen nefjij eqouab> `natasni ouo\\ `natqwleb> ouo\\ `mmakarion> ouo\\ `nreftan=o.",
       "English": "He took bread into His holy hands, which are without spot or blemish, blessed, and life-giving.",
       "Arabiccoptic": "أفتشي إن أوأويك إيجين نيف جيج أثؤواب إن آتتشيني أووه إن آت ثوليب أووه إم ماكاريون أووه إنريف تانخو",
-      "Englishcoptic": "Afchi en-o-ooik ejen- nefjig ethowab: en-atachni owoh en-attooleb: owoh emmakarion: owoh en-reftankho."
+      "Englishcoptic": "Afchi en-o-ooik ejen nefjig ethowab: en-atachni owoh en-attooleb: owoh emmakarion: owoh en-reftankho."
     },
     {
       "Type": "Base",
@@ -125,7 +125,7 @@
       "Coptic": "Tenna\\; je vai pe =en oumeqmhi> `amhn.",
       "English": "We believe that this is true. Amen.",
       "Arabiccoptic": "تين ناهتي جي فاي بى خين أوميثمي أمين  .",
-      "Englishcoptic": "Ten-nahti je vai pe khen- oo-methmee: Ameen."
+      "Englishcoptic": "Ten-nahti je vai pe khen oo-methmee: Ameen."
     },
     {
       "Type": "Ritual",
@@ -423,7 +423,7 @@
       "Coptic": "Pairh; on pike`avot menenca pidipnon> afqotf `ebol =en ouhrp nem oumwou.",
       "English": "Likewise also, the cup, after supper, He mixed it of wine and water.",
       "Arabiccoptic": "باى ريتي أون بي كي أفوت مينينسا بيذيب نون أفثوطف إيفول خين أو إيرب نيم أو موؤ.",
-      "Englishcoptic": "Paireeti on pi-ke-avot men-en-sa pi-zipnon: afthotf evol khen- ooeerp nem oomo-oo."
+      "Englishcoptic": "Paireeti on pi-ke-avot men-en-sa pi-zipnon: afthotf evol khen ooeerp nem oomo-oo."
     },
     {
       "Type": "Ritual",
@@ -647,7 +647,7 @@
       "Coptic": "Vai gar pe pa`cnof `nte ;diaqhkh `mberi> `etounavonf `ebol `ejen qhnou nem \\ankemh]> `ncethif `e`pxw `ebol `nte ninobi> vai `aritf `epaer`vmeui.",
       "English": "For this is My Blood of the New Covenant, which is shed for you and for many, to be given for the remission of sins. This do in remembrance of Me.”",
       "Arabiccoptic": " فاي غار بي با إسنوف إنتي تي ذياثيكي إمفيري إيطو نا فونف إيفول, إيجين ثينو نيم هان كي ميش إنسيتيف, إي إبكو إيفول إنتي ني نوفي فاي آريتف إيبا إير إفميفئي.",
-      "Englishcoptic": "Vai ghar pe paesnof en-te ti-ziatheekee emveri: etoonavonf evol ejen- theen-oo nem hankemeesh: en-seteeif eepkhoo evol en-te ni-novi: vai aritf epaerevmevi."
+      "Englishcoptic": "Vai ghar pe paesnof en-te ti-ziatheekee emveri: etoonavonf evol ejen theen-oo nem hankemeesh: en-seteeif eepkhoo evol en-te ni-novi: vai aritf epaerevmevi."
     },
     {
       "Type": "Base",
@@ -770,7 +770,7 @@
       "Coptic": "Ce `enoumen ce eulogoumen ci euxarictoumen Kurie> ke de`omeqa cou `o qeoc `hmwn.",
       "English": "We praise You, we bless You, we thank You, O Lord, and we entreat You, O our God.",
       "Arabiccoptic": "سي إنومين. سي إفلوغومين سي إفخاريستومين كيريي, كي ذي او ميطا سو أو ثيئوس إيمون. ",
-      "Englishcoptic": "Se en-oomen- se evloghoomen- si evkharistoomen- Keerie: ke ze-ometha soo o theos eemoon."
+      "Englishcoptic": "Se en-oomen se evloghoomen si evkharistoomen Keerie: ke ze-ometha soo o theos eemoon."
     }
   ]
 }
