@@ -64,8 +64,8 @@ function NavigationContainerView({ dispatch }) {
           component={HomepageScreen}
           initialParams={{
             bookPath: "myHome",
-            englishTitle: "7 Tunes",
-            arabicTitle: "7 Tunes",
+            englishTitle: "Homepage",
+            arabicTitle: "الصفحة الرئيسية",
           }}
           options={({ route, navigation }) => {
             const { englishTitle, arabicTitle } = route.params;
@@ -140,7 +140,7 @@ function NavigationContainerView({ dispatch }) {
         <Stack.Screen
           name="7 Tunes"
           component={Root}
-          options={{ headerShown: false }}
+          options={{ headerShown: true }}
         />
         <Stack.Screen
           name="HomepageScreen"
