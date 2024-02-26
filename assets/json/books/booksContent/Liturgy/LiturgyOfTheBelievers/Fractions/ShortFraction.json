@@ -25,6 +25,28 @@
       "English": "O God, who granted us, who are sinners, the foreordained salvation and a rational, heavenly sacrifice,",
       "Arabiccoptic": "افنوتي فيإيتافيرإهموت نان  انون خا نيريفيرنوفي نأوإبروثيسميا إنأوجاي نيم أوشأوشؤوشي إنلوجيكون أووه إنإيبأورانيون إيتي بيسووما إننأوتي بي نيم بيإسنوف إيتتاييأوت إنتي بيكإخريستوس.",
       "Englishcoptic": "Evnoti vee-etaf-erehmot nan anon kha ni-refernovi nooeprothesmia en-oogai nem ooshoosho-ooshi en-logikon owoh en-epoorani-on ete Pisooma en-Nooti pe nem Piesnof ettaieeoot en-te Pekekhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "التي هي الجسد الإلهي والدم الكريم اللذان لمسيحك. هذا الذي صار لنا طهرًا وخلاصًا ونعمة وغفرانًا للخطايا.",
+      "Coptic": "ete Picwma `nNou; pe nem Pi`cnof ettaihout `nte Pek`xrictoc. Vai `etaf]wpi nan `noutoubo nem ououjai nem ouxaricma nem ouxw `ebol `nte nenobi",
+      "English": "which is the divine Body and the precious Blood of Your Christ. This is He who has become for us purification, salvation, free gift, and forgiveness of sins.",
+      "Arabiccoptic": "إيتي بي سوما عن نوتي بي نيم بي إسنوف أتطايوت إنتي بيك إخرستوس فاى إيطاف شوبي نان إن او طوفو نيم أو اوجاي نيم اوخاريسما إن أوطوفونيم أوأوجاي نيم او خاريسما نيم اوكو إيفول إنتي ني نوفي.",
+      "Englishcoptic": "Ete pi-soma en-nooti pe nem pi-esnof ettaiot ente pek-ekhristos. Fai Etafshopi nan en-oo-toovo nem oo-oogai nem oo-kharisma nem oo-ko evo lente nen-novi"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكي بشكرٍ نصرُخَ نحوكَ أيها الآبُ القدوسُ الذي في السمواتِ، ونقولَ:",
+      "Coptic": "je \\ina =en oumetref]epe`\\mot `ntew] oubhk `Viwt eqouab et=en nivhou`i ouo\\ `ntenjoc.",
+      "English": "So with thankfulness we cry to You, O holy Father who are in the heavens, saying,",
+      "Arabiccoptic": "جي هينا خين او ميتريف شيبئهموت إنتيى اوشي أوفيك إفيوت غثؤواب إيتخين ني فيؤوي اووه إنتين جوس جي بينيوت.",
+      "Englishcoptic": "Je Hina khen oomet-ref shep-ehmot ente-osh ooveek Eviot ethowab etkhen ni-fi-owi , owoh enten-gos"
     }
   ]
 }

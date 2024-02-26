@@ -321,7 +321,16 @@ export function TakeFromHathorTwo(currentSeason) {
     return false;
   }
 }
-function GetTodaysReadingPath(path) {
+const daysOfWeek = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+export function GetTodaysReadingPath(path) {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   let filePath = "Katamaros";
 
@@ -367,6 +376,12 @@ function GetTodaysReadingPath(path) {
       filePath = updateFilePath(`DaysKoiahk29`);
     } else if (currentSeason.key === "EPIPHANY") {
       filePath = updateFilePath(`DaysTobe11`);
+    } else if (currentSeason.key === "JONAH_FAST") {
+      filePath = updateFilePath(
+        `GreatFastJonah${daysOfWeek[currentSeason.dayOfWeek]}`
+      );
+    } else if (currentSeason.key === "JONAH_FEAST") {
+      filePath = updateFilePath(`JonahPassover`);
     }
     // else {
     //   filePath = updateFilePath(
@@ -382,6 +397,7 @@ function GetTodaysReadingPath(path) {
       "VespersPsalm",
       "VespersGospel",
       "MatinsPsalm",
+      "MatinsProphecy",
       "MatinsGospel",
       "LiturgyPauline",
       "LiturgyCatholic",
@@ -407,8 +423,10 @@ function getAuthor(part, checkList) {
   }
   const book = bookPaths[completePath];
   const { EnglishTitle } = book;
+  console.log(checkList);
 
   for (const item of checkList) {
+    console.log(item);
     if (EnglishTitle.includes(item.keyword)) {
       return item.returnValue;
     }

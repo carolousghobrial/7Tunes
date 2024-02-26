@@ -167,6 +167,14 @@
             "Path": "venerations"
         },
         {
+            "Type": "Button",
+            "Arabic": "النبوات",
+            "English": "Prophecies",
+            "Rule": "OpenPageButtonRule",
+            "Visible": "isLentWeekdayOrJonah",
+            "Path": "LiturgyRaisingOfIncenseProphecies"
+        },
+        {
             "Type": "Main",
             "Path": "RaisingOfIncenseLentLitanies",
             "Rule": 0,

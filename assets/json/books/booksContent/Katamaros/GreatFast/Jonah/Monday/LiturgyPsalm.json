@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(المزمور 129: 2 و 4)",
+  "EnglishTitle": "Psalms 130:2,4",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إن كنت للآثام راصدًا يا رب. يا رب من يقدر أن يثبت أمامك ",
+      "English": "2 If You, Lord, should [a]mark iniquities, O Lord, who could stand? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن من عندك هو الاغتفار. توكلت نفسي على الرب. هللويا.",
+      "English": "4 But there is forgiveness with You, That You may be feared.Alleluia\r"
+    }
+  ]
+}

@@ -261,9 +261,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
   const scrollToNextItem = () => {
     if (IsOnlyOneViewShown && currKey !== 0) {
       const offset =
-        flatListRef.current._listRef._scrollMetrics.offset +
-        height -
-        height * 0.2;
+        flatListRef.current._listRef._scrollMetrics.offset + height;
       flatListRef.current.scrollToOffset({
         offset,
         animated: true,

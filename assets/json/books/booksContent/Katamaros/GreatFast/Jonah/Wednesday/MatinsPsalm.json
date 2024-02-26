@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أفلا أشفق أنا على نينوى المدينة العظيمة التي فيها أكثر من اثنتي عشرة ربوة من أناس لا يعرفون يمينهم من شمالهم ماعدا بهائم كثيرة. والسبح لله.",
+  "EnglishTitle": "Psalms 102:11-12",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(المزمور 102: 12 و 11)",
+      "English": "As a father pities his children, So the Lord pities those who fear Him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكما يتراءف الأب على بنيه. كذلك تراءف الرب على خائفيه ",
+      "English": "12 As far as the east is from the west, So far has He removed our transgressions from us.Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(المزمور 94: 1 و 2)",
+  "EnglishTitle": "Psalms 94:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلموا فلنبتهج بالرب. ولنهلل لله مخلصنا.",
+      "English": "1 Let us shout joyfully to the Rock of our salvation. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نبادر فنبلُغ إلى وجهه بالاعتراف ونهلل له بالمزامير. هللويا.",
+      "English": "2 Let us come before His presence with thanksgiving; Let us shout joyfully to Him with psalms.\r"
+    }
+  ]
+}

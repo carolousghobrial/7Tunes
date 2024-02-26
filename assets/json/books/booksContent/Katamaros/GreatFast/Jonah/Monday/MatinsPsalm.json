@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(المزمور 102: 1 و 7)",
+  "EnglishTitle": "Psalms 103:1,8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "باركي يا نفسي الرب وجميع ما في باطني يبارك اسمه القدوس ",
+      "English": "1 Bless the Lord, O my soul; And all that is within me, bless His holy name! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رؤوف ورحوم هو الرب. طويل الأناة وكثير الرحمة. هللويا.",
+      "English": "8 The Lord is merciful and gracious, Slow to anger, and abounding in mercy. Alleluia\r"
+    }
+  ]
+}

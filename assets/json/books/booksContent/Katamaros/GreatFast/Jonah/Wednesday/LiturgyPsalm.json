@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(المزمور 31: 1 و 6)",
+  "EnglishTitle": "Psalms 85:2-3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوباهم الذين تركت لهم آثامهم. والذين سترت خطاياهم. ",
+      "English": "Blessed is he whose transgression is forgiven,Whose sin is covered. I acknowledged my sin to You, And my iniquity I have not hidden. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قلت أعترف أمام الرب بإثمي. وأنت صفحت لي عن نفقات قلبي: هللويا.",
+      "English": "3  I said, “I will confess my transgressions to the Lord,” And You forgave the iniquity of my sin. Alleluia\r"
+    }
+  ]
+}

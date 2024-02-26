@@ -12,6 +12,7 @@ const homescreenPaths = {
   LiturgyLiturgyOfTheWordChantedLiturgyPsalm: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/chantedLiturgyPsalm.json"),
   LiturgyRaisingOfIncenseChantedVespersPsalm: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/chantedVespersPsalm.json"),
   LiturgyRaisingOfIncenseChantedMatinsPsalm: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/chantedMatinsPsalm.json"),
+  LiturgyRaisingOfIncenseProphecies: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/prophecies.json"),
   LiturgyLiturgyOfTheWordCopticCatholic: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/copticCatholic.json"),
   LiturgyLiturgyOfTheWordCopticPauline: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/copticPaulineEpistle.json"),
   LiturgyLiturgyOfTheWordCopticActs: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/copticActs.json"),

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(المزمور 29: 10 و 11)",
+  "EnglishTitle": "Psalms 30:10-11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سمع الرب فرحمني. الرب صار لي عونًا. ",
+      "English": "10 Hear, O Lord, and have mercy on me; Lord, be my helper! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رددت نوحي إلي فرح لي. مزقت مسحي ومنطقتني سرورًا: هللويا.",
+      "English": "11 You have turned for me my mourning into dancing; You have put off my sackcloth and clothed me with gladness,.     Alleluia\r"
+    }
+  ]
+}

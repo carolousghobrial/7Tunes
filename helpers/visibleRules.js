@@ -14,7 +14,10 @@ import {
   getCopticDate,
   getParamounDate,
 } from "../helpers/copticMonthsHelper";
-import { TakeFromHathorTwo } from "../viewModel/getFullViewModel.js";
+import {
+  TakeFromHathorTwo,
+  GetTodaysReadingPath,
+} from "../viewModel/getFullViewModel.js";
 const bishopsList = require("../assets/json/bishopsList.json");
 import bookPaths from "../helpers/bookPathsHelpers";
 
@@ -1915,7 +1918,7 @@ const ROICONCLUSION = (motherSource, rule) => {
 
 const REPLACEGOSPELAUTHOR = (author, part) => {
   myauthor = getGospelAuthor(part);
-
+  console.log(myauthor);
   switch (myauthor) {
     case 1:
       return {
@@ -2811,85 +2814,7 @@ const REPLACEBISHOPAVAILABLETHREE = (rule, part) => {
     arabiccoptic: metro1.Arabiccoptic,
   };
 };
-function GetTodaysReadingPath(path) {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  let filePath = "Katamaros";
 
-  const isStandardSeasonSunday =
-    currentSeason.key !== "GREAT_LENT" &&
-    currentSeason.key !== "HOLY_50" &&
-    currentSeason.dayOfWeek === 0 &&
-    currentSeason.key !== "PALM_SUNDAY" &&
-    currentSeason.key !== "RESURRECTION";
-
-  const isStandardSeasonWeekday =
-    currentSeason.key !== "GREAT_LENT" &&
-    currentSeason.key !== "HOLY_50" &&
-    currentSeason.dayOfWeek !== 0;
-
-  if (isStandardSeasonSunday) {
-    if (currentSeason.key === "NATIVITY") {
-      filePath = updateFilePath(`DaysKoiahk29`);
-    } else if (currentSeason.key === "EPIPHANY") {
-      filePath = updateFilePath(`DaysTobe11`);
-    } else {
-      const isHathorMonth = currentSeason.copticMonth === "Hathor";
-      const isKoiahkMonth = currentSeason.copticMonth === "Koiahk";
-      const isWeek1to4 =
-        currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4;
-      const isWeek5 = currentSeason.weekOfMonth === 5;
-      const isTakeFromHathorTwo = TakeFromHathorTwo(currentSeason);
-
-      if (isWeek1to4) {
-        filePath = updateFilePath(
-          `Sundays${currentSeason.copticMonth}Week${
-            isTakeFromHathorTwo && isKoiahkMonth
-              ? currentSeason.weekOfMonth + 1
-              : currentSeason.weekOfMonth
-          }`
-        );
-      } else if (isTakeFromHathorTwo && isHathorMonth && isWeek5) {
-        filePath = updateFilePath("SundaysKoiahkWeek1");
-      }
-    }
-  } else if (isStandardSeasonWeekday) {
-    if (currentSeason.key === "NATIVITY") {
-      filePath = updateFilePath(`DaysKoiahk29`);
-    } else if (currentSeason.key === "EPIPHANY") {
-      filePath = updateFilePath(`DaysTobe11`);
-    }
-    // else {
-    //   filePath = updateFilePath(
-    //     `Days${currentSeason.copticMonth}${currentSeason.copticDay}`
-    //   );
-    // }
-  }
-
-  return filePath;
-
-  function updateFilePath(commonPart) {
-    const liturgyPaths = [
-      "VespersPsalm",
-      "VespersGospel",
-      "MatinsPsalm",
-      "MatinsGospel",
-      "LiturgyPauline",
-      "LiturgyCatholic",
-      "LiturgyActs",
-      "LiturgyPsalm",
-      "LiturgyGospel",
-      "LiturgyPaulineCoptic",
-      "LiturgyCatholicCoptic",
-      "LiturgyActsCoptic",
-    ];
-
-    if (liturgyPaths.includes(path)) {
-      return filePath + commonPart + path;
-    } else {
-      return filePath;
-    }
-  }
-}
 function getAuthor(part, checkList) {
   const completePath = GetTodaysReadingPath(part.mother);
   if (completePath === "Katamaros") {
@@ -2906,6 +2831,7 @@ function getAuthor(part, checkList) {
   }
 }
 function getGospelAuthor(part) {
+  console.log(part);
   const checkList = [
     { keyword: "Matthew", returnValue: 1 },
     { keyword: "Mark", returnValue: 2 },
