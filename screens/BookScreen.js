@@ -151,23 +151,9 @@ const BookScreen = React.memo(({ navigation, route }) => {
         fontFamily: fontfamily,
       },
     });
-  }, []);
-  useEffect(() => {
-    const fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
-    const fontsize = isTablet ? 30 : 15;
-    navigation.setOptions({
-      title: navTitle,
-      headerTitleStyle: {
-        fontSize: fontsize,
-        fontFamily: fontfamily,
-      },
-    });
-  }, [navTitle, appLanguage]);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-      if (Switch !== undefined) {
+    if (Switch !== undefined && flatListRef.current) {
+      setTimeout(() => {
         const itemToFind = bookContents.findIndex(
           (item) => item.path === Switch
         );
@@ -177,9 +163,13 @@ const BookScreen = React.memo(({ navigation, route }) => {
             animated: false,
           });
         }
-      }
-    }, 10);
-  }, [Switch, bookContents, flatListRef]);
+      }, 10);
+    } else {
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 10);
+    }
+  }, [navTitle, appLanguage, Switch, bookContents, flatListRef]);
 
   const settingsPressed = useCallback(() => {
     bottomSheetRef?.current.present();
@@ -323,39 +313,20 @@ const BookScreen = React.memo(({ navigation, route }) => {
         scrollToKey={scrollToKey}
       />
       <View style={{ flex: 1 }}>
-        {pagination && isAndroid ? (
-          <PanGestureHandler onHandlerStateChange={onHandlerStateChange}>
-            <FlatList
-              ref={flatListRef}
-              style={{ flex: 1, backgroundColor: pageBackgroundColor }}
-              onViewableItemsChanged={onViewableItemsChanged}
-              showsVerticalScrollIndicator={false}
-              data={bookContents}
-              scrollEnabled={!pagination}
-              onScrollToIndexFailed={onScrollToIndexFailed}
-              initialNumToRender={bookContents.length}
-              bounces={false}
-              removeClippedSubviews={true}
-              renderItem={renderItems}
-              keyExtractor={keyExtractor}
-            />
-          </PanGestureHandler>
-        ) : (
-          <FlatList
-            ref={flatListRef}
-            style={{ flex: 1, backgroundColor: pageBackgroundColor }}
-            onViewableItemsChanged={onViewableItemsChanged}
-            showsVerticalScrollIndicator={false}
-            data={bookContents}
-            scrollEnabled={!pagination}
-            onScrollToIndexFailed={onScrollToIndexFailed}
-            initialNumToRender={bookContents.length}
-            bounces={false}
-            removeClippedSubviews={true}
-            renderItem={renderItems}
-            keyExtractor={keyExtractor}
-          />
-        )}
+        <FlatList
+          ref={flatListRef}
+          style={{ flex: 1, backgroundColor: pageBackgroundColor }}
+          onViewableItemsChanged={onViewableItemsChanged}
+          showsVerticalScrollIndicator={false}
+          data={bookContents}
+          // scrollEnabled={!pagination}
+          onScrollToIndexFailed={onScrollToIndexFailed}
+          initialNumToRender={bookContents.length}
+          bounces={false}
+          removeClippedSubviews={true}
+          renderItem={renderItems}
+          keyExtractor={keyExtractor}
+        />
         {bishopIsPresent && bishopButton && (
           <FloatingButton navigation={navigation} />
         )}

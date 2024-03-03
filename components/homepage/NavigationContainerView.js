@@ -140,7 +140,7 @@ function NavigationContainerView({ dispatch }) {
         <Stack.Screen
           name="7 Tunes"
           component={Root}
-          options={{ headerShown: true }}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="HomepageScreen"

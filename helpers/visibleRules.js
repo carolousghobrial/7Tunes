@@ -733,6 +733,12 @@ const isLentWeekdayOrJonah = (motherSource, path) => {
   }
   return false;
 };
+const isLentAndJonah = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  return (
+    currentSeason.key === "JONAH_FAST" || currentSeason.key === "GREAT_LENT"
+  );
+};
 const isLentWeekends = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (currentSeason.key === "GREAT_LENT") {
@@ -2925,6 +2931,7 @@ const VisibleRules = {
   showLitanyOfDeparted: showLitanyOfDeparted,
   showLitanyOfTravelers: showLitanyOfTravelers,
   showLitanyOfOblations: showLitanyOfOblations,
+  isLentAndJonah: isLentAndJonah,
   isLentWeekdayOrJonah: isLentWeekdayOrJonah,
   isLentWeekends: isLentWeekends,
   isNOTLentWeekdayOrJonah: isNOTLentWeekdayOrJonah,

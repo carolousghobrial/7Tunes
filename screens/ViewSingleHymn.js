@@ -183,18 +183,18 @@ const ViewSingleHymn = memo(({ navigation, route }) => {
           bottomSheetRef={bottomSheetRef}
           snapPoints={snapPoints}
         />
-        <PanGestureHandler onHandlerStateChange={onHandlerStateChange}>
-          <FlatList
-            ref={flatListRef}
-            onViewableItemsChanged={onViewableItemsChanged}
-            style={{ backgroundColor: pageBackgroundColor }}
-            showsVerticalScrollIndicator={false}
-            data={data}
-            removeClippedSubviews={true}
-            renderItem={renderItems}
-            keyExtractor={(item) => item.key}
-          />
-        </PanGestureHandler>
+        {/* <PanGestureHandler onHandlerStateChange={onHandlerStateChange}> */}
+        <FlatList
+          ref={flatListRef}
+          onViewableItemsChanged={onViewableItemsChanged}
+          style={{ backgroundColor: pageBackgroundColor }}
+          showsVerticalScrollIndicator={false}
+          data={data}
+          removeClippedSubviews={true}
+          renderItem={renderItems}
+          keyExtractor={(item) => item.key}
+        />
+        {/* </PanGestureHandler> */}
       </BottomSheetModalProvider>
     </GestureHandlerRootView>
   );

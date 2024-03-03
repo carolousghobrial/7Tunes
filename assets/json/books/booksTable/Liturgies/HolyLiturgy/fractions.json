@@ -82,13 +82,13 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsLentFather",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isLentAndJonah"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsLentSon",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isLentAndJonah"
         },
         {
             "Type": "Main",
