@@ -774,9 +774,12 @@ const isLentWeekends = (motherSource, path) => {
       (currentSeason.dayOfWeek === 1 && currentSeason.week === 1) ||
       (currentSeason.dayOfWeek === 5 && currentSeason.week === 7)
     ) {
+      console.log("HERE");
       return true;
     }
     if (currentSeason.dayOfWeek === 0 || currentSeason.dayOfWeek === 6) {
+      console.log("HdasERE");
+
       return true;
     }
   }

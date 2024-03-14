@@ -91,7 +91,7 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordLiturgyGospelResponsesFeastJonahLiturgy",
             "Rule": 0,
-            "Visible": "isLentWeekdayOrJonah"
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
