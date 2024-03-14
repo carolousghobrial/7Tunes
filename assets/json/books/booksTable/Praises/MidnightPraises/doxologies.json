@@ -126,7 +126,7 @@
         {
             "Type": "Button",
             "Arabic": "ذكصولوجية ثالثة الصوم الكبير",
-            "English": "Third Lent Doxology",
+            "English": "Third Great Fast Doxology",
             "Coptic": "Amwini `anau `epenCwthr",
             "Rule": "OpenSinglePageButtonRule",
             "Visible": "isSeason",
@@ -135,7 +135,7 @@
         {
             "Type": "Button",
             "Arabic": "ذكصولوجية رابعة الصوم الكبير",
-            "English": "Fourth Lent Doxology",
+            "English": "Fourth Great Fast Doxology",
             "Coptic": "PiMairwmi `n`agaqoc",
             "Rule": "OpenSinglePageButtonRule",
             "Visible": "isSeason",
@@ -144,7 +144,7 @@
         {
             "Type": "Button",
             "Arabic": "ذكصولوجية خامسة الصوم الكبير",
-            "English": "Fifth Lent Doxology",
+            "English": "Fifth Great Fast Doxology",
             "Coptic": ":nhctia nem pi`]lhl",
             "Rule": "OpenSinglePageButtonRule",
             "Visible": "isSeason",

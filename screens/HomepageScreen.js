@@ -76,7 +76,7 @@ function HomepageScreen({ navigation, route }) {
     setSearchPhrase(text);
   }
   var updateString =
-    "Added Readings for 1st Week of Lent, more to come \n Added rites for 1st and Last day of Lent to be the same as Weekend w/Metanias \n Miscellaneous Spelling and Bug Fixes";
+    "Added Readings for 1st Week of Lent, more to come \n Added rites for 1st and Last day of Lent to be the same as Weekend w/Metanias \n Miscellaneous Spelling and Bug Fixes\n Changed Wording of Lent to Great Fast";
   useEffect(() => {
     onFetchUpdateAsync();
   }, [navigation]);

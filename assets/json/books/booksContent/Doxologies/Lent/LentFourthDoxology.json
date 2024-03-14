@@ -1,7 +1,7 @@
 {
   "RefrainAfter": 0,
   "ArabicTitle": "ذكصولوجية رابعة الصوم الكبير",
-  "EnglishTitle": "Fourth Lent Doxology",
+  "EnglishTitle": "Fourth Great Fast Doxology",
   "CopticTitle": "PiMairwmi `n`agaqoc",
   "Hymn": [
     {
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": " يقال في ايام الصوم الكبير فقط.",
-      "English": "Chanted on Weekdays of the Great Lent."
+      "English": "Chanted on Weekdays of the Great Fast."
     },
     {
       "Type": "Base",

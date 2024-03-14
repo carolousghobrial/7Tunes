@@ -1,7 +1,7 @@
 {
   "RefrainAfter": 0,
   "ArabicTitle": "ذكصولوجية اولى الصوم الكبير",
-  "EnglishTitle": "First Lent Doxology",
+  "EnglishTitle": "First Great Fast Doxology",
   "CopticTitle": "Neknai `w pasoic ;na\\wc `mmw`ou",
   "Hymn": [
     {
@@ -10,7 +10,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يقال في سبوت و أحادالصوم الكبير فقط  .",
-      "English": "Chanted on Saturdays and Sundays of the Great Lent."
+      "English": "Chanted on Saturdays and Sundays of the Great Fast."
     },
     {
       "Type": "Base",
