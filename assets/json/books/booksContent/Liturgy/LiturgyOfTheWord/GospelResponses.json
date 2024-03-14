@@ -91,13 +91,13 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordLiturgyGospelResponsesFeastJonahLiturgy",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isLentWeekdayOrJonah"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordLiturgyGospelResponsesGreatLentWeekdaysLiturgyGospelResponse",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isLentWeekdayOrJonah"
         },
         {
             "Type": "Main",

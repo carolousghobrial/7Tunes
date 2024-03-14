@@ -3,12 +3,84 @@
         {
             "Type": "Main",
             "Path": "PaschaPropheciesIntroduction",
-            "Rule": "Jonah",
+            "Rule": "MatinsProphecy1",
             "Visible": true
         },
         {
             "Type": "GetDaysReading",
-            "Path": "MatinsProphecy",
+            "Path": "MatinsProphecy1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "MatinsProphecy2",
+            "Visible": true
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsProphecy2",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "MatinsProphecy3",
+            "Visible": true
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsProphecy3",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "MatinsProphecy4",
+            "Visible": true
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsProphecy4",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "MatinsProphecy5",
+            "Visible": true
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsProphecy5",
             "Rule": 0,
             "Visible": true
         },

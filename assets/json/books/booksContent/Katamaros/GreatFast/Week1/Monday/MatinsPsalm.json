@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أبِينَا دَاوُدَ النَّبِيِّ ( ٦ : ١-٢)",
+  "EnglishTitle": "Psalms 6:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَا رَبُّ لَا تُبَكِتُنِي بِغَضَبِكَ ، وَلا تُؤَدِّبُنِي بِسُخْطِكَ ،",
+      "English": "6:1 O Lord, do not rebuke me in Your anger, Nor chasten me in Your hot displeasure. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ارْحَمْنِي يَا رَبُّ فَإِنِّي ضَعِيفٌ ، اشْفِنِي يَا رَبُّ فَإِنَّ عِظَامِي قَدِ اضْطَرَبَتْ هَلِّلُويَا.",
+      "English": "2 Have mercy on me, O Lord, for I am weak; O Lord, heal me, for my bones are troubled.     Alleluia"
+    }
+  ]
+}

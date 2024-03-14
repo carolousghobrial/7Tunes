@@ -186,7 +186,7 @@
             "Type": "Main",
             "Path": "LiturgyOffertoryNefsenti",
             "Rule": 0,
-            "Visible": "isLentWeekdayOrJonah"
+            "Visible": "isLentWeekdayOrJonahAndLastFirstLent"
         },
         {
             "Type": "Main",

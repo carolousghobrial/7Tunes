@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٢٤ : ٥-٦ )",
+  "EnglishTitle": "Psalms 25:6-7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَذْكُرْ يَا رَبُّ رَأْفَاتِكَ وَمَرَاحِمَكَ ، فَإِنَّهَا ثَابِتَةٌ مُنذُ الأَزلِ،",
+      "English": "6 Remember, O Lord, Your tender mercies and Your lovingkindnesses, For they are from of old. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " خَطَايَا صِبَايَ ، وَجَهَالَاتِي فَلَا تَذْكُرُهَا. هَلِّلُويَا.",
+      "English": "7 Do not remember the sins of my youth, nor my transgressions.     Alleluia"
+    }
+  ]
+}

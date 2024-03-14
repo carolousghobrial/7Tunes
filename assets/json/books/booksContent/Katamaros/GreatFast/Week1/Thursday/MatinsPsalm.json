@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۲۳ : ۱-۲ )",
+  "EnglishTitle": "Psalms 24:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِلرَّبِّ الْأَرْضُ وَمِلْؤُهَا ، الْمَسْكُونَةُ وَجَمِيعُ السَّاكِنِينَ فِيهَا ،",
+      "English": "24:1 The earth is the Lord's, and all its fullness, The world and those who dwell therein. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " هُوَ عَلَى الْبِحَارِ أسسها ، وَعَلَى الأَنْهَارِ هَيَّأْهَا. هَللويا .",
+      "English": "2 For He has founded it upon the seas, And established it upon the waters.     Alleluia"
+    }
+  ]
+}

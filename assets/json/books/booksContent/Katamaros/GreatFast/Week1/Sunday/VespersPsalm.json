@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ١٦ : ١-٢)",
+  "EnglishTitle": "Psalms 17:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اسْتَمِعْ يَا اللَّهُ عَدْلِي وَأَصْغُ إلَى طِلبَتِي ، وَأَنْصِتْ إِلَى صَلَاتِي ، فَإِنَّهَا مِنْ شَفْتَيْنِ بِلَا غِشَ ،",
+      "English": "17:1 Hear a just cause, O Lord, Attend to my cry; Give ear to my prayer which is not from deceitful lips. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فَلْيَخْرُجُ مِنْ لَدُنْكَ قَضَائِي هَللويا.",
+      "English": "2 Let my vindication come from Your presence; Let Your eyes look on the things that are upright.     Alleluia"
+    }
+  ]
+}

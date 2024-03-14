@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۱۱۸ : ۳۹ )",
+  "EnglishTitle": "Psalms 119:57-58",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَنْتَ حَظِي يَا رَبُّ. فَقُلْتُ أَنْ أَحْفَظ وَصَايَاكَ. ",
+      "English": "57 You are my portion, O Lord; I have said that I would keep Your words. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تَوَسَّلْتُ إِلَى وَجْهِكَ بِكُلِّ قَلْبِي. ارْحَمْنِي كَقَوْلِكَ هَلِلُويَا.",
+      "English": "58 I entreated Your favor with my whole heart; Be merciful to me according to Your word.     Alleluia"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ إِنْجِيلِ مُعَلَّمْنَا مَتَّى الْبَشِيرِ ( ٥: ٣٨ - ٤٨ )",
+  "EnglishTitle": "Matthew 5:38-48",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سَمِعْتُمْ أَنَّهُ قِيلَ : عَيْنٌ بِعَيْنٍ وَسِنٌّ بِسِنٍ ",
+      "English": "38 You have heard that it was said, `An eye for an eye and a tooth for a tooth.' "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَمَّا أَنَا فَأَقُولُ لَكُمْ: لَا تُقَاوِمُوا الشَّرَّ ، بَلْ مَنْ لَطَمَكَ عَلَى خَدِّكَ الْأَيْمَنِ فَحَوّلْ لَهُ الْآخَرَ",
+      "English": "39 But I tell you not to resist an evil person. But whoever slaps you on your right cheek, turn the other to him also. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَنْ أَرَادَ أَنْ يُحَاكِمَكَ لِيَأْخُذَ ثَوْبَكَ فَاتْرُكْ لَهُ رِدَاءَكَ. ",
+      "English": "40 If anyone wants to sue you and take away your tunic, let him have your cloak also. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَنْ سَخَّرَكَ مِيلًا فَامْشٍ مَعَهُ اثْنَيْنِ. ",
+      "English": "41 And whoever compels you to go one mile, go with him two. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَنْ سَأَلَكَ فَأَعْطِهِ ، وَمَنْ أَرَادَ أَنْ يَقْتَرضَ مِنْكَ فَلَا تَرُدَّهُ. ",
+      "English": "42 Give to him who asks you, and from him who wants to borrow from you do not turn away. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَدْ سَمِعْتُمْ أَنَّهُ قِيلَ: تُحِبُّ قَرِيبَكَ وَتُبْغِضُ عَدُوكَ. ",
+      "English": "43 You have heard that it was said, `You shall love your neighbor and hate your enemy.' "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَمَّا أَنَا فَأَقُولُ لَكُمْ: أَحِبُّوا أَعْدَاءَكُمْ بَارِكُوا لَاعِنِيكُمْ وَصَلُّوا لِأَجْلِ الَّذِينَ يَطْرُدُونَكُمْ ،",
+      "English": "44 But I say to you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who spitefully use you and persecute you, "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِكَيْ تَصِيرُوا أَبْنَاءَ أَبِيكُمُ الَّذِي فِي السَّمَاوَاتِ ، فَإِنَّهُ يُشْرِقُ شَمْسَهُ عَلَى الْأَشْرَارِ وَالْأَخْيَارِ ، وَيُمْطِرُ عَلَى الأَبْرَارِ وَالظَّالِمِينَ ",
+      "English": "45 that you may be sons of your Father in heaven; for He makes His sun rise on the evil and on the good, and sends rain on the just and on the unjust. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأَنَّكُمْ إِنْ أَحْبَبْتُمُ الَّذِينَ يُحِبُّونَكُمْ ، فَمَا هُوَ أَجْرُكُمْ ؟ فَالْعَشَارُونَ أَيْضًا يَفْعَلُونَ كَذَلِكَ .",
+      "English": "46 For if you love those who love you, what reward have you? Do not even the tax collectors do the same? "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإِنْ سَلَّمْتُمْ عَلَى إِخْوَتِكُمْ فَقَط ، فَأَيَّ فَضْلٍ تَفْعَلُونَ؟ فَالْوَثَنِيُّونَ أَيْضًا يَفْعَلُونَ هَكَذَا ",
+      "English": "47 And if you greet your brethren only, what do you do more than others? Do not even the tax collectors do so? "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَكُونُوا إِذًا أَنْتُمْ كَامِلِينَ كَمَا أَنَّ أَبَاكُمُ الَّذِي السَّمَاوَاتِ هُوَ كَامِلٌ ",
+      "English": "48 Therefore you shall be perfect, just as your Father in heaven is perfect.     Glory is due to our God to the age of all ages. Amen"
+    }
+  ]
+}

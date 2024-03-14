@@ -64,7 +64,6 @@ function SettingsModal({ bottomSheetRef, snapPoints }) {
   };
 
   function SettingsItem({ item }) {
-    console.log(item);
     const viewTypeMap = {
       AppTheme: <AppTheme />,
       FontSize: <FontSize />,
@@ -73,7 +72,6 @@ function SettingsModal({ bottomSheetRef, snapPoints }) {
       PresentationMode: <PresentationMode />,
     };
     const itemToReturn = viewTypeMap[item.content];
-    console.log(itemToReturn);
     return viewTypeMap[item.content];
   }
   return (

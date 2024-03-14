@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۱۷ : ۱ )",
+  "EnglishTitle": "Psalms 18:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أُحِبُّكَ يَا رَبُّ ياقُوَّتِي ،",
+      "English": "18:1 I will love You, O Lord, my strength. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الرَّبُّ هُوَ ثَبَاتِي وَمَلْجَإِي وَمُخَلِّصِي ، إِلَهِي عَوْنِي ، وَعَلَيْهِ أَتَّكِلُ. هَلِلُويَا.",
+      "English": "2 The Lord is my rock and my fortress and my deliverer; My God, my strength, in whom I will trust.     Alleluia"
+    }
+  ]
+}

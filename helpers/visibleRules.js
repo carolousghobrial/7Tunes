@@ -721,16 +721,44 @@ const showLitanyOfOblations = (motherSource, path) => {
   }
   return false;
 };
+const ProphecyShow = (motherSource, path) => {
+  console.log(path);
+  console.log(motherSource);
+};
 const isLentWeekdayOrJonah = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+
   if (currentSeason.key === "JONAH_FAST") {
     return true;
   }
+
+  if (currentSeason.key === "GREAT_LENT") {
+    if (
+      (currentSeason.dayOfWeek === 1 && currentSeason.week === 1) ||
+      (currentSeason.dayOfWeek === 5 && currentSeason.week === 7)
+    ) {
+      return false;
+    }
+    if (currentSeason.dayOfWeek > 0 && currentSeason.dayOfWeek < 6) {
+      return true;
+    }
+  }
+
+  return false;
+};
+const isLentWeekdayOrJonahAndLastFirstLent = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  console.log(currentSeason);
+  if (currentSeason.key === "JONAH_FAST") {
+    return true;
+  }
+
   if (currentSeason.key === "GREAT_LENT") {
     if (currentSeason.dayOfWeek > 0 && currentSeason.dayOfWeek < 6) {
       return true;
     }
   }
+
   return false;
 };
 const isLentAndJonah = (motherSource, path) => {
@@ -742,7 +770,13 @@ const isLentAndJonah = (motherSource, path) => {
 const isLentWeekends = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (currentSeason.key === "GREAT_LENT") {
-    if (currentSeason.dayOfWeek === 6 || currentSeason.dayOfWeek === 0) {
+    if (
+      (currentSeason.dayOfWeek === 1 && currentSeason.week === 1) ||
+      (currentSeason.dayOfWeek === 5 && currentSeason.week === 7)
+    ) {
+      return true;
+    }
+    if (currentSeason.dayOfWeek === 0 || currentSeason.dayOfWeek === 6) {
       return true;
     }
   }
@@ -795,15 +829,11 @@ const isNOTLentWeekdayOrJonah = (motherSource, path) => {
   if (isBigFeast(motherSource, path)) {
     return false;
   }
-  if (currentSeason.key === "JONAH_FAST") {
-    return false;
+  if (!isLentWeekdayOrJonah(motherSource, path)) {
+    return true;
   }
-  if (currentSeason.key === "GREAT_LENT") {
-    if (currentSeason.dayOfWeek !== 6 || currentSeason.dayOfWeek !== 0) {
-      return false;
-    }
-  }
-  return true;
+
+  return false;
 };
 const showArchangelMichaelAndGabriel = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -1414,8 +1444,10 @@ const IsFastingDays = (motherSource, path) => {
   }
 
   if (
-    currentSeason.key === "GREAT_LENT" &&
-    (currentSeason.dayOfWeek === 0 || currentSeason.dayOfWeek === 6)
+    (currentSeason.key === "GREAT_LENT" &&
+      (currentSeason.dayOfWeek === 0 || currentSeason.dayOfWeek === 6)) ||
+    (currentSeason.dayOfWeek === 1 && currentSeason.week === 1) ||
+    (currentSeason.dayOfWeek === 5 && currentSeason.week === 7)
   ) {
     return true;
   }
@@ -1462,7 +1494,7 @@ const StandardAgiosShow = (motherSource, path) => {
 const ShowSotees = (motherSource, path) => {
   if (
     BishopIsNOTPresent(motherSource, path) &&
-    !isLentWeekdayOrJonah(motherSource, path)
+    !isLentWeekdayOrJonahAndLastFirstLent(motherSource, path)
   ) {
     return true;
   }
@@ -1924,7 +1956,6 @@ const ROICONCLUSION = (motherSource, rule) => {
 
 const REPLACEGOSPELAUTHOR = (author, part) => {
   myauthor = getGospelAuthor(part);
-  console.log(myauthor);
   switch (myauthor) {
     case 1:
       return {
@@ -2161,6 +2192,204 @@ const REPLACEPAULINEAUTHOR = (author, part) => {
         arabic: "...",
         englishcoptic: "...",
         arabiccoptic: "...",
+      };
+  }
+};
+const REPLACEMATINSPROPHECIES = (author, part) => {
+  prophet = getMatinsProphecyAuthor(part);
+
+  switch (prophet) {
+    case "Genesis":
+      return {
+        english: " The book of Genesis of Moses",
+        coptic: " `pjwm `n;Genecic `nte Mw`ucic",
+        arabic: "  سفر التكوين لموسى  ",
+        englishcoptic: " Epgom enti-jenesis ente Moysis",
+        arabiccoptic: " تيجنسيس انتى موسيس  . ",
+      };
+    case "Exodus":
+      return {
+        english: " The book of Exodus of Moses",
+        coptic: " `pjwm `nte Pido[odoc `nte Mw`ucic",
+        arabic: "  سفر الخروج لموسى  ",
+        englishcoptic: " Epgom ente pidoxodos ente Moysis",
+        arabiccoptic: " إبجوم انتى ذوكصوذوس انتى موسيس  . ",
+      };
+    case "Leviticus":
+      return {
+        english: " The book of Leviticus of Moses",
+        coptic: " `pjwm nte piLeuitikon `nte Mw`ucic",
+        arabic: "  سفر اللاويين لموسى  ",
+        englishcoptic: " Epgom ente pi-levitikon ente Moysis",
+        arabiccoptic: " إبجوم انتى بيليفيتيكون انتى موسيس  . ",
+      };
+    case "Numbers":
+      return {
+        english: " The book of Numbers of Moses",
+        coptic: " `pjwm `nte pi`ariqmoc`nte Mw`ucic",
+        arabic: "  سفر العدد لموسى  ",
+        englishcoptic: " Epgom ente pi-arithmos ente Moysis",
+        arabiccoptic: " إبجوم انتى بي اريثموس انتى موسيس  . ",
+      };
+    case "Deuteronomy":
+      return {
+        english: " The book of Deuteronomy of Moses",
+        coptic: " `pjwm nte Pideuteronomion `nte Mw`ucic",
+        arabic: "  سفر التثنية لموسى  ",
+        englishcoptic: " Epgom ente Pidet-rono-meyon ente Moysis",
+        arabiccoptic: " إبجوم انتى بيديترونوميون انتى موسيس  . ",
+      };
+    case "Isaiah":
+      return {
+        english: " Isaiah",
+        coptic: "Hcai`hac",
+        arabic: "  اشعياء ",
+        englishcoptic: " Isa-eyas",
+        arabiccoptic: " ايسائياس . ",
+      };
+    case "Jeremiah":
+      return {
+        english: " Jeremiah",
+        coptic: "Iermiac",
+        arabic: "  إرميا ",
+        englishcoptic: " Yermeyas",
+        arabiccoptic: " إريمياس",
+      };
+    case "Lamentations":
+      return {
+        english: " The Lamentations of Jeremiah",
+        coptic: " qrinoi Iermiac",
+        arabic: "مراثي إرميا ",
+        englishcoptic: " Ethri-noi Yermeyas ",
+        arabiccoptic: " إثرينوي إريمياس  ",
+      };
+    case "Wisdom":
+      return {
+        english: " The book of Wisdom of Solomon",
+        coptic: " ;covi`a `nte Colomwn",
+        arabic: "  سفر الحكمة لسليمان الحكيم ",
+        englishcoptic: " Ti-Sofia ente Solomon ",
+        arabiccoptic: " تي سوفياانتى سولومون ",
+      };
+    case "Proverbs":
+      return {
+        english: " The Proverbs of Solomon",
+        coptic: " niparoimia `nte Colomwn",
+        arabic: "  سفر الأمثال لسليمان الحكيم",
+        englishcoptic: " ni-paroi-mia ente Solomon",
+        arabiccoptic: " ني باروميا انتى سولومون ",
+      };
+    case "Job":
+      return {
+        english: " Job",
+        coptic: " Iwb pi`qmhi",
+        arabic: "  أيوب الصديق ",
+        englishcoptic: " Yob pi-ethmi",
+        arabiccoptic: " يوب بي إثمي",
+      };
+    case "Zechariah":
+      return {
+        english: " Zechariah",
+        coptic: " Zaxariac",
+        arabic: "  زكريا ",
+        englishcoptic: " Zakhareyas",
+        arabiccoptic: " زخارياس",
+      };
+    case "Micah":
+      return {
+        english: " Micah",
+        coptic: " Mixeoc",
+        arabic: "  ميخا",
+        englishcoptic: " Mikhe-os",
+        arabiccoptic: " ميخيئوس ",
+      };
+    case "Amos":
+      return {
+        english: " Amos",
+        coptic: " Amoc",
+        arabic: "  عاموس ",
+        englishcoptic: " Amos",
+        arabiccoptic: " اموس . ",
+      };
+    case "Joel":
+      return {
+        english: "Joel",
+        coptic: " Iouhl",
+        arabic: "  يوئيل ",
+        englishcoptic: " Yo-eel",
+        arabiccoptic: "يوئيل . ",
+      };
+    case "Jonah":
+      return {
+        english: " Jonah ",
+        coptic: " Iwna ",
+        arabic: "  يونان",
+        englishcoptic: " Yona",
+        arabiccoptic: "  يونا  ",
+      };
+    case "Nahum":
+      return {
+        english: " Nahum",
+        coptic: " Naoum",
+        arabic: "  ناحوم ",
+        englishcoptic: " Na-om",
+        arabiccoptic: " ناؤوم ",
+      };
+    case "Zephaniah":
+      return {
+        english: "Zephaniah",
+        coptic: " Covoniac ",
+        arabic: "  صفنيا",
+        englishcoptic: " Sofonias",
+        arabiccoptic: " صوفونياس ",
+      };
+    case "Sirach":
+      return {
+        english: "Joshua the son of Sirach",
+        coptic: " Ihcou `p]hri `nCirax",
+        arabic: "  يشوع ابن سيراخ  ",
+        englishcoptic: " Isou epshiri en-Sirakh ",
+        arabiccoptic: " ايسو ابشيري ان سيراخ ",
+      };
+    case "Malachi":
+      return {
+        english: " Malachi",
+        coptic: " Malaxiac",
+        arabic: "  ملاخي ",
+        englishcoptic: " Malakheyas",
+        arabiccoptic: " مالاخياس",
+      };
+    case "Hosea":
+      return {
+        english: "Hosea",
+        coptic: " Wci`e",
+        arabic: " هوشع ",
+        englishcoptic: " Osey-e ",
+        arabiccoptic: " اوسيا ",
+      };
+    case "Kings1":
+      return {
+        english: "the Book of First Kings",
+        coptic: " qmetouro `n a/",
+        arabic: "  سفر الملوك الأول ",
+        englishcoptic: " ethmetoro en o-weet",
+        arabiccoptic: " إثميت أورو ان أوييت",
+      };
+    case "Ezekiel":
+      return {
+        english: "Ezekiel",
+        coptic: " Iezekihl",
+        arabic: "  حزقيال ",
+        englishcoptic: " Ezeki-el",
+        arabiccoptic: " إزيكييل ",
+      };
+    case "Daniel":
+      return {
+        english: "Daniel",
+        coptic: " Danihl",
+        arabic: "  دانيال ",
+        englishcoptic: " Dani-eel",
+        arabiccoptic: " دانييل . ",
       };
   }
 };
@@ -2462,7 +2691,12 @@ const REPLACPASCHAHOURDAY = (paschaHourDay, part) => {
 };
 
 const REPLACEPROPHETS = (prophet, part) => {
-  switch (prophet) {
+  var updatedProphet = prophet;
+  if (prophet?.includes("MatinsProphecy")) {
+    updatedProphet = getMatinsProphecyAuthor(prophet);
+  }
+  console.log(updatedProphet);
+  switch (updatedProphet) {
     case "Genesis":
       return {
         english: " The book of Genesis of Moses",
@@ -2837,7 +3071,6 @@ function getAuthor(part, checkList) {
   }
 }
 function getGospelAuthor(part) {
-  console.log(part);
   const checkList = [
     { keyword: "Matthew", returnValue: 1 },
     { keyword: "Mark", returnValue: 2 },
@@ -2879,6 +3112,41 @@ function getPaulineAuthor(part) {
     // Add other items to the checkList
   ];
   return getAuthor(part, checkList);
+}
+function getMatinsProphecyAuthor(part) {
+  const newPart = {
+    mother: part,
+  };
+  const checkList = [
+    { keyword: "Genesis", returnValue: "Genesis" },
+    { keyword: "Exodus", returnValue: "Exodus" },
+    { keyword: "Leviticus", returnValue: "Leviticus" },
+    { keyword: "Numbers", returnValue: "Numbers" },
+    {
+      keyword: "Deuteronomy",
+      returnValue: "Deuteronomy",
+    },
+    { keyword: "Isaiah", returnValue: "Isaiah" },
+    { keyword: "Jeremiah", returnValue: "Jeremiah" },
+    { keyword: "Lamentations", returnValue: "Lamentations" },
+    { keyword: "Wisdom", returnValue: "Wisdom" },
+    { keyword: "Proverbs", returnValue: "Proverbs" },
+    { keyword: "Job", returnValue: "Job" },
+    { keyword: "Zechariah", returnValue: "Zechariah" },
+    { keyword: "Micah", returnValue: "Micah" },
+    { keyword: "Amos", returnValue: "Amos" },
+    { keyword: "Joel", returnValue: "Joel" },
+    { keyword: "Jonah", returnValue: "Jonah" },
+    { keyword: "Nahum", returnValue: "Nahum" },
+    { keyword: "Zephaniah", returnValue: "Zephaniah" },
+    { keyword: "Joshua the son of Sirach", returnValue: "Sirach" },
+    { keyword: "Malachi", returnValue: "Malachi" },
+    { keyword: "Hosea", returnValue: "Hosea" },
+    { keyword: "First Kings", returnValue: "Kings1" },
+    { keyword: "Ezekiel", returnValue: "Ezekiel" },
+    { keyword: "Daniel", returnValue: "Daniel" },
+  ];
+  return getAuthor(newPart, checkList);
 }
 const VisibleRules = {
   COMERISEN: ComeRisenRule,
@@ -2933,6 +3201,7 @@ const VisibleRules = {
   showLitanyOfOblations: showLitanyOfOblations,
   isLentAndJonah: isLentAndJonah,
   isLentWeekdayOrJonah: isLentWeekdayOrJonah,
+  isLentWeekdayOrJonahAndLastFirstLent: isLentWeekdayOrJonahAndLastFirstLent,
   isLentWeekends: isLentWeekends,
   isNOTLentWeekdayOrJonah: isNOTLentWeekdayOrJonah,
   showArchangelMichaelAndGabriel: showArchangelMichaelAndGabriel,
@@ -2962,6 +3231,7 @@ const VisibleRules = {
   isApostlesFeast: isApostlesFeast,
   isNotSaturday: isNotSaturday,
   IsLiturgy: IsLiturgy,
+  REPLACEMATINSPROPHECIES: REPLACEMATINSPROPHECIES,
   inRaisingOfIncense: inRaisingOfIncense,
   isResurrectionFeast: isResurrectionFeast,
   ISDioceseMetropolitain: ISDioceseMetropolitain,
@@ -2980,6 +3250,7 @@ const VisibleRules = {
   IsFastingDays: IsFastingDays,
   stMaryActsResponse: stMaryActsResponse,
   ArchangelGabrielShow: ArchangelGabrielShow,
+  ProphecyShow: ProphecyShow,
   JohnTheBaptistShow: JohnTheBaptistShow,
   StandardAgiosShow: StandardAgiosShow,
   ISDioceseMetropolitainAlways: ISDioceseMetropolitainAlways,

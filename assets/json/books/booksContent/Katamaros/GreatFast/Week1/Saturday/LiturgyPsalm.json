@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أبينا دَاوُدَ النَّبِيِّ ( ٥ : ١ )",
+  "EnglishTitle": "Psalms 5:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَنْصِتْ يَا رَبُّ لِكَلِمَاتِي ، وَافْهَمْ صُرَاخِي ",
+      "English": "5:1 Give ear to my words, O Lord, Consider my meditation. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَصْغِ إِلَى صَوْتِ طِلْبَتِي ، يَا مَلِكِي وَإِلهِي هَللويا. ",
+      "English": "2 Give heed to the voice of my cry, My King and my God, For to You I will pray.     Alleluia"
+    }
+  ]
+}

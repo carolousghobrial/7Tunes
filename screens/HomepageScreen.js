@@ -75,6 +75,8 @@ function HomepageScreen({ navigation, route }) {
   function handleSearch(text) {
     setSearchPhrase(text);
   }
+  var updateString =
+    "Added Readings for 1st Week of Lent, more to come \n Added rites for 1st and Last day of Lent to be the same as Weekend w/Metanias \n Miscellaneous Spelling and Bug Fixes";
   useEffect(() => {
     onFetchUpdateAsync();
   }, [navigation]);
@@ -88,7 +90,7 @@ function HomepageScreen({ navigation, route }) {
       const update = await Updates.checkForUpdateAsync();
 
       if (update.isAvailable) {
-        Alert.alert("New Update!", "Please restart the app to apply updates.", [
+        Alert.alert("New Update!", updateString, [
           {
             text: "Restart the App",
             onPress: () => onUpdates(),

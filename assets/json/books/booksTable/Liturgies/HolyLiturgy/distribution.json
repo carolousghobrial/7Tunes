@@ -354,7 +354,13 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isNOTLentWeekdayOrJonah"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionLentSomatos",
+            "Rule": 0,
+            "Visible": "isLentWeekdayOrJonah"
         },
         {
             "Type": "Main",

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۲۹ : ۱-۲ )",
+  "EnglishTitle": "Psalms 30:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَعَظِمُكَ يَا رَبُّ لِأَنَّكَ احْتَضَنْتَنِي ، وَلَمْ تُشْمِتْ بِي أَعْدَائِي",
+      "English": "30:1 I will extol You, O Lord, for You have lifted me up, And have not let my foes rejoice over me. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أَيُّهَا الرَّبُّ إِلَهِي صَرَخْتُ إِلَيْكَ ، فَشَفَيْتَنِي. هَلِلُويَا.",
+      "English": "2 O Lord my God, I cried out to You, And You healed me.     Alleluia"
+    }
+  ]
+}

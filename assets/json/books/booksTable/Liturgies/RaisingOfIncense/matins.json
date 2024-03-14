@@ -160,25 +160,17 @@
         },
         {
             "Type": "Button",
-            "Arabic": "تمجيد",
-            "English": "Venerations",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "venerations"
-        },
-        {
-            "Type": "Button",
             "Arabic": "النبوات",
             "English": "Prophecies",
             "Rule": "OpenPageButtonRule",
-            "Visible": "isLentWeekdayOrJonah",
+            "Visible": "isLentWeekdayOrJonahAndLastFirstLent",
             "Path": "LiturgyRaisingOfIncenseProphecies"
         },
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseLentLitanies",
             "Rule": 0,
-            "Visible": "isLentWeekdayOrJonah"
+            "Visible": "isLentWeekdayOrJonahAndLastFirstLent"
         },
         {
             "Type": "Button",

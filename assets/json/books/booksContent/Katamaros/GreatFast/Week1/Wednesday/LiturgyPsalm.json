@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٢٤ : ١٨ ، ١٥ )",
+  "EnglishTitle": "Psalms 25:20, 16",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "احفظ نَفْسِي وَنَجِّنِي ، لَا أَخْزَى لِأَنِّي عَلَيْكَ تَوَكَّلْتُ ",
+      "English": "20 Keep my soul, and deliver me; Let me not be ashamed, for I put my trust in You."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَنْظُرُ إِلَيَّ ، وَارْحَمْنِي. هَلِلُويَا.",
+      "English": "16 Turn Yourself to me, and have mercy on me.     Alleluia"
+    }
+  ]
+}

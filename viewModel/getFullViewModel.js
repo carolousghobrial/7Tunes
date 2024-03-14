@@ -58,7 +58,6 @@ export function getFullViewModel(motherSource, mother) {
           processMainOrDefault(item);
           break;
         case "Ritual":
-
         case "GetDaysReading":
           processRitualOrGetDaysReading(item);
           break;
@@ -120,12 +119,15 @@ export function getFullViewModel(motherSource, mother) {
 
   function pushToArrays(item, currentKey, ritual) {
     const { English, Coptic, Arabic } = item;
-    MenuArray.push({
-      EnglishTitle: English,
-      CopticTitle: Coptic,
-      ArabicTitle: Arabic,
-      key: currentKey,
-    });
+    if (!ritual) {
+      MenuArray.push({
+        EnglishTitle: English,
+        CopticTitle: Coptic,
+        ArabicTitle: Arabic,
+        key: currentKey,
+      });
+    }
+
     ViewArray.push({
       part: item,
       key: currentKey,
@@ -241,6 +243,8 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
       }
     });
   } catch (err) {
+    myViewArray.pop();
+    myMenuArray.pop();
     console.error(err);
   }
 
@@ -345,7 +349,7 @@ export function GetTodaysReadingPath(path) {
     currentSeason.key !== "GREAT_LENT" &&
     currentSeason.key !== "HOLY_50" &&
     currentSeason.dayOfWeek !== 0;
-
+  const isLenten = currentSeason.key === "GREAT_LENT";
   if (isStandardSeasonSunday) {
     if (currentSeason.key === "NATIVITY") {
       filePath = updateFilePath(`DaysKoiahk29`);
@@ -383,13 +387,11 @@ export function GetTodaysReadingPath(path) {
     } else if (currentSeason.key === "JONAH_FEAST") {
       filePath = updateFilePath(`JonahPassover`);
     }
-    // else {
-    //   filePath = updateFilePath(
-    //     `Days${currentSeason.copticMonth}${currentSeason.copticDay}`
-    //   );
-    // }
+  } else if (isLenten) {
+    filePath = updateFilePath(
+      `GreatFastWeek${currentSeason.week}${daysOfWeek[currentSeason.dayOfWeek]}`
+    );
   }
-
   return filePath;
 
   function updateFilePath(commonPart) {
@@ -397,7 +399,11 @@ export function GetTodaysReadingPath(path) {
       "VespersPsalm",
       "VespersGospel",
       "MatinsPsalm",
-      "MatinsProphecy",
+      "MatinsProphecy1",
+      "MatinsProphecy2",
+      "MatinsProphecy3",
+      "MatinsProphecy4",
+      "MatinsProphecy5",
       "MatinsGospel",
       "LiturgyPauline",
       "LiturgyCatholic",
@@ -412,23 +418,6 @@ export function GetTodaysReadingPath(path) {
       return filePath + commonPart + path;
     } else {
       return filePath;
-    }
-  }
-}
-
-function getAuthor(part, checkList) {
-  const completePath = GetTodaysReadingPath(part.mother);
-  if (completePath === "Katamaros") {
-    return "NONE";
-  }
-  const book = bookPaths[completePath];
-  const { EnglishTitle } = book;
-  console.log(checkList);
-
-  for (const item of checkList) {
-    console.log(item);
-    if (EnglishTitle.includes(item.keyword)) {
-      return item.returnValue;
     }
   }
 }

@@ -1,0 +1,85 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "قانون الختام - سوماتوس",
+  "CopticTitle": "Cwmatoc ke `Ematoc",
+  "EnglishTitle": "Concluding Canon for Weekdays of Great Fast (Somatos)",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جسد ودم الإله الوحيد، اللذان تناولنا منهما، فلنشكره.",
+      "Coptic": "Cwmatoc ke `Ematoc monogenhc qeou> met `alabontec autw> euxaricthcwmen.",
+      "English": "For the Body and Blood of the only-begotten God, of which we have partaken, let us give thanks to Him.",
+      "Arabiccoptic": "سوماطوس كية اية ماطوس مونوجينيس ثيئو، ميت آلا ڤونتيس اڤطو اڤخاريس تى سومين.",
+      "Englishcoptic": "Soomatos ke -Ematos monogen-ees theoo: met -alavontes avtoo: evkharisteesoomen-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجد للآب الإبن والروح القدس.",
+      "Coptic": "Do[a Patri ke `Uiw ke `Agio `Pneumati.",
+      "English": "Glory be to the Father and the Son and the Holy Spirit.",
+      "Arabiccoptic": "ذوكسا بترى كي إيو كي أجيو إبنيڤ ماتي.",
+      "Englishcoptic": "Doxa Patri ke -Eyioo ke -Agio ePnevmati-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جسد ودم الإله الوحيد، اللذان تناولنا منهما، فلنشكره.",
+      "Coptic": "Cwmatoc ke `Ematoc monogenhc qe`ou> met `alabontec autw> euxaricthcwmen.",
+      "English": "For the Body and Blood of the only-begotten God, of which we have partaken, let us give thanks to Him.",
+      "Arabiccoptic": "سوماطوس كية اية ماطوس مونوجينيس ثيئو، ميت آلا ڤونتيس اڤطو اڤخاريس تى سومين.",
+      "Englishcoptic": "Soomatos ke -Ematos monogen-ees the-oo: met -alavontes avtoo: evkharisteesoomen-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآن وكل أوان وإلي دهر الدهور. آمين.",
+      "Coptic": "Ke nun ke `a`i ke ic touc `e`wnac ton `e`wnwn. `Amhn.",
+      "English": "Now and forever and unto the age of all ages. Amen.",
+      "Arabiccoptic": "كي نين كي آ إي كي ييستوس إي ؤ ناستون إ انون آمين.",
+      "Englishcoptic": "Ke neen ke -a-ee ke is toos -e-oonas ton -e-oonoon. Ameen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذا هو جسد ودم الإله الوحيد اللذان تناولنا منهما. فلنشكره، ولنسبح مع الملائكه وطغمات العلا وصفوف الأبرار صارخين قائلين،",
+      "Coptic": "Vai pe Picwma nem Pi`cnof `nte pimonogenhc `nNou;> nai `etansi `ebol `n=htou. Maren-]ep`\\mot `ntotf> maren\\wc nem niaggeloc nem nitagma `nte `psici nem `pxoroc `nte ni`qmhi enw] `ebol enjw `mmoc>",
+      "English": "This is the Body and Blood of the only-begotten God, of which we have partaken. Let us give thanks to Him, and praise with the angels and the high orders and the choir of the righteous proclaiming and saying,",
+      "Arabiccoptic": "فاى بية بى سوما نيم بى اسنوف انتية بى مونوجينيس ان نوتى، ناى ايطاڤ إتشى ايڤول ان خيتو مارين شيبيهموت ان توطف، مارين هوس نيم بى أنجيلوس نيم نى طغما انتية ابتشيسى، نيم إبخورس انتي ني اثمى انؤش ايڤول انجو امموس، ",
+      "Englishcoptic": "Vai pe Pisooma nem Piesnof en-te pi-monogen-ees en-Nooti-: nai -etanchi evol en-kheetoo. maren-shepehmot en-totf: maren-hoos nem ni-angelos nem ni-taghma en-te epchisi nem epkhoros en-te ni-ethmeei en-oosh evol en-goo emmos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"يا مَنْ صام عنا أربعين يوماً وأربعين ليلة، إقبل إليك صومنا وإغفر لنا أثامنا، بطلبات وشفاعات سيدتنا القديسة مريم. ",
+      "Coptic": "Je vh`etafernhcteuin `e`\\rhi `ejon `n`\\me `n`e\\oou nem `\\me `n`ejwr\\> ]op `erok `ntennhctia xw nan `ebol `nnen`anomia> \\iten nictwb\\ nem nic`precbia `nte tensoic `nnhb Maria. ",
+      "English": "“O You who fasted for us forty days and forty nights, accept our fasting and forgive us our iniquities, through the prayers and the intercessions of our Lady Saint Mary",
+      "Arabiccoptic": "چية فى ايطاف إرنستيڤين إى اهرى ايجون، انيهميه ان ايهؤو نيم اهمية ان ايجوره، شوب ايروك ان تى نيستيا، كونان ايڤول إنين أنوميا هيتين نين طوبه نيم نين إبرسفيا انتية تينيت شويس ان نيب ماريا",
+      "Englishcoptic": "Ge vee-etaf-erneestevin -eehreei -egon en-ehme en-eho-oo nem ehme en-egoorh: shop -erok en-ten-neesti-a khoo nan evol en-nen-anomia: hiten- ni-stoobh nem ni-sepresvia en-te ten-chois en-neev Maria."
+    }
+  ]
+}

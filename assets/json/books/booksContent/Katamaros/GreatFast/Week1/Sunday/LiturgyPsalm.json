@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٣،١:٢٤ )",
+  "EnglishTitle": "Psalms 25:1-2, 4",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِلَيْكَ يَا رَبُّ رَفَعْتُ نَفْسِي ، ",
+      "English": "25:1 To You, O Lord, I lift up my soul. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إلهِي عَلَيْكَ تَوَكَّلْتُ فَلَا تُخْزِنِي إِلَى الْأَبَدِ.",
+      "English": "2 O my God, I trust in You; Let me not be ashamed."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أَظْهِرْ لِي يَا رَبُّ طُرُقَكَ وَعَلِمْنِي سُبُلَكَ ، اهْدِنِي إِلَى عَدْلِكَ. هَلِلُويَا.",
+      "English": "4 Show me Your ways, O Lord; Teach me Your paths.     Alleluia"
+    }
+  ]
+}

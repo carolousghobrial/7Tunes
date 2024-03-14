@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ١٢ : ٦ )",
+  "EnglishTitle": "Psalms 13:5-6",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمَّا أَنَا فَعَلَى رَحْمَتِكَ تَوَكَّلْتُ. يَبْتَهِجُ قَلْبِي بِخَلَاصِكَ. ",
+      "English": "5 But I have trusted in Your mercy; My heart shall rejoice in Your salvation. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أُسَبِّحُ الرَّبَّ الَّذِي أَحْسَنَ إِليَّ. وَأُرَتَّلُ لَاِسْمِ الرَّبِّ الْعَلِيِّ. هَلِلُويَا.",
+      "English": "6 I will sing to the Lord, Because He has dealt bountifully with me.     Alleluia"
+    }
+  ]
+}
