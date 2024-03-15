@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ١١٤ : ٦ )",
+  "EnglishTitle": "Psalms 116:7-8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارْجِعِي يَا نَفْسِي إِلَى مَوْضِعِ رَاحَتِكِ ، لأَنَّ الرَّبَّ قَدْ أَحْسَنَ إِلَيَّ. ",
+      "English": "7 Return to your rest, O my soul, For the Lord has dealt bountifully with you. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَنْقَذَ نَفْسِي مِنَ الْمَوْتِ ، وَعَيْنِيَّ مِنَ الْعَبَرَاتِ. هَلِّلُويَا.",
+      "English": "8 For You have delivered my soul from death, My eyes from tears.     Alleluia\r"
+    }
+  ]
+}

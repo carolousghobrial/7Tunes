@@ -7,7 +7,7 @@
       "Side": "Title",
       "Arabic": "تسبحة باكر",
       "Coptic": ":do[ologia `nte }wrp",
-      "English": "Morning Praises"
+      "English": "Morning Doxologies"
     },
     {
       "Type": "Main",
@@ -62,6 +62,14 @@
       "Path": "TheotokiasSundayAdamConclusion",
       "Rule": 0,
       "Visible": true
+    },
+    {
+      "Type": "Button",
+      "Arabic": "رفع بخور باكر",
+      "English": "Offering of Morning Incense",
+      "Rule": "OpenNewPageButtonRule",
+      "Visible": true,
+      "Path": "matins"
     }
   ]
 }

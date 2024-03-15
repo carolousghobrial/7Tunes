@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ",
+  "EnglishTitle": "Psalms 41:4, 13",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(١٢,٤:٤٠ ،)  ",
+      "English": "4 I said, Lord, be merciful to me; Heal my soul, for I have sinned against You.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أَنَا قُلْتُ يَا رَبُّ ارْحَمْنِي اِشْفِ نَفْسِي لِأَنِّي قَدْ أَخْطَأْتُ إِلَيْكَ ,",
+      "English": "13 Blessed be the Lord God of Israel From everlasting to everlasting! Amen and Amen.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أبِينَا دَاوُدَ النَّبِيِّ ( ۲۸ : ۱۱ )",
+  "EnglishTitle": "Psalms 29:10-11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرَّبُّ يَجْلِسُ  مَلِكًا إِلَى الْأَبَدِ ، ",
+      "English": "10 the Lord sits as King forever \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرَّبُّ يُعْطِي شَعْبَهُ قُوَّةَ ، الرَّبُّ يُبَارِكُ شَعْبَهُ بِالسَّلَام. هللويا.",
+      "English": "11 The Lord will give strength to His people; The Lord will bless His people with peace.     Alleluia\r"
+    }
+  ]
+}

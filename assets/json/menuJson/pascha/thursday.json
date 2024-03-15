@@ -41,13 +41,55 @@
             "Enabled": true
         },
         {
+            "EnglishTitle": "Liturgy of the Waters",
+            "ArabicTitle": "لقان خميس العهد",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "ThursdayDayNinthHourMain",
+            "ImageURL": "laqanCovenantThursday",
+            "Enabled": true,
+            "Released": false
+        },
+        {
+            "EnglishTitle": "The Offering of the Lamb",
+            "ArabicTitle": "تقديم الحمل",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "offertoryCovenantThursday",
+            "ImageURL": "offertory",
+            "Enabled": true,
+            "BishopButton": true
+        },
+        {
+            "EnglishTitle": "Liturgy of the Word",
+            "ArabicTitle": " قداس الكلمة",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "liturgyOfWordCovenantThursday",
+            "ImageURL": "litugyOfWord",
+            "Enabled": true
+        },
+        {
+            "EnglishTitle": "Liturgy of the Believers",
+            "ArabicTitle": "قداس المؤمنين",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "liturgyOfBelieversCovenantThursday",
+            "ImageURL": "liturgyOfBelievers",
+            "Enabled": true
+        },
+        {
             "ArabicTitle": "الفصول التى تتلى فى توزيع قداس خميس العهد",
-            "EnglishTitle": "The Readings during the Covenant Thursday Distribution ",
+            "EnglishTitle": "Covenant Thursday Distribution Readings",
             "PurchaseKeyDroid": "",
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
             "BookPath": "ThursdayDayEleventhHourMain",
-            "ImageURL": "communion",
+            "ImageURL": "distribution",
             "Enabled": true
         }
     ]

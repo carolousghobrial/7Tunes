@@ -1,0 +1,140 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "قداس الكلمة",
+            "English": "Liturgy of the Word"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordTenosht"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "البولس بالقبطي",
+            "English": "Pauline Epistle in Coptic",
+            "Rule": "OpenPageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordCopticPauline"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ألحان البابا ",
+            "English": "Papal Hymns",
+            "Rule": "OpenPageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordPaplHymnsMenu"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPaulineArabicIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "LiturgyPauline",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPaulineArabicConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayFirstAgios",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyOfGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور",
+            "English": "Chanted Psalm",
+            "Rule": "OpenPageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordChantedLiturgyPsalm"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePsalmResponses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPsalmAndGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgyGospelResponsesCovenantThursdayGospelResponse",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس القديس باسيليوس",
+            "English": "Liturgy of St.Basil",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "liturgyofStBasil"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس القديس غريغوريوس",
+            "English": "Liturgy of St.Gregory",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "liturgyofStGregory"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfPeaceGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfPopeGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfAssembliesGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس القديس باسيليوس",
+            "English": "Liturgy of St.Basil",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "liturgyofStBasil"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس القديس غريغوريوس",
+            "English": "Liturgy of St.Gregory",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "liturgyofStGregory"
+        }
+    ]
+}

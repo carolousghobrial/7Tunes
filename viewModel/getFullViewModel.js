@@ -218,7 +218,8 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
       };
 
       const processOtherTypes = () => {
-        const addPart = addItemsToArray(part, thisRule);
+        const newRule = thisRule !== 0 ? thisRule : motherSource;
+        const addPart = addItemsToArray(part, newRule);
         myViewArray.push({
           part: addPart,
           path: Path,
@@ -243,9 +244,8 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
       }
     });
   } catch (err) {
-    myViewArray.pop();
     myMenuArray.pop();
-    console.error(err);
+    //console.error(err);
   }
 
   return [myViewArray, myMenuArray, key];
@@ -253,7 +253,6 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
 
 function addItemsToArray(part, thisRule) {
   const foundKeyword = findMatchingSubstring(part.English, keywords);
-
   const myrule =
     foundKeyword === "EMPTY"
       ? null
@@ -386,6 +385,11 @@ export function GetTodaysReadingPath(path) {
       );
     } else if (currentSeason.key === "JONAH_FEAST") {
       filePath = updateFilePath(`JonahPassover`);
+    } else {
+      console.log(`Days${currentSeason.copticMonth}${currentSeason.copticDay}`);
+      filePath = updateFilePath(
+        `Days${currentSeason.copticMonth}${currentSeason.copticDay}`
+      );
     }
   } else if (isLenten) {
     filePath = updateFilePath(
@@ -413,6 +417,8 @@ export function GetTodaysReadingPath(path) {
       "LiturgyPaulineCoptic",
       "LiturgyCatholicCoptic",
       "LiturgyActsCoptic",
+      "EveningPsalm",
+      "EveningGospel",
     ];
     if (liturgyPaths.includes(path)) {
       return filePath + commonPart + path;

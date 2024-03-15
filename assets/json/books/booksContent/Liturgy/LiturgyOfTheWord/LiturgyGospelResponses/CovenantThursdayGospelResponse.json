@@ -1,0 +1,51 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد الإنجيل قداس خميس العهد",
+  "EnglishTitle": "Gospel Response - Covenant Thursday Litrurgy",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الجسد والدم الذين لك، هما لمغفرة خطايانا، مع العهد الجديد، الذي أعطيته لتلاميذك.",
+      "Coptic": "Picwma nem Pi`cnof `ntak> pe `pxw `ebol `nte nennobi> nem ;diaqhkh `mberi> `etakthic `nnekmaqhthc.",
+      "English": "The Body and the Blood that are Yours / for the forgiveness of our sins / and the New Covenant, / which You gave to Your Disciples.",
+      "Arabiccoptic": " بي سوما نيم بي اسنوف انطاك : بي ابكو افول انتيه نين نوفي : نيم تي ذياثيكي امفيري : ايطاك تيس اننيك ماثيتيس  . ",
+      "Englishcoptic": "Pisooma nem Piesnof en-tak: pe epkhoo evol en-te nen-novi: nem ti-ziatheekee emveri: etakteeis en-nek-matheetees."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "إستحققنا شجرة الحياة، لنأكل منها، أي جسد الله، ودمه الحقيقيين.",
+      "Coptic": "Aner`pem`p]a `mpi`]]hn `nte `pwn=> eqrenouwm `ebol `n=htf> `ete vai pe `Pcwma `m`Vnou;> nem Pef`cnof `n`alhqinon.",
+      "English": "We have become worthy to have, the Tree of Life to eat from, which is the Body of God, and His true Blood.",
+      "Arabiccoptic": "أن إر إب إبشا إمبى إش شين انتى ابؤنخ: إثرينوؤم ايفول انخيتف: ايتى فاى بي إبسوما إم إفنوتى: نيم بيف إسنوف إن آليثينون  .",
+      "Englishcoptic": "An-er emepsha empi-eshin ente ep-onkh : ethren-o-om evol enkhitf : ete fai pe epsoma em-Evnoti : nem pef-esnof en-alithenos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.",
+      "Coptic": "Je `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.",
+      "English": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
+      "Arabiccoptic": "جى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.",
+      "Englishcoptic": "Je ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas."
+    }
+  ]
+}

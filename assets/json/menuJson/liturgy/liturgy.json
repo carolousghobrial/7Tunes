@@ -9,7 +9,8 @@
             "BookPath": "vespers",
             "ImageURL": "censer",
             "Enabled": true,
-            "BishopButton": true
+            "BishopButton": true,
+            "Visible": "ShowVespers"
         },
         {
             "EnglishTitle": "Matins",
@@ -33,6 +34,18 @@
             "Enabled": false,
             "PermissionStatus": "holyLiturgyPermission",
             "PurchaseKey": "HolyLiturgy"
+        },
+        {
+            "EnglishTitle": "Evening Prayers",
+            "ArabicTitle": "صلاة المساء",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "eveningPrayers",
+            "ImageURL": "eveningPrayers",
+            "Enabled": true,
+            "BishopButton": true,
+            "Visible": "ShowEveningPrayer"
         }
     ]
 }

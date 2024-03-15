@@ -1,0 +1,47 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "اسبازموس أدام خميس العهد",
+  "EnglishTitle": "Adam Aspasmos for Covenant Thursday",
+  "CopticTitle": "Piwik `nte `pwn=>",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خبز الحياة الذى نزل من السماء، وهب الحياة للعالم.",
+      "Coptic": "Piwik `nte `pwn=> `etaf`i epecht> nan `ebol=en `tve> av; `m`pwn= `mpikocmoc.",
+      "English": "The Bread of life, which came down for us from heaven, has given life to the world.",
+      "Arabiccoptic": "بي اويك انتى ابؤنخ : ايطاف اي ابسيت: نان ايفول خين اتفى : افتي امابؤنخ امبي كوزموس",
+      "Englishcoptic": "Piooik en-te epoonkh: etaf-ee epeseet: nan evolkhen etve: avti emep-oonkh empi-kosmos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولدته بغير دنس، وأعطانا جسده ودمه الكريم فحيينا الى الأبـد.",
+      "Coptic": "`Aremacf asne qwleb> af; nan `mpefcwma> nem pef`cnof ettai`hout> anwn= ]a `ene\\.",
+      "English": "You have brought Him forth without blemish; He gave us His body and His precious blood, and we live forever.",
+      "Arabiccoptic": "اري ماسف اتشني ثوليب : افتي نان امبيف سوما : نيم بيف اسنوف اطايوت : ان اونخ شا اينيه",
+      "Englishcoptic": "Aremasf achne thooleb: afti nan empefsooma: nem pefesnof ettai-eeoot: anoonkh sha en-eh."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAspasmosCont",
+      "Rule": 0,
+      "Visible": true
+    }
+  ]
+}

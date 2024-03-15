@@ -124,29 +124,29 @@
             "Visible": "isSeason"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "ذكصولوجية ثالثة الصوم الكبير",
             "English": "Third Great Fast Doxology",
             "Coptic": "Amwini `anau `epenCwthr",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "isSeason",
             "Path": "DoxologiesLentLentThirdDoxology"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "ذكصولوجية رابعة الصوم الكبير",
             "English": "Fourth Great Fast Doxology",
             "Coptic": "PiMairwmi `n`agaqoc",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "isSeason",
             "Path": "DoxologiesLentLentFourthDoxology"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "ذكصولوجية خامسة الصوم الكبير",
             "English": "Fifth Great Fast Doxology",
             "Coptic": ":nhctia nem pi`]lhl",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "isSeason",
             "Path": "DoxologiesLentLentFifthDoxology"
         },
@@ -322,10 +322,10 @@
             "SAINT": "ST_GEORGE"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "ذكصولوجية مارجرجس 2",
             "English": "St.George Doxology 2",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "DOXSaint",
             "Path": "DoxologiesStGeorge2",
             "SAINT": "ST_GEORGE"
@@ -510,6 +510,12 @@
             "Path": "DoxologiesPatriarch",
             "Rule": 0,
             "Visible": "BishopIsPresent"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesCross",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",

@@ -4,6 +4,7 @@ const homescreenPaths = {
   psalmody: require("../assets/json/menuJson/psalmody/psalmody.json"),
   liturgy: require("../assets/json/menuJson/liturgy/liturgy.json"),
   liturgyOfBelievers: require("../assets/json/menuJson/liturgy/liturgyBelievers.json"),
+  liturgyOfBelieversCovenantThursday: require("../assets/json/menuJson/liturgy/liturgyBelieversCovenantThursday.json"),
   liturgyofStBasil: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/liturgyofStBasil.json"),
   liturgyofStGregory: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/liturgyofStGregory.json"),
   liturgyOfWord: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/liturgyOfWord.json"),
@@ -11,6 +12,7 @@ const homescreenPaths = {
   LiturgyLiturgyOfTheWordPaplHymnsMenu: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/papalHymns.json"),
   LiturgyLiturgyOfTheWordChantedLiturgyPsalm: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/chantedLiturgyPsalm.json"),
   LiturgyRaisingOfIncenseChantedVespersPsalm: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/chantedVespersPsalm.json"),
+  LiturgyRaisingOfIncenseChantedEveningPsalm: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/chantedVespersPsalm.json"),
   LiturgyRaisingOfIncenseChantedMatinsPsalm: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/chantedMatinsPsalm.json"),
   LiturgyRaisingOfIncenseProphecies: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/prophecies.json"),
   LiturgyLiturgyOfTheWordCopticCatholic: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/copticCatholic.json"),
@@ -28,6 +30,7 @@ const homescreenPaths = {
   index: require("../assets/json/menuJson//index.json"),
   vp: require("../assets/json/menuJson/psalmody/vesperspraises.json"),
   mp: require("../assets/json/menuJson/psalmody/midnightpraises.json"),
+  eveningPrayers: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/eveningPrayers.json"),
   paschaSunday: require("../assets/json/menuJson/pascha/sunday.json"),
   paschamondayeve: require("../assets/json/menuJson/pascha/mondayeve.json"),
   paschamonday: require("../assets/json/menuJson/pascha/monday.json"),
@@ -299,6 +302,14 @@ const homescreenPaths = {
   ThursdayDayNinthHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/NinthHour/PsalmAndGospel.json"),
   ThursdayDayNinthHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/NinthHour/copticProphecies.json"),
   ThursdayDayNinthHourProphecies: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/NinthHour/Prophecies.json"),
+  //Liturgy
+  offertoryCovenantThursday: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/HolyLiturgy/offertory.json"),
+  liturgyOfWordCovenantThursday: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/HolyLiturgy/liturgyOfWord.json"),
+  copticPaulineEpistleCovenantThursday: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/HolyLiturgy/copticPaulineEpistle.json"),
+  chantedLiturgyPsalmCovenantThursday: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/HolyLiturgy/chantedLiturgyPsalm.json"),
+  liturgyofStBasilCovenantThursday: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/HolyLiturgy/liturgyofStBasil.json"),
+  liturgyofStGregoryCovenantThursday: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/HolyLiturgy/liturgyofStGregory.json"),
+
   //Eleventh
   ThursdayDayEleventhHourMain: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/EleventhHour/mainPrayer.json"),
   ThursdayDayEleventhHourcopticPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/EleventhHour/copticPsalmAndGospel.json"),

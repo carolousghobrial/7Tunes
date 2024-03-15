@@ -1,0 +1,244 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "قداس القديس باسيليوس",
+            "English": "Liturgy of St.Basil"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordInTheWisdom",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersCreed",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosCovenantThursday",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilThroughTheIntercessions",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilAnaphora",
+            "Rule": 0,
+            "Visible": true,
+            "mother": "liturgyofStBasilCovenantThursday",
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryAnaphora"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "اسباسموس واطس",
+            "English": "Watos Aspasmos",
+            "Rule": "OpenPageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmos"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilTheCherubim",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilAgiosAgiosAgios",
+            "Rule": 0,
+            "Visible": true,
+            "mother": "liturgyofStBasilCovenantThursday",
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryAgiosAgiosAgios"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilWasIncarnate",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilHeRose",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilInstitutionNarrative",
+            "Rule": 0,
+            "mother": "liturgyofStBasilCovenantThursday",
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryInstitutionNarrative"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilEpiclesis",
+            "Rule": 0,
+            "Visible": true,
+            "mother": "liturgyofStBasilCovenantThursday",
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryEpiclesis"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "نَعَم نَسألُكَ",
+            "English": "Yea, we ask You,",
+            "Rule": "OpenSinglePageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryYeaWeAskYou"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfPeace",
+            "Rule": 0,
+            "Visible": true,
+            "mother": "liturgyofStBasilCovenantThursday",
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfPeace"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfPope",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfClergy",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfMercy",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfPlace",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "لأن شعبَكَ",
+            "English": "For Your people ",
+            "Rule": "OpenSinglePageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryJeNaiNan"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyAir",
+            "Rule": 0,
+            "Visible": "getPlantsSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyWaters",
+            "Rule": 0,
+            "Visible": "getPlantsSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyPlants",
+            "Rule": 0,
+            "Visible": "getPlantsSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseRaiseThemToTheirMeasure",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfOblations",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "فيقول الشعب \" كما كان ... \" بعدها مباشرة ولايصلى المجمع أو الترحيم",
+            "English": "The Congregation chants \"As it was\" directly after the Litany of the Oblations. The commemoration of the saints and the diptych are not prayed."
+        },
+        {
+            "Type": "Button",
+            "Arabic": "(الغريغوري)كما كان ",
+            "English": "As it was (Gregorian)",
+            "Rule": "OpenSinglePageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryAsItWas"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilAsItWas",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilLeadUsThroughoutTheWay",
+            "Rule": 0,
+            "Visible": true,
+            "mother": "liturgyofStBasilCovenantThursday",
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryThatAsInThis"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilIntroductionToTheFraction",
+            "Rule": 0,
+            "Visible": true,
+            "mother": "liturgyofStBasilCovenantThursday",
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryIntroductionToTheFraction"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversFractionsCovenantThursday",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilPrayersAferFraction",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilTheConfession",
+            "Rule": 0,
+            "Visible": true,
+            "mother": "liturgyofStBasilCovenantThursday",
+            "Switch": "LiturgyLiturgyOfTheBelieversStGregoryTheConfession"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "الفصول التى تتلى فى توزيع قداس خميس العهد",
+            "English": "The Readings during the Covenant Thursday Distribution ",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "distribution"
+        }
+    ]
+}

@@ -232,18 +232,18 @@
             "Visible": "isKiahk"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "مديح شيرى نى ماريا",
             "English": "Shere ne Maria Melody",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "isKiahk",
             "Path": "KiahkMidnightPraisesMelodiesShereNeMariaMelody"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "مديح راشي او ماريا",
             "English": "Rashi O Maria Melody",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "isKiahk",
             "Path": "KiahkMidnightPraisesMelodiesRashiOMariaMelody"
         },
@@ -254,10 +254,10 @@
             "Visible": "isKiahk"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "مديح يا إبنة داود",
             "English": "O Daughter of David Melody",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "isKiahk",
             "Path": "KiahkMidnightPraisesMelodiesODaughterOfDavid"
         },
@@ -268,18 +268,18 @@
             "Visible": "isNOTVespersPraises"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "طرح يقال بعد أفموتى",
             "English": "Exposition on the 9th part of the Sunday Theotokia",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "isKiahk",
             "Path": "KiahkMidnightPraisesExpositionsExpositionAfterAvmoti"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "ابصالية آدام تقال علي تي أوي ان هيكانوس",
             "English": "Adam Psali on the 10th Part of Sunday Theotokia",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "isKiahk",
             "Path": "KiahkMidnightPraisesHymnsAinahosKhenOgom"
         },
@@ -344,10 +344,10 @@
             "Visible": "TennavRule"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "طرح آدام للفعلة",
             "English": "Adam Exposition for the Laborers",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "isKiahk",
             "Path": "KiahkMidnightPraisesExpositionsExpositionOfTheLaborers"
         },
@@ -400,10 +400,10 @@
             "Visible": "isKiahk"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "طرح يقال على نكناى أوبانوتى",
             "English": "Exposition on the Conclusion of the Adam Theotokia",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "isKiahk",
             "Path": "KiahkMidnightPraisesExpositionsExpositionNeknai"
         }

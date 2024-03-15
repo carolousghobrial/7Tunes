@@ -22,7 +22,7 @@ const settingsSlice = createSlice({
     kiahkPsalmodyPermission: false,
     paschaBookPermission: false,
     holyLiturgyPermission: false,
-    timeTransition: new Date().setHours(18, 0, 0),
+    timeTransition: new Date().setHours(17, 0, 0),
     pagination: false,
     isTablet: false,
     firstPurge: false,

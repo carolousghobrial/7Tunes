@@ -222,7 +222,10 @@ const isLenten = (motherSource, path) => {
   return motherSource === "lentenPsalmody" ? true : false;
 };
 const IsLiturgy = (motherSource, path) => {
-  return motherSource === "offertory" ? true : false;
+  return motherSource === "offertory" ||
+    motherSource === "offertoryCovenantThursday"
+    ? true
+    : false;
 };
 const isStandardVespersPraises = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -676,7 +679,14 @@ const inRaisingOfIncense = (motherSource, path) => {
     : false;
 };
 const isCovenantThursday = (motherSource, path) => {
-  return motherSource === "ThursdayDayFirstHourMain" ? true : false;
+  switch (motherSource) {
+    case "ThursdayDayFirstHourMain":
+    case "liturgyofStBasilCovenantThursday":
+    case "liturgyofStGregoryCovenantThursday":
+      return true;
+    default:
+      return false;
+  }
 };
 const AdamConclusionDoxologies = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -748,7 +758,6 @@ const isLentWeekdayOrJonah = (motherSource, path) => {
 };
 const isLentWeekdayOrJonahAndLastFirstLent = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  console.log(currentSeason);
   if (currentSeason.key === "JONAH_FAST") {
     return true;
   }
@@ -824,7 +833,7 @@ const isAdam = (motherSource, path) => {
 
   return true;
 };
-const isNOTLentWeekdayOrJonah = (motherSource, path) => {
+export const isNOTLentWeekdayOrJonah = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (motherSource === "ThursdayDayFirstHourMain") {
     return true;
@@ -957,16 +966,27 @@ const isResurrectionFeast = (motherSource, path) => {
   return false;
 };
 const CreedHolyWeek = (motherSource, path) => {
-  if (
-    motherSource === "ThursdayDayFirstHourMain" ||
-    motherSource.toLowerCase()?.includes("brightsaturday")
-  ) {
-    return false;
+  switch (motherSource) {
+    case "ThursdayDayFirstHourMain":
+    case "liturgyofStBasilCovenantThursday":
+    case "liturgyofStGregoryCovenantThursday":
+      return false;
+    default:
+      if (motherSource.toLowerCase()?.includes("brightsaturday")) {
+        return false;
+      }
+      return true;
   }
-  return true;
 };
 const CreedCrucified = (motherSource, path) => {
-  return motherSource !== "ThursdayDayFirstHourMain" ? true : false;
+  switch (motherSource) {
+    case "ThursdayDayFirstHourMain":
+    case "liturgyofStBasilCovenantThursday":
+    case "liturgyofStGregoryCovenantThursday":
+      return false;
+    default:
+      return true;
+  }
 };
 const isTwelfthHourGoodFriday = (motherSource, path) => {
   return motherSource === "FridayDayTwelfthHourMain" ? true : false;
@@ -1601,13 +1621,22 @@ export function TakeFromHathor(currentSeason) {
 }
 
 //ReplacingIndex
-const ComeRisenRule = (rule, part) => {
+const ComeRisenRule = (motherSource, part) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const fastsFeasts = getCopticFastsFeasts(currentSeason.gregorianYear);
 
   const KIAHK = fastsFeasts.find((element) => element.key === "NATIVITY_FAST");
 
   const PENTECOST = fastsFeasts.find((element) => element.key === "PENTECOST");
+  if (motherSource?.includes("CovenantThursday")) {
+    return {
+      english: "were crucified",
+      coptic: "aua]k",
+      arabic: "صلبت",
+      englishcoptic: "av-ashk",
+      arabiccoptic: "اف اشك",
+    };
+  }
   switch (currentSeason.key) {
     case "NATIVITY":
     case "NATIVITY_PARAMOUN":

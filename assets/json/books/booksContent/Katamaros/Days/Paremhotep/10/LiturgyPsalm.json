@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٦٤: ٢،١)",
+  "EnglishTitle": "Psalms 65:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لك يَنْبَغِي التَّسْبِيحَ يَا اللهُ فِي صِهْيَوْنَ ، وَلَكَ تُوقَى النُّذُورُ فِي أُورُشَلِيمَ.",
+      "English": "65:1 Praise is awaiting You, O God, in Zion; And to You the vow shall be performed.  \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اسْتَمِعُ يَا اللَّهُ صَلَاتِي لِأَنَّهُ إِلَيْكَ يَأْتِي كُلُّ بَشَرٍ. هَلِلُويَا.",
+      "English": "2 O You who hear prayer, To You all flesh will come.     Alleluia\r"
+    }
+  ]
+}

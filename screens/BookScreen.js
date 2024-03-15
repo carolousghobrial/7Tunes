@@ -37,6 +37,7 @@ import { getFullViewModel } from "../viewModel/getFullViewModel";
 import FloatingButton from "../components/ViewTypes/FloatingBishopButton";
 import { PanGestureHandler, State } from "react-native-gesture-handler";
 import { isAction } from "@reduxjs/toolkit";
+import AccordionView from "../components/ViewTypes/AccordionView.js";
 
 const HeaderRightButtons = ({ onPressSettings, onPressContents }) => (
   <>
@@ -140,7 +141,15 @@ const BookScreen = React.memo(({ navigation, route }) => {
       }
     }
   }).current;
+  const [expanded, setExpanded] = useState([]);
 
+  const toggleAccordion = (index) => {
+    const expandedCopy = [...expanded];
+
+    expandedCopy[index] = !expandedCopy[index];
+
+    setExpanded(expandedCopy);
+  };
   useEffect(() => {
     const fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
     const fontsize = isTablet ? 30 : 15;
@@ -233,11 +242,22 @@ const BookScreen = React.memo(({ navigation, route }) => {
       MainTitle: <MainTitleView item={item.part} />,
       Button: (
         <ButtonView
+          mykey={item.key}
           item={item.part}
           motherSource={bookPath}
           flatListRef={flatListRef}
           viewData={bookContents}
           navigation={navigation}
+        />
+      ),
+      Accordion: (
+        <AccordionView
+          mykey={item.key}
+          flatListRef={flatListRef}
+          item={item.part}
+          motherSource={bookPath}
+          toggleAccordion={toggleAccordion}
+          expanded={expanded}
         />
       ),
     };
@@ -320,6 +340,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
           showsVerticalScrollIndicator={false}
           data={bookContents}
           // scrollEnabled={!pagination}
+
           onScrollToIndexFailed={onScrollToIndexFailed}
           initialNumToRender={bookContents.length}
           bounces={false}

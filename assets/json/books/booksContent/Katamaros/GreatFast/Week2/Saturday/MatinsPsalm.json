@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٧:٢٤، ١٠ )",
+  "EnglishTitle": "Psalms 25:7-8, 11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حَسَبَ رَحْمَتِكَ اذْكُرنِي أَنْتَ ، مِنْ أَجْلِ صَلَاحِكَ يَا رَبُّ ،",
+      "English": "7 According to Your mercy remember me, For Your goodness' sake, O Lord \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لِأَنَّهُ صَالِحٌ ومُسْتَقِيمٌ هُوَ الرَّبُّ ،",
+      "English": "8 Good and upright is the Lord.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " مِنْ أَجْلِ اسْمِكَ يَا رَبُّ تَغْفِرُ لِي خَطِيَّتِى لِأَنَّهَا كَثِيرَةٌ. هَتِلُويَا.",
+      "English": "11 For Your name's sake, O Lord, Pardon my iniquity, for it is great.     Alleluia\r"
+    }
+  ]
+}

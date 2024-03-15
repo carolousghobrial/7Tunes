@@ -1,0 +1,503 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ سِفْرِ صَمُوئِيلَ الْأَوَّلِ بَرَكَتْهُ الْمُقَدَّسَةُ فَلْتَكُنْ مَعَنَا آمِينْ . ( ۱۷ : ۱ - ۱۸: ١-٤ )",
+  "EnglishTitle": "1 Samuel 17:1-18:4\r",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَجَمَعَ الْفِلِسْطِينِيُّونَ جُيُوشَهُمْ لِلْحَرْبِ ، فَاجْتَمَعُوا فِي سُوكُوهَ الَّتِي لِيَهُوذَا ، وَنَزَلُوا بَيْنَ سُوكُوهَ وَعَزِيقَة فِي أَطْرَافِ دَمِّيمَ. ",
+      "English": "17:1 Now the Philistines gathered their armies together to battle, and were gathered together at Sochoh, which belongs to Judah; they encamped between Sochoh and Azekah, in Ephes Dammim. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَاجْتَمَعَ شَاوُلُ وَرِجَالُ إِسْرَائِيلَ وَنَزَلُوا فِي وَادِي الْبُطْمَةِ ، وَاصْطَفُوا لِمُحَارَبَةِ الْفِلِسْطِينِيِّينَ. ",
+      "English": "2 And Saul and the men of Israel were gathered together, and they encamped in the Valley of Elah, and drew up in battle array against the Philistines. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَوَقَفَ الْفِلِسْطِينِيُّونَ عَلَى جَبَلٍ مِنْ هَهُنَا ، وَوَقَفَ إِسْرَائِيلُ عَلَى جَبَلٍ مِنْ هُنَاكَ ، وَبَيْنَهُمُ الْوَادِي. ",
+      "English": "3 The Philistines stood on a mountain on one side, and Israel stood on a mountain on the other side, with a valley between them. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَخَرَجَ رَجُلٌ مُبَارِزُ مِنْ جُيُوشِ الْفِلِسْطِينِتِينَ اسْمُهُ جُلْيَاتُ ، مِنْ جَتْ ، وَكَانَ طُولُهُ سِتَّ أَذْرُعٍ وَشِبْرًا ، ",
+      "English": "4 And a champion went out from the camp of the Philistines, named Goliath, from Gath, whose height was six cubits and a span. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَعَلَى رَأْسِهِ خُوذَةٌ مِنْ نُحَاسٍ ، وَكَانَ لَابِسًا دِرْعًا حَرْشَفِيَةً ، وَوَزْنُ الْدِرْعِ خَمْسَةُ آلَافِ مِثْقَالِ نُحَاسٍ ، ",
+      "English": "5 He had a bronze helmet on his head, and he was armed with a coat of mail, and the weight of the coat was five thousand shekels of bronze. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَعَلَى رِجْلَيْهِ سَاقَانِ مِنْ نُحَاسٍ ، وَبَيْنَ كَتِفَيْهِ مِزْرَاقٌ مِنْ نُحَاسٍ ، ",
+      "English": "6 And he had bronze armor on his legs and a bronze javelin between his shoulders. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَنَاةُ رُمْحِهِ كَنَوْلِ النسَّاجِ ، وَوَزْنُ سِنَانُ رُمْحِهِ سِتُّ مِئَةِ مِثْقَالِ حَدِيدٍ ، وَكَانَ بَيْنَ يَدَيْهِ رَجُلٌ يَحْمِلُ تُرْسَهُ. ",
+      "English": "7 Now the staff of his spear was like a weaver's beam, and his iron spearhead weighed six hundred shekels; and a shield-bearer went before him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَوَقَفَ وَنَادَى صُفُوفَ إِسْرَائِيلَ وَقَالَ لَهُمْ: \" لِمَاذَا تَخْرُجُونَ لِلاِصْطِفَافِ فِي الْحَرْبِ ؟ أَلَيْسَ أَنَا فِلِسْطِينِي ، وَأَنْتُمْ عَبِيدٌ لِشَاوُلَ ؟ فَاخْتَارُوا رَجُلًا يُنَازِلْنِي. ",
+      "English": "8 Then he stood and cried out to the armies of Israel, and said to them, Why have you come out to line up for battle? Am I not a Philistine, and you the servants of Saul? Choose a man for yourselves, and let him come down to me. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَإِنْ اسْتَطَاعَ أَنْ يُحَارِبَنِي وَقَتَلَنِي صِرْنَا لَكُمْ عَبِيدًا ، وَإِنْ ظَفِرْتُ أَنَا بِهِ وَقَتَلْتُهُ تَصِيرُونَ أَنْتُمْ لَنَا عَبِيدًا وَتَخْدِمُونَنَا \". ",
+      "English": "9 If he is able to fight with me and kill me, then we will be your servants. But if I prevail against him and kill him, then you shall be our servants and serve us. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَالَ الْفِلِسْطِينِيُّ : \" إِنِّي أُعَيّرُ صُفُوفَ إِسْرَائِيلَ الْيَوْمَ هَاتُوا لِي رَجُلًا يُبَارِزُني .\". ",
+      "English": "10 And the Philistine said, I defy the armies of Israel this day; give me a man, that we may fight together. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَسَمِعَ شَاوُلُ وَجَمِيعُ إِسْرَائِيلَ كَلَامَ الْفِلِسْطِينِي هَذَا فَارْتَاعُوا وَخَافُوا جِدًّا. ",
+      "English": "11 When Saul and all Israel heard these words of the Philistine, they were dismayed and greatly afraid. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ دَاوُدُ ابْنَ ذَلِكَ الرَّجُلِ الْأَفْرَاتِي مِنْ بَيْتَ لَحْمِ يَهُوذَا الَّذِي اسْمُهُ يَسَّى وَكَانَ لَهُ ثَمَانِيَةُ بَنِينَ. وَكَانَ الرَّجُلُ فِي عَهْدِ شَاوُلَ قَدْ شَاحَ وَكَبِرَ بَيْنَ النَّاسِ ",
+      "English": "12 Now David was the son of that Ephrathite of Bethlehem Judah, whose name was Jesse, and who had eight sons. And the man was old, advanced in years, in the days of Saul. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإِنَّ ثَلَاثَةً مِنْ بَنِيهِ الْكِبَارِ انْطَلَقُوا وَتَبِعُوا شَاوُلَ إِلَى الْحَرْبِ وَأَسْمَاءُ بَنِيهِ الثَّلَاثِ الَّذِينَ ذَهَبُوا إِلَى الْحَرْبِ : أَلِيَآبُ وَهُوَ الْبِكْرُ ، وَأَبِينَادَابُ ثَانِيهِ ، وَشَمَّةٌ ثَالِثُهُمَا. ",
+      "English": "13 The three oldest sons of Jesse had gone to follow Saul to the battle. The names of his three sons who went to the battle were Eliab the firstborn, next to him Abinadab, and the third Shammah. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ دَاوُدُ الْأَصْغَرَ. فانطلق الثلاثةُ الْكِبَارُ فِي أَثَرِ شاولَ. ",
+      "English": "14 David was the youngest. And the three oldest followed Saul. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَمَّا دَاوُدُ فَكَانَ يَذْهَبُ وَيَرْجِعُ مِنْ عِنْدِ شَاوُلَ لِيَرْعَى غَنَمَ أَبِيهِ فِي بَيْتَ لَحْمَ. ",
+      "English": "15 But David occasionally went and returned from Saul to feed his father's sheep at Bethlehem. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ الْفِلِسْطِينِيُّ يَبْرُزُ وَيَقِفْ صَبَاحًا وَمَسَاءً أَرْبَعِينَ يَوْمًا. ",
+      "English": "16 And the Philistine drew near and presented himself forty days, morning and evening. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَنَّ يَسَّى قَالَ لِدَاوُدَ ابْنِهِ: \" خُذْ لِإِخْوَتِكَ كَيْلَةً مِنْ هَذَا الْفَرِيكِ ، وَهَذِهِ الْأَرْغِفَةَ العَشَرَةَ ، وَهَلُّمَ إِلَى إِخْوَتِكَ فِي الْمَحَلَّةِ. ",
+      "English": "17 Then Jesse said to his son David, Take now for your brothers an ephah of this dried grain and these ten loaves, and run to your brothers at the camp. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَهَذِهِ الْعَشْرَ الْقِطْعَاتِ الْجُبْنِ قَدِّمُهَا لِرَئِيسِ الْأَلْفِ ، وَافْتَقِدْ سَلَامَةَ إِخْوَتِكَ وَخُذْ مِنْهُمْ عَرْبُونًا \". ",
+      "English": "18 And carry these ten cheeses to the captain of their thousand, and see how your brothers fare, and bring back news of them. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ شَاوُلُ هُوَ وَجَمِيعُ رِجَالِ إِسْرَائِيلَ فِي وَادِي الْبُطْمَةِ يُحَارِبُونَ الْفِلِسْطِينِيِّينَ. ",
+      "English": "19 Now Saul and they and all the men of Israel were in the Valley of Elah, fighting with the Philistines. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَبَكَّرَ دَاوُدُ سَحَرًا وَوَكَّلَ الْغَنَمَ إِلَى مَنْ يَحْفَظْهَا ، وَحَمَلَ وَانْطَلَقَ كَمَا أَمَرَهُ يَسَّى ، وَأَتَى إِلَى الْمِتْرَسَةِ ، وَكَانَ الْجَيْسُ قَدْ خَرَجُوا لِلاِصْطِفَافِ وَهَتَفُوا لِلْحَرْبِ. ",
+      "English": "20 So David rose early in the morning, left the sheep with a keeper, and took the things and went as Jesse had commanded him. And he came to the camp as the army was going out to the fight and shouting for the battle. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَاصْطَفَ إِسْرَائِيلُ وَالْفِلِسْطِينِيُّونَ صَفًّا بِإِزَاءِ صَفٌ. ",
+      "English": "21 For Israel and the Philistines had drawn up in battle array, army against army. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَتَرَكَ دَاوُدُ الْأَوْعِيَةَ الَّتِي مَعَهُ فِي يَدِ حَافِظِ الْأَمْتِعَةِ ، وَرَكَضَ إِلَى الصَّفِّ وَأَتَى وَسَأَلَ عَنْ سَلَامَةِ إِخْوَتِهِ. ",
+      "English": "22 And David left his supplies in the hand of the supply keeper, ran to the army, and came and greeted his brothers. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبَيْنَمَا هُوَ يُكَلِّمُهُمْ إِذَا الرَّجُلُ الْمُبَارِزُ الْمُسَمَّى جَلْيَاتَ الْفِلِسْطِينِيَّ مِنْ جَتَّ ، قَدْ خَرَجَ مِنْ صَفٌ الْفِلِسْطِينِيِّينَ وَتَكَلَّمَ بِذَلِكَ الْكَلَامِ عَيْنِهِ ، فَسَمِعَهُ دَاوُدُ. ",
+      "English": "23 Then as he talked with them, there was the champion, the Philistine of Gath, Goliath by name, coming up from the armies of the Philistines; and he spoke according to the same words. So David heard them. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمَّا رَأَى جَمِيعُ بَنِي إِسْرَائِيلَ الرَّجُلَ هَرَبُوا مِنْ وَجْهِهِ وَخَافُوا جِدًّا. ",
+      "English": "24 And all the men of Israel, when they saw the man, fled from him and were dreadfully afraid. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَالَ رِجَالُ إِسْرَائِيلَ : \" أَرَأَيْتُمْ هَذَا الرَّجُلَ المُبَارِزَ ؟ إِنَّمَا هُوَ بَارِزْ لِيُعَيّرَ إِسْرَائِيلَ. مَنْ قَتَلَهُ يُغْنِيهِ الْمَلِكُ غِنَّىً جَزِيلًا، وَيُزَوِّجُهُ ابْنَتَهُ ، وَيَصِيرُ أَهْلُ بَيْتِهِ مُعْفَيْنَ فِي إِسْرَائِيلَ ",
+      "English": "25 So the men of Israel said, Have you seen this man who has come up? Surely he has come up to defy Israel; and it shall be that the man who kills him the king will enrich with great riches, will give him his daughter, and give his father's house exemption from taxes in Israel. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ دَاوُدُ لِلَّذِينَ كَانُوا وَاقِفِينَ مَعَهُ: \" مَاذَا يَكُونُ لِمَنْ يَقْتُلُ هَذَا الْفِلِسْطِينِيَّ ، وَيَصْرِفُ الْعَارَ عَنْ إِسْرَائِيلَ ؟ وَمَنْ عَسَى أَنْ يَكُونَ هَذَا الْفِلِسْطِينِيُّ الْأَقْلَفُ حَتَّى يُعَيّرَ صُفُوفَ اللَّهِ الْحَيِّ؟ \" ",
+      "English": "26 Then David spoke to the men who stood by him, saying, What shall be done for the man who kills this Philistine and takes away the reproach from Israel? For who is this uncircumcised Philistine, that he should defy the armies of the living God? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَكَلَّمَهُ الشَّعْبُ بِمِثْلِ ذَلِكَ الْكَلَامِ وَقَالُوا: \" هَكَذَا يَكُونُ لِمَنْ يَقْتُلُهُ \". ",
+      "English": "27 And the people answered him in this manner, saying, So shall it be done for the man who kills him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَسَمِعَ أَلِيَآبُ أَخُوهُ الْأَكْبَرُ مَا تَكَلَّمَ بِهِ مَعَ الرِّجَالِ ، فَاسْتَشَاطَ أَلِيَابُ غَضَبًا عَلَى دَاوُدَ وَقَالَ: \" لِمَاذَا نَزَلْتَ إِلَى هَهُنَا وَعِنْدَ مَنْ تَرَكْتَ تِلْكَ الْغُنَيْمَاتِ الْقَلَائِلَ فِي الْبَرِّيَّةِ ؟ إِنِّي عَرَفْتُ فُضُولَكَ وَخُبْثَ قَلْبِكَ ، أَنَّكَ إِنَّمَا نَزَلْتَ لِتَرَى الْحَرْبَ \". ",
+      "English": "28 Now Eliab his oldest brother heard when he spoke to the men; and Eliab's anger was aroused against David, and he said, Why did you come down here? And with whom have you left those few sheep in the wilderness? I know your pride and the insolence of your heart, for you have come down to see the battle. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ دَاوُدُ: \" مَاذَا صَنَعْتُ الْآنَ ؟ أَمَا هُوَ كَلَامٌ ؟ \". ",
+      "English": "29 And David said, What have I done now? Is there not a cause? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَانْصَرَفَ مِنْ عِنْدِهِ إِلَى نَاحِيَةٍ أُخْرَى ، وَقَالَ مِثْلَ قَوْلِهِ الْأَوَّلِ ، فَأَجَابَهُ الشَّعَبُ بِجَوَابِهِمُ الْأَوَّلِ. ",
+      "English": "30 Then he turned from him toward another and said the same thing; and these people answered him as the first ones did. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَسُمِعَ الْكَلَامُ الَّذِي تَكَلَّمَ بِهِ دَاوُدُ وَتَحَدَّثُوا بِهِ أَمَامَ شَاوُلَ ، فَاسْتَحْضَرَهُ. ",
+      "English": "31 Now when the words which David spoke were heard, they reported them to Saul; and he sent for him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ دَاوُدُ لِشَاوُلَ : \" لَا يَفْشَلْ قَلْبُ أَحَدٍ بِسَبَبِهِ. فَإِنَّ عَبْدَكَ يَنْطَلِقُ وَيُحَارِبُ هَذَا الْفِلِسْطِينِيَّ \". ",
+      "English": "32 Then David said to Saul, Let no man's heart fail because of him; your servant will go and fight with this Philistine. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ شَاوُلُ لِدَاوُدَ: \" لَا طَاقَةَ لَكَ بِلِقَاءِ هَذَا الْفِلِسْطِينِي وَقِتَالِهِ لِأَنَّكَ أَنْتَ غُلَامٌ وَهُوَ رَجُلٌ حَرْبٍ مُنْذُ صِبَاهُ .\". ",
+      "English": "33 And Saul said to David, You are not able to go against this Philistine to fight with him; for you are a youth, and he a man of war from his youth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ دَاوُدُ لِشَاوُلَ : \" كَانَ عَبْدُكَ يَرْعَى غَنَمَ أَبِيهِ ، فَكَانَ يَجِيءُ أَسَدٌ وَتَارَةً دُبِّ وَيَخْطَفُ شَاةً مِنَ الْقَطِيعِ ، ",
+      "English": "34 But David said to Saul, Your servant used to keep his father's sheep, and when a lion or a bear came and took a lamb out of the flock, \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَكُنتُ أَخْرُجُ وَرَاءَهُ وَأَضْرِبُهُ وَأَخَلَّصْهَا مِنْ فِيهِ ، فَلَمَّا وَثَبَ عَلَيَّ أَخَذْتُ بِذَقْنِهِ وَضَرَبْتُهُ فَقَتَلْتُهُ. ",
+      "English": "35 I went out after it and struck it, and delivered the lamb from its mouth; and when it arose against me, I caught it by its beard, and struck and killed it. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَدْ قَتَلَ عَبْدُكَ أَسَدًا وَدُبًا وَسَيَكُونُ هَذَا الْفِلِسْطِينِيُّ الْأَقْلَفُ مِثْلَ وَاحِدٍ مِنْهُمَا ، لِأَنَّهُ قَدْ عَيَّرَ صفوف اللهِ الْحَيّ \". ",
+      "English": "36 Your servant has killed both lion and bear; and this uncircumcised Philistine will be like one of them, seeing he has defied the armies of the living God. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَالَ دَاوُدَ: \" إِنَّ الرَّبَّ الَّذِي أَنْقَذَنِي مِنْ أَيْدِي الْأَسَدِ وَالدُّبِ هُوَ يُخَلِّصُنِي مِنْ يَدِ هَذَا الْفِلِسْطِينِي \". فَقَالَ شَاوُلُ لِدَاوُدَ: \" انْطَلِقُ وَلْيَكُنِ الرَّبُّ مَعَكَ \". ",
+      "English": "37 Moreover David said, The Lord, who delivered me from the paw of the lion and from the paw of the bear, He will deliver me from the hand of this Philistine. And Saul said to David, Go, and the Lord be with you! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَلْبَسَ شَاوُلُ دَاوُدَ ثِيَابَهُ ، وَجَعَلَ عَلَى رَأْسِهِ خُوذَةً مِنْ نُحَاسٍ ، وَأَلْبَسَهُ دِرْعًا، ",
+      "English": "38 So Saul clothed David with his armor, and he put a bronze helmet on his head; he also clothed him with a coat of mail. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَتَقَلَّدَ دَاوُدُ سَيْفَهُ فَوْقَ ثِيَابِهِ وَأَرَادَ أَنْ يَمْشِيَ ، لِأَنَّهُ لَمْ يَكُنْ قَدْ جَرَّبَ. فَقَالَ دَاوُدُ لِشَاوُلَ : \" لَا أَسْتَطِيعُ أنْ أمْشِي بِهَذِهِ ، لأنّي لَمْ أَجَرَبْهَا \". وَنَزَعَهَا دَاوُدُ عَنْهُ. ",
+      "English": "39 David fastened his sword to his armor and tried to walk, for he had not tested them. And David said to Saul, I cannot walk with these, for I have not tested them. So David took them off. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ أَخَذَ عَصَاهُ بِيَدِهِ ، وَانْتَقَى لَهُ خَمْسَةَ حِجَارَةٍ مُلْسٍ مِنَ الْوَادِي وَوَضَعَهَا فِي كِنْفِ الرُّعَاةِ الَّذِي لَهُ ، أَي فِي الْجِرَابِ ، وَمِقْلَاعُهُ بِيَدِهِ وَبَرَزَ لِلْفِلِسْطِينِي. ",
+      "English": "40 Then he took his staff in his hand; and he chose for himself five smooth stones from the brook, and put them in a shepherd's bag, in a pouch which he had, and his sling was in his hand. And he drew near to the Philistine. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَتَقَدَّمَ الْفِلِسْطِينِيُّ وَاقْتَرَبَ إِلَى دَاوُدَ وَبَيْنَ يَدَيْهِ الْرَّجُلُ الحَامِلُ مِجْنَبَهُ. ",
+      "English": "41 So the Philistine came, and began drawing near to David, and the man who bore the shield went before him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَتَطَلَّعَ الْفِلِسْطِينِيُّ وَنَظَرَ دَاوُدَ فَاسْتَخَفَّ بِهِ لِأَنَّهُ كَانَ غُلَامًا أَشْقَرَ جَمِيلَ الْمَنْظَرِ. ",
+      "English": "42 And when the Philistine looked about and saw David, he disdained him; for he was only a youth, ruddy and good-looking. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ الْفِلِسْطِينِيُّ لِدَاوُدَ: \" أَكَلْبْ أَنَا حَتَّى تَأْتِيَني بِالعَصَا ؟ \". وَلَعَنَ الْفِلِسْطِينِيُّ دَاوُدَ بِآلِهَتِهِ، ",
+      "English": "43 So the Philistine said to David, Am I a dog, that you come to me with sticks? And the Philistine cursed David by his gods. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ قَالَ الْفِلِسْطِينِيُّ لِدَاوُدَ: \" هَلُّمَ فَأَجْعَلُ لَحْمَكَ لِطَيْرِ السَّمَاءِ وَوُحُوشِ الْبَرِّيَّةِ \". ",
+      "English": "44 And the Philistine said to David, Come to me, and I will give your flesh to the birds of the air and the beasts of the field! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ دَاوُدُ لِلْفِلِسْطِينِي: \" أَنْتَ تَأْتِينِي بِالسَّيْفِ وَالرُّمْحِ وَالْمِزْرَاقِ ، وَأَنَا آتِيكَ بِاسْمِ رَبِّ الْجُنُودِ إِلَهِ صُفُوفِ إِسْرَائِيلَ الَّذِينَ أَنْتَ عَيَّرْتَهُمْ ",
+      "English": "45 Then David said to the Philistine, You come to me with a sword, with a spear, and with a javelin. But I come to you in the name of the Lord of hosts, the God of the armies of Israel, whom you have defied. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فِي هَذَا الْيَوْمَ يَدْفَعُكَ الرَّبُّ إِلَى يَدَيَّ ، فَأَقْتُلُكَ وَأَقْطَعُ رَأْسَكَ عَنْ مَنْكِبَيْكَ. وَأَجْعَلُ جُثَثَ عَسْكَرِ الْفِلِسْطِينِيِّينَ الْيَوْمَ لِطَّيرِ السَّمَاءِ وَوُحُوشِ الْبَرِّيَّةِ ، حَتَّى تَعْلَمِ الْأَرْضِ كُلُّهَا أَنَّ لإِسْرَائِيلَ إِلهَا. ",
+      "English": "46 This day the Lord will deliver you into my hand, and I will strike you and take your head from you. And this day I will give the carcasses of the camp of the Philistines to the birds of the air and the wild beasts of the earth, that all the earth may know that there is a God in Israel. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَتَعْلَمَ هَذِهِ   الْجَمَاعَةُ كُلُّهَا أَنَّهُ لَيْسَ بِالسَّيْفِ وَالرُّمْح يُخَلِصُ الرَّبُّ ، لأَنَّ الْحَرْبَ لِلرَّبِّ وَهُوَ يَدْفَعُكُمْ إِلَى أَيْدِينَا \" ",
+      "English": "47 Then all this assembly shall know that the Lord does not save with sword and spear; for the battle is the Lord's, and He will give you into our hands. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ لَمَّا نَهَضَ الْفِلِسْطِينِي وَذَهَبَ وَتَقَدَّمَ لِمُلَافاةِ دَاوُدَ أَنَّ دَاوُدَ أَسْرَعَ وَجَرَى نَحْوَ الصَّفِّ لِمُلَاقَاةِ الْفِلِسْطِينِي. ",
+      "English": "48 So it was, when the Philistine arose and came and drew near to meet David, that David hastened and ran toward the army to meet the Philistine. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَدَّ دَاوُدُ يَدَهُ إِلَى الْكِنْفِ وَأَخَذَ مِنْهُ حَجَرًا وَقَذَفَهُ بِالْمِقْلَاعِ ، فَأَصَابَ الْفِلِسْطِينِيَّ فِي جَبْهَتِهِ ، فَانْغَرَزَ الْحَجَرُ فِي جَبْهَتِهِ ، فَسَقَطَ عَلَى وَجْهِهِ عَلَى الْأَرْضِ. ",
+      "English": "49 Then David put his hand in his bag and took out a stone; and he slung it and struck the Philistine in his forehead, so that the stone sank into his forehead, and he fell on his face to the earth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَظَفَرَ دَاوُدُ بِالْفِلِسْطِينِي بِالْمِقْلَاعِ وَالْحَجَرِ ، وَضَرَبَ الْفِلِسْطِينِيَّ وَقَتَلَهُ. وَلَمْ يَكُنْ فِي يَدِ دَاوُدَ سَيْفٌ. ",
+      "English": "50 So David prevailed over the Philistine with a sling and a stone, and struck the Philistine and killed him. But there was no sword in the hand of David. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَرَكَضَ دَاوُدُ وَوَقَفَ عَلَى الْفِلِسْطِينِي وَأَخَذَ سَيْفَهُ وَاخْتَرَطَهُ مِنْ غِمْدِهِ وَقَتَلَهُ وَقَطَعَ بِهِ رَأْسَهُ. فَلَمَّا رَأَى الْفِلِسْطِينِيُّونَ أَنَّ جَبَّارَهُمْ قَدْ قُتِلَ هَرَبُوا ",
+      "English": "51 Therefore David ran and stood over the Philistine, took his sword and drew it out of its sheath and killed him, and cut off his head with it. And when the Philistines saw that their champion was dead, they fled. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَوَثَبَ رِجَالُ إِسْرَائِيلَ وَيَهُوذَا وَهَتَفُوا وَجَرَوْا عَلَى أَعْقَابِ الْفِلِسْطِينِيِّينَ حَتَّى إِنْتَهَوْا إِلَى الْوَادِي ، وإلَى أَبْوَابِ عَقْرُونَ. وَسَقَط قَتْلَى الْفِلِسْطِينِيِّينَ فِي طَرِيقِ شَعَرَايِمَ إِلَى جَتَّ وَإِلَى عَقْرُونَ . ",
+      "English": "52 Now the men of Israel and Judah arose and shouted, and pursued the Philistines as far as the entrance of the valley and to the gates of Ekron. And the wounded of the Philistines fell along the road to Shaaraim, even as far as Gath and Ekron. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ رَجَعَ بَنُو إِسْرَائِيلَ عَنْ مُطَارَدَةِ الْفِلِسْطِينِيِّينَ وَانْتَهَبُوا مَحَلَّتَهُمْ ",
+      "English": "53 Then the children of Israel returned from chasing the Philistines, and they plundered their tents. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَخَذَ دَاوُدُ رَأْسَ الْفِلِسْطِينِي وَجَاءَ بِهِ إِلَى أُورُشَلِيمَ ، وَوَضَعَ عُدَّتَهُ فى خَيْمَتِهِ. ",
+      "English": "54 And David took the head of the Philistine and brought it to Jerusalem, but he put his armor in his tent. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَمَّا رَأَى شَاوُلُ دَاوُدَ حِينَ خَرَجَ لِلقَاءِ الْفِلِسْطِينِي قَالَ لِأَبْنَيرَ رَئيسِ الْجَيْشِ: \" ابْنُ مَنْ هَذَا الْغُلَامُ يَا أَبْنَيْرُ ؟ \" فَقَالَ أَبْنَيْرُ : \" حَيَّةٌ نَفْسُكَ أَيُّهَا الْمَلِكُ أَنِّي لَا أَعْرِفُهُ \" ",
+      "English": "55 When Saul saw David going out against the Philistine, he said to Abner, the commander of the army, Abner, whose son is this youth? And Abner said, As your soul lives, O king, I do not know. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ الْمَلِكُ : \" سَلِ ابْنُ مَنْ هَذَا الْفَتَى .\". ",
+      "English": "56 So the king said, Inquire whose son this young man is. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمَّا رَجَعَ دَاوُدُ مِنْ قَتْلِهِ الْفِلِسْطِينِي أَخَذَهُ أَبْنَيْرُ وَأَدْخَلَهُ عَلَى شَاوُلَ وَرَأْسُ الْفِلِسْطِينِي بِيَدِهِ. ",
+      "English": "57 Then, as David returned from the slaughter of the Philistine, Abner took him and brought him before Saul with the head of the Philistine in his hand. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُ شَاوُلُ: \" ابْنُ مَنْ أَنْتَ يَا فَتَى ؟ \" . فَقَالَ لَهُ دَاوُدُ: \" أَنَا ابْنُ عَبْدِكَ يَسَّى مِنْ بَيْتَ لَحْمَ \". ",
+      "English": "58 And Saul said to him, Whose son are you, young man? So David answered, I am the son of your servant Jesse the Bethlehemite. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَمَّا فَرَغَ دَاوُدُ مِنْ كَلَامِهِ مَعَ شَاوُلَ تَعَلَّقَتْ نَفْسُ يُونَاثَانَ بِنَفْسٍ دَاوُدَ ، وَأَحَبَّهُ يُونَاثَانُ كَنَفْسِهِ . ",
+      "English": "18:1 Now when he had finished speaking to Saul, the soul of Jonathan was knit to the soul of David, and Jonathan loved him as his own soul. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَخَذَهُ شَاوُلُ فِي ذلِكَ الْيَوْمِ وَلَمْ يَدَعْهُ يَرْجِعُ إِلَى بَيْتِ أَبِيهِ. ",
+      "English": "2 Saul took him that day, and would not let him go home to his father's house anymore. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَطَعَ يُونَاثَانُ مَعَ دَاوُدَ عَهْدًا لِأَنَّهُ أَحَبَّهُ مِثْلَ نَفْسِهِ . ",
+      "English": "3 Then Jonathan and David made a covenant, because he loved him as his own soul. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَخَلَعَ يُونَاثَانُ الرِّدَاءَ الَّذِي عَلَيْهِ وَوَهَبَهُ لِدَاوُدَ مَعَ سَائِرِ ثِيَابِهِ حَتَّى سَيْفَهُ وَقَوْسَهُ وَمِنْطَقَتَهُ  ",
+      "English": "4 And Jonathan took off the robe that was on him and gave it to David, with his armor, even to his sword and his bow and his belt.     Glory be to the Holy Trinity. Amen\r"
+    }
+  ]
+}

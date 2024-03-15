@@ -1,5 +1,11 @@
 import React from "react";
-import { View, Text, Pressable, useWindowDimensions } from "react-native";
+import {
+  View,
+  Text,
+  Pressable,
+  TouchableOpacity,
+  useWindowDimensions,
+} from "react-native";
 import { useSelector } from "react-redux";
 import { getColor } from "../../helpers/SettingsHelpers";
 import Colors from "../../constants/colors";
@@ -19,7 +25,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
   };
 
   return (
-    <Pressable
+    <TouchableOpacity
       style={[
         styles.container,
         {
@@ -62,7 +68,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
           {item.ArabicTitle}
         </Text>
       </View>
-    </Pressable>
+    </TouchableOpacity>
   );
 };
 

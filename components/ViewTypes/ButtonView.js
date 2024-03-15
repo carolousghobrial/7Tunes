@@ -2,7 +2,7 @@ import React from "react";
 import {
   View,
   Text,
-  Pressable,
+  TouchableOpacity,
   useWindowDimensions,
   StyleSheet,
 } from "react-native";
@@ -36,12 +36,15 @@ function ButtonView({ item, motherSource, flatListRef, viewData, navigation }) {
   return (
     <View>
       {itemVisible !== "hide" && (
-        <Pressable style={{ marginHorizontal: 70 }} onPress={handlePress}>
+        <TouchableOpacity
+          style={{ marginHorizontal: 70 }}
+          onPress={handlePress}
+        >
           <View style={[styles.bookView, { flexDirection: flex }]}>
             <Text style={[styles.text, { fontSize }]}>{item.English}</Text>
             <Text style={[styles.text, { fontSize }]}>{item.Arabic}</Text>
           </View>
-        </Pressable>
+        </TouchableOpacity>
       )}
     </View>
   );

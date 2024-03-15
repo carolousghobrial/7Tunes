@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۱۷ : ۱۷ - ۱۸ )",
+  "EnglishTitle": "Psalms 18:17-18",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنَّهُمْ تَقَوَّوْا أَكْثَرَ مِنّي ، ",
+      "English": "17 For they were too strong for me \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَدْرَكُونِي ، فِي يَوْمٍ ضُرِي، وَكَانَ الرَّبُّ سَنَدِي. هَلِلُويَا.",
+      "English": "18 They confronted me in the day of my calamity, But the Lord was my support.     Alleluia\r"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import {
   Button,
   Text,
   Image,
-  Pressable,
+  TouchableOpacity,
   useWindowDimensions,
 } from "react-native";
 import { useState } from "react";
@@ -37,7 +37,7 @@ function BookView({ onLongPress, item, onClick }) {
   };
   let content = (
     <>
-      <Pressable
+      <TouchableOpacity
         onLongPress={onLongPress.bind(this, item)}
         onPress={onClick.bind(this, item)}
       >
@@ -59,13 +59,13 @@ function BookView({ onLongPress, item, onClick }) {
             </Text>
           </View>
         </View>
-      </Pressable>
+      </TouchableOpacity>
     </>
   );
   if (width > 500) {
     content = (
       <>
-        <Pressable
+        <TouchableOpacity
           android_ripple={{ color: "#AA4A44" }}
           onLongPress={onLongPress.bind(this, item)}
           onPress={onClick.bind(this, item)}
@@ -88,7 +88,7 @@ function BookView({ onLongPress, item, onClick }) {
               </Text>
             </View>
           </View>
-        </Pressable>
+        </TouchableOpacity>
       </>
     );
   }

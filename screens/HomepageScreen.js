@@ -2,11 +2,13 @@ import React, { useState, useEffect, useRef } from "react";
 import {
   View,
   StyleSheet,
+  Text,
   FlatList,
   ActivityIndicator,
   Alert,
   AppState,
 } from "react-native";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import bookPaths from "../helpers/bookPathsHelpers";
 import { store, persistor } from "../stores/redux/store";
 import SearchBar from "../components/ViewTypes/SearchBar";
@@ -29,6 +31,7 @@ import { setSeason } from "../stores/redux/settings.js";
 import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper";
 import Onboarding from "./OnBoardingScreen.js";
 import BishopPresentView from "./BishopPresentView.js";
+import { TouchableOpacity } from "react-native-gesture-handler";
 
 function HomepageScreen({ navigation, route }) {
   const timeTransition = useSelector((state) => state.settings.timeTransition);
@@ -39,9 +42,37 @@ function HomepageScreen({ navigation, route }) {
   const results = [];
   const appState = useRef(AppState.currentState);
   const [appStateVisible, setAppStateVisible] = useState(appState.current);
+  const labelColor = getColor("LabelColor");
+
   useEffect(() => {
+    const headerRightComponent = () => (
+      <TouchableOpacity onPress={handlePresentModal}>
+        <View
+          style={{
+            flexDirection: "row",
+            padding: 10,
+            borderRadius: 5,
+          }}
+        >
+          <MaterialCommunityIcons
+            name="cross-outline"
+            size={12}
+            color={labelColor}
+          />
+          <Text style={{ fontSize: 13, fontWeight: "bold", color: labelColor }}>
+            Bishop Present?
+          </Text>
+          <MaterialCommunityIcons
+            name="cross-outline"
+            size={12}
+            color={labelColor}
+          />
+        </View>
+      </TouchableOpacity>
+    );
     navigation.setOptions({
       headerShown: true,
+      headerRight: headerRightComponent,
     });
   }, [onboardingViewed]);
   const bottomSheetRef = useRef(null);
@@ -52,8 +83,30 @@ function HomepageScreen({ navigation, route }) {
   function handlePresentModal() {
     bottomSheetRef?.current.present();
   }
-  const labelColor = getColor("LabelColor");
-  const data = homescreenPaths[route.params.bookPath];
+  const data = homescreenPaths[route.params.bookPath].books.filter((item) => {
+    const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+    if (item.Visible === "ShowVespers") {
+      if (currentSeason.key === "JONAH_FAST") {
+        return; // No need to return anything if item should not be shown
+      }
+
+      if (currentSeason.key === "GREAT_LENT" && currentSeason.dayOfWeek !== 0) {
+        return; // No need to return anything if it's not Sunday during Great Lent
+      }
+    }
+
+    if (item.Visible === "ShowEveningPrayer") {
+      if (currentSeason.key === "GREAT_LENT") {
+        if (currentSeason.dayOfWeek === 0) {
+          return item;
+        }
+      }
+      return;
+    }
+
+    return item; // Return the item if it passes all the conditions
+  });
   const isStandardBought = useSelector(
     (state) => state.settings.standardPsalmodyPermission
   );
@@ -76,7 +129,7 @@ function HomepageScreen({ navigation, route }) {
     setSearchPhrase(text);
   }
   var updateString =
-    "Added Readings for 1st Week of Lent, more to come \n Added rites for 1st and Last day of Lent to be the same as Weekend w/Metanias \n Miscellaneous Spelling and Bug Fixes\n Changed Wording of Lent to Great Fast";
+    "Added Readings for 2nd Week of Lent, more to come \n Added Evening Prayers to only be shown on Sunday \n Miscellaneous Spelling and Bug Fixes\n Hide Vespers during Weekdays of Lent \n Added ExpandableView\n Added Covenant Thursday Liturgy";
   useEffect(() => {
     onFetchUpdateAsync();
   }, [navigation]);
@@ -218,7 +271,7 @@ function HomepageScreen({ navigation, route }) {
         <View style={styles.container}>
           {isLoading ? <ActivityIndicator size="large" color="black" /> : null}
           <FlatList
-            data={data.books}
+            data={data}
             horizontal={false}
             showsVerticalScrollIndicator={false}
             renderItem={({ item }) => (

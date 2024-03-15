@@ -183,7 +183,7 @@ const ViewSingleHymn = memo(({ navigation, route }) => {
           bottomSheetRef={bottomSheetRef}
           snapPoints={snapPoints}
         />
-        {/* <PanGestureHandler onHandlerStateChange={onHandlerStateChange}> */}
+
         <FlatList
           ref={flatListRef}
           onViewableItemsChanged={onViewableItemsChanged}
@@ -194,7 +194,6 @@ const ViewSingleHymn = memo(({ navigation, route }) => {
           renderItem={renderItems}
           keyExtractor={(item) => item.key}
         />
-        {/* </PanGestureHandler> */}
       </BottomSheetModalProvider>
     </GestureHandlerRootView>
   );

@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٢٦ : ۱۱ ، ۱۲ ، ۱۳ )",
+  "EnglishTitle": "Psalms 27:8-9, 9",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طَلَبْتُ وَجْهَكَ وَلِوَجْهِكَ يَا رَبُّ الْتَمِسُ",
+      "English": "8 Your face, Lord, I will seek \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لَا تَصْرِف وَجْهَكَ عَنِّي",
+      "English": "9 Do not hide Your face from me.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " كُنْ لِي مُعِينًا وَلَا تُقْصِنِي ، وَلَا تَرفُضْنِي يَا اللَّهُ مُخْلِصِي هَلِلُونَا.",
+      "English": "9 You have been my help; Do not leave me nor forsake me, O God of my salvation.     Alleluia\r"
+    }
+  ]
+}

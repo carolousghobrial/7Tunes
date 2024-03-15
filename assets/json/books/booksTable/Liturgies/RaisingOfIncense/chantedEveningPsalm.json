@@ -1,0 +1,33 @@
+{
+    "Main": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "مزمور لداود",
+            "Coptic": "Yalmoc tw Dauid jo Allhlouia",
+            "English": "A Psalm of David ",
+            "Arabiccoptic": " بصالموس تو دافييد جو الليلويا",
+            "Englishcoptic": "Psalmos to Daveed go Alleluia"
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "EveningPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePsalmTrailersVespersTrailer",
+            "Rule": 0,
+            "Visible": "isStandardSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePsalmTrailersBishopPsalmTrailer",
+            "Rule": 0,
+            "Visible": "BishopIsPresent"
+        }
+    ]
+}

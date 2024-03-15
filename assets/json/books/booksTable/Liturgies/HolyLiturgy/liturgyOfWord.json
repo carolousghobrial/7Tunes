@@ -79,10 +79,10 @@
             "Visible": true
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "مرد الكاثوليكون - آ بيت جيك إيفول",
             "English": "The Catholic Response - Apitjeek Evol",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheWordApetjeekEvol"
         },

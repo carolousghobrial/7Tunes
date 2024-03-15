@@ -1,0 +1,219 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": "المزمور والإنجيل",
+    "EnglishTitle": "Psalm and Gospel ",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Deacon",
+            "Arabic": "الشماس:",
+            "Coptic": "Pidiakwn>",
+            "English": "Deacon:",
+            "Arabiccoptic": "بي دياكون:",
+            "Englishcoptic": "Pi-Diakon:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "قفوا بخوف الله لسماع الإنجيل المقدس.",
+            "Coptic": "`Ctaqhte meta vobou Qeou> `akoucwmen tou `agiou euaggeliou.",
+            "English": "Stand in the fear of God. Let us hear the Holy Gospel.",
+            "Arabiccoptic": "قفوا بخوف الله لسماع الإنجيل المقدس.",
+            "Englishcoptic": "Sta-thete meta vovo theo, akosomen to agio ev-angelio."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Priest",
+            "Arabic": "الكاهن:",
+            "Coptic": "Piouhb>",
+            "English": "Priest:",
+            "Arabiccoptic": "بي أويب:",
+            "Englishcoptic": "Pi-oweeb:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "mother": "EveningGospel",
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "مبارك الآتي بإسم رب القوات. يا رب بارك الفصل من الإنجيل المقدس من القديس [*STANDARD_GOSPEL_AUTHOR*].",
+            "Coptic": "`F`cmarwout `nje vheqnhou =en `vran `m`Psoic `nte nijom. Kurie euloghcon ek tou kata [*STANDARD_GOSPEL_AUTHOR*] `agiou euaggelion to `anagnwcma.",
+            "English": "Blessed is He who comes in the name of the Lord of powers. Bless, O Lord, the reading of the Holy Gospel according to Saint [*STANDARD_GOSPEL_AUTHOR*].",
+            "Arabiccoptic": "افزماروؤت انجى بي اثنيو خين افران امبشويس انتى ني جوم كيريى افلوجيسون اكتو كاتا[*STANDARD_GOSPEL_AUTHOR*] اجيو افانجيليو تو اناغنوسما.",
+            "Englishcoptic": "Efesmaro-ot enje vi-ethneo khen efran emEpchois ente ni-gom , kerie evlogison ekto kata [*STANDARD_GOSPEL_AUTHOR*] agio, ev-angelio to anagh-nosma."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "Coptic": "Pilaoc>",
+            "English": "People:",
+            "Arabiccoptic": "بيلاؤس:",
+            "Englishcoptic": "Pi-Laos:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "المجد لك يا رب.",
+            "Coptic": "Do[a ci Kurie.",
+            "English": "Glory to You, O Lord.",
+            "Arabiccoptic": "المجد لك يا رب.",
+            "Englishcoptic": "Zoxa si Kerie."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Reader",
+            "Arabic": "القارئ:",
+            "English": "Reader:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "mother": "EveningGospel",
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "قفوا بخوف الله لسماع الإنجيل المقدس، فصل من الإنجيل لمعلمنا مار [*STANDARD_GOSPEL_AUTHOR*] البشير، بركته على جميعنا.",
+            "English": "Stand up in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to Saint [*STANDARD_GOSPEL_AUTHOR*], may his blessings, be with us all. (Amen.)"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Priest",
+            "Arabic": "الكاهن:",
+            "Coptic": "Piouhb>",
+            "English": "Priest:",
+            "Arabiccoptic": "بي أويب:",
+            "Englishcoptic": "Pi-oweeb:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح، إبن الله الحي، الذي له المجد إلى الأبد.",
+            "Coptic": "Pensoic ouo\\ Pennou; ouo\\ Pencwthr ouo\\ Penouro thren Ihcouc Pi`xrictoc `P]hri `m`Vnou; eton= pi`wou naf ]a `ene\\.",
+            "English": "Our Lord, our God, our Savior, and King of us all, Jesus Christ, Son of the living God, to whom be glory forever.",
+            "Arabiccoptic": "بين شويس أووه بيننوتى أووه بين سوتير أووه بين أوروتيرين إيسوس بى اخرستوس ابشيرى إم افنوتى ات أونخ بى أوؤوناف شا اينيه",
+            "Englishcoptic": "Penchois owoh pennoti owoh pensoteer owoh pen-oro teren Isos Pikhristos, epsheery emevnoti, et-onkh pi-o-o naf sha-eneh"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "(يمكن أن يُرتَّل الإنجيل قبطياً)",
+            "English": "(The Gospel may be chanted in Coptic)"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "Coptic": "Pilaoc>",
+            "English": "People:",
+            "Arabiccoptic": "بيلاؤس:",
+            "Englishcoptic": "Pi-Laos:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "المجد لك يا رب.",
+            "Coptic": "Do[a ci Kurie.",
+            "English": "Glory to You, O Lord.",
+            "Arabiccoptic": "المجد لك يا رب.",
+            "Englishcoptic": "Glory to You, O Lord."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Reader",
+            "Arabic": "القارئ:",
+            "English": "Reader:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "من مزامير أبينا داود النبي، بركاته على جميعنا.",
+            "English": "From the psalms of our father David the prophet, may his blessings be with us all. (Amen)"
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "EveningPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "English": "People:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "هلليلويا.",
+            "English": "Alleluia."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Reader",
+            "Arabic": "القارئ:",
+            "English": "Reader:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "مبارك الآتى باسم الرب، ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح، ابن الله الحى، الذي له المجد الدائم، إلى الابد آمين.",
+            "English": "Blessed is He who comes in the name of the Lord. Our Lord, God, Savior, and King of us all, Jesus Christ, the Son of the living God, to whom is the glory forever and ever. Amen."
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "EveningGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "English": "People:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "والمجد لله دائماً.",
+            "English": "Glory be to God forever."
+        }
+    ]
+}

@@ -9,34 +9,34 @@
             "English": "Venerations"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "لبش الهوس الثاني",
             "English": "Second Hoos Lobsh",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "PraisesSecondHoosLobsh"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "السلام لمريم (شيرى ماريا)",
             "English": "Hail to Mary (Shere Maria)",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "VenerationShereMaria"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "افرحي يا مريم",
             "English": "Rejoice O Mary",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosStandardOne"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "(7) ثيؤطوكية الأحد",
             "English": "Sunday Theotokia (7)",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "TheotokiasSundaySunday7"
         },

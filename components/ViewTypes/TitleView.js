@@ -44,15 +44,31 @@ function TitleView({ item, navigation }) {
   function switchLiturgies() {
     if (item.Switch !== undefined) {
       if (isSwitchGregorian) {
-        navigation.replace("BookScreen", {
-          bookPath: "liturgyofStGregory",
-          Switch: item.Switch,
-        });
+        console.log(item);
+        console.log(navigation);
+        if (item.mother !== undefined) {
+          navigation.replace("BookScreen", {
+            bookPath: "liturgyofStGregoryCovenantThursday",
+            Switch: item.Switch,
+          });
+        } else {
+          navigation.replace("BookScreen", {
+            bookPath: "liturgyofStGregory",
+            Switch: item.Switch,
+          });
+        }
       } else {
-        navigation.replace("BookScreen", {
-          bookPath: "liturgyofStBasil",
-          Switch: item.Switch,
-        });
+        if (item.mother !== undefined) {
+          navigation.replace("BookScreen", {
+            bookPath: "liturgyofStBasilCovenantThursday",
+            Switch: item.Switch,
+          });
+        } else {
+          navigation.replace("BookScreen", {
+            bookPath: "liturgyofStBasil",
+            Switch: item.Switch,
+          });
+        }
       }
     }
   }

@@ -66,6 +66,14 @@
       "English": "Offer in order. Stand with trembling. Look towards the East. Let us attend.",
       "Arabiccoptic": " بروس فيرين كاطا اطروبون : اسطاثيتيه كاطا اطرومو : اس اناطولاس افلبساطيه بروس خومين . ",
       "Englishcoptic": "eProsverin kata etropon: estatheete kata etromoo: is anatolas eblepsate. eProskhoomen-."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقبل الكهنة بعضهم بعضاً قبلة روحية. وكذلك الشمامسة والشعب يقبلون بعضهم بعضاً.",
+      "English": "The priests greet one another with a holy kiss, as do the deacons and the congregation. "
     }
   ]
 }

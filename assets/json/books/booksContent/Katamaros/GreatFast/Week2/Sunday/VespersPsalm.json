@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٥٠ : ١ ، ٩ )",
+  "EnglishTitle": "Psalms 51:1, 9",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارْحَمْنِي يَا أَللَّهُ كَعَظِيمِ رَحْمَتِكَ ، وَبِحَسَبِ كَثْرَةِ رَأْفَاتِكَ.",
+      "English": "51:1 Have mercy upon me, O God, According to Your loving kindness; According to the multitude of Your tender mercies, Blot out my transgressions.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اِصْرِفْ وَجْهَكَ عَنْ خَطَايَايَ ، وَأَمْحُ جَمِيعَ آثَامِي. هَلِلُويَا.",
+      "English": "9 Hide Your face from my sins, And blot out all my iniquities.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أبِينَا دَاوُدَ النَّبِيِّ ( ۱۱۷ : ۱۹ - ۲۰ )",
+  "EnglishTitle": "Psalms 118:19-20",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "افْتَحُوا لِي أَبْوَابَ الْعَدْلِ ، لِكَيْمَا أَدْخُلَ فِيهَا وَأَعْتَرِفَ لِلرَّبِّ.",
+      "English": "19 Open to me the gates of righteousness; I will go through them, And I will praise the Lord. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " هَذَا هُوَ بَابُ الرَّبِّ ، وَفِيهِ يَدْخُلُ الصِّدِّيقُونَ. هَللويا.",
+      "English": "20 This is the gate of the Lord, Through which the righteous shall enter.     Alleluia\r"
+    }
+  ]
+}
