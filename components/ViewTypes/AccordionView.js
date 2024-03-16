@@ -87,7 +87,11 @@ function AccordionView({
         onPress={() => toggleAccordion(mykey)}
         style={styles.titleContainer}
       >
-        <Text style={[styles.heading, textStyle]}>{item.English}</Text>
+        <View>
+          <Text style={[styles.heading, textStyle]}>{item.English}</Text>
+          <Text style={[styles.heading, textStyle]}>{item.Arabic}</Text>
+        </View>
+
         <Text style={[styles.arrow, { color: labelColor }]}>
           {expanded[mykey] ? "▲" : "▼"}
         </Text>

@@ -26,7 +26,7 @@
       "Englishcoptic": "Pek ershishy men evol, en ehri khen etve nem hijen pikahy, evrogp tiro empek emtho, enje ep-hob ente nek geg."
     },
     {
-      "Type": "Melody",
+      "Type": "Ritual",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
@@ -74,7 +74,7 @@
       "English": "Praise be to God forever. Amen."
     },
     {
-      "Type": "Melody",
+      "Type": "Ritual",
       "Rule": 0,
       "Visible": true,
       "Side": "North",

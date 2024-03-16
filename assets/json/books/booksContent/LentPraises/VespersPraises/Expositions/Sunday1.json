@@ -26,7 +26,7 @@
       "Englishcoptic": "Nai ete ethna gorg en ni nous, owoh etholem enni katy, owoh nival ev oei en ekrimets, ethve ni ehvi-ouei ente pai kozmos."
     },
     {
-      "Type": "Melody",
+      "Type": "Ritual",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
@@ -82,7 +82,7 @@
       "English": "Praise be to God forever. Amen."
     },
     {
-      "Type": "Melody",
+      "Type": "Ritual",
       "Rule": 0,
       "Visible": true,
       "Side": "North",

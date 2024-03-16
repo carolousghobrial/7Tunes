@@ -86,14 +86,13 @@ function HomepageScreen({ navigation, route }) {
   const data = homescreenPaths[route.params.bookPath].books.filter((item) => {
     const currentSeason = useSelector((state) => state.settings.currentSeason);
 
-    if (item.Visible === "ShowVespers") {
-      if (currentSeason.key === "JONAH_FAST") {
-        return; // No need to return anything if item should not be shown
-      }
-
-      if (currentSeason.key === "GREAT_LENT" && currentSeason.dayOfWeek !== 0) {
-        return; // No need to return anything if it's not Sunday during Great Lent
-      }
+    if (
+      item.Visible === "ShowVespers" &&
+      currentSeason.key === "GREAT_LENT" &&
+      ((currentSeason.dayOfWeek > 0 && currentSeason.dayOfWeek < 6) ||
+        (currentSeason.dayOfWeek === 6 && new Date().getHours() < 14))
+    ) {
+      return; // No need to return anything if conditions are met
     }
 
     if (item.Visible === "ShowEveningPrayer") {

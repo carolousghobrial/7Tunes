@@ -22,10 +22,12 @@
             "Visible": "isSeason"
         },
         {
-            "Type": "Main",
-            "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliSundayTheotokia",
+            "Type": "Accordion",
+            "Arabic": "إبصالية أدام للصوم الكبير على ثيؤطوكية الأحد",
+            "English": "Adam Psali for the Great Fast on Sunday Theotokia",
             "Rule": 0,
-            "Visible": "isLenten"
+            "Visible": true,
+            "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliSundayTheotokia"
         },
         {
             "Type": "Main",
@@ -214,10 +216,12 @@
             "Visible": "isKiahk"
         },
         {
-            "Type": "Main",
-            "Path": "LentPraisesMidnightPraisesHymnsWatosPsali8thSunday",
+            "Type": "Accordion",
+            "Arabic": "إبصالية واطس على  القطعة الثامنة من ثيؤطوكية يوم الأحد",
+            "English": "Watos Psali on the 8th Part of the Sunday Theotokia ",
             "Rule": 0,
-            "Visible": "isLenten"
+            "Visible": "isLenten",
+            "Path": "LentPraisesMidnightPraisesHymnsWatosPsali8thSunday"
         },
         {
             "Type": "Main",

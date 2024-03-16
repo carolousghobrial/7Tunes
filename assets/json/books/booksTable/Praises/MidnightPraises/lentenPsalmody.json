@@ -21,10 +21,12 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliFirstHoos",
+            "Type": "Accordion",
+            "Arabic": "إبصالية أدام على الهوس الأول",
+            "English": "Adam Psali on the First Hoos",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliFirstHoos"
         },
         {
             "Type": "Main",
@@ -58,14 +60,16 @@
             "Visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "Type": "Main",
-            "Path": "TheotokiasSundaySunday8",
+            "Type": "Accordion",
+            "Arabic": "إبصالية واطس على  القطعة الثامنة من ثيؤطوكية يوم الأحد",
+            "English": "Watos Psali on the 8th Part of the Sunday Theotokia ",
             "Rule": 0,
-            "Visible": "SundayThetokiaWeekdaysPraisesRule"
+            "Visible": "SundayThetokiaWeekdaysPraisesRule",
+            "Path": "LentPraisesMidnightPraisesHymnsWatosPsali8thSunday"
         },
         {
             "Type": "Main",
-            "Path": "LentPraisesMidnightPraisesHymnsWatosPsali8thSunday",
+            "Path": "TheotokiasSundaySunday8",
             "Rule": 0,
             "Visible": "SundayThetokiaWeekdaysPraisesRule"
         },
@@ -80,6 +84,14 @@
             "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliSecondHoos",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Accordion",
+            "Arabic": "إبصالية أدام على الهوس الثاني",
+            "English": "Adam Psali on the Second Hoos ",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliSecondHoos"
         },
         {
             "Type": "Main",
@@ -100,6 +112,14 @@
             "Visible": true
         },
         {
+            "Type": "Accordion",
+            "Arabic": "إبصالية أدام على الهوس الثالث",
+            "English": "Adam Psali on the Third Hoos ",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliThirdHoos"
+        },
+        {
             "Type": "Main",
             "Path": "PraisesThirdHoos",
             "Rule": 0,
@@ -118,10 +138,26 @@
             "Visible": true
         },
         {
+            "Type": "Accordion",
+            "Arabic": "إبصالية واطس على المجمع",
+            "English": "Watos Psali on the Commemoration of the Saints ",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LentPraisesMidnightPraisesHymnsWatosPsaliCommemoration"
+        },
+        {
             "Type": "Main",
             "Path": "PraisesCommemoration",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Accordion",
+            "Arabic": "إبصالية واطس على الذكصولوجيات",
+            "English": "Watos Psali on the Doxologies ",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LentPraisesMidnightPraisesHymnsWatosPsaliDoxologies"
         },
         {
             "Type": "Button",
@@ -131,6 +167,15 @@
             "Visible": true,
             "Path": "doxologies",
             "mother": "praises"
+        },
+        {
+            "Type": "Accordion",
+            "RefrainAfter": 0,
+            "Arabic": "إبصالية أدام على الهوس الرابع",
+            "English": "Adam Psali on the Fourth Hoos ",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliFourthHoos"
         },
         {
             "Type": "Main",

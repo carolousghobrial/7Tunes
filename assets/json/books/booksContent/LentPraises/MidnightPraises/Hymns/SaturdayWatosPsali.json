@@ -2,17 +2,17 @@
   "RefrainAfter": 0,
   "ArabicTitle": "إبصالية واطس تقال للصوم الكبير",
   "EnglishTitle": "Watos Psali for the Great Fast",
-  "CopticTitle": "﻿Amwini `ntenernhcteuin",
+  "CopticTitle": "Amwini `ntenernhcteuin",
   "Hymn": [
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "﻿تعالوا لنصوم، أصواماً كاملة، لأن بالصلاة والصوم، يغفر لنا الرب.",
-      "Coptic": "﻿Amwini `ntenernhcteuin> `n\\annhctia etjhk `ebol> \\iten pi`]lhl nem ;nhctia> `nte `Psoic xw nan `ebol.",
+      "Arabic": "تعالوا لنصوم، أصواماً كاملة، لأن بالصلاة والصوم، يغفر لنا الرب.",
+      "Coptic": "Amwini `ntenernhcteuin> `n\\annhctia etjhk `ebol> \\iten pi`]lhl nem ;nhctia> `nte `Psoic xw nan `ebol.",
       "English": "Come let us fast: perfect fasts: through prayer and fasting: the Lord will forgive us.",
-      "Arabiccoptic": "﻿أموينى أنتين أرنستيفين: انهان نيستيا اتجيك ايفول: هيتين بى أشليل نيم تى نستيا: أنتى أبشويس كو نان أيفول.",
+      "Arabiccoptic": "أموينى أنتين أرنستيفين: انهان نيستيا اتجيك ايفول: هيتين بى أشليل نيم تى نستيا: أنتى أبشويس كو نان أيفول.",
       "Englishcoptic": "Amoiny enten ernestevin : en hanestia etjeek evol : hiten pi-eshleel nem ti-nistia : ente Epchois ko nan evol."
     },
     {

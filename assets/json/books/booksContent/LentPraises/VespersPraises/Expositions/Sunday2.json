@@ -26,7 +26,7 @@
       "Englishcoptic": "Amoiny niref ernovy, anav katy epi athnovy, etaf iri enti nestia, hina entef etsavo emmon."
     },
     {
-      "Type": "Melody",
+      "Type": "Ritual",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
@@ -98,7 +98,7 @@
       "English": "And Glory be to God always and forever. Amen."
     },
     {
-      "Type": "Melody",
+      "Type": "Ritual",
       "Rule": 0,
       "Visible": true,
       "Side": "North",

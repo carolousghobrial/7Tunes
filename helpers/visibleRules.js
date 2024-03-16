@@ -640,22 +640,13 @@ const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const todayPrayer = useSelector((state) => state.settings.todayPrayer);
 
-  if (isLentenVespersPraises() && !todayPrayer) {
+  if (
+    isLentenVespersPraises(motherSource, path) ||
+    (isLenten(motherSource, path) && !todayPrayer)
+  ) {
     const { week } = currentSeason;
-    const weekKeywords = [
-      "first",
-      "second",
-      "third",
-      "fourth",
-      "fifth",
-      "sixth",
-    ];
 
-    return weekKeywords.some(
-      (keyword) =>
-        path.toLowerCase()?.includes(keyword) &&
-        path.toLowerCase()?.includes(week.toString())
-    );
+    return path.toLowerCase().includes(week);
   }
 
   return false;
