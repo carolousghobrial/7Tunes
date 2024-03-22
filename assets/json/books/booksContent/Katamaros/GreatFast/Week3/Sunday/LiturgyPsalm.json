@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۸،۷:۲۸ )",
+  "EnglishTitle": "Psalms 79:8-9",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَذْكُرْ أَثَامَنَا الْأُولَى ، فَلْتُدْرِكْنَا رَأْفَاتُكَ سَرِيعًا ، مِنْ أَجْلٍ مَجْدِ اسْمِكَ ",
+      "English": "8 Oh, do not remember former iniquities against us! Let Your tender mercies come speedily to meet us, For we have been brought very low. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَا رَبُّ تُنَجِّينَا ، وَتَغْفِرُ لَنَا خَطَايَانَا مِنْ أَجْلِ اسْمِكَ. هَلِلُويَا.",
+      "English": "9 Help us, O God of our salvation, For the glory of Your name.     Alleluia\r"
+    }
+  ]
+}

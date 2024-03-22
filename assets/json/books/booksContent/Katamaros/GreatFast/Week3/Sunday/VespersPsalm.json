@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۸۷ : ۱-۲ )",
+  "EnglishTitle": "Psalms 88:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَيُّهَا الرَّبُّ إِلَهُ خَلَاصِي ، صَرَخْتُ النَّهَارَ وَاللَّيْلَ أَمَامَكَ. ",
+      "English": "88:1 O Lord, God of my salvation, I have cried out day and night before You. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلْتَبْلُغْ صَلَاتِي أَمَامَكَ ، يَا رَبُّ أَمِلْ سَمْعَكَ إِلَى طِلْبَتِي. هَللويا.",
+      "English": "2 Let my prayer come before You; Incline Your ear to my cry.     Alleluia\r"
+    }
+  ]
+}

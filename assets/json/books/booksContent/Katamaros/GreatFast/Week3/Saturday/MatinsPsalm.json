@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۱۲۹ : ۱ - ۲ )",
+  "EnglishTitle": "Psalms 130:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مِنَ الأعْماقِ صَرَخَتُ إِلَيْكَ يَا رَبُّ ، يَا رَبُّ اسْتَمِعْ صَوتي.",
+      "English": "130:1 Out of the depths I have cried to You, O Lord; \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لِتَكُن أُذُنَاكَ مُصْغِيَتَيْنِ ، إِلَى صَوْتِ تَضَرُّعِي هَلِّلُويَا.",
+      "English": "2 Lord, hear my voice! Let Your ears be attentive To the voice of my supplications.     Alleluia\r"
+    }
+  ]
+}

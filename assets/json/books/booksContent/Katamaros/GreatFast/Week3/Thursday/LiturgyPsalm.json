@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٩ : ٤ )",
+  "EnglishTitle": "Psalms 9:7-8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمَّا الرَّبُّ فَإِلَى الْأَبَدِ يَثْبُتُ ، وَقَدْ هَيَّأ عَرْشَهُ لِلْقَضَاءِ ، ",
+      "English": "7 But the Lord shall endure forever; He has prepared His throne for judgment. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَهُوَ يَدِينُ الْمَسْكُونَةَ كُلَّهَا . بِالْعَدْلِ هَللويا.",
+      "English": "8 He shall judge the world in righteousness.     Alleluia\r"
+    }
+  ]
+}

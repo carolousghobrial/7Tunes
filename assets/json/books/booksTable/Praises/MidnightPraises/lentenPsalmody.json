@@ -80,12 +80,6 @@
             "Visible": "SundayThetokiaWeekdaysPraisesRule"
         },
         {
-            "Type": "Main",
-            "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliSecondHoos",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
             "Type": "Accordion",
             "Arabic": "إبصالية أدام على الهوس الثاني",
             "English": "Adam Psali on the Second Hoos ",
@@ -102,12 +96,6 @@
         {
             "Type": "Main",
             "Path": "PraisesSecondHoosLobsh",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliThirdHoos",
             "Rule": 0,
             "Visible": true
         },

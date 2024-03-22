@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۳۱ : ۲-۳ )",
+  "EnglishTitle": "Psalms 32:2-3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طُوبَى لِلرَّجُلِ الَّذِي لَمْ يَحْسِبْ لَهُ الرَّبُّ خَطِيَّةً ، وَلَا فِي فَمِهِ غِش.",
+      "English": "2 Blessed is the man to whom the Lord does not impute iniquity, And in whose spirit there is no deceit. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أَنَا سَكَتُ ، فَبَلِيَتْ عِظَامِي. هَلِلُويَا.",
+      "English": "3 When I kept silent, my bones grew old.     Alleluia\r"
+    }
+  ]
+}

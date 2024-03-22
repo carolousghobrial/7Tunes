@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۳۱ : ۱ - ۲  )",
+  "EnglishTitle": "Psalms 32:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طُوبَاهُمُ الَّذِينَ تُرِكَتْ لَهُمْ آثَامُهُمْ ، وَالَّذِينَ سُتِرَتْ خَطَايَاهُمْ ",
+      "English": "32:1 Blessed is he whose transgression is forgiven, Whose sin is covered. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طُوبَى لِلرَجُلِ ، الَّذِي لَمْ يَحْسِبْ لَهُ الرَّبُّ خَطِيَّةٌ. هَلِلُويَا.",
+      "English": "2 Blessed is the man to whom the Lord does not impute iniquity.     Alleluia\r"
+    }
+  ]
+}

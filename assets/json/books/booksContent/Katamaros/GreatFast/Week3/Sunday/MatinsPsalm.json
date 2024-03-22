@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٥٤ : ١ ، ١٤ )",
+  "EnglishTitle": "Psalms 55:1-2, 16",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَنْصِتْ يَا اللَّهُ لِصَلَاتِي ، وَلَا تَغْفَلْ عَنْ تَضَرُّعِي ، ",
+      "English": "55:1 Give ear to my prayer, O God, And do not hide Yourself from my supplication. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الْتَفِتْ إِلَيَّ وَاسْتَمِعُ مِنِّي.",
+      "English": "2 Attend to me, and hear me.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أَنَا صَرَخْتُ إِلَى اللَّهِ وَالرَّبُّ إِسْتَجَابَ لِي هَلِلُويَا.  ",
+      "English": "16 I will call upon God, And the Lord shall save me.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ سِفْرِ أَيُّوبَ الْصِدِّيق بَرَكَتُهُ الْمُقَدَّسَةُ فَلْتَكُنْ مَعَنَا. آمين. ( ۱۲ ، ۱۳ ، ١٤ )",
+  "EnglishTitle": "Job 12:1-14:22\r",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَجَابَ أَيُّوبُ وَقَالَ:",
+      "English": "12:1 Then Job answered and said: \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَلَا إِنَّكُمْ رِجَالٌ فِي الْحَقِيقَةِ وَفِي مَوْتِكُمْ تَمُوتُ الْحِكْمَةُ!",
+      "English": "2 No doubt you are the people, And wisdom will die with you! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "غَيْرَ أَنَّ لِي عَقْلَا كَمَا لَكُمْ. لَا أَقَصِّرُ عَنْكُمْ فِي شَيْءٍ، وَمَنِ الَّذِي يَفُوتُهُ مِثْلُ هَذِهِ ؟",
+      "English": "3 But I have understanding as well as you; I am not inferior to you. Indeed, who does not know such things as these? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَفَأَصْبَحْتُ هُزُؤا لِأَخِلَّائِي، وَأَنَا أَدْعُو اللَّهَ فَيَسْتَجِيبُنِي ؟ أَهْزُءًا يَكُونُ الصِّدِّيقُ السَّلِيمُ ؟",
+      "English": "4 I am one mocked by his friends, Who called on God, and He answered him, The just and blameless who is ridiculed. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حَقُّ الْبَائِسِ فِي رَأْي السَّعِيدِ إِهَانَةٌ ، فَهِيَ مُعَدَّةٌ لِمَنْ زَلَّتْ قَدَمُهُ.",
+      "English": "5 A lamp is despised in the thought of one who is at ease; It is made ready for those whose feet slip. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَخْبِيَةُ اللُّصوص فِي سَلَامٍ ، وَالطُّمَانِينَةُ لِمُسْخِطِي اللَّهِ ، لِكُلِّ مَنْ أَغْنَى اللَّهُ يَدَهُ.",
+      "English": "6 The tents of robbers prosper, And those who provoke God are secure--In what God provides by His hand. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلَكِنِ اسْألِ الْبَهَائِمَ فَتُعَلِمَكَ ، وَطُيُورَ السَّمَاءِ فَتُخْبِرَكَ",
+      "English": "7 But now ask the beasts, and they will teach you; And the birds of the air, and they will tell you; \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اسْتَفْهِمِ الْأَرْضَ فَتُلَقِنَكَ ، وَأَسْمَاكُ الْبَحْرِ تُحَدِّثُكَ.",
+      "English": "8 Or speak to the earth, and it will teach you; And the fish of the sea will explain to you. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَيِّ لَا يَعْلَمُ أَنَّ ذَلِكَ إِنَّمَا صَنَعَتْهُ يَدُ الرَّبِّ.",
+      "English": "9 Who among all these does not know That the hand of the Lord has done this, \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الَّذِي فِي يَدِهِ نَفْسُ كُلَّ حَيّ وَأَرْوَاحُ الْبَشَرِ أَجْمَعِينَ.",
+      "English": "10 In whose hand is the life of every living thing, And the breath of all mankind? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَلَيْسَتِ الْأُذُنُ تَخْتَبِرُ الْأَقْوَالَ ، كَمَا يَذُوقُ الْحَنَكُ الطَّعَامَ ؟",
+      "English": "11 Does not the ear test words And the mouth taste its food? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإِنَّمَا الْحِكْمَةُ عِنْدَ الْأَشْيَبِ ، وَالْفِطْنَةُ فِي طول الأيام.",
+      "English": "12 Wisdom is with aged men, And with length of days, understanding. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اللَّهُ عِنْدَهُ الحِكْمَةُ وَالْجَبَرُوتُ. وَلَهُ الْمَشُورَةُ وَالْفِطْنَةُ.",
+      "English": "13 With Him are wisdom and strength, He has counsel and understanding. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَا هَدَمَهُ لَا يُبْنَى , وَمَنْ أَغْلَقَ عَلَيْهِ لَا يُفْتَحُ لَهُ.",
+      "English": "14 If He breaks a thing down, it cannot be rebuilt; If He imprisons a man, there can be no release. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَحْبِسُ الْمِيَاهَ فَتَجِفُّ. أَوْ يُطْلِقُهَا فَتُخَرِّبُ الْأَرْضَ",
+      "English": "15 If He withholds the waters, they dry up; If He sends them out, they overwhelm the earth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عِنْدَهُ الْعِزَّةُ وَالْحَوْلُ (الاستطاعة)، وَلَهُ الضَّالُ وَمَنْ يُضِلُّهُ.",
+      "English": "16 With Him are strength and prudence. The deceived and the deceiver are His. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يُرْسِلُ الْمُشِيرِينَ أَسْرَى ، وَيُسَفَهُ الْقُضَاةَ،",
+      "English": "17 He leads counselors away plundered, And makes fools of the judges. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَحُلُ مَنَاطِقَ الْمُلُوكِ . وَيَجْعَلُ الْقُيُودَ مَنَاطِقَ عَلَى أَحْقَائِهِمْ",
+      "English": "18 He loosens the bonds of kings, And binds their waist with a belt. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يُرْسِلُ الْكَهَنَةَ أَسْرَى وَيُنَكِّسُ الرَّاسِخِينَ.",
+      "English": "19 He leads princes away plundered, And overthrows the mighty. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَقْطَعُ أَلْسِنَةَ الثَّقَاتِ ، وَيَسْلُبُ ذَوْقَ الشَّيُوخِ.",
+      "English": "20 He deprives the trusted ones of speech, And takes away the discernment of the elders. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَصَبُّ الْهَوَانَ عَلَى الْكُرَمَاءِ. وَيُرْخِي مَنَاطِقَ الْأَقْوِيَاءِ.",
+      "English": "21 He pours contempt on princes, And disarms the mighty. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يُجَلِي مِنَ الظُّلْمَةِ أَعْمَاقَهَا. وَيُبْرِزُ ظِلَالُ الْمَوْتِ إِلَى النُّورِ.",
+      "English": "22 He uncovers deep things out of darkness, And brings the shadow of death to light. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يُنْمِي الْأُمَمَ ثُمَّ يَمْحَقُهَا، وَيَفْسَحُ لِلشُّعُوبِ ثُمَّ يَحْصُرُهُمْ",
+      "English": "23 He makes nations great, and destroys them; He enlarges nations, and guides them. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَذْهَبُ بِأَلْبَابِ الَّذِينَ يَسُودُونَ شَعْبَ الْأَرْضِ. وَيَهِيمُهُمْ فِي تِيْهِ لَا طَرِيقَ فِيهِ.",
+      "English": "24 He takes away the understanding of the chiefs of the people of the earth, And makes them wander in a pathless wilderness. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَيَتَلَمَّسُونَ فِي الظُّلْمَةِ وَلَيْسَ نُورٌ ، وَيَهِيمُهُمْ هَيَامُ السَّكْرَانِ .",
+      "English": "25 They grope in the dark without light, And He makes them stagger like a drunken man. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ذَلِكَ كُلُّهُ قَدْ رَأَتُهُ عَيْنِي. وَسَمِعَتْهُ أُذُنِي وَفَطِنْتُ لَهُ.",
+      "English": "13:1 Behold, my eye has seen all this, My ear has heard and understood it. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَا تَعْلَمُونَ فَإِنِّي أَنَا أَيْضًا أَعْلَمُهُ. لَا أُقْصِرُ عَنْكُمْ فِي شَيْءٍ",
+      "English": "2 What you know, I also know; I am not inferior to you. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَكِنِّي إِنَّمَا أَخَاطِبُ الْقَدِيرَ ، وَأَوَدُّ أَنْ أَحَاجَ اللَّهَ",
+      "English": "3 But I would speak to the Almighty, And I desire to reason with God. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمَّا أَنْتُمْ فَإِنَّمَا تُضَمّدُونَ بِالْكَذِبِ وَطِبُّكُمْ بَاطِلٌ",
+      "English": "4 But you forgers of lies, You are all worthless physicians. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنْ لِي بِأَنْ تَسْكُتُوا , فَيَكُونَ لَكُمْ فِي ذَلِكَ حِكْمَةٌ",
+      "English": "5 Oh, that you would be silent, And it would be your wisdom! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اِسْمَعُوا حُجَجِي، وَأَصْغُوا إِلَى دَعاوي شَفَتَيَّ",
+      "English": "6 Now hear my reasoning, And heed the pleadings of my lips. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ألْأَجْلِ اللَّهِ تَتَكَلَّمُونَ ظُلْمًا ، أَمْ لأَجْلِهِ تَنْطِقُونَ بِالْبُهْتَانِ ؟",
+      "English": "7 Will you speak wickedly for God, And talk deceitfully for Him? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَلَعَلَّكُمْ تُجَاوِبُونَهُ , أَمْ عَنِ اللَّهِ تَخَاصِمُونَ ؟",
+      "English": "8 Will you show partiality for Him? Will you contend for God? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَيُحْمَدُ ذَلِكَ يَوْمَ يَفْحَصُكُمْ ، أَمْ أَنْتُمْ تَخْدَعُونَهُ كَمَا يُخْدَعُ إِنْسَانٌ ؟",
+      "English": "9 Will it be well when He searches you out? Or can you mock Him as one mocks a man? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بَلْ لِيُوَبِخَنَّكُمْ عَلَى مُحَابَاتِكُمُ الْخَفِيَّةِ.",
+      "English": "10 He will surely rebuke you If you secretly show partiality. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَلْيُرْعِبَنَّكُمْ جَلَالُهُ ، وَيَقَعُ عَلَيْكُمْ ذُعْرُهُ",
+      "English": "11 Will not His excellence make you afraid, And the dread of Him fall upon you? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِنَّ مَا تَذْكُرُونَهُ أَمْثَالٌ مِنْ رَمَادٍ ، وَحُصُونَكُمْ حُصُونٌ مِنْ طِينٍ.",
+      "English": "12 Your platitudes are proverbs of ashes, Your defenses are defenses of clay. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَسْكُتُوا عَنِّي فَأَتَكَلَّمَ مَهْمَا أَصَابَنِي ,",
+      "English": "13 Hold your peace with me, and let me speak, Then let come on me what may! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِمَاذَا آَخُذُ لَحْمِي بِأَسْنَانِي ، وَأَجْعَلُ نَفْسِي فِي كَفّي ؟",
+      "English": "14 Why do I take my flesh in my teeth, And put my life in my hands? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِنَّهُ وَلَوْ قَتَلَنِي أَبْقَى آمِلًا لَهُ , غَيْرَ أَنِّي أَحْتَجُ عَنْ طَرْقِي أَمَامَهُ.",
+      "English": "15 Though He slay me, yet will I trust Him. Even so, I will defend my own ways before Him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَهُوَ يَكُونُ خَلَاصِي , أَمَّا المُخَالِفُ فَلَا يَقُومُ أَمَامَهُ.",
+      "English": "16 He also shall be my salvation, For a hypocrite could not come before Him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَاسْمَعُوا كَلَامِي وَمَا أُبَيِّنُهُ عَلَى مَسَامِعِكُمْ.",
+      "English": "17 Listen carefully to my speech, And to my declaration with your ears. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَإِنِّي قَدْ تَدَبَّرْتُ الدَّعْوَى وَأَنَا عَالِمٌ بِأَنِّي سَأَكُونَ بَارًا،",
+      "English": "18 See now, I have prepared my case, I know that I shall be vindicated. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنِ الَّذِي يُحَاجِجُنِي؟ فَإِنِّي لَا أَلْبَثُ أَنْ أَسْكُتَ وَتَفِيضَ رُوحِي.",
+      "English": "19 Who is he who will contend with me? If now I hold my tongue, I perish. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمْرَيْنِ لَا تَفْعَلْ بِي ، فَحِينَئِذٍ لَا أَتَوَارَى عَنْ وَجْهِكَ.",
+      "English": "20 Only two things do not do to me, Then I will not hide myself from You: \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَزِلْ عَنِّي يَدَكَ ، وَلَا تُرَوِّعْنِي هَيْبَتُكَ,",
+      "English": "21 Withdraw Your hand far from me, And let not the dread of You make me afraid. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ادْعُ فَأَجِيبَ ، أَوْ فَلْأُخَاطِبُكَ أَنَا فَتُجَاوِبَنِي.",
+      "English": "22 Then call, and I will answer; Or let me speak, then You respond to me. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَا الَّذِي لِي مِنَ الْآثَامِ وَالْخَطَايَا؟",
+      "English": "23 How many are my iniquities and sins? Make me know my transgression and my sin. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَعْلِمُنِي مَعْصِيَتِي وَخَطِيئَتِي.",
+      "English": "24 Why do You hide Your face, And regard me as Your enemy? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِمَاذَا تُوَارِي وَجْهَكَ ، وَتَعُدُّنِي عَدُوًّا لَكَ ؟",
+      "English": "25 Will You frighten a leaf driven to and fro? And will You pursue dry stubble? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِنَّمَا تُرَوَعُ وَرَقَةً مَنْثُورَةً ، وَتُرْهِقُ عُصَافَةً يَابِسَةَ .",
+      "English": "26 For You write bitter things against me, And make me inherit the iniquities of my youth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَإِنَّكَ تَكْتُبُ عَلَيَّ مُعَامَلَاتٍ عَنِيفَةً ، وَتُلْحِقُ بي آثَامَ صِبَايَ.",
+      "English": "27 You put my feet in the stocks, And watch closely all my paths. You set a limit for the soles of my feet. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَتَجْعَلُ رِجْلَيَّ فِي مِقْطَرَةِ ، وَتُرَاقِبُ جَمِيعَ مَسَالِكِي ، وَتَخُطُّ حَوْلَ بَاطِنِ قَدَمَيَّ.",
+      "English": "28 Man decays like a rotten thing, Like a garment that is moth-eaten. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَهَذَا الرَّجُلُ قَدْ نُخِرَ كَرُفَاتٍ مُتَسَوّسَةٍ ، وَكَثَوْبٍ قَدْ أَكَلَهُ الْعُثْ.",
+      "English": "14:1 Man who is born of woman Is of few days and full of trouble. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الْإِنْسَانُ مَوْلُودُ الْمَرْأَةِ ، قَلِيلُ الْأَيَّامِ كَثِيرُ السَّقَاءِ",
+      "English": "2 He comes forth like a flower and fades away; He flees like a shadow and does not continue. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كَزَهْرٍ يَنْبُتُ ثُمَّ يُقْطَعْ , كَظِلَّ يَبْرَحُ وَلَا يَقِفُ.",
+      "English": "3 And do You open Your eyes on such a one, And bring me to judgment with Yourself? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِنَّكَ عَلَى مِثْلِ هَذَا فَتَحْتَ عَيْنَيْكَ ، وَإِيَّايَ نَافَذْتَ لِلتَّحَاكُمِ مَعَكَ.",
+      "English": "4 Who can bring a clean thing out of an unclean? No one! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنْ يَأْتِي بِطَاهِرٍ مِنْ نَجس ؟ لَا أَحَدَ",
+      "English": "5 Since his days are determined, The number of his months is with You; You have appointed his limits, so that he cannot pass. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَإِذَا كَانَتْ أَيَّامُهُ مَحْدُودَةً ، وَعَدَدُ شُهُورِهِ مُعَيَّناً عِنْدَكَ ، وَقَدْ قَضَيْتَ لَهُ أَجَلًا لَا يَتَعَدَّاهُ.",
+      "English": "6 Look away from him that he may rest, Till like a hired man he finishes his day. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَاصْرِفْ طَرْفَكَ عَنْهُ لِيَسْتَرِيحَ ، إِلَى أَنْ يَفِيَ نَهَارَهُ كَالْأَجِيرِ.",
+      "English": "7 For there is hope for a tree, If it is cut down, that it will sprout again, And that its tender shoots will not cease. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الشَّجَرَةُ لَهَا رَجَاءُ فَإِنَّهَا إِذَا قُطِعَتْ تُخْلِفُ أَيْضًا وَفِرَاخُهَا لَا تَزُولُ.",
+      "English": "8 Though its root may grow old in the earth, And its stump may die in the ground, \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَإِذَا تَعَتَّقَ فِي الْأَرْضِ أَصْلُهَا ، وَمَاتَ فِي التُّرَابِ جَذْرُهَا .",
+      "English": "9 Yet at the scent of water it will bud And bring forth branches like a plant. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَمِنِ اسْتِرْوَاحِ الْمَاءِ تُفَرِّحُ وَتُنْبِتُ فُرُوعًا كَالْغَرِيسَةِ.",
+      "English": "10 But man dies and is laid away; Indeed he breathes his last And where is he? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمَّا الرَّجُلُ فَإِذَا مَاتَ لَبِثَ هُنَاكَ ، وَالْبَشَرُ مَتَى فَاضَتْ رُوحُهُ ، فَأَيْنَ يُوجَدُ ؟",
+      "English": "11 As water disappears from the sea, And a river becomes parched and dries up, \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الْبَحْرُ تَنْفَدُ مِيَاهُهُ ، وَالنَّهْرُ يَنْضُبُ وَيَجِفُ .",
+      "English": "12 So man lies down and does not rise. Till the heavens are no more, They will not awake Nor be roused from their sleep. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَالْإِنْسَانُ يَضْطَجِعُ وَلَا يَقُومُ , إِلَى أَنْ تَزُولَ السَّمَاوَاتُ لَا يَسْتَيْقِظُونَ وَلَا يَنْبَعِثُونَ مِنْ مَنَامِهِمْ.",
+      "English": "13 Oh, that You would hide me in the grave, That You would conceal me until Your wrath is past, That You would appoint me a set time, and remember me! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَيْتَكَ تُودِعُنِي وَتُوَارِينِي فِي الْهَاوِيَةِ ، حَتَّى يَجْتَازَ غَضَبُكَ ، وَأَنْ تَضْرِبَ لِي أَجَلًا ثُمَّ تَتَذَكَّرَنِي",
+      "English": "14 If a man dies, shall he live again? All the days of my hard service I will wait, Till my change comes. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِذَا مَاتَ الرَّجُلُ أَفَيَحْيَا ؟ إِذًا لَانْتَظَرْتُ كُلَّ أَيَّامٍ تَجَنُّدِي حَتَّى يَحِينَ ابْتِدَالي.",
+      "English": "15 You shall call, and I will answer You; You shall desire the work of Your hands. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَإِنَّكَ تَدْعُونِي فَأُجِيبُكَ. وَتَنْعَطِفُ إِلَى صُنْعِ يَدَيْكَ.",
+      "English": "16 For now You number my steps, But do not watch over my sin. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمَّا الْآنَ فَإِنَّكَ تُحْصِي خَطَوَاتِي ، وَتَرْصُدُ خَطَايَايَ",
+      "English": "17 My transgression is sealed up in a bag, And You cover my iniquity. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تَخْتِمُ عَلَى مَعْصِيَتِي ، وَتَسْتُرُ عَلَى إِثْمِي.",
+      "English": "18 But as a mountain falls and crumbles away, And as a rock is moved from its place; \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الْجَبَلُ يَخْسِفُ وَيَنْمَحِقُ ، وَالصَّخَرُ يَتَزَحْزَحُ عَنْ مَكَانِهِ.",
+      "English": "19 As water wears away stones, And as torrents wash away the soil of the earth; So You destroy the hope of man. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَالْحِجَارَةُ تَبْرِيهَا الْمِيَاهُ وَتَجْرُفُ سُيُولُهَا تُرَابَ الْأَرْضِ ، وَأَنْتَ تُفْنِي رَجَاءَ لْإِنْسَانِ.",
+      "English": "20 You prevail forever against him, and he passes on; You change his countenance and send him away. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تُرْهِقُهُ عَلَى الدَّوَامِ فَيَنْقَضِي. تُشَوَّهُ وَجْهَهُ ثُمَّ تَطْرُدُهُ.",
+      "English": "21 His sons come to honor, and he does not know it; They are brought low, and he does not perceive it. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَيُكْرَمُ بَنُوهُ ؟ لَا يَعْلَمُ . أَمْ يُهَانُونَ؟ لَا يَدْرِي",
+      "English": "22 But his flesh will be in pain over it, And his soul will mourn over it.     Glory be to the Holy Trinity. Amen\r"
+    }
+  ]
+}

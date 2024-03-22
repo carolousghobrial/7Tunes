@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٢٦ : ١٠ - ١١ )",
+  "EnglishTitle": "Psalms 27:6-8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أُسبح وأُرتِّلُ لِلرَّبِّ ,",
+      "English": "6 I will sing, yes, I will sing praises to the Lord \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " اسْتَمِعْ يَا رَبُّ صَوتِيَ الَّذِي بِهِ دَعَوْتُكَ. ",
+      "English": "7 Hear, O Lord, when I cry with my voice! Have mercy also upon me, and answer me. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارْحَمْنِي وَاسْتَجِبْ لِي ، فَإِنَّ لَكَ قَالَ قَلْبِي هَلِلُويَا.",
+      "English": "8 When You said, Seek My face, My heart said to You, Your face, Lord, I will seek.     Alleluia\r"
+    }
+  ]
+}

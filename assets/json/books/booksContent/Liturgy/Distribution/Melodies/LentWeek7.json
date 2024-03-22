@@ -7,6 +7,14 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": "1. الصوم الصوم يا شعب يسوع،\nصوموا صوماً طاهراً بشخوع،\nليس الصوم معناه الجوع،\nالصوم هو التوبة عن الزلات.\n",
       "English": "This great fast O Christian people,\nFast it with purity and meekness,\nFasting never meant starvation,\nFasting is humility and repentance.\n"
@@ -26,6 +34,14 @@
       "Side": "North",
       "Arabic": "\n3. الأولى حب الرب إلهك،\nمن كل قلبك وأفكارك،\nوالمحبة لجميع أهل إيمانك،\nوساوي الكل في الدرجات.\n",
       "English": "\nThe first is love the Lord your God,\nFrom all your heart and thoughts,\nAnd love your neighbor as yourself,\nAs in the Bible we have been taught.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
     },
     {
       "Type": "Melody",
@@ -55,6 +71,14 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": "\n7. الخامسة أكرم أباك وأمك،\nلأنهما تحملا همك،\nليكثر خيرك ويطيل أيامك،\nوبدعائهما تنال البركات.\n",
       "English": "\nThe fifth is obey your father and mother,\nFor they have taken care of you,\nThat God may prosper in your life,\nAnd that you may be granted blessings.\n"
@@ -74,6 +98,14 @@
       "Side": "North",
       "Arabic": "\n9. السابعة لا تزن أيها الإنسان،\nلا بالجسم ولا بالجنان،\nوإخشى غضب الديان،\nلأن الزنى يغلق باب الرحمات.\n",
       "English": "\nThe seventh is never commit adultery,\nThrough your body or in your mind,\nAnd avoid the anger of the Mighty,\nSo that He may show you mercy.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
     },
     {
       "Type": "Melody",
@@ -103,6 +135,14 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": "\n13. بهذه الوصايا والناموس،\nيطالبنا الرب القدوس،\nالرازق محيي كل النفوس،\nلنرث ملكوت السموات.\n",
       "English": "\nBy these commandments and laws,\nOur holy Lord asks of us,\nThe beneficial and reviver of souls,\nTo inherit the kingdom of heaven.\n"
@@ -127,6 +167,14 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": "\n16. بالصوم والصلاة لوط البار،\nأتى إليه ملائكة أطهار،\nوخلصوه من لهيب النار،\nولم ينظر تلك الضربات.\n",
       "English": "\nThrough fasting and prayers,\nTwo angels came to the righteous Lot,\nAnd took him out of Sodom,\nTo save him from the burning fire.\n"
@@ -138,6 +186,14 @@
       "Side": "North",
       "Arabic": "\n17. بالصوم والصلاة يوسف الصديق،\nخلص من الزانية والتضييق،\nوصارت له العفة أكبر صديق،\nوأصبح رئيساً على تلك الجهات.\n",
       "English": "\nThrough fasting and prayer,\nJoseph escaped the sinful mistress,\nGod granted him asceticism,\nAnd he became the governor of that land.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
     },
     {
       "Type": "Melody",
@@ -167,6 +223,14 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": "\n21. بالصوم والصلاة الفتية الأبرار،\nلما القاهم بختنصر في النار،\nنجوا من غير أن يمسهم أضرار،\nلأنهم لم يسجدوا للمصنوعات.\n",
       "English": "\nThrough fasting and prayer,\nThe three youth quenched the fire,\nThey survived without any harm,\nFor they did not worship the idols.\n"
@@ -186,6 +250,14 @@
       "Side": "North",
       "Arabic": "\n23. بالصوم والصلاة كل الأوقات،\nنال الأباء جميع المطلوبات،\nوأطفأوا لهيب نار الشهوات،\nرجاء في ملكوت السموات.\n",
       "English": "\nThrough fasting and prayers at all times,\nThe holy men gained prosperity,\nThey put out the flames of desires,\nWaiting for the heavenly kingdom.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
     },
     {
       "Type": "Melody",
@@ -215,6 +287,14 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": "\n27. حينئذ أجاب الديان،\n\"ليس بالخبز يحيا الإنسان،\nبل بكلام الله المنان،\nيصير حياً بلا ممات.\"\n",
       "English": "\nJesus our Lord answered and said,\n\"Not by bread alone man lives,\nBut by every word of God,\nShall man live without sins.\"\n"
@@ -234,6 +314,14 @@
       "Side": "North",
       "Arabic": "\n29. داود ذو الفضل المعود،\nبتقواه صار نبياً لليهود،\nوملكاً قادر ذا جنود،\nدائم الذكر في كل الأوقات.\n",
       "English": "\nDavid the great king of Israel,\nBecame a prophet by his righteousness,\nAnd a great and powerful king,\nRemembered throughout generations.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
     },
     {
       "Type": "Melody",
@@ -263,6 +351,14 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": "\n33. شرف الصوم مولانا،\nوأمرنا به وهدانا،\nفلنصم ونسامح أعدانا،\nفيغفر لنا كل الزلات.\n",
       "English": "\nFasting was blessed by our Master,\nAnd He commanded us to fast also,\nLet us fast and forgive our enemies,\nThat He may forgive us our iniquities.\n"
@@ -282,6 +378,14 @@
       "Side": "North",
       "Arabic": "\n35. ضيعنا حياتنا في اللذات،\nفي طعام وشراب وشهوات،\nوتعاطي مسكر وسماع نغمات،\nولم نفكر في ساعة الموت مع الحسرات.\n",
       "English": "\nWe wasted our lives in earthly pleasures,\nWith eating and drinking and desires,\nIndulging in wasteful living,\nAnd the day of our departure forgetting.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
     },
     {
       "Type": "Melody",
@@ -311,6 +415,14 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": "\n39. غفر للزانية خطاياها،\nوالسامرية أيضاً هداها،\nومن ماء الحياة رواها،\nونالت منه كل المطلوبات.\n",
       "English": "\nHe forgave the sinful women,\nHe changed the heart of the Samaritan,\nOf the eternal water she drank,\nAnd was granted all requests.\n"
@@ -330,6 +442,14 @@
       "Side": "North",
       "Arabic": "\n41. قال للأعمى الذي شفاه،\n\"أتؤمن أنت بإبن الله،\"\nفقال \"مَنْ هو يا سيد لكي آراه،\"\nأجابه \"أنا الناطق بالكلمات.\"\n",
       "English": "\n\"Do you believe in the Son of God,\"\nHe asked the blind man whom He healed,\nHe said, \"Who is He my Lord,\"\n\"I am He, your rock and shield.\"\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
     },
     {
       "Type": "Melody",
@@ -359,6 +479,14 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": "\n45. نقدم صلوات مع طلبات،\nلأبينا الذي في السموات،\nونصنع رحمة صدقات،\nبما يصل إليه حد القوات.\n",
       "English": "\nLet us offer supplications and prayers,\nTo God who is in the heaven,\nAnd have mercy and help those in need,\nAccording to what we have received.\n"
@@ -383,6 +511,14 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": "\n48. لأنه يستجيب لمَنْ دعاه،\nفلنسبح له ونمجده في علاه،\nونداوم على فعل وصاياه،\nونستدر منه الخير والبركات.\n",
       "English": "\nLet us praise and glorify Him,\nFor He listens to those who ask,\nLet us follow His commandments,\nSo we may receive goodness with blessings.\n"
@@ -402,6 +538,14 @@
       "Side": "North",
       "Arabic": "\n50. وأيضاً البيع في كل مكان،\nإجعلها مفتوحة على ممر الزمان،\nوالشعب فيها بهدو وطمان،\nمحفوظين محروسين من الضربات.\n",
       "English": "\nAnd protect Your church in every place,\nKeep its gates open at all times,\nProtect the congregation in peace,\nFrom every plagues and evil mind.\n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": "طوبي للرحما على المساكين\n  فإن الرحمة تحل عليهم\n  والمسيح يرحمهم في يوم الدين \n ويحل بروح قدسه فيهم",
+      "English": "Blessed are those who have mercy \n Who give to the poor and fast and pray \n The Holy Spirit will fill their hearts \n The Son will show them mercy on Judgment Day"
     }
   ]
 }
