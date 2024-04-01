@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٨:٤٧-٩)",
+  "EnglishTitle": "Psalms 48:10-11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَمِينُكَ مَمْلُوءةٌ عَدْلًا، ",
+      "English": "10 Your right hand is full of righteousness \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلْيَفْرَحْ جَبَلُ صِهْيَوْنَ ، ولَتَتَهَلَّلْ بَنَاتُ الْيَهُودِيَّةِ ، مِنْ أَجْلٍ أَحْكَامِكَ يَا رَبُّ. هَلِلُويَا.",
+      "English": "11 Let Mount Zion rejoice, Let the daughters of Judah be glad, Because of Your judgments.     Alleluia\r"
+    }
+  ]
+}

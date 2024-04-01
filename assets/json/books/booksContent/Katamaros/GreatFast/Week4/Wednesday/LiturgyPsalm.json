@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۱۷ : ۱۹ ، ۱۷)",
+  "EnglishTitle": "Psalms 18:17-18",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يُخْلِصُنِي مِنْ أَعْدَائِيَ الْأَشِدَّاءِ ، وَمِنْ أَيْدِي الَّذِينَ يُبْغِضُونَنِي",
+      "English": "17 He delivered me from my strong enemy, From those who hated me, For they were too strong for me. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لِأَنَّهُمْ تَقَوَّوْا أَكْثَرَ مني ، أدْرَكُونِي فِي يَوْمِ ضُرَيْ. هَتِلُوبًا.",
+      "English": "18 They confronted me in the day of my calamity.     Alleluia\r"
+    }
+  ]
+}

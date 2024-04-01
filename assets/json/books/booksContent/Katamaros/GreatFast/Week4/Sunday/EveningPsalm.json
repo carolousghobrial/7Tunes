@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٢٦ : ١٧ ، ١٦ )",
+  "EnglishTitle": "Psalms 32:10-11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كثيرة هى ضربات الخطاة, والذى يتكل على الرب, الرحمة تحيط به. ",
+      "English": "10 Many sorrows shall be to the wicked; But he who trusts in the Lord, mercy shall surround him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "افرحوا أيها الصديقون بالرب وابتهجوا, وافتخروا يا جميع مستقيمي القلوب. هللويا",
+      "English": "11 Be glad in the Lord and rejoice, you righteous; And shout for joy, all you upright in heart!.     Alleluia\r"
+    }
+  ]
+}

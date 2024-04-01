@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٦٠ : ١ ، ٤ )",
+  "EnglishTitle": "Psalms 61:1, 5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اسْتَمِعْ يَا الله طلبتي . أصغ إلى صلاتي. لأنك أنت يا اللهُ اسْتَمَعْتَ صَلَوَاتِي ،",
+      "English": "61:1 Hear my cry, O God; Attend to my prayer.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أَعْطَيْتَ مِيرَاثَّا لِلَّذِينَ يَرْهَبُونَ اسْمَكَ. هَلِلُويَا.",
+      "English": "5 You have given me the heritage of those who fear Your name.     Alleluia\r"
+    }
+  ]
+}

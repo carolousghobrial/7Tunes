@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۲۷ : ۷-۸)",
+  "EnglishTitle": "Psalms 28:6-7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مُبَارَكَ الرَّبُّ الْإِلَهُ ؛ لِأَنَّهُ سَمِعَ صَوْتَ دُعَائِي .",
+      "English": "6 Blessed be the Lord, Because He has heard the voice of my supplications! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الرَّبُّ هُوَ عَوْنِي وَنَاصِرِي ، عَلَيْهِ أتكل. هللويا.",
+      "English": "7 The Lord is my strength and my shield; My heart trusted in Him.     Alleluia\r"
+    }
+  ]
+}

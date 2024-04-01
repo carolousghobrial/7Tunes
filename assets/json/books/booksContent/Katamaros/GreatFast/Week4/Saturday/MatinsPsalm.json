@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٧،٥:١٤١)",
+  "EnglishTitle": "Psalms 142:5, 7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صَرَخْتُ إِلَيْكَ يَا رَبُّ وَقُلتُ أنتَ هُوَ رَجَائِي ، وحَظِي فِي أَرْضِ الأَحْيَاءِ.",
+      "English": "5 I cried out to You, O Lord: I said, You are my refuge, My portion in the land of the living.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أَخْرِجُ مِنَ الْحَبْسِ نَفْسِي ، لِكَيْ أَشْكُرَ اسْمَكَ يَا رَبُّ. هَلِلُويَا.",
+      "English": "7 Bring my soul out of prison, That I may praise Your name.     Alleluia\r"
+    }
+  ]
+}

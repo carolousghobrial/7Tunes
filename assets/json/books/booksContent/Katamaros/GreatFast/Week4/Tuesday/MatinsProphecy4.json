@@ -1,0 +1,311 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ سِفْرِ يَشُوعَ بْنِ سِيرَاخ بَرَكَتُهُ الْمُقَدَّسَةُ فَلْتَكُنْ مَعَنَا آمِينَ. (۸، ۹ ، ۱:۱۰ )",
+  "EnglishTitle": "Sirach 8:1-10:1\r",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُخَاصِمِ الْمُقْتَدِرَ ، لِئَلَّا تَقَعَ فِي يَدَيْهِ. ",
+      "English": "8:1  Do not contend with the powerful, or you may fall into their hands. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُنازع الْغَنِيُّ ، لِئَلَّا يَجْعَلَ عَلَيْكَ ثِقُلًا.  فَإِنَّ الذَّهَبَ أَهْلَكَ كَثِيرِينَ ، وَأَزَاغَ قُلُوبَ الْمُلُوكِ. ",
+      "English": "2 Do not quarrel with the rich, in case their resources outweigh yours; for gold has ruined many, and has perverted the minds of kings. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُخَاصِمِ الْفَتِيقَ الْلِّسَانِ ، وَلَا تَجْمَعْ عَلَى نَارِهِ حَطَبًا. ",
+      "English": "3 Do not argue with the loud of mouth, and do not heap wood on their fire. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لا تُمَازح الناقص الأدَبِ ، لِئَلَّا يُهِينَ أَسْلَافَكَ. ",
+      "English": "4 Do not make fun of one who is ill-bred, or your ancestors may be insulted. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُعَيِّرِ الْمُرْتَدَّ عَنِ الْخَطِيَّةِ ، أذكرُ أَنَّنَا بِأَجْمَعِنَا نَسْتَوْجِبُ الْمُؤَاخَذَةَ ",
+      "English": "5 Do not reproach one who is turning away from sin; remember that we all deserve punishment. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُهِنْ أَحَدًا فِي شَيْخُوخَتِهِ ، فَإِنَّ الَّذِينَ يَشِيخُونَ هُمْ مِنَّا ",
+      "English": "6 Do not disdain one who is old, for some of us are also growing old. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَشْمَتْ بِمَوْتِ أَحَدٍ ، أَذْكُرُ أَنَّنَا بِأَجْمَعِنَا نَمُوتُ ",
+      "English": "7 Do not rejoice over anyone's death; remember that we must all die. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَسْتَخِفَّ بِكَلامِ الْحُكَمَاءِ ، بَلْ كُنْ لَهِجًا بِأَمْثَالِهِمْ.  فَإِنَّكَ مِنْهُمْ تَتَعَلَّمُ التَّأْدِيبَ ، وَالْخِدْمَةَ لِلْعُظَمَاء. ",
+      "English": "8 Do not slight the discourse of the sages, but busy yourself with their maxims; because from them you will learn discipline and how to serve princes. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لا تُهْمِلْ كَلام الشيوخ ، فَإِنَّهُمْ تَعَلَّمُوا مِنْ آبَائِهِمْ ،  وَمِنْهُمْ تَتَعَلَّمُ الْحِكْمَةَ ، وَأَنْتَ تَرُدُّ الْجَوَابَ فِي وَقْتِ الْحَاجَةِ. ",
+      "English": "9 Do not ignore the discourse of the aged, for they themselves learned from their parents;  from them you learn how to understand and to give an answer when the need arises. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُوقِدْ جَمْرَ الْخَاطِيُّ ، لِئَلَّا تَحْتَرِقَ بِنَارٍ لَهِيبِهِ. ",
+      "English": "10 Do not kindle the coals of sinners, or you may be burned in their flaming fire. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَنتَصِبُ فِي وَجْهِ الشَّاتِمِ ، لِئَلَّا يَتَرَصَّدَ فِي فَمِكَ الْكَمِينُ.  ",
+      "English": "11 Do not let the insolent bring you to your feet, or they may lie in ambush against your words. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُقْرِضْ مَنْ هُوَ أَقْوَى مِنْكَ ، فَإِنْ أَقْرَضْتَهُ شَيْئًا ، فَاحْسَبْ أَنَّكَ قَدْ أَضَعْتَهُ. ",
+      "English": "12 Do not lend to one who is stronger than you; but if you do lend anything, count it as a loss. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَكْفُلْ مَا هُوَ فَوْقَ طَاقَتِكَ ، فَإِنْ كَفَلْتَ ، فَاهْتَمَّ اهْتِمَامَ مَنْ يَفِي. ",
+      "English": "13 Do not give surety beyond your means; but if you give surety, be prepared to pay. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُحَاكِمِ الْقَاضِيَ ، لِأَنَّهُ يُحْكَمُ لَهُ بِحَسَبِ رَأْيِهِ. ",
+      "English": "14 Do not go to law against a judge, for the decision will favor him because of his standing. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَسِرُ فِي الطَّرِيقِ مَعَ الْمُتَقَحِّمِ ، لِئَلَّا يَجْلُبَ عَلَيْكَ وَبَالًا، فَإِنَّهُ يَسْعَى فِي هَوَى نَفْسِهِ ، فَتَهْلِكَ أَنْتَ بِجَهْلِهِ.  ",
+      "English": "15 Do not go traveling with the reckless, or they will be burdensome to you; for they will act as they please, and through their folly you will perish with them. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُشَاجِرِ الْغَضُوبَ ، وَلَا تَسِرْ مَعَهُ فِي الْخَلَاءِ ، فَإِنَّ الدَّمَ عِنْدَهُ كَلَا شَيْءٍ ، فَيَصْرَعُكَ حَيْثُ لَا نَاصِرَ لَكَ. ",
+      "English": "16 Do not pick a fight with the quick-tempered, and do not journey with them through lonely country, because bloodshed means nothing to them, and where no help is at hand, they will strike you down. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُشَاوِرٍ الْأَحمقَ ، فَإِنَّهُ لَا يَسْتَطِيعُ كِتْمَانَ الْكَلَامِ ",
+      "English": "17 Do not consult with fools, for they cannot keep a secret. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُبَاشِرُ أَمْرًا سِريًّا أَمَامَ الْأَجْنَبِي، فَإِنَّكَ لَا تَعْلَمُ مَا سَيَبْدُو مِنْهُ ",
+      "English": "18 In the presence of strangers do nothing that is to be kept secret, for you do not know what they will divulge. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَكْشِفْ مَا فِي قَلْبِكَ لِكُلِّ إِنْسَانٍ ، فَعَسَاهُ لَا يَجْزِيكَ شكرا. ",
+      "English": "19 Do not reveal your thoughts to anyone, or you may drive away your happiness. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَغَرْ عَلَى الْمَرْأَةِ الَّتِي فِي حِجْرِكَ ، وَلَا تُعَلَّمْ عَلَيْكَ تَعْلِيمًا سَيِّئَا. ",
+      "English": "9:1  Do not be jealous of the wife of your bosom, or you will teach her an evil lesson to your own hurt. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُسَلِّمْ نَفْسَكَ إِلَى الْمَرْأَةِ ، لِئَلَّا تَتَسَلَّطَ عَلَى قُدْرَتِكَ. ",
+      "English": "2 Do not give yourself to a woman and let her trample down your strength. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَلْقَ الْمَرْأَةَ الْبَغِيَّ ، لِئَلَّا تَقَعَ فِي أَشْرَاكِهَا. ",
+      "English": "3 Do not go near a loose woman, or you will fall into her snares. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَأْلَفِ الْمُغْنِيَّةَ ، لِئَلَّا تُصْطَادَ بِفُنُونِهَا. ",
+      "English": "4 Do not dally with a singing girl, or you will be caught by her tricks. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَتَفَرَّسُ فِي الْعَذْرَاءِ ، لِئَلَّا تُعْثِرَكَ مَحَاسِنُهَا. ",
+      "English": "5 Do not look intently at a virgin, or you may stumble and incur penalties for her. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُسَلَّمْ نَفْسَكَ إِلَى الزَّوَانِي ، لِئَلَّا تُتْلِفَ مِيرَاثَكَ. ",
+      "English": "6 Do not give yourself to prostitutes, or you may lose your inheritance. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُسَرِّحْ بَصَرَكَ فِي أَزِقَّةِ الْمَدِينَةِ ، وَلَا تَتَجَوَّلْ فِي أَخْلِيَتِهَا . ",
+      "English": "7 Do not look around in the streets of a city, or wander about in its deserted sections. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اِصْرِفْ طَرْفَكَ عَنِ الْمَرْأَةِ الْجَمِيلَةِ ، وَلَا تَتَفَرَّسُ فِي حُسْنِ الْغَرِيبَةِ. فَإِنَّ حُسْنَ الْمَرْأَةِ أَغْوَى كَثِيرِينَ ، وَبِهِ يَتَلَهَّبُ الْعِشْقُ كَالنَّارِ.  كُلُّ امْرَأَةٍ زَانِيَةٍ تُدَاسُ كَالزَبْلِ فِي الطَّرِيقِ كَثِيرُونَ افْتَتَنُوا بِجَمَالِ الْمَرْأَةِ الْغَرِيبَةِ ، فَكَانَ حَظْهُمُ الرَّذْلَ ، لأَنَّ مُحَادَثَتَهَا تَتَلَهَّبُ كَالنَّارِ. ",
+      "English": "8 Turn away your eyes from a shapely woman, and do not gaze at beauty belonging to another; many have been seduced by a woman's beauty, and by it passion is kindled like a fire. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُجَالِس ذَاتَ الْبَعْلِ الْبَتَّةَ ، وَلَا تَتَّكِيُّ مَعَهَا فِي الْمَرْفِقِ. وَلَا تَكُنْ لَهَا مُنَادِمًا عَلَى الْخَمْرِ ، لِئَلَّا تَمِيلَ نَفْسُكَ إِلَيْهَا ، وَتَزِلَّ بِقَلْبِكَ إِلَى الْهَلَاكِ . ",
+      "English": "9 Never dine with another man's wife, or revel with her at wine; or your heart may turn aside to her, and in blood  you may be plunged into destruction. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تُقَاطِعْ صَدِيقَكَ الْقَدِيمَ ، فَإِنَّ الْحَدِيثَ لَا يُمَاثِلُهُ  الصَّدِيقُ الْحَدِيثُ خَمْرٌ جَدِيدَةٌ ، إِذَا عُتِقَتْ ، لَذَّ لَكَ شُرْبُهَا . ",
+      "English": "10  Do not abandon old friends, for new ones cannot equal them. A new friend is like new wine; when it has aged, you can drink it with pleasure. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَغَرُ مِنْ مَجْدِ الْخَاطِئِ، فَإِنَّكَ لَا تَعْلَمُ كَيْفَ يَكُونُ انْقِلَابُهُ. ",
+      "English": "11 Do not envy the success of sinners, for you do not know what their end will be like. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَا تَرْتَضِ بِمَرْضَاةِ الْمُنَافِقِينَ . أَذْكُرْ أَنَّهُمْ إِلَى الْهَاوِيَةِ لَا يَتَزَكَّوْنَ. ",
+      "English": "12 Do not delight in what pleases the ungodly; remember that they will not be held guiltless all their lives. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تَبَاعَدْ عَمَّنْ لَهُ سُلْطَانٌ عَلَى الْقَتْلِ ، فَلَا تَجْرِيَ فِي خَاطِرِكَ مَخَافَةُ الْمَوْتِ.  وَإِنْ دَنَوْتَ مِنْهُ ، فَلَا تُجْرِمْ ، لِئَلَّا يَذْهَبَ بِحَيَاتِكَ  إِعْلَمْ أَنَّكَ تَتَخَطَّى بَيْنَ الْفِخَاخِ ، وَتَتَمَشَّى عَلَى مَتَارِسِ الْمُدُنِ ",
+      "English": "13 Keep far from those who have power to kill, and you will not be haunted by the fear of death. But if you approach them, make no misstep, or they may rob you of your life. Know that you are stepping among snares, and that you are walking on the city battlements. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اخْتَبِرِ النَّاسَ مَا اسْتَطَعْتَ ، وَشَاوِرِ الْحُكَمَاءَ مِنْهُمْ ",
+      "English": "14 As much as you can, aim to know your neighbors, and consult with the wise. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِيَكُنْ مُؤَاكِلُوكَ مِنَ الْأَبْرَارِ ، وَافْتِخَارُكَ بِمَخَافَةِ الرَّبِّ ",
+      "English": "15 Let your conversation be with intelligent people, and let all your discussion be about the law of the Most High. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اجْعَلْ عِشْرَتَكَ مَعَ الْعُقَلَاءِ ، وَكُلَّ حَدِيثِكَ فِي شَرِيعَةِ الْعَلِيِّ. ",
+      "English": "16 Let the righteous be your dinner companions, and let your glory be in the fear of the Lord. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يُثْنَى عَلَى عَمَلِ الصُّنَّاع لأجلِ أيدِيهِمْ ، أَمَّا رَئيسُ الشَّعْبِ فَإِنَّهُ حَكِيمٌ لأَجْلِ كَلَامِهِ ",
+      "English": "17  A work is praised for the skill of the artisan; so a people's leader is proved wise by his words. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الْفَتِيقُ اللّسَانِ يُخَافُ مِنْهُ فِي مَدِينَتِهِ ، وَالْهَاذِرُ فِي كَلَامِهِ يُمْقَتُ. ",
+      "English": "18 The loud of mouth are feared in their city, and the one who is reckless in speech is hated. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الْقَاضِي الْحَكِيمُ يُؤَدِّبُ شَعْبَهُ ، وَتَدْبِيرُ الْعَاقِلِ يَكُونُ مُرَتَّبَاً. ",
+      "English": "10:1 A wise magistrate educates his people, and the rule of an intelligent person is well ordered.     \r"
+    }
+  ]
+}
