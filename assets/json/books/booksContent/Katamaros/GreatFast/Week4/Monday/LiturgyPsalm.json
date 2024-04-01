@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ١٤:٥٤ ، ١٥ )",
+  "EnglishTitle": "Psalms 55:16-17",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَنَا صَرَخْتُ إِلَى اللَّهِ وَالرَّبُّ اِسْتَجَابَ لِي",
+      "English": "16 I will call upon God, And the Lord shall save me \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أَشكُو ، فَيَسْمَعُ صَوْتِي. هَتِلُويَا. ",
+      "English": "17 Evening and morning and at noon I will pray, and cry aloud, And He shall hear my voice.     Alleluia\r"
+    }
+  ]
+}
