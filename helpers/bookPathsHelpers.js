@@ -2167,6 +2167,17 @@ const bookPaths = {
   KatamarosGreatFastWeek3WednesdayMatinsProphecy3: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week3/Wednesday/MatinsProphecy3.json"),
   KatamarosGreatFastWeek3WednesdayMatinsProphecy4: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week3/Wednesday/MatinsProphecy4.json"),
   KatamarosGreatFastWeek3WednesdayMatinsPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week3/Wednesday/MatinsPsalm.json"),
+  //Week4
+  KatamarosGreatFastWeek4MondayLiturgyActs: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week4/Monday/LiturgyActs.json"),
+  KatamarosGreatFastWeek4MondayLiturgyCatholic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week4/Monday/LiturgyCatholic.json"),
+  KatamarosGreatFastWeek4MondayLiturgyGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week4/Monday/LiturgyGospel.json"),
+  KatamarosGreatFastWeek4MondayLiturgyPauline: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week4/Monday/LiturgyPauline.json"),
+  KatamarosGreatFastWeek4MondayLiturgyPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week4/Monday/LiturgyPsalm.json"),
+  KatamarosGreatFastWeek4MondayMatinsGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week4/Monday/MatinsGospel.json"),
+  KatamarosGreatFastWeek4MondayMatinsProphecy1: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week4/Monday/MatinsProphecy1.json"),
+  KatamarosGreatFastWeek4MondayMatinsProphecy2: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week4/Monday/MatinsProphecy2.json"),
+  KatamarosGreatFastWeek4MondayMatinsProphecy3: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week4/Monday/MatinsProphecy3.json"),
+  KatamarosGreatFastWeek4MondayMatinsPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Katamaros/GreatFast/Week4/Monday/MatinsPsalm.json"),
 };
 
 export default bookPaths;
