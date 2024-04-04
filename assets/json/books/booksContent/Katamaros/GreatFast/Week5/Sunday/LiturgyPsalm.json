@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٣٢: ٦.٥ )",
+  "EnglishTitle": "Psalms 33:5-6",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يُحِبُّ الرَّحْمَةَ وَالْحُكْمَ ، اِمْتَلَأتِ الْأَرْضُ مِنْ رَحْمَةِ الرَّبِّ",
+      "English": "5 He loves righteousness and justice; The earth is full of the goodness of the Lord. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " بِكَلِمَةِ الرَّبِّ تَشَدَّدَتِ السَّمَاوَاتُ ، وَبِرُوحِ فِيهِ كُلُّ قُوَّاتِهَا. هَلِلُويَا.",
+      "English": "6 By the word of the Lord the heavens were made, And all the host of them by the breath of His mouth.     Alleluia\r"
+    }
+  ]
+}

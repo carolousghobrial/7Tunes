@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٨٥ : ٣-٤ )",
+  "EnglishTitle": "Psalms 86:3-4",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارْحَمْنِي يَا رَبُّ فَإِنِّي صَرَخْتُ إِلَيْكَ النَّهَارَ كُلَّهُ, ",
+      "English": "3 Be merciful to me, O Lord, For I cry to You all day long. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَرّحْ نَفْسَ عَبْدِكَ ، فَإِنِّي رَفَعْتُ نَفْسِي ، إِلَيْكَ يَا رَبُّ. هَلِلُويَا.",
+      "English": "4 Rejoice the soul of Your servant, For to You, O Lord, I lift up my soul.     Alleluia\r"
+    }
+  ]
+}

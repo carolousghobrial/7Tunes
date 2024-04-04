@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٦٤: ٢-٣ )",
+  "EnglishTitle": "Psalms 65:2-3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اسْتَمِعْ يَا أَللهُ صَلَاتِي ، لأَنَّهُ إِلَيْكَ يَأْتِي كُلُّ بَشَرٍ.",
+      "English": "2 O You who hear prayer, To You all flesh will come. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " كَلَامُ مُخَالِفِي النَّامُوسِ ، قَدْ قَوِيَ عَلَيْنَا هلليلويا.",
+      "English": "3 Iniquities prevail against me.     Alleluia\r"
+    }
+  ]
+}

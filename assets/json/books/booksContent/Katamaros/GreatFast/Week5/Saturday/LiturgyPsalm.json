@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ١٤٢ : ١ )",
+  "EnglishTitle": "Psalms 143:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَا رَبُّ اسْتَمِعْ صَلاتِي. أنصِتْ بِحَقِّكَ إلَى طِلْبَنِي إِسْتَجِبْ لِي بِعَدَلِك",
+      "English": "143:1 Hear my prayer, O Lord, Give ear to my supplications! In Your faithfulness answer me, And in Your righteousness. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وَلَا تَدْخُلُ فِي الْمُحَاكَمَةِ مَعَ عَبْدِكَ هَللويا.",
+      "English": "2 Do not enter into judgment with Your servant.     Alleluia\r"
+    }
+  ]
+}

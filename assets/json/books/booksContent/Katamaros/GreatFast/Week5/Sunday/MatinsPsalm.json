@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۱۰۱ : ۱ ، ۱۰ )",
+  "EnglishTitle": "Psalms 102:1-2, 12",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَا رَبُّ اسْتَمِعْ صَلاتِي ، وَلْيَصْعَدْ أَمَامَكَ صُرَاخِي ،",
+      "English": "102:1 Hear my prayer, O Lord, And let my cry come to You. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لَا تَصْرِفْ وَجْهَكَ عَنِّي ،",
+      "English": "2 Do not hide Your face from me.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وَأَنْتَ أَيُّهَا الرَّبُّ كَائِنْ إِلَى الْأَبَدِ وَذِكرُكَ إلَى أَجْيَالِ الْأَجْيَالِ. هَلِلُوبَا.",
+      "English": "12 But You, O Lord, shall endure forever, And the remembrance of Your name to all generations.     Alleluia\r"
+    }
+  ]
+}

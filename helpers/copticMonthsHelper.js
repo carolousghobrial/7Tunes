@@ -769,6 +769,8 @@ export function getCurrentSeasonByDate(date, timeTransition) {
   if (
     copticDate.month !== "Tobe" &&
     copticDate.month !== "Meshir" &&
+    copticDate.month !== "Paremhotep" &&
+    copticDate.month !== "Kiahk" &&
     copticDate.day === 29
   ) {
     collection.push({

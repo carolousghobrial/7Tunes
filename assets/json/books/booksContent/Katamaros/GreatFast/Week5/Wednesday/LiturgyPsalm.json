@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٨٥ : ١٢ - ١٣ )",
+  "EnglishTitle": "Psalms 86:13-14",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأَنَّ رَحْمَتَكَ عَظِيمَةٌ عَلَيَّ ، وَقَدْ نَجَّيْتَ نَفْسِي ، مِنَ الْجَحِيمِ السُّفْلِيِّ. ",
+      "English": "13 For great is Your mercy toward me, And You have delivered my soul from the depths of Sheol. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اللَّهُمَّ إِنَّ مُخَالِفِي النَّامُوسِ قَدْ قَامُوا عَلَيَّ هَلِلُويَا.",
+      "English": "14 O God, the proud have risen against me.     Alleluia\r"
+    }
+  ]
+}

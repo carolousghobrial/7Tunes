@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۳۸ : ۱۲ - ۱۳ )",
+  "EnglishTitle": "Psalms 142:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بصوتى إلى الربِّ هتفتُ, بصوتى إلى الربِّ تضرعتُ. ",
+      "English": "142:1 I cry out to the Lord with my voice; With my voice to the Lord I make my supplication. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أسكبُ أمَامَهُ تَوَسُّلى, و حُزْنِى قُدَّامَه أُفرغُ. هلليلويا",
+      "English": "2 I pour out my complaint before Him; I declare before Him my trouble.     Alleluia\r"
+    }
+  ]
+}

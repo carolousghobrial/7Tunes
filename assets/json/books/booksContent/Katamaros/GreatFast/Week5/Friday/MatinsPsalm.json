@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أبينا داود النبي ( ٨٥ : ٨، ٩ )",
+  "EnglishTitle": "Psalms 86:9-10",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كُلُّ الْأُمَمِ الَّذِينَ خَلَقْتَهُمْ ، يَأْتُونَ وَيَسْجُدُونَ أَمَامَكَ يَا رَبُّ ، وَيُمَجِدُونَ اسْمَكَ.",
+      "English": "9 All nations whom You have made Shall come and worship before You, O Lord, And shall glorify Your name. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأَنَّكَ أَنْتَ وَحْدَكَ الْإِلَهُ الْعَظِيمُ. هَلِّلُويَا.",
+      "English": "10 For You are great, and do wondrous things; You alone are God.     Alleluia\r"
+    }
+  ]
+}

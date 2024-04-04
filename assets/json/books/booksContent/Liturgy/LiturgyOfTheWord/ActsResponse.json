@@ -70,6 +70,12 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseAnnunciation",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseLazarusSaturday",
             "Rule": 0,
             "Visible": "isSeason"

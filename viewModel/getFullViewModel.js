@@ -354,6 +354,8 @@ export function GetTodaysReadingPath(path) {
       filePath = updateFilePath(`DaysKoiahk29`);
     } else if (currentSeason.key === "EPIPHANY") {
       filePath = updateFilePath(`DaysTobe11`);
+    } else if (currentSeason.key === "ANNUNCIATION") {
+      filePath = updateFilePath(`DaysParemhotep29`);
     } else {
       const isHathorMonth = currentSeason.copticMonth === "Hathor";
       const isKoiahkMonth = currentSeason.copticMonth === "Koiahk";

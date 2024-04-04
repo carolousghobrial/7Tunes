@@ -98,6 +98,12 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosAnnunciation",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosLazarusSaturday",
             "Rule": 0,
             "Visible": "isSeason"

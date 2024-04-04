@@ -1,0 +1,30 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "في عشائك السري، يا ابن الله اقبلني اليوم شريكاً، لأني لست أقول سرك لأعدائك، ولا اُعطيك قُبلةً مثل يهوذا، لكن مع اللص أعترف لك، أذكرني يارب متى جئت فى ملكوتك.",
+      "Coptic": "Tou dipnou cou tou muctiko chmerwn Uie qeou kinwnon me paralabe> oumh gar tic exqric cou to mucthrion `ipw> ou vilhma ci dwcw kaqaper `o Ioudac> alla wc `o lhcthc `omologw ci> `mnhcqhti mou Kurie en th bacilia cou.",
+      "English": "Of Your Mystical Supper, O Son of God, accept me today as a communicant; for I will not speak of Your mystery to Your enemies, neither will I give You a kiss like Judas; but with the thief will I confess you: Remember me O Lord in Your Kingdom.",
+      "Arabiccoptic": "تو ذيبنو سو تو مي ستيكو سيميرون إييي ثيئو كينو نون ميه بارافي .  أومي غار تيس إيخثريس سو تو ميستيريون إيبو .  أوفيلي ماسي ذو سو كاثا بير أو يوداس .  أللا أوس أو ليستيس أومو لوغوسي .  إمنيس تيتي مو كيريي إين تي فاسيليا سو .",
+      "Englishcoptic": "Too zipnoo soo too meesti-ko seemeroon Eeie theoo kinoonon me paralave: oomee ghar ti-s ekhthris soo to meesteerion -eepoo: oo vileema si zoosoo kathaper -o Ioozas: alla oos -o leestees -omologhoo si: emneesteeti- moo Keerie en tee vasilia soo."
+    }
+  ]
+}

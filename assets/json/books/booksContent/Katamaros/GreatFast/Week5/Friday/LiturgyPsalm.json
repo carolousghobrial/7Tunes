@@ -1,0 +1,39 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۱۳۷ : ۱ )",
+  "EnglishTitle": "Psalms 138:1, 3, 1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَعْتَرِفُ لَكَ يَا رَبُّ مِنْ كُلّ قَلْبِي ؛",
+      "English": "138:1 I will praise You with my whole heart. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لِأَنَّكَ اسْتَمَعْتَ كُلَّ كَلِمَاتِ فَمِي.",
+      "English": "3 In the day when I cried out, You answered me. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أَمَامَ الْمَلَائِكَةِ أُرَتِّلُ لَكَ.",
+      "English": "138:1 Before the gods I will sing praises to You \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وَأَسْجُدُ قُدَّامَ هَيكَلِكَ الْمُقَدَّسِ هَلِلُويَا.",
+      "English": "2 I will worship toward Your holy temple.     Alleluia\r"
+    }
+  ]
+}

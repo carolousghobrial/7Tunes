@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مِنْ مَزَامِيرِ أَبِينَا دَاوُدَ النَّبِيِّ ( ١٣:٤٤ )",
+  "EnglishTitle": "Psalms 45:10-11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " إِسْمَعِي يَا ابْنَتِي وَانْظُرِي وَأَمِيلِي سَمْعَكِ ، وَانْسَيْ شَعْبَكِ وَبَيْتَ أَبِيكِ ،",
+      "English": "10 Listen, O daughter, Consider and incline your ear; Forget your own people also, and your father's house; \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فَإِنَّ الْمَلِكَ قَدْ اشْتَهَى حُسْنَكِ ، لِأَنَّهُ هُوَ رَبُّكِ هَلِّلُويَا",
+      "English": "11 So the King will greatly desire your beauty; Because He is your Lord.     Alleluia\r"
+    }
+  ]
+}

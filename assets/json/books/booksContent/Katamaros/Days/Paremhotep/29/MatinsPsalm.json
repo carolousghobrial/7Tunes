@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أبِينَا دَاوُدَ النَّبِيِّ ( ٧١ : ٥، ٦ )",
+  "EnglishTitle": "Psalms 72:6-7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يَنْزِلُ مِثْلَ الْمَطَرِ عَلَى الْجَزَّةِ ، وَمِثْلَ قَطَرَاتٍ تَقْطُرُ عَلَى الْأَرْضِ , ",
+      "English": "6 He shall come down like rain upon the grass before mowing, Like showers that water the earth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يُشْرِقُ فِي أَيَّامِهِ الْعَدْلُ ، وَكَثْرَةُ السَّلَامِ هَلِلُويَا.",
+      "English": "7 In His days the righteous shall flourish, And abundance of peace.     Alleluia\r"
+    }
+  ]
+}
