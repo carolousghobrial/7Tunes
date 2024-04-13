@@ -49,7 +49,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "5 مِنْ سِبْطِ يَهُوذَا اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ. مِنْ سِبْطِ رَأُوبِينَ اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ. مِنْ سِبْطِ جَادَ اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ.",
-      "English": "5 of the tribe of Judah twelve thousand [were] sealed; of the tribe of Reuben twelve thousand [were] sealed; of the tribe of Gad twelve thousand [were]"
+      "English": "5 From the tribe of Judah twelve thousand [were] sealed; From the tribe of Reuben twelve thousand [were] sealed; From the tribe of Gad twelve thousand [were]"
     },
     {
       "Type": "Base",
@@ -69,7 +69,7 @@
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ يَهُوذَا اثْنَا عَشَرَ أَلْفَ",
       "Coptic": "Ebol=en `tvulh `nIoudac =ib `n]o.",
-      "English": "Of the tribe of Judah twelve thousand",
+      "English": "From the tribe of Judah twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن يوداس ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Yodas, meet esnav ensho."
     },
@@ -80,7 +80,7 @@
       "Side": "North",
       "Arabic": ".مِنْ سِبْطِ رَأُوبِينَ اثْنَا عَشَرَ أَلْفَ",
       "Coptic": "`Ebol=en `tvulh `nRoubhn =ib `n]o.",
-      "English": "Of the tribe of Reuben twelve thousand",
+      "English": "From the tribe of Reuben twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن روبيين ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Robeen, meet esnav ensho."
     },
@@ -91,7 +91,7 @@
       "Side": "North",
       "Arabic": ".مِنْ سِبْطِ جَادَ اثْنَا عَشَرَ أَلْفَ .",
       "Coptic": "`Ebol=en `tvulh `nGad =ib `n]o.",
-      "English": "Of the tribe of Gad twelve thousand",
+      "English": "From the tribe of Gad twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن جاد ميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Gad, meet esnav ensho."
     },
@@ -109,7 +109,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "6 مِنْ سِبْطِ أَشِيرَ اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ. مِنْ سِبْطِ نَفْتَالِي اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ. مِنْ سِبْطِ مَنَسَّى اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ.",
-      "English": "6 of the tribe of Asher twelve thousand [were] sealed; of the tribe of Naphtali twelve thousand [were] sealed; of the tribe of Manasseh twelve thousand [were] sealed"
+      "English": "6 From the tribe of Asher twelve thousand [were] sealed; From the tribe of Naphtali twelve thousand [were] sealed; From the tribe of Manasseh twelve thousand [were] sealed"
     },
     {
       "Type": "Base",
@@ -129,7 +129,7 @@
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ أَشِيرَ اثْنَا عَشَرَ أَلْفَ",
       "Coptic": "`Ebol=en `tvulh `nAcchr =ib `n]o.",
-      "English": "Of the tribe of Asher twelve thousand",
+      "English": "From the tribe of Asher twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن اسيرميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Aseer, meet esnav ensho."
     },
@@ -140,7 +140,7 @@
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ نَفْتَالِي اثْنَا عَشَرَ أَلْفَ",
       "Coptic": "`Ebol=en `tvulh `nEvqal`im =ib `n]o.",
-      "English": "Of the tribe of Naphtali twelve thousand",
+      "English": "From the tribe of Naphtali twelve thousand",
       "Arabiccoptic": ", إيفول خين إيتفيلي إن إفتاليم ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Eftaleem, meet esnav ensho."
     },
@@ -151,7 +151,7 @@
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ مَنَسَّى اثْنَا عَشَرَ أَلْفَ",
       "Coptic": "`Ebol=en `tvulh `nManach =ib `n]o.",
-      "English": "Of the tribe of Manasseh twelve thousand",
+      "English": "From the tribe of Manasseh twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن ماناسا ميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Manasee, meet esnav ensho."
     },
@@ -169,7 +169,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "7 مِنْ سِبْطِ شَمْعُونَ اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ. مِنْ سِبْطِ لاَوِي اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ. مِنْ سِبْطِ يَسَّاكَرَ اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ.",
-      "English": "7 of the tribe of Simeon twelve thousand [were] sealed; of the tribe of Levi twelve thousand [were] sealed; of the tribe of Issachar twelve thousand [were] sealed;,"
+      "English": "7 From the tribe of Simeon twelve thousand [were] sealed; From the tribe of Levi twelve thousand [were] sealed; From the tribe of Issachar twelve thousand [were] sealed;,"
     },
     {
       "Type": "Base",
@@ -189,7 +189,7 @@
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ شَمْعُونَ اثْنَا عَشَرَ أَلْفَ",
       "Coptic": "`Ebol=en `tvulh `nCumewn =ib `n]o.",
-      "English": "Of the tribe of Simeon twelve thousand",
+      "English": "From the tribe of Simeon twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن سيميئون ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Sime-on meet esnav ensho."
     },
@@ -200,7 +200,7 @@
       "Side": "North",
       "Arabic": ".مِنْ سِبْطِ لاَوِي اثْنَا عَشَرَ أَلْفَ",
       "Coptic": "`Ebol=en `tvulh `nLeu`i =ib `n]o.",
-      "English": "Of the tribe of Levi twelve thousand",
+      "English": "From the tribe of Levi twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن لييفيي ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Levee , meet esnav ensho."
     },
@@ -211,7 +211,7 @@
       "Side": "North",
       "Arabic": ".مِنْ سِبْطِ يَسَّاكَرَ اثْنَا عَشَرَ أَلْفَ .",
       "Coptic": "`Ebol=en `tvulh `n Icaxar =ib `n]o.",
-      "English": "Of the tribe of Issachar twelve thousand",
+      "English": "From the tribe of Issachar twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن إيساكار ميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Isakar, meet esnav ensho."
     },
@@ -229,7 +229,7 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "8 مِنْ سِبْطِ زَبُولُونَ اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ. مِنْ سِبْطِ يُوسُفَ اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ. مِنْ سِبْطِ بِنْيَامِينَ اثْنَا عَشَرَ أَلْفَ مَخْتُومٍ.",
-      "English": "8 of the tribe of Zebulun twelve thousand [were] sealed; of the tribe of Joseph twelve thousand [were] sealed; of the tribe of Benjamin twelve thousand [were] sealed."
+      "English": "8 From the tribe of Zebulun twelve thousand [were] sealed; From the tribe of Joseph twelve thousand [were] sealed; From the tribe of Benjamin twelve thousand [were] sealed."
     },
     {
       "Type": "Base",
@@ -249,7 +249,7 @@
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ زَبُولُونَ اثْنَا عَشَرَ أَلْفَ",
       "Coptic": "`Ebol=en `tvulh `nZaboulwn =ib `n]o.",
-      "English": "Of the tribe of Zebulun twelve thousand",
+      "English": "From the tribe of Zebulun twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن زوبولون ميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Zabolon , meet esnav ensho."
     },
@@ -260,7 +260,7 @@
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ يُوسُفَ اثْنَا عَشَرَ أَلْفَ",
       "Coptic": "`Ebol=en `tvulh `nIwchv =ib `n]o.",
-      "English": "Of the tribe of Joseph twelve thousand",
+      "English": "From the tribe of Joseph twelve thousand",
       "Arabiccoptic": ", إيفول خين إيتفيلي إن يوسف ميت إسناف إنشو,",
       "Englishcoptic": "Evol khen etfili en Youssef, meet esnav ensho."
     },
@@ -271,7 +271,7 @@
       "Side": "North",
       "Arabic": "مِنْ سِبْطِ بِنْيَامِينَ اثْنَا عَشَرَ أَلْفَ",
       "Coptic": "`Ebol=en `tvulh `nBeni`amhn =ib `n]o.",
-      "English": "Of the tribe of Benjamin twelve thousand",
+      "English": "From the tribe of Benjamin twelve thousand",
       "Arabiccoptic": "إيفول خين إيتفيلي إن بنيامين ميت إسناف إنشو",
       "Englishcoptic": "Evol khen etfili en Beniameen, meet esnav ensho."
     },

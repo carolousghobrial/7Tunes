@@ -181,7 +181,7 @@
       "Side": "North",
       "Arabic": "أنا نظرت إلي بناء المدينة المصفحة بالذهب، والحجارة الكريمة، والجواهر الحسنة.",
       "Coptic": "`Anok ainau `e`pkwt `noupolic ecw]j `nnoub \\i `wni `mmhi pimargarithc eqnecwc.",
-      "English": "I looked at the city building armored gold, and the precious stones, and the good pearls.",
+      "English": "I saw the walls of a city, covered with gold and precious and the beautiful jewls",
       "Arabiccoptic": "انوك اى ناف ای ایکوت إن اوبوليس اس اوشج ان هی اونی اممی بي ماغاريتيس ايثنيسوس",
       "Englishcoptic": "Anok ainav e-epkot en-oo polees : es-oshg ennob hi oni emmi : pi-marghare-tis ethnesos"
     },
@@ -205,7 +205,7 @@
       "Coptic": "`Ere penCwthr =en tecmh; ef;`xlom \\i tai`o `nnheqmei `mmof.",
       "English": "And Our Savior in its midst : crowning with honor those who love Him.",
       "Arabiccoptic": "أيرى بينسوتير خين تيسميتي, إفتي إكلوم هي تايو إنني إثمىي إمموف",
-      "Englishcoptic": "Ere Pensoteer khen tes-meeti, Evnoti eklom hi-taio enni-ethmei emmof."
+      "Englishcoptic": "Ere Pensoteer khen tes-meeti, Efti eklom hi-taio enni-ethmei emmof."
     },
     {
       "Type": "Melody",
@@ -276,7 +276,7 @@
       "Coptic": "`Ere penCwthr =en tecmh; ef;`xlom \\i tai`o `nnheqmei `mmof.",
       "English": "And Our Savior in its midst : crowning with honor those who love Him.",
       "Arabiccoptic": "أيرى بينسوتير خين تيسميتي, إفتي إكلوم هي تايو إنني إثمىي إمموف",
-      "Englishcoptic": "Ere Pensoteer khen tes-meeti, Evnoti eklom hi-taio enni-ethmei emmof."
+      "Englishcoptic": "Ere Pensoteer khen tes-meeti, Efti eklom hi-taio enni-ethmei emmof."
     },
     {
       "Type": "Melody",
@@ -347,7 +347,7 @@
       "Coptic": "`Ere penCwthr =en tecmh; ef;`xlom \\i tai`o `nnheqmei `mmof.",
       "English": "And Our Savior in its midst : crowning with honor those who love Him.",
       "Arabiccoptic": "أيرى بينسوتير خين تيسميتي, إفتي إكلوم هي تايو إنني إثمىي إمموف",
-      "Englishcoptic": "Ere Pensoteer khen tes-meeti, Evnoti eklom hi-taio enni-ethmei emmof."
+      "Englishcoptic": "Ere Pensoteer khen tes-meeti, Efti eklom hi-taio enni-ethmei emmof."
     },
     {
       "Type": "Melody",
@@ -393,10 +393,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الأَسَاسُ الثَّامِنُ زُمُرُّدٌ سِلْقِيٌّ.",
-      "Coptic": ":ma\\`]mhn ouburilloc te>",
+      "Coptic": ":ma\\`]mhni ouburilloc te>",
       "English": "The eighth was beryl.",
       "Arabiccoptic": "تيماه إشمين أو بيريللوس تى",
-      "Englishcoptic": "Ti-mah eshmeen oo-biri-llos te."
+      "Englishcoptic": "Ti-mah eshmeeni oo-biri-llos te."
     },
     {
       "Type": "Base",
@@ -404,10 +404,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الأَسَاسُ  التَّاسِعُ يَاقُوتٌ أَصْفَرُ.",
-      "Coptic": ":ma\\yit ou`topadion te.",
+      "Coptic": ":ma\\yi; ou`topadion te.",
       "English": "The ninth was topaz.",
       "Arabiccoptic": "تيماه إبسيت أو إت أوباذيون تى",
-      "Englishcoptic": "Ti-mah epseet oo et-opadion te."
+      "Englishcoptic": "Ti-mah epseeti oo et-opadion te."
     },
     {
       "Type": "Base",
@@ -418,7 +418,7 @@
       "Coptic": "`Ere penCwthr =en tecmh; ef;`xlom \\i tai`o `nnheqmei `mmof.",
       "English": "And Our Savior in its midst : crowning with honor those who love Him.",
       "Arabiccoptic": "أيرى بينسوتير خين تيسميتي, إفتي إكلوم هي تايو إنني إثمىي إمموف",
-      "Englishcoptic": "Ere Pensoteer khen tes-meeti, Evnoti eklom hi-taio enni-ethmei emmof."
+      "Englishcoptic": "Ere Pensoteer khen tes-meeti, Efti eklom hi-taio enni-ethmei emmof."
     },
     {
       "Type": "Melody",
@@ -489,7 +489,7 @@
       "Coptic": "`Ere penCwthr =en tecmh; ef;`xlom \\i tai`o `nnheqmei `mmof.",
       "English": "And Our Savior in its midst : crowning with honor those who love Him.",
       "Arabiccoptic": "أيرى بينسوتير خين تيسميتي, إفتي إكلوم هي تايو إنني إثمىي إمموف",
-      "Englishcoptic": "Ere Pensoteer khen tes-meeti, Evnoti eklom hi-taio enni-ethmei emmof."
+      "Englishcoptic": "Ere Pensoteer khen tes-meeti, Efti eklom hi-taio enni-ethmei emmof."
     },
     {
       "Type": "Melody",
