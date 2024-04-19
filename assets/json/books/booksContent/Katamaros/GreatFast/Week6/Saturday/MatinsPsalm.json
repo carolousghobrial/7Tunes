@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۷۸ : ۷-۸)",
+  "EnglishTitle": "Psalms 79:8-9",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلْتُدْرِكُنَا رَأْفَاتُكَ سَرِيعًا ، لأَنَّنَا قَدِ افْتَقَرْنَا جِدَّاً.",
+      "English": "8 Let Your tender mercies come speedily to meet us, For we have been brought very low \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أَعِنَّا يَا أَللَّهُ مُخَلَّصَنَا ، مِنْ أَجْلِ مَجْدِ اسْمِكَ. هَلِّلُويَا.",
+      "English": "9 Help us, O God of our salvation, For the glory of Your name.     Alleluia\r"
+    }
+  ]
+}

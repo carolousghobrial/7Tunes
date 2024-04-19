@@ -1,0 +1,15 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ (40 : 1)",
+  "EnglishTitle": "Psalms (40 : 1)",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طُوبَى للَّذِى يَتَفَهَّمُ فى أمرِ المِسْكِينِ و الفَقِيرِ. فى يَومِ الشَّرِّ يُنَجِّيهِ الربُّ",
+      "English": "Blessed is he who considers the [a]poor;The LORD will deliver him in time of trouble.\r"
+    }
+  ]
+}

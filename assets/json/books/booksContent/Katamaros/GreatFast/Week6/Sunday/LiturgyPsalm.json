@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ١،٧:١٤٢ )",
+  "EnglishTitle": "Psalms 143:7, 1",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اسْتَجِبْ لِي يَا رَبُّ عَاجِلا فَقَدْ فَنِيَتْ رُوحِي . لا تَصْرِفْ وَجْهَكَ عَنِّي ",
+      "English": "7 Answer me speedily, O Lord; My spirit fails! Do not hide Your face from me.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يَا رَبُّ اسْتَمِعْ صَلاتِي ، أنصِتُ بِحَقِّكَ إِلَى طِلْبَتِي هَلِلُوبًا.",
+      "English": "143:1 Hear my prayer, O Lord, Give ear to my supplications! In Your faithfulness.     Alleluia\r"
+    }
+  ]
+}

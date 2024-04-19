@@ -723,8 +723,7 @@ const showLitanyOfOblations = (motherSource, path) => {
   return false;
 };
 const ProphecyShow = (motherSource, path) => {
-  console.log(path);
-  console.log(motherSource);
+  //console.log(motherSource);
 };
 const isLentWeekdayOrJonah = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -2374,6 +2373,14 @@ const REPLACEMATINSPROPHECIES = (author, part) => {
         englishcoptic: " Isou epshiri en-Sirakh ",
         arabiccoptic: " ايسو ابشيري ان سيراخ ",
       };
+    case "Tobit":
+      return {
+        english: "the book of Tobit",
+        coptic: " ",
+        arabic: "  طوبيا ",
+        englishcoptic: "  ",
+        arabiccoptic: " ",
+      };
     case "Malachi":
       return {
         english: " Malachi",
@@ -2872,6 +2879,14 @@ const REPLACEPROPHETS = (prophet, part) => {
         englishcoptic: " Isou epshiri en-Sirakh ",
         arabiccoptic: " ايسو ابشيري ان سيراخ ",
       };
+    case "Tobit":
+      return {
+        english: "the book of Tobit",
+        coptic: " ",
+        arabic: "  طوبيا ",
+        englishcoptic: "  ",
+        arabiccoptic: " ",
+      };
     case "Malachi":
       return {
         english: " Malachi",
@@ -3079,7 +3094,9 @@ const REPLACEBISHOPAVAILABLETHREE = (rule, part) => {
 };
 
 function getAuthor(part, checkList) {
+  console.log(part);
   const completePath = GetTodaysReadingPath(part.mother);
+
   if (completePath === "Katamaros") {
     return "NONE";
   }
@@ -3168,6 +3185,7 @@ function getMatinsProphecyAuthor(part) {
     { keyword: "First Kings", returnValue: "Kings1" },
     { keyword: "Ezekiel", returnValue: "Ezekiel" },
     { keyword: "Daniel", returnValue: "Daniel" },
+    { keyword: "Tobit", returnValue: "Tobit" },
   ];
   return getAuthor(newPart, checkList);
 }

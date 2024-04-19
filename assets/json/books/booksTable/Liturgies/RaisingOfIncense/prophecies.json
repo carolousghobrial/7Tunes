@@ -89,6 +89,114 @@
             "Path": "PaschaPropheciesConclusion",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "MatinsProphecy6",
+            "Visible": true
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsProphecy6",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "MatinsProphecy7",
+            "Visible": true
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsProphecy7",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "MatinsProphecy8",
+            "Visible": true
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsProphecy8",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "MatinsProphecy9",
+            "Visible": true
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsProphecy9",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "MatinsProphecy10",
+            "Visible": true
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsProphecy10",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "MatinsProphecy11",
+            "Visible": true
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsProphecy11",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
         }
     ]
 }

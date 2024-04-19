@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٣:١٦ ، ٥ )",
+  "EnglishTitle": "Psalms 17:3, 5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "جَرَّبْتَ قَلْبِي وَتَعَهَدْتَنِي لَيْلًا، وَمَحْصْتَنِي بِالنَّارِ فَلَمْ تَجِدْ فِي ظُلْمًا",
+      "English": "3 You have tested my heart; You have visited me in the night; You have tried me and have found nothing.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ثَبَتْ خَطَوَاتِي فِي سُبُلِكَ ، لِئَلَّا تَزِلُّ قَدَمَايَ. هَلِلُويَا.",
+      "English": "5 Uphold my steps in Your paths, That my footsteps may not slip.     Alleluia\r"
+    }
+  ]
+}

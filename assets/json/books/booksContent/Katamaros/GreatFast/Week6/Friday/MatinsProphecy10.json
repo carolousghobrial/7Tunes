@@ -1,0 +1,271 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ سِفْرِ طُوبيا ( ۱۰ ، ۱۱ )",
+  "EnglishTitle": "Tobit 10,11\r",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ طُوبِيًّا قَدْ تَأَخَّرَ هُنَاكَ بِسَبَبِ الْعُرْسِ ، فَقَلِقَ أَبُوهُ طُوبِيتُ وَقَالَ: لِمَاذَا تَأَخَّرَ ابْنِي ، وَبِأَيِّ سَبَبٍ ظَلَّ مَمْسُوكًا ، ",
+      "English": "Tobit his father was counting each day. But when the days needed to complete the journey ended and they had not returned, \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لَعَلَّ غَافَالَائِيلَ قَدْ مَاتَ وَلَيْسَ مَنْ يَرُدُّ لَهُ الْوَزَنَاتِ. ",
+      "English": "† he asked, “Has he perhaps been  dishonored? Or has Gabael died and no one gave him the silver?” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ حَزِينًا جِدًّا هُوَ وَحَنَّةُ امْرَأَتُهُ ، وَكَانَا يَبْكِيَانِ كِلَاهُمَا لِأَنَّ ابْنَهُمَا لَمْ يَرْجِعْ فِي الْيَوْمِ الْمُعَيَّنِ لَهُمَا ",
+      "English": "So he was very distressed. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَتْ أُمُّهُ تَبْكِي بِدُمُوعِ غَزِيرَةٍ وَتَقُولُ: الْوَيْلُ لِي يَا ابْنِي ، لِأَيِّ سَبَبٍ أَرْسَلْنَاكَ وَتَرَكْنَاكَ يَا نُورَ عَيْنَيَّ وَعَصَا شَيْخُوخَتِنَا وَرَجَاءَ نَسْلِنَا. ",
+      "English": "Then his wife told him, “The young man has perished. That is why he is delayed.” Then she began to weep for him and said, \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأَنَّ هَذَا كُلَّهُ كَانَ لَنَا فِيكَ وَحْدَكَ يَا وَلَدِي ، فَمَا كَانَ يَنْبَغِي أَنْ نُبْعِدَكَ عَنَّا ",
+      "English": " “Nothing matters to me, my child, the light of my eyes, for I permitted you to go.” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَكَانَ طُوبِيتُ يَقُولُ لَهَا : أسْكُتِي وَلَا تَحْزَنِي لِأَنَّ ابْنَنَا فِي عَافِيَةٍ ، وَالرَّجُلُ الَّذِي أَنْفَذْنَاهُ مَعَهُ أَمِينٌ. ",
+      "English": "So Tobit said to her, “Be silent and have no more thoughts about it. He is in good health.” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمَّا هِيَ فَمَا كَانَتْ لِتَتَعَزَّى ، وَكَانَتْ كُلَّ يَوْمٍ تَنْهَضُ وَتَنْظُرُ إِلَى الطَّرِيقِ الَّتِي ذَهَبَا مِنْهَا ، وَكَانَتْ تَظُنُّ أَنَّ ابْنَهَا يَرْجِعُ مِنْهَا لَعَلَّهَا تَرَاهُ عَنْ بُعْدٍ آتَيَّا. وَكَانَتْ فِي النَّهَارِ لَا تَذُوقُ خُبْزًا. وَفِي اللَّيْلِ تَسْهَرُ نَادِبَةَ ابْنَهَا طُوبيا حَتَّى انْتَهَتِ الْأَرْبَعَةَ عَشَرَ يَوْمًا ، أَيَّامُ الْعُرْسِ. ",
+      "English": "She replied to him, “You be quiet. Do not deceive me. My child has perished.” Then throughout the day she went outside to the road by which he departed, and during the day she did not eat bread. At night she did not cease lamenting for her son Tobias until the fourteen days of the wedding feast were over, the days Raguel swore him to celebrate there. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ إِنَّ رَاعُوئِيلَ قَالَ لِصِهْرِهِ طُوبيا: أمْكُثُ هَهُنَا وَأَنَا أُنْفِذُ رَسُولًا إِلَى طُوبِيتَ أَبِيكَ لِيُخْبِرَهُ بِسَلَامَتِكَ. ",
+      "English": "Then Tobias said to Raguel, “Send me back, for my father and my mother no longer hope they will see me.” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ لَهُ طُوبيا: أَنَا أَعْلَمُ أَنَّ وَالِدَيَّ يَعِدَّانِ الْأَيَّامَ وَتَحْزَنُ أَرْوَاحُهُمَا ، ",
+      "English": "† But his father-in-law said to him, “Stay with me, and I will send messengers to your father. They will make clear to him how you are doing.” But Tobias said, “No indeed. On the contrary, send me back to my father.” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَطْلُبُ مِنْكَ أَنْ تُرْسِلَنِي إِلَى أَبِي فَنَهَضَ رَاعُوئِيلُ وَأَعْطَاهُ سَارَةَ امْرَأَتَهُ وَنِصْفَ مَا كَانَ يَمْلِكُ ، مِنْ مَمَالِيكَ ، وَمِنْ جَوَارٍ ، وَمِنْ مَوَاشٍ ، وَمِنْ إِبْلٍ ، وَمِنْ بَقَرٍ ، وَمِنْ مَالٍ. وَأَرْسَلَهُ سَالِمًا فَرْحَانًا وَبَارَكَهُ ، ",
+      "English": "Then Raguel arose and gave Sarah his wife to him, and half of his belongings in servants, cattle, and silver. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قَائِلًا: مَلَاكُ الرَّبِّ الْقُدُّوسِ يُرَافِقُكُمَا وَيُوصِلُكُمَا بِعَافِيَةٍ. وَيَمْنَحْكُمَا إِلَهُ السَّمَاءِ أَولَادًا وَتُبْصِرُهُمْ عَيْنَايَ قَبْلَ مَمَاتِي. ",
+      "English": "Then he blessed them and sent them on their way, saying, “May the God of heaven prosper you, my children, before the day I die.” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَخَذَ ومَعَهُ امْرَأَتَهُ ابْنَتَهُمَا وَقَبَّلَاهَا وَوَدَّعَاهُمَا ، ",
+      "English": "To his daughter he said, “Honor your husband's mother and father, for they are now your parents. Let me hear a good report of you,” and he kissed her. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَوَصَّيَا سَارَةَ ابْنَتَهُمَا قَائِلَيْنِ: أَكْرِمِي حَمَوَيْكِ ؛ لِأَنَّهُمَا بِمَنْزِلَةِ وَالِدَيْكِ ، وَأَحِبّي زَوْجَكِ وَدَبَرِي غِلْمَانَكَ وَبَيْتَكِ وَاجْعَلِي نَفْسَكِ بِلَا لَوْمٍ وَقَالَتِ امْرَأَتُهُ لِطُوبيا: يَا ابْنِي الْمَحْبُوبُ ، فَلْيُثَبِّتْ أُمُورَكَ رَبُّ السَّمَاءِ ، وَلِيُعْطِنِي أَنْ أَرَى لَكَ أَوْلَادًا مِنْ سَارَةَ ابْنَتِي لِأَبْتَهجَ أَمَامَ الرَّبِّ ، وَهَا إِنِّي أُسَلِّمُكَ ابنتي فَلَا تُحْزِنْهَا. ",
+      "English": "Then Edna said to Tobias, “My beloved brother, may the Lord of heaven bring you back and grant me to see your children from my daughter Sarah, that I may rejoice before the Lord. Behold, I am entrusting my daughter to your care. Do not grieve her.” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبَعْدَ هَذَا سَارَ طُوبيا مُبَارَكًا اللَّهَ لأَنَّهُ سَهَّلَ طَريقَهُ. وَمَا زَالَا سَائِرَيْنِ حَتَّى قَرُبَا مِنْ مَدِينَةِ نِينَوَى ",
+      "English": "† With this, Tobias went on his way blessing God that He had prospered his journey. Then he blessed Raguel and Edna his wife. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ الْمَلَاكُ : يَا أَخِي طُوبيا ، أَنْتَ تَعْلَمُ فِي أَي حَالٍ تَرَكْتَ أَبَاكَ. ",
+      "English": "He traveled until they approached Nineveh. Here Raphael said to Tobias, \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَهَلْ تُرِيدُ أنْ نَتَقَدَّمَ وَنَسْبقَ نَحْنُ ، وَالْجَمَاعَةُ مَعَ زَوْجَتِكَ يَلْحَقُونَنَا عَلَى مَهْلٍ ، وَالْمَوَاشِي مَعَهُمْ ؟ ",
+      "English": "† “My brother, are you not aware of how you left your father? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَلَمَّا اتَّفَقَا عَلَى ذَلِكَ ، قَالَ رَافَائِيلُ الْمَلَاكُ لِطُوبيا: خُذْ مَعَكَ مِنْ مَرَارَةِ الْحُوتِ لِأَنَّ لَنَا بِهَا حَاجَةً ، فَأَخَذَ طُوبِيَا مِنَ الْمَرَارَةِ وَسَافَرَ ، وَالْكَلْبُ وَرَاءَهُمَا. ",
+      "English": "Let us run ahead of your wife and prepare the house. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَمَّا حَنَّةُ أُمُّ طُوبيا فَكَانَتْ كُلَّ يَوْمٍ تَجْلِسُ فِي الطَّرِيقِ عَلَى رَأْسِ الْجَبَلِ فِي مَوْضِعٍ كَانَتْ تَنْظُرُ مِنْهُ عَلَى بُعْدٍ. ",
+      "English": "Take the gall of the fish in your hand.” So they proceeded, and the dog followed behind them. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَبَيْنَمَا كَانَتْ ذَاتَ يَوْمٍ تَنْظُرُ مِنْ ذَلِكَ الْمَوْضِع ، أبْصَرَتْ مِنْ بَعْدِ ، فَعَرَفَتْ أَنَّ ابْنَهَا قَادِمٌ فَأَسْرَعَتْ تُبَشِّرُ زَوْجَهَا قَائِلَةً: هُوَذَا ابْنُكَ قَادِمٌ. ",
+      "English": "Meanwhile Anna sat gazing upon the road for her boy. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَالَ رَافَائِيلُ لِطُوبيا: عِنْدَمَا تَصِلُ إِلَى بَيْتِكَ مِنْ سَاعَتِكَ اسْجُدُ لِلرَّبِّ إِلَهِكَ وَاشْكُرْهُ , وَتَقَدَّمْ إِلَى أَبِيكَ فَقَبِّلْهُ. ",
+      "English": "She perceived that he was coming and said to the father, “Behold, your son is coming, and the man traveling with him!” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَاطْلِ عَيْنَيْهِ بِالْمَرَارَةِ الَّتِي مَعَكَ مِنَ السَّمَكَةِ ، فَلِلْوَقْتِ تَنْفَتِحُ عَيْنَاهُ وَيَرَى ضَوْءَ السَّمَاءِ وَيَفْرَحُ بِرُؤْيَتِكَ. ",
+      "English": "Raphael said, “I know that the eyes of your father will open. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حِينَئِذٍ سَبَقَ الْكَلْبُ الَّذِي كَانَ يَتْبَعُهُمَا فِي الطَّرِيقِ ، وَكَانَ مِثْلَ رَسُولٍ قَدْ أَتَى يُبَشِّرُ وَهُوَ يُحَرِّكُ ذَيْلَهُ مُبَشِّرًا بِالْفَرَح. ",
+      "English": "Rub the gall on his eyes. When the eyes sting, he will rub them and cause the white film to fall away. He will then see you.” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَقَامَ الْوَالِدُ وَهُوَ أَعْمَى وَبَدَأَ يَجْرِي وَهُوَ يَتَعَثَّرُ بِرِجُلَيْهِ فِي مَشْيِهِ ، فَنَاوَلَ يَدَهُ لِصَبِيّ يَقُودُهُ وَخَرَجَ لِيَلْتَقِي بِوَلَدِهِ. ",
+      "English": "Then Anna ran up to her son and fell upon his neck and said to him, “I have seen you, my child. From this day, I am now ready to die!” So they both wept. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَبَادَرَ إِلَيْهِ ابْنُهُ وَقَبَّلَهُ هُوَ وَامْرَأَتُهُ وَجَعَلَا يَبْكِيَانِ كِلَاهُمَا مِنَ الْفَرَحِ. ",
+      "English": "Then Tobit came out of the door. He stumbled, but his son ran up to him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبَعْدَ مَا سَجَدُوا لِلَّهِ وَشَكَرُوهُ جلسوا . ",
+      "English": "He took hold of his father and dabbed the gall on the eyes of his father, saying, “Father, take courage!” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثُمَّ أَخَذَ طُوبيا مِنْ مَرَارَةِ السَّمَكَةِ الَّتِي كَانَتْ مَعَهُ وَطَلَى بِهَا عَيْنَيْ وَالِدِهِ. ",
+      "English": "† Then as his eyes stung, he rubbed them, and the white films peeled off from the corners of his eyes. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبَعْدَ مِقْدَارٍ نِصْفِ سَاعَةٍ صَارَ يَخْرُجُ مِنْ عَيْنَيْهِ قِشْرَةً رَقِيقَةٌ مِثْلُ الَّتِي تَكُونُ فِي الْبَيْضَةِ. ",
+      "English": "When he saw his son, he fell upon his neck, weeping, and said, \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَأَخَذَهَا طُوبِيا وَسَحَبَهَا مِنْ عَيْنَيْهِ ، فَلِلْوَقْتِ ارْتَدَّ بَصَرُهُ. ",
+      "English": " “Blessed are You, O God, and blessed is Your name unto the ages. Blessed are all Your holy angels, for You scourged me but had mercy on me. Behold, I see Tobias my son.” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَمَجَّدُوا اللَّهَ هُوَ وَعَشِيرَتُهُ وَكُلُّ مَنْ يَعْرِفُهُ. ",
+      "English": "His son went in rejoicing and told his father the great things that had happened to him in Media. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبَكَى طُوبِیتُ وَقَالَ: تَبَارَكَ اللَّهُ وَتَمَجَّدَ اسْمُهُ إِلَى الدُّهُورِ. وَتَبَارَكَتْ جَمِيعُ قِدِيسِيكَ وَمَلَائِكَتِكَ , لِأَنَّكَ أَدَّبْتَنِي وَرَحِمْتَنِي وَشَفَيْتَنِي ، وَهَا أَنَا أُبْصِرُ وَلَدِي طوبيا. ",
+      "English": "Then Tobit rejoiced and blessed God as he went to meet his daughter-in-law at the gate of Nineveh. But those who saw him as he walked along were amazed that he could see. Tobit gave thanks before them, because God had mercy on him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَأَمَّا سَارَةُ امْرَأَةُ طُوبيا فَوَصَلَتْ بَعْدَ أَيَّامٍ هِيَ وَرِفَاقُهَا كُلُّهُمْ بِالْغَنَمِ وَالْجِمَالِ وَالْمَالِ الْكَثِيرِ الَّذِي لَهَا وَزِيَادَةِ الْمَالِ الَّذِي كَانَ قَدْ اسْتَوفَاهُ مِنْ غَافَالَائِيلَ. ",
+      "English": "† Then as Tobit drew near to meet Sarah, his daughter-in-law, he blessed her, saying, “May you be in good health, my daughter! Blessed is God who brought you to us, and blessed are your father and your mother.” \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَدَخَلَ طُوبيا إِلَى أَبِيهِ فَرِحًا ، وَحَدَّثَهُ بِجَمِيعِ الْعَظَائِمِ الَّتِي فَعَلَهَا اللَّهُ مَعَهُ عَلَى يَدِ ذَلِكَ الرَّجُلِ الَّذِي أَخَذَهُ وَرَدَّهُ. ",
+      "English": "So there was rejoicing among all his brethren in Nineveh. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فَخَرَجَ طُوبِيتُ لِمُلَاقَاةِ عَرُوسِ ابْنِهِ فَرِحًا وَمُمَجِدًا اللَّهَ إِلَى بَابِ نِينَوَى ، فَتَعَجَّبَ الَّذِينَ نَظَرُوهُ سَائِرًا كَيْفَ أَبْصَرَ . وَطُوبِيتُ نَادَى أَمَامَ جَمِيعِهِمْ: أَنَّ اللَّهَ صَنَعَ مَعَهُ رَحْمَةً ، وَلَمَّا قَرُبَ إِلَى سَارَّةَ كَنَّتِهِ بَارَكَهَا قَائِلًا: بَادِرِي مُعَافَاةً يَا ابْنَتِي ، تَبَارَكَ اللَّهُ الَّذِي أَحْضَرَكِ إِلَيْنَا. وَكَانَ فَرَحْ عَظِيمٌ لِجَمِيعِ الإِخْوَةِ الَّذِينَ فِي نِينَوَى. ",
+      "English": "Even Ahikar and his nephew Nadab came, for the wedding feast for Tobias was kept with gladness for seven days. \r"
+    }
+  ]
+}

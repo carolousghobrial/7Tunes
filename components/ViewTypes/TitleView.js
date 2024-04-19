@@ -44,8 +44,6 @@ function TitleView({ item, navigation }) {
   function switchLiturgies() {
     if (item.Switch !== undefined) {
       if (isSwitchGregorian) {
-        console.log(item);
-        console.log(navigation);
         if (item.mother !== undefined) {
           navigation.replace("BookScreen", {
             bookPath: "liturgyofStGregoryCovenantThursday",

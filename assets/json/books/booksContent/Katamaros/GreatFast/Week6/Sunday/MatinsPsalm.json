@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ١:٢٥ )",
+  "EnglishTitle": "Psalms 26:2-3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إِبْلِنِي يَا رَبُّ وَجَرَبْنِي اِحْمِ قَلْبِي وَكُلْيَتَيَّ ، ",
+      "English": "2 Examine me, O Lord, and prove me; Try my mind and my heart. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لِأَنَّ رَحْمَتَكَ أَمَامَ عَيْنَيَّ هِيَ ، وَقَدْ أَرْضَيْتُكَ بِحَقِّكَ. هَلِلُويَا.",
+      "English": "3 For Your lovingkindness is before my eyes, And I have walked in Your truth.     Alleluia\r"
+    }
+  ]
+}
