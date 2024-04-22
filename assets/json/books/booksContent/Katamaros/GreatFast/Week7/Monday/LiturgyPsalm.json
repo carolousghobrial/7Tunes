@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ٨٥ : ١١ - ١٢ )",
+  "EnglishTitle": "Psalms 86:12-13",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَعْتَرِفُ لَكَ أَيُّهَا الرَّبُّ إِلَهِي مِنْ كُلِّ قَلْبِي ، وَأُمَجِدُ اسْمَكَ إِلَى الْأَبَدِ ؛",
+      "English": "12 I will praise You, O Lord my God, with all my heart, And I will glorify Your name forevermore. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لِأَنَّ رَحْمَتَكَ عَظِيمَةٌ عَلَيَّ ، وَقَدْ نَجَّيْتَ نَفْسِي مِنَ الْجَحِيمِ السُّفْلِيِّ. هَلِلُويَا.",
+      "English": "13 For great is Your mercy toward me, And You have delivered my soul from the depths of Sheol.     Alleluia\r"
+    }
+  ]
+}
