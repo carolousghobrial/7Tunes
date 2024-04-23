@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۸۷: ۲-۳ )",
+  "EnglishTitle": "Psalms 88:2-4",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَمِلْ يَا رَبُّ سَمْعَكَ إِلَى طِلْبَتِي ،",
+      "English": "2 Incline Your ear to my cry \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فَقَدِ امْتَلَأتْ مِنَ الشَّرِ نَفْسِي ، وَدَنَتْ مِنَ الْجَحِيمِ حَيَاتِي.",
+      "English": "3 For my soul is full of troubles, And my life draws near to the grave. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " حُسِبْتُ مَعَ الْمُنْحَدِرِينَ فِي الْجُبِّ. هَلِلُويَا.",
+      "English": "4 I am counted with those who go down to the pit.     Alleluia\r"
+    }
+  ]
+}

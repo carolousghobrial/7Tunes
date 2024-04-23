@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۳۷ : ۱۸ )",
+  "EnglishTitle": "Psalms 38:18-19",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأني أُخبِرُ بِإِثْمِي، وَأَهْتَمُّ مِنْ أَجْلِ خَطِيَّتِي ",
+      "English": "18 For I will declare my iniquity; I will be in anguish over my sin. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَعْدَائِي أَحْيَاءٌ ، وَهُمْ أَشَدُّ مِنِّي. هللويا.",
+      "English": "19 But my enemies are vigorous, and they are strong.     Alleluia\r"
+    }
+  ]
+}

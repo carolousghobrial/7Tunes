@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ١:٥٠ - ٢ )",
+  "EnglishTitle": "Psalms 51:2-3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تَغْسِلُنِي كَثِيرًا مِنْ إِثْمِي ، وَمِنْ خَطِيئَتِي تُطَهِّرْنِي . ",
+      "English": "2 Wash me thoroughly from my iniquity, And cleanse me from my sin. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأني أنا عَارِفٌ بِإِثْمِي ، وَخَطِيئَتِي أَمَامِي فِي كُلِّ حِينٍ هَلِلُويَا.",
+      "English": "3 For I acknowledge my transgressions, And my sin is always before me.     Alleluia\r"
+    }
+  ]
+}

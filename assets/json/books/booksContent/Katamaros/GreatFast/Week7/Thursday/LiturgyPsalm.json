@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أبِينَا دَاوُدَ النَّبِيِّ ( ۱۲۱ : ۱ - ۲ )",
+  "EnglishTitle": "Psalms 122:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فرحت بالقائِلينَ لي ، إلَى بَيْتِ الرَّتِ نَذْهَبْ ",
+      "English": "122:1 I was glad when they said to me, Let us go into the house of the Lord. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَقَفَتْ أَرْجُلْنا ، في ديار أورُشَلِيمَ. هَلِلُويَا.",
+      "English": "2 Our feet have been standing Within your gates, O Jerusalem!.     Alleluia\r"
+    }
+  ]
+}

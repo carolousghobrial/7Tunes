@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مِنْ مَزَامِيرٍ أَبِينَا دَاوُدَ النَّبِيِّ ( ۸:۹۷)",
+  "EnglishTitle": "Psalms 98:8-9",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الْجِبَالُ تَبْتَهِجُ أَمَامَ وَجهِ الرَّبِّ ،",
+      "English": "8 Let the hills be joyful together before the Lord \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأَنَّهُ أَتَى لِبَدِينَ الْأَرْضَ ، يَدِينُ الْمَسْكُونَةَ بالْعَدْلِ ، وَالسُّعُوبَ بِالاسْتِقَامَةِ هَلِلُويَا",
+      "English": "9 For He is coming to judge the earth. With righteousness He shall judge the world, And the peoples with equity.     Alleluia\r"
+    }
+  ]
+}
