@@ -184,7 +184,7 @@ const CustomDrawerScreen = (props) => {
           label={getLanguageValue("update")}
           onPress={onUpdates}
         />
-        {/* <DrawerItem label=" " onPress={GrantEverything} /> */}
+        <DrawerItem label=" " onPress={GrantEverything} />
       </DrawerContentScrollView>
     </ImageBackground>
   );
