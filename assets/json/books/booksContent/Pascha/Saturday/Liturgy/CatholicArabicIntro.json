@@ -1,0 +1,22 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "mother": "LiturgyCatholic",
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الكاثوليكون من رسالة معلمنا بطرس الرسول الاولى،بركتة تكون معنا امين",
+      "English": "The catholic epistle from the first Epistle of our teacher St.Peter ,may his holy blessings be with us all Amen."
+    }
+  ]
+}

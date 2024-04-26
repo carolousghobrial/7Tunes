@@ -17,6 +17,12 @@
             "Path": "PaschaSaturdayFirstPauline",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPaulineArabicConclusion",
+            "Rule": 0,
+            "Visible": true
         }
     ]
 }

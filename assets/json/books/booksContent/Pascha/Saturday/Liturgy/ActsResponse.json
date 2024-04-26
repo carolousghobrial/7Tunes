@@ -1,0 +1,29 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " مرد الإبركسيس سبت النور",
+    "EnglishTitle": "Acts Response for Bright Saturday  ",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "كُفِنَ ووُضِعَ في القبر، الكائن خارج المدينة، وقالوا بجهلهم \"هذا، لا يستطيع أن يقوم بعد.\"",
+            "Coptic": "Aukocf auxaf =en pi`m\\au> vhetxh cabol `n;baki> `etaujoc =en toumetat\\ht> je vai `fna `]twnf an je.",
+            "English": "They wrapped and placed Him in the tomb, which was outside the city, in their ignorance they said, “It is impossible for Him to rise.”",
+            "Arabiccoptic": " آفكوسف آفكاف خين بى إمهاف : فى إتكى صا فول إن تى فاكى : إيطاف جوس خين تو ميت آت هيت : جى فاى إفنا إشتونف آن جى .",
+            "Englishcoptic": "Avkosf avkaf khen pi-emhav : vi-etki savol enti-vaki : etavgos khen too-met-at-heet : je fai efna eshtonf an je."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "مبارك انت مع ابيك الصالح والروح القدس لأنك صلبت  وخلصتنا إرحمنا.",
+            "Coptic": "K`cmarwout `alhqwc> nem Pekiwt `n`agaqoc> nem pi`Pneuma eqouab > je aua]k  akcw; `mmon. Nai nan.",
+            "English": "Blessed are You indeed, with Your good Father and the Holy Spirit, for You were crucified and saved us. Have mercy on us.",
+            "Arabiccoptic": "إك إسماروأوت اليثوس. نيم بيك يوت إن أغاثوس. نيم بى إبنفما إثؤواب. جى اف اشك  أكسوتى إممون ناى نان .",
+            "Englishcoptic": "Eksmaro-ot alethos : nem Pekyot en agha-thos : nem pi epnevma Ethouab : je av-ashk  aksoti emmon. Nai nan."
+        }
+    ]
+}

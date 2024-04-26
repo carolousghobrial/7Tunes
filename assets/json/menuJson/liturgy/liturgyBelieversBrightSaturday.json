@@ -1,0 +1,24 @@
+{
+    "books": [
+        {
+            "EnglishTitle": "Liturgy of St.Basil",
+            "ArabicTitle": "القداس الباسيلي",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "liturgyofStBasilBrightSaturday",
+            "ImageURL": "liturgyofStBasil",
+            "Enabled": true
+        },
+        {
+            "EnglishTitle": "Liturgy of St.Gregory",
+            "ArabicTitle": "القداس الإغريغوري",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "liturgyofStGregoryBrightSaturday",
+            "ImageURL": "liturgyofStGregory",
+            "Enabled": true
+        }
+    ]
+}

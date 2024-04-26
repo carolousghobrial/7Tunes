@@ -10,6 +10,12 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyOffertorySotees",
+            "Rule": 0,
+            "Visible": "ShowSotees"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordTaiShori",
             "Rule": 0,
             "Visible": "IsNonFastingDays"
@@ -355,8 +361,16 @@
             "Arabic": "المزمور",
             "English": "Chanted Psalm",
             "Rule": "OpenPageButtonRule",
-            "Visible": true,
+            "Visible": "isNotPalmSunday",
             "Path": "LiturgyLiturgyOfTheWordChantedLiturgyPsalm"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور",
+            "English": "Chanted Psalm",
+            "Rule": "OpenPageButtonRule",
+            "Visible": "isPalmSunday",
+            "Path": "LiturgyLiturgyOfTheWordChantedLiturgyPsalmPalmSunday1"
         },
         {
             "Type": "Main",
@@ -365,16 +379,22 @@
             "Visible": true
         },
         {
-            "Type": "Main",
+            "Type": "MainWithTitle",
             "Path": "LiturgyLiturgyOfTheWordPsalmAndGospel",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isNotPalmSunday"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPsalmAndGospelPalmSunday",
+            "Rule": 0,
+            "Visible": "isPalmSunday"
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordGospelResponse",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isNotPalmSunday"
         },
         {
             "Type": "Button",

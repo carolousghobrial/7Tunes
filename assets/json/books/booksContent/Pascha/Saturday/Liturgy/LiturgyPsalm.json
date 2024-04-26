@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(5:3،3+7:72)مزمور",
+  "EnglishTitle": "Psalms 3:5,3 ; 82:8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أنا اضطجعت ونمت ثم استيقظت لأن الرب نصرني. فأنت يا رب. أنت هو ناصري مجدي ورافع رأسي الليلويا. \"",
+      "English": "I lay down and slept; I awoke, for the LORD sustained me. But You, O LORD, are a shield for me, My glory and the One who lifts up my head.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" قم يا الله ودن الأرض لأنك أنت ترث في جميع الأمم الليلويا. \"",
+      "English": "Arise, O God, judge the earth; For You shall inherit all nations.\r"
+    }
+  ]
+}

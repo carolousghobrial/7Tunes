@@ -1,0 +1,118 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "تقديم الحمل",
+            "English": "The Offering of the Lamb"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "يجب أن يستبرئ الكاهن أفكاره وأحواله داخلاً وخارجاً. ففي الداخل وهو الأهم يجب أن يكون نقياً من كلِّ زلة، لئلا يأخذ دينونة لنفسه، كقول القديس بولس الرسول (كورنثوس الأولى 11: 27-31)، ويكون الكاهن مصطلحاً مع الجميع (راجع متى 5: 23، 24؛ مرقس 11: 25-26). ",
+            "English": "The priest purifies his thoughts and his actions, internally and externally, and, most important, he must be internally pure of all transgressions, lest he receive judgment onto himself according to the sayin of St. Paul, i.e. Corinthians 11: 27-31, and he shall be at peace with all men (see Matthew 5: 23, 24; Mark 11: 25-26). "
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وفي الخارج يجب أن يكون نظيف الجسم والملابس، ويغسل يديه ورجليه (راجع 30: 17-21)، ويكون محترساً، أي لم يذق شيئاً البتة. ",
+            "English": "He must be externally clean in body and clothing, and washes his hands and feet (exodus 30: 17-21), and he must be careful not to taste anything at all. "
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "تصلى كيرياليسون (يا رب ارحم) 41 مرة",
+            "English": "Kerie Eleison(Lord Have Mercy) is chanted 41 times"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryProcessionOfLamb",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " لاتقال الليلويا فاى بى بى                    ",
+            "English": "Alleluia Fai pe pi (This is the Day) is not chanted"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryKhenEfran",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "إسباتير الكبيرة",
+            "English": "The Great Is-Patir(One is the holy Father)",
+            "Rule": "OpenSinglePageButtonRule",
+            "Visible": "BishopIsPresent",
+            "Path": "LiturgyOffertoryIsPatirGreat"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryIsPatir",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryDoxaPatri",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "وفي أثناء ذلك يضع الكاهن القربانة في الصينية وتحتها لفافة حرير",
+            "English": "During this time, the priest places the loaf on the paten, beneath which is a silk mat."
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "ثم يصب الخمر في الكأس ويصفِّى القارورة جيداً ويضيف إلى الخمر قليلاً من الماء نحو ثلثه أو ربعه، ولا يقلّ عن العُشر، ثم يمسح فم القارورة بلفافة بيضاء وينزلها من المذبح",
+            "English": "Then he pours water into the empty wine cruet, and from it, he adds a little water to the wine in the chalice (the proportion of water to wine is not less than a one-tenth, usually a quarter but not more than a third), wipes the mouth of the cruet with a white mat, removes it from the altar."
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseThanksgivingPrayer",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertorySotees",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyOffertoryAbsolutionOfTheServants",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس الكلمة",
+            "English": "Liturgy of the Word",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "liturgyOfWordBrightSaturday"
+        }
+    ]
+}

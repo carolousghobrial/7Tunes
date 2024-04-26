@@ -1,0 +1,30 @@
+{
+    "RefrainAfter": 0,
+    "Hymn": [
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Reader",
+            "Arabic": "القارئ:",
+            "English": "Reader:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "بولس عبد ربنا يسوع المسيح الرسول المدعو المفرز لبشرى الله.",
+            "English": "Paul the Servant of our Lord Jesus Christ, called to be an apostle appointed to the Gospel of God."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "mother": "LiturgyPauline",
+            "Arabic": "فصل من بشارة معلمنا بولس الرسول الى اهل كورونثوس بركته تكون معنا امين",
+            "English": "A reading from Corinthians . May his holy blessings be with us Amen. "
+        }
+    ]
+}

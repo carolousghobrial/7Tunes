@@ -1,0 +1,309 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "قداس القديس غريغوريوس",
+            "English": "Liturgy of St.Gregory"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordInTheWisdom",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayFirstCreed",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayLiturgyLiturgyAdamAspasmos",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilThroughTheIntercessions",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryAnaphora",
+            "Rule": 0,
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStBasilAnaphora"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "اسباسموس واطس",
+            "English": "Watos Aspasmos",
+            "Rule": "OpenPageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmos"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilTheCherubim",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryAgiosAgiosAgios",
+            "Rule": 0,
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStBasilAgiosAgiosAgios"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryYouOMyMaster",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryOYouTheBeing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryYouCameToTheSlaughter",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryInstitutionNarrative",
+            "Rule": 0,
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStBasilInstitutionNarrative"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryEpiclesis",
+            "Rule": 0,
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStBasilEpiclesis"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryYeaWeAskYou",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfPeace",
+            "Rule": 0,
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStBasilLitanyOfPeace"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfPope",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfClergy",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfLeaders",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfGovernment",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfOblations",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfCaptives",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryJeNaiNan",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyAir",
+            "Rule": 0,
+            "Visible": "getPlantsSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyWaters",
+            "Rule": 0,
+            "Visible": "getPlantsSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyPlants",
+            "Rule": 0,
+            "Visible": "getPlantsSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseRaiseThemToTheirMeasure",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryHealingToTheSick",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfPlace",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryCommemorationOfSaints",
+            "Rule": 0,
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStBasilCommemorationOfSaints"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "ترحيم",
+            "English": "Diptych",
+            "Rule": "OpenSinglePageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilDiptych"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "افشيس",
+            "English": "Evshes ",
+            "Rule": "OpenSinglePageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilEvshees"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "بي نيشتي ",
+            "English": "Pinishti",
+            "Rule": "OpenSinglePageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilPinishti"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "بي نيشتي الكبيرة",
+            "English": "Great Pinishti",
+            "Rule": "OpenSinglePageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilGreatPinishti"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilMayTheirHolyBlessings",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryRemmemberOLord",
+            "Rule": 0,
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStBasilThoseOLord"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryForYouAreGod",
+            "Rule": 0,
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStBasilThoseOLord"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "كما كان ",
+            "English": "As it was",
+            "Rule": "OpenSinglePageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryAsItWas"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryAsItWas",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryThatAsInThis",
+            "Rule": 0,
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStBasilLeadUsThroughoutTheWay"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryIntroductionToTheFraction",
+            "Rule": 0,
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStBasilIntroductionToTheFraction"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "القسمة",
+            "English": "Fractions",
+            "Rule": "OpenPageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversFractions"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilPrayersAferFraction",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryTheConfession",
+            "Rule": 0,
+            "Visible": true,
+            "Switch": "LiturgyLiturgyOfTheBelieversStBasilTheConfession"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "التوزيع",
+            "English": "Distribution of the Holy Mysteries",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "distribution"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "المزمور  مز 8. : 3, 1 , 2  ",
+  "EnglishTitle": "Psalm 80:3 & Psalm 80:1 & Psalm 80:2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بَوِّقُوا فِي رَأْسِ الشَّهْرِ بِالْبُوقِ فِي يَوْمِ عِيدِكُمْ الْمَشْهُورِ.  ( جملة )",
+      "English": "Blow the trumpet at the time of the New Moon, At the full moon, on our solemn feast day.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اِبْتَهِجُوا بِالِلَّهِ مُعِينِنَا هَلِّلُوا لإِلَهِ يَعْقُوبَ. خُذُوا مِزْمَارَاً وَاضْرِبُوا دُفّاً. مِزْمَارَاً مُطْرِبَاً مَعَ قِيثَارٍ. الليلويا.",
+      "English": "Sing aloud to God our strength; Make a joyful shout to the God of Jacob. 2 Raise a song and strike the timbrel, The pleasant harp with the lute.\r"
+    }
+  ]
+}

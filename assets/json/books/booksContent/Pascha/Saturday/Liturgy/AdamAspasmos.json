@@ -1,0 +1,29 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": " اسباسموس ادام قداس سبت النور",
+    "EnglishTitle": "Adam Aspasmos for Bright Saturday Liturgy",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "قائلاً \"بنورك، يا رب نعاين نوراً، فلتأت رحمتك، للذين يعرفونك.\"",
+            "Coptic": "Je =en pekouwini> `Psoic en`enau `eouwini> maref`i `nje peknai> `nnhetcwoun `mmok.",
+            "English": "Saying \"In Your light, O Lord shall we see light, let Your mercy come, to those who know You.\"",
+            "Arabiccoptic": "جيه خين بيك أوو أوينى: ابتشويس إن إيناف إى أووأوينى: ماريف اى إنجى بيك ناى: إننى إتصوأوون إمموك .",
+            "Englishcoptic": "Je khen pek-oo-oini: Epchois en-enav e-oo-oini: maref-ee enje pek-nai: en-nee-et-so-oon emmok."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "أيها النور الحقيقى الذى يضيئ لكل إنسان آتٍ إلى العالم.",
+            "Coptic": "Piouwini `nta`vmhi > vheterouwini > `erwmi niben > eqnhou `epikocmoc.",
+            "English": "O True Light, that gives light, to every man, that comes into the world.",
+            "Arabiccoptic": "بى أوؤينى إنطا إفمى: في إتئير أوأوينى: إيرومى نيفين إثنيو إى بى كوزموس .",
+            "Englishcoptic": "Pi O-Wini enta efmei, vi et er O-wini, e romy niven, ethnieo epi kosmos."
+        }
+    ]
+}

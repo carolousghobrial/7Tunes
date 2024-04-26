@@ -1,0 +1,270 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "قداس الكلمة",
+            "English": "Liturgy of the Word"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordTenosht"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "البولس بالقبطي",
+            "English": "Pauline Epistle in Coptic",
+            "Rule": "OpenPageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordCopticPauline"
+        },
+        {
+            "Type": "Button",
+            "Arabic": " ألحان البابا ",
+            "English": "Papal Hymns",
+            "Rule": "OpenPageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordPaplHymnsMenu"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayLiturgyPaulineArabicIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaFridayFridayDayNinthPauline",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayLiturgyLiturgyPauline",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPaulineArabicConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayLiturgyCatholicArabicIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayLiturgyLiturgyCatholic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordCatholicArabicConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayLiturgyActsResponse",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "الابركسيس بالقبطي",
+            "English": "The Acts in Coptic",
+            "Rule": "OpenPageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordCopticActs"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPraxisArabicIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayLiturgyLiturgyActs",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPraxisArabicConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayFirstParlex",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayFirstAgios",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyOfGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور",
+            "English": "Chanted Psalm",
+            "Rule": "OpenPageButtonRule",
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheWordChantedLiturgyPsalm"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaKeEperto",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "يقرأ الإنجيل قبطيا نصفه بلحن الحزن و النصف الأخر بالطريقة السنوية.",
+            "English": " The Psalm and Gospel is read half in the Paschal tune and the other half in the standard tune then it is translated."
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Reader",
+            "Arabic": "القارئ:",
+            "English": "Reader:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "من مزامير أبينا داود النبي، بركاته على جميعنا.",
+            "English": "From the psalms of our father David the prophet, may his blessings be with us all. (Amen)"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayLiturgyLiturgyPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "English": "People:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "هلليلويا.",
+            "English": "Alleluia."
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelIntro",
+            "Rule": 3,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayLiturgyLiturgyGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "English": "People:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "والمجد لله دائماً.",
+            "English": "Glory be to God forever."
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaSaturdayLiturgyLiturgyGospelResponse",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس القديس باسيليوس",
+            "English": "Liturgy of St.Basil",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "liturgyofStBasil"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس القديس غريغوريوس",
+            "English": "Liturgy of St.Gregory",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "liturgyofStGregory"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfPeaceGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfPopeGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfAssembliesGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس القديس باسيليوس",
+            "English": "Liturgy of St.Basil",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "liturgyofStBasil"
+        },
+        {
+            "Type": "Button",
+            "Arabic": "قداس القديس غريغوريوس",
+            "English": "Liturgy of St.Gregory",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "liturgyofStGregory"
+        }
+    ]
+}

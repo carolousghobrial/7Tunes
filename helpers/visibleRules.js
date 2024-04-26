@@ -898,7 +898,18 @@ const isBigFeast = (motherSource, path) => {
   return false;
 };
 const isPalmSunday = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.key === "PALM_SUNDAY") {
+    return true;
+  }
   return false;
+};
+const isNotPalmSunday = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.key === "PALM_SUNDAY") {
+    return false;
+  }
+  return true;
 };
 const isCross = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -3252,6 +3263,7 @@ const VisibleRules = {
   showGospelResponseFestiveConclusion: showGospelResponseFestiveConclusion,
   isBigFeast: isBigFeast,
   isPalmSunday: isPalmSunday,
+  isNotPalmSunday: isNotPalmSunday,
   isCross: isCross,
   getPlantsSeason: getPlantsSeason,
   isHosanna: isHosanna,

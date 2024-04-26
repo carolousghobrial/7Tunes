@@ -60,7 +60,37 @@
             "ImageURL": "ninth",
             "Enabled": true
         },
-
+        {
+            "EnglishTitle": "The Offering of the Lamb",
+            "ArabicTitle": "تقديم الحمل",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "offertoryBrightSaturday",
+            "ImageURL": "offertory",
+            "Enabled": true,
+            "BishopButton": true
+        },
+        {
+            "EnglishTitle": "Liturgy of the Word",
+            "ArabicTitle": " قداس الكلمة",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "liturgyOfWordBrightSaturday",
+            "ImageURL": "litugyOfWord",
+            "Enabled": true
+        },
+        {
+            "EnglishTitle": "Liturgy of the Believers",
+            "ArabicTitle": "قداس المؤمنين",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "liturgyOfBelieversBrightSaturday",
+            "ImageURL": "liturgyOfBelievers",
+            "Enabled": true
+        },
         {
             "ArabicTitle": "الفصول التى تتلى فى توزيع قداس سبت النور ",
             "EnglishTitle": "The Readings during the Bright Saturday Distribution ",
@@ -68,7 +98,7 @@
             "PurchaseKeyIos": "",
             "hasSubBooks": false,
             "BookPath": "BrightSaturdayCommunionMain",
-            "ImageURL": "communion",
+            "ImageURL": "distribution",
             "Enabled": true
         }
     ]
