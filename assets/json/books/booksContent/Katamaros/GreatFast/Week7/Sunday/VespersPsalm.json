@@ -4,12 +4,15 @@
   "EnglishTitle": "Psalm 118:26-27",
   "Hymn": [
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "مُبَارَكٌ الآتِي بِاسْمِ الرَّبِّ. بَارَكْنَاكُمْ مِنْ بَيْتِ الرَّبِّ.",
-      "English": "Blessed is he who comes in the name of the LORD! We have blessed you from the house of the LORD. God is the LORD,  And He has given us light; Bind the sacrifice with cords to the horns of the altar.\r"
+      "Arabic": "مُبَارَكٌ الآتِي بِاسْمِ الرَّبِّ. بَارَكْنَاكُمْ مِنْ بَيْتِ الرَّبِّ.  رَتِّبُوا عِيدَاً قِي الوَاصِلينَ إِلَى قُرُونِ الْمَذْبَحِ",
+      "Coptic": "`F`cmarwout `nje vheqneou =en `vran `m`Psoic. An`cmou `erwten `ebol =en `phi `m`Psoic. Cemne ou]ai =en netve\\. }a nentap `nte pima`ner]wou]i.",
+      "English": "Blessed is he who comes in the name of the LORD! We have blessed you from the house of the LORD. God is the LORD,  And He has given us light; Bind the sacrifice with cords to the horns of the altar.\r",
+      "Arabiccoptic": "إفإسمارؤوت إنجي فييثنيأو خين إفران إمإبتشويس. أنإسمأو إيرووتين إيفول خين إبيي إمإبتشويس. سيمني أوشاي خين نيتفيه. شا نينتاب إنتي بيماإنيرشؤوشي.",
+      "Englishcoptic": "eFesmaro-oot en-je vee-ethneoo khen- evran emEpchois. Anesmoo -erooten- evol khen- epeei emEpchois. Semne ooshai khen- netveh. Sha nen-tap en-te pi-maen-ersho-ooshi."
     }
   ]
 }

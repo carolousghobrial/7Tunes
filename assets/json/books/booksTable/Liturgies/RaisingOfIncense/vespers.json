@@ -100,12 +100,34 @@
             "Path": "venerations"
         },
         {
-            "Type": "Button",
-            "Arabic": "دورة الشعانين",
-            "English": "Hosanna Procession",
-            "Rule": "OpenPalmSundayProcessionButtonRule",
-            "Visible": "isHosanna",
-            "Path": "palmSundayProcession"
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionEflogimenos",
+            "Rule": 0,
+            "Visible": "isPalmSunday"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionPalmSundayExposition",
+            "Rule": 0,
+            "Visible": "isPalmSunday"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionEtavenNiEskhai",
+            "Rule": 0,
+            "Visible": "isCross"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionCrossExposition1",
+            "Rule": 0,
+            "Visible": "isCross"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePalmSundayProcessionCrossExposition2",
+            "Rule": 0,
+            "Visible": "isCross"
         },
         {
             "Type": "Main",
