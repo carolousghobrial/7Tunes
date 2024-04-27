@@ -503,7 +503,12 @@ export function GetTodaysReadingPath(path) {
     currentSeason.dayOfWeek !== 0;
   const isLenten = currentSeason.key === "GREAT_LENT";
   const isPalmSunday = currentSeason.key === "PALM_SUNDAY";
-  if (isStandardSeasonSunday) {
+  const isLazarusSaturday = currentSeason.key === "LAZARUS_SATURDAY";
+  if (isPalmSunday) {
+    filePath = updateFilePath(`GreatFastWeek7Sunday`);
+  } else if (isLazarusSaturday) {
+    filePath = updateFilePath(`GreatFastWeek7Saturday`);
+  } else if (isStandardSeasonSunday) {
     if (currentSeason.key === "NATIVITY") {
       filePath = updateFilePath(`DaysKoiahk29`);
     } else if (currentSeason.key === "EPIPHANY") {
@@ -542,7 +547,6 @@ export function GetTodaysReadingPath(path) {
     } else if (currentSeason.key === "JONAH_FEAST") {
       filePath = updateFilePath(`JonahPassover`);
     } else {
-      console.log(`Days${currentSeason.copticMonth}${currentSeason.copticDay}`);
       filePath = updateFilePath(
         `Days${currentSeason.copticMonth}${currentSeason.copticDay}`
       );
@@ -551,9 +555,8 @@ export function GetTodaysReadingPath(path) {
     filePath = updateFilePath(
       `GreatFastWeek${currentSeason.week}${daysOfWeek[currentSeason.dayOfWeek]}`
     );
-  } else if (isPalmSunday) {
-    filePath = updateFilePath(`GreatFastWeek7Sunday`);
   }
+  console.log(filePath);
   return filePath;
 
   function updateFilePath(commonPart) {

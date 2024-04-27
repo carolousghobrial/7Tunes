@@ -1354,6 +1354,7 @@ const bookPaths = {
   LiturgyLiturgyOfTheWordHitensKiahkJohnTheBaptist: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/KiahkJohnTheBaptist.json"),
   LiturgyLiturgyOfTheWordHitensKiahkZachariahElizabeth: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/KiahkZachariahElizabeth.json"),
   LiturgyLiturgyOfTheWordHitensMaryMagdeleneResurrection: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/MaryMagdeleneResurrection.json"),
+  LiturgyLiturgyOfTheWordHitensLazarus: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/Lazarus.json"),
   LiturgyLiturgyOfTheWordHitensNativityJosephSalome: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/NativityJosephSalome.json"),
   LiturgyLiturgyOfTheWordHitensPatriarch: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/Patriarch.json"),
   LiturgyLiturgyOfTheWordHitensPopeKirollos: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/PopeKirollos.json"),

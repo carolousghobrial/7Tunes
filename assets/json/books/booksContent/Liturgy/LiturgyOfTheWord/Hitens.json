@@ -113,6 +113,12 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordHitensLazarus",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordHitensStStephen",
             "Rule": 0,
             "Visible": "HitenSaint",

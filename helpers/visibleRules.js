@@ -747,8 +747,15 @@ const isLentWeekdayOrJonah = (motherSource, path) => {
   return false;
 };
 const isLentWeekdayOrJonahAndLastFirstLent = (motherSource, path) => {
+  console.log(path);
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (currentSeason.key === "JONAH_FAST") {
+    return true;
+  }
+  if (
+    currentSeason.key === "LAZARUS_SATURDAY" &&
+    path !== "RaisingOfIncenseLentLitanies"
+  ) {
     return true;
   }
 
@@ -773,12 +780,9 @@ const isLentWeekends = (motherSource, path) => {
       (currentSeason.dayOfWeek === 1 && currentSeason.week === 1) ||
       (currentSeason.dayOfWeek === 5 && currentSeason.week === 7)
     ) {
-      console.log("HERE");
       return true;
     }
     if (currentSeason.dayOfWeek === 0 || currentSeason.dayOfWeek === 6) {
-      console.log("HdasERE");
-
       return true;
     }
   }
@@ -2736,7 +2740,6 @@ const REPLACEPROPHETS = (prophet, part) => {
   if (prophet?.includes("MatinsProphecy")) {
     updatedProphet = getMatinsProphecyAuthor(prophet);
   }
-  console.log(updatedProphet);
   switch (updatedProphet) {
     case "Genesis":
       return {
@@ -3105,7 +3108,6 @@ const REPLACEBISHOPAVAILABLETHREE = (rule, part) => {
 };
 
 function getAuthor(part, checkList) {
-  console.log(part);
   const completePath = GetTodaysReadingPath(part.mother);
 
   if (completePath === "Katamaros") {
