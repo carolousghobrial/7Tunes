@@ -4,21 +4,13 @@
   "EnglishTitle": "Psalm 80:3 & Psalm 80:1 & Psalm 80:2",
   "Hymn": [
     {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "بَوِّقُوا فِي رَأْسِ الشَّهْرِ بِالْبُوقِ فِي يَوْمِ عِيدِكُمْ الْمَشْهُورِ.  ( جملة )",
-      "English": "Blow the trumpet at the time of the New Moon, At the full moon, on our solemn feast day.\r"
-    },
-    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "اِبْتَهِجُوا بِالِلَّهِ مُعِينِنَا هَلِّلُوا لإِلَهِ يَعْقُوبَ. خُذُوا مِزْمَارَاً وَاضْرِبُوا دُفّاً. مِزْمَارَاً مُطْرِبَاً مَعَ قِيثَارٍ. الليلويا.",
+      "Arabic": "بَوِّقُوا فِي رَأْسِ الشَّهْرِ بِالْبُوقِ فِي يَوْمِ عِيدِكُمْ الْمَشْهُورِ.  اِبْتَهِجُوا بِالِلَّهِ مُعِينِنَا هَلِّلُوا لإِلَهِ يَعْقُوبَ. خُذُوا مِزْمَارَاً وَاضْرِبُوا دُفّاً. مِزْمَارَاً مُطْرِبَاً مَعَ قِيثَارٍ. الليلويا.",
       "Coptic": "`Aricalpizin =en oucouai =en oucalpiggoc. +en ou`e`\\oou `mmhini `nte neten]ai. qelhl `m`Vnou; penbo`hqoc `e`]lhlou`i `ebol `m`Vnou; `nIakwb. Si `nouyalthrion ouo\\ moi `noukemkem ouyalthrion `enecwf nem oukuqara.",
-      "English": "Sing aloud to God our strength; Make a joyful shout to the God of Jacob. 2 Raise a song and strike the timbrel, The pleasant harp with the lute.\r",
+      "English": "Blow the trumpet at the time of the New Moon, At the full moon, on our solemn feast day. Sing aloud to God our strength; Make a joyful shout to the God of Jacob. 2 Raise a song and strike the timbrel, The pleasant harp with the lute.\r",
       "Arabiccoptic": "أريسالبيزين خين أوسأواي خين أوسالبينغوس. خين أوإيإهوأو إممييني إنتي نيتينشاي. ثيليل إمافنوتي بينفو يثوس إيإشليلأو إي إيفول إمافنوتي إنإياكووب. تشي إنأوبسالتيريون أووه موي إنأوكيمكيم أوبسالتيريون إينيسووف نيم أوكيثارا.",
       "Englishcoptic": "-Arisalpi-zin khen oosooai khen oosalpi-nghos. Khen oo-eeho-oo emmeeini ente netenshai. theleel emEvnoti penvo-eethos -eeshleeloo-ee evol emEvnoti enIakoob. Chi enoopsalteerion owoh moi enookemkem oopsalteerion -enesoof nem ookeethara."
     }
