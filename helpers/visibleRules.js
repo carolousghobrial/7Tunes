@@ -1993,7 +1993,52 @@ const ROICONCLUSION = (motherSource, rule) => {
 
 const REPLACEGOSPELAUTHOR = (author, part) => {
   myauthor = getGospelAuthor(part);
+  console.log(author);
   switch (myauthor) {
+    case 1:
+      return {
+        english: "Matthew",
+        coptic: "Matqeon",
+        arabic: "متى",
+        englishcoptic: "Mat-theon",
+        arabiccoptic: "ماتثيؤن",
+      };
+    case 2:
+      return {
+        english: "Mark",
+        coptic: "Markon",
+        arabic: "مرقس",
+        englishcoptic: "Markon",
+        arabiccoptic: "ماركون",
+      };
+    case 3:
+      return {
+        english: "Luke",
+        coptic: "Loukan",
+        arabic: "لوقا",
+        englishcoptic: "Lokan",
+        arabiccoptic: "لوكان",
+      };
+    case 4:
+      return {
+        english: "John",
+        coptic: "Iwannhn",
+        arabic: "يوحنا",
+        englishcoptic: "Yoanin",
+        arabiccoptic: "يوأنين",
+      };
+    default:
+      return {
+        english: "...",
+        coptic: "...",
+        arabic: "...",
+        englishcoptic: "...",
+        arabiccoptic: "...",
+      };
+  }
+};
+const REPLACEPASCHAGOSPELAUTHOR = (author, part) => {
+  switch (author) {
     case 1:
       return {
         english: "Matthew",
@@ -3205,7 +3250,7 @@ function getMatinsProphecyAuthor(part) {
 const VisibleRules = {
   COMERISEN: ComeRisenRule,
   ROICONCLUSION: ROICONCLUSION,
-  GOSPEL_AUTHOR: REPLACEGOSPELAUTHOR,
+  GOSPEL_AUTHOR: REPLACEPASCHAGOSPELAUTHOR,
   STANDARD_GOSPEL_AUTHOR: REPLACEGOSPELAUTHOR,
   CATHOLIC_AUTHOR: REPLACECATHOLICAUTHOR,
   PAULINE_AUTHOR: REPLACEPAULINEAUTHOR,
