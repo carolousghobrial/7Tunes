@@ -23,12 +23,22 @@
             "Path": "WednesdayDayEleventhHourcopticProphecies"
         },
         {
-            "Type": "Button",
-            "Arabic": "النبوات بالعربي",
-            "English": "Prophecies in English/Arabic",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "WednesdayDayEleventhHourProphecies"
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Isaiah",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaWednesdayWednesdayDayEleventhProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -102,12 +112,34 @@
             "Path": "WednesdayDayEleventhHourcopticPsalmAndGospel"
         },
         {
-            "Type": "Button",
-            "Arabic": "المزمور و الانجيل بالعربي",
-            "English": "Psalm and Gospel in English",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "WednesdayDayEleventhHourPsalmAndGospel"
+            "Type": "Main",
+            "Path": "PaschaPsalmIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaWednesdayWednesdayDayEleventhPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelIntro",
+            "Rule": 4,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaWednesdayWednesdayDayEleventhGospel1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelConclusion",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",

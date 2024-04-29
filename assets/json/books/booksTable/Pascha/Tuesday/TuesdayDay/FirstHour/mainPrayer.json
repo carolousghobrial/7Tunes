@@ -23,12 +23,58 @@
             "Path": "TuesdayDayFirstHourcopticProphecies"
         },
         {
-            "Type": "Button",
-            "Arabic": "النبوات بالعربي",
-            "English": "Prophecies in English/Arabic",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "TuesdayDayFirstHourProphecies"
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Exodus",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayFirstProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Job",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayFirstProphecies2",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Hosea",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayFirstProphecies3",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -102,12 +148,34 @@
             "Path": "TuesdayDayFirstHourcopticPsalmAndGospel"
         },
         {
-            "Type": "Button",
-            "Arabic": "المزمور و الانجيل بالعربي",
-            "English": "Psalm and Gospel in English",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "TuesdayDayFirstHourPsalmAndGospel"
+            "Type": "Main",
+            "Path": "PaschaPsalmIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayFirstPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelIntro",
+            "Rule": 4,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayFirstGospel1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelConclusion",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",

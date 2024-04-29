@@ -23,12 +23,40 @@
             "Path": "WednesdayDaySixthHourcopticProphecies"
         },
         {
-            "Type": "Button",
-            "Arabic": "النبوات بالعربي",
-            "English": "Prophecies in English/Arabic",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "WednesdayDaySixthHourProphecies"
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Exodus",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaWednesdayWednesdayDaySixthProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Sirach",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaWednesdayWednesdayDaySixthProphecies2",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -90,12 +118,34 @@
             "Path": "WednesdayDaySixthHourcopticPsalmAndGospel"
         },
         {
-            "Type": "Button",
-            "Arabic": "المزمور و الانجيل بالعربي",
-            "English": "Psalm and Gospel in English",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "WednesdayDaySixthHourPsalmAndGospel"
+            "Type": "Main",
+            "Path": "PaschaPsalmIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaWednesdayWednesdayDaySixthPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelIntro",
+            "Rule": 4,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaWednesdayWednesdayDaySixthGospel1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelConclusion",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",

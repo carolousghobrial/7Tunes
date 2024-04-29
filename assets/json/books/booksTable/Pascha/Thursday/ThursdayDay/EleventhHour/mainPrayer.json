@@ -23,12 +23,22 @@
             "Path": "ThursdayDayEleventhHourcopticProphecies"
         },
         {
-            "Type": "Button",
-            "Arabic": "النبوات بالعربي",
-            "English": "Prophecies in English/Arabic",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "ThursdayDayEleventhHourProphecies"
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Isaiah",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayEleventhProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",

@@ -23,12 +23,22 @@
             "Path": "TuesdayEveSixthHourcopticProphecies"
         },
         {
-            "Type": "Button",
-            "Arabic": "النبوات بالعربي",
-            "English": "Prophecies in English/Arabic",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "TuesdayEveSixthHourProphecies"
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Hosea",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayEveSixthProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -84,12 +94,34 @@
             "Path": "TuesdayEveSixthHourcopticPsalmAndGospel"
         },
         {
-            "Type": "Button",
-            "Arabic": "المزمور و الانجيل بالعربي",
-            "English": "Psalm and Gospel in English",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "TuesdayEveSixthHourPsalmAndGospel"
+            "Type": "Main",
+            "Path": "PaschaPsalmIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayEveSixthPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelIntro",
+            "Rule": 3,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayEveSixthGospel1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelConclusion",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",

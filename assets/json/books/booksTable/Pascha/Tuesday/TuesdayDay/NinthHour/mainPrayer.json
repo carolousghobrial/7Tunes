@@ -23,12 +23,76 @@
             "Path": "TuesdayDayNinthHourcopticProphecies"
         },
         {
-            "Type": "Button",
-            "Arabic": "النبوات بالعربي",
-            "English": "Prophecies in English/Arabic",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "TuesdayDayNinthHourProphecies"
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Genesis",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayNinthProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Zephaniah",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayNinthProphecies2",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Proverbs",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayNinthProphecies3",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Daniel",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayNinthProphecies4",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -84,12 +148,34 @@
             "Path": "TuesdayDayNinthHourcopticPsalmAndGospel"
         },
         {
-            "Type": "Button",
-            "Arabic": "المزمور و الانجيل بالعربي",
-            "English": "Psalm and Gospel in English",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "TuesdayDayNinthHourPsalmAndGospel"
+            "Type": "Main",
+            "Path": "PaschaPsalmIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayNinthPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelIntro",
+            "Rule": 1,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTuesdayTuesdayDayNinthGospel1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaGospelConclusion",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
