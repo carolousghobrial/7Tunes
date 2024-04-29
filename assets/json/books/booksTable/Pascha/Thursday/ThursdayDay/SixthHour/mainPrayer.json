@@ -116,6 +116,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "يوم خميس العهد (الساعة التاسعة )",
+            "English": " Thursday (Ninth Hour)",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "ThursdayDayNinthHourMain"
+        },
+        {
             "Type": "Main",
             "Path": "PaschaMorningLitanies",
             "Rule": 0,

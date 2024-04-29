@@ -116,6 +116,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "ليلة الجمعة العظيمة (الساعة الحادية عشر  )",
+            "English": "Good Friday Eve (Eleventh Hour)",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "FridayEveEleventhHourMain"
+        },
+        {
             "Type": "Main",
             "Path": "PaschaNightLitanies",
             "Rule": 0,

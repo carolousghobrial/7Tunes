@@ -116,6 +116,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "ليلة خميس العهد (الساعة الثالثة )",
+            "English": " Thursday Eve (Third Hour)",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "ThursdayEveThirdHourMain"
+        },
+        {
             "Type": "Main",
             "Path": "PaschaNightLitanies",
             "Rule": 0,

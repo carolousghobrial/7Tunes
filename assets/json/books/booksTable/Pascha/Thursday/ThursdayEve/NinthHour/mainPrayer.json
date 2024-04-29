@@ -116,6 +116,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "ليلة خميس العهد (الساعة الحادية عشر  )",
+            "English": " Thursday Eve (Eleventh Hour)",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "ThursdayEveEleventhHourMain"
+        },
+        {
             "Type": "Main",
             "Path": "PaschaNightLitanies",
             "Rule": 0,

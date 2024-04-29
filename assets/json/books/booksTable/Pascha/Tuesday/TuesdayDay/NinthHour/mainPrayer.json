@@ -110,6 +110,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "يوم الثلاثاء (الساعة الحادية عشر )",
+            "English": " Tuesday (Eleventh Hour)",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "TuesdayDayEleventhHourMain"
+        },
+        {
             "Type": "Main",
             "Path": "PaschaExpositionConclusion",
             "Rule": 0,

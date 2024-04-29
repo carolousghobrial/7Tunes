@@ -110,6 +110,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "ليلة الجمعة العظيمة (الساعة التاسعة )",
+            "English": "Good Friday Eve (Ninth Hour)",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "FridayEveNinthHourMain"
+        },
+        {
             "Type": "Main",
             "Path": "PaschaExpositionConclusion",
             "Rule": 0,

@@ -116,6 +116,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "يوم الثلاثاء (الساعة السادسة )",
+            "English": " Monday (Sixth Hour)",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "MondayDaySixthHourMain"
+        },
+        {
             "Type": "Main",
             "Path": "PaschaMorningLitanies",
             "Rule": 0,

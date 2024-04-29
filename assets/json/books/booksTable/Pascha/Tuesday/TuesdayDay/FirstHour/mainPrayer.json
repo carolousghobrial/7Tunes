@@ -134,6 +134,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "يوم الثلاثاء (الساعة الثالثة )",
+            "English": " Tuesday (Third Hour)",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "TuesdayDayThirdHourMain"
+        },
+        {
             "Type": "Main",
             "Path": "PaschaMorningLitanies",
             "Rule": 0,

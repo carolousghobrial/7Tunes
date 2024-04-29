@@ -49,7 +49,7 @@
             "Rule": "ThokTeTiGomScrollUpButtonRule",
             "Visible": true,
             "Count": 1,
-            "Path": "WednesdayDayFirstHourProphecies"
+            "Path": "WednesdayEveFirstHourProphecies"
         },
         {
             "Type": "Main",
@@ -114,6 +114,14 @@
             "Path": "PaschaExpositionConclusion",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "ليلة الأربعاء (الساعة الثالثة )",
+            "English": " Wednesday Eve (Third Hour)",
+            "Rule": "OpenNewPageButtonRule",
+            "Visible": true,
+            "Path": "WednesdayEveThirdHourMain"
         },
         {
             "Type": "Main",
