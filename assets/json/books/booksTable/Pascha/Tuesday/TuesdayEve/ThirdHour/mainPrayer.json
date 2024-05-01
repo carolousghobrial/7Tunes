@@ -150,10 +150,10 @@
         {
             "Type": "Button",
             "Arabic": "ليلة الثلاثاء (الساعة السادسة )",
-            "English": " Monday (Sixth Hour)",
+            "English": " Tuesday Eve (Sixth Hour)",
             "Rule": "OpenNewPageButtonRule",
             "Visible": true,
-            "Path": "MondayEveSixthHourMain"
+            "Path": "TuesdayEveSixthHourMain"
         },
         {
             "Type": "Main",

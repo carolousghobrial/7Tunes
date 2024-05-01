@@ -31,6 +31,16 @@
             "Enabled": true
         },
         {
+            "EnglishTitle": "The Confession of the Thief",
+            "ArabicTitle": "امانة اللص",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "FridayDaySixthHourRightHandThief",
+            "ImageURL": "righthandthief",
+            "Enabled": true
+        },
+        {
             "EnglishTitle": "Ninth Hour",
             "ArabicTitle": "الساعة التاسعة",
             "PurchaseKeyDroid": "",

@@ -149,11 +149,11 @@
         },
         {
             "Type": "Button",
-            "Arabic": "ليلة الأربعاء (الساعة التاسعة )",
-            "English": " Wednesday Eve (Ninth Hour)",
+            "Arabic": "ليلة الأربعاء (الساعة السادسة )",
+            "English": " Wednesday Eve (Sixth Hour)",
             "Rule": "OpenNewPageButtonRule",
             "Visible": true,
-            "Path": "WednesdayEveNinthHourMain"
+            "Path": "WednesdayEveSixthHourMain"
         },
         {
             "Type": "Main",

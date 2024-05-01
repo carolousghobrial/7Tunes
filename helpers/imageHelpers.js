@@ -8,6 +8,7 @@ const images = {
   vp: require("../assets/images/vp.jpg"),
   eveningPrayers: require("../assets/images/eveningPrayers.jpg"),
   mp: require("../assets/images/mp.jpg"),
+  righthandthief: require("../assets/images/RightHandThief.jpg"),
   abouticon: require("../assets/images/abouticon.png"),
   annuciation: require("../assets/images/annuciation.jpg"),
   brightsaturday: require("../assets/images/brightsaturday.jpg"),
