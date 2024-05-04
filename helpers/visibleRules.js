@@ -830,16 +830,16 @@ const isAdam = (motherSource, path) => {
 export const isNOTLentWeekdayOrJonah = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (motherSource === "ThursdayDayFirstHourMain") {
-    return true;
-  }
-  if (isBigFeast(motherSource, path)) {
     return false;
   }
-  if (!isLentWeekdayOrJonah(motherSource, path)) {
+  if (isBigFeast(motherSource, path)) {
     return true;
   }
+  if (!isLentWeekdayOrJonah(motherSource, path)) {
+    return false;
+  }
 
-  return false;
+  return true;
 };
 const showArchangelMichaelAndGabriel = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
