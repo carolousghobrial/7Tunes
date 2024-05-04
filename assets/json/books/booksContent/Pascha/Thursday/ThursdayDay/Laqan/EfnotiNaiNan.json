@@ -1,0 +1,192 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "اللهُمَّ إرحمنا",
+  "EnglishTitle": "O God, have mercy upon us",
+  "CopticTitle": "Vnou; nai nan",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اللهم ارحَمْنا، قرر لنا رحمةً، تراءف علينا.",
+      "Coptic": "Vnou; nai nan qe] ounai `eron> ]en\\ht =aron>",
+      "English": "O God, have mercy upon us, settle mercy upon us, have compassion upon us",
+      "Arabiccoptic": "افنوتي ناي نان : ثيش او ناي ايرون : شينهيت خارون",
+      "Englishcoptic": "Evnouty nai nan, thesh o nai eron, shenheet kharon"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "Coptic": "Amhn.",
+      "English": "Amen.",
+      "Arabiccoptic": "أمين",
+      "Englishcoptic": "Amen"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "واسْمَعْنَا.",
+      "Coptic": "Cwtem `eron",
+      "English": "Hear us",
+      "Arabiccoptic": "سوتيم ايرون",
+      "Englishcoptic": "Sotem Eron"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "Coptic": "Amhn.",
+      "English": "Amen.",
+      "Arabiccoptic": "أمين",
+      "Englishcoptic": "Amen"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبارِكْنا واحفَظْنا وأعِنَّا.",
+      "Coptic": "`cmou `eron> `are\\ `eron> `aribo`hqin `eron",
+      "English": "Bless us, keep us, and help us",
+      "Arabiccoptic": "اسمو ايرون : أريه ايرون : أري فويثين ايرون",
+      "Englishcoptic": "Esmo eron, areh eron, ari voithin eron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "Coptic": "Amhn.",
+      "English": "Amen.",
+      "Arabiccoptic": "أمين",
+      "Englishcoptic": "Amen"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وارفع غضبَكَ عنا، وافتقدنا بخلاصِكَ، واغفر لنا خطايانا.",
+      "Coptic": "`wli `mpekjwnt `ebol\\aron> jempen]ini =en pekoujai> ouo\\ xa nennobi nan `ebol.",
+      "English": "Take away Your anger from us, visit us with Your salvation, and forgive us our sins.",
+      "Arabiccoptic": "أولي امبيك جونت ايفول هارون چيمبينشيني خين بيك أووجاي أووه كا نين نوفي نان ايفول",
+      "Englishcoptic": "Oli Empek gont evol haron, jem penshiny khen pek ogai, owoh ka nen novi nan evol."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": "BrightSaturday",
+      "Side": "North",
+      "Arabic": "ويقول المرتلون كيرياليصون بالحن الكبير بالناقوس، وبأيديهم الشموع موقدة والمجامر والصلبان و (الأيقونات).  ويدورون حول المذبح ثلاث مرات، ويطوفون البيعة ثلاث دفعات ويعودون إلى الخورس.",
+      "English": "Kerie Eleison(Lord Have Mercy) is chanted in the great tune while the deacons proceed with the candles and crosses around the sanctuary and the altar three times and once again around the altar once"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين. ياربُّ ارحَم.(12).",
+      "Coptic": "Amhn. Kuri`e `ele`hcon. (12)",
+      "English": "Amen. Lord have mercy (12)",
+      "Arabiccoptic": "آمين. كيرياليسون (12)",
+      "Englishcoptic": "Amen Kerie-leyson (12)"
+    }
+  ]
+}

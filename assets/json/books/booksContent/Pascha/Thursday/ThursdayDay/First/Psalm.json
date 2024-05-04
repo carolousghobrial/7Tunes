@@ -1,16 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "54:21,12 مزمور",
-  "EnglishTitle": "Psalm 54:21,12 ",
+  "ArabicTitle": "51:7,10 مزمور",
+  "EnglishTitle": "Psalm 51:7,10",
   "Hymn": [
-    {
-      "Type": "Ritual",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "ثم يرتل المزمور باللحن الشامى",
-      "English": "Then the Psalm is chanted in the Shammy tune"
-    },
     {
       "Type": "Base",
       "Rule": 0,
@@ -23,26 +15,12 @@
       "Englishcoptic": "Pi-Anaghnostis:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "كَلاَمُهُ أَلْيَنُ مِنَ الدُهْنِ وَهُوَ نِصَالٌ.",
-      "Coptic": "Au`snon `nje nefcaji `e\\ote oune\\ > `nqwou \\ancoqnef ne >",
-      "English": "His words were softened above oil, And they are arrows.",
-      "Arabiccoptic": "أفتشنون إنجى نيف ساجى إيهوتى أونيه. إنثوؤ هان سوثنيف نى.",
-      "Englishcoptic": "Avechnon enje nef saji ehote oneh. entho-o han sothnef ne."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "فَلَوْ كَانَ العَدُّوُ عَيَّرَنِى إِذَاً لاَحْتَمَلْتُ. وَلَوْ أَنَّ مُبْغِضِيِ عَظَّمَ عَلَىَّ الْكَلاَمَ لَاخْتَفَيْتُ مِنْهُ : الليلويا",
-      "Coptic": "Je `ene oujaji petaf;]w] nhi nai nafai `erof pe > ouo\\ `ene peqmoc; `mmoi afjw `n\\anni]; `ncaji `e`\\rhi `ejwi nai naxopt `ebol \\arof > =a= l",
-      "English": "For if an enemy reviled me, I would have endured it; And if one hating me boasted against me, I would have hidden from him: Alleluia.",
-      "Arabiccoptic": "جى إينى أوجاجى بيطاف تى شوش نى ناى نافاى إيروف بى. أووه إينى بيثموستى إمموى إفجو إنهان نيشتى إنساجى إإهرى إيجوى ناى ناكوبت إيفول هاروف . الليلويا",
-      "Englishcoptic": "Je einy o gagi pitav te shosh ne nai nafai erof pe. owoh einy pithmosty emmoi efgo enhan nishty en sagi e ehri egoi nai nakopt evol harof Alleluia."
+      "Arabic": "تنضح عليَّ بزوفاك فأطهر، وتغسلني فأبيض أفضل من الثلج، قلباً نقياً أخلق في يا الله، وروحا مستقيماً جدد في أحشائي. الليلويا.",
+      "English": "You shall sprinkle me with hyssop, and I shall be purified: you shall wash me, and I shall be made whiter than snow. Create in me a clean heart, O God; and renew a right spirit in my inward parts. Alleluia."
     }
   ]
 }

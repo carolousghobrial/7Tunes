@@ -1,0 +1,147 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المسيح قام.",
+      "Coptic": "` Xrictoc `anecth ",
+      "Arabiccoptic": " خرستوس أنيستي ",
+      "Englishcoptic": "Khristos anestee ",
+      "English": "Christ is risen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بالحقيقة قام.",
+      "Coptic": "Alhqwc `anecth ",
+      "Arabiccoptic": " أليثوس أنيستي ",
+      "Englishcoptic": "Alithos anestee ",
+      "English": "Truly He is risen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "English": "Deacon:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المسيح قام.",
+      "English": "Christ is risen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بالحقيقة قام.",
+      "English": "Truly He is risen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "English": "Deacon:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إفْتَحُوا أيها المُلُوكُ أبوابَكُمْ، وإرتَفِعي أيَّتُها الأبوابُ الدَهِريةُ. ",
+      "English": "Lift up your gates, O rulers, and be lifted up, you everlasting doors."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إفْتَحُوا أيها المُلُوكُ أبوابَكُمْ، وإرتَفِعي أيَّتُها الأبوابُ الدَهِريةُ. ",
+      "English": "Lift up your gates, O rulers, and be lifted up, you everlasting doors."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إفْتَحُوا أيها المُلُوكُ أبوابَكُمْ، وإرتَفِعي أيَّتُها الأبوابُ الدَهِريةُ. لِيَدْخُلَ مَلِكُ المجد.",
+      "English": "Lift up your gates, O rulers, and be lifted up, you everlasting doors,  that the King of glory may enter."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنْ هُوَ مَلِكُ المجد؟",
+      "English": "Who is this King of glory?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "English": "Deacon:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الربُّ العَزِيزُ القّوِيُّ الجبَّار، القَاهِرُ في الحُرُوبِ، هُوَ مَلِكُ المجد.",
+      "English": "The Lord, the powerful, the strong, the mighty, victorious in battles; He is the King of glory."
+    }
+  ]
+}

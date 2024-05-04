@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الحكمة بنت لها بيتاً ودعمته بسبعة عمدان، وذبحت ذبائحها ومزجت خمرها في البواطى، وهيأت مائدتها، وأرسلت عبيدها لتدعو بصوت عال على الزوايا قائلة : من كان جاهل فيكم فليأت الىّ، والناقص علماً فليقبل نحوى فأقول لهم تعالوا الىّ، وكلوا من خبزى، وإشربوا من خمرى التي مزجتها لكم.",
+      "English": "Wisdom has built her house, She has hewn out her seven pillars; 2 She has slaughtered her meat, She has mixed her wine, She has also [a]furnished her table. 3 She has sent out her maidens, She cries out from the highest places of the city, 4 “Whoever is simple, let him turn in here!” As for him who lacks understanding, she says to him, 5 “Come, eat of my bread And drink of the wine I have mixed. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أتركوا الجهل فتحيوا. أطلبوا الحكمة فتعمروا. وأنهضوا الفهم بالعلم. من يوبخ مستهزئاً لئلا يبغضك، وبخ حكيماً فيحبك. وبخ الجاهل فيمقتك. أعط الحكيم سبباً فيزداد حكمة، علم صديقاً فيزداد قبولاً.",
+      "English": "6 Forsake foolishness and live, And go in the way of understanding. 7 “He who corrects a scoffer gets shame for himself, And he who rebukes a wicked man only harms himself. 8 Do not correct a scoffer, lest he hate you; Rebuke a wise man, and he will love you. 9 Give instruction to a wise man, and he will be still wiser; Teach a just man, and he will increase in learning."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " بدء الحكمة مخافة الرب، ومشورة الأبرار فهم، معرفة الناموس للفطنة الجيدة وبهذا النوع تعيش زمناً كثيراً وتزداد سنو حياتك.",
+      "English": "10 “The fear of the Lord is the beginning of wisdom, And the knowledge of the Holy One is understanding. 11 For by me your days will be multiplied, And years of life will be added to you."
+    }
+  ]
+}

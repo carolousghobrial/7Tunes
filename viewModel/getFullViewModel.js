@@ -504,7 +504,10 @@ export function GetTodaysReadingPath(path) {
   const isLenten = currentSeason.key === "GREAT_LENT";
   const isPalmSunday = currentSeason.key === "PALM_SUNDAY";
   const isLazarusSaturday = currentSeason.key === "LAZARUS_SATURDAY";
-  if (isPalmSunday) {
+  const isResurrection = currentSeason.key === "RESURRECTION";
+  if (isResurrection) {
+    filePath = updateFilePath(`FiftiesResurrection`);
+  } else if (isPalmSunday) {
     filePath = updateFilePath(`GreatFastWeek7Sunday`);
   } else if (isLazarusSaturday) {
     filePath = updateFilePath(`GreatFastWeek7Saturday`);

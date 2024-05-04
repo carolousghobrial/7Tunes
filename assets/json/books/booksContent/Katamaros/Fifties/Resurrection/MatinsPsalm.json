@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور 78:65, 69",
+  "EnglishTitle": "Psalms 78:65, 69",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إسْتَيْقَظَ اللهُ كالنَائِمِ، وكالجَبَّارِ المُفيقِ مِن الْخَمْرِ. ",
+      "English": "65 Then the Lord awoke as from sleep, Like a mighty man who shouts because of wine.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وَبَنَى مِثْلَ وَحِيدِ القَرْنِ مَوْضِعَهُ المُقْدَّسَ، وأسَّسَهُ على الأرْضِ إِلَى الأبَدِ.",
+      "English": "69 And He built His sanctuary like the heights, Like the earth which He has established forever.     Alleluia\r"
+    }
+  ]
+}

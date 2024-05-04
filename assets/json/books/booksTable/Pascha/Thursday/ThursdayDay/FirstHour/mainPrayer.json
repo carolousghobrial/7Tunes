@@ -9,69 +9,8 @@
             "English": " Covenant Thursday (First Hour)"
         },
         {
-            "Type": "Ritual",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": " يفتح باب الخورس والهيكل ثم يُبدأ بالصلاة فيقرأ رئيس (كبير) الكهنة النبوات قبطياً ثم تفسر عربياً ",
-            "English": "The Veil of the Altar is opened, and the High (Elder) Priest reads the prophecies in Coptic, then interprets them in English"
-        },
-        {
             "Type": "Main",
-            "Path": "PaschaPaschaHourIntro",
-            "Rule": "ThursdayDayFirstHour",
-            "Visible": true
-        },
-        {
-            "Type": "Button",
-            "Arabic": "النبوات بالقبطي",
-            "English": "Prophecies in Coptic",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "ThursdayDayFirstHourcopticProphecies"
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesIntroduction",
-            "Rule": "Exodus",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayFirstProphecies1",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesConclusion",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaPraiseIntro",
-            "Rule": "ThursdayDayFirstHour",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaPraise2",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Button",
-            "Arabic": "تسبحة البصخة ( 1 )",
-            "English": "Repeat Pascha Praise ( 1 )",
-            "Rule": "ThokTeTiGomScrollUpButtonRule",
-            "Visible": true,
-            "Count": 1,
-            "Path": "ThursdayDayFirstHourProphecies"
-        },
-        {
-            "Type": "Main",
-            "Path": "AgpeyaPrayersOurFather",
+            "Path": "PaschaEkesmarot",
             "Rule": 0,
             "Visible": true
         },

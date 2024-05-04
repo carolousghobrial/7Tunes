@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور 118:24-25, 27",
+  "EnglishTitle": "Psalms 118:24-25, 27",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذَا هُوَ الْيَوْمُ الَّذِي صَنَعُهُ الرَّبُّ، فَلنَتَهَلل وَنَفْرَحُ فِيهِ.",
+      "English": "24 This is the day the Lord has made; We will rejoice and be glad in it. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يَا رَبُّ خَلِّصْنا يَا رَبُّ سَهِّلُ سُبُلَنَا. ",
+      "English": "25 Save now, I pray, O Lord; O Lord, I pray, send now prosperity.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اللهُ الربُّ أضَاءَ عَلَيْنَا.",
+      "English": "27 God is the Lord, And He has given us light.     Alleluia\r"
+    }
+  ]
+}

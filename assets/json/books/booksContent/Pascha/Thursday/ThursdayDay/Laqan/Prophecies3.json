@@ -1,0 +1,15 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "حينما عبر إسرائيل البحر الأحمر، وداست أرجلهم البحر، وأنطمس أعدائهم في العمق، وأنغمست أرجل العساكر في الماء قسراً، وأما أرجل إسرائيل وجميع بيت يعقوب رفعت ونجوا من الهلاك، وقالوا هذه التسبحة : فلنسبح الرب لأنه بالمجد قد تمجد. ",
+      "English": "When Israel crossed the Red Sea, they walked through dry land in the midst of the sea, and their enemies went into the sea and the Lord brought upon them the water of the sea. Israel and all the house of Jacob were saved. They danced and sang this song: Let us sing to the Lord, for He is very greatly glorified."
+    }
+  ]
+}

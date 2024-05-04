@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم حملنى (الروح) وادخلنى من باب البيت وإذا ماء خارج من المشرق من تحت أسقفة الباب الشرقي لأن وجه البيت كان نحو المشرق، وكان الماء منحدرًا من الجانب الأيمن للبيت عن جنوبي المذبح، ثم أخرجنى من طريق باب الشمال، وطاف بي إلى الباب الخارجي من الباب الذي يتجه نحو المشرق وإذا ماء كان يجري تحت الجانب الأيمن كمثل إنسان قدامه وقصبة في يده فقاس الفًا بالمقياس وعبر في الماء. وكان الماء إلى الركبة، ",
+      "English": "Then he brought me back to the outer door of the house, and there was water, flowing from under the open air of the chamber toward the east; and the water was flowing from under the right side court, from the south to the altar.† 2Then he brought me out by way of the north gate and led me around on the outside to the outer gate that faces east; and there was water coming down, running out on the right side, 3in the direction in which a man went forth opposite. There was a measure in his hands, and he measured a thousand cubits with the measure; and he passed through the water. It was the water of remission. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم قاس الفًا أخرى بالقياس وعبر في الماء، فكان الماء إلى الحقوين، ثم قاس الفًا أيضًا في وادي لم يستطع عبوره لأن المياه طمت كمياه في واد منحدر لا يعبر.",
+      "English": "4Again he measured a thousand, and he passed through the water, and the water was up to the knees. Again he measured a thousand, and the water came up to the waist. 5Again he measured a thousand, and it could not be crossed; for it broke into a rushing torrent which man cannot pass through. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وقال لى: أرأيت يا إبن الأنسان؟!. ثم ذهب بي وأرجعنى إلى شاطىء النهر واذا عند رجوعى أشجار كثيرة جدًا على شاطىء النهر من هنا ومن هناك، وقال لى: هذه المياه خارجة من الجليل الذي بالدائرة الشرقية وتنحدر إلى بلاد العرب وتذهب إلى البحر على الماء الجارى فتطهر سائر المياه ويصير أن كل نفس حية تدب حيثما يتبدد ماء هذا النهر عليها تتطهر من كل شيء وكل ما يأتي عليه ماء هذا النهر يطهر ويحيا.",
+      "English": "6He said to me, “Son of man, have you seen this?” Then he led me to the bank of the river. 7As I returned, behold, along the bank of the river there were very many trees on this side and the other. 8Then he said to me, “This is the water that flows into Galilee, which is to the east. Then it goes down upon Arabia and reaches as far as the sea to the outlet of the water; and it will heal the waters. 9So it shall be that every living thing that moves, wherever the river goes, will live."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(P)",
+      "English": "Now before the Feast of the Passover, when Jesus knew that His hour had come that He should depart from this world to the Father, having loved His own who were in the world, He loved them to the end."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا من إشتد بمنديل وستر كل عراء آدم. وأنعم علينا بلباس البنوة الإلهية. نطلب إليك أيها المسيح إلهنا إسمعنا وإرحمنا.",
+      "English": "† 2And supper being ended,a the devil having already put it into the heart of Judas Iscariot, Simon's son, to betray Him,† 3Jesus, knowing that the Father had given all things into His hands, and that He had come from God and was going to God,ω 4rose from supper and laid aside His garments, took a towel and girded Himself. 5After that, He poured water into a basin and began to wash the disciples’ feet, and to wipe them with the towel with which He was girded.† 6Then He came to Simon Peter. And Peter said to Him, “Lord, are You washing my feet?”† 7Jesus answered and said to him, “What I am doing you do not understand now, but you will know after this.” 8Peter said to Him, “You shall never wash my feet!” Jesus answered him, “If I do not wash you, you have no part with Me.” 9Simon Peter said to Him, “Lord, not my feet only, but also my hands and my head!” 10Jesus said to him, “He who is bathed needs only to wash his feet, but is completely clean; and you are clean, but not all of you.” 11For He knew who would betray Him; therefore He said, “You are not all clean.” "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(C)",
+      "English": "12So when He had washed their feet, taken His garments, and sat down again, He said to them, “Do you know what I have done to you?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا رب ارحم",
+      "English": "† 13You call Me Teacher and Lord, and you say well, for so I am. 14If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another's feet. 15For I have given you an example, that you should do as I have done to you. 16Most assuredly, I say to you, a servant is not greater than his master; nor is he who is sent greater than he who sent him. 17If you know these things, blessed are you if you do them."
+    }
+  ]
+}

@@ -5,52 +5,163 @@
             "Rule": 0,
             "Visible": true,
             "Side": "Title",
-            "Arabic": "قداس الكلمة",
-            "English": "Liturgy of the Word"
+            "Arabic": "يوم خميس العهد (الساعة الأولى )",
+            "English": " Covenant Thursday (First Hour)"
+        },
+        {
+            "Type": "Ritual",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " يفتح باب الخورس والهيكل ثم يُبدأ بالصلاة فيقرأ رئيس (كبير) الكهنة النبوات قبطياً ثم تفسر عربياً ",
+            "English": "The Veil of the Altar is opened, and the High (Elder) Priest reads the prophecies in Coptic, then interprets them in English"
         },
         {
             "Type": "Main",
-            "Rule": 0,
-            "Visible": true,
-            "Path": "LiturgyLiturgyOfTheWordTenosht"
+            "Path": "PaschaPaschaHourIntro",
+            "Rule": "ThursdayDayFirstHour",
+            "Visible": true
         },
         {
             "Type": "Button",
-            "Arabic": "البولس بالقبطي",
-            "English": "Pauline Epistle in Coptic",
+            "Arabic": "النبوات بالقبطي",
+            "English": "Prophecies in Coptic",
             "Rule": "OpenPageButtonRule",
             "Visible": true,
-            "Path": "LiturgyLiturgyOfTheWordCopticPauline"
+            "Path": "ThursdayDayFirstHourcopticProphecies"
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesIntroduction",
+            "Rule": "Exodus",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayFirstProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPropheciesConclusion",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaPraiseIntro",
+            "Rule": "ThursdayDayFirstHour",
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaPaschaPraise2",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Button",
-            "Arabic": " ألحان البابا ",
-            "English": "Papal Hymns",
-            "Rule": "OpenPageButtonRule",
+            "Arabic": "تسبحة البصخة ( 1 )",
+            "English": "Repeat Pascha Praise ( 1 )",
+            "Rule": "ThokTeTiGomScrollUpButtonRule",
             "Visible": true,
-            "Path": "LiturgyLiturgyOfTheWordPaplHymnsMenu"
+            "Count": 1,
+            "Path": "ThursdayDayFirstHourProphecies"
         },
         {
             "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayLiturgyPaulineArabicIntro",
+            "Path": "AgpeyaPrayersOurFather",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayLiturgyLiturgyPauline",
+            "Path": "RaisingOfIncenseEleisonEmas",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordPaulineArabicConclusion",
+            "Path": "RaisingOfIncenseThanksgivingPrayer",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayLiturgyToZipno",
+            "Path": "RaisingOfIncenseVersesOfCymbals",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersPsalm50",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanProphecies1",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanProphecies2",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanProphecies3",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanProphecies4",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanProphecies5",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanProphecies6",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanProphecies7",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanProphecies8",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanHomily",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaTenosht",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanPauline",
             "Rule": 0,
             "Visible": true
         },
@@ -63,20 +174,6 @@
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseLitanyOfGospel",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Button",
-            "Arabic": "المزمور",
-            "English": "Chanted Psalm",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "LiturgyLiturgyOfTheWordChantedLiturgyPsalm"
-        },
-        {
-            "Type": "Main",
-            "Path": "RaisingOfIncensePsalmResponses",
             "Rule": 0,
             "Visible": true
         },
@@ -234,7 +331,7 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayLiturgyLiturgyPsalm",
+            "Path": "PaschaThursdayThursdayDayLaqanPsalm",
             "Rule": 0,
             "Visible": true
         },
@@ -272,7 +369,7 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayLiturgyLiturgyGospel",
+            "Path": "PaschaThursdayThursdayDayLaqanGospel",
             "Rule": 0,
             "Visible": true
         },
@@ -294,25 +391,63 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordLiturgyGospelResponsesCovenantThursdayGospelResponse",
+            "Path": "PaschaThursdayThursdayDayLaqanEfnotiNaiNan",
             "Rule": 0,
             "Visible": true
         },
         {
-            "Type": "Button",
-            "Arabic": "قداس القديس باسيليوس",
-            "English": "Liturgy of St.Basil",
-            "Rule": "OpenNewPageButtonRule",
-            "Visible": true,
-            "Path": "liturgyofStBasilCovenantThursday"
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanGospelResponse",
+            "Rule": 0,
+            "Visible": true
         },
         {
-            "Type": "Button",
-            "Arabic": "قداس القديس غريغوريوس",
-            "English": "Liturgy of St.Gregory",
-            "Rule": "OpenNewPageButtonRule",
-            "Visible": true,
-            "Path": "liturgyofStGregoryCovenantThursday"
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanySick",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyTravelers",
+            "Rule": 0,
+            "Visible": "showLitanyOfTravelers"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyAir",
+            "Rule": 0,
+            "Visible": "getPlantsSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfLeaders",
+            "Rule": 0,
+            "Visible": "getPlantsSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyDeparted",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyOblations",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanLitanyCatechumens",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanLitanies",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -333,20 +468,28 @@
             "Visible": true
         },
         {
-            "Type": "Button",
-            "Arabic": "قداس القديس باسيليوس",
-            "English": "Liturgy of St.Basil",
-            "Rule": "OpenNewPageButtonRule",
-            "Visible": true,
-            "Path": "liturgyofStBasil"
+            "Type": "Main",
+            "Path": "PaschaPaschaShortBlessing",
+            "Rule": 0,
+            "Visible": true
         },
         {
-            "Type": "Button",
-            "Arabic": "قداس القديس غريغوريوس",
-            "English": "Liturgy of St.Gregory",
-            "Rule": "OpenNewPageButtonRule",
-            "Visible": true,
-            "Path": "liturgyofStGregory"
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing2",
+            "Rule": 0,
+            "Visible": true
         }
     ]
 }

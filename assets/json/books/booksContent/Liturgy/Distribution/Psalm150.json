@@ -16,6 +16,12 @@
             "Englishcoptic": "Alleluia, Alleluia, Alleluia. "
         },
         {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm150Responses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Base",
             "Rule": 0,
             "Visible": true,

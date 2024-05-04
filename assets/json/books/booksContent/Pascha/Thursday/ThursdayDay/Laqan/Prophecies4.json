@@ -1,0 +1,15 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يشوع وكافة الشعب عبروا الاردن ووطئت أرجلهم الحجارة التي في المياه فتوثقت أمامهم وأهلكوا أعدائهم.",
+      "English": "Joshua and all the people went over Jordan, they treaded on stones that were immersed in the water. Their feet strengthened and they defeated their enemies."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وقبل عيد الفصح إذ علم يسوع أن ساعته قد جاءت، لكي ينتقل من هذا العالم ذاهباً الى الآب، وقد أحب خاصته الذين في العالم وأحبهم الى النهاية،",
+      "English": "Now before the Feast of the Passover, when Jesus knew that His hour had come that He should depart from this world to the Father, having loved His own who were in the world, He loved them to the end."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبعد العشاء إذ بأبليس كان قد فرغ مما ألقى في قلب الذي يسلمه الذي هو يهوذا سمعان الأسخريوطى.فلما رأى يسوع أن الآب قد دفع كل شيء الى يديه وأنه من عند الله خرج والى الله يمضى، قام عن العشاء وخلع ثيابه وأخذ منديلاً وإتزر به ثم صب ماء في مغسل وإبتدأ يغسل أرجل تلاميذه ويمسحهما بالمنشفة التي كان مؤتزراً بها.فلما جاء الى سمعان بطرس ليغسل رجليه، قال له بطرس: يا سيدى أنت تغسل رجلىّ ؟!. أجاب يسوع وقال له : إن الذي أصنعه أنا لا تعرفه أنت الآن، ولكنك ستعرفه بعد ذلك. قال له بطرس : لن تغسل رجلى أبداً. فأجابه يسوع وقال له : الحق الحق أقول لك لم أغسل قدميك فليس لك معي نصيب. قال له سمعان بطرس: يا سيد ليس رجلي فقط بل يدي ورأسي أيضاً. قال له يسوع : الذي قد إغتسل ليس له حاجة إلا الى غسل رجليه بل هو طاهر كله وانتم طاهرون ولكن ليس كلكم. لأنه عرف مسلمه لذلك قال : لستم كلكم طاهرين.",
+      "English": "† 2And supper being ended,a the devil having already put it into the heart of Judas Iscariot, Simon's son, to betray Him,† 3Jesus, knowing that the Father had given all things into His hands, and that He had come from God and was going to God,ω 4rose from supper and laid aside His garments, took a towel and girded Himself. 5After that, He poured water into a basin and began to wash the disciples’ feet, and to wipe them with the towel with which He was girded.† 6Then He came to Simon Peter. And Peter said to Him, “Lord, are You washing my feet?”† 7Jesus answered and said to him, “What I am doing you do not understand now, but you will know after this.” 8Peter said to Him, “You shall never wash my feet!” Jesus answered him, “If I do not wash you, you have no part with Me.” 9Simon Peter said to Him, “Lord, not my feet only, but also my hands and my head!” 10Jesus said to him, “He who is bathed needs only to wash his feet, but is completely clean; and you are clean, but not all of you.” 11For He knew who would betray Him; therefore He said, “You are not all clean.” "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلما غسل أرجله وأخذ ثيابه واتكأ أيضا قال لهم اتفهمون ما قد صنعته بكم؟",
+      "English": "12So when He had washed their feet, taken His garments, and sat down again, He said to them, “Do you know what I have done to you?"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنتم تدعونني المعلم والرب وحسنا تقولون لأني أنا هو فإن كنت وأنا ربكم ومعلمكم قد غسلت أرجلكم فأنتم يجب أن يغسل بعضكم أرجل بعض لأني الآن أعطيتكم مثالا حتى كما صنعت أنا بكم تصنعون أنتم أيضا بعضكم ببعض الحق أقول لكم أنه ليس عبد أعظم من سيده ولا رسولا أعظم من مرسله أن علمتم هذا فطوباكم أن عملتموه.",
+      "English": "† 13You call Me Teacher and Lord, and you say well, for so I am. 14If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another's feet. 15For I have given you an example, that you should do as I have done to you. 16Most assuredly, I say to you, a servant is not greater than his master; nor is he who is sent greater than he who sent him. 17If you know these things, blessed are you if you do them."
+    }
+  ]
+}

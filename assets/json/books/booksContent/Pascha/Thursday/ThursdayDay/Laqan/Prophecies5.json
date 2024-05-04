@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "في ذلك اليوم ينير الله بالمشورة والمجد على الأرض ليرتفع ويتمجد كل من يبقى من إسرائيل، ",
+      "English": "In that day the Branch of the Lord shall be beautiful and glorious; And the fruit of the earth shall be excellent and appealing For those of Israel who have escaped."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ويكون كل من يبقى في صهيون، وبقية أورشليم يدعون أطهارًا. يكتب للحياة كل من في أورشليم لأن الرب يغسل أعمال بني البشر وأولاد صهيون.",
+      "English": "3 And it shall come to pass that he who is left in Zion and remains in Jerusalem will be called holy—everyone who is recorded among the living in Jerusalem. 4 When the Lord has washed away the filth of the daughters of Zion, and purged the [a]blood of Jerusalem from her midst, by the spirit of judgment and by the spirit of burning,"
+    }
+  ]
+}

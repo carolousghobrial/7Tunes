@@ -1,0 +1,39 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنستح الآن يا إخوتي من الذي تألم عنا، ولنخف من الذي إشتد بمنديل وصب الماء في المغسل وغسل أرجل تلاميذه بيديه الطاهرتين،",
+      "English": "Brethren, we ought to be humbled in front of Him who suffered on our behalf. We ought to fear Him who poured the water in a bowl and washed the feet of His disciples with His impeccable hands. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ولنصنع ثمارًا تستحق هذا الإتضاع العظيم الذي صار فيه من أجلنا. لكي نتوب سريعًا من خطايانا التي إرتكبناها. لأننا أن لم نتب فسيقال عنا في السموات إننا محبون للخطايا، فماذا يكون رجاؤنا بعد إذا طردنا من السماء وطرحنا إلى الحكم ورفضنا لأجل خطايانا ",
+      "English": "Let us present Him with good deeds that deserve this great modesty which He carried out for our sake. Let us repent for our sins that we committed. Because, if we do not repent, we will be called in heaven as lovers of sins. What will be our hope if we are cast out of heaven, forced to face the judgment and are rejected for our sins? "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وندان دينونة مضاعفة، لا لأننا أخطأنا بغير معرفة فقط، بل لأن ما عملناه بمعرفة كان أردأ مما عملناه بغير معرفة، ولا لكوننا أخطأنا فقط بل لكوننا لم نتب.",
+      "English": "We will be judged twice; not because we have sinned without knowledge but because of what we did with knowledge was worse than what we did without knowledge and not because we have sinned, but because we did not repent. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لماذا لم تعرف الخراف صوت الراعي الحقيقي المحيي وتلتجئ اليه؟ ذلك الذي إشتراها بدمه وأعالها وأسلم ذاته فداءّ عنا، الذي أعطانا جسده لنأكله ودمه لنشربه، يسوع المسيح ربنا ومخلصنا يسوع الإله العلي الكائن في الأعالي إلى الأبد.",
+      "English": "Why can't the sheep know the voice of the real shepherd, the life giver, and take refuge in Him? He who purchased it with His blood, took care of it, and gave Himself up for it. He who gave us His Body to eat and His Blood to drink; Jesus Christ our Lord and Savior, the Son of God, who dwells in the highest forever."
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(P)",
+      "English": "(P) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدوس قدوس أيها الرب وقدوس أنت في كل شيء، لأنك أنت الإله القدوس الحقيقي يسوع المسيح الإبن بكر كل الخليقة، الكائن في مجد عظمته الذي ليس أحد يعرف كمال لاهوته الحال فيه جسدياّ. ليس هو إخطافاّ ما نويت لتصير مساوياّ لله أبيك، لكن بإرادتك وحدك أخذت شكل العبد وصرت أنساناّ بالحق. تجسدت في بطن الغير الدنسه والدة الإله القديسة مريم، أنت االذى لبس الطهارة ولم تخطئ ابدًا، ودفعت ذاتك إلى الصليب المقدس من أجل خلاصنا.",
+      "English": "Holy, Holy, Holy, You are O Lord and Holy in all things. For You are the True Holy God, Jesus Christ, the Prototokos of all creation; who dwells in the glory of His majesty, whom no body can apprehend the fullness of the Divinity that dwells in Him bodily. You did not consider it robbery to be equal to God, Your Father, but with Your good will You came to earth taking the form of a servant and becoming man in truth. You were incarnate in the undefiled womb of the Holy Theotokos, St. Mary. You who were clothed in purity and never sinned; gave Yourself up to the holy cross for our salvation. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وضعت لنا هذا المثال، إذ قمت من العشاء وأخذت منديلًا إشتديت به، وصببت ماء في مغسل وابتدأت تغسل أرجل تلاميذك وتمسحها بالمنديل الذي كنت متزرًا به وأعطيتهم رسم المحبة وترتيب التواضع وتذكار محبتك للبشر إذا قلت لهم: أنا غسلت اقدامكم معلمًا وربًا، فيجب عليكم أن يغسل بعضكم اقدام بعض، مثل ما صنعت بكم وكما صنعت بكم إصنعوا انتم ايضًا ببعضكم بعضًا.",
+      "English": "You gave us this example, for after supper You arose, took a towel and girded Yourself and poured water into a basin, and began to wash your disciples' feet; and wiped them with the towel with which You were girded. You had given them the ordinance of love and humility, and the remembrance of Your love for mankind. For You said to them, \"If I, Your Lord and Master have washed your feet, then you also ought to wash one another's feet. As much as I have done it unto you so you ought to do to one another.\" "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأمرتهم بوصاياك واوامرك إذا قلت احبوا بعضكم بعضًا، وبهذا يعلمكم كل واحد انكم تلاميذى اذا احببتم بعضكم بعضًا، وعلمتنا نحن ايضا المحبة والوحدانية، واصلحتنا مع ابيك من جهة غسل ارجل تلاميذك، ونقاوة هذا المثال الحقيقي ومن قبل تعاطفك ومحبتك للبشر صنعت كمال حريتنا عندما استعظم بطرس لاهوتك وامتنع قائلًا: لا تغسل رجلى إلى الأبد فسمع القضية الحقيقة، إذا لم أغسل قدميك فليس لك معي نصيب، أما هو بامانته صرخ قائلًا: يا سيدي ليس رجلى فقط بل ويدي ايضا ورأسي، قدسنى بالكلية، فسمع ايضا صوتك الألهى الغير كاذب: إن الذي استحم لايحتاج إلا إلى غسل قدميه لكنه كله نقي.",
+      "English": "You have ordered them to follow Your commandments and Your statutes, for You have said: \"love one another, by this shall all men know you are my disciples because you love one another.\" You also have taught us the love and unity; and You have reconciled us with Your Father. Through washing the disciples' feet and the purity of this example, and through Your love and compassion for mankind, You have crowned our freedom. When Peter exalted Your Divinity and refused saying, \"You shall never wash my feet\", he heard the true case: \"If I do not wash you, you have no part with me.\" Therefore, he cried sincerely saying: \"Lord, not my feet only, but also my hands and my head!\" and he also heard Your Divine Voice which is full of truth saying, \"He who is bathed needs only to wash his feet, but is completely clean.\" "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من أجل هذا نسأل ونطلب منك يا ربنا يسوع المسيح إجعلنا مستحقين وحل في وسطنا الأن كما كنت مع تلاميذك الرسل القديسين.",
+      "English": "Therefore, we ask and entreat You our Lord Jesus Christ to make us worthy, and dwell in our midst as You were with Your disciples, the holy apostles. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكما باركت في ذلك الزمان بارك الأن (أمين)",
+      "English": "O You who has blessed at that time, now also bless. Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": " Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طهر هذا ليكن ماء شفاء (اّمين) ",
+      "English": " Bless this water unto healing, Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": " Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ماء مقدساً. آمين.",
+      "English": " A holy water, Amen. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(C)",
+      "English": "(C) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": "Amen. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(P)",
+      "English": "(P) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ماء غفران الخطايا (اّمين)",
+      "English": "A water for the remission of sins, Amen. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(C)",
+      "English": "(C) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": "Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ماء الطهارة (اّمين)",
+      "English": " A water of purification, Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": "Amen. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(P)",
+      "English": "(P) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خلاصاّ وصحه لأنفسنا وأجسدنا وأرواحنا (اّمين) ",
+      "English": "A water for salvation and health of our spirits, bodies and souls, Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": " Amen. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(P)",
+      "English": "(P) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "موهبه طاهرة (اّمين)",
+      "English": "A gift of purity, Amen. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(C)",
+      "English": "(C) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": "Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ومحبة لبعضنا بعضاّ وحواس نقية (اّمين)",
+      "English": " Love for each other and purity of the senses, Amen. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(C)",
+      "English": "(C) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": "Amen. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(P)",
+      "English": "(P) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لكي نستحق أن نكون في ميراث تلاميذك الأطهار (اّمين)",
+      "English": "That we may be worthy of Your Holy Virtue, which You have taught us through Your love of man, Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عندما نغسل أرجل بعضنا لنستحق أن نكون في ميراث تلميذك الأطهار. آمين.",
+      "English": " Amen.  "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": "When we wash one another's feet, make us worthy of the inheritance of Your holy disciples, "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(P)",
+      "English": "(C) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " طهر إنساننا الداخلي بثمرة هذا السر (اّمين)",
+      "English": "Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": " Purify our inner man with the fruits of this Mystery, Amen. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(P)",
+      "English": "(C) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وأنعم لنا بغفران خطايانا بحلول روحك القدوس علينا ليطهر نفوسنا وأجسادنا وأرواحنا من كل دنس الجسد وكل نجاسة وكل خاطية (اّمين)",
+      "English": "Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": " Grant us the forgiveness of our sins through the indwelling of Your Holy Spirit to purify our spirits, bodies and souls from all defilement, unrighteousness and sin, Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " إمنحنا السلطان أن ندوس الحيات والعقارب وكل قوة العدو، ولا تدع شيئاّ من الآثام يتسلط علينا، بل أنعم علينا بحواس حكيمة وسلوك ذات وقار وأمان لكي نأتي لنجد رحمة أمامك ورأفة (اّمين).",
+      "English": " Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": " Grant us the authority to trample on serpents and scorpions and every power of the enemy, and do not permit any evil to overpower us, but grant us wise senses and righteousness; so that we may come before You to receive compassion and mercy, Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نطلب إليك يا الله الحقيقي لكي ترسل علينا وعلى هذه المياه روحك القدوس الباراقليط جابل المياة، خالق الكل يسوع المسيح ربنا الذي صلب عنا في عهد بيلاطس البنطي. وإعتراف قائلاّ: إني أنا هو إبن الله. نؤمن أنك هو إبن الله بالحقيقة، طهر هذا الماء بقوة روح قدسك لكي يبطل قوات المضاد المقاتل لنا، وينتهر كل الأرواح النجسة، وكل سحر وكل رقية وكل عبادة الأوثان.",
+      "English": " Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أظهره ماء الشفاء (اّمين)",
+      "English": "We ask You O True God, to send Your Holy Spirit the Paraclete upon us and this water, O You who fashioned the waters, O Jesus Christ our Lord, creator of all; who was crucified for us under Pontius Pilate confessing and saying: \"I am the Son of God.\" We believe that You are the Son of God in truth. Purify this water by the power of Your Holy Spirit to annul the deadly powers of the adversary against us. Rebuke all evil spirits, all sorcery, and all idol worshipping. O our God Jesus Christ, may the power of the adversary flee from this water by the sign of Your Holy cross, Here the priest blesses the water with the sign of the cross, and says: Bring it forth water unto healing, Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": " Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ملء الطهارة (اّمين)",
+      "English": " Water unto purification, Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": " Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ماء لمغفرة الخطايا (اّمين) ",
+      "English": " Water unto remission of sins, Amen. "
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": " Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(P)",
+      "English": " (P)"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ماء الخلاص (اّمين)",
+      "English": " Water unto salvation, Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(C)",
+      "English": " (C) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمين",
+      "English": "Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(P)",
+      "English": " (P) "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وإجعلنا مستحقين البنوة لكي نصرخ نحو أبيك الصالح والروح القدس قائلين:- يا أبانا الذي",
+      "English": "Make us worthy of sonship, that we may cry out towards Your good Father and the Holy Spirit saying:"
+    }
+  ]
+}

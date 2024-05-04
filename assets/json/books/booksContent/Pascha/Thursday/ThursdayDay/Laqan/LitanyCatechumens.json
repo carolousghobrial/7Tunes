@@ -1,0 +1,87 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أوشية الموضع",
+  "EnglishTitle": "The Litany of the Catechumens ",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اذكر يا رب موعوظي شعبك، إرحمهم.",
+      "English": "Remember, O Lord, the catechumens of Your people; have mercy upon them."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "English": "Deacon:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اطلبوا عن موعوظي شعبنا، لكي يباركهم ويثبتهم في الإيمان المستقيم إلي النفس الآخير، ويغفر لنا خطايانا.",
+      "English": "Pray for the catechumens of our people, that Christ our Lord may bless them and confirm them in the Orthodox faith to the last breath and forgive us our sins."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم.",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ثبتهم فى الايمان المستقيم بك  . كل بقية عبادة الأوثان إنزعها من قلوبهم  .  ناموسك ، خوفك ،وصاياك ، حقوقك ، أوامرك المقدسة : ثبتها فى قلوبهم  .  أعطهم أن يعرفوا ثبات الكلام الذى وعظوا به وفى الزمن المحدود فليستحقوا حميم الميلاد الجديد لغفران خطاياهم  .  إذ تعدهم هيكلا لروحك القدوس",
+      "English": "Confirm their faith in You; uproot all traces of idolatry from their hearts. Your Law, Your fear, Your commandments, Your truths and Your holy precepts, establish in their hearts. Grant that they may know the steadfastness of the preaching they have received. And in the set time, may they be worthy of the washing of the new birth for the remission of their sins; as You prepare them to be a temple of Your Holy Spirit."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم.",
+      "English": "Lord have mercy."
+    }
+  ]
+}
