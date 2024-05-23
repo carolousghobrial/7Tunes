@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مز 117 : 1 , 2",
+  "EnglishTitle": "Psalms 118:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إعترفوا للرب فإنه صالح , وأن إلى الأبد رحمته . ",
+      "English": "118:1 Oh, give thanks to the Lord, for He is good! For His mercy endures forever. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فليقل بيت إسرائيل : أنه صالح وأن إلى الأبد رحمته . الليلويا",
+      "English": "2 Let Israel now say, His mercy endures forever.     Alleluia\r"
+    }
+  ]
+}

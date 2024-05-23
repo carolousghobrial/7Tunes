@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مز 117 : 14 - 16",
+  "EnglishTitle": "Psalms 118:14-16",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قوتى وتسبحتى هو الرب , وصار لى خلاصا .",
+      "English": "14 The Lord is my strength and song, And He has become my salvation. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " صوت التهليل والخلاص فى مساكن الأبرار .",
+      "English": "15 The voice of rejoicing and salvation Is in the tents of the righteous; The right hand of the Lord does valiantly. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يمين الرب صنعت قوة . يمين الرب رفعتنى , يمين الرب صنعت قوة .   الليلويا",
+      "English": "16 The right hand of the Lord is exalted; The right hand of the Lord does valiantly.     Alleluia\r"
+    }
+  ]
+}

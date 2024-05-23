@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مز 114 :  3 , 4 ",
+  "EnglishTitle": "Psalms 116:4-6",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بإسم الرب دعوت , يارب نج نفسى .",
+      "English": "4 Then I called upon the name of the Lord: O Lord, I implore You, deliver my soul! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرب هو رحوم وصديق , وإلهنا يرحم , ",
+      "English": "5 Gracious is the Lord, and righteous; Yes, our God is merciful. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذى يحفظ الأطفال هو الرب , إتضعت فخلصنى  الليلويا",
+      "English": "6 The Lord preserves the simple; I was brought low, and He saved me.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مز 114 : 1",
+  "EnglishTitle": "Psalms 116:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أحببت أن يسمع الرب صوت تضرعى ,",
+      "English": "116:1 I love the Lord, because He has heard My voice and my supplications. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأنه أمال بسمعه إلى , فدعوته فى أيامى . الليلويا",
+      "English": "2 Because He has inclined His ear to me, Therefore I will call upon Him as long as I live.     Alleluia\r"
+    }
+  ]
+}

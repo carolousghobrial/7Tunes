@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مز 110 : 1",
+  "EnglishTitle": "Psalms 111:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعترف لك يارب من كل قلبى , فى مشورة المستقيمين ومجمعهم ,",
+      "English": "111:1 I will praise the Lord with my whole heart, In the assembly of the upright and in the congregation \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " عظيمة هى أعمال الرب , ومشيئاته كلها محفوظة . الليلويا",
+      "English": "2 The works of the Lord are great, Studied by all who have pleasure in them.     Alleluia\r"
+    }
+  ]
+}

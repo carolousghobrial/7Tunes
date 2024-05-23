@@ -505,6 +505,7 @@ export function GetTodaysReadingPath(path) {
   const isPalmSunday = currentSeason.key === "PALM_SUNDAY";
   const isLazarusSaturday = currentSeason.key === "LAZARUS_SATURDAY";
   const isResurrection = currentSeason.key === "RESURRECTION";
+  const isFifties = currentSeason.key === "HOLY_50";
   if (isResurrection) {
     filePath = updateFilePath(`FiftiesResurrection`);
   } else if (isPalmSunday) {
@@ -554,6 +555,11 @@ export function GetTodaysReadingPath(path) {
         `Days${currentSeason.copticMonth}${currentSeason.copticDay}`
       );
     }
+  } else if (isFifties) {
+    //KatamarosFiftiesWeek3SundayLiturgyActs
+    filePath = updateFilePath(
+      `FiftiesWeek${currentSeason.week}${daysOfWeek[currentSeason.dayOfWeek]}`
+    );
   } else if (isLenten) {
     filePath = updateFilePath(
       `GreatFastWeek${currentSeason.week}${daysOfWeek[currentSeason.dayOfWeek]}`

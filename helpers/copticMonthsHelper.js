@@ -686,7 +686,11 @@ export function setCurrentSeasonByKey(timeTransition, key) {
     week:
       mySeason.start === null
         ? 0
-        : getWeeksSinceStartDate(currentDate, new Date(mySeason.start)),
+        : getWeeksSinceStartDate(
+            currentDate,
+            new Date(mySeason.start),
+            mySeason.key
+          ),
     dayOfWeek: currentDate.getDay(),
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
@@ -721,7 +725,11 @@ export function setCurrentSeasonLive(timeTransition) {
     week:
       mySeason.start === null
         ? 0
-        : getWeeksSinceStartDate(currentDate, new Date(mySeason.start)),
+        : getWeeksSinceStartDate(
+            currentDate,
+            new Date(mySeason.start),
+            mySeason.key
+          ),
     dayOfWeek: currentDate.getDay(),
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
@@ -739,10 +747,17 @@ export function setCurrentSeasonLive(timeTransition) {
   };
   return mycurrentSeason;
 }
-function getWeeksSinceStartDate(currentDate, startDate) {
-  const now = new moment(currentDate); // Get the current date
-  const diff = now.diff(startDate, "weeks") + 1;
-  return diff;
+function getWeeksSinceStartDate(currentDate, startDate, key) {
+  if (key === "HOLY_50") {
+    const now = new moment(currentDate); // Get the current date
+    const newMoment = new moment(startDate).add("1", "day");
+    const diff = now.diff(newMoment, "weeks") + 1;
+    return diff;
+  } else {
+    const now = new moment(currentDate); // Get the current date
+    const diff = now.diff(startDate, "weeks") + 1;
+    return diff;
+  }
 }
 function getSaintOfTheDay(copticDate) {
   return Object.keys(saintsFeastsCalendar).filter((saint) =>
@@ -818,7 +833,11 @@ export function getCurrentSeasonByDate(date, timeTransition) {
     week:
       mySeason.start === null
         ? 0
-        : getWeeksSinceStartDate(currentDate, new Date(mySeason.start)),
+        : getWeeksSinceStartDate(
+            currentDate,
+            new Date(mySeason.start),
+            mySeason.key
+          ),
     dayOfWeek: currentDate.getDay(),
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),

@@ -280,39 +280,39 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyDistributionMelodiesPentecost",
+            "Path": "LiturgyDistributionMelodiesPentecostalWeek7",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfPentecost"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesPentecostalWeek2",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfPentecost"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesPentecostalWeek3",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfPentecost"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesPentecostalWeek4",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfPentecost"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesPentecostalWeek5",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfPentecost"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesPentecostalWeek6",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfPentecost"
         },
         {
             "Type": "Main",
@@ -328,9 +328,9 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyDistributionMelodiesThomasSunday",
+            "Path": "LiturgyDistributionMelodiesPentecostalWeek1",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isWeekOfPentecost"
         },
         {
             "Type": "Main",

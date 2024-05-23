@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مز 110 :  2 , 3 ",
+  "EnglishTitle": "Psalms 111:3-4",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الشكر وعظم البهاء هو عمله , وعدله دائم إلى أبد الأبد , ",
+      "English": "3 His work is honorable and glorious, And His righteousness endures forever. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ذَكَر جميع عجائبه , رحيم هو الرب ورؤوف . الليلويا",
+      "English": "4 He has made His wonderful works to be remembered; The Lord is gracious and full of compassion.     Alleluia\r"
+    }
+  ]
+}

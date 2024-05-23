@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مز 110 : 8 , 9",
+  "EnglishTitle": "Psalms 111:9-10",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أرسل خلاصا لشعبه  , أمر بعهده إلى الأبد , ",
+      "English": "9 He has sent redemption to His people; He has commanded His covenant forever: Holy and awesome is His name. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إسمه قدوس ومرهوب , رأس الحكمة خوف الرب . الليلويا",
+      "English": "10 The fear of the Lord is the beginning of wisdom.     Alleluia\r"
+    }
+  ]
+}

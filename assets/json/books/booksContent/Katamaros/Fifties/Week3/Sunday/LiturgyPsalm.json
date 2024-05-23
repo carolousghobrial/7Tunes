@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مز 113 : 17 ",
+  "EnglishTitle": "Psalms 115:12-13",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرب ذكرنا وباركنا  , بارك بيت إسرائيل , بارك بيت هارون , ",
+      "English": "12 The Lord has been mindful of us; He will bless us; He will bless the house of Israel; He will bless the house of Aaron. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بارك الذين يخافون الرب , الصغار مع الكبار .   الليلويا",
+      "English": "13 He will bless those who fear the Lord, Both small and great.     Alleluia\r"
+    }
+  ]
+}

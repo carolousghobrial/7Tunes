@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مز 117 :  27 , 28 ",
+  "EnglishTitle": "Psalms 118:28, 21",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت هو إلهى فأشكرك ,  إلهى أنت فأرفعك , ",
+      "English": "28 You are my God, and I will praise You; You are my God, I will exalt You.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعترف لك يارب لأنك إستجبت لى , وصرت لى مخلصا  . الليلويا",
+      "English": "21 I will praise You, For You have answered me, And have become my salvation.     Alleluia\r"
+    }
+  ]
+}
