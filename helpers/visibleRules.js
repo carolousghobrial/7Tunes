@@ -835,7 +835,7 @@ export const isNOTLentWeekdayOrJonah = (motherSource, path) => {
   if (isBigFeast(motherSource, path)) {
     return true;
   }
-  if (!isLentWeekdayOrJonah(motherSource, path)) {
+  if (isLentWeekdayOrJonah(motherSource, path)) {
     return false;
   }
 

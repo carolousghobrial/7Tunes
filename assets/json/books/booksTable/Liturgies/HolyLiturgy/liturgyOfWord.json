@@ -10,6 +10,12 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordEmpeniotEtaiot",
+            "Rule": 0,
+            "Visible": "BishopIsPresent"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyOffertorySotees",
             "Rule": 0,
             "Visible": "ShowSotees"
@@ -262,12 +268,6 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionResurrectionEnactment",
-            "Rule": 0,
-            "Visible": "isResurrectionFeast"
-        },
-        {
-            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsAscensionAfrekEtve",
             "Rule": 0,
             "Visible": "isSeason"
@@ -277,6 +277,12 @@
             "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionAllYouHeavenlyOrders",
             "Rule": 0,
             "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionResurrectionEnactment",
+            "Rule": 0,
+            "Visible": "isResurrectionFeast"
         },
         {
             "Type": "Main",
