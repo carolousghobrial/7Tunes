@@ -6,7 +6,6 @@ import {
   SafeAreaView,
   useWindowDimensions,
 } from "react-native";
-import "expo-dev-client";
 import * as TaskManager from "expo-task-manager";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import * as SplashScreen from "expo-splash-screen";
