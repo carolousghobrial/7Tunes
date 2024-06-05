@@ -63,7 +63,7 @@
       "permissions": [
         "com.android.vending.BILLING"
       ],
-      "versionCode": 6222246,
+      "versionCode": 6222247,
       "adaptiveIcon": {
         "backgroundColor": "#F5F5DE",
         "foregroundImage": "./assets/images/logofinal.png"
