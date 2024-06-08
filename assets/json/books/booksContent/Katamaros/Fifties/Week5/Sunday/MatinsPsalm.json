@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مز 134 :  18 ",
+  "EnglishTitle": "Psalms 135:19-20",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا بيت إسرائيل باركوا الرب , يا بيت هارون",
+      "English": "19 Bless the Lord, O house of Israel! Bless the Lord, O house of Aaron! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " باركوا الرب , يا بيت لاوى باركوا الرب , يا خائفى الرب باركوا الرب .   الليلويا",
+      "English": "20 Bless the Lord, O house of Levi! You who fear the Lord, bless the Lord!.     Alleluia\r"
+    }
+  ]
+}

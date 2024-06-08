@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مز 32 : 3 , 4",
+  "EnglishTitle": "Psalms 135:6, 21",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكل ماشاء الرب صنع فى السماء وعلى الأرض, ",
+      "English": "6 Whatever the Lord pleases He does, In heaven and in earth.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مبارك الرب من صهيون ,  الساكن فى أورشليم . الليلويا",
+      "English": "21 Blessed be the Lord out of Zion, Who dwells in Jerusalem!.     Alleluia\r"
+    }
+  ]
+}
