@@ -391,10 +391,22 @@
             "Visible": true
         },
         {
-            "Type": "MainWithTitle",
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordCopticGospelIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordArabicGospelIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordPsalmAndGospel",
             "Rule": 0,
-            "Visible": "isNotPalmSunday"
+            "Visible": true
         },
         {
             "Type": "Main",

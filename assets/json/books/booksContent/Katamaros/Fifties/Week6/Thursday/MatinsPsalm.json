@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " (مز67: 18، 19) ",
+  "EnglishTitle": "Psalms 68:18, 19",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"  صعد إلى العلاء وسبى سبيًا. وأعطى كرامات للناس.",
+      "English": "18 You have ascended on high, You have led captivity captive; You have received gifts among men.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " مبارك الرب الإله. مبارك الرب يومًا فيومًا. هلليلويا \"",
+      "English": "19 Blessed be the Lord, Who daily loads us with benefits.     Alleluia\r"
+    }
+  ]
+}

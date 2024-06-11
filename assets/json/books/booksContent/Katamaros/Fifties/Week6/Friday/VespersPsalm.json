@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز98: 2،1) ",
+  "EnglishTitle": "Psalms 99:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"الجالس على الشاروبيم فلتتزلزل الأرض. ",
+      "English": "99:1 He dwells between the cherubim; Let the earth be moved \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عظيم هو الرب في صهيون. وهو متعال على كل الشعوب. هلليلويا  \"  ",
+      "English": "2 The Lord is great in Zion, And He is high above all the peoples.     Alleluia\r"
+    }
+  ]
+}

@@ -474,6 +474,15 @@ const isSeason = (motherSource, path) => {
       ) {
         return true;
       }
+      if (
+        path
+          .toLowerCase()
+          ?.includes(
+            "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionKhristosAnesty"
+          )
+      ) {
+        return true;
+      }
       if (path.toLowerCase()?.includes("ascensionfeast")) {
         return true;
       }
@@ -913,6 +922,7 @@ const isNotPalmSunday = (motherSource, path) => {
   if (currentSeason.key === "PALM_SUNDAY") {
     return false;
   }
+  console.log("HERE");
   return true;
 };
 const isCross = (motherSource, path) => {

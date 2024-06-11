@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز29: 17،12) ",
+  "EnglishTitle": "Psalms 40:13, 17",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" يارب أرض بخلاصي. يارب التفت إلى معونتي.",
+      "English": "13 Be pleased, O Lord, to deliver me; O Lord, make haste to help me!.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا إلهي فلا تبطئ. هلليلويا \"",
+      "English": "17 Do not delay, O my God.     Alleluia\r"
+    }
+  ]
+}

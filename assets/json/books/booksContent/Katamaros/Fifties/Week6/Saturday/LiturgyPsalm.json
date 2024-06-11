@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز135: 2،1) ",
+  "EnglishTitle": "Psalms 136:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" اعترفوا للرب فإنه صالح. وأن إلى الأبد رحمته. ",
+      "English": "136:1 Oh, give thanks to the Lord, for He is good! For His mercy endures forever. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اعترفوا لإله الآلهة. فإن رحمته ثابتة إلى الأبد. هلليلويا  \"",
+      "English": "2 Oh, give thanks to the God of gods! For His mercy endures forever.     Alleluia\r"
+    }
+  ]
+}

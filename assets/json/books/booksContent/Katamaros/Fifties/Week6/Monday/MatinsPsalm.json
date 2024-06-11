@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مز 134 :  18 ",
+  "EnglishTitle": "Psalms 47:6-7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" رتلوا لإلهنا رتلوا، رتلوا لملكنا رتلوا، ",
+      "English": "6 Sing praises to God, sing praises! Sing praises to our King, sing praises! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن الرب هو ملك الأرض كلها، رتلوا بفهم. هلليلويا  \" ",
+      "English": "7 For God is the King of all the earth; Sing praises with understanding.     Alleluia\r"
+    }
+  ]
+}

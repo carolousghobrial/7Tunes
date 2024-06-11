@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مز 146 :  1 ",
+  "EnglishTitle": "Psalms 147:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سبحوا الرب فإن المزمور جيد , ولإلهنا يرضى التسبيح . ",
+      "English": "147:1 Praise the Lord! For it is good to sing praises to our God; For it is pleasant, and praise is beautiful. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرب يبنى أورشليم , متفرقى إسرائيل الرب يجمعهم .   الليلويا",
+      "English": "2 The Lord builds up Jerusalem; He gathers together the outcasts of Israel.     Alleluia\r"
+    }
+  ]
+}

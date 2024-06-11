@@ -42,7 +42,7 @@ export function getFullViewModel(motherSource, mother) {
   const visibleHymns = homescreenPaths[motherSource].Main.filter((hymn) => {
     const temppath = hymn.SAINT || hymn.Path;
     const tempMother = mother || motherSource;
-
+    console.log(tempMother);
     return (
       hymn.Visible === true ||
       mother === "index" ||
@@ -406,6 +406,7 @@ export function getMainWithTitle(Path, motherSource, rule, key) {
 
 function addItemsToArray(part, thisRule) {
   const foundKeyword = findMatchingSubstring(part.English, keywords);
+  console.log(foundKeyword);
   const myrule =
     foundKeyword === "EMPTY"
       ? null
@@ -506,10 +507,13 @@ export function GetTodaysReadingPath(path) {
   const isLazarusSaturday = currentSeason.key === "LAZARUS_SATURDAY";
   const isResurrection = currentSeason.key === "RESURRECTION";
   const isFifties = currentSeason.key === "HOLY_50";
+  const isAscension = currentSeason.key === "ASCENSION";
   if (isResurrection) {
     filePath = updateFilePath(`FiftiesResurrection`);
   } else if (isPalmSunday) {
     filePath = updateFilePath(`GreatFastWeek7Sunday`);
+  } else if (isAscension) {
+    filePath = updateFilePath(`FiftiesWeek6Thursday`);
   } else if (isLazarusSaturday) {
     filePath = updateFilePath(`GreatFastWeek7Saturday`);
   } else if (isStandardSeasonSunday) {
@@ -605,9 +609,12 @@ export function GetTodaysReadingPath(path) {
 }
 
 function findMatchingSubstring(str, substringsArray) {
+  console.log(substringsArray);
+  console.log(str);
   const foundSubstring = substringsArray.find((substring) =>
     str?.includes(substring)
   );
+  console.log(foundSubstring);
   return foundSubstring ? foundSubstring : "EMPTY";
 }
 

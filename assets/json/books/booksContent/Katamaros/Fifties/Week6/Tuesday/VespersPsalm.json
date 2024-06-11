@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " (مز46: 5،4) ",
+  "EnglishTitle": "Psalms 47:4, 5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" اختارنا ميراثًا له. جمال يعقوب الذي أحبه. ",
+      "English": "4 He will choose our inheritance for us, The excellence of Jacob whom He loves.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صعد الله بتهليل. والرب بصوت البوق. هلليلويا  \"",
+      "English": "5 God has gone up with a shout, The Lord with the sound of a trumpet.     Alleluia\r"
+    }
+  ]
+}

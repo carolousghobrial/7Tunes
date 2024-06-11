@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مز 147 : 1 , 5",
+  "EnglishTitle": "Psalms 147:12, 18",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سبحى يا أورشليم الرب , سبحى إلهك يا صهيون .",
+      "English": "12 Praise the Lord, O Jerusalem! Praise your God, O Zion!.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " تهب ريحه فتسيل المياة .   الليلويا",
+      "English": "18 He causes His wind to blow, and the waters flow.     Alleluia\r"
+    }
+  ]
+}

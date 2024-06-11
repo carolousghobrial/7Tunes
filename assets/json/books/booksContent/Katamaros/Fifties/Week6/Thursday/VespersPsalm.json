@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " (مز67: 30-32)",
+  "EnglishTitle": "Psalms 68:32, 33, 34",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" ممالك الأرض سبحي الله. ورتلي للرب. ",
+      "English": "32 Sing to God, you kingdoms of the earth; Oh, sing praises to the Lord.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رتلوا لله الذي صعد إلى السماء نحو المشرق أعطوا مجدًا لله. لأن عظم بهائه على إسرائيل وقوته في السحاب. هلليلويا  \"",
+      "English": "33 To Him who rides on the heaven of heavens, which were of old!.\r"
+    }
+  ]
+}

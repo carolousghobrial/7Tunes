@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " (مز46: 4،3) ",
+  "EnglishTitle": "Psalms 47:3-4",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أخضع الشعوب لنا والأمم تحت أقدامنا. ",
+      "English": "3 He will subdue the peoples under us, And the nations under our feet. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اختارنا ميراثًا له. جمال يعقوب الذي أحبه. هلليلويا  \"",
+      "English": "4 He will choose our inheritance for us, The excellence of Jacob whom He loves.     Alleluia\r"
+    }
+  ]
+}

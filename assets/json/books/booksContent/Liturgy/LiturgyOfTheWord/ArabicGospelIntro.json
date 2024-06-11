@@ -1,0 +1,22 @@
+{
+  "RefrainAfter": 0,
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "mother": "LiturgyGospel",
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قفوا بخوف الله لسماع الإنجيل المقدس، فصل من الإنجيل لمعلمنا مار [*STANDARD_GOSPEL_AUTHOR*] البشير، بركته على جميعنا.",
+      "English": "Stand up in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to Saint [*STANDARD_GOSPEL_AUTHOR*], may his blessings, be with us all. (Amen.)"
+    }
+  ]
+}

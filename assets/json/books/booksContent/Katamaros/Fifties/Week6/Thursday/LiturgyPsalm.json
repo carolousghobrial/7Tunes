@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز24: 10،9) ",
+  "EnglishTitle": "Psalms 24:9-10",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" ارفعوا أيها الرؤساء أبوابكم. وارتفعي أيتها الأبواب الدهرية. ويدخل ملك المجد. ",
+      "English": "9 Lift up your heads, O you gates! Lift up, you everlasting doors! And the King of glory shall come in. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من هو هذا ملك المجد. رب القوات هذا هو ملك المجد. هلليلويا \"",
+      "English": "10 Who is this King of glory? The Lord of hosts, He is the King of glory.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مز 145 : 1 , 9",
+  "EnglishTitle": "Psalms 146:1-2, 10",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سبحى يانفسى الرب ,",
+      "English": "146:1 Praise the Lord! Praise the Lord, O my soul! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أسبح الرب فى حياتى , وأرتل لإلهى مادمت موجودا . ",
+      "English": "2 While I live I will praise the Lord; I will sing praises to my God while I have my being.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يملك الرب إلى الدهر , وإلهك يا صهيون منذ جيل إلى جيل . الليلويا",
+      "English": "10 The Lord shall reign forever--Your God, O Zion, to all generations.     Alleluia\r"
+    }
+  ]
+}

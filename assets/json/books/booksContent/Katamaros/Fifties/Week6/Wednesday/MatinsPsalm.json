@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز22: 2،1)",
+  "EnglishTitle": "Psalms 23:1-2, 3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" الرب يرعاني. فلا يعوزني شيء. ",
+      "English": "23:1 The Lord is my shepherd; I shall not want. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "في مكان خضرة أسكنني.",
+      "English": "2 He makes me to lie down in green pastures.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " رد نفسي. هلليلويا  \"",
+      "English": "3 He restores my soul.     Alleluia\r"
+    }
+  ]
+}
