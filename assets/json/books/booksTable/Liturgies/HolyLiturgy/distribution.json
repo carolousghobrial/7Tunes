@@ -282,7 +282,19 @@
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesPentecostalWeek7",
             "Rule": 0,
-            "Visible": "isWeekOfPentecost"
+            "Visible": "isPentecostFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionApostlesFastAsomen",
+            "Rule": 0,
+            "Visible": "isPentecostFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionMelodiesApostlesFast",
+            "Rule": 0,
+            "Visible": "isPentecostFeast"
         },
         {
             "Type": "Main",
