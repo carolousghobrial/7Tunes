@@ -49,6 +49,12 @@
             "Rule": 0,
             "Visible": "isSeason",
             "Path": "LiturgyLiturgyOfTheWordAgiosAscension"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "isPentecostFeast",
+            "Path": "LiturgyLiturgyOfTheWordAgiosAscension"
         }
     ]
 }
