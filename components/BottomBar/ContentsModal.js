@@ -95,11 +95,9 @@ function ContentsModal({
   );
   const handleBottomSheetShow = () => {
     // Do something when the bottom sheet is shown
-    console.log("Bottom sheet is shown");
   };
   const handlePresent = () => {
     // Your code to execute when the bottom sheet is presented
-    console.log("Bottom sheet is presented");
   };
   return (
     <BottomSheetModal

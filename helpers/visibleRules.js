@@ -756,7 +756,6 @@ const isLentWeekdayOrJonah = (motherSource, path) => {
   return false;
 };
 const isLentWeekdayOrJonahAndLastFirstLent = (motherSource, path) => {
-  console.log(path);
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (currentSeason.key === "JONAH_FAST") {
     return true;
@@ -922,7 +921,6 @@ const isNotPalmSunday = (motherSource, path) => {
   if (currentSeason.key === "PALM_SUNDAY") {
     return false;
   }
-  console.log("HERE");
   return true;
 };
 const isCross = (motherSource, path) => {
@@ -976,6 +974,13 @@ const notPalmSunday = (motherSource, path) => {
 const isResurrectionFeast = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (currentSeason.key === "RESURRECTION") {
+    return true;
+  }
+  return false;
+};
+const isPentecostFeast = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.key === "PENTECOST") {
     return true;
   }
   return false;
@@ -2003,7 +2008,6 @@ const ROICONCLUSION = (motherSource, rule) => {
 
 const REPLACEGOSPELAUTHOR = (author, part) => {
   myauthor = getGospelAuthor(part);
-  console.log(author);
   switch (myauthor) {
     case 1:
       return {
@@ -3344,6 +3348,7 @@ const VisibleRules = {
   REPLACEMATINSPROPHECIES: REPLACEMATINSPROPHECIES,
   inRaisingOfIncense: inRaisingOfIncense,
   isResurrectionFeast: isResurrectionFeast,
+  isPentecostFeast: isPentecostFeast,
   ISDioceseMetropolitain: ISDioceseMetropolitain,
   ISDioceseBishop: ISDioceseBishop,
   ISOneMetropolitain: ISOneMetropolitain,

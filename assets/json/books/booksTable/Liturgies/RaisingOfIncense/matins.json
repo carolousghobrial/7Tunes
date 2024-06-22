@@ -183,6 +183,30 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionAllYouHeavenlyOrders",
+            "Rule": 0,
+            "Visible": "isPentecostFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionKhristosAnesty",
+            "Rule": 0,
+            "Visible": "isPentecostFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsAscensionKhristosAnalepsis",
+            "Rule": 0,
+            "Visible": "isPentecostFeast"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsPentecostPikhristosAftonf",
+            "Rule": 0,
+            "Visible": "isPentecostFeast"
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseLitanyOfGospel",
             "Rule": 0,
             "Visible": true

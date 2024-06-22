@@ -42,7 +42,6 @@ export function getFullViewModel(motherSource, mother) {
   const visibleHymns = homescreenPaths[motherSource].Main.filter((hymn) => {
     const temppath = hymn.SAINT || hymn.Path;
     const tempMother = mother || motherSource;
-    console.log(tempMother);
     return (
       hymn.Visible === true ||
       mother === "index" ||
@@ -398,7 +397,6 @@ export function getMainWithTitle(Path, motherSource, rule, key) {
     });
   } catch (err) {
     myMenuArray.pop();
-    //console.error(err);
   }
 
   return [myViewArray, myMenuArray, key];
@@ -569,7 +567,6 @@ export function GetTodaysReadingPath(path) {
       `GreatFastWeek${currentSeason.week}${daysOfWeek[currentSeason.dayOfWeek]}`
     );
   }
-  console.log(filePath);
   return filePath;
 
   function updateFilePath(commonPart) {
