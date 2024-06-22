@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "إلى مُنتهى الأعوام",
+  "EnglishTitle": "To the end of ages",
+  "CopticTitle": "}a nirompi",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إلى منتهى الأعوام يا لسان العطر، إلى منتهى الأعوام يا لسان الذهب، يا خليفة القديس مرقس الرسول، بابا أنبا [*POPE*] رئيس الكهنة.",
+      "Coptic": "}a nirompi `w pilac `nte pi`cqoinoufi> ]a nirompi `w pilac `nnoub> `w pidiadoxoc `mpi`agioc Markoc pi`apoctoloc> papa abba [*POPE*] piarxh`ereuc.",
+      "English": "To the end of ages O tongue of incense, to the end of ages O tongue of gold, O the successor of Saint Mark the Apostle, Pope Abba [*POPE*] the high priest.",
+      "Arabiccoptic": "شا نيرومبي أو بي لاس انتي بي ستوي نوفي : شا ني رومبي ان نوب : أو بي ذياذوكوس امبي أجيوس ماركوس بي أبوسطولوس : [*POPE*] بي أرشي اريفس .  ",
+      "Englishcoptic": "Sha ni-rompi o pi-las ente pi-estoi-nofi, sha ni-rompi ennob o pi-zeia-zo-kos, o-pi-agios Markos pi-apos-tolos, abba [*POPE*] pi-arshi-erevs."
+    }
+  ]
+}

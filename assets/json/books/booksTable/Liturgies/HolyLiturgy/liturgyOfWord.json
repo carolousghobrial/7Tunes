@@ -340,9 +340,21 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsPentecost3rdHourLitanies",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsPentecostPiEpnevma",
             "Rule": 0,
             "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordPapalHymnsShaniRompi",
+            "Rule": 0,
+            "Visible": "isPentecostFeast"
         },
         {
             "Type": "Main",

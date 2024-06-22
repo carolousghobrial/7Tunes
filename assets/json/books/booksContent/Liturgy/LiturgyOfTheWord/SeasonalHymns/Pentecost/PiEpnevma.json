@@ -1,8 +1,8 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
-  "CopticTitle": "",
+  "ArabicTitle": "لحن الروح القدس (بي إبنيفما)",
+  "EnglishTitle": "The Hymn of the Holy Spirit (Pi-epnevma)",
+  "CopticTitle": " Pi`pneuma  `mparaklhton",
   "Hymn": [
     {
       "Type": "Base",
@@ -68,7 +68,7 @@
       "Coptic": "Pi`pneuma  eqouab > ma\\pimet`cnau `mmaqhthc > aucaji =en \\anmh] `nlac > kata `voua\\ca\\ni ` mPi`pneuma  eqouab  .",
       "English": "The Holy Spirit, filled the twelve disciples, and they spoke in many tongues, by the command of the Holy Spirit.",
       "Arabiccoptic": " آبي بنيـﭬما إثؤواب : ماه بي ميت إسناﭪ إمماثيتيس : آﭬصاﭽـي خين هان ميش إنلاس : كاطا إف أوو آهصاهني إمبي بنيـﭬما إثؤواب  . ",
-      "Englishcoptic": "Piepnevma  ethooav : mahpimetesnav emmatheetees : avsaji khen hanmeesh enlas : kata evooahsahni e mPiepnevma  ethooav  ."
+      "Englishcoptic": "Piepnevma  ethooav : mahpimetesnav em-ma-theetees : avsaji khen hanmeesh enlas : kata evooahsahni e mPiepnevma  ethooav  ."
     }
   ]
 }

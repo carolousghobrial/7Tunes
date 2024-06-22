@@ -1419,6 +1419,7 @@ const bookPaths = {
   LiturgyLiturgyOfTheWordHitensTwentyFourPriests: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/Hitens/TwentyFourPriests.json"),
   //Liturgy\LiturgyOfTheWord\PapalHymns
   LiturgyLiturgyOfTheWordPapalHymnsEAghape: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/PapalHymns/EAghape.json"),
+  LiturgyLiturgyOfTheWordPapalHymnsShaniRompi: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/PapalHymns/ShaniRompi.json"),
   LiturgyLiturgyOfTheWordPapalHymnsPiEhmotGhar: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/PapalHymns/PiEhmotGhar.json"),
   LiturgyLiturgyOfTheWordPapalHymnsPiEhmotGharGreat: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/PapalHymns/PiEhmotGharGreat.json"),
   LiturgyLiturgyOfTheWordPapalHymnsTiMeetEsnoti: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/PapalHymns/TiMeetEsnoti.json"),
@@ -1565,6 +1566,7 @@ const bookPaths = {
   LiturgyLiturgyOfTheWordSeasonalHymnsAscensionParlex: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Ascension/Parlex.json"),
   LiturgyLiturgyOfTheWordSeasonalHymnsAscensionPikhristosAftonf: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Ascension/PikhristosAftonf.json"),
   LiturgyLiturgyOfTheWordSeasonalHymnsPentecostPiEpnevma: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Pentecost/PiEpnevma.json"),
+  LiturgyLiturgyOfTheWordSeasonalHymnsPentecost3rdHourLitanies: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Pentecost/3rdHourLitanies.json"),
   LiturgyLiturgyOfTheWordSeasonalHymnsPentecostPikhristosAftonf: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Pentecost/PikhristosAftonf.json"),
   LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionAllYouHeavenlyOrders: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Resurrection/AllYouHeavenlyOrders.json"),
   LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionResurrectionEnactment: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheWord/SeasonalHymns/Resurrection/ResurrectionEnactment.json"),

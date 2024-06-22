@@ -1,0 +1,279 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " قطع الساعة الثالثة",
+  "EnglishTitle": "The Third Hour Litanies ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": " روحك القدوس يا رب الذي أرسلته على تلاميذك القديسين ورسلك المكرمين في الساعة الثالثة، هذا لا تنزعه منا أيها الصالح، لكن جدده في أحشائنا.",
+      "Coptic": " Pek`pneuma Eqouab `Psoic vh`etakouorpf `ejen nek`agioc `mmaqhthc> ouo\\ `n`apoctoloc ettaihout> =en ;ajp ]om;> vai `mperolf `ebol \\aron `w Pi`agaqoc alla `aritf `mberi =en nhetca=oun `mmon.",
+      "English": "Your Holy Spirit, O Lord, whom You had sent forth upon Your holy Disciples and honorable Apostles at the third hour, we ask You our good [Lord], not to take Him away from us, but rather to renew Him within us!",
+      "Arabiccoptic": "بيك بنيﭬما إثؤواب إبتشويس في إيطاك اووأوربف إيﭽين نيك آجيوس إمماثيتيس : اووه إن آبوسطولوس إتطايوت خين تي آجب شومتي : فاي إمبير اولف إيﭬول هارون أوبي آغاثوس آلا آريتف إمﭬيري خين ني إتصاخون إممون  . ",
+      "Englishcoptic": "Pekepnevma ethowab ePchois vee-etak oo-oorpf ejen nek-agios em-ma-theetees: owoh en-apostolos ettaieeooot: khen tiagp shomti: vai emperolf evol haron oo Pi-aghathos alla aritf emveri khen neeetsakhooon emmon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": " روحك القدوس يا رب الذي أرسلته على تلاميذك القديسين ورسلك المكرمين في الساعة الثالثة، هذا لا تنزعه منا أيها الصالح، لكن جدده في أحشائنا.",
+      "Coptic": " Pek`pneuma Eqouab `Psoic vh`etakouorpf `ejen nek`agioc `mmaqhthc> ouo\\ `n`apoctoloc ettaihout> =en ;ajp ]om;> vai `mperolf `ebol \\aron `w Pi`agaqoc alla `aritf `mberi =en nhetca=oun `mmon.",
+      "English": "Your Holy Spirit, O Lord, whom You had sent forth upon Your holy Disciples and honorable Apostles at the third hour, we ask You our good [Lord], not to take Him away from us, but rather to renew Him within us!",
+      "Arabiccoptic": "بيك بنيﭬما إثؤواب إبتشويس في إيطاك اووأوربف إيﭽين نيك آجيوس إمماثيتيس : اووه إن آبوسطولوس إتطايوت خين تي آجب شومتي : فاي إمبير اولف إيﭬول هارون أوبي آغاثوس آلا آريتف إمﭬيري خين ني إتصاخون إممون  . ",
+      "Englishcoptic": "Pekepnevma ethowab ePchois vee-etak oo-oorpf ejen nek-agios em-ma-theetees: owoh en-apostolos ettaieeooot: khen tiagp shomti: vai emperolf evol haron oo Pi-aghathos alla aritf emveri khen neeetsakhooon emmon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": " روحك القدوس يا رب الذي أرسلته على تلاميذك القديسين ورسلك المكرمين في الساعة الثالثة، هذا لا تنزعه منا أيها الصالح، لكن جدده في أحشائنا.",
+      "Coptic": " Pek`pneuma Eqouab `Psoic vh`etakouorpf `ejen nek`agioc `mmaqhthc> ouo\\ `n`apoctoloc ettaihout> =en ;ajp ]om;> vai `mperolf `ebol \\aron `w Pi`agaqoc alla `aritf `mberi =en nhetca=oun `mmon.",
+      "English": "Your Holy Spirit, O Lord, whom You had sent forth upon Your holy Disciples and honorable Apostles at the third hour, we ask You our good [Lord], not to take Him away from us, but rather to renew Him within us!",
+      "Arabiccoptic": "بيك بنيﭬما إثؤواب إبتشويس في إيطاك اووأوربف إيﭽين نيك آجيوس إمماثيتيس : اووه إن آبوسطولوس إتطايوت خين تي آجب شومتي : فاي إمبير اولف إيﭬول هارون أوبي آغاثوس آلا آريتف إمﭬيري خين ني إتصاخون إممون  . ",
+      "Englishcoptic": "Pekepnevma ethowab ePchois vee-etak oo-oorpf ejen nek-agios em-ma-theetees: owoh en-apostolos ettaieeooot: khen tiagp shomti: vai emperolf evol haron oo Pi-aghathos alla aritf emveri khen neeetsakhooon emmon."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قلباً نقياً اخلق فيَّ يا الله، وروحاً مستقيماً جدد في أحشائي. لا تطرحني من قدام وجهك، وروحك القدوس لا تنزعه مني.",
+      "English": "A pure heart create in me, O God, and a steadfast spirit renew within me! Do not cast me away from Your presence and do not take Your Holy Spirit from me!"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجد للآب والأبن والروح القدس.",
+      "Coptic": "Do[a Patri ke Ui`w ke `agi`w `Pneumati.",
+      "English": "Glory to the Father, and the Son, and the Holy Spirit.",
+      "Arabiccoptic": "ذواكسا باتري كي اييو كي اجيو إيبنيفماتي.",
+      "Englishcoptic": "Zoxa Patri ke Eio ke agio Epnevmati."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الرب الذي أرسلتَ روح قدسك على تلاميذك القديسين ورسلك المكرمين في الساعة الثالثة، هذا لا تنزعه منّا أيها الصالح. لكن نسألك أن تجدده في أحشائنا، يا ربنا يسوع المسيح ابن الله الكلمة، روحاً مستقيماً ومحيياً، روح النبوءة والعفة، روح القداسة والعدالة والسلطة، أيها القادر على كل شيء، لأنك أنت هو ضياء نفوسنا. يا من يضئ لكل إنسان آت إلى العالم، إرحمنا.",
+      "English": "O Lord, who sent Your Holy Spirit upon Your holy Disciples and honorable Apostles at the third hour, do not take Him away from us, O Good One. But we ask You our Lord Jesus Christ, the Logos, Son of God, to renew Him within us: The Spirit of uprightness and life-giving, the Spirit of prophecy and chastity, the Spirit of holiness, justice and authority. Our almighty God, the Light of our souls illuminating every person who comes into this world, have mercy upon us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآن وكل أوان وإلى دهر الدهور. آمين.",
+      "Coptic": "Ke nun ke `a`i ke ictouc `ew`nac twn `e`wnwn `amhn.",
+      "English": "Now and forever and unto the ages of all ages, Amen.",
+      "Arabiccoptic": "كي نين كي ا إي كي إيستوس إي أوناس تون إي أونون امين.",
+      "Englishcoptic": "Ke nin ke ai ke estoos e-onas ton e-onon Ameen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ا والدة الإله أنت هي الكرمة الحقيقية الحاملة عنقود الحياة، نسألك أيتها المملوءة نعمة مع الرسل من أجل خلاص نفوسنا. مبارك الرب إلهنا. مبارك الرب يوماً فيوماً، يهيئ طريقنا لأنه إله خلاصنا.",
+      "English": "+ O Theotokos,  you are the true vine who carries , the Fruit of life, we ask you, O full of grace, together with the Apostles, to intercede for the sake of our salvation. Blessed be the Lord our God whom we praise every day; He prepares our way for He is the God of our salvation."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآن وكل أوان وإلى دهر الدهور. آمين.",
+      "Coptic": "Ke nun ke `a`i ke ictouc `ew`nac twn `e`wnwn `amhn.",
+      "English": "Now and forever and unto the ages of all ages, Amen.",
+      "Arabiccoptic": "كي نين كي ا إي كي إيستوس إي أوناس تون إي أونون امين.",
+      "Englishcoptic": "Ke nin ke ai ke estoos e-onas ton e-onon Ameen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الملك السمائي المعزى، روح الحق، الحاضر في كل مكان والمالئ الكل، كنز الصالحات، ومعطى الحياة، هلم تفضل وحل فينا، وطهرنا من كل دنس أيها الصالح، وخلص نفوسنا.",
+      "English": "+ O heavenly King, the Comforter, the Spirit of Truth, who is present everywhere and fills all; You are the Treasure of goodness and the Life-Giver; graciously come and abide in us, O good One, purify us of all iniquities and save our souls."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجد للآب والأبن والروح القدس.",
+      "Coptic": "Do[a Patri ke Ui`w ke `agi`w `Pneumati.",
+      "English": "Glory to the Father, and the Son, and the Holy Spirit.",
+      "Arabiccoptic": "ذواكسا باتري كي اييو كي اجيو إيبنيفماتي.",
+      "Englishcoptic": "Zoxa Patri ke Eio ke agio Epnevmati."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كما كنت تلاميذك أيها المخلص وأعطيتهم السلام، هلُّم أيضاً كن معنا وامنحنا سلامك وخلصنا ونج نفوسنا.",
+      "English": "Just as You did abide with Your disciples, O Savior, and gave them peace, come also now, abide with us and give us Your peace, save us and deliver our souls."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآن وكل أوان وإلى دهر الدهور. آمين.",
+      "Coptic": "Ke nun ke `a`i ke ictouc `ew`nac twn `e`wnwn `amhn.",
+      "English": "Now and forever and unto the ages of all ages, Amen.",
+      "Arabiccoptic": "كي نين كي ا إي كي إيستوس إي أوناس تون إي أونون امين.",
+      "Englishcoptic": "Ke nin ke ai ke istoos eoenas ton eonon ameen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " إذا ما وقفنا في هيكلك المقدس نُحسب كالقيام في السماء. يا والدة الإله، أنت هي باب السماء، إفتحي لنا باب الرحمة.",
+      "English": "Whenever we stand in Your holy sanctuary, we are indeed considered as those who abide in heaven, O Mother of God. You are the gate of heaven, open for us the door of mercy."
+    }
+  ]
+}
