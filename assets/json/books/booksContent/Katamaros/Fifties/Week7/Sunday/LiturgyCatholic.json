@@ -1,0 +1,95 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(1يو 2 : 20 - الخ - 3 : 1)",
+  "EnglishTitle": "1 John 2:20-3:1",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "20وَأَمَّا أَنْتُمْ فَلَكُمْ مَسْحَةٌ مِنَ الْقُدُّوسِ وَتَعْلَمُونَ كُلَّ شَيْءٍ.",
+      "English": "20 But you have an anointing from the Holy One, and you know all things. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "21لَمْ أَكْتُبْ إِلَيْكُمْ لأَنَّكُمْ لَسْتُمْ تَعْلَمُونَ الْحَقَّ، بَلْ لأَنَّكُمْ تَعْلَمُونَهُ، وَأَنَّ كُلَّ كَذِبٍ لَيْسَ مِنَ الْحَقِّ.",
+      "English": "21 I have not written to you because you do not know the truth, but because you know it, and that no lie is of the truth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "22مَنْ هُوَ الْكَذَّابُ، إِلاَّ الَّذِي يُنْكِرُ أَنَّ يَسُوعَ هُوَ الْمَسِيحُ؟ هَذَا هُوَ ضِدُّ الْمَسِيحِ، الَّذِي يُنْكِرُ الآبَ وَالاِبْنَ.",
+      "English": "22 Who is a liar but he who denies that Jesus is the Christ? He is antichrist who denies the Father and the Son. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "23كُلُّ مَنْ يُنْكِرُ الاِبْنَ لَيْسَ لَهُ الآبُ أَيْضاً، وَمَنْ يَعْتَرِفُ بِالاِبْنِ فَلَهُ الآبُ أَيْضاً.",
+      "English": "23 Whoever denies the Son does not have the Father either; he who acknowledges the Son has the Father also. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "24أَمَّا أَنْتُمْ فَمَا سَمِعْتُمُوهُ مِنَ الْبَدْءِ فَلْيَثْبُتْ إِذاً فِيكُمْ. إِنْ ثَبَتَ فِيكُمْ مَا سَمِعْتُمُوهُ مِنَ الْبَدْءِ، فَأَنْتُمْ أَيْضاً تَثْبُتُونَ فِي الاِبْنِ وَفِي الآبِ.",
+      "English": "24 Therefore let that abide in you which you heard from the beginning. If what you heard from the beginning abides in you, you also will abide in the Son and in the Father. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "25وَهَذَا هُوَ الْوَعْدُ الَّذِي وَعَدَنَا هُوَ بِهِ: الْحَيَاةُ الأَبَدِيَّةُ.",
+      "English": "25 And this is the promise that He has promised us--eternal life. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "26كَتَبْتُ إِلَيْكُمْ هَذَا عَنِ الَّذِينَ يُضِلُّونَكُمْ.",
+      "English": "26 These things I have written to you concerning those who try to deceive you. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "27وَأَمَّا أَنْتُمْ فَالْمَسْحَةُ الَّتِي أَخَذْتُمُوهَا مِنْهُ ثَابِتَةٌ فِيكُمْ، وَلاَ حَاجَةَ بِكُمْ إِلَى أَنْ يُعَلِّمَكُمْ أَحَدٌ، بَلْ كَمَا تُعَلِّمُكُمْ هَذِهِ الْمَسْحَةُ عَيْنُهَا عَنْ كُلِّ شَيْءٍ، وَهِيَ حَقٌّ وَلَيْسَتْ كَذِباً. كَمَا عَلَّمَتْكُمْ تَثْبُتُونَ فِيهِ.",
+      "English": "27 But the anointing which you have received from Him abides in you, and you do not need that anyone teach you; but as the same anointing teaches you concerning all things, and is true, and is not a lie, and just as it has taught you, you will abide in Him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "28وَالآنَ أَيُّهَا الأَوْلاَدُ، اثْبُتُوا فِيهِ، حَتَّى إِذَا أُظْهِرَ يَكُونُ لَنَا ثِقَةٌ، وَلاَ نَخْجَلُ مِنْهُ فِي مَجِيئِهِ.",
+      "English": "28 And now, little children, abide in Him, that when He appears, we may have confidence and not be ashamed before Him at His coming. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "29إِنْ عَلِمْتُمْ أَنَّهُ بَارٌّ هُوَ، فَاعْلَمُوا أَنَّ كُلَّ مَنْ يَصْنَعُ الْبِرَّ مَوْلُودٌ مِنْهُ.",
+      "English": "29 If you know that He is righteous, you know that everyone who practices righteousness is born of Him. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 1أُنْظُرُوا أَيَّةَ مَحَبَّةٍ أَعْطَانَا الآبُ حَتَّى نُدْعَى أَوْلاَدَ اللهِ! ",
+      "English": "3:1 Behold what manner of love the Father has bestowed on us, that we should be called children of God!.     Do not love the world, nor the things which are in the world. The world shall pass away and all its desires; but he who does the will of God shall abide forever. Amen\r"
+    }
+  ]
+}

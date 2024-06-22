@@ -506,12 +506,15 @@ export function GetTodaysReadingPath(path) {
   const isResurrection = currentSeason.key === "RESURRECTION";
   const isFifties = currentSeason.key === "HOLY_50";
   const isAscension = currentSeason.key === "ASCENSION";
+  const isPentecost = currentSeason.key === "PENTECOST";
   if (isResurrection) {
     filePath = updateFilePath(`FiftiesResurrection`);
   } else if (isPalmSunday) {
     filePath = updateFilePath(`GreatFastWeek7Sunday`);
   } else if (isAscension) {
     filePath = updateFilePath(`FiftiesWeek6Thursday`);
+  } else if (isPentecost) {
+    filePath = updateFilePath(`FiftiesWeek7Sunday`);
   } else if (isLazarusSaturday) {
     filePath = updateFilePath(`GreatFastWeek7Saturday`);
   } else if (isStandardSeasonSunday) {

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مز 50 : 12 , 14",
+  "EnglishTitle": "Psalms 51:12, 14",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إمنحنى بهجة خلاصك , وبروح رئاسى أعضدنى . ",
+      "English": "12 Restore to me the joy of Your salvation, And uphold me by Your generous Spirit.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نجنى من الدماء يا الله إله خلاصى , يبتهج لسانى بعدلك. الليلويا",
+      "English": "14 Deliver me from the guilt of bloodshed, O God, The God of my salvation, And my tongue shall sing aloud of Your righteousness.     Alleluia\r"
+    }
+  ]
+}

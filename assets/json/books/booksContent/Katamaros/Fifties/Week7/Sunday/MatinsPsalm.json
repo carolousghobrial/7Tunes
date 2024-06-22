@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مز 103 :  28 , 29 ",
+  "EnglishTitle": "Psalms 104:30-31",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ترسل روحك فيُخلَقون و وتجدد وجه الأرض دفعة أخرى .",
+      "English": "30 You send forth Your Spirit, they are created; And You renew the face of the earth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فليكن مجد الرب إلى الأبد.   الليلويا",
+      "English": "31 May the glory of the Lord endure forever.     Alleluia\r"
+    }
+  ]
+}
