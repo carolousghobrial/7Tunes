@@ -147,7 +147,10 @@ export function getCopticFastsFeasts(yearSelected, date) {
   var ascension = moment(resurrection).add(39, "days");
   var ascension2ndday = moment(ascension).add(1, "days");
   var ascensionLastDay = moment(resurrection).add(48, "days");
+
   var pentecost = moment(resurrection).add(49, "days");
+  console.log(ascensionLastDay);
+  console.log(pentecost);
 
   // minor feasts
   var circumcision = moment([yearSelected, 0, 14]);
@@ -709,7 +712,8 @@ export function setCurrentSeasonByKey(timeTransition, key) {
   return mycurrentSeason;
 }
 export function setCurrentSeasonLive(timeTransition) {
-  const mySeason = getCurrentSeason(timeTransition)[0];
+  const Season = getCurrentSeason(timeTransition);
+  const mySeason = Season.find((item) => item.end === null) || Season[0];
   const currentDate = new Date(getTodayDate(timeTransition));
   const copticDate = getCopticDate(
     currentDate.getFullYear(),
@@ -884,6 +888,7 @@ export function getCurrentSeason(timeTransition) {
     });
   }
   var todayDate = getTodayDate(timeTransition);
+
   fastsfeasts.map((feast) => {
     if (
       (feast.end === null && feast.start.isSame(todayDate)) ||
@@ -893,6 +898,7 @@ export function getCurrentSeason(timeTransition) {
       collection.push(feast);
     }
   });
+  console.log(collection);
   if (collection.length === 0) {
     let type = "regular";
     if (todayDate.day() === 3 && todayDate.day() === 5) {
