@@ -146,6 +146,7 @@ export function getCopticFastsFeasts(yearSelected, date) {
   var palmSunday = moment(resurrection).subtract(7, "days");
   var ascension = moment(resurrection).add(39, "days");
   var ascension2ndday = moment(ascension).add(1, "days");
+  var ascensionLastDay = moment(resurrection).add(48, "days");
   var pentecost = moment(resurrection).add(49, "days");
 
   // minor feasts
@@ -335,7 +336,7 @@ export function getCopticFastsFeasts(yearSelected, date) {
     start: ascension2ndday,
     end: pentecost,
     copticStartDate: getCopticDateByDate(ascension2ndday),
-    copticEndDate: getCopticDateByDate(pentecost),
+    copticEndDate: getCopticDateByDate(ascensionLastDay),
     major: true,
   });
   fastFeasts.push({
