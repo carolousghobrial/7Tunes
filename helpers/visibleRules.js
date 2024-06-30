@@ -534,6 +534,9 @@ const isSeason = (motherSource, path) => {
       if (path.toLowerCase()?.includes("apostle")) {
         return true;
       }
+      if (path.toLowerCase()?.includes("apostlesfast")) {
+        return true;
+      }
       return false;
     case "FAST_STMARY":
     case "ASSUMPTION_STMARY":
