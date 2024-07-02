@@ -149,8 +149,6 @@ export function getCopticFastsFeasts(yearSelected, date) {
   var ascensionLastDay = moment(resurrection).add(48, "days");
 
   var pentecost = moment(resurrection).add(49, "days");
-  console.log(ascensionLastDay);
-  console.log(pentecost);
 
   // minor feasts
   var circumcision = moment([yearSelected, 0, 14]);
@@ -898,7 +896,6 @@ export function getCurrentSeason(timeTransition) {
       collection.push(feast);
     }
   });
-  console.log(collection);
   if (collection.length === 0) {
     let type = "regular";
     if (todayDate.day() === 3 && todayDate.day() === 5) {

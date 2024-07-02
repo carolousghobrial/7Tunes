@@ -78,13 +78,13 @@
             "Type": "Main",
             "Path": "LiturgyDistributionApostlesFastAsomen",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isApostlesFast"
         },
         {
             "Type": "Main",
             "Path": "LiturgyDistribuLiturgyLiturgyOfTheWordSeasonalHymnsApostlesFastEnthotenZetionApostlesFastAsomen",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isApostlesFast"
         },
         {
             "Type": "Main",
@@ -114,7 +114,7 @@
             "Type": "Main",
             "Path": "LiturgyDistributionMelodiesApostlesFast",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isApostlesFast"
         },
         {
             "Type": "Main",

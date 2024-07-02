@@ -125,8 +125,16 @@ const isStandardSeasonWithStMary = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   switch (currentSeason.key) {
     case "STANDARD":
+      return true;
+
     case "FAST_OF_APOSTLES":
     case "FEAST_OF_APOSTLES":
+      if (motherSource === "distribution") {
+        return false;
+      } else {
+        return true;
+      }
+
     case FeastEnum.FAST_STMARY:
     case FeastEnum.ASSUMPTION_STMARY:
       return true;
@@ -186,6 +194,7 @@ const isStandardSeason = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   switch (currentSeason.key) {
     case "STANDARD":
+      return true;
     case "FAST_OF_APOSTLES":
     case "FEAST_OF_APOSTLES":
       return true;
@@ -531,12 +540,13 @@ const isSeason = (motherSource, path) => {
       return false;
     case "FAST_OF_APOSTLES":
     case "FEAST_OF_APOSTLES":
-      if (path.toLowerCase()?.includes("apostle")) {
+      if (
+        path.toLowerCase()?.includes("apostle") ||
+        path.toLowerCase()?.includes("apostlesfast")
+      ) {
         return true;
       }
-      if (path.toLowerCase()?.includes("apostlesfast")) {
-        return true;
-      }
+
       return false;
     case "FAST_STMARY":
     case "ASSUMPTION_STMARY":
@@ -1074,6 +1084,13 @@ const isApostlesFeast = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
   return currentSeason.key === "FEAST_OF_APOSTLES" ? true : false;
+};
+const isApostlesFast = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.key === "FAST_OF_APOSTLES") {
+    return true;
+  }
+  return currentSeason.key === "FAST_OF_APOSTLES" ? true : false;
 };
 const stMaryActsResponse = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -3352,6 +3369,7 @@ const VisibleRules = {
   inRaisingOfIncense: inRaisingOfIncense,
   isResurrectionFeast: isResurrectionFeast,
   isPentecostFeast: isPentecostFeast,
+  isApostlesFast: isApostlesFast,
   ISDioceseMetropolitain: ISDioceseMetropolitain,
   ISDioceseBishop: ISDioceseBishop,
   ISOneMetropolitain: ISOneMetropolitain,

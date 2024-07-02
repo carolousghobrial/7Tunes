@@ -404,7 +404,6 @@ export function getMainWithTitle(Path, motherSource, rule, key) {
 
 function addItemsToArray(part, thisRule) {
   const foundKeyword = findMatchingSubstring(part.English, keywords);
-  console.log(foundKeyword);
   const myrule =
     foundKeyword === "EMPTY"
       ? null
@@ -609,12 +608,9 @@ export function GetTodaysReadingPath(path) {
 }
 
 function findMatchingSubstring(str, substringsArray) {
-  console.log(substringsArray);
-  console.log(str);
   const foundSubstring = substringsArray.find((substring) =>
     str?.includes(substring)
   );
-  console.log(foundSubstring);
   return foundSubstring ? foundSubstring : "EMPTY";
 }
 

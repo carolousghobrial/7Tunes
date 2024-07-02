@@ -99,10 +99,12 @@
             "Path": "LiturgyLiturgyOfTheWordApetjeekEvol"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
+            "Arabic": "اُوندوس",
+            "English": "Ondos - For Truly",
             "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsApostlesFastOntos",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isApostlesFast"
         },
         {
             "Type": "Button",
@@ -357,16 +359,20 @@
             "Visible": "isPentecostFeast"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
+            "Arabic": "إنثوتين ذيه",
+            "English": "Enthoten Ze",
             "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsApostlesFastEnthotenZe",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isApostlesFast"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
+            "Arabic": "ني رومي",
+            "English": "Niromi",
             "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsApostlesFastNiRomi",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isApostlesFast"
         },
         {
             "Type": "Main",
