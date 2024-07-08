@@ -1756,13 +1756,17 @@ const ComeRisenRule = (motherSource, part) => {
       };
 
     default:
-      if (
-        moment(currentSeason.fullgregorianDate).isBetween(
-          PENTECOST.start,
-          KIAHK.start
-        ) &&
-        moment(currentSeason.fullgregorianDate).day === 0
-      ) {
+      console.log(moment(PENTECOST.start));
+      console.log(moment(KIAHK.start));
+      console.log(moment(currentSeason.fullgregorianDate));
+      const date = moment(currentSeason.fullgregorianDate);
+      const isBetweenPentecostAndKiahk = date.isBetween(
+        PENTECOST.start,
+        KIAHK.start
+      );
+      const isSunday = date.day() === 0;
+
+      if (isBetweenPentecostAndKiahk && isSunday) {
         return {
           english: "have risen",
           coptic: "aktwnk",
@@ -1770,14 +1774,15 @@ const ComeRisenRule = (motherSource, part) => {
           englishcoptic: "aktonk",
           arabiccoptic: "اكتونك",
         };
+      } else {
+        return {
+          english: "have come",
+          coptic: "ak`i",
+          arabic: "اتيت",
+          englishcoptic: "ak-ee",
+          arabiccoptic: "اك إي",
+        };
       }
-      return {
-        english: "have come",
-        coptic: "ak`i",
-        arabic: "اتيت",
-        englishcoptic: "ak-ee",
-        arabiccoptic: "اك إي",
-      };
   }
 };
 

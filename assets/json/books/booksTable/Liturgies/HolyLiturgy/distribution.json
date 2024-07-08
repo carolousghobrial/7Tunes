@@ -87,7 +87,9 @@
             "Visible": "isApostlesFast"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
+            "Arabic": "ني رومي",
+            "English": "Niromi",
             "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsApostlesFastNiRomi",
             "Rule": 0,
             "Visible": "isSeason"

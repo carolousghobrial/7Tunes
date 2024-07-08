@@ -190,7 +190,7 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesSaintsActsResponseapostles",
             "Rule": 0,
-            "Visible": "isApostlesFeast"
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
