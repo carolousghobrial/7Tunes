@@ -26,7 +26,7 @@
             "Arabic": "إبصالية أدام للصوم الكبير على ثيؤطوكية الأحد",
             "English": "Adam Psali for the Great Fast on Sunday Theotokia",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isLenten",
             "Path": "LentPraisesMidnightPraisesHymnsAdamPsaliSundayTheotokia"
         },
         {
