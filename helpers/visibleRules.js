@@ -51,16 +51,18 @@ const TennavRule = (motherSource, path) => {
       return false;
 
     default:
-      if (
-        moment(currentSeason.fullgregorianDate).isBetween(
-          PENTECOST.start,
-          KIAHK.start
-        ) &&
-        moment(currentSeason.fullgregorianDate).day === 0
-      ) {
+      const date = moment(currentSeason.fullgregorianDate);
+      const isBetweenPentecostAndKiahk = date.isBetween(
+        PENTECOST.start,
+        KIAHK.start
+      );
+      const isSunday = date.day() === 0;
+
+      if (isBetweenPentecostAndKiahk && isSunday) {
         return true;
+      } else {
+        return false;
       }
-      return false;
   }
 };
 const NativityFeastAndFast = (motherSource, path) => {
@@ -1756,9 +1758,6 @@ const ComeRisenRule = (motherSource, part) => {
       };
 
     default:
-      console.log(moment(PENTECOST.start));
-      console.log(moment(KIAHK.start));
-      console.log(moment(currentSeason.fullgregorianDate));
       const date = moment(currentSeason.fullgregorianDate);
       const isBetweenPentecostAndKiahk = date.isBetween(
         PENTECOST.start,
