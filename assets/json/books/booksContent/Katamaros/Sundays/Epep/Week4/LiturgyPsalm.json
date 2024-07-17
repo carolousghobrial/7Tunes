@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور القداس (مز15:39، 16)",
+  "EnglishTitle": "Psalms 40:5, 16",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" وأنت أيها الرب إلهي جعلت عجائبك كثيرة، وفي أفكارك ليس من يشبهك،",
+      "English": "5 Many, O Lord my God, are Your wonderful works Which You have done; And Your thoughts toward us Cannot be recounted to You in order.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وليقل في كل حين، الذين يحبون خلاصك فليعظم الرب. هلليلويا \"",
+      "English": "16 Let such as love Your salvation say continually, The Lord be magnified.     Alleluia\r"
+    }
+  ]
+}

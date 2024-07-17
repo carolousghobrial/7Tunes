@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز1:127، 5)",
+  "EnglishTitle": "Psalms 128:1, 5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" طوبى لجميع الذين يتقون الرب، السالكين في طرقه، ",
+      "English": "128:1 Blessed  is every one who fears the Lord, Who walks in His ways.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يباركك الرب من صهيون، ويبصرون خيرات أورشليم جميع أيام حياتك. هلليلويا  \"",
+      "English": "5 The Lord bless you out of Zion, And may you see the good of Jerusalem All the days of your life.     Alleluia\r"
+    }
+  ]
+}

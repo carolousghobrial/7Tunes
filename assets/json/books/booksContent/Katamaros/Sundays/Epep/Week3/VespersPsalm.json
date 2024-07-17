@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز8:51، 9)",
+  "EnglishTitle": "Psalms 52:9, 8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" وأنا مثل شجرة الزيتون، المثمرة في بيت الله،",
+      "English": "9 And in the presence of Your saints I will wait on Your name, for it is good.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وأتمسك باسمك فإنه صالح، قدام أبرارك. هلليلويا  \"",
+      "English": "8 I trust in the mercy of God forever and ever.     Alleluia\r"
+    }
+  ]
+}

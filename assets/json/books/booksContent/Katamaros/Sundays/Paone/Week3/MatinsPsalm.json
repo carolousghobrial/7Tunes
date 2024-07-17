@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز22:37، 23):-",
+  "EnglishTitle": "Psalms 38:21-22",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" لا تهملني يا إلهي، ولا تتباعد عنى، ",
+      "English": "21 Do not forsake me, O Lord; O my God, be not far from me! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "التفت إلى معونتي، يارب خلاصي. هلليلويا \"",
+      "English": "22 Make haste to help me, O Lord, my salvation!.     Alleluia\r"
+    }
+  ]
+}

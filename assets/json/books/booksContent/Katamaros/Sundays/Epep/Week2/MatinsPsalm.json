@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز1:40، 2)",
+  "EnglishTitle": "Psalms 41:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" طوبى للذي يتفهم في أمر المسكين والفقير، في يوم السوء ينجيه الرب، ",
+      "English": "41:1 Blessed is he who considers the poor; The Lord will deliver him in time of trouble. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرب يحفظه ويحييه، ويجعله على الأرض مغبوطًا. هلليلويا  \"",
+      "English": "2 The Lord will preserve him and keep him alive, And he will be blessed on the earth.     Alleluia\r"
+    }
+  ]
+}

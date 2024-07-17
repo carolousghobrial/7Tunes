@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز1:6،15:33):-",
+  "EnglishTitle": "Psalms 6:1, 38:15",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" يارب لا توبخني بغضبك، ولا تؤدبني بغيظك، ",
+      "English": "6:1 O Lord, do not rebuke me in Your anger, Nor chasten me in Your hot displeasure.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأني توكلت عليك يارب، وأنت تستجيب ياربى وإلهي. هلليلويا  \"",
+      "English": "15 For in You, O Lord, I hope; You will hear, O Lord my God.     Alleluia\r"
+    }
+  ]
+}

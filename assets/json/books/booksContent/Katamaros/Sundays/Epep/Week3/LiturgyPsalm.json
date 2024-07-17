@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور القداس (مز17:145، 18)",
+  "EnglishTitle": "Psalms 145:17-18",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"  الرب عادل في كل طرقه، وقدوس في سائر أعماله، ",
+      "English": "17 The Lord is righteous in all His ways, Gracious in all His works. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الرب قريب لسائر المستغيثين به، ولكل الذين يدعون إليه. هلليلويا  \"",
+      "English": "18 The Lord is near to all who call upon Him, To all who call upon Him in truth.     Alleluia\r"
+    }
+  ]
+}

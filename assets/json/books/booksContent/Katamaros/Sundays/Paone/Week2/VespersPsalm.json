@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " (مز7:15، 8)",
+  "EnglishTitle": "Psalms 16:7-8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أبارك الرب الذي أفهمني، وأيضًا في الليل أدبتني كليتاي، ",
+      "English": "7 I will bless the Lord who has given me counsel; My heart also instructs me in the night seasons. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تقدمت فرأيت الرب أمامي في كل حين، لأنه عن يميني كي لا أتزعزع. هلليلويا \"",
+      "English": "8 I have set the Lord always before me; Because He is at my right hand I shall not be moved.     Alleluia\r"
+    }
+  ]
+}

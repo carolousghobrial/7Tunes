@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز12:85، 13)",
+  "EnglishTitle": "Psalms 86:12-13",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" 12- احمدك يا رب الهي من كل قلبي و امجد اسمك الى الدهر.",
+      "English": "12 I will praise You, O Lord my God, with all my heart, And I will glorify Your name forevermore. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 13- لان رحمتك عظيمة نحوي و قد نجيت نفسي من الهاوية السفلى\"",
+      "English": "13 For great is Your mercy toward me, And You have delivered my soul.     Alleluia\r"
+    }
+  ]
+}

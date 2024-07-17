@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " (مز6:12):-",
+  "EnglishTitle": "Psalms 13:6, 5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أسبح الرب الذي أحسن إلىّ، وأرتل لاسم الرب العالي،",
+      "English": "6 I will sing to the Lord, Because He has dealt bountifully with me.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أما أنا فعلى رحمتك توكلت، يبتهج قلبي بخلاصك. هلليلويا  \"",
+      "English": "5 But I have trusted in Your mercy; My heart shall rejoice in Your salvation.     Alleluia\r"
+    }
+  ]
+}

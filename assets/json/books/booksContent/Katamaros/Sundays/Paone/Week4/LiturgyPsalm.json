@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز26:68، 27، 25):-",
+  "EnglishTitle": "Psalms 69:32-33, 30",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "﻿أطْلُبُوا اللَّهَ فَتَحْيَا نَفْسُكُمْ. ",
+      "English": "32 And you who seek God, your hearts shall live \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأَنَّ الرَّبِّ قَدِ اسْتَجَابَ لِلْبَائِسِينَ.",
+      "English": "33 For the Lord hears the poor.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أُسَبِّحُ اسْمَ اللَّهِ بِنَشِيدٍ، وَأَرَفْعُهُ بِتَسْبِيحٍ هلليلويا.",
+      "English": "30 I will praise the name of God with a song, And will magnify Him with thanksgiving.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز23:30، 19)",
+  "EnglishTitle": "Psalms 31:23, 19",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أحبوا الرب يا جميع قديسيه، لأن الرب ابتغى الحقائق،",
+      "English": "23 Oh, love the Lord, all you His saints! For the Lord preserves the faithful.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ما أعظم كثرة صلاحك يارب، الذي ادخرته للذين يخافونك. هلليلويا  \"",
+      "English": "19 Oh, how great is Your goodness, Which You have laid up for those who fear You.     Alleluia\r"
+    }
+  ]
+}

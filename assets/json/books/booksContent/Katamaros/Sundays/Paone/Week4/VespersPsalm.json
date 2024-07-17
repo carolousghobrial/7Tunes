@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز9:83، 5):-",
+  "EnglishTitle": "Psalms 84:8, 4",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أيها الرب إله القوات استمع إلى صلاتي، أنصت يا إله يعقوب،",
+      "English": "8 O Lord God of hosts, hear my prayer; Give ear, O God of Jacob!.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " طوبى لكل السكان في بيتك، يباركونك إلى أبد الأبد. هلليلويا  \" ",
+      "English": "4 Blessed are those who dwell in Your house; They will still be praising You.     Alleluia\r"
+    }
+  ]
+}

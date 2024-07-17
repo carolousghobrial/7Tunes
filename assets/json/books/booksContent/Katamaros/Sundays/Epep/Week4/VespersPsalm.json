@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز10:58، 17)",
+  "EnglishTitle": "Psalms 59:9-10, 17",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" 10 - الهي رحمته تتقدمني",
+      "English": "9 For God is my defense \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الله يريني باعدائي.",
+      "English": "10 My God of mercy shall come to meet me.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 17- يا قوتي لك ارنم لان الله ملجاي اله رحمتي  \"",
+      "English": "17 To You, O my Strength, I will sing praises.     Alleluia\r"
+    }
+  ]
+}

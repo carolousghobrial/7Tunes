@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز4:60، 7):-",
+  "EnglishTitle": "Psalms 61:5, 8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"أنت يا الله استمعت إلى صلواتي، ميراثًا للذين يرهبون اسمك،",
+      "English": "5 For You, O God, have heard my vows; You have given me the heritage of those who fear Your name.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لذلك أرتل لاسمك إلى دهر الدهور، لأفي نذوري يومًا فيومًا. هلليلويا  \"",
+      "English": "8 So I will sing praise to Your name forever, That I may daily perform my vows.     Alleluia\r"
+    }
+  ]
+}

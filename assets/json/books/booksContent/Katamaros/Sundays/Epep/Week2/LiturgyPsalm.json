@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور القداس (مز1:118، 2)",
+  "EnglishTitle": "Psalms 119:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" طوباهم الذين بلا عيب في الطريق، السالكون في ناموس الرب، ",
+      "English": "119:1 Blessed are the undefiled in the way, Who walk in the law of the Lord! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوباهم الذين يفحصون عن شهادته، ومن كل قلوبهم يطلبونه. هلليلويا  \"",
+      "English": "2 Blessed are those who keep His testimonies, Who seek Him with the whole heart!.     Alleluia\r"
+    }
+  ]
+}
