@@ -179,6 +179,14 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "الثلاث أواشي معاً",
+            "English": "Three Seasons Litanies combined",
+            "Rule": "OpenSinglePageButtonRule",
+            "Visible": true,
+            "Path": "RaisingOfIncenseLitanyAirWaterPlants"
+        },
+        {
             "Type": "Main",
             "Path": "RaisingOfIncenseLitanyAir",
             "Rule": 0,

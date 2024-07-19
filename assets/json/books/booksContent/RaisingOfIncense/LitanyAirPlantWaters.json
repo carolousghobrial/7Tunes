@@ -1,0 +1,73 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "الثلاث أواشي معاً",
+  "EnglishTitle": "Three Seasons Litanies combined",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "تفضل يا رب أهوية السماء وثمرات الأرض صعود مياه الأنهار والزروع والعشب ونبات الحقل في هذه السنة، باركها.",
+      "Coptic": "Arikata[ioin Psoic ni`ahr `nte `tve nem nikarpoc `nte `pka\\i> nem nimwou `nte `viaro> nem nici; nem nicim nem nirwt `nte `tkoi> et=en tairompi qai> `cmou `erwou.",
+      "English": "Graciously accord, O Lord, to bless the air of heaven, the fruits of the earth, the waters of the river, the seeds, the herbs, and the plants of the field this year.",
+      "Arabiccoptic": "أرى كاطاكسين إبشويس ني آإير إنتى إتفى نيم كربوس إنتى إبكاهى  نيم نيمووأو إنتي إفيارو: نيم نيسيتي نيم نيسيم نيم نيرووت إنتي إتكوي: إيتخين تايرومبي ثاي: إسمأو إيرووأو.",
+      "Englishcoptic": "Ari kataksin Epshois ni a er ente etve nem ni karpos ente epkahi, nem nimo-oo ente eviaro: nem nisiti nem nisim nem niroot ente etkoi: etkhen tairompi thai: esmoo ero-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اطلبوا عن أهويةِ السماءِ، وثمراتِ الأرضِ والشجرِ والكرومِ، وكلِّ شجرةٍ مثمرةٍ في كلِّ المسكونةِ، لكي يباركَها المسيحُ إلهُنا، ويُكَمِّلَها سالمةً بغير ألمٍ ويغفرَ لنا خطايانا.",
+      "Coptic": "Twb\\` ejen ni`ahr `nte `tve> nem nikarpoc `nte `pka\\i> nem `pjinmo]i `e`p]wi `nte niiarwou `mmwou> nem nici; nem nicim nem nirwt `nte `tkoi \\ina `nte Pixrictoc Pennou; `cmou `erwou> ouo\\ `ntef]en\\ht =a pef`placma `eta nefjij qamiof> `ntefxa nennobi nan e`bol.",
+      "English": "Pray for the airs of heaven, the fruits of the earth, the trees, the vines, and for every fruit-bearing tree in all the world, that Christ our God may bless them, bring them to perfection in peace without harm, and forgive us our sins",
+      "Arabiccoptic": "طفه إيجين آإير إنتى إتفى نيم كربوس إنتى إبكاهى نيم إبجينموشي إيإبشووي إنتي نييارووأو إممووأو: نيم نيسيتي نيم نيسيم نيم نيرووت إنتي إتكوي هينا إنتي بيخريستوس بيننأوتي إسمأو إيرووأو: أووه إنتيفشينهيت خا بيفإبلاسما إيتا نيفجيج ثاميوف: إنتيفخا نيننوفي نان إيإفول",
+      "Englishcoptic": "Tobh ejen ni a er ente etve nem ni karpos ente epkahi  nem epjinmoshi epshooi ente niiaro-oo emmo-oo: nem nisiti nem nisim nem niroot ente etkoi hina ente Pikhristos Pennooti esmoo ero-oo: oooh entefshenheet kha pefeplasma eta nefjig thamiof: entefka nen novi nan eevol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ياربُّ ارحَم. ياربُّ ارحَم. ياربُّ ارحَم.",
+      "Coptic": "Kuri`e `ele`hcon> Kuri`e `ele`hcon> Kuri`e `ele`hcon.",
+      "English": "Lord have mercy. Lord have mercy. Lord have mercy.",
+      "Arabiccoptic": "كيريى إليسون كيريى إليسون كيريى إليسون",
+      "Englishcoptic": "Kerie-leyson Kerie-leyson Kerie-leyson"
+    }
+  ]
+}

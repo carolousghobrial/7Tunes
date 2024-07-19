@@ -114,6 +114,7 @@ const bookPaths = {
   RaisingOfIncenseEfnotiNaiNan: require("../assets/json/books/booksContent/RaisingOfIncense/EfnotiNaiNan.json"),
   RaisingOfIncenseEleisonEmas: require("../assets/json/books/booksContent/RaisingOfIncense/EleisonEmas.json"),
   RaisingOfIncenseLentLitanies: require("../assets/json/books/booksContent/RaisingOfIncense/LentLitanies.json"),
+  RaisingOfIncenseLitanyAirWaterPlants: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyAirPlantWaters.json"),
   RaisingOfIncenseLitanyAir: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyAir.json"),
   RaisingOfIncenseLitanyAssemblies: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyAssemblies.json"),
   RaisingOfIncenseLitanyDeparted: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyDeparted.json"),
