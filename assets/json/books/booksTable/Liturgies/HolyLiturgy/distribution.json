@@ -366,6 +366,12 @@
         },
         {
             "Type": "Main",
+            "Path": "VenerationShereMaria",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
             "Rule": 0,
             "Visible": "isNOTLentWeekdayOrJonah"

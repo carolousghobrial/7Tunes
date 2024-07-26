@@ -22,7 +22,7 @@ import FontSize from "../settings/fontSize";
 import VisibleLangs from "../settings/visibleLangs";
 import PresentationMode from "../settings/presentationMode";
 
-function SettingsModal({ bottomSheetRef, snapPoints }) {
+function SettingsModal({ bottomSheetRef }) {
   const { width, height } = useWindowDimensions();
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
@@ -82,7 +82,7 @@ function SettingsModal({ bottomSheetRef, snapPoints }) {
       ref={bottomSheetRef}
       handleHeight={50}
       index={0}
-      snapPoints={snapPoints}
+      snapPoints={["90%"]}
       backdropComponent={renderBackdrop}
     >
       {/* Close Button */}

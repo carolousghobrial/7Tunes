@@ -1,29 +1,18 @@
-import React, { useState, useEffect, useRef, useCallback } from "react";
-import { useDispatch, useSelector } from "react-redux";
+// ContentsModal.js
+import React, { useState, useRef, useCallback } from "react";
+import { useSelector } from "react-redux";
+import { View, Text, StyleSheet, Pressable } from "react-native";
 import {
-  View,
-  Text,
-  StyleSheet,
-  FlatList,
-  Pressable,
-  useWindowDimensions,
-} from "react-native";
-import { BottomSheetFlatList } from "@gorhom/bottom-sheet";
-
-import {
+  BottomSheetFlatList,
   BottomSheetModal,
   BottomSheetBackdrop,
-  useBottomSheetModal,
 } from "@gorhom/bottom-sheet";
-import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
 import { AntDesign } from "@expo/vector-icons";
-
-import SearchBar from "../ViewTypes/SearchBar";
+import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
 import MenuItem from "./MenuItem";
 
 function ContentsModal({
   bottomSheetRef,
-  snapPoints,
   currentKey,
   menuData,
   contentsClose,
@@ -31,56 +20,16 @@ function ContentsModal({
 }) {
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
-  const [clicked, setClicked] = useState(false);
-  const flatListRef = useRef(null);
-  const [searchPhrase, setSearchPhrase] = useState("");
-
   const [currentData, setCurrentData] = useState(
-    menuData.filter(
-      (item) =>
-        item.ArabicTitle !== undefined || item.EnglishTitle !== undefined
-    )
+    menuData.filter((item) => item.ArabicTitle || item.EnglishTitle)
   );
-  const [initialIndex, setInitialIndex] = useState(null);
+  const flatListRef = useRef(null);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const TableOfContents = getLanguageValue("TableOfContents");
-  const { width, height } = useWindowDimensions();
 
-  useEffect(() => {
-    try {
-      if (foundItem !== -1) {
-        flatListRef.current.scrollToIndex({
-          index: currentKey,
-          animated: false,
-        });
-      }
-    } catch (e) {}
-  }, [currentKey]);
-  const onScrollToIndexFailed = (error) => {
-    flatListRef.current.scrollToOffset({
-      offset: error.averageItemLength * error.index,
-      animated: false,
-    });
-    setTimeout(() => {
-      if (flatListRef.current !== null) {
-        flatListRef.current.scrollToIndex({
-          index: error.index,
-          animated: false,
-        });
-      }
-    }, 10);
-  };
-
-  const handleSearch = (text) => {
-    try {
-      const filteredData = menuData.filter(
-        (item) =>
-          item.EnglishTitle.toLowerCase().includes(text.toLowerCase()) ||
-          item.ArabicTitle.includes(text) ||
-          (item.CopticTitle !== undefined && item.CopticTitle.includes(text))
-      );
-      setCurrentData(filteredData);
-    } catch (e) {}
+  // Using scrollToKey function directly
+  const scrollToMenuKey = (key) => {
+    scrollToKey(key);
   };
 
   const renderBackdrop = useCallback(
@@ -93,21 +42,14 @@ function ContentsModal({
     ),
     []
   );
-  const handleBottomSheetShow = () => {
-    // Do something when the bottom sheet is shown
-  };
-  const handlePresent = () => {
-    // Your code to execute when the bottom sheet is presented
-  };
+
   return (
     <BottomSheetModal
       backgroundStyle={{ backgroundColor: NavigationBarColor }}
       handleIndicatorStyle={{ backgroundColor: labelColor }}
       ref={bottomSheetRef}
       handleHeight={50}
-      index={0}
-      onPresent={handlePresent}
-      snapPoints={snapPoints}
+      snapPoints={["90%"]}
       backdropComponent={renderBackdrop}
     >
       <View style={styles.header}>
@@ -128,27 +70,23 @@ function ContentsModal({
             item={item}
             index={index}
             HighlitedIndex={currentKey}
-            scrollToKey={scrollToKey}
+            scrollToKey={scrollToMenuKey}
           />
         )}
-        onScrollToIndexFailed={onScrollToIndexFailed}
-        initialNumToRender={menuData.length}
         keyExtractor={(item, index) => index.toString()}
+        initialNumToRender={menuData.length}
       />
     </BottomSheetModal>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    justifyContent: "space-around",
-    alignItems: "center",
-  },
   header: {
     flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
   },
   closeButton: {
-    alignItems: "flex-end",
     marginHorizontal: 10,
     marginBottom: 5,
     borderRadius: 25,
@@ -157,7 +95,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontFamily: "englishtitle-font",
     fontSize: 25,
-    flex: 8,
+    flex: 1,
     marginHorizontal: 10,
   },
   flatList: {
