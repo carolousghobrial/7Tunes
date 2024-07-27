@@ -137,11 +137,7 @@ function NavigationContainerView({ dispatch }) {
           gestureDirection: "horizontal",
         }}
       >
-        <Stack.Screen
-          name="7 Tunes"
-          component={Root}
-          options={{ headerShown: false }}
-        />
+        <Stack.Screen name="7 Tunes" component={Root} />
         <Stack.Screen
           name="HomepageScreen"
           component={HomepageScreen}
