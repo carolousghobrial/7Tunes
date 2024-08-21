@@ -25,6 +25,12 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncensePsalmTrailersMaryFastTrailer",
+            "Rule": 0,
+            "Visible": "FeastsAndFastsOfStMary"
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncensePsalmTrailersBishopPsalmTrailer",
             "Rule": 0,
             "Visible": "BishopIsPresent"

@@ -71,7 +71,6 @@ function HomepageScreen({ navigation, route }) {
       </TouchableOpacity>
     );
     navigation.setOptions({
-      headerShown: true,
       headerRight: headerRightComponent,
     });
   }, [onboardingViewed]);
@@ -227,7 +226,14 @@ function HomepageScreen({ navigation, route }) {
       }
     }
     setIsLoading(false);
-
+    console.log(item);
+    // if (item.BookPath === "venerations") {
+    //   navigation.push("VenerationSelectionScreen", {
+    //     bookPath: item.BookPath,
+    //     englishTitle: item.EnglishTitle,
+    //     arabicTitle: item.ArabicTitle,
+    //   });
+    // } else
     if (item.hasSubBooks) {
       navigation.push("HomepageScreen", {
         bookPath: item.BookPath,

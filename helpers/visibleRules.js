@@ -158,10 +158,15 @@ const FeastsAndFastsOfStMary = (motherSource, path) => {
   if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
     return true;
   }
+  console.log(motherSource);
+  console.log(path);
   switch (currentSeason.key) {
     case FeastEnum.FAST_STMARY:
     case FeastEnum.ASSUMPTION_STMARY:
-      return true;
+      if (path.toLowerCase()?.includes(motherSource)) {
+        return true;
+      }
+
     default:
       return false;
   }
@@ -196,6 +201,9 @@ const isStandardSeason = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   switch (currentSeason.key) {
     case "STANDARD":
+      if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
+        return false;
+      }
       return true;
     case "FAST_OF_APOSTLES":
     case "FEAST_OF_APOSTLES":

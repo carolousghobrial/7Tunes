@@ -59,6 +59,7 @@ const HeaderRightButtons = ({ onPressSettings, onPressContents }) => (
 );
 const BookScreen = React.memo(({ navigation, route }) => {
   const { height, width } = useWindowDimensions();
+  const contentsRef = useRef(null);
 
   const flatListRef = useRef();
   const {
@@ -186,6 +187,10 @@ const BookScreen = React.memo(({ navigation, route }) => {
 
   const contentsPressed = useCallback(() => {
     contentsSheetRef?.current.present();
+
+    if (contentsRef.current) {
+      contentsRef.current.scrollToMenuKey(10); // Example key
+    }
   }, [contentsSheetRef]);
 
   const contentsClose = useCallback(() => {
@@ -325,6 +330,7 @@ const BookScreen = React.memo(({ navigation, route }) => {
     <BottomSheetModalProvider>
       <SettingsModal bottomSheetRef={bottomSheetRef} snapPoints={snapPoints} />
       <ContentsModal
+        ref={contentsRef}
         bottomSheetRef={contentsSheetRef}
         snapPoints={snapPoints}
         currentKey={currKey}

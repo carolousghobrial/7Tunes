@@ -18,12 +18,12 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "South",
-      "Arabic": "نعظمك كل يوم قائلين. مع غبريال . إفرحى يا ممتلئة نعمة . الرب معك .",
-      "Coptic": "Tensici `mmo `mmhni `mmhni > enjw `mmoc nem Gabrihl > je xere ke Xaritwmenh > `oKurioc metacou .",
-      "English": "We exalt you day by day, saying with Gabriel, \"Hail to you O full of grace, the Lord is with you.\"",
-      "Arabiccoptic": "تين تشيسى إممو إممينى إممينى. إنجو إمموس نيم غابرييل. جى شيرى كى خاريتومينى. أوكيريوس ميطاسو.",
-      "Englishcoptic": "Yen chisi emmo emmini emmini, engo emmos nem Ghabriel, je shere ke kharito meni, o kyrios metaso."
+      "Side": "North",
+      "Arabic": "نعظمكِ بإستحقاق، مع أليصابات نسيبتِك قائلين، \"مباركة أنتِ في النساء، ومباركة هي ثمرة بطنِك.\"",
+      "Coptic": "Tensici `mmo =en ouem`psa> nem `Elicabet tecuggenhc> je te`cmarwout `nqo =en ni\\iomi> `f`cmarwout `nje `pouta\\ `nte teneji.",
+      "English": "We magnify you worthily, with Elizabeth your cousin saying, \"Blessed are you among women, and blessed is the fruit of your womb.\"",
+      "Arabiccoptic": "تين إتشيسى إممو خين أوإمبشا . نيم أليصابيت تى سينجينيس . جى تى إسماروؤت إنثو خين نى هيومى . إفزماروؤت إنجى إبؤطاه إنتى تى نيجى .",
+      "Englishcoptic": "Tenit-shesi emmo khen o-emipsha, nem elee-sabet te-sen-genis, je tis-maroot entho khenni-heyomi, efis-maroot enje ep-otah ente-te-neje."
     },
     {
       "Type": "Base",

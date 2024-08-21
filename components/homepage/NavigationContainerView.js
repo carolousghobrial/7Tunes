@@ -17,6 +17,7 @@ import {
 } from "../../helpers/SettingsHelpers";
 import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
 import HomepageScreen from "../../screens/HomepageScreen";
+import VenerationSelectionScreen from "../../screens/VenerationSelectionScreen";
 import BookScreen from "../../screens/BookScreen";
 import Onboarding from "../../screens/OnBoardingScreen.js";
 import ViewSingleHymn from "../../screens/ViewSingleHymn";
@@ -152,6 +153,10 @@ function NavigationContainerView({ dispatch }) {
           }}
         />
         <Stack.Screen name="BookScreen" component={BookScreen} />
+        <Stack.Screen
+          name="VenerationSelectionScreen"
+          component={VenerationSelectionScreen}
+        />
         <Stack.Screen name="ContentsModal" component={ContentsModal} />
         <Stack.Screen name="SettingsModal" component={SettingsModal} />
         <Stack.Screen name="ViewSingleHymn" component={ViewSingleHymn} />

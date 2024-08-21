@@ -16,7 +16,7 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
+      "Side": "Refrain",
       "Arabic": " هذه هى صورة والدة الإله مريم أمّ إبن الله.",
       "Coptic": "Vai pe `plumen> `w ;qe`otokoc> Mari`a qmau `nUioc Qeoc.",
       "English": " This is the image of the mother of God, Mary the mother of the Son of God.",
@@ -38,12 +38,34 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": " هذه هى صورة والدة الإله مريم أمّ إبن الله.",
+      "Coptic": "Vai pe `plumen> `w ;qe`otokoc> Mari`a qmau `nUioc Qeoc.",
+      "English": " This is the image of the mother of God, Mary the mother of the Son of God.",
+      "Arabiccoptic": "فاى بى إبليمين أوتى ثيؤطوكوس. ماريا إثماف إن إيوس ثيؤس.",
+      "Englishcoptic": "Fai pe eplemin, o ti theo-tokos, Maria ethmave en eios theos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": " صابرة هذه العذراء وحسنة هى بتوليتها.",
       "Coptic": "Cunterben `etai parqenoc> \\an`qmeten nac `ntecparqeni`a.",
       "English": " Perserverant is the virgin and well is her virginity.",
       "Arabiccoptic": " سين تير فى إيطاى بارثينوس. هان إثميت إن ناس إنتيس بارثينيا.",
       "Englishcoptic": "Sen ter ven etai parthenos, han ethme ten nas entes parthenia."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": " هذه هى صورة والدة الإله مريم أمّ إبن الله.",
+      "Coptic": "Vai pe `plumen> `w ;qe`otokoc> Mari`a qmau `nUioc Qeoc.",
+      "English": " This is the image of the mother of God, Mary the mother of the Son of God.",
+      "Arabiccoptic": "فاى بى إبليمين أوتى ثيؤطوكوس. ماريا إثماف إن إيوس ثيؤس.",
+      "Englishcoptic": "Fai pe eplemin, o ti theo-tokos, Maria ethmave en eios theos."
     },
     {
       "Type": "Base",
@@ -60,12 +82,34 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": " هذه هى صورة والدة الإله مريم أمّ إبن الله.",
+      "Coptic": "Vai pe `plumen> `w ;qe`otokoc> Mari`a qmau `nUioc Qeoc.",
+      "English": " This is the image of the mother of God, Mary the mother of the Son of God.",
+      "Arabiccoptic": "فاى بى إبليمين أوتى ثيؤطوكوس. ماريا إثماف إن إيوس ثيؤس.",
+      "Englishcoptic": "Fai pe eplemin, o ti theo-tokos, Maria ethmave en eios theos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": " وأعطاها الخيرات التى لم ترها عين.",
       "Coptic": "Af; nac `nni`agaqon> nh`ete `mpebalnau `erwou.",
       "English": " And gave her all goodness which no eye has seen.",
       "Arabiccoptic": " أفتى ناس إن نى أغاثون. نى إيتى إمبى فال ناف إيروؤ.",
       "Englishcoptic": "Afti nas en ni aghathon, ni ete empi val nav ero o."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": " هذه هى صورة والدة الإله مريم أمّ إبن الله.",
+      "Coptic": "Vai pe `plumen> `w ;qe`otokoc> Mari`a qmau `nUioc Qeoc.",
+      "English": " This is the image of the mother of God, Mary the mother of the Son of God.",
+      "Arabiccoptic": "فاى بى إبليمين أوتى ثيؤطوكوس. ماريا إثماف إن إيوس ثيؤس.",
+      "Englishcoptic": "Fai pe eplemin, o ti theo-tokos, Maria ethmave en eios theos."
     },
     {
       "Type": "Base",
@@ -82,12 +126,34 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": " هذه هى صورة والدة الإله مريم أمّ إبن الله.",
+      "Coptic": "Vai pe `plumen> `w ;qe`otokoc> Mari`a qmau `nUioc Qeoc.",
+      "English": " This is the image of the mother of God, Mary the mother of the Son of God.",
+      "Arabiccoptic": "فاى بى إبليمين أوتى ثيؤطوكوس. ماريا إثماف إن إيوس ثيؤس.",
+      "Englishcoptic": "Fai pe eplemin, o ti theo-tokos, Maria ethmave en eios theos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": " أنت هى خلاص آدم وجميع بنيه.",
       "Coptic": "` Nqo gar oucw; `n` Adam> nem nef]hri throu eucop.",
       "English": " You are Adam’s salvation and all his children.",
       "Arabiccoptic": " إنثو غار أوسوتى إن آدام. نيم نيف شيرى تيرو إفسوب.",
       "Englishcoptic": "Entho ghar o cooti en Adam, nem nef sheri tiro evsop."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": " هذه هى صورة والدة الإله مريم أمّ إبن الله.",
+      "Coptic": "Vai pe `plumen> `w ;qe`otokoc> Mari`a qmau `nUioc Qeoc.",
+      "English": " This is the image of the mother of God, Mary the mother of the Son of God.",
+      "Arabiccoptic": "فاى بى إبليمين أوتى ثيؤطوكوس. ماريا إثماف إن إيوس ثيؤس.",
+      "Englishcoptic": "Fai pe eplemin, o ti theo-tokos, Maria ethmave en eios theos."
     },
     {
       "Type": "Base",
@@ -104,12 +170,34 @@
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
+      "Side": "Refrain",
+      "Arabic": " هذه هى صورة والدة الإله مريم أمّ إبن الله.",
+      "Coptic": "Vai pe `plumen> `w ;qe`otokoc> Mari`a qmau `nUioc Qeoc.",
+      "English": " This is the image of the mother of God, Mary the mother of the Son of God.",
+      "Arabiccoptic": "فاى بى إبليمين أوتى ثيؤطوكوس. ماريا إثماف إن إيوس ثيؤس.",
+      "Englishcoptic": "Fai pe eplemin, o ti theo-tokos, Maria ethmave en eios theos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
       "Arabic": " مريم فرح الملائكة مريم فخر الرسل.",
       "Coptic": "Mari`a `vra]i `nniaggeloc> Mari`a `p]ou]ou `nniapoc toloc.",
       "English": " Mary is the joy of angels. Mary is the joy of the apostles.",
       "Arabiccoptic": " ماريا إفراشى إن نى أنجيلوس. ماريا إبشوشو إن نى أبوسطولوس.",
       "Englishcoptic": "Maria efrashy en ni angelos, Maria ep shosho en ni apostolos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Refrain",
+      "Arabic": " هذه هى صورة والدة الإله مريم أمّ إبن الله.",
+      "Coptic": "Vai pe `plumen> `w ;qe`otokoc> Mari`a qmau `nUioc Qeoc.",
+      "English": " This is the image of the mother of God, Mary the mother of the Son of God.",
+      "Arabiccoptic": "فاى بى إبليمين أوتى ثيؤطوكوس. ماريا إثماف إن إيوس ثيؤس.",
+      "Englishcoptic": "Fai pe eplemin, o ti theo-tokos, Maria ethmave en eios theos."
     }
   ]
 }
