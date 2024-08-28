@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز5:88، 15):-",
+  "EnglishTitle": "Psalms 89:5, 15",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"  تعترف لك السموات بعجائبك يارب، وبحقك في كنيسة القديسين،",
+      "English": "5 And the heavens will praise Your wonders, O Lord; Your faithfulness also in the assembly of the saints.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " طوبى للشعب الذي يعرف التهليل، وبنور وجهك يسلكون. هلليلويا \"",
+      "English": "15 Blessed are the people who know the joyful sound! They walk, O Lord, in the light of Your countenance.     Alleluia\r"
+    }
+  ]
+}

@@ -21,7 +21,7 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "إصعدي صلُّواتنا، إلى إبنِكِ الحبيب، ليغفر لنا خطايانا.",
-      "Coptic": " Aniou`i `nte`proc`euxh> `e`p]wi \\a pe]hri `mmenrit> `ntefxa nennobi nan `ebol.",
+      "Coptic": " Aniou`i `nten`proc`euxh> `e`p]wi \\a pe]hri `mmenrit> `ntefxa nennobi nan `ebol.",
       "English": "To lift up our prayers : unto your beloved Son : that He may forgive us our sins.",
       "Arabiccoptic": "آنيؤوى إنتين إبروس إفكى اإبشوى هابى شيرى. إم مينريت: إنتيف كانين نوفى نان إيفول.",
       "Englishcoptic": "Ani ou oi enten epros evshi, e epshoi ha peshiry em menrit, entef ka nen novi nan evol."
@@ -43,10 +43,10 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "إسألي الرب عنا، ليصنع رحمةً مع نفوسنا، ويغفر لنا خطايانا.",
-      "Coptic": "Ma;\\o `mPsoic `e`\\rhi `ejwn> `ntef`er ounai nem nenyuxh> `ntefxa nennobi nan `ebol.",
+      "Coptic": "Ma;\\o `Psoic `e`\\rhi `ejwn> `ntef`er ounai nem nenyuxh> `ntefxa nennobi nan `ebol.",
       "English": "Ask the Lord : on our behalf : that He may have mercy on our souls : and forgive us our sins.",
       "Arabiccoptic": "ماتى هو إم إبشويس: إإرى إيجون: إنتيف إيرأو ناى نيم نين إبسيشى: إنتيف كانين نوفى نان إيفول.",
-      "Englishcoptic": "Mati ho em epshois, e ehri egon, entef er o nai nem nen epsiky, entef ka nen novi nan evol."
+      "Englishcoptic": "Mati ho e-epshois, e ehri egon, entef er o nai nem nen epsiky, entef ka nen novi nan evol."
     },
     {
       "Type": "Base",

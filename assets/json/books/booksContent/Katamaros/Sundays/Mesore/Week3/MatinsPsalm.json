@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " (مز1:14-3):-",
+  "EnglishTitle": "Psalms 15:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"  يارب من يسكن في مسكنك، أو من يحل في جبل قدسك،",
+      "English": "15:1 Lord, who may abide in Your tabernacle? Who may dwell in Your holy hill? \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " إلا السالك بلا عيب، الذي يعمل البر ويتكلم الحق في قلبه. هلليلويا  \"",
+      "English": "2 He who walks uprightly, And works righteousness, And speaks the truth in his heart;.     Alleluia\r"
+    }
+  ]
+}

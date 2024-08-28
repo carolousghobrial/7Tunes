@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز11:88، 12):-",
+  "EnglishTitle": "Psalms 89:11-12, 13",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" لك هي السموات، ولك هي الأرض أيضًا، أنت أسست المسكونة وكمالها،",
+      "English": "11 The heavens are Yours, the earth also is Yours; The world and all its fullness, You have founded them. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أنت خلقت الشمال والبحر،",
+      "English": "12 The north and the south, You have created them.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فلتعتز يدك ولترفع يمينك. هلليلويا  \"",
+      "English": "13 Strong is Your hand, and high is Your right hand.     Alleluia\r"
+    }
+  ]
+}

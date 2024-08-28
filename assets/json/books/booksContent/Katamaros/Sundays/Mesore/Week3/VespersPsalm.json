@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز7:5، 11):-",
+  "EnglishTitle": "Psalms 5:7, 11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" وأنا بكثرة رحمتك، أدخل إلى بيتك وأسجد قدام هيكلك المقدس،",
+      "English": "7 I will come into Your house in the multitude of Your mercy; In fear of You I will worship toward Your holy temple.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وليفرح جميع المتكلين عليك، إلى الأبد يسرون. هلليلويا \"",
+      "English": "11 But let all those rejoice who put their trust in You; Let them ever shout for joy.     Alleluia\r"
+    }
+  ]
+}

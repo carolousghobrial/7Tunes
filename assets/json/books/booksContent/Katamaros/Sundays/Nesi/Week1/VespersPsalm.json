@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز13:40، 12):-",
+  "EnglishTitle": "Psalms 41:13, 12",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" 13- مبارك الرب اله اسرائيل من الازل و الى الابد امين فامين",
+      "English": "13 Blessed be the Lord God of Israel From everlasting to everlasting! Amen and Amen.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 12- اما انا فبكمالي دعمتني و اقمتني قدامك الى الابد.  \"",
+      "English": "12 As for me, You uphold me in my integrity, And set me before Your face forever.     Alleluia\r"
+    }
+  ]
+}

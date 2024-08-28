@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز14:79، 15):-",
+  "EnglishTitle": "Psalms 80:14-15",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"  يارب إله القوات ارجع واطلع من السماء، وانظر وتعهد هذه الكرمة، أصلحها وثبتها،",
+      "English": "14 Return, we beseech You, O God of hosts; Look down from heaven and see, And visit this vine \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " هذه التي غرستها يمينك. هلليلويا \"",
+      "English": "15 And the vineyard which Your right hand has planted.     Alleluia\r"
+    }
+  ]
+}

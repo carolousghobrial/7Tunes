@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز22:32، 18):-",
+  "EnglishTitle": "Psalms 33:22, 18",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"  22- لتكن يا رب رحمتك علينا حسبما انتظرناك.",
+      "English": "22 Let Your mercy, O Lord, be upon us, Just as we hope in You.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 18- هوذا عين الرب على خائفيه الراجين رحمته  \"",
+      "English": "18 Behold, the eye of the Lord is on those who fear Him, On those who hope in His mercy,.     Alleluia\r"
+    }
+  ]
+}

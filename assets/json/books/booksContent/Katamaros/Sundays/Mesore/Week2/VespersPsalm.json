@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز124:118، 125):-",
+  "EnglishTitle": "Psalms 119:145-146",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" صرخت من كل قلبي، فارحمني واستجب لي،",
+      "English": "145 I cry out with my whole heart; Hear me, O Lord! I will keep Your statutes. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " صرخت إليك فخلصني، واحفظ شهاداتك. هلليلويا  \"",
+      "English": "146 I cry out to You; Save me, and I will keep Your testimonies.     Alleluia\r"
+    }
+  ]
+}

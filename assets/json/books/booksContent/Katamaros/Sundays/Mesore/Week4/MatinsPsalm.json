@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز1:89، 2):-",
+  "EnglishTitle": "Psalms 90:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" يارب ملجأ كنت لنا من جيل إلى جيل،",
+      "English": "90:1 Lord, You have been our dwelling place in all generations. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " من قبل أن تكون الجبال، قبل أن تخلق الأرض والمسكونة. هلليلويا  \"",
+      "English": "2 Before the mountains were brought forth, Or ever You had formed the earth and the world.     Alleluia\r"
+    }
+  ]
+}

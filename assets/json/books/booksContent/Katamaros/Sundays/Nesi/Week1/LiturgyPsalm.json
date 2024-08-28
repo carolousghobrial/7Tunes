@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز27:101،25،26):-",
+  "EnglishTitle": "Psalms 102:24-26",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من جيل الى جيل سنوكَ",
+      "English": "24 Your years are throughout all generations \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "انت يا رب مُنذ البدء اسستَ الارضَ و السماواتُ هي اعمال يديك",
+      "English": "25 Of old You laid the foundation of the earth, And the heavens are the work of Your hands. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هي تبيد و انت تبقى",
+      "English": "26 They will perish, but You will endure.     Alleluia\r"
+    }
+  ]
+}

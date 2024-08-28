@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز12:101، 24):-",
+  "EnglishTitle": "Psalms 102:12, 23-24",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" 12- اما أنت يا رب كائن الى الابد و ذكرك الى أجيال الاجيال .",
+      "English": "12 But You, O Lord, shall endure forever, And the remembrance of Your name to all generations.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اخبرني عن قلة ايامي",
+      "English": "23 He shortened my days \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "و لا تنزعني في نصف ايامي",
+      "English": "24 I said, O my God, Do not take me away in the midst of my days.     Alleluia\r"
+    }
+  ]
+}

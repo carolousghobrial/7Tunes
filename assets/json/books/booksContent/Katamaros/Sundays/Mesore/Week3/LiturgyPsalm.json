@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز2:27، 6):-",
+  "EnglishTitle": "Psalms 28:2, 7, 6",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" استمع يارب صوت تضرعي،",
+      "English": "2 Hear the voice of my supplications. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الرب هو عوني وناصري،",
+      "English": "7 The Lord is my strength and my shield. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " مبارك الرب الإله لأنه سمع صوت دعائي. هلليلويا  \"",
+      "English": "6 Blessed be the Lord, Because He has heard the voice of my supplications!.     Alleluia\r"
+    }
+  ]
+}
