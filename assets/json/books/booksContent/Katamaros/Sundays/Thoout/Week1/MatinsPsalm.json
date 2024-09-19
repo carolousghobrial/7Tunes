@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز1:30، 19):-",
+  "EnglishTitle": "Psalms 31:1, 19",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"عليك يارب توكلت فلا تخزني إلى الأبد، وبعدلك نجنى،",
+      "English": "31:1 In You, O Lord, I put my trust; Let me never be ashamed; Deliver me in Your righteousness.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ما أعظم كثرة صلاحك يارب، الذي ادخرته للذين يخافونك. هلليلويا \"",
+      "English": "19 Oh, how great is Your goodness, Which You have laid up for those who fear You.     Alleluia\r"
+    }
+  ]
+}

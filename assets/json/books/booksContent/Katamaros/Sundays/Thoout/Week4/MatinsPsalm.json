@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " (مز32: 18،17):-",
+  "EnglishTitle": "Psalms 33:20-21",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"  نفسنا تنتظر الرب في كل حين، لأنه هو معيننا وناصرنا، ",
+      "English": "20 Our soul waits for the Lord; He is our help and our shield. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبه يفرح قلبنا، لأننا على اسمه القدوس اتكلنا. هلليلويا \"",
+      "English": "21 For our heart shall rejoice in Him, Because we have trusted in His holy name.     Alleluia\r"
+    }
+  ]
+}

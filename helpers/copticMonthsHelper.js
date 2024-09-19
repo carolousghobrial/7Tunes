@@ -211,7 +211,7 @@ export function getCopticFastsFeasts(yearSelected, date) {
   var goodFriday = moment(palmSunday).add(5, "days");
   var LazarusSaturday = moment(palmSunday).subtract(1, "days");
 
-  if (isLeapYear(yearSelected)) {
+  if (isLeapYear(yearSelected + 1)) {
     nativityEnd = nativityEnd.add(1, "days");
     nativity2ndDay = nativity2ndDay.add(1, "days");
     circumcision = circumcision.add(1, "days");
@@ -919,7 +919,7 @@ function isLeapYear(year) {
 }
 
 function getCopticMonthDate(CopticMonthObject, year) {
-  var leapYear = isLeapYear(year);
+  var leapYear = isLeapYear(year + 1);
 
   var m = CopticMonthObject.month;
   var d = CopticMonthObject.day;
@@ -934,7 +934,8 @@ export function getCopticDate(year, monthIndex, day) {
   var copticMonthIndex = 0;
   var copticDay = day;
   var copticYear = year - 284;
-  var copticNewYearDay = isLeapYear(year) ? 12 : 11;
+  var copticNewYearDay = isLeapYear(year + 1) ? 12 : 11;
+  console.log(copticNewYearDay);
   // Coptic New Year
   if (monthIndex >= 8 && day >= copticNewYearDay) {
     copticYear++;
@@ -986,7 +987,7 @@ export function getCopticDateByDate(date) {
   var day = date.date();
   var copticDay = day;
   var copticYear = year - 284;
-  var copticNewYearDay = isLeapYear(year) ? 12 : 11;
+  var copticNewYearDay = isLeapYear(year + 1) ? 12 : 11;
   // Coptic New Year
   if (monthIndex >= 8 && day >= copticNewYearDay) {
     copticYear++;
@@ -1043,7 +1044,7 @@ export function getDateByCopticDate(copticMonth, copticDay) {
   ]).add(copticDay, "days");
 
   if (
-    isLeapYear(todaysMoment.year()) &&
+    isLeapYear(todaysMoment.year() + 1) &&
     returnDate.isBefore(moment([todaysMoment.year(), 2, 1]))
   ) {
     returnDate.add(1, "days");

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز4:29، 10)",
+  "EnglishTitle": "Psalms 30:4, 10",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " \" رتلوا للرب يا جميع قديسيه، واعترفوا لذكر قدسه، ",
+      "English": "4 Sing praise to the Lord, You saints of His, And give thanks at the remembrance of His holy name.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سمع الرب فرحمني، الرب صار لي عونًا. هلليلويا \"",
+      "English": "10 Hear, O Lord, and have mercy on me; Lord, be my helper!.     Alleluia\r"
+    }
+  ]
+}

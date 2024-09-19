@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز27: 9):-",
+  "EnglishTitle": "Psalms 28:8-9",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"  الرب عزٌ لشعبه، وهو موآزر خلاص مسيحه،",
+      "English": "8 The Lord is their strength, And He is the saving refuge of His anointed. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " خلص شعبك وبارك ميراثك، ارعهم ارفعهم إلى الأبد. هلليلويا \"",
+      "English": "9 Save Your people, And bless Your inheritance; Shepherd them also, And bear them up forever.     Alleluia\r"
+    }
+  ]
+}

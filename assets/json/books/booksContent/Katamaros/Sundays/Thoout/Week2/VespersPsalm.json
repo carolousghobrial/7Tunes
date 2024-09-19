@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " (مز7: 13،12):-",
+  "EnglishTitle": "Psalms 7:10-11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"صادقة هي معونتي من عند الله، المنجى مستقيمي القلوب،",
+      "English": "10 My defense is of God, Who saves the upright in heart. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الله قاضٍ عادلٌ، وقوى وطويل الروح. هلليلويا \"",
+      "English": "11 God is a just judge, And God is angry with the wicked every day.     Alleluia\r"
+    }
+  ]
+}

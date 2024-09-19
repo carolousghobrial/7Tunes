@@ -25,7 +25,7 @@ const Languages = {
     englishdescription: "Display the English words in the English Language",
     Epep: "Epep",
     facebook: "Facebook Page",
-    fullFeasts: "Calender",
+    fullFeasts: "Calendar",
     searchPage: "Search Page",
     fontsizelabel: "Font Size: ",
     fontsizeselector: "Select Font Size",

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز32: 5،4):-",
+  "EnglishTitle": "Psalms 33:4-5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" لأن كلمة الرب مستقيمة، وكل أعماله بالأمانة، يحب الرحمة والحكم،",
+      "English": "4 For the word of the Lord is right, And all His work is done in truth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " امتلأت الأرض من رحمة الرب. هلليلويا\"",
+      "English": "5 He loves righteousness and justice; The earth is full of the goodness of the Lord.     Alleluia\r"
+    }
+  ]
+}

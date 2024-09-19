@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز9: 1)",
+  "EnglishTitle": "Psalms 9:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" و\" أعترف لك يارب من كل قلبي، وأحدث بجميع عجائبك،",
+      "English": "9:1 I will praise You, O Lord, with my whole heart; I will tell of all Your marvelous works. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أفرح وأتهلل بك، أرتل لاسمك أيها العلى. هلليلويا \"",
+      "English": "2 I will be glad and rejoice in You; I will sing praise to Your name, O Most High.     Alleluia\r"
+    }
+  ]
+}

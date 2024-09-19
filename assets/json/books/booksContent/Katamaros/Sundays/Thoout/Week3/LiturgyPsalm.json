@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز17: 50،49،46):-",
+  "EnglishTitle": "Psalms 18:46, 49",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"  46- حي هو الرب و مبارك صخرتي و مرتفع اله خلاصي.  لذلك احمدك يا رب في الامم و ارنم لاسمك ",
+      "English": "46 The Lord lives! Blessed be my Rock! Let the God of my salvation be exalted.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "50- برج خلاص لملكه و الصانع رحمة لمسيحه لداود و نسله الى الابد  \"",
+      "English": "49 Therefore I will give thanks to You, O Lord, among the Gentiles, And sing praises to Your name.     Alleluia\r"
+    }
+  ]
+}
