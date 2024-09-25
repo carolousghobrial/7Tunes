@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز 45 : 6، 17)",
+  "EnglishTitle": "Psalms 45:6, 17",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " \" كرسيك يا الله إلى دهر الدهور، قضيب استقامة هو قضيب ملكك،",
+      "English": "6 Your throne, O God, is forever and ever; A scepter of righteousness is the scepter of Your kingdom.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " من أجل ذلك تعترف لك الشعوب يا الله، إلى الدهر وإلى دهر الداهرين. هلليلويا \"",
+      "English": "17 Therefore the people shall praise You forever and ever.    "
+    }
+  ]
+}

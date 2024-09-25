@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز 111 : 1)",
+  "EnglishTitle": "Psalms 112:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" طوبى للرجل الخائف الرب، ويهوى وصاياه جدًا، ",
+      "English": "112:1 Blessed is the man who fears the Lord, Who delights greatly in His commandments \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يقوى زرعه على الأرض، ويُبارك جيل المستقيمين. هلليلويا \"",
+      "English": "2 His descendants will be mighty on earth; The generation of the upright will be blessed.    "
+    }
+  ]
+}

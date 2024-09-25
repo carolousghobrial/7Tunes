@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور القداس: (مز 65 : 11، 12)",
+  "EnglishTitle": "Psalms 65:11, 81:1",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"تبارك إكليل السنة بصلاحك، وبقاعك تمتلئ من الدسم،",
+      "English": "11 You crown the year with Your goodness, And Your paths drip with abundance.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ابتهجوا بالله معيننا.هللوا لإله يعقوب هلليلويا \"",
+      "English": "81:1 Sing aloud to God our strength; Make a joyful shout to the God of Jacob.    "
+    }
+  ]
+}

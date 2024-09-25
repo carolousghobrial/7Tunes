@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز 74 : 2، 12)",
+  "EnglishTitle": "Psalms 74:2, 12",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " \"افتديت قضيب ميراثك، جبل صهيون هذا الذي سكنت فيه،",
+      "English": "2 Remember Your congregation, which You have purchased of old, The tribe of Your inheritance, which You have redeemed--This Mount Zion where You have dwelt.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أما الله فهو ملكنا قبل الدهور. صنعت خلاصًا في وسط الأرض. هلليلويا \"",
+      "English": "12 For God is my King from of old, Working salvation in the midst of the earth.    "
+    }
+  ]
+}

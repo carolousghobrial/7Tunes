@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز67: 25،24)",
+  "EnglishTitle": "Psalms 68:25-26",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" يُبادر الرؤساء إلى كل المرتلين، في وسط صبايا ضارباتٍ بالدفوف،",
+      "English": "25 The singers went before, the players on instruments followed after; Among them were the maidens playing timbrels. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " في الكنائس باركوا الله، والرب من ينابيع إسرائيل. هلليلويا \"",
+      "English": "26 Bless God in the congregations, The Lord, from the fountain of Israel.    "
+    }
+  ]
+}

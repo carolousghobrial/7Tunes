@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز88: 13، 16):",
+  "EnglishTitle": "Psalms 89:24, 19",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" حقي ورحمتي معه، وبإسمى يرتفع قرنه،",
+      "English": "24 But My faithfulness and My mercy shall be with him, And in My name his horn shall be exalted.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " حينئذٍ بالوحي تكملت مع بنيك، وقلت إني وضعت عونًا على القوى. هلليلويا \"",
+      "English": "19 Then You spoke in a vision to Your holy one, And said: I have given help to one who is mighty.    "
+    }
+  ]
+}

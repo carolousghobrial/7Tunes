@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز4: 8،3)",
+  "EnglishTitle": "Psalms 4:3, 6-7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أعلموا إن الرب قد جعل باره عجبًا،",
+      "English": "3 But know that the Lord has set apart for Himself him who is godly; The Lord will hear when I call to Him.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الرب يستجيب لي إذا ما صرخت إليه،",
+      "English": "6 Lord, lift up the light of Your countenance upon us \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " قد ارتسم علينا نور وجهك يارب، أعطيت سرورًا لقلبي. هلليلويا \"",
+      "English": "7 You have put gladness in my heart.    "
+    }
+  ]
+}

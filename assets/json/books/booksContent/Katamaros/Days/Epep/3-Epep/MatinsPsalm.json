@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز 72: 17، 18، 21)",
+  "EnglishTitle": "Psalms 73:23-24, 28, 9:14",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أمسكت بيدي اليمنى، وبمشورتك أهديتني وبالمجد قبلتني،",
+      "English": "23 You hold me by my right hand \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وأنا فخير لي الالتصاق بالله وأن أجعل على الرب إتكالى،",
+      "English": "24 You will guide me with Your counsel, And afterward receive me to glory.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأخبر بكل تسابيحك في أبواب ابنة صهيون. هلليلويا \"",
+      "English": "28 But it is good for me to draw near to God; I have put my trust in the Lord God.\r"
+    }
+  ]
+}

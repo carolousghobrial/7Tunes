@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز 103 : 13، 16)",
+  "EnglishTitle": "Psalms 102:13, 16, 17",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"أنت يا الله ترجع وتتراءف على صهيون، لأنه وقت التراؤف عليها لأن الزمان قد حضر، ",
+      "English": "13 You will arise and have mercy on Zion; For the time to favor her, Yes, the set time, has come.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأن الرب يبنى صهيون ويظهر بمجده، لأنه نظر إلى صلاة المساكين. هلليلويا\"",
+      "English": "16 For the Lord shall build up Zion; He shall appear in His glory.\r"
+    }
+  ]
+}

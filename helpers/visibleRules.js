@@ -158,8 +158,6 @@ const FeastsAndFastsOfStMary = (motherSource, path) => {
   if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
     return true;
   }
-  console.log(motherSource);
-  console.log(path);
   switch (currentSeason.key) {
     case FeastEnum.FAST_STMARY:
     case FeastEnum.ASSUMPTION_STMARY:
@@ -754,9 +752,7 @@ const showLitanyOfOblations = (motherSource, path) => {
   }
   return false;
 };
-const ProphecyShow = (motherSource, path) => {
-  //console.log(motherSource);
-};
+const ProphecyShow = (motherSource, path) => {};
 const isLentWeekdayOrJonah = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 

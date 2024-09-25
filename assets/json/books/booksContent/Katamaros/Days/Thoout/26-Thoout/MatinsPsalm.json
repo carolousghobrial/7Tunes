@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز 102 : 19، 21)",
+  "EnglishTitle": "Psalms 102:19-20, 21",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"19- لأنه اشرف من علو قدسه الرب من السماء إلى الأرض نظر.",
+      "English": "19 From heaven the Lord viewed the earth \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 21- لكي يحدث في صهيون باسم الرب",
+      "English": "20 To hear the groaning of the prisoner.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " و بتسبيحه في أورشليم  \"",
+      "English": "21 To declare the name of the Lord in Zion, And His praise in Jerusalem,.    "
+    }
+  ]
+}

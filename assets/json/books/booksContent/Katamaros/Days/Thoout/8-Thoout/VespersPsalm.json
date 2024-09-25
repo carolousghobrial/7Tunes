@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز 105 : 14، 15)",
+  "EnglishTitle": "Psalms 105:14-15",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" لم يترك إنسانًا يظلمهم، وبكت ملوكًا من أجلهم،",
+      "English": "14 He permitted no one to do them wrong; Yes, He rebuked kings for their sakes, \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " قائلًا لا تمسوا مسحائي، ولا تسيئوا إلى أنبيائي. هلليلويا \"",
+      "English": "15 Saying, Do not touch My anointed ones, And do My prophets no harm.    "
+    }
+  ]
+}

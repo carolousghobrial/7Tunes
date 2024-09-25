@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز4: 7-9)",
+  "EnglishTitle": "Psalms 4:6-7, 8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" 7- اما انا فبكثرة رحمتك ادخل بيتك اسجد في هيكل قدسك بخوفك. ",
+      "English": "6 Lord, lift up the light of Your countenance upon us \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "8- يا رب اهدني الى برك بسبب اعدائي سهل قدامي طريقك.",
+      "English": "7 You have put gladness in my heart.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 9- لانه ليس في افواههم صدق جوفهم هوة حلقهم قبر مفتوح السنتهم صقلوها. \"",
+      "English": "8 For You alone, O Lord, make me dwell in safety.    "
+    }
+  ]
+}

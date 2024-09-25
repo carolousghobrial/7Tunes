@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز 96 : 1، 2)",
+  "EnglishTitle": "Psalms 96:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " سبحوا الرب تسبيحًا جديدًا، سبحوا الرب يا كل الأرض،",
+      "English": "96:1 Oh, sing to the Lord a new song! Sing to the Lord, all the earth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " سبحوا الرب وباركوا اسمه، بشروا من يوم إلى يوم بخلاصه. هلليلويا \"",
+      "English": "2 Sing to the Lord, bless His name; Proclaim the good news of His salvation from day to day.    "
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز67: 35،34)",
+  "EnglishTitle": "Psalms 68:35, 3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" 34- اعطوا عزا لله على اسرائيل جلاله و قوته في الغمام.",
+      "English": "35 O God, You are more awesome than Your holy places. The God of Israel is He who gives strength and power to His people.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 35- مخوف أنت يا الله من مقادسك اله اسرائيل هو المعطي قوة و شدة للشعب مبارك الله  \"",
+      "English": "3 But let the righteous be glad; Let them rejoice before God; Yes, let them rejoice exceedingly.    "
+    }
+  ]
+}

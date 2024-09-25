@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور القداس (مز20: 5،3)",
+  "EnglishTitle": "Psalms 21:3, 5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أدركته ببركات صلاحك، ووضعت على رأسه إكليلًا من حجر كريم،",
+      "English": "3 For You meet him with the blessings of goodness; You set a crown of pure gold upon his head.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " مجده عظيم بخلاصك، مجدًا وبهاءًعظيمًا جعلت عليه. هلليلويا \"",
+      "English": "5 His glory is great in Your salvation; Honor and majesty You have placed upon him.    "
+    }
+  ]
+}

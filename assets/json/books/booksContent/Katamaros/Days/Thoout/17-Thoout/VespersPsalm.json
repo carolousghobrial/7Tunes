@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز 4 : 6، 8)",
+  "EnglishTitle": "Psalms 4:6-7, 8",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" قد ارتسم علينا نور وجهك يارب،",
+      "English": "6 Lord, lift up the light of Your countenance upon us \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أعطيت سرورًا لقلبي،",
+      "English": "7 You have put gladness in my heart.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأنك أنت وحدك يارب، أسكنتني على الرجاء. هلليلويا \"",
+      "English": "8 For You alone, O Lord, make me dwell in safety.    "
+    }
+  ]
+}

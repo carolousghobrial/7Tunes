@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز109: 5، 6، 8)",
+  "EnglishTitle": "Psalms 110:4, 7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" حلف الرب ولن يندم،  أنك أنت هو الكاهن إلى الأبد على طقس ملشيصاداق،",
+      "English": "4 The Lord has sworn And will not relent, You are a priest forever According to the order of Melchizedek.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لذلك يرفع رأسًا. هلليلويا \"",
+      "English": "7 Therefore He shall lift up the head.    "
+    }
+  ]
+}

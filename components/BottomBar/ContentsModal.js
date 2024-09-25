@@ -36,8 +36,6 @@ const ContentsModal = forwardRef(
 
     useImperativeHandle(ref, () => ({
       scrollToMenuKey: (key) => {
-        console.log("HEREEE");
-        console.log(flatListRef.current);
         flatListRef.current?.scrollToIndex({ animated: true, index: key });
       },
     }));

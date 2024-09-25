@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز33: 18، 19)",
+  "EnglishTitle": "Psalms 34:19-20",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" كثيرة هي أحزان الصديقين، ومن جميعها ينجيهم الرب،",
+      "English": "19 Many are the afflictions of the righteous, But the Lord delivers him out of them all. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يحفظ الرب جميع عظامهم، وواحدة منها لا تنكسر. هلليلويا \"",
+      "English": "20 He guards all his bones; Not one of them is broken.    "
+    }
+  ]
+}

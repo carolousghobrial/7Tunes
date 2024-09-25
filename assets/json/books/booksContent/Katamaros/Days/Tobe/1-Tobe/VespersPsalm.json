@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز5: 10-13)",
+  "EnglishTitle": "Psalms 5:11, 12",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" وليفرح جميع المتكلين عليك، وإلى الأبد يسرون،",
+      "English": "11 But let all those rejoice who put their trust in You; Let them ever shout for joy.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأنك أنت باركت الصديق يارب، مثل سلاح المسرة كللتنا. هلليلويا \"",
+      "English": "12 For You, O Lord, will bless the righteous; With favor You will surround him as with a shield.    "
+    }
+  ]
+}

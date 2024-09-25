@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز 16 : 10، 11)",
+  "EnglishTitle": "Psalms 16:10-11",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" لأنك لا تترك نفسي في الجحيم، ولا تدع قدوسك يرى فسادًا .",
+      "English": "10 For You will not leave my soul in Sheol, Nor will You allow Your Holy One to see corruption. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " قد عرفتني طرق الحياة. تملأني فرحًا من وجهك. هلليلويا \"",
+      "English": "11 You will show me the path of life; In Your presence is fullness of joy.    "
+    }
+  ]
+}

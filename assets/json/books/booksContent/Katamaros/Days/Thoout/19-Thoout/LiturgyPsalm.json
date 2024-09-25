@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز 6 : 2، 4)",
+  "EnglishTitle": "Psalms 61:2-3, 5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " \"على الصخرة رفعتني وأرشدتني،",
+      "English": "2 Lead me to the rock that is higher than I \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " صرت رجائي وبرجًا حصينًا،",
+      "English": "3 For You have been a shelter for me, A strong tower from the enemy.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأنك أنت يا الله استمعت صلاتي، أعطيت ميراثًا للذين يرهبون اسمك. هلليلويا \"",
+      "English": "5 For You, O God, have heard my vows; You have given me the heritage of those who fear Your name.    "
+    }
+  ]
+}

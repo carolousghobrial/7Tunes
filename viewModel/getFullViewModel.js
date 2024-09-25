@@ -32,6 +32,8 @@ export const keywords = [
   "[*BISHOP_PRESENT2*]",
   "[*BISHOP_PRESENT3*]",
 ];
+const DailyReadingCalendar = require("../assets/json/DailyReadingCalendar.json");
+
 export function getFullViewModel(motherSource, mother) {
   let arabicttl = "";
   let copticttl = "";
@@ -544,6 +546,7 @@ export function GetTodaysReadingPath(path) {
       }
     }
   } else if (isStandardSeasonWeekday) {
+    //KatamarosDaysEpep3ApipLiturgyActs
     if (currentSeason.key === "NATIVITY") {
       filePath = updateFilePath(`DaysKoiahk29`);
     } else if (currentSeason.key === "EPIPHANY") {
@@ -555,9 +558,26 @@ export function GetTodaysReadingPath(path) {
     } else if (currentSeason.key === "JONAH_FEAST") {
       filePath = updateFilePath(`JonahPassover`);
     } else {
-      filePath = updateFilePath(
-        `Days${currentSeason.copticMonth}${currentSeason.copticDay}`
-      );
+      //    //KatamarosDaysEpep3ApipLiturgyActs
+
+      const day =
+        DailyReadingCalendar[currentSeason.copticMonth][
+          currentSeason.copticDay.toString()
+        ];
+      if (day === "ok") {
+        filePath = updateFilePath(
+          `Days${
+            currentSeason.copticMonth
+          }${currentSeason.copticDay.toString()}`
+        );
+      } else {
+        // Extract the number
+        let number = day.match(/\d+/)[0];
+
+        // Extract the text
+        let text = day.match(/[a-zA-Z]+/)[0];
+        filePath = updateFilePath(`Days${text}${number}`);
+      }
     }
   } else if (isFifties) {
     //KatamarosFiftiesWeek3SundayLiturgyActs
@@ -600,8 +620,10 @@ export function GetTodaysReadingPath(path) {
       "EveningGospel",
     ];
     if (liturgyPaths.includes(path)) {
+      console.log(filePath + commonPart + path);
       return filePath + commonPart + path;
     } else {
+      console.log("HERE" + filePath);
       return filePath;
     }
   }

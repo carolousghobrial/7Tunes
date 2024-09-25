@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز8: 2، 3)",
+  "EnglishTitle": "Psalms 8:2, 3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" من أفواه الأطفال والرضعان، هيأت سبحًا،",
+      "English": "2 Out of the mouth of babes and nursing infants You have ordained strength.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأني أرى السموات أعمال يديك، القمر والنجوم أنت أسستها. هلليلويا  \"",
+      "English": "3 When I consider Your heavens, the work of Your fingers, The moon and the stars, which You have ordained,.    "
+    }
+  ]
+}

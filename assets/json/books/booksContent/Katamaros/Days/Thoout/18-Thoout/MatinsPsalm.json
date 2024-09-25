@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز118: 28،15)",
+  "EnglishTitle": "Psalms 118:28, 16",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أنت هو إلهي فأشكرك، إلهي أنت فأرفعك، ",
+      "English": "28 You are my God, and I will praise You; You are my God, I will exalt You.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يمين الرب صنعت القوة، يمين الرب رفعتني. هلليلويا \"",
+      "English": "16 The right hand of the Lord is exalted; The right hand of the Lord does valiantly.    "
+    }
+  ]
+}

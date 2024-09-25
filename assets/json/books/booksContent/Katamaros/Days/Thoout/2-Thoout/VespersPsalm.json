@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (8:52)",
+  "EnglishTitle": "Psalms 52:8, 9",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"وأنا مثل الزيتون المثمرة في بيت الله،",
+      "English": "8 But I am like a green olive tree in the house of God.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أتمسك باسمك فإنه صالح، قدام أبرارك. هلليلويا \"",
+      "English": "9 And in the presence of Your saints I will wait on Your name, for it is good.    "
+    }
+  ]
+}

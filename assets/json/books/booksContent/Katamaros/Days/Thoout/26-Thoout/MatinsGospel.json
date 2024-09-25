@@ -1,0 +1,39 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " إنجيل باكر (مر41:12-44)",
+  "EnglishTitle": "Mark 12:41-44",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " \"41- و جلس يسوع تجاه الخزانة و نظر كيف يلقي الجمع نحاسا في الخزانة كان أغنياء كثيرون يلقون كثيرا.",
+      "English": "41 Now Jesus sat opposite the treasury and saw how the people put money into the treasury. And many who were rich put in much. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 42- فجاءت أرملة فقيرة و ألقت فلسين قيمتهما ربع.",
+      "English": "42 Then one poor widow came and threw in two mites, which make a quadrans. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 43- فدعا تلاميذه و قال لهم الحق أقول لكم أن هذه الأرملة الفقيرة قد ألقت أكثر من جميع الذين القوا في الخزانة.",
+      "English": "43 So He called His disciples to Himself and said to them, Assuredly, I say to you that this poor widow has put in more than all those who have given to the treasury; \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 44- لان الجميع من فضلتهم القوا و أما هذه فمن أعوازها ألقت كل ما عندها كل معيشتها \"",
+      "English": "44 for they all put in out of their abundance, but she out of her poverty put in all that she had, her whole livelihood.     "
+    }
+  ]
+}

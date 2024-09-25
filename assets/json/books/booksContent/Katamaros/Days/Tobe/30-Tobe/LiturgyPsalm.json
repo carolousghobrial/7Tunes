@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز44: 16)",
+  "EnglishTitle": "Psalms 45:14-15",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" يدخلن إلى الملك عذارى في إثرها، جميع أقربائها إليه يقدمن،",
+      "English": "14 The virgins, her companions who follow her, shall be brought to You \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يبلغن بفرحٍ وابتهاج، يدخلن إلى هيكل الملك. هلليلويا \"",
+      "English": "15 With gladness and rejoicing they shall be brought; They shall enter the King's palace.    "
+    }
+  ]
+}

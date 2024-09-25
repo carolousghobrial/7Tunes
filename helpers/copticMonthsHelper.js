@@ -935,7 +935,6 @@ export function getCopticDate(year, monthIndex, day) {
   var copticDay = day;
   var copticYear = year - 284;
   var copticNewYearDay = isLeapYear(year + 1) ? 12 : 11;
-  console.log(copticNewYearDay);
   // Coptic New Year
   if (monthIndex >= 8 && day >= copticNewYearDay) {
     copticYear++;

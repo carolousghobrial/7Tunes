@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز 26 : 8، 7)",
+  "EnglishTitle": "Psalms 26:8, 7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " \" يارب أحببت جمال بيتك، وموضع مسكن مجدك،",
+      "English": "8 Lord, I have loved the habitation of Your house, And the place where Your glory dwells.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لكي أسمع صوت تسبحتك، وأنطق بجميع عجائبك. هلليلويا \"",
+      "English": "7 That I may proclaim with the voice of thanksgiving, And tell of all Your wondrous works.    "
+    }
+  ]
+}

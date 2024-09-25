@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز 99 : 6، 7)",
+  "EnglishTitle": "Psalms 99:6-7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"موسى وهارون في الكهنة، وصموئيل في الذين يدعون باسمه،",
+      "English": "6 Moses and Aaron were among His priests, And Samuel was among those who called upon His name; They called upon the Lord, and He answered them. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " كانوا يدعون الرب وهو كان يستجيب لهم، بعامود الغمام كان يكلمهم. هلليلويا\"",
+      "English": "7 He spoke to them in the cloudy pillar.    "
+    }
+  ]
+}

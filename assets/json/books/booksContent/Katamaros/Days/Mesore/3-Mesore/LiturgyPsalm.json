@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز60: 2،1)",
+  "EnglishTitle": "Psalms 61:1, 2-3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" استمع يا الله طلبتي، إصغ إلى صلاتي،",
+      "English": "61:1 Hear my cry, O God; Attend to my prayer.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " على الصخرة رفعتني وأرشدتني،",
+      "English": "2 Lead me to the rock that is higher than I \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " صرت رجائي وبرجًا حصينًا. هلليلويا  \"",
+      "English": "3 For You have been a shelter for me, A strong tower from the enemy.    "
+    }
+  ]
+}

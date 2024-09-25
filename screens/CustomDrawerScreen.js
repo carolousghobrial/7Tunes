@@ -40,9 +40,7 @@ const CustomDrawerScreen = (props) => {
         const isTablet =
           (await Device.getDeviceTypeAsync()) === 2 ? true : false;
         dispatch(setIsTablet({ isTablet }));
-      } catch (e) {
-        console.log(e);
-      }
+      } catch (e) {}
     }
     prepare();
   }, []);

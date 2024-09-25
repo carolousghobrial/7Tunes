@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز 99 : 5، 9)",
+  "EnglishTitle": "Psalms 99:9, 5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" ارفعوا الرب إلهنا واسجدوا في جبله المقدس، فإن الرب إلهنا قدوس،",
+      "English": "9 Exalt the Lord our God, And worship at His holy hill; For the Lord our God is holy.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ارفعوا الرب إلهنا، واسجدوا لموطئ قدميه. هلليلويا \"",
+      "English": "5 Exalt the Lord our God, And worship at His footstool.    "
+    }
+  ]
+}

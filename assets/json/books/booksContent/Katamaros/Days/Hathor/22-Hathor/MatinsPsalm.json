@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز 112 : 1)",
+  "EnglishTitle": "Psalms 113:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" سبحوا الرب أيها الفتيان، سبحوا لاسم الرب،",
+      "English": "113:1 Praise the Lord! Praise, O servants of the Lord, Praise the name of the Lord! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ليكن اسم الرب مباركًا، من الآن وإلى الأبد. هلليلويا \"",
+      "English": "2 Blessed be the name of the Lord From this time forth and forevermore!.    "
+    }
+  ]
+}

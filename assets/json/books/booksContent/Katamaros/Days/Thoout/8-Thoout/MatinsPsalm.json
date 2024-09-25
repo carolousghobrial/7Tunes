@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز 105 : 26، 27)",
+  "EnglishTitle": "Psalms 105:26-27, 45",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أرسل موسى عبده، وهارون الذي أختاره،",
+      "English": "26 He sent Moses His servant, And Aaron whom He had chosen. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " جعل فيهما أقوال آياته وعجائبه،",
+      "English": "27 They performed His signs among them, And wonders.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " كي يحفظوا حقوقه ويطلبوا ناموسه. هلليلويا \"",
+      "English": "45 That they might observe His statutes And keep His laws.    "
+    }
+  ]
+}

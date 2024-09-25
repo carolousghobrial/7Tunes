@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز 9 : 11، 13)",
+  "EnglishTitle": "Psalms 9:11, 14",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"رتلوا للرب الساكن في صهيون، وأخبروا في الأمم بكل أعماله،",
+      "English": "11 Sing praises to the Lord, who dwells in Zion! Declare His deeds among the people.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لكي ما أخبر بجميع تسابيحك، في أبواب ابنة صهيون. هلليلويا \"",
+      "English": "14 That I may tell of all Your praise In the gates of the daughter of Zion.    "
+    }
+  ]
+}

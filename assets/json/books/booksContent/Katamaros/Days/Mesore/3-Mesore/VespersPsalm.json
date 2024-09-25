@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز39: 3)",
+  "EnglishTitle": "Psalms 40:2-3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" فأقام على صخرة رجلي، وسهّل خطواتي،",
+      "English": "2 And set my feet upon a rock, And established my steps \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وجعل في فمي تسبيحًا جديدًا، وسبحًا لإلهنا. هلليلويا \"",
+      "English": "3 He has put a new song in my mouth--Praise to our God.    "
+    }
+  ]
+}

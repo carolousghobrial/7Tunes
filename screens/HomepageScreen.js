@@ -226,7 +226,6 @@ function HomepageScreen({ navigation, route }) {
       }
     }
     setIsLoading(false);
-    console.log(item);
     // if (item.BookPath === "venerations") {
     //   navigation.push("VenerationSelectionScreen", {
     //     bookPath: item.BookPath,
