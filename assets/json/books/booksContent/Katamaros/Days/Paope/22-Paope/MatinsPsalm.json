@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر: مزامير 68 : 24,26",
+  "EnglishTitle": "Psalms 68:24, 26",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "رأوا طرقك يا الله ، طرق إلهي ملكي في القدس في الجماعات ",
+      "English": "24 They have seen Your procession, O God, The procession of my God, my King, into the sanctuary.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "باركوا الله الرب ، أيها الخارجون من عين إسرائيل",
+      "English": "26 Bless God in the congregations, The Lord, from the fountain of Israel.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز88: 21،18)",
+  "EnglishTitle": "Psalms 89:36, 29",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" وأجعل ذريته إلى دهر الداهرين، وكرسيه مثل الشمس قدامى،",
+      "English": "36 His seed shall endure forever, And his throne as the sun before Me;.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ونسله إلى دهر الدهر يدوم، وكرسيه مثل أيام السماء. هلليلويا \"",
+      "English": "29 His seed also I will make to endure forever, And his throne as the days of heaven.     Alleluia\r"
+    }
+  ]
+}

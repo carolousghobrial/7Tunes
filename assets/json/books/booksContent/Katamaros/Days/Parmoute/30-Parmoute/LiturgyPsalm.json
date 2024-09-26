@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز95: 2،1)",
+  "EnglishTitle": "Psalms 96:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 1- رنموا للرب ترنيمة جديدة رنمي للرب يا كل الارض. ",
+      "English": "96:1 Oh, sing to the Lord a new song! Sing to the Lord, all the earth. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "2- رنموا للرب باركوا اسمه بشروا من يوم الى يوم بخلاصه. \"",
+      "English": "2 Sing to the Lord, bless His name; Proclaim the good news of His salvation from day to day.     Alleluia\r"
+    }
+  ]
+}

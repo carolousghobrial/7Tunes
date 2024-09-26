@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز44: 5)",
+  "EnglishTitle": "Psalms 45:3-4",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" تقلد سيفك على فخذك، أيها القوى،",
+      "English": "3 Gird Your sword upon Your thigh, O Mighty One, With Your glory and Your majesty. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " بحسنك وجمالك، إستله وانجح واملك. هلليلويا \"",
+      "English": "4 And in Your majesty ride prosperously.     Alleluia\r"
+    }
+  ]
+}

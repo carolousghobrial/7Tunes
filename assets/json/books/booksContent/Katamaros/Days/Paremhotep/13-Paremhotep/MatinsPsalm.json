@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز36: 40,39)",
+  "EnglishTitle": "Psalms 37:39-40, 40",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "39- اما خلاص الصديقين فمن قبل الرب حصنهم في زمان الضيق. ",
+      "English": "39 But the salvation of the righteous is from the Lord; He is their strength in the time of trouble. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "40- و يعينهم الرب و ينجيهم ينقذهم من الاشرار",
+      "English": "40 And the Lord shall help them and deliver them.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " و يخلصهم لانهم احتموا به \"",
+      "English": "40 And save them, Because they trust in Him.     Alleluia\r"
+    }
+  ]
+}

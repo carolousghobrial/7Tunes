@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز17: 40،34)",
+  "EnglishTitle": "Psalms 18:34, 39",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" الذي يُعلم يدي القتال، وجعل ساعدي أقواسًا من نحاس،",
+      "English": "34 He teaches my hands to make war, So that my arms can bend a bow of bronze.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " ومنطقتني قوة في الحرب، وجعلت كل الذين قاموا علىّ تحتي. هلليلويا \"",
+      "English": "39 For You have armed me with strength for the battle; You have subdued under me those who rose up against me.     Alleluia\r"
+    }
+  ]
+}

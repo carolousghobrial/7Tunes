@@ -1,0 +1,39 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز131: 7،1)",
+  "EnglishTitle": "Psalms 132:1-2, 9-10",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" أذكر يارب داود وكل دعته،",
+      "English": "132:1 Lord, remember David And all his afflictions; \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " كما أقسم للرب ونذر لإله يعقوب،",
+      "English": "2 How he swore to the Lord, And vowed to the Mighty One of Jacob:.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " كهنتك يلبسون العدل، ",
+      "English": "9 Let Your priests be clothed with righteousness, And let Your saints shout for joy. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأبرارك يبتهجون من أجل داود عبدك. هلليلويا \"",
+      "English": "10 For Your servant David's sake.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز36: 15، 16، 27)",
+  "EnglishTitle": "Psalms 37:17-18, 29",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" والرب يعضد الصديقين",
+      "English": "17 But the Lord upholds the righteous \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يعرف الرب طريق الذين لا عيب فيهم، ويكن ميراثهم إلى الأبد،",
+      "English": "18 The Lord knows the days of the upright, And their inheritance shall be forever.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " والصديقون يرثون الأرض، ويسكنون فيها إلى دهر الدهور. هلليلويا \"",
+      "English": "29 The righteous shall inherit the land, And dwell in it forever.     Alleluia\r"
+    }
+  ]
+}

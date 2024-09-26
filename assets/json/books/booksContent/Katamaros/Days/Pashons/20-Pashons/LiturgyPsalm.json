@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز36: 28)",
+  "EnglishTitle": "Psalms 37:30-31",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" فم الصديق يتلو الحكمة، ولسانه ينطق بالحكم، ",
+      "English": "30 The mouth of the righteous speaks wisdom, And his tongue talks of justice. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ناموس الله في قلبه، ولا تتعرقل خطواته. هلليلويا \"",
+      "English": "31 The law of his God is in his heart; None of his steps shall slide.     Alleluia\r"
+    }
+  ]
+}

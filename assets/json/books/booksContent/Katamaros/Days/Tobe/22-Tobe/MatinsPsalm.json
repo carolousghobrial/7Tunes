@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز32: 1، 12)",
+  "EnglishTitle": "Psalms 33:1, 12",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" ابتهجوا أيها الصديقون بالرب، للمستقيمين ينبغي التسبيح، ",
+      "English": "33:1 Rejoice in the Lord, O you righteous! For praise from the upright is beautiful.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوبى للأمة التي الرب إلهها، والشعب الذي اختاره ميراثًا له. هلليلويا \"",
+      "English": "12 Blessed is the nation whose God is the Lord, The people He has chosen as His own inheritance.     Alleluia\r"
+    }
+  ]
+}

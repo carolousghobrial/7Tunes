@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز45: 7،1)",
+  "EnglishTitle": "Psalms 46:1, 7",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" إلهنا هو ملجأنا وقوتنا، ومعيننا في شدائدنا التي أصابتنا جدًا،",
+      "English": "46:1 God is our refuge and strength, A very present help in trouble.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الرب إله القوات معنا. ناصرنا هو إله يعقوب. هلليلويا\"",
+      "English": "7 The Lord of hosts is with us; The God of Jacob is our refuge.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز95: 1، 2)",
+  "EnglishTitle": "Psalms 96:2-3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"سبحوا الرب تسبيحًا جديدًا، سبحوا الرب يا كل الأرض،",
+      "English": "2 Sing to the Lord, bless His name; Proclaim the good news of His salvation from day to day. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " سبحوا الرب وباركوا اسمه،  بشروا من يوم إلى يوم بخلاصه. هلليلويا \"",
+      "English": "3 Declare His glory among the nations, His wonders among all peoples.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز44: 5، 9)",
+  "EnglishTitle": "Psalms 45:3-4, 6",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" تقلد سيفك على فخذك أيها القوى،",
+      "English": "3 Gird Your sword upon Your thigh, O Mighty One, With Your glory and Your majesty. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " بحسنك وجمالك استله وانجح واملك،",
+      "English": "4 And in Your majesty ride prosperously.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " كرسيك يا الله إلى دهر الدهور، وقضيب الاستقامة هو قضيب ملكك. هلليلويا \"",
+      "English": "6 Your throne, O God, is forever and ever; A scepter of righteousness is the scepter of Your kingdom.     Alleluia\r"
+    }
+  ]
+}

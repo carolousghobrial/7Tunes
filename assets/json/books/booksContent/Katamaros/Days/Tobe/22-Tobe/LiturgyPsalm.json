@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز 18:33+67: 4)",
+  "EnglishTitle": "Psalms 34:19, 68:3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"كثيرة هي أحزان الصديقين، ومن جميعها ينجيهم الرب،",
+      "English": "19 Many are the afflictions of the righteous, But the Lord delivers him out of them all.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " والصديقون يفرحون ويتهللون أمام الله، ويتنعمون بالسرور. هلليلويا  \"",
+      "English": "3 But let the righteous be glad; Let them rejoice before God; Yes, let them rejoice exceedingly.     Alleluia\r"
+    }
+  ]
+}

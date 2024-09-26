@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز145: 4،1)",
+  "EnglishTitle": "Psalms 146:1, 5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" سبحي يا نفسي الرب، أسبح الرب في حياتي،",
+      "English": "146:1 Praise the Lord! Praise the Lord, O my soul!.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " طوبى لمن إله يعقوب معينه، واتكاله على الرب إلهه. هلليلويا  \"",
+      "English": "5 Happy is he who has the God of Jacob for his help, Whose hope is in the Lord his God,.     Alleluia\r"
+    }
+  ]
+}

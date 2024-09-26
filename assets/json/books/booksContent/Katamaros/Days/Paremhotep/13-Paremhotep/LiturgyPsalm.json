@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز96: 11-12)",
+  "EnglishTitle": "Psalms 97:11-12",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "11 - نور قد زرع للصديق و فرح للمستقيمي القلب.",
+      "English": "11 Light is sown for the righteous, And gladness for the upright in heart. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 12- افرحوا ايها الصديقون بالرب و احمدوا ذكر قدسه \"",
+      "English": "12 Rejoice in the Lord, you righteous, And give thanks at the remembrance of His holy name.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز104: 1)",
+  "EnglishTitle": "Psalms 105:1, 2-3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " 1- احمدوا الرب ادعوا باسمه عرفوا بين الامم باعماله. \"",
+      "English": "105:1 Oh, give thanks to the Lord! Call upon His name; Make known His deeds among the peoples!.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "۲ سبحوه  و رتلوا له. حدثوا بجميع عَجَائِبِهِ.",
+      "English": "2 Talk of all His wondrous works \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "۳ افْتَخِرُوا بِاسْمِهِ الْقُدُّوسِ..",
+      "English": "3 Glory in His holy name.     Alleluia\r"
+    }
+  ]
+}

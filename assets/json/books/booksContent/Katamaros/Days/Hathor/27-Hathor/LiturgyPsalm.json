@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز 77: 5، مز 134: 5)",
+  "EnglishTitle": "Psalms 78:5, 135:5",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" إذ أقام الشهادة في يعقوب، ووضع الناموس في إسرائيل،",
+      "English": "5 For He established a testimony in Jacob, And appointed a law in Israel.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأني أنا قد علمتُ أن الرب عظيم هو، وربنا أفضل من جميع الآلهة. هلليلويا \"",
+      "English": "5 For I know that the Lord is great, And our Lord is above all gods.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز106: 31،23)",
+  "EnglishTitle": "Psalms 107:32, 41-42",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" فيرفعوه في كنيسة شعبه، وليباركوه في مجلس الشيوخ،",
+      "English": "32 Let them exalt Him also in the assembly of the people, And praise Him in the company of the elders.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " جعل أبوة مثل الخراف،",
+      "English": "41 And makes their families like a flock \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يبصر المستقيمون ويفرحون. هلليلويا  \"",
+      "English": "42 The righteous see it and rejoice.     Alleluia\r"
+    }
+  ]
+}

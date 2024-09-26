@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز39: 2،9)",
+  "EnglishTitle": "Psalms 40:9, 2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" 9- بشرت ببر في جماعة عظيمة هوذا شفتاي لم امنعهما أنت يا رب علمت. ",
+      "English": "9 I have proclaimed the good news of righteousness In the great assembly; Indeed, I do not restrain my lips.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "2- و اصعدني من جب الهلاك من طين الحماة و اقام على صخرة رجلي ثبت خطواتي. \"",
+      "English": "2 And set my feet upon a rock, And established my steps.     Alleluia\r"
+    }
+  ]
+}

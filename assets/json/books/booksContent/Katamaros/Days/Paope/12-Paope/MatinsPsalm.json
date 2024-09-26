@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز 40: 9, 10 )",
+  "EnglishTitle": "Psalms 40:9-10",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بشرت ببرك في جماعة عظيمة . هوذا شفتاي لم أمنعهما . أنت يارب علمت لم أكتم عدلك في وسط قلبي .",
+      "English": "9 I have proclaimed the good news of righteousness In the great assembly; Indeed, I do not restrain my lips, O Lord, You Yourself know. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " تكلمت بأمانتك وخلاصك . لم أخف رحمتك وحقك عن الجماعة العظيمة",
+      "English": "10 I have not hidden Your righteousness within my heart; I have declared Your faithfulness and Your salvation; I have not concealed Your lovingkindness and Your truth From the great assembly.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز31: 12+32: 7،1)",
+  "EnglishTitle": "Psalms 32:11, 6, 33:1",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" افرحوا أيها الصديقون بالرب وتهللوا، للمستقيمين ينبغي التسبيح، ",
+      "English": "11 Be glad in the Lord and rejoice, you righteous; And shout for joy.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "من أجل هذا نبتهل إليك، كل الأبرار في أوان مستقيم. هلليلويا \"",
+      "English": "6 For this cause everyone who is godly shall pray to You.\r"
+    }
+  ]
+}
