@@ -74,12 +74,6 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversFractionsCross",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsLentFather",
             "Rule": 0,
             "Visible": "isLentAndJonah"
