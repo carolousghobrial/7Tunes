@@ -128,6 +128,12 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversFractionsSyriacFraction",
+            "Rule": 0,
+            "Visible": "isCross"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsTheophany",
             "Rule": 0,
             "Visible": "isSeason"

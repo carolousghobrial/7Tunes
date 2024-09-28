@@ -1,0 +1,173 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "القسمة السريانية",
+  "EnglishTitle": "The Syrian Fraction",
+  "CopticTitle": "Pairh; `alhqwc af]ep`mka\\",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هكذا بالحقيقةِ تألَّمَ كلمةُ الله بالجسد، وذُبِحَ وإنْحَنىَ بالصليب وإنفصلت نفسهُ من جسدهِ.",
+      "Coptic": "Pairh; `alhqwc af]ep`mka\\ `nje Pcaji mVnou; =en `tcarx ouo\\ auqelqwlf> afrek jwf \\ijen pi`ctauroc> ouo\\ acvwrj `ebol `nje tefyuxh `epefcwma>",
+      "English": "Thus truly the Logos of God suffered in the flesh and was sacrificed and broken on the Cross. His soul parted from His body,",
+      "Arabiccoptic": "بايريتي  اليثووس افشيبإمكاه إنجي بساجي مفنأوتي خين إتسارخ أووه افثيلثوولف: افريك جووف هيجين بيإستافروس: أووه اسفوورج إيفول إنجي تيفبسيشي إيبيفسووما:",
+      "Englishcoptic": "Paireeti aleethos afshepemkah en-je Psaji mVnooti khen- etsarkh owoh avthelthoolf: afrek goof hijen- pi-estavros: owoh asvoorg evol en-je tefpseeshee -epefsooma:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إذ لاهوتهُ لم ينفصِل قطْ لا من نفسهِ ولا من جسدهِ.",
+      "Coptic": "Ere tefmeqnou; vwrj `ebol an `ene\\ `etefyuxh oude pefcwma.",
+      "English": "while His divinity in no way parted either from His soul or from His body.",
+      "Arabiccoptic": "يري تيفميثنأوتي فوورج إيفول ان إينيه إيتيفبسيشي أوزي بيفسووما.",
+      "Englishcoptic": "Ere tefmethnooti voorg evol an -en-eh etefpseeshee ooze pefsooma."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وطُعِنَ في جنبهِ بالحربة، وجرى منهُ دمٌ وماءٌ غُفراناً لكل العالم. وتخضَّبَ بهما جسدهُ، وأتت نفسهُ وأتحدت بجسدهِ.",
+      "Coptic": "Auqokcf =en pef`cvir =en ;logxh> ouo\\ au=a;` ebol `n=htf nje ou`cnof nem oumwou> eouxw ebol` mpikocmoc thrf> ouo\\ aucep pefcwma n=htou> ouo\\ ac`i `nje tefyuxh acerouai nem pefcwma.",
+      "English": "He was pierced in His side with a spear; blood and water flowed from Him for the forgiveness of the whole world. His body was smeared in them, and His soul came and was reunited with His body.",
+      "Arabiccoptic": "أفثوكسف خين بيفإسفير خين تيلونشي: أووه افخاتيإ إيفول إنخيتف نجي أوإسنوف نيم أومؤو: إيأوخوو إيفولإ مبيكوسموس تيرف: أووه افسيب بيفسووما نخيتأو: أووه اس إي إنجي تيفبسيشي اسيرأواي نيم بيفسووما.",
+      "Englishcoptic": "Avthoksf khen pefesvir khen ti-lonshee: owoh avkhati-e evol enkheetf nje ooesnof nem oomo-oo: eookhoo evole mpi-kosmos terf: owoh avsep pefsooma nkheetoo: owoh as-ee enje tefpseeshee aserooai nem pefsooma."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وعِوَض الخطية المحيطة بالعالم، مات الإبنُ بالصليب.",
+      "Coptic": "`N`t]ebiw de `m`vnobi etkw; `mpikocmoc afmou `nje `P]hri \\iten pictauroc> ouo\\ aftacqon `ebol \\a ;oikonomia qa jash eqa ou`inam.",
+      "English": "On behalf of the sins of the whole world, the Son died on the Cross.",
+      "Arabiccoptic": "إنإتشيفيوو زي إمإفنوفي إيتكووتي إمبي كوسموس افمأو إنجي إبشيري هيتين بيستافروس: أووه افتاستون إيفول ها تيويكونوميا ثا جاتشي إيثا أو إينام.",
+      "Englishcoptic": "eNetshevioo ze emevnovi etkooti empi-kosmos afmoo en-je ePsheeri hiten- pi-stavros: owoh aftaston evol ha tioikonomia tha gachee etha oo-een-am."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وردنا من التدبير الشمالي إلى اليميني. وأمَّنَ بدم صليبِه ووحَّدَ وألَّفَ السمائيين مع الأرضيين، والشعب مع الشعوب، والنفس مع الجسد.",
+      "Coptic": "Ouo\\ afer\\irhnh `ebol\\iten pi`cnof nte pef`ctauroc> ouo\\ afer na nivhou`i `nouai nem na `pka\\i> ouo\\ af\\otpou pilaoc de on nem nilaoc> ;yuxh de nem picwma.",
+      "English": "He turned us from the way on the left towards the right. Through the blood of his Cross, He established the reconciliation of the heavenly with the earthly, and united the people with the peoples and the soul with the body.",
+      "Arabiccoptic": "أووه افيرهيريني إيفولهيتين بيإسنوف نتي بيفإستافروس: أووه افير نا نيفيأو إي إنأواي نيم نا إبكاهي: أووه افهوتبأو بيلاوس زي ون نيم نيلاوس: تيبسيشي زي نيم بيسووما.",
+      "Englishcoptic": "Owoh aferhireen-ee evolhiten- pi-esnof nte pefestavros: owoh afer na ni-veeoo-ee en-ooai nem na epkahi: owoh afhotpoo pi-laos ze on nem ni-laos: ti-pseeshee ze nem pi-sooma."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفي اليوم الثالث قام من القبر.",
+      "Coptic": "Ouo\\ =en pima\\]omt `n`e\\oou aftwnf `ebol=en pim\\au.",
+      "English": "And on the third day He rose from the tomb.",
+      "Arabiccoptic": "أووه خين بيماهشومت إنإيهوأو افتوونف إيفولخين بيمهاف.",
+      "Englishcoptic": "Owoh khen pi-mahshomt en-eho-oo aftoonf evolkhen pi-mhav."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "واحدٌ هو عمانوئيل، وغير مُفتَرِق من بعد الإتحاد، وغير مُنقسِم إلى طبيعتين؛ هكذا نؤمن، وهكذا نعترف، وهكذا نُصدق، أن هذا الجسد لهذا الدم وهذا الدم لهذا الجسد.",
+      "Coptic": "Ouai pe Emmanouhl> ouo\\ `foi `natvwrj menenca ;metouai> ouo\\ `foi `natvw] `evucic `cnou;> pairh; tenna\\; pairh; tenerom`ologin> ke palin tenna\\; je paicwma va pai`cnof pe> ouo\\ pai`cnof va paicwma pe.",
+      "English": "One is Emmanuel who cannot be divided after the union; there is no division into two natures. Thus we believe, thus we confess, and thus We affirm that this Body belongs to this Blood, and this Blood belongs to this Body.",
+      "Arabiccoptic": "أواي بي إيممانأويل: أووه إفوي إناتفوورج مينينسا تيميتأواي: أووه إفوي إناتفأوؤوش إيف يسيس إسنأوتي: بايريتي تينناهتي بايريتي تينيروم ولوجين: كي بالين تينناهتي جي بايسووما فا بايإسنوف بي: أووه بايإسنوف فا بايسووما بي.",
+      "Englishcoptic": "Oooai pe Emmanooeel: owoh efoi en-atvoorg men-en-sa ti-metooai: owoh efoi en-atvoosh -eveesis esnooti-: paireeti- ten-nahti- paireeti- ten-erom-ologin: ke palin ten-nahti- je paisooma va paiesnof pe: owoh paiesnof va paisooma pe."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت هو المسيح إلهنا الذي طُعِنَ في جنبهِ بالحربة فوق الجلجلة بأورشليم لأجلنا.",
+      "Coptic": "Nqok pe Pixrictoc Pennou; `etauqokcf =en pef`cvir cap]wi `n:golgoqa =en Ieroucalhm eqbhten.",
+      "English": "You are Christ Our God, who for our sake were pierced in Your side with a spear on the heights of Golgotha in Jerusalem.",
+      "Arabiccoptic": "نثوك بي بيخريستوس بيننأوتي إيتافثوكسف خين بيفإسفير سابشووي إنتيغولغوثا خين إييرأوساليم إيثفيتين.",
+      "Englishcoptic": "Nthok pe Pikhristos Pen-nooti -etavthoksf khen- pefesvir sapshooi en-Tigholghotha khen- Ieroosaleem ethveeten-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت هو حمل الله الحامل خطية العالم.",
+      "Coptic": "`Nqok pe pi\\ihb `nte Vnou; vhetwli mvnobi nte pikocmoc> ",
+      "English": "You are the Lamb of God who take away the sin of the world.",
+      "Arabiccoptic": "إنثوك بي بيهييف إنتي فنأوتي فييتوولي مفنوفي نتي بيكوسموس:",
+      "Englishcoptic": "eNthok pe pi-hieev en-te Vnooti vee-etooli mvnovi nte pi-kosmos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " إغفر ذنوبنا وأترك خطايانا، وآقِمْنا عن جانبِكَ اليمين.",
+      "Coptic": "`aricunxwrin `nnenparaptwma xw ebol `nnennobi> ouo\\ mata\\on `eraten caouinam `mmok.",
+      "English": "Absolve us of our transgressions and make us stand at Your right hand side.",
+      "Arabiccoptic": "اريسينخوورين إنني نبارابتووما خوو إيفول إنني ننوفي: أووه ماتاهون إيراتين ساأوينام إمموك.",
+      "Englishcoptic": "-ariseen-khoorin en-nen-paraptooma khoo evol en-nen-novi: owoh matahon -eraten- saooinam emmok."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا الله أبا ربنا وإلهنا يسوع المسيح الذي من الكاروبيم يتبارك، ومن السيرافيم يتقدس، ومن ألوف ألوف وربوات ربوات الخدام الناطقين يتعظم.",
+      "Coptic": "Vnou; Viwt `mPensoic Ihcouc Pixrictoc> vh`ete `ebol \\iten nixeroubim ce`cmou `erof> ouo\\ `ebol \\iten niceravim ceer`agiazin `mmof> ouo\\ `ebol \\iten ni`anan]o `n]o nem nianan`qba `n`qba `nte niref]em]i `nlogikon cesacf.",
+      "English": "O God, the Father of our Lord Jesus Christ, who are blessed by the Cherubim, hallowed by the Seraphim, and exalted by thousands of thousands and ten thousand times ten thousand of the rational servants;",
+      "Arabiccoptic": "فنأوتي فيووت إمبي نتشويس إييسأوس بيخريستوس: فيإيتي إيفول هيتين نيشيرأوفيم سيإسمأو إيروف: أووه إيفول هيتين نيسيرافيم سيير اجيازين إمموف: أووه إيفول هيتين ني انانشو إنشو نيم نيانانإثفا إنإثفا إنتي نيريفشيمشي إنلوجيكون سيتشاسف.",
+      "Englishcoptic": "Vnooti Vioot emPen-chois Isos Pikhristos: vee-ete evol hiten- ni-sherobim seesmoo -erof: owoh evol hiten- ni-seraphim seer-agiazin emmof: owoh evol hiten- ni-anansho en-sho nem ni-ananethva en-ethva en-te ni-refshemshi en-logikon sechasf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذى يقدِّسُ ويكمِّلُ القرابين وتكميل الأثمار التي قُدمت لك رائحة لذيذة، قدِّس أيضاً أجسادنا وأنفسنا وأرواحنا كلنا.",
+      "Coptic": "Vh`eter`agiazin ouo\\ etjwk `ebol `nnidwron nem nikarpoc etau`enou nak> `eou`cqoi `n`cqoinoufi> `ari`agiazin on `nnencwma nem nenyuxh nem nen`pneuma thren.",
+      "English": "who sanctify and complete the gifts and the fullness of the fruits that have been brought to You as a sweet savor; sanctify also all of our bodies, our souls, and our spirits,",
+      "Arabiccoptic": "فيإيتير اجيازين أووه إيتجووك إيفول إنني زوورون نيم نيكاربوس إيتافإينأو ناك: إيأوإستوي إنإستوينأوفي:  اري اجيازين ون إنني نسووما نيم نينبسيشي نيم نينإبنيفما تيرين.",
+      "Englishcoptic": "Vee-eter-agiazin owoh etgook evol en-ni-zooron nem ni-karpos etav-en-oo nak: -eooestoi en-estoinoofi: -ari-agiazin on en-nen-sooma nem nen-pseeshee nem nen-epnevma teeren-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لكي بقلب طاهر ووجه غير مخزي ندعوك يا الله الأب السماوي: ونصلي قائلين:",
+      "Coptic": "\\ina =en ou\\ht efouab> nem ou\\o `natsi]ipi> `ntenmou; `erok Vnou; Viwt et=en nivhou`i> ouo\\ `ntener`proceuxecqe enjw `mmoc>",
+      "English": "so that with a pure heart and an unashamed face, we may call upon You, O God the Father who are in the heavens, and pray, saying,",
+      "Arabiccoptic": "هينا خين أوهيت إيف أواب: نيم أوهو إناتتشيشيبي: إنتينمأوتي إيروك فنأوتي فيووت إيتخين نيفيأو إي: أووه إنتينيرإبروسيفشيستي إينجوو إمموس:",
+      "Englishcoptic": "hina khen ooheet efooab: nem ooho enatchishipi-: entenmooti -erok Vnooti Vioot etkhen ni-veeoo-ee: owoh entenereprosevsheste engoo emmos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أبانا الذى في السموات...إلخ.",
+      "Coptic": "Je Peniwt ....",
+      "English": "Our Father",
+      "Arabiccoptic": "جي بينيووت ....",
+      "Englishcoptic": "Ge Pen-ioot ...."
+    }
+  ]
+}

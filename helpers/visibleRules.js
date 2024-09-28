@@ -226,6 +226,7 @@ const isStandardFraction = (motherSource, path) => {
   }
   switch (currentSeason.key) {
     case "STANDARD":
+    case "COPTIC_NEW_YEAR":
       return true;
     default:
       return false;
@@ -1481,6 +1482,13 @@ const IsDioceseNotPope = (motherSource, path) => {
 const IsNonFastingDays = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const timeTransition = useSelector((state) => state.settings.timeTransition);
+  if (
+    (currentSeason.key === FeastEnum.FEAST_OF_CROSS ||
+      currentSeason.key === FeastEnum.FEAST_OF_CROSS_3) &&
+    path.toLowerCase().includes("taishori")
+  ) {
+    return false;
+  }
   switch (currentSeason.key) {
     case FeastEnum.FEAST_OF_CROSS:
     case FeastEnum.FEAST_OF_CROSS:
@@ -1532,6 +1540,7 @@ const IsFastingDays = (motherSource, path) => {
 
   return (
     isInFast(timeTransition) &&
+    currentSeason.type !== "feast" &&
     currentSeason.dayOfWeek !== 6 &&
     currentSeason.dayOfWeek !== 0
   );
