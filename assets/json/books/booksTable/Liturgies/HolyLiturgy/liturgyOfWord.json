@@ -222,6 +222,12 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsTheophanyOranEnShosho",
+            "Rule": 0,
+            "Visible": "JohnTheBaptistShow"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsTheophanyParlex",
             "Rule": 0,
             "Visible": "isSeason"

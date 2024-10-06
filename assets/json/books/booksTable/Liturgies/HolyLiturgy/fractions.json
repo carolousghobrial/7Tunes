@@ -74,6 +74,18 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversFractionsSyriacFraction",
+            "Rule": 0,
+            "Visible": "isCross"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversFractionsCovenantThursday",
+            "Rule": 0,
+            "Visible": "isCross"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsLentFather",
             "Rule": 0,
             "Visible": "isLentAndJonah"
@@ -119,12 +131,6 @@
             "Path": "LiturgyLiturgyOfTheBelieversFractionsStMaryHeavenlies",
             "Rule": 0,
             "Visible": "FeastsAndFastsOfStMaryAndHeavenlies"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversFractionsSyriacFraction",
-            "Rule": 0,
-            "Visible": "isCross"
         },
         {
             "Type": "Main",
