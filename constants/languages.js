@@ -89,6 +89,7 @@ const Languages = {
     doxologies: "Doxologies",
     actsResponse: "Acts Response",
     gospelResponse: "Gospel Response",
+    pioik: "The Hymn Pi-Oik",
     intercessions: "Intercessions (Hitens)",
     saintsMenu: "Saints Menu",
     commentsOrQuestions: "Comment/Question",

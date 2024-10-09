@@ -12,7 +12,13 @@
             "Type": "Main",
             "Path": "LiturgyDistributionPsalm150",
             "Rule": 0,
-            "Visible": true
+            "Visible": "allButTwentyNinth"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyDistributionPsalm15029thCopticMonth",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
@@ -363,12 +369,6 @@
             "Path": "LiturgyDistributionMelodiesYaOmAlnoor",
             "Rule": 0,
             "Visible": "FeastsAndFastsOfStMary"
-        },
-        {
-            "Type": "Main",
-            "Path": "VenerationShereMaria",
-            "Rule": 0,
-            "Visible": true
         },
         {
             "Type": "Main",

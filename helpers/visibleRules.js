@@ -155,6 +155,7 @@ const isStandardSeasonWithStMary = (motherSource, path) => {
 };
 const FeastsAndFastsOfStMary = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+
   if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
     return true;
   }
@@ -287,7 +288,7 @@ const isKiahkSeason = (motherSource, path) => {
 };
 const isSeason = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+  const lowerPath = path.toLowerCase();
   if (motherSource === "brightSaturdayMatins") {
     if (
       path === "DoxologiesMajorFeastsResurrection2" ||
@@ -306,76 +307,70 @@ const isSeason = (motherSource, path) => {
   }
   switch (currentSeason.key) {
     case "COPTIC_NEW_YEAR":
-      if (path.toLowerCase()?.includes("nayrooz")) {
+      if (lowerPath?.includes("nayrooz")) {
         return true;
       }
       return false;
     case "FEAST_OF_CROSS":
     case "FEAST_OF_CROSS_3":
-      if (path.toLowerCase()?.includes("cross")) {
+      if (lowerPath?.includes("cross")) {
         return true;
       }
       return false;
     case "NATIVITY_PARAMOUN":
-      if (
-        path.toLowerCase()?.includes("nativity") &&
-        path.toLowerCase()?.includes("paramoun")
-      ) {
+      if (lowerPath?.includes("nativity") && lowerPath?.includes("paramoun")) {
         return true;
       }
       return false;
     case "NATIVITY":
     case "NATIVITY_SECONDDAY":
     case "NATIVITY_PERIOD":
-      if (
-        path.toLowerCase()?.includes("nativity") &&
-        !path.toLowerCase()?.includes("paramoun")
-      ) {
+      if (lowerPath?.includes("nativity") && !lowerPath?.includes("paramoun")) {
         return true;
       }
       return false;
     case "EPIPHANY":
     case "EPIPHANY_SECONDDAY":
       if (
-        path.toLowerCase()?.includes("theophany") &&
-        !path.toLowerCase()?.includes("paramoun")
+        lowerPath?.includes("theophany") &&
+        !lowerPath?.includes("paramoun")
       ) {
         return true;
       }
       return false;
     case "ANNUNCIATION":
-      if (path.toLowerCase()?.includes("annunciation")) {
+      if (lowerPath?.includes("annunciation")) {
         return true;
       }
       return false;
     case "FEAST_OF_CIRCUMCISION":
-      if (path.toLowerCase()?.includes("circumcision")) {
+      if (lowerPath?.includes("circumcision")) {
         return true;
       }
       return false;
     case "ENTRY_EGYPT":
-      if (path.toLowerCase()?.includes("entryegypt")) {
+      if (lowerPath?.includes("entryegypt")) {
         return true;
       }
       return false;
     case "WEDDING_CANA":
-      if (path.toLowerCase()?.includes("weddingcana")) {
+      if (lowerPath?.includes("weddingcana")) {
         return true;
       }
       return false;
     case "PRESENTATION_TEMPLE":
-      if (path.toLowerCase()?.includes("presentationtemple")) {
+      if (lowerPath?.includes("presentationtemple")) {
         return true;
       }
       return false;
     case "TRANSFIGURATION":
-      if (path.toLowerCase()?.includes("transfiguration")) {
+      if (lowerPath?.includes("transfiguration")) {
         return true;
       }
       return false;
     case "NATIVITY_FAST":
       if (
-        path.toLowerCase()?.includes("kiahk") &&
+        lowerPath?.includes("kiahk") &&
         (currentSeason.copticMonth === "Koiahk" ||
           TakeFromHathor(currentSeason))
       ) {
@@ -384,47 +379,44 @@ const isSeason = (motherSource, path) => {
 
       return false;
     case "JONAH_FEAST":
-      if (
-        path.toLowerCase()?.includes("jonah") &&
-        path.toLowerCase()?.includes("feast")
-      ) {
+      if (lowerPath?.includes("jonah") && lowerPath?.includes("feast")) {
         return true;
       }
       return false;
     case "JONAH_FAST":
-      if (path.toLowerCase()?.includes("jonah")) {
-        if (path.toLowerCase()?.includes("first")) {
+      if (lowerPath?.includes("jonah")) {
+        if (lowerPath?.includes("first")) {
           if (currentSeason.dayOfWeek === 1) {
             return true;
           }
           return false;
         }
-        if (path.toLowerCase()?.includes("second")) {
+        if (lowerPath?.includes("second")) {
           if (currentSeason.dayOfWeek === 2) {
             return true;
           }
           return false;
         }
-        if (path.toLowerCase()?.includes("third")) {
+        if (lowerPath?.includes("third")) {
           if (currentSeason.dayOfWeek === 3) {
             return true;
           }
           return false;
         }
-        if (path.toLowerCase()?.includes("feast")) {
+        if (lowerPath?.includes("feast")) {
           return false;
         }
         return true;
       }
       return false;
     case "GREAT_LENT":
-      if (path.toLowerCase()?.includes("lent")) {
-        if (path.toLowerCase()?.includes("weekend")) {
+      if (lowerPath?.includes("lent")) {
+        if (lowerPath?.includes("weekend")) {
           if (currentSeason.dayOfWeek === 6 || currentSeason.dayOfWeek === 0) {
             return true;
           }
           return false;
-        } else if (path.toLowerCase()?.includes("weekday")) {
+        } else if (lowerPath?.includes("weekday")) {
           if (currentSeason.dayOfWeek > 0 && currentSeason.dayOfWeek < 6) {
             return true;
           }
@@ -434,19 +426,19 @@ const isSeason = (motherSource, path) => {
       }
       return false;
     case "LAZARUS_SATURDAY":
-      if (path.toLowerCase()?.includes("lazarus")) {
+      if (lowerPath?.includes("lazarus")) {
         return true;
       }
       return false;
     case "PALM_SUNDAY":
-      if (path.toLowerCase()?.includes("palmsunday")) {
-        if (path.toLowerCase()?.includes("matins")) {
+      if (lowerPath?.includes("palmsunday")) {
+        if (lowerPath?.includes("matins")) {
           if (isMatins(motherSource, path)) {
             return true;
           }
           return false;
         }
-        if (path.toLowerCase()?.includes("vespers")) {
+        if (lowerPath?.includes("vespers")) {
           if (isVespers(motherSource, path)) {
             return true;
           }
@@ -457,31 +449,30 @@ const isSeason = (motherSource, path) => {
       return false;
 
     case "RESURRECTION":
-      if (path.toLowerCase()?.includes("resurrection")) {
+      if (lowerPath?.includes("resurrection")) {
         return true;
       }
       return false;
     case "THOMAS_SUNDAY":
       if (
-        path.toLowerCase()?.includes("resurrection") &&
-        (path.toLowerCase()?.includes("doxologies") ||
-          path.toLowerCase()?.includes("psali"))
+        lowerPath?.includes("resurrection") &&
+        (lowerPath?.includes("doxologies") || lowerPath?.includes("psali"))
       ) {
         return true;
       }
-      if (path.toLowerCase()?.includes("thomas")) {
+      if (lowerPath?.includes("thomas")) {
         return true;
       }
       return false;
     case "HOLY_50":
-      if (path.toLowerCase()?.includes("resurrection")) {
+      if (lowerPath?.includes("resurrection")) {
         return true;
       }
       return false;
     case "ASCENSION":
       if (
-        path.toLowerCase()?.includes("resurrection") &&
-        path.toLowerCase()?.includes("doxologies")
+        lowerPath?.includes("resurrection") &&
+        lowerPath?.includes("doxologies")
       ) {
         return true;
       }
@@ -501,17 +492,17 @@ const isSeason = (motherSource, path) => {
       ) {
         return true;
       }
-      if (path.toLowerCase()?.includes("ascensionfeast")) {
+      if (lowerPath?.includes("ascensionfeast")) {
         return true;
       }
-      if (path.toLowerCase()?.includes("ascension")) {
+      if (lowerPath?.includes("ascension")) {
         return true;
       }
       return false;
     case "ASCENSIONTOPENTECOST":
       if (
-        path.toLowerCase()?.includes("resurrection") &&
-        path.toLowerCase()?.includes("doxologies")
+        lowerPath?.includes("resurrection") &&
+        lowerPath?.includes("doxologies")
       ) {
         return true;
       }
@@ -522,17 +513,17 @@ const isSeason = (motherSource, path) => {
       ) {
         return true;
       }
-      if (path.toLowerCase()?.includes("ascensionperiod")) {
+      if (lowerPath?.includes("ascensionperiod")) {
         return true;
       }
-      if (path.toLowerCase()?.includes("ascension")) {
+      if (lowerPath?.includes("ascension")) {
         return true;
       }
       return false;
     case "PENTECOST":
       if (
-        path.toLowerCase()?.includes("resurrection") &&
-        path.toLowerCase()?.includes("doxologies")
+        lowerPath?.includes("resurrection") &&
+        lowerPath?.includes("doxologies")
       ) {
         return true;
       }
@@ -543,15 +534,15 @@ const isSeason = (motherSource, path) => {
       ) {
         return true;
       }
-      if (path.toLowerCase()?.includes("pentecost")) {
+      if (lowerPath?.includes("pentecost")) {
         return true;
       }
       return false;
     case "FAST_OF_APOSTLES":
     case "FEAST_OF_APOSTLES":
       if (
-        path.toLowerCase()?.includes("apostle") ||
-        path.toLowerCase()?.includes("apostlesfast")
+        lowerPath?.includes("apostle") ||
+        lowerPath?.includes("apostlesfast")
       ) {
         return true;
       }
@@ -559,13 +550,13 @@ const isSeason = (motherSource, path) => {
       return false;
     case "FAST_STMARY":
     case "ASSUMPTION_STMARY":
-      if (path.toLowerCase()?.includes("maryfast")) {
+      if (lowerPath?.includes("maryfast")) {
         return true;
       }
       return false;
 
     case FeastEnum.TWENTYNINTHTH_COPTIC_MONTH:
-      if (path.toLowerCase().includes("cymbals")) {
+      if (lowerPath.includes("cymbals")) {
         switch (path) {
           case "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTwentyNinth":
           case "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsResurrectionArchangelMichael":
@@ -575,17 +566,22 @@ const isSeason = (motherSource, path) => {
             return false;
         }
       } else if (
-        path.toLowerCase().includes("psalmresponses") ||
-        path.toLowerCase().includes("gospelresponses")
+        lowerPath.includes("psalmresponses") ||
+        lowerPath.includes("gospelresponses")
       ) {
         if (path?.toLowerCase().includes("twentyninth")) {
           return true;
         }
+      } else if (path === "LiturgyDistributionPsalm15029thCopticMonth") {
+        return true;
       } else if (
-        (path.toLowerCase()?.includes("nativity") ||
-          path.toLowerCase()?.includes("annunciation") ||
-          path.toLowerCase()?.includes("resurrection")) &&
-        !motherSource.includes("kiahk")
+        ((lowerPath.includes("nativity") && !lowerPath.includes("paramoun")) ||
+          lowerPath.includes("annunciation") ||
+          lowerPath.includes("resurrection")) &&
+        !motherSource.includes("kiahk") &&
+        (lowerPath.includes("hitens") ||
+          lowerPath.includes("actsresponse") ||
+          lowerPath.includes("melodies"))
       ) {
         return true;
       }
@@ -628,6 +624,7 @@ const isKiahkWeek = (motherSource, path) => {
     currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4;
   const isWeek5 = currentSeason.weekOfMonth === 5;
   const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
+  const lowerPath = path.toLowerCase();
   if (
     isWeek1to4 &&
     currentSeason.key === "NATIVITY_FAST" &&
@@ -636,18 +633,18 @@ const isKiahkWeek = (motherSource, path) => {
     if (isTakeFromHathor && isKoiahkMonth) {
       if (currentSeason.dayOfWeek === 0) {
         if (currentSeason.weekOfMonth + 1 <= 4) {
-          return path.toLowerCase().includes(currentSeason.weekOfMonth + 1);
+          return lowerPath.includes(currentSeason.weekOfMonth + 1);
         } else {
-          return path.toLowerCase().includes(currentSeason.weekOfMonth);
+          return lowerPath.includes(currentSeason.weekOfMonth);
         }
       } else {
-        return path.toLowerCase().includes(currentSeason.weekOfMonth);
+        return lowerPath.includes(currentSeason.weekOfMonth);
       }
     } else {
-      return path.toLowerCase().includes(currentSeason.weekOfMonth);
+      return lowerPath.includes(currentSeason.weekOfMonth);
     }
   } else if (isTakeFromHathor && isHathorMonth && isWeek5) {
-    return path.toLowerCase().includes(1);
+    return lowerPath.includes(1);
   }
   return false;
 };
@@ -1062,6 +1059,11 @@ const HitenSaint = (motherSource, path) => {
 
   return saintSelected.intercessions;
 };
+const PioikSaint = (motherSource, path) => {
+  const saintSelected = getSaint(path.trim());
+
+  return saintSelected.pioik;
+};
 const ActsResponseSaint = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const saintSelected = getSaint(path.trim());
@@ -1098,6 +1100,13 @@ const isApostlesFast = (motherSource, path) => {
     return true;
   }
   return currentSeason.key === "FAST_OF_APOSTLES" ? true : false;
+};
+const allButTwentyNinth = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  return currentSeason.key === FeastEnum.TWENTYNINTHTH_COPTIC_MONTH
+    ? false
+    : true;
 };
 const stMaryActsResponse = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -1179,7 +1188,10 @@ const JohnTheBaptistShow = (motherSource, path) => {
       }
 
     default:
-      return isDoxologyPath(path) ? saintSelected.doxologies : false;
+      console.log(currentSeason.saintsOfThisDay);
+      return currentSeason.saintsOfThisDay.includes("JOHN_THE_BAPTIST")
+        ? true
+        : false;
   }
 };
 const getPlantsSeason = (motherSource, path) => {
@@ -1511,11 +1523,12 @@ const IsNonFastingDays = (motherSource, path) => {
 const IsFastingDays = (motherSource, path) => {
   const timeTransition = useSelector((state) => state.settings.timeTransition);
   const currentSeason = useSelector((state) => state.settings.currentSeason);
+  const lowerPath = path.toLowerCase();
 
   if (
     (currentSeason.key === FeastEnum.FEAST_OF_CROSS ||
       currentSeason.key === FeastEnum.FEAST_OF_CROSS_3) &&
-    path.toLowerCase().includes("tishori")
+    lowerPath.includes("tishori")
   ) {
     return true;
   }
@@ -3397,9 +3410,11 @@ const VisibleRules = {
   ISThreeBishop: ISThreeBishop,
   Is3PlusBishops: Is3PlusBishops,
   IsDioceseNotPope: IsDioceseNotPope,
+  allButTwentyNinth: allButTwentyNinth,
   BishopIsPresent: BishopIsPresent,
   BishopIsNOTPresent: BishopIsNOTPresent,
   IsNonFastingDays: IsNonFastingDays,
+  PioikSaint: PioikSaint,
   IsFastingDays: IsFastingDays,
   stMaryActsResponse: stMaryActsResponse,
   ArchangelGabrielShow: ArchangelGabrielShow,

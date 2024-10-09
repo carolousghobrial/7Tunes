@@ -1725,6 +1725,7 @@ const bookPaths = {
   LiturgyDistributionLentPiMairomi: require("../assets/json/books/booksContent/Liturgy/Distribution/PiMairomi.json"),
   LiturgyDistributionPiOik: require("../assets/json/books/booksContent/Liturgy/Distribution/PiOik.json"),
   LiturgyDistributionPsalm150: require("../assets/json/books/booksContent/Liturgy/Distribution/Psalm150.json"),
+  LiturgyDistributionPsalm15029thCopticMonth: require("../assets/json/books/booksContent/Liturgy/Distribution/Psalm150TwentyNinth.json"),
   LiturgyDistributionResponses29thCopticMonth: require("../assets/json/books/booksContent/Liturgy/Distribution/Responses/29thCopticMonth.json"),
   LiturgyDistributionResponsesAnnunciation: require("../assets/json/books/booksContent/Liturgy/Distribution/Responses/Annunciation.json"),
   LiturgyDistributionResponsesAscension: require("../assets/json/books/booksContent/Liturgy/Distribution/Responses/Ascension.json"),

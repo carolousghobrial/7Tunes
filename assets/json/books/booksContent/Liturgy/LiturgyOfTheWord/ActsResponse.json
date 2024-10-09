@@ -16,6 +16,12 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseAnnunciation",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseNayrooz",
             "Rule": 0,
             "Visible": "isSeason"
@@ -67,12 +73,6 @@
             "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseLentWeekends",
             "Rule": 0,
             "Visible": "isLentWeekends"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseAnnunciation",
-            "Rule": 0,
-            "Visible": "isSeason"
         },
         {
             "Type": "Main",

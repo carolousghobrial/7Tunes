@@ -14,6 +14,7 @@ const saintsSlice = createSlice({
       intercessions: true,
       actsResponse: true,
       gospelResponse: true,
+      pioik: true,
     },
     ARCHANGEL_MICHAEL: {
       versesofCymbals: false,
@@ -21,6 +22,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: true,
     },
     ARCHANGEL_GABRIEL: {
       versesofCymbals: false,
@@ -28,6 +30,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: true,
     },
     ARCHANGEL_RAPHAEL: {
       versesofCymbals: false,
@@ -35,6 +38,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     FOUR_INCORPOREAL_CREATURES: {
       versesofCymbals: false,
@@ -42,6 +46,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     TWENTY_FOUR_PRIESTS: {
       versesofCymbals: false,
@@ -49,6 +54,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     JOHN_THE_BAPTIST: {
       versesofCymbals: true,
@@ -56,6 +62,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_MARK: {
       versesofCymbals: true,
@@ -63,6 +70,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_JOHN_BELOVED: {
       versesofCymbals: true,
@@ -70,6 +78,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_STEPHEN: {
       versesofCymbals: true,
@@ -77,6 +86,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_GEORGE: {
       versesofCymbals: false,
@@ -84,6 +94,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_PHILOPATER: {
       versesofCymbals: false,
@@ -91,6 +102,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_MINA: {
       versesofCymbals: false,
@@ -98,6 +110,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_THEODORE_SHOTEP: {
       versesofCymbals: false,
@@ -105,6 +118,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_ABANOUB: {
       versesofCymbals: false,
@@ -112,6 +126,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     APAKIR_AND_JOHN: {
       versesofCymbals: false,
@@ -119,6 +134,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     COSMAN_AND_DEMIAN: {
       versesofCymbals: false,
@@ -126,6 +142,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_DEMIANA: {
       versesofCymbals: false,
@@ -133,6 +150,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_MARINA: {
       versesofCymbals: false,
@@ -140,6 +158,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_BARBARA: {
       versesofCymbals: false,
@@ -147,6 +166,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_JULIANA: {
       versesofCymbals: false,
@@ -154,6 +174,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_ANTHONY: {
       versesofCymbals: false,
@@ -161,6 +182,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_PAULHERMIT: {
       versesofCymbals: false,
@@ -168,6 +190,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     MACARIUS_GREAT: {
       versesofCymbals: false,
@@ -175,6 +198,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ATHANASIUS_APOSTOLIC: {
       versesofCymbals: false,
@@ -182,6 +206,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     MAXIMUS_DOMETIUS: {
       versesofCymbals: false,
@@ -189,6 +214,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_PACHOMIOUS: {
       versesofCymbals: false,
@@ -196,6 +222,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_SHENOUDA_ARCHMANDRITE: {
       versesofCymbals: false,
@@ -203,6 +230,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     SAMUEL_CONFESSOR: {
       versesofCymbals: false,
@@ -210,6 +238,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_MOSES: {
       versesofCymbals: false,
@@ -217,6 +246,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_PISHOI: {
       versesofCymbals: false,
@@ -224,6 +254,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_REWIS: {
       versesofCymbals: false,
@@ -231,6 +262,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_JOHN_THE_SHORT: {
       versesofCymbals: false,
@@ -238,6 +270,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_KARAS: {
       versesofCymbals: false,
@@ -245,6 +278,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
     ST_KIROLLOS_SIXTH: {
       versesofCymbals: false,
@@ -252,6 +286,7 @@ const saintsSlice = createSlice({
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,
+      pioik: false,
     },
   },
   reducers: {

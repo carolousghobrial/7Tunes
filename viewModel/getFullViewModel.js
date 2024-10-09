@@ -620,10 +620,8 @@ export function GetTodaysReadingPath(path) {
       "EveningGospel",
     ];
     if (liturgyPaths.includes(path)) {
-      console.log(filePath + commonPart + path);
       return filePath + commonPart + path;
     } else {
-      console.log("HERE" + filePath);
       return filePath;
     }
   }

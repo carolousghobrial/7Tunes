@@ -124,6 +124,202 @@
       "English": "Through the intercessions of the holy archangels Michael and Gabriel, O Lord, grant us the forgiveness of our sins.",
       "Arabiccoptic": "هيتين ني بريسفيا : انتى ني ارشي انجيلوس اثوؤاب ميخائيل نيم غابرييل : ابتشويس اري اهموت نان : امبيكو ايفول انتى نين نوفي",
       "Englishcoptic": "Hiten ni-epreseei-a ente ni-arshee-angelos ethowab Mikhaeel nen Ghabrieel: Epchois ariehmot nan empi-khoo evol ente nennovi."
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheWordHitensStJohntheBeloved",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "SAINT": "ST_JOHN_BELOVED"
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheWordHitensStMark",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "SAINT": "ST_MARK"
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheWordHitensStStephen",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "SAINT": "ST_STEPHEN"
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheWordHitensStGeorge",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "SAINT": "ST_GEORGE"
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheWordHitensStTheodoreShatpi",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "SAINT": "ST_THEODORE_SHOTEP"
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheWordHitensStPhilopater",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "SAINT": "ST_PHILOPATER"
+    },
+    {
+      "Type": "Main",
+      "Path": "LiturgyLiturgyOfTheWordHitensStMina",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "SAINT": "ST_MINA"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStAbanoub",
+      "SAINT": "ST_ABANOUB"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensCosmanAndDemian",
+      "SAINT": "COSMAN_AND_DEMIAN"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensApakirAndJohn",
+      "SAINT": "APAKIR_AND_JOHN"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStDemiana",
+      "SAINT": "ST_DEMIANA"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStMarina",
+      "SAINT": "ST_MARINA"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensBarbara",
+      "SAINT": "ST_BARBARA"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensJuliana",
+      "SAINT": "ST_JULIANA"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStAnthony",
+      "SAINT": "ST_ANTHONY"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStPaulHermit",
+      "SAINT": "ST_PAULHERMIT"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStMacariusGreat",
+      "SAINT": "MACARIUS_GREAT"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensMaximusDometius",
+      "SAINT": "MAXIMUS_DOMETIUS"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStAthanasius",
+      "SAINT": "ATHANASIUS_APOSTOLIC"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStMoses",
+      "SAINT": "ST_MOSES"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStPishoi",
+      "SAINT": "ST_PISHOI"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStShenoudaTheArchManadrite",
+      "SAINT": "ST_SHENOUDA_ARCHMANDRITE"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStPachomious",
+      "SAINT": "ST_PACHOMIOUS"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensSamuelConfessor",
+      "SAINT": "SAMUEL_CONFESSOR"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStRewis",
+      "SAINT": "ST_REWIS"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStJohnTheShort",
+      "SAINT": "ST_JOHN_THE_SHORT"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensStKaras",
+      "SAINT": "ST_KARAS"
+    },
+    {
+      "Type": "Main",
+      "Rule": 0,
+      "Visible": "PioikSaint",
+      "Path": "LiturgyLiturgyOfTheWordHitensPopeKirollos",
+      "SAINT": "ST_KIROLLOS_SIXTH"
     }
   ]
 }
