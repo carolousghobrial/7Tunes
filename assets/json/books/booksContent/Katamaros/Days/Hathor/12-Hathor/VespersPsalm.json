@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز148: 2،1)",
+  "EnglishTitle": "Psalms 148:1-2",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" 1- هللويا سبحوا الرب من السماوات سبحوه في الاعالي. ",
+      "English": "148:1 Praise the Lord! Praise the Lord from the heavens; Praise Him in the heights! \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "2- سبحوه يا جميع ملائكته سبحوه يا كل جنوده. \"",
+      "English": "2 Praise Him, all His angels; Praise Him, all His hosts!.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز 67 : 17)",
+  "EnglishTitle": "Psalms 67:17",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"مركبة الله بالربوات المضاعفة، والألوف المخصبين،",
+      "English": "The chariots of God are tens of thousands, even thousands of thousands;\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فإن الرب يسكن فيه إلى الانقضاء، الله فيهم في سيناء في القدس. هلليلويا \"",
+      "English": " the Lord has come from Sinai in the Holy Place.    Alleluia\r"
+    }
+  ]
+}

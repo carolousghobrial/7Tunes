@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور إنجيل القداس (مز 102 : 17)",
+  "EnglishTitle": "Psalms 103:20-21",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\"باركوا الرب يا جميع ملائكته، المقتدرين بقوتهم الصانعين قوله، ",
+      "English": "20 Bless the Lord, you His angels, Who excel in strength, who do His word, Heeding the voice of His word. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "باركوه يا جميع قواته، خدامه العاملين إرادته. هلليلويا  \"",
+      "English": "21 Bless the Lord, all you His hosts, You ministers of His, who do His pleasure.     Alleluia\r"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز103: 4،3)",
+  "EnglishTitle": "Psalms 104:4, 3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" الذي صنع ملائكته أرواحًا، وخدامه نارًا تلتهب،",
+      "English": "4 Who makes His angels spirits, His ministers a flame of fire.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " الذي جعل مسالكه على السحاب، الماشي على أجنحة الرياح. هلليلويا\"",
+      "English": "3 Who makes the clouds His chariot, Who walks on the wings of the wind.     Alleluia\r"
+    }
+  ]
+}

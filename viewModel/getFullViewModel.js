@@ -520,7 +520,7 @@ export function GetTodaysReadingPath(path) {
     filePath = updateFilePath(`GreatFastWeek7Saturday`);
   } else if (isStandardSeasonSunday) {
     if (currentSeason.key === "NATIVITY") {
-      filePath = updateFilePath(`DaysKoiahk29`);
+      filePath = updateFilePath(`DaysKoiahk29-Koiahk`);
     } else if (currentSeason.key === "EPIPHANY") {
       filePath = updateFilePath(`DaysTobe11`);
     } else if (currentSeason.key === "ANNUNCIATION") {
@@ -548,7 +548,7 @@ export function GetTodaysReadingPath(path) {
   } else if (isStandardSeasonWeekday) {
     //KatamarosDaysEpep3ApipLiturgyActs
     if (currentSeason.key === "NATIVITY") {
-      filePath = updateFilePath(`DaysKoiahk29`);
+      filePath = updateFilePath(`DaysKoiahk29-Koiahk`);
     } else if (currentSeason.key === "EPIPHANY") {
       filePath = updateFilePath(`DaysTobe11`);
     } else if (currentSeason.key === "JONAH_FAST") {
