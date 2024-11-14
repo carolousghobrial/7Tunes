@@ -1,0 +1,147 @@
+{
+    "books": [
+        {
+            "EnglishTitle": "Thoout",
+            "ArabicTitle": "توت",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Paope",
+            "ArabicTitle": "بابه",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Hathor",
+            "ArabicTitle": "هاتور",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Koiahk",
+            "ArabicTitle": "كيهك",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Tobe",
+            "ArabicTitle": "طوبه",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Meshir",
+            "ArabicTitle": "امشير",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Paremhotep",
+            "ArabicTitle": "برمهات",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Parmoute",
+            "ArabicTitle": "برموده",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Pashons",
+            "ArabicTitle": "بشنس",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Paone",
+            "ArabicTitle": "بؤنة",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Epep",
+            "ArabicTitle": "أبيب",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Mesore",
+            "ArabicTitle": "مسرى",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        },
+        {
+            "EnglishTitle": "Nesi",
+            "ArabicTitle": "نسيئ",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "KatamarosTodaysReadings",
+            "ImageURL": "katamaros",
+            "Enabled": true,
+            "mother": "katamaros"
+        }
+    ]
+}

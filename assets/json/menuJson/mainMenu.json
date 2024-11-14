@@ -37,6 +37,16 @@
             "Enabled": true
         },
         {
+            "EnglishTitle": "Readings Menu",
+            "ArabicTitle": "قطمارس",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": true,
+            "BookPath": "katamaros",
+            "ImageURL": "katamaros",
+            "Enabled": true
+        },
+        {
             "EnglishTitle": "Index",
             "ArabicTitle": "فهرس",
             "PurchaseKeyDroid": "",

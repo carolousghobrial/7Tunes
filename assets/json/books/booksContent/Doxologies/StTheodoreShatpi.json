@@ -2,7 +2,7 @@
   "RefrainAfter": 0,
   "ArabicTitle": " ذكصولوجية لالأمير تادرس بن يوحنا الشطبي ",
   "EnglishTitle": "Doxology for St.Theodore of Shotep",
-  "CopticTitle": " A Penu I=h=c Pi`xrictoc",
+  "CopticTitle": " A Pensoic Ihcouc Pi`xrictoc",
   "Hymn": [
     {
       "Type": "Base",
@@ -10,10 +10,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": " ربنا يسوع المسيح تحنن على دموع الأرملة (ببلدة نايين) وأقام لها ابنها  . ",
-      "Coptic": " A Penu I=h=c Pi`xrictoc > ]ana~\\qhf =a niermwqu`I > `nte ;xhra et =en Na~~ ~in >aftounoc pec]hri nac . ",
+      "Coptic": " A Pensoic Ihcouc Pi`xrictoc > ]ana`\\qhf =a niermwo`ui > `nte ;xhra et =en Na`in > aftounoc pec]hri nac . ",
       "English": "Our Lord Jesus Christ, was compassionate to the tears, of the widow of Nain, He raised her sons. ",
       "Arabiccoptic": "أبينشويس إيسوس بخرستوس : شانا إهثيف خا نى إرموأوى: إنتى تى كيرا إتخين نائين : أفتونوس بيس شيرى ناس . ",
-      "Englishcoptic": "A Pen-ee Ikheekhs Pikhristos : shana~htheef kha ni-ermoothee-I : en-te ti-sheera et khen Na~~ ~in :aftoonos pessheeri nas ."
+      "Englishcoptic": "A Penchois Isos Pikhristos : shana-ehtheef kha ni-ermoo-owi : en-te ti-sheera et khen Na-een :aftoonos pessheeri nas ."
     },
     {
       "Type": "Base",
@@ -21,10 +21,10 @@
       "Visible": true,
       "Side": "North",
       "Arabic": " وثيؤدوروس الأسفهسلار تحنن على دموع الأرملة التي (ببلدة أوخيطس) وخلص لها أولادها  . ",
-      "Coptic": " Qe~odoroc pictratilathc > af]ana `\\qhf =a niermwou~I > `nte ;xhra et =en Euxhtoc > aftouje nec]hri nac . ",
+      "Coptic": " Qeodoroc pictratilathc > af]ana `\\qhf =a niermwoui > `nte ;xhra et =en Euxhtoc > aftouje nec]hri nac . ",
       "English": " Theodore the general, was compassionate to the tears, of the widow of Eucaita, he saved her sons. ",
       "Arabiccoptic": "ثيؤدوروس بى ستراتيلاتيس: أفشانا إهثيف خا نى إرموأوى: إنتى تى كيرا إتخين إفخيطوس: أفتوﭽـى نيس شيرى ناس . ",
-      "Englishcoptic": "The~ozoros pi-strati-latees : afshana ehtheef kha ni-ermo-oo~I : en-te ti-sheera et khen Evsheetos : aftooje nessheeri nas ."
+      "Englishcoptic": "The~ozoros pi-strati-latees : afshana ehtheef kha ni-ermo-owi : en-te ti-sheera et khen Evsheetos : aftooje nessheeri nas ."
     },
     {
       "Type": "Base",

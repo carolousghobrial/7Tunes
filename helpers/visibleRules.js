@@ -197,28 +197,29 @@ const AlleluiaStandard = (motherSource, path) => {
   return currentSeason.type !== "feast";
 };
 const isStandardSeason = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  switch (currentSeason.key) {
-    case "STANDARD":
-      if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
-        return false;
-      }
-      return true;
-    case "FAST_OF_APOSTLES":
-    case "FEAST_OF_APOSTLES":
-      return true;
-    case "NATIVITY_FAST":
-      if (
-        currentSeason.copticMonth !== "Koiahk" &&
-        !TakeFromHathor(currentSeason)
-      ) {
-        return true;
-      }
-      return false;
-    default:
-      return false;
-  }
-  return currentSeason.type !== "feast";
+  // const currentSeason = useSelector((state) => state.settings.currentSeason);
+  // switch (currentSeason.key) {
+  //   case "STANDARD":
+  //     if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
+  //       return false;
+  //     }
+  //     return true;
+  //   case "FAST_OF_APOSTLES":
+  //   case "FEAST_OF_APOSTLES":
+  //     return true;
+  //   case "NATIVITY_FAST":
+  //     if (
+  //       currentSeason.copticMonth !== "Koiahk" &&
+  //       !TakeFromHathor(currentSeason)
+  //     ) {
+  //       return true;
+  //     }
+  //     return false;
+  //   default:
+  //     return false;
+  // }
+  //return currentSeason.type !== "feast";
+  return true;
 };
 const isStandardFraction = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -581,6 +582,7 @@ const isSeason = (motherSource, path) => {
         !motherSource.includes("kiahk") &&
         (lowerPath.includes("hitens") ||
           lowerPath.includes("actsresponse") ||
+          lowerPath.includes("doxologies") ||
           lowerPath.includes("melodies"))
       ) {
         return true;
@@ -839,18 +841,24 @@ const isWatos = (motherSource, path) => {
 const isAdam = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
-  if (
-    currentSeason.type === "feast" ||
-    currentSeason.isWatos ||
-    !isNOTLentWeekdayOrJonah(motherSource, path) ||
-    isBigFeast(motherSource, path) ||
-    (motherSource === "vespers" && currentSeason.dayOfWeek === 0) ||
-    motherSource === "ThursdayDayFirstHourMain"
-  ) {
+  if (motherSource === "ThursdayDayFirstHourMain") {
     return false;
   }
 
-  return true;
+  if (currentSeason.type === "feast") {
+    return false;
+  }
+
+  if (motherSource === "vespers" && new Date().getDay() === 2) {
+    return true;
+  }
+
+  // If any of the conditions is met, return true, otherwise, return false
+  return (
+    !currentSeason.isWatos &&
+    isNOTLentWeekdayOrJonah(motherSource, path) &&
+    !isBigFeast(motherSource, path)
+  );
 };
 export const isNOTLentWeekdayOrJonah = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -1188,7 +1196,6 @@ const JohnTheBaptistShow = (motherSource, path) => {
       }
 
     default:
-      console.log(currentSeason.saintsOfThisDay);
       return currentSeason.saintsOfThisDay.includes("JOHN_THE_BAPTIST")
         ? true
         : false;
@@ -1595,6 +1602,7 @@ const firstKiahkGospelResponse = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const { copticMonth, weekOfMonth, dayOfWeek, key } = currentSeason;
   const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
+  const isWeek5 = currentSeason.weekOfMonth === 5;
 
   let weekNUM = 0;
 

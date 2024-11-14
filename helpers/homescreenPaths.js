@@ -1,5 +1,7 @@
 const homescreenPaths = {
   bishopsList: require("../assets/json/bishopsList.json"),
+  katamaros: require("../assets/json/menuJson/katamaros.json"),
+  sundaysMonths: require("../assets/json/books/booksTable/Katamaros/months.json"),
   myHome: require("../assets/json/menuJson/mainMenu.json"),
   psalmody: require("../assets/json/menuJson/psalmody/psalmody.json"),
   liturgy: require("../assets/json/menuJson/liturgy/liturgy.json"),
@@ -15,6 +17,7 @@ const homescreenPaths = {
   LiturgyLiturgyOfTheWordChantedLiturgyPsalmPalmSunday1: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/chantedLiturgyPsalmPalmSunday1.json"),
   LiturgyLiturgyOfTheWordChantedLiturgyPsalmPalmSunday2: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/chantedLiturgyPsalmPalmSunday2.json"),
   LiturgyRaisingOfIncenseChantedVespersPsalm: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/chantedVespersPsalm.json"),
+  KatamarosTodaysReadings: require("../assets/json/books/booksTable/Katamaros/todaysReadings.json"),
   LiturgyRaisingOfIncenseChantedEveningPsalm: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/chantedVespersPsalm.json"),
   LiturgyRaisingOfIncenseChantedMatinsPsalm: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/chantedMatinsPsalm.json"),
   LiturgyRaisingOfIncenseProphecies: require("../assets/json/books/booksTable/Liturgies/RaisingOfIncense/prophecies.json"),

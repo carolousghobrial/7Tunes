@@ -1,0 +1,129 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "قراءات اليوم",
+            "English": "Today's Readings"
+        },
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Arabic": "مزمور العشية",
+            "English": "Vesper's Psalm"
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "VespersPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Arabic": "انجيل العشية",
+            "English": "Vesper's Gospel"
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "VespersGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Arabic": "مزمور باكر",
+            "English": "Matins Psalm"
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Arabic": "انجيل باكر",
+            "English": "Matins Gospel"
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "MatinsGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Arabic": "البولس",
+            "English": "Pauline Epistle"
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "LiturgyPauline",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Arabic": "الْكَاثولِيكُون",
+            "English": "Catholic Epistle"
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "LiturgyCatholic",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Arabic": "الإِبْرَكْسِيس",
+            "English": "The Acts"
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "LiturgyActs",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Arabic": "مزمور القداس",
+            "English": "Liturgy Psalm"
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "LiturgyPsalm",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Title",
+            "Rule": 0,
+            "Visible": true,
+            "Arabic": "انجيل القداس",
+            "English": "Liturgy Gospel"
+        },
+        {
+            "Type": "GetDaysReading",
+            "Path": "LiturgyGospel",
+            "Rule": 0,
+            "Visible": true
+        }
+    ]
+}

@@ -256,7 +256,6 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
         });
         key++;
       };
-
       switch (part.Type) {
         case "Main":
           processMainType();
@@ -274,7 +273,7 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
     });
   } catch (err) {
     myMenuArray.pop();
-    //console.error(err);
+    console.error(err);
   }
 
   return [myViewArray, myMenuArray, key];
@@ -398,6 +397,8 @@ export function getMainWithTitle(Path, motherSource, rule, key) {
       }
     });
   } catch (err) {
+    console.log(Path);
+    console.log(err);
     myMenuArray.pop();
   }
 

@@ -30,7 +30,7 @@
           "username": "carolous.ghobrial"
         }
       ],
-       [
+      [
         "expo-build-properties",
         {
           "android": {
@@ -38,9 +38,11 @@
             "targetSdkVersion": 34,
             "buildToolsVersion": "34.0.0"
           }
-          
         }
-      ]
+      ],
+      "expo-font",
+      "expo-localization",
+      "expo-secure-store"
     ],
     "updates": {
       "fallbackToCacheTimeout": 0,
