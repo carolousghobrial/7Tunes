@@ -23,7 +23,6 @@ import {
 function RitualView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   let RitualColor = getColor("RitualColor");
-  const testAlignText = Platform.OS === "ios" ? "justify" : "right";
 
   return (
     <View style={styles.bookView}>
@@ -44,7 +43,7 @@ function RitualView({ item }) {
             {
               fontSize: fontSize,
               color: RitualColor,
-              textAlign: testAlignText,
+              textAlign: "right",
             },
           ]}
         >
@@ -75,7 +74,7 @@ const styles = StyleSheet.create({
   },
   english: {
     fontFamily: "english-font",
-    textAlign: "justify",
+    textAlign: "left",
   },
 });
 

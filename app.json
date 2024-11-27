@@ -3,6 +3,8 @@
     "name": "7 Tunes",
     "slug": "7-tunes",
     "version": "6.8.3",
+    
+    "newArchEnabled": true,
     "orientation": "default",
     "icon": "./assets/images//logofinal.png",
     "userInterfaceStyle": "automatic",
@@ -42,7 +44,8 @@
       ],
       "expo-font",
       "expo-localization",
-      "expo-secure-store"
+      "expo-secure-store",
+      "expo-router"
     ],
     "updates": {
       "fallbackToCacheTimeout": 0,

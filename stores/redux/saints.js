@@ -73,8 +73,8 @@ const saintsSlice = createSlice({
       pioik: false,
     },
     ST_JOHN_BELOVED: {
-      versesofCymbals: true,
-      doxologies: true,
+      versesofCymbals: false,
+      doxologies: false,
       intercessions: false,
       actsResponse: false,
       gospelResponse: false,

@@ -1,0 +1,23 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز67: 33،13):-",
+  "EnglishTitle": "Psalms 68:11, 35",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" الرب يعطى كلمة للمبشرين بقوة عظيمة، ",
+      "English": "11 The Lord gave the word; Great was the company of those who proclaimed it:.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "عجيب هو الله في قديسيه، إله إسرائيل هو يعطى، قوة وعزاء لشعبه. هلليلويا \"",
+      "English": "35 O God, You are more awesome than Your holy places. The God of Israel is He who gives strength and power to His people.     Alleluia\r"
+    }
+  ]
+}

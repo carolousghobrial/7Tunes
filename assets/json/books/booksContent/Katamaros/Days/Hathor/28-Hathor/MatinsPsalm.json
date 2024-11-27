@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور باكر (مز131: 13،12،7):-",
+  "EnglishTitle": "Psalms 132:9-10, 17, 18",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" كهنتك يلبسون العدل،",
+      "English": "9 Let Your priests be clothed with righteousness, And let Your saints shout for joy. \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وأبرارك يبتهجون من أجل داود عبدك،",
+      "English": "10 For Your servant David's sake.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " هيأت سراجًا لمسيحي، وعليه يزهر قدسي. هلليلويا \"",
+      "English": "17 I will prepare a lamp for My Anointed.\r"
+    }
+  ]
+}

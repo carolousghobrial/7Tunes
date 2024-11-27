@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مزمور العشية (مز88: 15،14):-",
+  "EnglishTitle": "Psalms 89:19-21",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" رفعت مختارًا من شعبي،",
+      "English": "19 I have exalted one chosen from the people \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وجدت داود عبدي، مسحته بدهن مقدس،",
+      "English": "20 I have found My servant David; With My holy oil I have anointed him, \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لأن يدي تعضده. هلليلويا \"",
+      "English": "21 With whom My hand shall be established; Also My arm shall strengthen him.     Alleluia\r"
+    }
+  ]
+}

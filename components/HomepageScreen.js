@@ -9,16 +9,16 @@ import {
   AppState,
 } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import bookPaths from "../helpers/bookPathsHelpers";
-import { store, persistor } from "../stores/redux/store";
-import SearchBar from "../components/ViewTypes/SearchBar";
+import bookPaths from "../helpers/bookPathsHelpers.js";
+import { store, persistor } from "../stores/redux/store.js";
+import SearchBar from "./ViewTypes/SearchBar.js";
 import { useDispatch, useSelector } from "react-redux";
 import { Glassfy } from "react-native-glassfy-module";
 import { getColor } from "../helpers/SettingsHelpers.js";
-import homescreenPaths from "../helpers/homescreenPaths";
-import { setItemPurchased } from "../stores/redux/settings";
-import BookView from "../components/homepage/bookView";
-import BishopModal from "./BishopModal.js";
+import homescreenPaths from "../helpers/homescreenPaths.js";
+import { setItemPurchased } from "../stores/redux/settings.js";
+import BookView from "./homepage/bookView.js";
+import BishopModal from "../screens/BishopModal.js";
 import * as Updates from "expo-updates";
 import {
   BottomSheetModalProvider,
@@ -28,9 +28,9 @@ import {
 } from "@gorhom/bottom-sheet";
 import { setSeason } from "../stores/redux/settings.js";
 
-import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper";
-import Onboarding from "./OnBoardingScreen.js";
-import BishopPresentView from "./BishopPresentView.js";
+import { setCurrentSeasonLive } from "../helpers/copticMonthsHelper.js";
+import Onboarding from "../screens/OnBoardingScreen.js";
+import BishopPresentView from "../app/(modal)/BishopPresentView.js";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
 function HomepageScreen({ navigation, route }) {
@@ -180,16 +180,12 @@ function HomepageScreen({ navigation, route }) {
         break;
     }
 
-    if (item.Released === false) {
-      Alert.alert("Will be Released Soon....");
-      return;
-    } else if (item.Enabled === false) {
+    if (item.Enabled === false) {
       setIsLoading(true);
       if (!isBought) {
         await Glassfy.restorePurchases();
 
         const permissions = await Glassfy.permissions();
-        // console.log(permissions);
         const BookPermission = permissions.all.find(
           (permission) => permission.permissionId === item.PermissionStatus
         );
@@ -280,7 +276,7 @@ function HomepageScreen({ navigation, route }) {
             showsVerticalScrollIndicator={false}
             renderItem={({ item }) => (
               <BookView
-                onLongPress={onLongPress}
+                //onLongPress={onLongPress}
                 item={item}
                 onClick={bookClick}
               />

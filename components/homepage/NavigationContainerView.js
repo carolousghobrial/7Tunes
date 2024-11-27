@@ -8,13 +8,14 @@ import { useWindowDimensions, StyleSheet } from "react-native";
 import { useSelector } from "react-redux";
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { createDrawerNavigator } from "@react-navigation/drawer";
 import * as Device from "expo-device";
 import {
   getLanguageValue,
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers";
+import Ionicons from "@expo/vector-icons/Ionicons";
+
 import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
 import HomepageScreen from "../../screens/HomepageScreen";
 import VenerationSelectionScreen from "../../screens/VenerationSelectionScreen";
@@ -29,7 +30,7 @@ import CustomDrawerScreen from "../../screens/CustomDrawerScreen";
 import FullFeastsScreen from "../../screens/FullFeastsScreen";
 import BigSearchScreen from "../../screens/BigSearchScreen";
 import SaintsList from "../settings/saintsList";
-import ContentsModal from "../BottomBar/ContentsModal.js";
+import ContentsModal from "../../app/bookscreen/modal.js";
 import SettingsModal from "../BottomBar/SettingsModal.js";
 
 const Stack = createNativeStackNavigator();

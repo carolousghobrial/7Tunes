@@ -15,12 +15,14 @@ import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
 import "moment/locale/en-gb"; // import the locale for UK English
 import { useDispatch, useSelector } from "react-redux";
 import ButtonRules from "../../helpers/buttonRules";
+import { useLocalSearchParams, useNavigation, useRouter } from "expo-router";
 
-function ButtonView({ item, motherSource, flatListRef, viewData, navigation }) {
+function ButtonView({ item, motherSource, flatListRef, viewData }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
   const flex = width > height ? "row" : "column";
   const itemVisible = item.Visible;
+  const router = useRouter();
 
   const handlePress = () => {
     const ruleFunction = ButtonRules(
@@ -28,8 +30,9 @@ function ButtonView({ item, motherSource, flatListRef, viewData, navigation }) {
       motherSource,
       flatListRef,
       viewData,
-      navigation
+      router
     )[item.Rule];
+
     ruleFunction && ruleFunction();
   };
 

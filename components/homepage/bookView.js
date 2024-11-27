@@ -11,7 +11,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import images from "../../helpers/imageHelpers";
 
-function BookView({ onLongPress, item, onClick }) {
+function BookView({ item, onClick, onLongPress }) {
   const { width, height } = useWindowDimensions();
   const isTablet = useSelector((state) => state.settings.isTablet);
   const fontSize = isTablet ? 30 : 20;

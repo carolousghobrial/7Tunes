@@ -13,7 +13,7 @@ import {
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import { useDispatch, useSelector } from "react-redux";
 import { setdioceseBishop } from "../../stores/redux/settings";
-import BishopPresentView from "../../screens/BishopPresentView";
+import BishopPresentView from "../../app/(modal)/BishopPresentView";
 import React, { useState, useRef, useEffect } from "react";
 import BishopsPopup from "./bishopsPopup";
 const bishopsList = require("../../assets/json/bishopsList.json");

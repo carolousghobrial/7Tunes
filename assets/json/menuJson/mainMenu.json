@@ -21,6 +21,7 @@
             "ArabicTitle": "البصخة المقدسة",
             "PurchaseKey": "PaschaBook",
             "PermissionStatus": "paschaBookPermission",
+            "offering": "PaschaOffering",
             "hasSubBooks": true,
             "BookPath": "pascha",
             "ImageURL": "pascha",

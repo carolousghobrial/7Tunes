@@ -162,7 +162,7 @@ const FeastsAndFastsOfStMary = (motherSource, path) => {
   switch (currentSeason.key) {
     case FeastEnum.FAST_STMARY:
     case FeastEnum.ASSUMPTION_STMARY:
-      if (path.toLowerCase()?.includes(motherSource)) {
+      if (path?.toLowerCase()?.includes(motherSource)) {
         return true;
       }
 
@@ -279,7 +279,7 @@ const isKiahkSeason = (motherSource, path) => {
 
   if (
     currentSeason.key === "NATIVITY_FAST" &&
-    path.toLowerCase()?.includes("kiahk") &&
+    path?.toLowerCase()?.includes("kiahk") &&
     (currentSeason.copticMonth === "Koiahk" || TakeFromHathor(currentSeason))
   ) {
     return true;
@@ -289,7 +289,7 @@ const isKiahkSeason = (motherSource, path) => {
 };
 const isSeason = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const lowerPath = path.toLowerCase();
+  const lowerPath = path?.toLowerCase();
   if (motherSource === "brightSaturdayMatins") {
     if (
       path === "DoxologiesMajorFeastsResurrection2" ||
@@ -626,19 +626,13 @@ const isKiahkWeek = (motherSource, path) => {
     currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4;
   const isWeek5 = currentSeason.weekOfMonth === 5;
   const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
-  const lowerPath = path.toLowerCase();
-  if (
-    isWeek1to4 &&
-    currentSeason.key === "NATIVITY_FAST" &&
-    currentSeason.key !== "NATIVITY_PARAMOUN"
-  ) {
-    if (isTakeFromHathor && isKoiahkMonth) {
-      if (currentSeason.dayOfWeek === 0) {
-        if (currentSeason.weekOfMonth + 1 <= 4) {
-          return lowerPath.includes(currentSeason.weekOfMonth + 1);
-        } else {
-          return lowerPath.includes(currentSeason.weekOfMonth);
-        }
+  const lowerPath = path?.toLowerCase();
+  if (isKoiahkMonth && !isTakeFromHathor) {
+    return lowerPath.includes(currentSeason.weekOfMonth);
+  } else if (isTakeFromHathor && isKoiahkMonth) {
+    if (currentSeason.dayOfWeek === 0) {
+      if (currentSeason.weekOfMonth + 1 <= 4) {
+        return lowerPath.includes(currentSeason.weekOfMonth + 1);
       } else {
         return lowerPath.includes(currentSeason.weekOfMonth);
       }
@@ -648,13 +642,14 @@ const isKiahkWeek = (motherSource, path) => {
   } else if (isTakeFromHathor && isHathorMonth && isWeek5) {
     return lowerPath.includes(1);
   }
+
   return false;
 };
 const isWeekOfLent = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
   return (
-    path.toLowerCase().includes(currentSeason.week) &&
+    path?.toLowerCase().includes(currentSeason.week) &&
     currentSeason.key === "GREAT_LENT"
   );
 };
@@ -662,7 +657,7 @@ const isWeekOfPentecost = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
   return (
-    path.toLowerCase().includes(currentSeason.week) &&
+    path?.toLowerCase().includes(currentSeason.week) &&
     isInHolyFifties(motherSource, path)
   );
 };
@@ -1047,7 +1042,6 @@ const hide = (motherSource, path) => {
 };
 const VOCSaint = (motherSource, path) => {
   const saintSelected = getSaint(path.trim());
-
   if (
     isLentWeekdayOrJonah(motherSource, path) ||
     isBigFeast(motherSource, path)
@@ -1504,7 +1498,7 @@ const IsNonFastingDays = (motherSource, path) => {
   if (
     (currentSeason.key === FeastEnum.FEAST_OF_CROSS ||
       currentSeason.key === FeastEnum.FEAST_OF_CROSS_3) &&
-    path.toLowerCase().includes("taishori")
+    path?.toLowerCase().includes("taishori")
   ) {
     return false;
   }
@@ -1530,7 +1524,7 @@ const IsNonFastingDays = (motherSource, path) => {
 const IsFastingDays = (motherSource, path) => {
   const timeTransition = useSelector((state) => state.settings.timeTransition);
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const lowerPath = path.toLowerCase();
+  const lowerPath = path?.toLowerCase();
 
   if (
     (currentSeason.key === FeastEnum.FEAST_OF_CROSS ||
@@ -1601,53 +1595,71 @@ const ShowSotees = (motherSource, path) => {
 const firstKiahkGospelResponse = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   const { copticMonth, weekOfMonth, dayOfWeek, key } = currentSeason;
-  const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
-  const isWeek5 = currentSeason.weekOfMonth === 5;
 
-  let weekNUM = 0;
-
-  if (isWeek1to4() && key === "NATIVITY_FAST" && key !== "NATIVITY_PARAMOUN") {
-    weekNUM =
-      isTakeFromHathor && copticMonth === "Koiahk" && dayOfWeek === 0
-        ? Math.min(weekOfMonth + 1, 4)
-        : weekOfMonth;
-  } else if (isTakeFromHathor && copticMonth === "Hathor" && isWeek5) {
-    weekNUM = 1;
+  // Return early if the season is not Nativity Fast
+  if (key !== "NATIVITY_FAST") {
+    return false;
   }
-
-  return weekNUM >= 1 && weekNUM <= 2;
 
   // Helper function to check if it's week 1 to 4
-  function isWeek1to4() {
-    return weekOfMonth >= 1 && weekOfMonth <= 4;
+  const isWeek1to4 = weekOfMonth >= 1 && weekOfMonth <= 4;
+
+  // Check if it's Kiahk and not Nativity Paramoun
+  if (copticMonth === "Koiahk" && isWeek1to4 && key !== "NATIVITY_PARAMOUN") {
+    const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
+    const weekNUM =
+      isTakeFromHathor && dayOfWeek === 0
+        ? Math.min(weekOfMonth + 1, 4)
+        : weekOfMonth;
+
+    return weekNUM >= 1 && weekNUM <= 2;
   }
+
+  // Check if it's Hathor, week 5, and take from Hathor
+  if (
+    copticMonth === "Hathor" &&
+    weekOfMonth === 5 &&
+    TakeFromHathorTwo(currentSeason)
+  ) {
+    return true;
+  }
+
+  return false;
 };
+
 const secondKiahkGospelResponse = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const isHathorMonth = currentSeason.copticMonth === "Hathor";
-  const isKoiahkMonth = currentSeason.copticMonth === "Koiahk";
-  const isWeek5 = currentSeason.weekOfMonth === 5;
-
   const { copticMonth, weekOfMonth, dayOfWeek, key } = currentSeason;
-  const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
 
-  let weekNUM = 0;
-
-  if (isWeek1to4() && key === "NATIVITY_FAST" && key !== "NATIVITY_PARAMOUN") {
-    weekNUM =
-      isTakeFromHathor && isKoiahkMonth && dayOfWeek === 0
-        ? Math.min(weekOfMonth + 1, 4)
-        : weekOfMonth;
-  } else if (isTakeFromHathor && isHathorMonth && isWeek5) {
-    weekNUM = 1;
+  // Return early if the season is not Nativity Fast
+  if (key !== "NATIVITY_FAST") {
+    return false;
   }
-
-  return weekNUM >= 3 && weekNUM <= 4;
 
   // Helper function to check if it's week 1 to 4
-  function isWeek1to4() {
-    return weekOfMonth >= 1 && weekOfMonth <= 4;
+  const isWeek1to4 = weekOfMonth >= 1 && weekOfMonth <= 4;
+
+  // Check if it's Kiahk and not Nativity Paramoun
+  if (copticMonth === "Koiahk" && isWeek1to4 && key !== "NATIVITY_PARAMOUN") {
+    const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
+    const weekNUM =
+      isTakeFromHathor && dayOfWeek === 0
+        ? Math.min(weekOfMonth + 1, 4)
+        : weekOfMonth;
+
+    return weekNUM >= 3 && weekNUM <= 4;
   }
+
+  // Check if it's Hathor, week 5, and take from Hathor
+  if (
+    copticMonth === "Hathor" &&
+    weekOfMonth === 5 &&
+    TakeFromHathorTwo(currentSeason)
+  ) {
+    return true;
+  }
+
+  return false;
 };
 
 export function TakeFromHathor(currentSeason) {
@@ -1772,7 +1784,7 @@ const ComeRisenRule = (motherSource, part) => {
         };
       }
 
-      if (today === 0) {
+      if (currentSeason.dayOfWeek === 0) {
         return {
           english: "have risen",
           coptic: "aktwnk",
@@ -3226,12 +3238,12 @@ const REPLACEBISHOPAVAILABLETHREE = (rule, part) => {
 
 function getAuthor(part, checkList) {
   const completePath = GetTodaysReadingPath(part.mother);
-
+  console.log(completePath);
   if (completePath === "Katamaros") {
     return "NONE";
   }
-
   const book = bookPaths[completePath];
+
   const { EnglishTitle } = book;
 
   for (const item of checkList) {

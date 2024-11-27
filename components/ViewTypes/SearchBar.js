@@ -38,11 +38,16 @@ const SearchBar = ({
           clicked && styles.searchBarClicked,
         ]}
       >
-        <Feather name="search" size={20} color="black" style={styles.icon} />
+        <Feather
+          name="search"
+          size={20}
+          color={labelColor}
+          style={styles.icon}
+        />
         <TextInput
           style={[styles.input, { color: labelColor }]}
           placeholder="Search"
-          placeholderTextColor="black"
+          placeholderTextColor={labelColor}
           value={searchPhrase}
           onChangeText={handleSearch}
           onFocus={tempSetClick}

@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { BottomSheetBackdrop, BottomSheetModal } from "@gorhom/bottom-sheet";
 
 import AllBishopsPopup from "../components/settings/allbishopsPopup.js";
-import BishopPresentView from "./BishopPresentView.js";
+import BishopPresentView from "../app/(modal)/BishopPresentView.js";
 import { getColor, getLanguageValue } from "../helpers/SettingsHelpers.js";
 import {
   changeBishopIsPresent,

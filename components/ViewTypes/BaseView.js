@@ -41,19 +41,17 @@ function BaseView({ item, mykey }) {
     color: getTextColor(item),
   };
 
-  const testAlignText = Platform.OS === "ios" ? "justify" : "right";
-
   const arabicStyle = {
     fontFamily: "arabic-font",
     lineHeight: fontSize * 1.6,
-    textAlign: testAlignText,
+    textAlign: "right",
     writingDirection: "rtl",
   };
 
   const arabicCopticStyle = {
     fontFamily: "arabic-font",
     lineHeight: fontSize * 1.2,
-    textAlign: testAlignText,
+    textAlign: "right",
     writingDirection: "rtl",
   };
 

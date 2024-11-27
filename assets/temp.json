@@ -1,0 +1,40 @@
+{
+    "availablePackages": [
+        {
+            "identifier": "$rc_lifetime",
+            "offeringIdentifier": "PaschaOffering",
+            "packageType": "LIFETIME",
+            "presentedOfferingContext": [Object
+            ],
+            "product": [Object
+            ]
+        }
+    ],
+    "identifier": "PaschaOffering",
+    "lifetime": {
+        "identifier": "$rc_lifetime",
+        "offeringIdentifier": "PaschaOffering",
+        "packageType": "LIFETIME",
+        "presentedOfferingContext": {
+            "offeringIdentifier": "PaschaOffering",
+            "placementIdentifier": null,
+            "targetingContext": null
+        },
+        "product": {
+            "currencyCode": "USD",
+            "description": "The readings of the Holy Pascha",
+            "discounts": [Array
+            ],
+            "identifier": "holypaschasku",
+            "introPrice": null,
+            "price": 8.99,
+            "priceString": "$8.99",
+            "productCategory": "NON_SUBSCRIPTION",
+            "productType": "NON_CONSUMABLE",
+            "subscriptionPeriod": null,
+            "title": "Holy Pascha"
+        }
+    },
+    "metadata": {},
+    "serverDescription": "Pascha Offering"
+}

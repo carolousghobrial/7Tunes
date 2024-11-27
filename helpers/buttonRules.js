@@ -6,30 +6,40 @@ import {
   Share,
 } from "react-native";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
+import { useLocalSearchParams, useNavigation, useRouter } from "expo-router";
 
-function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
+function ButtonRules(item, motherSource, flatListRef, viewData, router) {
   const openBookScreen = (switchScreen = false) => {
-    navigation[switchScreen ? "replace" : "push"]("BookScreen", {
-      bookPath: item.Path,
-      englishTitle: item.English,
-      arabicTitle: item.Arabic,
-      motherSource: item.mother,
-      Switch: item.Switch,
+    const routeMethod = switchScreen ? "replace" : "push";
+
+    router[routeMethod]({
+      pathname: "/bookscreen/BookScreen",
+      params: {
+        bookPath: item.Path,
+        englishTitle: item.English,
+        arabicTitle: item.Arabic,
+        motherSource: item.mother,
+        Switch: item.Switch,
+      },
     });
   };
 
   const openViewSingleHymn = () => {
     const { Path, Rule, English, Arabic } = item;
-    navigation.push("ViewSingleHymn", {
-      path: Path,
-      motherSource,
-      rule: Rule,
-      englishTitle: English,
-      arabicTitle: Arabic,
+    router.push({
+      pathname: "/bookscreen/ViewSingleHymn",
+      params: {
+        path: Path,
+        motherSource,
+        rule: Rule,
+        englishTitle: English,
+        arabicTitle: Arabic,
+      },
     });
   };
 
   const ThokTeTiGomScrollUpButtonRule = () => {
+    console.log(viewData);
     const index = viewData.findIndex(
       (part) => part.EnglishTitle === "Pascha Praise"
     );
@@ -56,7 +66,7 @@ function ButtonRules(item, motherSource, flatListRef, viewData, navigation) {
     OpenNewPageButtonRule: () => openBookScreen(true),
     ThokTeTiGomScrollUpButtonRule: () => ThokTeTiGomScrollUpButtonRule(true),
     OpenSinglePageButtonRule: openViewSingleHymn,
-    PopPage: () => navigation.pop(),
+    PopPage: () => router.back(),
   };
 }
 

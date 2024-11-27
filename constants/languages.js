@@ -96,27 +96,63 @@ const Languages = {
     todayprayerdescription:
       "Today's Prayer options allows the application to automatically load the prayers/hymns said today rather than loading all the possible options",
     NATIVITY: "Nativity Feast",
+    NATIVITY_FACT:
+      "The Nativity of Christ (Nativity) on Kayhk 29, c. January 7: It is preceded by a fast of 43 days. Its aim is to confirm the divine love, when God sent His Only – begotten Son incarnate. Thus, He restored to humanity her honor, and sanctified our daily life, offering His life as a Sacrifice on our behalf.",
     EPIPHANY: "Theophany Feast",
+    EPIPHANY_FACT:
+      "The Epiphany or the Baptism of Christ on Tobah 11, c. January 19: It is connected with Nativity and the circumcision feasts. For on Nativity, the Word of God took what is ours (our humanity) and in the “circumcision” He subjected Himself to the Law as He became one of us, but in the Epiphany He offered us what is His own. By His incarnation He became a true man while He still being the Only-begotten Son of God, and by baptism we became children of God in Him while we are human being In this feast, the liturgy of blessing the water is conducted, and the priest blesses the people by the water on their foreheads and hands to commemorate baptism.",
     EPIPHANY_SECONDDAY: "2nd Day of Theophany Feast",
     NATIVITY_SECONDDAY: "2nd Day of Nativity Feast",
     ANNUNCIATION: "Annunciation Feast",
+    ANNUNCIATION_FACT:
+      "The Annunciation (Baramhat 29, c. April 7): In it we recall the fulfillment of the Old Testament prophecies, and the attainment which the men of God had longed for across the ages, namely the coming of the Word of God incarnated in the Virgin’s womb (Matt. 13:17).",
     RESURRECTION: "Resurrection",
+    RESURRECTION_FACT:
+      "It is preceded by Great Lent (55 days) and is considered by the Coptic Church as the Feast.” Its delight continues for fifty days until the Pentecost. Resurrection is also essentially celebrated on every Sunday by participating A sacrament of the Eucharist. For the church wishes that all believers may enjoy the new risen life in Jesus Christ (Rom. 6:4).",
     PALM_SUNDAY: "Palm Sunday Feast",
+    PALM_SUNDAY_FACT:
+      "It is the Sunday which precedes Resurrection. It has its characteristic joyful hymns (the Shannon – Hosanna (Matt. 21:9), and its delightful rite. The church commemorates the entrance of our Lord Jesus into our inward Jerusalem to establish His Kingdom in us and gather all in Him. Therefore a delighful is procession or the redeemed believers, starts -God’s plan for Christ’s self-oblation. The procession moves towards the nave of the church were it stands before the icons of St. Mary, the Archangels, St. John the Baptist, the Apostles, the marthe ascetics etc… and before the church doors and the baptismal basin, praising God who embraces all together in His Son Jesus Christ. The procession ends by re-entering the sanctuary, for the of God of the Old and New testaments meet with the heavenly in heaven (sanctuary) forever. The end of the liturgy of Eucharist, a general funeral service is held over water, which is sprinkled on behalf of anyone who may die during the Holy week, since the regular funeral prayers are not conducted during this week. By this rite, the church stresses on her pre-occupation with the passion and crucifixion of Christ only. She itrates on the marvelous events of this unique week with its glorious readings and rites which concern our salvation.",
     ASCENSION: "Ascension Feast",
+    ASCENSION_FACT:
+      " It is celebrated on the fortieth day after Resurrection Is on a Thursday. In this feast we recall Him who raises and lifts us up to sit with Him in heaven (Eph. 2:6).",
     ASCENSIONTOPENTECOST: "Period from Ascnesion to Pentecost",
     PENTECOST: "Pentecost Feast",
+    PENTECOST_FACT:
+      "It represents the birthday of the Christian Church. Only-begotten Son paid the price for her salvation, He ascended heaven to prepare a place for her. He sent His Holy Spirit in her, offering her existence, guidance, sanctification and adornment as the Heavenly Bride. In this feast, the church chants hymns, being joyful with the resurrection of Christ, His ascension and the dwelling of His Holy Spirit in her, thus she connects the three feasts in one whole unity. On this day, the church conducts three sets of prayers, called “Kneeling,” during which incense and prayers are offered on behalf of the sick, the travelers, the winds, and it gives special attention to the dormant, as a sign of her enjoying the communion and unity with Christ that challenges even death.",
     FEAST_OF_CIRCUMCISION: "Feast of the Circumcision",
+    FEAST_OF_CIRCUMCISION_FACT:
+      " It is celebrated on the eighth day after Nativity (Tobah 6, c. 14 January), by which we remember that the Word of God who gave us the Law, He Himself was subjected to this Law, fulfilling it, to grant us the power to fulfill the Law in a spiritual manner. Thus we enjoy the circumcision of spirit and that of heart (Col. 2:11), instead of the literal circumcision of the flesh.",
     ENTRY_EGYPT: "Entrance of the Lord Christ into the Land of Egypt Feast",
+    ENTRY_EGYPT_FACT:
+      "The Coptic Church is distinguished among all nations with this unique divine work, by the coming of our Lord to Egypt among the Gentiles.",
     WEDDING_CANA: "Wedding at Cana of Galilee Feast",
+    WEDDING_CANA_FACT:
+      "Our Lord changed the water into wine, as His first miracle, at the wedding in Cana of Galilee, confirming His eagerness for our attaining the heavenly wedding, and granting us the wine of His exceeding love.",
     PRESENTATION_TEMPLE: "Presentation of the Lord Christ in the Temple",
+    PRESENTATION_TEMPLE_FACT:
+      "We remember that the Word of God became man and does not want us to be careless about our lives, but to set our goals early since childhood. Thus we have to work and fulfill our goals regardless of people related to us, in spite of our love and obedience to them (Luke 2:24).",
     TRANSFIGURATION: "Transfiguration Feast",
-    COVENANT_THURSDAY: "Convenant Thursday Feast",
+    TRANSFIGURATION_FACT:
+      "The unity of the two testaments was manifested in this feast, for Moses and Elijah assembled together with Peter, James and John. The glory of our Lord was revealed to satisfy every soul who rises up with Him to the mountain of Tabor to enjoy the brightness of His Glory.",
+    COVENANT_THURSDAY: "Covenant Thursday Feast",
+    COVENANT_THURSDAY_FACT:
+      "This is the Thursday of the Holy week. In it we commemorate the establishment of the Sacrament of Eucharist by our Lord Jesus, when He offered His Body and Blood as the living and effective Sacrifice, capable of sanctifying our hearts, granting us the victorious and eternal life. This is the only day of the Holy Week in which Sacrifice of the Eucharist is offered, and the rite of washing the feet is practiced in commemoration of what Christ did for His disciples. On this day also an unusual procession takes place, starting from the south of the church nave, during which a hymn of rebuking Jude the betrayal is chanted as a warning to us not to fall like him.",
     THOMAS_SUNDAY: "Thomas Sunday Feast",
+    THOMAS_SUNDAY_FACT:
+      "This is the Sunday that follows Resurrection; In it we bless those who believe without seeing so that all might live in faith through the internal touch of the Savior’s wounds (John 20:29).",
     ASSUMPTION_STMARY: "Assumption of St. Mary",
     FEAST_OF_APOSTLES: "Feast of the Apostles",
+    FEAST_OF_APOSTLES_FACT:
+      "This is the feast of martyrdom of the Apostles SS. Peter and Paul. It is preceded by a fasting period which starts on the day following the Pentecost. In this feast, the liturgy of blessing the water takes place, in which the priest washes the feet of his people (men and children) commemorating what the Lord did for His disciples. Thus, the priest remembers that he is a servant who washes the feet of the people of God and not a man of authority.",
     COPTIC_NEW_YEAR: "Coptic New Year",
+    COPTIC_NEW_YEAR_FACT:
+      "The word “Nayrouz” is Persian, meaning “the beginning of the year.” The Egyptian calendar goes back to 4240 B.C. Copts restored the calendar with the beginning of Diocletian’s reign in A.D 284, to commemorate the millions of Coptic martyrs. His reign is considered a golden era in which the church offered true witnesses to Christ, when the souls of martyrs departed to paradise and kept shining as living stars therein. This feast, with its joyful hymns, continues until the feast of the Cross (Tout 17, c. 27 September). Thus the church announces her joy and gladness with the martyrs through bearing the cross of our Lord Jesus Christ. In other words, the sufferings and martyrdom were turned into a source of joy.",
     FEAST_OF_CROSS: "Feast of the Cross",
+    FEAST_OF_CROSS_FACT:
+      "The second feast, is on Barmahat 10 (c. March 19) and commemorates the discovery of the Holy Cross on the hands of Queen Helen and King Constantine in A.D 326. During these two feasts the church conducts a procession similar to that of Palm-Sunday and uses the same tone in chanting (Shannon-Hosanna), to announce that the cause of her joy with the Cross is the openness of the hearts (the inner Jerusalem) to receive the Savior as the King who reigns within us.",
     FEAST_OF_CROSS_3: "Feast of the Cross (3 days)",
+    FEAST_OF_CROSS_3_FACT:
+      "The first feast is on Tout 17, (c. September 27). It commemorates the dedication of the Church of the Holy Cross which was built by Queen Helen, the mother of Emperor Constantine. During these two feasts the church conducts a procession similar to that of Palm-Sunday and uses the same tone in chanting (Shannon-Hosanna), to announce that the cause of her joy with the Cross is the openness of the hearts (the inner Jerusalem) to receive the Savior as the King who reigns within us.",
     GREAT_LENT: "Great Lent",
     HOLY_WEEK: "Holy Week",
     FAST_OF_APOSTLES: "Fast of the Apostles",

@@ -12,11 +12,19 @@ import {
   getFontSize,
   getColor,
 } from "../helpers/SettingsHelpers.js";
-
+import {
+  useLocalSearchParams,
+  useNavigation,
+  Link,
+  useRouter,
+} from "expo-router";
 function LoadingScreen() {
   var pageBackgroundColor = getColor("pageBackgroundColor");
   let labelColor = getColor("LabelColor");
-
+  const navigation = useNavigation();
+  navigation.setOptions({
+    headerShown: false,
+  });
   return (
     <View
       style={{

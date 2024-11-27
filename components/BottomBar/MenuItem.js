@@ -25,7 +25,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
   };
 
   return (
-    <TouchableOpacity
+    <View
       style={[
         styles.container,
         {
@@ -34,7 +34,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
           backgroundColor: selectedBackgroundColor,
         },
       ]}
-      onPress={handlePress}
+      // onPress={handlePress}
     >
       <View style={[styles.textView, { flexDirection }]}>
         <Text
@@ -68,7 +68,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
           {item.ArabicTitle}
         </Text>
       </View>
-    </TouchableOpacity>
+    </View>
   );
 };
 

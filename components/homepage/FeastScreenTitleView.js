@@ -1,119 +1,100 @@
+import React, { useState, useEffect } from "react";
 import {
   View,
   StyleSheet,
   Text,
   Pressable,
-  ImageBackground,
-  useWindowDimensions,
   Platform,
+  useWindowDimensions,
 } from "react-native";
 import { useSelector, useDispatch } from "react-redux";
-import React, { useState, useEffect, useRef } from "react";
-import { useNavigation } from "@react-navigation/native";
 import DateTimePicker from "@react-native-community/datetimepicker";
-import { getCurrentSeasonByDate } from "../../helpers/copticMonthsHelper";
-import { setSeason } from "../../stores/redux/settings.js";
-import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
+import { useNavigation } from "@react-navigation/native";
 import {
+  getCurrentSeasonByDate,
   setCurrentSeasonLive,
-  setCurrentSeasonByKey,
 } from "../../helpers/copticMonthsHelper";
+import { setSeason } from "../../stores/redux/settings";
+import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 
 function FeastScreenTitleView({ yearClick, changeDate }) {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
   const dispatch = useDispatch();
-  const isAndroid = Platform.OS === "ios" ? false : true;
-  const [showPicker, setShowPicker] = useState(false);
   const navigation = useNavigation();
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
   const timeTransition = useSelector((state) => state.settings.timeTransition);
+  const fontSize = useSelector((state) => state.settings.textFontSize);
+  const isAndroid = Platform.OS === "android";
+
+  const [showPicker, setShowPicker] = useState(false);
   const [date, setDate] = useState(
     new Date(
       currentSeason.gregorianYear,
       currentSeason.gregorianMonth,
-      currentSeason.gregorianDayOfMonth,
-      0,
-      0,
-      0,
-      0
+      currentSeason.gregorianDayOfMonth
     )
   );
-  function liveClicked() {
-    const currSeason = setCurrentSeasonLive(timeTransition);
+
+  const { width, height } = useWindowDimensions();
+  const isPortrait = width < height;
+
+  useEffect(() => {
+    try {
+      setDate(
+        new Date(
+          currentSeason.gregorianYear,
+          currentSeason.gregorianMonth,
+          currentSeason.gregorianDayOfMonth
+        )
+      );
+    } catch (error) {
+      console.error("Error setting date:", error);
+    }
+  }, [currentSeason]);
+
+  const liveClicked = () => {
+    const updatedSeason = setCurrentSeasonLive(timeTransition);
     setDate(
       new Date(
-        currSeason.gregorianYear,
-        currSeason.gregorianMonth,
-        currSeason.gregorianDayOfMonth,
-        0,
-        0,
-        0,
-        0
+        updatedSeason.gregorianYear,
+        updatedSeason.gregorianMonth,
+        updatedSeason.gregorianDayOfMonth
       )
     );
-    dispatch(setSeason({ currentSeason: currSeason }));
-  }
-  const { width, height } = useWindowDimensions();
-
-  let textFlexDirection = "row";
-  const showTimeTimePicker = () => {
-    setShowPicker(true);
+    dispatch(setSeason({ currentSeason: updatedSeason }));
   };
 
-  const hideTimeTimePicker = () => {
-    setShowPicker(false);
-  };
-  if (width < height) {
-    // Portrait mode
-    textFlexDirection = "column";
-  }
-  useEffect(() => {
-    // Update the document title using the browser API
-    try {
-      var date = new Date(
-        currentSeason.gregorianYear,
-        currentSeason.gregorianMonth,
-        currentSeason.gregorianDayOfMonth,
-        0,
-        0,
-        0,
-        0
-      );
-      setDate(date);
-    } catch (error) {}
-  }, []);
-  const handleTimeChange = (event, selectedTime) => {
-    const currentDate = selectedTime || date;
-    if (date != currentDate) {
+  const handleTimeChange = (event, selectedDate) => {
+    if (selectedDate && selectedDate !== date) {
       setShowPicker(Platform.OS === "ios");
-      const curSeason = getCurrentSeasonByDate(currentDate, timeTransition);
-      dispatch(
-        setSeason({
-          currentSeason: curSeason,
-        })
+      const updatedSeason = getCurrentSeasonByDate(
+        selectedDate,
+        timeTransition
       );
-      setDate(currentDate);
+      dispatch(setSeason({ currentSeason: updatedSeason }));
+      setDate(selectedDate);
     }
   };
-  const fontSize = useSelector((state) => state.settings.textFontSize);
+
+  const togglePickerVisibility = () => {
+    setShowPicker(!showPicker);
+  };
 
   return (
-    <View
-      style={{
-        flexDirection: "row",
-        width: "100%",
-      }}
-    >
+    <View style={styles.container}>
+      {/* Live Button */}
       <Pressable
         style={[
-          styles.LiveContainer,
+          styles.liveContainer,
           { backgroundColor: getColor("NavigationBarColor") },
         ]}
         onPress={liveClicked}
       >
-        <Text style={[styles.LiveText, { color: getColor("LabelColor") }]}>
+        <Text style={[styles.liveText, { color: getColor("LabelColor") }]}>
           {getLanguageValue("setCurrentDate")}
         </Text>
       </Pressable>
+
+      {/* Date Picker */}
       <View
         style={[
           styles.titleView,
@@ -121,34 +102,29 @@ function FeastScreenTitleView({ yearClick, changeDate }) {
         ]}
       >
         {isAndroid ? (
-          <View>
-            <Pressable onPress={showTimeTimePicker}>
-              <Text style={styles.openCal}>Open Calander</Text>
-              {showPicker && (
-                <DateTimePicker
-                  value={date}
-                  mode="date"
-                  style={styles.changeDate}
-                  is24Hour={false}
-                  display="default"
-                  minuteInterval={30}
-                  onChange={handleTimeChange}
-                />
-              )}
-            </Pressable>
-          </View>
+          <Pressable onPress={togglePickerVisibility}>
+            <Text style={styles.openCalText}>Open Calendar</Text>
+            {showPicker && (
+              <DateTimePicker
+                value={date}
+                mode="date"
+                display="default"
+                onChange={handleTimeChange}
+              />
+            )}
+          </Pressable>
         ) : (
           <DateTimePicker
             value={date}
             mode="date"
-            style={styles.changeDate}
-            is24Hour={false}
             display="default"
-            minuteInterval={30}
             onChange={handleTimeChange}
+            style={[styles.datePicker, { height: 40 }]} // Custom style added here
           />
         )}
       </View>
+
+      {/* Year Selection */}
       <Pressable
         style={[
           styles.titleView,
@@ -156,7 +132,7 @@ function FeastScreenTitleView({ yearClick, changeDate }) {
         ]}
         onPress={yearClick}
       >
-        <Text style={[styles.YearFont, { color: getColor("LabelColor") }]}>
+        <Text style={[styles.yearText, { color: getColor("LabelColor") }]}>
           {getLanguageValue("setYear")}
         </Text>
       </Pressable>
@@ -165,51 +141,41 @@ function FeastScreenTitleView({ yearClick, changeDate }) {
 }
 
 const styles = StyleSheet.create({
-  LiveContainer: {
+  container: {
+    flexDirection: "row",
+    width: "100%",
+  },
+  liveContainer: {
     flex: 4,
     margin: 3,
     opacity: 0.8,
-
-    backgroundColor: "lightgray",
     borderColor: "black",
   },
-  titleView: {
-    flex: 3,
-    opacity: 0.8,
-    margin: 3,
-    backgroundColor: "lightgray",
-    borderColor: "black",
-  },
-  arabic: {
-    fontFamily: "arabictitle-font",
-    textAlign: "right",
-    writingDirection: "rtl",
-    justifyContent: "center",
-    textAlign: "center",
-  },
-  LiveText: {
+  liveText: {
     fontFamily: "englishtitle-font",
-    justifyContent: "center",
     textAlign: "center",
     fontSize: 25,
   },
-  openCal: {
+  titleView: {
+    flex: 3,
+    margin: 3,
+    opacity: 0.8,
+    borderColor: "black",
+  },
+  openCalText: {
     fontFamily: "englishtitle-font",
-    justifyContent: "center",
     textAlign: "center",
     fontSize: 23,
   },
-  changeDate: {
-    justifyContent: "center",
-    textAlign: "center",
+  datePicker: {
     flex: 1,
-    alignContent: "center",
-    width: "100%",
-    height: "100%",
-  },
-  YearFont: {
-    fontFamily: "englishtitle-font",
     justifyContent: "center",
+    alignItems: "center",
+    transform: [{ scale: 0.9 }], // Shrink the picker slightly
+    fontSize: 12, // Reducing the font size
+  },
+  yearText: {
+    fontFamily: "englishtitle-font",
     textAlign: "center",
     fontSize: 25,
   },

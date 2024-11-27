@@ -8,7 +8,6 @@ function MelodyView({ item }) {
   const englishVisible = useSelector((state) => state.settings.english);
   const arabicVisible = useSelector((state) => state.settings.arabic);
   const textColor = getColorBySide(item.Side);
-  const testAlignText = Platform.OS === "ios" ? "justify" : "right";
 
   function getColorBySide(side) {
     const sideColors = {
@@ -45,7 +44,7 @@ function MelodyView({ item }) {
               styles.arabic,
               commonTextStyle,
               {
-                textAlign: testAlignText,
+                textAlign: "right",
                 lineHeight: fontSize * 1.8,
               },
             ]}

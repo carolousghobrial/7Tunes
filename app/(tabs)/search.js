@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { View, Text, Pressable, FlatList, StyleSheet } from "react-native";
 import { useSelector, useDispatch } from "react-redux";
-import SearchBar from "../components/ViewTypes/SearchBar";
-import bookPaths from "../helpers/bookPathsHelpers";
+import SearchBar from "../../components/ViewTypes/SearchBar.js";
+import bookPaths from "../../helpers/bookPathsHelpers.js";
 import DropDownPicker from "react-native-dropdown-picker";
-import { getLanguageValue } from "../helpers/SettingsHelpers";
+import { getLanguageValue } from "../../helpers/SettingsHelpers.js";
 
 import {
   changeBishopIsPresent,
   changeismorethan3BishopPresent,
-} from "../stores/redux/settings.js";
+} from "../../stores/redux/settings.js";
 import { AntDesign } from "@expo/vector-icons";
 import { useEffect } from "react";
 

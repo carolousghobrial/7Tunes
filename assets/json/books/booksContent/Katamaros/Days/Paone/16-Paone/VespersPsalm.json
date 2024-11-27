@@ -1,0 +1,31 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "(مز111: 5، 7، 2):-",
+  "EnglishTitle": "Psalms 112:6-7, 9",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "\" ذكر الصديق يكون إلى الأبد، ",
+      "English": "6 The righteous will be in everlasting remembrance \r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ولا يخشى من السماع الخبيث، ",
+      "English": "7 He will not be afraid of evil tidings.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبره دائم إلى أبد الأبد، يرتفع قرنه بالمجد. هلليلويا \"",
+      "English": "9 His righteousness endures forever; His horn will be exalted with honor.     Alleluia\r"
+    }
+  ]
+}

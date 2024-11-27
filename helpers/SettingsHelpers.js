@@ -66,7 +66,7 @@ export function getSaint(saint) {
     ST_KIROLLOS_SIXTH: saints.ST_KIROLLOS_SIXTH,
   };
 
-  return currentSeason.saintsOfThisDay.includes(saint)
+  return currentSeason.saintsOfThisDay?.includes(saint)
     ? {
         versesofCymbals: true,
         doxologies: true,
