@@ -1,42 +1,49 @@
 import React, { useState, useRef, useEffect, memo, useCallback } from "react";
-import { StyleSheet, Text, Pressable, FlatList } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  Pressable,
+  FlatList,
+  View,
+  SafeAreaView,
+} from "react-native";
 import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
 import Icon from "react-native-vector-icons/Ionicons";
 import { useDispatch, useSelector } from "react-redux";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import {
   getLanguageValue,
   getFontSize,
   getColor,
-} from "../helpers/SettingsHelpers.js";
-import { getMain } from "../viewModel/getFullViewModel.js";
-import BaseView from "../components/ViewTypes/BaseView.js";
-import MelodyView from "../components/ViewTypes/MelodyView.js";
-import TitleView from "../components/ViewTypes/TitleView.js";
-import RitualView from "../components/ViewTypes/RitualView.js";
-import ButtonView from "../components/ViewTypes/ButtonView.js";
-import MainTitleView from "../components/ViewTypes/MainTitleView.js";
-import SettingsModal from "../components/BottomBar/SettingsModal.js";
+} from "../../helpers/SettingsHelpers.js";
+import { getMain } from "../../viewModel/getFullViewModel.js";
+import BaseView from "../../components/ViewTypes/BaseView.js";
+import MelodyView from "../../components/ViewTypes/MelodyView.js";
+import TitleView from "../../components/ViewTypes/TitleView.js";
+import RitualView from "../../components/ViewTypes/RitualView.js";
+import ButtonView from "../../components/ViewTypes/ButtonView.js";
+import MainTitleView from "../../components/ViewTypes/MainTitleView.js";
+import SettingsModal from "../../components/BottomBar/SettingsModal.js";
+import { useLocalSearchParams, useRouter, useNavigation } from "expo-router";
 
-const ViewSingleHymnSearch = memo(({ navigation, route }) => {
+const ViewSingleHymnSearch = memo(() => {
   const bottomSheetRef = useRef(null);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
+  // Extract search params
+  const { path, rule, partClicked, searchPhrase, englishTitle, arabicTitle } =
+    useLocalSearchParams();
+  const navigation = useNavigation();
+  const NavigationBarColor = getColor("NavigationBarColor");
+  const fontFamily = appLanguage === "eng" ? "english-font" : "arabic-font";
+  const router = useRouter();
 
-  const snapPoints = ["75%"];
   const flatListRef = useRef();
   const [navbarVisibility, setNavbarVisibility] = useState(true);
-  const path = route.params.path;
-  const searchPhrase = route.params.searchPhrase;
-  const partClicked = route.params.partClicked;
+
   const pageBackgroundColor = getColor("pageBackgroundColor");
   const labelColor = getColor("LabelColor");
 
-  const rule = route.params.rule;
-  const title =
-    appLanguage === "eng"
-      ? route.params.englishTitle
-      : route.params.arabicTitle;
+  const title = appLanguage === "eng" ? englishTitle : arabicTitle;
 
   const [navTitle, setNavTitle] = useState(title);
   const data = getMain(path, "index", false, rule, 0)[0];
@@ -89,6 +96,7 @@ const ViewSingleHymnSearch = memo(({ navigation, route }) => {
     }, 10);
   };
   useEffect(() => {
+    console.log(partClicked);
     const itemToFind = data.filter((item) =>
       item.part.English.includes(partClicked)
     );
@@ -104,48 +112,62 @@ const ViewSingleHymnSearch = memo(({ navigation, route }) => {
   React.useLayoutEffect(() => {
     navigation.setOptions({
       title: navTitle,
+      headerStyle: {
+        backgroundColor: NavigationBarColor,
+      },
+      headerTitleStyle: {
+        fontSize: 20,
+        fontFamily: fontFamily,
+        color: labelColor,
+      },
       headerRight: () => (
-        <Pressable style={{ marginHorizontal: 5 }} onPress={settingsPressed}>
-          <MaterialCommunityIcons
-            name="cog"
-            size={30}
-            color={getColor("LabelColor")}
-          />
+        <Pressable
+          onPressIn={() =>
+            router.push({
+              pathname: "/bookscreen/settingsModal",
+              params: {
+                bookscreen: true,
+              },
+            })
+          }
+          style={({ pressed }) => [
+            {
+              opacity: pressed ? 0.6 : 1,
+            },
+          ]}
+        >
+          <View style={{ flex: 1 }}>
+            <MaterialCommunityIcons name="cog" size={30} color={labelColor} />
+          </View>
         </Pressable>
       ),
       headerShown: navbarVisibility,
     });
   }, [navigation, navbarVisibility, navTitle]);
 
-  const settingsPressed = () => {
-    bottomSheetRef?.current.present();
-  };
-
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
-      <BottomSheetModalProvider>
-        <SettingsModal
-          bottomSheetRef={bottomSheetRef}
-          snapPoints={snapPoints}
-        />
-        <FlatList
-          ref={flatListRef}
-          style={{ backgroundColor: pageBackgroundColor }}
-          showsVerticalScrollIndicator={false}
-          data={data}
-          onScrollToIndexFailed={onScrollToIndexFailed}
-          removeClippedSubviews={true}
-          renderItem={renderItems}
-          keyExtractor={(item) => item.key}
-        />
-      </BottomSheetModalProvider>
-    </GestureHandlerRootView>
+    <SafeAreaView
+      style={[{ backgroundColor: pageBackgroundColor }, styles.container]}
+    >
+      <FlatList
+        ref={flatListRef}
+        style={{ backgroundColor: pageBackgroundColor }}
+        showsVerticalScrollIndicator={false}
+        data={data}
+        onScrollToIndexFailed={onScrollToIndexFailed}
+        removeClippedSubviews={true}
+        renderItem={renderItems}
+        keyExtractor={(item) => item.key}
+      />
+    </SafeAreaView>
   );
 });
 
 export default ViewSingleHymnSearch;
 
 const styles = StyleSheet.create({
+  container: { flex: 1 },
+
   textStyle: {
     fontFamily: "coptic-font",
     color: "white",

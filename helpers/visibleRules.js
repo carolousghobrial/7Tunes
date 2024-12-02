@@ -3238,6 +3238,7 @@ const REPLACEBISHOPAVAILABLETHREE = (rule, part) => {
 
 function getAuthor(part, checkList) {
   const completePath = GetTodaysReadingPath(part.mother);
+
   console.log(completePath);
   if (completePath === "Katamaros") {
     return "NONE";

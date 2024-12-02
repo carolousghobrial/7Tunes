@@ -15,7 +15,6 @@ import {
 } from "react-native";
 import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
 import { useDispatch, useSelector } from "react-redux";
-import { GestureHandlerRootView, State } from "react-native-gesture-handler";
 import { useNavigation } from "@react-navigation/native";
 import {
   getLanguageValue,

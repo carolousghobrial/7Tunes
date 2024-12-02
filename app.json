@@ -2,8 +2,9 @@
   "expo": {
     "name": "7 Tunes",
     "slug": "7-tunes",
-    "version": "6.8.3",
-    
+    "version": "6.8.6",
+        "scheme": "com.companyname.TasbehaFinal",
+
     "newArchEnabled": true,
     "orientation": "default",
     "icon": "./assets/images//logofinal.png",
@@ -36,9 +37,9 @@
         "expo-build-properties",
         {
           "android": {
-            "compileSdkVersion": 34,
-            "targetSdkVersion": 34,
-            "buildToolsVersion": "34.0.0"
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0"
           }
         }
       ],
@@ -59,7 +60,6 @@
         "UIStatusBarHidden": true,
         "NSInAppPurchaseUsageDescription": "7Tunes requires access to in-app purchases to make purchases."
       },
-      "buildNumber": "6.8.3",
       "supportsTablet": true,
       "requireFullScreen": true,
       "bundleIdentifier": "com.companyname.TasbehaFinal"
@@ -68,7 +68,7 @@
       "permissions": [
         "com.android.vending.BILLING"
       ],
-      "versionCode": 6222247,
+      "versionCode": 6222250,
       "adaptiveIcon": {
         "backgroundColor": "#F5F5DE",
         "foregroundImage": "./assets/images/logofinal.png"

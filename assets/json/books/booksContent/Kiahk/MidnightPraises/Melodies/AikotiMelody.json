@@ -250,6 +250,14 @@
       "Side": "North",
       "Arabic": "والسلام بغير فتور,\nممن مَدح فيكِ ونظم,\nعبدك .... المذكور,\nالسلام لك يا مريم",
       "English": "We cry out in one voice,\nTo the Lord Almighty,\nIn your name we rejoice,\nHail to you O Mary"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وإلى ربِّ القوات\nنصرخ يارب إرحم\nونصيح بأعلى الأصوات\nالسلام لك يا مريم",
+      "English": "We cry out in one voice\n To the Lord Almighty\n In your name we rejoice \n Hail to you O Mary"
     }
   ]
 }

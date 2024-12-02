@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Switch, Pressable } from "react-native";
 import { useSelector, useDispatch } from "react-redux";
 import { useWindowDimensions } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
-import { useNavigation, useRouter } from "expo-router";
+import { useNavigation, useRouter, useLocalSearchParams } from "expo-router";
 
 import AllBishopsPopup from "../../components/settings/allbishopsPopup.js";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers.js";
@@ -15,6 +15,7 @@ import {
 
 function BishopPresentView({ bottomSheetRef, snapPoints }) {
   const { width, height } = useWindowDimensions();
+  const { modal } = useLocalSearchParams();
   const navigation = useNavigation();
   const router = useRouter();
   const dispatch = useDispatch();
@@ -79,21 +80,23 @@ function BishopPresentView({ bottomSheetRef, snapPoints }) {
   const closeModal = () => setModalVisible(false);
 
   useEffect(() => {
-    navigation.setOptions({
-      title: "Bishop is Here?",
-      presentation: "modal",
-      headerRight: () => (
-        <Pressable
-          onPress={() => router.back()}
-          style={({ pressed }) => [
-            styles.closeButton,
-            pressed && styles.closeButtonPressed,
-          ]}
-        >
-          <Text style={styles.closeButtonText}>Close</Text>
-        </Pressable>
-      ),
-    });
+    if (modal) {
+      navigation.setOptions({
+        title: "Bishop is Here?",
+        presentation: "modal",
+        headerRight: () => (
+          <Pressable
+            onPress={() => router.back()}
+            style={({ pressed }) => [
+              styles.closeButton,
+              pressed && styles.closeButtonPressed,
+            ]}
+          >
+            <Text style={styles.closeButtonText}>Close</Text>
+          </Pressable>
+        ),
+      });
+    }
   }, [navigation, router]);
 
   return (

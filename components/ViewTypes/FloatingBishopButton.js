@@ -7,12 +7,13 @@ import {
   Text,
   Pressable,
 } from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
 import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
+import { useLocalSearchParams, useRouter, useNavigation } from "expo-router";
 
 function FloatingButton({ navigation }) {
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
+  const router = useRouter();
 
   const [pan] = useState(new Animated.ValueXY());
   const [buttonVisible, setButtonVisible] = useState(true);
@@ -31,9 +32,13 @@ function FloatingButton({ navigation }) {
 
   const OpenBishopPage = () => {
     setButtonVisible(false);
-    navigation.push("BookScreen", {
-      bookPath: "bishopEntrance",
-      motherSource: "matins",
+
+    router.push({
+      pathname: "/bookscreen/BookScreen",
+      params: {
+        motherSource: "matins",
+        bookPath: "bishopEntrance",
+      },
     });
   };
 

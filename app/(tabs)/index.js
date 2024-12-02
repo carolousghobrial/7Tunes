@@ -11,7 +11,6 @@ import {
 import { useLocalSearchParams, useRouter, useNavigation } from "expo-router";
 import BookView from "../../components/homepage/bookView.js";
 import homescreenPaths from "../../helpers/homescreenPaths.js";
-import * as Glassfy from "react-native-glassfy-module";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors";
 import * as Updates from "expo-updates";
@@ -151,6 +150,7 @@ function App() {
                 motherSource: book.mother,
                 englishTitle: book.EnglishTitle,
                 arabicTitle: book.ArabicTitle,
+                bishopButton: book.BishopButton,
               }),
         },
       });
@@ -164,6 +164,9 @@ function App() {
       if (item.BishopButton !== undefined) {
         router.push({
           pathname: "/(modal)/BishopPresentView",
+          params: {
+            modal: true,
+          },
         });
       }
     } catch (e) {}

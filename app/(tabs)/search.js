@@ -12,12 +12,15 @@ import {
 } from "../../stores/redux/settings.js";
 import { AntDesign } from "@expo/vector-icons";
 import { useEffect } from "react";
+import { useLocalSearchParams, useRouter, useNavigation } from "expo-router";
 
 function BigSearchScreen({ navigation }) {
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
   const [currentData, setCurrentData] = useState([]);
   const [open, setOpen] = useState(false);
+  const router = useRouter();
+
   const [value, setValue] = useState("english");
   const [items, setItems] = useState([
     { label: getLanguageValue("english"), value: "english" },
@@ -75,12 +78,15 @@ function BigSearchScreen({ navigation }) {
   }
 
   function OpenPageButtonRule(item, searchPhrase) {
-    navigation.push("ViewSingleHymnSearch", {
-      path: item.key,
-      searchPhrase: searchPhrase,
-      partClicked: item.part.English,
-      englishTitle: item.englishTitle,
-      arabicTitle: item.arabicTitle,
+    router.push({
+      pathname: "/bookscreen/ViewSingleHymnSearch",
+      params: {
+        path: item.key,
+        searchPhrase: searchPhrase,
+        partClicked: item.part.English,
+        englishTitle: item.englishTitle,
+        arabicTitle: item.arabicTitle,
+      },
     });
   }
   function HighlightText(textToHighlight, searchText, key) {

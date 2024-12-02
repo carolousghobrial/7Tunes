@@ -18,7 +18,7 @@ import VisibleLangs from "../../components/settings/visibleLangs.js";
 import TodaysPrayer from "../../components/settings/todaysPrayer.js";
 import PresentationMode from "../../components/settings/presentationMode.js";
 import PopeBishop from "../../components/settings/popeBishop.js";
-import * as Glassfy from "react-native-glassfy-module";
+import Purchases from "react-native-purchases";
 import * as Updates from "expo-updates";
 import { setItemPurchased } from "../../stores/redux/settings.js";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers.js";
@@ -89,7 +89,7 @@ function SettingsScreen() {
   // Restore purchases
   const restorePurchase = async () => {
     try {
-      await Glassfy.restorePurchases();
+      await Purchases.restorePurchases();
       Alert.alert("Purchases restored successfully!");
     } catch (error) {
       Alert.alert("Restore Error", error.message);

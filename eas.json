@@ -1,5 +1,6 @@
 {
   "cli": {
+    "version": ">=1.0.0",
     "appVersionSource": "remote"
   },
   "build": {
@@ -26,6 +27,10 @@
       "channel": "main",
       "ios": {
         "resourceClass": "m-medium"
+      },
+       "android": {
+        "buildType": "app-bundle",
+        "image": "latest"
       },
       "autoIncrement": true
     }
