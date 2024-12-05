@@ -3,7 +3,7 @@
     "name": "7 Tunes",
     "slug": "7-tunes",
     "version": "6.8.6",
-        "scheme": "com.companyname.TasbehaFinal",
+        "scheme": "prod",
 
     "newArchEnabled": true,
     "orientation": "default",
