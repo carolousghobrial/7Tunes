@@ -1,40 +1,52 @@
 {
-    "availablePackages": [
-        {
+    "all": {
+        "KiahkPsalmody": {
+            "availablePackages": [Array
+            ],
+            "identifier": "KiahkPsalmody",
+            "lifetime": [Object
+            ],
+            "metadata": [Object
+            ],
+            "serverDescription": "KiahkPsalmodyUse"
+        },
+        "PaschaOffering": {
+            "availablePackages": [Array
+            ],
+            "identifier": "PaschaOffering",
+            "lifetime": [Object
+            ],
+            "metadata": [Object
+            ],
+            "serverDescription": "Pascha Offering"
+        },
+        "StandardPsalmodyOffering": {
+            "availablePackages": [Array
+            ],
+            "identifier": "StandardPsalmodyOffering",
+            "lifetime": [Object
+            ],
+            "metadata": [Object
+            ],
+            "serverDescription": "Purchases the Standard and Lenten Psalmody"
+        }
+    },
+    "current": {
+        "availablePackages": [
+            [Object
+            ]
+        ],
+        "identifier": "StandardPsalmodyOffering",
+        "lifetime": {
             "identifier": "$rc_lifetime",
-            "offeringIdentifier": "PaschaOffering",
+            "offeringIdentifier": "StandardPsalmodyOffering",
             "packageType": "LIFETIME",
             "presentedOfferingContext": [Object
             ],
             "product": [Object
             ]
-        }
-    ],
-    "identifier": "PaschaOffering",
-    "lifetime": {
-        "identifier": "$rc_lifetime",
-        "offeringIdentifier": "PaschaOffering",
-        "packageType": "LIFETIME",
-        "presentedOfferingContext": {
-            "offeringIdentifier": "PaschaOffering",
-            "placementIdentifier": null,
-            "targetingContext": null
         },
-        "product": {
-            "currencyCode": "USD",
-            "description": "The readings of the Holy Pascha",
-            "discounts": [Array
-            ],
-            "identifier": "holypaschasku",
-            "introPrice": null,
-            "price": 8.99,
-            "priceString": "$8.99",
-            "productCategory": "NON_SUBSCRIPTION",
-            "productType": "NON_CONSUMABLE",
-            "subscriptionPeriod": null,
-            "title": "Holy Pascha"
-        }
-    },
-    "metadata": {},
-    "serverDescription": "Pascha Offering"
+        "metadata": {},
+        "serverDescription": "Purchases the Standard and Lenten Psalmody"
+    }
 }

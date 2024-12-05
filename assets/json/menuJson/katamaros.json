@@ -10,50 +10,6 @@
             "ImageURL": "katamaros",
             "Enabled": true,
             "mother": "katamaros"
-        },
-        {
-            "EnglishTitle": "Daily Readings",
-            "ArabicTitle": "قطمارس الايام",
-            "PurchaseKeyDroid": "",
-            "PurchaseKeyIos": "",
-            "hasSubBooks": false,
-            "BookPath": "doxologies",
-            "ImageURL": "katamaros",
-            "Enabled": false,
-            "mother": "katamaros"
-        },
-        {
-            "EnglishTitle": "Sunday Readings",
-            "ArabicTitle": " قطمارس الاحاد",
-            "PurchaseKeyDroid": "",
-            "PurchaseKeyIos": "",
-            "hasSubBooks": true,
-            "BookPath": "sundaysMonths",
-            "ImageURL": "katamaros",
-            "Enabled": false,
-            "mother": "katamaros"
-        },
-        {
-            "EnglishTitle": "Great Fast Readings",
-            "ArabicTitle": " قطمارس الصوم الكبير",
-            "PurchaseKeyDroid": "",
-            "PurchaseKeyIos": "",
-            "hasSubBooks": false,
-            "BookPath": "psalmResponsesIndex",
-            "ImageURL": "katamaros",
-            "Enabled": false,
-            "mother": "katamaros"
-        },
-        {
-            "EnglishTitle": "Holy Fifties Readings",
-            "ArabicTitle": " قطمارس الخمسين",
-            "PurchaseKeyDroid": "",
-            "PurchaseKeyIos": "",
-            "hasSubBooks": false,
-            "BookPath": "psalmResponsesIndex",
-            "ImageURL": "katamaros",
-            "Enabled": false,
-            "mother": "katamaros"
         }
     ]
 }

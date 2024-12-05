@@ -33,7 +33,8 @@
             "ImageURL": "holyliturgy",
             "Enabled": false,
             "PermissionStatus": "holyLiturgyPermission",
-            "PurchaseKey": "HolyLiturgy"
+            "PurchaseKey": "LiturgyOffering",
+            "offering": "LiturgyOffering"
         },
         {
             "EnglishTitle": "Evening Prayers",

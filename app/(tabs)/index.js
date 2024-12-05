@@ -55,7 +55,7 @@ function App() {
     try {
       let isBought = false;
 
-      // Determine the purchase status based on permission
+      // Determine purchase status based on permission
       const permissionStatusMap = {
         standardPsalmodyPermission: isStandardBought,
         kiahkPsalmodyPermission: isKiahkBought,
@@ -63,97 +63,87 @@ function App() {
         holyLiturgyPermission: isLiturgyBought,
       };
       isBought = permissionStatusMap[book.PermissionStatus] || false;
-      if (!book.Enabled) {
-        //setIsLoading(true);
 
-        if (!isBought) {
-          try {
-            // Restore purchases to check active entitlements
-            const restore = await Purchases.restorePurchases();
+      const handleNavigation = () => {
+        const newBreadcrumb = [
+          ...breadcrumbParts,
+          { name: book.EnglishTitle, path: book.BookPath },
+        ];
 
-            const bookPermission =
-              restore.entitlements.active[book.PermissionStatus]?.isActive;
+        router.push({
+          pathname: book.hasSubBooks ? "/" : "/bookscreen/BookScreen",
+          params: {
+            breadcrumb: JSON.stringify(newBreadcrumb),
+            bookPath: book.BookPath,
+            ...(book.hasSubBooks
+              ? {}
+              : {
+                  motherSource: book.mother,
+                  englishTitle: book.EnglishTitle,
+                  arabicTitle: book.ArabicTitle,
+                  bishopButton: book.BishopButton,
+                }),
+          },
+        });
+      };
 
-            if (!bookPermission) {
-              // Fetch available offerings
-              const offerings = await Purchases.getOfferings();
+      const handlePurchase = async () => {
+        try {
+          const offerings = await Purchases.getOfferings();
+          const offeringToBuy =
+            offerings.all[book.PurchaseKey]?.availablePackages[0];
 
-              // Get the specific offering for the book
-              const offeringToBuy = offerings.current?.availablePackages.find(
-                (pkg) => pkg.identifier === book.offering
-              );
+          if (!offeringToBuy)
+            throw new Error("Offering not found for this book.");
 
-              if (offeringToBuy) {
-                try {
-                  // Attempt to purchase the package
-                  const { customerInfo } = await Purchases.purchasePackage(
-                    offeringToBuy
-                  );
-                  console.log(customerInfo);
+          const { customerInfo } = await Purchases.purchasePackage(
+            offeringToBuy
+          );
+          const isEntitlementActive =
+            customerInfo.entitlements.active[book.PermissionStatus]?.isActive;
 
-                  // Check if the entitlement is now active
-                  const isEntitlementActive =
-                    customerInfo.entitlements.active[book.PermissionStatus]
-                      ?.isActive;
+          if (!isEntitlementActive)
+            throw new Error("Purchase was not successful.");
 
-                  if (isEntitlementActive) {
-                    // Update store state if purchase was successful
-                    dispatch(
-                      setItemPurchased({ permissionId: book.PermissionStatus })
-                    );
-                  } else {
-                    throw new Error("Purchase was not successful.");
-                  }
-                } catch (purchaseError) {
-                  // Handle purchase errors
-                  Alert.alert(
-                    purchaseError.message ||
-                      "An error occurred during the purchase."
-                  );
-                }
-              } else {
-                throw new Error("Offering not found for this book.");
-              }
-            } else {
-              // If the entitlement is already active
-              dispatch(
-                setItemPurchased({ permissionId: book.PermissionStatus })
-              );
-            }
-          } catch (restoreError) {
-            // Handle restore errors
-            Alert.alert(
-              restoreError.message ||
-                "An error occurred while restoring purchases."
-            );
-          }
+          dispatch(setItemPurchased({ permissionId: book.PermissionStatus }));
+          handleNavigation();
+        } catch (purchaseError) {
+          Alert.alert(
+            purchaseError.message || "An error occurred during the purchase."
+          );
         }
+      };
 
-        // setIsLoading(false);
-        //return;
+      const restoreAndCheckEntitlement = async () => {
+        try {
+          const restore = await Purchases.restorePurchases();
+          const bookPermission =
+            restore.entitlements.active[book.PermissionStatus]?.isActive;
+
+          if (bookPermission) {
+            dispatch(setItemPurchased({ permissionId: book.PermissionStatus }));
+            handleNavigation();
+          } else {
+            await handlePurchase();
+          }
+        } catch (restoreError) {
+          Alert.alert(
+            restoreError.message ||
+              "An error occurred while restoring purchases."
+          );
+        }
+      };
+
+      if (!book.Enabled) {
+        if (!isBought) {
+          await restoreAndCheckEntitlement();
+        } else {
+          dispatch(setItemPurchased({ permissionId: book.PermissionStatus }));
+          handleNavigation();
+        }
+      } else {
+        handleNavigation();
       }
-
-      // Handle navigation for enabled books
-      const newBreadcrumb = [
-        ...breadcrumbParts,
-        { name: book.EnglishTitle, path: book.BookPath },
-      ];
-
-      router.push({
-        pathname: book.hasSubBooks ? "/" : "/bookscreen/BookScreen",
-        params: {
-          breadcrumb: JSON.stringify(newBreadcrumb),
-          bookPath: book.BookPath,
-          ...(book.hasSubBooks
-            ? {}
-            : {
-                motherSource: book.mother,
-                englishTitle: book.EnglishTitle,
-                arabicTitle: book.ArabicTitle,
-                bishopButton: book.BishopButton,
-              }),
-        },
-      });
     } catch (error) {
       console.error("Error handling book click:", error);
       setIsLoading(false);

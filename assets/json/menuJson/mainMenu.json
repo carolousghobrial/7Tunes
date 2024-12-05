@@ -19,7 +19,7 @@
         {
             "EnglishTitle": "The Holy Pascha",
             "ArabicTitle": "البصخة المقدسة",
-            "PurchaseKey": "PaschaBook",
+            "PurchaseKey": "PaschaOffering",
             "PermissionStatus": "paschaBookPermission",
             "offering": "PaschaOffering",
             "hasSubBooks": true,
