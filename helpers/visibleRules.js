@@ -627,21 +627,23 @@ const isKiahkWeek = (motherSource, path) => {
   const isWeek5 = currentSeason.weekOfMonth === 5;
   const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
   const lowerPath = path?.toLowerCase();
-  if (isKoiahkMonth && !isTakeFromHathor) {
+  if (isKoiahkMonth) {
     return lowerPath.includes(currentSeason.weekOfMonth);
-  } else if (isTakeFromHathor && isKoiahkMonth) {
-    if (currentSeason.dayOfWeek === 0) {
-      if (currentSeason.weekOfMonth + 1 <= 4) {
-        return lowerPath.includes(currentSeason.weekOfMonth + 1);
-      } else {
-        return lowerPath.includes(currentSeason.weekOfMonth);
-      }
-    } else {
-      return lowerPath.includes(currentSeason.weekOfMonth);
-    }
-  } else if (isTakeFromHathor && isHathorMonth && isWeek5) {
-    return lowerPath.includes(1);
   }
+  // else if (isTakeFromHathor && isKoiahkMonth) {
+  //   if (currentSeason.dayOfWeek === 0) {
+  //     if (currentSeason.weekOfMonth + 1 <= 4) {
+  //       return lowerPath.includes(currentSeason.weekOfMonth + 1);
+  //     } else {
+  //       return lowerPath.includes(currentSeason.weekOfMonth);
+  //     }
+  //   } else {
+  //     return lowerPath.includes(currentSeason.weekOfMonth);
+  //   }
+  // }
+  // else if (isTakeFromHathor && isHathorMonth && isWeek5) {
+  //   return lowerPath.includes(1);
+  // }
 
   return false;
 };
@@ -1075,6 +1077,13 @@ const ActsResponseSaint = (motherSource, path) => {
     case "FEAST_OF_APOSTLES":
     case "FAST_STMARY":
       return saintSelected.actsResponse;
+
+    case "NATIVITY_FAST":
+      if (currentSeason.copticMonth !== "Koiahk") {
+        return saintSelected.actsResponse;
+      } else {
+        return false;
+      }
     default:
       return false;
   }
@@ -1603,7 +1612,16 @@ const firstKiahkGospelResponse = (motherSource, path) => {
 
   // Helper function to check if it's week 1 to 4
   const isWeek1to4 = weekOfMonth >= 1 && weekOfMonth <= 4;
-
+  console.log(copticMonth);
+  // // Check if it's Hathor, week 5, and take from Hathor
+  // if (
+  //   copticMonth === "Hathor" &&
+  //   weekOfMonth === 5 &&
+  //   TakeFromHathorTwo(currentSeason)
+  // ) {
+  //   console.log("HEREEE");
+  //   return true;
+  // }
   // Check if it's Kiahk and not Nativity Paramoun
   if (copticMonth === "Koiahk" && isWeek1to4 && key !== "NATIVITY_PARAMOUN") {
     const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
@@ -1613,15 +1631,8 @@ const firstKiahkGospelResponse = (motherSource, path) => {
         : weekOfMonth;
 
     return weekNUM >= 1 && weekNUM <= 2;
-  }
-
-  // Check if it's Hathor, week 5, and take from Hathor
-  if (
-    copticMonth === "Hathor" &&
-    weekOfMonth === 5 &&
-    TakeFromHathorTwo(currentSeason)
-  ) {
-    return true;
+  } else {
+    return false;
   }
 
   return false;
@@ -1650,14 +1661,14 @@ const secondKiahkGospelResponse = (motherSource, path) => {
     return weekNUM >= 3 && weekNUM <= 4;
   }
 
-  // Check if it's Hathor, week 5, and take from Hathor
-  if (
-    copticMonth === "Hathor" &&
-    weekOfMonth === 5 &&
-    TakeFromHathorTwo(currentSeason)
-  ) {
-    return true;
-  }
+  // // Check if it's Hathor, week 5, and take from Hathor
+  // if (
+  //   copticMonth === "Hathor" &&
+  //   weekOfMonth === 5 &&
+  //   TakeFromHathorTwo(currentSeason)
+  // ) {
+  //   return true;
+  // }
 
   return false;
 };

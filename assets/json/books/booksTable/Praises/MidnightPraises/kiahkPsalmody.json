@@ -27,7 +27,7 @@
             "Visible": true
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
             "Path": "KiahkMidnightPraisesHymnsAdamPsaliFirstHoos",
             "Rule": 0,
             "Visible": true
@@ -134,7 +134,7 @@
             "Path": "KiahkMidnightPraisesExpositionsExpositionAfterAvmoti"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
             "Path": "KiahkMidnightPraisesHymnsAdamPsaliSecondHoos",
             "Rule": 0,
             "Visible": true

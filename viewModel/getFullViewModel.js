@@ -520,6 +520,18 @@ export function GetTodaysReadingPath(path) {
   } else if (isStandardSeasonSunday) {
     if (currentSeason.key === "NATIVITY") {
       filePath = updateFilePath(`DaysKoiahk29-Koiahk`);
+    } else if (currentSeason.key === "TWENTYNINTHTH_COPTIC_MONTH") {
+      const day =
+        DailyReadingCalendar[currentSeason.copticMonth][
+          currentSeason.copticDay.toString()
+        ];
+      if (day === "ok") {
+        filePath = updateFilePath(
+          `Days${
+            currentSeason.copticMonth
+          }${currentSeason.copticDay.toString()}`
+        );
+      }
     } else if (currentSeason.key === "EPIPHANY") {
       filePath = updateFilePath(`DaysTobe11`);
     } else if (currentSeason.key === "ANNUNCIATION") {
