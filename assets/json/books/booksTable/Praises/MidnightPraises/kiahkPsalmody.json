@@ -265,6 +265,14 @@
         },
         {
             "Type": "Accordion",
+            "Arabic": "مديح القديس انبا موسى الأسود",
+            "English": "Melody for St.Moses the Strong",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "KiahkMidnightPraisesMelodiesStMosesMelody"
+        },
+        {
+            "Type": "Accordion",
             "Arabic": "مديح القديس انبا صموئيل المعترف",
             "English": "Melody for St.Samuel the Confessor",
             "Rule": 0,

@@ -82,6 +82,12 @@
         },
         {
             "Type": "Main",
+            "Path": "KiahkMidnightPraisesMelodiesStMosesMelody",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
             "Path": "KiahkMidnightPraisesMelodiesStSamuelMelody",
             "Rule": 0,
             "Visible": true

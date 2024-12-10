@@ -56,7 +56,7 @@ function MelodyView({ item }) {
           </Text>
         </View>
       )}
-      {arabicengishMelodies && (
+      {arabicengishMelodies && item.ArabicEnglish !== undefined && (
         <View style={styles.textView}>
           <Text style={[styles.english, commonTextStyle]}>
             {item?.ArabicEnglish}

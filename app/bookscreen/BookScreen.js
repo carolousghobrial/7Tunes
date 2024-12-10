@@ -245,7 +245,13 @@ const BookScreen = React.memo(() => {
 
   return (
     <SafeAreaView
-      style={[{ backgroundColor: pageBackgroundColor }, styles.container]}
+      style={[
+        {
+          backgroundColor: pageBackgroundColor,
+          marginRight: Platform.OS === "android" ? 4 : 0,
+        },
+        styles.container,
+      ]}
     >
       <FlatList
         ref={flatListRef}

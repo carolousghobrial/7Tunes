@@ -504,6 +504,7 @@ const bookPaths = {
   KiahkMidnightPraisesMelodiesShereNeMariaMelody: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Melodies/ShereNeMariaMelody.json"),
   KiahkMidnightPraisesMelodiesStAnthonyMelody: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Melodies/StAnthonyMelody.json"),
   KiahkMidnightPraisesMelodiesStSamuelMelody: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Melodies/StSamuelMelody.json"),
+  KiahkMidnightPraisesMelodiesStMosesMelody: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Melodies/StMosesMelody.json"),
   KiahkMidnightPraisesMelodiesSundayFifthExplanation: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Melodies/SundayFifthExplanation.json"),
   KiahkMidnightPraisesMelodiesSundayFifthGospel: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Melodies/SundayFifthGospel.json"),
   KiahkMidnightPraisesMelodiesSundayFirstExplanation: require("../assets/json/books/booksContent/Kiahk/MidnightPraises/Melodies/SundayFirstExplanation.json"),

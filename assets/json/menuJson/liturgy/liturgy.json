@@ -35,18 +35,6 @@
             "PermissionStatus": "holyLiturgyPermission",
             "PurchaseKey": "LiturgyOffering",
             "offering": "LiturgyOffering"
-        },
-        {
-            "EnglishTitle": "Evening Prayers",
-            "ArabicTitle": "صلاة المساء",
-            "PurchaseKeyDroid": "",
-            "PurchaseKeyIos": "",
-            "hasSubBooks": false,
-            "BookPath": "eveningPrayers",
-            "ImageURL": "eveningPrayers",
-            "Enabled": true,
-            "BishopButton": true,
-            "Visible": "ShowEveningPrayer"
         }
     ]
 }

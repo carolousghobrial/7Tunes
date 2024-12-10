@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet } from "react-native";
+import { StyleSheet, Platform } from "react-native";
 import { Tabs } from "expo-router";
 import { useSelector } from "react-redux";
 import Ionicons from "@expo/vector-icons/Ionicons";
@@ -18,11 +18,12 @@ const TabsLayout = () => {
         tabBarActiveTintColor: activeColors.PrimaryColor,
         tabBarStyle: [
           styles.tabBar,
-          { backgroundColor: activeColors.NavigationBarColor },
+          {
+            backgroundColor: activeColors.NavigationBarColor,
+            paddingBottom: Platform.OS === "android" ? 10 : 0, // Ensure padding for Android
+          },
         ],
-        tabBarOptions: {
-          allowFontScaling: false,
-        },
+
         headerTitleAlign: "left", // Align title to the left
         headerTitleStyle: {
           fontWeight: "bold",

@@ -17,12 +17,6 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyDistributionResponsesKiahk",
-            "Rule": 0,
-            "Visible": "isSeason"
-        },
-        {
-            "Type": "Main",
             "Path": "LiturgyDistributionResponsesNativity",
             "Rule": 0,
             "Visible": "isSeason"
