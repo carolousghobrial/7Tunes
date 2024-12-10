@@ -20,8 +20,15 @@ const TabsLayout = () => {
           styles.tabBar,
           { backgroundColor: activeColors.NavigationBarColor },
         ],
+        tabBarOptions: {
+          allowFontScaling: false,
+        },
         headerTitleAlign: "left", // Align title to the left
-
+        headerTitleStyle: {
+          fontWeight: "bold",
+          fontSize: 18, // Adjust font size here
+          fontFamily: "english-font",
+        },
         headerStyle: { backgroundColor: activeColors.NavigationBarColor },
         headerTintColor: activeColors.PrimaryColor,
         tabBarLabelStyle: styles.tabBarLabel,

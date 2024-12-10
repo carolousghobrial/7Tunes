@@ -9,7 +9,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أمدح فى البتول,\nوأشرح عنها وأقول,\nأنتِ أصل الأصول,\nيا جوهر مكنون",
-      "English": "I praise the Virgin,\nAnd explain and say,\nO, the origin,\nAnd the hidden Pearl"
+      "English": "I praise the Virgin,\nAnd explain and say,\nO, the origin,\nAnd the hidden Pearl",
+      "ArabicEnglish": "Amdah fil Batool,  \nwash-ra7 3anha wa qool,\n Anty asl el osool \nya gawhar maknoon,\n"
     },
     {
       "Type": "Melody",
@@ -17,7 +18,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "بكِ يا ستِّنَا ( نعمتنا ),\nو خلاص جنسنا,\nقد بَلَغنا المُنى,\nونَحنُ فرحون",
-      "English": "Through your Son, our Lady,\nCause of salvation,\nWe reached the goal,\nAnd you brought us joy."
+      "English": "Through your Son, our Lady,\nCause of salvation,\nWe reached the goal,\nAnd you brought us joy.",
+      "ArabicEnglish": "\nBiky ya settena (nametna) \nw khalas ginsina,\n qad balaghna al mona,\n wa-nahno farehoon\n"
     },
     {
       "Type": "Melody",
@@ -25,7 +27,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "تجسد الإبن بثبات,\nمن فخر البنات,\nصُلبْ عنا ومات,\nعند الأقرانيون",
-      "English": "Was truly Incarnate,\nFrom a Virgin girl,\nCrucified and died,\nFor us at Golgotha"
+      "English": "Was truly Incarnate,\nFrom a Virgin girl,\nCrucified and died,\nFor us at Golgotha",
+      "ArabicEnglish": "\n-Tagasad al ebn bi-sabat,\n men fakhr el banat,\n soleb ana wa mat,\n 3end al ekraneyooon.\n"
     },
     {
       "Type": "Melody",
@@ -33,7 +36,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ثَمَرَة العيون,\nهى إبنة صهيون,\nأعدائى يقولون,\nإنِّى بِحُبِّك مفتون",
-      "English": "The fruit of my pledge,\nO, daughter of Zion,\nIs to love your Son,\nAnd proclaim and say"
+      "English": "The fruit of my pledge,\nO, daughter of Zion,\nIs to love your Son,\nAnd proclaim and say",
+      "ArabicEnglish": "\n Samarat al 3eyoon\n heya ebnat sehyoon,\n A3da2ee yaqoloon,\n enny b hobbek maftoon \n"
     },
     {
       "Type": "Melody",
@@ -41,7 +45,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "سبانى حبك\n يافخر الرتب\n موسى رأكِ يا مريم \nعجب من عجب\n و القناديل فضة بتضوى \nو الصلبان الذهب \nيا قبة موسى يا مريم\nيا شورية هارون",
-      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer."
+      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer.",
+      "ArabicEnglish": "\n*REFRAIN* Sabani hobik \nya fakhr el rotab,\n moosa ra2ky ya mariem, \n3agab min 3agab, \nwal kanadeel fada be-tedwey\n wel solban dahab,\n ya qobet moosa ya mariam\n ya shoryet haroon\n"
     },
     {
       "Type": "Melody",
@@ -49,7 +54,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "جاءكِ غبريال,\nببشائر وأقوال,\nوقبلتِ ما قال,\nوهو سرٌّ مكنون",
-      "English": "Gabriel came,\nWith tidings and sayings,\nYou accepted his word,\nIn calmness and wisdom"
+      "English": "Gabriel came,\nWith tidings and sayings,\nYou accepted his word,\nIn calmness and wisdom",
+      "ArabicEnglish": "\n Gaky ghabriel, \nb bashayer w aqwal,\n wa qabelty maq\nal, wahwa serron maknoon.\n"
     },
     {
       "Type": "Melody",
@@ -57,7 +63,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "حويتِ الثمرة,\nوهو ربُّ القدرة,\nوصرتِ سماء مُقمِرَة,\nيا إبنة صهيون",
-      "English": "He dwelt by His Word,\nIn strength and power,\nYou became like heaven,\nO, daughter of Zion"
+      "English": "He dwelt by His Word,\nIn strength and power,\nYou became like heaven,\nO, daughter of Zion",
+      "ArabicEnglish": "\n 7a-wayty el samara, \nwahwa rab el qodra,\n wa serty sama2 moqmera,\n ya ebnat sehyoon. \n"
     },
     {
       "Type": "Melody",
@@ -65,7 +72,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "خلصتِ آدم,\nبعد أن كان نادم,\nو عتقتِ العالم,\nمن كيدِ الأركون",
-      "English": "He saved Adam,\nAfter his sorrow,\nAnd has freed the world,\nWe rejoice in you"
+      "English": "He saved Adam,\nAfter his sorrow,\nAnd has freed the world,\nWe rejoice in you",
+      "ArabicEnglish": "\n-Khalasty adam\n b3ad an kan nadem,\n wa 3atakty el 3alam\n men qed-el arkoon.\n"
     },
     {
       "Type": "Melody",
@@ -73,7 +81,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "دائم التمجيد,\nتجسَّد وهو الوحيد,\nلأجل خلاص العبيد,\nمن الأسر والسجون",
-      "English": "He is glorified,\nAnd promised His Apostles,\nTo save His people,\nFrom Satan’s bondage."
+      "English": "He is glorified,\nAnd promised His Apostles,\nTo save His people,\nFrom Satan’s bondage.",
+      "ArabicEnglish": "\n- Da2em el tamgeed \ntagasad, wa howa al wa7eed,\n le agl khalas el 3abeed,\n men al asr wal segoon\n"
     },
     {
       "Type": "Melody",
@@ -81,7 +90,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "سبانى حبك\n يافخر الرتب\n موسى رأكِ يا مريم \nعجب من عجب\n و القناديل فضة بتضوى \nو الصلبان الذهب \nيا قبة موسى يا مريم\nيا شورية هارون",
-      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer."
+      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer.",
+      "ArabicEnglish": "\n *REFRAIN* Sabani hobik \nya fakhr el rotab,\n moosa ra2ky ya mariem, \n3agab min 3agab, \nwal kanadeel fada be-tedwey\n wel solban dahab,\n ya qobet moosa ya mariam\n ya shoryet haroon\n"
     },
     {
       "Type": "Melody",
@@ -89,7 +99,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ذكر داود عنكِ,\nالملك إشتهى حُسنِك,\nو تجسَّد مِنكِ,\nرَبُّ العرش المكنون",
-      "English": "Concerning you, David said,\nThe King rejoiced in you,\nAnd took flesh from you,\nThe Lord on His Throne"
+      "English": "Concerning you, David said,\nThe King rejoiced in you,\nAnd took flesh from you,\nThe Lord on His Throne",
+      "ArabicEnglish": "\n Zakar dawood 3anki,\n el malak eshtaha hosnik, \nwa tagasad minky, \nrab el 3arsh el maknoon.\n"
     },
     {
       "Type": "Melody",
@@ -97,7 +108,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "رَبَوَات ثم ألوف,\nمن حول العرش وقوف,\nو طوائف وصُفُوف,\nوشهداء متصلون",
-      "English": "Myriads and thousands,\nStanding around the Throne,\nRanks and orders,\nSaints and martyrs"
+      "English": "Myriads and thousands,\nStanding around the Throne,\nRanks and orders,\nSaints and martyrs",
+      "ArabicEnglish": "\nRabawat soma oloof,\n men 7awl el 3arsh wqoof,\n wa tawa2ef wa sofoof,\n wa shohada2 mo-taseloon\n"
     },
     {
       "Type": "Melody",
@@ -105,7 +117,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "زالت عنا الأحزان,\nوسرنا فى إطمئنان,\nبكِ يا قرَّة الأعيان,\nونحن بك فرحون",
-      "English": "Sorrow was taken away,\nAnd we’re comforted,\nThrough you O, Mary,\nThe pride of the human race"
+      "English": "Sorrow was taken away,\nAnd we’re comforted,\nThrough you O, Mary,\nThe pride of the human race",
+      "ArabicEnglish": "\n-Zalit 3ana el a7zaan,\n wa serna fee et-me2nan,\n biky ya qoratel A3yan,\n wa na7no beky farehoon.\n"
     },
     {
       "Type": "Melody",
@@ -113,7 +126,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "سالومة شهدت,\nبأن العذراء ولدت,\nآمنت واعتقدت,\nبالسرِّ المكنون",
-      "English": "Salome witnessed,\nThat the Virgin gave birth,\nShe believed and confirmed,\nThe mystery of mysteries."
+      "English": "Salome witnessed,\nThat the Virgin gave birth,\nShe believed and confirmed,\nThe mystery of mysteries.",
+      "ArabicEnglish": "\n-Saloma shahadet, \nb enny al 3adra waladet,\n amnet wa3 takadet, \nbel sir el maknoon \n"
     },
     {
       "Type": "Melody",
@@ -121,7 +135,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "سبانى حبك\n يافخر الرتب\n موسى رأكِ يا مريم \nعجب من عجب\n و القناديل فضة بتضوى \nو الصلبان الذهب \nيا قبة موسى يا مريم\nيا شورية هارون",
-      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer."
+      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer.",
+      "ArabicEnglish": " \n*REFRAIN* Sabani hobik \nya fakhr el rotab,\n moosa ra2ky ya mariem, \n3agab min 3agab, \nwal kanadeel fada be-tedwey\n wel solban dahab,\n ya qobet moosa ya mariam\n ya shoryet haroon\n"
     },
     {
       "Type": "Melody",
@@ -129,7 +144,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "موسى الكليم,\nإذ فى سفر التكوين القويم,\nقال رآكِ يعقوب العظيم,\nكَسُلَّم بالبهاء مقرون",
-      "English": "Solomon your father,\nPraised in hymns and songs,\nAnd Jacob saw you,\nAn upright ladder"
+      "English": "Solomon your father,\nPraised in hymns and songs,\nAnd Jacob saw you,\nAn upright ladder",
+      "ArabicEnglish": "\n Moosa al kalim,\n iz fi sefr el takween al kaweem,\nqal ra2aki Ya3coub el 3azeem,\n ka sollam bel baha2  makroon\n"
     },
     {
       "Type": "Melody",
@@ -137,7 +153,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "شهد عنكِ الرؤوس,\nأنك تُحيى النفوس,\nيا بـِكر وعروس,\nكما تنبأ النبيون",
-      "English": "The chiefs had proclaimed,\nO fruitful vine,\nYou’re a Virgin and a bride,\nAs they prophesied"
+      "English": "The chiefs had proclaimed,\nO fruitful vine,\nYou’re a Virgin and a bride,\nAs they prophesied",
+      "ArabicEnglish": "\n Shahad 3anki el ro2oos\n enik toyhi el nofoos,\n Ya bikre wa 3aroos,\n kama 3anki tanaba-oon\n"
     },
     {
       "Type": "Melody",
@@ -145,7 +162,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "صاح هوشع وخَبَّر,\nبأن يسوع يظهر,\nشبه ندى ومطر,\nيحتار فيه الواصفون",
-      "English": "Hosea proclaimed,\nThat Jesus will appear,\nAs rain and dew,\nWhile her Virginity is sealed"
+      "English": "Hosea proclaimed,\nThat Jesus will appear,\nAs rain and dew,\nWhile her Virginity is sealed",
+      "ArabicEnglish": "\n-Sa7 hoosha3 w khabbar,\n b en yasoo3 yezhar,\n Shibh nada w matar,\n ye7tar feehee al wasefoon\n"
     },
     {
       "Type": "Melody",
@@ -153,7 +171,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ضَلَّ بحواء آدم,\nفصار يبكى وهو نادم,\nخرج وهو عريان هائم,\nوَلَولاكِ لَدَام فى شجون",
-      "English": "Eve caused Adam to stray,\nIn tears he cried,\nNaked he was exiled,\nWithout you they would not return"
+      "English": "Eve caused Adam to stray,\nIn tears he cried,\nNaked he was exiled,\nWithout you they would not return",
+      "ArabicEnglish": "\n- Dal be 7awa adam,\n fa-sar yabky wa howa nadem,\n  kharag 3oryan ha2em,\n wa lawlaky ladam fi shigoon \n"
     },
     {
       "Type": "Melody",
@@ -161,7 +180,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "سبانى حبك\n يافخر الرتب\n موسى رأكِ يا مريم \nعجب من عجب\n و القناديل فضة بتضوى \nو الصلبان الذهب \nيا قبة موسى يا مريم\nيا شورية هارون",
-      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer."
+      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer.",
+      "ArabicEnglish": " \n *REFRAIN* Sabani hobik \nya fakhr el rotab,\n moosa ra2ky ya mariem, \n3agab min 3agab, \nwal kanadeel fada be-tedwey\n wel solban dahab,\n ya qobet moosa ya mariam\n ya shoryet haroon\n"
     },
     {
       "Type": "Melody",
@@ -169,7 +189,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ضوءكِ قد أشرق,\nو فى الظلمة أبرق,\nوغصنكِ قد أورق,\nفجنى ثماره المسيحيون",
-      "English": "Your rank is up high,\nAnd great is your glory,\nThe Lord honored you,\nO, Aaron’s censer"
+      "English": "Your rank is up high,\nAnd great is your glory,\nThe Lord honored you,\nO, Aaron’s censer",
+      "ArabicEnglish": "\n Doo2ek qad ashrak,\n wa fel zolma abrak,\n wa ghosnek kad awrak,\n fa-gaba themaro al mase7eyoon \n"
     },
     {
       "Type": "Melody",
@@ -177,7 +198,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "طوباكِ يا سماء,\nحيَّرتِ العلماء,\nفلاسفة مع حُكَمَاء,\nفى وصفك يتكلمون",
-      "English": "Many praised you,\nYou’re the cause of all joy,\nYou comfort everyone,\nWho’s sorrowful and humble"
+      "English": "Many praised you,\nYou’re the cause of all joy,\nYou comfort everyone,\nWho’s sorrowful and humble",
+      "ArabicEnglish": " \n Tobaky ya sama, \n7ayarty el 3olama2,\n Falasfa ma3 7okoma2,\n fi wasfik yatakalamoon\n"
     },
     {
       "Type": "Melody",
@@ -185,7 +207,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ظهر منكِ الإله,\nالمتعالى فى سماه,\nوملأ لبن ثدييكِ فاه,\nكما يفعل المخلوقون",
-      "English": "God appeared from you,\nThe Exalted One in heaven,\nYour milk nursed Him,\nLike all humans."
+      "English": "God appeared from you,\nThe Exalted One in heaven,\nYour milk nursed Him,\nLike all humans.",
+      "ArabicEnglish": "\n-Zahar minki el eelah,\n el mota3ali fee sama,\n wa mala2 laban sedyayki fah,\n kama yaf3al el khalikoon\n"
     },
     {
       "Type": "Melody",
@@ -193,7 +216,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "علا حسنكِ,\nلأن يسوع إبنكِ,\nوحملته بطنكِ,\nفخلص به البشريون",
-      "English": "Your goodness is exalted,\nFor Jesus is your Son,\nYour womb carried Him,\nHe saved mankind."
+      "English": "Your goodness is exalted,\nFor Jesus is your Son,\nYour womb carried Him,\nHe saved mankind.",
+      "ArabicEnglish": "\n- 3ala hosnki,\n le ana yasoo3 ebnek, \nw hamalty fi batnek,\n fa khallas beehee al bashareyoon\n"
     },
     {
       "Type": "Melody",
@@ -201,7 +225,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "سبانى حبك\n يافخر الرتب\n موسى رأكِ يا مريم \nعجب من عجب\n و القناديل فضة بتضوى \nو الصلبان الذهب \nيا قبة موسى يا مريم\nيا شورية هارون",
-      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer."
+      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer.",
+      "ArabicEnglish": "\n*REFRAIN* Sabani hobik \nya fakhr el rotab,\n moosa ra2ky ya mariem, \n3agab min 3agab, \nwal kanadeel fada be-tedwey\n wel solban dahab,\n ya qobet moosa ya mariam\n ya shoryet haroon\n"
     },
     {
       "Type": "Melody",
@@ -209,7 +234,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "غالت فيك المداح,\nيا بهجة الأرواح,\nمَادِحُكِ فى نجاح,\nوقوله صحيح موزون",
-      "English": "The chanters were enriched,\nO joy of spirits,\nYour praises are prosperous,\nAnd this saying is correct."
+      "English": "The chanters were enriched,\nO joy of spirits,\nYour praises are prosperous,\nAnd this saying is correct.",
+      "ArabicEnglish": "\n Ghalat feekey el moda7,\n ya bah-gat al arwa7,\n madhek fee nagah\n w kawlo saheeh mawzoon. \n"
     },
     {
       "Type": "Melody",
@@ -217,7 +243,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فزتِ بعفو رَبِّى,\nوهو قصدى ومطلبى,\nيسوع وأمه حسبى,\nحتى من الفائزين أكون",
-      "English": "You gained my Lord’s pardon,\nThat is also my plea,\nTo belong to Jesus and His Mother,\nAmong the overcomers I shall be."
+      "English": "You gained my Lord’s pardon,\nThat is also my plea,\nTo belong to Jesus and His Mother,\nAmong the overcomers I shall be.",
+      "ArabicEnglish": " \n Fozt b 3afw rabbi,\n wa howa qazdy w  matlaby,\n yasou3 wa omo hasby,\n hata men el fa2ezeen akoon\n"
     },
     {
       "Type": "Melody",
@@ -225,7 +252,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "قديم وأزلى ودائم,\nمات لمحو المَآثم,\nوإستيقظ كالنائم,\nوَبـِذَا تلاميذه يكرزون",
-      "English": "Existent before the ages,\nSuffered and was crucified,\nHe rose from His sleep,\nAnd the Disciples preached."
+      "English": "Existent before the ages,\nSuffered and was crucified,\nHe rose from His sleep,\nAnd the Disciples preached.",
+      "ArabicEnglish": "\n- Kadim w azaly w da2em, \nmat le mahw al ma2asem,\n w astaykaz kalna2em, \nwa be-eza talameezo yakrezoon.\n"
     },
     {
       "Type": "Melody",
@@ -233,7 +261,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "كرزوا فى الأقطار,\nأولئك الرسل الأحبار,\nنادوا بالإستبشار,\nوعجائب يصنعون",
-      "English": "The righteous Apostles,\nAnd the four Evangelists,\nPreached in all nations,\nThe tidings with Joy"
+      "English": "The righteous Apostles,\nAnd the four Evangelists,\nPreached in all nations,\nThe tidings with Joy",
+      "ArabicEnglish": "  \n- Karazo fel aktar,\n hola2eka al rosol alahbar,\n nado bel estebshar,\n w 3afa2eb yasna3oon.\n"
     },
     {
       "Type": "Melody",
@@ -241,7 +270,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "سبانى حبك\n يافخر الرتب\n موسى رأكِ يا مريم \nعجب من عجب\n و القناديل فضة بتضوى \nو الصلبان الذهب \nيا قبة موسى يا مريم\nيا شورية هارون",
-      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer."
+      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer.",
+      "ArabicEnglish": "\n*REFRAIN* Sabani hobik \nya fakhr el rotab,\n moosa ra2ky ya mariem, \n3agab min 3agab, \nwal kanadeel fada be-tedwey\n wel solban dahab,\n ya qobet moosa ya mariam\n ya shoryet haroon\n"
     },
     {
       "Type": "Melody",
@@ -249,7 +279,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لكِ كُلَّ التعظيم,\nيا إبنة يواقيم,\nحملتِ السر العظيم,\nووضعته يا قرة العيون",
-      "English": "Glory is due to you,\nO, daughter of Joachim,\nYou bore a great mystery,\nAnd gave birth to the Most High."
+      "English": "Glory is due to you,\nO, daughter of Joachim,\nYou bore a great mystery,\nAnd gave birth to the Most High.",
+      "ArabicEnglish": "\n Laki kol ta3zeem \nya ebnat yowakeem,\n hamalty el ser el 3azeem,\n wa wada3ty ya koratal 3oyoon. \n"
     },
     {
       "Type": "Melody",
@@ -257,7 +288,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "موسى ودانيال,\nضربا فيكِ الأمثال,\nونطقا بصحيح الأقوال,\nفى حبلك يا إبنة صهيون",
-      "English": "Moses and Daniel,\nSaid many parables,\nAnd you fit all that,\nMysteriously and more"
+      "English": "Moses and Daniel,\nSaid many parables,\nAnd you fit all that,\nMysteriously and more",
+      "ArabicEnglish": " \n Moosa wa Daniel,\n daraba feky el amsal,\n wa nataka b saheeh el akwal,\n fi habalik ya ebnat sehyoon.\n"
     },
     {
       "Type": "Melody",
@@ -265,7 +297,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "نورتِ الأكوان,\nيا فخر الأزمان,\nلولاكِ ماكان,\nكل الخلائق يُعتقون",
-      "English": "You caused the world to shine,\nO, the pride of faith,\nAll the creatures were free,\nBecause of you, Mary."
+      "English": "You caused the world to shine,\nO, the pride of faith,\nAll the creatures were free,\nBecause of you, Mary.",
+      "ArabicEnglish": "\n-Nawarty al akwal, \nya fahkr el azman, \nLaw laky makan,\n kol el khala2ek yo3takoon\n"
     },
     {
       "Type": "Melody",
@@ -273,7 +306,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "هدايا ألوان,\nجاء بِهَا الأعيان,\nذهب وَ مرّ ولبان,\nلها المجوس حاملون",
-      "English": "Gifts were offered in faith,\nTo the King of kings,\nBy the great Magi,\nMyrrh, gold and frankincense"
+      "English": "Gifts were offered in faith,\nTo the King of kings,\nBy the great Magi,\nMyrrh, gold and frankincense",
+      "ArabicEnglish": "\n- Hadaya alwan,\n ga2a beha al 3ayan,\n zahab wa mor wa loban,\n laha al magoos hameloon\n"
     },
     {
       "Type": "Melody",
@@ -281,7 +315,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "سبانى حبك\n يافخر الرتب\n موسى رأكِ يا مريم \nعجب من عجب\n و القناديل فضة بتضوى \nو الصلبان الذهب \nيا قبة موسى يا مريم\nيا شورية هارون",
-      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer."
+      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer.",
+      "ArabicEnglish": "\n*REFRAIN* Sabani hobik \nya fakhr el rotab,\n moosa ra2ky ya mariem, \n3agab min 3agab, \nwal kanadeel fada be-tedwey\n wel solban dahab,\n ya qobet moosa ya mariam\n ya shoryet haroon\n"
     },
     {
       "Type": "Melody",
@@ -289,7 +324,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وسجدوا للمولود,\nالرب المعبود,\nوهيرودس خائف مجهود,\nوجنده مندهشون",
-      "English": "They worshipped the born King,\nThe Lord of lords,\nAnd Herod was terrified,\nAnd his soldiers marveled."
+      "English": "They worshipped the born King,\nThe Lord of lords,\nAnd Herod was terrified,\nAnd his soldiers marveled.",
+      "ArabicEnglish": "\n W saggado lel mawlood,\n  el rab el ma3bood,\n Wa heroodes kha2ef mag-hood,\n wa gondaho mondaheshoon\n"
     },
     {
       "Type": "Melody",
@@ -297,7 +333,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لا تهملى فى كل حين,\nعبدك الخاطئ المسكين,\nشفاعتك يوم الدين,\nأرجوها أنا والمؤمنون",
-      "English": "Do not forsake at that time,\nA poor and humble sinner,\nYour plead on Judgment Day,\nAnd for all the Christians."
+      "English": "Do not forsake at that time,\nA poor and humble sinner,\nYour plead on Judgment Day,\nAnd for all the Christians.",
+      "ArabicEnglish": "\n La tohmeli kol-le heen,\n 3abdek el khati el meskeen,\n shafa3tek yom el deen,\n argooha ana wel mo2menoon,\n"
     },
     {
       "Type": "Melody",
@@ -305,7 +342,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يا سيدة الأبكار,\nيا مَنْ لكِ الشرف والفخار,\nإسعفينا بالنجدة والإنتصار,\nعلى مَنْ بِنَا يمكرون",
-      "English": "O lady of virgins,\nYou with honor and pride,\nGrant us victory,\nOver those who deceive us."
+      "English": "O lady of virgins,\nYou with honor and pride,\nGrant us victory,\nOver those who deceive us.",
+      "ArabicEnglish": "\n-Ya sayedat el abkar,\n ya man laki el sharaf wal fakhar,\n es3efeena bel nagda wal entisar,\n 3ala man bena yam-koroon\n"
     },
     {
       "Type": "Melody",
@@ -313,7 +351,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ونسأل الغفران,\nوقوة مع إيمان,\nوحصول شعبك على إطمئنان,\nيوم الخلائق يُحْشَرُون",
-      "English": "We ask of Him forgiveness,\nFaith and repentance,\nTo be in calmness,\nWe the believers"
+      "English": "We ask of Him forgiveness,\nFaith and repentance,\nTo be in calmness,\nWe the believers",
+      "ArabicEnglish": "\n Nas2al el ghofran,\n wa qowa ma3a eman,\n wa hosool sha3bek 3ala etme2nan,\n yom el khal2ek yoh-sharoon\n"
     },
     {
       "Type": "Melody",
@@ -321,7 +360,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "سبانى حبك\n يافخر الرتب\n موسى رأكِ يا مريم \nعجب من عجب\n و القناديل فضة بتضوى \nو الصلبان الذهب \nيا قبة موسى يا مريم\nيا شورية هارون",
-      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer."
+      "English": "Your love embraced me \n O pride of nations \n Moses have seen you \n Surprise and marvel \n And the lamps are bright \n With golden crosses \n O Mary, Moses’ dome \n O Aaron’s censer.",
+      "ArabicEnglish": "\n*REFRAIN* Sabani hobik \nya fakhr el rotab,\n moosa ra2ky ya mariem, \n3agab min 3agab, \nwal kanadeel fada be-tedwey\n wel solban dahab,\n ya qobet moosa ya mariam\n ya shoryet haroon\n \n"
     }
   ]
 }

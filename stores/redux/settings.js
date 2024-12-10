@@ -18,6 +18,7 @@ const settingsSlice = createSlice({
     arabic: true,
     copticenglish: false,
     copticarabic: false,
+    arabicengishMelodies: false,
     standardPsalmodyPermission: false,
     kiahkPsalmodyPermission: false,
     paschaBookPermission: false,
@@ -192,6 +193,11 @@ const settingsSlice = createSlice({
           return {
             ...state,
             copticarabic: !state.copticarabic,
+          };
+        case "arabicengishMelodies":
+          return {
+            ...state,
+            arabicengishMelodies: !state.arabicengishMelodies,
           };
         default:
           return state;

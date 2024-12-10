@@ -186,9 +186,12 @@ const BookScreen = React.memo(() => {
       ),
       Accordion: (
         <AccordionView
+          mykey={item.key}
+          flatListRef={flatListRef}
           item={item.part}
-          toggleAccordion={toggleAccordion}
+          motherSource={motherSource}
           expanded={expanded}
+          toggleAccordion={toggleAccordion}
         />
       ),
     };

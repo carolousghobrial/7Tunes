@@ -5,6 +5,9 @@ import { getColor } from "../../helpers/SettingsHelpers.js";
 
 function MelodyView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
+  const arabicengishMelodies = useSelector(
+    (state) => state.settings.arabicengishMelodies
+  );
   const englishVisible = useSelector((state) => state.settings.english);
   const arabicVisible = useSelector((state) => state.settings.arabic);
   const textColor = getColorBySide(item.Side);
@@ -50,6 +53,13 @@ function MelodyView({ item }) {
             ]}
           >
             {item.Arabic}
+          </Text>
+        </View>
+      )}
+      {arabicengishMelodies && (
+        <View style={styles.textView}>
+          <Text style={[styles.english, commonTextStyle]}>
+            {item?.ArabicEnglish}
           </Text>
         </View>
       )}

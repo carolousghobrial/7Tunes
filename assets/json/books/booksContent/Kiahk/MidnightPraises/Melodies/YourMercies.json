@@ -9,7 +9,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مراحمك ياإلهى,\nكثيرة جداً,\nمراحمك يا إلهى,\nلا يُحْصَى لها عدداً",
-      "English": "Your mercies O my God,\nAre plenteous,\nYour mercies O my God,\nHas no boundaries"
+      "English": "Your mercies O my God,\nAre plenteous,\nYour mercies O my God,\nHas no boundaries",
+      "ArabicEnglish": "Mara7emak ya Elahy  \nKatheera geddan  \nMara7emak ya Elahy  \nLa yo7sa laha 3addan  \n"
     },
     {
       "Type": "Melody",
@@ -17,7 +18,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "قطرات الأمطار,\nمعدودة بين يديك,\nأيضا رمل البحار,\nكائن قدام عينيك",
-      "English": "The drops of rain,\nAre counted in Your hands,\nAlso the sand of the sea,\nIs present before Your eyes"
+      "English": "The drops of rain,\nAre counted in Your hands,\nAlso the sand of the sea,\nIs present before Your eyes",
+      "ArabicEnglish": "  \nQatarat el amtar  \nMa3dooda bayn yadek  \nAydan raml el bi7ar  \nKa2en qodam 3anayk  \n"
     },
     {
       "Type": "Melody",
@@ -25,7 +27,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "كم بالأكثر خطاياى,\nوآثامى قدامك,\nوما صنعته يداى,\nظاهر كله أمامك",
-      "English": "How much more are my sins,\nMy trespasses are before You,\nAnd all that I have done,\nAre present before You"
+      "English": "How much more are my sins,\nMy trespasses are before You,\nAnd all that I have done,\nAre present before You",
+      "ArabicEnglish": "  \nKam bel akthar khataya2y  \nWe a2thamy qodamak  \nWe ma sana3atoho yaday  \nZa7er kollo amamak  \n"
     },
     {
       "Type": "Melody",
@@ -33,7 +36,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "خطايا صباى وجهلى,\nيارب لا تذكرها,\nولا تتأمل آثامى,\nيا إلهى اتركها",
-      "English": "The sins of my youth,\nRemember it not O Lord,\nDo not contemplate,\nOn my sins O God"
+      "English": "The sins of my youth,\nRemember it not O Lord,\nDo not contemplate,\nOn my sins O God",
+      "ArabicEnglish": "  \nKhataya sabaya wa gahly  \nYa Rab la tazkorha  \nWa la tata2amal a2thamy  \nYa Elahy etrokha  \n"
     },
     {
       "Type": "Melody",
@@ -41,7 +45,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لاتشاء موت الخاطئ,\nبل تحب رجوعه إليك,\nياإلهى إقبل طلباتى,\nرجعت وتبت إليك",
-      "English": "For You desire not,\nThe death of sinners,\nBut You are ever pleased,\nThat they return to You"
+      "English": "For You desire not,\nThe death of sinners,\nBut You are ever pleased,\nThat they return to You",
+      "ArabicEnglish": "  \nLa tasha2 moot el khate2  \nBel to7eb rogo3oh elayk  \nYa Elahy eqbal talabatay  \nRaga3t wa tobt elayk  \n"
     },
     {
       "Type": "Melody",
@@ -49,7 +54,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "إن العشار إخترته,\nوالزانية غفرت لها,\nواللص يارب ذكرته,\nرحمتك لا نهاية لها",
-      "English": "The tax‐collector was chosen,\nThe adulteress You forgave,\nThe thief You remembered,\nYour mercy is boundless"
+      "English": "The tax‐collector was chosen,\nThe adulteress You forgave,\nThe thief You remembered,\nYour mercy is boundless",
+      "ArabicEnglish": "  \nEn el 3ashar ekhtartoho  \nWa el zaniah ghafart laha  \nWa el less ya Rab thakartoho  \nRa7matak la nehaya laha  \n"
     },
     {
       "Type": "Melody",
@@ -57,7 +63,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وأنا الخاطئ أيضاً,\nيارب علمنى,\nلكى أصنع توبة,\nمثل الزانية إقبلنى",
-      "English": "I am a sinner too,\nO Lord teach me,\nTo offer repentance,\nLike the adulteress accept me"
+      "English": "I am a sinner too,\nO Lord teach me,\nTo offer repentance,\nLike the adulteress accept me",
+      "ArabicEnglish": "  \nWa ana el khate2 aythan  \nYa Rab 3allemny  \nLakay asna3 toba  \nMithla el zaniah eqbalny  \n"
     },
     {
       "Type": "Melody",
@@ -65,7 +72,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "رُدِّنا يارب إلى خلاصك,\nفإنك صالح ورحيم,\nإصنع معنا كصلاحك,\nلأنك قادر وكريم",
-      "English": "Return us O God unto Your salvation,\nFor You are good and gracious,\nGrant us Your salvation,\nFor you are our Savior"
+      "English": "Return us O God unto Your salvation,\nFor You are good and gracious,\nGrant us Your salvation,\nFor you are our Savior",
+      "ArabicEnglish": "  \nRodna ya Rab ela khasak  \nFa ennak sale7 wa ra7eem  \nEsna3 ma3na kSale7ak  \nLa2annak qader wa kareem  \n"
     },
     {
       "Type": "Melody",
@@ -73,7 +81,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "إن حاكمتنا بعدلك,\nفلا نجد حُجَّة,\nلكن ننتظر فضلك,\nومراحمك نترجى",
-      "English": "If You judge us in Your uprightness,\nWe shall have no excuse,\nWe await Your compassion,\nAnd plead for Your mercy"
+      "English": "If You judge us in Your uprightness,\nWe shall have no excuse,\nWe await Your compassion,\nAnd plead for Your mercy",
+      "ArabicEnglish": "  \nEn 7akamtona ba3adlak  \nFa la naged 7ogah  \nLaken nantaser faslak  \nWa mara7emak nataragah  \n"
     },
     {
       "Type": "Melody",
@@ -81,7 +90,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مراحمك يا إلهى,\nتعلو كل العباد,\nمراحمك يا إلهى,\nكالرمل بغير عدد",
-      "English": "Your mercies O my God,\n Are beyond all measure,\nYour mercies O my God,\n Are as the countless sand"
+      "English": "Your mercies O my God,\n Are beyond all measure,\nYour mercies O my God,\n Are as the countless sand",
+      "ArabicEnglish": "  \nMara7emak ya Elahy  \nTa3lo kol el 3ebad  \nMara7emak ya Elahy  \nKal raml bighayr 3adad  \n"
     },
     {
       "Type": "Melody",
@@ -89,7 +99,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "مراحمك يا إلهى,\nأكثر من عدد النجوم,\nوأكثر من نبات الأرض,\nوالجبال وكل التخوم",
-      "English": "Your mercies O my God,\nAre more than the stars in heaven,\nAnd the plants of the earth,\nThe mountains and little hills"
+      "English": "Your mercies O my God,\nAre more than the stars in heaven,\nAnd the plants of the earth,\nThe mountains and little hills",
+      "ArabicEnglish": "  \nMara7emak ya Elahy  \nAkthar men 3adad el nogoom  \nWa akthar men nabat el ard  \nWa el gebal wa kol el t5oom  \n"
     },
     {
       "Type": "Melody",
@@ -97,7 +108,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يا ملك السلام,\nسلامك أعطنا,\nقرر لنا سلامك,\nوحِلّ بروحك فينا",
-      "English": "O King of peace,\nGrant us Your peace,\nConfirm Your peace unto us,\nAnd forgive us our sins"
+      "English": "O King of peace,\nGrant us Your peace,\nConfirm Your peace unto us,\nAnd forgive us our sins",
+      "ArabicEnglish": "  \nYa Malek el salam  \nSalamak a3tina  \nQarar lana salamak  \nWa 7ell bro7ak feena  \n"
     },
     {
       "Type": "Melody",
@@ -105,7 +117,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فرق أعداء البيعة,\nوحَصِّنها بالإيمان,\nبحصون عالية منيعة,\nفلا تتزعزع لزمان",
-      "English": "Disperse the enemies,\nOf Your Church,\nFortify her stronghold,\nThat she may never be shaken"
+      "English": "Disperse the enemies,\nOf Your Church,\nFortify her stronghold,\nThat she may never be shaken",
+      "ArabicEnglish": "  \nFarreq a3da2 el baye3a  \nWa 7asenha bel eman  \nBe 7oson 3alya manee3a  \nFa la tataza3za3 la zaman  \n"
     },
     {
       "Type": "Melody",
@@ -113,7 +126,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "عمانوئيل نفسه,\nكائن فى وسطنا الآن,\nبمجد أبيه وَ روح قدسه,\nالآن وكل أوان",
-      "English": "Emmanuel our God,\nIs now in our midst,\nWith the Glory of His Father,\nAnd the Holy Spirit"
+      "English": "Emmanuel our God,\nIs now in our midst,\nWith the Glory of His Father,\nAnd the Holy Spirit",
+      "ArabicEnglish": "  \n3emmanuel nafsaho  \nKa2en fi wasatna el an  \nBe magd aboh wa ro7 qodsoh  \nEl an wa kol awan  \n"
     },
     {
       "Type": "Melody",
@@ -121,7 +135,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "فليباركنا كلنا,\nويطهر قلوبنا,\nويشفى أمراضنا,\nويُخَلِّصْ نفوسنا",
-      "English": "May He bless us all,\nAnd purify our hearts,\nAnd heal the sickness,\nOf our souls and bodies"
+      "English": "May He bless us all,\nAnd purify our hearts,\nAnd heal the sickness,\nOf our souls and bodies",
+      "ArabicEnglish": "  \nFalyebarakna kolona  \nWa yotaher qolobna  \nWa yeshfy amradna  \nWa yokhales nofoosna  \n"
     },
     {
       "Type": "Melody",
@@ -129,7 +144,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "بطريرك ذا الحين,\nهنيه يارب لسنين,\nوأخضع تحت قدميه المكيدين,\nبصلاة شفيعة المسيحيين",
-      "English": "The Patriarch of this time,\nSatisfy him O, Lord, for years,\nTrample all malice under his feet,\nThrough the prayers of all the  Saints"
+      "English": "The Patriarch of this time,\nSatisfy him O, Lord, for years,\nTrample all malice under his feet,\nThrough the prayers of all the  Saints",
+      "ArabicEnglish": "  \nBatreyark za el 7een  \nHannyh ya Rab le sneen  \nWa akhda3 ta7t qadmayho el makedeen  \nBesalat Shafee3at el masi7yeen  \n"
     },
     {
       "Type": "Melody",
@@ -137,7 +153,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وشركاؤه أساقفتنا,\nالساهرين عنا كل حين,\nإجعلهم فى حصن حصين,\nبصلاة الشهداء والقديسين",
-      "English": "And his partners our bishops,\nWatching over us at all time,\nFortify their fortress,\nThrough the prayers of all the  Saints"
+      "English": "And his partners our bishops,\nWatching over us at all time,\nFortify their fortress,\nThrough the prayers of all the  Saints",
+      "ArabicEnglish": "  \nWa shorakaa2o asaqeftena  \nEl sahreen 3anna kol 7een  \nEg3alhom fi 7esn 7aseen  \nBesalat el shohada2 wa el qedeseen  \n"
     },
     {
       "Type": "Melody",
@@ -145,7 +162,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "والقمامصة والقسوس,\nوالشمامسة والأبوذياقونيين,\nوكافة رتب نى موناخوس,\nإحفظهم إلى أبد الآبدين",
-      "English": "The Hegumens and the priests,\nThe Deacons and Subdeacons,\nAnd all the ranks of the monks,\nPreserve them forever and ever"
+      "English": "The Hegumens and the priests,\nThe Deacons and Subdeacons,\nAnd all the ranks of the monks,\nPreserve them forever and ever",
+      "ArabicEnglish": "  \nWa el qomamosa wa el qossoos  \nWa el shammamsa wa el aboothyaqoneyeen  \nWa kafa rutab Ni Monakhos  \nE7fashom ela abad el abideen  \n"
     },
     {
       "Type": "Melody",
@@ -153,7 +171,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "نسجد للأب و الإبن,\nوالروح القدس,\nألأن و كل اوان,\nو إلي الأبد أمين",
-      "English": "We worship the Father the Son,\nAnd the holy Spirit,\nBoth now and forever,\nAnd to the end of ages; Amen."
+      "English": "We worship the Father the Son,\nAnd the holy Spirit,\nBoth now and forever,\nAnd to the end of ages; Amen.",
+      "ArabicEnglish": "  \nNesgod lel Ab wa el Ebn  \nWa el Ro7 el Qodos  \nEl an wa kol awan  \nWa ela el abad Ameen  \n"
     }
   ]
 }

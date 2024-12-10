@@ -9,7 +9,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "اجيوس أوثيئوس,\nآجيوس إس شيروس,\nأجيوس أثاناطوس,\nآمين الليلويا",
-      "English": "Agios O Theos,\nAgios Yes-sheros,\nAgios Athanatos,\nAmen Alleluia"
+      "English": "Agios O Theos,\nAgios Yes-sheros,\nAgios Athanatos,\nAmen Alleluia",
+      "ArabicEnglish": "Agios O Theos\nAgios Es Shiros\nAgios Athanatos\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -17,7 +18,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "قدوس الله قدوس,\nقدوس القوي قدوس,\nقدوس الحىّ الله,\nآمين الليلويا",
-      "English": "Holy God Holy,\nMighty in His glory,\nHoly is the living God,\nAmen Alleluia"
+      "English": "Holy God Holy,\nMighty in His glory,\nHoly is the living God,\nAmen Alleluia",
+      "ArabicEnglish": "Qoddos Allah Qoddos\nQoddos El Qawi Qoddos\nQoddos El 7ay Allah\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -25,7 +27,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "بمعونة رب قدير,\nإله عظيم خبير,\nأشرح معنى تفسير,\nآمين الليلويا",
-      "English": "By the help of the mighty God,\nThe great Lord of lords,\nI will explain the meaning of,\nAmen Alleluia"
+      "English": "By the help of the mighty God,\nThe great Lord of lords,\nI will explain the meaning of,\nAmen Alleluia",
+      "ArabicEnglish": "Bema3oonat Rab Qadeer\nElah 3azeem Khabeer\nAshra7 Ma3na Tafseer\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -33,7 +36,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "معناه ياما أحلاه,\nليس غير الله إله,\nنسبحه فوق أعلى سماه,\nآمين الليلويا",
-      "English": "How beautiful is its meaning,\nThere is none but our God,\nWe praise Him high in His heaven,\nAmen Alleluia"
+      "English": "How beautiful is its meaning,\nThere is none but our God,\nWe praise Him high in His heaven,\nAmen Alleluia",
+      "ArabicEnglish": "Ma3naha Yama A7laaha\nLays Gheir Allah Elah\nNosab-be7o Foq A3la Samaa\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -41,7 +45,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ميخائيل وغبريال,\nرافائيل وسوريال,\nيتلون تسابيح وأقوال,\nآمين الليلويا",
-      "English": "Michael and Gabriel,\nRaphael and Suriel,\nAll praising Him saying,\nAmen Alleluia"
+      "English": "Michael and Gabriel,\nRaphael and Suriel,\nAll praising Him saying,\nAmen Alleluia",
+      "ArabicEnglish": "Mikhail wa Ghabrial\nRafail wa Sourial\nYatloun Tasabee7 wa Aqwal\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -49,7 +54,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "تسبحة الشيروبيم,\nوأيضاً السيرافيم,\nقائلين بصوت عظيم,\nآمين الليلويا",
-      "English": "The heavenly cherubim,\nAnd the mighty seraphim,\nThey also glorify Him,\nAmen Alleluia"
+      "English": "The heavenly cherubim,\nAnd the mighty seraphim,\nThey also glorify Him,\nAmen Alleluia",
+      "ArabicEnglish": "Tosabe-7ahol Cheroubim\nWa Aydan El Seraphim\nQa-eleen Be-Sot 3azeem\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -57,7 +63,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أجناد نورانية,\nوطغمات روحانية,\nيصيحون علانية,\nآمين الليلويا",
-      "English": "Heavenly hosts of light,\nAnd all the spiritual ranks,\nContinuously praise Him,\nAmen Alleluia"
+      "English": "Heavenly hosts of light,\nAnd all the spiritual ranks,\nContinuously praise Him,\nAmen Alleluia",
+      "ArabicEnglish": "Agnaad Noraniya\nWa Taghmat Rou7anya\nYasee7oun 3alaniya\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -65,7 +72,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "ربوات ربوات وألوف,\nمن حول العرش صفوف,\nيقولون وهم وقوف,\nأمين الليلويا",
-      "English": "Myriad of myriads,\nRanks around the throne,\nProclaiming before the Lord,\nAmen Alleluia"
+      "English": "Myriad of myriads,\nRanks around the throne,\nProclaiming before the Lord,\nAmen Alleluia",
+      "ArabicEnglish": "Rabwat Rabwat wa Olouf\nMen 7awl El 3arsh Sofouf\nYaqouloun wa Hom Woqouf\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -73,7 +81,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "والأربعة الكائنات,\nمن تحت العرش ثبات,\nيتلون كل الأوقات,\nآمين الليلويا",
-      "English": "The four living creatures,\nAround the throne of God,\nPleading on our behalf,\nAmen Alleluia"
+      "English": "The four living creatures,\nAround the throne of God,\nPleading on our behalf,\nAmen Alleluia",
+      "ArabicEnglish": "Wal Arba3a El Ka-enat\nMen Ta7t El 3arsh Thabat\nYatloun Kol Al Awqat\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -81,7 +90,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الأول شبه أسد,\nصورة من غير جسد,\nوأعين بلا عدد,\nآمين الليلويا",
-      "English": "The first is like a lion,\nA figure without a body,\nBowing to the King of Zion,\nAmen Alleluia"
+      "English": "The first is like a lion,\nA figure without a body,\nBowing to the King of Zion,\nAmen Alleluia",
+      "ArabicEnglish": "El Awal Shebh Asad\nSoura Men Gheir Gasad\nWa A3yon Bela 3adad\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -89,7 +99,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "الثانى شبه الثور,\nوهو منظر من نور,\nيصيح بلا فتور,\nآمين الليلويا",
-      "English": "The second is like a calf,\nA sign of sacrifice,\nProclaiming unceasingly,\nAmen Alleluia"
+      "English": "The second is like a calf,\nA sign of sacrifice,\nProclaiming unceasingly,\nAmen Alleluia",
+      "ArabicEnglish": "El Thani Shebh El Thor\nWa Howa Manzar Men Noor\nYasee7 Bela Fettour\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -97,7 +108,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "الثالث شبه عقاب,\nيسأل عن الطير بإيجاب,\nأمام وحيد الآب,\nأمين الليلويا",
-      "English": "The third is like an engle,\nSoaring in the heavens,\nPleading before the only begotten,\nAmen Alleluin"
+      "English": "The third is like an engle,\nSoaring in the heavens,\nPleading before the only begotten,\nAmen Alleluin",
+      "ArabicEnglish": "El Thalith Shebh 3oqab\nYas2al 3an El Teer Be-Igab\nAmaam Wa7eed El-Aab\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -105,7 +117,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الرابع شبه إنسان,\nيسأل عنا الغفران,\nأمام الله الديان,\nأمين الليلويا",
-      "English": "The fourth has a face like a man,\nAsking for forgiveness on our behalf,\nBefore the Lord our God,\nAmen Alleluia"
+      "English": "The fourth has a face like a man,\nAsking for forgiveness on our behalf,\nBefore the Lord our God,\nAmen Alleluia",
+      "ArabicEnglish": "El Rabe3 Shebh Ensan\nYas2al 3anna El Ghofran\nAmaam Allah El Dayan\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -113,7 +126,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "منظر بالنور مكسى,\nيسبحون فى إتهيمسى,\nفوق أعلى الكرسى,\nأمين الليلويا",
-      "English": "A scene encountered with light,\nThey praise God who is seated,\nUp above on His throne,\nAmen Alleluia"
+      "English": "A scene encountered with light,\nThey praise God who is seated,\nUp above on His throne,\nAmen Alleluia",
+      "ArabicEnglish": "Manzar Bel Noor Maksi\nYosabehoun Fi-Et-Hemsi\nFoq A3la El Korsi\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -121,7 +135,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "منظر بأنواع شتى,\nسيرافيم بأجنحة سِـتَّة,\nيصيحون بغير سكته,\nأمين الليلويا",
-      "English": "Scenes with diversities,\nSeraphim with six wings,\nPraising continuously,\nAmen Alleluia"
+      "English": "Scenes with diversities,\nSeraphim with six wings,\nPraising continuously,\nAmen Alleluia",
+      "ArabicEnglish": "Manzar Be-Anwa3 Shatta\nSeraphim Be-Agne7a Sitta\nYasee7oun Be Gheir Sikka\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -129,7 +144,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "والأربعة وعشرين قسيس,\nكهنة بمقام نفيس,\nيصيحون بالتقديس,\nأمين الليلويا",
-      "English": "The twenty-four elders,\nPriests of the high order,\nTo Him they surrender,\nAmen Alleluia"
+      "English": "The twenty-four elders,\nPriests of the high order,\nTo Him they surrender,\nAmen Alleluia",
+      "ArabicEnglish": "Wal Arba3a wa 3eshrin Qessis\nKahana Be-Maqam Nafis\nYasee7oun Bel Taqdees\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -137,7 +153,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ويسبحوا بالأفلاك,\nالذين سلكوا الأسلاك,\nمن فوق أعلى السموات,\nأمين الليلويا",
-      "English": "The stars and the orbits,\nPraise Him throughout the way,\nUp high in the heavens,\nAmen Alleluia"
+      "English": "The stars and the orbits,\nPraise Him throughout the way,\nUp high in the heavens,\nAmen Alleluia",
+      "ArabicEnglish": "Wa Yasebbe7o Bel Aflak\nAllazeena Salakoo El Aslak\nMen Foq A3la El Samawat\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -145,7 +162,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "صاطانائيل قد صار,\nشيطاناً بالإستكبار,\nلَمَّا بَطَّلْ ذا التذكار,\nأمين الليلويا",
-      "English": "Lucifer has become,\nSatan because of pride,\nWhen he ceased to say,\nAmen Alleluia"
+      "English": "Lucifer has become,\nSatan because of pride,\nWhen he ceased to say,\nAmen Alleluia",
+      "ArabicEnglish": "Satana-eel Qad Saar\nShaytan Bel Istikbar\nLama Batal Zal Tez-kar\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -153,7 +171,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "مسكين من يسمعها,\nفى حضرة يجمعها,\nولا يتلو معها,\nأمين الليلويا",
-      "English": "Pitiful is the one who hears it,\nIn the midst of the congregation,\nAnd does not sing with it,\nAmen Alleluia"
+      "English": "Pitiful is the one who hears it,\nIn the midst of the congregation,\nAnd does not sing with it,\nAmen Alleluia",
+      "ArabicEnglish": "Meskeen Man Yasma3ha\nFi 7adra Tagma3ha\nW La Yatlou Ma3ha\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -161,7 +180,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "الليلويا تسبيح,\nوترتيل ومديح,\nبها نصرخ ونصيح,\nأمين الليلويا",
-      "English": "Alleluia is praise,\nHymns and songs,\nWe cry are out saying,\nAmen Alleluia"
+      "English": "Alleluia is praise,\nHymns and songs,\nWe cry are out saying,\nAmen Alleluia",
+      "ArabicEnglish": "Alleluia Tasbee7\nWa Tartil w Madee7\nBiha Nasrokh wa Nasee7\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -169,7 +189,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الليلويا تمجيد,\nلإله عظيم مجيد,\nوهى تذكار عظيم مزيد,\nأمين الليلويا",
-      "English": "Alleluia is glorification,\nFor a mighty Lord,\nIt is a unique and great memorial,\nAmen Alleluia"
+      "English": "Alleluia is glorification,\nFor a mighty Lord,\nIt is a unique and great memorial,\nAmen Alleluia",
+      "ArabicEnglish": "Alleluia Tamgeed\nLe-Elah 3azeem Mageed\nWa Hiya Thezkar 3azeem fareed\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -177,7 +198,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الليلويا تنـزيه,\nوقائلها يكفيه,\nيقول بملء فيه,\nأمين الليلويا",
-      "English": "Alleluia is pleasure,\nAnd it gives satisfaction,\nTo utter two thousand,\nAmen Alleluia"
+      "English": "Alleluia is pleasure,\nAnd it gives satisfaction,\nTo utter two thousand,\nAmen Alleluia",
+      "ArabicEnglish": "Alleluia Tanzeeh\nWa Qa-elha Yakfeeh\nYaqoul Be-Mel2 Fih\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -185,7 +207,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "الليلويا بهجة,\nوهى أحلى لهجة,\nوقائلها ينجى,\nأمين الليلويا",
-      "English": "Alleluia is joy,\nAnd it is a sweet language,\nIt saves from damage,\nAmen Alleluia"
+      "English": "Alleluia is joy,\nAnd it is a sweet language,\nIt saves from damage,\nAmen Alleluia",
+      "ArabicEnglish": "Alleluia Bahga\nWa Heya A7la Lahga\nWa Qaelha Yanga\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -193,7 +216,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "الليلويا تعظيم,\nلإله رؤوف رحيم,\nخفى الألطاف كريم,\nأمين الليلويا",
-      "English": "Alleluia is exaltation,\nFor a merciful God,\nWho is generous for generations,\nAmen Alleluia"
+      "English": "Alleluia is exaltation,\nFor a merciful God,\nWho is generous for generations,\nAmen Alleluia",
+      "ArabicEnglish": "Alleluia Ta3zeem\nLe-Ilah Ra2oof Ra7eem\nKhafal Altaf Kareem\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -201,7 +225,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الليلويا تذكار,\nلإله عظيم ستار,\nيجب له التذكار,\nأمين الليلويا",
-      "English": "Alleluia is a memorial,\nFor the great God of wonders,\nWe praise in great numbers,\nAmen Alleluia"
+      "English": "Alleluia is a memorial,\nFor the great God of wonders,\nWe praise in great numbers,\nAmen Alleluia",
+      "ArabicEnglish": "Alleluia Tezkar\nLe-Elah 3azeem Sattar\nYageb Laho El Tezkar\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -209,7 +234,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الليلويا ترتيل,\nوتسبيح وتهليل,\nوهى أفضل ما قيل,\nأمين الليلويا",
-      "English": "Alleluia is a hymn,\nA praise and rejoicing,\nAnd it is best expressed,\nAmen Alleluia"
+      "English": "Alleluia is a hymn,\nA praise and rejoicing,\nAnd it is best expressed,\nAmen Alleluia",
+      "ArabicEnglish": "Alleluia Tartil\nWa Tasbee7 w Tahleel\nWa Hiya Afdal Ma Qeel\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -217,7 +243,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "سبحانه مُكَوِّنْ ما كان,\nكائن قبل الأكوان,\nما يخلو منه مكان,\nأمين الليلويا",
-      "English": "Blessed is the Creator,\nExistent before the ages,\nFilling all places,\nAmen Alleluia"
+      "English": "Blessed is the Creator,\nExistent before the ages,\nFilling all places,\nAmen Alleluia",
+      "ArabicEnglish": "Sobh7ano Mokawen Ma Kan\nKa2en Qabl El Akwan\nMa Yakhlo Menho Makan\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -225,7 +252,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "سبحانه جَلَّ ثَنَاه,\nخفى لاعين تراه,\nولا معبود سواه,\nأمين الليلويا",
-      "English": "Blessed is the Mighty,\nUnseen and incomprehensible,\nHe is to be adored.\nAmen Alleluia"
+      "English": "Blessed is the Mighty,\nUnseen and incomprehensible,\nHe is to be adored.\nAmen Alleluia",
+      "ArabicEnglish": "Sobh7ano Galla Thanah\nKhafi La 3ayn Tarah\nWa La Ma3bood Sewah\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -233,7 +261,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "سبحانه خلق من الماء,\nناراً وأرضاً صمَّاء,\nوأوجدهما من العدما,\nأمين الليلويا",
-      "English": "He created the waters,\nThe fire and the earth,\nHe made them out of nothing,\nAmen Alleluia"
+      "English": "He created the waters,\nThe fire and the earth,\nHe made them out of nothing,\nAmen Alleluia",
+      "ArabicEnglish": "Sobh7ano Khalaq Men El Ma2\nNaran wa Ardan Samma2\nWa Awgadaha Men El 3adma\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -241,7 +270,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "سبحانه رب غيور,\nرؤوف رحيم غفور,\nعلى كل فعل ستور,\nأمين الليلويا",
-      "English": "Blessed is the zealous Lord,\nMerciful and forgiving,\nAll deeds He is covering,\nAmen Alleluia"
+      "English": "Blessed is the zealous Lord,\nMerciful and forgiving,\nAll deeds He is covering,\nAmen Alleluia",
+      "ArabicEnglish": "Sobh7ano Rab Ghayoor\nRa2oof Rah7eem Ghafoor\n3ala Kol Fe3l Satoor\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -249,7 +279,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "سبحانه مُنْشِئ الأكوان,\nبتدبيره قد كان,\nإذ قال للشيئ كُنْ فكان,\nأمين الليلويا",
-      "English": "God the Creator,\nArranged the world as is,\nHe commanded and it was so,\nAmen Alleluia"
+      "English": "God the Creator,\nArranged the world as is,\nHe commanded and it was so,\nAmen Alleluia",
+      "ArabicEnglish": "Sobh7ano Monshe2 El Akwan\nBe Tadbeeroh Qad Kan\nEs-Qal Le-eshai2 Koon Fakan\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -257,7 +288,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "بالليلويا قد صار,\nتحقيق برّ الأبرار,\nقولوا يا ذا الحضار,\nأمين الليلويا",
-      "English": "Purity for the righteous,\nFulfilled by Alleluia,\nLet us all say together,\nAmen Alleluia"
+      "English": "Purity for the righteous,\nFulfilled by Alleluia,\nLet us all say together,\nAmen Alleluia",
+      "ArabicEnglish": "Be-Alleluia Qad Saar\nTa7qeek Berr El Abrar\nQoulou Ya zal Hodar\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -265,7 +297,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "داود بها تنبأ,\nوبفضلها أنبأ,\nبأقاويل تتلألأ,\nأمين الليلويا",
-      "English": "King David prophesied,\nAnd by it glorified,\nWords which are divinely prepared,\nAmen Alleluia"
+      "English": "King David prophesied,\nAnd by it glorified,\nWords which are divinely prepared,\nAmen Alleluia",
+      "ArabicEnglish": "Dawoud Biha Tanabba2\nWa Be Fadleha Anba2\nBe Aqawil Tatala2la2\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -273,7 +306,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فى شرح كتاب المزمور,\nالمائة واحد وخمسين مزمور,\nوفى آخر كل مزمور,\nأمين الليلويا",
-      "English": "In the Book of the Psalms,\nThe hundred and fifty one psalms,\nAnd at the end of every psalm,\nAmen Alleluia"
+      "English": "In the Book of the Psalms,\nThe hundred and fifty one psalms,\nAnd at the end of every psalm,\nAmen Alleluia",
+      "ArabicEnglish": "Fi Shar7 Kitab El Mazmoor\nEl Mia Wa7ed w Khamsin Mazmoor\nWa Fi Akher Kol Mazmoor\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -281,7 +315,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "تقرأ سائر الأوقات,\nإلى خالق السموات,\nوفى شرح الهوسات,\nأمين الليلويا",
-      "English": "It is prayed at all times,\nTo the Creator of the heavens,\nAnd is explained in the canticles,\nAmen Alleluia"
+      "English": "It is prayed at all times,\nTo the Creator of the heavens,\nAnd is explained in the canticles,\nAmen Alleluia",
+      "ArabicEnglish": "Toqra Sa2er El Awqat\nEla Khaleq El Samawat\nWa Fi Shar7 El Hosat\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -289,7 +324,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "قسمة للقربان,\nهيبيه إفكى نيمان,\nوفيها شرح الإيمان,\nأمين الليلويا",
-      "English": "A fraction for the Korban,\nHippe Evkee Neman,\nIn it the faith is clear,\nAmen Alleluia"
+      "English": "A fraction for the Korban,\nHippe Evkee Neman,\nIn it the faith is clear,\nAmen Alleluia",
+      "ArabicEnglish": "Qesma Lel Qorban\nHepi Efki neman\nWa Fiha Shar7 El Eman\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -297,7 +333,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "مدح داود البار,\nمريم ست الأبكار,\nعلى العشرة أوتار,\nأمين الليلويا",
-      "English": "David the pure proclaimed,\nMary the Virgin Lady,\nOn the ten strings,\nAmen Alleluia"
+      "English": "David the pure proclaimed,\nMary the Virgin Lady,\nOn the ten strings,\nAmen Alleluia",
+      "ArabicEnglish": "Mad7 Dawoud El Barr\nMaryam Sit El Abkar\n3ala El 3asharat Awtar\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -305,7 +342,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "بالأرغن والقيثار,\nوالصنوج مع الأوتار,\nوالدف مع المزمار,\nأمين الليلويا",
-      "English": "By the organ and the harp,\nThe cymbals and the strings,\nThe timbrel and chorus,\nAmen Alleluia"
+      "English": "By the organ and the harp,\nThe cymbals and the strings,\nThe timbrel and chorus,\nAmen Alleluia",
+      "ArabicEnglish": "Bel Arghan Wal Qithar\nWa El Sonogh Ma3 El Awtar\nWa El Dof Ma3 El Mazmar\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -313,7 +351,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "قال يا إبنة ربك,\nإختارك وأحبك,\nإصغى وانسى شعبك,\nأمين الليلويا",
-      "English": "He said \"O daughter of Zion,\nYour Lord loved you and chose you,\nListen and incline your ear\",\nAmen Alleluia"
+      "English": "He said \"O daughter of Zion,\nYour Lord loved you and chose you,\nListen and incline your ear\",\nAmen Alleluia",
+      "ArabicEnglish": "Qal Ya Ibnat Rabbek\nIkhtarek Wa A7abbek\nEsghay Wa Ansi Sha3bek\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -321,7 +360,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وعنها أيضا قال,\nهى جبل الله العال,\nأعلا من كل أمثال,\nأمين الليلويا",
-      "English": "About her he also said,\nShe is the high mountain of God,\nAbove all other types,\nAmen Alleluia"
+      "English": "About her he also said,\nShe is the high mountain of God,\nAbove all other types,\nAmen Alleluia",
+      "ArabicEnglish": "Wa 3anha Aydan Qal\nHiya Gabal Allah El 3al\nA3la Men Kol Amthal\nAmeen Alleluia\n"
     },
     {
       "Type": "Melody",
@@ -329,7 +369,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وسماها صهيون,\nوقال سوف يكون,\nإله سره مكنون,\nأمين الليلويا",
-      "English": "He called her Zion,\nAnd said she is the chosen one,\nFrom whom God will be human,\nAmen Alleluia"
+      "English": "He called her Zion,\nAnd said she is the chosen one,\nFrom whom God will be human,\nAmen Alleluia",
+      "ArabicEnglish": "Wa Samaha Sihyon\nWa Qal Sawfa Yakoon\nElah Sirroh Maknoon\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -337,7 +378,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وسماها بالجمله,\nالملكة المشتملة,\nبالنور والحُلَّة,\nأمين الليلويا",
-      "English": "Again he named her,\nThe Queen who is,\nEmbraced by light,\nAmen Alleluia"
+      "English": "Again he named her,\nThe Queen who is,\nEmbraced by light,\nAmen Alleluia",
+      "ArabicEnglish": "Wa Samaha Bel Gomla\nEl Maleka El Moshtamila\nBel Noor Wal 7olla\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -345,7 +387,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وقال جميع الأمم,\nتصفق بتراتيل وهمم,\nتتلوا تسابيح ونغم,\nأمين الليلويا",
-      "English": "He called all the nations,\nTo clap hands and praise,\nSinging hymns and praises,\nAmen Alleluia"
+      "English": "He called all the nations,\nTo clap hands and praise,\nSinging hymns and praises,\nAmen Alleluia",
+      "ArabicEnglish": "Wa Qal Gamee3 El Omam\nTosafeq Be Taranim Wa Hemam\nTatlou Tasabee7 Wa Nagham\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -353,7 +396,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وقال طوبى للانسان,\nالمتعطف بالإحسان,\nعلى البائس والمهان,\nأمين الليلويا",
-      "English": "He said \"Blessed is the man,\nWho is adorned witlı mercy,\nFor the poor and the downtrodden,\nAmen Alleluia"
+      "English": "He said \"Blessed is the man,\nWho is adorned witlı mercy,\nFor the poor and the downtrodden,\nAmen Alleluia",
+      "ArabicEnglish": "Wa Qal Toba Lel Ensan\nEl Mota3aTef Bel I7san\n3ala El Ba2es Wa El Mohaan\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -361,7 +405,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أن الرب يُنَجِّيه,\nومن الخيرات يعطيه,\nما يكفيه ويعافيه,\nأمين الليلويا",
-      "English": "For God will save him,\nAnd grant him many good things,\nTo satisfy him for many years.\nAmen Alleluia"
+      "English": "For God will save him,\nAnd grant him many good things,\nTo satisfy him for many years.\nAmen Alleluia",
+      "ArabicEnglish": "En El Rab Yonageeh\nWa Men El Khayrat Yo3teeh\nMa Yakfeeh Wa Yo3feeh\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -369,7 +414,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يارب إليك نسأل,\nإحفظ البابا [*POPE*] الأمثل,\nبطريركاً وإعطيه إقبال,\nأمين الليلويا",
-      "English": "Lord we ask of You,\nKeep Pope [*POPE*] the great,\nOur patriarch and grant him wisdom,\nAmen Alleluia"
+      "English": "Lord we ask of You,\nKeep Pope [*POPE*] the great,\nOur patriarch and grant him wisdom,\nAmen Alleluia",
+      "ArabicEnglish": "Ya Rab Elek Nas2al\nE7faz El Baba [*POPE*] El Amthal\nBatriyarkena Wa A3teeh Iqbal\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -377,7 +423,8 @@
       "Visible": "ISDioceseMetropolitainAlways",
       "Side": "South",
       "Arabic": "يارب طَمِّنَّا,\nعلى الساهر عنا,\nأنبا [*DIOCESE_BISHOP*] مطرانا,\nأمين الليلويا",
-      "English": "Also keep in safety,\nThe one who watches over us,\nOur metropolitan Abba [*DIOCESE_BISHOP*] \nAmen Alleluia"
+      "English": "Also keep in safety,\nThe one who watches over us,\nOur metropolitan Abba [*DIOCESE_BISHOP*] \nAmen Alleluia",
+      "ArabicEnglish": "Ya Rab Tamennana\n3ala El Saaher 3anna\nAnba [*DIOCESE_BISHOP*] Motrana\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -385,7 +432,8 @@
       "Visible": "ISDioceseBishopAlways",
       "Side": "South",
       "Arabic": "يارب طَمِّنَّا,\nعلى الساهر عنا,\nأنبا [*DIOCESE_BISHOP*] اسقفنا,\nأمين الليلويا",
-      "English": "Also keep in safety,\nThe one who watches over us,\nOur bishop Abba [*DIOCESE_BISHOP*] \nAmen Alleluia"
+      "English": "Also keep in safety,\nThe one who watches over us,\nOur bishop Abba [*DIOCESE_BISHOP*] \nAmen Alleluia",
+      "ArabicEnglish": "\nYa Rab Tamennana\n3ala El Saaher 3anna\nAnba [*DIOCESE_BISHOP*] Osqofna\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -393,7 +441,8 @@
       "Visible": "IsDiocesePope",
       "Side": "South",
       "Arabic": "يارب طَمِّنَّا,\nعلى الساهرين عنا,\nمطراننا وأساقفتنا\nأمين الليلويا",
-      "English": "Also keep in safety,\nThe ones who watch over us,\nOur metropolitans and bishops \nAmen Alleluia"
+      "English": "Also keep in safety,\nThe ones who watch over us,\nOur metropolitans and bishops \nAmen Alleluia",
+      "ArabicEnglish": "\nYa Rab Tamennana\n3ala El Saaher 3anna\nMataretna we asaqfetna\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -401,7 +450,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "واحفظ يارب الأرباب,\nسائر كل الأحباب,\nالحُضَّار والغِياب,\nأمين الليلويا",
-      "English": "And keep O Lord of lords,\nAll the beloved ones,\nWho are present and absent,\nAmen Alleluia"
+      "English": "And keep O Lord of lords,\nAll the beloved ones,\nWho are present and absent,\nAmen Alleluia",
+      "ArabicEnglish": "\nWa E7faz Ya Rab El Arabab\nSa2er Kol El A7bab\nEl 7odar Wa El Ghayab\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -409,7 +459,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وإحفظ قاريها,\nوالشارح لمعانيها,\nوالعامل بما فيها,\nأمين الليلويا",
-      "English": "And also protect the reader,\nWho explained it to the assembly,\nAnd living it in abundance,\nAmen Alleluia"
+      "English": "And also protect the reader,\nWho explained it to the assembly,\nAnd living it in abundance,\nAmen Alleluia",
+      "ArabicEnglish": "Wa I7faz Qareeha\nWa El Share7 Le Ma3aniha\nWa El 3amel Bema Feeha\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -417,7 +468,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وناظمها إغفر له,\nخطاياه مع زلـله,\nوبرحمتك أنعم له,\nأمين الليلويا",
-      "English": "Forgive the composer,\nHis sins and iniquities,\nGrant him Your mercy,\nAmen Alleluia"
+      "English": "Forgive the composer,\nHis sins and iniquities,\nGrant him Your mercy,\nAmen Alleluia",
+      "ArabicEnglish": "Wa Nazemha Eghfer Lo\nKhatay Ma3 Zelalo\nWa Be Ra7matak en3em Lo\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -425,7 +477,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يوحنا من سمنود,\nمُسَمَّى وبها مولود,\nيارب تحنن عليه وجد,\nأمين الليلويا",
-      "English": "John from Samanoud,\nWhere he was born,\nO Lord have mercy upon him,\nAmen Alleluia"
+      "English": "John from Samanoud,\nWhere he was born,\nO Lord have mercy upon him,\nAmen Alleluia",
+      "ArabicEnglish": "Youhanna Men Samannoud\nMosamma Wa Biha Mawlood\nYa Rab Ta7annan 3aleh Wa good\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -433,7 +486,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يقرأ مثل فاض قلبى,\nقولاً حسناً مجلى,\nيتحقق بمراد ربى,\nأمين الليلويا",
-      "English": "His heart was full of,\nGood sayings which will be fulfilled,\nAccording to my Lord's will,\nAmen Alleluia"
+      "English": "His heart was full of,\nGood sayings which will be fulfilled,\nAccording to my Lord's will,\nAmen Alleluia",
+      "ArabicEnglish": "Yaqra Methl Faad Qalbi\nQawlan 7asanan Mijla\nYata7aqaq Be Marad Rabbi\nAmeen Alleluia"
     },
     {
       "Type": "Melody",
@@ -441,7 +495,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "لسانى تاق يتكلم,\nبكلام ماهر مفهم,\nبمراد من هو يعلم,\nأمين الليلويا",
-      "English": "His tongue speaks,\nPerfect words understood,\nAccording to the Lord's will,\nAmen Alleluia"
+      "English": "His tongue speaks,\nPerfect words understood,\nAccording to the Lord's will,\nAmen Alleluia",
+      "ArabicEnglish": "Lesani Taq Yatakallam\nBekalam Maher Mofhem\nBe Marad Men Howa Ya3lam\nAmeen Alleluia"
     }
   ]
 }

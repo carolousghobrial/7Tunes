@@ -10,6 +10,7 @@ import {
   StyleSheet,
   Text,
   Pressable,
+  View,
   useWindowDimensions,
   FlatList,
 } from "react-native";
@@ -52,11 +53,7 @@ const SingleHymnAsView = memo(
     const [IsOnlyOneViewShown, setIsOnlyOneViewShown] = useState(false);
     const [IsTopNotBeginning, setIsTopNotBeginning] = useState(false);
 
-    const data = useMemo(
-      () => getMain(path, motherSource, false, rule, 0)[0],
-      [path, motherSource, rule]
-    );
-
+    const data = getMain(path, motherSource, false, rule, 0)[0];
     const renderItems = ({ item }) => {
       let content = null;
       switch (item.part.Type) {
@@ -139,24 +136,17 @@ const SingleHymnAsView = memo(
     );
 
     return (
-      <GestureHandlerRootView style={{ flex: 1 }}>
-        <BottomSheetModalProvider>
-          <SettingsModal
-            bottomSheetRef={bottomSheetRef}
-            snapPoints={snapPoints}
-          />
-
-          <FlatList
-            ref={flatListRef}
-            style={{ backgroundColor: pageBackgroundColor }}
-            showsVerticalScrollIndicator={false}
-            data={data}
-            removeClippedSubviews={true}
-            renderItem={renderItems}
-            keyExtractor={(item) => item.key}
-          />
-        </BottomSheetModalProvider>
-      </GestureHandlerRootView>
+      <View>
+        <FlatList
+          ref={flatListRef}
+          style={{ backgroundColor: pageBackgroundColor }}
+          showsVerticalScrollIndicator={false}
+          data={data}
+          removeClippedSubviews={true}
+          renderItem={renderItems}
+          keyExtractor={(item) => item.key}
+        />
+      </View>
     );
   }
 );

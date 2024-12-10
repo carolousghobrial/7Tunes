@@ -13,6 +13,9 @@ function VisibleLangs() {
   const arabic = useSelector((state) => state.settings.arabic);
   const copticenglish = useSelector((state) => state.settings.copticenglish);
   const copticarabic = useSelector((state) => state.settings.copticarabic);
+  const arabicengishMelodies = useSelector(
+    (state) => state.settings.arabicengishMelodies
+  );
   const dispatch = useDispatch();
   const tempLang = [
     {
@@ -39,6 +42,11 @@ function VisibleLangs() {
       titleKey: "copticarabic",
       descriptionKey: "copticarabicdescription",
       isEnabled: copticarabic,
+    },
+    {
+      titleKey: "arabicengishMelodies",
+      descriptionKey: "arabicengishMelodiesdescription",
+      isEnabled: arabicengishMelodies,
     },
   ];
   const [langArray, setLangArray] = useState(tempLang);

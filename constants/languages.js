@@ -13,7 +13,10 @@ const Languages = {
     books: "Books",
     contents: "Contents",
     coptic: "Coptic",
+    arabicengishMelodies: "Arabic-English (Melodies)",
     copticarabic: "Coptic-Arabic",
+    arabicengishMelodiesdescription:
+      "Display the Arabic words within the melodies in English",
     copticarabicdescription: "Display the Coptic words in the Arabic Language",
     copticdescription: "Display the Coptic words in the Coptic Language",
     copticenglish: "Coptic-English",
@@ -217,7 +220,10 @@ const Languages = {
     books: "الكتب",
     contents: "المحتويات",
     coptic: "قبطي",
+    arabicengishMelodiesdescriptionarabic: "عربي فرنكو",
     copticarabic: "قبطي معرب",
+    arabicengishMelodiesdescriptiondescription:
+      "عرض الكلمات العربية باللغة الإنجليزية",
     copticarabicdescription: "عرض الكلمات القبطية باللغة العربية",
     copticdescription: "عرض الكلمات القبطية باللغة القبطية",
     copticenglish: "قبطي إنجليزي",

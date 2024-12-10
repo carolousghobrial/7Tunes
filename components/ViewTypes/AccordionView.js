@@ -25,17 +25,6 @@ function AccordionView({
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const labelColor = getColor("LabelColor");
 
-  //   useEffect(() => {
-  //     if (expanded && flatListRef.current) {
-  //       const index = expanded.findIndex((item) => item === true);
-  //       if (index != -1) {
-  //         flatListRef.current.scrollToIndex({
-  //           index: index,
-  //           animated: true,
-  //         });
-  //       }
-  //     }
-  //   }, [expanded]);
   const getColorBySide = (side) => getColor(`${side}Color`);
 
   const getTextColor = (item) => {
