@@ -14,7 +14,7 @@ import images from "../../helpers/imageHelpers";
 function BookView({ item, onClick, onLongPress }) {
   const { width, height } = useWindowDimensions();
   const isTablet = useSelector((state) => state.settings.isTablet);
-  const fontSize = isTablet ? 30 : 20;
+  const fontSize = isTablet ? 30 : 15;
   let imageSize = 300;
   if (width > height) {
     // Landscape mode
@@ -141,7 +141,6 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "black",
-    fontWeight: "bold",
     textAlign: "center",
   },
 });

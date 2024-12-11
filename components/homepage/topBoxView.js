@@ -100,7 +100,6 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 10,
     color: "black",
-    fontWeight: "bold",
     textAlign: "center",
   },
 });
