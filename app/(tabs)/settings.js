@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import {
   ScrollView,
   View,
@@ -42,6 +42,7 @@ function SettingsScreen() {
   const navigation = useNavigation();
   const router = useRouter();
   const pageBackgroundColor = getColor("pageBackgroundColor");
+  const [hasUpdate, setHasUpdate] = useState(false);
 
   // Memoized colors to avoid re-calculations on each render
   const navBarColor = getColor("NavigationBarColor");
@@ -49,6 +50,16 @@ function SettingsScreen() {
     navigation.setOptions({
       presentation: "modal",
     });
+    async function checkForUpdates() {
+      try {
+        const update = await Updates.checkForUpdateAsync();
+        setHasUpdate(update.isAvailable); // Set state to true if an update is available
+      } catch (error) {
+        console.error("Error checking for updates:", error);
+      }
+    }
+
+    checkForUpdates();
   }, [navigation]);
   // Share link
   const onShare = async () => {
@@ -124,7 +135,7 @@ function SettingsScreen() {
   };
   const buttons = [
     { label: "restore", action: restorePurchase, onLongPress: grantEverything },
-    { label: "update", action: onUpdates },
+    // { label: "update", action: onUpdates },
     { label: "share", action: onShare },
     {
       label: "facebook",
@@ -145,6 +156,18 @@ function SettingsScreen() {
         style={styles.backgroundImage}
       >
         <ScrollView contentContainerStyle={styles.scrollViewContent}>
+          {hasUpdate && (
+            <View>
+              <CustomButton
+                onPress={onUpdates}
+                label={getLanguageValue("update")}
+                fontSize={fontSize}
+              />
+              <View style={styles.badge}>
+                <Text style={styles.badgeText}>1</Text>
+              </View>
+            </View>
+          )}
           <ApplicationLanguage />
           <AppTheme />
           <TodaysPrayer />
@@ -181,6 +204,22 @@ function SettingsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  badge: {
+    position: "absolute",
+    right: 10,
+    top: 10,
+    backgroundColor: "red",
+    borderRadius: 8,
+    width: 16,
+    height: 16,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  badgeText: {
+    color: "white",
+    fontSize: 10,
+    fontWeight: "bold",
   },
   backgroundImage: {
     flex: 1,

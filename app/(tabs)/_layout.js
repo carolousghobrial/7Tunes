@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Platform } from "react-native";
+import { StyleSheet, View, Text, Platform } from "react-native";
 import { Tabs } from "expo-router";
 import { useSelector } from "react-redux";
 import Ionicons from "@expo/vector-icons/Ionicons";
@@ -8,10 +8,26 @@ import Colors from "../../constants/colors";
 import TopBoxView from "../../components/homepage/topBoxView";
 import { getLanguageValue } from "../../helpers/SettingsHelpers";
 import Purchases from "react-native-purchases";
+import * as Updates from "expo-updates";
+import { useState, useCallback, useEffect } from "react";
+
 const TabsLayout = () => {
   const darkMode = useSelector((state) => state.settings.darkMode);
   const activeColors = darkMode ? Colors["dark"] : Colors["light"];
 
+  const [hasUpdate, setHasUpdate] = useState(false);
+  useEffect(() => {
+    async function checkForUpdates() {
+      try {
+        const update = await Updates.checkForUpdateAsync();
+        setHasUpdate(update.isAvailable); // Set state to true if an update is available
+      } catch (error) {
+        console.error("Error checking for updates:", error);
+      }
+    }
+
+    checkForUpdates();
+  }, []); // Run once when the component mounts
   return (
     <Tabs
       screenOptions={{
@@ -55,7 +71,14 @@ const TabsLayout = () => {
         options={{
           title: "Settings",
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="settings" color={color} size={size} />
+            <View>
+              <Ionicons name="settings" color={color} size={size} />
+              {hasUpdate && (
+                <View style={styles.badge}>
+                  <Text style={styles.badgeText}>1</Text>
+                </View>
+              )}
+            </View>
           ),
         }}
       />
@@ -95,6 +118,22 @@ const TabsLayout = () => {
 };
 
 const styles = StyleSheet.create({
+  badge: {
+    position: "absolute",
+    right: -6,
+    top: -3,
+    backgroundColor: "red",
+    borderRadius: 8,
+    width: 16,
+    height: 16,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  badgeText: {
+    color: "white",
+    fontSize: 10,
+    fontWeight: "bold",
+  },
   tabBar: {
     height: 70,
     borderWidth: 1,

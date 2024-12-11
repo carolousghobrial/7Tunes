@@ -13,7 +13,6 @@ import BookView from "../../components/homepage/bookView.js";
 import homescreenPaths from "../../helpers/homescreenPaths.js";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors";
-import * as Updates from "expo-updates";
 import { useState, useCallback, useEffect } from "react";
 import { setSeason } from "../../stores/redux/settings.js";
 import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
@@ -180,34 +179,9 @@ function App() {
       setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
     );
   }
-  const onFetchUpdateAsync = async () => {
-    try {
-      const update = await Updates.checkForUpdateAsync();
-      if (update.isAvailable) {
-        Alert.alert("New Update!", [
-          {
-            text: "Restart the App",
-            onPress: () => onUpdates(),
-          },
-        ]);
-      }
-    } catch (error) {
-      // Ensure the error is converted to a string and provide a title for the alert.
-      Alert.alert("Error", error.message || "An unexpected error occurred.");
-    }
-  };
 
-  const onUpdates = async () => {
-    try {
-      await Updates.fetchUpdateAsync();
-      await Updates.reloadAsync();
-    } catch (e) {
-      alert(JSON.stringify(e));
-    }
-  };
   useEffect(() => {
     setLive();
-    onFetchUpdateAsync();
   }, []);
   return (
     <ImageBackground
