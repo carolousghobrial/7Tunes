@@ -134,12 +134,16 @@ function SettingsScreen() {
     );
   };
   const buttons = [
-    { label: "restore", action: restorePurchase, onLongPress: grantEverything },
+    { label: "restore", action: restorePurchase },
     // { label: "update", action: onUpdates },
-    { label: "share", action: onShare },
+    { label: "share", action: onShare, onLongPress: grantEverything },
     {
       label: "facebook",
       action: () => Linking.openURL("fb://page/101887968498785"),
+    },
+    {
+      label: "commentsOrQuestions",
+      action: () => Linking.openURL("https://forms.gle/kY4ZqxVcVrKSVhmq5"),
     },
     {
       label: "instagram",

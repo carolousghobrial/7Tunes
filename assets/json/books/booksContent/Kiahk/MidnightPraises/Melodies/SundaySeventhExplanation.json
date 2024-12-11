@@ -9,7 +9,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "دُعيتِ أم الله,\nيا إبنة يواقيم,\nوصرتِ كأعلى سماء,\nوفقتِ الكاروبيم",
-      "English": "O Theotokos,\nBorn of Joachim,\nHigher than heaven,\nAnd the Cherubim"
+      "English": "O Theotokos,\nBorn of Joachim,\nHigher than heaven,\nAnd the Cherubim",
+      "ArabicEnglish": "Do3eeti Om Allah  \nYa ebnat Yowakeem  \nW serti ka a3la sama2  \nW foqti el-Karobim  \n"
     },
     {
       "Type": "Melody",
@@ -17,7 +18,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ظهر منكِ ينبوع الحياة,\nوأبرأ كل سقيم,\nو ردَّ الخروف الضال,\nوهدم فخ الأركون",
-      "English": "The Fountain of Life,\nOur sickness he healed,\nHe returned the lost,\nHis mercy revealed"
+      "English": "The Fountain of Life,\nOur sickness he healed,\nHe returned the lost,\nHis mercy revealed",
+      "ArabicEnglish": "Zahar mennek yanboo3 el-7ayah  \nW abra2 kol saqeem  \nW radd el-kharouf el-dal  \nW hadam fakh el-arkon  \n"
     },
     {
       "Type": "Melody",
@@ -25,7 +27,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يا قبة موسى,\nيا مملؤة أنوار,\nيا تابوت العهد,\nوفيه كل الأسرار",
-      "English": "You are Moses' Dome,\nThat is filled with light,\nArk of Covenant,\nMysteries of His might"
+      "English": "You are Moses' Dome,\nThat is filled with light,\nArk of Covenant,\nMysteries of His might",
+      "ArabicEnglish": "Ya Qobat Mousa  \nYa mamlo2a anwar  \nYa Tabout el-3ahd  \nW feeh kol el-asrar  \n"
     },
     {
       "Type": "Melody",
@@ -33,7 +36,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يا زهرة الطيب,\nبخورك ملأ الأقطار,\nيا كنز الجوهر,\nيا عصاة هارون",
-      "English": "Flower of incense,\nO precious treasure,\nYou are Aaron's rod,\nAnd our pleasure"
+      "English": "Flower of incense,\nO precious treasure,\nYou are Aaron's rod,\nAnd our pleasure",
+      "ArabicEnglish": "Ya zahrat el-teeb  \nBokhorik mala2 el-aqtar  \nYa kanz el-gawhar  \nYa 3asat Haroun  \n"
     },
     {
       "Type": "Melody",
@@ -41,7 +45,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا قسط ذهب غالى,\nوالمن المخفى فيه,\nيا هيكل طاهر,\nأحبه الله وسكن فيه",
-      "English": "O golden vessel,\nO sanctuary,\nGod has dwelt in you,\nFor you are holy"
+      "English": "O golden vessel,\nO sanctuary,\nGod has dwelt in you,\nFor you are holy",
+      "ArabicEnglish": "Ya Qest Dahab ghaly  \nW el-mann el-mokhfa feeh  \nYa haykal taher  \nA7abbo Allah wa sakan feeh  \n"
     },
     {
       "Type": "Melody",
@@ -49,7 +54,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ومن يؤمن بإسمه,\nبعد الموت يُحْيِّيه,\nيا مذبح طاهر,\nحامل السر المكنون",
-      "English": "Believe on the Lord,\nAnd you shall have life,\nDo not lose your hope,\nEndure in your strife"
+      "English": "Believe on the Lord,\nAnd you shall have life,\nDo not lose your hope,\nEndure in your strife",
+      "ArabicEnglish": "W men yo2men besmeh  \nBa3d el-mot yo7yieh  \nYa mazba7 taher  \n7amel el-ser el-maknoon  \n"
     },
     {
       "Type": "Melody",
@@ -57,7 +63,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "السلام لكِ يا مريم,\nيا ست العذارى,\nسموكِ الآباء,\nكَنْزاً ومنارة",
-      "English": "Hail to you Mary,\nMost favored are you,\nThe golden lampstand,\nThe Fathers called you"
+      "English": "Hail to you Mary,\nMost favored are you,\nThe golden lampstand,\nThe Fathers called you",
+      "ArabicEnglish": "El-salamo laki ya Mariam  \nYa set el-3azara  \nSamook el-aba2  \nKanzan wa manara  \n"
     },
     {
       "Type": "Melody",
@@ -65,7 +72,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وكم ضربوا عنكِ,\nرموزاً وإشارة,\nيابخور العنبر,\nفى شورية هارون",
-      "English": "With many symbols,\nAs Aaron's censer,\nFathers spoke of you,\nBearing the Ember"
+      "English": "With many symbols,\nAs Aaron's censer,\nFathers spoke of you,\nBearing the Ember",
+      "ArabicEnglish": "W kam darabo 3annik  \nRamozan wa eshara  \nYa bokhor el-3anbar  \nFe shoryet Haroun  \n"
     },
     {
       "Type": "Melody",
@@ -73,7 +81,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "ياهيكل وحجاب,\nمسكن للثالوث,\nياكرسى الله الآب,\nرب الصباؤوت",
-      "English": "O the Throne of God,\nO sanctuary,\nYou are a dwelling,\nFor the Trinity"
+      "English": "O the Throne of God,\nO sanctuary,\nYou are a dwelling,\nFor the Trinity",
+      "ArabicEnglish": "Ya haykal wa 7egab  \nMaskan lel-Thalouth  \nYa korsi Allah el-ab  \nRab el-Sabaout  \n"
     },
     {
       "Type": "Melody",
@@ -81,7 +90,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "بكِ يا مريم,\nفزنا بنعيم الملكوت,\nطوباكِ يامريم,\nإت سونى إنتيه سولومون",
-      "English": "Through you O Mary,\nParadise we gained,\nSolomon's sister,\nBy her we attained"
+      "English": "Through you O Mary,\nParadise we gained,\nSolomon's sister,\nBy her we attained",
+      "ArabicEnglish": "Beki ya Mariam  \nFozna bna3eem el-malkout  \nTobaki ya Mariam  \nEt-Sony ente Solomon  \n"
     },
     {
       "Type": "Melody",
@@ -89,7 +99,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "لا تنسِ عبدك,\nلأنى خاطئ ومسكين,\nوأرجو شفاعتك,\nفى الموقف يوم الدين",
-      "English": "Do not forget us,\nWe entreat and pray,\nThe poor and needy,\nOn the Judgement Day"
+      "English": "Do not forget us,\nWe entreat and pray,\nThe poor and needy,\nOn the Judgement Day",
+      "ArabicEnglish": "La tansi 3abdek  \nLe2any khatee wa meskeen  \nWa argo shafa3tek  \nFe el-mawqef yom el-deen  \n"
     },
     {
       "Type": "Melody",
@@ -97,7 +108,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "عند يسوع إبنك,\nكونى لى عوناً ومعين,\nلكى يغفر لى ذنبى,\nومن قد سلفون",
-      "English": "Be our helper,\nBefore Christ your Son,\nThat He may save us,\nFrom the evil one"
+      "English": "Be our helper,\nBefore Christ your Son,\nThat He may save us,\nFrom the evil one",
+      "ArabicEnglish": "3end Yasou3 ebnek  \nKoni li 3awnan wa mo3een  \nLekai yaghfer li zambi  \nWa man qad salafon  \n"
     },
     {
       "Type": "Melody",
@@ -105,7 +117,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يوحنا عبدك,\nحقير ذليل ومهين,\nوبلدى بالفيوم,\nوقرية تدعى فيديمين",
-      "English": "John your servant,\nDespicable and humble,\nAnd my country in Fayoum,\nA village called Vedimen"
+      "English": "John your servant,\nDespicable and humble,\nAnd my country in Fayoum,\nA village called Vedimen",
+      "ArabicEnglish": "Yo7anna 3abdek  \n7aqeer zaleel wa moheen  \nWa balady bel-Fayoum  \nWa qaryah tod3a Fedemeen  \n"
     },
     {
       "Type": "Melody",
@@ -113,7 +126,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وأرجو الخلاص منكِ,\nكونى لى حصناً وحصين,\nلكى الرب يجمعنا,\nمع كافه القديسين",
-      "English": "I seek salvation from your Son,\nBe a fortress unto me,\nSo the Lord may unite us,\nWith all the saints"
+      "English": "I seek salvation from your Son,\nBe a fortress unto me,\nSo the Lord may unite us,\nWith all the saints",
+      "ArabicEnglish": "Wa argo el-khalas mennek  \nKoni li 7esnan wa 7aseen  \nLekai el-Rab yagma3na  \nMa3 kafat el-qediseen  \n"
     },
     {
       "Type": "Melody",
@@ -121,7 +135,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "السلام لك يا مريم\nيا مملؤة نعمة\nيا مشتملة بالأنوار \nيا أم الرحمة\nإشفعى فينا \nفى يوم الزحمة \nبك نلنا كل خلاص\nيـا إبنة صهيون",
-      "English": "Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Dav\n  Your Son has saved us\n  Daughter of Zion"
+      "English": "Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Dav\n  Your Son has saved us\n  Daughter of Zion",
+      "ArabicEnglish": "El Salamo laki ya Mariam \n ya mamlo2a ne3ma \n ya moshtamla bel anwar \n ya om elra7ma  \nEshfa3i fina \n fi yom elza7ma \n bek nolna kol kholas \n ya ebnat Sihyon  \n"
     }
   ]
 }

@@ -9,7 +9,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أبدأ بإسم الله,\nالساكن فى النور,\nالذى كلـَّم موسى,\nمن فوق جبل الطور",
-      "English": "In the Name of God,\nHe who dwells in light,\nSpoke to Moses on,\nMount Sinai with might"
+      "English": "In the Name of God,\nHe who dwells in light,\nSpoke to Moses on,\nMount Sinai with might",
+      "ArabicEnglish": "Abda2 b esm Allah  \nElsaken fel nour  \nalazy kallam Mousa  \nMen fouq gabal eltour  \n"
     },
     {
       "Type": "Melody",
@@ -17,7 +18,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "قائلاً ياموسى,\nإنهض فرحاً مسرور,\nلأعلمك بما كان,\nكما عنه تنبأون",
-      "English": "Saying: O Moses,\nArise with no doubt,\nSee a place which is,\nProphesied about"
+      "English": "Saying: O Moses,\nArise with no doubt,\nSee a place which is,\nProphesied about",
+      "ArabicEnglish": "qa2elan ya Mousa  \nEnhad fare7an masrour  \nLe-o3llemak bema kan  \nKama 3anho tanaba2oon  \n"
     },
     {
       "Type": "Melody",
@@ -25,7 +27,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "إنهض يا موسى,\nوأصعد إلى أعلى الجبال,\nوأبنى هناك قبة,\nتكون لك شبه مظال",
-      "English": "Arise O Moses,\nAnd go build a dome,\nLike a tabernacle,\nIt shall be My home"
+      "English": "Arise O Moses,\nAnd go build a dome,\nLike a tabernacle,\nIt shall be My home",
+      "ArabicEnglish": "Enhad ya Mousa  \nW as3ad ela a3la elgibal  \nW ebny honak qobba  \nTakon lak shebah mazal  \n"
     },
     {
       "Type": "Melody",
@@ -33,7 +36,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وجميع ما قلته لك,\nأكتبه فى الحال,\nهذه هى شهادة,\nللإسرائيليون",
-      "English": "Everything I say,\nGo write down promptly,\nFor all Israel,\nAs a testimony"
+      "English": "Everything I say,\nGo write down promptly,\nFor all Israel,\nAs a testimony",
+      "ArabicEnglish": "W gami3 ma qoltoho lak  \nOktobho fel 7al  \nHazy heya shehada  \nLel Israelioon  \n"
     },
     {
       "Type": "Melody",
@@ -41,7 +45,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أسرع يا موسى,\nوأنظر هذا المكان,\nوإبنى فيه قُـبَّة,\nبالحجر الصوَّان",
-      "English": "Quickly O Moses,\nGo and build a dome,\nAs I did describe,\nHewn of granite stone"
+      "English": "Quickly O Moses,\nGo and build a dome,\nAs I did describe,\nHewn of granite stone",
+      "ArabicEnglish": "Esre3 ya Mousa  \nW onzor haza el makan  \nW ebny feeh qobba  \nBel7agar el sawan  \n"
     },
     {
       "Type": "Melody",
@@ -49,7 +54,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وعَلِّىِ شوارعها,\nولها أربعة أركان,\nوإجمع ما يحتاج,\nإليه البناؤون",
-      "English": "Elevate its height,\nGive it four corners,\nGather what you need,\nFor all the builders"
+      "English": "Elevate its height,\nGive it four corners,\nGather what you need,\nFor all the builders",
+      "ArabicEnglish": "W 3aly shaware3ha  \nWa3mel laha arba3 arkan  \nW agma3 ma ya7tag  \nElayhe elban2oon  \n"
     },
     {
       "Type": "Melody",
@@ -57,7 +63,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وإعمل خارج القبة,\nفسحة كالدهليز,\nوإطليها يا موسى,\nبالذهب الأبريز",
-      "English": "And make the dome wide,\nFor all to behold,\nWide hallways inside,\nOverlaid with gold"
+      "English": "And make the dome wide,\nFor all to behold,\nWide hallways inside,\nOverlaid with gold",
+      "ArabicEnglish": "W e3mel khareg el2obba  \nFosha kal dehliz  \nW etleha ya Mousa  \nBelzahab el abreiz  \n"
     },
     {
       "Type": "Melody",
@@ -65,7 +72,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "داخل مع خارج,\nكرامة للتكريز,\nمن أعلى إلى أسفل,\nبالذهب الموزون",
-      "English": "For consecration,\nWithin and without,\nFrom top to bottom,\nWith gold roundabout"
+      "English": "For consecration,\nWithin and without,\nFrom top to bottom,\nWith gold roundabout",
+      "ArabicEnglish": "Dakhel ma3 khareg  \nKarama lel takreez  \nMen a3la ela asfal  \nBelzahab el mawzoon  \n"
     },
     {
       "Type": "Melody",
@@ -73,7 +81,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "واعمل داخل القبة,\nمذبحاً للقربان,\nوإعمل حول المذبح,\nأربعة عمدان",
-      "English": "And inside the dome,\nA showbread altar,\nAnd surrounding it,\nPillars on corners"
+      "English": "And inside the dome,\nA showbread altar,\nAnd surrounding it,\nPillars on corners",
+      "ArabicEnglish": "W e3mel dakhel el-qobba  \nMazba7an lel korban  \nW e3mel 7awl elmazba7  \nArba3at 3emdan  \n"
     },
     {
       "Type": "Melody",
@@ -81,7 +90,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وإجعل من فوقهما,\nمن الذهب كاروبيمان,\nبأجنحة مفروشة,\nإيجين بى لاستيريون",
-      "English": "Upon the altar,\nCherubim of gold,\nThat cover with wings,\nWondrous to behold"
+      "English": "Upon the altar,\nCherubim of gold,\nThat cover with wings,\nWondrous to behold",
+      "ArabicEnglish": "W eg3al men faw-qehma  \nMen alzahab karoubiman  \nBe-2agn7a mafrosha  \nEijen pi-elastirion  \n"
     },
     {
       "Type": "Melody",
@@ -89,7 +99,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وإجعل فيها,\nتابوت العهد مطلى,\nوفيه القسط ذهب,\nبالمن المخفى",
-      "English": "Ark of covenant,\nTriside the altar,\nWith golden vessel,\nThe manna hidden"
+      "English": "Ark of covenant,\nTriside the altar,\nWith golden vessel,\nThe manna hidden",
+      "ArabicEnglish": "Wa eg3al feeha  \nTabout el3ahd matly  \nW feeh el qeste zahab  \nBel-man elmakhfa  \n"
     },
     {
       "Type": "Melody",
@@ -97,7 +108,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وفيه شورية هارون,\nمن الذهب المُصفَّى,\nوفيه لوحى العهد,\nمع عصاة هارون",
-      "English": "In it Aaron's rod,\nThe golden censer,\nWith the two tablets,\nOf the covenant"
+      "English": "In it Aaron's rod,\nThe golden censer,\nWith the two tablets,\nOf the covenant",
+      "ArabicEnglish": "W feeh shoryet Haroun  \nMen elzahab el mosafa  \nW feeh law7ay el3ahd  \nMa3 3asat Haroun  \n"
     },
     {
       "Type": "Melody",
@@ -105,7 +117,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وفيه المنارة,\nمن الذهب المختار,\nوفيه المائدة ذهب,\nتُشعل كجمر النار",
-      "English": "The golden lampstand,\nIn the tabernacle,\nIs the fine vessel,\nBurning with embers"
+      "English": "The golden lampstand,\nIn the tabernacle,\nIs the fine vessel,\nBurning with embers",
+      "ArabicEnglish": "W feeh elmanara  \nMen elzahab elmokhtar  \nW feeh elma2eda zahab  \nTosha3al kagamr elnar  \n"
     },
     {
       "Type": "Melody",
@@ -113,7 +126,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "و زيِّنها يا موسى,\nبسائر كل أنوار,\nوإجعل فيها أيضاً,\nأربعة سُرُج يُنِيرُون",
-      "English": "Decorate it with,\nVarious kinds of light,\nThe Four candles,\nWhich are burning bright"
+      "English": "Decorate it with,\nVarious kinds of light,\nThe Four candles,\nWhich are burning bright",
+      "ArabicEnglish": "W zayenha ya Mousa  \nBesa2er kol anwar  \nW eg3al feeha aydan  \nArba3 sorog yoniroon  \n"
     },
     {
       "Type": "Melody",
@@ -121,7 +135,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "السلام لك يا مريم\nيا مملؤة نعمة\nيا مشتملة بالأنوار \nيا أم الرحمة\nإشفعى فينا \nفى يوم الزحمة \nبك نلنا كل خلاص\nيـا إبنة صهيون",
-      "English": "Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Dav\n  Your Son has saved us\n  Daughter of Zion"
+      "English": "Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Dav\n  Your Son has saved us\n  Daughter of Zion",
+      "ArabicEnglish": "El Salamo laki ya Mariam \n ya mamlo2a ne3ma \n ya moshtamla bel anwar \n ya om elra7ma  \nEshfa3i fina \n fi yom elza7ma \n bek nolna kol kholas \n ya ebnat Sihyon  \n"
     }
   ]
 }

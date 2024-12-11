@@ -10,7 +10,7 @@
       "Side": "North",
       "Arabic": "أمدح عذراء وبتول,\nبمعونتها أتكلم,\nوأصيح بأعلى صوتى وأقول,\nالسلام لك يا مريم",
       "English": "I praise the Virgin,\nMary our Lady,\nGod help me to begin,\nHail to you O Mary",
-      "ArabicEnglish": "\nAmdah 3azra2 w Batool\nBema3oontaha Atakallam\nWa Asee7 Be A3la Soti Wa Aqool\nEl Salamo Laki Ya Mariam"
+      "ArabicEnglish": "Amdah 3azra2 w Batool\nBema3oontaha Atakallam\nWa Asee7 Be A3la Soti Wa Aqool\nEl Salamo Laki Ya Mariam"
     },
     {
       "Type": "Melody",
@@ -244,7 +244,7 @@
       "Side": "South",
       "Arabic": "لاتنسى بطركنا,\nوإمنحيه وافر النِعَمْ,\nو شريكه انبا [*DIOCESE_BISHOP*],\nالسلام لك يا مريم",
       "English": "Lord bless Pope [*POPE*]\nBless him abundantly,\nAnd his partner Abba [*DIOCESE_BISHOP*] \nHail to you o Mary",
-      "ArabicEnglish": "\nLa Tansa Batrakna\nWa Amn7eeh Wafer El Ne3am\nWa Shareeko Anba [*DIOCESE_BISHOP*]\nEl Salamo Laki Ya Mariam"
+      "ArabicEnglish": "La Tansa Batrakna\nWa Amn7eeh Wafer El Ne3am\nWa Shareeko Anba [*DIOCESE_BISHOP*]\nEl Salamo Laki Ya Mariam"
     },
     {
       "Type": "Melody",
@@ -262,7 +262,7 @@
       "Side": "South",
       "Arabic": "لاتنسى بطركنا,\nوإمنحيه وافر النِعَمْ,\nوشركائه أساقفتنا,\nالسلام لك يا مريم",
       "English": "Lord bless Pope [*POPE*],\nBless him abundantly,\nAnd his partners the Bishops,\nHail to you o Mary",
-      "ArabicEnglish": "\nLa Tansa Batrakna\nWa Amn7eeh Wafer El Ne3am\nWa Shoraka2oh Asaqeftna\nEl Salamo Laki Ya Mariam"
+      "ArabicEnglish": "La Tansa Batrakna\nWa Amn7eeh Wafer El Ne3am\nWa Shoraka2oh Asaqeftna\nEl Salamo Laki Ya Mariam"
     },
     {
       "Type": "Melody",

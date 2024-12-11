@@ -9,7 +9,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يامريم صرتِ,\nمذبح للغفران,\nوعليه المائدة ذهب,\nوفيه الجسد قربان",
-      "English": "Mary you became,\nTable of showbread,\nUpon your altar,\nChrist's Body instend"
+      "English": "Mary you became,\nTable of showbread,\nUpon your altar,\nChrist's Body instend",
+      "ArabicEnglish": "Ya Mariam serti  \nMazba7 lel-ghofran  \nW 3aleh el-ma2eda zahab  \nW feeh el-gasad qurban  \n"
     },
     {
       "Type": "Melody",
@@ -17,7 +18,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "هو إبن الله الحى,\nالمعطى الغفران,\nلكل نقى طاهر,\nيسكن نعيم الفردوس",
-      "English": "It is God the Word,\nWho gives forgiveness,\nTo every person,\nWho lives in watchfulness"
+      "English": "It is God the Word,\nWho gives forgiveness,\nTo every person,\nWho lives in watchfulness",
+      "ArabicEnglish": "Howa Ebn Allah el-7ay  \nEl-mo3ti el-ghofran  \nLekol naqi taher  \nYaskon na3eem el-ferdos  \n"
     },
     {
       "Type": "Melody",
@@ -25,7 +27,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أنتِ هى المذبح العالى,\nالمُشتمِلة بالأنوار,\nونوره يتلألأ,\nملأ كلّ الأقطار",
-      "English": "You are the altar,\nThat is shining bright,\nFilling all the earth,\nWith the Divine's"
+      "English": "You are the altar,\nThat is shining bright,\nFilling all the earth,\nWith the Divine's",
+      "ArabicEnglish": "Anti heya el-mazba7 el-3aly  \nEl-moshtamla bel-anwar  \nW noorha yetala2la  \nMala2 kol el-aqtar  \n"
     },
     {
       "Type": "Melody",
@@ -33,7 +36,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وضوءك يا مريم,\nفاق كلّ شموس وأقمار,\nفقتِ كل مراتب,\nوسائر كل طقوس",
-      "English": "Light Your light O Mary,\nGreater than the sun,\nYou are higher than,\nAll of creation"
+      "English": "Light Your light O Mary,\nGreater than the sun,\nYou are higher than,\nAll of creation",
+      "ArabicEnglish": "W do2ek ya Mariam  \nFaq kol shomos w a2mar  \nFoqti kol marateb  \nW sa2er kol toqos  \n"
     },
     {
       "Type": "Melody",
@@ -41,7 +45,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "فقتِ الرؤساء,\nوالأربعة حيوانات,\nوأيضاً الكراسى,\nوالأرباب والقوات",
-      "English": "More than the four beasts,\nAnd all the elders,\nExceeding the thrones,\nAnd all the powers"
+      "English": "More than the four beasts,\nAnd all the elders,\nExceeding the thrones,\nAnd all the powers",
+      "ArabicEnglish": "Foqti el-ro-asa2  \nW el-arba3at 7aywanat  \nW aydan el-karasi  \nW el-arbab w el-qowat  \n"
     },
     {
       "Type": "Melody",
@@ -49,7 +54,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "حملتِ إبن الله,\nخالق كل المخلوقات,\nمُعطى كل حياة,\nلكل جسد ونفوس",
-      "English": "You held the Lord God,\nCreator of all,\nBreathing life to every,\nCreature great and small"
+      "English": "You held the Lord God,\nCreator of all,\nBreathing life to every,\nCreature great and small",
+      "ArabicEnglish": "7amalti Ebn Allah  \nKhaleq kol el-makhlooqat  \nMo3ti kol 7ayah  \nLekol gasad w nofos  \n"
     },
     {
       "Type": "Melody",
@@ -57,7 +63,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يا زهرة الأطياب,\nبخورك عنبر فاح,\nيا نجمة تضوى,\nتنَور كالمصباح",
-      "English": "Flower of incense,\nYour aroma spread,\nO star shining bright,\nBearing living Bread"
+      "English": "Flower of incense,\nYour aroma spread,\nO star shining bright,\nBearing living Bread",
+      "ArabicEnglish": "Ya zahrat el-atyaab  \nBokhorik 3anbar fa7  \nYa negma todwee  \nTenawar kal-mesba7  \n"
     },
     {
       "Type": "Melody",
@@ -65,7 +72,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "يامملؤة نعمة,\nيابدء الأفراح,\nبكِ نلنا كل خلاص,\nونعيم الفردوس",
-      "English": "O you full of grace,\nYou are our joy,\nYour Son granted us,\nParadise of Joy"
+      "English": "O you full of grace,\nYou are our joy,\nYour Son granted us,\nParadise of Joy",
+      "ArabicEnglish": "Ya mamlo2a ne3ma  \nYa bad2 el-afraa7  \nBek nalna kol kholas  \nW na3eem el-fardos  \n"
     },
     {
       "Type": "Melody",
@@ -73,7 +81,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "دانيال تنبأ,\nفى رؤياه بثبات,\nقال رأيت كرسى من نور,\nوعليه ربّ القوات",
-      "English": "Daniel prophesied,\nA throne shining bright,\nCarrying the Lord,\nA beautiful sight"
+      "English": "Daniel prophesied,\nA throne shining bright,\nCarrying the Lord,\nA beautiful sight",
+      "ArabicEnglish": "Daniel tanaba2  \nFe ro2yaho bethabat  \n2al ra2ayt korsi men noor  \nW 3aleh Rab el-qowat  \n"
     },
     {
       "Type": "Melody",
@@ -81,7 +90,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وحوله ألوف ألوف,\nربوات مع طغمات,\nيسبحون الله,\nالملك القدوس",
-      "English": "And around the Lord,\nStand thousands praising,\nTo the holy King,\nPraising and chanting"
+      "English": "And around the Lord,\nStand thousands praising,\nTo the holy King,\nPraising and chanting",
+      "ArabicEnglish": "W 7awloh oloof oloof  \nRabawat ma3 taghmat  \nYosab7on Allah  \nEl-malek el-qodos  \n"
     },
     {
       "Type": "Melody",
@@ -89,7 +99,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "تشبهتِ يا مريم,\nبكرسى الله الخالق,\nوحملتِ إبن الله,\nالحى الناطق",
-      "English": "You were likened to,\nThe Creator's throne,\nMary you did bear,\nThe most precious Stone"
+      "English": "You were likened to,\nThe Creator's throne,\nMary you did bear,\nThe most precious Stone",
+      "ArabicEnglish": "Tashabahti ya Mariam  \nBekorsi Allah el-khaleq  \nW 7amalti Ebn Allah  \nEl-7ay el-nateq  \n"
     },
     {
       "Type": "Melody",
@@ -97,7 +108,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "سموكِ الأباء,\nباب المشارق,\nوكم وصفوا عنك,\nيا بكرة وعروس",
-      "English": "The Fathers have called You,\nThe eastern door,\nO Virgin and bride,\nBore the Creator"
+      "English": "The Fathers have called You,\nThe eastern door,\nO Virgin and bride,\nBore the Creator",
+      "ArabicEnglish": "Samook el-aba2  \nBab el-mashareq  \nW kam wasfo 3anek  \nYa bekra w 3aroos  \n"
     },
     {
       "Type": "Melody",
@@ -105,7 +117,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "الرب إختارك,\nمن أصل يسى,\nمن نسل نقى طاهر,\nبيت النبوة والرؤساء",
-      "English": "The Lord chose you from,\nThe root of Jesse,\nPure and holy seed,\nYou lived piously"
+      "English": "The Lord chose you from,\nThe root of Jesse,\nPure and holy seed,\nYou lived piously",
+      "ArabicEnglish": "El-Rab ekhtarek  \nMen asl Yasa  \nMen nesl naqi taher  \nBeit el-nobowa w el-ro-asa2  \n"
     },
     {
       "Type": "Melody",
@@ -113,7 +126,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وحملته فى أحشاكِ,\nيا بكر وعروس,\nوولدته ورضع لبنك,\nهوس رومى إنتيه ليوس",
-      "English": "Bore Him in your womb,\nNursed the Son of God,\nO Virgin and bride,\nYou are Aaron's Rod"
+      "English": "Bore Him in your womb,\nNursed the Son of God,\nO Virgin and bride,\nYou are Aaron's Rod",
+      "ArabicEnglish": "W 7amaltih fe a7sha2ek  \nYa bekra w 3aroos  \nW waladtih w rada3 labanek  \nHos Romi Ente Lios  \n"
     },
     {
       "Type": "Melody",
@@ -121,7 +135,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "السلام لك يا مريم\nيا مملؤة نعمة\nيا مشتملة بالأنوار \nيا أم الرحمة\nإشفعى فينا \nفى يوم الزحمة \nبك نلنا كل خلاص\nيـا إبنة صهيون",
-      "English": "Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Dav\n  Your Son has saved us\n  Daughter of Zion"
+      "English": "Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Dav\n  Your Son has saved us\n  Daughter of Zion",
+      "ArabicEnglish": "El Salamo laki ya Mariam \n ya mamlo2a ne3ma \n ya moshtamla bel anwar \n ya om elra7ma  \nEshfa3i fina \n fi yom elza7ma \n bek nolna kol kholas \n ya ebnat Sihyon  \n"
     }
   ]
 }

@@ -9,7 +9,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا شورية هارون,\nالحاملة جمر النار,\nوبخورها وعنبرها,\nملأ كل الأقطار",
-      "English": "The aroma spread,\nFrom you O censer,\nAnd filled all the earth,\nYou bore the Ember"
+      "English": "The aroma spread,\nFrom you O censer,\nAnd filled all the earth,\nYou bore the Ember",
+      "ArabicEnglish": "Ya Shoryet Haron  \nEl-7amela gamr el-nar  \nW bokhorha w 3anbarha  \nMala2 kol el-aqtar  \n"
     },
     {
       "Type": "Melody",
@@ -17,7 +18,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "بوجودك يا مريم,\nفزنا من حرِّ النار,\nوبكِ تمّ الموعد,\nكما عنكِ تنبأون",
-      "English": "Through you O Mary,\nOur souls are saved,\nFulfilled the promise,\nNo longer enslaved"
+      "English": "Through you O Mary,\nOur souls are saved,\nFulfilled the promise,\nNo longer enslaved",
+      "ArabicEnglish": "Biwgodek ya Mariam  \nFozna men 7ar el-nar  \nW beki tam el-maw3ed  \nKama 3anek tanaba2on  \n"
     },
     {
       "Type": "Melody",
@@ -25,7 +27,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أنتِ هى الشورية,\nفيها طيباً وبخور,\nحملتِ إبن الله,\nإلهٌ نور من نور",
-      "English": "You are the censer,\nHeld the Light of Light,\nFilled with the incense,\nYou are our delight"
+      "English": "You are the censer,\nHeld the Light of Light,\nFilled with the incense,\nYou are our delight",
+      "ArabicEnglish": "Enti hiya el-shorya  \nFiha teeban w bokhor  \n7amalti Ebn Allah  \nElah noor men noor  \n"
     },
     {
       "Type": "Melody",
@@ -33,7 +36,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وحلَّ فى بطنك,\nمدة تسعة شهور,\nوولدتة ورضع لَبَنِك,\nكشبة المخلوقين",
-      "English": "For nine months He dwelt,\nIn your womb as man,\nYou bore and nursed Him,\nThis was the Lord's plan"
+      "English": "For nine months He dwelt,\nIn your womb as man,\nYou bore and nursed Him,\nThis was the Lord's plan",
+      "ArabicEnglish": "W 7alla fe batnek  \nModat tes3a shohor  \nW waladtih w rada3 labanek  \nKa shabah el-makhlooqeen  \n"
     },
     {
       "Type": "Melody",
@@ -41,7 +45,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا شورية هارون,\nفيها بخور من عنبر,\nيا إبنة داود,\nيا حجر الجوهر",
-      "English": "You are the censer,\nBearing the Ember,\nO the precious stone,\nO David's daughter"
+      "English": "You are the censer,\nBearing the Ember,\nO the precious stone,\nO David's daughter",
+      "ArabicEnglish": "Ya Shoryet Haron  \nFiha bokhor men 3anbar  \nYa ebnat Dawod  \nYa 7agar el-gawhar  \n"
     },
     {
       "Type": "Melody",
@@ -49,7 +54,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "حملتِ المعبود,\nو ظهر منكِ مجهر,\nوفكّ كل و ثاقات,\nوكسر فخ الأركون",
-      "English": "You held the worshipped,\nHe was born of you,\nFreed us from Satan,\nRemade us anew"
+      "English": "You held the worshipped,\nHe was born of you,\nFreed us from Satan,\nRemade us anew",
+      "ArabicEnglish": "7amalti el-ma3bod  \nW zahar mennek mag-har  \nW fakk kol wasaqaat  \nW kasar fakh el-arkon  \n"
     },
     {
       "Type": "Melody",
@@ -57,7 +63,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "أنتِ هى الشورية,\nبخور طيبك قد فاح,\nوملأ المسكونة,\nوبكِ نلنا الأفراح",
-      "English": "O you the censer,\nYour aroma spread,\nAnd filled all the earth,\nHe rose from the dead"
+      "English": "O you the censer,\nYour aroma spread,\nAnd filled all the earth,\nHe rose from the dead",
+      "ArabicEnglish": "Anti hiya el-shorya  \nBokhor tebek qad fa7  \nW mala2 el-maskouna  \nW bek nolna el-afraa7  \n"
     },
     {
       "Type": "Melody",
@@ -65,7 +72,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "نقرئك كل سلام,\nفى كل مساء وصباح,\nيا عمود دين,\nالأرثوذكسيين",
-      "English": "In the Song of Songs,\nSolomon did write,\nMy sister my spouse,\nFor she is upright"
+      "English": "In the Song of Songs,\nSolomon did write,\nMy sister my spouse,\nFor she is upright",
+      "ArabicEnglish": "Noqre2ek kol salam  \nFe kol masa2 w saba7  \nYa 3amood deen  \nEl-Orthodoxyeen  \n"
     },
     {
       "Type": "Melody",
@@ -73,7 +81,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "سليمان قال عنكِ,\nفى نشيد الأنشاد,\nأختى وصديقتى,\nوإليكِ الربُّ أراد",
-      "English": "O Mother of Christ,\nThe Blessed Mary,\nO tabernacle,\nGuarding the Holy"
+      "English": "O Mother of Christ,\nThe Blessed Mary,\nO tabernacle,\nGuarding the Holy",
+      "ArabicEnglish": "Soliman qal 3anek  \nFe nasheed el-anshad  \nOkhti w sadeeqti  \nW elayk el-Rab arad  \n"
     },
     {
       "Type": "Melody",
@@ -81,7 +90,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "روائح طيبك فاح,\nمن عنبر وزاد,\nوقال عنكِ أمثال,\nفى النبوات قد شهدون",
-      "English": "For your Son's people,\nPlease give protection,\nPriests deacons laymen,\nShow us affection"
+      "English": "For your Son's people,\nPlease give protection,\nPriests deacons laymen,\nShow us affection",
+      "ArabicEnglish": "Rawaye7 tebek fa7  \nMen 3anbar w zad  \nW qal 3anek amsal  \nFe el-nabowat qad shahdon  \n"
     },
     {
       "Type": "Melody",
@@ -89,7 +99,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "طوباكِ يا مريم,\nأمّ إيسوس بى إخريستوس,\nيا هيكل طاهر,\nوحجاب للقدوس",
-      "English": "Hail to you Mary,\nYour Light dawned on us,\nFilling all the earth,\nAs a guard for us"
+      "English": "Hail to you Mary,\nYour Light dawned on us,\nFilling all the earth,\nAs a guard for us",
+      "ArabicEnglish": "Tobaki ya Mariam  \nOm Eesos Pi Ekhristos  \nYa haykal taher  \nW 7egab lel-Qodos  \n"
     },
     {
       "Type": "Melody",
@@ -97,7 +108,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "إحفظى شعب إبنك,\nشمامسة وقسوس,\nوجميع من فى البيعة,\nوالشعب المجتمعون",
-      "English": "You held God the Judge,\nHuman and divine,\nYou gave birth to Him,\nBearing the True Vine"
+      "English": "You held God the Judge,\nHuman and divine,\nYou gave birth to Him,\nBearing the True Vine",
+      "ArabicEnglish": "E7fazi sha3b Ebnak  \nShamamesa w Qosos  \nW gamee3 man fel bey3a  \nW el-sha3b el-mogtame3on  \n"
     },
     {
       "Type": "Melody",
@@ -105,7 +117,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "السلام لكِ يا مريم,\nيا هيكل منصان,\nنورك أشرق فينا,\nوملأ كل الاكوان",
-      "English": "O pillar of faith,\nWe offer you praise,\nWe are Orthodox,\nAnd bless you always"
+      "English": "O pillar of faith,\nWe offer you praise,\nWe are Orthodox,\nAnd bless you always",
+      "ArabicEnglish": "El-salamo laki ya Mariam  \nYa haykal monsan  \nNoorek ashraq feena  \nW mala2 kol el-akwan  \n"
     },
     {
       "Type": "Melody",
@@ -113,7 +126,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "وحملتِ الخالق,\nإبن الله الديان,\nوولدتيه كإنسان,\nباللاهوت متحداً",
-      "English": "Your aroma spread,\nAnd it did increase,\nThe king gave symbols,\nIn his prophecies"
+      "English": "Your aroma spread,\nAnd it did increase,\nThe king gave symbols,\nIn his prophecies",
+      "ArabicEnglish": "W 7amalti el-khaleq  \nEbn Allah el-dayan  \nW waladti ka-ensan  \nBelahoot mota7edan  \n"
     },
     {
       "Type": "Melody",
@@ -121,7 +135,8 @@
       "Visible": true,
       "Side": "Refrain",
       "Arabic": "السلام لك يا مريم\nيا مملؤة نعمة\nيا مشتملة بالأنوار \nيا أم الرحمة\nإشفعى فينا \nفى يوم الزحمة \nبك نلنا كل خلاص\nيـا إبنة صهيون",
-      "English": "Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Dav\n  Your Son has saved us\n  Daughter of Zion"
+      "English": "Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Dav\n  Your Son has saved us\n  Daughter of Zion",
+      "ArabicEnglish": "El Salamo laki ya Mariam \n ya mamlo2a ne3ma \n ya moshtamla bel anwar \n ya om elra7ma  \nEshfa3i fina \n fi yom elza7ma \n bek nolna kol kholas \n ya ebnat Sihyon  \n"
     }
   ]
 }
