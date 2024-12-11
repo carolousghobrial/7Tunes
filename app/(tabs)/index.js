@@ -183,9 +183,8 @@ function App() {
   const onFetchUpdateAsync = async () => {
     try {
       const update = await Updates.checkForUpdateAsync();
-
       if (update.isAvailable) {
-        Alert.alert("New Update!", updateString, [
+        Alert.alert("New Update!", [
           {
             text: "Restart the App",
             onPress: () => onUpdates(),
@@ -193,8 +192,8 @@ function App() {
         ]);
       }
     } catch (error) {
-      // You can also add an alert() to see the error message in case of an error when fetching updates.
-      // alert(`Error fetching latest Expo update: ${error}`);
+      // Ensure the error is converted to a string and provide a title for the alert.
+      Alert.alert("Error", error.message || "An unexpected error occurred.");
     }
   };
 
@@ -209,7 +208,7 @@ function App() {
   useEffect(() => {
     setLive();
     onFetchUpdateAsync();
-  }, [navigation]);
+  }, []);
   return (
     <ImageBackground
       source={require("../../assets/images/copticBackground.png")}

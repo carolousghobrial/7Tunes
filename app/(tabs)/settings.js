@@ -29,8 +29,8 @@ import {
   Link,
   useRouter,
 } from "expo-router";
-const CustomButton = ({ onPress, label, fontSize }) => (
-  <TouchableOpacity onPress={onPress}>
+const CustomButton = ({ onPress, label, fontSize, onLongPress }) => (
+  <TouchableOpacity onPress={onPress} onLongPress={onLongPress}>
     <View style={styles.button}>
       <Text style={[styles.buttonText, { fontSize }]}>{label}</Text>
     </View>
