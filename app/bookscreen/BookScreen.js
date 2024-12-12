@@ -197,6 +197,9 @@ const BookScreen = React.memo(() => {
     };
     return (
       <Pressable
+        style={{
+          marginRight: Platform.OS === "android" ? 10 : 0, // Ensure padding for Android
+        }}
         onPress={() => setNavbarVisibility(!navbarVisibility)}
         onLongPress={() =>
           router.push({

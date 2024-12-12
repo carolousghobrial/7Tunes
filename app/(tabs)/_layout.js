@@ -36,7 +36,7 @@ const TabsLayout = () => {
           styles.tabBar,
           {
             backgroundColor: activeColors.NavigationBarColor,
-            paddingBottom: Platform.OS === "android" ? 10 : 0, // Ensure padding for Android
+            paddingBottom: Platform.OS === "android" ? 20 : 0, // Ensure padding for Android
           },
         ],
 

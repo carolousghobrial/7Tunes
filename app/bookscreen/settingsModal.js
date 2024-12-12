@@ -19,7 +19,6 @@ import TodaysPrayer from "../../components/settings/todaysPrayer.js";
 import PresentationMode from "../../components/settings/presentationMode.js";
 import PopeBishop from "../../components/settings/popeBishop.js";
 import Purchases from "react-native-purchases";
-import * as Updates from "expo-updates";
 import { setItemPurchased } from "../../stores/redux/settings.js";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers.js";
 import {
@@ -58,7 +57,6 @@ function SettingsScreen() {
       },
       headerRight: () => (
         <Pressable
-          onPress={() => router.back()}
           onPressIn={() => router.back()}
           style={({ pressed }) => [
             styles.closeButton,
@@ -93,32 +91,6 @@ function SettingsScreen() {
       Alert.alert("Purchases restored successfully!");
     } catch (error) {
       Alert.alert("Restore Error", error.message);
-    }
-  };
-
-  // Check for updates
-  const onUpdates = async () => {
-    try {
-      const update = await Updates.checkForUpdateAsync();
-      if (update.isAvailable) {
-        Alert.alert("New Update!", "Restart the app to apply updates", [
-          { text: "Restart", onPress: doUpdate },
-        ]);
-      } else {
-        Alert.alert("No Updates", "Your app is up to date.");
-      }
-    } catch (error) {
-      Alert.alert("Update Error", error.message);
-    }
-  };
-
-  // Apply update
-  const doUpdate = async () => {
-    try {
-      await Updates.fetchUpdateAsync();
-      await Updates.reloadAsync();
-    } catch (e) {
-      Alert.alert("Error applying update", e.message);
     }
   };
 
@@ -171,14 +143,6 @@ function SettingsScreen() {
           <View style={styles.button}>
             <Text style={[styles.buttonText, { fontSize }]}>
               {getLanguageValue("restore")}
-            </Text>
-          </View>
-        </TouchableOpacity>
-
-        <TouchableOpacity onPress={onUpdates}>
-          <View style={styles.button}>
-            <Text style={[styles.buttonText, { fontSize }]}>
-              {getLanguageValue("update")}
             </Text>
           </View>
         </TouchableOpacity>
