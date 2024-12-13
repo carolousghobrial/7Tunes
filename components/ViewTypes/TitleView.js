@@ -10,6 +10,7 @@ import {
   useWindowDimensions,
 } from "react-native";
 import bookPaths from "../../helpers/bookPathsHelpers";
+import { useLocalSearchParams, useRouter, useNavigation } from "expo-router";
 
 import images from "../../helpers/imageHelpers";
 import { Entypo } from "@expo/vector-icons";
@@ -27,9 +28,12 @@ import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect, memo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-function TitleView({ item, navigation }) {
+function TitleView({ item, motherSource, navigation }) {
+  console.log(item);
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
+  const router = useRouter();
+
   const isSwitchGregorian =
     item.Switch !== undefined && item.Switch.toLowerCase().includes("gregory");
   let flex = "row";
@@ -140,6 +144,16 @@ function TitleView({ item, navigation }) {
   //   console.log("File has been saved to:", uri);
   //   await shareAsync(uri, { UTI: ".pdf", mimeType: "application/pdf" });
   // };
+  function openZoomPinch() {
+    router.push({
+      pathname: "/bookscreen/ZoomAndDrawPage",
+      params: {
+        path: item.Path,
+        rule: item.rule,
+        motherSource: motherSource,
+      },
+    });
+  }
   return (
     <View style={[styles.bookView, { flexDirection: flex }]}>
       <View style={{ flex: 8 }}>
@@ -220,7 +234,7 @@ function TitleView({ item, navigation }) {
           )}
         </Pressable>
       ) : null}
-      {/* <Pressable onPress={printToFile}>
+      {/* <Pressable onPress={openZoomPinch}>
         <Text>PRINT</Text>
       </Pressable> */}
     </View>

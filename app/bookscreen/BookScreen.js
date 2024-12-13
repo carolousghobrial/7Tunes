@@ -179,7 +179,7 @@ const BookScreen = React.memo(() => {
     const viewTypeMap = {
       Base: <BaseView item={item.part} mykey={item.key} />,
       Melody: <MelodyView item={item.part} />,
-      Title: <TitleView item={item.part} />,
+      Title: <TitleView item={item.part} motherSource={motherSource} />,
       Ritual: <RitualView item={item.part} />,
       MainTitle: <MainTitleView item={item.part} />,
       Button: (
