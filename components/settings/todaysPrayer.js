@@ -114,6 +114,10 @@ function TodaysPrayer() {
             >
               {getLanguageValue("setTimeTodayPrayer")}
             </Text>
+            <Text style={styles.text}>
+              Selected Time: {time.toLocaleTimeString()}
+            </Text>
+            {/* Displaying formatted time */}
             <Button onPress={showTimeTimePicker} title="Select time" />
             {showPicker && (
               <DateTimePicker
@@ -174,6 +178,10 @@ const styles = StyleSheet.create({
 
     color: "gray",
     fontStyle: "italic",
+  },
+  text: {
+    fontSize: 18,
+    fontWeight: "bold",
   },
   switchView: {
     margin: 5,

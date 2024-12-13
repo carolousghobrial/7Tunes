@@ -5,6 +5,7 @@ import {
   View,
   FlatList,
   Text,
+  ActivityIndicator,
   TouchableOpacity,
   Alert,
 } from "react-native";
@@ -24,6 +25,7 @@ function App() {
   const navigation = useNavigation();
   const dispatch = useDispatch();
   const timeTransition = useSelector((state) => state.settings.timeTransition);
+  const [isLoading, setIsLoading] = useState(false);
 
   const activeColors = darkMode === false ? Colors["light"] : Colors["dark"];
   const {
@@ -52,6 +54,8 @@ function App() {
   // Navigate when a book is clicked
   const handleBookClick = async (book) => {
     try {
+      setIsLoading(true); // Start loading indicator
+
       let isBought = false;
 
       // Determine purchase status based on permission
@@ -68,6 +72,7 @@ function App() {
           ...breadcrumbParts,
           { name: book.EnglishTitle, path: book.BookPath },
         ];
+        setIsLoading(false); // Stop loading indicator
 
         router.push({
           pathname: book.hasSubBooks ? "/" : "/bookscreen/BookScreen",
@@ -107,6 +112,8 @@ function App() {
           dispatch(setItemPurchased({ permissionId: book.PermissionStatus }));
           handleNavigation();
         } catch (purchaseError) {
+          setIsLoading(false); // Stop loading indicator
+
           Alert.alert(
             purchaseError.message || "An error occurred during the purchase."
           );
@@ -134,6 +141,8 @@ function App() {
       };
 
       if (!book.Enabled) {
+        setIsLoading(true); // Start loading indicator
+
         if (!isBought) {
           await restoreAndCheckEntitlement();
         } else {
@@ -145,7 +154,7 @@ function App() {
       }
     } catch (error) {
       console.error("Error handling book click:", error);
-      setIsLoading(false);
+      setIsLoading(false); // Stop loading indicator
     }
   };
   const onLongPress = async (item) => {
@@ -190,6 +199,11 @@ function App() {
       style={styles.backgroundImage}
     >
       <View style={styles.container}>
+        {isLoading && (
+          <View style={styles.loadingOverlay}>
+            <ActivityIndicator size="large" color="#0000ff" />
+          </View>
+        )}
         {/* Breadcrumb Navigation */}
         <View
           style={[

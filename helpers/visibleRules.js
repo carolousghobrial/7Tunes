@@ -197,29 +197,28 @@ const AlleluiaStandard = (motherSource, path) => {
   return currentSeason.type !== "feast";
 };
 const isStandardSeason = (motherSource, path) => {
-  // const currentSeason = useSelector((state) => state.settings.currentSeason);
-  // switch (currentSeason.key) {
-  //   case "STANDARD":
-  //     if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
-  //       return false;
-  //     }
-  //     return true;
-  //   case "FAST_OF_APOSTLES":
-  //   case "FEAST_OF_APOSTLES":
-  //     return true;
-  //   case "NATIVITY_FAST":
-  //     if (
-  //       currentSeason.copticMonth !== "Koiahk" &&
-  //       !TakeFromHathor(currentSeason)
-  //     ) {
-  //       return true;
-  //     }
-  //     return false;
-  //   default:
-  //     return false;
-  // }
-  //return currentSeason.type !== "feast";
-  return true;
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  switch (currentSeason.key) {
+    case "STANDARD":
+      if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
+        return false;
+      }
+      return true;
+    case "FAST_OF_APOSTLES":
+    case "FEAST_OF_APOSTLES":
+      return true;
+    case "NATIVITY_FAST":
+      if (
+        currentSeason.copticMonth !== "Koiahk" &&
+        !TakeFromHathor(currentSeason)
+      ) {
+        return true;
+      }
+      return false;
+    default:
+      return false;
+  }
+  return currentSeason.type !== "feast";
 };
 const isStandardFraction = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
