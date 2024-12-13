@@ -41,8 +41,7 @@ export default function RootLayout({ children }) {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <StatusBar hidden />
-
+        <StatusBar hidden={Platform.OS === "ios"} />
         <Stack>
           <Stack.Screen
             name="(tabs)"

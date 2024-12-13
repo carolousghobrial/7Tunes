@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import {
   StyleSheet,
   Image,
+  StatusBar,
   ActivityIndicator,
   View,
   SafeAreaView,
@@ -34,7 +35,11 @@ import LoadingScreen from "../../screens/LoadingScreen";
 import { setMenuScrollTo } from "../../stores/redux/book.js";
 
 const BookScreen = React.memo(() => {
-  const { height } = useWindowDimensions();
+  const { width, height } = useWindowDimensions();
+  const isLandscape = width > height; // Check if the orientation is landscape
+  const containerStyle = {
+    paddingHorizontal: Platform.OS === "android" && isLandscape ? 35 : 0,
+  };
   const navigation = useNavigation();
   const flatListRef = useRef();
   const router = useRouter();
@@ -78,7 +83,7 @@ const BookScreen = React.memo(() => {
           color: labelColor,
         },
         headerRight: () => (
-          <View style={{ flexDirection: "row" }}>
+          <View style={[containerStyle, { flexDirection: "row" }]}>
             <Pressable
               onPressIn={() =>
                 router.push({
@@ -94,7 +99,7 @@ const BookScreen = React.memo(() => {
                 },
               ]}
             >
-              <View style={{ flex: 1 }}>
+              <View style={{ flex: 1, margin: 5 }}>
                 <MaterialCommunityIcons
                   name="cog"
                   size={30}
@@ -118,7 +123,7 @@ const BookScreen = React.memo(() => {
                 },
               ]}
             >
-              <View style={{ flex: 1 }}>
+              <View style={{ flex: 1, margin: 5 }}>
                 <MaterialCommunityIcons
                   name="table-of-contents"
                   size={40}
@@ -251,11 +256,13 @@ const BookScreen = React.memo(() => {
       style={[
         {
           backgroundColor: pageBackgroundColor,
-          marginRight: Platform.OS === "android" ? 4 : 0,
         },
+        containerStyle,
         styles.container,
       ]}
     >
+      <StatusBar hidden />
+
       <FlatList
         ref={flatListRef}
         data={bookContents}
@@ -274,7 +281,9 @@ const BookScreen = React.memo(() => {
 });
 
 const styles = StyleSheet.create({
-  container: { flex: 1 },
+  container: {
+    flex: 1,
+  },
   list: { flex: 1 },
 });
 
