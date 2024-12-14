@@ -55,10 +55,13 @@ const HeaderRightButtons = ({ onPressSettings, onPressContents }) => (
 );
 const BookScreen = React.memo(() => {
   const { height, width } = useWindowDimensions();
-
+  const router = useRouter();
+  const dispatch = useDispatch();
   const flatListRef = useRef();
   const { bookPath, motherSource, bishopButton, indexToScroll } =
     useLocalSearchParams();
+  const NavigationBarColor = getColor("NavigationBarColor");
+
   const labelColor = getColor("LabelColor");
   const pageBackgroundColor = getColor("pageBackgroundColor");
   const pagination = useSelector((state) => state.settings.pagination);
@@ -146,6 +149,9 @@ const BookScreen = React.memo(() => {
     const fontsize = isTablet ? 30 : 15;
     navigation.setOptions({
       title: navTitle,
+      headerStyle: {
+        backgroundColor: NavigationBarColor,
+      },
       headerTitleStyle: {
         fontSize: fontsize,
         fontFamily: fontfamily,
@@ -156,7 +162,7 @@ const BookScreen = React.memo(() => {
       setIsLoading(false);
     }, 10);
   }, [navTitle, appLanguage, bookContents, flatListRef]);
-
+  console.log("DE");
   const settingsPressed = () => {
     bottomSheetRef?.current.present();
   };
@@ -181,7 +187,6 @@ const BookScreen = React.memo(() => {
       headerRight: headerRightComponent,
     });
   }, [navigation]);
-  console.log("FRE");
   const scrollToKey = (key) => {
     const item = bookContents.find(({ key: itemKey }) => itemKey === key.key);
 
@@ -222,6 +227,8 @@ const BookScreen = React.memo(() => {
       MainTitle: <MainTitleView item={item.part} />,
       Button: (
         <ButtonView
+          router={router}
+          dispatch={dispatch}
           mykey={item.key}
           item={item.part}
           motherSource={bookPath}
