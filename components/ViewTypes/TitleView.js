@@ -29,7 +29,6 @@ import React, { useState, useEffect, memo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 function TitleView({ item, motherSource, navigation }) {
-  console.log(item);
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
   const router = useRouter();

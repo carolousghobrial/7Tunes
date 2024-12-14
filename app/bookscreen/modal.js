@@ -46,45 +46,22 @@ const ContentsModal = () => {
     });
   }, [navigation]);
 
-  const scrollToMenuKey = (key) => {
-    menuFlatListRef.current?.scrollToIndex({ animated: true, index: key });
-  };
-  useEffect(() => {
-    if (menuScrollTo !== null && menuFlatListRef.current) {
-      menuFlatListRef.current.scrollToIndex({
-        index: menuScrollTo,
-        animated: false,
-      });
-    }
-  }, [menuScrollTo]);
   const scrollToKey = (item) => {
     dispatch(setBookScrollTo({ bookScrollTo: item.key }));
     router.back();
   };
-  const onScrollToIndexFailed = (error) => {
-    setTimeout(() => {
-      if (menuFlatListRef.current !== null) {
-        menuFlatListRef.current.scrollToIndex({
-          index: error.index,
-          animated: false,
-        });
-      }
-    }, 10);
-  };
+
   return (
     <View style={styles.container}>
       <FlatList
         style={[styles.flatList, { backgroundColor: NavigationBarColor }]}
         data={currentData}
-        initialScrollIndex={menuScrollTo}
-        onScrollToIndexFailed={onScrollToIndexFailed}
         renderItem={({ item, index }) => (
           <Pressable onPress={() => scrollToKey(item)}>
             <MenuItem item={item} index={index} HighlitedIndex={menuScrollTo} />
           </Pressable>
         )}
         keyExtractor={(_, index) => index.toString()}
-        initialNumToRender={mymenuData.length}
       />
     </View>
   );

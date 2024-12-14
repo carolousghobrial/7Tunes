@@ -23,6 +23,7 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
   const flex = width > height ? "row" : "column";
   const itemVisible = item.Visible;
   const router = useRouter();
+  const dispatch = useDispatch();
 
   const handlePress = () => {
     const ruleFunction = ButtonRules(
@@ -30,26 +31,22 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
       motherSource,
       flatListRef,
       viewData,
-      router
+      router,
+      dispatch
     )[item.Rule];
 
     ruleFunction && ruleFunction();
   };
 
   return (
-    <View>
-      {itemVisible !== "hide" && (
-        <TouchableOpacity
-          style={{ marginHorizontal: 70 }}
-          onPress={handlePress}
-        >
-          <View style={[styles.bookView, { flexDirection: flex }]}>
-            <Text style={[styles.text, { fontSize }]}>{item.English}</Text>
-            <Text style={[styles.text, { fontSize }]}>{item.Arabic}</Text>
-          </View>
-        </TouchableOpacity>
-      )}
-    </View>
+    itemVisible !== "hide" && (
+      <TouchableOpacity style={{ marginHorizontal: 70 }} onPress={handlePress}>
+        <View style={[styles.bookView, { flexDirection: flex }]}>
+          <Text style={[styles.text, { fontSize }]}>{item.English}</Text>
+          <Text style={[styles.text, { fontSize }]}>{item.Arabic}</Text>
+        </View>
+      </TouchableOpacity>
+    )
   );
 }
 

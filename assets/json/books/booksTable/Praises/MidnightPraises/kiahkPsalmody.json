@@ -28,6 +28,8 @@
         },
         {
             "Type": "Accordion",
+            "Arabic": "إبصالية أدام على الهوس الأول",
+            "English": "Adam Psali on the First Hoos",
             "Path": "KiahkMidnightPraisesHymnsAdamPsaliFirstHoos",
             "Rule": 0,
             "Visible": true
@@ -135,6 +137,8 @@
         },
         {
             "Type": "Accordion",
+            "Arabic": "إبصالية أدام على الهوس الثاني",
+            "English": "Adam Psali on the Second Hoos",
             "Path": "KiahkMidnightPraisesHymnsAdamPsaliSecondHoos",
             "Rule": 0,
             "Visible": true

@@ -58,7 +58,6 @@ function UpdatedSaintsModal() {
   const toggleSaintSelection = useCallback((key, value) => {
     setSaintSelected((prev) => ({ ...prev, [key]: value }));
   }, []);
-  console.log(Object.keys(saintSelected));
   // Update saint
   const handleUpdateSaint = useCallback(() => {
     dispatch(changeSaint({ saint: mySaint.titleKey, object: saintSelected }));

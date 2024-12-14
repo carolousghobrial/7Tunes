@@ -1611,7 +1611,6 @@ const firstKiahkGospelResponse = (motherSource, path) => {
 
   // Helper function to check if it's week 1 to 4
   const isWeek1to4 = weekOfMonth >= 1 && weekOfMonth <= 4;
-  console.log(copticMonth);
   // // Check if it's Hathor, week 5, and take from Hathor
   // if (
   //   copticMonth === "Hathor" &&
@@ -3249,7 +3248,6 @@ const REPLACEBISHOPAVAILABLETHREE = (rule, part) => {
 function getAuthor(part, checkList) {
   const completePath = GetTodaysReadingPath(part.mother);
 
-  console.log(completePath);
   if (completePath === "Katamaros") {
     return "NONE";
   }

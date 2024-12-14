@@ -25,10 +25,18 @@ const bookSlice = createSlice({
         menuScrollTo: menuScrollTo,
       };
     },
+    setmenuContents: (state, action) => {
+      const menuContents = action.payload.menuContents;
+      return {
+        ...state,
+        menuContents: menuContents,
+      };
+    },
   },
 });
 
 export const { setBookScrollTo } = bookSlice.actions;
 export const { setMenuScrollTo } = bookSlice.actions;
+export const { setmenuContents } = bookSlice.actions;
 
 export default bookSlice.reducer;

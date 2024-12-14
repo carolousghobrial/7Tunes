@@ -21,11 +21,12 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
   const selectedBackgroundColor = isSelected ? highlightColor : "transparent";
 
   const handlePress = () => {
+    console.log(item.key);
     scrollToKey(item.key);
   };
 
   return (
-    <View
+    <TouchableOpacity
       style={[
         styles.container,
         {
@@ -34,7 +35,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
           backgroundColor: selectedBackgroundColor,
         },
       ]}
-      // onPress={handlePress}
+      onPress={handlePress}
     >
       <View style={[styles.textView, { flexDirection }]}>
         <Text
@@ -68,7 +69,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
           {item.ArabicTitle}
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 

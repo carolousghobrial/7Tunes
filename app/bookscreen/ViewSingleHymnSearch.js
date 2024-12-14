@@ -96,7 +96,6 @@ const ViewSingleHymnSearch = memo(() => {
     }, 10);
   };
   useEffect(() => {
-    console.log(partClicked);
     const itemToFind = data.filter((item) =>
       item.part.English.includes(partClicked)
     );

@@ -7,10 +7,20 @@ import {
 } from "react-native";
 import { getFullViewModel } from "../viewModel/getFullViewModel";
 import { useLocalSearchParams, useNavigation, useRouter } from "expo-router";
+import { setBookScrollTo } from "../stores/redux/book.js";
 
-function ButtonRules(item, motherSource, flatListRef, viewData, router) {
+function ButtonRules(
+  item,
+  motherSource,
+  flatListRef,
+  viewData,
+  router,
+  dispatch
+) {
   const openBookScreen = (switchScreen = false) => {
     const routeMethod = switchScreen ? "replace" : "push";
+
+    dispatch(setBookScrollTo({ bookScrollTo: 0 }));
 
     router[routeMethod]({
       pathname: "/bookscreen/BookScreen",
@@ -39,7 +49,6 @@ function ButtonRules(item, motherSource, flatListRef, viewData, router) {
   };
 
   const ThokTeTiGomScrollUpButtonRule = () => {
-    console.log(viewData);
     const index = viewData.findIndex(
       (part) => part.EnglishTitle === "Pascha Praise"
     );
