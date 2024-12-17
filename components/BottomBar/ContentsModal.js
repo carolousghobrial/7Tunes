@@ -1,10 +1,4 @@
-import React, {
-  forwardRef,
-  useImperativeHandle,
-  useState,
-  useRef,
-  useCallback,
-} from "react";
+import React, { forwardRef, useState, useRef, useCallback } from "react";
 import { useSelector } from "react-redux";
 import { View, Text, StyleSheet, Pressable } from "react-native";
 import {
@@ -16,71 +10,77 @@ import { AntDesign } from "@expo/vector-icons";
 import { getColor, getLanguageValue } from "../../helpers/SettingsHelpers.js";
 import MenuItem from "./MenuItem";
 
-const ContentsModal = forwardRef(
-  ({ bottomSheetRef, currentKey, menuData, contentsClose, scrollToKey }) => {
-    const NavigationBarColor = getColor("NavigationBarColor");
-    const labelColor = getColor("LabelColor");
-    const [currentData, setCurrentData] = useState(
-      menuData.filter((item) => item.ArabicTitle || item.EnglishTitle)
-    );
-    const flatListRef = useRef(null);
-    const appLanguage = useSelector((state) => state.settings.appLanguage);
-    const TableOfContents = getLanguageValue("TableOfContents");
+const ContentsModal = ({
+  bottomSheetRef,
+  currentKey,
+  menuData,
+  contentsClose,
+  scrollToKey,
+}) => {
+  const NavigationBarColor = getColor("NavigationBarColor");
+  const labelColor = getColor("LabelColor");
 
-    const scrollToMenuKey = (item) => {
-      console.log(item);
+  const [currentData, setCurrentData] = useState(
+    menuData.filter((item) => item.ArabicTitle || item.EnglishTitle)
+  );
+
+  const appLanguage = useSelector((state) => state.settings.appLanguage);
+  const TableOfContents = getLanguageValue("TableOfContents");
+
+  const scrollToMenuKey = useCallback(
+    (item) => {
       scrollToKey(item);
-    };
+    },
+    [scrollToKey]
+  );
 
-    const renderBackdrop = useCallback(
-      (props) => (
-        <BottomSheetBackdrop
-          {...props}
-          disappearsOnIndex={-1}
-          appearsOnIndex={0}
-        />
-      ),
-      []
-    );
+  const renderBackdrop = useCallback(
+    (props) => (
+      <BottomSheetBackdrop
+        {...props}
+        disappearsOnIndex={-1}
+        appearsOnIndex={0}
+      />
+    ),
+    []
+  );
 
-    return (
-      <BottomSheetModal
-        backgroundStyle={{ backgroundColor: NavigationBarColor }}
-        handleIndicatorStyle={{ backgroundColor: labelColor }}
-        handleHeight={50}
-        ref={bottomSheetRef}
-        snapPoints={["90%"]}
-        backdropComponent={renderBackdrop}
-      >
-        <View style={styles.header}>
-          <Text style={[styles.title, { color: labelColor }]}>
-            {TableOfContents}
-          </Text>
-          <Pressable style={styles.closeButton} onPress={contentsClose}>
-            <AntDesign name="closecircle" size={30} color={labelColor} />
-          </Pressable>
-        </View>
+  return (
+    <BottomSheetModal
+      ref={bottomSheetRef}
+      backgroundStyle={{ backgroundColor: NavigationBarColor }}
+      handleIndicatorStyle={{ backgroundColor: labelColor }}
+      handleHeight={50}
+      snapPoints={["90%"]}
+      backdropComponent={renderBackdrop}
+    >
+      <View style={styles.header}>
+        <Text style={[styles.title, { color: labelColor }]}>
+          {TableOfContents}
+        </Text>
+        <Pressable style={styles.closeButton} onPress={contentsClose}>
+          <AntDesign name="closecircle" size={30} color={labelColor} />
+        </Pressable>
+      </View>
 
-        <BottomSheetFlatList
-          style={[styles.flatList, { backgroundColor: NavigationBarColor }]}
-          ref={flatListRef}
-          data={currentData}
-          renderItem={({ item, index }) => (
-            <MenuItem
-              item={item}
-              index={index}
-              HighlitedIndex={currentKey}
-              scrollToKey={scrollToMenuKey.bind(this, item)}
-            />
-          )}
-          keyExtractor={(item, index) => index.toString()}
-          initialNumToRender={menuData.length}
-        />
-      </BottomSheetModal>
-    );
-  }
-);
-
+      <BottomSheetFlatList
+        style={[styles.flatList, { backgroundColor: NavigationBarColor }]}
+        ref={useRef(null)}
+        data={currentData}
+        renderItem={({ item, index }) => (
+          <MenuItem
+            item={item}
+            index={index}
+            HighlitedIndex={currentKey}
+            scrollToKey={() => scrollToMenuKey(item)}
+          />
+        )}
+        keyExtractor={(item, index) => index.toString()}
+        initialNumToRender={menuData.length}
+      />
+    </BottomSheetModal>
+  );
+};
 const styles = StyleSheet.create({
   header: {
     flexDirection: "row",

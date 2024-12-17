@@ -21,7 +21,6 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
   const selectedBackgroundColor = isSelected ? highlightColor : "transparent";
 
   const handlePress = () => {
-    console.log(item.key);
     scrollToKey(item.key);
   };
 

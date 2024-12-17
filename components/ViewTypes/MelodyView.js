@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View, Platform } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import { useSelector } from "react-redux";
 import { getColor } from "../../helpers/SettingsHelpers.js";
 
@@ -36,12 +36,24 @@ function MelodyView({ item }) {
     <View style={styles.bookView}>
       {englishVisible && (
         <View style={styles.textView}>
-          <Text style={[styles.english, commonTextStyle]}>{item.English}</Text>
+          <Text
+            style={[
+              styles.english,
+              commonTextStyle,
+              {
+                lineHeight: fontSize * 1.5,
+                flex: 1,
+              },
+            ]}
+          >
+            {item.English}
+          </Text>
         </View>
       )}
 
       {arabicVisible && (
-        <View style={styles.textView}>
+        <View style={[styles.textView, { flex: 1 }]}>
+          {/* Ensure it expands */}
           <Text
             style={[
               styles.arabic,
@@ -49,6 +61,7 @@ function MelodyView({ item }) {
               {
                 textAlign: "right",
                 lineHeight: fontSize * 1.8,
+                flex: 1,
               },
             ]}
           >
@@ -56,10 +69,20 @@ function MelodyView({ item }) {
           </Text>
         </View>
       )}
-      {arabicengishMelodies && item.ArabicEnglish !== undefined && (
-        <View style={styles.textView}>
-          <Text style={[styles.english, commonTextStyle]}>
-            {item?.ArabicEnglish}
+      {arabicengishMelodies && (
+        <View style={[styles.textView, { flex: 1 }]}>
+          {/* Ensure it expands */}
+          <Text
+            style={[
+              styles.english,
+              commonTextStyle,
+              {
+                lineHeight: fontSize * 1.5,
+                flex: 1,
+              },
+            ]}
+          >
+            {item.ArabicEnglish}
           </Text>
         </View>
       )}
@@ -72,15 +95,14 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     borderColor: "black",
     width: "100%",
+    flexWrap: "wrap", // Allow content to wrap if it exceeds width
   },
   textView: {
     flex: 1,
     margin: 5,
+    maxWidth: "100%", // Prevent overflow and keep text within bounds
   },
-  arabic: {
-    fontFamily: "arabic-font",
-    writingDirection: "rtl",
-  },
+
   english: {
     fontFamily: "english-font",
   },

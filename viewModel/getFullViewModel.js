@@ -189,7 +189,6 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
 
       key++;
     }
-
     const visibleParts = Hymn.filter((part) => {
       const temppath =
         part.SAINT !== undefined &&
