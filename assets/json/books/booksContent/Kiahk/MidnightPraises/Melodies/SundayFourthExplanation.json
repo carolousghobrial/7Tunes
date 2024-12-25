@@ -6,7 +6,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "North",
       "Arabic": "يا قسط ذهب غالى,\nوالمن المخفى جواه,\nرمزاً وإشارة,\nعليكِ ياوالدة الإله",
       "English": "O golden vessel,\nWho bore the Logos,\nWho is the Manna,\nO Theotokos",
@@ -15,7 +15,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "North",
       "Arabic": "يا حجر الجوهر,\nياسفينة النجاة,\nطوباكِ يا مريم,\nيا إبنة صهيون",
       "English": "O the precious gem,\nShip of salvation,\nBlessed is Mary,\nDaughter of Zion",
@@ -24,7 +24,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "South",
       "Arabic": "يا سلم يعقوب,\nحملت الديان,\nوصار فى أحشاكِ محجوب,\nوولدته شبه إنسان",
       "English": "Ladder of Jacob,\nThe Judge dwelt in you,\nYou bore Jesus Christ,\nWe have been renewed",
@@ -33,7 +33,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "South",
       "Arabic": "وشفى كل المرضى,\nوفتَّح العميان,\nوأقام الميت,\nبعد أن كان مدفون",
       "English": "He healed all the sick,\nRestored the blind's sight,\nAnd he raised the dead,\nInstilled in them His might",
@@ -42,7 +42,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "North",
       "Arabic": "ياعصاة هارون,\nنورتِ الأزهار,\nياقبة موسى,\nالمملؤة أنوار",
       "English": "You are Aaron's rod,\nThat buds with flowers,\nYou are Moses' dome,\nFilled with all power",
@@ -51,7 +51,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "North",
       "Arabic": "وكرمة مغروسة,\nحاملة الأثمار,\nوبكِ نلنا الغفران,\nيا جوهر مكنون",
       "English": "You are the vineyard,\nThat has become the Fruit,\nGranting forgiveness,\nTo the destitute",
@@ -60,7 +60,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "South",
       "Arabic": "داود قال فى المزمور,\nوقال فى القيثارات,\nالرب إختار صهيون,\nوسكن فيها بثبات",
       "English": "David's psalm did say,\nTo it we refer,\nThe Lord chose Zion,\nHe has dwelt in her",
@@ -69,7 +69,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "South",
       "Arabic": "هذا كله مثال,\nو رمزاً وإشارات,\nعليكِ يا مريم,\nيا إبنة صهيون",
       "English": "These are all symbols,\nThat resemble you,\nDaughter of Zion,\nLet us now praise you",
@@ -78,7 +78,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "North",
       "Arabic": "الربُّ إختار حُسنِك,\nوسكن فيكِ الإله,\nوولدته ورضع لبن,\nثدييكِ بفاه",
       "English": "You are beautiful,\nThe Lord God chose you,\nHe dwelt in your womb,\nAnd was nursed by you",
@@ -87,7 +87,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "North",
       "Arabic": "إرتفعتِ جداً,\nوصرتِ كأعلى سماه,\nفقتِ كل الرؤساء,\nوالأبرار والصديقون",
       "English": "Higher than Heaven,\nAnd all of the ranks,\nYou are more righteous,\nTo you we give thanks",
@@ -96,7 +96,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "South",
       "Arabic": "فقتِ الشاروبيم,\nيا ستّ الأبكار,\nوأيضاً السارافيم,\nالمملؤة أنوار",
       "English": "O pride of virgins,\nAbove the cherubim,\nYou are higher than,\nAll the Seraphim",
@@ -105,7 +105,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "South",
       "Arabic": "يا إبنة يواقيم,\nمن نسل الأبرار,\nوخلصتِ آدم,\nبعد أن كان مسجون",
       "English": "Born of Joachim,\nFrom the upright seed,\nYour Son saved Adam,\nAnd from bondage freed",
@@ -114,7 +114,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "North",
       "Arabic": "يا مملؤة نعمة,\nيا طهر الأطهار,\nيا أمّ الرحمة,\nيا نور الأنوار",
       "English": "O you full of grace,\nYou are beautiful,\nBrighter than all light,\nBore the Merciful",
@@ -123,7 +123,7 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "North",
       "Arabic": "أزلتِ عنَّا الظلمة,\nوبكِ صرنا أحرار,\nوورثنا الملكوت,\nبعمادنا بالميرون",
       "English": "Your Son shone on us,\nThrough the Baptism,\nWe have become heirs,\nConfirmed by Chrism",
@@ -132,10 +132,10 @@
     {
       "Type": "Melody",
       "Rule": 0,
-      "Visible": "true",
+      "Visible": true,
       "Side": "Refrain",
       "Arabic": "السلام لك يا مريم\nيا مملؤة نعمة\nيا مشتملة بالأنوار \nيا أم الرحمة\nإشفعى فينا \nفى يوم الزحمة \nبك نلنا كل خلاص\nيـا إبنة صهيون",
-      "English": "Hail to you Mary/ Engulfed in pure light / Mother of Mercy/Your splendor is brightIntercede for us On the Judgement Dav/ Your Son has saved us / Daughter of Zion",
+      "English": "Hail to you Mary/ Engulfed in pure light / Mother of Mercy/Your splendor is brightIntercede for us On the Judgement Day/ Your Son has saved us / Daughter of Zion",
       "ArabicEnglish": "El Salamo laki ya Mariam \n ya mamlo2a ne3ma \n ya moshtamla bel anwar \n ya om elra7ma  \nEshfa3i fina \n fi yom elza7ma \n bek nolna kol kholas \n ya ebnat Sihyon  \n"
     }
   ]

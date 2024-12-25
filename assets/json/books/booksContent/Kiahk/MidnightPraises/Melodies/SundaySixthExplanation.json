@@ -70,10 +70,28 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام لكِ يا مريم,\nيا هيكل منصان,\nنورك أشرق فينا,\nوملأ كل الاكوان",
+      "English": "O pillar of faith,\nWe offer you praise,\nWe are Orthodox,\nAnd bless you always",
+      "ArabicEnglish": "El-salamo laki ya Mariam  \nYa haykal monsan  \nNoorek ashraq feena  \nW mala2 kol el-akwan  \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "South",
       "Arabic": "نقرئك كل سلام,\nفى كل مساء وصباح,\nيا عمود دين,\nالأرثوذكسيين",
       "English": "In the Song of Songs,\nSolomon did write,\nMy sister my spouse,\nFor she is upright",
       "ArabicEnglish": "Noqre2ek kol salam  \nFe kol masa2 w saba7  \nYa 3amood deen  \nEl-Orthodoxyeen  \n"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وحملتِ الخالق,\nإبن الله الديان,\nوولدتيه كإنسان,\nباللاهوت متحداً",
+      "English": "Your aroma spread,\nAnd it did increase,\nThe king gave symbols,\nIn his prophecies",
+      "ArabicEnglish": "W 7amalti el-khaleq  \nEbn Allah el-dayan  \nW waladti ka-ensan  \nBelahoot mota7edan  \n"
     },
     {
       "Type": "Melody",
@@ -115,27 +133,9 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "السلام لكِ يا مريم,\nيا هيكل منصان,\nنورك أشرق فينا,\nوملأ كل الاكوان",
-      "English": "O pillar of faith,\nWe offer you praise,\nWe are Orthodox,\nAnd bless you always",
-      "ArabicEnglish": "El-salamo laki ya Mariam  \nYa haykal monsan  \nNoorek ashraq feena  \nW mala2 kol el-akwan  \n"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "وحملتِ الخالق,\nإبن الله الديان,\nوولدتيه كإنسان,\nباللاهوت متحداً",
-      "English": "Your aroma spread,\nAnd it did increase,\nThe king gave symbols,\nIn his prophecies",
-      "ArabicEnglish": "W 7amalti el-khaleq  \nEbn Allah el-dayan  \nW waladti ka-ensan  \nBelahoot mota7edan  \n"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
       "Side": "Refrain",
       "Arabic": "السلام لك يا مريم\nيا مملؤة نعمة\nيا مشتملة بالأنوار \nيا أم الرحمة\nإشفعى فينا \nفى يوم الزحمة \nبك نلنا كل خلاص\nيـا إبنة صهيون",
-      "English": "Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Dav\n  Your Son has saved us\n  Daughter of Zion",
+      "English": "Hail to you Mary\n Engulfed in pure light\n  Mother of Mercy\n Your splendor is bright.\nIntercede for us\n  On the Judgement Day\n  Your Son has saved us\n  Daughter of Zion",
       "ArabicEnglish": "El Salamo laki ya Mariam \n ya mamlo2a ne3ma \n ya moshtamla bel anwar \n ya om elra7ma  \nEshfa3i fina \n fi yom elza7ma \n bek nolna kol kholas \n ya ebnat Sihyon  \n"
     }
   ]

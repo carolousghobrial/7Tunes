@@ -822,8 +822,13 @@ const isWatos = (motherSource, path) => {
     return false;
   }
 
-  if (motherSource === "vespers" && new Date().getDay() === 6) {
-    return true;
+  if (motherSource === "vespers") {
+    switch (new Date().getDay()) {
+      case 3:
+        return false;
+      case 6:
+        return true;
+    }
   }
 
   // If any of the conditions is met, return true, otherwise, return false

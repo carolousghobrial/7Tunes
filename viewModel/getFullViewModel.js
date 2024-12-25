@@ -545,11 +545,7 @@ export function GetTodaysReadingPath(path) {
 
       if (isWeek1to4) {
         filePath = updateFilePath(
-          `Sundays${currentSeason.copticMonth}Week${
-            isTakeFromHathorTwo && isKoiahkMonth
-              ? currentSeason.weekOfMonth + 1
-              : currentSeason.weekOfMonth
-          }`
+          `Sundays${currentSeason.copticMonth}Week${currentSeason.weekOfMonth}`
         );
       } else if (isTakeFromHathorTwo && isHathorMonth && isWeek5) {
         filePath = updateFilePath("SundaysKoiahkWeek1");
