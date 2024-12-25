@@ -41,7 +41,26 @@ export function getFullViewModel(motherSource, mother) {
   const ViewArray = [];
   const MenuArray = [];
   let key = 0;
-  const visibleHymns = homescreenPaths[motherSource].Main.filter((hymn) => {
+
+  const hymns = homescreenPaths[motherSource]?.Main || [];
+  const visibleHymns = hymns.filter((hymn) =>
+    isHymnVisible(hymn, motherSource, mother)
+  );
+
+  visibleHymns.forEach((item) => {
+    if (item.Type === "Title") {
+      updateTitles(item);
+    } else {
+      processItem(item);
+    }
+  });
+
+  addReturnButton();
+
+  return [ViewArray, MenuArray];
+
+  // Helper functions
+  function isHymnVisible(hymn, motherSource, mother) {
     const temppath = hymn.SAINT || hymn.Path;
     const tempMother = mother || motherSource;
     return (
@@ -49,31 +68,29 @@ export function getFullViewModel(motherSource, mother) {
       mother === "index" ||
       VisibleRules[hymn.Visible]?.(tempMother, temppath)
     );
-  }).forEach((item) => {
-    if (item.type === "Title") {
-      ({ Arabic, Coptic, English } = item);
-    } else {
-      switch (item.Type) {
-        case "Main":
-        case "Default":
-          processMainOrDefault(item);
-          break;
-        case "MainWithTitle":
-          processMainWithTitle(item);
-          break;
-        case "Ritual":
-        case "GetDaysReading":
-          processRitualOrGetDaysReading(item);
-          break;
-        default:
-          pushToArrays(item, key++, false);
-          break;
-      }
-    }
-  });
+  }
+
+  function updateTitles(item) {
+    arabicttl = item.Arabic || arabicttl;
+    copticttl = item.Coptic || copticttl;
+    englishttl = item.English || englishttl;
+  }
+
+  function processItem(item) {
+    const typeHandlers = {
+      Main: processMainOrDefault,
+      Default: processMainOrDefault,
+      MainWithTitle: processMainWithTitle,
+      Ritual: processRitualOrGetDaysReading,
+      GetDaysReading: processRitualOrGetDaysReading,
+      default: () => pushToArrays(item, key++, false),
+    };
+
+    (typeHandlers[item.Type] || typeHandlers.default)(item);
+  }
 
   function processMainOrDefault(item) {
-    const [tempView, tempMenu, mykey] = getMain(
+    const [tempView, tempMenu, updatedKey] = getMain(
       item.Path,
       motherSource,
       false,
@@ -81,18 +98,19 @@ export function getFullViewModel(motherSource, mother) {
       key,
       item.Switch
     );
-    key = mykey;
+    key = updatedKey;
     ViewArray.push(...tempView);
     MenuArray.push(...tempMenu);
   }
+
   function processMainWithTitle(item) {
-    const [tempView, tempMenu, mykey] = getMainWithTitle(
+    const [tempView, tempMenu, updatedKey] = getMainWithTitle(
       item.Path,
       motherSource,
       item.Rule,
       key
     );
-    key = mykey;
+    key = updatedKey;
     ViewArray.push(...tempView);
     MenuArray.push(...tempMenu);
   }
@@ -101,7 +119,7 @@ export function getFullViewModel(motherSource, mother) {
     if (item.Type === "GetDaysReading") {
       const filePath = GetTodaysReadingPath(item.Path);
       if (filePath !== "Katamaros") {
-        const [tempView, tempMenu, mykey] = getMain(
+        const [tempView, tempMenu, updatedKey] = getMain(
           filePath,
           motherSource,
           false,
@@ -109,7 +127,7 @@ export function getFullViewModel(motherSource, mother) {
           key,
           undefined
         );
-        key = mykey;
+        key = updatedKey;
         ViewArray.push(...tempView);
         MenuArray.push(...tempMenu);
       }
@@ -118,23 +136,10 @@ export function getFullViewModel(motherSource, mother) {
     }
   }
 
-  pushToArrays(
-    {
-      Type: "Button",
-      Arabic: " العودة",
-      English: "Return",
-      Rule: "PopPage",
-      Visible: true,
-      Path: "",
-    },
-    key++
-  );
-
-  return [ViewArray, MenuArray];
-
-  function pushToArrays(item, currentKey, ritual) {
+  function pushToArrays(item, currentKey, isRitual) {
     const { English, Coptic, Arabic } = item;
-    if (!ritual) {
+
+    if (!isRitual) {
       MenuArray.push({
         EnglishTitle: English,
         CopticTitle: Coptic,
@@ -151,6 +156,18 @@ export function getFullViewModel(motherSource, mother) {
       ArabicTitle: arabicttl,
     });
   }
+
+  function addReturnButton() {
+    const returnButton = {
+      Type: "Button",
+      Arabic: " العودة",
+      English: "Return",
+      Rule: "PopPage",
+      Visible: true,
+      Path: "",
+    };
+    pushToArrays(returnButton, key++);
+  }
 }
 
 export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
@@ -158,17 +175,14 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
   const myMenuArray = [];
   const myViewArray = [];
   const book = bookPaths[Path];
+
   try {
     const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
-    if (!inHymn && EnglishTitle !== undefined && EnglishTitle !== "") {
-      const menuEntry = {
-        EnglishTitle,
-        CopticTitle,
-        ArabicTitle,
-        key,
-      };
 
+    if (!inHymn && EnglishTitle) {
+      const menuEntry = { EnglishTitle, CopticTitle, ArabicTitle, key };
       myMenuArray.push(menuEntry);
+
       myViewArray.push({
         EnglishTitle,
         CopticTitle,
@@ -182,93 +196,32 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
           Coptic: CopticTitle,
           English: EnglishTitle,
           Switch: switchWord,
-          Path: Path,
+          Path,
         },
         key,
       });
 
       key++;
     }
-    const visibleParts = Hymn.filter((part) => {
-      const temppath =
-        part.SAINT !== undefined &&
-        !motherSource?.toLowerCase().includes("index")
-          ? part.SAINT
-          : part.Path;
 
-      const isPartVisible =
-        part.Visible === true ||
-        VisibleRules[part.Visible]?.(motherSource, temppath) ||
-        (motherSource?.toLowerCase().includes("index") &&
-          !motherSource?.toLowerCase().includes("papal"));
+    const visibleParts = Hymn.filter((part) =>
+      isPartVisible(part, motherSource)
+    );
 
-      return isPartVisible;
-    }).forEach((part) => {
-      const processMainType = () => {
-        const [tempView, , mykey] = getMain(
-          part.Path,
-          motherSource,
-          true,
-          thisRule,
-          key
-        );
-        key = mykey;
-        myViewArray.push(...tempView);
-      };
-      const processMainTypePalmSunday = () => {
-        const [tempView, , mykey] = getMain(
-          part.Path,
-          motherSource,
-          false,
-          thisRule,
-          key
-        );
-        key = mykey;
-        myViewArray.push(...tempView);
-      };
-
-      const processGetDaysReadingType = () => {
-        const filePath = GetTodaysReadingPath(part.Path);
-        if (filePath !== "Katamaros") {
-          const [tempView, , mykey] = getMain(
-            filePath,
-            motherSource,
-            false,
-            thisRule,
-            key
-          );
-          key = mykey;
-          myViewArray.push(...tempView);
-        }
-      };
-
-      const processOtherTypes = () => {
-        const newRule = thisRule !== 0 ? thisRule : motherSource;
-        const addPart = addItemsToArray(part, newRule);
-        myViewArray.push({
-          part: addPart,
-          path: Path,
-          key,
+    visibleParts.forEach((part) => {
+      key = processInnerPart(
+        part,
+        motherSource,
+        thisRule,
+        key,
+        myViewArray,
+        Path,
+        {
           EnglishTitle,
           CopticTitle,
           ArabicTitle,
-        });
-        key++;
-      };
-      switch (part.Type) {
-        case "Main":
-          processMainType();
-          break;
-        case "GetDaysReading":
-          processGetDaysReadingType();
-          break;
-        case "GetDaysReadingPalmSunday":
-          processMainTypePalmSunday();
-          break;
-        default:
-          processOtherTypes();
-          break;
-      }
+        }
+      );
     });
   } catch (err) {
     myMenuArray.pop();
@@ -277,23 +230,93 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
 
   return [myViewArray, myMenuArray, key];
 }
+
+function processInnerPart(
+  part,
+  motherSource,
+  thisRule,
+  key,
+  myViewArray,
+  Path,
+  titles
+) {
+  const { EnglishTitle, CopticTitle, ArabicTitle } = titles;
+
+  const addViewEntry = (addPart) => {
+    myViewArray.push({
+      part: addPart,
+      path: Path,
+      key,
+      EnglishTitle,
+      CopticTitle,
+      ArabicTitle,
+    });
+    key++;
+  };
+
+  const handlers = {
+    Main: () => {
+      const [tempView, , newKey] = getMain(
+        part.Path,
+        motherSource,
+        true,
+        thisRule,
+        key
+      );
+      myViewArray.push(...tempView);
+      key = newKey;
+    },
+    GetDaysReading: () => {
+      const filePath = GetTodaysReadingPath(part.Path);
+      if (filePath !== "Katamaros") {
+        const [tempView, , newKey] = getMain(
+          filePath,
+          motherSource,
+          false,
+          thisRule,
+          key
+        );
+        myViewArray.push(...tempView);
+        key = newKey;
+      }
+    },
+    GetDaysReadingPalmSunday: () => {
+      const [tempView, , newKey] = getMain(
+        part.Path,
+        motherSource,
+        false,
+        thisRule,
+        key
+      );
+      myViewArray.push(...tempView);
+      key = newKey;
+    },
+    default: () => {
+      const newRule = thisRule || motherSource;
+      const addPart = addItemsToArray(part, newRule);
+      addViewEntry(addPart);
+    },
+  };
+
+  (handlers[part.Type] || handlers.default)();
+  return key;
+}
+
 export function getMainWithTitle(Path, motherSource, rule, key) {
   const thisRule = rule;
   const myMenuArray = [];
   const myViewArray = [];
   const book = bookPaths[Path];
+
   try {
     const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
-    if (EnglishTitle !== undefined && EnglishTitle !== "") {
-      const menuEntry = {
-        EnglishTitle,
-        CopticTitle,
-        ArabicTitle,
-        key,
-      };
 
+    // Process title if it exists
+    if (EnglishTitle) {
+      const menuEntry = { EnglishTitle, CopticTitle, ArabicTitle, key };
       myMenuArray.push(menuEntry);
-      myViewArray.push({
+
+      const titleView = {
         EnglishTitle,
         CopticTitle,
         ArabicTitle,
@@ -309,97 +332,93 @@ export function getMainWithTitle(Path, motherSource, rule, key) {
           Path: Path,
         },
         key,
-      });
-
+      };
+      myViewArray.push(titleView);
       key++;
     }
 
-    const visibleParts = Hymn.filter((part) => {
-      const temppath =
-        part.SAINT !== undefined &&
-        !motherSource?.toLowerCase().includes("index")
-          ? part.SAINT
-          : part.Path;
-
-      const isPartVisible =
-        part.Visible === true ||
-        VisibleRules[part.Visible]?.(motherSource, temppath) ||
-        (motherSource?.toLowerCase().includes("index") &&
-          !motherSource?.toLowerCase().includes("papal"));
-
-      return isPartVisible;
-    }).forEach((part) => {
-      const processMainType = () => {
-        const [tempView, , mykey] = getMain(
-          part.Path,
-          motherSource,
-          true,
-          thisRule,
-          key
-        );
-        key = mykey;
-        myViewArray.push(...tempView);
-      };
-      const processMainTypePalmSunday = () => {
-        const [tempView, , mykey] = getMainWithTitle(
-          part.Path,
-          motherSource,
-          thisRule,
-          key
-        );
-        key = mykey;
-        myViewArray.push(...tempView);
-      };
-
-      const processGetDaysReadingType = () => {
-        const filePath = GetTodaysReadingPath(part.Path);
-        if (filePath !== "Katamaros") {
-          const [tempView, , mykey] = getMain(
-            filePath,
-            motherSource,
-            false,
-            thisRule,
-            key
-          );
-          key = mykey;
-          myViewArray.push(...tempView);
-        }
-      };
-
-      const processOtherTypes = () => {
-        const newRule = thisRule !== 0 ? thisRule : motherSource;
-        const addPart = addItemsToArray(part, newRule);
-        myViewArray.push({
-          part: addPart,
-          path: Path,
-          key,
-          EnglishTitle,
-          CopticTitle,
-          ArabicTitle,
-        });
-        key++;
-      };
-
-      switch (part.Type) {
-        case "Main":
-          processMainType();
-          break;
-        case "GetDaysReading":
-          processGetDaysReadingType();
-          break;
-        case "GetDaysReadingPalmSunday":
-          processMainTypePalmSunday();
-          break;
-        default:
-          processOtherTypes();
-          break;
-      }
+    // Filter and process visible hymn parts
+    Hymn.filter((part) => isPartVisible(part, motherSource)).forEach((part) => {
+      key = processPart(part, motherSource, thisRule, key, myViewArray, Path, {
+        EnglishTitle,
+        CopticTitle,
+        ArabicTitle,
+      });
     });
   } catch (err) {
     myMenuArray.pop();
   }
 
   return [myViewArray, myMenuArray, key];
+}
+
+// Helper function to check if a part is visible
+function isPartVisible(part, motherSource) {
+  const temppath =
+    part.SAINT && !motherSource?.toLowerCase().includes("index")
+      ? part.SAINT
+      : part.Path;
+
+  return (
+    part.Visible === true ||
+    VisibleRules[part.Visible]?.(motherSource, temppath) ||
+    (motherSource?.toLowerCase().includes("index") &&
+      !motherSource?.toLowerCase().includes("papal"))
+  );
+}
+
+function processPart(
+  part,
+  motherSource,
+  thisRule,
+  key,
+  myViewArray,
+  Path,
+  titles
+) {
+  const { EnglishTitle, CopticTitle, ArabicTitle } = titles;
+
+  const addViewEntry = (partDetails) => {
+    myViewArray.push({
+      part: partDetails,
+      path: Path,
+      key,
+      EnglishTitle,
+      CopticTitle,
+      ArabicTitle,
+    });
+    key++;
+  };
+
+  const processMain = (path, withTitle = false) => {
+    const func = withTitle ? getMainWithTitle : getMain;
+    const [tempView, , newKey] = func(
+      path,
+      motherSource,
+      withTitle,
+      thisRule,
+      key
+    );
+    myViewArray.push(...tempView);
+    key = newKey;
+  };
+
+  const handlers = {
+    Main: () => processMain(part.Path),
+    GetDaysReading: () => {
+      const filePath = GetTodaysReadingPath(part.Path);
+      if (filePath !== "Katamaros") processMain(filePath);
+    },
+    GetDaysReadingPalmSunday: () => processMain(part.Path, true),
+    default: () => {
+      const newRule = thisRule || motherSource;
+      const partDetails = addItemsToArray(part, newRule);
+      addViewEntry(partDetails);
+    },
+  };
+
+  (handlers[part.Type] || handlers.default)();
+  return key;
 }
 
 function addItemsToArray(part, thisRule) {
@@ -639,38 +658,26 @@ function findMatchingSubstring(str, substringsArray) {
   );
   return foundSubstring ? foundSubstring : "EMPTY";
 }
-
 function countSundays(yearSelected) {
-  const copticMonthFound = CopticMonthObjects.find(
+  const { month: copticMonth, day: copticDay } = CopticMonthObjects.find(
     (month) => month.name === "Koiahk"
   );
 
-  const copticDate = getCopticDate(
-    yearSelected,
-    copticMonthFound.month - 1,
-    copticMonthFound.day
-  );
+  const copticDate = getCopticDate(yearSelected, copticMonth - 1, copticDay);
+  const isHathorEnd = copticDate.month === "Hathor" && copticDate.day === 30;
 
-  let firstDay = moment([
+  const firstDay = moment([
     yearSelected,
-    copticMonthFound.month - 1,
-    copticMonthFound.day +
-      (copticDate.month === "Hathor" && copticDate.day === 30 ? 1 : 0),
+    copticMonth - 1,
+    copticDay + (isHathorEnd ? 1 : 0),
   ]);
 
-  // Calculate the number of days in the month
   const lastDay = moment(getParamounDate(moment([yearSelected + 1, 0, 7])));
 
-  let numSundays = 0;
+  const numSundays = Array.from(
+    { length: lastDay.diff(firstDay, "days") },
+    (_, i) => firstDay.clone().add(i, "days")
+  ).filter((day) => day.day() === 0).length;
 
-  for (
-    let currentDay = firstDay.clone();
-    currentDay.isBefore(lastDay);
-    currentDay.add(1, "day")
-  ) {
-    if (currentDay.day() === 0) {
-      numSundays++;
-    }
-  }
   return numSundays;
 }
