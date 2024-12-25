@@ -25,7 +25,7 @@
             "hasSubBooks": true,
             "BookPath": "pascha",
             "ImageURL": "pascha",
-            "Enabled": true
+            "Enabled": false
         },
         {
             "EnglishTitle": "The Veneration",

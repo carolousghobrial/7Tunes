@@ -31,7 +31,7 @@
             "hasSubBooks": true,
             "BookPath": "liturgyMenu",
             "ImageURL": "holyliturgy",
-            "Enabled": true,
+            "Enabled": false,
             "PermissionStatus": "holyLiturgyPermission",
             "PurchaseKey": "LiturgyOffering",
             "offering": "LiturgyOffering"

@@ -9,7 +9,7 @@
             "hasSubBooks": false,
             "BookPath": "standardPsalmody",
             "ImageURL": "david",
-            "Enabled": true,
+            "Enabled": false,
             "BishopButton": true
         },
         {
@@ -20,7 +20,7 @@
             "hasSubBooks": false,
             "BookPath": "kiahkPsalmody",
             "ImageURL": "annuciation",
-            "Enabled": true,
+            "Enabled": false,
             "BishopButton": true
         },
         {
@@ -32,7 +32,7 @@
             "hasSubBooks": false,
             "BookPath": "lentenPsalmody",
             "ImageURL": "lent",
-            "Enabled": true,
+            "Enabled": false,
             "BishopButton": true
         }
     ]
