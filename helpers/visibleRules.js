@@ -277,9 +277,9 @@ const isKiahkSeason = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
   if (
-    currentSeason.key === "NATIVITY_FAST" &&
-    path?.toLowerCase()?.includes("kiahk") &&
-    (currentSeason.copticMonth === "Koiahk" || TakeFromHathor(currentSeason))
+    (currentSeason.key === "NATIVITY_FAST" &&
+      currentSeason.copticMonth === "Koiahk") ||
+    TakeFromHathor(currentSeason)
   ) {
     return true;
   }

@@ -194,6 +194,7 @@ const bookPaths = {
   DoxologiesMajorFeastsCross: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/Cross.json"),
   DoxologiesMajorFeastsLazarusSaturday: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/LazarusSaturday.json"),
   DoxologiesMajorFeastsNativity: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/Nativity.json"),
+  DoxologiesMajorFeastsNativity2: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/Nativity2.json"),
   DoxologiesMajorFeastsNativityParamoun: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/NativityParamounDoxology.json"),
   DoxologiesMajorFeastsNativityMelody: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/NativityMelody.json"),
   DoxologiesMajorFeastsNayrooz: require("../assets/json/books/booksContent/Doxologies/MajorFeasts/Nayrooz.json"),

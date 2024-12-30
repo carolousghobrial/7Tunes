@@ -1,0 +1,52 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "2 ذكصولوجية عيد الميلاد",
+  "EnglishTitle": "Nativity Feast Doxology 2 ",
+  "CopticTitle": "Piouai `ebol =en :`triac",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الواحد من الثالوث، المساوي للآب في الجوهر، لما نظر إلى مذلتنا، وعبوديتنا المرة.",
+      "Coptic": "Piouai `ebol =en :`triac> pi`omooucioc nem `Viwt> `etafnau `epenqebio> nem tenmetbwk etoi `n]a]i.",
+      "English": "The One of the Trinity, co-essential to the Father, when He looked upon our tribulation, and our bitter slavery.",
+      "Arabiccoptic": "بى أواى ايفول خين تى إترياس: بى أوموأوسيوس نيم افيوت: إيطاف ناف إى بين ثيفيو نيم تين ميت فوك إتؤى انشاشى .",
+      "Englishcoptic": "Pi-owai evol khen ti-Etrias : pi-omo-osios nem efiot : etafnav epen-thevio : nem ten-metvok et-oi enshashi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "طأطأ سموات السموات، وأتى إلى بطن العذراء، وصار إنساناً مثلنا، ما خلا الخطية وحدها.",
+      "Coptic": "Afrek nivhou`i `nte nivhou`i> af`i `e`qmhtra `n:parqenoc> aferrwmi `mpenrh;> ]aten `vnobi `mmauatf.",
+      "English": "He bowed the heaven of heavens, and came to the womb of the Virgin. He became man like us, save for sin only.",
+      "Arabiccoptic": "أفريك نى فيؤيى إنتى نى فيؤيى: أفئى إى إثميترا إن تى بارثينوس: أف إرومى امبين ريتى: شاتين إفنوتى إممافاطف .",
+      "Englishcoptic": "Afrek ni-fiowi ente ni-fiowi : af-ee ethmetra enti-Parthenos : afer-romi empen-riti : shaten evnovi emma-vatf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لما وُلد في بيت لحم، كأخبار الأنبياء، أنقدنا وخلصنا، لأننا نحن شعبه.",
+      "Coptic": "`Etaumacf =en Bhqleem> kata ni`cmh `nte ni`provhthc> aftoujon afcw; `mmon> je `anon pe peflaoc.",
+      "English": "When He was born in Bethlehem, according to the prophecies, He saved and redeemed us, for we are His people.",
+      "Arabiccoptic": "إيطاف ماسف خين فيثليئيم: كاطا نى إسمى انتى نى إبروفيتيس: أف توجون أفسوتى إممون: جى آنون بى بيف لاؤس  .",
+      "Englishcoptic": "Etav-masf khen Vethle-em  : kata ni-esmi ente ni-eprophitis : afto-gon afsoti emon : je anon pe pef-laos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لم يزل إلهاً، أتى وصار إبن بشر، لكنه هو الإله الحقيقي، أتى وخلَّصنا.",
+      "Coptic": "`Etafkhn an efoi `nnou;> af`i af]wpi `n}hri `nrwmi> alla `nqof pe `Vnou; `mmhi> af`i ouo\\ afcw; `mmon.",
+      "English": "He did not cease to be divine, He came and became the Son of Man, for He is the true God, who came and saved us.",
+      "Arabiccoptic": "إيطاف كين آن إف أوي إن نوتي: أفئي أفشوبي إنشيري إنرومي:آل إنثوف بي إفنوتي إممي: أفئأووه أفسوتي إممون .",
+      "Englishcoptic": "Etaf-kin an ef-oi en-noti : af-ee afshopi enshiry enromi : alla enthof pe efnoti emmi : af-ee owoh afsoti emon."
+    }
+  ]
+}

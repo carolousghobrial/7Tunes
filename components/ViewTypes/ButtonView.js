@@ -45,7 +45,10 @@ function ButtonView({
 
   return (
     itemVisible !== "hide" && (
-      <TouchableOpacity style={{ marginHorizontal: 70 }} onPress={handlePress}>
+      <TouchableOpacity
+        style={{ marginHorizontal: 70 }}
+        onPress={() => handlePress()}
+      >
         <View style={[styles.bookView, { flexDirection: flex }]}>
           <Text style={[styles.text, { fontSize }]}>{item.English}</Text>
           <Text style={[styles.text, { fontSize }]}>{item.Arabic}</Text>

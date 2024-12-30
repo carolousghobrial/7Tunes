@@ -82,6 +82,15 @@
             "Visible": "isSeason"
         },
         {
+            "Type": "Accordion",
+            "Path": "DoxologiesMajorFeastsNativity2",
+            "Rule": 0,
+            "Visible": "isSeason",
+            "Arabic": "2 ذكصولوجية عيد الميلاد",
+            "English": "Nativity Feast Doxology 2 ",
+            "Coptic": "Piouai `ebol =en :`triac"
+        },
+        {
             "Type": "Main",
             "Path": "DoxologiesMajorFeastsCircumcision",
             "Rule": 0,

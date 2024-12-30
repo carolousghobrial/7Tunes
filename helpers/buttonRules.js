@@ -5,7 +5,6 @@ import {
   Alert,
   Share,
 } from "react-native";
-import { getFullViewModel } from "../viewModel/getFullViewModel";
 import { useLocalSearchParams, useNavigation, useRouter } from "expo-router";
 import { setBookScrollTo } from "../stores/redux/book.js";
 
@@ -17,12 +16,25 @@ function ButtonRules(
   router,
   dispatch
 ) {
-  const openBookScreen = (switchScreen = false) => {
-    const routeMethod = switchScreen ? "replace" : "push";
+  // Helper for updating item counts
+  const updateItemCount = () => {
+    const oldCount = item.Count;
+    item.Count++;
+    const oldReplacedString = `( ${oldCount} )`;
+    const newReplacedString = `( ${item.Count} )`;
+    item.English = item.English.replace(oldReplacedString, newReplacedString);
+    item.Arabic = item.Arabic.replace(oldReplacedString, newReplacedString);
 
+    if (item.Count >= 12) {
+      item.Visible = "hide";
+    }
+  };
+
+  // Unified book screen opener
+  const openBookScreen = (switchScreen = false) => {
     dispatch(setBookScrollTo({ bookScrollTo: 0 }));
 
-    router[routeMethod]({
+    router[switchScreen ? "replace" : "push"]({
       pathname: "/bookscreen/BookScreen",
       params: {
         bookPath: item.Path,
@@ -34,6 +46,7 @@ function ButtonRules(
     });
   };
 
+  // Open a single hymn view
   const openViewSingleHymn = () => {
     const { Path, Rule, English, Arabic } = item;
     router.push({
@@ -48,19 +61,12 @@ function ButtonRules(
     });
   };
 
+  // Scroll up button rule
   const ThokTeTiGomScrollUpButtonRule = () => {
     const index = viewData.findIndex(
       (part) => part.EnglishTitle === "Pascha Praise"
     );
-    const oldCount = item.Count;
-    item.Count++;
-    const oldReplacedString = `( ${oldCount} )`;
-    const newReplacedString = `( ${item.Count} )`;
-    item.English = item.English.replace(oldReplacedString, newReplacedString);
-    item.Arabic = item.Arabic.replace(oldReplacedString, newReplacedString);
-    if (item.Count >= 12) {
-      item.Visible = "hide";
-    }
+    updateItemCount();
     flatListRef.current.scrollToIndex({
       index: index + 3,
       animated: false,
@@ -68,12 +74,12 @@ function ButtonRules(
   };
 
   return {
-    OpenTheotokiaButtonRule: () => openBookScreen(),
-    OpenDoxologiesButtonRule: () => openBookScreen(),
-    OpenPalmSundayProcessionButtonRule: () => openBookScreen(),
-    OpenPageButtonRule: () => openBookScreen(),
+    OpenTheotokiaButtonRule: openBookScreen,
+    OpenDoxologiesButtonRule: openBookScreen,
+    OpenPalmSundayProcessionButtonRule: openBookScreen,
+    OpenPageButtonRule: openBookScreen,
     OpenNewPageButtonRule: () => openBookScreen(true),
-    ThokTeTiGomScrollUpButtonRule: () => ThokTeTiGomScrollUpButtonRule(true),
+    ThokTeTiGomScrollUpButtonRule,
     OpenSinglePageButtonRule: openViewSingleHymn,
     PopPage: () => router.back(),
   };

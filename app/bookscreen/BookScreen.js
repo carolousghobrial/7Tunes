@@ -38,7 +38,7 @@ const HeaderRightButtons = memo(({ onPressSettings, onPressContents }) => (
   <>
     <TouchableOpacity
       style={styles.settingsHeaderButton}
-      onPressIn={onPressSettings}
+      onPress={onPressSettings}
     >
       <MaterialCommunityIcons
         name="cog"
@@ -46,7 +46,7 @@ const HeaderRightButtons = memo(({ onPressSettings, onPressContents }) => (
         color={getColor("LabelColor")}
       />
     </TouchableOpacity>
-    <TouchableOpacity style={styles.headerButton} onPressIn={onPressContents}>
+    <TouchableOpacity style={styles.headerButton} onPress={onPressContents}>
       <MaterialCommunityIcons
         name="table-of-contents"
         size={40}
@@ -56,8 +56,51 @@ const HeaderRightButtons = memo(({ onPressSettings, onPressContents }) => (
   </>
 ));
 
-const BookScreen = memo(() => {
-  const { height, width } = useWindowDimensions();
+// renderItems function
+export const renderItems = ({
+  item,
+  navigation,
+  router,
+  dispatch,
+  bookPath,
+  flatListRef,
+  bookContents,
+  toggleAccordion,
+  expanded,
+}) => {
+  const viewTypeMap = {
+    Base: <BaseView item={item.part} mykey={item.key} />,
+    Melody: <MelodyView item={item.part} />,
+    Title: <TitleView item={item.part} navigation={navigation} />,
+    Ritual: <RitualView item={item.part} />,
+    MainTitle: <MainTitleView item={item.part} />,
+    Button: (
+      <ButtonView
+        router={router}
+        dispatch={dispatch}
+        mykey={item.key}
+        item={item.part}
+        motherSource={bookPath}
+        flatListRef={flatListRef}
+        viewData={bookContents}
+        navigation={navigation}
+      />
+    ),
+    Accordion: (
+      <AccordionView
+        mykey={item.key}
+        flatListRef={flatListRef}
+        item={item.part}
+        motherSource={bookPath}
+        toggleAccordion={toggleAccordion}
+        expanded={expanded}
+      />
+    ),
+  };
+  return viewTypeMap[item.part.Type];
+};
+
+const BookScreen = () => {
   const router = useRouter();
   const dispatch = useDispatch();
   const flatListRef = useRef();
@@ -66,9 +109,6 @@ const BookScreen = memo(() => {
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
   const pageBackgroundColor = getColor("pageBackgroundColor");
-  const pagination = useSelector((state) => state.settings.pagination);
-  const [navbarVisibility, setNavbarVisibility] = useState(true);
-  const [settingsModalVisible, setSettingsModalVisible] = useState(false);
   const bishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
@@ -83,26 +123,23 @@ const BookScreen = memo(() => {
   const bottomSheetRef = useRef(null);
   const contentsSheetRef = useRef(null);
   const navigation = useNavigation();
-
   const snapPoints = ["90%"];
-  const [navTitle, setNavTitle] = useState(bookContents[0]?.part.English);
-  const [currKey, setcurrKey] = useState(0);
 
   const [expanded, setExpanded] = useState([]);
-  const toggleAccordion = useCallback(
-    (index) => {
-      const expandedCopy = [...expanded];
-      expandedCopy[index] = !expandedCopy[index];
-      setExpanded(expandedCopy);
-    },
-    [expanded]
-  );
+
+  const toggleAccordion = useCallback((index) => {
+    setExpanded((prevExpanded) => {
+      const updatedExpanded = [...prevExpanded];
+      updatedExpanded[index] = !updatedExpanded[index];
+      return updatedExpanded;
+    });
+  }, []);
 
   useEffect(() => {
     const fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
     const fontsize = isTablet ? 30 : 15;
     navigation.setOptions({
-      title: navTitle,
+      title: bookContents[0]?.part.English,
       headerStyle: {
         backgroundColor: NavigationBarColor,
       },
@@ -115,7 +152,7 @@ const BookScreen = memo(() => {
     setTimeout(() => {
       setIsLoading(false);
     }, 10);
-  }, [navTitle, appLanguage, bookContents, flatListRef]);
+  }, [appLanguage, bookContents, flatListRef]);
 
   const [currentPage, setCurrentPage] = useState(1);
   const [allDataLoaded, setAllDataLoaded] = useState(false);
@@ -152,14 +189,13 @@ const BookScreen = memo(() => {
   const contentsClose = () => contentsSheetRef?.current.dismiss();
 
   useEffect(() => {
-    const headerRightComponent = () => (
-      <HeaderRightButtons
-        onPressSettings={settingsPressed}
-        onPressContents={contentsPressed}
-      />
-    );
     navigation.setOptions({
-      headerRight: headerRightComponent,
+      headerRight: () => (
+        <HeaderRightButtons
+          onPressSettings={settingsPressed}
+          onPressContents={contentsPressed}
+        />
+      ),
     });
   }, []);
 
@@ -167,8 +203,6 @@ const BookScreen = memo(() => {
     const item = bookContents.find(({ key: itemKey }) => itemKey === key.key);
     if (!item) return;
     const title = appLanguage === "eng" ? item.EnglishTitle : item.ArabicTitle;
-    setNavTitle(title);
-    setcurrKey(key);
     flatListRef.current.scrollToIndex({
       index: item.key,
       animated: false,
@@ -176,40 +210,29 @@ const BookScreen = memo(() => {
     contentsSheetRef?.current?.dismiss();
   };
 
-  const renderItems = useCallback(
-    ({ item }) => {
-      const viewTypeMap = {
-        Base: <BaseView item={item.part} mykey={item.key} />,
-        Melody: <MelodyView item={item.part} />,
-        Title: <TitleView item={item.part} navigation={navigation} />,
-        Ritual: <RitualView item={item.part} />,
-        MainTitle: <MainTitleView item={item.part} />,
-        Button: (
-          <ButtonView
-            router={router}
-            dispatch={dispatch}
-            mykey={item.key}
-            item={item.part}
-            motherSource={bookPath}
-            flatListRef={flatListRef}
-            viewData={bookContents}
-            navigation={navigation}
-          />
-        ),
-        Accordion: (
-          <AccordionView
-            mykey={item.key}
-            flatListRef={flatListRef}
-            item={item.part}
-            motherSource={bookPath}
-            toggleAccordion={toggleAccordion}
-            expanded={expanded}
-          />
-        ),
-      };
-      return viewTypeMap[item.part.Type];
-    },
-    [expanded, bookContents, navigation, toggleAccordion]
+  const memoizedRenderItems = useCallback(
+    (props) =>
+      renderItems({
+        ...props,
+        navigation,
+        router,
+        dispatch,
+        bookPath,
+        flatListRef,
+        bookContents,
+        toggleAccordion,
+        expanded,
+      }),
+    [
+      navigation,
+      router,
+      dispatch,
+      bookPath,
+      flatListRef,
+      bookContents,
+      toggleAccordion,
+      expanded,
+    ]
   );
 
   if (isLoading) {
@@ -246,7 +269,6 @@ const BookScreen = memo(() => {
       <ContentsModal
         bottomSheetRef={contentsSheetRef}
         snapPoints={snapPoints}
-        currentKey={currKey}
         menuData={menuData}
         contentsClose={contentsClose}
         scrollToKey={scrollToKey}
@@ -258,7 +280,7 @@ const BookScreen = memo(() => {
           initialNumToRender={bookContents.length}
           showsVerticalScrollIndicator={false}
           data={bookContents}
-          renderItem={renderItems}
+          renderItem={memoizedRenderItems}
           keyExtractor={(item) => item.key}
           bounces={false}
           removeClippedSubviews={true}
@@ -269,7 +291,7 @@ const BookScreen = memo(() => {
       </View>
     </BottomSheetModalProvider>
   );
-});
+};
 
 const styles = StyleSheet.create({
   settingsHeaderButton: {
