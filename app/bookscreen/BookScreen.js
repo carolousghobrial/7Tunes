@@ -113,9 +113,65 @@ const BookScreen = () => {
     (state) => state.settings.BishopIsPresent
   );
   const isAndroid = Platform.OS === "ios" ? false : true;
-
   const values = getFullViewModel(bookPath, motherSource);
-  const bookContents = values[0];
+  const [currentPath, setCurrentPath] = useState(values[0][0].path);
+  const [pageKey, setPageKey] = useState(0); // Key for forcing rerender
+
+  const [bookContents, setBookContents] = useState(
+    getFirstContinuousRangeWithUniquePaths(6, values[0])
+  );
+
+  function getFirstContinuousRangeWithUniquePaths(
+    pathCount,
+    data,
+    currentPaths = []
+  ) {
+    const uniquePaths = new Set(currentPaths);
+    let endIndex = -1;
+
+    // Iterate through the data and track unique paths
+    for (let i = 0; i < data.length; i++) {
+      const path = data[i].path || data[i].part?.Path;
+
+      if (path && !uniquePaths.has(path)) {
+        uniquePaths.add(path);
+
+        // Once we have enough unique paths, record the index and break
+        if (uniquePaths.size === pathCount) {
+          endIndex = i;
+          break;
+        }
+      }
+    }
+
+    // If we found the required number of unique paths, return the slice; otherwise, return all data
+    return endIndex !== -1 ? data.slice(0, endIndex + 1) : data;
+  }
+
+  const handleViewableItemsChanged = useCallback(
+    ({ viewableItems }) => {
+      const firstItem = viewableItems[0]?.item;
+
+      if (firstItem) {
+        const newPath = firstItem.part?.Path || firstItem.path;
+
+        if (newPath && currentPath !== newPath) {
+          setCurrentPath(newPath);
+
+          setBookContents((prevContents) => {
+            const newRange = getFirstContinuousRangeWithUniquePaths(
+              1,
+              values[0],
+              prevContents.map((item) => item.path || item.part?.Path)
+            );
+            return newRange;
+          });
+        }
+      }
+    },
+    [currentPath, values]
+  );
+  //const [bookContents, bookContents] = boo;
   const [isLoading, setIsLoading] = useState(true);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const isTablet = useSelector((state) => state.settings.isTablet);
@@ -154,36 +210,6 @@ const BookScreen = () => {
     }, 10);
   }, [appLanguage, bookContents, flatListRef]);
 
-  const [currentPage, setCurrentPage] = useState(1);
-  const [allDataLoaded, setAllDataLoaded] = useState(false);
-  const [isFetching, setIsFetching] = useState(false);
-
-  const loadMoreData = async (targetIndex) => {
-    if (isFetching || allDataLoaded) return;
-
-    setIsFetching(true);
-
-    try {
-      const newData = await fetchMoreDataFromAPI(currentPage);
-      setData((prevData) => [...prevData, ...newData]);
-      setCurrentPage((prevPage) => prevPage + 1);
-
-      if (newData.length === 0) {
-        setAllDataLoaded(true);
-      }
-
-      if (data.length + newData.length > targetIndex) {
-        flatListRef.current.scrollToIndex({ index: targetIndex });
-      } else {
-        await loadMoreData(targetIndex);
-      }
-    } catch (error) {
-      console.error("Error loading more data:", error);
-    } finally {
-      setIsFetching(false);
-    }
-  };
-
   const settingsPressed = () => bottomSheetRef?.current.present();
   const contentsPressed = () => contentsSheetRef?.current.present();
   const contentsClose = () => contentsSheetRef?.current.dismiss();
@@ -200,16 +226,61 @@ const BookScreen = () => {
   }, []);
 
   const scrollToKey = (key) => {
-    const item = bookContents.find(({ key: itemKey }) => itemKey === key.key);
-    if (!item) return;
-    const title = appLanguage === "eng" ? item.EnglishTitle : item.ArabicTitle;
+    const targetIndex = values[0].findIndex(
+      ({ key: itemKey }) => itemKey === key.key
+    );
+
+    if (targetIndex === -1) return; // Exit if the key is not found
+
+    setIsLoading(true); // Start loading
+
+    // Check if data needs to be loaded
+    if (targetIndex >= bookContents.length) {
+      loadDataUntilIndex(targetIndex);
+    } else {
+      // Scroll directly if data is already loaded
+      scrollToIndex(targetIndex);
+    }
+  };
+
+  const loadDataUntilIndex = (targetIndex) => {
+    // Avoid redundant data loading
+    setBookContents((prevContents) => {
+      if (prevContents.length >= targetIndex + 1) return prevContents; // Data is already loaded
+
+      const newRangeStart = prevContents.length;
+      const newRangeEnd = targetIndex + 5; // Load up to the target index (inclusive)
+      const newData = values[0].slice(newRangeStart, newRangeEnd);
+
+      return [...prevContents, ...newData];
+    });
+
+    setPageKey((prevKey) => prevKey + 1); // Increment page key after loading new data
+
+    // Use setTimeout to scroll after the data is loaded and rendered
+    setTimeout(() => {
+      scrollToIndex(targetIndex);
+    }, 100); // Ensure the state update and render are complete before scrolling
+  };
+
+  const scrollToIndex = (targetIndex) => {
     flatListRef.current.scrollToIndex({
-      index: item.key,
+      index: targetIndex,
       animated: false,
     });
+    setIsLoading(false); // Stop loading after scrolling is complete
     contentsSheetRef?.current?.dismiss();
   };
 
+  // Handle scroll failures
+  const handleScrollToIndexFailed = ({ index }) => {
+    setTimeout(() => {
+      flatListRef.current.scrollToIndex({
+        index,
+        animated: false, // You can keep this as true for smooth scrolling
+      });
+    }, 200); // Add a small delay to allow items to be rendered
+  };
   const memoizedRenderItems = useCallback(
     (props) =>
       renderItems({
@@ -273,15 +344,17 @@ const BookScreen = () => {
         contentsClose={contentsClose}
         scrollToKey={scrollToKey}
       />
-      <View style={{ flex: 1 }}>
+      <View key={pageKey} style={{ flex: 1 }}>
         <FlatList
           ref={flatListRef}
           style={{ flex: 1, backgroundColor: pageBackgroundColor }}
           initialNumToRender={bookContents.length}
           showsVerticalScrollIndicator={false}
           data={bookContents}
+          onViewableItemsChanged={handleViewableItemsChanged}
           renderItem={memoizedRenderItems}
           keyExtractor={(item) => item.key}
+          onScrollToIndexFailed={handleScrollToIndexFailed} // Add error handler
           bounces={false}
           removeClippedSubviews={true}
         />

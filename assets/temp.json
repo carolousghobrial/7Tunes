@@ -1,284 +1,195 @@
 [
-    [
-        {
-            "Arabic": "أسجد لك، يا ربي يسوع المسيح، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " تينا أوؤشت إمموك: باتشويس إيسوس بيخريستوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": ":naouw]t `mmok> Pasoic Ihcouc Pi`xrictoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "I will worship You, : O my Lord Jesus Christ. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Tina oo-osht emmok: Pachois Isos Pi-ekhristos: pi-o-oo nak Alleluia: zoxa si o Theos.",
+    {
+        "ArabicTitle": "",
+        "CopticTitle": "",
+        "EnglishTitle": "",
+        "key": 0,
+        "part": {
+            "Arabic": "رفع بخور باكر",
+            "Coptic": "Ptalo  ~Mpi`cqoinoufi `nte |an`atoui",
+            "English": "Offering of Morning Incense",
+            "Rule": 0,
+            "Side": "Title",
+            "Type": "MainTitle",
+            "Visible": true
+        }
+    },
+    {
+        "ArabicTitle": "إيليسون إيماس / إرحمنا يا الله",
+        "CopticTitle": undefined,
+        "EnglishTitle": "Have mercy on us, O God (Eleison Emas)",
+        "key": 1,
+        "part": {
+            "Arabic": "إيليسون إيماس / إرحمنا يا الله",
+            "Coptic": undefined,
+            "English": "Have mercy on us, O God (Eleison Emas)",
+            "Path": "RaisingOfIncenseEleisonEmas",
+            "Side": "Title",
+            "Switch": undefined,
+            "Type": "Title",
+            "rule": -1,
+            "visible": 0
+        }
+    },
+    {
+        "ArabicTitle": "إيليسون إيماس / إرحمنا يا الله",
+        "CopticTitle": undefined,
+        "EnglishTitle": "Have mercy on us, O God (Eleison Emas)",
+        "key": 2,
+        "part": {
+            "Arabic": "الكاهن:",
+            "Arabiccoptic": "بي أويب:",
+            "Coptic": "Piouhb>",
+            "English": "Priest:",
+            "Englishcoptic": "Pi-oweeb:",
+            "Rule": 0,
+            "Side": "Priest",
+            "Type": "Base",
+            "Visible": true
+        },
+        "path": "RaisingOfIncenseEleisonEmas"
+    },
+    {
+        "ArabicTitle": "إيليسون إيماس / إرحمنا يا الله",
+        "CopticTitle": undefined,
+        "EnglishTitle": "Have mercy on us, O God (Eleison Emas)",
+        "key": 3,
+        "part": {
+            "Arabic": "ارحَمننا يا الله الآبُ ضابطَ الكلِ. أيها الثالوثُ القدوسُ ارحَمْنا.",
+            "Arabicco      optic": "اليسون ايماس اوثيئوس اوباتير او باندوكراطور, بان اجيا اترياس اليسون ايماس",
+            "Coptic": "`Ele`hcon `hmac `o Qeoc `o Pathr `o Pantokratwr. Pan`agia `Triac `ele`hcon `hmac.",
+            "English": "Have mercy on us, O God, the Father, the Pantocrator. All-Holy Trinity, have mercy on us.",
+            "Englishcoptic": "Eleison emas o-theos o-patir o-pantokrator. Pan agia etrias eleison emas.",
             "Rule": 0,
             "Side": "North",
             "Type": "Base",
             "Visible": true
         },
-        {
-            "Arabic": "أهديني، أنا الحقير، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " تشي مويت ني آنوك: خابي إيلاكيستوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Simwit nhi `anok> =a pi`elaxictoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "Lead me O Lord, : I the poor. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Chi-moit nee anok: kha pi elash-estos: pi-o-oo nak Alleluia: zoxa si o Theos.",
+        "path": "RaisingOfIncenseEleisonEmas"
+    },
+    {
+        "ArabicTitle": "إيليسون إيماس / إرحمنا يا الله",
+        "CopticTitle": undefined,
+        "EnglishTitle": "Have mercy on us, O God (Eleison Emas)",
+        "key": 4,
+        "part": {
+            "Arabic": "أيها الربُّ إِلهَ القواتِ كُن معنا، لأنه ليس لنا معينٌ في شدائدِنا وضيقاتِنا          سواكَ.",
+            "Arabiccoptic": "ابشويس افنوتى انتى نى جوم شوبى نيمان جى اممون  انطان ان اوفو ايثوس خين نين اثليبسيس نيم نين هوجهيج ايفيل ايروك.",
+            "Coptic": "`Psoic `Vnou; `nte nijom ]wpi neman> je `mmon `ntan `noubo`hqoc =en nen`qli'ic nem nen\\oj\\ej `ebhl `erok.",
+            "English": "O Lord, God of hosts, be with us, for we have no helper in our tribulations and afflictions but You.",
+            "Englishcoptic": "Epchois Evnoti ente ni-gom shopi neman, je emon entan eno-vo-eison nem nen-ethlepsis nem nen-hogheg evil erok.",
             "Rule": 0,
             "Side": "North",
             "Type": "Base",
             "Visible": true
         },
-        {
-            "Arabic": " إطلع علينا، بصلاحك، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " جوشت إي إخري إيجون: خين تيك ميت اغاثون: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Jou]t `e`=rhi `ejwn> =en tekmet`agaqon> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " Behold us : in Your goodness. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Goosht e-ekhreei egon: khen tek met-aghathon: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "South",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "هأنذا إنطق بلساني، من أجل مجدك، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " هيببيه تينا ساﭽي: إثﭬيه بيك أوؤ خين بالاس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "|hppe ;nacaji> eqbe pek`wou =en palac> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " Behold, I will declare : Your glory with my tongue. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Heppe tina-saji: ethve pek-o-oo khen palas: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "South",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "إقتل أفكاري، المملوءة شراً، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " خوتيب إنناميﭬي:  إثميه إنكاكوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "+wteb `nnameui> eqme\\ `nkakwc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "Destroy in me, : the thoughts full of evil. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Khoteb enna-mevi: ethmeh enkakos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "تليق بك البركة، والمجد والتسبيح، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " إف إيم إبشا إنﭽيه بي إسمو: نيم بي أوؤ نيم بيهوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "`Fem`p]a `nje pi`cmou> nem pi`wou nem pi\\wc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "You are worthy of blessing, : glory and praise. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Ef-emepsha enje pi-esmoo: nem pi-o-oo nem pihos: pi-o-oo nak Alleluia: zoxa si o Theos.",
+        "path": "RaisingOfIncenseEleisonEmas"
+    },
+    {
+        "ArabicTitle": "أبانا الذي في السموات",
+        "CopticTitle": undefined,
+        "EnglishTitle": "Our Father Who Art in Heaven ",
+        "key": 5,
+        "part": {
+            "Arabic": "أبانا الذي في السموات",
+            "Coptic": undefined,
+            "English": "Our Father Who Art in Heaven ",
+            "Path": "AgpeyaPrayersOurFather",
+            "Side": "Title",
+            "Switch": undefined,
+            "Type": "Title",
+            "rule": -1,
+            "visible": 0
+        }
+    },
+    {
+        "ArabicTitle": "أبانا الذي في السموات",
+        "CopticTitle": undefined,
+        "EnglishTitle": "Our Father Who Art in Heaven ",
+        "key": 6,
+        "part": {
+            "Arabic": "اجعلنا مستحقين أن نقول بشكر:",
+            "Arabiccoptic": "اريتين إن إميبشا إنجوس خين او شيب إيهموت",
+            "Coptic": "`Ariten `nem`p]a `njoc =en ou]ep\\mot>",
+            "English": "Make us worthy to pray thankfully:",
+            "Englishcoptic": "Ariten en-emepsha engos khen o-shep ehmot:",
             "Rule": 0,
             "Side": "North",
             "Type": "Base",
             "Visible": true
         },
-        {
-            "Arabic": " كن لي معزياً، في حواسي، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": "شوبي نيي إننومتي: خينن نالوجيزموس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "}wpi nhi `nnom;> =en nalogicmoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " Be a comfort for me : in my thoughts. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Shopi neei en-nomti: khen na-logismos: pi-o-oo nak Alleluia: zoxa si o Theos.",
+        "path": "AgpeyaPrayersOurFather"
+    },
+    {
+        "ArabicTitle": "أبانا الذي في السموات",
+        "CopticTitle": undefined,
+        "EnglishTitle": "Our Father Who Art in Heaven ",
+        "key": 7,
+        "part": {
+            "Arabic": "الشعب:",
+            "Arabiccoptic": "بيلاؤس:",
+            "Coptic": "Pilaoc>",
+            "English": "People:",
+            "Englishcoptic": "Pi-Laos:",
             "Rule": 0,
-            "Side": "South",
+            "Side": "People",
             "Type": "Base",
             "Visible": true
         },
-        {
-            "Arabic": " إنزع عنا، آلام الخطايا، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": "أولي إيﭬول هارون: إنني نوﭬي إمباثوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Wli `ebol \\aron> `nninobi `mpaqoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " Take away from us, : the pain of sins. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Oli evol haron: enni-novi empathos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "South",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "عزاء أرواحنا، وفرح لساننا، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " بسولسيل إننين بنيﭬما: إب إرأوؤت إمبين لاس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Yolcel `nnen`pneuma> `perouot `mpenlac> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "The comfort of our spirits : and the joy of our tongue. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Epsol-sel ennen-epnevma: ep-eroot empenlas: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "قدوس قدوس قدوس، روحك الكلي القدوس، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " إكؤواب إكؤواب إكؤواب: بيك إبنيﭬما إمبان آجياس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "`Xouab `xouab `xouab> Pek`pneuma `mpan`agiac> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "Holy, holy, holy, : Your all-holy Spirit. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Ekowab Ekowab Ekowab: Pek-epnevma empan-agias: pi-o-oo nak Alleluia: zoxa si o Theos.",
+        "path": "AgpeyaPrayersOurFather"
+    },
+    {
+        "ArabicTitle": "أبانا الذي في السموات",
+        "CopticTitle": undefined,
+        "EnglishTitle": "Our Father Who Art in Heaven ",
+        "key": 8,
+        "part": {
+            "Arabic": "أبانا الذي في السموات، ليتقدس إسمك. ليأت ملكوتك. لتكن مشيئتك، كما في السماء كذلك على الأرض.",
+            "Arabiccoptic": "جى بينيوت إتخين نيفيؤوي : ماريف طوفو إنجيه بيكران :ماريسئي إنجيه تيك ميت أورو : بيتهناك ماريف شوبي  .  إمفريتي خين إتفى : نيم هيجين بيكاهي :",
+            "Coptic": "Je Peniwt et =en nivhou`i> mareftoubo `nje pekran. Marec`i `nje tekmetouro. Pete\\ nak maref]wpi> `m`vrh; =en `tve nem \\ijen pika\\i.",
+            "English": "Our Father who art in heaven, hallowed be Thy name. Thy kingdom come. Thy will be done, on earth as it is in heaven.",
+            "Englishcoptic": "Je Peniot et khen ni-feeowi: maref-toovo enje pekran. Mares-ee enje tek-met-ooro. Peteh nak marefshopi: emevreeti khen etve nem hijen pikahi.",
             "Rule": 0,
             "Side": "North",
             "Type": "Base",
             "Visible": true
         },
-        {
-            "Arabic": " يا الله الرحوم، والصالح، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " إفنوتي بي نائيت: اووه إن اغاثوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "`Vnou; Pinaht> ouo\\ `n`agaqoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " O God the Merciful : and the Good One. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Evnoti Pina-eet: owoh en-agha-thos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "South",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": " من أجل رحمتك، يا إله خلاصي، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " إيبير إمبيك ناي: إفنوتي إنتيه با أوجاي: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "`Uper `mpeknai> `Vnou; `nte paoujai> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " For the sake of Your mercy, : O God of my salvation. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Eper empek-nai: Evnoti ente pa-oogai: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "South",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "أجعلنا مستحقين، ملكوتك يا سيدنا، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " تيك ميت أورو بين نيب: اريتين إن إم إبشا إمموس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Tekmetouro Pennhb> `ariten `nem`p]a `mmoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "Make us worthy, O our Master, : of Your kingdom. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Tek-metooro Penneeb: ariten en-emepsha emmos: pi-o-oo nak Alleluia: zoxa si o Theos.",
+        "path": "AgpeyaPrayersOurFather"
+    },
+    {
+        "ArabicTitle": "أبانا الذي في السموات",
+        "CopticTitle": undefined,
+        "EnglishTitle": "Our Father Who Art in Heaven ",
+        "key": 9,
+        "part": {
+            "Arabic": "خبزنا كفافنا أعطنا اليوم. وأغفر لنا ذنوبنا، كما نغفر نحن أيضاً للمذنبين إلينا.",
+            "Arabiccoptic": "بين أويك إنتى راستي :ميف نان إمففوؤو . أووه كاني إيتيرون نان إيفول : إمفريتي هون إنتين كو إيفول :إنني إيتيه أوأون إنتان إيروؤ :",
+            "Coptic": "Penwik `nte rac; mhif nan `mvoou. Ouo\\ xa nhet`eron nan `ebol> `m`vrh; \\wn `ntenxw `ebol `nnh`ete ouon `ntan `erwou.",
+            "English": "Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us;",
+            "Englishcoptic": "Penoik ente rasti meeif nan emfo-oo. Owoh ka nee et-eron nan evol: emevreeti hon enten-ko evol ennee ete oo-on entan ero-oo.",
             "Rule": 0,
             "Side": "North",
             "Type": "Base",
             "Visible": true
         },
-        {
-            "Arabic": "يا ملكنا المسيح، إسمع صلاتنا، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " سوتيم إيبين أوليل: بين أورو بيخريستوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Cwtem `epen`]lhl> Penouro Pi`xrictoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "Hear our prayer : O Christ our King. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Sotem epen-eshleel: Pen-ooro Pi-ekhristos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": " احرسنا يا رب، من إبليس، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " رويس إرون باتشويس: إيﭬول خين بيذي اﭬولوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Rwic `eron `Psoic> `ebol =en Pidiaboloc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " Guard us O Lord : from the Devil. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Rois eron Epchois: evol khen Pi-ziavolos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "South",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": " إسمك مبارك، في أفواه المؤمنين، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " بيك ران إف إسماروؤت: خين روؤ إنني بيستوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Pekran `f`cmarwout> =en rwou `nnipictoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " Your name is blessed : on the mouths of the believers. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Pekran ef-esmaroot: khen ro-oo enni-pistos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "South",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "المجد للاهوتك، الذي لا يُنطق به، المجد لكك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " أؤوؤ إنتيك ميثنوتي: تي آت صاﭽي إمموس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Ou`wou `ntekmeqnou;> ;atcaji `mmoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "Glory to Your divinity, : which is unspeakable. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Oo-o-oo entek-meth-nooti: ti-atsaji emmos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "أنت يا رب، تعرف ضعفي، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " كسوؤن إنثوك بتشويس: إنتاميت آسثينيس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "{woun `nqok `Psoic> `ntametacqenhc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "You O Lord know : my weakness. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Exo-oon enthok Epchois: enta met-as-thenees: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": " إرحمني برحمتك، أيها الخالق، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " ناي ني خين بيك ناي: أوبي ذيمي أورغوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Nai nhi =en peknai> `w Pidhmiourgoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " In Your mercy, O Creator, : have mercy on me. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Nai neei khen peknai: o Pi-zeemi-oorghos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "South",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": " لا تدخلنا نحن، في تجربة، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " إمبيرين تين آنون: إيخون إي بيراسموس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "` Mperenten `anon> `e=oun `epiracmoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " Lead us not : into temptation. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Empe-renten anon: ekhoon epi-rasmos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "South",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "كل لسان يسبح، إسمك بالحقيقة، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " لاس نيﭬين سيهوس: إيبيك ران إن آليثوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Lac niben ce\\wc> `epekran `n`alhqwc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "Truly, every tongue : praises Your name. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Las niven sehos: epekran en-aleethos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "إدركني سريعاً، بمعونتك، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " كاطا تيك ﭬويثيا: طاهوي خين أويس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Kata tekbo`hqia> ta\\oi =en ouihc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "Let Your help : come speedily to me. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Kata tek-vo-eethia: tahoi khen oo-ees: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": " يسوع هو رجائي، يسوع هو معيني، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " إيسوس بيه تاهيلبيس: إيسوس بيه باﭬويثوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Ihcouc pe ta\\elpic> Ihcouc pe pabo`hqoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " Jesus is my hope; : Jesus is my help. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Isos pe ta-helpis: Isos pe pavo-eethos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "South",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": " لك العزة، إلى كمال الأزمنة، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " ثوك بيه بي آماهي: شا إبجوك إنني إخرونوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Qwk pe pi`ama\\i>        ]a `pjwk `nni`xronoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": " Yours is the power : to the end of time. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Thok pe pi-amahi: sha epgok enni-ekhronos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "South",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "هأنذا أباركك، يا إبن الله، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " إيببيه تينا إسمو إروك: أو إيوس ثيؤس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .",
-            "Coptic": "Hppe ;na`cmou `erok> `w `Uioc Qeoc> pi`wou nak al?> do[a ci `o Qeoc.",
-            "English": "Behold, I will bless You,: O Son of God. : Glory be to You, Alleluia. : Glory be to God.",
-            "Englishcoptic": "Eppe tina-esmoo erok: o Eios Theos: pi-o-oo nak Alleluia: zoxa si o Theos.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        {
-            "Arabic": "مراحمك كثيرة، أيها الذاتي، المجد لك هلليلويا، المجد لك يا الله.",
-            "Arabiccoptic": " زيؤش نيك ناي: أوبي آيذيوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس",
-            "Coptic": "Zeo
-        ] neknai> `w Piaidioc> pi`wou nak al?> do[a ci `o Qeoc.", "English": "Plenteous are Your mercies,
-            : O Eternal One. : Glory be to You, Alleluia. : Glory be to God.", "Englishcoptic": "Ze-osh neknai: o Pi-aizios: pi-o-oo nak Alleluia: zoxa si o Theos.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, {"Arabic": " الكرامة، تليق بالله، المجد لك هلليلويا، المجد لك يا الله.", "Arabiccoptic": " إيريه بيتايو: إر إبربي إنثيؤس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .", "Coptic": "`Ere pitaio> er`perpi `nQeoc> pi`wou nak al?> do[a ci `o Qeoc.", "English": " Behold, the honor : befits God. : Glory be to You, Alleluia. : Glory be to God.", "Englishcoptic": "Ere pi-taio: erep-erpi en-Theos: pi-o-oo nak Alleluia: zoxa si o Theos.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, {"Arabic": " يا سيد إرحمني، أيها الذاتي، المجد لك هلليلويا، المجد لك يا الله.", "Arabiccoptic": " ذيسبوتا ناي ني: أوبي ذيكيؤس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .", "Coptic": "Decpota nai nhi> `w Piaidioc> pi`wou nak al?> do[a ci `o Qeoc.", "English": " O Master have mercy on me, O Eternal One. : Glory be to You, Alleluia. : Glory be to God.", "Englishcoptic": "Zes-pota nai nee: o Piaizios: pi-o-oo nak Alleluia: zoxa si o Theos.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, {"Arabic": "لأنك أنت يا رب، ملك الصديقين، المجد لك هلليلويا، المجد لك يا الله.", "Arabiccoptic": " جيه غار إنثوك باتشويس: إب أورو إنني ذيكيؤس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .", "Coptic": "Ge gar `nqok `Psoic> `Pouro `nnidikeoc> pi`wou nak al?> do[a ci `o Qeoc.", "English": "For You are, O Lord,
-                        : the King of the righteous. : Glory be to You, Alleluia. : Glory be to God.", "Englishcoptic": "Je ghar enthok Epchois: Epooro enni-zikeos: pi-o-oo nak Alleluia: zoxa si o Theos.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, {"Arabic": "لأن كل معونة، هي من قِبَل الله، المجد لك هلليل لويا، المجد لك يا الله.", "Arabiccoptic": " ﭬويثيا غار نيﭬين: سيه إيﭬول هيتين ثيؤس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .", "Coptic": "Bo`hqia gar niben> ce `ebol \\iten Qeoc> pi`wou nak al?> do[a ci `o Qeoc.", "English": "For every help : comes from God. : Glory be to You, Alleluia. : Glory be to God.", "Englishcoptic": "Voi-theia ghar niven: se evol hiten Theos: pi-o-oo nak Alleluia: zoxa si o Theos.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, {"Arabic": " أحببت وجهك، كمِّلنا حسناً، المجد لك هلليلويا، المجد لك يا الله.", "Arabiccoptic": "آيمينريه بيكهو: جوك  كتين إيﭬول كالوس: بي أوؤ ناك الليلويا: ذوكصا أوثيؤس .", "Coptic": "Aimenre pek\\o> jokten `ebol kalwc> pi`wou nak al?> do[a ci `o Qeoc.", "English": " I love Your face; : make us all perfect. : Glory be to You, Alleluia. : Glory be to God.", "Englishcoptic": "Ai-menre pekho: gok-ten evol kalos: pi-o-oo nak Alleluia: zoxa si o Theos.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}]]
+        "path": "AgpeyaPrayersOurFather"
+    }
+]
+
+{
+    "ArabicTitle": "إيليسون إيماس / إرحمنا يا الله",
+    "CopticTitle": undefined,
+    "EnglishTitle": "Have mercy on us, O God (Eleison Emas)",
+    "key": 1,
+    "part": {
+        "Arabic": "إيليسون إيماس / إرحمنا يا الله",
+        "Coptic": undefined,
+        "English": "Have mercy on us, O God (Eleison Emas)",
+        "Path": "RaisingOfIncenseEleisonEmas",
+        "Side": "Title",
+        "Switch": undefined,
+        "Type": "Title",
+        "rule": -1,
+        "visible": 0
+    }
+}
