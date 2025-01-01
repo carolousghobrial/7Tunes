@@ -629,20 +629,6 @@ const isKiahkWeek = (motherSource, path) => {
   if (isKoiahkMonth) {
     return lowerPath.includes(currentSeason.weekOfMonth);
   }
-  // else if (isTakeFromHathor && isKoiahkMonth) {
-  //   if (currentSeason.dayOfWeek === 0) {
-  //     if (currentSeason.weekOfMonth + 1 <= 4) {
-  //       return lowerPath.includes(currentSeason.weekOfMonth + 1);
-  //     } else {
-  //       return lowerPath.includes(currentSeason.weekOfMonth);
-  //     }
-  //   } else {
-  //     return lowerPath.includes(currentSeason.weekOfMonth);
-  //   }
-  // }
-  // else if (isTakeFromHathor && isHathorMonth && isWeek5) {
-  //   return lowerPath.includes(1);
-  // }
 
   return false;
 };
@@ -707,7 +693,6 @@ const isCovenantThursday = (motherSource, path) => {
 };
 const AdamConclusionDoxologies = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-
   return motherSource === "praises" && !currentSeason.isWatos;
 };
 const isPraises = (motherSource, path) => {
@@ -860,6 +845,15 @@ const isAdam = (motherSource, path) => {
     isNOTLentWeekdayOrJonah(motherSource, path) &&
     !isBigFeast(motherSource, path)
   );
+};
+const showWatosConclusion = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  if (!currentSeason.isWatos && isPraises(motherSource, path)) {
+    return true;
+  } else {
+    return false;
+  }
 };
 export const isNOTLentWeekdayOrJonah = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -1606,74 +1600,19 @@ const ShowSotees = (motherSource, path) => {
   return false;
 };
 const firstKiahkGospelResponse = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const { copticMonth, weekOfMonth, dayOfWeek, key } = currentSeason;
-
-  // Return early if the season is not Nativity Fast
-  if (key !== "NATIVITY_FAST") {
-    return false;
-  }
-
-  // Helper function to check if it's week 1 to 4
-  const isWeek1to4 = weekOfMonth >= 1 && weekOfMonth <= 4;
-  // // Check if it's Hathor, week 5, and take from Hathor
-  // if (
-  //   copticMonth === "Hathor" &&
-  //   weekOfMonth === 5 &&
-  //   TakeFromHathorTwo(currentSeason)
-  // ) {
-  //   console.log("HEREEE");
-  //   return true;
-  // }
-  // Check if it's Kiahk and not Nativity Paramoun
-  if (copticMonth === "Koiahk" && isWeek1to4 && key !== "NATIVITY_PARAMOUN") {
-    const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
-    const weekNUM =
-      isTakeFromHathor && dayOfWeek === 0
-        ? Math.min(weekOfMonth + 1, 4)
-        : weekOfMonth;
-
-    return weekNUM >= 1 && weekNUM <= 2;
+  if (isKiahkWeek("", "Week1") || isKiahkWeek("", "Week2")) {
+    return true;
   } else {
     return false;
   }
-
-  return false;
 };
 
 const secondKiahkGospelResponse = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const { copticMonth, weekOfMonth, dayOfWeek, key } = currentSeason;
-
-  // Return early if the season is not Nativity Fast
-  if (key !== "NATIVITY_FAST") {
+  if (isKiahkWeek("", "Week1") || isKiahkWeek("", "Week2")) {
     return false;
+  } else {
+    return true;
   }
-
-  // Helper function to check if it's week 1 to 4
-  const isWeek1to4 = weekOfMonth >= 1 && weekOfMonth <= 4;
-
-  // Check if it's Kiahk and not Nativity Paramoun
-  if (copticMonth === "Koiahk" && isWeek1to4 && key !== "NATIVITY_PARAMOUN") {
-    const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
-    const weekNUM =
-      isTakeFromHathor && dayOfWeek === 0
-        ? Math.min(weekOfMonth + 1, 4)
-        : weekOfMonth;
-
-    return weekNUM >= 3 && weekNUM <= 4;
-  }
-
-  // // Check if it's Hathor, week 5, and take from Hathor
-  // if (
-  //   copticMonth === "Hathor" &&
-  //   weekOfMonth === 5 &&
-  //   TakeFromHathorTwo(currentSeason)
-  // ) {
-  //   return true;
-  // }
-
-  return false;
 };
 
 export function TakeFromHathor(currentSeason) {
@@ -3443,6 +3382,7 @@ const VisibleRules = {
   ISTwoBishop: ISTwoBishop,
   ISThreeBishop: ISThreeBishop,
   Is3PlusBishops: Is3PlusBishops,
+  showWatosConclusion: showWatosConclusion,
   IsDioceseNotPope: IsDioceseNotPope,
   allButTwentyNinth: allButTwentyNinth,
   BishopIsPresent: BishopIsPresent,

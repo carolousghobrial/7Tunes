@@ -225,7 +225,7 @@ export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
     });
   } catch (err) {
     myMenuArray.pop();
-    console.error(err);
+    // console.error(err);
   }
 
   return [myViewArray, myMenuArray, key];

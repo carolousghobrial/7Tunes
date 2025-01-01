@@ -38,7 +38,7 @@ const HeaderRightButtons = memo(({ onPressSettings, onPressContents }) => (
   <>
     <TouchableOpacity
       style={styles.settingsHeaderButton}
-      onPress={onPressSettings}
+      onPressIn={onPressSettings}
     >
       <MaterialCommunityIcons
         name="cog"
@@ -152,25 +152,28 @@ const BookScreen = () => {
     ({ viewableItems }) => {
       const firstItem = viewableItems[0]?.item;
 
-      if (firstItem) {
-        const newPath = firstItem.part?.Path || firstItem.path;
+      if (!firstItem) return;
 
-        if (newPath && currentPath !== newPath) {
-          setCurrentPath(newPath);
+      const newPath = firstItem.part?.Path || firstItem.path;
 
-          setBookContents((prevContents) => {
-            const newRange = getFirstContinuousRangeWithUniquePaths(
-              1,
-              values[0],
-              prevContents.map((item) => item.path || item.part?.Path)
-            );
-            return newRange;
-          });
-        }
+      if (newPath && currentPath !== newPath) {
+        setCurrentPath(newPath);
+
+        setBookContents((prevContents) => {
+          const uniquePaths = prevContents.map(
+            (item) => item.path || item.part?.Path
+          );
+          return getFirstContinuousRangeWithUniquePaths(
+            1,
+            values[0],
+            uniquePaths
+          );
+        });
       }
     },
     [currentPath, values]
   );
+
   //const [bookContents, bookContents] = boo;
   const [isLoading, setIsLoading] = useState(true);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
@@ -195,6 +198,12 @@ const BookScreen = () => {
     const fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
     const fontsize = isTablet ? 30 : 15;
     navigation.setOptions({
+      headerRight: () => (
+        <HeaderRightButtons
+          onPressSettings={settingsPressed}
+          onPressContents={contentsPressed}
+        />
+      ),
       title: bookContents[0]?.part.English,
       headerStyle: {
         backgroundColor: NavigationBarColor,
@@ -213,17 +222,6 @@ const BookScreen = () => {
   const settingsPressed = () => bottomSheetRef?.current.present();
   const contentsPressed = () => contentsSheetRef?.current.present();
   const contentsClose = () => contentsSheetRef?.current.dismiss();
-
-  useEffect(() => {
-    navigation.setOptions({
-      headerRight: () => (
-        <HeaderRightButtons
-          onPressSettings={settingsPressed}
-          onPressContents={contentsPressed}
-        />
-      ),
-    });
-  }, []);
 
   const scrollToKey = (key) => {
     const targetIndex = values[0].findIndex(
