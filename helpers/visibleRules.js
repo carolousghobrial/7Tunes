@@ -196,6 +196,19 @@ const AlleluiaStandard = (motherSource, path) => {
   }
   return currentSeason.type !== "feast";
 };
+const StandardROIConclusion = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  switch (currentSeason.key) {
+    case "PALM_SUNDAY":
+    case "NATIVITY":
+    case "NATIVITY_SECONDDAY":
+    case "NATIVITY_PERIOD":
+      return false;
+    default:
+      return true;
+  }
+  return currentSeason.type !== "feast";
+};
 const isStandardSeason = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   switch (currentSeason.key) {
@@ -275,7 +288,13 @@ const isNOTVespersPraises = (motherSource, path) => {
 };
 const isKiahkSeason = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+  switch (currentSeason.key) {
+    case "NATIVITY":
+    case "NATIVITY_PARAMOUN":
+    case "NATIVITY_PERIOD":
+    case "FEAST_OF_CIRCUMCISION":
+      return false;
+  }
   if (
     (currentSeason.key === "NATIVITY_FAST" &&
       currentSeason.copticMonth === "Koiahk") ||
@@ -1268,10 +1287,30 @@ const ISDioceseBishopAlways = (motherSource, path) => {
   }
   return false;
 };
+
 const BishopIsPresent = (motherSource, path) => {
   const BishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
+
+  if (BishopIsPresent !== undefined && BishopIsPresent !== false) {
+    return true;
+  }
+  return false;
+};
+const BishopIsPresentOrBigFeast = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (
+    currentSeason.key === "NATIVITY" ||
+    currentSeason.key === "EPIPHANY" ||
+    currentSeason.key === "RESURRECTION"
+  ) {
+    return true;
+  }
+  const BishopIsPresent = useSelector(
+    (state) => state.settings.BishopIsPresent
+  );
+
   if (BishopIsPresent !== undefined && BishopIsPresent !== false) {
     return true;
   }
@@ -1608,6 +1647,14 @@ const firstKiahkGospelResponse = (motherSource, path) => {
 };
 
 const secondKiahkGospelResponse = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  switch (currentSeason.key) {
+    case "NATIVITY":
+    case "NATIVITY_PARAMOUN":
+    case "NATIVITY_PERIOD":
+    case "FEAST_OF_CIRCUMCISION":
+      return false;
+  }
   if (isKiahkWeek("", "Week1") || isKiahkWeek("", "Week2")) {
     return false;
   } else {
@@ -3386,6 +3433,7 @@ const VisibleRules = {
   IsDioceseNotPope: IsDioceseNotPope,
   allButTwentyNinth: allButTwentyNinth,
   BishopIsPresent: BishopIsPresent,
+  BishopIsPresentOrBigFeast: BishopIsPresentOrBigFeast,
   BishopIsNOTPresent: BishopIsNOTPresent,
   IsNonFastingDays: IsNonFastingDays,
   PioikSaint: PioikSaint,
@@ -3399,6 +3447,7 @@ const VisibleRules = {
   ISDioceseBishopAlways: ISDioceseBishopAlways,
   ShowSotees: ShowSotees,
   AlleluiaStandard: AlleluiaStandard,
+  StandardROIConclusion: StandardROIConclusion,
   AdamConclusionDoxologies: AdamConclusionDoxologies,
   FeastsAndFastsOfStMary: FeastsAndFastsOfStMary,
   FeastsAndFastsOfStMaryAndHeavenlies: FeastsAndFastsOfStMaryAndHeavenlies,

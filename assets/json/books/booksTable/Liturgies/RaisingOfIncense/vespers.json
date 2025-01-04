@@ -233,7 +233,13 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
             "Rule": 0,
-            "Visible": "notPalmSunday"
+            "Visible": "StandardROIConclusion"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseNativityConcludingCannon",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",

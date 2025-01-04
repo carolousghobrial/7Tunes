@@ -27,7 +27,7 @@
             "Type": "Main",
             "Path": "RaisingOfIncensePsalmTrailersBishopPsalmTrailer",
             "Rule": 0,
-            "Visible": "BishopIsPresent"
+            "Visible": "BishopIsPresentOrBigFeast"
         }
     ]
 }

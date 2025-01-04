@@ -46,16 +46,27 @@ function TitleView({ item, motherSource, navigation }) {
   const regex = /\d+/g;
   function switchLiturgies() {
     if (item.Switch !== undefined) {
+      console.log(item.Switch);
       if (isSwitchGregorian) {
         if (item.mother !== undefined) {
-          navigation.replace("BookScreen", {
-            bookPath: "liturgyofStGregoryCovenantThursday",
-            Switch: item.Switch,
+          router.replace({
+            pathname: "/bookscreen/BookScreen",
+            params: {
+              bookPath: "liturgyofStGregory",
+              Switch: item.Switch,
+            },
           });
+          // navigation.replace("BookScreen", {
+          //   bookPath: "liturgyofStGregoryCovenantThursday",
+          //   Switch: item.Switch,
+          // });
         } else {
-          navigation.replace("BookScreen", {
-            bookPath: "liturgyofStGregory",
-            Switch: item.Switch,
+          router.replace({
+            pathname: "/bookscreen/BookScreen",
+            params: {
+              bookPath: "liturgyofStGregory",
+              Switch: item.Switch,
+            },
           });
         }
       } else {
@@ -65,9 +76,12 @@ function TitleView({ item, motherSource, navigation }) {
             Switch: item.Switch,
           });
         } else {
-          navigation.replace("BookScreen", {
-            bookPath: "liturgyofStBasil",
-            Switch: item.Switch,
+          router.replace({
+            pathname: "/bookscreen/BookScreen",
+            params: {
+              bookPath: "liturgyofStBasil",
+              Switch: item.Switch,
+            },
           });
         }
       }

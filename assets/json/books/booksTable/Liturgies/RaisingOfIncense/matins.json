@@ -221,7 +221,7 @@
             "Type": "Main",
             "Path": "RaisingOfIncensePsalmTrailersBishopPsalmTrailer",
             "Rule": 0,
-            "Visible": "BishopIsPresent"
+            "Visible": "BishopIsPresentOrBigFeast"
         },
         {
             "Type": "Button",
@@ -321,7 +321,13 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
             "Rule": 0,
-            "Visible": true
+            "Visible": "StandardROIConclusion"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseNativityConcludingCannon",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",

@@ -1,0 +1,139 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "قانون ختام باكر عيد الميلاد",
+  "EnglishTitle": "Nativity Feast Concluding Cannon for Matins",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لما وُلد ربنا يسوع المسيح في بيت لحم اليهودية، ها مجوس أتوا من المشرق إلى أورشليم، وسجدوا لله الذي تجسد وتأنس وفتحوا كنوزهم، وقدموا له هدايا ذهب مختار كملك الدهور، ولبان كإله ومر قدموه لموته . ",
+      "Coptic": " Etaumici `mpensoic Ihcouc Pi`xrictoc> =en Bhqleem `nte; ioudea > ic \\anmgoc au`i `ebol capeiebt `eIeroucalhm > auouw]t `mVnou; `etafsicar[ aferrwmi > auouwn `nnou`a\\wr > auini naf `n\\andwron > ounoub efcwtp \\wc ouro `nte niene\\ > nem oulibanouc \\wc nou; > ou]al auenf `epefmou  . ",
+      "English": "When our Lord Jesus Christ was born in Bethlehem of Judea, there were Magi who came from the East to Jerusalem, and they worshipped God, who was incarnate and became man. They opened their gifts and presented unto Him; gifts of gold for He is the King of the ages, frankincense for He is God, and myrrh for his death.",
+      "Arabiccoptic": " ايطاف ميسي امبين تشويس ايسوس بي خريستوس : خين بيتليئيم انتى تي يوذيآ : اس هان ماجوس آف اي ايفول سابيسيت اي ييروساليم : آف أووأوشت ام افنوتي ايطاف تشي ساركس آف اير رومي : أف أووأوني ان نوو آهور : أف ايني ناف ان هان ذورون : أوونووب ايف سوتب هوس أوورو انتى ني اينيه : نيم أووليبانوس هوس نوتي : أووشال اف اينف ايب ايفمو  . ",
+      "Englishcoptic": "Etavmisi empen-chois Isos Pikhristos: khen- Veethleem en-teti ioozea : is hanmghos av-ee evol sapeiebt -eIeroosaleem : avo-oosht emVnooti -etaf-chisarx aferroomi : avo-oon en-noo-ahoor : avini naf en-hanzooron : oonoov efsootp hoos ooro en-te nien-eh : nem oolivanoos hoos nooti : ooshal aven-f -epefmoo  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " تعالوا يا كل الأمم لنسجد للذي وُلد لأجل خلاص نفوسنا .  ",
+      "Coptic": "/ Amwini nieqneoc throu > marenouw]t `mfhetaumacf > eqbe `vno\\em `nte nenyuxh  .  ",
+      "English": "O Come, all you nations, let us worship Him who was born for the salvation of our souls.",
+      "Arabiccoptic": " أمويني ني ايثنوس تيرو : مارين أووأوشت ام في ايطاف ماسف : اثفى افنوهيم انتى نين بسيشي ",
+      "Englishcoptic": "/ Amooini niethneos tero : maren-o-oosht emfee-etavmasf : ethve evnohem en-te nen-pseeshee  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجدُ للآبِ والابنِ والروحِ القدسِ،",
+      "Coptic": "Do[a Patri ke `Uiw ke `Agiw `Pneumati>",
+      "English": "Glory to the Father and to the Son and to the Holy Spirit",
+      "Arabiccoptic": "ذوكصابتري كى ايو كى اجيو بنفماتى",
+      "Englishcoptic": "Doxa Patri ke Eio ke Agio ePnevmati:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " لما وُلد ربنا يسوع المسيح من القديسة العذراء، هدم خداع الشيطان ،و جنس البشر أشرق عليهم النور بالميلاد المملوء مجدا، ",
+      "Coptic": "/ `Etau`jvou ` mpensoic Ihcouc Pi`xrictoc> =en qh eqouab `mparqenoc > afbwl ebol `n;`planh `nte pidiaboloc > `p;enos  `nnirwmi af]ai nwou `nje piouwini > \\iten pijinmici eqme\\ nwou > ",
+      "English": "When our Lord Jesus Christ was born of the Holy Virgin, He destroyed the deception of Satan, And the human race was illuminated by the light of His glorious birth.",
+      "Arabiccoptic": " ايطاف اجفو امبين تشويس ايسوس بي خريستوس : خين ثي اثؤواب امبارثينوس : أف فول ايفول انتي ابلاني انتى بي ذيافولوس : اب تي اين أوتش انني رومي أفشاي نوأوو انجى بي أووأويني : هيتين بي جينميسي ايثميه نوأوو :",
+      "Englishcoptic": "/ -Etavegvoo e mpen-chois Isos Pikhristos: khen- thee ethowab emparthen-os : afvool evol en-ti-eplanee en-te pi-ziavolos : epti-en-och  en-ni-roomi afshai no-oo en-je pi-o-ooini- : hiten- pi-jinmisi ethmeh no-oo :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأجل هذا نمجده بإيمان بلا رياء، مفتخرين مع المجوس متهللين مع الرعاة، صارخين قائلين تعالوا يا كل الأمم، لنسجد للذي وُلد لأجل خلاص نفوسنا . ",
+      "Coptic": "eqbe vai ten;wou naf =en ouna\\; `natmethobi > en]ou]ou `mmon nem nimagoc > enqelhl nem nimanecwou > enw] ebol enjw `mmoc > je Amwini nieqneoc throu > marenouw]t `mfhetaumacf> eqbe `fno\\em `nte nenyuxh  .  ",
+      "English": "\"Therefore, we glorify Him with faith, rejoicing with the Magi, and exalting with the shepherds, proclaiming and saying: O Come, all you nations, let us worship Him who was born for the salvation of our souls.",
+      "Arabiccoptic": " اثفى فاي تين تي أوأوو ناف خين أووناهتي ان أت ميت أوفي : ان شووشو اممون نيم ني ماجوس : ان ثيليل نيم نيمان ايسوأوو : ان أوش ايفول انجو امموس : جى أمويني ني اثنوس تيرو : مارين أووأوشت ام في ايطاف ماسف : اثفى افنوهيم انتى نين بسيشي .  ",
+      "Englishcoptic": "ethve vai ten-ti-o-oo naf khen- oonahti- en-atmeteeovi : en-shooshoo emmon nem ni-maghos : en-theleel nem ni-maneso-oo : en-oosh evol en-goo emmos : je Amooini- ni-ethneos tero : maren-o-oosht emfee-etavmasf: ethve efnohem en-te nen-pseeshee  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الآن وكلَّ أوانٍ وإلى دهورِ الدهورِ. آمين",
+      "Coptic": "Ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn> `amhn.",
+      "English": "Now and ever and unto the ages of the ages. Amen.",
+      "Arabiccoptic": "كي نين  كى ا اى كى اسطوس ا اوناس طون ا اونون امين.",
+      "Englishcoptic": "Ke nin ke ai ke is toos eonas ton eonon: ameen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " عظيمة هي نعمة الذي وُلد لنا اليوم، الرعاة والمجوس الملائكة اختلطوا مع الناس، هادين المجوس حتى يأتوا إلى بيت لحم، وفاز بظهورك الأمم البرابرة .  ",
+      "Coptic": "/ Ouni]; pe pi`\\mout > `nte vhetaf`jvof nan `mvoou > nimanecwou nem nimagoc > niaggeloc aumoujt nem nirwmi > ausimwit =ajwou `nnimagoc > ]a `ntoui `eBhqleen > au]a]ni `epekouwn\\ ebol > `nje nibarbaroc `neqnoc  . ",
+      "English": "Great is the honor of the One who was born for us today. The shepherds and the Magi, the angels mingled with the humans, And they led the Magi until they came to Bethlehem, and both were blessed by Your Coming.\"",
+      "Arabiccoptic": " أوونيشتي بى بي اهموت : انتى في ايطاف اجفوف نان ام فوأوو : نيمان ايسوأوو نيم ني ماجوس : ني أنجيلوس أفموجت نيم ني رومي : أف تشيمويت خاجوأوو انني ماجوس : شا ان تواي اي بيتليئيم : أف شاشني ايب ايك أووأونه ايفول : انجى ني بارباروس ان اثنوس  . ",
+      "Englishcoptic": "/ Oooni-shti pe pi-ehmoot : en-te vee-etaf-egvof nan emvo-oo : ni-maneso-oo nem ni-maghos : ni-angelos avmoogt nem ni-roomi : avchimooit khago-oo en-ni-maghos : sha en-tooi -eVeethleen- : avshashni- -epek-o-oonh evol : en-je ni-varvaros en-ethnos  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأجل هذا نمجده بإيمان بغير رياء، مفتخرين مع المجوس متهللين مع الرعاة، صارخين قائلين تعالوا يا كل الأمم، لنسجد للذي وُلد لأجل خلاص نفوسنا .",
+      "Coptic": "eqbe vai ten;wou naf =en ouna\\; `natmethobi > en]ou]ou `mmon nem nimajoc > enqelhl nem nimanecwou > enw] ebol enjw `mmoc > je Amwini nieqneoc throu > marenouw]t `mfhetaumacf> eqbe `fno\\em `nte nenyuxh  . ",
+      "English": "\"Therefore, we glorify Him with faith, rejoicing with the Magi, and exalting with the shepherds, proclaiming and saying: O Come, all you nations, let us worship Him who was born for the salvation of our souls.",
+      "Arabiccoptic": " اثفى فاي تين تي أوأوو ناف خين أووناهتي ان أت ميت أوفي : ان شووشو اممون نيم ني ماجوس : ان ثيليل نيم نيمان ايسوأوو : ان أوش ايفول انجو امموس : جى أمويني ني اثنوس تيرو : مارين أووأوشت ام في ايطاف ماسف : اثفى افنوهيم انتى نين بسيشي .  ",
+      "Englishcoptic": "ethve vai ten-ti-o-oo naf khen- oonahti- en-atmeteeovi : en-shooshoo emmon nem ni-magos : en-theleel nem ni-maneso-oo : en-oosh evol en-goo emmos : je Amooini- ni-ethneos tero : maren-o-oosht emfee-etavmasf: ethve efnohem en-te nen-pseeshee  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صارخين قائلين يا ربنا يسوع المسيح، الذي ولد في بيت لحم كالأصوات النبوية . ",
+      "Coptic": "/ Tenw] `ebol enjw `mmoc > je `w pensoic Ihcouc Pi`xrictoc> `P]hri `mV?;? acmacf `nje ;parqenoc =en Bhqleem `nte ;Ioude`a kata ni`cmh `m`provhtikon  . ",
+      "English": "We proclaim and say: “O our Lord Jesus Christ, Who was born in Bethlehem, according to the prophetic sayings..",
+      "Arabiccoptic": " تين أوش ايفول انجو امموس جى أو بين تشويس ايسوس بي خريستوس : اب شيري ام افنوتي أسماسف انجى تي بارثينوس خين بيتليئيم انتى تي يوذي آ كاطا ني اسمي ام ابروفيتيكون  . ",
+      "Englishcoptic": "/ Ten-oosh evol en-goo emmos : je -oo pen-chois Isos Pikhristos: ePsheeri emV?ti-? asmasf en-je ti-parthen-os khen- Veethleem en-te ti-Iooze-a kata ni-esmee emep-roveeti-kon  ."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خَلِّصْنا وارحَمْنا*. ياربُّ ارحَم. ياربُّ ارحَم. يا ربُّ بارك. آمين.",
+      "Coptic": "Cw; `mmon ouo\\ nai nan. Kurie `ele`hcon> Kurie `ele`hcon> Kurie euloghcon `amhn.",
+      "English": "Save us and have mercy on us.* Lord have mercy. Lord have mercy. Lord bless. Amen.",
+      "Arabiccoptic": ": سوتي إممون اووه ناي نان : كيري إليصون كيري إليصون : كيري إفلوجيسون امين :",
+      "Englishcoptic": "Soti em-mon owoh nai nan, keryalison keryalison kerie evlogi-son amen,"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "باركوا علَيَّ. [باركوا علَيَّ.] ها مطانية. اغفروا لي. قُلْ البركةَ.",
+      "Coptic": "`Cmou `eroi> `cmou `eroi> ic ;metanoia> xw nhi `ebol> jw `mpi`cmou.",
+      "English": "Bless me. [Bless me.] Lo, the repentance. Forgive me. Say the blessing.",
+      "Arabiccoptic": "إسمو إيروي إسمو إيروي : إس تي ميطانيا كوني إيفول جو إمبي إسمو  .",
+      "Englishcoptic": "Esmo eroi esmo eroi, esti metania koni evol ko empi esmo"
+    }
+  ]
+}

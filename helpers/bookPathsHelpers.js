@@ -132,6 +132,7 @@ const bookPaths = {
   RaisingOfIncenseLitanyTravelers: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyTravelers.json"),
   RaisingOfIncenseLitanyWaters: require("../assets/json/books/booksContent/RaisingOfIncense/LitanyWaters.json"),
   RaisingOfIncensePalmSundayConcludingPrayer: require("../assets/json/books/booksContent/RaisingOfIncense/PalmSundayConcludingPrayer.json"),
+  RaisingOfIncenseNativityConcludingCannon: require("../assets/json/books/booksContent/RaisingOfIncense/NativityConcludingCannon.json"),
   RaisingOfIncensePsalmAndGospel: require("../assets/json/books/booksContent/RaisingOfIncense/PsalmAndGospel.json"),
   RaisingOfIncenseMatinsPsalmAndGospel: require("../assets/json/books/booksContent/RaisingOfIncense/MatinsPsalmAndGospel.json"),
   RaisingOfIncenseEveningPsalmAndGospel: require("../assets/json/books/booksContent/RaisingOfIncense/EveningPsalmAndGospel.json"),

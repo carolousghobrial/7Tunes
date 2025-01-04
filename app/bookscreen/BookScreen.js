@@ -104,7 +104,7 @@ const BookScreen = () => {
   const router = useRouter();
   const dispatch = useDispatch();
   const flatListRef = useRef();
-  const { bookPath, motherSource, bishopButton, indexToScroll } =
+  const { bookPath, motherSource, bishopButton, indexToScroll, Switch } =
     useLocalSearchParams();
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
@@ -195,8 +195,9 @@ const BookScreen = () => {
   }, []);
 
   useEffect(() => {
-    const fontfamily = appLanguage === "eng" ? "english-font" : "arabic-font";
-    const fontsize = isTablet ? 30 : 15;
+    const fontFamily = appLanguage === "eng" ? "english-font" : "arabic-font";
+    const fontSize = isTablet ? 30 : 15;
+
     navigation.setOptions({
       headerRight: () => (
         <HeaderRightButtons
@@ -204,19 +205,15 @@ const BookScreen = () => {
           onPressContents={contentsPressed}
         />
       ),
-      title: bookContents[0]?.part.English,
+      title: bookContents[0]?.part?.English || "Default Title",
       headerStyle: {
         backgroundColor: NavigationBarColor,
       },
       headerTitleStyle: {
-        fontSize: fontsize,
-        fontFamily: fontfamily,
+        fontSize,
+        fontFamily,
       },
     });
-
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 10);
   }, [appLanguage, bookContents, flatListRef]);
 
   const settingsPressed = () => bottomSheetRef?.current.present();

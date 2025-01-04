@@ -1,7 +1,7 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "الختام - أمين الليلويا",
-  "EnglishTitle": "The Conclusion (Amen Alleluia) ",
+  "ArabicTitle": "قانون ختام احد الشعانين",
+  "EnglishTitle": "Palm Sunday Concluding Cannon",
   "Hymn": [
     {
       "Type": "Base",
@@ -197,9 +197,9 @@
       "Side": "North",
       "Arabic": "نصرخ قائلين: \"يا ربنا يسوع المسيح، إبن الله، دخل أورُشَليم.\"",
       "Coptic": "Tenw] `ebol enjw `mmoc> je `w Pensoic Ihcouc Pi`xrictoc> `P]hri `m`Vnou;> af]e `e=oun `eIeroucalhm.",
-      "English": "We proclaim saying: “O our Lord Jesus Christ, the Son of God, entered Jerusalem.”",
+      "English": "We proclaim and say: “O our Lord Jesus Christ, the Son of God, entered Jerusalem.”",
       "Arabiccoptic": "تينوش إيفول إينجو إيمموس: جي أو بينتشويس اييسوس بي إيخريستوس: إيبشيري إيم إيفنووتي: افشي إيخوون إي يارووساليم.",
-      "Englishcoptic": "Enosh evol engo emos je o penchois isos pi-ekhristos epshery em-Evnoti afshe ekhon e-yero salim"
+      "Englishcoptic": "Enosh evol engo emos je o penchois isos pi-ekhristos epshery em-Efnoti afshe ekhon e-yero salim"
     },
     {
       "Type": "Base",

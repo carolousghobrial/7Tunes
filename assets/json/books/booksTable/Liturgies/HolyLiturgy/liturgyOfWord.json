@@ -12,7 +12,7 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordEmpeniotEtaiot",
             "Rule": 0,
-            "Visible": "BishopIsPresent"
+            "Visible": "BishopIsPresentOrBigFeast"
         },
         {
             "Type": "Main",

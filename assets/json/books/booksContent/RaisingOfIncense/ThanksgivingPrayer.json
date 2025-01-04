@@ -141,7 +141,7 @@
       "Coptic": "Maren]ep`\\mot `ntotf `mpireferpeqnanef ouo\\ `nnaht> `Vnou; `Viwt `mPensoic ouo\\ Pennou; ouo\\ Pencwthr Ihcouc Pi`xrictoc.",
       "English": "Let us give thanks to the beneficent and merciful God, the Father of our Lord, God, and Savior Jesus Christ.",
       "Arabiccoptic": "مارين شيبئهموت إنططف إم بيريف إير بيثنا نيف أووه إن نائيت إفنوتي إفيوت إم بين شويس أووه بيننوتي أووه بنسوتير إيسوس بي إخريستوس",
-      "Englishcoptic": "Maren-shepehmot entotf empiref-erpeth-nanev owoh enna-eet, evnoti eviot empenchois owoh penoti owoh pensotir Isos pi-Ekhristos."
+      "Englishcoptic": "Maren-shepehmot entotf empiref-erpeth-nanev owoh enna-eet, Efnoti eviot empenchois owoh penoti owoh pensotir Isos pi-Ekhristos."
     },
     {
       "Type": "Base",
@@ -229,7 +229,7 @@
       "Coptic": "`Vnhb `Psoic `Vnou; Pipantokratwr> `Viwt `mPensoic ouo\\ Pennou; ouo\\ Pencwthr Ihcouc Pi`xrictoc>",
       "English": "O Master, Lord, God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ",
       "Arabiccoptic": "إفنيب إبشويس إفنوتي بي بانطوكراطور إفيوت إمبين شويس أووه بيننوتي أووه بين سوتير إيسوس بي إخرستوس",
-      "Englishcoptic": "Evneeb Epchois evnoti pi-pantokrator, eviot empenchois owoh pennoti owoh pensotir Isos pi-ekhristos"
+      "Englishcoptic": "Evneeb Epchois Efnoti pi-pantokrator, eviot empenchois owoh pennoti owoh pensotir Isos pi-ekhristos"
     },
     {
       "Type": "Base",
@@ -258,7 +258,7 @@
       "Arabic": "طوبه هينا الكبيرة",
       "English": "Tobh Hina (Great)",
       "Rule": "OpenSinglePageButtonRule",
-      "Visible": "BishopIsPresent",
+      "Visible": "BishopIsPresentOrBigFeast",
       "Path": "LiturgyOffertoryTovhHinaGreat"
     },
     {

@@ -57,7 +57,7 @@
             "Arabic": "إسباتير الكبيرة",
             "English": "The Great Is-Patir(One is the holy Father)",
             "Rule": "OpenSinglePageButtonRule",
-            "Visible": "BishopIsPresent",
+            "Visible": "BishopIsPresentOrBigFeast",
             "Path": "LiturgyOffertoryIsPatirGreat"
         },
         {
