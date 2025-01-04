@@ -214,6 +214,9 @@ const BookScreen = () => {
         fontFamily,
       },
     });
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 10);
   }, [appLanguage, bookContents, flatListRef]);
 
   const settingsPressed = () => bottomSheetRef?.current.present();
