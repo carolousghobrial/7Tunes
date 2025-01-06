@@ -1,21 +1,10 @@
-import {
-  View,
-  Switch,
-  Button,
-  StyleSheet,
-  Text,
-  Image,
-  FlatList,
-  Platform,
-  Pressable,
-} from "react-native";
-
-import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
+import React, { useState } from "react";
+import { View, StyleSheet, Text, Pressable } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
+import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import { setdioceseBishop } from "../../stores/redux/settings";
-import BishopPresentView from "../../app/(modal)/BishopPresentView";
-import React, { useState, useRef, useEffect } from "react";
 import BishopsPopup from "./bishopsPopup";
+import BishopPresentView from "../../app/(modal)/BishopPresentView";
 const bishopsList = require("../../assets/json/bishopsList.json");
 
 function PopeBishop() {
@@ -25,32 +14,40 @@ function PopeBishop() {
   const dispatch = useDispatch();
 
   const popeObject = bishopsList.POPE;
-
   const antiochPope = bishopsList.ANTIOCH_POPE;
-  const metropolitains = bishopsList.Metropolitans;
-  const bishops = bishopsList.Bishops;
-  let labelColor = getColor("LabelColor");
 
   const [ModalVisible, setModalVisible] = useState(false);
 
   function setBishopClicked() {
     setModalVisible(true);
   }
+
   function closeModal() {
     setModalVisible(false);
   }
+
   function setBishop(bishop) {
-    // let mycurrentSeason = setCurrentSeasonByKey(timeTransition, feast);
     dispatch(setdioceseBishop({ dioceseBishop: bishop }));
     setModalVisible(false);
   }
+
+  const renderBishopText = (key, popeObject, languageKey) => {
+    return appLanguage === "eng"
+      ? `${getLanguageValue(key)} ${popeObject.English} ${
+          popeObject.PopeNameNumEnglish
+        }`
+      : `${getLanguageValue(key)} ${popeObject.Arabic} ${
+          popeObject.PopeNameNumArabic
+        }`;
+  };
+
   return (
     <>
       <BishopsPopup
         visible={ModalVisible}
         closeModal={closeModal}
         setBishop={setBishop}
-      ></BishopsPopup>
+      />
       <View
         style={[
           styles.container,
@@ -75,67 +72,35 @@ function PopeBishop() {
             {getLanguageValue("popeSelectDescription")}
           </Text>
         </View>
-        <View
-          style={[
-            {
-              flexDirection: "column",
-            },
-          ]}
-        >
-          <View style={styles.popeView}>
-            {appLanguage === "eng" ? (
-              <Text style={[styles.popeText, { color: labelColor }]}>
-                {getLanguageValue("copticPope")}
-                {popeObject.English} {popeObject.PopeNameNumEnglish}
-              </Text>
-            ) : (
-              <Text style={[styles.popeText, { color: labelColor }]}>
-                {getLanguageValue("copticPope")}
-                {popeObject.Arabic} {popeObject.PopeNameNumArabic}
-              </Text>
-            )}
-          </View>
-          <View style={styles.popeView}>
-            {appLanguage === "eng" ? (
-              <Text style={[styles.popeText, { color: labelColor }]}>
-                {getLanguageValue("antiochPope")} {antiochPope.English}
-              </Text>
-            ) : (
-              <Text style={[styles.popeText, { color: labelColor }]}>
-                {getLanguageValue("antiochPope")} {antiochPope.Arabic}
-              </Text>
-            )}
-          </View>
-          <View style={styles.popeView}>
-            {appLanguage === "eng" ? (
-              <Text style={[styles.popeText, { color: labelColor }]}>
-                {getLanguageValue("dioceseBishopMetropolitain")}
-                {dioceseBishop?.Rank === "Bishop"
-                  ? " His Grace Bishop "
-                  : " His Eminence Metropolitan "}
-                {dioceseBishop?.English}
-              </Text>
-            ) : (
-              <Text style={[styles.popeText, { color: labelColor }]}>
-                {getLanguageValue("dioceseBishopMetropolitain")} نيافة الحبر
-                الجليل الأنبا {dioceseBishop?.Arabic}
-              </Text>
-            )}
+        <View style={styles.popeInfoView}>
+          <Text style={[styles.popeText, { color: getColor("LabelColor") }]}>
+            {renderBishopText("copticPope", popeObject, "English")}
+          </Text>
+          <Text style={[styles.popeText, { color: getColor("LabelColor") }]}>
+            {getLanguageValue("antiochPope")} {antiochPope.English}
+          </Text>
+          <Text style={[styles.popeText, { color: getColor("LabelColor") }]}>
+            {getLanguageValue("dioceseBishopMetropolitain")}
+            {dioceseBishop?.Rank === "Bishop"
+              ? ` His Grace Bishop ${dioceseBishop?.English}`
+              : ` His Eminence Metropolitan ${dioceseBishop?.English}`}
+          </Text>
 
-            <Pressable onPress={setBishopClicked}>
-              <View style={[styles.bookView]}>
-                <Text style={[styles.english, { fontSize }]}>
-                  {getLanguageValue("setBishop")}
-                </Text>
-              </View>
-            </Pressable>
-          </View>
+          <Pressable onPress={setBishopClicked}>
+            <View style={[styles.bookView]}>
+              <Text style={[styles.english, { fontSize }]}>
+                {getLanguageValue("setBishop")}
+              </Text>
+            </View>
+          </Pressable>
         </View>
-        <BishopPresentView></BishopPresentView>
       </View>
+
+      <BishopPresentView />
     </>
   );
 }
+
 const styles = StyleSheet.create({
   container: {
     margin: 10,
@@ -154,32 +119,19 @@ const styles = StyleSheet.create({
     color: "gray",
     fontStyle: "italic",
   },
-  switchView: {
-    flexDirection: "row",
-    margin: 5,
-    padding: 5,
-  },
-  popeView: {
-    margin: 10,
-    padding: 10,
-
-    alignContent: "center",
-    justifyContent: "center",
+  popeInfoView: {
+    flexDirection: "column",
   },
   popeText: {
     fontFamily: "englishtitle-font",
     fontSize: 25,
-    alignContent: "center",
-    justifyContent: "center",
     padding: 5,
   },
   bookView: {
     flexDirection: "row",
-
     backgroundColor: "#AA4A44",
     margin: 10,
   },
-
   english: {
     color: "black",
     flex: 1,
@@ -187,18 +139,7 @@ const styles = StyleSheet.create({
     fontFamily: "english-font",
     fontWeight: "bold",
     textAlign: "center",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  arabic: {
-    color: "black",
-    flex: 1,
-    fontSize: 15,
-    fontFamily: "english-font",
-    fontWeight: "bold",
-    textAlign: "center",
-    alignItems: "center",
-    justifyContent: "center",
   },
 });
+
 export default PopeBishop;

@@ -1,195 +1,27 @@
-[
-    {
-        "ArabicTitle": "",
-        "CopticTitle": "",
-        "EnglishTitle": "",
-        "key": 0,
-        "part": {
-            "Arabic": "رفع بخور باكر",
-            "Coptic": "Ptalo  ~Mpi`cqoinoufi `nte |an`atoui",
-            "English": "Offering of Morning Incense",
-            "Rule": 0,
-            "Side": "Title",
-            "Type": "MainTitle",
-            "Visible": true
-        }
-    },
-    {
-        "ArabicTitle": "إيليسون إيماس / إرحمنا يا الله",
-        "CopticTitle": undefined,
-        "EnglishTitle": "Have mercy on us, O God (Eleison Emas)",
-        "key": 1,
-        "part": {
-            "Arabic": "إيليسون إيماس / إرحمنا يا الله",
-            "Coptic": undefined,
-            "English": "Have mercy on us, O God (Eleison Emas)",
-            "Path": "RaisingOfIncenseEleisonEmas",
-            "Side": "Title",
-            "Switch": undefined,
-            "Type": "Title",
-            "rule": -1,
-            "visible": 0
-        }
-    },
-    {
-        "ArabicTitle": "إيليسون إيماس / إرحمنا يا الله",
-        "CopticTitle": undefined,
-        "EnglishTitle": "Have mercy on us, O God (Eleison Emas)",
-        "key": 2,
-        "part": {
-            "Arabic": "الكاهن:",
-            "Arabiccoptic": "بي أويب:",
-            "Coptic": "Piouhb>",
-            "English": "Priest:",
-            "Englishcoptic": "Pi-oweeb:",
-            "Rule": 0,
-            "Side": "Priest",
-            "Type": "Base",
-            "Visible": true
-        },
-        "path": "RaisingOfIncenseEleisonEmas"
-    },
-    {
-        "ArabicTitle": "إيليسون إيماس / إرحمنا يا الله",
-        "CopticTitle": undefined,
-        "EnglishTitle": "Have mercy on us, O God (Eleison Emas)",
-        "key": 3,
-        "part": {
-            "Arabic": "ارحَمننا يا الله الآبُ ضابطَ الكلِ. أيها الثالوثُ القدوسُ ارحَمْنا.",
-            "Arabicco      optic": "اليسون ايماس اوثيئوس اوباتير او باندوكراطور, بان اجيا اترياس اليسون ايماس",
-            "Coptic": "`Ele`hcon `hmac `o Qeoc `o Pathr `o Pantokratwr. Pan`agia `Triac `ele`hcon `hmac.",
-            "English": "Have mercy on us, O God, the Father, the Pantocrator. All-Holy Trinity, have mercy on us.",
-            "Englishcoptic": "Eleison emas o-theos o-patir o-pantokrator. Pan agia etrias eleison emas.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        "path": "RaisingOfIncenseEleisonEmas"
-    },
-    {
-        "ArabicTitle": "إيليسون إيماس / إرحمنا يا الله",
-        "CopticTitle": undefined,
-        "EnglishTitle": "Have mercy on us, O God (Eleison Emas)",
-        "key": 4,
-        "part": {
-            "Arabic": "أيها الربُّ إِلهَ القواتِ كُن معنا، لأنه ليس لنا معينٌ في شدائدِنا وضيقاتِنا          سواكَ.",
-            "Arabiccoptic": "ابشويس افنوتى انتى نى جوم شوبى نيمان جى اممون  انطان ان اوفو ايثوس خين نين اثليبسيس نيم نين هوجهيج ايفيل ايروك.",
-            "Coptic": "`Psoic `Vnou; `nte nijom ]wpi neman> je `mmon `ntan `noubo`hqoc =en nen`qli'ic nem nen\\oj\\ej `ebhl `erok.",
-            "English": "O Lord, God of hosts, be with us, for we have no helper in our tribulations and afflictions but You.",
-            "Englishcoptic": "Epchois Efnoti ente ni-gom shopi neman, je emon entan eno-vo-eison nem nen-ethlepsis nem nen-hogheg evil erok.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        "path": "RaisingOfIncenseEleisonEmas"
-    },
-    {
-        "ArabicTitle": "أبانا الذي في السموات",
-        "CopticTitle": undefined,
-        "EnglishTitle": "Our Father Who Art in Heaven ",
-        "key": 5,
-        "part": {
-            "Arabic": "أبانا الذي في السموات",
-            "Coptic": undefined,
-            "English": "Our Father Who Art in Heaven ",
-            "Path": "AgpeyaPrayersOurFather",
-            "Side": "Title",
-            "Switch": undefined,
-            "Type": "Title",
-            "rule": -1,
-            "visible": 0
-        }
-    },
-    {
-        "ArabicTitle": "أبانا الذي في السموات",
-        "CopticTitle": undefined,
-        "EnglishTitle": "Our Father Who Art in Heaven ",
-        "key": 6,
-        "part": {
-            "Arabic": "اجعلنا مستحقين أن نقول بشكر:",
-            "Arabiccoptic": "اريتين إن إميبشا إنجوس خين او شيب إيهموت",
-            "Coptic": "`Ariten `nem`p]a `njoc =en ou]ep\\mot>",
-            "English": "Make us worthy to pray thankfully:",
-            "Englishcoptic": "Ariten en-emepsha engos khen o-shep ehmot:",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        "path": "AgpeyaPrayersOurFather"
-    },
-    {
-        "ArabicTitle": "أبانا الذي في السموات",
-        "CopticTitle": undefined,
-        "EnglishTitle": "Our Father Who Art in Heaven ",
-        "key": 7,
-        "part": {
-            "Arabic": "الشعب:",
-            "Arabiccoptic": "بيلاؤس:",
-            "Coptic": "Pilaoc>",
-            "English": "People:",
-            "Englishcoptic": "Pi-Laos:",
-            "Rule": 0,
-            "Side": "People",
-            "Type": "Base",
-            "Visible": true
-        },
-        "path": "AgpeyaPrayersOurFather"
-    },
-    {
-        "ArabicTitle": "أبانا الذي في السموات",
-        "CopticTitle": undefined,
-        "EnglishTitle": "Our Father Who Art in Heaven ",
-        "key": 8,
-        "part": {
-            "Arabic": "أبانا الذي في السموات، ليتقدس إسمك. ليأت ملكوتك. لتكن مشيئتك، كما في السماء كذلك على الأرض.",
-            "Arabiccoptic": "جى بينيوت إتخين نيفيؤوي : ماريف طوفو إنجيه بيكران :ماريسئي إنجيه تيك ميت أورو : بيتهناك ماريف شوبي  .  إمفريتي خين إتفى : نيم هيجين بيكاهي :",
-            "Coptic": "Je Peniwt et =en nivhou`i> mareftoubo `nje pekran. Marec`i `nje tekmetouro. Pete\\ nak maref]wpi> `m`vrh; =en `tve nem \\ijen pika\\i.",
-            "English": "Our Father who art in heaven, hallowed be Thy name. Thy kingdom come. Thy will be done, on earth as it is in heaven.",
-            "Englishcoptic": "Je Peniot et khen ni-feeowi: maref-toovo enje pekran. Mares-ee enje tek-met-ooro. Peteh nak marefshopi: emevreeti khen etve nem hijen pikahi.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        "path": "AgpeyaPrayersOurFather"
-    },
-    {
-        "ArabicTitle": "أبانا الذي في السموات",
-        "CopticTitle": undefined,
-        "EnglishTitle": "Our Father Who Art in Heaven ",
-        "key": 9,
-        "part": {
-            "Arabic": "خبزنا كفافنا أعطنا اليوم. وأغفر لنا ذنوبنا، كما نغفر نحن أيضاً للمذنبين إلينا.",
-            "Arabiccoptic": "بين أويك إنتى راستي :ميف نان إمففوؤو . أووه كاني إيتيرون نان إيفول : إمفريتي هون إنتين كو إيفول :إنني إيتيه أوأون إنتان إيروؤ :",
-            "Coptic": "Penwik `nte rac; mhif nan `mvoou. Ouo\\ xa nhet`eron nan `ebol> `m`vrh; \\wn `ntenxw `ebol `nnh`ete ouon `ntan `erwou.",
-            "English": "Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us;",
-            "Englishcoptic": "Penoik ente rasti meeif nan emfo-oo. Owoh ka nee et-eron nan evol: emevreeti hon enten-ko evol ennee ete oo-on entan ero-oo.",
-            "Rule": 0,
-            "Side": "North",
-            "Type": "Base",
-            "Visible": true
-        },
-        "path": "AgpeyaPrayersOurFather"
-    }
-]
-
 {
-    "ArabicTitle": "إيليسون إيماس / إرحمنا يا الله",
-    "CopticTitle": undefined,
-    "EnglishTitle": "Have mercy on us, O God (Eleison Emas)",
-    "key": 1,
-    "part": {
-        "Arabic": "إيليسون إيماس / إرحمنا يا الله",
-        "Coptic": undefined,
-        "English": "Have mercy on us, O God (Eleison Emas)",
-        "Path": "RaisingOfIncenseEleisonEmas",
-        "Side": "Title",
-        "Switch": undefined,
-        "Type": "Title",
-        "rule": -1,
-        "visible": 0
-    }
+    "copticDay": 28,
+    "copticMonth": "Koiahk",
+    "copticMonthIndex": 3,
+    "copticYear": 1741,
+    "dayOfWeek": 1,
+    "end": "2025-01-07T06:00:00.000Z",
+    "fullcopticDate": {
+        "day": 28,
+        "month": "Koiahk",
+        "monthIndex": 3,
+        "year": 1741
+    },
+    "fullgregorianDate": 2025-01-06T06: 00: 00.000Z,
+    "gregorianDayOfMonth": 6,
+    "gregorianMonth": 0,
+    "gregorianYear": 2025,
+    "isWatos": false,
+    "key": "NATIVITY_PARAMOUN",
+    "major": false,
+    "plantsSeason": "plants",
+    "saintsOfThisDay": [],
+    "start": "2025-01-06T06:00:00.000Z",
+    "type": "fast",
+    "week": 1,
+    "weekOfMonth": 4
 }

@@ -1,21 +1,13 @@
-import { View, Switch, StyleSheet, Text, Image, Pressable } from "react-native";
-import React, { useState } from "react";
-import moment from "moment";
-import Colors from "../../constants/colors.js";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers";
+import React from "react";
+import { View, StyleSheet, Text, Pressable } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { changeFontSize } from "../../stores/redux/settings.js";
+import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
+import Colors from "../../constants/colors.js";
+
 function FontSize() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const dispatch = useDispatch();
-  //const [fontSize, setFontSize] = useState(24);
-  const language = useSelector((state) => state.settings.appLanguage);
-
-  let flexDirection = "row";
 
   function fontSizePlus() {
     dispatch(changeFontSize({ direction: "plus" }));
@@ -23,6 +15,7 @@ function FontSize() {
   function fontSizeMinus() {
     dispatch(changeFontSize({ direction: "minus" }));
   }
+
   return (
     <View
       style={[
@@ -33,7 +26,7 @@ function FontSize() {
         },
       ]}
     >
-      <View style={[styles.switchView, { flexDirection: flexDirection }]}>
+      <View style={styles.switchView}>
         <View style={styles.titleView}>
           <Text
             style={[
@@ -50,16 +43,13 @@ function FontSize() {
             {fontSize}
           </Text>
         </View>
+
         <View style={styles.buttonsContainer}>
           <Pressable style={styles.buttonBox} onPress={fontSizePlus}>
-            <View>
-              <Text style={styles.copticText}>A</Text>
-            </View>
+            <Text style={styles.copticText}>A</Text>
           </Pressable>
           <Pressable style={styles.buttonBox} onPress={fontSizeMinus}>
-            <View>
-              <Text style={styles.copticText}>a</Text>
-            </View>
+            <Text style={styles.copticText}>a</Text>
           </Pressable>
         </View>
       </View>
@@ -80,17 +70,10 @@ const styles = StyleSheet.create({
   fontsizestyle: {
     fontSize: 50,
     fontFamily: "english-font",
-    justifyContent: "center",
     textAlign: "center",
   },
   title: {
     fontFamily: "english-font",
-  },
-  description: {
-    fontSize: 15,
-    fontFamily: "english-font",
-
-    color: "gray",
   },
   switchView: {
     flexDirection: "row",
@@ -103,7 +86,7 @@ const styles = StyleSheet.create({
   buttonBox: {
     width: "100%",
     justifyContent: "center",
-    textAlign: "center",
+    alignItems: "center",
     backgroundColor: Colors.NavigationBarColor,
     margin: 5,
     borderColor: "black",
@@ -112,11 +95,10 @@ const styles = StyleSheet.create({
     padding: 5,
   },
   copticText: {
-    justifyContent: "center",
-    textAlign: "center",
-    fontWeight: "bold",
     fontFamily: "coptic-font",
     fontSize: 30,
+    fontWeight: "bold",
+    textAlign: "center",
   },
 });
 

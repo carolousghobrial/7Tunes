@@ -250,6 +250,13 @@
             "Visible": true
         },
         {
+            "Type": "Button",
+            "Arabic": "التحليل",
+            "English": "Skip to the Absolution",
+            "Rule": "SkipShortLitanies",
+            "Visible": true
+        },
+        {
             "Type": "Main",
             "Path": "RaisingOfIncenseLitanyPeace",
             "Rule": 0,

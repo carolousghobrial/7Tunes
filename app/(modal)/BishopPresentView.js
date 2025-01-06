@@ -107,7 +107,15 @@ function BishopPresentView({ bottomSheetRef, snapPoints }) {
         setBishop={setBishopClicked}
       />
 
-      <View style={styles.container}>
+      <View
+        style={[
+          styles.container,
+          {
+            backgroundColor: navigationBarColor,
+            borderColor: primaryColor,
+          },
+        ]}
+      >
         <View style={styles.switchView}>
           <Text style={[styles.title, { fontSize, color: primaryColor }]}>
             {BishopIsPresentText}
@@ -193,7 +201,9 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: "space-around",
     alignItems: "center",
-    margin: 5,
+    margin: 10,
+    padding: 10,
+    borderRadius: 10,
     flexDirection: "column",
   },
   switchView: {

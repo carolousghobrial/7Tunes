@@ -1,103 +1,79 @@
 import {
   View,
-  Switch,
   StyleSheet,
   Text,
-  Image,
-  FlatList,
-  Platform,
-  Pressable,
   Modal,
   SectionList,
   SafeAreaView,
-  TouchableWithoutFeedback,
+  Pressable,
   useWindowDimensions,
 } from "react-native";
-import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import { useDispatch, useSelector } from "react-redux";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useMemo } from "react";
 import SearchBar from "../ViewTypes/SearchBar";
+import { getColor } from "../../helpers/SettingsHelpers";
 
 const bishopsList = require("../../assets/json/bishopsList.json");
 
 function AllBishopsPopup({ visible, closeModal, setBishop }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
-
-  const labelColor = getColor("LabelColor");
-  const itemBackgroundColor = getColor("pageBackgroundColor");
-  const pageBackgroundColor = getColor("NavigationBarColor");
-  const [clicked, setClicked] = useState(false);
   const { width, height } = useWindowDimensions();
-  let viewheight = "70%";
-  let viewwidth = "100%";
-  let imageSize = width / 2.5;
+
+  // Dynamically adjusting layout based on orientation
+  const isLandscape = width > height;
+  const imageSize = width / 2.5;
+  const viewStyle = isLandscape
+    ? { flexDirection: "row", height: "100%", width: "50%" }
+    : { height: "70%", width: "100%" };
   const imageStyle = {
     width: imageSize,
     height: imageSize,
     borderRadius: imageSize / 2,
   };
 
-  if (width > height) {
-    flexDirection = "row";
-    viewheight = "100%";
-    viewwidth = "50%";
-  }
+  const labelColor = getColor("LabelColor");
+  const itemBackgroundColor = getColor("pageBackgroundColor");
+  const pageBackgroundColor = getColor("NavigationBarColor");
+
+  const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
 
-  const popeObject = bishopsList.POPE;
-  const antiochPope = bishopsList.ANTIOCH_POPE;
-  const metropolitans = bishopsList.Metropolitans;
-  const dioceseBishops = bishopsList.Diocese_Bishops;
-  const monasteryBishops = bishopsList.Monastery_Bishops;
-  const generalBishops = bishopsList.General_Bishops;
+  const bishopSections = useMemo(() => {
+    const sortBishops = (bishops) =>
+      bishops.sort((a, b) => a.English.localeCompare(b.English));
+    return [
+      { title: "Metropolitans", data: sortBishops(bishopsList.Metropolitans) },
+      {
+        title: "Diocese Bishops",
+        data: sortBishops(bishopsList.Diocese_Bishops),
+      },
+      {
+        title: "Monastery Bishops",
+        data: sortBishops(bishopsList.Monastery_Bishops),
+      },
+      {
+        title: "General Bishops",
+        data: sortBishops(bishopsList.General_Bishops),
+      },
+    ];
+  }, []);
 
-  const bishopSections = [
-    {
-      title: "Metropolitans",
-      data: metropolitans.sort((a, b) => a.English.localeCompare(b.English)),
-    },
-    {
-      title: "Diocese Bishops",
-      data: dioceseBishops.sort((a, b) => a.English.localeCompare(b.English)),
-    },
-    {
-      title: "Monastery Bishops",
-      data: monasteryBishops.sort((a, b) => a.English.localeCompare(b.English)),
-    },
-    {
-      title: "General Bishops",
-      data: generalBishops.sort((a, b) => a.English.localeCompare(b.English)),
-    },
-  ];
-  const [currentBishopSections, setCurrentBishopSections] =
-    useState(bishopSections);
-
-  const handleSearch = (text) => {
-    setSearchPhrase(text);
-
-    const filteredSections = bishopSections.reduce((result, section) => {
-      const { title, data } = section;
-      const filteredData = data.filter(
+  const currentBishopSections = useMemo(() => {
+    return bishopSections.filter((section) =>
+      section.data.some(
         (item) =>
-          item.English.toLowerCase()?.includes(text.toLowerCase()) ||
-          item.Arabic?.includes(text) ||
-          item.dioceseEnglish.toLowerCase()?.includes(text.toLowerCase()) ||
-          item.dioceseArabic?.includes(text)
-      );
+          item.English.toLowerCase().includes(searchPhrase.toLowerCase()) ||
+          item.Arabic.includes(searchPhrase) ||
+          item.dioceseEnglish
+            .toLowerCase()
+            .includes(searchPhrase.toLowerCase()) ||
+          item.dioceseArabic.includes(searchPhrase)
+      )
+    );
+  }, [searchPhrase, bishopSections]);
 
-      if (filteredData.length !== 0) {
-        result.push({
-          title,
-          data: filteredData,
-        });
-      }
-
-      return result;
-    }, []);
-
-    setCurrentBishopSections(filteredSections);
-  };
+  const handleSearch = (text) => setSearchPhrase(text);
 
   return (
     <Modal
@@ -105,37 +81,24 @@ function AllBishopsPopup({ visible, closeModal, setBishop }) {
       visible={visible}
       transparent
       onRequestClose={closeModal}
-      supportedOrientations={[
-        "portrait",
-        "portrait-upside-down",
-        "landscape",
-        "landscape-left",
-        "landscape-right",
-      ]}
     >
       <SafeAreaView
-        style={[
-          styles.container,
-          {
-            backgroundColor: pageBackgroundColor,
-          },
-        ]}
+        style={[styles.container, { backgroundColor: pageBackgroundColor }]}
       >
         <SearchBar
           setClicked={setClicked}
           searchPhrase={searchPhrase}
           handleSearch={handleSearch}
-          setSearchPhrase={setSearchPhrase}
           clicked={clicked}
         />
         <SectionList
           sections={currentBishopSections}
-          style={{ width: "100%" }}
-          keyExtractor={(item, index) => item.key}
+          style={styles.sectionList}
+          keyExtractor={(item) => item.key}
           renderItem={({ item }) => (
             <Pressable
               style={[styles.item, { backgroundColor: itemBackgroundColor }]}
-              onPress={setBishop.bind(this, item)}
+              onPress={() => setBishop(item)}
             >
               <Text style={[styles.title, { color: labelColor }]}>
                 {appLanguage === "eng"
@@ -153,8 +116,7 @@ function AllBishopsPopup({ visible, closeModal, setBishop }) {
             <Text style={styles.header}>{title}</Text>
           )}
         />
-
-        <View style={{ flexDirection: "row" }}>
+        <View style={styles.buttonContainer}>
           <Pressable
             android_ripple={{ color: getColor("pageBackgroundColor") }}
             style={[styles.button, { borderColor: labelColor }]}
@@ -171,14 +133,15 @@ function AllBishopsPopup({ visible, closeModal, setBishop }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    height: "50%",
     justifyContent: "center",
     alignItems: "center",
   },
+  sectionList: {
+    width: "100%",
+  },
   item: {
-    backgroundColor: "grey",
-    borderColor: "black",
     marginVertical: 8,
+    borderColor: "black",
   },
   header: {
     fontSize: 25,
@@ -191,19 +154,18 @@ const styles = StyleSheet.create({
     fontSize: 15,
   },
   text: {
-    color: "black",
     fontSize: 20,
     fontFamily: "english-font",
     fontWeight: "bold",
     textAlign: "center",
-    justifyContent: "center",
-    alignContent: "center",
+  },
+  buttonContainer: {
+    flexDirection: "row",
   },
   button: {
     flex: 1,
     margin: 5,
     padding: 5,
-    borderColor: "black",
     borderWidth: 1,
   },
 });

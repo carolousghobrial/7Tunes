@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   View,
   StyleSheet,
@@ -11,39 +11,36 @@ import { useDispatch, useSelector } from "react-redux";
 import { changeLanguage } from "../../stores/redux/settings.js";
 
 function ApplicationLanguage() {
-  const mylanguage = useSelector((state) => state.settings.appLanguage);
-  const fontSize = useSelector((state) => state.settings.textFontSize);
+  const { appLanguage: currentLanguage, textFontSize: fontSize } = useSelector(
+    (state) => state.settings
+  );
   const dispatch = useDispatch();
   const { width, height } = useWindowDimensions();
 
-  let flexDirection = "column";
-  let containerflexDirection = "row";
+  const flexDirection = width > height ? "row" : "column";
+  const containerflexDirection = "row";
 
-  if (width > height) {
-    flexDirection = "row";
-  }
+  const wrapperStyle = { flexDirection, color: getColor("PrimaryColor") };
 
-  const wrapperStyle = {
-    flexDirection: flexDirection,
-    color: getColor("PrimaryColor"),
-  };
   const languages = [
     { key: "ara", text: getLanguageValue("arabic") },
     { key: "eng", text: getLanguageValue("english") },
   ];
-  function changeLang(key) {
-    if (mylanguage != key) {
+
+  const changeLang = (key) => {
+    if (currentLanguage !== key) {
       dispatch(changeLanguage({ appLanguage: key }));
     }
-  }
+  };
+
   return (
     <View
       style={[
         styles.container,
         {
-          borderColor: getColor("PrimaryColor"),
           flexDirection: containerflexDirection,
           backgroundColor: getColor("NavigationBarColor"),
+          borderColor: getColor("PrimaryColor"),
         },
       ]}
     >
@@ -65,23 +62,18 @@ function ApplicationLanguage() {
           {getLanguageValue("applanguagedescription")}
         </Text>
       </View>
-      <View
-        style={[
-          styles.wrapper,
-          wrapperStyle,
-          { color: getColor("PrimaryColor") },
-        ]}
-      >
-        {languages.map((lang) => (
-          <View key={lang.key} style={styles.language}>
-            <Pressable onPress={() => changeLang(lang.key)}>
+
+      <View style={[styles.wrapper, wrapperStyle]}>
+        {languages.map(({ key, text }) => (
+          <View key={key} style={styles.language}>
+            <Pressable onPress={() => changeLang(key)}>
               <View
                 style={[
                   styles.outter,
                   { borderColor: getColor("PrimaryColor") },
                 ]}
               >
-                {mylanguage === lang.key && (
+                {currentLanguage === key && (
                   <View
                     style={[
                       styles.inner,
@@ -90,9 +82,8 @@ function ApplicationLanguage() {
                   />
                 )}
               </View>
-
               <Text style={[styles.lang, { color: getColor("PrimaryColor") }]}>
-                {lang.text}
+                {text}
               </Text>
             </Pressable>
           </View>
@@ -112,23 +103,11 @@ const styles = StyleSheet.create({
     flex: 1,
     margin: 5,
   },
-  description: {
-    fontFamily: "english-font",
-    color: "black",
-    fontStyle: "italic",
-  },
-  fontsizestyle: {
-    fontSize: 50,
-    fontFamily: "english-font",
-    justifyContent: "center",
-    textAlign: "center",
-  },
   title: {
     fontFamily: "english-font",
   },
   description: {
     fontFamily: "english-font",
-
     color: "gray",
     fontStyle: "italic",
   },
@@ -136,27 +115,13 @@ const styles = StyleSheet.create({
     textTransform: "capitalize",
     fontFamily: "english-font",
   },
-  text: {
-    fontSize: 20,
-    flex: 1,
-    marginBottom: 10,
-    fontFamily: "english-font",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  language: {
-    margin: 15,
-    alignItems: "center",
-  },
   wrapper: {
     justifyContent: "space-evenly",
     marginTop: 10,
   },
-  inner: {
-    width: 15,
-    height: 15,
-    padding: 4,
-    borderRadius: 10,
+  language: {
+    margin: 15,
+    alignItems: "center",
   },
   outter: {
     width: 20,
@@ -167,5 +132,12 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+  inner: {
+    width: 15,
+    height: 15,
+    padding: 4,
+    borderRadius: 10,
+  },
 });
+
 export default ApplicationLanguage;

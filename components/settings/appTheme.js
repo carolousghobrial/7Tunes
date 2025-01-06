@@ -1,21 +1,13 @@
+import React from "react";
 import {
   View,
   Switch,
   StyleSheet,
   Text,
-  Image,
-  Pressable,
   useWindowDimensions,
 } from "react-native";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers";
-import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Colors from "../../constants/colors.js";
-import Languages from "../../constants/languages.js";
+import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import { changeDarkMode } from "../../stores/redux/settings.js";
 
 function AppTheme() {
@@ -23,9 +15,8 @@ function AppTheme() {
   const darkMode = useSelector((state) => state.settings.darkMode);
   const language = useSelector((state) => state.settings.appLanguage);
   const fontSize = useSelector((state) => state.settings.textFontSize);
-  let flexDirection = "row";
-
   const dispatch = useDispatch();
+
   const toggleSwitch = () => dispatch(changeDarkMode());
 
   return (
@@ -38,7 +29,12 @@ function AppTheme() {
         },
       ]}
     >
-      <View style={[styles.switchView, { flexDirection: flexDirection }]}>
+      <View
+        style={[
+          styles.switchView,
+          { flexDirection: width > height ? "row" : "column" },
+        ]}
+      >
         <View style={styles.titleView}>
           <Text
             style={[
@@ -50,21 +46,17 @@ function AppTheme() {
           </Text>
           <Text
             style={[
-              styles.title,
+              styles.description,
               { fontSize: fontSize / 1.8, color: getColor("PrimaryColor") },
             ]}
           >
             {getLanguageValue("backgroundselectordescription")}
           </Text>
         </View>
+
         <View style={styles.switch}>
           <View style={styles.textContainer}>
-            <Text
-              style={[
-                darkMode ? [styles.textOn] : [styles.textOff],
-                { color: getColor("PrimaryColor") },
-              ]}
-            >
+            <Text style={[styles.text, { color: getColor("PrimaryColor") }]}>
               {darkMode ? getLanguageValue("dark") : getLanguageValue("light")}
             </Text>
           </View>
@@ -117,15 +109,8 @@ const styles = StyleSheet.create({
   textContainer: {
     marginHorizontal: 10,
   },
-  textOn: {
+  text: {
     fontFamily: "english-font",
-    justifyContent: "center",
-    textAlign: "center",
-    fontWeight: "bold",
-  },
-  textOff: {
-    fontFamily: "english-font",
-    justifyContent: "center",
     textAlign: "center",
     fontWeight: "bold",
   },

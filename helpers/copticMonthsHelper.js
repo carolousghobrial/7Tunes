@@ -784,20 +784,24 @@ export function getCurrentSeasonByDate(date, timeTransition) {
   );
 
   var todayDate = moment(date);
-  if (
-    copticDate.month !== "Tobe" &&
-    copticDate.month !== "Meshir" &&
-    copticDate.month !== "Paremhotep" &&
-    copticDate.month !== "Kiahk" &&
-    copticDate.day === 29
-  ) {
-    collection.push({
-      key: "TWENTYNINTHTH_COPTIC_MONTH",
-      type: "feast",
-      start: null,
-      end: null,
-      major: false,
-    });
+  switch (copticDate.month) {
+    case "Tobe":
+    case "Meshir":
+    case "Koiahk":
+    case "Paremhotep":
+      // Do nothing if the month matches any of the excluded months
+      break;
+    default:
+      if (copticDate.day === 29) {
+        collection.push({
+          key: "TWENTYNINTHTH_COPTIC_MONTH",
+          type: "feast",
+          start: null,
+          end: null,
+          major: false,
+        });
+      }
+      break;
   }
 
   fastsfeasts.forEach((feast) => {
@@ -870,22 +874,27 @@ export function getCurrentSeason(timeTransition) {
     currentDate.getMonth(),
     currentDate.getDate()
   );
-  if (
-    copticDate.day === 29 &&
-    copticDate.month != "Tobe" &&
-    copticDate.month != "Meshir" &&
-    copticDate.month != "Koiahk" &&
-    copticDate.month != "Paremhotep"
-  ) {
-    collection.push({
-      key: "TWENTYNINTHTH_COPTIC_MONTH",
-      type: "feast",
-      start: null,
-      end: null,
-      major: false,
-    });
-  }
+
   var todayDate = getTodayDate(timeTransition);
+  switch (copticDate.month) {
+    case "Tobe":
+    case "Meshir":
+    case "Koiahk":
+    case "Paremhotep":
+      // Do nothing if the month matches any of the excluded months
+      break;
+    default:
+      if (copticDate.day === 29) {
+        collection.push({
+          key: "TWENTYNINTHTH_COPTIC_MONTH",
+          type: "feast",
+          start: null,
+          end: null,
+          major: false,
+        });
+      }
+      break;
+  }
 
   fastsfeasts.map((feast) => {
     if (

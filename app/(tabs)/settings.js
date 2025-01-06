@@ -157,13 +157,12 @@ function SettingsScreen() {
           <ApplicationLanguage />
           <AppTheme />
           <TodaysPrayer />
-          <PresentationMode />
           <FontSize />
           <VisibleLangs />
           <PopeBishop />
           <View
             style={[
-              styles.container,
+              styles.smallContainer,
               {
                 borderColor: pageBackgroundColor,
                 backgroundColor: navBarColor,
@@ -190,6 +189,7 @@ function SettingsScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1 },
+  smallContainer: { margin: 10, padding: 10, borderRadius: 10 },
   badge: {
     position: "absolute",
     right: 10,

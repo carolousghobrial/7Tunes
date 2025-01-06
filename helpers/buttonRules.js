@@ -52,6 +52,13 @@ function useButtonRules(item, motherSource, flatListRef, viewData, router) {
     updateItemCount();
     flatListRef.current.scrollToIndex({ index: index + 3, animated: false });
   };
+  // Scroll up button rule
+  const SkipShortLitanies = () => {
+    const index = viewData.findIndex(
+      (part) => part.path === "RaisingOfIncenseAbsolution"
+    );
+    flatListRef.current.scrollToIndex({ index: index - 7, animated: false });
+  };
 
   return {
     OpenTheotokiaButtonRule: openBookScreen,
@@ -60,6 +67,7 @@ function useButtonRules(item, motherSource, flatListRef, viewData, router) {
     OpenPageButtonRule: openBookScreen,
     OpenNewPageButtonRule: () => openBookScreen(true),
     ThokTeTiGomScrollUpButtonRule,
+    SkipShortLitanies: SkipShortLitanies,
     OpenSinglePageButtonRule: openViewSingleHymn,
     PopPage: () => router.back(),
   };

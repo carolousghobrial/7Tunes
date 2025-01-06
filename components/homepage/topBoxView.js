@@ -16,15 +16,15 @@ function TopBoxView() {
   const [copticdate, setCopticDate] = useState("");
   const labelColor = getColor("LabelColor");
 
-  const [imageURL, setImageURL] = useState(currentSeason.key);
+  const [imageURL, setImageURL] = useState(currentSeason?.key);
   const dispatch = useDispatch();
   function SetCopticDateTime() {
     setCopticDate(
-      Languages[appLang][currentSeason.copticMonth] +
+      Languages[appLang][currentSeason?.copticMonth] +
         " " +
-        currentSeason.copticDay +
+        currentSeason?.copticDay +
         ", " +
-        currentSeason.copticYear
+        currentSeason?.copticYear
     );
   }
   useEffect(() => {
@@ -32,16 +32,16 @@ function TopBoxView() {
     SetCopticDateTime();
 
     setImageURL(
-      currentSeason.key === "STANDARD" &&
+      currentSeason?.key === "STANDARD" &&
         currentSeason.saintsOfThisDay?.length > 0
         ? currentSeason.saintsOfThisDay[0]
-        : currentSeason.key
+        : currentSeason?.key
     );
   }, [currentSeason]);
-  let tempText = getLanguageValue(currentSeason.key);
+  let tempText = getLanguageValue(currentSeason?.key);
 
   function updateSeasonText() {
-    if (["GREAT_LENT", "HOLY_50"].includes(currentSeason.key)) {
+    if (["GREAT_LENT", "HOLY_50"].includes(currentSeason?.key)) {
       const weekNum = currentSeason.week;
       tempText =
         appLang === "eng"
@@ -64,9 +64,9 @@ function TopBoxView() {
     const curSeason = setCurrentSeasonLive(timeTransition);
     dispatch(setSeason({ currentSeason: curSeason }));
     setImageURL(
-      curSeason.key === "STANDARD" && curSeason.saintsOfThisDay?.length > 0
+      curSeason?.key === "STANDARD" && curSeason.saintsOfThisDay?.length > 0
         ? curSeason.saintsOfThisDay[0]
-        : curSeason.key
+        : curSeason?.key
     );
   }
 

@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import {
   Modal,
   View,
-  ScrollView,
   Text,
   StyleSheet,
   Pressable,
@@ -12,130 +11,97 @@ import {
   useWindowDimensions,
 } from "react-native";
 import Checkbox from "expo-checkbox";
-import AppTheme from "../settings/appTheme";
-import FontSize from "../settings/fontSize";
-import VisibleLangs from "../settings/visibleLangs";
-import TodaysPrayer from "../settings/todaysPrayer";
-import images from "../../helpers/imageHelpers";
 import { useDispatch, useSelector } from "react-redux";
 import {
   getLanguageValue,
-  getFontSize,
   getColor,
   getSaint,
 } from "../../helpers/SettingsHelpers.js";
+import images from "../../helpers/imageHelpers";
 
-function SaintModal({ visible, saint, closeModal, updateSaint }) {
+const SaintModal = React.memo(({ visible, saint, closeModal, updateSaint }) => {
   const saintSelected = getSaint(saint);
-  const [modalIsOpen, setModalIsOpen] = useState(false);
   const { width, height } = useWindowDimensions();
-  const [vosChecked, setvosChecked] = useState(false);
-  const [doxChecked, setdoxChecked] = useState(false);
   const fontSize = useSelector((state) => state.settings.textFontSize);
+  const [checkedOptions, setCheckedOptions] = useState({
+    versesofCymbals: saintSelected?.versesofCymbals || false,
+    doxologies: saintSelected?.doxologies || false,
+  });
 
-  let viewheight = "50%";
-  let viewwidth = "100%";
-  let imageSize = width / 3;
+  // Dynamically calculate image size based on orientation
+  const imageSize = width / 3;
   const imageStyle = {
     width: imageSize,
     height: imageSize,
   };
 
-  if (width > height) {
-    flexDirection = "row";
-    viewheight = "100%";
-    viewwidth = "50%";
-  }
   useEffect(() => {
-    try {
-      if (visible) {
-        setModalIsOpen(true);
-        // Do something when the modal appears...
-        setvosChecked(saintSelected.versesofCymbals);
-        setdoxChecked(saintSelected.doxologies);
-      } else {
-        setModalIsOpen(false);
-      }
-    } catch (e) {
-      Alert.alert(e);
+    if (visible) {
+      setCheckedOptions({
+        versesofCymbals: saintSelected.versesofCymbals,
+        doxologies: saintSelected.doxologies,
+      });
     }
-  }, [visible]);
-  useEffect(() => {
-    if (saintSelected !== undefined) {
-      saintSelected.versesofCymbals = vosChecked;
-      saintSelected.doxologies = doxChecked;
-    }
-  }, [vosChecked, doxChecked]);
+  }, [visible, saintSelected]);
+
+  const handleCloseModal = useCallback(() => {
+    closeModal();
+  }, [closeModal]);
+
+  const handleSetSaint = useCallback(() => {
+    saintSelected.versesofCymbals = checkedOptions.versesofCymbals;
+    saintSelected.doxologies = checkedOptions.doxologies;
+    updateSaint(saint, saintSelected);
+  }, [checkedOptions, saint, saintSelected, updateSaint]);
+
+  const handleCheckboxChange = (key) => (value) => {
+    setCheckedOptions((prevState) => ({ ...prevState, [key]: value }));
+  };
+
   return (
     <Modal
       animationType="slide"
       visible={visible}
       transparent
-      onRequestClose={closeModal}
-      supportedOrientations={[
-        "portrait",
-        "portrait-upside-down",
-        "landscape",
-        "landscape-left",
-        "landscape-right",
-      ]}
+      onRequestClose={handleCloseModal}
+      supportedOrientations={["portrait", "landscape"]}
     >
-      <Pressable onPress={closeModal} style={[styles.container]}>
+      <Pressable onPress={handleCloseModal} style={styles.container}>
         <TouchableWithoutFeedback>
           <View
-            style={{
-              height: viewheight,
-              width: viewwidth,
-              alignItems: "center",
-              backgroundColor: getColor("NavigationBarColor"),
-            }}
+            style={[
+              styles.modalContent,
+              { height: height * 0.5, width: "100%" },
+            ]}
           >
-            <View style={[styles.imageContainerLandscape, imageStyle]}>
+            <View style={[styles.imageContainer, imageStyle]}>
               <Image style={styles.image} source={images[saint]} />
             </View>
-            <Text style={[styles.text, { color: getColor("PrimaryColor") }]}>
+            <Text
+              style={[
+                styles.text,
+                { fontSize: fontSize * 1.5, color: getColor("PrimaryColor") },
+              ]}
+            >
               {getLanguageValue(saint)}
             </Text>
-            <View style={styles.checkboxcontainer}>
-              <View style={styles.section}>
-                <Checkbox
-                  style={styles.checkbox}
-                  value={vosChecked}
-                  onValueChange={setvosChecked}
-                />
-                <Text
-                  style={{
-                    fontSize: fontSize,
-                    fontFamily: "english-font",
-                    color: getColor("PrimaryColor"),
-                  }}
-                >
-                  Verses of Cymbals
-                </Text>
-              </View>
-              <View style={styles.section}>
-                <Checkbox
-                  style={styles.checkbox}
-                  value={doxChecked}
-                  onValueChange={setdoxChecked}
-                />
-                <Text
-                  style={{
-                    fontSize: fontSize,
-                    fontFamily: "english-font",
-                    color: getColor("PrimaryColor"),
-                  }}
-                >
-                  Doxologies
-                </Text>
-              </View>
+            <View style={styles.checkboxContainer}>
+              <CheckboxOption
+                label="Verses of Cymbals"
+                checked={checkedOptions.versesofCymbals}
+                onChange={handleCheckboxChange("versesofCymbals")}
+              />
+              <CheckboxOption
+                label="Doxologies"
+                checked={checkedOptions.doxologies}
+                onChange={handleCheckboxChange("doxologies")}
+              />
             </View>
-
-            <View style={{ flexDirection: "row" }}>
+            <View style={styles.buttonsContainer}>
               <Pressable
                 android_ripple={{ color: getColor("pageBackgroundColor") }}
-                style={[styles.button]}
-                onPress={closeModal}
+                style={styles.button}
+                onPress={handleCloseModal}
               >
                 <Text
                   style={[styles.text, { color: getColor("PrimaryColor") }]}
@@ -145,8 +111,8 @@ function SaintModal({ visible, saint, closeModal, updateSaint }) {
               </Pressable>
               <Pressable
                 android_ripple={{ color: getColor("pageBackgroundColor") }}
-                style={[styles.button]}
-                onPress={updateSaint.bind(this, saint, saintSelected)}
+                style={styles.button}
+                onPress={handleSetSaint}
               >
                 <Text
                   style={[styles.text, { color: getColor("PrimaryColor") }]}
@@ -160,7 +126,18 @@ function SaintModal({ visible, saint, closeModal, updateSaint }) {
       </Pressable>
     </Modal>
   );
-}
+});
+
+const CheckboxOption = React.memo(({ label, checked, onChange }) => (
+  <View style={styles.section}>
+    <Checkbox
+      style={styles.checkbox}
+      value={checked}
+      onValueChange={onChange}
+    />
+    <Text style={[styles.checkboxLabel, { fontSize: 18 }]}>{label}</Text>
+  </View>
+));
 
 const styles = StyleSheet.create({
   container: {
@@ -169,45 +146,57 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "rgba(0, 0, 0, 0.5)", // semi-transparent background
   },
-  checkboxcontainer: {
-    flex: 1,
-    marginHorizontal: 16,
-    marginVertical: 32,
-  },
-  section: {
-    flexDirection: "row",
+  modalContent: {
     alignItems: "center",
+    backgroundColor: getColor("NavigationBarColor"),
+    borderRadius: 10,
+    padding: 10,
   },
-
-  checkbox: {
-    margin: 8,
+  imageContainer: {
+    margin: 5,
+    overflow: "hidden",
   },
   image: {
     flex: 1,
     width: "100%",
-    alignItems: "center",
-    justifyContent: "center",
-    height: 150,
-    overflow: "hidden",
-  },
-  imageContainerLandscape: {
-    overflow: "hidden",
-    margin: 5,
+    height: "100%",
   },
   text: {
-    color: "black",
-    fontSize: 20,
-    padding: 5,
     fontFamily: "english-font",
     fontWeight: "bold",
     textAlign: "center",
+    marginVertical: 10,
+  },
+  checkboxContainer: {
+    flexDirection: "column",
+    marginVertical: 16,
+  },
+  section: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginVertical: 8,
+  },
+  checkbox: {
+    marginRight: 8,
+  },
+  checkboxLabel: {
+    fontFamily: "english-font",
+    color: getColor("PrimaryColor"),
+  },
+  buttonsContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    width: "100%",
+    marginTop: 20,
   },
   button: {
-    justifyContent: "flex-end",
-    alignItems: "flex-end",
     flex: 1,
-    margin: 10,
+    marginHorizontal: 10,
     padding: 10,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 5,
+    backgroundColor: getColor("SecondaryColor"),
   },
 });
 
