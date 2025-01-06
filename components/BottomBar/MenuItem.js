@@ -2,23 +2,22 @@ import React from "react";
 import {
   View,
   Text,
-  Pressable,
   TouchableOpacity,
   useWindowDimensions,
 } from "react-native";
 import { useSelector } from "react-redux";
 import { getColor } from "../../helpers/SettingsHelpers";
-import Colors from "../../constants/colors";
-import { changeTextLanguage } from "../../stores/redux/settings";
 
 const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
-  const highlightColor = getColor("pageBackgroundColor");
 
   const flexDirection = width < height ? "column" : "row";
   const isSelected = index === HighlitedIndex;
-  const selectedBackgroundColor = isSelected ? highlightColor : "transparent";
+  const selectedBackgroundColor = isSelected
+    ? getColor("pageBackgroundColor")
+    : "transparent";
+  const primaryColor = getColor("PrimaryColor");
 
   const handlePress = () => {
     scrollToKey(item.key);
@@ -30,7 +29,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
         styles.container,
         {
           flexDirection,
-          borderColor: getColor("PrimaryColor"),
+          borderColor: primaryColor,
           backgroundColor: selectedBackgroundColor,
         },
       ]}
@@ -40,7 +39,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
         <Text
           style={[
             styles.title,
-            { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
+            { fontSize: fontSize * 0.75, color: primaryColor },
           ]}
         >
           {item.EnglishTitle}
@@ -51,23 +50,25 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
           <Text
             style={[
               styles.coptic,
-              { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
+              { fontSize: fontSize * 0.75, color: primaryColor },
             ]}
           >
             {item.CopticTitle}
           </Text>
         </View>
       )}
-      <View style={styles.textView}>
-        <Text
-          style={[
-            styles.arabic,
-            { fontSize: fontSize * 0.75, color: getColor("LabelColor") },
-          ]}
-        >
-          {item.ArabicTitle}
-        </Text>
-      </View>
+      {item.ArabicTitle && (
+        <View style={styles.textView}>
+          <Text
+            style={[
+              styles.arabic,
+              { fontSize: fontSize * 0.75, color: primaryColor },
+            ]}
+          >
+            {item.ArabicTitle}
+          </Text>
+        </View>
+      )}
     </TouchableOpacity>
   );
 };
@@ -86,21 +87,19 @@ const styles = {
   },
   coptic: {
     fontFamily: "coptic-font",
-    textAlign: "right",
-    justifyContent: "center",
     textAlign: "center",
+    justifyContent: "center",
   },
   arabic: {
     fontFamily: "arabictitle-font",
-    textAlign: "right",
+    textAlign: "center",
     writingDirection: "rtl",
     justifyContent: "center",
-    textAlign: "center",
   },
   title: {
     fontFamily: "englishtitle-font",
-    justifyContent: "center",
     textAlign: "center",
+    justifyContent: "center",
   },
 };
 

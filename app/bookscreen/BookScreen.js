@@ -12,6 +12,7 @@ import {
   TouchableOpacity,
   View,
   Platform,
+  SafeAreaView,
   useWindowDimensions,
 } from "react-native";
 import {
@@ -291,7 +292,10 @@ const BookScreen = () => {
         contentsClose={contentsClose}
         scrollToKey={scrollToKey}
       />
-      <View key={pageKey} style={{ flex: 1 }}>
+      <SafeAreaView
+        key={pageKey}
+        style={{ flex: 1, backgroundColor: pageBackgroundColor }}
+      >
         <FlatList
           ref={flatListRef}
           style={{ flex: 1, backgroundColor: pageBackgroundColor }}
@@ -308,7 +312,7 @@ const BookScreen = () => {
         {bishopIsPresent && bishopButton && (
           <FloatingButton navigation={navigation} />
         )}
-      </View>
+      </SafeAreaView>
     </BottomSheetModalProvider>
   );
 };

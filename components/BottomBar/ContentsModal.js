@@ -1,4 +1,4 @@
-import React, { forwardRef, useState, useRef, useCallback } from "react";
+import React, { forwardRef, useRef, useCallback } from "react";
 import { useSelector } from "react-redux";
 import { View, Text, StyleSheet, Pressable } from "react-native";
 import {
@@ -19,14 +19,15 @@ const ContentsModal = ({
 }) => {
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
-
-  const [currentData, setCurrentData] = useState(
-    menuData.filter((item) => item.ArabicTitle || item.EnglishTitle)
-  );
-
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const TableOfContents = getLanguageValue("TableOfContents");
 
+  // Filter menuData once
+  const filteredMenuData = menuData.filter(
+    (item) => item.ArabicTitle || item.EnglishTitle
+  );
+
+  // Memoized function for scrolling to a specific key
   const scrollToMenuKey = useCallback(
     (item) => {
       scrollToKey(item);
@@ -34,6 +35,7 @@ const ContentsModal = ({
     [scrollToKey]
   );
 
+  // Backdrop customization
   const renderBackdrop = useCallback(
     (props) => (
       <BottomSheetBackdrop
@@ -54,6 +56,7 @@ const ContentsModal = ({
       snapPoints={["90%"]}
       backdropComponent={renderBackdrop}
     >
+      {/* Header Section */}
       <View style={styles.header}>
         <Text style={[styles.title, { color: labelColor }]}>
           {TableOfContents}
@@ -63,10 +66,10 @@ const ContentsModal = ({
         </Pressable>
       </View>
 
+      {/* FlatList Section */}
       <BottomSheetFlatList
         style={[styles.flatList, { backgroundColor: NavigationBarColor }]}
-        ref={useRef(null)}
-        data={currentData}
+        data={filteredMenuData}
         renderItem={({ item, index }) => (
           <MenuItem
             item={item}
@@ -76,20 +79,22 @@ const ContentsModal = ({
           />
         )}
         keyExtractor={(item, index) => index.toString()}
-        initialNumToRender={menuData.length}
+        initialNumToRender={filteredMenuData.length}
       />
     </BottomSheetModal>
   );
 };
+
 const styles = StyleSheet.create({
   header: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
+    paddingHorizontal: 10,
+    paddingVertical: 5,
   },
   closeButton: {
     marginHorizontal: 10,
-    marginBottom: 5,
     borderRadius: 25,
   },
   title: {
@@ -97,7 +102,6 @@ const styles = StyleSheet.create({
     fontFamily: "englishtitle-font",
     fontSize: 25,
     flex: 1,
-    marginHorizontal: 10,
   },
   flatList: {
     flex: 1,

@@ -1,146 +1,87 @@
-import { StyleSheet } from "react-native";
+import React from "react";
 import {
   View,
-  Button,
   Text,
-  Image,
+  ImageBackground,
   TouchableOpacity,
   useWindowDimensions,
+  StyleSheet,
 } from "react-native";
-import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import images from "../../helpers/imageHelpers";
 
 function BookView({ item, onClick, onLongPress }) {
   const { width, height } = useWindowDimensions();
   const isTablet = useSelector((state) => state.settings.isTablet);
-  const fontSize = isTablet ? 30 : 20;
-  let imageSize = 300;
-  if (width > height) {
-    // Landscape mode
-    imageSize = 100;
-  } else {
-    // Portrait mode
-    imageSize = 120;
-  }
 
-  const imageStyle = {
-    width: imageSize,
-    height: imageSize,
-    borderRadius: imageSize / 2,
-  };
-  const bookviewStyle = {
-    width: width / 2.5,
-    height: height / 3.5,
-    alignItems: "center",
-    justifyContent: "center",
-  };
-  let content = (
-    <>
-      <TouchableOpacity
-        onLongPress={onLongPress.bind(this, item)}
-        onPress={onClick.bind(this, item)}
+  const isLandscape = width > height;
+
+  const cardWidth = isLandscape ? width / 3 : width / 2.5;
+  const cardHeight = isLandscape ? height / 4.5 : height / 3.5;
+
+  const fontSize = isTablet ? 24 : 16;
+
+  return (
+    <TouchableOpacity
+      style={[styles.card, { width: cardWidth, height: cardHeight }]}
+      onPress={() => onClick(item)}
+      onLongPress={() => onLongPress(item)}
+      android_ripple={{ color: "#D3D3D3" }}
+    >
+      <ImageBackground
+        source={images[item.ImageURL]}
+        style={styles.imageBackground}
+        imageStyle={styles.image}
       >
-        <View style={[styles.bookView, bookviewStyle]}>
-          <View style={[styles.imageContainer, imageStyle]}>
-            <Image style={styles.image} source={images[item.ImageURL]} />
-          </View>
-
-          <View style={styles.textView}>
-            <Text
-              style={[styles.text, { fontSize, fontFamily: "english-font" }]}
-            >
-              {item.EnglishTitle}
-            </Text>
-            <Text
-              style={[styles.text, { fontSize, fontFamily: "arabic-font" }]}
-            >
-              {item.ArabicTitle}
-            </Text>
-          </View>
+        <View style={styles.textBox}>
+          <Text style={[styles.title, styles.englishTitle, { fontSize }]}>
+            {item.EnglishTitle}
+          </Text>
+          <Text style={[styles.title, styles.arabicTitle, { fontSize }]}>
+            {item.ArabicTitle}
+          </Text>
         </View>
-      </TouchableOpacity>
-    </>
+      </ImageBackground>
+    </TouchableOpacity>
   );
-  if (width > 500) {
-    content = (
-      <>
-        <TouchableOpacity
-          android_ripple={{ color: "#AA4A44" }}
-          onLongPress={onLongPress.bind(this, item)}
-          onPress={onClick.bind(this, item)}
-        >
-          <View style={[styles.bookViewLandscape, bookviewStyle]}>
-            <View style={[styles.imageContainerLandscape, imageStyle]}>
-              <Image style={styles.image} source={images[item.ImageURL]} />
-            </View>
-
-            <View style={styles.textViewLanscape}>
-              <Text
-                style={[styles.text, { fontSize, fontFamily: "english-font" }]}
-              >
-                {item.EnglishTitle}
-              </Text>
-              <Text
-                style={[styles.text, { fontSize, fontFamily: "arabic-font" }]}
-              >
-                {item.ArabicTitle}
-              </Text>
-            </View>
-          </View>
-        </TouchableOpacity>
-      </>
-    );
-  }
-  return <View>{content}</View>;
 }
 
 export default BookView;
 
 const styles = StyleSheet.create({
-  bookView: {
-    flexDirection: "column",
-    borderColor: "black",
+  card: {
+    margin: 10,
+    borderRadius: 15,
+    overflow: "hidden",
+    elevation: 3, // Shadow for Android
+    shadowColor: "#000", // Shadow for iOS
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.4,
+    shadowRadius: 4,
   },
-  bookViewLandscape: {
+  imageBackground: {
     flex: 1,
-    flexDirection: "row",
-    paddingVertical: 10,
-    marginVertical: 10,
-    margin: 5,
-    justifyContent: "flex-start",
-    alignItems: "flex-start",
-  },
-  imageContainerLandscape: {
-    borderColor: "black",
-    overflow: "hidden",
-    alignItems: "flex-start",
-    justifyContent: "flex-start",
-  },
-  imageContainer: {
-    borderColor: "black",
-    overflow: "hidden",
-    alignItems: "center",
-    margin: 5,
-    justifyContent: "center",
+    justifyContent: "flex-end",
   },
   image: {
-    width: "100%",
-    height: "100%",
-    resizeMode: "stretch",
+    resizeMode: "cover",
   },
-  textView: {
-    flex: 2,
-    borderColor: "black",
-    justifyContent: "center",
+  textBox: {
+    backgroundColor: "rgba(0, 0, 0, 0.5)", // Semi-transparent background
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
   },
-  textViewLanscape: {
-    flex: 2,
-    borderColor: "black",
-    justifyContent: "flex-start",
-  },
-  text: {
-    color: "black",
+  title: {
+    color: "#FFFFFF",
     textAlign: "center",
+    fontWeight: "bold",
+  },
+  englishTitle: {
+    marginBottom: 5,
+  },
+  arabicTitle: {
+    writingDirection: "rtl",
   },
 });

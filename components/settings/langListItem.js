@@ -7,14 +7,14 @@ import { useDispatch, useSelector } from "react-redux";
 function LangListItem({ incomingItem, onSwitch }) {
   const dispatch = useDispatch();
   const language = useSelector((state) => state.settings.appLanguage);
-
+  const primaryColor = getColor("PrimaryColor");
   return (
-    <View style={[styles.container, { borderColor: getColor("PrimaryColor") }]}>
+    <View style={[styles.container, { borderColor: primaryColor }]}>
       <View style={styles.textview}>
-        <Text style={[styles.text, { color: getColor("PrimaryColor") }]}>
+        <Text style={[styles.text, { color: primaryColor }]}>
           {getLanguageValue(incomingItem.titleKey)}
         </Text>
-        <Text style={[styles.text, { color: getColor("PrimaryColor") }]}>
+        <Text style={[styles.text, { color: primaryColor }]}>
           {getLanguageValue(incomingItem.descriptionKey)}
         </Text>
       </View>

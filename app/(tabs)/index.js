@@ -173,7 +173,10 @@ const App = () => {
 
         {/* Breadcrumb Navigation */}
         <View
-          style={[styles.breadcrumbContainer, { backgroundColor: "#DADAC1" }]}
+          style={[
+            styles.breadcrumbContainer,
+            { backgroundColor: activeColors.NavigationBarColor },
+          ]}
         >
           {breadcrumbParts.map((crumb, index) => (
             <TouchableOpacity
@@ -188,6 +191,7 @@ const App = () => {
               <Text
                 style={[
                   styles.breadcrumbText,
+                  { color: activeColors.PrimaryColor },
                   index === breadcrumbParts.length - 1 &&
                     styles.currentBreadcrumbText,
                 ]}
@@ -240,8 +244,11 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     justifyContent: "center",
   },
-  breadcrumbText: { fontSize: 16, color: "#000000" },
-  currentBreadcrumbText: { fontWeight: "bold", color: "#004ba0" },
+  breadcrumbText: { fontSize: 16 },
+  currentBreadcrumbText: {
+    fontWeight: "bold",
+    textDecorationLine: "underline",
+  },
   separator: { color: "#888", fontSize: 16 },
   loadingOverlay: {
     ...StyleSheet.absoluteFillObject,
