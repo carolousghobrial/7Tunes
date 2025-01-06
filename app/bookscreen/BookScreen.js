@@ -46,7 +46,7 @@ const HeaderRightButtons = memo(({ onPressSettings, onPressContents }) => (
         color={getColor("LabelColor")}
       />
     </TouchableOpacity>
-    <TouchableOpacity style={styles.headerButton} onPress={onPressContents}>
+    <TouchableOpacity style={styles.headerButton} onPressIn={onPressContents}>
       <MaterialCommunityIcons
         name="table-of-contents"
         size={40}
@@ -118,7 +118,7 @@ const BookScreen = () => {
   const [pageKey, setPageKey] = useState(0); // Key for forcing rerender
 
   const [bookContents, setBookContents] = useState(
-    getFirstContinuousRangeWithUniquePaths(6, values[0])
+    getFirstContinuousRangeWithUniquePaths(4, values[0])
   );
 
   function getFirstContinuousRangeWithUniquePaths(

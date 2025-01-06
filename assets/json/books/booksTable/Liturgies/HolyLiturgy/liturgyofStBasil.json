@@ -21,18 +21,18 @@
             "Visible": true
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": " صلاة صلح ثانية (القداس الباسيلي)",
             "English": "Another Prayer of Reconciliation To The Father (Saint Basil’s Liturgy)",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilAnotherReconcliationPrayer"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": " صلاة صلح ثانية (القداس غريغوريوس)",
             "English": "Another Prayer of Reconciliation To The Father (Saint Gregory's Liturgy)",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStGregoryAnotherReconcliationPrayer"
         },
@@ -54,8 +54,8 @@
         {
             "Arabic": "أسباذيستيه الكبيرة - (قبلوا بعضكم بعضاً)",
             "English": "Great one another - Great ",
-            "Type": "Button",
-            "Rule": "OpenSinglePageButtonRule",
+            "Type": "Accordion",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilGreatAsapzeste"
         },
@@ -126,10 +126,10 @@
             "Switch": "LiturgyLiturgyOfTheBelieversStGregoryEpiclesis"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "نَعَم نَسألُكَ",
             "English": "Yea, we ask You,",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStGregoryYeaWeAskYou"
         },
@@ -165,18 +165,18 @@
             "Visible": true
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "لأن شعبَكَ",
             "English": "For Your people ",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStGregoryJeNaiNan"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "الثلاث أواشي معاً",
             "English": "Three Seasons Litanies combined",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "RaisingOfIncenseLitanyAirWaterPlants"
         },
@@ -218,34 +218,34 @@
             "Switch": "LiturgyLiturgyOfTheBelieversStGregoryCommemorationOfSaints"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "ترحيم",
             "English": "Diptych",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilDiptych"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "افشيس",
             "English": "Evshes ",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilEvshees"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "بي نيشتي ",
             "English": "Pinishti",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilPinishti"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "بي نيشتي الكبيرة",
             "English": "Great Pinishti",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilGreatPinishti"
         },
@@ -263,10 +263,10 @@
             "Switch": "LiturgyLiturgyOfTheBelieversStGregoryRemmemberOLord"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "(الغريغوري)كما كان ",
             "English": "As it was (Gregorian)",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStGregoryAsItWas"
         },
@@ -318,7 +318,7 @@
             "Switch": "LiturgyLiturgyOfTheBelieversStGregoryTheConfession"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "التوزيع",
             "English": "Distribution of the Holy Mysteries",
             "Rule": "OpenNewPageButtonRule",

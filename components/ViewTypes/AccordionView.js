@@ -1,33 +1,20 @@
-import React, { memo, useEffect, useRef } from "react";
-import {
-  View,
-  Text,
-  StyleSheet,
-  Platform,
-  TouchableOpacity,
-} from "react-native";
+import React, { memo } from "react";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { useSelector } from "react-redux";
 import SingleHymnAsView from "../../screens/SingleHymnAsView";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers";
+import { getColor } from "../../helpers/SettingsHelpers";
 
-function AccordionView({
+const AccordionView = ({
   mykey,
-  flatListRef,
   item,
   motherSource,
   expanded,
   toggleAccordion,
-}) {
+}) => {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const labelColor = getColor("LabelColor");
 
-  const getColorBySide = (side) => getColor(`${side}Color`);
-
-  const getTextColor = (item) => {
+  const getTextColor = (side) => {
     const sideColors = {
       North: "NorthColor",
       South: "SouthColor",
@@ -39,34 +26,38 @@ function AccordionView({
       Title: "NorthColor",
       Neutral: mykey % 2 === 0 ? "NorthColor" : "SouthColor",
     };
-
-    const side = sideColors[item.Side] || "NorthColor";
-    return getColor(side);
+    return getColor(sideColors[side] || "NorthColor");
   };
 
-  const textStyle = {
+  const baseTextStyle = {
     fontSize,
-    flex: 1,
     lineHeight: fontSize * 1.1,
     margin: 5,
-    fontFamily: "english-font", // Default font family for English text
-    justifyContent: "flex-start",
-    color: getTextColor(item),
+    flex: 1,
+    color: getTextColor(item.Side),
   };
 
-  const arabicStyle = {
-    fontFamily: "arabic-font",
-    lineHeight: fontSize * 1.6,
-    textAlign: "right",
-    writingDirection: "rtl",
-  };
-
-  const arabicCopticStyle = {
-    fontFamily: "arabic-font",
-    lineHeight: fontSize * 1.2,
-    textAlign: "right",
-    writingDirection: "rtl",
-  };
+  const textStyles = StyleSheet.create({
+    default: {
+      ...baseTextStyle,
+      fontFamily: "english-font",
+      justifyContent: "flex-start",
+    },
+    arabic: {
+      ...baseTextStyle,
+      fontFamily: "arabic-font",
+      lineHeight: fontSize * 1.6,
+      textAlign: "right",
+      writingDirection: "rtl",
+    },
+    arabicCoptic: {
+      ...baseTextStyle,
+      fontFamily: "arabic-font",
+      lineHeight: fontSize * 1.2,
+      textAlign: "right",
+      writingDirection: "rtl",
+    },
+  });
 
   return (
     <View key={mykey} style={[styles.accordion, { borderColor: labelColor }]}>
@@ -75,10 +66,9 @@ function AccordionView({
         style={styles.titleContainer}
       >
         <View>
-          <Text style={[styles.heading, textStyle]}>{item.English}</Text>
-          <Text style={[styles.heading, textStyle]}>{item.Arabic}</Text>
+          <Text style={textStyles.default}>{item.English}</Text>
+          <Text style={textStyles.default}>{item.Arabic}</Text>
         </View>
-
         <Text style={[styles.arrow, { color: labelColor }]}>
           {expanded[mykey] ? "▲" : "▼"}
         </Text>
@@ -94,7 +84,7 @@ function AccordionView({
       )}
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   accordion: {
@@ -105,9 +95,6 @@ const styles = StyleSheet.create({
   titleContainer: {
     flexDirection: "row",
     alignItems: "center",
-  },
-  heading: {
-    flex: 1,
   },
   arrow: {
     fontSize: 20,

@@ -135,10 +135,10 @@
             "Visible": true
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "إسباتير الكبيرة",
             "English": "The Great Is-Patir(One is the holy Father)",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": "BishopIsPresentOrBigFeast",
             "Path": "LiturgyOffertoryIsPatirGreat"
         },

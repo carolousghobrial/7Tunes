@@ -180,10 +180,10 @@
             "Visible": true
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "الثلاث أواشي معاً",
             "English": "Three Seasons Litanies combined",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "RaisingOfIncenseLitanyAirWaterPlants"
         },

@@ -254,10 +254,10 @@
       "Englishcoptic": "Je Ak-ereske-pazin egon, ak-er-voithin eron, ak-areh eron, ak-shopten erok, akti-aso eron, akti-toten akenten sha e-ehri etai-ono thai."
     },
     {
-      "Type": "Button",
+      "Type": "Accordion",
       "Arabic": "طوبه هينا الكبيرة",
       "English": "Tobh Hina (Great)",
-      "Rule": "OpenSinglePageButtonRule",
+      "Rule": 0,
       "Visible": "BishopIsPresentOrBigFeast",
       "Path": "LiturgyOffertoryTovhHinaGreat"
     },
