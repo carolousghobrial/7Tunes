@@ -1,94 +1,98 @@
+import React, { useState, useMemo, useRef, useCallback } from "react";
 import {
   StyleSheet,
   Text,
   View,
   FlatList,
-  Platform,
   Alert,
   ImageBackground,
   SafeAreaView,
 } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
-import React, { useState, useEffect, useRef, useMemo } from "react";
 import moment from "moment";
 import { useRouter } from "expo-router";
-import {
-  setCurrentSeasonLive,
-  getCopticFastsFeasts,
-} from "../../helpers/copticMonthsHelper";
+
+import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
 import FeastView from "../../components/homepage/feastView";
 import SelectYearModal from "../../components/homepage/SelectYearModal";
 import SearchBar from "../../components/ViewTypes/SearchBar";
 import FeastScreenTitleView from "../../components/homepage/FeastScreenTitleView";
+import { getColor } from "../../helpers/SettingsHelpers";
 import Languages from "../../constants/languages";
-import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers.js";
 
 function FullFeastsScreen() {
-  const dispatch = useDispatch();
   const router = useRouter();
-  const pageBackgroundColor = getColor("pageBackgroundColor");
+  const dispatch = useDispatch();
+  const flatListRef = useRef();
 
+  const pageBackgroundColor = getColor("pageBackgroundColor");
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const timeTransition = useSelector((state) => state.settings.timeTransition);
 
   const [clicked, setClicked] = useState(false);
   const [searchPhrase, setSearchPhrase] = useState("");
   const [yearModalVisible, setYearModalVisible] = useState(false);
-  const [time, setTime] = useState(new Date(timeTransition));
-  const flatListRef = useRef();
 
-  const snapPoints = ["55%"];
   const currentYear = useMemo(() => moment().year(), []);
-  const data = getCopticFastsFeasts(currentYear).sort(
-    (a, b) =>
-      new moment(a.start).format("YYYYMMDD") -
-      new moment(b.start).format("YYYYMMDD")
+  const allFeasts = useMemo(
+    () =>
+      getCopticFastsFeasts(currentYear).sort(
+        (a, b) =>
+          moment(a.start).format("YYYYMMDD") -
+          moment(b.start).format("YYYYMMDD")
+      ),
+    [currentYear]
   );
 
-  const [currentData, setCurrentData] = useState(data);
+  const [currentData, setCurrentData] = useState(allFeasts);
 
-  const handleSearch = (text) => {
-    setSearchPhrase(text);
-    const filteredData = data.filter(
-      (item) =>
-        Languages["eng"][item.key]
-          ?.toLowerCase()
-          .includes(text.toLowerCase()) ||
-        Languages["ara"][item.key]?.includes(text)
+  const handleSearch = useCallback(
+    (text) => {
+      setSearchPhrase(text);
+      const filteredData = allFeasts.filter(
+        (item) =>
+          Languages["eng"][item.key]
+            ?.toLowerCase()
+            .includes(text.toLowerCase()) ||
+          Languages["ara"][item.key]?.includes(text)
+      );
+      setCurrentData(filteredData);
+    },
+    [allFeasts]
+  );
+
+  const handleYearChange = useCallback((year) => {
+    const newData = getCopticFastsFeasts(year).sort(
+      (a, b) =>
+        moment(a.start).format("YYYYMMDD") - moment(b.start).format("YYYYMMDD")
     );
-    setCurrentData(filteredData);
-  };
+    setCurrentData(newData);
+    setYearModalVisible(false);
+  }, []);
 
-  const renderItems = ({ item }) => (
-    <FeastView
-      item={item}
-      onClick={() =>
-        router.push({
-          pathname: "/(modal)/feastModal",
-          params: { feast: JSON.stringify(item) },
-        })
-      }
-    />
+  const renderItems = useCallback(
+    ({ item }) => (
+      <FeastView
+        item={item}
+        onClick={() =>
+          router.push({
+            pathname: "/(modal)/feastModal",
+            params: { feast: JSON.stringify(item) },
+          })
+        }
+      />
+    ),
+    [router]
   );
 
-  const onScrollToIndexFailed = (error) => {
+  const onScrollToIndexFailed = useCallback((error) => {
     setTimeout(() => {
       flatListRef.current?.scrollToIndex({
         index: error.index,
         animated: true,
       });
     }, 100);
-  };
-
-  const setYear = (year) => {
-    const newData = getCopticFastsFeasts(year).sort(
-      (a, b) =>
-        new moment(a.start).format("YYYYMMDD") -
-        new moment(b.start).format("YYYYMMDD")
-    );
-    setCurrentData(newData);
-    setYearModalVisible(false);
-  };
+  }, []);
 
   return (
     <SafeAreaView
@@ -102,12 +106,12 @@ function FullFeastsScreen() {
         <SelectYearModal
           visible={yearModalVisible}
           closeModal={() => setYearModalVisible(false)}
-          setYear={setYear}
+          setYear={handleYearChange}
         />
         <View style={styles.container}>
           <FeastScreenTitleView
             yearClick={() => setYearModalVisible(true)}
-            changeDate={() => Alert.alert("CHANGEDATE")}
+            changeDate={() => Alert.alert("Change Date")}
           />
           <SearchBar
             setClicked={setClicked}
@@ -119,7 +123,6 @@ function FullFeastsScreen() {
           <FlatList
             data={currentData}
             ref={flatListRef}
-            horizontal={false}
             renderItem={renderItems}
             keyExtractor={(item) => item.key}
             onScrollToIndexFailed={onScrollToIndexFailed}
@@ -138,6 +141,9 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     backgroundColor: "#f8f9fa",
+  },
+  backgroundImage: {
+    flex: 1,
   },
   container: {
     justifyContent: "center",

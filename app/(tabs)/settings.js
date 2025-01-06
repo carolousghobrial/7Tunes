@@ -23,12 +23,31 @@ import Purchases from "react-native-purchases";
 import * as Updates from "expo-updates";
 import { setItemPurchased } from "../../stores/redux/settings";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers.js";
-import {
-  useLocalSearchParams,
-  useNavigation,
-  Link,
-  useRouter,
-} from "expo-router";
+
+const permissions = [
+  "standardPsalmodyPermission",
+  "kiahkPsalmodyPermission",
+  "paschaBookPermission",
+  "holyLiturgyPermission",
+];
+
+const buttons = [
+  { label: "restore", action: "restorePurchase" },
+  { label: "share", action: "onShare", onLongPress: "grantEverything" },
+  {
+    label: "facebook",
+    action: () => Linking.openURL("fb://page/101887968498785"),
+  },
+  {
+    label: "commentsOrQuestions",
+    action: () => Linking.openURL("https://forms.gle/kY4ZqxVcVrKSVhmq5"),
+  },
+  {
+    label: "instagram",
+    action: () => Linking.openURL("instagram://user?username=7tunes_"),
+  },
+];
+
 const CustomButton = ({ onPress, label, fontSize, onLongPress }) => (
   <TouchableOpacity onPress={onPress} onLongPress={onLongPress}>
     <View style={styles.button}>
@@ -36,64 +55,59 @@ const CustomButton = ({ onPress, label, fontSize, onLongPress }) => (
     </View>
   </TouchableOpacity>
 );
+
 function SettingsScreen() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const dispatch = useDispatch();
-  const navigation = useNavigation();
-  const router = useRouter();
   const pageBackgroundColor = getColor("pageBackgroundColor");
+  const navBarColor = getColor("NavigationBarColor");
   const [hasUpdate, setHasUpdate] = useState(false);
 
-  // Memoized colors to avoid re-calculations on each render
-  const navBarColor = getColor("NavigationBarColor");
   useEffect(() => {
-    navigation.setOptions({
-      presentation: "modal",
-    });
     async function checkForUpdates() {
       try {
         const update = await Updates.checkForUpdateAsync();
-        setHasUpdate(update.isAvailable); // Set state to true if an update is available
+        setHasUpdate(update.isAvailable);
       } catch (error) {
         console.error("Error checking for updates:", error);
       }
     }
 
     checkForUpdates();
-  }, [navigation]);
-  // Share link
-  const onShare = async () => {
+  }, []);
+
+  const handleShare = async () => {
     try {
       await Share.share({
         message:
-          "Check out the Application 7 Tunes " +
-          "\n" +
-          "Download on iOS: https://apps.apple.com/us/app/7-tunes/id1545089530 " +
-          "\n" +
-          "Download on Google Play: https://play.google.com/store/apps/details?id=com.seventunes.tasbehafinal",
+          "Check out the Application 7 Tunes\nDownload on iOS: https://apps.apple.com/us/app/7-tunes/id1545089530\nDownload on Google Play: https://play.google.com/store/apps/details?id=com.seventunes.tasbehafinal",
       });
     } catch (error) {
       Alert.alert("Error sharing", error.message);
     }
   };
 
-  // Restore purchases
   const restorePurchase = async () => {
     try {
-      const restore = await Purchases.restorePurchases();
+      await Purchases.restorePurchases();
       Alert.alert("Purchases restored successfully!");
     } catch (error) {
       Alert.alert("Restore Error", error.message);
     }
   };
 
-  // Check for updates
-  const onUpdates = async () => {
+  const grantEverything = () => {
+    permissions.forEach((permissionId) =>
+      dispatch(setItemPurchased({ permissionId }))
+    );
+  };
+
+  const handleUpdate = async () => {
     try {
       const update = await Updates.checkForUpdateAsync();
       if (update.isAvailable) {
         Alert.alert("New Update!", "Restart the app to apply updates", [
-          { text: "Restart", onPress: doUpdate },
+          { text: "Restart", onPress: applyUpdate },
         ]);
       } else {
         Alert.alert("No Updates", "Your app is up to date.");
@@ -103,53 +117,21 @@ function SettingsScreen() {
     }
   };
 
-  // Apply update
-  const doUpdate = async () => {
+  const applyUpdate = async () => {
     try {
       await Updates.fetchUpdateAsync();
       await Updates.reloadAsync();
-    } catch (e) {
-      Alert.alert("Error applying update", e.message);
+    } catch (error) {
+      Alert.alert("Error applying update", error.message);
     }
   };
 
-  const onLongPress = async (item) => {
-    try {
-      if (item.BishopButton !== undefined) {
-        handlePresentModal();
-      }
-    } catch (e) {}
+  const actionHandlers = {
+    restorePurchase,
+    onShare: handleShare,
+    grantEverything,
   };
-  // Grant all permissions
-  const grantEverything = () => {
-    const permissions = [
-      "standardPsalmodyPermission",
-      "kiahkPsalmodyPermission",
-      "paschaBookPermission",
-      "holyLiturgyPermission",
-    ];
 
-    permissions.forEach((permissionId) =>
-      dispatch(setItemPurchased({ permissionId }))
-    );
-  };
-  const buttons = [
-    { label: "restore", action: restorePurchase },
-    // { label: "update", action: onUpdates },
-    { label: "share", action: onShare, onLongPress: grantEverything },
-    {
-      label: "facebook",
-      action: () => Linking.openURL("fb://page/101887968498785"),
-    },
-    {
-      label: "commentsOrQuestions",
-      action: () => Linking.openURL("https://forms.gle/kY4ZqxVcVrKSVhmq5"),
-    },
-    {
-      label: "instagram",
-      action: () => Linking.openURL("instagram://user?username=7tunes_"),
-    },
-  ];
   return (
     <SafeAreaView
       style={[styles.container, { backgroundColor: pageBackgroundColor }]}
@@ -163,7 +145,7 @@ function SettingsScreen() {
           {hasUpdate && (
             <View>
               <CustomButton
-                onPress={onUpdates}
+                onPress={handleUpdate}
                 label={getLanguageValue("update")}
                 fontSize={fontSize}
               />
@@ -179,7 +161,6 @@ function SettingsScreen() {
           <FontSize />
           <VisibleLangs />
           <PopeBishop />
-
           <View
             style={[
               styles.container,
@@ -192,8 +173,10 @@ function SettingsScreen() {
             {buttons.map(({ label, action, onLongPress }, index) => (
               <CustomButton
                 key={index}
-                onPress={action}
-                onLongPress={onLongPress}
+                onPress={
+                  typeof action === "function" ? action : actionHandlers[action]
+                }
+                onLongPress={onLongPress && actionHandlers[onLongPress]}
                 label={getLanguageValue(label)}
                 fontSize={fontSize}
               />
@@ -206,9 +189,7 @@ function SettingsScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
+  container: { flex: 1 },
   badge: {
     position: "absolute",
     right: 10,
@@ -220,42 +201,22 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  badgeText: {
-    color: "white",
-    fontSize: 10,
-    fontWeight: "bold",
-  },
-  backgroundImage: {
-    flex: 1,
-    width: "100%",
-    height: "100%",
-  },
-  scrollViewContent: {
-    flexGrow: 1,
-    padding: 16, // Adjust padding as needed
-  },
+  badgeText: { color: "white", fontSize: 10, fontWeight: "bold" },
+  backgroundImage: { flex: 1, width: "100%", height: "100%" },
+  scrollViewContent: { flexGrow: 1, padding: 16 },
   button: {
     marginVertical: 8,
     padding: 12,
     borderRadius: 8,
-    backgroundColor: "#fff", // Adjust as needed
+    backgroundColor: "#fff",
     alignItems: "center",
   },
   buttonText: {
-    color: "#000", // Adjust color to fit your theme
-    flex: 1,
+    color: "#000",
     fontSize: 15,
     fontFamily: "english-font",
     fontWeight: "bold",
     textAlign: "center",
-  },
-  title: {
-    marginBottom: 16,
-    fontWeight: "bold",
-    textAlign: "center",
-  },
-  title: {
-    fontFamily: "english-font",
   },
 });
 

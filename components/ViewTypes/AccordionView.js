@@ -1,19 +1,20 @@
-import React, { memo } from "react";
+import React, { useState, useRef, useCallback, useEffect, memo } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { useSelector } from "react-redux";
 import SingleHymnAsView from "../../screens/SingleHymnAsView";
 import { getColor } from "../../helpers/SettingsHelpers";
 
-const AccordionView = ({
-  mykey,
-  item,
-  motherSource,
-  expanded,
-  toggleAccordion,
-}) => {
+const AccordionView = ({ mykey, item, motherSource }) => {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const labelColor = getColor("LabelColor");
-
+  const [expanded, setExpanded] = useState([]);
+  const toggleAccordion = useCallback((index) => {
+    setExpanded((prevExpanded) => {
+      const updatedExpanded = [...prevExpanded];
+      updatedExpanded[index] = !updatedExpanded[index];
+      return updatedExpanded;
+    });
+  }, []);
   const getTextColor = (side) => {
     const sideColors = {
       North: "NorthColor",

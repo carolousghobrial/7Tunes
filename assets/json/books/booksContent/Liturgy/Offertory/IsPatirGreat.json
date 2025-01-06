@@ -163,17 +163,6 @@
       "Rule": 0,
       "Visible": "IsDioceseNotPope",
       "Side": "North",
-      "Arabic": "إله السماء يثبته (يثبتهما / يثبتهم) على كرسيه (كرسيهما / كراسيهم) سنين عديدة وأزمنة سالمة.",
-      "Coptic": "Vnou; `nte `tve> ef`etajrof (efetajrwou) \\ijen pef`qronoc (nou`qronoc)> n\\anmh] `nrompi> nem \\anchou `n\\irhnikon.",
-      "English": "May the God of heaven keep his (them) on his throne (their thrones) for many years and peaceful times. ",
-      "Arabiccoptic": "أفنوتى إنتى إتفى إيف إى تاجروف هيجين بيف إثرونوس إن هان ميش إنرومبى نيم هان سيو إن هيرينى كون",
-      "Englishcoptic": "Efnoti ente etve: efe-etagrof (ef-e-tagro-oo) hijen pefethronos (noo-ethronos): en-han-meesh eenrompi: nem hanseeoo en-hiree-nikon."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": "IsDioceseNotPope",
-      "Side": "North",
       "Arabic": "إله السماء  يثبتهم على  كرسيهما  سنين عديدة وأزمنة سالمة.",
       "Coptic": "Vnou; `nte `tve> ef`efetajrwou \\ijen nou`qronoc> n\\anmh] `nrompi> nem \\anchou `n\\irhnikon.",
       "English": "May the God of heaven keep them on their thrones for many years and peaceful times. ",

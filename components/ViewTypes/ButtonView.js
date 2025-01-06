@@ -17,18 +17,12 @@ import { useDispatch, useSelector } from "react-redux";
 import ButtonRules from "../../helpers/buttonRules";
 import { useLocalSearchParams, useNavigation, useRouter } from "expo-router";
 
-function ButtonView({
-  item,
-  motherSource,
-  flatListRef,
-  viewData,
-  router,
-  dispatch,
-}) {
+function ButtonView({ item, motherSource, flatListRef, viewData }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
   const flex = width > height ? "row" : "column";
   const itemVisible = item.Visible;
+  const router = useRouter();
 
   const handlePress = () => {
     const ruleFunction = ButtonRules(
@@ -36,8 +30,7 @@ function ButtonView({
       motherSource,
       flatListRef,
       viewData,
-      router,
-      dispatch
+      router
     )[item.Rule];
 
     ruleFunction && ruleFunction();
@@ -45,10 +38,7 @@ function ButtonView({
 
   return (
     itemVisible !== "hide" && (
-      <TouchableOpacity
-        style={{ marginHorizontal: 70 }}
-        onPress={() => handlePress()}
-      >
+      <TouchableOpacity style={{ marginHorizontal: 70 }} onPress={handlePress}>
         <View style={[styles.bookView, { flexDirection: flex }]}>
           <Text style={[styles.text, { fontSize }]}>{item.English}</Text>
           <Text style={[styles.text, { fontSize }]}>{item.Arabic}</Text>

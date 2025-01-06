@@ -28,7 +28,7 @@ import "moment/locale/en-gb"; // import the locale for UK English
 import React, { useState, useEffect, memo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-function TitleView({ item, motherSource, navigation }) {
+function TitleView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const { width, height } = useWindowDimensions();
   const router = useRouter();
@@ -71,10 +71,10 @@ function TitleView({ item, motherSource, navigation }) {
         }
       } else {
         if (item.mother !== undefined) {
-          navigation.replace("BookScreen", {
-            bookPath: "liturgyofStBasilCovenantThursday",
-            Switch: item.Switch,
-          });
+          // navigation.replace("BookScreen", {
+          //   bookPath: "liturgyofStBasilCovenantThursday",
+          //   Switch: item.Switch,
+          // });
         } else {
           router.replace({
             pathname: "/bookscreen/BookScreen",
@@ -157,16 +157,16 @@ function TitleView({ item, motherSource, navigation }) {
   //   console.log("File has been saved to:", uri);
   //   await shareAsync(uri, { UTI: ".pdf", mimeType: "application/pdf" });
   // };
-  function openZoomPinch() {
-    router.push({
-      pathname: "/bookscreen/ZoomAndDrawPage",
-      params: {
-        path: item.Path,
-        rule: item.rule,
-        motherSource: motherSource,
-      },
-    });
-  }
+  // function openZoomPinch() {
+  //   router.push({
+  //     pathname: "/bookscreen/ZoomAndDrawPage",
+  //     params: {
+  //       path: item.Path,
+  //       rule: item.rule,
+  //       motherSource: motherSource,
+  //     },
+  //   });
+  // }
   return (
     <View style={[styles.bookView, { flexDirection: flex }]}>
       <View style={{ flex: 8 }}>

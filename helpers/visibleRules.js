@@ -645,6 +645,13 @@ const isKiahkWeek = (motherSource, path) => {
   const isWeek5 = currentSeason.weekOfMonth === 5;
   const isTakeFromHathor = TakeFromHathorTwo(currentSeason);
   const lowerPath = path?.toLowerCase();
+  switch (currentSeason.key) {
+    case "NATIVITY":
+    case "NATIVITY_PARAMOUN":
+    case "NATIVITY_PERIOD":
+    case "FEAST_OF_CIRCUMCISION":
+      return false;
+  }
   if (isKoiahkMonth) {
     return lowerPath.includes(currentSeason.weekOfMonth);
   }

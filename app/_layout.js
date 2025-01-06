@@ -1,59 +1,51 @@
+import React, { useEffect, useState } from "react";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
-import { store, persistor } from "../stores/redux/store.js";
-import {
-  Text,
-  View,
-  StatusBar,
-  SafeAreaView,
-  ImageBackground,
-  StyleSheet,
-  useWindowDimensions,
-} from "react-native";
-import { Drawer } from "expo-router/drawer";
+import { store, persistor } from "../stores/redux/store";
+import { StatusBar, ImageBackground, StyleSheet, Platform } from "react-native";
 import { Stack } from "expo-router";
-import Colors from "../constants/colors";
-import Ionicons from "@expo/vector-icons/Ionicons";
-import { useState, useCallback, useEffect } from "react";
-import useFonts from "../helpers/useFonts.js";
-import { useNavigationState } from "@react-navigation/native";
-import { useSelector } from "react-redux";
-import Purchases from "react-native-purchases";
-import { Platform } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+import Purchases from "react-native-purchases";
+import useFonts from "../helpers/useFonts";
+
+const configurePurchases = async () => {
+  try {
+    const apiKey =
+      Platform.OS === "ios"
+        ? "appl_ZaFObrSSGpHIPXcBxgCOYckdVpP"
+        : "goog_ICeqiHcYzQRzROFBJsEVAAirhPX";
+    await Purchases.configure({ apiKey });
+  } catch (e) {
+    console.warn("Error configuring Purchases:", e);
+  }
+};
+
+const initializeApp = async (setAppIsReady) => {
+  try {
+    await useFonts();
+    await configurePurchases();
+  } catch (e) {
+    console.warn("Error during initialization:", e);
+  } finally {
+    setAppIsReady(true);
+  }
+};
 
 export default function RootLayout({ children }) {
-  const navigationStack = useNavigationState((state) => state.routes);
+  const [appIsReady, setAppIsReady] = useState(false);
 
   useEffect(() => {
-    async function prepare() {
-      try {
-        await useFonts();
-        if (Platform.OS === "ios") {
-          await Purchases.configure({
-            apiKey: "appl_ZaFObrSSGpHIPXcBxgCOYckdVpP",
-          });
-        } else {
-          await Purchases.configure({
-            apiKey: "goog_ICeqiHcYzQRzROFBJsEVAAirhPX",
-          });
-        }
-      } catch (e) {
-        console.warn("Error during initialization:", e);
-      } finally {
-        setAppIsReady(true);
-      }
-    }
-
-    prepare();
+    initializeApp(setAppIsReady);
   }, []);
+
+  if (!appIsReady) return null; // Add a loading screen if needed
+
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
+    <GestureHandlerRootView style={styles.flexContainer}>
       <StatusBar hidden={Platform.OS === "ios"} />
       <ImageBackground
         source={require("../assets/images/copticBackground.png")}
-        resizeMode="cover"
-        style={[styles.backgroundimage]}
+        style={styles.backgroundImage}
       >
         <Provider store={store}>
           <PersistGate loading={null} persistor={persistor}>
@@ -74,16 +66,12 @@ export default function RootLayout({ children }) {
 }
 
 const styles = StyleSheet.create({
-  backgroundimage: {
+  flexContainer: {
+    flex: 1,
+  },
+  backgroundImage: {
     resizeMode: "cover",
-    justifyContent: "center",
     height: "100%",
     width: "100%",
-  },
-  container: {
-    flex: 1,
-    backgroundColor: "black",
-    justifyContent: "center",
-    alignItems: "center",
   },
 });

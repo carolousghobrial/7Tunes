@@ -57,48 +57,6 @@ const HeaderRightButtons = memo(({ onPressSettings, onPressContents }) => (
 ));
 
 // renderItems function
-export const renderItems = ({
-  item,
-  navigation,
-  router,
-  dispatch,
-  bookPath,
-  flatListRef,
-  bookContents,
-  toggleAccordion,
-  expanded,
-}) => {
-  const viewTypeMap = {
-    Base: <BaseView item={item.part} mykey={item.key} />,
-    Melody: <MelodyView item={item.part} />,
-    Title: <TitleView item={item.part} navigation={navigation} />,
-    Ritual: <RitualView item={item.part} />,
-    MainTitle: <MainTitleView item={item.part} />,
-    Button: (
-      <ButtonView
-        router={router}
-        dispatch={dispatch}
-        mykey={item.key}
-        item={item.part}
-        motherSource={bookPath}
-        flatListRef={flatListRef}
-        viewData={bookContents}
-        navigation={navigation}
-      />
-    ),
-    Accordion: (
-      <AccordionView
-        mykey={item.key}
-        flatListRef={flatListRef}
-        item={item.part}
-        motherSource={bookPath}
-        toggleAccordion={toggleAccordion}
-        expanded={expanded}
-      />
-    ),
-  };
-  return viewTypeMap[item.part.Type];
-};
 
 const BookScreen = () => {
   const router = useRouter();
@@ -118,7 +76,7 @@ const BookScreen = () => {
   const [pageKey, setPageKey] = useState(0); // Key for forcing rerender
 
   const [bookContents, setBookContents] = useState(
-    getFirstContinuousRangeWithUniquePaths(4, values[0])
+    getFirstContinuousRangeWithUniquePaths(6, values[0])
   );
 
   function getFirstContinuousRangeWithUniquePaths(
@@ -183,16 +141,6 @@ const BookScreen = () => {
   const contentsSheetRef = useRef(null);
   const navigation = useNavigation();
   const snapPoints = ["90%"];
-
-  const [expanded, setExpanded] = useState([]);
-
-  const toggleAccordion = useCallback((index) => {
-    setExpanded((prevExpanded) => {
-      const updatedExpanded = [...prevExpanded];
-      updatedExpanded[index] = !updatedExpanded[index];
-      return updatedExpanded;
-    });
-  }, []);
 
   useEffect(() => {
     const fontFamily = appLanguage === "eng" ? "english-font" : "arabic-font";
@@ -279,30 +227,31 @@ const BookScreen = () => {
       });
     }, 200); // Add a small delay to allow items to be rendered
   };
-  const memoizedRenderItems = useCallback(
-    (props) =>
-      renderItems({
-        ...props,
-        navigation,
-        router,
-        dispatch,
-        bookPath,
-        flatListRef,
-        bookContents,
-        toggleAccordion,
-        expanded,
-      }),
-    [
-      navigation,
-      router,
-      dispatch,
-      bookPath,
-      flatListRef,
-      bookContents,
-      toggleAccordion,
-      expanded,
-    ]
-  );
+  const renderItems = ({ item }) => {
+    const viewTypeMap = {
+      Base: <BaseView item={item.part} mykey={item.key} />,
+      Melody: <MelodyView item={item.part} />,
+      Title: <TitleView item={item.part} />,
+      Ritual: <RitualView item={item.part} />,
+      MainTitle: <MainTitleView item={item.part} />,
+      Button: (
+        <ButtonView
+          item={item.part}
+          motherSource={bookPath}
+          flatListRef={flatListRef}
+          viewData={bookContents}
+        />
+      ),
+      Accordion: (
+        <AccordionView
+          mykey={item.key}
+          item={item.part}
+          motherSource={bookPath}
+        />
+      ),
+    };
+    return viewTypeMap[item.part.Type];
+  };
 
   if (isLoading) {
     return (
@@ -350,7 +299,7 @@ const BookScreen = () => {
           showsVerticalScrollIndicator={false}
           data={bookContents}
           onViewableItemsChanged={handleViewableItemsChanged}
-          renderItem={memoizedRenderItems}
+          renderItem={renderItems}
           keyExtractor={(item) => item.key}
           onScrollToIndexFailed={handleScrollToIndexFailed} // Add error handler
           bounces={false}
