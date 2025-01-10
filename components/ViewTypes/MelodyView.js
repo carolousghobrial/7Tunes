@@ -5,13 +5,15 @@ import { getColor } from "../../helpers/SettingsHelpers.js";
 
 function MelodyView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
-  const arabicengishMelodies = useSelector(
-    (state) => state.settings.arabicengishMelodies
-  );
-  const englishVisible = useSelector((state) => state.settings.english);
+  const arabicengishMelodies =
+    useSelector((state) => state.settings.arabicengishMelodies) &&
+    item.ArabicEnglish !== undefined;
+  const englishVisible =
+    useSelector((state) => state.settings.english) &&
+    item.English !== undefined;
   const arabicVisible = useSelector((state) => state.settings.arabic);
   const textColor = getColorBySide(item.Side);
-
+  //console.log();
   function getColorBySide(side) {
     const sideColors = {
       North: "NorthColor",

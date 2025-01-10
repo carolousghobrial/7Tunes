@@ -1,30 +1,76 @@
-import { View, Switch, StyleSheet, Text, FlatList } from "react-native";
-import { useCallback } from "react";
+import { View, Switch, StyleSheet, Text, Image, FlatList } from "react-native";
+import { useState, useCallback, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors.js";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 import { changeTextLanguage } from "../../stores/redux/settings.js";
-import LangListItems from "./langListItem";
 
+import LangListItems from "./langListItem";
 function VisibleLangs() {
   const fontSize = useSelector((state) => state.settings.textFontSize);
-  const languages = useSelector((state) => state.settings.languages); // Assuming the list is in redux
+  const english = useSelector((state) => state.settings.english);
+  const coptic = useSelector((state) => state.settings.coptic);
+  const arabic = useSelector((state) => state.settings.arabic);
+  const copticenglish = useSelector((state) => state.settings.copticenglish);
+  const copticarabic = useSelector((state) => state.settings.copticarabic);
+  const arabicengishMelodies = useSelector(
+    (state) => state.settings.arabicengishMelodies
+  );
   const dispatch = useDispatch();
-
-  const onSwitch = useCallback(
-    (item, e) => {
-      dispatch(changeTextLanguage({ lang: item.titleKey, value: e }));
+  const tempLang = [
+    {
+      titleKey: "english",
+      descriptionKey: "englishdescription",
+      isEnabled: english,
     },
-    [dispatch]
-  );
-
-  const renderItems = useCallback(
-    ({ item }) => {
-      return <LangListItems incomingItem={item} onSwitch={onSwitch} />;
+    {
+      titleKey: "coptic",
+      descriptionKey: "copticarabicdescription",
+      isEnabled: coptic,
     },
-    [onSwitch]
-  );
-
+    {
+      titleKey: "arabic",
+      descriptionKey: "arabicdescription",
+      isEnabled: arabic,
+    },
+    {
+      titleKey: "copticenglish",
+      descriptionKey: "copticenglishdescription",
+      isEnabled: copticenglish,
+    },
+    {
+      titleKey: "copticarabic",
+      descriptionKey: "copticarabicdescription",
+      isEnabled: copticarabic,
+    },
+    {
+      titleKey: "arabicengishMelodies",
+      descriptionKey: "arabicengishMelodiesdescription",
+      isEnabled: arabicengishMelodies,
+    },
+  ];
+  const [langArray, setLangArray] = useState(tempLang);
+  function onSwitch(item, e) {
+    dispatch(
+      changeTextLanguage({ lang: item.titleKey, value: !item.titleKey })
+    );
+    const updatedArray = langArray.map((val, i) => {
+      if (val.titleKey === item.titleKey) {
+        item.isEnabled = e;
+        return item;
+      }
+      return val;
+    });
+    setLangArray(updatedArray); // set the state to the updated copy
+  }
+  function renderItems(itemData) {
+    return (
+      <LangListItems
+        incomingItem={itemData.item}
+        onSwitch={onSwitch}
+      ></LangListItems>
+    );
+  }
   return (
     <View
       style={[
@@ -48,12 +94,15 @@ function VisibleLangs() {
           {getLanguageValue("todayprayerdescription")}
         </Text>
       </View>
-
-      <FlatList
-        data={languages} // Directly using the list from Redux
-        keyExtractor={(item) => item.titleKey}
-        renderItem={renderItems}
-      />
+      {langArray.map((lang) => {
+        return (
+          <LangListItems
+            key={lang.titleKey}
+            incomingItem={lang}
+            onSwitch={onSwitch}
+          ></LangListItems>
+        );
+      })}
     </View>
   );
 }
@@ -92,11 +141,13 @@ const styles = StyleSheet.create({
   textOn: {
     color: "black",
     fontFamily: "english-font",
+
     fontWeight: "bold",
   },
   textOff: {
     color: "black",
     fontFamily: "english-font",
+
     fontWeight: "bold",
   },
 });

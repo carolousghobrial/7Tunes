@@ -207,7 +207,7 @@ const BookScreen = () => {
     // Use setTimeout to scroll after the data is loaded and rendered
     setTimeout(() => {
       scrollToIndex(targetIndex);
-    }, 100); // Ensure the state update and render are complete before scrolling
+    }, 200); // Ensure the state update and render are complete before scrolling
   };
 
   const scrollToIndex = (targetIndex) => {
