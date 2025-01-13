@@ -1,27 +1,852 @@
 {
-    "copticDay": 28,
-    "copticMonth": "Koiahk",
-    "copticMonthIndex": 3,
-    "copticYear": 1741,
-    "dayOfWeek": 1,
-    "end": "2025-01-07T06:00:00.000Z",
-    "fullcopticDate": {
-        "day": 28,
-        "month": "Koiahk",
-        "monthIndex": 3,
-        "year": 1741
-    },
-    "fullgregorianDate": 2025-01-06T06: 00: 00.000Z,
-    "gregorianDayOfMonth": 6,
-    "gregorianMonth": 0,
-    "gregorianYear": 2025,
-    "isWatos": false,
-    "key": "NATIVITY_PARAMOUN",
-    "major": false,
-    "plantsSeason": "plants",
-    "saintsOfThisDay": [],
-    "start": "2025-01-06T06:00:00.000Z",
-    "type": "fast",
-    "week": 1,
-    "weekOfMonth": 4
+    "Arabic": "أطلبوا من الرب عنا .ياسيدى الأبوين القمصين أنبا يوحنا وأنبا دانيال ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. ناشويس إن يوتى إن هيغومينوس. أفا يؤنس نيم أفا دانييل. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >na_ `nio; `n\\hgomenoc > abba Iwannhc nem abba Danihl > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, our lords and fathers the hegumens, Abba John and Abba Daniel, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, nashois enyoti enhi-gomenos, Ava Yoannies nem Ava Daniel, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 239,
+"part": {
+    "Arabic": "أطلبا من الرب عنا.ياسيدى الأبوين محبى أولادهما أنبا بيشوى وأنبا بولا ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. ناشويس إن يوتى إمماى نو شيرى. أفا بيشوى نيم أفا بافلى . انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >na_ `nio; `mmainou]hri > abba Pi]wi nem abba Paule > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, our lords and fathers who love their children, Abba Bishoy and Abba Paul, that he may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, nashois enyoti emmai-noushir, Ava Pishoy nem Ava Pavle, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 240,
+"part": {
+    "Arabic": "أطلبا من الرب عنا يا أبوينا القديسين الروميين مكسيموس ودوماديوس ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. نين يوتى إثؤواب إن روميؤس. مكسيموس نيم دوماتيوس. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > nenio; eqouab `nrwmeoc > Ma[imoc nem Dometioc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, our saintly Roman fathers, Maximus and Dometius, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, nenyoti ethowab en-romeos, Maximos nem Dometios, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 241,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا أيها التسعة والأربعون شهيداً شيوخ شيهات ليغفر لنا خطايانا .",
+    "Arabiccoptic": "طوبه ام ابشويس  ااهرى ايجون. بى إهمى إبسيت إممارتيروس. ني خيللوى إنتى شيهيت. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >pim/q/ `mmarturoc > ni=elloi `nte }i\\ht > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, O forty-nine martyrs, the elders of Shiheet, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, pi-ehme-epsit emmar-tiros, ni-khelloi ente Shihit, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 242,
+"part": {
+    "Arabic": "أطلبا من الرب عنا أيها القوى القديس أنبا موسى ويحنس كاما ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بيجورى إثؤواب أفا موسى. نيم يؤنس بى كامى. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >pijwri eqouab abba Mwch > nem Iwannhc pixamh > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, O strong saint Abba Moses, and John Kame, that He may forgive is our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, pigori ethowab Ava Mousi, nem Yoannis Pikami, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 243,
+"part": {
+    "Arabic": "أطلب من الرب عنا. يا أنبا باخوم أب الشركة وثيؤدوروس تلميذه ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون.. أفا باخوم فاتى كينونيا. نيم ثيؤدوروس بيف ماثيتيس . انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >abba Pa=wm va ;koinwni`a > nem Qe`odwroc pefmaqhthc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, Abba Pachomius of the Koinonia, and Theodore his disciple, that He may forgive us our sins:",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Ava Pakhom fa ti-Kononia, nem Thodoros pef-mathitis, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 244,
+"part": {
+    "Arabic": "أطلبا من الرب عنا يا أنبا شنودة رئيس المتوحدين وأنبا ويصا تلميذه ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. أفا شينوتى بى أرشى مان إذريتيس . نيم أفا فيصا بيف ماثيتيس . انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >abba }eno; piarxh man`drithc > nem abba Bhca pefmaqhthc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, Abba Shenouda the Archimandrite, and Abba Wisa his disciple, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Ava Shenuti pi-arshi manezritees, nem Ava Wessa pef-mathitis, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 245,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا يا أنبا نفر وأنبا كاروس وأبانا بفنوتيوس ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. أفا نوفير نيم أفا كاروس . نيم بنيوت با إفنوتيوس . انتيف كانين نوفى نان ايفول..",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >abba Noufer nem abba Karoc > nem peniwt Pa`vnoutioc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, Abba Nopher and Abba Karus, and our father Paphnutius, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Ava Nofer nem Ava Karos, nem penyot Paf-noteious, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 246,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا يا أنبا صموئيل المعترف ويسطس وأبوللو تلميذيه ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. أفا صاموئيل بى أومولوجيتيس . نيم يسطس نيم أبوللو نيف ماثيتيس . انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >abba Camouhl pi`omologithc > nem Iouctoc nem Apollo nefmaqhthc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, Abba Samuel the confessor, and Justus and Apollo his disciples, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Ava Samoueil pi-omologitis, nem Yostos nem Apolo nef-mathitees, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 247,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا يا أنبا أبولو وأنبا أبيب وابانا أنبا بيجيمى ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. أفا أبوللو نيم أفا أبيب . نيم بنيوت أفا بيجيمى. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >abba ` Apollo nem abba Apip > nem peniwt abba Pijimi > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, Abba Apollo and Abba Apip, and our father Abba Pigimi, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Ava Apolo nem Ava Apip, nem penyot Ava Pijimi, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 248,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا يا أنبا إفكين وأنبا إهرون وأباهور وأبا فيس ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. أفا إفكين نيم أفا إهرون . نيم أبا هور نيم أبا فيس . انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >abba Eukin nem abba ` |ron > nem `apa |wr nem `apa Vic > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, Abba Evkin and Abba Ehron, Abba Hor and Abba Phis, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Ava Efkin nem Ava Ehron, nem Ava Hor nem Ava Phis, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 249,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا يا أنبا برسوما وإفريم ويوحنا وسمعان ليغفر لنا خطايانا .",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. أفا بارسوما نيم إفريم . نيم يؤنس نيم سيميؤن . انتيف كانين نوفى نان ايفول..",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >abba Parcwma nem Evrem > nem Iw//a/ nem Cumeon > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, Abba Parsoma and Ephrem, and John and Simeon, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Ava Parsoma nem Ephrem, nem Yoannis nem Simeon, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 250,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا يا إبيفانيوس وأمونيوس وأرشيليدس وأرسانيوس ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون.. إيبيفانيوس نيم أمونيوس . نيم أرشيلليتيس نيم أرسانيوس. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > Epivanioc nem Ammwnioc > nem Arxhllithc nem Arcenioc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, Epiphanius and Ammonius, and Arshillidis and Arsenius, that He may forgive us our sins",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Epiphanious nem Ammonios, Nem Arshili-tees nem Arsenios, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 251,
+"part": {
+    "Arabic": "أطلبا من الرب عنا يا سيدى الأبوين الناسكين أنبا أبرأم وجيؤرجى ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون.. ناشويس إن يوتى إن أسكيتيس . أفا أبرآم نيم جيؤرجى . انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >na_ `nio; `nackhthc > abba Abraam nem Gewrgh > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, our lords the ascetic fathers, Abba Abraham and George, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, na-shois enyoti en-askitis, Ava Abraam nem Georgee, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 252,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا يا أثاناسيوس الرسولى وساويرس وديوسقوروس ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. أثاناسيوس بى أبوسطوليكوس. سيفيروس نيم ديوسكوروس. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >` Aqanacioc pi`apoctolikoc > Ceuhroc nem Diockoroc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, Athanasius the Apostolic, Severus and Dioscorus, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Athanasios pi-apostolikos, Severos nem Dioskoros, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 253,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا يا باسيليوس وإغريغوريوس وأبانا أنبا كيرلس ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. باسيليوس نيم إغريغوريوس . نيم بنيوت أفا كيريللوس . انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >bacilioc nem `Grigorioc > nem peniwt abba Kurilloc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, Basil and Gregory, and our father Abba Cyril, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Vasilios nem Ghrighoreios, nem penyot Ava Kirilos, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 254,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا أيها ال318 الذين إجتمعوا فى نيقية من أجل الإيمان ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بى شمت شى ميت إشمين إيطاف ثؤوتى. خين ني كيئا إثفى بيناهتى. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >pi t/i/h/ `etauqwou; =en Nike`a > eqbe pina\\; > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, O three hundred and eighteen gathered at Nicea, for the faith, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, pi-shomt shimeet eshmin etaf thoouti, khen Nikea ethvi pinahti, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 255,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا أيها ال 150 بمدينة القسطنطينية والمائتين بأفسس ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. أوبى شي تيفى إنتى كوستانتينو بوليس. نيم بى إسناف شى إنتى إفيسوس. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >`w pi r/n/ `nte Kwctantinou polic > nem pi `cnau ]e `nte `Evecoc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, O the one hundred and fifty at Constantinople, and the two hundred at Ephesus, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, o pi shea-tivi ente Kostan-ti-nopolees, nem pisnav shea ente Ephesos, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 256,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا يا أنبا حديد وأنبا يوحنا وأبانا العظيم أنبا برسوما وأنبا رويس ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. أفا هاديد نيم أفا يؤنس. نيم بنيوت بينيشتى أفا بارسوما نيم أفا تيجى . انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >abba |adid nem abba Iwannhc > nem peniwt pini]; abba Parcwma nem abba Teji > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf. Abba Hadid and Abba John, our great father Parsoma and Abba Teji, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Ava Hadid nem Ava Yoannis, nem penyot pi-neshti Ava Parsoma nem Ava Tiji, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 257,
+"part": {
+    "Arabic": "أطلبا من الرب عنا يا أنبا إبرآم القمص وأبانا أنبا مرقس ليغفر لنا خطايانا .",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. أفا أبرآم بى هيغومينوس . نيم بنيوت أفا ماركوس . انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >abba Abraam pi\\hgoum enoc > nem peniwt abba Markoc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, Abba Abraam the hegumen, and our father Abba Mark, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, Ava Abraam pi-hegomenos, nem penyot Ava Markos, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 258,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا يا مصاف لباس الصليب الذين كملوا فى البرارى ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. نى خوروس إنتى نى إسطافروفوروس. إيطافجوك إيفول هيني شافيف. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >nixoroc `nte ni`ctaurovoroc > `etafjwk `ebol \\ini]afeu > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, O chorus of the cross-bearers, perfected in the wilderness, that He may forgive us our sins",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, ni-khoros ente ni-estavroforos, etaf gok evol hini-shavev, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 259,
+"part": {
+    "Arabic": "أطلبا من الرب عنا يا سيدى الملك قسطنطين وهيلانة الملكة ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. باشويس إبؤرو كوستانتينوس. نيم إيلانى تى أورو. انتيف كانين نوفى نان ايفول..",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn > pa_ `pouro Kwctantinoc > nem `Hlanh ;ourw > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, my lord King Constantine, and his mother Queen Helen, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, pashois epouro Kones-tantinos, nem Elani ti-oro, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 260,
+"part": {
+    "Arabic": "أطلبن من الرب عنا.أيتها الفتيات العذارى الحكيمات عرائس المسيح ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. نى ألو إن سافى إمبارثينوس. نى شيليت إنتى بخريستوس. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Tw/ >nialou `ncabe `mparqenoc > ni]elet `nte Px/c/ > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, O wise virgin ladies, the brides of Christ, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, ai-alo ensa-ve emparthinos, ni-shelete ente Pekhrestos, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 261,
+"part": {
+    "Arabic": "أطلبوا من الرب عنا يا قديسى هذا اليوم كل واحد بإسمه ليغفر لنا خطايانا .",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. نى إثؤواب إنتى باى إيهوأو. بى أواى بى أواى كاطا بيفران. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >nheqouab `nte pai `e\\oou > piouai piouai kata pefran > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf. O saints of this day, each one by his name, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, ni-ethowab ente pai eho-ou, pi-owai pi-owai kata pefran, entef ka nen-novi nan evol.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 262,
+"part": {
+    "Arabic": "كذلك نعظمك مع المرتل داود قائلين أنت هو الكاهن إلى الأبد على طقس ملشيصاداق.",
+    "Arabiccoptic": "أوسافتوس تين تشيسى إمموك نيم بى هيمنودوس دافيد. جى إنثوك بى بى أويب شا إينيه. كاطا إت طاكسيس إم ميلشيصاديك .",
+    "Coptic": "` W cautwc tensici `mmok > nem pi\\umnodoc Dauid > je `nqok pe piouhb ]a `ene\\ > kata `tta[ic `mMelxicedek.",
+    "English": "Likewise, we magnify You, with David the Psalmist: You are the priest forever, according to the order of Melchizedek",
+    "Englishcoptic": "O-Savtos tenit-shisi emmok, nem pi-hemnodos Daveed, je enthok pi pi-owib sha eneh, kata et-taksis em-Melshisedek.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 263,
+"part": {
+    "Arabic": "أطلب من الرب عنا. يا أبانا القديس البطريرك أنبا تاواضروس رئيس الكهنة ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إم باطريارشيس. أفا تاواضروس بى أرشى إيرفس. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab `mpatriarxhc > abba Qe`odoroc piarxh `ereuc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, our holy father the patriarch. Pope Abba Tawadros, the archpriest, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, nenyot ethowab em-patri-yarshees, Papa Ava Tawadros pi-arshi-erefs, entef ka nen-novi nan evol.",
+    "Rule": "standardPsalmody",
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "مجمع القديسين",
+"CopticTitle": "Ari`precbeuin",
+"EnglishTitle": "The Commemoration of the Saints",
+"key": 264,
+"part": {
+    "Arabic": "أطلب من الرب عنا. يا أبانا القديس البار. أنبا يوسف المطران ليغفر لنا خطايانا.",
+    "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. بنيوت إثؤواب إن ذيكيؤس . أفا يوسف بى ميتروبوليتيس. انتيف كانين نوفى نان ايفول.",
+    "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >peniwt eqouab `ndikeoc > abba Iwchv pi mhtropolhthc > `ntefxa nen nobi nan `ebol .",
+    "English": "Pray to the Lord on our behalf, our holy righteous father, Abba Youssef the metropolitan, that He may forgive us our sins.",
+    "Englishcoptic": "Tovhem-epshois e-ehri egon, peniot ethowab en-Zike - os, Ava Youssef pi-Metro-po-litis, entef ka nen-novi nan evol.",
+    "Rule": "standardPsalmody",
+    "Side": "North",
+    "Type": "Base",
+    "Visible": "ISDioceseMetropolitainAlways"
+},
+"path": "PraisesCommemoration"
+},
+{
+"ArabicTitle": "",
+"CopticTitle": "",
+"EnglishTitle": "",
+"key": 265,
+"part": {
+    "Arabic": "الذكصولوجيات",
+    "English": "The Doxologies",
+    "Path": "doxologies",
+    "Rule": "OpenDoxologiesButtonRule",
+    "Type": "Button",
+    "Visible": true,
+    "mother": "praises"
 }
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 266,
+"part": {
+    "Arabic": "الهوس الرابع",
+    "Coptic": "Cmou `eP_ `ebol",
+    "English": "The Fourth Hoos",
+    "Path": "PraisesFourthHoos",
+    "Side": "Title",
+    "Switch": undefined,
+    "Type": "Title",
+    "rule": -1,
+    "visible": 0
+}
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 267,
+"part": {
+    "Arabic": "المزمور 148,149,150",
+    "English": "Psalms 148,149,150",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Ritual",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 268,
+"part": {
+    "Arabic": "أميــن . يارب إرحم  .",
+    "Arabiccoptic": "أمين الليلويا كيري اليسون  .",
+    "Coptic": "`Amhn allhaoui`a Kuri`e `ele`hcon ",
+    "English": "Amen Alleluia, Lord have mercy",
+    "Englishcoptic": "Amen Alleloia Kerie-leyson ",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 269,
+"part": {
+    "Arabic": " يارب إرحم . يارب إرحم .",
+    "Arabiccoptic": " كيري اليسـون كيري اليسون .",
+    "Coptic": "Kuri`e `ele`hcon Kuri`e `ele`hcon.",
+    "English": "Lord have mercy , Lord have mercy.",
+    "Englishcoptic": "Kerie-leyson Kerie-leyson",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 270,
+"part": {
+    "Arabic": "سبحوا الرب من السموات الليلويا سبحوه فى الأعالى .",
+    "Arabiccoptic": "إسمو إإبشويس إيفول خين نيفيؤوى الليلويا إسمو إيروف خين نى إتتشوسي.",
+    "Coptic": "Cmou `eP_ `ebol =en nivhou`i a/l/ `cmou `erof =en nietsoci.",
+    "English": "Praise the Lord from the heavens: Alleluia. Praise Him in the heights.",
+    "Englishcoptic": "Esmo Epshois evol khen nifi-owi, alleloia. Esmo erof khen ni-etitshosi.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 271,
+"part": {
+    "Arabic": "سبحوه ياجميع ملائكته الليلويا سبحوه يا جميع جنوده .",
+    "Arabiccoptic": "إسمو إيروف نيف أنجيلوس تيرو الليلويا إسمو إيروف نيف ذيناميس تيرو.",
+    "Coptic": "`Cmou `erof nefaggeloc throu a/l/ > `cmou `erof nefdunamic throu.",
+    "English": "Praise Him, all His angels: Alleluia. Praise Him, all His hosts.",
+    "Englishcoptic": "Esmo erof nef-angelos tiro, Alleluia. Esmo erof nef-zinamis tiro.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 272,
+"part": {
+    "Arabic": "سبحيه أيتها الشمس والقمر الليلويا سبحيه ياجميع كواكب النور   .",
+    "Arabiccoptic": "إسمو إيروف بيرى نيم بيوه الليلويا إسمو إيروف نيسيو تيرو إنتى بى أوأوينى",
+    "Coptic": "`Cmou `erof pirh nem piio\\ a/l/> `cmou erof niciou throu `nte piouwini.",
+    "English": "Praise Him, sun and moon: Alleluia. Praise Him all you stars of light.",
+    "Englishcoptic": "Esmo erof piri nem peyoh, Alleluia. Esmo erof nisayo tiro ente pi-ou-oyni.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 273,
+"part": {
+    "Arabic": "سبحيه ياسما السموات الليلويا ويا أيتها المياة التى فوق السموات.",
+    "Arabiccoptic": "إسمو إيروف نيفيؤوى إنتى نيفيؤوى الليلويا نيم ني كيموؤ إتسا إبشوى إن نيفيؤوى",
+    "Coptic": "Cmou erof nivhou`i `nte nivhou`i a/l/ > nem nikemwou etca `p]wi `nnivhou`i.",
+    "English": "Praise Him you heavens of heavens: Alleluia. And you waters above the heavens.",
+    "Englishcoptic": "Esmo erof nifi-owi ente nifi-owi, Alleluia. Nem ni-kemo-ou etsa epshoy ennifi-owi.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 274,
+"part": {
+    "Arabic": "لتسبح جميعها لإسم الرب الليلويا لأنه قال فكانت .",
+    "Arabiccoptic": "مارو إسمو تيرو إإفران إمبشويس الليلويا جى إنثوف أفجوس أووه أفشوبى.",
+    "Coptic": "Marou`cmou throu `e`vran `mP_ a/l/ > je `nqof afjoc ouo\\ af]wpi .",
+    "English": "Let them praise the name of the Lord: Alleluia. For He commanded and they were created.",
+    "Englishcoptic": "Marou-esmo tiro e-ephran Emipshois, Alleluia. Je enthof afgos owoh av-showpi.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 275,
+"part": {
+    "Arabic": "وأمر فخلقت الليلويا أقامها إلى الأبد وإلى أبد الأبد .",
+    "Arabiccoptic": "إنثوف أفهونهين أووه أفسونت الليلويا أفتاهوؤ إيراطو شا إينيه نيم شا إينيه إنتى بى إينيه .",
+    "Coptic": "` Nqof af\\on\\en ouo\\ aucwnt a/l/ > afta\\wou `eratou ]a `ene\\ nem ]a `ene\\ `nte pi`ene\\ .",
+    "English": "He has ordered and they were created: Alleluia. He has established them forever and ever.",
+    "Englishcoptic": "Enthof afhon-hen owoh avsont, Alleluia. Afta-hoo eratou sha eneh ente pi-eneh.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 276,
+"part": {
+    "Arabic": "وضع لها أمرا فلن تتجاوزه الليلويا سبحى الرب من الأرض   .",
+    "Arabiccoptic": "أفكو إن أوهون أووه إن نيف سينى الليلويا إسمو إبشويس إيفول خين إبكاهى.",
+    "Coptic": "` Afxw `nou\\wn ouo\\ `nnefcini a/l/ > `cmou `eP_ `ebol =en `pka\\i .",
+    "English": "He has made a decree which shall not pass away: Alleluia. Praise the Lord from the earth",
+    "Englishcoptic": "Afko en-ou-hon owoh ennef-sini, Alleluia. Esmo Epshois evol khen epkahi.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 277,
+"part": {
+    "Arabic": "أيتها التنانين وجميع الأعماق الليلويا النار والبرد والثلج والجليد والريح العاصفة الصانعة كلمته.",
+    "Arabiccoptic": "نى إذراكون نيم نى نون تيرو الليلويا إو إكروم أو آل أو شيون أو إخريستال لوس أو إبنفما إن ساراثيو نى إيتئيرى إمبيف ساجى .",
+    "Coptic": "Ni`drakwn nem ninoun throu a/l/ > ou`xrwm oual ouxiwn ou`xructalloc ou`pneuma `ncaraqhou nhet`iri `mpefcaji .",
+    "English": "You great sea creatures and all the depths: Alleluia. Fire and hail, snow and clouds, and stormy wind, fulfilling His word.",
+    "Englishcoptic": "Ni-ezrakown nem ni-noun tiro, Alleluia. Ou-ekrowm ou-al ou-sheion, ou-ekris-tallos, ou-epnevman-sara-theio, ni-et-ere empef-sagi.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 278,
+"part": {
+    "Arabic": "الجبال العالية وجميع الآكام الليلويا الأشجار المثمرة وكل الآرز.",
+    "Arabiccoptic": "نيتوأو إتتشوسى نيم نى كالامفوؤ تيرو الليلويا نى إش شين إمفاى أوطاه نيم نى شين سيفى تيرو .",
+    "Coptic": "Nitwou etsoci nem nikalamvwou throu a/l/ > ni`]]hn `mfaiouta\\ nem ni]incifi throu .",
+    "English": "Mountains and all hills: Alleluia. Fruitful trees and all cedars.",
+    "Englishcoptic": "Ni-tow-ou etit-shosi, nem nikalamfow-ou tiro, Alleluia. Neiesh-shin emfai-otah nem nishen-sifi tiro.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 279,
+"part": {
+    "Arabic": "الوحوش وكل البهائم الليلويا الهوام وكل الطيور ذات الأجنحة.",
+    "Arabiccoptic": "نيثيريون نيم نى تيف نوأوى تيرو الليلويا نى إتشاتفى نيم نى هالاتى إتؤى إن تينه .",
+    "Coptic": "Niqhrion nem nitebnwou`i throu a/l/ > nisatfi nem ni\\ala; etoi `nten\\ .",
+    "English": "Beasts and all cattle: Alleluia. Creeping things and flying birds.",
+    "Englishcoptic": "Ni-therion nem ni-tev-noowi tiro, Alleluia. Ni-echatifw nem ni-halati et-oi entenh.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 280,
+"part": {
+    "Arabic": "ملوك الأرض وكل الشعوب الليلويا الرؤساء وكل حكام الأرض .",
+    "Arabiccoptic": "نى أورو أو إنتى إبكاهى نيم نى لاؤس تيرو الليلويا نى أرخون نيم نى ريفتى هاب تيرو إنتى إبكاهى",
+    "Coptic": "Niourwou `nte `pka\\i nem nilaoc throu a/l/ > niarxwn nem niref;\\ap throu `nte `pka\\i .",
+    "English": "Kings of the earth and all people: Alleluia. Princes and all judges of the earth.",
+    "Englishcoptic": "Ni-oro-ou ente epkahi nem ni-laos tiro, Alleluia. Ni-arkhown nem ni-reftihap tiro ente epkahi.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 281,
+"part": {
+    "Arabic": "الشبان والعذارى الليلويا الشيوخ والصبيان .",
+    "Arabiccoptic": "هان خيلشيرى نيم هان بارثينوس الليلويا هان خيللوى نيم هان الوؤيى.",
+    "Coptic": "|an=el]iri nem \\anparqenoc a/l/ > \\an=elloi nem \\an`alwou`i",
+    "English": "Both young men and maidens: Alleluia. Old men and children.",
+    "Englishcoptic": "Han-khel-shiri nem han-parthinos, Alleluia. Han-khelloi nem han-aloowi.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 282,
+"part": {
+    "Arabic": "فليسبحوا جميعا لإسم الرب الليلويا لأنه قد تعالى إسمه وحده.",
+    "Arabiccoptic": "مارو إسمو تيرو إإفران إمبشويس الليلويا جى أفتشيسى إنجى بيفران إممافاطف",
+    "Coptic": "Marou`cmou throu `e`vran `mP_ a/l/ > je afsici `nje pefran `mmauatf .",
+    "English": "Let them praise the name of the Lord: Alleluia. For His name alone is exalted.",
+    "Englishcoptic": "Marou-esmo tiro e-ephran Emipshois, Alleluia. Je afit-shisi enje pefran emma-vatf.",
+    "Rule": 0,
+    "Side": "South",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 283,
+"part": {
+    "Arabic": "شكره كائن على الأرض وفى السماء الليلويا ويرفع قرن شعبه.",
+    "Arabiccoptic": "بيف أوأونه إيفول شوب هيجين إبكاهى نيم إن إهرى خين إتفى الليلويا إفناتشيسى إم إبطاب إنتى بيف لاؤس.",
+    "Coptic": "Pefouwn\\ `ebol ]op \\ijen `pka\\i nem `n`\\rhi =en `tve a/l/ > `fnasici `m`ptap `nte peflaoc .",
+    "English": "His glory is above the earth and heaven: Alleluia. And He has exalted the horn of His people.",
+    "Englishcoptic": "Pef-ou-ownh evol shop hijen epkahi nem en-ehri khen etve, Alleluia. Efna-chisi em-ep-tap ente pef-laos.",
+    "Rule": 0,
+    "Side": "North",
+    "Type": "Base",
+    "Visible": true
+},
+"path": "PraisesFourthHoos"
+},
+{
+"ArabicTitle": "الهوس الرابع",
+"CopticTitle": "Cmou `eP_ `ebol",
+"EnglishTitle": "The Fourth Hoos",
+"key": 284,
+"part": {
+    "Arabic": "سبحاً لجميع قديسيه الليلويا بنى إسرائيل الشعب القريب إليه.",
+    "Arabiccoptic"": "أو إسمو إنتى نى إثؤواب تيرو إنطاف الليلويا نين شيرى إمبسرائيل بيلاؤس إتخينت إيروف.", "Coptic": "Ou`cmou `nte nheqouab throu `ntaf a/l/ > nen
+]hri `mpic/l/ pilaoc et=ent `erof.", "English": "The praise of all his saints: Alleluia. The children of Israel a people near unto Him.", "Englishcoptic": "Ou-esmo ente ni-ethowab tiro entaf, Alleluia. Nen-shiri empis-rael, pi-laos etkhent erof.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 285, "part": {"Arabic": "الليلويا الليلويا الليلويا إنشدوا للرب نشيدا جديداً الليلويا لأأن تسبحته فى بيعة القديسين.", "Arabiccoptic": "الليلويا الليلويا الليلويا  جو إمبشويس خين أوجو إمفيرى الليلويا جى أرى بيف إسمو خين إت إكليسيا إنتى نى إثؤواب.", "Coptic": "A/l/ a/l/ a/l/ Jw `mP_ =en oujw `mberi a/l/ > je `are pef`cmou =en `tek`klhci`a `nte nheqouab.", "English": "Alleluia, Alleluia, Alleluia. Sing to the Lord a new song: Alleluia. And His praise in the congregation of the saints.", "Englishcoptic": "Alleluia, Alleluia, Alleluia. Go emip-shois khen ou-go emviri, Alleluia. Je a-ri pef-esmo khen ti-ekliseia ente ni-ethowab.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 286, "part": {"Arabic": "فليفرح إسرائيل بخالقه الليلويا وبنو صهيون فليتهللوا بملكهم .", "Arabiccoptic": "ماريف أونوف إنجى بيسرائيل إيجين فيئطاف ثاميوف الليلويا نين شيرى إن سيون مارو ثيليل إيجين بو أورو .", "Coptic": "Marefounof `nje Pic/l/ `ejen vh`etafqamiof a/l/ > nen
+]hri `nCiwn marouqelhl `ejen pououro .", "English": "Let Israel rejoice in their maker: Alleluia, Let the children of Zion be joyful in their King", "Englishcoptic": "Maref-onof enje pis-rael eijen fi-e-taf-thamiof, Alleluia. Nen-shiri en-Seion marou-thelil eijen epouro.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 287, "part": {"Arabic": "فليسبحوا إسمه القدوس بصف الليلويا بدف ومزمار فليرتلوا له.", "Arabiccoptic": "مارو إسمو إبيفران إثؤواب خين أوخوروس الليلويا خين أوكيمكيم نيم أوإبسالتيريون مارو إيربسالين إيروف.", "Coptic": "Marou`cmou `epefran eqouab =en ouxoroc a/l/ > =en oukemkem nem ouyalthrion maroueryalin `erof .", "English": "Let them praise His name in the chorus: Alleluia. Let them sing praises unto Him with timbral and harp.", "Englishcoptic": "Marou-esmo epefran ethowab khen o-khoros, Alleluia. Khen o-kem-kem nem opsal-tereion marou-erpsalin erof.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 288, "part": {"Arabic": "لأن الرب يسر بشعبه الليلويا يعلى الودعاء بالخلاص .", "Arabiccoptic": "جى إبشويس ناتى ماتى إيجين بيف لاؤس الليلويا إفناتشيسى إن نى ريمرافش خين أوأوجاى .", "Coptic": "Je Psoic na;ma; `ejen peflaoc a/l/ > `fnasici `nne remrau
+] =en ououjai .", "English": "For the Lord takes pleasure in His people: Alleluia. He will raise the meek with salvation.", "Englishcoptic": "Je Epshois nati mati ejen pef-laos, Alleluia. Ef-na-chisi enni-rem-ravsh khen ou-ougai.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 289, "part": {"Arabic": "يفتخر القديسون بمجد الليلويا ويتهللون على مضاجعهم .", "Arabiccoptic": "إف إشوشو إموأو إنجى نى إثؤواب خين أوأوأو الليلويا إف إثيليل إمموؤ هيجين نوما إن إنكوت.", "Coptic": "Eu`e
+]ou
+]ou `mmwou `nje nheqouab =en ou`wou a/l/ > eueqelhl `mmwou \\ijen nouma`nenkot .", "English": "Let the saints be joyful in glory: Alleluia. Let them sing aloud on their beds.", "Englishcoptic": "Ev-e-shou-shou emmow-ou enje-ni-ethowab khen ou-ow-ou, Alleluia. Evethelil emmow-ou, hijen noma-nenkot.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 290, "part": {"Arabic": "تعليات الله فى حناجرهم الليلويا وسيوف ذات حدين فى أيديهم .", "Arabiccoptic": "نى إتشيسى إنتى إفنوتى إتكى خين تو إشفوفى الليلويا هان سيفى إنرو إسناف إتكى خين نو جيج .", "Coptic": "Nisici `nte Vnou; etxh =en tou`
+]bwbi a/l/ > \\anchfi `nrob/ etxh =en noujij .", "English": "Let the high praises of God be in their mouth: Alleluia, And a two edged sword in their hand.", "Englishcoptic": "Nit-shisi ente Efnouti, etki khen tow-esh-vovi, Alleluia. Han-sify enro-esnaf etki khen noujig.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 291, "part": {"Arabic": "ليصنعوا نقمة فى الأمم الليلويا وتوبيخات فى الشعوب", "Arabiccoptic": "إإبجين إيرى إنؤ إتشى إمبشيش خين نى إثنوس الليلويا نيم هان سوهى خين نى لاؤس.", "Coptic": "`E`pjin`iri `nousi`m`p
+]i
+] =en nieqnoc a/l/ > nem \\anco\\i =en nilaoc .", "English": "To execute vengeance on the nations Alleluia. And punishments on the people.", "Englishcoptic": "Ei-epjen-eiri enou-etshi emipshish khen ni-ethnos, Alleluia. Nem han-sohi khen ni-laos.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 292, "part": {"Arabic": "ليوثقوا ملوكهم بقيود الليلويا وأشرافهم بأغلال للأيدى من حديد .", "Arabiccoptic": "إإبجين سونه إنهان أورو أو خين هان بيذيس الليلويا نيم نى إيتطايوت إنتوؤ خين هان بيذيس إنجيج إمفينيبى .", "Coptic": "`E`pjincwn\\ `n\\anourwou =en \\anpedhc a/l/ > nem nhettaihout `ntwou =en \\anpedhc `njij `mbenipi .", "English": "To bind their kings with chains: Alleluia. And their nobles with fetters of iron.", "Englishcoptic": "Ei-epjen-sowonh enhan-owroou khen han-pezis, Alleluia. Nem ni-etta-yout entow-ou khen han pezis enjig em-venipi.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 293, "part": {"Arabic": "ليصنعوا بهم حكماً مكتوباً الليلويا هذا المجد كائن   فى جميع قديسيه .", "Arabiccoptic": "إإبجين إيرى إنخيتو إنؤهاب إف إسخيوت الليلويا باى أوأو فاى أفشوب خين نى إثؤواب تيرو إنطاف .", "Coptic": "`E`pjin`iri `n=htou `nou\\ap ef`c=hout a/l/ > pai `wou vai af
+]op =en nheqouab throu `ntaf .", "English": "To execute on them the written judgment: Alleluia. This honor have all His saints.", "Englishcoptic": "Ei-epjin-eiri enkhitou en-ouhap e-fes-kheyout, Alleluia. Pai ow-ou fai afshop khen ni-ethowab tiro entaf.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 294, "part": {"Arabic": "الليلويا الليلويا الليلويا سبحوا الله فى جميع قديسيه الليلويا", "Arabiccoptic": "الليلويا الليلويا الليلويا إسمو إإفنوتى خين نى إثؤواب تيرو إنطاف الليلويا", "Coptic": "A/l/ a/l/ a/l/ ` Cmou `e Vnou; =en ni eqouab throu `ntaf Al/.", "English": "Alleluia, Alleluia, Alleluia. Praise God in all His saints. Alleluia.", "Englishcoptic": "Alleluia, Alleluia, Alleluia. Esmo Efnouti khen ni-ethowab tiro entaf, Alleluia.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 295, "part": {"Arabic": "سبحوه فى جلد قوته الليلويا", "Arabiccoptic": "إسمو إيروف خين بى طاجرو إنتى تيف جوم الليلويا.", "Coptic": "`Cmou `erof =en pitajro `nte tefjom Al/.", "English": "Praise Him, in the firmament of His power. Alleluia.", "Englishcoptic": "Esmo erof khen pi-tagro ente tef-gom, Alleluia.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 296, "part": {"Arabic": "سبحوه على مقدرته الليلويا", "Arabiccoptic": "إسمو إيروف إإهرى هيجين تيف ميت جورى الليلويا", "Coptic": "`Cmou `erof `e`\\rhi \\ijen tefmetjwri Al/", "English": "Praise Him, for His mighty acts. Alleluia.", "Englishcoptic": "Esmo erof e-ehri hijen tefmet-gowri, Alleluia.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 297, "part": {"Arabic": "سبحوه ككثرة عظمته الليلويا", "Arabiccoptic": "إسمو إيروف كاطا إب أشاى إنتى تيف ميت نيشتى الليلويا", "Coptic": "`Cmou `erof kata `p` a
+]ai `nte tefmetni
+]; Al/.", "English": "Praise Him, according to the multitudes of His greatness. Alleluia.", "Englishcoptic": "Esmo erof kata ep-ashai ente tef-met-nishti, Alleluia.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 298, "part": {"Arabic": "سبحوه بصوت البوق الليلويا", "Arabiccoptic": "إسمو إيروف خين أو إسمى إن سالبينغوس الليلويا", "Coptic": "`Cmou `erof =en ou`cmh `ncalpiggoc Al/ .", "English": "Praise Him, with the sound of the trumpet. Alleluia", "Englishcoptic": "Esmo erof khen ou-esmi ensalpen-ghos, Alleluia.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 299, "part": {"Arabic": "سبحوه بالمزمار والقيثارة الليلويا", "Arabiccoptic": "إسمو إيروف خين أو إبسالتيريون نيم أوكيثارا الليلويا", "Coptic": "`Cmou `erof =en ouyalthrion nem oukuqara Al/.", "English": "Praise Him, with psaltery and harp. Alleluia.", "Englishcoptic": "Esmo erof khen ou-epsal-terion nem ou-kithara, Alleluia.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 300, "part": {"Arabic": "سبحوه بالدفوف والصفوف الليلويا", "Arabiccoptic": "إسمو إيروف خين هان كيم كيم نيم هان خوروس الليلويا", "Coptic": "`Cmou `erof =en \\ankemkem nem \\anxoroc Al/.", "English": "Praise Him, with timbrel and chorus. Alleluia.", "Englishcoptic": "Esmo erof khen han-kem-kem nem han-khoros, Alleluia.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 301, "part": {"Arabic": "سبحوه بالأوتار والأرغن الليلويا", "Arabiccoptic": "إسمو إيروف خين هان كاب نيم أو أورغانون الليلويا", "Coptic": "`Cmou `erof =en \\ankap nem ouorganon Al/.", "English": "Praise Him, with strings and organs. Alleluia.", "Englishcoptic": "Esmo erof khen han-kap nem ou-orghanon, Alleluia.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 302, "part": {"Arabic": "سبحوه بصنوج حسنة الصوت الليلويا", "Arabiccoptic": "إسمو إيروف خين هان كيمفالون إنى سيطو إسمى الليلويا", "Coptic": "`Cmou `erof =en \\ankumbalon enece toucmh Al/.", "English": "Praise Him, with pleasant sounding cymbals. Alleluia.", "Englishcoptic": "Esmo erof khen han-kim-valon ene-setou-esmi, Alleluia.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 303, "part": {"Arabic": "سبحوه بصنوج التهليل الليلويا", "Arabiccoptic": "إسمو إيروف خين هان كيمفالون إنتى أوإى إشليلوى الليلويا", "Coptic": "`Cmou `erof =en \\ankumbalon `nte oue
+]lhloui Al/.", "English": "Praise Him, upon the cymbals of joy, Alleluia.", "Englishcoptic": "Esmo erof khen han-valon ente ou-eshlilowi, Alleluia.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 304, "part": {"Arabic": "كل نسمة فلتسبح إسم الرب إلهنا الليلويا", "Arabiccoptic": "نيفى نيفين مارو إسمو تيرو إ إفران إم إبشويس بين نوتى الليلويا", "Coptic": "Nifi niben marou `cmou throu `e`vran `mP_ Pennou; Al/.", "English": "Let everything that has breath praise the name of the Lord our God Alleluia.", "Englishcoptic": "Nifi niven maro-esmo tiro Ee-efran Emipshois Pennouti, Alleluia.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 305, "part": {"Arabic": "المجد للآب والإبن والروح القدس الليلويا", "Arabiccoptic": "ذوكصابترى كى إيو كى أجيو إبنفماتى الليلويا", "Coptic": "Do[a Patri ke Uiw ke Agiw Pneumati Al/.", "English": "Glory to the Father, and the Son, and the Holy Spirit. Alleluia.", "Englishcoptic": "Zoxa Patree ke Eio ke Agio Epnevmati, Alleluia.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 306, "part": {"Arabic": "الأن وكل آوان وإلى دهر الدهور أمين الليلويا", "Arabiccoptic": "كى نين كى أإى كى إستوس إ أوناس طون إأونون آمين الليلويا", "Coptic": "Ke nun ke ai ke ictouc ewnac twn ewnwn amhn Al/.", "English": "Now and ever and unto the ages of the ages. Amen. Alleluia.", "Englishcoptic": "Ke neen ke a-ee ke estos e-onas ton e-onon amen. Alleluia.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 307, "part": {"Arabic": "الليلويا الليلويا المجد لإلهنا الليلويا", "Arabiccoptic": "الليلويا الليلويا ذوكصاصىأوثيئوس إيمون الليلويا", "Coptic": "Al/. Al/. Do[aci o qeoc umwn Al/.", "English": "Alleluia. Alleluia. Glory to You our God. Alleluia.", "Englishcoptic": "Alleluia, Alleluia, Zoxa si o Theos emon, Alleluia.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "الهوس الرابع", "CopticTitle": "Cmou `eP_ `ebol", "EnglishTitle": "The Fourth Hoos", "key": 308, "part": {"Arabic": "الليلويا الليلويا المجد لإلهنا الليلويا", "Arabiccoptic": "الليلويا الليلويا بى أو أو فا بين نوتى بى الليلويا", "Coptic": "Al/. Al/. Pi`wou va Pennou; pe Al/.", "English": "Alleluia. Alleluia. Glory be to our God. Alleluia.", "Englishcoptic": "Alleluia, Alleluia, pi-ow-ou fa pennouti pe, Alleluia.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesFourthHoos"}, {"ArabicTitle": "", "CopticTitle": "", "EnglishTitle": "", "key": 309, "part": {"Arabic": " ثيؤطوكية يوم الأحد", "English": "Sunday Theotokia", "Path": "sundayTheotokiaMenu", "Rule": "OpenTheotokiaButtonRule", "Type": "Button", "Visible": "TheotokiaVisible", "mother": "praises"}}, {"ArabicTitle": "مقدمة قانون الإيمان", "CopticTitle": undefined, "EnglishTitle": "Introduction to the Creed", "key": 310, "part": {"Arabic": "مقدمة قانون الإيمان", "Coptic": undefined, "English": "Introduction to the Creed", "Path": "AgpeyaPrayersIntroToCreed", "Side": "Title", "Switch": undefined, "Type": "Title", "rule": -1, "visible": 0}}, {"ArabicTitle": "مقدمة قانون الإيمان", "CopticTitle": undefined, "EnglishTitle": "Introduction to the Creed", "key": 311, "part": {"Arabic": "نعظمك يا أم النور الحقيقي، ونمجدك أيتها العذراء القديسة، والدة الإله، لأنك ولدت لنا مخلص العالم، أتى وخلص نفوسنا.", "English": "We exalt you, the Mother of the true Light. We glorify you, O Saint, the Theotokos, for you brought forth unto us the Savior of the whole world; He came and saved our souls.", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": true}, "path": "AgpeyaPrayersIntroToCreed"}, {"ArabicTitle": "مقدمة قانون الإيمان", "CopticTitle": undefined, "EnglishTitle": "Introduction to the Creed", "key": 312, "part": {"Arabic": "المجد لكَ يا سيدنا وملكنا المسيح، فخر الرسل، إكليل الشهداء تهليل الصديقين، ثبات الككنائس، غفران الخطايا.", "English": "Glory to You, our Master, our King, Christ, the pride of the apostles, the crown of the martyrs, the joy of the righteous, the firmness of the churches, the forgiveness of sins.", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": true}, "path": "AgpeyaPrayersIntroToCreed"}, {"ArabicTitle": "مقدمة قانون الإيمان", "CopticTitle": undefined, "EnglishTitle": "Introduction to the Creed", "key": 313, "part": {"Arabic": "نبشر بالثالوث القدوس، لاهوت واحد، نسجد له ونمجده. يا رب ارحم. يا رب ارحم. يا رب بارك. أمين", "English": "We proclaim the Holy Trinity in One Godhead. We worship Him. We glorify Him. Lord have mercy. Lord have mercy. Lord bless. Amen.", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": true}, "path": "AgpeyaPrayersIntroToCreed"}, {"ArabicTitle": "قانون الإيمان الأرثوذكسي", "CopticTitle": undefined, "EnglishTitle": "The Orthodox Creed", "key": 314, "part": {"Arabic": "قانون الإيمان الأرثوذكسي", "Coptic": undefined, "English": "The Orthodox Creed", "Path": "AgpeyaPrayersCreed", "Side": "Title", "Switch": undefined, "Type": "Title", "rule": -1, "visible": 0}}, {"ArabicTitle": "قانون الإيمان الأرثوذكسي", "CopticTitle": undefined, "EnglishTitle": "The Orthodox Creed", "key": 315, "part": {"Arabic": "الشعب: ", "English": "People: ", "Rule": 0, "Side": "People", "Type": "Melody", "Visible": true}, "path": "AgpeyaPrayersCreed"}, {"ArabicTitle": "قانون الإيمان الأرثوذكسي", "CopticTitle": undefined, "EnglishTitle": "The Orthodox Creed", "key": 316, "part": {"Arabic": "بالحقيقة نؤمن بإله واحد، الله الآب، ضابط الكل، خالق السماء والأرض، ما يُرى وما لا يُرى.", "English": "We believ ve in one God, God the Father, the Pantocrator, creator of heaven and earth, and all things, seen and unseen.", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": true}, "path": "AgpeyaPrayersCreed"}, {"ArabicTitle": "قانون الإيمان الأرثوذكسي", "CopticTitle": undefined, "EnglishTitle": "The Orthodox Creed", "key": 317, "part": {"Arabic": "نؤمن برب واحد يسوع المسيح، إبن الله الوحيد، المولود من الآب قبل كل الدهور.", "English": "We believe in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages.", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": true}, "path": "AgpeyaPrayersCreed"}, {"ArabicTitle": "قانون الإيمان الأرثوذكسي", "CopticTitle": undefined, "EnglishTitle": "The Orthodox Creed", "key": 318, "part": {"Arabic": "نور من نور، إله حق من إله حق. مولود غير مخلوق، مساوي للآب في الجوهر، الذي به كان كل شيء. هذا الذي من أجلنا نحن البشر، ومن أجل خلاصنا، نزل من السماء، وتجسد من الروح القدس ومن مريم العذراء، وتأنس.", "English": "Light out of Light,
+true God of true God; begotten not created, of one essence with the Father, by whom all things were made; who for us men and for our salvation, came down from heaven, and was incarnate of the Holy Spirit and of the Virgin Mary, and became man.", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": true}, "path": "AgpeyaPrayersCreed"}, {"ArabicTitle": "قانون الإيمان الأرثوذكسي", "CopticTitle": undefined, "EnglishTitle": "The Orthodox Creed", "key": 319, "part": {"Arabic": "وصلب عنا على عهد بيلاطس البنطي، وتألم وقبر. .", "English": "And He was crucified for us under Pontius Pilate, suffered and was buried. ", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": "CreedCrucified"}, "path": "AgpeyaPrayersCreed"}, {"ArabicTitle": "قانون الإيمان الأرثوذكسي", "CopticTitle": undefined, "EnglishTitle": "The Orthodox Creed", "key": 320, "part": {"Arabic": "وقام من بين الأموات في اليوم الثالث كما في الكتب. وصعد إلى السموات، وجلس عن يمين أبيه، وأيضاً يأتي في مجده ليدين الأحياء والأموات، الذي ليس لملكه إنقضاء.", "Englissh": "And on the third day He rose from the dead, according to the Scriptures. Ascended into the heavens and sits at the right hand of His Father, and He is coming again in His glory to judge the living and the dead, whose kingdom shall have no end.", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": "CreedHolyWeek"}, "path": "AgpeyaPrayersCreed"}, {"ArabicTitle": "قانون الإيمان الأرثوذكسي", "CopticTitle": undefined, "EnglishTitle": "The Orthodox Creed", "key": 321, "part": {"Arabic": "نعم نؤمن بالروح القدس، الرب المحيي المنبثق من الآب. نسجد له ونمجده مع الآب والإبن، الناطق في الأنبياء.", "English": "Yes, we believe in the Holy Spirit, the Lord, the Giver of Life, who proceeds from the Father, who, with the Father and the Son, is worshipped and glorified, who spoke by the prophets.", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": true}, "path": "AgpeyaPrayersCreed"}, {"ArabicTitle": "قانون الإيمان الأرثوذكسي", "CopticTitle": undefined, "EnglishTitle": "The Orthodox Creed", "key": 322, "part": {"Arabic": "وبكنيسة واحدة مقدسة جامعة رسولية. ونعترف بمعمودية واحدة لمغفرة الخطايا.", "English": "And in one holy, catholic and apostolic Church. We confess one baptism for the remission of sins.", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": true}, "path": "AgpeyaPrayersCreed"}, {"ArabicTitle": "قانون الإيمان الأرثوذكسي", "CopticTitle": undefined, "EnglishTitle": "The Orthodox Creed", "key": 323, "part": {"Arabic": "وننتظر قيامة الأموات وحياة الدهر الآتي. آمين.", "Arabiccoptic": "تين جوشت ايفول خا اتهي انتي آناسطاسيس انتي نيريف موؤوت . نيم بي اونخ انتي بي اؤون اثنيو آمين", "Coptic": "Tenjou
+]t `ebol =a `t\\h `n;`anactacic `nte nirefmwout nem piwn= `nte pi`ewn eqnhou. `Amhn.", "English": "We look for the resurrection of the dead, and the life of the age to come. Amen.", "Englishcoptic": "Ten gosht evol kha et-hi enti anastasis ente ni ref-mo-oot nem pi-onkh ente pi e-on thneo Amen.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "AgpeyaPrayersCreed"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 324, "part": {"Arabic": "طلبة الختام", "Coptic": "Amhn. Kurie `ele`hcon", "English": "The Concluding Litany", "Path": "PraisesPraisesConclusion", "Side": "Title", "Switch": undefined, "Type": "Title", "rule": -1, "visible": 0}}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 325, "part": {"Arabic": "(آمين, كيريي ليسون (3", "Arabiccoptic": "(آمين, كيريي ليسون (3", "Coptic": "Amhn. Kurie `ele`hcon (3).", "English": "Amen. Kerie leysoun (3).", "Englishcoptic": "Amen. Kerie leysoun (3).", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 326, "part": {"Arabic": "يا الله إرحمنا.", "Arabiccoptic": "إفنوتى ناى نان.", "Coptic": "Vnou; nai nan.", "English": "O God have mercy on us", "Englishcoptic": "Efnoti nai nan.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 327, "part": {"Arabic": "يا الله إسمعنا.", "Arabiccoptic": "إفنوتى سوتيم إيرون.", "Coptic": "Vnou; cwtem `eron.", "English": "O God hear us.", "Englishcoptic": "Efnoti sotem eron.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 328, "part": {"Arabic": "يا الله أنظر إلينا.", "Arabiccoptic": "إفنوتى سومس إيرون.", "Coptic": "Vnou; comc `eron.", "English": "O God look at us.", "Englishcoptic": "Efnoti soms eron.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 329, "part": {"Arabic": "يا الله إطلع علينا", "Arabiccoptic": "إفنوتى جوشت إيرون.", "Coptic": "Vnou; jou
+]t `eron.", "English": "O God behold us.", "Englishcoptic": "Efnoti goosht eron.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 330, "part": {"Arabic": "ياالله تراءف علينا", "Arabiccoptic": "إفنوتى شينهيت خارون.", "Coptic": "Vnou;
+]en\\ht =aron.", "English": "O God have compassion on us.", "Englishcoptic": "Efnoti shenheet kharon.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 331, "part": {"Arabic": "نحن شعبك.", "Arabiccoptic": "أنون خا بيك لاؤس.", "Coptic": "Anon =a peklaoc.", "English": "We are Your people.", "Englishcoptic": "Anon kha peklaos.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 332, "part": {"Arabic": "نحن جبلتك.", "Arabiccoptic": "أنون خا بيك إبلازما.", "Coptic": "Anon =a pek`placma.", "English": "We are Your creation.", "Englishcoptic": "Anon kha pek-eplasma.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 333, "part": {"Arabic": "نجنا من أعدائنا.", "Arabiccoptic": "ناهمين إيفول خين نين جاجى.", "Coptic": "Na\\men `ebol =en nenjaji.", "English": "Deliver us from our enemies.", "Englishcoptic": "Nahmen evol khen nen-gaji.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 334, "part": {"Arabic": "نجنا من الغلاء.", "Arabiccoptic": "ناهمين إيفول ها أو إهفون.", "Coptic": "Na\\men `ebol \\a ou`\\bwn.", "English": "Deliver us from   inflation.", "Englishcoptic": "Nahmen evol ha oo-ehvon.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 335, "part": {"Arabic": "نحن عبيدك.", "Arabiccoptic": "أنون خا نيك إفي أيك.", "Coptic": "Anon =a nek`ebiaik.", "English": "We are Your servants.", "Englishcoptic": "Anon kha nek-evi-aik.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 336, "part": {"Arabic": "أنت إبن الله.", "Arabiccoptic": "إيوس ثيؤس إنثوك.", "Coptic": "` Uioc qeoc `nqok.", "English": "You are the Son of God.", "Englishcoptic": "Eios theos enthok.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 337, "part": {"Arabic": "آمنا بك.", "Arabiccoptic": "أن ناهتى إيروك.", "Coptic": "Anna\\; `erok.", "English": "We believe in You.", "Englishcoptic": "Annahti erok.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 338, "part": {"Arabic": "لأنك ولدت وخلصتنا.", "Arabiccoptic": "جى افماسك أكسوتى إممون.", "Coptic": "Je aumack akcw; `mmon.", "English": "For You have were born and saved us.", "Englishcoptic": "Je avmask aksoti emmon.", "Rule": "standardPsalmody", "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 339, "part": {"Arabic": "تعهدنا بخلاصك.", "Arabiccoptic": "جيم بين شينى خين بيك أوجاى.", "Coptic": "Jempen
+]ini =en pekoujai.", "English": "Visit us with Your salvation.", "Englishcoptic": "Jempen-shini khen pek-oogai.", "Rule": 0, "Side": "South", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "طلبة الختام", "CopticTitle": "Amhn. Kurie `ele`hcon", "EnglishTitle": "The Concluding Litany", "key": 340, "part": {"Arabic": "وأغفر لنا خطايانا", "Arabiccoptic": "أووه كانين نوفي نان أفول", "Coptic": "Ouo\\ xa nennobi nan ebol", "English": "And forgive us our sins.", "Englishcoptic": "Owoh ka nen novi nan evol", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "PraisesPraisesConclusion"}, {"ArabicTitle": "قدوس قدوس قدوس", "CopticTitle": undefined, "EnglishTitle": "Holy, Holy, Holy", "key": 341, "part": {"Arabic": "قدوس قدوس قدوس", "Coptic": undefined, "English": "Holy, Holy, Holy", "Path": "AgpeyaPrayersHolyHoly", "Side": "Title", "Switch": undefined, "Type": "Title", "rule": -1, "visible": 0}}, {"ArabicTitle": "قدوس قدوس قدوس", "CopticTitle": undefined, "EnglishTitle": "Holy, Holy, Holy", "key": 342, "part": {"Arabic": "قدوس، قدوس، قدوس، رب الصباؤوت. السماء والأرض مملوءتان من مجدك وكرامتك. ارحمنا يا الله الآب ضابط الكل. أيها الثالوث القدوس ارحمنا. أيها الرب إله القوات كن معنا، لأنه ليس لنا معين في شدائدنا وضيقاتنا سواك.", "English": "Holy, Holy, Holy, Lord of Sabaoth. Heaven and earth are full of Your glory and honor. Have mercy on us O God the Father the Pantocrator , O Holy Trinity, have mercy on us. O Lord, God of hosts, be with us. For we have no helper in our hardships and tribulations but You.", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": true}, "path": "AgpeyaPrayersHolyHoly"}, {"ArabicTitle": "قدوس قدوس قدوس", "CopticTitle": undefined, "EnglishTitle": "Holy, Holy, Holy", "key": 343, "part": {"Arabic": "حل واغفر واصفح لنا يا الله عن سيئاتنا، التي صنعناها بإرادتنا والتي صنعناها بغير إرادتنا، التي فعلناها بمعرفة والتي فعلناها بغير معرفة، الخفية والظاهرة. يا رب اغفرها لنا، من أجل اسمك القدوس الذي دعي علينا. كرحمتك يا رب وليس كخطايانا.", "English": "Absolve, forgive, and remit , O God , our transgressions, those which we have committed willingly and those which we have committed unwillingly, those which we have committed knowingly and those which we have committed unknowingly, the hidden and manifest, O Lord forgive us, for the sake of Your Holy name which is called upon us, let it be according to Your mercy O Lord, and not according to our sins.", "Rule": 0, "Side": "North", "Type": "Melody", "Visible": true}, "path": "AgpeyaPrayersHolyHoly"}, {"ArabicTitle": "الختام - أمين الليلويا", "CopticTitle": undefined, "EnglishTitle": "The Conclusion (Amen Alleluia) ", "key": 344, "part": {"Arabic": "الختام - أمين الليلويا", "Coptic": undefined, "English": "The Conclusion (Amen Alleluia) ", "Path": "RaisingOfIncenseRaisingofIncenseConclusion", "Side": "Title", "Switch": undefined, "Type": "Title", "rule": -1, "visible": 0}}, {"ArabicTitle": "الختام - أمين الليلويا", "CopticTitle": undefined, "EnglishTitle": "The Conclusion (Amen Alleluia) ", "key": 345, "part": {"Arabic": "الشعب: ", "Arabiccoptic": "بيلاؤس: ", "Coptic": "Pilaoc>", "English": "People: ", "Englishcoptic": "Pi-Laos: ", "Rule": 0, "Side": "People", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseRaisingofIncenseConclusion"}, {"ArabicTitle": "الختام - أمين الليلويا", "CopticTitle": undefined, "EnglishTitle": "The Conclusion (Amen Alleluia) ", "key": 346, "part": {"Arabic": "آمين هلليلويا. المجدُ للآبِ والابنِ والروحِ القدسِ، الآن وكلَّ أوانٍ وإلى دهورِ الده        هورِ. آمين.", "Arabiccoptic": "  امين الليلويا ذوكصابتري كى ايو كى اجيو بنفماتى  كي نين  كى ا اى ككى اسطوس ا اوناس طون ا اونون امين", "Coptic": "`Amhn allhlouia. Do[a Patri ke `Uiw ke `Agiw `Pneumati> ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn> `amhn.", "English": "Amen. Alleluia. Glory to the Father and to the Son and to the Holy Spirit, now and ever and unto the ages of the ages. Amen.", "Englishcoptic": "Amen Alleluia Zoxa Patri ke eio, ke agio epnevmati, ken in ke a ei ke estos ei onas ton ei o-non amen", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseRaisingofIncenseConclusion"}, {"ArabicTitle": "الختام - أمين الليلويا", "CopticTitle": undefined, "EnglishTitle": "The Conclusion (Amen Alleluia) ", "key": 347, "part": {"Arabic": "نصرخ قائلين: يا ربَّنا يسوعَ المسيح الذي ولد في بيت لحم كالأخبار النبوية.", "Arabiccoptic  c": "تين أوش ايفول إن جو إمموس جي أوبين شويس إيسوس بخرستوس   في ايطاف ماسف خين بيتليئيم : كاطا ني اسمي ام ابروفيتيكون  .", "Coptic": "Tenw
+] `ebol enjw `mmoc> je `w Pensoic Ihcouc Pi`xrictoc. `Vh`etaumacf =en Bhqleem kata ni`cmh `m`provhtikon.", "English": "We proclaim and say, O our Lord Jesus Christ,  Who was born in Bethlehem, according to the prophetic sayings. ", "Englishcoptic": "Ten osh evol engo emmos ge open shois isos piekhristos Vi-etaf masf khen Vethle-eem , kata ni esmi em epro-phitikon. ", "Rule": "standardPsalmody", "Side": "North", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseRaisingofIncenseConclusion"}, {"ArabicTitle": "الختام - أمين الليلويا", "CopticTitle": undefined, "EnglishTitle": "The Conclusion (Amen Alleluia) ", "key": 348, "part": {"Arabic": "خَلِّصْنا وارحَمْنا*.", "Arabiccoptic": " سوتي إممون اووه ناي نان ", "Coptic": "C     Cw; `mmon ouo\\ nai nan. ", "English": "Save us and have mercy on us.", "Englishcoptic": "Soti em-mon owho nai nan", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseRaisingofIncenseConclusion"}, {"ArabicTitle": "الختام - أمين الليلويا", "CopticTitle": undefined, "EnglishTitle": "The Conclusion (Amen Alleluia) ", "key": 349, "part": {"Arabic": " ياربُّ ارحَم. ياربُّ ارحَم. يا ربُّ بارك. آمين", "Arabiccoptic": " كيري إليصون كيري إليصون : كيري إف       فلوجيسون امين ", "Coptic": "Kurie `ele`hcon> Kurie `ele`hcon> Kurie euloghcon `amhn.", "English": " Lord have mercy. Lord have mercy. Lord bless. Amen.", "Englishcoptic": "Keryalison keryalison kerie evlogi-swn amen,
+", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseRaisingofIncenseConclusion"}, {"ArabicTitle": "الختام - أمين الليلويا", "CopticTitle": undefined, "EnglishTitle": "The Conclusion (Amen Alleluia) ", "key": 350, "part": {"Arabic": "باركوا علَيَّ. [باركوا علَيَّ.
+] ها مطانية. اغفروا لي. قُلْ البركةَ.", "Arabiccoptic": "إسمو إيرو        وي إسمو إيروي : إس تي ميطانيا كوني إيفول جو إمبي إسمو  .", "Coptic": "`Cmou `eroi> `cmou `eroi> ic ;metanoia> xw nhi `ebol> jw `mpi`cmou.", "English": "Bless me. [Bless me.
+] Lo, the repentance. Forgive me. Say the blessing.", "Englishcoptic": "Esmo eroi esmo eroi, esti metania koni evol go empi esmo", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseRaisingofIncenseConclusion"}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 351, "part": {"Arabic": "البركة القصيرة", "Coptic": undefined, "English": "The Short Blessing ", "Path": "RaisingOfIncenseShortBlessing", "Side": "Title", "Switch": undefined, "Type": "Title", "rule": -1, "visible": 0}}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 352, "part": {"Arabic": "الكاهن: ", "Arabiccoptic": "بي أويب: ", "Coptic": "Piouhb>", "English": "Priest: ", "Englishcoptic": "Pi-oweeb: ", "Rule": 0, "Side": "Priest", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseShortBlessing"}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 353, "part": {"Arabic": "المسيح الهنا", "Arabiccoptic": "بخريستوس بين نوتى", "Coptic": "Pi`xrictoc Pennou;", "English": "O Christ our God", "Englishcoptic": "Pikhristos Pennouty", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseShortBlessing"}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 354, "part": {"Arabic": "الشعب: ", "Arabiccoptic": "بيلاؤس: ", "Coptic": "Pilaoc>", "English": "People: ", "Englishcoptic": "Pi-Laos: ", "Rule": 0, "Side": "People", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseShortBlessing"}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 355, "part": {"Arabic": "أمين يكون", "Arabiccoptic": "امين اس اشوبى", "Coptic": "Amhn  ec`e
+]wpi.", "English": "Amen. So be it.", "Englishcoptic": "Amen Es E shopi", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseShortBlessing"}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 356, "part": {"Arabic": "الكاهن: ", "Arabiccoptic": "بي أويب: ", "Coptic": "Piouhb>", "English": "Priest: ", "Englishcoptic": "Pi-oweeb: ", "Rule": 0, "Side": "Priest", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseShortBlessing"}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 357, "part": {"Arabic": "يا ملك السلام، أعطينا سلامك. قرر لنا سلامك وإغفر لنا خطايانا. لأن لك القوة والمجد والبركة والعزة إلى الأبد. آمين.", "Arabiccoptic": "إبؤرو إنتى تى هيرينى . موى نان إنتيك هيرينى . سيم نى نان إنتيك هيرينى . كانين نوفى نان إيفول جي ثوك تى تى جوم نيم بى أوأو نيم بى إسمو نيم بى أماهى شا إينيه أمين", "Coptic": "`Pouro `nte ;\\irhnh> moi nan `ntek\\irhnh> cemni nan `ntek\\irhnh> xa nennobi nan `ebol. Je qwk te ;jom nem pi`wou nem pi`cmou nem pi`ama\\i
+]a `ene\\. `Amhn.", "English": "O King of peace, grant us Your peace, establish for us Your peace, and forgive us our sins. For Yours is the power, the glory, the blessing, and the might, forever. Amen.", "Englishcoptic": "Eporo Ente ti Hirini, Moinan Entek Hirini, Semninan Entek Hirini, Kanen Novi Nan Evol. Je Thok te tigom , nem pi-o-oo nem pi-esmo nem pi-amahee sha eneh. Amen.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseShortBlessing"}, {"ArabicTitle": "أبانا الذي في السموات", "CopticTitle": undefined, "EnglishTitle": "Our Father Who Art in Heaven ", "key": 358, "part": {"Arabic": "أبانا الذي في السموات", "Coptic": undefined, "English": "Our Father Who Art in Heaven ", "Path": "AgpeyaPrayersOurFather", "Side": "Title", "Switch": undefined, "Type": "Title", "rule": -1, "visible": 0}}, {"ArabicTitle": "أبانا الذي في السموات", "CopticTitle": undefined, "EnglishTitle": "Our Father Who Art in Heaven ", "key": 359, "part": {"Arabic": "اجعلنا مستحقين أن نقول بشكر: ", "Arabiccoptic": "اريتين إن إميبشا إنجوس خين او شيب إيهموت", "Coptic": "`Ariten `nem`p
+]a `njoc =en ou
+]ep\\mot>", "English": "Make us worthy to pray thankfully: ", "Englishcoptic": "Ariten en-emepsha engos khen o-shep ehmot: ", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "AgpeyaPrayersOurFather"}, {"ArabicTitle": "أبانا الذي في السموات", "CopticTitle": undefined, "EnglishTitle": "Our Father Who Art in Heaven ", "key": 360, "part": {"Arabic": "الشعب: ", "Arabiccoptic": "بيلاؤس: ", "Coptic": "Pilaoc>", "English": "People: ", "Englishcoptic": "Pi-Laos: ", "Rule": 0, "Side": "People", "Type": "Base", "Visible": true}, "path": "AgpeyaPrayersOurFather"}, {"ArabicTitle": "أبانا الذي في السموات", "CopticTitle": undefined, "EnglishTitle": "Our Father Who Art in Heaven ", "key": 361, "part": {"Arabic": "أبانا الذي في السموات، ليتقدس إسمك. ليأت ملكوتك. لتكن مشيئتك، كما في السماء كذلك على الأرض.", "Arabiccoptic": "جى بينيوت إتخين نيفيؤوي : ماريف طوفو إنجيه بيكران :ماريسئي إنجيه تيك ميت أورو : بيتهناك ماريف شوبي  .  إمفريتي خين إتفى : نيم هيجين بيكاهي : ", "Coptic": "Je Peniwt et =en nivhou`i> mareftoubo `nje pekran. Marec`i `nje tekmetouro. Pete\\ nak maref
+]wpi> `m`vrh; =en `tve nem \\ijen pika\\i.", "English": "Our Father who art in heaven, hallowed be Thy name. Thy kingdom come. Thy will be done, on earth as it is in heaven.", "Englishcoptic": "Je Peniot et khen ni-feeowi: maref-toovo enje pekran. Mares-ee enje tek-met-ooro. Peteh nak marefshopi: emevreeti khen etve nem hijen pikahi.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "AgpeyaPrayersOurFather"}, {"ArabicTitle": "أبانا الذي في السموات", "CopticTitle": undefined, "EnglishTitle": "Our Father Who Art in Heaven ", "key": 362, "part": {"Arabic": "خبزنا كفافنا أعطنا اليوم. وأغفر لنا ذنوبنا، كما نغفر نحن أيضاً للمذنبين إلينا.", "Arabiccoptic": "بيين أويك إنتى راستي :ميف نان إمفوؤو . أووه كاني إيتيرون نان إيفول : إمفريتي هون إنتين كو إيفول :إنني إيتيه أوأون إنتان إيروؤ : ", "Coptic": "Penwik `nte rac; mhif nan `mvoou. Ouo\\ xa nhet`eron nan `ebol> `m`vrh; \\wn `ntenxw `ebol `nnh`ete ouon `ntan `erwou.", "English": "Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us;", "Englishcoptic": "Penoik ente rasti meeif nan emfo-oo. Owoh ka nee et-eron nan evol: emevreeti hon enten-ko evol ennee ete oo-on entan ero-oo.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "AgpeyaPrayersOurFather"}, {"ArabicTitle": "أبانا الذي في السموات", "CopticTitle": undefined, "EnglishTitle": "Our Father Who Art in Heaven ", "key": 363, "part": {"Arabic": "ولا تدخلنا في تجربة، لكن نجنا من الشرير. بالمسيح يسوع ربنا، لأن لك الملك والقوة والمجد إلى الأبد. آمين.", "Arabiccoptic": "أووه إمبير إنتين إيخون إبي رازموس أللا ناهمين إيفول هابي بيتهوؤو : خين بي خريستوس إيسوس بينشويس : جى ثوك تى تي ميت أورو نيم تي جوم :نيم بي أوأو شا إينيه أمين", "Coptic": "Ouo\\ `mperenten `e=oun `epiracmoc> alla na\\men `ebol \\a pipet\\wou. +en Pi`xrictoc Ihcouc Pensoic> je qwk te ;metouro nem ;jom nem pi`wou
+]a `ene\\. `Amhn.", "English": "And lead us not into temptation, but deliver us from the evil one. In Christ Jesus our Lord, for Thine is the kingdom and the power and the glory forever. Amen.", "Englishcoptic": "Owoh emper-enten ekhoon epi-rasmos: alla nahmen evol ha pi-pet-ho-oo. Khen Pekhristos Isos Penchois: je thok te ti-metooro nem tigom nem pi-o-oo sha eneh. Ameen.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "AgpeyaPrayersOurFather"}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 364, "part": {"Arabic": "البركة القصيرة", "Coptic": undefined, "English": "The Short Blessing ", "Path": "RaisingOfIncenseShortBlessing2", "Side": "Title", "Switch": undefined, "Type": "Title", "rule": -1, "visible": 0}}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 365, "part": {"Arabic": "الكاهن: ", "Arabiccoptic": "بي أويب: ", "Coptic": "Piouhb>", "English": "Priest: ", "Englishcoptic": "Pi-oweeb: ", "Rule": 0, "Side": "Priest", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseShortBlessing2"}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 366, "part": {"Arabic": "محبة الله الآب، ونعمة الإبن الوحيد، ربنا وإلهنا وملكنا ومخلصنا يسوع المسيح، وشركة وموهبة الروح القدس تكون مع جميعكم. إمضوا بسلام، سلام الرب مع جميعكم.", "Arabiccoptic": "إى آغابي تو ثيؤو كيه باتروس : كيه إي خاريستوو مونوجينوس : إيوو كيريوو ذيه كيه ثيؤو كيه سوتيروس إيمون إيسو خريستوو : كيه إي كينونيا كيه إي ذوريآ تو أجيو إبنيفما طوس إى إي ميطا باندون إيمون. ماشينوتين خين او هيريني إت هيريني امبشويس نيموتين تيرو .", "Coptic": "`H  `agaph tou Qeou ke Patroc> ke `h xarictou monogenouc Uiou Kuriou de ke Qeou ke Cwthroc `hmwn> Ihcou `Xrictou> ke `h koinwnia ke `h dwre`a tou `Agiou `Pneumatoc> `i`h meta pantwn `umwn. Ma
+]enwten +en ouhirhnh> `t\\irhnh `m`Psoic nemwten throu.", "English": "The love of God the Father; the grace of the only-begotten Son, our Lord, God, and Savior Jesus Christ; and the communion and gift of the Holy Spirit be with you all. Go in peace. The peace of the Lord be with you all.", "Englishcoptic": "Ee  aghapee too The-oo ke Patros: ke ee kharistoo mono-genos Eioo Kirioo ze ke Theoo ke Soteeros eemon: Iso Ekhristo: ke ee kononia ke ee zo-re-a too Agioo Epnevmatos: E-ee meta panton imon. Masheno-ten Khen oo-eeriny et-hireenee emEpchois nemoten teeroo.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseShortBlessing2"}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 367, "part": {"Arabic": "الشعب: ", "Arabiccoptic": "بيلاؤس: ", "Coptic": "Pilaoc>", "English": "People: ", "Englishcoptic": "Pi-Laos: ", "Rule": 0, "Side": "People", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseShortBlessing2"}, {"ArabicTitle": "البركة القصيرة", "CopticTitle": undefined, "EnglishTitle": "The Short Blessing ", "key": 368, "part": {"Arabic": "مع روحك أيضاً.", "Arabiccoptic": "كيتو إبنيفماتي سو", "Coptic": "Ke tw `pneumati cou.", "English": "And withh your spirit.", "Englishcoptic": "Ke to epnevmati soo.", "Rule": 0, "Side": "North", "Type": "Base", "Visible": true}, "path": "RaisingOfIncenseShortBlessing2"}, {"ArabicTitle": "", "CopticTitle": "", "EnglishTitle": "", "key": 369, "part": {"Arabic": " العودة", "English": "Return", "Path": "", "Rule": "PopPage", "Type": "Button", "Visible": true}}]

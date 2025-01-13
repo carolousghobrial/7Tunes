@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, memo } from "react";
 import {
   View,
   Text,
@@ -9,13 +9,13 @@ import {
   StyleSheet,
   TouchableOpacity,
 } from "react-native";
-import images from "../helpers/imageHelpers";
-import Languages from "../constants/languages";
-import { useDispatch, useSelector } from "react-redux";
+import images from "../../helpers/imageHelpers";
+import Languages from "../../constants/languages";
+import { useSelector } from "react-redux";
 
 const { width: viewportWidth, height: viewportHeight } =
   Dimensions.get("window");
-const saintsFeastsCalendar = require("../assets/json/saintsFeastsCalendar.json");
+const saintsFeastsCalendar = require("../../assets/json/saintsFeastsCalendar.json");
 
 const newData = Object.keys(saintsFeastsCalendar).map((saint) => ({
   key: saint,
@@ -28,20 +28,27 @@ const VenerationSelectionScreen = () => {
   const appLanguage = useSelector((state) => state.settings.appLanguage);
 
   const handleScroll = (event) => {
-    const contentOffsetX = event.nativeEvent.contentOffset.x;
-    const index = Math.round(contentOffsetX / (viewportWidth / 2));
+    const index = Math.round(
+      event.nativeEvent.contentOffset.x / (viewportWidth / 2)
+    );
     setActiveIndex(index);
   };
 
   const handleSelect = (key) => {
-    setSelectedItems((prevItems) =>
-      prevItems.includes(key)
-        ? key !== "ST_MARY"
-          ? prevItems.filter((item) => item !== key)
-          : prevItems
-        : [...prevItems, key]
-    );
+    if (selectedItems.length < 3) {
+      setSelectedItems((prevItems) =>
+        prevItems.includes(key)
+          ? key !== "ST_MARY"
+            ? prevItems.filter((item) => item !== key)
+            : prevItems
+          : [...prevItems, key]
+      );
+    }
   };
+
+  const renderSelectedItem = ({ item }) => (
+    <Text style={styles.selectedItemText}>{Languages[appLanguage][item]}</Text>
+  );
 
   return (
     <View style={styles.container}>
@@ -50,11 +57,8 @@ const VenerationSelectionScreen = () => {
         <FlatList
           style={styles.selectedItemsList}
           data={selectedItems}
-          renderItem={({ item }) => (
-            <Text style={styles.selectedItemText}>
-              {Languages[appLanguage][item]}
-            </Text>
-          )}
+          renderItem={renderSelectedItem}
+          showsHorizontalScrollIndicator={true}
           keyExtractor={(item) => item}
         />
       </View>
@@ -76,6 +80,8 @@ const VenerationSelectionScreen = () => {
                 styles.slide,
                 selectedItems.includes(item.key) && styles.selectedSlide,
               ]}
+              accessible
+              accessibilityLabel={`Select ${Languages[appLanguage][item.key]}`}
             >
               <Image source={item.img} style={styles.image} />
               <Text style={styles.title}>
@@ -104,29 +110,25 @@ const VenerationSelectionScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "flex-end",
-    alignItems: "center",
     paddingVertical: 20,
-    backgroundColor: "#F5F5F5", // Light background color
+    backgroundColor: "#F5F5F5",
   },
   header: {
-    position: "absolute",
-    top: 20,
-    alignSelf: "center",
     alignItems: "center",
+    marginBottom: 20,
   },
   headerText: {
     fontSize: 24,
     fontWeight: "bold",
-    color: "#333", // Darker text color
+    color: "#333",
     marginBottom: 10,
   },
   selectedItemsList: {
     backgroundColor: "#FFF",
     borderRadius: 10,
     padding: 10,
-    elevation: 2, // Shadow for Android
-    shadowColor: "#000", // Shadow for iOS
+    elevation: 2,
+    shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 8,
@@ -134,13 +136,13 @@ const styles = StyleSheet.create({
   selectedItemText: {
     fontSize: 16,
     fontWeight: "600",
-    color: "#007AFF", // Accent color
+    color: "#007AFF",
   },
   carouselContainer: {
-    width: viewportWidth,
-    height: viewportHeight * 0.4,
+    height: viewportHeight * 0.35, // Reduce the height for a closer fit
     justifyContent: "center",
     alignItems: "center",
+    marginTop: 10, // Add margin to lift it slightly
   },
   scrollViewContent: {
     alignItems: "center",
@@ -150,25 +152,25 @@ const styles = StyleSheet.create({
     width: viewportWidth / 2,
     justifyContent: "center",
     alignItems: "center",
+    marginHorizontal: 10,
     padding: 10,
     borderRadius: 10,
-    marginHorizontal: 10,
     backgroundColor: "#FFF",
-    elevation: 3, // Shadow for Android
-    shadowColor: "#000", // Shadow for iOS
+    elevation: 3,
+    shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 8,
   },
   selectedSlide: {
-    backgroundColor: "#E6F7FF", // Light blue background for selected slide
+    backgroundColor: "#E6F7FF",
     borderColor: "#007AFF",
     borderWidth: 2,
   },
   image: {
-    resizeMode: "contain",
     width: "80%",
     height: "50%",
+    resizeMode: "contain",
     borderRadius: 10,
   },
   title: {
@@ -176,21 +178,21 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     marginTop: 10,
-    color: "#333", // Darker text color
+    color: "#333",
   },
   pagination: {
     flexDirection: "row",
-    position: "absolute",
-    bottom: 10,
+    position: "relative", // Change from absolute to relative
+    marginTop: 10, // Space from the bottom of the carousel
     alignSelf: "center",
   },
   dot: {
     width: 8,
     height: 8,
     borderRadius: 4,
-    backgroundColor: "#007AFF", // Accent color
+    backgroundColor: "#007AFF",
     marginHorizontal: 4,
   },
 });
 
-export default VenerationSelectionScreen;
+export default memo(VenerationSelectionScreen);

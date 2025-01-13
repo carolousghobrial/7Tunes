@@ -285,7 +285,14 @@
       "Coptic": "Twb\\ `mP_ `e`\\rhi `ejwn >kuri `Klaudioc nem Qe`odwroc > nem `apa `Cxuron nem `apa `Icaak > `ntefxa nen nobi nan `ebol .",
       "English": "Pray to the Lord on our behalf. Lord Claudius and Theodore, Abba Eschyron and Abba Isaac, that He may forgive us our sins.",
       "Arabiccoptic": "طوبه ام ابشويس ااهرى ايجون. كيرى إكلافذيوس نيم ثيؤدوروس . نيم أبا إسخيرون نيم أبا إيسآك. انتيف كانين نوفى نان ايفول.",
-      "Englishcoptic": "Tovhem-epshois e-ehri egon, Kiri Ekladios nem Theodoros, nem Abbas-khiron nem Abba lssac, entef ka nen-novi nan evol."
+      "Englishcoptic": "Tovhem-epshois e-ehri egon, Kiri Eklavdios nem Theodoros, nem Abbas-khiron nem Abba lssac, entef ka nen-novi nan evol."
+    },
+    {
+      "Type": "Button",
+      "Arabic": "نهاية المجمع",
+      "English": "Skip to the End of Commemoration",
+      "Rule": "SkipTasbehaCommemoration",
+      "Visible": true
     },
     {
       "Type": "Base",

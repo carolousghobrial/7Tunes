@@ -28,6 +28,7 @@ const homescreenPaths = {
   LiturgyLiturgyOfTheBelieversWatosAspasmos: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/watosAspasmosMenu.json"),
   LiturgyLiturgyOfTheBelieversFractions: require("../assets/json/books/booksTable/Liturgies/HolyLiturgy/fractions.json"),
 
+  matrimony: require("../assets/json/books/booksTable/SpecialEvents/matrimony.json"),
   liturgyMenu: require("../assets/json/menuJson/liturgy/liturgyMenu.json"),
   pascha: require("../assets/json/menuJson/pascha/pascha.json"),
   saintsMelodies: require("../assets/json/books/booksTable/Venerations/saintsmelodies.json"),

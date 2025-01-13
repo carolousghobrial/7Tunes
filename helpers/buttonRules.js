@@ -59,6 +59,11 @@ function useButtonRules(item, motherSource, flatListRef, viewData, router) {
     );
     flatListRef.current.scrollToIndex({ index: index - 7, animated: false });
   };
+  const SkipTasbehaCommemoration = () => {
+    const index = viewData.findIndex((part) => part.part.Path === "doxologies");
+    console.log(index);
+    flatListRef.current.scrollToIndex({ index: index - 4, animated: false });
+  };
 
   return {
     OpenTheotokiaButtonRule: openBookScreen,
@@ -67,6 +72,7 @@ function useButtonRules(item, motherSource, flatListRef, viewData, router) {
     OpenPageButtonRule: openBookScreen,
     OpenNewPageButtonRule: () => openBookScreen(true),
     ThokTeTiGomScrollUpButtonRule,
+    SkipTasbehaCommemoration: SkipTasbehaCommemoration,
     SkipShortLitanies: SkipShortLitanies,
     OpenSinglePageButtonRule: openViewSingleHymn,
     PopPage: () => router.back(),

@@ -1,0 +1,53 @@
+{
+    "Main": [
+        {
+            "Type": "MainTitle",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "Title",
+            "Arabic": "طقس صلاة الإكليل",
+            "English": "The Sacrement of Matrimony"
+        },
+        {
+            "Type": "Accordion",
+            "Arabic": "السلام لمريم (شيرى ماريا)",
+            "English": "Hail to Mary (Shere Maria)",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "VenerationShereMaria"
+        },
+        {
+            "Type": "Accordion",
+            "Arabic": "(7) ثيؤطوكية الأحد",
+            "English": "Sunday Theotokia (7)",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "TheotokiasSundaySunday7"
+        },
+        {
+            "Type": "Main",
+            "Path": "VenerationEporo",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseKhenPikhristos",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseThanksgivingPrayer",
+            "Rule": 0,
+            "Visible": true,
+            "mother": "matins"
+        }
+    ]
+}

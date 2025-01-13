@@ -207,11 +207,7 @@ const App = () => {
         <FlatList
           data={books}
           renderItem={({ item }) => (
-            <BookView
-              item={item}
-              onClick={() => handleBookClick(item)}
-              onLongPress={() => {}}
-            />
+            <BookView item={item} onClick={() => handleBookClick(item)} />
           )}
           numColumns={2}
           keyExtractor={(item) => item.BookPath}
