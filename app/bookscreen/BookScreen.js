@@ -173,20 +173,43 @@ const BookScreen = () => {
   const contentsClose = () => contentsSheetRef?.current.dismiss();
 
   const scrollToKey = (key) => {
-    const targetIndex = values[0].findIndex(
-      ({ key: itemKey }) => itemKey === key.key
-    );
+    try {
+      const targetIndex = values[0]?.findIndex(
+        ({ key: itemKey }) => itemKey === key.key
+      );
 
-    if (targetIndex === -1) return; // Exit if the key is not found
+      if (targetIndex === -1) return; // Exit if the key is not found
 
-    setIsLoading(true); // Start loading
+      setIsLoading(true); // Start loading
 
-    // Check if data needs to be loaded
-    if (targetIndex >= bookContents.length) {
-      loadDataUntilIndex(targetIndex);
-    } else {
-      // Scroll directly if data is already loaded
-      scrollToIndex(targetIndex);
+      if (targetIndex >= bookContents.length) {
+        // Load data until the target index if not already loaded
+        loadDataUntilIndex(targetIndex);
+      } else {
+        // Scroll directly if data is already loaded
+        scrollToIndex(targetIndex);
+      }
+    } catch (error) {
+      console.error("An error occurred in scrollToKey:", error);
+
+      try {
+        console.log("Attempting recovery: scrolling to the bottom.");
+        scrollToIndex(bookContents.length - 1); // Scroll to the bottom
+
+        // Retry scrolling to the target key
+        setTimeout(() => {
+          const targetIndex = values[0]?.findIndex(
+            ({ key: itemKey }) => itemKey === key.key
+          );
+          if (targetIndex !== -1) {
+            scrollToIndex(targetIndex);
+          } else {
+            console.warn("Key still not found after recovery attempt.");
+          }
+        }, 500); // Delay to ensure smooth recovery
+      } catch (recoveryError) {
+        console.error("Recovery attempt failed:", recoveryError);
+      }
     }
   };
 

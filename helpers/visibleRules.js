@@ -72,7 +72,7 @@ const NativityFeastAndFast = (motherSource, path) => {
     case "NATIVITY_FAST":
     case "NATIVITY":
     case "NATIVITY_SECONDDAY":
-    case "NATIVITY_SECONDDAY":
+    case "NATIVITY_PERIOD":
       return true;
 
     default:
