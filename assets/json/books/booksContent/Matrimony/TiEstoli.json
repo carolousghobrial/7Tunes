@@ -1,0 +1,63 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "CopticTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الحُلة الروحانية، المُلتحف بها ميخائيل، والمَنطَقة الجوهرية، تمنطق بها ميخائيل.",
+      "Coptic": ":`ctolh `m`pneumatikon> au;\\iwtf `mMixahl> ouo\\ pi=wk `mmargarithc> aumhr `mMixahl `mmof.",
+      "English": "The spiritual raiment, covers Michael, and the girdle of jewels, Michael has put on.",
+      "Arabiccoptic": "تيإستولي إمإبنيفماتيكون: افتيهيووتف إمميخايل: أووه بيخووك إممارغاريتيس: افمير إمميخايل إمموف.",
+      "Englishcoptic": "Tiestolee emep-nevmati-kon: avti-hiootf emmikhaeel: owoh pi-khook emmargharitees: avmeer emmikhaeel emmof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "حُلَّة العفاف، أُعطيت لهذا العريس، وإكليل البهجة، وُضع على رأسه.",
+      "Coptic": ":`ctolh `noucwvrocunh authic `ejen pai]elet> ouo\\ pi`xlom `nte `pqelhl> authif `ejen tef`ave.",
+      "English": "The raiment of chastity, has been given to this bridegroom, and the crown of joy, has been placed upon his head.",
+      "Arabiccoptic": "تيإستولي إنأوسووفروسيني افتييس إيجين بايشيليت: أووه بيإخلوم إنتي إبثيليل: افتييف إيجين تيف افي.",
+      "Englishcoptic": "Tiestolee en-oosoofroseen-ee avteeis -ejen- paishelet: owoh pi-ekhlom en-te eptheleel: avteeif -ejen- tef-afe."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مثل الذي قاله، داود المرتل، \"مجداً وكرامة، جعلتها تاجاً عليه.\"",
+      "Coptic": "Kata `vrh; `etafjoc> `nje Dauid pi\\umnodoc> je ou`wou nem outaio> akthitou `nou`xlom `ejwf.",
+      "English": "As it is said by, David the Psalmist, \"You have made glory and honor, a crown for him\".",
+      "Arabiccoptic": "كاتا إفريتي إيتافجوس: إنجي دافيز بيهيمنوزوس: جي أو ؤو نيم أوتايو: اكتييتأو إنأوإخلوم إيجووف.",
+      "Englishcoptic": "Kata efreeti -etaf-gos: en-je Daviz pi-heemnozos: je oo-o-oo nem ootaio: akteeitoo en-ooekhlom -egoof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أدركته، ببركة صلاحك، ووضعت على رأسه إكليلاً، من حجرٍ كريم.",
+      "Coptic": "Aker]orp `erof> =en pi`cmou `nte tekmet`xrhctoc> akxw \\ijwf `nou`xlom> `ebol =en ou`wni eftai`hout.",
+      "English": "You have manifested to him, the blessing of Your kindness, and placed upon his head, a crown of precious stone.",
+      "Arabiccoptic": "أكيرشورب إيروف: خين بيإسمأو إنتي تيكميتإخريستوس: اكخوو هيجووف إنأوإخلوم: إيفول خين أو ووني إيف تاي يأوت.",
+      "Englishcoptic": "Akershorp -erof: khen pi-esmoo ente tekmetekhreestos: akkhoo higoof enooekhlom: evol khen oo-ooni eftai-eeoot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سألك حياة يا رب، فأعطيته، طول الأيام، إلى أبد الآبدين آمين.",
+      "Coptic": "Af`eretin `mmok `nouwn= `Psoic> ouo\\ akthif naf> `vouei `nte \\an`e\\oou> ]a `ene\\ `nte pi`ene\\ `amhn.",
+      "English": "He asked You for, life O Lord, and You granted it to him, to the furthest age. Amen.",
+      "Arabiccoptic": "أفإيريتين إمموك إنأووونخ إبتشويس: أووه اكتييف ناف: إفأويي إنتي هانإيهوأو: شا إينيه إنتي بيإينيه  امين.",
+      "Englishcoptic": "Af-ereti-n emmok en-o-oonkh Epchois: owoh akteeif naf: efooei en-te han-eho-oo: sha -en-eh en-te pi-en-eh -ameen-."
+    }
+  ]
+}

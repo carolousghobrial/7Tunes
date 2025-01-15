@@ -52,6 +52,12 @@
         },
         {
             "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseTheophanyParamoun",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordActsResponsesActsResponseTheophany",
             "Rule": 0,
             "Visible": "isSeason"

@@ -23,6 +23,18 @@
         },
         {
             "Type": "Main",
+            "Path": "TheotokiasPsalisCircumcisionAdam",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasPsalisWeddingCanaAdam",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LentPraisesMidnightPraisesHymnsAdamPsali",
             "Rule": 0,
             "Visible": "isLenten"

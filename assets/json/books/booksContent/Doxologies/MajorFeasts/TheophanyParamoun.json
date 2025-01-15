@@ -1,0 +1,96 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ذكصولوجية برمون عيد الغطاس",
+  "EnglishTitle": "Theophany Feast Paramoun Doxology ",
+  "CopticTitle": "Ouni]; `mmucthrion",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "سِر عظيم، الذي أعلنه لك، يا يوحنا السابق، إبن زكريا.",
+      "Coptic": "Ouni]; `mmucthrion> `etafouon\\f nak `ebol> `w Iwannhc pi`prodromoc> `p]hri `nⲌaxariac.",
+      "English": "A great mystery, was revealed to you, O John the forerunner, the son of Zacharias.",
+      "Arabiccoptic": "أونيشتي إمميستيريون: إيتافأوونهف ناك إيفول:  وو إيوواننيس بيإبروزروموس: إبشيري إنⲌاخارياس.",
+      "Englishcoptic": "Oooni-shti emmeesteerion: -etaf-o-oonhf nak evol: -oo Iooannees pi-eprozromos: epsheeri en-Ⲍakharias."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " فم الله شهد لك، أيها المعمدان، \"ليس مَنْ يشبهك، في مواليد النساء.\"",
+      "Coptic": " Rwf `m``Vnou; afermeqre> =arok `w piref;wmc> je `mmon vhettenqwnt `erok> =en nimici `nte ni\\iomi.",
+      "English": "+ The mouth of God witnessed, to you O Baptizer, \"No one is like you, among those born of women.\"",
+      "Arabiccoptic": "رووف إمإفتي افيرميثري: خاروك  وو بيريفتيوومس: جي إممون فييتتينثوونت إيروك: خين نيميسي إنتي نيهيومي.",
+      "Englishcoptic": "Roof emeVti afermethre: kharok -oo pi-reftiooms: je emmon vee-etten-thoont -erok: khen- ni-misi en-te ni-hiomi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنت هو كمال الأنبياء، الذين جاءوا قبل مخلصنا، لتعد طرقه، كقول أشعياء.",
+      "Coptic": "`Nqok pe `pjwk `nni`provhthc> `etau`i =ajwf `mpenCwthr> akcob; `nnefma`mmo]i> kata `pcaji `n`Hca`hac.",
+      "English": "You are the perfection of the prophets, who came before our Savior, you prepared His ways, as said by Isaiah.",
+      "Arabiccoptic": "إنثوك بي إبجووك إنني إبروفيتيس: إيتاف إي خاجووف إمبي نسووتير: اكسوبتي إنني فماإمموشي: كاتا إبساجي إن يسا ياس.",
+      "Englishcoptic": "eNthok pe epgook en-ni-epro-phetees: -etav-ee khagoof empen-Sooteer: aksobti en-nefmaemmoshi: kata epsaji en-Eesa-eeas."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " وكنت تكرز قائلاً، \"أما أنا فأعمدكم، بماء التوبة، لمغفرة الخطايا.",
+      "Coptic": " Nak \\iwi] ekjw `mmoc> je `anok men ;wmc `mmwten> =en oumwou `mmetanoia> `e`pxw `ebol `nte ninobi.",
+      "English": "+ You preached saying, \"I baptize you, with the waters of repentance, for the forgiveness of sin.",
+      "Arabiccoptic": "ناك هيوويش إيكجوو إمموس: جي  انوك مين تيوومس إممووتين: خين أومؤو إمميتانويا: إيإبخوو إيفول إنتي نينوفي.",
+      "Englishcoptic": "Nak hiooish ekgoo emmos: je -anok men ti-ooms emmooten: khen oomo-oo emmetanoia: -eepkhoo evol ente ni-novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مَنْ له ثوبان، فليعط مَنْ ليس له، والذي عنده خبز، فليصنع هكذا أيضاً.\"",
+      "Coptic": "Pete ouon tef `]qhn `cnau> ef`e; `mpete `mmon `ntaf> ouo\\ pete ouon taf `nouwik> maref`iri on `mpairh;.",
+      "English": "He who has two tunics, let him give to who has none, and he who has bread, let him do likewise.\"",
+      "Arabiccoptic": "بيتي أوون تيف إشتين إسناف: إيف إيتي إمبي تي إممون إنتاف: أووه بيتي أوون تاف إنأووويك: ماريف إيري ون إمبايريتي.",
+      "Englishcoptic": "Pete o-oon tef eshteen esnav: ef-eti empete emmon entaf: owoh pete o-oon taf eno-ooik: maref-eeri on empaireeti."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " لهذا نمدح صارخين، مع النبي قائلين، \"كل جسد ينظر، خلاص الله.\"",
+      "Coptic": " Eqbe vai tenerxwreuin> enw] `ebol nem pi`provhthc> je au`enau `nje car[ niben> `epiCwthr `nte ``Vnou;.",
+      "English": "+ Therefore we praise, proclaiming with the prophet, \"Every flesh will see, the salvation of God.\"",
+      "Arabiccoptic": "إيثفي فاي تينيرخووريفين: إينأوؤوش إيفول نيم بيإبروفيتيس: جي افإيناف إنجي ساركس نيفين: إيبيسووتير إنتي إفتي.",
+      "Englishcoptic": "Ethve vai ten-erkhoorevin: en-oosh evol nem pi-epro-phetees: je av-en-av en-je sarx ni-ven-: -epi-Sooteer en-te eVti-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنسجد لمخلصنا، الصالح محب البشر، لأنه ترأف علينا، أتى وخلصنا.",
+      "Coptic": "Marenouw]t `mpenCwthr> piMairwmi `n`agaqoc> je `Nqof af]en\\ht =aron> af`i ouo\\ afcw; `mmon.",
+      "English": "Let us worship our Savior, the good Lover of mankind, for He had compassion on us, He came and saved us.",
+      "Arabiccoptic": "مارينأوأوؤوشت إمبي نسووتير: بيمايروومي إن اغاثوس: جي إنثوف افشينهيت خارون: اف إي أووه افسووتي إممون.",
+      "Englishcoptic": "maren-o-oosht empen-Sooteer: pi-mairoomi en-aghathos: je eNthof afshen-heet kharon: af-ee owoh afsooti emmon."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " نسبحه ونمجده، ونزيده علواً، كصالح ومحب البشر، إرحمنا كعظيم رحمتك.",
+      "Coptic": " Ten\\wc `erof ten;`w`ou naf> ten`er\\ou`o sici `mmof> \\wc `Agaqoc ouo\\ `mMairwmi> nai nan kata pekni]; `nnai.",
+      "English": "+ We praise and glorify Him, and exalt Him above all, as a good One and Lover of man, have mercy upon us according to Your great mercy.",
+      "Arabiccoptic": "تينهووس إيروف تينتي وو أو ناف: تينإيرهأو و تشيسي إمموف: هووس  أغاثوس أووه إممايروومي: ناي نان كاتا بيكنيشتي إنناي.",
+      "Englishcoptic": "Ten-hoos -erof ten-ti-oo-oo naf: ten-erhoo-o chisi emmof: hoos -Aghathos owoh emmairoomi: nai nan kata pek-ni-shti- en-nai."
+    }
+  ]
+}

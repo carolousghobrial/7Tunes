@@ -1,0 +1,283 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "إبصالية واطس عيد عرس قانا الجليل ",
+  "EnglishTitle": "Wedding of Cana of Galilee Feast Watos Psali ",
+  "CopticTitle": "Aiw] `nta`cmh `e`p]wi \\arok",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "صرخت بصوتي إليك ومن كل قلبي طلبتك أعط عزاً لعبدك وخلص ابن أمتـَك.",
+      "Coptic": "Aiw] `nta`cmh `e`p]wi \\arok> =en pa\\ht thrf aikw; `ncwk> ma`p`ama\\i `mpekbwk> no\\em `p]hri `ntekbwki.",
+      "English": "I cry out to You with my voice, / seeking You with all my heart: / \"Give strength to Your servant / and save the son of Your maidservant.\"",
+      "Arabiccoptic": "أيأوؤوش إنتاإسمي إيإبشووي هاروك: خين باهيت تيرف ايكووتي إنسووك: ماإب اماهي إمبي كفووك: نوهيم إبشيري إنتيكفووكي.",
+      "Englishcoptic": "Aioosh en-taesmee -eepshooi harok: khen- paheet terf aikooti en-sook: maep-amahi empek-vook: nohem epsheeri en-tek-vooki."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كل البشرية تتطلع إليك يا محب البشر وكذلك الحيوانات لأنك أنت الذي تعطيهم طعامهم.",
+      "Coptic": "Bon niben `nte ;metrwmi> cenau `erok `w pimairwmi> `eti de nem nitebnwou`i> je `nqok eqna;`ntou `=renwou.",
+      "English": "All of humanity looks to You, / O Lover of Mankind, / and likewise the beasts, / for You feed them.",
+      "Arabiccoptic": "فون نيفين إنتي تيميتروومي: سيناف إيروك  وو بيمايروومي: إيتي زي نيم نيتيبنؤو إي: جي إنثوك إيثناتيإنتأو إخرينؤو.",
+      "Englishcoptic": "Von ni-ven ente ti-metroomi: senav -erok -oo pi-mairoomi: -eti- ze nem ni-tebno-oo-ee: je enthok ethnati-entoo ekhreno-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأنك أنت هو رجاؤنا في يوم الدينونة معيننا في شدائدنا التي أصابتنا جداً.",
+      "Coptic": " Ge gar `nqok peten\\elpic> =en pi`e\\oou `nte ;`kricic> penbo`hqoc =en nen`qluyic> `etaujemten `ema]w.",
+      "English": "Indeed, You are our hope / on judgment day / and our helper in the tribulations / that have greatly befallen us,",
+      "Arabiccoptic": "جي غار إنثوك بيتينهيلبيس: خين بيإيهوأو إنتي تيإكريسيس: بينفو يثوس خين نينإثليبسيس: إيتافجيمتين إيماشوو.",
+      "Englishcoptic": "Ge ghar en-thok peten-helpi-s: khen- pi-eho-oo en-te ti-ekrisis: pen-vo-eethos khen- nen-ethleepsis: -etavjemten- -emashoo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أيها السيد يسوع المسيح المساوي بالحقيقـة مع أبيك الصالح والروح المعزي.",
+      "Coptic": " Decpota Ihcouc Pi`xrictoc> pi`omooucioc `alhqoc> nem Pekiwt `n`agaqoc> nem pip̅n̅a̅ `mparaklhtoc.",
+      "English": "O Master, Jesus Christ, / who are truly one in essence / with Your Good Father / and the Spirit the Paraclete.",
+      "Arabiccoptic": "ديسبوتا إييسأوس بيإخريستوس: بي وموأوسيوس  اليثوس: نيم بيكيووت إن اغاثوس: نيم بيب̅ن̅ا̅ إمباراكليتوس.",
+      "Englishcoptic": "Despota Isos Pikhristos: pi-omo-oosios -aleethos: nem Pekioot en-aghathos: nem pi-p̅n̅a̅ emparakleetos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السموات تعترف بعجائبه وقدرته سبحوا الرب تسبحة جديدة سبحوا الرب يا كل الأرض.",
+      "Coptic": "Euouwn\\ `nnef`]vhri> `nje nivhou`i nem tefmetjwri> \\wc `ePsoic =en ou\\wc `mberi> \\wc `ePsoic `pka\\i thrf.",
+      "English": "The heavens reveal / His wonders and power. / Sing to the Lord a new song. / Sing to the Lord all the earth.",
+      "Arabiccoptic": "يفأووونه إنني فإشفيري: إنجي نيفيأو إي نيم تيفميتجووري: هووس إيبتشويس خين أوهووس إمفيري: هووس إيبتشويس إبكاهي تيرف.",
+      "Englishcoptic": "Evo-oonh en-nefeshfeeri: en-je ni-feeoo-ee nem tefmetgoori: hoos -ePchois khen- oohoos emveri: hoos -ePchois epkahi terf."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ستة أجران ماء حولتها خمراً مختاراً بعظم مجدك في قانا الجليل.",
+      "Coptic": "Coou (6) `n\\udri`a `mmwou> ouhrp etcwtp akou`wteb `mmwou> `ebol\\iten pekni]; `n`wou> =en Kana `nte ;Galile`a.",
+      "English": "Six water-pots / You changed into choice wine / by Your great glory / in Cana of Galilee.",
+      "Arabiccoptic": "سوأو (6) إنهيزري ا إممؤو: أويرب إيتسووتب اكأو ووتيف إممؤو: إيفولهيتين بيكنيشتي إن ؤو: خين كانا إنتي تيغاليلي ا.",
+      "Englishcoptic": "So-oo (6) en-heezri-a emmo-oo: ooeerp etsootp akoo-ootev emmo-oo: evolhiten- pek-ni-shti en-o-oo: khen- Kana en-te tiGhalile-a."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأنها كثيرة هي القوات التي صنعتها بقوتك لأنك سمعت تنهد المطروحين في القيود.",
+      "Coptic": " Ⲍeo] gar ne nijom> nh`etakaitou =en tekjom> je `akcwtem `epifi`a\\om> `nte nhet\\wou`i `mpedhc.",
+      "English": "Great is the might / You have shown through Your power / for You have heard the groan / of those who are chained.",
+      "Arabiccoptic": "Ⲍيوش غار ني نيجوم: نيإيتاكايتأو خين تيكجوم: جي  اكسووتيم إيبيفي اهوم: إنتي نييتهؤو إي إمبي زيس.",
+      "Englishcoptic": "Ⲍeosh ghar ne ni-gom: nee-etakaitoo khen tekgom: je -aksootem -epi-fi-ahom: ente nee-etho-oo-ee empezees."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أشعياء وإيليـا وموسي وأرميا دعوك ماسيا الذي تفسيره المسيح.",
+      "Coptic": " `Hca`hac nem `Hliac> nem Mw`uchc nem Ieremiac> aumou; `erok je Maciac> vh`e]au oua\\ mefje Pi`xrictoc.",
+      "English": "Isaiah and Elijah, / Moses and Jeremiah, / called You \"The Messiah,\" / which means \"The Christ.\"",
+      "Arabiccoptic": "يسا ياس نيم  يلياس: نيم موو يسيس نيم إييريمياس: افمأوتي إيروك جي ماسياس: فيإيشاف أواه ميفجي بيإخريستوس.",
+      "Englishcoptic": "-Eesa-eeas nem -Eelias: nem moo-eysees nem Ieremias: avmooti -erok je masias: fee-eshav ooah mefje Pikhristos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اجتمعوا يا جميع الشعوب أبناء الأرثوذكسيـين لنسبح المسيح أبن اللـه بالحقيقـة.",
+      "Coptic": "qwou; throu `w nilaoc> ni]hri `norqodo[oc> `nten\\wc `eIhcouc Pi`xrictoc> `p]hri `mV; =en oumeqmhi.",
+      "English": "Gather all, O people, / the children of the Orthodox, / to praise Jesus Christ, / the Son of God in truth.",
+      "Arabiccoptic": "ثؤوتي تييرو  وو نيلاوس: نيشيري إنورثوزوكسوس: إنتينهووس إيإييسأوس بيإخريستوس: إبشيري إمفتي خين أوميثميي.",
+      "Englishcoptic": "tho-ooti tero -oo ni-laos: ni-sheeri en-orthozoxos: en-ten-hoos -eIsos Pikhristos: epsheeri emFti khen- oo-methmee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "منذ الدهور وإلي الأبد أنت هو ملك الدهور كن معنا إلي الآباد لأن بك يليق المجد.",
+      "Coptic": "Icjen `p`ene\\ nem ]a `ene\\> `nqok pe `pouro `nte ni`ene\\> ]wpi neman ]a ni`ene\\> `ere pi`wou er`prepi nak.",
+      "English": "From the ages and forever, / You are the King of the ages; / be with us forever; / glory befits",
+      "Arabiccoptic": "إيسجين إبإينيه نيم شا إينيه: إنثوك بي إبأورو إنتي نيإينيه: شووبي نيمان شا نيإينيه: إيري بي ؤو إيرإبريبي ناك.",
+      "Englishcoptic": "Isjen ep-eneh nem sha -eneh: enthok pe epooro ente ni-eneh: shoopi neman sha ni-eneh: -ere pi-o-oo ereprepi nak."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "كرحمتك يا رب ارحمني وبمعرفتك علمني ارحمني يا اللـه ثم ارحمني لأن نفسي التجأت إليك.",
+      "Coptic": " Kata peknai Psoic nai nhi> =en pekemi ma`cbwnhi> nai nhi V; ouo\\ nai nhi> je acxa `\\qhc `erok `nje tayuxh.",
+      "English": "According to Your mercy, O Lord, have mercy on me. / By Your knowledge teach me. / Have mercy on me, O God, and have mercy on me, / for my soul has hoped in You.",
+      "Arabiccoptic": "كاتا بيكناي بتشويس ناي نيي: خين بيكيمي ماإسفوونيي: ناي نيي فتي أووه ناي نيي: جي اسخا إهثيس إيروك إنجي تابسيشي.",
+      "Englishcoptic": "Kata pek-nai Pchois nai neei: khen pek-emi maesvooneei: nai neei Fti owoh nai neei: je askha ehthees -erok enje tapseeshee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "كل الشعوب تحدث بتواضعك العظيم لأن وصاياك أحلي من العسل والشهـد.",
+      "Coptic": " Laoc niben euerou`w> =en pekni]; `nqebi`o> ce\\olj `\\ote pi`ebi`w> nem pinhni `nje nekentolh.",
+      "English": "All the people speak of / Your great humbleness, / for Your commandments are sweeter / than honey and honeycomb.",
+      "Arabiccoptic": "لاوس نيفين إيف يرأو وو: خين بيكنيشتي إنثيفي و: سيهولج إهوتي بيإيف ي وو: نيم بينيني إنجي نيكينتولي.",
+      "Englishcoptic": "Laos ni-ven everoo-oo: khen pek-ni-shti enthevi-o: seholg ehote pi-evi-oo: nem pi-neeni- enje nek-entolee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فليفرح قلبي باسمك أيها الرحوم لأنك إله متحنن وكثيرة هي رحمتك أيها البار.",
+      "Coptic": "Marefounof `nje pa\\ht> =a`t\\h `mpekran `w pinaht> je `nqok ounou; `nref]en\\ht> na]e peknai `wpi`qmhi.",
+      "English": "Let Your name make my heart rejoice, / O Merciful God, / for You are compassionate, / great in mercy, and righteous.",
+      "Arabiccoptic": "ماريفأونوف إنجي باهيت: خاإتهي إمبيكران  وو بينايت: جي إنثوك أونأوتي إنريفشينهيت: ناشي بيكناي  ووبيإثميي.",
+      "Englishcoptic": "marefoonof en-je paheet: khaethee empek-ran -oo pi-naeet: je en-thok oonooti en-refshen-heet: nashe pek-nai -oopi-ethmeei."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كل الأمم التي صنعتها تسجد أمام مجدك يا ربي يسوع عـزَّهم لأنك عوننا.",
+      "Coptic": "Nheqnoc throu `etakqami`wou> eu`eouw]t na\\ren pek`wou> Pasoic Ihcouc manom; nwou> je `nqok pe penbo`hqoc.",
+      "English": "All the nations that You made / will bow before Your glory; / O my Lord Jesus, comfort them / for You are our Helper.",
+      "Arabiccoptic": "نييثنوس تييرو إيتاكثامي ؤو: إيف إيأوأوؤوشت ناهرين بيك ؤو: باتشويس إييسأوس مانومتي نؤو: جي إنثوك بي بينفو يثوس.",
+      "Englishcoptic": "Nee-ethnos tero -etakthami-o-oo: ev-eo-oosht nahren pek-o-oo: Pachois Isos manomti no-oo: je enthok pe penvo-eethos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "تباركت يا يسوع المسيح مع أبيك الصالح والروح المعزي المساوي معك .",
+      "Coptic": " {marwout `w Ihcouc Pi`xrictoc> nem Pekiwt `n`agaqoc> nem pip̅n̅a̅ `mparaklhtoc> `n`omooucioc nemak.",
+      "English": "Blessed are You, O Jesus Christ, / with Your Good Father / and the Spirit, the Paraclete, / who is co-essential with You.",
+      "Arabiccoptic": "إكسمارؤوت  وو إييسأوس بيإخريستوس: نيم بيكيووت إن اغاثوس: نيم بيب̅ن̅ا̅ إمباراكليتوس: إن وموأوسيوس نيماك.",
+      "Englishcoptic": "Exmaro-oot -oo Isos Pikhristos: nem Pekioot en-aghathos: nem pi-p̅n̅a̅ emparakleetos: en-omo-oosios nemak."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ويليق بك السلطان والتماجيد الكثيرة فلنقـل آمين هلليلويا لأن المجد لإلهنا.",
+      "Coptic": " Ouo\\ ecer`prepi nak `nje ;[ouci`a> nem \\anmh] `ndo[ologi`a> marenjoc je `amhn Allhlouia> je pi`wou va pennou; pe.",
+      "English": "Dominion and many doxologies / befit You; / let us say, \"Amen Alleluia. / For the glory is due to our God.\"",
+      "Arabiccoptic": "أووه إيسيرإبريبي ناك إنجي تيكسأوسي ا: نيم هانميش إنزوكسولوجي ا: مارينجوس جي  امين ألليلأويا: جي بي ؤو فا بيننأوتي بي.",
+      "Englishcoptic": "Owoh esereprepi nak en-je ti-xoosi-a: nem hanmeesh en-zoxologi-a: maren-gos je -ameen- Alleelooia: je pi-o-oo fa pen-nooti- pe."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أعطِ خلاصاً لشعبك وكنيستك بارك ميراثك وأرعهم إلي الإنقضاء.",
+      "Coptic": "Peklaoc nem tekekklhci`a> moi nwou `noucwthri`a> `cmou `etek`klhronomi`a> ouo\\ `amoni `mmwou ]a ;cunteli`a.",
+      "English": "Grant salvation to Your people / and Your church; / bless Your inheritance, / and pasture them until the end.",
+      "Arabiccoptic": "بيكلاوس نيم تيكيككليسي ا: موي نؤو إنأوسووتيري ا: إسمأو إيتيكإكليرونومي ا: أووه  اموني إممؤو شا تيسينتيلي ا.",
+      "Englishcoptic": "Peklaos nem tekekkleesi-a: moi no-oo en-oosooteeri-a: esmoo etekekleeronomi-a: owoh -amoni emmo-oo sha ti-seen-teli-a."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "احرسنا جميعًا يا سيدنا , من كل الأفكار الرديئة الخفية , لأنك أنت هو حملنا , الكلمة ابن الأب ",
+      "Coptic": "Rwic `eron thren pennhb> `ebol\\a nimeu`i throu et\\wou et\\hp> je `nqok gar pe pen\\ihb> `nLogoc `n]hri `nte Viwt.",
+      "English": "Watch over all of us, O our Master, / from all the evil hidden thoughts / for You are our Lamb, / the Logos, the Son of the Father.",
+      "Arabiccoptic": "روويس إيرون تيرين بيننيب: إيفولها نيميف إي تييرو إيتهؤو إيتهيب: جي إنثوك غار بي بينهييب: إنلوغوس إنشيري إنتي فيووت.",
+      "Englishcoptic": "Roois -eron teeren penneeb: evolha ni-mev-ee tero etho-oo etheep: je enthok ghar pe penhieeb: enLoghos ensheeri ente Fioot."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أسمعنا واحفزنا باركنا وترأف علينا وظللنا تحت ستر جناحيك.",
+      "Coptic": " Cwtem `eron `are\\ `eron> `cmou `eron ]en\\ht =aron> eker=hibi` `e`\\rhi `ejwn> =a ;`ckeph `nte nekten\\.",
+      "English": "Hear us, keep us, / bless us, have compassion on us, / and overshadow us with / the shadow of Your wings.",
+      "Arabiccoptic": "سووتيم إيرون  اريه إيرون: إسمأو إيرون شينهيت خارون: إيكيرخييفيإ إي إهريي إيجوون: خا تيإسكيبي إنتي نيكتينه.",
+      "Englishcoptic": "Sootem -eron -areh -eron: esmoo -eron shen-heet kharon: ekerkheeivie -eehreei -egoon: kha ti-eskepee en-te nek-ten-h."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "نطلب من لطفك أيها الإبن الوحيد الجنس لأننا ضعفاء أحينا من أجل رحمتك.",
+      "Coptic": " Tentwb\\ `ntekmet`epikhc> `w `p]hri `mmonogenhc> je `anon enoi `nacqenhc> matan=on eqbe peknai.",
+      "English": "We ask of Your meekness, / O the only-begotten Son, / for we are weakening, / revive us through Your mercy.",
+      "Arabiccoptic": "تينتووبه إنتيكميتإيبيكيس:  وو إبشيري إممونوجينيس: جي  انون إينوي إناستينيس: ماتانخون إيثفي بيكناي.",
+      "Englishcoptic": "Ten-toobh en-tek-met-epi-kees: -oo epsheeri emmonogen-ees: je anon en-oi en-asten-ees: matankhon ethve pek-nai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ابن اللـه يسوع المسيح اصنع رحمة مع شعبك وحقارتي لأني مسكين وضعيف.",
+      "Coptic": "Uioc qeoc Ihcouc Pi`xrictoc> `ariounai nem peklaoc> nem tamet`elaxictoc> je `anok ou\\hki ouo\\ oujwb.",
+      "English": "O Son of God, / Jesus Christ, have mercy on / Your people and my insignificance, / for I am poor and weak.",
+      "Arabiccoptic": "ييوس ثيوس إييسأوس بيإخريستوس:  اريأوناي نيم بيكلاوس: نيم تاميتإيلاشيستوس: جي  انوك أوهيكي أووه أوجووب.",
+      "Englishcoptic": "Eeios theos Isos Pikhristos: -arioonai nem pek-laos: nem tamet-elashistos: je -anok ooheeki owoh oogoob."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نجنا يا اللـه باسمك وأسمعنا وأرحمنا وعزنا بإرادتك والذين رقدوا اذكرهم.",
+      "Coptic": "V; na\\men =en pekran> cwtem `eron ouo\\ nai nan> =en pekouw] manom; nan> nh`etauenkot `aripoumeu`i.",
+      "English": "Deliver us, O Lord, by Your name, / hear us, have mercy on us, / let Your will assure us, / and remember those who slept.",
+      "Arabiccoptic": "فتي ناهمين خين بيكران: سووتيم إيرون أووه ناي نان: خين بيكأوأوؤوش مانومتي نان: نيإيتافينكوت  اريبأوميف إي.",
+      "Englishcoptic": "Fti nahmen khen pek-ran: sootem -eron owoh nai nan: khen pek-o-oosh manomti nan: nee-etavenkot -aripoomev-ee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "أغفر لي فإني خاطئ وعلمني طرقك أنصت يا اللـه إلي دموعي والمرضي اشفهم.",
+      "Coptic": " Xw nhi `ebol je `anok ourefernobi> ma`cbwnhi `enekmitwou`i> si `cmh V; `enaermwou`i> nhet]wni matalswou.",
+      "English": "Forgive me, for I am a sinner, / and teach me Your ways; / attend, O Lord, to my tears / and heal the sick.",
+      "Arabiccoptic": "خوو نيي إيفول جي  انوك أوريفيرنوفي: ماإسفوونيي إينيكميتؤو إي: تشي إسمي فتي إينايرمؤو إي: نييتشووني ماتالتشؤو.",
+      "Englishcoptic": "Khoo neei evol je -anok oorefernovi: maesvooneei -en-ek-mito-oo-ee: chi esmee Fti -en-aermo-oo-ee: nee-etshooni matalcho-oo."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يا مخلص المسكونة يسوع ملك السلام أباركك دائماً ودائماً أبارك اسمك القدوس.",
+      "Coptic": " Ywthr `n;oikoumenh> Ihc `pouro `nte ;\\irhnh> ;na`cmou `erok `mmhni> `mmhni ;na`cmou `epekran e̅q̅u̅.",
+      "English": "O Savior of the world, / Jesus, the King of Peace, / I will praise You day by day, / I will praise Your holy name.",
+      "Arabiccoptic": "Psووتير إنتيويكأوميني: إييس إبأورو إنتي تيهيريني: تيناإسمأو إيروك إمميني: إمميني تيناإسمأو إيبيكران إي̅ث̅ي̅.",
+      "Englishcoptic": "Psooteer en-ti-oikoomen-ee: Iees epooro en-te ti-hireen-ee: ti-naesmoo -erok emmeen-i: emmeen-i ti-naesmoo -epek-ran e̅th̅ee̅."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ملك الملوك أيها الراعي العظيم أيها الاسم المملوء مجداً احفظ رؤساء (ملوك) الأرض.",
+      "Coptic": " `W `pouro `nte niourwou> `w pini]; `mman`ecwou> `w piran eqme\\ `n`wou> niourwou (niarxh) `nte `pka\\i `are\\ `erwou.",
+      "English": "O the King of kings, / O Great Shepherd, / O name full of Glory, / keep the leaders (kings) of the earth.",
+      "Arabiccoptic": "وو إبأورو إنتي نيأورؤو:  وو بينيشتي إممانإيسؤو:  وو بيران إيثميه إن ؤو: نيأورؤو (نيارشي) إنتي إبكاهي  اريه إيرؤو.",
+      "Englishcoptic": "Oo epooro en-te ni-ooro-oo: -oo pi-ni-shti emman-eso-oo: -oo pi-ran ethmeh en-o-oo: ni-ooro-oo (ni-arshee) en-te epkahi -areh -ero-oo."
+    }
+  ]
+}

@@ -23,6 +23,18 @@
         },
         {
             "Type": "Main",
+            "Path": "TheotokiasPsalisCircumcisionWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasPsalisWeddingCanaWatos",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LentPraisesMidnightPraisesHymnsSaturdayWatosPsali",
             "Rule": 0,
             "Visible": "isLenten"

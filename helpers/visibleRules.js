@@ -170,6 +170,23 @@ const FeastsAndFastsOfStMary = (motherSource, path) => {
       return false;
   }
 };
+const isLordsFeasts = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  switch (currentSeason.key) {
+    case "FEAST_OF_CIRCUMCISION":
+    case "WEDDING_CANA":
+    case "PRESENTATION_TEMPLE":
+    case "ANNUNCIATION":
+    case "ENTRY_EGYPT":
+    case "TRANSFIGURATION":
+    case "TWENTYNINTHTH_COPTIC_MONTH":
+      return true;
+
+    default:
+      return false;
+  }
+};
 const FeastsAndFastsOfStMaryAndHeavenlies = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (FeastsAndFastsOfStMary(motherSource, path)) {
@@ -355,6 +372,16 @@ const isSeason = (motherSource, path) => {
         return true;
       }
       return false;
+    case "EPIPHANY_PARAMOUN":
+      const conditions = [
+        ["theophany", "fraction"],
+        ["theophany", "agiostheophany"],
+        ["theophany", "paramoun"],
+      ];
+
+      return conditions.some((keywords) =>
+        keywords.every((keyword) => lowerPath?.includes(keyword))
+      );
     case "EPIPHANY":
     case "EPIPHANY_SECONDDAY":
       if (
@@ -1669,10 +1696,10 @@ const secondKiahkGospelResponse = (motherSource, path) => {
     case "FEAST_OF_CIRCUMCISION":
       return false;
   }
-  if (isKiahkWeek("", "Week1") || isKiahkWeek("", "Week2")) {
-    return false;
-  } else {
+  if (isKiahkWeek("", "Week3") || isKiahkWeek("", "Week4")) {
     return true;
+  } else {
+    return false;
   }
 };
 
@@ -3464,6 +3491,7 @@ const VisibleRules = {
   StandardROIConclusion: StandardROIConclusion,
   AdamConclusionDoxologies: AdamConclusionDoxologies,
   FeastsAndFastsOfStMary: FeastsAndFastsOfStMary,
+  isLordsFeasts: isLordsFeasts,
   FeastsAndFastsOfStMaryAndHeavenlies: FeastsAndFastsOfStMaryAndHeavenlies,
 };
 export default VisibleRules;

@@ -100,7 +100,7 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversFractionsLordsFeasts",
             "Rule": 0,
-            "Visible": "isSeason"
+            "Visible": "isLordsFeasts"
         },
         {
             "Type": "Main",

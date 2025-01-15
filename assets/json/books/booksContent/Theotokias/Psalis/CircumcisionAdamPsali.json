@@ -1,0 +1,272 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "إبصالية ادام عيد الختان ",
+  "EnglishTitle": "Circumcision Feast Psali Adam",
+  "CopticTitle": "Aniou`i `mPsoic",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدموا للرب، مجداً وكرامة، قدموا للرب، تسابيح الغلبة.",
+      "Coptic": "`Aniou`i `mPsoic> `nou`wou nem outai`o> `aniou`i `mPsoic> `n\\an\\umnoc `mpi`sro.",
+      "English": "Present to the Lord, glory and honor, present to the Lord, praises of victory.",
+      "Arabiccoptic": "أنيأو إي إمبشويس: إنأو ؤو نيم أوتاي و:  انيأو إي إمبشويس: إنهانهيمنوس إمبي إتشرو.",
+      "Englishcoptic": "-Ani-oo-ee emPchois: en-oo-o-oo nem ootai-o: -ani-oo-ee emPchois: en-hanheemnos empi-echro."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ارسلوا له إلي فوق دائماً، حملاناً غير ساكتة، وأناشيد جديدة، وذبائح دموية.",
+      "Coptic": "Bwrp naf `e`p]wi `mmhni> `n\\an\\ihb `natxarof> nem \\anjwm veri> nem \\anquci`a `nat`cnof.",
+      "English": "Send up unto Him always, silent lambs and new songs, and blood offerings.",
+      "Arabiccoptic": "فوورب ناف إيإبشووي إمميني: إنهانهييف إناتخاروف: نيم هانجووم فيري: نيم هانثيسي ا إناتإسنوف.",
+      "Englishcoptic": "Voorp naf -eepshooi emmeen-i: en-hanhieev en-atkharof: nem hangoom veri: nem hantheesi-a en-atesnof."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأنه خلقنا، وإذ نحن لن نكن، وطهرنا وعلمنا، طرق السماء.",
+      "Coptic": "Ge gar afqamion> ouo\\ `anon an pe> aftoubon af`tcabon> `enimwit `nte `tve.",
+      "English": "For He created us, when we were nothing, He purified and taught us, the ways of heaven.",
+      "Arabiccoptic": "جي غار افثاميون: أووه  انون ان بي: افتأوفون افإتسافون: إينيموويت إنتي إتفي.",
+      "Englishcoptic": "Ge ghar afthamion: owoh anon an pe: aftoovon afetsavon: -en-imooit en-te etve."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يقول داود، في كل حين بالحقيقة، طوبي لجميع الساكنين، في بيتك.",
+      "Coptic": "Dauid `nchou niben> efjoc =en oumeqmhi> `wouniatou `nouon niben> et]op =en pekhi.",
+      "English": "David says in truth, at all times, blessed are those who dwell, in Your house.",
+      "Arabiccoptic": "دافيز إنسيأو نيفين: إيف جوس خين أوميثميي:  ؤونياتأو إنأوون نيفين: إيتشوب خين بيكيي.",
+      "Englishcoptic": "Daviz en-seeoo ni-ven-: efgos khen- oo-methmee: -o-ooni-atoo en-o-oon ni-ven-: etshop khen- pek-eei."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أدخل إلي، مذبح الله، دائماً، وأذبح الذبائح.",
+      "Coptic": "E`i`e`i `e=oun> ]a pima`ner]wou]i> `nte `Vnou; =en oumoun> ei`e]wt `n\\an]wou]i.",
+      "English": "I will enter, to the Alter of God, at all times, and offer oblations.",
+      "Arabiccoptic": "ي إيإي إي إيخأون: شا بيماإنيرشؤوشي: إنتي فتي خين أومأون: إييإيشووت إنهانشؤوشي.",
+      "Englishcoptic": "E-ee-e-ee -ekhoon: sha pi-maen-ersho-ooshi: en-te Efnoti khen- oomoon: ei-eshoot en-hansho-ooshi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فعجباً بالحقيقة، أن المسيح محب البشر، قبل الختان، مثل البشر.",
+      "Coptic": "Ⲍe ontwc =en ou`]vhri> `aPi`xrictoc pimairwmi> ]wp `erof `mpicebi> `m`vrh; `nnirwmi.",
+      "English": "For truly it's wondrous, that Christ the lover of men, accepted circumcision, like the humans.",
+      "Arabiccoptic": "Ⲍي ونتووس خين أوإشفيري:  ابيإخريستوس بيمايروومي: شووب إيروف إمبي سيفي: إم إفريتي إنني روومي.",
+      "Englishcoptic": "Ⲍe ontoos khen ooeshveeri: -aPikhristos pi-mairoomi: shoop -erof empi-sevi: emevreeti enni-roomi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "لأن لوقا، تكلم بهذا، من أجل ماسيّا، وكتب.",
+      "Coptic": "Hppe gar Loukac> afcaji =en vai> eqbe Maciac> ouo\\ af`c=ai.",
+      "English": "For Saint Luke, spoke of that, for the Messiah, and wrote and said.",
+      "Arabiccoptic": "يببي غار لأوكاس: افساجي خين فاي: إيثفي ماسياس: أووه افإسخاي.",
+      "Englishcoptic": "Eeppe ghar Lookas: afsaji khen vai: ethve masias: owoh afeskhai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "ولما كمل الإسبوع، دُعي إسمه، يسوع، كقول الملاك.",
+      "Coptic": "qebdwmac `etackhn> aumou; `erof> je Ihcouc pe pefran> kata `pcaji `mpiaggeloc.",
+      "English": "When the week was finished, His name was called, Jesus according, to the saying of the angel.",
+      "Arabiccoptic": "ثيبزووماس إيتاسكين: افمأوتي إيروف: جي إييسأوس بي بيفران: كاتا إبساجي إمبي انجيلوس.",
+      "Englishcoptic": "thebzoomas -etaskeen-: avmooti -erof: je Isos pe pefran: kata epsaji empi-angelos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يوسف وسالومي، ومريم أمه، لما أكملوا، تلك الأربعين يوماً.",
+      "Coptic": "Iwchf nem Calwmh> nem Mari`a tefmau> `etaujwk `mpim̅> `n`e\\oou `ete `mmau.",
+      "English": "Joseph and Salome, and Mariam His mother, when they finished, the forty days.",
+      "Arabiccoptic": "إيووسيف نيم سالوومي: نيم ماري ا تيفماف: إيتافجووك إمبي م̅: إنإيهوأو إيتي إمماف.",
+      "Englishcoptic": "Iooseef nem Saloomee: nem mari-a tefmav: -etavgook empi-m̅: en-eho-oo ete emmav."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأيضاً ذهبوا، إلي بيت الصلاة، ليقدموا عنهما، تقدمات مختارة.",
+      "Coptic": "Ke palin au]enwou> `e`phi `n;`proceuxh> eqrou`ini `ejwou> `n\\ancwtp `neuxh.",
+      "English": "And also they went, to the house of prayers, to offer for themselves, the choice offerings.",
+      "Arabiccoptic": "كي بالين افشينؤو: إيإبيي إنتيإبروسيفشي: إيثرأو إيني إيجؤو: إنهانسووتب إنيفشي.",
+      "Englishcoptic": "Ke palin avshen-o-oo: -eepeei en-ti-eprosevshee: ethroo-een-i -ego-oo: en-hansootp en-evshee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وأيضاً وجدوا، سمعان الكاهن، واقفاً يخدم، في كهنوته.",
+      "Coptic": "Loipon gar aujimi> `nCimwn piouhb> ef`o\\i `eratf ef]em]i> =en tefmetouhb.",
+      "English": "They also have found, Simon the priest, standing and serving, through his priesthood.",
+      "Arabiccoptic": "لويبون غار افجيمي: إنسيموون بيأويب: إيف  وهي إيراتف إيف شيمشي: خين تيفميتأويب.",
+      "Englishcoptic": "Loipon ghar avjimi: en-Simoon pi-ooeeb: ef-ohi -eratf efshemshi: khen- tefmetooeeb."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "فلم يتهاون، بل بادر، وحمله بسرعة، علي ذراعيه.",
+      "Coptic": "`Mpefer`amelhc> alla af; `mpefouoi> afolf =en ouihc> `ejen nef`jvoi.",
+      "English": "So he did not hesitate, but took the risk, and carried Him quickly, on his arms.",
+      "Arabiccoptic": "إمبي فير اميليس: اللا افتي إمبي فأووي: افولف خين أوييس: إيجين نيفإجفوي.",
+      "Englishcoptic": "empefer-amelees: alla afti empefo-ooi: afolf khen ooiees: -ejen nefegvoi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وكان يقول الآن، يا سيدي إطلق عبدك، لأنك حفظتني، لكي أراك.",
+      "Coptic": "Naf joc je pasoic> ;nou `xnaxa pekbwk> je `nqok pe `etakrwic> `eroi eqrhinau `erok.",
+      "English": "And he said now O Lord, let your servant go, for You have kept me, to see You.",
+      "Arabiccoptic": "ناف جوس جي باشويس: تينأو إخناخا بيكفووك: جي إنثوك بي إيتاكروويس: إيروي إيثرييناف إيروك.",
+      "Englishcoptic": "Naf gos je pachois: ti-noo ekhnakha pek-vook: je en-thok pe -etakroois: -eroi ethreeinav -erok."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وبغتة، جاءت حنة النبية، المرأة العفيفة، واعترفت.",
+      "Coptic": "{apina ac`i> `nje Anna ;`provhthc> ;cemne `n`c\\imi> acer`omologithc.",
+      "English": "And suddenly, Anna the prophetess, the meek woman, came and confessed.",
+      "Arabiccoptic": "إكسابينا اس إي: إنجي أننا تيإبروفيتيس: تيسيمني إنإسهيمي: اسير ومولوجيتيس.",
+      "Englishcoptic": "Exapi-na as-ee: en-je Anna ti-epro-phetees: ti-semne en-eshimi: aser-omologitees."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وكانت تتكلم من أجله، أمام الجميع، واذ كان كل الشعب، ينتظرة كل حين.",
+      "Coptic": "Ouo\\ nac caji eqbhtf> =aten ouon niben> ouo\\ pilaoc thrf> naujou]t `erof `nchou niben.",
+      "English": "And she spoke about Him, in front of everyone, for all the people, waited for Him at all times.",
+      "Arabiccoptic": "أووه ناس ساجي إيثفيتف: خاتين أوون نيفين: أووه بيلاوس تيرف: نافجأوشت إيروف إنسيأو نيفين.",
+      "Englishcoptic": "Owoh nas saji ethveetf: khaten o-oon ni-ven: owoh pi-laos terf: navgoosht -erof enseeoo ni-ven."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "سيدنا محب البشر، ملكنا المسيح، قبل الختان، ليكمل الناموس.",
+      "Coptic": "Pennhb pimairwmi> penouro Pi`xrictoc> af]wp `erof `mpicebi> eqrefjwk `mpinomoc.",
+      "English": "Our Master the lover of men, Christ our King, accepted circumcision, to complete the Law.",
+      "Arabiccoptic": "بيننيف بيمايروومي: بينأورو بيإخريستوس: افشووب إيروف إمبي سيفي: إيثريفجووك إمبي نوموس.",
+      "Englishcoptic": "Pen-neev pi-mairoomi: pen-ooro Pikhristos: afshoop -erof empi-sevi: ethrefgook empi-nomos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "افرحوا وتهللوا، يا جنس البشر، لأن عمانوئيل، حمل خطايانا.",
+      "Coptic": "Ra]i ouo\\ qelhl> `w `pgenoc `nnirwmi> je Emmanouhl> af`wli `nnennobi.",
+      "English": "Rejoice and be glad, o you sons of men, for Emmanuel, have carried our sins.",
+      "Arabiccoptic": "راشي أووه ثيليل:  وو إبجينوس إنني روومي: جي إيممانأويل: اف وولي إنني ننوفي.",
+      "Englishcoptic": "Rashi owoh theleel: -oo epgen-os en-ni-roomi: je Emmanooeel: af-ooli en-nen-novi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "نعم الحقيقة، ثبَّت تأنسه، وأكمل توضعنا، بإختتانه.",
+      "Coptic": "Ce ontwc aftajro> `mpefjin errwmi> afjwk `mpenqebi`o> `n`\\rhi =en pefcebi.",
+      "English": "Yes in truth, He confirmed His Incarnation, and fulfilled our humbleness, by His circumcision.",
+      "Arabiccoptic": "سي ونتووس افتاجرو: إمبي فجين إيرروومي: افجووك إمبي نثيفي و: إنإهريي خين بيفسيفي.",
+      "Englishcoptic": "Se ontoos aftagro: empefjin erroomi: afgook empen-thevi-o: en-ehreei khen- pefsevi."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "حينئذ علمنا، طرق الخلاص، وخلصنا، كعظيم رحمته.",
+      "Coptic": "Tote af`tcabon> `e\\anmwit `nte pioujai> ouo\\ afcw; `mmon> kata pefni]; `nnai.",
+      "English": "Therefore He taught us, the ways of salvation, and He has saved us, according to His great mercy.",
+      "Arabiccoptic": "توتي افإتسافون: إيهانموويت إنتي بيأوجاي: أووه افسووتي إممون: كاتا بيفنيشتي إنناي.",
+      "Englishcoptic": "Tote afetsavon: -ehanmooit en-te pi-oogai: owoh afsooti emmon: kata pefni-shti en-nai."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "هو ابن الله، بالحقيقة، قد ولدته، القديسة مريم.",
+      "Coptic": "Uc̅ qc̅ `nqof> =en ou`alhqi`a> acmici `mmof> `nje qhe̅q̅u̅ Mari`a.",
+      "English": "He in the Son of God, in truth, and she gave birth to Him, Saint Mary the Virgin.",
+      "Arabiccoptic": "يس̅ ثس̅ إنثوف: خين أو اليثي ا: اسميسي إمموف: إنجي ثيي̅ث̅ي̅ ماري ا.",
+      "Englishcoptic": "Ees̅ ths̅ en-thof: khen- oo-aleethi-a: asmisi emmof: en-je thee-e̅th̅ee̅ mari-a."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي تحمله، الرتب الخفية، قد حمله، سمعان الكاهن.",
+      "Coptic": "Vh `etoufai `mmof> `nje nita[ic et\\hp> af`wli `mmof> `nje Cimwn piouhb.",
+      "English": "He who is carried, by the invisible hosts, was carried by, Simon the priest.",
+      "Arabiccoptic": "في إيتأوفاي إمموف: إنجي نيتاكسيس إيتهيب: اف وولي إمموف: إنجي سيموون بيأويب.",
+      "Englishcoptic": "Vee -etoofai emmof: en-je ni-taxis etheep: af-ooli emmof: en-je Simoon pi-ooeeb."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدوس أيها المسيح، في تدبيرك، وغير محدودة، هي قوتك وحكمتك.",
+      "Coptic": "`Xouab `w Pi`xrictoc> =en tefoikonomi`a> ouat`];]i `eroc> te tekjwm nem tekcovi`a.",
+      "English": "Holy O You O Christ, in Your precepts, and unlimited is, Your power and wisdom.",
+      "Arabiccoptic": "إخأواف  وو بيإخريستوس: خين تيفويكونومي ا: أواتإشتيشي إيروس: تي تيكجووم نيم تيكسوفي ا.",
+      "Englishcoptic": "Ek-owab -oo Pikhristos: khen tefoikonomi-a: ooateshti-shi -eros: te tekgoom nem teksovi-a."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "وسائر شعبك، اشف أمراضهم، والدين رقدوا، يا رب أذكرهم.",
+      "Coptic": "Yepi `mpeklaoc> matalso `nnou]wni> nem nh`etauenkot Psoic> `aripoumeu`i.",
+      "English": "And the rest of Your people, heal their sicknesses, and those who departed, O Lord remember them.",
+      "Arabiccoptic": "Psيبي إمبي كلاوس: ماتالتشو إننأوشووني: نيم نيإيتافينكوت بشويس:  اريبأوميف إي.",
+      "Englishcoptic": "Psepi empek-laos: matalcho en-nooshooni-: nem nee-etaven-kot Pchois: -aripoomev-ee."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "كذلك أنا عبدك، الخاطئ، أتوسل إليك أن تغفر لي خطاياي.",
+      "Coptic": "`W cautoc pekbwk> `anok =a pirefernobi> ;;\\o `erok> xw nhi `ebol `nnanobi.",
+      "English": "Likewise I Your servant, the sinner, I entreat You, to forgive me my sins.",
+      "Arabiccoptic": "وو سافتوس بيكفووك:  انوك خا بيريفيرنوفي: تيتيهو إيروك: خوو نيي إيفول إننانوفي.",
+      "Englishcoptic": "Oo savtos pek-vook: -anok kha pi-refernovi: ti-ti-ho -erok: khoo neei evol en-nanovi."
+    }
+  ]
+}

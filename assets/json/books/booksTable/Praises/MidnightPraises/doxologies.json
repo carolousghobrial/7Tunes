@@ -98,6 +98,12 @@
         },
         {
             "Type": "Main",
+            "Path": "DoxologiesMajorFeastsTheophanyParamoun",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "DoxologiesMajorFeastsTheophany",
             "Rule": 0,
             "Visible": "isSeason"

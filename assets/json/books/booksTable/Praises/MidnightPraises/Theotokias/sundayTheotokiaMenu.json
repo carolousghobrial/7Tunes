@@ -22,6 +22,18 @@
             "Visible": "isSeason"
         },
         {
+            "Type": "Main",
+            "Path": "TheotokiasPsalisCircumcisionAdam",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "TheotokiasPsalisWeddingCanaAdam",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
             "Type": "Accordion",
             "Arabic": "إبصالية أدام للصوم الكبير على ثيؤطوكية الأحد",
             "English": "Adam Psali for the Great Fast on Sunday Theotokia",

@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد الانجيل برمون عيد الغطاس",
+  "EnglishTitle": "Gospel Response for Theophany Feast Paramoun ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "شهد يوحنا فى الأناجيل الأربع أنى عمدت مخلصى فى مياة الأردن.",
+      "Coptic": "Afermeqre `nje Iwannhc > =en pi d/ neuaggelion > je ai;wmc `mPac/w/r/ > =en nimwou `nte piIordanhc.",
+      "English": "John has borne witness, in the four Gospels, saying \"I have baptized my Savior, in the waters of the Jordan.",
+      "Arabiccoptic": "أفئر ميثرى إنجى يوأنس : خين بى إفتو إن إيـﭫ أنجيليون : ﭼـى أيتى أومس إمبا سوتير : خين نى مواوو إنتى بى يورذانيس  .",
+      "Englishcoptic": "Af-ermethre enge Yoannes khen pi-efto en-ev angelion, je aity oms em-pasoteer, khen ni-mo-oo ente pi yordanees"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا هلليلويا، هلليلويا هلليلويا، يسوع المسيح إبن الله، اعتمد في الأردن.",
+      "Coptic": "Allhlouia Al?> Allhlouia Al? > Ihcouc Pi`xrictoc  `p]hri `mV;> afsi`wmc =en piIordanhc.",
+      "English": "Alleluia Alleluia, Alleluia Alleluia, Jesus Christ the Son of God, was baptized in the Jordan.",
+      "Arabiccoptic": "الليلويا الليلويا : ايسوس بي اخريستوس ابشيري ام افنوتي : افتشي اومس خين بي يورذانيس  .",
+      "Englishcoptic": "Alleloia, alleloia, alleloia, alleloia, Isos Pikhrestos Ep-shiri Emif-noti, fe-etaf-masf khen Veth-leem."
+    }
+  ]
+}

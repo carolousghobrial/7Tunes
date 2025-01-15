@@ -1,0 +1,18 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "ارباع الناقوس برمون عيد الغطاس",
+  "EnglishTitle": "Verses of the Cymbals for Theophany Feast Paramoun ",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Neutral",
+      "Arabic": "هذا هو إبني حبيبي الذي سُرّت به نفسي وصنع مشيئتي له إسمعوا لأنه هو المحيي.",
+      "Coptic": "Rwf `m``Vnou; afermeqre> =arok `w piref;wmc> je `mmon vhettenqwnt `erok> =en nimici `nte ni\\iomi.",
+      "English": "The mouth of God witnessed, to you O Baptizer, \"No one is like you, among those born of women.\"",
+      "Arabiccoptic": "رووف إم إفنوتي افيرميثري: خاروك  وو بيريفتيوومس: جي إممون في إيتينثوونت إيروك: خين نيميسي إنتي نيهيومي.",
+      "Englishcoptic": "Roof em-evnoti afermethre: kharok oo pirefti-ooms: je emmon fi-ettenthoont erok: khen nimisi ente nihiomi."
+    }
+  ]
+}

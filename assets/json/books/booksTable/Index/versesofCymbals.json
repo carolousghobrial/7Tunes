@@ -194,6 +194,12 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTheophanyParamoun",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "RaisingOfIncenseVersesOfCymbalsApostles",
             "Rule": 0,
             "Visible": "isNOTLentWeekdayOrJonah"

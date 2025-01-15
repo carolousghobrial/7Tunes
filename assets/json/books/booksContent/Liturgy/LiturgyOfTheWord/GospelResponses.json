@@ -53,6 +53,12 @@
         },
         {
             "Type": "Main",
+            "Path": "RaisingOfIncenseGospelResponsesTheophanyParamounGospelResponse",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordLiturgyGospelResponsesTheophanyGospelResponse",
             "Rule": 0,
             "Visible": "isSeason"
