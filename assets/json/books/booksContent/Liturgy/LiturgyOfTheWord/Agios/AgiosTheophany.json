@@ -2,15 +2,23 @@
   "RefrainAfter": 0,
   "Hymn": [
     {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وفى عيد الغطاس ۱۰۱ و ۱۲ طوبه يقال الأولى للميلاد والثانية والثالثة",
+      "English": "During Feast of the Theophany , 11 & 12 Tobe, the first is said for the Nativity and the second and third is for the Theophany"
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "قدوس الله، قدوس القوي، قدوس الحي الذي لا يموت، الذي إعتمد في الأردن، إرحمنا.",
-      "Coptic": "`Agioc `o Qeoc> `agioc Icxuroc> `agioc `Aqanatoc> `o Iordanou Bapticthc> `ele`hcon `hmac.",
-      "English": "Holy God, holy Mighty, holy Immortal,  who was baptized in the Jordan, have mercy upon us.",
-      "Arabiccoptic": "أجيوس أوثيؤس أجيوس إسشيروس أجيوس أثاناطوس أو يوردانو فابتيسيس إليصون إيماس .",
-      "Englishcoptic": "Agios o-theos : agios yes-sheros : agios athanatos : o Iordanoo Vaptis-tees : eleyson emas."
+      "Arabic": "قدوس الله، قدوس القوي، قدوس الحي الذي لا يموت، الذي ولد من العذراء، إرحمنا.",
+      "Coptic": "`Agioc `o Qeoc> `agioc Icxuroc> `agioc `Aqanatoc> `o ek Parqenou genneqhc> `ele`hcon `hmac.",
+      "English": "Holy God, holy Mighty, holy Immortal, who was born of the Virgin, have mercy upon us.",
+      "Arabiccoptic": "أجيوس أوثيؤس أجيوس إسشيروس أجيوس أثاناطوس أو إكبارثينو جيننيتيس إليصون إيماس .",
+      "Englishcoptic": "Agios o-theos : agios yes-sheros : agios athanatos : o ekpar-theno gennetis : eleyson emas."
     },
     {
       "Type": "Base",

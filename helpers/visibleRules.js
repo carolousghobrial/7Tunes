@@ -1233,33 +1233,30 @@ const JohnTheBaptistShow = (motherSource, path) => {
     path?.toLowerCase().includes("doxologies") ||
     path?.toLowerCase().includes("versesofcymbals");
 
-  if (
-    (currentSeason.copticMonth === "Koiahk" || TakeFromHathor(currentSeason)) &&
-    isDoxologyPath(path)
-  ) {
+  const isKoiahkOrHathor =
+    currentSeason.copticMonth === "Koiahk" || TakeFromHathor(currentSeason);
+
+  if (isKoiahkOrHathor && isDoxologyPath(path)) {
     return true;
   }
 
   switch (currentSeason.key) {
-    case FeastEnum.EPIPHANY:
     case FeastEnum.EPIPHANY_PARAMOUN:
+      return !path?.toLowerCase().includes("oranen");
+
+    case FeastEnum.EPIPHANY:
     case FeastEnum.EPIPHANY_SECONDDAY:
       return true;
 
     case FeastEnum.NATIVITY_FAST:
-      if (
-        currentSeason.copticMonth === "Koiahk" ||
-        TakeFromHathor(currentSeason)
-      ) {
-        return false;
-      } else {
-        return isDoxologyPath(path) ? saintSelected.doxologies : false;
-      }
+      return isKoiahkOrHathor
+        ? false
+        : isDoxologyPath(path)
+        ? saintSelected.doxologies
+        : false;
 
     default:
-      return currentSeason.saintsOfThisDay.includes("JOHN_THE_BAPTIST")
-        ? true
-        : false;
+      return currentSeason.saintsOfThisDay.includes("JOHN_THE_BAPTIST");
   }
 };
 const getPlantsSeason = (motherSource, path) => {
