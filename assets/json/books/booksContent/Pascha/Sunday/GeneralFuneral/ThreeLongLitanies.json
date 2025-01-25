@@ -292,13 +292,13 @@
         {
             "Type": "Base",
             "Rule": 0,
-            "Visible": "hide",
+            "Visible": true,
             "Side": "North",
-            "Arabic": " وأبونا ___ بطريرك إريتريا،",
-            "Coptic": "nem pipatriarxhc `nEritrea Apouna (…) >",
-            "English": "and the Patriarch of Eritrea, Abouna (...)",
-            "Arabiccoptic": " نيم بي باطريارشيس ان اريتريا ابونا ... ",
-            "Englishcoptic": " nem pi patriarchees en Eretria Abouna….."
+            "Arabic": " وأبونا [*ERITREAN_POPE*] بطريرك إريتريا،",
+            "Coptic": "nem pipatriarxhc `nEritrea peniwt [*ERITREAN_POPE*] >",
+            "English": "and the Patriarch of Eritrea, Abouna [*ERITREAN_POPE*]",
+            "Arabiccoptic": " نيم بي باطريارشيس ان اريتريا ابونا [*ERITREAN_POPE*] ",
+            "Englishcoptic": " nem pi patriarchees en Eretria Abouna [*ERITREAN_POPE*]."
         },
         {
             "Type": "Base",
@@ -372,7 +372,7 @@
             "Visible": "hide",
             "Side": "North",
             "Arabic": " وأبونا ___ بطريرك إريتريا،",
-            "Coptic": "nem pipatriarxhc `nEritrea Apouna (…) >",
+            "Coptic": "nem pipatriarxhc `nEritrea peniwt (…) >",
             "English": "and the Patriarch of Eritrea, Abouna (...)",
             "Arabiccoptic": " نيم بي باطريارشيس ان اريتريا ابونا ... ",
             "Englishcoptic": " nem pi patriarchees en Eretria Abouna….."

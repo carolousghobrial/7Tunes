@@ -15,6 +15,7 @@ function PopeBishop() {
 
   const popeObject = bishopsList.POPE;
   const antiochPope = bishopsList.ANTIOCH_POPE;
+  const eritreaPope = bishopsList.ERITREAN_POPE;
 
   const [ModalVisible, setModalVisible] = useState(false);
 
@@ -78,6 +79,9 @@ function PopeBishop() {
           </Text>
           <Text style={[styles.popeText, { color: getColor("LabelColor") }]}>
             {getLanguageValue("antiochPope")} {antiochPope.English}
+          </Text>
+          <Text style={[styles.popeText, { color: getColor("LabelColor") }]}>
+            {getLanguageValue("antiochPope")} {eritreaPope.English}
           </Text>
           <Text style={[styles.popeText, { color: getColor("LabelColor") }]}>
             {getLanguageValue("dioceseBishopMetropolitain")}

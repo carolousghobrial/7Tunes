@@ -24,6 +24,7 @@ export const keywords = [
   "[*PAULINE_AUTHOR*]",
   "[*POPE*]",
   "[*ANTIOCH_POPE*]",
+  "[*ERITREAN_POPE*]",
   "[*DIOCESE_BISHOP*]",
   "[*METROPOLITAIN_PRESENT*]",
   "[*METROPOLITAIN_PRESENT2*]",

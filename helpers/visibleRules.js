@@ -3164,6 +3164,15 @@ const REPLACANTIOCHEPOPE = (rule, part) => {
     arabiccoptic: bishopsList.ANTIOCH_POPE.Arabiccoptic,
   };
 };
+const REPLACEERITREANPOPE = (rule, part) => {
+  return {
+    english: bishopsList.ERITREAN_POPE.English,
+    coptic: bishopsList.ERITREAN_POPE.Coptic,
+    arabic: bishopsList.ERITREAN_POPE.Arabic,
+    englishcoptic: bishopsList.ERITREAN_POPE.Englishcoptic,
+    arabiccoptic: bishopsList.ERITREAN_POPE.Arabiccoptic,
+  };
+};
 
 const REPLACEDIOCESEBISHOP = (rule, part) => {
   const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
@@ -3380,6 +3389,7 @@ const VisibleRules = {
   HOMILY_FATHER: REPLACEHOMILYFATHERS,
   POPE: REPLACEPOPE,
   ANTIOCH_POPE: REPLACANTIOCHEPOPE,
+  ERITREAN_POPE: REPLACEERITREANPOPE,
   DIOCESE_BISHOP: REPLACEDIOCESEBISHOP,
   METROPOLITAIN_PRESENT: REPLACEMETROPOLITAINAVAILABLE,
   METROPOLITAIN_PRESENT2: REPLACEMETROPOLITAINAVAILABLETWO,

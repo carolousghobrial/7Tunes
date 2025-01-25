@@ -28,13 +28,13 @@
   },
   "ERITREAN_POPE": {
     "key": "ERITREAN_POPE",
-    "Arabic": "",
-    "Coptic": "",
-    "English": "",
-    "Arabiccoptic": "",
-    "Englishcoptic": "",
-    "dioceseArabic": "",
-    "dioceseEnglish": ""
+    "Arabic": "باسيليوس",
+    "Coptic": "Bacilioc",
+    "English": "Basilios",
+    "Arabiccoptic": "باسيليوس",
+    "Englishcoptic": "Basilios",
+    "dioceseArabic": "بطريرك اريتريا",
+    "dioceseEnglish": "Patriarch of Eritrea"
   },
   "Metropolitans": [
     {
@@ -1300,7 +1300,7 @@
     {
       "key": "BASILIOS",
       "Arabic": "باسيليوس",
-      "Coptic": "Basilios",
+      "Coptic": "Bacilioc",
       "English": "Basilios",
       "Arabiccoptic": "باسيليوس",
       "Englishcoptic": "Basilios",

@@ -50,6 +50,8 @@ function BishopsPopup({ visible, closeModal, setBishop }) {
 
   const popeObject = bishopsList.POPE;
   const antiochPope = bishopsList.ANTIOCH_POPE;
+  const eritreaPope = bishopsList.ERITREAN_POPE;
+
   const metropolitains = bishopsList.Metropolitans;
   const bishops = bishopsList.Diocese_Bishops;
   const m_bishops = bishopsList.Monastery_Bishops;
