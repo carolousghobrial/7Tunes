@@ -1,0 +1,26 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة الخدوع",
+  "EnglishTitle": "Prayer of Submission",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمل أُذنك يا رب وإسمعنا نحن الخطاة غير المستحقين، وثبت إتصال عبديك [*GROOM*] و [*BRIDE*] معينته. نجهما من كل شر. وليطل عمرهما بكثرة الأيام. وليعيشا دعة وهدوء وإحتمال وخضوع وهما بلا لوم ولا عثرة. أنر أعين قلبيهما وفهميهما ليصنعا إرادتك كل حين.لأنك رحيم كثير الرحمة لكل الصارخين إليك، ونرسل لك المجد والكرامة والسجود مع أبيك الصالح والروح القدس، الآن وكل أوان وإلى دهر الدهور. آمين.",
+      "English": "Listen, O Lord, to us, and hear us, we, the unworthy sinners, and establish the union of Your two servants [*GROOM*] and [*BRIDE*] his helpmate.Deliver them from all evil, and lengthen their lives with length of days, that they may live in meekness, calmness, endurance and submission, and keep them blameless and without offense.Enlighten their hearts and understanding so that they may always do Your will, because You are merciful, plenteous in mercy, to all who cry out to You,and we send unto You glory, honor and worship, now and forever and unto the age of ages. Amen."
+    }
+  ]
+}

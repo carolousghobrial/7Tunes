@@ -1,0 +1,311 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة على الزيت",
+  "EnglishTitle": "A Prayer on the Oil",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها السيد الرب الإله ضابط الكل، أبو ربنا وإلهنا ومخلصنا يسوع المسيح، الذي من ثمرة شجرة الزيتون الدسم مسحت كهنة وملوكاً وأنبياء. نبتهل ونتضرع إليك أيها الرب محب البشر الصالح، لكي تبارك هذا الزيت تبريكاً. ليكون زيتاً لتقديس عبديك [*GROOM*] و [*BRIDE*]. آمين.",
+      "English": "O Master, Lord, God the Pantocrator, the Father of our Lord, God and Savior Jesus Christ, who anointed, out of the fruit of the rich olive tree, priests, kings, and prophets.We beseech and entreat You, O Good Lord, the Lover of Mankind, to bless this oil with blessings, so that it becomes an oil to sanctify Your two servants [*GROOM*] and [*BRIDE*]. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "English": "Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " سلاح البر والعدل. آمين.",
+      "English": "A weapon of righteousness and justice. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "English": "Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " مسحة الطهارة وعدم الفساد. آمين.",
+      "English": "An anointment of purity and incorruption. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "English": "Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " نوراً وجمالاً لا يذبل. آمين.",
+      "English": "Light and unfading beauty. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "English": "Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " فرحاً وزينةً وعزاءً حقيقياً. آمين.",
+      "English": "Joy, ornament, and true comfort. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "English": "Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قوة وخلاصاً وغلبة على كل أفعال المضاد. آمين.",
+      "English": "Power, salvation, and victory over all the deeds of the adversary. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "English": "Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " تجديداً وخلاصاً لنفسيهما وجسديهما وروحيهما. آمين.",
+      "English": "Renewal and salvation for their souls, bodies and spirits. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "English": "Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " غنى مع ثمرة الأفعال الحسنة. آمين.",
+      "English": "Richness with the fruit of good deeds. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "English": "Amen."
+    }
+  ]
+}

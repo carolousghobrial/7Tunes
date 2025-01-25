@@ -1,0 +1,26 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "بركة للعروس",
+  "EnglishTitle": "Blessing for the Bride",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي بارك أبانا آدم وحواء، وإبراهيم مع سارة، وإسحق مع رفقة، يبارك هذا الزواج. الذي بارك يعقوب في زواجه، وحنة أم صموئيل، يبارك هذا الزواج. الذي بارك يوسف مع أسينات، وزكريا مع أليصابات، ومريم أم الختن، وكافة النساء المباركات، يبارك هذا الزواج.",
+      "English": "May He who blessed our father Adam with Eve, and Abraham with Sarah, and Isaac with Rebecca, bless this marriage. May He who blessed Jacob in his mariage, and Hanna the mother of Samuel, bless this marriage. May who blessed Joseph with Asenath and Zacharias with Elizabeth, and Mary the mother of the Bridegroom, and the rest of the blessed women, bless this marriage."
+    }
+  ]
+}

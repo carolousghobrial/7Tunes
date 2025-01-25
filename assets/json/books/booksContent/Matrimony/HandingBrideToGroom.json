@@ -1,0 +1,26 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "تسليم العروس الى العريس",
+  "EnglishTitle": "Handing the Bride to the Groom",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والان وقد حضرتما في هذه الساعة المباركة قدام هيكل رب لصاباؤوت ومذبحه المقدس، في هذا المحفل الأرذوكسي.رجمعتكما هذه الزيجة المباركة، والإكليل المقدس. فعلى هذا لرسم وهذه الشريعة، هكذا إتخذ سائر الآباء المؤمنون امرأةً واحدةً بطهرٍ ونقاوةٍ، لطلب الذرية وإيجاد الخلف.فيجب عليكما أن يعرف بعضكما حق بعض، ويخضع كل منكما لصاحبه. وليكن كلُ منكما أميناً نحو الآخر كقول معلمنا ولس الرسول \"ليس للمرأة تسلط على جسدها بل للرجل وكذلك الرجل أيضاً ليس له تسلط على جسده بل للمرأة\" (1كو 4 :7).",
+      "English": "Now since you have been present at this blessed time before the sanctuary of the Lord of Hosts and His holy altar and this Orthodox gathering, you have been joined by this blessed marriage and holy crowning. According to this rite and this law, so also the rest of the fathers, the believers, took one wife in purity and cleanness for the sake of descendants and childbearing. So, you should know each other's rights and submit yourselves to one another, and let each of you faithful to the other according to our teacher Paul the apostle: \"The wife does not have authority over her own body, but her husband does. husband does authority over his own body, but the wife does\" (1 Cor 7:4)."
+    }
+  ]
+}

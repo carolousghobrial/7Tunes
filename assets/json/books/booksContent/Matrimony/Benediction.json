@@ -1,0 +1,64 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "البركة",
+  "EnglishTitle": "Benediction",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "زواج طاهر وإكليل جليل، بَارِكه يا إلهنا عمانوئيل، كما باركت في عرس قانا الجليل، لـ (...) العريس و (...) العروس.",
+      "English": "A pure marriage and a revered crown, / bless it O our Lord Immanuel / as You blessed the wedding at Cana of Galilee / for (...) the bridegroom and (...) the bride."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم (3).",
+      "English": "Lord have mercy (3). O Lord hear us, O Lord have mercy, O Lord bless us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كذلك يباركك الرب أيها الأخ، ويبارك زوجتك، كما بارك نوح وزوجته عند خروجهما من السفينة، وعمَّر الأرض من ذريتهما. وكما بارك لإبراهيم في سارة، ولإسحق في رفقة، وليعقوب في زواجه.وبركة الرب جل إسمه الحالة في عرس قانا الجليل تحل عليكما، وفي منزلكما، وتوفق بينكما، وتجعل المحبة الروحانية في قلبيكما، وتديم أرزاقكما، وتعمِّر منزلكما، وتمنحكما العمر الطويل والحياة الهنيئة مع الأولاد المباركين.وإياه نسأل أن يتقبل منا صلوات هذا الإكليل المبارك. ويعوضنا عن الفانيات بالباقيات، وعن الأرضيات بالسمائيات، ويغفر لنا خطايانا وذنوبنا وزلاتنا. ويكفينا مكائد ومكاره العدو الشيطان الشرير.ويحفظ كافة الإخوة الحاضرين معنا بيمينه الحصين كل أيام حياتهم. ويعمِّر منازلهم. ويكفيهم تجارب العدو. ويعطيهم الفرح السمائي الذي لا يشوبه كدر.بشفاعة سيدتنا كلنا وفخر جنسنا السيدة العذراء الطاهرة، والدة الخلاص، الزكية، المفضلة على سائر جنس البشر، القديسة مريم النقية، والشهيد المكرم المختار مرقس الإنجيلي الرسول وكافة الشهداء الأبرار والقديسين الأطهار. آمين.",
+      "English": "May the Lord bless you, my brother, and bless your wife, as He blessed Noah and his wife when they left the ark and populated the earth with their seed and as He blessed Abraham with Sarah, and Isaac with Rebecca, and Jacob in his marriage.May the blessing of the Lord, to His name be the honor, at the wedding of Cana of Galilee, settle upon you and your home, unify you in harmony, create spiritual love in your hearts, sustain your livelihood, fill your house and grant you a long age and happy life with blessed children.We ask Him to accept from us the prayers of this blessed crowning, reward us with the eternal for the temporal, the heavenly for the earthly, and forgive us our sins, iniquities, and transgressions and keep away from us the traps and cunning of the devil, the evil enemy.May He keep the rest of the brethren who attended with us, with His protective right hand, all the days of their lives and fill their homes and keep away from them the temptations of the enemy and grant them heavenly joy free from trouble.Through the intercession of the Lady of us all and the pride of our race the Lady the pure Virgin, the honored Mother of Salvation who is preferred over all mankind, the pure St.Mary and the honored, chosen martyr, Saint Mark the Evangelist and apostle, and all the righteous martyrs and holy saints. Amen."
+    }
+  ]
+}

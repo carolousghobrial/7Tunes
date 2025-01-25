@@ -1,0 +1,26 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "بركة للعريس",
+  "EnglishTitle": "Blessing for the Groom",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذي بارك أبانا آدم ونوح وإبراهيم وموسى في أرض مديان، يباركك أيها العريس ومعينتك. الذي بارك إسحق الحبيب وهابيل الصديق الأول وسليمان وأبيه داود،باركك أيها العريس ومعينتك. الذي بارك أبانا يعقوب والصديق أيوب، يباركك سبعة أضعاف أيها العريس ومعينتك.",
+      "English": "May He who blessed our father Adam, Noah, Abraham, and Moses in the land of Midian, bless you, O bridegroom and your helpmate. May He who blessed Isaac the beloved and Abel the first righteous, and Solomon and his father David, bless you, bridegroom and your helpmate. May He who blessed our father Jacob and the righteous Job, bless you sevenfold, O bridegroom and your helpmate."
+    }
+  ]
+}

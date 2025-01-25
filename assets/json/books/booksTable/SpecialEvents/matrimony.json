@@ -32,7 +32,7 @@
         },
         {
             "Type": "Main",
-            "Path": "AgpeyaPrayersOurFather",
+            "Path": "MatrimonyDeclaration",
             "Rule": 0,
             "Visible": true
         },
@@ -48,6 +48,86 @@
             "Rule": 0,
             "Visible": true,
             "mother": "matins"
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyPrayerOfWeddingCommitment",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyPrayerOnVestments",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyTiEstoli",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordTiShori",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordTenosht",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyPauline",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsPentecostPiEpnevma",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordAgios",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseLitanyOfGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Button",
+            "Arabic": "المزمور",
+            "English": "Chanted Psalm",
+            "Rule": "OpenPageButtonRule",
+            "Visible": "isNotPalmSunday",
+            "Path": "LiturgyLiturgyOfTheWordChantedLiturgyPsalm"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncensePsalmResponses",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordCopticGospelIntro",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordArabicGospelIntro",
+            "Rule": 0,
+            "Visible": true
         }
     ]
 }

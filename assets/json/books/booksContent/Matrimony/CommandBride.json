@@ -1,0 +1,53 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "الوصية للعروس",
+  "EnglishTitle": "Command to the Bride",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(D)إسمعي يا عروس وإصغي بسمعِك، وأنسي شعبِك وبيت أبيكِ، لأن العريس راق له طهرِك، فهو زوجكِ وله تخضعين.",
+      "English": "(D)Listen, O bride and incline your ear, / forget your people and your father's house, / for your chastity appealed to bridegroom, / and he is your husband and to him you will submit."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب اسمعنا",
+      "English": "Lord have mercy (3). O Lord hear us, O Lord have mercy, O Lord bless us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وأنتِ أيتها الإبنة المباركة والعروس السعيدة (...)، قد سمعتِ ما أوصي به زوجكِ. فيجب عليكِ أن تكرميه وتهابيه، ولا تخالفي رأيه، بل زيدي في طاعته على ما أوصى به أضعافاً. فقد صرتِ اليوم منفردة معه وهو المسئول عنكِ بعد والديكِ.فيجب عليك أن تقابليه بالبشاشة والترحاب، ولا تضجري في وجهه، ولا تضيعي شيئاً من حقوقه عليكِ، وتتقي الله في سائر أموركِ معه. لأن الله تعالى أوصاكِ بالخضوع له وأمركِ بطاعته بعد والديكِ.فكوني معه كما كانت أمنا سارة مطيعة لأبينا إبراهيم، وكانت تخاطبه: \"يا سيدي.\" فنظر الله إلى طاعتها له، وبارك عليها، وأعطاها إسحق بعد الكبر، وجعل نسلها مثل نجوم السماء والرمل الذي على شاطئ البحر.فإذا سمعتِ ما أوصيناكِ به واتبعتِ جميع الأوامر، أخذ الرب بيدكِ ووسَّع في رزقكِ، وحلت البركات في منزلكِ، ورزقكِ أولاداً مباركين يقر الله بهم عينيك.",
+      "English": "And you, blessed daughter, and happy bride, you have heard what was commanded of your husband. So you are required to honor and respect him, do not act against his opinion, but submit to him many times over what was commanded. For today you are alone with him and he is responsible for you instead of your parents. So you must receive him with joy and cheer, do not frown in his face, do not neglect any of his rights upon you, and fear God in all matters with him. Because God commanded you to submit to him and ordered you to obey him as your parents. So be with him as our mother Sarah was obedient to our father Abraham, and used to address him \"my lord.\" Thus, God looked upon her obedience to him, blessed her, gave her Isaac in her old age, and made her offspring as the stars of heaven and the sand on the seashore.As you listen to what we commanded you to do, the Lord will take your hand, increase your livelihood, and blessings will descend upon your home, and He will grant you blessed children by whom God will delight your eyes."
+    }
+  ]
+}

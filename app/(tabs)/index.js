@@ -205,7 +205,7 @@ const App = () => {
 
         {/* Book List */}
         <FlatList
-          data={books}
+          data={books.filter((item) => item.hide !== true)}
           renderItem={({ item }) => (
             <BookView item={item} onClick={() => handleBookClick(item)} />
           )}

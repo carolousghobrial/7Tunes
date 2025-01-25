@@ -1,0 +1,64 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "الوصية للعريس",
+  "EnglishTitle": "Command to the Groom",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "استلم يا عريس عروسًا وهي لك، يسوع المسيح أعطاها لك، ربيد أبينا الكاهن (الأسقف/المطران) سلمها لك، وبارككما باسمه القدوس.",
+      "English": "Receive, 0 bridegroom, a bride who is yours, / Jesus Christ has given her to you, / and at the hand of our father the priest (bishop/metropolitan) He has presented her to you, / and blessed you both with His holy name."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إسمعنا يارب إرحم. يارب باركنا،",
+      "English": "Lord have mercy (3)"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يجب عليك أيها الابن المبارك، المؤيد بنعمة الروح القدس، أن تتسلم زوجتك في هذه الساعة المباركة بنية خالصة، ونفس طاهرة، وقلب سليم. وتجتهد فيما يعود لصالحها. وتكون حنوناً عليها. وتسرع إلى ما يسر قلبها. فأنت اليوم المسئول عنها من بعد والديها. وقد تكللتما بالإكليل لسمائي والزيجة الروحانية، وحلت عليكما نعمة الله. ومتى قبلت ما أوصيت به، أخذ الرب بيدك وأوسع في رزقك، ويرزقك أولاداً مباركين يقر الله بهم عينيك، ويمنحك العمر الطويل والعيش لرغد، ويحسن لك العاقبة في الدنيا و الاخرة.",
+      "English": "My blessed son, who is supported by the grace of the Holy Spirit, you are required to receive your wife at this blessed hour with a conscience, a pure soul, and a full heart. Excel in doing all that is good for her. Have compassion on her and hasten to do that which gladdens her heart. Today, you are responsible for her instead of her parents. You have both been crowned with the heavenly crowning and the spiritual marriage. The grace of God has settled upon you. When you accept what has been commanded of you, the Lord will take your hand, increase your livelihood, grant you blessed children by whom God will delight your eyes, grant you a long age and prosperous life, and prosper your outcome in this life and the hereafter."
+    }
+  ]
+}

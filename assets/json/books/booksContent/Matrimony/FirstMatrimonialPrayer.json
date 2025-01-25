@@ -1,0 +1,26 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة اولى للزواج",
+  "EnglishTitle": "First Matrimonial Prayer",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اللهُمَّ الأزلي الدائم إلى الأبد بغير إبتداء، الذي لا حد لحكمته ولا إنتهاء لقوته، الذي صنع الإنسان من الأرض، وجعل له امرأة من جنبه، ووفقها له معينة نظيره، كما يرضي ربوبيتك وصلاحك، لأنه لا يحسن أن يكون الرجل وحده.أنت الآن أيضاً يا ملكنا، نسألك أن تصل عبديك [*GROOM*] و [*BRIDE*]، لكي يتصلا ببعضهما بعضاً بجسد واحد، وليدخلا إلى ناموس الفرح، وليكونا في تعاليم صادقة. هب لهما ثمرة محيية من البطن ليبتهجا بولادة البنين الحسنة والأزمنة الهادئة السالمة.هيئهما في كل عمل صالح بالمسيح يسوع ربنا. هذا الذي ينبغي لك معه، مع الروح القدس، المجد والكرامة والعز والسجود، الآن وكل أوان وإلى دهر الدهور. آمين.",
+      "English": "O God who is eternal and everlasting, who has no beginning, whose wisdom has no limit and whose power has no end, who made man from the earth, and gave him a woman out of his side, and accommodated her for him as a helper fit for him, as it pleases Your Lordship and goodness, because it is not good for a man to be alone.We ask You, also, now, O our King, to join Your two servants [*GROOM*] and [*BRIDE*] to be united to each other in one body, and to enter into the law of joy, and to abide in Your truthful teachings.Grant them a living fruit out of the womb so that they rejoice in the birth of good children and have quiet and peaceful times. Prepare them for every good work through Christ Jesus our Lord."
+    }
+  ]
+}

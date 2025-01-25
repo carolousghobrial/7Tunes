@@ -1,0 +1,140 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة على الثياب",
+  "EnglishTitle": "A Prayer on the Vestments",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها السيد الرب يسوع المسيح إلهنا الذي زيَّن السماء بالنجوم وأظهر الأرض ببهاء الأزهار المُثمرة ذات الأنواع الكثيرة. الذي أنعم على البشرية بالسمائيات وأعطاهم راحة الأرض. أنت الآن أيضاً أيها الصالح محب البشر نسألك أن تبارك هذة الحلل الموضوعة،لكي تصير لعبديك الذين يلبسانها بمسرة صلاحك. .حُلل المجد والخلاص. آمين.",
+      "English": "O Master, Lord Jesus Christ, our God, who ornamented the sky with the stars and adorned the earth with the splendor of the many different kinds of fruitful plants, who granted humanity the heavenly things and bestowed upon it rest on the earth.Now, also, we ask You, O Good One, the Lover of Mankind, to bless these vestments, so that they become for Your two servants who will wear them, through the pleasure of Your goodness,vestments of glory and salvation. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين.",
+      "English": "Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " حُلل الفرح والتهليل. آمين.",
+      "English": "Vestments of joy and delight. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين.",
+      "English": "Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "وإحفظهما نقيين في النفس والجسد والروح.",
+      "English": "Preserve them both pure in soul, body, and spirit. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين.",
+      "English": "Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لتكون حياتهما في صحة وسلام وعفاف بواسطة فعل البر. هِب لهما الراحة السمائية والأرضية ليستغنيا بأفعال البر. وإملأ منزلهما ومخازنهما من كل الخيرات، ليستحقا أن يعملا رضاك كل حين، لأنك رحيم كثير الرحمة وبار، ويليق بك المجد مع أبيك الصالح والروح القدس المحيي المساوي لك، الآن وكل أوان وإلى دهر الدهور. آمين.",
+      "English": "That their life be healthy, peaceful, and chaste through the act of righteousness.Grant them both heavenly and earthly comfort that they become rich through the acts of righteousness;fill their houses and storage places with all blessings, and may they become worthy of doing Your pleasure at all times, for You are merciful, plenteous in mercy, and righteous.And to you is due glory, with Your good Father, and the Holy Spirit, the Giver of Life, who is of one essence with You, now and forever and unto the age of all ages. Amen."
+    }
+  ]
+}

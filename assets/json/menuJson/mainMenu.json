@@ -48,6 +48,17 @@
             "Enabled": true
         },
         {
+            "EnglishTitle": "Matrimony Prayers",
+            "ArabicTitle": "صلاة الاكليل",
+            "PurchaseKeyDroid": "",
+            "PurchaseKeyIos": "",
+            "hasSubBooks": false,
+            "BookPath": "matrimony",
+            "ImageURL": "WEDDING_CANA",
+            "Enabled": true,
+            "hide": true
+        },
+        {
             "EnglishTitle": "Index",
             "ArabicTitle": "فهرس",
             "PurchaseKeyDroid": "",

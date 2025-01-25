@@ -1,0 +1,45 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة بعد دهن الزيت",
+  "EnglishTitle": "Prayer after Anointing the Oil",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الرب إله القوات، الذي لا تحصى مراحمه، غير المدرك في صلاحه، إقبل إليك تضرعنا. استر على عبديك (...) و [*BRIDE*] وإحرس إتصالهما. وإحفظ مضجعهما نقياً. حصنهما بملائكتك الأطهار. وأرسل علينا من مسكنك المستعد كثرة رأفاتك. بدد زلاتنا الكثيرة بصلاحك، وإنعم علينا أيضاً أن نكون في أماكن راحة قديسيك في ملكوت السموات. بإبنك الوحيد يسوع المسيح ربنا.",
+      "English": "O Lord, the God of hosts, whose mercies are countless, whose goodness is beyond comprehension, accept our supplications unto You. Guard Your two servants [*GROOM*] and [*BRIDE*].Protect their unity. Keep their bed in purity.Fortify them by Your pure angels, and send upon us from Your prepared habitation a multitude of Your compassions.Disperse our many iniquities by Your goodness, and grant us, also, to be in the places of rest of Your saints in the heavenly kingdom, through Your only-begotten Son Jesus Christ, our Lord"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "English": "Lord have mercy. (3)"
+    }
+  ]
+}

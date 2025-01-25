@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "افسس 5:22-6:3",
+  "EnglishTitle": "Ephesians 5:22-6:3",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بولس عبد ربنا يسوع المسيح الرسول المدعو المفرز لبشرى الله.",
+      "English": "Paul the Servant of our Lord Jesus Christ, called to be an apostle appointed to the Gospel of God."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "mother": "LiturgyPauline",
+      "Arabic": "فصل من بشارة معلمنا بولس الرسول الى اهل افسس بركته تكون معنا امين",
+      "English": "A reading from the Epistle of our teacher St.Paul to the Ephesians . May his holy blessings be with us Amen. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أَيُّهَا النِّسَاءُ اخْضَعْنَ لِرِجَالِكُنَّ كَمَا لِلرَّبِّ، لأَنَّ الرَّجُلَ هُوَ رَأْسُ الْمَرْأَةِ كَمَا أَنَّ الْمَسِيحَ أَيْضاً رَأْسُ الْكَنِيسَةِ، وَهُوَ مُخَلِّصُ الْجَسَدِ. وَلَكِنْ كَمَا تَخْضَعُ الْكَنِيسَةُ لِلْمَسِيحِ، كَذَلِكَ النِّسَاءُ لِرِجَالِهِنَّ فِي كُلِّ شَيْءٍ.أَيُّهَا الرِّجَالُ، أَحِبُّوا نِسَاءَكُمْ كَمَا أَحَبَّ الْمَسِيحُ أَيْضاً الْكَنِيسَةَ وَأَسْلَمَ نَفْسَهُ لأَجْلِهَا، لِكَيْ يُقَدِّسَهَا، مُطَهِّراً إِيَّاهَا بِغَسْلِ الْمَاءِ بِالْكَلِمَةِ، لِكَيْ يُحْضِرَهَا لِنَفْسِهِ كَنِيسَةً مَجِيدَةً، لاَ دَنَسَ فِيهَا وَلاَ غَضْنَ أَوْ شَيْءٌ مِنْ مِثْلِ ذَلِكَ، بَلْ تَكُونُ مُقَدَّسَةً وَبِلاَ عَيْبٍ.كَذَلِكَ يَجِبُ عَلَى الرِّجَالِ أَنْ يُحِبُّوا نِسَاءَهُمْ كَأَجْسَادِهِمْ. مَنْ يُحِبُّ امْرَأَتَهُ يُحِبُّ نَفْسَهُ. فَإِنَّهُ لَمْ يُبْغِضْ أَحَدٌ جَسَدَهُ قَطُّ بَلْ يَقُوتُهُ وَيُرَبِّيهِ، كَمَا الرَّبُّ أَيْضاً لِلْكَنِيسَةِ.لأَنَّنَا أَعْضَاءُ جِسْمِهِ، مِنْ لَحْمِهِ وَمِنْ عِظَامِهِ. مِنْ أَجْلِ هَذَا يَتْرُكُ الرَّجُلُ أَبَاهُ وَأُمَّهُ وَيَلْتَصِقُ بِامْرَأَتِهِ، وَيَكُونُ الِاثْنَانِ جَسَداً وَاحِداً.هَذَا السِّرُّ عَظِيمٌ، وَلَكِنَّنِي أَنَا أَقُولُ مِنْ نَحْوِ الْمَسِيحِ وَالْكَنِيسَةِ. وَأَمَّا أَنْتُمُ الأَفْرَادُ، فَلْيُحِبَّ كُلُّ وَاحِدٍ امْرَأَتَهُ هَكَذَا كَنَفْسِهِ، وَأَمَّا الْمَرْأَةُ فَلْتَهَبْ رَجُلَهَا.أَيُّهَا الأَوْلاَدُ، أَطِيعُوا وَالِدِيكُمْ فِي الرَّبِّ لأَنَّ هَذَا حَقٌّ. أَكْرِمْ أَبَاكَ وَأُمَّكَ، الَّتِي هِيَ أَوَّلُ وَصِيَّةٍ بِوَعْدٍ، لِكَيْ يَكُونَ لَكُمْ خَيْرٌ، وَتَكُونُوا طِوَالَ الأَعْمَارِ عَلَى الأَرْضِ.",
+      "English": "Wives, submit to your own husbands, as to the Lord. For the husband is head of the wife, as also Christ is head of the church; and He is the Savior of the body. Therefore, just as the church is subject to Christ, so let the wives be to their own husbands in everything.Husbands, love your wives just as Christ also loved the church and gave Himself for her, that He might sanctify and cleanse her with the washing of water by the word, that He might present her to Himself a glorious church, not having spot or wrinkle or any such thing, but that she should be holy and without blemish.So husbands ought to love their own wives as their own bodies; he who loves his wife loves himself. For no one ever hated his own flesh, but nourishes and cherishes it, just as the Lord does the church.For we are members of His body, of His flesh and of His bones. “For this reason a man shall leave his father and mother and be joined to his wife, and the two shall become one flesh.”This is a great mystery, but I speak concerning Christ and the church. Nevertheless, let each one of you in particular so love his own wife as himself, and let the wife see that she respects her husband.Children, obey your parents in the Lord, for this is right. “Honor your father and mother,” which is the first commandment with promise: “That it may be well with you and you may live long on the earth.”"
+    }
+  ]
+}

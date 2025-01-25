@@ -1,0 +1,482 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "الطلبات",
+  "EnglishTitle": "Litanies and Supplications",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أيها الرب الإله ضابط الكل، الكائن في السماء، إله آبائنا، نطلب إليك أن تسمعنا وترحمنا.",
+      "English": "O Lord God the Pantocrator, who are in heaven, the Lord of our forefathers; we beseech You to hear us and have mercy on us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا الذي خلق السماء والأرض والبحر وكل ما فيها وزينتها بحكمتك، نطلب إليك يا رب أن تسمعنا وترحمنا.",
+      "English": "O You who created the heaven, the earth, and the sea, and everything therein, and ornamented them with Your wisdom. We beseech You to hear us and have mercy on us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا مَنْ صنع الإنسان على صورته ومِثاله، وجعله في فردوس النعيم٬ نسألك يا رب أن تستجيب لنا وترحمنا.",
+      "English": "O You who made man in His image, after His likeness, and placed him in the paradise of joy, we ask You, O Lord, to hear us and have mercy on us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا مَنْ خلق المرأة من جنب آدم وأعطاها له معينة نظيره، نطلب إليك يا رب أن تسمعنا وترحمنا.",
+      "English": "O You who created woman from Adam's side and gave her to him as a helper, fit for him; we beseech You to hear us and have mercy on us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا مَنْ بارك إبراهيم وسارة، وجعلها له زوجة، ومنحه رتبة رئاسة الآباء، نطلب إليك يا رب أن تسمعنا وترحمنا.",
+      "English": "O You who blessed Abraham and Sarah and made her a wife for him and granted him the title of Head of all Patriarchs; we beseech You to hear us and have mercy on us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا مَنْ حفظ إسحق ووفَّق له رفقة وأنقذه من أعدائه، نطلب إليك يا رب أن تسمعنا وترحمنا.",
+      "English": "O You who preserved Isaac and chose for him Rebecca and delivered him from his enemies, we ask You, O Lord, to hear us and have mercy on us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا مَنْ بارك يعقوب وأعطاه راحيل زوجة، وجعله وارث الموعد، نسألك يا رب أن تسمعنا وترحمنا.",
+      "English": "O You who blessed Jacob and gave him Leah as a wife and did grant them to be heirs of the promise; we ask You, O Lord, to hear us and have mercy on us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا مَنْ رفع يوسف ووهب له أسينات زوجة، وبواسطته عُلتَ كل أرض مصر، نطلب إليك يا رب أن تسمعنا وترحمنا.",
+      "English": "O You who raised up Joseph and granted him Asenath as a wife and through him You sustained all the land of Egypt; we ask You, O Lord, to hear us and have mercy"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا مَنْ سُر في آخر الأيام أن يولد من عذراء وأضاء على جنس البشر، نسألك يا رب إستجب لنا وإرحمنا.",
+      "English": " You who were pleased to be born of a virgin in the fullness of time and enlightened mankind; we ask You, O Lord, to hear us and have mercy on us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا مَنْ حضر في عرس قانا الجليل٬ بارك هذا الزواج مثل ما باركت ذاك الزواج، نتضرع إليك يا رب أن تسمعنا وترحمنا.",
+      "English": "O You who attended the wedding of Cana of Galilee, bless this marriage as you blessed that marriage. We beseech You to hear us and have mercy on us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا مَنْ حوَّل الماء خمراً حقيقياً بسلطان لاهوته، بَارِك عبديك وطهرهما بمحبتك للبشر، نطلب إليك يا رب أن تستجب لنا وترحمنا.",
+      "English": "O God who transformed water into genuine wine by the authority of His divinity, bless Your two servants and purify them with Your love for mankind, we ask You, O Lord, to hear us and have mercy on us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " يا مَنْ حل في عرس قانا الجليل، وبَارِك ذاك العرس، وحَوَّل الماء إلى خمر حقيقي بسلطان لاهوته، بارك واستر هذا العرس الذي لعبديك [*GROOM*] و [*BRIDE*] بسلامة وأُلفة ومحبة وإحرسهما، نطلب إليك يا رب أن تسمعنا وترحمنا.",
+      "English": "O You who attended the wedding of Cana of Galilee, and blessed that wedding, and transformed water into genuine wine by the authority of His divinity, bless and guard this wedding of Your two servants [*GROOM*] and (...) in peace, harmony and love and protect them. We ask You, O Lord, to hear us and have mercy on us."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أيها المحسن، الرؤوف، الكثير الصلاح والتحنن، يا رب إجعلنا أن نمجد صلاحك يا محب البشر، نسألك يا رب أن تسمعنا وترحمنا.",
+      "English": "O You who are beneficent and compassionate and full of goodness and affection, O God make us glorify Your goodness, O Lover of Mankind. We ask You, O Lord, to hear us and have mercy on us."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة لعربون الزواج",
+  "EnglishTitle": "Prayer of the Wedding Commitment",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ا الله الذي جبل الإنسان بيديه وحده وأعطاه المرأة عوناً وقوة له، أنت أيضاً الآن يا سيدنا كُن وسيطاً لهذين العروسين، [*GROOM*] ومعينته [*BRIDE*]. صِلْهما بعربون الشركة، وأعطهما علامة إتصالهما، ليكونا بألفة واحدة برباط المحبة، اذ تقول لهما: \"سلامي أعطيه لكما. سلامي أنا أتركه معكما.\" فأنت سلامنا جميعاً. ونرسل لك إلى فوق المجد والكرامة مع إبنك الوحيد والروح القدس المحيي، الآن وكل أوان وإلى دهر الدهور. آمين.",
+      "English": "O God who formed man by His own hands, and gave him the woman for his help and strength, now, also, our Master, be a mediator for the groom and his helpmate, adjoin [*GROOM*] and [*BRIDE*] through the pledge of fellowship, and grant them the sign of their union, so that, through the bond of love, they may be unified in harmony, and say unto them, \"My peace I give you both; My peace I leave with you both.\" For You are the peace of us all,And unto You do we offer the glory and honor with Your only-begotten Son and the Holy Spirit, the Giver of Life,"
+    }
+  ]
+}

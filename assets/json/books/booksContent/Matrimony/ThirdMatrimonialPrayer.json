@@ -1,0 +1,26 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "صلاة ثالثة للزواج",
+  "EnglishTitle": "Third Matrimonial Prayer",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها الرب إلهنا العظيم الأبدي، الذي كوَّنت الحياة مما لم يكن، وخلقت الكون بكلمتك، وجبلت الإنسان بيدك الطاهرة كصورتك ومثالِكَ، ومن الواحد أقمت الآخر إذ قلت أنه لا يحسن أن يكون الرجل وحده، فأتيت بنعاس على آدم فرقد، وأخرجت ضلعاً من جنبه وملأت موضعها لحماً عوضاً عنها.لهذا يترك الرجل أباه وأمه ويلتصق بإمرأته، ويكونان كلاهما جسداً واحداً، وما جمعه الله لا يفرقه إنسان. فيا مَنْ بارك إبراهيم مع سارة، وإسحق مع رفقة، ويعقوب في زواجه، وطهرت كل الذين إجتمعوا بالبركة. الآن أيضاً أيها السيد الرب، إطلع على عبديك [*GROOM*] و [*BRIDE*] معينته. ثبت إتصالهما، إحرس مضجعهما نقياً، استرهما مع بيتهما بيمينك غير المغلوبة. نجهما من كل حسد وكل مكيدة. إحفظهما بإمتزاج واحد وسلام. هب لهما فرحاً وسروراً ليظهرا لك يا الله الحيْ ثمرة الحياة من البطن.باركهما يا الله كما باركت إبراهيم مع سارة، وإسحق مع رفقة، ويعقوب في زواجه. أما الرجال والنساء الذين ها هنا معنا، فباركهم بإسم ربنا وإلهنا ومخلصنا يسوع المسيح، هذا الذي من قبله يليق بك معه المجد مع الروح القدس، الآن وكل أوان وإلى دهر الدهور. آمين.",
+      "English": "O Lord, our God, the great and eternal, who brought life into existence out of nonexistence, and created the universe by Your Logos, and formed man with Your pure Hands, in Your image and after Your likeness, and from one created the other, for You said that it is not good that the man should be alone, so You caused sleep to fall upon Adam, so he slept, and You took a rib from his side and closed up its place with flesh instead of it.For this a man leaves his father and mother and cleaves to his wife, and they both become one body, and what God has joined together let no man put asunder.O You who blessed Abraham with Sarah, Isaac with Rebecca, and Jacob in his marriage, and purified all who were joined in blessing, now, also, O Master Lord, look upon Your two servants [*GROOM*] and [*BRIDE*] his helpmate.Confirm their union, guard their bed in purity. Cover them and their home with Your unconquerable Right Hand.Deliver them from all envy and intrigues. Preserve them in oneness, harmony, and peace, grant them joy and happiness to reveal unto You, O Living God, the fruit of life from the womb.Bless them, O God, as You blessed Abraham with Sarah, and Isaac with Rebecca, and Jacob in his marriage.As for the men and women who are here with us, bless them in the name of our Lord and our God and Savior Jesus Christ,"
+    }
+  ]
+}

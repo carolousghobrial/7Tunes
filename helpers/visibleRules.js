@@ -1246,7 +1246,6 @@ const JohnTheBaptistShow = (motherSource, path) => {
 
     case FeastEnum.EPIPHANY:
     case FeastEnum.EPIPHANY_SECONDDAY:
-      return true;
 
     case FeastEnum.NATIVITY_FAST:
       return isKoiahkOrHathor
