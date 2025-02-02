@@ -898,6 +898,9 @@ const isAdam = (motherSource, path) => {
   if (motherSource === "vespers" && new Date().getDay() === 2) {
     return true;
   }
+  if (motherSource === "vespers" && new Date().getDay() === 6) {
+    return false;
+  }
 
   // If any of the conditions is met, return true, otherwise, return false
   return (
