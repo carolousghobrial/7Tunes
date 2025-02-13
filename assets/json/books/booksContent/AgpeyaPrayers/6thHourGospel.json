@@ -1,0 +1,55 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلما أبصر الجموع صعد إلى الجبل. وعندما جلس تقدم إليه تلاميذه، ففتح فاه وعلمهم قائلا: \r",
+      "English": "And seeing the multitudes, He went up on a mountain, and when He was seated, His disciples came to Him. And He opened His mouth, and taught them, saying:\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "طوبى للمساكين بالروح، لأن لهم ملكوت السموات. طوبى للحزانى الآن، لأنهم يتعزون. طوبى للودعاء، لأنهم يرثون الأرضَ. طوبى للجياع والعطاش إلى البر لأنهم يُشبعون.  طوبى للرحماء لأنهم يُرحمون. طوبى لأنقياء القلب لأنهم يعاينون الله. طوبى لصانعي السلام، لأنهم يُدعَون أبناءَ الله. طوبى للمطرودين من أجل البر لأن لهم ملكوت السموات.\r",
+      "English": "“Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the meek, for they shall inherit the earth. Blessed are those who hunger and thirst for righteousness, for they shall be filled. Blessed are the merciful, for they shall obtain mercy. Blessed are the pure in heart, for they shall see God. Blessed are the peacemakers, for they shall be called sons of God. Blessed are those who are persecuted for righteousness' sake, for theirs is the kingdom of heaven.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " طوبى لكم إذا طردوكم وعيروكم وقالوا فيكم من أجلي كل شر كاذبين. افرحوا وتهللوا لأن أجركم عظيم في السموات، فإنهم هكذا طردوا الأنبياء الذين كانوا قبلكم.\r",
+      "English": "“Blessed are you, when they revile you, and persecute you, and say all kinds of evil against you falsely for My sake. Rejoice and be exceedingly glad, for great is your reward in heaven, for so they persecuted the prophets who were before you.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أنتم مِلح الأرض، فإذا فسد المِلح فبماذا يُملح؟ لا يصلح بعد لشيء، إلا لأن يطرح خارجا وتدوسه الناس.\r",
+      "English": "“You are the salt of the earth; but if the salt loses its flavor, how shall it be seasoned? It is then good for nothing but to be thrown out and trampled underfoot by men.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أنتم نور العالم. لا يمكن أن تخفى مدينة كائنة على جبل. ولا يوقدون سراجا ويضعونه تحت المكيال، بل يضعونه على المنارة فيضيء لكل من في البيت. \r",
+      "English": "“You are the light of the world. A city that is set on a hill cannot be hidden; nor do they light a lamp and put it under a basket, but on a lampstand, and it gives light to all who are in the house.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هكذا فليضئ نوركم قدام الناس، لكي يروا أعمالكم الصالحة فيمجدوا أباكم الذي في السموات. \r",
+      "English": "“Let your light so shine before men, that they may see your good works, and glorify your Father Who is in heaven.”"
+    }
+  ]
+}

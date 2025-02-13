@@ -103,7 +103,7 @@
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheWordLiturgyGospelResponsesGreatLentWeekdaysLiturgyGospelResponse",
             "Rule": 0,
-            "Visible": "isLentWeekdayOrJonah"
+            "Visible": "isLentWeekdayOnly"
         },
         {
             "Type": "Main",

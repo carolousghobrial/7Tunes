@@ -115,17 +115,6 @@
       "dioceseEnglish": "Metropolitan of Los Angeles, all Southern California and Hawaii, USA"
     },
     {
-      "key": "ATHANASIOS",
-      "Arabic": "اثناسيوس",
-      "Coptic": "Aqanacioc",
-      "English": "Athanasios",
-      "Arabiccoptic": "اثناسيوس",
-      "Englishcoptic": "Athanasios",
-      "Rank": "Metropolitan",
-      "dioceseArabic": "مطران طولون ومرسيليا ",
-      "dioceseEnglish": "Metropolitan of Marseille and Primate of the Holy Metropolis of Toulon "
-    },
-    {
       "key": "PAULA",
       "Arabic": "بولا",
       "Coptic": "Pola",
@@ -140,7 +129,7 @@
       "key": "PISSADA",
       "Arabic": "بسادة",
       "Coptic": "Pesada",
-      "English": "Picada",
+      "English": "Pisada",
       "Arabiccoptic": "بسادة",
       "Englishcoptic": "Pissada",
       "Rank": "Metropolitan",
@@ -234,17 +223,6 @@
       "Rank": "Metropolitan",
       "dioceseArabic": "مطران سوهاج",
       "dioceseEnglish": "Metropolitan of Sohag"
-    },
-    {
-      "key": "AGHAPIOS",
-      "Arabic": "أغابيوس",
-      "Coptic": "Agapioc",
-      "English": "Aghapios",
-      "Arabiccoptic": "أغابيوس",
-      "Englishcoptic": "Aghapios",
-      "Rank": "Metropolitan",
-      "dioceseArabic": "مطران ديرمواس ودلجا",
-      "dioceseEnglish": "Metropolitan of Deir Mawas and Delga"
     },
     {
       "key": "THOMAS",
@@ -346,17 +324,6 @@
       "Rank": "Bishop",
       "dioceseArabic": " أسقف برمنجهام وتوابعها",
       "dioceseEnglish": "Bishop of the Holy Diocese of Birmingham"
-    },
-    {
-      "key": "PISENTI",
-      "Arabic": "بيسنتي",
-      "Coptic": "Pisenti ",
-      "English": "Pisenti ",
-      "Arabiccoptic": "بيسنتي",
-      "Englishcoptic": " Pisenti",
-      "Rank": "Bishop",
-      "dioceseArabic": "أسقف حلوان والمعصرة",
-      "dioceseEnglish": "Bishop of the Holy Diocese of Helwan and Al Maasara"
     },
     {
       "key": "MATTHIAS",
@@ -810,6 +777,50 @@
       "dioceseEnglish": "Bishop of the Holy Diocese of El Wady El-Gedid"
     },
     {
+      "key": "MIKHAIL_HELWAN",
+      "Arabic": "ميخائيل",
+      "Coptic": "Mikhail",
+      "English": "Mikhail",
+      "Arabiccoptic": "ميخائيل",
+      "Englishcoptic": "Mikhail",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف لحلوان و المعصرة ",
+      "dioceseEnglish": "Bishop of the Holy Diocese of Helwan and Al Maasara"
+    },
+    {
+      "key": "JOSEPH",
+      "Arabic": "جوزيف",
+      "Coptic": " Josef",
+      "English": " Joseph",
+      "Arabiccoptic": "جوزيف",
+      "Englishcoptic": " Joseph",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف الأبرشية المقدسة لناميبيا وبوتسوانا وزيمبابوي وملاوي.",
+      "dioceseEnglish": " Bishop of the Holy Diocese of Namibia, Botswana, Zimbabwe & Malawi"
+    },
+    {
+      "key": "AXIOS",
+      "Arabic": "اكسيوس",
+      "Coptic": " A]ioc",
+      "English": " Axios",
+      "Arabiccoptic": "اكسيوس",
+      "Englishcoptic": " Axios",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف الأبرشية المقدسة للمنصورة (ليونتوبوليس) والأسقف الفخري للأبرشية الفخرية والمساعدة المقدسة (منديس).",
+      "dioceseEnglish": "Bishop of the Holy Diocese of Mansoura (Leontopolis) and titular bishop of the Titular and Holy Suffragan Diocese of (Mendes)"
+    },
+    {
+      "key": "BISHOY",
+      "Arabic": "بيشوي",
+      "Coptic": "Pi[wi",
+      "English": " Bishoy ",
+      "Arabiccoptic": "بيشوي",
+      "Englishcoptic": " Bishoy ",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف الأبرشية المقدسة لأسوان والمناطق التابعة لها.",
+      "dioceseEnglish": "Bishop of the Holy Diocese of Aswan & affiliate jurisdictions"
+    },
+    {
       "key": "THEOPHILUS",
       "Arabic": "ثاؤفيلوس",
       "Coptic": " Theophilus",
@@ -907,6 +918,17 @@
       "Rank": "Bishop",
       "dioceseArabic": "الأسقف العام لكنائس فيرجينيا بأمريكا",
       "dioceseEnglish": "Bishop of the Holy Diocese of Ashburn, Virginia parts of Richmond, Virginia."
+    },
+    {
+      "key": "BEDABA",
+      "Arabic": "بضابا",
+      "Coptic": " Bedaba",
+      "English": " Bedaba",
+      "Arabiccoptic": "بضابا",
+      "Englishcoptic": " Bedaba",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف الأبرشية المقدسة لنجع حمادي وأبو تشت.",
+      "dioceseEnglish": "Bishop of the Holy Diocese of Nag Hammâdi and Abu Tesht"
     }
   ],
   "General_Bishops": [
@@ -1373,6 +1395,28 @@
       "Rank": "Bishop",
       "dioceseArabic": "أسقف ورئيس دير الأنبا شنوده بسيدني",
       "dioceseEnglish": "Bishop and abbot of the Monastery of St. Shenouda the Archimandrite, in Sydney, New South Wales, Australia"
+    },
+    {
+      "key": "THOMAS_BAHNASA",
+      "Arabic": "توماس",
+      "Coptic": "Qwmac",
+      "English": "Thomas",
+      "Arabiccoptic": "توماس",
+      "Englishcoptic": "Thomas",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس دير السيدة العذراء ورئيس الملائكة ميخائيل في البهنسا، صعيد مصر.",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of St Mary & Archangel Michael in El Bahnasa, Upper Egypt"
+    },
+    {
+      "key": "IKLADIOUS",
+      "Arabic": "إكلاديوس",
+      "Coptic": "Ekladioc",
+      "English": "Ikladious",
+      "Arabiccoptic": "إكلاديوس",
+      "Englishcoptic": "Ikladious",
+      "Rank": "Bishop",
+      "dioceseArabic": "أسقف ورئيس دير القديس باخوميوس (الشايب) في الأقصر، صعيد مصر.",
+      "dioceseEnglish": "Bishop and abbot of the Monastery of St Pakhomios (El-shayeb) in Luxor, Upper Egypt."
     },
     {
       "key": "OULOGIOS",

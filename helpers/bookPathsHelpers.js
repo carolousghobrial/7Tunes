@@ -1586,6 +1586,7 @@ const bookPaths = {
   LiturgyLiturgyOfTheBelieversStGregoryLitanyOfOblations: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/StGregory/LitanyOfOblations.json"),
   LiturgyLiturgyOfTheBelieversStGregoryLitanyOfPeace: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/StGregory/LitanyOfPeace.json"),
   LiturgyLiturgyOfTheBelieversStGregoryLitanyOfPlace: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/StGregory/LitanyOfPlace.json"),
+  LiturgyLiturgyOfTheBelieversStGregoryGregorianGreetOneAnother: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/StGregory/GreetOneAnother.json"),
   LiturgyLiturgyOfTheBelieversStGregoryLitanyOfPope: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/StGregory/LitanyOfPope.json"),
   LiturgyLiturgyOfTheBelieversStGregoryHealingToTheSick: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/StGregory/HealingToTheSick.json"),
   LiturgyLiturgyOfTheBelieversStGregoryInstitutionNarrative: require("../assets/json/books/booksContent/Liturgy/LiturgyOfTheBelievers/StGregory/InstitutionNarrative.json"),

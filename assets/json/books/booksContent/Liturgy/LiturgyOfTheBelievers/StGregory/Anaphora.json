@@ -509,39 +509,6 @@
       "English": "Let us attend.",
       "Arabiccoptic": "إبروسخوومين.",
       "Englishcoptic": "eProskhoomen-."
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "People",
-      "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "الشاروبيم يسجدون لك، والسِّرافيم يمجدونك، صارخين قائلين:",
-      "Coptic": "Nixeroubim ceouw]t `mmok> nem Niceravim ce;`wou nak> euw] `ebol eujw `mmoc>",
-      "English": "The Cherubim worship You, and the Seraphim glorify You, proclaiming and saying,",
-      "Arabiccoptic": "نيشيرأوفيم سيأوأوؤوشت إمموك: نيم نيسيرافيم سيتي ؤو ناك: إيف أوؤوش إيفول إيف جوو إمموس:",
-      "Englishcoptic": "Nisherobim seo-oosht emmok: nem Niseraphim seti-o-oo nak: Ev-osh evol evgoo emmos:"
-    },
-    {
-      "Type": "Base",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "\"قدوس. قدوس. قدوس. رب الصاباؤت. السماء والأرض مملوءتان من مجدك الأقدس.\"",
-      "Coptic": "Je `agioc `agioc `agioc> Kurioc cabawq> `plhrhc `o ouranoc ke `h gh> thc `agiac cou do[hc.",
-      "English": "“Holy, holy, holy, Lord of hosts, heaven and earth are full of Your holy glory.”",
-      "Arabiccoptic": "جي  اجيوس  اجيوس  اجيوس: كيريوس سافاووث: إبليريس  و أورانوس كي  ي جي: تيس  اجياس سأو زوكسيس.",
-      "Englishcoptic": "Je agios agios agios: Keerios savaooth: epleerees o ooranos ke ee gee: tees agias soo zoxees."
     }
   ]
 }

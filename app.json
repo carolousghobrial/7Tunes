@@ -3,8 +3,7 @@
     "name": "7 Tunes",
     "slug": "7-tunes",
     "version": "6.8.6",
-        "scheme": "prod",
-
+    "scheme": "prod",
     "newArchEnabled": true,
     "orientation": "default",
     "icon": "./assets/images//logofinal.png",
@@ -52,8 +51,7 @@
       "url": "https://u.expo.dev/2021c9d7-dd0b-4c29-8a9d-da78153a1d49",
       "enabled": true,
       "fallbackToCacheTimeout": 0,
-      "checkAutomatically": "NEVER"  // Disable automatic updates
-
+      "checkAutomatically": "NEVER"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -61,7 +59,9 @@
     "ios": {
       "infoPlist": {
         "UIStatusBarHidden": true,
-        "NSInAppPurchaseUsageDescription": "7Tunes requires access to in-app purchases to make purchases."
+        "NSInAppPurchaseUsageDescription": "7Tunes requires access to in-app purchases to make purchases.",
+        "ExpoLocalization_supportsRTL": true,
+        "ITSAppUsesNonExemptEncryption": false
       },
       "supportsTablet": true,
       "requireFullScreen": true,

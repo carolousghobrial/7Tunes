@@ -815,6 +815,23 @@ const isLentWeekdayOrJonah = (motherSource, path) => {
 
   return false;
 };
+const isLentWeekdayOnly = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
+  if (currentSeason.key === "GREAT_LENT") {
+    if (
+      (currentSeason.dayOfWeek === 1 && currentSeason.week === 1) ||
+      (currentSeason.dayOfWeek === 5 && currentSeason.week === 7)
+    ) {
+      return false;
+    }
+    if (currentSeason.dayOfWeek > 0 && currentSeason.dayOfWeek < 6) {
+      return true;
+    }
+  }
+
+  return false;
+};
 const isLentWeekdayOrJonahAndLastFirstLent = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (currentSeason.key === "JONAH_FAST") {
@@ -3434,6 +3451,7 @@ const VisibleRules = {
   showLitanyOfOblations: showLitanyOfOblations,
   isLentAndJonah: isLentAndJonah,
   isLentWeekdayOrJonah: isLentWeekdayOrJonah,
+  isLentWeekdayOnly: isLentWeekdayOnly,
   isLentWeekdayOrJonahAndLastFirstLent: isLentWeekdayOrJonahAndLastFirstLent,
   isLentWeekends: isLentWeekends,
   isNOTLentWeekdayOrJonah: isNOTLentWeekdayOrJonah,
