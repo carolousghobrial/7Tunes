@@ -159,7 +159,7 @@
             "Visible": true
         },
         {
-            "Type": "Button",
+            "Type": "PropheciesType",
             "Arabic": "النبوات",
             "English": "Prophecies",
             "Rule": "OpenPageButtonRule",

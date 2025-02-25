@@ -3319,20 +3319,22 @@ const REPLACEBISHOPAVAILABLETHREE = (rule, part) => {
 
 function getAuthor(part, checkList) {
   const completePath = GetTodaysReadingPath(part.mother);
+  console.log(part);
 
-  if (completePath === "Katamaros") {
-    return "NONE";
-  }
+  if (completePath === "Katamaros") return "NONE";
+
   const book = bookPaths[completePath];
 
-  const { EnglishTitle } = book;
+  if (!book) return undefined; // Handle potential missing book paths
 
-  for (const item of checkList) {
-    if (EnglishTitle.includes(item.keyword)) {
-      return item.returnValue;
-    }
-  }
+  var x = checkList.find((item) =>
+    book.EnglishTitle.includes(item.keyword)
+  )?.returnValue;
+
+  console.log(x);
+  return x;
 }
+
 function getGospelAuthor(part) {
   const checkList = [
     { keyword: "Matthew", returnValue: 1 },

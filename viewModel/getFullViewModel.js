@@ -34,7 +34,37 @@ export const keywords = [
   "[*BISHOP_PRESENT3*]",
 ];
 const DailyReadingCalendar = require("../assets/json/DailyReadingCalendar.json");
-
+const GreatFastPropheciesCount = require("../assets/json/GreatFastPropheciesCount.json");
+const ProphecycheckList = [
+  { keyword: "Genesis", returnValue: "Genesis" },
+  { keyword: "Exodus", returnValue: "Exodus" },
+  { keyword: "Leviticus", returnValue: "Leviticus" },
+  { keyword: "Numbers", returnValue: "Numbers" },
+  {
+    keyword: "Deuteronomy",
+    returnValue: "Deuteronomy",
+  },
+  { keyword: "Isaiah", returnValue: "Isaiah" },
+  { keyword: "Jeremiah", returnValue: "Jeremiah" },
+  { keyword: "Lamentations", returnValue: "Lamentations" },
+  { keyword: "Wisdom", returnValue: "Wisdom" },
+  { keyword: "Proverbs", returnValue: "Proverbs" },
+  { keyword: "Job", returnValue: "Job" },
+  { keyword: "Zechariah", returnValue: "Zechariah" },
+  { keyword: "Micah", returnValue: "Micah" },
+  { keyword: "Amos", returnValue: "Amos" },
+  { keyword: "Joel", returnValue: "Joel" },
+  { keyword: "Jonah", returnValue: "Jonah" },
+  { keyword: "Nahum", returnValue: "Nahum" },
+  { keyword: "Zephaniah", returnValue: "Zephaniah" },
+  { keyword: "Joshua the son of Sirach", returnValue: "Sirach" },
+  { keyword: "Malachi", returnValue: "Malachi" },
+  { keyword: "Hosea", returnValue: "Hosea" },
+  { keyword: "First Kings", returnValue: "Kings1" },
+  { keyword: "Ezekiel", returnValue: "Ezekiel" },
+  { keyword: "Daniel", returnValue: "Daniel" },
+  { keyword: "Tobit", returnValue: "Tobit" },
+];
 export function getFullViewModel(motherSource, mother) {
   let arabicttl = "";
   let copticttl = "";
@@ -51,6 +81,9 @@ export function getFullViewModel(motherSource, mother) {
   visibleHymns.forEach((item) => {
     if (item.Type === "Title") {
       updateTitles(item);
+    } else if (item.Type === "PropheciesType") {
+      addPropheciesForDay();
+      //updateTitles(item);
     } else {
       processItem(item);
     }
@@ -59,6 +92,76 @@ export function getFullViewModel(motherSource, mother) {
   addReturnButton();
 
   return [ViewArray, MenuArray];
+  function addPropheciesForDay() {
+    const currentSeason = useSelector((state) => state.settings.currentSeason);
+    if (!["GREAT_LENT", "JONAH_FAST"].includes(currentSeason.key)) return;
+    if (currentSeason.key === "JONAH_FAST") {
+      const dayOfWeek = daysOfWeek[currentSeason.dayOfWeek];
+      const propheciesCount =
+        GreatFastPropheciesCount?.["Jonah"]?.[dayOfWeek] || 0;
+
+      for (let i = 1; i <= propheciesCount; i++) {
+        const readingPath = `KatamarosGreatFastJonah${dayOfWeek}MatinsProphecy${i}`;
+        const book = bookPaths[readingPath];
+
+        if (!book) continue; // Skip if book path is missing
+
+        const rule = ProphecycheckList.find((item) =>
+          book.EnglishTitle.includes(item.keyword)
+        )?.returnValue;
+
+        [
+          ["PaschaPropheciesIntroduction", rule],
+          [readingPath, 0],
+          ["PaschaPropheciesConclusion", 0],
+        ].forEach(([path, ruleValue]) => {
+          const [view, menu, updatedKey] = getMain(
+            path,
+            motherSource,
+            false,
+            ruleValue,
+            key
+          );
+          key = updatedKey;
+          ViewArray.push(...view);
+          if (menu) MenuArray.push(...menu);
+        });
+      }
+    } else {
+      const lentWeek = `Week${currentSeason.week}`;
+      const dayOfWeek = daysOfWeek[currentSeason.dayOfWeek];
+      const propheciesCount =
+        GreatFastPropheciesCount?.[lentWeek]?.[dayOfWeek] || 0;
+
+      for (let i = 1; i <= propheciesCount; i++) {
+        const readingPath = `KatamarosGreatFast${lentWeek}${dayOfWeek}MatinsProphecy${i}`;
+        const book = bookPaths[readingPath];
+
+        if (!book) continue; // Skip if book path is missing
+
+        const rule = ProphecycheckList.find((item) =>
+          book.EnglishTitle.includes(item.keyword)
+        )?.returnValue;
+
+        [
+          ["PaschaPropheciesIntroduction", rule],
+          [readingPath, 0],
+          ["PaschaPropheciesConclusion", 0],
+        ].forEach(([path, ruleValue]) => {
+          const [view, menu, updatedKey] = getMain(
+            path,
+            motherSource,
+            false,
+            ruleValue,
+            key
+          );
+          key = updatedKey;
+          ViewArray.push(...view);
+          if (menu) MenuArray.push(...menu);
+        });
+      }
+    }
+  }
 
   // Helper functions
   function isHymnVisible(hymn, motherSource, mother) {
@@ -508,117 +611,50 @@ export function GetTodaysReadingPath(path) {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   let filePath = "Katamaros";
 
+  const { key, dayOfWeek, week, copticMonth, copticDay, weekOfMonth } =
+    currentSeason;
+
   const isStandardSeasonSunday =
-    currentSeason.key !== "GREAT_LENT" &&
-    currentSeason.key !== "HOLY_50" &&
-    currentSeason.dayOfWeek === 0 &&
-    currentSeason.key !== "PALM_SUNDAY" &&
-    currentSeason.key !== "RESURRECTION";
+    !["GREAT_LENT", "HOLY_50", "PALM_SUNDAY", "RESURRECTION"].includes(key) &&
+    dayOfWeek === 0;
 
   const isStandardSeasonWeekday =
-    currentSeason.key !== "GREAT_LENT" &&
-    currentSeason.key !== "HOLY_50" &&
-    currentSeason.dayOfWeek !== 0;
-  const isLenten = currentSeason.key === "GREAT_LENT";
-  const isPalmSunday = currentSeason.key === "PALM_SUNDAY";
-  const isLazarusSaturday = currentSeason.key === "LAZARUS_SATURDAY";
-  const isResurrection = currentSeason.key === "RESURRECTION";
-  const isFifties = currentSeason.key === "HOLY_50";
-  const isAscension = currentSeason.key === "ASCENSION";
-  const isPentecost = currentSeason.key === "PENTECOST";
-  if (isResurrection) {
-    filePath = updateFilePath(`FiftiesResurrection`);
-  } else if (isPalmSunday) {
-    filePath = updateFilePath(`GreatFastWeek7Sunday`);
-  } else if (isAscension) {
-    filePath = updateFilePath(`FiftiesWeek6Thursday`);
-  } else if (isPentecost) {
-    filePath = updateFilePath(`FiftiesWeek7Sunday`);
-  } else if (isLazarusSaturday) {
-    filePath = updateFilePath(`GreatFastWeek7Saturday`);
+    !["GREAT_LENT", "HOLY_50"].includes(key) && dayOfWeek !== 0;
+
+  const seasonMappings = {
+    RESURRECTION: "FiftiesResurrection",
+    PALM_SUNDAY: "GreatFastWeek7Sunday",
+    ASCENSION: "FiftiesWeek6Thursday",
+    PENTECOST: "FiftiesWeek7Sunday",
+    LAZARUS_SATURDAY: "GreatFastWeek7Saturday",
+  };
+
+  if (seasonMappings[key]) {
+    filePath = updateFilePath(seasonMappings[key]);
   } else if (isStandardSeasonSunday) {
-    if (currentSeason.key === "NATIVITY") {
-      filePath = updateFilePath(`DaysKoiahk29`);
-    } else if (currentSeason.key === "TWENTYNINTHTH_COPTIC_MONTH") {
-      const day =
-        DailyReadingCalendar[currentSeason.copticMonth][
-          currentSeason.copticDay.toString()
-        ];
-      if (day === "ok") {
-        filePath = updateFilePath(
-          `Days${
-            currentSeason.copticMonth
-          }${currentSeason.copticDay.toString()}`
-        );
-      }
-    } else if (currentSeason.key === "EPIPHANY") {
-      filePath = updateFilePath(`DaysTobe11`);
-    } else if (currentSeason.key === "ANNUNCIATION") {
-      filePath = updateFilePath(`DaysParemhotep29`);
-    } else {
-      const isHathorMonth = currentSeason.copticMonth === "Hathor";
-      const isKoiahkMonth = currentSeason.copticMonth === "Koiahk";
-      const isWeek1to4 =
-        currentSeason.weekOfMonth >= 1 && currentSeason.weekOfMonth <= 4;
-      const isWeek5 = currentSeason.weekOfMonth === 5;
-      const isTakeFromHathorTwo = TakeFromHathorTwo(currentSeason);
-
-      if (isWeek1to4) {
-        filePath = updateFilePath(
-          `Sundays${currentSeason.copticMonth}Week${currentSeason.weekOfMonth}`
-        );
-      } else if (isTakeFromHathorTwo && isHathorMonth && isWeek5) {
-        filePath = updateFilePath("SundaysKoiahkWeek1");
-      }
-    }
+    filePath = getStandardSeasonSundayPath(
+      key,
+      copticMonth,
+      copticDay,
+      weekOfMonth
+    );
   } else if (isStandardSeasonWeekday) {
-    //KatamarosDaysEpep3ApipLiturgyActs
-    if (currentSeason.key === "NATIVITY") {
-      filePath = updateFilePath(`DaysKoiahk29`);
-    } else if (currentSeason.key === "EPIPHANY") {
-      filePath = updateFilePath(`DaysTobe11`);
-    } else if (currentSeason.key === "JONAH_FAST") {
-      filePath = updateFilePath(
-        `GreatFastJonah${daysOfWeek[currentSeason.dayOfWeek]}`
-      );
-    } else if (currentSeason.key === "JONAH_FEAST") {
-      filePath = updateFilePath(`JonahPassover`);
-    } else {
-      //    //KatamarosDaysEpep3ApipLiturgyActs
-
-      const day =
-        DailyReadingCalendar[currentSeason.copticMonth][
-          currentSeason.copticDay.toString()
-        ];
-      if (day === "ok") {
-        filePath = updateFilePath(
-          `Days${
-            currentSeason.copticMonth
-          }${currentSeason.copticDay.toString()}`
-        );
-      } else {
-        // Extract the number
-        let number = day.match(/\d+/)[0];
-
-        // Extract the text
-        let text = day.match(/[a-zA-Z]+/)[0];
-        filePath = updateFilePath(`Days${text}${number}`);
-      }
-    }
-  } else if (isFifties) {
-    //KatamarosFiftiesWeek3SundayLiturgyActs
-    filePath = updateFilePath(
-      `FiftiesWeek${currentSeason.week}${daysOfWeek[currentSeason.dayOfWeek]}`
+    filePath = getStandardSeasonWeekdayPath(
+      key,
+      copticMonth,
+      copticDay,
+      dayOfWeek
     );
-  } else if (isLenten) {
-    filePath = updateFilePath(
-      `GreatFastWeek${currentSeason.week}${daysOfWeek[currentSeason.dayOfWeek]}`
-    );
+  } else if (key === "HOLY_50") {
+    filePath = updateFilePath(`FiftiesWeek${week}${daysOfWeek[dayOfWeek]}`);
+  } else if (key === "GREAT_LENT") {
+    filePath = updateFilePath(`GreatFastWeek${week}${daysOfWeek[dayOfWeek]}`);
   }
+
   return filePath;
 
   function updateFilePath(commonPart) {
-    const liturgyPaths = [
+    const liturgyPaths = new Set([
       "VespersPsalm",
       "VespersGospel",
       "MatinsPsalm",
@@ -644,12 +680,72 @@ export function GetTodaysReadingPath(path) {
       "LiturgyActsCoptic",
       "EveningPsalm",
       "EveningGospel",
-    ];
-    if (liturgyPaths.includes(path)) {
-      return filePath + commonPart + path;
-    } else {
-      return filePath;
+    ]);
+
+    return liturgyPaths.has(path) ? filePath + commonPart + path : filePath;
+  }
+
+  function getStandardSeasonSundayPath(
+    key,
+    copticMonth,
+    copticDay,
+    weekOfMonth
+  ) {
+    const specialDays = {
+      NATIVITY: "DaysKoiahk29",
+      EPIPHANY: "DaysTobe11",
+      ANNUNCIATION: "DaysParemhotep29",
+    };
+
+    if (specialDays[key]) {
+      return updateFilePath(specialDays[key]);
     }
+
+    if (key === "TWENTYNINTHTH_COPTIC_MONTH") {
+      return DailyReadingCalendar[copticMonth][copticDay.toString()] === "ok"
+        ? updateFilePath(`Days${copticMonth}${copticDay}`)
+        : filePath;
+    }
+
+    const isHathorMonth = copticMonth === "Hathor";
+    const isKoiahkMonth = copticMonth === "Koiahk";
+    const isWeek1to4 = weekOfMonth >= 1 && weekOfMonth <= 4;
+    const isWeek5 = weekOfMonth === 5;
+    const isTakeFromHathorTwo = TakeFromHathorTwo(currentSeason);
+
+    if (isWeek1to4) {
+      return updateFilePath(`Sundays${copticMonth}Week${weekOfMonth}`);
+    } else if (isTakeFromHathorTwo && isHathorMonth && isWeek5) {
+      return updateFilePath("SundaysKoiahkWeek1");
+    }
+
+    return filePath;
+  }
+
+  function getStandardSeasonWeekdayPath(
+    key,
+    copticMonth,
+    copticDay,
+    dayOfWeek
+  ) {
+    const specialDays = {
+      NATIVITY: "DaysKoiahk29",
+      EPIPHANY: "DaysTobe11",
+      JONAH_FAST: `GreatFastJonah${daysOfWeek[dayOfWeek]}`,
+      JONAH_FEAST: "JonahPassover",
+    };
+
+    if (specialDays[key]) {
+      return updateFilePath(specialDays[key]);
+    }
+
+    const day = DailyReadingCalendar[copticMonth][copticDay.toString()];
+    if (day === "ok") {
+      return updateFilePath(`Days${copticMonth}${copticDay}`);
+    }
+
+    const [_, number, text] = day.match(/(\d+)|([a-zA-Z]+)/g) || [];
+    return number && text ? updateFilePath(`Days${text}${number}`) : filePath;
   }
 }
 
