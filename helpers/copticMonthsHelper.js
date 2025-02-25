@@ -176,6 +176,8 @@ export function getCopticFastsFeasts(yearSelected, date) {
 
   // fasts
   var lent = moment(resurrection).subtract(55, "days");
+  var preLentBeginning = moment(lent).subtract(2, "days");
+
   var apostlesFast = moment(pentecost).add(1, "days");
   var StMaryFast = moment([yearSelected, 7, 7]);
   var nativityParamoun = getParamounDate(nativity);
@@ -547,6 +549,15 @@ export function getCopticFastsFeasts(yearSelected, date) {
     end: resurrection,
     copticStartDate: getCopticDateByDate(lent),
     copticEndDate: getCopticDateByDate(resurrection),
+    major: true,
+  });
+  fastFeasts.push({
+    key: "GREAT_LENT_PREP",
+    type: "fast",
+    start: preLentBeginning,
+    end: lent,
+    copticStartDate: getCopticDateByDate(preLentBeginning),
+    copticEndDate: getCopticDateByDate(lent),
     major: true,
   });
   fastFeasts.push({

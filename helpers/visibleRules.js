@@ -187,6 +187,18 @@ const isLordsFeasts = (motherSource, path) => {
       return false;
   }
 };
+const isFirstMondayOrLastFridayOfLent = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  if (currentSeason.key === "GREAT_LENT") {
+    if (currentSeason.dayOfWeek === 1 && currentSeason.week === 1) {
+      return true;
+    } else if (currentSeason.dayOfWeek === 5 && currentSeason.week === 7) {
+      return true;
+    }
+  }
+  return false;
+  console.log(currentSeason);
+};
 const FeastsAndFastsOfStMaryAndHeavenlies = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (FeastsAndFastsOfStMary(motherSource, path)) {
@@ -464,6 +476,9 @@ const isSeason = (motherSource, path) => {
       return false;
     case "GREAT_LENT":
       if (lowerPath?.includes("lent")) {
+        if (isFirstMondayOrLastFridayOfLent(motherSource, path)) {
+          if (lowerPath?.includes("weekend")) return true;
+        }
         if (lowerPath?.includes("weekend")) {
           if (currentSeason.dayOfWeek === 6 || currentSeason.dayOfWeek === 0) {
             return true;
@@ -3520,5 +3535,6 @@ const VisibleRules = {
   FeastsAndFastsOfStMary: FeastsAndFastsOfStMary,
   isLordsFeasts: isLordsFeasts,
   FeastsAndFastsOfStMaryAndHeavenlies: FeastsAndFastsOfStMaryAndHeavenlies,
+  isFirstMondayOrLastFridayOfLent: isFirstMondayOrLastFridayOfLent,
 };
 export default VisibleRules;

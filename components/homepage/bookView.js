@@ -25,7 +25,7 @@ function BookView({ item, onClick, onLongPress }) {
     <TouchableOpacity
       style={[styles.card, { width: cardWidth, height: cardHeight }]}
       onPress={() => onClick(item)}
-      onLongPress={() => onLongPress(item)}
+      // onLongPress={() => onLongPress(item)}
       android_ripple={{ color: "#D3D3D3" }}
     >
       <ImageBackground

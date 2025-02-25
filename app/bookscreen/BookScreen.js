@@ -107,29 +107,25 @@ const BookScreen = () => {
     // If we found the required number of unique paths, return the slice; otherwise, return all data
     return endIndex !== -1 ? data.slice(0, endIndex + 1) : data;
   }
-
   const handleViewableItemsChanged = useCallback(
     ({ viewableItems }) => {
       const firstItem = viewableItems[0]?.item;
-
       if (!firstItem) return;
 
       const newPath = firstItem.part?.Path || firstItem.path;
+      if (!newPath || currentPath === newPath) return;
 
-      if (newPath && currentPath !== newPath) {
-        setCurrentPath(newPath);
+      setCurrentPath(newPath);
 
-        setBookContents((prevContents) => {
-          const uniquePaths = prevContents.map(
-            (item) => item.path || item.part?.Path
-          );
-          return getFirstContinuousRangeWithUniquePaths(
-            1,
-            values[0],
-            uniquePaths
-          );
-        });
-      }
+      setBookContents((prevContents) => {
+        const uniquePaths = new Set(
+          prevContents.map((item) => item.path || item.part?.Path)
+        );
+
+        return getFirstContinuousRangeWithUniquePaths(1, values[0], [
+          ...uniquePaths,
+        ]);
+      });
     },
     [currentPath, values]
   );

@@ -318,7 +318,7 @@
             "Switch": "LiturgyLiturgyOfTheBelieversStGregoryTheConfession"
         },
         {
-            "Type": "Accordion",
+            "Type": "Button",
             "Arabic": "التوزيع",
             "English": "Distribution of the Holy Mysteries",
             "Rule": "OpenNewPageButtonRule",

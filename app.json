@@ -50,8 +50,8 @@
     "updates": {
       "url": "https://u.expo.dev/2021c9d7-dd0b-4c29-8a9d-da78153a1d49",
       "enabled": true,
-      "fallbackToCacheTimeout": 0,
-      "checkAutomatically": "NEVER"
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+            "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"

@@ -157,6 +157,7 @@ const Languages = {
     FEAST_OF_CROSS_3_FACT:
       "The first feast is on Tout 17, (c. September 27). It commemorates the dedication of the Church of the Holy Cross which was built by Queen Helen, the mother of Emperor Constantine. During these two feasts the church conducts a procession similar to that of Palm-Sunday and uses the same tone in chanting (Shannon-Hosanna), to announce that the cause of her joy with the Cross is the openness of the hearts (the inner Jerusalem) to receive the Savior as the King who reigns within us.",
     GREAT_LENT: "Great Lent",
+    GREAT_LENT_PREP: "Pre Great Lent",
     HOLY_WEEK: "Holy Week",
     FAST_OF_APOSTLES: "Fast of the Apostles",
     FAST_STMARY: "Fast of St. Mary",
