@@ -156,16 +156,20 @@ const isStandardSeasonWithStMary = (motherSource, path) => {
 const FeastsAndFastsOfStMary = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
 
-  if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
-    return true;
-  }
   switch (currentSeason.key) {
     case FeastEnum.FAST_STMARY:
     case FeastEnum.ASSUMPTION_STMARY:
       if (path?.toLowerCase()?.includes(motherSource)) {
         return true;
       }
-
+      return false;
+    case "STANDARD":
+      if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
+        if (path?.toLowerCase()?.includes(motherSource)) {
+          return true;
+        }
+        return false;
+      }
     default:
       return false;
   }
@@ -197,7 +201,6 @@ const isFirstMondayOrLastFridayOfLent = (motherSource, path) => {
     }
   }
   return false;
-  console.log(currentSeason);
 };
 const FeastsAndFastsOfStMaryAndHeavenlies = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -2433,212 +2436,6 @@ const REPLACEPAULINEAUTHOR = (author, part) => {
       };
   }
 };
-const REPLACEMATINSPROPHECIES = (author, part) => {
-  prophet = getMatinsProphecyAuthor(part);
-
-  switch (prophet) {
-    case "Genesis":
-      return {
-        english: " The book of Genesis of Moses",
-        coptic: " `pjwm `n;Genecic `nte Mw`ucic",
-        arabic: "  سفر التكوين لموسى  ",
-        englishcoptic: " Epgom enti-jenesis ente Moysis",
-        arabiccoptic: " تيجنسيس انتى موسيس  . ",
-      };
-    case "Exodus":
-      return {
-        english: " The book of Exodus of Moses",
-        coptic: " `pjwm `nte Pido[odoc `nte Mw`ucic",
-        arabic: "  سفر الخروج لموسى  ",
-        englishcoptic: " Epgom ente pidoxodos ente Moysis",
-        arabiccoptic: " إبجوم انتى ذوكصوذوس انتى موسيس  . ",
-      };
-    case "Leviticus":
-      return {
-        english: " The book of Leviticus of Moses",
-        coptic: " `pjwm nte piLeuitikon `nte Mw`ucic",
-        arabic: "  سفر اللاويين لموسى  ",
-        englishcoptic: " Epgom ente pi-levitikon ente Moysis",
-        arabiccoptic: " إبجوم انتى بيليفيتيكون انتى موسيس  . ",
-      };
-    case "Numbers":
-      return {
-        english: " The book of Numbers of Moses",
-        coptic: " `pjwm `nte pi`ariqmoc`nte Mw`ucic",
-        arabic: "  سفر العدد لموسى  ",
-        englishcoptic: " Epgom ente pi-arithmos ente Moysis",
-        arabiccoptic: " إبجوم انتى بي اريثموس انتى موسيس  . ",
-      };
-    case "Deuteronomy":
-      return {
-        english: " The book of Deuteronomy of Moses",
-        coptic: " `pjwm nte Pideuteronomion `nte Mw`ucic",
-        arabic: "  سفر التثنية لموسى  ",
-        englishcoptic: " Epgom ente Pidet-rono-meyon ente Moysis",
-        arabiccoptic: " إبجوم انتى بيديترونوميون انتى موسيس  . ",
-      };
-    case "Isaiah":
-      return {
-        english: " Isaiah",
-        coptic: "Hcai`hac",
-        arabic: "  اشعياء ",
-        englishcoptic: " Isa-eyas",
-        arabiccoptic: " ايسائياس . ",
-      };
-    case "Jeremiah":
-      return {
-        english: " Jeremiah",
-        coptic: "Iermiac",
-        arabic: "  إرميا ",
-        englishcoptic: " Yermeyas",
-        arabiccoptic: " إريمياس",
-      };
-    case "Lamentations":
-      return {
-        english: " The Lamentations of Jeremiah",
-        coptic: " qrinoi Iermiac",
-        arabic: "مراثي إرميا ",
-        englishcoptic: " Ethri-noi Yermeyas ",
-        arabiccoptic: " إثرينوي إريمياس  ",
-      };
-    case "Wisdom":
-      return {
-        english: " The book of Wisdom of Solomon",
-        coptic: " ;covi`a `nte Colomwn",
-        arabic: "  سفر الحكمة لسليمان الحكيم ",
-        englishcoptic: " Ti-Sofia ente Solomon ",
-        arabiccoptic: " تي سوفياانتى سولومون ",
-      };
-    case "Proverbs":
-      return {
-        english: " The Proverbs of Solomon",
-        coptic: " niparoimia `nte Colomwn",
-        arabic: "  سفر الأمثال لسليمان الحكيم",
-        englishcoptic: " ni-paroi-mia ente Solomon",
-        arabiccoptic: " ني باروميا انتى سولومون ",
-      };
-    case "Job":
-      return {
-        english: " Job",
-        coptic: " Iwb pi`qmhi",
-        arabic: "  أيوب الصديق ",
-        englishcoptic: " Yob pi-ethmi",
-        arabiccoptic: " يوب بي إثمي",
-      };
-    case "Zechariah":
-      return {
-        english: " Zechariah",
-        coptic: " Zaxariac",
-        arabic: "  زكريا ",
-        englishcoptic: " Zakhareyas",
-        arabiccoptic: " زخارياس",
-      };
-    case "Micah":
-      return {
-        english: " Micah",
-        coptic: " Mixeoc",
-        arabic: "  ميخا",
-        englishcoptic: " Mikhe-os",
-        arabiccoptic: " ميخيئوس ",
-      };
-    case "Amos":
-      return {
-        english: " Amos",
-        coptic: " Amoc",
-        arabic: "  عاموس ",
-        englishcoptic: " Amos",
-        arabiccoptic: " اموس . ",
-      };
-    case "Joel":
-      return {
-        english: "Joel",
-        coptic: " Iouhl",
-        arabic: "  يوئيل ",
-        englishcoptic: " Yo-eel",
-        arabiccoptic: "يوئيل . ",
-      };
-    case "Jonah":
-      return {
-        english: " Jonah ",
-        coptic: " Iwna ",
-        arabic: "  يونان",
-        englishcoptic: " Yona",
-        arabiccoptic: "  يونا  ",
-      };
-    case "Nahum":
-      return {
-        english: " Nahum",
-        coptic: " Naoum",
-        arabic: "  ناحوم ",
-        englishcoptic: " Na-om",
-        arabiccoptic: " ناؤوم ",
-      };
-    case "Zephaniah":
-      return {
-        english: "Zephaniah",
-        coptic: " Covoniac ",
-        arabic: "  صفنيا",
-        englishcoptic: " Sofonias",
-        arabiccoptic: " صوفونياس ",
-      };
-    case "Sirach":
-      return {
-        english: "Joshua the son of Sirach",
-        coptic: " Ihcou `p]hri `nCirax",
-        arabic: "  يشوع ابن سيراخ  ",
-        englishcoptic: " Isou epshiri en-Sirakh ",
-        arabiccoptic: " ايسو ابشيري ان سيراخ ",
-      };
-    case "Tobit":
-      return {
-        english: "the book of Tobit",
-        coptic: " ",
-        arabic: "  طوبيا ",
-        englishcoptic: "  ",
-        arabiccoptic: " ",
-      };
-    case "Malachi":
-      return {
-        english: " Malachi",
-        coptic: " Malaxiac",
-        arabic: "  ملاخي ",
-        englishcoptic: " Malakheyas",
-        arabiccoptic: " مالاخياس",
-      };
-    case "Hosea":
-      return {
-        english: "Hosea",
-        coptic: " Wci`e",
-        arabic: " هوشع ",
-        englishcoptic: " Osey-e ",
-        arabiccoptic: " اوسيا ",
-      };
-    case "Kings1":
-      return {
-        english: "the Book of First Kings",
-        coptic: " qmetouro `n a/",
-        arabic: "  سفر الملوك الأول ",
-        englishcoptic: " ethmetoro en o-weet",
-        arabiccoptic: " إثميت أورو ان أوييت",
-      };
-    case "Ezekiel":
-      return {
-        english: "Ezekiel",
-        coptic: " Iezekihl",
-        arabic: "  حزقيال ",
-        englishcoptic: " Ezeki-el",
-        arabiccoptic: " إزيكييل ",
-      };
-    case "Daniel":
-      return {
-        english: "Daniel",
-        coptic: " Danihl",
-        arabic: "  دانيال ",
-        englishcoptic: " Dani-eel",
-        arabiccoptic: " دانييل . ",
-      };
-  }
-};
 
 const REPLACPASCHAHOURDAY = (paschaHourDay, part) => {
   switch (paschaHourDay) {
@@ -2938,9 +2735,7 @@ const REPLACPASCHAHOURDAY = (paschaHourDay, part) => {
 
 const REPLACEPROPHETS = (prophet, part) => {
   var updatedProphet = prophet;
-  if (prophet?.includes("MatinsProphecy")) {
-    updatedProphet = getMatinsProphecyAuthor(prophet);
-  }
+  console.log(updatedProphet);
   switch (updatedProphet) {
     case "Genesis":
       return {
@@ -2974,13 +2769,13 @@ const REPLACEPROPHETS = (prophet, part) => {
         englishcoptic: " Epgom ente pi-arithmos ente Moysis",
         arabiccoptic: " إبجوم انتى بي اريثموس انتى موسيس  . ",
       };
-    case "Deuterodasnomy":
+    case "Deuteronomy":
       return {
         english: " The book of Deuteronomy of Moses",
         coptic: " `pjwm nte Pideuteronomion `nte Mw`ucic",
-        arabic: "  سفر التثنية لموسى  ",
+        arabic: "سفر التثنية لموسى  ",
         englishcoptic: " Epgom ente Pidet-rono-meyon ente Moysis",
-        arabiccoptic: " إبجوم انتى بيديترونوميون انتى موسيس  . ",
+        arabiccoptic: "إبجوم انتى بيديترونوميون انتى موسيس  . ",
       };
     case "Isaiah":
       return {
@@ -3319,7 +3114,6 @@ const REPLACEBISHOPAVAILABLETHREE = (rule, part) => {
 
 function getAuthor(part, checkList) {
   const completePath = GetTodaysReadingPath(part.mother);
-  console.log(part);
 
   if (completePath === "Katamaros") return "NONE";
 
@@ -3327,12 +3121,8 @@ function getAuthor(part, checkList) {
 
   if (!book) return undefined; // Handle potential missing book paths
 
-  var x = checkList.find((item) =>
-    book.EnglishTitle.includes(item.keyword)
-  )?.returnValue;
-
-  console.log(x);
-  return x;
+  return checkList.find((item) => book.EnglishTitle.includes(item.keyword))
+    ?.returnValue;
 }
 
 function getGospelAuthor(part) {
@@ -3500,7 +3290,6 @@ const VisibleRules = {
   isApostlesFeast: isApostlesFeast,
   isNotSaturday: isNotSaturday,
   IsLiturgy: IsLiturgy,
-  REPLACEMATINSPROPHECIES: REPLACEMATINSPROPHECIES,
   inRaisingOfIncense: inRaisingOfIncense,
   isResurrectionFeast: isResurrectionFeast,
   isPentecostFeast: isPentecostFeast,

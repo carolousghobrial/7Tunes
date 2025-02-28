@@ -1,25 +1,38 @@
 import React, { useState, useRef, useCallback, useEffect, memo } from "react";
+import { createDrawerNavigator } from "@react-navigation/drawer";
+import {
+  DrawerContentScrollView,
+  DrawerItemList,
+  DrawerItem,
+} from "@react-navigation/drawer";
+import MenuItem from "../../components/BottomBar/MenuItem.js";
+import SettingsScreen from "../(tabs)/settings.js";
+import { NavigationContainer } from "@react-navigation/native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
-
 import {
   StyleSheet,
   Text,
   FlatList,
   Image,
+  SafeAreaView,
+  ImageBackground,
   ActivityIndicator,
-  Alert,
-  Pressable,
   TouchableOpacity,
+  useWindowDimensions,
   View,
   Platform,
-  SafeAreaView,
-  useWindowDimensions,
 } from "react-native";
+import { Entypo } from "@expo/vector-icons";
+
 import {
   BottomSheetModalProvider,
   BottomSheetModal,
 } from "@gorhom/bottom-sheet";
+import AccordionView from "../../components/ViewTypes/AccordionView.js";
+import { Ionicons } from "@expo/vector-icons";
+import { useRoute } from "@react-navigation/native"; // Use for receiving params from navigation
+
 import BaseView from "../../components/ViewTypes/BaseView";
 import MelodyView from "../../components/ViewTypes/MelodyView";
 import TitleView from "../../components/ViewTypes/TitleView";
@@ -32,39 +45,14 @@ import ContentsModal from "../../components/BottomBar/ContentsModal";
 import { getColor } from "../../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../../viewModel/getFullViewModel";
 import FloatingButton from "../../components/ViewTypes/FloatingBishopButton";
-import { PanGestureHandler, State } from "react-native-gesture-handler";
-import AccordionView from "../../components/ViewTypes/AccordionView.js";
-import { useLocalSearchParams, useNavigation, useRouter } from "expo-router";
+import { useNavigation, useRouter, useLocalSearchParams } from "expo-router";
 
-const HeaderRightButtons = memo(({ onPressSettings, onPressContents }) => (
-  <>
-    <TouchableOpacity
-      style={styles.settingsHeaderButton}
-      onPressIn={onPressSettings}
-    >
-      <MaterialCommunityIcons
-        name="cog"
-        size={30}
-        color={getColor("LabelColor")}
-      />
-    </TouchableOpacity>
-    <TouchableOpacity style={styles.headerButton} onPressIn={onPressContents}>
-      <MaterialCommunityIcons
-        name="table-of-contents"
-        size={40}
-        color={getColor("LabelColor")}
-      />
-    </TouchableOpacity>
-  </>
-));
-
-// renderItems function
+const Drawer = createDrawerNavigator();
 
 const BookScreen = () => {
-  const router = useRouter();
   const dispatch = useDispatch();
   const flatListRef = useRef();
-  const { bookPath, motherSource, bishopButton, indexToScroll, Switch } =
+  const { bookPath, motherSource, indexToScroll, bishopButton, Switch } =
     useLocalSearchParams();
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
@@ -110,51 +98,55 @@ const BookScreen = () => {
   const handleViewableItemsChanged = useCallback(
     ({ viewableItems }) => {
       const firstItem = viewableItems[0]?.item;
-      if (!firstItem) return;
+      const newPath = firstItem?.part?.Path || firstItem?.path;
 
-      const newPath = firstItem.part?.Path || firstItem.path;
-      if (!newPath || currentPath === newPath) return;
+      if (!newPath) return;
 
-      setCurrentPath(newPath);
+      setCurrentPath((prevPath) => {
+        if (prevPath === newPath) return prevPath; // Avoid unnecessary state updates
 
-      setBookContents((prevContents) => {
+        // Compute unique paths only if `newPath` changes
         const uniquePaths = new Set(
-          prevContents.map((item) => item.path || item.part?.Path)
+          bookContents.map((item) => item.path || item.part?.Path)
         );
 
-        return getFirstContinuousRangeWithUniquePaths(1, values[0], [
-          ...uniquePaths,
-        ]);
+        setBookContents(
+          getFirstContinuousRangeWithUniquePaths(1, values[0], [...uniquePaths])
+        );
+
+        return newPath;
       });
     },
-    [currentPath, values]
+    [bookContents, values]
   );
 
   //const [bookContents, bookContents] = boo;
   const [isLoading, setIsLoading] = useState(true);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const isTablet = useSelector((state) => state.settings.isTablet);
-  const menuData = values[1];
-  const bottomSheetRef = useRef(null);
-  const contentsSheetRef = useRef(null);
   const navigation = useNavigation();
-  const snapPoints = ["90%"];
 
   useEffect(() => {
     const fontFamily = appLanguage === "eng" ? "english-font" : "arabic-font";
     const fontSize = isTablet ? 30 : 15;
 
-    navigation.setOptions({
-      headerRight: () => (
-        <HeaderRightButtons
-          onPressSettings={settingsPressed}
-          onPressContents={contentsPressed}
-        />
-      ),
+    navigation.getParent()?.setOptions({
       title: bookContents[0]?.part?.English || "Default Title",
       headerStyle: {
         backgroundColor: NavigationBarColor,
       },
+      headerRight: () => (
+        <TouchableOpacity
+          style={styles.headerButton}
+          onPressIn={() => navigation.openDrawer()}
+        >
+          <MaterialCommunityIcons
+            name="table-of-contents"
+            size={40}
+            color={labelColor}
+          />
+        </TouchableOpacity>
+      ),
       headerTitleStyle: {
         fontSize,
         fontFamily,
@@ -165,16 +157,11 @@ const BookScreen = () => {
     }, 10);
   }, [appLanguage, bookContents, flatListRef]);
 
-  const settingsPressed = () => bottomSheetRef?.current.present();
-  const contentsPressed = () => contentsSheetRef?.current.present();
-  const contentsClose = () => contentsSheetRef?.current.dismiss();
-
   const scrollToKey = (key) => {
     try {
       const targetIndex = values[0]?.findIndex(
         ({ key: itemKey }) => itemKey === key.key
       );
-
       if (targetIndex === -1) return; // Exit if the key is not found
 
       setIsLoading(true); // Start loading
@@ -209,7 +196,15 @@ const BookScreen = () => {
       }
     }
   };
+  const route = useRoute();
 
+  const { index } = route.params || {};
+
+  useEffect(() => {
+    if (index) {
+      scrollToKey(index);
+    }
+  }, [index]);
   const loadDataUntilIndex = (targetIndex) => {
     // Avoid redundant data loading
     setBookContents((prevContents) => {
@@ -231,12 +226,11 @@ const BookScreen = () => {
   };
 
   const scrollToIndex = (targetIndex) => {
-    flatListRef.current.scrollToIndex({
+    flatListRef.current?.scrollToIndex({
       index: targetIndex,
       animated: false,
     });
     setIsLoading(false); // Stop loading after scrolling is complete
-    contentsSheetRef?.current?.dismiss();
   };
 
   // Handle scroll failures
@@ -303,46 +297,121 @@ const BookScreen = () => {
   }
 
   return (
-    <BottomSheetModalProvider>
-      <SettingsModal bottomSheetRef={bottomSheetRef} snapPoints={snapPoints} />
-      <ContentsModal
-        bottomSheetRef={contentsSheetRef}
-        snapPoints={snapPoints}
-        menuData={menuData}
-        contentsClose={contentsClose}
-        scrollToKey={scrollToKey}
-      />
-      <SafeAreaView
-        key={pageKey}
+    <SafeAreaView
+      key={pageKey}
+      style={{ flex: 1, backgroundColor: pageBackgroundColor }}
+    >
+      <FlatList
+        ref={flatListRef}
         style={{ flex: 1, backgroundColor: pageBackgroundColor }}
-      >
-        <FlatList
-          ref={flatListRef}
-          style={{ flex: 1, backgroundColor: pageBackgroundColor }}
-          initialNumToRender={bookContents.length}
-          showsVerticalScrollIndicator={false}
-          data={bookContents}
-          onViewableItemsChanged={handleViewableItemsChanged}
-          renderItem={renderItems}
-          keyExtractor={(item) => item.key}
-          onScrollToIndexFailed={handleScrollToIndexFailed} // Add error handler
-          bounces={false}
-          removeClippedSubviews={true}
-        />
-        {bishopIsPresent && bishopButton && (
-          <FloatingButton navigation={navigation} />
-        )}
-      </SafeAreaView>
-    </BottomSheetModalProvider>
+        initialNumToRender={bookContents.length}
+        showsVerticalScrollIndicator={false}
+        data={bookContents}
+        onViewableItemsChanged={handleViewableItemsChanged}
+        renderItem={renderItems}
+        keyExtractor={(item) => item.key}
+        onScrollToIndexFailed={handleScrollToIndexFailed} // Add error handler
+        bounces={false}
+        removeClippedSubviews={true}
+      />
+      {bishopIsPresent && bishopButton && (
+        <FloatingButton navigation={navigation} />
+      )}
+    </SafeAreaView>
   );
 };
 
+const DrawerScreen = () => {
+  const { bookPath, motherSource } = useLocalSearchParams();
+  const values = getFullViewModel(bookPath, motherSource);
+  const menuItems = values[1]; // Array of items to populate the drawer
+  const pageBackgroundColor = getColor("pageBackgroundColor");
+  const router = useRouter();
+
+  // Navigation function to reduce repetition
+  const handleNavigateToBookScreen = (props, item) => {
+    props.navigation.navigate("BookScreen", {
+      index: item, // Pass the item to the BookScreen
+    });
+  };
+  const openSettings = (props) => {
+    router.push({
+      pathname: "/bookscreen/settingsModal",
+    });
+  };
+  return (
+    <Drawer.Navigator
+      drawerContent={(props) => (
+        <ImageBackground
+          source={require("../../assets/images/titleBackground.png")}
+          resizeMode="cover"
+          style={[
+            styles.backgroundimage,
+            { backgroundColor: pageBackgroundColor },
+          ]}
+        >
+          <DrawerItemList {...props} />
+
+          <DrawerItem
+            icon={({ color, size }) => (
+              <Ionicons name="settings" color={color} size={size} />
+            )}
+            label="Settings"
+            onPress={() => openSettings(props)}
+          />
+          <DrawerContentScrollView {...props}>
+            {/* Custom Drawer Item */}
+            {menuItems.map((item) => (
+              <TouchableOpacity
+                key={item.key} // Assuming item.id is unique
+                style={styles.drawerItem}
+                onPress={() => handleNavigateToBookScreen(props, item)} // Using extracted function
+              >
+                <MenuItem item={item} />
+              </TouchableOpacity>
+            ))}
+          </DrawerContentScrollView>
+        </ImageBackground>
+      )}
+      screenOptions={{
+        swipeEdgeWidth: 400,
+        headerShown: true,
+        drawerPosition: "right",
+        drawerLabelStyle: {
+          fontSize: 18,
+        },
+        drawerType: "front",
+        drawerActiveTintColor: "#000",
+        drawerInactiveTintColor: "#666",
+      }}
+    >
+      <Drawer.Screen
+        name="BookScreen"
+        component={BookScreen}
+        initialParams={{
+          bookPath: "myHome",
+        }}
+        options={({ route }) => {
+          const { englishTitle } = route.params;
+          return {
+            title: "Return",
+            headerShown: false,
+            drawerIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="book" color={color} size={size} />
+            ),
+          };
+        }}
+      />
+    </Drawer.Navigator>
+  );
+};
+
+export default DrawerScreen;
+
 const styles = StyleSheet.create({
-  settingsHeaderButton: {
-    marginRight: 10,
-    alignSelf: "stretch",
+  backgroundimage: {
+    resizeMode: "cover",
     justifyContent: "center",
+    flex: 1,
   },
 });
-
-export default BookScreen;

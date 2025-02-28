@@ -10,64 +10,76 @@ import {
   Alert,
 } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
-import BookView from "../../components/homepage/bookView";
-import homescreenPaths from "../../helpers/homescreenPaths";
+import BookView from "../../components/homepage/bookView.js";
+import homescreenPaths from "../../helpers/homescreenPaths.js";
 import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/colors";
-import { useState, useEffect, useCallback, useMemo } from "react";
-import { setSeason, setItemPurchased } from "../../stores/redux/settings";
+import { useState, useEffect, useMemo } from "react";
+import { setSeason, setItemPurchased } from "../../stores/redux/settings.js";
 import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
 import Purchases from "react-native-purchases";
 
 const App = () => {
-  const params = useLocalSearchParams();
-  const bookPath = params.bookPath || "myHome";
-  const breadcrumb = useMemo(
-    () =>
-      JSON.parse(params.breadcrumb || '[{"name": "Home", "path": "myHome"}]'),
-    [params.breadcrumb]
-  );
-
+  const {
+    bookPath = "myHome",
+    breadcrumb = JSON.stringify([{ name: "Home", path: "myHome" }]),
+  } = useLocalSearchParams();
   const router = useRouter();
   const dispatch = useDispatch();
 
-  const { darkMode, timeTransition, ...permissions } = useSelector(
-    (state) => state.settings
-  );
+  const {
+    darkMode,
+    timeTransition,
+    standardPsalmodyPermission,
+    kiahkPsalmodyPermission,
+    paschaBookPermission,
+    holyLiturgyPermission,
+  } = useSelector((state) => state.settings);
+
   const [isLoading, setIsLoading] = useState(false);
 
   const activeColors = useMemo(
-    () => (darkMode ? Colors.dark : Colors.light),
+    () => (darkMode ? Colors["dark"] : Colors["light"]),
     [darkMode]
   );
+
+  const breadcrumbParts = useMemo(() => JSON.parse(breadcrumb), [breadcrumb]);
   const books = homescreenPaths[bookPath]?.books || [];
 
-  const handleBookClick = useCallback(
-    async (book) => {
+  const permissionsMap = {
+    standardPsalmodyPermission,
+    kiahkPsalmodyPermission,
+    paschaBookPermission,
+    holyLiturgyPermission,
+  };
+
+  const handleBookClick = async (book) => {
+    try {
       setIsLoading(true);
-      try {
-        if (!book.Enabled) {
-          if (!permissions[book.PermissionStatus]) {
-            await restoreAndPurchase(book);
-          } else {
-            navigateToBook(book);
-          }
+      const isBought = permissionsMap[book.PermissionStatus] || false;
+
+      if (!book.Enabled) {
+        if (!isBought) {
+          await restoreAndPurchase(book);
         } else {
           navigateToBook(book);
         }
-      } catch (error) {
-        console.error("Error handling book click:", error);
-      } finally {
-        setIsLoading(false);
+      } else {
+        navigateToBook(book);
       }
-    },
-    [permissions]
-  );
+    } catch (error) {
+      console.error("Error handling book click:", error);
+      setIsLoading(false);
+    }
+  };
 
   const restoreAndPurchase = async (book) => {
     try {
-      const { entitlements } = await Purchases.restorePurchases();
-      if (entitlements.active[book.PermissionStatus]?.isActive) {
+      const restore = await Purchases.restorePurchases();
+      const isEntitled =
+        restore.entitlements.active[book.PermissionStatus]?.isActive;
+
+      if (isEntitled) {
         dispatch(setItemPurchased({ permissionId: book.PermissionStatus }));
         navigateToBook(book);
       } else {
@@ -77,6 +89,7 @@ const App = () => {
       Alert.alert(
         error.message || "An error occurred while restoring purchases."
       );
+      setIsLoading(false);
     }
   };
 
@@ -89,20 +102,22 @@ const App = () => {
       if (!packageToBuy) throw new Error("No offering available for purchase.");
 
       const { customerInfo } = await Purchases.purchasePackage(packageToBuy);
-      if (!customerInfo.entitlements.active[book.PermissionStatus]?.isActive) {
-        throw new Error("Purchase unsuccessful.");
-      }
+      const isEntitled =
+        customerInfo.entitlements.active[book.PermissionStatus]?.isActive;
+
+      if (!isEntitled) throw new Error("Purchase unsuccessful.");
 
       dispatch(setItemPurchased({ permissionId: book.PermissionStatus }));
       navigateToBook(book);
     } catch (error) {
       Alert.alert(error.message || "An error occurred during purchase.");
+      setIsLoading(false);
     }
   };
 
   const navigateToBook = (book) => {
     const newBreadcrumb = [
-      ...breadcrumb,
+      ...breadcrumbParts,
       { name: book.EnglishTitle, path: book.BookPath },
     ];
     router.push({
@@ -110,23 +125,29 @@ const App = () => {
       params: {
         breadcrumb: JSON.stringify(newBreadcrumb),
         bookPath: book.BookPath,
-        ...(!book.hasSubBooks && {
-          motherSource: book.mother,
-          englishTitle: book.EnglishTitle,
-          arabicTitle: book.ArabicTitle,
-          bishopButton: book.BishopButton,
-        }),
+        ...(book.hasSubBooks
+          ? {}
+          : {
+              motherSource: book.mother,
+              englishTitle: book.EnglishTitle,
+              arabicTitle: book.ArabicTitle,
+              bishopButton: book.BishopButton,
+            }),
       },
     });
+    setIsLoading(false);
   };
 
   const handleBreadcrumbClick = (index) => {
-    const newBreadcrumb = breadcrumb.slice(0, index + 1);
+    const newBreadcrumb = breadcrumbParts.slice(0, index + 1);
+    const newBookPath =
+      newBreadcrumb[newBreadcrumb.length - 1]?.path || "myHome";
+
     router.push({
       pathname: "/",
       params: {
         breadcrumb: JSON.stringify(newBreadcrumb),
-        bookPath: newBreadcrumb[newBreadcrumb.length - 1]?.path || "myHome",
+        bookPath: newBookPath,
       },
     });
   };
@@ -135,11 +156,12 @@ const App = () => {
     dispatch(
       setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
     );
-  }, [timeTransition, dispatch]);
+  }, [timeTransition]);
 
   return (
     <ImageBackground
       source={require("../../assets/images/copticBackground.png")}
+      resizeMode="cover"
       style={styles.backgroundImage}
     >
       <View style={styles.container}>
@@ -156,24 +178,25 @@ const App = () => {
             { backgroundColor: activeColors.NavigationBarColor },
           ]}
         >
-          {breadcrumb.map((crumb, index) => (
+          {breadcrumbParts.map((crumb, index) => (
             <TouchableOpacity
               key={index}
               onPress={() => handleBreadcrumbClick(index)}
               style={[
                 styles.breadcrumbButton,
-                index === breadcrumb.length - 1 && styles.currentBreadcrumb,
+                index === breadcrumbParts.length - 1 &&
+                  styles.currentBreadcrumb,
               ]}
             >
               <Text
                 style={[
                   styles.breadcrumbText,
                   { color: activeColors.PrimaryColor },
-                  index === breadcrumb.length - 1 &&
+                  index === breadcrumbParts.length - 1 &&
                     styles.currentBreadcrumbText,
                 ]}
               >
-                {index > 0 && <Text style={styles.separator}>{" > "}</Text>}
+                {index > 0 && <Text style={styles.separator}> {" > "}</Text>}
                 {crumb.name}
               </Text>
             </TouchableOpacity>
@@ -182,7 +205,7 @@ const App = () => {
 
         {/* Book List */}
         <FlatList
-          data={books.filter((item) => !item.hide)}
+          data={books.filter((item) => item.hide !== true)}
           renderItem={({ item }) => (
             <BookView item={item} onClick={() => handleBookClick(item)} />
           )}
@@ -215,6 +238,7 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
     marginRight: 4,
     borderRadius: 5,
+    justifyContent: "center",
   },
   breadcrumbText: { fontSize: 16 },
   currentBreadcrumbText: {

@@ -24,7 +24,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
   };
 
   return (
-    <TouchableOpacity
+    <View
       style={[
         styles.container,
         {
@@ -33,7 +33,6 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
           backgroundColor: selectedBackgroundColor,
         },
       ]}
-      onPress={handlePress}
     >
       <View style={[styles.textView, { flexDirection }]}>
         <Text
@@ -69,7 +68,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
           </Text>
         </View>
       )}
-    </TouchableOpacity>
+    </View>
   );
 };
 

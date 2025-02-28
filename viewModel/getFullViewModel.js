@@ -109,7 +109,6 @@ export function getFullViewModel(motherSource, mother) {
         const rule = ProphecycheckList.find((item) =>
           book.EnglishTitle.includes(item.keyword)
         )?.returnValue;
-
         [
           ["PaschaPropheciesIntroduction", rule],
           [readingPath, 0],
@@ -142,7 +141,6 @@ export function getFullViewModel(motherSource, mother) {
         const rule = ProphecycheckList.find((item) =>
           book.EnglishTitle.includes(item.keyword)
         )?.returnValue;
-
         [
           ["PaschaPropheciesIntroduction", rule],
           [readingPath, 0],
@@ -527,30 +525,32 @@ function processPart(
 
 function addItemsToArray(part, thisRule) {
   const foundKeyword = findMatchingSubstring(part.English, keywords);
-  const myrule =
-    foundKeyword === "EMPTY"
-      ? null
-      : matchRule(thisRule, part, foundKeyword.replace(/[\*\[\]/]/g, ""));
-  let newPart = { ...part }; // Clone the 'part' object to avoid side effects
-  if (myrule !== null) {
-    newPart = {
-      ...newPart,
-      Arabic: newPart.Arabic?.replace(foundKeyword, myrule.arabic),
-      Arabiccoptic: newPart.Arabiccoptic?.replace(
-        foundKeyword,
-        myrule.arabiccoptic
-      ),
-      Coptic: newPart.Coptic?.replace(foundKeyword, myrule.coptic),
-      English: newPart.English?.replace(foundKeyword, myrule.english),
-      Englishcoptic: newPart.Englishcoptic?.replace(
-        foundKeyword,
-        myrule.englishcoptic
-      ),
-      Rule: thisRule,
-    };
-  }
+  if (foundKeyword === "EMPTY") return part; // Early return if no match
 
-  return newPart;
+  const cleanedKeyword = foundKeyword.replace(/[\*\[\]/]/g, "");
+  const myrule = matchRule(thisRule, part, cleanedKeyword);
+  if (!myrule) return part; // If no rule is found, return original part
+
+  // Clone and update only when necessary
+  const updatedPart = { ...part, Rule: thisRule };
+  const replacements = {
+    Arabic: myrule.arabic,
+    Arabiccoptic: myrule.arabiccoptic,
+    Coptic: myrule.coptic,
+    English: myrule.english,
+    Englishcoptic: myrule.englishcoptic,
+  };
+
+  Object.keys(replacements).forEach((key) => {
+    if (updatedPart[key]) {
+      updatedPart[key] = updatedPart[key].replace(
+        foundKeyword,
+        replacements[key]
+      );
+    }
+  });
+
+  return updatedPart;
 }
 
 const matchRule = (rule, part, item) => {
@@ -617,7 +617,6 @@ export function GetTodaysReadingPath(path) {
   const isStandardSeasonSunday =
     !["GREAT_LENT", "HOLY_50", "PALM_SUNDAY", "RESURRECTION"].includes(key) &&
     dayOfWeek === 0;
-
   const isStandardSeasonWeekday =
     !["GREAT_LENT", "HOLY_50"].includes(key) && dayOfWeek !== 0;
 
@@ -627,32 +626,25 @@ export function GetTodaysReadingPath(path) {
     ASCENSION: "FiftiesWeek6Thursday",
     PENTECOST: "FiftiesWeek7Sunday",
     LAZARUS_SATURDAY: "GreatFastWeek7Saturday",
+    HOLY_50: `FiftiesWeek${week}${daysOfWeek[dayOfWeek]}`,
+    GREAT_LENT: `GreatFastWeek${week}${daysOfWeek[dayOfWeek]}`,
   };
 
   if (seasonMappings[key]) {
-    filePath = updateFilePath(seasonMappings[key]);
-  } else if (isStandardSeasonSunday) {
-    filePath = getStandardSeasonSundayPath(
-      key,
-      copticMonth,
-      copticDay,
-      weekOfMonth
-    );
-  } else if (isStandardSeasonWeekday) {
-    filePath = getStandardSeasonWeekdayPath(
-      key,
-      copticMonth,
-      copticDay,
-      dayOfWeek
-    );
-  } else if (key === "HOLY_50") {
-    filePath = updateFilePath(`FiftiesWeek${week}${daysOfWeek[dayOfWeek]}`);
-  } else if (key === "GREAT_LENT") {
-    filePath = updateFilePath(`GreatFastWeek${week}${daysOfWeek[dayOfWeek]}`);
+    return updateFilePath(seasonMappings[key]);
+  }
+
+  if (isStandardSeasonSunday) {
+    return getStandardSeasonSundayPath();
+  }
+
+  if (isStandardSeasonWeekday) {
+    return getStandardSeasonWeekdayPath();
   }
 
   return filePath;
 
+  /** Updates the file path based on common part */
   function updateFilePath(commonPart) {
     const liturgyPaths = new Set([
       "VespersPsalm",
@@ -682,15 +674,13 @@ export function GetTodaysReadingPath(path) {
       "EveningGospel",
     ]);
 
-    return liturgyPaths.has(path) ? filePath + commonPart + path : filePath;
+    return liturgyPaths.has(path)
+      ? `${filePath}${commonPart}${path}`
+      : filePath;
   }
 
-  function getStandardSeasonSundayPath(
-    key,
-    copticMonth,
-    copticDay,
-    weekOfMonth
-  ) {
+  /** Determines Sunday readings */
+  function getStandardSeasonSundayPath() {
     const specialDays = {
       NATIVITY: "DaysKoiahk29",
       EPIPHANY: "DaysTobe11",
@@ -701,33 +691,30 @@ export function GetTodaysReadingPath(path) {
       return updateFilePath(specialDays[key]);
     }
 
-    if (key === "TWENTYNINTHTH_COPTIC_MONTH") {
-      return DailyReadingCalendar[copticMonth][copticDay.toString()] === "ok"
-        ? updateFilePath(`Days${copticMonth}${copticDay}`)
-        : filePath;
+    if (
+      key === "TWENTYNINTHTH_COPTIC_MONTH" &&
+      DailyReadingCalendar[copticMonth][copticDay] === "ok"
+    ) {
+      return updateFilePath(`Days${copticMonth}${copticDay}`);
     }
 
-    const isHathorMonth = copticMonth === "Hathor";
-    const isKoiahkMonth = copticMonth === "Koiahk";
-    const isWeek1to4 = weekOfMonth >= 1 && weekOfMonth <= 4;
-    const isWeek5 = weekOfMonth === 5;
-    const isTakeFromHathorTwo = TakeFromHathorTwo(currentSeason);
-
-    if (isWeek1to4) {
+    if (weekOfMonth >= 1 && weekOfMonth <= 4) {
       return updateFilePath(`Sundays${copticMonth}Week${weekOfMonth}`);
-    } else if (isTakeFromHathorTwo && isHathorMonth && isWeek5) {
+    }
+
+    if (
+      TakeFromHathorTwo(currentSeason) &&
+      copticMonth === "Hathor" &&
+      weekOfMonth === 5
+    ) {
       return updateFilePath("SundaysKoiahkWeek1");
     }
 
     return filePath;
   }
 
-  function getStandardSeasonWeekdayPath(
-    key,
-    copticMonth,
-    copticDay,
-    dayOfWeek
-  ) {
+  /** Determines weekday readings */
+  function getStandardSeasonWeekdayPath() {
     const specialDays = {
       NATIVITY: "DaysKoiahk29",
       EPIPHANY: "DaysTobe11",
@@ -739,13 +726,15 @@ export function GetTodaysReadingPath(path) {
       return updateFilePath(specialDays[key]);
     }
 
-    const day = DailyReadingCalendar[copticMonth][copticDay.toString()];
+    const day = DailyReadingCalendar[copticMonth]?.[copticDay];
     if (day === "ok") {
       return updateFilePath(`Days${copticMonth}${copticDay}`);
     }
 
-    const [_, number, text] = day.match(/(\d+)|([a-zA-Z]+)/g) || [];
-    return number && text ? updateFilePath(`Days${text}${number}`) : filePath;
+    const matches = day?.match(/(\d+)|([a-zA-Z]+)/g);
+    return matches
+      ? updateFilePath(`Days${matches[1] || ""}${matches[2] || ""}`)
+      : filePath;
   }
 }
 
