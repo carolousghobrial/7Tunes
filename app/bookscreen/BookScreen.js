@@ -62,11 +62,10 @@ const BookScreen = () => {
   );
   const isAndroid = Platform.OS === "ios" ? false : true;
   const values = getFullViewModel(bookPath, motherSource);
-  const [currentPath, setCurrentPath] = useState(values[0][0].path);
-  const [pageKey, setPageKey] = useState(0); // Key for forcing rerender
+  const [currentPath, setCurrentPath] = useState(values[0].path);
 
   const [bookContents, setBookContents] = useState(
-    getFirstContinuousRangeWithUniquePaths(6, values[0])
+    getFirstContinuousRangeWithUniquePaths(7, values[0])
   );
 
   function getFirstContinuousRangeWithUniquePaths(
@@ -101,26 +100,30 @@ const BookScreen = () => {
       const newPath = firstItem?.part?.Path || firstItem?.path;
 
       if (!newPath) return;
-
       setCurrentPath((prevPath) => {
         if (prevPath === newPath) return prevPath; // Avoid unnecessary state updates
-
-        // Compute unique paths only if `newPath` changes
-        const uniquePaths = new Set(
-          bookContents.map((item) => item.path || item.part?.Path)
-        );
-
-        setBookContents(
-          getFirstContinuousRangeWithUniquePaths(1, values[0], [...uniquePaths])
-        );
-
         return newPath;
+      });
+
+      // Compute unique paths only when `bookContents` changes
+      const uniquePaths = bookContents.map(
+        (item) => item.path || item.part?.Path
+      );
+      setBookContents(
+        getFirstContinuousRangeWithUniquePaths(1, values[0], [...uniquePaths])
+      );
+      setBookContents((prevContents) => {
+        const newContents = getFirstContinuousRangeWithUniquePaths(
+          1,
+          values[0],
+          uniquePaths
+        );
+        return prevContents === newContents ? prevContents : newContents; // Prevent unnecessary state updates
       });
     },
     [bookContents, values]
   );
 
-  //const [bookContents, bookContents] = boo;
   const [isLoading, setIsLoading] = useState(true);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const isTablet = useSelector((state) => state.settings.isTablet);
@@ -131,8 +134,9 @@ const BookScreen = () => {
     const fontSize = isTablet ? 30 : 15;
 
     navigation.getParent()?.setOptions({
-      title: bookContents[0]?.part?.English || "Default Title",
+      title: bookContents[0]?.part?.English,
       headerStyle: {
+        headerTintColor: labelColor, // Change back button color
         backgroundColor: NavigationBarColor,
       },
       headerRight: () => (
@@ -148,6 +152,8 @@ const BookScreen = () => {
         </TouchableOpacity>
       ),
       headerTitleStyle: {
+        color: labelColor,
+
         fontSize,
         fontFamily,
       },
@@ -216,8 +222,6 @@ const BookScreen = () => {
 
       return [...prevContents, ...newData];
     });
-
-    setPageKey((prevKey) => prevKey + 1); // Increment page key after loading new data
 
     // Use setTimeout to scroll after the data is loaded and rendered
     setTimeout(() => {
@@ -297,10 +301,7 @@ const BookScreen = () => {
   }
 
   return (
-    <SafeAreaView
-      key={pageKey}
-      style={{ flex: 1, backgroundColor: pageBackgroundColor }}
-    >
+    <SafeAreaView style={{ flex: 1, backgroundColor: pageBackgroundColor }}>
       <FlatList
         ref={flatListRef}
         style={{ flex: 1, backgroundColor: pageBackgroundColor }}
@@ -326,6 +327,8 @@ const DrawerScreen = () => {
   const values = getFullViewModel(bookPath, motherSource);
   const menuItems = values[1]; // Array of items to populate the drawer
   const pageBackgroundColor = getColor("pageBackgroundColor");
+  const labelColor = getColor("LabelColor");
+  const isTablet = useSelector((state) => state.settings.isTablet);
   const router = useRouter();
 
   // Navigation function to reduce repetition
@@ -354,9 +357,10 @@ const DrawerScreen = () => {
 
           <DrawerItem
             icon={({ color, size }) => (
-              <Ionicons name="settings" color={color} size={size} />
+              <Ionicons name="settings" color={labelColor} size={size} />
             )}
             label="Settings"
+            labelStyle={{ color: labelColor }} // Correct way to change label color
             onPress={() => openSettings(props)}
           />
           <DrawerContentScrollView {...props}>
@@ -374,11 +378,12 @@ const DrawerScreen = () => {
         </ImageBackground>
       )}
       screenOptions={{
-        swipeEdgeWidth: 400,
+        swipeEdgeWidth: isTablet ? 700 : 400,
         headerShown: true,
         drawerPosition: "right",
         drawerLabelStyle: {
           fontSize: 18,
+          color: labelColor,
         },
         drawerType: "front",
         drawerActiveTintColor: "#000",
@@ -397,7 +402,11 @@ const DrawerScreen = () => {
             title: "Return",
             headerShown: false,
             drawerIcon: ({ color, size }) => (
-              <MaterialCommunityIcons name="book" color={color} size={size} />
+              <MaterialCommunityIcons
+                name="book"
+                color={labelColor}
+                size={size}
+              />
             ),
           };
         }}

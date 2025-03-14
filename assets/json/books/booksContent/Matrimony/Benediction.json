@@ -19,8 +19,8 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "زواج طاهر وإكليل جليل، بَارِكه يا إلهنا عمانوئيل، كما باركت في عرس قانا الجليل، لـ (...) العريس و (...) العروس.",
-      "English": "A pure marriage and a revered crown, / bless it O our Lord Immanuel / as You blessed the wedding at Cana of Galilee / for (...) the bridegroom and (...) the bride."
+      "Arabic": "زواج طاهر وإكليل جليل، بَارِكه يا إلهنا عمانوئيل، كما باركت في عرس قانا الجليل، لـ[*GROOM*] العريس و [*BRIDE*] العروس.",
+      "English": "A pure marriage and a revered crown, / bless it O our Lord Immanuel / as You blessed the wedding at Cana of Galilee / for [*GROOM*] the bridegroom and [*BRIDE*] the bride."
     },
     {
       "Type": "Base",
@@ -34,12 +34,15 @@
       "Englishcoptic": "Pi-Laos:"
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "يا رب إرحم (3).",
-      "English": "Lord have mercy (3). O Lord hear us, O Lord have mercy, O Lord bless us."
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "Coptic": "Kurie `ele`hcon>Kurie `ele`hcon>Kurie `ele`hcon.",
+      "English": "Lord Have Mercy , Lord Have Mercy , Lord Have Mercy.",
+      "Arabiccoptic": "كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Kerye-leison : Kerye-leison : Kerye-leison ."
     },
     {
       "Type": "Base",

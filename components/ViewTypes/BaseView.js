@@ -34,7 +34,6 @@ function BaseView({ item, mykey }) {
   const textStyle = {
     fontSize,
     flex: 1,
-    lineHeight: fontSize * 1.1,
     margin: 5,
     fontFamily: "",
     justifyContent: "flex-start",
@@ -43,14 +42,22 @@ function BaseView({ item, mykey }) {
 
   const arabicStyle = {
     fontFamily: "arabic-font",
-    lineHeight: fontSize * 1.6,
+    lineHeight: fontSize * 1.8,
     textAlign: "right",
     writingDirection: "rtl",
+  };
+  const englishStyle = {
+    fontFamily: "english-font",
+    lineHeight: fontSize * 1.25,
+  };
+  const copticStyle = {
+    fontFamily: "coptic-font",
+    lineHeight: fontSize * 1.3,
   };
 
   const arabicCopticStyle = {
     fontFamily: "arabic-font",
-    lineHeight: fontSize * 1.2,
+    lineHeight: fontSize * 1.4,
     textAlign: "right",
     writingDirection: "rtl",
   };
@@ -58,14 +65,14 @@ function BaseView({ item, mykey }) {
   const languages = [
     {
       key: "English",
-      style: styles.english,
+      style: englishStyle,
       isVisible: languageSettings.english,
     },
-    { key: "Coptic", style: styles.coptic, isVisible: languageSettings.coptic },
+    { key: "Coptic", style: copticStyle, isVisible: languageSettings.coptic },
     { key: "Arabic", style: arabicStyle, isVisible: languageSettings.arabic },
     {
       key: "Englishcoptic",
-      style: styles.english,
+      style: englishStyle,
       isVisible: languageSettings.copticenglish,
     },
     {
@@ -91,12 +98,6 @@ function BaseView({ item, mykey }) {
 const styles = StyleSheet.create({
   bookView: {
     width: "100%",
-  },
-  coptic: {
-    fontFamily: "coptic-font",
-  },
-  english: {
-    fontFamily: "english-font",
   },
 });
 

@@ -1,6 +1,16 @@
 {
    "books": [
       {
+         "EnglishTitle": "Holy Week Hymns Map PDF (Etsy)",
+         "ArabicTitle": " هزات ألحان أسبوع الآلام PDF (Etsy)",
+         "PurchaseKeyDroid": "",
+         "PurchaseKeyIos": "",
+         "hasSubBooks": false,
+         "ImageURL": "pascha",
+         "openLink": "https://www.etsy.com/listing/1707398510/holy-week-hymns-map-digital?ref=listings_manager_grid",
+         "Enabled": true
+      },
+      {
          "EnglishTitle": "General Funeral",
          "ArabicTitle": "الجناز العام",
          "PurchaseKeyDroid": "",

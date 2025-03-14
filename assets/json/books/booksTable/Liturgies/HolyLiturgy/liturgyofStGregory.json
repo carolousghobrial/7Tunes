@@ -21,10 +21,10 @@
             "Visible": true
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": " صلاة صلح ثانية (القداس غريغوريوس)",
             "English": "Another Prayer of Reconciliation To The Father (Saint Gregory's Liturgy)",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStGregoryAnotherReconcliationPrayer"
         },
@@ -46,8 +46,8 @@
         {
             "Arabic": "أسباذيستيه الكبيرة - (قبلوا بعضكم بعضاً)",
             "English": "Great one another - Great ",
-            "Type": "Button",
-            "Rule": "OpenSinglePageButtonRule",
+            "Type": "Accordion",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilGreatAsapzeste"
         },
@@ -179,10 +179,10 @@
             "Visible": true
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "الثلاث أواشي معاً",
             "English": "Three Seasons Litanies combined",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "RaisingOfIncenseLitanyAirWaterPlants"
         },
@@ -230,31 +230,31 @@
             "Switch": "LiturgyLiturgyOfTheBelieversStBasilCommemorationOfSaints"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "ترحيم",
             "English": "Diptych",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilDiptych"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "افشيس",
             "English": "Evshes ",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilEvshees"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "بي نيشتي ",
             "English": "Pinishti",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilPinishti"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "بي نيشتي الكبيرة",
             "English": "Great Pinishti",
             "Rule": "OpenSinglePageButtonRule",
@@ -282,12 +282,12 @@
             "Switch": "LiturgyLiturgyOfTheBelieversStBasilThoseOLord"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "كما كان ",
             "English": "As it was",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
-            "Path": "LiturgyLiturgyOfTheBelieversStGregoryAsItWas"
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilAsItWas"
         },
         {
             "Type": "Main",

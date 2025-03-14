@@ -52,11 +52,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "ومن فمِ أبينا المكرم رئيسِ الكهنةِ أنبا [*POPE*] ",
-      "Coptic": "  Nem `ebol=en rwf `mpeniwt ettaihout `n`arxh`ereuc abba [*POPE*]. ",
-      "English": "and from the mouth of our honored father, the high priest, Abba [*POPE*]; ",
-      "Arabiccoptic": "نيم ايفول خين روف إم بين يوت إتطايوت إن أرشي إيرفس بابا آفا [*POPE*].",
-      "Englishcoptic": "Nem evolkhen roof empenioot ettaieeoot en-arshee-erevs Avva [*POPE*]."
+      "Arabic": "ومن فمِ أبينا المكرم رئيسِ الكهنةِ أنبا [*POPE*] [*POPENAMENUM*] ",
+      "Coptic": "  Nem `ebol=en rwf `mpeniwt ettaihout `n`arxh`ereuc abba [*POPE*] [*POPENAMENUM*]. ",
+      "English": "and from the mouth of our honored father, the high priest, Abba [*POPE*] [*POPENAMENUM*]; ",
+      "Arabiccoptic": "نيم ايفول خين روف إم بين يوت إتطايوت إن أرشي إيرفس بابا آفا [*POPE*] [*POPENAMENUM*].",
+      "Englishcoptic": "Nem evolkhen roof empenioot ettaieeoot en-arshee-erevs Avva [*POPE*] [*POPENAMENUM*]."
     },
     {
       "Type": "Base",

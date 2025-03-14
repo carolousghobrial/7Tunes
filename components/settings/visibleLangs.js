@@ -90,9 +90,6 @@ function VisibleLangs() {
         >
           {getLanguageValue("languageselctor")}
         </Text>
-        <Text style={[styles.description, { color: getColor("PrimaryColor") }]}>
-          {getLanguageValue("todayprayerdescription")}
-        </Text>
       </View>
       {langArray.map((lang) => {
         return (

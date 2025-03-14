@@ -4,23 +4,52 @@
   "EnglishTitle": "Matthew 19:1-6",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Reader",
       "Arabic": "القارئ:",
-      "Coptic": "Pi`anagnwcthc>",
-      "English": "Reader:",
-      "Arabiccoptic": "بي اناغنوستيس:",
-      "Englishcoptic": "Pi-Anaghnostis:"
+      "English": "Reader:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وَلَمَّا أَكْمَلَ يَسُوعُ هَذَا الْكَلاَمَ جَمِيعُه انْتَقَلَ مِنَ الْجَلِيلِ وَجَاءَ إِلَى تُخُومِ الْيَهُودِيَّةِ مِنْ عَبْرِ الأُرْدُنِّ. وَتَبِعَتْهُ جُمُوعٌ كَثِيرَةٌ فَشَفَاهُمْ هُنَاكَ.وَجَاءَ إِلَيْهِ الْفَرِّيسِيُّونَ لِيُجَرِّبُوهُ قَائِلِينَ لَهُ: «هَلْ يَحِلُّ لِلرَّجُلِ أَنْ يُطَلِّقَ امْرَأَتَهُ مِن أجل كُلِّ سَبَبٍ؟»فَأَجَابَ وقَالَ لهُم: «أَمَا قَرَأْتُمْ أَنَّ مِن الْبَدْءِ خَلَقَهُمَا ذَكَراً وَأُنْثَى؟» وَقَالَ: «مِنْ أَجْلِ ذَلِك يَتْرُكُ الرَّجُلُ أَبَاهُ وَأُمَّهُ وَيَلْتَصِقُ بِامْرَأَتِهِ وَيَكُونُ الاِثْنَانِ جَسَداً وَاحِداً. إِذاً لَيْسَا بَعْدُ اثْنَيْنِ بَلْ جَسَدٌ وَاحِدٌ. فَالَّذِي جَمَعَهُ اللَّهُ لاَ يُفَرِّقُهُ إِنْسَانٌ».",
-      "English": "Now it came to pass, when Jesus had finished these sayings, that He departed from Galilee and came to the region of Judea beyond the Jordan. And great multitudes followed Him, and He healed them there.The Pharisees also came to Him, testing Him, and saying to Him, “Is it lawful for a man to divorce his wife for just any reason?”And He answered and said to them, “Have you not read that He who made them at the beginning ‘made them male and female,’ “and said, ‘For this reason a man shall leave his father and mother and be joined to his wife, and the two shall become one flesh’? “So then, they are no longer two but one flesh. Therefore what God has joined together, let not man separate.””"
+      "Arabic": "وَلَمَّا أَكْمَلَ يَسُوعُ هَذَا الْكَلاَمَ جَمِيعُه انْتَقَلَ مِنَ الْجَلِيلِ وَجَاءَ إِلَى تُخُومِ الْيَهُودِيَّةِ مِنْ عَبْرِ الأُرْدُنِّ. ",
+      "English": "Now it came to pass, when Jesus had finished these sayings, that He departed from Galilee and came to the region of Judea beyond the Jordan."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وَتَبِعَتْهُ جُمُوعٌ كَثِيرَةٌ فَشَفَاهُمْ هُنَاكَ.وَجَاءَ إِلَيْهِ الْفَرِّيسِيُّونَ لِيُجَرِّبُوهُ قَائِلِينَ لَهُ: ",
+      "English": " And great multitudes followed Him, and He healed them there.The Pharisees also came to Him, testing Him, and saying to Him, "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "«هَلْ يَحِلُّ لِلرَّجُلِ أَنْ يُطَلِّقَ امْرَأَتَهُ مِن أجل كُلِّ سَبَبٍ؟»فَأَجَابَ وقَالَ لهُم: «أَمَا قَرَأْتُمْ أَنَّ مِن الْبَدْءِ خَلَقَهُمَا ذَكَراً وَأُنْثَى؟» ",
+      "English": "“Is it lawful for a man to divorce his wife for just any reason?”And He answered and said to them, “Have you not read that He who made them at the beginning ‘made them male and female,’ "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وَقَالَ: «مِنْ أَجْلِ ذَلِك يَتْرُكُ الرَّجُلُ أَبَاهُ وَأُمَّهُ وَيَلْتَصِقُ بِامْرَأَتِهِ وَيَكُونُ الاِثْنَانِ جَسَداً وَاحِداً. ",
+      "English": "“and said, ‘For this reason a man shall leave his father and mother and be joined to his wife, and the two shall become one flesh’? "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "  إِذاً لَيْسَا بَعْدُ اثْنَيْنِ بَلْ جَسَدٌ وَاحِدٌ. فَالَّذِي جَمَعَهُ اللَّهُ لاَ يُفَرِّقُهُ إِنْسَانٌ».",
+      "English": "“So then, they are no longer two but one flesh. Therefore what God has joined together, let not man separate.””"
     }
   ]
 }

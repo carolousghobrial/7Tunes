@@ -897,7 +897,9 @@ const isWatos = (motherSource, path) => {
   if (motherSource === "ThursdayDayFirstHourMain") {
     return true;
   }
-
+  if (currentSeason.key === "GREAT_LENT") {
+    return false;
+  }
   if (currentSeason.type === "feast") {
     return false;
   }
@@ -927,6 +929,9 @@ const isAdam = (motherSource, path) => {
   }
 
   if (currentSeason.type === "feast") {
+    return false;
+  }
+  if (currentSeason.key === "GREAT_LENT") {
     return false;
   }
 
@@ -1280,6 +1285,7 @@ const JohnTheBaptistShow = (motherSource, path) => {
 
   switch (currentSeason.key) {
     case FeastEnum.EPIPHANY_PARAMOUN:
+    case FeastEnum.GREAT_LENT:
       return !path?.toLowerCase().includes("oranen");
 
     case FeastEnum.EPIPHANY:
@@ -2985,6 +2991,15 @@ const REPLACEPOPE = (rule, part) => {
     arabiccoptic: bishopsList.POPE.Arabiccoptic,
   };
 };
+const REPLACEPOPENAMENUM = (rule, part) => {
+  return {
+    english: bishopsList.POPE.PopeNameNumEnglish,
+    coptic: bishopsList.POPE.PopeNameNumCoptic,
+    arabic: bishopsList.POPE.PopeNameNumArabic,
+    englishcoptic: bishopsList.POPE.PopeNameNumEnglishcoptic,
+    arabiccoptic: bishopsList.POPE.PopeNameNumArabiccoptic,
+  };
+};
 const REPLACANTIOCHEPOPE = (rule, part) => {
   return {
     english: bishopsList.ANTIOCH_POPE.English,
@@ -3215,6 +3230,7 @@ const VisibleRules = {
   PROPHECIES_AUTHOR: REPLACEPROPHETS,
   HOMILY_FATHER: REPLACEHOMILYFATHERS,
   POPE: REPLACEPOPE,
+  POPENAMENUM: REPLACEPOPENAMENUM,
   ANTIOCH_POPE: REPLACANTIOCHEPOPE,
   ERITREAN_POPE: REPLACEERITREANPOPE,
   DIOCESE_BISHOP: REPLACEDIOCESEBISHOP,

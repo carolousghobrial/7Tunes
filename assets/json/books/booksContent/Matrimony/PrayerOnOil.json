@@ -4,15 +4,12 @@
   "EnglishTitle": "A Prayer on the Oil",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -23,15 +20,12 @@
       "English": "O Master, Lord, God the Pantocrator, the Father of our Lord, God and Savior Jesus Christ, who anointed, out of the fruit of the rich olive tree, priests, kings, and prophets.We beseech and entreat You, O Good Lord, the Lover of Mankind, to bless this oil with blessings, so that it becomes an oil to sanctify Your two servants [*GROOM*] and [*BRIDE*]. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -42,15 +36,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -61,15 +52,12 @@
       "English": "A weapon of righteousness and justice. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -80,15 +68,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -99,15 +84,12 @@
       "English": "An anointment of purity and incorruption. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -118,15 +100,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -137,15 +116,12 @@
       "English": "Light and unfading beauty. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -156,15 +132,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -175,15 +148,12 @@
       "English": "Joy, ornament, and true comfort. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -194,15 +164,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -213,15 +180,12 @@
       "English": "Power, salvation, and victory over all the deeds of the adversary. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -232,15 +196,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -251,15 +212,12 @@
       "English": "Renewal and salvation for their souls, bodies and spirits. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -270,15 +228,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -289,6 +244,22 @@
       "English": "Richness with the fruit of good deeds. Amen."
     },
     {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "آمين",
+      "English": "Amen."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -300,12 +271,34 @@
       "Englishcoptic": "Pi-Laos:"
     },
     {
-      "Type": "Melody",
+      "Type": "Accordion",
+      "Arabic": "مرد آخر لوضع الزيت",
+      "English": "Another Response for Placing the Oil",
+      "Rule": 0,
+      "Visible": true,
+      "Path": "MatrimonyOilResponseCoptic"
+    },
+    {
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "آمين",
-      "English": "Amen."
+      "Arabic": "دهنت بالزيت رأسي، وكأسك أسكرتني مثل الصرف، ورحمتك تدركني، جميع أيام حياتي.",
+      "Coptic": "Akqw\\c `nta`ave `noune\\> ouo\\ pek`avot etqa=i `m`vrh; `nouma\\i> peknai ef`esoji `ncwi> `nni`e\\oou throu `nte pawn=.",
+      "English": "You have anointed my head with oil, and Your cup has intoxicated me as pure wine, Your mercy shall come me, all the days of my life.",
+      "Arabiccoptic": "أكثووهس إنتا افي إنأونيه: أووه بيك افوت إيتتاخي إمإفريتي إنأوماهي: بيكناي إيفإيتشوجي إنسووي: إننيإيهوأو تيرأو إنتي باوونخ.",
+      "Englishcoptic": "Akthoohs enta-ave enoo-oneh: owoh pek-avot et-takhi emevreeti enoo-omahi: peknai ef-echoji ensooi: enni-ehoooo teerooo ente paoonkh."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "Coptic": "Kurie `ele`hcon>Kurie `ele`hcon>Kurie `ele`hcon.",
+      "English": "Lord Have Mercy , Lord Have Mercy , Lord Have Mercy.",
+      "Arabiccoptic": "كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Kerye-leison : Kerye-leison : Kerye-leison ."
     }
   ]
 }

@@ -932,8 +932,109 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "من أجل حفظنا تحت اليد العالية المقدسة التى لك يا الله , نطلب إليك أن تبقى لنا وعلينا حياة أبينا المكرم بطريركنا المعظم الأنبا [*POPE*] وشريكه فى الخدمة الرسولية ابينا الاسقف (المطران) الانبا (...) وأن تحفظ لنا حياتهما وتثبتهما على كرسيهما سنين عديدة وأزمنة سلمية هادئة مديدة. نسألك يارب إسمعنا وإرحمنا.",
-      "English": "For the sake of our protection under Your high and mighty hand, O God, we ask You to keep for us the life of our honored father and patriarch, Pope Abba [*POPE*]. lAnd his partner in the apostolic liturgy, our holy father the bishop (metropolitan) Abba (...)) and to confirm him (them) upon his (their) throne(s) for many years and quiet and peaceful times. We ask You, O Lord, hear us and have mercy on us."
+      "Arabic": "من أجل حفظنا تحت اليد العالية المقدسة التى لك يا الله , نطلب إليك أن تبقى لنا وعلينا حياة أبينا المكرم بطريركنا المعظم الأنبا [*POPE*] [*POPENAMENUM*] ",
+      "English": "For the sake of our protection under Your high and mighty hand, O God, we ask You to keep for us the life of our honored father and patriarch, Pope Abba [*POPE*] [*POPENAMENUM*]. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": "ISDioceseMetropolitainAlways",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*DIOCESE_BISHOP*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the metropolitan, Abba [*DIOCESE_BISHOP*]"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": "ISOneMetropolitain",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*METROPOLITAIN_PRESENT*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the metropolitan, Abba [*METROPOLITAIN_PRESENT*]"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": "ISTwoMetropolitain",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*METROPOLITAIN_PRESENT2*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`n`mmhtropolithc Abba [*METROPOLITAIN_PRESENT2*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the metropolitan, Abba [*METROPOLITAIN_PRESENT2*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن ميتروبوليتيس  افا  [*METROPOLITAIN_PRESENT2*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-emmetro-politis Avva [*METROPOLITAIN_PRESENT2*]"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": "ISThreeMetropolitain",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا المطران أنبا [*METROPOLITAIN_PRESENT3*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab`n`mmhtropolithc Abba [*METROPOLITAIN_PRESENT3*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the metropolitan, Abba [*METROPOLITAIN_PRESENT3*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن ميتروبوليتيس  افا  [*METROPOLITAIN_PRESENT3*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-emmetro-politis Avva [*METROPOLITAIN_PRESENT3*]"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": "ISDioceseBishopAlways",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف أنبا [*DIOCESE_BISHOP*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc Abba [*DIOCESE_BISHOP*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the bishop , Abba [*DIOCESE_BISHOP*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن إيبيسكوبوس افا [*DIOCESE_BISHOP*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-epes-kopos Avva [*DIOCESE_BISHOP*]"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": "ISOneBishop",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف أنبا [*BISHOP_PRESENT*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc Abba [*BISHOP_PRESENT*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the bishop, Abba [*BISHOP_PRESENT*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن إيبيسكوبوس  افا  [*BISHOP_PRESENT*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-epes-kopos Avva [*BISHOP_PRESENT*]"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": "ISTwoBishop",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف أنبا [*BISHOP_PRESENT2*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc Abba [*BISHOP_PRESENT2*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the bishop, Abba [*BISHOP_PRESENT2*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن إيبيسكوبوس  افا  [*BISHOP_PRESENT2*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-epes-kopos Avva [*BISHOP_PRESENT2*]"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": "ISThreeBishop",
+      "Side": "North",
+      "Arabic": " وشريكه في الخدمة الرسولية أبينا الأسقف أنبا [*BISHOP_PRESENT3*].",
+      "Coptic": "Nem pefke`]vhr `nlitourgoc `napoctolikoc peniwt eqouab `n`epickopoc Abba [*BISHOP_PRESENT3*].",
+      "English": "And his partner in the apostolic liturgy, our holy father the bishop, Abba [*BISHOP_PRESENT3*]",
+      "Arabiccoptic": "نيم بيف كى اشفير ان ليتورغوس ان ابوسطوليكوس بين يوت إثؤواب إن إيبيسكوبوس  افا  [*BISHOP_PRESENT3*]",
+      "Englishcoptic": "Nem pef-keshvir enli-torghos en-apostolikos peniot ethowab en-epes-kopos Avva [*BISHOP_PRESENT3*]"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": "Is3PlusBishops",
+      "Side": "North",
+      "Arabic": "وشركائه في الخدمة الرسولية آبائنا المطارنة والأساقفة الحاضرين معنا",
+      "Coptic": "Nem nefke`]vhr `nlitourgoc `napoctolikoc neniw; eqouab  `mmetropolithc nem ni`epickopoc nhetxh neman ",
+      "English": "And his partner in the apostolic liturgy, our holy fathers the Metropolitans and Bishops who are with us",
+      "Arabiccoptic": " نيم نيف كى اشفير ان ليتورغوس ان ابوسطوليكوس نينيوتي إثؤواب إمميتروبوليتيس نيم ني إيبيسكوبوس ني إتكي نيمان",
+      "Englishcoptic": "Nem nef-keshvir enli-torghos en-apostolikos nenioti ethowab en-metro-politees nem ni epes-kopos ni-etkee neman "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " وأن تحفظ لنا حياتهما وتثبتهما على كرسيهما سنين عديدة وأزمنة سلمية هادئة مديدة. نسألك يارب إسمعنا وإرحمنا.",
+      "English": "and to confirm (them) upon (their) throne(s) for many years and quiet and peaceful times. We ask You, O Lord, hear us and have mercy on us."
     },
     {
       "Type": "Melody",

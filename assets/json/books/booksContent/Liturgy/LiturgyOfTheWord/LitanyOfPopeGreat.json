@@ -19,11 +19,11 @@
             "Rule": 0,
             "Visible": true,
             "Side": "North",
-            "Arabic": "اذكر ياربُّ بطريركَنا الأب المكرم رئيسَ الكهنةِ البابا أنبا [*POPE*] ",
-            "Coptic": "Ari`vmeu`i ~Psoic `mpenpatriarxhc> `niwt ettaihout `narxh`ereuc abba [*POPE*] ",
-            "English": "Remember, O Lord, our blessed and honored father, the archbishop our patriarch, Abba [*POPE*] ",
-            "Arabiccoptic": "أرى أفميفئى إبشويس إم بين بطريارشيس إنيوت إتطايوت إن أرشى إيرفس بابا آفا  [*POPE*]",
-            "Englishcoptic": "Ari efemv-e Epshois empen patriarchees eniot ettaiot en arshi erevs Papa Ava [*POPE*] "
+            "Arabic": "اذكر ياربُّ بطريركَنا الأب المكرم رئيسَ الكهنةِ البابا أنبا [*POPE*] [*POPENAMENUM*]",
+            "Coptic": "Ari`vmeu`i ~Psoic `mpenpatriarxhc> `niwt ettaihout `narxh`ereuc abba [*POPE*] [*POPENAMENUM*]",
+            "English": "Remember, O Lord, our blessed and honored father, the archbishop our patriarch, Abba [*POPE*] [*POPENAMENUM*]",
+            "Arabiccoptic": "أرى أفميفئى إبشويس إم بين بطريارشيس إنيوت إتطايوت إن أرشى إيرفس بابا آفا  [*POPE*] [*POPENAMENUM*]",
+            "Englishcoptic": "Ari efemv-e Epshois empen patriarchees eniot ettaiot en arshi erevs Papa Ava [*POPE*] [*POPENAMENUM*] "
         },
         {
             "Type": "Base",
@@ -162,11 +162,11 @@
             "Rule": 0,
             "Visible": true,
             "Side": "North",
-            "Arabic": "صلُّوا من أجل رئيسِ كهنتِنا البابا أنبا [*POPE*] بابا وبطريرك ورئيس أساقفة المدينة العظمى الإسكندرية.",
-            "Coptic": "Proceu[acqe `uper tou arxi`erewc `hmwn papa abba [*POPE*]> papa ke patriarxou ke arxh`epickopou> tic megalo polewc Ale[an`driac> ",
-            "English": "Pray for our archpriest, Pope Abba [*POPE*], Pope and Patriarch and archbishop of the great city of Alexandria",
-            "Arabiccoptic": "إبروس إف إكساستى إيبيرتو أرشى إيريئوس إيمون بابا آفا [*POPE*] بابا كى باتريارخو كى أرشى إبيسكبو تيس ميغالو بوليئوسكى الكساندرياس    , كى ابونا _____ تو باتريارخو تيس اريترياس.",
-            "Englishcoptic": "Epros ev exaste eper to arshi ere-os eimon Papa Ava [*POPE*] Papa ke patriarkho ke arshi episkopo tees meghalo pole-os Alexandrias"
+            "Arabic": "صلُّوا من أجل رئيسِ كهنتِنا البابا أنبا [*POPE*] [*POPENAMENUM*] بابا وبطريرك ورئيس أساقفة المدينة العظمى الإسكندرية.",
+            "Coptic": "Proceu[acqe `uper tou arxi`erewc `hmwn papa abba [*POPE*] [*POPENAMENUM*]> papa ke patriarxou ke arxh`epickopou> tic megalo polewc Ale[an`driac> ",
+            "English": "Pray for our archpriest, Pope Abba [*POPE*] [*POPENAMENUM*], Pope and Patriarch and archbishop of the great city of Alexandria",
+            "Arabiccoptic": "إبروس إف إكساستى إيبيرتو أرشى إيريئوس إيمون بابا آفا [*POPE*] [*POPENAMENUM*] بابا كى باتريارخو كى أرشى إبيسكبو تيس ميغالو بوليئوسكى الكساندرياس    , ",
+            "Englishcoptic": "Epros ev exaste eper to arshi ere-os eimon Papa Ava [*POPE*] [*POPENAMENUM*] Papa ke patriarkho ke arshi episkopo tees meghalo pole-os Alexandrias"
         },
         {
             "Type": "Base",

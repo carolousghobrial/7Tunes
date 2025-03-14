@@ -23,6 +23,7 @@ export const keywords = [
   "[*CATHOLIC_AUTHOR*]",
   "[*PAULINE_AUTHOR*]",
   "[*POPE*]",
+  "[*POPENAMENUM*]",
   "[*ANTIOCH_POPE*]",
   "[*ERITREAN_POPE*]",
   "[*DIOCESE_BISHOP*]",
@@ -524,30 +525,33 @@ function processPart(
 }
 
 function addItemsToArray(part, thisRule) {
-  const foundKeyword = findMatchingSubstring(part.English, keywords);
-  if (foundKeyword === "EMPTY") return part; // Early return if no match
+  const foundKeywords = findMatchingSubstrings(part.English, keywords); // Get all matches
+  if (foundKeywords.length === 1 && foundKeywords[0] === "EMPTY") return part; // Early return if no match
 
-  const cleanedKeyword = foundKeyword.replace(/[\*\[\]/]/g, "");
-  const myrule = matchRule(thisRule, part, cleanedKeyword);
-  if (!myrule) return part; // If no rule is found, return original part
+  let updatedPart = { ...part, Rule: thisRule }; // Clone object to modify
 
-  // Clone and update only when necessary
-  const updatedPart = { ...part, Rule: thisRule };
-  const replacements = {
-    Arabic: myrule.arabic,
-    Arabiccoptic: myrule.arabiccoptic,
-    Coptic: myrule.coptic,
-    English: myrule.english,
-    Englishcoptic: myrule.englishcoptic,
-  };
+  foundKeywords.forEach((foundKeyword) => {
+    const cleanedKeyword = foundKeyword.replace(/[\*\[\]/]/g, ""); // Clean keyword
+    const myrule = matchRule(thisRule, part, cleanedKeyword);
+    if (!myrule) return; // Skip if no matching rule found
 
-  Object.keys(replacements).forEach((key) => {
-    if (updatedPart[key]) {
-      updatedPart[key] = updatedPart[key].replace(
-        foundKeyword,
-        replacements[key]
-      );
-    }
+    const replacements = {
+      Arabic: myrule.arabic,
+      Arabiccoptic: myrule.arabiccoptic,
+      Coptic: myrule.coptic,
+      English: myrule.english,
+      Englishcoptic: myrule.englishcoptic,
+    };
+
+    Object.keys(replacements).forEach((key) => {
+      if (updatedPart[key]) {
+        const regex = new RegExp(
+          foundKeyword.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&"),
+          "g"
+        ); // Escape special chars & use global flag
+        updatedPart[key] = updatedPart[key].replace(regex, replacements[key]);
+      }
+    });
   });
 
   return updatedPart;
@@ -738,12 +742,16 @@ export function GetTodaysReadingPath(path) {
   }
 }
 
-function findMatchingSubstring(str, substringsArray) {
-  const foundSubstring = substringsArray.find((substring) =>
-    str?.includes(substring)
+function findMatchingSubstrings(
+  str: string,
+  substringsArray: string[]
+): string[] {
+  const foundSubstrings = substringsArray.filter((substring) =>
+    str.includes(substring)
   );
-  return foundSubstring ? foundSubstring : "EMPTY";
+  return foundSubstrings.length > 0 ? foundSubstrings : ["EMPTY"];
 }
+
 function countSundays(yearSelected) {
   const { month: copticMonth, day: copticDay } = CopticMonthObjects.find(
     (month) => month.name === "Koiahk"

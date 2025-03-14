@@ -4,6 +4,7 @@ import {
   StyleSheet,
   View,
   FlatList,
+  Linking,
   Text,
   ActivityIndicator,
   TouchableOpacity,
@@ -57,8 +58,10 @@ const App = () => {
     try {
       setIsLoading(true);
       const isBought = permissionsMap[book.PermissionStatus] || false;
-
-      if (!book.Enabled) {
+      if (book.openLink) {
+        Linking.openURL(book.openLink);
+        setIsLoading(false);
+      } else if (!book.Enabled) {
         if (!isBought) {
           await restoreAndPurchase(book);
         } else {

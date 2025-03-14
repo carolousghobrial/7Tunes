@@ -10,25 +10,65 @@
         },
         {
             "Type": "Accordion",
-            "Arabic": "السلام لمريم (شيرى ماريا)",
-            "English": "Hail to Mary (Shere Maria)",
-            "Rule": 0,
-            "Visible": true,
-            "Path": "VenerationShereMaria"
-        },
-        {
-            "Type": "Accordion",
             "Arabic": "(7) ثيؤطوكية الأحد",
             "English": "Sunday Theotokia (7)",
             "Rule": 0,
-            "Visible": true,
+            "Visible": "isNOTInHolyFifties",
             "Path": "TheotokiasSundaySunday7"
+        },
+        {
+            "Type": "Accordion",
+            "Arabic": "(10) ثيؤطوكية الأحد",
+            "English": "Sunday Theotokia (10)",
+            "Coptic": "Teoi `n\\ikanoc ",
+            "Path": "TheotokiasSundaySunday10",
+            "Rule": 0,
+            "Visible": "isNOTInHolyFifties"
+        },
+        {
+            "Type": "Accordion",
+            "Arabic": "لُبش ثيؤطوكية السبت الشيرات الأولى",
+            "English": "Saturday Theotokia Lobsh (First Shirat)",
+            "Coptic": "Xere qheqme\\ `n`\\mot ",
+            "Path": "TheotokiasSaturdaySaturdayLobsh1",
+            "Rule": 0,
+            "Visible": "isNOTInHolyFifties"
+        },
+        {
+            "Type": "Accordion",
+            "Arabic": "لحن ايبارثينوس",
+            "English": "Today the Virgin (E-parthenos)",
+            "Coptic": "Hparqenoc",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsNativityEparthenos",
+            "Rule": 0,
+            "Visible": "isNOTInHolyFifties"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "LiturgyLiturgyOfTheWordLiturgySeasonalHymnsWeddingCanaNikhora",
+            "Arabic": "يا كل كور إريحا",
+            "English": "Nikhoora (O regions of Jericho)",
+            "Coptic": "Nixwra throu",
+            "Rule": 0,
+            "Visible": "isNOTInHolyFifties"
         },
         {
             "Type": "Main",
             "Path": "VenerationEporo",
             "Rule": 0,
-            "Visible": true
+            "Visible": "isNOTInHolyFifties"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionKhristosAnesty",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsAscensionKhristosAnalepsis",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
@@ -48,6 +88,12 @@
             "Rule": 0,
             "Visible": true,
             "mother": "matins"
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyVersesOfCymbalsAll",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -84,6 +130,48 @@
             "Path": "MatrimonyPauline",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Accordion",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionKhristosAnesty",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionTonSina",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionTolithos",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionTinAnaStAsin",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionPikhriStOsAftonf",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsResurrectionParlex",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "LiturgyLiturgyOfTheWordSeasonalHymnsAscensionKhristosAnalepsis",
+            "Rule": 0,
+            "Visible": "isSeason"
         },
         {
             "Type": "Main",
@@ -125,7 +213,163 @@
         },
         {
             "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheWordArabicGospelIntro",
+            "Path": "MatrimonyPsalmAndGospel",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyGospelResponse",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonySupplications",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfPeaceGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfPopeGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordLitanyOfAssembliesGreat",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheWordInTheWisdom",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersCreed",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyFirstMatrimonialPrayer",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonySecondMatrimonialPrayer",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyThirdMatrimonialPrayer",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyPrayerOfSubmission",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyPrayerOnOil",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyPrayerAfterOil",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyPrayerOnCrowns",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyBlessingGroom",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyBlessingBride",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyHandingBrideToGroom",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyCommandGroom",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyCommandBride",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "MatrimonyBenediction",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseAbsolution",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseRaisingofIncenseConclusion",
+            "Rule": 0,
+            "Visible": "StandardROIConclusion"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseShortBlessing2",
             "Rule": 0,
             "Visible": true
         }

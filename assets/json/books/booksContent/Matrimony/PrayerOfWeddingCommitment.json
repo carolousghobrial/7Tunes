@@ -4,15 +4,12 @@
   "EnglishTitle": "Prayer of the Wedding Commitment",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -21,6 +18,39 @@
       "Side": "North",
       "Arabic": "ا الله الذي جبل الإنسان بيديه وحده وأعطاه المرأة عوناً وقوة له، أنت أيضاً الآن يا سيدنا كُن وسيطاً لهذين العروسين، [*GROOM*] ومعينته [*BRIDE*]. صِلْهما بعربون الشركة، وأعطهما علامة إتصالهما، ليكونا بألفة واحدة برباط المحبة، اذ تقول لهما: \"سلامي أعطيه لكما. سلامي أنا أتركه معكما.\" فأنت سلامنا جميعاً. ونرسل لك إلى فوق المجد والكرامة مع إبنك الوحيد والروح القدس المحيي، الآن وكل أوان وإلى دهر الدهور. آمين.",
       "English": "O God who formed man by His own hands, and gave him the woman for his help and strength, now, also, our Master, be a mediator for the groom and his helpmate, adjoin [*GROOM*] and [*BRIDE*] through the pledge of fellowship, and grant them the sign of their union, so that, through the bond of love, they may be unified in harmony, and say unto them, \"My peace I give you both; My peace I leave with you both.\" For You are the peace of us all,And unto You do we offer the glory and honor with Your only-begotten Son and the Holy Spirit, the Giver of Life,"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها المسيح كلمة الآب . الإله الوحيد . أعطنا سلامك . المملوء فرحاً .",
+      "Coptic": "Px/c/ pilogoc `nte `Viwt > pimonogenhc `nnou; > ek`e; nan `ntek\\irhnh > qai eqme\\ `nra]i niben .",
+      "English": "O Christ the Logos of the Father. : the only begotten God, : grant us Your peace : which is full of every Joy",
+      "Arabiccoptic": "بخريستوس بيلوغوس إنتى إفيوت . بى مونوجينيس إن نوتى . إك إيتى نان إنتيك هيرينى . ثاى إثميه إنراشى نيفين .",
+      "Englishcoptic": "Pikhristos piloghos ente Efiot, pi monogenis en nouty, ek eti nan entek hiriny, thai ethmeh en rashi niven."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "Coptic": "Kurie `ele`hcon>Kurie `ele`hcon>Kurie `ele`hcon.",
+      "English": "Lord Have Mercy , Lord Have Mercy , Lord Have Mercy.",
+      "Arabiccoptic": "كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Kerye-leison : Kerye-leison : Kerye-leison ."
     }
   ]
 }

@@ -10,9 +10,8 @@ import { getColor } from "../../helpers/SettingsHelpers";
 
 const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
   const fontSize = useSelector((state) => state.settings.textFontSize);
-  const { width, height } = useWindowDimensions();
 
-  const flexDirection = width < height ? "column" : "row";
+  const flexDirection = "column";
   const isSelected = index === HighlitedIndex;
   const selectedBackgroundColor = isSelected
     ? getColor("pageBackgroundColor")
@@ -38,7 +37,7 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
         <Text
           style={[
             styles.title,
-            { fontSize: fontSize * 0.75, color: primaryColor },
+            { fontSize: fontSize * 0.55, color: primaryColor },
           ]}
         >
           {item.EnglishTitle}
@@ -74,9 +73,9 @@ const MenuItem = ({ item, index, HighlitedIndex, scrollToKey }) => {
 
 const styles = {
   container: {
-    marginHorizontal: 10,
+    marginHorizontal: 5,
     marginVertical: 5,
-    padding: 5,
+    padding: 2,
     borderWidth: 5,
   },
   textView: {

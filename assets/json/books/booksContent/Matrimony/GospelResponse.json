@@ -1,0 +1,40 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": " مرد الإنجيل لصلاة الاكليل",
+  "EnglishTitle": "Gospel Response for Matrimony Ceremony",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هؤلاء الذين آلفهم الروح القدس معاً مثل قيثارة مسبحين الله كل حين.",
+      "Coptic": "Nai `etaf\\otpou eucop > `nje Pi`pneuma eqouab > `m`vrh; `noukuqara > eu`cmou `eV; `nchou niben.",
+      "English": "Those whom the Holy Spirit, has attuned together, as a stringed instrument, always blessing God.",
+      "Arabiccoptic": "ناى إيطاف هوتبو إفسوب: إنجى بى ابنفما اثؤاب: إمفريتى إن أوكيثارا : إف إسمو إى إفنوتى إنسيو نيفين .",
+      "Englishcoptic": "Nai etav hotpo evsop, enje pi Ebnevma Ethowab, em evreety en o kithara, ef esmo e Evnouty enseo niven."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "بمزامير وتسابيح وترانيم روحية النهار والليل بقلب لايفتر.",
+      "Coptic": "+en \\anyalmoc nem \\an\\wc > nem \\an\\wdh `m`pneumatikon > `mpi`e\\oou nem pi `ejwr\\ > =en ou\\ht `natxarwf.",
+      "English": "By psalms and hymns, and spiritual songs, by day and by night, with an incessant heart.",
+      "Arabiccoptic": "خين هان بسالموس نيم هان هوس: نيم هان هوذى إمبنفما تيكون: إمبى إيهوؤو نيم بى إبجوره: خين أوهيت إن آت كاروف .",
+      "Englishcoptic": "Khen han epsalmos nem han hos, nem han hozi em Ebnevmatikon, empi eho-o nem pi egorh, khen o heet en at karos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "Coptic": "Kurie `ele`hcon>Kurie `ele`hcon>Kurie `ele`hcon.",
+      "English": "Lord Have Mercy , Lord Have Mercy , Lord Have Mercy.",
+      "Arabiccoptic": "كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Kerye-leison : Kerye-leison : Kerye-leison ."
+    }
+  ]
+}

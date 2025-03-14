@@ -4,23 +4,28 @@
   "EnglishTitle": "Psalms 19:5-6; 128:3-4",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Reader",
       "Arabic": "القارئ:",
-      "Coptic": "Pi`anagnwcthc>",
-      "English": "Reader:",
-      "Arabiccoptic": "بي اناغنوستيس:",
-      "Englishcoptic": "Pi-Anaghnostis:"
+      "English": "Reader:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "مِثْلُ العَرِيسِ الخارِجُ مِنْ خِدْرِهِ، يَتَهَلَّلُ مِثْلُ الجبَّارِ المُسْرِعُ في طَرِيقِهِ، إمْرأتُكَ تَكُونُ كالكَرْمَة التي تُزْهِرُ في جَوَانِبِ بَيْتِكَ، وبَنُوكَ مِثْلُ غُرُوسِ الزَّيْتُونِ مُحِيطِينَ بِمَائِدَتِكَ.",
-      "English": "Which is like a bridegroom coming out of his chamber, and rejoices like a strong man to run its race. Your wife shall be like a fruitful vine in the very heart of your house, Your children like olive plants. All around your table."
+      "Arabic": "مِثْلُ العَرِيسِ الخارِجُ مِنْ خِدْرِهِ، يَتَهَلَّلُ مِثْلُ الجبَّارِ المُسْرِعُ في طَرِيقِهِ، ",
+      "English": "Which is like a bridegroom coming out of his chamber, and rejoices like a strong man to run its race. "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إمْرأتُكَ تَكُونُ كالكَرْمَة التي تُزْهِرُ في جَوَانِبِ بَيْتِكَ، وبَنُوكَ مِثْلُ غُرُوسِ الزَّيْتُونِ مُحِيطِينَ بِمَائِدَتِكَ.",
+      "English": " Your wife shall be like a fruitful vine in the very heart of your house, Your children like olive plants. All around your table."
     }
   ]
 }

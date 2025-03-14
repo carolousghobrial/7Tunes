@@ -7,9 +7,17 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "English": "Deacon:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
       "Side": "North",
-      "Arabic": "(D)إسمعي يا عروس وإصغي بسمعِك، وأنسي شعبِك وبيت أبيكِ، لأن العريس راق له طهرِك، فهو زوجكِ وله تخضعين.",
-      "English": "(D)Listen, O bride and incline your ear, / forget your people and your father's house, / for your chastity appealed to bridegroom, / and he is your husband and to him you will submit."
+      "Arabic": "إسمعي يا عروس وإصغي بسمعِك، وأنسي شعبِك وبيت أبيكِ، لأن العريس راق له طهرِك، فهو زوجكِ وله تخضعين.",
+      "English": "Listen, O bride and incline your ear, / forget your people and your father's house, / for your chastity has appealed to bridegroom, / and he is your husband and to him you will submit."
     },
     {
       "Type": "Base",
@@ -23,12 +31,15 @@
       "Englishcoptic": "Pi-Laos:"
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "يارب اسمعنا",
-      "English": "Lord have mercy (3). O Lord hear us, O Lord have mercy, O Lord bless us."
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "Coptic": "Kurie `ele`hcon>Kurie `ele`hcon>Kurie `ele`hcon.",
+      "English": "Lord Have Mercy , Lord Have Mercy , Lord Have Mercy.",
+      "Arabiccoptic": "كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Kerye-leison : Kerye-leison : Kerye-leison ."
     },
     {
       "Type": "Base",
