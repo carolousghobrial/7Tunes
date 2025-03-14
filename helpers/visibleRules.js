@@ -1,7 +1,5 @@
 import moment from "moment";
 import store from "../stores/redux/store.js";
-import { useDispatch, useSelector } from "react-redux";
-import { getSeason, getSaint } from "./SettingsHelpers.js";
 import { useState, useEffect } from "react";
 import FeastEnum from "../models/FeastEnum.js";
 import {
@@ -14,15 +12,69 @@ import {
   getCopticDate,
   getParamounDate,
 } from "../helpers/copticMonthsHelper";
-import {
-  TakeFromHathorTwo,
-  GetTodaysReadingPath,
-} from "../viewModel/getFullViewModel.js";
+import { TakeFromHathorTwo } from "../viewModel/getFullViewModel.js";
 const bishopsList = require("../assets/json/bishopsList.json");
 import bookPaths from "../helpers/bookPathsHelpers";
 
-const TennavRule = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+function getSaint(saint, currentSeason, saints) {
+  const saintMapping = {
+    ST_MARY: saints.ST_MARY,
+    ARCHANGEL_MICHAEL: saints.ARCHANGEL_MICHAEL,
+    ARCHANGEL_GABRIEL: saints.ARCHANGEL_GABRIEL,
+    ARCHANGEL_RAPHAEL: saints.ARCHANGEL_RAPHAEL,
+    FOUR_INCORPOREAL_CREATURES: saints.FOUR_INCORPOREAL_CREATURES,
+    TWENTY_FOUR_PRIESTS: saints.TWENTY_FOUR_PRIESTS,
+    JOHN_THE_BAPTIST: saints.JOHN_THE_BAPTIST,
+    ST_JOHN_BELOVED: saints.ST_JOHN_BELOVED,
+    ST_MARK: saints.ST_MARK,
+    ST_STEPHEN: saints.ST_STEPHEN,
+    ST_GEORGE: saints.ST_GEORGE,
+    ST_THEODORE_SHOTEP: saints.ST_THEODORE_SHOTEP,
+    ST_PHILOPATER: saints.ST_PHILOPATER,
+    ST_MINA: saints.ST_MINA,
+    APAKIR_AND_JOHN: saints.APAKIR_AND_JOHN,
+    COSMAN_AND_DEMIAN: saints.COSMAN_AND_DEMIAN,
+    ST_ABANOUB: saints.ST_ABANOUB,
+    ST_DEMIANA: saints.ST_DEMIANA,
+    ST_MARINA: saints.ST_MARINA,
+    ST_BARBARA: saints.ST_BARBARA,
+    ST_JULIANA: saints.ST_JULIANA,
+    ST_ANTHONY: saints.ST_ANTHONY,
+    ST_PAULHERMIT: saints.ST_PAULHERMIT,
+    ST_MOSES: saints.ST_MOSES,
+    MACARIUS_GREAT: saints.MACARIUS_GREAT,
+    ST_PISHOI: saints.ST_PISHOI,
+    ATHANASIUS_APOSTOLIC: saints.ATHANASIUS_APOSTOLIC,
+    MAXIMUS_DOMETIUS: saints.MAXIMUS_DOMETIUS,
+    ST_PACHOMIOUS: saints.ST_PACHOMIOUS,
+    ST_SHENOUDA_ARCHMANDRITE: saints.ST_SHENOUDA_ARCHMANDRITE,
+    SAMUEL_CONFESSOR: saints.SAMUEL_CONFESSOR,
+    ST_REWIS: saints.ST_REWIS,
+    ST_JOHN_THE_SHORT: saints.ST_JOHN_THE_SHORT,
+    ST_KARAS: saints.ST_KARAS,
+    ST_KIROLLOS_SIXTH: saints.ST_KIROLLOS_SIXTH,
+  };
+
+  return currentSeason.saintsOfThisDay?.includes(saint)
+    ? {
+        versesofCymbals: true,
+        doxologies: true,
+        intercessions: true,
+        actsResponse: true,
+        gospelResponse: true,
+      }
+    : saintMapping[saint];
+}
+const TennavRule = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   const fastsFeasts = getCopticFastsFeasts(currentSeason.gregorianYear);
 
   const KIAHK = fastsFeasts.find((element) => element.key === "NATIVITY_FAST");
@@ -65,9 +117,16 @@ const TennavRule = (motherSource, path) => {
       }
   }
 };
-const NativityFeastAndFast = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const NativityFeastAndFast = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (currentSeason.key) {
     case "NATIVITY_FAST":
     case "NATIVITY":
@@ -80,17 +139,29 @@ const NativityFeastAndFast = (motherSource, path) => {
   }
 };
 
-const SundayThetokiaWeekdaysPraisesRule = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const todayPrayer = useSelector((state) => state.settings.todayPrayer);
-
-  return todayPrayer && currentSeason.dayOfWeek !== 0;
+const SundayThetokiaWeekdaysPraisesRule = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
+  return currentSeason.dayOfWeek !== 0;
 };
 
-const TheotokiaVisible = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const timeTransition = useSelector((state) => state.settings.timeTransition);
-  const todayPrayer = useSelector((state) => state.settings.todayPrayer);
+const TheotokiaVisible = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   const timeOfDay = moment().hour();
 
   const today = currentSeason.dayOfWeek;
@@ -119,12 +190,28 @@ const TheotokiaVisible = (motherSource, path) => {
   return path?.includes(dayOfWeekToPath[today]);
 };
 
-const isStandard = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isStandard = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return currentSeason.type !== "feast" && motherSource === "praises";
 };
-const isStandardSeasonWithStMary = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isStandardSeasonWithStMary = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (currentSeason.key) {
     case "STANDARD":
       return true;
@@ -153,9 +240,16 @@ const isStandardSeasonWithStMary = (motherSource, path) => {
   }
   return currentSeason.type !== "feast";
 };
-const FeastsAndFastsOfStMary = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const FeastsAndFastsOfStMary = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (currentSeason.key) {
     case FeastEnum.FAST_STMARY:
     case FeastEnum.ASSUMPTION_STMARY:
@@ -174,9 +268,16 @@ const FeastsAndFastsOfStMary = (motherSource, path) => {
       return false;
   }
 };
-const isLordsFeasts = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const isLordsFeasts = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (currentSeason.key) {
     case "FEAST_OF_CIRCUMCISION":
     case "WEDDING_CANA":
@@ -191,8 +292,16 @@ const isLordsFeasts = (motherSource, path) => {
       return false;
   }
 };
-const isFirstMondayOrLastFridayOfLent = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isFirstMondayOrLastFridayOfLent = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.key === "GREAT_LENT") {
     if (currentSeason.dayOfWeek === 1 && currentSeason.week === 1) {
       return true;
@@ -202,9 +311,28 @@ const isFirstMondayOrLastFridayOfLent = (motherSource, path) => {
   }
   return false;
 };
-const FeastsAndFastsOfStMaryAndHeavenlies = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  if (FeastsAndFastsOfStMary(motherSource, path)) {
+const FeastsAndFastsOfStMaryAndHeavenlies = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
+  if (
+    FeastsAndFastsOfStMary(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
+  ) {
     return true;
   }
   switch (currentSeason.saintsOfThisDay) {
@@ -218,8 +346,16 @@ const FeastsAndFastsOfStMaryAndHeavenlies = (motherSource, path) => {
       return false;
   }
 };
-const AlleluiaStandard = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const AlleluiaStandard = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (currentSeason.type) {
     case "feast":
       return false;
@@ -228,8 +364,16 @@ const AlleluiaStandard = (motherSource, path) => {
   }
   return currentSeason.type !== "feast";
 };
-const StandardROIConclusion = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const StandardROIConclusion = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (currentSeason.key) {
     case "PALM_SUNDAY":
     case "NATIVITY":
@@ -241,8 +385,16 @@ const StandardROIConclusion = (motherSource, path) => {
   }
   return currentSeason.type !== "feast";
 };
-const isStandardSeason = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isStandardSeason = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (currentSeason.key) {
     case "STANDARD":
       if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
@@ -265,9 +417,28 @@ const isStandardSeason = (motherSource, path) => {
   }
   return currentSeason.type !== "feast";
 };
-const isStandardFraction = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  if (FeastsAndFastsOfStMaryAndHeavenlies(motherSource, path)) {
+const isStandardFraction = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
+  if (
+    FeastsAndFastsOfStMaryAndHeavenlies(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
+  ) {
     return false;
   }
   switch (currentSeason.key) {
@@ -279,21 +450,55 @@ const isStandardFraction = (motherSource, path) => {
   }
 };
 
-const isKiahk = (motherSource, path) => {
+const isKiahk = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return motherSource === "kiahkPsalmody" ? true : false;
 };
-const isLenten = (motherSource, path) => {
+const isLenten = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return motherSource === "lentenPsalmody" ? true : false;
 };
-const IsLiturgy = (motherSource, path) => {
+const IsLiturgy = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return motherSource === "offertory" ||
     motherSource === "offertoryCovenantThursday"
     ? true
     : false;
 };
-const isStandardVespersPraises = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const isStandardVespersPraises = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.type === "feast") {
     return false;
   }
@@ -302,13 +507,40 @@ const isStandardVespersPraises = (motherSource, path) => {
   }
   return false;
 };
-const isKiahkVespersPraises = (motherSource, path) => {
+const isKiahkVespersPraises = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return motherSource === "kiahkVespersPraises" ? true : false;
 };
-const isLentenVespersPraises = (motherSource, path) => {
+const isLentenVespersPraises = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return motherSource === "lentenVespersPraises" ? true : false;
 };
-const isNOTVespersPraises = (motherSource, path) => {
+const isNOTVespersPraises = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
     isLentenVespersPraises() ||
     isKiahkVespersPraises() ||
@@ -318,8 +550,16 @@ const isNOTVespersPraises = (motherSource, path) => {
   }
   return true;
 };
-const isKiahkSeason = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isKiahkSeason = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (currentSeason.key) {
     case "NATIVITY":
     case "NATIVITY_PARAMOUN":
@@ -337,8 +577,16 @@ const isKiahkSeason = (motherSource, path) => {
 
   return false;
 };
-const isSeason = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isSeason = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   const lowerPath = path?.toLowerCase();
   if (motherSource === "brightSaturdayMatins") {
     if (
@@ -479,7 +727,18 @@ const isSeason = (motherSource, path) => {
       return false;
     case "GREAT_LENT":
       if (lowerPath?.includes("lent")) {
-        if (isFirstMondayOrLastFridayOfLent(motherSource, path)) {
+        if (
+          isFirstMondayOrLastFridayOfLent(
+            motherSource,
+            path,
+            currentSeason,
+            timeTransition,
+            dioceseBishop,
+            BishopIsPresent,
+            BishopsPresent,
+            are3PlusBishopsPresent
+          )
+        ) {
           if (lowerPath?.includes("weekend")) return true;
         }
         if (lowerPath?.includes("weekend")) {
@@ -504,13 +763,35 @@ const isSeason = (motherSource, path) => {
     case "PALM_SUNDAY":
       if (lowerPath?.includes("palmsunday")) {
         if (lowerPath?.includes("matins")) {
-          if (isMatins(motherSource, path)) {
+          if (
+            isMatins(
+              motherSource,
+              path,
+              currentSeason,
+              timeTransition,
+              dioceseBishop,
+              BishopIsPresent,
+              BishopsPresent,
+              are3PlusBishopsPresent
+            )
+          ) {
             return true;
           }
           return false;
         }
         if (lowerPath?.includes("vespers")) {
-          if (isVespers(motherSource, path)) {
+          if (
+            isVespers(
+              motherSource,
+              path,
+              currentSeason,
+              timeTransition,
+              dioceseBishop,
+              BishopIsPresent,
+              BishopsPresent,
+              are3PlusBishopsPresent
+            )
+          ) {
             return true;
           }
           return false;
@@ -662,8 +943,16 @@ const isSeason = (motherSource, path) => {
       return false;
   }
 };
-const isInHolyFifties = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isInHolyFifties = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (currentSeason.key) {
     case "RESURRECTION":
     case "THOMAS_SUNDAY":
@@ -675,8 +964,16 @@ const isInHolyFifties = (motherSource, path) => {
       return false;
   }
 };
-const isNOTInHolyFifties = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isNOTInHolyFifties = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (currentSeason.key) {
     case "RESURRECTION":
     case "THOMAS_SUNDAY":
@@ -688,8 +985,16 @@ const isNOTInHolyFifties = (motherSource, path) => {
       return true;
   }
 };
-const isKiahkWeek = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isKiahkWeek = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   const isHathorMonth = currentSeason.copticMonth === "Hathor";
   const isKoiahkMonth = currentSeason.copticMonth === "Koiahk";
   const isWeek1to4 =
@@ -710,29 +1015,76 @@ const isKiahkWeek = (motherSource, path) => {
 
   return false;
 };
-const isWeekOfLent = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const isWeekOfLent = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return (
     path?.toLowerCase().includes(currentSeason.week) &&
     currentSeason.key === "GREAT_LENT"
   );
 };
-const isWeekOfPentecost = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const isWeekOfPentecost = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return (
     path?.toLowerCase().includes(currentSeason.week) &&
-    isInHolyFifties(motherSource, path)
+    isInHolyFifties(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
   );
 };
-const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const todayPrayer = useSelector((state) => state.settings.todayPrayer);
-
+const isLentVespersPraisesExpositionWeek = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
-    isLentenVespersPraises(motherSource, path) ||
-    (isLenten(motherSource, path) && !todayPrayer)
+    isLentenVespersPraises(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    ) ||
+    isLenten(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
   ) {
     const { week } = currentSeason;
 
@@ -742,24 +1094,91 @@ const isLentVespersPraisesExpositionWeek = (motherSource, path) => {
   return false;
 };
 
-const isMatins = (motherSource, path) => {
+const isMatins = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return motherSource.toLowerCase()?.includes("matins") &&
-    isKiahkSeason(motherSource, path) !== true
+    isKiahkSeason(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    ) !== true
     ? true
     : false;
 };
-const isVespers = (motherSource, path) => {
-  return motherSource === "vespers" && !isKiahkSeason(motherSource, path)
+const isVespers = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
+  return motherSource === "vespers" &&
+    !isKiahkSeason(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
     ? true
     : false;
 };
-const inRaisingOfIncense = (motherSource, path) => {
-  return motherSource === "vespers" ||
+const inRaisingOfIncense = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
+  return motherSource === "vespers" ? true : false;
+};
+const inMatrimony = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
+  return motherSource === "matrimony" ||
     motherSource.toLowerCase()?.includes("matins")
     ? true
     : false;
 };
-const isCovenantThursday = (motherSource, path) => {
+const isCovenantThursday = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (motherSource) {
     case "ThursdayDayFirstHourMain":
     case "liturgyofStBasilCovenantThursday":
@@ -769,25 +1188,58 @@ const isCovenantThursday = (motherSource, path) => {
       return false;
   }
 };
-const AdamConclusionDoxologies = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const AdamConclusionDoxologies = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return motherSource === "praises" && !currentSeason.isWatos;
 };
-const isPraises = (motherSource, path) => {
+const isPraises = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return motherSource === "praises" ? true : false;
 };
-const showLitanyOfDeparted = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const showLitanyOfDeparted = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
-    currentSeason.dayOfWeek === 6 &&
-    (currentSeason.type === "regular" || currentSeason.type === "fast")
+    currentSeason?.dayOfWeek === 6 &&
+    (currentSeason?.type === "regular" || currentSeason?.type === "fast")
   ) {
     return true;
   }
   return false;
 };
-const showLitanyOfTravelers = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const showLitanyOfTravelers = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
     currentSeason.dayOfWeek !== 6 &&
     currentSeason.dayOfWeek !== 0 &&
@@ -797,24 +1249,47 @@ const showLitanyOfTravelers = (motherSource, path) => {
   }
   return false;
 };
-const isNotSaturday = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isNotSaturday = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.dayOfWeek !== 6 || currentSeason.type === "feast") {
     return true;
   }
   return false;
 };
-const showLitanyOfOblations = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const showLitanyOfOblations = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.dayOfWeek === 0 || currentSeason.type === "feast") {
     return true;
   }
   return false;
 };
-const ProphecyShow = (motherSource, path) => {};
-const isLentWeekdayOrJonah = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
 
+const isLentWeekdayOrJonah = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.key === "JONAH_FAST") {
     return true;
   }
@@ -833,9 +1308,16 @@ const isLentWeekdayOrJonah = (motherSource, path) => {
 
   return false;
 };
-const isLentWeekdayOnly = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const isLentWeekdayOnly = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.key === "GREAT_LENT") {
     if (
       (currentSeason.dayOfWeek === 1 && currentSeason.week === 1) ||
@@ -850,8 +1332,16 @@ const isLentWeekdayOnly = (motherSource, path) => {
 
   return false;
 };
-const isLentWeekdayOrJonahAndLastFirstLent = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isLentWeekdayOrJonahAndLastFirstLent = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.key === "JONAH_FAST") {
     return true;
   }
@@ -870,14 +1360,30 @@ const isLentWeekdayOrJonahAndLastFirstLent = (motherSource, path) => {
 
   return false;
 };
-const isLentAndJonah = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isLentAndJonah = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return (
     currentSeason.key === "JONAH_FAST" || currentSeason.key === "GREAT_LENT"
   );
 };
-const isLentWeekends = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isLentWeekends = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.key === "GREAT_LENT") {
     if (
       (currentSeason.dayOfWeek === 1 && currentSeason.week === 1) ||
@@ -891,9 +1397,16 @@ const isLentWeekends = (motherSource, path) => {
   }
   return false;
 };
-const isWatos = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const isWatos = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (motherSource === "ThursdayDayFirstHourMain") {
     return true;
   }
@@ -914,14 +1427,39 @@ const isWatos = (motherSource, path) => {
   // If any of the conditions is met, return true, otherwise, return false
   return (
     currentSeason.isWatos &&
-    isNOTLentWeekdayOrJonah(motherSource, path) &&
-    !isBigFeast(motherSource, path)
+    isNOTLentWeekdayOrJonah(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    ) &&
+    !isBigFeast(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
   );
 };
 
-const isAdam = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const isAdam = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (motherSource === "ThursdayDayFirstHourMain") {
     return false;
   }
@@ -940,37 +1478,123 @@ const isAdam = (motherSource, path) => {
   // If any of the conditions is met, return true, otherwise, return false
   return (
     !currentSeason.isWatos &&
-    isNOTLentWeekdayOrJonah(motherSource, path) &&
-    !isBigFeast(motherSource, path)
+    isNOTLentWeekdayOrJonah(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    ) &&
+    !isBigFeast(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
   );
 };
-const showWatosConclusion = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
-  if (!currentSeason.isWatos && isPraises(motherSource, path)) {
+const showWatosConclusion = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
+  if (
+    !currentSeason.isWatos &&
+    isPraises(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
+  ) {
     return true;
   } else {
     return false;
   }
 };
-export const isNOTLentWeekdayOrJonah = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+export const isNOTLentWeekdayOrJonah = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (motherSource === "ThursdayDayFirstHourMain") {
     return false;
   }
-  if (isBigFeast(motherSource, path)) {
+  if (
+    isBigFeast(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
+  ) {
     return true;
   }
-  if (isLentWeekdayOrJonah(motherSource, path)) {
+  if (
+    isLentWeekdayOrJonah(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
+  ) {
     return false;
   }
 
   return true;
 };
-const showArchangelMichaelAndGabriel = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const showArchangelMichaelAndGabriel = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   const { key, dayOfWeek } = currentSeason;
-  if (isBigFeast(motherSource, path)) {
+  if (
+    isBigFeast(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
+  ) {
     return false;
   }
   if (
@@ -996,16 +1620,31 @@ const showArchangelMichaelAndGabriel = (motherSource, path) => {
   return true;
 };
 
-const showVersesOfCymbalsFestiveConclusion = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const showVersesOfCymbalsFestiveConclusion = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.type === "feast") {
     return true;
   }
   return false;
 };
-const showGospelResponseFestiveConclusion = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const showGospelResponseFestiveConclusion = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
     currentSeason.type === "feast" &&
     currentSeason.key !== "FEAST_OF_CROSS" &&
@@ -1016,8 +1655,16 @@ const showGospelResponseFestiveConclusion = (motherSource, path) => {
   }
   return false;
 };
-const isBigFeast = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isBigFeast = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
     currentSeason.key === "NATIVITY" ||
     currentSeason.key === "EPIPHANY" ||
@@ -1027,22 +1674,46 @@ const isBigFeast = (motherSource, path) => {
   }
   return false;
 };
-const isPalmSunday = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isPalmSunday = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.key === "PALM_SUNDAY") {
     return true;
   }
   return false;
 };
-const isNotPalmSunday = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isNotPalmSunday = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.key === "PALM_SUNDAY") {
     return false;
   }
   return true;
 };
-const isCross = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isCross = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
     currentSeason.key === "FEAST_OF_CROSS" ||
     currentSeason.key === "FEAST_OF_CROSS_3"
@@ -1051,8 +1722,16 @@ const isCross = (motherSource, path) => {
   }
   return false;
 };
-const isHosanna = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isHosanna = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
     currentSeason.key === "FEAST_OF_CROSS" ||
     currentSeason.key === "FEAST_OF_CROSS_3" ||
@@ -1062,48 +1741,106 @@ const isHosanna = (motherSource, path) => {
   }
   return false;
 };
-const showHitenVOC = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const showHitenVOC = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (motherSource === "ThursdayDayFirstHourMain") {
     return true;
   }
   if (
     currentSeason.type === "feast" ||
-    isLentWeekdayOrJonah(motherSource, path)
+    isLentWeekdayOrJonah(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
   ) {
     return false;
   }
   return true;
 };
-const showStandardVOCConclusion = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const showStandardVOCConclusion = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.type === "feast") {
     return false;
   }
   return true;
 };
-const notPalmSunday = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const notPalmSunday = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.key !== "PALM_SUNDAY") {
     return true;
   }
   return false;
 };
-const isResurrectionFeast = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isResurrectionFeast = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.key === "RESURRECTION") {
     return true;
   }
   return false;
 };
-const isPentecostFeast = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isPentecostFeast = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.key === "PENTECOST") {
     return true;
   }
   return false;
 };
-const CreedHolyWeek = (motherSource, path) => {
+const CreedHolyWeek = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (motherSource) {
     case "ThursdayDayFirstHourMain":
     case "liturgyofStBasilCovenantThursday":
@@ -1116,7 +1853,16 @@ const CreedHolyWeek = (motherSource, path) => {
       return true;
   }
 };
-const CreedCrucified = (motherSource, path) => {
+const CreedCrucified = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (motherSource) {
     case "ThursdayDayFirstHourMain":
     case "liturgyofStBasilCovenantThursday":
@@ -1126,47 +1872,150 @@ const CreedCrucified = (motherSource, path) => {
       return true;
   }
 };
-const isTwelfthHourGoodFriday = (motherSource, path) => {
+const isTwelfthHourGoodFriday = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return motherSource === "FridayDayTwelfthHourMain" ? true : false;
 };
-const isNOTTwelfthHourGoodFriday = (motherSource, path) => {
+const isNOTTwelfthHourGoodFriday = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return motherSource === "FridayDayTwelfthHourMain" ? false : true;
 };
-const BrightSaturday = (motherSource, path) => {
+const BrightSaturday = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return motherSource.toLowerCase()?.includes("brightsaturday") ? true : false;
 };
-const hide = (motherSource, path) => {
+const hide = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return false;
 };
-const VOCSaint = (motherSource, path) => {
-  const saintSelected = getSaint(path.trim());
+const VOCSaint = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent,
+  saints
+) => {
+  const saintSelected = getSaint(path.trim(), currentSeason, saints);
   if (
-    isLentWeekdayOrJonah(motherSource, path) ||
-    isBigFeast(motherSource, path)
+    isLentWeekdayOrJonah(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    ) ||
+    isBigFeast(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
   ) {
     return false;
   }
 
   return saintSelected.versesofCymbals;
 };
-const DOXSaint = (motherSource, path) => {
-  const saintSelected = getSaint(path.trim());
+const DOXSaint = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent,
+  saints
+) => {
+  const saintSelected = getSaint(path.trim(), currentSeason, saints);
 
   return saintSelected.doxologies;
 };
-const HitenSaint = (motherSource, path) => {
-  const saintSelected = getSaint(path.trim());
+const HitenSaint = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent,
+  saints
+) => {
+  const saintSelected = getSaint(path.trim(), currentSeason, saints);
 
   return saintSelected.intercessions;
 };
-const PioikSaint = (motherSource, path) => {
-  const saintSelected = getSaint(path.trim());
+const PioikSaint = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent,
+  saints
+) => {
+  const saintSelected = getSaint(path.trim(), currentSeason, saints);
 
   return saintSelected.pioik;
 };
-const ActsResponseSaint = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const saintSelected = getSaint(path.trim());
+const ActsResponseSaint = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent,
+  saints
+) => {
+  const saintSelected = getSaint(path.trim(), currentSeason, saints);
   switch (currentSeason.key) {
     case "STANDARD":
     case "FAST_OF_APOSTLES":
@@ -1184,9 +2033,19 @@ const ActsResponseSaint = (motherSource, path) => {
       return false;
   }
 };
-const GospelResponseSaint = (motherSource, path) => {
-  const saintSelected = getSaint(path.trim());
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const GospelResponseSaint = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent,
+  saints
+) => {
+  const saintSelected = getSaint(path.trim(), currentSeason, saints);
+
   switch (currentSeason.key) {
     case "STANDARD":
     case "FAST_OF_APOSTLES":
@@ -1196,28 +2055,57 @@ const GospelResponseSaint = (motherSource, path) => {
       return false;
   }
 };
-const isApostlesFeast = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const isApostlesFeast = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return currentSeason.key === "FEAST_OF_APOSTLES" ? true : false;
 };
-const isApostlesFast = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const isApostlesFast = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (currentSeason.key === "FAST_OF_APOSTLES") {
     return true;
   }
   return currentSeason.key === "FAST_OF_APOSTLES" ? true : false;
 };
-const allButTwentyNinth = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const allButTwentyNinth = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   return currentSeason.key === FeastEnum.TWENTYNINTHTH_COPTIC_MONTH
     ? false
     : true;
 };
-const stMaryActsResponse = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const stMaryActsResponse = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
     currentSeason.type === "feast" ||
     ["GREAT_LENT", "JONAH_FAST", "NATIVITY_PARAMOUN"].includes(
@@ -1232,11 +2120,28 @@ const stMaryActsResponse = (motherSource, path) => {
 
   return true;
 };
-const ArchangelGabrielShow = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const saintSelected = getSaint("ARCHANGEL_GABRIEL");
-  const isBigFeastResult = isBigFeast(motherSource, path);
-
+const ArchangelGabrielShow = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent,
+  saints
+) => {
+  const saintSelected = getSaint("ARCHANGEL_GABRIEL", currentSeason, saints);
+  const isBigFeastResult = isBigFeast(
+    motherSource,
+    path,
+    currentSeason,
+    timeTransition,
+    dioceseBishop,
+    BishopIsPresent,
+    BishopsPresent,
+    are3PlusBishopsPresent
+  );
   if (
     (currentSeason.copticMonth === "Koiahk" ||
       TakeFromHathor(currentSeason) ||
@@ -1263,9 +2168,18 @@ const ArchangelGabrielShow = (motherSource, path) => {
     return isBigFeastResult ? false : saintSelected.versesofCymbals;
   }
 };
-const JohnTheBaptistShow = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const saintSelected = getSaint("JOHN_THE_BAPTIST");
+const JohnTheBaptistShow = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent,
+  saints
+) => {
+  const saintSelected = getSaint("JOHN_THE_BAPTIST", currentSeason, saints);
 
   const isDoxologyPath = (path) =>
     path?.toLowerCase().includes("doxologies") ||
@@ -1296,19 +2210,31 @@ const JohnTheBaptistShow = (motherSource, path) => {
       return currentSeason.saintsOfThisDay.includes("JOHN_THE_BAPTIST");
   }
 };
-const getPlantsSeason = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const getPlantsSeason = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (path?.toLowerCase().includes(currentSeason.plantsSeason)) {
     return true;
   }
   return false;
 };
-const ISDioceseMetropolitain = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
-
+const ISDioceseMetropolitain = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (!dioceseBishop) {
     return false;
   }
@@ -1320,9 +2246,16 @@ const ISDioceseMetropolitain = (motherSource, path) => {
 
   return isMetropolitan;
 };
-const ISDioceseMetropolitainAlways = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
+const ISDioceseMetropolitainAlways = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (dioceseBishop === undefined) {
     return false;
   }
@@ -1331,12 +2264,16 @@ const ISDioceseMetropolitainAlways = (motherSource, path) => {
   }
   return false;
 };
-const ISDioceseBishop = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
-
+const ISDioceseBishop = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (dioceseBishop === undefined) {
     return false;
   }
@@ -1348,12 +2285,16 @@ const ISDioceseBishop = (motherSource, path) => {
 
   return isBishop;
 };
-const ISDioceseBishopAlways = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
-
+const ISDioceseBishopAlways = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (dioceseBishop === undefined) {
     return false;
   }
@@ -1363,18 +2304,31 @@ const ISDioceseBishopAlways = (motherSource, path) => {
   return false;
 };
 
-const BishopIsPresent = (motherSource, path) => {
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
-
+const BishopIsPresentFunction = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (BishopIsPresent !== undefined && BishopIsPresent !== false) {
     return true;
   }
   return false;
 };
-const BishopIsPresentOrBigFeast = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const BishopIsPresentOrBigFeast = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
     currentSeason.key === "NATIVITY" ||
     currentSeason.key === "EPIPHANY" ||
@@ -1382,22 +2336,34 @@ const BishopIsPresentOrBigFeast = (motherSource, path) => {
   ) {
     return true;
   }
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
 
   if (BishopIsPresent !== undefined && BishopIsPresent !== false) {
     return true;
   }
   return false;
 };
-const BishopIsNOTPresent = (motherSource, path) => {
-  return !BishopIsPresent();
+const BishopIsNOTPresent = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
+  return !BishopIsPresentFunction();
 };
-const Is3PlusBishops = (BishopsPresent, motherSource, path) => {
-  const are3PlusBishopsPresent = useSelector(
-    (state) => state.settings.ismorethan3BishopPresent
-  );
+const Is3PlusBishops = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (are3PlusBishopsPresent) {
     return true;
   }
@@ -1405,12 +2371,16 @@ const Is3PlusBishops = (BishopsPresent, motherSource, path) => {
   return false;
 };
 
-const Is3PlusMetroBishops = (motherSource, path) => {
-  const Is3PlusBishops = useSelector(
-    (state) => state.settings.ismorethan3BishopPresent
-  );
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
+const Is3PlusMetroBishops = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   const filteredMetro = BishopsPresent.filter(
     (bishop) =>
       bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
@@ -1427,41 +2397,50 @@ const Is3PlusMetroBishops = (motherSource, path) => {
   }
   return false;
 };
-const ISOneMetropolitain = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-  const are3PlusBishopsPresent = useSelector(
-    (state) => state.settings.ismorethan3BishopPresent
-  );
+const ISOneMetropolitain = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (are3PlusBishopsPresent) {
     return false;
   }
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+
   if (
     BishopsPresent?.length > 0 &&
     BishopsPresent?.filter(
       (bishop) =>
         bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
     ).length > 0 &&
-    BishopIsPresent()
+    BishopIsPresentFunction()
   ) {
     return true;
   }
   return false;
 };
-const ISTwoMetropolitain = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-  const are3PlusBishopsPresent = useSelector(
-    (state) => state.settings.ismorethan3BishopPresent
-  );
+const ISTwoMetropolitain = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (are3PlusBishopsPresent) {
     return false;
   }
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const filteredBishops = BishopsPresent?.filter(
     (bishop) =>
       bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
   );
-  if (filteredBishops?.length > 1 && BishopIsPresent()) {
+  if (filteredBishops?.length > 1 && BishopIsPresentFunction()) {
     if (
       filteredBishops[0]?.Rank === "Metropolitan" &&
       filteredBishops[1]?.Rank === "Metropolitan"
@@ -1473,22 +2452,26 @@ const ISTwoMetropolitain = (motherSource, path) => {
   }
   return false;
 };
-const ISThreeMetropolitain = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-  const are3PlusBishopsPresent = useSelector(
-    (state) => state.settings.ismorethan3BishopPresent
-  );
+const ISThreeMetropolitain = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (are3PlusBishopsPresent) {
     return false;
   }
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const filteredBishops = BishopsPresent?.filter(
     (bishop) =>
       bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
   );
   if (
     filteredBishops?.length > 2 &&
-    BishopIsPresent() &&
+    BishopIsPresentFunction() &&
     filteredBishops?.some((bishop) => bishop.key !== dioceseBishop?.key)
   ) {
     if (
@@ -1502,13 +2485,16 @@ const ISThreeMetropolitain = (motherSource, path) => {
   }
   return false;
 };
-const ISOneBishop = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
-  const are3PlusBishopsPresent = useSelector(
-    (state) => state.settings.ismorethan3BishopPresent
-  );
+const ISOneBishop = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (are3PlusBishopsPresent) {
     return false;
   }
@@ -1517,25 +2503,25 @@ const ISOneBishop = (motherSource, path) => {
     BishopsPresent?.filter(
       (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
     ).length > 0 &&
-    BishopIsPresent()
+    BishopIsPresentFunction()
   ) {
     return true;
   }
   return false;
 };
-const ISTwoBishop = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
-  const are3PlusBishopsPresent = useSelector(
-    (state) => state.settings.ismorethan3BishopPresent
-  );
+const ISTwoBishop = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (are3PlusBishopsPresent) {
     return false;
   }
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
   const filteredBishops = BishopsPresent?.filter(
     (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   );
@@ -1551,19 +2537,20 @@ const ISTwoBishop = (motherSource, path) => {
   }
   return false;
 };
-const ISThreeBishop = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
-
+const ISThreeBishop = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   const filteredBishops = BishopsPresent?.filter(
     (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   );
-  const are3PlusBishopsPresent = useSelector(
-    (state) => state.settings.ismorethan3BishopPresent
-  );
+
   if (are3PlusBishopsPresent) {
     return false;
   }
@@ -1579,13 +2566,16 @@ const ISThreeBishop = (motherSource, path) => {
   return false;
 };
 
-const IsDiocesePope = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
-
+const IsDiocesePope = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (dioceseBishop === undefined) {
     return true;
   }
@@ -1594,13 +2584,16 @@ const IsDiocesePope = (motherSource, path) => {
   }
   return false;
 };
-const IsDioceseNotPope = (motherSource, path) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
-  const BishopIsPresent = useSelector(
-    (state) => state.settings.BishopIsPresent
-  );
-
+const IsDioceseNotPope = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (dioceseBishop === undefined) {
     return false;
   }
@@ -1613,9 +2606,16 @@ const IsDioceseNotPope = (motherSource, path) => {
   }
   return false;
 };
-const IsNonFastingDays = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  const timeTransition = useSelector((state) => state.settings.timeTransition);
+const IsNonFastingDays = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
     (currentSeason.key === FeastEnum.FEAST_OF_CROSS ||
       currentSeason.key === FeastEnum.FEAST_OF_CROSS_3) &&
@@ -1642,9 +2642,16 @@ const IsNonFastingDays = (motherSource, path) => {
         : false;
   }
 };
-const IsFastingDays = (motherSource, path) => {
-  const timeTransition = useSelector((state) => state.settings.timeTransition);
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const IsFastingDays = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   const lowerPath = path?.toLowerCase();
 
   if (
@@ -1680,9 +2687,16 @@ const IsFastingDays = (motherSource, path) => {
     currentSeason.dayOfWeek !== 0
   );
 };
-const StandardAgiosShow = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-
+const StandardAgiosShow = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   const nonSpecialSeasons = [
     "FEAST_OF_CROSS",
     "FEAST_OF_CROSS_3",
@@ -1704,25 +2718,90 @@ const StandardAgiosShow = (motherSource, path) => {
 
   return !nonSpecialSeasons.includes(currentSeason.key);
 };
-const ShowSotees = (motherSource, path) => {
+const ShowSotees = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   if (
-    BishopIsNOTPresent(motherSource, path) &&
-    !isLentWeekdayOrJonahAndLastFirstLent(motherSource, path)
+    BishopIsNOTPresent(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    ) &&
+    !isLentWeekdayOrJonahAndLastFirstLent(
+      motherSource,
+      path,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
   ) {
     return true;
   }
   return false;
 };
-const firstKiahkGospelResponse = (motherSource, path) => {
-  if (isKiahkWeek("", "Week1") || isKiahkWeek("", "Week2")) {
+const firstKiahkGospelResponse = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
+  if (
+    isKiahkWeek(
+      "",
+      "Week1",
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    ) ||
+    isKiahkWeek(
+      "",
+      "Week2",
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
+  ) {
     return true;
   } else {
     return false;
   }
 };
 
-const secondKiahkGospelResponse = (motherSource, path) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const secondKiahkGospelResponse = (
+  motherSource,
+  path,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent
+) => {
   switch (currentSeason.key) {
     case "NATIVITY":
     case "NATIVITY_PARAMOUN":
@@ -1730,7 +2809,28 @@ const secondKiahkGospelResponse = (motherSource, path) => {
     case "FEAST_OF_CIRCUMCISION":
       return false;
   }
-  if (isKiahkWeek("", "Week3") || isKiahkWeek("", "Week4")) {
+  if (
+    isKiahkWeek(
+      "",
+      "Week3",
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    ) ||
+    isKiahkWeek(
+      "",
+      "Week4",
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent
+    )
+  ) {
     return true;
   } else {
     return false;
@@ -1784,10 +2884,8 @@ export function TakeFromHathor(currentSeason) {
 }
 
 //ReplacingIndex
-const ComeRisenRule = (motherSource, part) => {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+const ComeRisenRule = (motherSource, part, currentSeason) => {
   const fastsFeasts = getCopticFastsFeasts(currentSeason.gregorianYear);
-
   const KIAHK = fastsFeasts.find((element) => element.key === "NATIVITY_FAST");
 
   const PENTECOST = fastsFeasts.find((element) => element.key === "PENTECOST");
@@ -1906,7 +3004,7 @@ const ComeRisenRule = (motherSource, part) => {
   }
 };
 
-const ROICONCLUSION = (motherSource, rule) => {
+const ROICONCLUSION = (motherSource, rule, currentSeason) => {
   if (motherSource === "kiahkPsalmody") {
     return {
       english: "The Begotten of the Father before all ages. ",
@@ -1929,7 +3027,7 @@ const ROICONCLUSION = (motherSource, rule) => {
     };
   }
   const fastsFeasts = getCopticFastsFeasts(moment().year());
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
+
   switch (currentSeason.key) {
     case "COPTIC_NEW_YEAR":
       return {
@@ -2151,8 +3249,8 @@ const ROICONCLUSION = (motherSource, rule) => {
   }
 };
 
-const REPLACEGOSPELAUTHOR = (author, part) => {
-  myauthor = getGospelAuthor(part);
+const REPLACEGOSPELAUTHOR = (author, part, currentSeason) => {
+  myauthor = getGospelAuthor(part, currentSeason);
   switch (myauthor) {
     case 1:
       return {
@@ -2196,7 +3294,7 @@ const REPLACEGOSPELAUTHOR = (author, part) => {
       };
   }
 };
-const REPLACEPASCHAGOSPELAUTHOR = (author, part) => {
+const REPLACEPASCHAGOSPELAUTHOR = (author, part, currentSeason) => {
   switch (author) {
     case 1:
       return {
@@ -2240,8 +3338,8 @@ const REPLACEPASCHAGOSPELAUTHOR = (author, part) => {
       };
   }
 };
-const REPLACECATHOLICAUTHOR = (author, part) => {
-  myauthor = getCatholicAuthor(part);
+const REPLACECATHOLICAUTHOR = (author, part, currentSeason) => {
+  myauthor = getCatholicAuthor(part, currentSeason);
 
   switch (myauthor) {
     case "1Peter":
@@ -2310,8 +3408,8 @@ const REPLACECATHOLICAUTHOR = (author, part) => {
       };
   }
 };
-const REPLACEPAULINEAUTHOR = (author, part) => {
-  myauthor = getPaulineAuthor(part);
+const REPLACEPAULINEAUTHOR = (author, part, currentSeason) => {
+  myauthor = getPaulineAuthor(part, currentSeason);
 
   switch (myauthor) {
     case "1Timothy":
@@ -2437,7 +3535,7 @@ const REPLACEPAULINEAUTHOR = (author, part) => {
   }
 };
 
-const REPLACPASCHAHOURDAY = (paschaHourDay, part) => {
+const REPLACPASCHAHOURDAY = (paschaHourDay, part, currentSeason) => {
   switch (paschaHourDay) {
     //SundayDay
     case "SundayDayNinthHour":
@@ -2733,9 +3831,8 @@ const REPLACPASCHAHOURDAY = (paschaHourDay, part) => {
   }
 };
 
-const REPLACEPROPHETS = (prophet, part) => {
+const REPLACEPROPHETS = (prophet, part, currentSeason) => {
   var updatedProphet = prophet;
-  console.log(updatedProphet);
   switch (updatedProphet) {
     case "Genesis":
       return {
@@ -2939,7 +4036,7 @@ const REPLACEPROPHETS = (prophet, part) => {
       };
   }
 };
-const REPLACEHOMILYFATHERS = (father, part) => {
+const REPLACEHOMILYFATHERS = (father, part, currentSeason) => {
   switch (father) {
     case "Shenouda":
       return {
@@ -2976,7 +4073,7 @@ const REPLACEHOMILYFATHERS = (father, part) => {
   }
 };
 
-const REPLACEPOPE = (rule, part) => {
+const REPLACEPOPE = (rule, part, currentSeason) => {
   return {
     english: bishopsList.POPE.English,
     coptic: bishopsList.POPE.Coptic,
@@ -2985,7 +4082,7 @@ const REPLACEPOPE = (rule, part) => {
     arabiccoptic: bishopsList.POPE.Arabiccoptic,
   };
 };
-const REPLACANTIOCHEPOPE = (rule, part) => {
+const REPLACANTIOCHEPOPE = (rule, part, currentSeason) => {
   return {
     english: bishopsList.ANTIOCH_POPE.English,
     coptic: bishopsList.ANTIOCH_POPE.Coptic,
@@ -2994,7 +4091,7 @@ const REPLACANTIOCHEPOPE = (rule, part) => {
     arabiccoptic: bishopsList.ANTIOCH_POPE.Arabiccoptic,
   };
 };
-const REPLACEERITREANPOPE = (rule, part) => {
+const REPLACEERITREANPOPE = (rule, part, currentSeason) => {
   return {
     english: bishopsList.ERITREAN_POPE.English,
     coptic: bishopsList.ERITREAN_POPE.Coptic,
@@ -3004,9 +4101,7 @@ const REPLACEERITREANPOPE = (rule, part) => {
   };
 };
 
-const REPLACEDIOCESEBISHOP = (rule, part) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
+const REPLACEDIOCESEBISHOP = (rule, part, currentSeason) => {
   return {
     english: dioceseBishop?.English,
     coptic: dioceseBishop?.Coptic,
@@ -3016,11 +4111,7 @@ const REPLACEDIOCESEBISHOP = (rule, part) => {
   };
 };
 
-const REPLACEMETROPOLITAINAVAILABLE = (rule, part) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
-
+const REPLACEMETROPOLITAINAVAILABLE = (rule, part, currentSeason) => {
   const metro1 = BishopsPresent.filter(
     (bishop) =>
       bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
@@ -3033,10 +4124,7 @@ const REPLACEMETROPOLITAINAVAILABLE = (rule, part) => {
     arabiccoptic: metro1.Arabiccoptic,
   };
 };
-const REPLACEMETROPOLITAINAVAILABLETWO = (rule, part) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+const REPLACEMETROPOLITAINAVAILABLETWO = (rule, part, currentSeason) => {
   const metro1 = BishopsPresent.filter(
     (bishop) =>
       bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
@@ -3049,10 +4137,7 @@ const REPLACEMETROPOLITAINAVAILABLETWO = (rule, part) => {
     arabiccoptic: metro1.Arabiccoptic,
   };
 };
-const REPLACEMETROPOLITAINAVAILABLETHREE = (rule, part) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+const REPLACEMETROPOLITAINAVAILABLETHREE = (rule, part, currentSeason) => {
   const metro1 = BishopsPresent.filter(
     (bishop) =>
       bishop.Rank === "Metropolitan" && bishop.key !== dioceseBishop?.key
@@ -3066,10 +4151,7 @@ const REPLACEMETROPOLITAINAVAILABLETHREE = (rule, part) => {
   };
 };
 
-const REPLACEBISHOPAVAILABLE = (rule, part) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+const REPLACEBISHOPAVAILABLE = (rule, part, currentSeason) => {
   const metro1 = BishopsPresent.filter(
     (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   )[0];
@@ -3081,10 +4163,7 @@ const REPLACEBISHOPAVAILABLE = (rule, part) => {
     arabiccoptic: metro1.Arabiccoptic,
   };
 };
-const REPLACEBISHOPAVAILABLETWO = (rule, part) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+const REPLACEBISHOPAVAILABLETWO = (rule, part, currentSeason) => {
   const metro1 = BishopsPresent.filter(
     (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   )[1];
@@ -3096,10 +4175,7 @@ const REPLACEBISHOPAVAILABLETWO = (rule, part) => {
     arabiccoptic: metro1.Arabiccoptic,
   };
 };
-const REPLACEBISHOPAVAILABLETHREE = (rule, part) => {
-  const dioceseBishop = useSelector((state) => state.settings.dioceseBishop);
-
-  const BishopsPresent = useSelector((state) => state.settings.BishopsPresent);
+const REPLACEBISHOPAVAILABLETHREE = (rule, part, currentSeason) => {
   const metro1 = BishopsPresent.filter(
     (bishop) => bishop.Rank === "Bishop" && bishop.key !== dioceseBishop?.key
   )[2];
@@ -3111,31 +4187,76 @@ const REPLACEBISHOPAVAILABLETHREE = (rule, part) => {
     arabiccoptic: metro1.Arabiccoptic,
   };
 };
+// Define the set globally to avoid re-creating it on each function call
+const liturgyPaths = new Set([
+  "VespersPsalm",
+  "VespersGospel",
+  "MatinsPsalm",
+  "MatinsProphecy1",
+  "MatinsProphecy2",
+  "MatinsProphecy3",
+  "MatinsProphecy4",
+  "MatinsProphecy5",
+  "MatinsProphecy6",
+  "MatinsProphecy7",
+  "MatinsProphecy8",
+  "MatinsProphecy9",
+  "MatinsProphecy10",
+  "MatinsProphecy11",
+  "MatinsGospel",
+  "LiturgyPauline",
+  "LiturgyCatholic",
+  "LiturgyActs",
+  "LiturgyPsalm",
+  "LiturgyGospel",
+  "LiturgyPaulineCoptic",
+  "LiturgyCatholicCoptic",
+  "LiturgyActsCoptic",
+  "EveningPsalm",
+  "EveningGospel",
+]);
 
-function getAuthor(part, checkList) {
-  const completePath = GetTodaysReadingPath(part.mother);
-
-  if (completePath === "Katamaros") return "NONE";
-
-  const book = bookPaths[completePath];
-
-  if (!book) return undefined; // Handle potential missing book paths
-
-  return checkList.find((item) => book.EnglishTitle.includes(item.keyword))
-    ?.returnValue;
+// Optimized updateFilePath function
+function updateFilePath(currentSeason, path) {
+  // Direct check if path exists in liturgyPaths set, otherwise return "Katamaros"
+  return liturgyPaths.has(path)
+    ? `${currentSeason.filePath}${path}`
+    : "Katamaros";
 }
 
-function getGospelAuthor(part) {
+// Optimized getAuthor function
+function getAuthor(part, checkList, currentSeason) {
+  // Get the complete file path
+  const completePath = updateFilePath(currentSeason, part.mother);
+
+  // Return "NONE" if the path is "Katamaros"
+  if (completePath === "Katamaros") return "NONE";
+
+  // Retrieve the book object from bookPaths based on completePath
+  const book = bookPaths[completePath];
+
+  // Return undefined if no book exists for the path
+  if (!book) return;
+
+  // Use optional chaining to find the matching item in checkList and return its value
+  const match = checkList.find((item) =>
+    book.EnglishTitle?.includes(item.keyword)
+  );
+
+  return match?.returnValue; // Return the corresponding value or undefined
+}
+
+function getGospelAuthor(part, currentSeason) {
   const checkList = [
     { keyword: "Matthew", returnValue: 1 },
     { keyword: "Mark", returnValue: 2 },
     { keyword: "Luke", returnValue: 3 },
     { keyword: "John", returnValue: 4 },
   ];
-  return getAuthor(part, checkList);
+  return getAuthor(part, checkList, currentSeason);
 }
 
-function getCatholicAuthor(part) {
+function getCatholicAuthor(part, currentSeason) {
   const checkList = [
     { keyword: "James", returnValue: "James" },
     { keyword: "Jude", returnValue: "Jude" },
@@ -3145,10 +4266,10 @@ function getCatholicAuthor(part) {
     { keyword: "2 John", returnValue: "2John" },
     { keyword: "3 John", returnValue: "3John" },
   ];
-  return getAuthor(part, checkList);
+  return getAuthor(part, checkList, currentSeason);
 }
 
-function getPaulineAuthor(part) {
+function getPaulineAuthor(part, currentSeason) {
   const checkList = [
     { keyword: "1 Timothy", returnValue: "1Timothy" },
     { keyword: "2 Timothy", returnValue: "2Timothy" },
@@ -3166,44 +4287,9 @@ function getPaulineAuthor(part) {
     { keyword: "Romans", returnValue: "Romans" },
     // Add other items to the checkList
   ];
-  return getAuthor(part, checkList);
+  return getAuthor(part, checkList, currentSeason);
 }
-function getMatinsProphecyAuthor(part) {
-  const newPart = {
-    mother: part,
-  };
-  const checkList = [
-    { keyword: "Genesis", returnValue: "Genesis" },
-    { keyword: "Exodus", returnValue: "Exodus" },
-    { keyword: "Leviticus", returnValue: "Leviticus" },
-    { keyword: "Numbers", returnValue: "Numbers" },
-    {
-      keyword: "Deuteronomy",
-      returnValue: "Deuteronomy",
-    },
-    { keyword: "Isaiah", returnValue: "Isaiah" },
-    { keyword: "Jeremiah", returnValue: "Jeremiah" },
-    { keyword: "Lamentations", returnValue: "Lamentations" },
-    { keyword: "Wisdom", returnValue: "Wisdom" },
-    { keyword: "Proverbs", returnValue: "Proverbs" },
-    { keyword: "Job", returnValue: "Job" },
-    { keyword: "Zechariah", returnValue: "Zechariah" },
-    { keyword: "Micah", returnValue: "Micah" },
-    { keyword: "Amos", returnValue: "Amos" },
-    { keyword: "Joel", returnValue: "Joel" },
-    { keyword: "Jonah", returnValue: "Jonah" },
-    { keyword: "Nahum", returnValue: "Nahum" },
-    { keyword: "Zephaniah", returnValue: "Zephaniah" },
-    { keyword: "Joshua the son of Sirach", returnValue: "Sirach" },
-    { keyword: "Malachi", returnValue: "Malachi" },
-    { keyword: "Hosea", returnValue: "Hosea" },
-    { keyword: "First Kings", returnValue: "Kings1" },
-    { keyword: "Ezekiel", returnValue: "Ezekiel" },
-    { keyword: "Daniel", returnValue: "Daniel" },
-    { keyword: "Tobit", returnValue: "Tobit" },
-  ];
-  return getAuthor(newPart, checkList);
-}
+
 const VisibleRules = {
   COMERISEN: ComeRisenRule,
   ROICONCLUSION: ROICONCLUSION,
@@ -3306,7 +4392,7 @@ const VisibleRules = {
   showWatosConclusion: showWatosConclusion,
   IsDioceseNotPope: IsDioceseNotPope,
   allButTwentyNinth: allButTwentyNinth,
-  BishopIsPresent: BishopIsPresent,
+  BishopIsPresentFunction: BishopIsPresentFunction,
   BishopIsPresentOrBigFeast: BishopIsPresentOrBigFeast,
   BishopIsNOTPresent: BishopIsNOTPresent,
   IsNonFastingDays: IsNonFastingDays,
@@ -3314,7 +4400,6 @@ const VisibleRules = {
   IsFastingDays: IsFastingDays,
   stMaryActsResponse: stMaryActsResponse,
   ArchangelGabrielShow: ArchangelGabrielShow,
-  ProphecyShow: ProphecyShow,
   JohnTheBaptistShow: JohnTheBaptistShow,
   StandardAgiosShow: StandardAgiosShow,
   ISDioceseMetropolitainAlways: ISDioceseMetropolitainAlways,
@@ -3327,5 +4412,6 @@ const VisibleRules = {
   isLordsFeasts: isLordsFeasts,
   FeastsAndFastsOfStMaryAndHeavenlies: FeastsAndFastsOfStMaryAndHeavenlies,
   isFirstMondayOrLastFridayOfLent: isFirstMondayOrLastFridayOfLent,
+  inMatrimony: inMatrimony,
 };
 export default VisibleRules;

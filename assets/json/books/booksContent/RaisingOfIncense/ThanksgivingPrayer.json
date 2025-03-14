@@ -407,7 +407,29 @@
     {
       "Type": "Base",
       "Rule": 0,
+      "Visible": "inMatrimony",
+      "Side": "North",
+      "Arabic": "و ان يبارك حياة العروسين [*GROOM*] و [*BRIDE*]،",
+      "Coptic": "`ntef`cmou nipat]elet > ",
+      "English": "and to bless the lives of the bridegroom and the bride [*GROOM*] and [*BRIDE*]",
+      "Arabiccoptic": "إنتيف إسمو ني باتشيليت :",
+      "Englishcoptic": "entefesmooo nipatshelet :"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
       "Visible": "inRaisingOfIncense",
+      "Side": "North",
+      "Arabic": "ويغفرَ لنا خطايانا.",
+      "Coptic": "`ntefxa nennobi nan `ebol.",
+      "English": "And forgive us our sins.",
+      "Arabiccoptic": "انتيف كانين نوفي نان ايفول",
+      "Englishcoptic": "Entef ka nen novi nan evol."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "inMatrimony",
       "Side": "North",
       "Arabic": "ويغفرَ لنا خطايانا.",
       "Coptic": "`ntefxa nennobi nan `ebol.",
@@ -507,6 +529,25 @@
       "English": "And from all Your people",
       "Arabiccoptic": "نيم إيفول ها بيك لاؤس تيرف",
       "Englishcoptic": "Nem evol ha peklaos tirf,"
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": "inMatrimony",
+      "Side": "North",
+      "Arabic": "يرشم الكاهن العروسين",
+      "English": "The Priest blesses the bridegroom & the bride"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": "inMatrimony",
+      "Side": "North",
+      "Arabic": "وعن هذين العروسين،",
+      "Coptic": "`ebol \\a pai pa`t]elet nai>",
+      "English": "and from the bridegroom and the bride",
+      "Arabiccoptic": "نيم إيفول ها  باي باتشيليت ناي",
+      "Englishcoptic": "Nem evol ha pai pa-etshelet nai,"
     },
     {
       "Type": "Base",

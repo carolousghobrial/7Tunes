@@ -15,7 +15,7 @@ import {
   State,
   GestureHandlerRootView,
 } from "react-native-gesture-handler";
-import { getMain } from "../../viewModel/getFullViewModel.js";
+import { getMainExported } from "../../viewModel/getFullViewModel.js";
 import BaseView from "../../components/ViewTypes/BaseView.js";
 import MelodyView from "../../components/ViewTypes/MelodyView.js";
 import TitleView from "../../components/ViewTypes/TitleView.js";
@@ -26,7 +26,7 @@ import { useLocalSearchParams, useRouter } from "expo-router";
 const ZoomAndDrawPage = () => {
   const router = useRouter();
   const { path, rule } = useLocalSearchParams();
-  const data = getMain(path, "index", false, rule, 0)[0];
+  const data = getMainExported(path, "index", false, rule, 0)[0];
 
   // Scale and position variables
   const scale = useRef(new Animated.Value(1)).current; // Scale factor for zoom

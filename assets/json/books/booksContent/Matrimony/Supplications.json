@@ -4,15 +4,12 @@
   "EnglishTitle": "Litanies and Supplications",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -23,15 +20,12 @@
       "English": "O Lord God the Pantocrator, who are in heaven, the Lord of our forefathers; we beseech You to hear us and have mercy on us."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -42,15 +36,12 @@
       "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -61,15 +52,12 @@
       "English": "O You who created the heaven, the earth, and the sea, and everything therein, and ornamented them with Your wisdom. We beseech You to hear us and have mercy on us."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -80,15 +68,12 @@
       "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -99,15 +84,12 @@
       "English": "O You who made man in His image, after His likeness, and placed him in the paradise of joy, we ask You, O Lord, to hear us and have mercy on us."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -118,15 +100,12 @@
       "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -137,15 +116,12 @@
       "English": "O You who created woman from Adam's side and gave her to him as a helper, fit for him; we beseech You to hear us and have mercy on us."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -156,15 +132,12 @@
       "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -175,15 +148,12 @@
       "English": "O You who blessed Abraham and Sarah and made her a wife for him and granted him the title of Head of all Patriarchs; we beseech You to hear us and have mercy on us."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -194,15 +164,12 @@
       "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -213,15 +180,12 @@
       "English": "O You who preserved Isaac and chose for him Rebecca and delivered him from his enemies, we ask You, O Lord, to hear us and have mercy on us."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -232,15 +196,12 @@
       "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -251,15 +212,12 @@
       "English": "O You who blessed Jacob and gave him Leah as a wife and did grant them to be heirs of the promise; we ask You, O Lord, to hear us and have mercy on us."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -270,15 +228,12 @@
       "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -289,15 +244,12 @@
       "English": "O You who raised up Joseph and granted him Asenath as a wife and through him You sustained all the land of Egypt; we ask You, O Lord, to hear us and have mercy"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -308,15 +260,12 @@
       "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -327,15 +276,12 @@
       "English": " You who were pleased to be born of a virgin in the fullness of time and enlightened mankind; we ask You, O Lord, to hear us and have mercy on us."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -346,15 +292,12 @@
       "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -365,15 +308,12 @@
       "English": "O You who attended the wedding of Cana of Galilee, bless this marriage as you blessed that marriage. We beseech You to hear us and have mercy on us."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -384,15 +324,12 @@
       "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -403,15 +340,12 @@
       "English": "O God who transformed water into genuine wine by the authority of His divinity, bless Your two servants and purify them with Your love for mankind, we ask You, O Lord, to hear us and have mercy on us."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -422,15 +356,12 @@
       "English": "Lord have mercy."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -441,6 +372,38 @@
       "English": "O You who attended the wedding of Cana of Galilee, and blessed that wedding, and transformed water into genuine wine by the authority of His divinity, bless and guard this wedding of Your two servants [*GROOM*] and (...) in peace, harmony and love and protect them. We ask You, O Lord, to hear us and have mercy on us."
     },
     {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب إرحم",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " أيها المحسن، الرؤوف، الكثير الصلاح والتحنن، يا رب إجعلنا أن نمجد صلاحك يا محب البشر، نسألك يا رب أن تسمعنا وترحمنا.",
+      "English": "O You who are beneficent and compassionate and full of goodness and affection, O God make us glorify Your goodness, O Lover of Mankind. We ask You, O Lord, to hear us and have mercy on us."
+    },
+    {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
@@ -452,31 +415,26 @@
       "Englishcoptic": "Pi-Laos:"
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "يا رب إرحم",
-      "English": "Lord have mercy."
+      "Arabic": "أيها المسيح كلمة الآب . الإله الوحيد . أعطنا سلامك . المملوء فرحاً .",
+      "Coptic": "Px/c/ pilogoc `nte `Viwt > pimonogenhc `nnou; > ek`e; nan `ntek\\irhnh > qai eqme\\ `nra]i niben .",
+      "English": "O Christ the Logos of the Father. : the only begotten God, : grant us Your peace : which is full of every Joy",
+      "Arabiccoptic": "بخريستوس بيلوغوس إنتى إفيوت . بى مونوجينيس إن نوتى . إك إيتى نان إنتيك هيرينى . ثاى إثميه إنراشى نيفين .",
+      "Englishcoptic": "Pikhristos piloghos ente Efiot, pi monogenis en nouty, ek eti nan entek hiriny, thai ethmeh en rashi niven."
     },
     {
       "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "Priest",
-      "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": " أيها المحسن، الرؤوف، الكثير الصلاح والتحنن، يا رب إجعلنا أن نمجد صلاحك يا محب البشر، نسألك يا رب أن تسمعنا وترحمنا.",
-      "English": "O You who are beneficent and compassionate and full of goodness and affection, O God make us glorify Your goodness, O Lover of Mankind. We ask You, O Lord, to hear us and have mercy on us."
+      "Side": "South",
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "Coptic": "Kurie `ele`hcon>Kurie `ele`hcon>Kurie `ele`hcon.",
+      "English": "Lord Have Mercy , Lord Have Mercy , Lord Have Mercy.",
+      "Arabiccoptic": "كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Kerye-leison : Kerye-leison : Kerye-leison ."
     }
   ]
 }

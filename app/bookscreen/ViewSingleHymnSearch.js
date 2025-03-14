@@ -16,7 +16,7 @@ import {
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers.js";
-import { getMain } from "../../viewModel/getFullViewModel.js";
+import { getMainExported } from "../../viewModel/getFullViewModel.js";
 import BaseView from "../../components/ViewTypes/BaseView.js";
 import MelodyView from "../../components/ViewTypes/MelodyView.js";
 import TitleView from "../../components/ViewTypes/TitleView.js";
@@ -46,7 +46,7 @@ const ViewSingleHymnSearch = memo(() => {
   const title = appLanguage === "eng" ? englishTitle : arabicTitle;
 
   const [navTitle, setNavTitle] = useState(title);
-  const data = getMain(path, "index", false, rule, 0)[0];
+  const data = getMainExported(path, "index", false, rule, 0)[0];
 
   const renderItems = ({ item }) => {
     let content = null;

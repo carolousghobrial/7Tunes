@@ -4,15 +4,12 @@
   "EnglishTitle": "Marriage Declaration",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -73,15 +70,12 @@
       "Visible": true
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -131,15 +125,12 @@
       "Visible": true
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",

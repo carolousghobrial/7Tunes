@@ -22,7 +22,7 @@ import {
   getFontSize,
   getColor,
 } from "../../helpers/SettingsHelpers";
-import { getMain } from "../../viewModel/getFullViewModel";
+import { getMainExported } from "../../viewModel/getFullViewModel";
 
 import BaseView from "../../components/ViewTypes/BaseView";
 import MelodyView from "../../components/ViewTypes/MelodyView";
@@ -56,7 +56,7 @@ const ViewSingleHymn = () => {
   const [navTitle, setNavTitle] = useState(title);
   const fontFamily = appLanguage === "eng" ? "english-font" : "arabic-font";
 
-  const data = getMain(path, motherSource, false, rule, 0)[0];
+  const data = getMainExported(path, motherSource, false, rule, 0)[0];
 
   useLayoutEffect(() => {
     navigation.setOptions({

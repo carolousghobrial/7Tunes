@@ -4,23 +4,72 @@
   "EnglishTitle": "First Matrimonial Prayer",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "اللهُمَّ الأزلي الدائم إلى الأبد بغير إبتداء، الذي لا حد لحكمته ولا إنتهاء لقوته، الذي صنع الإنسان من الأرض، وجعل له امرأة من جنبه، ووفقها له معينة نظيره، كما يرضي ربوبيتك وصلاحك، لأنه لا يحسن أن يكون الرجل وحده.أنت الآن أيضاً يا ملكنا، نسألك أن تصل عبديك [*GROOM*] و [*BRIDE*]، لكي يتصلا ببعضهما بعضاً بجسد واحد، وليدخلا إلى ناموس الفرح، وليكونا في تعاليم صادقة. هب لهما ثمرة محيية من البطن ليبتهجا بولادة البنين الحسنة والأزمنة الهادئة السالمة.هيئهما في كل عمل صالح بالمسيح يسوع ربنا. هذا الذي ينبغي لك معه، مع الروح القدس، المجد والكرامة والعز والسجود، الآن وكل أوان وإلى دهر الدهور. آمين.",
-      "English": "O God who is eternal and everlasting, who has no beginning, whose wisdom has no limit and whose power has no end, who made man from the earth, and gave him a woman out of his side, and accommodated her for him as a helper fit for him, as it pleases Your Lordship and goodness, because it is not good for a man to be alone.We ask You, also, now, O our King, to join Your two servants [*GROOM*] and [*BRIDE*] to be united to each other in one body, and to enter into the law of joy, and to abide in Your truthful teachings.Grant them a living fruit out of the womb so that they rejoice in the birth of good children and have quiet and peaceful times. Prepare them for every good work through Christ Jesus our Lord."
+      "Arabic": "اللهُمَّ الأزلي الدائم إلى الأبد بغير إبتداء، الذي لا حد لحكمته ولا إنتهاء لقوته، الذي صنع الإنسان من الأرض، وجعل له امرأة من جنبه، ووفقها له معينة نظيره، كما يرضي ربوبيتك وصلاحك، لأنه لا يحسن أن يكون الرجل وحده.أنت ",
+      "English": "O God who is eternal and everlasting, who has no beginning, whose wisdom has no limit and whose power has no end, who made man from the earth, and gave him a woman out of his side, and accommodated her for him as a helper fit for him, as it pleases Your Lordship and goodness, because it is not good for a man to be alone."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " نسألك أن تصل عبديك [*GROOM*] و [*BRIDE*]، لكي يتصلا ببعضهما بعضاً بجسد واحد، وليدخلا إلى ناموس الفرح، وليكونا في تعاليم صادقة. هب لهما ثمرة محيية من البطن ليبتهجا بولادة البنين الحسنة والأزمنة الهادئة السالمة.هيئهما في كل عمل صالح بالمسيح يسوع ربنا. هذا الذي ينبغي لك معه، مع الروح القدس، المجد والكرامة والعز والسجود، الآن وكل أوان وإلى دهر الدهور. آمين.",
+      "English": "We ask You, also, now, O our King, to join Your two servants [*GROOM*] and [*BRIDE*] to be united to each other in one body, and to enter into the law of joy, and to abide in Your truthful teachings.Grant them a living fruit out of the womb so that they rejoice in the birth of good children and have quiet and peaceful times. Prepare them for every good work through Christ Jesus our Lord."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كما أعطيته . لرسلك القديسين . قل لنا مثلهم . إنى أعطيكم سلامى .",
+      "Coptic": "Kata `vrh; etakthic > `nnekagioc `n`apoctoloc > ek`ejoc nan `mpourh; > je ta\\irhnh ;;`mmoc nwten .",
+      "English": "As You have given : to Your holy apostles, : likewise say unto us. \"My peace I give to you.\"",
+      "Arabiccoptic": "كاطا إفريتى إيطاكتيس . إن نيك أجيوس إن أبوسطولوس . إك إجوس نان إمبوريتى . جى تاهيرينى تى تى إمموس نوتين .",
+      "Englishcoptic": "Kata evrity etak tees, en nek agios en Apostolos, Ek e gos nan empority, je tahiriny te ti emmos noten."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": " باب المشارق، هو مريم العذراء، الخدر الطاهر، الذي للختن النقي.",
+      "Coptic": ":pulh `nte nima`n]ai> te Maria :parqenoc> pima `n]elet ettoubhout> `nte Pinumvioc `nkaqaroc.",
+      "English": "The door to the East, is the Virgin Mary, the honored bridal chamber, for the pure Bridegroom.",
+      "Arabiccoptic": " تى بيلى إنتيه نيما إنشاى: تيه ماريا تى بارنينوس: بى ما إنشيليت إت تووفيووت: انتيه بى نيمفيوس إن كاثاروس .",
+      "Englishcoptic": "Tipi-lee ente ni-manshai: te Maria Ti-parthenos: pima en-shelet et-too-veiot: ente Pi-nimfios en-katharos."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "Coptic": "Kurie `ele`hcon>Kurie `ele`hcon>Kurie `ele`hcon.",
+      "English": "Lord Have Mercy , Lord Have Mercy , Lord Have Mercy.",
+      "Arabiccoptic": "كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Kerye-leison : Kerye-leison : Kerye-leison ."
     }
   ]
 }

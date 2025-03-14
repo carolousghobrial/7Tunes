@@ -24,13 +24,34 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
   const itemVisible = item.Visible;
   const router = useRouter();
 
+  const {
+    timeTransition,
+    standardPsalmodyPermission,
+    kiahkPsalmodyPermission,
+    paschaBookPermission,
+    holyLiturgyPermission,
+    currentSeason,
+    dioceseBishop,
+    BishopIsPresent,
+    BishopsPresent,
+    are3PlusBishopsPresent,
+  } = useSelector((state) => state.settings);
+
+  const saints = useSelector((state) => state.saints);
   const handlePress = () => {
     const ruleFunction = ButtonRules(
       item,
       motherSource,
       flatListRef,
       viewData,
-      router
+      router,
+      currentSeason,
+      timeTransition,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent,
+      saints
     )[item.Rule];
 
     ruleFunction && ruleFunction();

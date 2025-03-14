@@ -4,15 +4,12 @@
   "EnglishTitle": "Prayer of Submission",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -21,6 +18,50 @@
       "Side": "North",
       "Arabic": "أمل أُذنك يا رب وإسمعنا نحن الخطاة غير المستحقين، وثبت إتصال عبديك [*GROOM*] و [*BRIDE*] معينته. نجهما من كل شر. وليطل عمرهما بكثرة الأيام. وليعيشا دعة وهدوء وإحتمال وخضوع وهما بلا لوم ولا عثرة. أنر أعين قلبيهما وفهميهما ليصنعا إرادتك كل حين.لأنك رحيم كثير الرحمة لكل الصارخين إليك، ونرسل لك المجد والكرامة والسجود مع أبيك الصالح والروح القدس، الآن وكل أوان وإلى دهر الدهور. آمين.",
       "English": "Listen, O Lord, to us, and hear us, we, the unworthy sinners, and establish the union of Your two servants [*GROOM*] and [*BRIDE*] his helpmate.Deliver them from all evil, and lengthen their lives with length of days, that they may live in meekness, calmness, endurance and submission, and keep them blameless and without offense.Enlighten their hearts and understanding so that they may always do Your will, because You are merciful, plenteous in mercy, to all who cry out to You,and we send unto You glory, honor and worship, now and forever and unto the age of ages. Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ليباركنا الله . ولنبارك إسمه القدوس . فى كل حين تسبحته . دائمة فى أفواهنا .",
+      "Coptic": "Ef`e`cmou `eron `nje Vnou; > tenna`cmou epefran eqouab > `nchou niben `ere pef`cmou > na]wpi efmhn `ebol =en rwn .",
+      "English": "May God bless us : and let us bless His holy name and may His praise : be always on our lips.",
+      "Arabiccoptic": "إف إ إسمو إيرون إنجى إفنوتى . تين نا إسمو إبيفران إثؤواب . إنسيو نيفين إيرى بيف إسمو . ناشوبى إفمين إيفول خين رون .",
+      "Englishcoptic": "Ef e esmo eron enje evnouty, ten na esmo epefran Ethowab, ensio niven ere pef esmo, nashopi evmeen evol khen ron."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنه مباركٌ الآبُ والابنُ والروحُ القدسُ، الثالوثُ الكاملُ، نسجدُ له ونمجدُه.",
+      "Coptic": "Je `f`cmarwout `nje `Viwt nem `P]hri> nem Pi`pneuma Eqouab> :`triac etjhk `ebol> tenouw]t `mmoc ten;`wou nac.",
+      "English": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
+      "Arabiccoptic": "جى اف ازماروؤت انجى افيوت نيم ابشيرى, نيم بى ابنفما اثؤواب, تى اترياس اتجيك ايفول, تين اواوشت امموس تين تى اواو ناس.",
+      "Englishcoptic": "Je ef ezmaro-ot enje efiot nem epshiry, nem pi Ebnevma ethowab, ti etrias etjeek evol, ten o-osht emmos tenti o-o nas."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "Coptic": "Kurie `ele`hcon>Kurie `ele`hcon>Kurie `ele`hcon.",
+      "English": "Lord Have Mercy , Lord Have Mercy , Lord Have Mercy.",
+      "Arabiccoptic": "كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Kerye-leison : Kerye-leison : Kerye-leison ."
     }
   ]
 }

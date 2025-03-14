@@ -83,27 +83,6 @@ function TodaysPrayer() {
           >
             {getLanguageValue("todayprayer")}
           </Text>
-          <Text
-            style={[
-              styles.description,
-              { fontSize: fontSize / 1.8, color: primaryColor },
-            ]}
-          >
-            {getLanguageValue("todayprayerdescription")}
-          </Text>
-        </View>
-        <View style={styles.switch}>
-          <View style={styles.textContainer}>
-            <Text style={todayPrayer ? styles.textOn : styles.textOff}>
-              {todayPrayer ? "YES" : "NO"}
-            </Text>
-          </View>
-          <Switch
-            ios_backgroundColor={todayPrayer ? navigationBarColor : "#AA4A44"}
-            value={todayPrayer}
-            onValueChange={toggleSwitch}
-            thumbColor="white"
-          />
         </View>
       </View>
 

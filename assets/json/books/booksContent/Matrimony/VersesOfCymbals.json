@@ -1,0 +1,150 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": "  ارباع الناقوس ",
+    "EnglishTitle": "Verses of Cymbals ",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "يا رب ارحم",
+            "Coptic": "Kurie `ele`hcon",
+            "English": "Lord Have Mercy",
+            "Arabiccoptic": "كيريي ليسون",
+            "Englishcoptic": "Kerie leysoun"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesOfCymbalsNayrooz",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesOfCymbalsCross",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsNativityParamoun",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsNativity",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsCircumcision",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTheophany",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsWeddingCana",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPresentationTemple",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesCymbalsAnnunciation",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsLentWeekends",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPalmSunday",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsCovenantThursday",
+            "Rule": 0,
+            "Visible": "isCovenantThursday"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsResurrection",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsEntryEgypt",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTwentyNinth",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsAscension",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPentecost",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsTransfiguration",
+            "Rule": 0,
+            "Visible": "isSeason"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": true,
+            "Path": "MatrimonyVersesOfCymbals"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "BishopIsPresent",
+            "Path": "RaisingOfIncenseVersesOfCymbalsVersesofCymbalsPope"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "showStandardVOCConclusion",
+            "Path": "RaisingOfIncenseVersesOfCymbalsStandardConclusion"
+        },
+        {
+            "Type": "Main",
+            "Rule": 0,
+            "Visible": "showVersesOfCymbalsFestiveConclusion",
+            "Path": "RaisingOfIncenseVersesOfCymbalsFestiveConclusion"
+        }
+    ]
+}

@@ -34,7 +34,7 @@ function TitleView({ item }) {
   const router = useRouter();
 
   const isSwitchGregorian =
-    item.Switch !== undefined && item.Switch.toLowerCase().includes("gregory");
+    item.Switch !== undefined && item.Switch?.toLowerCase().includes("gregory");
   let flex = "row";
   let Switchflex = "column";
   if (width < height) {
@@ -46,7 +46,6 @@ function TitleView({ item }) {
   const regex = /\d+/g;
   function switchLiturgies() {
     if (item.Switch !== undefined) {
-      console.log(item.Switch);
       if (isSwitchGregorian) {
         if (item.mother !== undefined) {
           router.replace({
@@ -209,44 +208,7 @@ function TitleView({ item }) {
           </Text>
         </View>
       </View>
-      {item.Switch !== undefined ? (
-        <Pressable
-          style={{
-            alignContent: "center",
-            margin: 5,
-          }}
-          onPress={switchLiturgies}
-        >
-          {isSwitchGregorian ? (
-            <View style={[styles.switchView, { flexDirection: Switchflex }]}>
-              <Image
-                style={styles.image}
-                source={images["liturgyofStGregory"]}
-              />
-              <View style={[styles.swapTextView, { flexDirection: flex }]}>
-                <Entypo name="swap" size={24} color={getColor("LabelColor")} />
-                <Text
-                  style={[styles.SwitchText, { color: getColor("LabelColor") }]}
-                >
-                  St.Gregory
-                </Text>
-              </View>
-            </View>
-          ) : (
-            <View style={[styles.switchView, { flexDirection: Switchflex }]}>
-              <Image style={styles.image} source={images["liturgyofStBasil"]} />
-              <View style={[styles.swapTextView, { flexDirection: flex }]}>
-                <Entypo name="swap" size={24} color={getColor("LabelColor")} />
-                <Text
-                  style={[styles.SwitchText, { color: getColor("LabelColor") }]}
-                >
-                  St.Basil
-                </Text>
-              </View>
-            </View>
-          )}
-        </Pressable>
-      ) : null}
+
       {/* <Pressable onPress={openZoomPinch}>
         <Text>PRINT</Text>
       </Pressable> */}

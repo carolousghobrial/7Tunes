@@ -3104,6 +3104,8 @@ const bookPaths = {
 
   //Matrimony
   MatrimonyBenediction: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/Benediction.json"),
+  MatrimonyVersesOfCymbalsAll: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/VersesOfCymbals.json"),
+  MatrimonyVersesOfCymbals: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/MatrimonyVersesOfCymbals.json"),
   MatrimonyBlessingBride: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/BlessingBride.json"),
   MatrimonyBlessingGroom: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/BlessingGroom.json"),
   MatrimonyCommandBride: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/CommandBride.json"),
@@ -3111,6 +3113,9 @@ const bookPaths = {
   MatrimonyDeclaration: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/Declaration.json"),
   MatrimonyFirstMatrimonialPrayer: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/FirstMatrimonialPrayer.json"),
   MatrimonyGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/Gospel.json"),
+  MatrimonyGospelResponse: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/GospelResponse.json"),
+  MatrimonyOilResponseCoptic: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/OilResponseCoptic.json"),
+  MatrimonyPsalmAndGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/PsalmAndGospel.json"),
   MatrimonyHandingBrideToGroom: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/HandingBrideToGroom.json"),
   MatrimonyPauline: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/Pauline.json"),
   MatrimonyPrayerAfterOil: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Matrimony/PrayerAfterOil.json"),

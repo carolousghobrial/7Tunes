@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "مرد آخر لوضع الزيت",
+  "CopticTitle": "Paine\\ vai `ntefkwrf ",
+  "EnglishTitle": "Another Response for Placing the Oil",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هذا الدهن يبطل الشياطين، هذا الدهن ضد الأرواح الرديئة، هذا دهن الأرواح المقدسة، هذا الدهن ضد مقاومة الأرواح النجسة.",
+      "Coptic": "Paine\\ vai `ntefkwrf `ndemwn> paine\\ vai oube `mp`pneuma `mpounhron> paine\\ vai `nnipneuma `n`agion> paine\\ vai oube `nantia `nnipneuma `n`akaqarton.",
+      "English": "May this oil destroy demons, may this oil be against evil spirits, this oil for holy spirits, this oil against the assaults of unclean spirits.",
+      "Arabiccoptic": "باينيه فاي إنتيفكوورف إنزيموون: باينيه فاي أوفي إمابنفما إمبأونيرون: باينيه فاي إننيابنفما إن اجيون: باينيه فاي أوفي إنانتيا إننيابنفما إن اكاثارتون..",
+      "Englishcoptic": "Paineh vai entefkoorf enzemoon: paineh vai ooove empep-nevma empoo oneeron: paineh vai ennep-nevma en-agion: paineh vai ooove enantia enni-ep-nevmaa en-akatharton."
+    }
+  ]
+}

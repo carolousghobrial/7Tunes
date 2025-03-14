@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
 import { Alert } from "react-native";
 import moment from "moment-timezone"; // moment-timezone
 
@@ -33,6 +32,15 @@ export const keywords = [
   "[*BISHOP_PRESENT2*]",
   "[*BISHOP_PRESENT3*]",
 ];
+const daysOfWeek = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
 const DailyReadingCalendar = require("../assets/json/DailyReadingCalendar.json");
 const GreatFastPropheciesCount = require("../assets/json/GreatFastPropheciesCount.json");
 const ProphecycheckList = [
@@ -65,497 +73,402 @@ const ProphecycheckList = [
   { keyword: "Daniel", returnValue: "Daniel" },
   { keyword: "Tobit", returnValue: "Tobit" },
 ];
-export function getFullViewModel(motherSource, mother) {
-  let arabicttl = "";
-  let copticttl = "";
-  let englishttl = "";
-  const ViewArray = [];
-  const MenuArray = [];
+export function getFullViewModel(
+  motherSource,
+  mother,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent,
+  saints
+) {
+  let arabicTitle = "",
+    copticTitle = "",
+    englishTitle = "";
+  const ViewArray = [],
+    MenuArray = [];
   let key = 0;
 
+  // Retrieve hymns from the homescreen paths
   const hymns = homescreenPaths[motherSource]?.Main || [];
-  const visibleHymns = hymns.filter((hymn) =>
-    isHymnVisible(hymn, motherSource, mother)
-  );
 
-  visibleHymns.forEach((item) => {
-    if (item.Type === "Title") {
-      updateTitles(item);
-    } else if (item.Type === "PropheciesType") {
-      addPropheciesForDay();
-      //updateTitles(item);
-    } else {
-      processItem(item);
-    }
-  });
+  // Process visible hymns
+  hymns.filter(isHymnVisible).forEach(processItem);
 
+  // Add Return Button after processing hymns
   addReturnButton();
 
+  // Return both view and menu arrays
   return [ViewArray, MenuArray];
-  function addPropheciesForDay() {
-    const currentSeason = useSelector((state) => state.settings.currentSeason);
-    if (!["GREAT_LENT", "JONAH_FAST"].includes(currentSeason.key)) return;
-    if (currentSeason.key === "JONAH_FAST") {
-      const dayOfWeek = daysOfWeek[currentSeason.dayOfWeek];
-      const propheciesCount =
-        GreatFastPropheciesCount?.["Jonah"]?.[dayOfWeek] || 0;
 
-      for (let i = 1; i <= propheciesCount; i++) {
-        const readingPath = `KatamarosGreatFastJonah${dayOfWeek}MatinsProphecy${i}`;
-        const book = bookPaths[readingPath];
-
-        if (!book) continue; // Skip if book path is missing
-
-        const rule = ProphecycheckList.find((item) =>
-          book.EnglishTitle.includes(item.keyword)
-        )?.returnValue;
-        [
-          ["PaschaPropheciesIntroduction", rule],
-          [readingPath, 0],
-          ["PaschaPropheciesConclusion", 0],
-        ].forEach(([path, ruleValue]) => {
-          const [view, menu, updatedKey] = getMain(
-            path,
-            motherSource,
-            false,
-            ruleValue,
-            key
-          );
-          key = updatedKey;
-          ViewArray.push(...view);
-          if (menu) MenuArray.push(...menu);
-        });
-      }
-    } else {
-      const lentWeek = `Week${currentSeason.week}`;
-      const dayOfWeek = daysOfWeek[currentSeason.dayOfWeek];
-      const propheciesCount =
-        GreatFastPropheciesCount?.[lentWeek]?.[dayOfWeek] || 0;
-
-      for (let i = 1; i <= propheciesCount; i++) {
-        const readingPath = `KatamarosGreatFast${lentWeek}${dayOfWeek}MatinsProphecy${i}`;
-        const book = bookPaths[readingPath];
-
-        if (!book) continue; // Skip if book path is missing
-
-        const rule = ProphecycheckList.find((item) =>
-          book.EnglishTitle.includes(item.keyword)
-        )?.returnValue;
-        [
-          ["PaschaPropheciesIntroduction", rule],
-          [readingPath, 0],
-          ["PaschaPropheciesConclusion", 0],
-        ].forEach(([path, ruleValue]) => {
-          const [view, menu, updatedKey] = getMain(
-            path,
-            motherSource,
-            false,
-            ruleValue,
-            key
-          );
-          key = updatedKey;
-          ViewArray.push(...view);
-          if (menu) MenuArray.push(...menu);
-        });
-      }
-    }
-  }
-
-  // Helper functions
-  function isHymnVisible(hymn, motherSource, mother) {
-    const temppath = hymn.SAINT || hymn.Path;
+  // Function to check if a hymn is visible
+  function isHymnVisible(hymn) {
     const tempMother = mother || motherSource;
+    const visibleRule = VisibleRules[hymn.Visible];
     return (
       hymn.Visible === true ||
       mother === "index" ||
-      VisibleRules[hymn.Visible]?.(tempMother, temppath)
+      (visibleRule &&
+        visibleRule(
+          tempMother,
+          hymn.SAINT || hymn.Path,
+          currentSeason,
+          timeTransition,
+          dioceseBishop,
+          BishopIsPresent,
+          BishopsPresent,
+          are3PlusBishopsPresent,
+          saints
+        ))
     );
   }
 
-  function updateTitles(item) {
-    arabicttl = item.Arabic || arabicttl;
-    copticttl = item.Coptic || copticttl;
-    englishttl = item.English || englishttl;
-  }
-
+  // Function to process an individual item
   function processItem(item) {
-    const typeHandlers = {
-      Main: processMainOrDefault,
-      Default: processMainOrDefault,
-      MainWithTitle: processMainWithTitle,
-      Ritual: processRitualOrGetDaysReading,
-      GetDaysReading: processRitualOrGetDaysReading,
-      default: () => pushToArrays(item, key++, false),
+    const handlers = {
+      Title: () => updateTitles(item),
+      PropheciesType: addPropheciesForDay,
+      Main: () => processMainOrDefault(item),
+      Default: () => processMainOrDefault(item),
+      MainWithTitle: () => processMainWithTitle(item),
+      Ritual: () => pushToArrays(item, true),
+      GetDaysReading: () => processRitualOrGetDaysReading(item),
+      default: () => pushToArrays(item),
     };
 
-    (typeHandlers[item.Type] || typeHandlers.default)(item);
+    // Execute appropriate handler based on item type
+    (handlers[item.Type] || handlers.default)();
   }
 
-  function processMainOrDefault(item) {
-    const [tempView, tempMenu, updatedKey] = getMain(
-      item.Path,
-      motherSource,
-      false,
-      item.Rule,
-      key,
-      item.Switch
-    );
-    key = updatedKey;
-    ViewArray.push(...tempView);
-    MenuArray.push(...tempMenu);
+  // Function to update the titles if available
+  function updateTitles({ Arabic, Coptic, English }) {
+    arabicTitle = Arabic || arabicTitle;
+    copticTitle = Coptic || copticTitle;
+    englishTitle = English || englishTitle;
   }
 
-  function processMainWithTitle(item) {
-    const [tempView, tempMenu, updatedKey] = getMainWithTitle(
-      item.Path,
-      motherSource,
-      item.Rule,
-      key
-    );
-    key = updatedKey;
-    ViewArray.push(...tempView);
-    MenuArray.push(...tempMenu);
-  }
+  // Function to handle prophecies based on the current season
+  function addPropheciesForDay() {
+    if (!["GREAT_LENT", "JONAH_FAST"].includes(currentSeason.key)) return;
 
-  function processRitualOrGetDaysReading(item) {
-    if (item.Type === "GetDaysReading") {
-      const filePath = GetTodaysReadingPath(item.Path);
-      if (filePath !== "Katamaros") {
-        const [tempView, tempMenu, updatedKey] = getMain(
-          filePath,
-          motherSource,
-          false,
-          item.Rule,
-          key,
-          undefined
-        );
+    const isJonahFast = currentSeason.key === "JONAH_FAST";
+    const weekOrJonah = isJonahFast ? "Jonah" : `Week${currentSeason.week}`;
+    const dayOfWeek = daysOfWeek[currentSeason.dayOfWeek];
+    const propheciesCount =
+      GreatFastPropheciesCount?.[weekOrJonah]?.[dayOfWeek] || 0;
+
+    // Add prophecies for the day
+    for (let i = 1; i <= propheciesCount; i++) {
+      const readingPath = `KatamarosGreatFast${
+        isJonahFast ? "Jonah" : weekOrJonah
+      }${dayOfWeek}MatinsProphecy${i}`;
+      const book = bookPaths[readingPath];
+      if (!book) continue;
+
+      const rule = ProphecycheckList.find(({ keyword }) =>
+        book.EnglishTitle.includes(keyword)
+      )?.returnValue;
+
+      // Push view and menu for prophecies
+      [
+        "PaschaPropheciesIntroduction",
+        readingPath,
+        "PaschaPropheciesConclusion",
+      ].forEach((path) => {
+        const [view, menu, updatedKey] = getMain(path, rule, null, false);
         key = updatedKey;
-        ViewArray.push(...tempView);
-        MenuArray.push(...tempMenu);
-      }
-    } else {
-      pushToArrays(item, key++, true);
-    }
-  }
-
-  function pushToArrays(item, currentKey, isRitual) {
-    const { English, Coptic, Arabic } = item;
-
-    if (!isRitual) {
-      MenuArray.push({
-        EnglishTitle: English,
-        CopticTitle: Coptic,
-        ArabicTitle: Arabic,
-        key: currentKey,
+        ViewArray.push(...view);
+        if (menu) MenuArray.push(...menu);
       });
     }
-
-    ViewArray.push({
-      part: item,
-      key: currentKey,
-      EnglishTitle: englishttl,
-      CopticTitle: copticttl,
-      ArabicTitle: arabicttl,
-    });
   }
 
+  // Function to process main or default items
+  function processMainOrDefault(item) {
+    if (item.Type === "MainWithTitle" || item.Type === "Title") {
+      pushTitleToArrays(item); // Push title first
+    }
+
+    const [view, menu, updatedKey] = getMain(item.Path, item.Rule, item.Switch);
+    key = updatedKey;
+
+    // Push view and menu after title (if any)
+    ViewArray.push(...view);
+    MenuArray.push(...menu);
+  }
+
+  // Function to process main items with title
+  function processMainWithTitle(item) {
+    pushTitleToArrays(item); // Push title first
+
+    const [view, menu, updatedKey] = getMainWithTitle(item.Path, item.Rule);
+    key = updatedKey;
+
+    // Push view and menu after title
+    ViewArray.push(...view);
+    MenuArray.push(...menu);
+  }
+  function updateFilePath(path) {
+    const liturgyPaths = new Set([
+      "VespersPsalm",
+      "VespersGospel",
+      "MatinsPsalm",
+      "MatinsProphecy1",
+      "MatinsProphecy2",
+      "MatinsProphecy3",
+      "MatinsProphecy4",
+      "MatinsProphecy5",
+      "MatinsProphecy6",
+      "MatinsProphecy7",
+      "MatinsProphecy8",
+      "MatinsProphecy9",
+      "MatinsProphecy10",
+      "MatinsProphecy11",
+      "MatinsGospel",
+      "LiturgyPauline",
+      "LiturgyCatholic",
+      "LiturgyActs",
+      "LiturgyPsalm",
+      "LiturgyGospel",
+      "LiturgyPaulineCoptic",
+      "LiturgyCatholicCoptic",
+      "LiturgyActsCoptic",
+      "EveningPsalm",
+      "EveningGospel",
+    ]);
+
+    return liturgyPaths.has(path)
+      ? `${currentSeason.filePath}${path}`
+      : filePath;
+  }
+  // Function to process GetDaysReading and Ritual items
+  function processRitualOrGetDaysReading(item) {
+    if (item.Type === "GetDaysReading") {
+      const filePath = updateFilePath(item.Path);
+      if (filePath !== "Katamaros") {
+        const [view, menu, updatedKey] = getMain(filePath, item.Rule);
+        key = updatedKey;
+        ViewArray.push(...view);
+        MenuArray.push(...menu);
+      }
+    } else {
+      pushToArrays(item, true);
+    }
+  }
+
+  // Function to push item into arrays
+  function pushToArrays(item, isRitual = false) {
+    if (!isRitual) {
+      MenuArray.push({
+        EnglishTitle: item.English,
+        CopticTitle: item.Coptic,
+        ArabicTitle: item.Arabic,
+        key,
+      });
+    }
+    ViewArray.push({
+      part: item,
+      key,
+      EnglishTitle: englishTitle,
+      CopticTitle: copticTitle,
+      ArabicTitle: arabicTitle,
+    });
+    key++;
+  }
+
+  // Function to add a return button
   function addReturnButton() {
-    const returnButton = {
+    pushToArrays({
       Type: "Button",
       Arabic: " العودة",
       English: "Return",
       Rule: "PopPage",
       Visible: true,
       Path: "",
-    };
-    pushToArrays(returnButton, key++);
+    });
   }
-}
 
-export function getMain(Path, motherSource, inHymn, rule, key, switchWord) {
-  const thisRule = rule;
-  const myMenuArray = [];
-  const myViewArray = [];
-  const book = bookPaths[Path];
+  // Function to get main data for a specific path
+  function getMain(Path, rule, switchWord = null, inHymn) {
+    const myMenuArray = [],
+      myViewArray = [];
+    const book = bookPaths[Path];
 
-  try {
-    const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
+    try {
+      const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
 
-    if (!inHymn && EnglishTitle) {
-      const menuEntry = { EnglishTitle, CopticTitle, ArabicTitle, key };
-      myMenuArray.push(menuEntry);
-
-      myViewArray.push({
-        EnglishTitle,
-        CopticTitle,
-        ArabicTitle,
-        part: {
-          Type: "Title",
-          rule: -1,
-          visible: 0,
-          Side: "Title",
-          Arabic: ArabicTitle,
-          Coptic: CopticTitle,
-          English: EnglishTitle,
-          Switch: switchWord,
-          Path,
-        },
-        key,
-      });
-
-      key++;
-    }
-
-    const visibleParts = Hymn.filter((part) =>
-      isPartVisible(part, motherSource)
-    );
-
-    visibleParts.forEach((part) => {
-      key = processInnerPart(
-        part,
-        motherSource,
-        thisRule,
-        key,
-        myViewArray,
-        Path,
-        {
+      // Push title information
+      if (EnglishTitle && !inHymn) {
+        myMenuArray.push({ EnglishTitle, CopticTitle, ArabicTitle, key });
+        myViewArray.push({
           EnglishTitle,
           CopticTitle,
           ArabicTitle,
-        }
-      );
-    });
-  } catch (err) {
-    myMenuArray.pop();
-    // console.error(err);
-  }
-
-  return [myViewArray, myMenuArray, key];
-}
-
-function processInnerPart(
-  part,
-  motherSource,
-  thisRule,
-  key,
-  myViewArray,
-  Path,
-  titles
-) {
-  const { EnglishTitle, CopticTitle, ArabicTitle } = titles;
-
-  const addViewEntry = (addPart) => {
-    myViewArray.push({
-      part: addPart,
-      path: Path,
-      key,
-      EnglishTitle,
-      CopticTitle,
-      ArabicTitle,
-    });
-    key++;
-  };
-
-  const handlers = {
-    Main: () => {
-      const [tempView, , newKey] = getMain(
-        part.Path,
-        motherSource,
-        true,
-        thisRule,
-        key
-      );
-      myViewArray.push(...tempView);
-      key = newKey;
-    },
-    GetDaysReading: () => {
-      const filePath = GetTodaysReadingPath(part.Path);
-      if (filePath !== "Katamaros") {
-        const [tempView, , newKey] = getMain(
-          filePath,
-          motherSource,
-          false,
-          thisRule,
-          key
-        );
-        myViewArray.push(...tempView);
-        key = newKey;
+          part: {
+            Type: "Title",
+            rule: -1,
+            visible: 0,
+            Side: "Title",
+            Arabic: ArabicTitle,
+            Coptic: CopticTitle,
+            English: EnglishTitle,
+            Switch: switchWord,
+            Path,
+          },
+          key,
+        });
+        key++;
       }
-    },
-    GetDaysReadingPalmSunday: () => {
-      const [tempView, , newKey] = getMain(
-        part.Path,
-        motherSource,
-        false,
-        thisRule,
-        key
-      );
-      myViewArray.push(...tempView);
-      key = newKey;
-    },
-    default: () => {
-      const newRule = thisRule || motherSource;
-      const addPart = addItemsToArray(part, newRule);
-      addViewEntry(addPart);
-    },
-  };
 
-  (handlers[part.Type] || handlers.default)();
-  return key;
-}
-
-export function getMainWithTitle(Path, motherSource, rule, key) {
-  const thisRule = rule;
-  const myMenuArray = [];
-  const myViewArray = [];
-  const book = bookPaths[Path];
-
-  try {
-    const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
-
-    // Process title if it exists
-    if (EnglishTitle) {
-      const menuEntry = { EnglishTitle, CopticTitle, ArabicTitle, key };
-      myMenuArray.push(menuEntry);
-
-      const titleView = {
-        EnglishTitle,
-        CopticTitle,
-        ArabicTitle,
-        part: {
-          Type: "Title",
-          rule: -1,
-          visible: 0,
-          Side: "Title",
-          Arabic: ArabicTitle,
-          Coptic: CopticTitle,
-          English: EnglishTitle,
-          Switch: switchWord,
-          Path: Path,
-        },
-        key,
-      };
-      myViewArray.push(titleView);
-      key++;
+      // Filter visible hymns and process them
+      Hymn.filter(isPartVisible).forEach((part) => {
+        key = processInnerPart(part, rule, myViewArray, Path, {
+          ArabicTitle,
+          CopticTitle,
+          EnglishTitle,
+        });
+      });
+    } catch (err) {
+      myMenuArray.pop(); // Remove invalid menu item
+      console.error(`Error processing path: ${Path}`, err);
     }
 
-    // Filter and process visible hymn parts
-    Hymn.filter((part) => isPartVisible(part, motherSource)).forEach((part) => {
-      key = processPart(part, motherSource, thisRule, key, myViewArray, Path, {
+    return [myViewArray, myMenuArray, key];
+  }
+
+  // Function to check if part is visible
+  function isPartVisible(part) {
+    const motherSourceLower = motherSource?.toLowerCase();
+    const temppath =
+      part.SAINT && !motherSourceLower?.includes("index")
+        ? part.SAINT
+        : part.Path;
+    return (
+      part.Visible === true ||
+      VisibleRules[part.Visible]?.(
+        motherSource,
+        temppath,
+        currentSeason,
+        timeTransition,
+        dioceseBishop,
+        BishopIsPresent,
+        BishopsPresent,
+        are3PlusBishopsPresent,
+        saints
+      ) ||
+      (motherSourceLower?.includes("index") &&
+        !motherSourceLower.includes("papal"))
+    );
+  }
+
+  // Function to find the matching substring
+  function findMatchingSubstring(str, substringsArray) {
+    return (
+      substringsArray.find((substring) => str?.includes(substring)) || "EMPTY"
+    );
+  }
+
+  // Function to process inner part
+  function processInnerPart(part, thisRule, myViewArray, Path, titles) {
+    const { EnglishTitle, CopticTitle, ArabicTitle } = titles;
+    const foundKeyword = findMatchingSubstring(part.English, keywords);
+
+    let updatedPart = { ...part }; // Initialize updated part
+
+    if (foundKeyword !== "EMPTY") {
+      const cleanedKeyword = foundKeyword.replace(/[\*\[\]/]/g, "");
+      const newRule = thisRule || motherSource;
+      const myrule = VisibleRules[cleanedKeyword]?.(
+        newRule,
+        part,
+        currentSeason
+      );
+
+      if (myrule) {
+        const replacements = {
+          Arabic: myrule.arabic,
+          Arabiccoptic: myrule.arabiccoptic,
+          Coptic: myrule.coptic,
+          English: myrule.english,
+          Englishcoptic: myrule.englishcoptic,
+        };
+
+        // Apply replacements
+        Object.keys(replacements).forEach((key) => {
+          if (updatedPart[key]) {
+            updatedPart[key] = updatedPart[key].replace(
+              foundKeyword,
+              replacements[key]
+            );
+          }
+        });
+      }
+    }
+
+    // Add part to view array
+    const addViewEntry = (addPart) => {
+      myViewArray.push({
+        part: addPart,
+        path: Path,
+        key,
         EnglishTitle,
         CopticTitle,
         ArabicTitle,
       });
-    });
-  } catch (err) {
-    myMenuArray.pop();
+      key++;
+    };
+
+    // Process special cases
+    const handlers = {
+      Main: () => handleSpecialCase(part.Path, false),
+      GetDaysReading: () => handleSpecialCase(updateFilePath(part.Path), true),
+      GetDaysReadingPalmSunday: () => handleSpecialCase(part.Path, true),
+      default: () => addViewEntry(updatedPart),
+    };
+
+    function handleSpecialCase(path, isReading) {
+      const [tempView, , newKey] = getMain(path, thisRule, null, true);
+      myViewArray.push(...tempView);
+      key = newKey;
+    }
+
+    // Execute handler for part type
+    (handlers[part.Type] || handlers.default)();
+
+    return key;
   }
 
-  return [myViewArray, myMenuArray, key];
+  // Function to push title into arrays
+  function pushTitleToArrays(item) {
+    const { Arabic, Coptic, English } = item;
+    ViewArray.push({
+      part: {
+        Type: "Title",
+        rule: -1,
+        visible: 0,
+        Side: "Title",
+        Arabic: Arabic || arabicTitle,
+        Coptic: Coptic || copticTitle,
+        English: English || englishTitle,
+        Path: item.Path,
+      },
+      key,
+    });
+
+    MenuArray.push({
+      EnglishTitle: English || englishTitle,
+      CopticTitle: Coptic || copticTitle,
+      ArabicTitle: Arabic || arabicTitle,
+      key,
+    });
+
+    key++; // Increment key after adding the title
+  }
 }
 
 // Helper function to check if a part is visible
-function isPartVisible(part, motherSource) {
-  const temppath =
-    part.SAINT && !motherSource?.toLowerCase().includes("index")
-      ? part.SAINT
-      : part.Path;
-
-  return (
-    part.Visible === true ||
-    VisibleRules[part.Visible]?.(motherSource, temppath) ||
-    (motherSource?.toLowerCase().includes("index") &&
-      !motherSource?.toLowerCase().includes("papal"))
-  );
-}
-
-function processPart(
-  part,
-  motherSource,
-  thisRule,
-  key,
-  myViewArray,
-  Path,
-  titles
-) {
-  const { EnglishTitle, CopticTitle, ArabicTitle } = titles;
-
-  const addViewEntry = (partDetails) => {
-    myViewArray.push({
-      part: partDetails,
-      path: Path,
-      key,
-      EnglishTitle,
-      CopticTitle,
-      ArabicTitle,
-    });
-    key++;
-  };
-
-  const processMain = (path, withTitle = false) => {
-    const func = withTitle ? getMainWithTitle : getMain;
-    const [tempView, , newKey] = func(
-      path,
-      motherSource,
-      withTitle,
-      thisRule,
-      key
-    );
-    myViewArray.push(...tempView);
-    key = newKey;
-  };
-
-  const handlers = {
-    Main: () => processMain(part.Path),
-    GetDaysReading: () => {
-      const filePath = GetTodaysReadingPath(part.Path);
-      if (filePath !== "Katamaros") processMain(filePath);
-    },
-    GetDaysReadingPalmSunday: () => processMain(part.Path, true),
-    default: () => {
-      const newRule = thisRule || motherSource;
-      const partDetails = addItemsToArray(part, newRule);
-      addViewEntry(partDetails);
-    },
-  };
-
-  (handlers[part.Type] || handlers.default)();
-  return key;
-}
-
-function addItemsToArray(part, thisRule) {
-  const foundKeyword = findMatchingSubstring(part.English, keywords);
-  if (foundKeyword === "EMPTY") return part; // Early return if no match
-
-  const cleanedKeyword = foundKeyword.replace(/[\*\[\]/]/g, "");
-  const myrule = matchRule(thisRule, part, cleanedKeyword);
-  if (!myrule) return part; // If no rule is found, return original part
-
-  // Clone and update only when necessary
-  const updatedPart = { ...part, Rule: thisRule };
-  const replacements = {
-    Arabic: myrule.arabic,
-    Arabiccoptic: myrule.arabiccoptic,
-    Coptic: myrule.coptic,
-    English: myrule.english,
-    Englishcoptic: myrule.englishcoptic,
-  };
-
-  Object.keys(replacements).forEach((key) => {
-    if (updatedPart[key]) {
-      updatedPart[key] = updatedPart[key].replace(
-        foundKeyword,
-        replacements[key]
-      );
-    }
-  });
-
-  return updatedPart;
-}
-
-const matchRule = (rule, part, item) => {
-  return VisibleRules[item]?.(rule, part);
-};
 
 export function TakeFromHathorTwo(currentSeason) {
   const copticMonthFound = {
@@ -597,173 +510,4 @@ export function TakeFromHathorTwo(currentSeason) {
   } else {
     return false;
   }
-}
-const daysOfWeek = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
-export function GetTodaysReadingPath(path) {
-  const currentSeason = useSelector((state) => state.settings.currentSeason);
-  let filePath = "Katamaros";
-
-  const { key, dayOfWeek, week, copticMonth, copticDay, weekOfMonth } =
-    currentSeason;
-
-  const isStandardSeasonSunday =
-    !["GREAT_LENT", "HOLY_50", "PALM_SUNDAY", "RESURRECTION"].includes(key) &&
-    dayOfWeek === 0;
-  const isStandardSeasonWeekday =
-    !["GREAT_LENT", "HOLY_50"].includes(key) && dayOfWeek !== 0;
-
-  const seasonMappings = {
-    RESURRECTION: "FiftiesResurrection",
-    PALM_SUNDAY: "GreatFastWeek7Sunday",
-    ASCENSION: "FiftiesWeek6Thursday",
-    PENTECOST: "FiftiesWeek7Sunday",
-    LAZARUS_SATURDAY: "GreatFastWeek7Saturday",
-    HOLY_50: `FiftiesWeek${week}${daysOfWeek[dayOfWeek]}`,
-    GREAT_LENT: `GreatFastWeek${week}${daysOfWeek[dayOfWeek]}`,
-  };
-
-  if (seasonMappings[key]) {
-    return updateFilePath(seasonMappings[key]);
-  }
-
-  if (isStandardSeasonSunday) {
-    return getStandardSeasonSundayPath();
-  }
-
-  if (isStandardSeasonWeekday) {
-    return getStandardSeasonWeekdayPath();
-  }
-
-  return filePath;
-
-  /** Updates the file path based on common part */
-  function updateFilePath(commonPart) {
-    const liturgyPaths = new Set([
-      "VespersPsalm",
-      "VespersGospel",
-      "MatinsPsalm",
-      "MatinsProphecy1",
-      "MatinsProphecy2",
-      "MatinsProphecy3",
-      "MatinsProphecy4",
-      "MatinsProphecy5",
-      "MatinsProphecy6",
-      "MatinsProphecy7",
-      "MatinsProphecy8",
-      "MatinsProphecy9",
-      "MatinsProphecy10",
-      "MatinsProphecy11",
-      "MatinsGospel",
-      "LiturgyPauline",
-      "LiturgyCatholic",
-      "LiturgyActs",
-      "LiturgyPsalm",
-      "LiturgyGospel",
-      "LiturgyPaulineCoptic",
-      "LiturgyCatholicCoptic",
-      "LiturgyActsCoptic",
-      "EveningPsalm",
-      "EveningGospel",
-    ]);
-
-    return liturgyPaths.has(path)
-      ? `${filePath}${commonPart}${path}`
-      : filePath;
-  }
-
-  /** Determines Sunday readings */
-  function getStandardSeasonSundayPath() {
-    const specialDays = {
-      NATIVITY: "DaysKoiahk29",
-      EPIPHANY: "DaysTobe11",
-      ANNUNCIATION: "DaysParemhotep29",
-    };
-
-    if (specialDays[key]) {
-      return updateFilePath(specialDays[key]);
-    }
-
-    if (
-      key === "TWENTYNINTHTH_COPTIC_MONTH" &&
-      DailyReadingCalendar[copticMonth][copticDay] === "ok"
-    ) {
-      return updateFilePath(`Days${copticMonth}${copticDay}`);
-    }
-
-    if (weekOfMonth >= 1 && weekOfMonth <= 4) {
-      return updateFilePath(`Sundays${copticMonth}Week${weekOfMonth}`);
-    }
-
-    if (
-      TakeFromHathorTwo(currentSeason) &&
-      copticMonth === "Hathor" &&
-      weekOfMonth === 5
-    ) {
-      return updateFilePath("SundaysKoiahkWeek1");
-    }
-
-    return filePath;
-  }
-
-  /** Determines weekday readings */
-  function getStandardSeasonWeekdayPath() {
-    const specialDays = {
-      NATIVITY: "DaysKoiahk29",
-      EPIPHANY: "DaysTobe11",
-      JONAH_FAST: `GreatFastJonah${daysOfWeek[dayOfWeek]}`,
-      JONAH_FEAST: "JonahPassover",
-    };
-
-    if (specialDays[key]) {
-      return updateFilePath(specialDays[key]);
-    }
-
-    const day = DailyReadingCalendar[copticMonth]?.[copticDay];
-    if (day === "ok") {
-      return updateFilePath(`Days${copticMonth}${copticDay}`);
-    }
-
-    const matches = day?.match(/(\d+)|([a-zA-Z]+)/g);
-    return matches
-      ? updateFilePath(`Days${matches[1] || ""}${matches[2] || ""}`)
-      : filePath;
-  }
-}
-
-function findMatchingSubstring(str, substringsArray) {
-  const foundSubstring = substringsArray.find((substring) =>
-    str?.includes(substring)
-  );
-  return foundSubstring ? foundSubstring : "EMPTY";
-}
-function countSundays(yearSelected) {
-  const { month: copticMonth, day: copticDay } = CopticMonthObjects.find(
-    (month) => month.name === "Koiahk"
-  );
-
-  const copticDate = getCopticDate(yearSelected, copticMonth - 1, copticDay);
-  const isHathorEnd = copticDate.month === "Hathor" && copticDate.day === 30;
-
-  const firstDay = moment([
-    yearSelected,
-    copticMonth - 1,
-    copticDay + (isHathorEnd ? 1 : 0),
-  ]);
-
-  const lastDay = moment(getParamounDate(moment([yearSelected + 1, 0, 7])));
-
-  const numSundays = Array.from(
-    { length: lastDay.diff(firstDay, "days") },
-    (_, i) => firstDay.clone().add(i, "days")
-  ).filter((day) => day.day() === 0).length;
-
-  return numSundays;
 }

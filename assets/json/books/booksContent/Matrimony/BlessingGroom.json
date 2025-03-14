@@ -4,15 +4,12 @@
   "EnglishTitle": "Blessing for the Groom",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -21,6 +18,28 @@
       "Side": "North",
       "Arabic": "الذي بارك أبانا آدم ونوح وإبراهيم وموسى في أرض مديان، يباركك أيها العريس ومعينتك. الذي بارك إسحق الحبيب وهابيل الصديق الأول وسليمان وأبيه داود،باركك أيها العريس ومعينتك. الذي بارك أبانا يعقوب والصديق أيوب، يباركك سبعة أضعاف أيها العريس ومعينتك.",
       "English": "May He who blessed our father Adam, Noah, Abraham, and Moses in the land of Midian, bless you, O bridegroom and your helpmate. May He who blessed Isaac the beloved and Abel the first righteous, and Solomon and his father David, bless you, bridegroom and your helpmate. May He who blessed our father Jacob and the righteous Job, bless you sevenfold, O bridegroom and your helpmate."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "Coptic": "Kurie `ele`hcon>Kurie `ele`hcon>Kurie `ele`hcon.",
+      "English": "Lord Have Mercy , Lord Have Mercy , Lord Have Mercy.",
+      "Arabiccoptic": "كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Kerye-leison : Kerye-leison : Kerye-leison ."
     }
   ]
 }

@@ -4,22 +4,19 @@
   "EnglishTitle": "Command to the Groom",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Deacon",
       "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "English": "Deacon:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "استلم يا عريس عروسًا وهي لك، يسوع المسيح أعطاها لك، ربيد أبينا الكاهن (الأسقف/المطران) سلمها لك، وبارككما باسمه القدوس.",
+      "Arabic": "استلم يا عريس عروسًا وهي لك، يسوع المسيح أعطاها لك، و بيد أبينا الكاهن (الأسقف/المطران) سلمها لك، وبارككما باسمه القدوس.",
       "English": "Receive, 0 bridegroom, a bride who is yours, / Jesus Christ has given her to you, / and at the hand of our father the priest (bishop/metropolitan) He has presented her to you, / and blessed you both with His holy name."
     },
     {
@@ -34,12 +31,15 @@
       "Englishcoptic": "Pi-Laos:"
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "يارب إسمعنا يارب إرحم. يارب باركنا،",
-      "English": "Lord have mercy (3)"
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "Coptic": "Kurie `ele`hcon>Kurie `ele`hcon>Kurie `ele`hcon.",
+      "English": "Lord Have Mercy , Lord Have Mercy , Lord Have Mercy.",
+      "Arabiccoptic": "كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Kerye-leison : Kerye-leison : Kerye-leison ."
     },
     {
       "Type": "Base",

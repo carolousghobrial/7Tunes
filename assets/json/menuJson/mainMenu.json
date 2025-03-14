@@ -55,8 +55,7 @@
             "hasSubBooks": false,
             "BookPath": "matrimony",
             "ImageURL": "WEDDING_CANA",
-            "Enabled": true,
-            "hide": true
+            "Enabled": true
         },
         {
             "EnglishTitle": "Index",

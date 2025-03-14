@@ -1,7 +1,7 @@
 import { getLanguageValue, getFontSize, getColor } from "./SettingsHelpers.js";
 import { useDispatch, useSelector } from "react-redux";
 //const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-
+import { TakeFromHathorTwo } from "../viewModel/getFullViewModel.js";
 var moment = require("moment-timezone"); //moment-timezone
 
 var today = moment();
@@ -679,6 +679,125 @@ export function getTodayDate(timeTransition) {
   const returnMoment = moment(todayDate);
   return returnMoment;
 }
+const daysOfWeek = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+export function GetTodaysReadingPath(
+  key,
+  dayOfWeek,
+  week,
+  copticMonth,
+  copticDay,
+  weekOfMonth
+) {
+  let filePath = "Katamaros";
+
+  const isStandardSeasonSunday =
+    !["GREAT_LENT", "HOLY_50", "PALM_SUNDAY", "RESURRECTION"].includes(key) &&
+    dayOfWeek === 0;
+  const isStandardSeasonWeekday =
+    !["GREAT_LENT", "HOLY_50"].includes(key) && dayOfWeek !== 0;
+
+  const seasonMappings = {
+    RESURRECTION: "FiftiesResurrection",
+    PALM_SUNDAY: "GreatFastWeek7Sunday",
+    ASCENSION: "FiftiesWeek6Thursday",
+    PENTECOST: "FiftiesWeek7Sunday",
+    LAZARUS_SATURDAY: "GreatFastWeek7Saturday",
+    HOLY_50: `FiftiesWeek${week}${daysOfWeek[dayOfWeek]}`,
+    GREAT_LENT: `GreatFastWeek${week}${daysOfWeek[dayOfWeek]}`,
+  };
+
+  if (seasonMappings[key]) {
+    return "Katamaros" + seasonMappings[key];
+    //return updateFilePath(seasonMappings[key]);
+  }
+
+  if (isStandardSeasonSunday) {
+    return getStandardSeasonSundayPath(currentSeason);
+  }
+
+  if (isStandardSeasonWeekday) {
+    return getStandardSeasonWeekdayPath();
+  }
+  return filePath;
+
+  /** Determines Sunday readings */
+  function getStandardSeasonSundayPath(currentSeason) {
+    const specialDays = {
+      NATIVITY: "DaysKoiahk29",
+      EPIPHANY: "DaysTobe11",
+      ANNUNCIATION: "DaysParemhotep29",
+    };
+
+    if (specialDays[key]) {
+      return "Katamaros" + specialDays[key];
+
+      //return updateFilePath(specialDays[key]);
+    }
+
+    if (
+      key === "TWENTYNINTHTH_COPTIC_MONTH" &&
+      DailyReadingCalendar[copticMonth][copticDay] === "ok"
+    ) {
+      return "Katamaros" + `Days${copticMonth}${copticDay}`;
+
+      //return updateFilePath(`Days${copticMonth}${copticDay}`);
+    }
+
+    if (weekOfMonth >= 1 && weekOfMonth <= 4) {
+      return "Katamaros" + `Sundays${copticMonth}Week${weekOfMonth}`;
+
+      // return updateFilePath(`Sundays${copticMonth}Week${weekOfMonth}`);
+    }
+
+    if (
+      TakeFromHathorTwo(currentSeason) &&
+      copticMonth === "Hathor" &&
+      weekOfMonth === 5
+    ) {
+      return "Katamaros" + "SundaysKoiahkWeek1";
+
+      // return updateFilePath("SundaysKoiahkWeek1");
+    }
+
+    //return filePath;
+  }
+
+  /** Determines weekday readings */
+  function getStandardSeasonWeekdayPath() {
+    const specialDays = {
+      NATIVITY: "DaysKoiahk29",
+      EPIPHANY: "DaysTobe11",
+      JONAH_FAST: `GreatFastJonah${daysOfWeek[dayOfWeek]}`,
+      JONAH_FEAST: "JonahPassover",
+    };
+
+    if (specialDays[key]) {
+      return "Katamaros" + specialDays[key];
+
+      // return updateFilePath(specialDays[key]);
+    }
+
+    const day = DailyReadingCalendar[copticMonth]?.[copticDay];
+    if (day === "ok") {
+      return "Katamaros" + `Days${copticMonth}${copticDay}`;
+
+      // return updateFilePath(`Days${copticMonth}${copticDay}`);
+    }
+
+    const matches = day?.match(/(\d+)|([a-zA-Z]+)/g);
+    return matches
+      ? "Katamaros" + `Days${matches[1] || ""}${matches[2] || ""}`
+      : filePath;
+  }
+}
 
 export function setCurrentSeasonByKey(timeTransition, key) {
   var fastsfeasts = getCopticFastsFeasts(moment().year());
@@ -689,21 +808,32 @@ export function setCurrentSeasonByKey(timeTransition, key) {
     currentDate.getMonth(),
     currentDate.getDate()
   );
+  const week =
+    mySeason.start === null
+      ? 0
+      : getWeeksSinceStartDate(
+          currentDate,
+          new Date(mySeason.start),
+          mySeason.key
+        );
+  const weekOfMonth = Math.ceil(copticDate.day / 7);
 
+  const filePath = GetTodaysReadingPath(
+    mySeason.key,
+    currentDate.getDay(),
+    week,
+    copticDate.month,
+    copticDate.day,
+    weekOfMonth
+  );
   var mycurrentSeason = {
     key: mySeason.key,
     start: mySeason.start,
     end: mySeason.end,
     major: mySeason.major,
-    weekOfMonth: Math.ceil(copticDate.day / 7),
-    week:
-      mySeason.start === null
-        ? 0
-        : getWeeksSinceStartDate(
-            currentDate,
-            new Date(mySeason.start),
-            mySeason.key
-          ),
+    weekOfMonth: weekOfMonth,
+    week: week,
+
     dayOfWeek: currentDate.getDay(),
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
@@ -711,6 +841,7 @@ export function setCurrentSeasonByKey(timeTransition, key) {
     fullgregorianDate: currentDate,
     isWatos: isWatos(currentDate.getDay()),
     type: mySeason.type,
+    filePath: filePath,
     saintsOfThisDay: getSaintOfTheDay(copticDate),
     plantsSeason: plantsSeason(currentDate),
     copticMonth: copticDate.month,
@@ -729,21 +860,31 @@ export function setCurrentSeasonLive(timeTransition) {
     currentDate.getMonth(),
     currentDate.getDate()
   );
+  const week =
+    mySeason.start === null
+      ? 0
+      : getWeeksSinceStartDate(
+          currentDate,
+          new Date(mySeason.start),
+          mySeason.key
+        );
+  const weekOfMonth = Math.ceil(copticDate.day / 7);
 
+  const filePath = GetTodaysReadingPath(
+    mySeason.key,
+    currentDate.getDay(),
+    week,
+    copticDate.month,
+    copticDate.day,
+    weekOfMonth
+  );
   var mycurrentSeason = {
     key: mySeason.key,
     start: mySeason.start,
     end: mySeason.end,
     major: mySeason.major,
-    weekOfMonth: Math.ceil(copticDate.day / 7),
-    week:
-      mySeason.start === null
-        ? 0
-        : getWeeksSinceStartDate(
-            currentDate,
-            new Date(mySeason.start),
-            mySeason.key
-          ),
+    weekOfMonth: weekOfMonth,
+    week: week,
     dayOfWeek: currentDate.getDay(),
     gregorianDayOfMonth: currentDate.getDate(),
     gregorianMonth: currentDate.getMonth(),
@@ -753,6 +894,7 @@ export function setCurrentSeasonLive(timeTransition) {
     saintsOfThisDay: getSaintOfTheDay(copticDate),
     isWatos: isWatos(currentDate.getDay()),
     type: mySeason.type,
+    filePath: filePath,
     plantsSeason: plantsSeason(currentDate),
     copticMonth: copticDate.month,
     copticMonthIndex: copticDate.monthIndex,

@@ -1,0 +1,19 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "أرباع الناقوس لصلاة الاكليل",
+  "CopticTitle": "Xere pima`n]elet",
+  "EnglishTitle": "Verses of Cymbals for Matrimony Ceremony",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "السلام للخدر، المُزيَّن بكل نوع، الذي للعريس الحقيقي، الذي إتحد بالبشرية.",
+      "Coptic": "Xere pima`n]elet> etcelcwl =en ouqo `nrh;> `nte Pinumvioc `mmhi> `etaf\\wtp `e;metrwmi.",
+      "English": "Hail to the bridal chamber, that is adorned with all types, for the true Bridegroom, who became united with humanity.",
+      "Arabiccoptic": "شيري بيماإنشيليت: إيتسيلسوول خين أوثو إنريتي: إنتي بينيمفيوس إمميي: إيتافهووتب إيتيميتروومي.",
+      "Englishcoptic": "Shere pimaenshelet: etselsool khen oootho enreeti: ente Pineemvios emmeei: etafhootp etimetroomi."
+    }
+  ]
+}

@@ -4,15 +4,12 @@
   "EnglishTitle": "Blessing for the Bride",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -21,6 +18,33 @@
       "Side": "North",
       "Arabic": "الذي بارك أبانا آدم وحواء، وإبراهيم مع سارة، وإسحق مع رفقة، يبارك هذا الزواج. الذي بارك يعقوب في زواجه، وحنة أم صموئيل، يبارك هذا الزواج. الذي بارك يوسف مع أسينات، وزكريا مع أليصابات، ومريم أم الختن، وكافة النساء المباركات، يبارك هذا الزواج.",
       "English": "May He who blessed our father Adam with Eve, and Abraham with Sarah, and Isaac with Rebecca, bless this marriage. May He who blessed Jacob in his mariage, and Hanna the mother of Samuel, bless this marriage. May who blessed Joseph with Asenath and Zacharias with Elizabeth, and Mary the mother of the Bridegroom, and the rest of the blessed women, bless this marriage."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "توجت أيها العريس في هذه الكنيسة.  وعن يمينك جلست عروسة , بها خصك رب القدرة، بكمال و طهر من شعب إيسوس.",
+      "English": "You are crowned O bridegroom, in this church : and at your right hand sits a bride : whom the Lord of might has chosen for you : In perfection and purity among the people of Jesus."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا رب اسمعنا , يا رب ارحمنا يا رب باركنا",
+      "Coptic": "Kurie `ele`hcon>Kurie `ele`hcon>Kurie `ele`hcon.",
+      "English": "Lord Have Mercy , Lord Have Mercy , Lord Have Mercy.",
+      "Arabiccoptic": "كيرياليسون كيرياليسون كيرياليسون",
+      "Englishcoptic": "Kerye-leison : Kerye-leison : Kerye-leison ."
     }
   ]
 }

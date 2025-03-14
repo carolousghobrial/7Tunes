@@ -1,7 +1,24 @@
 import { useRouter } from "expo-router";
+import { getFullViewModel } from "../viewModel/getFullViewModel";
+import { useDispatch, useSelector } from "react-redux";
+import { StyleSheet, Button, Alert } from "react-native";
 
-function useButtonRules(item, motherSource, flatListRef, viewData, router) {
+function useButtonRules(
+  item,
+  motherSource,
+  flatListRef,
+  viewData,
+  router,
+  currentSeason,
+  timeTransition,
+  dioceseBishop,
+  BishopIsPresent,
+  BishopsPresent,
+  are3PlusBishopsPresent,
+  saints
+) {
   // Helper for updating item counts
+
   const updateItemCount = () => {
     const oldCount = item.Count;
     const newCount = ++item.Count;
@@ -20,19 +37,46 @@ function useButtonRules(item, motherSource, flatListRef, viewData, router) {
       params,
     });
 
-  // Unified book screen opener
-  const openBookScreen = (replace = false) =>
-    navigateToScreen(
-      "/bookscreen/BookScreen",
-      {
-        bookPath: item.Path,
+  const openBookScreen = async (replace = false) => {
+    try {
+      // Fetch the view model values
+      Alert.alert("Loading....", "loading...");
+      const values = getFullViewModel(
+        item.Path,
+        item.mother,
+        currentSeason,
+        timeTransition,
+        dioceseBishop,
+        BishopIsPresent,
+        BishopsPresent,
+        are3PlusBishopsPresent,
+        saints
+      );
+
+      // Prepare the parameters for the navigation
+      const additionalParams = {
+        motherSource: item.mother,
         englishTitle: item.English,
         arabicTitle: item.Arabic,
-        motherSource: item.mother,
-        Switch: item.Switch,
-      },
-      replace
-    );
+        bishopButton: false, // Consider changing this based on actual requirements
+        booksContentIn: JSON.stringify(values[0]),
+        menuItemsIn: JSON.stringify(values[1]),
+      };
+
+      // Perform navigation
+      await router.push({
+        pathname: "/bookscreen/BookScreen",
+        params: { ...additionalParams },
+      });
+    } catch (error) {
+      // Handle any navigation errors
+      console.error("Error navigating to book:", error);
+      Alert.alert("An error occurred", "Please try again later.");
+    } finally {
+      // Optional: If you're using a loading spinner, you can stop it here.
+      // Example: setIsLoading(false); (Ensure `setIsLoading` is defined somewhere)
+    }
+  };
 
   // Open a single hymn view
   const openViewSingleHymn = () =>
@@ -61,7 +105,6 @@ function useButtonRules(item, motherSource, flatListRef, viewData, router) {
   };
   const SkipTasbehaCommemoration = () => {
     const index = viewData.findIndex((part) => part.part.Path === "doxologies");
-    console.log(index);
     flatListRef.current.scrollToIndex({ index: index - 4, animated: false });
   };
 

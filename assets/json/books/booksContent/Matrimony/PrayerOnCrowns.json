@@ -4,15 +4,12 @@
   "EnglishTitle": "A Prayer on the Crowns",
   "Hymn": [
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -23,15 +20,12 @@
       "English": "O Holy God, who crowned the saints with unfading crowns and reconciled the heavenly and earthly and united them; O You our Master, now, also, bless these crowns which we prepared to be set upon Your two servants,Crowns of glory and honor. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -42,15 +36,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -61,15 +52,12 @@
       "English": "Crowns of blessing and salvation. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -80,15 +68,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -99,15 +84,12 @@
       "English": "Crowns of joy and happiness. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -118,15 +100,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -137,15 +116,12 @@
       "English": "Crowns of jubilation and delight. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -156,15 +132,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -175,15 +148,12 @@
       "English": "Crowns of virtue and justice. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -194,15 +164,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -213,15 +180,12 @@
       "English": "Crowns of wisdom and understanding hearts. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -232,15 +196,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -251,15 +212,12 @@
       "English": "Crowns of comfort and confirmation. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -270,15 +228,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -289,15 +244,12 @@
       "English": "Grant Your two servants, who shall wear them, the angel of peace and the bond of love. Deliver them from all evil thoughts and vile desires.Deliver them from every weight of cunning and from every devilish hardship; let your mercy be upon them. Hear the voice of their supplication. Set Your fear in their hearts.Manage their lives without delay unto old age. Make them rejoice by beholding the sons and daughters whom they will beget.Make them useful in Your one, holy, catholic, and apostolic church, confirm them in the Orthodox faith to the end.Lead them in the way of Your righteousness through the pleasure of Your good Father and the Holy Spirit, now and forever and unto the end. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -308,15 +260,12 @@
       "English": "Place the crowns O priest of Immanuel, / place the shepherd of Israel, / place the crowns in joy and jubilation / upon [*GROOM*] the bridegroom and [*BRIDE*] the bride."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -327,15 +276,12 @@
       "English": "Place, O Lord, upon Your two servants crowns of unvanquished grace. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -346,15 +292,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -365,15 +308,12 @@
       "English": "Crowns of elevated and everlasting glory, Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -384,15 +324,12 @@
       "English": "Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
@@ -403,15 +340,12 @@
       "English": "Crowns of unopposed and unattacked good faith, and bless all their actions. Amen."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -425,20 +359,25 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "(P)لأنك أنت المُعطي سائر الخيرات أيها المسيح إلهنا. ويليق بك المجد والإكرام مع أبيك الصالح وروحك القدس المحيي المساوي لك، الآن وكل أوان وإلى دهر الدهور. أمين.",
-      "English": "(P)For You, Christ our God, are the giver of all good things and glory and honor are due to You, with Your good Father, and Your Holy Spirit, the Giver of Life, who is of one essence with"
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لأنك أنت المُعطي سائر الخيرات أيها المسيح إلهنا. ويليق بك المجد والإكرام مع أبيك الصالح وروحك القدس المحيي المساوي لك، الآن وكل أوان وإلى دهر الدهور. أمين.",
+      "English": "For You, Christ our God, are the giver of all good things and glory and honor are due to You, with Your good Father, and Your Holy Spirit, the Giver of Life, who is of one essence with"
+    },
+    {
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -452,20 +391,25 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "(P) كللهما بالمجد والكرامة أيها الآب. آمين.",
-      "English": "(P)Crown them with glory and honor, O Father. Amen."
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "كللهما بالمجد والكرامة أيها الآب. آمين.",
+      "English": "Crown them with glory and honor, O Father. Amen."
+    },
+    {
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -479,20 +423,25 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "(P) باركهما أيها الإبن الوحيد. آمين.",
-      "English": "(P)Bless them, O only-begotten Son. Amen."
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " باركهما أيها الإبن الوحيد. آمين.",
+      "English": "Bless them, O only-begotten Son. Amen."
+    },
+    {
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -506,20 +455,25 @@
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "(P) قدسهما أيها الروح القدس. آمين.",
-      "English": "(P)Sanctity them, O Holy Spirit. Amen."
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": " قدسهما أيها الروح القدس. آمين.",
+      "English": "Sanctity them, O Holy Spirit. Amen."
+    },
+    {
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "People",
       "Arabic": "الشعب:",
-      "Coptic": "Pilaoc>",
-      "English": "People:",
-      "Arabiccoptic": "بيلاؤس:",
-      "Englishcoptic": "Pi-Laos:"
+      "English": "People:"
     },
     {
       "Type": "Melody",
@@ -528,6 +482,28 @@
       "Side": "North",
       "Arabic": "آمين",
       "English": "Amen."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بإسم الآب والإبن والروح القدس الثالوث القدوس المساوى",
+      "Coptic": "+en `vran `mViwt nem   ` P]hri    nem Pi`pneuma eqouab > ;`triac eqouab `noumooucioc.",
+      "English": "In the Name of the Father, and the Son, and the Holy Spirit, the One Holy Trinity.",
+      "Arabiccoptic": "خين إفران إم إفيوت نيم إبشيرى نيم بى إبنفما إثؤواب. تى إترياس إثؤواب إن أومو أوسيوس.",
+      "Englishcoptic": "Khen efran emeviot nem ePshiri nem Pi ep nevma ethowab: ti etrias ethowab en omosios."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "South",
+      "Arabic": "مستحق مستحق مستحق هو العريس و معينته",
+      "Coptic": "A[ioc a[ioc a[ioc pipat]elet nem tefbohqoc",
+      "English": "Worthy, worthy, worthy is the  bridegroom and his helpmate",
+      "Arabiccoptic": "أكسيوس أكسيوس أكسيوس بي باتشيليت نيم تيف فوإيثوس",
+      "Englishcoptic": "Axios Axios Axios pi-patshelet nem tef-vo-eethos"
     }
   ]
 }

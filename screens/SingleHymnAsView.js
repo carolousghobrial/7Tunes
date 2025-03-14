@@ -1,152 +1,134 @@
-import React, {
-  useState,
-  useRef,
-  useEffect,
-  memo,
-  useCallback,
-  useMemo,
-} from "react";
-import {
-  StyleSheet,
-  Text,
-  Pressable,
-  View,
-  useWindowDimensions,
-  FlatList,
-} from "react-native";
-import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useState, useRef, memo, useCallback, useMemo } from "react";
+import { StyleSheet, View, FlatList, useWindowDimensions } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../helpers/SettingsHelpers.js";
-import { getMain } from "../viewModel/getFullViewModel.js";
+import { getColor } from "../helpers/SettingsHelpers.js";
+import { getMainExported } from "../viewModel/getFullViewModel.js";
 import BaseView from "../components/ViewTypes/BaseView.js";
 import MelodyView from "../components/ViewTypes/MelodyView.js";
 import TitleView from "../components/ViewTypes/TitleView.js";
 import RitualView from "../components/ViewTypes/RitualView.js";
 import ButtonView from "../components/ViewTypes/ButtonView.js";
 import MainTitleView from "../components/ViewTypes/MainTitleView.js";
-import SettingsModal from "../components/BottomBar/SettingsModal.js";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
+import bookPaths from "../helpers/bookPathsHelpers";
+import VisibleRules from "../helpers/visibleRules";
 
 const SingleHymnAsView = memo(
   ({ path, motherSource, rule, englishTitle, arabicTitle }) => {
     const { height } = useWindowDimensions();
     const navigation = useNavigation();
-    const [navbarVisibility, setNavbarVisibility] = useState(true);
+    const {
+      timeTransition,
 
-    const bottomSheetRef = useRef(null);
+      currentSeason,
+      dioceseBishop,
+      BishopIsPresent,
+      BishopsPresent,
+      are3PlusBishopsPresent,
+    } = useSelector((state) => state.settings);
     const flatListRef = useRef();
-    const appLanguage = useSelector((state) => state.settings.appLanguage);
-    const pagination = useSelector((state) => state.settings.pagination);
-
-    const snapPoints = ["75%"];
     const pageBackgroundColor = getColor("pageBackgroundColor");
-    const labelColor = getColor("LabelColor");
+    const saints = useSelector((state) => state.saints);
 
-    const title = appLanguage === "eng" ? englishTitle : arabicTitle;
-    const [currKey, setcurrKey] = useState(0);
-    const [navTitle, setNavTitle] = useState(title);
-    const [IsOnlyOneViewShown, setIsOnlyOneViewShown] = useState(false);
-    const [IsTopNotBeginning, setIsTopNotBeginning] = useState(false);
+    const title = englishTitle || arabicTitle; // Simplify title logic
+    const data = getMain(path, motherSource, rule);
 
-    const data = getMain(path, motherSource, false, rule, 0)[0];
-    const renderItems = ({ item }) => {
-      let content = null;
-      switch (item.part.Type) {
-        case "Base":
-          content = <BaseView item={item.part} />;
-          break;
-        case "Melody":
-          content = <MelodyView item={item.part} />;
-          break;
-        case "Title":
-          content = <TitleView item={item.part} />;
-          break;
-        case "Ritual":
-          content = <RitualView item={item.part} />;
-          break;
-        case "MainTitle":
-          content = <MainTitleView item={item.part} />;
-          break;
-        case "Button":
-          content = (
-            <ButtonView
-              item={item.part}
-              flatListRef={flatListRef}
-              viewData={memoizedData}
-              navigation={navigation}
-            />
+    function getMain(Path, motherSource, rule) {
+      myViewArray = [];
+      const book = bookPaths[Path];
+
+      try {
+        const { ArabicTitle, CopticTitle, EnglishTitle, Hymn } = book;
+
+        // Push title information
+        if (EnglishTitle) {
+          myViewArray.push({
+            EnglishTitle,
+            CopticTitle,
+            ArabicTitle,
+            part: {
+              Type: "Title",
+              rule: -1,
+              visible: 0,
+              Side: "Title",
+              Arabic: ArabicTitle,
+              Coptic: CopticTitle,
+              English: EnglishTitle,
+              Switch: null,
+              Path,
+            },
+          });
+        }
+
+        //Filter visible hymns and process them
+        Hymn.filter(isPartVisible).forEach((part) => {});
+        function isPartVisible(part) {
+          const motherSourceLower = motherSource?.toLowerCase();
+          const temppath =
+            part.SAINT && !motherSourceLower?.includes("index")
+              ? part.SAINT
+              : part.Path;
+          return (
+            part.Visible === true ||
+            VisibleRules[part.Visible]?.(
+              motherSource,
+              temppath,
+              currentSeason,
+              timeTransition,
+              dioceseBishop,
+              BishopIsPresent,
+              BishopsPresent,
+              are3PlusBishopsPresent,
+              saints
+            ) ||
+            (motherSourceLower?.includes("index") &&
+              !motherSourceLower.includes("papal"))
           );
-          break;
-        default:
-          break;
-      }
-      return content;
-    };
+        }
+      } catch (err) {}
 
-    const scrollToNextItem = useCallback(() => {
-      if (IsOnlyOneViewShown && currKey !== 0) {
-        const offset =
-          flatListRef.current._listRef._scrollMetrics.offset +
-          height -
-          height * 0.2;
-        flatListRef.current.scrollToOffset({
-          offset,
-          animated: true,
-        });
-        setIsTopNotBeginning(true);
-      } else {
-        flatListRef.current.scrollToIndex({
-          index: currKey + 1,
-          animated: true,
-        });
-      }
-    }, [currKey, height, IsOnlyOneViewShown]);
+      return myViewArray;
+    }
+    const renderItems = useCallback(
+      ({ item }) => {
+        const { Type } = item.part;
 
-    const scrollBack = useCallback(() => {
-      if (IsTopNotBeginning) {
-        flatListRef.current.scrollToIndex({
-          index: currKey,
-          animated: true,
-        });
-        setIsTopNotBeginning(false);
-      } else if (currKey !== 0) {
-        flatListRef.current.scrollToIndex({
-          index: currKey - 1,
-          animated: true,
-        });
-      }
-    }, [currKey, IsTopNotBeginning]);
-
-    const onHandlerStateChange = useCallback(
-      ({ nativeEvent }) => {
-        if (nativeEvent.state === State.END && pagination) {
-          if (nativeEvent.velocityX > 0) {
-            scrollBack();
-          } else if (nativeEvent.velocityX < 0) {
-            scrollToNextItem();
-          }
+        switch (Type) {
+          case "Base":
+            return <BaseView item={item.part} />;
+          case "Melody":
+            return <MelodyView item={item.part} />;
+          case "Title":
+            return <TitleView item={item.part} />;
+          case "Ritual":
+            return <RitualView item={item.part} />;
+          case "MainTitle":
+            return <MainTitleView item={item.part} />;
+          case "Button":
+            return (
+              <ButtonView
+                item={item.part}
+                flatListRef={flatListRef}
+                viewData={data}
+                navigation={navigation}
+              />
+            );
+          default:
+            return null;
         }
       },
-      [scrollBack, scrollToNextItem, pagination]
+      [data, navigation]
     );
 
     return (
-      <View>
-        <FlatList
-          ref={flatListRef}
-          style={{ backgroundColor: pageBackgroundColor }}
-          showsVerticalScrollIndicator={false}
-          data={data}
-          removeClippedSubviews={true}
-          renderItem={renderItems}
-          keyExtractor={(item) => item.key}
-        />
-      </View>
+      <FlatList
+        ref={flatListRef}
+        style={[styles.container, { backgroundColor: pageBackgroundColor }]}
+        showsVerticalScrollIndicator={false}
+        data={data}
+        removeClippedSubviews={true}
+        renderItem={renderItems}
+        keyExtractor={(item) => item.key}
+      />
     );
   }
 );
@@ -154,6 +136,9 @@ const SingleHymnAsView = memo(
 export default SingleHymnAsView;
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
   textStyle: {
     fontFamily: "coptic-font",
     color: "white",
