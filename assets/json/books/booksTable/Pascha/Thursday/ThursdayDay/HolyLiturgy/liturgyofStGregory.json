@@ -21,10 +21,13 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosCovenantThursday",
+            "Type": "Accordion",
+            "Arabic": "اسبازموس أدام خميس العهد",
+            "English": "Adam Aspasmos for Covenant Thursday",
+            "Coptic": "Piwik `nte `pwn=>",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosCovenantThursday"
         },
         {
             "Type": "Main",
@@ -38,14 +41,6 @@
             "Rule": 0,
             "Visible": true,
             "Switch": "LiturgyLiturgyOfTheBelieversStBasilAnaphora"
-        },
-        {
-            "Type": "Button",
-            "Arabic": "اسباسموس واطس",
-            "English": "Watos Aspasmos",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmos"
         },
         {
             "Type": "Main",
@@ -184,71 +179,12 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversStGregoryCommemorationOfSaints",
-            "Rule": 0,
-            "Visible": true,
-            "Switch": "LiturgyLiturgyOfTheBelieversStBasilCommemorationOfSaints"
-        },
-        {
-            "Type": "Button",
-            "Arabic": "ترحيم",
-            "English": "Diptych",
+            "Type": "Accordion",
+            "Arabic": "(الباسيلي)كما كان ",
+            "English": "As it was (Basil)",
             "Rule": "OpenSinglePageButtonRule",
             "Visible": true,
-            "Path": "LiturgyLiturgyOfTheBelieversStBasilDiptych"
-        },
-        {
-            "Type": "Button",
-            "Arabic": "افشيس",
-            "English": "Evshes ",
-            "Rule": "OpenSinglePageButtonRule",
-            "Visible": true,
-            "Path": "LiturgyLiturgyOfTheBelieversStBasilEvshees"
-        },
-        {
-            "Type": "Button",
-            "Arabic": "بي نيشتي ",
-            "English": "Pinishti",
-            "Rule": "OpenSinglePageButtonRule",
-            "Visible": true,
-            "Path": "LiturgyLiturgyOfTheBelieversStBasilPinishti"
-        },
-        {
-            "Type": "Button",
-            "Arabic": "بي نيشتي الكبيرة",
-            "English": "Great Pinishti",
-            "Rule": "OpenSinglePageButtonRule",
-            "Visible": true,
-            "Path": "LiturgyLiturgyOfTheBelieversStBasilGreatPinishti"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversStBasilMayTheirHolyBlessings",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversStGregoryRemmemberOLord",
-            "Rule": 0,
-            "Visible": true,
-            "Switch": "LiturgyLiturgyOfTheBelieversStBasilThoseOLord"
-        },
-        {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversStGregoryForYouAreGod",
-            "Rule": 0,
-            "Visible": true,
-            "Switch": "LiturgyLiturgyOfTheBelieversStBasilThoseOLord"
-        },
-        {
-            "Type": "Button",
-            "Arabic": "كما كان ",
-            "English": "As it was",
-            "Rule": "OpenSinglePageButtonRule",
-            "Visible": true,
-            "Path": "LiturgyLiturgyOfTheBelieversStGregoryAsItWas"
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilAsItWas"
         },
         {
             "Type": "Main",
@@ -299,11 +235,11 @@
         },
         {
             "Type": "Button",
-            "Arabic": "التوزيع",
-            "English": "Distribution of the Holy Mysteries",
+            "Arabic": "الفصول التى تتلى فى توزيع قداس خميس العهد",
+            "English": "The Readings during the Covenant Thursday Distribution ",
             "Rule": "OpenNewPageButtonRule",
             "Visible": true,
-            "Path": "distribution"
+            "Path": "ThursdayDayEleventhHourMain"
         }
     ]
 }

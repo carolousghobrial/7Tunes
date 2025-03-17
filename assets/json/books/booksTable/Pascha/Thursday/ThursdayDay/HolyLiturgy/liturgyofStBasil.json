@@ -21,10 +21,13 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosCovenantThursday",
+            "Type": "Accordion",
+            "Arabic": "اسبازموس أدام خميس العهد",
+            "English": "Adam Aspasmos for Covenant Thursday",
+            "Coptic": "Piwik `nte `pwn=>",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Path": "LiturgyLiturgyOfTheBelieversAdamAspasmosCovenantThursday"
         },
         {
             "Type": "Main",
@@ -39,14 +42,6 @@
             "Visible": true,
             "mother": "liturgyofStBasilCovenantThursday",
             "Switch": "LiturgyLiturgyOfTheBelieversStGregoryAnaphora"
-        },
-        {
-            "Type": "Button",
-            "Arabic": "اسباسموس واطس",
-            "English": "Watos Aspasmos",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "LiturgyLiturgyOfTheBelieversWatosAspasmos"
         },
         {
             "Type": "Main",
@@ -177,7 +172,7 @@
             "English": "The Congregation chants \"As it was\" directly after the Litany of the Oblations. The commemoration of the saints and the diptych are not prayed."
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "(الغريغوري)كما كان ",
             "English": "As it was (Gregorian)",
             "Rule": "OpenSinglePageButtonRule",
@@ -238,7 +233,7 @@
             "English": "The Readings during the Covenant Thursday Distribution ",
             "Rule": "OpenNewPageButtonRule",
             "Visible": true,
-            "Path": "distribution"
+            "Path": "ThursdayDayEleventhHourMain"
         }
     ]
 }

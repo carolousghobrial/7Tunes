@@ -1111,6 +1111,7 @@ const isPentecostFeast = (motherSource, path) => {
 const CreedHolyWeek = (motherSource, path) => {
   switch (motherSource) {
     case "ThursdayDayFirstHourMain":
+    case "ThursdayDayLiturgyOfWaters":
     case "liturgyofStBasilCovenantThursday":
     case "liturgyofStGregoryCovenantThursday":
       return false;
@@ -1124,6 +1125,7 @@ const CreedHolyWeek = (motherSource, path) => {
 const CreedCrucified = (motherSource, path) => {
   switch (motherSource) {
     case "ThursdayDayFirstHourMain":
+    case "ThursdayDayLiturgyOfWaters":
     case "liturgyofStBasilCovenantThursday":
     case "liturgyofStGregoryCovenantThursday":
       return false;
@@ -1797,7 +1799,10 @@ const ComeRisenRule = (motherSource, part) => {
   const KIAHK = fastsFeasts.find((element) => element.key === "NATIVITY_FAST");
 
   const PENTECOST = fastsFeasts.find((element) => element.key === "PENTECOST");
-  if (motherSource?.includes("CovenantThursday")) {
+  if (
+    motherSource?.includes("CovenantThursday") ||
+    motherSource?.includes("ThursdayDay")
+  ) {
     return {
       english: "were crucified",
       coptic: "aua]k",

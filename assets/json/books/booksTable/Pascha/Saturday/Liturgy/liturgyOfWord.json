@@ -256,7 +256,7 @@
             "English": "Liturgy of St.Basil",
             "Rule": "OpenNewPageButtonRule",
             "Visible": true,
-            "Path": "liturgyofStBasil"
+            "Path": "liturgyofStBasilBrightSaturday"
         },
         {
             "Type": "Button",
@@ -264,7 +264,7 @@
             "English": "Liturgy of St.Gregory",
             "Rule": "OpenNewPageButtonRule",
             "Visible": true,
-            "Path": "liturgyofStGregory"
+            "Path": "liturgyofStGregoryBrightSaturday"
         }
     ]
 }

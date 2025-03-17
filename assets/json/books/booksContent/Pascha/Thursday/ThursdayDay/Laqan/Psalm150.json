@@ -1,0 +1,195 @@
+{
+    "RefrainAfter": 0,
+    "ArabicTitle": "المزمور 150",
+    "EnglishTitle": "Psalm 150",
+    "CopticTitle": "`Cmou `e Vnou;",
+    "Hymn": [
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "الليلويا الليلويا الليلويا ",
+            "Coptic": " Allhlouia Allhlouia Allhlouia",
+            "English": "Alleluia, Alleluia, Alleluia. ",
+            "Arabiccoptic": "الليلويا الليلويا الليلويا",
+            "Englishcoptic": "Alleluia, Alleluia, Alleluia. "
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": " سبحوا الله فى جميع قديسيه الليلويا",
+            "Coptic": "`Cmou `e Vnou; =en ni eqouab throu `ntaf Al/.",
+            "English": "Praise God in all His saints. Alleluia.",
+            "Arabiccoptic": " إسمو إإفنوتى خين نى إثؤواب تيرو إنطاف الليلويا",
+            "Englishcoptic": "Esmo Efnouti khen ni-ethowab tiro entaf, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "سبحوه فى جلد قوته الليلويا",
+            "Coptic": "`Cmou `erof =en pitajro `nte tefjom Al/.",
+            "English": "Praise Him, in the firmament of His power. Alleluia.",
+            "Arabiccoptic": "إسمو إيروف خين بى طاجرو إنتى تيف جوم الليلويا.",
+            "Englishcoptic": "Esmo erof khen pi-tagro ente tef-gom, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "سبحوه على مقدرته الليلويا",
+            "Coptic": "`Cmou `erof `e`\\rhi \\ijen tefmetjwri Al/",
+            "English": "Praise Him, for His mighty acts. Alleluia.",
+            "Arabiccoptic": "إسمو إيروف إإهرى هيجين تيف ميت جورى الليلويا",
+            "Englishcoptic": "Esmo erof e-ehri hijen tefmet-gowri, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "سبحوه ككثرة عظمته الليلويا",
+            "Coptic": "`Cmou `erof kata `p` a]ai `nte tefmetni]; Al/.",
+            "English": "Praise Him, according to the multitudes of His greatness. Alleluia.",
+            "Arabiccoptic": "إسمو إيروف كاطا إب أشاى إنتى تيف ميت نيشتى الليلويا",
+            "Englishcoptic": "Esmo erof kata ep-ashai ente tef-met-nishti, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "سبحوه بصوت البوق الليلويا",
+            "Coptic": "`Cmou `erof =en ou`cmh `ncalpiggoc Al/ .",
+            "English": "Praise Him, with the sound of the trumpet. Alleluia",
+            "Arabiccoptic": "إسمو إيروف خين أو إسمى إن سالبينغوس الليلويا",
+            "Englishcoptic": "Esmo erof khen ou-esmi ensalpen-ghos, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "سبحوه بالمزمار والقيثارة الليلويا",
+            "Coptic": "`Cmou `erof =en ouyalthrion nem oukuqara Al/.",
+            "English": "Praise Him, with psaltery and harp. Alleluia.",
+            "Arabiccoptic": "إسمو إيروف خين أو إبسالتيريون نيم أوكيثارا الليلويا",
+            "Englishcoptic": "Esmo erof khen ou-epsal-terion nem ou-kithara, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "سبحوه بالدفوف والصفوف الليلويا",
+            "Coptic": "`Cmou `erof =en \\ankemkem nem \\anxoroc Al/.",
+            "English": "Praise Him, with timbrel and chorus. Alleluia.",
+            "Arabiccoptic": "إسمو إيروف خين هان كيم كيم نيم هان خوروس الليلويا",
+            "Englishcoptic": "Esmo erof khen han-kem-kem nem han-khoros, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "سبحوه بالأوتار والأرغن الليلويا",
+            "Coptic": "`Cmou `erof =en \\ankap nem ouorganon Al/.",
+            "English": "Praise Him, with strings and organs. Alleluia.",
+            "Arabiccoptic": "إسمو إيروف خين هان كاب نيم أو أورغانون الليلويا",
+            "Englishcoptic": "Esmo erof khen han-kap nem ou-orghanon, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "سبحوه بصنوج حسنة الصوت الليلويا",
+            "Coptic": "`Cmou `erof =en \\ankumbalon enece toucmh Al/.",
+            "English": "Praise Him, with pleasant sounding cymbals. Alleluia.",
+            "Arabiccoptic": "إسمو إيروف خين هان كيمفالون إنى سيطو إسمى الليلويا",
+            "Englishcoptic": "Esmo erof khen han-kim-valon ene-setou-esmi, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "سبحوه بصنوج التهليل الليلويا",
+            "Coptic": "`Cmou `erof =en \\ankumbalon `nte oue]lhloui Al/.",
+            "English": "Praise Him, upon the cymbals of joy, Alleluia.",
+            "Arabiccoptic": "إسمو إيروف خين هان كيمفالون إنتى أوإى إشليلوى الليلويا",
+            "Englishcoptic": "Esmo erof khen han-valon ente ou-eshlilowi, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "كل نسمة فلتسبح إسم الرب إلهنا الليلويا",
+            "Coptic": "Nifi niben marou `cmou throu `e`vran `mP_ Pennou; Al/.",
+            "English": "Let everything that has breath praise the name of the Lord our God Alleluia.",
+            "Arabiccoptic": "نيفى نيفين مارو إسمو تيرو إ إفران إم إبشويس بين نوتى الليلويا",
+            "Englishcoptic": "Nifi niven maro-esmo tiro Ee-efran Emipshois Pennouti, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "المجد للآب والإبن والروح القدس الليلويا",
+            "Coptic": "Do[a Patri ke Uiw ke Agiw Pneumati Al/.",
+            "English": "Glory to the Father, and the Son, and the Holy Spirit. Alleluia.",
+            "Arabiccoptic": "ذوكصابترى كى إيو كى أجيو إبنفماتى الليلويا",
+            "Englishcoptic": "Zoxa Patree ke Eio ke Agio Epnevmati, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "الأن وكل آوان وإلى دهر الدهور أمين الليلويا",
+            "Coptic": "Ke nun ke ai ke ictouc ewnac twn ewnwn amhn Al/.",
+            "English": "Now and ever and unto the ages of the ages. Amen. Alleluia.",
+            "Arabiccoptic": "كى نين كى أإى كى إستوس إ أوناس طون إأونون آمين الليلويا",
+            "Englishcoptic": "Ke neen ke a-ee ke estos e-onas ton e-onon amen. Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "الليلويا الليلويا المجد لإلهنا الليلويا",
+            "Coptic": "Al/. Al/. Do[aci o qeoc umwn Al/.",
+            "English": "Alleluia. Alleluia. Glory to You our God. Alleluia.",
+            "Arabiccoptic": "الليلويا الليلويا ذوكصاصىأوثيئوس إيمون الليلويا",
+            "Englishcoptic": "Alleluia, Alleluia, Zoxa si o Theos emon, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "South",
+            "Arabic": "الليلويا الليلويا المجد لإلهنا الليلويا",
+            "Coptic": "Al/. Al/. Pi`wou va Pennou; pe Al/.",
+            "English": "Alleluia. Alleluia. Glory be to our God. Alleluia.",
+            "Arabiccoptic": "الليلويا الليلويا بى أو أو فا بين نوتى بى الليلويا",
+            "Englishcoptic": "Alleluia, Alleluia, pi-ow-ou fa pennouti pe, Alleluia."
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": " يسوع المسيح ابن الله،إسمعنا وإرحمنا.",
+            "Coptic": " Ih/c/ Px/c/ ` P]hri `mV; > cwtem `eron ouo\\ nai nan.",
+            "English": " Jesus Christ the Son of God, hear us and have mercy upon us.",
+            "Arabiccoptic": " إيسوس بخريستوس إبشيرى إمفنو تى،سوتبم أيرون اووه ناي نان.",
+            "Englishcoptic": " Isos Pikhrestos Ep-shiri Emif-noti, sotem eron owoh nai nan"
+        }
+    ]
+}

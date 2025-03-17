@@ -5,148 +5,147 @@
   "EnglishTitle": "My God, my God ",
   "Hymn": [
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "الهي الهي التفت الي لماذا تركتني . كلام زلاتي بعيد عن خلاصي . الهي بالنهار أصرخ اليك . فهلا تستجيب لي . و في الليل ولم يكن ذلك جهلا مني .  (مز 21\\22 : 1-3)",
-      "English": "My God, my God, attend to me. Why have You forsaken me? All the words of my transgressions are far from my salvation. O my God, I will cry to You by day, but will You not hear? And by night, and it shall not be accounted for folly to me. (Psalm 21(22):1-3)"
+      "Arabic": " إلهي إلهي إلتفت إليَّ. لماذا تركتني؟ كلام زلاتي بعيد عن خلاصي.",
+      "Coptic": " Panou; paNou; ma`\\qhk `eroi. Eqbe ou akxat `ncwk. Ceou`hou cabol `mpaoujai `nje nicaji throu `nte naparaptwma.",
+      "English": "+ My God my God attend to me. Why have You forsaken me? All the words of my transgressions are far away from my salvation.",
+      "Arabiccoptic": "بانأوتي بانأوتي ماإهثيك إيروي. إيثفي أو اكخات إنسووك. سيأو يأو سافول إمباأوجاي إنجي نيساجي تييرو إنتي نابارابتووما.",
+      "Englishcoptic": "Panooti paNooti maehtheek -eroi. Ethve oo akkhat en-sook. Seoo-eeoo savol empaoogai en-je ni-saji tero en-te naparaptooma."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "و أما أنا فدودة أنا . و لست انسانا . عار للبشر و رذالة للشعوب . كل الذين أبصروني استهزأوا بي . تكلموا بشفاهم و حركوا رؤوسهم . و قالوا ان كان آمن و اتكل علي الرب فليخلصه . و لينجيه ان كان أراده . (مز 21\\22 : 7-9)",
-      "English": "I however, I am a worm, and not a man; A reproach of men, and despised by the people. Everyone who sees me laughs at me: they spoke by their lips: they shake their heads, they said: \"He believed, He hoped in the Lord: let Him rescue Him: let Him deliver Him if He wants. (Psalm 21(22):7-9)"
+      "Side": "South",
+      "Arabic": " كل الذين أبصروني إستهزأوا بي. تكلموا بشفاههم وحركوا رؤوسهم، وقالوا \"إن كان آمن وأتكل على الرب فليخلصه ولينجه إن كان يريده.\"",
+      "Coptic": " Ouon niben eqnau `eroi auelk]ai `ncwi. Aucaji =en nou`cvotou aukim `nou`ave> aujoc je icje afna\\; afer\\elpic `e`Psoic marefna\\mef> mareftoujof icje afou`a]f.",
+      "English": "+ Everyone who saw me mocked me. They spoke with their lips, they shook their heads, and they said \"If he believed and hoped in the Lord, let Him rescue him, let Him deliver him if He wants him.\"",
+      "Arabiccoptic": "أوون نيفين إيثناف إيروي افيلكشاي إنسووي. أفساجي خين نأوإسفوتأو افكيم إنأو افي: افجوس جي يسجي افناهتي افيرهيلبيس إيإبتشويس ماريفناهميف: ماريفتأوجوف يسجي افأو اشف.",
+      "Englishcoptic": "Ooon ni-ven ethnav -eroi avelkshai ensooi. Avsaji khen nooesfotoo avkim enoo-afe: avgos je isje afnahti aferhelpi-s -eePchois marefnahmef: mareftoogof isje afoo-ashf."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "لا تتباعد عني فان الشدة قريبة . و ليس من معين . أحاطت بي عجول كثيرة . ثيران سمان اكتنفتني . فتحوا علي أفواههم مثل الاسد الذي يزأر و يخطف. (مز 21\\22 : 12-14)",
-      "English": "Be not far from Me, for trouble is near; For there is none to help. Many bulls have surrounded Me; Strong bulls have encircled Me. They gape at Me with their mouths, Like a raging and roaring lion. (Psalm 21(22):12-14)"
+      "Arabic": " أحاطت بي كلاب كثيرة. مجمع الأشرار إكتنفتني. ثقبوا يديَّ ورجليَّ وأحصوا كل عظامي، وهم تأملوني فأبصروني. أقتسموا ثيابي بينهم وعلي لباسي إقترعوا. وأنت يا رب لا تتباعد عن معونتي، إلتفت إلى نصرتي.",
+      "Coptic": " Aukw; `eroi `nje ouqo `nouou\\or. Oucunagwgh `njajbwn petac`amoni `mmoi. Auswlk `ntot nem rat auwp `nnakac throu> `nqwou de aumel=iatou `mmoi ouo\\ aunau `eroi. Auvw] `nna`\\bwc `e`\\rau ouo\\ ta\\ebcw au\\iwp `eroc. `Nqok de `Psoic `mpen`qre tabo`hqia ouei cabol `mmoi> ma`\\qhk `etajin ]opt `erok.",
+      "English": "+ Many dogs have surrounded me. The assembly of the wicked has enclosed me. They pierced my hands and feet, they counted all my bones, and they observed and looked at me. They divided my garments among them and for my clothing they cast lots. But You O Lord, do not let my help be far from me and attend to my redemption.",
+      "Arabiccoptic": "أفكووتي إيروي إنجي أوثو إنأوأوهور. أوسيناغووجي إنجاجفوون بيتاس اموني إمموي. أفتشوولك إنتوت نيم رات افووب إنناكاس تييرو: إنثؤو زي افميلخياتأو إمموي أووه افناف إيروي. أففأوؤوش إنناإهفووس إيإهراف أووه تاهيبسوو افهيووب إيروس. إنثوك زي إبتشويس إمبي نإثري تافو يثيا أويي سافول إمموي: ماإهثيك إيتاجين شوبت إيروك.",
+      "Englishcoptic": "Avkooti -eroi en-je ootho en-oowohor. Oooseen-aghoogee en-gagvoon petas-amoni emmoi. Avchoolk en-tot nem rat avoop en-nakas tero: en-tho-oo ze avmelkhiatoo emmoi owoh avnav -eroi. Avfoosh en-naehvoos -eehrav owoh tahebsoo avhioop -eros. eNthok ze ePchois empen-ethre tavo-eethia ooei savol emmoi: maehtheek -etajin shopt -erok."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "قد أحاطت بي كلاب كثيرة . زمرة من الاشرار أحدقت بي . ثقبوا يدي و رجلي , و أحصوا كل عظامي , و هم تأملوني فأبصروني . اقتسموا ثيابي بينهم و علي لباسي اقترعوا . و أنت يا رب لا تتباعد عن معونتي . التفت الي نصرتي . نج نفسي من السيف , و من الكلب بنوتي الوحيدة . خلصني من فم الاسد . و تواضعي من قرن ذي القرن الواحد . (مز 21\\22 : 17-22)",
-      "English": "All manner of dogs surrounded me: the assembly of the wicked has seized me: they pierced my hands and feet, they counted all my bones: and they stared at me and looked at me: they divided up my vestments among them and for my clothing they cast lots: but You, O Lord, do not let my help be far from me: pay heed to your reception of me. Save My soul from the sword, My sonship alone from the mouth of a lion. Save Me from the lion's mouth and my humility from the horn of the unicorn! (Psalm 21(22): 17-22)"
+      "Side": "South",
+      "Arabic": " على صخرة رفعني، والآن هوذا قد شرف رأسي على أعدائي، الذين جازوني عوض الخيرات شروراً. مكروا بي لأني كنت أسعى نحو العدل.",
+      "Coptic": " Ausact \\ijen oupetra> ouo\\ ;nou \\hppe afsici `nta`ave `ejen najaji> nh`etav; nhi `n\\anpet\\wou `n`t]ebiw `n\\anpeqnaneu. Au;`]qouit =aroi je naisoji pe `nca ;meqmhi.",
+      "English": "+ He raised me on a rock, and now behold, He has lifted up my head above my enemies, those who have given me evil in return for good deeds. They have accused me because I was seeking the truth.",
+      "Arabiccoptic": "أفتشاست هيجين أوبيترا: أووه تينأو هيببي افتشيسي إنتا افي إيجين ناجاجي: نيإيتافتي نيي إنهانبيتهؤو إنإتشيفيوو إنهانبيثنانيف. أفتيإشتأويت خاروي جي نايتشوجي بي إنسا تيميثميي.",
+      "Englishcoptic": "Avchast hijen oopetra: owoh ti-noo heeppe afchisi enta-afe -ejen nagaji: nee-etaf-ti- neei enhanpetho-oo enetshevioo enhanpethnanev. Avti-eshtooit kharoi je naichoji pe ensa ti-methmeei."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "و علي صخرة رفعني . و اللآن ها قد رفع رأسي علي أعدائي . (مز 26\\27 : 6)",
-      "English": "He set me upon a rock: and now behold He raised up my head above my enemies: (Psalm 26(27):6)"
+      "Arabic": " رفضوني أنا الحبيب مثل ميت مرذول، ومساميراً جعلوا في جسدي. فلا تهملني يا ربي وإلهي. ولا تتباعد عني. إلتفت إلى معونتي يا رب خلاصي.",
+      "Coptic": " Auberbwrt `ebol `anok pimenrit> `m`vrh; `nourefmwout ef`oreb> ouo\\ au;`ift `etacar[. `Mperxat `ncwk `Psoic paNou;. `Mperouei cabol `mmoi ma`\\qhk. `Etabo`hqia `Psoic `nte tacwthria.",
+      "English": "+ They rejected me I am the beloved; a forsaken dead and they have driven nails into my body. Do not forsake me O Lord my God. Do not be far from me. Attend to my help O Lord of my salvation.",
+      "Arabiccoptic": "أففيرفوورت إيفول  انوك بيمينريت: إم إفريتي إنأوريفمؤوت إيف  وريب: أووه افتي إيف ت إيتاساركس. إمبي رخات إنسووك إبتشويس بانأوتي. إمبي رأويي سافول إمموي ماإهثيك. إيتافو يثيا إبتشويس إنتي تاسووتيريا.",
+      "Englishcoptic": "Avvervoort evol -anok pi-men-rit: emefreeti en-oorefmo-oot ef-oreb: owoh avti-eeft -etasarx. emperkhat en-sook ePchois paNooti. emperooei savol emmoi maehtheek. -Etavo-eethia ePchois en-te tasooteeria."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "الذين جازوني عوض الخيرات شرورا مكروا بي لاني كنت احاضر نحو العدل . رفضوني أنا الحبيب مثل ميت مرزول . و مساميرا جعلوا في جسدي . فلا تهملني يا ربي و الهي و لا تتباعد عني . التفت الي معونتي يا رب خلاصي . (مز 37\\38 : 20-23)",
-      "English": "Those who gave me evil in return for good (deeds): they accused me because I was seeking after the truth. They rejected me, I the beloved, as a despised dead man, and they nailed my flesh: do not abandon me Lord my God: do not go far from me: attend to my help, Lord of my salvation. (Psalm 37(38):20-23)"
+      "Side": "South",
+      "Arabic": " وأنتظرت من يحزن معي فلم يوجد، ومن يعزيني فلم أجد، وجعلوا في طعامي مرارة وفي عطشي سقوني خلاً.",
+      "Coptic": " Ai`o\\i `mvheqnaer `mka\\ `n\\ht nemhi ouo\\ naf]op an pe> ouo\\ vheqna;nom; nhi ouo\\ `mpijemf> ouo\\ au; `nou]a]i `eta`=re ouo\\ au`tcwi> `nou\\emj =en pa`ibi.",
+      "English": "+ I waited for one to grieve with me, but there was none; and for one to comfort me, I did not find; and they gave gall for my food and for my thirst they gave me vinegar to drink.",
+      "Arabiccoptic": "أي وهي إمفييثناير إمكاه إنهيت نيميي أووه نافشوب ان بي: أووه فييثناتينومتي نيي أووه إمبي جيمف: أووه افتي إنأوشاشي إيتاإخري أووه افإتسووي: إنأوهيمج خين با إيف ي.",
+      "Englishcoptic": "Ai-ohi emfee-ethnaer emkah en-heet nemeei owoh nafshop an pe: owoh fee-ethnati-nomti- neei owoh empi-jemf: owoh avti- en-ooshashi -etaekhre owoh avetsooi: en-oohemg khen- pa-eevi."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "انتظرت من يحزن معي فلم يوجد . و من يعزيني فلم أصب . و جعلوا في طعامي مرارة . و في عطشي سقوني خلا . فلتصر مائدتهم أمامهم فخا و مجازاة و شكا . لتظلم عيونهم فلا يبصرون . و لينحن ظهرهم في كل حين . أفض عليهم رجزك . و غضب سخطك يدركهم . و ليكن منزلهم خرابا . و في مساكنهم لا يكن ساكن . لانهم طردوا الذي ضربته أنت . (مز 68\\69 : 21-27)",
-      "English": "I waited for someone to sympathize with me; but no one was there, and for comforters, but I found not one.  They gave me gall for my food, and they gave me vinegar for my drink. Let their table become a snare before them, And a recompense and a stumbling block. Let their eyes be darkened so they may not see. And bend down their backs continually; Pour out your anger upon them and let the fury of your wrath lay hold of them. Let their dwelling place be laid waste and let no one live in their tents. For they pursued closely the one You slew. (Psalm 68(69):21-27)"
+      "Arabic": " فلتصر لهم مائدتهم أمامهم فخاً ومجازاة وشكاً. لتُظلِم عيونهم فلا يبصورا لأنهم طاردوا من إبتليته. أنت يا ربي وإلهي في يديك أضع روحي. لأنهم زادوا عليَّ أوجاع جراحاتي.",
+      "Coptic": " Mare tou`trapeza ]wpi nwou `nouva] `mpou`mqo `ebol nem ou;]ebiw nem ou`ckandalon. Noubal marouer `xremtc `e`]temnau `mbol> je vh`etak]ari `erof `nqwou petafsoji `ncwf. `Nqok de `Psoic paNou;> ei`exw `mpa`pneuma =en nekjij. Auou`a\\ou `e`\\rhi `ejen ni`mkau\\> `nte na`er=wt.",
+      "English": "+ Let their table become a snare before them and recompense and a scandal. Let their eyes be darkened so that they do not see, those who smote him are those who persecuted him. But You O Lord my God, I shall put my spirit in Your hands. They have increased the pains of my wounds.",
+      "Arabiccoptic": "ماري تأوإترابيزا شووبي نؤو إنأوفاش إمبأوإمثو إيفول نيم أوتيشيفيوو نيم أوإسكانزالون. نأوفال مارأوير إخريمتس إيإشتيمناف إمفول: جي فيإيتاكشاري إيروف إنثؤو بيتافتشوجي إنسووف. إنثوك زي إبتشويس بانأوتي: إييإيخوو إمباإبنيفما خين نيكجيج. أفأو اهأو إي إهريي إيجين نيإمكافه: إنتي ناإيرخووت.",
+      "Englishcoptic": "mare tooetrapeza shoopi no-oo en-oofash empooemtho evol nem ooti-shevioo nem ooeskanzalon. Nooval marooer ekhremts -eeshtemnav emvol: je fee-etakshari -erof en-tho-oo petaf-choji en-soof. eNthok ze ePchois paNooti-: ei-ekhoo empaepnevma khen- nek-jig. Avoo-ahoo -eehreei -ejen- ni-emkavh: en-te na-erkhoot."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "فمن أجل اسمك تهديني و تعولني . تخرجني من هذا الفخ الذي أخفوه لي . لانك أنت ناصري . و في يديك أستودع روحي . (مز 30\\31 : 3-5)",
-      "English": "And for Your name's sake You will guide and sustain me; For You will bring me out from the snare they hid for me; For You are my protector. Into Your hands I shall entrust my spirit; (Psalm 30(31):3-5)"
+      "Side": "South",
+      "Arabic": " وزادوا إثماً على إثمهم. ولا يدخلوا في برَّك، وليُمحوا من سفر الأحياء، ومع الصديقين لا يكتبوا.",
+      "Coptic": " Ouo\\ auoua\\ `anomia `ejen tou `anomia. `Mpen`qrou`i `e=oun =en tekmeqmhi> eu`efw; `ebol\\a `pjwm `nte nheton=> ouo\\ `mpen`qrou `c=htou nem ni`qmhi.",
+      "English": "+ And they added iniquity to their iniquity. Let them not enter Your righteousness, be blotted out of the book of the living, and not be written with the righteous.",
+      "Arabiccoptic": "أووه افأواه  انوميا إيجين تأو  انوميا. إمبي نإثرأو إي إيخأون خين تيكميثميي: إيف إيف ووتي إيفولها إبجووم إنتي نييتونخ: أووه إمبي نإثرأو إسخيتأو نيم نيإثميي.",
+      "Englishcoptic": "Owoh avooah -anomia -ejen too -anomia. empenethroo-ee -ekhoon khen tekmethmeei: ev-efooti evolha epgoom ente nee-etonkh: owoh empenethroo eskheetoo nem ni-ethmeei."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "زادوا علي آلام جراحاتي . و زادوا اثما علي اثمهم . لا يدخلوا في عدلك . و ليمحوا من سفر الاحياء و مع الصديقين لا يكتبوا . أنا بائس و وجع . و خلاص وجهك يا الله الذي عضدني . (مز 68\\69 : 27-30)",
-      "English": "They added them to the pain of my wounds: and they added iniquity to their iniquity: do not let them come into Your righteousness: they shall be wiped out of the book of the living: and do not let them be written with the righteous. I am poor and sorrowful. And the salvation of your face God has received me. (Psalm 68(69):27-30)"
+      "Arabic": " أنا بائس وموجع، وخلاص وجهك يا الله عضَدَني. جعلوني في جُب سفلي، في مواضع مظلمة، وظلال الموت.",
+      "Coptic": " :]op `anok ou\\hki ouo\\ efmok\\> ouo\\ `poujai `nte pek\\o `V; petaf]opt `erof. Auxat =en oulakkoc efcapecht> =en \\anma `nxaki> nem `t=hibi `m`vmou.",
+      "English": "+ I am poor and sorrowful, and the salvation of Your face O God has helped me. They placed me in a low den, in dark places, and the shadow of death.",
+      "Arabiccoptic": "تيشوب  انوك أوهيكي أووه إيف موكه: أووه إب أوجاي إنتي بيكهو إفتي بيتافشوبت إيروف. أفخات خين أولاككوس إيف سابيسيت: خين هانما إنخاكي: نيم إتخييفي إمإفمأو.",
+      "Englishcoptic": "Tishop -anok ooheeki owoh efmokh: owoh epoogai en-te pek-ho eFti petaf-shopt -erof. Avkhat khen- oolakkos efsapeseet: khen- hanma en-khaki: nem etkheeivi emefmoo."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "جعلوني في جب سفلي في مواضع مظلمة و ظلال الموت . اشتد علي غضبك و أجزت جميع أهوالك علي . (مز 87\\88 : 7)",
-      "English": "They placed me in a low den: in dark places and the shadow of death. Your wrath rested upon me, And You brought all Your billows over me (Psalm 87(88):7)"
+      "Side": "South",
+      "Arabic": " أنا أضطجعت ونِمتُ ثم إستيقظت، لأن الرب نَصَرني. هل النائم لا يعود أن يقوم. وأنت يا رب إرحمني وإقمني، فاُجازيهم. وبهذا علمت إنك أحببتني. أية منفعة في دمي إذا هبطت إلى الهلاك.",
+      "Coptic": " `Anok de aienkot ouo\\ ai\\wrp> ouo\\ aitwnt je `Psoic peqna]opt `erof. Mhfh`etenkot an `fnatwnf an. Je `Nqok de `Psoic nai nhi ouo\\ matounoct> ouo\\ ei`et; nwou `ntou]ebiw. `N`=rhi =en vai ai`emi je akou`a]t. Ou pe `p\\hou `mpa`cnof> `e`pjin`qri]enhi `e`=rhi `e`ptako.",
+      "English": "+ I rested and I slept than I rose, for the Lord has redeemed me. Will he who sleeps not rise? Therefore You O Lord, have mercy upon me and raise me up, and I shall repay them. By this I know that You have loved me. What is the benefit of my blood when I go down to destruction?",
+      "Arabiccoptic": "أنوك زي ايإينكوت أووه ايهوورب: أووه ايتوونت جي إبتشويس بيثناشوبت إيروف. مي فيإيتينكوت ان إفناتوونف ان. جي إنثوك زي إبتشويس ناي نيي أووه ماتونوست: أووه إييإيتتي نؤو إنتأوشيفيوو. إنإخريي خين فاي ايإيمي جي اكأو اشت. أو بي إبهيأو إمباإسنوف: إيإبجينإثريشينيي إيإخريي إيإبتاكو.",
+      "Englishcoptic": "-Anok ze aien-kot owoh aihoorp: owoh aitoont je ePchois pethnashopt -erof. mee fee-eten-kot an efnatoonf an. Je eNthok ze ePchois nai neei owoh matoonost: owoh ei-etti no-oo en-tooshevioo. eNekhreei khen- fai ai-emi je akoo-asht. Ooo pe epheeoo empaesnof: -eepjinethrishen-eei -eekhreei -eeptako."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "كان يخرج خارجا و يتكلم علي معا . تدمدم علي جميع أعدائي . و تشاوروا علي بالسوء و كلاما مخالفا للناموس رتبوا علي . هل النائم لا يعود أن يقوم . (مز 40\\41 : 7-9)",
-      "English": "He went forth and spoke the same. All my enemies whisper together against me. Against me they devise evils for me; They testify a lawless word against me, Will not he who sleeps rise? (Psalm 40(41):7-9)"
+      "Arabic": " وأنت يا إلهي أصعدتني من جُب الشقاء ومن طين الحمأة. سمع الرب فرحمني. حولت نُوَحي إلى فرح لي.",
+      "Coptic": " `Nqok de paNou; afent `e`\\rhi `ebol=en `vlakkoc> `nte `ptalepwria nem `ebol=en `p`omi `nte ;\\ulh. `A `Psoic cwtem ouo\\ afnai nhi. Akvwn\\ `mpane\\pi eura]i nhi.",
+      "English": "+ But You O my God have brought me up from the den of sorrow and the mud of hardship. The Lord heard and had mercy upon me. You have turned my mourning into joy for me.",
+      "Arabiccoptic": "إنثوك زي بانأوتي افينت إي إهريي إيفولخين إفلاككوس: إنتي إبتاليبووريا نيم إيفولخين إب ومي إنتي تيهيلي.  أ إبتشويس سووتيم أووه افناي نيي. أكفوونه إمبانيهبي إيف راشي نيي.",
+      "Englishcoptic": "eNthok ze paNooti afen-t -eehreei evolkhen- eflakkos: en-te eptalepooria nem evolkhen- ep-omi en-te tiheelee. -A ePchois sootem owoh afnai neei. Akfoonh empanehpi evrashi neei."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "أنا اضطجعت و نمت ثم استيقظت لان الرب ناصري . (مز 3 : 4)",
-      "English": "But I rested and I slept, and I rose for the Lord will help me. (Psalm 3:4)"
+      "Side": "South",
+      "Arabic": " حينئذ إمتلأ فمنا فرحاً ولساننا تهليلاً. حينئذ يُقال في الامم أن الرب قد عظَّم الصنيع معهم، أكثر الرب الصنيع معنا، فصِرنا فرحين.",
+      "Coptic": " Tote rwn afmo\\ `nra]i ouo\\ penlac =en ouqelhl. Tote euejoc =en nieqnoc> je `a`Psoic ta]e `iri nemwou> `a`Psoic ta]e `iri neman> an]wpi enounof `mmon.",
+      "English": "+ Than our mouths were filled with joy and our tongue with happiness. Than they shall say in the nations, \"The Lord has done great things with them,\" the Lord has done great things for us, so we became joyful.",
+      "Arabiccoptic": "توتي روون افموه إنراشي أووه بينلاس خين أوثيليل. توتي إيف يجوس خين ني إيثنوس: جي  اإبتشويس تاشي  إيري نيمؤو:  اإبتشويس تاشي  إيري نيمان: انشووبي إينأونوف إممون.",
+      "Englishcoptic": "Tote roon afmoh en-rashi owoh pen-las khen- ootheleel. Tote evegos khen- ni-ethnos: je -aePchois tashe -eeri nemo-oo: -aePchois tashe -eeri neman: anshoopi en-oonof emmon."
     },
     {
-      "Type": "Melody",
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "أية منفعة في دمي اذا هبطت الي الهلاك . هل يعترف لك التراب أو يخبر بحقك . (مز 29\\30 : 10)",
-      "English": "What profit is there in my blood, When I go down into decay? Will the dust confess You? Or will it declare Your truth? (Psalm 29(30):10)"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "أنت هو الرب الهي أصعدتني من جب الشقاء . و من طين الحمأة . (مز 39\\40 : 2)",
-      "English": "But You my God, He brought me up from the den of sorrow and the mud of hardship. (Psalm 39(40):2)"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "سمع الرب فرحمني . الرب صار لي عونا . رددت نوحي الي فرح لي . مزقت مسحي و منطقتني سرورا . (مز 29\\30 : 11-12)",
-      "English": "The Lord heard and had mercy on me, The Lord became my helper. You turned my lamentation into dancing for me. You tore up my sackcloth and clothed me with gladness. (Psalm 29(30):11-12)"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "لان سخطا في غضبه و حياة في رضائه . بالعشاء يحل البكاء و بالغد السرور . (مز 29\\30 : 6)",
-      "English": "For there is wrath in His anger, but life in his will: Weeping will lodge at evening, But great joy in the morning. (Psalm 29(30):6)"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "حينئذ امتلأ فمنا فرحا و لساننا تهليلا . حينئذ يقال في الامم : ان الرب قد عظم الصنيع معهم . أكثر الرب الصنيع معنا , فصرنا فرحين . أردد يا رب سبينا مثل واد في التيمن(مز 125\\126 : 2-4) .",
-      "English": "Thus, our mouths were filled with joy: and our tongues with rejoicing: then they shall say in the nations: \"the Lord dealt increasingly with them. The Lord dealt increasingly with us; we became happy. Return, O Lord our captivity Like streams in the south. (Psalm 125(126):2-4)"
-    },
-    {
-      "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "و المجد للآب و البن و الروح القدس . الآن و كل أوان و الي دهر الداهرين . آمين .",
-      "English": "Glory to the Father and to the Son and to the Holy Spirit. Now and ever and unto the age of ages, Amen."
+      "Arabic": "والمجد للرب إلى الأبد آمين.",
+      "Coptic": "`Eou`wou `m`Psoic ]a `ene\\ `amhn.",
+      "English": "For glory be to the Lord forever Amen.",
+      "Arabiccoptic": "إيأو ؤو إمإبتشويس شا إينيه  امين.",
+      "Englishcoptic": "-Eoo-o-oo emePchois sha -en-eh -ameen-."
     }
   ]
 }

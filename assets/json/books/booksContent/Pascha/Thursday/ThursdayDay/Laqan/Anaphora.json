@@ -1,61 +1,135 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "الأنافورا",
+  "EnglishTitle": "The Anaphora",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "(P)",
-      "English": "(P) "
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "مستحق ومستوجب. مستحق ومستوجب لأنه حقًا بالحقيقه مستحق ومستوجب.",
-      "English": "Meet and right, meet and right; truly indeed it is meet and right. We praise You, we exalt You, we bless You, we glorify You, we worship You. We thank You at all times for all Your works You have done for us. You alone are the True God, who exists from the beginning, and who formed water from His heights. Who made the water in the firmament that blesses Your holy name, O King of all creation, Lord Jesus Christ, we worship You. You who sits on the throne of His glory and is worshiped by all the holy powers. "
+      "Arabic": "محبةُ اللهِ الآبِ، ونعمةُ الابنِ الوحيد، ربِّنا وإلهنا ومخلَّصِنا يسوعَ المسيح، وشركةُ وموهبةُ الروحِ القدس تكونُ مع جميعِكم.",
+      "English": "The love of God the Father; the grace of the only-begotten Son, our Lord, God, and Savior Jesus Christ; and the communion and gift of the Holy Spirit be with you all."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "Deacon",
-      "Arabic": "الشماس:",
-      "Coptic": "Pidiakwn>",
-      "English": "Deacon:",
-      "Arabiccoptic": "بي دياكون:",
-      "Englishcoptic": "Pi-Diakon:"
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "لأنك بالحقيقه مستحق وعادل , أكرمّك , أرفعك , أباركك ,أمجدك ,أسجد لك ,أشكرك في كل زمان لأجل الخيرات التي صنعتها معنا. أنت الإله الحقيقي وحدك , الكائن منذ البدء الذي أظهر المياه في علاليه , الذي جعل المياه الكثيره في فلك السماء هؤلاء يباركوا إيمك القدوس يا ملك الخليقه كلها.",
-      "English": " You who are seated, stand. "
+      "Arabic": "ومع روحك ايضاً",
+      "English": "And with your spirit."
     },
     {
-      "Type": "Base",
+      "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "(D) ",
-      "English": " The angels, the archangels, the principalities, the authorities, the thrones, the dominions, all the serving spirits and all the infinite multitude of angelic powers, who stand before You in fear and trembling, praising Your Majesty."
+      "Arabic": "إرفعوا قلوبكم",
+      "English": "Lift up your hearts."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هي عند الرب",
+      "English": "We have them with the Lord."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فلنشكر الرب.",
+      "English": "Let us give thanks to the Lord."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مستحق وعادل",
+      "English": "It is meet and right."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مستحق ومستوجب مستحق ومستوجب لأنه حقاً بالحقيقة مستحق ومستوجب. لأنك بالحقيقة مستحق وعادل، أكرمك، أرفعك، أباركك، أمجدك، أسجد لك، أشكرك فى كل زمان لأجل الخيرات التى صنعتها معنا. أنت الإله الحقيقى وحدك. الكائن منذ البدء الذى أظهر المياه في علاليه،",
+      "English": "Meet and right, meet and right; truly indeed it is meet and right. We praise You, we exalt You, we bless You, we glorify You, we worship You. We thank You at all times for all Your works You have done for us. You alone are the True God, who exists from the beginning, and who formed water from His heights."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذى جعل المياه الكثيرة فى فلك السماء، هذه تبارك اسمك القدوس يا ملك الخليقة كلها، يا يسوع المسيح نسجد لك. أيها الجالس على كرسى مجده، الذى تسجد له جميع القوآتِ المقدسة.",
+      "English": "Who made the water in the firmament that blesses Your holy name, O King of all creation, Lord Jesus Christ, we worship You. You who sits on the throne of His glory and is worshiped by all the holy powers."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "English": "Deacon:"
     },
     {
       "Type": "Melody",
@@ -63,50 +137,95 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "أيها الجلوس قفوا",
-      "English": "(D) "
+      "English": "You who are seated, stand."
     },
     {
       "Type": "Melody",
-      "Rule": 0,
-      "Visible": true,
-      "Side": "North",
-      "Arabic": "(P)",
-      "English": "Look towards the East. "
-    },
-    {
-      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "Priest",
       "Arabic": "الكاهن:",
-      "Coptic": "Piouhb>",
-      "English": "Priest:",
-      "Arabiccoptic": "بي أويب:",
-      "Englishcoptic": "Pi-oweeb:"
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "(D)",
-      "English": " You are He around whom stand the blessed powers; the cherubim and the seraphim thrice glorifying You. Wherefore we also, make us worthy to join their praises and bless you with the voices full of glory saying: "
+      "Arabic": "ان الملائكة ورؤساء الملائكة والرئاسآتِ والسلطاتِ والكراسي والربواتِ. وكل الأرواح الخدام، وكل الجمع غير المُحصى من القواتِ الملائكية هؤلاء القيام أمامك بخوف ورعدة يسبحون عظمتك.",
+      "English": "The angels, the archangels, the principalities, the authorities, the thrones, the dominions, all the serving spirits and all the infinite multitude of angelic powers, who stand before You in fear and trembling, praising Your Majesty."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "English": "Deacon:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وإلى الشرق أنظروا",
-      "English": "(D) "
+      "Arabic": "وإلى الشرق انظروا",
+      "English": "Look towards the East."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "English": "Priest:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "(P)",
-      "English": "Let us attend. "
+      "Arabic": "أنت هو الذى يقف حولك القوات الطوباويين: الشاروبيم والسيرافيم هؤلاء يقدسونك ثلاث مراتٍ فى كل حين. ونحن أيضاً اجعلنا مستحقين أن نسبحك معهم ونباركك بأصوات المجد قائلين:",
+      "English": "You are He around whom stand the blessed powers; the cherubim and the seraphim thrice glorifying You. Wherefore we also, make us worthy to join their praises and bless you with the voices full of glory saying:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "English": "Deacon:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ننصت",
+      "English": "Let us attend."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الشاروبيم يسجدون لك، والسيرافيم يمجدونك، صارخين قائلين:",
+      "English": "The cherubim worship You, and the seraphim glorify You, proclaiming and saying, "
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "قدوس. قدوس. قدوس. رب الصاباؤوت. السماء والأرض مملوءتان من مجدك الأقدس",
+      "English": "Holy, holy, holy, Lord of hosts, heaven and earth are full of Your holy glory."
     }
   ]
 }

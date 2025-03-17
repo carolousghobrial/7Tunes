@@ -1,39 +1,675 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": " طلبة اللقان في خميس العهد/عيد الرسل",
+  "EnglishTitle": "Liturgy of Waters Litanies: Covenant Thursday / Apostles Feast",
   "Hymn": [
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
-      "Side": "North",
-      "Arabic": "(P)",
-      "English": "Now before the Feast of the Passover, when Jesus knew that His hour had come that He should depart from this world to the Father, having loved His own who were in the world, He loved them to the end."
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "يا من إشتد بمنديل وستر كل عراء آدم. وأنعم علينا بلباس البنوة الإلهية. نطلب إليك أيها المسيح إلهنا إسمعنا وإرحمنا.",
-      "English": "† 2And supper being ended,a the devil having already put it into the heart of Judas Iscariot, Simon's son, to betray Him,† 3Jesus, knowing that the Father had given all things into His hands, and that He had come from God and was going to God,ω 4rose from supper and laid aside His garments, took a towel and girded Himself. 5After that, He poured water into a basin and began to wash the disciples’ feet, and to wipe them with the towel with which He was girded.† 6Then He came to Simon Peter. And Peter said to Him, “Lord, are You washing my feet?”† 7Jesus answered and said to him, “What I am doing you do not understand now, but you will know after this.” 8Peter said to Him, “You shall never wash my feet!” Jesus answered him, “If I do not wash you, you have no part with Me.” 9Simon Peter said to Him, “Lord, not my feet only, but also my hands and my head!” 10Jesus said to him, “He who is bathed needs only to wash his feet, but is completely clean; and you are clean, but not all of you.” 11For He knew who would betray Him; therefore He said, “You are not all clean.” "
+      "Arabic": "يا من إشتد بمنديل وستر كل عراء آدم. وأنعم علينا بلباس البنوة الإلهية. نطلب إليك أيها المسيح إلهنا إسمعنا وإرحمنا.\r",
+      "English": "O You who girded Yourself with a towel and covered up Adam's nakedness. You, who gave us the garment of Divine Sonship, we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "(C)",
-      "English": "12So when He had washed their feet, taken His garments, and sat down again, He said to them, “Do you know what I have done to you?"
+      "Arabic": "بارب إرحم،\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": " يا رب ارحم",
-      "English": "† 13You call Me Teacher and Lord, and you say well, for so I am. 14If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another's feet. 15For I have given you an example, that you should do as I have done to you. 16Most assuredly, I say to you, a servant is not greater than his master; nor is he who is sent greater than he who sent him. 17If you know these things, blessed are you if you do them."
+      "Arabic": "يا من من أجل محبته للبشر صار إنسانا وبمحبته لنا إشتد بمنديل وغسل أدناس خطايانا، نسألك أيها المسيح إلهنا أن تسمعنا وترحمنا .\r",
+      "English": "O You who for the love of mankind became Man; You girded Yourself with a towel to cleanse us from the stains of our sins; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم.\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا من أعد لنا طريق الحياة بواسطة غسل أرجل رسله المختارين الأطهار نسألك أيها المسيح إلهنا اسمعنا وارحمنا.\r",
+      "English": "O You who prepared for us the way of life through the washing of the chosen holy disciples' feet; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم.\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ايها المسيح إلهنا يا من جعل مشيه على المياه وبمحبته للبشر غسل أرجل تلاميذه. نطلب إليك أيها المسيح إلهنا اسمعنا وارحمنا.\r",
+      "English": "O Christ our God who walked on the waters and through Your love of mankind, washed the disciples' feet; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بارب إرحم،\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا من التحف بالنور كالثوب واشتد بمئزرة وغسل أرجل تلاميذه ومسحها. نسألك أيها المسيح إلهنا اسمعنا وارحمنا.\r",
+      "English": "O You who clothed Yourself in light like a garment, girded Yourself and washed the disciples' feet and wiped them; we ask You, O Christ our God, hear us and have mercy upon"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بارب إرحم،\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اللهم إرحمنا جميعاً ال كعظيم رحمتك. ونطلب من صلاحك أيها الرب إلهنا أن تستجيب لنا وترحمنا.\r",
+      "English": "O our God, have mercy upon us all, according to the multitude of Your mercy. We entreat Your goodness O Lord our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم،\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أيها المسيح الرب إلهنا الضابط الكل الرازق المواهب الإلهية للذين يخدمون إسمك القدوس الذى ينمى ويربى ويعول الكل ويقوتهم بمحبته. نطلب إليك أيها المسيح إلهنا استجب لنا وارحمنا.\r",
+      "English": "O Christ our God, the Pantocrator, the Provider of divine gifts to those who serve Your holy name, who sustains and supports all. You who feed them through Your love; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بارب إرحم،\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا من جمع المياه إلى مجمع واحد، وجعل لها حداً فوق السموات. نطلب إليك أيها المسيح إلهنا استجب لنا وارحمنا.\r",
+      "English": "O You who gathered the water to one source, and made a limit for it above the sky; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم.\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذى كال الماء بيده، وقاس السماء بشبره، والأرض كلها بقبضته. نسألك أيها المسيح إلهنا استجب لنا وارحمنا.\r",
+      "English": "O You who weighed the water with Your hands, and measured the heaven with the span of Your hand, and held all the earth with the palm of Your hand; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بارب إرحم،\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "الذى صيَّر ينابيع الأودية أنهاراً بإرادته المقدسة وبمحبتك الغير مدركة للبشر أعددت لنا كل شئ لخدمتنا، وخلق الكل من لا شئ. نطلب إليك أيها المسيح إلهنا استجب لنا وارحمنا.\r",
+      "English": "O You who through Your will made the springs into rivers and through Your indefinable love to mankind had prepared all things and created everything out of nothing for our services; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم،\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هكذا أيضاً أيها المعطى الحق وعظم الغنى ومحبة البشر يا إله الرحمة إفتقد الأرض واروها بصعود النهر فتثمر حسناً. نطلب إليك أيها المسيح إلهنا استجب لنا وارحمنا.\r",
+      "English": "Again, O You the giver of truth and infinite richness, Lover of Mankind, O Lord of mercy; visit the earth and water it by the rising of the rivers, to bring forth good fruits; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم.\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ليروى حرثها، ليكثر ثمارها بصلاحك. نسألك أيها المسيح إلهنا إستجب لنا وإرحمنا.\r",
+      "English": "May its furrows be watered and its fruits be plentiful through Your Goodness; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم.\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "فرح وجه الأرض، جددها دفعة أخرى، أصعد نهر النيل كمقداره. نطلب إليك أيها المسيح إلهنا إستجب لنا وإرحمنا.\r",
+      "English": "Give joy to the face of the earth and renew it. Raise the waters of the rivers according to their measure; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم.\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بارك إكليل السنة بصلاحك، وبقاع بلدنا (مصر) إملأها من الدسم ليكثر حرثها وتتبارك أثمارها. نطلب إليك أيها المسيح إلهنا إستجب لنا وإرحمنا .\r",
+      "English": "Bless the crown of the year with Your Goodness. Fill the land of our country with fatness ,increase its furrows, and bless its fruits; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم،\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "لتفرح حدود كورة بلدنا (مصر) ولتهلل الأكام بفرح من قبل صلاحك. نطلب إليك أيها المسيح إلهنا استجب لنا وارحمنا.\r",
+      "English": "Give joy to the land of our country, may its hills rejoice with gladness, through Your Goodness; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم.\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "اللهم خلص شعبك. بارك ميراتك. افتقد العالم أجمع بالمراحم والرأفآت. ارفع شأن المسيحيين بقوة صليبك المحيي. نطلب إليك أيها المسيح إلهنا استجب لنا وارحمنا.\r",
+      "English": "O Lord, save Your people, bless Your inheritance and visit the whole world with Your loving kindness and mercy. Exalt the horn of the Christians with the power of Your Life-Giving Cross; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم،\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "إعط طمأنينه وثباتاً وسلاماً للممالك بصلاحك أنعم لنا بالخصب وبمراحمك لسائر فقراء شعبك، ولتبتهج قلوبنا. بطلبات أمك العذراء الطاهره مريم والقديس يوحنا المعمدان، وكافة آبائنا الرسل قاطبه نطلب إليك أيها المسيح إلهنا إستجب لنا وإرحمنا.\r",
+      "English": "Grant security, confirmation, and peace to the provinces through Your Goodness. Grant Your mercy and abundance to all the poor of Your people and make our hearts be delighted through the intercession of Your Holy Mother, the Pure Virgin Mary, and St. John the Baptist, and all our fathers the Apostles; we ask You, O Christ our God, hear us and have mercy upon us."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يارب إرحم.\r",
+      "English": "Lord have mercy."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يا ربُّ إرحَم. (100)",
+      "Coptic": "Kurie `ele`hcon. (r/)",
+      "English": "Lord have mercy. (100)",
+      "Arabiccoptic": "كيريى إليسون )100(",
+      "Englishcoptic": "Kiryalison.(100)"
     }
   ]
 }

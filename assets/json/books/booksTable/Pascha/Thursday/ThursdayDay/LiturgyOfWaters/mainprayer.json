@@ -9,75 +9,20 @@
             "English": " Covenant Thursday (First Hour)"
         },
         {
-            "Type": "Ritual",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": " يفتح باب الخورس والهيكل ثم يُبدأ بالصلاة فيقرأ رئيس (كبير) الكهنة النبوات قبطياً ثم تفسر عربياً ",
-            "English": "The Veil of the Altar is opened, and the High (Elder) Priest reads the prophecies in Coptic, then interprets them in English"
-        },
-        {
             "Type": "Main",
-            "Path": "PaschaPaschaHourIntro",
-            "Rule": "ThursdayDayFirstHour",
-            "Visible": true
-        },
-        {
-            "Type": "Button",
-            "Arabic": "النبوات بالقبطي",
-            "English": "Prophecies in Coptic",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "ThursdayDayFirstHourcopticProphecies"
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesIntroduction",
-            "Rule": "Exodus",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayFirstProphecies1",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPropheciesConclusion",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaPraiseIntro",
-            "Rule": "ThursdayDayFirstHour",
-            "Visible": true
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaPaschaPraise2",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Button",
-            "Arabic": "تسبحة البصخة ( 1 )",
-            "English": "Repeat Pascha Praise ( 1 )",
-            "Rule": "ThokTeTiGomScrollUpButtonRule",
-            "Visible": true,
-            "Count": 1,
-            "Path": "ThursdayDayFirstHourProphecies"
-        },
-        {
-            "Type": "Main",
-            "Path": "AgpeyaPrayersOurFather",
+            "Path": "VenerationEkesmarot",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseEleisonEmas",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
             "Rule": 0,
             "Visible": true
         },
@@ -178,216 +123,10 @@
             "Visible": true
         },
         {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "Deacon",
-            "Arabic": "الشماس:",
-            "Coptic": "Pidiakwn>",
-            "English": "Deacon:",
-            "Arabiccoptic": "بي دياكون:",
-            "Englishcoptic": "Pi-Diakon:"
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "قفوا بخوف الله لسماع الإنجيل المقدس.",
-            "Coptic": "`Ctaqhte meta vobou Qeou> `akoucwmen tou `agiou euaggeliou.",
-            "English": "Stand in the fear of God. Let us hear the Holy Gospel.",
-            "Arabiccoptic": "قفوا بخوف الله لسماع الإنجيل المقدس.",
-            "Englishcoptic": "Sta-thete meta vovo theo, akosomen to agio ev-angelio."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "Priest",
-            "Arabic": "الكاهن:",
-            "Coptic": "Piouhb>",
-            "English": "Priest:",
-            "Arabiccoptic": "بي أويب:",
-            "Englishcoptic": "Pi-oweeb:"
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "mother": "LiturgyGospel",
-            "Side": "North",
-            "Arabic": "مبارك الآتي بإسم رب القوات. يا رب بارك الفصل من الإنجيل المقدس من القديس متى.",
-            "Coptic": "`F`cmarwout `nje vheqnhou =en `vran `m`Psoic `nte nijom. Kurie euloghcon ek tou kata Matqeon `agiou euaggelion to `anagnwcma.",
-            "English": "Blessed is He who comes in the name of the Lord of powers. Bless, O Lord, the reading of the Holy Gospel according to Saint Matthew.",
-            "Arabiccoptic": "افزماروؤت انجى بي اثنيو خين افران امبشويس انتى ني جوم كيريى افلوجيسون اكتو كات ماتثيؤن اجيو افانجيليو تو اناغنوسما.",
-            "Englishcoptic": "Efesmaro-ot enje vi-ethneo khen efran emEpchois ente ni-gom , kerie evlogison ekto kata Mat-theon agio, ev-angelio to anagh-nosma."
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "People",
-            "Arabic": "الشعب:",
-            "Coptic": "Pilaoc>",
-            "English": "People:",
-            "Arabiccoptic": "بيلاؤس:",
-            "Englishcoptic": "Pi-Laos:"
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "المجد لك يا رب.",
-            "Coptic": "Do[a ci Kurie.",
-            "English": "Glory to You, O Lord.",
-            "Arabiccoptic": "المجد لك يا رب.",
-            "Englishcoptic": "Zoxa si Kerie."
-        },
-        {
-            "Type": "Melody",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "Reader",
-            "Arabic": "القارئ:",
-            "English": "Reader:"
-        },
-        {
-            "Type": "Melody",
-            "Rule": 0,
-            "mother": "LiturgyGospel",
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "قفوا بخوف الله لسماع الإنجيل المقدس، فصل من الإنجيل لمعلمنا مار متى البشير، بركته على جميعنا.",
-            "English": "Stand up in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to Saint Matthew, may his blessings......be with us all"
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "Priest",
-            "Arabic": "الكاهن:",
-            "Coptic": "Piouhb>",
-            "English": "Priest:",
-            "Arabiccoptic": "بي أويب:",
-            "Englishcoptic": "Pi-oweeb:"
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح، إبن الله الحي، الذي له المجد إلى الأبد.",
-            "Coptic": "Pensoic ouo\\ Pennou; ouo\\ Pencwthr ouo\\ Penouro thren Ihcouc Pi`xrictoc `P]hri `m`Vnou; eton= pi`wou naf ]a `ene\\.",
-            "English": "Our Lord, our God, our Savior, and King of us all, Jesus Christ, Son of the living God, to whom be glory forever.",
-            "Arabiccoptic": "بين شويس أووه بيننوتى أووه بين سوتير أووه بين أوروتيرين إيسوس بى اخرستوس ابشيرى إم افنوتى ات أونخ بى أوؤوناف شا اينيه",
-            "Englishcoptic": "Penchois owoh pennoti owoh pensoteer owoh pen-oro teren Isos Pikhristos, epsheery emevnoti, et-onkh pi-o-o naf sha-eneh"
-        },
-        {
-            "Type": "Ritual",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "(يمكن أن يُرتَّل الإنجيل قبطياً)",
-            "English": "(The Gospel may be chanted in Coptic)"
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "People",
-            "Arabic": "الشعب:",
-            "Coptic": "Pilaoc>",
-            "English": "People:",
-            "Arabiccoptic": "بيلاؤس:",
-            "Englishcoptic": "Pi-Laos:"
-        },
-        {
-            "Type": "Base",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "المجد لك يا رب.",
-            "Coptic": "Do[a ci Kurie.",
-            "English": "Glory to You, O Lord.",
-            "Arabiccoptic": "المجد لك يا رب.",
-            "Englishcoptic": "Glory to You, O Lord."
-        },
-        {
-            "Type": "Melody",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "Reader",
-            "Arabic": "القارئ:",
-            "English": "Reader:"
-        },
-        {
-            "Type": "Melody",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "من مزامير أبينا داود النبي، بركاته على جميعنا.",
-            "English": "From the psalms of our father David the prophet, may his blessings ......be with us all."
-        },
-        {
-            "Type": "Main",
-            "Path": "PaschaThursdayThursdayDayLaqanPsalm",
-            "Rule": 0,
-            "Visible": true
-        },
-        {
-            "Type": "Melody",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "People",
-            "Arabic": "الشعب:",
-            "English": "People:"
-        },
-        {
-            "Type": "Melody",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "هلليلويا.",
-            "English": "Alleluia."
-        },
-        {
-            "Type": "Melody",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "Reader",
-            "Arabic": "القارئ:",
-            "English": "Reader:"
-        },
-        {
-            "Type": "Melody",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "مبارك الآتى باسم الرب، ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح، ابن الله الحى، الذي له المجد الدائم، إلى الابد آمين.",
-            "English": "Blessed is He who comes in the name of the Lord. Our Lord, God, Savior, and King of us all, Jesus Christ, the Son of the living God, to whom is the glory......forever, Amen."
-        },
-        {
             "Type": "Main",
             "Path": "PaschaThursdayThursdayDayLaqanGospel",
             "Rule": 0,
             "Visible": true
-        },
-        {
-            "Type": "Melody",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "People",
-            "Arabic": "الشعب:",
-            "English": "People:"
-        },
-        {
-            "Type": "Melody",
-            "Rule": 0,
-            "Visible": true,
-            "Side": "North",
-            "Arabic": "والمجد لله دائماً.",
-            "English": "Glory be to God forever."
         },
         {
             "Type": "Main",
@@ -411,19 +150,19 @@
             "Type": "Main",
             "Path": "RaisingOfIncenseLitanyTravelers",
             "Rule": 0,
-            "Visible": "showLitanyOfTravelers"
+            "Visible": true
         },
         {
             "Type": "Main",
             "Path": "RaisingOfIncenseLitanyAir",
             "Rule": 0,
-            "Visible": "getPlantsSeason"
+            "Visible": true
         },
         {
             "Type": "Main",
             "Path": "LiturgyLiturgyOfTheBelieversStGregoryLitanyOfLeaders",
             "Rule": 0,
-            "Visible": "getPlantsSeason"
+            "Visible": true
         },
         {
             "Type": "Main",
@@ -469,13 +208,31 @@
         },
         {
             "Type": "Main",
-            "Path": "PaschaPaschaShortBlessing",
+            "Path": "LiturgyLiturgyOfTheWordInTheWisdom",
             "Rule": 0,
             "Visible": true
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseShortBlessing",
+            "Path": "AgpeyaPrayersCreed",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversStBasilThroughTheIntercessions",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanAnaphora",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanSanctus",
             "Rule": 0,
             "Visible": true
         },
@@ -487,7 +244,13 @@
         },
         {
             "Type": "Main",
-            "Path": "RaisingOfIncenseShortBlessing2",
+            "Path": "PaschaThursdayThursdayDayLaqanPrayersAferSanctus",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "PaschaThursdayThursdayDayLaqanPsalm150",
             "Rule": 0,
             "Visible": true
         }

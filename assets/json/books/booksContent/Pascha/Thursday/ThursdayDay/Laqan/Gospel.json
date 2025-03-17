@@ -1,39 +1,356 @@
 {
   "RefrainAfter": 0,
-  "ArabicTitle": "",
-  "EnglishTitle": "",
+  "ArabicTitle": "المزمور و الانجيل",
+  "EnglishTitle": "Psalm and Gospel",
   "Hymn": [
     {
-      "Type": "Melody",
+      "Type": "Main",
+      "Path": "RaisingOfIncensePsalmResponsesStandard",
+      "Rule": 0,
+      "Visible": true
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وقبل عيد الفصح إذ علم يسوع أن ساعته قد جاءت، لكي ينتقل من هذا العالم ذاهباً الى الآب، وقد أحب خاصته الذين في العالم وأحبهم الى النهاية،",
-      "English": "Now before the Feast of the Passover, when Jesus knew that His hour had come that He should depart from this world to the Father, having loved His own who were in the world, He loved them to the end."
+      "Arabic": "قفوا بخوف الله لسماع الإنجيل المقدس.",
+      "Coptic": "`Ctaqhte meta vobou Qeou> `akoucwmen tou `agiou euaggeliou.",
+      "English": "Stand in the fear of God. Let us hear the Holy Gospel.",
+      "Arabiccoptic": "قفوا بخوف الله لسماع الإنجيل المقدس.",
+      "Englishcoptic": "Sta-thete meta vovo theo, akosomen to agio ev-angelio."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "mother": "LiturgyGospel",
+      "Side": "North",
+      "Arabic": "مبارك الآتي بإسم رب القوات. يا رب بارك الفصل من الإنجيل المقدس من القديس يوحنا.",
+      "Coptic": "`F`cmarwout `nje vheqnhou =en `vran `m`Psoic `nte nijom. Kurie euloghcon ek tou kata Iwannhn `agiou euaggelion to `anagnwcma.",
+      "English": "Blessed is He who comes in the name of the Lord of powers. Bless, O Lord, the reading of the Holy Gospel according to Saint John.",
+      "Arabiccoptic": "افزماروؤت انجى بي اثنيو خين افران امبشويس انتى ني جوم كيريى افلوجيسون اكتو كات يوأنين اجيو افانجيليو تو اناغنوسما.",
+      "Englishcoptic": "Efesmaro-ot enje vi-ethneo khen efran emEpchois ente ni-gom , kerie evlogison ekto kata Youanen agio, ev-angelio to anagh-nosma."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجد لك يا رب.",
+      "Coptic": "Do[a ci Kurie.",
+      "English": "Glory to You, O Lord.",
+      "Arabiccoptic": "المجد لك يا رب.",
+      "Englishcoptic": "Zoxa si Kerie."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "وبعد العشاء إذ بأبليس كان قد فرغ مما ألقى في قلب الذي يسلمه الذي هو يهوذا سمعان الأسخريوطى.فلما رأى يسوع أن الآب قد دفع كل شيء الى يديه وأنه من عند الله خرج والى الله يمضى، قام عن العشاء وخلع ثيابه وأخذ منديلاً وإتزر به ثم صب ماء في مغسل وإبتدأ يغسل أرجل تلاميذه ويمسحهما بالمنشفة التي كان مؤتزراً بها.فلما جاء الى سمعان بطرس ليغسل رجليه، قال له بطرس: يا سيدى أنت تغسل رجلىّ ؟!. أجاب يسوع وقال له : إن الذي أصنعه أنا لا تعرفه أنت الآن، ولكنك ستعرفه بعد ذلك. قال له بطرس : لن تغسل رجلى أبداً. فأجابه يسوع وقال له : الحق الحق أقول لك لم أغسل قدميك فليس لك معي نصيب. قال له سمعان بطرس: يا سيد ليس رجلي فقط بل يدي ورأسي أيضاً. قال له يسوع : الذي قد إغتسل ليس له حاجة إلا الى غسل رجليه بل هو طاهر كله وانتم طاهرون ولكن ليس كلكم. لأنه عرف مسلمه لذلك قال : لستم كلكم طاهرين.",
-      "English": "† 2And supper being ended,a the devil having already put it into the heart of Judas Iscariot, Simon's son, to betray Him,† 3Jesus, knowing that the Father had given all things into His hands, and that He had come from God and was going to God,ω 4rose from supper and laid aside His garments, took a towel and girded Himself. 5After that, He poured water into a basin and began to wash the disciples’ feet, and to wipe them with the towel with which He was girded.† 6Then He came to Simon Peter. And Peter said to Him, “Lord, are You washing my feet?”† 7Jesus answered and said to him, “What I am doing you do not understand now, but you will know after this.” 8Peter said to Him, “You shall never wash my feet!” Jesus answered him, “If I do not wash you, you have no part with Me.” 9Simon Peter said to Him, “Lord, not my feet only, but also my hands and my head!” 10Jesus said to him, “He who is bathed needs only to wash his feet, but is completely clean; and you are clean, but not all of you.” 11For He knew who would betray Him; therefore He said, “You are not all clean.” "
+      "Arabic": "قفوا بخوف الله لسماع الإنجيل المقدس، فصل من الإنجيل لمعلمنا مار يوحنا البشير، بركته على جميعنا.",
+      "English": "Stand up in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to Saint John, may his blessings, be with us all. (Amen.)"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح، إبن الله الحي، الذي له المجد إلى الأبد.",
+      "Coptic": "Pensoic ouo\\ Pennou; ouo\\ Pencwthr ouo\\ Penouro thren Ihcouc Pi`xrictoc `P]hri `m`Vnou; eton= pi`wou naf ]a `ene\\.",
+      "English": "Our Lord, our God, our Savior, and King of us all, Jesus Christ, Son of the living God, to whom be glory forever.",
+      "Arabiccoptic": "بين شويس أووه بيننوتى أووه بين سوتير أووه بين أوروتيرين إيسوس بى اخرستوس ابشيرى إم افنوتى ات أونخ بى أوؤوناف شا اينيه",
+      "Englishcoptic": "Penchois owoh pennoti owoh pensoteer owoh pen-oro teren Isos Pikhristos, epsheery emevnoti, et-onkh pi-o-o naf sha-eneh"
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "(يمكن أن يُرتَّل الإنجيل قبطياً)",
+      "English": "(The Gospel may be chanted in Coptic)"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "المجد لك يا رب.",
+      "Coptic": "Do[a ci Kurie.",
+      "English": "Glory to You, O Lord.",
+      "Arabiccoptic": "المجد لك يا رب.",
+      "Englishcoptic": "Glory to You, O Lord."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "فلما غسل أرجله وأخذ ثيابه واتكأ أيضا قال لهم اتفهمون ما قد صنعته بكم؟",
-      "English": "12So when He had washed their feet, taken His garments, and sat down again, He said to them, “Do you know what I have done to you?"
+      "Arabic": "من مزامير أبينا داود النبي، بركاته على جميعنا.",
+      "English": "From the psalms of our father David the prophet, may his blessings ......be with us all."
     },
     {
       "Type": "Melody",
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "أنتم تدعونني المعلم والرب وحسنا تقولون لأني أنا هو فإن كنت وأنا ربكم ومعلمكم قد غسلت أرجلكم فأنتم يجب أن يغسل بعضكم أرجل بعض لأني الآن أعطيتكم مثالا حتى كما صنعت أنا بكم تصنعون أنتم أيضا بعضكم ببعض الحق أقول لكم أنه ليس عبد أعظم من سيده ولا رسولا أعظم من مرسله أن علمتم هذا فطوباكم أن عملتموه.",
-      "English": "† 13You call Me Teacher and Lord, and you say well, for so I am. 14If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another's feet. 15For I have given you an example, that you should do as I have done to you. 16Most assuredly, I say to you, a servant is not greater than his master; nor is he who is sent greater than he who sent him. 17If you know these things, blessed are you if you do them."
+      "Arabic": "تنضح عليَّ بزوفاك فأطهر، وتغسلني فأبيض أفضل من الثلج، قلباً نقياً أخلق في يا الله، وروحا مستقيماً جدد في أحشائي. الليلويا.",
+      "English": "Purge me with hyssop, and I shall be clean;Wash me, and I shall be whiter than snow. Create in me a clean heart, O God, And renew a steadfast spirit within me."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "هلليلويا.",
+      "English": "Alleluia."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Reader",
+      "Arabic": "القارئ:",
+      "English": "Reader:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مبارك الآتى باسم الرب، ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح، ابن الله الحى، الذي له المجد الدائم، إلى الابد آمين.",
+      "English": "Blessed is He who comes in the name of the Lord. Our Lord, God, Savior, and King of us all, Jesus Christ, the Son of the living God, to whom is the glory forever and ever. Amen."
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "1 أَمَّا يَسُوعُ قَبْلَ عِيدِ الْفِصْحِ وَهُوَ عَالِمْ أَنَّ سَاعَتَهُ قَدْ جَاءَتْ لِيَنْتَقِلَ مِنْ هَذَا الْعَالَمِ إِلَى الآبِ إِذَ كَانَ قَدْ أَحَبَّ خَاصَّتَهُ الَّذِينَ فِي الْعَالَمِ أَحَبَّهُمْ إِلَى الْمُنْتَهَى.\r",
+      "English": "1 Now before the Feast of the Passover, when Jesus knew that His hour had come that He should depart from this world to the Father, having loved His own who were in the world, He loved them to the end.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "2 فَحِينَ كَانَ الْعَشَاءُ وَقَدْ أَلْقَى الشَّيْطَانُ فِي قَلْبِ يَهُوذًا سِمْعَانَ الإِسْخَرْيُوطِيَّ أَنْ يُسَلِّمَهُ\r",
+      "English": "2 And supper being ended, the devil having already put it into the heart of Judas Iscariot, Simon's son, to betray Him,\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "3 يَسُوغُ وَهُوَ عَالِمْ أَنَّ الآبَ قَدْ دَفْعَ كُلَّ شَيْءٍ إِلَى يَدَيْهِ وَأَنَّهُ مِنْ عِنْدِ اللَّهِ خَرَجَ وَإِلَى اللَّهِ يَمْضِي\r",
+      "English": "3 Jesus, knowing that the Father had given all things into His hands, and that He had come from God and was going to God,\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "4 قَامَ عَنِ الْعَشَاءِ وَخَلَعَ ثِيَابَهُ وَأَخَذَ مِنْشَفَةً وَاتَّزَرَ بِهَا\r",
+      "English": "4 rose from supper and laid aside His garments, took a towel and girded Himself.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "5 ثُمَّ صَبَّ مَاءً فِي مِغْسَلٍ وَابْتَدَأْ يَغْسِلُ أرْجُلَ التَلاَمِيذِ وَيَمْسَحُهَا بِالْمِنْشَفَةِ الَّتِي كَانَ مُتَزِراً بِهَا.\r",
+      "English": "5 After that, He poured water into a basin and began to wash the disciples' feet, and to wipe them with the towel with which He was girded.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "6 فَجَاءَ إِلَى سِمْعَانَ بُطْرُسَ. فَقَالَ لَهُ ذَاكَ: «يَا سَيِّدُ أنْتَ تَغْسِلُ رِجْلَيَّ!»\r",
+      "English": "6 Then He came to Simon Peter. And Peter said to Him, \"Lord, are You washing my feet?\"\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "7 أَجَابَ يَسُوعُ: «لَسْتَ تَعْلَمُ أَنْتَ الآنَ مَا أَنَا أَصْنَعُ وَلَكِنَّكَ سَتَفْهَمُ فِيمَا بَعْدُ».\r",
+      "English": "7 Jesus answered and said to him, \"What I am doing you do not understand now, but you will know after this.\"\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "8 قَالَ لَهُ بُطْرُسُ: «لَنْ تَغْسِلَ رِجْلَيَّ أَبَدا!» أَجَابَهُ يَسُوغُ: «إِنْ كُنْتُ لاَ أَغْسِلُكَ فَلَيْسَ لَكَ مَعِي نَصِيبٌ».\r",
+      "English": "8 Peter said to Him, \"You shall never wash my feet!\" Jesus answered him, \"If I do not wash you, you have no part with Me.\"\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "9 قَالَ لَهُ سِمْعَانُ بُطْرُسُ: «يَا سَيِّدُ لَيْسَ رِجْلَيَّ فَقَطْ بَلْ أَيْضاً يَدَيَّ وَرَأْسِي».\r",
+      "English": "9 Simon Peter said to Him, \"Lord, not my feet only, but also my hands and my head!\"\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "10 قَالَ لَهُ يَسُوعُ: «الَّذِي قَدِ اغْتَسَلَ لَيْسَ لَهُ حَاجَةٌ إِلاَّ إِلَى غَسْلٍ رِجْلَيْهِ بَلْ هُوَ طَاهِرٌ كُلَّهُ. وَأَنْتُمْ طَاهِرُونَ وَلَكِنْ لَيْسَ كُلَّكُمْ».\r",
+      "English": "10 Jesus said to him, \"He who is bathed needs only to wash his feet, but is completely clean; and you are clean, but not all of you.\"\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "11 لأنَّهُ عَرَفَ مُسَلِّمَهُ لِذَلِكَ قَالَ: «لَسْتُمْ كُلَّكُمْ طَاهِرِينَ».\r",
+      "English": "11 For He knew who would betray Him; therefore He said, \"You are not all clean.\"\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "12 فَلَمَا كَانَ قَدْ غَسَلَ أَرْجُلَهُمْ وَأَخَذَ ثِيَابَهُ وَاتَّكَأَ أَيْضاً قَالَ لَهُمْ: «أَتَفْهَمُونَ مَا قَدْ صَنَعْتُ بِكُمْ؟\r",
+      "English": "12 So when He had washed their feet, taken His garments, and sat down again, He said to them, \"Do you know what I have done to you?\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "13 أنثُمْ تَدْعُونَنِي مُعَلَّماً وَسَيِّداً وَحَسَناً تَقُولُونَ لأَنِّي أَنَا كَذَلِكَ.\r",
+      "English": "13 You call Me Teacher and Lord, and you say well, for so I am.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "14 فَإِنْ كُنْتُ وَأنَا السَّيّدُ وَالْمُعَلَمُ قَدْ غَسَلْتُ أَرْجُلَكُمْ فَأَنْتُمْ يَجِبُ عَلَيْكُمْ أَنْ يَغْسِلَ بَعْضُكُمْ أَرْجُلَ بَعْضٍ\r",
+      "English": "14 If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another's feet.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "15 لأَنّي أَعْطَيْتُكُمْ مِثَالاً حَتَّى كَمَا صَنَعْتُ أَنَا بِكُمْ تَصْنَعُونَ أَنْتُمْ أَيْضاً.\r",
+      "English": "15 For I have given you an example, that you should do as I have done to you.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "16 ٱلْحَقَّ الْحَقَّ أَقُولُ لَكُمْ: إِنَّهُ لَيْسَ عَبْدٌ أَعْظَمَ مِنْ سَيِّدِهِ وَلاَ رَسُولٌ أَعْظَمَ مِنْ مُرْسِلِهِ.\r",
+      "English": "16 Most assuredly, I say to you, a servant is not greater than his master; nor is he who is sent greater than he who sent him.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "17 إِنْ عَلِمْتُمْ هَذَا فَطُوبَاكُمْ إِنْ عَمِلْتُمُوهُ.\r",
+      "English": "17 If you know these things, blessed are you if you do them.\r"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "English": "People:"
+    },
+    {
+      "Type": "Melody",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "والمجد لله دائماً.",
+      "English": "Glory be to God forever."
     }
   ]
 }

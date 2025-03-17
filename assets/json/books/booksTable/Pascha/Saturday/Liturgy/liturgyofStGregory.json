@@ -21,10 +21,12 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "PaschaSaturdayLiturgyLiturgyAdamAspasmos",
+            "Type": "Accordion",
+            "ArabicTitle": " اسباسموس ادام قداس سبت النور",
+            "EnglishTitle": "Adam Aspasmos for Bright Saturday Liturgy",
             "Rule": 0,
-            "Visible": true
+            "Visible": true,
+            "Path": "PaschaSaturdayLiturgyLiturgyAdamAspasmos"
         },
         {
             "Type": "Main",
@@ -191,34 +193,34 @@
             "Switch": "LiturgyLiturgyOfTheBelieversStBasilCommemorationOfSaints"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "ترحيم",
             "English": "Diptych",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilDiptych"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "افشيس",
             "English": "Evshes ",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilEvshees"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "بي نيشتي ",
             "English": "Pinishti",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilPinishti"
         },
         {
-            "Type": "Button",
+            "Type": "Accordion",
             "Arabic": "بي نيشتي الكبيرة",
             "English": "Great Pinishti",
-            "Rule": "OpenSinglePageButtonRule",
+            "Rule": 0,
             "Visible": true,
             "Path": "LiturgyLiturgyOfTheBelieversStBasilGreatPinishti"
         },
@@ -271,12 +273,10 @@
             "Switch": "LiturgyLiturgyOfTheBelieversStBasilIntroductionToTheFraction"
         },
         {
-            "Type": "Button",
-            "Arabic": "القسمة",
-            "English": "Fractions",
-            "Rule": "OpenPageButtonRule",
-            "Visible": true,
-            "Path": "LiturgyLiturgyOfTheBelieversFractions"
+            "Type": "Main",
+            "Path": "LiturgyLiturgyOfTheBelieversFractionsBrightSaturday",
+            "Rule": 0,
+            "Visible": true
         },
         {
             "Type": "Main",

@@ -932,6 +932,26 @@ const bookPaths = {
   PaschaSundaySundayDayNinthProphecies2: require("../assets/json/books/booksContent/Pascha/Sunday/SundayDay/Ninth/Prophecies2.json"),
   PaschaSundaySundayDayNinthProphecies2Coptic: require("../assets/json/books/booksContent/Pascha/Sunday/SundayDay/Ninth/Prophecies2Coptic.json"),
   PaschaSundaySundayDayNinthPsalm: require("../assets/json/books/booksContent/Pascha/Sunday/SundayDay/Ninth/Psalm.json"),
+  //Pascha\Thursday\ThursdayDay\Eleventh
+  PaschaThursdayThursdayDayLaqanProphecies1: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Prophecies1.json"),
+  PaschaThursdayThursdayDayLaqanProphecies2: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Prophecies2.json"),
+  PaschaThursdayThursdayDayLaqanProphecies3: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Prophecies3.json"),
+  PaschaThursdayThursdayDayLaqanProphecies4: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Prophecies4.json"),
+  PaschaThursdayThursdayDayLaqanProphecies5: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Prophecies5.json"),
+  PaschaThursdayThursdayDayLaqanProphecies6: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Prophecies6.json"),
+  PaschaThursdayThursdayDayLaqanProphecies7: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Prophecies7.json"),
+  PaschaThursdayThursdayDayLaqanProphecies8: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Prophecies8.json"),
+  PaschaThursdayThursdayDayLaqanHomily: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Homily.json"),
+  PaschaThursdayThursdayDayLaqanPauline: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Pauline.json"),
+  PaschaThursdayThursdayDayLaqanGospel: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Gospel.json"),
+  PaschaThursdayThursdayDayLaqanEfnotiNaiNan: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/EfnotiNaiNan.json"),
+  PaschaThursdayThursdayDayLaqanGospelResponse: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/GospelResponse.json"),
+  PaschaThursdayThursdayDayLaqanLitanyCatechumens: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/LitanyCatechumens.json"),
+  PaschaThursdayThursdayDayLaqanLitanies: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Litanies.json"),
+  PaschaThursdayThursdayDayLaqanAnaphora: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Anaphora.json"),
+  PaschaThursdayThursdayDayLaqanSanctus: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Sanctus.json"),
+  PaschaThursdayThursdayDayLaqanPrayersAferSanctus: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/PrayersAferSanctus.json"),
+  PaschaThursdayThursdayDayLaqanPsalm150: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Laqan/Psalm150.json"),
 
   //Pascha\Thursday\ThursdayDay\Eleventh
   PaschaThursdayThursdayDayEleventhExposition: require("../assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Eleventh/Exposition.json"),
@@ -3000,6 +3020,7 @@ const bookPaths = {
   PaschaSaturdayCommunionGospel1: require("../assets/json/books/booksContent/Pascha/Saturday/Communion/Gospel1.json"),
   PaschaSaturdayCommunionGospel1Coptic: require("../assets/json/books/booksContent/Pascha/Saturday/Communion/Gospel1Coptic.json"),
   PaschaSaturdayCommunionPanotiPanoti: require("../assets/json/books/booksContent/Pascha/Saturday/Communion/PanotiPanoti.json"),
+  PaschaSaturdayCommunionPanotiPanotiArabic: require("../assets/json/books/booksContent/Pascha/Saturday/Communion/PanotiPanotiArabic.json"),
   PaschaSaturdayCommunionPsalm: require("../assets/json/books/booksContent/Pascha/Saturday/Communion/Psalm.json"),
   //Pascha\Saturday\First
 
@@ -3100,6 +3121,9 @@ const bookPaths = {
   PaschaSaturdayThirdPsalm: require("../assets/json/books/booksContent/Pascha/Saturday/Third/Psalm.json"),
   PaschaThursdayThursdayDayLiturgyPaulineArabicIntro: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Liturgy/PaulineArabicIntro.json"),
   PaschaThursdayThursdayDayLiturgyLiturgyPauline: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Liturgy/LiturgyPauline.json"),
+  PaschaThursdayThursdayDayLiturgyLiturgyPsalm: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Liturgy/LiturgyPsalm.json"),
+  PaschaThursdayThursdayDayLiturgyLiturgyGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Liturgy/LiturgyGospel.json"),
+  PaschaThursdayThursdayDayLiturgyLiturgyPsalmGospel: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Liturgy/Gospel.json"),
   PaschaThursdayThursdayDayLiturgyToZipno: require("C:/Users/kyro2/OneDrive/Desktop/7Tunes/7Tunes/assets/json/books/booksContent/Pascha/Thursday/ThursdayDay/Liturgy/ToZipno.json"),
 
   //Matrimony

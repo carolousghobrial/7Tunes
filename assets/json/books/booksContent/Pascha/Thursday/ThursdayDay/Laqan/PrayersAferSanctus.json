@@ -1,0 +1,177 @@
+{
+  "RefrainAfter": 0,
+  "ArabicTitle": "",
+  "EnglishTitle": "",
+  "Hymn": [
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": ":بيلاؤس",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "بالمسيح يسوع ربنا",
+      "Coptic": "+en Pi`xrictoc Ihcouc Pen_.",
+      "English": "In Christ Jesus Our Lord",
+      "Arabiccoptic": "خين بخرستوس إيسوس بنشويس",
+      "Englishcoptic": "Khen Pikhristos Isos Penchois"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": ":بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "احنوا رؤوسَكم للربِّ.",
+      "Coptic": "Tac kevalac `umwn tw Kuriw `klinate.",
+      "English": "Bow your heads to the Lord.",
+      "Arabiccoptic": "طاس كى فالاس ايمون طوكيريو اكليناتى",
+      "Englishcoptic": "Taski valas eimon to kirio eklinati"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": ":بيلاؤس",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "أمامك يارب",
+      "Coptic": "`Enwpion cou Kurie.",
+      "English": "Before You, O Lord.",
+      "Arabiccoptic": "اينو بيون ثو كيريى",
+      "Englishcoptic": "Eno pion tho kirie."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": ":بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "انصتوا بخوفِ الله.",
+      "Coptic": "`Procxwmen Qeou meta vobou. `Amhn.",
+      "English": "Let us attend in the fear of God.",
+      "Arabiccoptic": "ابروس خومين ثيئو ميطافوفو أمين",
+      "Englishcoptic": "Epros khomen theo metavovo Amen."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "يرفع الشماس الصليب ويقول:",
+      "English": "The deacon raises the cross, and says:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Deacon",
+      "Arabic": "الشماس:",
+      "Coptic": "Pidiakwn>",
+      "English": "Deacon:",
+      "Arabiccoptic": "بي دياكون:",
+      "Englishcoptic": "Pi-Diakon:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "خلَصْتَ حقاً، ومع رُوحِكَ، ننصِتُ بخوفِ الله.",
+      "Coptic": "Cwqic `amhn> ke tw `pneumati cou> meta vobou qeou `procxwmen.",
+      "English": "Saved. Amen. And with your spirit. In the fear of God, let us attend.",
+      "Arabiccoptic": "سوتيس آمين كيطوإبنيقماتي سو ميتا فوقو ثيؤبروس خومين",
+      "Englishcoptic": " Soo-tees Ameen: ke too epnevmati soo: meta vovoo theoo eproskhoomen-."
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "Priest",
+      "Arabic": "الكاهن:",
+      "Coptic": "Piouhb>",
+      "English": "Priest:",
+      "Arabiccoptic": "بي أويب:",
+      "Englishcoptic": "Pi-oweeb:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "مٌبارَكٌ الربُّ يسوعُ المسيحُ إبنُ اللهِ، وقُدُّوسٌ الرُّوحُ القُدُسُ. آمين.",
+      "Coptic": "Euloghtoc Kurioc Ihcouc `Xrictoc `Uioc qeou `agiacmoc `Pneuma `Agion> `amhn.",
+      "English": "Blessed be the Lord Jesus Christ, the Son of God; the sanctification is by the Holy Spirit. Amen.",
+      "Arabiccoptic": " إفلوجيطوس كيريروس إيسوس إخرستوس إيوس ثيئو آجياسموس إبنيفماآجيون آمين.",
+      "Englishcoptic": "Evlogeetos Keerios Isos eKhristos eyios theoo agiasmos ePnevma Agion: Ameen."
+    },
+    {
+      "Type": "Ritual",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "ثم ينهض الشعب من سجودهم، ويجاوبونه بأعلى أصواتهم قائلين:",
+      "English": "The people raise their heads, and respond in a loud voice:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "People",
+      "Arabic": "الشعب:",
+      "Coptic": "Pilaoc>",
+      "English": "People:",
+      "Arabiccoptic": "بيلاؤس:",
+      "Englishcoptic": "Pi-Laos:"
+    },
+    {
+      "Type": "Base",
+      "Rule": 0,
+      "Visible": true,
+      "Side": "North",
+      "Arabic": "واحد الآب الكلي القدوس. واحد الإبن الكلي القدوس. واحد الروح القدس الكلي. آمين.",
+      "Coptic": "Ic `o pan`agioc Pathr> ic `o pan`agioc `Uioc> en to pan`agion `Pneuma> `amhn.",
+      "English": "One is the All-Holy Father, one is the All-Holy Son, one is the All-Holy Spirit. Amen.",
+      "Arabiccoptic": "ايس اوبان اجيوس باتير  .  ايس اوبان اجيوس ايوس  .  انطوباناجيون بنيفما امين . ",
+      "Englishcoptic": "Is o panagios Pateer: is o panagios eyios: en to pan-agion ePnevma: ameen."
+    }
+  ]
+}

@@ -33,6 +33,40 @@
             "English": "Kerie Eleison(Lord Have Mercy) is chanted 41 times"
         },
         {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "Coptic": "Pilaoc>",
+            "English": "People:",
+            "Arabiccoptic": "بيلاؤس:",
+            "Englishcoptic": "Pi-Laos:"
+        },
+        {
+            "Type": "Base",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "يا ربُّ إرحَم. (41)",
+            "Coptic": "Kurie `ele`hcon. (oa?)",
+            "English": "Lord have mercy. (41)",
+            "Arabiccoptic": "كيريى إليسون )41(",
+            "Englishcoptic": "Kiryalison.(41)"
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersHolyHoly",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
+            "Type": "Main",
+            "Path": "AgpeyaPrayersOurFather",
+            "Rule": 0,
+            "Visible": true
+        },
+        {
             "Type": "Main",
             "Path": "LiturgyOffertoryProcessionOfLamb",
             "Rule": 0,

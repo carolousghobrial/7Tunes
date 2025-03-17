@@ -309,6 +309,8 @@ const homescreenPaths = {
   ThursdayDayNinthHourPsalmAndGospel: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/NinthHour/PsalmAndGospel.json"),
   ThursdayDayNinthHourcopticProphecies: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/NinthHour/copticProphecies.json"),
   ThursdayDayNinthHourProphecies: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/NinthHour/Prophecies.json"),
+  //Laqan
+  ThursdayDayLiturgyOfWaters: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/LiturgyOfWaters/mainprayer.json"),
   //Liturgy
   offertoryCovenantThursday: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/HolyLiturgy/offertory.json"),
   liturgyOfWordCovenantThursday: require("../assets/json/books/booksTable/Pascha/Thursday/ThursdayDay/HolyLiturgy/liturgyOfWord.json"),
