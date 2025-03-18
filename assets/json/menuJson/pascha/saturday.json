@@ -68,8 +68,10 @@
             "hasSubBooks": false,
             "BookPath": "offertoryBrightSaturday",
             "ImageURL": "offertory",
-            "Enabled": true,
-            "BishopButton": true
+            "Enabled": false,
+            "PermissionStatus": "holyLiturgyPermission",
+            "PurchaseKey": "LiturgyOffering",
+            "offering": "LiturgyOffering"
         },
         {
             "EnglishTitle": "Liturgy of the Word",
@@ -79,7 +81,10 @@
             "hasSubBooks": false,
             "BookPath": "liturgyOfWordBrightSaturday",
             "ImageURL": "litugyOfWord",
-            "Enabled": true
+            "Enabled": false,
+            "PermissionStatus": "holyLiturgyPermission",
+            "PurchaseKey": "LiturgyOffering",
+            "offering": "LiturgyOffering"
         },
         {
             "EnglishTitle": "Liturgy of the Believers",
@@ -89,7 +94,10 @@
             "hasSubBooks": true,
             "BookPath": "liturgyOfBelieversBrightSaturday",
             "ImageURL": "liturgyOfBelievers",
-            "Enabled": true
+            "Enabled": false,
+            "PermissionStatus": "holyLiturgyPermission",
+            "PurchaseKey": "LiturgyOffering",
+            "offering": "LiturgyOffering"
         },
         {
             "ArabicTitle": "الفصول التى تتلى فى توزيع قداس سبت النور ",
@@ -99,7 +107,10 @@
             "hasSubBooks": false,
             "BookPath": "BrightSaturdayCommunionMain",
             "ImageURL": "distribution",
-            "Enabled": true
+            "Enabled": false,
+            "PermissionStatus": "holyLiturgyPermission",
+            "PurchaseKey": "LiturgyOffering",
+            "offering": "LiturgyOffering"
         }
     ]
 }

@@ -48,8 +48,7 @@
             "hasSubBooks": false,
             "BookPath": "ThursdayDayLiturgyOfWaters",
             "ImageURL": "laqanCovenantThursday",
-            "Enabled": true,
-            "Released": false
+            "Enabled": true
         },
         {
             "EnglishTitle": "The Offering of the Lamb",
@@ -59,8 +58,10 @@
             "hasSubBooks": false,
             "BookPath": "offertoryCovenantThursday",
             "ImageURL": "offertory",
-            "Enabled": true,
-            "BishopButton": true
+            "Enabled": false,
+            "PermissionStatus": "holyLiturgyPermission",
+            "PurchaseKey": "LiturgyOffering",
+            "offering": "LiturgyOffering"
         },
         {
             "EnglishTitle": "Liturgy of the Word",
@@ -70,7 +71,10 @@
             "hasSubBooks": false,
             "BookPath": "liturgyOfWordCovenantThursday",
             "ImageURL": "litugyOfWord",
-            "Enabled": true
+            "Enabled": false,
+            "PermissionStatus": "holyLiturgyPermission",
+            "PurchaseKey": "LiturgyOffering",
+            "offering": "LiturgyOffering"
         },
         {
             "EnglishTitle": "Liturgy of the Believers",
@@ -80,7 +84,10 @@
             "hasSubBooks": true,
             "BookPath": "liturgyOfBelieversCovenantThursday",
             "ImageURL": "liturgyOfBelievers",
-            "Enabled": true
+            "Enabled": false,
+            "PermissionStatus": "holyLiturgyPermission",
+            "PurchaseKey": "LiturgyOffering",
+            "offering": "LiturgyOffering"
         },
         {
             "ArabicTitle": "الفصول التى تتلى فى توزيع قداس خميس العهد",
