@@ -53,10 +53,7 @@ const BookScreen = () => {
   const flatListRef = useRef();
   const route = useRoute(); // Access route parameters
 
-  const { bookPath, motherSource, indexToScroll, bishopButton, Switch } =
-    useLocalSearchParams();
-  console.log("RERENDER " + bookPath);
-  const { values } = route.params || {}; // Retrieve parameters
+  const { values, bookPath, index } = route.params || {}; // Retrieve parameters
 
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
@@ -99,8 +96,6 @@ const BookScreen = () => {
       setIsLoading(false);
     }, 10);
   }, []);
-
-  const { index } = route.params || {};
 
   useEffect(() => {
     if (index) {
@@ -273,7 +268,7 @@ const DrawerScreen = () => {
         name="BookScreen"
         component={BookScreen}
         initialParams={{
-          bookPath: "myHome",
+          bookPath: bookPath,
           values: values[0],
         }}
         options={({ route }) => {
