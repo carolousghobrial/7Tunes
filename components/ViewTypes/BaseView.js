@@ -1,14 +1,20 @@
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet } from "react-native";
+import { View, Text, Platform } from "react-native";
 import { useSelector } from "react-redux";
 import React, { memo } from "react";
-import { getColor } from "../../helpers/SettingsHelpers.js";
+import {
+  getLanguageValue,
+  getFontSize,
+  getColor,
+} from "../../helpers/SettingsHelpers.js";
 
 function BaseView({ item, mykey }) {
-  const { textFontSize, ...languageSettings } = useSelector(
-    (state) => state.settings
-  );
+  const fontSize = useSelector((state) => state.settings.textFontSize);
+  const languageSettings = useSelector((state) => state.settings);
 
-  const getTextColor = (side) => {
+  const getColorBySide = (side) => getColor(`${side}Color`);
+
+  const getTextColor = (item) => {
     const sideColors = {
       North: "NorthColor",
       South: "SouthColor",
@@ -20,46 +26,70 @@ function BaseView({ item, mykey }) {
       Title: "NorthColor",
       Neutral: mykey % 2 === 0 ? "NorthColor" : "SouthColor",
     };
-    return getColor(sideColors[side] || "NorthColor");
+
+    const side = sideColors[item.Side] || "NorthColor";
+    return getColor(side);
   };
 
-  const baseTextStyle = {
-    fontSize: textFontSize,
+  const textStyle = {
+    fontSize,
     flex: 1,
     margin: 5,
-    color: getTextColor(item.Side),
+    fontFamily: "",
+    justifyContent: "flex-start",
+    color: getTextColor(item),
   };
 
-  const stylesByLanguage = {
-    English: { fontFamily: "english-font", lineHeight: textFontSize * 1.25 },
-    Coptic: { fontFamily: "coptic-font", lineHeight: textFontSize * 1.3 },
-    Arabic: {
-      fontFamily: "arabic-font",
-      lineHeight: textFontSize * 1.8,
-      textAlign: "right",
-      writingDirection: "rtl",
-    },
-    Englishcoptic: {
-      fontFamily: "english-font",
-      lineHeight: textFontSize * 1.25,
-    },
-    Arabiccoptic: {
-      fontFamily: "arabic-font",
-      lineHeight: textFontSize * 1.4,
-      textAlign: "right",
-      writingDirection: "rtl",
-    },
+  const arabicStyle = {
+    fontFamily: "arabic-font",
+    lineHeight: fontSize * 1.8,
+    textAlign: "right",
+    writingDirection: "rtl",
   };
+  const englishStyle = {
+    fontFamily: "english-font",
+    lineHeight: fontSize * 1.25,
+  };
+  const copticStyle = {
+    fontFamily: "coptic-font",
+    lineHeight: fontSize * 1.3,
+  };
+
+  const arabicCopticStyle = {
+    fontFamily: "arabic-font",
+    lineHeight: fontSize * 1.4,
+    textAlign: "right",
+    writingDirection: "rtl",
+  };
+
+  const languages = [
+    {
+      key: "English",
+      style: englishStyle,
+      isVisible: languageSettings.english,
+    },
+    { key: "Coptic", style: copticStyle, isVisible: languageSettings.coptic },
+    { key: "Arabic", style: arabicStyle, isVisible: languageSettings.arabic },
+    {
+      key: "Englishcoptic",
+      style: englishStyle,
+      isVisible: languageSettings.copticenglish,
+    },
+    {
+      key: "Arabiccoptic",
+      style: arabicCopticStyle,
+      isVisible: languageSettings.copticarabic,
+    },
+  ];
 
   return (
-    <View style={styles.bookView}>
-      {Object.entries(stylesByLanguage).map(
-        ([key, style]) =>
-          languageSettings[key.toLowerCase()] && (
-            <Text key={key} style={[baseTextStyle, style]}>
-              {item[key]}
-            </Text>
-          )
+    <View style={[styles.bookView, { flexDirection: "row" }]}>
+      {languages.map(({ key, style, isVisible }) =>
+        isVisible ? (
+          <Text key={key} style={[textStyle, style]}>
+            {item[key]}
+          </Text>
+        ) : null
       )}
     </View>
   );
@@ -68,7 +98,6 @@ function BaseView({ item, mykey }) {
 const styles = StyleSheet.create({
   bookView: {
     width: "100%",
-    flexDirection: "row",
   },
 });
 

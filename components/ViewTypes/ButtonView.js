@@ -1,11 +1,5 @@
-import React from "react";
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  useWindowDimensions,
-  StyleSheet,
-} from "react-native";
+import React, { useState } from "react";
+import { View, Text, Alert, TouchableOpacity, StyleSheet } from "react-native";
 import { useSelector } from "react-redux";
 import { useRouter } from "expo-router";
 
@@ -13,29 +7,14 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
   const fontSize = useSelector((state) => state.settings.textFontSize); // Access font size
   const router = useRouter();
 
-  // Avoid rendering if the item is hidden
   if (item.Visible === "hide") return null;
 
-  // Helper for updating item counts
-  const updateItemCount = () => {
-    const oldCount = item.Count;
-    const newCount = ++item.Count;
-    const replaceCount = (text) =>
-      text.replace(`( ${oldCount} )`, `( ${newCount} )`);
-    item.English = replaceCount(item.English);
-    item.Arabic = replaceCount(item.Arabic);
-
-    if (newCount >= 12) item.Visible = "hide";
-  };
-
-  // Handle button press by calling the corresponding rule function
   const handlePress = () => {
     switch (item.Rule) {
       case "OpenTheotokiaButtonRule":
       case "OpenDoxologiesButtonRule":
       case "OpenPalmSundayProcessionButtonRule":
       case "OpenPageButtonRule":
-        // Unified book screen opener
         router.push(
           {
             pathname: "/bookscreen/BookScreen",
@@ -53,7 +32,6 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
         break;
 
       case "OpenNewPageButtonRule":
-        // Open new page with replace
         router.push({
           pathname: "/bookscreen/BookScreen",
           params: {
@@ -67,7 +45,6 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
         break;
 
       case "OpenSinglePageButtonRule":
-        // Open a single hymn view
         router.push({
           pathname: "/bookscreen/ViewSingleHymn",
           params: {
@@ -81,11 +58,10 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
         break;
 
       case "ThokTeTiGomScrollUpButtonRule":
-        // Scroll up button rule
         const index = viewData.findIndex(
           (part) => part.EnglishTitle === "Pascha Praise"
         );
-        updateItemCount();
+
         flatListRef.current.scrollToIndex({
           index: index + 3,
           animated: false,
@@ -93,7 +69,6 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
         break;
 
       case "SkipShortLitanies":
-        // Skip short litanies button rule
         const skipIndex = viewData.findIndex(
           (part) => part.path === "RaisingOfIncenseAbsolution"
         );
@@ -104,7 +79,6 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
         break;
 
       case "SkipTasbehaCommemoration":
-        // Skip tasbeha commemoration button rule
         const skipTasbehaIndex = viewData.findIndex(
           (part) => part.part.Path === "doxologies"
         );
@@ -115,7 +89,6 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
         break;
 
       case "PopPage":
-        // Pop page navigation
         router.back();
         break;
 
@@ -126,7 +99,7 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
   };
 
   return (
-    <TouchableOpacity style={styles.buttonContainer} onPress={handlePress}>
+    <TouchableOpacity style={[styles.buttonContainer]} onPress={handlePress}>
       <View style={[styles.bookView, { flexDirection: "column" }]}>
         <Text style={[styles.text, { fontSize }]}>{item.English}</Text>
         <Text style={[styles.text, { fontSize }]}>{item.Arabic}</Text>
@@ -150,7 +123,7 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 2, height: 2 },
     shadowOpacity: 0.2,
     shadowRadius: 3,
-    elevation: 3, // For Android shadow
+    elevation: 3,
   },
   text: {
     color: "white",
@@ -161,6 +134,9 @@ const styles = StyleSheet.create({
     textAlign: "center",
     textDecorationLine: "underline",
   },
+  disabledButton: {
+    opacity: 0.5, // Reduce opacity when disabled
+  },
 });
 
-export default React.memo(ButtonView); // Memoizing to prevent unnecessary re-renders
+export default React.memo(ButtonView);

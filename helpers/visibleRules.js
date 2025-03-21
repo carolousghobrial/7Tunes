@@ -2981,8 +2981,8 @@ const REPLACEHOMILYFATHERS = (father, part) => {
         english: " Athanasius the Apostolic",
         coptic: " Aqanacioc pi`apotolikoc",
         arabic: " أثانسيوس الرسولى",
-        englishcoptic: " أثانسيوس بى أبوسطوليكوس ",
-        arabiccoptic: " Athanasius Pi-Apostolikos",
+        arabiccoptic: " أثانسيوس بى أبوسطوليكوس ",
+        englishcoptic: " Athanasius Pi-Apostolikos",
       };
   }
 };
