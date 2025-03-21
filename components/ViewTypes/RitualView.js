@@ -1,28 +1,13 @@
-import { StyleSheet } from "react-native";
-import {
-  View,
-  Button,
-  TextInput,
-  Platform,
-  Text,
-  Image,
-  Pressable,
-} from "react-native";
-import { getCopticDateString } from "../../helpers/copticMonthsHelper";
-import { getCopticFastsFeasts } from "../../helpers/copticMonthsHelper";
-import moment from "moment";
-import { getCurrentSeason } from "../../helpers/copticMonthsHelper";
-import "moment/locale/en-gb"; // import the locale for UK English
-import React, { useState, useEffect, memo } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers.js";
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
+import { useSelector } from "react-redux";
+import { getColor } from "../../helpers/SettingsHelpers.js";
+
 function RitualView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
-  let RitualColor = getColor("RitualColor");
+  const ritualColor = getColor("RitualColor");
+
+  const commonTextStyle = { color: ritualColor };
 
   return (
     <View style={styles.bookView}>
@@ -30,7 +15,8 @@ function RitualView({ item }) {
         <Text
           style={[
             styles.english,
-            { fontSize: fontSize * 0.7, color: RitualColor },
+            commonTextStyle,
+            { fontSize: fontSize * 0.7 },
           ]}
         >
           {item.English}
@@ -40,11 +26,8 @@ function RitualView({ item }) {
         <Text
           style={[
             styles.arabic,
-            {
-              fontSize: fontSize,
-              color: RitualColor,
-              textAlign: "right",
-            },
+            commonTextStyle,
+            { fontSize, textAlign: "right" },
           ]}
         >
           {item.Arabic}
@@ -64,10 +47,6 @@ const styles = StyleSheet.create({
     flex: 1,
     margin: 2,
   },
-  coptic: {
-    fontFamily: "coptic-font",
-    textAlign: "right",
-  },
   arabic: {
     fontFamily: "arabicritual-font",
     writingDirection: "rtl",
@@ -78,4 +57,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default RitualView;
+export default React.memo(RitualView);

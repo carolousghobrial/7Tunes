@@ -307,11 +307,11 @@
       "Rule": 0,
       "Visible": true,
       "Side": "North",
-      "Arabic": "يا ربُّ إرحَم (3).",
-      "Coptic": "Kurie `ele`hcon (3).",
-      "English": "Lord have mercy (3)",
-      "Arabiccoptic": "كيريي ليسون كيريي ليسون كيريي ليسون",
-      "Englishcoptic": "Kiryalison (3)."
+      "Arabic": "امين يا ربُّ إرحَم (3).",
+      "Coptic": "Amhn Kurie `ele`hcon (3).",
+      "English": "Amen, Lord have mercy (3)",
+      "Arabiccoptic": "امين كيريي ليسون كيريي ليسون كيريي ليسون",
+      "Englishcoptic": "Amen Kiryalison (3)."
     }
   ]
 }

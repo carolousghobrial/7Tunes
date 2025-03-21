@@ -112,6 +112,22 @@
             "Path": "LiturgyGospel",
             "Rule": 0,
             "Visible": true
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "People",
+            "Arabic": "الشعب:",
+            "English": "People:"
+        },
+        {
+            "Type": "Melody",
+            "Rule": 0,
+            "Visible": true,
+            "Side": "North",
+            "Arabic": "والمجد لله دائماً.",
+            "English": "Glory be to God forever."
         }
     ]
 }

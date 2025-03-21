@@ -2871,7 +2871,7 @@ const REPLACEPROPHETS = (prophet, part) => {
     case "Jonah":
       return {
         english: " Jonah ",
-        coptic: " Iwna ",
+        coptic: " Iwna",
         arabic: "  يونان",
         englishcoptic: " Yona",
         arabiccoptic: "  يونا  ",

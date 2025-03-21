@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback, useEffect, memo } from "react";
+import React, { useState, useCallback, useMemo, memo } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { useSelector } from "react-redux";
 import SingleHymnAsView from "../../screens/SingleHymnAsView";
@@ -7,58 +7,65 @@ import { getColor } from "../../helpers/SettingsHelpers";
 const AccordionView = ({ mykey, item, motherSource }) => {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const labelColor = getColor("LabelColor");
-  const [expanded, setExpanded] = useState([]);
+
+  const [expanded, setExpanded] = useState({});
+
   const toggleAccordion = useCallback((index) => {
-    setExpanded((prevExpanded) => {
-      const updatedExpanded = [...prevExpanded];
-      updatedExpanded[index] = !updatedExpanded[index];
-      return updatedExpanded;
-    });
+    setExpanded((prev) => ({ ...prev, [index]: !prev[index] }));
   }, []);
+
   const getTextColor = (side) => {
-    const sideColors = {
-      North: "NorthColor",
-      South: "SouthColor",
-      Refrain: "RefrainColor",
-      Priest: "PriestColor",
-      Deacon: "DeaconColor",
-      People: "PeopleColor",
-      Reader: "ReaderColor",
-      Title: "NorthColor",
-      Neutral: mykey % 2 === 0 ? "NorthColor" : "SouthColor",
-    };
-    return getColor(sideColors[side] || "NorthColor");
+    if (side === "Neutral")
+      return getColor(mykey % 2 === 0 ? "NorthColor" : "SouthColor");
+    return getColor(
+      {
+        North: "NorthColor",
+        South: "SouthColor",
+        Refrain: "RefrainColor",
+        Priest: "PriestColor",
+        Deacon: "DeaconColor",
+        People: "PeopleColor",
+        Reader: "ReaderColor",
+      }[side] || "NorthColor"
+    );
   };
 
-  const baseTextStyle = {
-    fontSize,
-    lineHeight: fontSize * 1.1,
-    margin: 5,
-    flex: 1,
-    color: getTextColor(item.Side),
-  };
+  const textColor = getTextColor(item.Side);
 
-  const textStyles = StyleSheet.create({
-    default: {
-      ...baseTextStyle,
-      fontFamily: "english-font",
-      justifyContent: "flex-start",
-    },
-    arabic: {
-      ...baseTextStyle,
-      fontFamily: "arabic-font",
-      lineHeight: fontSize * 1.6,
-      textAlign: "right",
-      writingDirection: "rtl",
-    },
-    arabicCoptic: {
-      ...baseTextStyle,
-      fontFamily: "arabic-font",
-      lineHeight: fontSize * 1.2,
-      textAlign: "right",
-      writingDirection: "rtl",
-    },
-  });
+  const textStyles = useMemo(
+    () =>
+      StyleSheet.create({
+        default: {
+          fontSize,
+          lineHeight: fontSize * 1.1,
+          margin: 5,
+          flex: 1,
+          color: textColor,
+          fontFamily: "english-font",
+        },
+        arabic: {
+          fontSize,
+          lineHeight: fontSize * 1.6,
+          margin: 5,
+          flex: 1,
+          color: textColor,
+          fontFamily: "arabic-font",
+          textAlign: "right",
+          writingDirection: "rtl",
+        },
+        arabicCoptic: {
+          fontSize,
+          lineHeight: fontSize * 1.2,
+          margin: 5,
+          flex: 1,
+          color: textColor,
+          fontFamily: "arabic-font",
+          textAlign: "right",
+          writingDirection: "rtl",
+        },
+      }),
+    [fontSize, textColor]
+  );
 
   return (
     <View key={mykey} style={[styles.accordion, { borderColor: labelColor }]}>

@@ -21,8 +21,7 @@ import { useSelector } from "react-redux";
 
 function MainTitleView({ item }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
-  const { width, height } = useWindowDimensions();
-  const flex = width > height ? "row" : "column";
+  const flex = "row";
 
   const commonTextStyle = {
     fontSize: fontSize * 1.5,

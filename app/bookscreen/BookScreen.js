@@ -62,7 +62,6 @@ const BookScreen = () => {
   );
   const isAndroid = Platform.OS === "ios" ? false : true;
   const values = getFullViewModel(bookPath, motherSource);
-  const [currentPath, setCurrentPath] = useState(values[0].path);
 
   const [bookContents, setBookContents] = useState(
     getFirstContinuousRangeWithUniquePaths(7, values[0])
@@ -99,27 +98,23 @@ const BookScreen = () => {
       const firstItem = viewableItems[0]?.item;
       const newPath = firstItem?.part?.Path || firstItem?.path;
 
-      if (!newPath) return;
-      setCurrentPath((prevPath) => {
-        if (prevPath === newPath) return prevPath; // Avoid unnecessary state updates
-        return newPath;
-      });
+      if (!newPath || bookContents.length === values[0].length) return;
 
       // Compute unique paths only when `bookContents` changes
       const uniquePaths = bookContents.map(
         (item) => item.path || item.part?.Path
       );
-      setBookContents(
-        getFirstContinuousRangeWithUniquePaths(1, values[0], [...uniquePaths])
+
+      const newContents = getFirstContinuousRangeWithUniquePaths(
+        2,
+        values[0],
+        uniquePaths
       );
-      setBookContents((prevContents) => {
-        const newContents = getFirstContinuousRangeWithUniquePaths(
-          1,
-          values[0],
-          uniquePaths
-        );
-        return prevContents === newContents ? prevContents : newContents; // Prevent unnecessary state updates
-      });
+
+      // Only update the state if there is a change in contents
+      if (JSON.stringify(bookContents) !== JSON.stringify(newContents)) {
+        setBookContents(newContents);
+      }
     },
     [bookContents, values]
   );
