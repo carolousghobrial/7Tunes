@@ -51,25 +51,85 @@ const Drawer = createDrawerNavigator();
 
 const BookScreen = () => {
   const flatListRef = useRef();
-  const route = useRoute(); // Access route parameters
+  const route = useRoute();
 
-  const { values, bookPath, index } = route.params || {}; // Retrieve parameters
-
+  const { index, values, bookPath } = route.params || {};
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
   const pageBackgroundColor = getColor("pageBackgroundColor");
   const bishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
+  const isAndroid = Platform.OS === "ios" ? false : true;
+
+  const [bookContents, setBookContents] = useState(
+    getFirstContinuousRangeWithUniquePaths(5, values)
+  );
+  console.log(bookContents.length);
+
+  function getFirstContinuousRangeWithUniquePaths(
+    pathCount,
+    data,
+    currentPaths = []
+  ) {
+    const uniquePaths = new Set(currentPaths);
+    let endIndex = -1;
+
+    // Iterate through the data and track unique paths
+    for (let i = 0; i < data.length; i++) {
+      const path = data[i].path || data[i].part?.Path;
+
+      if (path && !uniquePaths.has(path)) {
+        uniquePaths.add(path);
+
+        // Once we have enough unique paths, record the index and break
+        if (uniquePaths.size === pathCount) {
+          endIndex = i;
+          break;
+        }
+      }
+    }
+
+    // If we found the required number of unique paths, return the slice; otherwise, return all data
+    return endIndex !== -1 ? data.slice(0, endIndex + 1) : data;
+  }
+  const handleViewableItemsChanged = useCallback(
+    ({ viewableItems }) => {
+      const firstItem = viewableItems[0]?.item;
+      const newPath = firstItem?.part?.Path || firstItem?.path;
+
+      if (!newPath || bookContents.length === values.length) return;
+
+      // Compute unique paths only when `bookContents` changes
+      const uniquePaths = bookContents.map(
+        (item) => item.path || item.part?.Path
+      );
+
+      const newContents = getFirstContinuousRangeWithUniquePaths(
+        2,
+        values,
+        uniquePaths
+      );
+
+      // Only update the state if there is a change in contents
+      if (JSON.stringify(bookContents) !== JSON.stringify(newContents)) {
+        setBookContents(newContents);
+      }
+    },
+    [bookContents, values]
+  );
 
   const [isLoading, setIsLoading] = useState(true);
+  const appLanguage = useSelector((state) => state.settings.appLanguage);
   const isTablet = useSelector((state) => state.settings.isTablet);
   const navigation = useNavigation();
+
   useEffect(() => {
+    const fontFamily = appLanguage === "eng" ? "english-font" : "arabic-font";
     const fontSize = isTablet ? 30 : 15;
 
     navigation.getParent()?.setOptions({
-      title: values[0]?.part?.English,
+      title: bookContents[0]?.part?.English,
       headerStyle: {
         headerTintColor: labelColor, // Change back button color
         backgroundColor: NavigationBarColor,
@@ -88,28 +148,86 @@ const BookScreen = () => {
       ),
       headerTitleStyle: {
         color: labelColor,
-        fontFamily: "english-font",
+
         fontSize,
+        fontFamily,
       },
     });
     setTimeout(() => {
       setIsLoading(false);
     }, 10);
-  }, []);
+  }, [appLanguage, bookContents, flatListRef]);
 
-  useEffect(() => {
-    if (index) {
+  const scrollToKey = (key) => {
+    try {
       const targetIndex = values?.findIndex(
-        ({ key: itemKey }) => itemKey === index.key
+        ({ key: itemKey }) => itemKey === key.key
       );
       if (targetIndex === -1) return; // Exit if the key is not found
 
-      flatListRef.current?.scrollToIndex({
-        index: targetIndex,
-        animated: false,
-      });
+      setIsLoading(true); // Start loading
+
+      if (targetIndex >= bookContents.length) {
+        // Load data until the target index if not already loaded
+        loadDataUntilIndex(targetIndex);
+      } else {
+        // Scroll directly if data is already loaded
+        scrollToIndex(targetIndex);
+      }
+    } catch (error) {
+      console.error("An error occurred in scrollToKey:", error);
+
+      try {
+        console.log("Attempting recovery: scrolling to the bottom.");
+        scrollToIndex(bookContents.length - 1); // Scroll to the bottom
+
+        // Retry scrolling to the target key
+        setTimeout(() => {
+          const targetIndex = values?.findIndex(
+            ({ key: itemKey }) => itemKey === key.key
+          );
+          if (targetIndex !== -1) {
+            scrollToIndex(targetIndex);
+          } else {
+            console.warn("Key still not found after recovery attempt.");
+          }
+        }, 500); // Delay to ensure smooth recovery
+      } catch (recoveryError) {
+        console.error("Recovery attempt failed:", recoveryError);
+      }
+    }
+  };
+
+  useEffect(() => {
+    if (index) {
+      scrollToKey(index);
     }
   }, [index]);
+  const loadDataUntilIndex = (targetIndex) => {
+    // Avoid redundant data loading
+    setBookContents((prevContents) => {
+      if (prevContents.length >= targetIndex + 1) return prevContents; // Data is already loaded
+
+      const newRangeStart = prevContents.length;
+      const newRangeEnd = targetIndex + 5; // Load up to the target index (inclusive)
+      const newData = values.slice(newRangeStart, newRangeEnd);
+
+      return [...prevContents, ...newData];
+    });
+
+    // Use setTimeout to scroll after the data is loaded and rendered
+    setTimeout(() => {
+      scrollToIndex(targetIndex);
+    }, 200); // Ensure the state update and render are complete before scrolling
+  };
+
+  const scrollToIndex = (targetIndex) => {
+    flatListRef.current?.scrollToIndex({
+      index: targetIndex,
+      animated: false,
+    });
+    setIsLoading(false); // Stop loading after scrolling is complete
+  };
 
   // Handle scroll failures
   const handleScrollToIndexFailed = ({ index }) => {
@@ -132,7 +250,15 @@ const BookScreen = () => {
           item={item.part}
           motherSource={bookPath}
           flatListRef={flatListRef}
-          viewData={values}
+          viewData={bookContents}
+        />
+      ),
+      MainAccordion: (
+        <AccordionView
+          mykey={item.key}
+          item={item.part}
+          motherSource={bookPath}
+          initialExpanded={true}
         />
       ),
       Accordion: (
@@ -140,6 +266,7 @@ const BookScreen = () => {
           mykey={item.key}
           item={item.part}
           motherSource={bookPath}
+          initialExpanded={false}
         />
       ),
     };
@@ -179,14 +306,14 @@ const BookScreen = () => {
       <FlatList
         ref={flatListRef}
         style={{ flex: 1, backgroundColor: pageBackgroundColor }}
-        initialNumToRender={values.length}
+        initialNumToRender={bookContents.length}
         showsVerticalScrollIndicator={false}
-        data={values}
+        data={bookContents}
+        onViewableItemsChanged={handleViewableItemsChanged}
         renderItem={renderItems}
         keyExtractor={(item) => item.key}
         onScrollToIndexFailed={handleScrollToIndexFailed} // Add error handler
         bounces={false}
-        extraData={bookPath}
         removeClippedSubviews={true}
       />
       {bishopIsPresent && bishopButton && (
