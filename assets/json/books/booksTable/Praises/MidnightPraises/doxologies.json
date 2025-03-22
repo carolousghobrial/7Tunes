@@ -527,37 +527,37 @@
             "Visible": "BishopIsPresent"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
             "Path": "LiturgyDistributionMelodiesCross",
             "Rule": 0,
             "Visible": "isSeason"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
             "Path": "DoxologiesMajorFeastsNativityMelody",
             "Rule": 0,
             "Visible": "isSeason"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
             "Path": "DoxologiesMajorFeastsTheophanyMelody",
             "Rule": 0,
             "Visible": "isSeason"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
             "Path": "DoxologiesLentLentVespersMelody",
             "Rule": 0,
             "Visible": "isSeason"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
             "Path": "DoxologiesMajorFeastsPalmSundayMelody",
             "Rule": 0,
             "Visible": "isSeason"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
             "Path": "DoxologiesMajorFeastsResurrectionMelody",
             "Rule": 0,
             "Visible": "isSeason"

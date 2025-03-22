@@ -21,7 +21,7 @@
             "Type": "Main",
             "Path": "RaisingOfIncensePsalmTrailersVespersTrailer",
             "Rule": 0,
-            "Visible": "isStandardSeason"
+            "Visible": "isStandardTawaf"
         },
         {
             "Type": "Main",

@@ -265,6 +265,33 @@ const isStandardSeason = (motherSource, path) => {
   }
   return currentSeason.type !== "feast";
 };
+const isStandardTawaf = (motherSource, path) => {
+  const currentSeason = useSelector((state) => state.settings.currentSeason);
+  switch (currentSeason.key) {
+    case "STANDARD":
+      if (currentSeason.saintsOfThisDay.includes("ST_MARY")) {
+        return false;
+      }
+      return true;
+    case "FAST_OF_APOSTLES":
+    case "FEAST_OF_APOSTLES":
+    case "JONAH_FAST":
+    case "JONAH_FEAST":
+    case "GREAT_LENT":
+      return true;
+    case "NATIVITY_FAST":
+      if (
+        currentSeason.copticMonth !== "Koiahk" &&
+        !TakeFromHathor(currentSeason)
+      ) {
+        return true;
+      }
+      return false;
+    default:
+      return false;
+  }
+  return currentSeason.type !== "feast";
+};
 const isStandardFraction = (motherSource, path) => {
   const currentSeason = useSelector((state) => state.settings.currentSeason);
   if (FeastsAndFastsOfStMaryAndHeavenlies(motherSource, path)) {
@@ -1662,7 +1689,9 @@ const IsFastingDays = (motherSource, path) => {
   ) {
     return true;
   }
-
+  if (isInFast(timeTransition) && lowerPath.includes("apinavshopi")) {
+    return true;
+  }
   if (
     (currentSeason.key === "GREAT_LENT" &&
       (currentSeason.dayOfWeek === 0 || currentSeason.dayOfWeek === 6)) ||
@@ -3252,6 +3281,7 @@ const VisibleRules = {
   isStandard: isStandard,
   isStandardFraction: isStandardFraction,
   isStandardSeason: isStandardSeason,
+  isStandardTawaf: isStandardTawaf,
   isStandardSeasonWithStMary: isStandardSeasonWithStMary,
   isKiahk: isKiahk,
   isKiahkSeason: isKiahkSeason,

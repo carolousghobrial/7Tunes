@@ -212,24 +212,30 @@
             "Visible": true
         },
         {
-            "Type": "Main",
-            "Path": "RaisingOfIncensePsalmTrailersMatinsTrailer",
-            "Rule": 0,
-            "Visible": "isStandardSeason"
-        },
-        {
-            "Type": "Main",
-            "Path": "RaisingOfIncensePsalmTrailersBishopPsalmTrailer",
-            "Rule": 0,
-            "Visible": "BishopIsPresentOrBigFeast"
-        },
-        {
             "Type": "Button",
             "Arabic": "المزمور",
             "English": "Chanted Psalm",
             "Rule": "OpenPageButtonRule",
             "Visible": true,
             "Path": "LiturgyRaisingOfIncenseChantedMatinsPsalm"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "RaisingOfIncensePsalmTrailersMatinsTrailer",
+            "Rule": 0,
+            "Visible": "isStandardTawaf"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "RaisingOfIncensePsalmTrailersMaryFastTrailer",
+            "Rule": 0,
+            "Visible": "FeastsAndFastsOfStMary"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "RaisingOfIncensePsalmTrailersBishopPsalmTrailer",
+            "Rule": 0,
+            "Visible": "BishopIsPresentOrBigFeast"
         },
         {
             "Type": "Main",

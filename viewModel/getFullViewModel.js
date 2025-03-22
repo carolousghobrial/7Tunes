@@ -242,22 +242,49 @@ export function getFullViewModel(motherSource, mother) {
   function pushToArrays(item, currentKey, isRitual) {
     const { English, Coptic, Arabic } = item;
 
-    if (!isRitual) {
-      MenuArray.push({
-        EnglishTitle: English,
-        CopticTitle: Coptic,
-        ArabicTitle: Arabic,
+    if (isRitual) {
+      ViewArray.push({
+        part: item,
         key: currentKey,
+        EnglishTitle: englishttl,
+        CopticTitle: copticttl,
+        ArabicTitle: arabicttl,
       });
+    } else {
+      if (item.Type === "Accordion") {
+        const inside = bookPaths[item.Path];
+        item.English = inside.EnglishTitle;
+        item.Coptic = inside.CopticTitle;
+        item.Arabic = inside.ArabicTitle;
+        MenuArray.push({
+          EnglishTitle: inside.EnglishTitle,
+          CopticTitle: inside.CopticTitle,
+          ArabicTitle: inside.ArabicTitle,
+          key: currentKey,
+        });
+        ViewArray.push({
+          part: item,
+          key: currentKey,
+          EnglishTitle: inside.EnglishTitle,
+          CopticTitle: inside.CopticTitle,
+          ArabicTitle: inside.ArabicTitle,
+        });
+      } else {
+        MenuArray.push({
+          EnglishTitle: English,
+          CopticTitle: Coptic,
+          ArabicTitle: Arabic,
+          key: currentKey,
+        });
+        ViewArray.push({
+          part: item,
+          key: currentKey,
+          EnglishTitle: englishttl,
+          CopticTitle: copticttl,
+          ArabicTitle: arabicttl,
+        });
+      }
     }
-
-    ViewArray.push({
-      part: item,
-      key: currentKey,
-      EnglishTitle: englishttl,
-      CopticTitle: copticttl,
-      ArabicTitle: arabicttl,
-    });
   }
 
   function addReturnButton() {

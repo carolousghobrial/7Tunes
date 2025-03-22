@@ -144,6 +144,24 @@
             "Path": "LiturgyRaisingOfIncenseChantedVespersPsalm"
         },
         {
+            "Type": "Accordion",
+            "Path": "RaisingOfIncensePsalmTrailersVespersTrailer",
+            "Rule": 0,
+            "Visible": "isStandardTawaf"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "RaisingOfIncensePsalmTrailersMaryFastTrailer",
+            "Rule": 0,
+            "Visible": "FeastsAndFastsOfStMary"
+        },
+        {
+            "Type": "Accordion",
+            "Path": "RaisingOfIncensePsalmTrailersBishopPsalmTrailer",
+            "Rule": 0,
+            "Visible": "BishopIsPresentOrBigFeast"
+        },
+        {
             "Type": "Main",
             "Path": "RaisingOfIncensePsalmResponses",
             "Rule": 0,

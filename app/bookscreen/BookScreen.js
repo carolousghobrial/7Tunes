@@ -63,7 +63,7 @@ const BookScreen = () => {
   const isAndroid = Platform.OS === "ios" ? false : true;
 
   const [bookContents, setBookContents] = useState(
-    getFirstContinuousRangeWithUniquePaths(5, values)
+    getFirstContinuousRangeWithUniquePaths(6, values)
   );
   console.log(bookContents.length);
 

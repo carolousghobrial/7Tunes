@@ -32,7 +32,7 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
         break;
 
       case "OpenNewPageButtonRule":
-        router.push({
+        router.replace({
           pathname: "/bookscreen/BookScreen",
           params: {
             bookPath: item.Path,

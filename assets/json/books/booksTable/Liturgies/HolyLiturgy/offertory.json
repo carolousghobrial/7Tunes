@@ -99,7 +99,7 @@
             "Visible": "IsNonFastingDays"
         },
         {
-            "Type": "Main",
+            "Type": "Accordion",
             "Path": "LiturgyOffertoryApinavShopi",
             "Rule": 0,
             "Visible": "IsFastingDays"

@@ -19,6 +19,7 @@ import { useState, useEffect, useMemo } from "react";
 import { setSeason, setItemPurchased } from "../../stores/redux/settings.js";
 import { setCurrentSeasonLive } from "../../helpers/copticMonthsHelper";
 import Purchases from "react-native-purchases";
+import { useNavigation } from "@react-navigation/native";
 
 const App = () => {
   const {
