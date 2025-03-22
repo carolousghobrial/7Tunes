@@ -14,7 +14,9 @@ import {
   StyleSheet,
   Text,
   FlatList,
+  Pressable,
   Image,
+  Alert,
   SafeAreaView,
   ImageBackground,
   ActivityIndicator,
@@ -52,6 +54,7 @@ const Drawer = createDrawerNavigator();
 const BookScreen = () => {
   const flatListRef = useRef();
   const route = useRoute();
+  const router = useRouter();
 
   const { index, values, bookPath } = route.params || {};
   const NavigationBarColor = getColor("NavigationBarColor");
@@ -228,7 +231,23 @@ const BookScreen = () => {
     });
     setIsLoading(false); // Stop loading after scrolling is complete
   };
-
+  function openPage(item) {
+    console.log(item);
+    router.push(
+      {
+        pathname: "/bookscreen/BookScreen",
+        params: {
+          bookPath: item.Path,
+          englishTitle: item.English,
+          arabicTitle: item.Arabic,
+          motherSource: item.mother,
+          Switch: item.Switch,
+        },
+      },
+      undefined,
+      { shallow: true }
+    );
+  }
   // Handle scroll failures
   const handleScrollToIndexFailed = ({ index }) => {
     setTimeout(() => {
@@ -324,7 +343,11 @@ const BookScreen = () => {
 };
 
 const DrawerScreen = () => {
-  const { bookPath, motherSource } = useLocalSearchParams();
+  //const { } = useLocalSearchParams();
+  const route = useRoute();
+
+  const { bookPath, motherSource } = route.params || {};
+  console.log(bookPath);
   const values = getFullViewModel(bookPath, motherSource);
   const menuItems = values[1]; // Array of items to populate the drawer
   const pageBackgroundColor = getColor("pageBackgroundColor");
@@ -333,8 +356,8 @@ const DrawerScreen = () => {
   const router = useRouter();
 
   // Navigation function to reduce repetition
-  const handleNavigateToBookScreen = (props, item) => {
-    props.navigation.navigate("BookScreen", {
+  const handleNavigateToBookScreen = ({ navigation }, item) => {
+    navigation.navigate("BookScreen", {
       index: item, // Pass the item to the BookScreen
     });
   };

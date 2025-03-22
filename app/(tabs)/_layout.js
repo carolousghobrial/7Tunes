@@ -55,7 +55,7 @@ const TabsLayout = () => {
     {
       name: "settings",
       options: {
-        title: "Settings",
+        title: getLanguageValue("settings"),
         tabBarIcon: ({ color, size }) => (
           <View>
             <Ionicons name="settings" color={color} size={size} />
