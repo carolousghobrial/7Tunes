@@ -30,7 +30,6 @@ import TitleView from "../../components/ViewTypes/TitleView";
 import RitualView from "../../components/ViewTypes/RitualView";
 import ButtonView from "../../components/ViewTypes/ButtonView";
 import MainTitleView from "../../components/ViewTypes/MainTitleView";
-import SettingsModal from "../../components/BottomBar/SettingsModal";
 
 const ViewSingleHymn = () => {
   const { height } = useWindowDimensions();

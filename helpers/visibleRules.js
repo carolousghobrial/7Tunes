@@ -2773,7 +2773,6 @@ const REPLACPASCHAHOURDAY = (paschaHourDay, part) => {
 
 const REPLACEPROPHETS = (prophet, part) => {
   var updatedProphet = prophet;
-  console.log(updatedProphet);
   switch (updatedProphet) {
     case "Genesis":
       return {

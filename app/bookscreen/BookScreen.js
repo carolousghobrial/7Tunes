@@ -5,6 +5,8 @@ import {
   DrawerItemList,
   DrawerItem,
 } from "@react-navigation/drawer";
+import { Tooltip } from "@rneui/themed";
+
 import MenuItem from "../../components/BottomBar/MenuItem.js";
 import SettingsScreen from "../(tabs)/settings.js";
 import { NavigationContainer } from "@react-navigation/native";
@@ -42,8 +44,6 @@ import RitualView from "../../components/ViewTypes/RitualView";
 import ButtonView from "../../components/ViewTypes/ButtonView";
 import MainTitleView from "../../components/ViewTypes/MainTitleView";
 import LoadingScreen from "../../screens/LoadingScreen";
-import SettingsModal from "../../components/BottomBar/SettingsModal";
-import ContentsModal from "../../components/BottomBar/ContentsModal";
 import { getColor } from "../../helpers/SettingsHelpers.js";
 import { getFullViewModel } from "../../viewModel/getFullViewModel";
 import FloatingButton from "../../components/ViewTypes/FloatingBishopButton";
@@ -55,7 +55,6 @@ const BookScreen = memo(() => {
   const flatListRef = useRef();
   const route = useRoute();
   const router = useRouter();
-  console.log("HEREEE");
   const { index, values, bookPath } = route.params || {};
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
@@ -122,7 +121,18 @@ const BookScreen = memo(() => {
       });
     }, 5); // Delay to allow for smooth scrolling animation
   }, []);
+  const [tooltipVisible, setTooltipVisible] = useState({});
 
+  const handleLongPress = (key) => {
+    setTooltipVisible((prev) => ({ ...prev, [key]: true }));
+  };
+
+  const handleClose = (key) => {
+    setTooltipVisible((prev) => ({ ...prev, [key]: false }));
+  };
+  const copyPartToClipboard = (item) => {
+    console.log(item.English);
+  };
   const renderItems = useCallback(
     ({ item, index }) => {
       const viewTypeMap = {
@@ -149,12 +159,7 @@ const BookScreen = memo(() => {
             initialExpanded={true}
           />
         ),
-        Counter: (
-          <Counter
-            target={item.part.CountNum}
-            incrementBy={item.part.IncrementBy}
-          />
-        ),
+
         Accordion: (
           <AccordionView
             mykey={item.key}
@@ -165,17 +170,86 @@ const BookScreen = memo(() => {
         ),
       };
 
-      return (
-        <Pressable onPressOut={hideHeader}>
-          {viewTypeMap[item.part.Type]}
-        </Pressable>
-      );
+      return viewTypeMap[item.part.Type];
     },
     [bookContents, bookPath]
   );
-  const hideHeader = useCallback(() => {
-    setNavbarVisibility((prev) => !prev);
-  }, []);
+  // const ItemWithTooltip = ({ item }) => {
+  //   const [tooltipVisible, setTooltipVisible] = useState(false);
+
+  //   const handleLongPress = () => setTooltipVisible(true);
+  //   const handleClose = () => setTooltipVisible(false);
+
+  //   const viewTypeMap = {
+  //     Base: <BaseView item={item.part} mykey={item.key} />,
+  //     Melody: <MelodyView item={item.part} />,
+  //     Title: <TitleView item={item.part} />,
+  //     Ritual: <RitualView item={item.part} />,
+  //     MainTitle: <MainTitleView item={item.part} />,
+  //     Button: <ButtonView item={item.part} />,
+  //     MainAccordion: (
+  //       <AccordionView
+  //         mykey={item.key}
+  //         item={item.part}
+  //         initialExpanded={true}
+  //       />
+  //     ),
+  //     Counter: (
+  //       <Counter
+  //         target={item.part.CountNum}
+  //         incrementBy={item.part.IncrementBy}
+  //       />
+  //     ),
+  //     Accordion: (
+  //       <AccordionView
+  //         mykey={item.key}
+  //         item={item.part}
+  //         initialExpanded={false}
+  //       />
+  //     ),
+  //   };
+
+  //   return (
+  //     <View>
+  //       <View style={{ position: "absolute", zIndex: 999 }}>
+  //         <Tooltip
+  //           visible={tooltipVisible}
+  //           onOpen={handleLongPress}
+  //           onClose={handleClose}
+  //           popover={
+  //             <TouchableOpacity
+  //               onPress={copyPartToClipboard.bind(this, item.part)}
+  //             >
+  //               <Text>Copy Part</Text>
+  //             </TouchableOpacity>
+  //           }
+  //         ></Tooltip>
+  //       </View>
+
+  //       <TouchableOpacity onLongPress={handleLongPress} onPress={hideHeader}>
+  //         {viewTypeMap[item.part.Type]}
+  //       </TouchableOpacity>
+  //     </View>
+  //   );
+  // };
+  const previousOffsetRef = useRef(0);
+
+  const handleScroll = useCallback(
+    (event) => {
+      const currentOffset = event.nativeEvent.contentOffset.y;
+      const isScrollingDown = currentOffset > previousOffsetRef.current;
+
+      if (isScrollingDown && navbarVisibility) {
+        setNavbarVisibility(false);
+      } else if (!isScrollingDown && !navbarVisibility) {
+        setNavbarVisibility(true);
+      }
+
+      previousOffsetRef.current = currentOffset;
+    },
+    [navbarVisibility]
+  ); // Dependency array ensures function stability
+
   if (isLoading) {
     return (
       <View style={styles.loadingContainer}>
@@ -195,12 +269,14 @@ const BookScreen = memo(() => {
       <FlatList
         ref={flatListRef}
         style={{ flex: 1 }}
+        scrollEventThrottle={16} // Improve performance
         showsVerticalScrollIndicator={true}
         data={bookContents}
         renderItem={renderItems}
         keyExtractor={(item) => item.key}
         onScrollToIndexFailed={onScrollToIndexFailed}
         bounces={false}
+        onScroll={handleScroll}
         removeClippedSubviews={true}
       />
       {bishopIsPresent && <FloatingButton navigation={navigation} />}

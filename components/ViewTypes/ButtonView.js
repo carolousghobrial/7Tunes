@@ -126,9 +126,6 @@ function ButtonView({
     const oldCount = partCopy.Count; // Default to 0 if Count is NaN
     const newCount = oldCount + 1; // Increment count by 1
 
-    console.log("Old count:", oldCount);
-    console.log("New count:", newCount);
-
     // Helper function to replace old count with new count in text
     const replaceCount = (text) =>
       text.replace(`( ${oldCount} )`, `( ${newCount} )`);
@@ -137,8 +134,6 @@ function ButtonView({
     partCopy.English = replaceCount(partCopy.English);
     partCopy.Arabic = replaceCount(partCopy.Arabic);
     partCopy.Count = newCount;
-    console.log("Updated English:", partCopy.English);
-    console.log("Updated Arabic:", partCopy.Arabic);
 
     // Hide item if count is greater than or equal to 12
     if (newCount >= 12) partCopy.Visible = "hide";

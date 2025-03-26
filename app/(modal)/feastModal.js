@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from "react";
+import React, { useEffect, useMemo, useCallback } from "react";
 import {
   View,
   Text,
@@ -37,7 +37,7 @@ function FeastModal() {
   // Parsed feast data
   const myFeast = JSON.parse(feast);
   const { key, start, end } = myFeast;
-
+  console.log(myFeast);
   // Dynamic Styles and Layout
   const isLandscape = width > height;
   const flexDirection = isLandscape ? "row" : "column";
@@ -57,10 +57,6 @@ function FeastModal() {
   // Dates
   const startMoment = moment(start);
   const endMoment = moment(end);
-  const endMomentString =
-    endMoment && endMoment.isValid()
-      ? ` - ${endMoment.format("MMM Do YYYY")}`
-      : "";
 
   const copticStartDate = getCopticDate(
     startMoment.year(),
@@ -82,6 +78,13 @@ function FeastModal() {
     copticEndDate.month,
     copticEndDate.day
   );
+  const getFormattedDate = useCallback((date) => {
+    if (!date) return "";
+    const momentDate = moment(date);
+    return momentDate.isValid() ? momentDate.format("MMM Do YYYY") : "";
+  }, []);
+  const startMomentString = getFormattedDate(start);
+  const endMomentString = end ? ` - ${getFormattedDate(end)}` : "";
 
   function setFeast(feast) {
     const myCurrentSeason = setCurrentSeasonByKey(timeTransition, feast);
@@ -105,16 +108,12 @@ function FeastModal() {
       ),
     });
   }, [navigation, title, router]);
-
   return (
     <SafeAreaView
-      style={[
-        styles.container,
-        { flexDirection: flexDirection, backgroundColor },
-      ]}
+      style={[styles.container, { flexDirection, backgroundColor }]}
     >
       {/* Saint Image and Title */}
-      <View style={[styles.imageContainer]}>
+      <View style={styles.imageContainer}>
         <Image
           source={images[key]}
           style={[
@@ -125,24 +124,29 @@ function FeastModal() {
               borderRadius: imageSize / 2,
             },
           ]}
+          resizeMode="contain"
         />
         <Text style={[styles.text, { color: labelColor }]}>{title}</Text>
       </View>
 
-      {/* Saint Options */}
+      {/* Date Information */}
       <View style={styles.optionsContainer}>
         <Text style={[styles.text, { color: labelColor }]}>
-          {startMoment.format("MMM Do YYYY")}
-          {endMomentString}
+          {startMomentString} {endMomentString}
+        </Text>
+        <Text style={[styles.text, { color: labelColor }]}>
+          {copticStartDateString} {copticEndDateString}
         </Text>
       </View>
+
       <ScrollView>
         <Text style={[styles.text, { color: labelColor }]}>{fact}</Text>
       </ScrollView>
+
       {/* Save Button */}
       <Pressable
         style={[styles.button, { borderColor: labelColor }]}
-        onPress={() => setFeast(key)}
+        onPress={setFeast.bind(this, myFeast)}
       >
         <Text style={styles.buttonText}>Set</Text>
       </Pressable>
@@ -162,7 +166,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   image: {
-    resizeMode: "stretch",
+    resizeMode: "contain",
   },
   text: {
     fontSize: 20,
@@ -170,22 +174,19 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     marginTop: 8,
+    lineHeight: 28,
   },
   optionsContainer: {
-    flex: 1,
     width: "100%",
-  },
-  optionRow: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginVertical: 8,
+    marginBottom: 12,
   },
   button: {
     backgroundColor: "blue",
-    paddingVertical: 10,
-    paddingHorizontal: 20,
-    borderRadius: 5,
+    paddingVertical: 12,
+    paddingHorizontal: 24,
+    borderRadius: 6,
     marginTop: 20,
+    elevation: 3,
   },
   buttonText: {
     color: "white",

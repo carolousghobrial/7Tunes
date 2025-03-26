@@ -29,7 +29,6 @@ import TitleView from "../components/ViewTypes/TitleView.js";
 import RitualView from "../components/ViewTypes/RitualView.js";
 import ButtonView from "../components/ViewTypes/ButtonView.js";
 import MainTitleView from "../components/ViewTypes/MainTitleView.js";
-import SettingsModal from "../components/BottomBar/SettingsModal.js";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 const SingleHymnAsView = memo(

@@ -61,7 +61,6 @@ function useButtonRules(item, motherSource, flatListRef, viewData, router) {
   };
   const SkipTasbehaCommemoration = () => {
     const index = viewData.findIndex((part) => part.part.Path === "doxologies");
-    console.log(index);
     flatListRef.current.scrollToIndex({ index: index - 4, animated: false });
   };
 

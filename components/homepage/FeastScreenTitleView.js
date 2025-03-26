@@ -17,7 +17,7 @@ import {
 import { setSeason } from "../../stores/redux/settings";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
 
-function FeastScreenTitleView({ yearClick, changeDate }) {
+function FeastScreenTitleView({ yearClick }) {
   const dispatch = useDispatch();
   const navigation = useNavigation();
   const currentSeason = useSelector((state) => state.settings.currentSeason);
@@ -38,17 +38,13 @@ function FeastScreenTitleView({ yearClick, changeDate }) {
   const isPortrait = width < height;
 
   useEffect(() => {
-    try {
-      setDate(
-        new Date(
-          currentSeason.gregorianYear,
-          currentSeason.gregorianMonth,
-          currentSeason.gregorianDayOfMonth
-        )
-      );
-    } catch (error) {
-      console.error("Error setting date:", error);
-    }
+    setDate(
+      new Date(
+        currentSeason.gregorianYear,
+        currentSeason.gregorianMonth,
+        currentSeason.gregorianDayOfMonth
+      )
+    );
   }, [currentSeason]);
 
   const liveClicked = () => {
@@ -64,7 +60,7 @@ function FeastScreenTitleView({ yearClick, changeDate }) {
   };
 
   const handleTimeChange = (event, selectedDate) => {
-    if (selectedDate && selectedDate !== date) {
+    if (selectedDate) {
       setShowPicker(Platform.OS === "ios");
       const updatedSeason = getCurrentSeasonByDate(
         selectedDate,
@@ -73,10 +69,6 @@ function FeastScreenTitleView({ yearClick, changeDate }) {
       dispatch(setSeason({ currentSeason: updatedSeason }));
       setDate(selectedDate);
     }
-  };
-
-  const togglePickerVisibility = () => {
-    setShowPicker(!showPicker);
   };
 
   return (
@@ -97,21 +89,15 @@ function FeastScreenTitleView({ yearClick, changeDate }) {
       {/* Date Picker */}
       <View
         style={[
-          styles.titleView,
+          styles.dateContainer,
           { backgroundColor: getColor("NavigationBarColor") },
         ]}
       >
         {isAndroid ? (
-          <Pressable onPress={togglePickerVisibility}>
-            <Text style={styles.openCalText}>Open Calendar</Text>
-            {showPicker && (
-              <DateTimePicker
-                value={date}
-                mode="date"
-                display="default"
-                onChange={handleTimeChange}
-              />
-            )}
+          <Pressable onPress={() => setShowPicker(!showPicker)}>
+            <Text style={styles.openCalText}>
+              {getLanguageValue("openCalendar")}
+            </Text>
           </Pressable>
         ) : (
           <DateTimePicker
@@ -119,7 +105,15 @@ function FeastScreenTitleView({ yearClick, changeDate }) {
             mode="date"
             display="default"
             onChange={handleTimeChange}
-            style={[styles.datePicker, { height: 40 }]} // Custom style added here
+            style={styles.datePicker}
+          />
+        )}
+        {isAndroid && showPicker && (
+          <DateTimePicker
+            value={date}
+            mode="date"
+            display="default"
+            onChange={handleTimeChange}
           />
         )}
       </View>
@@ -127,7 +121,7 @@ function FeastScreenTitleView({ yearClick, changeDate }) {
       {/* Year Selection */}
       <Pressable
         style={[
-          styles.titleView,
+          styles.yearContainer,
           { backgroundColor: getColor("NavigationBarColor") },
         ]}
         onPress={yearClick}
@@ -144,40 +138,57 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     width: "100%",
+    paddingHorizontal: 5,
+    alignItems: "center",
+    justifyContent: "space-between",
   },
   liveContainer: {
-    flex: 4,
-    margin: 3,
-    opacity: 0.8,
-    borderColor: "black",
+    flex: 3,
+    margin: 5,
+    paddingVertical: 12,
+    borderRadius: 8,
+    alignItems: "center",
+    justifyContent: "center",
+    opacity: 0.85,
   },
   liveText: {
     fontFamily: "englishtitle-font",
+    fontSize: 18,
     textAlign: "center",
-    fontSize: 25,
   },
-  titleView: {
-    flex: 3,
-    margin: 3,
-    opacity: 0.8,
-    borderColor: "black",
+  dateContainer: {
+    flex: 4,
+    margin: 5,
+    paddingVertical: 12,
+    borderRadius: 8,
+    alignItems: "center",
+    justifyContent: "center",
+    opacity: 0.85,
   },
   openCalText: {
     fontFamily: "englishtitle-font",
+    fontSize: 20,
     textAlign: "center",
-    fontSize: 23,
   },
   datePicker: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    transform: [{ scale: 0.9 }], // Shrink the picker slightly
-    fontSize: 12, // Reducing the font size
+    transform: [{ scale: 0.9 }],
+  },
+  yearContainer: {
+    flex: 3,
+    margin: 5,
+    paddingVertical: 12,
+    borderRadius: 8,
+    alignItems: "center",
+    justifyContent: "center",
+    opacity: 0.85,
   },
   yearText: {
     fontFamily: "englishtitle-font",
+    fontSize: 18,
     textAlign: "center",
-    fontSize: 25,
   },
 });
 
