@@ -373,15 +373,19 @@ function processInnerPart(
   const { EnglishTitle, CopticTitle, ArabicTitle } = titles;
 
   const addViewEntry = (addPart) => {
-    myViewArray.push({
-      part: addPart,
-      path: Path,
-      key,
-      EnglishTitle,
-      CopticTitle,
-      ArabicTitle,
-    });
-    key++;
+    try {
+      myViewArray.push({
+        part: addPart,
+        path: Path,
+        key: key,
+        EnglishTitle,
+        CopticTitle,
+        ArabicTitle,
+      });
+      key++;
+    } catch (error) {
+      console.log(addPart);
+    }
   };
 
   const handlers = {
@@ -424,7 +428,11 @@ function processInnerPart(
     default: () => {
       const newRule = thisRule || motherSource;
       const addPart = addItemsToArray(part, newRule);
+
       addViewEntry(addPart);
+    },
+    Counter: () => {
+      addViewEntry(part);
     },
   };
 

@@ -1,43 +1,28 @@
-import React, { useCallback } from "react";
-import { StyleSheet, TextInput, View, Keyboard, Button } from "react-native";
-import { Feather, Entypo } from "@expo/vector-icons";
+import React from "react";
 import {
-  getLanguageValue,
-  getFontSize,
-  getColor,
-} from "../../helpers/SettingsHelpers";
-const SearchBar = ({
-  setClicked,
-  clicked,
-  handleSearch,
-  searchPhrase,
-  setSearchPhrase,
-}) => {
-  let labelColor = getColor("LabelColor");
-  let backgroundColor = getColor("NavigationBarColor");
-  const tempSetClick = useCallback(() => {
-    setClicked(true);
-  }, [setClicked]);
+  StyleSheet,
+  TextInput,
+  View,
+  Keyboard,
+  TouchableOpacity,
+  Text,
+} from "react-native";
+import { Feather, Entypo } from "@expo/vector-icons";
+import { getColor } from "../../helpers/SettingsHelpers";
+
+const SearchBar = ({ handleSearch, searchPhrase, setSearchPhrase }) => {
+  const labelColor = getColor("LabelColor");
+  const backgroundColor = getColor("NavigationBarColor");
 
   const clearSearch = () => {
+    setSearchPhrase("");
     handleSearch("");
     Keyboard.dismiss();
   };
 
-  const cancelSearch = () => {
-    Keyboard.dismiss();
-    setClicked(false);
-  };
-
   return (
     <View style={styles.container}>
-      <View
-        style={[
-          styles.searchBar,
-          { backgroundColor: backgroundColor },
-          clicked && styles.searchBarClicked,
-        ]}
-      >
+      <View style={[styles.searchBar, { backgroundColor }]}>
         <Feather
           name="search"
           size={20}
@@ -46,59 +31,53 @@ const SearchBar = ({
         />
         <TextInput
           style={[styles.input, { color: labelColor }]}
-          placeholder="Search"
+          placeholder="Search..."
           placeholderTextColor={labelColor}
           value={searchPhrase}
-          onChangeText={handleSearch}
-          onFocus={tempSetClick}
+          onChangeText={(text) => {
+            setSearchPhrase(text);
+            handleSearch(text);
+          }}
+          returnKeyType="search"
         />
-        {clicked && (
-          <Entypo
-            name="cross"
-            size={20}
-            color={labelColor}
-            style={styles.icon}
-            onPress={clearSearch}
-          />
+        {searchPhrase.length > 0 && (
+          <TouchableOpacity onPress={clearSearch}>
+            <Entypo
+              name="cross"
+              size={20}
+              color={labelColor}
+              style={styles.icon}
+            />
+          </TouchableOpacity>
         )}
       </View>
-      {clicked && (
-        <Button
-          style={{ color: labelColor }}
-          title="Cancel"
-          onPress={cancelSearch}
-        />
-      )}
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    margin: 15,
     flexDirection: "row",
-    width: "100%",
+    alignItems: "center",
+    paddingHorizontal: 10,
+    marginVertical: 10,
   },
   searchBar: {
-    padding: 10,
-    opacity: 0.8,
+    flex: 1,
     flexDirection: "row",
-    width: "95%",
-    borderRadius: 15,
     alignItems: "center",
-  },
-  searchBarClicked: {
-    width: "80%",
-    justifyContent: "space-evenly",
-  },
-  icon: {
-    marginLeft: 1,
-    padding: 1,
+    padding: 10,
+    borderRadius: 15,
+    opacity: 0.9,
+    elevation: 3,
   },
   input: {
-    fontSize: 20,
-    marginLeft: 10,
-    width: "90%",
+    flex: 1,
+    fontSize: 18,
+    marginLeft: 8,
+  },
+  icon: {
+    padding: 5,
   },
 });
 

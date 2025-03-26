@@ -1314,8 +1314,6 @@ const JohnTheBaptistShow = (motherSource, path) => {
 
   switch (currentSeason.key) {
     case FeastEnum.EPIPHANY_PARAMOUN:
-    case FeastEnum.GREAT_LENT:
-      return !path?.toLowerCase().includes("oranen");
 
     case FeastEnum.EPIPHANY:
     case FeastEnum.EPIPHANY_SECONDDAY:

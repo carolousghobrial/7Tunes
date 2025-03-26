@@ -3,7 +3,13 @@ import { View, Text, Alert, TouchableOpacity, StyleSheet } from "react-native";
 import { useSelector } from "react-redux";
 import { useRouter } from "expo-router";
 
-function ButtonView({ item, motherSource, flatListRef, viewData }) {
+function ButtonView({
+  item,
+  motherSource,
+  flatListRef,
+  bookContents,
+  setBookContents,
+}) {
   const fontSize = useSelector((state) => state.settings.textFontSize); // Access font size
   const router = useRouter();
 
@@ -58,9 +64,11 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
         break;
 
       case "ThokTeTiGomScrollUpButtonRule":
-        const index = viewData.findIndex(
+        const index = bookContents.findIndex(
           (part) => part.EnglishTitle === "Pascha Praise"
         );
+
+        updateItemCount(item);
 
         flatListRef.current.scrollToIndex({
           index: index + 3,
@@ -69,7 +77,7 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
         break;
 
       case "SkipShortLitanies":
-        const skipIndex = viewData.findIndex(
+        const skipIndex = bookContents.findIndex(
           (part) => part.path === "RaisingOfIncenseAbsolution"
         );
         flatListRef.current.scrollToIndex({
@@ -79,7 +87,7 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
         break;
 
       case "SkipTasbehaCommemoration":
-        const skipTasbehaIndex = viewData.findIndex(
+        const skipTasbehaIndex = bookContents.findIndex(
           (part) => part.part.Path === "doxologies"
         );
         flatListRef.current.scrollToIndex({
@@ -96,6 +104,53 @@ function ButtonView({ item, motherSource, flatListRef, viewData }) {
         console.warn("No matching rule found for this button!");
         break;
     }
+  };
+  const updateItemCount = (item) => {
+    // Create a copy of the bookContents array to avoid mutating the original array
+    const updatedBookContents = [...bookContents];
+
+    // Find the item that matches the rule (you could also use .map or .find depending on your use case)
+    const index = updatedBookContents.findIndex(
+      ({ part }) => part.Rule === "ThokTeTiGomScrollUpButtonRule"
+    );
+
+    if (index === -1) {
+      console.log("Item not found");
+      return; // If no item is found, exit early
+    }
+
+    // Deep copy the item to avoid modifying original references
+    const itemCopy = { ...updatedBookContents[index] }; // Shallow copy
+    const partCopy = { ...itemCopy.part }; // Shallow copy of part object
+    // Ensure Count is a valid number before incrementing
+    const oldCount = partCopy.Count; // Default to 0 if Count is NaN
+    const newCount = oldCount + 1; // Increment count by 1
+
+    console.log("Old count:", oldCount);
+    console.log("New count:", newCount);
+
+    // Helper function to replace old count with new count in text
+    const replaceCount = (text) =>
+      text.replace(`( ${oldCount} )`, `( ${newCount} )`);
+
+    // Modify the English and Arabic properties in the partCopy
+    partCopy.English = replaceCount(partCopy.English);
+    partCopy.Arabic = replaceCount(partCopy.Arabic);
+    partCopy.Count = newCount;
+    console.log("Updated English:", partCopy.English);
+    console.log("Updated Arabic:", partCopy.Arabic);
+
+    // Hide item if count is greater than or equal to 12
+    if (newCount >= 12) partCopy.Visible = "hide";
+
+    // Update the item with the modified partCopy
+    itemCopy.part = partCopy;
+
+    // Update the modified item back into the updated array at the correct index
+    updatedBookContents[index] = itemCopy;
+
+    // Update the state with the modified array
+    setBookContents(updatedBookContents);
   };
 
   return (

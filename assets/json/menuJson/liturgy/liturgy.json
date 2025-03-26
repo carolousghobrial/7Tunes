@@ -35,6 +35,14 @@
             "PermissionStatus": "holyLiturgyPermission",
             "PurchaseKey": "LiturgyOffering",
             "offering": "LiturgyOffering"
+        },
+        {
+            "EnglishTitle": "Evening Prayers",
+            "ArabicTitle": "صلاة المساء ",
+            "hasSubBooks": false,
+            "BookPath": "eveningPrayers",
+            "ImageURL": "eveningPrayers",
+            "Enabled": true
         }
     ]
 }

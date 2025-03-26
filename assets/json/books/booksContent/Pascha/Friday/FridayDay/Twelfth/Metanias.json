@@ -1,6 +1,6 @@
 {
     "RefrainAfter": 0,
-    "ArabicTitle": "الختام",
+    "ArabicTitle": "الميطانيات ",
     "EnglishTitle": "400 Prostrations (Metanias) ",
     "Hymn": [
         {
@@ -54,6 +54,13 @@
             "English": "Lord have mercy (400)",
             "Arabiccoptic": " كيرياليسون (400)",
             "Englishcoptic": "Kerie-leyson (400)"
+        },
+        {
+            "Type": "Counter",
+            "Rule": 0,
+            "Visible": true,
+            "CountNum": 400,
+            "IncrementBy": 1
         },
         {
             "Type": "Ritual",

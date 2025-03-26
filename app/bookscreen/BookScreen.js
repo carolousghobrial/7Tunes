@@ -26,7 +26,7 @@ import {
   Platform,
 } from "react-native";
 import { Entypo } from "@expo/vector-icons";
-
+import Counter from "../../components/ViewTypes/CounterView.js";
 import {
   BottomSheetModalProvider,
   BottomSheetModal,
@@ -51,11 +51,11 @@ import { useNavigation, useRouter, useLocalSearchParams } from "expo-router";
 
 const Drawer = createDrawerNavigator();
 
-const BookScreen = () => {
+const BookScreen = memo(() => {
   const flatListRef = useRef();
   const route = useRoute();
   const router = useRouter();
-
+  console.log("HEREEE");
   const { index, values, bookPath } = route.params || {};
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
@@ -64,64 +64,9 @@ const BookScreen = () => {
     (state) => state.settings.BishopIsPresent
   );
   const isAndroid = Platform.OS === "ios" ? false : true;
+  const [navbarVisibility, setNavbarVisibility] = useState(true);
 
-  const [bookContents, setBookContents] = useState(
-    getFirstContinuousRangeWithUniquePaths(6, values)
-  );
-  console.log(bookContents.length);
-
-  function getFirstContinuousRangeWithUniquePaths(
-    pathCount,
-    data,
-    currentPaths = []
-  ) {
-    const uniquePaths = new Set(currentPaths);
-    let endIndex = -1;
-
-    // Iterate through the data and track unique paths
-    for (let i = 0; i < data.length; i++) {
-      const path = data[i].path || data[i].part?.Path;
-
-      if (path && !uniquePaths.has(path)) {
-        uniquePaths.add(path);
-
-        // Once we have enough unique paths, record the index and break
-        if (uniquePaths.size === pathCount) {
-          endIndex = i;
-          break;
-        }
-      }
-    }
-
-    // If we found the required number of unique paths, return the slice; otherwise, return all data
-    return endIndex !== -1 ? data.slice(0, endIndex + 1) : data;
-  }
-  const handleViewableItemsChanged = useCallback(
-    ({ viewableItems }) => {
-      const firstItem = viewableItems[0]?.item;
-      const newPath = firstItem?.part?.Path || firstItem?.path;
-
-      if (!newPath || bookContents.length === values.length) return;
-
-      // Compute unique paths only when `bookContents` changes
-      const uniquePaths = bookContents.map(
-        (item) => item.path || item.part?.Path
-      );
-
-      const newContents = getFirstContinuousRangeWithUniquePaths(
-        2,
-        values,
-        uniquePaths
-      );
-
-      // Only update the state if there is a change in contents
-      if (JSON.stringify(bookContents) !== JSON.stringify(newContents)) {
-        setBookContents(newContents);
-      }
-    },
-    [bookContents, values]
-  );
-
+  const [bookContents, setBookContents] = useState(values);
   const [isLoading, setIsLoading] = useState(true);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
   const isTablet = useSelector((state) => state.settings.isTablet);
@@ -151,203 +96,121 @@ const BookScreen = () => {
       ),
       headerTitleStyle: {
         color: labelColor,
-
         fontSize,
         fontFamily,
       },
+      headerShown: navbarVisibility,
     });
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 10);
-  }, [appLanguage, bookContents, flatListRef]);
 
-  const scrollToKey = (key) => {
-    try {
-      const targetIndex = values?.findIndex(
-        ({ key: itemKey }) => itemKey === key.key
-      );
-      if (targetIndex === -1) return; // Exit if the key is not found
-
-      setIsLoading(true); // Start loading
-
-      if (targetIndex >= bookContents.length) {
-        // Load data until the target index if not already loaded
-        loadDataUntilIndex(targetIndex);
-      } else {
-        // Scroll directly if data is already loaded
-        scrollToIndex(targetIndex);
-      }
-    } catch (error) {
-      console.error("An error occurred in scrollToKey:", error);
-
-      try {
-        console.log("Attempting recovery: scrolling to the bottom.");
-        scrollToIndex(bookContents.length - 1); // Scroll to the bottom
-
-        // Retry scrolling to the target key
-        setTimeout(() => {
-          const targetIndex = values?.findIndex(
-            ({ key: itemKey }) => itemKey === key.key
-          );
-          if (targetIndex !== -1) {
-            scrollToIndex(targetIndex);
-          } else {
-            console.warn("Key still not found after recovery attempt.");
-          }
-        }, 500); // Delay to ensure smooth recovery
-      } catch (recoveryError) {
-        console.error("Recovery attempt failed:", recoveryError);
-      }
-    }
-  };
+    setIsLoading(false); // Set loading state directly without timeout
+  }, [appLanguage, bookContents, flatListRef, navbarVisibility]);
 
   useEffect(() => {
-    if (index) {
-      scrollToKey(index);
+    if (index !== undefined) {
+      flatListRef.current?.scrollToIndex({ index: index.key, animated: false });
     }
-  }, [index]);
-  const loadDataUntilIndex = (targetIndex) => {
-    // Avoid redundant data loading
-    setBookContents((prevContents) => {
-      if (prevContents.length >= targetIndex + 1) return prevContents; // Data is already loaded
+  }, [bookContents, index]);
 
-      const newRangeStart = prevContents.length;
-      const newRangeEnd = targetIndex + 5; // Load up to the target index (inclusive)
-      const newData = values.slice(newRangeStart, newRangeEnd);
+  const onScrollToIndexFailed = useCallback((error) => {
+    const offset = error.averageItemLength * error.index;
+    flatListRef.current?.scrollToOffset({ offset, animated: false });
 
-      return [...prevContents, ...newData];
-    });
-
-    // Use setTimeout to scroll after the data is loaded and rendered
     setTimeout(() => {
-      scrollToIndex(targetIndex);
-    }, 200); // Ensure the state update and render are complete before scrolling
-  };
-
-  const scrollToIndex = (targetIndex) => {
-    flatListRef.current?.scrollToIndex({
-      index: targetIndex,
-      animated: false,
-    });
-    setIsLoading(false); // Stop loading after scrolling is complete
-  };
-  function openPage(item) {
-    console.log(item);
-    router.push(
-      {
-        pathname: "/bookscreen/BookScreen",
-        params: {
-          bookPath: item.Path,
-          englishTitle: item.English,
-          arabicTitle: item.Arabic,
-          motherSource: item.mother,
-          Switch: item.Switch,
-        },
-      },
-      undefined,
-      { shallow: true }
-    );
-  }
-  // Handle scroll failures
-  const handleScrollToIndexFailed = ({ index }) => {
-    setTimeout(() => {
-      flatListRef.current.scrollToIndex({
-        index,
-        animated: false, // You can keep this as true for smooth scrolling
+      flatListRef.current?.scrollToIndex({
+        index: error.index,
+        animated: false,
       });
-    }, 200); // Add a small delay to allow items to be rendered
-  };
-  const renderItems = ({ item }) => {
-    const viewTypeMap = {
-      Base: <BaseView item={item.part} mykey={item.key} />,
-      Melody: <MelodyView item={item.part} />,
-      Title: <TitleView item={item.part} />,
-      Ritual: <RitualView item={item.part} />,
-      MainTitle: <MainTitleView item={item.part} />,
-      Button: (
-        <ButtonView
-          item={item.part}
-          motherSource={bookPath}
-          flatListRef={flatListRef}
-          viewData={bookContents}
-        />
-      ),
-      MainAccordion: (
-        <AccordionView
-          mykey={item.key}
-          item={item.part}
-          motherSource={bookPath}
-          initialExpanded={true}
-        />
-      ),
-      Accordion: (
-        <AccordionView
-          mykey={item.key}
-          item={item.part}
-          motherSource={bookPath}
-          initialExpanded={false}
-        />
-      ),
-    };
-    return viewTypeMap[item.part.Type];
-  };
+    }, 5); // Delay to allow for smooth scrolling animation
+  }, []);
 
+  const renderItems = useCallback(
+    ({ item, index }) => {
+      const viewTypeMap = {
+        Base: <BaseView item={item.part} mykey={item.key} />,
+        Melody: <MelodyView item={item.part} />,
+        Title: <TitleView item={item.part} />,
+        Ritual: <RitualView item={item.part} />,
+        MainTitle: <MainTitleView item={item.part} />,
+        Button: (
+          <ButtonView
+            item={item.part}
+            index={index}
+            motherSource={bookPath}
+            flatListRef={flatListRef}
+            bookContents={bookContents}
+            setBookContents={setBookContents}
+          />
+        ),
+        MainAccordion: (
+          <AccordionView
+            mykey={item.key}
+            item={item.part}
+            motherSource={bookPath}
+            initialExpanded={true}
+          />
+        ),
+        Counter: (
+          <Counter
+            target={item.part.CountNum}
+            incrementBy={item.part.IncrementBy}
+          />
+        ),
+        Accordion: (
+          <AccordionView
+            mykey={item.key}
+            item={item.part}
+            motherSource={bookPath}
+            initialExpanded={false}
+          />
+        ),
+      };
+
+      return (
+        <Pressable onPressOut={hideHeader}>
+          {viewTypeMap[item.part.Type]}
+        </Pressable>
+      );
+    },
+    [bookContents, bookPath]
+  );
+  const hideHeader = useCallback(() => {
+    setNavbarVisibility((prev) => !prev);
+  }, []);
   if (isLoading) {
     return (
-      <View
-        style={{
-          flex: 1,
-          justifyContent: "center",
-          alignItems: "center",
-          backgroundColor: pageBackgroundColor,
-        }}
-      >
+      <View style={styles.loadingContainer}>
         <Image
-          style={{
-            flex: 8,
-            height: "50%",
-            borderRadius: 100 / 2,
-            overflow: "hidden",
-          }}
+          style={styles.logo}
           source={require("../../assets/images/logofinal.png")}
         />
-        <ActivityIndicator
-          style={{ flex: 2 }}
-          size="large"
-          color={labelColor}
-        />
+        <ActivityIndicator size="large" color={labelColor} />
       </View>
     );
   }
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: pageBackgroundColor }}>
+    <SafeAreaView
+      style={[styles.safeArea, { backgroundColor: pageBackgroundColor }]}
+    >
       <FlatList
         ref={flatListRef}
-        style={{ flex: 1, backgroundColor: pageBackgroundColor }}
-        initialNumToRender={bookContents.length}
-        showsVerticalScrollIndicator={false}
+        style={{ flex: 1 }}
+        showsVerticalScrollIndicator={true}
         data={bookContents}
-        onViewableItemsChanged={handleViewableItemsChanged}
         renderItem={renderItems}
         keyExtractor={(item) => item.key}
-        onScrollToIndexFailed={handleScrollToIndexFailed} // Add error handler
+        onScrollToIndexFailed={onScrollToIndexFailed}
         bounces={false}
         removeClippedSubviews={true}
       />
-      {bishopIsPresent && bishopButton && (
-        <FloatingButton navigation={navigation} />
-      )}
+      {bishopIsPresent && <FloatingButton navigation={navigation} />}
     </SafeAreaView>
   );
-};
+});
 
 const DrawerScreen = () => {
-  //const { } = useLocalSearchParams();
   const route = useRoute();
-
   const { bookPath, motherSource } = route.params || {};
-  console.log(bookPath);
   const values = getFullViewModel(bookPath, motherSource);
   const menuItems = values[1]; // Array of items to populate the drawer
   const pageBackgroundColor = getColor("pageBackgroundColor");
@@ -355,17 +218,17 @@ const DrawerScreen = () => {
   const isTablet = useSelector((state) => state.settings.isTablet);
   const router = useRouter();
 
-  // Navigation function to reduce repetition
-  const handleNavigateToBookScreen = ({ navigation }, item) => {
-    navigation.navigate("BookScreen", {
-      index: item, // Pass the item to the BookScreen
-    });
-  };
-  const openSettings = (props) => {
-    router.push({
-      pathname: "/bookscreen/settingsModal",
-    });
-  };
+  const handleNavigateToBookScreen = useCallback((props, item) => {
+    props.navigation.navigate("BookScreen", { index: item });
+  }, []);
+
+  const openSettings = useCallback(
+    (props) => {
+      router.push({ pathname: "/bookscreen/settingsModal" });
+    },
+    [router]
+  );
+
   return (
     <Drawer.Navigator
       drawerContent={(props) => (
@@ -378,22 +241,19 @@ const DrawerScreen = () => {
           ]}
         >
           <DrawerItemList {...props} />
-
           <DrawerItem
             icon={({ color, size }) => (
               <Ionicons name="settings" color={labelColor} size={size} />
             )}
             label="Settings"
-            labelStyle={{ color: labelColor }} // Correct way to change label color
+            labelStyle={{ color: labelColor }}
             onPress={() => openSettings(props)}
           />
           <DrawerContentScrollView {...props}>
-            {/* Custom Drawer Item */}
             {menuItems.map((item) => (
               <TouchableOpacity
-                key={item.key} // Assuming item.id is unique
-                style={styles.drawerItem}
-                onPress={() => handleNavigateToBookScreen(props, item)} // Using extracted function
+                key={item.key}
+                onPress={() => handleNavigateToBookScreen(props, item)}
               >
                 <MenuItem item={item} />
               </TouchableOpacity>
@@ -417,10 +277,7 @@ const DrawerScreen = () => {
       <Drawer.Screen
         name="BookScreen"
         component={BookScreen}
-        initialParams={{
-          bookPath: bookPath,
-          values: values[0],
-        }}
+        initialParams={{ values: values[0], bookPath }}
         options={({ route }) => {
           const { englishTitle } = route.params;
           return {
@@ -443,9 +300,24 @@ const DrawerScreen = () => {
 export default DrawerScreen;
 
 const styles = StyleSheet.create({
-  backgroundimage: {
-    resizeMode: "cover",
-    justifyContent: "center",
+  safeArea: {
     flex: 1,
+  },
+  backgroundimage: {
+    flex: 1,
+  },
+  logo: {
+    width: 150,
+    height: 150,
+    borderRadius: 75,
+  },
+  headerButton: {
+    paddingRight: 15,
+  },
+  loadingContainer: {
+    justifyContent: "center",
+    alignItems: "center",
+    flex: 1,
+    backgroundColor: "white",
   },
 });
