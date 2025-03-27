@@ -130,7 +130,7 @@ const settingsSlice = createSlice({
     },
     changeFontSize: (state, action) => {
       const minFont = 10;
-      const maxFont = 50;
+      const maxFont = 60;
       const direction = action.payload.direction;
       let currentFontSize = state.textFontSize;
       switch (direction) {

@@ -79,6 +79,8 @@ const Languages = {
     share: "Share Application",
     Thoout: "Thoout",
     Tobe: "Tobe",
+    Return: "Return",
+
     todayprayer: "Today's Prayer",
     presentationMode: "Presentation Mode",
     presentationModeDescription:
@@ -285,6 +287,7 @@ const Languages = {
     moreThan3Bishops: "هل يوجد أكثر من 3 أساقفة حاضرين؟",
     BishopsPresent: "الأساقفة الحاضرون",
     TableOfContents: " المحتويات",
+    Return: "الرجوع",
     setTimeTodayPrayer:
       "اضبط الوقت الذي ترغب في الانتقال فيه إلى اليوم التالي.",
     update: "تحديث التطبيق",

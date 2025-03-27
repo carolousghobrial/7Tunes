@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { View, Text, Alert, TouchableOpacity, StyleSheet } from "react-native";
+import React, { useState, useRef } from "react";
+import { View, Text, Pressable, StyleSheet } from "react-native";
 import { useSelector } from "react-redux";
 import { useRouter } from "expo-router";
 
@@ -10,12 +10,21 @@ function ButtonView({
   bookContents,
   setBookContents,
 }) {
-  const fontSize = useSelector((state) => state.settings.textFontSize); // Access font size
+  const fontSize = useSelector((state) => state.settings.textFontSize);
   const router = useRouter();
+  const [isDisabled, setIsDisabled] = useState(false);
+  const lastPress = useRef(null);
 
   if (item.Visible === "hide") return null;
 
   const handlePress = () => {
+    const now = Date.now();
+    if (lastPress.current && now - lastPress.current < 1000) return; // Prevent double-tap within 1s
+    lastPress.current = now;
+
+    setIsDisabled(true);
+    setTimeout(() => setIsDisabled(false), 1000); // Re-enable after 1 second
+
     switch (item.Rule) {
       case "OpenTheotokiaButtonRule":
       case "OpenDoxologiesButtonRule":
@@ -105,56 +114,49 @@ function ButtonView({
         break;
     }
   };
-  const updateItemCount = (item) => {
-    // Create a copy of the bookContents array to avoid mutating the original array
-    const updatedBookContents = [...bookContents];
 
-    // Find the item that matches the rule (you could also use .map or .find depending on your use case)
+  const updateItemCount = (item) => {
+    const updatedBookContents = [...bookContents];
     const index = updatedBookContents.findIndex(
       ({ part }) => part.Rule === "ThokTeTiGomScrollUpButtonRule"
     );
 
-    if (index === -1) {
-      console.log("Item not found");
-      return; // If no item is found, exit early
-    }
+    if (index === -1) return;
 
-    // Deep copy the item to avoid modifying original references
-    const itemCopy = { ...updatedBookContents[index] }; // Shallow copy
-    const partCopy = { ...itemCopy.part }; // Shallow copy of part object
-    // Ensure Count is a valid number before incrementing
-    const oldCount = partCopy.Count; // Default to 0 if Count is NaN
-    const newCount = oldCount + 1; // Increment count by 1
+    const itemCopy = { ...updatedBookContents[index] };
+    const partCopy = { ...itemCopy.part };
+    const oldCount = partCopy.Count;
+    const newCount = oldCount + 1;
 
-    // Helper function to replace old count with new count in text
     const replaceCount = (text) =>
       text.replace(`( ${oldCount} )`, `( ${newCount} )`);
 
-    // Modify the English and Arabic properties in the partCopy
     partCopy.English = replaceCount(partCopy.English);
     partCopy.Arabic = replaceCount(partCopy.Arabic);
     partCopy.Count = newCount;
 
-    // Hide item if count is greater than or equal to 12
     if (newCount >= 12) partCopy.Visible = "hide";
 
-    // Update the item with the modified partCopy
     itemCopy.part = partCopy;
-
-    // Update the modified item back into the updated array at the correct index
     updatedBookContents[index] = itemCopy;
-
-    // Update the state with the modified array
     setBookContents(updatedBookContents);
   };
 
   return (
-    <TouchableOpacity style={[styles.buttonContainer]} onPress={handlePress}>
+    <Pressable
+      style={({ pressed }) => [
+        styles.buttonContainer,
+        pressed && styles.pressedButton,
+        isDisabled && styles.disabledButton,
+      ]}
+      onPress={handlePress}
+      disabled={isDisabled}
+    >
       <View style={[styles.bookView, { flexDirection: "column" }]}>
         <Text style={[styles.text, { fontSize }]}>{item.English}</Text>
         <Text style={[styles.text, { fontSize }]}>{item.Arabic}</Text>
       </View>
-    </TouchableOpacity>
+    </Pressable>
   );
 }
 
@@ -184,8 +186,11 @@ const styles = StyleSheet.create({
     textAlign: "center",
     textDecorationLine: "underline",
   },
+  pressedButton: {
+    opacity: 0.7, // Slight fade when pressed
+  },
   disabledButton: {
-    opacity: 0.5, // Reduce opacity when disabled
+    opacity: 0.5, // Reduced opacity when disabled
   },
 });
 

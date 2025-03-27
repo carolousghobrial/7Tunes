@@ -63,6 +63,7 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 10,
     backgroundColor: "rgba(52, 52, 52, 0.2)",
+    borderWidth: 2,
   },
   titleView: {
     flex: 2,

@@ -1,23 +1,16 @@
+import React, { useState, useMemo, useCallback } from "react";
 import {
   View,
-  Switch,
-  Button,
-  StyleSheet,
   Text,
-  Image,
-  FlatList,
-  Platform,
   Pressable,
   Modal,
   SectionList,
   SafeAreaView,
-  TouchableWithoutFeedback,
   useWindowDimensions,
-  ScrollView,
+  StyleSheet,
 } from "react-native";
+import { useSelector } from "react-redux";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers";
-import { useDispatch, useSelector } from "react-redux";
-import React, { useState, useRef, useEffect } from "react";
 import SearchBar from "../ViewTypes/SearchBar";
 
 const bishopsList = require("../../assets/json/bishopsList.json");
@@ -26,190 +19,158 @@ function BishopsPopup({ visible, closeModal, setBishop }) {
   const fontSize = useSelector((state) => state.settings.textFontSize);
   const appLanguage = useSelector((state) => state.settings.appLanguage);
 
-  let labelColor = getColor("LabelColor");
-  let itemBackgroundColor = getColor("pageBackgroundColor");
-  let pageBackgroundColor = getColor("NavigationBarColor");
+  // Theme colors
+  const labelColor = getColor("LabelColor");
+  const itemBackgroundColor = getColor("pageBackgroundColor");
+  const pageBackgroundColor = getColor("NavigationBarColor");
+
+  // Get screen dimensions for responsive layout
+  const { width, height } = useWindowDimensions();
+  const isLandscape = width > height;
+
+  const [searchPhrase, setSearchPhrase] = useState("");
   const [clicked, setClicked] = useState(false);
 
-  const { width, height } = useWindowDimensions();
-  let viewheight = "70%";
-  let viewwidth = "100%";
-  let imageSize = width / 2.5;
-  const imageStyle = {
-    width: imageSize,
-    height: imageSize,
-    borderRadius: imageSize / 2,
-  };
+  // Process and sort bishop data
+  const DATA = useMemo(
+    () =>
+      [
+        { title: "Metropolitans", data: bishopsList.Metropolitans },
+        { title: "Diocese Bishops", data: bishopsList.Diocese_Bishops },
+        { title: "Monastery Bishops", data: bishopsList.Monastery_Bishops },
+      ].map((section) => ({
+        ...section,
+        data: section.data.sort((a, b) => a.English.localeCompare(b.English)),
+      })),
+    []
+  );
 
-  if (width > height) {
-    flexDirection = "row";
-    viewheight = "100%";
-    viewwidth = "50%";
-  }
-  const [searchPhrase, setSearchPhrase] = useState("");
-
-  const popeObject = bishopsList.POPE;
-  const antiochPope = bishopsList.ANTIOCH_POPE;
-  const eritreaPope = bishopsList.ERITREAN_POPE;
-
-  const metropolitains = bishopsList.Metropolitans;
-  const bishops = bishopsList.Diocese_Bishops;
-  const m_bishops = bishopsList.Monastery_Bishops;
-
-  const DATA = [
-    {
-      title: "Metropolitans",
-      data: metropolitains.sort((a, b) => a.English.localeCompare(b.English)),
-    },
-    {
-      title: "Diocese Bishops",
-      data: bishops.sort((a, b) => a.English.localeCompare(b.English)),
-    },
-    {
-      title: "Monastery Bishops",
-      data: m_bishops.sort((a, b) => a.English.localeCompare(b.English)),
-    },
-  ];
-  const [currentData, setcurrentData] = useState(DATA);
-
-  const handleSearch = (text) => {
-    setSearchPhrase(text);
-    const filteredSecitions = DATA.reduce((result, sectionData) => {
-      const { title, data } = sectionData;
-      const filteredData = data.filter(
+  // Search function with memoization
+  const filteredData = useMemo(() => {
+    if (!searchPhrase) return DATA;
+    return DATA.reduce((result, section) => {
+      const filteredItems = section.data.filter(
         (item) =>
-          item.English.toLowerCase()?.includes(text.toLowerCase()) ||
-          item.Arabic?.includes(text) ||
-          item.dioceseEnglish.toLowerCase()?.includes(text.toLowerCase()) ||
-          item.dioceseArabic?.includes(text)
+          item.English.toLowerCase().includes(searchPhrase.toLowerCase()) ||
+          item.Arabic.includes(searchPhrase) ||
+          item.dioceseEnglish
+            .toLowerCase()
+            .includes(searchPhrase.toLowerCase()) ||
+          item.dioceseArabic.includes(searchPhrase)
       );
-
-      if (filteredData.length !== 0) {
-        result.push({
-          title,
-          data: filteredData,
-        });
-      }
-
+      if (filteredItems.length)
+        result.push({ title: section.title, data: filteredItems });
       return result;
     }, []);
+  }, [searchPhrase, DATA]);
 
-    setcurrentData(filteredSecitions);
-  };
   return (
     <Modal
       animationType="slide"
       visible={visible}
       transparent
       onRequestClose={closeModal}
-      supportedOrientations={[
-        "portrait",
-        "portrait-upside-down",
-        "landscape",
-        "landscape-left",
-        "landscape-right",
-      ]}
+      supportedOrientations={["portrait", "landscape"]}
     >
       <SafeAreaView
-        style={[
-          styles.container,
-          {
-            backgroundColor: pageBackgroundColor,
-          },
-        ]}
+        style={[styles.container, { backgroundColor: pageBackgroundColor }]}
       >
         <SearchBar
           setClicked={setClicked}
           searchPhrase={searchPhrase}
-          handleSearch={handleSearch}
+          handleSearch={setSearchPhrase}
           setSearchPhrase={setSearchPhrase}
           clicked={clicked}
         />
+
         <SectionList
-          sections={currentData}
-          style={{ width: "100%" }}
-          keyExtractor={(item, index) => item.key}
+          sections={filteredData}
+          keyExtractor={(item, index) => `${item.English}-${index}`}
           renderItem={({ item }) => (
             <Pressable
               style={[styles.item, { backgroundColor: itemBackgroundColor }]}
-              onPress={setBishop.bind(this, item)}
+              onPress={() => setBishop(item)}
             >
-              {appLanguage === "eng" ? (
-                <Text style={[styles.title, { color: labelColor }]}>
-                  Abba {item.English}
-                </Text>
-              ) : (
-                <Text style={[styles.title, { color: labelColor }]}>
-                  الانبا {item.Arabic}
-                </Text>
-              )}
-              {appLanguage === "eng" ? (
-                <Text style={[styles.subtitle, { color: labelColor }]}>
-                  {item.dioceseEnglish}
-                </Text>
-              ) : (
-                <Text style={[styles.subtitle, { color: labelColor }]}>
-                  {item.dioceseArabic}
-                </Text>
-              )}
+              <Text style={[styles.title, { color: labelColor }]}>
+                {appLanguage === "eng"
+                  ? `Abba ${item.English}`
+                  : `الانبا ${item.Arabic}`}
+              </Text>
+              <Text style={[styles.subtitle, { color: labelColor }]}>
+                {appLanguage === "eng"
+                  ? item.dioceseEnglish
+                  : item.dioceseArabic}
+              </Text>
             </Pressable>
           )}
           renderSectionHeader={({ section: { title } }) => (
-            <Text style={styles.header}>{title}</Text>
+            <Text style={[styles.header, { color: labelColor }]}>{title}</Text>
           )}
+          style={styles.list}
         />
 
-        <View style={{ flexDirection: "row" }}>
+        <View style={styles.buttonContainer}>
           <Pressable
-            android_ripple={{ color: getColor("pageBackgroundColor") }}
             style={[styles.button, { borderColor: labelColor }]}
             onPress={closeModal}
           >
-            <Text style={[styles.text, { color: labelColor }]}>Close</Text>
+            <Text style={[styles.buttonText, { color: labelColor }]}>
+              Close
+            </Text>
           </Pressable>
         </View>
       </SafeAreaView>
     </Modal>
   );
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-
-    height: "50%",
-    justifyContent: "center",
     alignItems: "center",
+    paddingTop: 10,
+  },
+  list: {
+    width: "100%",
+    paddingHorizontal: 10,
   },
   item: {
-    backgroundColor: "grey",
-    borderColor: "black",
-    marginVertical: 8,
+    padding: 10,
+    marginVertical: 6,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: "#ddd",
   },
   header: {
-    fontSize: 25,
-    backgroundColor: "#fff",
+    fontSize: 22,
+    fontWeight: "bold",
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    backgroundColor: "#f0f0f0",
   },
   title: {
-    fontSize: 20,
+    fontSize: 18,
+    fontWeight: "bold",
   },
   subtitle: {
-    fontSize: 15,
+    fontSize: 14,
+    opacity: 0.8,
   },
-  text: {
-    color: "black",
-    fontSize: 20,
-    fontFamily: "english-font",
-    fontWeight: "bold",
-    textAlign: "center",
+  buttonContainer: {
+    flexDirection: "row",
     justifyContent: "center",
-    alignContent: "center",
+    paddingVertical: 10,
   },
   button: {
-    flex: 1,
-    margin: 5,
-    padding: 5,
-    borderColor: "black",
+    paddingVertical: 10,
+    paddingHorizontal: 20,
     borderWidth: 1,
+    borderRadius: 6,
+  },
+  buttonText: {
+    fontSize: 18,
+    fontWeight: "bold",
   },
 });
+
 export default BishopsPopup;

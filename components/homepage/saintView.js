@@ -28,6 +28,10 @@ const SaintView = ({ item, onClick }) => {
     flexDirection,
     opacity: 0.8,
     backgroundColor: getColor("NavigationBarColor"),
+    borderColor: "black",
+    borderRadius: 30,
+
+    borderWidth: 2,
   };
   const gregDate = getDateByCopticDate(
     currentSeason.copticMonth,

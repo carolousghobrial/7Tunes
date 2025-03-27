@@ -98,6 +98,7 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10,
     borderRadius: 10,
+    borderWidth: 2,
   },
   titleView: {
     flex: 1,

@@ -6,6 +6,7 @@ import {
   DrawerItem,
 } from "@react-navigation/drawer";
 import { Tooltip } from "@rneui/themed";
+import { getLanguageValue } from "../../helpers/SettingsHelpers";
 
 import MenuItem from "../../components/BottomBar/MenuItem.js";
 import SettingsScreen from "../(tabs)/settings.js";
@@ -54,7 +55,6 @@ const Drawer = createDrawerNavigator();
 const BookScreen = memo(() => {
   const flatListRef = useRef();
   const route = useRoute();
-  const router = useRouter();
   const { index, values, bookPath } = route.params || {};
   const NavigationBarColor = getColor("NavigationBarColor");
   const labelColor = getColor("LabelColor");
@@ -62,7 +62,6 @@ const BookScreen = memo(() => {
   const bishopIsPresent = useSelector(
     (state) => state.settings.BishopIsPresent
   );
-  const isAndroid = Platform.OS === "ios" ? false : true;
   const [navbarVisibility, setNavbarVisibility] = useState(true);
 
   const [bookContents, setBookContents] = useState(values);
@@ -76,7 +75,10 @@ const BookScreen = memo(() => {
     const fontSize = isTablet ? 30 : 15;
 
     navigation.getParent()?.setOptions({
-      title: bookContents[0]?.part?.English,
+      title:
+        appLanguage === "eng"
+          ? bookContents[0]?.part?.English
+          : bookContents[0]?.part?.Arabic,
       headerStyle: {
         headerTintColor: labelColor, // Change back button color
         backgroundColor: NavigationBarColor,
@@ -102,7 +104,7 @@ const BookScreen = memo(() => {
     });
 
     setIsLoading(false); // Set loading state directly without timeout
-  }, [appLanguage, bookContents, flatListRef, navbarVisibility]);
+  }, [appLanguage, bookContents, appLanguage, flatListRef, navbarVisibility]);
 
   useEffect(() => {
     if (index !== undefined) {
@@ -111,15 +113,19 @@ const BookScreen = memo(() => {
   }, [bookContents, index]);
 
   const onScrollToIndexFailed = useCallback((error) => {
+    setIsLoading(true);
     const offset = error.averageItemLength * error.index;
     flatListRef.current?.scrollToOffset({ offset, animated: false });
 
     setTimeout(() => {
+      setIsLoading(false);
+
       flatListRef.current?.scrollToIndex({
         index: error.index,
         animated: false,
+        viewPosition: 0,
       });
-    }, 5); // Delay to allow for smooth scrolling animation
+    }, 2); // Delay to allow for smooth scrolling animation
   }, []);
   const [tooltipVisible, setTooltipVisible] = useState({});
 
@@ -234,38 +240,47 @@ const BookScreen = memo(() => {
   // };
   const previousOffsetRef = useRef(0);
 
+  const SCROLL_THRESHOLD = 100; // Adjust this value as needed
+
   const handleScroll = useCallback(
     (event) => {
       const currentOffset = event.nativeEvent.contentOffset.y;
+      const scrollDifference = Math.abs(
+        currentOffset - previousOffsetRef.current
+      );
       const isScrollingDown = currentOffset > previousOffsetRef.current;
 
-      if (isScrollingDown && navbarVisibility) {
-        setNavbarVisibility(false);
-      } else if (!isScrollingDown && !navbarVisibility) {
-        setNavbarVisibility(true);
-      }
+      if (scrollDifference > SCROLL_THRESHOLD) {
+        if (isScrollingDown && navbarVisibility) {
+          setNavbarVisibility(false);
+        } else if (!isScrollingDown && !navbarVisibility) {
+          setNavbarVisibility(true);
+        }
 
-      previousOffsetRef.current = currentOffset;
+        previousOffsetRef.current = currentOffset; // Update only when threshold is exceeded
+      }
     },
     [navbarVisibility]
-  ); // Dependency array ensures function stability
-
-  if (isLoading) {
-    return (
-      <View style={styles.loadingContainer}>
-        <Image
-          style={styles.logo}
-          source={require("../../assets/images/logofinal.png")}
-        />
-        <ActivityIndicator size="large" color={labelColor} />
-      </View>
-    );
-  }
+  );
 
   return (
     <SafeAreaView
       style={[styles.safeArea, { backgroundColor: pageBackgroundColor }]}
     >
+      {isLoading && (
+        <View
+          style={[
+            styles.loadingContainer,
+            { backgroundColor: pageBackgroundColor },
+          ]}
+        >
+          <Image
+            style={styles.logo}
+            source={require("../../assets/images/logofinal.png")}
+          />
+          <ActivityIndicator size="large" color={labelColor} />
+        </View>
+      )}
       <FlatList
         ref={flatListRef}
         style={{ flex: 1 }}
@@ -321,7 +336,7 @@ const DrawerScreen = () => {
             icon={({ color, size }) => (
               <Ionicons name="settings" color={labelColor} size={size} />
             )}
-            label="Settings"
+            label={getLanguageValue("settings")}
             labelStyle={{ color: labelColor }}
             onPress={() => openSettings(props)}
           />
@@ -338,7 +353,7 @@ const DrawerScreen = () => {
         </ImageBackground>
       )}
       screenOptions={{
-        swipeEdgeWidth: isTablet ? 700 : 400,
+        swipeEdgeWidth: isTablet ? 900 : 400,
         headerShown: true,
         drawerPosition: "right",
         drawerLabelStyle: {
@@ -357,7 +372,7 @@ const DrawerScreen = () => {
         options={({ route }) => {
           const { englishTitle } = route.params;
           return {
-            title: "Return",
+            title: getLanguageValue("Return"),
             headerShown: false,
             drawerIcon: ({ color, size }) => (
               <MaterialCommunityIcons
@@ -393,7 +408,6 @@ const styles = StyleSheet.create({
   loadingContainer: {
     justifyContent: "center",
     alignItems: "center",
-    flex: 1,
-    backgroundColor: "white",
+    height: "90%",
   },
 });

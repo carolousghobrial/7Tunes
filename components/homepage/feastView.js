@@ -97,6 +97,7 @@ const styles = StyleSheet.create({
     opacity: 0.8,
     margin: 5,
     padding: 5,
+    borderWidth: 2,
   },
   image: {
     flex: 1,

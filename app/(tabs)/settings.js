@@ -20,7 +20,6 @@ import TodaysPrayer from "../../components/settings/todaysPrayer.js";
 import PresentationMode from "../../components/settings/presentationMode.js";
 import PopeBishop from "../../components/settings/popeBishop.js";
 import Purchases from "react-native-purchases";
-import * as Updates from "expo-updates";
 import { setItemPurchased } from "../../stores/redux/settings";
 import { getLanguageValue, getColor } from "../../helpers/SettingsHelpers.js";
 
@@ -61,20 +60,6 @@ function SettingsScreen() {
   const dispatch = useDispatch();
   const pageBackgroundColor = getColor("pageBackgroundColor");
   const navBarColor = getColor("NavigationBarColor");
-  const [hasUpdate, setHasUpdate] = useState(false);
-
-  useEffect(() => {
-    async function checkForUpdates() {
-      try {
-        const update = await Updates.checkForUpdateAsync();
-        setHasUpdate(update.isAvailable);
-      } catch (error) {
-        console.error("Error checking for updates:", error);
-      }
-    }
-
-    checkForUpdates();
-  }, []);
 
   const handleShare = async () => {
     try {
@@ -102,30 +87,6 @@ function SettingsScreen() {
     );
   };
 
-  const handleUpdate = async () => {
-    try {
-      const update = await Updates.checkForUpdateAsync();
-      if (update.isAvailable) {
-        Alert.alert("New Update!", "Restart the app to apply updates", [
-          { text: "Restart", onPress: applyUpdate },
-        ]);
-      } else {
-        Alert.alert("No Updates", "Your app is up to date.");
-      }
-    } catch (error) {
-      Alert.alert("Update Error", error.message);
-    }
-  };
-
-  const applyUpdate = async () => {
-    try {
-      await Updates.fetchUpdateAsync();
-      await Updates.reloadAsync();
-    } catch (error) {
-      Alert.alert("Error applying update", error.message);
-    }
-  };
-
   const actionHandlers = {
     restorePurchase,
     onShare: handleShare,
@@ -142,18 +103,6 @@ function SettingsScreen() {
         style={styles.backgroundImage}
       >
         <ScrollView contentContainerStyle={styles.scrollViewContent}>
-          {hasUpdate && (
-            <View>
-              <CustomButton
-                onPress={handleUpdate}
-                label={getLanguageValue("update")}
-                fontSize={fontSize}
-              />
-              <View style={styles.badge}>
-                <Text style={styles.badgeText}>1</Text>
-              </View>
-            </View>
-          )}
           <ApplicationLanguage />
           <AppTheme />
           <TodaysPrayer />
@@ -189,7 +138,7 @@ function SettingsScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1 },
-  smallContainer: { margin: 10, padding: 10, borderRadius: 10 },
+  smallContainer: { margin: 10, padding: 10, borderRadius: 10, borderWidth: 2 },
   badge: {
     position: "absolute",
     right: 10,

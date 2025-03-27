@@ -18,19 +18,20 @@ function TodaysPrayer() {
   const dispatch = useDispatch();
   const navigationBarColor = getColor("NavigationBarColor");
   const primaryColor = getColor("PrimaryColor");
+
   const [time, setTime] = useState(new Date(timeTransition));
   const [showPicker, setShowPicker] = useState(false);
 
-  const isAndroid = Platform.OS === "android"; // Simplified condition
+  const isAndroid = Platform.OS === "android"; // Simplified check
   const toggleSwitch = () => dispatch(changeTodayPrayer());
 
   const handleTimeChange = (event, selectedTime) => {
     const currentTime = selectedTime || time;
-    if (time !== currentTime) {
-      setShowPicker(Platform.OS === "ios");
+    if (currentTime !== time) {
+      setShowPicker(Platform.OS === "ios"); // Fix picker visibility for iOS
+      setTime(currentTime);
       dispatch(setTimeTransition({ timeTransition: currentTime }));
       dispatch(setSeason({ currentSeason: setCurrentSeasonLive(currentTime) }));
-      setTime(currentTime);
     }
   };
 
@@ -67,25 +68,19 @@ function TodaysPrayer() {
     <View
       style={[
         styles.container,
-        {
-          borderColor: primaryColor,
-          backgroundColor: navigationBarColor,
-        },
+        { borderColor: primaryColor, backgroundColor: navigationBarColor },
       ]}
     >
-      <View style={[styles.switchView]}>
-        <View style={styles.titleView}>
-          <Text
-            style={[
-              styles.title,
-              { fontSize: fontSize * 1.3, color: primaryColor },
-            ]}
-          >
-            {getLanguageValue("todayprayer")}
-          </Text>
-        </View>
+      <View style={styles.titleView}>
+        <Text
+          style={[
+            styles.title,
+            { fontSize: fontSize * 1.3, color: primaryColor },
+          ]}
+        >
+          {getLanguageValue("todayprayer")}
+        </Text>
       </View>
-
       <TimePickerSection />
     </View>
   );
@@ -96,9 +91,10 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10,
     borderRadius: 10,
+    borderWidth: 2,
   },
   titleView: {
-    flex: 2,
+    marginBottom: 10,
   },
   title: {
     fontFamily: "english-font",
@@ -121,7 +117,6 @@ const styles = StyleSheet.create({
   },
   switch: {
     flex: 1,
-    padding: 5,
     justifyContent: "center",
     alignItems: "flex-end",
   },

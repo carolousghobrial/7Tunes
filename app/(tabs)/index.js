@@ -8,8 +8,11 @@ import {
   Text,
   ActivityIndicator,
   TouchableOpacity,
+  Pressable,
   Alert,
 } from "react-native";
+import * as Updates from "expo-updates"; // Import expo-updates
+
 import { useLocalSearchParams, useRouter } from "expo-router";
 import BookView from "../../components/homepage/bookView.js";
 import homescreenPaths from "../../helpers/homescreenPaths.js";
@@ -39,6 +42,8 @@ const App = () => {
   } = useSelector((state) => state.settings);
 
   const [isLoading, setIsLoading] = useState(false);
+  const [updateAvailable, setUpdateAvailable] = useState(false); // Track if update is available
+  const [showUpdateModal, setShowUpdateModal] = useState(false); // Track if the modal should be visible
 
   const activeColors = useMemo(
     () => (darkMode ? Colors["dark"] : Colors["light"]),
@@ -161,7 +166,30 @@ const App = () => {
       setSeason({ currentSeason: setCurrentSeasonLive(timeTransition) })
     );
   }, [timeTransition]);
+  // Function to check for updates on app load
+  useEffect(() => {
+    const checkForUpdates = async () => {
+      try {
+        const update = await Updates.checkForUpdateAsync();
+        if (update.isAvailable) {
+          setUpdateAvailable(true);
+        }
+      } catch (error) {
+        console.error("Error checking for updates:", error);
+      }
+    };
 
+    checkForUpdates();
+  }, []);
+
+  const handleUpdate = async () => {
+    try {
+      await Updates.fetchUpdateAsync();
+      await Updates.reloadAsync(); // Reload the app after update
+    } catch (error) {
+      console.error("Error updating the app:", error);
+    }
+  };
   return (
     <ImageBackground
       source={require("../../assets/images/copticBackground.png")}
@@ -173,6 +201,14 @@ const App = () => {
           <View style={styles.loadingOverlay}>
             <ActivityIndicator size="large" color="#0000ff" />
           </View>
+        )}
+        {updateAvailable && (
+          <Pressable style={styles.updateButton} onPress={handleUpdate}>
+            <Text style={styles.updateText}>✨ Update available</Text>
+            <Pressable style={styles.reloadButton} onPress={handleUpdate}>
+              <Text style={styles.reloadText}>Reload</Text>
+            </Pressable>
+          </Pressable>
         )}
 
         {/* Breadcrumb Navigation */}
@@ -226,6 +262,30 @@ export default App;
 
 const styles = StyleSheet.create({
   backgroundImage: { flex: 1, width: "100%", height: "100%" },
+  updateButton: {
+    backgroundColor: "black",
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  updateText: {
+    color: "#ffffff",
+    fontSize: 16,
+    fontWeight: "600",
+  },
+  reloadButton: {
+    backgroundColor: "rgba(255, 255, 255, 0.2)",
+    paddingVertical: 6,
+    paddingHorizontal: 12,
+    borderRadius: 8,
+  },
+  reloadText: {
+    color: "#ffffff",
+    fontSize: 14,
+    fontWeight: "600",
+  },
   container: { flex: 1, padding: 10, alignItems: "center" },
   breadcrumbContainer: {
     flexDirection: "row",

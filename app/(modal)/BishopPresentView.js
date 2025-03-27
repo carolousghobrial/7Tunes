@@ -132,7 +132,12 @@ function BishopPresentView({ bottomSheetRef, snapPoints }) {
         {BishopIsPresent && (
           <>
             <View style={styles.switchView}>
-              <Text style={[styles.title, { fontSize, color: primaryColor }]}>
+              <Text
+                style={[
+                  styles.title,
+                  { fontSize, color: primaryColor, flex: 1 },
+                ]}
+              >
                 {morethan3BishopsText}
               </Text>
               <Switch

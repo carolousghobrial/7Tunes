@@ -9,7 +9,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "يا كُلُّ الصُفُوفِ السَمَائِيينْ،\nرَتِّلُوا لإلَهِنَا بِنَغَمَاتِ التَسْبِيحْ\nوإبْتَهِجُوا مَعَنَا اليَوْمَ فَرِحِينْ،\nبِقِيَامَةِ السَيِّدِ المَسِيحْ.",
-      "English": "All you heavenly orders,\nSing to our God with the melody of praise,\nRejoice with us today with gladness,\nIn the Resurrection of the Lord Christ."
+      "English": "All you heavenly orders,\nSing to our God with the melody of praise,\nRejoice with us today with gladness,\nIn the Resurrection of the Lord Christ.",
+      "ArabicEnglish": " Ya kol al sofoof al sama-eyeen, \n ratelo le-eelahena be naghamat el-tasbeeh, \n  wabe-tahegoo ma3na al-yowma fare7een, \n  be-qeyamat El-Sayed El-Masee7."
     },
     {
       "Type": "Melody",
@@ -17,7 +18,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "اليَوْمَ قَدْ كَمَلَتِ النُبُوَاتْ،\nوقَدْ تَمَّتْ أقْوَالُ الآبَاءِ الأوَّلِينْ،\nبِقِيَامَةِ الرَّبِّ من بَيْنِ الأمْوَاتْ،\nوهُوَ بَدْءُ المُضْطَجِعِينْ.",
-      "English": "Today the prophecies are fulfilled,\nAnd the sayings of the forefathers are realized,\nBy the Resurrection of the Lord from among the dead,\nHe is the first-fruit of those who have fallen asleep."
+      "English": "Today the prophecies are fulfilled,\nAnd the sayings of the forefathers are realized,\nBy the Resurrection of the Lord from among the dead,\nHe is the first-fruit of those who have fallen asleep.",
+      "ArabicEnglish": " Al-yowma qud kamalat el-nobowat,\n wa qad tamat akwalol-aba2 el-awaleen,\n be qeyamat El-Rabe men baynel-amwat, \n wa howa bad2ol mod-tage3een."
     },
     {
       "Type": "Melody",
@@ -25,7 +27,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "قَدْ قَامَ الرَّبُّ مِثْلُ النَائِمْ،\nوكَالثَمِلِ من اَلخَمَرَة،\nووَهَبَنَا النَعِيمَ الدَائِمْ،\nوعَتَقْنَا مِنْ اَلعُبُودِيَّة المُرَّة.",
-      "English": "The Lord arose as one who sleeps,\nAnd as one who is sated with wine,\nHe has granted us the everlasting joy,\nAnd freed us from bitter bondage."
+      "English": "The Lord arose as one who sleeps,\nAnd as one who is sated with wine,\nHe has granted us the everlasting joy,\nAnd freed us from bitter bondage.",
+      "ArabicEnglish": " Qad qam al-Rabo methlol-na2em, \n wa kal sa-mely men al-kamra, \n wa wahabana al-na-3eemol da2em, \n wa 3atakna men al-3obodeyatel-mora."
     },
     {
       "Type": "Melody",
@@ -33,7 +36,8 @@
       "Visible": true,
       "Side": "South",
       "Arabic": "وسَبَى اَلجَحِيمَ سَبْيَاً،\nوحَطَّمَ أبْوَابَهُ النُحَاسْ،\nوكَسَّرَ مَتَارِيسَهُ الحَدِيدَ كَسْرَاً،\nوأبْدَلَ لَنَا العُقُوبَةَ بِالخَلاصْ.",
-      "English": "He led Hades captive,\nAnd crushed the brass doors,\nHe utterly broke the bars of iron,\nAnd for us, exchanged punishment for salvation."
+      "English": "He led Hades captive,\nAnd crushed the brass doors,\nHe utterly broke the bars of iron,\nAnd for us, exchanged punishment for salvation.",
+      "ArabicEnglish": "Wa sabal-ga7ima sabian, \n wa 7atama abwa-bahol-no7as, \n wa qassar mataresahol-7adida kasran, \n wa abda la lanal-3oqobata bel-khalas."
     },
     {
       "Type": "Melody",
@@ -41,7 +45,8 @@
       "Visible": true,
       "Side": "North",
       "Arabic": "نُسَبِّحَهُ ونَزِيدْ رِفْعَتَهُ،\nونَعْتَرِفْ بِمَجْدِ قِيَامَتِهِ،\nونَشْكُرُهُ عَلَى عَظَيمِ نِعْمَتِهِ،\nلأنَّ إلى الأبَدِ رَحْمَتِهِ.",
-      "English": "We praise and increase His exaltation, \n And confess the glory of His Resurrection, \n We thank Him for His great grace, \n For His mercy endures forever."
+      "English": "We praise and increase His exaltation, \n And confess the glory of His Resurrection, \n We thank Him for His great grace, \n For His mercy endures forever.",
+      "ArabicEnglish": "Nosabe7a-ho wa nozedo ref3ataho, \n wa na3taref be-magde qeya-matehe, \n wa nash-koroho 3ala 3azeme ne3matehe, \n le-an elal-abadee ra7-matehe."
     }
   ]
 }
